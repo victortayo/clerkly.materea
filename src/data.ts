@@ -7855,8 +7855,1185 @@ Review: Continuous inpatient review by surgical team pre- and post-operatively. 
 },
 
   // Obstertric & Gynecology
+  {
+    id: 'ob-1',
+    title: 'Severe Pre-eclampsia',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Emergency',
+    condition: 'Pre-eclampsia',
+    symptoms: ['High blood pressure', 'Proteinuria', 'Chronic hypertension', 'G5P3+1'],
+    contributor: 'Admin',
+    lastModified: '2025-12-27',
+    summary: '39-year-old G5P3+1 with chronic hypertension and superimposed severe pre-eclampsia at 28 weeks + 5 days.',
+    content: `GYNAE EMERGENCY
+
+An unbooked 39-year-old G5P3+1 (3A), chronic hypertensive, at EGA of 28 weeks + 5 days, a businesswoman, Christian, Yoruba, with HLE: SSCE, residing at Ilesa, Osun State.
+
+LMP: 23/08/2024
+EDD: 30/05/2025
+EGA: 28 weeks + 5 days
+
+She was referred from Unity Specialist Hospital on account of elevated blood pressure (200/100 mmHg) and proteinuria 2+ for expert care and logistic reasons. She is a known hypertensive diagnosed 2 years ago, on antihypertensive therapy but not regular with drugs.
+
+Index pregnancy was spontaneously conceived, planned, desired. Pregnancy was suspected with a missed period and confirmed by early scan.
+Booked at a secondary hospital at EGA of 25 weeks.
+She has not yet commenced TT and IPT in this pregnancy.
+Currently on oral hematinics.
+
+Past obstetric history:
+2009 – VTOP at EGA 4 weeks; no PAC; no complications.
+2012 – 1st confinement: term SVD, male alive and well, delivered at a PHC in Osun State; uneventful puerperium.
+2014 – 2nd confinement: term SVD, female alive and well, delivered at a PHC in Osun State; uneventful puerperium.
+2022 – 3rd confinement: term SVD, male alive and well, delivered at Royal Haven Hospital, Osun State; uneventful puerperium.
+
+Menstrual history:
+Menarche at 16 years.
+Cycle: 28 days, 5-day duration, with dysmenorrhea.
+No menorrhagia, dyspareunia.
+Patient not aware of Pap smear.
+Aware of contraception but never used any.
+
+Medical history:
+Diagnosed hypertensive 2 years ago, currently on Nifedipine 30 mg daily.
+No history of diabetes, asthma, seizure disorder, or sickle cell disease.
+No previous hospital admissions, blood transfusions, or surgeries.
+No known drug or food allergies.
+
+Social history:
+Married to a 50-year-old truck driver, HLE: ND, second wife in a polygamous setting, with 3 children. Supportive of care.
+Does not smoke or take alcohol.
+
+O/E:
+Young woman, not in obvious distress, afebrile, not pale, anicteric, not cyanosed, not dehydrated, no peripheral lymphadenopathy, no finger clubbing, no pitting edema up to knees.
+
+RS:
+RR 20 cpm
+SpO₂ 96% in room air
+Breath sounds vesicular
+
+CVS:
+PR 94 bpm
+BP 180/100 mmHg
+S1 S2 heard
+
+ABD:
+Gravidly enlarged, moves with respiration
+SFH 31 cm
+Singleton fetus, longitudinal lie, cephalic presentation
+FHR 144 bpm
+
+VE:
+Normal vulva and vagina
+Cervix posterior, medium, uneffaced, os closed
+
+ASS:
+Chronic hypertension with superimposed severe pre-eclampsia at EGA 28 weeks + 5 days in an unbooked 39-year-old G5P3+1 (3A)
+
+PLAN:
+Counsel patient on diagnosis and management
+Admit to ANW, secure incubator space
+BPP without NST
+Urgent urinalysis (3+ protein, SG 1.020, pH 6.5)
+Daily urinalysis
+FBC + platelet count
+EUCr
+Liver function tests
+RVS
+HBsAg, HCV, VDRL
+Blood group and genotype
+Group and crossmatch 2 units of blood
+IM Dexamethasone 12 mg 12-hourly × 2 doses
+IV Labetalol 20 mg stat
+Tab Labetalol 200 mg bd
+Tab Nifedipine XL 30 mg bd
+Catheterize and monitor urine output
+IV MgSO₄ as per Zuspan regimen
+To commence FKC starting tomorrow
+Close monitoring of blood pressure
+Consult to the medical team on call for blood pressure control.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'ob-2',
+    title: 'ANC Booking',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Antenatal Care',
+    symptoms: ['Advanced maternal age', 'Previous CS scar', 'Previous perinatal loss', 'History of hypertensive disorder of pregnancy'],
+    contributor: 'Admin',
+    lastModified: '2025-12-27',
+    summary: '36-year-old G3P2+0 (1A) at 21 weeks + 3 days. Previous CS scar and perinatal loss.',
+    content: `ANC BOOKING
+
+LMP: 20/07/2025
+EGA: 21 weeks + 3 days
+EDD: 27/04/2026
+
+A 36-year-old G3P2+0 (1A), with one previous CS scar, a civil servant, Christian, Yoruba, residing at Ifo, Ogun State.
+
+Index pregnancy was planned for, desired and naturally conceived. Pregnancy was suspected using urine pregnancy test and confirmed with USS at EGA of 10 weeks 5 days. Pregnancy has been uneventful so far. Currently on Pregnacare.
+
+Obstetric history:
+– 20/07/2015: Delivered a live female baby at term via EMCS at a private hospital in Ogun State on account of suspected severe pre-eclampsia. Puerperium was uneventful. Child is alive and well.
+– 10/04/2025: Had SVD of a live male baby who died immediately after birth at a secondary health facility in Ogun State.
+
+Menstrual history:
+Menarche at 17 years.
+Cycle: 3–4/28 days.
+No dysmenorrhoea or menorrhagia.
+No history of contraceptive use.
+
+Gynaecological history:
+Aware of Pap smear and had one done last year in this facility, reported to be normal.
+
+Past medical history:
+Mother is hypertensive.
+Patient is not a known hypertensive, diabetic, asthmatic or sickle cell disease patient.
+No history of blood transfusion.
+No known drug or food allergies.
+
+Social history:
+Married to a 40-year-old civil servant in a monogamous setting.
+Occasional alcohol intake.
+Does not smoke cigarettes.
+
+Available investigations:
+1. Blood group – O positive
+2. HBsAg – Negative
+3. HCV – Negative
+4. VDRL – Non-reactive
+
+O/E
+A young woman, anxious, afebrile, not pale, no pedal oedema.
+Weight: 102.5 kg
+PR: 112 bpm
+BP: 123/81 mmHg
+
+ABD
+Gravidly enlarged abdomen, moves with respiration
+Pfannenstiel scar, healed by primary intention
+SFH: 21 cm (corresponds with gestational age)
+
+Risk stratification:
+Advanced maternal age, previous caesarean section, history of hypertensive disorder of pregnancy, previous perinatal loss.
+
+Assessment:
+Ongoing pregnancy in a 36-year-old G3P2+0 (1A) at EGA of 21 weeks + 3 days, with one previous caesarean section scar.
+
+Plan:
+1. FBS
+2. PCV, urinalysis
+3. RVS
+4. Continue Pregnacare
+5. Follow-up in 4 weeks.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'ob-3',
+    title: 'Antenatal Clinic',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Antenatal Care',
+    symptoms: ['G2P0+1', 'Antenatal booking', 'Pregnancy assessment', 'Routine ANC'],
+    contributor: 'Admin',
+    lastModified: '2025-12-27',
+    summary: '28-year-old G2P0+1 at 27 weeks + 6 days for routine booking. Uneventful pregnancy.',
+    content: `ANTENATAL CLINIC
+
+Patient seen.
+A 28-year-old G2P0+1, housewife, residing at Kemta, Abeokuta, Christian, Yoruba.
+LMP: 26/08/23
+EGA: 27 weeks + 6 days 
+EDD: 1/06/24
+
+She presented today for antenatal booking. Pregnancy has been uneventful. No lower abdominal pain, no vaginal bleeding, no discharge, no headaches, visual disturbance or swelling. She is yet to donate blood.
+Has had one dose of TT in this pregnancy, yet to commence IPT.
+
+Booking investigations:
+HIV: Negative
+Others not yet done
+
+Index pregnancy was spontaneously conceived, planned and desired. Suspected following a period of amenorrhoea, confirmed via urine PT, and later localized with an early ultrasound scan.
+
+Attained menarche at 15 years. Menses lasts 4 days in a 28-day cycle. No dysmenorrhoea, intermenstrual bleeding, menorrhagia, dyspareunia or postcoital bleeding. She is aware of contraceptives but does not use any. She is not aware of Pap smear and has never done one.
+
+She is not a known hypertensive, diabetic, asthmatic or PUD patient. Not epileptic. No previous blood transfusion. No known drug or food allergies.
+
+Social history:
+Married in a monogamous setting to a 32-year-old commercial motorcyclist. She does not smoke nor take alcohol.
+
+O/E: 
+Young woman, in NAD, not pale, anicteric, acyanosed, not dehydrated, no pedal oedema.
+RR: 20 cpm 
+PR: 76 bpm
+BP: 112/69 mmHg
+
+ABDOMEN
+Gravidly enlarged, moves with respiration. Nil area of tenderness.
+SFH: 27 cm
+FHR: 154 bpm
+
+ASS: 
+Ongoing cyesis in a booked 28-year-old G2P0+1 at EGA 27 weeks + 6 days.
+
+PLAN
+To do required booking investigations
+Tabs Fansidar iii stat
+Tabs Ferrous Sulphate 200 mg daily
+Tabs Folic Acid 5 mg daily
+Tabs B complex 1 daily
+Tabs Vitamin C 200 mg tds
+Encourage patient to ensure ANC blood donation
+See in 2/52.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'ob-4',
+    title: 'Symptomatic Uterine Fibroid',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Abnormal Uterine Bleeding',
+    symptoms: ['Lower abdominal pain', 'Heavy menstrual bleeding', 'Abdominal swelling', 'Dysmenorrhea', 'Uterine fibroid'],
+    contributor: 'Admin',
+    lastModified: '2025-12-27',
+    summary: '45-year-old P4+0 with symptomatic uterine fibroids presenting with lower abdominal pain and heavy menstrual bleeding.',
+    content: `GYNAE CLINIC
+
+Patient Seen
+A 45-year-old P4+0 (3A) married food seller, Ede, Osun State, Christian, Yoruba, with HLE: Primary.
+
+LMP: 06/09/2025
+
+PC:
+Recurrent lower abdominal pain × 5 years
+Heavy menstrual bleeding × 2 weeks
+
+HPC:
+She was in her usual state of health until about 5 years when she noted recurrent lower abdominal pain described as dull, intermittent, insidious, sometimes radiating to the back, no aggravating factors, pain severity 5–7/10, severe enough to affect daily activities.
+There is an associated abdominal swelling first noticed 2 years ago, non-progressive, mildly tender, worse with periods.
+
+Heavy menstrual bleeding started about 2 weeks ago at onset of period, described as dark, foul-smelling blood with passage of clots, but no change in number of pads used per day. Associated dizziness noted, no fainting, weakness, or seizures. No abnormal vaginal discharge. Positive family history of uterine fibroid.
+
+She attained menarche at 15 years. First pregnancy at 17 years. 
+No history of swelling elsewhere, weight loss, urinary symptoms, or prior abortions. 
+There is a positive history of dysmenorrhea and dyspareunia. 
+Patient is not aware of Pap smear but was counseled. 
+Aware of contraception but does not use any.
+
+Obstetric history:
+1st confinement – 1998, booked, term male via SVD, BW 3.5 kg, uneventful puerperium
+2nd confinement – 2000, booked, term male/female via SVD, BW 3.7 kg, uneventful puerperium
+3rd confinement – 2002, booked, term female via SVD, BW 3.0 kg, uneventful puerperium
+4th confinement – 2005, booked, term male via SVD, BW 3.4 kg, uneventful puerperium; child died at 7 years from RTA
+All other children alive and well
+
+Past Medical History:
+She is a known hypertensive diagnosed 1 year ago at a local hospital, defaulted treatment, irregular on antihypertensives. 
+She uses Ibuprofen and other NSAIDs regularly. 
+Not known diabetic, asthmatic, seizure disorder, or sickle cell disease. 
+No prior hospital admissions, blood transfusions, or surgeries.
+
+Social History:
+Married in a monogamous family with 3 children. 
+Spouse 60 years old, security guard, HLE: secondary. 
+No smoking or alcohol use. 
+
+Family history of twinning in brother.
+No known drug or food allergy.
+
+O/E:
+Middle-aged woman, afebrile (36.1°C), mildly pale, anicteric, not cyanosed, not dehydrated, mild bilateral pitting pedal edema up to shin.
+
+CVS:
+PR 73 bpm
+BP 160/102 mmHg
+
+Chest:
+RR 22 cpm
+SpO₂ 98% room air
+Breath sounds vesicular
+
+ABD:
+Obese, moves with respiration
+Mild suprapubic tenderness
+Uterus 12-week size, L0S0K0
+
+Speculum:
+Normal vulva and vagina
+Cervix smeared with altered blood, os closed, no active bleeding
+
+VE:
+Cervix posterior, firm, 2 cm long, os closed, examining finger stained with altered blood
+
+ASS:
+Abnormal uterine bleeding, ?secondary to uterine fibroid
+
+PLAN:
+Pelvic USS
+Urgent PCV
+EUCr
+Tab Nifedipine 30 mg bd
+Tab Ferrous 200 mg daily
+Tab Vitamin C 200 mg daily
+See Gynae clinic on Wednesday
+See Cardiology clinic
+Review PCV result before discharge
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'ob-5',
+    title: 'Fibroid Degeneration in Pregnancy',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Emergency',
+    condition: 'Fibroid Degeneration',
+    symptoms: ['Lower abdominal pain', 'Retching', 'Low back ache', 'Abdominopelvic mass', 'Tenderness', 'Serum pregnancy test positive'],
+    contributor: 'Admin',
+    lastModified: '2025-12-28',
+    summary: '36-year-old G3P0+2 at 6 weeks 3 days with lower abdominal pain and tender abdominopelvic mass. Suspected fibroid degeneration.',
+    content: `GYNAE EMERGENCY 
+
+36-year-old married Christian Yoruba female, G3P0+2, primary school teacher, resides in a Ede, Osun State.
+
+LMP: 15/09/2025
+EDD: 22/06/2026
+EGA: 6 weeks 3 days
+PC: Lower abdominal pain × 1 day
+HPC:
+She was apparently well until 1 day ago when she developed lower abdominal pain localised to the lower abdomen, more in the centre of the lower abdomen, and also felt in the right and left lower abdomen. Pain is colicky, waxing and waning, no particular aggravating or relieving factor. She also gave history of retching though not vomiting. No fever, though she gave history of chills. No headache. No urinary symptoms. She also gave history of low back ache which has been recurrent. No diarrhea. No bleeding or spotting per vaginam, no blurring of vision, no dizziness, no fainting attack. No other complaint. Patient has done a USS in the past which discovered uterine fibroids, though the scan was not presented. She presented this morning on account of worsening symptoms. Patient also did a serum pregnancy test 1 week ago which was positive. She has however not localised the pregnancy with USS nor booked the pregnancy.
+
+
+She attained menarche at the age of 18 years, menstruates for 3-5 days in a regular 28 day cycle. 
+No heavy menstrual bleeding, intermenstrual or postcoital bleeding. 
+No dysmenorrhea or dyspareunia. 
+She has history of 2 VTOPs which were surgically evacuated by dilatation and curettage. No postabortal sequelae. 
+She is aware of family planning methods. 
+
+She is not a known hypertensive, diabetic, asthmatic, or seizure disorder patient. 
+She has no history of blood transfusion or surgery. 
+
+She is married in a monogamous setting to a business man. 
+She does not smoke cigarette nor take alcoholic drinks. 
+
+She has no drug or food allergy. 
+
+Review of system is not contributory.
+
+O/E:
+A young woman, conscious, alert, oriented in time, place and person, in moderate painful distress, not in respiratory distress, afebrile T is 36.1 C, not pale, anicteric, acyanosed, not dehydrated, no pedal edema
+
+RS:
+RR 22 cpm
+SpO2 in room air is 99 %
+
+CVS:
+PR 96 bpm, full volume and regular
+BP 156/108 mmHg
+
+ABDOMEN:
+Full, moves with respiration
+Moderate generalised tenderness, more in suprapubic region and right and left iliac fossa
+Abdominopelvic mass about 26 weeks size, relatively mobile, irregular, tender, firm, moves freely under the overlying skin
+LoSoKo
+
+VE:
+Normal female external genitalia
+SPECULUM revealed healthy looking closed cervix, no bleeding or spotting per vaginam
+DIGITAL revealed posterior, firm, uneffaced, closed cervix, pouch of Douglas not full, no adnexal tenderness bilaterally
+
+Assessment:
+Suspected fibroid degeneration in pregnancy in an unbooked G3P0+2 at 6 weeks 3 days EGA
+
+Plan:
+Counsel patient on findings, diagnosis, and management plan
+Admit to Gynae Emergency
+Urgent labs: FBC (PCV), blood film for malaria parasite, urinalysis, blood group, serum pregnancy test, HBsAg, HCV, RVS, RBS
+Abdominopelvic USS / Transvaginal USS
+Pain management: IM Pentazocine 30 mg stat, IV Paracetamol 1 g q6h
+IVF: 0.9% N/S 1 L stat, then 500 mL q4h
+Close monitoring of vital signs
+Review with USS results
+Inform consultant on call
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'ob-6',
+    title: 'Routine Antenatal Visit in a Chronic Hypertensive with Previous Caesarean Section',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Early pregnancy with chronic hypertension and previous caesarean section',
+    symptoms: [
+      'Routine antenatal clinic visit',
+      'Chronic hypertension in pregnancy',
+      'One previous caesarean section scar',
+      'History of neonatal mortality',
+      'Booked pregnancy',
+      'Early gestation (first trimester)'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-21',
+    summary: 'A booked 26-year-old G2P1+0 woman with chronic hypertension, one previous caesarean section, and a history of neonatal mortality, seen for routine antenatal care at 12 weeks gestation.',
+    content: `
+Seen in Antenatal Clinic
+  
+A booked 26-year-old G2P1+0 (NA), chronic hypertensive, with one previous CS scar and history of neonatal mortality.
+  
+LMP: 14/01/2024  
+EGA: 12 weeks + 1 day  
+EDD: 20/10/2024  
+  
+She presented today for routine ANC. Pregnancy has been uneventful. No lower abdominal pain, no vaginal bleeding, no discharge, no dizziness, no headache, no visual disturbance, no palpitations, no leg swelling and no urinary symptoms. She is yet to donate blood.
+  
+She has not received TT or IPT in this pregnancy.
+  
+Booking Investigations:
+Blood Group: O Rh “D” Positive  
+Hb genotype: AA  
+HIV: Negative  
+VDRL: Non-reactive  
+PCV and Urinalysis: not yet done  
+  
+Currently on:
+Tab Ferrous Sulphate 200 mg daily  
+Tab Vitamin C 200 mg TDS  
+Tab Folic Acid 5 mg daily  
+Tab Methyldopa 250 mg once daily  
+  
+O/E:
+A young woman, in no apparent distress, not pale, anicteric, acyanosed, not dehydrated, no pedal oedema.
+  
+Vital Signs:
+RR: 24 cpm  
+PR: 87 bpm  
+BP: 135/95 mmHg  
+  
+Abdominal Examination:
+Previous midline incision scar seen. Abdomen gravidly enlarged, moves with respiration. No area of tenderness. No palpable organomegaly.
+  
+Assessment:
+Ongoing early pregnancy in a booked 26-year-old G2P1+0 (NA), chronic hypertensive, with previous midline CS scar and history of neonatal mortality at EGA of 12 weeks + 1 day.
+  
+Plan:
+Counselled appropriately on optimal blood pressure control and regular BP checks.
+To complete outstanding booking investigations (HBsAg, HCV, PCV, urinalysis).
+To take first dose of tetanus toxoid.
+Continue current medications.
+Review in 4/52.
+`,
+bookmarkCount: 0
+},
 {
-  id: 'ob-1',
+  id: 'ob-7',
+  title: 'Active Phase of Labour in a Multigravida at Term',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Active phase of labour at 38 weeks + 4 days gestation with singleton cephalic fetus',
+  symptoms: [
+    'Intermittent lower abdominal pains for 7 hours',
+    'Pains progressively increasing in frequency and intensity',
+    'Passage of show',
+    'Good fetal movements perceived',
+    'Three palpable contractions in 10 minutes (each lasting 30 seconds)',
+    'Cervix 4 cm dilated, 50% effaced',
+    'Presenting part at station 0',
+    'Membranes intact',
+    'Fetal heart rate 150 bpm (normal)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-29',
+  summary: 'A 34-year-old booked G3P1+1 (1 alive) trader from Enugu presenting in active phase of labour at 38 weeks + 4 days gestation. Spontaneous onset of labour 7 hours ago with regular contractions. Previous obstetric history: one normal vaginal delivery (2017) and one first-trimester spontaneous pregnancy loss (2021). Current pregnancy: booked at 19 weeks, regular antenatal care, blood group B positive, genotype AA, received tetanus toxoid and IPT. On examination: singleton fetus in longitudinal lie with cephalic presentation, EFW ~3.0 kg, cervix 4 cm dilated with intact membranes. Normal maternal vital signs and reassuring fetal heart rate. Plan for expectant management with partograph monitoring and anticipated spontaneous vaginal delivery.',
+  content: `
+OBSTETRICS/LABOUR WARD
+
+A 34-year-old booked G3P1+1 (1 alive), trader, Igbo, Christian, residing in Enugu, Enugu State, seen in the labour ward.
+
+OBSTETRIC DATA
+LMP: 05/03/2023
+EDD: 10/12/2023
+EGA: 38 weeks + 4 days (Term gestation)
+
+CHIEF COMPLAINT
+Intermittent lower abdominal pains × 7 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was in her usual state of health until about 7 hours prior to presentation when she developed intermittent lower abdominal pains. The pains have progressively increased in frequency and intensity and are associated with passage of show.
+
+There is no history of drainage of liquor and no vaginal bleeding.
+She perceives good fetal movements.
+There is no history of use of oxytocics prior to onset of contractions.
+She did not present to any other health facility before coming here.
+
+ANTENATAL HISTORY
+
+Conception and Early Pregnancy:
+- Index pregnancy was spontaneously conceived, planned and desired
+- Pregnancy suspected following missed period
+- Confirmed with positive pregnancy test
+- Localized with obstetric ultrasound scan at approximately 15 weeks' gestation
+
+Antenatal Care:
+- Booked for antenatal care at 19 weeks' gestation in this facility
+
+Booking Investigations:
+- Blood group: B positive
+- Genotype: AA
+
+Preventive Care:
+- Received 3 doses of tetanus toxoid
+- Received 3 doses of intermittent preventive therapy (IPT) for malaria
+- Regular on oral haematinics
+
+Blood Donation:
+- Yet to donate blood antenatally
+
+PAST OBSTETRIC HISTORY
+
+2017:
+- Spontaneous vaginal delivery
+- Live female infant
+- Term gestation
+- Delivered in this facility
+- Child is alive and well
+
+2021:
+- First trimester spontaneous pregnancy loss at 7 weeks' gestation
+- Manual vacuum aspiration (MVA) performed
+- No post-procedure complications
+
+Summary: P1+1 (1 alive)
+
+GYNAECOLOGICAL HISTORY
+- Menarche at 14 years
+- Regular 28-day menstrual cycle
+- 4 days flow
+- No history of menorrhagia, dysmenorrhoea, dyspareunia, or post-coital bleeding
+
+PAST MEDICAL HISTORY
+- Not a known hypertensive
+- Not diabetic
+- Not asthmatic
+- Not epileptic
+- No peptic ulcer disease
+
+PAST SURGICAL HISTORY
+- No previous surgical intervention (apart from MVA in 2021)
+
+DRUG AND ALLERGY HISTORY
+- No prior blood transfusion
+- No known drug or food allergies
+
+SOCIAL HISTORY
+- Married to a 37-year-old businessman
+- Monogamous setting
+- Does not smoke cigarettes
+- Does not consume alcohol
+
+EXAMINATION
+
+General Examination:
+A young woman in mild painful distress
+Not pale, afebrile, not dehydrated
+No pedal oedema
+
+Respiratory System:
+Respiratory rate: 18 cycles per minute
+Chest clinically clear
+
+Cardiovascular System:
+Pulse rate: 90 beats per minute, regular, good volume
+Blood pressure: 108/68 mmHg
+Heart sounds S1 and S2 only
+
+Abdominal Examination:
+
+Inspection:
+- Gravid uterus
+- No obvious scars
+
+Palpation:
+- Symphysiofundal height: 35 cm
+- Estimated fetal weight: approximately 3.0 kg
+- Singleton fetus
+- Longitudinal lie
+- Cephalic presentation
+- Presenting part: 2/5 palpable above pelvic brim (engaged)
+
+Uterine Contractions:
+- Three palpable contractions in 10 minutes
+- Each lasting approximately 30 seconds
+- Moderate intensity
+
+Fetal Heart Rate:
+- 150 beats per minute, regular
+- Reassuring
+
+Vaginal Examination:
+
+External genitalia:
+- Normal vulva and vagina
+
+Cervical Assessment:
+- Position: Central
+- Consistency: Soft
+- Effacement: 50%
+- Dilatation: 4 cm
+
+Presenting Part:
+- Cephalic (vertex)
+- Station: 0 (at level of ischial spines)
+- Position: 
+- Moulding: None 
+
+Membranes:
+- Intact and felt
+
+Pelvis:
+- Adequate (clinically)
+
+ASSESSMENT
+
+Active phase of labour in a booked 34-year-old G3P1+1 (1 alive) at 38 weeks + 4 days gestation with a singleton cephalic fetus
+
+Features:
+- Spontaneous onset of labour
+- Regular uterine contractions (3 in 10 minutes, each 30 seconds)
+- Cervix 4 cm dilated (active phase: ≥4 cm)
+- Progressive cervical changes (associated with show)
+- Membranes intact
+- Good maternal condition
+- Reassuring fetal heart rate (150 bpm)
+
+Stage of Labour: First stage - Active phase
+
+Risk Assessment:
+- Low-risk labour
+- Previous normal vaginal delivery (favourable)
+- Term gestation (38+4 weeks)
+- Adequate pelvis
+- Normal estimated fetal weight (~3.0 kg)
+- No maternal or fetal complications identified
+
+PLAN
+
+1. ADMISSION AND LABOUR MONITORING
+
+Admission:
+- Admit into labour ward
+- Allocate to appropriate bay/room
+- Inform consultant obstetrician
+
+Labour Monitoring:
+- Commence partograph for labour monitoring
+  • Document cervical dilatation
+  • Plot on alert and action lines
+  • Monitor progress every 4 hours (or as indicated)
+
+2. MATERNAL MONITORING
+
+Vital Signs:
+- 4-hourly monitoring:
+  • Blood pressure
+  • Pulse rate
+  • Temperature
+  • Respiratory rate
+- More frequent if abnormalities detected
+
+Urine:
+- Encourage voiding every 2-4 hours
+- Check for proteinuria if indicated
+- Monitor urine output
+
+Pain Assessment:
+- Regular pain assessment
+- Provide analgesia as required
+
+3. FETAL MONITORING
+
+Fetal Heart Rate:
+- 30-minutely monitoring in first stage of labour
+- Auscultate for 1 full minute after contraction
+- Document on partograph
+- Normal range: 110-160 bpm
+- Report if:
+  • <110 bpm (bradycardia)
+  • >160 bpm (tachycardia)
+  • Decelerations
+  • Irregular rhythm
+
+Fetal Movements:
+- Enquire about fetal movements
+- Should remain good throughout labour
+
+Meconium-stained liquor:
+- Monitor for passage when membranes rupture
+- Inform paediatrician if present
+
+4. UTERINE CONTRACTION MONITORING
+
+Frequency:
+- Palpate and document every 30 minutes
+- Normal: 3-5 contractions per 10 minutes in active labour
+
+Duration:
+- Each contraction 40-60 seconds optimal
+
+Intensity:
+- Assess as mild, moderate, or strong
+
+Abnormalities to watch for:
+- Uterine hypertonus
+- Hypertonic contractions (too frequent/prolonged)
+- Hypotonic contractions (inadequate)
+
+5. PROGRESS OF LABOUR MONITORING
+
+Cervical Assessment:
+- Repeat vaginal examination every 4 hours (or as indicated)
+- Document:
+  • Cervical dilatation
+  • Effacement
+  • Position
+  • Station of presenting part
+  • Moulding
+  • Caput formation
+  • Membrane status
+
+Expected Progress:
+- Primigravida: 1 cm/hour (minimum 0.5 cm/hour)
+- Multigravida: 1-2 cm/hour (usually faster)
+- This patient is multigravida → expect faster progress
+
+Descent of Presenting Part:
+- Should descend with each vaginal examination
+- Document station (relation to ischial spines)
+
+Signs of Second Stage:
+- Complete cervical dilatation (10 cm)
+- Urge to bear down
+- Anal dilatation
+- Presenting part visible at introitus
+
+6. INTRAVENOUS ACCESS AND BLOOD WORK
+
+IV Access:
+- Establish intravenous access
+- Insert 18G or 16G cannula
+- Keep patent with IV fluids
+
+Blood Investigations:
+- Send blood for grouping and cross-matching
+- Prepare at least 2 units of blood (precautionary)
+- Full blood count if not recently done
+- Consider clotting profile if risk factors present
+
+7. HYDRATION AND NUTRITION
+
+Fluids:
+- Maintain adequate hydration
+- IV fluids: 0.9% Normal Saline or Ringer's Lactate
+- Rate: 125 ml/hour (maintenance)
+- Adjust based on oral intake and urine output
+
+Oral Intake:
+- Clear fluids encouraged in early active labour
+- Sips of water allowed
+- NPO (nil per os) not strictly enforced unless general anaesthesia anticipated
+
+8. ANALGESIA
+
+Pain Relief Options:
+
+Non-pharmacological:
+- Emotional support
+- Position changes
+- Back massage
+- Breathing techniques
+
+Pharmacological:
+- Provide analgesia as required:
+
+Option 1: Pentazocine (Opioid analgesic)
+- Dose: 30-45 mg IM
+- Can repeat after 3-4 hours if needed
+- Monitor for respiratory depression
+
+Option 2: Tramadol
+- Dose: 50-100 mg IM
+- Less respiratory depression
+
+Option 3: Pethidine (if available)
+- Dose: 50-100 mg IM
+- Avoid if delivery anticipated within 2-4 hours (neonatal respiratory depression)
+
+Contraindications:
+- Advanced labour (avoid 2-4 hours before delivery)
+- Fetal distress
+
+9. STRICT INPUT AND OUTPUT CHARTING
+
+Input:
+- Document all IV and oral fluids
+- Target: adequate hydration without fluid overload
+
+Output:
+- Monitor urine output
+- Encourage voiding every 2-4 hours
+- Catheterize if unable to void and bladder distended
+- Target: >30 ml/hour
+
+Fluid Balance:
+- Monitor for fluid overload or dehydration
+
+10. PREPARATION FOR DELIVERY
+
+Anticipated Delivery:
+- Prepare for anticipated spontaneous vaginal delivery
+- Based on:
+  • Previous successful vaginal delivery
+  • Good progress in labour
+  • Normal fetal weight
+  • Adequate pelvis
+
+Delivery Room Preparation:
+- Ensure delivery room ready
+- Check resuscitation equipment functional
+- Ensure adequate lighting
+
+Delivery Kit:
+- Sterile delivery packs ready
+- Instruments available
+- Oxytocics available (Oxytocin, Ergometrine)
+- Suturing materials ready
+
+11. COMMUNICATION AND TEAM PREPARATION
+
+Neonatal Team:
+- Inform neonatal team at the onset of second stage
+- Ensure paediatrician or trained personnel available
+- Especially important if:
+  • Meconium-stained liquor
+  • Abnormal fetal heart rate
+  • Anticipated complications
+
+Consultant Notification:
+- Keep consultant obstetrician informed of progress
+- Inform immediately if:
+  • Abnormal fetal heart rate
+  • Poor progress of labour
+  • Maternal complications
+  • Need for intervention
+
+Blood Bank:
+- Confirm blood availability
+- Especially if risk factors for PPH
+
+Anaesthetist:
+- On standby if high-risk features or intervention anticipated
+
+12. MANAGEMENT OF LABOUR STAGES
+
+First Stage - Active Phase (Current):
+- Continue monitoring as outlined above
+- Expect duration:
+  • Primigravida: 6-12 hours
+  • Multigravida: 2-6 hours (usually faster)
+- This patient (multigravida): likely 3-6 hours
+
+Indications for Intervention:
+- Prolonged labour (failure to progress)
+- Fetal distress
+- Maternal complications
+
+Second Stage (When Fully Dilated):
+- Allow spontaneous pushing with contractions
+- Encourage effective pushing
+- Monitor fetal heart rate every 5 minutes
+- Prepare for delivery
+- Episiotomy if indicated
+- Neonatal team present
+
+Third Stage (After Delivery):
+- Active management:
+  • Oxytocin 10 IU IM immediately after delivery of anterior shoulder
+  • Controlled cord traction
+  • Uterine massage
+- Examine placenta and membranes for completeness
+- Estimate blood loss
+- Inspect for perineal/vaginal tears
+
+Fourth Stage (First Hour Postpartum):
+- Monitor vital signs every 15 minutes for first hour
+- Monitor vaginal bleeding
+- Check uterine tone
+- Initiate breastfeeding
+
+13. ANTICIPATE AND PREPARE FOR COMPLICATIONS
+
+Potential Complications to Watch For:
+
+Maternal:
+- Prolonged labour
+- Obstructed labour (less likely in multigravida)
+- Uterine rupture (risk factor: previous uterine surgery - but MVA not significant risk)
+- Postpartum haemorrhage
+- Perineal tears
+- Retained placenta
+
+Fetal:
+- Fetal distress
+- Meconium aspiration
+- Birth asphyxia
+- Birth trauma
+
+Prevention:
+- Close monitoring via partograph
+- Early recognition of abnormalities
+- Timely intervention
+
+14. SPECIAL CONSIDERATIONS
+
+Previous MVA (2021):
+- Not a risk factor for current labour
+- No significant uterine scarring expected
+
+Blood Group B Positive:
+- Rhesus positive → no anti-D immunoglobulin needed
+- Blood available for cross-matching
+
+Genotype AA:
+- No sickle cell disease concerns
+- Baby will be at least AS if father is AS, or AA if father is AA
+
+15. DOCUMENTATION
+
+Maintain accurate records:
+- Partograph (essential)
+- Maternal vital signs
+- Fetal heart rate
+- Uterine contractions
+- Vaginal examination findings
+- Fluids administered
+- Medications given
+- Labour events
+- Delivery details
+- Immediate postpartum period
+
+16. PATIENT AND FAMILY COMMUNICATION
+
+Inform patient:
+- Progress of labour
+- Expected timeline
+- Pain relief options
+- What to expect during delivery
+
+Family Involvement:
+- Allow birth companion if hospital policy permits
+- Keep family informed of progress
+- Ensure privacy and dignity maintained
+
+17. PROGNOSIS
+
+Excellent prognosis given:
+- Term gestation (38+4 weeks)
+- Previous successful vaginal delivery
+- Normal maternal and fetal condition
+- Low-risk pregnancy
+- Adequate pelvis
+- Normal estimated fetal weight
+- Good antenatal care
+- Appropriate labour monitoring
+
+Expected Outcome:
+- Spontaneous vaginal delivery
+- Healthy mother and baby
+
+FOLLOW-UP
+
+Immediate postpartum:
+- Monitor for complications
+- Ensure successful breastfeeding initiation
+- Postpartum care and counselling
+
+Postnatal Visit:
+- Day 3 postnatal visit
+- 6-week postnatal visit
+- Family planning counselling
+
+Discharge Planning:
+- If uncomplicated delivery: discharge after 24-48 hours
+- Provide postnatal care instructions
+- Schedule follow-up visits
+`,
+bookmarkCount: 0
+},
+{
+  id: 'ob-8',
+  title: 'Active Phase of Labour (Booked Patient)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics / Labour Ward',
+  condition: 'Normal Labour',
+  symptoms: [
+    'Lower abdominal pain',
+    'Uterine contractions',
+    'Passage of show'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-01',
+  summary: '35-year-old booked G3P1+1 at 38 weeks + 5 days gestation presenting with regular uterine contractions and cervical dilation consistent with active phase of labour.',
+  content: `A 35-year-old booked G3P1+1 (1 alive) woman, civil servant, Christian, who resides in Akure, Ondo State.
+
+Obstetric Dating
+LMP: 12/02/2023
+EDD: 19/11/2023
+EGA: 38 weeks + 5 days
+
+PC
+On-and-off lower abdominal pains × 9 hours
+
+HPC
+She was apparently well until about 9 hours prior to presentation when she developed intermittent lower abdominal pains. The pains were initially mild and infrequent but have progressively increased in frequency and intensity.
+
+Each contraction lasts about 30–35 seconds and occurs approximately 3 times in 10 minutes.
+
+The pains are associated with passage of show. There is no history of drainage of liquor and no vaginal bleeding. She perceives good fetal movements.
+
+There is no history of use of herbal medications or oxytocics prior to onset of contractions. She did not present to any other facility before coming here.
+
+Antenatal History
+The index pregnancy was spontaneously conceived, planned, and desired. Pregnancy was suspected following a missed period and confirmed with a positive pregnancy test. An obstetric ultrasound scan done at about 14 weeks gestation confirmed an intrauterine pregnancy.
+
+She booked for antenatal care at 18 weeks gestation in this facility and has had regular antenatal visits.
+
+Investigations at booking:
+Blood group: A positive
+Genotype: AS
+
+She has received three doses of tetanus toxoid and three doses of intermittent preventive therapy for malaria. She has been regular on antenatal haematinics.
+
+There were no antenatal complications. She has not donated blood antenatally.
+
+Past Obstetric History
+2019: Term spontaneous vaginal delivery of a live female infant in this facility. Child is alive and well. No complications.
+
+2021: First trimester pregnancy loss at 8 weeks gestation. Manual vacuum aspiration was done. No complications.
+
+Gynaecological Hx
+Menarche at 15 years.
+Regular menstrual cycle (28-day cycle, flow lasting 4 days).
+No history of dysmenorrhoea, menorrhagia, dyspareunia, or post-coital bleeding.
+
+PMH & PSHx
+She is not a known hypertensive, diabetic, asthmatic, epileptic, or peptic ulcer disease patient.
+No previous surgeries.
+No history of blood transfusion.
+
+Drug & Allergy Hx
+No known drug allergies.
+Only antenatal haematinics used in pregnancy.
+
+Social Hx
+She is married in a monogamous setting.
+Husband alive and well.
+Does not smoke cigarettes.
+Does not take alcohol.
+Has good social support.
+
+Review of Systems
+No headache, visual disturbance, or epigastric pain.
+No chest pain or difficulty breathing.
+
+O/E
+Young pregnant woman, conscious and alert, in mild painful distress.
+Not pale, afebrile, anicteric, not dehydrated.
+No pedal oedema.
+
+Vital Signs
+Temp: Afebrile
+PR: 88 bpm, regular
+BP: 110/72 mmHg
+RR: 18 cpm
+
+CHEST
+Chest expansion symmetrical.
+Breath sounds vesicular.
+No added sounds.
+
+CVS
+Pulse regular, good volume.
+Heart sounds S₁ and S₂ only.
+
+ABDOMEN (Obstetric)
+Abdomen uniformly enlarged by gravid uterus.
+Symphysiofundal height: 35 cm.
+Estimated fetal weight: approximately 3.2 kg.
+
+Lie: Longitudinal
+Presentation: Cephalic
+
+Uterine contractions: 3 in 10 minutes, lasting 30–35 seconds, moderate intensity.
+
+Fetal heart rate: 148 bpm, regular.
+
+No uterine tenderness.
+
+VAGINAL EXAMINATION
+Vulva and vagina normal.
+No abnormal discharge or bleeding.
+
+Cervix central, soft, 60% effaced, and 4 cm dilated.
+
+Presenting part cephalic.
+Station 0.
+
+Membranes intact.
+
+Pelvis clinically adequate.
+
+ASSESSMENT
+Active phase of labour in a booked 35-year-old G3P1+1 (1 alive) at 38 weeks + 5 days gestation with a singleton live fetus in cephalic presentation.
+
+Mother and fetus clinically stable.
+
+PLAN
+
+Admission
+Admit into labour ward.
+
+Monitoring
+Commence partograph monitoring.
+Monitor fetal heart rate every 30 minutes.
+Monitor uterine contractions.
+Monitor maternal pulse, blood pressure, and temperature 4-hourly.
+Monitor progress of labour with vaginal examination every 4 hours or as indicated.
+
+Investigations
+Establish intravenous access.
+Send blood for grouping and cross-matching.
+Packed cell volume if not recently done.
+
+Supportive Care
+Maintain adequate hydration (oral or IV fluids as indicated).
+Provide labour analgesia as required.
+Encourage ambulation if no contraindication.
+
+Preparation for Delivery
+Prepare for spontaneous vaginal delivery.
+Maintain strict asepsis.
+Inform neonatal team at onset of second stage.
+Prepare delivery pack and neonatal resuscitation equipment.
+
+Documentation
+Continue documentation on partograph.
+Monitor maternal and fetal wellbeing closely.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'ob-9',
   title: 'Chronic Hypertension with Superimposed Severe Pre-Eclampsia at 28 Weeks',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynaecology Emergency / Antenatal Ward',

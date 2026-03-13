@@ -4,7 +4,3047 @@ export const INITIAL_TEMPLATES: Template[] = [
 
   // Pediatrics
 
+  {
+    id: 'peds-1',
+    title: 'Acute Asthma Exacerbation',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Children Emergencies',
+    condition: 'Asthma',
+    symptoms: ['Nasal discharge', 'Cough', 'Difficulty in breathing', 'Fast breathing', 'Chest in-drawing', 'Wheezing'],
+    contributor: 'Admin',
+    lastModified: '2025-12-27',
+    summary: '2-year-old female with acute asthma exacerbation (probable viral-triggered) on background of previous similar episodes.',
+    content: `2-year-old female toddler who resides with her Christian Igbo parents at Ijebu-Ode, Ogun State
 
+PC:
+Nasal discharge x 4/7
+Cough x 1/7
+Difficulty in breathing x 1/7
+
+She was apparently well until 4 days PTP when she developed nasal discharge described as clear to whitish, associated with nasal blockage.
+
+Cough started about 3 days into onset of illness, insidious in onset, non-barky, non-paroxysmal, worse at night, with no post-tussive vomiting. No identifiable trigger.
+
+About the same time, she was noted to have difficulty in breathing evidenced by fast breathing and chest in-drawing. Symptoms were gradual in onset and progressively worsened.
+No associated bluish discoloration of lips or skin. 
+
+Since the onst of symptoms, mother has given Otrivin nasal drops 1 drop bd, Broncholyte 5 mls and Sinufed 5 mls.
+However, due to persistence and worsening of symptoms, she presented here for expert care.
+
+She was first admitted at about 4 months of age for similar symptoms, during which she received IV medications (names not known) and nebulisation.
+Has since had repeated hospital visitations for similar episodes.
+
+No history of blood transfusion.
+No prior history of surgery.
+Not a known sickle cell disease patient.
+No history of seizure disorder.
+No previous formal diagnosis of asthma.
+
+Pregnancy was supervised at a private hospital. No history of fever or rash during pregnancy. 
+She received 2 doses of TT and IPT. No history of hypertension or diabetes in pregnancy.
+Delivery was preterm at an EGA of 31 weeks via EMCS at a tertiary facility due to PROM.
+She cried spontaneously at birth. Birth weight was 1.6 kg.
+No history of neonatal jaundice or other adverse neonatal events.
+Commenced AFM shortly after birth and expressed breast milk after 5 days post-delivery.
+She was on breast milk and formula for the first 6 months of life.
+Family diet has since been introduced.
+
+Fully immunized for age according to the NPI schedule.
+
+Attained developmental milestones as at when due.
+
+First child in a monogamous family setting.
+Mother is a 34-year-old businesswoman (HLE: ND).
+Father is a 35-year-old businessman (HLE: BSc).
+They live in a well-ventilated 3-bedroom apartment with netted windows.
+Does not routinely sleep under an ITN.
+
+Source of drinking water: sachet water.
+Sewage disposal: WC system.
+Refuse disposal: municipal system.
+Cooking fuel: gas.
+No history of parental smoking.
+
+No family history of asthma; however, mother complains of allergic symptoms when exposed to perfumes.
+No pets in the home.
+No rugs or carpets used.
+Child does not attend daycare.
+
+MRDT: Negative
+
+O/E
+Well-nourished child, acutely ill-looking, in obvious respiratory distress.
+Not pale, not icteric, not cyanosed, afebrile (36.8°C), not dehydrated, no pedal oedema.
+
+Weight: 10 kg
+
+RS
+RR: 38 cpm, dyspnoeic with intercostal recession
+Chest movement symmetrical
+Equal air entry bilaterally
+Breath sounds vesicular with widespread rhonchi in the upper and middle lung zones bilaterally
+SpO₂: 98% in room air
+
+CVS
+PR: 130 bpm, full volume, regular
+S1 and S2 normal, no murmurs
+DS
+
+Abdomen: NAD
+
+CNS
+Conscious and alert
+
+
+Diagnosis:
+Acute exacerbation of asthma (probable viral-triggered)
+
+Plan
+Nebulise with Salbutamol nebules 2.5 mg × 3 doses (15 mins nebulisation with 5 mins rest interval, over one hour)
+Oral Prednisolone 10 mg daily for 3 days
+Monitor respiratory rate, work of breathing, and SpO₂
+Reassess after completion of nebulisation
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-2',
+    title: 'Neonatal Jaundice',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Hyperbilirubinemia',
+    symptoms: ['Yellowness of the eyes', 'Yellow body', 'EMCS delivery'],
+    contributor: 'Admin',
+    lastModified: '2025-12-27',
+    summary: '48-hour-old term female neonate presenting with jaundice on day 1 of life. Delivered via EMCS.',
+    content: `DOB: 04/10/25
+TOB: 11:48 am
+Mode of delivery: EMCS
+Indication: 2 previous caesarean sections in labour
+EGA: 40 weeks
+Tribe: Yoruba
+Religion: Islam
+
+A 48-hour-old term female neonate
+
+PC:
+Yellowness of the eyes × 1 day PTP
+
+HPI:
+She was apparently well until about a day prior to presentation when she was noticed to have yellowness of the eyes and body while by the mother’s side during postnatal ward round.
+Mother’s blood group: O positive
+No history of use of icterogenic substances.
+No poor suck or refusal of feeds.
+Mother was unbooked and registered for ANC at a federal neuropsychiatric facility in Ogun State.
+She received 2 doses of IM TT during pregnancy and 2 doses of IPT for malaria.
+No history of peripartum fever or rash.
+No symptoms suggestive of UTI, abnormal vaginal discharge, APH or PROM.
+Baby was delivered at term via EMCS.
+Birth weight: 3.8 kg
+Cried spontaneously at birth.
+APGAR score: 9 @ 1 min, 10 @ 5 mins.
+
+Feeding History:
+Exclusively breastfed.
+Mother reports good lactation.
+Baby feeds for about 30 minutes per feed and sleeps thereafter.
+No excessive sweating, difficulty in breathing or prolonged suck–rest–suck cycle.
+
+Social History:
+Mother is a 36-year-old patent medicine vendor.
+Father is a 36-year-old aluminium fabricator with HLE: HND, supportive of care.
+Patient is the 4th of 4 children in a monogamous setting.
+1st: 13-year-old female, alive and well
+2nd: 6-year-old male, alive and well
+3rd: 4-year-old male, alive and well
+No history of neonatal jaundice requiring admission in siblings.
+They reside in a well-ventilated, netted 2-bedroom apartment.
+
+ROS:
+No fever
+No seizures or loss of consciousness
+No cough, difficulty in breathing or bluish discoloration of lips or limbs
+No vomiting, loose stools or refusal of feeds
+No bleeding from any orifice
+No rash
+
+O/E:
+Conscious, average-sized neonate, not in respiratory distress
+Not pale, icteric, not cyanosed
+Afebrile (T: 36.4°C)
+Weight: 2.8 kg
+Length: 50 cm
+OFC: 36 cm
+
+CNS:
+Conscious with good activity
+AF, PF: patent, normotensive
+Grasp reflex: firm
+Moro reflex: complete
+Suck reflex: sustained
+Tone: normal
+
+CVS:
+PR: 130 bpm, full volume, regular
+HS: Normal S1 and S2
+
+Respiratory:
+Not dyspnoeic
+RR: 36 cpm
+BS: Vesicular
+SpO₂: 97% in room air
+
+Digestive System:
+Mouth: NAD
+Abdomen: full, moves with respiration, soft
+No tenderness
+No palpable organomegaly
+
+UGS:
+Normal female external genitalia
+Kidneys not ballotable
+
+Investigations:
+RBS: 84 mg/dL
+PCV: 44%
+
+Diagnosis:
+Neonatal jaundice ? cause
+
+Plan:
+Admit into NNU
+Blood group, serum bilirubin, reticulocyte count, DCT, CRP
+Commence intensive phototherapy
+Feed as tolerated
+Monitor T, PR, RR, SpO₂ 4-hourly
+Counsel mother on diagnosis, prognosis and line of management
+Review with investigation results.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-3',
+    title: 'Acute Tonsillitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Otolaryngology / Pediatrics',
+    condition: 'Acute Tonsillitis',
+    symptoms: ['Fever', 'Noisy breathing', 'Snoring', 'Erythematous tonsils', 'Upper airway obstruction'],
+    contributor: 'Admin',
+    lastModified: '2025-12-31',
+    summary: '2-year-old male with 3-day history of high-grade fever and noisy breathing (snoring). Bilateral erythematous tonsils with mild upper airway obstruction.',
+    content: `Patient Seen
+2-year-old male residing with Muslim Yoruba parents at Akure, Ondo state.
+
+Informant: Father (reliable)
+
+PC:
+
+Fever × 3 days
+Noisy breathing × 1 days
+
+HPC:
+Patient was apparently well until 3 days prior to presentation when he developed high-grade intermittent fever, temporarily relieved by antipyretics. 
+There was no associated cough, catarrh, vomiting, diarrhea, or convulsion.
+
+About 1 day prior to presentation, he developed noisy breathing, described by the caregiver as a snoring sound, more noticeable during sleep and associated with restless sleep. 
+There was no stridor, choking, or witnessed apneic episodes.
+
+There is no history of difficulty in swallowing, drooling of saliva, voice change, or neck swelling. 
+No history suggestive of foreign body aspiration.
+
+He was initially seen at a private facility where he received oral medications but symptoms persisted, hence presentation to this facility.
+There is no history of recurrent sore throat.
+
+He is not a known asthmatic, seizure disorder, or sickle cell disease patient, however, Genotype is unknown.
+No history of previous hospital admissions. 
+No prior surgeries or blood transfusions. 
+
+He is fully immunized for age according to the NPI schedule.
+
+He lives with his parents
+No similar illness in household contacts
+
+ROS
+No cough, chest pain, or fast breathing
+No cyanosis or syncope
+No vomiting or diarrhea
+No dysuria or dark urine
+No seizures or altered consciousness
+
+O/E:
+Well-nourished toddler, acutely ill-looking, febrile (37.8°C), calm at rest, not pale, anicteric, acyanosed, not dehydrated. No pedal edema or digital clubbing.
+
+Weight: 16 kg
+
+ENT:
+Tonsils: Bilateral erythematous tonsils, mildly enlarged, no exudates
+Posterior pharyngeal wall hyperemic
+Uvula midline
+No peritonsillar bulge
+No drooling of saliva
+Bilateral submandibular lymph nodes: small, tender, mobile
+
+Respiratory:
+Not dyspneic
+RR 32 cpm
+BS vesicular
+SpO₂ 99% in room air
+
+
+CVS:
+PR 132 bpm, full volume, regular
+HS S1 S2 heard
+
+Abdomen:
+Full, MWR, soft, non-tender, 
+No organomegaly
+
+CNS: Grossly intact
+
+MSS: NAD
+
+mRDT: Negative
+
+Diagnosis: 
+Acute tonsillitis with mild upper airway obstruction (snoring)
+
+Plan 
+ Oral Paracetamol 15 mg/kg/dose 6-hourly
+ Oral Ibuprofen 10 mg/kg/dose 8-hourly (if fever persists)
+Oral Amoxicillin-Clavulanate 25–30 mg/kg/day in divided doses for 7 days
+Warm saline gargles / steam inhalation (as tolerated)
+Oral Cetirizine 2.5 mg nocte
+Encourage adequate oral fluid intake
+Counsel caregiver on danger signs:
+-Worsening noisy breathing
+-Difficulty breathing or swallowing
+-Persistent high-grade fever
+Review in ENT clinic or earlier if symptoms worsen.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-4',
+    title: 'Severe Malaria with Severe Anemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Emergency Pediatrics',
+    condition: 'Severe Malaria',
+    symptoms: ['Fever', 'Difficulty in breathing', 'Fast breathing', 'Pallor', 'Gallop rhythm', 'Hepatomegaly'],
+    contributor: 'Admin',
+    lastModified: '2025-12-28',
+    summary: '2-year-old female presenting with high-grade fever and respiratory distress. Found to have severe anemia (PCV 15%) and gallop rhythm.',
+    content: `2-year-old female child of Christian, Yoruba parents.
+Informant: mother.
+
+PC:
+Fever x 3 days
+Difficulty in breathing x 4 hrs PTP
+
+HPC:
+She was apparently well until 3 days PTP when she developed high-grade, intermittent fever temporarily relieved with PCM. 
+4 hrs PTP, she developed difficulty in breathing, evidenced by fast breathing. 
+Since the onset of symptoms, mother has given her 3 doses of 5 mls syrup amoxicillin without resolution of symptoms necessitating her presentation to a private facility.
+At the private hospital, she was noted to be pale and was advised on the need for a blood transfusion, hence the referral to this facility.
+
+PMH:
+No history of previous hospitalization, blood transfusion, or surgery. Genotype unknown.
+
+Pregnancy, Birth, and Neonatal Hx:
+Pregnancy, delivery, and neonatal period were not adversely eventful.
+
+Nutritional Hx:
+Exclusively breastfed for 6 months, currently on family diet.
+
+Immunization Hx:
+Fully immunized for age according to the NPI schedule.
+
+Developmental Hx:
+Attained developmental milestones as and when due.
+
+Family & Social Hx:
+Third of three children.
+1st child: 7-year-old male, alive and well
+2nd child: 5-year-old male, alive and well
+Mother, 29 years, tailor, HLE: FSLC
+Father, 40 years, self-employed, HLE: SSCE
+Family lives in a single-room dwelling.
+
+ROS:
+One episode of vomiting with passage of loose stool
+Nil cough
+Nil reduction in urine output
+Nil convulsion or loss of consciousness
+
+O/E:
+Not pale, anicteric, not cyanosed, febrile, not dehydrated, nil pedal edema
+Anthropometry:
+Weight: 10 kg
+Length: 70 cm
+MUAC: 14 cm
+OFC: 45 cm
+
+CVS:
+PR 156 bpm, full volume, regular
+S1 and S2 with gallop rhythm
+
+RS:
+RR 30 cpm, dyspneic with flaring of alar nasi
+BS vesicular
+SpO₂ 93% in room air
+
+Digestive:
+Mouth: NAD
+Abdomen full, soft, MWR
+Liver soft, 3 cm below RCM, tender
+Nil splenomegaly
+
+CNS:
+Conscious
+Tone normal globally
+Power full in all limbs
+
+Investigations:
+mRDT: positive
+PCV: 15%
+RBS: 147 mg/dL
+Urinalysis: within normal limits
+
+Diagnosis:
+Severe malaria with severe anemia 
+Hyperglycemia
+
+Plan:
+Admit
+MP for microscopy
+FBC, Hb phenotype
+Group-specific uncrossmatched blood
+Transfuse with settle cell 15 mL/kg = 150 mL over 2 hours
+IV Artesunate 3 mg/kg = 30 mg at 0 hr, 12 hr, and 24 hr (Commence oral ACT Artemether-Lumefantrine 20/120 at 0h, 8h, then 12 hrly x2/7 after completion of IV Artesunate)
+IV Furosemide 1 mg/kg = 10 mg 12 hourly x24 hrs
+IVF 5% dextrose in half saline 1000 mL over 24 hrs via fluid giving set
+Monitor vital signs (PR, RR, Temp, SpO₂) 4 hourly
+Review with investigation results
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-5',
+    title: 'Severe Malaria with Hyperglycemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Emergency Pediatrics',
+    condition: 'Severe Malaria',
+    symptoms: ['Fever', 'Pale eyes and feet', 'Respiratory distress', 'Severe pallor', 'Bounding pulse', 'Hepatomegaly', 'Hyperglycemia'],
+    contributor: 'Admin',
+    lastModified: '2025-12-28',
+    summary: '5-year-old male with severe anemia (PCV 8%), respiratory distress, and hyperglycemia (RBS 206 mg/dL). Twin gestation.',
+    content: `5 year old male pre-schooler, with Christian TIV parents, resides at Akure, Ondo State.
+Informant is the paternal aunt and mother. 
+
+PC:
+Fever x5/7
+Pale eyes and feet x2/7
+
+HPC:
+He was in his usual state of health until 5 days ago when he developed fever, fever was said to be high grade, intermittent, worse in the evening. It was temporarily relieved with tepid sponging.
+
+About 3 days after onset of fever, he was noticed to be pale which was described that the hands, feet and eyes were white in colour.
+
+Since onset of symptoms, step mother had called an auxiliary who administered blood tonic and an intramuscular injection which could not be ascertained.
+
+However symptoms persisted and the paternal aunt was called which necessitated presentation to this facility for expert care.
+
+PMH:
+No hx of similar symptoms in the past.
+No hx of previous hospital admission could not be ascertained.
+No hx of blood transfusion or surgery.
+
+Pregnancy, Birth and Perinatal Hx:
+Pregnancy was planned, spontaneously concieved, booked and delivered at a private hospital.
+No hx of febrile illness, no hx of HTN, DM, or symptoms suggestive of UTI during pregnancy.
+
+He is the 2nd of a set of twin delivered at about 33weeks EGA, cried spontaneously at birth, BW could not be ascertained; mother described he was average in size.
+Child was put to breast within 1 hour of delivery; however, mother was not lactating well and had to be given baby food.
+No adverse event during the perinatal period.
+
+Immunization hx:
+Immunized for age according to NPI schedule.
+
+Developmental hx:
+Attained developmental milestones as at when due.
+
+Nutritional Hx:
+Child was not exclusively breast fed, and was on AFM. Currently on family diet.
+
+Family & Social HX:
+He is the 2nd of a set of twin born in a polygamous family setting with 2 wives.
+Mother is the 1st wife; however, is separated from father and does not reside with them. Mother has 4 children for the father.
+Mother is a 26 year old farmer with no formal education. Genotype is unknown. Average income of mother is about N50,000 monthly.
+Father is ?age, farmer with HLE as First School Leaving Certificate. Average income of father could not be ascertained.
+Eldest sibling is a 9 year old male, not in school, alive and well, no hx of similar symptoms.
+2nd sibling is a 7 year old male, not in school, alive and well, no hx of similar symptoms.
+1st set of twin is a 5 year old female, not in school, alive and well, no hx of similar symptoms.
+Child lives with father and step mother along with siblings in a mud house.
+
+ROS:
+No loss of consciousness, no convulsion, no bluish discoloration of any part of the body. Positive hx of generalized body weakness.
+No vomiting, no passage of loose stool.
+No rash, hx of change in colour or decrease in urine output could not be ascertained.
+
+O/E:
+Acutely ill-looking, in respiratory distress, severely pale, not icteric, febrile (T: 37.8C), not cyanosed, not dehydrated, no finger clubbing, no PLNE, no pedal edema.
+Weight: 16kg
+WFA at 15th centile
+Length 102cm
+LFA between -1 & -2 z-score
+WFL at 0 z-score
+MUAC 15cm
+MUAC for age between -1 & -2 z-score
+OFC 50cm
+OFC for age at 0 z-score
+
+Respiratory:
+Dyspneic with IC, SC recession
+RR 68cpm
+BS Vesicular
+SpO2 88-92% on INO2
+
+CVS:
+PR 156bpm, bounding, regular
+BP 88/40mmHg
+SBP <50th centile
+DBP <50th centile
+HS S1S2
+
+Digestive:
+Abdomen full, MWR, soft
+? Vague generalised tenderness
+Liver 5cm below RCM, soft, ?tender
+Spleen not palpably enlarged
+
+CNS:
+Conscious
+Pupils round, equal, reactive to light bilaterally
+No neck stiffness
+Kernig negative
+Brudzinski negative
+Tone normal globally
+
+UGS:
+Testes not palpable within scrotal sac
+
+Investigations:
+PCV 8%
+mRDT Positive
+RBS 206mg/dL
+RVS Non-reactive
+Urinalysis:
+Glucose: negative
+Bilirubin: negative
+Ketone: Trace
+SG: 1.030
+Blood: negative
+pH: 6.5
+Protein: negative
+Urobilinogen: Normal
+Nitrite: Negative
+Leucocyte: Negative
+
+Diagnosis:
+Severe malaria in anemic heart failure
+Hyperglycemia
+Cryptorchidism
+
+PLAN:
+Admit 
+Commence INO2
+MP Microscopy, FBC, EUCr, Hb phenotype
+IV Artesunate 3mg/kg = 48mg @ 0, 12, 24 hours (Commence oral ACT 40/240 mg 0h, 8h, then 12 hrly x 2/7 after completion of IV Artesunate)
+IV Furosemide 1mg/kg = 16mg 8 hourly
+Urgent transfusion with 20mL/kg = 320mL group-specific uncrossmatched blood
+Monitor T, PR, RR, SpO2 4 hourly
+Monitor RBS hourly till 3 normal values then 4 hourly
+Invite the pediatric surgical team for his cryptorchidism
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-6',
+    title: 'Acute Gastroenteritis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Children Emergencies',
+    condition: 'Acute Gastroenteritis',
+    symptoms: ['Cough', 'Fever', 'Vomiting', 'Loose stools', 'Dehydration'],
+    contributor: 'Admin',
+    lastModified: '2025-12-31',
+    summary: '2-year-old male with acute gastroenteritis and moderate acute malnutrition. Presented with cough, fever, vomiting, and loose stools.',
+    content: `Age: 2 years
+Sex: Male
+Residence: Abeokuta, Ogun State
+Informant: Mother (reliable)
+
+PC
+Cough × 1/7
+Fever × 1/7
+Vomiting × 3/7 (resolved)
+Passage of loose stools × 2/7
+
+HPC
+The patient was apparently well until about one week prior to presentation when he developed a cough, non-paroxysmal and non-barky, associated with whitish nasal discharge. 
+There was no associated difficulty in breathing, chest indrawing, or noisy breathing.
+
+A few hours after onset of cough, he developed fever, described as high-grade and intermittent, temporarily relieved by tepid sponging. 
+There was no associated convulsion or loss of consciousness.
+
+Due to persistence of fever, he was taken to a private health facility on the first day of illness, where he received intramuscular paracetamol (dose unknown) and intramuscular artemether, and was managed as an outpatient. Fever however persisted, and he re-presented to the same facility the following day, where he was admitted and continued on daily intramuscular artemether for three days. He was also commenced on intravenous antibiotics (name unknown) for presumed sepsis. No records of investigations were available.
+
+On the fourth day of illness, while still on admission, he developed vomiting, about 4 episodes per day, non-projectile, non-bilious, containing mainly recently ingested fluids, estimated at ~50 mls per episode. Vomiting resolved by the fifth day of illness.
+
+Subsequently, he developed loose stools, about 5 episodes per day, watery but mucoid, non-bloody, and not foul-smelling. 
+The last episode of stooling was about 9 hours prior to presentation.
+
+He was discharged on the sixth day of illness on oral amoxicillin-clavulanate, ibuprofen, and cough syrup. However, on getting home, he was noticed to be weak with reduced appetite, prompting presentation to this facility about 24 hours after discharge.
+
+There is no history of difficulty in breathing, convulsions, dysuria, or reduced urine output.
+
+PMH
+No history of any chronic illness
+No previous hospital admissions
+No history of blood transfusion
+Genotype: AA
+
+DRUG HISTORY
+No known drug allergies.
+
+IMMUNIZATION HISTORY
+Up to date for age according to the NPI schedule (cards not seen).
+
+NUTRITIONAL HISTORY
+24-hour dietary recall:
+-	Pap with sugar
+-	Rice and stew
+Appetite has reduced in the past few days.
+
+
+O/E
+Toddler, afebrile (T = 36.3°C), anicteric, not pale, sunken eyes, dry oral mucosa, no peripheral lymphadenopathy, no pedal oedema.
+
+Anthropometry:
+Weight: 10 kg (~71% of expected)
+Height: 87 cm
+Weight-for-height: between −2 and −3 Z-scores
+MUAC: 12 cm
+OFC: 53 cm
+
+CVS
+PR: 112 bpm, full volume, regular
+HS: S₁ S₂ only
+
+RS:
+RR: 26 cpm
+Breath sounds vesicular
+SpO₂: 98% in room air
+
+ENT:
+Tonsils not enlarged
+
+Abdomen:
+Full, moves with respiration
+No tenderness
+No palpable organomegaly
+
+Neurological:
+Conscious, alert
+No neurological deficit
+
+INVESTIGATIONS
+mRDT for malaria: Negative
+Random blood sugar: 108 mg/dL
+PCV: 32%
+Urinalysis: Essentially normal
+
+ASSESSMENT
+1.	Acute gastroenteritis with moderate dehydration
+2.	Moderate acute malnutrition
+
+PLAN
+Admit for observation
+ORS 75 ml/kg over 4 hours (total 750 ml), then reassess
+Tab Zinc 20 mg daily for 10 days
+Monitor intake/output and stool frequency
+Send FBC, EUCR, and CRP
+Review after rehydration
+
+REVIEW (POST-REHYDRATION)
+Child has completed rehydration and appears to have improved clinically.
+O/E:
+Afebrile, not dehydrated
+
+PR: 100 bpm, full volume
+RR: 24 cpm, Chest clear
+
+REVISED ASSESSMENT
+1.	Acute gastroenteritis (resolved dehydration)
+2.	Moderate acute malnutrition
+
+PLAN
+Continue ORS 10 ml/kg per loose stool
+Continue Zinc 20 mg daily to complete 10 days
+Tab Folic acid 5 mg daily
+Syr Afravite 5 ml daily
+Syr Vitamin B-complex 5 ml daily
+Dietary counselling
+Refer to Nutritionist
+See in 3/7 for follow-up.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-7',
+    title: 'Left Chronic Suppurative Otitis Media in a 2-Year-Old Toddler',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic / ENT',
+    condition: 'Chronic Suppurative Otitis Media (Tubotympanic)',
+    symptoms: [
+      'Left ear discharge',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-22',
+    summary: 'A 2-year-old male toddler presenting with a first episode of left-sided chronic suppurative otitis media (CSOM), tubotympanic type, with active purulent discharge but no systemic symptoms.',
+    content: `
+Patient: 2-year-old male toddler
+Informant: Mother
+  
+C/O
+Left ear discharge × 2/52
+  
+The child has had discharge from the left ear for the past 2 weeks. The discharge is copious, mucoidal, greenish, and foul-smelling. It is not associated with ear pain and is not blood-stained.
+  
+There has been no fever, irritability, vomiting, or reduced appetite. The discharge has been strictly unilateral, with no symptoms in the right ear.
+  
+No history of foreign body insertion into the ear. The child is no longer breastfeeding. No history of recurrent nasal discharge, snoring, or mouth breathing.
+  
+No previous episodes of ear discharge.
+Mother reports using over-the-counter medications with no improvement.
+  
+No known chronic illness
+Immunization history appropriate for age
+  
+No known drug allergies
+  
+Pregnancy, natal, and postnatal history uneventful. Delivered at term
+  
+Developmental milestones appropriate for age
+  
+No family history of chronic ear disease
+Lives with parents and siblings, last of 7 children
+No known exposure to tobacco smoke
+  
+O/E
+Calm toddler, conscious and comfortable
+Not pale, anicteric, afebrile, acyanosed
+No signs of dehydration
+  
+ENT Examination
+Ear:
+- Right ear: External auditory canal normal with scanty wax; tympanic membrane appears normal
+- Left ear: Copious purulent, greenish, mucoidal, foul-smelling discharge filling the external auditory canal; tympanic membrane hyperemic; full visualization limited by discharge
+  
+Nose:
+Nasal cavities clear; no nasal discharge
+  
+Throat:
+No abnormality detected
+  
+Other Systems:
+CVS, RS, CNS: No abnormal findings
+  
+Assessment
+Left Chronic Suppurative Otitis Media (CSOM) — likely tubotympanic type, first episode with active discharge
+  
+Plan
+Aural Care:
+- Left aural toileting
+- Wick dressing to left ear
+- Keep left ear dry at all times
+  
+Topical Antibiotic:
+- Ciprofloxacin ear drops (0.3%) 2 drops into the left ear BD × 2/52 (applied via wick dressing)
+  
+Systemic Antibiotic:
+- Syrup Co-amoxiclav 5 mL BD × 7 days (228.5 mg/5 mL; amoxicillin component 25 mg/kg/day)
+  
+Adjunct Medications:
+- Syrup Loratadine (5 mg/5 mL) 2.5 mg/2.5 mL once daily × 2/52
+- Syrup Sinufed 2.5 mL BD × 5/7 (for associated nasal congestion / eustachian tube dysfunction)
+  
+Supportive Care:
+- Avoid water entry into the ear
+- No cotton bud use
+- Avoid over-the-counter ear medications
+  
+Follow-up:
+- Review in 2 weeks
+- Return if fever, ear pain, worsening discharge, or new symptoms develop
+`,
+bookmarkCount: 0
+}, 
+  {
+    id: 'peds-8',
+    title: 'Left Chronic Suppurative Otitis Media with Acute Exacerbation in a 5-Year-Old',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic / ENT',
+    condition: 'Chronic Suppurative Otitis Media (Tubotympanic) with Acute Exacerbation',
+    symptoms: [
+      'Left ear discharge',
+      'History of recurrent ear discharge',
+      'Previous traumatic injury to left ear',
+      'Occasional upper respiratory tract infections',
+      'Engorged inferior turbinates'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-22',
+    summary: 'A 5-year-old male with a background of chronic left ear discharge due to previous trauma, presenting with an acute exacerbation of tubotympanic CSOM.',
+    content: `
+Patient: 5-year-old male
+Informant: Mother
+  
+C/O
+Left ear discharge × 4 days
+  
+The child has had discharge from the left ear for the past 4 days. The discharge is scanty, purulent, and unilateral. There is no associated ear pain, fever, or dizziness.
+  
+There is a history of similar episodes in the past, which resolved with treatment but tend to recur.
+  
+History of traumatic injury to the left ear 2 years ago due to cotton bud use, associated with bleeding. Since then, intermittent ear symptoms have been noted.
+  
+Occasional upper respiratory tract infections; no recent cough, nasal discharge, or sore throat.
+  
+No hearing loss, facial weakness, headache, vomiting, or neck stiffness.
+  
+No known chronic medical illness
+Fully immunized for age
+Developmental milestones appropriate for age
+  
+Not on routine medications
+No known drug allergies
+  
+No family history of chronic ear disease
+Lives with parents
+No exposure to tobacco smoke
+  
+O/E
+Conscious, calm, well-looking child
+Not pale, anicteric, afebrile, acyanosed
+No signs of dehydration
+  
+Weight: 18 kg
+  
+ENT Examination
+Ear:
+- Both external auditory canals: Wax partially occluding the canals
+- Left ear: Scanty purulent discharge
+- Tympanic membrane not adequately visualized due to wax and discharge
+  
+Nose:
+- Engorged inferior turbinates
+  
+Throat:
+- No abnormality detected
+  
+Other Systems:
+CVS, RS, CNS: No abnormal findings
+  
+Assessment
+Chronic Suppurative Otitis Media (Left Ear) — likely tubotympanic, with acute infective exacerbation
+Background of previous trauma and recurrent discharge
+  
+Plan / Management
+Aural Care:
+- Cerumol ear drops / olive oil to soften wax prior to ear toileting
+- Aural toilet / wick dressing of the left ear
+- Keep left ear dry at all times
+  
+Topical Antibiotic:
+- Ciprofloxacin ear drops, applied via wick dressing BD × 1/52
+  
+Systemic Antibiotic:
+- Syrup Co-amoxiclav (228.5 mg/5 mL) 5 mL BD × 1/52 (for acute infective exacerbation)
+  
+Adjunct Medications:
+- Syrup Loratadine 5 mg (5 mL) once daily × 2/52 (for associated nasal congestion / allergic rhinitis)
+- Syrup Vitamin C 5 mL TDS × 5/7
+  
+Health Education:
+- Avoid ear cleaning with cotton buds
+- Maintain strict ear dryness (cotton wool with petroleum jelly during bathing)
+- Adherence to medications
+- Importance of follow-up to prevent hearing loss
+  
+Follow-up:
+- Review in 1 week
+- Return if worsening discharge, ear pain, fever, or hearing difficulty
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-9',
+    title: 'Acute Otitis Externa (Left Ear) in a 6-Year-Old',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatrics/ ENT / Otology',
+    condition: 'Acute Otitis Externa (Left Ear)',
+    symptoms: [
+      'Left ear pain × 3 days, worsens with touch or ear movement',
+      'Itching of the ear',
+      'Scanty, non-foul-smelling discharge',
+      'History of frequent ear cleaning with cotton buds',
+      'Recent swimming in a public pool'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-22',
+    summary: 'A 6-year-old male presenting with left ear pain, erythema, and edema of the external auditory canal following frequent cotton bud use and recent swimming, consistent with acute otitis externa.',
+    content: `
+Patient: 6-year-old male
+Informant: Mother
+  
+C/O
+Left ear pain × 3 days
+  
+The mother reports that the child has had constant left ear pain for the past 3 days, worsening with touch or attempts to clean the ear. The child cries when the outer ear is pulled. 
+  
+Associated itching and scanty, non-foul-smelling discharge. No hearing loss noted.
+  
+No fever, headache, vomiting, neck stiffness, facial weakness, or dizziness.
+  
+History of frequent ear cleaning with cotton buds and recent swimming in a public pool about one week prior to onset.
+  
+No previous similar episodes.
+  
+No known chronic illness
+Fully immunized for age
+Developmental milestones appropriate for age
+  
+Not on routine medications
+No known drug allergies
+  
+No family history of chronic ear disease
+Lives with parents, attends primary school
+No exposure to tobacco smoke
+  
+O/E
+School-aged boy, cooperative but in obvious discomfort
+Afebrile (36.9°C), not pale, acyanosed, anicteric, not dehydrated
+Weight: 20 kg
+  
+ENT Examination:
+Left ear:
+- Marked tenderness on tragal pressure and pinna movement
+- External auditory canal erythematous, edematous with scanty serous discharge
+- Tympanic membrane not clearly visualized due to canal swelling
+  
+Right ear:
+- Normal external auditory canal and tympanic membrane
+  
+Nose/Throat:
+- Normal nasal mucosa
+- Pharynx normal
+- Tonsils not enlarged
+  
+Neck:
+- Supple, no lymphadenopathy
+  
+Neuro:
+- Alert, normal tone, reflexes intact
+  
+CVS:
+PR: 100 bpm, BP: 95/60 mmHg
+  
+RS:
+RR: 22/min, chest clear to auscultation
+  
+Assessment
+Acute Otitis Externa (Left Ear)
+  
+Plan / Management
+Aural Care:
+- Avoid ear cleaning and instrumentation
+- Keep ear dry at all times
+  
+Topical Therapy:
+- Ciprofloxacin + Hydrocortisone ear drops, 3 drops into left ear BD × 7/7
+  
+Analgesia:
+- Syrup Paracetamol 15 mg/kg/dose (300 mg per dose), using Paracetamol 120 mg/5 mL syrup → 12.5 mL q6h PRN
+  
+Health Education:
+- Avoid cotton bud use
+- Avoid swimming until symptoms resolve
+- Return if worsening pain, fever, spreading swelling, or persistent discharge
+  
+Follow-up:
+- Review in 4 days
+`,
+bookmarkCount: 0
+},  
+  {
+    id: 'peds-10',
+    title: 'Chronic Suppurative Otitis Media (Left Ear) in a 7-Year-Old',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatrics / ENT / Otology',
+    condition: 'Chronic Suppurative Otitis Media (Left Ear) – Tubotympanic type',
+    symptoms: [
+      'Recurrent left ear discharge × 6 months, purulent and foul-smelling',
+      'Reduced hearing in the affected ear',
+      'History of multiple early childhood ear infections treated intermittently'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-22',
+    summary: 'A 7-year-old female with recurrent purulent left ear discharge, central tympanic membrane perforation, and reduced hearing, consistent with safe tubotympanic chronic suppurative otitis media.',
+    content: `
+Patient: 7-year-old female
+Informant: Mother
+  
+C/O
+Recurrent left ear discharge × 6 months
+  
+
+Recurrent purulent, foul-smelling discharge from the left ear, intermittent with partial improvement. Associated reduced hearing, occasionally mild ear discomfort. No fever, headache, vomiting, neck stiffness, facial weakness, or dizziness.
+  
+History of multiple early childhood ear infections treated intermittently with antibiotics and ear drops, with poor long-term resolution.
+  
+No recent upper respiratory tract infection. No known chronic systemic illness.
+  
+Fully immunized for age
+Pregnancy, natal, postnatal history uneventful
+Developmental milestones appropriate for age
+  
+Intermittent use of ear drops in the past
+No known drug allergies
+  
+No family history of chronic ear disease
+Lives with parents, attends primary school
+No exposure to tobacco smoke
+  
+O/E
+Alert, cooperative, well-looking child
+Afebrile (36.8°C), not pale, acyanosed, anicteric, not dehydrated
+Weight: 22 kg
+  
+ENT Examination:
+Left ear:
+- Purulent discharge in the external auditory canal
+- Tympanic membrane with central perforation
+- Middle ear mucosa inflamed
+- Reduced hearing on voice testing
+  
+Right ear:
+- Tympanic membrane intact and normal
+  
+Nose/Throat:
+- Nasal mucosa normal
+- Pharynx normal
+- Tonsils not enlarged
+  
+Neck:
+- Supple, no lymphadenopathy
+  
+Neurological:
+- Alert, normal tone, reflexes intact
+  
+CVS:
+PR: 96 bpm, BP: 100/65 mmHg
+  
+RS:
+RR: 20/min, chest clear to auscultation
+  
+Assessment
+Chronic Suppurative Otitis Media (Left Ear) – Tubotympanic type (safe CSOM)
+  Plan 
+Aural care:
+- Dry mopping of left ear
+- Keep ear dry at all times
+  
+Topical therapy:
+- Ciprofloxacin ear drops (0.3%), 3 drops into left ear BD × 10/7
+  
+Analgesia:
+- Syrup Paracetamol 15 mg/kg/dose (330 mg per dose), using Paracetamol 120 mg/5 mL syrup → 14 mL q6h PRN
+  
+Referral:
+- ENT clinic for further evaluation and consideration of definitive management
+  
+Health Education:
+- Maintain ear dryness
+- Avoid self-ear cleaning or unprescribed drops
+
+`,
+bookmarkCount: 0
+}, 
+  {
+    id: 'peds-11',
+    title: 'Acute Otitis Media (Right Ear) in a 5-Year-Old',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatrics / ENT / Otology',
+    condition: 'Acute Otitis Media (Right Ear)',
+    symptoms: [
+      'Right ear pain × 2 days',
+      'Ear tugging',
+      'Mild fever',
+      'Reduced appetite',
+      'Subjective hearing difficulty'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-22',
+    summary: 'A 5-year-old male with acute onset right ear pain, febrile, with a bulging, erythematous tympanic membrane and reduced mobility, consistent with uncomplicated acute otitis media.',
+    content: `
+Patient: 5-year-old male
+Informant: Mother
+  
+C/O
+Right ear pain × 2 days
+  
+  
+Intermittent right ear pain, worse at night, causing waking and tugging at ear. Mild fever noted yesterday. Reduced appetite. No ear discharge. No vomiting, diarrhea, abdominal pain, rash, severe headache, neck stiffness, or facial weakness. 
+  
+One previous episode of ear infection last year, resolved with antibiotics.
+  
+Fully immunized for age
+No chronic illness
+Not on routine medications
+Pregnancy, natal, postnatal history uneventful
+Developmental milestones appropriate for age
+No family history of chronic ear disease
+  
+No known drug allergies
+  
+Lives with parents
+Attends kindergarten
+No exposure to tobacco smoke
+  
+O/E
+Alert, cooperative, mildly irritable
+Febrile (Temp 38.2°C), not pale, acyanosed, anicteric, not dehydrated
+Weight: 18 kg
+  
+ENT Examination:
+Right ear: Tympanic membrane red, bulging, decreased mobility on pneumatic otoscopy, no perforation or discharge
+Left ear: Normal
+Nose/Throat: Mild nasal congestion, pharynx normal, tonsils not enlarged
+  
+Neck: Supple, no lymphadenopathy
+  
+Neuro: Alert, normal tone, reflexes intact
+  
+CVS: PR 102 bpm, BP 90/60 mmHg
+  
+RS: RR 22/min
+  
+Assessment
+Uncomplicated Acute Otitis Media (Right Ear)
+  
+Plan / Management
+- Encourage oral fluids
+- Amoxicillin oral suspension 80 mg/kg/day in 2 divided doses × 5 days (1,440 mg/day or 720 mg BD; Amoxicillin 250 mg/5 mL syrup → 14.5 mL twice daily)
+- Syrup Paracetamol 15 mg/kg/dose q6h PRN for pain/fever (270 mg per dose; Using Paracetamol 120 mg/5 mL syrup → 11 mL q6h PRN)
+- Avoid water entry into ear until symptoms resolve
+- Return sooner if fever persists, pain worsens, new ear discharge develops, or hearing worsens
+- Follow-up in 3 days
+`,
+bookmarkCount: 0
+},  
+  {
+    id: 'peds-12',
+    title: 'Simple Febrile Convulsion',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Emergency Pediatrics',
+    condition: 'Malaria with Simple Febrile Convulsion',
+    symptoms: ['Fever', 'Convulsion', 'Poor appetite'],
+    contributor: 'Admin',
+    lastModified: '2026-01-25',
+    summary: '3-year-old male toddler presenting with fever and a single episode of generalized tonic–clonic convulsion in the setting of malaria.',
+    content: `
+A 3-year-old male toddler
+  
+Informant:
+Parents — reliable
+  
+PC:
+Fever × 1 day
+Convulsion × 6 hours prior to presentation
+  
+HPI:
+The child was apparently well until about 1 day prior to presentation when the mother noticed that his body became hot to touch. The fever was gradual in onset, intermittent, and temporarily relieved by oral paracetamol, tepid sponging, and exposure. It was associated with poor appetite and generalized weakness.
+  
+There was no history of cough, catarrh, vomiting, diarrhea, rash, or urinary symptoms.
+  
+About 6 hours prior to presentation, the child developed a sudden-onset generalized tonic–clonic convulsion. The episode was single, lasted approximately 5 minutes, and was associated with loss of consciousness. No focal features were observed. There was no eye deviation, tongue biting, or urinary/fecal incontinence.
+  
+During the convulsion, the mother inserted a spoon into the child’s mouth, applied mentholated balm to the body, and administered onion water orally. The convulsion terminated spontaneously. Following the episode, the child regained consciousness but remained weak and drowsy.
+  
+There is no prior history of convulsions, no similar previous illness, and no post-ictal neurological deficit was noted.
+  
+Due to these symptoms, the parents brought the child to the hospital for evaluation.
+  
+Past Medical History:
+No previous hospital admissions.
+No previous surgeries.
+No history of similar illness.
+No known chronic medical conditions.
+  
+Drug and Allergy History:
+No known drug allergies.
+History of use of herbal concoctions.
+  
+Birth and Neonatal History:
+Pregnancy supervised at Onikanga Health Centre.
+Mother was compliant with antenatal visits and routine medications.
+Received 2 doses of tetanus toxoid and intermittent preventive therapy for malaria.
+Pregnancy was uneventful.
+Delivered at term via spontaneous vaginal delivery.
+Cried immediately at birth.
+Birth weight: 3 kg.
+Neonatal period was uneventful.
+  
+Feeding History:
+Breastfed immediately after birth.
+Initially exclusively breastfed.
+Subsequently introduced to formula feeds.
+Currently on adult family diet.
+  
+Immunization History:
+Up to date according to the National Programme on Immunization (NPI) schedule.
+  
+Developmental History:
+Developmental milestones achieved at appropriate ages.
+Currently attending KG 2.
+  
+Family History:
+Second child in a monogamous family.
+Siblings:
+- 10-year-old male — alive and well
+- 8-year-old female — alive and well
+- 5-year-old female — alive and well
+No family history of seizures or similar illness.
+  
+Social History:
+Mother is a 34-year-old trader, NCE holder, genotype AA.
+Father is a 40-year-old music teacher, HND holder, genotype unknown.
+Lives in a 3-bedroom apartment with poor ventilation.
+Does not sleep under insecticide-treated mosquito net.
+Bushes present around the house.
+Drinking water source: sachet (“pure”) water.
+Refuse disposal: open burning.
+Sewage disposal: water cistern.
+  
+Review of Systems:
+CNS: Convulsion as described; no headache or neck stiffness.
+Respiratory: No cough or difficulty breathing.
+Cardiovascular: No palpitations.
+Gastrointestinal: No vomiting or diarrhea.
+Genitourinary: No urinary symptoms.
+  
+O/E:
+Conscious but weak-looking child.
+Febrile (T: 37.7°C).
+Not pale, anicteric, not cyanosed.
+No pedal edema.
+  
+Weight: 13 kg
+  
+CNS:
+Conscious and responsive.
+No cranial nerve deficits.
+Normal muscle tone, power, and reflexes.
+No meningeal signs.
+  
+RS:
+RR: 30 cpm.
+Not dyspnoeic.
+Chest clear.
+Breath sounds vesicular.
+SpO₂: 98% on room air.
+  
+CVS:
+PR: 146 bpm, full volume, regular.
+Heart sounds: S1 and S2 only.
+  
+Digestive System:
+Oral cavity: No abnormality detected.
+Abdomen full, moves with respiration.
+Soft and non-tender.
+No palpable organomegaly.
+  
+Investigations:
+Malaria Rapid Diagnostic Test (mRDT): Positive.
+  
+Assessment:
+Uncomplicated malaria.
+Simple febrile convulsion.
+  
+Plan:
+Commence oral Artemisinin-based Combination Therapy (ACT):
+Dispersible ACT 20/120 mg:
+1 tablet at 0 hour,
+1 tablet at 8 hours,
+then 1 tablet 12-hourly for 2 days.
+  
+Syrup Paracetamol 15 mg/kg/dose every 6 hours as needed
+(195 mg per dose;
+Using Paracetamol 120 mg/5 mL syrup: 8 mL per dose).
+  
+Syrup Ibuprofen 10 mg/kg/dose every 8 hours
+(130 mg per dose;
+Using Ibuprofen 100 mg/5 mL syrup: 6.5 mL per dose).
+  
+Tepid sponging.
+Ensure adequate oral fluid intake.
+  
+Counselling:
+Explained the diagnosis of malaria with simple febrile convulsion.
+Reassured parents on the generally benign nature of febrile convulsions.
+Educated parents on appropriate first aid during convulsions:
+- Do not insert objects into the mouth.
+- Do not apply substances or administer oral medications during a seizure.
+- Place the child in the recovery position and seek medical care.
+  
+Advised consistent use of insecticide-treated mosquito nets.
+Discouraged use of herbal concoctions.
+  
+Advised to return immediately if:
+- Convulsions recur or last longer than 5 minutes.
+- Fever persists despite treatment.
+- Child becomes drowsy, confused, or unable to drink.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-13',
+    title: 'Uncomplicated Malaria in Sickle Cell Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Uncomplicated Malaria in HbSS Patient',
+    symptoms: ['Fever', 'Chills', 'Rigors'],
+    contributor: 'Admin',
+    lastModified: '2026-01-25',
+    summary: '10-year-old male with known sickle cell disease (HbSS) presenting with acute onset fever and positive malaria RDT.',
+    content: `
+ 
+PEDIATRIC HEMATOLOGY CLINIC
+
+Age: 10 years
+Sex: Male
+  
+Informant:
+Patient and mother — reliable
+  
+PC:
+Fever × 12 hours
+  
+HPC:
+The patient was apparently well until about 12 hours prior to presentation when he developed fever. The fever was intermittent, low-grade, and associated with chills and rigors.
+  
+There was no associated cough, catarrh, body pains, vomiting, diarrhea, or urinary symptoms.
+  
+Since onset of symptoms, he has been given oral paracetamol and tepid sponging, which provided temporary relief. However, the fever persisted, necessitating presentation to this facility.
+  
+He is a known sickle cell disease (HbSS) patient, compliant with routine medications and regular with clinic follow-up. There has been no history of bone pain crisis, chest pain, difficulty in breathing, or dark-coloured urine with this illness.
+  
+Past Medical History:
+Known sickle cell disease (HbSS).
+Not a known asthmatic.
+No seizure disorder.
+No recent hospital admissions.
+No history suggestive of acute chest syndrome or stroke.
+  
+Haematologic History:
+Last PCV (25th March): 28%.
+Stable state PCV: 24–30%.
+PCV today: 29%.
+  
+Drug History:
+On routine sickle cell medications.
+  
+Allergy History:
+No known drug allergies.
+  
+Review of Systems:
+Respiratory: No difficulty in breathing.
+Genitourinary: No dark-coloured urine.
+Neurologic: No headache or altered level of consciousness.
+  
+O/E:
+Moderately pale.
+Anicteric.
+Not cyanosed.
+Afebrile (T: 36.6°C).
+Well hydrated.
+No pedal edema.
+  
+Weight: 30 kg
+  
+RS:
+RR: 30 cpm.
+Not dyspnoeic.
+Chest clear.
+Breath sounds vesicular.
+SpO₂: 97–98% on room air.
+  
+CVS:
+PR: 120 bpm, full volume, regular.
+Heart sounds: S1 and S2 only.
+  
+Abdomen:
+Full, moves with respiration.
+Soft and non-tender.
+No palpable organomegaly.
+  
+Investigations:
+Malaria Rapid Diagnostic Test (mRDT): Positive.
+Urinalysis: Essentially normal.
+  
+Assessment:
+Uncomplicated malaria in a patient with sickle cell disease (HbSS).
+  
+Plan:
+Antimalarial Therapy:
+Tab Artemether–Lumefantrine (20/120 mg):
+-3 tablets at 0 hour,
+-3 tablets at 8 hours,
+-then 3 tablets 12-hourly to complete 3 days (6 doses total).
+  
+Antipyretic:
+Tab Paracetamol 15 mg/kg/dose (≈450 mg) 6-hourly × 3 days.
+  
+Continue Routine Sickle Cell Medications:
+Tab Paludrine 150 mg daily.
+Tab Folic acid 5 mg daily.
+Tab Vitamin B-complex daily.
+  
+Supportive Care:
+Encourage adequate oral fluid intake.
+Tepid sponging as needed.
+  
+Counselling:
+Explained the diagnosis of malaria in a child with sickle cell disease.
+Emphasized the importance of early presentation for fever in SCD patients.
+Advised strict adherence to the full course of ACT.
+  
+Educated on danger signs requiring urgent hospital presentation:
+- Persistent or high-grade fever.
+- Bone pain or chest pain.
+- Difficulty in breathing.
+- Dark-coloured urine or reduced urine output.
+- Persistent vomiting or inability to tolerate oral medications.
+  
+Follow-Up:
+Return immediately if symptoms worsen or fail to resolve after treatment.
+Otherwise, continue routine sickle cell clinic follow-up in 1 month.
+`,
+bookmarkCount: 0
+}, 
+  {
+    id: 'peds-14',
+    title: 'Stable Sickle Cell Disease – Routine Follow-Up',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatrics Haematology',
+    condition: 'Sickle Cell Disease (HbSS) – Steady State',
+    symptoms: ['Routine HbSS follow-up'],
+    contributor: 'Admin',
+    lastModified: '2026-01-25',
+    summary: '11-year-old male with sickle cell disease on routine haematology clinic follow-up, currently in steady state with no acute complaints.',
+    content: `
+PAEDIATRIC HAEMATOLOGY CLINIC
+  
+Age: 11 years
+Sex: Male
+.
+  
+The patient is regular with clinic follow-up and compliant with medications.
+No fresh complaints.
+
+There has been no history of pain crisis, fever, chest pain, difficulty in breathing, or dark-coloured urine since the last clinic visit.
+  
+Steady-state PCV: 24–31%.
+  
+O/E:
+Mildly pale, anicteric, afebrile, well hydrated, no pedal edema.
+  
+Weight: 27 kg
+  
+Respiratory System:
+RR: 22 cycles/min.
+Not dyspnoeic.
+Breath sounds vesicular.
+SpO₂: 98% on room air.
+  
+Cardiovascular System:
+PR: 100 bpm, full volume, regular.
+Heart sounds: S1 and S2 only.
+  
+Abdomen:
+Full, moves with respiration.
+Soft and non-tender.
+Liver palpable 6 cm below the right costal margin.
+Spleen just tipped.
+  
+Investigations:
+Packed Cell Volume (PCV) today: 26%.
+  
+Assessment:
+Stable sickle cell disease patient (steady state).
+
+Plan:
+Continue oral Hydroxyurea 600 mg daily.
+Continue oral Paludrine 150 mg daily.
+Continue oral Folic acid 5 mg daily.
+  
+Ensure echocardiography.
+  
+Investigations to be requested at next visit:
+- Haemoglobin quantification.
+- Liver function tests (LFT).
+- Electrolytes, urea and creatinine (EUCr).
+  
+Follow-Up:
+Review in 2 months.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-15',
+    title: 'Sickle Cell Disease – Vaso-Occlusive Crisis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatrics Haematology',
+    condition: 'Sickle Cell Disease (HbSS) – Vaso-Occlusive Crisis',
+    symptoms: ['Pain in hands and legs', 'Reduced appetite'],
+    contributor: 'Admin',
+    lastModified: '2026-01-25',
+    summary: '12-year-old male with sickle cell disease presenting with acute vaso-occlusive (bone pain) crisis affecting hands and legs.',
+    content: `
+PAEDIATRIC HAEMATOLOGY CLINIC
+  
+Age: 12 years
+Sex: Male
+Informant: Mother
+Reliability: Good
+  
+PC:
+Pain in the hands and legs × 1/7
+Reduced appetite × 4 hours
+  
+HPI:
+Patient was well until 1 day prior to presentation, when he developed insidious-onset pain initially in the left hand, subsequently involving the right hand and both legs. Pain rated 6/10, disturbing sleep, with no identifiable aggravating or relieving factors. No involvement of other body parts.
+  
+Reduced appetite noted ~4 hours prior to presentation.
+  
+Patient received one dose of oral paracetamol 500 mg with minimal relief.
+  
+No history of fever, vomiting, drooling, cough, chest pain, difficulty in breathing, or dark-coloured urine.
+  
+Known sickle cell disease (HbSS). Admitted last year for fever and low PCV, transfused (units unknown). No history of surgery.
+  
+Developmental milestones achieved appropriately. Currently in JSS 2, performing well academically.
+  
+Family/Social History:
+First of two children in a monogamous family.
+Sibling: 8-year-old male, alive and well.
+Mother: 36-year-old civil servant, BSc.
+Father: 44-year-old businessman, BSc.
+  
+O/E:
+Not ill-looking, not pale, afebrile (37.4°C), anicteric, not cyanosed, well hydrated, no pedal edema.
+  
+Weight: 24 kg
+  
+CVS:
+PR: 104 bpm, full volume, regular
+Heart sounds: S1 and S2 only
+  
+RS:
+RR: 30 cycles/min
+Not dyspneic
+Breath sounds vesicular
+SpO₂: 96% on room air
+  
+Abdomen:
+Full, moves with respiration
+Soft, non-tender
+No palpable organomegaly
+  
+Investigations:
+PCV: 33%
+Malaria RDT: Negative
+Urinalysis: Essentially normal
+  
+Assessment:
+Sickle cell disease (HbSS) with vaso-occlusive (bone pain) crisis
+  
+Plan:
+Admit for observation and pain control
+  
+Investigations:
+- Full blood count (FBC)
+- ESR
+- Random blood sugar (RBS)
+- Urinalysis
+  
+Medications:
+- Tab Paracetamol 250 mg 6-hourly × 3 days
+- Tab Ibuprofen 200 mg 8-hourly × 3 days
+- Tab Dihydrocodeine (DF 118) 15 mg 6-hourly × 3 days
+  
+Supportive Care:
+- Liberal oral fluid intake (~2 L/day)
+- Warm compresses to painful areas
+- Bed rest
+`,
+bookmarkCount: 0
+}, 
+  {
+    id: 'peds-16',
+    title: 'Chronic Tinea Corporis in Preschool-Aged Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology Clinic',
+    condition: 'Chronic Dermatophytosis (Tinea Corporis)',
+    symptoms: [
+      'Annular pruritic skin lesions',
+      'Scaly plaques with central clearing',
+      'Progressive spread of rash'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-26',
+    summary: 'A 4-year-old female child with a 5-month history of progressively spreading, pruritic, annular scaly lesions involving both lower limbs and the right upper limb, clinically consistent with chronic tinea corporis. Managed with topical and systemic antifungal therapy and caregiver counselling.',
+    content: `
+PEDIATRIC DERMATOLOGY CLINIC
+  
+Patient Seen
+  
+Age: 4 years  
+Sex: Female  
+Informant: Mother (reliable)
+  
+PC:  
+Multiple skin rashes on both legs and right upper limb × 5 months
+  
+HPC:  
+The patient was apparently well until about 5 months prior to presentation when the mother noticed a small, ring-shaped scaly lesion on the right leg. The lesion was insidious in onset and gradually increased in size, with subsequent appearance of similar lesions on other parts of the same leg. The rash later involved the contralateral leg and, most recently, the right upper limb.
+  
+The lesions are pruritic but not painful, with no associated discharge, bleeding, or ulceration. There is no history of fever, weight loss, or other systemic symptoms.
+  
+There is no prior history of similar skin lesions. No known contact with persons with similar symptoms. No history of sharing towels, clothing, or bedding. No known contact with domestic animals.
+  
+Skin Care / Environmental History:  
+- Bathes with Fairchild® soap and cream  
+- No use of topical steroid-containing or herbal creams  
+- Borehole water for bathing and cooking; sachet/bottled water for drinking  
+  
+Past Medical History:  
+No chronic medical illnesses  
+No previous hospital admissions  
+  
+Drug History:  
+Not on routine medications  
+  
+Allergy History:  
+No known food or drug allergies  
+  
+Family History:  
+No family member with similar skin lesions  
+No history of atopy or chronic skin disease  
+  
+Social History:  
+Lives with parents in a 2-bedroom apartment  
+No overcrowding  
+Attends primary school
+  
+O/E:
+  
+General Examination:  
+Not pale, anicteric, afebrile  
+No lymphadenopathy
+  
+Integumentary System Examination:  
+- Multiple annular hypopigmented to erythematous patches and plaques with raised, scaly margins and relative central clearing  
+- Lesions distributed over both legs, thighs, and one lesion on the right upper limb  
+- Sizes range from approximately 2–6 cm in diameter  
+- Mild excoriation marks present  
+- No pustules, vesicles, or evidence of secondary bacterial infection  
+  
+Other Sites:  
+- Scalp, nails, mucous membranes, palms, soles, and groin: No abnormalities detected
+  
+Assessment:  
+Chronic Dermatophytosis (Tinea Corporis)
+  
+Plan:
+  
+Investigations:  
+- Clinical diagnosis  
+- KOH microscopy if available and affordable
+  
+Treatment:
+  
+Topical Therapy (First-line):  
+- Clotrimazole 1% cream: Apply twice daily to affected areas and at least 2 cm beyond lesion margins for 4 weeks  
+- Continue treatment for 1–2 weeks after clinical clearance
+  
+Systemic Therapy (for extensive and chronic disease):  
+- Griseofulvin 5 mg/kg orally twice daily × 4 weeks  
+- Dose to be calculated based on documented body weight
+  
+Supportive Care / Counselling:  
+- Keep affected areas clean and dry  
+- Avoid sharing towels, clothing, and bedding  
+- Wash clothing with soap and dry under sunlight  
+- Avoid use of steroid-containing combination creams  
+- Trim fingernails to reduce excoriation  
+- Advise caregivers to bring close contacts for evaluation if similar lesions develop
+  
+Follow-Up:  
+- Review at Paediatric Outpatient Department in 2 weeks
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'peds-17',
+    title: 'Generalised Scaly Dermatosis in a Young Infant',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology Clinic',
+    condition: 'Generalised Scaly Dermatosis (Infantile)',
+    symptoms: [
+      'Generalised skin rash',
+      'Scaly patches and plaques',
+      'Gradual progression of lesions'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-26',
+    summary: 'A 4-month-old female infant with a 1-month history of gradually progressive, generalised scaly skin lesions involving the trunk and limbs. The child is otherwise well, afebrile, feeding normally, and thriving. Managed conservatively with topical antifungal therapy, emollients, and caregiver counselling.',
+    content: `
+  
+Patient Seen
+  
+Age: 4 months  
+Sex: Female  
+Brought by: Mother (reliable informant)
+  
+PC:  
+Generalised skin rash × 1 month
+  
+HPC:  
+The patient was apparently well until about 1 month prior to presentation when the mother noticed the onset of a skin rash, initially involving the trunk and later becoming generalised. Some lesions appear well-circumscribed and scaly.
+  
+The rash was gradual in onset and progressive, with no associated vesiculation, discharge, bleeding, or ulceration. There is no history of fever, poor feeding, excessive crying, vomiting, or reduced urine output. The infant remains active and feeds well.
+  
+There are no prior similar episodes. No known contact with caregivers or household members with fungal skin infections. No contact with pets. No sharing of towels or clothing. There is no history of application of herbal preparations, topical steroid-containing creams, or medicated ointments prior to presentation.
+  
+Past Medical and Birth History:  
+- Delivered at term via spontaneous vaginal delivery  
+- No previous hospital admissions  
+- No known chronic medical conditions  
+  
+Feeding History:  
+- Exclusively breastfed  
+- Feeding well
+  
+Immunisation History:  
+- Immunisations appropriate for age according to the National Programme on Immunisation (NPI) schedule
+  
+Drug and Allergy History:  
+- No known drug or food allergies
+  
+Family History:  
+- No family history of chronic skin disease or atopy  
+- No similar lesions in household contacts
+  
+O/E:
+  
+General Examination:  
+Well-looking infant  
+Afebrile  
+Not pale, anicteric, not cyanosed  
+Well hydrated  
+Weight appropriate for age
+  
+Vital Signs:  
+Respiratory rate: 32 cpm  
+SpO₂: 98% on room air
+  
+Integumentary System Examination:  
+- Generalised erythematous to hypopigmented scaly patches and plaques involving the trunk and limbs  
+- Mild scaling present  
+- No vesicles, pustules, crusting, or excoriation marks  
+- No obvious raised active margins or marked central clearing  
+- No evidence of secondary bacterial infection  
+  
+- Scalp, face, diaper area, palms, soles, nails, and mucous membranes: No abnormalities detected
+  
+Assessment:  
+Generalised Scaly Dermatosis in an Infant  
+(Differentials include early dermatophytosis versus infantile eczematous dermatosis)
+  
+Plan:
+  
+Topical Therapy (Age-appropriate):  
+- Clotrimazole 1% cream: Apply thinly to scaly lesions twice daily for 2–3 weeks
+  
+Emollient Therapy:  
+- Liberal application of bland emollient (e.g., petroleum jelly) 2–3 times daily, including after bathing
+  
+Supportive Care / Counselling:  
+- Avoid excessive bathing; use lukewarm water  
+- Use mild, fragrance-free soap  
+- Avoid application of topical steroids or herbal mixtures  
+- Reassure mother regarding benign nature and expected improvement
+  
+Follow-Up:  
+- Review in 2 weeks to assess response to treatment
+`,
+bookmarkCount: 0
+}, 
+  {
+    id: 'peds-18',
+    title: 'Moderate Atopic Dermatitis in Toddler',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Dermatology Clinic',
+    condition: 'Atopic Dermatitis (Moderate)',
+    symptoms: [
+      'Pruritic, recurrent skin rashes',
+      'Dry, scaly erythematous patches and plaques',
+      'Lichenification in flexural areas',
+      'Excoriation marks due to scratching'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-26',
+    summary: 'A 2-year-old male child with an 8-month history of recurrent pruritic skin rashes involving the face, neck, and flexural areas. Lesions are dry, erythematous, scaly, and lichenified in flexures, consistent with moderate atopic dermatitis. Management includes caregiver education, emollients, topical corticosteroids, antihistamines, and skin care counseling.',
+    content: `
+PAEDIATRIC DERMATOLOGY CLINIC
+  
+Patient Seen
+  
+Age: 2 years  
+Sex: Male  
+Informant: Mother (reliable)
+  
+PC:  
+Recurrent itchy skin rashes × 8/52
+  
+HPC:  
+Patient was well until about 8 months prior to presentation when the mother noticed recurrent rashes involving the face, neck, and flexural areas of upper and lower limbs. Lesions are pruritic, with frequent scratching, particularly at night, causing sleep disturbance.
+  
+Rashes wax and wane with partial improvement and frequent relapses. Symptoms worsen with heat, sweating, and dry weather, and improve temporarily with emollients. No associated fever, weight loss, or systemic symptoms. No vesicles, pustules, or discharge except occasional excoriation-related crusting.
+  
+No history suggestive of contact with fungal infections or prior use of herbal/steroid creams.
+  
+Past Medical History:  
+- No previous hospital admissions  
+- Occasional episodes of wheezing during colds  
+- No chronic medical illnesses
+  
+Birth and Development:  
+- Term delivery via spontaneous vaginal delivery  
+- Normal antenatal and perinatal history  
+- Developmental milestones appropriate for age
+  
+Drug and Allergy History:  
+- No known drug or food allergies
+  
+Family History:  
+- Mother has allergic rhinitis (positive atopy)
+  
+Social / Environmental History:  
+- Lives in 3-bedroom apartment with parents and 2 siblings  
+- Uses perfumed soaps and detergents  
+- No pets at home
+  
+O/E:
+  
+General Examination:  
+Well-looking child, afebrile, not pale, anicteric, not cyanosed
+  
+Integumentary System:  
+- Dry, erythematous, scaly patches and plaques on:  
+  - Cheeks  
+  - Neck  
+  - Antecubital fossae  
+  - Popliteal fossae  
+- Lichenification present in flexural areas  
+- Multiple excoriation marks  
+- No vesicles, pustules, or secondary bacterial infection  
+- Scalp, nails, palms, soles, mucous membranes: Normal
+  
+Assessment:  
+Atopic Dermatitis – Moderate Severity
+  
+Plan:
+  
+Caregiver Education:  
+- Chronic, relapsing condition  
+- Emphasize regular skin care even when rash improves  
+- Identify and avoid triggers (heat, sweating, harsh soaps)
+  
+Emollient Therapy:  
+- Petroleum jelly (Vaseline®): Apply liberally 3–4 times daily and after bathing  
+OR  
+- Aqueous cream: Apply at least 3 times daily
+  
+Topical Anti-inflammatory Therapy:  
+- Hydrocortisone 1% cream: Apply once daily to inflamed areas for 5–7 days, then stop  
+- Avoid or use sparingly on face (≤5 days)
+  
+Antihistamine for Pruritus:  
+- Syrup Cetirizine 2.5 mg once nightly (reduce itching, improve sleep)
+  
+Bathing / Skin Care Advice:  
+- Short baths with lukewarm water  
+- Use mild, fragrance-free soap (e.g., Dove® baby)  
+- Pat skin dry; avoid vigorous scrubbing
+  
+Management of Complications:  
+- If secondary infection suspected: review for topical/systemic antibiotics
+  
+Follow-Up:  
+- Review in 2–3 weeks at Paediatric/Dermatology clinic
+
+
+ANTIBIOTIC USE IN ATOPIC DERMATITIS (PAEDIATRIC)
+
+Indications for Antibiotics:
+- Use ONLY if signs of secondary infection are present:
+  - Honey-coloured crusts
+  - Oozing or weeping lesions
+  - Pustules
+  - Rapid worsening of eczema
+  - Fever or systemic symptoms (severe cases)
+- Do NOT use antibiotics routinely
+
+Topical Antibiotics:
+- Indication: Mild, localized secondary infection
+- First-line: Mupirocin 2% ointment
+  - Apply 2–3 times daily
+  - Duration: 5–7 days
+- Alternative: Fusidic acid 2% cream
+  - Apply 2–3 times daily
+  - Duration: 5–7 days
+- Notes:
+  - Use on small, localized areas only
+  - Avoid prolonged use → risk of resistance
+
+Systemic Antibiotics:
+- Indication: Moderate to severe infection or extensive disease
+
+1. Non-severe, outpatient:
+- Oral Flucloxacillin: 25–50 mg/kg/day in 4 divided doses, duration 7–10 days
+  - Covers Staphylococcus aureus (most common)
+- Penicillin allergy alternatives:
+  - Oral Erythromycin: 30–50 mg/kg/day in 4 divided doses, 7–10 days
+  - Oral Azithromycin: 10 mg/kg once daily, 3–5 days
+
+2. Severe infection / systemic symptoms:
+- Admit child
+- Consider IV antibiotics (e.g., IV Cloxacillin) as guided by severity
+
+Key Points:
+- Only treat confirmed or strongly suspected secondary infection
+- Combine with eczema management (emollients, topical corticosteroids) for best outcomes
+- Monitor for improvement and adjust therapy if necessary
+`,
+bookmarkCount: 0
+}, 
+{
+  id: 'peds-19',
+  title: 'Severe Acute Malnutrition (Kwashiorkor) with Acute Gastroenteritis in an 18-Month-Old',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Pediatrics/Nutrition',
+  condition: 'Severe Acute Malnutrition (Kwashiorkor type) with dehydration secondary to acute gastroenteritis',
+  symptoms: [
+    'Progressive weight loss for 3 months',
+    'Poor appetite for 1 month',
+    'Bilateral leg swelling for 2 weeks',
+    'Recurrent diarrhea for 1 week, watery)',
+    'Reduced activity and increased sleepiness',
+    'Sparse, depigmented hair',
+    'Flaky paint dermatosis',
+    'Moon face appearance',
+    'Hypothermia',
+    'Tachycardia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-16',
+  summary: 'An 18-month-old male child from a low socioeconomic background presenting with severe acute malnutrition (kwashiorkor type) characterized by bilateral pitting edema, severe wasting, skin changes, and Weight-for-Height Z-score < -3 SD. Complicated by acute gastroenteritis with dehydration. Poor dietary intake and incomplete immunization.',
+  content: `
+CHILDREN EMERGENCY UNIT
+
+Age/Sex: 8-month-old male child
+Address: Lives with parents in Akure, Ondo State
+Informant: Mother (reliable)
+
+PRESENTING COMPLAINTS
+Progressive weight loss × 3 months
+Poor appetite × 1 month
+Bilateral leg swelling × 2 weeks
+Recurrent diarrhea × 1 week
+
+HISTORY OF PRESENTING ILLNESS
+He was apparently well until about 3 months prior to presentation when mother noticed progressive weight loss despite feeding. Weight loss was evidenced by loosening of clothes and prominently visible ribs.
+
+Two weeks prior to presentation, she noticed swelling of both feet which gradually progressed to involve the legs. The swelling is painless and persistent.
+
+One week prior to presentation, the child developed frequent loose stools (4–6 episodes per day), watery, non-bloody, non-mucoid, associated with mild vomiting but no abdominal distension.
+
+There is poor appetite and reduced activity. The child is less playful and sleeps more than usual.
+
+No history of cough, night sweats, or contact with chronic cough.
+No history suggestive of measles.
+No history of convulsions.
+No prior hospital admission for similar illness.
+
+FEEDING HISTORY
+Exclusive breastfeeding for 2 months
+Complementary feeding started at 3 months
+Currently fed mainly diluted pap (ogi) 2–3 times daily
+Rare intake of protein such as meat, fish, or eggs
+No prior use of ready-to-use therapeutic food
+
+Diet is inadequate in calories and protein.
+
+BIRTH HISTORY
+Term delivery via spontaneous vaginal delivery
+Birth weight unknown
+Pregnancy, birth and postnatal period uneventful
+
+PAST MEDICAL HISTORY
+Recurrent diarrhea episodes
+Not a known sickle cell disease, asthmatic or seizure disorder patient
+No known congenital illness
+
+IMMUNIZATION HISTORY
+Immunization incomplete for age
+Received BCG and OPV at birth
+Missed measles vaccine
+
+DEVELOPMENTAL HISTORY
+Delayed motor developmental milestones
+
+FAMILY AND SOCIAL HISTORY
+Fourth of five children
+Low socioeconomic background
+Father is a farmer
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Ill-looking child, severely wasted, with bilateral pitting pedal oedema
+Sparse, depigmented hair
+Flaky paint dermatosis over buttocks
+Moon face appearance
+Bilateral pitting oedema present
+
+Anthropometry:
+Weight: 6.2 kg
+Length/Height: 76 cm
+MUAC: 10.5 cm
+Weight-for-Height Z-score: < -3 SD
+Findings meet criteria for Severe Acute Malnutrition (edematous type)
+
+Vital Signs:
+Temperature: 35.8°C (hypothermic)
+Pulse rate: 148 bpm (tachycardic)
+Respiratory rate: 42 cpm
+Capillary refill time: 3 seconds
+
+CVS:
+S1 and S2 heard
+No murmurs
+
+Respiratory System:
+Clear breath sounds bilaterally
+
+Abdomen:
+Distended
+Mild hepatomegaly, 4 cm below right costal margin
+No tenderness
+
+CNS:
+Lethargic but arousable
+Reduced muscle bulk
+
+WORKING DIAGNOSIS
+Severe Acute Malnutrition (Kwashiorkor type) with dehydration secondary to acute gastroenteritis
+
+DIFFERENTIAL DIAGNOSES
+Nephrotic syndrome
+Chronic liver disease
+Congenital heart disease
+
+INVESTIGATIONS
+Random blood sugar
+FBC
+Serum EUCr
+Malaria parasite
+HIV screening after counseling
+Urinalysis to rule out nephrotic syndrome
+Stool microscopy
+
+MANAGEMENT
+Management follows the WHO 10-step protocol for Severe Acute Malnutrition
+
+STABILIZATION PHASE
+
+1. Treat or Prevent Hypoglycemia:
+   - Check random blood glucose immediately
+   - If less than 3 mmol/L: give 5 ml/kg of 10% dextrose intravenously, then commence F-75 feeds promptly
+
+2. Treat or Prevent Hypothermia:
+   - Keep child warm with kangaroo care and warm environment
+   - Monitor temperature regularly
+
+3. Treat Dehydration:
+   - Use ReSoMal, not standard ORS
+   - Give 5–10 ml/kg every 30 minutes for first 2 hours
+   - Then 5–10 ml/kg per hour for up to 10 hours
+   - If in shock: give cautious intravenous fluids such as Ringer's lactate with 5% dextrose 15 ml/kg over 1 hour and reassess
+
+4. Correct Electrolyte Imbalance:
+   - Give potassium 3–4 mmol/kg/day
+   - Give magnesium 0.4–0.6 mmol/kg/day
+   - Avoid excess sodium
+
+5. Treat Infection Empirically:
+   - IV Ampicillin 50 mg/kg every 6 hours PLUS IV Gentamicin 7.5 mg/kg once daily
+   - Alternatively: IV Ceftriaxone 50–75 mg/kg once daily in very ill child
+   - Duration: 5–7 days
+
+6. Micronutrients:
+   - Vitamin A (age-appropriate dose)
+   - Folic acid 5 mg stat, then 1 mg daily
+   - Zinc 20 mg daily
+   - Multivitamins
+   - Do NOT give iron in stabilization phase
+
+7. Feeding:
+   - Start F-75 formula at 130 ml/kg/day divided into 2–3 hourly feeds for 2–7 days
+
+REHABILITATION PHASE
+
+When appetite improves and oedema subsides:
+- Switch to F-100 formula or ready-to-use therapeutic food at approximately 200 kcal/kg/day
+- Commence iron 3 mg/kg/day once stable
+- Encourage catch-up growth and structured play therapy
+
+MONITORING
+- Daily weight
+- Strict input and output chart
+- Monitor oedema
+- Regular temperature monitoring
+- Watch for refeeding syndrome
+
+DISCHARGE CRITERIA
+- Good appetite
+- No oedema for at least 2 weeks
+- MUAC greater than 12.5 cm
+- Weight-for-height above -2 SD
+
+HEALTH EDUCATION
+- Encourage exclusive breastfeeding for 6 months in future children
+- Advise balanced complementary feeding with adequate protein and calories
+- Ensure completion of immunization schedule
+- Encourage early hospital presentation during illness
+- Provide nutrition counseling and follow-up in nutrition clinic
+`,
+bookmarkCount: 0
+},
+{
+  id: 'peds-20',
+  title: 'Edematous Severe Acute Malnutrition with Hypovolemic Shock in a 4-Month-Old Infant',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Nutrition/Emergency',
+  condition: 'Edematous Severe Acute Malnutrition (SAM) complicated by acute gastroenteritis, hypovolemic shock, and hypoglycemia risk',
+  symptoms: [
+    'Poor weight gain',
+    'Vomiting',
+    'Passage of loose stools',
+    'Fever',
+    'Marked wasting with obvious bony prominences',
+    'Bilateral pitting pedal edema up to knees',
+    'Severe dehydration',
+    'Hypovolemic shock at presentation (non-palpable pulse)',
+    'Hypoglycemia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-16',
+  summary: 'A 4-month-old female infant (first of twins) presenting with severe acute malnutrition (weight 2.2 kg vs expected 6.5 kg) complicated by acute gastroenteritis and hypovolemic shock. Poor feeding practices (diluted Dano milk, age-inappropriate feeds) contributed to chronic malnutrition. Resuscitated with IV fluids, now requires WHO 10-step protocol management for SAM.',
+  content: `
+
+Age/Sex: 4-month-old female infant
+Address: Sagamu, Ogun State
+Informant: Mother (reliable)
+
+EMERGENCY ROOM RESUSCITATION NOTE
+
+A 4-month-old infant was rushed in with poor activity.
+
+At Presentation:
+Pulse: Not palpable
+HR: 166 bpm
+RR: 62 cpm
+SpO₂: 96% in room air
+RBG: 62 mg/dL
+Features of severe dehydration
+
+Impression: Hypovolemic shock
+
+Immediate Intervention:
+- Secured IV access
+- IV Normal saline 15 ml/kg (≈30 ml) given as stat bolus
+
+Response:
+- Pulse became palpable
+- PR: 146 bpm, full volume, regular
+- Perfusion improved
+- Child stabilized and admitted
+
+PRESENTING COMPLAINTS
+Poor weight gain × 3 months
+Vomiting × 1 day
+Passage of loose stools × 1 day
+Fever × 1 day
+
+HISTORY OF PRESENTING ILLNESS
+Mother noticed poor weight gain over the past 3 months, evidenced by:
+- Feeling lighter compared to co-twin
+- Obvious bony prominences
+- No intervention was sought initially
+
+One day prior to presentation:
+- Vomiting: ~6 episodes, 10–15 ml per episode, non-bilious, non-bloody, containing recently ingested feeds
+- Loose stools: ~5 episodes, watery, non-mucoid, non-bloody (~20 ml per episode)
+- High-grade intermittent fever
+
+Initially seen at a General Hospital and referred.
+Mother first visited a chemist where Babyrex and ORS were prescribed.
+Due to worsening symptoms and poor activity, child was brought here.
+
+ANTENATAL HISTORY
+Booked at private hospital
+2 doses Tetanus toxoid
+3 doses IPT
+No PIH, no PROM, no peripartum fever
+No UTI or abnormal vaginal discharge
+
+BIRTH HISTORY
+Term delivery via EMCS (inadequate pelvis)
+Cried immediately after birth
+Birth weight unknown
+No neonatal jaundice
+Cord care: Not specified
+
+NUTRITIONAL HISTORY
+NAN 1 for first 3 days
+
+Subsequently poorly constituted, age-inappropriate feeds:
+- Dano milk: 1 scoop in 50 ml bottled water (severely diluted)
+- Fed 4 times daily
+- Also given unfortified semo
+
+No history suggestive of cardiac failure during feeds
+
+IMMUNIZATION HISTORY
+Immunized for age per NPI schedule
+
+DEVELOPMENTAL HISTORY
+Social smile at 1 month
+Yet to attain neck control (expected by 3-4 months)
+Suggestive of developmental delay
+
+FAMILY & SOCIAL HISTORY
+First of a set of twins (second twin alive and well)
+Monogamous family
+Father: 45 years, SSCE
+Mother: 31 years, hairdresser, SSCE
+Residence: Self-contained apartment
+
+Environmental:
+- Drinking water: Sachet
+- Sewage: Water closet
+- Refuse: Municipal disposal
+
+REVIEW OF SYSTEMS
+No convulsions
+No loss of consciousness
+No apnoea
+No cough
+No noisy breathing
+
+EXAMINATION
+
+General Examination:
+Chronically ill-looking infant with:
+- Marked wasting
+- Obvious bony prominences
+- Hanging skin folds
+- Bilateral pitting pedal oedema up to knees
+- Pale
+- Dehydrated (dry buccal mucosa, delayed capillary refill)
+- Anicteric, acyanosed
+
+Anthropometry:
+Weight: 2.2 kg (Expected ~6.5 kg)
+% Expected weight: 34%
+Length: 51 cm
+OFC: 34 cm (< -3 Z score)
+Weight-for-length: < -3 Z score
+Consistent with Severe Acute Malnutrition (edematous type)
+
+Abdomen:
+Full, moves with respiration
+No tenderness
+No organomegaly
+
+Cardiovascular:
+PR: 146 bpm, full volume, regular
+S1, S2 normal
+No murmur
+
+Respiratory:
+RR: 38 cpm
+Not dyspnoeic
+Equal air entry
+Vesicular breath sounds
+SpO₂: 98% on oxygen
+
+CNS:
+Conscious, alert
+Pupils equal, reactive
+Globally reduced tone
+
+INVESTIGATIONS
+PCV: 33%
+Urinalysis: Pending
+
+WORKING DIAGNOSIS
+Edematous Severe Acute Malnutrition (SAM)
+
+Complicated by:
+- Acute Gastroenteritis
+- Hypovolemic shock (resolved post-resuscitation)
+- Hypoglycaemia risk
+
+MANAGEMENT PLAN (WHO 10-STEP PROTOCOL FOR SAM – CONTEXTUALIZED)
+
+1. ADMIT TO CHILDREN EMERGENCY
+   - High-dependency monitoring
+
+2. OXYGEN THERAPY
+   - Intranasal oxygen 1 L/min
+   - Monitor SpO₂ continuously
+
+3. FLUID MANAGEMENT (CAREFUL REHYDRATION)
+   - IV 5% Dextrose in Ringer's Lactate
+   - 2/3 maintenance (150 ml over 24 hrs) via soluset
+   - Close monitoring for fluid overload
+   - SAM children are at high risk of fluid overload and heart failure
+
+4. ENTERAL REHYDRATION
+   - NG tube insertion
+   - ORS: 5 ml/kg per loose stool/vomit (≈10 ml per episode)
+
+5. FEEDING (STABILIZATION PHASE)
+   - Start Appropriate F75 equivalent (AFM)
+   - 10 ml 2-hourly (≈1/3 maintenance initially)
+   - Gradually increase as tolerated
+   - Target: 130 ml/kg/day divided into 2-hourly feeds
+
+6. PREVENT/TREAT HYPOGLYCEMIA
+   - RBS monitoring 6 hourly
+   - If RBS < 70 mg/dL → give 10% dextrose 5 ml/kg stat
+   - Then start F75 feeds immediately
+
+7. EMPIRICAL ANTIBIOTICS
+   - IV Ceftriaxone 50 mg/kg daily (≈100 mg daily)
+   - Duration: 5-7 days
+   - Treat presumed sepsis/gastroenteritis
+
+8. MICRONUTRIENT SUPPLEMENTATION
+   - Zinc 10 mg daily (for diarrhoea and immune function)
+   - Abidec 0.6 ml daily (multivitamin)
+   - Folic acid 2.5 mg daily
+   - Mist Potassium Citrate 4 mmol/kg/day (1.5 ml BD, double diluted)
+   - Vitamin A (age-appropriate dose)
+   - NO IRON in stabilization phase (risk of infection)
+
+9. MONITORING
+   - 2-hourly vitals (PR, RR, Temp, SpO₂)
+   - Strict input/output chart
+   - Urethral catheter for urine output monitoring
+   - Daily weight
+   - Monitor for:
+     • Fluid overload (tachycardia, gallop rhythm, increased RR, hepatomegaly)
+     • Hypoglycaemia
+     • Electrolyte imbalance (especially hypokalaemia, hypomagnesaemia)
+     • Refeeding syndrome
+     • Hypothermia
+
+10. LABORATORY WORKUP
+    - Full blood count
+    - Serum electrolytes, urea, creatinine
+    - Blood culture and sensitivity
+    - Stool microscopy
+    - Malaria parasite
+
+UPDATE (2 HOURS POST ADMISSION)
+RBS: 60 mg/dL
+SpO₂: 98% on oxygen
+PR: 120 bpm
+RR: 38 cpm
+
+Repeat measurements:
+PR: 124 bpm, full volume
+SpO₂: 98%
+
+CONTINUED PLAN
+
+STABILIZATION PHASE (Days 1-7):
+- Continue 2-hourly monitoring
+- Correct hypoglycaemia if persistent
+- F75 feeds as per protocol
+- No iron supplementation
+- Watch for complications
+
+REHABILITATION PHASE (When appetite returns and oedema resolves):
+- Switch to F100 or Ready-to-Use Therapeutic Food (RUTF)
+- Target: 200 kcal/kg/day
+- Start iron supplementation (3 mg/kg/day)
+- Catch-up growth phase
+- Structured play and stimulation
+
+DISCHARGE CRITERIA:
+- Good appetite
+- No oedema for at least 2 weeks
+- Weight-for-length > -2 Z score
+- No medical complications
+
+HEALTH EDUCATION & COUNSELING
+
+Mother counseled extensively on:
+- Proper infant feeding practices
+- Exclusive breastfeeding for 6 months (for future children)
+- Appropriate complementary feeding
+- Proper formula preparation (if breastfeeding not possible)
+- Danger signs requiring urgent attention
+- Importance of growth monitoring
+- Immunization completion
+
+FOLLOW-UP:
+- Advise bringing second twin for assessment (ensure co-twin is thriving)
+- Nutrition clinic follow-up after discharge
+- Social services referral for family support
+
+PROGNOSIS
+Guarded due to:
+- Severe acute malnutrition (weight 34% of expected)
+- Shock at presentation
+- Hypoglycaemia risk
+- Risk of refeeding syndrome
+- Developmental delay
+
+Success depends on:
+- Response to initial stabilization
+- Prevention of complications
+- Maternal understanding and compliance
+- Adequate catch-up growth
+- Prevention of relapse
+`,
+bookmarkCount: 0
+},
+{
+  id: 'peds-21',
+  title: 'Lumbosacral Myelomeningocele with Suspected Hydrocephalus and Lower Limb Paraplegia',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Pediatric Surgery/Neurosurgery',
+  condition: 'Lumbosacral Myelomeningocele with lower motor neuron paraplegia, bilateral talipes equinovarus, and suspected hydrocephalus',
+  symptoms: [
+    'Swelling over the lower back since birth',
+    'Reduced movement of both lower limbs since birth',
+    'Bilateral clubfoot (talipes equinovarus)',
+    'Intermittent downward deviation of eyes (sunset sign)',
+    'Borderline elevated OFC trending upward',
+    'Full anterior fontanelle',
+    'Weak urine stream',
+    'Lower limb hypotonia and absent deep tendon reflexes',
+    'Reduced sensation below L4 dermatome',
+    'Gross motor developmental delay'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-16',
+  summary: 'A 17-week-old male infant presenting with a lumbosacral myelomeningocele noted since birth, complicated by lower motor neuron paraplegia, bilateral talipes equinovarus, and suspected hydrocephalus (borderline elevated OFC, full fontanelle, sunset sign). Late antenatal booking and delayed folic acid supplementation are likely contributory risk factors. Requires urgent multidisciplinary neurosurgical, orthopaedic, and urological management.',
+  content: `
+PEDIATRIC SURGERY/NEUROSURGERY
+
+Patient Seen: 17-week-old male infant (17 weeks + 1 day)
+Address: Ilorin, Kwara State
+Place of Birth: xyz Hospital, Ilorin
+Informant: Mother (reliable)
+
+PRESENTING COMPLAINT
+Swelling over the lower back since birth
+
+HISTORY OF PRESENTING ILLNESS
+Mother noticed a swelling over the lower back immediately after birth. The swelling has progressively increased slightly in size in keeping with the child's growth.
+
+There is:
+No pain
+No bleeding
+No history of rupture
+No CSF leakage
+No ulceration
+
+Mother complains of reduced movement of both lower limbs since birth. The child does not kick as vigorously as expected for age.
+
+He is being managed for bilateral clubfoot and has undergone 6 weeks of serial manipulation and casting (Ponseti method).
+
+No history of convulsions, projectile vomiting, refusal of feeds, excessive irritability, apnoea, or respiratory distress.
+
+However, mother has noticed intermittent downward deviation of the eyes over the past few weeks.
+No prior neurosurgical intervention.
+
+ANTENATAL HISTORY
+Pregnancy booked late at approximately 7 months at a maternity home
+Folic acid commenced late (third trimester)
+One antenatal ultrasound at approximately 8 months — reportedly normal
+
+No history of:
+Maternal diabetes
+First trimester febrile illness
+Rash
+Alcohol intake
+Teratogenic drug use
+Dysuria or vaginal discharge
+
+BIRTH HISTORY
+Term baby
+Delivered via SVD in breech presentation
+Cried immediately
+Birth weight: 2.4 kg
+No NICU admission
+Swelling noted at birth
+
+NUTRITIONAL HISTORY
+Exclusively breastfed
+Feeds on demand
+Suckles for approximately 30 minutes
+No choking or fatigue during feeds
+
+IMMUNIZATION HISTORY
+Immunized for age according to National Programme on Immunization schedule
+
+DEVELOPMENTAL HISTORY
+
+Social:
+Smiles responsively
+Recognizes mother
+
+Fine Motor:
+Grasps objects placed in hand
+
+Gross Motor:
+Poor head control for age
+Does not roll over
+Reduced spontaneous lower limb movement
+Minimal antigravity movement in lower limbs
+
+Language:
+Coos appropriately for age
+
+Developmental delay mainly in gross motor domain (lower limbs)
+
+FAMILY & SOCIAL HISTORY
+First child. Parents not married.
+
+Mother:
+20 years, ND, Sales girl (G1P1)
+
+Father:
+23 years, BSc, Businessman
+
+Lives in one-bedroom flat with mother and grandmother
+Water: Sachet
+Toilet: Water closet
+Refuse: Open burning
+
+No family history of neural tube defects
+
+REVIEW OF SYSTEMS
+No seizures
+No persistent vomiting
+No apnoea
+No cough
+No difficulty breathing
+
+Possible features of raised ICP:
+Mild sunset sign
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Conscious, alert, afebrile (36.5°C), anicteric, not cyanosed, no pedal oedema
+Mild sunset appearance
+
+Anthropometry:
+Weight: 6.6 kg (appropriate for age)
+Length: 60 cm
+OFC: 43 cm (borderline elevated for age; trending upward per mother)
+Anterior fontanelle: Full but not tense
+
+Back Examination:
+Lumbosacral midline cystic mass
+6 cm × 6 cm
+Thin, translucent membrane covering
+Central exposed neural placode visible
+No active CSF leak
+Surrounding skin normal
+No hypertrichosis
+No dermal sinus
+Consistent with open myelomeningocele
+
+Cardiovascular:
+PR: 140 bpm, full volume, regular
+S1, S2 normal
+No murmurs
+
+Respiratory:
+RR: 36 cpm
+Chest symmetrical
+Vesicular breath sounds
+No added sounds
+
+Abdomen:
+Full, soft, moves with respiration
+No hepatosplenomegaly
+No palpable bladder
+
+Central Nervous System:
+
+Higher Functions:
+Conscious, socially interactive
+
+Cranial Nerves:
+Pupils equal, reactive
+Mild sunset sign
+No facial asymmetry
+Suck and swallow intact
+
+Motor Examination:
+
+Upper Limbs:
+Normal bulk
+Normal tone
+Power 5/5
+Reflexes normal
+
+Lower Limbs:
+Reduced bulk
+Hypotonia
+Power:
+  - Hip flexion: 2/5
+  - Knee extension: 1–2/5
+  - Ankle movement: 0–1/5
+Deep tendon reflexes:
+  - Knee jerk: absent
+  - Ankle jerk: absent
+  - Plantar response: mute bilaterally
+
+Sensation:
+Reduced response to painful stimuli below L4 dermatome
+Preserved sensation above lesion
+
+Genitourinary Examination:
+No palpable bladder
+Urine stream reported as weak by mother
+No history of dribbling
+No history of recurrent fever suggestive of UTI
+Suggestive of early neurogenic bladder — requires evaluation
+
+WORKING DIAGNOSIS
+Lumbosacral Myelomeningocele with:
+- Lower motor neuron paraplegia
+- Bilateral talipes equinovarus
+- Suspected hydrocephalus
+
+PROBLEM LIST
+1. Open neural tube defect
+2. Lower limb neurological deficit
+3. Orthopaedic deformity (bilateral clubfoot)
+4. Suspected hydrocephalus
+5. Risk of meningitis
+6. Risk of neurogenic bladder and bowel dysfunction
+
+MANAGEMENT PLAN
+
+1. ADMIT UNDER PAEDIATRIC SURGERY/NEUROSURGERY
+   - High-dependency monitoring
+   - Multidisciplinary team involvement from admission
+
+2. PROTECT THE LESION
+   - Nurse prone or lateral
+   - Sterile saline-soaked gauze dressing over lesion
+   - Strict asepsis
+   - Avoid all pressure on the lesion
+
+3. INVESTIGATIONS
+
+Laboratory:
+- Full blood count
+- Electrolytes, urea, creatinine
+- Blood group and crossmatch
+- CRP (if infection suspected)
+
+Imaging:
+- Cranial ultrasound (via anterior fontanelle) — assess ventricular size
+- Transfontanelle scan
+- MRI spine (if available)
+- CT scan brain (if available)
+- Spinal ultrasound (if feasible)
+
+4. MONITOR FOR HYDROCEPHALUS
+   - Serial OFC measurements
+   - Monitor fontanelle tension
+   - Watch for:
+     • Vomiting
+     • Irritability
+     • Poor feeding
+     • Worsening sunset sign
+
+5. NEUROSURGICAL PLAN
+   - Early surgical closure of myelomeningocele
+     (Closure ideally within 48–72 hours of life; delayed presentation — still requires urgent repair)
+   - VP shunt insertion if hydrocephalus confirmed
+
+6. ANTIBIOTICS (OPEN LESION)
+   Empirical IV broad spectrum antibiotics:
+   - IV Ceftriaxone ± IV Gentamicin (as per hospital protocol)
+   - Duration: 5–7 days or guided by culture results
+
+7. ORTHOPAEDIC REVIEW
+   - Continue clubfoot management post-neurosurgical stabilization
+   - Review Ponseti casting schedule
+
+8. UROLOGICAL ASSESSMENT
+   - Monitor urine stream
+   - Consider bladder scan
+   - Urinalysis
+   - Watch for neurogenic bladder
+   - Clean intermittent catheterization if urinary retention confirmed
+
+9. MULTIDISCIPLINARY CARE TEAM
+   - Paediatrician
+   - Neurosurgeon
+   - Orthopaedic surgeon
+   - Physiotherapist
+   - Urologist
+   - Medical social worker
+
+10. PARENTAL COUNSELLING
+    Explain:
+    - Nature of condition (neural tube defect; failure of neural tube closure)
+    - Role of folate deficiency as a risk factor
+    - Need for urgent surgery
+
+    Discuss risks of:
+    - Hydrocephalus requiring VP shunt
+    - Limb weakness/paralysis
+    - Bladder and bowel dysfunction
+    - Possible long-term disability and need for rehabilitation
+
+    Provide:
+    - Psychological support
+    - Reassurance regarding available care
+    - Counsel on folic acid supplementation (5 mg daily) in future pregnancies
+    - Refer to medical social services for family support
+
+PROGNOSIS
+Guarded. Prognosis depends on:
+- Level of spinal lesion
+- Severity of neurological deficit
+- Presence and control of hydrocephalus
+- Timeliness of surgical intervention
+- Access to multidisciplinary rehabilitation
+- Prevention of complications (meningitis, UTI, pressure sores)
+`,
+bookmarkCount: 0
+},
+{
+  id: 'peds-22',
+  title: 'Congenital Hydrocephalus in a 3-Month-Old Infant',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Pediatrics / Neurosurgery',
+  condition: 'Hydrocephalus (likely congenital)',
+  symptoms: [
+    'Progressive increase in head size for 6 weeks',
+    'Irritability and excessive crying',
+    'Occasional non-projectile vomiting',
+    'Poor feeding for 2 weeks',
+    'Marked macrocephaly (OFC 48 cm, >97th percentile)',
+    'Bulging and tense anterior fontanelle',
+    'Widely separated sutures',
+    'Frontal bossing',
+    'Dilated scalp veins',
+    'Sunset sign (downward deviation of eyes)',
+    'Generalized hypotonia',
+    'Hyperreflexia in lower limbs',
+    'Gross motor delay (poor head control at 3 months)',
+    'Less active than peers'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-16',
+  summary: 'A 3-month-old male infant from Panseke, Ogun State presenting with progressive macrocephaly (OFC 48 cm, >97th percentile) over 6 weeks, accompanied by bulging anterior fontanelle, sunset sign, irritability, and developmental delay. Clinical features consistent with congenital hydrocephalus. Incomplete immunization and uncertain folic acid intake during pregnancy noted. Requires urgent neuroimaging and neurosurgical intervention with CSF diversion procedure.',
+  content: `
+
+Age/Sex: 3-month-old male infant
+Address: Panseke, Ogun State
+Informant: Mother (reliable)
+
+PRESENTING COMPLAINT
+Progressive increase in head size × 6 weeks
+
+HISTORY OF PRESENTING COMPLAINT
+The patient was in his usual state of health until about 6 weeks prior to presentation when the mother noticed progressive enlargement of the head. The enlargement has been gradual and progressive.
+
+There is history of irritability and excessive crying. Occasional episodes of non-projectile vomiting.
+
+No history of fever. No seizures.
+
+No history of loss of consciousness.
+No history suggestive of trauma.
+
+Mother complains of poor feeding over the last 2 weeks.
+No cough or catarrh. No history of diarrhoea.
+
+No history of bulging spinal swelling or leakage of fluid from the back.
+No limb weakness noted but child appears less active than peers.
+
+No high-grade fever, no convulsions, no neck stiffness or any history suggestive of meningitis.
+
+ANTENATAL HISTORY
+Booked at 20 weeks gestation at a Primary Health Centre
+Did not do antenatal scan until the third trimester
+No history of maternal febrile illness in pregnancy
+No history of TORCH screening
+No history of alcohol or teratogenic drug use
+Folic acid intake uncertain during first trimester
+
+NATAL HISTORY
+Delivered at term via spontaneous vaginal delivery at a private hospital
+No history of prolonged labour or birth asphyxia
+No instrumental delivery
+No NICU admission
+
+POSTNATAL HISTORY
+Cried immediately at birth
+No history of neonatal seizures or jaundice requiring exchange transfusion
+No prior admission for meningitis
+
+IMMUNIZATION HISTORY
+Incomplete for age (received BCG and OPV 0 only)
+
+DEVELOPMENTAL HISTORY
+Gross motor delay noted
+Poor head control at 3 months
+Social smile present
+Coos occasionally
+
+FAMILY HISTORY
+No family history of hydrocephalus or congenital anomalies
+
+SOCIAL HISTORY
+Lives with parents in a low socioeconomic setting
+Mother: 22 years old with SSCE as highest level of education, working as a sales girl
+Father: 30 years old, commercial driver
+No known consanguinity
+
+REVIEW OF SYSTEMS
+No cardiac symptoms
+No respiratory distress
+No urinary complaints
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Infant is conscious, irritable, afebrile
+Mildly pale, not cyanosed, not dehydrated
+
+Anthropometry:
+Weight: — kg
+Length: — cm
+Head circumference: 48 cm (>97th percentile for age)
+
+Head:
+Marked macrocephaly
+Frontal bossing present
+Dilated scalp veins visible
+Anterior fontanelle tense and bulging
+Sutures widely separated
+Positive "sunset sign" (downward deviation of eyes)
+Transillumination negative
+
+Neurological Examination:
+Conscious but irritable
+Cranial nerves: Sunset sign present. Pupils equal and reactive
+Motor: Generalized hypotonia. Moves all limbs spontaneously
+Reflexes: Hyperreflexia in lower limbs
+Primitive reflexes present
+No obvious focal neurological deficit
+
+Spine:
+No lumbosacral swelling
+No dermal sinus
+No sacral dimple
+
+Cardiovascular:
+S1, S2 heard
+No murmurs
+
+Respiratory:
+Clear breath sounds bilaterally
+
+Abdomen:
+Soft, non-tender
+No organomegaly
+
+ASSESSMENT
+3-month-old male infant with progressive macrocephaly, bulging anterior fontanelle and sunset sign, consistent with hydrocephalus — likely congenital
+
+Differentials:
+1. Congenital aqueductal stenosis (most common cause of congenital hydrocephalus)
+2. Post-infectious hydrocephalus
+3. Dandy-Walker malformation
+4. Intraventricular haemorrhage (less likely in term baby without history)
+
+PLAN
+
+1. INVESTIGATIONS
+
+Imaging:
+- Cranial ultrasound (through anterior fontanelle) – initial imaging modality
+- CT brain (non-contrast) – to assess ventricular size, cause and plan surgical intervention (more readily available in Nigerian setting)
+- MRI brain if available – better delineation of cause and anatomy
+
+Laboratory:
+- Full blood count
+- Serum electrolytes, urea and creatinine
+- Blood grouping and crossmatch
+- Coagulation profile
+- Screening for infection if clinically indicated (FBC, CRP, blood culture)
+
+2. IMMEDIATE MANAGEMENT
+
+- Admit to neurosurgical ward or paediatric high-dependency unit
+- Elevate head of bed 30 degrees
+- Maintain adequate hydration:
+  • IV 0.9% normal saline at maintenance rate (4–2–1 rule)
+  • For 3-month-old (~5 kg): approximately 100 ml/kg/day = 500 ml/day
+- Monitor vital signs 4-hourly
+- Daily head circumference measurement
+- Strict input/output chart
+- Monitor fontanelle tension
+- Treat anaemia if PCV <30% (packed cells 10–15 ml/kg)
+- Watch for signs of increased ICP:
+  • Worsening irritability
+  • Persistent vomiting
+  • Apnoea
+  • Bradycardia
+  • Altered consciousness
+
+3. DEFINITIVE MANAGEMENT
+
+Likely requires CSF diversion procedure:
+
+Option 1: Ventriculoperitoneal (VP) Shunt (Most common in Nigerian setting)
+- Preoperative antibiotic prophylaxis: IV Ceftriaxone 50 mg/kg stat
+- General anaesthesia
+- Insertion of programmable or non-programmable shunt system
+- Post-operative monitoring for:
+  • Shunt malfunction (obstruction, disconnection)
+  • Shunt infection
+  • Over-drainage or under-drainage
+
+Postoperative Care:
+- Prophylactic antibiotics for 24–48 hours
+- Monitor vital signs and neurological status
+- Serial head circumference measurements
+- Watch for complications
+
+OR
+
+Option 2: Endoscopic Third Ventriculostomy (ETV)
+- If obstructive hydrocephalus confirmed
+- If facility and expertise available
+- Avoids need for permanent shunt hardware
+- Lower long-term complication rate
+
+4. IMMUNIZATION CATCH-UP
+
+- Complete routine immunization schedule once stable post-operatively
+- Emphasize importance of adherence to schedule
+
+5. COUNSELING
+
+Parents counseled extensively on:
+- Nature of condition (accumulation of CSF in brain)
+- Causes (congenital vs acquired)
+- Need for urgent surgery
+- Risks and complications:
+  • Shunt infection (5–15% risk)
+  • Shunt blockage/malfunction
+  • Need for revision surgery (common in growing children)
+  • Seizures
+  • Developmental delays if treatment delayed
+- Financial implications and available support
+- Long-term follow-up requirements
+- Signs of shunt malfunction to watch for:
+  • Increasing head size
+  • Vomiting
+  • Irritability
+  • Lethargy
+  • Fever
+
+6. MULTIDISCIPLINARY CARE
+
+- Paediatric neurosurgeon
+- Paediatrician
+- Anaesthesiologist
+- Physiotherapist (for developmental support)
+- Occupational therapist
+- Social services (financial counselling)
+
+7. FOLLOW-UP
+
+Short-term:
+- Review 1 week post-operatively
+- Monitor wound healing
+- Assess shunt function
+
+Long-term:
+- Monthly for first 6 months
+- Then every 3–6 months
+- Serial head circumference
+- Developmental assessment
+- Shunt series X-rays if malfunction suspected
+
+PROGNOSIS
+Guarded but improved with early CSF diversion. Prognosis depends on:
+- Underlying aetiology
+- Timeliness of surgical intervention
+- Prevention of complications (infection, malfunction)
+- Access to long-term follow-up and shunt revisions
+- Associated brain anomalies
+- Degree of developmental delay at presentation
+
+With appropriate treatment:
+- Many children achieve normal or near-normal development
+- Regular monitoring and prompt management of complications are crucial
+- Multiple shunt revisions are common as child grows
+  `,
+  bookmarkCount: 0
+},
 {
   id: 'peds-23',
   title: 'Acute Exacerbation of Asthma in a Preterm Toddler',

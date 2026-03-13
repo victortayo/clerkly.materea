@@ -255,12 +255,19 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
               </div>
 
               {/* Output Display (Right Column) */}
-              <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-visible md:overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0 relative">
+              <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-hidden md:overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0 relative">
                 {output ? (
-                  <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm min-h-full">
-                    <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm">
+                  <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto relative custom-scrollbar">
+                    <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm pr-12">
                       {output}
                     </p>
+                    <button 
+                      onClick={handleCopy}
+                      className="absolute top-4 right-4 p-3 rounded-xl bg-slate-100 dark:bg-slate-700 text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors shadow-sm border border-slate-200 dark:border-slate-600"
+                      title={copied ? "Copied" : "Copy Result"}
+                    >
+                      {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
+                    </button>
                   </div>
                 ) : (
                   <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto opacity-50 py-12">
@@ -270,16 +277,6 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                     <h3 className="text-xl font-bold text-slate-700 dark:text-slate-300 mb-2">Ready to Assist</h3>
                     <p className="text-sm text-slate-500">Provide your clerking notes and select the tasks you want the AI to perform.</p>
                   </div>
-                )}
-                
-                {output && (
-                  <button 
-                    onClick={handleCopy}
-                    className="absolute top-10 right-10 p-3 rounded-xl bg-slate-100 dark:bg-slate-700 text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors shadow-sm border border-slate-200 dark:border-slate-600"
-                    title={copied ? "Copied" : "Copy Result"}
-                  >
-                    {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
-                  </button>
                 )}
               </div>
 

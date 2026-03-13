@@ -526,7 +526,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
           </div>
 
           {/* Main Content Area */}
-          <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-visible md:overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0">
+          <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0">
             {!module && !loading && (
               <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto opacity-50 py-12">
                 <div className="w-20 h-20 bg-slate-200 dark:bg-slate-800 rounded-full flex items-center justify-center mb-6 shrink-0">

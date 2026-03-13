@@ -3,8 +3,10 @@ import { Template } from './types';
 export const INITIAL_TEMPLATES: Template[] = [
 
   // Pediatrics
+
+
 {
-  id: 'peds-1',
+  id: 'peds-23',
   title: 'Acute Exacerbation of Asthma in a Preterm Toddler',
   specialty: 'Pediatrics',
   subSpecialty: 'Paediatric Respiratory / General Paediatrics',
@@ -130,7 +132,7 @@ Review: 4 weeks in Paediatric Respiratory / General Paediatrics Clinic, or earli
   bookmarkCount: 0
 },
   {
-    id: 'peds-2',
+    id: 'peds-24',
     title: 'Acute Tonsillitis',
     specialty: 'Pediatrics',
     subSpecialty: 'Otolaryngology / Pediatrics',
@@ -229,6 +231,155 @@ Counsel caregiver on danger signs:
 Review in ENT clinic or earlier if symptoms worsen.`,
   bookmarkCount: 0
   },
+  {
+    id: 'peds-25',
+    title: 'Moderate Atopic Dermatitis in Toddler',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Dermatology Clinic',
+    condition: 'Atopic Dermatitis (Moderate)',
+    symptoms: [
+      'Pruritic, recurrent skin rashes',
+      'Dry, scaly erythematous patches and plaques',
+      'Lichenification in flexural areas',
+      'Excoriation marks due to scratching'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-26',
+    summary: 'A 2-year-old male child with an 8-month history of recurrent pruritic skin rashes involving the face, neck, and flexural areas. Lesions are dry, erythematous, scaly, and lichenified in flexures, consistent with moderate atopic dermatitis. Management includes caregiver education, emollients, topical corticosteroids, antihistamines, and skin care counseling.',
+    content: `
+PAEDIATRIC DERMATOLOGY CLINIC
+  
+Patient Seen
+  
+Age: 2 years  
+Sex: Male  
+Informant: Mother (reliable)
+  
+PC:  
+Recurrent itchy skin rashes × 8/52
+  
+HPC:  
+Patient was well until about 8 months prior to presentation when the mother noticed recurrent rashes involving the face, neck, and flexural areas of upper and lower limbs. Lesions are pruritic, with frequent scratching, particularly at night, causing sleep disturbance.
+  
+Rashes wax and wane with partial improvement and frequent relapses. Symptoms worsen with heat, sweating, and dry weather, and improve temporarily with emollients. No associated fever, weight loss, or systemic symptoms. No vesicles, pustules, or discharge except occasional excoriation-related crusting.
+  
+No history suggestive of contact with fungal infections or prior use of herbal/steroid creams.
+  
+Past Medical History:  
+- No previous hospital admissions  
+- Occasional episodes of wheezing during colds  
+- No chronic medical illnesses
+  
+Birth and Development:  
+- Term delivery via spontaneous vaginal delivery  
+- Normal antenatal and perinatal history  
+- Developmental milestones appropriate for age
+  
+Drug and Allergy History:  
+- No known drug or food allergies
+  
+Family History:  
+- Mother has allergic rhinitis (positive atopy)
+  
+Social / Environmental History:  
+- Lives in 3-bedroom apartment with parents and 2 siblings  
+- Uses perfumed soaps and detergents  
+- No pets at home
+  
+O/E:
+  
+General Examination:  
+Well-looking child, afebrile, not pale, anicteric, not cyanosed
+  
+Integumentary System:  
+- Dry, erythematous, scaly patches and plaques on:  
+  - Cheeks  
+  - Neck  
+  - Antecubital fossae  
+  - Popliteal fossae  
+- Lichenification present in flexural areas  
+- Multiple excoriation marks  
+- No vesicles, pustules, or secondary bacterial infection  
+- Scalp, nails, palms, soles, mucous membranes: Normal
+  
+Assessment:  
+Atopic Dermatitis – Moderate Severity
+  
+Plan:
+  
+Caregiver Education:  
+- Chronic, relapsing condition  
+- Emphasize regular skin care even when rash improves  
+- Identify and avoid triggers (heat, sweating, harsh soaps)
+  
+Emollient Therapy:  
+- Petroleum jelly (Vaseline®): Apply liberally 3–4 times daily and after bathing  
+OR  
+- Aqueous cream: Apply at least 3 times daily
+  
+Topical Anti-inflammatory Therapy:  
+- Hydrocortisone 1% cream: Apply once daily to inflamed areas for 5–7 days, then stop  
+- Avoid or use sparingly on face (≤5 days)
+  
+Antihistamine for Pruritus:  
+- Syrup Cetirizine 2.5 mg once nightly (reduce itching, improve sleep)
+  
+Bathing / Skin Care Advice:  
+- Short baths with lukewarm water  
+- Use mild, fragrance-free soap (e.g., Dove® baby)  
+- Pat skin dry; avoid vigorous scrubbing
+  
+Management of Complications:  
+- If secondary infection suspected: review for topical/systemic antibiotics
+  
+Follow-Up:  
+- Review in 2–3 weeks at Paediatric/Dermatology clinic
+
+
+ANTIBIOTIC USE IN ATOPIC DERMATITIS (PAEDIATRIC)
+
+Indications for Antibiotics:
+- Use ONLY if signs of secondary infection are present:
+  - Honey-coloured crusts
+  - Oozing or weeping lesions
+  - Pustules
+  - Rapid worsening of eczema
+  - Fever or systemic symptoms (severe cases)
+- Do NOT use antibiotics routinely
+
+Topical Antibiotics:
+- Indication: Mild, localized secondary infection
+- First-line: Mupirocin 2% ointment
+  - Apply 2–3 times daily
+  - Duration: 5–7 days
+- Alternative: Fusidic acid 2% cream
+  - Apply 2–3 times daily
+  - Duration: 5–7 days
+- Notes:
+  - Use on small, localized areas only
+  - Avoid prolonged use → risk of resistance
+
+Systemic Antibiotics:
+- Indication: Moderate to severe infection or extensive disease
+
+1. Non-severe, outpatient:
+- Oral Flucloxacillin: 25–50 mg/kg/day in 4 divided doses, duration 7–10 days
+  - Covers Staphylococcus aureus (most common)
+- Penicillin allergy alternatives:
+  - Oral Erythromycin: 30–50 mg/kg/day in 4 divided doses, 7–10 days
+  - Oral Azithromycin: 10 mg/kg once daily, 3–5 days
+
+2. Severe infection / systemic symptoms:
+- Admit child
+- Consider IV antibiotics (e.g., IV Cloxacillin) as guided by severity
+
+Key Points:
+- Only treat confirmed or strongly suspected secondary infection
+- Combine with eczema management (emollients, topical corticosteroids) for best outcomes
+- Monitor for improvement and adjust therapy if necessary
+    `,
+  bookmarkCount: 0
+  },  
 
 
   // Internal Medicine
@@ -7592,159 +7743,3128 @@ Review: Daily inpatient review; reassess for step-down to oral antibiotics at 48
   `,
   bookmarkCount: 0
 },
-  {
-    id: 'peds-3',
-    title: 'Moderate Atopic Dermatitis in Toddler',
-    specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Dermatology Clinic',
-    condition: 'Atopic Dermatitis (Moderate)',
-    symptoms: [
-      'Pruritic, recurrent skin rashes',
-      'Dry, scaly erythematous patches and plaques',
-      'Lichenification in flexural areas',
-      'Excoriation marks due to scratching'
-    ],
-    contributor: 'Admin',
-    lastModified: '2026-01-26',
-    summary: 'A 2-year-old male child with an 8-month history of recurrent pruritic skin rashes involving the face, neck, and flexural areas. Lesions are dry, erythematous, scaly, and lichenified in flexures, consistent with moderate atopic dermatitis. Management includes caregiver education, emollients, topical corticosteroids, antihistamines, and skin care counseling.',
-    content: `
-PAEDIATRIC DERMATOLOGY CLINIC
-  
-Patient Seen
-  
-Age: 2 years  
-Sex: Male  
-Informant: Mother (reliable)
-  
-PC:  
-Recurrent itchy skin rashes × 8/52
-  
-HPC:  
-Patient was well until about 8 months prior to presentation when the mother noticed recurrent rashes involving the face, neck, and flexural areas of upper and lower limbs. Lesions are pruritic, with frequent scratching, particularly at night, causing sleep disturbance.
-  
-Rashes wax and wane with partial improvement and frequent relapses. Symptoms worsen with heat, sweating, and dry weather, and improve temporarily with emollients. No associated fever, weight loss, or systemic symptoms. No vesicles, pustules, or discharge except occasional excoriation-related crusting.
-  
-No history suggestive of contact with fungal infections or prior use of herbal/steroid creams.
-  
-Past Medical History:  
-- No previous hospital admissions  
-- Occasional episodes of wheezing during colds  
-- No chronic medical illnesses
-  
-Birth and Development:  
-- Term delivery via spontaneous vaginal delivery  
-- Normal antenatal and perinatal history  
-- Developmental milestones appropriate for age
-  
-Drug and Allergy History:  
-- No known drug or food allergies
-  
-Family History:  
-- Mother has allergic rhinitis (positive atopy)
-  
-Social / Environmental History:  
-- Lives in 3-bedroom apartment with parents and 2 siblings  
-- Uses perfumed soaps and detergents  
-- No pets at home
-  
-O/E:
-  
-General Examination:  
-Well-looking child, afebrile, not pale, anicteric, not cyanosed
-  
-Integumentary System:  
-- Dry, erythematous, scaly patches and plaques on:  
-  - Cheeks  
-  - Neck  
-  - Antecubital fossae  
-  - Popliteal fossae  
-- Lichenification present in flexural areas  
-- Multiple excoriation marks  
-- No vesicles, pustules, or secondary bacterial infection  
-- Scalp, nails, palms, soles, mucous membranes: Normal
-  
-Assessment:  
-Atopic Dermatitis – Moderate Severity
-  
-Plan:
-  
-Caregiver Education:  
-- Chronic, relapsing condition  
-- Emphasize regular skin care even when rash improves  
-- Identify and avoid triggers (heat, sweating, harsh soaps)
-  
-Emollient Therapy:  
-- Petroleum jelly (Vaseline®): Apply liberally 3–4 times daily and after bathing  
-OR  
-- Aqueous cream: Apply at least 3 times daily
-  
-Topical Anti-inflammatory Therapy:  
-- Hydrocortisone 1% cream: Apply once daily to inflamed areas for 5–7 days, then stop  
-- Avoid or use sparingly on face (≤5 days)
-  
-Antihistamine for Pruritus:  
-- Syrup Cetirizine 2.5 mg once nightly (reduce itching, improve sleep)
-  
-Bathing / Skin Care Advice:  
-- Short baths with lukewarm water  
-- Use mild, fragrance-free soap (e.g., Dove® baby)  
-- Pat skin dry; avoid vigorous scrubbing
-  
-Management of Complications:  
-- If secondary infection suspected: review for topical/systemic antibiotics
-  
-Follow-Up:  
-- Review in 2–3 weeks at Paediatric/Dermatology clinic
+{
+  id: 'im-8',
+  title: 'Newly Diagnosed Type 2 Diabetes Mellitus (Non-Obese Phenotype)',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Endocrinology / Diabetology Clinic',
+  condition: 'Newly diagnosed Type 2 Diabetes Mellitus with symptomatic hyperglycaemia',
+  symptoms: [
+    'Polyuria',
+    'Polydipsia',
+    'Nocturia',
+    'Unintentional weight loss',
+    'Blurred vision',
+    'Normal BMI (non-obese phenotype)',
+    'Positive family history of T2DM',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-08',
+  summary: 'A 45-year-old male secondary school teacher presenting with a 3-month history of unintentional weight loss and a 2-month history of polyuria, polydipsia, and nocturia, with 3 weeks of blurred vision. Fasting plasma glucose 158 mg/dL, random glucose 248 mg/dL, and 2-hour postprandial glucose 286 mg/dL — diagnostic of Type 2 Diabetes Mellitus. BMI is normal at 21.0 kg/m²; no evidence of acute metabolic decompensation or chronic complications at presentation. Positive maternal family history of T2DM. LADA to be considered given non-obese phenotype, relatively young age, and symptomatic weight loss.',
+  content: `
+ENDOCRINOLOGY / DIABETOLOGY CLINIC
 
+Patient seen: 45-year-old male secondary school teacher. Informant: patient (reliable).
 
-ANTIBIOTIC USE IN ATOPIC DERMATITIS (PAEDIATRIC)
+PRESENTING COMPLAINTS
+Polyuria × 2 months
+Polydipsia × 2 months
+Unintentional weight loss × 3 months
+Blurred vision × 3 weeks
 
-Indications for Antibiotics:
-- Use ONLY if signs of secondary infection are present:
-  - Honey-coloured crusts
-  - Oozing or weeping lesions
-  - Pustules
-  - Rapid worsening of eczema
-  - Fever or systemic symptoms (severe cases)
-- Do NOT use antibiotics routinely
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until approximately 3 months prior to presentation (PTP) when he began to notice gradual weight loss despite preserved appetite, with clothes becoming noticeably loose-fitting. Two months PTP he developed increased urinary frequency including nocturia (4–5 times nightly), with increased urine volumes and no associated dysuria or haematuria, alongside excessive thirst requiring frequent water intake. Over the past 3 weeks he has had intermittent blurring of vision.
 
-Topical Antibiotics:
-- Indication: Mild, localized secondary infection
-- First-line: Mupirocin 2% ointment
-  - Apply 2–3 times daily
-  - Duration: 5–7 days
-- Alternative: Fusidic acid 2% cream
-  - Apply 2–3 times daily
-  - Duration: 5–7 days
-- Notes:
-  - Use on small, localized areas only
-  - Avoid prolonged use → risk of resistance
+No history of abdominal pain, vomiting, deep rapid breathing, or altered level of consciousness. No history of recurrent skin infections or genital itching. No numbness, tingling of the feet, or foot ulcers. No history of steroid use. This is his first evaluation for hyperglycaemia.
 
-Systemic Antibiotics:
-- Indication: Moderate to severe infection or extensive disease
+PAST MEDICAL HISTORY
+Not a known hypertensive. No known dyslipidaemia. No previous admissions for hyperglycaemia. No history of chronic kidney disease.
 
-1. Non-severe, outpatient:
-- Oral Flucloxacillin: 25–50 mg/kg/day in 4 divided doses, duration 7–10 days
-  - Covers Staphylococcus aureus (most common)
-- Penicillin allergy alternatives:
-  - Oral Erythromycin: 30–50 mg/kg/day in 4 divided doses, 7–10 days
-  - Oral Azithromycin: 10 mg/kg once daily, 3–5 days
+DRUG HISTORY
+No regular medications. No herbal use. No known drug allergies.
 
-2. Severe infection / systemic symptoms:
-- Admit child
-- Consider IV antibiotics (e.g., IV Cloxacillin) as guided by severity
+FAMILY HISTORY
+Mother has Type 2 Diabetes Mellitus. No family history of Type 1 DM or premature cardiovascular disease in first-degree relatives.
 
-Key Points:
-- Only treat confirmed or strongly suspected secondary infection
-- Combine with eczema management (emollients, topical corticosteroids) for best outcomes
-- Monitor for improvement and adjust therapy if necessary
-    `,
+SOCIAL HISTORY
+Non-smoker. Occasional alcohol intake. Diet moderate in carbohydrates. Not sedentary — walks regularly but no structured exercise programme.
+
+REVIEW OF SYSTEMS
+Cardiovascular: no chest pain or dyspnoea.
+Neurological: no focal weakness.
+Renal: no frothy urine.
+GIT: no abdominal pain.
+
+PHYSICAL EXAMINATION
+General: Middle-aged man, conscious, alert, and oriented. Not pale, not icteric, not cyanosed, not dehydrated. No pedal oedema.
+
+Anthropometry:
+Weight: 62 kg
+Height: 1.72 m
+BMI: 21.0 kg/m² (normal)
+Waist circumference: 82 cm
+
+Vital Signs:
+BP: 128/78 mmHg
+PR: 82 bpm, regular
+RR: 16 cpm
+Temperature: 36.8°C
+
+Cardiovascular System: S1 and S2 heard; no murmurs.
+Respiratory System: Clear breath sounds bilaterally.
+Abdominal Examination: Soft, non-tender; no organomegaly.
+Neurological Examination: No focal deficits. Peripheral sensation intact to light touch and vibration.
+Foot Examination: No ulcers. Intact peripheral pulses (dorsalis pedis, posterior tibial). Preserved sensation.
+
+AVAILABLE INVESTIGATIONS
+Random plasma glucose: 248 mg/dL (13.8 mmol/L) — diagnostic
+Fasting plasma glucose (repeat): 158 mg/dL (8.8 mmol/L) — diagnostic (≥ 126 mg/dL)
+2-hour postprandial glucose: 286 mg/dL (15.9 mmol/L) — diagnostic (≥ 200 mg/dL)
+
+ASSESSMENT
+1. Newly diagnosed Type 2 Diabetes Mellitus (T2DM) with symptomatic hyperglycaemia.
+   Basis: classic triad of polyuria, polydipsia, and weight loss; fasting glucose ≥ 126 mg/dL; random glucose ≥ 200 mg/dL with symptoms; 2-hour postprandial glucose ≥ 200 mg/dL. No clinical evidence of diabetic ketoacidosis (DKA). No chronic complications identified at presentation.
+
+Notable features warranting close surveillance:
+Normal BMI (21.0 kg/m²) — non-obese phenotype; relatively young age (45 years); symptomatic presentation with weight loss; positive maternal history. If glycaemic control is difficult with oral agents, early insulin requirement occurs (< 5 years), or progressive beta-cell failure is observed — Latent Autoimmune Diabetes in Adults (LADA) or atypical diabetes (MODY, secondary) should be actively considered. GAD antibodies and C-peptide levels to be checked in such circumstances.
+
+MANAGEMENT PLAN
+
+Baseline Investigations:
+HbA1c — to assess average glycaemic control over the preceding 2–3 months and guide therapy intensity.
+Fasting lipid profile (total cholesterol, LDL, HDL, triglycerides) — cardiovascular risk assessment.
+EUCr and eGFR — renal function; essential before metformin initiation and dose escalation.
+Urinalysis and urine albumin-creatinine ratio (uACR) — screen for early diabetic nephropathy.
+Liver function tests (LFTs) — baseline hepatic assessment before commencing metformin.
+FBC — baseline haematological assessment.
+ECG — baseline cardiovascular assessment.
+Thyroid function tests (TFTs) — if clinically indicated.
+GAD antibodies and C-peptide level — to be requested if glycaemic control is difficult or early insulin requirement develops, to evaluate for LADA.
+
+Lifestyle Modification (Foundation of Management):
+
+Medical Nutrition Therapy:
+Moderate carbohydrate intake (45–55% of total calories) with emphasis on complex carbohydrates — whole grains, legumes, unripe plantain. Reduce simple sugars (sweets, pastries, sugary drinks, fruit juices). Increase vegetables and dietary fibre. Include lean protein; reduce saturated fats. Regular meal times (3 main meals ± 2–3 snacks); avoid skipping meals; portion control. Dietician referral recommended.
+
+Exercise:
+At least 150 minutes per week of moderate-intensity aerobic activity (brisk walking, jogging, cycling). Resistance training 2–3 times weekly to improve insulin sensitivity. Lifestyle optimisation is essential even in the absence of obesity.
+
+Other:
+Stress management, adequate sleep (7–8 hours nightly), limited alcohol intake, weight maintenance.
+
+Pharmacological Therapy:
+
+First-line: Metformin (no contraindications identified pending renal function results).
+Week 1: Metformin 500 mg orally once daily with the evening meal.
+Week 2: Increase to 500 mg BD (with breakfast and dinner) if tolerated.
+Weeks 3–4: Increase to 1 g BD (maximum dose 2 g/day), titrating based on glycaemic response, tolerability, and eGFR.
+Take with meals to minimise GI side effects (nausea, diarrhoea, abdominal discomfort) — usually self-resolving within 1–2 weeks.
+
+If HbA1c ≥ 9% or fasting glucose persistently > 200 mg/dL after 3 months on maximum-tolerated metformin, consider combination therapy:
+Option 1 (affordable): Add Glimepiride 1 mg once daily before breakfast; titrate to 2–4 mg daily as needed. Counsel on hypoglycaemia recognition and management.
+Option 2 (if affordable): Add Sitagliptin 100 mg once daily — lower hypoglycaemia risk, weight neutral.
+Option 3 (if marked hyperglycaemia or catabolic features persist): Basal insulin — Insulin Glargine 10 units SC at bedtime or NPH Insulin 10 units SC at bedtime; titrate based on fasting glucose. Consider especially if HbA1c > 10% or ongoing weight loss. Early insulin requirement should prompt LADA evaluation.
+
+Glycaemic Monitoring:
+Self-monitoring of blood glucose (SMBG) where feasible: fasting (pre-breakfast), 2 hours post largest meal, when symptomatic.
+Targets: fasting/pre-meal 80–130 mg/dL (4.4–7.2 mmol/L); 2-hour postprandial < 180 mg/dL (< 10.0 mmol/L).
+HbA1c target: < 7% (53 mmol/mol) — individualised. Check every 3 months until controlled, then 6-monthly if stable. Patient to maintain glucose diary/logbook.
+
+Cardiovascular Risk Management:
+BP target: < 130/80 mmHg. Current BP 128/78 mmHg — acceptable; monitor at each visit.
+Fasting lipid profile pending — if LDL ≥ 100 mg/dL: Atorvastatin 20 mg nocte; target LDL < 100 mg/dL (primary prevention) or < 70 mg/dL if high cardiovascular risk.
+Aspirin 75 mg daily — consider if age > 50 years with additional CV risk factors or 10-year CV risk > 10%, and no bleeding contraindication.
+
+Complication Screening (at diagnosis and periodically):
+Retinopathy: dilated fundoscopy by ophthalmologist at diagnosis, then annually — urgent given current blurred vision; ophthalmology referral to be made promptly.
+Nephropathy: annual uACR; if microalbuminuria detected, commence ACE inhibitor or ARB.
+Neuropathy: comprehensive foot examination at every clinic visit — inspection, 10 g monofilament testing, vibration sense (128 Hz tuning fork), ankle reflexes, peripheral pulses. Annual detailed assessment.
+Cardiovascular: ECG at diagnosis; consider stress testing if high risk or symptomatic.
+
+Patient Education:
+Explained T2DM as a chronic but controllable condition requiring lifelong management — not curable but preventable in terms of complications. Emphasised this applies equally despite normal body weight. Counselled on microvascular complications (retinopathy, nephropathy, neuropathy) and macrovascular complications (heart attack, stroke, peripheral vascular disease) if poorly controlled.
+
+Hypoglycaemia (especially if sulfonylurea or insulin is later added): symptoms include sweating, tremors, palpitations, hunger, and dizziness; management — 15 g fast-acting carbohydrate (3 glucose tablets, sugar dissolved in water, or fruit juice); prevented by regular meals and avoiding meal-skipping.
+
+Sick-day rules: continue medications even with reduced oral intake; monitor glucose more frequently; stay hydrated; seek medical attention if vomiting is persistent or glucose is markedly elevated.
+
+Foot care: daily inspection, appropriate footwear, no barefoot walking, prompt attention to minor injuries. Medication adherence: take metformin with meals; do not discontinue without medical advice; report side effects promptly.
+
+PROGNOSIS
+Generally good given early diagnosis prior to development of complications, normal BMI, an active lifestyle, and good health literacy. Prognosis is contingent on strict glycaemic control (HbA1c < 7%), lifestyle adherence, and regular complication screening. The non-obese phenotype at a relatively young age warrants vigilance for LADA — if confirmed, insulin will be required earlier than in typical T2DM. With optimal management, prevention or delay of complications and a normal life expectancy are achievable.
+
+Review: 2–4 weeks to assess metformin tolerability and review glucose logs and investigation results. Monthly thereafter until HbA1c is at target, then every 3–6 months. Annual comprehensive complication screening as outlined above.
+  `,
   bookmarkCount: 0
-  },  
+},
 
   // Surgery
+  {
+    id: 'surg-1',
+    title: 'Acute Appendicitis',
+    specialty: 'Surgery',
+    subSpecialty: 'Surgical Emergencies',
+    condition: 'Appendicitis',
+    symptoms: ['Abdominal pain', 'Anorexia', 'Vomiting', 'Low-grade fever', 'Right lower quadrant pain'],
+    contributor: 'Admin',
+    lastModified: '2025-12-28',
+    summary: '22-year-old male with 2-day history of migratory RIF pain, vomiting, and anorexia. Signs of peritoneal irritation present.',
+    content: `Patient seen
+
+A 22 year old male, Christian Yoruba, residing at Oke-Igbo, Abeokuta, student.
+
+Informant: Self
+
+PC: Abdominal pain × 2 days
+
+HPC:
+Patient was apparently well until 2 days ago when he developed generalized abdominal pain, insidious in onset, progressively worsening, and now localised to the right lower quadrant. Pain is constant, sharp in nature, aggravated by movement, and associated with anorexia. 
+He also had 2 episodes of vomiting, and low-grade fever. 
+No history of diarrhea, constipation, or urinary symptoms. 
+No prior similar episode. 
+No history of trauma. 
+No known drug allergy.
+
+Past Medical History:
+Not a known hypertensive, diabetic, asthmatic, or seizure disorder patient.
+No prior hospital admissions, surgeries, or blood transfusions.
+
+Family History:
+Non-contributory
+
+Social History:
+Lives with parents, non-smoker, does not drink alcohol.
+
+O/E:
+A young male, in moderate painful distress, febrile (T: 38.2°C), not pale, anicteric, not cyanosed, mildly dehydrated.
+
+Abdomen:
+Tenderness maximal at the right iliac fossa (McBurney’s point), 
+positive rebound tenderness and guarding. 
+Rovsing’s sign positive. 
+Bowel sounds present. 
+No hepatosplenomegaly
+No other palpable masses
+
+RS:
+RR 20 cpm
+SpO2 98% in room air
+
+CVS:
+PR 94 bpm, full volume, regular
+BP 118/72 mmHg
+S1 S2 heard
+
+CNS:
+Conscious, alert, oriented, no neurological deficit
+
+ASSESSMENT:
+Acute appendicitis 
+
+PLAN:
+Counsel patient and relatives on diagnosis and need for surgical intervention
+Admit to surgical emergency
+FBC, PCV, Blood film for MP, Urinalysis
+Serum electrolytes, urea, creatinine
+Abdominal ultrasound
+Nil per oral (NPO)
+0.9% N/S 1 liter stat then 125 mL/hr
+Ceftriaxone 1 g stat then 1 g daily, IV Metronidazole 500 mg 8 hourly
+IV Paracetamol 1 g 6 hourly, IM Pentazocine 30 mg stat as needed
+Prepare for emergency appendicectomy
+Monitor vital signs closely
+Review by the surgical team
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-2',
+    title: 'Advanced Carcinoma of the Left Breast',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery / Oncology',
+    condition: 'Breast Cancer',
+    symptoms: ['Breast lump', 'Weight loss', 'Bleeding breast mass', 'Axillary swelling', 'Breast pain', 'Nipple discharge'],
+    contributor: 'Admin',
+    lastModified: '2026-01-16',
+    summary: '52-year-old female with 1-year history of left breast lump, now ulcerated and fungating. Associated with weight loss and axillary lymphadenopathy.',
+    content: `A 52-year-old married woman, Muslim trader who resides at Kuto, Abeokuta, Ogun State.
+
+
+PC
+Left breast lump × 1 year
+Weight loss × 6/12
+Bleeding left breast mass × 2/52
+
+HPC
+The patient was apparently well until about 1 year prior to presentation when she noticed a small lump in the upper outer quadrant of her left breast. The lump was initially painless but gradually increased in size.
+
+About 2 weeks prior to presentation, the lump ulcerated and became a fungating mass, associated with recurrent bleeding, which is sometimes spontaneous and sometimes following minor contact. The bleeding is moderate in amount and has required repeated dressing at home. There is also associated pain.
+
+She complains of progressive unintentional weight loss over the last 6 months, associated with easy fatigability and poor appetite. She also reports dull, persistent pain in the affected breast.
+
+There is associated offensive discharge from the breast wound. There is also swelling in the left axilla noticed about 5 months prior to presentation, which has progressively increased in size.
+
+There is no history of trauma to the breast and no similar lump in the right breast. No prior breast surgery.
+
+She also complains of dizziness but no loss of consciousness.
+No cough, dyspnea, or hemoptysis.
+No abdominal pain, vomiting, or jaundice.
+No bone pain.
+No headaches, seizures, or limb weakness.
+
+Since the onset of symptoms, she has been dressing the wound herself at home but also applying some herbal concoctions without any improvement, necessitating her presentation to this facility.
+
+PMH & Sx
+She is not a known hypertensive or diabetic patient.
+No previous history of any malignancy or breast disease.
+No previous history of surgery or blood transfusion.
+ 
+Gyne Hx
+Attained menarche at 14 years.
+Had regular menstrual cycles prior to menopause.
+She is P6+0 (all spontaneous vaginal deliveries).
+Her age at first full-term pregnancy was 19 years.
+She breastfed all her children.
+She attained menopause at 49 years.
+Not on hormonal contraceptives or HRT.
+
+FH
+No history of breast cancer in first-degree relatives.
+No family history of ovarian or colorectal cancer.
+
+Social Hx
+Does not take alcohol.
+Has been taking herbal concoctions.
+Does not smoke cigarettes.
+
+Drug & Allergy
+No known food or drug allergy.
+
+O/E
+Middle-aged woman, chronically ill-looking, conscious and alert, in obvious painful distress, moderately pale, anicteric, acyanosed, peripheral lymphadenopathy in the left axilla.
+ 
+Vital Signs
+Temp: 37.6°C
+PR: 104 bpm, regular
+BP: 100/60 mmHg
+RR: 22 cpm
+
+Breast Ex
+Right breast: Normal
+Left breast:
+Inspection:
+Large fungating ulcerated mass involving the left breast with active bleeding and offensive discharge. Surrounding skin is hyperpigmented and edematous. Nipple architecture distorted.
+Palpation:
+Irregular friable mass occupying most of the left breast; margins ill-defined; tender; fixed to overlying skin and underlying structures.
+Axilla:
+Left axillary lymph nodes palpable; enlarged, hard, matted, and non-tender.
+
+CHEST
+Breath sounds vesicular bilaterally.
+No added sounds.
+SpO₂ 97% on room air.
+
+ABD
+Abdomen full, soft, non-tender.
+No palpable organomegaly.
+No ascites.
+
+MUSCULOSKELETAL / SPINE
+No spinal tenderness.
+No bony deformities.
+
+ASS
+Advanced carcinoma of the left breast with 
+- Fungation and active bleeding
+- Symptomatic anemia
+ 
+PLAN
+Admit
+IV 0.9% Normal Saline 500 mls 8 hrly
+IV Paracetamol 1 g 8-hourly
+IV Tramadol 50 mg 12-hourly PRN
+IV Ceftriaxone 1 g daily
+IV Metronidazole 500 mg 8-hourly
+Control bleeding with pressure dressing
+Daily wound dressing with normal saline and metronidazole solution
+FBC
+ESR
+LFT
+EUCr
+GXM 2 units of blood
+Chest X-ray
+Abdominal USS
+Wedge biopsy of breast mass
+FNAC of left axillary lymph node.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-3',
+    title: 'Benign Prostatic Hyperplasia with Acute Urinary Retention',
+    specialty: 'Surgery',
+    subSpecialty: 'Urology',
+    condition: 'BPH',
+    symptoms: ['Poor urinary stream', 'Inability to pass urine', 'Lower abdominal pain', 'Straining at micturition', 'Hesitancy', 'Terminal dribbling', 'Increased frequency', 'Nocturia'],
+    contributor: 'Admin',
+    lastModified: '2026-01-16',
+    summary: '68-year-old male presenting with acute urinary retention and lower abdominal pain on a background of long-standing LUTS. Examination reveals a distended bladder and enlarged prostate.',
+    content: `A 68-year-old married Muslim man. He is a retired civil servant and resides at Lafenwa, Abeokuta, Ogun State.
+
+PC
+Poor urinary stream × 2 years 
+Inability to pass urine × 12 hours
+Lower abdominal pain × 12 hours
+ 
+
+HPC
+The patient was in his usual state of health until about 12 hours prior to presentation when he noticed sudden inability to pass urine, despite a strong urge to do so. 
+
+It was associated with progressive lower abdominal pain, described as severe, constant, and suprapubic in location. The pain was relieved minimally by changing position and worsened progressively.
+
+Prior to this episode, he had been experiencing poor urinary stream for abouut 2 years. There was associated straining at micturition, hesitancy, terminal dribbling, sensation of incomplete bladder emptying, increased urinary frequency, and nocturia (3–4 times per night). 
+
+There was no history of dysuria or hematuria.
+There has also been reduced urine volume over the last day but no passage of blood or stones in urine.
+
+There is no history of fever, chills, flank pain, trauma to the lower abdomen, urethral instrumentation, or recent surgery.
+
+No history suggestive of spinal cord injury.
+
+PMH 
+He is a known hypertensive for 8 years, controlled on medications.
+No history of diabetes mellitus.
+No previous episodes of acute urinary retention.
+No history of urethral stricture disease or sexually transmitted infections.
+No previous urological surgery.
+
+Drug History & Allergy
+Currently on Tab Amlodipine 10 mg daily.
+No known drug or food allergies.
+
+Social History
+Does not smoke cigarettes.
+Occasionally takes alcohol.
+Lives with his wife.
+
+O/E
+General Examination
+Elderly man, conscious and alert, in obvious painful distress, writhing in pain.
+Mildly pale, anicteric, acyanosed.
+No peripheral lymphadenopathy.
+
+Vital Signs
+Temperature: 36.7°C
+Pulse Rate: 96 bpm, regular
+Blood Pressure: 140/85 mmHg
+Respiratory Rate: 20 cpm
+SpO₂: 98% on room air
+
+Abdominal Examination
+Lower abdomen distended
+Suprapubic region tense and tender
+Smooth, firm, globular suprapubic mass arising from the pelvis, consistent with a distended urinary bladder
+Dull percussion over suprapubic region
+Normal bowel sounds
+
+DRE
+Anal sphincter tone normal.
+Rectum empty.
+Prostate enlarged, smooth, firm, rubbery, non-tender, with obliterated median sulcus.
+No nodules felt.
+Rectal mucosa free.
+
+External Genitalia
+Penis normal, no urethral discharge.
+Testes normal in size and consistency.
+
+CNS
+No focal neurological deficits.
+Normal lower limb power and sensation.
+
+ASSESSMENT
+Acute urinary retention
+Benign prostatic hyperplasia (BPH)
+Pain-related sympathetic response
+
+
+PLAN 
+Urethral catheterization with size 16–18 Fr Foley catheter under aseptic technique
+Monitor urine output (initial and hourly)
+IV Paracetamol 1 g IV stat, then 8-hourly
+If urethral catheterization fails → Suprapubic catheterization
+Tab Tamsulosin 0.4 mg daily
+Tab Finasteride 5 mg daily
+Adequate hydration (oral/IV as indicated)
+FBC
+EUCr
+Urinalysis ± urine MCS
+Serum PSA (after relief of retention, not immediately)
+Abdominopelvic USS(prostate size, post-void residual, kidneys)
+Admit for observation
+Trial without catheter (TWOC) after 48–72 hours
+Consult to Urology
+Counsel patient on BPH and possible need for surgical intervention.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-4',
+    title: 'Carcinoma of the Right Breast',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery / Oncology',
+    condition: 'Breast Cancer',
+    symptoms: ['Right breast lump', 'Weight loss', 'Right breast pain', 'Axillary swelling', 'Nipple retraction', 'Bloody nipple discharge', 'Skin dimpling'],
+    contributor: 'Admin',
+    lastModified: '2026-01-17',
+    summary: '47-year-old female with an 8-month history of a right breast lump, now associated with weight loss, pain, nipple retraction, and axillary lymphadenopathy.',
+    content: `A 47-year-old married Christian woman. She is a trader and resides at Ijaye, Abeokuta, Ogun State.
+
+PC
+Right breast lump × 8/12
+Weight loss × 5/12
+Right breast pain × 3/12
+
+HPC
+The patient was apparently well until about 8 months prior to presentation when she noticed a small lump in the upper outer quadrant of her right breast while bathing. The lump was initially painless and about the size of a groundnut but has progressively increased in size.
+
+She also complains of progressive unintentional weight loss over the last 5 months, evidenced by loosening of clothes. There is associated easy fatigability, but no anorexia.
+
+About 3 months ago, she started experiencing dull, non-radiating pain in the same breast. She also noticed progressive retraction of the right nipple and occasional bloody nipple discharge. There is associated skin dimpling over the affected breast.
+She also noticed a swelling in the right axilla about 4 months prior to presentation which has gradually increased in size.
+
+There is no history of trauma to the breast, no similar lump in the left breast, and no prior breast surgery.
+No history of exposure to radiation.
+No cough, dyspnea, or hemoptysis.
+No abdominal pain, vomiting, or jaundice.
+No bone pain.
+No headaches, seizures, or limb weakness.
+
+Since the onset of illness, she has gone to a private hospital, from where she was referred here for expert care.
+
+PMH & Sx
+She is not a known hypertensive, diabetic, or PUD patient.
+No previous history of any malignancy or breast disease.
+No previous history of surgery or blood transfusion.
+
+Gyne Hx
+Attained menarche at 13 years.
+Has a regular 28-day menstrual cycle.
+She is P4+0 (all spontaneous vaginal deliveries).
+Her age at first full-term pregnancy was 22 years.
+She breastfed all her children.
+She has not attained menopause and is not on any hormonal contraceptives or HRT.
+
+FH
+No history of breast cancer in first-degree relatives.
+No family history of ovarian or colorectal cancer.
+
+Social Hx
+Occasionally takes alcohol.
+Does not smoke cigarettes.
+
+Drug & Allergy
+No known food or drug allergy.
+
+O/E
+Middle-aged woman, conscious and alert, not in obvious painful distress, mildly pale, anicteric, acyanosed, peripheral lymphadenopathy in the right axilla.
+
+Vital Signs
+Temp: 36.8°C
+PR: 88 bpm, regular
+BP: 120/80 mmHg
+RR: 18 cpm
+
+Breast Ex
+Left breast: Normal
+Right breast:
+Inspection: Asymmetry with right breast smaller; skin dimpling over upper outer quadrant; nipple retracted; no ulceration
+
+Palpation: Lump in upper outer quadrant; 6 × 5 cm, hard, irregular margins, fixed to the overlying skin, not fixed to chest wall, mild tenderness
+
+Axilla: Right axillary lymph nodes palpable; hard, matted, non-tender
+
+ABD
+Abdomen full, soft, non-tender.
+No palpable organomegaly.
+No ascites.
+
+MUSCULOSKELETAL / SPINE
+No spinal tenderness.
+No bony deformities.
+
+ASS
+Carcinoma of the right breast.
+
+PLAN
+Tab Paracetamol 1 g TDS
+Tab Vitamin B-complex 1 daily
+Tab Vitamin C 500 mg daily
+FBC
+ESR
+LFT
+EUCr
+Breast USS
+Mammography
+Chest X-ray
+Abdominal USS
+Core needle biopsy of right breast lump
+FNAC of right axillary lymph node
+Review in 2/52.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-5',
+    title: 'Advanced Right Breast Carcinoma with Metastatic Disease',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery',
+    condition: 'Advanced carcinoma of the right breast',
+    symptoms: [
+      'Right breast lump',
+      'Weight loss',
+      'Lower back pain',
+      'Progressive breathlessness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-19',
+    summary: 'A 58-year-old woman with a long-standing right breast lump complicated by axillary lymphadenopathy, pleural effusion, probable bone metastasis, weight loss, and progressive respiratory symptoms.',
+    content: `A 58-year-old married Christian woman, petty trader, who resides at Ojo, Ibadan, Oyo State.
+  
+PC
+Right breast lump × 2 years
+Weight loss × 8/12
+Lower back pain × 5/12
+Progressive breathlessness × 1/12
+  
+HPC
+The patient was in her usual state of health until about 2 years prior to presentation, when she noticed a painless lump in the upper outer quadrant of her right breast. The lump was initially small but has progressively increased in size.
+  
+About 6 months prior to presentation, she noticed gradual skin changes over the breast, including darkening and dimpling, with progressive nipple retraction. There was associated dull, persistent breast pain.
+  
+She also noticed progressive unintentional weight loss over the last 8 months, associated with easy fatigability and poor appetite.
+About 5 months prior to presentation, she developed persistent lower back pain, described as dull and deep-seated, worse at night and not relieved by rest. She has been using over-the-counter NSAIDs for pain relief. The pain has progressively worsened and now affects her ability to walk long distances. There is no history of trauma.
+  
+About 1 month prior to presentation, she developed progressive breathlessness, initially on exertion but now at rest, associated with orthopnea. There is associated non-productive cough, but no hemoptysis or chest pain.
+  
+She also noticed swelling in the right axilla about 7 months prior to presentation, which has progressively increased in size.
+There is no history of trauma to the breast and no similar lump in the left breast.
+  
+There is no prior history of breast surgery.
+There are no headaches, blurry vision, seizures, or limb weakness.
+There is no abdominal pain, abdominal swelling, vomiting, or jaundice.
+  
+She was first diagnosed with breast cancer about 2 years ago at a private hospital but deferred care. She subsequently sought treatment at a prayer house and used herbal preparations without improvement. She later returned to the private hospital, where a chest X-ray was requested, following which she was referred to this facility for expert care.
+  
+Chest X-ray showed: right-sided homogeneous opacity with a meniscus sign, blunting of the right costophrenic angle, and mediastinal shift to the contralateral side, in keeping with a right malignant pleural effusion.
+  
+PMH & PSHx
+She is not a known hypertensive or diabetic patient.
+No previous history of malignancy.
+No previous history of surgery or blood transfusion.
+  
+Gynecological Hx
+Attained menarche at 15 years.
+Had regular menstrual cycles prior to menopause.
+She is P5+0 (all spontaneous vaginal deliveries).
+Age at first full-term pregnancy was 20 years.
+She breastfed all her children.
+She attained menopause at 50 years.
+She is not on hormonal contraceptives or HRT.
+  
+Family Hx
+No history of breast cancer in first-degree relatives.
+No family history of ovarian or colorectal cancer.
+Widowed with five children.
+Lives with one of her children.
+  
+Social Hx
+Does not smoke cigarettes.
+Occasionally takes alcohol.
+Has used herbal remedies.
+  
+Drug & Allergy Hx
+No known food or drug allergy.
+  
+O/E
+Middle-aged woman, chronically ill-looking, conscious and alert, in mild respiratory distress.
+Moderately pale.
+Anicteric, acyanosed.
+Peripheral lymphadenopathy in the right axilla.
+  
+Vital Signs
+Temp: 37.2°C
+PR: 110 bpm, regular
+BP: 105/65 mmHg
+RR: 26 cpm
+SpO₂: 91% on room air
+  
+Breast Exam
+Left breast
+Normal.
+  
+Right breast
+Inspection:
+Obvious asymmetry with enlarged right breast.
+Skin dimpling and peau d’orange present.
+Right nipple retracted.
+No active ulceration.
+Palpation:
+Hard irregular mass occupying the upper outer quadrant, measuring about 7 × 6 cm.
+Margins ill-defined.
+Fixed to the overlying skin and underlying structures.
+Tender.
+Axilla:
+Right axillary lymph nodes enlarged, hard, matted, and non-tender.
+  
+CHEST
+Chest expansion reduced on the right side.
+Trachea central.
+Percussion note stony dull over the right lower lung zones.
+Breath sounds reduced in the right lower lung fields.
+No added sounds.
+  
+ABDOMEN
+Abdomen full, soft, non-tender.
+No palpable hepatosplenomegaly.
+No ascites.
+  
+MSK / SPINE
+Tenderness over the lumbar spine.
+Reduced range of movement due to pain.
+No obvious deformities.
+  
+CNS
+Conscious and oriented.
+No focal neurological deficits.
+  
+ASSESSMENT
+Advanced carcinoma of the right breast with:
+-Axillary lymph node involvement
+-Pleural metastasis with malignant pleural effusion
+-Probable bone metastasis (spine)
+-Cancer-related weight loss
+-To rule out Anemia of chronic disease
+  
+  
+PLAN
+Admit
+Oxygen via nasal prongs at 3–5 L/min to maintain SpO₂ ≥ 94%
+Monitor vital signs closely
+IV 0.9% Normal Saline 1 L alternating with 5% Dextrose Saline 1 L, 8-hourly 
+IV Paracetamol 1 g 8-hourly
+IV Tramadol 50 mg 12-hourly PRN
+Step up analgesia to IV Morphine 10 mg 6-hourly PRN or IV Pentazocine 30 mg 4-hourly PRN if pain is not controlled
+IV Ceftriaxone 1 g daily
+IV Metronidazole 500 mg 8-hourly
+FBC
+ESR
+LFT
+EUCr
+Chest X-ray (done)
+Abdominopelvic ultrasound
+Breast ultrasound ± mammography
+For therapeutic thoracentesis
+Pleural fluid aspiration for: MCS, Cytology, AAFB, GeneXpert
+CTTD if respiratory distress worsens or effusion rapidly reaccumulates
+X-ray lumbosacral spine
+Bone scan (if available)
+Wedge biopsy of breast mass
+FNAC of right axillary lymph node
+Consult to General Surgery, Oncology, Pulmonology / Respiratory Medicine, Pain and Palliative Care Team
+Counsel patient and relatives on diagnosis, extent of disease, prognosis, and treatment options.
+`,
+bookmarkCount: 0
+}, 
+  {
+    id: 'surg-6',
+    title: 'Lumbar Spondylosis with Possible Disc Prolapse',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedics',
+    condition: 'Lumbar Spondylosis',
+    symptoms: ['Low back pain', 'Radiating pain to right anterior thigh', 'Aggravated by prolonged standing'],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: '48-year-old female factory worker with 3-week history of lower back pain radiating to the right anterior thigh. Examination shows upper lumbar tenderness with normal lower limb neurology. X-ray poorly visualized.',
+    content: `
+  
+  ORTHOPAEDIC CLINIC
+
+  Patient Seen
+  
+  48-year-old married Christian woman, factory worker, residing at Ijebu-Ode, Ogun State.
+  
+  Informant: Self
+  
+  PC:
+  Low back pain × 3 weeks
+  
+  HPC:
+  The patient developed aching pain in the lower back about 3 weeks ago, radiating down the right anterior thigh. There is no associated paraesthesia or limb weakness.
+  
+  No preceding history of trauma.
+  She has had a non-productive cough for the past week.
+  No lower urinary tract symptoms.
+  
+  She is a factory worker and stands for prolonged periods at work, which appears to aggravate her symptoms.
+  Not a known diabetic or hypertensive.
+  
+  O/E:
+  Afebrile, not pale
+  
+  Musculoskeletal/Spine:
+  No obvious spinal deformity
+  Tenderness over the upper lumbar spine
+  No palpable step deformity
+  
+  Lower Limb Examination:
+  Straight Leg Raise: 75° bilaterally
+  Sciatic stretch test: Negative
+  Muscle power: 5/5
+  Sensation intact
+  Reflexes preserved
+  
+  Investigations:
+  Lumbosacral spine X-ray (poor films, done at a private facility)
+  
+  ASSESSMENT:
+  Lumbar spondylosis
+  R/O lumbar disc prolapse (radiculopathy not clinically evident at present)
+  
+  PLAN:
+  Repeat Lumbosacral spine X-ray for better imaging
+  Tab Aceclofenac 200mg dly
+  Tab Tizanidine 4 mg nocte × 10/7 (muscle relaxant)
+  Tab Biopentin (Gabapentin + Methylcobalamin) i BD × 2/52 (neuropathic pain cover)
+  Cap Antalgex T i BD × 10/7 (analgesic/anti-inflammatory)
+  Tab Amoxicillin/Clavulanate 625 mg bd × 7 days (if any superimposed infection suspected)
+  Refer to physiotherapy for lumbar stabilization exercises, posture correction, and nerve gliding exercises
+  Avoid prolonged standing; take short walking breaks every 1–2 hours
+  Lumbar corset if needed for support during work
+  Review in 2 weeks
+`,
+bookmarkCount: 0
+},  
+  {
+    id: 'surg-7',
+    title: 'Carcinoma of the Prostate with Metastatic Bone Disease',
+    specialty: 'Surgery',
+    subSpecialty: 'Urology / Oncology',
+    condition: 'Prostate Cancer',
+    symptoms: ['Poor urinary stream', 'Bone pain', 'Weight loss', 'Occasional hematuria'],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: '72-year-old male with 1-year history of progressive lower urinary tract symptoms, 6-month history of weight loss, and 4-month history of bone pain. Examination reveals hard, irregular prostate and tenderness over lumbar spine and pelvis.',
+    content: `
+Patient seen
+  
+72-year-old married Muslim retired teacher who resides at Kuto, Abeokuta, Ogun State.
+  
+Informant: Self
+  
+PC:
+Poor urinary stream × 1 year
+Bone pain × 4 months
+Weight loss × 6 months
+  
+HPC:
+The patient was in his usual state of health until about 1 year prior to presentation when he started experiencing progressive lower urinary tract symptoms, including poor urinary stream, straining at micturition, hesitancy, intermittency, terminal dribbling, and sensation of incomplete bladder emptying. There is associated increased urinary frequency and nocturia (4–5 times per night).
+  
+About 6 months prior to presentation, he noticed progressive unintentional weight loss, evidenced by loosening of clothes, associated with easy fatigability and reduced appetite.
+  
+He also complains of progressive bone pain of about 4 months duration, involving the lower back, pelvis, and hips. The pain is described as dull, constant, worse at night, and partially relieved by analgesics. There is associated difficulty in walking.
+  
+There is also a positive history of occasional hematuria, but no dysuria.
+There is no history of fever, flank pain, or urethral discharge.
+No history of trauma.
+No weakness of the lower limbs or loss of sphincter control.
+  
+PMH & PSHx:
+He is a known hypertensive for 10 years on medications.
+No history of diabetes mellitus.
+No prior urological surgery.
+No previous history of malignancy.
+  
+Drug History & Allergy:
+On Tab Amlodipine 10 mg daily.
+Occasionally uses NSAIDs for bone pain.
+No known drug or food allergies.
+  
+Social History:
+Does not smoke cigarettes.
+Occasionally takes alcohol.
+Lives with his wife and children.
+  
+O/E:
+Elderly man, conscious and alert, chronically ill-looking, mildly pale, not in painful distress at rest.
+Anicteric, acyanosed.
+No peripheral lymphadenopathy.
+  
+Vital Signs:
+Temperature: 36.6°C
+Pulse Rate: 86 bpm, regular
+Blood Pressure: 135/80 mmHg
+Respiratory Rate: 18 cpm
+SpO₂: 97% on room air
+  
+Abdominal Examination:
+Abdomen full, soft, non-tender.
+No palpable suprapubic mass.
+No hepatosplenomegaly.
+No ascites.
+  
+Digital Rectal Examination (DRE):
+Anal sphincter tone normal.
+Rectum empty.
+Prostate enlarged, hard, irregular, nodular, asymmetric, with obliterated median sulcus, non-tender.
+Rectal mucosa free.
+  
+Musculoskeletal / Spine:
+Tenderness over lumbar spine and pelvic bones.
+No obvious deformities.
+  
+CNS:
+Normal higher mental functions.
+No focal neurological deficits.
+  
+ASSESSMENT:
+Carcinoma of the prostate
+Metastatic bone disease
+Cancer-related weight loss (cachexia)
+Anemia of chronic disease – to rule out
+  
+PLAN:
+FBC
+ESR
+EUCr
+Serum PSA
+Urinalysis ± urine MCS
+Abdominopelvic ultrasound
+Transrectal ultrasound-guided prostate biopsy
+Pelvic MRI (if available)
+Bone scan (or X-ray of spine/pelvis if bone scan unavailable)
+Chest X-ray
+  
+Tab Paracetamol 1 g orally 8-hourly
+You may also add Tab Diclofenac 50 mg orally 12-hourly after meals (if no contraindications)
+Tab Tramadol 50–100 mg orally 8–12 hourly 
+  
+Consider Zoledronic acid 4 mg IV monthly (after renal function assessment)
+Calcium carbonate 600mg dly
+Vitamin D₃ 800 IU dly 
+  
+Tab Bicalutamide 50 mg orally once daily (Androgen Deprivation Therapy, after histological confirmation)
+or Inj Goserelin 3.6 mg SC monthly
+or Bilateral subcapsular orchidectomy (if indicated and patient consents)
+  
+Oral Ferrous sulphate 200 mg TDS for anemia
+CT Amlodipine 10 mg daily for hypertension
+  
+Nutritional support and high-protein diet
+Counsel patient and relatives on diagnosis, prognosis, and treatment options
+Consult to Urology, Oncology.
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-8',
+    title: 'Lumbar Spondylolisthesis (L4/L5)',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedics',
+    condition: 'Lumbar Spondylolisthesis',
+    symptoms: ['Low back pain', 'Pain radiating to lower limb', 'Neurogenic claudication'],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: '51-year-old female with 6-month history of low back pain radiating to lower limb, worsened by standing/walking and relieved by sitting/bending. Examination and imaging confirm lumbar spondylolisthesis at L4/L5.',
+    content: `
+ORTHOPAEDIC CLINIC 
+
+Patient Seen:
+  
+51-year-old female trader
+  
+Informant: Self
+  
+PC:
+Low back pain × 6/12
+  
+HPC:
+The patient was apparently well until about 6 months prior to presentation when she developed low back pain of sudden onset. The pain radiates down the lower limb and is not exacerbated by increased intra-abdominal pressure (e.g., coughing or sneezing).
+  
+The pain is worsened by prolonged standing or walking and improves with sitting or bending forward, features suggestive of neurogenic claudication.
+  
+There is no history of sphincteric dysfunction.
+She is a known hypertensive on regular medications.
+  
+She presented to the General Outpatient Clinic of this facility yesterday and was commenced on medications.
+  
+O/E:
+Middle-aged woman, afebrile, not in painful distress at rest.
+  
+Back Examination:
+No swelling or deformity
+Marked tenderness over the lumbar spine with associated paraspinal muscle tenderness
+  
+Lower Limb Examination:
+Straight Leg Raise: 0–20°
+Lasègue’s test: Negative
+Muscle power: 5/5 in both lower limbs
+Sensation: Intact
+  
+Investigations:
+Lumbo-sacral spine X-ray shows:
+- Loss of lumbar lordosis
+- Osteophyte formation
+- Paravertebral (paradiscal) sclerosis at L4/L5
+- Spondylolisthesis at L4/L5
+  
+ASSESSMENT:
+Lumbar spondylolisthesis (L4/L5)
+  
+PLAN:
+Cap Pregabalin 75 mg twice daily × 10 days
+Tab Tizanidine 4 mg nocte × 10 days
+Tab Neurovite Forte 1 tablet twice daily × 2 weeks
+Lumbar corset
+Review in 2/52
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-9',
+    title: 'Advanced Prostate Carcinoma with Paraparesis',
+    specialty: 'Surgery',
+    subSpecialty: 'Urology / Oncology',
+    condition: 'Prostate Cancer',
+    symptoms: [
+      'Poor urinary stream', 
+      'Weight loss', 
+      'Difficulty walking', 
+      'Lower limb weakness', 
+      'Obstructive lower urinary tract symptoms'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: '69-year-old widowed retired civil servant with 9-month history of progressive lower urinary tract symptoms, 5-month weight loss, and recent difficulty walking due to lower limb weakness. Examination and imaging suggest advanced prostate carcinoma with probable spinal metastasis and anemia.',
+    content: `
+  
+UROLOGY REVIEW
+
+Patient Seen
+  
+69-year-old widowed Christian retired civil servant, residing at Lafenwa, Abeokuta, Ogun State.
+  
+Informant: Self
+  
+PC:
+Poor urinary stream × 9/12
+Weight loss × 5/12
+Difficulty in walking × 1/12
+  
+HPC:
+The patient was apparently well until about 9 months prior to presentation, when he began to experience lower urinary tract symptoms, including poor urinary stream, straining at micturition, hesitancy, intermittency, terminal dribbling, increased urinary frequency, and nocturia (3–4 times per night). Symptoms have progressively worsened.
+  
+About 5 months prior to presentation, he noticed progressive unintentional weight loss, associated with reduced appetite and easy fatigability.
+  
+He developed difficulty in walking about 1 month prior to presentation, which was gradual in onset and progressive. There is associated weakness of both lower limbs. There is no history of trauma or fall. He denies back pain or bone pain. There is no history of hematuria, dysuria, or urethral discharge.
+  
+He was initially managed at a private hospital where he received one unit of blood due to anemia before being referred to this facility for further care.
+  
+PMH:
+Not a known hypertensive
+Not diabetic
+No previous urological surgery
+  
+Drug History & Allergy:
+Not on regular medications
+No known drug or food allergies
+  
+O/E:
+Elderly man, conscious and alert, chronically ill-looking
+Markedly pale, anicteric, acyanosed, well hydrated
+Mild bilateral pedal edema
+  
+Vital Signs:
+PR: 88 bpm, regular
+BP: 110/70 mmHg
+RR: 18 cpm
+SpO₂: 96% on room air
+  
+Abdominal Examination:
+Abdomen flat, soft, non-tender
+No palpable suprapubic mass
+Indwelling urethral catheter in situ draining cloudy urine
+  
+Digital Rectal Examination (DRE):
+Anal sphincter tone normal
+Rectum empty
+Prostate enlarged, hard, irregular, nodular, with obliterated median sulcus, non-tender
+Rectal mucosa free
+  
+Musculoskeletal / Neurological:
+Reduced power in both lower limbs (grade 3/5)
+Reduced tone in lower limbs
+Reflexes diminished bilaterally
+Sensation preserved
+  
+ASSESSMENT:
+Advanced carcinoma of the prostate
+Paraparesis likely secondary to spinal metastasis
+Severe anemia
+Obstructive lower urinary tract symptoms
+  
+PLAN:
+Counsel patient and relatives on diagnosis, possible complications, and management options
+  
+Investigations:
+Full blood count
+Serum PSA
+ESR
+EUCr
+Urinalysis
+Urine MCS
+Abdominopelvic ultrasound (KUB)
+Lumbosacral spine X-ray (AP and lateral)
+MRI spine (if available)
+  
+Treatment:
+Complete blood transfusion as indicated
+CT IV fluids
+CT IV antibiotics
+Tab Paracetamol 1 g 8-hourly
+Tab Fesolate 200 mg BD
+Tab Vitamin C 200 mg TDS
+Tab Dexamethasone 8 mg BD (to step down as appropriate)
+CT SC Clexane
+Consult to Physiotherapy
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-10',
+    title: 'Right Carpal Tunnel Syndrome',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedics',
+    condition: 'Carpal Tunnel Syndrome',
+    symptoms: [
+      'Right wrist pain',
+      'Wrist swelling',
+      'Hand paresthesia',
+      'Persistent wrist pain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: '71-year-old hypertensive male with persistent right wrist pain despite brace use. Examination reveals volar wrist swelling with positive Tinel’s and Phalen’s tests, consistent with right carpal tunnel syndrome.',
+    content: `
+Patient Seen
+  
+71-year-old married Christian male, retired tailor, who resides at Ibara, Abeokuta, Ogun State.
+  
+Informant: Self
+  
+PC:
+Persistent right wrist pain
+  
+HPC:
+Patient is being managed for suspected carpal tunnel syndrome.
+He still complains of persistent pain in the right wrist, with no significant improvement.
+  
+He is a known hypertensive on medications.
+  
+O/E:
+General Condition:
+Stable
+  
+BP: 168/87 mmHg
+  
+Right Hand/Wrist Examination:
+Wrist brace in situ
+Marked swelling over the volar surface of the wrist
+Tinel’s test: Positive
+Phalen’s test: Positive
+  
+ASSESSMENT:
+Carpal tunnel syndrome (right wrist)
+Rule out osteoarthritis
+  
+PLAN:
+CT wrist brace
+FBC
+ESR
+X-ray of the right hand including the wrist
+Cap Antalgex-T 1 BD
+Cap Celecoxib 200 mg BD
+Tab Sirdalud® (Tizanidine) 2 mg BD
+Tab Pregabalin 75 mg BD
+Ensure compliance with antihypertensive medications
+Patient counselled; may require intralesional steroid injection subsequently if symptoms persist
+Review in 2 weeks
+`,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-11',
+    title: 'Chronic Low Back Pain with Neurogenic Claudication and Bilateral Knee Osteoarthritis',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedics',
+    condition: 'Lumbar spondylosis with neurogenic claudication and bilateral knee osteoarthritis',
+    symptoms: [
+      'Chronic low back pain',
+      'Difficulty walking long distances',
+      'Intermittent lower limb numbness',
+      'Lower limb weakness on exertion',
+      'Bilateral knee joint pain',
+      'Post-inactivity stiffness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: 'A 49-year-old female trader with chronic low back pain showing features of neurogenic claudication, associated with bilateral knee osteoarthritis.',
+    content: `
+ORTHOPAEDICS CLINIC
+  
+Patient Seen:
+49-year-old married Christian female, frozen fish seller, residing at Kuto, Abeokuta, Ogun State.
+  
+Presenting Complaints:
+Low back pain × 1 year
+Bilateral knee joint pain × several months
+  
+HPC:
+Patient was apparently well until about 1 year prior to presentation when she developed chronic low back pain. The pain is worsened by walking short distances and prolonged standing, and is relieved by rest and sitting. She also reports difficulty walking long distances due to worsening back pain, with a need to stop and rest frequently.
+  
+Pain is aggravated by activities that increase intra-abdominal pressure and is associated with post-inactivity stiffness. She also complains of intermittent numbness and weakness in the lower limbs during walking, which improves with rest. There is no sphincteric disturbance.
+  
+She later developed bilateral knee joint pain, which is occasionally associated with joint swelling.
+  
+There are no other obvious contributory symptoms.
+  
+No known history of hypertension, diabetes mellitus, or acid peptic disease.
+Not a known asthmatic.
+  
+Assessment:
+Chronic low back pain with discogenic disease, facet joint arthropathy, and features of neurogenic claudication.
+Bilateral knee osteoarthritis.
+  
+Plan:
+Cap Tenoxicam 20 mg once daily × 2/52
+Cap Omeprazole 20 mg once daily × 2/52
+Tab Relflex® 800 mg BD × 10/7
+Tab Paracetamol 1 g BD × 10 days
+  
+X-rays:
+Lumbosacral spine (AP & lateral views)
+Both knee joints (AP & lateral views)
+
+Counselled on low back–sparing postures and activity modification
+Review in 2 weeks
+ `,
+bookmarkCount: 0
+},
+  {
+    id: 'surg-12',
+    title: 'Lumbar Radiculopathy (Degenerative)',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedics',
+    condition: 'Lumbar radiculopathy',
+    symptoms: [
+      'Recurrent low back pain',
+      'Radiating pain to thighs and legs',
+      'Paraesthesia and numbness in lower limbs',
+      'Antalgic gait',
+      'Difficulty with daily activities'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-01-20',
+    summary: 'A 46-year-old male farmer presenting with 3-month history of insidious low back pain radiating to the lower limbs with associated paraesthesia, consistent with lumbar radiculopathy likely secondary to degenerative changes.',
+    content: `
+ORTHOPAEDIC CLINIC
+  
+Patient Seen:
+46-year-old Yoruba Christian male farmer residing at Ibadan, Oyo State.
+  
+C/O
+Recurrent low back pain × 3 months
+  
+HPC:
+The patient was apparently well until about 3 months prior to presentation, when he developed low back pain of insidious onset, which progressively increased in severity. The pain is aching, continuous, and severe enough to limit daily activities.
+The pain radiates to both thighs and legs and is associated with paraesthesia and numbness in the lower limbs.
+  
+There is no associated limb weakness, no loss of sphincteric control, and no history of trauma.
+There is no weight loss, back swelling, or chronic cough.
+  
+He has visited multiple health facilities, where he received back massage and medications, with no significant clinical improvement, prompting presentation to this facility.
+  
+O/E:
+Middle-aged man with antalgic gait, conscious and alert.
+Not pale, anicteric, afebrile.
+  
+Back Examination:
+No gibbus or step deformity
+Tenderness at L5/S1
+No paraspinal muscle spasm
+  
+Lower Limb Examination:
+No muscle wasting
+Straight Leg Raise (Lasègue’s test): Positive bilaterally
+Muscle power: 5/5 across all muscle groups
+Sensation: reduced subjectively in affected dermatomes
+  
+Investigations:
+Lumbosacral spine X-ray shows straightening of the lumbar spine with marginal osteophytes at T12
+Intervertebral disc spaces preserved
+  
+Assessment:
+Lumbar radiculopathy (likely degenerative)
+  
+Plan:
+Counsel patient on diagnosis, prognosis, and treatment plan
+Low back–sparing measures: avoid heavy lifting, prolonged bending, and poor posture
+Tab Libre 2 mg am and 4 mg nocte × 2/52 (muscle relaxant)
+Tab Diclofenac 50 mg twice daily × 1/52
+Tab Pregamec (Pregabalin) 75 mg nocte × 2/52
+Tab Neurovite Forte 1 tablet twice daily × 2/52
+Physiotherapy referral for lumbar stabilization and nerve root mobilization exercises
+Review in 2/52
+`,
+bookmarkCount: 0
+},
 {
-  id: 'surg-1',
+  id: 'surg-13',
+  title: 'Severe Traumatic Brain Injury Following Road Traffic Accident',
+  specialty: 'Surgery',
+  subSpecialty: 'Emergency/Trauma',
+  condition: 'Severe traumatic brain injury (GCS 8/15) with suspected basal skull fracture and raised intracranial pressure',
+  symptoms: [
+    'Loss of consciousness for 2 hours following head injury',
+    'Road traffic accident (pedestrian knocked down)',
+    'Forehead struck ground (not wearing helmet)',
+    'Forehead and scalp lacerations',
+    'Bilateral periorbital swelling',
+    'Epistaxis (nose bleeding)',
+    'Respiratory distress',
+    'Bradycardia and hypertension (Cushing\'s triad)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-16',
+  summary: 'A 30-year-old male civil servant presenting with severe traumatic brain injury (GCS 8/15) following a road traffic accident. Patient has been unconscious since impact with features suggestive of basal skull fracture and possible raised intracranial pressure. Requires immediate resuscitation and ICU admission.',
+  content: `
+EMERGENCY/TRAUMA UNIT
+
+30-year-old male, civil servant
+
+Informant: Wife (not reliable — not present at the scene)
+
+PRESENTING COMPLAINT
+Loss of consciousness following head injury × 2 hours
+
+HISTORY OF PRESENTING COMPLAINT
+The patient was apparently well until 2 hours prior to presentation when he sustained a head injury following a road traffic accident.
+
+The exact mechanism could not be ascertained; however, he was reportedly knocked down by a vehicle. He was not wearing a helmet and struck his forehead on the ground, sustaining lacerations to the forehead and lateral scalp. There is associated bilateral periorbital swelling.
+
+There was immediate loss of consciousness and he has remained unconscious since the incident.
+
+No history of seizure.
+No history of vomiting.
+Bleeding from the nose noted; no bleeding from the ears or other orifices.
+
+No obvious limb deformity, chest, or abdominal trauma observed.
+
+PAST MEDICAL HISTORY
+No past history of seizures
+No known bleeding disorder
+No anticoagulant use
+Not a known hypertensive or DM patient
+
+EXAMINATION
+
+General Examination:
+Young man, unconscious, in respiratory distress
+Afebrile, not cyanosed, no pedal oedema
+
+Vital Signs:
+PR: 62 bpm
+BP: 154/91 mmHg
+RR: 28 cycles/min
+SpO₂: 85% in room air
+
+CNS Examination:
+Unconscious
+GCS: E1 V2 M5 = 8/15
+Pupils could not be assessed due to severe bilateral periorbital oedema
+
+Head and Face:
+Forehead and cheek lacerations
+Lateral scalp laceration
+Marked bilateral periorbital oedema
+Active epistaxis
+
+Neck:
+No obvious deformity
+Cervical spine injury not excluded
+
+Chest:
+Symmetrical chest expansion
+
+Abdomen:
+Soft, non-tender
+
+ASSESSMENT
+Severe traumatic brain injury (GCS 8/15)
+? Basal skull fracture (epistaxis, periorbital swelling)
+? Raised intracranial pressure (bradycardia + hypertension + reduced GCS — Cushing's triad)
+? Associated cervical spine injury
+
+PLAN
+
+IMMEDIATE RESUSCITATION (ATLS PRINCIPLES)
+
+1. Airway Management:
+   - Apply rigid cervical collar immediately
+   - Suction airway
+   - Administer 100% oxygen via non-rebreather mask at 15 L/min immediately
+   - Prepare for rapid sequence intubation (GCS ≤ 8)
+   - If ventilator available: intubate with cuffed ET tube and ventilate, maintaining SpO₂ > 94%
+   - If ventilator not immediately available: intubate and ventilate with Ambu bag connected to oxygen while arranging ICU care
+
+2. Breathing:
+   - Continuous pulse oximetry
+   - Maintain SpO₂ above 94%
+
+3. Circulation:
+   - Insert two wide-bore IV cannulas (16G/18G)
+   - Send blood for:
+     • FBC
+     • EUCr
+     • Random blood sugar
+     • Coagulation profile (if available)
+     • Group and crossmatch at least 2 units
+   - Commence 0.9% Normal Saline 1 litre over 1 hour, then reassess
+   - Avoid 5% Dextrose
+   - Maintain SBP ≥ 100 mmHg and MAP ≥ 65 mmHg
+
+4. Raised ICP Precautions:
+   - Nurse patient at 30° head elevation
+   - Keep neck in neutral position
+   - Avoid tight tapes around the neck
+   - If signs of deterioration or herniation occur: administer IV Mannitol 20% at 1 g/kg over 15–20 minutes
+   - Insert Foley catheter and monitor urine output
+
+5. Imaging:
+   - Urgent non-contrast cranial CT scan once stable
+   - CT cervical spine preferred; if unavailable, lateral cervical spine X-ray
+
+6. Wound Care:
+   - Control epistaxis with anterior nasal packing if persistent
+   - Irrigate and debride scalp and facial lacerations with normal saline
+   - Suture under aseptic technique
+   - Avoid deep probing if basal skull fracture suspected
+
+7. Medications:
+   - IV Paracetamol 1 g 8 hourly
+   - IV Ceftriaxone 1 g 12 hourly if open skull fracture suspected
+   - Tetanus toxoid 0.5 ml IM
+   - Administer ATS if immunization status unknown
+
+8. Monitoring:
+   - Hourly GCS charting
+   - Hourly vital signs
+   - Monitor pupils when assessable
+   - Strict input/output charting
+   - Maintain urine output ≥ 0.5 ml/kg/hour
+
+9. Disposition:
+   - Admit to ICU or High Dependency Unit
+   - Urgent neurosurgical consult
+   - If neurosurgical services unavailable, arrange transfer to another facility after stabilization
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-14',
+  title: 'Severe Traumatic Brain Injury with Suspected Basal Skull Fracture and Raised ICP',
+  specialty: 'Surgery',
+  subSpecialty: 'Emergency / Trauma',
+  condition: 'Severe traumatic brain injury (GCS 8/15) with suspected anterior cranial fossa fracture and raised intracranial pressure',
+  symptoms: [
+    'Loss of consciousness for 2 hours following road traffic accident',
+    'Persistent unconsciousness since injury',
+    'Forehead and right temporal lacerations',
+    'Bilateral periorbital edema and ecchymosis ("raccoon eyes")',
+    'Active epistaxis',
+    'Hypoxia',
+    'Bradycardia and hypertension - Cushing\'s triad',
+    'Tachypnea',
+    'GCS 8/15 (E1 V2 M5)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-16',
+  summary: 'A 28-year-old male civil servant presenting with severe traumatic brain injury (GCS 8/15) following a road traffic accident. Clinical features suggest raised intracranial pressure (Cushing\'s triad) and suspected anterior cranial fossa/basal skull fracture. Patient requires immediate airway protection, resuscitation, and neurosurgical intervention.',
+  content: `
+EMERGENCY MEDICINE/TRAUMA UNIT
+
+Patient Seen: 28-year-old male, civil servant
+Informant: Wife (not present at scene; history limited)
+Time post injury: 2 hours
+
+PRESENTING COMPLAINT
+Loss of consciousness following head injury × 2 hours
+
+HISTORY OF PRESENTING ILLNESS
+The patient was apparently well until approximately 2 hours prior to presentation when he sustained a head injury following a road traffic accident. He was reportedly knocked down by a vehicle (exact mechanism unclear). He was not wearing a helmet. Witness accounts are unavailable.
+
+He reportedly struck his forehead on the ground and sustained lacerations to the forehead and right temporal region. There was immediate loss of consciousness at the scene and he has remained unconscious since then.
+
+There is no history of witnessed seizure activity.
+No vomiting prior to arrival (history limited).
+There was bleeding from the nose shortly after the injury. No bleeding from the ears or mouth reported.
+
+No obvious limb deformities were noted by bystanders. No reported chest or abdominal trauma.
+
+PAST MEDICAL HISTORY
+No prior history of seizures
+No history of bleeding disorders
+No anticoagulant or antiplatelet use
+Not a known hypertensive or diabetic
+No previous history of surgery
+
+PRIMARY SURVEY (ATLS APPROACH)
+(Structured according to principles of the American College of Surgeons ATLS guidelines)
+
+A – Airway with Cervical Spine Protection:
+Patient unconscious
+No verbal response
+Blood noted around nostrils
+Airway not definitively secured
+High risk of airway compromise (GCS 8/15)
+Cervical spine manually stabilized on arrival
+
+B – Breathing:
+RR: 28 cycles/min (tachypneic)
+SpO₂: 85% on room air
+Mild respiratory distress
+Chest expansion symmetrical
+No obvious chest wall deformity
+Air entry bilaterally present
+No added sounds
+
+C – Circulation:
+Pulse: 62 bpm (relative bradycardia)
+BP: 154/91 mmHg (hypertensive)
+Extremities warm
+No obvious external hemorrhage
+No long bone deformities
+Capillary refill < 2 seconds
+Findings concerning for evolving Cushing response (possible raised ICP)
+Two wide-bore IV cannulas secured
+
+D – Disability (Neurological Status):
+GCS = 8/15
+  E1 (no eye opening)
+  V2 (incomprehensible sounds)
+  M5 (localizes to painful stimulus)
+Pupillary assessment limited due to marked bilateral periorbital edema
+No obvious abnormal posturing noted at time of examination
+
+E – Exposure:
+Forehead laceration (~4 cm)
+Right temporal laceration (~3 cm)
+Bilateral periorbital edema and ecchymosis
+Active epistaxis
+No other external injuries identified on initial inspection
+Patient kept warm
+
+SECONDARY SURVEY
+
+Head and Face:
+Forehead and right temporal lacerations
+Bilateral periorbital swelling ("raccoon eyes" appearance)
+Epistaxis present
+Suspicion of anterior cranial fossa fracture
+No otorrhea observed
+No Battle's sign noted (limited exam)
+
+Neck:
+No obvious deformity
+No subcutaneous emphysema
+Cervical spine tenderness not assessable
+Cervical spine immobilized with rigid collar
+
+Chest:
+Symmetrical expansion
+No crepitus
+No chest wall bruising
+
+Abdomen:
+Soft
+Non-tender
+No distension
+No palpable organomegaly
+
+Pelvis:
+Stable on gentle compression
+
+Limbs:
+No deformities
+No obvious long bone fractures
+
+WORKING ASSESSMENT
+Severe traumatic brain injury (GCS 8/15) following road traffic accident, with:
+- Persistent loss of consciousness
+- Hypoxia (SpO₂ 85% on room air)
+- Bradycardia and hypertension (suggestive of raised intracranial pressure - Cushing's triad)
+- Suspected anterior cranial fossa fracture (?basal skull fracture)
+
+MANAGEMENT PLAN
+
+1. AIRWAY AND BREATHING (IMMEDIATE PRIORITY)
+
+Indication:
+GCS = 8/15 + SpO₂ 85% on room air → Immediate airway protection required
+
+Plan:
+- Prepare for Rapid Sequence Intubation (RSI) with in-line cervical spine stabilization
+- Pre-oxygenate with 100% oxygen via non-rebreather mask at 15 L/min for 3–5 minutes
+
+RSI Medications (if hemodynamically stable):
+- IV Etomidate 0.3 mg/kg (induction agent of choice in TBI)
+  Alternative: IV Ketamine 1–2 mg/kg (acceptable in TBI)
+- IV Succinylcholine 1–1.5 mg/kg
+  Alternative: IV Rocuronium 1 mg/kg if sux unavailable
+
+Post-intubation:
+- Confirm tube placement (ETCO₂ if available, bilateral chest rise, auscultation)
+- Mechanical ventilation targeting:
+  • SpO₂ ≥ 94%
+  • PaO₂ > 80 mmHg
+  • PaCO₂ 35–40 mmHg (avoid hypercapnia)
+- If ventilator unavailable → urgent transfer to ICU-capable center
+
+2. CIRCULATION
+
+IV Access:
+Two wide-bore cannulas (16G or 18G)
+
+Fluid Resuscitation:
+- 0.9% Normal Saline 500 mL bolus over 15–30 minutes if hypotensive
+- Thereafter maintain at 1–1.5 mL/kg/hr
+
+⚠ Avoid:
+- 5% Dextrose
+- Dextrose saline
+- Hypotonic fluids
+
+Blood Pressure Target:
+- Maintain SBP ≥ 110 mmHg (age <50)
+- Avoid hypotension at all costs
+
+Urinary Catheter:
+- Insert Foley catheter
+- Target urine output ≥ 0.5 mL/kg/hr
+
+3. CONTROL OF RAISED INTRACRANIAL PRESSURE
+
+Positioning:
+- Nurse at 30° head elevation
+- Neck in neutral alignment
+- Avoid tight cervical collar obstruction
+
+Osmotherapy (if signs of herniation OR while awaiting CT and patient deteriorates):
+Option 1: Mannitol
+- IV Mannitol 20% at 0.5–1 g/kg over 15–20 minutes
+- Ensure SBP > 100 mmHg before giving
+- Monitor urine output
+
+OR
+
+Option 2: 3% Hypertonic Saline
+- 3 mL/kg over 10–20 minutes
+(Use whichever is available; in Nigeria mannitol is more accessible)
+
+4. SEIZURE PROPHYLAXIS
+
+Indicated in severe TBI:
+- IV Levetiracetam 1 g stat
+- Then 500–1,000 mg IV 12 hourly for 7 days
+
+Alternative (if levetiracetam unavailable):
+- IV Phenytoin loading dose 15–20 mg/kg
+- Maintenance 100 mg IV 8 hourly
+
+5. ANALGESIA & SEDATION (Post-Intubation)
+
+If intubated:
+- IV Fentanyl 1–2 mcg/kg bolus
+- Maintenance infusion 1–2 mcg/kg/hr
+
+Sedation:
+- IV Midazolam 0.05–0.1 mg/kg bolus
+- Infusion 0.02–0.1 mg/kg/hr
+- Avoid oversedation before neurological baseline established
+
+6. ANTIBIOTICS (If Basal Skull Fracture with CSF Leak Suspected)
+
+Routine prophylaxis is controversial, but in many Nigerian centers, it is practiced.
+
+If CSF leak suspected:
+- IV Ceftriaxone 2 g 12 hourly
+- Duration: 5–7 days (pending neurosurgical review)
+
+7. TETANUS PROPHYLAXIS
+
+If immunization status unknown:
+- Tetanus Toxoid (TT) 0.5 mL IM stat
+  PLUS
+- Tetanus Immunoglobulin (TIG) 250 IU IM stat
+
+If fully immunized within 5 years:
+- No TIG required
+
+8. WOUND MANAGEMENT
+
+- Irrigate wounds with normal saline
+- Debride nonviable tissue
+- Delay definitive suturing until CT excludes depressed skull fracture
+- If clean superficial wound → close with nylon 3-0 or 4-0
+
+9. INVESTIGATIONS (URGENT)
+
+Imaging:
+- Urgent Non-Contrast CT Brain
+- CT Cervical Spine (if unavailable → lateral C-spine X-ray)
+
+Laboratory:
+- FBC
+- EUCr
+- Random blood glucose (target 140–180 mg/dL)
+- Coagulation profile (PT/INR, aPTT)
+- ABG (if available)
+- Group & Crossmatch (2–4 units PRBC)
+
+10. GLYCAEMIC CONTROL
+
+- If RBS < 70 mg/dL → IV 50% Dextrose 50 mL stat
+- Otherwise avoid dextrose-containing fluids
+
+11. DVT PROPHYLAXIS
+
+- Mechanical prophylaxis (compression stockings)
+- Start Enoxaparin 40 mg SC daily after 24–48 hours if no intracranial bleeding progression and cleared by neurosurgery
+
+12. NEUROSURGICAL CONSULT
+
+- Immediate referral to neurosurgery
+- Prepare for possible:
+  • Craniotomy for hematoma evacuation
+  • Decompressive craniectomy
+  • ICP monitoring (if available)
+
+13. DISPOSITION
+
+- Admit to ICU or High Dependency Unit
+- Continuous monitoring:
+  • Hourly GCS charting
+  • Hourly vital signs
+  • Pupillary assessment when possible
+  • Strict input/output charting
+  • Monitor for signs of herniation
+- If neurosurgical services unavailable, arrange transfer to tertiary center after stabilization
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-15',
+  title: 'Acute Intestinal Obstruction',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Acute intestinal obstruction (specify: likely small bowel obstruction secondary to postoperative adhesions / obstructed external hernia / large bowel obstruction)',
+  symptoms: [
+    'Abdominal pain (colicky, intermittent, severe)',
+    'Progressive abdominal distension',
+    'Vomiting (initially food, later bilious/feculent)',
+    'Failure to pass stool and flatus',
+    'Anorexia and weakness',
+    'Dehydration',
+    'Visible peristalsis (may be present)',
+    'High-pitched tinkling bowel sounds (early) or absent bowel sounds (late)',
+    'Empty rectum on digital rectal examination'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-26',
+  summary: 'Template for acute intestinal obstruction presenting with colicky abdominal pain, progressive distension, vomiting, and failure to pass stool and flatus. Common causes include postoperative adhesions, obstructed external hernia, and large bowel malignancy. Requires urgent resuscitation, nasogastric decompression, and surgical consultation.',
+  content: `
+GENERAL SURGERY
+
+Age/Sex/Occupation: [Age]-year-old [sex], [occupation]
+Address: [Location]
+Marital status: [Status]
+Informant: Patient/Relative (state reliability)
+Date/Time of clerking: [Date and time]
+
+PRESENTING COMPLAINTS
+Abdominal pain × [duration]
+Abdominal swelling × [duration]
+Vomiting × [duration]
+Failure to pass stool and flatus × [duration]
+
+HISTORY OF PRESENTING ILLNESS
+Patient was apparently well until [duration] ago when he/she developed abdominal pain. The pain was initially [sudden/gradual] in onset, colicky in nature, generalized but more pronounced in the [specify region] region. It is intermittent, severe during episodes, and temporarily relieved after vomiting (if present). No radiation to the back.
+
+This was followed by progressive abdominal distension noticed [hours/days] later. Distension is progressive and associated with inability to pass stool and flatus. Last passage of stool was [specify] and flatus [specify].
+
+Vomiting started [duration] after onset of pain. Initially contained recently ingested food, later became bilious/feculent (if distal obstruction). Frequency [number] times/day. Associated with anorexia and weakness.
+
+No history of chronic constipation (or present if large bowel obstruction).
+No prior similar episodes (or history suggestive of recurrent subacute obstruction).
+No history of abdominal trauma.
+No history of abdominal swelling prior to this illness except [specify if applicable].
+No history suggestive of external hernia incarceration unless stated.
+
+PAST SURGICAL HISTORY
+History of previous abdominal surgery [Yes/No] (important for adhesions)
+If yes, specify: type of surgery, indication, and date
+
+PAST MEDICAL HISTORY
+No history of diabetes mellitus, hypertension, peptic ulcer disease
+No history of malignancy
+No known tuberculosis (consider in Nigerian setting)
+
+DRUG HISTORY
+No chronic NSAID use
+No known drug allergies
+
+FAMILY HISTORY
+No family history of colorectal malignancy
+
+SOCIAL HISTORY
+Dietary habits: [specify]
+Alcohol use: [specify or state none]
+Smoking: [specify or state none]
+
+REVIEW OF SYSTEMS
+General: No weight loss/night sweats (if malignancy suspected)
+Cardiorespiratory: No cough, chest pain, orthopnoea
+Genitourinary: No dysuria
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Patient is acutely ill-looking, dehydrated, in painful distress
+
+Vital Signs:
+Temperature: [specify] °C
+Pulse: [specify] bpm (may be tachycardic)
+Blood pressure: [specify] mmHg
+Respiratory rate: [specify] cpm
+SpO₂: [specify] % on room air
+
+Degree of dehydration: sunken eyes, dry mucous membranes, poor skin turgor
+No pallor / mild pallor
+No jaundice
+No peripheral oedema
+No significant lymphadenopathy
+
+Abdominal Examination:
+
+Inspection:
+- Abdomen distended, moves minimally with respiration
+- Visible peristalsis may be present (classically in small bowel obstruction)
+- No obvious scars (or presence of previous surgical scar)
+- No obvious hernia externally (must examine groins, umbilicus, previous incision sites)
+
+Palpation:
+- Abdomen tense but soft / may have localized tenderness
+- No guarding or rebound tenderness (unless strangulation/peritonitis)
+- Palpable hernial orifices normal (or specify findings)
+- No palpable masses (or describe if present)
+
+Percussion:
+- Hyperresonant note over distended abdomen
+
+Auscultation:
+- High-pitched tinkling bowel sounds (early obstruction)
+  OR
+- Absent bowel sounds (late obstruction/ileus/strangulation)
+
+Digital Rectal Examination:
+- Rectum empty (classic finding)
+- No palpable mass
+- No blood on examining finger
+
+Other Systems:
+- Chest clear
+- Cardiovascular examination: S1 S2 heard, no murmurs
+- Hernial orifices carefully examined (inguinal, femoral, umbilical, incisional)
+
+WORKING DIAGNOSIS
+Acute intestinal obstruction — likely [specify]:
+- Small bowel obstruction secondary to postoperative adhesions
+  OR
+- Obstructed external hernia
+  OR
+- Large bowel obstruction secondary to suspected malignancy
+  OR
+- Other cause based on history and examination
+
+DIFFERENTIALS
+1. Paralytic ileus
+2. Volvulus
+3. Intussusception (especially in children)
+4. Strangulated hernia
+5. Intestinal tuberculosis (Nigerian setting)
+
+PLAN
+
+1. IMMEDIATE RESUSCITATION
+
+Admission:
+- Admit to surgical ward
+- Nil per os (NPO)
+
+Intravenous Access and Fluid Resuscitation:
+- Insert two wide-bore IV cannulas (16G or 18G)
+- Commence IV fluids:
+  • Ringer's lactate or 0.9% Normal Saline 1–2 L over first 2 hours
+  • Adjust to haemodynamic status
+  • Then maintenance based on urine output
+- Replace ongoing losses (NG output, third space losses)
+- Aim for urine output ≥0.5 mL/kg/hr
+
+Decompression:
+- Insert nasogastric tube (large bore, e.g., 16-18 Fr)
+- Purpose: gastric decompression, reduce vomiting, prevent aspiration
+- Monitor and record NG output
+- Free drainage or intermittent suction
+
+Urinary Catheterization:
+- Insert urethral catheter (Foley catheter)
+- Strict input/output monitoring
+- Target urine output ≥0.5 mL/kg/hr
+
+2. MONITORING
+
+- Vital signs 4-hourly (or hourly if unstable)
+- Strict fluid balance chart
+- Serial abdominal examination (watch for signs of peritonitis or strangulation)
+- Daily weight
+- Watch for signs of strangulation:
+  • Worsening pain (becomes constant)
+  • Fever
+  • Tachycardia
+  • Peritoneal signs
+  • Leucocytosis
+
+3. INVESTIGATIONS
+
+Laboratory:
+- Full blood count (leucocytosis suggests strangulation/perforation)
+- Urea, electrolytes, creatinine
+- Random blood glucose
+- Serum lactate (if available - elevated suggests bowel ischaemia)
+- Liver function tests
+- Amylase/lipase (if pancreatitis suspected)
+- Blood group and crossmatch (prepare at least 2 units)
+
+Imaging:
+
+Plain Abdominal X-ray (Erect and Supine) - First-line:
+Erect film:
+- Multiple air-fluid levels
+- Dilated bowel loops
+
+Supine film:
+- Dilated small bowel loops (>3 cm) or large bowel (>6 cm, >9 cm caecum)
+- Valvulae conniventes (small bowel) vs haustra (large bowel)
+- String of pearls sign (SBO)
+- Coffee bean sign (volvulus)
+- Absence of gas in rectum
+
+Abdominal Ultrasound:
+- Dilated fluid-filled bowel loops
+- To-and-fro peristalsis
+- Free fluid
+- Identify cause if visible (mass, intussusception)
+
+CT Scan Abdomen with Contrast (if available and patient stable):
+- Gold standard for diagnosis
+- Identifies level and cause of obstruction
+- Detects complications (ischaemia, perforation)
+- Transition point
+- Pre-operative planning
+
+Chest X-ray:
+- Rule out pneumoperitoneum (if perforation suspected)
+- Assess for aspiration pneumonia
+
+4. MEDICATIONS
+
+Antibiotics (Especially if strangulation suspected or as pre-operative prophylaxis):
+- IV Ceftriaxone 1 g 12 hourly
+  PLUS
+- IV Metronidazole 500 mg 8 hourly
+
+Alternative:
+- IV Cefuroxime 750 mg 8 hourly + IV Metronidazole 500 mg 8 hourly
+- OR IV Ciprofloxacin 400 mg 12 hourly + IV Metronidazole 500 mg 8 hourly
+
+Analgesia:
+- IV Paracetamol 1 g 8 hourly
+- IV Tramadol 50–100 mg 8 hourly (if needed)
+- Avoid opioids initially as they may mask peritoneal signs
+- Once diagnosis clear and decision made, adequate analgesia essential
+
+Antiemetic:
+- IV Ondansetron 4–8 mg 8 hourly
+- OR IV Metoclopramide 10 mg 8 hourly (avoid if complete obstruction)
+
+Electrolyte Correction:
+- Correct hypokalaemia (common with vomiting and NG losses)
+- Monitor and replace as needed
+
+5. CONSERVATIVE MANAGEMENT
+
+Indications for initial conservative (non-operative) management:
+- Partial small bowel obstruction
+- Adhesive small bowel obstruction without signs of strangulation
+- No peritoneal signs
+- First episode in patient with previous abdominal surgery
+
+Duration:
+- 24–48 hours (up to 72 hours in selected cases)
+- Close monitoring during this period
+
+Criteria for success:
+- Resolution of pain
+- Passage of flatus/stool
+- Reduction in abdominal distension
+- Reduction in NG output
+- Tolerance of oral intake
+
+6. INDICATIONS FOR URGENT/EMERGENCY SURGERY
+
+Absolute indications (operate immediately after resuscitation):
+- Peritonitis (guarding, rebound tenderness, rigidity)
+- Signs of strangulation:
+  • Fever
+  • Tachycardia
+  • Constant severe pain
+  • Leucocytosis
+  • Metabolic acidosis
+  • Elevated lactate
+- Pneumoperitoneum (perforation)
+- Strangulated hernia
+- Complete large bowel obstruction
+
+Relative indications (if conservative management fails):
+- Persistent pain
+- Failure of conservative management after 24–48 hours
+- No passage of flatus/stool after 48 hours
+- Persistent or increasing NG output
+- Progressive distension
+- Worsening clinical condition
+
+7. SURGICAL MANAGEMENT
+
+Pre-operative preparation:
+- Optimize fluid and electrolyte balance
+- Correct anaemia if time permits
+- Broad-spectrum antibiotics
+- Informed consent
+- NBM for at least 6 hours (if not already)
+- Continue NG decompression
+
+Procedure: Exploratory Laparotomy
+
+Aims:
+- Identify cause of obstruction
+- Relieve obstruction
+- Assess bowel viability
+- Resect non-viable bowel if present
+- Prevent recurrence
+
+Possible findings and interventions:
+- Adhesions → adhesiolysis
+- Strangulated hernia → reduce, repair hernia, assess bowel viability
+- Malignancy → resection ± primary anastomosis or stoma
+- Volvulus → derotation ± resection
+- Intussusception → reduction or resection
+- Non-viable bowel → resection + anastomosis or stoma
+
+Post-operative care:
+- ICU/HDU monitoring if indicated
+- Continue NG decompression until bowel function returns
+- Continue IV fluids until adequate oral intake
+- Monitor for complications:
+  • Anastomotic leak
+  • Wound infection
+  • Intra-abdominal abscess
+  • Ileus
+  • Pneumonia
+- Early mobilization
+- Thromboprophylaxis (e.g., Enoxaparin 40 mg SC daily once stable)
+
+8. PATIENT AND FAMILY COUNSELLING
+
+Explain:
+- Diagnosis: bowel blockage preventing passage of intestinal contents
+- Cause: [specify based on findings]
+- Treatment plan:
+  • Initial conservative management (if applicable)
+  • Possible need for surgery
+- Risks and complications:
+  • Bowel resection may be necessary
+  • Possible stoma formation (temporary or permanent)
+  • Anastomotic leak
+  • Wound infection
+  • Prolonged ileus
+  • Adhesions (risk of recurrence)
+  • Death (if strangulation, perforation, sepsis)
+
+Obtain informed consent:
+- Written consent for exploratory laparotomy
+- Include possibility of bowel resection and stoma formation
+
+9. PROGNOSIS
+
+Good prognosis if:
+- Early presentation
+- No strangulation
+- Simple adhesive obstruction
+- Prompt surgical intervention when indicated
+
+Guarded prognosis if:
+- Delayed presentation
+- Bowel ischaemia or strangulation
+- Perforation
+- Sepsis
+- Elderly patient with comorbidities
+- Malignancy
+
+Mortality:
+- Simple obstruction: <5%
+- Strangulated obstruction: 10-30%
+- Delayed presentation with perforation/sepsis: >30%
+
+FOLLOW-UP
+Post-operative follow-up in surgical outpatient clinic at 2 weeks, 6 weeks, then as indicated
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-16',
+  title: 'Acute Small Bowel Obstruction Secondary to Postoperative Adhesions',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Acute small bowel obstruction, likely secondary to postoperative adhesions from previous appendicectomy',
+  symptoms: [
+    'Abdominal pain for 3 days (sudden onset, colicky, umbilical then generalized)',
+    'Abdominal swelling for 2 days',
+    'Vomiting for 2 days (initially food, later bilious)',
+    'Failure to pass stool and gas for 2 days',
+    'Anorexia and progressive weakness',
+    'Severe pain episodes (8/10 pain score)',
+    'Grossly distended abdomen with central fullness',
+    'Visible peristalsis',
+    'High-pitched, frequent bowel sounds',
+    'Empty rectum on digital rectal examination',
+    'Moderate dehydration',
+    'Tachycardia (108 bpm)',
+    'Hypotension (100/65 mmHg)',
+    'History of appendicectomy 10 years ago'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-26',
+  summary: 'A 52-year-old male trader from Agege, Lagos presenting with acute small bowel obstruction characterized by colicky abdominal pain (3 days), progressive distension (2 days), bilious vomiting, and absolute constipation (no stool or gas passage for 2 days). History of open appendicectomy 10 years ago. Clinical examination reveals distended abdomen with visible peristalsis, high-pitched bowel sounds, empty rectum, and signs of moderate dehydration with tachycardia and hypotension. Most likely diagnosis is adhesive small bowel obstruction. No current signs of strangulation or peritonitis. Requires urgent resuscitation, nasogastric decompression, and conservative management with close monitoring for signs requiring surgical intervention.',
+  content: `
+GENERAL SURGERY
+
+Age/Sex/Occupation: 52-year-old male, trader
+Address: Agege, Lagos State
+Marital status: Married
+Informant: Patient (reliable)
+Date/Time of clerking: 26/02/2026, 3:30 pm
+
+PRESENTING COMPLAINTS
+Abdominal pain × 3/7
+Abdominal swelling × 2/7
+Vomiting × 2/7
+Failure to pass stool and gas × 2/7
+
+HISTORY OF PRESENTING ILLNESS
+Patient was apparently well until 3 days ago when he developed abdominal pain. Pain was sudden in onset, colicky in nature, initially around the umbilical region, later became generalized. It is intermittent, severe during episodes, and causes him to double over. Pain score 8/10 at peak. No radiation to the back.
+
+About 12 hours after onset of pain, he noticed progressive abdominal swelling. Distension has increased steadily and is associated with inability to pass stool and gas for the past 2 days. Last passage of stool was small quantity, 2 days ago. No passage of gas since then.
+
+Vomiting started about 24 hours after onset of pain. Initially contained recently ingested food, later became greenish (bilious). Vomited about 5 times per day. No blood in vomitus.
+
+He also complains of anorexia and progressive weakness.
+
+No history of chronic constipation prior to this illness.
+No history of similar episodes in the past.
+No history of trauma.
+No history of groin swelling prior to onset of symptoms.
+
+PAST SURGICAL HISTORY
+History of open appendicectomy 10 years ago at a general hospital in Lagos for acute appendicitis
+No postoperative complications
+
+PAST MEDICAL HISTORY
+No known history of hypertension or diabetes mellitus
+No known history of peptic ulcer disease
+No known history of tuberculosis
+No previous history suggestive of malignancy
+
+DRUG HISTORY
+No chronic NSAID use
+No known drug allergies
+
+FAMILY HISTORY
+No family history of colorectal cancer
+
+SOCIAL HISTORY
+Non-smoker
+Occasional alcohol intake
+Diet predominantly high in carbohydrates, low in fibre
+
+REVIEW OF SYSTEMS
+General: No significant weight loss, no night sweats
+Cardiorespiratory: No cough, no chest pain, no difficulty breathing when lying flat
+Genitourinary: No dysuria, no reduced urine stream prior to illness
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Middle-aged man, acutely ill-looking, moderately dehydrated, in painful distress
+
+Vital Signs:
+Temperature: 37.8°C
+Pulse: 108 bpm, regular, moderate volume
+Blood pressure: 100/65 mmHg
+Respiratory rate: 22 cycles/min
+SpO₂: 98% on room air
+
+Dry mucous membranes, sunken eyes
+No pallor
+No jaundice
+No pedal oedema
+No peripheral lymphadenopathy
+
+Abdominal Examination:
+
+Inspection:
+- Abdomen grossly distended, central fullness noted
+- Moves minimally with respiration
+- Old right lower quadrant surgical scar noted (appendicectomy)
+- Visible peristalsis present
+- No obvious external hernia
+
+Palpation:
+- Abdomen distended but soft
+- Mild generalized tenderness, no rebound tenderness
+- No guarding
+- No palpable masses
+- Hernial orifices (inguinal, femoral, umbilical) normal
+
+Percussion:
+- Hyperresonant note over most of the abdomen
+
+Auscultation:
+- High-pitched, frequent bowel sounds
+
+Digital Rectal Examination:
+- Rectum empty
+- No palpable mass
+- No blood on examining finger
+
+Other Systems:
+- Chest clear
+- Heart sounds S1 and S2 only, no murmurs
+
+WORKING DIAGNOSIS
+Acute small bowel obstruction, likely secondary to postoperative adhesions from previous appendicectomy
+
+Features supporting diagnosis:
+- History of previous abdominal surgery (appendicectomy 10 years ago)
+- Sudden onset colicky abdominal pain
+- Progressive abdominal distension
+- Bilious vomiting
+- Absolute constipation (no stool or gas passage for 2 days)
+- Visible peristalsis
+- High-pitched bowel sounds
+- Empty rectum on DRE
+
+DIFFERENTIALS
+1. Obstructed external hernia (though no clinical evidence on examination)
+2. Small bowel volvulus
+3. Early strangulation
+4. Paralytic ileus (less likely given high-pitched bowel sounds)
+5. Internal hernia
+
+PLAN
+
+1. IMMEDIATE RESUSCITATION
+
+Admission:
+- Admit into surgical ward
+- Nil per os (NPO)
+- Inform consultant surgeon
+
+Intravenous Access and Fluid Resuscitation:
+- Insert two wide-bore IV cannulas (16G or 18G)
+- Commence IV Ringer's lactate:
+  • 1 litre over 1 hour (rapid initial resuscitation)
+  • Then 1 litre over next 2 hours
+  • Reassess haemodynamic status (BP, pulse, urine output)
+- Continue with maintenance IV fluids:
+  • 2-3 litres/24 hours based on urine output and electrolyte results
+  • Replace ongoing losses (NG output, third space losses)
+- Target BP >100/60 mmHg, pulse <100 bpm, urine output ≥0.5 mL/kg/hr
+
+Nasogastric Decompression:
+- Insert nasogastric tube (large bore, 16-18 Fr)
+- Document initial aspirate:
+  • Volume
+  • Nature (bilious/feculent)
+- Free drainage or intermittent suction
+- Monitor and record NG output 4-hourly
+- Reduces vomiting risk and aspiration
+- Provides symptomatic relief
+
+Urinary Catheterization:
+- Insert urethral catheter (Foley catheter 16-18 Fr)
+- Strict input/output monitoring
+- Target urine output at least 0.5 mL/kg/hour
+- For 70 kg patient: approximately 35 mL/hour or 840 mL/24 hours
+
+2. MONITORING
+
+Clinical monitoring:
+- Vital signs 4-hourly (temperature, pulse, BP, RR, SpO₂)
+- Strict fluid balance chart
+- Serial abdominal examinations every 4–6 hours
+  • Watch for development of peritoneal signs
+  • Increasing tenderness
+  • Guarding or rigidity
+  • Change in bowel sounds
+- Monitor NG output volume and character
+- Daily weight
+
+Watch for signs of strangulation/deterioration:
+- Worsening pain (becoming constant rather than colicky)
+- Fever (>38°C)
+- Persistent tachycardia (>110 bpm) despite fluid resuscitation
+- Worsening hypotension
+- Peritoneal signs (guarding, rebound tenderness, rigidity)
+- Reduced or absent bowel sounds
+- Leucocytosis
+- Metabolic acidosis
+
+3. INVESTIGATIONS
+
+Laboratory (URGENT):
+- Full blood count
+  • Baseline Hb, WBC (leucocytosis suggests strangulation/perforation)
+  • Haematocrit (assess hydration status)
+- Urea, electrolytes, creatinine
+  • Assess renal function
+  • Electrolyte imbalances (hypokalaemia, hyponatraemia common with vomiting and NG losses)
+- Random blood glucose
+- Serum lactate (if available)
+  • Elevated lactate suggests bowel ischaemia
+  • Serial measurements helpful
+- Blood group and crossmatch (2–4 units)
+  • In case surgical intervention required
+
+Imaging:
+
+Abdominal X-ray (Erect and Supine) - URGENT:
+Expected findings in small bowel obstruction:
+- Multiple air-fluid levels on erect film
+- Dilated small bowel loops (>3 cm diameter) on supine film
+- Valvulae conniventes extending across full width of bowel
+- String of pearls sign (small gas bubbles trapped between valvulae)
+- Absence of gas in rectum and distal colon
+- Central location of dilated loops
+
+Abdominal Ultrasound:
+- Dilated fluid-filled bowel loops
+- To-and-fro peristalsis
+- Free fluid in peritoneal cavity
+- May identify transition point
+
+CT Abdomen with Contrast (if patient remains stable and no improvement):
+- Gold standard for diagnosis
+- Identifies level and cause of obstruction
+- Detects complications (ischaemia, closed loop, perforation)
+- Identifies transition point
+- Can differentiate simple vs strangulated obstruction
+- Pre-operative planning
+
+Chest X-ray:
+- Rule out pneumoperitoneum (free gas under diaphragm suggests perforation)
+- Assess for aspiration pneumonia
+
+4. MEDICATIONS
+
+Antibiotics (Empirical broad-spectrum coverage):
+- IV Ceftriaxone 1 g 12 hourly
+- IV Metronidazole 500 mg 8 hourly
+
+Rationale:
+- Prophylaxis against bacterial translocation
+- Cover in case of early/missed strangulation
+- Pre-operative prophylaxis if surgery needed
+
+Analgesia:
+- IV Paracetamol 1 g 8 hourly
+- Consider adding:
+  • IV Tramadol 50-100 mg 8 hourly (if needed for severe pain)
+- Avoid strong opioids initially (may mask peritoneal signs)
+- Once decision for conservative vs surgical management clear, provide adequate analgesia
+
+Antiemetic:
+- IV Ondansetron 4 mg 8 hourly
+- Reduces nausea and vomiting
+- Safe in intestinal obstruction
+
+Electrolyte Replacement:
+- Correct hypokalaemia (common with vomiting and NG losses)
+- Add KCl to IV fluids if K⁺ <3.5 mmol/L and urine output adequate
+- Monitor and replace as needed based on results
+
+5. CONSERVATIVE MANAGEMENT
+
+Initial approach: Conservative (non-operative) management
+
+Indications for conservative management:
+- Partial small bowel obstruction
+- Adhesive small bowel obstruction without signs of strangulation
+- No peritoneal signs on examination
+- First episode in patient with previous abdominal surgery
+- Patient haemodynamically stable
+
+Components:
+- Nil per os
+- IV fluid resuscitation
+- NG decompression
+- Close monitoring
+- Serial clinical and laboratory assessments
+
+Duration: 24–48 hours (up to 72 hours in highly selected cases)
+
+Criteria for success of conservative management:
+- Resolution of pain
+- Passage of flatus/stool
+- Reduction in abdominal distension
+- Reduction in NG output
+- Normalization of vital signs
+- Tolerance of oral fluids/diet
+- Improvement in radiological findings
+
+6. INDICATIONS FOR SURGICAL INTERVENTION
+
+Absolute indications (operate immediately after resuscitation):
+- Signs of peritonitis:
+  • Guarding
+  • Rebound tenderness
+  • Board-like rigidity
+- Signs of strangulation:
+  • Fever (>38°C)
+  • Persistent tachycardia (>110 bpm) despite resuscitation
+  • Constant severe pain (loss of colicky nature)
+  • Leucocytosis (WBC >15,000)
+  • Metabolic acidosis
+  • Elevated lactate (>2.5 mmol/L)
+- Pneumoperitoneum (perforation)
+- Clinical deterioration despite resuscitation
+
+Relative indications (if conservative management fails):
+- Persistent pain
+- Failure of conservative management after 24–48 hours:
+  • No passage of flatus/stool
+  • Persistent or increasing NG output
+  • No reduction in abdominal distension
+- Worsening clinical condition
+- Radiological evidence of complete obstruction
+- Closed-loop obstruction on imaging
+
+7. SURGICAL MANAGEMENT (IF INDICATED)
+
+Pre-operative preparation:
+- Optimize fluid and electrolyte balance
+- Correct anaemia if severe and time permits
+- Continue broad-spectrum antibiotics
+- NBM (already instituted)
+- Continue NG decompression
+- Informed consent
+
+Procedure: Exploratory Laparotomy
+
+Approach:
+- Midline laparotomy (provides good access)
+
+Objectives:
+- Confirm diagnosis
+- Identify cause and level of obstruction
+- Lyse adhesions (adhesiolysis)
+- Assess bowel viability
+- Resect non-viable segments if present
+- Prevent recurrence if possible
+
+Intra-operative findings (expected):
+- Adhesive bands causing obstruction
+- Dilated proximal bowel
+- Collapsed distal bowel
+
+Procedures:
+- Adhesiolysis (division of adhesive bands)
+- If non-viable bowel found:
+  • Resection of affected segment
+  • Primary anastomosis (if viable bowel ends, no contamination)
+  • Temporary stoma (if contamination, poor viability, unstable patient)
+
+Post-operative care:
+- HDU/ICU monitoring if indicated
+- Continue NG decompression until bowel function returns:
+  • Passage of flatus
+  • Bowel sounds present
+  • Reduced NG output
+- Continue IV fluids until adequate oral intake
+- Gradually introduce oral fluids → diet
+- Early mobilization
+- Thromboprophylaxis: Enoxaparin 40 mg SC daily once stable
+
+Monitor for post-operative complications:
+- Anastomotic leak
+- Wound infection
+- Intra-abdominal abscess
+- Prolonged ileus
+- Pneumonia
+- DVT/PE
+- Recurrent obstruction
+
+8. PATIENT AND FAMILY COUNSELLING
+
+Explained to patient and relatives:
+- Diagnosis: Bowel blockage (intestinal obstruction) most likely due to adhesions (scar tissue) from previous surgery
+- Current treatment plan:
+  • Initial conservative (non-surgical) management
+  • Close monitoring for 24-48 hours
+  • Surgery if condition worsens or does not improve
+
+Discussed possible need for surgery:
+- Exploratory laparotomy to identify and relieve obstruction
+- May require bowel resection if part of bowel is damaged
+- Possible stoma formation (temporary or permanent) if:
+  • Extensive bowel damage
+  • Contamination present
+  • Patient unstable
+
+Risks and complications discussed:
+- Bowel resection
+- Stoma formation
+- Anastomotic leak
+- Wound infection
+- Prolonged recovery
+- Adhesions (risk of recurrence)
+- Death (rare but possible, especially if strangulation)
+
+Emphasized:
+- Need for close monitoring
+- Importance of reporting worsening symptoms
+- High success rate with early intervention
+
+9. CONSENT
+
+- Informed consent to be obtained if conservative management fails and surgery indicated
+- Include possibility of:
+  • Exploratory laparotomy
+  • Adhesiolysis
+  • Bowel resection
+  • Stoma formation
+
+10. PROGNOSIS
+
+Fair prognosis given:
+- Early presentation (3 days)
+- No current clinical signs of strangulation
+- No peritonitis
+- Haemodynamically stable (responds to resuscitation)
+- Previous episode-free interval
+
+Favourable factors:
+- Young age (52 years)
+- No significant comorbidities
+- Early intervention
+- Likely simple adhesive obstruction
+
+Expected outcomes:
+- 60-80% success rate with conservative management in adhesive SBO
+- If surgery required: good outcome expected with timely intervention
+- Risk of recurrence: 10-30% over lifetime (adhesions can reform)
+
+Mortality:
+- Simple adhesive SBO: <2%
+- If strangulation develops: 10-15%
+- If delayed presentation with perforation: >25%
+
+FOLLOW-UP
+
+If conservative management successful:
+- Outpatient surgical clinic follow-up in 2 weeks
+- Dietary advice (high-fibre diet, adequate fluids)
+- Counsel on warning signs of recurrence
+- Advise early presentation if symptoms recur
+
+If surgical intervention performed:
+- Post-operative follow-up in surgical clinic at:
+  • 2 weeks (wound check, stitch removal)
+  • 6 weeks (assess recovery)
+  • 3 months (assess for complications)
+- If stoma created: stoma care training and follow-up
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-17',
+  title: 'Acute Large Bowel Obstruction Secondary to Suspected Colorectal Carcinoma',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery/Surgical Oncology',
+  condition: 'Acute large bowel obstruction secondary to suspected left-sided colorectal carcinoma (likely sigmoid colon)',
+  symptoms: [
+    'Abdominal pain for 5 days (gradual onset, dull then colicky)',
+    'Abdominal swelling for 4 days',
+    'Failure to pass stool and gas for 3 days',
+    'Vomiting for 2 days (initially non-bilious, later feculent)',
+    'History of chronic constipation for several months',
+    'Progressive reduction in stool calibre over 6 months',
+    'Significant unintentional weight loss (~8 kg in 4 months)',
+    'Reduced appetite and easy fatigability',
+    'Markedly distended abdomen (more pronounced in lower abdomen)',
+    'Firm irregular mass palpable in left iliac fossa',
+    'Fever (38.1°C)',
+    'Tachycardia (112 bpm)',
+    'Hypotension (95/60 mmHg)',
+    'Moderate dehydration',
+    'Mild pallor',
+    'Reduced bowel sounds',
+    'Empty rectum on DRE'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-02-27',
+  summary: 'A 68-year-old retired teacher presenting with acute large bowel obstruction characterized by 5 days of abdominal pain, progressive distension, absolute constipation (3 days), and feculent vomiting. Significant red flag features include 6-month history of progressive reduction in stool calibre, chronic constipation, 8 kg unintentional weight loss over 4 months, and a palpable left iliac fossa mass. Clinical presentation highly suggestive of obstructing left-sided colorectal carcinoma (likely sigmoid colon). Patient is febrile, tachycardic, hypotensive, and moderately dehydrated. Requires urgent resuscitation, imaging, and surgical intervention (likely Hartmann\'s procedure).',
+  content: `
+GENERAL SURGERY/SURGICAL ONCOLOGY
+
+Patient Seen: 68-year-old female, retired teacher
+Address: Surulere, Lagos State
+Marital status: Widow
+Informant: Patient and daughter (both reliable)
+Date/Time of clerking: 26/02/2026, 7:10 pm
+
+PRESENTING COMPLAINTS
+Abdominal pain × 5 days
+Abdominal swelling × 4 days
+Failure to pass stool and gas × 3 days
+Vomiting × 2 days
+
+HISTORY OF PRESENTING ILLNESS
+Patient was apparently well until 5 days ago when she developed abdominal pain. Pain was gradual in onset, dull initially, located in the lower abdomen, later became colicky and more generalized. Pain is intermittent and associated with abdominal bloating.
+
+Four days ago, she noticed progressive abdominal swelling which has worsened.
+
+She has not passed stool or gas for 3 days. Prior to completely not passing stool, she has been having on and off constipation for several months, for which she was prescribed laxatives at a local pharmacy store.
+
+She also noticed the calibre of the stool had become progressively smaller over the past 6 months (pencil-thin stools).
+
+Vomiting started 2 days ago. Initially non-bilious, later became feculent. Occurs 2–3 times daily.
+
+There is associated history of significant weight loss over the past 4 months, reduced appetite, and easy fatigability.
+
+No history of previous abdominal surgery.
+No history of external hernia.
+No history of trauma.
+
+
+PAST MEDICAL HISTORY
+Known hypertensive for 8 years, on Amlodipine 10 mg daily
+No history of diabetes mellitus
+No previous history of tuberculosis
+
+PAST SURGICAL HISTORY
+No prior surgeries
+
+DRUG HISTORY
+On Amlodipine 10 mg daily
+Occasional use of herbal laxatives
+No known drug allergies
+
+FAMILY HISTORY
+No known family history of colorectal cancer
+
+SOCIAL HISTORY
+Non-smoker
+No alcohol use
+Diet low in fibre, high in refined carbohydrates
+
+REVIEW OF SYSTEMS
+General: Significant unintentional weight loss (~8 kg in 4 months), no night sweats
+Cardiorespiratory: No cough, no chest pain
+Genitourinary: No urinary symptoms
+No per rectal bleeding mentioned (should specifically ask)
+No change in bowel habits other than constipation
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Elderly woman, chronically ill-looking, mildly pale, moderately dehydrated
+
+Vital Signs:
+Temperature: 38.1°C (febrile)
+Pulse: 112 bpm, regular, low volume
+Blood pressure: 95/60 mmHg (hypotensive)
+Respiratory rate: 24 cycles/min (tachypnoeic)
+SpO₂: 97% on room air
+
+Dry mucous membranes
+Mild conjunctival pallor
+No jaundice
+No pedal oedema
+No peripheral lymphadenopathy
+No supraclavicular lymphadenopathy
+
+Abdominal Examination:
+
+Inspection:
+- Abdomen markedly distended, more pronounced in lower abdomen
+- Shiny abdominal wall (suggests significant distension)
+- No visible peristalsis
+- No surgical scars
+- No visible hernia
+
+Palpation:
+- Abdomen distended and tense
+- Mild generalized tenderness, more in left lower quadrant
+- No rebound tenderness
+- Firm irregular mass palpable in left iliac fossa, mildly tender (CRITICAL FINDING)
+- Hernial orifices intact
+
+Percussion:
+- Tympanitic note over most of abdomen
+
+Auscultation:
+- Reduced bowel sounds (suggests late obstruction)
+
+Digital Rectal Examination:
+- Rectum empty
+- No palpable low rectal mass
+- No blood on examining finger (should note if specifically tested for occult blood)
+
+Other Systems:
+- Chest clear
+- Heart sounds S1 and S2 only
+
+WORKING DIAGNOSIS
+Acute large bowel obstruction secondary to suspected left-sided colorectal carcinoma (likely sigmoid colon)
+
+Features supporting malignant obstruction:
+- Elderly patient (68 years)
+- Progressive reduction in stool calibre (6 months)
+- Chronic constipation (several months)
+- Significant unintentional weight loss (8 kg in 4 months)
+- Reduced appetite
+- Palpable left iliac fossa mass (firm, irregular)
+- Feculent vomiting (suggests complete obstruction)
+- Late presentation
+
+DIFFERENTIALS
+1. Sigmoid volvulus (less likely given mass and weight loss)
+2. Diverticular stricture (possible but mass less typical)
+3. Severe fecal impaction (unlikely given mass and systemic features)
+4. Colonic tuberculosis (less common but consider in Nigerian setting)
+
+PLAN
+
+1. IMMEDIATE RESUSCITATION (EMERGENCY)
+
+Admission:
+- Admit to surgical ward (HDU bed if available)
+- Inform consultant surgeon immediately
+- Nil per os (NPO)
+
+Patient is in shock (hypotensive, tachycardic, febrile):
+- This is a surgical emergency
+- Likely sepsis from bacterial translocation or early perforation
+
+Aggressive Fluid Resuscitation:
+- Insert two wide-bore IV cannulas (16G or 14G)
+- Commence IV 0.9% Normal Saline:
+  • 1 litre rapidly over 30 minutes
+  • Then 1 litre over next hour
+  • Reassess haemodynamic status
+- Continue guided by:
+  • Urine output (target ≥0.5 mL/kg/hr)
+  • Blood pressure (target MAP ≥65 mmHg, SBP >100 mmHg)
+  • Heart rate
+  • Electrolyte results
+- May require 3-4 litres in first 6 hours
+
+Blood Pressure Management:
+- If hypotension persists despite 2 litres fluid resuscitation:
+  • Consider vasopressor support (Norepinephrine infusion)
+  • Transfer to HDU/ICU
+- Continue antihypertensive (Amlodipine) only after BP stabilizes
+
+Nasogastric Decompression:
+- Insert nasogastric tube (large bore, 16-18 Fr)
+- Document aspirate volume and nature
+- Free drainage or intermittent suction
+- Reduces risk of aspiration
+- May be feculent in distal obstruction
+
+Urinary Catheterization:
+- Insert urethral catheter (Foley catheter)
+- Strict input/output monitoring
+- Target urine output at least 0.5 mL/kg/hour (approximately 30 mL/hr)
+
+2. MONITORING
+
+Intensive monitoring due to sepsis and shock:
+- Vital signs hourly initially
+- Continuous pulse oximetry
+- Strict fluid balance chart
+- Serial abdominal examination every 2-4 hours
+  • Watch for peritoneal signs (suggests perforation)
+  • Increasing tenderness
+  • Rigidity
+- Monitor for deterioration requiring urgent surgery
+
+3. INVESTIGATIONS
+
+Laboratory (URGENT):
+- Full blood count
+  • Anticipate anaemia (chronic blood loss from tumour)
+  • Leucocytosis (sepsis)
+  • Thrombocytosis (malignancy)
+- Urea, electrolytes, creatinine
+  • Assess renal function
+  • Hypokalaemia, hyponatraemia common
+- Liver function tests
+  • Screen for liver metastases
+  • Albumin (nutritional status, pre-operative risk)
+- Random blood glucose
+- Serum lactate (if available)
+  • Elevated suggests bowel ischaemia or sepsis
+  • Prognostic marker
+- Coagulation profile (PT/INR, aPTT)
+- Blood group and crossmatch (at least 4 units PRBC)
+  • Major surgery anticipated
+  • Anaemia likely
+
+Imaging:
+
+Abdominal X-ray (Erect and Supine) - URGENT:
+Expected findings in large bowel obstruction:
+- Markedly dilated large bowel (>6 cm, caecum >9 cm)
+- Peripheral location of dilated bowel
+- Haustra (incomplete, do not cross full width)
+- Collapsed distal colon (if complete obstruction)
+- Absence of gas in rectum
+- Air-fluid levels (erect film)
+- Coffee bean sign (if sigmoid volvulus)
+
+Abdominal Ultrasound:
+- Dilated bowel loops
+- Free fluid
+- May identify mass lesion
+- Assess for liver metastases
+- Limited by bowel gas
+
+CT Scan Abdomen and Pelvis with IV Contrast (URGENT if patient stable):
+- Gold standard investigation
+- Confirms level and cause of obstruction
+- Identifies transition point
+- Characterizes mass (size, location, local invasion)
+- Staging:
+  • Liver metastases
+  • Peritoneal deposits
+  • Lymphadenopathy
+- Assesses for perforation or ischaemia
+- Guides surgical planning
+
+Chest X-ray:
+- Pre-operative assessment
+- Rule out pneumoperitoneum
+- Screen for lung metastases
+
+Tumour Markers (once patient stable):
+- CEA (Carcinoembryonic Antigen)
+  • Baseline level for monitoring
+  • Elevated in 60-70% of colorectal cancers
+  • Useful for post-operative surveillance
+
+4. MEDICATIONS
+
+Broad-Spectrum Antibiotics (URGENT - sepsis protocol):
+- IV Ceftriaxone 2 g 12 hourly (increased dose for severe sepsis)
+- IV Metronidazole 500 mg 8 hourly
+
+Rationale:
+- Cover for bacterial translocation
+- Sepsis from obstruction
+- Pre-operative prophylaxis
+
+Analgesia:
+- IV Paracetamol 1 g 8 hourly
+- IV Tramadol 50-100 mg 8 hourly PRN
+- Provide adequate pain relief
+
+Antiemetic:
+- IV Ondansetron 4-8 mg 8 hourly
+
+Anti-Thrombotic Prophylaxis (once haemodynamically stable):
+- Enoxaparin 40 mg SC daily
+- High VTE risk (malignancy, surgery, elderly)
+- Start after resuscitation, continue post-operatively
+
+5. DEFINITIVE MANAGEMENT
+
+This is a surgical emergency requiring operative intervention.
+
+Large bowel obstruction from colorectal cancer is an indication for urgent/emergency surgery.
+
+Conservative management NOT appropriate because:
+- Complete obstruction
+- Risk of perforation (caecal diameter critical if >9-12 cm)
+- Malignant obstruction rarely resolves spontaneously
+- Delayed surgery increases morbidity and mortality
+
+Pre-operative Optimization (4-6 hours maximum):
+- Correct dehydration and electrolyte imbalance
+  • Target BP >100/60 mmHg
+  • Urine output >0.5 mL/kg/hr
+  • Correct K⁺, Na⁺ abnormalities
+- Transfuse packed red cells if Hb <8 g/dL
+  • Target Hb >8-9 g/dL before surgery
+- Control blood pressure (resume Amlodipine once BP stable)
+- Optimize oxygenation
+- Inform anaesthetist and theatre
+- ICU bed availability (post-operative care)
+
+Surgical Procedure: Emergency Exploratory Laparotomy
+
+Likely procedure: Hartmann's Procedure (Most common for emergency obstructing left colon cancer)
+
+Steps:
+1. Midline laparotomy
+2. Explore abdomen:
+   - Confirm obstructing sigmoid/left colon tumour
+   - Assess resectability
+   - Look for metastases (liver, peritoneal)
+3. Resection of tumour-bearing segment
+4. Proximal end brought out as end colostomy
+5. Distal rectal stump oversewn and left in pelvis
+6. Send specimen for histopathology
+
+Alternative procedures (situation-dependent):
+- Left hemicolectomy with primary anastomosis
+  • If patient stable, minimal contamination
+  • Younger, fitter patients
+  • Possible with on-table colonic lavage
+- Subtotal colectomy with ileosigmoid/ileorectal anastomosis
+  • If caecal perforation or ischaemia
+- Defunctioning proximal colostomy only
+  • If tumour unresectable
+  • Patient too unstable for resection
+  • Palliative
+
+Hartmann's reversal:
+- Second-stage procedure to restore bowel continuity
+- Usually 3-6 months later
+- Only if patient fit and no metastatic disease
+- Many patients (especially elderly) remain with permanent colostomy
+
+6. POST-OPERATIVE MANAGEMENT
+
+Immediate post-operative:
+- ICU/HDU care (likely for 24-48 hours)
+- Mechanical ventilation if needed
+- Continue IV fluids, antibiotics
+- NG decompression until bowel function returns
+- Urinary catheter
+- Pain management (epidural or IV opioids)
+- Thromboprophylaxis
+
+Continue monitoring for complications:
+- Anastomotic leak (if primary anastomosis performed)
+- Wound infection
+- Intra-abdominal abscess
+- Ileus
+- Stoma complications
+- Chest infection
+- DVT/PE
+- Cardiac events
+
+Stoma Care:
+- Stoma nurse referral
+- Patient and family education on stoma management
+- Psychological support
+
+Nutritional Support:
+- Gradual introduction of diet
+- High-protein, high-calorie diet
+- Nutritional supplements if needed
+
+7. ONCOLOGICAL MANAGEMENT (AFTER HISTOLOGY)
+
+Histopathology will confirm:
+- Tumour type (adenocarcinoma most common)
+- Grade (well, moderate, poorly differentiated)
+- Stage (TNM staging):
+  • T: Depth of invasion
+  • N: Lymph node involvement
+  • M: Distant metastases
+- Resection margins (R0, R1, R2)
+- Lymphovascular invasion
+- Perineural invasion
+
+Staging: TNM Classification
+- Stage I: T1-2, N0, M0
+- Stage II: T3-4, N0, M0
+- Stage III: Any T, N+, M0
+- Stage IV: Any T, Any N, M1
+
+Post-operative Adjuvant Therapy:
+
+Chemotherapy (if Stage III or high-risk Stage II):
+- FOLFOX regimen (5-FU, Leucovorin, Oxaliplatin)
+- Usually 6 months duration
+- Improves survival
+
+Radiotherapy:
+- For rectal cancers
+- Not typically for colon cancers
+
+Oncology Referral:
+- Refer to medical oncology
+- Discuss at multidisciplinary tumour board
+- Consider palliative care if Stage IV
+
+8. PATIENT AND FAMILY COUNSELLING
+
+Pre-operative counselling (urgent - before surgery):
+
+Diagnosis:
+- Suspected colon cancer causing bowel blockage
+- Need for urgent surgery to prevent complications:
+  • Perforation
+  • Sepsis
+  • Death
+
+Surgery explained:
+- Emergency exploratory laparotomy
+- Removal of tumour-bearing segment of colon
+- Likely need for colostomy (stoma):
+  • Opening of bowel onto abdominal wall
+  • Stool collection in bag
+  • May be temporary or permanent
+  • Reversal possible in some cases (3-6 months later)
+
+Risks discussed:
+- Bleeding (may need transfusion)
+- Infection (wound, intra-abdominal)
+- Anastomotic leak (if primary anastomosis)
+- Damage to surrounding structures (ureter, bladder)
+- Need for ICU care
+- Prolonged hospital stay
+- Need for further cancer treatment
+- Mortality risk (5-15% in emergency setting)
+
+Post-operative:
+- Histology results in 7-10 days
+- Staging to determine further treatment
+- Possible chemotherapy
+- Long-term follow-up
+- Support groups for patients with stomas
+
+9. PROGNOSIS
+
+Emergency presentation with obstruction worsens prognosis:
+- Often advanced stage at presentation
+- Higher perioperative mortality
+- More complications
+
+Factors affecting prognosis:
+- Stage at diagnosis (most important)
+- Tumour grade
+- Resection margins
+- Patient age and comorbidities
+- Emergency vs elective surgery
+- Presence of perforation
+
+Expected outcomes:
+
+Perioperative:
+- Mortality: 10-20% (emergency obstructing colon cancer)
+- Morbidity: 30-50% (wound infection, ileus, etc.)
+
+Long-term (depends on stage):
+- Stage I: 5-year survival ~90%
+- Stage II: 5-year survival ~70-80%
+- Stage III: 5-year survival ~50-60%
+- Stage IV: 5-year survival ~10-15%
+
+Emergency presentation often Stage III or IV:
+- Overall 5-year survival 30-40%
+
+With adjuvant chemotherapy:
+- Improved survival by 10-15% in Stage III
+
+10. FOLLOW-UP
+
+Post-operative follow-up:
+- Surgical clinic at 2 weeks (wound check)
+- Histology results discussion at 2-3 weeks
+- Oncology referral based on staging
+
+Long-term surveillance (if curative resection):
+- Clinical examination every 3-6 months for 2 years
+- Then every 6 months for 3 years
+- CEA monitoring every 3 months for 2 years
+- Colonoscopy at 1 year (if colon in continuity)
+- CT chest/abdomen/pelvis annually for 3 years
+
+Consider Hartmann's reversal at 3-6 months if:
+- Patient recovers well
+- No metastatic disease
+- Patient desires restoration of continuity
+- Fit for further surgery
+
+CONSENT
+- Informed consent for emergency exploratory laparotomy
+- Include possibility of:
+  • Bowel resection
+  • Colostomy formation (likely)
+  • Extended resection if needed
+  • ICU admission
+
+PROGNOSIS SUMMARY
+Guarded, given:
+- Advanced age (68 years)
+- Delayed presentation (emergency obstruction)
+- High likelihood of advanced stage (weight loss, mass)
+- Emergency surgery carries higher risk
+
+However:
+- Early surgical intervention after resuscitation crucial
+- Potential for cure if no distant metastases
+- Quality of life can be good with modern stoma care
+- Adjuvant chemotherapy improves outcomes
+`,
+bookmarkCount: 0
+},
+  {
+  id: 'surg-18',
   title: 'Acute Appendicitis in a Young Male',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery / Surgical Emergency',
@@ -9160,160 +12280,6 @@ PROGNOSIS
 Guarded for both mother and fetus. Maternal prognosis depends on BP control, absence of end-organ damage, and prevention of eclampsia. Fetal prognosis is cautious given preterm gestation (28 weeks + 5 days) and risk of growth restriction; survival is significantly improved with corticosteroid administration and availability of neonatal intensive care. Multidisciplinary approach is essential.
 
 Review: Continuous inpatient review; reassess BP response to IV Labetalol within 30–60 minutes. Daily ward round by obstetric team. Medical team review as requested.
-  `,
-  bookmarkCount: 0
-},
-{
-  id: 'im-8',
-  title: 'Newly Diagnosed Type 2 Diabetes Mellitus (Non-Obese Phenotype)',
-  specialty: 'Internal Medicine',
-  subSpecialty: 'Endocrinology / Diabetology Clinic',
-  condition: 'Newly diagnosed Type 2 Diabetes Mellitus with symptomatic hyperglycaemia',
-  symptoms: [
-    'Polyuria',
-    'Polydipsia',
-    'Nocturia',
-    'Unintentional weight loss',
-    'Blurred vision',
-    'Normal BMI (non-obese phenotype)',
-    'Positive family history of T2DM',
-  ],
-  contributor: 'Admin',
-  lastModified: '2026-03-08',
-  summary: 'A 45-year-old male secondary school teacher presenting with a 3-month history of unintentional weight loss and a 2-month history of polyuria, polydipsia, and nocturia, with 3 weeks of blurred vision. Fasting plasma glucose 158 mg/dL, random glucose 248 mg/dL, and 2-hour postprandial glucose 286 mg/dL — diagnostic of Type 2 Diabetes Mellitus. BMI is normal at 21.0 kg/m²; no evidence of acute metabolic decompensation or chronic complications at presentation. Positive maternal family history of T2DM. LADA to be considered given non-obese phenotype, relatively young age, and symptomatic weight loss.',
-  content: `
-ENDOCRINOLOGY / DIABETOLOGY CLINIC
-
-Patient seen: 45-year-old male secondary school teacher. Informant: patient (reliable).
-
-PRESENTING COMPLAINTS
-Polyuria × 2 months
-Polydipsia × 2 months
-Unintentional weight loss × 3 months
-Blurred vision × 3 weeks
-
-HISTORY OF PRESENTING COMPLAINT
-Patient was apparently well until approximately 3 months prior to presentation (PTP) when he began to notice gradual weight loss despite preserved appetite, with clothes becoming noticeably loose-fitting. Two months PTP he developed increased urinary frequency including nocturia (4–5 times nightly), with increased urine volumes and no associated dysuria or haematuria, alongside excessive thirst requiring frequent water intake. Over the past 3 weeks he has had intermittent blurring of vision.
-
-No history of abdominal pain, vomiting, deep rapid breathing, or altered level of consciousness. No history of recurrent skin infections or genital itching. No numbness, tingling of the feet, or foot ulcers. No history of steroid use. This is his first evaluation for hyperglycaemia.
-
-PAST MEDICAL HISTORY
-Not a known hypertensive. No known dyslipidaemia. No previous admissions for hyperglycaemia. No history of chronic kidney disease.
-
-DRUG HISTORY
-No regular medications. No herbal use. No known drug allergies.
-
-FAMILY HISTORY
-Mother has Type 2 Diabetes Mellitus. No family history of Type 1 DM or premature cardiovascular disease in first-degree relatives.
-
-SOCIAL HISTORY
-Non-smoker. Occasional alcohol intake. Diet moderate in carbohydrates. Not sedentary — walks regularly but no structured exercise programme.
-
-REVIEW OF SYSTEMS
-Cardiovascular: no chest pain or dyspnoea.
-Neurological: no focal weakness.
-Renal: no frothy urine.
-GIT: no abdominal pain.
-
-PHYSICAL EXAMINATION
-General: Middle-aged man, conscious, alert, and oriented. Not pale, not icteric, not cyanosed, not dehydrated. No pedal oedema.
-
-Anthropometry:
-Weight: 62 kg
-Height: 1.72 m
-BMI: 21.0 kg/m² (normal)
-Waist circumference: 82 cm
-
-Vital Signs:
-BP: 128/78 mmHg
-PR: 82 bpm, regular
-RR: 16 cpm
-Temperature: 36.8°C
-
-Cardiovascular System: S1 and S2 heard; no murmurs.
-Respiratory System: Clear breath sounds bilaterally.
-Abdominal Examination: Soft, non-tender; no organomegaly.
-Neurological Examination: No focal deficits. Peripheral sensation intact to light touch and vibration.
-Foot Examination: No ulcers. Intact peripheral pulses (dorsalis pedis, posterior tibial). Preserved sensation.
-
-AVAILABLE INVESTIGATIONS
-Random plasma glucose: 248 mg/dL (13.8 mmol/L) — diagnostic
-Fasting plasma glucose (repeat): 158 mg/dL (8.8 mmol/L) — diagnostic (≥ 126 mg/dL)
-2-hour postprandial glucose: 286 mg/dL (15.9 mmol/L) — diagnostic (≥ 200 mg/dL)
-
-ASSESSMENT
-1. Newly diagnosed Type 2 Diabetes Mellitus (T2DM) with symptomatic hyperglycaemia.
-   Basis: classic triad of polyuria, polydipsia, and weight loss; fasting glucose ≥ 126 mg/dL; random glucose ≥ 200 mg/dL with symptoms; 2-hour postprandial glucose ≥ 200 mg/dL. No clinical evidence of diabetic ketoacidosis (DKA). No chronic complications identified at presentation.
-
-Notable features warranting close surveillance:
-Normal BMI (21.0 kg/m²) — non-obese phenotype; relatively young age (45 years); symptomatic presentation with weight loss; positive maternal history. If glycaemic control is difficult with oral agents, early insulin requirement occurs (< 5 years), or progressive beta-cell failure is observed — Latent Autoimmune Diabetes in Adults (LADA) or atypical diabetes (MODY, secondary) should be actively considered. GAD antibodies and C-peptide levels to be checked in such circumstances.
-
-MANAGEMENT PLAN
-
-Baseline Investigations:
-HbA1c — to assess average glycaemic control over the preceding 2–3 months and guide therapy intensity.
-Fasting lipid profile (total cholesterol, LDL, HDL, triglycerides) — cardiovascular risk assessment.
-EUCr and eGFR — renal function; essential before metformin initiation and dose escalation.
-Urinalysis and urine albumin-creatinine ratio (uACR) — screen for early diabetic nephropathy.
-Liver function tests (LFTs) — baseline hepatic assessment before commencing metformin.
-FBC — baseline haematological assessment.
-ECG — baseline cardiovascular assessment.
-Thyroid function tests (TFTs) — if clinically indicated.
-GAD antibodies and C-peptide level — to be requested if glycaemic control is difficult or early insulin requirement develops, to evaluate for LADA.
-
-Lifestyle Modification (Foundation of Management):
-
-Medical Nutrition Therapy:
-Moderate carbohydrate intake (45–55% of total calories) with emphasis on complex carbohydrates — whole grains, legumes, unripe plantain. Reduce simple sugars (sweets, pastries, sugary drinks, fruit juices). Increase vegetables and dietary fibre. Include lean protein; reduce saturated fats. Regular meal times (3 main meals ± 2–3 snacks); avoid skipping meals; portion control. Dietician referral recommended.
-
-Exercise:
-At least 150 minutes per week of moderate-intensity aerobic activity (brisk walking, jogging, cycling). Resistance training 2–3 times weekly to improve insulin sensitivity. Lifestyle optimisation is essential even in the absence of obesity.
-
-Other:
-Stress management, adequate sleep (7–8 hours nightly), limited alcohol intake, weight maintenance.
-
-Pharmacological Therapy:
-
-First-line: Metformin (no contraindications identified pending renal function results).
-Week 1: Metformin 500 mg orally once daily with the evening meal.
-Week 2: Increase to 500 mg BD (with breakfast and dinner) if tolerated.
-Weeks 3–4: Increase to 1 g BD (maximum dose 2 g/day), titrating based on glycaemic response, tolerability, and eGFR.
-Take with meals to minimise GI side effects (nausea, diarrhoea, abdominal discomfort) — usually self-resolving within 1–2 weeks.
-
-If HbA1c ≥ 9% or fasting glucose persistently > 200 mg/dL after 3 months on maximum-tolerated metformin, consider combination therapy:
-Option 1 (affordable): Add Glimepiride 1 mg once daily before breakfast; titrate to 2–4 mg daily as needed. Counsel on hypoglycaemia recognition and management.
-Option 2 (if affordable): Add Sitagliptin 100 mg once daily — lower hypoglycaemia risk, weight neutral.
-Option 3 (if marked hyperglycaemia or catabolic features persist): Basal insulin — Insulin Glargine 10 units SC at bedtime or NPH Insulin 10 units SC at bedtime; titrate based on fasting glucose. Consider especially if HbA1c > 10% or ongoing weight loss. Early insulin requirement should prompt LADA evaluation.
-
-Glycaemic Monitoring:
-Self-monitoring of blood glucose (SMBG) where feasible: fasting (pre-breakfast), 2 hours post largest meal, when symptomatic.
-Targets: fasting/pre-meal 80–130 mg/dL (4.4–7.2 mmol/L); 2-hour postprandial < 180 mg/dL (< 10.0 mmol/L).
-HbA1c target: < 7% (53 mmol/mol) — individualised. Check every 3 months until controlled, then 6-monthly if stable. Patient to maintain glucose diary/logbook.
-
-Cardiovascular Risk Management:
-BP target: < 130/80 mmHg. Current BP 128/78 mmHg — acceptable; monitor at each visit.
-Fasting lipid profile pending — if LDL ≥ 100 mg/dL: Atorvastatin 20 mg nocte; target LDL < 100 mg/dL (primary prevention) or < 70 mg/dL if high cardiovascular risk.
-Aspirin 75 mg daily — consider if age > 50 years with additional CV risk factors or 10-year CV risk > 10%, and no bleeding contraindication.
-
-Complication Screening (at diagnosis and periodically):
-Retinopathy: dilated fundoscopy by ophthalmologist at diagnosis, then annually — urgent given current blurred vision; ophthalmology referral to be made promptly.
-Nephropathy: annual uACR; if microalbuminuria detected, commence ACE inhibitor or ARB.
-Neuropathy: comprehensive foot examination at every clinic visit — inspection, 10 g monofilament testing, vibration sense (128 Hz tuning fork), ankle reflexes, peripheral pulses. Annual detailed assessment.
-Cardiovascular: ECG at diagnosis; consider stress testing if high risk or symptomatic.
-
-Patient Education:
-Explained T2DM as a chronic but controllable condition requiring lifelong management — not curable but preventable in terms of complications. Emphasised this applies equally despite normal body weight. Counselled on microvascular complications (retinopathy, nephropathy, neuropathy) and macrovascular complications (heart attack, stroke, peripheral vascular disease) if poorly controlled.
-
-Hypoglycaemia (especially if sulfonylurea or insulin is later added): symptoms include sweating, tremors, palpitations, hunger, and dizziness; management — 15 g fast-acting carbohydrate (3 glucose tablets, sugar dissolved in water, or fruit juice); prevented by regular meals and avoiding meal-skipping.
-
-Sick-day rules: continue medications even with reduced oral intake; monitor glucose more frequently; stay hydrated; seek medical attention if vomiting is persistent or glucose is markedly elevated.
-
-Foot care: daily inspection, appropriate footwear, no barefoot walking, prompt attention to minor injuries. Medication adherence: take metformin with meals; do not discontinue without medical advice; report side effects promptly.
-
-PROGNOSIS
-Generally good given early diagnosis prior to development of complications, normal BMI, an active lifestyle, and good health literacy. Prognosis is contingent on strict glycaemic control (HbA1c < 7%), lifestyle adherence, and regular complication screening. The non-obese phenotype at a relatively young age warrants vigilance for LADA — if confirmed, insulin will be required earlier than in typical T2DM. With optimal management, prevention or delay of complications and a normal life expectancy are achievable.
-
-Review: 2–4 weeks to assess metformin tolerability and review glucose logs and investigation results. Monthly thereafter until HbA1c is at target, then every 3–6 months. Annual comprehensive complication screening as outlined above.
   `,
   bookmarkCount: 0
 }

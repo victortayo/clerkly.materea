@@ -1,0 +1,300 @@
+import { useState, useEffect } from 'react';
+import { Template } from '../types';
+import { generateClinicalInsight } from '../services/gemini';
+import { useToast } from '../context/ToastContext';
+import { ClinicalInsightModal } from './ClinicalInsightModal';
+
+interface TemplateDetailProps {
+  template: Template;
+  onBack: () => void;
+  isBookmarked: boolean;
+  onToggleBookmark: () => void;
+}
+
+export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmark }: TemplateDetailProps) {
+  const [copied, setCopied] = useState(false);
+  const [insight, setInsight] = useState<{ 
+    managementPrinciples: string[], 
+    criticalActions: string[], 
+    contraindications: string[], 
+    contextualNotes: string 
+  } | null>(null);
+  const [loadingInsight, setLoadingInsight] = useState(false);
+  const [isInsightModalOpen, setIsInsightModalOpen] = useState(false);
+  const [isEditing, setIsEditing] = useState(false);
+  const [editableContent, setEditableContent] = useState(template.content);
+  const { showToast } = useToast();
+
+  // Reset editable content when template changes
+  if (editableContent !== template.content && !isEditing && editableContent === '') {
+     setEditableContent(template.content);
+  }
+  
+  // Use a ref or effect to handle template prop changes if needed, 
+  // but for now, we'll just initialize. 
+  // Actually, better to use an effect to sync when template changes.
+  useEffect(() => {
+    setEditableContent(template.content);
+    setInsight(null); // Reset insight when template changes
+  }, [template]);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(editableContent);
+    setCopied(true);
+    showToast('Content copied to clipboard');
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleReset = () => {
+    setEditableContent(template.content);
+    showToast('Template reset to original');
+  };
+
+  const handleGetInsight = async () => {
+    setIsInsightModalOpen(true);
+    if (insight) return;
+    
+    setLoadingInsight(true);
+    try {
+      const result = await generateClinicalInsight(template);
+      setInsight(result);
+    } catch (error) {
+      console.error(error);
+      showToast('Failed to generate insight');
+    } finally {
+      setLoadingInsight(false);
+    }
+  };
+
+  return (
+    <div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8 animate-in fade-in slide-in-from-right duration-500">
+      
+      <ClinicalInsightModal 
+        isOpen={isInsightModalOpen}
+        onClose={() => setIsInsightModalOpen(false)}
+        isLoading={loadingInsight}
+        insight={insight}
+        templateTitle={template.title}
+      />
+
+      {/* Floating Back Button */}
+      <button 
+        onClick={onBack}
+        className="fixed bottom-6 left-6 w-12 h-12 rounded-full bg-white/90 dark:bg-slate-800/90 backdrop-blur-md shadow-xl flex items-center justify-center text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-all hover:scale-110 hover:-translate-y-0.5 z-50 group border border-slate-200 dark:border-slate-700"
+        aria-label="Back to templates"
+      >
+        <i className="fa-solid fa-arrow-left group-hover:-translate-x-0.5 transition-transform"></i>
+      </button>
+
+      {/* Header Card */}
+      <div className="relative bg-indigo-950 dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-xl shadow-indigo-900/20 dark:shadow-none border border-indigo-800 dark:border-slate-800 mb-8 overflow-hidden">
+        
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-40 h-40 bg-blue-500/10 rounded-full blur-2xl translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
+
+        <div className="relative flex justify-between items-start gap-4">
+          <div className="flex-1">
+            {/* Specialty Pill (Dynamic Color - Dark Mode Optimized) */}
+            <div className="mb-4">
+              <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wide shadow-sm border ${
+                template.specialty === 'Pediatrics' ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20' :
+                template.specialty === 'Internal Medicine' ? 'bg-blue-500/10 text-blue-300 border-blue-500/20' :
+                template.specialty === 'Obstetrics and Gynecology' ? 'bg-rose-500/10 text-rose-300 border-rose-500/20' :
+                template.specialty === 'Surgery' ? 'bg-orange-500/10 text-orange-300 border-orange-500/20' :
+                'bg-indigo-500/10 text-indigo-300 border-indigo-500/20'
+              }`}>
+                {template.specialty}
+              </span>
+            </div>
+
+            {/* Title */}
+            <h1 className="text-3xl sm:text-4xl font-bold font-brand text-white tracking-tight mb-6">
+              {template.title}
+            </h1>
+            
+            {/* Meta Info: Author & Last Updated */}
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
+                  <i className="fa-solid fa-user-doctor text-xs"></i>
+                </div>
+                <span className="text-sm font-bold text-indigo-50">{template.contributor}</span>
+              </div>
+              
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
+                  <i className="fa-regular fa-clock text-xs"></i>
+                </div>
+                <span className="text-xs text-indigo-200 font-medium">{template.lastModified}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Bookmark Section - Vertical Pill */}
+          <button
+            onClick={onToggleBookmark}
+            className={`group flex flex-col items-center justify-center w-14 py-3 rounded-2xl border transition-all duration-300 ${
+              isBookmarked
+                ? 'bg-white border-white text-indigo-950 shadow-lg shadow-black/20'
+                : 'bg-white/5 border-white/10 text-indigo-300 hover:bg-white/10 hover:border-white/20'
+            }`}
+          >
+            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark text-xl mb-1 transition-transform group-hover:scale-110`}></i>
+            <span className={`text-[10px] font-bold ${isBookmarked ? 'text-indigo-950' : 'text-indigo-300 group-hover:text-white'}`}>
+              {template.bookmarkCount || 0}
+            </span>
+          </button>
+        </div>
+      </div>
+
+      {/* Card Container */}
+      <div className="bg-white dark:bg-slate-900 rounded-2xl sm:rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 overflow-hidden mb-8">
+        {/* Card Header */}
+        <div className="flex flex-col sm:flex-row justify-between items-center px-4 py-3 sm:px-6 sm:py-4 bg-slate-50/50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800 gap-4 sm:gap-0">
+          <div className="flex items-center gap-4 w-full sm:w-auto">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+              {template.subSpecialty}
+            </span>
+            
+            {/* Edit Toggle */}
+            <button
+              onClick={() => setIsEditing(!isEditing)}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${
+                isEditing 
+                  ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300' 
+                  : 'bg-white border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
+              }`}
+            >
+              <i className={`fa-solid ${isEditing ? 'fa-eye' : 'fa-pen-to-square'}`}></i>
+              <span>{isEditing ? 'View' : 'Edit'}</span>
+            </button>
+
+            {/* Reset Button (Only visible when edited) */}
+            {editableContent !== template.content && (
+              <button
+                onClick={handleReset}
+                className="text-xs font-medium text-slate-400 hover:text-rose-500 transition-colors"
+                title="Reset to original template"
+              >
+                Reset
+              </button>
+            )}
+          </div>
+          
+          <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
+            {/* Desktop Insight Button */}
+            <button
+              onClick={handleGetInsight}
+              className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold text-amber-700 bg-amber-50 hover:bg-amber-100 dark:text-amber-400 dark:bg-amber-900/20 dark:hover:bg-amber-900/30 transition-colors"
+              title="Generate Clinical Insight"
+            >
+              <i className="fa-solid fa-lightbulb text-yellow-500"></i>
+              <span>Insight</span>
+            </button>
+
+            {/* Copy Button */}
+            <button
+              onClick={handleCopy}
+              className={`w-8 h-8 flex items-center justify-center rounded-lg transition-colors ${
+                copied 
+                  ? 'text-emerald-600 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20' 
+                  : 'text-slate-300 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:text-indigo-400 dark:hover:bg-indigo-900/20'
+              }`}
+              title="Copy content"
+            >
+              {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
+            </button>
+          </div>
+        </div>
+
+        {/* Content Body */}
+        <div className="p-4 sm:p-8 bg-white dark:bg-slate-900">
+          <div className={`rounded-xl border shadow-inner overflow-hidden transition-all ${
+            isEditing 
+              ? 'bg-white dark:bg-slate-950 border-indigo-200 dark:border-indigo-900 ring-2 ring-indigo-500/20' 
+              : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800'
+          }`}>
+            {isEditing ? (
+              <textarea
+                value={editableContent}
+                onChange={(e) => setEditableContent(e.target.value)}
+                className="w-full h-[60vh] p-4 sm:p-8 font-mono text-[11px] sm:text-xs leading-relaxed text-slate-800 dark:text-slate-200 bg-transparent outline-none resize-none"
+                placeholder="Start typing to edit the template..."
+                autoFocus
+              />
+            ) : (
+              <pre className="p-4 sm:p-8 font-mono text-[11px] sm:text-xs leading-relaxed text-slate-800 dark:text-slate-200 whitespace-pre-wrap overflow-x-auto min-h-[200px]">
+                {editableContent}
+              </pre>
+            )}
+          </div>
+          {isEditing && (
+            <p className="mt-2 text-[10px] text-slate-400 italic text-right">
+              * You are in edit mode. Changes are temporary and will be lost if you leave this page.
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* Tags */}
+      <div className="flex flex-wrap gap-2 mb-8">
+        {template.symptoms.map((symptom) => (
+          <span 
+            key={symptom} 
+            className="px-3 py-1.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-medium text-slate-600 dark:text-slate-300 hover:border-indigo-300 dark:hover:border-indigo-700 transition-colors cursor-default"
+          >
+            {symptom}
+          </span>
+        ))}
+      </div>
+
+      {/* Bottom Actions */}
+      <div className="pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <button 
+          onClick={onBack}
+          className="text-xs font-bold text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors"
+        >
+          Back to templates
+        </button>
+
+        <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
+          {/* Mobile Insight Button */}
+          <button
+            onClick={handleGetInsight}
+            className="sm:hidden w-full px-6 py-3 rounded-xl font-bold text-xs text-amber-700 bg-amber-50 hover:bg-amber-100 dark:text-amber-400 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-800 transition-colors flex items-center justify-center gap-2"
+          >
+            <i className="fa-solid fa-lightbulb text-yellow-500"></i>
+            <span>Generate Insight</span>
+          </button>
+
+          {/* Save Button */}
+          <button
+            onClick={onToggleBookmark}
+            className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs transition-all active:scale-95 flex items-center justify-center gap-2 border ${
+              isBookmarked
+                ? 'bg-indigo-50 border-indigo-200 text-indigo-700 dark:bg-indigo-900/20 dark:border-indigo-800 dark:text-indigo-300'
+                : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-700'
+            }`}
+          >
+            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark`}></i>
+            <span>{isBookmarked ? 'Saved' : 'Save'}</span>
+          </button>
+
+          {/* Copy Button (Primary CTA) */}
+          <button
+            onClick={handleCopy}
+            className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2 ${
+              copied
+                ? 'bg-emerald-600 text-white shadow-emerald-200 dark:shadow-none'
+                : 'bg-indigo-950 text-white shadow-indigo-200 dark:shadow-none hover:bg-indigo-900'
+            }`}
+          >
+            {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
+            <span>{copied ? 'Copied' : 'Copy'}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -649,7 +649,7 @@ Review: Continuous inpatient review by surgical team pre- and post-operatively. 
   bookmarkCount: 0
 },
 
-  // Obstertric and Gynecology
+  // Obstertric & Gynecology
 {
   id: 'ob-1',
   title: 'Chronic Hypertension with Superimposed Severe Pre-Eclampsia at 28 Weeks',

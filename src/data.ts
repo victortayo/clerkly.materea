@@ -2803,7 +2803,7 @@ Address: Panseke, Ogun State
 Informant: Mother (reliable)
 
 PRESENTING COMPLAINT
-Progressive increase in head size × 6 weeks
+Progressive increase in head size × 6/52
 
 HISTORY OF PRESENTING COMPLAINT
 The patient was in his usual state of health until about 6 weeks prior to presentation when the mother noticed progressive enlargement of the head. The enlargement has been gradual and progressive.

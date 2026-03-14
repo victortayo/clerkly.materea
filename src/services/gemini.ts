@@ -270,7 +270,7 @@ export interface PhysicalExamModule {
 
 export async function generatePhysicalExamModule(examination: string, context: string, difficulty: string): Promise<PhysicalExamModule | null> {
   try {
-    const model = 'gemini-3.1-pro-preview';
+    const model = 'gemini-3-flash-preview';
 
     const prompt = `You are a clinical educator designing training modules for medical students and junior doctors in Sub-Saharan Africa.
 
@@ -394,7 +394,7 @@ export interface LabInterpretationModule {
 
 export async function generateLabInterpretationModule(investigation: string, context: string, difficulty: string): Promise<LabInterpretationModule | null> {
   try {
-    const model = 'gemini-3.1-pro-preview';
+    const model = 'gemini-3-flash-preview';
 
     const prompt = `You are a clinical educator designing training modules for medical students and junior doctors in Sub-Saharan Africa.
 
@@ -523,7 +523,7 @@ export interface ClinicalScoringModule {
 
 export async function generateClinicalScoringModule(scoringSystem: string, context: string, difficulty: string): Promise<ClinicalScoringModule | null> {
   try {
-    const model = 'gemini-3.1-pro-preview';
+    const model = 'gemini-3-flash-preview';
 
     const prompt = `You are an expert medical educator designing interactive clinical learning modules for medical students and junior doctors in Sub-Saharan Africa.
 
@@ -692,7 +692,7 @@ export interface ManagementPlanModule {
 
 export async function generateManagementPlanModule(disease: string, context: string, difficulty: string): Promise<ManagementPlanModule | null> {
   try {
-    const model = 'gemini-3.1-pro-preview';
+    const model = 'gemini-3-flash-preview';
 
     const prompt = `You are an expert clinician and medical educator designing interactive training modules that teach guideline-based management of diseases.
 
@@ -840,7 +840,7 @@ Return the output in the structured JSON format provided.`;
 
 export async function generateLearningModule(symptom: string, context: string, difficulty: string): Promise<LearningModule | null> {
   try {
-    const model = 'gemini-3.1-pro-preview'; // Use a more capable model for structured JSON generation
+    const model = 'gemini-3-flash-preview'; // Use a more capable model for structured JSON generation
 
     const prompt = `You are a clinical educator designing training modules for medical students and junior doctors in Sub-Saharan Africa.
 

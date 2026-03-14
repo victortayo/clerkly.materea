@@ -34,11 +34,15 @@ export default function App() {
   const filteredTemplates = useMemo(() => {
     const query = searchQuery.toLowerCase();
     
-    // First, filter the templates
-    const matches = INITIAL_TEMPLATES.map(template => ({
+    // 1. Map INITIAL_TEMPLATES to include updated bookmark counts
+    // 2. Sort this list by lastModified in descending order
+    const baseTemplates = INITIAL_TEMPLATES.map(template => ({
       ...template,
       bookmarkCount: bookmarkCounts[template.id] !== undefined ? bookmarkCounts[template.id] : template.bookmarkCount
-    })).filter((template) => {
+    })).sort((a, b) => new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime());
+
+    // 3. Filter the sorted list based on search query, specialty, and bookmarks
+    const matches = baseTemplates.filter((template) => {
       // 1. Search Query
       const matchesSearch = 
         template.title.toLowerCase().includes(query) ||
@@ -61,7 +65,7 @@ export default function App() {
       return true;
     });
 
-    // Then, sort by relevance if there is a search query
+    // 4. If there is a search query, sort the results by relevance
     if (query) {
       return matches.sort((a, b) => {
         const aTitle = a.title.toLowerCase();
@@ -89,10 +93,12 @@ export default function App() {
         if (aCondHas && !bCondHas) return -1;
         if (bCondHas && !aCondHas) return 1;
 
-        return 0;
+        // If relevance is equal, maintain the date sorting
+        return new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime();
       });
     }
 
+    // 5. If there is no search query, the list remains sorted by date
     return matches;
   }, [searchQuery, selectedSpecialty, showBookmarks, bookmarkedTemplateIds, bookmarkCounts]);
 
@@ -325,4 +331,3 @@ export default function App() {
     </Layout>
   );
 }
-

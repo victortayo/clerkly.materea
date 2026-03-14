@@ -87,7 +87,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
       </button>
 
       {/* Header Card */}
-      <div className="relative bg-indigo-950 dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-xl shadow-indigo-900/20 dark:shadow-none border border-indigo-800 dark:border-slate-800 mb-8 overflow-hidden">
+      <div className="relative bg-indigo-950 dark:bg-slate-900 rounded-3xl p-3 sm:p-6 shadow-xl shadow-indigo-900/20 dark:shadow-none border border-indigo-800 dark:border-slate-800 mb-8 overflow-hidden">
         
         {/* Decorative Background Elements */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
@@ -96,8 +96,8 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         <div className="relative flex justify-between items-start gap-4">
           <div className="flex-1">
             {/* Specialty Pill (Dynamic Color - Dark Mode Optimized) */}
-            <div className="mb-4">
-              <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wide shadow-sm border ${
+            <div className="mb-2">
+              <span className={`px-2.5 py-0.5 rounded-full text-[8px] sm:text-[9px] font-bold uppercase tracking-wide shadow-sm border ${
                 template.specialty === 'Pediatrics' ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20' :
                 template.specialty === 'Internal Medicine' ? 'bg-blue-500/10 text-blue-300 border-blue-500/20' :
                 template.specialty === 'Obstetrics and Gynecology' ? 'bg-rose-500/10 text-rose-300 border-rose-500/20' :
@@ -109,24 +109,24 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
             </div>
 
             {/* Title */}
-            <h1 className="text-3xl sm:text-4xl font-bold font-brand text-white tracking-tight mb-6">
+            <h1 className="text-xl sm:text-3xl font-bold font-brand text-white tracking-tight mb-3">
               {template.title}
             </h1>
             
             {/* Meta Info: Author & Last Updated */}
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
-                  <i className="fa-solid fa-user-doctor text-xs"></i>
+            <div className="flex flex-wrap items-center gap-x-3 sm:gap-x-5 gap-y-2">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
+                  <i className="fa-solid fa-user-doctor text-[9px] sm:text-[10px]"></i>
                 </div>
-                <span className="text-sm font-bold text-indigo-50">{template.contributor}</span>
+                <span className="text-[10px] sm:text-xs font-bold text-indigo-50">{template.contributor}</span>
               </div>
               
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
-                  <i className="fa-regular fa-clock text-xs"></i>
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
+                  <i className="fa-regular fa-clock text-[9px] sm:text-[10px]"></i>
                 </div>
-                <span className="text-xs text-indigo-200 font-medium">{template.lastModified}</span>
+                <span className="text-[10px] sm:text-[10px] text-indigo-200 font-medium">{template.lastModified}</span>
               </div>
             </div>
           </div>
@@ -134,14 +134,14 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           {/* Bookmark Section - Vertical Pill */}
           <button
             onClick={onToggleBookmark}
-            className={`group flex flex-col items-center justify-center w-14 py-3 rounded-2xl border transition-all duration-300 ${
+            className={`group flex flex-col items-center justify-center w-10 sm:w-12 py-2 sm:py-2.5 rounded-xl border transition-all duration-300 ${
               isBookmarked
                 ? 'bg-white border-white text-indigo-950 shadow-lg shadow-black/20'
                 : 'bg-white/5 border-white/10 text-indigo-300 hover:bg-white/10 hover:border-white/20'
             }`}
           >
-            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark text-xl mb-1 transition-transform group-hover:scale-110`}></i>
-            <span className={`text-[10px] font-bold ${isBookmarked ? 'text-indigo-950' : 'text-indigo-300 group-hover:text-white'}`}>
+            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark text-base sm:text-lg mb-0.5 transition-transform group-hover:scale-110`}></i>
+            <span className={`text-[8px] sm:text-[9px] font-bold ${isBookmarked ? 'text-indigo-950' : 'text-indigo-300 group-hover:text-white'}`}>
               {template.bookmarkCount || 0}
             </span>
           </button>

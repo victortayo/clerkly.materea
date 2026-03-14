@@ -99,45 +99,27 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
     setActiveTab('content');
 
     try {
+      let generatedModule;
       if (libraryType === 'symptom') {
-        const generatedModule = await generateLearningModule(symptom, setting, 'Advanced');
-        if (generatedModule) {
-          setModule(generatedModule);
-        } else {
-          showToast("Failed to generate module. Please try again.");
-        }
+        generatedModule = await generateLearningModule(symptom, setting, 'Advanced');
       } else if (libraryType === 'examination') {
-        const generatedModule = await generatePhysicalExamModule(examination, setting, 'Advanced');
-        if (generatedModule) {
-          setModule(generatedModule);
-        } else {
-          showToast("Failed to generate module. Please try again.");
-        }
+        generatedModule = await generatePhysicalExamModule(examination, setting, 'Advanced');
       } else if (libraryType === 'laboratory') {
-        const generatedModule = await generateLabInterpretationModule(investigation, setting, 'Advanced');
-        if (generatedModule) {
-          setModule(generatedModule);
-        } else {
-          showToast("Failed to generate module. Please try again.");
-        }
+        generatedModule = await generateLabInterpretationModule(investigation, setting, 'Advanced');
       } else if (libraryType === 'scoring') {
-        const generatedModule = await generateClinicalScoringModule(scoringSystem, setting, 'Advanced');
-        if (generatedModule) {
-          setModule(generatedModule);
-        } else {
-          showToast("Failed to generate module. Please try again.");
-        }
+        generatedModule = await generateClinicalScoringModule(scoringSystem, setting, 'Advanced');
       } else {
-        const generatedModule = await generateManagementPlanModule(disease, setting, 'Advanced');
-        if (generatedModule) {
-          setModule(generatedModule);
-        } else {
-          showToast("Failed to generate module. Please try again.");
-        }
+        generatedModule = await generateManagementPlanModule(disease, setting, 'Advanced');
+      }
+
+      if (generatedModule) {
+        setModule(generatedModule);
+      } else {
+        showToast("Failed to generate module. Please try again.");
       }
     } catch (error) {
       console.error(error);
-      showToast("An error occurred while generating the module.");
+      showToast("An error occurred while generating the module. The model may be unavailable. Please try again later.");
     } finally {
       setLoading(false);
     }
@@ -168,6 +150,36 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
     return 'disease' in mod;
   };
 
+  const renderHeading = (iconClass: string, text: string) => (
+    <>
+      <h3 className={`text-lg font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2`}>
+        <i className={`fa-solid ${iconClass} text-indigo-500`}></i>
+        {text}
+      </h3>
+      <hr className="border-slate-200 dark:border-slate-700 mb-4" />
+    </>
+  );
+
+  const renderSideHeading = (iconClass: string, text: string) => (
+    <>
+      <h3 className={`text-lg font-bold text-emerald-800 dark:text-emerald-300 mb-4 flex items-center gap-2`}>
+        <i className={`fa-solid ${iconClass}`}></i>
+        {text}
+      </h3>
+      <hr className="border-emerald-200 dark:border-emerald-700 mb-4" />
+    </>
+);
+
+  const renderMistakeHeading = (iconClass: string, text: string) => (
+    <>
+      <h3 className={`text-lg font-bold text-amber-800 dark:text-amber-300 mb-4 flex items-center gap-2`}>
+        <i className={`fa-solid ${iconClass}`}></i>
+        {text}
+      </h3>
+      <hr className="border-amber-200 dark:border-amber-700 mb-4" />
+    </>
+  );
+
   return (
     <div className="fixed inset-0 bg-slate-900/50 dark:bg-slate-900/80 z-[100] flex items-center justify-center sm:p-4 font-sans backdrop-blur-sm animate-in fade-in duration-200" onClick={onClose}>
       <div className="bg-slate-50 dark:bg-slate-900 w-full max-w-6xl h-[100dvh] sm:h-[90vh] sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col relative border border-slate-200 dark:border-slate-700 animate-in zoom-in-95 duration-300" onClick={(e) => e.stopPropagation()}>
@@ -193,9 +205,13 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
           </div>
         </div>
 
-        <div className="flex-1 overflow-y-auto md:overflow-hidden custom-scrollbar flex flex-col md:flex-row">
+        <div className={`flex-1 overflow-y-auto custom-scrollbar ${
+          module ? '' : 'md:overflow-hidden flex-col md:flex-row'
+        }`}>
           {/* Sidebar Controls */}
-          <div className="w-full md:w-80 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 p-6 flex flex-col gap-6 shrink-0 md:overflow-y-auto custom-scrollbar">
+          <div className={`w-full md:w-80 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 p-6 flex flex-col gap-6 shrink-0 ${
+            module ? 'md:hidden' : 'md:flex'
+          } md:overflow-y-auto custom-scrollbar`}>
             <div className="relative">
               <label className="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">Library</label>
               <button
@@ -526,7 +542,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
           </div>
 
           {/* Main Content Area */}
-          <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0">
+          <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-y-auto custom-scrollbar flex flex-col min-h-0">
             {!module && !loading && (
               <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto opacity-50 py-12">
                 <div className="w-20 h-20 bg-slate-200 dark:bg-slate-800 rounded-full flex items-center justify-center mb-6 shrink-0">
@@ -605,10 +621,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
                         <>
                           {/* Characterization */}
                           <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
-                            <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2">
-                              <i className="fa-solid fa-magnifying-glass text-indigo-500"></i>
-                              Core Characterization
-                            </h3>
+                            {renderHeading('fa-book-open', 'Core Characterization')}
                             <ul className="space-y-3">
                               {module.core_characterization_questions.map((q, i) => (
                                 <li key={i} className="flex items-start gap-3 text-sm text-slate-700 dark:text-slate-300">
@@ -621,10 +634,11 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
 
                           {/* Red Flags */}
                           <div className="bg-rose-50 dark:bg-rose-900/10 p-6 rounded-2xl shadow-sm border border-rose-100 dark:border-rose-900/30">
-                            <h3 className="text-lg font-bold text-rose-800 dark:text-rose-300 mb-4 flex items-center gap-2">
+                          <h3 className="text-lg font-bold text-rose-800 dark:text-rose-300 mb-4 flex items-center gap-2">
                               <i className="fa-solid fa-triangle-exclamation"></i>
                               Red Flag Questions
                             </h3>
+                            <hr className="border-rose-200 dark:border-rose-700 mb-4" />
                             <ul className="space-y-3">
                               {module.red_flag_questions.map((q, i) => (
                                 <li key={i} className="flex items-start gap-3 text-sm text-rose-900 dark:text-rose-200">
@@ -638,10 +652,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
                           {/* Differentials & Associated Symptoms */}
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
-                              <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2">
-                                <i className="fa-solid fa-list-ul text-indigo-500"></i>
-                                Differentials
-                              </h3>
+                              {renderHeading('fa-list-ul', 'Differentials')}
                               <ul className="space-y-2">
                                 {module.important_differential_diagnoses.map((d, i) => (
                                   <li key={i} className="text-sm text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-900/50 p-2 rounded-lg border border-slate-100 dark:border-slate-700">
@@ -651,10 +662,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
                               </ul>
                             </div>
                             <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
-                              <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2">
-                                <i className="fa-solid fa-link text-indigo-500"></i>
-                                Associated Symptoms
-                              </h3>
+                              {renderHeading('fa-link', 'Associated Symptoms')}
                               <div className="flex flex-wrap gap-2">
                                 {module.associated_symptoms.map((s, i) => (
                                   <span key={i} className="px-3 py-1.5 bg-indigo-50 dark:bg-indigo-900/20 text-indigo-700 dark:text-indigo-300 rounded-lg text-xs font-medium border border-indigo-100 dark:border-indigo-800/30">
@@ -668,10 +676,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
                           {/* Checklist & Mistakes */}
                           <div className="grid md:grid-cols-2 gap-6">
                             <div className="bg-emerald-50 dark:bg-emerald-900/10 p-6 rounded-2xl shadow-sm border border-emerald-100 dark:border-emerald-900/30">
-                              <h3 className="text-lg font-bold text-emerald-800 dark:text-emerald-300 mb-4 flex items-center gap-2">
-                                <i className="fa-solid fa-clipboard-check"></i>
-                                Quick Checklist
-                              </h3>
+                              {renderSideHeading('fa-clipboard-check', 'Quick Checklist')}
                               <ul className="space-y-2">
                                 {module.quick_clerking_checklist.map((c, i) => (
                                   <li key={i} className="flex items-start gap-2 text-sm text-emerald-900 dark:text-emerald-200">
@@ -682,10 +687,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
                               </ul>
                             </div>
                             <div className="bg-amber-50 dark:bg-amber-900/10 p-6 rounded-2xl shadow-sm border border-amber-100 dark:border-amber-900/30">
-                              <h3 className="text-lg font-bold text-amber-800 dark:text-amber-300 mb-4 flex items-center gap-2">
-                                <i className="fa-solid fa-lightbulb"></i>
-                                Common Mistakes
-                              </h3>
+                              {renderMistakeHeading('fa-lightbulb', 'Common Mistakes')}
                               <ul className="space-y-2">
                                 {module.common_clerking_mistakes.map((m, i) => (
                                   <li key={i} className="flex items-start gap-2 text-sm text-amber-900 dark:text-amber-200">

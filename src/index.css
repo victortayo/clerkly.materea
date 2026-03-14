@@ -11,14 +11,27 @@ html, body {
   @apply bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 transition-colors antialiased;
 }
 
+/* Glass-morphism with fallback */
+/* Default solid background for browsers that don't support backdrop-filter */
 .glass-morphism {
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgb(255 255 255);
 }
 
 .dark .glass-morphism {
-  background: rgba(15, 23, 42, 0.9);
+  background-color: rgb(15 23 42);
+}
+
+/* Apply the glass effect only on supported browsers */
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .dark .glass-morphism {
+    background: rgba(15, 23, 42, 0.9);
+  }
 }
 
 .font-brand {

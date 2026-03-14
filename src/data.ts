@@ -10784,7 +10784,177 @@ Review: Daily inpatient review; reassess for step-down to oral antibiotics at 48
   bookmarkCount: 0
 },
 {
-  id: 'im-8',
+  id: 'im-9',
+  title: 'Upper GI Bleeding (Melena) Secondary to H. pylori Gastritis, Peptic Ulcer Disease and Gastric Polyps',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Internal Medicine / Gastroenterology',
+  condition: 'Upper gastrointestinal bleeding presenting as melena — H. pylori-associated antral gastritis with peptic ulcer disease and gastric polyps',
+  symptoms: [
+    'Melena (recurrent dark tarry stool)',
+    'Progressive generalised weakness and easy fatigability',
+    'Recurrent epigastric burning pain',
+    'Dizziness',
+    'Syncope (one episode)',
+    'Severe anaemia (PCV < 20%)',
+    'Tachycardia',
+    'History of NSAID use',
+    'H. pylori-associated antral gastritis and gastric polyps on histology',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-14',
+  summary: 'A 57-year-old Igbo Christian female trader referred from a private hospital with a 2-month history of recurrent melena, progressive generalised weakness, and epigastric pain. Prior gastroscopy at a secondary facility revealed advanced gastric polyps and H. pylori-associated antral gastritis with peptic ulceration; she completed a course of quadruple H. pylori eradication therapy one week prior to this presentation. Melena recurred one day PTP. PCV on referral was less than 20%; she received 3 units of blood at the referring hospital. On admission she is mildly pale and tachycardic (PR 110 bpm). Pre-endoscopy Rockall score: 1. Admitted for urgent repeat upper GI endoscopy, blood transfusion support, and IV proton pump inhibitor therapy.',
+  content: `
+
+A 57-year-old Igbo Christian married female trader, residing in Trans-Ekulu, Enugu State. 
+
+Referred from a private hospital on account of recurrent passage of dark-coloured stool and progressive generalised body weakness of approximately 2 months duration.
+
+PRESENTING COMPLAINTS
+Recurrent dark-coloured stool × 2 months
+Progressive generalised body weakness × 2 months
+Recurrent epigastric pain × 2 months
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until approximately 2 months prior to presentation (PTP) when she began to notice passage of dark-coloured, black, and tarry stool (melena) with no associated blood clots. 
+
+Around the same period she developed progressive generalised body weakness and easy fatigability, which gradually worsened.
+
+She also had recurrent epigastric pain during this period — described as a burning discomfort in the epigastric area with occasional radiation to the back, aggravated by meals and partially relieved when fasting. 
+No associated vomiting, haematemesis, haematochezia, or jaundice. No abdominal swelling.
+
+There was associated dizziness and one episode of syncope prior to presentation. No convulsions, headache, loss of consciousness, neck pain, or fever. No symptoms suggestive of cardiac or renal decompensation.
+
+About 2 months earlier during the initial episode of melena, she presented to a secondary health facility where she was treated with Omeprazole and advised to undergo upper gastrointestinal endoscopy. Endoscopy subsequently revealed advanced gastric polyps and histology from the biopsy specimen showed chronic Helicobacter pylori associated antral gastritis with ulcer. She was subsequently commenced on quadruple anti-H. pylori regimen by her family physician which she completed about one week prior to this presentation.
+Despite completion of treatment she noticed recurrence of dark coloured stool about one day prior to presentation at this facility prompting referral. 
+
+There is a history of prior NSAID use. 
+No history of hematemesis, hematochezia or bleeding from other orifices. No history of jaundice, pruritus, abdominal swelling or dark coloured urine. No history suggestive of chronic liver disease. No history of alcohol intake, cigarette smoking, bleeding disorders or recent travel. No history of weight loss. 
+
+PAST MEDICAL HISTORY
+Not a known hypertensive, diabetic, or asthmatic patient. No previous surgeries. Transfused with 3 units of blood at the referring hospital during this illness.
+
+DRUG HISTORY
+Recently completed quadruple H. pylori eradication therapy. 
+Previous NSAID use. 
+No known drug allergies.
+
+SOCIAL HISTORY
+Does not consume alcohol. 
+Does not smoke.
+
+REVIEW OF SYSTEMS
+Otherwise essentially unremarkable.
+
+PHYSICAL EXAMINATION
+General: Middle-aged woman, conscious and cooperative, mildly pale, anicteric, afebrile, acyanosed, not dehydrated, no bilateral pedal oedema.
+
+Vital Signs:
+PR: 110 bpm, regular, moderate volume
+BP: 116/84 mmHg
+RR: 24 cpm
+SpO₂: 99% on room air
+
+Cardiovascular System: 
+Apex beat at the 5th left intercostal space, mid-clavicular line. 
+S1 and S2 heard; no murmurs.
+
+Respiratory System: 
+Chest moves symmetrically with respiration. 
+Trachea central. Breath sounds vesicular bilaterally; no added sounds.
+
+Abdominal Examination: 
+Abdomen full, moves with respiration. 
+Soft and non-tender. 
+No palpable masses. 
+No hepatosplenomegaly. 
+No demonstrable ascites. 
+Bowel sounds present.
+
+CNS: 
+Conscious and alert. 
+Oriented to time, place, and person. 
+Moves all four limbs spontaneously; no focal neurological deficit.
+
+Digital Rectal Examination: 
+Declined by patient. 
+She reported passage of dark-coloured stool earlier on the day of presentation.
+
+ASSESSMENT
+Upper gastrointestinal (UGI) bleeding presenting as melena, likely secondary to chronic H. pylori-associated antral gastritis with peptic ulcer disease (PUD) and gastric polyps.
+
+Pre-endoscopy Rockall score: 1 — low initial risk score; full post-endoscopy Rockall score to be calculated following urgent repeat gastroscopy.
+
+Basis: Recurrent melena with severe anaemia (PCV < 20%), tachycardia, epigastric burning pain, prior NSAID use, confirmed H. pylori-associated antral gastritis and gastric polyps on histology, recurrence of melena despite completion of eradication therapy — raising concern for persistent mucosal disease, incomplete eradication, or bleeding from gastric polyps.
+
+MANAGEMENT PLAN
+
+Admit under the medical team.
+
+Nil Per Os (NPO):
+Patient kept NPO pending endoscopic evaluation.
+
+IV Fluid Resuscitation:
+5% Dextrose saline alternating with 0.9% Normal saline 500 mL 8-hourly. Adjust based on clinical response, urine output, and haemodynamic stability.
+
+Proton Pump Inhibitor Therapy:
+IV Omeprazole 80 mg stat, then 40 mg 12-hourly — high-dose IV PPI to reduce rebleeding risk pending endoscopy.
+
+Empirical Antibiotic Cover:
+IV Ceftriaxone 1 g 12-hourly
+IV Metronidazole 500 mg 8-hourly
+(Covers secondary bacterial translocation risk and residual H. pylori activity.)
+
+Analgesia:
+IV Paracetamol 1 g 8-hourly.
+
+Blood Transfusion:
+Group and crossmatch 3 units of blood. Transfuse crossmatched blood as indicated by serial PCV results and clinical haemodynamic status.
+
+Gastroenterology/Endoscopy Consult:
+Urgent upper GI endoscopy — to identify the bleeding source, assess polyp characteristics, perform snare polypectomy if indicated, and achieve haemostasis (adrenaline injection, thermal coagulation, or clipping as appropriate). 
+Full post-endoscopy Rockall score to be calculated.
+
+Investigations:
+Urgent PCV and FBC
+Group and crossmatch 3 units of blood
+Erythrocyte sedimentation rate (ESR)
+LFTs
+EUCr
+Urinalysis
+Fasting lipid profile
+Abdominal and pelvic ultrasound scan
+H. pylori eradication confirmation — urea breath test or stool antigen test to be done no earlier than 4 weeks after completion of eradication therapy and cessation of PPI.
+
+Monitoring:
+Vital signs (PR, BP, RR, SpO₂) monitored closely and charted. 
+Strict input-output charting. 
+Serial PCV monitoring. 
+Watch for haemodynamic deterioration — tachycardia, hypotension, worsening pallor, or increasing stool output indicating active rebleeding.
+
+Watch for Complications:
+Rebleeding, haemorrhagic shock, malignant transformation of gastric polyps (especially adenomatous polyps), perforation, aspiration during endoscopy, post-polypectomy bleeding.
+
+Patient Education:
+Patient counselled on the diagnosis of recurrent UGI bleeding secondary to confirmed H. pylori gastritis, peptic ulceration, and gastric polyps. 
+Importance of completing and confirming H. pylori eradication explained — a test of cure (urea breath test or stool antigen) will be performed at least 4 weeks after completing therapy. 
+Advised to permanently avoid NSAIDs and aspirin-containing preparations unless under medical supervision; alternative analgesics (e.g. paracetamol) recommended for pain. Counselled on warning signs requiring immediate presentation — haematemesis, large-volume fresh melena, dizziness, or syncope. 
+Importance of endoscopic surveillance post-polypectomy discussed, particularly given advanced polyp histology. Dietary advice: avoid spicy foods, large meals, and prolonged fasting; eat small regular meals.
+
+PROGNOSIS
+Guarded in the short term given recurrence of melena despite completed eradication therapy, raising concern for persistent mucosal disease or polyp-related bleeding. 
+Pre-endoscopy Rockall score of 1 suggests lower initial mortality risk, but prognosis will be further stratified by post-endoscopy findings. 
+Long-term prognosis depends on successful endoscopic management of polyps, confirmed H. pylori eradication, permanent NSAID avoidance, and compliance with endoscopic surveillance.
+ Gastric polyps — particularly adenomatous types — carry malignant potential and mandate histological follow-up.
+
+Review: 
+Daily inpatient review. 
+Urgent gastroenterology review for endoscopy scheduling. 
+Outpatient follow-up 4–6 weeks post-discharge with H. pylori eradication test results and endoscopy report.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'im-37',
   title: 'Newly Diagnosed Type 2 Diabetes Mellitus (Non-Obese Phenotype)',
   specialty: 'Internal Medicine',
   subSpecialty: 'Endocrinology / Diabetology Clinic',

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Template } from '../types';
+import { INITIAL_TEMPLATES } from '../data';
 
 export function useBookmarks() {
   const [bookmarkedTemplateIds, setBookmarkedTemplateIds] = useState<Set<string>>(new Set());
@@ -23,22 +24,32 @@ export function useBookmarks() {
     }
   }, []);
 
-  // We don't have a global backend anymore, so we just use the static counts from INITIAL_TEMPLATES
-  // and increment them locally if bookmarked.
+  // Initialize bookmark counts based on static data + local bookmarks
   useEffect(() => {
-    // We can just leave bookmarkCounts empty or initialize it based on local bookmarks if we want
-    // For now, we'll just rely on the static counts in the data.ts file.
-    setBookmarkCounts({});
-  }, []);
+    const counts: Record<string, number> = {};
+    INITIAL_TEMPLATES.forEach(template => {
+      // Add 1 to the static count if the user has this template bookmarked locally
+      counts[template.id] = template.bookmarkCount + (bookmarkedTemplateIds.has(template.id) ? 1 : 0);
+    });
+    setBookmarkCounts(counts);
+  }, [bookmarkedTemplateIds]);
 
   const toggleBookmark = async (template: Template) => {
     setBookmarkedTemplateIds(prev => {
+      const isCurrentlyBookmarked = prev.has(template.id);
       const newBookmarks = new Set(prev);
-      if (newBookmarks.has(template.id)) {
+      
+      if (isCurrentlyBookmarked) {
         newBookmarks.delete(template.id);
       } else {
         newBookmarks.add(template.id);
       }
+      
+      // Update local bookmarkCounts state
+      setBookmarkCounts(prevCounts => ({
+        ...prevCounts,
+        [template.id]: (prevCounts[template.id] || template.bookmarkCount) + (isCurrentlyBookmarked ? -1 : 1)
+      }));
       
       // Save to local storage
       try {

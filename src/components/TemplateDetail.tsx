@@ -134,16 +134,13 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           {/* Bookmark Section - Vertical Pill */}
           <button
             onClick={onToggleBookmark}
-            className={`group flex flex-col items-center justify-center w-10 sm:w-12 py-2 sm:py-2.5 rounded-xl border transition-all duration-300 ${
+            className={`group flex items-center justify-center w-10 sm:w-12 py-3 sm:py-4 rounded-xl border transition-all duration-300 ${
               isBookmarked
                 ? 'bg-white border-white text-indigo-950 shadow-lg shadow-black/20'
                 : 'bg-white/5 border-white/10 text-indigo-300 hover:bg-white/10 hover:border-white/20'
             }`}
           >
-            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark text-base sm:text-lg mb-0.5 transition-transform group-hover:scale-110`}></i>
-            <span className={`text-[8px] sm:text-[9px] font-bold ${isBookmarked ? 'text-indigo-950' : 'text-indigo-300 group-hover:text-white'}`}>
-              {template.bookmarkCount || 0}
-            </span>
+            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark text-base sm:text-lg transition-transform group-hover:scale-110`}></i>
           </button>
         </div>
       </div>

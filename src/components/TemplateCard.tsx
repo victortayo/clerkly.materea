@@ -61,13 +61,12 @@ export function TemplateCard({
         <div className="flex items-center gap-3 self-start sm:self-center">
            <button
             onClick={handleBookmark}
-            className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs font-bold transition-all active:scale-95 ${
+            className={`flex items-center justify-center w-10 h-10 rounded-xl transition-all active:scale-95 ${
               isBookmarked 
                 ? 'bg-indigo-50 text-indigo-950 dark:bg-indigo-900/30 dark:text-indigo-200' 
                 : 'bg-slate-50 text-slate-500 hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-400'
             }`}
           >
-            <span>{template.bookmarkCount || 0}</span>
             <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark`}></i>
           </button>
         </div>
@@ -91,16 +90,15 @@ export function TemplateCard({
           </span>
         </div>
 
-        {/* Title and Bookmark Count */}
+        {/* Title and Bookmark Icon */}
         <div className="flex justify-between items-start mb-1">
           <h3 className="text-lg font-bold text-slate-800 dark:text-slate-100 group-hover:text-indigo-950 dark:group-hover:text-indigo-300 transition-colors font-brand">
             {template.title}
           </h3>
           <button 
             onClick={handleBookmark} 
-            className={`flex items-center gap-1.5 transition-all active:scale-90 ${isBookmarked ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-300 hover:text-slate-400 dark:text-slate-600 dark:hover:text-slate-500'}`}
+            className={`flex items-center transition-all active:scale-90 ${isBookmarked ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-300 hover:text-slate-400 dark:text-slate-600 dark:hover:text-slate-500'}`}
           >
-            <span className="text-[10px] font-bold">{template.bookmarkCount || 0}</span>
             <i className={`fa-${isBookmarked ? 'solid' : 'regular'} fa-bookmark text-sm`}></i>
           </button>
         </div>

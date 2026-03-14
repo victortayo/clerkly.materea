@@ -10784,7 +10784,7 @@ Review: Daily inpatient review; reassess for step-down to oral antibiotics at 48
   bookmarkCount: 0
 },
 {
-  id: 'im-9',
+  id: 'im-36',
   title: 'Upper GI Bleeding (Melena) Secondary to H. pylori Gastritis, Peptic Ulcer Disease and Gastric Polyps',
   specialty: 'Internal Medicine',
   subSpecialty: 'Internal Medicine / Gastroenterology',
@@ -11107,7 +11107,389 @@ Review: 2–4 weeks to assess metformin tolerability and review glucose logs and
   `,
   bookmarkCount: 0
 },
+{
+  id: 'im-38',
+  title: 'Acute Upper Gastrointestinal Bleeding with Haematemesis and Hypovolemic Shock',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology/Emergency Medicine',
+  condition: 'Upper gastrointestinal bleeding likely secondary to bleeding peptic ulcer disease',
+  symptoms: [
+    'Passage of black tarry stool',
+    'Generalized weakness',
+    'Dizziness',
+    'Vomiting of blood',
+    'Palpitations',
+    'Intermittent burning epigastric pain',
+    'Marked pallor',
+    'Tachycardia (112 bpm, low volume)',
+    'Hypotension (90/60 mmHg)',
+    'Tachypnoea (22 cpm)',
+    'Mild epigastric tenderness',
+    'Black tarry stool on digital rectal examination',
+    'Frequent NSAID use for 6 months',
+    'Occasional alcohol consumption for 15 years'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-14',
+  summary: 'A 52-year-old male trader from Abeokuta presenting with acute upper GI bleeding characterized by melena (2 days), haematemesis (8 hours, approximately 400-500 ml blood loss), and haemodynamic instability. Clinical features include marked pallor, tachycardia (112 bpm), hypotension (90/60 mmHg), and orthostatic dizziness. History of chronic epigastric pain (3 months, hunger-related, food-relieved) suggestive of peptic ulcer disease. Significant risk factors include frequent NSAID use (6 months) and chronic alcohol consumption (15 years). Patient is in hypovolemic shock requiring urgent resuscitation, blood transfusion, high-dose PPI therapy, and emergency upper GI endoscopy.',
+  content: `
+A 52-year-old male trader, married, Yoruba, Christian, residing in Abeokuta, Ogun State.
 
+PRESENTING COMPLAINTS
+Passage of black tarry stool x 2 days
+Generalized weakness x 2 days
+Dizziness x 1 day
+Vomiting of blood x 8 hours
+
+HISTORY OF PRESENTING COMPLAINTS
+Patient was apparently well until about 2 days prior to presentation when he noticed passage of black, tarry, foul-smelling stool occurring about 3 times daily. There was no associated passage of fresh blood per rectum.
+
+Around the same time, he began to experience generalized weakness and easy fatigability which has progressively worsened.
+
+About 1 day prior to presentation, he developed dizziness especially on standing, associated with palpitations but no loss of consciousness.
+
+Approximately 8 hours prior to presentation, he developed sudden vomiting of blood. The vomitus was initially dark red but later became bright red with clots. He has had about three episodes with an estimated total blood loss of about 400–500 mL according to the patient and relatives.
+
+These symptoms were preceded by intermittent burning epigastric pain which has been present for about 3 months. The pain is worse when the patient is hungry and temporarily relieved by food and over-the-counter medications.
+
+There is no hematochezia.
+No bleeding from other body sites such as gums or nose.
+No history of trauma.
+
+There is a history of frequent use of non-steroidal anti-inflammatory drugs for chronic low back pain over the past 6 months.
+
+There is no history suggestive of chronic liver disease such as abdominal swelling, jaundice, pruritus, easy bruising or altered level of consciousness.
+
+No history of dysphagia or significant weight loss.
+
+REVIEW OF SYSTEMS
+Cardiovascular System: Palpitations and dizziness present; No chest pain
+Respiratory System: No cough, dyspnoea or haemoptysis
+Gastrointestinal System: Melena and epigastric pain present; No abdominal distension
+Genitourinary System:No dysuria, haematuria or oliguria
+Central Nervous System: No seizures or focal neurological deficit
+
+PAST MEDICAL HISTORY
+No known history of hypertension or diabetes mellitus
+No prior diagnosis of peptic ulcer disease
+No previous hospital admission for similar complaints
+No known bleeding disorder
+
+DRUG HISTORY
+Frequent use of NSAIDs for chronic back pain
+No anticoagulant or antiplatelet use
+No known drug allergies
+
+FAMILY HISTORY
+No family history of peptic ulcer disease or bleeding disorders
+
+SOCIAL HISTORY
+Occasional alcohol consumption for about 15 years
+Non-smoker
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Patient is conscious, alert but ill-looking and markedly pale
+Not jaundiced, not cyanosed
+No pedal oedema
+No peripheral stigmata of chronic liver disease
+
+Vital Signs:
+Temperature: 36.8°C
+Pulse Rate: 112 beats/min, low volume
+Blood pressure: 90/60 mmHg
+Respiratory rate: 22 cycles/min
+SpO₂: 97% on room air
+
+Abdomen:
+Abdomen is flat and moves with respiration
+No distension, visible veins or scars
+Mild epigastric tenderness present
+No palpable masses
+No hepatosplenomegaly
+Bowel sounds present and normal
+
+Digital Rectal Examination:
+Black tarry stool (melena) noted on examining finger
+
+Cardiovascular System:
+Tachycardic pulse, regular rhythm
+S1 and S2 present
+No murmurs
+
+Respiratory System:
+Chest clear to auscultation bilaterally
+
+Central Nervous System:
+Patient conscious and oriented to time, place and person
+No focal neurological deficit
+
+WORKING DIAGNOSIS
+
+Upper gastrointestinal bleeding likely secondary to bleeding peptic ulcer disease
+
+Evidence:
+Melena (black tarry stool) for 2 days
+Haematemesis (initially dark red, then bright red with clots) for 8 hours
+Significant blood loss (estimated 400-500 ml)
+Hypovolemic shock (hypotension 90/60 mmHg, tachycardia 112 bpm, low volume pulse)
+Marked pallor
+Preceding epigastric pain (3 months, hunger-related, food-relieved) classic for peptic ulcer
+Risk factors: frequent NSAID use (6 months), chronic alcohol consumption (15 years)
+
+Severity Assessment:
+Hypovolemic shock present (hypotension, tachycardia, orthostatic dizziness)
+Active bleeding (recent haematemesis with bright red blood and clots)
+Haemodynamically unstable
+High-risk presentation requiring urgent intervention
+
+DIFFERENTIALS
+Bleeding gastric ulcer (most likely given NSAID use)
+Bleeding duodenal ulcer
+Oesophageal variceal bleeding (less likely, no stigmata of chronic liver disease)
+Erosive gastritis
+Mallory-Weiss tear (less likely, no preceding forceful vomiting)
+
+INVESTIGATIONS
+
+Urgent (Immediate):
+Full blood count and packed cell volume
+Blood grouping and cross-matching (at least 4 units)
+Serum electrolytes, urea and creatinine
+Liver function tests
+Coagulation profile (PT/INR, aPTT)
+
+After Stabilization:
+Urgent upper gastrointestinal endoscopy within 24 hours (ideally within 12 hours given shock)
+Abdominal ultrasound scan if liver disease suspected
+
+IMMEDIATE MANAGEMENT PLAN
+
+Resuscitation (ABC Approach):
+
+Airway:
+Ensure airway patency
+Patient conscious but at risk of aspiration if further haematemesis
+Position patient upright or lateral if vomiting
+Prepare for possible intubation if consciousness deteriorates
+
+Breathing:
+Administer oxygen if SpO₂ drops below 94% (currently 97%)
+Oxygen via nasal prongs 2-4 L/min or face mask as needed
+Monitor respiratory rate and effort
+
+Circulation:
+This is the priority given hypovolemic shock
+
+IV Access:
+Insert two wide-bore intravenous cannulas (16G or 18G)
+Send blood samples for urgent investigations
+
+Fluid Resuscitation:
+Commence IV crystalloids (0.9% Normal Saline or Ringer's Lactate)
+Initial bolus: 500-1000 ml over 15-30 minutes
+Reassess haemodynamic status
+Continue fluid resuscitation guided by:
+Blood pressure (target SBP greater than 100 mmHg)
+Heart rate (target less than 100 bpm)
+Urine output (target greater than 0.5 ml/kg/hr)
+Mental status
+Capillary refill
+
+Blood Transfusion:
+Urgent need given:
+Marked pallor
+Haemodynamic instability
+Estimated 400-500 ml blood loss (likely underestimate)
+Activate massive transfusion protocol if available
+Transfuse packed red blood cells as soon as available
+Target haemoglobin: greater than 7 g/dL (or greater than 8-9 g/dL given cardiovascular instability)
+May need 2-4 units initially
+Continue transfusion based on serial haemoglobin levels and clinical response
+Monitor for transfusion reactions
+
+Medications:
+
+Proton Pump Inhibitor (High Dose):
+IV Pantoprazole 80 mg stat (or Omeprazole 80 mg stat)
+Then IV Pantoprazole 40 mg 12 hourly (or 8 mg/hour continuous infusion if available)
+OR Omeprazole 40 mg 12 hourly
+High-dose PPI reduces re-bleeding risk and need for surgery
+
+Antiemetic:
+IV Ondansetron 4-8 mg 8 hourly
+Reduces nausea and vomiting
+Prevents aspiration
+
+Tranexamic Acid (Consider):
+IV Tranexamic acid 1 g over 10 minutes
+Then 1 g over 8 hours
+May reduce mortality in acute GI bleeding (recent evidence)
+Contraindicated if thromboembolic risk
+
+Variceal Bleeding Protocol (If Suspected):
+If clinical suspicion of varices (though less likely here):
+IV Terlipressin 2 mg 4-6 hourly OR
+IV Octreotide 50 mcg bolus, then 50 mcg/hour infusion
+Prophylactic antibiotics: IV Ceftriaxone 1 g daily
+
+Monitoring:
+
+Vital Signs:
+Hourly monitoring (or more frequent if unstable):
+Blood pressure
+Heart rate
+Respiratory rate
+Temperature
+SpO₂
+Watch for signs of ongoing bleeding or re-bleeding
+
+Fluid Balance:
+Strict input and output charting
+Insert urinary catheter (Foley catheter) for urine output monitoring
+Target urine output: greater than 0.5 ml/kg/hr (approximately 35-40 ml/hr)
+
+Clinical Assessment:
+Monitor for:
+Further haematemesis or melena
+Worsening pallor
+Deteriorating consciousness
+Signs of fluid overload (pulmonary oedema)
+
+Laboratory:
+Serial haemoglobin/PCV (every 4-6 hours initially)
+Electrolytes daily
+Coagulation if abnormal initially
+
+Definitive Management:
+
+Upper Gastrointestinal Endoscopy (Urgent):
+Timing: Within 24 hours (ideally within 12 hours given haemodynamic instability)
+Perform after adequate resuscitation (systolic BP greater than 100 mmHg)
+
+Purposes:
+Diagnostic: Identify bleeding source
+Therapeutic: Endoscopic haemostasis if active bleeding or high-risk stigmata
+
+Pre-endoscopy:
+Adequate resuscitation
+Correct coagulopathy if present
+IV prokinetic agent: Erythromycin 250 mg IV 30-60 minutes before (improves visualization)
+Informed consent
+NBM for at least 4-6 hours
+
+Endoscopic Findings Expected:
+Gastric ulcer (NSAID-induced) OR
+Duodenal ulcer
+Active bleeding (spurting vessel, oozing) OR
+High-risk stigmata (visible vessel, adherent clot)
+
+Endoscopic Therapy:
+Injection therapy: Adrenaline 1:10,000 in 4 quadrants
+Thermal coagulation: Heater probe, bipolar electrocoagulation
+Mechanical therapy: Endoclips
+Combination therapy preferred (injection plus thermal or mechanical)
+
+Post-endoscopy Rockall Score:
+Will determine prognosis and need for surgery
+
+Further Care:
+
+Nil Per Os:
+Keep patient NBM initially
+Clear fluids only once haemodynamically stable and no further bleeding for 24 hours
+Progress to soft diet then regular diet
+
+Correct Anaemia:
+Continue blood transfusion as needed
+Iron supplementation after acute phase (Ferrous sulphate 200 mg TDS)
+
+Electrolyte Correction:
+Monitor and correct any imbalances
+Hypokalaemia common
+
+NSAID Avoidance:
+Counsel patient to avoid all NSAIDs
+Explain role in causing ulcer and bleeding
+Alternative pain management: Paracetamol for back pain
+If NSAIDs essential: lowest dose, shortest duration, co-prescribe PPI
+
+Alcohol Counselling:
+Advise reduction or cessation of alcohol
+Alcohol irritates gastric mucosa and impairs healing
+
+H. pylori Testing and Eradication:
+Test for H. pylori (biopsy during endoscopy, breath test, or stool antigen after acute phase)
+If positive: Eradication therapy (triple or quadruple therapy for 14 days)
+Confirm eradication 4 weeks after treatment
+
+PPI Continuation:
+Continue high-dose PPI for 72 hours
+Then Omeprazole 40 mg BD or Pantoprazole 40 mg BD for 4-8 weeks
+Then maintenance dose: Omeprazole 20 mg daily
+
+Repeat Endoscopy:
+In 6-8 weeks to confirm ulcer healing
+If gastric ulcer: mandatory to rule out malignancy
+
+Surgical Consultation (If Indicated):
+Indications:
+Endoscopic therapy fails
+Persistent bleeding despite 2 attempts at endoscopic haemostasis
+Perforation
+Massive bleeding requiring more than 6 units transfusion
+
+PROGNOSIS
+
+Guarded pending:
+Haemodynamic stabilization
+Response to resuscitation
+Endoscopic findings
+Control of bleeding
+
+Prognostic Factors:
+
+Poor Prognostic Indicators:
+Haemodynamic instability at presentation (present)
+Active bleeding (bright red haematemesis)
+Advanced age (52 years, moderate risk)
+Comorbidities (none identified)
+
+Favourable Factors:
+Early presentation
+No chronic liver disease
+No coagulopathy
+
+Rockall Score (Pre-endoscopy):
+Age 52 years: 1 point
+Shock (SBP less than 100, HR greater than 100): 2 points
+No comorbidities: 0 points
+Total: 3 points (moderate risk, will increase with endoscopy findings)
+
+Mortality:
+Overall mortality from upper GI bleeding: 5-10%
+Higher with shock at presentation
+Reduced with early endoscopy and appropriate therapy
+
+Risk of Re-bleeding:
+10-20% within 72 hours
+Higher if high-risk endoscopic stigmata
+Reduced with high-dose PPI therapy
+
+Long-term:
+Good prognosis if:
+Bleeding controlled
+Ulcer heals
+H. pylori eradicated (if positive)
+NSAIDs avoided
+PPI maintenance therapy
+
+FOLLOW-UP
+Gastroenterology clinic in 2 weeks with endoscopy report. Repeat endoscopy in 6-8 weeks to confirm ulcer healing and rule out malignancy if gastric ulcer. H. pylori eradication test 4 weeks after treatment if positive.
+`,
+bookmarkCount: 0
+},
   // Surgery
   {
     id: 'surg-1',

@@ -11131,9 +11131,9 @@ Review: 2–4 weeks to assess metformin tolerability and review glucose logs and
   ],
   contributor: 'Admin',
   lastModified: '2026-03-14',
-  summary: 'A 52-year-old male trader from Abeokuta presenting with acute upper GI bleeding characterized by melena (2 days), haematemesis (8 hours, approximately 400-500 ml blood loss), and haemodynamic instability. Clinical features include marked pallor, tachycardia (112 bpm), hypotension (90/60 mmHg), and orthostatic dizziness. History of chronic epigastric pain (3 months, hunger-related, food-relieved) suggestive of peptic ulcer disease. Significant risk factors include frequent NSAID use (6 months) and chronic alcohol consumption (15 years). Patient is in hypovolemic shock requiring urgent resuscitation, blood transfusion, high-dose PPI therapy, and emergency upper GI endoscopy.',
+  summary: 'A 52-year-old male trader from Ibadan presenting with acute upper GI bleeding characterized by melena (2 days), haematemesis (8 hours, approximately 400-500 ml blood loss), and haemodynamic instability. Clinical features include marked pallor, tachycardia (112 bpm), hypotension (90/60 mmHg), and orthostatic dizziness. History of chronic epigastric pain (3 months, hunger-related, food-relieved) suggestive of peptic ulcer disease. Significant risk factors include frequent NSAID use (6 months) and chronic alcohol consumption (15 years). Patient is in hypovolemic shock requiring urgent resuscitation, blood transfusion, high-dose PPI therapy, and emergency upper GI endoscopy.',
   content: `
-A 52-year-old male trader, married, Yoruba, Christian, residing in Abeokuta, Ogun State.
+A 52-year-old male trader, married, Yoruba, Christian, residing in Ibadan, Oyo State.
 
 PRESENTING COMPLAINTS
 Passage of black tarry stool x 2 days
@@ -11148,7 +11148,7 @@ Around the same time, he began to experience generalized weakness and easy fatig
 
 About 1 day prior to presentation, he developed dizziness especially on standing, associated with palpitations but no loss of consciousness.
 
-Approximately 8 hours prior to presentation, he developed sudden vomiting of blood. The vomitus was initially dark red but later became bright red with clots. He has had about three episodes with an estimated total blood loss of about 400–500 mL according to the patient and relatives.
+Approximately 8 hours prior to presentation, he developed sudden vomiting of blood. The vomitus was initially dark red but later became bright red with clots. He has had about three episodes with an estimated total blood loss of about 400–500 mL, about the volume of a satchet water according to the patient and relatives.
 
 These symptoms were preceded by intermittent burning epigastric pain which has been present for about 3 months. The pain is worse when the patient is hungry and temporarily relieved by food and over-the-counter medications.
 
@@ -11156,14 +11156,14 @@ There is no hematochezia.
 No bleeding from other body sites such as gums or nose.
 No history of trauma.
 
-There is a history of frequent use of non-steroidal anti-inflammatory drugs for chronic low back pain over the past 6 months.
+There is a history of frequent use of ibuprofen for chronic low back pain over the past 6 months.
 
 There is no history suggestive of chronic liver disease such as abdominal swelling, jaundice, pruritus, easy bruising or altered level of consciousness.
 
 No history of dysphagia or significant weight loss.
 
 REVIEW OF SYSTEMS
-Cardiovascular System: Palpitations and dizziness present; No chest pain
+Cardiovascular System: Positive history of palpitations and dizziness; No chest pain
 Respiratory System: No cough, dyspnoea or haemoptysis
 Gastrointestinal System: Melena and epigastric pain present; No abdominal distension
 Genitourinary System:No dysuria, haematuria or oliguria
@@ -11190,17 +11190,11 @@ Non-smoker
 PHYSICAL EXAMINATION
 
 General Examination:
-Patient is conscious, alert but ill-looking and markedly pale
-Not jaundiced, not cyanosed
+Patient is conscious, alert but ill-looking
+Markedly pale, not jaundiced, not cyanosed
+Afebrile, temp: 36.8°C
 No pedal oedema
 No peripheral stigmata of chronic liver disease
-
-Vital Signs:
-Temperature: 36.8°C
-Pulse Rate: 112 beats/min, low volume
-Blood pressure: 90/60 mmHg
-Respiratory rate: 22 cycles/min
-SpO₂: 97% on room air
 
 Abdomen:
 Abdomen is flat and moves with respiration
@@ -11214,11 +11208,14 @@ Digital Rectal Examination:
 Black tarry stool (melena) noted on examining finger
 
 Cardiovascular System:
-Tachycardic pulse, regular rhythm
+PR: 112 beats/min, low volume, regular rhythm
+BP: 90/60 mmHg
 S1 and S2 present
 No murmurs
 
 Respiratory System:
+RR: 22 cycles/min
+SpO₂: 97% on room air
 Chest clear to auscultation bilaterally
 
 Central Nervous System:
@@ -11487,6 +11484,256 @@ PPI maintenance therapy
 
 FOLLOW-UP
 Gastroenterology clinic in 2 weeks with endoscopy report. Repeat endoscopy in 6-8 weeks to confirm ulcer healing and rule out malignancy if gastric ulcer. H. pylori eradication test 4 weeks after treatment if positive.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'im-39',
+  title: 'Acute Variceal Bleeding in Decompensated Chronic Liver Disease',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology/Hepatology',
+  condition: 'Upper gastrointestinal bleeding secondary to ruptured oesophageal varices in a patient with chronic liver disease and portal hypertension',
+  symptoms: [
+    'Abdominal swelling for 6 months (progressive)',
+    'Yellowish discoloration of eyes for 3 months',
+    'Passage of black tarry stool for 2 days (2-3 times daily)',
+    'Vomiting of blood for 12 hours (approximately 2 cupfuls, 2 episodes)',
+    'Early satiety',
+    'Bilateral leg swelling',
+    'Dark coloured urine',
+    'Generalized body itching',
+    'Generalized weakness and dizziness on standing',
+    'Easy fatigability and palpitations',
+    'Pale and mildly icteric',
+    'Hypotension (90/60 mmHg)',
+    'Tachycardia (112 bpm, thready pulse)',
+    'Stigmata of chronic liver disease (palmar erythema, spider naevi)',
+    'Ascites with shifting dullness',
+    'Splenomegaly (4 cm below left costal margin)',
+    'Dilated abdominal wall veins',
+    'Bilateral pitting pedal oedema',
+    'Chronic alcohol intake for 15 years (3-4 bottles beer daily)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-14',
+  summary: 'A 48-year-old male trader from Abeokuta presenting with acute upper GI bleeding (haematemesis and melena) on a background of decompensated chronic liver disease. Six-month history of progressive abdominal swelling (ascites), followed by jaundice (3 months), then acute bleeding (melena 2 days, haematemesis 12 hours with estimated 400-500 ml blood loss). Clinical features of chronic liver disease include ascites, jaundice, splenomegaly (4 cm), dilated abdominal wall veins, palmar erythema, spider naevi, and bilateral leg oedema. Chronic alcohol consumption (15 years, 3-4 bottles daily) is the likely aetiology. Patient is haemodynamically unstable (BP 90/60 mmHg, pulse 112 bpm thready) requiring urgent resuscitation, vasoactive therapy, and emergency endoscopy for variceal band ligation.',
+  content: `
+GASTROENTEROLOGY/HEPATOLOGY
+
+48 year old male trader who resides in Abeokuta, Ogun State. He is married, a Muslim of Yoruba ethnicity. 
+
+Informant: Patient and wife (reliable)
+
+PRESENTING COMPLAINTS
+Abdominal swelling × 6 months
+Yellowish discoloration of the eyes × 3 months
+Passage of black tarry stool × 2 days
+Vomiting of blood × 12 hours
+
+HISTORY OF PRESENTING COMPLAINTS
+Patient was apparently well until about 6 months prior to presentation when he noticed progressive abdominal swelling. The swelling was initially mild but gradually increased in size. It was not associated with abdominal pain. There was associated early satiety and occasional bilateral leg swelling.
+
+About 3 months prior to presentation, he noticed yellowish discoloration of the eyes, which was progressive and associated with dark coloured urine and occasional generalized body itching. There was no history of pale stools.
+
+About 2 days prior to presentation, he began to pass black tarry stool occurring about 2–3 times daily. The stool was offensive smelling and sticky. There was associated generalized weakness and dizziness on standing.
+
+About 12 hours prior to presentation, he had sudden onset vomiting of fresh blood, estimated to be about two cupfuls (approximately 400-500 ml). The vomiting occurred twice before presentation and was not preceded by retching. There were no food particles in the vomitus.
+No history of dysphagia, no odynophagia. 
+
+There was associated easy fatigability, palpitations and dizziness, but no loss of consciousness.
+
+No history of haematochezia, bleeding from gums, epistaxis, haematuria or easy bruising.
+No history of prior similar episode of haematemesis, although he admits to previous episodes of abdominal distension.
+No history of chronic epigastric pain, NSAID abuse or dyspepsia suggestive of peptic ulcer disease.
+
+History of chronic alcohol intake for about 15 years (approximately 3–4 bottles of beer daily).
+No history of intravenous drug use or blood transfusion.
+
+REVIEW OF SYSTEMS
+CVS: Palpitations present. No chest pain or orthopnoea.
+RS: No cough, haemoptysis or difficulty in breathing.
+CNS: No history of confusion, altered consciousness or seizures.
+GUS: No haematuria or reduced urine output.
+
+PAST MEDICAL HISTORY
+No known history of hypertension, diabetes mellitus or peptic ulcer disease
+No prior abdominal surgery
+
+DRUG HISTORY
+No history of chronic NSAID use
+No history of anticoagulant use
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of liver disease
+Patient consumes alcohol regularly for many years (3-4 bottles beer daily for 15 years)
+Does not smoke cigarettes
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Patient is acutely ill looking, pale and mildly icteric
+Not cyanosed and not dehydrated
+Afebrile, temp: 36.8°C 
+Bilateral pitting pedal oedema up to the ankles
+Stigmata of chronic liver disease: palmar erythema and spider naevi
+
+
+Abdominal Examination:
+Abdomen distended and moves with respiration
+Inspection: Visible dilated abdominal wall veins, umbilicus everted
+Palpation: No localized tenderness, liver not easily palpable, spleen palpable about 4 cm below the left costal margin
+Percussion: Evidence of shifting dullness, suggestive of ascites
+Auscultation: Bowel sounds present
+
+Digital Rectal Examination:
+Finger stained with black tarry stool (melena)
+
+CVS:
+PR: 112 bpm, thready
+BP: 90/60 mmHg
+Heart sounds S1 and S2 present, no murmurs
+
+RS:
+RS: 24 cpm 
+SpO₂: 97% on room air 
+Breath sounds vesicular with no added sounds
+
+CNS:
+Conscious and oriented to time, place and person
+No focal neurological deficit
+
+PROVISIONAL DIAGNOSIS
+
+Upper gastrointestinal bleeding secondary to ruptured oesophageal varices in a patient with chronic liver disease and portal hypertension
+
+Evidence for chronic liver disease:
+Six-month history of progressive ascites
+Jaundice for 3 months
+Stigmata of chronic liver disease: palmar erythema, spider naevi
+Splenomegaly (4 cm below left costal margin)
+Dilated abdominal wall veins (caput medusae pattern suggests portal hypertension)
+Bilateral pedal oedema
+Chronic alcohol intake (15 years, 3-4 bottles daily) likely aetiology
+
+Evidence for variceal bleeding:
+Acute haematemesis (fresh blood, no food particles, not preceded by retching)
+Melena for 2 days
+Haemodynamic instability (hypotension 90/60 mmHg, tachycardia 112 bpm)
+Background of portal hypertension (ascites, splenomegaly, dilated abdominal veins)
+No history of peptic ulcer disease or NSAID use
+
+Differential diagnoses: Bleeding peptic ulcer disease (less likely given no NSAID use or dyspepsia history), erosive gastritis, portal hypertensive gastropathy, Mallory-Weiss tear (less likely given no preceding forceful vomiting)
+
+Severity assessment: Patient is haemodynamically unstable with evidence of hypovolaemia, acute blood loss anaemia, tachycardia with thready pulse, orthostatic symptoms, and significant blood loss (estimated 400-500 ml haematemesis plus ongoing melena). This is high-risk variceal bleeding requiring urgent intervention.
+
+PLAN
+Admit 
+Resuscitation (ABC Approach)
+
+Airway: 
+Secure airway. Patient conscious but at high risk of aspiration with ongoing haematemesis. 
+Position patient lateral or semi-upright. Prepare for possible intubation if massive haematemesis, deteriorating consciousness, or need for endoscopy in unstable patient.
+
+Breathing: 
+Administer oxygen via face mask or nasal prongs. Target SpO₂ greater than 94% (currently 97%). Monitor respiratory rate.
+
+Circulation: 
+Establish two wide-bore IV cannulas (16G or 14G if possible). Send blood for urgent full blood count, blood grouping and cross-matching (prepare at least 4-6 units), LFT, 
+EUCr, 
+Coagulation profile (PT/INR), and 
+Viral markers (HBsAg, anti-HCV) if not previously done.
+
+Fluid resuscitation: 
+Begin rapid IV fluid resuscitation with 0.9% Normal Saline. Initial bolus 500 ml over 15-30 minutes, reassess haemodynamic response. Continue cautiously due to risk of worsening ascites and precipitating pulmonary oedema. 
+Target systolic BP greater than 100 mmHg. Over-resuscitation increases portal pressure and re-bleeding risk.
+
+Blood transfusion: 
+Transfuse packed red blood cells as indicated. Target haemoglobin 7-8 g/dL (restrictive transfusion strategy in variceal bleeding to avoid increasing portal pressure). Monitor for transfusion reactions. 
+Consider fresh frozen plasma if INR significantly elevated (greater than 2.5) and ongoing bleeding. 
+Consider platelet transfusion if platelet count less than 50,000/μL and ongoing bleeding.
+
+Specific Management for Variceal Bleeding
+
+Vasoactive therapy (start immediately):
+Terlipressin 2 mg IV every 4 hours (reduces portal pressure by splanchnic vasoconstriction, continue for 2-5 days)
+OR Octreotide 50 mcg IV bolus, then 50 mcg/hour continuous infusion if terlipressin not available (continue for 2-5 days)
+
+Proton pump inhibitor: 
+IV Omeprazole 40 mg 12 hourly OR IV Pantoprazole 40 mg 12 hourly (less critical in variceal bleeding but may help if concomitant peptic ulcer)
+
+Prophylactic antibiotics (essential): 
+IV Ceftriaxone 1 g 12-24 hourly. Variceal bleeding patients at high risk of spontaneous bacterial peritonitis, bacterial infections, and sepsis. Antibiotics reduce mortality and re-bleeding. Continue for 5-7 days.
+
+Lactulose: 
+Oral or via NG tube 30 ml 8 hourly to prevent hepatic encephalopathy. Adjust to achieve 2-3 soft stools daily.
+
+Monitoring
+
+Vital signs: Continuous monitoring if available, otherwise hourly vital signs (BP, pulse, RR, SpO₂). Watch for signs of ongoing bleeding or re-bleeding.
+
+Urine output: Insert urinary catheter (Foley catheter). Strict input-output monitoring. Target urine output greater than 0.5 ml/kg/hr.
+
+Nasogastric tube: Consider insertion for assessment of ongoing bleeding, gastric lavage before endoscopy, and administration of medications. May worsen bleeding in some cases, use judiciously.
+
+Clinical assessment: Monitor for further haematemesis, ongoing melena vs formed stool, mental status (hepatic encephalopathy), and abdominal distension (worsening ascites).
+
+Laboratory: 
+Serial haemoglobin/PCV every 4-6 hours initially. 
+Daily electrolytes, creatinine, and liver function tests. 
+Repeat coagulation profile as needed.
+
+Definitive Management
+
+Upper GI endoscopy (urgent): Perform within 12 hours (ideally within 6-12 hours after resuscitation). Do not delay beyond 12 hours.
+
+Pre-endoscopy preparation: 
+Adequate resuscitation (systolic BP greater than 90-100 mmHg), correct severe coagulopathy with FFP if INR greater than 2.5, platelet transfusion if less than 50,000/μL, IV Erythromycin 250 mg 30-60 minutes before endoscopy (prokinetic, improves visualization), informed consent, and anaesthesia/ICU backup available.
+
+Expected endoscopic findings: 
+Oesophageal varices (grade 2-3) with active bleeding OR high-risk stigmata (white nipple sign, red wale marks). Gastric varices may be present.
+
+Endoscopic therapy (first-line): 
+Endoscopic Variceal Ligation (EVL) preferred for oesophageal varices. Apply bands to varices starting distally, usually 4-6 bands per session. Sclerotherapy (inject sclerosant into or around varices) if EVL not available, though higher complication rate. For gastric varices: cyanoacrylate injection if available, otherwise EVL or sclerotherapy.
+
+Balloon tamponade (rescue therapy): 
+If bleeding persists despite medical therapy and while awaiting endoscopy, use Sengstaken-Blakemore tube or Minnesota tube. Inflate gastric balloon first (250-300 ml), apply traction, inflate oesophageal balloon only if needed (30-40 mmHg). Temporary measure (maximum 24 hours). High risk of complications (aspiration, oesophageal rupture, pressure necrosis). Use only in life-threatening bleeding when endoscopy unavailable.
+
+TIPS (Transjugular Intrahepatic Portosystemic Shunt): 
+Consider if failure of endoscopic and medical therapy, or recurrent bleeding despite optimal therapy. Usually considered after 2 failed endoscopic attempts. Creates shunt between portal and hepatic veins to reduce portal pressure. Performed by interventional radiologist.
+
+Management of Underlying Chronic Liver Disease
+
+Assess severity using Child-Pugh Score (based on ascites, encephalopathy, bilirubin, albumin, INR) and MELD Score (based on bilirubin, creatinine, INR) to determine prognosis and need for transplant evaluation.
+
+Ascites management: Salt restriction (less than 2 g sodium/day), fluid restriction if hyponatraemia (less than 125 mmol/L), diuretics with Spironolactone 100 mg daily and Furosemide 40 mg daily, therapeutic paracentesis if tense ascites.
+
+Hepatic encephalopathy prevention: Continue lactulose as above. Add Rifaximin 550 mg BD if recurrent encephalopathy.
+
+Nutritional support: High protein diet (1.2-1.5 g/kg/day) unless encephalopathy. Frequent small meals. Multivitamin supplementation. Thiamine if alcohol-related.
+
+Alcohol cessation: Counsel on complete alcohol abstinence (critical for liver recovery). Refer to addiction services if needed.
+
+Secondary Prophylaxis Against Re-bleeding
+
+After acute episode controlled: Start non-selective beta-blocker (Propranolol 20 mg BD or Carvedilol 6.25 mg daily). Titrate to reduce resting heart rate by 25% or to 55-60 bpm. Continue indefinitely.
+
+Repeat endoscopic variceal ligation: Every 2-4 weeks until varices eradicated. Then surveillance endoscopy every 6-12 months.
+
+Screen for hepatocellular carcinoma: Abdominal ultrasound every 6 months. Alpha-fetoprotein every 6 months.
+
+Liver transplant evaluation: Consider if Child-Pugh B or C, MELD score greater than 15, or recurrent complications.
+
+PROGNOSIS
+
+Acute variceal bleeding mortality: 15-20%. Higher mortality risk with Child-Pugh C cirrhosis, active bleeding at endoscopy, failure of initial therapy, renal failure, and sepsis. This patient has high-risk features including haemodynamic instability, significant blood loss, and likely advanced cirrhosis (ascites, jaundice, splenomegaly).
+
+Re-bleeding risk: 60-70% within 1 year without secondary prophylaxis. Reduced to 30-40% with beta-blockers and EVL.
+
+Long-term prognosis depends on severity of underlying liver disease (Child-Pugh, MELD score), alcohol cessation, control of portal hypertension, prevention of complications, and access to liver transplantation if indicated. If alcohol cessation achieved, liver may recover with improved prognosis. Continued alcohol use leads to progressive liver failure, recurrent complications, and poor prognosis.
+
+FOLLOW-UP
+Gastroenterology/hepatology clinic in 1 week after discharge. Repeat EVL every 2-4 weeks until varices eradicated. Liver transplant evaluation if Child-Pugh B/C or MELD greater than 15. Alcohol cessation support and addiction services referral.
 `,
 bookmarkCount: 0
 },

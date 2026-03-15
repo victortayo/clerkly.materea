@@ -10807,19 +10807,18 @@ Review: Daily inpatient review; reassess for step-down to oral antibiotics at 48
 
 A 57-year-old Igbo Christian married female trader, residing in Trans-Ekulu, Enugu State. 
 
-Referred from a private hospital on account of recurrent passage of dark-coloured stool and progressive generalised body weakness of approximately 2 months duration.
 
 PRESENTING COMPLAINTS
 Recurrent dark-coloured stool × 2 months
 Progressive generalised body weakness × 2 months
-Recurrent epigastric pain × 2 months
+Recurrent upper abdominal pain × 2 months
 
 HISTORY OF PRESENTING COMPLAINT
 Patient was apparently well until approximately 2 months prior to presentation (PTP) when she began to notice passage of dark-coloured, black, and tarry stool (melena) with no associated blood clots. 
 
 Around the same period she developed progressive generalised body weakness and easy fatigability, which gradually worsened.
 
-She also had recurrent epigastric pain during this period — described as a burning discomfort in the epigastric area with occasional radiation to the back, aggravated by meals and partially relieved when fasting. 
+She also had recurrent upper abdominal pain during this period — described as a burning discomfort in the epigastric area with occasional radiation to the back, aggravated by meals and partially relieved when fasting. 
 No associated vomiting, haematemesis, haematochezia, or jaundice. No abdominal swelling.
 
 There was associated dizziness and one episode of syncope prior to presentation. No convulsions, headache, loss of consciousness, neck pain, or fever. No symptoms suggestive of cardiac or renal decompensation.
@@ -10848,17 +10847,15 @@ Otherwise essentially unremarkable.
 PHYSICAL EXAMINATION
 General: Middle-aged woman, conscious and cooperative, mildly pale, anicteric, afebrile, acyanosed, not dehydrated, no bilateral pedal oedema.
 
-Vital Signs:
+Cardiovascular System: 
 PR: 110 bpm, regular, moderate volume
 BP: 116/84 mmHg
-RR: 24 cpm
-SpO₂: 99% on room air
-
-Cardiovascular System: 
 Apex beat at the 5th left intercostal space, mid-clavicular line. 
 S1 and S2 heard; no murmurs.
 
 Respiratory System: 
+RR: 24 cpm
+SpO₂: 99% on room air
 Chest moves symmetrically with respiration. 
 Trachea central. Breath sounds vesicular bilaterally; no added sounds.
 

@@ -14809,7 +14809,1464 @@ Review: Continuous inpatient review by surgical team pre- and post-operatively. 
   `,
   bookmarkCount: 0
 },
+{
+  id: 'surg-19',
+  title: 'Internal Haemorrhoids with Rectal Bleeding',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Internal haemorrhoids (likely Grade II) presenting with painless bright red rectal bleeding',
+  symptoms: [
+    'Passage of bright red blood per rectum',
+    'Blood seen on toilet paper and coating stool',
+    'Anal swelling',
+    'Mild anal discomfort',
+    'Chronic constipation with hard stools',
+    'Frequent straining at defecation',
+    'Prolonged time in toilet',
+    'Occasional minor bleeding in the past',
+    'Low-fibre diet',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-17',
+  summary: 'A 42-year-old male trader from Ibadan presenting with painless bright red rectal bleeding for 3 weeks associated with anal swelling that prolapses during defecation and reduces spontaneously. Background history of chronic constipation with hard stools and straining at defecation. Proctoscopy reveals dilated internal haemorrhoidal cushions at typical positions (3, 7, 11 o\'clock) with congested mucosa. Clinical features consistent with Grade II internal haemorrhoids. Risk factors include low-fibre diet, sedentary lifestyle, chronic constipation, and straining. No red flag features for colorectal malignancy. Requires conservative management with dietary modification, stool softeners, and topical preparations, with colonoscopy indicated given age over 40 years.',
+  content: `
 
+A 42-year-old male trader, married, Christian, Yoruba, resident in Ibadan, Oyo State.
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Passage of bright red blood per rectum × 3 weeks
+Anal swelling × 2 weeks
+Anal discomfort × 2 weeks
+
+HISTORY OF PRESENTING COMPLAINTS
+The patient was apparently well until about 3 weeks prior to presentation when he noticed passage of bright red blood per rectum, usually seen on toilet paper and occasionally coating the stool. The bleeding is small in volume, occurs during or immediately after defecation, and is not mixed with stool.
+
+There is associated history of anal swelling, which prolapses during defecation and reduces spontaneously. He also complains of mild anal discomfort, but no severe pain.
+
+There is a history of chronic constipation with passage of hard stools and frequent straining at defecation often spending prolonged time in the toilet.
+
+No history of passage of dark tarry stool, blood mixed with stool, mucus in stool, abdominal pain, change in bowel habit, weight loss, or tenesmus.
+
+No prior similar severe episodes requiring hospitalization, though there has been occasional minor bleeding in the past.
+
+No history suggestive of chronic liver disease.
+
+PAST MEDICAL HISTORY
+No history of hypertension or diabetes mellitus
+No prior anorectal surgery
+
+DRUG HISTORY
+Not on anticoagulants or NSAIDs
+No known drug allergies
+
+FAMILY HISTORY
+No family history of colorectal malignancy
+
+SOCIAL HISTORY
+Diet low in fibre
+Sedentary lifestyle
+Does not smoke cigarettes
+Takes alcohol occasionally
+
+REVIEW OF SYSTEMS
+No dizziness or syncope
+No features of anaemia
+No urinary symptoms
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Patient is not pale, not jaundiced, afebrile
+Not dehydrated, no pedal oedema
+No peripheral lymphadenopathy
+
+Vital Signs:
+Pulse: 78 bpm, regular, good volume
+BP: 120/80 mmHg
+Respiratory rate: 16 cpm
+
+Abdominal Examination:
+Abdomen is full, moves with respiration
+Soft, non-tender
+No palpable masses
+No organomegaly
+Bowel sounds normal
+
+Digital Rectal Examination (DRE):
+Good anal tone
+No palpable mass
+No tenderness
+Glove stained with bright red blood
+
+Proctoscopy Findings:
+Dilated internal haemorrhoidal cushions seen at typical positions (3, 7, 11 o'clock)
+Mucosa appears congested
+No ulceration or suspicious growth
+
+ASSESSMENT
+
+Internal haemorrhoids (likely Grade II) presenting with painless bright red rectal bleeding on a background of chronic constipation
+
+Classification of haemorrhoids:
+Grade I: Internal, do not prolapse
+Grade II: Prolapse with defecation but reduce spontaneously (this patient)
+Grade III: Prolapse with defecation, require manual reduction
+Grade IV: Permanently prolapsed, cannot be reduced
+
+Supporting features:
+Painless bright red rectal bleeding (blood on toilet paper, coating stool, not mixed with stool)
+Anal swelling that prolapses during defecation and reduces spontaneously (Grade II feature)
+Chronic constipation with straining (major risk factor)
+Haemorrhoidal cushions seen at typical positions on proctoscopy (3, 7, 11 o'clock)
+Low-fibre diet and sedentary lifestyle (contributing factors)
+Age 42 years (peak incidence 45-65 years)
+
+Differential diagnoses: Anal fissure (less likely as no severe pain), colorectal cancer (to be ruled out due to bleeding and age over 40 years), infectious colitis (unlikely as no diarrhoea or systemic symptoms), inflammatory bowel disease (unlikely, no chronic diarrhoea or systemic symptoms), rectal polyps, diverticular disease
+
+PLAN
+
+Investigations
+
+Full blood count: Assess for anaemia (haemoglobin, PCV, MCV). Chronic blood loss may cause iron deficiency anaemia. Check baseline before any intervention.
+
+Stool analysis: Microscopy, culture and sensitivity. Rule out infectious causes. Occult blood testing if indicated.
+
+Colonoscopy: Indicated in this patient because age over 40 years with new onset rectal bleeding. Rule out colorectal cancer, polyps, inflammatory bowel disease, diverticular disease. Should be performed even with obvious haemorrhoids due to age and risk of synchronous pathology.
+
+Additional tests if indicated: Proctosigmoidoscopy (if colonoscopy not immediately available), barium enema (if colonoscopy contraindicated or unavailable)
+
+Conservative Management (First-line Treatment)
+
+Dietary modification:
+High-fibre diet (25-30 g daily). Include fruits (oranges, apples, pears), vegetables (leafy greens, carrots), whole grains (brown rice, oats, wheat bread), legumes (beans, lentils)
+Adequate fluid intake (at least 2-3 litres daily) to soften stool
+Avoid processed foods low in fibre
+
+Bowel habit modification:
+Avoid straining during defecation
+Respond promptly to urge to defecate (do not delay)
+Limit time on toilet (avoid prolonged sitting, no reading or phone use)
+Proper toileting posture (squatting position or use foot stool)
+
+Lifestyle changes:
+Regular exercise (improves bowel motility, reduces constipation)
+Weight reduction if obese (reduces intra-abdominal pressure)
+Avoid heavy lifting or activities that increase intra-abdominal pressure
+
+Medical Management
+
+Stool softeners and laxatives:
+Lactulose 15-30 ml once or twice daily. Osmotic laxative, softens stool, reduces straining
+OR Polyethylene glycol (Movicol) 1-2 sachets daily
+Psyllium husk (Metamucil) 1 tablespoon in water daily (bulk-forming laxative)
+Continue for several weeks until symptoms resolve and bowel habit normalizes
+
+Topical anti-haemorrhoidal preparations:
+Proctosedyl ointment (contains hydrocortisone and local anaesthetic) applied twice daily and after each bowel movement for 7-14 days. Reduces inflammation, pain, and itching
+OR Anusol suppositories 1-2 times daily
+Do not use steroid-containing preparations for more than 2 weeks (risk of skin atrophy)
+
+Analgesics:
+Paracetamol 1 g 8 hourly if needed for discomfort
+Avoid NSAIDs (may increase bleeding risk)
+
+Sitz baths:
+Warm water sitz bath for 10-15 minutes 2-3 times daily. Provides symptomatic relief, improves hygiene
+
+Office-based Procedures (if Conservative Management Fails after 4-6 Weeks)
+
+Rubber band ligation (First-line for Grade I-III haemorrhoids):
+Outpatient procedure
+Rubber band applied to base of haemorrhoid above dentate line
+Causes ischaemic necrosis and sloughing within 7-10 days
+Success rate 70-80%
+Can treat 1-2 haemorrhoids per session, repeat sessions 4-6 weeks apart
+Complications: Pain (if band placed below dentate line), bleeding (usually minor), thrombosis, sepsis (rare)
+
+Sclerotherapy:
+Injection of sclerosant (e.g., 5% phenol in oil) into submucosa at base of haemorrhoid
+Causes fibrosis and fixation of haemorrhoidal tissue
+Less effective than rubber band ligation
+May be used for Grade I-II haemorrhoids or patients on anticoagulants
+
+Infrared coagulation:
+Heat-induced tissue coagulation
+Suitable for Grade I-II haemorrhoids
+Less effective than rubber band ligation
+
+Surgical Management (for Grade III-IV or Failed Conservative/Office Procedures)
+
+Excisional haemorrhoidectomy:
+Definitive treatment
+Indications: Grade III-IV haemorrhoids, failed office procedures, large external component, strangulated haemorrhoids
+Techniques: Open (Milligan-Morgan), closed (Ferguson), stapled haemorrhoidopexy (PPH)
+High success rate (95%)
+Complications: Pain (most common), bleeding, urinary retention, anal stenosis (rare), faecal incontinence (rare)
+Requires general or spinal anaesthesia
+Recovery time 2-4 weeks
+
+Haemorrhoidal artery ligation (HAL/THD):
+Doppler-guided ligation of terminal branches of superior rectal artery
+Reduces blood flow to haemorrhoids
+Less painful than conventional haemorrhoidectomy
+Good for Grade II-III haemorrhoids
+
+Indications for Urgent/Emergency Management
+
+Thrombosed external haemorrhoids: Excision within 48-72 hours if severe pain
+Strangulated haemorrhoids: Emergency haemorrhoidectomy
+Severe bleeding: Rarely requires emergency intervention (angiography and embolization, surgical ligation)
+
+Patient Education
+
+Nature of condition explained: Haemorrhoids are swollen blood vessels in anal canal. Very common condition. Not life-threatening but can be uncomfortable. Often related to straining, constipation, prolonged sitting.
+
+Importance of dietary modification: High-fibre diet is the cornerstone of treatment. Helps soften stool, reduces straining, prevents recurrence. Should be lifelong change.
+
+Warning signs to return immediately:
+Severe pain (may indicate thrombosis or strangulation)
+Profuse bleeding (soaking through clothes, feeling dizzy)
+Inability to reduce prolapsed haemorrhoid
+Fever or severe anal pain (may indicate infection)
+Development of new symptoms: weight loss, change in bowel habit, blood mixed with stool (may indicate colorectal cancer)
+
+Prognosis: Good with conservative management in most cases. Symptoms typically improve within 2-4 weeks. Recurrence common if dietary and lifestyle changes not maintained. Office procedures effective for Grade I-III with low recurrence rates if risk factors addressed.
+
+Need for colonoscopy: Emphasized that colonoscopy is important given age over 40 years to rule out other causes of bleeding, particularly colorectal cancer. Haemorrhoids can coexist with colorectal cancer.
+
+Realistic expectations: Conservative treatment may take several weeks to show improvement. May require office procedures or surgery if symptoms persist despite medical management. Compliance with dietary and lifestyle changes crucial for long-term success.
+
+Follow-up and Monitoring
+
+Review in 2-4 weeks with investigation results
+Assess response to conservative management
+Review colonoscopy findings
+Decide on need for office procedures or surgical referral
+
+If symptoms improve:
+Continue high-fibre diet and lifestyle modifications indefinitely
+Reduce topical treatments gradually
+Follow-up as needed
+
+If symptoms persist or worsen:
+Consider office-based procedures (rubber band ligation)
+Surgical consultation if Grade III-IV or complications
+
+Long-term:
+Annual review if recurrent symptoms
+Repeat colonoscopy as per guidelines (every 5-10 years depending on findings)
+Maintain dietary and lifestyle modifications
+
+PROGNOSIS
+
+Good prognosis with appropriate management. Most patients (80-90%) respond to conservative management with dietary modification and topical treatments. Office procedures (rubber band ligation) have 70-80% success rate for Grade II-III haemorrhoids. Surgery curative in 95% but reserved for severe cases or failed conservative treatment.
+
+Recurrence common if risk factors not addressed: 50% recurrence within 5 years if dietary and lifestyle changes not maintained. Lifelong dietary modification (high fibre, adequate fluids) essential to prevent recurrence.
+
+Quality of life generally good. Most patients can resume normal activities. Complications rare with conservative and office-based treatments.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-20',
+  title: 'Colorectal Carcinoma with Altered Bowel Habit and Constitutional Symptoms',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Colorectal cancer (likely left-sided lesion) presenting with haematochezia, altered bowel habit, and constitutional symptoms',
+  symptoms: [
+    'Passage of blood per rectum',
+    'Change in bowel habit',
+    'Reduced stool calibre',
+    'Tenesmus',
+    'Unintentional weight loss',
+    'Easy fatigability',
+    'Blood on gloved finger after DRE',
+    'Low-fibre diet, high in processed foods',
+    'Sedentary lifestyle',
+    'Age 58 years'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-17',
+  summary: 'A 58-year-old male civil servant from Abeokuta presenting with progressive symptoms highly suspicious for colorectal malignancy: passage of blood mixed with stool (3 months), altered bowel habit with alternating constipation and diarrhoea (3 months), reduced stool calibre, tenesmus, unintentional weight loss (2 months), and easy fatigability (1 month). Physical examination reveals mild to moderate pallor and chronically ill appearance. Digital rectal examination shows irregular firm mass with contact bleeding. Risk factors include age 58 years, low-fibre diet high in processed foods, and sedentary lifestyle. Clinical presentation consistent with left-sided colorectal carcinoma. Requires urgent colonoscopy with biopsy for histological diagnosis and CT staging for management planning.',
+  content: `
+A 58-year-old male civil servant, married, Christian, Yoruba, resident in Abeokuta, Ogun State. 
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Passage of blood per rectum × 3 months
+Change in bowel habit × 3 months
+Weight loss × 2 months
+Easy fatigability × 1 month
+
+HISTORY OF PRESENTING COMPLAINTS
+The patient was apparently well until about 3 months prior to presentation when he developed passage of blood per rectum. The bleeding is dark red in colour, moderate in volume, and mixed with stool. It occurs during defecation and is occasionally associated with mucus discharge, but not associated with clots. There is no associated anal pain and no prolapsing mass.
+
+Around the same time, he noticed a change in bowel habit, characterized by alternating constipation and passage of loose stools. This has been progressive, with associated reduced stool calibre and a persistent feeling of incomplete evacuation (tenesmus).
+
+About 2 months prior to presentation, he developed weight loss, which is unintentional, progressive, and occurs despite relatively preserved appetite.
+
+He also reports easy fatigability of 1 month duration, which is gradual in onset and progressive, and has begun to interfere with his daily activities. There is no history of dizziness, syncope, or palpitations.
+
+No history of passage of black tarry stool, severe anal pain, prolapse of anal mass, abdominal swelling, or vomiting.
+
+There are no symptoms suggestive of distant metastasis such as chronic cough, bone pain, or jaundice.
+
+PAST MEDICAL HISTORY
+No known hypertension or diabetes mellitus
+No prior colorectal disease
+No previous surgeries
+
+DRUG HISTORY
+Not on anticoagulants or antiplatelet agents
+No history of chronic NSAID use
+No known drug allergies
+
+FAMILY HISTORY
+No known family history of colorectal malignancy or polyps
+
+SOCIAL HISTORY
+Diet low in fibre and relatively high in processed foods
+Sedentary lifestyle
+Occasional alcohol consumption
+Non-smoker
+
+REVIEW OF SYSTEMS
+No urinary symptoms
+No neurological deficits
+No bleeding from other sites
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Chronically ill-looking middle-aged man
+Mild to moderate pallor
+Not jaundiced, afebrile
+No peripheral lymphadenopathy
+No pedal oedema
+
+Vital Signs:
+Pulse: 92 bpm, regular, moderate volume
+BP: 110/70 mmHg
+Respiratory rate: 18 cpm
+
+Abdominal Examination:
+Abdomen flat, moves with respiration
+Soft, non-tender
+No palpable masses
+No hepatosplenomegaly
+Bowel sounds present
+
+Digital Rectal Examination (DRE):
+Irregular, firm mass palpated in the rectum
+Mass is non-tender, may be circumferential, and narrows the lumen
+Surface feels irregular and bleeds on touch
+Gloved finger stained with blood
+
+Proctoscopy/Sigmoidoscopy (if done):
+Irregular, friable, ulcerated mass lesion seen
+Contact bleeding present
+
+ASSESSMENT
+
+Colorectal cancer (likely left-sided lesion) presenting with haematochezia, altered bowel habit, features of partial large bowel obstruction, constitutional symptoms, and likely anaemia
+
+Red flag features highly suspicious for malignancy:
+Age 58 years (incidence increases after age 50)
+Blood mixed with stool (not coating stool as in haemorrhoids)
+Altered bowel habit (alternating constipation and diarrhoea)
+Reduced stool calibre (suggests luminal narrowing)
+Tenesmus (persistent feeling of incomplete evacuation)
+Unintentional weight loss (2 months, progressive)
+Easy fatigability (likely from anaemia)
+Mucus discharge
+Chronically ill appearance
+Pallor (suggests anaemia from chronic blood loss)
+Irregular firm mass on DRE with contact bleeding
+
+Clinical features suggesting left-sided colorectal cancer:
+Blood mixed with stool (darker red, not bright red)
+Altered bowel habit (constipation, diarrhoea, or alternating pattern)
+Reduced stool calibre (pencil-thin stools)
+Tenesmus
+Partial obstruction features
+Left-sided lesions more likely to cause obstructive symptoms due to smaller luminal diameter and solid stool consistency
+
+Risk factors:
+Age over 50 years
+Low-fibre diet high in processed foods
+Sedentary lifestyle
+Possible family history (not reported but should be explored further)
+
+Differential diagnoses: Haemorrhoids (less likely as bleeding is mixed with stool, not coating stool, and systemic features present), diverticular disease (possible but less likely given mass on DRE), ulcerative colitis (possible but less likely without chronic diarrhoea or inflammatory symptoms), ischaemic colitis (less likely in this age group without vascular risk factors), benign polyps (possible but less likely given constitutional symptoms)
+
+PLAN
+
+Urgent Investigations
+
+Full blood count:
+Assess for anaemia (likely iron deficiency anaemia from chronic blood loss)
+Haemoglobin, PCV, MCV (microcytic anaemia expected)
+White cell count (may be elevated if perforation or infection)
+Platelet count (assess bleeding risk pre-operatively)
+
+Blood film: Hypochromic microcytic cells suggesting iron deficiency
+
+Renal function and electrolytes:
+Urea, creatinine, electrolytes
+Baseline before contrast studies and surgery
+May be deranged if obstruction or poor nutritional status
+
+Liver function tests:
+Albumin (assess nutritional status, pre-operative risk)
+Bilirubin, ALT, AST, alkaline phosphatase
+Assess for liver metastases (elevated ALP suggests hepatic involvement)
+
+Coagulation profile:
+PT/INR, aPTT
+Pre-operative assessment
+
+Tumour markers:
+Carcinoembryonic antigen (CEA)
+Elevated in 60-70% of colorectal cancers
+Baseline level important for monitoring response to treatment and detecting recurrence
+Not diagnostic but useful for follow-up
+
+Stool occult blood test:
+Likely positive
+Confirms GI blood loss
+
+Diagnostic Imaging and Endoscopy
+
+Colonoscopy with biopsy (Gold standard):
+Urgent (within 2 weeks)
+Visualize entire colon from rectum to caecum
+Identify exact location, size, and appearance of lesion
+Multiple biopsies from lesion for histological diagnosis (adenocarcinoma most common)
+Assess for synchronous lesions (present in 3-5% of cases)
+Tattooing of lesion if not easily identifiable on imaging
+Essential for diagnosis and treatment planning
+
+If colonoscopy incomplete or contraindicated:
+Flexible sigmoidoscopy with biopsy (if distal lesion)
+CT colonography (virtual colonoscopy)
+Barium enema (less commonly used now)
+
+CT scan chest, abdomen, and pelvis with IV contrast (Staging):
+Assess local extent of tumour (T stage)
+Depth of invasion through bowel wall
+Involvement of adjacent structures
+Regional lymph node involvement (N stage)
+Distant metastases (M stage): Liver (most common), lungs, peritoneum, bones
+Pre-operative staging essential for management planning
+
+MRI pelvis (if rectal cancer confirmed):
+Superior to CT for local staging of rectal tumours
+Assesses relationship to mesorectal fascia
+Determines need for neoadjuvant chemoradiotherapy
+Assesses sphincter involvement (determines if sphincter-sparing surgery possible)
+
+PET-CT scan (if available):
+Not routine
+May be useful in selected cases (e.g., equivocal liver lesions, restaging after neoadjuvant therapy)
+
+Chest X-ray:
+Screen for lung metastases
+Pre-operative assessment
+
+ECG and echocardiography (if indicated):
+Pre-operative cardiac assessment
+Especially if elderly or cardiovascular comorbidities
+
+Treatment Plan
+
+Multidisciplinary Team (MDT) Discussion:
+All colorectal cancer cases should be discussed at MDT meeting
+Team includes: Surgeons, medical oncologists, radiation oncologists, radiologists, pathologists, specialist nurses
+Determine optimal treatment strategy based on staging
+
+Definitive Treatment (Surgery):
+
+For colon cancer:
+Segmental resection with adequate margins (5 cm proximal and distal)
+En bloc resection of regional lymph nodes (minimum 12 lymph nodes for adequate staging)
+
+Specific procedures based on location:
+Right hemicolectomy: Caecal, ascending colon, hepatic flexure tumours
+Extended right hemicolectomy: Transverse colon tumours
+Left hemicolectomy: Descending colon tumours
+Sigmoid colectomy: Sigmoid colon tumours
+Primary anastomosis usually feasible
+
+For rectal cancer:
+Anterior resection: Upper and mid-rectal tumours (sphincter-sparing)
+Low anterior resection with total mesorectal excision (TME)
+Abdominoperineal resection (APR): Low rectal tumours involving sphincter (permanent colostomy)
+Local excision: Selected early rectal cancers (T1)
+
+Laparoscopic vs open surgery:
+Laparoscopic approach preferred if expertise available
+Comparable oncologic outcomes to open surgery
+Faster recovery, less pain, shorter hospital stay
+
+Emergency surgery:
+If acute obstruction, perforation, or severe bleeding
+May require Hartmann's procedure (resection with end colostomy, no anastomosis)
+Delayed anastomosis after patient stabilized
+
+Neoadjuvant Therapy (Before Surgery):
+
+For rectal cancer:
+Long-course chemoradiotherapy (if T3/T4 or node-positive on MRI)
+Given 8-12 weeks before surgery
+Reduces local recurrence
+May downstage tumour, increase chance of sphincter preservation
+Short-course radiotherapy (if borderline resectable)
+
+For colon cancer:
+Neoadjuvant therapy not routine
+May be considered for locally advanced tumours (T4b)
+
+Adjuvant Therapy (After Surgery):
+
+For colon cancer:
+Adjuvant chemotherapy if Stage III (node-positive) or high-risk Stage II
+FOLFOX regimen (5-FU, leucovorin, oxaliplatin) for 6 months
+CAPOX regimen (capecitabine, oxaliplatin) alternative
+Reduces risk of recurrence by 30-40%
+
+For rectal cancer:
+Adjuvant chemotherapy if upstaged after surgery or inadequate neoadjuvant therapy
+Same regimens as colon cancer
+
+Palliative Treatment (If Metastatic Disease):
+
+Palliative chemotherapy:
+FOLFOX or FOLFIRI (5-FU, leucovorin, irinotecan)
+Targeted therapy: Bevacizumab (anti-VEGF), cetuximab/panitumumab (anti-EGFR, if RAS wild-type)
+Improves survival and quality of life
+
+Palliative surgery:
+Resection of primary tumour even if metastatic (prevents obstruction, bleeding)
+Stenting for obstructing lesions (endoscopic or surgical)
+Defunctioning colostomy if obstruction and unresectable
+
+Supportive Care:
+Pain management
+Nutritional support
+Blood transfusion if severe anaemia
+Management of complications (obstruction, bleeding, perforation)
+
+Pre-operative Optimization
+
+Correct anaemia:
+Blood transfusion if Hb less than 7-8 g/dL
+Iron supplementation if time permits
+Erythropoietin-stimulating agents if available
+
+Nutritional support:
+High-protein, high-calorie diet
+Oral nutritional supplements
+Enteral or parenteral nutrition if severe malnutrition
+Correct electrolyte imbalances
+
+Bowel preparation:
+Mechanical bowel preparation (if colon resection)
+Oral antibiotics (neomycin, metronidazole) reduce surgical site infections
+Not required for rectal surgery
+
+Thromboembolic prophylaxis:
+High risk of VTE in cancer patients
+Low molecular weight heparin (e.g., enoxaparin 40 mg SC daily)
+Start pre-operatively, continue post-operatively
+Compression stockings
+
+Antibiotic prophylaxis:
+IV ceftriaxone 1 g plus metronidazole 500 mg
+Given 30-60 minutes before incision
+Reduces surgical site infections
+
+Patient Education and Counselling
+
+Diagnosis explained:
+High suspicion of colorectal cancer based on symptoms and examination
+Need for urgent investigations to confirm diagnosis and determine extent
+Discuss colonoscopy procedure, biopsy, and staging scans
+
+Treatment options discussed:
+Surgery is primary treatment for localized disease
+May require chemotherapy and/or radiotherapy
+Treatment plan depends on stage (determined after investigations)
+Possibility of colostomy (temporary or permanent)
+
+Prognosis discussed:
+Depends on stage at diagnosis
+Early-stage disease (Stage I-II): 5-year survival 80-90%
+Locally advanced disease (Stage III): 5-year survival 50-70%
+Metastatic disease (Stage IV): 5-year survival 10-20%
+Early detection significantly improves outcome
+
+Lifestyle modifications:
+High-fibre diet (fruits, vegetables, whole grains)
+Reduce processed and red meat consumption
+Regular physical activity
+Maintain healthy weight
+Limit alcohol consumption
+
+Psychosocial support:
+Cancer diagnosis is emotionally challenging
+Involve family in discussions
+Offer psychological counselling
+Support groups for cancer patients
+Social work referral for financial and logistical support
+
+Surveillance and Follow-up
+
+Post-operative surveillance (if curative resection):
+Clinical assessment every 3-6 months for first 2 years, then every 6 months for 3 years
+CEA monitoring every 3-6 months for 5 years
+CT chest, abdomen, pelvis annually for 3-5 years
+Colonoscopy at 1 year post-operatively, then every 3-5 years if normal
+PET-CT if rising CEA or suspected recurrence
+
+Complications to Monitor
+
+Pre-operative:
+Acute obstruction (may require emergency surgery or stenting)
+Perforation (peritonitis, sepsis)
+Severe bleeding (may require transfusion or emergency surgery)
+Anaemia (may require blood transfusion)
+
+Post-operative:
+Anastomotic leak (most serious, may require re-operation)
+Surgical site infection
+Intra-abdominal abscess
+Ileus (prolonged)
+Venous thromboembolism (DVT, PE)
+Urinary retention
+Sexual dysfunction (especially after rectal surgery)
+Stoma complications (if colostomy)
+
+Long-term:
+Local recurrence
+Distant metastases (liver, lung)
+Second primary colorectal cancer (3-5% risk)
+Chemotherapy side effects (neuropathy, neutropenia)
+Bowel dysfunction (diarrhoea, urgency, incontinence)
+
+PROGNOSIS
+
+Depends on stage at diagnosis (TNM staging):
+
+Stage I (T1-2, N0, M0): Tumour limited to submucosa or muscularis propria, no lymph node involvement. 5-year survival 90-95%.
+
+Stage II (T3-4, N0, M0): Tumour extends through muscularis propria into subserosa or beyond, no lymph node involvement. 5-year survival 70-85%.
+
+Stage III (Any T, N1-2, M0): Any depth of invasion with regional lymph node involvement. 5-year survival 50-70%.
+
+Stage IV (Any T, Any N, M1): Distant metastases present. 5-year survival 10-20%.
+
+Prognostic factors:
+Stage at diagnosis (most important)
+Grade of tumour (well-differentiated better than poorly differentiated)
+Lymphovascular invasion (worse prognosis)
+Perineural invasion (worse prognosis)
+Number of lymph nodes involved
+Response to treatment
+Patient's performance status and comorbidities
+
+Early detection significantly improves outcome. This patient's presentation with constitutional symptoms (weight loss, fatigue) and altered bowel habit suggests at least Stage II-III disease. Prompt diagnosis and treatment essential.
+
+With curative resection and appropriate adjuvant therapy, 5-year survival ranges from 50-80% depending on final stage. Even with metastatic disease, palliative chemotherapy can extend survival and improve quality of life.
+
+FOLLOW-UP
+Urgent colonoscopy with biopsy and CT staging within 2 weeks. Multidisciplinary team discussion to determine optimal treatment plan. Pre-operative optimization and surgical consultation.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-21',
+  title: 'Acute Lower Gastrointestinal Bleeding Secondary to Diverticular Disease',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Diverticular disease with acute lower GI bleeding (likely left-sided diverticular bleeding)',
+  symptoms: [
+    'Passage of bright red blood per rectum',
+    'Painless rectal bleeding',
+    'Left lower abdominal discomfort)',
+    'Dizziness',
+    'Weakness',
+    'Pallor',
+    'Mild diaphoresis',
+    'Tachycardia (108 bpm, weak volume pulse)',
+    'Hypotension (100/60 mmHg)',
+    'Mild tenderness in left lower quadrant',
+    'Glove stained with bright red blood on DRE',
+    'Age 65 years',
+    'Low-fibre diet',
+    'Sedentary lifestyle',
+    'Known hypertensive for 5 years'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-17',
+  summary: 'A 65-year-old retired civil servant from Akure presenting with acute onset painless bright red rectal bleeding (large volume, not mixed with stool) for 1 day, preceded by mild left lower abdominal discomfort for 2 days. Clinical features include haemodynamic instability (tachycardia 108 bpm, hypotension 100/60 mmHg), pallor, orthostatic dizziness, and mild left lower quadrant tenderness. No history of chronic constipation, previous GI bleeding, or colonic disease. Risk factors include age 65 years, low-fibre diet, and sedentary lifestyle. Clinical presentation consistent with acute diverticular bleeding (sudden onset, painless, large volume, elderly patient). Requires urgent resuscitation, blood transfusion, and colonoscopy after haemodynamic stabilization.',
+  content: `
+
+A 65-year-old male retired civil servant, married, Christian, Yoruba, resident in Akure, Ondo State. 
+
+PRESENTING COMPLAINTS
+Passage of bright red blood per rectum × 1 day
+Left lower abdominal discomfort × 2 days
+Dizziness × few hours
+
+HISTORY OF PRESENTING COMPLAINTS
+The patient was in his usual state of health until 1 day prior to presentation, when he noticed sudden onset of bright red blood per rectum, passed in large volume, not mixed with stool, painless, and without associated tenesmus or urgency. The bleeding was intermittent but profuse.
+There is associated body weakness.
+
+About 2 days prior, he had left lower abdominal discomfort, described as dull, mild, and intermittent, non-radiating, and not associated with nausea, vomiting, or change in bowel habit.
+
+He also complains of dizziness, gradual in onset, worsened by standing, likely secondary to acute blood loss.
+
+No history of black or tarry stools, haematemesis, fever or chills, or significant prior GI bleeding episodes.
+
+No prior abdominal surgery or known colonic disease.
+
+PAST MEDICAL HISTORY
+Hypertension diagnosed 5 years ago, controlled on amlodipine
+No diabetes mellitus
+No history of chronic constipation
+
+DRUG HISTORY
+Takes antihypertensive regularly
+No anticoagulants or NSAIDs
+No known drug allergies
+
+FAMILY HISTORY
+No family history of colorectal cancer
+
+SOCIAL HISTORY
+Diet low in fibre
+Sedentary lifestyle
+Occasional alcohol use
+Non-smoker
+
+REVIEW OF SYSTEMS
+No vomiting
+No jaundice
+No urinary symptoms
+No weight loss prior to this episode
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Elderly man, pale, mildly diaphoretic
+Not jaundiced, afebrile
+Pulse thready, weak
+Appears mildly dehydrated
+
+Vital Signs:
+Pulse: 108 bpm, regular, weak volume
+BP: 100/60 mmHg
+Respiratory rate: 20 cpm
+Temperature: 36.8°C
+
+Abdominal Examination:
+Abdomen soft, mildly tender in left lower quadrant
+No guarding or rebound tenderness
+No palpable masses
+Bowel sounds present
+
+Digital Rectal Examination (DRE):
+Anal tone normal
+No haemorrhoids or fissures
+Glove stained with bright red blood
+No palpable masses
+
+ASSESSMENT
+
+Diverticular disease with acute lower GI bleeding (likely left-sided diverticular bleeding) presenting with painless, sudden onset, large volume bright red rectal bleeding in an elderly patient
+
+Classic features of diverticular bleeding:
+Sudden onset (characteristic, no prodrome)
+Painless (distinguishes from ischaemic colitis)
+Bright red blood (haematochezia), large volume
+Not mixed with stool (colonic source)
+No tenesmus or urgency
+Elderly patient (age 65 years, diverticular disease common over 60)
+Mild preceding left lower quadrant discomfort (suggests left-sided diverticula)
+Risk factors: low-fibre diet, sedentary lifestyle, age
+
+Haemodynamic status:
+Mild to moderate hypovolaemia (tachycardia 108 bpm, hypotension 100/60 mmHg)
+Orthostatic symptoms (dizziness on standing)
+Pallor (suggests significant blood loss)
+Requires urgent resuscitation
+
+Diverticular bleeding characteristics:
+Accounts for 30-50% of lower GI bleeding in elderly
+Usually left-sided in Western populations
+Self-limiting in 70-80% of cases
+Recurrence risk 25% after first episode, 50% after second episode
+Massive bleeding in 10-15% requiring intervention
+
+Differential diagnoses: Colorectal cancer (less likely as usually presents with gradual bleeding, change in bowel habit, weight loss, and systemic features), haemorrhoids (less likely as bleeding usually small volume, associated with defecation, coating stool), angiodysplasia (possible in elderly, often causes recurrent bleeding, usually right-sided), ischaemic colitis (less likely as usually painful with bloody diarrhoea), inflammatory bowel disease (less likely given age and acute presentation), arteriovenous malformation, post-polypectomy bleeding (no recent colonoscopy)
+
+PLAN
+
+Immediate Resuscitation and Stabilization
+
+ABC approach:
+Airway: Patent, patient conscious and alert
+Breathing: Adequate, respiratory rate 20 cpm, SpO₂ monitoring
+Circulation: Priority given haemodynamic instability
+
+IV access:
+Insert two wide-bore IV cannulas (16G or 18G)
+Send blood samples for urgent investigations
+
+Fluid resuscitation:
+Commence rapid IV crystalloid infusion (0.9% Normal Saline or Ringer's Lactate)
+Initial bolus 500-1000 ml over 15-30 minutes
+Reassess haemodynamic response (BP, pulse, urine output)
+Target systolic BP greater than 100 mmHg, heart rate less than 100 bpm
+Continue fluid resuscitation as needed
+Avoid over-resuscitation (may precipitate re-bleeding)
+
+Blood transfusion:
+Transfuse packed red cells if Hb less than 7 g/dL or symptomatic anaemia (dizziness, tachycardia, hypotension)
+Target Hb 7-9 g/dL (restrictive strategy)
+May need 2-4 units initially
+Monitor for transfusion reactions
+Consider FFP if coagulopathy present (unlikely here, no anticoagulants)
+
+Monitoring:
+Vital signs every 15-30 minutes initially, then hourly when stable
+Continuous pulse oximetry
+Urine output monitoring (insert Foley catheter, target greater than 0.5 ml/kg/hr)
+Serial abdominal examination
+Monitor for ongoing bleeding (frequency, volume of rectal bleeding)
+
+Nil per os:
+Keep NPO initially
+Clear fluids only when haemodynamically stable and bleeding controlled
+Progress diet as tolerated
+
+Urgent Investigations
+
+Full blood count:
+Assess haemoglobin and haematocrit (likely low)
+May be falsely normal initially (haemodilution takes hours)
+Repeat every 4-6 hours if ongoing bleeding
+White cell count (elevated if diverticulitis, normal in uncomplicated bleeding)
+Platelet count (assess for thrombocytopenia)
+
+Blood grouping and cross-matching:
+Prepare at least 4 units of packed red cells
+Have ready for transfusion
+
+Serum electrolytes, urea and creatinine:
+Urea may be elevated (absorption of blood from GI tract)
+Urea:creatinine ratio greater than 30 suggests upper GI bleeding (less likely here)
+Assess for acute kidney injury (pre-renal from hypovolaemia)
+Check electrolyte abnormalities
+
+Coagulation profile:
+PT/INR, aPTT
+Rule out coagulopathy
+Especially important if patient on anticoagulants (not applicable here)
+
+Liver function tests:
+Baseline assessment
+Rule out chronic liver disease
+
+Diagnostic Imaging and Endoscopy
+
+Colonoscopy (after haemodynamic stabilization):
+Gold standard for diagnosis
+Timing: Within 24 hours if bleeding stops or slows (urgent colonoscopy)
+Or after adequate bowel preparation when stable
+Identify bleeding source (diverticula, angiodysplasia, polyps, tumour)
+Therapeutic intervention possible (injection, clips, coagulation)
+Requires adequate bowel preparation for optimal visualization
+
+Bowel preparation for colonoscopy:
+Polyethylene glycol solution (e.g., GoLYTELY) 4-6 litres over 3-4 hours
+Or sodium phosphate solution
+Only when haemodynamically stable
+Contraindicated if ongoing massive bleeding
+
+CT angiography (if ongoing active bleeding):
+Non-invasive
+Detects bleeding if rate greater than 0.3 ml/min
+Can localize bleeding source
+Guides therapeutic intervention
+May show diverticula, contrast extravasation into bowel lumen
+
+Nuclear medicine scan (Technetium-99m RBC scan):
+Detects bleeding if rate greater than 0.1 ml/min
+More sensitive than CT angiography
+Cannot provide anatomic detail
+Used if CT angiography negative but bleeding continues
+
+Conventional angiography:
+If active bleeding and CT angiography positive
+Therapeutic: Selective arterial embolization possible
+Detects bleeding if rate greater than 0.5-1 ml/min
+Can localize and treat bleeding source
+Risk of bowel ischaemia with embolization (5-10%)
+
+Specific Medical Management
+
+Proton pump inhibitor (not indicated):
+No role in lower GI bleeding
+Only indicated if upper GI bleeding suspected
+
+Antibiotics (if diverticulitis suspected):
+IV Ceftriaxone 1 g 12 hourly plus Metronidazole 500 mg 8 hourly
+If fever, leucocytosis, severe abdominal pain
+Not routinely indicated for uncomplicated diverticular bleeding
+
+Bowel rest:
+NPO initially
+Reduces colonic motility
+May help bleeding to stop
+
+Risk stratification:
+Identify high-risk patients (age greater than 60, comorbidities, haemodynamic instability, ongoing bleeding)
+Consider ICU/HDU admission if severe bleeding or unstable
+
+Natural History and Observation
+
+Self-limiting bleeding:
+70-80% of diverticular bleeding stops spontaneously
+Observation with supportive care
+Serial haemoglobin monitoring
+Clinical assessment for re-bleeding
+
+Re-bleeding:
+Occurs in 25% after first episode
+50% after second episode
+Higher risk if initial haemodynamic instability, transfusion requirement greater than 4 units
+
+Therapeutic Interventions (if Bleeding Persists)
+
+Colonoscopic therapy:
+If bleeding source identified during colonoscopy
+Options: Injection therapy (adrenaline), clips, thermal coagulation
+Success rate 70-80%
+Risk of perforation (1-2%)
+
+Angiographic embolization:
+If bleeding persists despite resuscitation
+Selective catheterization of bleeding vessel
+Coil or gelfoam embolization
+Success rate 80-90%
+Risk of bowel ischaemia (5-10%), recurrent bleeding (20-30%)
+
+Surgical intervention (last resort):
+Indications: Massive ongoing bleeding despite resuscitation (greater than 6 units transfusion), haemodynamic instability despite resuscitation, recurrent bleeding (2-3 episodes), failed endoscopic/angiographic therapy
+Procedures: Segmental colectomy (if bleeding site localized), subtotal colectomy (if bleeding site not localized - higher morbidity)
+Mortality 10-20% in emergency setting
+Morbidity: anastomotic leak, infection, stoma complications
+
+Long-term Management and Secondary Prevention
+
+High-fibre diet:
+20-30 g fibre daily
+Fruits, vegetables, whole grains, legumes
+Reduces intracolonic pressure
+May prevent diverticular disease progression
+May reduce recurrence risk (though evidence limited for bleeding)
+
+Adequate hydration:
+6-8 glasses water daily
+Helps prevent constipation
+
+Avoid certain foods (controversial):
+Traditionally advised to avoid nuts, seeds, popcorn
+Recent evidence suggests no benefit
+Not routinely recommended now
+
+Regular exercise:
+Reduces constipation
+May reduce diverticular disease complications
+
+Avoid NSAIDs:
+Increase risk of diverticular bleeding
+Use alternative analgesics (paracetamol)
+If NSAIDs essential, use lowest dose, co-prescribe PPI
+
+Smoking cessation (not applicable here):
+Smoking increases risk of diverticular complications
+
+Colonoscopy surveillance:
+Repeat colonoscopy in 6-12 months if not done acutely
+Rule out synchronous pathology (polyps, cancer)
+Assess for diverticular disease extent
+
+Elective segmental colectomy (consider if):
+Recurrent bleeding (2 or more episodes)
+Young patient (higher lifetime risk of recurrence)
+Massive initial bleeding requiring multiple transfusions
+Patient preference (quality of life considerations)
+Should be done electively when patient optimized (lower morbidity than emergency surgery)
+
+Patient Education and Counselling
+
+Nature of condition:
+Diverticula are small pouches in colon wall
+Bleeding occurs when vessel in diverticulum ruptures
+Common in elderly, related to diet and lifestyle
+Usually self-limiting
+
+Expected course:
+Most episodes stop spontaneously with observation and supportive care
+May require transfusion
+Rarely requires intervention (endoscopy, angiography, surgery)
+Bleeding typically stops within 24-48 hours
+
+Risk of recurrence:
+25% after first episode
+50% after second episode
+Can reduce risk with high-fibre diet
+
+Warning signs to return immediately:
+Ongoing or worsening bleeding (large volume blood per rectum)
+Dizziness, fainting, or weakness
+Severe abdominal pain
+Fever
+Altered consciousness
+
+Dietary advice:
+High-fibre diet essential for long-term management
+Adequate fluid intake
+Avoid straining at defecation
+Regular bowel habits
+
+Follow-up:
+Colonoscopy in 6-12 months if not done during admission
+Gastroenterology/surgery clinic in 4-6 weeks
+Discuss elective surgery if recurrent episodes
+
+PROGNOSIS
+
+Immediate prognosis: Acute diverticular bleeding usually self-limiting in 70-80% of cases. With appropriate resuscitation and supportive care, mortality less than 5% in stable patients. Mortality increases to 10-20% if emergency surgery required.
+
+Risk of re-bleeding: 25% after first episode, 50% after second episode, 50% after third episode. Higher risk if initial haemodynamic instability, transfusion requirement greater than 4 units, or comorbidities.
+
+Long-term prognosis: Good with appropriate management. High-fibre diet may reduce recurrence risk. Elective segmental colectomy in selected patients (recurrent bleeding) has low morbidity (5-10%) and low recurrence rate (less than 10%).
+
+Quality of life: Generally good. Most patients can return to normal activities. Dietary modification well-tolerated. Anxiety about recurrence common but manageable.
+
+FOLLOW-UP
+Repeat colonoscopy in 6-12 months if not performed during admission. Consider elective segmental colectomy if recurrent episodes.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-22',
+  title: 'Acute Infectious Colitis with Bloody Diarrhoea',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery/Gastroenterology',
+  condition: 'Infectious colitis (likely bacterial colitis - Shigellosis or Amebiasis) presenting with acute bloody diarrhoea',
+  symptoms: [
+    'Passage of bloody diarrhoea',
+    'Loose stools mixed with fresh blood and mucus',
+    'Urgency and tenesmus',
+    'Lower abdominal cramps',
+    'Fever',
+    'Chills',
+    'Nausea',
+    'Generalized weakness',
+    'Febrile',
+    'Mild pallor',
+    'Tachycardia',
+    'Mild tenderness in left lower quadrant',
+    'Hyperactive bowel sounds',
+    'Gloved finger stained with blood and mucus on DRE',
+    'Ate street food 3 days prior',
+    'Drinks unboiled water occasionally'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-17',
+  summary: 'A 33-year-old male trader from Abeokuta presenting with acute onset bloody diarrhoea (3 days, 5-6 times daily) mixed with mucus, associated with lower abdominal cramps, fever (38.5°C), urgency, tenesmus, and progressive weakness. History of eating street food 3 days prior to onset. Physical examination reveals fever, mild pallor, tachycardia (102 bpm), left lower quadrant tenderness, hyperactive bowel sounds, and blood with mucus on DRE. Clinical presentation consistent with acute infectious colitis, likely bacterial (Shigellosis) or parasitic (Amebiasis). Risk factors include consumption of street food and occasional drinking of unboiled water. Requires stool studies, rehydration, and empirical antibiotics.',
+  content: `
+A 33-year-old male trader, married, Muslim, Yoruba, resident in Abeokuta, Ogun State. 
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Passage of bloody diarrhoea × 3 days
+Lower abdominal cramps × 3 days
+Fever × 2 days
+Nausea × 2 days
+Generalized weakness × 1 day
+
+HISTORY OF PRESENTING COMPLAINTS
+The patient was well until 3 days ago, when he developed frequent passage of loose stools mixed with fresh blood and mucus. The diarrhoea is profuse (5–6 times/day), watery initially, becoming mucoid with streaks of blood, associated with urgency and tenesmus.
+
+Around the same time, he also developed lower abdominal cramps, dull and colicky in nature, intermittent, localized to the left lower quadrant, and relieved temporarily by defecation.
+
+He developed fever 2 days ago, gradual in onset, intermittent, peaking at 38.5°C, associated with chills, but no rigors.
+
+There is associated nausea without vomiting.
+
+He also complains of generalized weakness of 1-day duration, progressive, and worsened after multiple diarrhoeal episodes.
+
+No history of prior similar episodes, recent travel outside the region, haematemesis, jaundice, or chronic illnesses.
+
+Dietary history: He ate food from a street vendor 3 days prior, which may be the source of infection.
+
+PAST MEDICAL HISTORY
+No known chronic illnesses
+No prior GI disease
+No previous hospital admissions
+
+DRUG HISTORY
+Not on medications
+No known drug allergies
+
+FAMILY HISTORY
+No family history of inflammatory bowel disease or colorectal malignancy
+
+SOCIAL HISTORY
+Lives with family in urban area
+Drinks unboiled water occasionally
+Occasional alcohol use
+Non-smoker
+
+REVIEW OF SYSTEMS
+No vomiting apart from nausea
+No urinary symptoms
+No jaundice
+No weight loss
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young adult, mildly ill-looking, diaphoretic
+Febrile (38.5°C)
+Mild pallor
+Not jaundiced, not cyanosed
+Appears mildly dehydrated (reduced skin turgor)
+
+Vital Signs:
+Pulse: 102 bpm, regular, moderate volume
+BP: 110/70 mmHg
+Respiratory rate: 20 cpm
+Temperature: 38.5°C
+
+Abdominal Examination:
+Soft abdomen
+Mild tenderness in the left lower quadrant
+No guarding or rebound tenderness
+No palpable masses
+Bowel sounds hyperactive
+
+Digital Rectal Examination (DRE):
+Anal tone normal
+Gloved finger stained with blood and mucus
+No haemorrhoids or fissures
+No palpable masses
+
+ASSESSMENT
+
+Infectious colitis (likely bacterial colitis - Shigellosis or Amebiasis) presenting with acute bloody diarrhoea, lower abdominal cramps, fever, and systemic symptoms
+
+Features suggestive of infectious colitis:
+Acute onset (3 days duration)
+Bloody diarrhoea with mucus (dysentery syndrome)
+Urgency and tenesmus (rectal inflammation)
+Lower abdominal cramps (colonic inflammation)
+Fever and chills (systemic infection)
+Epidemiological link (street food 3 days prior, unboiled water consumption)
+Young previously healthy patient
+Left lower quadrant tenderness (sigmoid colon involvement)
+Hyperactive bowel sounds (colonic irritation)
+
+Most likely organisms:
+
+Bacterial causes (most common):
+Shigella species (Shigellosis) - most likely given dysentery presentation
+Very small inoculum (10-100 organisms) required
+Invades colonic mucosa causing inflammation and bloody diarrhoea
+Classic triad: bloody diarrhoea, fever, abdominal cramps
+Other bacterial causes: Campylobacter jejuni, Salmonella species, enteroinvasive E. coli (EIEC), enterohemorrhagic E. coli (EHEC)
+
+Parasitic causes:
+Entamoeba histolytica (Amebiasis, Amoebic dysentery)
+Common in developing countries
+Gradual onset compared to bacterial
+May have longer incubation period
+"Anchovy paste" or "redcurrant jelly" stool
+Can cause flask-shaped ulcers in colon
+
+Differential diagnoses: Ulcerative colitis (less likely given acute onset, fever, short duration, no prior episodes, epidemiological link to contaminated food), Crohn's disease (less likely, usually chronic, younger onset, no epidemiological link), diverticular bleeding (usually painless, sudden, elderly patients, not associated with fever or diarrhoea), colorectal cancer (less likely given young age, acute onset, fever, no weight loss or chronic symptoms), ischaemic colitis (less likely given young age, no vascular risk factors), pseudomembranous colitis (unlikely, no recent antibiotic use)
+
+Severity assessment: Mild to moderate disease (frequent bloody stools, fever, abdominal pain, but haemodynamically stable, no severe dehydration, no peritoneal signs)
+
+PLAN
+
+Immediate Assessment and Supportive Management
+
+Assess hydration status:
+Mild dehydration present (mild pallor, diaphoresis, tachycardia)
+No severe dehydration (BP stable, adequate urine output, conscious)
+Monitor input and output
+
+Fluid and electrolyte replacement:
+Oral rehydration solution (ORS) if able to tolerate oral intake
+WHO ORS formula: 1 litre after each loose stool
+Encourage adequate fluid intake (2-3 litres/day)
+If unable to tolerate oral fluids or severe dehydration:
+IV 0.9% Normal Saline or Ringer's Lactate
+500 ml over 1 hour, then reassess
+Continue at maintenance rate (approximately 100 ml/hour)
+Monitor electrolytes and replace as needed
+
+Monitor vital signs:
+4-hourly temperature, pulse, BP, respiratory rate
+Watch for signs of worsening (increased fever, tachycardia, hypotension)
+Urine output monitoring
+
+Nil per os initially:
+Keep NPO or clear fluids only until nausea resolves and diarrhoea frequency reduces
+Progress to bland diet (rice, banana, toast, boiled potatoes)
+Avoid dairy products, spicy foods, fatty foods until recovery
+BRAT diet (Banana, Rice, Applesauce, Toast)
+
+Investigations
+
+Stool studies (most important):
+Stool microscopy, culture and sensitivity
+Identify bacterial pathogens: Shigella, Salmonella, Campylobacter, E. coli
+At least 3 stool samples on different days for optimal yield
+Stool for ova, cysts and parasites
+Identify Entamoeba histolytica trophozoites or cysts
+Multiple samples increase sensitivity
+Repeat if initial negative but high clinical suspicion
+Stool for white blood cells (leucocytes)
+Presence suggests inflammatory/invasive diarrhoea
+Stool for occult blood (if gross blood not visible)
+
+Full blood count:
+Assess for leucocytosis (elevated WBC suggests bacterial infection)
+Haemoglobin and haematocrit (assess anaemia from blood loss)
+Neutrophilia common in bacterial infections
+Eosinophilia may suggest parasitic infection
+
+Serum electrolytes, urea and creatinine:
+Check for electrolyte imbalances (hypokalaemia, hyponatraemia common)
+Assess renal function (pre-renal injury from dehydration)
+Guide fluid and electrolyte replacement
+
+Blood culture (if severe or septic):
+If high fever, rigors, or signs of sepsis
+May be positive in Salmonella infections
+Less common in Shigellosis
+
+Inflammatory markers (optional):
+C-reactive protein (CRP) or erythrocyte sedimentation rate (ESR)
+Elevated in inflammatory/infectious conditions
+Helps differentiate from non-inflammatory causes
+
+Abdominal X-ray (if indicated):
+If severe abdominal pain or suspicion of toxic megacolon
+Rule out perforation or obstruction
+Not routinely required
+
+Sigmoidoscopy or colonoscopy (rarely indicated acutely):
+If diagnosis unclear after stool studies
+If symptoms persist despite treatment
+To rule out inflammatory bowel disease
+Shows mucosal inflammation, ulceration in infectious colitis
+
+Specific Antimicrobial Therapy
+
+Empirical antibiotics (while awaiting stool culture results):
+
+For moderate to severe dysentery (this patient):
+Ciprofloxacin 500 mg orally twice daily for 3-5 days
+First-line for Shigellosis
+Also covers Salmonella, Campylobacter
+Resistance increasing in some areas
+OR Azithromycin 500 mg orally once daily for 3 days
+Alternative if ciprofloxacin resistance suspected
+Good for Shigella, Salmonella, Campylobacter
+
+If Amoebic dysentery suspected or confirmed:
+Metronidazole 750 mg orally three times daily for 7-10 days
+OR Tinidazole 2 g orally once daily for 3 days
+Follow with luminal agent: Paromomycin 500 mg orally three times daily for 7 days (to eradicate intestinal cysts)
+
+Adjust antibiotics based on stool culture and sensitivity results
+
+Antibiotic considerations:
+Avoid antibiotics in mild cases (may prolong carrier state)
+Essential in moderate to severe cases with fever and bloody diarrhoea
+Avoid in EHEC/STEC infections (E. coli O157:H7) as antibiotics increase risk of haemolytic uraemic syndrome (HUS)
+
+Symptomatic Treatment
+
+Antipyretics:
+Paracetamol 1 g orally 6-8 hourly for fever
+Avoid NSAIDs (may worsen GI inflammation and bleeding)
+
+Antiemetics:
+Ondansetron 4-8 mg orally 8 hourly for nausea
+Helps improve oral intake and hydration
+
+Antidiarrhoeal agents (generally avoided):
+Loperamide and other antimotility agents contraindicated in infectious dysentery
+May worsen disease by prolonging pathogen contact with mucosa
+Increased risk of toxic megacolon
+Only consider in mild watery diarrhoea without fever or blood
+
+Probiotics (optional):
+Lactobacillus or Saccharomyces boulardii
+May reduce duration of diarrhoea
+Restore normal gut flora
+Can be started after acute phase
+
+Monitoring and Complications to Watch For
+
+Clinical monitoring:
+Frequency and nature of stools (blood, mucus, consistency)
+Fever pattern
+Abdominal pain intensity
+Urine output (adequate hydration)
+General condition and weakness
+
+Laboratory monitoring:
+Repeat FBC if anaemia suspected
+Repeat electrolytes if abnormal initially or IV fluids given
+Stool culture results (typically available in 48-72 hours)
+
+Complications to watch for:
+Severe dehydration (hypotension, oliguria, altered consciousness)
+Electrolyte imbalances (hypokalaemia causing weakness, cardiac arrhythmias)
+Toxic megacolon (abdominal distension, high fever, leucocytosis, hypotension)
+Intestinal perforation (severe abdominal pain, peritonitis, free air on X-ray)
+Haemolytic uraemic syndrome (HUS) - if EHEC infection (triad: haemolytic anaemia, thrombocytopenia, acute renal failure)
+Reactive arthritis (post-infectious, especially with Shigella, Salmonella, Campylobacter)
+Septicaemia (especially with Salmonella)
+Chronic carrier state (Salmonella)
+
+Infection Control and Prevention
+
+Isolation precautions:
+Contact precautions (gloves, gowns)
+Private room if available
+Limit visitors
+Healthcare workers: strict hand hygiene
+
+Hand hygiene:
+Handwashing with soap and water essential (alcohol-based sanitizers less effective against Shigella)
+Educate patient and family on proper handwashing technique
+Especially important after toilet use and before eating
+
+Avoid food preparation:
+Patient should not prepare food for others until two consecutive stool cultures negative (post-treatment)
+Important for food handlers
+
+Notify public health authorities:
+Reportable disease in many settings
+Contact tracing if outbreak suspected
+Investigate potential source (street vendor in this case)
+
+Patient Education and Counselling
+
+Nature of illness explained:
+Infectious colitis caused by bacteria or parasites
+Contracted through contaminated food or water
+Common in areas with poor sanitation
+
+Expected course:
+Symptoms typically improve within 3-5 days with treatment
+Stool may remain loose for 1-2 weeks
+Blood should resolve within days of treatment
+Complete recovery expected in 1-2 weeks
+
+Hygiene measures:
+Strict handwashing with soap and water
+Especially after toilet use and before eating
+Avoid sharing utensils, towels
+Clean toilet seats regularly
+
+Dietary advice:
+Clear fluids initially, progress to bland diet
+BRAT diet (Banana, Rice, Applesauce, Toast)
+Avoid dairy, spicy, fatty foods until recovery
+Resume normal diet gradually after symptoms resolve
+
+Prevention of future episodes:
+Avoid street food and unboiled water
+Drink only boiled, filtered, or bottled water
+Eat freshly cooked hot foods
+Wash fruits and vegetables thoroughly
+Proper food storage and preparation
+
+Warning signs to return immediately:
+High fever (greater than 39°C) or persistent fever despite treatment
+Worsening bloody diarrhoea or increased frequency
+Severe abdominal pain or abdominal distension
+Signs of severe dehydration (dizziness, confusion, reduced urine output)
+Vomiting preventing oral intake
+Weakness or inability to walk
+
+Medication compliance:
+Complete full course of antibiotics even if symptoms improve
+Take probiotics if prescribed
+Maintain adequate hydration throughout
+
+Follow-up and Prognosis
+
+Short-term follow-up:
+Review in 3-5 days or earlier if symptoms worsen
+Assess clinical response to treatment
+Review stool culture results
+Adjust antibiotics if needed based on sensitivity
+
+Stool culture clearance (for food handlers):
+Two consecutive negative stool cultures at least 48 hours apart
+Required before returning to food preparation work
+Not routinely required for non-food handlers
+
+Long-term follow-up:
+Most patients recover completely without sequelae
+No routine follow-up needed if complete recovery
+Colonoscopy only if symptoms persist beyond 2-4 weeks (rule out IBD)
+
+Post-infectious complications:
+Reactive arthritis (1-3% of cases, especially HLA-B27 positive)
+Irritable bowel syndrome (post-infectious IBS in 10-15%)
+Lactose intolerance (temporary, may last weeks to months)
+
+PROGNOSIS
+
+Excellent prognosis with appropriate treatment. Most cases of infectious colitis resolve completely within 1-2 weeks with supportive care and appropriate antibiotics. Mortality very low (less than 1%) in previously healthy adults with access to healthcare.
+
+Favourable prognostic factors in this patient:
+Young age (33 years)
+No comorbidities
+Haemodynamically stable
+Early presentation (3 days)
+Mild to moderate severity
+Access to healthcare and antibiotics
+
+Expected outcome:
+Fever resolution within 24-48 hours of antibiotics
+Reduction in diarrhoea frequency within 2-3 days
+Complete resolution of bloody diarrhoea within 5-7 days
+Full recovery within 1-2 weeks
+Return to normal activities within 1 week
+
+Long-term outlook: No long-term sequelae expected. Small risk of post-infectious IBS (10-15%) or reactive arthritis (1-3%). With proper hygiene and dietary precautions, recurrence unlikely.
+`,
+bookmarkCount: 0
+},
   // Obstertric & Gynecology
   {
     id: 'ob-1',

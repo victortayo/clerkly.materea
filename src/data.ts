@@ -16267,6 +16267,7 @@ Long-term outlook: No long-term sequelae expected. Small risk of post-infectious
 `,
 bookmarkCount: 0
 },
+
   // Obstertric & Gynecology
   {
     id: 'ob-1',
@@ -17575,5 +17576,404 @@ Guarded for both mother and fetus. Maternal prognosis depends on BP control, abs
 Review: Continuous inpatient review; reassess BP response to IV Labetalol within 30–60 minutes. Daily ward round by obstetric team. Medical team review as requested.
   `,
   bookmarkCount: 0
+},
+{
+  id: 'ob-10',
+  title: 'Threatened Abortion at 9 Weeks Gestation',
+  specialty: 'Obstetrics and Gynecology' ,
+  subSpecialty: 'Obstetrics/Early Pregnancy Unit',
+  condition: 'Threatened abortion at 9 weeks + 5 days gestation',
+  symptoms: [
+    'Vaginal bleeding',
+    'Lower abdominal pain',
+    'Mild suprapubic tenderness',
+    'Previous spontaneous miscarriage',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-19',
+  summary: 'A 32-year-old G3P1+1 (1 alive) booked patient at 9 weeks + 5 days gestation presenting with vaginal bleeding (8 hours) and lower abdominal pain (6 hours). Bleeding started as spotting, progressed to mild-moderate flow (bright red, no clots, approximately 2 pads used). Associated with mild suprapubic tenderness. No passage of tissue or fluid drainage. Examination reveals closed cervical os, uterus appropriate for gestational age, no adnexal masses or tenderness. Haemodynamically stable. History of previous spontaneous miscarriage at 10 weeks (2022). Current pregnancy is desired and spontaneously conceived. Clinical features consistent with threatened abortion. Requires pelvic ultrasound to confirm fetal viability and supportive management.',
+  content: `
+
+A 32-year-old G3P1+1 (1 alive), trader, Yoruba, Christian, who resides in Abeokuta, Ogun State. She is a booked patient in this facility.
+
+LMP: 10/01/2026
+ EDD: 17/10/2026
+ EGA: 9 weeks + 5 days
+
+She presented on account of:
+Vaginal bleeding × 8 hours
+Lower abdominal pain × 6 hours
+
+She was apparently well until about 8 hours prior to presentation when she noticed vaginal bleeding. Bleeding was sudden in onset, initially spotting but progressed to mild–moderate flow. Blood is bright red, not mixed with clots, and there is no passage of fleshy tissue. She has used about 2 sanitary pads which were not fully soaked.
+
+About 2 hours later, she developed lower abdominal pain which is dull, intermittent, non-radiating, and mild in severity. No known aggravating or relieving factors.
+
+No history of passage of tissue, no drainage of fluid per vaginam.
+No history of trauma, no use of abortifacients, and no prior vaginal instrumentation.
+No associated fever, foul-smelling vaginal discharge, urinary symptoms, dizziness, or fainting spells.
+
+Pregnancy is desired, spontaneously conceived, and was confirmed with a urine pregnancy test at about 5 weeks gestation. She booked for antenatal care at 8 weeks gestation and has had one clinic visit. She is on haematinics.
+No history of similar episode in this pregnancy.
+
+PAST OBSTETRIC HISTORY
+ 2018 – SVD at term of a live female baby, uneventful, child alive and well
+ 2022 – Spontaneous miscarriage at about 10 weeks gestation, managed conservatively
+
+GYNAECOLOGICAL HISTORY
+ Menarche at 13 years
+ Regular 28-day cycle, 4–5 days flow
+ No dysmenorrhea, dyspareunia, or intermenstrual bleeding
+ No prior Pap smear
+
+PAST MEDICAL/SURGICAL HISTORY
+ Not a known hypertensive, diabetic, asthmatic, or SCD patient
+ No previous surgeries
+ No known drug allergies
+
+SOCIAL HISTORY
+ Married in a monogamous setting
+ Does not smoke or take alcohol
+
+EXAMINATION
+A young woman, conscious, alert, not pale, afebrile, anicteric, not dehydrated, nil pedal edema
+
+VITAL SIGNS
+ RR: 18 cpm
+ PR: 84 bpm
+ BP: 110/70 mmHg
+Temperature: 36.8°C 
+
+ABDOMEN
+ Flat, moves with respiration
+ Mild suprapubic tenderness
+ No palpable masses
+ LoSoKo
+
+VE
+ Blood-stained vulva
+
+SPECULUM
+ Minimal blood seen in the vagina
+No active bleeding from cervical os
+Cervical os appears closed
+No products of conception seen 
+
+BIMANUAL EXAMINATION
+ Cervix closed, firm
+ Uterus bulky, corresponds to about 8–10 weeks gestation
+ No adnexal tenderness or masses
+
+
+ASSESSMENT
+
+Threatened abortion in a booked 32-year-old G3P1+1 (1 alive) at EGA of 9 weeks + 5 days
+
+Diagnosis based on:
+Vaginal bleeding in first trimester (9 weeks + 5 days)
+Lower abdominal pain (mild)
+Closed cervical os on examination
+No passage of products of conception
+Haemodynamically stable
+Uterus corresponds to gestational age
+
+Classification of early pregnancy bleeding:
+
+Threatened abortion (this patient):
+Vaginal bleeding in first trimester
+Cervical os closed
+No passage of products of conception
+Uterus corresponds to dates
+Fetal viability uncertain (requires ultrasound confirmation)
+
+Other differentials to consider:
+
+Inevitable abortion:
+Cervical os dilated
+May have membrane rupture
+Products not yet expelled
+Heavy bleeding
+
+Incomplete abortion:
+Products of conception partially expelled
+Cervical os open or closed
+Continued bleeding
+Tissue may be seen in vagina
+
+Complete abortion:
+All products expelled
+Cervical os closing or closed
+Bleeding reducing
+Uterus smaller than expected for dates
+
+Missed abortion:
+Fetal demise without expulsion
+Cervical os closed
+No bleeding initially or minimal bleeding
+Uterus smaller than expected for dates
+
+Ectopic pregnancy:
+Important differential in early pregnancy bleeding
+Usually associated with unilateral lower abdominal pain
+May have adnexal mass or tenderness
+Risk of rupture and haemorrhage
+Less likely here given closed cervical os and uterus appropriate for dates, but must be excluded with ultrasound
+
+Molar pregnancy:
+Usually larger uterus than expected for dates
+Excessive nausea and vomiting
+Snowstorm appearance on ultrasound
+Less common
+
+Risk factors for miscarriage in this patient:
+Previous miscarriage (2022 at 10 weeks) - recurrence risk 20-25%
+Maternal age 32 years (risk increases after 35 years)
+
+Prognostic factors:
+Closed cervical os (favourable)
+Minimal bleeding (favourable)
+No passage of tissue (favourable)
+Haemodynamically stable (favourable)
+Uterus appropriate for dates (favourable)
+
+PLAN
+
+Urgent Investigations
+
+Pelvic ultrasound scan (most important):
+Transvaginal ultrasound preferred in early pregnancy (better visualization)
+Transabdominal if transvaginal not available or declined
+
+Assess:
+Fetal viability (presence of fetal heartbeat at 9 weeks expected)
+Normal fetal heart rate 120-160 bpm at this gestation
+Gestational sac location (intrauterine vs ectopic)
+Gestational sac size and appearance
+Yolk sac presence
+Crown-rump length (should correlate with dates)
+Subchorionic haematoma (if present)
+Adnexal masses
+Free fluid in pouch of Douglas
+
+Findings and interpretation:
+Live intrauterine pregnancy: Continue as threatened abortion, good prognosis (80-90% continue to term)
+Missed abortion: Fetal demise confirmed, proceed with management options
+Empty gestational sac or absent fetal heartbeat: May require repeat scan in 1 week (confirm missed abortion vs incorrect dates)
+Ectopic pregnancy: Urgent management required
+
+Full blood count:
+Assess haemoglobin and haematocrit (check for anaemia from bleeding)
+White cell count (rule out infection)
+Platelet count (baseline)
+
+Blood group and genotype:
+Determine Rh status (if Rh negative, requires Anti-D immunoglobulin)
+Genotype: Rule out sickle cell disease
+
+Urinalysis:
+Rule out urinary tract infection (can cause lower abdominal pain)
+Confirm pregnancy (though already confirmed)
+
+Serum β-hCG (if ultrasound findings inconclusive):
+Quantitative β-hCG
+Serial measurements (48 hours apart)
+Doubling time in viable intrauterine pregnancy: 48-72 hours
+Non-doubling or declining suggests non-viable pregnancy
+Can help differentiate ectopic pregnancy
+
+Serum progesterone (optional):
+Low levels (less than 5 ng/ml) suggest non-viable pregnancy
+Levels greater than 25 ng/ml suggest viable pregnancy
+Intermediate levels (5-25 ng/ml) indeterminate
+Not routinely done in resource-limited settings
+
+Management
+
+Admission vs outpatient management:
+
+Admit for observation if:
+Heavy bleeding (soaking more than 1 pad per hour)
+Severe abdominal pain
+Haemodynamic instability
+Patient anxiety or lives far from hospital
+Unable to arrange urgent follow-up
+
+Manage as outpatient if:
+Minimal to moderate bleeding (this patient - 2 pads in 8 hours, not fully soaked)
+Mild pain
+Haemodynamically stable
+Reliable patient
+Easy access to hospital
+
+This patient: Can be managed as outpatient given stable vital signs, minimal bleeding, and mild symptoms. However, admission for 24-48 hours observation may be considered given previous miscarriage history and patient anxiety.
+
+Bed rest and activity restriction:
+Strict bed rest not proven to prevent miscarriage
+However, traditionally recommended
+Avoid strenuous activities, heavy lifting
+Light activities of daily living acceptable
+Pelvic rest: Avoid sexual intercourse until bleeding stops and viability confirmed (usually for 2 weeks after bleeding stops)
+
+Medications:
+
+Haematinics (continue):
+Iron: Ferrous sulphate 200 mg orally twice daily
+Folic acid: 5 mg orally once daily (higher dose given history of previous miscarriage)
+Continue throughout pregnancy
+
+Analgesics:
+Paracetamol 1 g orally 6-8 hourly as needed for pain
+Avoid NSAIDs (associated with miscarriage risk, though evidence limited)
+
+Progesterone supplementation (controversial):
+Micronized progesterone 200-400 mg orally or vaginally twice daily OR
+Dydrogesterone 10 mg orally twice daily
+May be beneficial in women with history of recurrent miscarriage
+Evidence limited for threatened abortion in general population
+Consider in this patient given previous miscarriage
+Continue until 12-16 weeks if pregnancy viable
+
+Anti-D immunoglobulin (if Rh negative):
+Dose: 250 IU (50 mcg) IM if less than 12 weeks gestation
+Within 72 hours of bleeding episode
+Prevents Rh sensitization
+Check blood group first
+
+Antibiotics:
+Not routinely indicated
+Only if signs of infection (fever, foul discharge)
+
+Antispasmodics:
+Not recommended (may mask symptoms)
+
+Reassurance and psychological support:
+Explain that threatened abortion is common (20-25% of all pregnancies)
+80-90% of threatened abortions with viable fetus on ultrasound continue to term
+Provide emotional support given previous miscarriage
+Encourage questions and address concerns
+
+Monitoring
+
+Monitor vaginal bleeding:
+Quantity (number of pads used, degree of saturation)
+Colour (bright red vs dark red vs brown)
+Presence of clots or tissue
+Progression (increasing, decreasing, stable)
+
+Monitor vital signs:
+4-6 hourly if admitted
+Watch for tachycardia or hypotension (suggest significant blood loss)
+
+Monitor abdominal pain:
+Severity, character, radiation
+Increasing pain may suggest progression to inevitable abortion or ectopic rupture
+
+Repeat ultrasound:
+If initial scan inconclusive (empty sac, no fetal heartbeat but dates uncertain)
+Repeat in 7-10 days
+If viable pregnancy confirmed, routine antenatal scans
+
+Patient Education and Counselling
+
+Nature of condition explained:
+Threatened abortion means bleeding in early pregnancy with closed cervix
+Pregnancy may still be viable
+Need ultrasound to confirm fetal viability
+Cannot predict outcome with certainty before scan
+
+Warning signs to return immediately:
+Heavy vaginal bleeding (soaking more than 1 pad per hour)
+Passage of clots or tissue (products of conception)
+Severe lower abdominal pain or cramping
+Dizziness, fainting, or weakness (suggests significant blood loss)
+Fever or foul-smelling discharge (suggests infection)
+Shoulder tip pain (suggests ectopic rupture)
+
+What to expect:
+Bleeding may continue for days to weeks
+If pregnancy viable, bleeding usually stops within 1-2 weeks
+Ultrasound will provide definitive information about pregnancy status
+If miscarriage occurs, will need further management (expectant, medical, or surgical)
+
+Activity recommendations:
+Avoid strenuous activities
+Pelvic rest (no sexual intercourse) until bleeding stops
+Can continue light activities
+Bed rest not strictly necessary but may provide psychological comfort
+
+Follow-up and Outcomes
+
+If ultrasound confirms viable intrauterine pregnancy:
+Continue antenatal care as routine
+Review in antenatal clinic within 1 week
+Reassess symptoms and repeat ultrasound if bleeding persists
+Usual first trimester screening at 11-13 weeks
+Regular antenatal visits as per protocol
+
+If ultrasound shows missed abortion:
+Counsel on management options
+Expectant management: Wait for spontaneous expulsion (up to 2 weeks)
+Medical management: Misoprostol 800 mcg vaginally, repeat if needed
+Surgical management: Manual vacuum aspiration or evacuation of retained products of conception (ERPC)
+Choice depends on patient preference, gestational age, and clinical setting
+
+If ectopic pregnancy diagnosed:
+Urgent management required
+Medical: Methotrexate (if criteria met: unruptured, stable, low β-hCG)
+Surgical: Laparoscopic salpingectomy or salpingotomy
+Emergency laparotomy if ruptured
+
+Long-term follow-up:
+If miscarriage occurs, counsel on:
+Cause usually chromosomal abnormality (50-60% of early miscarriages)
+Not preventable
+Can try again after 1-3 menstrual cycles
+Recurrent miscarriage (3 or more) requires investigation
+Subsequent pregnancy has 70-80% success rate
+
+Complications to Monitor
+
+Short-term:
+Progression to inevitable or incomplete abortion
+Heavy bleeding requiring transfusion
+Infection (septic abortion, especially if instrumentation)
+Ectopic pregnancy rupture (if misdiagnosed)
+
+Long-term:
+Recurrent miscarriage (this would be second miscarriage)
+Psychological impact (grief, anxiety in future pregnancies)
+Rh sensitization (if Rh negative and no Anti-D given)
+
+PROGNOSIS
+
+Overall good prognosis if fetal viability confirmed on ultrasound. Studies show 80-90% of threatened abortions with documented fetal cardiac activity at 8-10 weeks continue to term.
+
+Favourable prognostic factors in this patient:
+Minimal bleeding (only 2 pads, not fully soaked)
+Closed cervical os
+Mild pain only
+No passage of tissue
+Haemodynamically stable
+Uterus appropriate for gestational age
+
+Unfavourable prognostic factors:
+Previous miscarriage (20-25% recurrence risk)
+Maternal age 32 years (though risk significantly higher after 35)
+
+If pregnancy continues:
+Same risk as general obstetric population for pregnancy complications
+May have slightly increased risk of preterm delivery, low birth weight, or placental abruption (conflicting evidence)
+Routine antenatal care recommended
+
+If miscarriage occurs:
+Most early miscarriages due to chromosomal abnormalities (not preventable or recurrent)
+Can conceive again after recovery
+Success rate in next pregnancy: 70-80% after one miscarriage, 50-60% after two
+Psychological support important
+
+FOLLOW-UP
+Urgent pelvic ultrasound (within 24-48 hours) to confirm fetal viability and exclude ectopic pregnancy. Review in antenatal clinic within 1 week with ultrasound results or earlier if symptoms worsen. If viable pregnancy confirmed, continue routine antenatal care.
+  `,
+  bookmarkCount: 0
 }
+
 ];

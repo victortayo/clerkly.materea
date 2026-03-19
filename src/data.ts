@@ -17974,6 +17974,474 @@ FOLLOW-UP
 Urgent pelvic ultrasound (within 24-48 hours) to confirm fetal viability and exclude ectopic pregnancy. Review in antenatal clinic within 1 week with ultrasound results or earlier if symptoms worsen. If viable pregnancy confirmed, continue routine antenatal care.
   `,
   bookmarkCount: 0
-}
+},
+{
+  id: 'obg-3',
+  title: 'Missed Abortion at 11 Weeks Gestation',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynaecology/Early Pregnancy Unit',
+  condition: 'Missed abortion at 11 weeks + 4 days gestation',
+  symptoms: [
+    'Spotting per vaginam for 15 hours',
+    'Mild lower abdominal pain',
+    'Loss of early pregnancy symptoms',
+    'Uterus smaller than expected for dates (8-10 weeks vs 11+4 weeks)',
+    'Minimal dark red blood stains',
+    'Closed cervical os',
+    'Primigravida',
+    'Unbooked pregnancy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-19',
+  summary: 'An unbooked 34-year-old primigravida at 11 weeks + 4 days gestation presenting with minimal spotting (15 hours) and mild lower abdominal pain. History suggestive of missed abortion: loss of early pregnancy symptoms (breast tenderness and nausea previously present, now resolved), uterus size smaller than expected for dates (8-10 weeks vs 11+4 weeks EGA), closed cervical os, minimal bleeding without passage of tissue. Haemodynamically stable. Treated for vaginal discharge one week prior. Pregnancy was desired and spontaneously conceived but patient yet to book for antenatal care. Requires urgent pelvic ultrasound to confirm fetal demise and counselling on management options (expectant, medical, or surgical).',
+  content: `
+An unbooked 34-year-old G1P0+0, nurse, Yoruba, Christian, who resides at Oke-Ilewo, Abeokuta, Ogun State. She has a tertiary level of education (BSc).
+
+LMP: 02/01/2026
+EDD: 09/10/2026
+EGA: 11 weeks + 4 days
+
+PRESENTING COMPLAINT
+Spotting per vaginam × 15 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 15 hours prior to presentation when she noticed spotting per vaginam.
+
+Bleeding was minimal, seen as stains of dark red blood on her underwear, not associated with clots, and not sufficient to require use of sanitary pads.
+
+There is associated mild lower abdominal pain which is dull, insidious in onset, non-radiating, with no known aggravating or relieving factors.
+
+No history of passage of fleshy tissue or vesicles. No drainage of fluid per vaginam.
+No history of dizziness, fainting spells, or significant blood loss. No fever or foul-smelling vaginal discharge.
+No history of trauma, use of abortifacients, or prior uterine instrumentation.
+
+About one week prior to presentation, she was treated for vaginal itching and discharge at a private facility.
+
+Pregnancy was desired, spontaneously conceived, and confirmed with a urine pregnancy test. She is yet to book for antenatal care.
+
+There is history suggestive of loss of early pregnancy symptoms (previous breast tenderness and nausea which have resolved).
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycle (28/4 days)
+No dysmenorrhoea, dyspareunia, or intermenstrual bleeding
+Aware of contraception and previously used condoms
+Pap smear done in 2024 - normal
+
+PAST MEDICAL/SURGICAL HISTORY
+Not a known hypertensive, diabetic, asthmatic, epileptic, or PUD patient
+No prior surgeries
+No history of blood transfusion
+No known drug allergies
+
+SOCIAL HISTORY
+Married in a monogamous setting to a 38-year-old civil servant
+Does not smoke cigarettes or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young woman, not pale, afebrile, anicteric, acyanosed, well hydrated, no pedal oedema
+
+Vital Signs:
+RR: 22 cpm
+PR: 90 bpm, regular, full volume
+BP: 114/70 mmHg
+
+Abdominal Examination:
+Full, moves with respiration
+No significant tenderness
+Uterus corresponds to about 8–10 weeks gestation (smaller than expected for dates of 11+4 weeks)
+No palpable masses
+Liver, spleen, kidneys not palpable
+
+Pelvic Examination:
+
+Speculum examination:
+Normal vulva and vagina
+Cervix appears healthy
+Cervical os closed
+Minimal old blood in the vaginal canal
+
+Digital vaginal examination:
+Cervix central, firm, about 3 cm long
+Cervical os closed
+No active bleeding
+Uterus about 8–10 weeks size
+No adnexal tenderness or masses
+
+ASSESSMENT
+
+Missed abortion in an unbooked 34-year-old G1P0+0 at EGA of 11 weeks + 4 days
+
+Features supporting diagnosis of missed abortion:
+Fetal demise has occurred but products of conception not expelled
+Cervical os closed (distinguishes from inevitable or incomplete abortion)
+Uterus smaller than expected for gestational age (8-10 weeks size vs 11+4 weeks by dates)
+Loss of early pregnancy symptoms (breast tenderness and nausea previously present, now resolved)
+Minimal bleeding (typical of missed abortion, versus heavier bleeding in incomplete abortion)
+No passage of tissue
+Primigravida
+History of recent vaginal infection (may be coincidental)
+
+Differential diagnoses:
+Threatened abortion - less likely given uterus smaller than dates and loss of pregnancy symptoms
+Inevitable abortion - cervical os would be dilated
+Incomplete abortion - would have heavier bleeding, passage of some tissue, os may be open
+Anembryonic pregnancy (blighted ovum) - empty gestational sac, requires ultrasound confirmation
+Ectopic pregnancy - less likely given uterus corresponds to 8-10 weeks and no adnexal tenderness
+
+PLAN
+
+Counselling and Consent
+
+Explain diagnosis to patient and spouse:
+Missed abortion means fetal demise has occurred but body has not expelled pregnancy tissue
+Pregnancy is no longer viable
+Common occurrence (10-20% of clinically recognized pregnancies)
+Usually due to chromosomal abnormalities (50-60% of early miscarriages)
+Not caused by anything patient did or did not do
+No blame or fault
+
+Discuss management options:
+Three main approaches: expectant, medical, or surgical
+Each has advantages and disadvantages
+Choice depends on patient preference, clinical factors, and available resources
+All three options are safe and effective
+
+Emotional support:
+Acknowledge grief and loss
+This is a pregnancy loss, feelings of sadness are normal
+Provide time for questions
+Involve spouse in discussions
+Offer psychological counselling if needed
+
+Admission and Initial Management
+
+Admit to gynaecology emergency ward or manage as day case if patient stable and prefers outpatient management
+
+For this patient:
+Haemodynamically stable
+Minimal bleeding
+No signs of infection
+Can be managed as day case if patient prefers and reliable for follow-up
+Admission may be preferred if surgical management chosen
+
+Keep nil per os if surgical management anticipated
+
+Urgent Investigations
+
+Pelvic ultrasound scan (most important):
+Transvaginal ultrasound preferred for early pregnancy
+Confirm diagnosis of missed abortion
+Findings expected: Absent fetal cardiac activity, gestational sac may be irregular or empty, fetal pole may be visible but no heartbeat, crown-rump length inconsistent with dates
+Assess completeness (ensure no ectopic pregnancy)
+Measure gestational sac size and any fetal pole (determines method of evacuation)
+
+Packed cell volume (PCV):
+Assess for anaemia (though minimal bleeding so far)
+Baseline before any intervention
+
+Blood group and genotype:
+Determine Rh status (if Rh negative, requires Anti-D immunoglobulin)
+Genotype: Important for future pregnancies
+
+Urinalysis:
+Rule out urinary tract infection
+Baseline assessment
+
+Additional investigations if indicated:
+Coagulation profile if bleeding disorder suspected or heavy bleeding
+Full blood count
+Serum β-hCG (not routinely needed if ultrasound confirms missed abortion)
+
+Management Options
+
+After confirming missed abortion on ultrasound, discuss three management approaches:
+
+1. Expectant Management (Wait and See):
+
+Allow natural expulsion of products of conception
+No medication or surgical intervention
+May take days to weeks (average 2-3 weeks)
+Success rate: 50-80% within 2 weeks
+
+Advantages:
+Avoids medication side effects
+Avoids surgical risks
+Natural process
+No anaesthesia required
+Lower cost
+
+Disadvantages:
+Unpredictable timing (may take weeks)
+May be emotionally difficult (prolonged grieving)
+Risk of heavy bleeding requiring emergency intervention (5-10%)
+Risk of infection
+May ultimately require medical or surgical management
+Requires close follow-up
+
+Suitable for:
+Patient preference for natural approach
+Stable haemodynamically
+No signs of infection
+Reliable for follow-up
+Early gestation (less than 12 weeks)
+
+Monitoring during expectant management:
+Weekly review until expulsion complete
+Report immediately if heavy bleeding (soaking more than 2 pads per hour), severe pain, fever, or foul discharge
+Repeat ultrasound at 2 weeks to assess if complete
+If incomplete after 2-3 weeks, offer medical or surgical management
+
+2. Medical Management (Medication to Induce Expulsion):
+
+Use of prostaglandin analogue (Misoprostol) to induce uterine contractions and expel products
+
+Regimen for missed abortion at 11 weeks:
+Misoprostol 800 mcg vaginally or sublingually
+Can repeat dose after 3-4 hours if no expulsion (maximum 3 doses in 24 hours)
+Alternative: Mifepristone 200 mg orally followed by Misoprostol 800 mcg vaginally 24-48 hours later (if available, more effective)
+
+Success rate:
+Single dose: 70-80%
+Repeat doses: 85-95%
+Success higher if Mifepristone pre-treatment used
+
+Advantages:
+Avoids surgery and anaesthesia
+Can be done as outpatient
+Patient has more control
+Natural process (feels more physiological)
+Lower cost than surgery
+
+Disadvantages:
+Side effects: Pain, nausea, vomiting, diarrhoea, fever, chills
+Heavy bleeding expected (may be frightening)
+May pass products at home (can be distressing)
+May require analgesia
+5-10% may still require surgical evacuation if incomplete
+Takes hours to days
+Requires follow-up to confirm complete expulsion
+
+Contraindications:
+Haemodynamic instability
+Severe anaemia
+Bleeding disorder
+Known allergy to Misoprostol
+Ectopic pregnancy
+
+Patient preparation:
+Provide detailed counselling on what to expect
+Adequate analgesia: Paracetamol 1 g orally, NSAIDs (e.g., Ibuprofen 400-600 mg) if no contraindication
+Antiemetics: Ondansetron 4-8 mg orally as needed
+Antibiotics: Doxycycline 100 mg BD for 7 days (prophylaxis)
+Use pads not tampons
+Expect heavy bleeding with clots, cramping pain
+May pass recognizable tissue
+Seek immediate help if soaking more than 2 pads per hour for 2 consecutive hours, severe pain unrelieved by analgesia, fever, or dizziness
+
+Follow-up after medical management:
+Review in 1 week
+Repeat ultrasound or serum β-hCG at 1-2 weeks to confirm complete expulsion
+If incomplete, offer surgical evacuation
+
+3. Surgical Management (Evacuation of Retained Products of Conception):
+
+Manual Vacuum Aspiration (MVA) or Dilatation and Curettage (D&C)
+
+MVA preferred:
+Less traumatic
+Can be done under local anaesthesia with sedation or general anaesthesia
+Uses gentle suction via plastic cannula
+Lower risk of uterine perforation compared to sharp curettage
+Can be done as day case
+
+Procedure:
+Cervical preparation: Misoprostol 400 mcg vaginally or sublingually 3-4 hours before procedure (softens cervix, reduces need for dilatation)
+Anaesthesia: Paracervical block with lignocaine 1% or general anaesthesia if preferred
+Cervical dilatation if needed (gently dilate to size corresponding to gestational weeks)
+Suction evacuation using appropriate cannula size (8-12 mm for 11 weeks)
+Ensure complete evacuation (gritty feel when cavity empty)
+Send products for histology
+
+Success rate:
+Greater than 99% complete evacuation
+
+Advantages:
+Immediate, predictable, definitive
+Completes in one procedure (usually 10-15 minutes)
+Can be scheduled
+Products obtained for histology (confirm intrauterine pregnancy, rule out molar pregnancy)
+Lower risk of ongoing bleeding compared to expectant or medical
+
+Disadvantages:
+Requires anaesthesia (risks)
+Surgical risks: Uterine perforation (1 in 1000), cervical injury, haemorrhage, infection
+Asherman syndrome (intrauterine adhesions) rare but possible
+Higher cost
+Requires theatre time/resources
+Emotionally may feel more invasive
+
+Indications for surgical management (preferred or necessary):
+Patient preference
+Failed expectant or medical management
+Heavy bleeding or haemodynamic instability
+Signs of infection
+Suspected molar pregnancy
+Gestation greater than 12 weeks (usually)
+Coagulopathy (avoid prolonged bleeding)
+
+Post-procedure care after surgical evacuation:
+Observe for 2-4 hours (vital signs, bleeding)
+Analgesics
+Antibiotics: Doxycycline 100 mg BD for 7 days or Azithromycin 1 g single dose
+Ergometrine 0.5 mg IM (optional, to reduce bleeding)
+Advise expected light bleeding for 7-14 days
+No sexual intercourse for 2 weeks
+No tampons, no vaginal douching
+Report immediately if heavy bleeding, severe pain, fever, or foul discharge
+
+This Patient - Recommendation:
+
+Given:
+Primigravida (first pregnancy, significant loss)
+Unbooked (may benefit from direct, definitive management)
+Nurse (good understanding of medical processes)
+Stable haemodynamically
+11 weeks gestation
+
+Reasonable options:
+Medical management: Good success rate at this gestation, avoids surgery, can be done as outpatient
+Surgical management (MVA): Definitive, immediate, predictable, allows histology
+
+Discuss both options, respect patient preference
+If patient uncertain, medical management can be attempted first with surgical backup if incomplete
+
+Supportive Care
+
+Analgesics:
+Paracetamol 1 g orally 6-8 hourly as needed
+NSAIDs (Ibuprofen 400-600 mg TDS) if no contraindication - effective for cramping pain
+
+Haematinics:
+Iron supplementation: Ferrous sulphate 200 mg BD
+Folic acid 5 mg daily
+Start after procedure, continue for 3 months
+
+Antibiotics:
+Prophylactic antibiotics recommended with medical or surgical management
+Doxycycline 100 mg orally BD for 7 days OR
+Azithromycin 1 g orally single dose
+Reduces risk of post-abortion infection
+
+Anti-D immunoglobulin (if Rh negative):
+Dose: 250 IU (50 mcg) IM for gestation less than 12 weeks
+Give within 72 hours of procedure or onset of bleeding
+Prevents Rh sensitization in future pregnancies
+
+Contraception counselling:
+Discuss future family planning
+Fertility returns immediately after miscarriage
+Can conceive within weeks
+Offer contraception if pregnancy not desired immediately
+Options: Combined oral contraceptive pills, progestogen-only pills, injectables, IUD (can insert immediately after surgical evacuation), implants, condoms
+
+Post-Evacuation Care
+
+Histology:
+Send all products of conception for histopathology
+Confirm intrauterine pregnancy (exclude ectopic)
+Rule out molar pregnancy (hydatidiform mole)
+Assess for chromosomal abnormalities if recurrent miscarriage
+
+Monitor for complications:
+Excessive bleeding (soaking more than 2 pads per hour for 2 hours)
+Infection (fever, foul discharge, severe pain)
+Retained products (persistent bleeding, positive pregnancy test after 2 weeks)
+
+Warning signs explained to patient:
+Heavy vaginal bleeding (soaking more than 2 pads per hour)
+Severe lower abdominal pain unrelieved by analgesia
+Fever (temperature greater than 38°C)
+Foul-smelling vaginal discharge
+Dizziness or fainting
+Should return immediately if any of these occur
+
+Follow-up and Long-term Management
+
+Short-term follow-up:
+Review in clinic within 1–2 weeks
+Assess general wellbeing
+Review histology results
+Confirm complete evacuation (bleeding settled, negative pregnancy test)
+Repeat ultrasound if incomplete evacuation suspected
+
+Contraception:
+Discuss and offer contraception as appropriate
+Fertility returns immediately
+Can conceive before next menstrual period
+If pregnancy desired, can try again after 1-3 menstrual cycles (though evidence shows no increased risk if conceive sooner)
+
+Emotional and psychological support:
+Acknowledge grief and loss
+Normal to feel sadness, anger, guilt
+Encourage expressing feelings
+Involve partner in discussions
+Offer follow-up counselling
+Support groups for pregnancy loss
+Most women cope well but some develop depression or anxiety
+
+Counselling on future pregnancies:
+Reassure: Most women go on to have successful pregnancies
+Risk of recurrence after one miscarriage: 15-20% (only slightly higher than general population)
+No special investigations needed after single miscarriage
+Preconception care for next pregnancy: Folic acid 5 mg daily starting 3 months before conception
+Book early for antenatal care next pregnancy
+
+When to investigate for recurrent miscarriage:
+After 3 or more consecutive miscarriages
+Investigations include: Parental karyotyping, antiphospholipid antibodies, lupus anticoagulant, pelvic ultrasound (uterine anomalies), thyroid function
+
+PROGNOSIS
+
+Excellent prognosis for future fertility after single missed abortion.
+
+Overall:
+70-85% of women who have one miscarriage go on to have successful subsequent pregnancy
+Miscarriage usually due to sporadic chromosomal abnormality (not recurrent)
+No impact on long-term fertility
+
+After expectant management:
+50-80% complete expulsion within 2 weeks
+5-10% may develop heavy bleeding requiring intervention
+Low risk of infection if no instrumentation
+
+After medical management:
+85-95% complete evacuation (may require repeat doses)
+5-10% require surgical completion
+Slightly higher infection risk than surgery but still low with prophylactic antibiotics
+
+After surgical management:
+Greater than 99% complete evacuation
+Very low risk of complications (uterine perforation less than 1 in 1000, infection 1-2%)
+Asherman syndrome rare (less than 1%) with gentle technique
+
+Complications rare with appropriate management:
+Post-abortion haemorrhage requiring transfusion: less than 1%
+Sepsis: less than 1% with prophylactic antibiotics
+Long-term fertility issues: very rare after single D&C/MVA
+
+Psychological impact:
+Most women cope well
+10-20% experience significant grief, depression, or anxiety
+Risk factors: First pregnancy, lack of social support, previous mental health issues
+Improves with time and support
+
+FOLLOW-UP
+Review in clinic within 1–2 weeks with histology results to confirm complete evacuation and assess general wellbeing. Offer contraception counselling and emotional support. Preconception counselling and folic acid supplementation before next pregnancy.
+  `,
+  bookmarkCount: 0
+},
 
 ];

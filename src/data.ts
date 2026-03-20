@@ -3421,7 +3421,7 @@ Key Points:
   bookmarkCount: 0
   }, 
   {
-    id: 'peds-2',
+    id: 'peds-26',
     title: 'Severe Acute Malnutrition Complicated by Acute Gastroenteritis',
     specialty: 'Pediatrics',
     subSpecialty: 'Pediatric Nutrition/Gastroenterology',
@@ -3520,7 +3520,6 @@ Key Points:
   Mother: 25-year-old petty trader with primary education
   Parental genotype unknown
   
-  Living conditions:
   Reside in a rented apartment in a compound setting
   Source of water: borehole
   Waste disposal: open dumping
@@ -3921,6 +3920,532 @@ Key Points:
   
   FOLLOW-UP
   Weekly follow-up in nutrition clinic until weight-for-length above -2 Z score or MUAC above 12.5 cm. Continue RUTF or high-energy foods at home. Growth monitoring monthly for 6 months. Address underlying socioeconomic factors. 
+`,
+bookmarkCount: 0
+},
+{
+  id: 'pd-3',
+  title: 'Acute Bacterial Meningitis with Raised Intracranial Pressure',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Pediatric Neurology/Infectious Diseases',
+  condition: 'Acute bacterial meningitis with features of raised intracranial pressure',
+  symptoms: [
+    'Fever',
+    'Vomiting',
+    'Convulsions',
+    'Altered level of consciousness',
+    'Neck stiffness',
+    'Photophobia',
+    'Irritability and persistent crying',
+    'Poor feeding and reduced activity',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-20',
+  summary: 'A 3-year-old male child from Lagos presenting with acute bacterial meningitis features: fever (4 days), vomiting (3 days), generalized tonic-clonic seizures (3 episodes in 1 day), and progressive alteration of consciousness (12 hours). Physical examination reveals drowsiness with GCS 10/15 (E3 V3 M4), fever 39.0°C, neck stiffness with positive meningeal signs (Kernig and Brudzinski), increased tone, and brisk reflexes. History of preceding upper respiratory tract infection one week prior. Not fully immunized (missed pentavalent vaccine doses). No petechial rash noted. Clinical presentation consistent with acute bacterial meningitis with raised intracranial pressure. Requires urgent empirical antibiotics, seizure control, and careful fluid management. Lumbar puncture deferred until raised ICP excluded with neuroimaging.',
+  content: `
+A 3-year-old male child who resides with his parents in Ojo area of Lagos State. He is from a Yoruba Christian family and is the second of three children in a monogamous setting.
+
+Informant: Mother (reliable)
+
+PRESENTING COMPLAINTS 
+Fever × 4 days
+Vomiting × 3 days
+Convulsions × 1 day
+Altered level of consciousness × 12 hours
+
+HISTORY OF PRESENTING COMPLAINTS
+The child was apparently well until 4 days prior to presentation when he developed fever, which was high-grade, continuous, and not quantified. It was temporarily relieved by paracetamol. No associated chills or rigor.
+
+Three days prior to presentation, he developed vomiting, occurring about 3–4 episodes per day. Vomitus contained recently ingested food, was non-projectile, non-bilious, and not blood-stained.
+
+One day prior to presentation, the child developed convulsions, described as generalized tonic-clonic seizures involving all limbs, associated with up-rolling of the eyes and loss of consciousness. Each episode lasted about 2–3 minutes and was followed by post-ictal drowsiness. There were about 3 episodes prior to presentation. No history of focal seizures.
+
+About 12 hours prior to presentation, the child developed altered level of consciousness, initially manifesting as reduced interaction and excessive sleepiness, progressing to difficulty in arousal.
+
+There is associated neck stiffness, photophobia, irritability, and persistent crying.
+There is also poor feeding and reduced activity.
+
+No history of head trauma.
+No history of ear discharge, though there was a history of preceding catarrh about a week prior.
+No history suggestive of ingestion of toxins.
+
+PRIOR CARE
+He was initially managed at a nearby patent medicine vendor where he received oral medications (details unknown) with no improvement, following which he presented to this facility.
+
+FEEDING AND NUTRITIONAL HISTORY
+Previously feeding adequately on family diet
+No recent change in diet
+Currently has poor oral intake due to illness
+
+PAST MEDICAL HISTORY
+No prior history of seizures
+No known chronic illness (e.g., sickle cell disease)
+No previous hospital admissions
+No history of CNS infections
+
+PRENATAL AND BIRTH HISTORY
+Mother had antenatal care at a private hospital
+Good ANC attendance
+Received tetanus toxoid
+Took routine ANC medications
+Pregnancy was uneventful
+Delivered via spontaneous vaginal delivery, cried immediately after birth, no history suggestive of birth asphyxia
+Birth weight could not be recalled
+
+IMMUNIZATION HISTORY
+Not fully immunized for age (missed some doses of pentavalent vaccine)
+
+DEVELOPMENTAL HISTORY
+Developmental milestones appropriate for age prior to illness
+
+FAMILY AND SOCIAL HISTORY
+Second of three children in a monogamous family
+Father: 42-year-old artisan with secondary education
+Mother: 30-year-old trader with secondary education
+
+Living conditions:
+Reside in a crowded compound
+Source of water: well water
+Waste disposal: open dumping
+Sewage: pit latrine
+
+REVIEW OF SYSTEMS
+CNS: Convulsions, altered consciousness, irritability
+CVS: No cyanosis, no oedema
+Respiratory: No difficulty in breathing
+GIT: Vomiting, no diarrhoea
+Genitourinary: No reduction in urine output
+
+DRUG HISTORY
+Received paracetamol and unidentified medications prior to presentation
+No known drug allergies
+
+PHYSICAL EXAMINATION
+
+General Examination:
+An acutely ill-looking child, drowsy, febrile (T: 39.0°C), not pale, anicteric, not cyanosed
+Not dehydrated
+No peripheral oedema
+No significant lymphadenopathy
+
+Vital Signs:
+PR: 132 bpm
+RR: 38 cpm
+BP: 95/60 mmHg
+SpO₂: 97% in room air
+
+Anthropometry:
+Appropriate for age
+
+Central Nervous System:
+GCS 10/15 (E3 V3 M4)
+Neck stiffness: Present
+Positive Kernig's and Brudzinski's signs
+No cranial nerve palsy elicited
+Pupils: Equal and reactive to light
+Tone: Increased
+Reflexes: Brisk
+No obvious focal neurological deficit
+
+Respiratory System:
+RR: 38 cpm
+No respiratory distress
+Vesicular breath sounds
+
+Cardiovascular System:
+PR: 132 bpm, regular
+Heart sounds S1, S2 only
+No murmur
+
+Abdomen:
+Full, moves with respiration
+Soft, non-tender
+No organomegaly
+
+Skin:
+No petechial rash noted
+
+BEDSIDE INVESTIGATIONS
+PCV: 34%
+RBG: 82 mg/dL
+Malaria RDT: Negative
+
+ASSESSMENT
+
+Acute bacterial meningitis with features of raised intracranial pressure
+
+Diagnosis based on:
+Classic triad of meningitis: fever, neck stiffness, altered mental status
+Meningeal signs: positive Kernig's and Brudzinski's signs
+Progressive symptoms: fever (4 days), vomiting (3 days), seizures (1 day), altered consciousness (12 hours)
+Features of raised intracranial pressure: altered consciousness (GCS 10/15), vomiting, seizures
+Age 3 years (peak age for bacterial meningitis in children)
+Incomplete immunization (missed pentavalent vaccine doses including Hib component)
+History of preceding upper respiratory tract infection (possible entry point)
+Tachycardia and tachypnoea (systemic inflammatory response)
+
+Likely organisms:
+Streptococcus pneumoniae (most common in this age group, especially if incompletely immunized)
+Haemophilus influenzae type b (Hib) - risk increased due to incomplete immunization
+Neisseria meningitidis
+Group B Streptococcus (less likely at this age)
+
+Risk factors present:
+Incomplete immunization (missed Hib vaccine)
+Crowded living conditions
+Poor sanitation (well water, open waste dumping, pit latrine)
+Preceding upper respiratory tract infection
+Age 3 years (vulnerable age group)
+
+Features of raised intracranial pressure:
+Altered consciousness (GCS 10/15)
+Repeated vomiting
+Seizures (3 episodes)
+Drowsiness progressing to difficulty in arousal
+
+Differential diagnoses:
+Cerebral malaria (malaria RDT negative, less likely)
+Viral encephalitis (HSV, enterovirus - possible but bacterial meningitis more likely)
+Sepsis with encephalopathy (possible but meningeal signs suggest CNS focus)
+Brain abscess (less likely, no focal neurological deficit)
+Tuberculous meningitis (less acute presentation usually)
+Acute demyelinating encephalomyelitis (ADEM) - post-infectious, less likely
+
+PLAN
+
+Admission
+Admit into Children Emergency Unit (or Pediatric Intensive Care Unit if available)
+High-dependency monitoring required
+Inform consultant pediatrician immediately
+Potential for rapid deterioration (seizures, respiratory failure, shock)
+
+Immediate Management (ABC Approach)
+
+Airway:
+Maintain airway patency
+Position child appropriately (recovery position if drowsy)
+Suction secretions if needed
+Prepare for intubation if GCS drops further (GCS less than 8) or respiratory failure
+
+Breathing:
+Oxygen via nasal prongs 2-4 L/min
+Target SpO₂ greater than 94%
+Monitor respiratory rate and effort
+Watch for apnea or respiratory depression (sign of brainstem compression)
+
+Circulation:
+Secure IV access (two large-bore cannulas if possible)
+Send blood samples for urgent investigations before starting antibiotics
+Monitor vital signs closely (pulse, BP, capillary refill time)
+Watch for signs of septic shock (hypotension, tachycardia, poor perfusion)
+
+Urgent Investigations
+
+Before starting antibiotics (collect samples but do not delay antibiotics):
+
+Blood tests:
+Full blood count (assess leucocytosis, neutrophilia, thrombocytopenia)
+Blood culture (two sets from different sites if possible)
+Serum electrolytes, urea, creatinine (assess for SIADH, renal function)
+Random blood glucose (already done: 82 mg/dL, adequate)
+C-reactive protein (CRP) or procalcitonin if available (assess severity of infection)
+Coagulation profile (PT, aPTT - if DIC suspected)
+
+Malaria parasite test:
+Thick and thin blood films (RDT already negative but confirm)
+
+Lumbar puncture for CSF analysis (most important diagnostic test):
+Indications: Suspected meningitis
+Contraindications (defer LP if present):
+Signs of raised intracranial pressure (papilloedema, focal neurological signs, declining GCS, hypertension with bradycardia)
+Cardiovascular instability or respiratory compromise
+Coagulopathy or thrombocytopenia (platelets less than 50,000/μL)
+Infection at LP site
+
+This patient has features of raised ICP (altered consciousness GCS 10/15, repeated seizures, vomiting):
+Consider neuroimaging (CT brain) before LP if available
+If CT not available: Clinical assessment for papilloedema (fundoscopy)
+If no papilloedema and haemodynamically stable: Can proceed with LP cautiously
+If signs of brainstem herniation (Cushing's triad, blown pupil, posturing): Do NOT perform LP
+
+LP procedure (if no contraindications):
+Position: lateral decubitus
+L3-L4 or L4-L5 interspace
+Measure opening pressure (elevated in bacterial meningitis: greater than 20 cmH₂O)
+Collect CSF (4 tubes, 1-2 ml each):
+Tube 1: Biochemistry (protein, glucose)
+Tube 2: Microbiology (Gram stain, culture, sensitivity)
+Tube 3: Cell count and differential
+Tube 4: Additional tests (Indian ink, Ziehl-Neelsen stain, GeneXpert if TB suspected)
+
+Expected CSF findings in bacterial meningitis:
+Appearance: Turbid or purulent
+WBC: Greater than 1000 cells/μL (predominantly neutrophils greater than 80%)
+Protein: Elevated (greater than 100 mg/dL, often greater than 200 mg/dL)
+Glucose: Low (CSF:serum glucose ratio less than 0.4)
+Gram stain: May show organisms (positive in 60-90%)
+Culture: Identifies organism and sensitivities (positive in 70-85% if antibiotics not yet started)
+
+If LP deferred (signs of raised ICP):
+Start empirical antibiotics immediately
+Perform LP after 24-48 hours when clinically stable and ICP controlled
+Or obtain neuroimaging first
+
+Neuroimaging (if available):
+CT brain (non-contrast):
+Assess for raised ICP (effacement of sulci, compressed ventricles, midline shift)
+Rule out space-occupying lesion (abscess, mass)
+Look for complications (hydrocephalus, cerebral oedema, empyema)
+Perform before LP if signs of raised ICP
+
+Empirical Antibiotic Therapy (Start Immediately - Do Not Wait for LP Results)
+
+Time is critical: Every hour delay in antibiotics increases mortality
+Start within 1 hour of presentation
+
+First-line regimen for age 3 years:
+IV Ceftriaxone 100 mg/kg/day in two divided doses (or 50 mg/kg 12-hourly)
+For this child (estimated weight 15 kg): 750 mg IV 12-hourly
+OR IV Cefotaxime 200 mg/kg/day in four divided doses
+
+Duration: Minimum 10-14 days (adjust based on organism identified and clinical response)
+
+If concern for penicillin-resistant Streptococcus pneumoniae (incompletely immunized, previous antibiotics):
+Add IV Vancomycin 60 mg/kg/day in four divided doses (15 mg/kg 6-hourly)
+
+Alternative if cephalosporin allergy or not available:
+IV Chloramphenicol 100 mg/kg/day in four divided doses PLUS
+IV Ampicillin 200-300 mg/kg/day in four divided doses
+
+Adjust antibiotics once organism identified and sensitivities known
+
+Adjunct Therapy
+
+Dexamethasone (Corticosteroid):
+Reduces mortality and neurological sequelae (especially hearing loss) in bacterial meningitis
+Dose: 0.15 mg/kg IV 6-hourly for 2-4 days
+Give first dose 10-20 minutes before or with first dose of antibiotics
+Continue for 2-4 days
+Most beneficial in pneumococcal and Hib meningitis
+Contraindicated if tuberculous meningitis suspected
+
+Antipyretics:
+Paracetamol 15 mg/kg orally or IV 6-hourly for fever
+Target normothermia (fever increases cerebral metabolic demand)
+
+Seizure Control
+
+Current status: 3 episodes of generalized tonic-clonic seizures in past 24 hours
+
+Immediate seizure management (if actively seizing):
+IV Diazepam 0.3-0.5 mg/kg (maximum 10 mg) over 2-3 minutes
+Can repeat once after 5 minutes if seizure continues
+OR rectal Diazepam 0.5 mg/kg if IV access not available
+
+If seizures recur or status epilepticus:
+IV Phenobarbital loading dose 20 mg/kg over 20 minutes
+Then maintenance 5 mg/kg/day in two divided doses
+
+Maintenance anticonvulsant:
+IV or oral Phenobarbital 5 mg/kg/day in two divided doses
+Continue throughout acute illness
+Wean gradually after discharge
+
+Avoid polypharmacy (multiple anticonvulsants increase side effects without added benefit)
+
+Fluid Management (Critical in Meningitis with Raised ICP)
+
+Risk of cerebral oedema and SIADH (syndrome of inappropriate ADH secretion) in bacterial meningitis
+
+Fluid strategy:
+Isotonic fluids only: 0.9% Normal Saline (never hypotonic fluids like 5% dextrose or 0.45% saline)
+Restricted maintenance: 60-80% of normal maintenance (approximately 50-60 ml/kg/day)
+For 15 kg child: approximately 750-900 ml/day
+Monitor input-output strictly
+Reassess frequently based on hydration status and urine output
+
+If signs of dehydration or shock:
+Resuscitate with 10-20 ml/kg 0.9% Normal Saline bolus over 20 minutes
+Reassess and repeat if needed
+Then resume restricted maintenance
+
+Monitor for SIADH:
+Hyponatraemia (serum sodium less than 135 mmol/L)
+Low serum osmolality
+Concentrated urine (urine osmolality greater than serum osmolality)
+Euvolaemic or hypervolaemic
+Manage: Fluid restriction, hypertonic saline if severe symptomatic hyponatraemia
+
+Monitor for diabetes insipidus (less common):
+Polyuria with dilute urine
+Hypernatraemia
+Manage: Replace urine output, DDAVP if needed
+
+Management of Raised Intracranial Pressure
+
+Current features: GCS 10/15, repeated seizures, vomiting
+
+General measures:
+Elevate head of bed 30 degrees (improves venous drainage)
+Keep head midline (avoid neck rotation or flexion)
+Avoid tight cervical collars or neck ties
+Maintain normothermia (fever increases ICP)
+Maintain normoglycaemia
+Avoid hypoxia (keep SpO₂ greater than 94%)
+Avoid hypotension (maintain adequate cerebral perfusion pressure)
+Avoid hyponatraemia (worsens cerebral oedema)
+
+Specific measures if signs of impending herniation (declining GCS, blown pupil, posturing, Cushing's triad):
+Osmotic therapy: IV Mannitol 0.5-1 g/kg over 20 minutes
+Can repeat every 4-6 hours if needed
+Monitor serum osmolality (target less than 320 mOsm/kg)
+OR Hypertonic saline 3% 2-5 ml/kg over 20 minutes
+Hyperventilation (if intubated): Target PaCO₂ 30-35 mmHg (temporary measure only)
+Sedation and paralysis if intubated
+Consult neurosurgery if available (consider ICP monitoring, ventricular drain if hydrocephalus)
+
+Supportive Care
+
+Nutritional support:
+NPO initially if decreased consciousness or vomiting
+Start nasogastric feeding when stable and GCS improves
+High-calorie, high-protein feeds
+Monitor input
+
+Bladder care:
+Urinary catheter if unable to void or for accurate output monitoring
+Monitor urine output (target 1-2 ml/kg/hr)
+
+Bowel care:
+Monitor bowel movements
+Prevent constipation
+
+Skin care:
+Turn every 2 hours to prevent pressure sores
+Keep skin clean and dry
+
+Physiotherapy:
+Passive range of motion exercises
+Chest physiotherapy if prolonged bed rest
+
+Monitoring
+
+Vital signs:
+Every 1-2 hours initially (pulse, BP, respiratory rate, temperature, SpO₂)
+Watch for Cushing's triad (hypertension, bradycardia, irregular respiration - sign of impending herniation)
+
+Neurological assessment:
+GCS every 2-4 hours (document E, V, M components)
+Pupil size and reactivity every 4 hours
+Signs of raised ICP (declining GCS, vomiting, posturing)
+Seizure activity
+
+Fluid balance:
+Strict input-output chart
+Assess hydration status
+Daily weight
+
+Blood glucose:
+4-6 hourly (risk of hypoglycaemia or hyperglycaemia in critical illness)
+
+Electrolytes:
+Daily serum electrolytes (watch for hyponatraemia from SIADH)
+
+Complications to watch for:
+
+Immediate (within 24-48 hours):
+Seizures (recurrent or status epilepticus)
+Raised ICP with herniation (declining GCS, blown pupil, posturing, Cushing's triad)
+Septic shock (hypotension, poor perfusion, organ dysfunction)
+Respiratory failure (apnea, respiratory depression)
+DIC (disseminated intravascular coagulation) - bleeding, petechiae
+
+Early (within 1 week):
+Subdural effusion or empyema (persistent fever, focal neurological signs)
+Hydrocephalus (enlarging head circumference, bulging fontanelle - though fontanelle closed at 3 years)
+SIADH (hyponatraemia, reduced urine output)
+Cerebral venous thrombosis
+
+Late (after 1 week):
+Hearing loss (most common sequela, 10-30% of survivors)
+Neurological sequelae (motor deficits, cognitive impairment, epilepsy, behavioural problems)
+Communicating hydrocephalus
+
+Follow-up and Rehabilitation
+
+Hearing assessment:
+All survivors of bacterial meningitis should have formal hearing test
+Audiology referral before discharge or within 1 month
+Brainstem evoked response audiometry (BERA) if available
+Early hearing aids if sensorineural hearing loss detected
+
+Neurological assessment:
+Monitor for developmental delay
+Assess for motor deficits, visual impairment
+Neuropsychological assessment if concerns
+EEG if epilepsy develops
+
+Immunization:
+Complete missed pentavalent vaccine doses
+Pneumococcal conjugate vaccine (PCV) if not yet given
+Meningococcal vaccine if available and appropriate
+
+Patient and Family Counselling
+
+Explain diagnosis:
+Serious infection of brain and spinal cord lining
+Caused by bacteria
+Requires prolonged antibiotic treatment
+Potential for complications
+
+Prognosis discussed:
+Mortality 5-10% with appropriate treatment (higher if delayed treatment or raised ICP)
+Risk of long-term sequelae: hearing loss (10-30%), neurological deficits (10-20%)
+Importance of completing full antibiotic course
+Need for follow-up hearing assessment
+
+Prevention in siblings/contacts:
+Close contacts may need prophylaxis depending on organism identified
+Meningococcal meningitis: Rifampicin or ciprofloxacin for household contacts
+Hib meningitis: Rifampicin for household contacts if unimmunized children present
+Ensure siblings fully immunized
+
+PROGNOSIS
+
+Depends on:
+Age (younger age worse prognosis)
+Organism (pneumococcal worst, meningococcal intermediate, Hib better)
+Duration of symptoms before treatment (longer duration worse)
+Level of consciousness at presentation (GCS less than 11 worse)
+Presence of seizures (multiple seizures worse)
+Presence of shock
+Raised intracranial pressure
+
+This child has poor prognostic indicators:
+Altered consciousness (GCS 10/15)
+Multiple seizures (3 episodes)
+Features of raised ICP
+Delay in presentation (4 days of fever before seeking care)
+
+With appropriate treatment:
+Mortality: 5-15% (higher if delayed treatment or severe presentation)
+Neurological sequelae: 20-40% (hearing loss most common, motor deficits, cognitive impairment, epilepsy)
+Complete recovery: 60-80% if early treatment and no complications
+
+Factors improving prognosis:
+Early antibiotic therapy (started immediately on presentation)
+Adjunctive dexamethasone (reduces hearing loss)
+Aggressive supportive care
+Young age (3 years better than infants)
+
+Long-term outlook:
+Most survivors have good functional outcome
+Hearing loss can be managed with hearing aids
+Developmental delay may require early intervention
+School performance may be affected (need educational support)
+
+FOLLOW-UP
+Review in pediatric neurology clinic 2 weeks after discharge. Formal hearing assessment within 1 month. Complete missed immunizations. Developmental assessment at 3 and 6 months. Long-term follow-up for detection and management of sequelae (hearing loss, epilepsy, developmental delay).
 `,
 bookmarkCount: 0
 },

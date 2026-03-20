@@ -3419,8 +3419,511 @@ Key Points:
 - Monitor for improvement and adjust therapy if necessary
     `,
   bookmarkCount: 0
-  },  
-
+  }, 
+  {
+    id: 'peds-2',
+    title: 'Severe Acute Malnutrition Complicated by Acute Gastroenteritis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Nutrition/Gastroenterology',
+    condition: 'Non-oedematous Severe Acute Malnutrition (SAM) complicated by acute gastroenteritis with moderate dehydration',
+    symptoms: [
+      'Poor weight gain since birth',
+      'Vomiting',
+      'Passage of loose stools',
+      'Fever',
+      'Generalized weakness and reduced activity',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-03-19',
+    summary: 'An 11-month-old female infant from Kaduna presenting with chronic poor weight gain since birth, now complicated by acute gastroenteritis (vomiting and diarrhoea for 5 days) with moderate dehydration. Anthropometric assessment reveals severe acute malnutrition: weight 5 kg (below 3rd centile), weight-for-length below -3 Z score, MUAC 11 cm. No oedema present. Additional features include fever, hepatomegaly (4 cm), desquamation of tongue, and random blood glucose 71 mg/dL (risk of hypoglycaemia). History of poor complementary feeding despite exclusive breastfeeding for 6 months. Previously treated at private clinic with initial improvement but symptoms recurred. Requires admission to nutrition stabilization unit for WHO SAM protocol management including controlled rehydration, therapeutic feeds (F-75), antibiotics, and micronutrient supplementation.',
+    content: `
+  An 11-month-old female infant who resides with her parents in Sabon Tasha area of Kaduna South LGA, Kaduna State. She is from a Hausa Muslim family and is the first child in a monogamous setting.
+  
+  Informant: Mother (reliable)
+  
+  PRESENTING COMPLAINTS 
+  Poor weight gain since birth
+  Vomiting × 5 days
+  Passage of loose stools × 5 days
+  Fever × 5 days
+  
+  HISTORY OF PRESENTING COMPLAINTS
+  The child has had poor weight gain since birth, as she has consistently appeared smaller than her peers. This was initially attributed to family build, and no medical care was sought. However, there has been noticeable weight loss during the current illness.
+  
+  Five days prior to presentation, she developed vomiting, occurring about 2–3 episodes daily (approximately 50 mL each). Vomitus contained recently ingested breast milk, was non-projectile, non-bilious, and not blood-stained. Last episode was about 3 hours prior to presentation.
+  
+  At about the same time, she developed passage of loose stools, about 2 episodes daily, watery enough to soak diapers, non-bloody and non-mucoid. Last episode was about 24 hours prior to presentation.
+  
+  There was associated high-grade fever, intermittent, temporarily relieved with tepid sponging.
+  
+  There is associated generalized weakness and reduced activity.
+  
+  No history of abdominal distension or passage of bloody stool.
+  No reduction in urine output.
+  
+  She was initially managed at a nearby private clinic where she received IV fluids and medications (details not available), first as outpatient and later admitted for 2 days (3 days prior to presentation).
+  
+  She was discharged on oral anti-diarrhoeal and antibiotic medications with initial improvement, but symptoms recurred, prompting presentation here.
+  
+  FEEDING AND NUTRITIONAL HISTORY
+  Fed with cup and spoon (no bottle feeding)
+  Exclusively breastfed for the first 6 months
+  Complementary feeding commenced at 6 months
+  
+  Current feeding pattern:
+  Predominantly breastfed (approximately 10 times/day)
+  Poor intake of complementary feeds
+  
+  24-hour dietary recall:
+  Breakfast: Pap (kunu)
+  Lunch: Mashed rice with stew
+  Dinner: Breast milk
+  
+  There is history of excessive sweating during feeding.
+  No history of intake of outside vendor foods.
+  
+  PAST MEDICAL HISTORY
+  Not a known sickle cell disease patient
+  No seizure disorder
+  No previous hospital admissions
+  No history of blood transfusion or surgery
+  
+  PRENATAL AND BIRTH HISTORY
+  Mother booked for antenatal care at about 5 months gestation at a primary health centre
+  Fair ANC attendance
+  Received tetanus toxoid
+  No intermittent preventive therapy for malaria
+  
+  Pregnancy was uneventful:
+  No febrile illness with rash
+  No drug abuse
+  No radiation exposure
+  No maternal chronic illness
+  
+  Delivery was at term via spontaneous vaginal delivery
+  cried immediately at birth
+  Birth weight not known
+  
+  IMMUNIZATION HISTORY
+  Fully immunized for age according to National Programme on Immunization schedule
+  
+  DEVELOPMENTAL HISTORY
+  Milestones appropriate for age prior to illness:
+  Neck control at 3 months
+  Sat without support at 6 months
+  Crawled at 9 months
+  Standing with support at 9 months
+  
+  FAMILY AND SOCIAL HISTORY
+  First child of parents in a monogamous family
+  Father: 38-year-old commercial driver with secondary education
+  Mother: 25-year-old petty trader with primary education
+  Parental genotype unknown
+  
+  Living conditions:
+  Reside in a rented apartment in a compound setting
+  Source of water: borehole
+  Waste disposal: open dumping
+  Sewage: pit latrine
+  
+  REVIEW OF SYSTEMS
+  CNS: No convulsions, no loss of consciousness
+  CVS: No cyanosis, no oedema
+  Respiratory: No cough, no nasal discharge
+  Genitourinary: No reduction in urine output
+  
+  DRUG HISTORY
+  Not on routine medications
+  No known drug allergies
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination:
+  A chronically ill-looking infant, small for age, febrile (T: 37.8°C), not pale, anicteric, not cyanosed
+  Moderately dehydrated (sunken eyes, dry buccal mucosa, drinks eagerly)
+  No significant peripheral lymphadenopathy
+  No pedal oedema
+  
+  Anthropometry:
+  Weight: 5 kg (below 3rd centile)
+  Length: 68 cm (3rd–10th centile)
+  OFC: 43.5 cm (25th–50th centile)
+  Weight-for-length: below -3 Z score
+  MUAC: 11 cm
+  Consistent with Severe Acute Malnutrition (non-oedematous)
+  
+  Respiratory System:
+  RR: 44 cpm
+  No respiratory distress
+  Vesicular breath sounds
+  SpO₂: 99% in room air
+  
+  Cardiovascular System:
+  PR: 148 bpm, regular, full volume
+  BP: Not recorded (appropriate cuff unavailable)
+  Heart sounds: S1, S2 only, no murmur
+  
+  Abdomen:
+  Protuberant, moves with respiration
+  No tenderness
+  Liver: 4 cm below right costal margin, firm, non-tender
+  No splenomegaly
+  Oral cavity: Desquamation of tongue
+  
+  Central Nervous System:
+  Conscious, alert
+  Anterior fontanelle small
+  Normal tone globally
+  No focal neurological deficit
+  
+  BEDSIDE INVESTIGATIONS
+  PCV: 37%
+  RBG: 71 mg/dL
+  Malaria RDT: Negative
+  
+  ASSESSMENT
+  
+  Non-oedematous Severe Acute Malnutrition (SAM) complicated by acute gastroenteritis with moderate dehydration
+  
+  Diagnosis of SAM based on:
+  Weight-for-length below -3 Z score (WHO definition)
+  MUAC 11 cm (less than 11.5 cm diagnostic for SAM in infants 6-59 months)
+  Weight 5 kg at 11 months (severely below 3rd centile)
+  Chronically ill appearance, small for age
+  Visible severe wasting
+  No bilateral pitting oedema (non-oedematous SAM, marasmus type)
+  
+  Classification: Complicated SAM (presence of medical complications)
+  Acute gastroenteritis with vomiting and diarrhoea
+  Moderate dehydration
+  Fever (possible infection)
+  Hypoglycaemia risk (RBG 71 mg/dL, below 80 mg/dL concerning in SAM)
+  Hepatomegaly (fatty liver from malnutrition)
+  
+  Contributing factors to malnutrition:
+  Poor complementary feeding (inadequate quality and quantity)
+  Predominant breastfeeding at 11 months with minimal solid foods
+  Possible underlying illness (recurrent infections, HIV, congenital heart disease to be ruled out)
+  Low socioeconomic status (petty trader mother, primary education)
+  Poor environmental sanitation (open waste dumping, pit latrine)
+  
+  Red flags requiring further investigation:
+  Excessive sweating during feeding (suggests possible congenital heart disease)
+  Hepatomegaly 4 cm (could be fatty liver, cardiac failure, or infection)
+  Recurrent illness despite treatment
+  Poor response to feeding
+  
+  Differential diagnoses:
+  Sepsis in a severely malnourished child (fever, lethargy, recurrence after treatment)
+  Persistent diarrhoea of malnutrition
+  Congenital heart disease (poor weight gain since birth, sweating during feeding, hepatomegaly)
+  Paediatric HIV infection (chronic poor weight gain, recurrent infections, hepatomegaly)
+  Tuberculosis (chronic weight loss, fever, hepatomegaly)
+  Chronic kidney disease (less likely, no oedema, normal urine output)
+  
+  PLAN
+  
+  Admission
+  Admit into Paediatric ward (Nutrition Stabilization Unit if available)
+  Close monitoring required given complicated SAM
+  Inform consultant paediatrician
+  
+  Investigations
+  
+  Urgent:
+  Random blood glucose monitoring (4-hourly initially, risk of hypoglycaemia)
+  Serum electrolytes, urea, creatinine (assess for electrolyte imbalances, renal function)
+  Blood culture (before starting antibiotics, rule out sepsis)
+  Stool microscopy, culture and sensitivity (identify causative organism for gastroenteritis)
+  
+  Within 24-48 hours:
+  Full blood count, ESR (assess anaemia, infection, inflammation)
+  HIV screening (with pre-test counselling and consent)
+  Urinalysis and urine microscopy, culture (rule out urinary tract infection)
+  Chest X-ray (assess for pneumonia, cardiac size, pulmonary oedema)
+  Echocardiography (if congenital heart disease suspected based on sweating during feeding, hepatomegaly)
+  
+  Additional if indicated:
+  Tuberculin skin test or GeneXpert if TB suspected
+  Liver function tests (if hepatomegaly persists)
+  Stool for ova, cysts and parasites
+  Serum albumin (assess severity of protein malnutrition)
+  
+  Management (WHO SAM Protocol - 10 Steps)
+  
+  The child has complicated SAM requiring inpatient management following WHO guidelines:
+  
+  Initial Stabilization Phase (Days 1-2):
+  
+  Step 1: Prevent and treat hypoglycaemia
+  RBG 71 mg/dL (below 80 mg/dL is high risk in SAM)
+  Give 50 ml bolus of 10% glucose solution orally or via nasogastric tube immediately
+  If unable to tolerate oral: 10% glucose IV 5 ml/kg bolus
+  Recheck RBG after 30 minutes
+  Continue frequent feeding (2-hourly) to prevent recurrence
+  Monitor RBG 4-hourly for first 24 hours, then before each feed
+  
+  Step 2: Prevent and treat hypothermia
+  Current temperature 37.8°C (febrile, but SAM children at risk of hypothermia)
+  Keep warm: clothe adequately, cover head, kangaroo mother care
+  Room temperature should be warm (25-30°C)
+  Avoid cold exposure during examination or bathing
+  Monitor temperature 4-hourly
+  
+  Step 3: Prevent and treat dehydration
+  Moderate dehydration present (sunken eyes, dry mucosa, drinks eagerly)
+  Use ReSoMal (Rehydration Solution for Malnutrition) NOT standard ORS
+  Standard ORS has too much sodium and too little potassium for SAM
+  ReSoMal: 5 ml/kg every 30 minutes for first 2 hours (oral or NG)
+  Then 5-10 ml/kg/hour for next 4-10 hours
+  Monitor closely: pulse, respiration every 30 minutes initially
+  Watch for signs of fluid overload (increased respiratory rate, rising pulse)
+  If not improving after 2 hours or signs of overload, reduce rate
+  Do NOT give IV fluids unless in shock (severe dehydration with impaired consciousness)
+  If IV required: use half-strength Darrow's with 5% dextrose, 15 ml/kg over 1 hour only
+  
+  Step 4: Correct electrolyte imbalance
+  All SAM children have total body potassium and magnesium depletion even if serum levels normal
+  Give supplements routinely:
+  Potassium: 3-4 mmol/kg/day (given in ReSoMal and therapeutic feeds)
+  Magnesium: 0.4-0.6 mmol/kg/day (magnesium sulphate 50% 0.3 ml/kg IM once, or oral if available)
+  Extra potassium in F-75 and F-100 feeds
+  Monitor serum electrolytes, correct abnormalities
+  
+  Step 5: Treat and prevent infection
+  All SAM children presumed to have infection even without obvious signs
+  Start broad-spectrum antibiotics immediately:
+  
+  First-line (no complications or if no prior antibiotics):
+  Amoxicillin 15 mg/kg orally 8-hourly for 5 days
+  
+  This child has complications (gastroenteritis, fever, recurrence after antibiotics):
+  IV Ampicillin 50 mg/kg 6-hourly PLUS
+  IV/IM Gentamicin 7.5 mg/kg once daily
+  For 7 days, then reassess
+  
+  If no improvement after 48 hours:
+  Add IV Ceftriaxone 50-100 mg/kg once daily
+  Consider sepsis, adjust based on culture results
+  
+  Also consider:
+  Measles if not immunized or vaccination status uncertain (Vitamin A treatment dose)
+  Tuberculosis if chronic symptoms (investigate further)
+  
+  Step 6: Correct micronutrient deficiencies
+  All SAM children have multiple micronutrient deficiencies
+  
+  Give routinely:
+  Vitamin A (single dose based on age):
+  For 11 months: 100,000 IU orally once (day 1)
+  Folic acid: 5 mg orally once daily
+  Zinc: 2 mg/kg/day (or 10 mg for infants 6-12 months)
+  Copper: Usually provided in therapeutic feeds
+  Multivitamins daily
+  
+  If anaemia present (to be assessed):
+  Iron: Do NOT give in first week (increases infection risk)
+  Start iron supplementation only in rehabilitation phase after appetite returns
+  
+  Step 7: Start cautious feeding
+  Use F-75 therapeutic milk (75 kcal/100 ml, low protein 0.9 g/100 ml)
+  Designed for metabolic recovery, not weight gain
+  
+  Feeding schedule:
+  Frequency: Every 2-3 hours (8 feeds per day including night feeds)
+  Amount: 130 ml/kg/day divided into 8 feeds = approximately 80 ml per feed for 5 kg child
+  Route: Oral (cup feeding) preferred. NG tube if refuses oral or unable to complete feeds
+  
+  Preparation of F-75:
+  If commercial F-75 available: reconstitute as per instructions
+  If not available: Use locally prepared formula (milk powder, sugar, oil, mineral-vitamin mix)
+  
+  Monitor intake carefully:
+  Record amount taken each feed
+  If takes less than 80% of prescribed, give remainder via NG tube
+  Gradual increase as tolerated
+  
+  Continue breastfeeding on demand between F-75 feeds if breastfed
+  
+  Step 8: Achieve catch-up growth (Transition and Rehabilitation Phase - after stabilization)
+  Transition to F-100 (100 kcal/100 ml, protein 2.9 g/100 ml) when:
+  Appetite returns
+  Oedema resolving (if present)
+  Medically stable
+  Usually day 3-7
+  
+  F-100 feeding:
+  Same frequency initially (every 3-4 hours)
+  Increase amount gradually: 150-220 ml/kg/day
+  Monitor weight gain: target 5-10 g/kg/day
+  
+  Introduce Ready-to-Use Therapeutic Food (RUTF) if available:
+  Plumpy'nut or equivalent
+  For this child (5 kg): 2-3 sachets (92 g) per day
+  Can be given at home (outpatient rehabilitation)
+  
+  Step 9: Provide sensory stimulation and emotional support
+  Play therapy
+  Encourage mother-child interaction
+  Provide toys
+  Structured play 15-30 minutes daily
+  Tender loving care approach
+  
+  Step 10: Prepare for discharge and follow-up
+  Discharge criteria (not yet met):
+  Weight-for-length above -2 Z score OR MUAC above 12.5 cm
+  Eating adequate amounts of normal family foods
+  No medical complications for at least 2 days
+  Mother trained on home feeding and care
+  
+  At discharge:
+  Continue RUTF at home if available
+  High-energy, high-protein family foods
+  Frequent small meals
+  Nutrition counselling for mother
+  Immunization catch-up if needed
+  Vitamin A every 6 months
+  Deworming
+  Follow-up appointments weekly initially
+  
+  Monitoring During Admission
+  
+  Vital signs:
+  Temperature, pulse, respiration every 4-6 hours initially
+  Then every 8 hours when stable
+  
+  Input and output:
+  Strict monitoring of all feeds (amount given, amount taken)
+  Urine output (wet diapers count)
+  Stool and vomiting chart (frequency, amount, character)
+  
+  Daily monitoring:
+  Weight (same time daily, before morning feed)
+  Clinical assessment (alertness, activity, hydration status)
+  Signs of infection, fluid overload
+  Response to treatment
+  
+  Blood glucose:
+  4-hourly for first 24 hours
+  Then before each feed until stable above 80 mg/dL
+  
+  Complications to watch for:
+  Hypoglycaemia (lethargy, sweating, unconsciousness)
+  Hypothermia (cold extremities, lethargy)
+  Heart failure (tachycardia, tachypnoea, hepatomegaly, gallop rhythm, pulmonary oedema)
+  Severe anaemia (severe pallor, heart failure)
+  Electrolyte imbalance (arrhythmias, weakness, altered consciousness)
+  Septic shock (hypotension, cold extremities, altered consciousness)
+  Vitamin A deficiency complications (corneal damage)
+  
+  Specific Management of Complications
+  
+  Acute gastroenteritis:
+  Controlled rehydration with ReSoMal as above
+  Continue feeding during rehydration (do not stop feeds in SAM)
+  Zinc supplementation (already included) reduces duration and severity
+  Probiotics if available
+  Monitor stool output
+  
+  Moderate dehydration:
+  ReSoMal rehydration protocol
+  Reassess hourly
+  Signs of adequate rehydration: skin turgor improving, eyes less sunken, urine output adequate, child alert
+  
+  Fever and possible sepsis:
+  Broad-spectrum antibiotics as above
+  Paracetamol 15 mg/kg 6-hourly for fever (avoid ibuprofen in dehydration)
+  Monitor for septic shock
+  Blood culture before antibiotics
+  
+  Risk of hypoglycaemia:
+  Immediate glucose bolus already given
+  Frequent feeds every 2 hours
+  Monitor RBG closely
+  
+  Hepatomegaly:
+  Monitor liver size daily
+  Assess for cardiac failure (likely cause given sweating during feeding)
+  Investigate with echo if persists
+  Fatty liver common in SAM, improves with nutritional rehabilitation
+  
+  Nutritional Counselling and Education
+  
+  Counsel mother on:
+  Causes of malnutrition (inadequate diet, infections, poor hygiene)
+  Importance of exclusive breastfeeding for 6 months, then continued breastfeeding with adequate complementary foods
+  Complementary feeding (quality, quantity, frequency):
+  At 11 months should have 3-4 meals plus 1-2 snacks daily
+  Include energy-dense foods (oil, groundnut paste)
+  Include protein (eggs, beans, meat, fish)
+  Include fruits and vegetables
+  Hygiene practices (handwashing, safe water, food safety)
+  Recognition of danger signs (refusal to feed, lethargy, fast breathing, fever)
+  Importance of immunization and growth monitoring
+  Family planning to space pregnancies
+  
+  Address socioeconomic factors:
+  Refer to social services if available
+  Discuss income-generating activities
+  Community nutrition programs
+  
+  Further Investigations Based on Red Flags
+  
+  Given excessive sweating during feeding and hepatomegaly:
+  Echocardiography to rule out congenital heart disease (VSD, ASD, PDA)
+  If confirmed, cardiac referral, manage heart failure if present
+  
+  HIV screening:
+  Pre-test counselling
+  Rapid antibody test (if positive, confirm with second test)
+  If positive: Start antiretroviral therapy, cotrimoxazole prophylaxis, nutritional support
+  Post-test counselling
+  
+  Tuberculosis screening if:
+  Chronic cough develops
+  Persistent fever
+  Poor response to treatment
+  Contact history
+  Tuberculin skin test or GeneXpert
+  
+  PROGNOSIS
+  
+  Prognosis depends on severity of malnutrition, presence of complications, and response to treatment.
+  
+  With appropriate WHO SAM protocol management:
+  Case fatality rate in well-managed facilities: less than 5%
+  Without complications and good response: less than 2%
+  
+  This child has complicated SAM with:
+  Gastroenteritis
+  Dehydration
+  Fever/possible infection
+  Hypoglycaemia risk
+  Higher mortality risk (10-15%) if not carefully managed
+  
+  Favourable factors:
+  Age 11 months (better prognosis than younger infants or older children)
+  Alert and conscious (not severely lethargic)
+  No severe complications yet (no shock, severe anaemia, severe pneumonia)
+  Immunized (reduced risk of measles, other vaccine-preventable diseases)
+  Normal developmental milestones before illness
+  
+  Critical period:
+  First 24-48 hours highest risk (hypoglycaemia, heart failure, sepsis)
+  With close monitoring and adherence to protocol, survival likely
+  
+  Long-term:
+  If survives acute phase and completes rehabilitation: good catch-up growth possible
+  May have some developmental delay if severe or prolonged malnutrition
+  Increased risk of infections until nutritional status normalized
+  With good nutrition: can achieve normal growth and development
+  Important to address underlying causes (poverty, maternal education, hygiene)
+  
+  FOLLOW-UP
+  Weekly follow-up in nutrition clinic until weight-for-length above -2 Z score or MUAC above 12.5 cm. Continue RUTF or high-energy foods at home. Growth monitoring monthly for 6 months. Address underlying socioeconomic factors. 
+`,
+bookmarkCount: 0
+},
 
   // Internal Medicine
   {

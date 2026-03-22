@@ -20946,7 +20946,7 @@ Intensive care for 24-48 hours post-delivery. Monitor for complications (DIC, re
   bookmarkCount: 0
 },
 {
-  id: 'obg-15',
+  id: 'ob-15',
   title: 'Placenta Praevia with Antepartum Haemorrhage',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Obstetrics/High-Risk Obstetrics',
@@ -21507,6 +21507,1172 @@ May need to limit family size (multiple caesarean sections increase risks)
 
 FOLLOW-UP
 Postnatal follow-up at 6 weeks. Counsel on recurrence risk in future pregnancies. Discuss family planning (consider limiting family size given previous caesarean section and placenta praevia risk). Annual gynaecological review if concerns.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-16',
+  title: 'Severe Preeclampsia with Imminent Eclampsia at 34 Weeks Gestation',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/High-Risk Obstetrics',
+  condition: 'Severe preeclampsia at 34 weeks gestation with features of imminent eclampsia and fetal compromise',
+  symptoms: [
+    'Headache (persistent, generalized, not relieved by analgesics)',
+    'Blurring of vision (flashing lights)',
+    'Epigastric pain  (constant, non-radiating)',
+    'Severe hypertension (BP 170/110 mmHg)',
+    'Significant proteinuria (+++)',
+    'Bilateral pitting pedal oedema up to knees',
+    'Reduced fetal movements',
+    'Fetal tachycardia (168 bpm)',
+    'Primigravida',
+    'Irregular antenatal visits',
+    'No documented hypertension earlier in pregnancy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-22',
+  summary: 'A 27-year-old primigravida at 34 weeks + 2 days gestation presenting with severe preeclampsia and features of imminent eclampsia: persistent headache (3 days), visual disturbances with flashing lights (2 days), epigastric pain (1 day), severe hypertension (BP 170/110 mmHg), significant proteinuria (+++), and bilateral pedal oedema up to knees. Irregular antenatal care, booked at 20 weeks at primary health centre, booking PCV 31%, blood group O positive, genotype AA, HIV negative. No documented hypertension earlier in pregnancy. Fetal assessment reveals tachycardia (168 bpm) and reduced movements suggesting fetal compromise. Requires immediate admission to high-dependency unit, seizure prophylaxis with magnesium sulphate, antihypertensive therapy, close maternal and fetal monitoring, and delivery after stabilization.',
+  content: `
+Mrs R.A., a 27-year-old booked G1P0+0 woman, tailor, Muslim, Yoruba, who resides in Osogbo, Osun State. She has a secondary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+Gravidity: G1 (first pregnancy)
+Parity: P0+0 (no previous deliveries or miscarriages)
+LMP: 01/07/2025
+EDD: 08/04/2026
+EGA: 34 weeks + 2 days
+
+PRESENTING COMPLAINTS
+Headache × 3 days
+Blurring of vision × 2 days
+Epigastric pain × 1 day
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 3 days prior to presentation when she developed a persistent, generalized headache. The headache is dull in nature, continuous, and not relieved by analgesics.
+
+About 2 days prior to presentation, she developed blurring of vision, described as difficulty seeing clearly and occasional flashing lights.
+
+One day prior to presentation, she developed epigastric pain. The pain is constant, non-radiating, and not related to meals.
+
+There is no history of convulsions or loss of consciousness.
+No history of vaginal bleeding or leakage of fluid per vaginam.
+She perceives reduced fetal movements.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. It was confirmed with a positive pregnancy test and early ultrasound scan.
+
+She booked for antenatal care at 20 weeks gestation at a primary health centre and has had irregular antenatal visits.
+
+She has been on antenatal haematinics.
+She has received two doses of tetanus toxoid.
+
+Booking investigations:
+PCV: 31%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+
+No documented hypertension earlier in pregnancy.
+
+PAST OBSTETRIC HISTORY
+Primigravida
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycle prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known history of chronic hypertension, diabetes, or renal disease
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of hypertension or eclampsia
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young pregnant woman, conscious and alert but appears ill
+Not pale, not icteric, not cyanosed
+Bilateral pitting pedal oedema up to the knees
+
+Vital Signs:
+BP: 170/110 mmHg (severe hypertension)
+PR: 96 bpm
+RR: 20 cpm
+Temperature: 36.8°C
+
+Anthropometry:
+Height: 1.63 m
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 32 cm (may suggest intrauterine growth restriction, expected approximately 34 cm at 34 weeks)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterus relaxed, no tenderness
+No contractions
+
+Auscultation:
+Fetal heart rate: 168 bpm (fetal tachycardia, normal range 110-160 bpm)
+
+Pelvic Examination:
+Not routinely indicated at this stage (no labour)
+
+INVESTIGATIONS (Bedside/Initial)
+Urinalysis: Proteinuria +++ (significant proteinuria)
+
+OBSTETRIC SUMMARY
+A 27-year-old primigravida at 34 weeks + 2 days gestation presenting with headache, visual disturbance, and epigastric pain. She is markedly hypertensive with significant proteinuria and pedal oedema.
+
+ASSESSMENT
+
+Severe preeclampsia in a primigravida at 34 weeks gestation with features of imminent eclampsia and fetal compromise
+
+Diagnosis based on:
+
+Diagnostic criteria for severe preeclampsia:
+Severe hypertension: BP 170/110 mmHg (greater than or equal to 160/110 mmHg)
+Significant proteinuria: +++ on dipstick (greater than or equal to 2+)
+Gestation: 34 weeks + 2 days (after 20 weeks)
+
+Features of end-organ involvement (severe features):
+CNS symptoms: Persistent severe headache not relieved by analgesics
+Visual symptoms: Blurring of vision with flashing lights (scotomata, suggests cerebral/retinal involvement)
+Hepatic involvement: Epigastric pain (suggests liver capsule distension, may indicate HELLP syndrome)
+Renal involvement: Significant proteinuria
+Oedema: Bilateral pedal oedema up to knees (though not diagnostic criterion)
+
+Features of imminent eclampsia (seizure imminent):
+Severe headache (cerebral oedema)
+Visual disturbances (cortical involvement)
+Epigastric/right upper quadrant pain (hepatic involvement)
+Hyperreflexia (need to assess)
+
+Fetal compromise:
+Fetal tachycardia (168 bpm, may indicate fetal distress)
+Reduced fetal movements (concerning for fetal compromise)
+SFH 32 cm vs expected 34 cm (possible intrauterine growth restriction)
+
+Risk factors present:
+Primigravida (most important risk factor)
+No previous antenatal care until 20 weeks (late booking)
+Irregular antenatal visits (poor monitoring)
+Age 27 years (extremes of age higher risk, but 27 not extreme)
+
+Classification: Severe preeclampsia with imminent eclampsia
+
+Differential diagnosis:
+Chronic hypertension with superimposed preeclampsia (no history of chronic hypertension)
+Gestational hypertension (would not have proteinuria or severe features)
+Eclampsia (would have convulsions, not present yet but imminent)
+HELLP syndrome (need laboratory confirmation: haemolysis, elevated liver enzymes, low platelets)
+Other causes of headache/visual symptoms (less likely given constellation of findings)
+
+Complications anticipated:
+
+Maternal:
+Eclampsia (seizures) - imminent risk
+Stroke (severe hypertension)
+Pulmonary oedema (fluid overload, cardiac failure)
+HELLP syndrome
+Acute kidney injury
+Hepatic rupture (rare)
+Placental abruption
+DIC
+Maternal death
+
+Fetal:
+Intrauterine growth restriction (SFH small for dates)
+Fetal distress (tachycardia, reduced movements)
+Intrauterine fetal demise
+Preterm delivery (34 weeks)
+Iatrogenic prematurity from delivery
+
+PLAN
+
+This is an obstetric emergency requiring immediate coordinated multidisciplinary management
+
+Immediate Actions
+
+Call for help:
+Senior obstetrician (consultant or registrar)
+Anaesthetist
+Neonatologist
+Senior midwife
+
+Admit to high-dependency obstetric unit or labour ward:
+Close monitoring required
+One-to-one nursing care
+Prepare for potential eclampsia
+
+Initial assessment and stabilization:
+ABC approach
+Airway and breathing: Patent, adequate
+Circulation: Hypertensive, needs urgent control
+
+Seizure Prophylaxis (Priority)
+
+Magnesium sulphate (MgSO4) - drug of choice for prevention and treatment of eclamptic seizures
+
+Pritchard regimen (most common in Nigeria):
+
+Loading dose:
+4 g MgSO4 (20% solution, 20 ml) IV slowly over 5-10 minutes
+PLUS 10 g MgSO4 IM (50% solution): 5 g (10 ml) deep IM in each buttock
+Add 1 ml of 2% lignocaine to each IM injection (reduces pain)
+
+Maintenance dose:
+5 g MgSO4 (50% solution, 10 ml) IM every 4 hours
+Continue until 24 hours after delivery or last seizure
+
+Alternative Zuspan regimen (IV only, requires infusion pump):
+Loading: 4-6 g IV over 15-20 minutes
+Maintenance: 1-2 g/hour continuous IV infusion
+
+Before each dose, check for MgSO4 toxicity:
+Respiratory rate greater than or equal to 16/min (most important)
+Patellar reflexes present (knee jerk)
+Urine output greater than or equal to 30 ml/hour (greater than or equal to 100 ml in past 4 hours)
+
+If signs of toxicity (respiratory depression less than 16/min, absent reflexes, oliguria):
+STOP MgSO4
+Give antidote: 10 ml of 10% calcium gluconate IV slowly
+Support respiration
+
+Blood Pressure Control
+
+Target: Reduce BP to less than 150/100 mmHg (avoid rapid reduction, risk of placental hypoperfusion)
+
+First-line agents:
+
+IV Hydralazine:
+5 mg IV bolus over 5 minutes
+Repeat 5-10 mg every 20-30 minutes as needed
+Maximum 20 mg per dose
+Onset 10-20 minutes, duration 4-6 hours
+Monitor BP every 5-10 minutes
+
+OR Oral Nifedipine:
+10 mg orally, repeat after 30 minutes if needed
+Maximum 30 mg in first hour
+Then 10-20 mg 6-8 hourly as maintenance
+Rapid onset (15-30 minutes)
+Easier to administer than IV
+
+OR IV Labetalol:
+20 mg IV bolus
+Repeat with 40 mg, then 80 mg every 10-20 minutes
+Maximum cumulative dose 300 mg
+Alternative if hydralazine/nifedipine not available
+
+Avoid:
+Rapid BP reduction (may compromise placental perfusion)
+ACE inhibitors/ARBs (teratogenic)
+Atenolol (fetal growth restriction)
+Diuretics (may worsen hypovolaemia)
+
+Caution with nifedipine and MgSO4 together (risk of hypotension, though generally safe)
+
+Monitoring
+
+Maternal monitoring:
+
+Vital signs:
+BP every 15-30 minutes initially, then hourly when stabilized
+Pulse, respiratory rate, temperature every 30-60 minutes
+Continuous if possible
+
+Neurological:
+Level of consciousness (GCS)
+Assess for hyperreflexia (patellar, ankle clonus)
+Visual symptoms
+Headache severity
+
+Fluid balance:
+Strict input-output charting
+Insert urinary catheter (Foley catheter)
+Measure urine output hourly
+Target urine output: 30 ml/hour minimum (0.5 ml/kg/hr)
+Restrict fluids: 80 ml/hour total (1 ml/kg/hr)
+Avoid fluid overload (risk of pulmonary oedema)
+
+Symptoms monitoring:
+Headache
+Visual disturbances
+Epigastric/right upper quadrant pain
+Assess for seizure activity
+
+MgSO4 toxicity monitoring (before each dose):
+Respiratory rate (must be greater than or equal to 16/min)
+Patellar reflexes (must be present)
+Urine output (must be greater than or equal to 30 ml/hr)
+
+Fetal monitoring:
+Continuous cardiotocography (CTG) if available
+Or intermittent fetal heart rate auscultation (every 30-60 minutes)
+Assess fetal movements
+
+Laboratory Investigations
+
+Urgent (within 1 hour):
+
+Full blood count:
+Haemoglobin, haematocrit
+Platelet count (thrombocytopenia suggests HELLP syndrome, less than 100,000/μL concerning)
+White cell count
+
+Liver function tests:
+AST, ALT (elevated in HELLP syndrome, greater than 70 IU/L concerning)
+Bilirubin (haemolysis)
+Albumin
+LDH (haemolysis marker)
+
+Renal function tests:
+Serum creatinine (elevated in renal involvement, greater than 1.1 mg/dL abnormal in pregnancy)
+Urea
+Electrolytes (Na, K)
+
+Coagulation profile:
+PT/INR, aPTT
+Fibrinogen
+D-dimer
+Assess for DIC
+
+Urine studies:
+24-hour urine protein (if time permits, quantify proteinuria)
+OR spot urine protein:creatinine ratio
+Urine microscopy
+
+Blood film:
+Assess for schistocytes (microangiopathic haemolysis in HELLP)
+
+Serial monitoring:
+Repeat FBC, LFT, RFT every 12-24 hours or sooner if clinically indicated
+Watch for development of HELLP syndrome
+
+Fetal Assessment
+
+Ultrasound scan:
+Fetal biometry (assess for intrauterine growth restriction)
+Amniotic fluid index (oligohydramnios common in preeclampsia)
+Placental assessment
+Umbilical artery Doppler (assess placental function, reversed end-diastolic flow concerning)
+Biophysical profile
+
+Cardiotocography (CTG):
+Non-stress test
+Assess fetal heart rate variability
+Look for decelerations (late decelerations concerning)
+Assess uterine activity
+
+Supportive Care
+
+Fluid management:
+Restricted fluids: 80 ml/hour total (1 ml/kg/hr)
+Avoid fluid overload (these patients are intravascularly depleted but total body water increased)
+Use crystalloids: 0.9% Normal Saline or Hartmann's solution
+Monitor for pulmonary oedema (tachypnoea, crepitations)
+
+Positioning:
+Nurse in left lateral position (improves placental perfusion)
+Elevate head of bed 15-30 degrees
+Avoid supine position
+
+Oxygen therapy:
+Supplemental oxygen if SpO₂ less than 94%
+2-4 L/min via nasal prongs
+
+Analgesia:
+Paracetamol 1 g orally/IV 6-8 hourly for headache
+Avoid NSAIDs (worsen hypertension, renal function, platelet function)
+
+Environment:
+Quiet, dimly lit room (reduce stimulation, prevent seizures)
+Minimize unnecessary procedures
+Limit visitors
+
+Corticosteroids for fetal lung maturity:
+Betamethasone 12 mg IM, repeat after 24 hours OR
+Dexamethasone 6 mg IM 12-hourly for 4 doses
+Give if delivery anticipated within 7 days and less than 34 weeks
+This patient 34+2 weeks: Consider giving (benefit up to 36 weeks)
+Provide some neuroprotection even at this gestation
+
+Thromboprophylaxis:
+Low molecular weight heparin (enoxaparin 40 mg SC daily) after delivery
+During pregnancy: Graduated compression stockings
+
+Definitive Management - Delivery
+
+Severe preeclampsia is an indication for delivery
+
+Only cure for preeclampsia is delivery of placenta
+
+Timing of delivery:
+
+This patient at 34+2 weeks with severe features and fetal compromise:
+Deliver after initial stabilization (within 24-48 hours)
+Not immediate delivery (need time for MgSO4 loading, BP control, steroids)
+
+Stabilization period (12-24 hours):
+Control BP (target less than 150/100 mmHg)
+Commence MgSO4 prophylaxis
+Give corticosteroids for fetal lung maturity
+Assess maternal and fetal status
+Prepare for delivery
+
+Indications for immediate delivery (do not delay):
+Eclampsia (seizures)
+Uncontrolled severe hypertension despite treatment
+HELLP syndrome with liver rupture or DIC
+Placental abruption
+Pulmonary oedema
+Acute kidney injury with oliguria
+Persistent severe symptoms despite treatment
+Non-reassuring fetal status (severe distress, reversed Doppler flow)
+
+Mode of delivery:
+
+Depends on:
+Cervical favourability (Bishop score)
+Fetal presentation
+Maternal and fetal condition
+
+Vaginal delivery preferred if:
+Cephalic presentation (this patient has cephalic)
+Cervix favourable (Bishop score greater than or equal to 6)
+Maternal and fetal status reassuring
+
+Induction of labour:
+If cervix unfavourable: Cervical ripening with prostaglandins
+Then oxytocin augmentation
+Epidural analgesia beneficial (BP control)
+Continuous fetal monitoring
+Avoid prolonged labour (increased risk of complications)
+
+Caesarean section if:
+Unfavourable cervix with failed induction
+Fetal distress
+Maternal deterioration
+Failed vaginal delivery
+Previous caesarean section
+Other obstetric indications
+
+Intrapartum care:
+Continue MgSO4 throughout labour and 24 hours postpartum
+Continue antihypertensives
+Avoid ergometrine (worsens hypertension)
+Use oxytocin for third stage
+Continuous fetal monitoring
+Prepare for neonatal resuscitation
+
+Postpartum Management
+
+High-dependency care:
+Continue in HDU for 24-48 hours postpartum
+Risk of eclampsia highest in first 24 hours postpartum
+
+Continue MgSO4:
+24 hours after delivery or last seizure
+
+Continue antihypertensives:
+Switch to oral agents (nifedipine, labetalol, methyldopa)
+May need treatment for weeks to months
+Gradual weaning as BP normalizes
+
+Monitor closely:
+BP 4-hourly initially
+Urine output (watch for oliguria)
+Symptoms (headache, visual changes, epigastric pain)
+Serial laboratory tests (watch for worsening)
+
+Complications to watch for:
+Postpartum eclampsia (can occur up to 4 weeks postpartum)
+Pulmonary oedema
+Acute kidney injury
+HELLP syndrome (can worsen postpartum)
+Postpartum haemorrhage (risk increased with HELLP, DIC)
+
+Breastfeeding:
+Encouraged
+Most antihypertensives safe in breastfeeding (nifedipine, labetalol, methyldopa safe)
+Avoid atenolol
+
+Contraception:
+Avoid oestrogen-containing contraceptives (increase thrombosis risk, BP)
+Options: Progestogen-only pill, injectables, IUD, barrier methods
+
+Counselling
+
+Explain diagnosis to patient and family:
+Preeclampsia is serious pregnancy complication
+High blood pressure with protein in urine
+Can affect brain, liver, kidneys
+Can cause seizures (eclampsia)
+Can affect baby (growth, distress)
+
+Explain management:
+Need close monitoring in hospital
+Medications to prevent seizures (magnesium sulphate)
+Medications to lower blood pressure
+Only cure is delivery
+Will need to deliver baby soon (within 1-2 days) after stabilization
+Baby may need neonatal intensive care (premature, 34 weeks)
+
+Explain risks:
+Maternal: Seizures, stroke, organ damage, death
+Fetal: Prematurity, growth restriction, distress, death
+
+Reassurance:
+Condition is manageable with close monitoring and treatment
+Team experienced in managing severe preeclampsia
+Good facilities and medications available
+Most women and babies do well with appropriate care
+
+Follow-up counselling:
+Risk of recurrence in future pregnancies (10-15% after severe preeclampsia)
+Need for early booking and close monitoring in future
+Low-dose aspirin in future pregnancies (reduces recurrence risk)
+Increased long-term cardiovascular risk (hypertension, stroke)
+Need for lifelong cardiovascular risk reduction
+
+PROGNOSIS
+
+Serious condition but generally good outcomes with prompt recognition and management
+
+Maternal outcomes:
+Maternal mortality: 1-2% in severe preeclampsia (higher in resource-limited settings)
+Eclampsia risk: 2-5% despite MgSO4 prophylaxis
+With appropriate management (MgSO4, BP control, timely delivery): Most women recover fully
+This patient has concerning features (severe symptoms, fetal compromise) but caught in time
+
+Factors affecting maternal prognosis:
+Prompt recognition and treatment (most important)
+Availability of MgSO4 and antihypertensives
+Timely delivery
+HDU/ICU facilities
+Laboratory monitoring
+
+Fetal/neonatal outcomes:
+Perinatal mortality: 5-10% in severe preeclampsia
+This baby at 34 weeks: Good prognosis with NICU care
+Respiratory distress syndrome (may need ventilation)
+Neonatal complications from prematurity
+If severe growth restriction or placental insufficiency: Higher mortality risk
+
+Long-term maternal risks:
+Recurrence in future pregnancies: 10-15% after severe preeclampsia
+Increased cardiovascular disease risk (2-4 fold)
+Increased risk of chronic hypertension, stroke, diabetes
+Need for lifelong cardiovascular risk modification
+
+Future pregnancy planning:
+Preconception counselling
+Early booking (before 12 weeks)
+Low-dose aspirin 75-150 mg from 12 weeks (reduces recurrence by 50%)
+Calcium supplementation 1.5-2 g daily (if dietary intake low)
+Close monitoring (BP, urinalysis, growth scans)
+Consider specialist referral
+
+FOLLOW-UP
+Postnatal review at 6 weeks with BP check and urinalysis (ensure resolution). Counsel on recurrence risk and need for low-dose aspirin in future pregnancies. Annual cardiovascular risk assessment (BP, lipids, glucose). Encourage healthy lifestyle (diet, exercise, weight management) to reduce long-term cardiovascular risk.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-17',
+  title: 'Obstructed Labour with Intrauterine Fetal Demise',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Emergency Obstetrics',
+  condition: 'Obstructed labour in an unbooked primigravida with maternal exhaustion, sepsis, and likely intrauterine fetal demise',
+  symptoms: [
+    'Labour pains',
+    'Failure to progress',
+    'Lower abdominal swelling',
+    'Rupture of membranes',
+    'Inability to pass urine',
+    'Absent fetal movements',
+    'Maternal exhaustion',
+    'Dehydration',
+    'Fever',
+    'Tachycardia (120 bpm, weak)',
+    'Tachypnoea (26 cpm)',
+    'Pathological retraction ring (Bandl ring)',
+    'Tender uterus',
+    'Absent fetal heart sounds',
+    'High presenting part with caput and moulding',
+    'Clinically inadequate pelvis',
+    'Short stature (1.50 m)',
+    'Unbooked pregnancy',
+    'Laboured at home with traditional birth attendant'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-22',
+  summary: 'A 24-year-old unbooked primigravida at approximately 40 weeks gestation presenting with obstructed labour: labour pains (24 hours), failure to progress (12 hours), lower abdominal swelling (8 hours), and absent fetal movements (6 hours). Previous labour at home supervised by traditional birth attendant. Examination reveals severe maternal compromise: exhaustion, dehydration, fever (38.2°C), tachycardia (120 bpm weak), tachypnoea (26 cpm), pathological retraction ring (Bandl ring visible), tender uterus, absent fetal heart sounds, fully dilated cervix with high presenting part (station -2) showing significant caput and moulding. Risk factors include short stature (1.50 m), clinically inadequate pelvis, primigravida, unbooked pregnancy, prolonged labour with ruptured membranes (14 hours). Clinical diagnosis: obstructed labour with cephalopelvic disproportion, maternal exhaustion and sepsis, intrauterine fetal demise. Requires immediate resuscitation, broad-spectrum antibiotics, and emergency delivery. High risk of complications including uterine rupture, sepsis, postpartum haemorrhage, and vesicovaginal fistula.',
+  content: `
+Mrs M.O., a 24-year-old unbooked G1P0+0 woman, petty trader, Christian, Yoruba, who resides in Ijebu-Ode, Ogun State. She has a primary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+LMP: Unknown
+EDD: Not reliable
+EGA: Approximately 40 weeks by history and clinical assessment
+
+PRESENTING COMPLAINTS
+Labour pains × 24 hours
+Failure to progress in labour × 12 hours
+Lower abdominal swelling × 8 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 24 hours prior to presentation when she developed labour pains. The pains were initially mild and infrequent but progressed to become strong, frequent, and sustained.
+
+Despite the severity of contractions, there has been no significant progress in labour over the past 12 hours.
+
+There has also been increasing lower abdominal pain and swelling. The pain has become constant and severe.
+
+There is a history of leakage of fluid prt vaginam about 14 hours prior to presentation, with passage of clear fluid initially.
+
+She also complains of inability to pass urine and progressive abdominal discomfort.
+
+There is associated maternal exhaustion and weakness.
+
+Fetal movements were initially present but have been absent for the past 6 hours.
+
+She initially laboured at home under the supervision of a traditional birth attendant before presenting to the hospital.
+
+ANTENATAL HISTORY
+The patient was not booked for antenatal care. No antenatal records are available.
+
+PAST OBSTETRIC HISTORY
+Primigravida
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycle prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic medical illness
+No prior surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+History of ingestion of herbal medications during labour
+
+FAMILY AND SOCIAL HISTORY
+No known hereditary diseases
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young woman, conscious but exhausted and in severe painful distress
+Dehydrated, mildly pale, not icteric
+
+Vital Signs:
+BP: 100/60 mmHg (hypotension suggesting hypovolaemia)
+PR: 120 bpm, weak (tachycardia, weak volume)
+RR: 26 cpm (tachypnoea)
+Temperature: 38.2°C (fever suggesting sepsis)
+
+Anthropometry:
+Height: 1.50 m (short stature, risk factor for cephalopelvic disproportion)
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen grossly distended
+Visible uterine contractions
+A pathological retraction ring (Bandl ring) seen (horizontal groove across abdomen, sign of impending uterine rupture)
+
+Palpation:
+Symphysiofundal height difficult to assess due to distension
+Uterus is tender (suggests prolonged obstruction, possible impending rupture)
+Lie: Longitudinal
+Presentation: Cephalic
+Fetal parts easily palpable (suggestive of fetal demise and thin lower uterine segment)
+Uterine contractions: Frequent, strong, but ineffective
+
+Auscultation:
+Fetal heart sounds: Not heard
+
+Pelvic Examination:
+Vulva oedematous
+Vagina hot and dry (signs of prolonged labour and infection)
+Cervix fully dilated
+Presenting part cephalic but high (station -2, well above ischial spines despite full dilatation)
+Significant caput (scalp oedema) and moulding (overlapping skull bones) present
+Pelvis clinically inadequate (contracted pelvis, cephalopelvic disproportion)
+
+OBSTETRIC SUMMARY
+A 24-year-old unbooked primigravida at term presenting with prolonged labour of 24 hours duration and failure to progress. Examination reveals maternal exhaustion, dehydration, fever, Bandl ring, and a fully dilated cervix with a high presenting part and absent fetal heart sounds.
+
+ASSESSMENT
+
+Obstructed labour in an unbooked primigravida with features of maternal exhaustion, sepsis, and likely intrauterine fetal demise
+
+Diagnosis based on:
+
+Classic features of obstructed labour:
+Prolonged labour (24 hours without progress)
+Failure to progress despite strong contractions and full cervical dilatation
+Pathological retraction ring (Bandl ring) visible on abdomen
+High presenting part (station -2) despite fully dilated cervix
+Significant caput and moulding (excessive moulding grade 3+)
+Tender uterus (suggests impending rupture or early rupture)
+Lower abdominal swelling (distension of lower uterine segment)
+
+Maternal complications present:
+Maternal exhaustion (24 hours labour)
+Dehydration (reduced intake, prolonged labour)
+Fever (38.2°C) and tachycardia (sepsis from prolonged ruptured membranes 14 hours, chorioamnionitis)
+Hypotension (100/60 mmHg) and weak pulse (hypovolaemia, septic shock)
+Tachypnoea (26 cpm, compensatory)
+Inability to pass urine (bladder compression or injury)
+
+Fetal complications:
+Absent fetal movements for 6 hours
+Absent fetal heart sounds (intrauterine fetal demise likely)
+Fetal parts easily palpable (thin lower segment, fetal demise)
+
+Cause of obstruction:
+Cephalopelvic disproportion (CPD):
+Short maternal stature (1.50 m, increased CPD risk)
+Clinically inadequate pelvis
+Primigravida (unproven pelvis)
+High presenting part despite full dilatation and strong contractions
+
+Risk factors present:
+Unbooked pregnancy (no antenatal care, pelvimetry not done)
+Short stature (height less than 1.55 m)
+Primigravida
+Prolonged labour at home (24 hours)
+Managed by traditional birth attendant
+Ingestion of herbal medications (may contain oxytocics, worsen obstruction)
+Prolonged rupture of membranes (14 hours, infection risk)
+
+Complications anticipated:
+
+Immediate:
+Uterine rupture (Bandl ring indicates impending rupture, may have occurred)
+Septic shock (fever, tachycardia, hypotension)
+Bladder injury (prolonged compression, necrosis)
+Urethral injury
+Vesicovaginal fistula (VVF) or rectovaginal fistula (RVF) from pressure necrosis
+Postpartum haemorrhage (atonic uterus from prolonged labour, infection, uterine rupture)
+DIC (from sepsis, abruption, fetal demise)
+Acute kidney injury (from hypovolaemia, sepsis)
+Maternal death
+
+Delayed:
+Vesicovaginal fistula (develops days to weeks after delivery)
+Rectovaginal fistula
+Foot drop (prolonged compression of lumbosacral plexus)
+Infertility (from infection, Asherman syndrome)
+Psychological trauma
+
+Fetal:
+Intrauterine fetal demise (already likely occurred)
+If alive: Severe birth asphyxia, neonatal death
+
+PLAN
+
+This is a life-threatening obstetric emergency requiring immediate multidisciplinary intervention
+
+Call for Help (Immediate)
+Senior obstetrician (consultant or most senior available)
+Anaesthetist (prepare for emergency surgery)
+Theatre team (prepare emergency theatre)
+Haematology/blood bank (massive transfusion may be needed)
+Neonatologist (though IUFD likely, prepare for possibility)
+Senior nursing staff
+
+Immediate Resuscitation (Priority - ABC Approach)
+
+Airway and Breathing:
+Maintain airway patency
+High-flow oxygen via face mask (10-15 L/min) or non-rebreather mask
+Target SpO₂ greater than 95%
+Monitor respiratory rate
+
+Circulation (Most Critical):
+
+Secure IV access:
+Two wide-bore IV cannulas (14G or 16G)
+Antecubital veins preferred
+If difficult access, consider central line
+
+Fluid resuscitation:
+Commence rapid IV fluid infusion
+0.9% Normal Saline or Ringer's Lactate
+Initial bolus: 1-2 litres as fast as possible
+Use pressure bags for rapid infusion
+Warm fluids if possible
+Continue aggressive fluid resuscitation
+Target: Improve BP (greater than 100/60 mmHg), reduce tachycardia
+Monitor for fluid overload
+
+Blood sampling (before transfusion if possible):
+Full blood count (assess anaemia, leucocytosis, platelets)
+Blood grouping and cross-matching (urgent, request at least 4-6 units)
+Coagulation profile (PT, aPTT, INR, fibrinogen - assess for DIC)
+Serum electrolytes, urea, creatinine (renal function)
+Blood culture (sepsis workup)
+Lactate if available (tissue perfusion marker)
+
+Blood transfusion:
+Activate massive transfusion protocol
+Urgent cross-match and prepare blood
+Transfuse as soon as available
+May need O negative blood if grouped blood not ready
+Anticipate need for 4-8 units or more
+
+Bladder Management:
+
+Insert urinary catheter (Foley catheter):
+Attempt gentle catheterization
+If difficult (oedema, compression), try smaller catheter or consult urologist
+May need suprapubic catheter if unable to pass per urethra
+
+Purposes:
+Decompress bladder (reduce obstruction, prevent further injury)
+Monitor urine output (target greater than 0.5 ml/kg/hr)
+Assess for haematuria (bladder injury)
+
+Antibiotic Therapy (Start Immediately)
+
+Broad-spectrum IV antibiotics for chorioamnionitis and sepsis:
+
+Triple therapy:
+IV Ampicillin 2 g 6-hourly PLUS
+IV Gentamicin 5-7 mg/kg once daily PLUS
+IV Metronidazole 500 mg 8-hourly
+
+Alternative:
+IV Ceftriaxone 2 g 12-24 hourly PLUS
+IV Metronidazole 500 mg 8-hourly
+
+Continue for 48 hours after delivery, then switch to oral if improving
+
+Monitoring
+
+Vital signs:
+Continuous monitoring if possible
+BP, pulse, respiratory rate, SpO₂ every 15-30 minutes initially
+Temperature 4-hourly
+Watch for deterioration (worsening hypotension, tachycardia)
+
+Urine output:
+Hourly monitoring via catheter
+Target greater than 0.5 ml/kg/hr (approximately 30 ml/hr)
+Watch for haematuria (bladder injury)
+Oliguria suggests acute kidney injury
+
+Clinical assessment:
+Level of consciousness (may deteriorate with septic shock)
+Abdominal examination (watch for signs of rupture: increasing pain, peritonism, hemoperitoneum)
+Vaginal bleeding (estimate blood loss)
+
+Laboratory:
+Serial haemoglobin every 6-12 hours
+Daily electrolytes, creatinine
+Repeat coagulation if DIC suspected
+
+Assessment for Uterine Rupture
+
+High index of suspicion given Bandl ring, tender uterus, prolonged obstruction
+
+Clinical signs of rupture:
+Sudden sharp abdominal pain
+Cessation of contractions (sometimes)
+Regression of presenting part (fetus moves upward)
+Vaginal bleeding (may be minimal if intraperitoneal bleeding)
+Abdominal distension, peritonism
+Maternal shock (tachycardia, hypotension)
+Absent fetal heart sounds (already absent in this case)
+Easy palpation of fetal parts (may feel fetus outside uterus)
+
+If rupture suspected:
+Urgent laparotomy
+Do not attempt vaginal delivery
+
+Confirmation of Intrauterine Fetal Demise
+
+Ultrasound scan (if time permits and available):
+Confirm absent fetal cardiac activity
+Assess fetal position
+Look for free fluid in abdomen (rupture)
+
+If ultrasound not available:
+Proceed based on clinical diagnosis (absent FHS on auscultation)
+
+Definitive Management - Delivery
+
+Immediate delivery required after brief stabilization (1-2 hours maximum)
+
+Do not delay delivery, as ongoing obstruction worsens maternal and fetal outcomes
+
+Mode of delivery depends on:
+
+Clinical findings:
+Fetal viability (IUFD likely)
+Pelvic adequacy
+Uterine integrity
+Maternal condition
+
+If IUFD confirmed and no uterine rupture:
+
+Assisted vaginal delivery may be considered:
+Destructive operations (craniotomy, decapitation, evisceration)
+Only if:
+Fetus definitely dead
+Pelvis borderline adequate
+Maternal condition stable
+Skilled operator available
+Reduces surgical morbidity in shocked patient
+
+This patient: Pelvis clinically inadequate, presenting part very high, uterine rupture possible
+Vaginal delivery unlikely to be feasible
+Proceed to caesarean section
+
+If uterine rupture suspected or confirmed OR vaginal delivery not feasible:
+
+Emergency laparotomy (caesarean section):
+Urgent surgery required despite maternal shock
+Resuscitate concurrently with surgery
+
+Pre-operative preparation:
+Adequate IV access
+Commence fluid and blood resuscitation
+Start antibiotics (already given)
+Informed consent (document high-risk surgery, possibility of hysterectomy)
+General anaesthesia (avoid regional in shocked, septic patient)
+Senior surgeon and anaesthetist
+Prepare for possible hysterectomy
+
+Surgical approach:
+Midline vertical incision (allows wider access, assess for rupture)
+Deliver baby (likely macerated if dead)
+Examine uterus thoroughly:
+Look for rupture site
+Assess extent of rupture
+Examine bladder, bowel for injury
+Deliver placenta
+
+If uterus intact or small rupture amenable to repair:
+Repair rupture with layers
+Control bleeding
+Oversew any bleeding vessels
+Give uterotonics (oxytocin, carboprost, misoprostol)
+Consider B-Lynch or other compression suture if atonic
+
+If large rupture, uncontrollable bleeding, or extensive uterine necrosis:
+Hysterectomy (subtotal or total)
+Life-saving procedure
+Preserves life over fertility
+
+Examine bladder and bowel:
+Repair any injuries
+Bladder injury common (prolonged compression, necrosis)
+May need urologist consultation
+
+Thorough peritoneal lavage:
+Wash out infection, blood clots
+
+Drains:
+Abdominal drain
+Consider vaginal drain
+
+Post-operative Management
+
+Intensive care or high-dependency unit:
+Close monitoring for 24-48 hours
+Risk of septic shock, DIC, renal failure
+
+Continue resuscitation:
+IV fluids
+Blood products as needed
+Correct anaemia (target Hb greater than 7-8 g/dL)
+Correct coagulopathy if present
+
+Continue antibiotics:
+IV broad-spectrum for 48 hours minimum
+Switch to oral when improving
+Total 7-10 days
+
+Monitor for complications:
+Sepsis progression
+DIC
+Acute kidney injury
+Bladder fistula (VVF)
+Wound infection
+Paralytic ileus
+
+Nutritional support:
+NGT feeding if ileus
+Oral diet when bowel sounds return
+
+Thromboprophylaxis:
+Low molecular weight heparin when haemostasis achieved
+Early mobilization
+
+Bladder care:
+Continuous catheter drainage for 10-14 days
+Assess for fistula development (constant urine leakage)
+
+Physiotherapy:
+Assess for foot drop (lumbosacral plexus injury from prolonged compression)
+Foot physiotherapy if present
+
+Psychological support:
+Grief counselling (perinatal loss)
+Support for surgical complications
+Infertility counselling if hysterectomy performed
+
+Management of Specific Complications
+
+Vesicovaginal Fistula (VVF):
+
+High risk in this patient (prolonged labour, bladder compression)
+May not be apparent immediately (develops days to weeks after delivery)
+
+Prevention:
+Bladder decompression (catheter)
+Adequate hydration
+Avoid prolonged second stage
+
+Detection:
+Constant dribbling of urine after catheter removed
+Dye test (methylene blue in bladder, appears in vagina)
+
+Management:
+If small: Conservative (prolonged catheter drainage 4-6 weeks)
+If large or persistent: Surgical repair (3-6 months after delivery when tissues healthy)
+Refer to fistula repair centre
+
+Disseminated Intravascular Coagulation (DIC):
+
+Risk factors: Fetal demise, sepsis, abruption, shock
+
+Diagnosis:
+Clinical bleeding (multiple sites)
+Laboratory: Low platelets, low fibrinogen, elevated D-dimer, prolonged PT/aPTT
+
+Management:
+Treat underlying cause (delivery, antibiotics for sepsis)
+Replace clotting factors (FFP, cryoprecipitate, platelets)
+
+Acute Kidney Injury:
+
+Risk: Prolonged hypovolaemia, sepsis, bladder obstruction
+
+Management:
+Fluid resuscitation
+Maintain urine output
+Monitor electrolytes (hyperkalaemia)
+Avoid nephrotoxic drugs
+Dialysis if severe
+
+Counselling and Communication
+
+Inform patient and relatives:
+
+Diagnosis: Obstructed labour (baby stuck, cannot deliver vaginally)
+This is life-threatening emergency
+Baby likely already died (no heartbeat)
+Mother at risk of death from complications:
+Uterine rupture (womb tears)
+Severe infection (sepsis)
+Kidney failure
+Bladder injury leading to fistula
+
+Management plan:
+Urgent surgery (caesarean section) required
+May need removal of womb (hysterectomy) to save life
+Risk of needing blood transfusion
+Risk of bladder injury and future problems
+
+Obtain consent:
+For caesarean section
+For hysterectomy if needed to save life
+For blood transfusion
+
+Keep relatives updated frequently
+
+Honest about seriousness and outcomes
+
+Prevention Education
+
+Counsel on importance of:
+Antenatal care (early booking, pelvimetry for short stature)
+Institutional delivery
+Avoid traditional birth attendants
+Seek help early in labour (do not labour at home for 24 hours)
+Avoid herbal medications in labour
+
+Community education:
+Dangers of prolonged home labour
+Importance of skilled birth attendants
+Need for emergency obstetric care facilities
+
+PROGNOSIS
+
+Very serious condition with high maternal morbidity and mortality
+
+Maternal outcomes:
+Mortality: 5-10% in obstructed labour (higher with rupture, sepsis)
+This patient has multiple poor prognostic factors:
+Prolonged obstruction (24 hours)
+Bandl ring (impending rupture)
+Sepsis
+Dehydration and shock
+Unbooked
+Delayed presentation
+
+Major morbidity: 30-50%
+Vesicovaginal fistula (10-20% of obstructed labour cases)
+Foot drop
+Need for hysterectomy (infertility)
+Chronic pelvic pain
+Psychological trauma
+
+With prompt surgery and intensive care: Survival likely but morbidity high
+
+Fetal outcomes:
+Perinatal mortality: Greater than 90% in established obstructed labour
+This baby: Already dead (absent FHS for 6 hours)
+
+Long-term sequelae:
+
+If VVF develops:
+Social isolation (incontinence, odour)
+Marital problems
+Economic hardship
+Delayed repair needed (3-6 months)
+Success rate of repair 70-90%
+
+If hysterectomy performed:
+Permanent infertility
+Loss of childbearing
+Psychological impact
+Marital strain
+
+Prevention of future complications:
+If uterus preserved: Close monitoring in future pregnancies
+High risk of uterine rupture if scar present
+Elective caesarean section in future
+May advise limiting family size
+
+FOLLOW-UP
+Postnatal review at 2 weeks (wound check, assess for fistula). Review at 6 weeks (comprehensive assessment, VVF screening). Fistula repair referral if VVF confirmed. Psychological counselling for perinatal loss and surgical complications. Preconception counselling if future pregnancy desired (explain high-risk status, need for elective caesarean section).
   `,
   bookmarkCount: 0
 },

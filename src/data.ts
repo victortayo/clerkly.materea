@@ -19004,7 +19004,7 @@ Urgent pelvic ultrasound (within 24-48 hours) to confirm fetal viability and exc
   bookmarkCount: 0
 },
 {
-  id: 'obg-3',
+  id: 'ob-11',
   title: 'Missed Abortion at 11 Weeks Gestation',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynaecology/Early Pregnancy Unit',
@@ -19471,5 +19471,2043 @@ Review in clinic within 1–2 weeks with histology results to confirm complete e
   `,
   bookmarkCount: 0
 },
+{
+  id: 'ob-12',
+  title: 'Active Phase of Labour at Term in a Multigravida',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Active phase of labour at 39 weeks + 3 days gestation with singleton cephalic fetus',
+  symptoms: [
+    'Lower abdominal pain (progressive)',
+    'Passage of blood-stained mucus (show)',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-22',
+  summary: 'A 29-year-old booked G2P1+0 (1 alive) at 39 weeks + 3 days gestation presenting with progressive lower abdominal pains (10 hours) and passage of show (6 hours). Regular uterine contractions: 3-4 in 10 minutes, each lasting 40-50 seconds. Previous obstetric history: term SVD of 3.1 kg baby in 2022, no complications. Current pregnancy uncomplicated with regular antenatal care, booking PCV 33%, blood group O positive, genotype AA, HIV negative. Examination reveals cervix 5 cm dilated with 80% effacement, cephalic presentation at station -1, intact membranes, adequate pelvis. Fetal heart rate 142 bpm (reassuring). Clinical findings consistent with active phase of labour. Plan for expectant management with partograph monitoring and anticipated spontaneous vaginal delivery.',
+  content: `
+Mrs A.O., a 29-year-old booked G2P1+0 (1 alive) woman, trader, Christian, Yoruba, who resides in Ibadan, Oyo State. She has a secondary level of education and is married in a monogamous setting.
 
+OBSTETRIC DATA
+LMP: 05/06/2025
+EDD: 12/03/2026
+EGA: 39 weeks + 3 days
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 10 hours
+Passage of blood-stained mucus × 6 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 10 hours prior to presentation when she developed lower abdominal pains. The pains were initially mild, irregular, and infrequent but have progressively increased in frequency, intensity, and duration.
+
+They are now occurring at a frequency of about 3–4 contractions in 10 minutes, each lasting approximately 40–50 seconds. The pains are colicky in nature, located in the lower abdomen, radiating to the lower back, and are not relieved by rest.
+
+About 6 hours prior to presentation, she noticed passage of blood-stained mucoid discharge (show).
+
+There is no history of drainage of liquor per vaginam. There is no vaginal bleeding.
+She perceives good fetal movements.
+
+There is no history of ingestion of herbal medications or use of oxytocics prior to onset of symptoms. She did not seek care elsewhere prior to presentation.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. It was suspected following a missed period and confirmed with a positive pregnancy test. An early obstetric ultrasound scan confirmed a viable intrauterine pregnancy.
+
+She booked for antenatal care at 16 weeks gestation in this facility and has had regular antenatal visits.
+
+She has been compliant with antenatal haematinics.
+She has received two doses of tetanus toxoid and three doses of intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 33%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+Urinalysis: Normal
+
+There were no antenatal complications.
+
+PAST OBSTETRIC HISTORY
+2022: Term spontaneous vaginal delivery of a live male infant weighing 3.1 kg. No complications. Child is alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycle (28-day cycle, 4–5 days flow)
+No history of dysmenorrhoea, menorrhagia, dyspareunia, or post-coital bleeding
+No prior use of contraception
+
+PAST MEDICAL AND SURGICAL HISTORY
+Not a known hypertensive, diabetic, asthmatic, or epileptic patient
+No history of previous surgeries
+No history of blood transfusion
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Only routine antenatal medications used in pregnancy
+
+FAMILY AND SOCIAL HISTORY
+No family history of twinning or hereditary diseases
+Married in a monogamous family setting
+Does not smoke cigarettes or take alcohol
+Has good family support
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young pregnant woman, conscious and alert, in painful distress
+Not pale, anicteric, acyanosed, not dehydrated
+No pedal oedema
+
+Vital Signs:
+BP: 118/76 mmHg
+PR: 90 bpm, regular
+RR: 20 cpm
+Temperature: Afebrile
+
+Anthropometry:
+Height: 1.65 m
+Weight: 72 kg
+
+Breast Examination:
+Breasts are symmetrical
+Nipples everted
+No palpable masses
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+Moves with respiration
+No surgical scars
+Striae gravidarum present
+
+Palpation:
+Symphysiofundal height: 38 cm (consistent with term)
+Leopold's manoeuvres:
+Fundal grip: Breech felt at fundus
+Lateral grip: Fetal back on the left
+Pelvic grip: Head palpable, not ballotable
+Engagement: 3/5 palpable above pelvic brim (engaged)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterine contractions: 3–4 in 10 minutes, lasting 40–50 seconds, moderate intensity
+
+Auscultation:
+Fetal heart rate: 142 bpm, regular (reassuring)
+
+Pelvic Examination (Vaginal Examination):
+Vulva and vagina normal
+No abnormal discharge or bleeding
+Cervix central, soft, 80% effaced, and 5 cm dilated
+Presenting part cephalic at station -1
+Membranes intact
+Pelvis clinically adequate
+
+OBSTETRIC SUMMARY
+A 29-year-old G2P1+0 woman at 39 weeks + 3 days gestation who presented with progressive lower abdominal pain of 10 hours duration associated with passage of show. Examination findings are consistent with active labour.
+
+ASSESSMENT
+
+Active phase of labour in a booked G2P1 at term with a singleton live fetus in cephalic presentation
+
+Diagnosis based on:
+Term gestation (39 weeks + 3 days)
+Regular uterine contractions (3-4 in 10 minutes, each 40-50 seconds)
+Progressive cervical change: 5 cm dilatation, 80% effacement
+Passage of show (blood-stained mucus)
+Cervical effacement and dilatation indicate active labour (active phase starts at 4 cm dilatation)
+
+Stage of labour: First stage, active phase (4-10 cm dilatation)
+
+Maternal status:
+Haemodynamically stable (BP 118/76 mmHg, pulse 90 bpm)
+Not pale (adequate haemoglobin)
+Afebrile (no infection)
+Conscious and alert
+
+Fetal status:
+Singleton pregnancy
+Cephalic presentation (vertex)
+Longitudinal lie
+Fetal back on left (left occipito-anterior likely)
+Engaged (3/5 palpable above pelvic brim)
+Station -1 (1 cm above ischial spines)
+Fetal heart rate 142 bpm, regular (reassuring, normal range 110-160 bpm)
+Good fetal movements perceived by mother
+Membranes intact
+
+Pelvic adequacy:
+Clinically adequate pelvis
+Previous successful vaginal delivery of 3.1 kg baby (proves adequate pelvis)
+
+Risk assessment: Low risk labour
+Previous successful vaginal delivery (multigravida, favourable)
+Regular antenatal care (booked patient)
+No antenatal complications
+Normal booking investigations
+Term gestation
+Cephalic presentation
+Adequate pelvis
+Mother and fetus clinically stable
+
+Expected duration of labour:
+Multigravida: First stage typically 4-6 hours (faster than primigravida)
+Already 5 cm dilated (halfway through active phase)
+Expect delivery within 3-5 hours
+
+PLAN
+
+Admission
+Admit into labour ward
+Allocate to appropriate bay or room
+Inform consultant obstetrician or on-call team
+
+Labour Monitoring
+
+Partograph monitoring (essential):
+Commence partograph immediately
+Plot cervical dilatation on alert and action lines
+Document time of admission and cervical findings (5 cm at admission)
+Repeat vaginal examination every 4 hours or as indicated (earlier if signs of second stage or concerns)
+Expected progress: minimum 1 cm/hour in multigravida
+Plot on partograph: cervical dilatation, descent of head, uterine contractions, fetal heart rate, maternal vital signs
+
+Fetal monitoring:
+Fetal heart rate auscultation every 30 minutes in first stage (after contraction)
+Document on partograph
+Normal range: 110-160 bpm
+Report abnormalities: less than 110 bpm (bradycardia), greater than 160 bpm (tachycardia), decelerations
+Assess fetal movements (mother should continue to feel movements)
+
+Uterine contraction monitoring:
+Palpate and document every 30 minutes
+Normal in active labour: 3-5 contractions per 10 minutes
+Each lasting 40-60 seconds
+Document frequency, duration, and intensity on partograph
+Watch for hypertonic contractions (too frequent, greater than 5 in 10 minutes) or hypotonic (inadequate, less than 3 in 10 minutes)
+
+Maternal vital signs monitoring:
+Blood pressure and pulse: every 4 hours (or 2-hourly if concerns)
+Temperature: every 4 hours
+Respiratory rate
+Document on partograph
+Report abnormalities: BP greater than 140/90 mmHg, pulse greater than 100 bpm, temperature greater than 37.5°C
+
+Urinary output:
+Encourage voiding every 2-4 hours
+Empty bladder to prevent obstruction of labour
+Check urine for protein if hypertension develops
+Monitor for oliguria (may indicate dehydration or complications)
+
+Descent of presenting part:
+Assess at each vaginal examination
+Document station (relation to ischial spines)
+Should progressively descend with labour
+Plot on partograph
+
+Membranes:
+Monitor for spontaneous rupture (drainage of liquor)
+Note time, colour (clear normal, meconium-stained abnormal), and amount
+If membranes rupture, increase fetal heart rate monitoring (every 15-30 minutes)
+
+Investigations
+
+IV access:
+Establish intravenous access (18G or 16G cannula)
+Keep patent with IV fluids or intermittent flushing
+Important for emergency access if needed
+
+Blood tests:
+Send blood for grouping and cross-matching (at least 2 units on standby)
+Check packed cell volume if not recently done (booking PCV was 33%, may need repeat)
+Have blood available in case of postpartum haemorrhage
+
+Supportive Care
+
+Hydration:
+Maintain adequate hydration
+Encourage oral fluids (clear fluids, water, juice)
+IV fluids if unable to tolerate oral: 0.9% Normal Saline or Ringer's Lactate at 125 ml/hour
+Avoid overhydration
+
+Nutrition:
+Light diet allowed in early active labour (if desired)
+Clear fluids only in advanced labour
+Avoid heavy meals (risk of aspiration if emergency anaesthesia needed)
+
+Labour analgesia:
+Assess pain regularly
+Non-pharmacological: Encourage breathing techniques, position changes, back massage, emotional support, ambulation
+Pharmacological options (if requested):
+Parenteral opioids: Pentazocine 30-45 mg IM or Tramadol 50-100 mg IM (can repeat after 3-4 hours if needed)
+Avoid if delivery anticipated within 2-4 hours (risk of neonatal respiratory depression)
+Epidural analgesia if available and requested (usually in first stage)
+
+Ambulation and position:
+Encourage ambulation if no contraindications (improves labour progress)
+Allow upright positions, squatting, kneeling if comfortable
+Avoid supine position (risk of supine hypotension)
+Left lateral position if resting (improves placental perfusion)
+
+Emotional support:
+Allow birth companion (husband or chosen support person)
+Provide reassurance
+Encourage and praise
+Maintain privacy and dignity
+
+Preparation for Delivery
+
+Delivery room preparation:
+Ensure delivery room/bay is ready
+Check lighting adequate
+Prepare delivery pack (sterile drapes, instruments, sutures)
+Ensure oxytocics available: Oxytocin 10 IU, Ergometrine, Syntometrine
+Ensure suturing materials ready
+
+Asepsis:
+Maintain strict asepsis during delivery
+Handwashing, sterile gloves, sterile drapes
+Clean perineum with antiseptic solution before delivery
+
+Neonatal preparation:
+Ensure neonatal resuscitation equipment functional: Radiant warmer, suction, bag and mask, oxygen
+Check medications available: Vitamin K
+Inform neonatal team at onset of second stage (when fully dilated)
+Have personnel skilled in neonatal resuscitation available
+
+Signs of second stage (watch for):
+Complete cervical dilatation (10 cm)
+Involuntary urge to bear down (expulsive efforts)
+Anal dilatation
+Presenting part visible at introitus
+Rectal examination may show fully dilated cervix if vaginal examination contraindicated
+
+Management of labour stages:
+
+First stage (current - active phase):
+Continue monitoring as outlined
+Allow labour to progress naturally
+Normal progress: at least 1 cm dilatation per hour in multigravida
+If progress inadequate (crossing action line on partograph): Consider augmentation with oxytocin, amniotomy (artificial rupture of membranes), or caesarean section if cephalopelvic disproportion
+
+Second stage (when fully dilated):
+Allow spontaneous pushing with contractions (delayed pushing acceptable if no fetal compromise)
+Encourage effective pushing in upright or semi-recumbent position
+Monitor fetal heart rate every 5 minutes
+Prepare for delivery when crowning
+Perform episiotomy if indicated (not routine)
+Controlled delivery of head and shoulders
+Active management of third stage
+
+Third stage (after delivery):
+Active management: Oxytocin 10 IU IM immediately after delivery of anterior shoulder
+Controlled cord traction to deliver placenta
+Uterine massage
+Examine placenta and membranes for completeness
+Check for perineal/vaginal lacerations, repair if needed
+Estimate blood loss
+
+Fourth stage (first hour postpartum):
+Monitor vital signs every 15 minutes for first hour
+Monitor vaginal bleeding (should reduce progressively)
+Check uterine tone (fundus should be firm at umbilicus)
+Initiate breastfeeding within first hour
+Observe for complications (postpartum haemorrhage, retained placenta)
+
+Complications to anticipate and prepare for:
+
+Fetal distress:
+Abnormal fetal heart rate (less than 110 or greater than 160 bpm, decelerations)
+Thick meconium-stained liquor
+Management: Left lateral position, oxygen, stop oxytocics if running, expedite delivery (instrumental or caesarean)
+
+Prolonged labour:
+Failure to progress (cervix not dilating at expected rate)
+Crossing action line on partograph
+Management: Augmentation with oxytocin, amniotomy, or caesarean section
+
+Obstructed labour:
+Less likely in multigravida with previous vaginal delivery
+Signs: Poor progress, maternal exhaustion, fetal distress, moulding, caput
+Management: Emergency caesarean section
+
+Cord prolapse:
+Risk if membranes rupture with high presenting part
+Management: Immediate caesarean section
+
+Postpartum haemorrhage:
+Atonic uterus most common
+Management: Uterine massage, oxytocics, bimanual compression, treat cause
+
+Perineal tears:
+First to fourth degree
+Management: Repair under local or regional anaesthesia
+
+Patient Communication
+
+Inform patient of:
+Current status: active labour, cervix 5 cm dilated
+Expected duration: delivery likely within 3-5 hours
+Plan: monitoring and expectant management
+Pain relief options available
+What to expect during labour and delivery
+When to report concerns (severe pain, reduced fetal movements, heavy bleeding)
+
+Involve birth companion in discussions
+Encourage questions
+Provide reassurance
+Maintain open communication
+
+PROGNOSIS
+
+Excellent prognosis for both mother and baby given:
+Low-risk labour (term gestation, cephalic presentation, adequate pelvis)
+Previous successful vaginal delivery (proves pelvis adequate, labour typically faster)
+Good antenatal care (regular visits, normal investigations)
+Mother and fetus clinically stable
+Active phase already established (5 cm dilated)
+
+Expected outcome:
+Spontaneous vaginal delivery within 3-5 hours
+Healthy mother and baby
+Low risk of complications
+
+Factors favouring good outcome:
+Multigravida (labour typically shorter and easier)
+Proved adequate pelvis (previous 3.1 kg baby delivered vaginally)
+Term gestation (39+3 weeks)
+Good maternal condition (not anaemic, afebrile, haemodynamically stable)
+Reassuring fetal status (normal heart rate, good movements, engaged)
+Booked patient (regular antenatal care)
+
+FOLLOW-UP
+Immediate postpartum care in labour ward for at least 2 hours. Postnatal ward transfer when stable. Day 3 and 6-week postnatal visits. Family planning counselling. Breastfeeding support.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-13',
+  title: 'Term Prelabour Rupture of Membranes (PROM)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Term prelabour rupture of membranes (PROM) at 39 weeks + 5 days gestation',
+  symptoms: [
+    'Sudden passage of fluid per vaginam',
+    'Gush of clear, watery, odourless fluid',
+    'Continuous leakage of fluid',
+    'No lower abdominal pain or uterine contractions',
+    'No vaginal bleeding',
+    'No foul-smelling discharge',
+    'Afebrile',
+    'Good fetal movements perceived',
+    'Pooling of clear fluid in posterior fornix on speculum examination',
+    'Head not well engaged (4/5 palpable)',
+    'Fetal heart rate 144 bpm (normal)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-22',
+  summary: 'A 32-year-old booked G3P2+0 (2 alive) at 39 weeks + 5 days gestation presenting with sudden passage of clear fluid per vaginam (8 hours) without onset of labour. Previous obstetric history: two term spontaneous vaginal deliveries (3.0 kg in 2018, 3.2 kg in 2021), both uncomplicated. Current pregnancy uncomplicated with regular antenatal care, booking PCV 34%, blood group B positive, genotype AA, HIV negative. Examination reveals clear fluid pooling in posterior fornix on speculum examination, afebrile, fetal heart rate 144 bpm (reassuring), cephalic presentation with head not well engaged (4/5 palpable above pelvic brim), no uterine tenderness, no contractions. No signs of chorioamnionitis. Clinical diagnosis: term prelabour rupture of membranes (PROM). Plan for expectant management (12-24 hours), prophylactic antibiotics, and induction of labour if spontaneous labour does not commence.',
+  content: `
+Mrs B.O., a 32-year-old booked G3P2+0 (2 alive) woman, trader, Christian, Yoruba, who resides in Ilorin, Kwara State. She has a secondary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+Gravidity: G3 (third pregnancy)
+Parity: P2+0 (two term deliveries, no miscarriages)
+Living children: 2 alive
+LMP: 20/05/2025
+EDD: 24/02/2026
+EGA: 39 weeks + 5 days
+
+PRESENTING COMPLAINT
+Sudden passage of fluid per vaginam × 8 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 8 hours prior to presentation when she noticed a sudden gush of fluid per vaginam while at rest. This was followed by continuous leakage of fluid sufficient to soak her undergarments and require repeated changes of clothing.
+
+The fluid is described as clear, watery, and odourless.
+
+There is no history of lower abdominal pain or uterine contractions.
+There is no vaginal bleeding and no passage of clots.
+There is no foul-smelling discharge, fever, or lower abdominal tenderness.
+She perceives good fetal movements.
+
+There is no history of trauma, recent sexual intercourse, or insertion of any substances into the vagina.
+She did not seek care at any other facility prior to presentation.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. It was confirmed with a positive pregnancy test and early obstetric ultrasound scan.
+
+She booked for antenatal care at 14 weeks gestation in this facility and has had regular antenatal visits.
+
+She has been compliant with antenatal haematinics.
+She has received two doses of tetanus toxoid and three doses of intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 34%
+Blood group: B positive
+Genotype: AA
+HIV: Negative
+Urinalysis: Normal
+
+There were no antenatal complications.
+
+PAST OBSTETRIC HISTORY
+2018: Term spontaneous vaginal delivery of a live female infant (3.0 kg). No complications. Child alive and well.
+2021: Term spontaneous vaginal delivery of a live male infant (3.2 kg). No complications. Child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycle (28-day cycle, 4–5 days flow)
+No history of dysmenorrhoea, menorrhagia, dyspareunia, or post-coital bleeding
+
+PAST MEDICAL AND SURGICAL HISTORY
+Not a known hypertensive, diabetic, or asthmatic patient
+No previous surgeries
+No history of blood transfusion
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Only routine antenatal medications used in pregnancy
+
+FAMILY AND SOCIAL HISTORY
+No family history of twinning or hereditary diseases
+Married in a monogamous setting
+Does not smoke cigarettes or take alcohol
+Has good social support
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young pregnant woman, conscious and alert, not in distress
+Not pale, afebrile, anicteric, not dehydrated
+No pedal oedema
+
+Vital Signs:
+BP: 112/70 mmHg
+PR: 86 bpm, regular
+RR: 18 cpm
+Temperature: 36.7°C
+
+Anthropometry:
+Height: 1.62 m
+Weight: 70 kg
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+No scars
+
+Palpation:
+Symphysiofundal height: 38 cm (consistent with term)
+Lie: Longitudinal
+Presentation: Cephalic
+Engagement: 4/5 palpable above pelvic brim (head not well engaged)
+No uterine tenderness
+No palpable contractions
+
+Auscultation:
+Fetal heart rate: 144 bpm, regular (reassuring)
+
+Pelvic Examination:
+
+Sterile speculum examination:
+Pooling of clear fluid seen in the posterior fornix
+Fluid observed trickling from the cervical os
+No foul smell
+No bleeding
+
+Digital vaginal examination:
+Deferred initially to reduce risk of infection as patient is not in labour
+
+OBSTETRIC SUMMARY
+A 32-year-old G3P2+0 woman at 39 weeks + 5 days gestation who presented with an 8-hour history of passage of clear fluid per vaginam without labour pains. Examination findings confirm rupture of membranes with a live fetus.
+
+ASSESSMENT
+
+Term prelabour rupture of membranes (PROM) in a booked multiparous woman at term with a singleton live fetus in cephalic presentation, not yet in labour
+
+Diagnosis based on:
+Term gestation (39 weeks + 5 days, greater than 37 weeks)
+History of sudden gush of fluid followed by continuous leakage
+Clear, watery, odourless fluid
+Pooling of fluid in posterior fornix on speculum examination
+Fluid trickling from cervical os
+No uterine contractions (prelabour)
+Membranes ruptured at least 8 hours prior to presentation
+
+Definition: Term PROM is rupture of fetal membranes at term gestation (greater than or equal to 37 weeks) before onset of labour
+
+Maternal status:
+Haemodynamically stable (BP 112/70 mmHg, pulse 86 bpm)
+Afebrile (temperature 36.7°C)
+No signs of infection: no fever, no uterine tenderness, no foul-smelling discharge
+Not pale (adequate haemoglobin, PCV 34% at booking)
+
+Fetal status:
+Singleton pregnancy
+Cephalic presentation
+Longitudinal lie
+Fetal heart rate 144 bpm, regular (reassuring, normal range 110-160 bpm)
+Good fetal movements perceived
+Head not well engaged (4/5 palpable above pelvic brim, risk of cord prolapse if membranes rupture with high presenting part, but membranes already ruptured)
+
+Risk assessment:
+Low risk overall
+Multiparous (two previous successful vaginal deliveries)
+Term gestation (39+5 weeks)
+No antenatal complications
+Regular antenatal care
+No signs of infection currently
+However: Risk of ascending infection increases with time from membrane rupture, risk of cord prolapse (head not engaged)
+
+Time factor:
+Membranes ruptured 8 hours ago
+Risk of infection increases with duration of ruptured membranes
+Majority of women (60-70%) will go into spontaneous labour within 24 hours
+If no labour within 24 hours, risk of chorioamnionitis increases
+
+Differential diagnosis:
+Loss of urine (stress incontinence, urge incontinence) - ruled out by history of sudden gush, continuous leakage, and pooling of fluid on speculum
+Vaginal discharge (physiological, infection) - ruled out by clear watery nature, volume, and trickling from cervical os
+Hindwater leak (fore-waters intact, hindwaters ruptured) - possible but treated same as PROM
+Semen leak after intercourse - ruled out by no recent intercourse, prolonged leakage
+
+PLAN
+
+Admission
+Admit into labour ward or antenatal ward with close monitoring
+Explain diagnosis and management plan to patient
+Document time of membrane rupture clearly (8 hours prior to presentation)
+
+Confirmation of Membrane Rupture
+
+Already confirmed by:
+History (sudden gush, continuous leakage)
+Speculum examination (pooling in posterior fornix, fluid trickling from cervical os)
+
+Additional tests if diagnosis uncertain:
+Nitrazine test (pH paper): amniotic fluid pH 7.0-7.5 (alkaline), turns nitrazine paper blue. Vaginal secretions pH 4.5-5.5 (acidic)
+Ferning test: Dry amniotic fluid on slide shows ferning pattern (arborization) under microscope due to salt crystallization
+Ultrasound: Reduced amniotic fluid volume (oligohydramnios)
+
+Not needed in this case as diagnosis clear from speculum examination
+
+Assessment for Chorioamnionitis
+
+Clinical assessment (every 4 hours):
+Maternal temperature (fever greater than 38°C suggests infection)
+Maternal tachycardia (pulse greater than 100 bpm)
+Fetal tachycardia (FHR greater than 160 bpm)
+Uterine tenderness
+Character of liquor (colour, smell - foul odour suggests infection)
+Maternal white blood cell count (leucocytosis greater than 15,000/μL)
+
+Currently no signs of chorioamnionitis:
+Temperature 36.7°C (normal)
+Pulse 86 bpm (normal)
+FHR 144 bpm (normal)
+No uterine tenderness
+Clear, odourless fluid
+
+Monitoring
+
+Maternal monitoring:
+Vital signs (temperature, pulse, BP, respiratory rate) every 4 hours
+Watch for fever (temperature greater than 37.5°C)
+Watch for tachycardia
+Observe liquor character when leaking (colour, smell)
+Assess for uterine tenderness at each examination
+Monitor for onset of contractions
+
+Fetal monitoring:
+Fetal heart rate auscultation every 30 minutes
+Continuous cardiotocography (CTG) if available and concern for fetal well-being
+Normal FHR: 110-160 bpm
+Report tachycardia (greater than 160 bpm, early sign of chorioamnionitis)
+Monitor fetal movements (reduced movements concerning)
+
+Observe for onset of labour:
+Regular uterine contractions
+Cervical changes
+Most women (60-70%) enter spontaneous labour within 24 hours of PROM at term
+
+Watch for cord prolapse:
+Risk increased with high presenting part (4/5 palpable in this case)
+Sudden FHR changes (bradycardia, variable decelerations)
+Palpable cord on vaginal examination
+If suspected: immediate vaginal examination, elevate presenting part, emergency caesarean section
+
+Investigations
+
+Full blood count:
+Baseline white cell count (normal less than 11,000/μL)
+Haemoglobin and haematocrit
+Platelet count
+Repeat if signs of infection develop (leucocytosis suggests infection)
+
+High vaginal swab (HVS):
+For microscopy, culture and sensitivity
+Identify organisms (Group B Streptococcus, E. coli, others)
+Guide antibiotic choice if infection develops
+Take before starting antibiotics if possible
+
+Urinalysis:
+Rule out urinary tract infection (can mimic PROM symptoms)
+Assess for proteinuria
+
+Blood grouping and cross-matching:
+Prepare at least 2 units of blood on standby
+In case of postpartum haemorrhage or need for caesarean section
+
+Additional tests if indicated:
+C-reactive protein (CRP) or procalcitonin (if available, elevated in infection)
+Ultrasound scan: Assess amniotic fluid volume (AFI or single deepest pocket), fetal biophysical profile if fetal compromise suspected
+
+Management Options
+
+Two main approaches: Expectant management vs immediate induction
+
+This patient: Term gestation (39+5 weeks), no contraindications to expectant management, can offer both options
+
+Expectant Management (Conservative Approach):
+
+Allow period of observation for spontaneous onset of labour
+Duration: Up to 12-24 hours (unit protocol dependent)
+Rationale: Most women (60-95%) will labour spontaneously within 24 hours, avoid unnecessary intervention
+
+Advantages:
+Higher chance of spontaneous labour (avoids induction)
+Lower intervention rate
+Lower caesarean section rate
+Patient autonomy (natural process)
+
+Disadvantages:
+Risk of ascending infection increases with time (chorioamnionitis 2-4% if labour within 24 hours, 10-15% if greater than 24 hours)
+Prolonged hospitalization
+Patient anxiety while waiting
+
+Contraindications to expectant management:
+Signs of chorioamnionitis (fever, maternal or fetal tachycardia, uterine tenderness, foul liquor)
+Fetal distress (abnormal FHR)
+Significant antepartum haemorrhage
+Gestational age greater than 41 weeks (some units induce immediately)
+
+Monitoring during expectant management:
+Maternal vital signs 4-hourly
+Fetal heart rate 30-minutely
+Watch for signs of infection or fetal compromise
+Prophylactic antibiotics (see below)
+
+Immediate Induction of Labour:
+
+Active management: Induce labour soon after membrane rupture (within 6-12 hours)
+Rationale: Reduce risk of infection, shorten latency period
+
+Advantages:
+Reduced infection risk
+Shorter hospital stay
+Reduced maternal anxiety
+Controlled timing
+
+Disadvantages:
+Higher intervention rate
+Higher caesarean section rate (especially if unfavourable cervix)
+Need for continuous monitoring
+Increased use of analgesia/epidural
+
+This patient: Can offer expectant management initially (12-24 hours) given low risk, then induce if no spontaneous labour
+
+Antibiotic Prophylaxis
+
+Recommended in PROM to reduce risk of chorioamnionitis, neonatal sepsis, and need for neonatal intensive care
+
+Regimen (WHO and local guidelines):
+IV Ampicillin 2 g 6-hourly PLUS Erythromycin 250 mg 6-hourly for 48 hours
+Then Oral Amoxicillin 250-500 mg 8-hourly PLUS Erythromycin 250 mg 6-hourly for 5 days
+Total course: 7 days or until delivery (whichever comes first)
+
+Alternative if penicillin allergy:
+Erythromycin alone 250 mg 6-hourly for 7 days OR
+Azithromycin 1 g orally once
+
+If Group B Streptococcus (GBS) positive or unknown:
+IV Benzylpenicillin (Penicillin G) 3 million units loading, then 1.5 million units 4-hourly until delivery OR
+IV Ampicillin 2 g loading, then 1 g 4-hourly until delivery
+If GBS negative: prophylactic antibiotics as above
+
+This patient: Start prophylactic antibiotics immediately
+
+Induction of Labour (if Expectant Management Fails or Immediate Induction Chosen)
+
+Timing: If no spontaneous labour within 12-24 hours (unit protocol)
+
+Methods depend on cervical favourability (Bishop score):
+
+Assess cervix:
+Bishop score: Assess dilatation, effacement, station, consistency, position
+Favourable cervix: Bishop score greater than or equal to 6 (can start oxytocin)
+Unfavourable cervix: Bishop score less than 6 (may need cervical ripening first)
+
+This patient: Cervix not assessed yet (digital examination deferred)
+
+If unfavourable cervix:
+Cervical ripening with prostaglandins:
+Vaginal Misoprostol 25 mcg 4-hourly OR
+Vaginal Dinoprostone (PGE2) pessary or gel
+Then oxytocin if membranes intact or once cervix favourable
+
+If favourable cervix or after cervical ripening:
+Oxytocin infusion:
+Start at 2-4 mU/min, increase by 2 mU every 30 minutes
+Target: 3-5 contractions per 10 minutes
+Maximum dose: 32-40 mU/min
+Monitor with partograph
+Continuous CTG if available
+
+If membranes intact after cervical ripening:
+Artificial rupture of membranes (ARM/amniotomy) once cervix favourable
+Then oxytocin infusion
+
+Precautions During Management
+
+Minimize digital vaginal examinations:
+Each examination increases infection risk
+Perform only when necessary:
+To assess cervical favourability before induction
+Every 4 hours in labour to assess progress
+If signs of second stage
+If concerns (abnormal FHR, suspected cord prolapse)
+Use sterile speculum examination when possible
+
+Maintain strict asepsis:
+Handwashing before examinations
+Sterile gloves
+Sterile speculum
+Avoid contamination
+
+Avoid intercourse:
+Increases infection risk
+
+No vaginal douching or tampons:
+Increases infection risk
+
+Preparation for Delivery
+
+Delivery planning:
+Anticipate vaginal delivery (multiparous with previous vaginal deliveries)
+Have theatre ready in case of emergency (cord prolapse, fetal distress, failed induction)
+
+Neonatal preparation:
+Inform neonatal team of PROM case
+Risk of neonatal sepsis (early-onset sepsis)
+Ensure neonatal resuscitation equipment available
+Paediatrician present at delivery if possible
+
+Intrapartum care:
+Once in labour, manage as normal labour
+Partograph monitoring
+Fetal heart rate monitoring (more frequent if PROM)
+Second stage: monitor closely
+Third stage: active management
+
+Neonatal care:
+Assess for signs of infection: temperature instability, respiratory distress, poor feeding, lethargy
+Full septic screen if clinical suspicion: blood culture, FBC, CRP
+Antibiotic treatment if signs of sepsis
+
+Complications to Monitor and Manage
+
+Chorioamnionitis (Intraamniotic Infection):
+Incidence: 2-4% if deliver within 24 hours, 10-15% if longer than 24 hours
+Signs: Fever (greater than 38°C), maternal tachycardia, fetal tachycardia, uterine tenderness, foul liquor
+Management:
+Broad-spectrum IV antibiotics immediately (Ampicillin plus Gentamicin plus Metronidazole)
+Expedite delivery (induce or augment labour, or caesarean section if indicated)
+Neonatal septic screen and antibiotics
+
+Cord prolapse:
+Risk increased with high presenting part
+Signs: Sudden FHR changes (severe bradycardia, variable decelerations), palpable cord
+Management: Immediate vaginal examination, elevate presenting part manually, fill bladder, knee-chest position, emergency caesarean section
+
+Fetal distress:
+Causes: Cord compression (oligohydramnios after ROM), infection, placental insufficiency
+Signs: Abnormal FHR (persistent bradycardia, late decelerations, reduced variability)
+Management: Resuscitate (left lateral position, oxygen, IV fluids, stop oxytocin), expedite delivery
+
+Failed induction:
+Failed to achieve active labour after adequate oxytocin (cervix less than 4 cm after 12-18 hours)
+Management: Caesarean section
+
+Postpartum endometritis:
+Risk increased with prolonged ROM, multiple vaginal examinations, chorioamnionitis
+Signs: Fever, uterine tenderness, foul lochia
+Management: Broad-spectrum IV antibiotics, uterine massage, analgesia
+
+Neonatal sepsis:
+Risk: 1-2% with PROM, higher if chorioamnionitis or prolonged ROM
+Organisms: Group B Streptococcus, E. coli, others
+Management: Neonatal septic screen, antibiotics if indicated
+
+Documentation
+
+Important to document clearly:
+Timing of membrane rupture (8 hours prior to presentation in this case)
+Character of liquor (clear, odourless in this case)
+Presence or absence of contractions
+Maternal and fetal status
+Management plan (expectant vs immediate induction)
+Antibiotics given and timing
+Vaginal examinations (number, findings)
+Progression to labour
+Delivery details
+Complications if any
+
+Medicolegal importance:
+PROM cases can have adverse outcomes (infection, neonatal sepsis)
+Good documentation protects both patient and healthcare provider
+
+Patient Counselling
+
+Explain diagnosis:
+Membranes have ruptured (water bag broken)
+This is common (10% of pregnancies at term)
+Most women go into labour within 24 hours
+
+Explain risks:
+Main risk is infection (chorioamnionitis, neonatal sepsis)
+Risk increases with time
+That's why close monitoring and antibiotics important
+
+Explain management plan:
+Admit for observation and monitoring
+Give antibiotics to reduce infection risk
+Watch for spontaneous labour (12-24 hours)
+If no labour, will induce
+Delivery likely within 24-48 hours
+
+Signs to report immediately:
+Fever or feeling unwell
+Abdominal pain or tenderness
+Foul-smelling discharge
+Reduced fetal movements
+Bleeding
+
+Reassurance:
+This is manageable condition
+Will be closely monitored
+Excellent chance of good outcome for mother and baby
+
+PROGNOSIS
+
+Excellent prognosis for both mother and baby with appropriate management
+
+Expected outcomes:
+60-70% will labour spontaneously within 24 hours
+90-95% will deliver within 48 hours with expectant management or induction
+Low risk of serious complications with prophylactic antibiotics and close monitoring
+
+Maternal outcomes:
+Risk of chorioamnionitis: 2-4% if deliver within 24 hours (reduced with antibiotics)
+Risk of postpartum endometritis: 2-5%
+Risk of caesarean section: 10-15% (lower in multiparous)
+Risk of PPH: similar to general population
+Overall maternal morbidity low
+
+Neonatal outcomes:
+Risk of early-onset neonatal sepsis: 1-2% (reduced with maternal antibiotics)
+Risk of respiratory distress syndrome: similar to term babies without PROM
+Perinatal mortality: very low (less than 1 in 1000) with appropriate management
+Most babies healthy with no complications
+
+Factors favouring good outcome in this patient:
+Term gestation (39+5 weeks)
+Multiparous (previous successful vaginal deliveries)
+Clear liquor (no meconium)
+No signs of infection
+Prompt presentation (8 hours, not prolonged)
+Good antenatal care
+Singleton cephalic fetus
+Reassuring fetal status
+
+FOLLOW-UP
+Postpartum follow-up at day 3 and 6 weeks. Monitor for signs of endometritis. Ensure neonatal follow-up for assessment of any sepsis. Family planning counselling. Breastfeeding support.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-14',
+  title: 'Severe Abruptio Placentae with Maternal Shock and Intrauterine Fetal Demise',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Emergency Obstetrics',
+  condition: 'Severe abruptio placentae with maternal hypovolaemic shock and likely intrauterine fetal demise',
+  symptoms: [
+    'Vaginal bleeding (dark, moderate, with clots)',
+    'Severe abdominal pain (generalized, constant)',
+    'Reduced fetal movements',
+    'Tense, tender, board-like uterus',
+    'Fetal heart sounds not heard',
+    'Maternal shock (BP 90/60 mmHg, pulse 112 bpm thready)',
+    'Pallor',
+    'Tachypnoea',
+    'Unbooked pregnancy',
+    'LMP unknown',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-22',
+  summary: 'A 36-year-old unbooked G4P3+0 (3 alive) at approximately 37 weeks gestation presenting with obstetric emergency: sudden onset vaginal bleeding (6 hours, dark with clots), severe continuous abdominal pain (6 hours), and reduced fetal movements (4 hours). Previous obstetric history: three term spontaneous vaginal deliveries (2015, 2018, 2021), all uncomplicated. Current pregnancy unbooked with no antenatal care. Examination reveals maternal shock (BP 90/60 mmHg, pulse 112 bpm thready), pallor, tense tender board-like uterus, absent fetal heart sounds. Clinical diagnosis: severe abruptio placentae (placental abruption) with concealed/revealed haemorrhage, maternal hypovolaemic shock, and likely intrauterine fetal demise. Requires immediate resuscitation with IV fluids and blood transfusion, emergency delivery, and monitoring for complications (DIC, acute kidney injury, postpartum haemorrhage).',
+  content: `
+Mrs K.A., a 36-year-old unbooked G4P3+0 (3 alive) woman, trader, Muslim, Yoruba, who resides in Abeokuta, Ogun State. She has a primary level of education and is married in a polygamous setting.
+
+OBSTETRIC DATA
+Gravidity: G4 (fourth pregnancy)
+Parity: P3+0 (three term deliveries, no miscarriages)
+Living children: 3 alive
+LMP: Unknown
+EDD: Not reliable
+EGA: Approximately 37 weeks by dates and clinical assessment
+
+PRESENTING COMPLAINTS
+Vaginal bleeding × 6 hours
+Severe abdominal pain × 6 hours
+Reduced fetal movements × 4 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 6 hours prior to presentation when she developed sudden onset vaginal bleeding. The bleeding is dark in colour, moderate in quantity, and associated with passage of clots.
+
+This was associated with severe, continuous abdominal pain. The pain is generalized, constant, and not relieved by rest. There is no radiation.
+
+About 4 hours prior to presentation, she noticed a reduction in fetal movements.
+
+There is no history of trauma, fall, or external injury.
+No history of similar episodes earlier in the pregnancy.
+She has not received antenatal care in this pregnancy.
+
+ANTENATAL HISTORY
+The pregnancy was not booked for antenatal care. No antenatal records are available.
+
+PAST OBSTETRIC HISTORY
+2015: Term spontaneous vaginal delivery of a live infant. No complications. Child alive and well.
+2018: Term spontaneous vaginal delivery of a live infant. No complications. Child alive and well.
+2021: Term spontaneous vaginal delivery of a live infant. No complications. Child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycles prior to this pregnancy
+No history of abnormal vaginal bleeding
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic medical illness
+No previous surgeries
+No history of hypertension documented (though not formally evaluated in this pregnancy)
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+No medications used in this pregnancy
+
+FAMILY AND SOCIAL HISTORY
+No known family history of hereditary disease
+Married in a polygamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+An ill-looking pregnant woman, conscious but in severe painful distress
+Pale, not icteric, not cyanosed
+Not dehydrated
+
+Vital Signs:
+BP: 90/60 mmHg (hypotension, shock)
+PR: 112 bpm, thready (tachycardia, shock)
+RR: 24 cpm (tachypnoea)
+Temperature: 36.5°C
+
+Anthropometry:
+Height: 1.60 m
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+No surgical scars
+
+Palpation:
+Symphysiofundal height: 36 cm
+Uterus is tense, tender, and board-like on palpation (Couvelaire uterus)
+Lie: Difficult to assess due to increased uterine tone
+Presentation: Not clearly defined
+Uterine contractions: Difficult to delineate due to continuous uterine activity
+
+Auscultation:
+Fetal heart sounds: Not heard
+
+Pelvic Examination:
+
+Speculum examination:
+Dark blood seen in the vaginal vault
+No active bleeding point identified from cervix
+
+Digital vaginal examination (performed cautiously after excluding placenta praevia clinically):
+Cervix partially dilated
+Membranes status unclear
+Presenting part high
+
+OBSTETRIC SUMMARY
+A 36-year-old unbooked G4P3+0 woman at approximately 37 weeks gestation presenting with sudden onset vaginal bleeding, severe abdominal pain, and reduced fetal movements. Examination reveals a tense, tender uterus, maternal shock, and absent fetal heart sounds.
+
+ASSESSMENT
+
+Severe abruptio placentae in an unbooked multiparous woman with features of maternal hypovolaemic shock and likely intrauterine fetal demise
+
+Diagnosis based on:
+
+Classic triad of abruptio placentae:
+Vaginal bleeding (dark blood with clots, concealed or revealed haemorrhage)
+Severe abdominal pain (constant, generalized)
+Uterine tenderness and increased tone (tense, tender, board-like uterus)
+
+Additional features:
+Sudden onset (6 hours ago, acute presentation)
+Reduced fetal movements progressing to absent fetal heart sounds (fetal compromise/demise)
+Maternal shock (hypotension 90/60 mmHg, tachycardia 112 bpm thready, pallor)
+Term gestation (approximately 37 weeks)
+
+Classification of severity:
+
+Grade 3 (severe) abruptio placentae:
+Greater than 50% placental separation
+Severe bleeding (concealed or revealed)
+Tense, tender, board-like uterus (Couvelaire uterus from blood infiltrating myometrium)
+Fetal death (absent fetal heart sounds)
+Maternal shock (hypotension, tachycardia)
+Risk of coagulopathy (DIC)
+
+Risk factors present:
+Unbooked pregnancy (no antenatal care, unknown hypertension status)
+Grand multiparity (G4P3+0, parity greater than 3 is risk factor)
+Age 36 years (advanced maternal age)
+Unknown medical history (hypertension, other conditions not assessed)
+Low socioeconomic status (primary education, polygamous setting)
+
+Maternal status:
+Hypovolaemic shock (Class II-III haemorrhage):
+BP 90/60 mmHg (hypotension)
+Pulse 112 bpm, thready (tachycardia, poor volume)
+Tachypnoea (24 cpm, compensatory)
+Pallor (significant blood loss)
+Conscious (still compensating, but at risk of deterioration)
+Estimated blood loss: 1000-2000 ml or more (combination of revealed bleeding and concealed retroplacental haemorrhage)
+
+Fetal status:
+Intrauterine fetal demise (IUFD) likely
+Absent fetal heart sounds on auscultation
+Reduced fetal movements noted 4 hours prior
+Requires urgent ultrasound confirmation if time permits
+
+Complications anticipated:
+
+Immediate:
+Hypovolaemic shock (already present)
+Disseminated intravascular coagulation (DIC) - consumptive coagulopathy from release of thromboplastin from placental separation
+Acute kidney injury (from hypoperfusion and shock)
+Postpartum haemorrhage (atonic uterus from Couvelaire changes, coagulopathy)
+
+Early:
+Sheehan syndrome (pituitary necrosis from severe hypotension)
+Transfusion reactions
+Infection
+
+Differential diagnosis:
+Placenta praevia (excluded by absence of painless bleeding, presence of severe pain and uterine tenderness)
+Uterine rupture (less likely, no previous caesarean section, but cannot completely exclude)
+Vasa praevia (less likely, acute presentation with maternal shock)
+
+PLAN
+
+This is an obstetric emergency requiring immediate coordinated multidisciplinary approach
+
+Call for Help (Immediate)
+Alert senior obstetrician (consultant or most senior available)
+Call anaesthetist immediately
+Inform theatre team (prepare for emergency caesarean section)
+Alert neonatologist (though IUFD likely, prepare for possibility of live birth)
+Activate massive transfusion protocol if available
+Call for additional nursing support
+
+Immediate Resuscitation (Priority - ABC Approach)
+
+Airway and Breathing:
+Maintain airway patency
+High-flow oxygen via face mask (10-15 L/min) or non-rebreather mask
+Target SpO₂ greater than 95%
+Monitor respiratory rate and effort
+Prepare for intubation if deteriorating consciousness
+
+Circulation (Most Critical):
+
+Secure IV access:
+Two wide-bore IV cannulas (14G or 16G) in both antecubital fossae
+If difficult access, consider central venous line
+
+Rapid fluid resuscitation:
+Commence immediate rapid infusion of crystalloids
+0.9% Normal Saline or Ringer's Lactate
+Initial bolus: 1-2 litres as fast as possible
+Continue fluid resuscitation while awaiting blood
+Use pressure bags or hand-squeeze bags for rapid infusion
+Warm fluids if possible (prevent hypothermia)
+
+Blood sampling (before starting transfusion):
+Full blood count (assess haemoglobin, platelet count)
+Blood grouping and cross-matching (urgent, request at least 4-6 units)
+Coagulation profile: PT, aPTT, INR, fibrinogen (assess for DIC)
+Serum electrolytes, urea, creatinine (baseline renal function)
+Liver function tests
+Lactate level if available (tissue perfusion marker)
+
+Blood transfusion:
+Activate massive transfusion protocol
+Request urgent release of O negative blood if grouped blood not yet available
+Transfuse packed red blood cells as soon as available
+Target haemoglobin greater than 7-8 g/dL initially
+May need 4-8 units or more
+Transfuse fresh frozen plasma (FFP) if coagulopathy present (INR greater than 1.5, fibrinogen less than 1 g/L)
+Ratio: 1 unit FFP for every 2 units packed cells
+Transfuse platelets if platelet count less than 50,000/μL
+Cryoprecipitate if fibrinogen less than 1 g/L despite FFP
+
+Monitoring:
+
+Vital signs:
+Continuous monitoring: pulse, BP, respiratory rate, SpO₂
+Every 5-15 minutes initially
+Watch for improvement or deterioration
+
+Urine output:
+Insert urinary catheter (Foley catheter) immediately
+Monitor urine output hourly (target greater than 0.5 ml/kg/hr, approximately 30 ml/hr)
+Oliguria or anuria suggests acute kidney injury
+
+Clinical assessment:
+Level of consciousness (may deteriorate with severe shock)
+Skin perfusion (capillary refill time, temperature of extremities)
+Ongoing vaginal bleeding (quantify)
+Abdominal tenderness
+
+Investigations to assess for DIC:
+Serial coagulation profile (PT, aPTT, fibrinogen, D-dimer)
+Signs of DIC: Prolonged PT/aPTT, low fibrinogen (less than 1 g/L), elevated D-dimer, thrombocytopenia
+Monitor for clinical bleeding (surgical sites, IV sites, gums)
+
+Assessment of Fetal Status
+
+Urgent ultrasound scan:
+Confirm intrauterine fetal demise (absent fetal cardiac activity)
+Assess placental location and degree of separation
+Assess amniotic fluid volume
+Rule out uterine rupture
+
+If ultrasound not immediately available:
+Proceed based on clinical diagnosis (absent fetal heart sounds on auscultation)
+Time is critical, do not delay resuscitation and delivery for ultrasound
+
+Definitive Management - Delivery
+
+Timing: Deliver as soon as maternal condition stabilized (within 1-2 hours maximum)
+Do not delay delivery, as ongoing bleeding and coagulopathy worsen with time
+
+Mode of delivery depends on:
+
+Maternal condition:
+Degree of haemodynamic stability
+Response to resuscitation
+Presence of coagulopathy
+
+Fetal status:
+If IUFD confirmed: vaginal delivery preferred (if feasible)
+If live fetus: immediate caesarean section
+
+Cervical status:
+If cervix favourable (greater than 3-4 cm dilated): vaginal delivery feasible
+If cervix unfavourable (less than 3 cm): caesarean section preferred
+
+This patient:
+Cervix partially dilated
+Maternal shock (but resuscitating)
+Likely IUFD
+Decision: Attempt vaginal delivery if cervix rapidly progressive OR proceed to emergency caesarean section if maternal condition unstable or delivery not imminent
+
+Vaginal delivery approach (if feasible):
+
+Indications:
+IUFD confirmed
+Cervix favourable (greater than 4 cm) or rapidly dilating
+Maternal condition stabilizing with resuscitation
+No contraindications to vaginal delivery
+
+Advantages:
+Avoid surgery in shocked, coagulopathic patient (reduce surgical bleeding)
+Lower anaesthetic risk
+
+Management:
+Artificial rupture of membranes (ARM) if intact
+Augment labour with IV oxytocin if needed (careful titration)
+Continuous monitoring of maternal vital signs
+Prepare for immediate caesarean section if labour not progressing or maternal deterioration
+
+Caesarean section approach (if required):
+
+Indications:
+Maternal condition not stabilizing despite resuscitation
+Unfavourable cervix with no progression
+Suspected uterine rupture
+Live fetus with need for immediate delivery
+Coagulopathy worsening
+
+Preparations:
+Adequate resuscitation first (stabilize BP, commence blood transfusion)
+Inform patient and relatives (high-risk surgery, consent)
+General anaesthesia preferred (rapid induction, avoid regional in shocked patient)
+Senior surgeon and anaesthetist
+Have additional uterotonics ready (oxytocin, carboprost, misoprostol)
+Prepare for possible hysterectomy if uncontrollable bleeding
+
+Procedure:
+Lower segment caesarean section
+Deliver baby and placenta
+Administer uterotonics: IV oxytocin 10-40 units in 500 ml Normal Saline
+Examine uterus for Couvelaire changes (ecchymosis, haemorrhage into myometrium)
+If atonic uterus: uterine massage, additional uterotonics (IM carboprost 250 mcg, rectal misoprostol 800-1000 mcg)
+If uncontrollable bleeding despite uterotonics: surgical measures (B-Lynch suture, uterine artery ligation, internal iliac artery ligation, hysterectomy)
+
+Management of Complications
+
+Disseminated Intravascular Coagulation (DIC):
+
+High risk in severe abruptio placentae (release of tissue thromboplastin)
+
+Diagnosis:
+Clinical: Bleeding from multiple sites (IV sites, surgical wounds, gums, mucous membranes)
+Laboratory: Prolonged PT/aPTT, low fibrinogen (less than 1 g/L), thrombocytopenia (less than 50,000/μL), elevated D-dimer, low haemoglobin
+
+Management:
+Treat underlying cause: Deliver placenta (removes source of thromboplastin)
+Replace clotting factors:
+Fresh frozen plasma (FFP): 15-30 ml/kg (approximately 4-6 units)
+Cryoprecipitate: 10 units if fibrinogen less than 1 g/L
+Platelet transfusion: If platelets less than 50,000/μL (4-6 units)
+Packed red cells: Maintain haemoglobin greater than 7-8 g/dL
+Monitor coagulation profile serially
+Avoid heparin (controversial, not routinely used)
+
+Acute Kidney Injury:
+
+Risk factors: Prolonged shock, hypoperfusion, myoglobinuria (from muscle necrosis), DIC
+
+Prevention:
+Adequate fluid resuscitation
+Maintain blood pressure
+Monitor urine output (target greater than 0.5 ml/kg/hr)
+
+Management if develops:
+Fluid management (avoid overload)
+Monitor electrolytes (hyperkalaemia, acidosis)
+Avoid nephrotoxic drugs
+Furosemide if fluid overload
+Renal replacement therapy (dialysis) if severe
+
+Postpartum Haemorrhage:
+
+High risk due to:
+Couvelaire uterus (infiltration of blood into myometrium impairs contraction)
+Coagulopathy (DIC)
+Retained placental fragments
+
+Prevention:
+Active management of third stage (oxytocin)
+Early recognition and treatment of atonic uterus
+
+Management:
+Uterine massage
+Uterotonics: IV oxytocin infusion, IM carboprost, IM ergometrine (if no hypertension), rectal/sublingual misoprostol
+Treat coagulopathy (FFP, platelets, cryoprecipitate)
+Bimanual uterine compression
+Intrauterine balloon tamponade (Bakri balloon)
+Surgical interventions: B-Lynch suture, uterine/internal iliac artery ligation, hysterectomy if all else fails
+
+Sheehan Syndrome (Pituitary Necrosis):
+
+Risk with severe hypotension and shock
+Prevention: Adequate resuscitation, avoid prolonged hypotension
+Presents postpartum with failure of lactation, amenorrhoea, hypothyroidism
+Requires long-term hormone replacement
+
+Post-Delivery Care
+
+Immediate postpartum (first 24 hours):
+Intensive care unit or high-dependency unit if available
+Continuous monitoring: vital signs every 15-30 minutes initially, then hourly
+Monitor urine output hourly
+Monitor vaginal bleeding
+Check uterine tone frequently
+Serial haemoglobin/haematocrit (6-12 hourly)
+Serial coagulation profile if DIC
+Continue blood transfusion as needed
+Maintain IV access and fluids
+Broad-spectrum antibiotics (risk of infection with prolonged bleeding and instrumentation)
+
+Longer-term:
+Monitor for complications: infection, anaemia, renal failure, Sheehan syndrome
+Psychological support (IUFD, traumatic delivery)
+Counselling on what happened
+Contraception counselling (high-risk pregnancy, consider long-acting methods)
+
+Management of Intrauterine Fetal Demise
+
+Confirmation with ultrasound when possible
+
+Inform parents sensitively:
+Explain that baby has died
+This is due to placental separation (abruptio placentae)
+Not preventable once it occurs
+Focus now on saving mother's life
+
+Allow grieving:
+Parents may want to see and hold baby after delivery
+Provide privacy
+Offer chaplaincy or spiritual support
+Memory box, photographs if desired
+
+Investigations:
+Placental histopathology (confirm abruptio placentae)
+Fetal autopsy if parents consent (may identify additional findings)
+
+Follow-up:
+Bereavement counselling
+Perinatal loss support groups
+Discuss risk in future pregnancies (recurrence risk 5-15% after one abruptio placentae)
+
+Counselling and Communication
+
+Inform patient and relatives:
+Diagnosis: Severe placental separation (abruptio placentae)
+This is serious, life-threatening emergency
+Baby likely died from lack of oxygen
+Mother in shock from blood loss
+Plan: Resuscitate, transfuse blood, deliver baby urgently
+Risks: Ongoing bleeding, need for blood transfusion, need for hysterectomy if bleeding uncontrollable, kidney damage, death
+Prognosis: Serious but with treatment, good chance of survival
+
+Obtain consent:
+For blood transfusion
+For surgery (caesarean section or procedures to control bleeding)
+For hysterectomy if needed to save life
+
+Keep relatives updated:
+Frequent communication
+Honest about seriousness
+Involve senior doctors in discussions
+
+PROGNOSIS
+
+Serious condition with significant maternal morbidity and mortality risk
+
+Maternal outcomes:
+Mortality: 1-5% in severe abruptio placentae (higher in unbooked, delayed presentation, severe shock)
+Major morbidity: 20-40% (DIC, acute kidney injury, need for hysterectomy, massive transfusion)
+With prompt recognition and aggressive management: Most women survive
+This patient has poor prognostic factors: Unbooked, delayed presentation (6 hours), severe shock, likely DIC
+
+Factors affecting maternal prognosis:
+Speed of diagnosis and treatment (critical)
+Availability of blood products
+Surgical expertise
+ICU facilities
+
+Fetal outcomes:
+Perinatal mortality: 50-80% in severe abruptio placentae
+This baby: Likely already demised (absent fetal heart sounds)
+
+Risk of recurrence in future pregnancies:
+After one abruptio placentae: 5-15% recurrence risk in next pregnancy
+After two episodes: 25% recurrence risk
+Recommend: Early booking in future pregnancy, close monitoring, treat hypertension if present, avoid smoking/cocaine
+
+Prevention of future abruptio placentae:
+Early antenatal care (booking)
+Screen for and treat hypertension
+Folic acid supplementation
+Avoid smoking, cocaine
+Close monitoring in high-risk pregnancies
+
+FOLLOW-UP
+Intensive care for 24-48 hours post-delivery. Monitor for complications (DIC, renal failure, infection, Sheehan syndrome). Bereavement support for IUFD. Postnatal review at 6 weeks. Counsel on recurrence risk and need for early booking in future pregnancies. Long-acting contraception if family complete.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'obg-15',
+  title: 'Placenta Praevia with Antepartum Haemorrhage',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/High-Risk Obstetrics',
+  condition: 'Placenta praevia (likely major degree) at 36 weeks + 4 days gestation with antepartum haemorrhage',
+  symptoms: [
+    'Painless vaginal bleeding (bright red, moderate quantity)',
+    'No abdominal pain',
+    'Spontaneous onset (no trauma, coitus, or exertion)',
+    'No passage of clots',
+    'Good fetal movements perceived',
+    'Low-lying placenta on ultrasound',
+    'Previous caesarean section',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-22',
+  summary: 'A 34-year-old booked G3P2+0 (2 alive) at 36 weeks + 4 days gestation presenting with painless vaginal bleeding (5 hours, bright red, moderate quantity) without abdominal pain. Previous obstetric history: term SVD in 2017 and term caesarean section for breech in 2020. Current pregnancy: regular antenatal care, ultrasound at 32 weeks showed low-lying placenta, booking PCV 32%, blood group O positive, genotype AA, HIV negative. Examination reveals mild pallor, haemodynamically stable (BP 108/70 mmHg, pulse 92 bpm), soft non-tender uterus, cephalic presentation with high unengaged head (5/5 palpable), fetal heart rate 146 bpm (reassuring). Digital vaginal examination not performed due to risk of torrential haemorrhage. Clinical diagnosis: placenta praevia with antepartum haemorrhage. Requires admission, close monitoring, blood availability, confirmation of placental location with ultrasound, and planned caesarean section delivery.',
+  content: `
+Mrs T.O., a 34-year-old booked G3P2+0 (2 alive) woman, teacher, Christian, Yoruba, who resides in Ibadan, Oyo State. She has a tertiary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+LMP: 10/06/2025
+EDD: 17/03/2026
+EGA: 36 weeks + 4 days
+
+PRESENTING COMPLAINT
+Painless vaginal bleeding × 5 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 5 hours prior to presentation when she developed sudden onset vaginal bleeding. The bleeding is bright red in colour, moderate in quantity, and not associated with passage of clots.
+
+The bleeding was spontaneous, not preceded by trauma, coitus, or physical exertion.
+
+There is no associated abdominal pain.
+There is no history of leakage of fluid per vaginam.
+She perceives good fetal movements.
+
+There is no history of similar bleeding earlier in this pregnancy.
+No history of use of herbal medications or insertion of substances into the vagina.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. It was confirmed with a positive pregnancy test and early ultrasound scan.
+
+She booked for antenatal care at 12 weeks gestation in this facility and has had regular antenatal visits.
+
+An obstetric ultrasound scan done at 32 weeks gestation showed a low-lying placenta.
+
+She has been compliant with antenatal haematinics.
+She has received two doses of tetanus toxoid and three doses of intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 32%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+Urinalysis: Normal
+
+No other antenatal complications.
+
+PAST OBSTETRIC HISTORY
+2017: Term spontaneous vaginal delivery of a live female infant (3.0 kg). No complications. Child alive and well.
+2020: Term caesarean section for breech presentation. Live male infant delivered (3.2 kg). No complications. Child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycle (28-day cycle, 4–5 days flow)
+No history of abnormal vaginal bleeding
+
+PAST MEDICAL AND SURGICAL HISTORY
+Not a known hypertensive, diabetic, or asthmatic patient
+Previous caesarean section in 2020
+No history of blood transfusion
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Only routine antenatal medications used
+
+FAMILY AND SOCIAL HISTORY
+No family history of hereditary diseases
+Married in a monogamous setting
+Does not smoke or take alcohol
+Has good social support
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A calm pregnant woman, conscious and alert, not in distress
+Mildly pale, not icteric, not cyanosed, not dehydrated
+No pedal oedema
+
+Vital Signs:
+BP: 108/70 mmHg
+PR: 92 bpm, regular
+RR: 18 cpm
+Temperature: 36.6°C
+
+Anthropometry:
+Height: 1.64 m
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+Pfannenstiel scar present (from previous caesarean section)
+
+Palpation:
+Symphysiofundal height: 35 cm
+Lie: Longitudinal
+Presentation: Cephalic
+Engagement: 5/5 palpable above pelvic brim (head not engaged, high presenting part)
+Uterus soft and non-tender
+No uterine contractions
+
+Auscultation:
+Fetal heart rate: 146 bpm, regular (reassuring)
+
+Pelvic Examination:
+
+Speculum examination:
+Minimal fresh blood seen in the vaginal vault
+No active bleeding from cervical os
+
+Digital vaginal examination:
+NOT PERFORMED due to suspicion of placenta praevia (risk of torrential haemorrhage with digital examination)
+
+OBSTETRIC SUMMARY
+A 34-year-old G3P2+0 woman at 36 weeks + 4 days gestation presenting with painless vaginal bleeding. She has a history of low-lying placenta on ultrasound. Examination reveals a soft, non-tender uterus with a high, unengaged presenting part and a live fetus.
+
+ASSESSMENT
+
+Placenta praevia (likely major degree) in a booked multiparous woman with previous caesarean section at 36 weeks + 4 days gestation with antepartum haemorrhage
+
+Diagnosis based on:
+
+Classic presentation of placenta praevia:
+Painless vaginal bleeding (hallmark feature, distinguishes from abruptio placentae)
+Bright red blood (fresh bleeding)
+Spontaneous onset (no precipitating factors)
+Recurrent (may have sentinel bleeds earlier, though none reported in this case)
+Preterm gestation (36+4 weeks, common presentation time 28-36 weeks)
+
+Ultrasound evidence:
+Low-lying placenta documented at 32 weeks gestation
+Suggestive of placenta praevia (requires confirmation with current scan)
+
+Clinical examination findings:
+Soft, non-tender uterus (distinguishes from abruptio placentae which has tense, tender uterus)
+High unengaged presenting part (5/5 palpable above pelvic brim)
+Inability of head to engage due to placenta occupying lower uterine segment
+Malpresentation more common (this patient has cephalic but high)
+
+Risk factors present:
+Previous caesarean section (2020) - major risk factor for placenta praevia
+Multiparity (G3P2+0)
+Maternal age 34 years
+
+Classification of placenta praevia (to be confirmed by ultrasound):
+
+Type I (low-lying): Placenta in lower uterine segment but not reaching internal cervical os
+Type II (marginal): Placenta reaches but does not cover internal os
+Type III (partial): Placenta partially covers internal os
+Type IV (complete/major): Placenta completely covers internal os
+
+This patient likely has major placenta praevia (Type III or IV) based on:
+Significant bleeding episode
+High presenting part
+Previous caesarean section increases risk of placenta praevia and placenta accreta
+
+Maternal status:
+Currently haemodynamically stable (BP 108/70 mmHg, pulse 92 bpm)
+Mild pallor (suggests anaemia from blood loss, baseline PCV was 32% at booking)
+No active heavy bleeding currently
+However, risk of sudden torrential haemorrhage
+
+Fetal status:
+Singleton pregnancy
+Cephalic presentation (though high and unengaged)
+Fetal heart rate 146 bpm, regular (reassuring, normal range 110-160 bpm)
+Good fetal movements perceived
+Preterm (36+4 weeks, near term)
+
+Additional risk: Placenta accreta spectrum
+Previous caesarean section greatly increases risk of placenta accreta/increta/percreta
+Placenta implants abnormally into or through uterine wall
+Complications: Severe haemorrhage, need for hysterectomy
+Requires ultrasound assessment (look for loss of retroplacental clear space, placental lacunae, bladder wall irregularity)
+
+Differential diagnosis:
+Abruptio placentae (ruled out by painless bleeding, soft non-tender uterus)
+Vasa praevia (less likely, rupture of membranes usually precedes bleeding)
+Local causes: Cervicitis, cervical polyp, cervical carcinoma (less likely given no contact bleeding history)
+Show (bloody show of labour) - ruled out by no contractions, closed cervix (not examined but likely closed)
+
+PLAN
+
+Admission
+Admit into obstetric ward (high-risk unit or antenatal ward with close monitoring)
+Keep in hospital until delivery (risk of recurrent bleeding)
+Explain diagnosis and management plan to patient
+Document time of bleeding onset and estimated blood loss
+
+Initial Assessment and Stabilization
+
+ABC approach:
+Airway and breathing: Patent, adequate (SpO₂ monitoring)
+Circulation: Currently stable but at risk of sudden haemorrhage
+
+Establish IV access:
+Insert wide-bore IV cannula (16G or 18G)
+Keep patent with IV fluids or intermittent flushing
+Essential for rapid fluid/blood administration if massive haemorrhage
+
+Send blood samples:
+Full blood count (PCV, haemoglobin, platelet count)
+Blood grouping and cross-matching: Request at least 2-4 units of blood to be kept on standby (may need more if caesarean section or heavy bleeding)
+Coagulation profile if available (baseline)
+Serum electrolytes if indicated
+
+Initial fluid management:
+IV crystalloids at maintenance rate (0.9% Normal Saline or Ringer's Lactate at 100 ml/hr)
+If heavy bleeding: Bolus 500-1000 ml rapidly
+Blood transfusion if haemoglobin less than 7 g/dL or signs of hypovolaemia
+
+Monitoring
+
+Maternal monitoring:
+Vital signs (BP, pulse, respiratory rate, temperature) every 4 hours initially
+More frequent (every 1-2 hours or continuous) if bleeding ongoing or heavy
+Watch for signs of hypovolaemia: tachycardia, hypotension, pallor, dizziness
+
+Quantify vaginal bleeding:
+Use sanitary pads (count number and degree of saturation)
+Weigh pads if heavy bleeding (1 g increase = 1 ml blood)
+Document colour and presence of clots
+Observe for fresh vs old blood
+
+Fetal monitoring:
+Fetal heart rate auscultation every 4-6 hours if stable
+Continuous cardiotocography (CTG) if:
+Bleeding ongoing
+Bleeding heavy
+Any fetal heart rate abnormalities
+Assess fetal movements (patient should feel regular movements)
+
+Investigations
+
+Full blood count:
+Assess haemoglobin/PCV (baseline 32%, likely lower now with bleeding)
+Repeat every 12-24 hours or sooner if heavy bleeding
+Monitor trend
+Transfuse if Hb less than 7 g/dL or symptomatic anaemia
+
+Blood products preparation:
+Group and cross-match blood: At least 2-4 units on standby
+Keep available in blood bank
+May need more if:
+Heavy bleeding
+Caesarean section planned
+Suspicion of placenta accreta
+
+Obstetric ultrasound scan (most important):
+Perform urgent transabdominal ultrasound
+Confirm placental location and grade placenta praevia:
+Measure distance from placental edge to internal cervical os
+Type I-IV classification
+Assess for placenta accreta spectrum:
+Loss of retroplacental clear space
+Placental lacunae (moth-eaten appearance)
+Abnormal blood vessels (colour Doppler)
+Thinning of myometrium
+Bladder wall irregularity
+Assess fetal well-being:
+Fetal cardiac activity
+Fetal biometry
+Amniotic fluid volume
+Fetal presentation
+
+Additional imaging if indicated:
+MRI pelvis: If ultrasound suggests placenta accreta and available
+Better assessment of depth of invasion
+Helps surgical planning
+
+Management Options
+
+This patient is at 36+4 weeks (near term) with active bleeding
+
+Two approaches: Expectant management vs immediate delivery
+
+Expectant Management (Conservative):
+
+Indications:
+Mild bleeding that has stopped
+Haemodynamically stable mother
+Reassuring fetal status
+Preterm gestation (less than 37 weeks)
+No signs of fetal distress
+No other complications
+
+This patient: Could attempt expectant management if bleeding minimal and stopped, to achieve 37 weeks
+
+Management:
+Strict bed rest (reduces risk of further bleeding)
+Avoid activities that may provoke bleeding:
+No sexual intercourse
+No vaginal examinations
+No strenuous activities
+Pelvic rest
+Hospital admission (in-patient management)
+Close monitoring as above
+Corticosteroids for fetal lung maturity:
+Betamethasone 12 mg IM, repeat after 24 hours OR
+Dexamethasone 6 mg IM 12-hourly for 4 doses
+Give if less than 34 weeks (this patient 36+4 weeks, may not need)
+Iron and folic acid supplementation (correct anaemia)
+Serial ultrasound scans (assess placental location, fetal growth)
+
+Criteria for abandoning expectant management:
+Heavy bleeding or recurrent bleeding
+Maternal haemodynamic instability
+Fetal distress
+Reaches 37 weeks gestation
+Patient or fetal indication for delivery
+
+Immediate/Early Delivery (Active Management):
+
+Indications:
+Heavy or recurrent bleeding
+Maternal haemodynamic compromise
+Fetal distress
+Term gestation (greater than or equal to 37 weeks)
+Previous multiple bleeding episodes
+
+This patient at 36+4 weeks with moderate bleeding: Weigh risks vs benefits
+Can aim for 37 weeks (0+3 days more) if bleeding stopped and stable
+Or deliver now if bleeding continues or heavy
+
+Mode of delivery: Caesarean section (only option for placenta praevia)
+
+Timing of Delivery
+
+If expectant management chosen:
+Aim for 37-38 weeks gestation (balance prematurity vs bleeding risk)
+Elective caesarean section at 37-38 weeks
+
+If immediate delivery needed (this patient likely):
+Emergency caesarean section if:
+Heavy ongoing bleeding
+Maternal compromise
+Fetal distress
+Failed expectant management
+
+This patient: Given gestation 36+4 weeks (near term) and moderate bleeding
+Reasonable to plan delivery at 37 weeks (few days) OR sooner if bleeding recurs
+
+Precautions
+
+Strict bed rest:
+Minimize activities
+Bathroom privileges only
+No ambulation unless necessary
+
+Avoid digital vaginal examination:
+Absolute contraindication in suspected placenta praevia
+Digital examination can disrupt placenta, cause torrential haemorrhage
+Only perform if:
+Placenta praevia completely ruled out by ultrasound OR
+In theatre with full preparation for emergency caesarean section
+
+Avoid sexual intercourse:
+Can provoke bleeding
+Pelvic rest until delivery
+
+Avoid procedures that may cause bleeding:
+No cervical cerclage
+No amniocentesis (unless essential and under ultrasound guidance)
+No membrane sweeping
+
+Preparation for Caesarean Section
+
+Timing:
+Elective caesarean section at 37-38 weeks if stable OR
+Emergency caesarean section if bleeding heavy/recurrent or fetal compromise
+
+Pre-operative preparation:
+Inform patient and relatives of plan
+Explain risks:
+Heavy bleeding during surgery
+Need for blood transfusion
+Possible hysterectomy if uncontrollable bleeding or placenta accreta
+Maternal and fetal risks
+Obtain informed consent (document clearly)
+Ensure blood products available:
+Minimum 4 units packed red cells
+Fresh frozen plasma
+Platelets if needed
+Multidisciplinary team:
+Senior obstetrician (experienced in placenta praevia and accreta cases)
+Anaesthetist (prepare for potential massive haemorrhage)
+Neonatologist (preterm infant, potential for fetal anaemia)
+Blood bank notified
+Theatre staff prepared
+Urologist or vascular surgeon on standby if placenta accreta suspected (may need bladder repair, internal iliac artery ligation)
+
+Anaesthesia:
+Regional (spinal or epidural) preferred if:
+Haemodynamically stable
+No active heavy bleeding
+Elective caesarean section
+General anaesthesia if:
+Haemodynamic instability
+Emergency situation
+Massive bleeding
+Patient preference or contraindication to regional
+
+Surgical approach:
+Lower segment transverse incision if placenta anterior
+May need upper segment incision (classical caesarean) if placenta praevia anterior and covering lower segment
+Identify placental edge with ultrasound before incision
+Avoid cutting through placenta (causes severe bleeding)
+If placenta anterior and unavoidable:
+Cut through placenta quickly
+Clamp cord immediately
+Deliver baby rapidly
+Control bleeding
+Deliver placenta promptly after baby:
+Controlled cord traction
+Avoid aggressive traction (risk of uterine inversion if placenta accreta)
+Assess for placenta accreta (placenta does not separate easily)
+
+Management of intraoperative bleeding:
+Uterotonics: IV oxytocin 10-40 units in 500 ml Normal Saline infusion
+Additional: IM carboprost 250 mcg (avoid if asthmatic), IM ergometrine 0.5 mg (avoid if hypertensive), rectal/sublingual misoprostol 800-1000 mcg
+Uterine massage
+Bimanual compression
+Oversewing placental bed with figure-of-eight sutures
+Haemostatic sutures (B-Lynch, Cho, other compression sutures)
+Uterine artery ligation
+Internal iliac artery ligation
+Uterine balloon tamponade (Bakri balloon)
+Hysterectomy if all else fails (caesarean hysterectomy)
+
+Special consideration: Placenta accreta
+If placenta does not separate:
+Do NOT force separation (causes catastrophic bleeding)
+Options:
+Conservative: Leave placenta in situ, close uterus, give methotrexate (rarely successful, risk of sepsis)
+Surgical: Hysterectomy (caesarean hysterectomy - definitive, life-saving)
+
+Post-operative care:
+High-dependency unit or intensive care if heavy bleeding
+Monitor vital signs closely
+Monitor vaginal bleeding
+Monitor urine output
+Continue IV fluids and blood products as needed
+Thromboprophylaxis (LMWH after haemostasis achieved)
+Early mobilization when safe
+Monitor for complications
+
+Neonatal Care
+
+Inform neonatal team before delivery
+Preterm infant (36+4 weeks, late preterm)
+Risk of respiratory distress syndrome (lower at 36 weeks but still possible)
+Neonatal team present at delivery
+Assess for anaemia (chronic feto-maternal bleeding in placenta praevia)
+Neonatal intensive care if needed
+
+Counselling
+
+Explain diagnosis to patient:
+Placenta praevia means placenta is low-lying and covering or near cervix
+This causes bleeding
+Cannot deliver vaginally (placenta blocks birth canal)
+Will need caesarean section
+
+Explain risks:
+Risk of recurrent bleeding (may be sudden and heavy)
+Need to stay in hospital for monitoring
+May need emergency caesarean section if heavy bleeding
+Risk of blood transfusion
+Risk of hysterectomy (if placenta accreta or uncontrollable bleeding)
+Baby may be preterm (36+4 weeks, near term but still some risk)
+
+Reassurance:
+Condition is manageable with close monitoring
+Will be closely watched
+Emergency caesarean section can be done quickly if needed
+Excellent team and resources available
+
+Involve family:
+Explain to husband/relatives
+Prepare for possibility of emergency
+Support patient emotionally
+
+Complications
+
+Antepartum:
+Recurrent bleeding (30-50% will have repeated episodes)
+Severe haemorrhage (can be life-threatening)
+Anaemia (from chronic or acute blood loss)
+Preterm labour (bleeding may trigger contractions)
+Fetal growth restriction (less common)
+
+Intrapartum:
+Massive haemorrhage during caesarean section (average blood loss 1000-2000 ml, can be much more)
+Placenta accreta/increta/percreta (10-25% if previous caesarean section)
+Need for hysterectomy (5-10% overall, higher if placenta accreta)
+Transfusion reactions
+DIC (rare, if massive bleeding)
+Bladder or ureteric injury (especially if placenta accreta involving bladder)
+
+Postpartum:
+Postpartum haemorrhage (atonic uterus from lower segment incision)
+Anaemia
+Infection
+Thromboembolic disease
+
+Fetal/neonatal:
+Preterm delivery (if emergency delivery needed)
+Fetal anaemia (chronic feto-maternal bleeding)
+Respiratory distress syndrome
+Vasa praevia (rare association)
+
+PROGNOSIS
+
+Good prognosis with appropriate management for both mother and baby
+
+Maternal outcomes:
+With elective caesarean section at term and good blood availability: Excellent outcomes
+Maternal mortality: Less than 1% in developed settings with good resources
+Major morbidity: 10-20% (transfusion, hysterectomy, ICU admission)
+This patient has good prognostic factors:
+Booked patient
+Tertiary education (good health literacy)
+Near term (36+4 weeks)
+Currently stable
+Good facilities
+
+Risk factors for poor outcome:
+Placenta accreta (previous caesarean section increases risk)
+Massive haemorrhage
+Late presentation
+Limited blood products
+
+Fetal/neonatal outcomes:
+Perinatal mortality: 1-2% (mainly from prematurity if early delivery needed)
+This baby at 36+4 weeks: Excellent prognosis (late preterm, low risk of complications)
+
+Risk of recurrence in future pregnancies:
+After one placenta praevia: 4-8% recurrence risk
+After two episodes: 10-15% recurrence risk
+Each additional caesarean section increases risk of placenta praevia and accreta in subsequent pregnancies
+
+Future pregnancy planning:
+Counsel on recurrence risk
+Early ultrasound in next pregnancy (confirm placental location)
+Close monitoring
+May need to limit family size (multiple caesarean sections increase risks)
+
+FOLLOW-UP
+Postnatal follow-up at 6 weeks. Counsel on recurrence risk in future pregnancies. Discuss family planning (consider limiting family size given previous caesarean section and placenta praevia risk). Annual gynaecological review if concerns.
+  `,
+  bookmarkCount: 0
+},
 ];

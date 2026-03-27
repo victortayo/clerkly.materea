@@ -22676,4 +22676,2274 @@ Postnatal review at 2 weeks (wound check, assess for fistula). Review at 6 weeks
   `,
   bookmarkCount: 0
 },
+{
+  id: 'ob-18',
+  title: 'Fetal Distress in Active Labour at Term',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Fetal distress in active labour at term (39 weeks + 1 day gestation)',
+  symptoms: [
+    'Reduced fetal movements for 6 hours',
+    'Labour pains for 10 hours (3-4 contractions in 10 minutes)',
+    'Fetal tachycardia (170 bpm, irregular)',
+    'Thick meconium-stained liquor',
+    'Spontaneous rupture of membranes 4 hours ago',
+    'Cervix 6 cm dilated, 80% effaced',
+    'Presenting part at station -1',
+    'Active labour with 4 contractions in 10 minutes'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-23',
+  summary: 'A 31-year-old booked G2P1+0 (1 alive) at 39 weeks + 1 day gestation presenting in active labour with signs of fetal distress. Labour started 10 hours ago, membranes ruptured spontaneously 4 hours ago with thick meconium-stained liquor. Reduced fetal movements noted for 6 hours. Previous obstetric history: term SVD of 3.2 kg baby in 2022, no complications. Current pregnancy uncomplicated with regular antenatal care, booking PCV 33%, blood group O positive, genotype AA, HIV negative. Examination reveals active labour (cervix 6 cm dilated, 80% effaced, 4 contractions in 10 minutes), fetal tachycardia (170 bpm, irregular), cephalic presentation at station -1. Clinical features of fetal distress: fetal tachycardia, reduced movements, thick meconium-stained liquor. Requires immediate intrauterine resuscitation and expedited delivery (emergency caesarean section or assisted vaginal delivery depending on progress).',
+  content: `
+Mrs S.O., a 31-year-old booked G2P1+0 (1 alive) woman, banker, Christian, Yoruba, who resides in Lagos, Lagos State. She has a tertiary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+Gravidity: G2 (second pregnancy)
+Parity: P1+0 (one term delivery, no miscarriages)
+Living children: 1 alive
+LMP: 15/06/2025
+EDD: 22/03/2026
+EGA: 39 weeks + 1 day
+
+PRESENTING COMPLAINTS
+Reduced fetal movements × 6 hours
+Labour pains × 10 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 10 hours prior to presentation when she developed labour pains. The pains were initially mild but have progressively increased in frequency and intensity. They are now occurring about 3–4 times in 10 minutes, lasting 40–50 seconds.
+
+About 6 hours prior to presentation, she noticed a reduction in fetal movements.
+
+There is no history of vaginal bleeding.
+There is no history of fever or foul-smelling vaginal discharge.
+There is no history of trauma.
+
+Liquor was noted to be greenish in colour (meconium-stained) following spontaneous rupture of membranes about 4 hours prior to presentation.
+
+She has not received care elsewhere prior to presentation.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. She booked at 14 weeks gestation and has had regular antenatal visits.
+
+She has been compliant with antenatal haematinics and routine medications.
+She received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 33%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+
+No antenatal complications.
+
+PAST OBSTETRIC HISTORY
+2022: Term spontaneous vaginal delivery of a live female infant (3.2 kg). No complications. Child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic medical illness
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of hereditary disease
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A pregnant woman in painful distress, conscious and alert
+Not pale, afebrile, not dehydrated
+
+Vital Signs:
+BP: 116/74 mmHg
+PR: 94 bpm
+RR: 20 cpm
+Temperature: 36.8°C
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 38 cm
+Lie: Longitudinal
+Presentation: Cephalic
+Uterine contractions: 4 in 10 minutes, lasting 45–50 seconds
+No uterine tenderness
+
+Auscultation:
+Fetal heart rate: 170 bpm (tachycardia), irregular
+
+Pelvic Examination:
+Vulva and vagina normal
+Cervix 6 cm dilated, 80% effaced
+Presenting part cephalic at station -1
+Membranes ruptured
+Liquor: Meconium-stained (thick)
+Pelvis clinically adequate
+
+OBSTETRIC SUMMARY
+A 31-year-old G2P1+0 woman at 39 weeks gestation in active labour presenting with reduced fetal movements and meconium-stained liquor. Examination reveals fetal tachycardia and ongoing labour.
+
+ASSESSMENT
+
+Fetal distress in active labour in a booked multiparous woman at term (39 weeks + 1 day gestation)
+
+Diagnosis of fetal distress based on:
+
+Fetal heart rate abnormalities:
+Fetal tachycardia: 170 bpm (baseline FHR should be 110-160 bpm)
+Irregular fetal heart rate (suggests loss of variability or abnormal pattern)
+Requires continuous CTG monitoring for detailed assessment
+
+Reduced fetal movements:
+Noticed 6 hours prior to presentation
+Concerning sign of fetal compromise
+May indicate fetal hypoxia
+
+Thick meconium-stained liquor:
+Greenish colour noted after spontaneous rupture of membranes (4 hours ago)
+Thick meconium more concerning than thin (suggests significant fetal distress)
+Meconium passage in utero indicates fetal stress response
+Risk of meconium aspiration syndrome if baby gasps in utero or at delivery
+
+Stage and progress of labour:
+Active labour (cervix 6 cm dilated, 80% effaced)
+Regular strong contractions (4 in 10 minutes, each 45-50 seconds)
+Presenting part at station -1 (1 cm above ischial spines, descent expected)
+First stage, active phase
+Multiparous labour (typically faster progression)
+
+Maternal status:
+Haemodynamically stable (BP 116/74 mmHg, pulse 94 bpm)
+Afebrile (no signs of chorioamnionitis)
+Not pale (adequate haemoglobin)
+In painful distress from labour
+
+Causes of fetal distress to consider:
+
+Uteroplacental insufficiency:
+Reduced placental perfusion
+Placental abruption (ruled out by no bleeding, no uterine tenderness)
+Maternal hypotension (not present)
+
+Cord compression:
+Cord around neck, body, or prolapse
+Oligohydramnios
+Compression during contractions
+
+Maternal factors:
+Hypoxia, hypotension, infection
+Not evident in this case (stable vital signs, afebrile)
+
+Fetal factors:
+Intrauterine infection
+Fetal anaemia
+Congenital anomalies
+Not evident from history
+
+Prolonged labour:
+10 hours total, but in active labour now (6 cm)
+Not prolonged for multiparous patient
+
+Risk assessment:
+High-risk labour due to fetal distress
+Requires immediate intervention
+Risk of birth asphyxia, hypoxic-ischaemic encephalopathy, stillbirth if not managed urgently
+Risk of meconium aspiration syndrome at delivery
+
+Favourable factors:
+Term gestation (39+1 weeks, mature fetus)
+Multiparous (previous successful vaginal delivery)
+Active labour already established (6 cm dilated)
+Clinically adequate pelvis
+No maternal complications
+
+PLAN
+
+This is an obstetric emergency requiring immediate coordinated care
+
+Immediate Intrauterine Resuscitation (Priority)
+
+Aims: Improve fetal oxygenation, reduce uterine activity, optimize uteroplacental perfusion
+
+Position:
+Place patient in left lateral position immediately
+Improves venous return and cardiac output
+Relieves compression of inferior vena cava and aorta
+Improves placental perfusion
+Avoid supine position
+
+Oxygen administration:
+High-flow oxygen via face mask (10-15 L/min) or non-rebreather mask
+Increases maternal and fetal oxygenation
+Target maternal SpO₂ greater than 95%
+
+IV access and fluids:
+Establish IV access (16G or 18G cannula) if not already done
+Commence IV fluids: 0.9% Normal Saline or Ringer's Lactate
+Bolus 500 ml rapidly (improves maternal blood volume and placental perfusion)
+Then continue at 125 ml/hour
+Correct any maternal hypotension
+
+Stop oxytocin:
+If oxytocin infusion running (augmentation of labour), STOP immediately
+Reduces uterine contractions and allows placental reperfusion between contractions
+This patient: No mention of oxytocin, but check and stop if being used
+
+Assess for reversible causes:
+Maternal hypotension: Correct with fluids, position change (already done)
+Uterine hyperstimulation: Stop oxytocics, consider tocolysis (terbutaline 0.25 mg SC if hypertonus)
+Cord prolapse: Vaginal examination to exclude (not mentioned in this case)
+Maternal hypoxia: Ensure adequate oxygenation
+
+Continuous Monitoring
+
+Fetal monitoring (most critical):
+Continuous cardiotocography (CTG) if available
+Essential for ongoing assessment of fetal heart rate pattern
+Assess:
+Baseline FHR (currently 170 bpm, tachycardia)
+Variability (irregular pattern noted, needs detailed assessment)
+Accelerations (reassuring if present)
+Decelerations (early, late, or variable - indicate hypoxia)
+Response to contractions
+If CTG not available: Auscultate FHR every 5-10 minutes continuously or after each contraction
+Document trends
+
+Maternal monitoring:
+Vital signs: Blood pressure, pulse, respiratory rate, SpO₂ every 15-30 minutes
+Watch for signs of complications (abruption, infection)
+Monitor uterine contractions (frequency, duration, intensity)
+
+Progress of labour:
+Repeat vaginal examination in 1-2 hours (or sooner if signs of second stage)
+Assess cervical dilatation and descent of presenting part
+Monitor on partograph
+Expect rapid progress in multiparous patient
+
+Investigations
+
+Continuous CTG (if available):
+Most important investigation
+Provides detailed FHR pattern
+Look for:
+Tachycardia (baseline greater than 160 bpm) - present
+Bradycardia (baseline less than 110 bpm)
+Reduced variability (less than 5 bpm) - concerning
+Late decelerations (indicate uteroplacental insufficiency) - most concerning
+Variable decelerations (indicate cord compression)
+Prolonged decelerations
+Sinusoidal pattern (very concerning)
+
+Fetal scalp blood sampling (if available and time permits):
+Measure fetal pH and lactate
+pH less than 7.20 or lactate greater than 4.8 mmol/L indicates fetal acidosis
+Helps confirm fetal distress and guide decision on delivery
+May not be available in many Nigerian facilities
+May not be feasible given urgency and cervical dilatation
+
+Ultrasound assessment (if time permits):
+Assess:
+Fetal cardiac activity (confirm fetal viability)
+Amniotic fluid volume (oligohydramnios may contribute to cord compression)
+Cord position (nuchal cord, cord prolapse)
+Placental location and appearance
+Biophysical profile
+Should not delay delivery if clear fetal distress
+
+Bedside investigations:
+Check maternal vital signs (already done, stable)
+Assess liquor colour and amount (thick meconium already noted)
+
+Definitive Management - Expedited Delivery
+
+Timing: Deliver as soon as safely possible
+Fetal distress is an indication for urgent delivery
+Balance urgency with preparation
+
+Mode of delivery depends on:
+
+Cervical dilatation:
+Currently 6 cm dilated (active labour but not fully dilated)
+Multiparous labour typically progresses 1-2 cm/hour
+Could reach full dilatation in 2-4 hours
+
+Fetal status:
+Severity of distress (continuous CTG monitoring essential)
+If severe distress (late decelerations, prolonged bradycardia, severe acidosis): Immediate delivery
+If moderate distress (tachycardia, thick meconium): Expedite but allow some time for progress if improving with resuscitation
+
+Maternal status:
+Stable, can withstand vaginal delivery or caesarean section
+
+Options:
+
+Continue labour with close monitoring:
+Only if:
+FHR pattern improves with intrauterine resuscitation
+Labour progressing well (expect full dilatation within 1-2 hours)
+Continuous CTG monitoring available
+Immediate caesarean section capability available
+Requires:
+Continuous CTG
+Vaginal examination in 1-2 hours
+Readiness for emergency caesarean section if deterioration
+
+Emergency caesarean section (likely option):
+Indications:
+Persistent or worsening fetal distress despite resuscitation
+Late decelerations on CTG
+Severe bradycardia
+Prolonged decelerations
+Fetal acidosis on scalp sampling
+Labour not progressing rapidly
+Patient preference after counselling
+Preparation:
+Inform patient and obtain consent (emergency situation, risk of fetal death without intervention)
+Alert theatre team
+Alert anaesthetist (regional or general anaesthesia)
+Alert neonatologist (risk of birth asphyxia)
+Establish adequate IV access
+Continue intrauterine resuscitation en route to theatre
+Timing: Category 1 (immediate, within 30 minutes) or Category 2 (urgent, within 75 minutes) depending on severity
+
+Assisted vaginal delivery (if reaches full dilatation):
+Indications:
+Full cervical dilatation (10 cm)
+Presenting part at station 0 or below
+Fetal distress with need to expedite second stage
+Conditions:
+Adequate descent (at or below ischial spines)
+No cephalopelvic disproportion
+Skilled operator available
+Methods:
+Vacuum extraction or forceps delivery
+Episiotomy may be needed
+Only if can deliver within 1-2 contractions
+If prolonged attempts needed: Abandon and proceed to caesarean section
+
+This patient:
+Currently 6 cm dilated
+If FHR improves with resuscitation: Can allow labour to continue with close monitoring
+If FHR remains abnormal or worsens: Emergency caesarean section
+If rapidly progresses to full dilatation: Assisted vaginal delivery
+
+Decision-making:
+Senior obstetrician should be involved
+Discuss with patient and relatives
+Document decision-making process clearly
+Prepare for emergency caesarean section while attempting resuscitation
+
+Preparation for Neonatal Resuscitation
+
+Alert neonatal team:
+Inform paediatrician or neonatologist urgently
+Presence at delivery mandatory
+Potential for birth asphyxia
+Risk of meconium aspiration syndrome
+
+Prepare resuscitation equipment:
+Radiant warmer (switched on, warm)
+Suction equipment (bulb suction, mechanical suction)
+Bag and mask (appropriate size for term infant)
+Oxygen supply
+Intubation equipment (if skilled personnel available)
+Medications: Adrenaline, naloxone, dextrose
+Ensure all equipment functional
+
+Anticipate need for:
+Immediate suctioning of meconium from oropharynx and nasopharynx at delivery (before first breath)
+Tracheal intubation and suction if:
+Baby non-vigorous (poor tone, poor respiratory effort, HR less than 100 bpm)
+Thick meconium
+Positive pressure ventilation if apnoeic or gasping
+Cardiac compressions if heart rate less than 60 bpm despite ventilation
+Cord blood gas analysis (assess degree of acidosis, helps determine prognosis and need for therapeutic hypothermia)
+
+Special considerations for meconium:
+Do NOT stimulate baby to cry before suctioning if thick meconium
+Suction oropharynx and nasopharynx under direct vision (laryngoscope) before delivering shoulders (old practice, no longer routinely recommended but may be done)
+If baby vigorous at birth (good tone, strong cry, HR greater than 100 bpm): Routine care, no tracheal suctioning needed
+If baby non-vigorous: Consider tracheal suctioning (controversial, may delay resuscitation)
+Focus on rapid initiation of ventilation if needed
+
+Post-delivery care:
+Assess Apgar scores at 1 and 5 minutes
+Monitor for signs of birth asphyxia: Hypoxic-ischaemic encephalopathy
+Monitor for meconium aspiration syndrome: Respiratory distress, tachypnoea, grunting
+May need admission to neonatal unit
+
+Documentation
+
+Essential to document clearly:
+
+Timing:
+Time of admission
+Time fetal distress recognized
+Time intrauterine resuscitation started
+Time of delivery
+Interventions and timing
+
+Fetal heart rate:
+Baseline FHR, variability, decelerations
+CTG trace (if available) - attach to notes
+Frequency of auscultation
+FHR trends over time
+
+Liquor:
+Time of membrane rupture
+Colour and consistency of meconium (thick vs thin)
+Amount of liquor
+
+Contractions:
+Frequency, duration, intensity
+Uterine tone
+
+Maternal vital signs:
+BP, pulse, temperature, SpO₂
+Interventions (position change, oxygen, IV fluids)
+
+Vaginal examinations:
+Cervical dilatation, effacement, station
+Progress over time
+
+Decision-making:
+Indication for expedited delivery
+Mode of delivery chosen and rationale
+Counselling provided to patient/relatives
+Consent obtained
+
+Delivery details:
+Mode of delivery
+Time of delivery
+Condition of baby at birth (Apgar scores, need for resuscitation)
+Umbilical cord blood gases (if done)
+
+Complications if any
+
+Medicolegal importance:
+Fetal distress cases may have adverse outcomes
+Good documentation protects both patient and healthcare provider
+
+Communication and Counselling
+
+Inform patient:
+Diagnosis: Baby is showing signs of distress (abnormal heart rate, reduced movements, meconium passage)
+This is concerning, baby may not be getting enough oxygen
+Need to deliver urgently to prevent harm to baby
+
+Explain plan:
+Immediate measures to improve baby's condition (position, oxygen, fluids)
+Close monitoring of baby's heart rate
+May need emergency caesarean section if baby's condition does not improve or worsens
+Alternative: If labour progresses rapidly and baby's condition stable, may deliver vaginally
+
+Explain risks:
+Risk of birth asphyxia (baby born with poor condition)
+Risk of meconium aspiration (baby breathes in meconium, causes lung problems)
+Risk of brain damage if prolonged oxygen deprivation
+Risk of stillbirth if not managed urgently
+Maternal risks of emergency caesarean section (bleeding, infection, anaesthetic complications)
+
+Obtain consent:
+For emergency caesarean section if needed
+For assisted vaginal delivery if appropriate
+Document consent in notes
+
+Involve relatives:
+Inform husband/relatives of situation
+Prepare them for possibility of baby needing intensive care
+Allow questions
+Provide emotional support
+
+Reassurance:
+Being closely monitored
+Everything being done to ensure safe delivery
+Neonatal team ready to care for baby
+
+Complications to Monitor
+
+Fetal complications:
+
+Birth asphyxia:
+Hypoxia during labour leading to poor condition at birth
+Low Apgar scores (less than 7 at 5 minutes)
+Metabolic acidosis (cord pH less than 7.0, base deficit greater than 12 mmol/L)
+May require resuscitation, intensive care
+
+Hypoxic-ischaemic encephalopathy (HIE):
+Brain injury from prolonged hypoxia
+Grades I-III (mild to severe)
+Presents with altered consciousness, seizures, poor feeding, abnormal tone
+May require therapeutic hypothermia (cooling) if available
+Long-term sequelae: Cerebral palsy, developmental delay, epilepsy
+
+Meconium aspiration syndrome:
+Baby aspirates thick meconium into lungs
+Presents with respiratory distress, cyanosis, grunting
+May require mechanical ventilation
+Complications: Pneumothorax, persistent pulmonary hypertension
+
+Intrauterine fetal death:
+If delivery delayed or distress severe
+Continuous monitoring essential
+
+Maternal complications:
+
+Emergency caesarean section complications:
+Haemorrhage, infection, anaesthetic complications, thromboembolism
+Uterine scar (implications for future pregnancies)
+
+Psychological trauma:
+Stressful emergency delivery
+Worry about baby's condition
+May need counselling
+
+PROGNOSIS
+
+Depends on severity of fetal distress and timeliness of intervention
+
+Fetal/neonatal prognosis:
+
+With prompt recognition and intervention:
+Most babies born in good condition (Apgar 7-10)
+Low risk of long-term complications
+Term baby has good reserve
+
+Favourable factors:
+Term gestation (39+1 weeks, mature fetus)
+Prompt presentation (recognized early)
+Good facility with capability for emergency caesarean section
+Neonatal team available
+
+Risk factors for poor outcome:
+Thick meconium (higher risk of aspiration)
+Fetal tachycardia (suggests ongoing hypoxia)
+If delivery delayed
+
+Outcomes with birth asphyxia:
+Mild HIE (Grade I): Usually normal outcome (90-100% normal)
+Moderate HIE (Grade II): 30-50% have long-term sequelae
+Severe HIE (Grade III): High mortality (25-50%), survivors often have severe disability
+
+Meconium aspiration syndrome:
+Mild: Good outcome with supportive care
+Severe: May need prolonged ventilation, risk of chronic lung disease
+Mortality: 5-10% in severe cases with modern care
+
+Maternal prognosis:
+Excellent for mother
+Low risk of complications with emergency caesarean section in young healthy woman
+
+Long-term:
+If caesarean section performed: Scar on uterus (VBAC vs repeat caesarean in future)
+If birth asphyxia: Baby may need long-term follow-up (developmental assessment, physiotherapy)
+Psychological support for parents
+
+FOLLOW-UP
+Neonatal follow-up for assessment of birth asphyxia sequelae if applicable. Developmental surveillance. Maternal postnatal review at 6 weeks. Counsel on mode of delivery in future pregnancies if caesarean section performed. Discuss any concerns about this delivery.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-19',
+  title: 'Ruptured Ectopic Pregnancy with Hypovolaemic Shock',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynaecology/Emergency Gynaecology',
+  condition: 'Ruptured ectopic pregnancy with haemoperitoneum and hypovolaemic shock',
+  symptoms: [
+    'Lower abdominal pain (severe, sharp, stabbing)',
+    'Pain radiating to shoulders (referred pain from diaphragmatic irritation)',
+    'Vaginal bleeding (scanty, dark, non-clotting)',
+    'Dizziness and syncopal episodes',
+    'Amenorrhoea',
+    'Positive home pregnancy test 2 weeks ago',
+    'Hypovolaemic shock (BP 80/50 mmHg, pulse 124 bpm thready)',
+    'Pale, cold and clammy',
+    'Generalized abdominal tenderness with guarding and rebound',
+    'Cervical motion tenderness',
+    'Fullness in pouch of Douglas',
+    'Previous spontaneous abortion at 9 weeks'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-24',
+  summary: 'A 29-year-old P0+1 (1 spontaneous abortion) woman with 7 weeks amenorrhoea and positive pregnancy test presenting with acute gynaecological emergency: severe lower abdominal pain (8 hours) radiating to shoulders, scanty vaginal bleeding (6 hours), and two syncopal episodes (3 hours). Examination reveals hypovolaemic shock (BP 80/50 mmHg, pulse 124 bpm thready), pallor, cold clammy extremities, generalized abdominal tenderness with guarding and rebound tenderness, cervical motion tenderness, and fullness in pouch of Douglas. Clinical features highly suggestive of ruptured ectopic pregnancy with significant haemoperitoneum. Requires immediate resuscitation with IV fluids and blood transfusion, and urgent exploratory laparotomy for salpingectomy and evacuation of haemoperitoneum.',
+  content: `
+A 29-year-old P0+1 (1A) trader, resident in Ikorodu, Lagos State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+G2 P0+1 (no live births, one abortion)
+LMP: 01/02/26
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 8 hours
+Vaginal bleeding × 6 hours
+Dizziness and fainting episodes × 3 hours
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was in her usual state of health until about 8 hours prior to presentation when she developed sudden onset lower abdominal pain. The pain is severe (graded 8/10), sharp and stabbing, initially localized to the lower abdomen but later became generalized, radiating to the shoulders, and aggravated by movement with no relieving factors.
+
+About 2 hours after onset of pain (6 hours prior to presentation), she noticed vaginal bleeding, which is scanty, dark, and non-clotting, not sufficient to soak a pad.
+
+Approximately 3 hours prior to presentation, she developed dizziness with two episodes of transient loss of consciousness, each lasting a few seconds with spontaneous recovery. There is associated generalized weakness and palpitations.
+
+There is no history of passage of clots or tissue, no foul-smelling vaginal discharge, no fever, and no prior trauma.
+
+She last saw her menses about 7 weeks ago and had a positive home pregnancy test about 2 weeks ago.
+
+Symptoms have been rapidly progressive, with worsening abdominal pain.
+
+Since the onset of symptoms, she has taken some over-the-counter analgesics with no relief and presented directly to the hospital.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Previously regular 28-day cycle
+Flow lasts 4–5 days
+No prior history of abnormal bleeding
+
+Contraceptive History:
+Not using any form of contraception
+
+Cervical Cancer Screening:
+No prior Pap smear
+
+OBSTETRIC HISTORY
+G2P0+1
+Previous spontaneous abortion at 9 weeks, managed conservatively
+No previous live births
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior pelvic or abdominal surgery
+No known history of pelvic inflammatory disease
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Not on any regular medications
+
+FAMILY HISTORY
+No history of multiple gestation
+No known gynaecological malignancy
+
+SOCIAL HISTORY 
+Married in a monogamous setting
+Does not take alcohol or smoke cigarette 
+No use of herbal medications
+
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Acutely ill-looking
+In painful distress, restless
+Pale, cold and clammy
+Afebrile 
+Anicteric, no pedal oedema
+
+Vital Signs:
+Pulse rate: 124 bpm (thready, tachycardia)
+BP: 80/50 mmHg (hypotension, shock)
+RR: 28 cpm (tachypnoea)
+Temperature: 
+SpO₂: 96% room air
+
+Abdominal Examination:
+
+Abdomen mildly distended
+Moves minimally with respiration
+Generalized tenderness
+Maximal in the suprapubic region
+Guarding and rebound tenderness present (peritonism)
+
+Pelvic Examination:
+
+Speculum examination:
+Minimal dark blood in vaginal vault
+Cervix appears normal
+External os closed
+No active bleeding
+
+Bimanual examination:
+Cervical motion tenderness present (Chandelier sign)
+Uterus slightly bulky
+Marked adnexal tenderness
+Fullness in the pouch of Douglas (suggests haemoperitoneum)
+
+ASSESSMENT
+
+Ruptured ectopic pregnancy with haemoperitoneum and hypovolaemic shock
+
+Diagnosis based on:
+
+Classic triad of ectopic pregnancy:
+Amenorrhoea (7 weeks)
+Abdominal pain (severe, sudden onset, progressive)
+Vaginal bleeding (scanty, dark)
+
+Features of rupture and haemoperitoneum:
+Severe abdominal pain radiating to shoulders (referred pain from blood irritating diaphragm, Kehr sign)
+Syncopal episodes (two episodes, hypovolaemia from intra-abdominal bleeding)
+Hypovolaemic shock (BP 80/50 mmHg, pulse 124 bpm thready)
+Pallor, cold and clammy extremities
+Peritonism (guarding, rebound tenderness)
+Fullness in pouch of Douglas (blood collection)
+Free fluid on percussion (haemoperitoneum)
+
+Additional supportive features:
+Positive pregnancy test 2 weeks ago
+Scanty vaginal bleeding (internal bleeding more significant than external)
+Cervical motion tenderness (peritoneal irritation from blood)
+Rapidly progressive symptoms
+Inability to stand or walk
+
+Risk factors:
+Previous ectopic pregnancy or spontaneous abortion (history of one abortion)
+No use of contraception
+
+Severity assessment:
+Hypovolaemic shock (Class III haemorrhage):
+BP 80/50 mmHg (severe hypotension)
+Pulse 124 bpm, thready (severe tachycardia, poor volume)
+Tachypnoea (28 cpm, compensatory)
+Pale, cold, clammy (poor perfusion)
+Syncopal episodes (cerebral hypoperfusion)
+Estimated blood loss: 1500-2000 ml or more (30-40% blood volume)
+Life-threatening emergency
+
+Location of ectopic pregnancy:
+Most likely tubal (ampullary or isthmic portion)
+Ruptured through tubal wall causing intraperitoneal bleeding
+
+Differential diagnosis:
+Ruptured corpus luteum cyst with haemoperitoneum (less likely given positive pregnancy test)
+Haemorrhagic ovarian cyst (less likely given amenorrhoea and positive pregnancy test)
+Appendicitis with perforation (less likely given scanty vaginal bleeding, amenorrhoea)
+Ovarian torsion (less likely given shock)
+
+PLAN
+
+This is a life-threatening gynaecological emergency requiring immediate surgical intervention
+
+Immediate Resuscitation (Priority - ABC Approach)
+
+Airway and Breathing:
+Maintain airway patency (patient conscious but restless from shock)
+High-flow oxygen via face mask (6-10 L/min) or non-rebreather mask
+Target SpO₂ greater than 95%
+Monitor respiratory rate
+
+Circulation (Most Critical):
+
+Secure IV access:
+Two wide-bore IV cannulae (14G or 16G) in both antecubital fossae
+If difficult access, consider central venous line
+
+Blood sampling (before starting transfusion):
+Packed cell volume (PCV) or haemoglobin (assess degree of anaemia)
+Full blood count (platelet count, white cell count)
+Blood grouping and cross-matching (urgent, request at least 4-6 units)
+Serum β-hCG (qualitative or quantitative, confirms pregnancy but do not delay surgery)
+Electrolytes, urea, creatinine (baseline renal function)
+Coagulation profile if available
+
+Rapid fluid resuscitation:
+Commence immediate rapid infusion of IV crystalloids
+0.9% Normal Saline or Ringer's Lactate
+Initial bolus: 1-2 litres as fast as possible
+Use pressure bags or hand-squeeze bags for rapid infusion
+Warm fluids if possible (prevent hypothermia)
+Continue fluid resuscitation while awaiting blood
+
+Blood transfusion:
+Activate massive transfusion protocol if available
+Request urgent release of O negative blood if grouped blood not yet available
+Transfuse packed red blood cells as soon as available
+May need 4-8 units or more
+Continue transfusion based on clinical response and serial haemoglobin
+
+Monitoring:
+
+Vital signs:
+Continuous monitoring if available
+Blood pressure, pulse, respiratory rate, SpO₂ every 5-15 minutes
+Watch for response to resuscitation or further deterioration
+
+Urine output:
+Insert Foley catheter immediately
+Monitor urine output hourly
+Target greater than 0.5 ml/kg/hr (approximately 30 ml/hr)
+Oliguria suggests inadequate resuscitation
+
+Clinical assessment:
+Level of consciousness (may deteriorate with worsening shock)
+Skin perfusion (capillary refill time, temperature of extremities)
+Ongoing abdominal distension (continued bleeding)
+
+Investigations (Do Not Delay Surgery)
+
+These investigations should not delay definitive surgical management
+
+Bedside/Point-of-care:
+PCV/haemoglobin (likely significantly low, less than 20% or 7 g/dL)
+Pregnancy test (urine or serum β-hCG) - confirms pregnancy if not already done
+Bedside ultrasound scan (FAST scan - Focused Assessment with Sonography for Trauma):
+If immediately available (do not delay surgery to obtain)
+Look for free fluid in pouch of Douglas, Morrison's pouch, pericolic gutters
+May see adnexal mass
+Empty or no clear intrauterine gestational sac
+
+Formal pelvic ultrasound:
+Only if patient haemodynamically stable enough (this patient NOT stable)
+Transvaginal preferred
+Findings expected: Empty uterus, adnexal mass, free fluid in pelvis
+This patient requires immediate surgery without imaging
+
+Laboratory:
+Blood grouping and cross-matching (priority)
+PCV, FBC
+Electrolytes, urea, creatinine
+β-hCG (may help but do not wait for results)
+
+Definitive Management - Urgent Exploratory Laparotomy
+
+Timing:
+Immediate (as soon as minimal resuscitation achieved)
+Do not delay for complete haemodynamic stabilization (ongoing bleeding)
+Aim: Theatre within 30-60 minutes of presentation
+
+Pre-operative preparation:
+Inform patient and relatives of diagnosis (ruptured ectopic pregnancy, life-threatening bleeding)
+Explain need for emergency surgery (risk of death without surgery)
+Obtain informed consent (document clearly)
+Consent for blood transfusion
+Consent for possible bilateral salpingectomy or oophorectomy if needed
+Senior gynaecologist involved
+Anaesthetist informed (general anaesthesia)
+Theatre team alerted (emergency case, takes priority)
+Continue resuscitation en route to theatre
+
+Surgical approach:
+
+Incision:
+Midline vertical incision (allows better access, faster, better for emergency)
+OR Pfannenstiel if surgeon prefers and haemodynamically stable
+
+Initial steps:
+Open abdomen
+Evacuate haemoperitoneum (quantify blood - usually 1000-3000 ml)
+Send blood for pack cell volume if needed
+Identify bleeding site
+
+Expected findings:
+Ruptured ectopic pregnancy (usually in fallopian tube)
+Blood in peritoneal cavity
+May be clots
+Tube distended, ruptured, bleeding
+
+Surgical options:
+
+Salpingectomy (removal of affected fallopian tube) - most likely:
+Indications:
+Ruptured ectopic
+Uncontrolled bleeding
+Extensively damaged tube
+Patient haemodynamically unstable
+Parity considerations (already has one tube)
+Procedure:
+Identify and clamp bleeding vessels
+Ligate mesosalpinx
+Remove entire tube
+Secure haemostasis
+Check contralateral tube (ensure normal)
+
+Salpingostomy (conservative, preserve tube):
+Indications:
+Small unruptured ectopic
+Desire for future fertility
+Contralateral tube damaged or absent
+Patient haemodynamically stable
+Procedure:
+Linear incision over ectopic
+Remove products of conception
+Secure haemostasis
+Leave tube to heal
+Higher risk of recurrent ectopic
+This patient NOT a candidate (ruptured, unstable)
+
+Additional procedures:
+Examine both ovaries (ensure normal)
+Examine uterus
+Examine appendix (exclude appendicitis)
+Thorough peritoneal lavage (wash out blood and clots)
+Ensure complete haemostasis
+Check for other sources of bleeding
+
+Specimen:
+Send ectopic pregnancy tissue for histopathology (confirm ectopic pregnancy)
+
+Closure:
+Mass closure of abdomen
+Skin closure
+
+Post-operative Care
+
+Immediate post-operative:
+Recovery room or intensive care unit if severe shock
+Continue monitoring vital signs closely
+Continue IV fluids and blood transfusion as needed
+Monitor urine output
+Watch for complications
+
+Medications:
+
+IV fluids:
+Continue at maintenance rate after resuscitation
+Transition to oral fluids when bowel function returns
+
+Antibiotics:
+Prophylactic broad-spectrum antibiotics
+IV Ceftriaxone 1 g 12 hourly PLUS Metronidazole 500 mg 8 hourly
+OR IV Ampicillin 1 g 6 hourly PLUS Gentamicin 5 mg/kg daily PLUS Metronidazole
+Duration: 24-48 hours, then oral if needed
+
+Analgesics:
+IV Paracetamol 1 g 6 hourly
+Opioids if needed (Pentazocine, Tramadol)
+Transition to oral when able
+
+Thromboprophylaxis:
+Low molecular weight heparin (Enoxaparin 40 mg SC daily)
+Start after haemostasis confirmed (24 hours post-op)
+Early mobilization
+
+Monitoring:
+
+Clinical:
+Vital signs every 4-6 hours when stable
+Abdominal examination (wound, distension, tenderness)
+Vaginal bleeding (should be minimal)
+Urine output
+
+Laboratory:
+Serial PCV/haemoglobin (daily until stable)
+Check 6-12 hours post-operatively
+Transfuse if Hb less than 7 g/dL or symptomatic
+Electrolytes if indicated
+
+Complications to watch for:
+Secondary haemorrhage (intra-abdominal or vaginal)
+Infection (wound, intra-abdominal abscess, sepsis)
+Ileus (paralytic)
+Anaemia
+Thromboembolism
+
+Nutrition:
+NBM initially
+Start oral sips when bowel sounds return
+Progress to normal diet as tolerated
+
+Mobilization:
+Early mobilization (within 24 hours if stable)
+Prevents thromboembolism
+Aids recovery
+
+Counselling and Psychological Support
+
+Inform patient:
+Surgery was successful
+Ectopic pregnancy removed
+Pregnancy loss (miscarriage, not viable pregnancy)
+One fallopian tube removed OR preserved (depending on procedure)
+One normal tube remains (can still conceive naturally)
+
+Discuss:
+
+What is ectopic pregnancy:
+Pregnancy implanted outside uterus (usually in fallopian tube)
+Cannot develop normally
+Life-threatening if ruptures
+Not caused by anything patient did
+
+Prognosis for future fertility:
+Can still conceive naturally with one tube
+Fertility rate: 60-70% with one tube
+Time to conception may be slightly longer
+
+Risk of recurrence:
+10-15% risk of ectopic pregnancy in future pregnancies
+Higher if risk factors present (tubal damage, PID)
+
+Recommendations for future pregnancies:
+Seek early antenatal care
+Early ultrasound scan (6-7 weeks) to confirm intrauterine pregnancy
+Report any abdominal pain or bleeding immediately
+
+Psychological support:
+Acknowledge grief and loss (pregnancy loss)
+Normal to feel sadness, anger, guilt
+Encourage expressing feelings
+Offer counselling if needed
+Support groups for pregnancy loss
+
+Contraception:
+Discuss when ready
+Allow time to recover (at least 3 months before trying again)
+Can use any method (no restrictions after ectopic)
+
+Follow-up:
+Review in clinic after 2 weeks (wound check, remove sutures)
+Discuss histopathology results
+Further counselling on future fertility
+Serial β-hCG (ensure levels drop to zero, rule out persistent trophoblastic tissue)
+
+Investigations for Recurrent Pregnancy Loss (if indicated):
+After this and previous abortion, total 2 pregnancy losses
+May not meet criteria for recurrent pregnancy loss (usually 3+)
+However, can offer:
+Tubal assessment: Hysterosalpingography (check patency of remaining tube)
+Screen for infections (Chlamydia, Gonorrhoea)
+Pelvic ultrasound (assess uterus and ovaries)
+Hormonal assessment if irregular cycles
+
+Prevention of Future Ectopic Pregnancy:
+Treat pelvic infections promptly
+Screen and treat STIs
+Use barrier contraception to prevent STIs
+Early ultrasound in future pregnancies
+
+PROGNOSIS
+
+Maternal prognosis:
+
+With prompt diagnosis and surgery:
+Excellent survival (mortality less than 1% with modern care)
+This patient presented in shock but should recover with aggressive resuscitation and surgery
+
+Without surgery:
+High mortality (10-20% or more from exsanguination)
+
+Factors affecting maternal outcome:
+Speed of diagnosis and treatment (critical)
+Availability of blood products
+Surgical expertise
+ICU facilities
+
+Morbidity:
+Short-term: Anaemia, wound infection, pain
+Long-term: Reduced fertility (one tube), risk of recurrent ectopic
+
+Future fertility prognosis:
+
+With one normal fallopian tube:
+Intrauterine pregnancy rate: 60-70%
+Ectopic pregnancy rate: 10-15%
+Infertility rate: 15-20%
+
+Factors affecting fertility:
+Condition of remaining tube (if normal, good prognosis)
+Presence of risk factors (PID, endometriosis, other tubal damage)
+Age and other fertility factors
+
+Recommendations:
+Try to conceive naturally for 12 months
+If no conception after 12 months, seek fertility evaluation
+May need assisted reproduction (IVF) if remaining tube damaged
+
+Recurrence risk:
+After one ectopic: 10-15% risk in next pregnancy
+After two ectopics: 25-30% risk
+Can be reduced with early pregnancy monitoring
+
+FOLLOW-UP
+Review in gynaecology clinic in 2 weeks with histopathology results. Serial serum β-hCG to ensure levels drop to zero. Fertility counselling and discussion of future pregnancy planning. Offer tubal assessment (HSG) before next pregnancy attempt.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-20',
+  title: 'Unruptured Ectopic Pregnancy (Haemodynamically Stable)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynaecology/Early Pregnancy',
+  condition: 'Unruptured ectopic pregnancy in a haemodynamically stable patient',
+  symptoms: [
+    'Lower abdominal pain (dull, intermittent, left iliac fossa)',
+    'Vaginal spotting for 2 days (scanty, dark, non-clotting)',
+    'Amenorrhoea of 6 weeks',
+    'Positive home pregnancy test one week ago',
+    'Mild dizziness (no syncope)',
+    'Mild left adnexal tenderness',
+    'Mild cervical motion tenderness',
+    'Haemodynamically stable (BP 110/70 mmHg, pulse 82 bpm)',
+    'No guarding or rebound tenderness',
+    'No free fluid on examination',
+    'Previous spontaneous abortion at 8 weeks'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-27',
+  summary: 'A 27-year-old P0+1 (1 spontaneous abortion) woman with 6 weeks amenorrhoea and positive pregnancy test presenting with mild left iliac fossa pain (3 days) and scanty vaginal spotting (2 days). Previous obstetric history: spontaneous abortion at 8 weeks. Examination reveals haemodynamically stable patient (BP 110/70 mmHg, pulse 82 bpm), mild left iliac fossa tenderness, left adnexal tenderness, mild cervical motion tenderness, no peritonism, no free fluid. Clinical features suggestive of unruptured ectopic pregnancy. Requires urgent investigations (quantitative β-hCG, transvaginal ultrasound) to confirm diagnosis and guide management. Management options include expectant management, medical management with methotrexate, or surgical management depending on findings and patient suitability.',
+  content: `
+A 27-year-old P0+1 (1A) hairdresser, resident in Surulere, Lagos State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G2
+Parity: P0+1 (no live births, one abortion)
+LMP: 13/01/26 (6 weeks ago ) 
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 3 days
+Vaginal spotting × 2 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 3 days prior to presentation when she developed lower abdominal pain. The pain is dull in nature, intermittent, mild to moderate in severity (4–6/10), localized to the left iliac fossa, with no radiation, and no identifiable aggravating or relieving factors.
+
+About 1 day after onset of pain (2 days prior to presentation), she noticed vaginal spotting, which is scanty, dark, and non-clotting, not sufficient to soak a pad.
+
+There is associated mild dizziness, but no history of syncope, collapse, or palpitations.
+
+There is no history of shoulder tip pain, fainting episodes, passage of clots or tissue, foul-smelling vaginal discharge, fever, nor urinary or bowel symptoms.
+
+She last saw her menses about 6 weeks ago.
+
+Since the onset of symptoms, she has taken over-the-counter analgesics with minimal relief and presented for evaluation.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular 28-day cycle
+Flow lasts 4–5 days
+No prior menstrual abnormalities
+Not using contraception
+No prior Pap smear
+
+OBSTETRIC HISTORY
+Previous spontaneous abortion at 8 weeks
+No live births
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior pelvic or abdominal surgery
+No known history of pelvic inflammatory disease
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+No routine medications
+
+FAMILY AND SOCIAL HISTORY
+Married in a monogamous setting
+No alcohol or cigarette use
+No use of herbal medications
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Not in obvious distress
+Afebrile 
+Not pale
+Not jaundiced
+Not dehydrated
+
+Vital Signs:
+Pulse: 82 bpm (normal)
+BP: 110/70 mmHg (normal)
+RR: 18 cpm (normal)
+SpO₂: 99% room air
+
+Abdominal Examination:
+
+Inspection:
+Abdomen flat, moves with respiration
+
+Palpation:
+Mild tenderness in left iliac fossa
+No guarding or rebound tenderness
+No palpable masses
+
+Percussion:
+No evidence of free fluid
+
+Pelvic Examination:
+
+Speculum examination:
+Minimal dark blood in vaginal vault
+Cervix appears healthy
+External os closed
+No active bleeding
+
+Bimanual examination:
+Mild cervical motion tenderness
+Uterus normal size
+Left adnexal tenderness present
+No fullness in pouch of Douglas
+
+ASSESSMENT
+
+Unruptured ectopic pregnancy in a haemodynamically stable patient
+
+Diagnosis based on:
+
+Classic triad of ectopic pregnancy:
+Amenorrhoea (6 weeks)
+Abdominal pain (mild to moderate, localized to left iliac fossa)
+Vaginal bleeding (scanty spotting)
+
+Features suggesting unruptured ectopic:
+Mild symptoms (pain 4-6/10)
+No severe pain or shoulder tip pain
+No syncope or collapse (no significant blood loss)
+Haemodynamically stable (BP 110/70 mmHg, pulse 82 bpm normal)
+Mild dizziness only (no signs of hypovolaemia)
+No peritonism (no guarding or rebound tenderness)
+No free fluid on percussion (no haemoperitoneum)
+Able to carry out daily activities
+
+Supportive clinical features:
+Positive pregnancy test 1 week ago
+Left adnexal tenderness (suggests left-sided ectopic)
+Mild cervical motion tenderness
+Normal-sized uterus (no intrauterine pregnancy)
+Closed cervical os (not miscarrying)
+
+Risk factors:
+Previous spontaneous abortion
+No contraception use (not preventing pregnancy)
+
+Differential diagnoses:
+
+Threatened abortion (intrauterine pregnancy with bleeding):
+Possible, needs ultrasound to confirm location
+If intrauterine pregnancy: Viable vs non-viable
+Management differs significantly
+
+Incomplete abortion:
+Less likely (os closed, minimal bleeding, no passage of tissue)
+
+Corpus luteum cyst with haemorrhage:
+Possible (amenorrhoea, pain, adnexal tenderness)
+β-hCG will differentiate (negative in cyst)
+
+Early intrauterine pregnancy with corpus luteum:
+Normal early pregnancy can cause mild pain from corpus luteum
+Needs ultrasound to confirm intrauterine location
+
+Pelvic inflammatory disease:
+Less likely (afebrile, no foul discharge, mild symptoms)
+
+Appendicitis:
+Less likely (location left iliac fossa, not right)
+
+Ovarian torsion:
+Less likely (mild intermittent pain, not severe constant)
+
+Key point: Diagnosis of ectopic pregnancy cannot be made on clinical grounds alone
+Requires investigations (β-hCG and ultrasound) to confirm
+
+PLAN
+
+Immediate Assessment and Stabilization
+
+Patient currently stable:
+No immediate resuscitation needed
+Haemodynamically stable
+No signs of rupture
+
+However, at risk of rupture:
+Requires close monitoring
+Admit or observe in emergency department
+Repeat vital signs regularly (every 2-4 hours)
+Watch for:
+Worsening abdominal pain
+Syncope or near-syncope
+Tachycardia or hypotension
+Peritoneal signs
+Have emergency plan ready (IV access, blood available, theatre on standby)
+
+Investigations (Urgent)
+
+Quantitative serum β-hCG:
+
+Most important initial test
+Confirms pregnancy
+Level helps guide management:
+Less than 1500 mIU/ml: Intrauterine pregnancy may not be visible on ultrasound yet
+Greater than 1500 mIU/ml: Should see intrauterine pregnancy on transvaginal ultrasound (discriminatory zone)
+Very high levels (greater than 5000 mIU/ml): Less suitable for medical management
+Baseline for serial monitoring
+
+Serial β-hCG (48-hour interval):
+Rising appropriately (66% increase in 48 hours): Suggests viable intrauterine pregnancy
+Rising slowly (less than 66% in 48 hours): Suggests ectopic or failing intrauterine pregnancy
+Plateauing or falling: Suggests failing pregnancy (ectopic or miscarriage)
+
+Transvaginal pelvic ultrasound scan:
+
+Essential for diagnosis
+Perform urgently (same day if possible)
+
+Findings in ectopic pregnancy:
+Empty uterus (no gestational sac)
+Thick endometrium (decidual reaction)
+Adnexal mass (ectopic gestational sac, may see yolk sac or fetal pole with cardiac activity)
+Free fluid in pouch of Douglas (blood from tubal bleeding)
+Corpus luteum on ovary
+
+Findings in intrauterine pregnancy:
+Gestational sac in uterus (seen from 4.5-5 weeks)
+Yolk sac (seen from 5.5 weeks)
+Fetal pole with cardiac activity (seen from 6 weeks)
+
+Findings in pregnancy of unknown location (PUL):
+No intrauterine pregnancy seen
+No definite adnexal mass seen
+β-hCG positive
+Requires serial β-hCG and repeat ultrasound
+
+Full blood count:
+Assess haemoglobin/PCV (rule out anaemia from bleeding)
+White cell count (rule out infection)
+Platelet count
+
+Blood grouping and Rhesus status:
+Essential (if Rhesus negative, will need Anti-D immunoglobulin)
+Keep on file for future
+
+Serum electrolytes, urea, creatinine:
+Baseline renal function
+Important if methotrexate considered (nephrotoxic)
+
+Liver function tests:
+If methotrexate considered (hepatotoxic, need baseline)
+
+Additional tests if methotrexate considered:
+Full blood count (ensure normal)
+Renal function (creatinine clearance)
+Liver function tests
+
+Management Options
+
+Management depends on:
+Clinical stability
+β-hCG level
+Ultrasound findings
+Patient preference
+Availability of resources
+
+Three main approaches: Expectant, Medical, Surgical
+
+Expectant Management (Watch and Wait)
+
+Principle: Some ectopic pregnancies resolve spontaneously without intervention
+
+Indications (strict criteria):
+Haemodynamically stable
+Minimal symptoms (pain less than 4/10)
+Declining β-hCG levels (falling by at least 15% over 48 hours)
+Initial β-hCG less than 1000 mIU/ml (preferably less than 500)
+No fetal cardiac activity on ultrasound
+Small adnexal mass (less than 3 cm) or no visible mass
+No significant free fluid
+Patient reliable for follow-up
+Close proximity to hospital (can return quickly if rupture)
+
+Requirements:
+Informed consent (patient understands risk of rupture)
+Serial β-hCG monitoring (every 48-72 hours until negative)
+Clear instructions on warning signs
+Emergency contact number
+Close follow-up
+
+Success rate: 50-70% (if criteria met)
+
+Advantages:
+Avoids medication side effects
+Avoids surgery
+Preserves tube
+Lower cost
+
+Disadvantages:
+Risk of rupture (5-10%)
+Prolonged follow-up (weeks to months)
+Anxiety
+Not suitable for all patients
+
+Monitoring:
+β-hCG every 48-72 hours until less than 15 mIU/ml
+Weekly ultrasound if adnexal mass present
+Watch for signs of rupture
+
+This patient: May be candidate if β-hCG declining
+
+Medical Management (Methotrexate)
+
+Principle: Methotrexate inhibits rapidly dividing cells (trophoblast), causes ectopic to regress
+
+Indications:
+Haemodynamically stable
+No signs of rupture (no severe pain, no peritonism, no free fluid)
+β-hCG less than 5000 mIU/ml (some protocols use less than 3000 or less than 2000)
+Ectopic mass less than 3.5-4 cm
+No fetal cardiac activity (if cardiac activity present, higher failure rate)
+Normal renal and liver function
+Normal blood counts
+No contraindications to methotrexate
+Patient reliable for follow-up
+
+Contraindications to methotrexate:
+Haemodynamic instability
+Signs of rupture
+Breastfeeding
+Known sensitivity to methotrexate
+Liver disease (AST greater than 2 times normal)
+Renal disease (creatinine greater than 1.5 mg/dL)
+Blood dyscrasias (anaemia, leucopenia, thrombocytopenia)
+Active pulmonary disease
+Peptic ulcer disease
+Immunodeficiency
+
+Protocols:
+
+Single-dose protocol (most common):
+Methotrexate 50 mg/m² IM (calculate based on body surface area)
+For average woman: 75-90 mg
+Monitor β-hCG on days 4 and 7
+If β-hCG falls by at least 15% between days 4 and 7: Success, continue monitoring weekly
+If β-hCG not falling adequately: Give second dose or proceed to surgery
+
+Two-dose protocol:
+Methotrexate 50 mg/m² IM on day 0 and day 4
+Monitor β-hCG on days 4 and 7
+Higher success rate than single dose
+
+Multi-dose protocol:
+Methotrexate 1 mg/kg IM on alternate days (days 1, 3, 5, 7)
+Folinic acid 0.1 mg/kg IM on alternate days (days 2, 4, 6, 8)
+Monitor β-hCG before each methotrexate dose
+Stop when β-hCG falls by 15% or after 4 doses
+Higher success rate but more side effects
+
+Side effects of methotrexate:
+Common: Abdominal pain (separation pain as trophoblast dies, 60% of patients), nausea, vomiting, diarrhoea, stomatitis
+Less common: Bone marrow suppression, hepatotoxicity, alopecia, photosensitivity
+Serious: Tubal rupture (2-7%)
+
+Instructions after methotrexate:
+Avoid folic acid supplements (antagonizes methotrexate)
+Avoid sun exposure (photosensitivity)
+Avoid alcohol (hepatotoxicity)
+Avoid sexual intercourse until β-hCG negative
+Avoid pregnancy for at least 3 months (methotrexate teratogenic)
+Use reliable contraception
+
+Monitoring:
+β-hCG on days 4 and 7, then weekly until less than 15 mIU/ml
+Usually takes 2-6 weeks (can take up to 12 weeks)
+Weekly clinical assessment
+Ultrasound weekly if large mass
+Watch for signs of rupture
+
+Success rate: 85-95% (single dose), 90-95% (multi-dose)
+
+Advantages:
+Avoids surgery
+Preserves tube
+Shorter recovery than surgery
+Can be outpatient
+
+Disadvantages:
+Side effects
+Risk of rupture
+Prolonged follow-up
+Not suitable for all patients
+Contraceptive requirement for 3 months
+
+This patient: May be candidate if β-hCG less than 5000 mIU/ml and no cardiac activity
+
+Surgical Management
+
+Principle: Remove ectopic pregnancy surgically
+
+Indications:
+Haemodynamic instability (absolute indication)
+Signs of rupture
+Failed medical management or expectant management
+Large ectopic mass (greater than 3.5-4 cm)
+Fetal cardiac activity present
+High or rising β-hCG (greater than 5000 mIU/ml)
+Contraindications to methotrexate
+Patient preference
+Patient unreliable for follow-up
+
+Surgical approaches:
+
+Laparoscopy (preferred if stable):
+Minimally invasive
+Smaller incisions
+Less pain
+Shorter hospital stay
+Faster recovery
+Better cosmetic result
+Requires specialized equipment and skills
+
+Laparotomy:
+Open surgery
+Midline or Pfannenstiel incision
+Indicated if:
+Haemodynamically unstable
+Extensive adhesions
+Large ectopic
+Failed laparoscopy
+Laparoscopy not available
+
+Surgical options:
+
+Salpingectomy (removal of tube):
+Remove entire affected fallopian tube
+Indications:
+Ruptured ectopic
+Extensively damaged tube
+Recurrent ectopic in same tube
+Uncontrolled bleeding
+Contralateral tube normal
+Patient not desiring future fertility
+Advantages:
+Complete removal of ectopic
+Lower recurrence rate (5% vs 15%)
+Shorter operating time
+Less blood loss
+Disadvantages:
+Loss of tube
+Reduced fertility (50% reduction if other tube abnormal)
+
+Salpingostomy (conservative, preserve tube):
+Linear incision in tube, remove ectopic, leave tube to heal
+Indications:
+Unruptured small ectopic
+Desire for future fertility
+Contralateral tube damaged or absent
+Only tube
+Patient stable
+Advantages:
+Preserves tube
+Better future fertility if other tube abnormal
+Disadvantages:
+Risk of persistent trophoblast (5-20%, requires methotrexate)
+Higher recurrence rate in same tube (15%)
+Longer operating time
+More blood loss
+Requires serial β-hCG monitoring postoperatively
+
+Post-operative care:
+Analgesics
+Antibiotics (prophylactic)
+Early mobilization
+Monitor for complications (bleeding, infection)
+Serial β-hCG if salpingostomy (ensure falling to zero)
+Anti-D if Rhesus negative
+
+This patient: If surgery needed, laparoscopic salpingostomy possible if unruptured and small
+
+Supportive Care
+
+Analgesia:
+Paracetamol 1 g orally 6-hourly
+NSAIDs (Ibuprofen 400-600 mg 8-hourly) - use with caution if considering methotrexate
+Avoid opioids unless severe pain
+
+Anti-D immunoglobulin:
+If patient Rhesus negative
+Give within 72 hours of diagnosis
+Dose: 250 IU (50 mcg) if less than 12 weeks gestation
+Prevents Rhesus sensitization
+
+Emotional and psychological support:
+Acknowledge pregnancy loss
+Normal to feel grief, sadness, anger
+Encourage expressing feelings
+Offer counselling if needed
+Support groups for pregnancy loss
+
+Nutritional support:
+Folic acid supplementation (for future pregnancy, not if methotrexate given)
+Iron if anaemic
+
+Counselling
+
+Explain diagnosis:
+Ectopic pregnancy means pregnancy implanted outside uterus (likely in tube)
+Cannot develop into normal baby
+Cannot be moved to uterus
+Will not survive
+Potentially life-threatening if ruptures
+
+Explain investigations needed:
+Blood test (β-hCG) to measure pregnancy hormone
+Ultrasound to locate pregnancy
+These will guide treatment
+
+Explain management options:
+Three options: Watch, medication, or surgery
+Choice depends on test results and patient preference
+Each has pros and cons
+
+Explain risk of rupture:
+Ectopic can rupture causing severe internal bleeding
+Life-threatening emergency
+Warning signs: Severe abdominal pain, shoulder tip pain, dizziness, fainting, collapse
+If these occur: Come to hospital immediately or call emergency services
+
+Discuss future fertility:
+Can still conceive naturally
+Future pregnancy success depends on condition of remaining tube(s)
+Slightly longer time to conception
+Increased risk of recurrent ectopic (10-15%)
+
+Discuss future pregnancy planning:
+Recommend waiting 2-3 months before trying to conceive (longer if methotrexate - 3 months)
+Early ultrasound in next pregnancy (6-7 weeks) to confirm intrauterine location
+Early antenatal care
+
+Contraception:
+Use reliable contraception until ready for next pregnancy
+Any method suitable (unless methotrexate given, then barrier methods for 3 months)
+
+Follow-up
+
+Immediate follow-up (if expectant or medical management):
+β-hCG monitoring as per protocol
+Clinical review weekly
+Repeat ultrasound as indicated
+Watch for signs of rupture
+Clear emergency contact information
+
+Post-treatment follow-up:
+β-hCG monitoring until negative (less than 15 mIU/ml)
+If salpingostomy: Weekly β-hCG until zero
+Clinical review 1-2 weeks after treatment
+Histopathology results (if surgery)
+
+Long-term follow-up:
+Gynaecology clinic review 4-6 weeks
+Discuss future fertility
+Offer tubal assessment if desired (hysterosalpingography)
+Counsel on recurrence risk
+Early pregnancy planning
+
+PROGNOSIS
+
+Prognosis for mother:
+With early diagnosis and appropriate treatment: Excellent outcomes
+This patient stable, diagnosed early: Very good prognosis
+Mortality less than 0.1% with modern care
+
+Prognosis for pregnancy:
+This pregnancy not viable (ectopic)
+Will be lost regardless of treatment
+
+Future fertility prognosis:
+Overall intrauterine pregnancy rate after ectopic: 50-80%
+Depends on management and tubal status
+After salpingostomy (tube preserved): Better if contralateral tube abnormal
+After salpingectomy (tube removed): 40-60% if other tube normal
+Recurrent ectopic rate: 10-15% (higher if tubal damage, previous ectopic)
+Infertility rate: 10-15%
+
+Factors affecting future fertility:
+Condition of remaining tube(s)
+Presence of other fertility factors
+Age
+Management method chosen
+
+FOLLOW-UP
+Serial β-hCG monitoring as per protocol until negative. Clinical review weekly until resolved. Gynaecology review at 4-6 weeks. Fertility counselling. Offer tubal assessment before next pregnancy. Early ultrasound in future pregnancies to confirm intrauterine location.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'obg-21',
+  title: 'Prolonged Labour with Uterine Inertia in Active Phase',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Prolonged labour in active phase due to inadequate uterine contractions (uterine inertia) at term',
+  symptoms: [
+    'Labour pains for 18 hours',
+    'Slow progress in labour for 10 hours',
+    'Weak contractions (2-3 in 10 minutes, lasting 25-30 seconds)',
+    'Rupture of membranes 12 hours ago (clear fluid)',
+    'Cervix 5 cm dilated, 60% effaced',
+    'Presenting part at station -2',
+    'Good fetal movements perceived',
+    'Fetal heart rate 140 bpm (normal)',
+    'Mildly exhausted but haemodynamically stable',
+    'Referred from peripheral health centre for poor progress'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-27',
+  summary: 'A 26-year-old booked G2P1+0 (1 alive) at 39 weeks + 4 days gestation presenting with prolonged labour (18 hours total, 10 hours of slow progress). Previous obstetric history: term SVD of 3.0 kg baby in 2021, no complications. Current pregnancy uncomplicated with regular antenatal care, booking PCV 34%, blood group A positive, genotype AA, HIV negative. Membranes ruptured 12 hours ago with clear fluid. Examination reveals inadequate uterine contractions (2-3 in 10 minutes, lasting 25-30 seconds, mild-moderate intensity), cervix 5 cm dilated with 60% effacement, presenting part at station -2, no significant caput or moulding, clinically adequate pelvis. Mother mildly exhausted but stable, fetal heart rate 140 bpm (reassuring). Diagnosis: prolonged labour in active phase due to uterine inertia. Requires augmentation with oxytocin, close monitoring on partograph, and reassessment after 4 hours.',
+  content: `
+Mrs A.A., a 26-year-old booked G2P1+0 (1 alive) woman, hairdresser, Christian, Yoruba, who resides in Abeokuta, Ogun State. She has a secondary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+LMP: 01/06/2025
+EDD: 08/03/2026
+EGA: 39 weeks + 4 days
+
+PRESENTING COMPLAINTS
+On and off painful contractions × 18 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 18 hours prior to presentation when she developed labour pains. The pains were initially mild and infrequent but gradually increased in frequency and intensity.
+
+
+The contractions are currently occurring about 2–3 times in 10 minutes, lasting 25–30 seconds, and are of mild to moderate intensity.
+
+There is a history of rupture of membranes about 12 hours prior to presentation, with passage of clear fluid.
+
+There is no vaginal bleeding.
+She perceives fetal movements.
+There is no history of fever or foul-smelling vaginal discharge.
+
+She initially presented at a peripheral health centre where over the past 10 hours, she it was reported that despite ongoing contractions, labour has progressed slowly.
+she was subsequently referred on account of poor progress.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. She booked at 16 weeks gestation and has had regular antenatal visits.
+
+She has been compliant with antenatal haematinics.
+She received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 34%
+Blood group: A positive
+Genotype: AA
+HIV: Negative
+
+No antenatal complications.
+
+PAST OBSTETRIC HISTORY
+2021: Term spontaneous vaginal delivery of a live female infant (3.0 kg). No complications. Child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic medical illness
+No prior surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of hereditary diseases
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A pregnant woman, conscious and alert, mildly exhausted but not in severe distress
+Not pale, afebrile, not dehydrated
+
+Vital Signs:
+BP: 112/70 mmHg
+PR: 92 bpm
+RR: 18 cpm
+Temperature: 36.7°C
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 38 cm
+Lie: Longitudinal
+Presentation: Cephalic
+Engagement: 3/5 palpable above pelvic brim (engaged)
+Uterine contractions: 2–3 in 10 minutes, lasting 25–30 seconds, mild to moderate intensity
+No uterine tenderness
+
+Auscultation:
+Fetal heart rate: 140 bpm, regular (reassuring)
+
+Pelvic Examination:
+Vulva and vagina normal
+Cervix 5 cm dilated, 60% effaced
+Presenting part cephalic at station -2 (2 cm above ischial spines)
+Membranes ruptured
+No significant caput or moulding
+Pelvis clinically adequate
+
+OBSTETRIC SUMMARY
+A 26-year-old G2P1+0 woman at 39 weeks + 4 days gestation in labour for 18 hours with slow progress. Findings show suboptimal uterine contractions and delayed cervical dilatation with a live fetus.
+
+ASSESSMENT
+
+Prolonged labour in active phase likely due to inadequate uterine contractions (uterine inertia) in a booked multiparous woman at term
+
+Diagnosis based on:
+
+Definition of prolonged labour:
+First stage labour exceeding expected duration
+Primigravida: Greater than 20 hours
+Multigravida: Greater than 14 hours
+This patient (multigravida) in labour 18 hours: Prolonged
+
+Specific phase: Prolonged active phase
+Active phase: Cervical dilatation from 4 cm to full dilatation
+Entered active phase (currently 5 cm)
+Expected progress in active phase: Minimum 1 cm/hour in multigravida
+This patient: Poor progress over past 10 hours (still only 5 cm)
+Crossing or approaching action line on partograph
+
+Assessment of the Three Ps:
+
+Power (uterine contractions):
+Current pattern: 2-3 contractions in 10 minutes, lasting 25-30 seconds, mild-moderate intensity
+Normal labour requires: 3-5 contractions per 10 minutes, each lasting 40-60 seconds, good intensity
+This patient: Inadequate (hypotonic uterine dysfunction, primary uterine inertia)
+Main cause of slow progress
+
+Passenger (fetus):
+Size: SFH 38 cm (appropriate for 39+4 weeks, not macrosomic)
+Previous baby 3.0 kg (average size, proves pelvis adequate)
+Position: Cephalic, longitudinal lie (normal)
+No excessive caput or moulding (suggests no significant obstruction)
+Station -2 (descent not optimal but not completely arrested)
+
+Passage (pelvis):
+Clinically adequate on examination
+Previous successful vaginal delivery (proves pelvis adequate)
+No clinical evidence of cephalopelvic disproportion
+
+Conclusion: Power is the problem (inadequate uterine contractions)
+
+Additional factors:
+
+Prolonged rupture of membranes:
+12 hours since rupture
+Increases risk of infection (chorioamnionitis)
+Currently no signs of infection (afebrile, no foul discharge, no uterine tenderness)
+
+Maternal status:
+Mildly exhausted but coping
+Haemodynamically stable
+Hydrated
+Not in severe distress
+
+Fetal status:
+Fetal heart rate 140 bpm (normal, reassuring)
+Good fetal movements perceived
+No signs of fetal distress
+Clear liquor (no meconium)
+
+Risk factors for prolonged labour identified:
+Referred from peripheral centre (delayed presentation to appropriate facility)
+Inadequate monitoring at peripheral centre
+However: Multiparous (usually labour faster), so prolonged labour in multigravida concerning
+
+Complications to anticipate:
+Maternal exhaustion and dehydration
+Infection (chorioamnionitis with prolonged ROM)
+Postpartum haemorrhage (uterine atony from prolonged labour)
+Fetal distress (with continued labour)
+Obstructed labour (if cephalopelvic disproportion develops)
+Uterine rupture (rare in multigravida without scar, but risk increases with augmentation)
+
+Differential diagnosis:
+Cephalopelvic disproportion (CPD) - less likely given adequate pelvis, no excessive moulding, previous vaginal delivery
+Malposition (occipito-posterior, occipito-transverse) - possible, position not fully assessed
+Soft tissue dystocia - less likely
+Primary uterine inertia - most likely (hypotonic uterine dysfunction)
+
+PLAN
+
+This is prolonged labour requiring active management to prevent complications
+
+Admission
+Admit into labour ward
+Inform senior obstetrician (registrar or consultant)
+Close monitoring required
+Have theatre on standby (may need caesarean section if augmentation fails)
+
+Assessment of the Three Ps (Systematic Evaluation)
+
+This framework guides diagnosis and management of prolonged labour
+
+Power (Uterine Contractions):
+
+Current assessment:
+Frequency: 2-3 per 10 minutes (inadequate, should be 3-5)
+Duration: 25-30 seconds (inadequate, should be 40-60 seconds)
+Intensity: Mild-moderate (inadequate, should be strong)
+Diagnosis: Hypotonic uterine dysfunction (primary uterine inertia)
+
+Causes of inadequate contractions:
+Primigravida (this patient multigravida, so unusual)
+Over-distension (twins, polyhydramnios, macrosomia - not present)
+Maternal exhaustion
+Dehydration
+Cephalopelvic disproportion (early labour, before obstruction becomes apparent)
+
+Management: Augmentation (see below)
+
+Passenger (Fetus):
+
+Assessment:
+Size: Appropriate for gestational age (SFH 38 cm at 39+4 weeks, previous baby 3.0 kg)
+Lie: Longitudinal (normal)
+Presentation: Cephalic (normal)
+Position: Needs detailed assessment
+Perform abdominal palpation to determine fetal back position
+Vaginal examination to assess position of sagittal suture and fontanelles
+Occipito-anterior (OA): Normal, sagittal suture in anteroposterior diameter
+Occipito-posterior (OP): Abnormal, prolonged labour, sagittal suture in anteroposterior but occiput posterior
+Occipito-transverse (OT): Abnormal, sagittal suture in transverse diameter
+Descent: Station -2 (should be lower at this stage)
+Moulding: None significant (reassuring, no obstruction)
+Caput: Minimal (reassuring, no prolonged obstruction)
+
+If malposition identified: May rotate spontaneously with good contractions, or may need manual rotation or caesarean section
+
+Passage (Pelvis):
+
+Clinical pelvimetry assessment:
+Diagonal conjugate (assess on vaginal examination): Adequate if can't reach sacral promontory
+Pelvic side walls: Convergent, straight, or divergent
+Ischial spines: Prominent or not
+Sacral curve: Normal or flat
+Subpubic angle: Adequate (greater than 90 degrees)
+
+This patient: Clinically adequate pelvis
+Previous successful vaginal delivery (proves adequate pelvis for 3.0 kg baby)
+No excessive moulding or caput (suggests no significant disproportion currently)
+
+However, if augmentation fails: Suspect cephalopelvic disproportion and proceed to caesarean section
+
+Partograph Monitoring (Essential Tool)
+
+Partograph is graphic record of labour progress
+Essential for identifying abnormal labour patterns
+
+Components:
+
+Cervical dilatation:
+Plot on partograph with time
+Alert line: Starts at admission or active phase
+Action line: Parallel to alert line, 4 hours to the right
+Crossing action line: Requires intervention (augmentation or caesarean section)
+
+Descent of presenting part:
+Plot on partograph (station or fifths palpable abdominally)
+Should progressively descend
+
+Fetal heart rate:
+Document every 30 minutes in first stage
+Plot on partograph
+Normal: 110-160 bpm
+
+Uterine contractions:
+Document every 30 minutes
+Frequency (per 10 minutes)
+Duration (seconds)
+Intensity (mild, moderate, strong)
+Plot on partograph
+
+Maternal vital signs:
+Pulse, BP, temperature every 2-4 hours
+Urine output, ketones
+
+Liquor:
+Colour when membranes rupture and subsequently
+I = intact, C = clear, M = meconium, B = blood
+
+Interventions:
+Document oxytocin, analgesia, vaginal examinations, etc.
+
+This patient: Likely crossing or approaching action line (slow progress for 10 hours)
+
+Augmentation of Labour
+
+Indications:
+Inadequate uterine contractions
+Slow progress in labour
+Crossing action line on partograph
+
+Requirements before augmentation:
+Cephalic presentation
+Longitudinal lie
+No evidence of cephalopelvic disproportion (no excessive moulding or caput)
+No contraindications to vaginal delivery
+Adequate pelvic capacity
+Continuous monitoring available
+
+Contraindications:
+Malpresentation (breech, transverse lie)
+Placenta praevia
+Suspected cephalopelvic disproportion
+Previous classical caesarean section or extensive uterine surgery
+Fetal distress
+Grand multiparity (5 or more previous deliveries - risk of uterine rupture)
+
+Methods:
+
+Amniotomy (Artificial Rupture of Membranes):
+Membranes already ruptured in this patient
+If intact: Amniotomy can augment labour (releases prostaglandins, improves contractions)
+Perform during contraction, feel for cord, rupture with amniohook
+Note colour of liquor
+
+Oxytocin infusion (main method for this patient):
+
+Preparation:
+Explain procedure to patient
+Obtain informed consent
+Ensure continuous monitoring (CTG if available, or intermittent auscultation every 15-30 minutes)
+Establish IV access
+
+Regimen:
+Dilute oxytocin: 10 units (1 ampoule) in 1000 ml Normal Saline or Ringer's Lactate (gives 10 mU/ml)
+Alternative: 5 units in 500 ml (gives 10 mU/ml)
+Start at 2-4 mU/min (12-24 ml/hr or 4-8 drops/min)
+Increase by 2 mU/min every 30 minutes until adequate contractions achieved
+Target: 3-5 contractions per 10 minutes, each lasting 40-60 seconds
+Maximum dose: 32-40 mU/min (opinions vary, some use up to 64 mU/min)
+
+Monitoring during oxytocin:
+Continuous fetal heart rate monitoring (CTG preferred)
+If CTG unavailable: Auscultate FHR every 15-30 minutes
+Monitor uterine contractions every 30 minutes (frequency, duration, intensity)
+Monitor for uterine hyperstimulation (more than 5 contractions per 10 minutes, or contractions lasting greater than 90 seconds)
+Monitor maternal vital signs
+Strict input-output (risk of water intoxication with high-dose prolonged oxytocin)
+Partograph monitoring
+
+Complications of oxytocin:
+Uterine hyperstimulation (tachysystole): Can cause fetal distress
+Uterine rupture (rare, higher risk in grand multipara or scarred uterus)
+Fetal distress (from excessive contractions reducing placental perfusion)
+Water intoxication (if large volumes given, oxytocin has ADH-like effect)
+Postpartum haemorrhage (oxytocin receptors desensitized)
+
+Management of complications:
+If uterine hyperstimulation or fetal distress: Stop oxytocin, left lateral position, oxygen, IV fluids, prepare for emergency delivery
+If uterine rupture suspected: Immediate laparotomy
+
+This patient: Good candidate for oxytocin augmentation (multigravida, no scar, adequate pelvis, no contraindications)
+
+Supportive Care
+
+Hydration:
+Adequate IV fluids to prevent dehydration and ketosis
+0.9% Normal Saline or Ringer's Lactate at 125 ml/hr
+Can add dextrose if prolonged labour (prevent hypoglycaemia)
+Encourage oral fluids if tolerated (clear fluids)
+Monitor input-output
+
+Nutrition:
+Light diet in early labour if desired
+Clear fluids only in active labour
+Avoid heavy meals (risk of aspiration if emergency anaesthesia needed)
+
+Analgesia:
+Labour pain management options:
+Non-pharmacological: Breathing techniques, position changes, back massage, ambulation, emotional support
+Pharmacological:
+Parenteral opioids: Pentazocine 30-45 mg IM or Tramadol 50-100 mg IM (can repeat after 3-4 hours)
+Avoid if delivery anticipated within 2-4 hours (risk of neonatal respiratory depression)
+Epidural analgesia: If available and requested (provides excellent pain relief)
+
+This patient (mildly exhausted): Offer analgesia, ensure adequate hydration
+
+Bladder care:
+Encourage voiding every 2-4 hours
+Full bladder can obstruct labour
+Catheterize if unable to void
+
+Ambulation:
+Encourage ambulation in early labour (improves progress)
+In active labour with ruptured membranes: Can ambulate if head engaged and no cord prolapse risk
+With oxytocin infusion: Usually prefer bed rest with continuous monitoring
+
+Emotional support:
+Reassurance
+Allow birth companion if desired
+Explain progress and plan
+Encourage and praise efforts
+
+Infection prevention:
+Minimize vaginal examinations (each exam increases infection risk)
+Maintain asepsis during examinations
+Monitor for signs of chorioamnionitis (fever, maternal tachycardia, fetal tachycardia, uterine tenderness, foul liquor)
+Consider antibiotics if prolonged ROM (greater than 18-24 hours) or signs of infection
+
+This patient: 12 hours since ROM, not yet 18 hours, currently no signs of infection
+
+Reassessment
+
+Timing:
+Repeat vaginal examination 4 hours after starting augmentation (or sooner if concerns)
+Assess cervical dilatation, effacement, station, moulding, caput
+
+Adequate progress:
+Cervical dilatation: Should progress at least 1 cm/hour (minimum)
+Expected: 5 cm now, should be at least 9 cm after 4 hours
+Descent: Progressive descent of presenting part
+If adequate progress: Continue oxytocin, monitor closely, anticipate vaginal delivery
+
+Inadequate progress despite adequate contractions:
+If contractions now adequate (3-5 per 10 minutes, 40-60 seconds, strong) but cervix not dilating
+Suspect cephalopelvic disproportion, malposition, or other obstruction
+Crossing action line on partograph
+Decision: Proceed to caesarean section
+
+Continuous monitoring:
+Partograph: Plot all findings
+Watch for crossing action line
+Fetal heart rate: Every 15-30 minutes (continuous CTG preferred)
+Maternal vital signs: Every 2-4 hours
+Signs of obstruction: Excessive moulding, large caput, poor descent, maternal exhaustion, fetal distress
+
+Escalation and Delivery Planning
+
+If progress with augmentation:
+Continue oxytocin until full dilatation
+Second stage management: Allow pushing, assisted delivery if needed (vacuum/forceps)
+Third stage: Active management (oxytocin, controlled cord traction)
+Watch for postpartum haemorrhage (higher risk after prolonged labour and oxytocin)
+
+If no progress despite augmentation:
+Failed augmentation indicates obstruction
+Proceed to caesarean section
+
+Indications for caesarean section:
+Failed augmentation (no progress after 4 hours of adequate contractions)
+Cephalopelvic disproportion
+Fetal distress
+Maternal exhaustion (unable to continue)
+Chorioamnionitis with fetal distress
+Crossing action line despite augmentation
+
+Preparation for potential caesarean section:
+Informed consent (explain possibility)
+Blood grouping and saving serum (or cross-match if anaemic)
+Theatre on standby
+Anaesthetist informed
+NPO (nothing by mouth) in active labour
+
+Trial of labour:
+This patient: Can give trial of labour with augmentation
+Good candidate (multigravida, adequate pelvis, previous vaginal delivery)
+However, must be prepared for caesarean section if trial fails
+
+Documentation
+
+Essential for medicolegal purposes and quality of care
+
+Partograph:
+Complete and accurate
+Plot every parameter at correct time
+Document interventions
+Sign and time each entry
+
+Progress notes:
+Detailed initial assessment
+Updates after each vaginal examination
+Changes in management
+Complications if any
+Decision-making process
+
+Informed consent:
+Document discussion with patient about prolonged labour
+Options explained (augmentation vs caesarean section)
+Risks and benefits discussed
+Patient's choice documented
+
+Handover:
+If shift change: Proper handover to incoming team
+Document current status, plan, concerns
+
+Complications to Monitor and Prevent
+
+Maternal complications:
+
+Maternal exhaustion and dehydration:
+Monitor closely
+Adequate hydration and analgesia
+If severe: May need caesarean section
+
+Infection (chorioamnionitis):
+Risk increases with prolonged ROM
+Monitor: Fever, maternal tachycardia, fetal tachycardia, uterine tenderness, foul liquor
+Management: Broad-spectrum antibiotics, expedite delivery
+
+Postpartum haemorrhage:
+Risk increased after prolonged labour (uterine atony from fatigue)
+Prevention: Active management of third stage, ensure good uterine contraction
+Have uterotonics ready
+
+Uterine rupture:
+Rare in unscarred multigravida but possible with oxytocin
+Signs: Severe abdominal pain, abnormal FHR, vaginal bleeding, loss of contractions, palpable fetus abdominally
+Management: Immediate laparotomy
+
+Psychological trauma:
+Prolonged labour can be traumatic
+Provide support and counselling
+
+Fetal complications:
+
+Fetal distress:
+Monitor FHR closely
+Early recognition and intervention
+May require emergency delivery
+
+Birth asphyxia:
+If prolonged labour leads to fetal compromise
+Risk of hypoxic-ischaemic encephalopathy
+Neonatal team should be present at delivery
+
+Infection (neonatal sepsis):
+Risk with prolonged ROM and chorioamnionitis
+Neonatal assessment and antibiotics if indicated
+
+PROGNOSIS
+
+Good prognosis for both mother and baby with appropriate management
+
+Maternal outcomes:
+With augmentation: 60-80% achieve vaginal delivery
+This patient has favourable factors:
+Multigravida (previous successful vaginal delivery)
+Adequate pelvis
+Main problem is uterine inertia (responds well to oxytocin)
+High chance of successful vaginal delivery with augmentation
+
+Fetal outcomes:
+Currently reassuring fetal status (FHR 140 bpm)
+With close monitoring and timely intervention: Excellent outcomes
+If labour progresses with augmentation: Normal delivery expected
+If requires caesarean section: Still good outcomes
+
+Risk factors for poor outcome:
+Delayed intervention (already prolonged 18 hours)
+Development of chorioamnionitis
+Fetal distress
+These can be prevented/managed with close monitoring
+
+FOLLOW-UP
+Postpartum review at day 3 and 6 weeks. Discuss labour experience. Debrief on prolonged labour. Counsel on future pregnancies (may need closer monitoring in labour).
+  `,
+  bookmarkCount: 0
+},
 ];

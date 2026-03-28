@@ -24946,4 +24946,1317 @@ Postpartum review at day 3 and 6 weeks. Discuss labour experience. Debrief on pr
   `,
   bookmarkCount: 0
 },
+{
+  id: 'ob-22',
+  title: 'Retained Placenta with Postpartum Haemorrhage',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Retained placenta in third stage of labour with secondary postpartum haemorrhage',
+  symptoms: [
+    'Failure to deliver placenta for 45 minutes after baby delivery',
+    'Vaginal bleeding for 30 minutes (progressively increasing)',
+    'Bright red continuous bleeding',
+    'Estimated blood loss 400-600 ml',
+    'Mild lower abdominal discomfort',
+    'Weakness and dizziness',
+    'Uterus moderately enlarged and poorly contracted',
+    'Fundal height above expected postpartum level',
+    'Umbilical cord protruding through introitus',
+    'Mild pallor',
+    'Tachycardia (104 bpm)',
+    'Hypotension (100/65 mmHg)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-27',
+  summary: 'A 28-year-old G3P2+0 (2 alive) delivered at 38 weeks + 6 days gestation with retained placenta 45 minutes after spontaneous vaginal delivery of 3.2 kg baby. Labour lasted 8 hours, no instrumental delivery, oxytocin given after baby delivery. Previous obstetric history: two term spontaneous vaginal deliveries (2019, 2022), no complications. Booking PCV 33%, blood group B positive, genotype AA, HIV negative. Current presentation: progressive vaginal bleeding for 30 minutes (bright red, continuous, estimated 400-600 ml), umbilical cord protruding, placenta undelivered, uterus moderately enlarged and poorly contracted. Examination reveals mild pallor, tachycardia (104 bpm), blood pressure 100/65 mmHg (early shock). Diagnosis: retained placenta with secondary postpartum haemorrhage. Requires immediate resuscitation, uterotonics, and manual removal of placenta under anaesthesia.',
+  content: `
+Mrs D.A., a 28-year-old booked G3P2+0 (2 alive) woman, trader, Christian, Yoruba, who resides in Abeokuta, Ogun State. She has a secondary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+Gravidity: G3 (third pregnancy)
+Parity: P2+0 (two term deliveries, no miscarriages) - now P3+0 after this delivery
+Living children: 2 alive (now 3 alive)
+Delivered at: 38 weeks + 6 days gestation (by LMP and early ultrasound)
+
+PRESENTING COMPLAINTS
+Failure to deliver placenta × 45 minutes
+Vaginal bleeding × 30 minutes
+
+HISTORY OF PRESENTING COMPLAINT
+She had a spontaneous vaginal delivery of a live female infant about 45 minutes prior to review.
+
+Following delivery of the baby, there was no expulsion of the placenta or membranes.
+
+Initial bleeding was minimal but progressively increased over the past 30 minutes.
+The bleeding is bright red, continuous, and has soaked several perineal pads.
+Estimated blood loss is approximately 400–600 ml so far.
+
+There is no history of excessive traction on the umbilical cord prior to review.
+
+There is associated mild lower abdominal discomfort but no severe pain.
+There is no history of fainting, though she feels weak and dizzy.
+
+She was administered oxytocin after delivery of the baby.
+
+There is no prior history of retained placenta.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. She booked at 16 weeks gestation and had regular antenatal visits.
+
+She was compliant with antenatal haematinics.
+She received tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 33%
+Blood group: B positive
+Genotype: AA
+HIV: Negative
+
+No antenatal complications.
+
+INTRAPARTUM HISTORY
+Labour lasted approximately 8 hours
+She had a spontaneous vaginal delivery of a live female infant weighing 3.2 kg
+No instrumental delivery
+No immediate complications during delivery of the baby
+
+PAST OBSTETRIC HISTORY
+2019: Term spontaneous vaginal delivery. No complications.
+2022: Term spontaneous vaginal delivery. No complications.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior uterine surgery
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of bleeding disorders
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young woman, conscious and alert but anxious
+Mildly pale, not icteric
+
+Vital Signs:
+BP: 100/65 mmHg (hypotension, early shock)
+PR: 104 bpm (tachycardia)
+RR: 20 cpm
+Temperature: 36.7°C
+
+Abdominal Examination:
+Uterus moderately enlarged and not well contracted (boggy uterus)
+Fundal height above expected level for postpartum state (should be at or below umbilicus immediately postpartum)
+
+Pelvic Examination:
+Umbilical cord seen protruding through the introitus
+No placenta delivered
+Ongoing vaginal bleeding noted
+No obvious genital tract lacerations externally
+
+ASSESSMENT
+
+Retained placenta in the third stage of labour with associated postpartum haemorrhage
+
+Diagnosis based on:
+
+Definition of retained placenta:
+Failure to deliver placenta within 30 minutes of delivery of baby with active management of third stage
+OR within 60 minutes with physiological management
+This patient: 45 minutes after delivery, placenta undelivered, meets criteria
+
+Third stage of labour:
+Begins with delivery of baby
+Ends with delivery of placenta and membranes
+Normal duration: 5-15 minutes with active management
+Prolonged third stage: Greater than 30 minutes (active management) or 60 minutes (physiological)
+
+Classification of retained placenta:
+
+Type 1: Placenta separated but trapped (in uterus or cervix):
+Placenta has separated from uterine wall
+Trapped by uterine contraction ring, cervical spasm, or full bladder
+Signs of separation present (gush of blood, cord lengthening, uterus rises and becomes globular)
+Management: Controlled cord traction usually successful
+
+Type 2: Placenta partially separated (placenta partly adherent):
+Part of placenta separated, part still attached
+Partial separation causes bleeding from placental bed
+Uterus cannot contract effectively (placenta prevents full contraction)
+No clear signs of separation
+Management: Usually requires manual removal
+
+Type 3: Placenta morbidly adherent (abnormal placentation):
+Placenta accreta (attached to myometrium)
+Placenta increta (invades myometrium)
+Placenta percreta (penetrates through myometrium)
+No separation, no bleeding initially (until attempts at removal)
+Risk factors: Previous caesarean section, placenta praevia, uterine surgery
+Management: Manual removal difficult or impossible, may need hysterectomy
+
+This patient: Most likely Type 2 (partially separated) given ongoing bleeding and poorly contracted uterus
+
+Associated postpartum haemorrhage:
+
+Definition: Blood loss greater than 500 ml after vaginal delivery
+Primary PPH: Within 24 hours of delivery
+Secondary PPH: After 24 hours up to 6 weeks postpartum
+This patient: Primary PPH (bleeding ongoing since delivery)
+
+Estimated blood loss: 400-600 ml (approaching or meeting PPH threshold)
+Progressive bleeding (worsening over 30 minutes)
+Clinical signs of blood loss:
+Tachycardia (104 bpm)
+Hypotension (100/65 mmHg, lower than normal pregnancy baseline)
+Mild pallor
+Weakness and dizziness
+
+Cause of bleeding: Retained placenta with partial separation
+Cannot have full uterine contraction while placenta occupies uterine cavity
+Placental bed continues to bleed
+
+Risk factors for retained placenta:
+
+Previous retained placenta (not present in this case)
+Multiparity (this patient G3P2, grand multiparity is greater than 5)
+Preterm delivery (this patient 38+6 weeks, near term)
+Previous uterine surgery (not present)
+Placenta praevia or accreta (not documented, but possible)
+Uterine abnormalities (fibroids, septum - not documented)
+Mismanaged third stage (excessive cord traction, fundal pressure before separation)
+
+Poor prognostic indicators:
+Ongoing bleeding (suggests partial separation, not just trapped)
+Poorly contracted uterus (atonic, unable to compress vessels)
+Already 45 minutes (prolonged)
+Signs of early shock (tachycardia, hypotension)
+
+Complications anticipated:
+
+Continued postpartum haemorrhage:
+Can rapidly progress to severe haemorrhage (greater than 1000 ml)
+Hypovolaemic shock
+Maternal mortality if not managed urgently
+
+Uterine atony:
+Retained placenta prevents effective uterine contraction
+Leads to continued bleeding from placental bed
+
+Uterine inversion:
+Risk with excessive cord traction
+Life-threatening complication
+
+Infection:
+Endometritis, sepsis (especially if placenta left in situ)
+Increases with time and with manual intervention
+
+Disseminated intravascular coagulation:
+If severe haemorrhage and shock
+
+PLAN
+
+This is an obstetric emergency requiring immediate intervention
+
+Call for Help (Immediate)
+Alert senior obstetrician (consultant or most senior available)
+Call anaesthetist (will need anaesthesia for manual removal)
+Alert theatre team (prepare for manual removal of placenta)
+Call for additional nursing support
+Activate massive transfusion protocol if severe bleeding
+
+Immediate Resuscitation (ABC Approach)
+
+Airway and Breathing:
+Maintain airway patency (patient conscious and alert currently)
+Administer high-flow oxygen via face mask (6-10 L/min)
+Target SpO₂ greater than 95%
+
+Circulation (Critical):
+
+Establish IV access:
+Two wide-bore IV cannulae (14G or 16G) in both antecubital fossae immediately
+Critical for fluid resuscitation and blood transfusion
+
+Blood sampling (urgent):
+Full blood count (haemoglobin, haematocrit, platelet count)
+Blood grouping and cross-matching (urgent, request at least 2-4 units)
+Coagulation profile (PT, aPTT, INR, fibrinogen - assess for coagulopathy)
+Serum electrolytes, urea, creatinine
+
+Fluid resuscitation:
+Commence rapid IV crystalloid infusion
+0.9% Normal Saline or Ringer's Lactate
+Initial bolus: 1 litre as fast as possible
+Continue infusion at high rate
+Use pressure bags if needed
+Warm fluids (prevent hypothermia)
+
+Blood transfusion:
+Transfuse blood as soon as available
+If severe bleeding: Request emergency O negative blood
+Target haemoglobin greater than 7-8 g/dL
+
+Monitoring:
+
+Vital signs:
+Blood pressure, pulse, respiratory rate every 5-15 minutes initially
+Watch for improvement or deterioration
+
+Urine output:
+Insert Foley catheter (monitor urine output, also empty bladder to aid placental delivery)
+Target urine output greater than 0.5 ml/kg/hr (approximately 30 ml/hr)
+
+Ongoing blood loss:
+Quantify by weighing soaked pads, blood in kidney dish
+Document cumulative blood loss
+
+Active Management of Third Stage (If Not Already Attempted)
+
+Controlled cord traction:
+
+Check for signs of placental separation:
+Gush of blood
+Lengthening of umbilical cord
+Uterus becomes globular and rises in abdomen
+Fundus becomes firm
+
+If signs of separation present:
+Apply suprapubic counter-pressure with one hand (prevents uterine inversion)
+Apply gentle steady traction on umbilical cord with other hand
+Do NOT use excessive traction (risk of cord rupture, uterine inversion)
+Deliver placenta by controlled cord traction
+
+If no signs of separation or placenta does not deliver:
+Do NOT continue traction (risk of uterine inversion, cord rupture)
+Proceed to manual removal
+
+This patient at 45 minutes: Likely already attempted, failed
+
+Uterotonics (Essential)
+
+Give immediately to improve uterine contraction and reduce bleeding
+
+Options:
+
+Oxytocin (first-line):
+Already given (mentioned in history)
+Continue as IV infusion: 40 units oxytocin in 1 litre Normal Saline, run at 125 ml/hr
+Helps contract uterus, reduces bleeding
+
+Ergometrine (if not contraindicated):
+IM or IV Ergometrine 0.5 mg
+Contraindications: Hypertension, pre-eclampsia, heart disease
+Causes sustained uterine contraction
+Do NOT give if hypertensive
+
+Carboprost (Prostaglandin F2-alpha):
+IM Carboprost 250 mcg (can repeat every 15 minutes, maximum 8 doses)
+Very effective for uterine atony
+Contraindications: Asthma (bronchospasm)
+Side effects: Nausea, vomiting, diarrhoea, fever
+
+Misoprostol:
+Rectal or sublingual Misoprostol 800-1000 mcg
+Useful when other options unavailable or contraindicated
+Slower onset than other uterotonics
+
+Combination therapy:
+Often use oxytocin infusion plus ergometrine or carboprost
+More effective than single agent
+
+This patient: Continue oxytocin infusion, consider adding ergometrine or carboprost
+
+Uterine Massage
+
+External bimanual compression:
+One hand on abdomen massaging uterine fundus
+Other hand in vagina supporting lower uterine segment
+Stimulates uterine contraction
+Temporary measure while preparing for definitive management
+
+Definitive Management - Manual Removal of Placenta
+
+Indication:
+Retained placenta greater than 30 minutes with active management
+Failed controlled cord traction
+This patient at 45 minutes with ongoing bleeding: Absolute indication
+
+Preparation:
+
+Informed consent:
+Explain procedure to patient
+Risk of bleeding, infection, uterine perforation
+Need for anaesthesia
+Obtain consent (emergency situation, but consent still needed)
+
+Anaesthesia:
+General anaesthesia preferred (allows complete relaxation, pain-free)
+Regional anaesthesia (spinal or epidural) possible if available and no contraindications
+Adequate analgesia essential (procedure very painful without anaesthesia)
+
+Setting:
+Operating theatre (sterile environment, good lighting)
+Full surgical team available
+Resuscitation equipment available
+
+Asepsis:
+Strict aseptic technique (high risk of infection)
+Sterile gloves, sterile drapes
+Antiseptic preparation of vulva, vagina, perineum
+
+Procedure:
+
+Position: Lithotomy position
+
+Empty bladder: Catheterize if not already done
+
+Hand insertion:
+Introduce gloved hand into vagina following umbilical cord
+Pass hand through cervix into uterus
+Cervix may need to be dilated manually if contracted
+
+Placental location:
+Identify edge of placenta with fingers
+Usually find at fundus or on uterine wall
+
+Separation:
+Use edge of hand (ulnar border) to separate placenta from uterine wall
+Cleavage plane between placenta and uterine wall
+Sweep hand side to side, separating placenta
+Do NOT use fingers to gouge or tear placenta (risk of leaving fragments)
+Continue until entire placenta separated
+
+Delivery:
+Grasp placenta with hand
+Deliver placenta through cervix and vagina
+Other hand on abdomen providing counter-pressure
+
+Inspection:
+Examine placenta and membranes for completeness
+Ensure no cotyledons missing
+If incomplete: Re-explore uterus to remove retained fragments
+
+Uterine exploration:
+Sweep hand around entire uterine cavity
+Check for retained fragments, uterine rupture
+Remove any retained tissue
+
+Uterine contraction:
+Give oxytocic (IM or IV bolus)
+Massage uterus externally to stimulate contraction
+Ensure uterus is well contracted before removing hand
+
+Complications during manual removal:
+
+Uterine perforation:
+Risk if forceful
+If suspected: Laparotomy, repair perforation
+Monitor for intra-abdominal bleeding
+
+Severe haemorrhage:
+Continue resuscitation
+May need additional interventions (see below)
+
+Placenta accreta:
+Cannot separate placenta (no cleavage plane)
+Do NOT force (causes massive bleeding, uterine rupture)
+Options:
+Leave placenta in situ, give methotrexate (rarely successful, risk of sepsis)
+Hysterectomy (definitive, life-saving)
+
+Incomplete removal:
+Re-explore and remove fragments
+May need curettage
+
+Uterine inversion:
+Can occur with excessive traction
+Immediate replacement essential
+
+Post-Procedure Management
+
+Continue uterotonics:
+Oxytocin infusion 40 units in 1 litre Normal Saline at 125 ml/hr for at least 4-6 hours
+Prevents recurrent atony and bleeding
+
+Monitor uterine tone:
+Frequent abdominal palpation
+Ensure uterus remains well contracted and firm
+If becomes boggy: Massage, additional uterotonics
+
+Monitor vaginal bleeding:
+Should reduce significantly after placental removal
+If continues: Assess cause (genital tract trauma, retained fragments, uterine atony, coagulopathy)
+
+Inspect genital tract:
+Examine cervix, vagina, perineum for lacerations
+Repair any tears under good lighting and anaesthesia
+
+Antibiotics (Prophylaxis):
+Broad-spectrum IV antibiotics
+Reduces risk of endometritis and sepsis after manual removal
+Regimen:
+IV Ceftriaxone 1 g 12-hourly PLUS Metronidazole 500 mg 8-hourly
+OR IV Ampicillin 1 g 6-hourly PLUS Gentamicin 5 mg/kg daily PLUS Metronidazole
+Duration: 24-48 hours IV, then oral if needed for 5-7 days total
+
+Monitoring:
+
+Vital signs:
+Every 15 minutes for first hour
+Then every 30 minutes for 2 hours
+Then hourly for 24 hours
+Watch for signs of ongoing bleeding or shock
+
+Urine output:
+Hourly for first 24 hours
+Target greater than 30 ml/hr
+
+Vaginal bleeding:
+Quantify (pad count, weigh pads)
+Should decrease progressively
+If increasing: Urgent reassessment
+
+Uterine tone:
+Frequent palpation
+Should remain firm
+If boggy: Massage, uterotonics
+
+Laboratory:
+Repeat haemoglobin 6-12 hours post-procedure
+Coagulation profile if DIC suspected
+Continue blood transfusion if needed
+
+Management of Continued Bleeding (If Manual Removal Fails to Control)
+
+If bleeding continues despite manual removal and uterotonics:
+
+Assess causes (4 Ts):
+
+Tone (uterine atony) - most common:
+Uterus soft and boggy
+Management: Uterotonics, bimanual compression
+
+Trauma (genital tract lacerations):
+Bleeding from tears in cervix, vagina, perineum
+Management: Identify and repair lacerations
+
+Tissue (retained placental fragments):
+Placenta incomplete on examination
+Management: Re-explore uterus, curettage, ultrasound
+
+Thrombin (coagulopathy):
+DIC, inherited bleeding disorder
+Management: Replace clotting factors (FFP, cryoprecipitate, platelets)
+
+Interventions for severe PPH:
+
+Uterine tamponade:
+Intrauterine balloon (Bakri balloon, condom catheter)
+Apply pressure to bleeding placental bed
+Effective for atonic uterus
+
+Haemostatic sutures:
+B-Lynch compression suture
+Multiple square sutures
+Cho suture
+Requires laparotomy
+
+Uterine artery ligation:
+Bilateral ligation of uterine arteries
+Reduces uterine blood flow
+Preserves uterus
+
+Internal iliac artery ligation:
+More complex, requires experienced surgeon
+Reduces pelvic blood flow
+
+Hysterectomy:
+Last resort
+Life-saving
+Subtotal or total hysterectomy
+
+Supportive Care
+
+Analgesia:
+IV or IM analgesics (Paracetamol, Tramadol, Pentazocine)
+Continue for 24-48 hours
+
+IV fluids:
+Maintain adequate hydration
+Balance with blood transfusion
+Avoid fluid overload
+
+Nutrition:
+Resume oral intake when recovered from anaesthesia
+High-protein, iron-rich diet to aid recovery
+
+Thromboprophylaxis:
+Risk of venous thromboembolism
+Low molecular weight heparin (Enoxaparin 40 mg SC daily)
+Start after haemostasis confirmed (24 hours post-procedure)
+Early mobilization
+
+Psychological support:
+Traumatic experience
+Reassurance
+Explain what happened
+Allow questions
+
+Counselling
+
+Explain to patient and relatives:
+
+What happened:
+Placenta did not deliver after baby
+This caused bleeding
+Required manual removal under anaesthesia
+
+Why it happened:
+Sometimes placenta does not separate normally
+Not caused by anything patient did
+Can happen unpredictably
+
+Prognosis:
+Procedure successful
+Bleeding controlled
+Should make full recovery
+
+Recovery:
+Will need to stay in hospital for monitoring (24-48 hours)
+Will need antibiotics to prevent infection
+May need blood transfusion if anaemic
+Can breastfeed normally
+
+Future pregnancies:
+Risk of recurrence: 10-20% in next pregnancy
+Early third stage management in future
+Close monitoring in third stage
+Should still have normal pregnancies
+
+Complications to watch for:
+Fever (sign of infection)
+Heavy bleeding
+Severe abdominal pain
+Report immediately if these occur
+
+PROGNOSIS
+
+Good prognosis with prompt management
+
+Maternal outcomes:
+With manual removal: Bleeding usually controlled
+Survival rate very high (greater than 99% with modern care)
+This patient has good prognostic factors:
+Young and healthy
+Prompt presentation (45 minutes, not delayed hours)
+Moderate blood loss so far (400-600 ml)
+Good facility
+
+Risk factors for poor outcome:
+Delayed intervention
+Severe haemorrhage before manual removal
+Placenta accreta (difficult or impossible to remove)
+Limited blood availability
+
+Morbidity:
+Short-term: Anaemia (may need transfusion), infection risk
+Long-term: Usually no long-term complications if managed well
+
+Future fertility:
+Usually not affected
+Can have normal future pregnancies
+Slightly increased risk of recurrence (10-20%)
+
+Neonatal outcome:
+Baby already delivered healthy (3.2 kg, spontaneous vaginal delivery)
+This complication does not affect baby
+
+FOLLOW-UP
+Discharge after 24-48 hours if stable. Postnatal review at 6 weeks. Check haemoglobin level. Discuss experience and provide psychological support. Counsel on management of third stage in future deliveries.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-23',
+  title: 'Primary Postpartum Haemorrhage due to Uterine Atony',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Emergency Obstetrics',
+  condition: 'Primary postpartum haemorrhage due to uterine atony with hypovolaemic shock',
+  symptoms: [
+    'Excessive vaginal bleeding for 1 hour following delivery',
+    'Weakness and dizziness for 1 hour',
+    'Estimated blood loss 800-1000 ml',
+    'Continuous bright red bleeding',
+    'Passage of blood clots',
+    'Feeling of impending syncope',
+    'Hypovolaemic shock (BP 85/50 mmHg, pulse 124 bpm thready)',
+    'Pale, cold and clammy',
+    'Restless and anxious',
+    'Uterus enlarged, boggy, poorly contracted (4 cm above umbilicus)',
+    'Active vaginal bleeding',
+    'Tachypnoea (26 cpm)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-27',
+  summary: 'A 30-year-old G2P2+0 (2 alive) delivered at 39 weeks gestation presenting with primary postpartum haemorrhage 1 hour after spontaneous vaginal delivery of 3.5 kg baby. Labour lasted 10 hours, no instrumental delivery, placenta delivered spontaneously 10 minutes after baby. Previous obstetric history: term SVD in 2021, no complications. Booking PCV 32%, blood group O positive, genotype AA, HIV negative. Current presentation: profuse vaginal bleeding (estimated 800-1000 ml), bright red, continuous, with blood clots. Examination reveals hypovolaemic shock (BP 85/50 mmHg, pulse 124 bpm thready, RR 26 cpm), pallor, cold clammy extremities, restlessness, uterus enlarged boggy and poorly contracted (4 cm above umbilicus), active vaginal bleeding. Diagnosis: primary postpartum haemorrhage due to uterine atony with hypovolaemic shock. Requires immediate resuscitation with IV fluids and blood transfusion, uterotonics, uterine massage, and escalation to surgical interventions if medical management fails.',
+  content: `
+Mrs E.O., a 30-year-old booked G2P2+0 (2 alive) woman, trader, Christian, Yoruba, who resides in Ibadan, Oyo State. She has a secondary level of education and is married in a monogamous setting.
+
+OBSTETRIC DATA
+Gravidity: G2 (second pregnancy)
+Parity: P2+0 (two term deliveries, no miscarriages)
+Living children: 2 alive
+Delivered at: 39 weeks gestation (by LMP and early ultrasound)
+
+PRESENTING COMPLAINTS
+Excessive vaginal bleeding × 1 hour following delivery
+Weakness and dizziness × 1 hour
+
+HISTORY OF PRESENT PREGNANCY
+She had a spontaneous vaginal delivery about 1 hour prior to review in this facility. The delivery was at term and supervised by a skilled birth attendant.
+
+Following delivery of the baby, she noticed persistent vaginal bleeding. The bleeding was initially moderate but rapidly became profuse, soaking multiple pads and beddings.
+
+Estimated blood loss is approximately 800–1000 ml.
+
+The bleeding is continuous, bright red, and not associated with passage of large clots initially, though clots have been noticed subsequently.
+
+She is also having dizziness, generalized weakness, and a feeling like she wants to faint.
+
+There is no history of trauma during delivery as reported, and no instrumentation was used.
+
+The placenta was reportedly delivered spontaneously about 10 minutes after delivery; however, completeness cannot be ascertained.
+
+She has no prior history of similar bleeding.
+
+ANTENATAL HISTORY
+The pregnancy was planned and spontaneously conceived. She booked at 18 weeks gestation and had regular antenatal care.
+
+She was compliant with antenatal haematinics.
+She received tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 32%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+
+No antenatal complications.
+
+INTRAPARTUM HISTORY
+Labour lasted approximately 10 hours
+She had a spontaneous vaginal delivery of a live male infant weighing 3.5 kg
+There was no use of instrumental delivery
+No complications during labour
+
+PAST OBSTETRIC HISTORY
+2021: Term spontaneous vaginal delivery of a live infant. No complications.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic medical illness
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of bleeding disorders
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A young woman, conscious but restless and anxious
+Pale, cold and clammy
+
+Vital Signs:
+BP: 85/50 mmHg (severe hypotension, shock)
+PR: 124 bpm, thready (severe tachycardia)
+RR: 26 cpm (tachypnoea)
+Temperature: 36.2°C (mild hypothermia from shock)
+
+Abdominal Examination:
+Abdomen soft
+Uterus enlarged, boggy, and poorly contracted, about 4 cm above the umbilicus (should be at or below umbilicus immediately postpartum)
+
+Pelvic Examination:
+Active vaginal bleeding noted
+No obvious perineal tears seen externally (further evaluation required)
+Blood clots present in the vaginal canal
+
+ASSESSMENT
+
+Primary postpartum haemorrhage likely due to uterine atony, with features of hypovolaemic shock
+
+Diagnosis based on:
+
+Definition of primary postpartum haemorrhage:
+Blood loss greater than 500 ml after vaginal delivery
+OR greater than 1000 ml after caesarean section
+Within 24 hours of delivery
+This patient: Estimated 800-1000 ml within 1 hour, meets criteria
+
+Severity classification:
+
+Minor PPH: 500-1000 ml
+Major PPH: Greater than 1000 ml
+Divided into:
+Moderate: 1000-2000 ml
+Severe: Greater than 2000 ml
+
+This patient: 800-1000 ml (minor to moderate PPH, but progressing)
+
+Clinical signs of significant haemorrhage:
+Estimated blood loss 800-1000 ml (15-20% blood volume)
+Hypovolaemic shock (Class III haemorrhage):
+BP 85/50 mmHg (severe hypotension)
+Pulse 124 bpm, thready (severe tachycardia, poor volume)
+Tachypnoea 26 cpm (compensatory)
+Pale, cold, clammy (poor peripheral perfusion)
+Restless and anxious (cerebral hypoperfusion)
+Feeling of impending syncope
+Mild hypothermia (36.2°C)
+
+Most likely cause: Uterine atony (tone)
+
+Evidence:
+Uterus enlarged (4 cm above umbilicus, should be at or below)
+Uterus boggy (soft, poorly contracted, not firm)
+Continuous bleeding (atonic uterus cannot compress spiral arteries)
+Represents approximately 70-80% of all PPH cases
+
+Risk factors for uterine atony present:
+
+Overdistension of uterus:
+Large baby (3.5 kg, slightly above average)
+
+Prolonged labour:
+Labour 10 hours (upper limit of normal for multigravida)
+
+Multiparity:
+Second pregnancy (risk increases with parity)
+
+Baseline anaemia:
+PCV 32% at booking (mild anaemia, less reserve)
+
+Other potential contributing causes to evaluate (4 Ts):
+
+Tissue (retained placental tissue):
+Placenta reportedly delivered but completeness uncertain
+Retained fragments prevent complete uterine contraction
+Requires inspection of placenta and uterine exploration
+
+Trauma (genital tract lacerations):
+Large baby (3.5 kg) increases risk of tears
+No obvious external perineal tears seen but requires detailed examination
+Cervical, vaginal, or high vaginal tears possible
+Continuous bleeding despite uterine massage suggests trauma
+
+Thrombin (coagulopathy):
+No personal or family history of bleeding disorders
+No risk factors for DIC (severe pre-eclampsia, abruption, IUFD, sepsis)
+However, can develop consumptive coagulopathy with severe PPH
+Requires coagulation profile
+
+Complications present:
+
+Hypovolaemic shock (Class III):
+15-30% blood volume loss (800-1500 ml in 70 kg woman)
+Requires urgent resuscitation
+
+Maternal morbidity risks:
+Acute kidney injury (from hypoperfusion)
+DIC (consumptive coagulopathy)
+Sheehan syndrome (pituitary necrosis from hypotension)
+Maternal death if not urgently managed
+
+PLAN
+
+This is a life-threatening obstetric emergency requiring immediate coordinated multidisciplinary response
+
+Call for Help (Immediate)
+Activate emergency protocol (Code Red, PPH protocol, Massive Haemorrhage Protocol)
+Alert senior obstetrician (consultant or most senior available)
+Call anaesthetist urgently
+Alert haematologist or blood bank (activate massive transfusion protocol)
+Theatre team on standby (may need surgical intervention)
+Additional midwifery and nursing support
+One person to coordinate, one to document, others to assist
+
+Immediate Simultaneous Resuscitation and Treatment
+
+Time is critical, all interventions should happen simultaneously
+
+ABC Resuscitation:
+
+Airway and Breathing:
+Maintain airway patency (patient conscious but may deteriorate)
+High-flow oxygen via non-rebreather face mask (10-15 L/min)
+Target SpO₂ greater than 95%
+Monitor respiratory rate
+
+Circulation:
+
+IV access:
+Two wide-bore IV cannulae (14G) in both antecubital fossae immediately
+If difficult: Central venous line
+
+Blood sampling (urgent, before transfusion):
+Full blood count (haemoglobin, haematocrit, platelet count)
+Blood grouping and cross-matching (urgent, request 4-6 units minimum)
+Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer)
+Serum electrolytes, urea, creatinine
+Lactate (tissue perfusion marker)
+Arterial blood gas if available (assess acidosis)
+
+Fluid resuscitation:
+Commence rapid IV crystalloid infusion immediately
+0.9% Normal Saline or Hartmann's solution
+Initial bolus: 1-2 litres as fast as possible (wide open)
+Use pressure bags or manual compression
+Warm fluids (prevent hypothermia, hypothermia worsens coagulopathy)
+Continue aggressive fluid resuscitation
+
+Blood transfusion:
+Activate massive transfusion protocol
+Request urgent release of O negative blood if grouped blood not ready
+Transfuse packed red blood cells as soon as available
+Aim for haemoglobin greater than 8 g/dL (higher in ongoing bleeding)
+May need 4-10 units or more
+Ratio-based transfusion if massive haemorrhage:
+Red cells : FFP : Platelets = 1:1:1 ratio
+Reduces coagulopathy
+For every 4 units red cells: Give 4 units FFP and 1 unit platelets
+
+Component therapy:
+Fresh frozen plasma (FFP): If INR greater than 1.5 or fibrinogen less than 2 g/L
+Cryoprecipitate: If fibrinogen less than 1.5 g/L (10-15 units)
+Platelets: If platelet count less than 50,000/μL (6-8 units)
+Tranexamic acid: 1 g IV over 10 minutes (antifibrinolytic, reduces bleeding)
+Give within 3 hours of delivery for maximum benefit
+
+Monitoring:
+
+Vital signs:
+Continuous monitoring if available
+BP, pulse, respiratory rate, SpO₂ every 5-10 minutes initially
+Watch for response to resuscitation
+
+Urine output:
+Insert Foley catheter immediately
+Monitor urine output hourly
+Target greater than 0.5 ml/kg/hr (approximately 30 ml/hr)
+Oliguria indicates inadequate resuscitation or acute kidney injury
+
+Ongoing blood loss:
+Quantify bleeding (weigh pads, blood in kidney dish, blood on floor)
+Visual estimation often underestimates
+Document cumulative blood loss
+
+Clinical perfusion:
+Capillary refill time
+Skin temperature
+Level of consciousness
+
+Laboratory:
+Serial haemoglobin every 1-2 hours
+Coagulation profile every 2-4 hours if abnormal
+Electrolytes, renal function
+Blood gas (acidosis, lactate)
+
+Immediate Measures to Control Bleeding
+
+These should begin immediately while resuscitation ongoing
+
+Uterine Massage (First-Line):
+
+External bimanual uterine massage:
+Place one hand on abdomen
+Massage uterine fundus vigorously in circular motion
+Stimulates uterine contraction
+Should feel uterus become firm and contract
+Gush of blood often occurs as clots expelled
+Continue until uterus firm
+
+This patient: Perform immediately, critical intervention
+
+Uterotonics (Immediate Administration):
+
+First-line: Oxytocin
+IV bolus: 5-10 units oxytocin slow IV push (over 1-2 minutes, rapid bolus causes hypotension)
+Followed by oxytocin infusion: 40 units in 1 litre Normal Saline at 125 ml/hr
+OR 20 units in 500 ml at high rate
+Continue for at least 4-6 hours after bleeding controlled
+
+Second-line: Ergometrine
+IM or slow IV Ergometrine 0.5 mg (0.2 mg if IV)
+Contraindications: Hypertension (this patient normotensive at baseline), pre-eclampsia, cardiac disease
+Causes sustained tetanic uterine contraction
+Side effects: Hypertension, nausea, vomiting
+Can repeat after 2 hours if needed
+
+Third-line: Carboprost (Prostaglandin F2-alpha)
+IM Carboprost 250 mcg (Hemabate)
+Can repeat every 15-20 minutes
+Maximum 8 doses (2 mg total)
+Very effective for refractory atony
+Contraindications: Severe asthma (causes bronchospasm)
+Side effects: Nausea, vomiting, diarrhoea, fever, hypertension
+
+Fourth-line: Misoprostol
+Rectal or sublingual Misoprostol 800-1000 mcg
+Slower onset (20-30 minutes) but effective
+Useful when other options unavailable
+Side effects: Fever, shivering
+
+Combination therapy:
+Use multiple uterotonics simultaneously
+More effective than single agent
+This patient: Start oxytocin infusion, add ergometrine and carboprost
+
+Empty Uterus of Blood and Clots:
+
+Clots prevent uterine contraction
+Remove clots manually or with sponge forceps
+May require bimanual examination
+Allows better uterine contraction
+
+Evaluate and Treat the 4 Ts
+
+Systematic approach to identify and manage causes
+
+Tone (Uterine Atony) - Already Addressed:
+Uterine massage
+Uterotonics
+If fails: Proceed to surgical interventions (see below)
+
+Tissue (Retained Placental Fragments):
+
+Inspect placenta:
+If available, examine placenta and membranes for completeness
+Look for missing cotyledons
+Torn or incomplete membranes
+
+Uterine exploration:
+Manual exploration of uterus
+Under adequate analgesia
+Sterile technique
+Sweep hand around entire uterine cavity
+Remove any retained tissue
+Can use large curette or ovum forceps
+
+Ultrasound:
+If available and patient stable
+Identify retained products
+Thickened endometrium, echogenic material
+
+This patient: Placenta completeness uncertain, requires exploration
+
+Trauma (Genital Tract Lacerations):
+
+Systematic examination:
+Requires good lighting, assistant, analgesia/anaesthesia
+Patient in lithotomy position
+
+Inspect perineum:
+First-degree: Skin and vaginal mucosa only
+Second-degree: Involves perineal muscles
+Third-degree: Involves anal sphincter
+Fourth-degree: Extends to anal mucosa
+
+Inspect vagina:
+Use Sim's speculum or retractors
+Examine anterior, posterior, lateral vaginal walls
+Look for tears, especially high vaginal tears
+
+Inspect cervix:
+Use sponge forceps to grasp cervix
+Rotate and examine entire circumference
+Look for cervical lacerations
+
+Repair:
+All significant tears must be repaired
+Use absorbable sutures (Vicryl, chromic catgut)
+Ensure haemostasis
+
+This patient: No obvious external tears but requires detailed examination under anaesthesia if bleeding persists
+
+Thrombin (Coagulopathy):
+
+Causes:
+Inherited bleeding disorders (rare, no family history)
+Acquired coagulopathy:
+DIC (from severe PPH, abruption, IUFD, sepsis)
+Dilutional coagulopathy (massive fluid resuscitation)
+Consumptive coagulopathy
+
+Investigations:
+Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer, FDP)
+Platelet count
+Bedside clot test: Collect 5 ml blood in plain tube, observe for 7-10 minutes
+Normal: Firm clot forms
+Coagulopathy: No clot or soft friable clot
+
+Management:
+Treat underlying cause
+Replace clotting factors:
+FFP: 15 ml/kg (approximately 4-6 units for 70 kg)
+Cryoprecipitate: If fibrinogen less than 1.5 g/L
+Platelets: If less than 50,000/μL
+Tranexamic acid: 1 g IV (if not already given)
+Recombinant Factor VIIa: Last resort, very expensive
+
+This patient: Send coagulation profile, give tranexamic acid, prepare FFP
+
+Further Management if Bleeding Persists
+
+If bleeding continues despite uterotonics and uterine massage:
+
+Bimanual Uterine Compression:
+
+Technique:
+One hand in vagina forming fist
+Place fist in anterior vaginal fornix, push uterus upward
+Other hand on abdomen compressing uterus posteriorly against fist
+Compresses uterine vessels, reduces bleeding
+Temporary measure (5-10 minutes) while preparing other interventions
+Very effective but cannot be sustained long-term
+
+Indications: Persistent bleeding despite uterotonics
+
+Uterine Tamponade:
+
+Intrauterine balloon tamponade:
+Bakri balloon (specially designed, expensive)
+Condom catheter (tie condom to urinary catheter, improvised, effective)
+Sengstaken-Blakemore tube
+
+Technique:
+Insert balloon into uterine cavity
+Fill with 300-500 ml sterile saline or water
+Apply gentle traction
+Tape catheter to thigh
+Balloon provides direct pressure on bleeding placental bed
+Very effective for atonic uterus
+
+Monitoring:
+Leave in place 12-24 hours
+Monitor vital signs and vaginal bleeding (drainage tube if available)
+Give prophylactic antibiotics
+Remove gradually (deflate partially every few hours)
+
+Success rate: 80-90% for uterine atony
+
+Indications: Persistent bleeding despite uterotonics and massage
+
+This patient: Prepare for balloon tamponade if medical management fails
+
+Aortic Compression:
+
+Temporary measure
+Compress abdominal aorta against spine
+Fist just above umbilicus, firm downward pressure
+Reduces blood flow to uterus
+Can only maintain for few minutes
+Use while preparing for surgery
+
+Non-Pneumatic Anti-Shock Garment (NASG):
+
+Compression garment applied to lower body
+Reduces blood flow to pelvis
+Stabilizes haemodynamics
+Useful in resource-limited settings
+Can buy time for transfer or definitive management
+
+Surgical Interventions
+
+If conservative measures fail, proceed to surgery
+
+Indications:
+Persistent bleeding despite uterotonics, massage, balloon tamponade
+Haemodynamic instability
+Blood loss greater than 1500-2000 ml
+Coagulopathy developing
+
+Preparation:
+Informed consent (patient or relatives if patient unable)
+Theatre team ready
+Anaesthesia (general preferred)
+Blood products available
+Experienced surgeon
+
+Procedures (in order of escalation):
+
+Examination under anaesthesia:
+Identify and repair genital tract tears
+Remove retained tissue
+
+Uterine compression sutures:
+B-Lynch brace suture (most common)
+Compression suture around uterus
+Reduces uterine blood flow
+Preserves uterus
+Success rate 60-80%
+Can attempt even if planning hysterectomy (may avoid it)
+
+Uterine or ovarian artery ligation:
+Ligate uterine arteries bilaterally at level of lower uterine segment
+Reduces uterine blood flow by 90%
+Ovaries usually preserved (collateral circulation)
+Success rate 80-90%
+Can still have future pregnancies
+
+Internal iliac (hypogastric) artery ligation:
+Bilateral ligation of anterior division of internal iliac arteries
+Reduces pelvic blood flow
+More difficult technically
+Requires experienced surgeon
+Success rate 50-80%
+
+Hysterectomy (last resort):
+Subtotal (supracervical) hysterectomy: Faster, remove uterus above cervix
+Total hysterectomy: Remove entire uterus including cervix
+Life-saving procedure
+Ends reproductive capacity
+Performed when all else fails
+Success rate: 100% for controlling bleeding
+
+Decision-making:
+Escalate through interventions based on response
+If young, wants fertility: Try conservative measures first
+If life-threatening, not responding: Proceed to hysterectomy
+Senior surgeon should make decision
+
+This patient: May need compression sutures or artery ligation if medical management fails
+
+Post-Resuscitation Care
+
+Once bleeding controlled:
+
+Continue monitoring:
+Vital signs hourly for 24 hours
+Uterine tone (palpate fundus every 15-30 minutes for 2 hours, then hourly)
+Vaginal bleeding (quantify)
+Urine output hourly
+
+Continue treatment:
+Oxytocin infusion for 4-6 hours minimum (some continue 24 hours)
+IV fluids to maintain hydration
+Blood transfusion to target Hb greater than 8 g/dL
+
+Medications:
+Broad-spectrum IV antibiotics (prophylaxis if uterine exploration or surgery)
+Analgesics (IV paracetamol, opioids if needed)
+Thromboprophylaxis after haemostasis confirmed (LMWH after 12-24 hours)
+
+Nutrition:
+Resume oral intake when stable
+High-protein, iron-rich diet
+Oral iron supplementation for anaemia
+
+Mobilization:
+Early mobilization when stable (prevents thromboembolism)
+Assisted initially
+
+Investigations:
+Repeat haemoglobin 6-12 hours after transfusion
+Daily until stable
+Coagulation profile if abnormal
+
+Complications to monitor:
+Acute kidney injury (oliguria, rising creatinine)
+DIC (oozing from IV sites, mucosal bleeding)
+Transfusion reactions
+Sheehan syndrome (failure to lactate, amenorrhoea)
+Psychological trauma
+
+Counselling
+
+Inform patient and relatives:
+
+What happened:
+Excessive bleeding after delivery (postpartum haemorrhage)
+Uterus did not contract properly
+Life-threatening emergency
+
+Treatment given:
+Medications to make uterus contract
+Blood transfusion
+Surgery if needed (if performed)
+
+Prognosis:
+Bleeding now controlled
+Recovering well
+Will need to stay in hospital for monitoring
+May need more blood transfusion
+Can breastfeed (if desired and able)
+
+Future pregnancies:
+Can have future pregnancies (if uterus preserved)
+Risk of recurrence: 10-20%
+Will need close monitoring in third stage
+Early active management
+Delivery in hospital with blood bank
+
+If hysterectomy performed:
+No future pregnancies possible
+Life-saving decision
+Ovaries preserved (if possible), so no menopause
+
+Psychological support:
+Traumatic experience
+Normal to feel shocked, scared, upset
+Counselling available
+Support groups
+
+PROGNOSIS
+
+Depends on promptness of intervention and severity of bleeding
+
+Maternal outcomes:
+With prompt management: Excellent survival (greater than 99%)
+This patient presented in shock but should recover with aggressive resuscitation
+Mortality from PPH: 1-2% in settings with good resources
+Higher if delayed presentation or limited blood availability
+
+Morbidity:
+Severe anaemia (requires transfusion and iron supplementation)
+Transfusion reactions (rare)
+Acute kidney injury (usually reversible with resuscitation)
+Sheehan syndrome (pituitary necrosis, rare with modern resuscitation)
+Psychological trauma (counselling needed)
+If hysterectomy: Loss of fertility
+
+Factors affecting prognosis:
+Speed of recognition and treatment (critical)
+Availability of blood products
+Surgical capability
+ICU facilities
+
+Long-term:
+If conservative management successful: Normal future fertility
+If hysterectomy: Infertility but otherwise normal health
+
+Neonatal outcome:
+Baby already delivered healthy (3.5 kg)
+This complication does not affect baby
+
+FOLLOW-UP
+Discharge after 3-5 days if stable. Check haemoglobin before discharge. Postnatal review at 6 weeks. Screen for Sheehan syndrome (assess lactation, menstruation when resumes). Psychological support and debriefing. Counsel on management of third stage in future deliveries (if uterus preserved).
+  `,
+  bookmarkCount: 0
+},
 ];

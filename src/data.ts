@@ -26259,4 +26259,881 @@ Discharge after 3-5 days if stable. Check haemoglobin before discharge. Postnata
   `,
   bookmarkCount: 0
 },
+{
+  id: 'obg-24',
+  title: 'Chronic Pelvic Inflammatory Disease',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology/Reproductive Health',
+  condition: 'Chronic pelvic inflammatory disease with chronic pelvic pain and dyspareunia',
+  symptoms: [
+    'Lower abdominal pain for 8 months (dull, bilateral, persistent, moderate intensity)',
+    'Vaginal discharge for 6 months (yellowish, moderate, occasionally foul-smelling)',
+    'Dyspareunia for 5 months (progressive, leading to reduced sexual activity)',
+    'Occasional low-grade fever',
+    'Easy fatigability',
+    'Cervical motion tenderness on bimanual examination',
+    'Bilateral adnexal tenderness',
+    'Erythematous cervix with yellowish discharge on speculum examination',
+    'History of recurrent genital infections treated with over-the-counter antibiotics',
+    'No consistent use of barrier contraception'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 30-year-old G2P1+1 (1A) seamstress presenting with an 8-month history of bilateral lower abdominal pain, 6-month history of yellowish foul-smelling vaginal discharge, and 5-month history of progressive dyspareunia. Previous obstetric history: one term SVD, one spontaneous abortion. History of recurrent untreated or partially treated genital infections with temporary relief from over-the-counter antibiotics. No consistent use of barrier contraception. Sexually active in a marital relationship. Examination reveals afebrile patient with mild suprapubic tenderness, inflamed vaginal walls, erythematous cervix with yellowish discharge, cervical motion tenderness, and bilateral adnexal tenderness with no palpable masses. Diagnosis: chronic pelvic inflammatory disease. Requires microbiological investigations, targeted antibiotic therapy covering gonorrhoea, chlamydia, and anaerobes, partner treatment, and counselling on sequelae and safe sexual practices.',
+  content: `
+A 30-year-old G2P1+1 (1A) seamstress, resident in Ikotun, Lagos State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G2
+Parity: P1+1 (one live birth, one spontaneous abortion)
+LMP: 14/03/2026 (2 weeks prior to presentation)
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 8 months
+Vaginal discharge × 6 months
+Pain during intercourse × 5 months
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 8 months prior to presentation when she developed lower abdominal pain. The pain is dull in nature, bilateral, persistent with occasional exacerbations, and of moderate intensity (4–6/10). It is sometimes worse during menstruation and after intercourse, with no definite relieving factors.
+
+About 2 months after onset of pain (6 months prior to presentation), she noticed vaginal discharge, which is moderate in quantity, yellowish, and occasionally foul-smelling.
+
+She subsequently developed pain during intercourse (dyspareunia) about 5 months prior to presentation. This has been progressive and has led to reduced sexual activity.
+
+Associated symptoms include occasional low-grade fever and easy fatigability.
+
+There is no history of abnormal vaginal bleeding, postcoital bleeding, passage of clots or tissue, or significant weight loss. No urinary or bowel symptoms.
+
+There is a history of similar but milder episodes in the past, which resolved temporarily with medications obtained from a pharmacy.
+
+She is sexually active with no consistent use of barrier contraception, and there is a history suggestive of previous untreated or inadequately treated genital infection.
+
+Symptoms have been persistent and recurrent with gradual worsening over time. 
+
+The symptoms have significantly affected her quality of life with limitation of daily activities and sexual dysfunction.
+
+Since onset, she has taken multiple courses of over-the-counter antibiotics and analgesics with only temporary relief and no sustained improvement. 
+
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Regular 28-day cycle
+Flow lasts 4–5 days
+Occasional dysmenorrhoea
+
+Contraceptive History:
+No regular use of contraception 
+
+Cervical Cancer Screening:
+No prior cervical cancer screening
+
+OBSTETRIC HISTORY
+G2P1+1
+One term spontaneous vaginal delivery
+One spontaneous abortion
+Child alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+No routine medications
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+Non-contributory
+
+Social History:
+Married, sexually active
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 30-year-old P1+1 woman presenting with an 8-month history of chronic bilateral lower abdominal pain, yellowish vaginal discharge, and progressive dyspareunia, with a background of recurrent partially treated genital infections and no consistent barrier contraception use, consistent with chronic pelvic inflammatory disease.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Not in obvious distress
+Not pale
+Not jaundiced
+Not dehydrated
+
+Vital Signs:
+Pulse: 82 bpm (normal)
+BP: 110/70 mmHg (normal)
+RR: 18 cpm (normal)
+Temperature: 37.3°C (afebrile at this time)
+SpO₂: 98% room air
+
+Abdominal Examination:
+
+Inspection:
+Abdomen flat, moves with respiration
+
+Palpation:
+Mild suprapubic tenderness
+No guarding or rebound tenderness
+No palpable masses
+
+Percussion:
+No evidence of ascites or free fluid
+
+Pelvic Examination:
+
+Speculum Examination:
+Vaginal walls appear inflamed
+Yellowish discharge present
+Cervix erythematous
+No contact bleeding
+No cervical lesions identified
+
+Bimanual Examination:
+Cervical motion tenderness present
+Uterus normal size, anteverted
+Bilateral adnexal tenderness
+No adnexal masses palpable
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Chronic pelvic inflammatory disease with chronic pelvic pain and dyspareunia
+
+Diagnosis based on:
+
+Minimum diagnostic criteria (CDC criteria for PID):
+Cervical motion tenderness
+Uterine tenderness
+Adnexal tenderness (bilateral)
+All three minimum criteria met in this patient
+
+Chronicity of disease:
+Duration of symptoms exceeding 6 months (pain present 8 months)
+Recurrent episodes with incomplete treatment
+Multiple courses of over-the-counter antibiotics with only temporary relief
+Progressive worsening despite self-treatment
+Established sequelae: dyspareunia, reduced sexual function, impaired quality of life
+
+Supportive clinical features:
+Yellowish, foul-smelling vaginal discharge
+Erythematous cervix and inflamed vaginal walls on speculum examination
+Occasional low-grade fever (suggests ongoing low-grade infection or inflammation)
+History of prior untreated genital infection
+No consistent barrier contraception use (ongoing re-exposure risk)
+
+Pathophysiology:
+PID results from ascending polymicrobial infection from the lower genital tract to the upper reproductive tract
+Common organisms: Neisseria gonorrhoeae, Chlamydia trachomatis, anaerobes (Bacteroides species), Gardnerella vaginalis, Mycoplasma genitalium, and enteric gram-negative organisms
+In chronic PID, initial acute infection leads to repeated inflammatory cycles, tubal damage, peritubal adhesions, and chronic pelvic changes
+Dyspareunia in this setting results from pelvic adhesions, thickened tubes, and pelvic congestion
+
+Differential diagnoses:
+
+Endometriosis:
+Can cause chronic pelvic pain, dysmenorrhoea, and dyspareunia
+Less likely to cause vaginal discharge or cervical findings
+Diagnosis requires laparoscopy
+Should be considered if symptoms persist after adequate antibiotic therapy
+
+Ovarian cyst:
+Can cause pelvic pain and dyspareunia
+No adnexal mass palpated
+Pelvic ultrasound will exclude
+
+Ectopic pregnancy:
+Less likely (LMP 2 weeks ago, likely in follicular phase, not yet sexually active in current cycle per history)
+No acute pain, no shock
+Urine or serum pregnancy test should be done to exclude
+
+Cervicitis:
+Can cause discharge and cervical findings
+However, does not account for bilateral adnexal tenderness or chronicity
+
+Appendicitis or pelvic appendix:
+Typically acute, right-sided pain
+Does not account for bilateral findings or vaginal discharge
+
+Urinary tract infection:
+No urinary symptoms reported
+Urinalysis will help exclude
+
+PLAN
+
+Investigations
+
+Microbiological:
+High vaginal swab and endocervical swab for microscopy, culture, and sensitivity (to identify causative organisms and guide antibiotic selection)
+Nucleic acid amplification test (NAAT) for Neisseria gonorrhoeae and Chlamydia trachomatis (if available, most sensitive test)
+Wet preparation of vaginal discharge (for bacterial vaginosis, Trichomonas vaginalis)
+HIV screening (voluntary, with pre-test counselling)
+Hepatitis B surface antigen and hepatitis C screening (recommended in the context of STI risk)
+Syphilis serology (VDRL or RPR)
+
+Haematological:
+Full blood count (assess for anaemia, leucocytosis suggesting active infection)
+Erythrocyte sedimentation rate and C-reactive protein (inflammatory markers, useful for monitoring response to treatment)
+
+Urine:
+Urine pregnancy test (exclude ectopic pregnancy or concurrent intrauterine pregnancy)
+Urinalysis and urine MCS (exclude urinary tract infection)
+
+Imaging:
+Pelvic ultrasound scan (to assess for tubo-ovarian abscess, hydrosalpinx, ovarian cysts, or other pelvic pathology; adnexal masses may be missed on clinical examination alone)
+
+Consideration for laparoscopy:
+Reserved for cases where diagnosis is uncertain, symptoms persist despite adequate treatment, or complications such as tubo-ovarian abscess are suspected
+Gold standard for confirmation of PID and assessment of tubal damage
+
+Medical Management
+
+Antibiotic therapy:
+
+Outpatient regimen (if no severe features, no tubo-ovarian abscess, patient reliable for follow-up):
+Ceftriaxone 500 mg IM single dose (covers gonorrhoea)
+PLUS Doxycycline 100 mg orally twice daily for 14 days (covers chlamydia)
+PLUS Metronidazole 400–500 mg orally twice daily for 14 days (covers anaerobes and bacterial vaginosis)
+
+This combination covers the three major categories of organisms responsible for PID.
+
+Indication for inpatient IV antibiotics:
+Tubo-ovarian abscess present
+Surgical emergency cannot be excluded
+Failure to respond to oral antibiotics after 72 hours
+Severe systemic illness (high fever, peritonism, vomiting)
+Pregnancy
+
+Inpatient regimen (if indicated):
+IV Cefoxitin 2 g every 6 hours PLUS IV Doxycycline 100 mg every 12 hours (transition to oral Doxycycline 100 mg twice daily when improving)
+PLUS Metronidazole 500 mg IV every 8 hours
+Continue IV therapy for at least 24 hours after clinical improvement, then complete 14 days total with oral therapy
+
+Alternative oral regimen (if ceftriaxone unavailable):
+Ofloxacin 400 mg orally twice daily for 14 days PLUS Metronidazole 400–500 mg orally twice daily for 14 days
+
+Analgesia:
+Paracetamol 1 g orally every 6–8 hours for pain management
+Ibuprofen 400 mg orally every 8 hours with food if not contraindicated (NSAIDs have additional anti-inflammatory benefit)
+Avoid opioids unless pain is severe and uncontrolled
+
+Partner Management (Essential)
+
+Partners must be assessed and treated concurrently to prevent reinfection. Failure to treat partners is a major cause of treatment failure and recurrence. The most recent sexual partner and all partners within the preceding 60 days should be contacted and treated empirically for gonorrhoea and chlamydia, regardless of investigation results.
+
+Sexual partner treatment regimen:
+Ceftriaxone 500 mg IM single dose PLUS Azithromycin 1 g orally single dose (or Doxycycline 100 mg twice daily for 7 days)
+
+Abstinence from sexual intercourse until both patient and partner(s) have completed treatment and are symptom-free.
+
+Supportive Care
+
+Rest during the acute phase to facilitate recovery.
+
+Adequate hydration and nutrition to support immune function.
+
+Pelvic rest (abstinence from sexual intercourse) until treatment is completed and symptoms resolved.
+
+Warm packs or sitz baths may provide symptomatic relief for pelvic discomfort.
+
+Avoidance of douching (disrupts vaginal flora and may worsen ascending infection).
+
+Counselling
+
+Explanation of diagnosis:
+Chronic pelvic inflammatory disease is an infection and inflammation of the upper female reproductive tract (uterus, fallopian tubes, ovaries) caused by sexually transmitted or vaginal organisms
+The chronic nature in this case results from repeated or inadequately treated infections
+Not caused by moral failing; a common gynaecological condition
+
+Importance of completing treatment:
+Partial treatment leads to recurrence and progressive tubal damage
+Must complete the full 14-day course even if symptoms improve earlier
+Over-the-counter antibiotics are often inadequate in spectrum or duration for PID
+
+Partner treatment:
+Essential to prevent re-infection
+Partner must be evaluated and treated
+This is not optional if sustained cure is to be achieved
+
+Sexual practices:
+Consistent and correct use of condoms reduces the risk of future sexually transmitted infections and PID
+Limiting the number of sexual partners reduces exposure risk
+Open communication with partner(s) about sexual health
+
+Sequelae and complications of untreated or inadequately treated PID:
+
+Tubo-ovarian abscess: Collection of pus in the tube and ovary, may require surgical drainage
+Chronic pelvic pain: Persistent pain from adhesion formation
+Hydrosalpinx: Fluid-filled blocked tube from scarring
+Infertility: Each episode of PID increases the risk of infertility due to tubal scarring and occlusion
+Ectopic pregnancy: Tubal scarring impairs embryo transport, increasing implantation outside the uterus
+The risk of infertility increases significantly with each recurrent episode (approximately 10–12% after first episode, 25% after second, 50% after third)
+
+The patient should understand these risks and the importance of completing treatment and attending follow-up. She should be reassured that with prompt and adequate treatment, progression to these complications can be reduced.
+
+HIV and STI counselling:
+HIV pre-test counselling offered
+STI risk explained in a non-judgmental manner
+Result of HIV test to be discussed at follow-up
+
+Cervical cancer screening:
+No prior Pap smear
+HPV and cervical cancer screening to be arranged at follow-up or next visit
+
+Follow-Up
+
+Early review (72 hours after starting antibiotics):
+Assess clinical response to treatment
+If inadequate response (persistent fever, worsening pain, no improvement in discharge): Review diagnosis, check swab results, consider change of antibiotic regimen, consider inpatient management or imaging for abscess
+
+2-week review:
+Confirm completion of antibiotic course
+Assess symptom resolution
+Review swab results and adjust therapy if culture-directed
+Confirm partner has been treated
+Reassess cervical findings and adnexal tenderness
+
+6-week review:
+Full reassessment of pelvic findings
+If symptoms persist: Consider laparoscopy for definitive diagnosis, assessment of tubal status, and exclusion of other pathology such as endometriosis
+If hydrosalpinx or tubo-ovarian abscess on ultrasound: Surgical referral
+
+Long-term:
+Annual STI screening given history of recurrent infections
+Pap smear (cervical cancer screening) at this visit or next
+Contraceptive counselling: Copper IUD avoided in active PID; barrier methods recommended; hormonal methods may be considered once infection controlled
+Fertility counselling at 3–6 months if conception desired (hysterosalpingography to assess tubal patency may be indicated)
+
+PROGNOSIS
+
+Prognosis for resolution of acute infection:
+With adequate antibiotic therapy and partner treatment: Good response expected in uncomplicated cases
+Improvement in discharge, fever, and acute-phase pain expected within 3–5 days
+
+Prognosis related to chronic complications:
+Chronic pelvic pain: May persist even after eradication of infection due to established adhesions and pelvic changes; may require further management (analgesics, physiotherapy, laparoscopic adhesiolysis)
+Dyspareunia: Often improves with infection control but may persist if structural pelvic damage present
+Infertility risk: Depends on degree of tubal damage already sustained; each further episode compounds the risk
+Ectopic pregnancy risk: Elevated due to prior tubal changes; early ultrasound confirmation of intrauterine pregnancy essential in future pregnancies
+
+Factors favouring a good outcome:
+Relatively young patient (30 years)
+Prompt recognition and initiation of appropriate therapy
+Willingness to engage with treatment and follow-up
+Existing fertility (one previous term delivery)
+
+Factors requiring monitoring:
+Recurrent nature of disease (previous episodes)
+History of over-the-counter antibiotic use (risk of drug resistance)
+Partner compliance with treatment (unknown at this stage)
+
+FOLLOW-UP
+Review at 72 hours to assess response to antibiotic therapy. Full review at 2 weeks with swab results. Reassessment at 6 weeks; consider laparoscopy if symptoms persist. Long-term gynaecological follow-up with cervical screening, STI surveillance, and fertility counselling as indicated.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'obg-15',
+  title: 'Carcinoma of the Cervix',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology/Gynecological Oncology',
+  condition: 'Carcinoma of the cervix in a postmenopausal woman, likely locally advanced, awaiting histological confirmation and staging',
+  symptoms: [
+    'Postmenopausal vaginal bleeding for 3 months (intermittent, scanty to moderate, initially postcoital then spontaneous)',
+    'Foul-smelling watery blood-stained vaginal discharge for 2 months',
+    'Lower abdominal pain for 1 month (dull, persistent, mild to moderate)',
+    'Easy fatigability',
+    'Unintentional weight loss',
+    'Loss of appetite',
+    'Irregular, friable, ulcerated cervix with contact bleeding on speculum examination',
+    'Reduced cervical mobility with possible parametrial involvement on bimanual examination',
+    'History of occasional postcoital bleeding prior to menopause (never investigated)',
+    'Never had cervical cancer screening'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 52-year-old G5P5+0 postmenopausal petty trader presenting with a 3-month history of progressive vaginal bleeding (initially postcoital, later spontaneous), 2-month history of foul-smelling watery blood-stained vaginal discharge, and 1-month history of lower abdominal pain, with associated constitutional symptoms of easy fatigability, unintentional weight loss, and loss of appetite. LMP 3 years ago. Previous obstetric history: five term spontaneous vaginal deliveries, all children alive. No prior cervical cancer screening. History of postcoital bleeding prior to menopause which was never investigated. Examination reveals a chronically ill-looking, moderately pale woman with mild suprapubic tenderness. Speculum examination shows an irregular, friable, ulcerated cervix with contact bleeding and foul-smelling discharge. Bimanual examination reveals a firm, irregular cervix with reduced mobility and possible early parametrial involvement. Clinical features are highly suggestive of carcinoma of the cervix, likely locally advanced. Requires urgent histological confirmation by cervical biopsy, full staging workup, and multidisciplinary oncological management.',
+  content: `
+A 52-year-old G5P5+0 (5 alive) petty trader, resident in Abeokuta, Ogun State, Christian, Yoruba, married, with primary level education.
+
+OBSTETRIC DATA
+Gravidity: G5
+Parity: P5+0 (five term deliveries, no miscarriages)
+Living children: 5 alive
+LMP: 3 years prior to presentation (postmenopausal)
+
+PRESENTING COMPLAINTS
+Vaginal bleeding × 3 months
+Foul-smelling vaginal discharge × 2 months
+Lower abdominal pain × 1 month
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 3 months prior to presentation when she developed vaginal bleeding. The bleeding was initially noticed after intercourse and later began occurring spontaneously. It is intermittent, ranging from scanty to moderate in quantity, sometimes requiring 1–3 pads per day, and occasionally mixed with clots.
+
+About 1 month after onset of bleeding (2 months prior to presentation), she developed vaginal discharge, which is offensive, watery, and sometimes blood-stained.
+
+She subsequently developed lower abdominal pain about 1 month prior to presentation. The pain is dull, persistent, and mild to moderate in severity, with no identifiable aggravating or relieving factors.
+
+Associated symptoms include easy fatigability, unintentional weight loss, and loss of appetite.
+
+She reports occasional postcoital bleeding prior to menopause, which she did not seek medical attention for.
+
+There is no history of passage of tissue, no fever, no haematuria or urinary frequency, and no tenesmus or rectal bleeding.
+
+Symptoms have been progressive, with increasing bleeding, worsening discharge, and deteriorating general condition over the 3-month period. The symptoms have significantly affected her quality of life, with reduced activity tolerance and increasing weakness.
+
+She has never had a Pap smear or any form of cervical cancer screening.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 14 years
+Previously regular cycles
+Menopause at 49 years (3 years prior to presentation)
+
+Contraceptive History:
+No history of contraceptive use
+
+OBSTETRIC HISTORY
+G5P5+0
+Five term spontaneous vaginal deliveries
+All children alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+No routine medications
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No known gynaecological malignancies in first-degree relatives
+
+Social History:
+Married in a monogamous setting
+No alcohol or cigarette use
+No use of herbal medications
+History suggestive of early onset of sexual activity (inferred from grand multiparity and early menarche)
+
+GYNAECOLOGICAL SUMMARY
+A 52-year-old P5+0 postmenopausal woman presenting with a 3-month history of progressive vaginal bleeding, foul-smelling vaginal discharge, and lower abdominal pain, with associated constitutional symptoms, no prior cervical screening, and clinical findings highly suggestive of carcinoma of the cervix, likely locally advanced.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Chronically ill-looking
+Moderately pale
+Afebrile
+Not jaundiced
+Not dehydrated
+No pedal oedema
+
+Vital Signs:
+Pulse: 96 bpm (mild tachycardia, likely from anaemia)
+BP: 120/70 mmHg 
+RR: 20 cpm 
+
+Abdominal Examination:
+
+Inspection:
+Abdomen flat, moves with respiration
+
+Palpation:
+Mild suprapubic tenderness
+No guarding or rebound tenderness
+No palpable masses or organomegaly
+
+Percussion:
+No evidence of ascites
+
+Pelvic Examination:
+
+Speculum Examination:
+Cervix appears irregular, friable, and ulcerated
+Contact bleeding elicited on examination
+Foul-smelling discharge present
+No obvious extension into the vaginal walls seen
+
+Bimanual Examination:
+Cervix firm and irregular in consistency
+Uterus normal size
+Reduced cervical mobility (suggests early parametrial involvement)
+No adnexal masses
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Carcinoma of the cervix, likely locally advanced, awaiting histological confirmation and staging
+
+Diagnosis based on:
+
+Clinical features consistent with cervical carcinoma:
+Postmenopausal bleeding (any postmenopausal bleeding is malignancy until proven otherwise)
+Initial postcoital pattern transitioning to spontaneous bleeding (classic early symptom of cervical cancer)
+Foul-smelling, watery, blood-stained discharge (necrotic tumour producing offensive discharge)
+Constitutional symptoms of weight loss, anorexia, and fatigability (systemic disease burden)
+Progressive clinical deterioration over 3 months
+
+Risk factors present:
+
+Grand multiparity (P5+0):
+Multiple vaginal deliveries increase cervical trauma and prolonged HPV exposure
+
+No history of cervical cancer screening:
+No prior Pap smear throughout her lifetime
+The majority of cervical cancer cases in sub-Saharan Africa occur in unscreened women
+Screening detects premalignant lesions (CIN) before progression to invasive carcinoma
+
+History of postcoital bleeding prior to menopause:
+Likely represents early disease that was not investigated
+Missed opportunity for earlier diagnosis
+
+Probable early sexual exposure and high parity:
+Human papillomavirus (HPV) is the causative agent in virtually all cervical cancers
+Early sexual debut and multiple lifetime sexual partners increase cumulative HPV exposure
+Grand multiparity suggests prolonged reproductive and sexual activity history
+
+Low socioeconomic status and limited education:
+Associated with reduced health-seeking behaviour and limited access to screening
+This patient presented with a primary level of education and delayed 3 months before seeking care
+
+Examination findings supporting advanced disease:
+
+Irregular, friable, ulcerated cervix (exophytic or endophytic tumour with necrosis)
+Contact bleeding (highly suggestive of cervical carcinoma, not seen in benign conditions)
+Foul-smelling discharge (tumour necrosis and superinfection)
+Reduced cervical mobility (suggests early parametrial involvement, at least Stage IIB)
+Moderate pallor with tachycardia (anaemia from chronic bleeding)
+
+Probable clinical staging (FIGO 2018 staging):
+Parametrial involvement without pelvic sidewall extension: Stage IIB or higher
+Definitive staging requires full workup including biopsy, imaging, and examination under anaesthesia
+
+Pathology:
+Most common histological type: Squamous cell carcinoma (80–85% of cervical cancers)
+Less common: Adenocarcinoma (10–15%), arising from endocervical glandular cells
+Histological confirmation is mandatory before treatment
+
+Differential diagnoses:
+
+Cervical polyp with secondary infection:
+Can cause postcoital bleeding and discharge
+However, polyps are smooth and pedunculated, not irregular and ulcerated
+Contact bleeding and constitutional symptoms argue against this
+
+Cervicitis (severe):
+Can cause irregular bleeding and discharge
+No systemic constitutional symptoms expected
+Cervical appearance usually inflamed rather than ulcerated and friable
+
+Uterine (endometrial) carcinoma with cervical extension:
+Can cause postmenopausal bleeding and cervical irregularity
+Uterine normal size argues against large primary endometrial tumour
+Biopsy and imaging will differentiate
+
+Vaginal carcinoma:
+Primary vaginal cancer is rare
+No vaginal wall extension seen on speculum examination
+
+Metastatic tumour to the cervix:
+Very rare
+Primary site workup will exclude
+
+Key point: Histological confirmation is mandatory. Clinical diagnosis, however convincing, must be confirmed by biopsy before treatment is initiated.
+
+PLAN
+
+This patient requires urgent evaluation, histological confirmation, and multidisciplinary oncological management
+
+Confirmatory Investigations
+
+Cervical biopsy (punch biopsy):
+Most important initial investigation
+Take multiple biopsies from different areas of the lesion (at least 2–4 punch biopsies)
+Avoid necrotic or sloughy areas; target the advancing edge of the tumour
+Send in formalin for histopathological analysis
+Result will confirm malignancy, histological type, and grade
+Required before any definitive treatment can commence
+
+Colposcopy-directed biopsy:
+If available, colposcopy can guide biopsy to the most representative area
+Aceto-white changes and vascular patterns (punctation, mosaicism, atypical vessels) help identify optimal biopsy sites
+Not essential if the lesion is clinically obvious (as in this case)
+
+Endocervical curettage:
+If no visible lesion (not applicable here) or to assess endocervical extension
+Helps plan surgical margins if surgery considered
+
+Examination under anaesthesia (EUA):
+Essential for accurate clinical staging of cervical carcinoma
+Performed under general or spinal anaesthesia in the operating theatre
+Allows thorough bimanual and rectovaginal examination to assess:
+Extent of cervical tumour
+Vaginal involvement (upper one-third, lower two-thirds)
+Parametrial involvement (feel for induration or thickening)
+Pelvic sidewall involvement (fixation to sidewall)
+Rectal involvement (rectovaginal septum, mucosa)
+Bladder involvement (trigone assessment)
+Senior gynaecologist or gynaecological oncologist must perform EUA
+Findings documented and used to assign FIGO stage
+
+Staging Workup
+
+Full staging workup is essential to determine extent of disease and guide treatment
+
+Imaging:
+
+Pelvic MRI (preferred):
+Best modality for assessing local extent of cervical tumour
+Accurately measures tumour size
+Assesses parametrial involvement, uterine body extension, vaginal extension
+Evaluates lymph node involvement (pelvic, para-aortic)
+Superior to CT for soft tissue detail
+Should be done before EUA if available
+
+CT scan of the chest, abdomen, and pelvis (alternative or complementary):
+Assesses lymph node involvement
+Identifies distant metastases (liver, lung, bone)
+Useful for radiotherapy planning
+Can replace MRI if MRI unavailable
+
+Chest X-ray:
+Assess for pulmonary metastases
+Also useful pre-anaesthetic assessment
+
+Abdominopelvic ultrasound:
+Useful if MRI or CT unavailable
+Less sensitive for parametrial involvement
+Can assess kidneys (hydronephrosis from ureteric obstruction indicates at least Stage IIIB)
+
+Cystoscopy:
+Indicated if bladder involvement suspected (haematuria, trigone involvement on bimanual)
+Bladder mucosal biopsy if abnormality seen
+Confirms or excludes Stage IVA disease
+
+Proctoscopy or sigmoidoscopy:
+Indicated if rectal involvement suspected (tenesmus, rectal bleeding)
+No bowel symptoms in this patient, but complete staging requires assessment
+
+Intravenous urogram (IVU):
+Traditionally used to assess ureteric obstruction
+Now largely replaced by CT urography or MRI
+
+PET-CT scan (if available):
+Most sensitive for lymph node and distant metastasis detection
+Used in high-income settings for treatment planning
+Increasingly incorporated into FIGO 2018 staging
+
+Laboratory Investigations
+
+Full blood count:
+Assess degree of anaemia (likely from chronic blood loss)
+Leucocyte count (assess for infection or bone marrow involvement)
+Platelet count (baseline before chemotherapy or surgery)
+
+Serum electrolytes, urea, and creatinine:
+Assess renal function
+Important given risk of ureteric obstruction in locally advanced disease
+Essential baseline before cisplatin-based chemotherapy (nephrotoxic)
+
+Liver function tests:
+Assess for hepatic metastases or compromise
+Baseline before chemotherapy
+
+Blood grouping and cross-matching:
+Patient moderately anaemic
+Anticipate need for blood transfusion
+Essential if surgery planned
+
+Retroviral screening (HIV):
+HIV-positive women have higher rates of HPV persistence, faster progression of cervical disease, and poorer response to treatment
+Affects treatment planning and immune status assessment
+Offer with pre-test counselling
+
+Hepatitis B surface antigen and hepatitis C:
+Baseline before chemotherapy (risk of reactivation)
+
+Serum albumin:
+Nutritional status assessment
+Low albumin predicts poor treatment tolerance and outcomes
+
+Definitive Management (Stage-Dependent)
+
+Treatment must be guided by histological confirmation and staging. A multidisciplinary team (MDT) approach is essential, involving gynaecological oncology, radiation oncology, medical oncology, pathology, radiology, palliative care, and nursing.
+
+Stage IA (microscopic disease, incidentally diagnosed):
+Stage IA1: Simple hysterectomy OR cone biopsy (if fertility desired)
+Stage IA2: Modified radical hysterectomy with pelvic lymphadenectomy OR radiotherapy
+This stage is not applicable to this patient (clinically visible disease)
+
+Stage IB1 and IIA1 (tumour less than 4 cm, no parametrial involvement):
+Radical (Wertheim's) hysterectomy with bilateral pelvic lymphadenectomy
+OR definitive radiotherapy (external beam radiotherapy to pelvis plus brachytherapy)
+Both modalities have equivalent survival outcomes
+Surgery preferred in younger women (preserves ovarian function, avoids radiation sequelae)
+Radiotherapy preferred in older women, poor surgical candidates, or where surgery unavailable
+
+Stage IB2, IIA2, IIB, III, and IVA (locally advanced, likely applicable to this patient):
+Concurrent chemoradiotherapy is the standard of care
+This is the definitive treatment for locally advanced cervical carcinoma
+
+External beam radiotherapy (EBRT):
+Delivered to pelvis (and para-aortic nodes if involved)
+Total dose: 45–50 Gy in 25–28 fractions over 5–6 weeks
+Daily treatments Monday to Friday
+
+Brachytherapy (intracavitary radiotherapy):
+Local boost to cervix and parametria
+High-dose rate (HDR) or low-dose rate (LDR) brachytherapy
+Total dose to point A (parametrium): 80–85 Gy
+Essential component of radical radiotherapy for cervical cancer (improves local control and survival)
+Administered after completion of EBRT
+
+Concurrent chemotherapy (radiosensitisation):
+Cisplatin 40 mg/m² IV weekly during radiotherapy (most common regimen)
+Enhances the effect of radiotherapy by inhibiting DNA repair
+Requires adequate renal function (creatinine clearance greater than 50 ml/min)
+Hydration protocol required before each dose
+Side effects: nephrotoxicity, nausea, vomiting, myelosuppression, neuropathy
+Alternative: Carboplatin (if cisplatin not tolerated)
+
+Stage IVB (distant metastases):
+Palliative intent
+Systemic chemotherapy (Cisplatin-based combinations: Cisplatin + Paclitaxel ± Bevacizumab)
+Radiotherapy for symptom control (pain, bleeding)
+Palliative and supportive care
+
+This patient: Clinical findings suggest at least Stage IIB (reduced cervical mobility, possible parametrial involvement). Definitive staging by imaging and EUA required. Most likely treatment: concurrent chemoradiotherapy.
+
+Surgical referral note:
+Refer to gynaecological oncologist or the nearest oncology centre with radiotherapy facilities
+In settings where radiotherapy is unavailable, systemic chemotherapy or surgical palliation may be considered, but this compromises outcomes
+
+Supportive Care
+
+Management of anaemia:
+Investigate anaemia: FBC, peripheral blood film, serum ferritin, iron studies
+Haematinics: Oral ferrous sulphate 200 mg three times daily with folic acid
+Blood transfusion if haemoglobin less than 7 g/dL or symptomatic anaemia
+Target haemoglobin greater than 10 g/dL before radiotherapy (anaemia reduces radiosensitivity and worsens outcomes)
+
+Analgesia:
+WHO analgesic ladder:
+Step 1 (mild pain): Paracetamol 1 g every 6–8 hours ± NSAIDs (Ibuprofen 400 mg every 8 hours)
+Step 2 (moderate pain): Add weak opioid (Tramadol 50–100 mg every 8 hours or Codeine 30–60 mg every 4–6 hours)
+Step 3 (severe pain): Strong opioid (Oral Morphine, starting dose 5–10 mg every 4 hours; titrate to effect)
+Regular dosing preferred over as-needed (better pain control)
+Adjuvant analgesics: Amitriptyline or Gabapentin for neuropathic pain component if present
+
+Nutritional support:
+Nutritional assessment (weight, BMI, serum albumin)
+High-protein, high-calorie diet
+Dietary supplementation if oral intake inadequate
+Referral to dietitian if available
+Malnutrition worsens treatment tolerance, response, and survival
+
+Discharge management of vaginal discharge and bleeding:
+Manage superinfection of tumour with antibiotics if offensive discharge indicates bacterial infection (Metronidazole 400 mg three times daily for 7 days; consider broad-spectrum cover)
+Haemostatic measures for active bleeding: vaginal packing if profuse
+Radiotherapy itself is highly effective at controlling tumour-related bleeding (palliative radiotherapy can be given before definitive chemoradiotherapy if bleeding is severe)
+
+Psychological support:
+Diagnosis of cancer is profoundly distressing
+Patient will need ongoing psychological support throughout the diagnostic and treatment process
+Identify a primary nurse or counsellor for continuity of care
+Involve social worker if financial or social barriers to treatment exist
+
+Counselling
+
+Breaking the news:
+Deliver diagnosis in a private, quiet setting
+Use clear, simple language appropriate to the patient's level of education
+Involve a trusted family member or relative if patient consents
+Allow time for the patient to process and ask questions
+Avoid overwhelming the patient with all information at once (staged disclosure)
+
+Explanation of diagnosis:
+Cancer of the cervix (mouth of the womb) is a malignant tumour
+Caused by infection with human papillomavirus (HPV), which can be acquired through sexual contact
+The disease has likely been developing gradually over many years
+The symptoms she has experienced (bleeding, discharge, pain) are caused by the tumour
+
+Explanation of investigations needed:
+A small piece of tissue will be taken from the cervix (biopsy) to confirm the diagnosis under a microscope
+Blood tests and scans are needed to determine the extent of the disease
+An internal examination under anaesthesia will help stage the disease accurately
+Treatment cannot commence until the diagnosis is confirmed and staging is complete
+
+Explanation of treatment:
+Treatment depends on the stage of disease
+For most women with this type of presentation, treatment involves a combination of radiotherapy (special X-ray beams) and chemotherapy (medicines given by drip)
+The treatment is given with the aim of curing the disease or controlling it
+Side effects of treatment will be explained in detail before consent is obtained
+
+Cervical cancer prevention and missed opportunity for screening:
+Cervical cancer is largely preventable through regular Pap smear screening
+Had screening been done earlier, a precancerous condition (CIN) could have been detected and treated before it became cancer
+This should not be framed as blame but used as an opportunity to educate family members and community
+Daughters and female relatives should be encouraged to undergo cervical screening and HPV vaccination
+
+HPV vaccination:
+HPV vaccines (Cervarix, Gardasil) protect against the high-risk HPV types (16 and 18) responsible for most cervical cancers
+Vaccination is most effective before onset of sexual activity (girls aged 9–14 years)
+Patient's daughters, granddaughters, and female relatives of appropriate age should be vaccinated
+
+Prognosis discussion:
+Be honest but compassionate
+Prognosis depends on the stage of disease at diagnosis
+The earlier the stage, the better the outcome
+5-year survival rates by stage:
+Stage I: Approximately 80–93%
+Stage II: Approximately 58–63%
+Stage III: Approximately 32–35%
+Stage IV: Approximately 15–16%
+This patient's likely stage (IIB or higher) carries a guarded prognosis, but treatment offers meaningful chance of disease control and improved quality of life
+Palliative care is integral to management regardless of curative intent
+
+Future monitoring and follow-up explained:
+Patient will need regular follow-up for years after treatment
+Side effects of treatment will be monitored and managed
+Any recurrence will be detected and treated early
+
+PROGNOSIS
+
+Prognosis for mother in this context:
+Depends entirely on the final FIGO stage after full staging workup
+
+Favourable factors:
+No documented distant metastases clinically
+No urinary or bowel involvement reported (suggests disease possibly confined to pelvis)
+Relatively good performance status (ambulatory, no severe cachexia documented)
+
+Unfavourable factors:
+Likely locally advanced stage (IIB or higher) based on reduced cervical mobility
+Constitutional symptoms (weight loss, anorexia) suggest significant disease burden
+Grand multiparity and no prior screening indicate prolonged exposure and late presentation
+Moderate anaemia (requires correction before radiotherapy)
+Low educational and socioeconomic status may impact treatment compliance and continuity
+
+Expected outcomes with concurrent chemoradiotherapy (Stage IIB):
+5-year overall survival: Approximately 58–65%
+Local control rate: Approximately 70–80% with optimal treatment
+Response to treatment monitored at 3-month intervals post-treatment
+
+Complications of treatment:
+Acute: Nausea, diarrhoea, cystitis, myelosuppression (from chemoradiotherapy)
+Late: Radiation proctitis, radiation cystitis, vaginal stenosis, lymphoedema, fistula formation (vesicovaginal or rectovaginal), secondary malignancy
+These risks are discussed with the patient before treatment commencement
+
+FOLLOW-UP
+Urgent referral to gynaecological oncology or nearest oncology centre with radiotherapy capacity. Histopathology results to be reviewed at oncology clinic. Staging to be completed (EUA, MRI, CT chest-abdomen-pelvis, laboratory investigations). MDT meeting to formulate definitive treatment plan. If concurrent chemoradiotherapy planned: anaemia correction, renal function optimisation, and nutritional support prior to commencement. Clinical review 4–6 weeks after completion of radiotherapy. Subsequent follow-up every 3 months for 2 years, then 6-monthly for 3 years, then annually. Surveillance includes clinical examination, cervical vault smear, and imaging as indicated.
+  `,
+  bookmarkCount: 0
+},
 ];

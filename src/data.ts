@@ -24369,7 +24369,7 @@ Serial β-hCG monitoring as per protocol until negative. Clinical review weekly 
   bookmarkCount: 0
 },
 {
-  id: 'obg-21',
+  id: 'ob-21',
   title: 'Prolonged Labour with Uterine Inertia in Active Phase',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Obstetrics/Labour Ward',
@@ -26260,7 +26260,7 @@ Discharge after 3-5 days if stable. Check haemoglobin before discharge. Postnata
   bookmarkCount: 0
 },
 {
-  id: 'obg-24',
+  id: 'ob-24',
   title: 'Chronic Pelvic Inflammatory Disease',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynecology/Reproductive Health',
@@ -26636,7 +26636,7 @@ Review at 72 hours to assess response to antibiotic therapy. Full review at 2 we
   bookmarkCount: 0
 },
 {
-  id: 'obg-15',
+  id: 'ob-25',
   title: 'Carcinoma of the Cervix',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynecology/Gynecological Oncology',
@@ -27133,6 +27133,3931 @@ These risks are discussed with the patient before treatment commencement
 
 FOLLOW-UP
 Urgent referral to gynaecological oncology or nearest oncology centre with radiotherapy capacity. Histopathology results to be reviewed at oncology clinic. Staging to be completed (EUA, MRI, CT chest-abdomen-pelvis, laboratory investigations). MDT meeting to formulate definitive treatment plan. If concurrent chemoradiotherapy planned: anaemia correction, renal function optimisation, and nutritional support prior to commencement. Clinical review 4–6 weeks after completion of radiotherapy. Subsequent follow-up every 3 months for 2 years, then 6-monthly for 3 years, then annually. Surveillance includes clinical examination, cervical vault smear, and imaging as indicated.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-26',
+  title: 'Ruptured Ovarian Cyst with Haemoperitoneum',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynaecology/Acute Gynaecology',
+  condition: 'Ruptured ovarian cyst, likely corpus luteum, with minimal haemoperitoneum in a haemodynamically stable patient',
+  symptoms: [
+    'Sudden onset lower abdominal pain for 10 hours (sharp, severe 8/10, initially right iliac fossa, later generalised)',
+    'Dizziness for 6 hours',
+    'Pain worsens with movement, no relieving factors',
+    'Right iliac fossa tenderness with mild guarding on abdominal examination',
+    'Right adnexal tenderness on bimanual examination',
+    'Mild fullness in pouch of Douglas',
+    'Percussion suggestive of minimal free fluid',
+    'Mild abdominal distension',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 24-year-old nulliparous undergraduate presenting with a 10-hour history of sudden onset severe lower abdominal pain (8/10), initially localised to the right iliac fossa and later generalising, with associated dizziness of 6 hours duration. LMP 12/03/2026, day 18 of a regular 28-day cycle (mid-cycle). Sexually active, not on contraception. No history of vaginal bleeding, fever, or prior similar episodes. No prior surgeries or pelvic inflammatory disease. Examination reveals a distressed but haemodynamically borderline-stable patient (BP 100/65 mmHg, pulse 96 bpm), with right iliac fossa tenderness, mild guarding, mild abdominal distension, percussion evidence of minimal free fluid, right adnexal tenderness, and mild fullness in the pouch of Douglas on bimanual examination. No cervical motion tenderness. Speculum examination normal with no vaginal bleeding. Clinical diagnosis: ruptured ovarian cyst, likely corpus luteum, with minimal haemoperitoneum. Ectopic pregnancy must be urgently excluded. Requires urgent pregnancy test, pelvic ultrasound, and full blood count. Management is conservative if haemodynamically stable, with low threshold for surgical intervention if clinical deterioration occurs.',
+  content: `
+A 24-year-old nulliparous undergraduate, resident in Yaba, Lagos State, Christian, Yoruba, single, with tertiary level education.
+
+OBSTETRIC DATA
+LMP: 12/03/2026 (18 days prior to presentation, day 18 of cycle)
+
+PRESENTING COMPLAINTS
+Sudden onset lower abdominal pain × 10 hours
+Dizziness × 6 hours
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 10 hours prior to presentation when she developed sudden onset lower abdominal pain. The pain is sharp in nature, severe (8/10), and was initially localised to the right lower abdomen before becoming more generalised. It is continuous, worsens with movement, and has no relieving factors.
+
+About 4 hours after onset of pain (6 hours prior to presentation), she developed dizziness. There is no history of syncope, collapse, or palpitations.
+
+There is no history of vaginal bleeding, passage of clots or tissue, foul-smelling vaginal discharge, or fever. No urinary or bowel symptoms.
+
+She is sexually active and not on contraception. She denies awareness of a recent pregnancy. There is no prior history of similar severe pain episodes.
+
+She is currently on day 18 of a regular 28-day cycle based on her menstrual history (mid-cycle at presentation).
+
+Symptoms have been sudden in onset and persistent, with slight worsening in intensity over time. The symptoms have caused significant distress, with inability to carry out routine activities. Since onset, she has taken over-the-counter analgesics with minimal relief before presenting to hospital.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Regular 28-day cycle
+Flow lasts 4–5 days
+No history of dysmenorrhoea or menorrhagia
+
+Contraceptive History:
+Not using contraception
+
+Cervical Cancer Screening:
+Not yet done
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior surgeries
+No history suggestive of pelvic inflammatory disease
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Occasional use of NSAIDs for pain
+
+FAMILY AND SOCIAL HISTORY
+Single, sexually active
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 24-year-old nulliparous woman presenting on day 18 of her cycle with sudden onset severe right-sided lower abdominal pain that has generalised, associated dizziness, right adnexal tenderness, and clinical evidence of minimal free fluid in the peritoneal cavity, consistent with a ruptured ovarian cyst with haemoperitoneum. Ectopic pregnancy must be actively excluded.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman in obvious painful distress
+Not pale
+Afebrile
+Not jaundiced
+Not dehydrated
+Afebrile
+
+Vital Signs:
+Pulse: 96 bpm (mild tachycardia)
+BP: 100/65 mmHg (low-normal, borderline hypotension)
+RR: 22 cpm (mild tachypnoea)
+SpO₂: 98% room air
+
+Abdominal Examination:
+
+Inspection:
+Abdomen mildly distended
+Moves with respiration (no peritonism at this stage)
+
+Palpation:
+Tenderness in right iliac fossa
+Mild guarding present
+No rebound tenderness
+No palpable masses
+
+Percussion:
+Suggestive of minimal free fluid (shifting dullness or dullness in flanks)
+
+Pelvic Examination:
+
+Speculum Examination:
+Vaginal walls healthy
+Cervix appears normal
+No vaginal bleeding
+No abnormal discharge
+
+Bimanual Examination:
+Uterus normal size
+Right adnexal tenderness present
+No cervical motion tenderness
+Mild fullness in pouch of Douglas
+
+ASSESSMENT
+
+Ruptured ovarian cyst, likely corpus luteum, with minimal haemoperitoneum in a haemodynamically borderline-stable patient
+
+Diagnosis based on:
+
+Timing and cycle phase:
+Day 18 of a regular 28-day cycle (mid to late follicular phase, approaching ovulation or just post-ovulation)
+Corpus luteum forms after ovulation (typically day 14 in a 28-day cycle)
+By day 18, a corpus luteum cyst may have formed and is at risk of rupture
+Mittelschmerz (mid-cycle pain from ovulation) is typically milder and self-limited; the severity here (8/10) and haemoperitoneum suggest frank rupture rather than physiological ovulation pain
+
+Characteristic features of ruptured ovarian cyst:
+Sudden onset of severe unilateral lower abdominal pain (classic presentation)
+Initial localisation to right iliac fossa (right-sided cyst, consistent with right adnexal tenderness)
+Subsequent generalisation of pain (blood in peritoneal cavity causing peritoneal irritation)
+Pain worsening with movement (haemoperitoneum causes positional peritoneal irritation)
+Minimal free fluid on percussion (haemoperitoneum)
+Fullness in pouch of Douglas (pooling of blood in the rectouterine pouch, the most dependent part of the female pelvis)
+Right adnexal tenderness (site of ruptured cyst)
+No cervical motion tenderness (distinguishes from PID and reduces likelihood of ectopic pregnancy)
+Mild abdominal distension (free fluid)
+
+Haemodynamic status:
+Pulse 96 bpm (mild tachycardia), BP 100/65 mmHg (borderline low)
+These findings suggest early compensated haemodynamic compromise, not frank shock
+However, patient must be regarded as borderline stable and monitored very closely
+Any further deterioration requires immediate surgical intervention
+
+Likely cyst type:
+Corpus luteum cyst: Most consistent with timing (post-ovulation, day 18), typical right-sided location, and propensity to bleed on rupture
+Corpus luteum cysts are vascular structures and rupture classically causes haemoperitoneum
+Follicular cyst: Can also rupture at mid-cycle but typically contains serous fluid; less likely to cause significant haemoperitoneum
+Haemorrhagic ovarian cyst: Blood-filled cyst that ruptures; overlaps with corpus luteum on presentation
+
+Differential diagnoses:
+
+Ectopic pregnancy (must be excluded as first priority):
+Shares almost identical presentation: unilateral lower abdominal pain, adnexal tenderness, haemoperitoneum, dizziness
+Patient is sexually active and not on contraception
+Denies known pregnancy, but this is unreliable
+Day 18 LMP makes ectopic less likely (would typically present at 6–8 weeks, corresponding to day 42–56), but ectopic can present earlier with rupture
+No vaginal bleeding and no cervical motion tenderness reduce but do not eliminate the possibility
+Serum or urine beta-hCG is mandatory and must be the first test performed
+A negative pregnancy test reliably excludes ectopic pregnancy
+
+Ovarian torsion:
+Twisting of the ovary (and sometimes fallopian tube) on its pedicle, compromising blood supply
+Classically presents with sudden, severe unilateral lower abdominal pain, often colicky, with nausea and vomiting
+May have associated adnexal mass (twisted enlarged ovary)
+No free fluid expected unless concurrent haemorrhage
+Doppler ultrasound shows absent or reduced ovarian blood flow
+Surgical emergency requiring urgent detorsion
+Less consistent with free fluid on percussion, but must remain in differential
+
+Acute appendicitis:
+Right iliac fossa pain and guarding can mimic this presentation
+However: afebrile, no rebound tenderness, gynaecological examination abnormal (right adnexal tenderness, pouch of Douglas fullness), onset is mid-cycle
+Free fluid not typical of early appendicitis
+Ultrasound will help differentiate
+
+Pelvic inflammatory disease with pelvic abscess or peritonitis:
+Can cause lower abdominal pain and peritoneal signs
+No cervical motion tenderness (key distinguishing feature), no fever, no vaginal discharge, no history suggestive of prior PID
+Less likely, but retained in differential
+
+Endometrioma rupture:
+Rupture of an endometriotic cyst (chocolate cyst) can cause sudden pain and haemoperitoneum
+No prior history of endometriosis or dysmenorrhoea
+Less likely given no dysmenorrhoea, but possible in an undiagnosed patient
+
+Urinary tract pathology:
+Ureteric colic or acute cystitis
+No urinary symptoms, no haematuria
+Percussion evidence of free fluid argues against this
+
+PLAN
+
+This patient requires urgent evaluation and close monitoring given borderline haemodynamic status
+
+Immediate Assessment and Stabilisation
+
+Establish IV access:
+Two peripheral IV cannulae (16–18G)
+Required for fluid administration and emergency drug delivery
+
+Baseline monitoring:
+Continuous vital sign monitoring (BP, pulse, SpO₂, respiratory rate)
+Every 15–30 minutes initially
+Strict fluid balance (input-output chart)
+
+IV fluid resuscitation:
+0.9% Normal Saline or Hartmann's solution
+Initiate at 125–250 ml/hr and titrate to clinical response
+Target: BP greater than 100 mmHg systolic, pulse less than 100 bpm, urine output greater than 30 ml/hr
+Insert urinary catheter for accurate urine output measurement
+
+Alert senior gynaecologist:
+This patient is borderline stable with haemoperitoneum
+Senior review required urgently
+Theatre team should be informed and placed on standby
+
+Urgent Investigations
+
+Serum or urine beta-hCG (most urgent):
+Must be performed immediately, before any other investigation
+A positive result fundamentally changes the diagnosis and management
+Positive beta-hCG in this clinical context = ectopic pregnancy until proven otherwise, requiring immediate gynaecological surgical assessment
+Negative beta-hCG: Reliably excludes pregnancy and allows management as ruptured ovarian cyst
+
+Pelvic ultrasound (transvaginal preferred):
+Perform urgently once pregnancy status confirmed
+Transvaginal ultrasound provides superior resolution of adnexal structures compared to transabdominal
+Key findings to assess:
+Ovaries: Size, morphology, presence of cyst, echogenicity (haemorrhagic content appears echogenic)
+Adnexal mass: Size, nature (simple, complex, solid)
+Free fluid: Quantity and distribution (echogenic free fluid suggests blood)
+Uterus: Normal appearance, no intrauterine pregnancy
+Pouch of Douglas: Volume of free fluid
+Doppler flow: Ovarian blood flow (assess for torsion)
+
+Findings consistent with ruptured corpus luteum cyst:
+Collapsed or irregular cyst adjacent to ovary
+Echogenic free fluid in pelvis (blood)
+No intrauterine gestational sac
+No definite adnexal mass consistent with ectopic
+
+Full blood count:
+Haemoglobin and haematocrit (assess degree of blood loss and baseline for serial monitoring)
+White cell count (elevated in infection or physiological stress response)
+Platelet count
+
+Blood grouping and Rhesus typing:
+Essential in case blood transfusion is required
+If Rhesus negative: Anti-D immunoglobulin 250 IU IM within 72 hours (sensitisation risk from haemoperitoneum)
+
+Serum electrolytes, urea, creatinine:
+Baseline renal function
+Important if surgical intervention or prolonged monitoring required
+
+Coagulation profile:
+If significant haemorrhage is suspected or if surgical intervention is planned
+
+Urinalysis:
+Exclude urinary tract pathology contributing to presentation
+
+Serial monitoring (while awaiting results and during observation):
+Repeat BP and pulse every 15–30 minutes
+Repeat abdominal examination every 1–2 hours
+Note any increase in abdominal distension, development of rebound tenderness, worsening guarding, or change in consciousness
+Repeat haemoglobin/PCV every 4–6 hours if initial value is low or bleeding is suspected to be ongoing
+
+Management
+
+Management depends on haemodynamic status, ultrasound findings, and beta-hCG result
+
+Conservative Management (if haemodynamically stable and ectopic excluded):
+
+Principle:
+Most ruptured ovarian cysts in haemodynamically stable patients with minimal haemoperitoneum resolve spontaneously
+Blood in the peritoneal cavity is reabsorbed over days to weeks
+Ovarian tissue regenerates and function is preserved
+Conservative management avoids the risks of surgery in a young nulliparous woman (anaesthetic risk, adhesion formation, reduced ovarian reserve)
+
+Criteria for conservative management:
+Ectopic pregnancy excluded (negative beta-hCG)
+Haemodynamically stable (or stabilising with IV fluids)
+No signs of ongoing active haemorrhage (stable or improving haemoglobin, stable vital signs)
+Minimal to moderate free fluid on ultrasound (not massive haemoperitoneum)
+No torsion on Doppler assessment
+Pain manageable with analgesics
+Patient reliable and compliant with monitoring
+
+Bed rest:
+Strict bed rest initially
+Avoid sudden movements, straining, or vigorous activity
+Ambulate gradually as symptoms improve
+
+Analgesia:
+NSAIDs: Ibuprofen 400 mg orally every 8 hours with food (anti-inflammatory and analgesic; reduces peritoneal irritation)
+Paracetamol 1 g orally every 6–8 hours (adjunct)
+If pain inadequately controlled: Tramadol 50–100 mg IM or orally every 8 hours
+Avoid intramuscular diclofenac if renal function uncertain (nephrotoxic in hypovolaemia)
+Reassess pain score regularly; escalating pain despite analgesia is an indication for surgical review
+
+Antiemetics (if needed):
+Metoclopramide 10 mg IM or IV every 8 hours
+Or Ondansetron 4 mg IV if available
+
+IV fluids:
+Maintain IV access throughout observation period
+0.9% Normal Saline or Hartmann's solution at maintenance rate if oral intake adequate
+Increase rate if haemodynamically borderline
+
+Monitoring during conservative management:
+Vital signs every 1–2 hours for the first 12 hours, then every 4 hours if stable
+Serial abdominal examination every 2–4 hours
+Serial haemoglobin at 6 and 12 hours (or sooner if clinical concern)
+Repeat pelvic ultrasound in 24–48 hours to confirm no increase in free fluid
+
+Criteria for discharge (if conservative management successful):
+Pain adequately controlled on oral analgesics
+Haemodynamically stable with stable serial haemoglobin
+No increase in free fluid on repeat ultrasound
+Patient able to tolerate oral intake
+Clear instructions given and reliable follow-up arranged
+
+Surgical Management (if indicated):
+
+Indications for surgical intervention:
+Haemodynamic instability (hypotension not responding to IV fluids, tachycardia worsening)
+Falling haemoglobin or PCV on serial measurements (evidence of ongoing bleeding)
+Increasing haemoperitoneum on repeat ultrasound or clinical examination (increasing distension, worsening guarding)
+Increasing or intractable abdominal pain despite adequate analgesia
+Suspected ectopic pregnancy (positive beta-hCG)
+Suspected ovarian torsion (requires urgent detorsion)
+Patient preference after informed discussion
+
+Preferred surgical approach: Laparoscopy
+Minimally invasive
+Better visualisation of pelvic structures
+Smaller incisions, less postoperative pain, faster recovery
+Preferred in young nulliparous women (minimises adhesion formation and preserves fertility)
+
+Laparotomy:
+Reserved for haemodynamically unstable patients requiring rapid access
+Extensive haemoperitoneum not amenable to laparoscopic management
+Conversion from laparoscopy if visualisation is inadequate
+
+Intraoperative steps:
+Evacuation of blood and clots from peritoneal cavity
+Thorough inspection of both ovaries, fallopian tubes, uterus, and appendix
+Identification of bleeding point
+Ovarian cystectomy (remove cyst wall while preserving normal ovarian tissue) if residual cyst identifiable
+If no cyst wall remains: Haemostasis of bleeding point by bipolar diathermy or suture
+Inspect contralateral ovary
+Irrigation and washout of peritoneal cavity
+
+Ovarian conservation:
+Every effort should be made to preserve ovarian tissue in this young nulliparous patient
+Oophorectomy (removal of entire ovary) only if ovary is completely destroyed or haemostasis cannot be achieved
+
+Supportive Care
+
+Blood transfusion:
+If haemoglobin less than 7 g/dL or symptomatic anaemia (persistent tachycardia, dizziness, dyspnoea)
+Cross-match 2 units packed red cells in anticipation
+Transfuse if indicated; monitor for transfusion reactions
+
+Anti-D immunoglobulin:
+Check Rhesus status from blood grouping
+If Rhesus negative: Give Anti-D 250 IU IM within 72 hours
+Haemoperitoneum represents fetomaternal haemorrhage equivalent and can cause Rhesus sensitisation
+
+Psychological support:
+Sudden onset severe pain and hospitalisation is frightening, especially for a young single woman
+Reassure that the likely diagnosis is benign and self-limiting
+Explain all procedures and findings clearly
+Allow questions and address concerns about fertility
+
+Counselling
+
+Explanation of diagnosis:
+An ovarian cyst is a fluid-filled sac on the ovary, which is common in women of reproductive age
+The most likely cyst in this case is a corpus luteum cyst, which forms naturally after ovulation each month
+In some cases, this cyst can rupture, releasing fluid or blood into the pelvis
+The blood in the pelvis causes the severe pain and dizziness experienced
+This is usually a benign, self-limiting condition that resolves on its own with rest and pain relief
+
+Exclusion of ectopic pregnancy:
+A blood test for pregnancy hormone (beta-hCG) is being done urgently to exclude a pregnancy outside the womb (ectopic pregnancy)
+This is essential because ectopic pregnancy can look identical to a ruptured cyst and requires different, urgent management
+The result will guide further management
+
+Likely benign and self-limiting nature:
+The majority of women with a ruptured corpus luteum cyst recover completely with conservative treatment
+The blood in the pelvis is gradually reabsorbed by the body
+The ovary heals and continues to function normally
+
+Risk of recurrence:
+Corpus luteum cysts can recur in subsequent menstrual cycles
+Recurrence risk: Approximately 10–30% in the year following an episode
+If recurrent: Combined oral contraceptive pill can suppress ovulation and reduce cyst formation (discuss if desired)
+Patient should be aware of the symptoms and present early in future episodes
+
+Contraception counselling:
+Currently not using contraception and is sexually active
+This presentation highlights the importance of excluding pregnancy (ectopic) in any woman of reproductive age with acute pelvic pain
+Contraceptive options should be discussed at follow-up once the acute episode is resolved
+If patient desires contraception: Combined oral contraceptive pill suppresses ovulation and reduces ovarian cyst formation (dual benefit)
+
+Fertility:
+Conservative management preserves normal ovarian function and fertility
+Even if surgery is required, every effort will be made to preserve the ovary
+This episode, if managed as expected, should not affect future fertility
+
+When to return urgently:
+Worsening or return of severe abdominal pain
+Dizziness, fainting, or near-syncope
+Vomiting, inability to tolerate oral intake
+New vaginal bleeding
+Any other concerning symptom
+Patient should have clear written instructions and emergency contact number
+
+Follow-Up
+
+Review within 24–48 hours (if managed conservatively and discharged):
+Assess symptom resolution
+Review investigation results (beta-hCG, FBC, ultrasound report)
+Repeat abdominal and pelvic examination
+Repeat haemoglobin if initial value was borderline
+
+One-week review:
+Confirm full clinical recovery
+Review histopathology if surgery was performed
+Discuss contraception if desired
+Address any residual concerns
+
+Six-week review:
+Repeat pelvic ultrasound to confirm complete resolution of free fluid and confirm ovarian appearance
+If persistent cyst or new cyst identified: Further evaluation and management
+Fertility counselling if requested
+
+Long-term:
+Annual gynaecological review
+Cervical cancer screening (Pap smear) to be arranged (not yet done)
+Counsel on recurrence risk and symptoms to watch for
+
+PROGNOSIS
+
+Prognosis for this episode:
+Excellent with appropriate conservative management
+The majority of ruptured corpus luteum cysts resolve completely within 1–4 weeks
+Haemoperitoneum is reabsorbed without residual effect in most cases
+
+Prognosis for fertility:
+Excellent
+Conservative management preserves ovarian tissue and function entirely
+Even with surgical management (laparoscopic cystectomy): Fertility outcomes are very good, especially with ovarian conservation
+No long-term effect on fertility expected from a single episode
+
+Risk factors for complications:
+Haemodynamic instability (present to a mild degree in this patient): Requires close monitoring
+Ongoing bleeding (not confirmed but cannot yet be excluded): Low threshold for surgery
+Missed ectopic pregnancy: Excluded by beta-hCG
+
+Factors favouring a good outcome:
+Young age (24 years)
+Good baseline health
+No prior pelvic surgery or PID
+Presented within 10 hours of onset
+Haemodynamically borderline but not in frank shock
+
+FOLLOW-UP
+Urgent review of beta-hCG result and ultrasound findings. Serial vital signs and haemoglobin monitoring during admission. Reassess in 24–48 hours if discharged on conservative management. Repeat pelvic ultrasound at 6 weeks to confirm resolution. Gynaecological review including cervical cancer screening and contraceptive counselling at follow-up visit.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-27',
+  title: 'Ovarian Torsion',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology/Gynecological Emergency',
+  condition: 'Suspected left ovarian torsion in a haemodynamically stable nulliparous woman',
+  symptoms: [
+    'Sudden onset severe colicky left lower abdominal pain',
+    'Recurrent vomiting',
+    'Marked left iliac fossa tenderness',
+    'Marked left adnexal tenderness',
+    'No cervical motion tenderness',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 26-year-old nulliparous fashion designer presenting with a 12-hour history of sudden onset severe colicky left lower abdominal pain and a 10-hour history of recurrent bilious vomiting. LMP 20 days ago. Sexually active, not using contraception, unsure of current pregnancy status. No prior similar episodes, though occasional mild lower abdominal discomfort reported in the past. Examination reveals a distressed young woman, tachycardic (104 bpm), haemodynamically stable, with marked left iliac fossa tenderness and mild guarding on abdominal examination. Pelvic examination shows marked left adnexal tenderness and possible adnexal fullness with no cervical motion tenderness and no vaginal bleeding. Clinical features are highly suggestive of left ovarian torsion. Ectopic pregnancy must be urgently excluded. Requires urgent pregnancy test, pelvic ultrasound with Doppler studies, and prompt surgical intervention as time to detorsion is critical for ovarian salvage.',
+  content: `
+A 26-year-old nulliparous fashion designer, resident in Ikeja, Lagos State, Christian, Yoruba, single, with tertiary level education.
+
+OBSTETRIC DATA
+LMP: 11/02/2026 (20 days prior to presentation)
+
+PRESENTING COMPLAINTS
+Sudden onset lower abdominal pain × 12 hours
+Vomiting × 10 hours
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 12 hours prior to presentation when she developed sudden onset lower abdominal pain. The pain is severe, colicky in nature, initially localized to the left lower abdomen, and has remained persistent with intermittent worsening episodes. It does not radiate, is aggravated by movement, and has no relieving factors.
+
+About 2 hours after onset of pain, she developed recurrent episodes of vomiting, initially of recently ingested food and later becoming bilious. There is no associated haematemesis.
+
+There is no history of vaginal bleeding, passage of clots or tissue, foul-smelling vaginal discharge, or fever. No urinary or bowel symptoms.
+
+She is sexually active and not using contraception. She is unsure of her current pregnancy status.
+
+There is no prior history of similar episodes, though she reports occasional mild lower abdominal discomfort in the past.
+
+Symptoms have been sudden in onset and persistent with increasing severity of pain and repeated vomiting. Since the onset of symptoms, she has taken over-the-counter analgesics and antiemetics with no relief, and she has been unable to tolerate oral intake or carry out routine activities.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Regular 28-day cycle
+Flow lasts 4–5 days
+No history of dysmenorrhoea or menorrhagia
+
+Contraceptive History:
+Not using any contraception
+
+Cervical Cancer Screening:
+Not yet done
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior pelvic or abdominal surgery
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+No routine medications
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No known gynaecological conditions or malignancy in first-degree relatives
+
+Social History:
+Single, sexually active
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 26-year-old nulliparous woman presenting with sudden onset severe colicky left lower abdominal pain and bilious vomiting, with marked left adnexal tenderness and possible adnexal fullness on examination, in the context of an uncertain pregnancy status, consistent with a clinical diagnosis of left ovarian torsion pending urgent investigations and surgical confirmation.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman in painful distress
+Not pale
+Afebrile
+Anicteric
+Not dehydrated
+
+
+Vital Signs:
+Pulse: 104 bpm (tachycardia, pain-related)
+BP: 110/70 mmHg (normal, haemodynamically stable)
+RR: 22 cpm (mildly elevated, pain-related)
+Temperature: 37.4°C (afebrile)
+SpO₂: 98% room air
+
+Abdominal Examination:
+
+Inspection:
+Abdomen mildly distended
+Moves with respiration
+
+Palpation:
+Marked tenderness in the left iliac fossa
+Mild guarding present
+No rebound tenderness
+No palpable masses
+
+Percussion:
+No evidence of ascites or free fluid
+
+Pelvic Examination:
+
+Speculum Examination:
+Vaginal walls normal
+Cervix appears healthy
+No vaginal bleeding
+No abnormal discharge
+
+Bimanual Examination:
+Uterus normal size
+Marked left adnexal tenderness
+Possible left adnexal fullness
+No cervical motion tenderness
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Suspected left ovarian torsion in a haemodynamically stable nulliparous woman
+
+Diagnosis based on:
+
+Classic clinical presentation of ovarian torsion:
+Sudden onset of severe unilateral lower abdominal pain (characteristically colicky, from intermittent twisting and partial untwisting of the pedicle)
+Associated nausea and vomiting (present in up to 70% of cases, caused by peritoneal irritation and vagal stimulation from ischaemia)
+Marked unilateral adnexal tenderness with possible adnexal fullness
+No fever or peritoneal signs (early torsion, prior to necrosis and secondary infection)
+Tachycardia likely pain-mediated rather than haemodynamic compromise
+No cervical motion tenderness (distinguishes from pelvic inflammatory disease)
+No vaginal bleeding (distinguishes from ectopic pregnancy and miscarriage)
+
+Pathophysiology of ovarian torsion:
+Ovarian torsion occurs when the ovary (and often the fallopian tube) rotates on its pedicle (infundibulopelvic ligament and utero-ovarian ligament)
+Initial twisting compromises venous and lymphatic outflow, causing oedema and ovarian enlargement
+Progressive torsion then compromises arterial inflow, leading to ischaemia, infarction, and necrosis if untreated
+The process can be intermittent (partial torsion with spontaneous unwinding), explaining the colicky nature of the pain and the history of prior mild episodic discomfort
+Time from onset to surgery is the most important determinant of ovarian salvage
+
+Why the left ovary:
+Either ovary can tort, but the right ovary is more commonly affected (right side: sigmoid colon provides less support)
+Left-sided torsion as in this patient is less common but well documented
+Presence of an adnexal mass or cyst greatly increases torsion risk (provides a fulcrum for rotation)
+History of occasional past mild lower abdominal discomfort may represent prior episodes of intermittent partial torsion
+
+Predisposing factors in this patient:
+Nulliparity (more mobile adnexae)
+Reproductive age (ovarian cysts most common in this age group)
+Possible underlying ovarian cyst or mass (possible adnexal fullness on examination, history of recurrent mild pain)
+Normal-appearing ovaries can also tort, particularly in young women and children
+
+Severity and urgency:
+This is a surgical emergency
+Ovarian viability decreases significantly after 24–36 hours of complete torsion
+Early intervention (within 6–8 hours of onset) gives the best chance of ovarian preservation
+This patient is 12 hours from onset: urgent surgery required
+
+Differential diagnoses:
+
+Ectopic pregnancy (must be excluded as a priority):
+Can cause acute unilateral lower abdominal pain with adnexal tenderness
+Sexually active, not using contraception, unsure of pregnancy status (LMP 20 days ago, could be early pregnancy)
+However, no vaginal bleeding, no cervical motion tenderness, and haemodynamically stable
+Pregnancy test is the first and most critical investigation
+If positive: ectopic pregnancy becomes the primary concern and must be managed accordingly
+If negative: ectopic effectively excluded, ovarian torsion remains the working diagnosis
+
+Ruptured ovarian cyst:
+Can cause sudden onset unilateral pain with adnexal tenderness
+Typically less severe and often improving over time (acute release of cyst contents, then pain resolves)
+Pain in this patient is persistent and worsening, not improving
+May coexist with torsion (torsion of a cyst-bearing ovary)
+Ultrasound will identify free fluid from rupture
+
+Haemorrhagic ovarian cyst:
+Bleeding into a cyst causes sudden severe pain from cyst distension
+Pain often improves over hours as blood organises
+No vomiting typically
+Adnexal mass may be palpable
+Ultrasound will show characteristic haemorrhagic content
+Conservative management if haemodynamically stable
+
+Pelvic inflammatory disease (PID):
+Bilateral adnexal tenderness, cervical motion tenderness, vaginal discharge, and fever are typical
+This patient has no cervical motion tenderness, no discharge, no fever, and unilateral findings
+Less likely, but cervical swabs will help exclude concurrent infection
+
+Appendicitis:
+Right-sided pain and tenderness (McBurney's point) is classical
+This patient has left-sided pain
+Atypical appendicitis or pelvic appendix possible, but left-sided location and adnexal fullness favour ovarian pathology
+Rebound tenderness and fever more characteristic of appendicitis
+
+Ureteric colic:
+Severe colicky pain radiating to the groin or flank
+May cause nausea and vomiting
+No adnexal fullness or gynaecological findings expected
+Urinalysis may show haematuria
+Ultrasound or CT KUB will differentiate
+
+Mesenteric adenitis or bowel pathology:
+Less typical presentation in a young woman with adnexal findings
+
+Key point: This is a time-critical surgical emergency. Investigations should be rapid and should not unduly delay theatre if clinical suspicion of torsion is high.
+
+PLAN
+
+This is a gynaecological surgical emergency. Call for senior gynaecologist immediately.
+
+Immediate Assessment and Stabilisation
+
+Patient currently haemodynamically stable:
+No immediate resuscitation required
+However, pain is severe and she is tachycardic
+
+Establish IV access:
+Insert wide-bore IV cannula (16G or 18G)
+Send blood samples urgently
+
+Nil by mouth:
+Immediately (in preparation for emergency surgery)
+Document time of last oral intake
+
+Call for senior gynaecologist and alert theatre team:
+Ovarian torsion requires emergency surgical intervention
+Theatre should be placed on standby while investigations are being completed
+
+Investigations (Urgent — Must Not Delay Surgery if Clinical Suspicion High)
+
+Urine or serum pregnancy test:
+Single most important immediate investigation
+Must be done before any other gynaecological intervention
+If positive: ectopic pregnancy must be excluded by urgent transvaginal ultrasound before proceeding
+If negative: ectopic effectively excluded, proceed with evaluation for torsion
+
+Pelvic ultrasound with Doppler studies (transvaginal preferred):
+Essential investigation for ovarian torsion
+Findings in ovarian torsion:
+Enlarged ovary (most consistent finding; torsed ovary typically greater than 4 cm)
+Oedematous, heterogeneous ovarian stroma
+Peripheral follicles displaced to the cortex by central oedema (string of pearls sign)
+Adnexal mass or ovarian cyst (if present as predisposing factor)
+Free fluid in the pouch of Douglas
+Doppler findings:
+Absent or reduced blood flow on Doppler is highly suggestive but not diagnostic
+Presence of normal blood flow does NOT exclude torsion (partial torsion or intermittent torsion can preserve some flow)
+A normal Doppler study in the context of strong clinical suspicion should not delay surgery
+Doppler has a sensitivity of approximately 46–75% for torsion; clinical judgement must take precedence
+
+Full blood count:
+Leucocytosis may be present (pain-related or early ischaemia)
+Haemoglobin and PCV (baseline, rule out occult anaemia)
+Platelet count (baseline before surgery)
+
+Blood grouping and Rhesus typing:
+Essential pre-operatively
+Cross-match if significant intraoperative bleeding anticipated
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function
+Important if IV fluids or nephrotoxic agents will be used
+
+Urinalysis:
+Exclude urinary tract infection and ureteric colic (haematuria)
+
+Serum or urine beta-hCG (quantitative if positive):
+If qualitative pregnancy test positive, quantitative beta-hCG guides further management (intrauterine vs ectopic)
+
+Definitive Management — Surgical (Time-Critical)
+
+Ovarian torsion is a surgical emergency. The window for ovarian salvage narrows with time. Surgery should not be delayed beyond what is necessary to obtain essential investigations and consent.
+
+Pre-operative preparation:
+Informed consent (explain diagnosis, urgency, operative findings, risk of oophorectomy if ovary non-viable, fertility implications)
+Pre-operative anaesthetic assessment
+Blood products available
+Prophylactic IV antibiotics at induction (e.g., IV Cefazolin 1–2 g)
+Urinary catheter in theatre
+
+Surgical approach:
+
+Laparoscopy (preferred approach in haemodynamically stable patients):
+Minimally invasive
+Allows direct visualisation of the pelvis
+Shorter recovery time, less post-operative pain, smaller incisions
+Preferred in young nulliparous women where fertility preservation is paramount
+
+Laparotomy (indications):
+Haemodynamic instability
+Inability to perform laparoscopy (adhesions, equipment unavailable, failed laparoscopic approach)
+Suspected malignancy (requires open staging)
+
+Intraoperative assessment and decision-making:
+
+Step 1 — Assess the pelvis:
+Identify the affected ovary and tube
+Assess degree of torsion (number of twists)
+Assess colour and appearance of ovary
+
+Step 2 — Detorsion:
+Untwist the ovary manually in the direction opposite to the torsion
+This is safe and should always be attempted, even if the ovary appears necrotic (dark, black, or blue-black)
+Historical concern about thromboembolism from detorsion of necrotic ovaries has not been substantiated by evidence
+After detorsion, wait 10–15 minutes and reassess ovarian perfusion (colour change from dark to pink, or blanching with pressure)
+
+Step 3 — Assess viability:
+Pink or reddish-purple after detorsion: Likely viable, conserve
+Remains black or frankly necrotic after 15 minutes: Non-viable
+
+Step 4 — Conservative surgery (preferred in reproductive-age women):
+Ovarian conservation and cystectomy (if cyst present):
+If ovary viable after detorsion, perform cystectomy (remove the cyst while preserving ovarian tissue)
+Send cyst contents and wall for histopathology
+Ovariopexy (fixation of the ovary):
+After detorsion, fix the ovary to the pelvic sidewall or posterior uterus with a non-absorbable suture to prevent recurrence
+Controversial but widely practised, particularly for recurrent torsion or if no underlying mass identified
+Consider bilateral oophoropexy if no underlying mass found (risk of contralateral torsion exists)
+
+Step 5 — Oophorectomy (only if ovary non-viable):
+Remove the ovary and tube (salpingo-oophorectomy) if frankly gangrenous and not recovering after detorsion
+Preserve the contralateral ovary
+In young nulliparous women: every effort should be made to avoid oophorectomy
+Even an ovary that appears non-viable may recover function after detorsion; conservation is therefore the default approach in reproductive-age women
+
+Step 6 — Inspect contralateral ovary:
+Assess for cysts or abnormality that could predispose to future torsion
+Document findings
+
+Step 7 — Histopathology:
+Send any removed tissue (ovarian cyst wall, necrotic tissue) for histopathological analysis
+Exclude underlying malignancy
+
+Post-operative Care
+
+Monitoring:
+Vital signs every 15–30 minutes in recovery, then hourly for 4 hours, then 4-hourly
+Urine output monitoring
+Wound inspection
+
+Analgesia:
+Paracetamol 1 g IV/orally every 6 hours (regular)
+Ibuprofen 400 mg orally every 8 hours (if not contraindicated)
+Tramadol 50–100 mg IM/orally every 8 hours if moderate pain
+Reduce opioid use as early as possible
+
+Antiemetics:
+Ondansetron 4–8 mg IV/orally every 8 hours
+Or Metoclopramide 10 mg IV/orally every 8 hours
+
+IV fluids:
+Continue until tolerating oral intake (usually within 12–24 hours post-laparoscopy)
+Switch to oral hydration as soon as tolerated
+
+Early mobilisation:
+Encourage within 6–12 hours post-laparoscopy
+Reduces risk of venous thromboembolism and aids recovery
+
+Thromboprophylaxis:
+Compression stockings (TED stockings) applied pre-operatively
+Low molecular weight heparin (Enoxaparin 40 mg SC daily) commenced 6–12 hours post-operatively if haemostasis confirmed
+Continue until fully mobile
+
+Diet:
+Resume oral fluids when awake and not nauseated
+Light diet the same day or the following morning (laparoscopy)
+
+Antibiotics:
+Continue post-operative antibiotics only if infection suspected intraoperatively
+Single-dose prophylaxis at induction is standard for uncomplicated cases
+
+Discharge (laparoscopy):
+Usually 24–48 hours post-operatively
+Advise rest for 5–7 days
+Avoid strenuous activity for 2 weeks
+Return to work in 1–2 weeks
+
+Supportive Care (Pre-operative and Perioperative)
+
+IV fluids:
+0.9% Normal Saline or Ringer's Lactate at maintenance rate (125–150 ml/hr)
+Replace ongoing losses from vomiting
+
+Analgesia (pre-operative):
+Adequate analgesia should not be withheld pending surgery
+IV Paracetamol 1 g over 15 minutes
+IV or IM Tramadol 100 mg or IV Morphine 2.5–5 mg titrated to effect
+Opioids are appropriate given severity of pain
+
+Antiemetics (pre-operative):
+IV Ondansetron 4–8 mg or Metoclopramide 10 mg
+Reduces vomiting and patient distress
+
+Oral intake:
+Nil by mouth from time of decision to operate
+
+Counselling
+
+Explanation of diagnosis:
+Ovarian torsion occurs when the ovary twists on its supporting ligaments, cutting off its blood supply
+This is a gynaecological emergency requiring prompt surgical treatment
+Without timely surgery, the ovary can become permanently damaged and may need to be removed
+
+Explanation of urgency:
+The sooner surgery is performed, the greater the chance of saving the ovary
+Any further delay increases the risk of losing the ovary permanently
+The surgical team will proceed as quickly as safely possible
+
+Surgical consent discussion:
+The procedure will be performed laparoscopically if possible (keyhole surgery)
+The surgeon will attempt to untwist the ovary and restore blood supply
+If a cyst is found, it will be removed and sent for examination
+If the ovary is found to be irreversibly damaged, it may need to be removed entirely (oophorectomy)
+Every effort will be made to preserve the ovary, especially given her young age and nulliparity
+The other ovary will be inspected and its findings documented
+
+Fertility implications:
+With successful detorsion and ovarian conservation: fertility is largely preserved
+If oophorectomy is unavoidable: the remaining ovary is usually sufficient for normal hormonal function and fertility
+Both ovaries being affected simultaneously is rare
+The patient should be reassured that the primary goal is to preserve her ovary and her future fertility
+
+Recurrence:
+After treatment, there is a small risk of recurrence (approximately 10%)
+Ovariopexy (fixation of the ovary) reduces but does not eliminate this risk
+She should report immediately to hospital if similar pain recurs in the future
+
+Future contraception and pregnancy planning:
+Following recovery, discuss contraceptive options if she does not wish to conceive
+Hormonal contraception (combined oral contraceptive pill) suppresses ovulation and reduces the risk of functional cyst formation, which may reduce torsion risk
+Encourage early antenatal care and ultrasound in future pregnancies (ovarian torsion is more common in early pregnancy due to corpus luteum enlargement)
+
+Cervical screening:
+Pap smear not yet done; to be arranged at follow-up when recovered
+
+Follow-Up
+
+Post-operative review (1–2 weeks):
+Wound inspection
+Symptom assessment (pain resolution, return of normal function)
+Histopathology results review
+
+6-week review:
+Full gynaecological assessment
+Discuss histology findings
+Pelvic ultrasound to confirm ovarian recovery and blood flow if oophorectomy avoided
+Fertility counselling
+Cervical screening (Pap smear)
+
+Long-term:
+Annual gynaecological review
+Pelvic ultrasound annually if underlying ovarian cyst was identified (to monitor for recurrence)
+Patient educated on symptoms of recurrent torsion and advised to present early
+
+PROGNOSIS
+
+Prognosis for ovarian salvage:
+Directly related to time from onset of torsion to surgical detorsion
+Within 8 hours: Ovarian salvage rate approximately 90%
+8–24 hours: Salvage rate decreases but remains reasonable (60–80%)
+Beyond 24 hours: Risk of necrosis increases significantly
+This patient at 12 hours: Good chance of ovarian preservation with prompt surgery
+
+Prognosis for fertility:
+With successful conservation of the left ovary: normal fertility expected
+If left oophorectomy required but right ovary intact: fertility maintained (one functioning ovary is sufficient)
+Previous episodes of mild pain may have caused subclinical damage but this cannot be assessed until intraoperative findings are known
+
+Prognosis for recurrence:
+Risk of ipsilateral recurrence after detorsion without oophoropexy: approximately 10%
+Risk of contralateral torsion exists, particularly if no underlying cyst is found (mobile ovary)
+Oophoropexy reduces but does not eliminate recurrence risk
+
+Overall prognosis:
+Excellent if surgery performed promptly
+Ovarian torsion in a young woman carries very low mortality with appropriate surgical management
+Long-term ovarian and hormonal function is preserved in the majority of cases where detorsion is successful
+
+FOLLOW-UP
+Post-operative review at 1–2 weeks for wound check and histopathology results. Gynaecology review at 6 weeks with pelvic ultrasound to confirm ovarian recovery. Cervical cancer screening to be arranged. Long-term annual follow-up with ultrasound surveillance if underlying ovarian pathology identified. Patient counselled to present immediately if similar symptoms recur.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-28',
+  title: 'Septic Abortion with Retained Products of Conception',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Gynaecological Emergency',
+  condition: 'Septic abortion with retained products of conception, complicated by sepsis and hypovolaemic shock following unsafe termination of pregnancy',
+  symptoms: [
+    'Lower abdominal pain for 4 days (dull, progressive, now severe 7–8/10, generalised, aggravated by movement)',
+    'High-grade fever for 3 days (with chills and rigors)',
+    'Foul-smelling yellowish vaginal discharge for 3 days',
+    'Vaginal bleeding for 2 days (initially scanty, now moderate, with clots and tissue-like material)',
+    'Generalised body weakness, dizziness, and nausea',
+    'Septic shock (BP 90/60 mmHg, pulse 118 bpm, temperature 38.9°C, RR 26 cpm)',
+    'Pale, dehydrated, toxic-looking, acutely ill',
+    'Generalised lower abdominal tenderness with guarding',
+    'Cervical motion tenderness, bulky tender uterus, bilateral adnexal tenderness',
+    'Open external os with copious foul-smelling purulent blood-stained discharge',
+    'Attempted termination of pregnancy at a private facility 5 days prior to onset of symptoms',
+    'No improvement with oral antibiotics and analgesics from a patent medicine vendor'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 22-year-old G2P1+0 student presenting with a 4-day history of progressive lower abdominal pain, 3-day history of high-grade fever with chills and rigors and foul-smelling purulent vaginal discharge, and 2-day history of vaginal bleeding with passage of clots and tissue-like material. LMP 10 weeks ago. Urine pregnancy test was positive 2 weeks prior to presentation, after which she underwent an attempted termination of pregnancy at a private facility. Symptoms began 5 days after the procedure. She has taken oral antibiotics and analgesics from a patent medicine vendor with no improvement. Examination reveals an acutely ill-looking, febrile, pale, dehydrated, toxic-appearing young woman in septic shock (BP 90/60 mmHg, pulse 118 bpm, temperature 38.9°C, RR 26 cpm, SpO₂ 96%). Abdominal examination shows generalised lower abdominal tenderness with guarding. Pelvic examination reveals an open cervical os with copious foul-smelling purulent blood-stained discharge, cervical motion tenderness, a bulky tender uterus, and bilateral adnexal tenderness. Diagnosis: septic abortion with retained products of conception complicated by sepsis and hypovolaemic shock. Requires immediate resuscitation, urgent broad-spectrum IV antibiotics, and uterine evacuation once the patient is stabilised.',
+  content: `
+A 22-year-old G2P1+0 student, resident in Mushin, Lagos State, Christian, Yoruba, single, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G2 (second pregnancy)
+Parity: P1+0 (one term delivery, no miscarriages)
+Living children: 1 alive
+LMP: 10/01/2026 (10 weeks prior to presentation)
+Positive urine pregnancy test 2 weeks prior to presentation
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 4 days
+Fever × 3 days
+Foul-smelling vaginal discharge × 3 days
+Vaginal bleeding × 2 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 4 days prior to presentation when she developed lower abdominal pain. The pain is dull in nature, progressively worsening, now severe (7–8/10), generalised but worse in the lower abdomen, and aggravated by movement with no relieving factors.
+
+About 1 day after onset of pain (3 days prior to presentation), she developed high-grade fever associated with chills and rigors.
+
+Around the same time, she noticed foul-smelling vaginal discharge, which is offensive, yellowish, and moderate in quantity.
+
+About 2 days prior to presentation, she developed vaginal bleeding, initially scanty but later moderate, with passage of clots and tissue-like material.
+
+Associated symptoms include generalised body weakness, dizziness, and nausea.
+
+There is no history of urinary symptoms or bowel disturbances.
+
+She had a positive urine pregnancy test 2 weeks prior to presentation, following which she underwent an attempted termination of pregnancy at a private facility approximately 5 days prior to onset of symptoms. Symptoms began shortly after the procedure.
+
+Since onset of symptoms, she has taken oral antibiotics and analgesics obtained from a patent medicine vendor with no improvement.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Regular 28-day cycle
+Flow lasts 4–5 days
+No history of dysmenorrhoea or menorrhagia
+
+Contraceptive History:
+Not using contraception
+
+Cervical Cancer Screening:
+Not yet done
+
+OBSTETRIC HISTORY
+G2P1+0
+One previous term spontaneous vaginal delivery
+Child alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Recent use of unspecified oral antibiotics and analgesics from a patent medicine vendor
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+Non-contributory
+
+Social History:
+Single, sexually active
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 22-year-old G2P1+0 woman at 10 weeks gestation presenting with progressive lower abdominal pain, high-grade fever, foul-smelling vaginal discharge, and vaginal bleeding with tissue passage following an attempted termination of pregnancy at a private facility, with clinical and haemodynamic features consistent with septic abortion complicated by retained products of conception and septic shock.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Acutely ill-looking
+Toxic-appearing
+Febrile
+Pale
+Dehydrated
+
+Vital Signs:
+Pulse: 118 bpm (tachycardia, sepsis and hypovolaemia)
+BP: 90/60 mmHg (hypotension, septic/hypovolaemic shock)
+RR: 26 cpm (tachypnoea, sepsis)
+Temperature: 38.9°C (high-grade fever)
+SpO₂: 96% room air (reduced, requires supplemental oxygen)
+
+Abdominal Examination:
+
+Inspection:
+Abdomen mildly distended
+
+Palpation:
+Generalised lower abdominal tenderness
+Guarding present
+No rebound tenderness documented
+No palpable masses
+
+Percussion:
+No evidence of ascites
+
+Pelvic Examination:
+
+Speculum Examination:
+Copious foul-smelling purulent blood-stained discharge
+Cervix appears inflamed and erythematous
+External os open
+
+Bimanual Examination:
+Cervical motion tenderness present
+Uterus bulky and tender
+Bilateral adnexal tenderness
+
+ASSESSMENT
+
+Septic abortion with retained products of conception, complicated by sepsis and hypovolaemic shock
+
+Diagnosis based on:
+
+Definition of septic abortion:
+Any abortion (spontaneous or induced) complicated by infection of the uterus and its contents
+Characterised by fever, uterine tenderness, foul-smelling discharge, and systemic signs of infection
+In this case: induced (unsafe) abortion with subsequent ascending infection
+
+Evidence of septic abortion:
+
+Precipitating event:
+Attempted termination of pregnancy at a private facility 5 days before symptom onset
+Symptoms temporally related to the procedure (began shortly after)
+Unsafe or inadequately sterile instrumentation likely introduced infection into the uterine cavity
+
+Infection:
+High-grade fever (38.9°C) with chills and rigors (systemic infection)
+Foul-smelling purulent vaginal discharge (uterine infection, likely polymicrobial)
+Cervical motion tenderness, bulky tender uterus, bilateral adnexal tenderness (ascending pelvic infection)
+Open external os (facilitates ascending infection and drainage)
+Failure to respond to oral antibiotics (inadequate spectrum, delayed presentation, severity of infection)
+
+Retained products of conception:
+Passage of clots and tissue-like material (incomplete evacuation)
+Uterus bulky and tender (enlarged beyond expected for time since procedure)
+Open os (ongoing incomplete abortion)
+Vaginal bleeding persisting with tissue passage
+
+Septic shock:
+BP 90/60 mmHg (hypotension)
+Pulse 118 bpm (tachycardia)
+RR 26 cpm (tachypnoea)
+Temperature 38.9°C (fever)
+SpO₂ 96% (hypoxaemia)
+Pallor and dehydration (from blood loss and third spacing)
+Generalised weakness and dizziness (poor tissue perfusion)
+Meets criteria for sepsis (infection plus organ dysfunction) and shock (hypotension despite presumed volume depletion)
+
+Microbiology of septic abortion:
+Polymicrobial infection is the rule
+Common organisms: Escherichia coli, Klebsiella pneumoniae, Bacteroides species, Streptococcus species, Staphylococcus aureus, Clostridium perfringens (especially in illegal instrumentation), Enterococcus species
+Ascending infection from vaginal flora introduced during instrumentation
+Clostridium perfringens: must be considered in unsafe abortion with gas gangrene, rapidly progressive shock, haemolysis, and jaundice (not present here but a diagnostic consideration)
+
+Complications present and anticipated:
+
+Septic shock (present):
+Life-threatening circulatory failure from infection
+Requires immediate resuscitation
+
+Anaemia (present):
+Pallor from acute blood loss and haemolysis (from infection)
+Requires haematological assessment and likely transfusion
+
+Dehydration and electrolyte disturbance:
+From fever, vomiting, and poor oral intake
+
+Potential complications to monitor:
+
+Disseminated intravascular coagulation (DIC):
+Risk with severe sepsis and tissue necrosis
+Monitor coagulation profile
+Signs: oozing from IV sites, petechiae, worsening bleeding
+
+Acute kidney injury:
+From hypoperfusion and sepsis-related nephrotoxicity
+Monitor urine output closely
+
+Septicaemia and bacteraemia:
+Infection has seeded systemic circulation
+Blood cultures essential before antibiotics
+
+Pelvic abscess or tubo-ovarian abscess:
+If bilateral adnexal tenderness represents abscess formation
+Ultrasound will assess
+
+Uterine perforation:
+Complication of instrumented abortion
+May not always be clinically obvious
+Assess intraoperatively during evacuation
+
+Peritonitis:
+Guarding suggests possible early peritoneal involvement
+Rebound tenderness not documented but vigilance required
+
+Infertility and tubal damage:
+Long-term consequence of severe pelvic infection
+Counselling required after recovery
+
+Differential diagnoses:
+
+Incomplete abortion without infection:
+Can cause bleeding, open os, and passage of tissue
+However, does not account for fever, purulent discharge, or systemic sepsis
+
+Pelvic inflammatory disease without abortion:
+Presents with fever, discharge, and pelvic tenderness
+No history of instrumentation; this patient has a clear precipitating event
+
+Ectopic pregnancy with rupture:
+Can cause pain, bleeding, and shock
+However, no shoulder tip pain, no haemoperitoneum signs, and the clinical picture is dominated by infection not haemorrhage
+Beta-hCG and ultrasound will differentiate
+
+Appendicitis with perforation:
+Right-sided pain, peritonism
+Does not account for the purulent discharge, open os, or post-procedural history
+
+This case, however, is not diagnostically ambiguous: the temporal relationship to instrumented abortion, the clinical findings, and the systemic features are collectively diagnostic of septic abortion.
+
+PLAN
+
+This is a life-threatening obstetric emergency requiring immediate simultaneous resuscitation and treatment
+
+Call for Help Immediately
+Alert senior obstetrician (registrar or consultant on call)
+Notify anaesthetist (patient may need theatre for evacuation under anaesthesia)
+Alert the intensive care unit if available (patient meets septic shock criteria)
+Mobilise nursing and support staff
+
+Immediate Resuscitation (Simultaneous with Antibiotic Initiation)
+
+Airway and Breathing:
+Maintain airway (patient conscious but toxic)
+Administer supplemental oxygen via face mask at 6–10 L/min (SpO₂ 96%, target greater than 95%)
+Monitor respiratory rate continuously
+
+Circulation:
+
+IV access:
+Establish two wide-bore IV cannulae (14G or 16G) immediately
+Do not delay antibiotics for investigations
+
+Blood sampling (urgent, before antibiotics):
+Full blood count (haemoglobin, white cell count, platelet count)
+Blood culture and sensitivity (two sets from different sites before first antibiotic dose — critical for identifying causative organism and guiding de-escalation)
+Serum electrolytes, urea, creatinine (assess renal function, guide fluid management)
+Liver function tests (assess for hepatic involvement)
+Coagulation profile (PT, aPTT, INR, fibrinogen — screen for DIC)
+Serum lactate (if available — elevated lactate confirms tissue hypoperfusion and septic shock)
+Blood grouping and cross-matching (request at least 2 units of packed red cells urgently)
+Peripheral blood film (assess for haemolysis)
+
+Fluid resuscitation:
+Commence IV crystalloid resuscitation immediately
+0.9% Normal Saline or Ringer's Lactate
+Initial bolus: 1 litre as fast as possible (wide open)
+Reassess BP, pulse, and urine output after each litre
+Continue aggressive fluid resuscitation targeting:
+BP systolic greater than 90 mmHg (or MAP greater than 65 mmHg)
+Pulse below 100 bpm
+Urine output greater than 0.5 ml/kg/hr
+Use warm fluids where possible (prevents hypothermia)
+
+Blood transfusion:
+If haemoglobin less than 7 g/dL or symptomatic anaemia with haemodynamic compromise
+Transfuse packed red cells as soon as available
+Target haemoglobin greater than 8 g/dL before uterine evacuation
+
+Urinary catheter:
+Insert Foley catheter immediately
+Monitor urine output hourly
+Oliguria (less than 0.5 ml/kg/hr) indicates inadequate resuscitation or early acute kidney injury
+
+Vital sign monitoring:
+Continuous pulse oximetry
+BP and pulse every 15 minutes initially
+Temperature every 2 hours
+Document on a fluid balance chart
+
+Investigations
+
+Microbiological:
+Blood cultures (two sets, different sites, before first antibiotic dose — non-negotiable)
+High vaginal swab for microscopy, culture, and sensitivity
+Endocervical swab for MCS and NAAT for gonorrhoea and chlamydia
+Urine MCS (exclude concurrent urinary tract infection)
+
+Haematological and biochemical:
+Full blood count, peripheral blood film
+Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer)
+Serum electrolytes, urea, creatinine
+Liver function tests
+Serum lactate (tissue perfusion marker)
+Serum glucose (sepsis causes dysglycaemia)
+CRP and ESR (inflammatory markers, baseline and for monitoring response)
+
+Blood grouping and cross-matching:
+Request minimum 2 units packed red cells urgently
+Rhesus type (if Rhesus negative: anti-D immunoglobulin required after evacuation)
+
+Imaging:
+Pelvic ultrasound:
+Assess for retained products of conception (echogenic material within uterine cavity, thickened endometrium)
+Identify pelvic abscess or tubo-ovarian abscess (may require surgical drainage rather than simple evacuation)
+Free fluid in the pelvis
+Assess uterine integrity (exclude perforation)
+Chest X-ray:
+Baseline pre-operative assessment
+Exclude pulmonary complications (aspiration pneumonia, septic emboli)
+Gas under diaphragm (if perforation)
+
+Antibiotic Therapy (Start Immediately — Do Not Wait for Culture Results)
+
+Broad-spectrum IV antibiotics covering gram-negative aerobes, gram-positive organisms, and anaerobes are required. Antibiotics must be started before uterine evacuation to reduce the risk of bacteraemia during the procedure.
+
+First-line regimen:
+IV Ceftriaxone 2 g once daily (covers gram-negative organisms including E. coli, Klebsiella)
+PLUS IV Metronidazole 500 mg every 8 hours (covers anaerobes and Bacteroides species)
+PLUS IV Gentamicin 5 mg/kg once daily (synergistic gram-negative cover; check renal function before use and monitor levels)
+
+Alternative regimen (if gentamicin contraindicated or renal impairment):
+IV Ampicillin-Sulbactam 3 g every 6 hours PLUS IV Metronidazole 500 mg every 8 hours
+
+If clostridial infection suspected (gas gangrene features: bronze skin discolouration, crepitus, rapid haemolysis, jaundice, profound shock):
+Add high-dose IV Penicillin G (Benzylpenicillin) 4 million units every 4 hours
+Prepare for hysterectomy (definitive management for clostridial myometritis)
+This is not currently present but must be actively screened for
+
+Duration:
+Continue IV antibiotics until patient is afebrile for 48 hours and clinically improving
+Transition to oral antibiotics to complete a total of 14 days
+Adjust regimen based on culture and sensitivity results when available
+
+Antipyretics:
+IV or oral Paracetamol 1 g every 6–8 hours for fever and pain management
+Tepid sponging and cooling measures as adjuncts
+
+Definitive Management — Uterine Evacuation
+
+Indication:
+Retained products of conception confirmed or suspected following incomplete or septic abortion
+Evacuation is essential to remove the source of infection and haemorrhage
+However, it must not be performed until:
+Resuscitation is underway (adequate IV access, fluids running, oxygen administered)
+IV antibiotics have been commenced (at least one dose given)
+Patient is sufficiently stabilised for anaesthesia (BP improving, pulse decreasing)
+
+Method:
+
+Manual vacuum aspiration (MVA):
+Preferred method for first-trimester retained products (up to 12–14 weeks)
+Safe, effective, and can be performed under local anaesthesia or sedation
+Less traumatic than sharp curettage
+Lower risk of uterine perforation in a softened, infected uterus
+Preferred in this patient (10 weeks gestation)
+
+Electric vacuum aspiration or suction evacuation:
+Alternative to MVA if available
+
+Sharp curettage:
+Avoid as first-line in septic abortion if possible (higher risk of perforation in a soft infected uterus)
+May be used to complete evacuation if MVA leaves residual tissue confirmed on ultrasound
+
+Pre-operative preparation:
+Informed consent (explain procedure, risks including perforation, haemorrhage, anaesthesia risks)
+Anaesthetic assessment (general anaesthesia preferred given severity of illness)
+Ensure blood available in theatre
+Theatre team briefed
+
+Intraoperative considerations:
+Gentle technique (uterine wall friable in infection)
+Do not use excessive force or oversized instruments
+Assess for uterine perforation intraoperatively
+If perforation suspected: laparoscopy or laparotomy to assess and repair
+Send evacuated products for histopathology (confirm products of conception, exclude gestational trophoblastic disease, assess for necrosis)
+
+Post-evacuation uterotonics:
+IV or IM Oxytocin 10 units after evacuation (to stimulate uterine contraction and reduce bleeding)
+Or oxytocin infusion 20–40 units in 1 litre Normal Saline
+Ergometrine 0.5 mg IM if not contraindicated (reinforces uterine contraction)
+
+Anti-D immunoglobulin:
+If patient is Rhesus negative: administer within 72 hours of evacuation
+250 IU (50 mcg) IM for pregnancy less than 12 weeks
+
+Post-operative monitoring:
+Vital signs every 30 minutes for 2 hours, then hourly
+Urine output hourly
+Vaginal bleeding (should reduce significantly after evacuation)
+Uterine tone (fundal palpation)
+
+Supportive Care
+
+Analgesics:
+IV Paracetamol 1 g every 6 hours (regular)
+IV or IM Tramadol 50–100 mg every 8 hours for moderate to severe pain
+Reduce opioids as condition improves
+
+Fluid balance:
+Strict input-output monitoring
+Replace ongoing losses (fever increases insensible losses)
+Avoid fluid overload (monitor for pulmonary oedema, especially if renal function compromised)
+
+Nutritional support:
+Nil by mouth initially (pending evacuation under anaesthesia)
+Resume oral intake when alert, not nauseated, and tolerating
+High-protein diet during recovery to support healing and immune function
+Oral iron supplementation once tolerating food (correct anaemia)
+
+Thromboprophylaxis:
+Risk of venous thromboembolism from sepsis, immobility, and surgery
+TED compression stockings applied pre-operatively
+Low molecular weight heparin (Enoxaparin 40 mg SC daily) commenced after haemostasis confirmed (12–24 hours post-evacuation)
+Early mobilisation once condition permits
+
+Psychological support:
+This patient has experienced an unsafe abortion in a context where abortion is legally restricted
+Approach with compassion and a non-judgemental attitude
+She may feel guilt, fear, or shame; these emotions must be acknowledged
+Ensure privacy and confidentiality throughout
+
+Management of Specific Complications
+
+DIC (if confirmed):
+Fresh frozen plasma: 15 ml/kg (4–6 units)
+Cryoprecipitate: if fibrinogen less than 1.5 g/L
+Platelets: if platelet count less than 50,000/μL
+Treat underlying infection and evacuate uterus urgently (removing source resolves DIC)
+
+Acute kidney injury:
+Optimise fluid resuscitation first
+Avoid nephrotoxic drugs (consider withholding gentamicin if creatinine rising)
+If oliguria persists despite adequate fluid resuscitation: nephrology review
+Haemodialysis if severe renal failure develops
+
+Pelvic abscess or tubo-ovarian abscess:
+If confirmed on ultrasound: may require surgical drainage
+Discuss with senior gynaecologist
+May require laparotomy in addition to uterine evacuation
+
+Uterine perforation:
+If suspected during evacuation: stop procedure, perform laparoscopy to assess
+Repair perforation if possible
+Hysterectomy if extensive laceration or devascularisation
+
+Clostridial sepsis (if suspected):
+High-dose Penicillin G added to regimen
+Hysterectomy is life-saving and should not be delayed
+Call most senior surgeon available
+
+Counselling
+
+This patient requires sensitive, non-judgemental counselling throughout her admission and recovery
+
+Immediate explanation of diagnosis and condition:
+Explain that there is an infection in the womb following the procedure she had
+The infection is serious and has affected her blood pressure and overall condition
+Treatment involves antibiotics and a procedure to clear the remaining tissue from the womb
+The situation is urgent but the medical team is managing it actively
+
+Risks of unsafe abortion:
+Explain clearly but compassionately that procedures performed outside properly equipped and regulated facilities carry serious risks of incomplete evacuation, infection, uterine injury, and death
+This is not to condemn her decision but to ensure she understands the risks for the future
+Emphasise that medical abortion (using tablets) and regulated surgical abortion services are safer alternatives
+In Nigeria, abortion is legally restricted (permitted to save the life of the mother under the Criminal Code); however, the focus of counselling is on harm reduction and her health, not legal proceedings
+She should not be reported to authorities for seeking an abortion
+
+Future contraception:
+Unintended pregnancy was the precipitating event
+Counselling on contraception is essential after recovery
+Options to discuss:
+Combined oral contraceptive pill
+Progestin-only pill or injectable (Depo-Provera)
+Implant (Implanon/Nexplanon) — highly effective, long-acting
+Intrauterine device: can be inserted at time of evacuation or at 6-week follow-up (avoid in active infection; defer until infection resolved and confirmed clear)
+Condoms: dual protection (pregnancy and STI prevention)
+Emphasise that no contraceptive method has a higher complication rate than an unintended pregnancy managed outside a healthcare facility
+
+Long-term fertility implications:
+Severe pelvic infection can cause tubal damage, adhesions, and infertility
+The extent of damage cannot be assessed until after full recovery
+Reassure her that many women recover normal fertility after treated septic abortion
+Hysterosalpingography or laparoscopy may be arranged in future to assess tubal patency if pregnancy is desired
+
+Emotional and psychological support:
+She may be grieving the pregnancy, experiencing shame, or fearful of judgement
+Offer non-judgemental listening
+Refer to social worker or counsellor if available
+Ensure she has a support system (trusted family member or friend if willing to disclose)
+
+Confidentiality:
+Reassure her that her care is confidential
+Information will only be shared within the clinical team for the purpose of her treatment
+
+PROGNOSIS
+
+Prognosis depends on rapidity of intervention and severity of infection at presentation
+
+Immediate prognosis:
+This patient presents in septic shock, which carries a significant mortality risk if not managed urgently
+With prompt resuscitation, IV antibiotics, and uterine evacuation: mortality is low (less than 1% in well-resourced settings)
+Risk of mortality is higher in settings with limited ICU capacity, delayed blood availability, or delayed theatre access
+
+Favourable prognostic factors:
+Young (22 years)
+Otherwise healthy (no known comorbidities)
+Presenting early enough (4 days from onset)
+No evidence of clostridial infection or gas gangrene
+Haemodynamically compromised but responsive to resuscitation if initiated promptly
+
+Unfavourable factors:
+Septic shock at presentation (BP 90/60 mmHg, pulse 118 bpm)
+SpO₂ reduced (96%)
+Failure of initial oral antibiotic therapy
+Likely polymicrobial infection following unsafe instrumentation
+Anaemia (from blood loss, further reducing oxygen delivery)
+
+Long-term prognosis:
+Full recovery expected if managed promptly
+Risk of tubal factor infertility from pelvic infection (depends on extent of damage)
+Risk of intrauterine adhesions (Asherman syndrome) if aggressive curettage performed (avoided by using MVA)
+Psychological sequelae: possible grief, anxiety, or post-traumatic stress — requires ongoing support
+
+FOLLOW-UP
+Review clinical response to antibiotics at 48–72 hours (fever should be defervescing, bleeding reducing). Histopathology of evacuated products to be reviewed. Repeat pelvic ultrasound 1 week after evacuation to confirm empty uterus. Discharge when afebrile for 48 hours, tolerating oral intake, and haemodynamically stable. Outpatient review at 2 weeks: clinical assessment, wound check if applicable, FBC. Review at 6 weeks: contraceptive counselling and initiation, menstrual history, psychological assessment, pelvic examination. Long-term fertility assessment if desired (hysterosalpingography at 3–6 months).
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-29',
+  title: 'Acute Abnormal Uterine Bleeding with Symptomatic Anaemia',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology/Reproductive Endocrinology',
+  condition: 'Acute abnormal uterine bleeding (heavy menstrual bleeding) with symptomatic anaemia and haemodynamic compromise, on a background of one year of menorrhagia',
+  symptoms: [
+    'Heavy vaginal bleeding',
+    'Dizziness for 2 days',
+    'Generalised weakness',
+    'Lower abdominal cramping pain',
+    'Symptomatic anaemia',
+    'Moderate pallor',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 38-year-old G3P3+0 trader presenting with a 5-day history of abnormally heavy menstrual bleeding soaking 5–6 fully soaked pads per day with large clots and requirement for double padding, 2-day history of progressive dizziness and generalised weakness, and more severe than usual lower abdominal cramping. LMP commenced 5 days ago and is ongoing. Background history of progressive heavy menstrual bleeding over the past 1 year, though not as severe as the current episode. Not using contraception, no prior cervical screening, pregnancy status not yet confirmed. Examination reveals an ill-looking, moderately pale woman with haemodynamic compromise (BP 95/60 mmHg, pulse 108 bpm, RR 22 cpm). Abdomen shows mild suprapubic tenderness with no masses. Pelvic examination reveals active bleeding from the cervical os with blood and clots in the vaginal vault, a healthy-appearing cervix, normal-sized uterus, and no adnexal masses. Diagnosis: acute abnormal uterine bleeding (AUB) with symptomatic anaemia and haemodynamic compromise, on a background of one year of menorrhagia, requiring urgent stabilisation, exclusion of pregnancy, haematological support, medical haemostasis, and investigation to identify the underlying cause.',
+  content: `
+A 38-year-old G3P3+0 trader, resident in Agege, Lagos State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G3
+Parity: P3+0 (three term deliveries, no miscarriages)
+Living children: 3 alive
+LMP: 23/03/2026 (commenced 5 days ago, ongoing)
+
+PRESENTING COMPLAINTS
+Heavy vaginal bleeding × 5 days
+Dizziness × 2 days
+Generalised weakness × 2 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 5 days prior to presentation when she commenced her menstrual period, which has been abnormally heavy from onset. She reports passage of large clots and bleeding severe enough to soak 5–6 fully soaked sanitary pads per day, sometimes requiring double padding. Bleeding has been continuous with no reduction in flow since onset.
+
+About 2 days into the bleeding, she developed dizziness and generalised weakness, which have progressively worsened. There is no history of syncope or loss of consciousness.
+
+There is associated lower abdominal cramping pain, similar in character to her usual menstrual pain but more severe than she typically experiences.
+
+There is no history of passage of tissue, foul-smelling vaginal discharge, or fever. There is no prior history of postcoital or intermenstrual bleeding. She reports no period of amenorrhoea prior to the onset of current bleeding, though pregnancy status has not yet been formally confirmed.
+
+She reports a background history of progressively heavy menstrual bleeding over the past 1 year, though no prior episode has been as severe or as prolonged as the current one.
+
+The symptoms have significantly affected her daily activities, with inability to carry out routine work. Since onset, she has been using over-the-counter haematinics and analgesics obtained from a chemist with no improvement.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 14 years
+Previously regular 28-day cycles
+Progressive heavy menstrual bleeding over the past 1 year
+Current episode most severe to date
+
+Contraceptive History:
+Not using any contraception
+
+Cervical Cancer Screening:
+No prior Pap smear
+
+OBSTETRIC HISTORY
+G3P3+0
+Three term spontaneous vaginal deliveries
+All children alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior surgeries
+No prior blood transfusion
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Currently using over-the-counter haematinics and analgesics with no improvement
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No known bleeding disorders in first-degree relatives
+No known gynaecological malignancies
+
+Social History:
+Married in a monogamous setting
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 38-year-old G3P3+0 woman presenting with acute heavy uterine bleeding with haemodynamic compromise on a background of one year of progressively worsening menorrhagia, requiring urgent stabilisation, pregnancy exclusion, identification of the underlying aetiology, and targeted management.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Ill-looking
+Moderately pale
+Afebrile
+Not jaundiced
+Not dehydrated
+
+Vital Signs:
+Pulse: 108 bpm (tachycardia, from anaemia and hypovolaemia)
+BP: 95/60 mmHg (hypotension, haemodynamically compromised)
+RR: 22 cpm (mildly elevated, compensatory)
+SpO₂: 98% room air
+
+Abdominal Examination:
+
+Inspection:
+Abdomen flat, moves with respiration
+
+Palpation:
+Mild suprapubic tenderness
+No guarding or rebound tenderness
+No palpable masses or organomegaly
+No palpable uterine enlargement (fibroids not excluded without ultrasound)
+
+Percussion:
+No evidence of ascites
+
+Pelvic Examination:
+
+Speculum Examination:
+Active bleeding seen from the cervical os
+Blood with clots in vaginal vault
+Cervix appears healthy with no lesions, polyps, or contact bleeding
+External os appears closed
+
+Bimanual Examination:
+Uterus normal size
+No adnexal masses palpable
+No cervical motion tenderness
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Acute abnormal uterine bleeding (AUB) with symptomatic anaemia and haemodynamic compromise, on a background of one year of menorrhagia, underlying cause to be determined
+
+Classification using the FIGO PALM-COEIN system:
+
+The PALM-COEIN classification is the internationally accepted framework for categorising causes of AUB in reproductive-age women. PALM denotes structural causes; COEIN denotes non-structural causes.
+
+PALM (Structural causes):
+
+Polyp (AUB-P):
+Endometrial or cervical polyps cause irregular or heavy bleeding
+Cervix appears healthy on speculum (no visible polyp)
+Endometrial polyps require ultrasound or hysteroscopy to identify
+Possible but not yet assessed
+
+Adenomyosis (AUB-A):
+Endometrial glands and stroma within the myometrium
+Causes heavy, painful menstrual bleeding (as in this patient — more severe dysmenorrhoea)
+Uterus may be uniformly enlarged and globular
+Uterus normal size on examination, but ultrasound (especially transvaginal) is more sensitive
+A significant consideration in this patient given age, multiparity, heavy bleeding, and worsening dysmenorrhoea
+
+Leiomyoma (AUB-L):
+Uterine fibroids are the most common structural cause of AUB in reproductive-age African women
+Submucosal fibroids (distort the uterine cavity) most strongly associated with heavy bleeding
+Intramural and subserosal fibroids contribute to AUB to a lesser extent
+Multiparity and African ethnicity are risk factors
+Uterus clinically normal size in this patient, but small submucosal fibroids are not detectable on clinical examination alone
+Pelvic ultrasound essential to exclude
+High clinical suspicion given background menorrhagia over 1 year
+
+Malignancy and hyperplasia (AUB-M):
+Endometrial hyperplasia or carcinoma must be excluded in any woman aged 35 years or older with abnormal uterine bleeding
+This patient is 38 years old: endometrial sampling is mandatory
+Risk factors in this patient: age 38 years, heavy irregular bleeding, nulliparous (not applicable here — multiparity is protective but not eliminatory)
+Obesity, hypertension, diabetes, and anovulatory cycles are additional risk factors (to be further assessed)
+Cervix appears healthy (no visible malignancy), but endometrial pathology requires histological assessment
+
+COEIN (Non-structural causes):
+
+Coagulopathy (AUB-C):
+Inherited or acquired bleeding disorders
+Von Willebrand disease is the most common inherited coagulopathy causing AUB
+No personal or family history of bleeding disorder reported
+However, chronic iron deficiency anaemia from prolonged AUB can cause platelet dysfunction
+Coagulation profile required to screen
+
+Ovulatory dysfunction (AUB-O):
+Anovulatory cycles cause unopposed oestrogen stimulation of the endometrium, leading to irregular, sometimes heavy bleeding
+Common in women approaching perimenopause (age 38, approaching the perimenopausal transition)
+Irregular cycle patterns may develop
+This patient previously had regular cycles but now has worsening menorrhagia — ovulatory dysfunction is a plausible contributor
+Serum progesterone (mid-luteal) can confirm ovulation status
+
+Endometrial (AUB-E):
+Primary disorders of the endometrium affecting haemostasis (e.g., deficient local production of prostaglandins or fibrinolytic factors)
+Diagnosis of exclusion when no structural or systemic cause identified
+Possible contributor
+
+Iatrogenic (AUB-I):
+No anticoagulant or hormonal medication use reported
+Not applicable here
+
+Not yet classified (AUB-N):
+Rare causes not fitting other categories
+Less likely in this clinical context
+
+Most likely causes in this patient:
+Uterine leiomyoma (submucosal) and/or adenomyosis are the most probable structural causes given the clinical profile: age 38, African ethnicity, multiparity, one year of worsening menorrhagia with dysmenorrhoea, normal-sized uterus on palpation (small fibroids), and now acute severe bleeding episode
+Ovulatory dysfunction (perimenopausal transition) is a significant non-structural contributor
+Endometrial hyperplasia or malignancy must be actively excluded given her age
+Pregnancy-related bleeding must be excluded first before any other management is pursued
+
+Severity of current presentation:
+Acute heavy menstrual bleeding with:
+Quantitative heavy flow: 5–6 fully soaked pads per day with large clots (well above the clinical threshold of abnormally heavy bleeding)
+Haemodynamic compromise: BP 95/60 mmHg, pulse 108 bpm (meets criteria for haemodynamic instability)
+Symptomatic anaemia: dizziness, generalised weakness, moderate pallor
+This constitutes an acute gynaecological emergency requiring immediate haemostasis alongside investigation
+
+Differential diagnoses:
+
+Pregnancy-related bleeding (threatened or incomplete abortion):
+Must be the very first condition excluded in any woman of reproductive age with uterine bleeding
+No amenorrhoea reported prior to current episode, but this does not exclude early pregnancy
+Pregnancy test is the most urgent single investigation before any intervention
+If positive: management pathway changes completely (ectopic pregnancy, miscarriage)
+
+Endometrial hyperplasia or carcinoma:
+Heavy bleeding in a woman aged 38 with one year of AUB
+Cannot be excluded clinically
+Endometrial sampling mandatory
+
+Coagulopathy:
+Heavy bleeding from first period (Von Willebrand disease) or acquired coagulopathy
+Family history negative, but formal coagulation screen required
+
+Cervical pathology:
+Cervical polyp or carcinoma
+Cervix appears healthy, no contact bleeding, os appears closed
+Less likely but not fully excluded without colposcopy if indicated
+
+Thyroid disease:
+Hypothyroidism causes anovulation, menorrhagia, and anaemia
+Thyroid function tests should be included in the workup
+
+PLAN
+
+This patient requires simultaneous resuscitation and haematological stabilisation alongside urgent investigation
+
+Immediate Resuscitation and Stabilisation
+
+Admit to gynaecology ward or emergency unit
+Inform senior gynaecologist
+
+Airway and Breathing:
+Airway patent (patient conscious)
+Administer supplemental oxygen via face mask (4–6 L/min) given tachycardia and haemodynamic compromise
+Target SpO₂ greater than 98%
+
+Circulation:
+Establish IV access with two wide-bore cannulae (16G or 18G)
+Send blood samples urgently (see investigations below)
+Commence IV crystalloid resuscitation: 0.9% Normal Saline or Ringer's Lactate, initial bolus of 500 ml–1 litre
+Reassess BP and pulse after each fluid bolus
+Target: BP systolic greater than 100 mmHg, pulse below 100 bpm
+
+Monitoring:
+Vital signs every 15–30 minutes initially
+Urine output (insert Foley catheter if haemodynamic compromise persists)
+Quantify ongoing blood loss (pad count, weigh pads)
+Document on fluid balance chart
+
+Nil by mouth:
+Not immediately required unless theatre anticipated
+Can have light oral intake initially if no surgical intervention planned
+
+Investigations (Urgent)
+
+Pregnancy test:
+Urine or serum beta-hCG
+Single most important immediate investigation
+Must be done before any gynaecological intervention or medical treatment
+If positive: manage as pregnancy-related bleeding (ectopic vs intrauterine, viable vs non-viable)
+
+Full blood count:
+Haemoglobin and haematocrit (quantify anaemia)
+White cell count (exclude infection)
+Platelet count (assess for thrombocytopaenia)
+Mean corpuscular volume (assess iron deficiency, microcytic anaemia expected)
+
+Blood grouping and cross-matching:
+Essential given haemodynamic compromise
+Request at least 2 units of packed red cells urgently
+Rhesus type documented
+
+Coagulation profile:
+Prothrombin time, activated partial thromboplastin time, INR, fibrinogen
+Screen for coagulopathy as a cause or complication of acute blood loss
+Von Willebrand factor assay and factor VIII levels if coagulopathy suspected clinically
+
+Peripheral blood film:
+Assess red cell morphology (iron deficiency, haemolysis)
+Confirm platelet count
+
+Serum ferritin and iron studies:
+Assess iron stores (likely depleted given one year of heavy bleeding)
+Guides duration and intensity of iron replacement
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function
+Guide fluid management
+
+Thyroid function tests:
+Thyroid-stimulating hormone, free T4
+Hypothyroidism is a reversible cause of menorrhagia
+Should be included in the initial workup
+
+Pelvic ultrasound (transvaginal preferred):
+Most important imaging investigation
+Assess:
+Uterine size, shape, and echogenicity
+Presence, number, size, and location of fibroids (particularly submucosal)
+Endometrial thickness and echogenicity (thickened endometrium raises concern for hyperplasia or malignancy; normal postmenstrual endometrium should be thin)
+Features of adenomyosis (myometrial heterogeneity, asymmetric myometrial thickening, subendometrial cysts)
+Adnexal pathology (ovarian cysts, masses)
+Free fluid in the pouch of Douglas
+Exclude intrauterine pregnancy
+
+Endometrial sampling:
+Mandatory in this patient given age (38 years) with one year of abnormal uterine bleeding
+Options:
+Pipelle endometrial biopsy: office procedure, minimally invasive, well-tolerated, adequate for most cases
+Dilatation and curettage (D&C): if office biopsy not possible or to be performed under anaesthesia (combined with hysteroscopy for optimal assessment)
+Sample sent for histopathological analysis to exclude endometrial hyperplasia, carcinoma, or other endometrial pathology
+Perform after acute bleeding is controlled and patient is haemodynamically stable (or combined with operative hysteroscopy if theatre required)
+
+Hysteroscopy (elective or semi-urgent):
+Gold standard for visualising the uterine cavity
+Allows direct identification of submucosal fibroids, polyps, and endometrial abnormalities
+Guides targeted biopsy from suspicious areas
+Can be combined with operative treatment (polypectomy, fibroid resection)
+Arranged after stabilisation
+
+Acute Medical Management of Bleeding
+
+Medical haemostasis should be initiated promptly after pregnancy is excluded and alongside resuscitation
+
+Tranexamic acid (antifibrinolytic):
+Mechanism: inhibits plasminogen activation, prevents fibrinolysis, stabilises clot at the endometrial surface
+IV Tranexamic acid 1 g (10 mg/kg) over 10–15 minutes, three times daily
+Transition to oral Tranexamic acid 1 g three times daily once tolerating oral intake
+Duration: continue for the remainder of the menstrual period (maximum 5 days per cycle)
+Highly effective for acute AUB, reduces menstrual blood loss by 30–50%
+No contraindication in this patient (no thromboembolic history, no haematuria)
+
+High-dose progestogens (for acute hormonal haemostasis):
+If pregnancy excluded: progestogens stabilise the endometrium and stop acute bleeding
+Oral Norethisterone (norethindrone) 5 mg three times daily until bleeding controlled (usually 5–10 days), then taper
+Medroxyprogesterone acetate 10–20 mg orally twice daily is an alternative
+Continue for 21 days after acute episode resolves, then allow withdrawal bleed
+Mechanism: opposes oestrogen-driven endometrial proliferation and induces organised shedding
+
+High-dose combined oral contraceptive pill (COC):
+Alternative to progestogens for acute haemostasis
+Give COC (30–35 mcg ethinylestradiol) one tablet three times daily for 7 days, then taper to one tablet daily
+Rapidly reduces bleeding in most patients
+Caution: avoid in women with thromboembolism risk, migraine with aura, liver disease, or uncontrolled hypertension
+This patient is currently hypotensive (BP 95/60 mmHg); reassess before initiating
+
+IV conjugated oestrogen (if available and bleeding very severe):
+Conjugated equine oestrogen 25 mg IV every 4–6 hours for up to 24 hours
+Rapidly promotes endometrial regrowth and haemostasis
+Used when progestogens alone are insufficient for very heavy bleeding
+Must be followed by progestogen therapy to prevent rebound bleeding
+Less commonly available in many centres
+
+NSAIDs (adjunct):
+Mefenamic acid 500 mg three times daily or Ibuprofen 400–600 mg three times daily
+Reduce prostaglandin-mediated endometrial vasodilation and menstrual blood loss (by 20–30%)
+Also provide analgesia for dysmenorrhoea
+Use with caution in the context of haemodynamic compromise (may worsen renal perfusion); reassess once BP stabilised
+
+Correction of Anaemia
+
+Assessment:
+Haemoglobin result will guide decision
+
+Blood transfusion:
+Indicated if haemoglobin less than 7 g/dL OR haemoglobin 7–9 g/dL with haemodynamic instability and ongoing heavy bleeding (as in this patient)
+Transfuse packed red blood cells (one unit raises haemoglobin by approximately 1 g/dL)
+Target haemoglobin greater than 8–9 g/dL acutely
+Monitor for transfusion reactions
+
+IV iron therapy:
+Iron deficiency confirmed by microcytic anaemia and low ferritin (expected after one year of heavy bleeding)
+IV ferric carboxymaltose or IV iron sucrose if:
+Haemoglobin 7–10 g/dL with ongoing heavy bleeding where oral iron absorption is insufficient
+Patient unable to tolerate oral iron
+Rapid iron repletion needed
+Doses: Ferric carboxymaltose 1000 mg IV single dose (or iron sucrose 200 mg IV over 15 minutes, repeated as needed)
+Faster and more reliable than oral iron in the setting of acute blood loss
+
+Oral iron therapy (once bleeding controlled):
+Ferrous sulphate 200 mg twice to three times daily
+Take on an empty stomach with vitamin C (ascorbic acid) to enhance absorption
+Advise patient that stools will become dark
+Continue for 3–6 months after haemoglobin normalises to replenish iron stores
+
+Definitive Management (After Stabilisation and Investigation Results)
+
+Treatment depends on the identified underlying cause and patient preference regarding future fertility.
+
+If uterine fibroids confirmed (AUB-L):
+
+Medical management (for women wishing to avoid surgery or preserve fertility):
+Levonorgestrel-releasing intrauterine system (LNG-IUS, Mirena):
+First-line long-term medical treatment for AUB including fibroid-related bleeding
+Reduces menstrual blood loss by up to 90%
+Not suitable if submucosal fibroid significantly distorts the uterine cavity
+Combined oral contraceptive pill: reduces menstrual blood loss but less effective than LNG-IUS
+Progestogens (cyclical or continuous): second-line
+GnRH agonists (Leuprolide acetate, Goserelin):
+Suppress oestrogen, cause amenorrhoea and fibroid shrinkage
+Used pre-operatively to reduce fibroid size, correct anaemia, and facilitate surgery
+Maximum 6 months use (bone density loss with prolonged use)
+Add-back therapy (low-dose oestrogen/progestogen) if prolonged use required
+Tranexamic acid: for acute episodes (as above)
+
+Surgical management:
+Hysteroscopic myomectomy: removal of submucosal fibroids through the hysteroscope (no abdominal incision, preserve uterus, suitable for women desiring future pregnancy)
+Abdominal or laparoscopic myomectomy: for intramural or subserosal fibroids not amenable to hysteroscopic approach
+Hysterectomy: definitive cure for AUB from fibroids; appropriate for women who have completed childbearing and prefer a permanent solution; total or subtotal hysterectomy depending on cervical pathology
+Uterine artery embolisation (UAE): interventional radiology procedure; occludes uterine arteries, causing fibroid infarction; effective alternative to surgery; not recommended if future pregnancy desired
+
+If adenomyosis confirmed (AUB-A):
+
+Medical:
+LNG-IUS (first-line, highly effective for adenomyosis-related AUB)
+GnRH agonists (pre-operative or short-term management)
+Combined oral contraceptive pill or progestogens
+
+Surgical:
+Hysterectomy: only definitive cure for adenomyosis; appropriate if childbearing complete
+
+If endometrial hyperplasia confirmed (AUB-M):
+
+Simple hyperplasia without atypia:
+Progestogen therapy (oral Medroxyprogesterone acetate or LNG-IUS)
+Repeat endometrial sampling at 3–6 months to confirm regression
+Risk of progression to malignancy is low (less than 5%)
+
+Complex hyperplasia without atypia:
+High-dose progestogen therapy or LNG-IUS
+Close surveillance with repeat biopsy
+
+Atypical hyperplasia:
+High risk of co-existing endometrial carcinoma (up to 40%)
+Hysterectomy recommended (total abdominal hysterectomy with bilateral salpingo-oophorectomy)
+Fertility-sparing progestogen therapy possible in selected young women desiring pregnancy, with intensive surveillance
+
+Endometrial carcinoma:
+Refer urgently to gynaecological oncology
+Surgical staging and treatment
+
+If ovulatory dysfunction (perimenopausal) confirmed (AUB-O):
+
+Hormonal regulation:
+Combined oral contraceptive pill (regulates cycle, reduces bleeding)
+Cyclical progestogens (days 15–26 of cycle)
+LNG-IUS
+
+Endometrial protection:
+Essential to prevent unopposed oestrogen stimulation and hyperplasia in anovulatory women
+
+If coagulopathy confirmed:
+
+Haematology referral
+Condition-specific management (e.g., desmopressin or factor replacement for Von Willebrand disease)
+Avoid NSAIDs and aspirin
+
+Supportive Care
+
+Analgesia:
+Paracetamol 1 g orally or IV every 6–8 hours (regular)
+Mefenamic acid 500 mg three times daily with food (analgesic and anti-prostaglandin, reduces menstrual blood loss)
+Avoid NSAIDs if BP remains critically low (reassess once stabilised)
+Ibuprofen 400 mg three times daily as alternative
+
+Nutritional support:
+High-protein, iron-rich diet (green leafy vegetables, red meat, beans, fortified cereals)
+Oral iron supplementation as above
+Folic acid supplementation (if significant blood loss and haematological compromise)
+
+Thromboprophylaxis:
+Risk of venous thromboembolism is low in acute anaemia and hypotension
+Reassess when haemodynamic stability restored and if hormonal treatment (COC) commenced
+TED stockings while in hospital and immobile
+Encourage early mobilisation
+
+Rest:
+Bed rest initially while haemodynamically compromised
+Gradual mobilisation with nursing support
+
+Counselling
+
+Explanation of diagnosis and clinical situation:
+Explain that the abnormal heavy bleeding is beyond what is normal for menstruation
+The current episode is serious because it has caused a significant drop in blood levels (anaemia) and reduced her blood pressure
+She requires hospitalisation for monitoring, treatment to stop the bleeding, and blood support if needed
+
+Explanation of investigation plan:
+A pregnancy test will be done first to rule out pregnancy-related causes
+Blood tests will assess the degree of blood loss and check for clotting problems
+An ultrasound scan of the pelvis will look for fibroids or other structural causes
+A small sample from the lining of the womb may be needed (especially at her age) to check for abnormal cells
+
+Explanation of treatment:
+Medicines will be given to slow and stop the bleeding
+She may need a blood transfusion if her blood level is found to be very low
+Longer-term treatment will depend on the cause found on investigations
+
+Discussion of underlying cause and long-term implications:
+The one-year history of worsening heavy periods suggests an underlying problem in the womb that needs to be identified and treated
+Common causes include fibroids (non-cancerous growths) or hormonal changes related to approaching menopause
+Cancer of the lining of the womb is less common but must be excluded given her age, and a biopsy will address this
+The treatment available depends on the cause and whether she may desire any future pregnancies (she has three living children but should be asked directly about her wishes)
+
+Future contraception and fertility:
+She is not currently using contraception; discuss options following treatment
+Hormonal treatments used to control bleeding (such as the LNG-IUS) also provide effective contraception
+She should be asked directly whether her family is complete, as this significantly influences the choice between fertility-sparing and definitive surgical options
+If childbearing is complete: hysterectomy may be the most definitive option and can be discussed
+If she may wish to preserve fertility: medical management and uterine-sparing surgery will be prioritised
+
+Cervical screening:
+No prior Pap smear
+Cervical cancer screening should be arranged at this or the next outpatient visit
+Speculum examination already performed with a healthy-appearing cervix; formal screening to follow
+
+Lifestyle and nutrition:
+Encourage iron-rich diet
+Adherence to iron supplementation is important to rebuild blood stores
+Avoid self-medicating with over-the-counter products and return promptly if bleeding worsens
+
+PROGNOSIS
+
+Immediate prognosis:
+With prompt resuscitation, medical haemostasis, and anaemia correction: good response expected in the majority of cases
+Bleeding usually controlled within 24–72 hours of appropriate medical therapy
+Haemodynamic stabilisation expected with IV fluids and transfusion if required
+
+Long-term prognosis:
+Depends entirely on the underlying diagnosis
+
+Fibroids:
+Excellent prognosis with appropriate medical or surgical management
+Recurrence of fibroids after myomectomy: 20–30% at 10 years
+Hysterectomy is curative
+
+Adenomyosis:
+Good symptom control with medical therapy (LNG-IUS in particular)
+Definitive cure with hysterectomy
+
+Endometrial hyperplasia without atypia:
+Excellent prognosis with progestogen therapy and surveillance
+Low risk of malignant transformation
+
+Atypical hyperplasia or endometrial carcinoma:
+Prognosis stage-dependent
+Early-stage endometrial carcinoma (Stage I): 5-year survival greater than 85%
+Requires prompt specialist referral
+
+Ovulatory dysfunction:
+Good response to hormonal regulation
+Symptoms often resolve or improve with menopause
+
+Factors affecting long-term outcome:
+Delayed presentation and self-medication with haematinics rather than seeking medical care contributed to current severity
+Adherence to treatment and follow-up will determine long-term outcome
+Patient education is critical to prevent recurrence of acute presentations
+
+FOLLOW-UP
+Review of all investigation results within 24–48 hours. Clinical reassessment of haemodynamic status and bleeding volume daily during admission. Discharge when haemodynamically stable, bleeding controlled, and haemoglobin acceptable. Outpatient gynaecology review in 2 weeks with investigation results, ultrasound findings, and endometrial biopsy result. Definitive management plan formulated at this review based on aetiology. Further follow-up at 6 weeks to assess response to treatment and initiate long-term therapy. Annual gynaecological review including cervical screening thereafter.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-30',
+  title: 'Uterine Fibroids (Leiomyoma Uteri) with Abnormal Uterine Bleeding',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology',
+  condition: 'Symptomatic uterine leiomyomata with abnormal uterine bleeding, progressive abdominal swelling, and symptomatic anaemia',
+  symptoms: [
+    'Lower abdominal swelling',
+    'Heavy menstrual bleeding',
+    'Lower abdominal pain',
+    'Dysmenorrhoea',
+    'Easy fatigability and dizziness',
+    'Firm, irregular, non-tender suprapubic mass',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 42-year-old G3P3+0 trader presenting with a 1-year history of progressive lower abdominal swelling and 6-month history of heavy menstrual bleeding with large clots soaking 5–6 pads per day, lower abdominal pain worsening during menstruation with occasional radiation to the lower back, and associated dysmenorrhoea, easy fatigability, and dizziness. LMP 2 weeks ago. Not using contraception, no prior cervical screening, no prior specialist evaluation. Self-medicating with over-the-counter analgesics and haematinics with minimal relief. Family history of uterine fibroids. Examination reveals a well-looking but mildly pale woman, haemodynamically stable. Abdominal examination shows a firm, irregular, non-tender suprapubic mass of approximately 14-week size with limited mobility. Pelvic examination confirms a 14-week-sized, irregular, firm, non-tender uterus with no adnexal masses and a healthy cervix. Diagnosis: symptomatic uterine leiomyomata (fibroids) presenting with abnormal uterine bleeding (AUB-L) and symptomatic iron deficiency anaemia. Requires confirmation and characterisation by pelvic ultrasound, haematological assessment, correction of anaemia, and multidisciplinary discussion of definitive management options based on symptom burden and completion of childbearing.',
+  content: `
+A 42-year-old G3P3+0 trader, resident in Ibadan, Oyo State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G3
+Parity: P3+0 (three term deliveries, no miscarriages)
+Living children: 3 alive
+LMP: 13/03/2026 (2 weeks prior to presentation)
+
+PRESENTING COMPLAINTS
+Lower abdominal swelling × 1 year
+Heavy menstrual bleeding × 6 months
+Lower abdominal pain × 6 months
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 1 year prior to presentation when she first noticed a lower abdominal swelling. The swelling was insidious in onset and has been gradually increasing in size. It is not associated with acute pain but gives a sensation of abdominal fullness and progressive abdominal distension.
+
+About 6 months prior to presentation, she developed heavy menstrual bleeding characterised by passage of large clots and use of 5–6 fully soaked sanitary pads per day, sometimes requiring double padding. The bleeding occurs with her menstrual periods and has been progressively worsening since onset.
+
+She also developed lower abdominal pain around the same time, which is dull, intermittent, worse during menstruation, and occasionally radiates to the lower back.
+
+Associated symptoms include worsening dysmenorrhoea, easy fatigability, and dizziness, which she attributes to the increasingly heavy periods.
+
+There is no history of intermenstrual bleeding, postcoital bleeding, foul-smelling vaginal discharge, or significant weight loss. No urinary or bowel symptoms are reported.
+
+Symptoms have been progressive, with increasing abdominal swelling and worsening menstrual bleeding over the course of the year. The symptoms have significantly affected her quality of life, limiting daily activities and reducing her work capacity.
+
+Since onset, she has been using over-the-counter analgesics and haematinics with minimal relief and has not had any prior specialist gynaecological evaluation.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Previously regular cycles
+Flow now heavy with large clots over the past 6 months
+Worsening dysmenorrhoea
+
+Contraceptive History:
+Not using any contraception
+
+Cervical Cancer Screening:
+No prior Pap smear
+
+OBSTETRIC HISTORY
+G3P3+0
+Three term spontaneous vaginal deliveries
+All children alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Currently using over-the-counter analgesics and haematinics with minimal relief
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+Positive family history of uterine fibroids (first-degree relative, details not specified)
+
+Social History:
+Married in a monogamous setting
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 42-year-old G3P3+0 woman presenting with a 1-year history of progressive lower abdominal swelling and 6-month history of heavy menstrual bleeding, dysmenorrhoea, and lower abdominal pain, with examination findings of a 14-week-sized irregular uterus, consistent with symptomatic uterine leiomyomata causing abnormal uterine bleeding and chronic anaemia.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Middle-aged woman
+Well-looking but mildly pale
+Afebrile
+Not jaundiced
+Not dehydrated
+
+Vital Signs:
+Pulse: 92 bpm (mildly elevated, consistent with anaemia)
+BP: 110/70 mmHg (normal)
+RR: 20 cpm (normal)
+Temperature: Afebrile
+SpO₂: not documented
+
+Abdominal Examination:
+
+Inspection:
+Abdomen distended, predominantly in the lower abdomen and suprapubic region
+Moves with respiration
+
+Palpation:
+Firm, irregular suprapubic mass palpable
+Approximately 14-week uterine size (reaching approximately to the umbilicus)
+Non-tender
+Limited mobility (consistent with a uterine rather than adnexal origin)
+No guarding or rebound tenderness
+
+Percussion:
+No evidence of ascites
+
+Pelvic Examination:
+
+Speculum Examination:
+Cervix appears healthy, smooth, and without lesions
+No active bleeding at time of examination
+No abnormal vaginal discharge
+
+Bimanual Examination:
+Uterus enlarged to approximately 14-week size
+Irregular surface (consistent with multiple fibroids)
+Firm consistency
+Non-tender
+Contiguous with the suprapubic mass
+No adnexal masses palpable
+No cervical motion tenderness
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Symptomatic uterine leiomyomata (fibroids) presenting with abnormal uterine bleeding (AUB-L), progressive uterine enlargement, and symptomatic iron deficiency anaemia
+
+Diagnosis based on:
+
+Definition and classification:
+Uterine leiomyomata (fibroids, myomata) are benign monoclonal tumours of the smooth muscle cells of the uterus
+Most common gynaecological tumour in women of reproductive age
+Prevalence significantly higher in women of African descent (up to 3 times higher than in Caucasian women, with earlier onset and larger tumours at presentation)
+In the FIGO PALM-COEIN classification of abnormal uterine bleeding, fibroids are classified as AUB-L (leiomyoma)
+
+Classification of fibroids by location (FIGO leiomyoma subclassification):
+Submucosal (Type 0, 1, 2): project into the uterine cavity; most strongly associated with heavy menstrual bleeding and infertility
+Intramural (Type 3, 4, 5): within the myometrium; cause uterine enlargement and bulk symptoms; contribute to AUB
+Subserosal (Type 6, 7): project from the outer uterine surface; primarily cause bulk symptoms (pressure, abdominal swelling); less contribution to bleeding
+Transmural (Type 2–5): span from submucosal to subserosal
+Cervical (Type 8): rare, project from cervix
+Ultrasound is required to classify fibroid type(s) in this patient
+
+Clinical evidence supporting the diagnosis:
+
+Progressive uterine enlargement:
+Lower abdominal swelling present for 1 year, insidious onset, gradually increasing
+Firm, irregular, non-tender suprapubic mass contiguous with the uterus
+Uterus palpable to approximately 14-week size (significantly enlarged)
+Irregular surface consistent with multiple fibroids
+Limited mass mobility (pedunculated subserosal fibroid would be more mobile; this pattern suggests intramural or mixed-type)
+
+Abnormal uterine bleeding:
+Heavy menstrual bleeding for 6 months with large clots and soaking 5–6 pads per day (well above the clinical definition of heavy menstrual bleeding: greater than 80 ml per cycle, or any amount causing impairment of quality of life)
+Bleeding occurs with periods (menorrhagia), not intermenstrual (less suggestive of polyp or malignancy)
+Submucosal fibroids are the most likely cause of heavy menstrual bleeding; they distort the endometrial cavity, impair haemostatic mechanisms, and increase the endometrial surface area
+Intramural fibroids also contribute to AUB by impairing uterine contractility
+
+Dysmenorrhoea:
+Fibroids cause increased prostaglandin production and myometrial irritability
+Pain worse during menstruation (prostaglandin-mediated uterine contractions against a non-compliant fibroid-bearing myometrium)
+Radiation to the lower back (from enlarged uterus compressing pelvic structures)
+
+Chronic anaemia:
+Mild pallor, fatigability, dizziness
+Consistent with iron deficiency anaemia from six months of heavy menstrual blood loss
+Self-medication with haematinics (appropriate in principle, but insufficient without treating the underlying cause)
+
+Risk factors present:
+African ethnicity (highest risk group globally)
+Positive family history of uterine fibroids (first-degree relative; genetic predisposition well-established)
+Age 42 years (fibroids are oestrogen-dependent; peak incidence is in the fourth and fifth decades)
+Nulliparity is a risk factor, but this patient is multiparous (multiparity is protective but does not eliminate risk)
+
+Why this presentation is NOT consistent with malignancy:
+No intermenstrual or postcoital bleeding
+No significant weight loss or constitutional symptoms
+No foul-smelling discharge
+Uterus non-tender (malignancy with necrosis would be more likely to cause tenderness)
+Cervix healthy on speculum examination
+Age 42 (premenopausal; endometrial carcinoma more common postmenopausally, though not exclusively)
+However, endometrial sampling remains indicated in any woman aged 35 or older with AUB, and this must be performed
+
+Important distinction:
+Uterine sarcoma (leiomyosarcoma) is rare (less than 1% of uterine smooth muscle tumours) but must be considered
+Clinical features raising concern for sarcoma: rapid uterine growth (particularly postmenopausally), irregular or necrotic mass, systemic symptoms
+This patient's mass has grown gradually over 1 year in a premenopausal woman without systemic features — low index of suspicion, but histology of removed tissue provides definitive exclusion
+
+Differential diagnoses:
+
+Adenomyosis:
+Endometrial glands and stroma invading the myometrium
+Causes heavy menstrual bleeding, dysmenorrhoea, and uterine enlargement
+Uterus typically uniformly enlarged, globular, and tender (differs from the irregular, non-tender uterus of fibroids)
+However, adenomyosis frequently co-exists with fibroids (up to 40% of cases)
+Transvaginal ultrasound and MRI can help differentiate but definitive diagnosis requires histology (after hysterectomy)
+Must be considered as a concurrent diagnosis in this patient
+
+Ovarian mass:
+Large ovarian tumour (fibroma, cystadenoma, mature teratoma) can cause abdominal distension and pelvic symptoms
+Bimanual examination shows adnexal origin and separate from uterus
+This mass is contiguous with the uterus and the uterus is itself enlarged — more consistent with uterine fibroid
+Ultrasound will differentiate
+
+Endometrial carcinoma:
+Can cause heavy menstrual bleeding and uterine enlargement
+More common postmenopausally but can occur premenopausally
+Must be excluded by endometrial sampling
+Less likely given no intermenstrual bleeding, no constitutional symptoms, and premenopausal status
+
+Pregnancy:
+Irregular uterine enlargement could represent a multiple pregnancy or large uterus with fibroid complicating pregnancy
+LMP 2 weeks ago, but pregnancy test should be done to confirm (especially given she is not using contraception)
+
+PLAN
+
+Investigations
+
+Pregnancy test:
+Urine beta-hCG
+Must be done first before any intervention or imaging interpretation
+LMP 2 weeks ago and not using contraception: pregnancy must be excluded
+If positive: significantly changes management (fibroids in pregnancy require specialist management)
+
+Pelvic ultrasound (transvaginal and transabdominal):
+Most important investigation for uterine fibroids
+Transabdominal: assess overall uterine size, fibroid number, and large fibroids in a 14-week-sized uterus
+Transvaginal: superior resolution for endometrial cavity assessment, submucosal fibroid identification, and endometrial thickness
+
+Key information required from ultrasound:
+Number, size, and precise location of fibroids (FIGO subclassification)
+Uterine size (confirm approximately 14-week size)
+Endometrial thickness and echogenicity (screen for hyperplasia)
+Identify any submucosal component (most important for AUB management)
+Exclude adnexal pathology
+Assess for hydronephrosis (large fibroids can compress ureters)
+
+MRI pelvis (if available, or when surgical planning is required):
+Superior to ultrasound for detailed fibroid mapping
+Accurately identifies submucosal extension, relationship to endometrial cavity, and vascular anatomy
+Essential for planning myomectomy or uterine artery embolisation
+Helps distinguish fibroid from adenomyosis (key for treatment selection)
+Arranged when definitive surgical management is being planned
+
+Full blood count:
+Confirm and quantify anaemia (haemoglobin, MCV, MCH)
+Platelet count (baseline)
+White cell count
+
+Peripheral blood film:
+Assess red cell morphology (hypochromic microcytic pattern of iron deficiency expected)
+
+Serum ferritin and iron studies:
+Assess iron stores (expected to be depleted after 6 months of heavy bleeding)
+Confirms iron deficiency anaemia and guides intensity of iron replacement
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function
+Assess for ureteric obstruction (large fibroids can cause hydronephrosis and renal impairment)
+
+Liver function tests:
+Baseline before any medical therapy (GnRH agonists or hormonal treatments)
+
+Thyroid function tests:
+Hypothyroidism is a reversible cause of menorrhagia and must be excluded
+TSH and free T4
+
+Endometrial sampling:
+Mandatory in this patient (42 years old with 6 months of AUB)
+Pipelle endometrial biopsy: office procedure, minimally invasive, adequate for most cases
+Performed to exclude endometrial hyperplasia and malignancy
+If Pipelle unsatisfactory or inconclusive: proceed to hysteroscopy with directed biopsy
+
+Pap smear (cervical cancer screening):
+No prior screening
+Arrange at this or the next clinic visit
+Cervix appears healthy; formal screening with cervical smear to be performed
+
+Coagulation profile:
+If haemoglobin significantly low or if clinical suspicion of coagulopathy
+Baseline before surgery
+
+Blood grouping and cross-matching:
+Essential given likely surgical management in the future (myomectomy or hysterectomy for a 14-week-sized uterus carries significant intraoperative blood loss risk)
+Document Rhesus type
+
+Group and save serum at this stage; formal cross-match when surgical date confirmed
+
+Medical Management
+
+The immediate goals of medical management are to control heavy menstrual bleeding, correct anaemia, and optimise the patient for definitive management.
+
+Acute and ongoing menstrual bleeding control:
+
+Tranexamic acid:
+Mechanism: antifibrinolytic; inhibits plasminogen activation and stabilises endometrial clot
+Oral Tranexamic acid 1 g three times daily during menstruation (days 1–5 of each cycle, or while bleeding heavily)
+Reduces menstrual blood loss by 30–50% in fibroid-related AUB
+Safe, well-tolerated, non-hormonal (suitable while awaiting definitive management or if hormonal therapy not preferred)
+Not suitable for daily continuous use
+
+NSAIDs:
+Mechanism: inhibit prostaglandin synthesis, reduce uterine vasodilation and menstrual blood loss, and provide analgesia for dysmenorrhoea
+Mefenamic acid 500 mg three times daily with food during menstruation
+Or Ibuprofen 400–600 mg three times daily with food
+Reduce menstrual blood loss by approximately 20–30% and are effective for dysmenorrhoea
+To be taken from onset of menstruation until bleeding settles
+
+Combined oral contraceptive pill (COC):
+Reduces menstrual blood loss, regulates cycle, and provides contraception
+Not a primary treatment for fibroid-related AUB (less effective than LNG-IUS)
+May reduce bleeding by 30–50%
+Suitable while awaiting definitive management
+Caution: age 42 years (assess cardiovascular risk factors, smoking status before prescribing); this patient is a non-smoker with normal blood pressure, so COC is not contraindicated
+
+Progestogens:
+Oral Norethisterone 5 mg twice to three times daily from days 5–26 of the cycle
+Reduces endometrial proliferation and menstrual blood loss
+Second-line to LNG-IUS
+Less effective than LNG-IUS but avoids intrauterine device insertion in a uterus with distorted cavity
+
+Levonorgestrel-releasing intrauterine system (LNG-IUS, Mirena):
+Most effective long-term medical treatment for fibroid-related AUB
+Reduces menstrual blood loss by up to 90%
+Releases levonorgestrel locally, inducing endometrial atrophy and reducing menstrual flow
+Suitable if uterine cavity is not significantly distorted by submucosal fibroids
+If submucosal fibroid distorts the cavity: LNG-IUS insertion may be difficult, displaced, or ineffective; hysteroscopic myomectomy first may be required
+Ultrasound-guided assessment of cavity will determine suitability
+If suitable: excellent bridge to menopause (patient is 42; fibroids regress at menopause, which may not be far off)
+Also provides effective contraception
+
+GnRH agonists (pre-operative or short-term management):
+Leuprolide acetate (Lupron Depot) 3.75 mg IM monthly
+Or Goserelin (Zoladex) 3.6 mg SC monthly
+Mechanism: initially cause LH and FSH surge (flare), then downregulate receptors causing profound hypo-oestrogenism
+Effects: amenorrhoea (controls bleeding and allows anaemia correction), reduction in fibroid volume by 30–50% (facilitates surgery by reducing uterine size and blood loss)
+Use limited to 3–6 months maximum (bone density loss with prolonged use)
+Add-back therapy (low-dose oestrogen/progestogen) required if more than 3 months of use
+Indications in this patient:
+Pre-operative use to reduce uterine size (currently 14-week size; GnRH agonist may reduce to 10–12 weeks, making myomectomy or hysterectomy technically easier and safer)
+Correction of severe anaemia before surgery (3 months of amenorrhoea allows haemoglobin to recover)
+Must not be used long-term as sole management (fibroids regrow after cessation)
+
+Newer medical options (where available):
+Ulipristal acetate (selective progesterone receptor modulator): effective for fibroid-related AUB and fibroid volume reduction; concerns about hepatotoxicity have limited use in many centres
+Relugolix (oral GnRH antagonist): newer agent, oral, effective for fibroid-related symptoms; increasing availability
+
+Correction of Anaemia
+
+Assessment:
+FBC and iron studies will quantify degree of anaemia and iron depletion
+
+Oral iron therapy (first-line if haemoglobin greater than 8 g/dL and haemodynamically stable):
+Ferrous sulphate 200 mg twice to three times daily
+Take with ascorbic acid (vitamin C) on an empty stomach to enhance absorption
+Avoid concurrent tea, coffee, or calcium (impair absorption)
+Advise patient stools will become dark (reassure this is expected)
+Continue for 3–6 months after haemoglobin normalises to replenish iron stores
+
+IV iron therapy (if oral iron insufficient or not tolerated):
+Ferric carboxymaltose 1000 mg IV single dose (can be repeated)
+Or iron sucrose 200 mg IV over 15 minutes, repeat weekly until iron deficit corrected
+Indicated if:
+Haemoglobin 7–9 g/dL with ongoing heavy bleeding and inadequate response to oral iron
+Oral iron not tolerated (nausea, constipation)
+Rapid pre-operative optimisation required
+
+Blood transfusion:
+If haemoglobin less than 7 g/dL or symptomatic anaemia with haemodynamic compromise
+Transfuse packed red cells (one unit raises haemoglobin by approximately 1 g/dL)
+Target haemoglobin greater than 10 g/dL pre-operatively if surgery planned
+
+Definitive Management
+
+A direct, honest conversation with the patient is required to understand her fertility wishes before a definitive treatment plan is formulated. She has three living children (family likely complete) but this must be confirmed explicitly.
+
+Treatment should be guided by: symptom severity, uterine size, fibroid type and location (from ultrasound and MRI), patient's fertility desires, anaemia severity, and patient preference.
+
+Option 1 — Hysterectomy (definitive cure):
+
+Total abdominal hysterectomy or total laparoscopic hysterectomy
+Removes the uterus entirely: eliminates fibroids, AUB, and dysmenorrhoea permanently
+No risk of fibroid recurrence
+Recommended for women who have completed childbearing with a symptomatic fibroid uterus of significant size
+This patient is 42 years old with three living children and a 14-week-sized fibroid uterus: hysterectomy is the most definitive and appropriate long-term solution if she has completed her family
+
+Abdominal hysterectomy:
+Indicated for large uterine size (14-week size is a relative indication for open approach)
+Pfannenstiel (bikini line) or lower midline incision
+Total (cervix removed) or subtotal (cervix preserved) depending on cervical pathology and patient preference
+Bilateral salpingo-oophorectomy: not routinely recommended in premenopausal women (induces surgical menopause); ovaries should be conserved in women under 45–50 unless there is an indication for removal
+Risk of significant intraoperative blood loss with a 14-week-sized uterus: requires cross-matched blood, experienced surgeon, and theatre preparation
+
+Laparoscopic or robotic hysterectomy:
+Minimally invasive
+Suitable for experienced laparoscopic surgeons
+May be limited by uterine size (14-week uterus at the upper limit for routine laparoscopic approach)
+Shorter recovery, smaller incisions, less post-operative pain
+
+Vaginal hysterectomy:
+Difficult with a 14-week-sized uterus (generally limited to uteri less than 12 weeks)
+Not the preferred approach here
+
+Option 2 — Myomectomy (uterus-preserving surgery):
+
+Removal of fibroids with preservation of the uterus
+Indicated for women desiring future fertility or who decline hysterectomy
+This patient appears to have completed childbearing but may have personal, cultural, or religious objections to hysterectomy
+
+Abdominal myomectomy:
+Most appropriate for large, multiple, or deeply intramural fibroids
+Open surgery via Pfannenstiel or lower midline incision
+Removes fibroids while preserving uterus
+Risk of significant blood loss (often greater than hysterectomy for equivalent fibroid burden)
+Fibroid recurrence rate: 20–30% at 10 years; re-operation rate 10–15%
+Pre-operative GnRH agonist therapy reduces uterine size and intraoperative blood loss
+
+Laparoscopic myomectomy:
+Minimally invasive approach for selected fibroids
+Requires advanced laparoscopic skill
+Not ideal for very large or very numerous fibroids; this patient's 14-week uterus may exceed feasible laparoscopic limits
+
+Hysteroscopic myomectomy:
+For submucosal fibroids (Type 0, 1, 2) distorting the uterine cavity
+Performed through the hysteroscope; no abdominal incision
+Excellent results for AUB caused by submucosal fibroids
+Ultrasound or MRI must confirm submucosal location and that fibroid does not extend too deeply into the myometrium
+May be combined with abdominal myomectomy if mixed fibroid types
+
+Option 3 — Uterine Artery Embolisation (UAE):
+
+Interventional radiology procedure
+Bilateral femoral artery catheterisation and selective embolisation of uterine arteries with polyvinyl alcohol particles
+Causes ischaemia and infarction of fibroids (fibroids are more sensitive to ischaemia than normal myometrium)
+Fibroid volume reduces by 40–60% over 3–6 months
+Heavy menstrual bleeding improves in 80–90% of patients
+Advantages: no surgical incision, uterus preserved, shorter recovery than surgery
+Disadvantages: not available in all centres; post-embolisation syndrome (fever, pain, nausea for 24–72 hours); risk of ovarian failure in women over 40 (caution in this patient at 42); less effective for very large fibroids; not recommended if future pregnancy is desired
+Not preferred if endometrial pathology (hyperplasia or malignancy) has not been excluded — endometrial sampling must precede UAE
+
+Option 4 — Focused Ultrasound Surgery (MRI-guided):
+
+Non-invasive; uses focused ultrasound waves to ablate fibroid tissue
+Highly specialised, available in few centres in sub-Saharan Africa
+Not a first-line option in this setting
+
+Recommended approach for this patient:
+Given age 42, completed family (to be confirmed), 14-week-sized fibroid uterus with symptomatic AUB and dysmenorrhoea, and positive family history of fibroids:
+If family is complete: total abdominal hysterectomy (with ovarian conservation) following pre-operative optimisation with GnRH agonist (3 months) and correction of anaemia is the most appropriate definitive management
+If she declines hysterectomy or expresses a desire to preserve her uterus: abdominal myomectomy (following GnRH agonist pre-treatment) or UAE (if available and suitable)
+
+Supportive Care
+
+Analgesia:
+Paracetamol 1 g orally every 6–8 hours (regular, for background pain)
+Mefenamic acid 500 mg three times daily during menstruation (analgesic and anti-prostaglandin)
+Codeine phosphate 30 mg orally every 6 hours if pain inadequately controlled by above (with caution)
+
+Nutritional support:
+High-protein, iron-rich diet (green leafy vegetables, red meat, beans, fortified cereals)
+Oral iron supplementation as above
+Folic acid supplementation if haematologically depleted
+Referral to dietitian if malnutrition is a concern
+
+Physical activity and lifestyle:
+Encourage light activity as tolerated
+Heavy lifting may exacerbate pelvic discomfort with large fibroid uterus
+Advise on ergonomics and avoiding strenuous physical labour until fibroids are managed
+
+Contraception:
+Not currently using any contraception despite being sexually active
+LMP 2 weeks ago — not using contraception in a woman with a 14-week-sized fibroid uterus and planned surgery is a significant concern (pregnancy in this setting is high risk)
+Discuss barrier methods or progestogen-only pill as a bridge until definitive management
+Combined oral contraceptive pill suitable if no contraindications (as noted above, assess cardiovascular risk)
+Pregnancy in the context of a large fibroid uterus carries risks of: red degeneration, malpresentation, preterm labour, postpartum haemorrhage, and caesarean delivery
+
+Counselling
+
+Explanation of uterine fibroids:
+Fibroids are non-cancerous (benign) growths that develop within or on the wall of the womb
+They are very common, especially in women of African descent, and often run in families (as in her case)
+They are oestrogen-sensitive and typically grow during the reproductive years, then shrink after menopause
+In her case, fibroids have caused the womb to enlarge to the size of a 14-week pregnancy, which is why her abdomen appears swollen
+The heavy periods and pain are direct consequences of the fibroids
+
+Benign nature but significant symptom burden:
+Fibroids are not cancer and do not become cancer in the overwhelming majority of cases
+However, they are causing significant symptoms that are affecting her quality of life and causing anaemia (low blood levels), which must be addressed
+Left untreated, the fibroids are likely to continue growing until menopause, and symptoms may continue to worsen
+
+Explanation of investigations:
+Ultrasound will confirm the exact number, size, and position of fibroids
+A blood test will measure how low her blood level has fallen
+A small sample from the lining of the womb will be taken (biopsy) to make sure there are no abnormal cells — this is routine in women of her age with heavy bleeding
+These results will guide the treatment plan
+
+Explanation of treatment options:
+Three main approaches: medicines, an operation to remove the fibroids (myomectomy), or an operation to remove the womb (hysterectomy)
+Medicines can reduce bleeding and pain and are useful short-term but will not permanently solve the problem in a fibroid of this size
+If she no longer wishes to have more children, removal of the womb is the most effective long-term solution and eliminates both the fibroids and the heavy bleeding permanently
+If she wishes to keep the option of future pregnancy open, the fibroids can be surgically removed while preserving the womb, but this carries a risk of fibroids growing back
+She will have the opportunity to ask questions and make a decision in her own time, after results are reviewed at the follow-up appointment
+
+Fertility discussion:
+She should be asked directly and sensitively whether she desires any future pregnancies
+Her answer is the single most important factor guiding the choice between hysterectomy and myomectomy
+At age 42, natural fertility declines significantly; the risk of pregnancy complications is higher; and menopause is not far off (average age of menopause 50 years in Nigerian women)
+If family is complete: hysterectomy is the most appropriate long-term solution
+If another pregnancy is desired: myomectomy with thorough counselling on the risks of pregnancy with fibroids, fibroid recurrence, and the need for close obstetric monitoring
+
+Perioperative blood transfusion consent:
+Surgery for a large fibroid uterus carries significant blood loss risk
+She should consent to receive blood transfusion intraoperatively if required
+If she has any religious objections to transfusion (e.g., Jehovah's Witness): discuss and document early; arrange autologous blood salvage if applicable
+
+Post-operative expectations:
+Recovery after abdominal surgery typically requires 4–6 weeks
+She will be unable to work or trade during this period
+Social support and financial planning for the recovery period should be discussed
+
+Cervical screening:
+No prior Pap smear
+Explained that cervical screening detects precancerous changes in the cervix before they develop into cancer
+Will be arranged at this or the next clinic visit
+
+PROGNOSIS
+
+Prognosis of fibroids:
+Uterine fibroids are benign with no malignant potential in the overwhelming majority of cases (leiomyosarcoma arising from a fibroid is extremely rare, estimated at less than 0.5% of cases)
+Symptoms will continue and likely worsen without definitive treatment
+Fibroids typically regress after menopause (approximately 8 years away for this patient); however, waiting for menopause with a 14-week-sized symptomatic fibroid uterus is not advisable given the severity of current symptoms
+
+Prognosis with treatment:
+
+Hysterectomy:
+Permanent cure: no recurrence of fibroids or heavy bleeding
+Perioperative risk is low in an otherwise healthy 42-year-old with appropriate pre-operative preparation (anaemia correction, blood available)
+Long-term quality of life excellent
+
+Myomectomy:
+Effective but fibroid recurrence rate 20–30% at 10 years
+Re-operation rate 10–15%
+AUB may persist or recur if residual fibroids are present or if adenomyosis co-exists
+
+UAE:
+Effective in 80–90% for symptom control
+Risk of ovarian failure in women over 40 (estimated 1–2%; higher with age) may precipitate premature menopause
+Long-term outcomes generally good in appropriate candidates
+
+Anaemia prognosis:
+Iron deficiency anaemia from chronic blood loss is fully reversible with iron replacement and control of bleeding
+Haemoglobin should normalise within 8–12 weeks of adequate iron therapy and bleeding control
+
+Risk of surgical complications:
+For a 14-week-sized fibroid uterus, hysterectomy or myomectomy carries higher-than-average intraoperative blood loss
+Pre-operative GnRH agonist therapy reduces uterine size and blood loss significantly
+Blood should be cross-matched and available in theatre
+
+FOLLOW-UP
+Review in gynaecology outpatient clinic in 2 weeks with ultrasound results, full blood count, iron studies, and endometrial biopsy result. Definitive management discussion and decision-making at this visit. If GnRH agonist pre-treatment planned: commence after investigations reviewed and endometrial pathology excluded; review monthly for 3 months. Surgery (hysterectomy or myomectomy) scheduled after 3 months of GnRH agonist therapy and haemoglobin optimised to greater than 10 g/dL. Cervical screening (Pap smear) to be performed at next visit. Post-operative review at 6 weeks. Annual gynaecological surveillance thereafter.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-31',
+  title: 'Postmenopausal Bleeding',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology/Gynecological Oncology',
+  condition: 'Postmenopausal bleeding in a hypertensive woman, 8 years post-menopause, with constitutional symptoms, requiring urgent exclusion of endometrial carcinoma',
+  symptoms: [
+    'Vaginal bleeding',
+    'Lower abdominal discomfort',
+    'Easy fatigability',
+    'Unintentional weight loss over the past few months',
+    'Reduced appetite',
+    'Mild pallor',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 58-year-old G5P5+0 retired civil servant presenting with a 2-week history of intermittent scanty to moderate postmenopausal vaginal bleeding (bright red, occasionally with small clots, requiring 1–2 pads per day), lower abdominal discomfort, easy fatigability, unintentional weight loss, and reduced appetite over the past few months. LMP 8 years ago (menopause at 50 years). Not on hormone replacement therapy. Known hypertensive for 5 years on antihypertensive medication. Last Pap smear over 10 years ago with unknown result. All previous five term deliveries via spontaneous vaginal delivery. Examination reveals a mildly pale, afebrile, haemodynamically stable woman (BP 130/80 mmHg, pulse 88 bpm). Abdominal examination is unremarkable. Speculum examination shows minimal blood in the vaginal vault, atrophic vaginal mucosa, and a healthy-appearing cervix with no visible lesion. Bimanual examination reveals a normal-sized uterus with no adnexal masses. Postmenopausal bleeding must be considered endometrial carcinoma until proven otherwise. Constitutional symptoms of weight loss and anorexia increase clinical concern for malignancy. Requires urgent transvaginal ultrasound to assess endometrial thickness, endometrial biopsy for histological diagnosis, and full staging workup if malignancy is confirmed.',
+  content: `
+A 58-year-old G5P5+0 retired civil servant, resident in Abeokuta, Ogun State, Christian, Yoruba, married, with tertiary level education.
+
+OBSTETRIC DATA
+Gravidity: G5
+Parity: P5+0 (five term deliveries, no miscarriages)
+Living children: 5 alive
+LMP: 8 years ago (menopause at 50 years)
+
+PRESENTING COMPLAINT
+Vaginal bleeding × 2 weeks
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 2 weeks prior to presentation when she noticed vaginal bleeding. The bleeding is intermittent, scanty to moderate in amount, sometimes requiring 1–2 sanitary pads per day, and is bright red in colour, occasionally mixed with small clots.
+
+There is no identifiable trigger and bleeding is not related to any trauma or intercourse.
+
+Associated symptoms include lower abdominal discomfort and easy fatigability.
+
+She also reports unintentional weight loss over the past few months and reduced appetite.
+
+There is no history of postcoital bleeding, foul-smelling vaginal discharge, passage of tissue, or fever. No urinary or bowel symptoms.
+
+She attained menopause 8 years ago and had no bleeding since then until this episode. She is not on hormone replacement therapy and has not taken any medications that could account for the bleeding.
+
+Symptoms have been persistent with recurrent episodes of bleeding over the past 2 weeks, causing significant anxiety and mild limitation of daily activities.
+
+Since onset, she has not taken any medication and has presented promptly for evaluation.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 14 years
+Previously regular cycles before menopause
+Menopause at 50 years
+No prior history of abnormal uterine bleeding before menopause
+
+Hormone Replacement Therapy:
+Not on hormone replacement therapy
+
+Contraceptive History:
+Previously used barrier methods
+
+Cervical Cancer Screening:
+Last Pap smear over 10 years ago, result unknown
+No subsequent screening
+
+OBSTETRIC HISTORY
+G5P5+0
+Five term spontaneous vaginal deliveries
+All children alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+Known hypertension for 5 years, currently on antihypertensive treatment
+No diabetes mellitus
+No prior gynaecological surgeries
+No prior blood transfusion
+
+DRUG AND ALLERGY HISTORY
+On antihypertensive medication (specific agent not documented)
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No known gynaecological malignancies in first-degree relatives
+
+Social History:
+Married in a monogamous setting
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 58-year-old G5P5+0 postmenopausal woman, 8 years since her last menstrual period, presenting with a 2-week history of recurrent vaginal bleeding with associated constitutional symptoms of weight loss and anorexia, in the context of known hypertension and no hormone replacement therapy use, with clinical features warranting urgent exclusion of endometrial carcinoma.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Elderly woman, not in acute distress
+Mildly pale
+Afebrile
+Not jaundiced
+Not dehydrated
+
+Vital Signs:
+Pulse: 88 bpm (normal)
+BP: 130/80 mmHg (controlled hypertension)
+RR: 18 cpm (normal)
+Temperature: Afebrile
+SpO₂: not documented
+
+Abdominal Examination:
+
+Inspection:
+Abdomen flat, moves with respiration
+
+Palpation:
+No tenderness
+No guarding or rebound tenderness
+No palpable masses or organomegaly
+
+Percussion:
+No evidence of ascites
+
+Pelvic Examination:
+
+Speculum Examination:
+Minimal blood in the vaginal vault
+Vaginal mucosa appears atrophic (thin, pale, loss of rugae — consistent with postmenopausal oestrogen deficiency)
+Cervix appears healthy with no visible growth, ulceration, or lesion
+No contact bleeding elicited
+No abnormal discharge
+
+Bimanual Examination:
+Uterus normal size (postmenopausal uterine involution expected; normal size reassuring but does not exclude endometrial pathology)
+No adnexal masses
+No cervical motion tenderness
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Postmenopausal bleeding — endometrial carcinoma must be excluded as a priority; differential diagnoses include endometrial hyperplasia, endometrial polyp, atrophic endometritis or vaginitis, and cervical pathology
+
+Diagnosis based on:
+
+Clinical definition and significance of postmenopausal bleeding:
+Postmenopausal bleeding (PMB) is defined as any vaginal bleeding occurring 12 months or more after the last menstrual period in a woman who has not undergone hysterectomy
+This patient is 8 years post-menopause: any vaginal bleeding is pathological and requires urgent evaluation
+The fundamental clinical principle: postmenopausal bleeding must be considered endometrial carcinoma until proven otherwise
+Approximately 10% of women with PMB will have endometrial carcinoma; the remainder have benign causes, but this cannot be assumed clinically
+
+Risk factors for endometrial carcinoma present in this patient:
+
+Age (58 years):
+Endometrial carcinoma most commonly affects postmenopausal women
+Peak incidence in the sixth to seventh decade
+Incidence rises sharply after menopause
+
+Hypertension:
+A well-established independent risk factor for endometrial carcinoma
+The association is partly mediated through obesity and metabolic syndrome, but hypertension confers risk independently
+This patient has known hypertension for 5 years
+
+Nulliparity is a risk factor (this patient is multiparous — multiparity is protective but not eliminatory):
+Grand multiparity (P5) is associated with reduced lifetime oestrogen exposure, which is protective
+However, she is not exempt from risk
+
+No exogenous progesterone exposure:
+Not on HRT (combined HRT with progestogen would protect the endometrium)
+Not on any progestogen-containing preparation
+
+Prolonged postmenopausal period (8 years):
+Prolonged postmenopausal state with oestrogen deficiency can lead to endometrial atrophy, but also to anovulatory states earlier in the menopausal transition that may have resulted in endometrial hyperplasia
+
+Obesity, diabetes mellitus, and tamoxifen use are additional risk factors that are not documented in this patient but should be assessed:
+BMI not documented — should be measured
+Diabetes: not currently known, but may warrant blood glucose screening given hypertension
+Tamoxifen: not on tamoxifen (risk factor for endometrial carcinoma in breast cancer patients)
+
+Constitutional symptoms raising concern for malignancy:
+Unintentional weight loss over the past few months
+Reduced appetite
+Easy fatigability
+These are systemic features of malignancy and significantly increase clinical suspicion for endometrial carcinoma or another gynaecological malignancy beyond simple atrophic change
+
+Examination findings and their significance:
+
+Atrophic vaginal mucosa:
+Consistent with postmenopausal oestrogen deficiency
+Atrophic vaginitis is a benign cause of PMB and must remain in the differential
+However, the presence of constitutional symptoms in addition to PMB makes simple atrophic change an insufficient explanation
+Atrophic change and endometrial pathology can coexist
+
+Healthy cervix with no visible lesion:
+Reduces the probability of cervical carcinoma as the bleeding source
+However, endocervical pathology (endocervical polyp, endocervical carcinoma) cannot be excluded clinically
+A normal-appearing ectocervix does not exclude endocervical or endometrial pathology
+
+Normal-sized uterus:
+Early endometrial carcinoma typically presents with a normal or minimally enlarged uterus
+A normal-sized uterus does NOT exclude endometrial carcinoma
+This is a critical point: the absence of uterine enlargement should not lower clinical suspicion
+
+Mild pallor:
+Consistent with chronic blood loss from recurrent vaginal bleeding
+Requires haematological assessment
+
+Causes of postmenopausal bleeding (differential diagnoses) ranked by frequency:
+
+Endometrial atrophy (most common, approximately 30%):
+Thinning of the endometrium from prolonged oestrogen deficiency
+Fragile endometrial vessels bleed spontaneously
+Usually scanty, intermittent bleeding
+Diagnosed by thin endometrium (less than 4 mm) on transvaginal ultrasound and negative biopsy
+Treatment: topical vaginal oestrogen
+Diagnosis of exclusion — constitutional symptoms in this patient make atrophy an insufficient explanation without biopsy confirmation
+
+Endometrial polyp (approximately 10–20%):
+Focal benign overgrowth of endometrial tissue
+Intermittent, unpredictable bleeding
+Diagnosed on ultrasound (echogenic lesion in cavity) or hysteroscopy
+Treatment: hysteroscopic polypectomy
+Can harbour hyperplasia or malignancy within the polyp (approximately 3–5% of postmenopausal polyps)
+
+Endometrial hyperplasia (approximately 10%):
+Proliferation of endometrial glands beyond physiological limits
+Caused by unopposed oestrogen stimulation
+Types and malignant potential:
+Hyperplasia without atypia: less than 5% risk of progression to carcinoma
+Hyperplasia with atypia (atypical hyperplasia): 25–40% risk of co-existing endometrial carcinoma; considered a premalignant lesion
+Treatment: progestogen therapy (without atypia) or hysterectomy (with atypia)
+
+Endometrial carcinoma (approximately 10%):
+Must be excluded as the primary diagnostic priority
+Most common type: endometrioid adenocarcinoma (Type I, oestrogen-related, well-differentiated, good prognosis)
+Less common: serous, clear cell, carcinosarcoma (Type II, oestrogen-independent, aggressive)
+Staging (FIGO 2023):
+Stage I: confined to the uterus
+Stage II: cervical stromal involvement
+Stage III: spread to adnexa, vagina, or lymph nodes
+Stage IV: bladder, bowel, or distant metastases
+5-year survival: Stage I approximately 80–90%, Stage IV approximately 15–20%
+This patient: constitutional symptoms raise concern for at least locally advanced disease
+
+Atrophic vaginitis (approximately 5–10%):
+Bleeding from atrophic vaginal mucosa
+Supported by atrophic appearance on speculum examination
+Diagnosis of exclusion after endometrial pathology excluded
+Treatment: topical vaginal oestrogen
+
+Cervical carcinoma:
+Cervix appears healthy with no visible lesion
+However, endocervical carcinoma cannot be excluded clinically
+Last Pap smear over 10 years ago with unknown result
+Cervical screening must be updated
+
+Cervical polyp:
+Visible on speculum examination if protruding through os
+None seen in this patient, but endocervical polyp possible
+
+Other causes:
+Ovarian carcinoma with endometrial involvement
+Vaginal carcinoma
+Hormone-secreting ovarian tumours causing endometrial stimulation
+
+Key principle:
+Clinical examination alone cannot exclude endometrial carcinoma in a postmenopausal woman with vaginal bleeding
+Transvaginal ultrasound and endometrial biopsy are mandatory
+
+PLAN
+
+Investigations
+
+Transvaginal pelvic ultrasound (most important first-line investigation):
+Assess endometrial thickness (ET) — the single most important parameter
+Postmenopausal endometrial thickness thresholds:
+ET less than or equal to 4 mm: low risk of malignancy (less than 1%); in an asymptomatic woman this would be reassuring, but in a symptomatic woman with PMB and constitutional symptoms, biopsy is still recommended
+ET greater than 4 mm: requires endometrial sampling regardless of clinical features
+ET greater than or equal to 10 mm: high suspicion for hyperplasia or malignancy; biopsy urgent
+Also assess:
+Endometrial morphology (homogeneous vs heterogeneous, vascularity on Doppler)
+Uterine size and myometrial characteristics
+Adnexal pathology (ovarian masses, ovarian volume — postmenopausal ovary should be small)
+Any free fluid in the pouch of Douglas
+Focal lesions within the endometrial cavity (polyps, submucosal masses)
+
+Note: A normal transvaginal ultrasound does NOT exclude endometrial carcinoma with certainty in a symptomatic postmenopausal woman. Biopsy is required regardless of ultrasound findings when clinical suspicion is present.
+
+Endometrial biopsy (gold standard for histological diagnosis):
+Pipelle endometrial biopsy: office procedure, no anaesthesia required, well-tolerated in most women
+Technique: introduce the Pipelle sampler through the cervical os into the uterine cavity, create negative pressure, rotate and withdraw to obtain endometrial tissue
+Sensitivity for endometrial carcinoma: approximately 90–99% when adequate sample obtained
+Adequate sample in approximately 80% of cases; inadequate sampling requires hysteroscopy
+Histological result will confirm: normal atrophic endometrium, hyperplasia (without or with atypia), carcinoma, or other pathology
+
+Hysteroscopy with directed biopsy:
+Gold standard for visualising the endometrial cavity and guiding targeted biopsy
+Indicated when:
+Pipelle biopsy is inadequate or technically failed (cervical stenosis common in postmenopausal women)
+Pipelle result is negative but clinical suspicion remains high
+Focal lesion (polyp) identified on ultrasound
+Performed under local anaesthesia (outpatient) or general anaesthesia
+Allows direct visualisation of the endometrium and targeted biopsy of suspicious areas
+Arranged if Pipelle biopsy is unsatisfactory
+
+Cervical screening (Pap smear):
+Last smear over 10 years ago, result unknown
+Update cervical screening at this visit
+Liquid-based cytology if available
+Also screen for HPV co-testing if available
+Arrange colposcopy if smear abnormal
+
+Full blood count:
+Quantify anaemia (haemoglobin, MCV)
+Platelet count
+White cell count (baseline)
+
+Peripheral blood film:
+Assess red cell morphology
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function
+Important given known hypertension (risk of hypertensive nephropathy)
+Essential before any surgical intervention or nephrotoxic medication
+
+Liver function tests:
+Baseline before any treatment
+Assess for hepatic metastases if malignancy confirmed
+
+Blood grouping and cross-matching:
+Group and save
+Cross-match if surgery anticipated
+
+Fasting blood glucose or HbA1c:
+Diabetes mellitus is a risk factor for endometrial carcinoma
+Not currently documented; screen given hypertension and age
+
+BMI measurement:
+Obesity is a major independent risk factor for endometrial carcinoma (adipose tissue converts androgens to oestrone, causing unopposed oestrogen stimulation)
+BMI not documented; must be measured at this visit
+
+Tumour markers (if malignancy suspected):
+CA-125: elevated in endometrial carcinoma with extrauterine spread; also elevated in ovarian carcinoma, peritoneal disease, and benign conditions
+Not specific or sensitive for early endometrial carcinoma; useful for staging and monitoring if malignancy confirmed
+CEA: if colorectal metastasis to endometrium or uterus considered
+HE4: increasingly used alongside CA-125 for endometrial and ovarian carcinoma risk assessment
+
+Staging investigations (if endometrial carcinoma confirmed on biopsy):
+
+MRI pelvis (preferred):
+Best modality for local staging of endometrial carcinoma
+Accurately assesses depth of myometrial invasion (distinguishes Stage IA from IB: key prognostic factor)
+Assesses cervical stromal involvement (Stage II)
+Evaluates pelvic lymph nodes
+Guides surgical planning (extent of surgery, lymph node dissection)
+
+CT chest, abdomen, and pelvis:
+Assesses lymph node involvement (pelvic and para-aortic)
+Identifies distant metastases (liver, lung, peritoneum)
+Used in combination with MRI for complete staging
+
+PET-CT (if available):
+Most sensitive for lymph node and distant metastasis detection
+Increasingly incorporated into staging workup at tertiary centres
+
+Chest X-ray:
+Assess for pulmonary metastases
+Pre-operative assessment
+
+Management
+
+Management depends entirely on the histological diagnosis from endometrial biopsy and, if malignancy is confirmed, on the FIGO stage determined by imaging and surgical staging.
+
+If endometrial atrophy confirmed (thin endometrium, negative biopsy, no constitutional symptoms adequately explained):
+
+Topical vaginal oestrogen:
+Vaginal oestradiol cream, pessary, or ring (Ovestin cream, Vagifem pessary, Estring ring)
+Restores local vaginal and vulvar epithelium
+Minimal systemic absorption (safe in women with concerns about systemic HRT)
+Relieves atrophic vaginitis symptoms and reduces bleeding from fragile atrophic mucosa
+Review in 3 months; bleeding should resolve
+If bleeding recurs despite treatment: re-investigate (repeat ultrasound and biopsy)
+
+However, in this patient: constitutional symptoms (weight loss, anorexia) are not explained by atrophy alone. A negative biopsy and thin endometrium should prompt careful reassessment and consideration of hysteroscopy to exclude focal pathology, and investigation for another source of constitutional symptoms.
+
+If endometrial polyp confirmed:
+
+Hysteroscopic polypectomy:
+Removal of the polyp under direct vision
+Send entire polyp for histopathological analysis (to exclude malignancy within the polyp)
+Performed as a day-case procedure
+Excellent outcomes; bleeding usually resolves
+Follow-up ultrasound at 3 months
+
+If endometrial hyperplasia without atypia confirmed:
+
+Progestogen therapy (first-line):
+Levonorgestrel-releasing IUS (Mirena): highly effective for endometrial hyperplasia without atypia; induces endometrial atrophy locally; preferred over oral progestogens
+Oral Medroxyprogesterone acetate 10–20 mg daily or cyclically
+Repeat endometrial biopsy at 3 and 6 months to confirm regression
+Regression rate with progestogens: approximately 80–90% for hyperplasia without atypia
+Hysterectomy: if medical treatment fails, patient declines surveillance, or recurrence on repeat biopsy
+
+If atypical hyperplasia (endometrial intraepithelial neoplasia) confirmed:
+
+Hysterectomy is the recommended treatment:
+Total hysterectomy with bilateral salpingo-oophorectomy (BSO)
+BSO recommended in postmenopausal women (ovaries are no longer functional and may harbour co-existing or future malignancy)
+Urgency: high — up to 40% of women with atypical hyperplasia have co-existing endometrial carcinoma on final histology
+Proceed to formal surgical staging intraoperatively if carcinoma found
+
+Progestogen therapy (fertility-sparing, not applicable to this patient):
+Reserved for premenopausal women who strongly desire future fertility
+Not appropriate for a 58-year-old postmenopausal woman
+Requires intensive surveillance with repeat biopsy every 3 months
+
+If endometrial carcinoma confirmed:
+
+Refer urgently to gynaecological oncology for multidisciplinary team (MDT) assessment
+Management is stage-dependent and requires the involvement of gynaecological oncology, radiation oncology, medical oncology, pathology, and radiology
+
+Stage I (confined to uterus — most common at diagnosis):
+Total hysterectomy with bilateral salpingo-oophorectomy and surgical staging (pelvic and para-aortic lymph node dissection or sentinel lymph node mapping)
+Laparoscopic or robotic approach preferred (less morbidity than open surgery; equivalent oncological outcomes)
+Open surgery (laparotomy) for large uterus, extensive disease, or where minimally invasive surgery unavailable
+Peritoneal washings at the start of surgery
+Adjuvant treatment based on pathological risk stratification:
+Low risk (Stage IA, Grade 1–2, endometrioid): surveillance alone
+Intermediate risk: vaginal brachytherapy to reduce vault recurrence
+High-intermediate and high risk: external beam pelvic radiotherapy ± chemotherapy
+
+Stage II (cervical stromal involvement):
+Radical hysterectomy with bilateral pelvic lymphadenectomy
+OR simple hysterectomy with BSO followed by adjuvant chemoradiotherapy
+MDT decision based on surgical feasibility and patient fitness
+
+Stage III (extrauterine pelvic spread):
+Surgery (debulking hysterectomy) where possible, followed by adjuvant chemoradiotherapy
+Chemotherapy: Carboplatin + Paclitaxel (standard first-line regimen)
+Radiotherapy: external beam pelvic radiotherapy ± brachytherapy
+
+Stage IV (distant metastases):
+Palliative intent
+Systemic chemotherapy (Carboplatin + Paclitaxel ± Bevacizumab)
+Hormonal therapy (Medroxyprogesterone acetate, Letrozole) for hormone receptor-positive, low-grade tumours
+Radiotherapy for symptom control (bleeding, pain, bone metastases)
+Palliative and supportive care
+
+This patient: most likely Stage I or II given no urinary or bowel symptoms, normal abdominal examination, and normal uterine size. However, constitutional symptoms raise concern for at least Stage III disease with systemic involvement. Full staging investigations required after biopsy confirmation.
+
+Medical comorbidity management:
+
+Hypertension:
+Continue current antihypertensive medication
+Ensure BP well-controlled before any surgical intervention (target less than 130/80 mmHg)
+Identify specific antihypertensive agent if not documented (important for perioperative anaesthetic planning)
+Anaesthetic review required pre-operatively
+Avoid nephrotoxic agents and ensure adequate perioperative fluid management
+
+Anaemia:
+Correct anaemia before surgery if possible
+Oral ferrous sulphate 200 mg twice daily plus ascorbic acid
+IV ferric carboxymaltose if oral iron insufficient or time-limited before surgery
+Target haemoglobin greater than 10 g/dL pre-operatively
+
+Supportive Care
+
+Analgesia:
+Paracetamol 1 g orally every 6–8 hours for lower abdominal discomfort
+NSAIDs (Ibuprofen 400 mg three times daily with food) if not contraindicated (caution with hypertension and potential renal impairment)
+Avoid NSAIDs if renal function impaired (check creatinine)
+
+Management of anxiety:
+Acknowledge and validate her anxiety about the bleeding and its cause
+Explain that investigations are being done urgently and results will guide treatment
+Offer referral to a counsellor or psychologist if anxiety is severe
+
+Nutritional support:
+Assess nutritional status (weight, BMI, serum albumin if available)
+High-protein, nutrient-dense diet
+Referral to dietitian if malnutrition or significant weight loss confirmed
+Nutritional optimisation before surgery improves post-operative outcomes
+
+Thromboprophylaxis:
+Postmenopausal women and those with hypertension have increased venous thromboembolism risk
+Compression stockings while in hospital
+LMWH if admitted or if prolonged bed rest
+
+Counselling
+
+Breaking the news and explanation of postmenopausal bleeding:
+Explain clearly that any vaginal bleeding after menopause is not normal and must be investigated
+Use straightforward language appropriate to her education level (tertiary education)
+Explain that the most important reason for the investigations is to check for cancer of the lining of the womb, which is the most serious cause but is treatable especially when found early
+Acknowledge her anxiety and commend her for presenting promptly
+Reassure her that not all postmenopausal bleeding is due to cancer; many women have benign causes such as thinning of the womb lining
+
+Explanation of investigations:
+A vaginal ultrasound scan (small probe gently placed in the vagina) will measure the thickness of the lining of the womb and look for any abnormalities
+A small sample from the lining of the womb (biopsy) will be taken using a thin tube passed through the neck of the womb — this may cause some cramping but is usually well-tolerated; a local anaesthetic can be offered
+The cervical smear (Pap test) is overdue and will be updated today
+Blood tests will check her blood level and kidney function
+Results will be reviewed urgently, usually within one to two weeks
+
+If malignancy is found:
+Explain clearly but compassionately that a type of womb cancer (endometrial carcinoma) has been found
+Emphasise that this type of cancer, when found early, has very good treatment outcomes
+Treatment involves an operation to remove the womb, fallopian tubes, and ovaries, which can often be done by keyhole surgery
+Additional treatment (radiotherapy or chemotherapy) may be needed depending on the extent of the cancer
+She will be referred to a specialist cancer team and will not face this alone
+Encourage her to bring a trusted family member to the consultation where possible
+
+Constitutional symptoms:
+Explain that the weight loss and reduced appetite are being taken seriously and are part of the reason investigations are being done urgently
+If malignancy is found: these symptoms may be related and are expected to improve with treatment
+If no malignancy found: other causes of unintentional weight loss must be investigated (thyroid disease, gastrointestinal pathology, haematological malignancy)
+
+Hypertension management:
+Her blood pressure medicines must be continued without interruption throughout this period
+Ensure she knows the name and dose of her antihypertensive medication
+Advise her to attend her regular hypertension follow-up in addition to gynaecology review
+Explain that her hypertension will be managed carefully if surgery is required
+
+Cervical screening:
+Explain that the cervical smear is overdue and will be done at this visit
+Describe the procedure briefly and ensure she is comfortable
+Explain that the cervical smear checks for changes in the cervix that could lead to cervical cancer, and that this is a separate test from the womb biopsy
+
+Future wellbeing:
+Encourage a nutritious diet and adequate fluid intake
+Advise gentle exercise as tolerated
+Smoking cessation and alcohol advice (neither applicable here, but affirm current healthy habits)
+Advise her to return immediately if bleeding worsens, she develops severe pain, or she feels faint
+
+PROGNOSIS
+
+Prognosis depends on the underlying diagnosis
+
+If atrophic endometritis or vaginitis:
+Excellent prognosis with topical oestrogen
+Bleeding resolves in the majority of women within 4–8 weeks
+No malignant potential; surveillance continued
+
+If endometrial polyp:
+Excellent prognosis with hysteroscopic polypectomy
+Low risk of malignancy within the polyp in postmenopausal women (approximately 3–5%)
+
+If endometrial hyperplasia without atypia:
+Very good prognosis with progestogen therapy
+Low progression risk (less than 5%)
+Regression rate approximately 80–90%
+
+If atypical hyperplasia:
+Guarded prognosis without treatment given co-existing malignancy risk (up to 40%)
+Excellent prognosis with timely total hysterectomy and BSO
+No recurrence expected after complete surgical excision
+
+If endometrial carcinoma:
+Stage-dependent prognosis:
+Stage I: 5-year overall survival approximately 80–90%
+Stage II: approximately 70–80%
+Stage III: approximately 40–60%
+Stage IV: approximately 15–20%
+
+Favourable prognostic factors in this patient:
+Prompt presentation (2 weeks from onset)
+No urinary or bowel involvement (suggests disease possibly uterine-confined)
+Normal uterine size on examination (may indicate early stage)
+Good performance status (ambulatory, not acutely unwell)
+Tertiary education (likely to understand and adhere to treatment)
+
+Unfavourable factors requiring careful assessment:
+Constitutional symptoms (weight loss, anorexia) suggest systemic disease burden
+Known hypertension (perioperative risk factor; requires optimisation)
+Age 58 (higher surgical risk than younger women but fully operable)
+No recent cervical screening (concurrent cervical pathology cannot be excluded until results available)
+
+FOLLOW-UP
+Urgent review in gynaecology clinic within 1–2 weeks with all investigation results (transvaginal ultrasound, endometrial biopsy, Pap smear, FBC, renal function, fasting glucose). If biopsy confirms malignancy: urgent MDT referral and staging MRI and CT within 2 weeks. If biopsy inadequate: arrange outpatient hysteroscopy within 2 weeks. If biopsy benign (atrophy, polyp, hyperplasia without atypia): initiate appropriate condition-specific treatment and arrange surveillance biopsy at 3–6 months. Hypertension management review at the same visit (confirm antihypertensive medication and BP control). Annual gynaecological review thereafter.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-32',
+  title: 'Histologically Confirmed Endometrial Carcinoma',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynecology/Gynecological Oncology',
+  condition: 'Histologically confirmed endometrial carcinoma in a postmenopausal woman, referred for staging and definitive multidisciplinary management',
+  symptoms: [
+    'Postmenopausal vaginal bleeding',
+    'Lower abdominal pain',
+    'Easy fatigability',
+    'Loss of appetite',
+    'Unintentional weight loss',
+    'Mild to moderate pallor',
+    'Known hypertension for 8 years on treatment',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-29',
+  summary: 'A 60-year-old G6P6+0 retired teacher presenting with a 1-month history of progressive postmenopausal vaginal bleeding (10 years after menopause) and 3-week history of dull persistent lower abdominal pain, with associated constitutional symptoms of easy fatigability, loss of appetite, and unintentional weight loss. Known hypertensive for 8 years on treatment. Not on hormone replacement therapy. No prior hormonal contraceptive use. Previously referred to a peripheral hospital where transvaginal ultrasound showed a thickened endometrium and endometrial biopsy confirmed endometrial carcinoma. Now referred for staging and definitive management. Examination reveals a chronically ill-looking, mildly to moderately pale elderly woman with controlled hypertension (BP 135/85 mmHg, pulse 90 bpm). Abdominal examination shows mild suprapubic tenderness with no palpable masses. Pelvic examination reveals minimal blood in the vaginal vault, a grossly normal cervix with no visible growth, a slightly enlarged mobile uterus, and no adnexal masses. Histological diagnosis of endometrial carcinoma is established. This presentation requires complete surgical staging, perioperative medical optimisation, adjuvant therapy planning by a multidisciplinary oncology team, and comprehensive patient counselling.',
+  content: `
+A 60-year-old G6P6+0 retired teacher, resident in Ibadan, Oyo State, Christian, Yoruba, married, with tertiary level education.
+
+OBSTETRIC DATA
+Gravidity: G6
+Parity: P6+0 (six term deliveries, no miscarriages)
+Living children: 6 alive
+LMP: 10 years ago (menopause at 50 years)
+
+PRESENTING COMPLAINTS
+Vaginal bleeding × 1 month
+Lower abdominal pain × 3 weeks
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 1 month prior to presentation when she developed vaginal bleeding, occurring 10 years after menopause. The bleeding is intermittent, initially scanty in quantity but has progressively increased to moderate amount, occasionally associated with passage of small clots.
+
+About 1 week after onset of bleeding, she developed lower abdominal pain, which is dull, persistent, and mild to moderate in severity, with no clear aggravating or relieving factors.
+
+Associated symptoms include easy fatigability, loss of appetite, and unintentional weight loss, which have been present alongside the bleeding.
+
+There is no history of postcoital bleeding, foul-smelling vaginal discharge, passage of tissue, or fever. No urinary symptoms such as haematuria or frequency, and no bowel symptoms such as constipation, tenesmus, or rectal bleeding.
+
+Symptoms have been progressive, with increasing bleeding and worsening general condition significantly affecting quality of life, with reduced activity tolerance and increasing weakness.
+
+She initially presented to a peripheral hospital where a transvaginal ultrasound showed a thickened endometrium. An endometrial biopsy was performed, the result of which confirmed endometrial carcinoma. She has been referred to this centre for further evaluation, staging, and definitive management.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 13 years
+Previously regular cycles
+Menopause at 50 years
+No prior history of abnormal uterine bleeding before menopause
+
+Hormone Replacement Therapy:
+Not on hormone replacement therapy
+
+Contraceptive History:
+No history of hormonal contraceptive use
+
+Cervical Cancer Screening:
+Last Pap smear over 8 years ago, result unknown
+No subsequent screening
+
+OBSTETRIC HISTORY
+G6P6+0
+Six term spontaneous vaginal deliveries
+All children alive and well
+
+PAST MEDICAL AND SURGICAL HISTORY
+Known hypertension for 8 years, currently on antihypertensive treatment
+No diabetes mellitus
+No prior pelvic or gynaecological surgeries
+
+DRUG AND ALLERGY HISTORY
+On antihypertensive medications (specific agents not documented)
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No known gynaecological malignancies in first-degree relatives
+
+Social History:
+Married in a monogamous setting
+No alcohol or cigarette use
+No use of herbal medications
+
+GYNAECOLOGICAL SUMMARY
+A 60-year-old G6P6+0 postmenopausal woman with histologically confirmed endometrial carcinoma, presenting with progressive postmenopausal vaginal bleeding, lower abdominal pain, and constitutional symptoms, referred for complete staging and definitive multidisciplinary management.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Elderly woman, chronically ill-looking
+Mildly to moderately pale
+Not jaundiced
+Not dehydrated
+No pedal oedema
+
+Vital Signs:
+Pulse: 90 bpm (normal, mild tachycardia possibly from anaemia)
+BP: 135/85 mmHg (mildly elevated; known hypertensive, partially controlled)
+RR: 18 cpm (normal)
+Temperature: Afebrile
+SpO₂: not documented
+
+Abdominal Examination:
+
+Inspection:
+Abdomen flat, moves with respiration
+
+Palpation:
+Mild suprapubic tenderness
+No guarding or rebound tenderness
+No palpable masses or organomegaly
+No palpable lymphadenopathy in the inguinal region
+
+Percussion:
+No evidence of ascites
+
+Pelvic Examination:
+
+Speculum Examination:
+Minimal blood in the vaginal vault
+Cervix appears grossly normal
+No obvious cervical growth or ulceration
+No contact bleeding elicited
+No abnormal vaginal discharge
+
+Bimanual Examination:
+Uterus slightly enlarged (consistent with tumour bulk within the cavity)
+Mobile (no parametrial fixation, no pelvic sidewall involvement clinically)
+No adnexal masses
+No cervical motion tenderness
+No fullness in the pouch of Douglas
+
+ASSESSMENT
+
+Histologically confirmed endometrial carcinoma, clinical stage to be formally determined following imaging and surgical staging
+
+Diagnosis established:
+Endometrial biopsy performed at referring hospital has confirmed the histological diagnosis of endometrial carcinoma
+The biopsy result should be reviewed and, if not available in this centre, a formal report must be requested and confirmed before any surgical intervention
+
+This presentation now focuses on:
+Complete pre-operative staging workup
+Perioperative medical optimisation (hypertension, anaemia)
+Definitive surgical management with staging procedure
+Planning of adjuvant therapy based on final pathological stage
+Multidisciplinary team coordination
+Comprehensive patient counselling
+
+Background — Endometrial Carcinoma:
+
+Epidemiology and context:
+Most common gynaecological malignancy in high-income countries; increasingly common in sub-Saharan Africa
+Predominantly a disease of postmenopausal women (median age at diagnosis: 63 years)
+This patient at 60 years is within the typical age range
+
+Histological classification (two main types):
+
+Type I (endometrioid adenocarcinoma):
+Most common (approximately 80%)
+Oestrogen-related (develops from endometrial hyperplasia)
+Well to moderately differentiated (Grade 1 or 2)
+Better prognosis (5-year survival Stage I: approximately 85–90%)
+Risk factors: obesity, unopposed oestrogen, hypertension, diabetes, nulliparity, late menopause, tamoxifen use
+
+Type II (non-endometrioid):
+Less common (approximately 20%)
+Includes: serous, clear cell, carcinosarcoma, mucinous
+Not oestrogen-related; develops from atrophic endometrium
+High grade, aggressive behaviour
+Poorer prognosis even when diagnosed at early stage
+This patient's histological subtype must be confirmed from the biopsy report (influences adjuvant therapy decision)
+
+Risk factors present in this patient:
+Age (60 years): risk increases with age after menopause
+Hypertension: well-established independent risk factor for endometrial carcinoma (associated with metabolic syndrome and relative oestrogen excess)
+Grand multiparity (P6): multiparity is generally protective (each pregnancy interrupts oestrogenic stimulation) but does not eliminate risk; six previous pregnancies do not preclude endometrial carcinoma
+No HRT use: not on progestogen-containing HRT (which would be protective)
+No diabetes (protective absence of a major risk factor)
+No hormonal contraceptive use: combined oral contraceptive pill is protective against endometrial carcinoma; she has never used it
+Obesity not documented: BMI must be measured — obesity is the single most important modifiable risk factor and is associated with triple the risk of endometrial carcinoma
+
+FIGO Staging System (2023 revision):
+Endometrial carcinoma is surgically staged using the FIGO 2023 classification
+
+Stage I — Tumour confined to the uterine body:
+IA: invasion less than half the myometrium (or no invasion), low grade
+IB: invasion less than half the myometrium, high grade (serous, clear cell, carcinosarcoma)
+IC: invasion equal to or greater than half the myometrium
+
+Stage II — Cervical stromal involvement or lower uterine segment:
+IIA: cervical stromal invasion
+IIB: involvement of adnexa or other pelvic structures (no lymph node involvement)
+
+Stage III — Local or regional spread:
+IIIA: invasion of serosa or adnexa
+IIIB: vaginal or parametrial involvement
+IIIC: regional lymph node involvement (IIIC1: pelvic nodes; IIIC2: para-aortic nodes)
+
+Stage IV — Distant disease:
+IVA: invasion of bladder or bowel mucosa
+IVB: distant metastases (inguinal lymph nodes, intraperitoneal disease, liver, lung, bone)
+
+Clinical estimation of current stage in this patient:
+Slightly enlarged mobile uterus (suggests at least Stage IC: myometrial invasion present; mobility suggests no parametrial fixation)
+No palpable adnexal masses (reduces probability of Stage IIIA)
+No urinary or bowel symptoms (reduces probability of Stage IVA)
+No clinical evidence of distant metastases (no ascites, no palpable hepatomegaly)
+Constitutional symptoms (weight loss, anorexia, fatigability) raise concern for higher stage
+Formal FIGO staging requires surgical and pathological assessment
+
+Histological grading (FIGO grading for endometrioid carcinoma):
+Grade 1: less than or equal to 5% solid non-squamous growth pattern; well-differentiated; best prognosis
+Grade 2: 6–50% solid growth; moderately differentiated
+Grade 3: greater than 50% solid growth; poorly differentiated; aggressive; treated as high-grade
+Grade must be confirmed from the biopsy report
+Non-endometrioid types (serous, clear cell) are inherently high grade regardless of morphology
+
+Molecular classification (WHO 2020 / ProMisE classification):
+Increasingly used to guide adjuvant therapy decisions alongside stage and grade
+Four molecular groups:
+POLE ultramutated: excellent prognosis, may not need adjuvant therapy even with high-grade features
+Mismatch repair deficient (MMRd): intermediate prognosis; associated with Lynch syndrome; may benefit from immune checkpoint inhibitors (pembrolizumab)
+p53 mutant (TP53 abnormal): poor prognosis; high-grade serous-like behaviour; requires aggressive adjuvant therapy
+No specific molecular profile (NSMP): intermediate prognosis; treatment guided by stage and grade
+Molecular testing not always available in all centres; discuss availability with pathology team
+
+PLAN
+
+Confirmation of Referring Hospital Biopsy
+
+Request original biopsy report and histological slides from referring hospital
+Arrange review by pathologist at this centre
+Confirm histological type (endometrioid vs non-endometrioid), grade, and any molecular markers if performed
+Do not proceed to surgery without confirmed histological diagnosis in hand
+
+Staging Investigations
+
+Complete staging workup is mandatory before surgery to plan the appropriate surgical procedure and adjuvant treatment
+
+MRI pelvis (preferred for local staging):
+Most important imaging investigation for pre-operative staging
+Accurately assesses:
+Depth of myometrial invasion (less than or greater than 50%: distinguishes Stage IA/IB from IC)
+Cervical stromal involvement (Stage IIA)
+Adnexal and parametrial extension (Stage IIB, IIIA)
+Pelvic lymph node enlargement (Stage IIIC1)
+Tumour size and lower uterine segment involvement
+Signal characteristics suggesting histological type (serous carcinoma has distinct MRI features)
+Essential for surgical planning (informs extent of surgery and lymph node dissection approach)
+
+CT chest, abdomen, and pelvis:
+Assesses for:
+Para-aortic lymph node involvement (Stage IIIC2)
+Distant metastases: liver, lung, peritoneum
+Pleural effusion (suggests Stage IVB)
+Abdominal organ involvement
+CT is complementary to MRI (MRI better for local staging; CT better for distant disease)
+If MRI unavailable: CT abdominopelvic scan is an acceptable alternative for local staging
+
+Chest X-ray:
+Assess for pulmonary metastases (coin lesions, pleural effusion)
+Pre-operative cardiorespiratory assessment
+Baseline in case of future surveillance
+
+PET-CT scan (if available):
+Most sensitive for detecting lymph node involvement and distant metastases
+Increasingly incorporated into staging in tertiary centres
+Particularly useful in high-grade or non-endometrioid tumours where metastatic risk is higher
+Discuss availability with radiology team
+
+Tumour markers:
+Serum CA-125: elevated in extrauterine spread; useful as a baseline marker for monitoring response to treatment and surveillance; not specific or sensitive for early endometrial carcinoma
+CEA: if colorectal involvement or metastasis suspected
+HE4: increasingly used alongside CA-125 for endometrial and ovarian carcinoma risk stratification
+
+Laboratory Investigations
+
+Full blood count:
+Quantify anaemia (haemoglobin, MCV, MCH)
+Platelet count and white cell count (baseline; important before chemotherapy if adjuvant chemotherapy planned)
+
+Peripheral blood film:
+Assess red cell morphology (iron deficiency, haemolysis)
+
+Serum ferritin and iron studies:
+Confirm iron deficiency anaemia
+Guide iron replacement therapy
+
+Serum electrolytes, urea, and creatinine:
+Renal function assessment
+Especially important given known hypertension (risk of hypertensive nephropathy)
+Essential before cisplatin or carboplatin-based chemotherapy (nephrotoxic)
+
+Liver function tests:
+Assess for hepatic metastases
+Baseline before chemotherapy
+
+Serum albumin:
+Nutritional status marker
+Low albumin predicts poor tolerance to surgery and chemotherapy
+Guides nutritional optimisation
+
+Fasting blood glucose and HbA1c:
+Diabetes mellitus not currently known but must be excluded (major risk factor for endometrial carcinoma and increases surgical risk)
+Screen given age 60 and known hypertension
+
+Coagulation profile:
+Baseline before surgery
+Screen for coagulopathy (malignancy is a hypercoagulable state)
+
+Blood grouping and cross-matching:
+Group and save
+Cross-match minimum 2 units of packed red cells before surgery
+Rhesus type documented
+
+Thyroid function tests:
+Hypothyroidism causes fatigue, weight changes, and menorrhagia; may contribute to constitutional symptoms
+Baseline before treatment
+
+Echocardiogram and ECG:
+Pre-operative cardiac assessment given age 60 and known hypertension for 8 years
+Assess for hypertensive heart disease (left ventricular hypertrophy, diastolic dysfunction)
+Informs anaesthetic and perioperative fluid management
+
+Pulmonary function tests:
+If respiratory symptoms or if adjuvant radiotherapy planned (lung tolerance must be assessed)
+
+Nutritional assessment:
+Weigh patient and calculate BMI (not documented)
+Serum albumin, pre-albumin
+Subjective Global Assessment or MUST (Malnutrition Universal Screening Tool)
+Refer to dietitian early
+
+Pre-operative Medical Optimisation
+
+Hypertension:
+
+Confirm current antihypertensive agents, doses, and compliance
+Target BP: less than 130/80 mmHg for surgery
+If current BP 135/85 mmHg (as documented): adjust therapy in liaison with physician or internist
+Continue antihypertensives on the morning of surgery with a sip of water
+Do NOT withhold antihypertensives pre-operatively (rebound hypertension is dangerous perioperatively)
+Specific considerations:
+If on ACE inhibitor or ARB: discuss with anaesthetist whether to hold on day of surgery (risk of intraoperative hypotension)
+If not optimally controlled: cardiac review before elective surgery
+Post-operative BP monitoring: antihypertensives should be restarted as soon as oral intake resumes
+
+Anaemia:
+
+Haemoglobin target before surgery: greater than 10 g/dL
+Oral ferrous sulphate 200 mg twice to three times daily with ascorbic acid
+If haemoglobin less than 8 g/dL or inadequate response to oral iron and surgery is imminent: IV ferric carboxymaltose 1000 mg single dose (can be repeated)
+Blood transfusion if haemoglobin less than 7 g/dL or haemodynamically compromised
+Pre-operative anaemia correction reduces intraoperative transfusion requirements and post-operative complications
+
+Nutritional optimisation:
+
+Malignancy-related catabolism plus poor oral intake increases surgical risk
+High-protein, calorie-dense diet
+Oral nutritional supplements (e.g., Ensure, Fresubin) if oral intake inadequate
+Consider pre-operative immunonutrition (arginine-enriched supplements) if available
+Target at least 2–4 weeks of nutritional optimisation before elective surgery where possible
+
+Diabetes screening:
+
+If fasting glucose elevated: manage in liaison with physician
+Good glycaemic control (HbA1c less than 8%) reduces surgical infection risk and promotes wound healing
+
+Thromboprophylaxis planning:
+
+Malignancy, major gynaecological surgery, and advancing age are all independent risk factors for venous thromboembolism
+Plan: TED stockings pre-operatively, LMWH (Enoxaparin 40 mg SC daily) commenced 12 hours before surgery if bleeding risk acceptable (or post-operatively if not), continue for 28 days post-operatively (extended prophylaxis recommended in cancer surgery)
+
+Definitive Surgical Management
+
+Surgical staging is the cornerstone of endometrial carcinoma management. Surgery serves two purposes simultaneously: it removes the primary tumour and provides definitive pathological staging that guides adjuvant therapy decisions.
+
+Multidisciplinary team meeting (MDT) before surgery:
+Case must be discussed at a gynaecological oncology MDT meeting before surgical intervention
+Members: gynaecological oncologist, radiation oncologist, medical oncologist, pathologist, radiologist, clinical nurse specialist, palliative care
+MDT reviews: histology, imaging, patient fitness, and formulates a management plan
+Surgery proceeds only after MDT endorsement of the plan
+
+Anaesthetic and physician review:
+Pre-operative anaesthetic assessment
+Manage known hypertension perioperatively
+Optimise medical comorbidities
+Discuss anaesthetic approach: general anaesthesia preferred for this procedure
+Epidural or spinal analgesia as part of multimodal pain management
+
+Informed consent:
+Detailed discussion with patient (and family if she consents to their involvement)
+Explain the operation, its purpose, expected duration, and recovery
+Risks: bleeding (intraoperative and post-operative), infection, bladder and ureteric injury, bowel injury, lymphoedema (if lymphadenectomy), venous thromboembolism, anaesthetic risks, wound complications
+Benefit: definitive diagnosis, staging, removal of tumour, potential cure
+Document fully
+
+Surgical procedure — Total hysterectomy with bilateral salpingo-oophorectomy and surgical staging:
+
+Standard surgical staging for endometrial carcinoma:
+Total hysterectomy (removal of the entire uterus including the cervix)
+Bilateral salpingo-oophorectomy (BSO) — mandatory in postmenopausal women
+The fallopian tubes and ovaries are removed because:
+Ovaries are no longer functional in a postmenopausal woman
+Risk of ovarian metastasis from endometrial carcinoma
+Risk of synchronous primary ovarian malignancy
+Peritoneal washings: collect peritoneal fluid (or washings with 50–100 ml Normal Saline) at the start of surgery before any manipulation; send for cytological analysis
+Pelvic lymph node assessment (see below)
+Para-aortic lymph node assessment (see below)
+Omentectomy: if serous or clear cell carcinoma (non-endometrioid type) or gross disease in the upper abdomen (Stage IVB surgery)
+Tumour debulking: if extrauterine disease present, attempt maximum cytoreduction (remove all visible tumour)
+
+Surgical approach:
+
+Laparoscopic or robotic-assisted hysterectomy (minimally invasive, preferred if feasible):
+Equivalent oncological outcomes to open surgery
+Lower morbidity: less blood loss, shorter hospital stay, faster recovery, fewer wound complications
+Better tolerated in women with hypertension and obesity (both relevant here)
+Laparoscopic approach may be limited if the uterus is very enlarged, if there are extensive adhesions, or if facilities and expertise are unavailable
+
+Total abdominal hysterectomy (open surgery, laparotomy):
+Pfannenstiel (bikini line) or lower midline incision
+Indicated if: minimally invasive surgery unavailable, technically not feasible, suspected extrauterine disease requiring more extensive exploration, or BMI very high (limiting laparoscopic access)
+Standard approach in centres without advanced laparoscopic capability
+
+Vaginal hysterectomy: not appropriate for endometrial carcinoma staging (does not allow adequate access for lymph node assessment and abdominal exploration)
+
+Lymph node assessment — critically important for staging:
+
+Pelvic lymph node dissection (PLND):
+Bilateral systematic pelvic lymphadenectomy (removes nodes along external iliac, internal iliac, obturator, and common iliac vessels)
+Provides definitive information on pelvic nodal involvement (Stage IIIC1)
+Therapeutic benefit (removal of microscopic nodal disease) debated; staging value is well established
+Complication: lymphoedema of the lower limbs (10–20% long-term risk)
+
+Para-aortic lymph node dissection (PALND):
+Removes nodes along the aorta and inferior vena cava up to the level of the renal vessels
+Identifies para-aortic nodal involvement (Stage IIIC2), which significantly changes adjuvant treatment
+Required for high-risk histological types, positive pelvic nodes, or myometrial invasion greater than 50%
+Higher complication risk than pelvic lymphadenectomy
+
+Sentinel lymph node (SLN) mapping (preferred where available):
+Injection of tracer (indocyanine green, blue dye, or radioactive colloid) into the cervix at the start of surgery
+Identifies the first draining lymph nodes from the uterus
+Removes only the sentinel node(s) for pathological assessment
+Advantages: equivalent staging accuracy to full lymphadenectomy, significantly lower risk of lymphoedema, shorter operative time
+NCCN and ESGO guidelines endorse SLN mapping as an alternative to systematic lymphadenectomy in early-stage endometrial carcinoma
+Where SLN mapping is not available: systematic pelvic lymphadenectomy remains standard
+
+Intraoperative frozen section (if available):
+Assess depth of myometrial invasion and histological grade intraoperatively
+Guides decision on extent of lymphadenectomy (full systematic vs sentinel only)
+Guides decision on omentectomy (if unexpected serous/clear cell histology)
+
+Post-operative specimen:
+Send entire uterus, tubes, ovaries, and lymph nodes for formal histopathological analysis
+Final pathological stage based on: histological type, grade, depth of myometrial invasion, lymphovascular space invasion (LVSI), lymph node status, peritoneal cytology
+LVSI (lymphovascular space invasion) is an important independent prognostic factor that influences adjuvant therapy decisions even in Stage I disease
+
+Adjuvant Therapy (Based on Final Pathological Stage and Risk Stratification)
+
+Risk stratification (ESGO/ESTRO/ESP 2020 guidelines):
+
+Low risk (Stage IA, Grade 1–2, endometrioid, no LVSI):
+Surveillance alone (no adjuvant therapy)
+5-year survival greater than 95%
+
+Low-intermediate risk (Stage IB, Grade 1–2, endometrioid, no LVSI, age less than 60):
+Vaginal brachytherapy only (reduces vaginal vault recurrence)
+Surveillance acceptable alternative
+
+High-intermediate risk (Stage IB, Grade 1–2, endometrioid, LVSI positive, age 60 or older; or Stage IB Grade 3 without LVSI):
+Vaginal brachytherapy ± external beam pelvic radiotherapy
+
+High risk (Stage II–III, Grade 3, non-endometrioid, LVSI positive, Stage IIIC):
+Concurrent chemoradiotherapy (external beam pelvic radiotherapy plus cisplatin-based chemotherapy)
+OR chemotherapy followed by radiotherapy (sequential approach)
+Standard chemotherapy: Carboplatin + Paclitaxel (6 cycles)
+
+Advanced/metastatic (Stage IVA–IVB):
+Palliative intent or aggressive multimodal therapy depending on performance status and extent of disease
+Systemic chemotherapy: Carboplatin + Paclitaxel ± Bevacizumab (anti-VEGF, approved for recurrent endometrial carcinoma)
+Pembrolizumab (anti-PD-1 immune checkpoint inhibitor): approved for MMR-deficient or MSI-high endometrial carcinoma (including first-line use); highly effective in mismatch repair deficient tumours
+Lenvatinib + Pembrolizumab: approved for MMR-proficient advanced or recurrent endometrial carcinoma (FDA and ESMO endorsed)
+Hormonal therapy (Medroxyprogesterone acetate 200–400 mg daily or Letrozole 2.5 mg daily): for low-grade, hormone receptor-positive, recurrent or metastatic disease where systemic chemotherapy is not tolerated; response rate approximately 25–30%
+Radiotherapy: for symptom control (vaginal bleeding, bone pain)
+
+For this patient:
+Final adjuvant therapy plan determined after MDT review of surgical pathology report
+Given age 60, slightly enlarged uterus, constitutional symptoms, and known hypertension: index of suspicion for Stage II or higher
+If Stage IC or higher: high-intermediate or high risk category — adjuvant therapy will be required
+Adjuvant therapy must be explained and consented to before surgery if possible
+
+Radiotherapy modalities:
+
+Vaginal brachytherapy (intracavitary):
+Radioactive source placed in vaginal vault post-operatively
+Treats the vaginal cuff (most common site of local recurrence)
+Minimal systemic side effects
+Delivered in 3–5 fractions over 1–2 weeks
+
+External beam pelvic radiotherapy (EBRT):
+Delivered to the pelvis (and para-aortic region if Stage IIIC2)
+Total dose: 45–50 Gy in 25–28 fractions over 5–6 weeks
+Acute side effects: diarrhoea, cystitis, fatigue, skin reaction
+Late side effects: radiation proctitis, radiation cystitis, vaginal stenosis, lymphoedema, secondary malignancy (rare)
+
+Chemotherapy:
+
+Standard regimen: Carboplatin AUC 5 + Paclitaxel 175 mg/m² IV every 3 weeks for 6 cycles
+Given post-operatively when patient has recovered from surgery (usually 4–6 weeks post-surgery)
+Side effects: nausea, vomiting, alopecia, neuropathy (Paclitaxel), myelosuppression, nephrotoxicity (Carboplatin)
+Requires pre-treatment renal function assessment (eGFR for Carboplatin dosing)
+Antiemetics and growth factor support as per institutional protocol
+
+Supportive Care
+
+Analgesia:
+Post-operative multimodal analgesia:
+Regular IV or oral Paracetamol 1 g every 6–8 hours
+NSAIDs (with caution given hypertension and potential renal impairment; reassess post-operative renal function)
+Epidural or patient-controlled analgesia if available (for open surgery)
+Tramadol 50–100 mg every 8 hours for breakthrough pain
+Oral morphine if severe pain (titrate carefully in an elderly hypertensive patient)
+
+Nutritional support:
+Pre-operative: high-protein, calorie-dense diet, oral nutritional supplements
+Post-operative: early enteral feeding (within 24 hours of surgery if tolerated) — early oral intake is associated with faster recovery and fewer complications in gynaecological oncology surgery
+Dietitian review throughout treatment
+IV total parenteral nutrition only if enteral route not tolerated
+
+Thromboprophylaxis:
+TED stockings pre-operatively and throughout hospital stay
+Enoxaparin 40 mg SC daily: commence 12 hours before surgery (or 6–12 hours post-operatively if high bleeding risk); continue for 28 days post-surgery (extended prophylaxis)
+Early post-operative mobilisation
+
+Anaemia management:
+Continue iron supplementation post-operatively
+Repeat haemoglobin 1–2 weeks after surgery
+Blood transfusion if symptomatic or haemoglobin less than 7 g/dL
+
+Bowel care:
+Early mobilisation and oral fluids to prevent ileus
+Stool softeners post-operatively (lactulose, bisacodyl)
+Anti-diarrhoeal agents during radiotherapy if needed (loperamide)
+
+Bladder care:
+Urethral catheter removed 24–48 hours post-laparoscopic surgery, 48–72 hours after open surgery
+Encourage early voiding
+Pelvic floor exercises to prevent post-operative urinary symptoms
+
+Psychological support:
+Cancer diagnosis and major surgery are profoundly distressing
+Clinical nurse specialist or oncology counsellor should be involved from the outset
+Identify support systems (husband, children, church community)
+Referral to social worker if financial or logistical barriers to treatment exist
+
+Palliative care integration:
+Palliative care should be involved early regardless of curative intent (not equivalent to end-of-life care)
+Addresses: symptom management, psychosocial support, spiritual needs, advance care planning
+Early palliative care integration improves quality of life and, in some studies, survival
+
+Counselling
+
+Breaking the news and confirming the diagnosis:
+The patient has already been informed of the diagnosis at the referring hospital
+At this consultation: confirm the diagnosis, ensure she fully understands it, and address any gaps in her understanding or any questions she has
+Use clear, simple language; avoid medical jargon
+Ensure a trusted family member is present if she wishes
+Allow time for questions and emotional expression
+
+Explanation of endometrial carcinoma:
+Cancer of the lining of the womb (endometrium) is the most common cancer of the female reproductive organs
+It developed from the cells lining the inside of the womb
+In many women it is caught at an early stage and is highly treatable
+The next step is to determine exactly how far the cancer has spread (staging)
+
+Explanation of staging investigations:
+An MRI scan of the pelvis and a CT scan of the chest and abdomen will be done
+These scans will show how far the cancer has grown and whether it has spread to lymph nodes or other organs
+Blood tests will also be done to check her blood level, kidney and liver function, and other parameters
+
+Explanation of surgery:
+An operation is required to remove the womb, both fallopian tubes, and both ovaries
+The lymph nodes in the pelvis will also be assessed or removed to check for spread
+This operation will confirm the stage of the cancer and is also the primary treatment
+The operation can be performed by keyhole (laparoscopic) or open surgery, and this will be discussed in detail with her by the operating team
+
+Explanation of adjuvant therapy:
+Depending on what the operation findings show, she may need additional treatment after surgery
+This could be radiotherapy (a specialised form of X-ray treatment targeted at the pelvis), chemotherapy (medicines given by drip), or both
+The team will explain which treatment is most appropriate once the surgical results are known
+Side effects of each treatment will be discussed in detail before consent is obtained
+
+Prognosis discussion:
+Be honest and compassionate
+Endometrial carcinoma diagnosed and treated at an early stage has very good outcomes
+The exact prognosis will depend on the stage found at surgery
+The medical team will do everything possible to give her the best chance of a good outcome
+Palliative care is available to ensure her comfort and quality of life throughout the process regardless of stage
+
+Fertility:
+Not applicable (60-year-old postmenopausal woman)
+Removal of the uterus and ovaries will not cause menopause (already postmenopausal)
+Explain that the surgery will not cause any hormonal change beyond what has already occurred
+
+Sexual health:
+Vaginal changes may occur after surgery and radiotherapy (vaginal shortening, dryness, stenosis)
+Vaginal dilators and lubricants may be needed during and after radiotherapy
+Sexual activity can resume after recovery from surgery and radiotherapy (usually 6–8 weeks)
+This should be discussed openly and sensitively
+
+Hypertension management:
+Her blood pressure medications must be continued throughout treatment
+She should attend hypertension follow-up in addition to oncology appointments
+Good blood pressure control reduces perioperative and treatment-related cardiovascular risk
+
+Support systems:
+Encourage involvement of family and trusted community support
+Church or faith community involvement if helpful to the patient
+National gynaecological cancer support groups (where available)
+Clinical nurse specialist as a point of contact throughout treatment
+
+PROGNOSIS
+
+Stage-dependent prognosis:
+
+Stage I (tumour confined to uterus):
+5-year overall survival: approximately 80–90% (Grade 1) to 70–75% (Grade 3 or non-endometrioid)
+Most endometrial carcinomas are diagnosed at Stage I; excellent outcomes with surgery alone or surgery plus brachytherapy
+
+Stage II (cervical stromal involvement):
+5-year overall survival: approximately 70–80%
+Requires more extensive surgery and adjuvant chemoradiotherapy
+
+Stage III (pelvic or nodal spread):
+5-year overall survival: approximately 40–60% (Stage IIIA/B) to 30–50% (Stage IIIC)
+Requires adjuvant chemoradiotherapy; outcomes improving with newer agents
+
+Stage IV (distant metastases):
+5-year overall survival: approximately 15–20%
+Palliative intent; modern immunotherapy (pembrolizumab, lenvatinib) improving outcomes
+
+Factors favouring good outcome in this patient:
+Mobile uterus (no parametrial fixation on clinical examination)
+No palpable adnexal masses
+No urinary or bowel symptoms
+Prompt referral from peripheral hospital after biopsy confirmation
+Good performance status (ambulatory, retired teacher with good understanding of her condition)
+
+Factors requiring careful assessment:
+Constitutional symptoms (weight loss, anorexia) suggest disease may not be confined to the uterus
+Slightly enlarged uterus (suggests myometrial invasion present, at least Stage IC)
+Age 60 and known hypertension increase perioperative risk
+Anaemia requires pre-operative correction
+Nutritional status needs assessment and optimisation
+
+Histological and molecular factors (pending biopsy review):
+Non-endometrioid histology (serous, clear cell): worse prognosis even at early stage
+High grade (Grade 3): worse prognosis; requires aggressive adjuvant therapy
+MMR deficient (MMRd): intermediate prognosis; may benefit significantly from immunotherapy
+p53 mutant: poor prognosis; aggressive adjuvant chemotherapy required
+POLE ultramutated: excellent prognosis; may require less adjuvant therapy
+
+FOLLOW-UP
+Post-operative review at 4–6 weeks: assess wound healing, review final histopathology and pathological stage, discuss adjuvant therapy plan in MDT. Commencement of adjuvant therapy (radiotherapy and/or chemotherapy) at 4–6 weeks post-surgery when the patient has recovered. Clinical review every 3 months for the first 2 years (highest recurrence risk period): history, examination, vault smear. Review every 6 months from years 3–5. Annual review thereafter. CA-125 monitoring at each visit if elevated at diagnosis. CT or MRI imaging if clinical suspicion of recurrence. Hypertension review at every oncology visit. Nutritional and psychological support throughout treatment and follow-up. Immediate review if new symptoms develop (vaginal bleeding, pelvic pain, leg swelling, urinary or bowel symptoms).
   `,
   bookmarkCount: 0
 },

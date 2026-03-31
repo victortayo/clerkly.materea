@@ -17317,7 +17317,7 @@ bookmarkCount: 0
     'No inhalational injury features'
   ],
   contributor: 'Admin',
-  lastModified: '2026-03-27',
+  lastModified: '2026-03-30',
   summary: 'A 35-year-old male trader presenting with acute flame burns sustained 6 hours ago during a domestic accident involving petrol ignition while lighting a generator. Burns affect anterior trunk (18% TBSA) and both upper limbs (9% each), totalling 36% TBSA. Burns are predominantly partial thickness (superficial and deep dermal) with mixture of erythema, intact and ruptured blisters leaving moist red weeping surfaces, and patches of pale areas suggesting deeper injury. No full thickness burns or black eschar. No facial burns, no inhalational injury (incident in open space). Examination reveals early hypovolaemia (BP 100/65 mmHg, pulse 110 bpm, reduced urine output, mild dehydration). First aid included cold water initially, but inappropriate substances (palm oil, toothpaste) applied before presentation. Requires urgent fluid resuscitation using Parkland formula, wound care, analgesia, tetanus prophylaxis, and admission to burns unit.',
   content: `
 Mr. Adeyemi S., a 35-year-old male trader who resides in Ifo, Ogun State. He is Yoruba, a Christian, and married.

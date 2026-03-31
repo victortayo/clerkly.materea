@@ -17295,6 +17295,1506 @@ Long-term outlook: No long-term sequelae expected. Small risk of post-infectious
 `,
 bookmarkCount: 0
 },
+{
+  id: 'surg-23',
+  title: 'Acute Flame Burns - Moderate to Severe (36% TBSA)',
+  specialty: 'Surgery',
+  subSpecialty: 'Burns and Plastic Surgery',
+  condition: 'Acute flame burns involving 36% total body surface area (TBSA) with partial thickness burns and early hypovolaemia',
+  symptoms: [
+    'Burns injury involving trunk and upper limbs for 6 hours',
+    'Severe pain at burn sites (9/10 severity)',
+    'Blister formation over affected areas for 4 hours',
+    'Redness and fluid-filled blisters (some ruptured)',
+    'Raw weeping surfaces where blisters ruptured',
+    'Burns: anterior chest (18%), both upper limbs (9% each)',
+    'Total body surface area affected: 36%',
+    'Predominantly partial thickness burns',
+    'Early hypovolaemia (BP 100/65 mmHg, pulse 110 bpm)',
+    'Mild dehydration',
+    'Reduced urine output',
+    'Tachypnoea (22 cpm)',
+    'No inhalational injury features'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-27',
+  summary: 'A 35-year-old male trader presenting with acute flame burns sustained 6 hours ago during a domestic accident involving petrol ignition while lighting a generator. Burns affect anterior trunk (18% TBSA) and both upper limbs (9% each), totalling 36% TBSA. Burns are predominantly partial thickness (superficial and deep dermal) with mixture of erythema, intact and ruptured blisters leaving moist red weeping surfaces, and patches of pale areas suggesting deeper injury. No full thickness burns or black eschar. No facial burns, no inhalational injury (incident in open space). Examination reveals early hypovolaemia (BP 100/65 mmHg, pulse 110 bpm, reduced urine output, mild dehydration). First aid included cold water initially, but inappropriate substances (palm oil, toothpaste) applied before presentation. Requires urgent fluid resuscitation using Parkland formula, wound care, analgesia, tetanus prophylaxis, and admission to burns unit.',
+  content: `
+Mr. Adeyemi S., a 35-year-old male trader who resides in Ifo, Ogun State. He is Yoruba, a Christian, and married.
+
+Informant: Patient and wife (reliable)
+
+PRESENTING COMPLAINTS
+Burns injury involving the trunk and upper limbs × 6 hours
+Severe pain at burn sites × 6 hours
+Blister formation over affected areas × 4 hours
+
+HISTORY OF PRESENTING COMPLAINT
+He was apparently well until about 6 hours prior to presentation when he sustained burns following a domestic accident involving petrol.
+
+According to the patient, he was attempting to light a generator at home when petrol he had earlier poured on the generator suddenly ignited, leading to a flash flame that engulfed his upper body. The incident occurred in an open space within his compound and there was no history of exposure in an enclosed environment.
+
+He immediately experienced severe burning pain over his chest, abdomen, and both upper limbs. The pain was described as intense, continuous, non-radiating, and rated 9/10 in severity. There was associated redness of the skin which was followed a few hours later by the development of fluid-filled blisters over the affected areas. Some of the blisters have since ruptured, leaving raw surfaces.
+
+There was no associated loss of consciousness, no head injury, and no associated bleeding from any site. There is no history suggestive of inhalational injury as there was no exposure in an enclosed space, no cough, no difficulty in breathing, no hoarseness of voice, and no soot noticed in the mouth or sputum.
+
+Immediately after the incident, cold water was poured over the affected areas by relatives. However, palm oil and toothpaste were subsequently applied before he was taken to a nearby private clinic where he received some analgesics and was referred to this facility for further management.
+
+Since the injury, the pain has persisted with no significant relief. There is no history of fever, no purulent discharge from the wounds, and no foul smell. He has passed urine since the injury, though in reduced quantity.
+
+There is no history of burns to the face, no singeing of hair, and no features suggestive of airway compromise.
+
+He is not a known hypertensive or diabetic patient and has no history of asthma or epilepsy.
+
+There is no prior history of similar injuries.
+He is not on any routine medications and has no known drug allergies.
+His tetanus immunization status is not up to date.
+He does not smoke cigarettes and does not take alcohol.
+He occasionally handles petrol and generators in the course of his work.
+
+REVIEW OF SYSTEMS
+No history of dizziness, palpitations, or chest pain
+No cough or breathlessness
+No abdominal pain, vomiting, or change in bowel habits
+Reduced urine output since the injury
+No history of confusion or loss of consciousness
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young adult male, conscious and alert, in obvious painful distress
+Not pale, not icteric, afebrile, and mildly dehydrated
+No cyanosis or pedal oedema
+
+Vital Signs:
+Pulse: 110 bpm, regular, moderate volume (tachycardia)
+Blood Pressure: 100/65 mmHg (borderline low)
+Respiratory Rate: 22 cpm (mild tachypnoea)
+Temperature: 36.8°C
+SpO₂: 98% in room air
+
+Local Examination of Burns:
+Burn injuries noted over the anterior chest, abdomen, and both upper limbs
+Affected areas show a mixture of erythema and multiple fluid-filled blisters, some of which have ruptured leaving moist, red, and weeping surfaces
+Patches of pale areas suggestive of deeper injury
+No areas of black eschar seen
+Burns tender to touch
+
+Using the Rule of Nines:
+Anterior trunk = 18%
+Right upper limb = 9%
+Left upper limb = 9%
+Total Burn Surface Area (TBSA) approximately 36%
+
+Burns predominantly partial thickness (superficial and deep) with no obvious full thickness areas
+No signs of infection such as pus discharge or foul smell
+
+Chest:
+Chest expansion equal bilaterally
+Trachea central
+Breath sounds vesicular with no added sounds
+No features suggestive of inhalational injury
+Heart sounds S1 and S2 only, no murmurs
+
+Abdomen:
+Full, moves with respiration
+No tenderness
+No palpable organomegaly
+
+Central Nervous System:
+Conscious and oriented in time, place, and person
+No focal neurological deficits
+
+ASSESSMENT
+
+A 35-year-old man with acute flame burns involving approximately 36% TBSA, affecting the anterior trunk and both upper limbs, predominantly partial thickness burns, with features of early hypovolaemia, and no evidence of inhalational injury
+
+Diagnosis based on:
+
+Mechanism of injury:
+Flame burns from petrol ignition
+Flash flame (rapid ignition) - typically causes partial thickness burns
+Open space exposure (reduces risk of inhalational injury)
+
+Extent of burns (TBSA calculation using Rule of Nines):
+
+Adult Rule of Nines:
+Head and neck: 9%
+Each upper limb: 9% (total both arms 18%)
+Anterior trunk: 18%
+Posterior trunk: 18%
+Each lower limb: 18% (total both legs 36%)
+Perineum: 1%
+Total: 100%
+
+This patient:
+Anterior trunk (chest and abdomen): 18%
+Right upper limb: 9%
+Left upper limb: 9%
+Total TBSA: 36%
+
+Alternative method (Lund and Browder chart):
+More accurate, especially in children
+Accounts for age-related body proportions
+Not essential for this adult patient with straightforward distribution
+
+Severity classification by TBSA:
+
+Minor burns:
+Less than 10% TBSA in adults (less than 5% in children or elderly)
+Can be managed as outpatient in most cases
+
+Moderate burns:
+10-20% TBSA in adults
+May require admission
+
+Major burns (this patient):
+Greater than 20% TBSA in adults (greater than 10% in children)
+Greater than 10% full thickness
+Burns to face, hands, feet, genitalia, perineum, or major joints
+Electrical burns
+Chemical burns
+Inhalational injury
+Burns with associated trauma
+Burns in patients with comorbidities
+Require admission to burns unit
+
+This patient: 36% TBSA = Major burn injury
+
+Depth of burns:
+
+Classification:
+
+Superficial (first-degree):
+Epidermis only
+Red, painful, dry, blanches with pressure
+No blisters
+Heals in 3-7 days without scarring
+Example: Sunburn
+
+Superficial partial thickness (superficial second-degree):
+Epidermis and upper dermis
+Red, painful, wet/weeping, blanches
+Blisters present
+Heals in 7-21 days with minimal scarring
+
+Deep partial thickness (deep second-degree):
+Epidermis and deep dermis
+Mottled red/white, less painful (nerve damage), does not blanch
+Blisters may be present
+Heals in 3-8 weeks with significant scarring
+May require grafting
+
+Full thickness (third-degree):
+All layers of skin destroyed
+White, brown, or black (eschar)
+Dry, leathery
+Painless (nerves destroyed)
+Does not blanch
+Requires grafting, will not heal spontaneously
+
+This patient:
+Mixture of erythema (superficial)
+Fluid-filled blisters - some intact, some ruptured (superficial partial thickness)
+Moist red weeping surfaces (superficial partial thickness)
+Pale areas (deep partial thickness)
+No black eschar (no full thickness)
+Predominantly partial thickness burns (both superficial and deep)
+
+Features of early hypovolaemia:
+
+Tachycardia (110 bpm, normal 60-100)
+Borderline hypotension (100/65 mmHg)
+Mild tachypnoea (22 cpm)
+Reduced urine output
+Mild dehydration
+
+Pathophysiology of burn shock:
+Massive fluid shifts from intravascular to interstitial space
+Increased capillary permeability
+Protein leak
+Hypovolaemia
+Haemoconcentration
+Risk of acute kidney injury if not resuscitated
+
+Assessment for inhalational injury:
+
+History:
+Burns in enclosed space (NOT present - open space)
+Explosion or fire in confined area
+Prolonged exposure to smoke
+
+Clinical features:
+Facial burns (NOT present)
+Singed nasal hairs or eyebrows (NOT present)
+Soot in mouth, nose, or sputum (NOT present)
+Hoarseness or stridor (NOT present)
+Respiratory distress (NOT present)
+Altered mental status from carbon monoxide or cyanide
+
+This patient: NO evidence of inhalational injury
+
+Risk factors for complications:
+
+Age extremes (less than 5 years or greater than 60 years) - this patient 35 years, favourable
+TBSA greater than 20% - this patient 36%, high risk
+Full thickness burns - none in this patient
+Inhalational injury - not present
+Associated trauma - none
+Comorbidities (diabetes, immunosuppression) - none reported
+Delayed presentation (greater than 6 hours increases infection risk) - presented at 6 hours
+
+Inappropriate first aid:
+
+Appropriate: Cold water application (reduces burn progression, provides analgesia)
+Inappropriate: Palm oil and toothpaste application
+These traditional remedies:
+Increase infection risk
+Contaminate wound
+May worsen burn depth
+Complicate assessment
+Must be removed during wound cleaning
+
+PLAN
+
+Management follows standard burns protocol with ABCDE approach
+
+Immediate Assessment and Resuscitation
+
+Primary Survey (ABCDE):
+
+Airway:
+Assess patency (currently patent, patient speaking)
+Look for signs of inhalational injury or airway oedema
+No facial burns, no singed hairs, no stridor in this patient
+If concern: Early intubation before oedema develops
+This patient: Airway secure, but monitor closely (oedema can develop over 24-48 hours)
+
+Breathing:
+Assess respiratory rate, effort, oxygen saturation
+This patient: RR 22 cpm (mild tachypnoea), SpO₂ 98% (adequate)
+Give supplemental oxygen via face mask 4-6 L/min (all major burns)
+Monitor for respiratory distress
+Check for circumferential chest burns (can restrict breathing - not present in this case)
+Arterial blood gas if concern for carbon monoxide or cyanide poisoning
+
+Circulation:
+Assess perfusion: BP, pulse, capillary refill, urine output
+This patient: Early hypovolaemia (BP 100/65, pulse 110, reduced urine output)
+Establish IV access: Two large-bore cannulas (14G or 16G) in unburned areas if possible
+If burned areas only: Can place through burned skin
+Avoid lower limb IV lines if possible (increased infection risk)
+Send blood for investigations (see below)
+Begin fluid resuscitation immediately (see below)
+
+Disability:
+Assess conscious level (GCS)
+This patient: Conscious, alert, oriented (GCS 15/15)
+Check blood glucose (exclude hypoglycaemia)
+
+Exposure:
+Full examination, remove all clothing and jewellery (rings can cause constriction if oedema develops)
+Prevent hypothermia (cover with clean warm sheets, warm room)
+This patient: Temperature 36.8°C (acceptable), maintain normothermia
+
+Fluid Resuscitation (Critical)
+
+Indication: Burns greater than 15-20% TBSA in adults (greater than 10% in children)
+
+Formula: Parkland (Baxter) formula (most widely used)
+
+Calculation:
+Total fluid in first 24 hours = 4 ml × body weight (kg) × % TBSA
+Fluid type: Ringer's Lactate or Hartmann's solution (crystalloid)
+
+This patient:
+Assumed weight: 70 kg (or measure actual weight)
+TBSA: 36%
+Calculation: 4 × 70 × 36 = 10,080 ml in first 24 hours
+
+Timing:
+First 24 hours calculated from time of injury (not time of presentation)
+This patient injured 6 hours ago, so 6 hours already elapsed
+Half of calculated volume in first 8 hours from time of injury
+Remaining half over next 16 hours
+
+Specific plan for this patient:
+Total: 10,080 ml
+First 8 hours (from injury): 5040 ml - but 6 hours already passed
+So need to give 5040 ml in remaining 2 hours (aggressive catch-up)
+Then 5040 ml over next 16 hours
+
+Practical application:
+Give approximately 2500 ml/hour for first 2 hours (catch-up)
+Then approximately 315 ml/hour for next 16 hours
+Adjust based on urine output (see monitoring)
+
+Important notes:
+Formula is a guide, not absolute
+Adjust based on urine output (primary endpoint)
+Over-resuscitation causes complications (pulmonary oedema, compartment syndrome)
+Under-resuscitation causes acute kidney injury, shock
+Some patients need more (inhalational injury, delayed resuscitation, electrical burns, deep burns)
+Some patients need less (children, elderly)
+
+Alternative formulas:
+Modified Parkland: 2-3 ml/kg/% TBSA (less volume)
+Galveston formula (children): 5000 ml/m² burned + 2000 ml/m² total BSA
+Colloid-containing formulas (less commonly used initially)
+
+Second 24 hours:
+Reduce to maintenance fluids plus insensible losses
+Use crystalloid or colloid (albumin, plasma)
+Typically 0.3-0.5 ml/kg/% TBSA plus maintenance
+Oral intake encouraged if tolerated
+
+Monitoring:
+
+Urine Output (most important endpoint):
+
+Insert urinary catheter (Foley)
+Target: 0.5-1.0 ml/kg/hr in adults (approximately 30-70 ml/hr for 70 kg patient)
+0.5 ml/kg/hr minimum (30-35 ml/hr)
+1.0 ml/kg/hr ideal (50-70 ml/hr)
+Greater than 1.5 ml/kg/hr suggests over-resuscitation (reduce rate)
+
+If urine output inadequate (less than 0.5 ml/kg/hr):
+Increase IV fluid rate by 25-50%
+Recheck after 1 hour
+If persistently low: Consider urethral obstruction, acute kidney injury
+
+If urine output excessive (greater than 1.5 ml/kg/hr):
+Decrease IV fluid rate
+Avoid fluid overload
+
+Monitor urine colour:
+Clear to pale yellow: Adequate
+Dark/concentrated: Inadequate hydration
+Red/brown (myoglobinuria): Suggest muscle injury, increase fluids to 1-1.5 ml/kg/hr
+
+Vital signs:
+Monitor BP, pulse, respiratory rate, temperature, SpO₂ every 1-2 hours initially
+Watch for improvement with resuscitation
+Tachycardia and hypotension should improve
+Persistent hypotension despite adequate fluids: Consider other causes (bleeding, sepsis, cardiogenic)
+
+Clinical perfusion:
+Capillary refill time (less than 2 seconds normal)
+Mental status (alert and oriented)
+Skin perfusion (warm peripheries)
+
+Body weight:
+Daily weights
+Excessive weight gain (greater than 10%) suggests fluid overload
+
+Investigations
+
+Baseline:
+
+Full blood count:
+Haemoglobin (may be elevated from haemoconcentration initially, then decreases)
+White cell count (initial stress response, later infection)
+Platelet count
+
+Electrolytes, urea, creatinine:
+Baseline renal function
+Sodium, potassium (may be deranged with massive fluid shifts)
+Monitor daily initially
+
+Blood glucose:
+Stress hyperglycaemia common
+Exclude hypoglycaemia
+
+Arterial blood gas:
+If inhalational injury suspected
+Check PaO₂, PaCO₂, pH, carboxyhaemoglobin, lactate
+This patient: Not essential (no inhalational injury)
+
+Coagulation profile:
+If extensive burns or bleeding concerns
+
+Blood grouping and cross-matching:
+Type and screen
+May need transfusion if extensive debridement or surgery
+
+Urine:
+Urinalysis (check for myoglobinuria if muscle injury)
+Urine output monitoring (most important)
+
+Wound swabs:
+At admission (before antibiotics)
+If signs of infection develop
+
+Imaging:
+Chest X-ray if inhalational injury suspected
+Not routine for this patient
+
+Analgesia (Essential)
+
+Burns are extremely painful
+
+Immediate analgesia:
+
+Opioids (first-line):
+IV Morphine 5-10 mg (0.1 mg/kg) every 2-4 hours as needed OR
+IV Tramadol 50-100 mg 6-8 hourly OR
+IV Pentazocine 30 mg 3-4 hourly
+Titrate to pain relief
+Caution with respiratory depression (monitor)
+
+Non-opioid:
+IV or oral Paracetamol 1 g 6-hourly
+Adjunct to opioids
+
+NSAIDs:
+Generally avoided initially (risk of renal impairment with hypovolaemia)
+Can use once adequately resuscitated
+
+Procedural analgesia:
+IV Ketamine or Propofol for dressing changes
+Short-acting, provides dissociation
+
+Ongoing analgesia:
+Regular opioids and paracetamol
+Reduce gradually as healing progresses
+
+This patient: Severe pain (9/10), requires aggressive analgesia with IV opioids
+
+Wound Care
+
+Initial management:
+
+Remove contaminants:
+Clean away palm oil, toothpaste, dirt
+Sterile saline irrigation
+Gentle but thorough
+
+Assess wounds:
+Document extent and depth
+Photograph if possible (for monitoring progression)
+
+Cleaning:
+Sterile saline or water
+Remove loose skin, debris
+Gentle technique (avoid further damage)
+
+Debridement:
+Remove dead or devitalized tissue
+Ruptured blisters: Remove loose skin
+Intact blisters: Small (less than 5 mm) can be left, large (greater than 5 mm) should be deroofed (prevents infection, allows assessment)
+This patient: Remove ruptured blister skin, deroof large intact blisters
+
+Topical antimicrobial agents:
+
+Silver sulfadiazine cream 1% (most common):
+Broad-spectrum antimicrobial
+Apply 3-5 mm thick layer
+Cover with sterile dressing
+Change daily or twice daily
+Avoid on face (can cause discoloration)
+Contraindicated in pregnancy, G6PD deficiency, sulfa allergy
+
+Mafenide acetate:
+Penetrates eschar better than silver sulfadiazine
+Painful on application
+Can cause metabolic acidosis
+Reserved for deep or infected burns
+
+Mupirocin:
+For facial burns
+Antibiotic ointment
+
+Silver-impregnated dressings:
+Can leave in place for several days
+Expensive
+
+Honey:
+Natural antimicrobial
+Can be effective
+Local availability varies
+
+This patient: Apply silver sulfadiazine cream
+
+Dressings:
+Cover with sterile non-adherent dressing
+Layer of absorbent gauze
+Secure with bandage
+Keep limbs elevated (reduce oedema)
+Change dressing daily initially
+
+Escharotomy (if needed):
+
+Indication:
+Circumferential full thickness burns causing compartment syndrome
+Chest: Restricts breathing
+Limbs: Compromises circulation (check pulses, capillary refill)
+
+This patient: No circumferential burns, no full thickness burns, not needed
+
+Tetanus Prophylaxis
+
+All burns are tetanus-prone wounds
+
+Patient's tetanus status: Not up to date
+
+Management:
+If immunized within 10 years: No tetanus prophylaxis needed
+If immunized greater than 10 years or uncertain: Tetanus toxoid 0.5 ml IM
+If never immunized or unknown: Tetanus toxoid 0.5 ml IM PLUS Tetanus immunoglobulin (TIG) 250-500 units IM at different site
+
+This patient (not up to date): Give tetanus toxoid IM, consider TIG
+
+Stress ulcer prophylaxis (Curling's ulcer prevention):
+
+Major burns cause physiological stress leading to stress ulcers (Curling's ulcers)
+Gastric and duodenal ulcers from mucosal ischaemia
+Can cause gastrointestinal bleeding
+
+Prophylaxis:
+Proton pump inhibitors (first-line):
+Omeprazole 40 mg orally or IV once daily OR
+Pantoprazole 40 mg orally or IV once daily
+Start immediately, continue throughout admission
+H2 receptor antagonists (alternative):
+Ranitidine 150 mg twice daily (if PPI unavailable)
+
+This patient: Start omeprazole 40 mg once daily (oral when tolerating, IV initially if NPO)
+
+Antibiotics
+
+Prophylactic systemic antibiotics: NOT recommended routinely
+Increases antibiotic resistance
+Alters normal flora
+Masks infection
+
+Indications for antibiotics:
+Clinical signs of infection (fever, purulent discharge, cellulitis, sepsis)
+Extensive full thickness burns
+Inhalational injury with respiratory infection
+
+This patient: No signs of infection currently, withhold antibiotics, monitor closely
+
+Topical antimicrobials: Already covered (silver sulfadiazine)
+
+Nutrition
+
+Hypermetabolic state in major burns
+Nutritional requirements increase significantly
+
+Early enteral nutrition:
+Start within 24-48 hours if possible
+Oral feeding preferred if patient can swallow
+Nasogastric tube if unable to eat or inadequate intake
+
+Caloric requirements:
+Various formulas (Curreri, Toronto, others)
+Approximately 25-30 kcal/kg/day + additional for burn
+Can be 40-50 kcal/kg/day in extensive burns
+
+Protein requirements:
+High protein needed for wound healing
+1.5-2.5 g/kg/day
+
+Vitamins and minerals:
+Vitamin C (collagen synthesis, wound healing)
+Vitamin A (epithelialization)
+Zinc (wound healing)
+Selenium, copper
+
+This patient: Start oral intake as tolerated, high-protein high-calorie diet, consider nutritional supplements
+
+Antiemetics (as needed):
+
+Nausea and vomiting common in burns from:
+Pain medications (opioids)
+Stress response
+Ileus
+
+Options:
+Metoclopramide 10 mg IV/orally 8-hourly (also prokinetic, helps with gastric emptying)
+Ondansetron 4-8 mg IV/orally 8-hourly (if metoclopramide ineffective or contraindicated)
+
+This patient: Give metoclopramide 10 mg as needed for nausea, ondansetron as second-line
+
+Sedation and anxiolysis:
+
+For procedures (dressing changes, debridement):
+Short-acting sedation preferred
+IV Midazolam 1-2 mg (titrate to effect, fast onset, short duration) OR
+IV Diazepam 5-10 mg (longer acting)
+Always with adequate analgesia (ketamine also provides analgesia)
+Monitor respiratory status, have reversal agent available (Flumazenil)
+
+For anxiety:
+Oral Diazepam 5-10 mg at night if needed
+Benzodiazepines only short-term (risk of dependence)
+Non-pharmacological: Counselling, relaxation techniques
+
+This patient: Midazolam for procedural sedation during dressing changes, diazepam for anxiety if needed
+Admission and Monitoring
+
+Admit to burns unit or intensive care:
+Major burn (36% TBSA)
+Requires specialist nursing care
+Isolation to prevent infection
+
+Monitoring parameters:
+
+Vital signs: Every 1-2 hours initially, then 4-hourly
+Urine output: Hourly (adjust fluids accordingly)
+Fluid balance: Strict input-output charting
+Daily weight
+Pain assessment: Regularly, adjust analgesia
+Wound inspection: Daily during dressing changes
+Signs of infection: Fever, purulent discharge, spreading erythema
+Compartment syndrome: Check pulses, capillary refill, sensation in limbs
+Laboratory: Daily electrolytes, renal function initially
+
+Multidisciplinary team:
+Surgeons (burns or plastic surgery)
+Intensivists (if ICU admission)
+Physiotherapists (early mobilization, prevent contractures)
+Occupational therapists (splinting, positioning)
+Dietitian (nutritional support)
+Psychologist (emotional support, PTSD prevention)
+
+Surgical Management
+
+Indications for surgery:
+
+Escharotomy:
+Circumferential full thickness burns with compartment syndrome
+This patient: Not applicable
+
+Early excision and grafting:
+Deep partial thickness or full thickness burns
+Performed within 3-7 days of injury
+Excise burned tissue down to viable tissue
+Apply skin graft (autograft, allograft, or skin substitute)
+Reduces infection, improves healing, reduces scarring
+
+This patient:
+Predominantly partial thickness burns
+Observe for spontaneous healing
+If areas do not heal in 2-3 weeks: Consider grafting
+Deep partial thickness areas may require grafting
+
+Skin grafting:
+Split-thickness skin graft (most common)
+Donor site: Usually thigh or back
+Can be meshed (expands to cover larger area)
+Full-thickness graft (less common, better cosmetic result, limited by donor availability)
+
+Rehabilitation:
+
+Positioning and splinting:
+Prevent contractures
+Maintain joints in functional position
+
+Physiotherapy:
+Range of motion exercises
+Mobilization as tolerated
+
+Pressure garments:
+After healing, to reduce hypertrophic scarring
+Worn for 12-18 months
+
+Scar management:
+Massage, moisturizers, silicone sheets
+
+Psychological support:
+Burns are traumatic physically and emotionally
+Counselling, support groups
+
+Complications to Monitor
+
+Immediate (first 48-72 hours):
+
+Hypovolaemic shock:
+Inadequate fluid resuscitation
+Monitor urine output, vital signs
+
+Compartment syndrome:
+Circumferential burns, oedema
+Check pulses, sensation, capillary refill
+Not applicable to this patient (no circumferential burns)
+
+Acute kidney injury:
+Hypovolaemia, myoglobinuria
+Monitor urine output, creatinine
+
+Respiratory failure:
+Inhalational injury, pulmonary oedema from over-resuscitation
+Not applicable to this patient (no inhalational injury)
+
+Hypothermia:
+Large area exposed, fluid resuscitation
+Keep warm
+
+Early (days to weeks):
+
+Infection:
+Most common complication
+Wound infection, pneumonia, sepsis
+Signs: Fever, purulent discharge, spreading erythema, positive cultures
+Prevention: Aseptic technique, topical antimicrobials
+Treatment: Systemic antibiotics, surgical debridement
+
+Ileus:
+Common in major burns
+Delayed gastric emptying
+Manage with NG tube decompression, prokinetics
+
+Thromboembolism:
+Immobility, hypercoagulable state
+Prevention: Early mobilization, prophylactic anticoagulation (LMWH when safe)
+Low molecular weight heparin: Enoxaparin 40 mg SC once daily
+Start when haemostasis confirmed and patient haemodynamically stable
+Usually after first 24-48 hours
+Continue until mobile
+
+Contraindications to LMWH:
+Active bleeding
+Coagulopathy
+Wait until adequately resuscitated
+
+This patient (36% TBSA, will be immobilized initially): Start enoxaparin 40 mg SC daily after initial resuscitation phase (24-48 hours)
+
+Late (weeks to months):
+
+Hypertrophic scarring and contractures:
+Abnormal scar formation
+Prevention: Pressure garments, physiotherapy, moisturizers
+Treatment: Scar revision surgery, Z-plasty
+
+Psychological sequelae:
+PTSD, depression, anxiety, body image issues
+Treatment: Counselling, support groups, psychiatric care if needed
+
+PROGNOSIS
+
+Depends on extent, depth, age, comorbidities, quality of care
+
+Survival:
+Modern burns care has greatly improved survival
+Overall mortality for burns approximately 5% (varies widely)
+Mortality increases with TBSA and age
+
+Baux score (predicts mortality):
+Age + % TBSA = Baux score
+This patient: 35 + 36 = 71
+Baux score less than 80: Good survival (greater than 90%)
+Baux score 80-100: Moderate survival (50-90%)
+Baux score greater than 100: Poor survival (less than 50%)
+
+This patient: Baux score 71, good survival expected
+
+Favourable factors:
+Young age (35 years)
+No full thickness burns
+No inhalational injury
+No comorbidities
+Prompt presentation
+
+Healing:
+Superficial partial thickness: 7-21 days, minimal scarring
+Deep partial thickness: 3-8 weeks, significant scarring, may need grafting
+This patient: Mixed, expect 3-6 weeks for complete healing
+
+Functional outcome:
+No burns to hands, feet, face, or joints
+Good functional outcome expected
+Some scarring likely but cosmetically acceptable with good care
+
+FOLLOW-UP
+Long-term follow-up in burns clinic. Wound care and dressing changes. Physiotherapy to prevent contractures. Scar management with pressure garments. Psychological support. Possible need for skin grafting if areas do not heal. Reconstructive surgery if significant scarring or contractures develop.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-24',
+  title: 'Severe Thermal Burns with Inhalational Injury (90% TBSA)',
+  specialty: 'Surgery',
+  subSpecialty: 'Burns and Critical Care Surgery',
+  condition: 'Severe thermal burns involving 90% TBSA with inhalational injury, burn shock, and impending multi-organ failure',
+  symptoms: [
+    'Extensive burns involving whole body',
+    'Severe generalized body pain',
+    'Difficulty in breathing',
+    'Hoarseness of voice',
+    'Burn shock',
+    'Severe respiratory distress (RR 32 cpm, SpO₂ 90%)',
+    'Dehydration and lethargy',
+    'Markedly reduced urine output'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-30',
+  summary: 'A 30-year-old male welder presenting with catastrophic thermal burns sustained 2 hours ago following gas cylinder explosion at workplace. Burns involve approximately 90% TBSA (face 9%, anterior trunk 18%, posterior trunk 18%, both upper limbs 18%, both lower limbs 36%), predominantly full thickness with widespread charring, leathery eschar, and pale dry surfaces. Complicated by inhalational injury (facial burns, singed nasal hairs, soot around mouth/nostrils, hoarseness, respiratory distress) and burn shock (BP 80/50 mmHg, pulse 140 bpm thready, SpO₂ 90%, reduced urine output). Patient in severe distress, lethargic but conscious. Critical presentation requiring immediate airway management, aggressive fluid resuscitation, and ICU care. Prognosis is grave with extremely high mortality risk given extent of burns greater than 90% TBSA, full thickness nature, inhalational injury, and multi-organ failure risk.',
+  content: `
+Mr. M. A., a 30-year-old male welder who works at a local mechanic workshop in Agege, Lagos. He is Hausa, a Muslim, and single.
+
+Informant: Co-worker and patient
+
+PRESENTING COMPLAINTS
+Extensive burns involving the whole body × 2 hours
+Severe generalized body pain × 2 hours
+Difficulty in breathing × 1 hour
+
+HISTORY OF PRESENTING COMPLAINT
+He was apparently well until about 2 hours prior to presentation when he sustained severe burns following a gas explosion at his workplace.
+
+According to his co-workers, a gas cylinder used for welding suddenly exploded while he was working in close proximity to it, resulting in a blast and intense flame that engulfed his entire body. The incident occurred in an open workshop, though with significant exposure to flame and heat.
+
+Immediately following the explosion, he was noted to have sustained extensive burns involving almost all parts of his body. He complained of severe, generalized burning pain which was initially intense but has progressively reduced in some areas (paradoxically concerning - suggests full thickness with nerve destruction). The pain is described as diffuse, non-radiating, and initially rated as 10/10 in severity.
+
+There was associated peeling of the skin and charring in some areas. He also developed progressive difficulty in breathing about an hour after the incident, associated with weakness and inability to speak in full sentences.
+
+There is a positive history of facial burns and possible inhalation of hot gases during the explosion.
+There is associated hoarseness of voice and difficulty in breathing.
+
+There was no history of loss of consciousness. No seizures or vomiting.
+
+First aid administered at the scene was minimal, as he was immediately transported to a nearby facility and subsequently referred to this center. No harmful substances were applied to the burns.
+
+Since the injury, he has become increasingly weak and lethargic.
+
+There is history suggestive of reduced urine output since the incident.
+
+He is not a known hypertensive or diabetic patient. No known history of asthma or epilepsy.
+No known drug allergies.
+Tetanus immunization status is unknown.
+He does not smoke cigarettes but is frequently exposed to gas fumes in the course of his occupation.
+
+REVIEW OF SYSTEMS
+Associated difficulty in breathing
+No chest pain
+No abdominal pain or vomiting
+Urine output markedly reduced
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young adult male, acutely ill-looking, in severe distress, restless, and dyspnoeic
+Conscious but appears lethargic
+Not pale, dehydrated
+Extensive burns involving almost the entire body surface
+Obvious facial burns with singeing of hair
+
+Vital Signs:
+Pulse: 140 bpm, thready (severe tachycardia, shock)
+Blood Pressure: 80/50 mmHg (severe hypotension, shock)
+Respiratory Rate: 32 cpm, laboured (severe tachypnoea, respiratory distress)
+Temperature: 36.2°C (mild hypothermia)
+SpO₂: 90% in room air (hypoxia)
+
+Local Examination of Burns:
+Extensive burn injuries involving face, anterior and posterior trunk, both upper limbs, and both lower limbs
+Skin shows widespread charring, areas of leathery eschar, and patches of pale, dry surfaces interspersed with some blistered regions
+Some areas appear insensate (full thickness), others tender
+
+Using the Rule of Nines:
+Head and neck = 9%
+Anterior trunk = 18%
+Posterior trunk = 18%
+Both upper limbs = 18%
+Both lower limbs = 36%
+Total Burn Surface Area (TBSA) approximately 90%
+
+Burns predominantly full thickness with areas of deep partial thickness
+
+Respiratory System:
+Patient in obvious respiratory distress with laboured breathing
+Burns around mouth and nostrils with evidence of soot deposition
+Nasal hairs singed
+Chest expansion reduced
+Breath sounds vesicular but reduced bilaterally
+Findings suggestive of inhalational injury
+
+Cardiovascular System:
+Pulse rapid and thready
+Heart sounds S1 and S2 only
+Features in keeping with hypovolaemic shock
+
+Abdomen:
+Full, moves minimally with respiration
+No obvious tenderness could be elicited
+
+Central Nervous System:
+Conscious but lethargic
+Oriented but weak
+No focal neurological deficits
+
+ASSESSMENT
+
+A 30-year-old man with severe thermal burns involving approximately 90% TBSA, predominantly full thickness burns, secondary to gas explosion, complicated by burn shock (hypovolaemic shock), suspected inhalational injury, and high risk of multi-organ failure and mortality
+
+Diagnosis based on:
+
+Catastrophic burn injury:
+TBSA approximately 90% (almost entire body)
+Predominantly full thickness burns:
+Charring present (fourth-degree in some areas)
+Leathery eschar (third-degree)
+Pale, dry surfaces
+Insensate areas (nerves destroyed)
+Some blistering (residual deep partial thickness)
+Mechanism: Gas explosion with intense flame
+
+Severity classification:
+Burns greater than 40% TBSA are considered potentially lethal
+Burns greater than 60% TBSA have very high mortality
+Burns greater than 80% TBSA have mortality approaching 50-80%
+Burns 90% TBSA: Extremely poor prognosis, mortality greater than 80-90%
+
+Baux score (predictor of mortality):
+Age + % TBSA (+ 17 if inhalational injury)
+This patient: 30 + 90 + 17 = 137
+Baux score greater than 140: Very poor survival (less than 10%)
+This patient approaching this threshold
+
+Complications present:
+
+Burn shock (hypovolaemic shock):
+Severe hypotension (80/50 mmHg)
+Severe tachycardia (140 bpm, thready)
+Reduced urine output
+Dehydration
+Lethargy
+Massive fluid shifts from intravascular to interstitial space
+Capillary leak syndrome
+Requires aggressive fluid resuscitation
+
+Inhalational injury (confirmed):
+Facial burns
+Singed nasal hairs (pathognomonic sign)
+Soot deposition around mouth and nostrils
+Hoarseness of voice (laryngeal oedema)
+Respiratory distress (RR 32, laboured breathing)
+Hypoxia (SpO₂ 90%)
+History of exposure to flame and heat in explosion
+
+Types of inhalational injury:
+Upper airway injury (supraglottic): Thermal injury, oedema, obstruction
+Lower airway injury (infraglottic): Chemical injury from smoke, carbon particles
+Systemic toxicity: Carbon monoxide, cyanide poisoning
+
+This patient: Likely has all three components
+
+Risk of airway obstruction:
+Progressive airway oedema over 24-48 hours
+Can develop rapidly
+Requires early intubation before complete obstruction
+
+Respiratory failure:
+Reduced chest expansion (may have circumferential chest burns restricting breathing)
+Reduced breath sounds
+Hypoxia
+May need mechanical ventilation
+
+Hypothermia:
+Temperature 36.2°C
+Loss of skin barrier
+Large surface area exposed
+Hypothermia worsens coagulopathy, metabolic acidosis
+Requires active warming
+
+Impending multi-organ failure:
+Acute kidney injury (reduced urine output, shock)
+Respiratory failure (inhalational injury)
+Cardiovascular collapse (shock)
+Metabolic derangements
+Coagulopathy
+Sepsis (inevitable with this extent of injury)
+
+Poor prognostic indicators:
+90% TBSA (extremely high)
+Full thickness burns
+Inhalational injury
+Delayed presentation (2 hours, fluid shifts already occurring)
+Shock at presentation
+Age 30 (younger is usually better, but extent overrides this)
+
+PLAN
+
+This is a critical surgical emergency with extremely poor prognosis requiring immediate aggressive resuscitation and intensive care
+
+Immediate Life-Saving Interventions
+
+Primary Survey - ABCDE (Critical):
+
+Airway (Most Urgent Priority):
+
+Assessment:
+Patient conscious, speaking (but weak, hoarse)
+Facial burns present
+Singed nasal hairs (confirms exposure)
+Soot around mouth
+Hoarseness (laryngeal oedema developing)
+Respiratory distress
+
+Risk of complete airway obstruction:
+Progressive oedema over hours
+Can obstruct completely within 6-12 hours
+Once obstructed, intubation becomes difficult or impossible (cannot see landmarks)
+Early intubation essential
+
+Decision: IMMEDIATE ENDOTRACHEAL INTUBATION
+
+Indications (this patient meets multiple):
+Facial burns
+Inhalational injury confirmed
+Hoarseness (laryngeal oedema)
+Respiratory distress
+Extensive burns (greater than 40% TBSA)
+Anticipated airway oedema
+Burns to neck (can cause swelling)
+
+Procedure:
+Experienced anaesthetist or intensivist
+Rapid sequence intubation
+Large endotracheal tube (size 7.5-8.0 mm) - allows bronchoscopy, suctioning
+Secure tube carefully (face burned, difficult to tape)
+Consider surgical airway (cricothyroidotomy, tracheostomy) if intubation fails
+
+Do NOT delay intubation
+Better to intubate early than wait for complete obstruction
+
+Breathing:
+
+High-flow oxygen:
+100% oxygen via non-rebreather mask initially
+Then via ventilator after intubation
+
+Mechanical ventilation (after intubation):
+Lung-protective ventilation
+Low tidal volumes (6 ml/kg ideal body weight)
+PEEP to maintain oxygenation
+Target SpO₂ greater than 94%
+
+Assess for:
+Carbon monoxide poisoning:
+Carboxyhaemoglobin level on ABG
+If elevated (greater than 10%): 100% oxygen (reduces half-life from 4 hours to 40 minutes)
+Hyperbaric oxygen if available and very high levels
+Cyanide poisoning:
+Suspect if severe metabolic acidosis, altered mental status
+Treat with hydroxocobalamin or sodium thiosulfate if available
+
+Bronchoscopy (when available):
+Assess airway for:
+Soot, debris
+Mucosal injury, sloughing
+Degree of injury
+Therapeutic suctioning
+
+Escharotomy (if needed):
+If circumferential chest burns restrict breathing
+This patient: Entire trunk burned, likely needs chest escharotomy
+Bilateral incisions along anterior axillary lines from clavicle to costal margin
+Relieves constriction, improves chest expansion
+
+Circulation:
+
+Establish vascular access:
+Two large-bore IV cannulas (14G) immediately
+Preferably in unburned areas (limited options with 90% burns)
+If necessary, place through burned skin
+Consider central venous line (internal jugular or subclavian) for:
+Central venous pressure monitoring
+Secure access
+Administration of vasopressors if needed
+
+Fluid resuscitation (Parkland formula):
+Total = 4 ml × body weight (kg) × % TBSA
+Assume weight 70 kg (or estimate from patient)
+4 × 70 × 90 = 25,200 ml in first 24 hours
+
+Timing:
+Calculate from time of injury (2 hours ago)
+First 8 hours from injury: Give half (12,600 ml)
+Already 2 hours passed, so 6 hours remaining
+Give 12,600 ml over next 6 hours = 2100 ml/hour (very high rate)
+Next 16 hours: Give remaining half (12,600 ml) = 788 ml/hour
+
+Fluid type:
+Ringer's Lactate or Hartmann's solution (crystalloid)
+
+Practical considerations:
+Use pressure bags, rapid infusers
+Requires ICU-level monitoring
+Massive fluid requirement
+Risk of fluid overload (pulmonary oedema, compartment syndrome)
+Must titrate to urine output
+
+Blood sampling:
+Full blood count
+Electrolytes, urea, creatinine
+Arterial blood gas (PaO₂, PaCO₂, pH, lactate, carboxyhaemoglobin, methaemoglobin)
+Coagulation profile
+Blood glucose
+Blood grouping and cross-matching (may need transfusion)
+Lactate (tissue perfusion marker)
+
+Blood transfusion:
+May need if significant bleeding during escharotomy/debridement
+Prepare 2-4 units on standby
+
+Vasopressors:
+If hypotension persists despite adequate fluid resuscitation
+Noradrenaline infusion (titrate to MAP greater than 65 mmHg)
+Suggests distributive shock (sepsis, systemic inflammatory response)
+
+Disability:
+
+Assess conscious level:
+GCS: Currently conscious but lethargic
+Monitor closely (can deteriorate with shock, hypoxia, toxins)
+
+Check blood glucose:
+Exclude hypoglycaemia
+Stress hyperglycaemia common
+
+Pain assessment:
+Paradoxically, extensive full thickness burns may have less pain (nerves destroyed)
+But still requires analgesia
+
+Exposure:
+
+Remove all clothing, jewellery
+Full body examination already done
+Cover with clean sterile sheets
+Prevent hypothermia (critical)
+
+Active warming:
+Warm IV fluids
+Warm room (greater than 28°C)
+Warm blankets, forced air warming device (Bair Hugger)
+Monitor temperature closely
+
+Monitoring (Intensive):
+
+Vital signs:
+Continuous monitoring (ECG, BP, SpO₂, temperature)
+Every 5-15 minutes initially
+
+Urine output (most important):
+Insert urinary catheter (Foley) immediately
+Target 0.5-1.0 ml/kg/hr (30-70 ml/hr for 70 kg)
+With myoglobinuria (muscle injury): Target 1.0-1.5 ml/kg/hr
+Adjust fluid rate based on urine output
+
+Central venous pressure:
+If central line placed
+Target 8-12 mmHg
+Guides fluid resuscitation
+
+Arterial line:
+For continuous BP monitoring
+Repeated ABG sampling
+
+Laboratory:
+ABG every 2-4 hours initially (assess oxygenation, ventilation, acidosis, lactate)
+Electrolytes, renal function every 6-12 hours
+Haemoglobin daily
+Coagulation profile if abnormal
+
+Clinical assessment:
+Mental status
+Peripheral perfusion
+Signs of fluid overload (pulmonary oedema, increasing airway pressures)
+Signs of compartment syndrome (limbs, abdomen)
+
+Analgesia (Essential)
+
+Severe pain despite full thickness (partial thickness areas, procedural pain)
+
+Opioids (mainstay):
+IV Morphine: Loading 0.1-0.2 mg/kg, then infusion 0.01-0.04 mg/kg/hr OR
+IV Fentanyl: More potent, faster onset, infusion 0.5-1.5 mcg/kg/hr
+Titrate to pain relief and respiratory status
+If intubated and ventilated: Can give higher doses
+
+Non-opioid:
+IV Paracetamol 1 g 6-hourly (adjunct)
+
+Ketamine:
+Dissociative anaesthetic, also provides analgesia
+Useful for procedural sedation (dressing changes)
+Dose: 0.5-2 mg/kg IV
+
+Sedation (if intubated):
+Propofol or Midazolam infusion for sedation on ventilator
+
+This patient (intubated, ventilated, severe burns):
+Morphine or Fentanyl infusion
+Paracetamol
+Propofol or Midazolam for sedation
+Ketamine for procedures
+
+Wound Care (Initial)
+
+Immediate:
+Cover burns with clean dry sterile dressings or sheets
+Prevents contamination, hypothermia, fluid loss
+Do NOT apply topical agents yet (interferes with assessment)
+
+Detailed wound care in ICU/burns unit:
+Gentle cleaning with sterile saline (avoid hypothermia)
+Remove loose tissue
+Assess depth (though clinically evident as full thickness)
+Photograph for documentation
+
+Topical antimicrobials:
+Silver sulfadiazine cream 1% (standard)
+Apply after initial assessment
+Change daily
+
+Escharotomy (likely needed):
+Indications:
+Circumferential full thickness burns causing:
+Chest: Restricted breathing (this patient)
+Limbs: Impaired circulation (check pulses, capillary refill)
+Procedure:
+Surgical incisions through eschar down to subcutaneous fat
+Releases constriction
+Chest: Bilateral anterior axillary line incisions
+Limbs: Medial and lateral incisions
+No anaesthesia needed (full thickness, insensate)
+Can be done at bedside
+Control bleeding with cautery or ligation
+
+This patient: Likely needs chest escharotomy urgently (entire trunk burned, respiratory distress)
+
+Fasciotomy (if compartment syndrome):
+If limb burns with compartment syndrome
+Deeper incision through fascia
+Preserves limb viability
+
+Tetanus Prophylaxis
+
+Status unknown
+Give: Tetanus toxoid 0.5 ml IM PLUS Tetanus immunoglobulin (TIG) 250-500 units IM at different site
+
+Medications and Prophylaxis
+
+Stress ulcer prophylaxis (Curling's ulcer prevention):
+Omeprazole 40 mg IV once daily OR
+Pantoprazole 40 mg IV once daily
+Start immediately
+Major burns cause severe physiological stress
+High risk of stress ulcers (Curling's ulcers)
+
+DVT prophylaxis:
+Will be immobilized, high thromboembolism risk
+Enoxaparin 40 mg SC once daily
+Start after haemostasis confirmed (24-48 hours)
+Contraindicated if active bleeding, coagulopathy
+
+Antibiotics:
+Prophylactic systemic antibiotics NOT routinely recommended initially
+This patient: Withold initially, monitor closely
+Infection inevitable with this extent of burn
+Start antibiotics when infection documented:
+Signs: Fever, purulent discharge, positive cultures, sepsis
+Broad-spectrum: Piperacillin-tazobactam or Meropenem PLUS Vancomycin
+Adjust based on cultures
+
+Antiemetics:
+Metoclopramide 10 mg IV 8-hourly as needed
+Ondansetron 4-8 mg IV 8-hourly as alternative
+
+Sedation (for intubated patient):
+Propofol infusion 1-4 mg/kg/hr OR
+Midazolam infusion 0.05-0.2 mg/kg/hr
+Titrate to sedation level (Richmond Agitation-Sedation Scale)
+
+Vasopressors (if needed):
+Noradrenaline infusion if hypotension persists despite fluids
+Start at 0.05-0.1 mcg/kg/min, titrate to MAP greater than 65 mmHg
+
+Nutrition (Critical in Burns)
+
+Hypermetabolic state:
+Extensive burns cause massive metabolic stress
+Energy expenditure increases by 50-100%
+Protein catabolism
+Requires aggressive nutritional support
+
+Early enteral nutrition:
+Start within 24-48 hours if possible
+Nasogastric tube feeding (patient intubated)
+Reduces bacterial translocation, maintains gut integrity
+Preferable to parenteral nutrition
+
+Caloric requirements:
+Extensive burns: 40-50 kcal/kg/day or more
+Various formulas (Curreri: 25 kcal/kg + 40 kcal/% TBSA)
+For this patient: Approximately 3000-4000 kcal/day
+
+Protein requirements:
+Very high: 2-2.5 g/kg/day
+Essential for wound healing
+
+High-protein high-calorie enteral formula
+Supplemental vitamins and minerals (Vitamin C, Zinc, Selenium)
+
+This patient: Start enteral feeding via NG tube as soon as haemodynamically stable
+
+Admission and Intensive Care
+
+Admission:
+Intensive Care Unit (mandatory)
+Burns unit if available within ICU
+Isolation (prevent infection)
+
+ICU care requirements:
+Mechanical ventilation
+Invasive monitoring (arterial line, central line, urinary catheter)
+Continuous vital sign monitoring
+Strict asepsis
+Frequent dressing changes
+Multidisciplinary team
+
+Multidisciplinary team:
+Intensivists (primary management)
+Burn surgeons or plastic surgeons
+Anaesthetists
+Respiratory therapists
+Physiotherapists (early mobilization, chest physiotherapy)
+Dietitians (nutritional support)
+Microbiologists (infection control, antibiotic stewardship)
+Psychologists (patient and family support)
+Palliative care team (given poor prognosis, may need end-of-life discussions)
+
+Surgical Management
+
+This patient (90% TBSA, full thickness):
+Surgical excision and grafting theoretically needed
+However, with 90% burns, insufficient donor sites available
+Only 10% unburned skin remains
+Cannot harvest enough skin for grafting
+
+Options:
+Staged excision and grafting (multiple procedures over weeks to months)
+Use of cadaveric allograft (temporary cover)
+Synthetic skin substitutes (Integra, others - expensive, limited availability)
+Cultured epithelial autografts (grown from small skin sample, takes weeks)
+
+Realistically:
+With 90% TBSA and full thickness burns, surgical reconstruction extremely difficult
+Prognosis so poor that extensive surgery may not be undertaken
+Focus on supportive care, comfort
+
+Escharotomy:
+Will likely perform (chest, possibly limbs)
+Improves breathing, circulation
+Palliative benefit
+
+Complications (Inevitable with This Extent of Injury)
+
+Immediate:
+Airway obstruction (being prevented with intubation)
+Burn shock (being treated with fluids)
+Respiratory failure (being managed with ventilation)
+Hypothermia (being prevented with warming)
+Acute kidney injury (monitor urine output, may need dialysis)
+
+Early (days):
+Infection (pneumonia, wound infection, sepsis) - almost certain
+Ileus (common, manage with NG decompression)
+Stress ulcers (being prevented with PPIs)
+Compartment syndrome (monitor, escharotomy/fasciotomy if needed)
+ARDS (acute respiratory distress syndrome)
+Multi-organ failure
+
+Late (if survives, unlikely):
+Sepsis (major cause of death in burns)
+Pneumonia (ventilator-associated)
+Wound infection
+Renal failure
+Hepatic failure
+Coagulopathy (DIC)
+Malnutrition
+Immunosuppression
+
+Prognosis and End-of-Life Discussions
+
+Prognosis:
+Extremely poor
+Burns 90% TBSA: Mortality 80-90% or higher
+Full thickness burns: Worse prognosis than partial thickness
+Inhalational injury: Adds 17% to Baux score
+Baux score 137: Survival less than 10%
+
+Realistic assessment:
+Patient unlikely to survive
+Even with maximal intensive care
+Massive physiological insult
+Multi-organ failure inevitable
+Infection inevitable
+Insufficient donor skin for grafting
+
+Ethical considerations:
+Discuss with family:
+Severity of injuries
+Poor prognosis
+Intensive treatments being provided
+Likely outcomes
+Quality of life if survives (extensive scarring, contractures, disability)
+
+Consider:
+Goals of care
+Resuscitation status
+Withdrawal of life-sustaining treatment if futile
+Transition to comfort care (palliative approach)
+
+This conversation should occur early (within 24-48 hours)
+Involve palliative care team
+Compassionate, honest communication
+
+Aggressive treatment initially:
+Give patient every chance
+Reassess over 48-72 hours
+If no improvement or worsening multi-organ failure: Reconsider goals
+
+PROGNOSIS
+
+Extremely poor, likely fatal
+
+Mortality prediction:
+Baux score 137: Survival less than 10%
+LD50 (lethal dose 50%): Approximately 60-70% TBSA in this age group
+This patient 90% TBSA: Well above LD50
+Full thickness burns: Higher mortality than partial thickness
+Inhalational injury: Significantly increases mortality
+
+Expected course:
+First 48 hours: Burn shock, fluid resuscitation
+Days 3-7: Risk of ARDS, infection onset
+Weeks 1-2: Sepsis, multi-organ failure
+Most deaths occur in first 2 weeks from multi-organ failure or sepsis
+
+If survives (very unlikely):
+Prolonged ICU stay (months)
+Multiple surgeries
+Extensive scarring and contractures
+Severe disability
+Chronic pain
+Psychological trauma
+Quality of life severely compromised
+
+Realistically:
+Death is the most likely outcome
+Focus on aggressive early management
+Provide comfort
+Support family
+Prepare for end-of-life care
+
+FOLLOW-UP
+If patient survives (extremely unlikely): Prolonged ICU care, multiple surgeries, extensive rehabilitation, psychological support, long-term scar management. Family support and counselling essential throughout.
+`,
+bookmarkCount: 0
+},
 
   // Obstertric & Gynecology
   {
@@ -28092,18 +29592,12 @@ Post-operative review at 1–2 weeks for wound check and histopathology results.
   subSpecialty: 'Obstetrics/Gynaecological Emergency',
   condition: 'Septic abortion with retained products of conception, complicated by sepsis and hypovolaemic shock following unsafe termination of pregnancy',
   symptoms: [
-    'Lower abdominal pain for 4 days (dull, progressive, now severe 7–8/10, generalised, aggravated by movement)',
-    'High-grade fever for 3 days (with chills and rigors)',
-    'Foul-smelling yellowish vaginal discharge for 3 days',
-    'Vaginal bleeding for 2 days (initially scanty, now moderate, with clots and tissue-like material)',
-    'Generalised body weakness, dizziness, and nausea',
-    'Septic shock (BP 90/60 mmHg, pulse 118 bpm, temperature 38.9°C, RR 26 cpm)',
-    'Pale, dehydrated, toxic-looking, acutely ill',
-    'Generalised lower abdominal tenderness with guarding',
-    'Cervical motion tenderness, bulky tender uterus, bilateral adnexal tenderness',
-    'Open external os with copious foul-smelling purulent blood-stained discharge',
-    'Attempted termination of pregnancy at a private facility 5 days prior to onset of symptoms',
-    'No improvement with oral antibiotics and analgesics from a patent medicine vendor'
+    'Lower abdominal pain',
+    'High-grade fever',
+    'Foul-smelling yellowish vaginal discharge',
+    'Vaginal bleeding',
+    'Generalised body weakness',
+    'Attempted termination of pregnancy',
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',

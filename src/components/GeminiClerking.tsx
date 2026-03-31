@@ -8,9 +8,10 @@ interface GeminiClerkingProps {
   onOpen: () => void;
   onOpenGame: () => void;
   onOpenLearn: () => void;
+  onOpenCalculator: () => void;
 }
 
-export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLearn }: GeminiClerkingProps) {
+export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLearn, onOpenCalculator }: GeminiClerkingProps) {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [loading, setLoading] = useState(false);
@@ -112,20 +113,20 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
 
             <button
               onClick={() => {
-                onOpenGame();
+                onOpenCalculator();
                 setIsMenuOpen(false);
               }}
-              className="w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-emerald-50 dark:hover:bg-emerald-900/20 transition-colors group"
+              className="w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-cyan-50 dark:hover:bg-cyan-900/20 transition-colors group"
             >
-              <div className="w-10 h-10 rounded-full bg-emerald-600 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
-                <i className="fa-solid fa-gamepad"></i>
+              <div className="w-10 h-10 rounded-full bg-cyan-600 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                <i className="fa-solid fa-calculator"></i>
               </div>
               <div className="text-left flex-1">
                 <div className="flex items-center justify-between">
-                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Clerkly Games</p>
-                  <span className="text-[9px] font-bold uppercase tracking-wider bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-400 px-1.5 py-0.5 rounded">New</span>
+                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Clerkly Calculator</p>
+                  <span className="text-[9px] font-bold uppercase tracking-wider bg-cyan-100 dark:bg-cyan-900 text-cyan-700 dark:text-cyan-400 px-1.5 py-0.5 rounded">New</span>
                 </div>
-                <p className="text-[10px] text-slate-500 dark:text-slate-400">Test your clinical skills</p>
+                <p className="text-[10px] text-slate-500 dark:text-slate-400">Essential clinical calculators</p>
               </div>
             </button>
 
@@ -145,6 +146,25 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                   <span className="text-[9px] font-bold uppercase tracking-wider bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-400 px-1.5 py-0.5 rounded">New</span>
                 </div>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400">Clinical reasoning modules</p>
+              </div>
+            </button>
+
+            <button
+              onClick={() => {
+                onOpenGame();
+                setIsMenuOpen(false);
+              }}
+              className="w-full flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-emerald-50 dark:hover:bg-emerald-900/20 transition-colors group"
+            >
+              <div className="w-10 h-10 rounded-full bg-emerald-600 flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                <i className="fa-solid fa-gamepad"></i>
+              </div>
+              <div className="text-left flex-1">
+                <div className="flex items-center justify-between">
+                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Clerkly Games</p>
+                  <span className="text-[9px] font-bold uppercase tracking-wider bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-400 px-1.5 py-0.5 rounded">New</span>
+                </div>
+                <p className="text-[10px] text-slate-500 dark:text-slate-400">Test your clinical skills</p>
               </div>
             </button>
           </div>

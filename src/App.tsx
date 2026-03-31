@@ -6,6 +6,7 @@ import { TemplateDetail } from './components/TemplateDetail';
 import { GeminiClerking } from './components/GeminiClerking';
 import { ClinicalGame } from './components/game/ClinicalGame';
 import { ClerklyLearn } from './components/ClerklyLearn';
+import ClerklyCalculator from './components/ClerklyCalculator';
 import { Modal } from './components/Modal';
 import { Toast } from './components/Toast';
 import { useBookmarks } from './hooks/useBookmarks';
@@ -25,6 +26,7 @@ export default function App() {
     const [isAIModalOpen, setIsAIModalOpen] = useState(false);
     const [isGameOpen, setIsGameOpen] = useState(false);
     const [isLearnOpen, setIsLearnOpen] = useState(false);
+    const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
     const [activeModal, setActiveModal] = useState<'none' | 'help' | 'contribute'>('none');
 
     useEffect(() => {
@@ -162,6 +164,7 @@ export default function App() {
                 onClose={() => setIsAIModalOpen(false)}
                 onOpenGame={() => setIsGameOpen(true)}
                 onOpenLearn={() => setIsLearnOpen(true)}
+                onOpenCalculator={() => setIsCalculatorOpen(true)}
             />
 
             {isGameOpen && (
@@ -170,6 +173,10 @@ export default function App() {
 
             {isLearnOpen && (
                 <ClerklyLearn onClose={() => setIsLearnOpen(false)} />
+            )}
+
+            {isCalculatorOpen && (
+                <ClerklyCalculator onClose={() => setIsCalculatorOpen(false)} />
             )}
 
             {/* Help Modal */}
@@ -273,7 +280,7 @@ export default function App() {
                             ].map((item, idx) => (
                                 <li key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-indigo-900 dark:text-slate-300">
                                     <i className="fa-solid fa-check text-indigo-500 dark:text-indigo-400 mt-0.5 text-[10px]"></i>
-                                    <span className="leading-tight">{item}</span>
+                                    <span className="leading-tight"></span>
                                 </li>
                             ))}
                         </ul>

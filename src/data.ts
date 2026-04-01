@@ -18795,7 +18795,1131 @@ If patient survives (extremely unlikely): Prolonged ICU care, multiple surgeries
 `,
 bookmarkCount: 0
 },
+{
+  id: 'surg-25',
+  title: 'Minor Scald Burn - Superficial Partial Thickness (Right Forearm)',
+  specialty: 'Surgery',
+  subSpecialty: 'Burns and Plastic Surgery',
+  condition: 'Acute superficial partial thickness scald burn involving less than 5% TBSA (right forearm)',
+  symptoms: [
+    'Burns injury involving right forearm',
+    'Pain at burn site',
+    'Blister formation',
+    ],
+  contributor: 'Admin',
+  lastModified: '2026-04-01',
+  summary: 'A 24-year-old female student presenting with minor scald burn to right forearm sustained 5 hours ago from accidental spillage of hot water while cooking. Burn localized to anterior aspect of right forearm, estimated less than 5% TBSA using palm method. Examination reveals erythematous area with multiple small intact fluid-filled blisters, moist surface, very tender to touch, no charring, no eschar, no insensate areas. Consistent with superficial partial thickness (superficial second-degree) burn. Appropriate first aid administered immediately (running water for several minutes). Patient haemodynamically stable, no systemic involvement, no inhalational injury. No signs of infection. Suitable for outpatient management with wound care, analgesia, and follow-up.',
+  content: `
+Miss C.E., a 24-year-old female student who resides in Surulere, Lagos. She is Igbo, a Christian, and single.
 
+PRESENTING COMPLAINTS
+Burns injury involving the right forearm × 5 hours
+Pain at the burn site × 5 hours
+Blister formation × 3 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 5 hours prior to presentation when she sustained a burn injury to her right forearm following accidental spillage of hot water while cooking.
+
+According to the patient, she was boiling water in the kitchen when the pot slipped, causing hot water to splash onto her right forearm. The incident occurred at home and was not associated with flame or chemical exposure.
+
+She immediately experienced sharp, localized pain at the site of injury. The pain was severe at onset, rated 7/10, non-radiating, and has persisted though slightly reduced following first aid.
+
+Within a few hours, she noticed the development of small fluid-filled blisters over the affected area. Some of the blisters remain intact.
+
+There is no history of charring, no skin blackening, and no loss of sensation over the area.
+
+First aid was promptly administered as she immediately placed the affected limb under running tap water for several minutes. No harmful substances were applied.
+
+There is no history of fever, no discharge from the wound, and no foul smell. There is no associated difficulty in breathing, no cough, and no facial burns.
+
+There is no history suggestive of inhalational injury.
+
+She is not a known hypertensive or diabetic patient. No history of asthma or epilepsy.
+She is not on any regular medications and has no known drug allergies.
+Her tetanus immunization status is up to date.
+She does not smoke cigarettes or take alcohol.
+
+REVIEW OF SYSTEMS
+No history of dizziness, palpitations, or weakness
+No respiratory symptoms
+No abdominal complaints
+No urinary symptoms
+No neurological deficits
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, conscious, calm, and not in obvious distress
+Not pale, not icteric, afebrile, well hydrated, and not cyanosed
+
+Vital Signs:
+Pulse: 82 bpm, regular, full volume (normal)
+Blood Pressure: 110/70 mmHg (normal)
+Respiratory Rate: 16 cpm (normal)
+Temperature: 36.7°C (normal)
+SpO₂: 99% in room air (normal)
+
+Local Examination of Burns:
+Localized burn injury over anterior aspect of right forearm
+Affected area erythematous with multiple small, intact fluid-filled blisters
+Surface moist and very tender to touch
+No evidence of charring, no leathery eschar, no areas of insensate skin
+
+Using palm method:
+Burn surface area estimated to be less than 5% TBSA
+Patient's palm (including fingers) represents approximately 1% TBSA
+This burn smaller than palm
+
+Burn consistent with superficial partial thickness burn
+No signs of infection such as pus discharge, increased warmth beyond wound margins, or foul smell
+
+Chest:
+Clear with vesicular breath sounds
+Heart sounds S1 and S2 only, no murmurs
+
+Abdomen:
+Soft, non-tender, no organomegaly
+
+Central Nervous System:
+Conscious and oriented in time, place, and person
+No focal deficits
+
+ASSESSMENT
+
+A 24-year-old woman with acute superficial partial thickness scald burn involving less than 5% TBSA, affecting the right forearm, with no features of inhalational injury or systemic involvement
+
+Diagnosis based on:
+
+Mechanism of injury:
+Scald burn from hot water
+Scalds typically cause superficial or superficial partial thickness burns
+Less severe than flame burns
+Limited exposure time (splash, not immersion)
+
+Extent of burn (TBSA estimation):
+
+Palm method:
+Patient's palm (including fingers) = approximately 1% TBSA
+Useful for small scattered burns
+This burn: Less than palm size, estimated less than 5% TBSA
+
+Severity classification:
+Minor burns: Less than 10% TBSA in adults (less than 5% in children or elderly)
+Can be managed as outpatient
+
+This patient: Less than 5% TBSA = Minor burn
+
+Depth of burn:
+
+Assessment:
+Erythematous (red)
+Multiple intact fluid-filled blisters (hallmark of partial thickness)
+Moist surface (exudative)
+Very tender to touch (nerves intact, painful)
+No charring (rules out full thickness)
+No leathery eschar (rules out full thickness)
+No insensate areas (rules out full thickness)
+
+Classification: Superficial partial thickness (superficial second-degree)
+Involves epidermis and superficial dermis
+Blisters present
+Moist, red, painful
+Blanches with pressure (capillary refill intact)
+
+Expected healing:
+7-21 days spontaneously without grafting
+Minimal scarring if managed appropriately
+No functional impairment expected
+
+Appropriate first aid:
+Running water for several minutes immediately after injury
+Cools burn, reduces progression of injury, provides analgesia
+No harmful substances applied (excellent)
+
+No systemic involvement:
+Haemodynamically stable (normal vital signs)
+Well hydrated
+No signs of shock
+No fluid resuscitation needed
+
+No inhalational injury:
+Scald injury (no smoke exposure)
+No respiratory symptoms
+No facial burns
+
+No signs of infection:
+No fever
+No purulent discharge
+No spreading erythema beyond wound
+No foul smell
+Presented early (5 hours, low infection risk)
+
+Location considerations:
+Right forearm (non-critical area)
+Not involving:
+Face (cosmetic concerns, eye/airway involvement)
+Hands (functional impairment risk)
+Feet (mobility issues)
+Genitalia or perineum (specialized care needed)
+Major joints (contracture risk)
+Circumferential (compartment syndrome risk)
+
+Favourable prognostic factors:
+Young age (24 years)
+Small TBSA (less than 5%)
+Superficial partial thickness (not deep or full thickness)
+Appropriate first aid
+Early presentation
+No comorbidities
+Non-critical location
+No infection
+
+PLAN
+
+This patient suitable for outpatient management
+
+Assessment and Initial Care
+
+Clinical assessment completed:
+Small burn (less than 5% TBSA)
+Superficial partial thickness
+No systemic involvement
+No special location concerns
+Patient reliable for follow-up
+
+Criteria for outpatient management met:
+Burns less than 10% TBSA (less than 5% in elderly/children)
+Superficial or superficial partial thickness only
+No involvement of face, hands, feet, genitalia, perineum, or major joints
+No circumferential burns
+No inhalational injury
+No significant comorbidities
+Patient able to care for wound at home
+Reliable for follow-up
+
+This patient: Meets all criteria for outpatient management
+
+Wound Care
+
+Immediate wound care:
+
+Cleaning:
+Gentle cleaning with sterile normal saline or clean water
+Remove any loose debris or dirt
+Do NOT scrub vigorously (damages tissue)
+Pat dry with sterile gauze
+
+Blister management:
+
+Intact blisters (this patient has intact blisters):
+Small blisters (less than 5 mm): Leave intact
+Large blisters (greater than 5 mm): Controversial
+Options:
+Leave intact (sterile environment, protects underlying tissue, reduces pain)
+Deroof (remove blister roof to prevent infection and allow assessment)
+
+Current recommendation:
+Small intact blisters: Leave alone
+Large tense blisters: Deroof (prevents rupture and contamination)
+Already ruptured blisters: Remove loose skin
+
+This patient: If blisters small (less than 5 mm), leave intact. If large or tense, can deroof under sterile conditions.
+
+Topical antimicrobial agents:
+
+Silver sulfadiazine cream 1% (most common):
+Apply thin layer (3-5 mm) over burn
+Broad-spectrum antimicrobial
+Prevents infection
+Apply once or twice daily
+Cover with non-adherent dressing
+
+Alternative:
+Bacitracin or Mupirocin ointment (for small superficial burns)
+Honey (natural antimicrobial, can be effective)
+Silver-impregnated dressings (expensive, can leave for several days)
+
+This patient: Apply silver sulfadiazine cream
+
+Dressing:
+
+Non-adherent dressing (e.g., paraffin gauze, Adaptic)
+Layer of absorbent gauze pads
+Secure with bandage (not too tight)
+Elevate limb when resting (reduces oedema)
+
+Dressing changes:
+Daily initially (assess healing, reapply topical agent)
+Can extend to every 2-3 days once healing well
+Continue until epithelialized (skin healed)
+
+This patient: Daily dressing changes initially
+
+Instructions for home care:
+
+Keep wound clean and dry between dressing changes
+Avoid getting dressing wet
+If dressing gets wet, change it
+Elevate arm when resting (use sling if helpful)
+Do NOT apply:
+Toothpaste, butter, oil, egg white, or other traditional remedies
+These increase infection risk and delay healing
+
+Analgesia
+
+Pain management:
+
+Severity: 7/10 initially, improving
+Type: Sharp, localized, tender
+
+Oral analgesia:
+
+First-line:
+Paracetamol 1 g orally 6-hourly (regularly, not just as needed)
+Maximum 4 g/day
+
+Second-line (if paracetamol insufficient):
+Add NSAID:
+Ibuprofen 400-600 mg orally 8-hourly with food
+OR Diclofenac 50 mg orally 8-hourly with food
+Avoid if history of peptic ulcer, asthma, renal impairment
+
+Opioids:
+Not usually needed for minor burns
+Can use Codeine 30-60 mg 6-hourly if severe pain persists
+Usually not necessary for this patient
+
+This patient:
+Start with Paracetamol 1 g 6-hourly regularly
+Add Ibuprofen 400 mg 8-hourly if needed
+Reassess at follow-up
+
+Topical analgesia:
+Silver sulfadiazine has mild anaesthetic effect
+Cool compresses (not ice) can provide relief
+
+Tetanus Prophylaxis
+
+Burns are tetanus-prone wounds
+
+Patient's tetanus status: Up to date
+
+Management:
+If immunized within 10 years: No tetanus prophylaxis needed
+This patient: Up to date, no prophylaxis required
+
+If not up to date: Would give tetanus toxoid 0.5 ml IM
+
+Antibiotics
+
+Prophylactic systemic antibiotics:
+NOT recommended for clean, minor burns
+Increases antibiotic resistance
+Alters normal flora
+
+Topical antimicrobials sufficient:
+Silver sulfadiazine provides antimicrobial coverage
+
+Indications for systemic antibiotics:
+Signs of infection (not present):
+Fever
+Purulent discharge
+Spreading erythema or cellulitis
+Increased warmth beyond wound margins
+Lymphangitis (red streaking)
+Lymphadenopathy (swollen nodes)
+
+This patient: No antibiotics needed currently, monitor for infection
+
+Patient Education and Instructions
+
+Wound care instructions:
+
+Keep dressing clean and dry
+Change dressing daily as instructed
+Reapply silver sulfadiazine cream with each change
+Wash hands before and after dressing changes
+Use clean technique (not necessarily sterile at home)
+
+Activity:
+Can continue normal activities
+Elevate arm when resting
+Avoid strenuous activities that cause excessive sweating or trauma to wound
+Can return to studies/work if comfortable
+
+Diet:
+Normal diet
+High-protein foods aid healing (eggs, fish, meat, beans)
+Adequate hydration
+Vitamin C-rich foods (citrus fruits, tomatoes) for collagen synthesis
+
+Warning signs to return immediately:
+
+Signs of infection:
+Fever (temperature greater than 38°C)
+Increased pain, redness, or swelling
+Pus or foul-smelling discharge
+Red streaks extending from wound
+Swollen lymph nodes in armpit
+
+Signs of deeper burn (unlikely but possible):
+Areas of skin turning white, brown, or black
+Areas becoming painless or numb
+Wound not healing as expected
+
+Other concerns:
+Excessive bleeding
+Allergic reaction to medications (rash, itching, difficulty breathing)
+
+Follow-up:
+Review in outpatient clinic in 3-5 days
+Earlier if any concerns
+
+Expected healing:
+Should heal in 10-21 days
+Minimal scarring expected
+
+Prevention of future burns:
+Handle hot liquids carefully
+Use pot holders
+Keep pot handles turned away from edge of stove
+Be cautious in kitchen
+
+Follow-Up and Monitoring
+
+Follow-up schedule:
+
+First review: 3-5 days
+Assess wound healing
+Check for signs of infection
+Reassess pain control
+Reinforce wound care instructions
+
+Subsequent reviews: Weekly until healed
+Monitor healing progress
+Adjust dressing regimen as needed
+Watch for hypertrophic scarring
+
+Expected healing timeline:
+Superficial partial thickness burns: 7-21 days
+This patient: Expect healing within 2-3 weeks
+
+Discharge from clinic:
+When wound completely epithelialized (healed)
+No signs of infection
+Patient comfortable managing at home
+
+Scar management (after healing):
+
+Superficial partial thickness burns usually heal with minimal scarring
+Measures to reduce scarring:
+Sun protection (use sunscreen SPF 30+ for 6-12 months, sun causes hyperpigmentation)
+Moisturize regularly (reduces itching, keeps skin supple)
+Massage scar gently once healed (improves pliability)
+Silicone gel sheets or cream if hypertrophic scar develops
+
+Monitor for complications:
+Hypertrophic scarring (raised, red scars)
+Keloid formation (excessive scar, especially in people with darker skin)
+Hyperpigmentation or hypopigmentation
+
+If significant scarring:
+Refer to plastic surgery for scar revision options
+Laser therapy, steroid injections, surgical revision
+
+This patient (superficial partial thickness, less than 5% TBSA):
+Low risk of significant scarring
+Good cosmetic outcome expected with appropriate care
+
+Complications to Monitor
+
+Infection (most common complication):
+
+Risk factors:
+Delayed presentation (not applicable, presented early)
+Poor wound hygiene
+Contamination
+Immunosuppression (not present)
+Diabetes (not present)
+
+Prevention:
+Topical antimicrobials
+Clean dressing technique
+Patient education
+
+Signs: Already discussed above
+Management if infection develops:
+Systemic antibiotics (Flucloxacillin or Amoxicillin-clavulanate)
+More frequent dressing changes
+May need admission if severe (cellulitis, lymphangitis)
+
+Wound healing delay:
+
+Causes:
+Infection
+Inadequate wound care
+Patient non-compliance
+Deeper burn than initially assessed
+Comorbidities (diabetes, immunosuppression)
+
+Management:
+Reassess depth
+Optimize wound care
+Address underlying issues
+If not healing by 3 weeks: Consider referral for possible skin grafting
+
+Hypertrophic scarring:
+
+Risk lower with superficial partial thickness burns
+More common with deep partial or full thickness burns
+Prevention: Proper wound care, sun protection, moisturizing
+Management: Silicone sheets, pressure garments, steroid injections, laser therapy
+
+Contractures:
+
+Rare with small, non-joint burns
+Prevention: Early mobilization, range of motion exercises
+This patient (forearm, non-joint): Very low risk
+
+Psychological impact:
+
+Even minor burns can be traumatic
+Body image concerns (visible scarring)
+Fear of recurrence
+Provide reassurance, expected good outcome
+
+PROGNOSIS
+
+Excellent prognosis
+
+Expected outcomes:
+Complete healing: 10-21 days
+Minimal scarring: Expected
+No functional impairment: Expected
+Return to normal activities: Within 1-2 weeks
+
+Favourable factors:
+Young, healthy patient
+Small burn (less than 5% TBSA)
+Superficial partial thickness (best healing potential among burns requiring medical care)
+Appropriate first aid (reduces burn progression)
+Early presentation and treatment
+No infection
+Non-critical location
+Patient educated and motivated
+
+Potential for complete recovery:
+Very high (greater than 95%)
+May have slight pigmentation changes (temporary hyperpigmentation common, usually resolves in 6-12 months)
+Functional outcome: Excellent, no limitations expected
+
+FOLLOW-UP
+Review in outpatient clinic in 3-5 days, then weekly until healed. Monitor wound healing and signs of infection. Continue wound care with dressing changes and silver sulfadiazine. Analgesia as needed. Expected complete healing in 2-3 weeks with minimal scarring. Sun protection and moisturizing for 6-12 months after healing to optimize cosmetic outcome.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'surg-26',
+  title: 'Acute Inhalational Injury from Smoke Exposure',
+  specialty: 'Surgery',
+  subSpecialty: 'Burns and Critical Care Surgery',
+  condition: 'Acute inhalational injury secondary to smoke exposure in enclosed space with minimal external burns',
+  symptoms: [
+    'Difficulty in breathing',
+    'Cough with blackish sputum',
+    'Hoarseness of voice',
+    'Respiratory distress (RR 28 cpm, SpO₂ 92%)',
+    'Use of accessory muscles of respiration',
+    'Soot deposits around nostrils and oral cavity',
+    'Singed nasal hairs',
+    'Mild facial erythema (less than 1% TBSA)',
+    'Reduced breath sounds bilaterally with scattered wheezes',
+    'Tachycardia (110 bpm)',
+    'Anxiety'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-01',
+  summary: 'A 42-year-old male civil servant presenting with acute inhalational injury sustained 6 hours ago after being trapped in enclosed apartment during fire from electrical fault. Exposure to significant smoke accumulation for several minutes before rescue. Progressive respiratory symptoms: difficulty breathing (6 hours), productive cough with blackish soot-stained sputum (5 hours), hoarseness of voice (4 hours). Examination reveals respiratory distress (RR 28 cpm, SpO₂ 92% on room air, use of accessory muscles), classic signs of inhalational injury (soot deposits around nostrils and mouth, singed nasal hairs, hoarseness), reduced breath sounds with wheezes, mild facial erythema only (less than 1% TBSA, no significant external burns). High risk of progressive airway oedema and respiratory failure. Requires immediate respiratory support, close airway monitoring with low threshold for intubation, high-flow oxygen, assessment for carbon monoxide poisoning, and ICU admission.',
+  content: `
+Mr. O.K., a 42-year-old male civil servant who resides in Ikeja, Lagos. He is Yoruba, a Christian, and married.
+
+PRESENTING COMPLAINTS
+Difficulty in breathing × 6 hours
+Cough with blackish sputum × 5 hours
+Hoarseness of voice × 4 hours
+
+HISTORY OF PRESENTING COMPLAINT
+He was apparently well until about 6 hours prior to presentation when he developed difficulty in breathing following exposure to smoke during a domestic fire incident.
+
+The patient reported that a fire broke out in his apartment due to an electrical fault. He was trapped inside the building for several minutes before being rescued. The incident occurred in an enclosed space with significant smoke accumulation.
+
+Shortly after the exposure, he developed progressive difficulty in breathing, initially mild but worsening over time. This was associated with a persistent cough productive of blackish (soot-stained) sputum.
+
+He also noticed a change in his voice, which became hoarse a few hours after the incident.
+
+There is no history of chest pain, no haemoptysis, and no prior similar episodes.
+
+There are no significant external burns, except for mild redness over the face.
+
+No loss of consciousness was reported.
+
+No meaningful first aid was administered prior to presentation.
+
+Since the incident, symptoms have progressively worsening, prompting presentation to the hospital.
+
+There is a clear history of exposure in an enclosed space, which is highly suggestive of inhalational injury.
+
+He reports facial exposure to heat and smoke.
+
+He is not a known asthmatic, hypertensive, or diabetic patient.
+He is not on any routine medications and has no known drug allergies.
+Tetanus immunization status is up to date.
+He does not smoke cigarettes.
+
+REVIEW OF SYSTEMS
+No history of dizziness or syncope
+No palpitations
+No abdominal pain or vomiting
+No urinary symptoms
+No neurological deficits
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Middle-aged man in respiratory distress, conscious and oriented but anxious
+Not pale, not icteric, and mildly dehydrated
+Mild erythema over the face
+Soot deposits noted around the nostrils and oral cavity
+Nasal hairs singed
+
+Vital Signs:
+Pulse: 110 bpm (tachycardia)
+Blood Pressure: 120/75 mmHg (normal)
+Respiratory Rate: 28 cpm (tachypnoea, respiratory distress)
+Temperature: 37.2°C (normal)
+SpO₂: 92% in room air (hypoxia)
+
+Respiratory System:
+Use of accessory muscles of respiration
+Inspection reveals no chest wall deformity
+Palpation shows symmetrical chest expansion
+Auscultation: breath sounds vesicular but reduced bilaterally, with scattered wheezes
+No crepitations
+Findings consistent with airway irritation and possible lower airway involvement
+
+Local Examination (Burns):
+No significant external burns noted
+Only mild superficial erythema over the face, involving less than 1% TBSA
+No blisters, no eschar, no full thickness burns
+
+Cardiovascular System:
+Pulse regular
+Heart sounds S1 and S2 only
+
+Abdomen:
+Soft, non-tender, no organomegaly
+
+Central Nervous System:
+Conscious and oriented
+No focal neurological deficits
+
+ASSESSMENT
+
+A 42-year-old man with acute inhalational injury secondary to smoke exposure in an enclosed space, presenting with respiratory distress, soot-stained sputum, hoarseness of voice, with minimal external burns (less than 1% TBSA)
+
+Diagnosis based on:
+
+Mechanism of injury:
+Fire in enclosed space (apartment)
+Trapped for several minutes
+Significant smoke accumulation
+Enclosed space exposure is hallmark of inhalational injury risk
+
+Three components of inhalational injury:
+
+Upper airway injury (supraglottic):
+Thermal injury to upper airway
+Direct heat damage to mucosa of mouth, pharynx, larynx
+Causes mucosal oedema, erythema, blistering
+Progressive airway oedema over 12-48 hours
+Risk of complete airway obstruction
+
+Evidence in this patient:
+Hoarseness of voice (laryngeal oedema)
+Facial exposure to heat and smoke
+Soot deposits around nostrils and mouth
+Singed nasal hairs (pathognomonic sign)
+Progressive symptoms
+
+Lower airway and parenchymal injury (infraglottic):
+Chemical injury from smoke inhalation
+Toxic products of combustion (carbon particles, chemicals, irritants)
+Damages bronchial and alveolar epithelium
+Causes bronchospasm, oedema, sloughing of mucosa, mucus plugging
+Results in atelectasis, pneumonia, ARDS
+
+Evidence in this patient:
+Cough with blackish sputum (carbon particles inhaled)
+Reduced breath sounds bilaterally
+Wheezes (bronchospasm)
+Progressive dyspnoea
+
+Systemic toxicity:
+Carbon monoxide (CO) poisoning
+Cyanide poisoning
+Tissue hypoxia despite adequate oxygen delivery
+
+Evidence in this patient:
+Enclosed space exposure (high risk)
+Hypoxia (SpO₂ 92%)
+Needs carboxyhaemoglobin measurement
+
+Clinical features of inhalational injury present:
+
+History:
+Exposure in enclosed space (high-risk mechanism)
+Prolonged exposure (trapped several minutes)
+Progressive symptoms over 6 hours
+
+Physical examination:
+Facial burns (even mild erythema significant)
+Singed nasal hairs (highly specific for inhalational injury)
+Soot in nostrils and mouth (inhaled smoke particles)
+Hoarseness (laryngeal oedema)
+Respiratory distress (RR 28, use of accessory muscles)
+Hypoxia (SpO₂ 92%)
+Wheezes (bronchospasm)
+Soot-stained sputum (confirms inhalation)
+
+Severity assessment:
+
+Respiratory distress present but patient stable currently
+SpO₂ 92% on room air (mild-moderate hypoxia)
+Conscious and oriented (no severe hypoxia or CO poisoning yet)
+Haemodynamically stable (BP normal, pulse mildly elevated)
+
+However, high risk of deterioration:
+Airway oedema progresses over 12-48 hours
+Hoarseness indicates laryngeal involvement
+Risk of complete obstruction
+Lower airway injury can progress to ARDS
+
+No significant external burns:
+Less than 1% TBSA (facial erythema only)
+No fluid resuscitation needed
+Focus entirely on respiratory management
+
+Differential diagnosis:
+
+Smoke inhalation without injury:
+Possible but unlikely given clinical features
+This patient has clear evidence of injury
+
+Acute bronchospasm/reactive airways:
+Component of inhalational injury
+Not isolated asthma (no prior history, clear exposure)
+
+Pneumonia:
+Can complicate inhalational injury
+Too early for bacterial pneumonia (6 hours)
+May develop later
+
+Carbon monoxide poisoning:
+Component of inhalational injury
+Needs assessment with carboxyhaemoglobin level
+
+PLAN
+
+This is a respiratory emergency requiring immediate intervention and close monitoring
+
+Immediate Assessment and Management
+
+Primary Survey (ABCDE):
+
+Airway (Critical Priority):
+
+Current status:
+Patent (patient speaking, hoarse)
+But high risk of obstruction
+
+Evidence of impending airway compromise:
+Hoarseness (laryngeal oedema developing)
+Facial burns (even mild)
+Singed nasal hairs
+Soot in mouth
+Enclosed space exposure
+Progressive symptoms
+
+Natural history:
+Airway oedema progresses over 6-48 hours
+Can deteriorate rapidly
+Once obstructed, difficult or impossible to intubate
+Window of opportunity for safe intubation
+
+Decision: Low threshold for early intubation
+
+Indications for immediate intubation in inhalational injury:
+Respiratory distress or failure
+Stridor (complete obstruction imminent)
+Severe hoarseness or inability to phonate
+Copious secretions
+Altered mental status (hypoxia, CO poisoning)
+Progressive symptoms despite treatment
+Anticipated clinical course (will need ventilation)
+
+This patient (hoarseness, progressive dyspnoea, hypoxia, high-risk exposure):
+Consider early intubation vs very close monitoring
+If any deterioration: Immediate intubation
+Better to intubate early (controlled) than emergently (crisis)
+
+Intubation considerations:
+Experienced operator (anaesthetist or intensivist)
+Prepare for difficult airway (oedema distorts anatomy)
+Large endotracheal tube (7.5-8.0 mm allows bronchoscopy)
+Have surgical airway equipment ready (cricothyroidotomy)
+Do NOT wait for complete obstruction
+
+If not intubating immediately:
+Very close monitoring (see below)
+Frequent reassessment (every 30-60 minutes)
+Prepare for emergency intubation
+
+Breathing:
+
+High-flow oxygen:
+100% oxygen via non-rebreather mask immediately
+Benefits:
+Improves oxygenation (SpO₂ currently 92%)
+Displaces carbon monoxide (reduces half-life from 4 hours to 40 minutes)
+Continue until carboxyhaemoglobin less than 5%
+
+Target: SpO₂ greater than 94%
+
+Nebulized bronchodilators:
+Salbutamol (Albuterol) 2.5-5 mg via nebulizer
+Repeat every 4-6 hours or more frequently if needed
+Relieves bronchospasm (wheezes present)
+
+Consider:
+Nebulized adrenaline (Epinephrine) 5 ml of 1:1000 dilution
+Reduces airway oedema
+Particularly useful if stridor developing
+
+Humidified oxygen:
+Prevents drying of secretions
+Aids mucociliary clearance
+
+Bronchoscopy (when available):
+Diagnostic and therapeutic
+Assess:
+Degree and extent of airway injury
+Carbonaceous material in airway
+Mucosal oedema, erythema, ulceration
+Therapeutic:
+Suctioning of secretions and debris
+Helps clear airway
+
+Usually performed after intubation or as part of intubation assessment
+
+Circulation:
+
+Establish IV access:
+One or two peripheral IV cannulas
+This patient: No significant burns, minimal fluid losses
+Maintenance fluids only (0.9% Normal Saline at 100 ml/hr)
+Do NOT overhydrate (worsens pulmonary oedema)
+
+Blood sampling:
+Full blood count
+Electrolytes, urea, creatinine
+Arterial blood gas (most important):
+PaO₂ (assess oxygenation)
+PaCO₂ (assess ventilation)
+pH (assess acidosis)
+Lactate (tissue hypoxia marker)
+Carboxyhaemoglobin level (CO poisoning assessment)
+Methaemoglobin if suspected
+Coagulation profile if extensive injury
+
+Carboxyhaemoglobin interpretation:
+Normal: Less than 3% (non-smokers), less than 10% (smokers)
+Mild poisoning: 10-20%
+Moderate poisoning: 20-40%
+Severe poisoning: Greater than 40%
+Potentially lethal: Greater than 60%
+
+Treatment: 100% oxygen (already started)
+
+Disability:
+
+Assess conscious level:
+Currently conscious and oriented (GCS 15/15)
+Monitor closely (CO poisoning can cause altered mental status)
+
+Exposure:
+
+Remove clothing
+Examine for burns (already done, minimal)
+Keep warm (prevent hypothermia)
+
+Investigations
+
+Arterial blood gas:
+Most important investigation
+Assess oxygenation, ventilation, acid-base status
+Carboxyhaemoglobin level
+Repeat after 2-4 hours of 100% oxygen
+
+Chest X-ray:
+Often normal initially (even with significant injury)
+May show:
+Pulmonary oedema
+Atelectasis
+Infiltrates
+Useful as baseline
+Repeat if clinical deterioration
+
+Full blood count:
+Baseline haemoglobin
+White cell count (infection marker, though elevated initially from stress)
+
+Electrolytes, urea, creatinine:
+Baseline renal function
+Monitor for acute kidney injury
+
+ECG:
+If cardiac symptoms or severe CO poisoning
+CO reduces oxygen delivery to myocardium
+
+Bronchoscopy (if available):
+Gold standard for assessing airway injury
+Grading:
+Grade 0: Normal
+Grade 1: Mild erythema, no carbonaceous material
+Grade 2: Moderate erythema, carbonaceous material, no mucosal sloughing
+Grade 3: Severe inflammation, mucosal sloughing, airway obstruction
+
+Usually performed after intubation or to guide intubation decision
+
+Monitoring
+
+Close monitoring essential (high-dependency unit or ICU):
+
+Vital signs:
+Continuous monitoring: pulse, BP, SpO₂, respiratory rate
+Every 15-30 minutes initially
+Watch for deterioration
+
+Respiratory assessment:
+Respiratory rate, pattern, effort (use of accessory muscles)
+Auscultation (wheezes, crepitations, reduced air entry)
+SpO₂ trend
+Assess for stridor (impending complete obstruction)
+
+Airway assessment:
+Hoarseness (improving or worsening)
+Ability to swallow
+Increased secretions
+Stridor
+
+Signs requiring immediate intubation:
+Stridor
+Worsening hoarseness or aphonia
+Increasing respiratory distress
+Hypoxia despite oxygen
+Altered mental status
+Copious secretions
+Unable to protect airway
+
+Arterial blood gas:
+Repeat every 2-4 hours initially
+Monitor oxygenation, ventilation, carboxyhaemoglobin trends
+
+Chest X-ray:
+Daily or if clinical deterioration
+
+Specific Treatments
+
+100% oxygen therapy:
+Continue until carboxyhaemoglobin less than 5%
+Usually 4-6 hours
+Longer if symptomatic
+
+Bronchodilators:
+Nebulized salbutamol every 4-6 hours or more frequently
+Continue until wheezing resolves
+
+If severe bronchospasm:
+IV Aminophylline loading 5 mg/kg over 20 minutes
+Then infusion 0.5 mg/kg/hr
+OR IV Salbutamol infusion
+
+Corticosteroids:
+Controversial in inhalational injury
+Some advocate: IV Hydrocortisone 100 mg 6-hourly or IV Dexamethasone
+Reduces airway oedema and inflammation
+Others advise against: May increase infection risk
+Decision based on severity and institutional protocol
+
+This patient: Consider if severe bronchospasm or progressive oedema
+
+N-acetylcysteine (Mucolytic):
+Nebulized N-acetylcysteine
+Helps liquefy secretions
+Aids clearance
+
+Antibiotics:
+Prophylactic antibiotics NOT recommended
+Increases resistance
+Start if infection develops:
+Pneumonia (fever, purulent sputum, infiltrates on X-ray)
+Positive cultures
+Broad-spectrum: Piperacillin-tazobactam or Ceftriaxone
+
+Analgesia:
+Usually minimal pain (no significant burns)
+Paracetamol 1 g 6-hourly if needed
+Avoid opioids initially (respiratory depression)
+
+Stress ulcer prophylaxis:
+Omeprazole 40 mg IV once daily OR
+Pantoprazole 40 mg IV once daily
+Prevent stress ulcers
+
+DVT prophylaxis:
+Not immediately needed (mobile patient, minimal burns)
+Consider if prolonged immobilization: Enoxaparin 40 mg SC daily after 24-48 hours
+
+Supportive Care
+
+Hydration:
+Maintenance IV fluids
+Monitor fluid balance (avoid overload)
+Encourage oral fluids when safe
+
+Nutrition:
+Normal diet if not intubated
+Maintain nutrition
+
+Chest physiotherapy:
+Deep breathing exercises
+Coughing (aids secretion clearance)
+Incentive spirometry
+Early mobilization when stable
+
+Positioning:
+Semi-recumbent (30-45 degrees head elevation)
+Improves oxygenation
+Reduces aspiration risk
+
+Hyperbaric Oxygen Therapy (HBOT):
+
+Indications:
+Severe CO poisoning (carboxyhaemoglobin greater than 25%)
+CO poisoning with:
+Altered mental status
+Cardiovascular compromise
+Pregnancy
+If available and patient stable for transfer
+
+Benefits:
+Further reduces CO half-life (to 20 minutes)
+Improves tissue oxygenation
+
+This patient: Assess carboxyhaemoglobin level, consider if elevated
+
+Mechanical Ventilation (If Intubated or Deteriorates)
+
+Indications for mechanical ventilation:
+Respiratory failure (PaO₂ less than 60 mmHg on high-flow oxygen)
+Severe hypercapnia (PaCO₂ greater than 50 mmHg)
+Exhaustion
+Altered mental status
+Airway protection needed
+
+Ventilation strategy:
+Lung-protective ventilation
+Low tidal volumes (6 ml/kg ideal body weight)
+PEEP to maintain oxygenation
+FiO₂ adjusted to maintain SpO₂ greater than 94%
+Permissive hypercapnia acceptable
+
+Complications of mechanical ventilation:
+Ventilator-associated pneumonia (prevent with good oral care, elevation of head)
+Barotrauma
+Ventilator-induced lung injury
+
+Weaning:
+When:
+Underlying injury improving
+Adequate oxygenation (PaO₂/FiO₂ greater than 200)
+Haemodynamically stable
+Spontaneous breathing trials
+Extubate when safe
+
+Complications
+
+Immediate (hours):
+Complete airway obstruction (prevented with early intubation)
+Respiratory failure
+Severe hypoxia
+Cardiac arrhythmias (from CO poisoning or hypoxia)
+
+Early (days):
+Pneumonia (bacterial superinfection)
+ARDS (acute respiratory distress syndrome)
+Pulmonary oedema
+Bronchospasm
+Atelectasis
+Mucus plugging
+
+Late (weeks):
+Tracheal stenosis (from prolonged intubation)
+Bronchiolitis obliterans
+Chronic bronchitis
+Pulmonary fibrosis
+
+This patient: Close monitoring prevents immediate complications, supportive care reduces risk of early and late complications
+
+PROGNOSIS
+
+Generally good with appropriate management
+
+Severity factors:
+Degree of airway injury (bronchoscopy grading)
+Presence of external burns (this patient minimal)
+Associated CO or cyanide poisoning
+Presence of ARDS
+
+This patient has favourable factors:
+No significant external burns (less than 1% TBSA)
+Early presentation (6 hours)
+Conscious and oriented (no severe CO poisoning or hypoxia)
+Haemodynamically stable
+Access to appropriate care
+
+Expected course:
+Airway oedema peaks at 24-48 hours
+If managed with early intubation: Extubate in 3-7 days
+Lower airway injury may take 2-4 weeks to resolve
+Full recovery expected in most cases
+
+Mortality:
+Isolated inhalational injury without burns: 5-10%
+Inhalational injury with burns: 20-40% (depending on extent)
+This patient (minimal burns): Low mortality risk with appropriate care
+
+Long-term:
+Most recover completely
+Some develop chronic bronchitis or reactive airways
+Regular follow-up with pulmonary function tests
+Smoking cessation counselling important (though patient non-smoker)
+
+FOLLOW-UP
+ICU/HDU monitoring until stable. Bronchoscopy if available to assess injury. Repeat chest X-ray and ABG. Wean oxygen as tolerated. Discharge when breathing comfortably on room air. Pulmonary clinic follow-up in 2-4 weeks. Pulmonary function tests at 3 and 6 months. Counselling on fire safety and prevention.
+`,
+bookmarkCount: 0
+},
   // Obstertric & Gynecology
   {
     id: 'ob-1',

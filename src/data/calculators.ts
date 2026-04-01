@@ -1,4 +1,3 @@
-
 export interface CalculatorInput {
     name: string;
     type: 'number' | 'select' | 'boolean' | 'date';
@@ -91,31 +90,24 @@ const curb65Calculation = (inputs: { 'Confusion': boolean; 'Urea > 7 mmol/L': bo
 
 const news2Calculation = (inputs: { 'Respiratory Rate': number; 'O2 Saturation': number; 'Supplemental O2': boolean; 'Systolic BP': number; 'Heart Rate': number; 'Consciousness': string; 'Temperature': number }) => {
     let score = 0;
-    // RR
     if (inputs['Respiratory Rate'] <= 8) score += 3;
     else if (inputs['Respiratory Rate'] >= 25) score += 3;
     else if (inputs['Respiratory Rate'] >= 21) score += 2;
     else if (inputs['Respiratory Rate'] >= 9 && inputs['Respiratory Rate'] <= 11) score += 1;
-    // O2 Sats
     if (inputs['O2 Saturation'] <= 91) score += 3;
     else if (inputs['O2 Saturation'] <= 93) score += 2;
     else if (inputs['O2 Saturation'] <= 95) score += 1;
-    // Supp O2
     if (inputs['Supplemental O2']) score += 2;
-    // SBP
     if (inputs['Systolic BP'] <= 90) score += 3;
     else if (inputs['Systolic BP'] <= 100) score += 2;
     else if (inputs['Systolic BP'] <= 110) score += 1;
     else if (inputs['Systolic BP'] >= 220) score += 3;
-    // HR
     if (inputs['Heart Rate'] <= 40) score += 3;
     else if (inputs['Heart Rate'] >= 131) score += 3;
     else if (inputs['Heart Rate'] >= 111) score += 2;
     else if (inputs['Heart Rate'] >= 91) score += 1;
     else if (inputs['Heart Rate'] >= 41 && inputs['Heart Rate'] <= 50) score += 1;
-    // Consciousness
     if (inputs['Consciousness'] !== 'Alert') score += 3;
-    // Temp
     if (inputs['Temperature'] <= 35.0) score += 3;
     else if (inputs['Temperature'] >= 39.1) score += 2;
     else if (inputs['Temperature'] >= 38.1) score += 1;
@@ -253,7 +245,6 @@ const fenaCalculation = (inputs: { 'Serum Sodium': number; 'Urine Sodium': numbe
 };
 
 const correctedSodiumCalculation = (inputs: { 'Serum Sodium': number; 'Serum Glucose': number; }) => {
-    // For every 100 mg/dL glucose over 100, add 1.6 mEq to sodium
     const correctedNa = inputs['Serum Sodium'] + 1.6 * ((inputs['Serum Glucose'] - 100) / 100);
     const result = parseFloat(correctedNa.toFixed(1));
     
@@ -348,6 +339,7 @@ const hasBledCalculation = (inputs: { 'Hypertension': boolean; 'Abnormal Renal/L
     if (inputs['Drugs/Alcohol']) score++;
 
     let interpretation = 'Low risk of bleeding';
+    let recommendation = '';
     let color = 'text-green-500';
 
     if (score >= 3) {
@@ -452,27 +444,67 @@ const unitConversionCalculation = (inputs: { 'Value': number; 'Conversion': stri
     let interpretation = '';
     const { Value, Conversion } = inputs;
 
-    if (Conversion === 'mg/dL to mmol/L (Glucose)') {
-        result = (Value / 18).toFixed(2) + ' mmol/L';
-        interpretation = 'Glucose (mg/dL to mmol/L)';
-    } else if (Conversion === 'mmol/L to mg/dL (Glucose)') {
-        result = (Value * 18).toFixed(2) + ' mg/dL';
-        interpretation = 'Glucose (mmol/L to mg/dL)';
+    switch (Conversion) {
+        case 'mg/dL to mmol/L (Glucose)':
+            result = (Value / 18).toFixed(2) + ' mmol/L';
+            interpretation = 'Glucose (mg/dL to mmol/L)';
+            break;
+        case 'mmol/L to mg/dL (Glucose)':
+            result = (Value * 18).toFixed(2) + ' mg/dL';
+            interpretation = 'Glucose (mmol/L to mg/dL)';
+            break;
+        case 'Creatinine (mg/dL to µmol/L)':
+            result = (Value * 88.4).toFixed(2) + ' µmol/L';
+            interpretation = 'Creatinine (mg/dL to µmol/L)';
+            break;
+        case 'Creatinine (µmol/L to mg/dL)':
+            result = (Value / 88.4).toFixed(2) + ' mg/dL';
+            interpretation = 'Creatinine (µmol/L to mg/dL)';
+            break;
+        case 'Urea (mg/dL to mmol/L)':
+            result = (Value / 2.8).toFixed(2) + ' mmol/L';
+            interpretation = 'Urea (mg/dL to mmol/L)';
+            break;
+        case 'Urea (mmol/L to mg/dL)':
+            result = (Value * 2.8).toFixed(2) + ' mg/dL';
+            interpretation = 'Urea (mmol/L to mg/dL)';
+            break;
+        case 'Calcium (mg/dL to mmol/L)':
+            result = (Value / 4).toFixed(2) + ' mmol/L';
+            interpretation = 'Calcium (mg/dL to mmol/L)';
+            break;
+        case 'Calcium (mmol/L to mg/dL)':
+            result = (Value * 4).toFixed(2) + ' mg/dL';
+            interpretation = 'Calcium (mmol/L to mg/dL)';
+            break;
+        case 'Bilirubin (mg/dL to µmol/L)':
+            result = (Value * 17.1).toFixed(2) + ' µmol/L';
+            interpretation = 'Bilirubin (mg/dL to µmol/L)';
+            break;
+        case 'Bilirubin (µmol/L to mg/dL)':
+            result = (Value / 17.1).toFixed(2) + ' mg/dL';
+            interpretation = 'Bilirubin (µmol/L to mg/dL)';
+            break;
+        case 'Cholesterol (mg/dL to mmol/L)':
+            result = (Value / 38.7).toFixed(2) + ' mmol/L';
+            interpretation = 'Cholesterol (mg/dL to mmol/L)';
+            break;
+        case 'Cholesterol (mmol/L to mg/dL)':
+            result = (Value * 38.7).toFixed(2) + ' mg/dL';
+            interpretation = 'Cholesterol (mmol/L to mg/dL)';
+            break;
+        case 'Temperature (°C to °F)':
+            result = ((Value * 9/5) + 32).toFixed(1) + ' °F';
+            interpretation = 'Temperature (°C to °F)';
+            break;
+        case 'Temperature (°F to °C)':
+            result = ((Value - 32) * 5/9).toFixed(1) + ' °C';
+            interpretation = 'Temperature (°F to °C)';
+            break;
     }
 
     return { result, interpretation, color: 'text-blue-500' };
 };
-
-const infusionRateCalculation = (inputs: { 'Volume': number; 'Time': number; }) => {
-    const rate = inputs.Volume / inputs.Time;
-    return { result: `${rate.toFixed(1)} mL/hr`, interpretation: 'Infusion Rate', color: 'text-blue-500' };
-};
-
-const dripRateCalculation = (inputs: { 'Volume': number; 'Time': number; 'Drop Factor': number; }) => {
-    const rate = (inputs.Volume * inputs['Drop Factor']) / (inputs.Time * 60);
-    return { result: `${rate.toFixed(0)} gtts/min`, interpretation: 'Drip Rate', color: 'text-blue-500' };
-};
-
 
 const idealBodyWeightCalculation = (inputs: { 'Height': number; 'Sex': string; }) => {
     const heightInches = inputs.Height / 2.54;
@@ -500,7 +532,7 @@ const eddCalculation = (inputs: { 'Last Menstrual Period': string }) => {
     if (!inputs['Last Menstrual Period']) return { result: 'N/A', interpretation: 'Please select a date.' };
     const lmp = new Date(inputs['Last Menstrual Period']);
     const edd = new Date(lmp);
-    edd.setDate(edd.getDate() + 280); // 280 days (40 weeks)
+    edd.setDate(edd.getDate() + 280);
     const result = edd.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     return { result, interpretation: "Based on 280 days from LMP", color: 'text-blue-500' };
 };
@@ -648,22 +680,135 @@ const childPughScoreCalculation = (inputs: { 'Bilirubin': string; 'Albumin': str
     return { result: score, interpretation, recommendation, color };
 };
 
+const infusionRateCalculation = (inputs: { 'Volume': number; 'Time': number; }) => {
+    if (inputs.Time === 0) return { result: 'N/A', interpretation: 'Time cannot be zero.' };
+    const rate = inputs.Volume / inputs.Time;
+    return { result: `${rate.toFixed(1)} mL/hour`, interpretation: 'Infusion Rate', color: 'text-blue-500' };
+};
 
-
-
-// --- Calculator Definitions ---
+const dripRateCalculation = (inputs: { 'Volume': number; 'Time': number; 'Drop Factor': number; }) => {
+    if (inputs.Time === 0) return { result: 'N/A', interpretation: 'Time cannot be zero.' };
+    const rate = (inputs.Volume * inputs['Drop Factor']) / inputs.Time;
+    return { result: `${rate.toFixed(1)} gtts/min`, interpretation: 'Drip Rate', color: 'text-blue-500' };
+};
 
 export const calculators: Calculator[] = [
+    // Utilities
+    {
+        name: 'Unit Conversion',
+        category: 'Utilities',
+        description: 'Convert between common clinical units.',
+        explanation: `Clinical Significance: Prevents clinical errors by allowing for quick conversion between common units.\n\nHow it is calculated:\n\n| Conversion | Formula |\n|:---|:---|\n| Creatinine (mg/dL to µmol/L) | Value × 88.4 |\n| Creatinine (µmol/L to mg/dL) | Value / 88.4 |\n| Urea (mg/dL to mmol/L) | Value / 2.8 |\n| Urea (mmol/L to mg/dL) | Value * 2.8 |\n| Calcium (mg/dL to mmol/L) | Value / 4 |\n| Calcium (mmol/L to mg/dL) | Value * 4 |\n| Bilirubin (mg/dL to µmol/L) | Value × 17.1 |\n| Bilirubin (µmol/L to mg/dL) | Value / 17.1 |\n| Cholesterol (mg/dL to mmol/L) | Value / 38.7 |\n| Cholesterol (mmol/L to mg/dL) | Value * 38.7 |\n| Glucose (mg/dL to mmol/L) | Value / 18 |\n| Glucose (mmol/L to mg/dL) | Value * 18 |\n| Temperature (°C to °F) | (°C × 9/5) + 32 |\n| Temperature (°F to °C) | (°F - 32) × 5/9 |`,
+        inputs: [
+            { name: 'Value', type: 'number', min: 0, step: 1 },
+            {
+                name: 'Conversion',
+                type: 'select',
+                options: [
+                    'Creatinine (mg/dL to µmol/L)',
+                    'Creatinine (µmol/L to mg/dL)',
+                    'Urea (mg/dL to mmol/L)',
+                    'Urea (mmol/L to mg/dL)',
+                    'Calcium (mg/dL to mmol/L)',
+                    'Calcium (mmol/L to mg/dL)',
+                    'Bilirubin (mg/dL to µmol/L)',
+                    'Bilirubin (µmol/L to mg/dL)',
+                    'Cholesterol (mg/dL to mmol/L)',
+                    'Cholesterol (mmol/L to mg/dL)',
+                    'mg/dL to mmol/L (Glucose)',
+                    'mmol/L to mg/dL (Glucose)',
+                    'Temperature (°C to °F)',
+                    'Temperature (°F to °C)',
+                ],
+            },
+        ],
+        calculation: unitConversionCalculation as any,
+    },
+    {
+        name: 'Infusion Rate',
+        category: 'Utilities',
+        description: 'Calculate the rate in mL/hour.',
+        explanation: `Clinical Significance: Ensures safe administration of IV fluids and medications.\n\nHow it is calculated: Total Volume (mL) / Time (hours).`,
+        inputs: [
+            { name: 'Volume', type: 'number', unit: 'mL', min: 1, step: 1 },
+            { name: 'Time', type: 'number', unit: 'hours', min: 0.1, step: 0.1 },
+        ],
+        calculation: infusionRateCalculation,
+    },
+    {
+        name: 'Drip Rate',
+        category: 'Utilities',
+        description: 'Calculate the drip rate in drops/minute.',
+        explanation: `Clinical Significance: Ensures the accurate delivery of intravenous fluids and medications, preventing complications from incorrect infusion rates.\n\nHow it is calculated: (Volume (mL) x Drop Factor (gtts/mL)) / Time (minutes) = Drip Rate (gtts/min)`,
+        inputs: [
+            { name: 'Volume', type: 'number', unit: 'mL', min: 1, step: 1 },
+            { name: 'Time', type: 'number', unit: 'min', min: 1, step: 1 },
+            { name: 'Drop Factor', type: 'number', unit: 'gtts/mL', min: 1, step: 1 },
+        ],
+        calculation: dripRateCalculation,
+    },
+    {
+        name: 'Body Surface Area (BSA)',
+        category: 'Utilities',
+        description: 'Calculate BSA using the Du Bois formula.',
+        explanation: `Clinical Significance: A more accurate indicator of metabolic mass than body weight, used for dosing chemotherapy and other drugs.\n\nHow it is calculated: sqrt((Height(cm) * Weight(kg)) / 3600).`,
+        inputs: [
+            { name: 'Height', type: 'number', unit: 'cm', min: 1, step: 1 },
+            { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
+        ],
+        calculation: bsaCalculation,
+    },
+        {
+        name: 'Body Mass Index (BMI)',
+        category: 'Utilities',
+        description: 'Standard measure of body fat based on height and weight.',
+        explanation: `Clinical Significance: A screening tool to identify weight categories that may lead to health problems.\n\nHow to Interpret the Result:\n\n| BMI | Category |\n|:---|:---|\n| < 18.5 | Underweight |\n| 18.5 - 24.9 | Normal weight |\n| 25.0 - 29.9 | Overweight |\n| ≥ 30.0 | Obese |`,
+        inputs: [
+            { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
+            { name: 'Height', type: 'number', unit: 'cm', min: 1, step: 1 },
+        ],
+        calculation: bmiCalculation,
+    },
+    {
+        name: 'Ideal Body Weight',
+        category: 'Utilities',
+        description: 'Devine formula for ideal body weight.',
+        explanation: `Clinical Significance: Used for calculating dosages of certain medications and for mechanical ventilation settings.\n\nHow it is calculated:\n\n| Sex | Formula |\n|:---|:---|\n| Male | 50 kg + 2.3 kg per inch over 5 feet |\n| Female | 45.5 kg + 2.3 kg per inch over 5 feet |`,
+        inputs: [
+            { name: 'Height', type: 'number', unit: 'cm', min: 1, step: 1 },
+            { name: 'Sex', type: 'select', options: ['Male', 'Female'] },
+        ],
+        calculation: idealBodyWeightCalculation,
+    },
+    {
+        name: 'Adjusted Body Weight',
+        category: 'Utilities',
+        description: 'For drug dosing in overweight patients.',
+        explanation: `Clinical Significance: Provides a compromise for dosing hydrophilic medications in obese patients.\n\nHow it is calculated: IBW + 0.4 * (Actual Weight - IBW).`,
+        inputs: [
+            { name: 'Actual Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
+            { name: 'Ideal Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
+        ],
+        calculation: adjustedBodyWeightCalculation,
+    },
+    {
+        name: 'Free Water Deficit',
+        category: 'Utilities',
+        description: 'Corrects hypernatremia.',
+        explanation: `Clinical Significance: Estimates the volume of free water required to correct hypernatremia.\n\nHow it is calculated: ((Serum Na⁺ / 140) - 1) * Total Body Water.`,
+        inputs: [
+            { name: 'Serum Sodium', type: 'number', unit: 'mEq/L', min: 140, step: 1 },
+            { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
+            { name: 'Sex', type: 'select', options: ['Male', 'Female'] },
+        ],
+        calculation: freeWaterDeficitCalculation,
+    },
     // Emergency & Resuscitation
     {
         name: 'Glasgow Coma Scale (GCS)',
         category: 'Emergency & Resuscitation',
         description: 'Assess level of consciousness after head injury.',
-        explanation: `The GCS is scored between 3 and 15 and is the sum of three components:
-
-- Eyes (E): 4=Spontaneous, 3=To voice, 2=To pain, 1=None
-- Verbal (V): 5=Oriented, 4=Confused, 3=Inappropriate words, 2=Incomprehensible sounds, 1=None
-- Motor (M): 6=Obeys commands, 5=Localizes pain, 4=Withdraws from pain, 3=Flexion to pain, 2=Extension to pain, 1=None`,
+        explanation: `Clinical Significance: The GCS is a universal and reliable tool for assessing a patient's level of consciousness, particularly after a traumatic brain injury. It helps in monitoring neurological status trends and making decisions about interventions like intubation or imaging.\n\nHow it is calculated: The score is the sum of the best response in three categories:\n\n| | Eyes (E) | Verbal (V) | Motor (M) |\n|:---|:---|:---|:---|\n| **1** | None | None | None |\n| **2** | To Pain | Incomprehensible Sounds | Extension to Pain |\n| **3** | To Voice | Inappropriate Words | Flexion to Pain |\n| **4** | Spontaneous | Confused | Withdraws from Pain |\n| **5** | - | Oriented | Localizes Pain |\n| **6** | - | - | Obeys Commands |\n\nHow to Interpret the Result:\n\n| Score | Severity |\n|:---|:---|\n| 13-15 | Mild head injury |\n| 9-12 | Moderate head injury |\n| 3-8 | Severe head injury |`,
         inputs: [
             { name: 'Eyes', type: 'select', options: ['Spontaneous', 'To Voice', 'To Pain', 'None'] },
             { name: 'Verbal', type: 'select', options: ['Oriented', 'Confused', 'Inappropriate Words', 'Incomprehensible Sounds', 'None'] },
@@ -675,13 +820,7 @@ export const calculators: Calculator[] = [
         name: 'qSOFA Score',
         category: 'Emergency & Resuscitation',
         description: 'Quickly assess for sepsis-related organ dysfunction.',
-        explanation: `The qSOFA score is the sum of points for three clinical criteria:
-
-- Respiratory Rate >= 22/min (1 point)
-- Altered Mentation (GCS < 15) (1 point)
-- Systolic Blood Pressure <= 100 mmHg (1 point)
-
-A score of 2 or more suggests a greater risk of a poor outcome.`,
+        explanation: `Clinical Significance: The Quick Sequential Organ Failure Assessment (qSOFA) is a bedside tool used to quickly identify patients with suspected infection who are at greater risk for a poor outcome (death or prolonged ICU stay). It prompts clinicians to investigate further for organ dysfunction.\n\nHow it is calculated: One point is awarded for each of the following clinical criteria:\n\n| Criteria | Points |\n|:---|:---|\n| Respiratory Rate ≥ 22 breaths/min | 1 |\n| Altered Mentation (GCS < 15) | 1 |\n| Systolic Blood Pressure ≤ 100 mmHg | 1 |\n\nHow to Interpret the Result:\n\n| Score | Risk | Recommendation |\n|:---|:---|:---|\n| 0-1 | Low | Continue monitoring |\n| ≥ 2 | High | Assess for organ dysfunction |`,
         inputs: [
             { name: 'Respiratory Rate', type: 'number', unit: '/min', min: 0, step: 1 },
             { name: 'Altered Mentation', type: 'boolean' },
@@ -693,15 +832,7 @@ A score of 2 or more suggests a greater risk of a poor outcome.`,
         name: 'CURB-65 Score',
         category: 'Emergency & Resuscitation',
         description: 'Assess severity of community-acquired pneumonia.',
-        explanation: `The CURB-65 score is an acronym for five risk factors:
-
-- Confusion (new disorientation)
-- Urea > 7 mmol/L (or BUN > 19 mg/dL)
-- Respiratory Rate >= 30 breaths/min
-- Blood Pressure (SBP < 90 or DBP <= 60)
-- Age >= 65 years
-
-One point is given for each factor.`,
+        explanation: `Clinical Significance: The CURB-65 score helps physicians decide the site of care for patients with community-acquired pneumonia (CAP). It predicts mortality and can guide whether a patient can be treated at home, should be admitted to a hospital ward, or requires intensive care.\n\nHow it is calculated: One point is given for each of the following prognostic variables:\n\n| Mnemonic | Criteria |\n|:---|:---|\n| **C** | Confusion |\n| **U** | Urea > 7 mmol/L (19 mg/dL) |\n| **R** | Respiratory Rate ≥ 30 breaths/min |\n| **B** | SBP < 90 mmHg or DBP ≤ 60 mmHg |\n| **65** | Age ≥ 65 years |\n\nHow to Interpret the Result:\n\n| Score | Severity | Recommendation |\n|:---|:---|\n| 0-1 | Low | Consider outpatient treatment |\n| 2 | Moderate | Consider hospital admission |\n| ≥ 3 | High | Manage as severe pneumonia, consider ICU |`,
         inputs: [
             { name: 'Confusion', type: 'boolean' },
             { name: 'Urea > 7 mmol/L', type: 'boolean' },
@@ -712,22 +843,14 @@ One point is given for each factor.`,
         calculation: curb65Calculation,
     },
     {
-        name: 'NEWS2 Score',
+        name: 'NEWS₂ Score',
         category: 'Emergency & Resuscitation',
         description: 'National Early Warning Score for acute illness severity.',
-        explanation: `The NEWS2 score is based on six physiological parameters, each scored and summed. A higher score indicates greater clinical deterioration.
-
-- Respiratory Rate: 9-11 (1), 12-20 (0), 21-24 (2), >=25 (3), <=8 (3)
-- O2 Saturation: >=96 (0), 94-95 (1), 92-93 (2), <=91 (3)
-- Supplemental O2: Yes (2), No (0)
-- Systolic BP: >=220 (3), 111-219 (0), 101-110 (1), 91-100 (2), <=90 (3)
-- Heart Rate: >=131 (3), 111-130 (2), 91-110 (1), 51-90 (0), 41-50 (1), <=40 (3)
-- Consciousness: Alert (0), Not Alert (3)
-- Temperature: >=39.1 (2), 38.1-39.0 (1), 36.1-38.0 (0), 35.1-36.0 (1), <=35.0 (3)`,
+        explanation: `Clinical Significance: The NEWS₂ is a standardized system used to identify and respond to patients at risk of deteriorating. It's a key tool for improving patient safety in hospitals.\n\nHow it is calculated: A score is assigned for each of six physiological parameters.\n\n| Parameter | 3 | 2 | 1 | 0 | 1 | 2 | 3 |\n|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n| Resp. Rate | ≤ 8 | - | 9-11 | 12-20 | 21-24 | ≥ 25 | - |\n| O₂ Sats | ≤ 91 | 92-93 | 94-95 | ≥ 96 | - | - | - |\n| Supp. O₂ | - | Yes | - | No | - | - | - |\n| Systolic BP | ≤ 90 | 91-100 | 101-110 | 111-219 | - | ≥ 220 | - |\n| Heart Rate | ≤ 40 | - | 41-50 | 51-90 | 91-110 | 111-130 | ≥ 131 |\n| Consciousness | - | - | - | Alert | - | Not Alert | - |\n| Temperature | ≤ 35.0 | - | 35.1-36.0 | 36.1-38.0 | 38.1-39.0 | ≥ 39.1 | - |\n\nHow to Interpret the Result:\n\n| Score | Risk | Recommendation |\n|:---|:---|:---|\n| 0-4 | Low | Continue routine monitoring |\n| 5-6 | Medium | Urgent review by clinician |\n| ≥ 7 | High | Urgent review by critical care team |`,
         inputs: [
             { name: 'Respiratory Rate', type: 'number', unit: '/min', min: 0, step: 1 },
-            { name: 'O2 Saturation', type: 'number', unit: '%', min: 0, max: 100, step: 1 },
-            { name: 'Supplemental O2', type: 'boolean' },
+            { name: 'O₂ Saturation', type: 'number', unit: '%', min: 0, max: 100, step: 1 },
+            { name: 'Supplemental O₂', type: 'boolean' },
             { name: 'Systolic BP', type: 'number', unit: 'mmHg', min: 0, step: 1 },
             { name: 'Heart Rate', type: 'number', unit: 'bpm', min: 0, step: 1 },
             { name: 'Consciousness', type: 'select', options: ['Alert', 'Confused', 'Voice', 'Pain', 'Unresponsive'] },
@@ -739,11 +862,7 @@ One point is given for each factor.`,
         name: 'Shock Index',
         category: 'Emergency & Resuscitation',
         description: 'Assess for shock (HR / SBP). Normal is 0.5-0.7.',
-        explanation: `The Shock Index is calculated using the formula:
-
-Shock Index = Heart Rate / Systolic Blood Pressure
-
-A normal index is 0.5-0.7. A value > 0.9 suggests shock.`,
+        explanation: `Clinical Significance: The Shock Index is a simple, rapid tool to assess for hemodynamic instability and predict outcomes in trauma and acute circulatory failure. An elevated index may indicate compensated shock even with normal blood pressure.\n\nHow it is calculated: It is the ratio of heart rate to systolic blood pressure: Heart Rate / Systolic BP.\n\nHow to Interpret the Result:\n\n| Index | Interpretation |\n|:---|:---|\n| 0.5-0.7 | Normal |\n| > 0.7 | Elevated, impending shock |\n| > 0.9 | High, suggests shock |`,
         inputs: [
             { name: 'Heart Rate', type: 'number', unit: 'bpm', min: 0, step: 1 },
             { name: 'Systolic BP', type: 'number', unit: 'mmHg', min: 1, step: 1 },
@@ -754,11 +873,7 @@ A normal index is 0.5-0.7. A value > 0.9 suggests shock.`,
         name: 'Anion Gap',
         category: 'Emergency & Resuscitation',
         description: 'Helps differentiate causes of metabolic acidosis.',
-        explanation: `The Anion Gap is calculated as:
-
-Anion Gap = (Na⁺ + K⁺) - (Cl⁻ + HCO₃⁻)
-
-A normal anion gap is 8-16 mEq/L. A high gap suggests metabolic acidosis.`,
+        explanation: `Clinical Significance: The anion gap is a crucial value in the differential diagnosis of metabolic acidosis. A high anion gap is often caused by unmeasured anions (e.g., lactate, ketones, toxins), while a normal gap points towards bicarbonate loss (e.g., diarrhea, RTA).\n\nHow it is calculated: It represents the difference between measured cations and anions: (Na⁺ + K⁺) - (Cl⁻ + HCO₃⁻).\n\nHow to Interpret the Result:\n\n| Gap (mEq/L) | Interpretation |\n|:---|:---|\n| < 8 | Low Anion Gap |\n| 8-16 | Normal Anion Gap |\n| > 16 | High Anion Gap |`,
         inputs: [
             { name: 'Sodium', type: 'number', unit: 'mEq/L', min: 0, step: 0.1 },
             { name: 'Potassium', type: 'number', unit: 'mEq/L', min: 0, step: 0.1 },
@@ -771,11 +886,7 @@ A normal anion gap is 8-16 mEq/L. A high gap suggests metabolic acidosis.`,
         name: 'Corrected Calcium',
         category: 'Emergency & Resuscitation',
         description: 'Adjusts for low albumin to get a true calcium level.',
-        explanation: `The formula corrects for albumin binding:
-
-Corrected Ca²⁺ = Serum Ca²⁺ + 0.8 * (4.0 - Serum Albumin)
-
-This provides a more accurate calcium level in patients with abnormal albumin.`,
+        explanation: `Clinical Significance: Serum calcium is highly bound to albumin. In patients with low albumin, the total measured calcium may be misleadingly low. Correcting for albumin provides a more accurate reflection of the physiologically active calcium level.\n\nHow it is calculated: Serum Ca²⁺ + 0.8 * (4.0 - Serum Albumin).\n\nHow to Interpret the Result:\n\n| Corrected Ca (mg/dL) | Interpretation |\n|:---|:---|\n| < 8.5 | Hypocalcemia |\n| 8.5-10.2 | Normocalcemia |\n| > 10.2 | Hypercalcemia |`,
         inputs: [
             { name: 'Serum Calcium', type: 'number', unit: 'mg/dL', min: 0, step: 0.1 },
             { name: 'Serum Albumin', type: 'number', unit: 'g/dL', min: 0, step: 0.1 },
@@ -788,13 +899,7 @@ This provides a more accurate calcium level in patients with abnormal albumin.`,
         name: 'eGFR (CKD-EPI 2021)',
         category: 'Renal & Electrolytes',
         description: 'Estimates GFR using the 2021 CKD-EPI equation.',
-        explanation: `The 2021 CKD-EPI equation is complex:
-
-eGFR = 142 * min(Cr/κ, 1)ᵃ * max(Cr/κ, 1)⁻¹.¹²⁰⁰ * 0.9938ᴬᵍᵉ * (1.012 if Female)
-
-- Cr: Serum Creatinine
-- κ: 0.7 (F), 0.9 (M)
-- α: -0.241 (F), -0.302 (M)`,
+        explanation: `Clinical Significance: eGFR is a key indicator of kidney function, used to stage Chronic Kidney Disease (CKD) and guide drug dosing.\n\nHow to Interpret the Result:\n\n| eGFR (mL/min/1.73m²) | CKD Stage |\n|:---|:---|\n| ≥ 90 | Stage 1 (with kidney damage) |\n| 60-89 | Stage 2 (Mild) |\n| 30-59 | Stage 3 (Moderate) |\n| 15-29 | Stage 4 (Severe) |\n| < 15 | Stage 5 (Kidney Failure) |`,
         inputs: [
             { name: 'Creatinine', type: 'number', unit: 'mg/dL', min: 0.1, step: 0.1 },
             { name: 'Age', type: 'number', unit: 'years', min: 1, step: 1 },
@@ -806,12 +911,7 @@ eGFR = 142 * min(Cr/κ, 1)ᵃ * max(Cr/κ, 1)⁻¹.¹²⁰⁰ * 0.9938ᴬᵍᵉ 
         name: 'Fractional Excretion of Na+ (FeNa)',
         category: 'Renal & Electrolytes',
         description: 'Differentiates pre-renal AKI from ATN.',
-        explanation: `FeNa is calculated as:
-
-FeNa = ((Urine Na⁺ * Serum Cr) / (Serum Na⁺ * Urine Cr)) * 100
-
-- FeNa < 1% suggests pre-renal AKI.
-- FeNa > 2% suggests ATN.`,
+        explanation: `Clinical Significance: FeNa helps distinguish between pre-renal causes of AKI (decreased blood flow) and intrinsic renal causes (tubular damage).\n\nHow to Interpret the Result:\n\n| FeNa | Interpretation |\n|:---|:---|\n| < 1% | Pre-renal Azotemia |\n| 1-2% | Indeterminate |\n| > 2% | Acute Tubular Necrosis (ATN) |`,
         inputs: [
             { name: 'Serum Sodium', type: 'number', unit: 'mEq/L', step: 1 },
             { name: 'Urine Sodium', type: 'number', unit: 'mEq/L', step: 1 },
@@ -824,11 +924,7 @@ FeNa = ((Urine Na⁺ * Serum Cr) / (Serum Na⁺ * Urine Cr)) * 100
         name: 'Corrected Sodium (Hyperglycemia)',
         category: 'Renal & Electrolytes',
         description: 'Corrects serum sodium for high blood glucose.',
-        explanation: `The formula is:
-
-Corrected Na⁺ = Measured Na⁺ + 1.6 * ((Glucose - 100) / 100)
-
-This accounts for the osmotic effect of high glucose.`,
+        explanation: `Clinical Significance: In severe hyperglycemia, high glucose pulls water into the bloodstream, diluting sodium and causing pseudohyponatremia. This correction provides a more accurate sodium level for clinical decisions.\n\nHow it is calculated: Measured Na⁺ + 1.6 * ((Serum Glucose - 100) / 100).`,
         inputs: [
             { name: 'Serum Sodium', type: 'number', unit: 'mEq/L', step: 1 },
             { name: 'Serum Glucose', type: 'number', unit: 'mg/dL', step: 10 },
@@ -839,10 +935,7 @@ This accounts for the osmotic effect of high glucose.`,
         name: 'Potassium Deficit',
         category: 'Renal & Electrolytes',
         description: 'Estimates total body potassium deficit (for K < 4.0).',
-        explanation: `This is an estimation based on the rule that for every 1 mEq/L drop in serum K⁺ below 4.0, there is a total body deficit of about 200-400 mEq.
-
-The calculator uses a simplified formula:
-Deficit (mEq) ≈ (4.0 - Current K⁺) * 100`,
+        explanation: `Clinical Significance: Provides a rough estimate of the potassium deficit in hypokalemia to guide replacement therapy.\n\nHow it is calculated: (4.0 - Current K⁺) * 100. This is a simplified estimate.`,
         inputs: [
             { name: 'Current Potassium', type: 'number', unit: 'mEq/L', min: 1, max: 4.0, step: 0.1 },
         ],
@@ -854,15 +947,7 @@ Deficit (mEq) ≈ (4.0 - Current K⁺) * 100`,
         name: 'HEART Score',
         category: 'Cardiology',
         description: 'Risk stratify chest pain patients for MACE.',
-        explanation: `The HEART score is the sum of points from 5 components:
-
-- History: Slightly (0), Moderately (1), Highly (2)
-- ECG: Normal (0), Non-specific (1), Significant ST (2)
-- Age: <45 (0), 45-64 (1), >=65 (2)
-- Risk Factors: 0 (0), 1-2 (1), 3+ (2)
-- Troponin: Normal (0), 1-3x (1), >3x (2)
-
-A higher score indicates greater MACE risk.`,
+        explanation: `Clinical Significance: Stratifies chest pain patients into low, moderate, and high-risk for Major Adverse Cardiac Events (MACE) within 6 weeks.\n\nHow it is calculated: 1 point for each of the following: slightly suspicious history, non-specific ECG, age 45-64, 1-2 risk factors, or troponin 1-3x normal. 2 points for each of the following: moderately suspicious history, significant ST deviation, age >= 65, 3+ risk factors, or troponin >3x normal.\n\nHow to Interpret the Result:\n\n| Score | Risk | MACE % | Recommendation |\n|:---|:---|:---|:---|\n| 0-3 | Low | 1.7% | Consider discharge |\n| 4-6 | Moderate | 20.3% | Admit for observation |\n| ≥ 7 | High | 72.7% | Urgent admission |`,
         inputs: [
             { name: 'History', type: 'select', options: ['Slightly', 'Moderately', 'Highly'] },
             { name: 'ECG', type: 'select', options: ['Normal', 'Non-specific', 'Significant ST'] },
@@ -876,15 +961,7 @@ A higher score indicates greater MACE risk.`,
         name: 'TIMI Score (UA/NSTEMI)',
         category: 'Cardiology',
         description: 'Risk of death/MI in patients with UA/NSTEMI.',
-        explanation: `The TIMI score is the sum of 1 point for each of the following:
-
-- Age >= 65 years
-- 3+ CAD risk factors
-- Known CAD (>50% stenosis)
-- Aspirin use in past 7 days
-- Recent (<=24h) severe angina
-- Elevated cardiac markers
-- ST deviation >= 0.5mm`,
+        explanation: `Clinical Significance: Stratifies the short-term risk of death and ischemic events in patients with Unstable Angina or NSTEMI.\n\nHow it is calculated: One point for each of the following: age ≥ 75, age 65-74, 3+ CAD risk factors, aspirin use in past 7 days, known CAD with >50% stenosis, recent (≤24h) severe angina, elevated cardiac markers, ST deviation ≥ 0.5mm.\n\nHow to Interpret the Result:\n\n| Score | 14-Day Risk of Death/MI |\n|:---|:---|\n| 0-1 | 5% |\n| 2 | 8% |\n| 3 | 13% |\n| 4 | 20% |\n| 5 | 26% |\n| 6-7 | 41% |`,
         inputs: [
             { name: 'Age >= 75', type: 'boolean' },
             { name: 'Age 65-74', type: 'boolean' },
@@ -898,19 +975,10 @@ A higher score indicates greater MACE risk.`,
         calculation: timiScoreCalculation,
     },
     {
-        name: 'CHA2DS2-VASc Score',
+        name: 'CHA₂DS₂-VASc Score',
         category: 'Cardiology',
         description: 'Stroke risk in atrial fibrillation.',
-        explanation: `Calculates stroke risk in AF. The score is an acronym:
-
-- C (CHF): 1
-- H (Hypertension): 1
-- A2 (Age >= 75): 2
-- D (Diabetes): 1
-- S2 (Stroke/TIA/TE): 2
-- V (Vascular disease): 1
-- A (Age 65-74): 1
-- Sc (Sex, female): 1`,
+        explanation: `Clinical Significance: Estimates stroke risk in non-valvular atrial fibrillation to guide anticoagulation therapy.\n\nHow it is calculated:\n\n| Mnemonic | Criteria | Points |\n|:---|:---|:---|\n| **C** | Congestive Heart Failure | 1 |\n| **H** | Hypertension | 1 |\n| **A₂** | Age ≥ 75 | 2 |\n| **D** | Diabetes | 1 |\n| **S₂** | Stroke/TIA/Thromboembolism | 2 |\n| **V** | Vascular disease | 1 |\n| **A** | Age 65-74 | 1 |\n| **Sc** | Sex category (female) | 1 |\n\nHow to Interpret the Result:\n\n| Score | Recommendation |\n|:---|:---|\n| 0 | Low risk; no anticoagulation needed |\n| 1 | Intermediate risk; consider anticoagulation |\n| ≥ 2 | High risk; anticoagulation recommended |`,
         inputs: [
             { name: 'Congestive Heart Failure', type: 'boolean' },
             { name: 'Hypertension', type: 'boolean' },
@@ -927,15 +995,7 @@ A higher score indicates greater MACE risk.`,
         name: 'HAS-BLED Score',
         category: 'Cardiology',
         description: 'Bleeding risk on anticoagulation in AF.',
-        explanation: `Estimates major bleeding risk in AF patients on anticoagulation:
-
-- H (Hypertension): 1
-- A (Abnormal Renal/Liver function): 1 pt each
-- S (Stroke): 1
-- B (Bleeding history): 1
-- L (Labile INR): 1
-- E (Elderly, Age > 65): 1
-- D (Drugs/Alcohol): 1 pt each`,
+        explanation: `Clinical Significance: Estimates the 1-year risk of major bleeding for patients with atrial fibrillation on anticoagulation.\n\nHow it is calculated: 1 point for each of the following: Hypertension, Abnormal Renal/Liver function, Stroke, Bleeding history, Labile INR, Age > 65, Drugs/Alcohol use.\n\nHow to Interpret the Result:\n\n| Score | Bleeding Risk | Recommendation |\n|:---|:---|:---|\n| 0-2 | Low | Favorable risk-benefit for anticoagulation |\n| ≥ 3 | High | Caution and regular review advised |`,
         inputs: [
             { name: 'Hypertension', type: 'boolean' },
             { name: 'Abnormal Renal/Liver', type: 'boolean' },
@@ -951,17 +1011,7 @@ A higher score indicates greater MACE risk.`,
         name: "Wells' Score for DVT",
         category: 'Cardiology',
         description: 'Estimates the pre-test probability of deep vein thrombosis.',
-        explanation: `Each of the following criteria gets 1 point, except the last which gets -2 points:
-
-- Active cancer
-- Paralysis, paresis, or recent plaster immobilization of the lower extremities
-- Recently bedridden for 3 days or more, or major surgery within 12 weeks
-- Localized tenderness along the distribution of the deep venous system
-- Entire leg swollen
-- Calf swelling at least 3 cm larger than asymptomatic side
-- Pitting edema confined to the symptomatic leg
-- Collateral superficial veins (nonvaricose)
-- An alternative diagnosis is at least as likely as DVT (-2 points)`,
+        explanation: `Clinical Significance: Estimates the pre-test probability of DVT to guide further diagnostic testing.\n\nHow it is calculated: One point for each criterion, except for 'Alternative Diagnosis as Likely' which subtracts 2 points.\n\nHow to Interpret the Result:\n\n| Score | DVT Probability | Recommendation |\n|:---|:---|:---|\n| ≤ 0 | Low | DVT unlikely |\n| 1-2 | Moderate | - |\n| ≥ 3 | High | DVT likely, consider imaging |`,
         inputs: [
             { name: 'Active Cancer', type: 'boolean' },
             { name: 'Paralysis/Immobilization', type: 'boolean' },
@@ -979,15 +1029,7 @@ A higher score indicates greater MACE risk.`,
         name: "Wells' Score for PE",
         category: 'Cardiology',
         description: 'Estimates the pre-test probability of pulmonary embolism.',
-        explanation: `Points are assigned as follows:
-
-- Clinical signs and symptoms of DVT (3 points)
-- PE is #1 diagnosis OR equally likely (3 points)
-- Heart rate > 100 (1.5 points)
-- Immobilization at least 3 days OR surgery in the previous 4 weeks (1.5 points)
-- Previous, objectively diagnosed DVT or PE (1.5 points)
-- Hemoptysis (1 point)
-- Malignancy with treatment within 6 months or palliative (1 point)`,
+        explanation: `Clinical Significance: Estimates the pre-test probability of PE to guide diagnostic management.\n\nHow it is calculated: Sum of points from the criteria listed.\n\nHow to Interpret the Result:\n\n| Score | PE Risk | Recommendation |\n|:---|:---|:---|\n| 0-2 | Low | Consider D-dimer |\n| 3-6 | Moderate | Consider D-dimer or CTA |\n| > 6 | High | Consider CTA |`,
         inputs: [
             { name: 'Clinical signs of DVT', type: 'boolean' },
             { name: 'PE is #1 diagnosis', type: 'boolean' },
@@ -1003,14 +1045,7 @@ A higher score indicates greater MACE risk.`,
         name: 'Mean Arterial Pressure (MAP)',
         category: 'Cardiology',
         description: 'Average arterial pressure during a cardiac cycle.',
-        explanation: `MAP is calculated as:
-
-MAP = Diastolic BP + 1/3 * (Systolic BP - Diastolic BP)
-
-Or, alternatively:
-MAP = ((2 * Diastolic BP) + Systolic BP) / 3
-
-A MAP > 65 mmHg is a common target.`,
+        explanation: `Clinical Significance: MAP is a key indicator of organ perfusion.\n\nHow it is calculated: Diastolic BP + 1/3 * (Systolic BP - Diastolic BP).\n\nHow to Interpret the Result:\n\n| MAP (mmHg) | Interpretation |\n|:---|:---|\n| < 65 | Low (inadequate perfusion) |\n| ≥ 65 | Adequate perfusion |`,
         inputs: [
             { name: 'Systolic BP', type: 'number', unit: 'mmHg', min: 1, step: 1 },
             { name: 'Diastolic BP', type: 'number', unit: 'mmHg', min: 1, step: 1 },
@@ -1022,13 +1057,7 @@ A MAP > 65 mmHg is a common target.`,
         name: 'Child-Pugh Score',
         category: 'Gastroenterology',
         description: 'Assesses prognosis of chronic liver disease.',
-        explanation: `The Child-Pugh score uses 5 factors to assess liver disease severity. Points are summed to determine class (A, B, C).
-
-- Bilirubin (mg/dL): <2 (1), 2-3 (2), >3 (3)
-- Albumin (g/dL): >3.5 (1), 2.8-3.5 (2), <2.8 (3)
-- INR: <1.7 (1), 1.7-2.3 (2), >2.3 (3)
-- Ascites: None (1), Slight (2), Moderate (3)
-- Encephalopathy: None (1), Grade 1-2 (2), Grade 3-4 (3)`,
+        explanation: `Clinical Significance: Assesses the severity and prognosis of chronic liver disease, particularly cirrhosis.\n\nHow it is calculated: Sum of points for bilirubin, albumin, INR, ascites, and encephalopathy.\n\nHow to Interpret the Result:\n\n| Score | Class | 1-Year Survival |\n|:---|:---|:---|\n| 5-6 | A | 100% |\n| 7-9 | B | 81% |\n| 10-15 | C | 45% |`,
         inputs: [
             { name: 'Bilirubin', type: 'select', options: ['<2', '2-3', '>3'] },
             { name: 'Albumin', type: 'select', options: ['>3.5', '2.8-3.5', '<2.8'] },
@@ -1045,9 +1074,7 @@ A MAP > 65 mmHg is a common target.`,
         name: 'Estimated Delivery Date (EDD)',
         category: 'Obstetrics',
         description: "Calculates EDD based on LMP.",
-        explanation: `Naegele's rule is used:
-
-EDD = LMP + 280 days (40 weeks)`,
+        explanation: `Clinical Significance: The EDD is critical for timing prenatal care and assessing fetal growth.\n\nHow it is calculated: LMP + 280 days.`,
         inputs: [
             { name: 'Last Menstrual Period', type: 'date' },
         ],
@@ -1057,7 +1084,7 @@ EDD = LMP + 280 days (40 weeks)`,
         name: 'Gestational Age',
         category: 'Obstetrics',
         description: 'Calculates gestational age from LMP.',
-        explanation: `Gestational age is the time from the first day of the Last Menstrual Period (LMP) to the current date.`,
+        explanation: `Clinical Significance: Knowing the gestational age is essential for managing pregnancy and scheduling screenings.\n\nHow it is calculated: It is the number of weeks and days since the first day of the last menstrual period (LMP).`,
         inputs: [
             { name: 'Last Menstrual Period', type: 'date' },
         ],
@@ -1067,15 +1094,7 @@ EDD = LMP + 280 days (40 weeks)`,
         name: 'Bishop Score',
         category: 'Obstetrics',
         description: 'Assesses cervical favorability for induction.',
-        explanation: `The Bishop score is the sum of scores for 5 components:
-
-- Dilation: Closed(0), 1-2(1), 3-4(2), >=5(3)
-- Effacement: 0-30%(0), 40-50%(1), 60-70%(2), >=80%(3)
-- Station: -3(0), -2(1), -1/0(2), +1/+2(3)
-- Position: Posterior(0), Mid(1), Anterior(2)
-- Consistency: Firm(0), Medium(1), Soft(2)
-
-A score >= 8 is favorable for induction.`,
+        explanation: `Clinical Significance: Predicts whether induction of labor will be successful.\n\nHow it is calculated: Sum of scores for dilation, effacement, station, position, and consistency.\n\nHow to Interpret the Result:\n\n| Score | Interpretation |\n|:---|:---|\n| ≤ 4 | Unfavorable (cervical ripening may be needed) |\n| 5-7 | Moderately favorable |\n| ≥ 8 | Favorable (high chance of successful induction) |`,
         inputs: [
             { name: 'Dilation', type: 'select', options: ['Closed', '1-2 cm', '3-4 cm', '>= 5 cm'] },
             { name: 'Effacement', type: 'select', options: ['0-30%', '40-50%', '60-70%', '>= 80%'] },
@@ -1089,15 +1108,7 @@ A score >= 8 is favorable for induction.`,
         name: 'APGAR Score',
         category: 'Obstetrics',
         description: "Quick assessment of a newborn's health.",
-        explanation: `The APGAR score is the sum of points for 5 criteria:
-
-- Appearance: Blue/Pale(0), Acrocyanotic(1), Pink(2)
-- Pulse: Absent(0), <100(1), >=100(2)
-- Grimace: None(0), Grimace(1), Cry/Cough(2)
-- Activity: Limp(0), Some Flexion(1), Active(2)
-- Respiration: Absent(0), Slow/Irregular(1), Good Cry(2)
-
-Assessed at 1 and 5 minutes after birth.`,
+        explanation: `Clinical Significance: A rapid, standardized assessment of a newborn's clinical status at 1 and 5 minutes after birth.\n\nHow it is calculated: Sum of points for Appearance, Pulse, Grimace, Activity, and Respiration.\n\nHow to Interpret the Result:\n\n| Score | Interpretation | Action |\n|:---|:---|:---|\n| 7-10 | Reassuring | Routine care |\n| 4-6 | Moderately low | Supportive measures may be needed |\n| ≤ 3 | Critically low | Immediate resuscitation required |`,
         inputs: [
             { name: 'Appearance', type: 'select', options: ['Blue/Pale', 'Acrocyanotic', 'Pink'] },
             { name: 'Pulse', type: 'select', options: ['Absent', '<100', '>=100'] },
@@ -1112,11 +1123,7 @@ Assessed at 1 and 5 minutes after birth.`,
         name: 'Pediatric Weight Estimation',
         category: 'Pediatrics',
         description: "Estimate a child's weight based on age.",
-        explanation: `Estimates weight using common age-based formulas:
-
-- 3-12 months: (Age in months + 9) / 2
-- 1-6 years: (Age in years * 2) + 8
-- 7-12 years: (Age in years * 7 - 5) / 2`,
+        explanation: `Clinical Significance: A rapid weight estimate is critical for pediatric drug dosing and fluid calculations in emergencies.\n\nHow it is calculated:\n\n| Age | Formula |\n|:---|:---|\n| 3-12 months | (Age in months + 9) / 2 |\n| 1-6 years | (Age in years * 2) + 8 |\n| 7-12 years | (Age in years * 7 - 5) / 2 |`,
         inputs: [
             { name: 'Age', type: 'number', min: 1, step: 1 },
             { name: 'Unit', type: 'select', options: ['years', 'months'] },
@@ -1127,131 +1134,10 @@ Assessed at 1 and 5 minutes after birth.`,
         name: 'Pediatric Fluid Requirements',
         category: 'Pediatrics',
         description: 'Calculate maintenance fluid needs (Holliday-Segar).',
-        explanation: `Calculates daily maintenance fluid requirements based on the Holliday-Segar formula:
-
-- First 10 kg: 100 mL/kg/day
-- Next 10 kg (11-20 kg): 50 mL/kg/day
-- Each additional kg (>20 kg): 20 mL/kg/day`,
+        explanation: `Clinical Significance: Determines a child's baseline daily fluid needs to prevent dehydration.\n\nHow it is calculated (Holliday-Segar method):\n\n| Weight | Daily Fluid Requirement |\n|:---|:---|\n| First 10 kg | 100 mL/kg/day |\n| Next 10 kg (11-20 kg) | 50 mL/kg/day |\n| Each additional kg (>20 kg) | 20 mL/kg/day |`,
         inputs: [
             { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
         ],
         calculation: pediatricFluidRequirementsCalculation,
-    },
-
-        // Utilities
-    {
-        name: 'Unit Conversion',
-        category: 'Utilities',
-        description: 'Convert between common clinical units.',
-        explanation: `Currently supports glucose conversions:
-
-- mg/dL to mmol/L: Value / 18
-- mmol/L to mg/dL: Value * 18`,
-        inputs: [
-            { name: 'Value', type: 'number', min: 0, step: 1 },
-            { name: 'Conversion', type: 'select', options: ['mg/dL to mmol/L (Glucose)', 'mmol/L to mg/dL (Glucose)'] },
-        ],
-        calculation: unitConversionCalculation as any,
-    },
-    {
-        name: 'Infusion Rate',
-        category: 'Utilities',
-        description: 'Calculate the rate in mL/hour.',
-        explanation: `Calculates the infusion rate:
-
-Rate (mL/hr) = Total Volume (mL) / Time (hours)`,
-        inputs: [
-            { name: 'Volume', type: 'number', unit: 'mL', min: 1, step: 1 },
-            { name: 'Time', type: 'number', unit: 'hours', min: 0.1, step: 0.1 },
-        ],
-        calculation: infusionRateCalculation,
-    },
-    {
-        name: 'Drip Rate',
-        category: 'Utilities',
-        description: 'Calculate the drip rate in drops/minute.',
-        explanation: `Calculates the drip rate for a gravity infusion:
-
-Rate (gtts/min) = (Volume (mL) * Drop Factor) / Time (min)`,
-        inputs: [
-            { name: 'Volume', type: 'number', unit: 'mL', min: 1, step: 1 },
-            { name: 'Time', type: 'number', unit: 'min', min: 1, step: 1 },
-            { name: 'Drop Factor', type: 'number', unit: 'gtts/mL', min: 1, step: 1 },
-        ],
-        calculation: dripRateCalculation,
-    },
-    {
-        name: 'Body Surface Area (BSA)',
-        category: 'Utilities',
-        description: 'Calculate BSA using the Du Bois formula.',
-        explanation: `The Du Bois formula is used:
-
-BSA (m²) = 0.007184 * Height (cm)⁰.⁷²⁵ * Weight (kg)⁰.⁴²⁵
-
-This calculator uses a common simplified version:
-BSA (m²) = sqrt((Height(cm) * Weight(kg)) / 3600)`,
-        inputs: [
-            { name: 'Height', type: 'number', unit: 'cm', min: 1, step: 1 },
-            { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
-        ],
-        calculation: bsaCalculation,
-    },
-        {
-        name: 'Body Mass Index (BMI)',
-        category: 'Utilities',
-        description: 'Standard measure of body fat based on height and weight.',
-        explanation: `BMI is calculated as:
-
-BMI = Weight (kg) / (Height (m))²`,
-        inputs: [
-            { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
-            { name: 'Height', type: 'number', unit: 'cm', min: 1, step: 1 },
-        ],
-        calculation: bmiCalculation,
-    },
-    {
-        name: 'Ideal Body Weight',
-        category: 'Utilities',
-        description: 'Devine formula for ideal body weight.',
-        explanation: `The Devine formula is used:
-
-- Men: IBW (kg) = 50 + 2.3 * (Height (in) - 60)
-- Women: IBW (kg) = 45.5 + 2.3 * (Height (in) - 60)`,
-        inputs: [
-            { name: 'Height', type: 'number', unit: 'cm', min: 1, step: 1 },
-            { name: 'Sex', type: 'select', options: ['Male', 'Female'] },
-        ],
-        calculation: idealBodyWeightCalculation,
-    },
-    {
-        name: 'Adjusted Body Weight',
-        category: 'Utilities',
-        description: 'For drug dosing in overweight patients.',
-        explanation: `Adjusted Body Weight is calculated as:
-
-AdjBW (kg) = IBW + 0.4 * (Actual Weight - IBW)
-
-Useful for certain drug dosing.`,
-        inputs: [
-            { name: 'Actual Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
-            { name: 'Ideal Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
-        ],
-        calculation: adjustedBodyWeightCalculation,
-    },
-    {
-        name: 'Free Water Deficit',
-        category: 'Utilities',
-        description: 'Corrects hypernatremia.',
-        explanation: `The formula is:
-
-Deficit (L) = TBW * ((Serum Na⁺ / 140) - 1)
-
-- Total Body Water (TBW) is ~60% (men) or ~50% (women) of weight.`,
-        inputs: [
-            { name: 'Serum Sodium', type: 'number', unit: 'mEq/L', min: 140, step: 1 },
-            { name: 'Weight', type: 'number', unit: 'kg', min: 1, step: 0.5 },
-            { name: 'Sex', type: 'select', options: ['Male', 'Female'] },
-        ],
-        calculation: freeWaterDeficitCalculation,
     },
 ];

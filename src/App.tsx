@@ -280,7 +280,7 @@ export default function App() {
                             ].map((item, idx) => (
                                 <li key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-indigo-900 dark:text-slate-300">
                                     <i className="fa-solid fa-check text-indigo-500 dark:text-indigo-400 mt-0.5 text-[10px]"></i>
-                                    <span className="leading-tight"></span>
+                                    <span className="leading-tight">{item}</span>
                                 </li>
                             ))}
                         </ul>

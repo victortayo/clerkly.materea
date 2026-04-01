@@ -1,10 +1,90 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Modal } from './Modal';
 import { calculators, Calculator } from '../data/calculators';
 
 interface ClerklyCalculatorProps {
     onClose: () => void;
 }
+
+const Explanation: React.FC<{ text: string }> = ({ text }) => {
+    const sections = text.split('\n\n');
+
+    return (
+        <div className="bg-white dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
+            <h3 className="text-sm font-bold text-slate-800 dark:text-white mb-3 flex items-center gap-2">
+                <i className="fa-solid fa-circle-info text-indigo-500"></i>
+                What is it for?
+            </h3>
+            <div className="space-y-4">
+                {sections.map((section, index) => {
+                    const lines = section.trim().split('\n');
+                    
+                    // Check for markdown table
+                    if (lines.length > 1 && lines[0].includes('|') && lines[1].includes('---')) {
+                        const headers = lines[0].split('|').slice(1, -1).map(h => h.trim());
+                        const rowsData = lines.slice(2).map(l => l.split('|').slice(1, -1).map(c => c.trim()));
+
+                        return (
+                            <div key={index} className="my-3 overflow-x-auto custom-scrollbar border border-slate-200 dark:border-slate-700 rounded-lg">
+                                <table className="w-full" style={{ fontSize: '0.7rem', lineHeight: '1.3' }}>
+                                    <thead className="bg-slate-50 dark:bg-slate-800/50">
+                                        <tr>
+                                            {headers.map((header, hIndex) => (
+                                                <th key={hIndex} className="p-2 font-semibold text-left text-slate-600 dark:text-slate-300 uppercase tracking-wider">{header}</th>
+                                            ))}
+                                        </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+                                        {rowsData.map((row, rIndex) => (
+                                            <tr key={rIndex}>
+                                                {row.map((cell, cIndex) => (
+                                                    <td key={cIndex} className="p-2 text-slate-700 dark:text-slate-300" dangerouslySetInnerHTML={{ __html: cell.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') }}></td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        );
+                    }
+
+                    const potentialTitleLine = lines[0];
+                    const isTitleBlock = !section.startsWith('    ') && potentialTitleLine.includes(':');
+
+                    if (isTitleBlock) {
+                        const title = potentialTitleLine.substring(0, potentialTitleLine.indexOf(':'));
+                        const firstLineContent = potentialTitleLine.substring(potentialTitleLine.indexOf(':') + 1);
+                        const otherLines = lines.slice(1).join('\n');
+                        const content = (firstLineContent + '\n' + otherLines).trim();
+
+                        return (
+                            <div key={index}>
+                                <h4 className="font-semibold text-xs text-slate-700 dark:text-slate-200 mb-1">{title}</h4>
+                                <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed whitespace-pre-wrap">{content}</p>
+                            </div>
+                        );
+                    }
+
+                    const isList = lines.filter(l => l.trim() !== '').every(l => l.startsWith('    '));
+
+                    if (isList) {
+                        return (
+                             <div key={index} className="space-y-1">
+                                {lines.filter(line => line.trim() !== '').map((line, lineIndex) => (
+                                    <div key={lineIndex} className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed flex items-start">
+                                        <span className="mr-2 mt-1">•</span>
+                                        <span>{line.trim()}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        );
+                    }
+
+                    return <p key={index} className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed whitespace-pre-wrap">{section}</p>;
+                })}
+            </div>
+        </div>
+    );
+};
 
 const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
     const [selectedCalculator, setSelectedCalculator] = useState<Calculator | null>(null);
@@ -34,7 +114,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
         const defaultInputs: { [key: string]: any } = {};
         calculator.inputs.forEach(input => {
             if (input.type === 'select' && input.options) {
-                defaultInputs[input.name] = input.options[0]; 
+                defaultInputs[input.name] = input.options[0];
             }
         });
         setInputs(defaultInputs);
@@ -60,20 +140,53 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
     const modalTitle = isMobile && selectedCalculator ? selectedCalculator.name : "Clerkly Calculator";
 
     return (
-        <Modal isOpen={true} onClose={onClose} title={modalTitle}>
-            <div className="flex flex-col md:flex-row md:gap-5 min-h-[60vh] md:min-h-0">
+        <div 
+          className="fixed inset-0 bg-slate-900/50 dark:bg-slate-900/80 z-[100] flex items-center justify-center sm:p-4 font-sans backdrop-blur-sm animate-in fade-in duration-200" 
+          onClick={onClose}
+        >
+          <div 
+            className="bg-slate-50 dark:bg-slate-900 w-full max-w-6xl h-[100dvh] sm:h-[90vh] sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col relative border border-slate-200 dark:border-slate-700 animate-in zoom-in-95 duration-300" 
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="sticky top-0 bg-white dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 z-20">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
+                <div className="flex items-center gap-4">
+                  <div className="flex flex-col">
+                    <h1 className="font-brand text-lg sm:text-xl font-bold text-indigo-950 dark:text-indigo-100 flex items-center gap-2">
+                      <i className="fa-solid fa-calculator text-indigo-500"></i>
+                      {modalTitle}
+                    </h1>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">
+                      Essential clinical calculators at your fingertips.
+                    </p>
+                  </div>
+                </div>
+                <button onClick={onClose} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors text-slate-400 hover:text-slate-600 dark:text-indigo-200 dark:hover:text-white">
+                  <i className="fa-solid fa-xmark text-lg"></i>
+                </button>
+              </div>
+            </div>
+
+            <div className="flex-1 overflow-y-auto md:overflow-hidden custom-scrollbar flex flex-col md:flex-row p-4 gap-4">
                 {/* ===== Calculator List ===== */}
-                <div className={`md:w-1/3 md:border-r md:border-slate-200 dark:md:border-slate-700 md:pr-5 ${selectedCalculator ? 'hidden md:block' : 'block w-full'}`}>
-                    <div className="p-1 md:p-0 space-y-4">
+                <div className={`md:w-1/3 shrink-0 md:overflow-y-auto custom-scrollbar p-2 ${selectedCalculator ? 'hidden md:flex flex-col' : 'flex flex-col w-full'}`}>
+                    <div className="space-y-6">
                         {Object.entries(groupedCalculators).map(([category, calcs]) => (
                             <div key={category}>
-                                <h3 className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-2 px-2">{category}</h3>
+                                <div className="px-2 mb-2 border-b border-slate-200 dark:border-slate-800">
+                                    <h3 className="text-xs font-bold text-indigo-950 dark:text-indigo-200 uppercase tracking-wider pb-2">{category}</h3>
+                                </div>
                                 <div className="space-y-1">
                                     {calcs.map(calc => (
                                         <button 
                                             key={calc.name}
                                             onClick={() => handleCalculatorChange(calc)}
-                                            className={`w-full text-left p-2 rounded-lg transition-colors text-xs font-medium ${selectedCalculator?.name === calc.name ? 'bg-indigo-50 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300' : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}>
+                                            className={`w-full text-left px-3 py-2.5 rounded-lg transition-colors text-xs font-medium ${
+                                                selectedCalculator?.name === calc.name 
+                                                ? 'bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300' 
+                                                : 'bg-slate-100 dark:bg-slate-800/50 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 active:bg-slate-300 dark:active:bg-slate-700'
+                                            }`}>
                                             {calc.name}
                                         </button>
                                     ))}
@@ -84,7 +197,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                 </div>
 
                 {/* ===== Calculator Details ===== */}
-                <div className="md:w-2/3 p-1 md:p-0">
+                <div className="flex-1 md:overflow-y-auto custom-scrollbar">
                     {selectedCalculator ? (
                         <div>
                              {/* --- Headers for Mobile and Desktop --- */}
@@ -97,20 +210,18 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                     <i className="fa-solid fa-circle-question fa-lg"></i>
                                 </button>
                             </div>
-                            <div className="bg-slate-50 dark:bg-slate-800/50 p-3 rounded-lg mb-4 hidden md:flex items-center justify-between">
+                            <div className="bg-slate-100 dark:bg-slate-800/50 p-3 rounded-lg mb-4 hidden md:flex items-center justify-between">
                                 <div>
                                     <h2 className="text-sm font-bold text-slate-800 dark:text-slate-100">{selectedCalculator.name}</h2>
                                     <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">{selectedCalculator.description}</p>
                                 </div>
-                                <button onClick={() => setShowExplanation(!showExplanation)} className={`ml-4 flex-shrink-0 transition-colors ${showExplanation ? 'text-slate-900 dark:text-slate-100' : 'text-slate-400 hover:text-slate-900 dark:text-slate-500 dark:hover:text-slate-100'}`}>
+                                <button onClick={() => setShowExplanation(!showExplanation)} className={`ml-4 flex-shrink-0 transition-colors ${showExplanation ? 'text-slate-900 dark:text-slate-100' : 'text-slate-400 hover:text-black dark:text-slate-500 dark:hover:text-white'}`}>
                                     <i className="fa-solid fa-circle-question fa-lg"></i>
                                 </button>
                             </div>
 
                             {showExplanation ? (
-                                <div className="bg-slate-50 dark:bg-slate-800/50 p-4 rounded-lg text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                                    <p className="whitespace-pre-wrap">{selectedCalculator.explanation}</p>
-                                </div>
+                               <Explanation text={selectedCalculator.explanation} />
                             ) : (
                             <>
                                 <div className="space-y-3.5">
@@ -141,7 +252,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                                         >
                                                             +
                                                         </button>
-                                                        {input.unit && <span className="px-2 text-sm text-slate-500 dark:text-slate-400">{input.unit}</span>}
+                                                        {input.unit && <span className="px-2 text-sm text-slate-500 dark:text-slate-400"></span>}
                                                     </div>
                                                 </div>
                                             )}
@@ -204,13 +315,18 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
 
                         </div>
                     ) : (
-                        <div className="hidden md:flex text-center text-slate-500 dark:text-slate-400 h-full items-center justify-center">
-                            <p className="text-xs">Select a calculator from the list to begin.</p>
+                        <div className="hidden md:flex flex-col gap-4 text-center text-slate-500 dark:text-slate-400 h-full items-center justify-center">
+                            <div className="w-20 h-20 bg-slate-200 dark:bg-slate-800 rounded-full flex items-center justify-center">
+                                <i className="fa-solid fa-calculator text-3xl text-slate-400"></i>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-700 dark:text-slate-300">Clerkly Calculator</h3>
+                            <p className="text-sm">Select a calculator from the list to begin.</p>
                         </div>
                     )}
                 </div>
             </div>
-        </Modal>
+          </div>
+        </div>
     );
 };
 

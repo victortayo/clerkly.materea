@@ -12762,6 +12762,773 @@ Gastroenterology/hepatology clinic in 1 week after discharge. Repeat EVL every 2
 `,
 bookmarkCount: 0
 },
+{
+  id: 'im-40',
+  title: 'Generalised Tetanus',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Infectious Disease',
+  condition: 'Generalised tetanus secondary to an infected contaminated wound in a poorly immunised adult, with severe autonomic dysfunction and respiratory involvement',
+  symptoms: [
+    'Contaminated lacerated wound on the right leg',
+    'Painful generalised muscle spasms',
+    'Trismus (difficulty opening the mouth)',
+    'Dysphagia (difficulty swallowing solids and liquids)',
+    'Neck stiffness and risus sardonicus',
+    'Generalised hypertonia',
+    'Profuse sweating (autonomic dysfunction)',
+    'Breathlessness during spasms (respiratory involvement)',
+    'Low-grade fever (37.8°C)',
+    'Tachycardia (104 bpm) and tachypnoea (26 cpm)',
+    'SpO₂ 95% on room air',
+    'Poorly immunised; no tetanus toxoid administered at time of injury'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-04',
+  summary: 'Mr A.O., a 42-year-old male farmer presenting with a 7-day history of a contaminated lacerated wound on the right leg sustained from a rusty cutlass, followed by a 3-day history of generalised painful muscle spasms (spontaneous and stimulus-triggered, with opisthotonus), and a 2-day history of trismus, dysphagia, neck stiffness, and risus sardonicus. Wound was managed at home with herbal applications with no professional wound care and no tetanus prophylaxis administered. Poorly immunised with uncertain childhood immunisation history and no adult booster doses. Associated features include profuse sweating, breathlessness during spasms, and low-grade fever. Examination reveals a distressed middle-aged man with characteristic risus sardonicus, trismus, opisthotonus during spasms, generalised hypertonia, profuse sweating, tachycardia (104 bpm), tachypnoea (26 cpm), and SpO₂ 95% on room air. Local examination of the right leg reveals a contaminated lacerated wound (approximately 4 × 3 cm) with surrounding erythema, necrotic tissue, and foul-smelling discharge. Diagnosis: generalised tetanus (Ablett Grade III — severe) secondary to an infected contaminated wound in a poorly immunised adult. Requires immediate admission to a quiet environment, toxin neutralisation with human tetanus immunoglobulin, spasm control, airway protection, antibiotic therapy, wound debridement, and intensive supportive care.',
+  content: `
+Mr A.O., a 42-year-old male farmer, resident in a rural community in Ogun State, Christian, Yoruba, married with four children.
+
+Informant: Patient and wife (both reliable)
+
+PRESENTING COMPLAINTS
+Wound on the right leg × 7 days
+Painful muscle spasms × 3 days
+Difficulty opening the mouth × 2 days
+Difficulty swallowing × 2 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 7 days prior to presentation when he sustained a cut injury to his right leg while working on the farm. The injury was caused by a rusty cutlass. The wound was initially small but became progressively painful and swollen over subsequent days.
+
+The wound was managed at home with herbal applications, was not properly cleaned or debrided, and no professional medical care was sought. No tetanus toxoid was administered at the time of injury.
+
+About 3 days prior to presentation, he developed generalised body stiffness, initially mild but progressively worsening. This was followed by painful muscle spasms, which are both spontaneous and triggered by minimal stimuli including noise, touch, and light. The spasms involve the whole body, last for a few seconds to minutes, and are severe enough to cause arching of the back (opisthotonus) during episodes.
+
+About 2 days prior to presentation, he noticed difficulty opening his mouth (trismus), which has been progressively worsening. This is associated with difficulty swallowing both solids and liquids (dysphagia), neck stiffness, and tightening of the facial muscles producing a characteristic grimacing expression (risus sardonicus).
+
+There is associated profuse sweating and episodes of breathlessness during spasms. A low-grade fever developed approximately 1 day prior to presentation.
+
+There is no history of loss of consciousness, no seizures with postictal confusion, and no focal limb weakness. There is no history of head injury, photophobia, or vomiting to suggest meningitis.
+
+PAST MEDICAL HISTORY
+No known chronic illnesses
+Not hypertensive, not diabetic
+No previous similar illness
+No prior hospital admissions of note
+
+IMMUNISATION HISTORY
+Poorly immunised
+Uncertain childhood immunisation history
+No booster doses received in adulthood
+No tetanus toxoid administered at time of current injury
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Has applied herbal medications to the wound
+
+FAMILY AND SOCIAL HISTORY
+Farmer with frequent exposure to soil and penetrating injuries
+Married in a monogamous setting with four children
+Lives in a rural area with limited access to healthcare
+No history of smoking or alcohol use
+
+REVIEW OF SYSTEMS
+Central nervous system: No loss of consciousness, no focal neurological deficits, no postictal confusion
+Cardiovascular: No chest pain or palpitations
+Respiratory: Breathlessness occurring during spasms
+Gastrointestinal: Dysphagia present; no nausea or vomiting independent of swallowing difficulty
+Genitourinary: No urinary symptoms
+
+SUMMARY
+A 42-year-old poorly immunised male farmer presenting with generalised tetanus following an infected contaminated wound from a rusty cutlass, characterised by trismus, risus sardonicus, opisthotonus, generalised hypertonia, stimulus-triggered spasms, autonomic dysfunction, and early respiratory involvement, consistent with severe (Ablett Grade III) generalised tetanus.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Middle-aged man, conscious and oriented
+In obvious distress with intermittent painful spasms
+Characteristic risus sardonicus present
+Trismus present (markedly reduced mouth opening)
+Opisthotonus observed during spasms
+Profuse sweating noted
+Low-grade fever
+Not pale, not icteric, acyanosed
+Mildly dehydrated
+
+Vital Signs:
+Pulse: 104 bpm (tachycardia), regular, full volume
+BP: 130/80 mmHg
+RR: 26 cpm (tachypnoea, worsens during spasms)
+Temperature: 37.8°C (low-grade fever)
+SpO₂: 95% on room air (reduced, indicating early respiratory compromise)
+
+Local Examination of Right Leg:
+Contaminated lacerated wound on the anterior aspect of the right leg (approximately 4 × 3 cm)
+Surrounding erythema and tenderness
+Necrotic tissue present
+Foul-smelling purulent discharge
+
+Central Nervous System:
+Conscious and oriented in time, place, and person
+Generalised hypertonia
+Reflexes difficult to assess due to ongoing spasms
+No focal neurological deficits
+
+Cardiovascular System:
+Pulse 104 bpm, regular
+Heart sounds: S1 and S2 only, no murmurs
+
+Respiratory System:
+Tachypnoeic (26 cpm)
+Chest expansion limited during spasms
+Vesicular breath sounds bilaterally
+
+Abdomen:
+Board-like rigidity during spasms
+No organomegaly at other times
+
+ASSESSMENT
+
+Generalised tetanus (Ablett Grade III — severe) secondary to an infected contaminated wound on the right leg in a poorly immunised adult
+
+Diagnosis based on:
+
+Pathophysiology of tetanus:
+Tetanus is caused by Clostridium tetani, an anaerobic spore-forming gram-positive bacillus ubiquitous in soil and animal faeces
+Spores enter the body through wounds, particularly deep, penetrating, or contaminated injuries (a rusty cutlass wound in a farmer is a classic high-risk mechanism)
+Once inoculated into an anaerobic wound environment, spores germinate into vegetative bacteria that produce tetanospasmin (tetanus toxin)
+Tetanospasmin travels retrograde along motor neurons to the spinal cord and brainstem
+It irreversibly binds to presynaptic membranes of inhibitory interneurons (glycinergic and GABAergic), blocking release of glycine and GABA
+Loss of inhibitory control causes:
+Continuous motor neuron firing → generalised muscle rigidity and hypertonia
+Exaggerated reflex responses → painful stimulus-triggered spasms
+Autonomic dysfunction → sympathetic and parasympathetic instability
+
+Classical clinical triad in this patient:
+Trismus (lockjaw): involvement of the masseter and pterygoid muscles; earliest and most characteristic feature
+Risus sardonicus: sustained contraction of the facial muscles producing a fixed grimace
+Opisthotonus: sustained spasm of the paraspinal muscles causing backward arching of the trunk; a grave sign indicating severe disease
+
+Clinical evidence supporting the diagnosis:
+
+Epidemiological and wound factors:
+Rural farmer with occupational soil and sharp instrument exposure
+High-risk wound: rusty cutlass (contaminated, penetrating) with necrotic tissue (ideal anaerobic environment for C. tetani)
+No wound care: herbal application, no debridement, no prophylaxis
+Poorly immunised: no tetanus immunisation in adulthood, uncertain childhood vaccination history
+No tetanus toxoid at time of injury
+
+Clinical features:
+Classical clinical sequence: wound → rigidity/spasms → trismus and dysphagia (symptoms developing in the typical temporal order)
+Generalised form (most common and most severe): all four limbs and trunk involved, not localised to the wound site
+Trismus with markedly reduced mouth opening
+Risus sardonicus (facial muscle spasm)
+Opisthotonus during spasms (paraspinal muscle involvement)
+Generalised hypertonia
+Stimulus-triggered spasms (noise, touch, light) — pathognomonic of tetanus
+Dysphagia: pharyngeal muscle spasm, critical as it increases aspiration risk
+
+Autonomic dysfunction (present):
+Profuse sweating (sympathetic hyperactivation)
+Tachycardia (104 bpm)
+Tachypnoea (26 cpm)
+Low-grade fever (may reflect autonomic instability rather than primary infection)
+Autonomic features mark severe disease and are associated with cardiovascular complications (hypertensive crises, bradyarrhythmias, cardiac arrest)
+
+Respiratory involvement (present):
+SpO₂ 95% on room air (below normal threshold of 98%)
+Chest expansion limited during spasms
+Tachypnoea
+Respiratory failure is the most common cause of death in tetanus:
+From laryngospasm (acute upper airway obstruction during spasm)
+From sustained chest wall rigidity (impairs ventilation)
+From aspiration pneumonia (from dysphagia and impaired protective reflexes)
+From direct respiratory muscle involvement (intercostal and diaphragmatic spasm)
+
+Severity classification — Ablett Classification:
+
+Grade I (mild):
+Mild to moderate trismus
+General spasticity
+No respiratory compromise
+No spasms
+No dysphagia
+
+Grade II (moderate):
+Moderate trismus
+Well-defined rigidity
+Short duration spasms
+Mild respiratory involvement
+Mild dysphagia
+Respiratory rate greater than 30 cpm
+
+Grade III (severe):
+Severe trismus
+Generalised spasticity
+Prolonged spasms
+Tachycardia greater than 120 bpm OR bradycardia
+Tachypnoea greater than 30 cpm
+Apnoeic spells
+Severe dysphagia
+Autonomic dysfunction
+
+Grade IV (very severe):
+Grade III features PLUS severe autonomic instability (alternating hypertension and hypotension, bradycardia)
+
+This patient: Grade III (severe) — trismus, generalised hypertonia and spasms, opisthotonus, dysphagia, autonomic features (sweating, tachycardia), SpO₂ 95%, tachypnoea; approaching Grade IV if autonomic instability progresses
+
+Incubation period and period of onset:
+Incubation period (wound to first symptom): 7 days in this patient (range: 3–21 days)
+Period of onset (first symptom to first spasm): approximately 3–4 days
+Shorter incubation period and shorter period of onset are associated with more severe disease and worse prognosis
+
+Differential diagnoses:
+
+Meningitis (bacterial):
+Can cause neck stiffness and fever
+However, does not cause trismus, risus sardonicus, or opisthotonus
+Consciousness is usually impaired in bacterial meningitis (this patient is fully conscious and oriented)
+Photophobia and headache are typical (absent here)
+Kernig and Brudzinski signs positive in meningitis; not applicable here given spasms
+Lumbar puncture would show abnormal CSF (normal in tetanus)
+
+Strychnine poisoning:
+Causes generalised muscle spasms and opisthotonus indistinguishable from tetanus clinically
+Key difference: strychnine poisoning does NOT cause trismus (jaw muscles are spared)
+Interval between spasms: the patient is relaxed between spasms in strychnine poisoning (unlike tetanus where some baseline rigidity persists)
+History of ingestion (agricultural pesticide, rodenticide) rather than wound
+This patient has trismus and persistent rigidity between spasms: tetanus is more consistent
+
+Hypocalcaemic tetany:
+Can cause muscle cramps and spasms (carpopedal spasm, laryngospasm)
+Trousseau sign and Chvostek sign positive
+Perioral tingling and paraesthesia
+No trismus or risus sardonicus
+Serum calcium will be low
+History of malnutrition, hypoparathyroidism, or recent surgery (neck surgery)
+Serum calcium must be checked to exclude this formally
+
+Rabies:
+Can cause dysphagia (hydrophobia) and autonomic dysfunction
+Encephalitic form: altered consciousness, behavioural change
+Not associated with the classical tetanus triad (trismus, risus sardonicus, opisthotonus)
+History of animal bite rather than cutlass wound
+Rabies encephalitis is rapidly fatal without post-exposure prophylaxis
+
+Dystonic reaction (drug-induced):
+Antidopaminergic drugs (metoclopramide, haloperidol, chlorpromazine) cause acute dystonia involving facial and neck muscles
+Oculogyric crisis, torticollis, trismus-like posture
+History of drug ingestion is key
+Reverses with anticholinergic drugs (benztropine, diphenhydramine)
+No drug history suggestive of this in this patient
+
+Status epilepticus:
+Generalised tonic-clonic seizures may be confused with tetanic spasms
+However, postictal confusion follows seizures (absent in tetanus — patient is fully conscious and oriented throughout and between spasms)
+Interictal EEG abnormalities in epilepsy; EEG normal in tetanus
+
+PLAN
+
+This is a medical emergency requiring immediate multidisciplinary management in an intensive care setting
+
+Immediate Admission and Environmental Measures
+
+Admit immediately to a quiet, darkened single room:
+Rationale: any stimulus (noise, light, touch, movement) triggers painful and potentially life-threatening spasms
+Minimise all unnecessary stimulation throughout the admission
+Limit nursing interventions to essential care only
+Coordinate all procedures (blood tests, wound care, medication administration) together in one episode to reduce frequency of disturbance
+Soft padding on cot sides (prevent injury during spasms)
+Avoid unnecessary intravenous line manipulation during spasms
+
+ICU or high-dependency unit care:
+Continuous monitoring of vital signs, SpO₂, and cardiac rhythm
+Immediate access to airway management equipment
+Availability of neuromuscular blocking agents and mechanical ventilation
+
+Investigations
+
+Wound swab (MCS):
+Swab from wound for microscopy, culture, and sensitivity
+Identifies secondary bacterial pathogens complicating the wound infection
+Note: C. tetani is rarely cultured from the wound (diagnosis is clinical); wound culture guides antibiotic choice for wound infection rather than tetanus per se
+
+Blood culture:
+Two sets from different sites
+Exclude bacteraemia or septicaemia from wound infection (especially if fever worsens)
+Collect before antibiotic administration
+
+Full blood count:
+White cell count (assess leucocytosis from wound infection or secondary pneumonia)
+Haemoglobin (baseline)
+Platelet count
+
+Serum electrolytes, urea, and creatinine:
+Assess renal function (autonomic dysfunction and rhabdomyolysis from severe spasms can impair renal perfusion)
+Electrolyte disturbances (hyponatraemia, hypokalaemia) may worsen spasms and cardiac arrhythmias
+
+Serum calcium:
+Essential to formally exclude hypocalcaemic tetany as a cause or contributing factor
+Low ionised calcium worsens neuromuscular excitability
+
+Serum magnesium:
+Baseline before magnesium sulphate infusion
+Guides dosing and monitors for toxicity
+
+Liver function tests:
+Baseline (relevant if hepatotoxic medications are used; also assess for sepsis-related hepatic dysfunction)
+
+Creatine kinase (CK):
+Assess for rhabdomyolysis from severe repeated muscle spasms
+Elevated CK with myoglobinuria can cause acute kidney injury
+Monitor urine for myoglobinuria (dark urine)
+
+Arterial blood gas (ABG):
+Critical given SpO₂ 95% and tachypnoea
+Assess:
+PaO₂ (degree of hypoxaemia)
+PaCO₂ (CO₂ retention indicates respiratory failure, hypoventilation)
+pH (acidaemia from respiratory or metabolic failure)
+Base excess (metabolic component)
+Guides decision on intubation and mechanical ventilation
+
+12-lead ECG:
+Baseline cardiac assessment
+Monitor for autonomic dysfunction-related arrhythmias (prolonged QT, bradycardia, ventricular arrhythmias)
+
+Chest X-ray:
+Baseline
+Assess for aspiration pneumonia (early or established)
+Exclude other pulmonary pathology
+
+Blood glucose:
+Baseline; hyperglycaemia common in severe stress response
+Monitor regularly (stress hyperglycaemia requires management)
+
+Urine analysis:
+Myoglobinuria (from rhabdomyolysis)
+Urinary tract infection (with urinary catheter in situ)
+
+Wound Care (Urgent)
+
+Surgical debridement of the wound:
+Most critical local measure
+Removes necrotic tissue, pus, and debris — the anaerobic environment sustaining C. tetani growth and ongoing toxin production
+Reduces ongoing toxin release from the wound
+Debridement should be performed after antitoxin has been administered (to neutralise any toxin released into circulation during manipulation)
+Irrigate wound copiously with hydrogen peroxide or Normal Saline (creates aerobic environment hostile to C. tetani)
+Wound should be left open (do not close a tetanus wound primarily — anaerobic environment must be avoided)
+Refer to general surgeon for formal operative debridement under anaesthesia if wound is extensive
+
+Daily wound dressing:
+Regular dressing changes with antiseptic solution
+Monitor for healing, secondary infection, or spread of necrosis
+
+Elevation of the right leg:
+Reduces oedema and improves local perfusion
+
+Toxin Neutralisation (Emergency — Administer Immediately)
+
+Human tetanus immunoglobulin (HTIG):
+Mechanism: provides passive immunity by binding and neutralising circulating tetanospasmin that has not yet entered neurons
+Once toxin is bound within neurons, it cannot be neutralised — therefore early administration is critical
+Dose: 3000–6000 IU IM (some guidelines recommend 500 IU if given very early; higher doses are appropriate in this patient given established generalised disease)
+Administer at a site distant from the wound and from the tetanus toxoid injection
+Single dose sufficient (HTIG has a long half-life of approximately 3–4 weeks)
+HTIG is preferred over equine antitoxin (horse-derived) due to lower risk of anaphylaxis and longer half-life
+If HTIG is unavailable: equine tetanus antitoxin (ATS) 10,000–20,000 IU IV or IM may be used, but test dose for hypersensitivity must be given first (0.1 ml of 1:1000 dilution ID, observe for 30 minutes)
+
+Intrathecal HTIG (specialist centres only):
+Some evidence that intrathecal HTIG (250–500 IU) in addition to IM HTIG reaches the CNS more effectively and improves outcomes
+Not universally practised; requires specialist administration
+
+Active Immunisation
+
+Tetanus toxoid (adsorbed):
+0.5 ml IM at a different site from HTIG (different limb)
+Initiates or boosts active immunity
+Tetanus immunoglobulin provides immediate passive protection; tetanus toxoid stimulates long-term active immunity
+HTIG and tetanus toxoid must be given at separate injection sites (mixing inactivates the toxoid)
+Complete the primary immunisation series if not previously immunised:
+First dose: now
+Second dose: 4–8 weeks later
+Third dose: 6–12 months after second dose
+Booster doses every 10 years thereafter
+
+Control of Muscle Spasms
+
+Spasm control is the most critical aspect of acute management. The goal is to abolish spasms completely while maintaining adequate spontaneous ventilation.
+
+First-line: Benzodiazepines (GABA receptor agonists)
+
+Diazepam:
+Mechanism: potentiates GABA-A receptor activity, increasing inhibitory neurotransmission and suppressing spasms
+IV Diazepam infusion: 10–40 mg/hr, titrated to achieve spasm control without respiratory depression
+Alternatively: IV Diazepam 10–20 mg bolus for acute spasms, followed by continuous infusion
+Oral or nasogastric Diazepam: 10–40 mg every 1–4 hours in less severe cases or when IV access difficult
+Very high doses may be required in severe tetanus (up to 120 mg/day or more)
+Side effects: respiratory depression (monitor SpO₂ continuously), sedation, hypotension
+
+Midazolam:
+Alternative benzodiazepine; shorter-acting, suitable for continuous infusion in ICU
+IV Midazolam infusion: 5–15 mg/hr, titrate to effect
+Preferred over diazepam in ICU settings (no active metabolite accumulation)
+
+Lorazepam:
+Also acceptable; longer duration than midazolam
+
+Second-line adjuncts to benzodiazepines:
+
+Magnesium sulphate:
+Mechanism: blocks neuromuscular junction (reduces acetylcholine release), reduces catecholamine release (addresses autonomic dysfunction), and has mild muscle relaxant properties
+IV Magnesium sulphate loading dose: 5 g (40 mmol) IV over 20 minutes
+Maintenance infusion: 2–3 g/hr (titrate to serum magnesium level 2–4 mmol/L)
+Monitor for toxicity: loss of deep tendon reflexes (first sign of toxicity), respiratory depression, cardiac arrest
+Antidote: IV Calcium gluconate 10 ml of 10% solution (keep at bedside)
+Highly effective for both spasm control and autonomic dysfunction
+Evidence from randomised controlled trials supports its use in severe tetanus
+
+Baclofen:
+GABA-B receptor agonist; reduces muscle spasm
+Oral Baclofen 5–20 mg three times daily (if patient can swallow)
+Intrathecal Baclofen (via implanted pump): very effective for refractory tetanus; rarely available in resource-limited settings
+
+Phenobarbitone:
+Alternative anticonvulsant for spasm control in resource-limited settings
+IV or IM Phenobarbitone: 100–200 mg every 4–6 hours
+Less preferred than benzodiazepines but widely used where diazepam infusion is not available
+
+Chlorpromazine:
+Has been used for sedation and spasm control in historical practice
+Not a first-line agent; may worsen autonomic instability
+May be used as an adjunct where other agents are limited
+
+Neuromuscular blockade (for refractory severe spasms):
+
+Indications:
+Spasms not controlled by benzodiazepines and magnesium despite adequate doses
+Laryngospasm causing acute airway compromise
+Respiratory failure requiring mechanical ventilation
+This patient may require this given SpO₂ 95% and frequency of spasms
+
+Agents:
+Vecuronium 0.1 mg/kg IV bolus, then infusion (non-depolarising, preferred)
+Pancuronium: available but causes tachycardia (problematic in autonomic dysfunction)
+Rocuronium: useful for rapid sequence intubation
+
+Requirement: If neuromuscular blocking agents are used, the patient must be intubated and mechanically ventilated — neuromuscular blockade abolishes respiratory effort
+Sedation must be continued alongside paralysis (patient remains conscious and aware without adequate sedation)
+
+Airway Management and Respiratory Support
+
+This patient has SpO₂ 95%, tachypnoea, and dysphagia — early and careful airway planning is essential
+
+Immediate:
+High-flow oxygen via face mask (6–10 L/min), target SpO₂ greater than 95%
+Position: 30° head-up if tolerated (reduces aspiration risk)
+Suction available at bedside at all times (risk of aspiration from dysphagia)
+Do not insert oral airway unless absolutely necessary (tactile stimulation triggers spasms)
+
+Indications for early endotracheal intubation:
+SpO₂ persistently below 92% despite oxygen
+PaCO₂ rising (respiratory failure) on ABG
+Laryngospasm or apnoeic episodes
+Spasms too frequent or severe to control without neuromuscular blockade
+Dysphagia with aspiration risk not manageable by other means
+Respiratory rate consistently greater than 30–35 cpm
+Patient unable to clear secretions
+
+Intubation technique:
+Rapid sequence induction (RSI) with propofol or ketamine for induction, and suxamethonium or rocuronium for paralysis
+Minimise stimulation during laryngoscopy (use video laryngoscope if available)
+Trismus may make direct laryngoscopy difficult; use muscle relaxant to achieve adequate jaw relaxation before attempting intubation
+Have surgical airway (cricothyrotomy/tracheotomy) equipment on standby
+
+Tracheotomy:
+Preferred over prolonged endotracheal intubation in severe tetanus requiring more than 7–10 days of ventilation
+Reduces the risk of subglottic stenosis and is more comfortable for the patient
+Allows easier airway management during prolonged illness
+Discuss early with ENT or general surgery team if intubation is likely to be prolonged
+
+Mechanical ventilation:
+If intubated: assist-control or SIMV mode
+Target: PaO₂ greater than 60 mmHg, SpO₂ greater than 95%, PaCO₂ 35–45 mmHg
+Adjust settings based on serial ABG results
+Wean ventilatory support as spasms come under control
+
+Antibiotic Therapy
+
+Antibiotics treat wound infection and eliminate residual C. tetani from the wound, reducing ongoing toxin production. They do not reverse the neurological effects of already-bound toxin.
+
+First-line:
+IV Metronidazole 500 mg every 8 hours (or 1 g every 12 hours)
+Duration: 7–10 days
+Preferred over penicillin because:
+Metronidazole is directly active against C. tetani and anaerobes
+Penicillin G (historically used) is a GABA antagonist and may theoretically worsen spasms (though clinical significance is debated)
+Metronidazole achieves reliable tissue concentrations in anaerobic wound environments
+
+Alternative (if metronidazole unavailable):
+IV Penicillin G (Benzylpenicillin) 1–2 million units every 4–6 hours for 10–14 days
+Acceptable alternative despite theoretical concern
+
+Coverage for secondary wound infection (gram-positive and gram-negative organisms):
+Add IV Ceftriaxone 1–2 g once daily if wound swab culture suggests mixed organisms or if clinical signs of spreading wound sepsis
+Adjust antibiotic regimen based on wound MCS results when available
+
+If aspiration pneumonia develops:
+Add coverage for gram-negative organisms and anaerobes
+IV Piperacillin-tazobactam 4.5 g every 8 hours, or
+IV Meropenem 500 mg–1 g every 8 hours in severe cases or if resistant organisms suspected
+
+Management of Autonomic Dysfunction
+
+Autonomic instability is a major cause of death in severe tetanus (Ablett Grade III and IV). It manifests as:
+Sympathetic overactivity: hypertension, tachycardia, diaphoresis, hyperpyrexia, peripheral vasoconstriction
+Parasympathetic overactivity (less common, alternating): bradycardia, hypotension, excessive secretions, cardiac arrest
+
+Continuous cardiac monitoring:
+ECG monitoring throughout ICU stay
+Watch for: severe hypertension (systolic greater than 160 mmHg), bradycardia (less than 40 bpm), prolonged QT interval, ventricular arrhythmias
+Autonomic crises can be sudden and life-threatening
+
+Magnesium sulphate:
+As described above (dual role: spasm control and autonomic stabilisation)
+Reduces catecholamine release and sympathetic surges
+Serum magnesium monitoring every 6 hours; target 2–4 mmol/L
+
+Beta-blockers (for sympathetic hyperactivation):
+IV Labetalol (combined alpha and beta blocker): preferred — addresses both hypertension and tachycardia
+IV Esmolol infusion: short-acting, titratable — useful for rapid response
+Caution: pure beta-blockers (propranolol) can unmask unopposed alpha-adrenergic activity and cause rebound hypertension or severe bradycardia; use labetalol or esmolol in preference
+Do not use propranolol alone
+
+Morphine sulphate infusion:
+Useful for autonomic modulation in severe tetanus
+Reduces sympathetic surges and provides sedation
+IV Morphine infusion: 0.5–1 mg/hr, titrate to effect
+Monitor for respiratory depression
+
+Clonidine (alpha-2 agonist):
+Reduces sympathetic outflow
+Oral or IV clonidine: 150–300 mcg every 8 hours
+Useful adjunct for sympathetic control in combination with other agents
+
+Atropine:
+For episodes of severe bradycardia (heart rate less than 40 bpm)
+IV Atropine 0.5–1 mg bolus, repeat as needed
+Keep at bedside
+
+Avoid: fluid overload in the context of autonomic instability; excessive antihypertensive dosing (may precipitate hypotension)
+
+Supportive Care
+
+IV fluids:
+Adequate hydration given mild dehydration and profuse sweating
+Normal Saline or Ringer's Lactate at 125–150 ml/hr initially
+Adjust based on urine output, electrolytes, and haemodynamic status
+Monitor strictly: if intubated, avoid fluid overload (risk of pulmonary oedema in prolonged ventilation)
+
+Nutritional support:
+Patient has dysphagia: oral feeding is not safe
+Insert a nasogastric tube for enteral feeding (do so carefully to minimise stimulation — consider brief additional sedation before insertion)
+Nasogastric feeding: start early (within 24–48 hours), target caloric intake of 30–35 kcal/kg/day
+High-protein formula (1.5–2 g protein/kg/day) to prevent muscle wasting from prolonged illness and repeated spasms
+Rhabdomyolysis from spasms causes significant protein catabolism — nutritional needs are substantially elevated
+If nasogastric feeding not feasible (severe trismus, tube intolerance): percutaneous gastrostomy or total parenteral nutrition as alternatives
+Referral to dietitian
+
+Bowel care:
+Constipation expected from high-dose benzodiazepines and immobility
+Regular laxatives: lactulose 15–30 ml twice daily, bisacodyl suppository if needed
+Monitor bowel movements daily
+
+Urinary care:
+Insert Foley urethral catheter:
+Urinary retention may occur from autonomic dysfunction or opioid use
+Allows accurate urine output monitoring (target greater than 0.5 ml/kg/hr)
+Monitor for catheter-associated urinary tract infection
+
+Venous thromboembolism prophylaxis:
+Immobility from paralysis and spasms creates significant DVT risk
+Unfractionated heparin 5000 units SC twice or three times daily, OR
+Low molecular weight heparin (Enoxaparin 40 mg SC daily)
+Graduated compression (TED) stockings
+Pneumatic sequential compression devices if available
+Early passive mobilisation as spasms come under control
+
+Pressure sore prevention:
+Turn patient every 2 hours if not paralysed (with minimal stimulation — coordinate with nursing team)
+Pressure-relieving mattress
+Keep skin clean and dry (profuse sweating is a significant risk factor)
+Heel protection pads
+
+Oral hygiene:
+Trismus limits oral care access
+Use small swabs and chlorhexidine mouthwash to reduce aspiration of oral bacteria
+Risk of aspiration pneumonia is very high in this patient
+
+Eye care:
+Risus sardonicus and sustained facial muscle contraction may impair eyelid closure
+Apply artificial tears (lubricating eye drops) every 2–4 hours
+Moisture chamber (eye shields) overnight if lagophthalmos present
+
+Temperature management:
+Hyperpyrexia from autonomic dysfunction and secondary infection
+Paracetamol 1 g every 6 hours (oral/NG or IV)
+Physical cooling measures (tepid sponging, cooling blankets)
+Avoid overshooting to hypothermia (impairs cardiac function)
+
+Pain management:
+Tetanic spasms are extremely painful
+IV Morphine infusion (as above, also addresses autonomic instability)
+Supplement with IV Paracetamol 1 g every 6 hours
+Avoid NSAIDs in the context of potential rhabdomyolysis and renal impairment
+
+Monitoring
+
+Continuous monitoring:
+Pulse oximetry (SpO₂): continuous; immediate alarm if less than 92%
+Cardiac monitor: ECG continuously for arrhythmias and autonomic events
+Blood pressure: every 15–30 minutes (continuous arterial line preferred in ICU)
+Respiratory rate: every 15 minutes; document changes during spasms
+Temperature: every 2–4 hours
+
+Neurological monitoring:
+Frequency and severity of spasms (document number per hour, duration, triggering stimuli)
+Response to spasm control medications
+Level of consciousness (AVPU or GCS)
+Signs of laryngospasm (stridor, sudden apnoea, cyanosis)
+
+Fluid balance:
+Strict input and output chart hourly
+Urine output (target greater than 0.5 ml/kg/hr or approximately 30 ml/hr)
+Daily weight (where feasible)
+
+Laboratory monitoring:
+Serum electrolytes and creatinine: every 8–12 hours initially (autonomic dysfunction causes rapid fluid shifts)
+Serum magnesium: every 6 hours during magnesium sulphate infusion (target 2–4 mmol/L)
+Serum calcium: daily
+ABG: 4–6 hourly or with any deterioration
+CK: daily (monitor rhabdomyolysis progression)
+FBC: daily (monitor leucocytosis, haemoglobin)
+Blood glucose: 4–6 hourly (stress hyperglycaemia; target 6–10 mmol/L)
+Coagulation profile: every 48 hours (DIC risk with severe sepsis)
+
+Wound monitoring:
+Daily wound inspection and dressing
+Document: wound size, discharge character, surrounding inflammation, presence of necrosis
+Escalate to surgeon if spreading necrosis or no improvement after debridement
+
+Anticipate and Prevent Complications
+
+Respiratory failure:
+Most common cause of death in tetanus
+Prevention: adequate spasm control, early intubation if indicated, meticulous aspiration prevention
+Management: mechanical ventilation as described above
+
+Aspiration pneumonia:
+High risk given dysphagia, trismus, and frequent spasms with loss of protective reflexes
+Prevention: 30° head-up position, nasogastric feeding, regular oral suction, early intubation in severe cases
+Management: broad-spectrum antibiotics covering oral flora and gram-negative organisms
+
+Rhabdomyolysis and acute kidney injury:
+From severe repeated muscle spasms
+Prevention: spasm control, adequate hydration
+Management: aggressive IV fluid hydration (maintain urine output greater than 1–2 ml/kg/hr), urine alkalinisation if severe myoglobinuria, haemodialysis if renal failure develops
+
+Cardiovascular complications from autonomic dysfunction:
+Hypertensive crisis, cardiac arrhythmias, sudden cardiac arrest
+Prevention: continuous cardiac monitoring, magnesium sulphate, beta-blockers
+Management: as described in autonomic dysfunction section above; defibrillation and ACLS for cardiac arrest
+
+Sepsis and secondary infection:
+Wound sepsis, aspiration pneumonia, catheter-associated urinary tract infection, ventilator-associated pneumonia
+Prevention: strict aseptic technique, early antibiotics, VAP bundle, catheter care bundles
+Management: escalate antibiotics based on culture results
+
+Malnutrition:
+From prolonged inability to eat and high metabolic demand
+Prevention: early nasogastric or parenteral feeding, dietitian involvement
+Monitor: serum albumin, weight (where feasible), nitrogen balance
+
+Deep vein thrombosis and pulmonary embolism:
+From immobility and prolonged critical illness
+Prevention: LMWH, compression stockings, early passive mobilisation
+
+Counselling
+
+Counselling of patient:
+During spasms and when the patient is accessible between episodes, provide calm reassurance
+Explain that the team is doing everything possible to control the spasms and protect his breathing
+Avoid causing unnecessary anxiety (noise, alarm, or distressing conversations near the patient can trigger spasms)
+As the patient improves and becomes more alert: explain the diagnosis in clear terms, the treatment being given, and the expected recovery course
+
+Counselling of the wife and family:
+They are reliable informants and should be kept fully informed
+Explain the diagnosis: tetanus is a serious infection of the nervous system caused by a toxin from bacteria that entered through the wound
+The illness is not contagious to other family members
+The treatment involves controlling the muscle spasms, neutralising the poison, and treating the wound
+Recovery is slow — tetanus typically takes several weeks to months
+Explain that some patients require a breathing machine (ventilator) to help with breathing if the spasms affect the chest muscles
+Family should be advised to minimise visits during the acute phase (stimulation triggers spasms) but can be updated regularly by the nursing team
+
+Prevention of future tetanus:
+Complete the tetanus toxoid immunisation series (three doses as above)
+Booster doses every 10 years thereafter
+All household members and children should have up-to-date tetanus immunisation
+Community education: any wound (especially puncture wounds, rusty metal injuries, soil-contaminated wounds) should receive immediate professional medical care including wound cleaning and tetanus prophylaxis assessment
+Avoid home treatment of wounds with herbal preparations alone
+Seek medical attention promptly for any wound — do not wait for symptoms to develop
+Tetanus is entirely preventable with immunisation
+
+Occupational advice:
+As a farmer with regular exposure to soil and sharp objects, routine tetanus boosters every 10 years are essential
+Wear protective footwear and gloves when farming
+Report all significant wounds to a healthcare facility
+
+Public health notification:
+Tetanus is a notifiable disease in Nigeria
+Notify the appropriate public health authority
+This case in a poorly immunised adult in a rural community represents a preventable death — community immunisation gaps should be flagged for action
+
+PROGNOSIS
+
+Overall prognosis:
+Generalised tetanus with severe features (Ablett Grade III) carries a significant case fatality rate
+In resource-limited settings without ICU care: mortality 20–60%
+In settings with ICU support including mechanical ventilation: mortality 10–20%
+This patient requires ICU-level care for the best possible outcome
+
+Favourable prognostic factors:
+Relatively young (42 years) and previously healthy
+No known comorbidities
+Conscious and oriented (no cerebral involvement)
+Presentation within 7 days of injury (not extremely delayed)
+Mobile uterus — not applicable (wrong case); haemodynamically stable at presentation
+No documented apnoeic episodes yet
+
+Unfavourable prognostic factors:
+Short period of onset (spasms within 3–4 days of first symptom — worse prognosis)
+Severe disease (Ablett Grade III): trismus, opisthotonus, autonomic dysfunction, respiratory involvement
+SpO₂ 95% on room air (early respiratory compromise)
+Dysphagia (high aspiration risk)
+Poorly immunised (no baseline immunity to modify disease course)
+Rural location with likely delayed access to ICU and mechanical ventilation
+Contaminated necrotic wound (ongoing toxin source until debrided)
+Herbal wound management (delayed effective wound care)
+
+Expected disease course:
+Tetanus does not resolve rapidly — neuromuscular junction recovery requires sprouting of new motor nerve terminals (weeks to months)
+Spasms typically peak in severity at 1–2 weeks and then gradually decrease over 3–4 weeks
+Autonomic dysfunction may persist for 2–4 weeks
+Full recovery, if achieved, takes 4–6 weeks in moderate cases and up to 3–6 months in severe cases requiring prolonged ventilation
+Survivors have no long-term neurological sequelae (tetanospasmin binding is irreversible but recovery is complete as new inhibitory synapses regenerate)
+
+FOLLOW-UP
+Daily clinical assessment during acute admission with documentation of spasm frequency, vital signs, and laboratory parameters. Wound review by surgical team every 48 hours. Serum magnesium every 6 hours during infusion. ABG every 4–6 hours or with any respiratory deterioration. Nutritional review weekly with dietitian. Second dose of tetanus toxoid at 4–8 weeks after first dose. Third dose at 6–12 months. Booster every 10 years thereafter. Physiotherapy referral during recovery phase for muscle rehabilitation and prevention of contractures. Discharge planning when spasm-free for at least 48–72 hours, tolerating oral feeding, and haemodynamically stable. Post-discharge follow-up in infectious disease or general medicine clinic at 2 and 6 weeks.
+`,
+bookmarkCount: 0
+},
   // Surgery
   {
     id: 'surg-1',

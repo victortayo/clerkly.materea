@@ -6404,7 +6404,2356 @@ Serial serum bilirubin every 6–8 hours during intensive phototherapy. Rebound 
 `,
 bookmarkCount: 0
 },
+{
+  id: 'peds-31',
+  title: 'Preterm Neonatal Jaundice (Exaggerated Physiological Jaundice)',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Neonatology',
+  condition: 'Preterm neonatal jaundice (likely exaggerated physiological jaundice) in a 33-week preterm neonate',
+  symptoms: [
+    'Yellowness of eyes and body',
+    'Poor feeding',
+    'Excessive sleepiness',
+    'Reduced spontaneous activity',
+    'Lethargy but arousable',
+    'Hypotonia present',
+    'Weak suck reflex',
+    'Mild dehydration',
+    'Preterm at 33 weeks gestation',
+    'Birth weight 1.9 kg (low birth weight)',
+    'Current weight 1.8 kg (5 days old)',
+    'Total bilirubin 15.8 mg/dL, conjugated 1.0 mg/dL',
+    'Direct Coombs test negative'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-07',
+  summary: 'A 5-day-old male preterm neonate (born at 33 weeks gestation, birth weight 1.9 kg) presenting with progressive jaundice for 3 days, poor feeding for 2 days, and excessive sleepiness for 2 days. Born via spontaneous vaginal delivery with immediate cry but weak, required brief admission for observation. Mother booked with supervised pregnancy. Current examination reveals small preterm neonate, lethargic but arousable, moderately icteric up to thighs, hypotonic, weak suck reflex, mildly dehydrated, current weight 1.8 kg. Investigations: total bilirubin 15.8 mg/dL (conjugated 1.0 mg/dL, predominantly unconjugated), PCV 40%, blood group A positive (mother also A positive), Direct Coombs test negative. Diagnosis: preterm neonatal jaundice, likely exaggerated physiological jaundice. Requires phototherapy at lower preterm threshold, close monitoring with 12-hourly bilirubin levels, adequate hydration, temperature monitoring, and vigilance for bilirubin encephalopathy. Exchange transfusion if bilirubin approaches preterm threshold or rises rapidly.',
+  content: `
+A 5-day-old male preterm neonate, delivered at a private hospital in Ibadan, Oyo State, to a 32-year-old multiparous mother, Christian, Yoruba, civil servant.
 
+Date of Birth: 02/04/2026
+EGA at birth: 33 weeks
+
+Informant: Mother (reliable)
+
+PRESENTING COMPLAINTS
+Yellowness of the eyes and body × 3 days
+Poor feeding × 2 days
+Excessive sleepiness × 2 days
+
+HISTORY OF PRESENTING ILLNESS
+He was apparently well until about 3 days prior to presentation (day 2 of life) when mother noticed yellowness of the eyes which gradually progressed to involve the face, trunk, and lower limbs. The progression was insidious but steady.
+
+About 2 days prior to presentation (day 3 of life), the baby developed poor feeding, characterized by weak suck and inability to complete feeds.
+
+There is also excessive sleepiness with reduced spontaneous activity.
+
+No history of fever, convulsions, or high-pitched cry.
+No history of passage of pale stools or dark urine.
+No history of use of icterogenous substances.
+
+Due to persistence and progression of symptoms, presented to this facility for expert care.
+
+PAST MEDICAL HISTORY
+No prior hospital admission since birth (delivered at private hospital, observed briefly)
+No surgeries
+No blood transfusion
+
+PREGNANCY AND DELIVERY HISTORY
+Pregnancy was booked and mother recieved antenatal care
+Mother had 2 doses of tetanus toxoid and received intermittent preventive therapy for malaria
+
+There was history of preterm labour
+No history of maternal fever or rash
+
+Delivery was preterm at 33 weeks via spontaneous vaginal delivery
+Baby cried immediately after birth but had weak cry
+Birth weight: 1.9 kg
+
+Baby required brief admission for observation but no ventilatory support
+
+IMMUNIZATION HISTORY
+BCG and OPV 0 given at birth
+
+FEEDING HISTORY
+On expressed breast milk via cup and spoon due to poor suck
+
+MATERNAL AND NEONATAL RISK FACTORS
+Prematurity (33 weeks gestation)
+Possible exaggerated physiological jaundice
+
+Mother's blood group: A positive
+Baby's blood group: A positive
+
+FAMILY AND SOCIAL HISTORY
+Second child in a monogamous family setting
+Sibling alive and well
+Father is a civil servant
+Mother is a civil servant
+They live in a well-ventilated apartment
+
+REVIEW OF SYSTEMS
+No bleeding from any orifice
+No abdominal distension
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A small-sized preterm neonate, lethargic, moderately icteric (up to thighs), not pale, not cyanosed, afebrile (temperature 36.6°C), mildly dehydrated
+
+Anthropometry:
+Weight: 1.8 kg (birth weight 1.9 kg, current day 5, weight loss 100 g or 5.3%)
+Length: 44 cm
+Occipitofrontal circumference: 31 cm
+
+Central Nervous System:
+Lethargic but arousable
+Hypotonia present
+Weak suck reflex
+Anterior fontanelle normotensive (flat)
+
+Respiratory System:
+Respiratory rate: 52 cpm (slightly elevated but not dyspnoeic)
+Breath sounds vesicular
+SpO₂: 96% in room air
+
+Cardiovascular System:
+Pulse rate: 150 bpm, full volume, regular
+Heart sounds S1 and S2 heard
+
+Abdomen:
+Full, moves with respiration
+No tenderness
+No palpable organomegaly
+
+Umbilicus:
+Clean
+
+Musculoskeletal System:
+Reduced spontaneous movements
+
+INVESTIGATIONS (on admission)
+
+Serum bilirubin:
+Total bilirubin: 15.8 mg/dL
+Conjugated bilirubin: 1.0 mg/dL
+Unconjugated bilirubin: 14.8 mg/dL (predominantly unconjugated)
+
+Packed cell volume: 40% (normal for newborn)
+
+Blood group: A positive (mother also A positive)
+
+Reticulocyte count: Normal
+
+Direct Coombs test: Negative (rules out immune haemolysis)
+
+ASSESSMENT
+
+Preterm neonatal jaundice (likely exaggerated physiological jaundice) in a 33-week preterm neonate
+
+Diagnosis based on:
+
+Clinical features of neonatal jaundice:
+Yellowness of eyes and body for 3 days (since day 2 of life)
+Progressive jaundice (eyes to face to trunk to thighs)
+Cephalocaudal progression (typical of increasing bilirubin levels)
+Kramer's zones: Zone 4 (up to thighs, suggests moderate hyperbilirubinaemia)
+
+Age and timing:
+Day 5 of life
+Onset day 2 of life (after 24 hours, not pathological early jaundice)
+Peak typically day 5-7 in preterm (this patient at peak)
+
+Predominantly unconjugated hyperbilirubinaemia:
+Total bilirubin 15.8 mg/dL
+Conjugated bilirubin 1.0 mg/dL (less than 20% of total, unconjugated jaundice)
+Unconjugated 14.8 mg/dL
+
+Features of bilirubin neurotoxicity risk:
+Lethargy, hypotonia, weak suck (early signs of acute bilirubin encephalopathy)
+Concerning in context of prematurity and hyperbilirubinaemia
+Requires urgent treatment
+
+Prematurity as major risk factor:
+Born at 33 weeks gestation (preterm, 7 weeks before term)
+Low birth weight 1.9 kg
+Preterm infants at higher risk of jaundice and kernicterus
+
+Classification: Exaggerated physiological jaundice
+
+Evidence:
+Onset after 24 hours (day 2)
+Predominantly unconjugated
+Blood group compatibility (mother and baby both A positive)
+Direct Coombs negative (no immune haemolysis)
+Normal reticulocyte count (no excessive haemolysis)
+No evidence of pathological causes
+
+Exaggerated in preterm due to:
+Immature liver (reduced glucuronyl transferase activity)
+Increased bilirubin load (shorter RBC lifespan, increased enterohepatic circulation)
+Reduced albumin binding
+Blood-brain barrier immaturity (increased kernicterus risk)
+
+Differential diagnoses and evaluation:
+
+Physiological jaundice:
+Normal in all newborns
+Peaks day 3-5 in term (day 5-7 in preterm)
+Usually mild (less than 12 mg/dL in term, higher in preterm)
+This patient: More severe, likely exaggerated physiological
+
+Breast milk jaundice:
+Late onset (after day 7)
+Prolonged (weeks)
+This patient: Day 5, too early
+
+Breastfeeding jaundice:
+Early onset (first week)
+Due to poor intake, dehydration
+This patient: Contributing factor (poor feeding, mild dehydration)
+
+ABO incompatibility:
+Mother O, baby A or B
+Positive Direct Coombs
+This patient: Mother A, baby A, Coombs negative, ruled out
+
+Rh incompatibility:
+Mother Rh negative, baby Rh positive
+Positive Direct Coombs, severe anaemia
+Not applicable (both A positive)
+
+G6PD deficiency:
+X-linked, more common in certain ethnic groups
+Haemolysis triggered by infection, drugs, fava beans
+Requires G6PD assay
+Possible but not tested
+
+Sepsis:
+Fever, lethargy, poor feeding, jaundice
+Both conjugated and unconjugated bilirubin may rise
+This patient: Afebrile, unconjugated predominant
+Requires sepsis workup
+
+Cephalhaematoma or bruising:
+Increased bilirubin load from blood reabsorption
+Not mentioned in examination
+
+Polycythaemia:
+PCV greater than 65%
+This patient: PCV 40%, ruled out
+
+Hypothyroidism:
+Prolonged jaundice, constipation, poor feeding, hypotonia
+Screening test needed
+Unlikely primary cause but may contribute
+
+Assessment of severity and risk:
+
+Bilirubin level 15.8 mg/dL at day 5 in 33-week preterm:
+Using American Academy of Pediatrics (AAP) guidelines for preterm
+Phototherapy threshold for 33 weeks at day 5: Approximately 10-12 mg/dL
+This patient exceeds phototherapy threshold
+Exchange transfusion threshold for 33 weeks: Approximately 15-18 mg/dL
+This patient approaching exchange threshold
+
+Neurotoxicity risk factors present:
+Prematurity (33 weeks, major risk)
+Low birth weight (1.9 kg)
+Hyperbilirubinaemia (15.8 mg/dL)
+Clinical signs (lethargy, hypotonia, weak suck)
+Dehydration, poor feeding (reduce albumin binding)
+
+Kramer's zones (visual assessment):
+Zone 1: Face only (bilirubin approximately 5 mg/dL)
+Zone 2: Upper trunk (approximately 10 mg/dL)
+Zone 3: Lower trunk and thighs (approximately 12 mg/dL)
+Zone 4: Arms and legs (approximately 15 mg/dL)
+Zone 5: Hands and feet (greater than 15 mg/dL)
+This patient: Zone 4 (up to thighs), consistent with bilirubin 15.8 mg/dL
+
+PLAN
+
+Immediate Management
+
+Admission:
+Admit to Neonatal Unit (NNU) or Special Care Baby Unit (SCBU)
+Continuous nursing care
+Close monitoring
+
+Phototherapy (Immediate):
+
+Indication:
+Bilirubin 15.8 mg/dL in 33-week preterm exceeds phototherapy threshold
+Clinical signs of neurotoxicity (lethargy, hypotonia)
+
+Type:
+Intensive phototherapy:
+Multiple blue-light fluorescent tubes or LED phototherapy units
+Wavelength 425-475 nm (blue-green light)
+Irradiance greater than 30 μW/cm²/nm
+Maximum skin surface area exposure
+
+Procedure:
+Place baby naked (except nappy) under phototherapy lights
+Eye protection (patches or mask to prevent retinal damage)
+Turn baby every 2-3 hours (ensure all surfaces exposed)
+Distance: 10-15 cm from light source (closer increases efficacy)
+
+Duration:
+Continuous initially (until bilirubin drops below phototherapy threshold)
+Can interrupt briefly for feeding (30 minutes every 3 hours)
+
+Monitoring during phototherapy:
+Temperature every 2-4 hours (risk of hyperthermia or hypothermia)
+Hydration status
+Skin for rashes or burns
+Ensure eye patches in place
+
+Side effects to monitor:
+Bronze baby syndrome (if conjugated hyperbilirubinaemia, not expected)
+Dehydration (increased insensible water loss)
+Loose stools (increased gut motility)
+Skin rashes
+
+This patient: Start intensive phototherapy immediately
+
+Hydration and Nutrition:
+
+Maintain adequate hydration:
+Expressed breast milk via nasogastric tube (patient has weak suck)
+Frequency: Every 2-3 hours
+Volume: Approximately 150-180 ml/kg/day
+For 1.8 kg baby: Approximately 270-320 ml/day divided into 8-12 feeds
+
+IV fluids if:
+Unable to tolerate feeds
+Severe dehydration
+Can use 10% dextrose or dextrose saline
+
+Avoid: Supplemental water (interferes with breastfeeding, no proven benefit)
+
+Monitor:
+Weight daily (assess hydration, guide fluid requirements)
+Input-output (urine output target 1-2 ml/kg/hr)
+
+Temperature Regulation:
+
+Risk in preterm:
+Hypothermia (large surface area to weight ratio, less subcutaneous fat)
+Hyperthermia (under phototherapy)
+
+Management:
+Warm environment (incubator or radiant warmer if available)
+Maintain neutral thermal environment
+Kangaroo mother care when stable and off phototherapy
+Avoid cold exposure
+
+Monitor temperature 4-hourly (target 36.5-37.5°C)
+
+Investigations and Monitoring
+
+Serum bilirubin monitoring:
+
+Repeat total and conjugated bilirubin:
+12-hourly initially (assess trend, response to phototherapy)
+Expected: 1-2 mg/dL decrease per day with phototherapy
+If rising or not falling: Intensify phototherapy, consider exchange
+
+Serial measurements until:
+Bilirubin below phototherapy threshold for 24 hours
+Clinical improvement
+Feeding well
+
+Target bilirubin:
+Below 12 mg/dL for 33-week preterm (safe level)
+
+Full blood count:
+Haemoglobin, PCV (already done, 40% normal)
+Repeat if concern for haemolysis
+White cell count (rule out sepsis)
+Platelet count
+
+Blood culture:
+If any suspicion of sepsis (fever, respiratory distress, lethargy persisting)
+
+G6PD assay:
+Consider if jaundice severe, recurrent, or family history
+Not urgent, can be done during admission
+
+Thyroid function tests:
+If jaundice prolonged beyond 2 weeks
+Newborn screening if available
+
+Sepsis workup (if indicated):
+Blood culture
+Full blood count
+C-reactive protein
+Lumbar puncture if meningitis suspected
+
+Vital signs monitoring:
+
+Temperature, pulse rate, respiratory rate, SpO₂:
+4-hourly
+More frequent if unstable
+
+Watch for:
+Fever (sepsis)
+Hypothermia (cold stress)
+Tachypnoea (respiratory distress)
+Desaturation
+
+Clinical monitoring:
+
+Neurological assessment (for acute bilirubin encephalopathy):
+Level of activity (lethargy improving or worsening)
+Tone (hypotonia, hypertonia, opisthotonus)
+Feeding (suck reflex improving)
+Cry (high-pitched cry concerning)
+Seizures
+
+Early acute bilirubin encephalopathy (this patient):
+Lethargy, hypotonia, poor feeding
+Reversible with treatment
+
+Late acute bilirubin encephalopathy:
+Hypertonia, opisthotonus, fever, high-pitched cry
+Irreversible brain damage (kernicterus)
+
+Chronic bilirubin encephalopathy (kernicterus sequelae):
+Choreoathetoid cerebral palsy
+Sensorineural hearing loss
+Gaze abnormalities
+Dental enamel dysplasia
+
+Jaundice progression:
+Daily Kramer's zone assessment
+Should improve (recede cephalad) with treatment
+
+Weight and feeding:
+Daily weight
+Volume of feeds taken
+Tolerance (vomiting, abdominal distension)
+
+Exchange Transfusion (Prepare For)
+
+Indications:
+
+Bilirubin approaching or exceeding exchange threshold for 33-week preterm (approximately 15-18 mg/dL depending on risk factors)
+Bilirubin rising rapidly despite intensive phototherapy (greater than 0.5 mg/dL/hr)
+Clinical signs of acute bilirubin encephalopathy progressing
+
+This patient (bilirubin 15.8 mg/dL with neurotoxicity signs):
+Close to exchange threshold
+Prepare for exchange transfusion
+Monitor response to phototherapy closely
+If bilirubin not decreasing or clinical deterioration: Perform exchange
+
+Procedure:
+Double volume exchange (2 times blood volume, approximately 160 ml/kg)
+For 1.8 kg baby: Approximately 290 ml
+Use fresh O negative blood or crossmatched blood
+Via umbilical venous catheter
+Aliquots of 5-10 ml withdrawn and replaced
+Duration: 1-2 hours
+
+Purpose:
+Remove bilirubin
+Remove antibody-coated RBCs (if immune haemolysis)
+Correct anaemia
+
+Risks:
+Hypocalcaemia, hypoglycaemia, electrolyte disturbances
+Thrombocytopenia
+Infection
+Cardiac arrhythmias
+Necrotizing enterocolitis
+Death (rare)
+
+Monitoring during exchange:
+Continuous cardiac monitoring
+Vital signs
+Blood glucose, calcium, electrolytes
+Post-exchange bilirubin (expect 50% reduction)
+
+Supportive Care
+
+General nursing care:
+Gentle handling (minimal stimulation)
+Maintain hygiene
+Umbilical cord care
+
+Infection prevention:
+Strict aseptic technique
+Hand hygiene
+Limit visitors
+
+Maternal support:
+Encourage mother to express breast milk
+Provide emotional support
+Educate on jaundice, treatment, prognosis
+
+Breastfeeding support:
+Continue expressed breast milk
+Transition to direct breastfeeding when suck improves
+Lactation consultant if available
+
+Parental Counselling
+
+Explain diagnosis:
+Neonatal jaundice (yellowness from bilirubin accumulation)
+Common in newborns, especially preterm
+Due to immature liver
+
+Explain cause:
+Exaggerated physiological jaundice
+Worsened by prematurity
+Not due to infection or blood group incompatibility
+
+Explain risks:
+Bilirubin toxic to brain (kernicterus)
+Can cause permanent brain damage
+Already showing early signs (lethargy, hypotonia)
+
+Explain treatment:
+Phototherapy (blue light breaks down bilirubin)
+Safe and effective
+Feeding and hydration important
+May need exchange transfusion if severe
+
+Explain prognosis:
+Good with prompt treatment
+Most babies recover completely
+Brain damage preventable with treatment
+
+Explain monitoring:
+Daily blood tests (bilirubin levels)
+Watch for improvement (more active, better feeding)
+Hospital stay several days (until bilirubin safe)
+
+Prevention in future babies:
+Early postnatal check-ups
+Monitor for jaundice
+Feed frequently
+
+Encourage questions
+
+PROGNOSIS
+
+Generally good with appropriate treatment
+
+Factors favouring good outcome:
+Prompt presentation (day 5, still reversible)
+Early signs of neurotoxicity only (lethargy, hypotonia)
+No advanced encephalopathy (no seizures, opisthotonus)
+Treatment initiated promptly (phototherapy)
+Access to exchange transfusion if needed
+
+Factors requiring vigilance:
+Prematurity (33 weeks, higher risk)
+Bilirubin close to exchange threshold (15.8 mg/dL)
+Clinical signs already present
+Low birth weight
+
+Expected course:
+With phototherapy: Bilirubin should decrease 1-2 mg/dL/day
+Clinical improvement: More active, better feeding, improved tone within 24-48 hours
+Duration of phototherapy: 2-5 days typically
+Hospital stay: 5-10 days (until bilirubin safe, feeding well, gaining weight)
+
+Potential outcomes:
+
+Best case (with treatment):
+Complete resolution of jaundice
+No neurological sequelae
+Normal development
+This is most likely outcome with prompt phototherapy
+
+Intermediate:
+Prolonged jaundice (beyond 2 weeks)
+Requires investigation (thyroid, metabolic)
+Usually resolves
+
+Worst case (without adequate treatment):
+Kernicterus (chronic bilirubin encephalopathy)
+Permanent brain damage
+Cerebral palsy, hearing loss, intellectual disability
+Preventable with treatment
+
+Risk of kernicterus in this patient:
+Moderate to high without treatment
+Low with appropriate phototherapy
+Very low if exchange transfusion performed if indicated
+
+Follow-up needs:
+Developmental assessment at 6, 12, 18, 24 months
+Hearing screening (bilirubin can damage auditory pathways)
+Vision screening
+Early intervention if delays noted
+
+FOLLOW-UP
+Daily monitoring in NNU until bilirubin below phototherapy threshold and stable. Discharge when bilirubin safe (below 12 mg/dL), feeding well, gaining weight. Outpatient review at 1 week (assess jaundice resolution, weight gain). Developmental follow-up at 3, 6, 12 months (assess for sequelae). Hearing and vision screening. Counsel mother on feeding, growth monitoring, immunizations.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'peds-32',
+  title: 'Hypoxic Ischaemic Encephalopathy (Sarnat Stage II)',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Neonatology',
+  condition: 'Perinatal asphyxia with moderate hypoxic ischaemic encephalopathy (Sarnat Stage II) in a term neonate',
+  symptoms: [
+    'Weak cry after 2–3 minute delay at birth',
+    'Reduced spontaneous activity since birth',
+    'Poor feeding and weak suck since birth',
+    'Multifocal clonic seizures',
+    'Lethargy with intermittent irritability',
+    'Hypertonia with intermittent stiffening',
+    'Weak suck and incomplete Moro reflex',
+    'Apgar scores 5, 6, 7 at 1, 5, and 10 minutes',
+    'Thick meconium-stained liquor',
+    'Prolonged labour (15 hours) with prolonged second stage',
+    'SpO₂ 95% on room air',
+    'Reduced urine output'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-08',
+  summary: 'A 20-hour-old female term neonate (DOB 06/04/2026, EGA 39 weeks + 3 days, birth weight 2.9 kg) delivered via spontaneous vaginal delivery at a private hospital in Ijebu-Ode, Ogun State, the fourth child of a 29-year-old G4P4+0 mother with irregular antenatal care. Labour was prolonged (approximately 15 hours) with a prolonged second stage, thick meconium-stained liquor, no continuous fetal monitoring, and reduced fetal movements noted 18 hours before delivery. Baby was depressed at birth with delayed cry (2–3 minutes), Apgar scores of 5, 6, and 7 at 1, 5, and 10 minutes. Resuscitation was limited to suctioning and stimulation — no bag-mask ventilation or oxygen was administered. Since birth, the neonate has had reduced spontaneous movements, poor feeding with weak suck, and lethargy. Multifocal clonic seizures with facial twitching and eye deviation developed 8 hours after birth. Examination reveals a lethargic but arousable term neonate with hypertonia, intermittent stiffening, weak suck, incomplete Moro reflex, equal and reactive pupils, and multifocal clonic seizures. SpO₂ 95% on room air. No hepatosplenomegaly. Mild dehydration. Diagnosis: perinatal asphyxia with moderate hypoxic ischaemic encephalopathy (Sarnat Stage II). Requires immediate admission to the neonatal unit, seizure control, glucose management, fluid restriction, empirical antibiotics, therapeutic hypothermia if available, and neurodevelopmental follow-up.',
+  content: `
+A 20-hour-old female neonate delivered at a private hospital in Ijebu-Ode, Ogun State. She is the fourth child in a monogamous Muslim Yoruba family of low-middle socioeconomic class.
+
+Informant: Mother (reliable)
+
+DOB: 06/04/2026
+Time of birth: 03:25 am
+Mode of delivery: Spontaneous vaginal delivery
+EGA: 39 weeks + 3 days (term)
+
+PRESENTING COMPLAINTS
+Poor cry at birth
+Reduced activity since birth
+Poor feeding since birth
+Abnormal jerky movements × 8 hours
+
+HISTORY OF PRESENTING ILLNESS
+The baby was delivered approximately 20 hours prior to presentation and has not been well since birth.
+
+Immediately after delivery, the baby cried weakly after a delay of approximately 2–3 minutes and was noted to be less active than expected. She was stimulated and suctioned before crying but did not require advanced resuscitation.
+
+Since birth, the baby has had reduced spontaneous movements and has been excessively sleepy. She is arousable with stimulation but does not sustain activity and quickly returns to lethargy.
+
+Breastfeeding has been difficult from birth due to a weak and poorly coordinated suck with poor latching and intermittent sucking, leading to inadequate intake.
+
+About 8 hours prior to presentation, the baby developed abnormal jerky movements involving the upper and lower limbs. The movements are intermittent, multifocal, and not related to external stimuli. Each episode lasts a few seconds and is associated with facial twitching and occasional eye deviation. No cyanosis or apnoea has been observed. The frequency of episodes has gradually increased. Occasional irritability between episodes is reported.
+
+No history of fever, vomiting, or trauma after delivery. Urine output is reduced but present.
+
+PREGNANCY HISTORY
+Mother: 29-year-old G4P4+0 with irregular antenatal care
+Pregnancy complicated by:
+Malaria in the third trimester (treated)
+Reduced fetal movements noted approximately 18 hours before delivery
+No history of hypertension or diabetes
+Only one dose of tetanus toxoid received during pregnancy
+
+LABOUR AND DELIVERY HISTORY
+Spontaneous onset of labour at term
+Duration of labour: Prolonged (approximately 15 hours)
+Second stage: Prolonged
+Liquor: Thick meconium-stained (grade III meconium)
+Delivery conducted by a midwife
+No continuous intrapartum fetal monitoring
+Baby noted to be depressed at birth
+
+APGAR SCORES
+1 minute: 5 (moderate depression)
+5 minutes: 6 (moderate depression)
+10 minutes: 7 (still mildly depressed at 10 minutes — significant)
+
+RESUSCITATION AT BIRTH
+Suctioning and stimulation only
+No bag-mask ventilation administered
+No supplemental oxygen administered
+Note: Failure to provide bag-mask ventilation and oxygen in a depressed term neonate with Apgar 5 at 1 minute represents a gap in resuscitation care — the delay in effective resuscitation likely contributed to the duration of hypoxic injury
+
+POSTNATAL COURSE
+Since birth: poor cry, reduced activity, poor feeding, and seizures developing at approximately 12 hours of life
+
+IMMUNISATION HISTORY
+None
+
+FEEDING HISTORY
+Poor suck; not effectively breastfeeding since birth
+
+FAMILY AND SOCIAL HISTORY
+No family history of seizures or neurological disease
+No consanguinity
+Low-middle socioeconomic class
+
+REVIEW OF SYSTEMS
+CNS: Lethargy, seizures, irritability
+Respiratory: No persistent respiratory distress
+Gastrointestinal: Poor feeding, reduced oral intake
+Genitourinary: Reduced urine output
+
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Term neonate, ill-looking
+Lethargic but arousable
+Reduced spontaneous movements
+Intermittently irritable
+Not pale
+Not icteric
+Not cyanosed
+Mildly dehydrated
+
+Anthropometry:
+Birth weight: 2.9 kg (appropriate for gestational age — lower end of normal for 39 weeks)
+Length: 48 cm
+Occipitofrontal circumference: 33 cm (within normal limits for term, though on the lower end)
+
+Vital Signs:
+Temperature: 36.4°C (low-normal; hypothermia must be prevented — avoid active cooling below 36°C unless controlled therapeutic hypothermia is being administered)
+Pulse: 152 bpm (tachycardia — consistent with seizures, stress, or mild fever)
+RR: 54 cpm (mildly elevated; monitor for respiratory compromise)
+SpO₂: 95% on room air (mildly reduced — supplemental oxygen required)
+
+Central Nervous System:
+Level of consciousness: Lethargic but responsive to stimulation
+Tone: Hypertonia (increased tone)
+Posture: Flexed posture with intermittent stiffening
+Reflexes: Weak suck reflex, incomplete Moro reflex
+Pupils: Equal and reactive (bilateral pupillary reactivity is a reassuring sign — suggests brainstem integrity at this stage)
+Seizures: Multifocal clonic seizures observed during examination
+Facial twitching and eye deviation noted during episodes
+Consistent with: Sarnat Stage II (moderate HIE)
+
+Cardiovascular System:
+Pulse 152 bpm, regular, good volume
+Heart sounds S1 and S2, no murmurs
+
+Respiratory System:
+RR 54 cpm
+No significant distress
+Breath sounds vesicular bilaterally
+
+Abdomen:
+Full, moves with respiration
+No organomegaly
+
+ASSESSMENT
+
+Perinatal asphyxia with moderate hypoxic ischaemic encephalopathy (Sarnat Stage II) in a term neonate
+
+Diagnosis based on:
+
+Definition of perinatal asphyxia and HIE:
+Perinatal asphyxia is defined as impaired gas exchange at birth leading to hypoxaemia (reduced oxygen delivery), hypercarbia, and metabolic acidosis
+When the brain is involved, the resulting condition is hypoxic ischaemic encephalopathy (HIE)
+HIE is the most common cause of neonatal encephalopathy and a leading cause of neonatal mortality and long-term neurodisability globally
+
+Pathophysiology:
+
+Primary energy failure (immediate):
+Interruption of placental blood flow and oxygen delivery during asphyxia
+Cerebral oxygen delivery falls below metabolic demand
+Neurons switch to anaerobic glycolysis — ATP production is markedly reduced
+Accumulation of lactic acid and carbon dioxide → metabolic and respiratory acidosis
+Failure of the Na⁺/K⁺-ATPase pump → intracellular sodium and calcium accumulate
+Neuronal cell swelling (cytotoxic oedema) → cell death
+
+Reperfusion injury (secondary energy failure — occurs 6–48 hours after resuscitation):
+Restoration of blood flow delivers oxygen to previously ischaemic brain regions
+Paradoxically, reperfusion triggers additional damage through:
+Generation of reactive oxygen species (free radicals) — overwhelm antioxidant defences
+Excitotoxicity: glutamate release activates NMDA receptors → sustained calcium influx → mitochondrial dysfunction
+Inflammatory cascade: activated microglia and astrocytes release cytokines
+Activation of apoptosis pathways
+This secondary energy failure is the pathophysiological basis for therapeutic hypothermia — cooling reduces the metabolic rate of the injured brain, limits excitotoxicity, free radical production, and apoptosis during this critical window
+
+The latent window:
+Between primary and secondary energy failure, there is a latent phase of approximately 6–12 hours where injured neurons are still viable
+This is the therapeutic window for neuroprotective interventions (therapeutic hypothermia must be initiated within 6 hours of birth to be effective)
+This neonate is now 20 hours old — the therapeutic window has partially elapsed but may not be fully closed; discuss urgency with neonatologist
+
+Neonatal seizures in HIE:
+Seizures in the context of HIE typically begin 12–24 hours after birth
+This neonate developed seizures at approximately 12 hours after birth — entirely consistent with HIE
+Neonatal seizures are predominantly subcortical in origin (EEG seizures may be present without clinical correlates — electroclinical dissociation)
+In HIE, seizures are caused by:
+Neuronal hyperexcitability from failed inhibitory neurotransmitter systems
+Excess glutamate release (excitotoxicity)
+Hypoglycaemia, electrolyte disturbances, and metabolic acidosis lowering the seizure threshold
+
+Sarnat Staging of HIE:
+The Sarnat and Sarnat classification (1976) and subsequent modifications grade HIE into three stages based on clinical neurological assessment:
+
+Sarnat Stage I (mild HIE):
+Hyperalertness, irritability
+Normal or mildly increased tone
+Normal or exaggerated reflexes
+Normal pupils
+No seizures
+Duration less than 24 hours; excellent prognosis
+
+Sarnat Stage II (moderate HIE) — this neonate:
+Lethargy (altered consciousness) — present
+Hypertonia (may alternate with hypotonia) — hypertonia present
+Weak reflexes (incomplete Moro, weak suck) — present
+Pupils: equal and reactive (may be slightly sluggish) — equal and reactive
+Seizures: present — multifocal clonic seizures observed
+Clinical course: variable; prognosis intermediate — significant proportion have neurodevelopmental sequelae; greatest benefit from therapeutic hypothermia
+Duration: days; may evolve to Stage I (improving) or Stage III (worsening)
+
+Sarnat Stage III (severe HIE):
+Stupor or coma — unresponsive to stimulation
+Profound hypotonia (flaccid)
+Absent or severely depressed reflexes
+Pupils: fixed and dilated, or unequal
+Frequent or continuous seizures
+Prognosis: very poor — high mortality, major neurodisability in survivors
+
+This neonate meets criteria for Sarnat Stage II: lethargy, hypertonia, weak suck and incomplete Moro, equal and reactive pupils, and multifocal clonic seizures
+
+Risk factors for perinatal asphyxia identified in this case:
+
+Antenatal risk factors:
+Irregular antenatal care: insufficient monitoring for fetal wellbeing
+Malaria in the third trimester: can cause placental dysfunction, fetal anaemia, and growth restriction
+Reduced fetal movements 18 hours before delivery: a warning sign of fetal compromise that was not acted upon promptly
+Only one dose of tetanus toxoid (indirect indicator of poor antenatal care engagement)
+
+Intrapartum risk factors:
+Prolonged labour (approximately 15 hours): sustained uteroplacental insufficiency
+Prolonged second stage: head compression, repeated cord compression, reduced placental perfusion during pushing
+Thick meconium-stained liquor (grade III): marker of significant fetal distress (acute or chronic); meconium aspiration syndrome risk
+No continuous intrapartum fetal monitoring: fetal heart rate abnormalities signalling deterioration were not detected or acted upon
+
+Delivery and resuscitation factors:
+Baby depressed at birth (Apgar 5 at 1 minute): required prompt and effective resuscitation
+Delayed cry (2–3 minutes): prolonged apnoea in a depressed neonate
+No bag-mask ventilation despite Apgar of 5 at 1 minute: the first and most critical step in neonatal resuscitation is establishing effective ventilation; failure to provide positive pressure ventilation prolonged the hypoxic insult
+No supplemental oxygen provided: further compounded hypoxaemia
+Apgar still 6 at 5 minutes and 7 at 10 minutes: persistent depression despite stimulation — confirms significant perinatal compromise
+This pattern of suboptimal resuscitation likely prolonged the duration and severity of hypoxic brain injury
+
+Meconium aspiration syndrome (MAS) — must be excluded:
+Thick meconium-stained liquor with a depressed baby raises concern for MAS
+MAS occurs when meconium is aspirated into the airways, causing chemical pneumonitis, airway obstruction, surfactant inactivation, and pulmonary hypertension
+This neonate was suctioned at birth (appropriate)
+Current: SpO₂ 95%, RR 54 cpm — mild respiratory compromise, no significant distress
+Chest X-ray will assess for patchy infiltrates, hyperinflation, and pneumothorax characteristic of MAS
+If MAS is confirmed: more aggressive respiratory support may be required
+
+Clinical evidence supporting Sarnat Stage II:
+Lethargy (altered consciousness) — present and documented
+Hypertonia with intermittent stiffening — present
+Weak suck reflex — present
+Incomplete Moro reflex — present
+Equal and reactive pupils — present (intact brainstem)
+Multifocal clonic seizures — present
+Seizure onset approximately 12 hours after birth — consistent with HIE timing
+Poor feeding from birth — present
+
+Additional biochemical evidence (investigations will confirm):
+Metabolic acidosis expected on blood gas (base deficit greater than 12 mmol/L in cord blood or first hour of life confirms significant asphyxia — not yet obtained)
+Elevated serum lactate (tissue anaerobic metabolism)
+Possible hypoglycaemia (depleted glycogen stores from prolonged fetal stress)
+Possibly elevated serum creatinine (renal hypoperfusion)
+
+Differential diagnoses:
+
+Neonatal meningitis:
+Can cause encephalopathy, seizures, and poor feeding in the neonatal period
+Key distinguishing features: fever, bulging fontanelle (both absent here — fontanelle assessment not documented but would be expected to be tense in meningitis), leucocytosis
+Seizures from HIE typically begin at 12–24 hours; meningitis seizures can begin later
+The timeline (depressed at birth, poor from birth, no fever) is much more consistent with HIE than meningitis
+Lumbar puncture and CSF analysis will formally exclude meningitis (perform when clinically stable)
+
+Hypoglycaemic encephalopathy:
+Severe neonatal hypoglycaemia (glucose less than 2.6 mmol/L) causes seizures, lethargy, and encephalopathy
+Risk factors: small-for-gestational-age, perinatal asphyxia (depletes glycogen), poor feeding
+Hypoglycaemia may coexist with HIE and worsen neurological outcome
+Urgent blood glucose must be measured and corrected — glucose will be checked immediately and treated if low
+Coexisting hypoglycaemia in this neonate is a critical management concern (prolonged fetal stress depletes hepatic glycogen)
+
+Metabolic disorders (inborn errors of metabolism):
+Organic acidaemias, urea cycle defects, and aminoacidopathies can present with neonatal encephalopathy and seizures
+Typically: vomiting, metabolic acidosis out of proportion to clinical picture, abnormal biochemical profile, family history
+Less likely given clear intrapartum history and risk factors
+Metabolic screen (serum ammonia, amino acids, organic acids) should be considered if HIE diagnosis remains uncertain after initial workup
+
+Intracranial haemorrhage:
+Can cause neonatal seizures and encephalopathy
+Risk factors: traumatic delivery (prolonged second stage with vacuum or forceps — no instrumentation reported here)
+Cranial ultrasound and CT if available will identify intraventricular or parenchymal haemorrhage
+
+Neonatal epilepsy syndromes:
+Benign neonatal seizures, pyridoxine-dependent epilepsy, glucose transporter deficiency
+Rare; no family history; timing and clinical context strongly favour HIE
+Consider if seizures are refractory to standard anticonvulsants
+
+Polycythaemia:
+Hyperviscosity from polycythaemia can cause neonatal encephalopathy, jitteriness, and seizures
+PCV will be checked; central PCV greater than 65% with symptoms confirms polycythaemia
+Treatment: partial exchange transfusion with Normal Saline
+
+Key diagnostic principle:
+The diagnosis of HIE is clinical, based on the intrapartum history, Apgar scores, resuscitation course, and neurological examination using Sarnat staging. No single investigation confirms the diagnosis, though neuroimaging (MRI) provides the most accurate assessment of the extent and pattern of brain injury.
+
+PLAN
+
+This is a neonatal emergency. Alert neonatal consultant and NICU team immediately.
+
+Admission and Environment
+
+Admit immediately to the neonatal intensive care unit (NICU):
+Nurse in a quiet, low-stimulation environment
+Rationale: excessive handling and sensory stimulation increases cerebral metabolic demand and can trigger further seizures in an already compromised brain
+Coordinate all nursing interventions into a single handling episode to minimise disturbance
+Ensure suction apparatus, bag-mask, and resuscitation equipment are immediately accessible
+
+Therapeutic Hypothermia (Time-Critical Neuroprotective Intervention)
+
+Therapeutic hypothermia (TH) is the only evidence-based neuroprotective treatment for moderate to severe HIE and is the standard of care
+
+Mechanism:
+Cooling the brain from the normal temperature of 37°C to 33–34°C body temperature (whole body cooling) or 34–35°C (selective head cooling)
+Reduces cerebral metabolic rate by approximately 5% per 1°C decrease in temperature
+Decreases excitotoxic glutamate release, reduces reactive oxygen species generation, suppresses inflammatory cytokines, and inhibits apoptosis
+Effectively interrupts the secondary energy failure cascade during the latent window
+
+Eligibility criteria (standard criteria for therapeutic hypothermia):
+Term or near-term neonate (greater than or equal to 36 weeks gestation): this neonate qualifies (39+3 weeks)
+Evidence of perinatal asphyxia (meets at least one of):
+Apgar score less than or equal to 5 at 10 minutes — Apgar 7 at 10 minutes (borderline; does not meet this criterion strictly)
+OR continued need for resuscitation at 10 minutes — not documented
+OR cord blood or first-hour blood gas pH less than 7.0 or base deficit greater than 16 mmol/L — not yet obtained (urgent blood gas required)
+AND evidence of encephalopathy (Sarnat Stage II or III): confirmed — this neonate has Sarnat Stage II
+Time window: must be initiated within 6 hours of birth (the latent window before secondary energy failure)
+This neonate is 20 hours old at presentation — the standard 6-hour window has elapsed
+
+Critical consideration regarding timing in this case:
+The standard cooling window of 6 hours from birth has passed (neonate is now 20 hours old)
+However, evidence suggests that:
+The latent window may extend beyond 6 hours in some cases, particularly where cooling was not available and the neonate was not previously warmed
+Some neonates may still derive benefit from late cooling (initiated after 6 hours but before 24 hours), though the evidence is less robust
+This decision must be made urgently by the senior neonatologist on call
+If the neonate has not been actively warmed (normothermic or mildly hypothermic: temperature 36.4°C — as documented), passive cooling may have already provided some neuroprotection
+Do NOT actively warm the neonate beyond 36.5°C while awaiting neonatologist decision
+Do NOT induce hypothermia without neonatologist oversight and monitoring capacity
+
+If therapeutic hypothermia is initiated:
+Target core temperature: 33.0–34.0°C (whole body cooling, preferred) or 34–35°C (selective head cooling)
+Cooling device: servo-controlled cooling blanket (preferred), ice packs (improvised, requires careful temperature monitoring — risk of overcooling and complications)
+Duration: 72 hours of continuous cooling
+Slow rewarming: 0.5°C per hour over approximately 6–12 hours after 72 hours of cooling
+Continuous core temperature monitoring throughout (rectal or oesophageal temperature probe)
+
+Contraindications to therapeutic hypothermia:
+Gestation less than 36 weeks (immature thermoregulation)
+Lethal chromosomal anomaly
+Major congenital anomaly incompatible with survival
+Presence of severe coagulopathy (relative — assess case by case)
+
+Complications of therapeutic hypothermia:
+Sinus bradycardia (expected; acceptable if heart rate greater than 80 bpm; no treatment required unless haemodynamic compromise)
+Hypotension
+Coagulopathy (thrombocytopaenia, prolonged clotting times)
+Hypoglycaemia (requires more frequent glucose monitoring)
+Electrolyte disturbances (hypocalcaemia, hypomagnesaemia)
+Skin injuries from cooling device (monitor skin integrity hourly)
+Feed intolerance (NG feeds deferred during cooling in many protocols)
+Subcutaneous fat necrosis (delayed complication, weeks after cooling)
+
+Monitoring during therapeutic hypothermia:
+Core temperature: continuous
+Heart rate, respiratory rate, SpO₂, blood pressure: continuous
+Blood glucose: every 1–2 hours
+Serum electrolytes, calcium, magnesium: every 6–12 hours
+Coagulation profile: every 24 hours
+Amplitude-integrated EEG (aEEG) if available: continuous seizure monitoring throughout cooling
+
+Airway, Breathing, and Circulation
+
+Airway:
+Maintain airway patency
+Position: neutral sniffing position (avoid neck flexion or extension)
+Suction oropharynx if secretions compromising airway
+
+Breathing:
+Supplemental oxygen via nasal prongs (0.5–1 L/min)
+Target SpO₂: 95–98%
+Avoid hyperoxia: excessive oxygen generates reactive oxygen species and worsens reperfusion injury in the asphyxiated brain — titrate oxygen to the minimum needed to maintain SpO₂ in target range
+Avoid hypoxia: SpO₂ below 92% causes ongoing cerebral hypoxia and must be corrected
+
+If respiratory compromise worsens:
+CPAP via nasal prongs (particularly if MAS confirmed or suspected)
+Endotracheal intubation and mechanical ventilation if:
+Persistent apnoea
+SpO₂ below 90% despite supplemental oxygen and CPAP
+PaCO₂ greater than 60 mmHg (hypoventilation worsens cerebral acidosis and vasodilation)
+
+Cardiovascular:
+Assess perfusion: capillary refill time (target less than 3 seconds), skin colour, pulse volume, blood pressure
+If hypotension (BP less than 40/25 mmHg in a term neonate at rest): IV Normal Saline 10 ml/kg bolus over 30–60 minutes
+Dopamine infusion (5–10 mcg/kg/min) if hypotension is refractory to fluid resuscitation
+Dobutamine: if myocardial dysfunction (common after perinatal asphyxia — transient ischaemic myocardial injury)
+Avoid fluid overload (cerebral oedema risk in HIE)
+
+Blood Glucose Management (Urgent)
+
+Hypoglycaemia is a major secondary insult to the asphyxiated brain and must be identified and corrected immediately
+
+Urgent blood glucose (point-of-care glucose meter):
+If glucose less than 2.6 mmol/L: IV Dextrose 10% bolus 2 ml/kg over 5 minutes, followed by maintenance infusion at a rate to maintain normoglycaemia
+If glucose 2.6–5 mmol/L: increase maintenance infusion rate to maintain glucose in the normal range
+If glucose greater than 8–10 mmol/L (hyperglycaemia): reduce infusion rate (hyperglycaemia also worsens HIE outcomes — causes lactic acidosis and cerebral injury)
+Target blood glucose: 4–6 mmol/L (avoid hypoglycaemia and hyperglycaemia)
+Frequency of glucose monitoring: every 1–2 hours during the acute phase
+
+Fluid Management
+
+Fluid restriction in HIE (important):
+In HIE, the brain is vulnerable to cerebral oedema from excessive fluid administration
+Inappropriate ADH secretion (SIADH) is common after perinatal asphyxia — causes hyponatraemia and fluid retention
+Fluid restriction is therefore standard in HIE management (unless haemodynamic compromise requires resuscitation fluid)
+
+Recommended fluid volumes in HIE:
+Day 1: 40–60 ml/kg/day of 10% Dextrose in 0.225% Normal Saline
+(This is lower than standard neonatal maintenance of 60–80 ml/kg/day for day 1 — intentional fluid restriction)
+Rationale: restricting fluids reduces the risk of cerebral oedema and hyponatraemia
+Increase cautiously over subsequent days based on urine output, electrolytes, and clinical assessment
+
+Strict input-output monitoring:
+Weigh nappies hourly (or catheterise for accurate measurement if anuric)
+Target urine output: 1–3 ml/kg/hr (oliguria below 0.5 ml/kg/hr indicates renal involvement — acute tubular necrosis from asphyxia)
+If significant oliguria: further restrict fluids; monitor closely for acute kidney injury (rising creatinine, electrolyte derangements)
+Daily weight (monitor for fluid retention)
+
+Seizure Control
+
+Neonatal seizures are a neurological emergency in HIE — they increase cerebral metabolic demand, worsen oedema, and cause additional neuronal injury
+
+First-line: Phenobarbitone (Phenobarbital)
+
+Loading dose: IV Phenobarbitone 20 mg/kg administered slowly over 15–20 minutes
+If seizures continue 15–30 minutes after the loading dose: additional doses of 5–10 mg/kg IV can be given every 15–30 minutes
+Maximum total loading dose: 40 mg/kg (some units use up to 40 mg/kg in refractory neonatal seizures)
+Maintenance dose: 3–5 mg/kg/day IV or IM, divided into one to two doses per day, beginning 12–24 hours after the loading dose
+Monitor for respiratory depression during and after loading dose (have bag-mask ventilation ready)
+Check blood levels if seizures are refractory or if toxicity is suspected (therapeutic range: 20–40 mcg/ml)
+
+Second-line (if seizures persist despite adequate Phenobarbitone):
+
+IV Phenytoin (Fosphenytoin preferred if available):
+Loading dose: Phenytoin 15–20 mg/kg IV over 30 minutes (monitor for cardiac arrhythmias during infusion — ECG monitoring required)
+Fosphenytoin 15–20 mg PE/kg IV (safer profile — less cardiac toxicity)
+Maintenance: 4–8 mg/kg/day
+
+IV Midazolam:
+Midazolam infusion 0.05–0.15 mg/kg/hr IV
+Effective for refractory neonatal seizures
+Risk of respiratory depression — have ventilatory support available
+
+IV Diazepam:
+IV Diazepam 0.3 mg/kg slow IV push for acute seizure control (rescue dose)
+Relatively short duration of action; not ideal for continuous maintenance
+Risk of respiratory depression
+
+Levetiracetam (if available):
+IV Levetiracetam loading dose 40–60 mg/kg
+Increasingly used as an alternative to Phenobarbitone in some centres (fewer sedating side effects, does not cause respiratory depression)
+Good safety profile in neonates
+May be used as a first-line agent in centres where it is available
+
+EEG and aEEG monitoring:
+Amplitude-integrated EEG (aEEG) or conventional EEG is essential for monitoring neonatal seizures in HIE
+Electroclinical dissociation is common in treated neonatal seizures (clinical seizures stop but EEG seizures continue — subclinical seizures)
+All neonates with HIE-related seizures on anticonvulsant treatment should have EEG monitoring to detect subclinical seizures
+In resource-limited settings: clinical monitoring with neurological assessment every 2–4 hours is the minimum standard
+
+Anticonvulsant duration:
+In HIE, seizures typically resolve as the encephalopathy improves over days to weeks
+Anticonvulsants should not be continued long-term unless the neonate has ongoing seizure activity or an underlying epilepsy syndrome is identified
+Phenobarbitone can be weaned gradually as seizures resolve (typically by hospital discharge if neurologically improving)
+
+Empirical Antibiotic Therapy
+
+Initiate broad-spectrum antibiotics to cover neonatal sepsis (which can mimic or coexist with HIE and cause seizures independently)
+
+IV Ampicillin 50 mg/kg every 12 hours (day 0–7 of life)
+PLUS IV Gentamicin 5 mg/kg once daily
+
+Rationale:
+It is not possible to clinically differentiate HIE from neonatal meningitis or sepsis in the acute setting without CSF and blood culture results
+Antibiotic therapy must be started empirically while awaiting culture results
+Duration: 48–72 hours initially; review when blood culture and CSF results are available
+If cultures are negative and clinical picture is consistent with HIE alone: consider stopping antibiotics (guided by CRP, PCT, and clinical course)
+
+Caution with Gentamicin during therapeutic hypothermia:
+Therapeutic hypothermia reduces renal clearance of Gentamicin
+Extended dosing intervals (every 36–48 hours instead of 24 hours) are used during cooling
+Monitor Gentamicin trough levels carefully to avoid toxicity (nephrotoxicity, ototoxicity)
+
+Investigations
+
+Urgent (perform immediately):
+
+Blood glucose (point-of-care):
+Hypoglycaemia is an immediate secondary insult — must be measured and treated first
+
+Arterial or capillary blood gas:
+PaO₂, PaCO₂, pH, base deficit
+Base deficit greater than 12 mmol/L at birth or in the first hour of life is a key criterion for confirmed perinatal asphyxia
+Guides oxygen therapy, ventilatory support, and acidosis management
+
+Full blood count with differential:
+Haemoglobin, PCV (assess for polycythaemia — PCV greater than 65% can cause hyperviscosity-related encephalopathy)
+White cell count (exclude infection)
+Platelet count (thrombocytopaenia in sepsis or DIC)
+
+Serum electrolytes, urea, creatinine:
+Hyponatraemia (SIADH, common in HIE)
+Hyperkalaemia (renal tubular injury)
+Elevated creatinine and urea (acute kidney injury — renal hypoperfusion during asphyxia)
+Baseline for fluid management
+
+Serum calcium and magnesium:
+Hypocalcaemia (common after perinatal asphyxia, worsens seizure threshold)
+Hypomagnesaemia (worsens seizure threshold and cardiac function)
+
+Serum glucose:
+Formal laboratory confirmation of point-of-care result
+
+Blood culture:
+Two sets before antibiotics
+Identifies bacteraemia in case sepsis is the primary or contributing diagnosis
+
+CRP and procalcitonin:
+Inflammatory markers to assess probability of infection
+
+Serum lactate:
+Elevated in tissue hypoperfusion and anaerobic metabolism
+Serial lactate guides resuscitation (falling lactate indicates improving perfusion)
+
+Serum bilirubin:
+Hyperbilirubinaemia can worsen neurological injury in HIE (unconjugated bilirubin is neurotoxic)
+Perinatal asphyxia accelerates haemolysis and impairs hepatic bilirubin conjugation
+Monitor daily
+
+Coagulation profile:
+PT, aPTT, INR, fibrinogen, D-dimer
+DIC is a recognised complication of perinatal asphyxia (ischaemic liver injury impairs clotting factor synthesis)
+Baseline coagulation before any invasive procedure
+
+Liver function tests:
+Perinatal asphyxia causes ischaemic hepatocellular injury
+Elevated transaminases, prolonged PT from impaired synthetic function
+Baseline AST and ALT
+
+Thyroid function tests:
+Neonatal thyroid dysfunction can cause encephalopathy — screen as part of routine metabolic investigation
+
+G6PD enzyme assay:
+Yoruba female neonate — though X-linked recessive disease predominantly affects males, carrier females can occasionally manifest symptoms
+Exclude as a contributing factor to jaundice
+
+Neuroimaging:
+
+Cranial ultrasound (first-line, available at bedside):
+Assesses for:
+Cerebral oedema (loss of normal gyral pattern, narrowed sulci, increased echogenicity)
+Intraventricular haemorrhage
+Periventricular leukomalacia (more common in preterm)
+Limitations: poor sensitivity for cortical injury in HIE; normal cranial ultrasound does not exclude significant HIE
+Perform as soon as available, within the first 24 hours
+
+MRI brain (gold standard):
+Most sensitive and specific for the pattern and extent of HIE-related brain injury
+Patterns of injury in HIE:
+Profound/acute asphyxia: injury to the basal ganglia, thalami, and posterior limb of internal capsule (deep grey matter injury pattern — worst prognosis for motor outcome)
+Prolonged/partial asphyxia: injury to the cortex and white matter (watershed distribution)
+Diffusion-weighted imaging (DWI) is most sensitive in the first 7 days after injury
+T1 and T2 sequences complement DWI after day 7
+MRI findings guide prognosis and counsel parents on the expected neurodevelopmental outcome
+Schedule MRI at day 7–10 of life (peak sensitivity for injury detection)
+If MRI is unavailable at this centre: CT brain can provide some information but is less sensitive and involves radiation
+
+Lumbar puncture and CSF analysis:
+To formally exclude bacterial meningitis
+Defer until the neonate is haemodynamically stable, not actively seizing, and not coagulopathic
+Perform as soon as it is safe to do so
+
+Electroencephalography (EEG) or amplitude-integrated EEG (aEEG):
+Essential for monitoring seizure burden in HIE
+Identifies subclinical seizures (electroclinical dissociation)
+Background EEG pattern in HIE guides prognosis:
+Normal or mildly abnormal background: generally better outcome
+Burst suppression, low voltage, or isoelectric (flat) EEG: poor prognosis
+Initiate as soon as available
+
+Chest X-ray:
+Essential given thick meconium at delivery and mild respiratory compromise
+Assess for meconium aspiration syndrome:
+Patchy bilateral infiltrates
+Hyperinflation (air trapping from partial airway obstruction)
+Pneumothorax
+Pneumomediastinum
+If MAS is confirmed: more aggressive respiratory management (CPAP, surfactant, inhaled nitric oxide for pulmonary hypertension)
+
+Echocardiogram:
+Perinatal asphyxia causes transient myocardial ischaemia and pulmonary hypertension
+Assess:
+Cardiac function (wall motion abnormalities)
+Pulmonary arterial pressure (persistent pulmonary hypertension of the newborn — PPHN)
+Tricuspid regurgitation (marker of elevated pulmonary pressure)
+PPHN with HIE significantly worsens prognosis and requires specific management (inhaled nitric oxide, sildenafil)
+
+Renal ultrasound:
+If significant acute kidney injury (oliguria, rising creatinine): assess for renal parenchymal echogenicity (ischaemic nephropathy)
+
+Nutritional Support
+
+Enteral feeding during therapeutic hypothermia:
+In most cooling protocols, enteral feeds are withheld or given at minimal trophic volumes during the 72-hour cooling period
+Rationale: gut perfusion may be compromised during asphyxia (mesenteric vasoconstriction to prioritise brain and heart); early feeding risks necrotising enterocolitis (NEC); reduced gut motility during cooling
+Maintain IV 10% Dextrose at the restricted fluid volume during cooling
+
+Reintroduction of enteral feeds after rewarming:
+Begin expressed breast milk via nasogastric tube
+Start trophic feeds (10–20 ml/kg/day) and advance cautiously by 20–30 ml/kg/day
+Assess tolerance: gastric residuals, abdominal distension, blood in stool
+Advance to full feeds (150–180 ml/kg/day) over 5–7 days
+
+Expressed breast milk:
+Encourage the mother to express breast milk from day 1 of admission
+Breast milk contains neuroprotective factors (lactoferrin, long-chain polyunsaturated fatty acids, growth factors)
+Store appropriately and use for nasogastric feeds when feeding is resumed
+
+Transition to breastfeeding:
+Once neurological condition improves and suck reflex strengthens (typically over 7–14 days for Sarnat Stage II)
+Lactation support for the mother throughout admission
+
+Monitoring
+
+Continuous:
+Pulse oximetry (SpO₂)
+Cardiac monitor (heart rate, rhythm)
+Core temperature probe (if therapeutic hypothermia instituted)
+Apnoea and respiratory monitor
+aEEG (if available): seizure monitoring
+
+Frequent:
+Blood glucose: every 1–2 hours
+Vital signs (temperature, pulse, RR, BP): every 1–2 hours during acute phase
+Neurological assessment (Sarnat staging, seizure frequency and duration): every 2–4 hours
+Urine output: hourly
+Core temperature: every 30 minutes during cooling
+SpO₂: continuous; document every hour
+
+Periodic:
+Serum electrolytes and calcium: every 8–12 hours
+Coagulation profile: every 24 hours
+Blood gas: every 4–6 hours or with any clinical deterioration
+Haemoglobin and PCV: every 24 hours
+Serum bilirubin: every 12–24 hours
+
+Management of Organ-Specific Complications of Perinatal Asphyxia
+
+HIE rarely involves the brain in isolation — perinatal asphyxia is a multiorgan injury:
+
+Renal (acute kidney injury):
+Most common organ affected after the brain
+Oliguria (urine output less than 0.5 ml/kg/hr) is common
+Management: fluid restriction, avoid nephrotoxic drugs (aminoglycosides — use with caution and monitor levels), monitor electrolytes, referral to nephrology if severe or persistent
+Dialysis may be required for severe oliguric renal failure
+
+Cardiovascular (transient myocardial ischaemia):
+Tricuspid regurgitation, right ventricular dysfunction, persistent pulmonary hypertension
+Management: Dopamine or Dobutamine for myocardial dysfunction; inhaled nitric oxide for pulmonary hypertension (if available); Milrinone (phosphodiesterase inhibitor) for refractory pulmonary hypertension
+
+Haematological (DIC):
+Management: FFP 10–15 ml/kg for coagulopathy; cryoprecipitate for hypofibrinogenaemia; platelet transfusion for thrombocytopaenia with bleeding
+
+Metabolic (hypoglycaemia, hypocalcaemia):
+Manage as described above
+
+Gastrointestinal (NEC, ileus):
+Keep nil by mouth during acute phase as per protocol
+Monitor for blood in stool, abdominal distension, bilious gastric residuals
+Serial abdominal X-ray if NEC suspected
+
+Hepatic (ischaemic hepatitis):
+Elevated transaminases, coagulopathy
+Management: supportive; vitamin K 0.5–1 mg IV (adequate for haemostasis support)
+
+Counselling
+
+Both parents should be counselled together, in clear, non-technical language. Engage a translator if needed.
+
+Explanation of what happened at birth:
+During labour, the baby's oxygen supply was reduced for a period of time — likely because of the prolonged labour, the stress on the baby, and the meconium in the fluid
+When the baby was born, she was not breathing well and her heart rate was lower than expected
+She received some help at the delivering hospital but may not have received all the support she needed in the first few minutes of life — this is a difficult message to convey but honesty is important for trust and future planning
+
+Explanation of the diagnosis:
+The brain was affected by the reduction in oxygen during and around birth — this is called HIE (hypoxic ischaemic encephalopathy), or brain injury from reduced oxygen
+The brain is showing moderate effects — this means it is serious, but not the most severe form
+The baby is having seizures (abnormal jerky movements of the limbs and face) because of this brain injury
+The brain is also causing the baby to be sleepy and to feed poorly
+
+Explanation of treatment:
+The baby has been admitted to the special baby unit for close monitoring and treatment
+Medicines are being given to control the seizures
+The baby's blood sugar, breathing, and fluids are being carefully monitored and managed
+If it is appropriate and safe, cooling treatment may be considered — this involves keeping the baby slightly cooler than normal for 3 days, which has been shown to protect the brain from further injury
+The team will explain if and how this will be used
+
+Prognosis:
+Moderate HIE can have different outcomes — some babies recover very well with little or no lasting effects; others may have some difficulties with movement, learning, hearing, or vision as they grow older
+It is too early at this point to predict exactly what the outcome will be for this baby — brain scans (MRI) in the coming days will give more information
+The medical team will be completely honest about findings and what they mean for the baby's future
+Whatever the outcome, the team will do everything possible to give this baby the best start and to support the family
+
+Support and coping:
+This is a very difficult and frightening time for the family
+The parents should be encouraged to visit the NNU regularly, express breast milk, and be involved in the baby's care as much as possible (skin-to-skin when the baby is stable and not being cooled)
+Social support: engage social worker if financial hardship is a concern
+Spiritual support if desired
+
+What to do after discharge:
+The baby will need regular follow-up appointments to monitor development
+She will be assessed by a paediatrician, physiotherapist, and may need audiology and ophthalmology review
+If the baby develops concerns with movement, vision, hearing, or development, early intervention (physiotherapy, occupational therapy, speech therapy) gives the best chance of improvement
+The family should return immediately if the baby develops further seizures, stops feeding, develops fever, or becomes very lethargic
+
+Prevention in future pregnancies:
+The importance of regular antenatal care from early pregnancy is emphasised
+Any reduction in fetal movements during pregnancy must be reported immediately to a healthcare facility
+Delivery should occur in a facility with skilled birth attendance, continuous fetal monitoring in labour, and full neonatal resuscitation capability
+A birth plan for future deliveries should be discussed with an obstetrician
+
+Public health note:
+This case reflects preventable birth injury — inadequate intrapartum monitoring, prolonged labour without escalation, suboptimal neonatal resuscitation
+Notification to the appropriate health authorities regarding the quality of care at the referring facility should be considered, in line with local quality improvement protocols and maternal-neonatal audit processes
+
+PROGNOSIS
+
+Prognosis for Sarnat Stage II (moderate HIE):
+
+Without therapeutic hypothermia:
+Mortality: approximately 15–20%
+Normal neurodevelopmental outcome: approximately 30–50%
+Major neurodisability (cerebral palsy, intellectual disability, epilepsy, sensorineural hearing loss): approximately 30–40%
+
+With therapeutic hypothermia (optimal scenario — within 6 hours):
+Mortality reduced by approximately 25–30% relative risk reduction
+Major neurodisability reduced by approximately 25% relative risk reduction
+Number needed to treat: approximately 7 (seven neonates cooled to prevent one death or major disability)
+This neonate is outside the standard 6-hour window — some benefit may still be possible if cooling is initiated early after presentation (20 hours) but evidence is less robust
+
+Prognosis modifiers:
+
+MRI findings at day 7–10 are the single strongest predictor of neurodevelopmental outcome:
+Normal MRI or mild signal changes: generally good outcome
+Basal ganglia and thalamic injury (deep grey matter pattern): high risk of severe motor disability (quadriplegic cerebral palsy)
+Watershed cortical injury: risk of cognitive impairment, epilepsy
+Bilateral posterior limb of internal capsule involvement: predictive of abnormal motor outcome
+
+EEG background pattern:
+Normal or mildly abnormal background: good predictor of normal outcome
+Burst suppression, flat, or isoelectric EEG: very poor prognosis
+
+Clinical features at day 7–14:
+If the neonate is feeding well, has improved tone, and is seizure-free: prognosis significantly better
+Persistence of severe encephalopathy beyond day 7: poor prognosis
+
+Specific risks regardless of outcome:
+Epilepsy: 15–30% of HIE survivors
+Sensorineural hearing loss: 5–10% (audiological follow-up essential)
+Visual impairment: from cortical visual impairment (cortical blindness in severe cases)
+Cerebral palsy: predominantly spastic quadriplegia if basal ganglia are involved; spastic diplegia if watershed pattern
+Intellectual disability: variable
+
+Favourable prognostic factors in this neonate:
+Term gestation (39 + 3 weeks)
+Sarnat Stage II (not Stage III)
+Equal and reactive pupils (intact brainstem at presentation)
+Seizures multifocal clonic (not tonic — tonic seizures carry worse prognosis in HIE)
+No reported apnoea
+Rapid presentation and transfer to a facility capable of NICU-level care
+
+Unfavourable prognostic factors:
+Multiple intrapartum risk factors (prolonged labour, thick meconium, inadequate monitoring)
+Persistent Apgar depression at 10 minutes (Apgar 7)
+Suboptimal resuscitation at birth (no bag-mask ventilation or oxygen)
+20-hour delay before arrival at this facility (late presentation narrows treatment window)
+Seizures already established before treatment
+Blood gas not yet obtained (severity of acidosis unknown)
+
+FOLLOW-UP
+Neurodevelopmental clinic at 3, 6, 12, 18, and 24 months — assess motor, cognitive, language, and social development using validated tools (Bayley Scales of Infant Development). MRI brain at day 7–10 of life. EEG or aEEG throughout NNU admission and before discharge. Hearing assessment (AABR) before discharge and at 3 months. Ophthalmology review at 3 months (cortical visual impairment screening). Physiotherapy referral from NNU discharge if motor abnormalities identified. Anticonvulsant weaning plan before discharge if seizures have resolved (Phenobarbitone can be stopped if seizure-free and EEG is improving). Childhood immunisation schedule from 6 weeks of age. Return to care immediately if seizures recur, feeding deteriorates, or developmental regression is noted.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'peds-33',
+  title: 'Severe Perinatal Asphyxia with Hypoxic-Ischaemic Encephalopathy (HIE Stage III)',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Neonatology',
+  condition: 'Severe perinatal asphyxia with hypoxic-ischaemic encephalopathy (Sarnat Stage III)',
+  symptoms: [
+    'Failure to cry at birth',
+    'No spontaneous movement since birth',
+    'Poor or absent feeding since birth',
+    'Recurrent abnormal posturing for 2 hours (tonic seizures)',
+    'Blue at birth with no respiratory effort',
+    'Delayed onset of breathing after resuscitation',
+    'Unresponsive since birth',
+    'Apgar scores: 2 at 1 minute, 3 at 5 minutes, 4 at 10 minutes',
+    'Comatose with generalized hypotonia',
+    'Absent primitive reflexes (no suck, no Moro)',
+    'Tonic posturing with apnoeic spells',
+    'Hypothermia (35.5°C)',
+    'Hypoxia (SpO₂ 88% on room air)',
+    'No urine output observed since birth',
+    'Emergency caesarean section after prolonged labour (14 hours)',
+    'Previous 2 caesarean sections'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-03-27',
+  summary: 'A 6-hour-old term female neonate (40 weeks gestation, birth weight 3.2 kg) delivered via emergency caesarean section for previous 2 CS in labour, presenting with severe perinatal asphyxia. Mother laboured at home for several hours before hospital presentation, total labour approximately 14 hours with scar tenderness noted. Baby did not cry at birth, was limp and blue with no respiratory effort. Required suctioning, stimulation, and bag-mask ventilation with delayed onset of weak irregular breathing. Apgar scores severely depressed: 2 (1 min), 3 (5 min), 4 (10 min). Since birth: no cry, no spontaneous movements, no feeding, unresponsive. Developed recurrent tonic seizures 2 hours prior to review (generalized stiffness, limb extension, arching) with apnoeic spells. Examination reveals comatose term neonate, generalized hypotonia, absent primitive reflexes, sluggish pupils, tonic posturing, hypothermia (35.5°C), bradycardia (110 bpm), irregular respiration with apnoea, hypoxia (SpO₂ 88%). Clinical features consistent with Sarnat Stage III (severe) hypoxic-ischaemic encephalopathy. Very poor prognosis with high mortality risk and severe neurological sequelae if survives.',
+  content: `
+A 6-hour-old female neonate delivered at a secondary hospital in Abeokuta. She is the 3rd child in a monogamous family setting. Parents are Yoruba, Christian, and of middle socioeconomic class.
+
+Informant: Mother and attending nurse (reliable)
+
+BIODATA
+Date of Birth: 04/04/2026
+Time of Birth: 11:48 am
+Mode of delivery: Emergency Caesarean Section
+Indication: Previous 2 Caesarean sections in labour
+Estimated Gestational Age: 40 weeks (term)
+
+PRESENTING COMPLAINTS
+Failure to cry at birth
+No spontaneous movement since birth
+Poor or absent feeding since birth
+Recurrent abnormal posturing × 2 hours
+
+HISTORY OF PRESENTING ILLNESS
+The baby was delivered about 6 hours prior to presentation via emergency caesarean section and has been unwell since birth.
+
+Mother reported that the baby did not cry immediately after delivery and was noted to be limp with no respiratory effort. The baby was said to be blue (cyanotic) at birth. Initial resuscitation was commenced with suctioning and stimulation, followed by bag-mask ventilation. There was delayed onset of weak, irregular breathing after several minutes of resuscitation.
+
+Since birth, the baby has remained unresponsive with no spontaneous crying or purposeful movements. The baby has not been able to suck and has not accepted breastfeeding since delivery.
+
+About 2 hours prior to review, the baby developed recurrent episodes of abnormal posturing characterized by generalized body stiffness, extension of the limbs, clenched fists, and arching of the back. These episodes occur spontaneously, are not stimulus-dependent, last for several seconds, and are associated with apnoeic spells.
+
+There is no history of fever. Urine output has not been noticed since birth.
+No history of trauma post-delivery.
+
+PREGNANCY HISTORY
+Mother is a 35-year-old G3P3+0 woman who was booked for antenatal care at a secondary health facility.
+
+Pregnancy was largely uneventful until onset of labour.
+No history of hypertension, diabetes, or infection during pregnancy.
+Fetal movements were normal until onset of labour.
+Mother received appropriate tetanus toxoid vaccination and intermittent preventive therapy for malaria.
+
+LABOUR AND DELIVERY HISTORY
+Labour started spontaneously at term
+Mother laboured at home for several hours before presenting to hospital
+Duration of labour prior to intervention: Prolonged (approximately 14 hours)
+There was scar tenderness on arrival at hospital (concerning for scar dehiscence)
+Emergency Caesarean Section was performed
+No documented fetal heart rate monitoring prior to surgery
+Liquor status not well documented (likely meconium-stained based on intraoperative findings)
+
+APGAR SCORES
+1 minute: 2 (severe depression)
+5 minutes: 3 (persistent severe depression)
+10 minutes: 4 (minimal improvement)
+
+RESUSCITATION HISTORY
+Required suctioning and stimulation
+Bag-mask ventilation given
+No documented endotracheal intubation
+No chest compressions recorded
+
+POSTNATAL HISTORY
+Since birth:
+No cry
+No spontaneous activity
+No feeding
+Poor responsiveness
+No prior admissions
+
+IMMUNIZATION HISTORY
+Nil (too early, newborn)
+
+FEEDING HISTORY
+Breastfeeding not established due to absent suck reflex
+
+FAMILY AND SOCIAL HISTORY
+No family history of similar illness
+No consanguinity
+
+REVIEW OF SYSTEMS
+CNS: Unresponsiveness, abnormal posturing, seizures
+Respiratory: Poor respiratory effort, apnoeic episodes
+GI: Poor feeding, no suck
+GU: No urine output observed
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A term neonate, severely ill-looking, flaccid, and unresponsive
+No spontaneous movements
+Not crying
+Hypothermic
+Not pale, not icteric
+Mild dehydration
+
+Anthropometry:
+Birth weight: 3.2 kg (appropriate for gestational age)
+Length: 50 cm (normal)
+Occipitofrontal circumference: 34 cm (normal)
+All within normal range for term neonate
+
+Vital Signs:
+Temperature: 35.5°C (hypothermia)
+Pulse: 110 bpm (bradycardia for newborn, normal 120-160 bpm)
+Respiratory rate: Irregular with apnoeic episodes
+SpO₂: 88% in room air (hypoxia)
+
+Central Nervous System Examination:
+Level of consciousness: Comatose (Sarnat Stage III)
+Tone: Generalized hypotonia (floppy, no posture)
+Reflexes: Absent primitive reflexes (no suck reflex, no Moro reflex, no grasp)
+Pupils: Sluggishly reactive to light
+Seizures: Present (tonic posturing observed during examination)
+Anterior fontanelle: Full but not bulging
+Features consistent with: Severe Hypoxic-Ischaemic Encephalopathy (HIE), Sarnat Stage III
+
+Cardiovascular System:
+Pulse: 110 bpm, weak volume
+Heart sounds: S1, S2 only
+
+Respiratory System:
+Irregular respiration with apnoeic spells
+Poor respiratory effort
+Reduced air entry bilaterally (hypoventilation)
+
+Abdomen:
+Full, moves with respiration
+No organomegaly
+Bowel sounds present
+
+ASSESSMENT
+
+Severe perinatal asphyxia with Hypoxic-Ischaemic Encephalopathy (Sarnat Stage III - Severe)
+
+Diagnosis based on:
+
+Perinatal asphyxia criteria met:
+
+Severe acidosis (presumed):
+Not measured but clinical features consistent
+Apgar scores less than 3 at 5 minutes (score was 3)
+Need for resuscitation at birth
+
+Multi-organ involvement:
+CNS: Encephalopathy, seizures
+Respiratory: Apnoea, poor respiratory effort
+Renal: No urine output (likely acute kidney injury)
+Cardiovascular: Bradycardia, poor perfusion
+
+Evidence of acute intrapartum hypoxic event:
+Prolonged labour (14 hours)
+Delayed presentation to hospital
+Previous caesarean sections (scar complications likely)
+Scar tenderness (suggests dehiscence or rupture)
+Likely meconium-stained liquor
+Delayed emergency intervention
+
+Birth depression:
+Did not cry at birth
+Limp, no respiratory effort
+Blue (cyanosis)
+Required extensive resuscitation
+Very low Apgar scores (2, 3, 4)
+
+Hypoxic-Ischaemic Encephalopathy (HIE) classification:
+
+Sarnat and Sarnat staging system:
+
+Stage I (Mild HIE):
+Hyperalert, irritable
+Normal or increased tone
+Exaggerated reflexes
+Sympathetic overactivity
+Seizures rare
+Prognosis: Excellent, complete recovery
+
+Stage II (Moderate HIE):
+Lethargic
+Hypotonia
+Diminished reflexes
+Seizures common (first 24 hours)
+May have respiratory depression
+Prognosis: Variable, 20-40% risk of sequelae
+
+Stage III (Severe HIE) - This patient:
+Comatose or stuporous
+Flaccid (severe hypotonia)
+Absent reflexes (no suck, no Moro)
+Seizures (tonic, often refractory)
+Respiratory failure, apnoea
+Pupillary abnormalities
+Prognosis: Very poor, 50-75% mortality, survivors have severe disability
+
+This patient meets all criteria for Stage III (Severe):
+Comatose (no response to stimuli)
+Generalized hypotonia (flaccid)
+Absent primitive reflexes
+Tonic seizures
+Apnoeic episodes
+Sluggish pupils
+Hypothermia, bradycardia
+Multi-organ dysfunction
+
+Risk factors for perinatal asphyxia in this patient:
+
+Maternal factors:
+Advanced maternal age (35 years)
+Previous 2 caesarean sections (scarred uterus)
+Delayed hospital presentation
+
+Intrapartum factors:
+Prolonged labour (14 hours before intervention)
+Scar tenderness (uterine rupture or dehiscence likely)
+No continuous fetal monitoring
+Likely meconium passage (fetal distress)
+Emergency caesarean section (suggests acute deterioration)
+
+Resuscitation factors:
+Severe birth depression
+Delayed response to resuscitation
+No endotracheal intubation documented (may have needed)
+
+Complications present:
+
+Neurological:
+Severe HIE (Stage III)
+Seizures (tonic)
+Coma
+
+Respiratory:
+Apnoea
+Hypoxia (SpO₂ 88%)
+Respiratory failure
+
+Cardiovascular:
+Bradycardia
+Poor perfusion
+Risk of shock
+
+Renal:
+Acute kidney injury (no urine output)
+
+Metabolic:
+Hypothermia
+Likely hypoglycaemia
+Metabolic acidosis
+
+Haematological:
+Risk of disseminated intravascular coagulation (DIC)
+
+PLAN
+
+This is a neonatal emergency requiring intensive care with very poor prognosis
+
+Immediate Priorities (ABC + D + E)
+
+Airway:
+Assess patency
+Clear secretions by gentle suctioning
+Position to maintain airway (head midline, neutral position)
+
+Breathing (Critical):
+Assess respiratory effort (currently irregular with apnoea)
+Administer oxygen immediately
+
+Gold standard:
+Endotracheal intubation and mechanical ventilation
+Ventilator support with appropriate settings
+Target: SpO₂ 90-95%, PaCO₂ 35-45 mmHg, pH 7.35-7.45
+
+In Nigerian setting (realistic):
+Oxygen via nasal prongs or face mask (available in most facilities)
+Bag-mask ventilation if persistent apnoea (manual ventilation, labour-intensive)
+Intubation if skilled personnel available (limited in many secondary facilities)
+Mechanical ventilation (available only in tertiary NICU, not universally accessible)
+
+Practical approach for this patient:
+Start oxygen via nasal prongs (2-4 L/min) or face mask
+Be prepared for bag-mask ventilation (have bag and mask at bedside)
+Transfer to tertiary facility with NICU if mechanical ventilation needed
+Continuous monitoring of respiratory status
+
+Circulation:
+Assess perfusion (poor in this patient)
+Establish IV access (peripheral or umbilical venous catheter)
+
+Disability (Neurological):
+Assess level of consciousness (comatose)
+Pupillary response (sluggish)
+Seizure activity (present, tonic)
+
+Exposure and Environment:
+Maintain normothermia (avoid hyperthermia and hypothermia)
+
+Admission
+
+Admit to Neonatal Intensive Care Unit (NICU):
+
+Gold standard:
+NICU with:
+Mechanical ventilators
+Continuous monitoring (cardiac, respiratory, SpO₂, temperature)
+Therapeutic hypothermia capability
+Neurological monitoring (EEG, amplitude-integrated EEG)
+Advanced imaging (MRI)
+
+In Nigerian setting:
+Tertiary hospital NICU (Lagos University Teaching Hospital, University College Hospital Ibadan, Obafemi Awolowo University Teaching Hospital):
+Some have ventilators (limited number)
+Continuous monitoring available
+Therapeutic hypothermia rare (equipment and expertise limited)
+EEG rarely available
+MRI available but expensive and limited access
+
+Secondary hospital (where patient currently is):
+Special Care Baby Unit (SCBU)
+Basic monitoring (intermittent vital signs)
+Oxygen supply
+Limited intensive care capability
+
+Practical approach:
+Stabilize at current facility
+Urgent transfer to tertiary NICU if:
+Facility has ambulance with oxygen
+Baby stable enough for transfer
+Receiving facility has bed space
+If transfer not feasible: Provide best supportive care available at current facility
+
+Nurse under radiant warmer or in incubator (maintain thermal environment)
+
+Thermal Management (Critical)
+
+Current problem: Hypothermia (35.5°C)
+
+Gold standard - Therapeutic hypothermia (cooling therapy):
+Indication: Moderate to severe HIE in term or near-term neonates
+Timing: Within 6 hours of birth (this patient is 6 hours old, at window limit)
+Method:
+Whole-body cooling to 33-34°C for 72 hours
+OR Selective head cooling
+Precise temperature control
+Continuous monitoring
+Gradual rewarming over 6-12 hours
+Evidence: Reduces death and disability by 25% in moderate HIE, less benefit in severe HIE
+Requires: Specialized equipment, trained staff, NICU setting
+
+In Nigerian setting (realistic):
+Therapeutic hypothermia rarely available (only 1-2 centers nationally)
+Equipment expensive (cooling blankets, servo-controlled devices)
+Expertise limited
+Most facilities do not offer this
+
+Practical approach for this patient:
+This patient has severe HIE (Stage III):
+Benefit of therapeutic hypothermia questionable in Stage III (prognosis already very poor)
+Already 6 hours old (at edge of treatment window)
+Facility likely does not have cooling capability
+
+Current hypothermia (35.5°C) is pathological, not therapeutic:
+Causes: Cold stress, poor perfusion, CNS dysfunction
+Complications: Worsens acidosis, hypoglycaemia, coagulopathy
+
+Management:
+Gradual passive rewarming to normothermia (36.5-37.5°C):
+Nurse under radiant warmer or in incubator
+Set temperature to achieve gradual warming (0.5°C/hour)
+Avoid rapid rewarming (causes vasodilation, hypotension)
+Avoid hyperthermia (worsens brain injury)
+Target: Normothermia (36.5-37.5°C)
+Monitor temperature hourly
+
+If therapeutic hypothermia available (tertiary center with capability):
+Transfer urgently (within 6-hour window)
+Initiate cooling during transfer if possible
+Likely not feasible for this patient (time constraints, severe condition)
+
+Respiratory Support
+
+Current problems: Apnoea, irregular breathing, hypoxia (SpO₂ 88%)
+
+Gold standard:
+Endotracheal intubation and mechanical ventilation
+Ventilator settings:
+Mode: Synchronized intermittent mandatory ventilation (SIMV) or assist-control
+Rate: 40-60 breaths/min
+Tidal volume: 4-6 ml/kg
+PEEP: 4-6 cm H₂O
+FiO₂: Titrate to SpO₂ 90-95%
+Arterial blood gas monitoring
+Target: Normocapnia (PaCO₂ 35-45 mmHg), avoid hyperoxia
+
+In Nigerian setting (realistic):
+Mechanical ventilators:
+Available in some tertiary NICUs (limited number, often all occupied)
+Secondary hospitals: Rarely have ventilators
+Cost: High (may require payment even in public facilities)
+
+Endotracheal intubation:
+Requires skilled personnel (neonatologist, paediatrician, anaesthetist)
+Not always available 24/7 in secondary facilities
+Equipment may be available but expertise limited
+
+Oxygen supply:
+Widely available (oxygen concentrators, cylinders)
+Affordable
+
+Bag-mask ventilation:
+Equipment available in most facilities
+Requires continuous manual effort (nurse or doctor)
+Labour-intensive, not sustainable long-term
+
+Practical approach for this patient:
+Start oxygen via nasal prongs (2-4 L/min) immediately
+Target SpO₂ 90-95% (avoid hyperoxia, worsens brain injury)
+Prepare for bag-mask ventilation:
+Have self-inflating bag and mask at bedside
+Train nurse or doctor to provide manual ventilation if apnoea
+Ventilate if:
+Persistent apnoea (greater than 20 seconds)
+SpO₂ less than 85% despite oxygen
+Severe respiratory distress
+
+Consider intubation if:
+Skilled personnel available
+Persistent apnoea requiring continuous bagging
+Transfer to facility with ventilator
+
+If ventilator unavailable and apnoea severe:
+Continuous bag-mask ventilation (rotate personnel)
+Counsel family on prognosis (likely poor without ventilation)
+Compassionate care if treatment limitations reached
+
+Monitor:
+SpO₂ continuously (pulse oximeter)
+Respiratory rate and pattern
+Chest movement
+Colour
+
+Glucose Management (Urgent)
+
+Hypoglycaemia common in birth asphyxia (glycogen depletion, hyperinsulinism)
+
+Gold standard:
+Continuous glucose monitoring
+Frequent blood glucose checks (every 1-2 hours initially)
+Maintain glucose 2.6-6 mmol/L (47-108 mg/dL)
+
+In Nigerian setting:
+Glucometers widely available (bedside testing)
+Affordable
+Laboratory glucose measurement available
+
+Practical approach:
+Check random blood sugar (RBS) immediately:
+Use glucometer (bedside)
+If less than 2.6 mmol/L (47 mg/dL): Hypoglycaemia
+
+Treatment of hypoglycaemia:
+IV 10% dextrose 2 ml/kg bolus over 5 minutes
+Then maintenance IV fluids with dextrose (see below)
+Recheck glucose after 30 minutes
+Target: 2.6-6 mmol/L (avoid hyperglycaemia, worsens brain injury)
+
+Monitor:
+Glucose every 2-4 hours initially
+Then every 6 hours when stable
+
+Fluid and Electrolyte Management
+
+Principles in HIE:
+Fluid restriction (reduce cerebral oedema)
+Avoid overhydration
+
+Gold standard:
+Fluid restriction: 40-60 ml/kg/day initially
+Adjust based on:
+Urine output
+Serum electrolytes
+Weight
+Serum osmolality
+
+In Nigerian setting (practical):
+IV fluids widely available:
+10% dextrose
+Dextrose saline (4.3% dextrose in 0.18% saline)
+Normal saline
+
+Monitoring:
+Urine output (catheterize if needed)
+Serum electrolytes (available in most facilities)
+Weight (daily)
+
+Practical approach:
+Restrict fluids: 40-60 ml/kg/day
+For this patient (3.2 kg): 130-190 ml/day
+Divide into hourly rate: 5-8 ml/hour
+
+Fluid choice:
+10% dextrose or dextrose saline
+Add potassium after urine output confirmed (greater than 1 ml/kg/hr)
+
+Route:
+IV (peripheral or umbilical venous catheter)
+Keep nil by mouth (NPO) initially (no suck reflex, risk of aspiration)
+
+Monitor:
+Strict input-output chart
+Urine output (target greater than 1 ml/kg/hr)
+Daily weight
+Serum electrolytes (sodium, potassium) daily
+Watch for:
+Syndrome of inappropriate ADH secretion (SIADH): Hyponatraemia, concentrated urine, reduced urine output
+Acute kidney injury: Oliguria, rising creatinine
+
+Seizure Management
+
+Current problem: Tonic seizures with apnoea
+
+Gold standard:
+Continuous EEG or amplitude-integrated EEG (aEEG) monitoring
+Antiepileptic drugs:
+First-line: Phenobarbital IV
+Second-line: Phenytoin, Levetiracetam, Midazolam
+
+In Nigerian setting (realistic):
+EEG monitoring: Rarely available, expensive
+Clinical seizure recognition
+Antiepileptic drugs available: Phenobarbital, Phenytoin, Diazepam
+
+Practical approach:
+
+First-line: Phenobarbital
+Loading dose: 20 mg/kg IV over 20-30 minutes
+Can repeat 10 mg/kg if seizures persist (maximum 40 mg/kg)
+Maintenance: 5 mg/kg/day divided 12-hourly, start 24 hours after loading
+Available in most facilities
+
+If seizures persist:
+
+Second-line: Phenytoin
+Loading dose: 20 mg/kg IV over 30-60 minutes (slow)
+Maintenance: 5 mg/kg/day divided 12-hourly
+Requires cardiac monitoring (can cause arrhythmias)
+OR Diazepam 0.3-0.5 mg/kg IV (short-acting, for acute control)
+
+Third-line (if available):
+Midazolam infusion
+Levetiracetam (expensive, limited availability)
+
+This patient:
+Give Phenobarbital 64 mg (20 mg/kg for 3.2 kg) IV over 20-30 minutes
+Monitor for seizure cessation and respiratory depression
+Repeat if seizures persist
+
+Monitor:
+Clinical seizure activity (observe posturing, apnoea)
+Respiratory status (phenobarbital can depress respiration)
+
+Infection Prevention and Treatment
+
+Birth asphyxia increases infection risk:
+Compromised immunity
+Instrumentation (IV lines, catheters)
+Prolonged labour (chorioamnionitis risk)
+
+Gold standard:
+Blood culture before antibiotics
+Sepsis screen (FBC, CRP)
+Broad-spectrum antibiotics
+Adjust based on culture results
+
+In Nigerian setting (practical):
+Blood culture: Available in most facilities (not always done, results delayed 2-3 days)
+Antibiotics widely available
+
+Practical approach:
+Start empirical antibiotics (do not wait for culture):
+
+First-line regimen:
+IV Ampicillin 50 mg/kg 12-hourly (for 3.2 kg: 160 mg 12-hourly) PLUS
+IV Gentamicin 5 mg/kg once daily (for 3.2 kg: 16 mg once daily)
+
+Alternative (if Ampicillin unavailable):
+IV Ceftriaxone 50 mg/kg once daily (for 3.2 kg: 160 mg once daily)
+
+Duration: 7-10 days or longer if infection confirmed
+
+Blood culture: Send before starting antibiotics if possible
+Sepsis screen: FBC, CRP (if available)
+
+Monitoring and Investigations
+
+Continuous monitoring (if equipment available):
+
+Cardiorespiratory monitor:
+Heart rate (target 120-160 bpm)
+Respiratory rate
+SpO₂ (target 90-95%)
+
+Temperature:
+Hourly initially
+Continuous if servo-controlled warmer available
+
+If continuous monitoring unavailable (most secondary facilities):
+Manual vital signs every 1-2 hours initially
+Nurse at bedside for observation
+
+Laboratory investigations:
+
+Immediate (within 1 hour):
+
+Random blood sugar (glucometer): Check immediately
+Full blood count: Assess anaemia, infection
+Packed cell volume: Baseline
+White cell count: Infection marker
+
+Serum electrolytes, urea, creatinine:
+Sodium, potassium
+Renal function (acute kidney injury common)
+
+Blood gas analysis (if available):
+Gold standard: Arterial blood gas
+Nigerian setting: Not widely available, expensive
+Alternative: Venous blood gas (less accurate but useful)
+Assess: pH, PaCO₂, PaO₂, bicarbonate, lactate
+If unavailable: Manage based on clinical signs
+
+Blood culture:
+Before antibiotics if possible
+
+Within 24 hours:
+
+Serum calcium:
+Hypocalcaemia common in asphyxia
+Can worsen seizures
+
+Coagulation profile (if available):
+PT, aPTT, fibrinogen
+Assess for DIC
+
+Cranial ultrasound:
+
+Gold standard:
+Within 24-48 hours
+Repeat at 7-10 days
+Assess for:
+Cerebral oedema
+Haemorrhage (intraventricular, parenchymal)
+Periventricular leukomalacia
+
+In Nigerian setting:
+Available in most tertiary centers, some secondary hospitals
+Relatively affordable
+Portable machines available
+
+Practical approach:
+Request cranial ultrasound when available
+Helps prognostication
+Identify complications
+
+Advanced imaging (if survives):
+
+MRI brain:
+Gold standard for HIE
+Best done 7-10 days after birth
+Shows extent of injury, guides prognosis
+Nigerian setting: Available in few centers, expensive (N50,000-150,000)
+Consider if family can afford and baby survives acute phase
+
+Nutrition
+
+Current status: Nil by mouth (no suck reflex, risk of aspiration)
+
+Gold standard:
+Parenteral nutrition if prolonged NPO
+Minimal enteral feeds (trophic feeds) when stable
+Gradual advancement
+
+In Nigerian setting (realistic):
+Parenteral nutrition: Rarely available, very expensive
+Expressed breast milk: Available
+Nasogastric feeding: Widely practiced
+
+Practical approach:
+Keep NPO initially (first 24-48 hours or until stable)
+Rely on IV fluids for hydration and glucose
+
+When to start feeding:
+Neurologically improved (better consciousness, some suck reflex)
+Haemodynamically stable
+No abdominal distension (risk of necrotizing enterocolitis)
+
+Method:
+Expressed breast milk via nasogastric tube
+Start with small volumes (10-20 ml/kg/day)
+Advance gradually (20 ml/kg/day increments) as tolerated
+
+Monitor:
+Gastric aspirates (large aspirates suggest intolerance)
+Abdominal examination (distension concerning)
+Stool passage
+
+Transition to oral feeding when:
+Adequate suck reflex returns
+Alert enough to breastfeed
+Usually takes days to weeks in severe HIE
+
+Complications to Monitor and Manage
+
+Multi-organ dysfunction common in severe HIE:
+
+Neurological:
+Seizures: Manage with antiepileptics (as above)
+Raised intracranial pressure:
+Signs: Bulging fontanelle, bradycardia, hypertension, irregular breathing
+Management:
+Elevate head 30 degrees
+Fluid restriction
+Avoid hyperthermia, hypoglycaemia, hypoxia, hypercarbia
+No specific treatment (mannitol rarely used in neonates)
+
+Respiratory:
+Apnoea: Ventilatory support
+Pulmonary hypertension: Consider if persistent hypoxia (echocardiography, inhaled nitric oxide if available - rarely in Nigeria)
+
+Cardiovascular:
+Myocardial dysfunction: Supportive care, inotropes if shock (dopamine, dobutamine - available)
+Hypotension: IV fluids, inotropes
+
+Renal:
+Acute kidney injury (very common):
+Oliguria (urine output less than 1 ml/kg/hr)
+Rising creatinine
+Management: Fluid restriction, avoid nephrotoxic drugs, monitor electrolytes
+Dialysis rarely available in Nigeria
+
+Gastrointestinal:
+Necrotizing enterocolitis (NEC):
+Risk increased in asphyxia
+Signs: Abdominal distension, bloody stools, feeding intolerance
+Prevention: Careful feeding advancement
+Management: NPO, antibiotics, surgery if perforation
+
+Haematological:
+Disseminated intravascular coagulation (DIC):
+Coagulopathy, bleeding
+Management: Supportive, fresh frozen plasma (if available), vitamin K
+
+Metabolic:
+Hypoglycaemia: As above
+Hypocalcaemia: IV calcium gluconate
+Hyponatraemia (SIADH): Fluid restriction
+
+Parental Counselling (Critical and Difficult)
+
+Explain diagnosis:
+Baby suffered severe lack of oxygen during delivery (birth asphyxia)
+Caused brain injury (hypoxic-ischaemic encephalopathy)
+Very serious condition
+
+Explain prognosis (be honest but compassionate):
+
+Immediate survival:
+This is Stage III (severe) HIE
+Mortality rate: 50-75% (most deaths in first week)
+Baby critically ill
+May not survive despite best care
+
+Long-term outcome if survives:
+High risk of severe disability (75-100% of Stage III survivors):
+Cerebral palsy (spastic quadriplegia, inability to walk)
+Severe developmental delay (intellectual disability)
+Epilepsy
+Feeding difficulties
+Vision and hearing problems
+May need lifelong care
+
+Best case scenario (rare in Stage III):
+Some recovery but likely residual disabilities
+
+Explain treatment:
+Intensive care required
+Ventilatory support if needed
+Medications for seizures
+Supportive care
+Therapeutic hypothermia (if available and appropriate)
+
+Explain limitations in current setting:
+May not have all equipment needed (ventilator, cooling)
+Transfer to tertiary facility may be needed
+Transfer carries risks given critical condition
+Even with best care, prognosis very poor
+
+Emotional support:
+Acknowledge difficulty of situation
+Not parent's fault (labour complications, delayed intervention)
+Medical team doing everything possible
+Spiritual support if desired
+
+Decision-making:
+If prognosis futile and treatment very limited:
+Discuss goals of care
+Palliative care may be appropriate
+Allow parents time with baby
+Religious/cultural considerations
+
+If therapeutic options available:
+Discuss transfer to tertiary facility
+Costs involved (ambulance, NICU care)
+Prepare for prolonged hospital stay
+
+Follow-up (If Survives Acute Phase)
+
+This patient unlikely to survive, but if survives:
+
+Hospital discharge criteria:
+Stable vital signs
+Tolerating full feeds (oral or NG)
+No ongoing seizures
+Parents trained in care
+
+Outpatient follow-up:
+
+Neurodevelopmental clinic:
+Assess milestones at 3, 6, 9, 12, 18, 24 months
+Monitor for:
+Cerebral palsy
+Developmental delay
+Seizures
+
+Physiotherapy:
+Early intervention
+Prevent contractures
+Maximize function
+
+Occupational therapy:
+Feeding support
+Daily living skills
+
+Hearing screening:
+Brainstem evoked response audiometry (BERA)
+At 3 and 6 months
+
+Vision screening:
+Ophthalmology review
+Cortical visual impairment common
+
+Imaging:
+MRI brain at 3-6 months (if not done earlier)
+Defines extent of injury, aids prognostication
+
+Social support:
+Disability services
+Financial assistance if available
+Support groups
+
+PROGNOSIS
+
+Very poor to grave
+
+Mortality:
+Stage III HIE: 50-75% mortality
+Most deaths occur in first week
+Causes: Multi-organ failure, refractory seizures, respiratory failure, sepsis
+
+Survival:
+25-50% may survive acute phase
+But almost all survivors have severe disabilities
+
+Long-term neurodevelopmental outcomes in Stage III HIE survivors:
+Severe disability: 75-100%
+Cerebral palsy (quadriplegic spastic): 80%
+Severe intellectual disability: 75%
+Epilepsy: 50-60%
+Feeding difficulties: Common
+Vision impairment: 25-40%
+Hearing loss: 10-20%
+Normal outcome: Less than 5% (very rare)
+
+This patient has multiple poor prognostic factors:
+Very low Apgar scores (persistently low at 10 minutes)
+Severe encephalopathy (Stage III, coma)
+Onset of seizures within 24 hours
+Tonic seizures (poor seizure type)
+Multi-organ dysfunction
+Hypothermia, bradycardia, apnoea
+
+Without therapeutic hypothermia (unavailable in most Nigerian facilities):
+Outcomes slightly worse
+
+Realistic discussion with parents:
+Most likely outcome: Death in first week
+If survives: Severe lifelong disabilities requiring total care
+Very small chance of meaningful recovery
+
+Quality of life considerations:
+Survivors often unable to walk, talk, or care for self
+Require lifelong assistance
+Significant burden on family
+Limited resources for disability support in Nigeria
+
+PREVENTION (For Future Pregnancies)
+
+Intrapartum factors:
+Identify high-risk pregnancies (scarred uterus)
+Plan elective caesarean section for repeat CS (avoid labour)
+Continuous fetal monitoring in labour
+Early recognition of fetal distress
+Timely intervention (expedited delivery)
+
+Maternal education:
+Early hospital presentation in labour
+Recognize warning signs (reduced fetal movements, bleeding, severe pain)
+
+Health system improvements:
+Skilled birth attendants
+Functional labour wards with monitoring equipment
+Blood bank availability
+Referral systems
+Ambulance services
+
+Neonatal resuscitation:
+Skilled personnel at every delivery
+Resuscitation equipment available and functional
+Training in Helping Babies Breathe or Neonatal Resuscitation Program
+
+FOLLOW-UP
+If survives acute phase: Neurodevelopmental clinic at 3, 6, 9, 12, 18, 24 months. Physiotherapy and occupational therapy. Hearing and vision screening. MRI brain at 3-6 months. Monitor for cerebral palsy, developmental delay, epilepsy. Parental support and counselling. Link to disability services if available.
+`,
+bookmarkCount: 0
+},
   // Internal Medicine
   {
     id: 'im-1',

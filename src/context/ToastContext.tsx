@@ -1,7 +1,8 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { Toast } from '../components/Toast';
+import { CopyToast } from '../components/CopyToast';
 
-type ToastType = 'default' | 'encouragement';
+type ToastType = 'default' | 'encouragement' | 'copy';
 
 interface ToastContextType {
   showToast: (message: string, type?: ToastType, duration?: number) => void;
@@ -27,26 +28,47 @@ export function ToastProvider({ children }: { children: ReactNode }) {
     setToast(null);
   };
 
+  const renderToast = () => {
+    if (!toast) return null;
+
+    switch (toast.type) {
+      case 'copy':
+        return (
+          <CopyToast
+            key={toast.key}
+            message={toast.message}
+            duration={toast.duration}
+            onClose={closeToast}
+          />
+        );
+      case 'default':
+      case 'encouragement':
+        return (
+          <Toast
+            key={toast.key}
+            message={toast.message}
+            type={toast.type}
+            duration={toast.duration}
+            onClose={closeToast}
+          />
+        );
+      default:
+        return null;
+    }
+  };
+
   return (
     <ToastContext.Provider value={{ showToast }}>
       {children}
-      {toast && (
-        <Toast
-          key={toast.key}
-          message={toast.message}
-          type={toast.type}
-          duration={toast.duration}
-          onClose={closeToast}
-        />
-      )}
+      {renderToast()}
     </ToastContext.Provider>
   );
 }
 
-export function useToast() {
+export const useToast = () => {
   const context = useContext(ToastContext);
   if (context === undefined) {
     throw new Error('useToast must be used within a ToastProvider');
   }
   return context;
-}
+};

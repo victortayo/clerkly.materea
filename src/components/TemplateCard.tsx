@@ -22,10 +22,56 @@ export function TemplateCard({
 
   const handleCopy = (e: MouseEvent) => {
     e.stopPropagation();
-    navigator.clipboard.writeText(template.content);
-    setCopied(true);
-    showToast('Template copied to clipboard');
-    setTimeout(() => setCopied(false), 2000);
+    const textToCopy = template.content;
+    
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        setCopied(true);
+        showToast('Template copied to clipboard', 'copy', 2000);
+        setTimeout(() => setCopied(false), 2000);
+      }).catch(err => {
+        console.error('Modern copy failed, falling back.', err);
+        fallbackCopy(textToCopy);
+      });
+    } else {
+      fallbackCopy(textToCopy);
+    }
+  };
+
+  const fallbackCopy = (text: string) => {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    
+    textArea.style.position = "fixed";
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.width = "1px";
+    textArea.style.height = "1px";
+    textArea.style.padding = "0";
+    textArea.style.border = "none";
+    textArea.style.outline = "none";
+    textArea.style.boxShadow = "none";
+    textArea.style.background = "transparent";
+
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+
+    try {
+      const successful = document.execCommand('copy');
+      if(successful) {
+        setCopied(true);
+        showToast('Template copied to clipboard', 'copy', 2000);
+        setTimeout(() => setCopied(false), 2000);
+      } else {
+        showToast('Failed to copy content', 'default', 3000);
+      }
+    } catch (err) {
+      console.error('Fallback copy failed', err);
+      showToast('Failed to copy content', 'default', 3000);
+    }
+
+    document.body.removeChild(textArea);
   };
 
   const handleBookmark = (e: MouseEvent) => {

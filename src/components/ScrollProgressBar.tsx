@@ -11,13 +11,13 @@ const completionMessages = [
 ];
 
 const encouragementMessages = [
-  "Serious Chiefs finish what they start.",
-  "You’re almost done. Don’t stop here",
-  "Stop abandoning cases like this.",
-  "So we’re just stopping halfway now?",
-  "We both know you stopped too early.",
-  "You must finish what you started Chief.",
-  "You’re this close. Don’t leave now.",
+  "Serious Chiefs finish what they start.😎",
+  "You’re almost done. Don’t stop here.😏",
+  "Stop abandoning cases like this.🙂",
+  "So we’re just stopping halfway now?🙄",
+  "We both know you want to stop too early.😑",
+  "You must finish what you started Chief.😐",
+  "You’re this close. Don’t leave now.😳",
 ];
 
 const ConfettiPiece = () => {
@@ -39,7 +39,7 @@ const ConfettiPiece = () => {
     )
 }
 
-const ScrollProgressBar: React.FC = () => {
+const ScrollProgressBar: React.FC<{ templateId: string }> = ({ templateId }) => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const [hasCompleted, setHasCompleted] = useState(false);
@@ -49,23 +49,57 @@ const ScrollProgressBar: React.FC = () => {
   const [triggeredMilestones, setTriggeredMilestones] = useState<number[]>([]);
   const { showToast } = useToast();
 
-  const handleScroll = () => {
-    const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    if (totalHeight <= 0) return;
+  // Effect for setup and scroll listener management
+  useEffect(() => {
+    // Reset states for the new template/page
+    setHasCompleted(false);
+    setShowCelebration(false);
+    setScrollProgress(0);
+    setTriggeredMilestones([]);
 
-    const scrollPosition = window.scrollY;
-    const progress = (scrollPosition / totalHeight) * 100;
-    setScrollProgress(progress);
+    const randomCompletionMessage = completionMessages[Math.floor(Math.random() * completionMessages.length)];
+    setCompletionMessage(randomCompletionMessage);
 
-    if (scrollPosition > 300) {
+    const numEncouragements = Math.floor(Math.random() * 2) + 1;
+    const newMilestones: number[] = [];
+    const availableMilestones = Array.from({ length: 61 }, (_, i) => i + 20); // 20% to 80%
+    for (let i = 0; i < numEncouragements; i++) {
+        const randomIndex = Math.floor(Math.random() * availableMilestones.length);
+        const selected = availableMilestones.splice(randomIndex, 1)[0];
+        if (selected) newMilestones.push(selected);
+    }
+    setEncouragementMilestones(newMilestones.sort((a, b) => a - b));
+
+    // Simple scroll handler that only updates progress
+    const handleScroll = () => {
+      const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      if (totalHeight <= 0) {
+        setScrollProgress(100); // If no scrollbar, consider it completed
+        return;
+      }
+      const scrollPosition = window.scrollY;
+      setScrollProgress((scrollPosition / totalHeight) * 100);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // Initial check
+    
+    // Cleanup listener
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [templateId]); // Re-run this effect when the templateId changes
+
+  // Effect to react to changes in scrollProgress
+  useEffect(() => {
+    // Set visibility of the scroll-to-top button
+    if (scrollProgress > 20) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
     }
 
-    // Trigger encouragement toasts at pre-determined random milestones
+    // Trigger encouragement toasts
     encouragementMilestones.forEach(milestone => {
-        if (progress >= milestone && !triggeredMilestones.includes(milestone)) {
+        if (scrollProgress >= milestone && !triggeredMilestones.includes(milestone)) {
             setTriggeredMilestones(prev => [...prev, milestone]);
             const randomMessage = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)];
             showToast(randomMessage, 'encouragement', 4000);
@@ -73,51 +107,16 @@ const ScrollProgressBar: React.FC = () => {
     });
 
     // Trigger celebration at 100%
-    if (progress >= 100 && !hasCompleted) {
+    if (scrollProgress >= 97 && !hasCompleted) {
         setHasCompleted(true);
         setShowCelebration(true);
-
-        setTimeout(() => {
-            setShowCelebration(false);
-        }, 5000);
+        setTimeout(() => setShowCelebration(false), 5000);
     }
-  };
+  }, [scrollProgress, encouragementMilestones, triggeredMilestones, hasCompleted, showToast]);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  useEffect(() => {
-    // Reset states for the new template
-    setHasCompleted(false);
-    setShowCelebration(false);
-    setScrollProgress(0);
-    setTriggeredMilestones([]);
-
-    // Set a single completion message for this template view
-    const randomCompletionMessage = completionMessages[Math.floor(Math.random() * completionMessages.length)];
-    setCompletionMessage(randomCompletionMessage);
-
-    // Determine how many encouragements to show (1 or 2)
-    const numEncouragements = Math.floor(Math.random() * 2) + 1;
-
-    // Select random, unique milestones between 20% and 80%
-    const newMilestones: number[] = [];
-    const availableMilestones = Array.from({ length: 61 }, (_, i) => i + 20);
-    for (let i = 0; i < numEncouragements; i++) {
-        const randomIndex = Math.floor(Math.random() * availableMilestones.length);
-        const selected = availableMilestones.splice(randomIndex, 1)[0];
-        if (selected) {
-            newMilestones.push(selected);
-        }
-    }
-    setEncouragementMilestones(newMilestones.sort((a, b) => a - b));
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
-    
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const radius = 20;
   const circumference = 2 * Math.PI * radius;
@@ -138,7 +137,7 @@ const ScrollProgressBar: React.FC = () => {
                 animate={{ opacity: 1, scale: 1, y: 0, transition: { type: 'spring', damping: 15, stiffness: 100 } }}
                 exit={{ opacity: 0, scale: 0.8, y: -50 }}
             >
-                <h3 className="text-2xl font-bold text-amber-600 dark:text-amber-400 mb-2 whitespace-nowrap">🎉 Well Done! 🎉</h3>
+                <h3 className="text-2xl font-bold font-brand text-amber-600 dark:text-amber-400 mb-2 whitespace-nowrap">🎉 Well Done! 🎉</h3>
                 <p className="text-slate-700 dark:text-slate-300">{completionMessage}</p>
             </motion.div>
           </>

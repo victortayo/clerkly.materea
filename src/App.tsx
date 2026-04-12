@@ -135,6 +135,7 @@ export default function App() {
         >
             {selectedTemplate ? (
                 <TemplateDetail
+                    key={selectedTemplate.id}
                     template={{
                         ...selectedTemplate,
                         bookmarkCount: bookmarkCounts[selectedTemplate.id] !== undefined ? bookmarkCounts[selectedTemplate.id] : selectedTemplate.bookmarkCount

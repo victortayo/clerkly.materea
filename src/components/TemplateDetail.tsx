@@ -26,24 +26,65 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   const [editableContent, setEditableContent] = useState(template.content);
   const { showToast } = useToast();
 
-  // Reset editable content when template changes
-  if (editableContent !== template.content && !isEditing && editableContent === '') {
-     setEditableContent(template.content);
-  }
-  
-  // Use a ref or effect to handle template prop changes if needed, 
-  // but for now, we'll just initialize. 
-  // Actually, better to use an effect to sync when template changes.
   useEffect(() => {
     setEditableContent(template.content);
-    setInsight(null); // Reset insight when template changes
+    setInsight(null); 
   }, [template]);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(editableContent);
-    setCopied(true);
-    showToast('Content copied to clipboard');
-    setTimeout(() => setCopied(false), 2000);
+    const textToCopy = editableContent;
+    
+    // Attempt to use modern clipboard API
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        setCopied(true);
+        showToast('Content copied to clipboard', 'copy', 2000);
+        setTimeout(() => setCopied(false), 2000);
+      }).catch(err => {
+        console.error('Modern copy failed, falling back.', err);
+        fallbackCopy(textToCopy);
+      });
+    } else {
+      // Fallback for older browsers or insecure contexts
+      fallbackCopy(textToCopy);
+    }
+  };
+
+  const fallbackCopy = (text: string) => {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    
+    // Make the textarea out of sight
+    textArea.style.position = "fixed";
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.width = "1px";
+    textArea.style.height = "1px";
+    textArea.style.padding = "0";
+    textArea.style.border = "none";
+    textArea.style.outline = "none";
+    textArea.style.boxShadow = "none";
+    textArea.style.background = "transparent";
+
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+
+    try {
+      const successful = document.execCommand('copy');
+      if(successful) {
+        setCopied(true);
+        showToast('Content copied to clipboard', 'copy', 2000);
+        setTimeout(() => setCopied(false), 2000);
+      } else {
+        showToast('Failed to copy content', 'default', 3000);
+      }
+    } catch (err) {
+      console.error('Fallback copy failed', err);
+      showToast('Failed to copy content', 'default', 3000);
+    }
+
+    document.body.removeChild(textArea);
   };
 
   const handleReset = () => {
@@ -69,7 +110,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
 
   return (
     <div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8 animate-in fade-in slide-in-from-right duration-500">
-      <ScrollProgressBar />
+      <ScrollProgressBar templateId={template.id} />
       
       <ClinicalInsightModal 
         isOpen={isInsightModalOpen}

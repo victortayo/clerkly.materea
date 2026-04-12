@@ -17833,7 +17833,2184 @@ Daily clinical assessment during acute admission with documentation of spasm fre
 `,
 bookmarkCount: 0
 },
+{
+  id: 'im-41',
+  title: 'Systemic Lupus Erythematosus with Lupus Nephritis',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Rheumatology / Nephrology',
+  condition: 'Systemic lupus erythematosus with lupus nephritis, non-erosive polyarthritis, and mucocutaneous involvement in a young woman',
+  symptoms: [
+    'Generalised body weakness',
+    'Symmetrical polyarthritis',
+    'Malar rash',
+    'Bilateral pitting pedal oedema',
+    'Frothy urine and oliguria',
+    'Photosensitivity',
+    'Diffuse non-scarring alopecia',
+    'Recurrent painless oral ulcers',
+    'Pleuritic chest pain',
+    'Recurrent low-grade fever',
+    'Hypertension (140/90 mmHg)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-10',
+  summary: 'Mrs A.O., a 28-year-old female trader presenting with a 3-month history of generalised body weakness, symmetrical polyarthritis involving MCP, PIP joints, wrists, and knees bilaterally with early morning stiffness lasting 45 minutes, and a 2-month history of a malar rash over the cheeks and nasal bridge sparing the nasolabial folds, worsening with sun exposure. Associated features include photosensitivity, diffuse non-scarring alopecia, recurrent painless oral ulcers, and occasional pleuritic chest pain. Three weeks prior to presentation she developed bilateral pitting pedal oedema progressing from the ankles to the knees, and 2 weeks prior she noticed frothy urine with reduced urine output. No prior history of miscarriages, thrombotic events, seizures, or psychosis. Examination reveals a chronically ill-looking young woman with BP 140/90 mmHg, malar rash sparing the nasolabial folds, patchy alopecia, bilateral pitting pedal oedema to the knees, bilateral MCP and PIP joint tenderness with mild swelling and reduced grip strength, and no focal neurological deficits. Diagnosis: systemic lupus erythematosus with lupus nephritis, non-erosive arthritis, and mucocutaneous involvement. Requires immunological workup, renal biopsy for nephritis classification, and multidisciplinary management with immunosuppression, nephroprotective therapy, and hydroxychloroquine.',
+  content: `
+Mrs A.O., a 28-year-old female trader, resident in Abeokuta, Ogun State, Christian, Yoruba, married in a monogamous setting.
 
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Generalised body weakness × 3 months
+Joint pains × 3 months
+Facial rash × 2 months
+Swelling of legs × 3 weeks
+Frothy urine × 2 weeks
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 3 months prior to presentation when she developed generalised body weakness, insidious in onset and progressively worsening. She was initially able to carry out her daily trading activities but became increasingly fatigued over time and now struggles with minimal exertion such as walking short distances or performing household chores.
+
+Around the same time, she developed joint pains involving both wrists, fingers (MCP and PIP joints), and knees. The pain is bilateral, symmetrical, dull aching in nature, non-radiating, with a severity of approximately 6/10. It is associated with early morning stiffness lasting approximately 45 minutes, which partially improves with movement. There is occasional mild joint swelling but no deformity.
+
+About 2 months prior to presentation, she noticed a rash over her face, initially mild but progressively worsening. The rash is located over both cheeks and the bridge of the nose, spares the nasolabial folds, and becomes more prominent after sun exposure. No itching, discharge, or blistering.
+
+She also reports photosensitivity, as sun exposure worsens both the rash and her general fatigue.
+
+Approximately 3 weeks prior to presentation, she developed bilateral leg swelling beginning at the ankles and gradually progressing to involve the legs up to the knee level. The swelling is pitting, worse in the evenings, and partially reduces overnight.
+
+About 2 weeks prior to presentation, she noticed her urine had become frothy with a reduction in urine output. No dysuria, haematuria, or loin pain.
+
+Additional associated features include recurrent low-grade fever (not quantified), diffuse non-scarring hair loss, recurrent painless oral ulcers, and occasional pleuritic chest pain worse on deep inspiration.
+
+No history of seizures, loss of consciousness, psychosis, or behavioural change. No Raynaud's phenomenon. No history of miscarriages or thrombotic events. No prior similar illness.
+
+PAST MEDICAL HISTORY
+No known hypertension, diabetes, or asthma
+No previous hospital admissions for similar complaints
+No history of chronic kidney disease
+
+DRUG HISTORY
+Occasional use of over-the-counter analgesics (paracetamol, NSAIDs)
+No history of long-term steroid use
+No known drug allergies
+
+FAMILY HISTORY
+No known family history of autoimmune or connective tissue diseases
+
+GYNAECOLOGICAL HISTORY
+Regular menstrual cycles
+No history of miscarriages or pregnancy losses
+No use of hormonal contraceptives
+
+SOCIAL HISTORY
+Trader, moderate socioeconomic status
+No alcohol intake, does not smoke
+No use of herbal concoctions
+
+REVIEW OF SYSTEMS
+Renal: Frothy urine, oliguria
+Musculoskeletal: Symmetrical polyarthritis, early morning stiffness
+Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
+Cardiorespiratory: Pleuritic chest pain
+Neurological: No deficits, no seizures, no psychosis
+
+SUMMARY
+A 28-year-old woman presenting with a multisystem illness characterised by constitutional symptoms, symmetrical inflammatory polyarthritis, malar rash, photosensitivity, alopecia, oral ulcers, pleuritic chest pain, and features of nephrotic syndrome (frothy urine, peripheral oedema, hypertension, oliguria), consistent with systemic lupus erythematosus with lupus nephritis and multiorgan involvement.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, chronically ill-looking
+Not in obvious distress
+Not pale, not icteric
+Afebrile (temperature 36.8°C)
+Mildly dehydrated
+Malar rash present over both cheeks and nasal bridge, sparing the nasolabial folds
+Patchy alopecia
+Bilateral pitting pedal oedema up to the knees
+No peripheral lymphadenopathy
+
+Vital Signs:
+PR: 92 bpm, regular, moderate volume
+BP: 140/90 mmHg (hypertension — new, likely secondary to lupus nephritis)
+RR: 20 cpm (normal)
+Temperature: 36.8°C (afebrile)
+SpO₂: 98% on room air
+
+Anthropometry:
+Weight: 62 kg
+Height: 1.65 m
+BMI: 22.8 kg/m² (normal)
+
+Musculoskeletal Examination:
+Tenderness over MCP, PIP joints, and wrists bilaterally
+Mild joint swelling — no deformities, no warmth, no erythema
+Reduced grip strength bilaterally
+
+Cardiovascular System:
+Pulse regular
+No JVP elevation
+Apex beat in the 5th left intercostal space, midclavicular line (normal position)
+Heart sounds S1 and S2, no murmurs, no pericardial rub (pericardial rub would suggest serositis)
+
+Respiratory System:
+Chest expansion symmetrical
+Vesicular breath sounds bilaterally
+No pleural rub, no added sounds (pleural rub would support serositis)
+
+Abdomen:
+Full, moves with respiration
+No tenderness
+No organomegaly (hepatosplenomegaly may occur in SLE)
+
+Central Nervous System:
+Conscious, alert, oriented in time, place, and person
+No focal neurological deficits
+No signs of meningism
+
+ASSESSMENT
+
+Systemic lupus erythematosus (SLE) with lupus nephritis, non-erosive symmetrical polyarthritis, and mucocutaneous involvement, presenting in a 28-year-old woman
+
+Diagnosis based on:
+
+Classification criteria — EULAR/ACR 2019 SLE Classification Criteria:
+
+The 2019 European League Against Rheumatism and American College of Rheumatology (EULAR/ACR) classification criteria for SLE require a positive ANA (entry criterion) plus a score of 10 or more points from weighted clinical and immunological domains.
+
+Entry criterion:
+Positive ANA at titre 1:80 or higher — pending in this patient but clinically expected to be positive given the constellation of features; ANA is positive in greater than 95% of patients with SLE
+
+Clinical domains and estimated scoring in this patient:
+
+Constitutional:
+Fever (low-grade, recurrent): 2 points
+
+Haematological (likely):
+Thrombocytopaenia or leucopenia (to be confirmed by FBC): 3–4 points (expected given SLE)
+
+Neuropsychiatric:
+No seizures, no psychosis: 0 points
+
+Mucocutaneous:
+Non-scarring alopecia: 2 points
+Oral ulcers: 2 points
+Malar rash (subacute or acute cutaneous lupus): 6 points
+Photosensitivity: not a separately scored item but supports mucocutaneous domain
+
+Serosal:
+Pleurisy (pleuritic chest pain consistent with pleuritis): 6 points
+
+Musculoskeletal:
+Synovitis in 2 or more joints: 6 points
+
+Renal:
+Proteinuria greater than 500 mg/24 hours (anticipated given frothy urine and oedema): 4 points
+Or renal biopsy showing Class III/IV lupus nephritis: 10 points (if biopsy performed)
+
+Estimated score (pending investigations): well above the threshold of 10 points even before immunological results are returned
+
+Previous SLE classification criteria (ACR 1997 — widely used in Nigeria):
+This patient satisfies at least 8 of 11 ACR 1997 criteria:
+Malar rash: present
+Photosensitivity: present
+Oral ulcers: present
+Non-erosive arthritis: present (MCP, PIP, wrists bilaterally)
+Renal disorder: frothy urine, oedema, oliguria — proteinuria likely significant
+Serositis: pleuritic chest pain
+Haematological disorder: to be confirmed (leucopenia, thrombocytopaenia, haemolytic anaemia expected)
+Immunological disorder: Anti-dsDNA, Anti-Sm, ANA — pending
+Meeting 4 or more criteria confirms SLE with high specificity — this patient meets at least 6 clinically before investigations
+
+Pathophysiology of SLE:
+SLE is a systemic autoimmune disease characterised by loss of tolerance to self-antigens, predominantly nuclear antigens (double-stranded DNA, histones, nucleosomes, ribonucleoproteins)
+Immune complexes containing anti-dsDNA antibodies and complement deposit in multiple organs
+In the kidney: immune complex deposition in the glomerular mesangium, subendothelial, or subepithelial space triggers complement activation, neutrophil recruitment, and glomerulonephritis
+In the skin: immune complex deposition at the dermoepidermal junction (positive lupus band test) and UV-induced keratinocyte apoptosis expose nuclear antigens, triggering inflammation
+In the joints: immune complex synovitis without cartilage destruction (non-erosive arthritis — distinguishes SLE arthritis from rheumatoid arthritis)
+SLE is predominantly a disease of young women of childbearing age; female-to-male ratio is approximately 9:1
+
+Evidence of lupus nephritis:
+Frothy urine: indicates significant proteinuria (protein lowering surface tension of urine)
+Bilateral pitting pedal oedema: hypoalbuminaemia from proteinuria → reduced oncotic pressure → fluid extravasation
+Oliguria: reduced glomerular filtration rate from nephritis
+Hypertension (140/90 mmHg): new-onset hypertension in a 28-year-old previously normotensive woman — strongly suggests secondary hypertension from lupus nephritis (glomerulonephritis causes hypertension through sodium retention and activation of the renin-angiotensin-aldosterone system)
+This clinical picture is consistent with nephrotic syndrome (proteinuria, oedema, hypoalbuminaemia) and possibly nephritic features (hypertension, oliguria, haematuria — urine microscopy will clarify)
+Lupus nephritis is classified by the International Society of Nephrology/Renal Pathology Society (ISN/RPS) classification into six classes based on renal biopsy (Class I–VI); Class III (focal) and Class IV (diffuse proliferative) are the most common and severe forms
+
+Organ systems involved in this patient:
+
+Renal: lupus nephritis (proteinuria, oedema, hypertension, oliguria)
+Musculoskeletal: non-erosive symmetrical polyarthritis (MCP, PIP, wrists, knees)
+Mucocutaneous: malar rash, photosensitivity, alopecia, oral ulcers
+Serosal: pleuritis (pleuritic chest pain)
+Constitutional: fever, fatigue
+
+Organs not currently involved (important to document for monitoring):
+Neuropsychiatric: no seizures, psychosis, or focal deficits (NPSLE would require different management)
+Haematological: pending — leucopenia, thrombocytopaenia, haemolytic anaemia expected
+Cardiovascular: no evidence of Libman-Sacks endocarditis or myocarditis at this time
+Antiphospholipid syndrome features: no thrombotic events, no miscarriages (antiphospholipid antibodies to be checked)
+
+Disease activity assessment:
+SLE activity is formally quantified using validated indices:
+SLEDAI-2K (Systemic Lupus Erythematosus Disease Activity Index): assigns weighted scores to clinical and laboratory features
+This patient: arthritis (4), rash (2), alopecia (2), oral ulcers (2), pleuritis (2), proteinuria (4), hypertension from nephritis (not a separate SLEDAI item), fever (1) — estimated SLEDAI greater than 10 (active disease)
+British Isles Lupus Assessment Group (BILAG) index: organ-based assessment of disease activity
+Both indices are relevant for monitoring response to treatment
+
+Differential diagnoses:
+
+Rheumatoid arthritis (RA) with extra-articular features:
+Symmetrical small joint polyarthritis with early morning stiffness — shares features with SLE arthritis
+However: RA typically causes erosive arthritis with deformity (not present here); RA does not cause malar rash, oral ulcers, or alopecia; renal involvement is less common in RA; anti-dsDNA and Anti-Sm are negative in RA; anti-CCP (cyclic citrullinated peptide) antibodies are positive in RA (to be checked)
+Rheumatoid factor may be weakly positive in SLE — not diagnostic of RA alone
+
+Mixed connective tissue disease (MCTD):
+Overlap syndrome with features of SLE, systemic sclerosis, and polymyositis
+Characterised by high-titre anti-U1-RNP antibodies
+Raynaud's phenomenon is a cardinal feature (absent in this patient)
+Oesophageal dysmotility, myositis, and swollen sausage-like fingers are typical (not present)
+Anti-dsDNA antibodies are usually negative or low-titre in MCTD
+
+Sjögren's syndrome with systemic features:
+Can cause sicca symptoms (dry eyes, dry mouth), polyarthritis, and occasionally nephritis
+Primarily defined by salivary and lacrimal gland involvement — not described here
+Anti-Ro/SSA and Anti-La/SSB antibodies — may overlap with SLE
+
+Drug-induced lupus:
+Caused by hydralazine, procainamide, isoniazid, methyldopa, and other drugs
+Malar rash and anti-histone antibodies are characteristic; renal and CNS involvement are rare
+Anti-dsDNA antibodies are typically negative in drug-induced lupus
+No relevant drug exposure history in this patient
+
+Chronic glomerulonephritis (primary):
+Can present with proteinuria, oedema, and hypertension
+However: does not account for the multisystem clinical features (malar rash, arthritis, oral ulcers, serositis, alopecia)
+IgA nephropathy, membranous nephropathy: to be differentiated by renal biopsy
+SLE serology will be positive in lupus nephritis; negative in primary glomerulonephritis
+
+Antiphospholipid syndrome (primary or secondary to SLE):
+Can cause thrombocytopenia, livedo reticularis, and nephropathy
+No thrombotic events or miscarriages reported, but antiphospholipid antibodies should be checked as part of the workup
+
+PLAN
+
+Admit to the general medical ward or internal medicine unit; rheumatology and nephrology input required. Notify the team of possible urgent need for renal biopsy.
+
+Investigations
+
+Immunological investigations (most important for diagnosis confirmation):
+
+Antinuclear antibody (ANA):
+Screening test — positive in greater than 95% of SLE patients
+Titre of 1:80 or higher is the entry criterion for the 2019 EULAR/ACR classification
+A positive ANA in this clinical context is virtually diagnostic of SLE
+Gold standard in Nigeria: indirect immunofluorescence on HEp-2 cells
+Availability: available at major tertiary centres (LUTH, UCH, ABUTH, UNTH) — may not be available at all secondary facilities; refer for testing if not available on-site
+
+Anti-double-stranded DNA antibodies (anti-dsDNA):
+Most specific test for SLE (specificity greater than 95%)
+Positive in approximately 70% of SLE patients
+Titre correlates with disease activity — rising anti-dsDNA is associated with lupus nephritis flares
+Serial monitoring of anti-dsDNA is used to assess treatment response and predict flares
+Availability in Nigeria: available at major teaching hospitals; may require referral or external laboratory (Lagos, Ibadan, Enugu)
+
+Anti-Smith antibody (anti-Sm):
+Highly specific for SLE (specificity greater than 99%) but low sensitivity (approximately 25%)
+Positive anti-Sm is diagnostic of SLE even with other negative antibodies
+Availability: less widely available than ANA and anti-dsDNA; major referral centres
+
+Complement levels (C3 and C4):
+Reduced in active SLE (complement is consumed by immune complex deposition)
+Low C3 and C4 support active lupus nephritis
+Used to monitor disease activity (normalise with treatment)
+Availability: available at most teaching hospitals; may be delayed at some centres
+
+Antiphospholipid antibody panel:
+Lupus anticoagulant, anticardiolipin antibodies (IgG and IgM), anti-beta-2 glycoprotein-I antibodies
+Positive in approximately 30–40% of SLE patients
+Important to identify secondary antiphospholipid syndrome (thrombosis risk, pregnancy morbidity)
+Required before prescribing hormonal contraception or in future pregnancy planning
+
+Anti-Ro/SSA and Anti-La/SSB:
+Associated with neonatal lupus and congenital heart block in neonates of affected mothers
+Important for future pregnancy counselling
+Anti-Ro is also associated with subacute cutaneous lupus
+
+Anti-histone antibodies:
+If drug-induced lupus is being considered (not a primary concern here)
+
+Haematological investigations:
+
+Full blood count with differential:
+Anaemia (normocytic normochromic from chronic disease, or haemolytic)
+Leucopenia (white cell count less than 4 × 10⁹/L, particularly lymphopenia — a criterion for SLE)
+Thrombocytopaenia (platelet count less than 100 × 10⁹/L in SLE)
+Availability: widely available at all tertiary and most secondary facilities in Nigeria
+
+Peripheral blood film:
+Assess for haemolytic anaemia (spherocytes, polychromasia)
+Confirm leucopenia and thrombocytopaenia from blood film morphology
+
+Erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP):
+ESR is typically markedly elevated in active SLE
+CRP is often only mildly elevated in SLE (unlike bacterial infection where CRP is markedly elevated) — a markedly elevated CRP in a patient with known SLE should raise suspicion for concurrent bacterial infection
+Both are useful for monitoring disease activity and excluding infection
+Availability: widely available in Nigeria
+
+Direct Coombs test:
+Identifies autoimmune haemolytic anaemia (a haematological criterion for SLE)
+
+Renal investigations:
+
+Urinalysis with microscopy:
+Most immediately available and informative test for renal involvement
+Dipstick: proteinuria (3+ or 4+ strongly suggests nephrotic-range proteinuria), haematuria
+Microscopy: red cell casts (pathognomonic of glomerulonephritis — specifically associated with proliferative lupus nephritis Class III/IV), granular casts, oval fat bodies (nephrotic syndrome)
+Availability: widely available across Nigeria — should be done immediately on admission
+
+24-hour urine protein (gold standard for quantifying proteinuria):
+Nephrotic-range proteinuria: greater than 3.5 g/24 hours
+Confirms nephrotic syndrome and quantifies severity of renal involvement
+Guides ISN/RPS classification and treatment intensity
+Practical consideration in Nigeria: 24-hour urine collection requires patient cooperation and proper instruction; errors in collection are common — urine protein:creatinine ratio (UPCR) on a spot urine sample is an acceptable and increasingly preferred alternative (normal less than 0.2; nephrotic range greater than 3.5 mg/mg)
+Use UPCR as the practical alternative if 24-hour collection is unreliable
+
+Serum electrolytes, urea, and creatinine:
+Assess glomerular filtration rate (eGFR) — stage of chronic kidney disease if already established
+Hyperkalaemia (impaired renal potassium excretion)
+Hyponatraemia (SIADH or dilutional from nephrotic syndrome)
+Elevated urea and creatinine indicate significant renal impairment
+Monitor throughout treatment (particularly nephrotoxic drug effects)
+Availability: widely available in Nigeria
+
+Serum albumin:
+Reduced in nephrotic syndrome (hypoalbuminaemia from urinary protein loss)
+Guides severity of nephrotic syndrome and need for albumin supplementation
+Availability: available at most tertiary facilities
+
+Renal biopsy (gold standard for lupus nephritis classification):
+Mandatory for definitive classification of lupus nephritis (ISN/RPS 2003/2018 Classes I–VI)
+Guides treatment intensity:
+Class I (minimal mesangial): no specific immunosuppression
+Class II (mesangial proliferative): low-dose steroids
+Class III (focal proliferative): high-dose steroids + immunosuppression
+Class IV (diffuse proliferative): most common and severe — high-dose steroids + cyclophosphamide or mycophenolate mofetil
+Class V (membranous): steroids + immunosuppression
+Class VI (advanced sclerosing): largely non-responsive to immunosuppression
+Light microscopy, immunofluorescence, and electron microscopy all required for complete classification
+Contraindications: uncontrolled hypertension (must bring BP below 140/90 mmHg before biopsy), coagulopathy, solitary kidney, uncooperative patient
+Practical consideration in Nigeria: renal biopsy with full histological analysis (light, immunofluorescence, EM) is available at most teaching hospitals (LUTH, UCH, ABUTH, UNTH, UITH) but may require referral; electron microscopy is not uniformly available at all centres — immunofluorescence is the minimum additional stain required; biopsy should be performed urgently in this patient given clinical features suggesting Class III or IV nephritis
+Do not defer biopsy unreasonably — it directly determines whether cyclophosphamide or mycophenolate mofetil should be used
+
+Additional investigations:
+
+Liver function tests:
+Baseline before starting immunosuppressive therapy (hepatotoxicity risk with methotrexate, azathioprine)
+SLE can rarely cause lupus hepatitis (transaminitis)
+
+Lipid profile:
+Nephrotic syndrome causes hyperlipidaemia (increased hepatic lipoprotein synthesis in response to hypoalbuminaemia)
+Corticosteroids also cause dyslipidaemia
+Baseline and monitoring during treatment
+
+Fasting blood glucose:
+Baseline before corticosteroid therapy (steroids cause hyperglycaemia)
+
+Tuberculosis screening (important in Nigeria):
+Mantoux test (TST) or IGRA (QuantiFERON-Gold) before starting immunosuppression
+Nigeria is a high tuberculosis burden country — immunosuppression can reactivate latent tuberculosis
+Chest X-ray also screens for active pulmonary tuberculosis
+If latent TB is identified: isoniazid prophylaxis 6–9 months before or alongside immunosuppression
+Practical note: IGRA (QuantiFERON-Gold) is the preferred test as Mantoux may be falsely negative in immunocompromised patients; availability varies — available at major teaching hospitals; Mantoux is acceptable if IGRA is unavailable
+
+Hepatitis B surface antigen and Hepatitis C antibody:
+Screen before immunosuppression — hepatitis B reactivation can be fatal during immunosuppression
+If HBsAg positive: antiviral prophylaxis (Tenofovir) required alongside immunosuppression
+Availability: widely available in Nigeria
+
+HIV screening:
+Voluntary testing with pre-test counselling
+HIV-associated immune complex nephropathy can mimic lupus nephritis
+
+Chest X-ray:
+Assess for pleuritis (pleural effusion), pericardial effusion, or pulmonary infiltrates
+Baseline before immunosuppression
+Screens for active pulmonary tuberculosis
+Availability: widely available in Nigeria
+
+Echocardiogram:
+Assess for pericardial effusion (serositis), Libman-Sacks endocarditis (non-bacterial verrucous endocarditis), pulmonary hypertension, and myocarditis
+Recommended in all SLE patients with cardiac symptoms
+Practical consideration: echocardiogram is available at most teaching hospitals; may not be available at all secondary facilities
+
+Ophthalmology review:
+Baseline retinal assessment before hydroxychloroquine initiation (hydroxychloroquine retinal toxicity is rare but requires annual screening after 5 years of use)
+Practical note: essential and should not be deferred; available at most tertiary hospitals
+
+Bone mineral density (DEXA scan):
+Baseline before long-term corticosteroid therapy (steroids cause osteoporosis)
+Practical consideration: DEXA scanning is available at major teaching hospitals; less widely available nationally — arrange where possible; start calcium and vitamin D supplementation empirically in all patients on long-term steroids regardless of DEXA availability
+
+Management
+
+General measures:
+
+Admit to general medical or rheumatology ward
+Position of comfort; bed rest during acute phase
+Strict fluid balance monitoring (input-output chart, daily weight)
+Vital signs every 4–6 hours (BP monitoring is critical — new-onset hypertension from nephritis)
+Patient education: explain the nature of SLE (autoimmune disease, not infectious, not directly inherited), the chronicity of the disease, the need for lifelong follow-up, and the importance of medication adherence
+Sun protection: avoid direct sun exposure, wear protective clothing and wide-brimmed hats, use broad-spectrum sunscreen (SPF 30 or higher) — sun exposure triggers flares of both the malar rash and systemic disease; this is practical and inexpensive
+
+Pharmacological management:
+
+The approach is guided by organ involvement and severity. This patient has active lupus nephritis (likely Class III or IV pending biopsy) alongside polyarthritis and mucocutaneous involvement — this constitutes moderately severe to severe SLE requiring aggressive induction immunosuppression.
+
+Step 1 — Hydroxychloroquine (cornerstone therapy for all SLE patients):
+
+Hydroxychloroquine (HCQ) 200–400 mg orally once daily (5 mg/kg/day, not exceeding 400 mg/day)
+Mechanism: modulates toll-like receptor signalling, reduces immune complex formation, decreases autoantibody production
+Benefits: reduces flare frequency and severity, reduces organ damage accrual, improves survival, reduces thrombotic risk, has lipid-lowering and mild antidiabetic effects
+Should be started in virtually every SLE patient unless contraindicated (retinal toxicity in pre-existing macular disease)
+Onset of action: 2–3 months — not immediately therapeutic for acute disease but essential for long-term disease control
+Duration: lifelong (stopping HCQ increases flare risk)
+Side effects: retinal toxicity (rare, requires annual ophthalmology review after 5 years; baseline ophthalmology review before starting), GI intolerance, skin pigmentation
+Availability in Nigeria: Hydroxychloroquine (Plaquenil) is available at major tertiary hospitals and specialist pharmacies; access may be limited and costly outside major cities — this is a real practical barrier; cost subsidies or NHIS coverage should be explored with the patient
+Practical note: if HCQ is temporarily unavailable, chloroquine 250 mg daily is an acceptable alternative with similar efficacy but higher retinal toxicity risk requiring more frequent ophthalmology monitoring
+
+Step 2 — Corticosteroids (for induction of remission):
+
+High-dose corticosteroids are the first-line agent for acute, severe organ-threatening SLE.
+
+IV methylprednisolone pulse therapy (gold standard for severe lupus nephritis):
+IV methylprednisolone 500–1000 mg once daily for 3 consecutive days (pulse therapy)
+Mechanism: rapidly suppresses immune complex deposition, complement activation, and inflammatory cytokine production
+Indicated for: severe Class III/IV lupus nephritis, acute haemolysis, severe thrombocytopaenia, serositis
+Advantages: rapid onset of action, achieves higher drug levels in the kidney than oral prednisolone
+Practical consideration in Nigeria: IV methylprednisolone is available at most tertiary centres (LUTH, UCH, ABUTH); may be unavailable or expensive at secondary facilities — if unavailable, start oral prednisolone at high dose immediately rather than delaying treatment
+If IV methylprednisolone is not immediately available: start oral Prednisolone 1 mg/kg/day (up to 60 mg/day) immediately while arranging for pulse therapy
+
+Transition to oral prednisolone after pulse:
+Prednisolone 0.5–1 mg/kg/day orally (typically 40–60 mg/day for this patient at 62 kg)
+Continue for 4–6 weeks at this dose, then taper gradually
+Taper schedule: reduce by 10 mg every 2 weeks until reaching 20 mg/day, then reduce by 2.5 mg every 2–4 weeks to the minimum effective dose (target less than or equal to 7.5 mg/day for long-term maintenance)
+Goal: taper to the lowest dose that maintains disease control; steroid-sparing immunosuppressants facilitate this taper
+Side effects of corticosteroids (relevant in Nigeria): weight gain, cushingoid features, hypertension, hyperglycaemia, infections (including TB reactivation — screen before starting), osteoporosis, peptic ulceration, avascular necrosis of the femoral head
+Gastroprotection: co-prescribe Omeprazole 20–40 mg daily (protects against steroid-related peptic ulceration)
+Calcium and vitamin D supplementation: Calcium carbonate 1000 mg + Cholecalciferol 800 IU daily (prevents steroid-induced osteoporosis)
+
+Step 3 — Immunosuppressive therapy (induction of remission for lupus nephritis):
+
+Two options are evidence-based for Class III/IV lupus nephritis induction:
+
+Option A — Mycophenolate mofetil (MMF) (preferred in most current guidelines):
+Dose: 2–3 g/day orally in two divided doses (starting at 500 mg twice daily, increasing to target dose over 2–4 weeks)
+Mechanism: inhibits inosine monophosphate dehydrogenase, selectively suppressing lymphocyte proliferation
+Evidence: equivalent to cyclophosphamide for induction of remission in Class III/IV nephritis with fewer serious adverse effects; superior in Black and Hispanic patients (evidence from ASPREVA trial — relevant to Nigerian patients)
+Side effects: GI disturbance (nausea, diarrhoea — take with food), leucopenia, infection risk, teratogenicity (contraindicated in pregnancy — counsel on effective contraception)
+MMF is the preferred first-line option for lupus nephritis induction in young women of childbearing age (less gonadotoxic than cyclophosphamide)
+Availability in Nigeria: MMF (CellCept, Myfortic, or generic) is available at major teaching hospitals and specialist pharmacies; it is significantly more expensive than cyclophosphamide; NHIS may partially cover costs; generic formulations are more affordable
+Practical note: if cost is a significant barrier, cyclophosphamide (Option B) is equally effective and more affordable
+
+Option B — Cyclophosphamide (NIH or Euro-Lupus regimen):
+NIH high-dose regimen: IV cyclophosphamide 0.5–1.0 g/m² monthly for 6 doses, then quarterly for 2 years
+Euro-Lupus low-dose regimen: IV cyclophosphamide 500 mg every 2 weeks for 6 doses (total 3 g) — equivalent efficacy with less toxicity; preferred in European and African guidelines
+Side effects: haemorrhagic cystitis (prevent with IV mesna and aggressive hydration), gonadotoxicity (premature ovarian failure — major concern in a 28-year-old; discuss fertility preservation, including GnRH agonist co-therapy), alopecia, leucopenia, infection, secondary malignancy (bladder cancer with long-term use)
+Cyclophosphamide is significantly more gonadotoxic than MMF — this patient's age and future fertility desires must guide the choice
+Availability in Nigeria: IV cyclophosphamide is available at most teaching hospitals and oncology centres; considerably less expensive than MMF; available through NHIS for some indications
+Practical note: for most Nigerian teaching hospital settings, the Euro-Lupus low-dose cyclophosphamide regimen is a practical, affordable, and equally effective alternative to MMF for induction; discuss with the patient regarding fertility concerns
+
+Maintenance immunosuppression (after induction — sustained for at least 3 years):
+Azathioprine 1.5–2.5 mg/kg/day orally (typically 100–150 mg/day for this patient)
+OR continued low-dose MMF 1–2 g/day
+Azathioprine is less expensive and widely used for maintenance in Nigeria; check TPMT enzyme level before starting if available (TPMT deficiency causes severe myelosuppression); if TPMT testing is unavailable (common in Nigeria), start at a low dose and monitor FBC closely
+Monitor FBC and liver function every 4–8 weeks during maintenance therapy
+
+Step 4 — Blood pressure and renal protection:
+
+ACE inhibitor (gold standard for nephroprotection in lupus nephritis):
+Ramipril 2.5–5 mg orally once daily, titrate up to 10 mg/day based on BP response and tolerability
+OR Lisinopril 5–10 mg orally once daily
+Mechanism: reduces intraglomerular pressure (efferent arteriolar dilation), reduces proteinuria by 30–50% independently of BP effect, slows progression of chronic kidney disease
+Start as soon as serum creatinine and potassium are confirmed (baseline renal function must be established)
+Monitor for hyperkalaemia and acute kidney injury (serum creatinine may rise by up to 30% initially — acceptable if stabilises; a rise greater than 30% above baseline necessitates dose reduction or switching to ARB)
+Contraindicated in pregnancy (teratogenic — bilateral renal agenesis, oligohydramnios) — counsel on contraception before prescribing
+Availability: Ramipril and Lisinopril are widely available in Nigeria and affordable; available on NHIS formulary at most tertiary centres
+
+ARB (angiotensin receptor blocker) as alternative:
+Losartan 50–100 mg orally once daily
+Use if ACE inhibitor-associated cough develops (common in African patients)
+Availability: widely available in Nigeria
+
+Diuretic (for oedema management):
+Loop diuretic: Furosemide 40–80 mg orally once or twice daily
+Titrate to achieve gradual fluid removal (target 0.5–1 kg weight loss per day — avoid over-diuresis which worsens renal perfusion and precipitates acute kidney injury)
+Monitor serum potassium closely (Furosemide causes hypokalaemia; ACE inhibitor co-prescription partially mitigates this)
+Add potassium supplementation (potassium chloride 600 mg orally twice daily) if serum potassium falls below 3.5 mmol/L
+Spironolactone: add if oedema is resistant to Furosemide alone (also has nephroprotective properties); caution if hyperglycaemia or hyperkalaemia
+Availability: Furosemide is widely available and inexpensive in Nigeria
+
+Additional targeted therapies:
+
+Belimumab (BLyS inhibitor):
+Approved for active SLE despite standard therapy
+IV Belimumab 10 mg/kg monthly (or subcutaneous 200 mg weekly)
+Significant evidence for reducing flares, reducing steroid requirements, and reducing lupus nephritis progression
+Gold standard addition for patients not responding adequately to conventional therapy
+Practical consideration in Nigeria: Belimumab is not currently widely available in Nigeria; extremely expensive; not on NHIS formulary; mention as the emerging international standard but acknowledge it is largely unavailable in the Nigerian healthcare system at this time
+
+Voclosporin (calcineurin inhibitor):
+Recently approved (in combination with MMF) for lupus nephritis — superior to MMF alone for achieving renal remission
+Practical consideration in Nigeria: not available in Nigeria at this time; gold standard in high-income settings
+
+NSAIDs for musculoskeletal pain:
+Ibuprofen 400 mg three times daily with food (for arthritis symptom control)
+Use cautiously and short-term given lupus nephritis — NSAIDs reduce renal prostaglandin synthesis, worsen renal perfusion, and can precipitate acute kidney injury
+Prefer paracetamol for analgesia in the context of active nephritis
+Avoid NSAIDs if eGFR is significantly reduced or serum creatinine is elevated
+Hydroxychloroquine will address arthritis over weeks to months (disease-modifying)
+
+Antimalarial prophylaxis:
+Nigeria is a malaria-endemic country; immunosuppressed patients are at very high risk of severe malaria
+Ensure up-to-date malaria prophylaxis and prompt treatment if febrile episodes occur
+Counsel on insecticide-treated bed nets, indoor residual spraying
+Note: hydroxychloroquine provides some antimalarial effect but is not sufficient alone for malaria prophylaxis in the Nigerian context
+
+Osteoporosis prevention (essential in all patients on long-term corticosteroids):
+Calcium carbonate 1000 mg orally daily
+Cholecalciferol (Vitamin D3) 800 IU orally daily
+Bisphosphonate therapy (Alendronate 70 mg weekly or Risedronate 35 mg weekly): add if DEXA shows significant bone loss or if prolonged high-dose steroids are anticipated
+Practical consideration: Calcium and Vitamin D are widely available and inexpensive in Nigeria; bisphosphonates are available at most tertiary centres
+
+Gastroprotection:
+Omeprazole 20 mg orally once daily for all patients on corticosteroids
+Practical: widely available and inexpensive in Nigeria
+
+Infection prophylaxis:
+Opportunistic infection risk is significantly increased by the combination of corticosteroids and immunosuppressants
+Pneumocystis jirovecii pneumonia (PJP) prophylaxis:
+Co-trimoxazole (Trimethoprim-Sulfamethoxazole) 480–960 mg three times per week (or once daily)
+Indicated when prednisolone dose is greater than 20 mg/day plus a second immunosuppressant
+Continue until prednisolone is tapered below 20 mg/day
+Practical consideration: Co-trimoxazole is widely available and inexpensive in Nigeria
+Antifungal prophylaxis: Fluconazole 150 mg weekly — consider if prolonged high-dose immunosuppression or if patient develops oral candidiasis
+Vaccinations (important in immunocompromised patients):
+Pneumococcal vaccine (Pneumovax 23 or Prevenar 13): recommended in all SLE patients — reduces risk of pneumococcal sepsis (a leading cause of death in immunosuppressed patients)
+Influenza vaccine annually
+Hepatitis B vaccination if seronegative (HBsAg negative, anti-HBs negative)
+Avoid live vaccines (MMR, yellow fever, varicella, BCG) during significant immunosuppression — risk of disseminated infection
+Practical consideration: vaccines are available at most tertiary hospitals in Nigeria; some are subsidised through the NPI; influenza vaccine availability varies seasonally
+
+Monitoring
+
+Clinical monitoring:
+Vital signs (especially BP): daily during admission, every clinic visit thereafter
+Weight and urine output: daily during admission (assess for oedema progression or resolution)
+Joint assessment: document number of swollen and tender joints at each visit (66/68 joint count)
+Skin, hair, and mucosal assessment: at each visit
+Seizures or neuropsychiatric symptoms: ask specifically at each visit (NPSLE can develop)
+
+Laboratory monitoring (during induction therapy):
+FBC: weekly for the first month (leucopenia from immunosuppression), then monthly
+Serum electrolytes, urea, creatinine: every 2 weeks initially, then monthly (monitor for renal deterioration or drug toxicity)
+Urine protein:creatinine ratio or 24-hour urine protein: monthly (assess proteinuria reduction as marker of treatment response)
+Urinalysis with microscopy: monthly (resolution of red cell casts indicates improvement)
+Serum albumin: monthly (improvement indicates reducing proteinuria)
+LFTs: monthly (hepatotoxicity from immunosuppressants)
+Blood glucose: weekly initially (steroid-induced hyperglycaemia)
+Anti-dsDNA and complement (C3, C4): every 3 months (falling anti-dsDNA and rising complement indicate disease control)
+Lipid profile: every 6 months (nephrotic hyperlipidaemia and steroid effect)
+Bone mineral density (DEXA): baseline and annually if on long-term steroids (where available)
+
+Drug-specific monitoring:
+Hydroxychloroquine: annual ophthalmology review after 5 years of use (retinal toxicity)
+Cyclophosphamide: urinalysis for haematuria (haemorrhagic cystitis) before each dose; FBC before each dose
+MMF: FBC and LFTs monthly
+Azathioprine (maintenance): FBC and LFTs every 4–8 weeks
+ACE inhibitor: serum potassium and creatinine at 2 and 4 weeks after initiation and dose change, then 3-monthly
+
+Disease activity monitoring tools:
+SLEDAI-2K: at each clinic visit (target SLEDAI score less than 4 = remission)
+Physician Global Assessment (PGA): at each visit
+Patient-reported outcome measures: fatigue, quality of life (SF-36 or LupusQoL)
+
+Counselling
+
+Explanation of diagnosis:
+SLE is an autoimmune disease — the body's own immune system mistakenly attacks its own organs and tissues
+It is not contagious, not directly inherited (though genetic predisposition exists), and not caused by anything the patient did
+It is a chronic condition that requires lifelong management but can be well-controlled with appropriate treatment
+The disease affects many organs — in her case the kidneys, joints, skin, and lining of the chest are involved
+
+Regarding lupus nephritis specifically:
+The kidneys are affected in this case — this is called lupus nephritis
+This is causing the protein leaking into the urine (frothy urine), leg swelling, high blood pressure, and reduced urine output
+Treatment of the kidney disease requires powerful medicines to calm down the immune system
+The earlier and more effectively the kidney disease is treated, the better the long-term kidney outcome
+
+Medication counselling:
+Hydroxychloroquine: explain that this is a cornerstone medicine that protects against flares; it takes 2–3 months to work; she should not stop it without medical advice even when feeling well; annual eye checks will be arranged
+Steroids (prednisolone): explain their role in rapidly controlling active disease; discuss expected side effects (weight gain, facial rounding, increased appetite, mood changes, blood sugar elevation, increased infection risk); reassure that the dose will be gradually reduced as disease comes under control
+Immunosuppressants: explain that medicines to suppress the immune system are necessary for kidney disease; discuss the importance of promptly reporting fever or signs of infection (cough, urinary symptoms, diarrhoea) as infections can be life-threatening in immunosuppressed patients; stress the importance of not sharing these medications and attending all monitoring blood tests
+Contraception and pregnancy planning: she must not become pregnant while on cyclophosphamide or MMF — both are teratogenic; effective contraception is essential; barrier methods (condoms) are the safest choice (hormonal contraceptives containing oestrogen increase thrombotic risk in SLE, particularly if antiphospholipid antibodies are present — use progesterone-only pill or barrier methods); discuss the desire for future pregnancy in advance with her rheumatologist (planned pregnancy in SLE requires disease to be in remission for at least 6 months before conception, medication optimisation, and close obstetric monitoring)
+
+Sun protection:
+Sun exposure directly triggers SLE flares — sunscreen (SPF 30 or higher), long-sleeved protective clothing, and avoidance of peak sun hours are mandatory, not optional
+In the Nigerian context: shade, clothing, and wide-brimmed hats are practical and affordable alternatives to commercial sunscreen
+
+Nutrition:
+Low-sodium diet (less than 2 g sodium per day): reduces hypertension and oedema
+Low-protein diet is NOT recommended (protein restriction worsens hypoalbuminaemia in nephrotic syndrome) — maintain adequate dietary protein
+Avoid raw or undercooked food (infection risk during immunosuppression)
+Avoid excessive sun exposure through outdoor eating
+
+Infection awareness:
+The patient must be counselled to seek medical attention promptly for any fever or suspected infection — she is now immunosuppressed and infections can progress rapidly
+She should carry a steroid alert card (or equivalent) informing any treating physician that she is on long-term corticosteroids and immunosuppression
+
+Importance of adherence and follow-up:
+Stopping medications without medical advice — even when feeling well — is a leading cause of severe SLE flares and organ damage
+SLE requires lifelong follow-up; she should not miss clinic appointments
+If she cannot afford medications, she should discuss this with the team — do not simply stop treatment
+
+Future pregnancy:
+SLE can complicate pregnancy (pre-eclampsia, premature birth, neonatal lupus — particularly if Anti-Ro positive)
+She should plan any future pregnancy with her rheumatologist and obstetrician well in advance
+Pregnancy should only be attempted when the disease has been in remission for at least 6 months
+Close antenatal monitoring is required
+
+Psychosocial support:
+A chronic autoimmune disease in a young woman can cause significant anxiety, depression, and social disruption
+Address psychosocial concerns actively
+Refer to a clinical psychologist or counsellor if available
+Connect with lupus patient support groups — the Lupus Foundation of Nigeria and similar organisations provide peer support
+Engage the husband and close family in the counselling process (disease education for the family reduces misunderstanding and improves adherence)
+
+PROGNOSIS
+
+Overall prognosis of SLE:
+SLE is a chronic, relapsing-remitting disease
+10-year survival in developed countries: approximately 85–90% (has improved dramatically with hydroxychloroquine, immunosuppression, and aggressive management of cardiovascular and infectious complications)
+In sub-Saharan African settings including Nigeria: outcomes are generally worse due to delayed diagnosis, limited access to immunosuppressive therapy and specialist care, high burden of infections, and poor follow-up compliance
+Early death in SLE (first 5 years): predominantly from active disease (nephritis, neuropsychiatric SLE, haemolysis) and infections
+Late death (after 5 years): predominantly from cardiovascular disease (accelerated atherosclerosis from chronic inflammation, corticosteroid effects, and hyperlipidaemia) and secondary malignancy
+
+Prognosis for lupus nephritis specifically:
+Renal prognosis is the key determinant of long-term survival and quality of life in SLE
+End-stage renal disease (ESRD) develops in approximately 10–20% of patients with lupus nephritis over 10 years
+With aggressive immunosuppression and nephroprotective therapy: renal outcomes have significantly improved
+Worst prognosis: Class IV (diffuse proliferative) nephritis with delayed treatment, poor response to induction, or multiple relapses
+Best prognosis: Class I/II; Class V responds variably
+
+Favourable prognostic factors in this patient:
+Young age (28 years)
+Diagnosis made early in disease course (3 months)
+No neuropsychiatric involvement
+No thrombotic events or antiphospholipid syndrome (pending antibody results)
+Normal BMI
+Non-smoker, no alcohol use
+Regular menstrual cycles (reasonable hormonal milieu)
+Presenting at a facility capable of renal biopsy and immunosuppressive therapy
+
+Unfavourable prognostic factors:
+Lupus nephritis at presentation (renal involvement is the most important predictor of morbidity)
+Hypertension at presentation (BP 140/90 mmHg — independent risk factor for CKD progression)
+Oliguria and significant proteinuria suggest already significant glomerular injury
+Low-middle socioeconomic status — risk of medication non-adherence and loss to follow-up
+Limited access to hydroxychloroquine and biologics outside major cities
+
+FOLLOW-UP
+Review in 2 weeks after starting induction therapy (clinical assessment, FBC, renal function, urine protein). Monthly monitoring during induction (first 6 months): FBC, renal function, LFTs, urine protein:creatinine ratio, blood glucose, blood pressure. Rheumatology and nephrology clinic every 4–6 weeks during active disease. Renal biopsy result review with multidisciplinary team to confirm treatment regimen. Anti-dsDNA and complement levels every 3 months. Ophthalmology review before starting hydroxychloroquine and annually after 5 years. Annual cardiovascular risk assessment (lipids, blood pressure, glucose). TB screening and repeat annually while on immunosuppression. Contraceptive counselling at every visit until pregnancy is planned. Pregnancy planning discussion when disease in remission for 6 months. Annual influenza vaccination and pneumococcal vaccination every 5 years.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'im-42',
+  title: 'Neuropsychiatric Systemic Lupus Erythematosus (NPSLE)',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Rheumatology / Neurology',
+  condition: 'Systemic lupus erythematosus with acute neuropsychiatric involvement (lupus cerebritis, seizures, and acute confusional state) in a young woman',
+  symptoms: [
+    'Symmetrical polyarthritis',
+    'Malar rash',
+    'Persistent headache',
+    'Abnormal behaviour',
+    'Generalised tonic-clonic seizures',
+    'Acute confusional state (GCS 13/15)',
+    'Hypertension (150/95 mmHg)',
+    'Low-grade fever (37.8°C)',
+    'Photosensitivity, alopecia, oral ulcers'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-10',
+  summary: 'Miss K.T., a 24-year-old undergraduate student presenting with a 4-month history of symmetrical polyarthritis, 3-month history of malar rash with photosensitivity, alopecia, and recurrent painless oral ulcers, followed by acute neuropsychiatric deterioration over the past week. She developed a persistent progressive headache 1 week prior, behavioural changes (confusion, agitation, incoherent speech, restlessness, insomnia) 5 days prior, and two episodes of generalised tonic-clonic seizures with loss of consciousness, tongue biting, and post-ictal confusion 2 days prior. No prior psychiatric illness, no history of seizures, no head trauma, no illicit drug or alcohol use. Examination reveals an acutely ill, restless, confused young woman (GCS 13/15) with BP 150/95 mmHg, low-grade fever (37.8°C), tachycardia (104 bpm), malar rash, patchy alopecia, and bilateral MCP and PIP joint tenderness. No neck stiffness, no focal neurological deficits. Mental state examination shows disorganised thought, labile affect, impaired cognition, disorientation in time and place, and poor insight. Diagnosis: systemic lupus erythematosus with neuropsychiatric involvement (NPSLE) — acute confusional state, seizures, and likely lupus cerebritis. CNS infection must be urgently excluded. Requires immediate stabilisation, seizure control, urgent CSF analysis, neuroimaging, and high-dose immunosuppressive therapy.',
+  content: `
+Miss K.T., a 24-year-old undergraduate student, resident in Ibadan, Oyo State, Christian, Yoruba, single.
+
+Informant: Mother (reliable) and patient (partially reliable due to altered behaviour)
+
+PRESENTING COMPLAINTS
+Joint pains × 4 months
+Facial rash × 3 months
+Headache × 1 week
+Abnormal behaviour × 5 days
+Generalised tonic-clonic seizures × 2 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 4 months prior to presentation when she developed recurrent joint pains involving both wrists, fingers (MCP and PIP joints), and knees. The pain was bilateral and symmetrical, associated with morning stiffness lasting 30–45 minutes, and partially relieved by movement and over-the-counter analgesics. No joint deformity.
+
+About 3 months prior to presentation, she noticed a facial rash over the cheeks and nasal bridge that was initially mild but progressively worsened, particularly after sun exposure, and spared the nasolabial folds. Not pruritic. Associated features included photosensitivity, recurrent painless oral ulcers, diffuse non-scarring hair loss, and intermittent low-grade fever.
+
+She has remained relatively stable until about 1 week prior to presentation when she developed a persistent generalised headache, dull in character, progressive, not relieved by analgesics, and not associated with visual aura or vomiting.
+
+Approximately 5 days prior to presentation, family members noticed behavioural changes including talking irrelevantly, restlessness and agitation, periods of confusion, and insomnia. No prior psychiatric history.
+
+About 2 days prior to presentation, she developed generalised tonic-clonic seizures lasting approximately 2–3 minutes, associated with loss of consciousness, tongue biting, and post-ictal confusion. Two episodes occurred before presentation.
+
+She also complains of reduced appetite and generalised weakness.
+
+No history of head trauma, alcohol or substance use. No neck stiffness. No focal limb weakness. No prior history of seizures.
+
+PAST MEDICAL HISTORY
+No known epilepsy, hypertension, or diabetes
+No previous psychiatric illness
+
+DRUG HISTORY
+Occasional NSAIDs for joint pain
+No prior corticosteroids or immunosuppressants
+No known drug allergies
+
+FAMILY HISTORY
+No family history of epilepsy or autoimmune disease
+
+SOCIAL HISTORY
+Undergraduate student
+No alcohol, no smoking, no illicit drug use
+
+REVIEW OF SYSTEMS
+CNS: Seizures, confusion, behavioural changes, headache
+Musculoskeletal: Symmetrical polyarthritis
+Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
+Renal: No overt symptoms at this time
+Cardiorespiratory: No chest pain or dyspnoea
+
+SUMMARY
+A 24-year-old woman with a preceding background of multisystem features consistent with SLE (arthritis, malar rash, photosensitivity, alopecia, oral ulcers) now presenting acutely with headache, behavioural change, and seizures, consistent with neuropsychiatric SLE with acute confusional state, lupus cerebritis, and seizure disorder requiring urgent multidisciplinary evaluation and treatment.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, acutely ill-looking, restless
+Not pale, not icteric
+Low-grade fever (37.8°C)
+Malar rash over cheeks and nasal bridge, sparing nasolabial folds
+Patchy alopecia
+No pedal oedema
+No peripheral lymphadenopathy
+
+Vital Signs:
+PR: 104 bpm (tachycardia — fever, agitation, autonomic activation)
+BP: 150/95 mmHg (hypertension — may be from CNS involvement, pain, or early renal disease)
+RR: 22 cpm (mildly elevated)
+Temperature: 37.8°C (low-grade fever)
+SpO₂: 97% on room air
+
+Central Nervous System:
+Conscious but confused
+Disoriented in time and place
+GCS: 13/15 (E4V4M5 — eyes open spontaneously, confused speech, obeys commands; note: GCS should be documented by component)
+No neck stiffness (important — absence of meningism reduces but does not exclude CNS infection)
+No focal neurological deficits
+Tone: normal
+Reflexes: normal throughout
+Plantar responses: flexor bilaterally (normal — upgoing plantars would suggest upper motor neuron involvement)
+
+Mental State Examination:
+Appearance and behaviour: young woman, restless, intermittently agitated, poorly cooperative
+Speech: spontaneous but occasionally incoherent and disorganised
+Mood and affect: difficult to assess subjectively; objectively labile affect
+Thought form: disorganised, tangential responses
+Thought content: no clear delusions elicited; suspiciousness noted
+Perception: no definite hallucinations elicited on assessment
+Cognition: impaired attention and concentration; disoriented in time and place
+Insight: poor
+Judgement: impaired
+
+Musculoskeletal:
+Tender MCP and PIP joints bilaterally
+No joint deformities, no warmth or erythema
+
+Cardiovascular System:
+PR 104 bpm, regular
+BP 150/95 mmHg
+Heart sounds S1 and S2, no murmurs, no pericardial rub
+
+Respiratory System:
+Vesicular breath sounds bilaterally, no added sounds
+
+Abdomen:
+Soft, non-tender, no organomegaly
+
+Anthropometry:
+Weight: 58 kg
+Height: 1.63 m
+BMI: 21.8 kg/m² (normal)
+
+ASSESSMENT
+
+Systemic lupus erythematosus with acute neuropsychiatric involvement (NPSLE) — acute confusional state, generalised seizures, and probable lupus cerebritis — in a young woman with preceding mucocutaneous and musculoskeletal SLE features
+
+Diagnosis based on:
+
+Background SLE diagnosis:
+This patient meets the ACR 1997 SLE criteria based on clinical features alone:
+Malar rash: present
+Photosensitivity: present
+Oral ulcers: present
+Non-erosive arthritis (MCP, PIP, wrists, knees bilaterally): present
+Immunological abnormalities (ANA, Anti-dsDNA, Anti-Sm): pending but expected
+Haematological disorder: pending FBC
+Neurological disorder (seizures): present — this itself is an ACR 1997 criterion
+She meets at least 6 of 11 ACR 1997 criteria clinically; the 2019 EULAR/ACR criteria would also be met with a very high estimated score given the multi-domain involvement
+
+Neuropsychiatric SLE (NPSLE) — definition and classification:
+NPSLE refers to the neurological and psychiatric syndromes that occur in the setting of SLE after exclusion of other causes
+The ACR 1999 nomenclature defines 19 neuropsychiatric syndromes attributable to NPSLE:
+Central nervous system: aseptic meningitis, cerebrovascular disease, demyelinating syndrome, headache, movement disorder (chorea), myelopathy, seizure disorder, acute confusional state, anxiety disorder, cognitive dysfunction, mood disorder, psychosis
+Peripheral nervous system: Guillain-Barré syndrome, autonomic neuropathy, mononeuropathy, myasthenia gravis, cranial neuropathy, plexopathy, polyneuropathy
+This patient manifests the following NPSLE syndromes:
+Seizure disorder: two generalised tonic-clonic seizures — an ACR 1997 SLE criterion (in the absence of drugs or metabolic causes)
+Acute confusional state: GCS 13/15, disorientation, agitation, incoherent speech — the most dramatic and dangerous NPSLE manifestation
+Headache: persistent, non-responsive to analgesics — attributed to NPSLE (though CNS infection must first be excluded)
+Psychiatric features (psychosis-like behaviour, disorganised thought, suspiciousness): may represent NPSLE psychosis or be part of the acute confusional state
+
+Pathogenesis of NPSLE:
+Multiple mechanisms contribute:
+
+Autoantibody-mediated neuronal injury:
+Anti-dsDNA antibodies cross-react with NR2 glutamate receptor subunits on neurons (anti-NR2 antibodies) — promotes excitotoxic neuronal death
+Anti-phospholipid antibodies (aPL): cause thrombosis of small cerebral vessels (ischaemic injury) and neuronal dysfunction through direct binding
+Anti-ribosomal P antibodies: associated specifically with NPSLE psychosis and mood disorders in SLE
+
+Immune complex deposition:
+Complement-activating immune complexes deposit in the choroid plexus and small cerebral vessels
+Triggers local inflammation, increased permeability of the blood-brain barrier
+Allows inflammatory mediators and autoantibodies to enter the CNS
+
+Vasculopathy without vasculitis:
+Bland (non-inflammatory) thrombosis of small cerebral vessels from aPL or activated platelets
+Libman-Sacks endocarditis can embolise to cerebral vessels
+True CNS vasculitis occurs but is uncommon in SLE
+
+Cytokine-mediated injury:
+Elevated interleukin-6, TNF-alpha, and interferon-alpha in CSF
+Direct neurotoxic and psychoactive effects of pro-inflammatory cytokines
+
+Disruption of the blood-brain barrier:
+Loss of tight junction integrity allows entry of inflammatory cells and autoantibodies into the CNS
+Worsened by ischaemia and complement activation
+
+Hypertensive encephalopathy as a contributor:
+BP 150/95 mmHg in a previously normotensive 24-year-old raises concern for hypertensive encephalopathy contributing to the neurological picture
+SLE-associated hypertension may arise from: renal involvement (early lupus nephritis not yet symptomatic — urinalysis essential), steroid use (not currently on steroids), or pain and autonomic activation
+Must be evaluated and treated
+
+Seizure mechanism in NPSLE:
+From cortical irritation by autoantibodies (anti-NR2, aPL)
+From focal ischaemia or microinfarction (aPL-mediated thrombosis)
+From hypertensive encephalopathy
+From metabolic causes (hyponatraemia, uraemia, hypoglycaemia — must exclude)
+From cerebral oedema (posterior reversible encephalopathy syndrome — PRES, associated with SLE and hypertension)
+
+Posterior Reversible Encephalopathy Syndrome (PRES) — important consideration in this patient:
+PRES is characterised by headache, seizures, confusion, and visual disturbances associated with rapidly elevated blood pressure and/or immunosuppression
+Caused by loss of cerebrovascular autoregulation with cerebral oedema (typically occipital and parietal)
+MRI shows characteristic posterior white matter T2/FLAIR hyperintensities (vasogenic oedema)
+This patient: BP 150/95 mmHg, seizures, confusion, headache — PRES is a significant differential that must be considered, even in the absence of current immunosuppression (SLE itself can trigger PRES)
+PRES is largely reversible with blood pressure control — important to distinguish from lupus cerebritis as treatment differs
+
+Differential diagnoses (critical — must be systematically excluded before attributing features to NPSLE):
+
+CNS infection (bacterial meningitis, viral encephalitis, tuberculous meningitis):
+The single most important differential to exclude urgently
+Cannot be clinically distinguished from NPSLE encephalopathy without CSF analysis
+Fever (37.8°C), confusion, headache, and seizures: all consistent with either NPSLE or CNS infection
+The absence of neck stiffness does not exclude meningitis (particularly in immunocompromised patients where meningeal signs may be blunted)
+Viral encephalitis (HSV, EBV, CMV): must be specifically excluded — HSV encephalitis is treatable with Aciclovir and must not be missed
+Tuberculous meningitis: highly relevant in Nigeria (high TB burden country) — can present subacutely with headache, confusion, and seizures without prominent neck stiffness; SLE patients are at additional risk of TB from underlying immune dysregulation
+Cryptococcal meningitis: must be excluded in the Nigerian context, particularly if HIV co-infection is present
+CSF analysis is mandatory — do not defer lumbar puncture unless contraindicated (see plan)
+
+Metabolic encephalopathy:
+Uraemic encephalopathy: renal failure from lupus nephritis — urinalysis and serum creatinine will assess
+Hypoglycaemic encephalopathy: urgent blood glucose essential
+Hyponatraemic encephalopathy: SIADH occurs in SLE and causes seizures — serum sodium essential
+Hepatic encephalopathy: LFTs required
+Hypertensive encephalopathy / PRES: as discussed above — BP 150/95 mmHg in a young woman is significantly elevated and may be sufficient to cause PRES
+
+Drug-induced psychosis or encephalopathy:
+Corticosteroid-induced psychosis (steroid psychosis): can cause acute psychosis, mania, or confusion — however, this patient is NOT currently on steroids, so this is not applicable at presentation; it becomes highly relevant when steroids are started (monitor closely)
+Antimalarial toxicity: chloroquine at high doses can cause psychosis — not applicable (not yet on treatment)
+NSAID toxicity: ibuprofen at high doses can cause aseptic meningitis, particularly in SLE patients (SLE-related aseptic meningitis with NSAIDs is well-described) — she has been taking NSAIDs; withhold NSAIDs
+Illicit drug use: denied by patient and family — cannot be fully excluded without urine toxicology
+
+Primary epilepsy:
+New-onset seizures in SLE are attributed to NPSLE if no other cause is found
+However, primary epilepsy must be formally excluded (EEG, neuroimaging, family history — no family history here)
+Temporal lobe epilepsy, juvenile myoclonic epilepsy: can cause confusion and generalised seizures
+The multisystem SLE context makes NPSLE the most likely cause, but formal workup is required
+
+Cerebral venous sinus thrombosis (CVST):
+Can cause headache, seizures, and encephalopathy
+Associated with antiphospholipid syndrome (which occurs in SLE)
+MRI with venography (MRV) should be requested if CVST is clinically suspected
+Heparin anticoagulation (not corticosteroids) is the treatment — critical to distinguish
+
+Intracranial space-occupying lesion:
+Brain tumour (primary or metastatic), brain abscess (particularly in an immunocompromised host)
+Focal neurological deficits, papilloedema would be typical but not invariable
+CT or MRI brain will exclude
+
+Intracranial haemorrhage:
+Hypertension + thrombocytopenia (common in SLE) can cause spontaneous intracerebral haemorrhage
+Sudden severe headache, rapid GCS deterioration
+CT brain will identify
+
+Anti-NMDA receptor encephalitis:
+Can cause encephalopathy, psychiatric features, and seizures in young women
+Positive anti-NMDA receptor antibodies in serum and CSF
+May be associated with ovarian teratoma
+Importantly: anti-NMDA receptor encephalitis and SLE can coexist — seronegative NPSLE and anti-NMDA receptor encephalitis can be mistaken for each other
+Anti-NMDA receptor antibody testing (gold standard): available at specialist referral laboratories in Nigeria (some LUTH and UCH laboratories); send CSF sample for testing if available
+
+Key principle:
+In a patient with known or suspected SLE presenting with neuropsychiatric features, the primary obligation is to exclude CNS infection before attributing features to NPSLE and commencing high-dose immunosuppression. Treating NPSLE with steroids and immunosuppressants in the presence of an undiagnosed CNS infection can be fatal.
+
+PLAN
+
+This patient is a neurological emergency. Alert the senior medical officer, neurology team, and rheumatology team immediately.
+
+Immediate Stabilisation (ABC and Seizure Management)
+
+Airway:
+Ensure airway patency — in a confused patient with recent seizures, the airway may be compromised
+Position the patient in the recovery position (left lateral) between seizures
+Have suction apparatus at the bedside
+If GCS falls to 8 or below: endotracheal intubation and ICU admission
+Practical note: most Nigerian tertiary hospitals have ICU capacity at teaching hospital level; early communication with anaesthesia is essential if GCS is declining
+
+Breathing:
+SpO₂ 97% — supplemental oxygen via nasal prongs (2–4 L/min) to maintain SpO₂ greater than 95%
+Monitor respiratory rate continuously (seizures can cause apnoea)
+
+Circulation:
+IV access: two wide-bore cannulae (18G)
+Blood pressure 150/95 mmHg — requires urgent antihypertensive treatment (see below)
+Continuous cardiac monitoring (tachycardia at 104 bpm)
+Urine output monitoring: insert Foley catheter
+
+Seizure control:
+
+Active seizure or recurrent seizure management:
+First-line: IV Diazepam 10 mg slow IV push (over 2 minutes), can repeat once after 5 minutes if seizure persists
+Practical note: Diazepam is widely available and inexpensive in Nigeria; however, causes respiratory depression — have bag-mask ventilation ready before administering
+
+Second-line (if seizures persist after two doses of diazepam — status epilepticus protocol):
+IV Levetiracetam: loading dose 60 mg/kg IV over 15 minutes (maximum 4500 mg), then maintenance 20–30 mg/kg/day in two divided doses
+Advantages: no respiratory depression, no hepatic metabolism, no significant drug interactions — preferred in young women given teratogenicity profile and minimal organ toxicity
+Gold standard in Nigeria: Levetiracetam is available at most tertiary hospitals (LUTH, UCH, UNTH, ABUTH); may not be stocked at all secondary facilities
+Practical alternative if Levetiracetam unavailable: IV Phenytoin 15–20 mg/kg at 50 mg/min IV with cardiac monitoring (causes hypotension and arrhythmia — monitor ECG during infusion); or IV Phenobarbital 15–20 mg/kg IV
+
+Third-line (refractory status epilepticus):
+IV Valproate sodium loading dose 25–30 mg/kg IV over 5–10 minutes if Levetiracetam fails
+If still refractory: ICU admission, anaesthetic induction, propofol or midazolam infusion, and mechanical ventilation — escalate urgently to anaesthesia
+
+Maintenance anticonvulsant therapy (after acute seizure control):
+Oral Levetiracetam 500 mg twice daily (titrate to 1000–1500 mg twice daily based on response)
+Practical note: Levetiracetam is preferred over Phenytoin for maintenance in NPSLE (Phenytoin has significant drug interactions with corticosteroids and cyclophosphamide used in SLE treatment, and phenytoin toxicity may mimic neuropsychiatric features); Phenobarbital 60–120 mg at night is a cheaper, widely available alternative in Nigeria if Levetiracetam is unaffordable
+Anticonvulsants are continued until CNS SLE is in remission (typically 6–12 months) — then weaned under neurological supervision
+Gold standard: MRI and EEG findings guide anticonvulsant duration
+
+Blood glucose — point-of-care test immediately:
+Hypoglycaemia causes seizures and encephalopathy — must be excluded before any other intervention
+If glucose less than 3.0 mmol/L: IV Dextrose 50% (25–50 ml) bolus immediately
+Practical note: glucometers are widely available in Nigerian tertiary and most secondary hospitals — this should take less than 2 minutes
+
+Blood pressure management:
+
+BP 150/95 mmHg in a 24-year-old is a neurological emergency in the context of encephalopathy and seizures — consider PRES
+Target: reduce BP by no more than 20–25% in the first hour (aggressive rapid lowering risks cerebral hypoperfusion — equally dangerous)
+Short-term target: less than 140/90 mmHg within first few hours
+Long-term target: less than 130/80 mmHg (standard for SLE with renal or CNS involvement)
+
+Acute antihypertensive options:
+IV Labetalol 20 mg IV bolus over 2 minutes, then 20–80 mg every 10 minutes to a maximum of 300 mg; or continuous infusion 1–2 mg/min
+Advantages: combined alpha and beta blockade, no reflex tachycardia, titratable — gold standard for hypertensive emergency with CNS involvement
+Practical note: IV Labetalol is available at most teaching hospitals in Nigeria but may not be stocked at all centres
+
+If IV Labetalol unavailable (common in secondary facilities):
+Oral Nifedipine (retard) 10–20 mg orally: rapid onset, widely available, inexpensive; avoid sublingual Nifedipine (causes precipitous drop in BP)
+IV Hydralazine 5–10 mg slow IV push every 20 minutes: available at most Nigerian hospitals; may cause reflex tachycardia — add beta-blocker if needed
+
+Once BP is controlled and oral intake is possible:
+Amlodipine 5–10 mg orally once daily (calcium channel blocker — well-tolerated, widely available in Nigeria)
+PLUS ACE inhibitor (Ramipril 5 mg or Lisinopril 5 mg once daily) for renal protection if lupus nephritis is confirmed on urinalysis/biopsy
+Hold ACE inhibitor until creatinine, potassium, and renal function are established
+
+Temperature management:
+Temperature 37.8°C — low-grade fever is consistent with SLE activity or evolving infection
+Do not attribute fever to SLE until infection is excluded
+IV/oral Paracetamol 1 g every 6 hours for fever (avoid NSAIDs in NPSLE — NSAIDs can cause SLE-related aseptic meningitis and worsen renal function)
+If temperature rises above 38.5°C: escalate infection workup urgently
+
+Investigations
+
+Urgent investigations (perform simultaneously with stabilisation):
+
+Blood glucose (point-of-care): immediately — as above
+
+Blood culture: two sets from different sites before any antibiotics
+Mandatory — cannot exclude bacterial infection without cultures
+Send before empirical antibiotics are started if antibiotics are being considered
+
+Full blood count with differential:
+Leucopenia (lymphopenia is a criterion for SLE — WBC less than 4 × 10⁹/L)
+Thrombocytopaenia (platelet count less than 100 × 10⁹/L — relevant before lumbar puncture)
+Haemolytic anaemia (assess for haematological SLE)
+Availability: widely available at all Nigerian tertiary and most secondary hospitals
+
+Serum electrolytes, urea, and creatinine:
+Hyponatraemia (SIADH) causes seizures and encephalopathy — must be excluded urgently
+Uraemia: lupus nephritis as a cause of encephalopathy
+Baseline renal function before ACE inhibitor and nephrotoxic drugs
+Availability: widely available
+
+Serum glucose (laboratory confirmation):
+Confirm point-of-care result
+
+Coagulation profile (PT, aPTT, INR, fibrinogen):
+Thrombocytopaenia plus coagulopathy indicates DIC or severe SLE
+Coagulopathy must be corrected before lumbar puncture
+Availability: available at most tertiary hospitals; may be slower at secondary facilities
+
+Liver function tests:
+Hepatic encephalopathy as a cause of confusion
+Baseline before immunosuppressive therapy
+
+Serum lactate:
+If sepsis or systemic hypoperfusion is suspected
+Elevated lactate with shock suggests sepsis requiring urgent antibiotics
+
+Urine toxicology screen:
+To formally exclude illicit drug use as a cause of the acute psychiatric and neurological presentation
+Practical note: urine toxicology screening is available at major teaching hospitals (LUTH, UCH) and specialist centres; may not be available at all tertiary centres — include as gold standard; where unavailable, rely on clinical history
+
+Urinalysis with microscopy:
+Screen for lupus nephritis (proteinuria, haematuria, red cell casts)
+Also screens for urinary tract infection as a source of sepsis triggering neuropsychiatric exacerbation
+Availability: widely available in Nigeria
+
+Serum sodium (repeat if initial level is low): hyponatraemia causes seizures and must be corrected cautiously (overly rapid correction causes osmotic demyelination syndrome — central pontine myelinolysis)
+
+Immunological investigations:
+
+ANA, Anti-dsDNA, Anti-Sm, Anti-Ro/SSA, Anti-La/SSB, Anti-ribosomal P:
+Anti-ribosomal P antibodies are specifically associated with NPSLE psychosis — request specifically if psychosis is a prominent feature
+Antiphospholipid antibody panel (lupus anticoagulant, anticardiolipin IgG and IgM, anti-beta-2 glycoprotein-I): essential — aPL-associated thrombosis is a major mechanism of NPSLE and changes management fundamentally (anticoagulation rather than immunosuppression)
+Complement C3 and C4: reduced in active SLE
+Availability: ANA and Anti-dsDNA available at major teaching hospitals; Anti-Sm and Anti-ribosomal P may require referral to specialist immunology laboratories (LUTH, UCH, ABUTH)
+Practical note: immunological tests take days to weeks — clinical diagnosis and empirical treatment should not wait for these results
+
+Anti-NMDA receptor antibodies:
+Request on serum and CSF simultaneously (gold standard)
+Required to exclude anti-NMDA receptor encephalitis — an important mimic and co-diagnosis
+Practical note: anti-NMDA receptor antibody testing is available at LUTH and UCH reference laboratories; may require external referral and takes 1–2 weeks for results; do not delay treatment while awaiting — treat empirically as described below
+
+Neuroimaging:
+
+CT brain (first-line in Nigerian context for acute presentation):
+Most widely available neuroimaging modality in Nigerian tertiary hospitals
+Excludes: intracranial haemorrhage, space-occupying lesion, cerebral oedema, massive cerebral infarction, hydrocephalus
+Essential before lumbar puncture (exclude raised intracranial pressure)
+MUST be done before lumbar puncture if focal neurological signs, papilloedema, or GCS deterioration is present
+Limitations: insensitive for early ischaemia, small infarcts, cortical inflammation, PRES, demyelination
+Availability: CT brain is available at most tertiary hospitals in Nigeria; some secondary hospitals now have CT; urgent request required
+
+MRI brain (gold standard for NPSLE):
+Superior to CT for detecting:
+White matter hyperintensities (NPSLE vasculopathy, demyelination)
+Small cortical and subcortical infarcts (aPL-mediated thrombosis)
+PRES (posterior white matter T2/FLAIR hyperintensities — occipital, parietal distribution)
+Cortical atrophy
+Cerebral venous sinus thrombosis (with MR venography)
+Active inflammation (gadolinium-enhanced sequences)
+Sequences required: T1, T2, FLAIR, DWI (diffusion-weighted imaging), gadolinium enhancement, and MR venography if CVST suspected
+Practical note: MRI brain is available at most teaching hospitals (LUTH, UCH, ABUTH, UNTH) and some private centres in major cities; may involve delays of 24–48 hours; cost is a significant barrier for many patients in Nigeria — where MRI is unavailable or unaffordable, CT with contrast provides partial information; MRI should be prioritised and arranged urgently once the patient is stabilised
+If MRI is available: request as soon as patient is stable enough for the scan (GCS 13 — currently feasible with nursing supervision)
+
+EEG (electroencephalography):
+Characterises seizure type and identifies subclinical seizures
+Assesses background cerebral activity (diffuse slowing in encephalopathy; focal abnormalities in focal lesion or herpes encephalitis)
+Gold standard for distinguishing epileptic seizures from non-epileptic events (pseudoseizures)
+Monitors response to anticonvulsant therapy
+Practical note: EEG is available at most teaching hospitals in Nigeria (neurology departments at LUTH, UCH, ABUTH, LASUTH, UNTH); may require 24–48 hour wait; arrange urgently — perform as soon as clinical condition allows
+Practical alternative if EEG is delayed: treat empirically based on clinical seizure characterisation while arranging EEG
+
+Lumbar puncture and CSF analysis (mandatory — urgent):
+Cannot exclude CNS infection without CSF analysis — this is non-negotiable in a patient with fever, headache, confusion, and seizures
+Must be performed in every NPSLE patient presenting with acute neuropsychiatric features unless contraindicated
+
+Contraindications to lumbar puncture:
+Papilloedema (raised ICP — risk of herniation)
+Focal neurological deficits (suggest space-occupying lesion — perform CT first)
+Uncorrected coagulopathy (platelet count less than 50 × 10⁹/L or INR greater than 1.5)
+Haemodynamic instability
+Check CT brain first (to exclude raised ICP), then check platelet count and coagulation before proceeding
+
+CSF analysis — gold standard parameters:
+Appearance: colour (clear, cloudy, blood-stained), viscosity
+Opening pressure (measured with manometer — elevated in bacterial meningitis, cryptococcal meningitis, raised ICP)
+Cell count and differential: elevated WBC (pleocytosis) with neutrophil predominance in bacterial meningitis; lymphocyte predominance in viral/tuberculous/fungal meningitis; mild pleocytosis in NPSLE (typically less than 100 cells, predominantly lymphocytes)
+Protein: elevated in infection and NPSLE; markedly elevated in bacterial meningitis
+Glucose: low in bacterial and fungal meningitis (CSF:blood glucose ratio less than 0.5); normal in viral encephalitis and NPSLE
+Gram stain and culture: identifies bacterial pathogens
+CSF VDRL: exclude neurosyphilis (important in Nigeria)
+India ink preparation and cryptococcal antigen (CrAg): exclude cryptococcal meningitis — CrAg is the most sensitive rapid test; widely available in Nigeria at tertiary centres
+AFB smear and TB PCR (or Xpert MTB/RIF): exclude tuberculous meningitis — TB PCR is the gold standard; AFB smear alone has low sensitivity for TBM; Xpert MTB/RIF on CSF is increasingly available in Nigeria at tertiary centres and is rapid (results in 2 hours)
+HSV PCR and other viral PCRs: HSV-1 and HSV-2 PCR on CSF — gold standard for herpes encephalitis; available at LUTH, UCH, ABUTH; send urgently
+Oligoclonal bands: present in some NPSLE cases and demyelinating disease — not routinely available at most Nigerian centres
+Anti-NMDA receptor antibody (CSF): send alongside serum sample
+Cytology: rule out meningeal malignancy or malignant cells
+
+Availability of CSF tests in Nigeria:
+Standard cell count, protein, glucose, Gram stain, culture: available at all tertiary hospitals and most secondary hospitals
+India ink and CrAg: available at most teaching hospitals
+AFB smear: available widely; TB PCR (Xpert): available at most teaching hospitals and some secondary facilities
+HSV PCR: available at major teaching hospitals (LUTH, UCH, ABUTH); may require referral to external laboratories at other centres — do not withhold empirical Aciclovir while awaiting HSV PCR result
+
+Empirical Treatment for CNS Infection While Awaiting CSF Results
+
+Critical principle: In a febrile, confused patient with seizures in Nigeria, do not wait for CSF results before starting empirical antibacterials and Aciclovir. Start simultaneously with lumbar puncture, or immediately after if LP is delayed.
+
+IV Aciclovir (herpes encephalitis — cannot be missed):
+IV Aciclovir 10 mg/kg every 8 hours (infused over 1 hour, well-diluted in 100–200 ml Normal Saline)
+Start immediately in any patient with encephalopathy and seizures where HSV encephalitis has not been excluded
+HSV encephalitis is rapidly fatal if untreated — mortality approaches 70% without Aciclovir; morbidity is severe even with delayed treatment
+Continue until HSV PCR is confirmed negative
+Practical note: Aciclovir is available at most tertiary hospitals in Nigeria; it is moderately expensive but essential — cost should never be a reason to withhold it; monitor for nephrotoxicity (ensure adequate hydration before and during infusion)
+
+IV Ceftriaxone (bacterial meningitis coverage):
+IV Ceftriaxone 2 g every 12 hours
+Covers Streptococcus pneumoniae and Neisseria meningitidis (the most common bacterial meningitis pathogens in adults)
+Start immediately — bacterial meningitis mortality increases significantly with each hour of delay
+Continue until bacterial meningitis is excluded by culture (negative culture at 48 hours + reassuring CSF parameters)
+Practical note: Ceftriaxone is widely available and affordable in Nigeria
+
+IV Dexamethasone (adjunct for bacterial meningitis):
+IV Dexamethasone 0.15 mg/kg every 6 hours for 4 days (given 15–30 minutes before or with the first antibiotic dose)
+Reduces meningeal inflammation, decreases CSF oedema, and reduces complications (particularly hearing loss from pneumococcal meningitis)
+Gold standard recommendation for all suspected bacterial meningitis in adults
+Note: if bacterial meningitis is excluded and NPSLE is confirmed, dexamethasone alone is insufficient — specific NPSLE immunosuppression is required
+Practical note: Dexamethasone is widely available in Nigeria
+
+If TBM is clinically suspected (subacute presentation, high TB burden context, lymphocytic pleocytosis):
+Start anti-tuberculosis therapy empirically: Rifampicin + Isoniazid + Pyrazinamide + Ethambutol (RIPE regimen) in standard adult doses — consult FMOH TB treatment guidelines
+Steroids (Dexamethasone 8 mg/day for 3 weeks, then taper) are indicated for TBM
+Practical note: anti-TB drugs are available through the National TB Programme (NTBLCP) at no cost to the patient
+
+Cryptococcal meningitis:
+IV Amphotericin B deoxycholate 0.7–1 mg/kg/day (induction — 2 weeks) + Flucytosine 25 mg/kg four times daily (if available)
+Followed by consolidation with oral Fluconazole 400 mg/day for 8 weeks, then maintenance Fluconazole 200 mg/day
+Gold standard: Amphotericin B + Flucytosine induction (superior to Fluconazole alone for induction)
+Practical note: Amphotericin B is available at most teaching hospitals in Nigeria; Flucytosine has very limited availability in Nigeria — in practice, many centres use Amphotericin B alone or Amphotericin B + Fluconazole as a practical substitute; Fluconazole is widely available
+
+Specific NPSLE Immunosuppressive Therapy
+
+Do not start until CNS infection has been excluded or empirically treated (infection plus high-dose steroids = potentially fatal)
+Once CSF results are reassuring (no evidence of infection) or empirical antibiotic/antiviral therapy is established — begin NPSLE-specific treatment
+
+Step 1 — IV Methylprednisolone pulse therapy (induction):
+
+IV Methylprednisolone 500–1000 mg once daily for 3 consecutive days
+Mechanism: rapidly suppresses neuroinflammation, reduces cerebral oedema, decreases autoantibody-mediated neuronal injury
+This is the first essential step for NPSLE acute confusional state and seizures once infection is excluded
+Gold standard: IV methylprednisolone pulse is the internationally recommended first step for severe NPSLE
+Practical note: available at most Nigerian teaching hospitals; IV methylprednisolone (Solu-Medrol) is moderately expensive — stock availability must be confirmed; if unavailable, start oral Prednisolone 1–2 mg/kg/day immediately as a practical bridge
+Administer with IV Omeprazole 40 mg for gastroprotection during pulse
+Steroid psychosis is a known complication of high-dose corticosteroids — may worsen neuropsychiatric features transiently; if new or worsening psychosis emerges after steroids are started, reassess whether this is steroid psychosis vs NPSLE progression
+
+Transition to oral prednisolone after pulse:
+Oral Prednisolone 1–1.5 mg/kg/day (up to 60–80 mg/day in severe NPSLE)
+Taper over 4–6 months guided by clinical response, SLEDAI score, and immunological markers
+
+Step 2 — Cyclophosphamide (for severe NPSLE with organ-threatening manifestations):
+
+IV Cyclophosphamide is the gold standard second-line agent for severe NPSLE not responding to steroids alone, particularly for:
+Acute confusional state (lupus cerebritis)
+Myelopathy
+CNS vasculitis
+Severe refractory seizures from NPSLE
+Euro-Lupus low-dose regimen: IV Cyclophosphamide 500 mg every 2 weeks for 6 doses (total 3 g) — preferred in young women for gonadotoxicity reduction
+NIH high-dose regimen: IV Cyclophosphamide 0.5–1.0 g/m² monthly for 6 doses — used for very severe or refractory NPSLE
+Mesna (IV or oral) given with cyclophosphamide infusion to prevent haemorrhagic cystitis
+Aggressive IV hydration before, during, and after cyclophosphamide infusion
+Monitor for leucopenia (FBC before each dose)
+Fertility counselling: cyclophosphamide causes premature ovarian failure in young women — discuss fertility preservation; GnRH agonist (Leuprolide) co-administration during cyclophosphamide reduces gonadotoxicity; egg or embryo cryopreservation (where available and affordable) — discuss with patient and family
+Practical note: IV cyclophosphamide is available at most teaching hospitals and oncology centres in Nigeria; it is significantly less expensive than MMF; the Euro-Lupus regimen is practical in the Nigerian context and is the preferred approach for most centres
+
+Mycophenolate mofetil (MMF) as an alternative:
+MMF 2–3 g/day is an option if cyclophosphamide is refused or contraindicated
+Less evidence specifically for severe NPSLE compared with cyclophosphamide
+Use in NPSLE with concurrent nephritis
+Practical note: MMF is available but expensive — as for the previous case, cyclophosphamide is the more practical and affordable choice for most Nigerian patients in the acute severe NPSLE setting
+
+Maintenance after induction:
+Azathioprine 1.5–2.5 mg/kg/day for at least 2–3 years
+OR MMF 1–2 g/day
+Combined with low-dose Prednisolone (less than or equal to 7.5 mg/day)
+Plus Hydroxychloroquine (see below)
+
+Step 3 — Hydroxychloroquine (cornerstone for all SLE):
+
+HCQ 200–400 mg orally once daily
+Start as soon as the patient can take oral medication
+As described in the previous case — reduces flares, improves overall survival, reduces anti-dsDNA titres
+Begin the ophthalmology baseline review once patient is stable
+Practical note: same as noted in med-02 — access and cost are barriers outside major cities
+
+Step 4 — Antiphospholipid syndrome management (if aPL antibodies are positive):
+
+If antiphospholipid antibodies are confirmed and CNS features are attributed to aPL-mediated thrombosis (stroke, CVST):
+Anticoagulation replaces or supplements immunosuppression
+LMWH (Enoxaparin 1 mg/kg SC twice daily) acutely, transitioning to warfarin (target INR 2.0–3.0 for arterial thrombosis, or 2.0–3.0 for venous)
+Gold standard for antiphospholipid syndrome with thrombosis: warfarin (target INR 2.5–3.5 for recurrent arterial events)
+Practical note: warfarin is widely available in Nigeria; regular INR monitoring is available at most tertiary hospitals; LMWH (Enoxaparin) is available but expensive
+If aPL is positive but no thrombosis has occurred: low-dose aspirin 75–100 mg daily as primary prophylaxis
+
+Belimumab (BLyS inhibitor): same availability constraints as discussed in med-02 — gold standard emerging treatment; not currently accessible in Nigeria for most patients
+
+Rituximab (anti-CD20 monoclonal antibody):
+Used for refractory NPSLE not responding to cyclophosphamide and steroids
+IV Rituximab 1000 mg on days 1 and 15 (or 375 mg/m² weekly for 4 doses)
+Evidence: case series and retrospective data support use in refractory NPSLE; randomised trial evidence is limited
+Practical note: Rituximab is available at some teaching hospitals and private oncology centres in Nigeria (LUTH, UCH, private oncology hospitals); it is very expensive; it is not on the NHIS formulary for SLE in Nigeria — mention as a gold standard option for refractory cases but acknowledge significant access barriers
+
+Psychiatric Symptom Management
+
+Neuropsychiatric symptoms in NPSLE are primarily driven by the underlying autoimmune process — treating the underlying SLE with immunosuppression is the primary psychiatric treatment.
+
+Antipsychotics (for acute agitation, psychosis-like features):
+Haloperidol 2–5 mg orally or IM every 8–12 hours (for acute agitation and psychosis)
+Or Risperidone 1–2 mg orally twice daily (better tolerated, less extrapyramidal side effects)
+Use the lowest effective dose for the shortest duration necessary
+Important caveat: steroid-induced psychosis must be distinguished from NPSLE psychosis once steroids are started — steroid psychosis usually occurs within the first 2 weeks of high-dose steroid initiation; NPSLE psychosis predates steroids and is driven by the autoimmune process
+If steroid psychosis is suspected after starting treatment: reduce steroid dose if clinically feasible; add low-dose antipsychotic
+Practical note: Haloperidol is widely available and inexpensive in Nigeria; Risperidone is available at most tertiary hospitals
+
+Benzodiazepines (for acute agitation):
+IV or IM Lorazepam 1–2 mg for acute severe agitation (if IV access established)
+Oral Diazepam 5–10 mg for milder agitation
+Use cautiously — respiratory depression risk in a patient with GCS 13
+
+Sedation protocol for safety:
+A confused, agitated patient is at risk of self-harm, falling, or removing IV lines and catheters
+Nurse in a well-monitored environment with bed rails up
+One-to-one nursing during acute agitation phase
+Use physical restraints only as a last resort and with clear documentation
+Engage family members to provide reassurance and familiar stimulation (known voices are calming for confused patients)
+
+SSRI antidepressants: not indicated acutely; may be considered for mood disorder (depression) in the recovery phase
+
+Supportive Care
+
+Hydration:
+Adequate IV fluids (Normal Saline or Ringer's Lactate) to prevent dehydration — ensure adequate renal perfusion (particularly before cyclophosphamide and Aciclovir)
+Avoid fluid overload (hypertension and cerebral oedema risk)
+Monitor urine output hourly
+
+Nutrition:
+Patient is confused and may not be able to take oral nutrition safely (aspiration risk with GCS 13)
+Nasogastric tube feeding: insert NG tube and begin enteral feeding if oral intake is not safe
+High-protein diet once tolerating oral feeds
+Dietary supplementation and multivitamins
+Folate supplementation if on Methotrexate in future maintenance
+
+Oral care:
+Oral ulcers (a feature of her SLE): regular chlorhexidine mouthwash and topical Lidocaine gel for symptomatic relief
+
+Infection prevention:
+Strict hand hygiene by all attendants
+PJP prophylaxis (Co-trimoxazole) to be started once immunosuppression is established
+TB screening must be completed before immunosuppression
+Hepatitis B serology and prophylaxis as described in med-02
+
+Venous thromboembolism prophylaxis:
+Immobility + SLE + antiphospholipid antibodies = very high DVT risk
+LMWH (Enoxaparin 40 mg SC daily) once haemorrhagic causes are excluded (CT brain, coagulation profile)
+TED stockings
+Early mobilisation as neurological condition improves
+
+Bone and gastric protection:
+Omeprazole 20–40 mg daily (steroid-related peptic ulceration)
+Calcium + Vitamin D supplementation from day 1 of steroid therapy
+
+Menstrual cycle management with cyclophosphamide:
+GnRH agonist (Leuprolide 3.75 mg IM monthly during cyclophosphamide treatment) — suppresses ovulation and reduces the risk of cyclophosphamide-related premature ovarian failure
+Discuss urgently with patient or family given young age (24 years)
+Practical note: GnRH agonists are available at major tertiary hospitals in Nigeria (reproductive medicine units); expensive but strongly justified in a 24-year-old unmarried woman; arrange before first cyclophosphamide dose if possible
+
+Monitoring
+
+Neurological monitoring:
+GCS: hourly during acute phase (immediately escalate to ICU if GCS drops to 8 or below)
+Seizure frequency and duration: document each episode
+Pupil size and reactivity: hourly (asymmetric pupils suggest herniation — emergency CT immediately)
+Focal neurological deficits: reassess every 4–8 hours
+Mental state: reassess cognitive function and behavioural status daily using bedside cognitive screening (MMSE or MoCA once cooperable)
+Repeat MRI at 4–6 weeks after treatment to assess resolution of CNS changes (gold standard); CT if MRI unavailable
+
+Vital signs and haemodynamic monitoring:
+Blood pressure: every 1–2 hours initially, targeting progressive reduction to less than 140/90 mmHg
+Pulse and temperature: every 2–4 hours
+SpO₂: continuous pulse oximetry
+
+Laboratory monitoring:
+FBC: every 48 hours initially (leucopenia from SLE and cyclophosphamide)
+Serum electrolytes, urea, creatinine: daily during acute admission
+Serum sodium: daily (SIADH monitoring — overly rapid correction of hyponatraemia causes osmotic demyelination)
+Blood glucose: 4–6 hourly (steroid-induced hyperglycaemia)
+LFTs: weekly during induction
+Coagulation profile: at least twice weekly
+Anti-dsDNA and complement (C3, C4): every 4–6 weeks during induction (guide treatment response)
+Urinalysis: every 48 hours (monitor for development of lupus nephritis)
+
+EEG: repeat after anticonvulsant stabilisation to assess background activity and confirm seizure control
+CSF: repeat lumbar puncture at 48–72 hours if clinical response is inadequate (to reassess cell counts and exclude ongoing infection)
+
+Counselling
+
+Counselling is primarily with the patient's mother given the patient's altered mentation, with the patient included as she recovers.
+
+Explanation of the diagnosis:
+Her daughter has a condition called SLE — an autoimmune disease where the immune system attacks the body's own organs
+This time, the immune system has affected the brain — this is called NPSLE or lupus cerebritis — which is causing the confusion, abnormal behaviour, and seizures
+This is a serious but treatable condition; most patients recover significantly with prompt and appropriate treatment
+
+Reassurance regarding the neuropsychiatric features:
+The abnormal behaviour and talking irrelevantly are caused by the brain being affected by the immune disease — not by mental illness or spiritual attack
+With treatment, the majority of patients with NPSLE improve significantly in their behaviour, memory, and cognition
+It may take days to weeks for the brain to recover fully — patience and close follow-up are essential
+
+Regarding infection exclusion:
+Tests are being done to check if there is also an infection in the fluid around the brain — this is being done urgently to make sure no infection is present before powerful medicines are given
+Medicines to treat potential infection are being started at the same time to protect her while the results are awaited
+
+Treatment expectations:
+Strong medicines to calm down the immune system will be given through a drip over the next several weeks — this is necessary to protect the brain and prevent permanent damage
+Side effects of steroids (weight gain, mood changes, high blood sugar, increased infection risk) will be monitored closely
+There will also be a medicine given to protect the womb from damage by the cyclophosphamide — this is important for her future ability to have children; this should be discussed clearly and compassionately given her age
+
+Prognosis discussion:
+With early and aggressive treatment, the neuropsychiatric features of SLE can be reversed in many patients
+Some patients may have residual cognitive difficulties (memory, concentration) after recovery — this depends on the extent of brain involvement and the speed of treatment
+There is a risk of relapse — the disease can flare again; this makes lifelong follow-up and medication adherence essential
+She should not stop her medications once she feels better — stopping treatment is the most common cause of a serious relapse
+
+Sun protection and lifestyle:
+Sun exposure directly triggers SLE flares — as a student who may spend time outdoors, she must use sun protection consistently (sunscreen SPF 30+, protective clothing, shade during peak sun hours)
+Regular rest, stress management, and avoiding infections are important (infections trigger SLE flares)
+
+Future planning:
+She can complete her university education — SLE, when well-controlled, does not preclude academic achievement
+Pregnancy in SLE requires careful planning with her rheumatologist — if she wishes to conceive in the future, this must be planned well in advance when the disease is in remission
+Contraceptive advice: avoid combined oral contraceptive pills (oestrogen increases thrombotic risk in SLE, particularly if antiphospholipid antibodies are present) — use progesterone-only pill or barrier methods
+
+PROGNOSIS
+
+Prognosis of NPSLE:
+NPSLE is one of the most severe manifestations of SLE and is associated with significant morbidity and mortality
+Overall mortality from NPSLE has improved with aggressive immunosuppression but remains higher than SLE without CNS involvement
+
+Prognosis of specific NPSLE manifestations:
+Acute confusional state: generally a good short-term prognosis if treated promptly — most patients recover to near-normal mentation; however, residual cognitive impairment is common (attention, memory, processing speed)
+Seizure disorder: seizures are often controllable with anticonvulsants and immunosuppression; recurrence risk is high without sustained disease control
+Psychosis: generally responsive to immunosuppression; may require low-dose antipsychotic for several months
+
+Favourable prognostic factors in this patient:
+Young age (24 years)
+No renal involvement at present (though urinalysis required)
+Prompt presentation (2 days after seizure onset)
+No focal neurological deficits (brainstem integrity maintained)
+Normal plantar responses (no upper motor neuron lesion)
+No prior similar illness (first CNS episode)
+No illicit drug or alcohol use
+Presenting at a facility capable of MRI and CSF analysis
+
+Unfavourable prognostic factors:
+Acute confusional state (the most dangerous NPSLE presentation)
+Hypertension at 150/95 mmHg (suggests possible concurrent nephritis or PRES)
+Low-grade fever (raises concern for CNS infection co-existing with NPSLE)
+Antiphospholipid antibody status unknown (if positive, significantly worsens prognosis and changes management)
+Access barriers in Nigeria: MRI availability, Levetiracetam availability, cyclophosphamide access and monitoring, cost of hydroxychloroquine
+
+Long-term risks:
+Cognitive impairment: a major long-term concern in NPSLE — affects academic performance and quality of life; formal neuropsychological assessment at recovery
+Relapse: NPSLE has a high relapse rate; sustained immunosuppression and hydroxychloroquine reduce but do not eliminate this risk
+Premature ovarian failure: from cyclophosphamide — discuss fertility preservation urgently
+Cardiovascular disease: accelerated in SLE, exacerbated by hypertension, chronic inflammation, and corticosteroids
+Depression and anxiety: common in NPSLE survivors; requires active psychological support and monitoring
+
+FOLLOW-UP
+Neurological review weekly during induction phase (first 3 months). Repeat MRI brain at 4–6 weeks post-treatment (or CT if MRI unavailable) to assess treatment response. EEG repeat at 4 weeks. Monthly FBC, renal function, LFTs, and SLEDAI during induction. Anti-dsDNA and complement every 3 months. Anticonvulsant review at 6 months — wean if seizure-free and MRI shows resolution. Rheumatology review every 4–6 weeks during active disease. Neuropsychological assessment once fully recovered (typically 3–6 months) — assess cognitive function formally (MMSE, MoCA, or Neurocognitive Battery). Ophthalmology review before starting hydroxychloroquine and annually after 5 years. Annual cardiovascular risk assessment. TB screening before and annually during immunosuppression. Fertility counselling and gynaecology review given cyclophosphamide use — arrange GnRH agonist co-therapy urgently. Contraceptive counselling at every visit. Psychological support: formal counselling or psychotherapy referral for the patient and family after recovery. Return to care immediately if seizures recur, confusion worsens, or new neurological symptoms develop.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'im-43',
+  title: 'Severe Lupus Nephritis with Nephrotic Syndrome and Fluid Overload',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Rheumatology / Nephrology',
+  condition: 'Systemic lupus erythematosus with severe lupus nephritis, nephrotic syndrome, anasarca, and hypertensive urgency in a young woman',
+  symptoms: [
+    'Symmetrical polyarthritis',
+    'Malar rash',
+    'Generalised body swelling',
+    'Frothy urine',
+    'Reduced urine output',
+    'Anasarca with ascites and bibasal crepitations',
+    'Hypertension (160/100 mmHg)',
+    'Photosensitivity, alopecia, oral ulcers',
+    'Mild pallor',
+    'Generalised weakness and anorexia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-11',
+  summary: 'Miss E.O., a 22-year-old undergraduate student presenting with a 5-month history of symmetrical polyarthritis (MCP, PIP joints, wrists, and knees bilaterally), 4-month history of malar rash with photosensitivity, alopecia, and painless oral ulcers, and a 3-week history of progressive generalised body swelling beginning with periorbital puffiness and progressing to involve the legs and abdomen, with concurrent frothy urine. Reduced urine output for 1 week. No seizures, no altered consciousness. Not previously diagnosed with SLE or any chronic illness. Examination reveals an acutely ill, mildly pale young woman with a malar rash, patchy alopecia, anasarca (periorbital oedema, generalised pitting oedema), BP 160/100 mmHg, bibasal crepitations, and ascites with shifting dullness. Weight 70 kg (likely fluid overloaded). No focal neurological deficits. Diagnosis: systemic lupus erythematosus with severe lupus nephritis (likely ISN/RPS Class III, IV, or V), full nephrotic syndrome, anasarca, hypertensive urgency, and fluid overload requiring immediate admission, urgent renal workup, fluid and blood pressure management, and immunosuppressive induction therapy.',
+  content: `
+Miss E.O., a 22-year-old undergraduate student, resident in Ibadan, Oyo State, Christian, Yoruba, single.
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Joint pains × 5 months
+Facial rash × 4 months
+Generalised body swelling × 3 weeks
+Frothy urine × 3 weeks
+Reduced urine output × 1 week
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 5 months prior to presentation when she developed recurrent joint pains involving both wrists, fingers (MCP and PIP joints), and knees. The pain was bilateral and symmetrical, dull aching with a pain score of 6/10, associated with morning stiffness lasting approximately 1 hour, and partially relieved by movement and analgesics. No joint deformity.
+
+About 4 months prior to presentation, she noticed a facial rash over the cheeks and bridge of the nose. The rash was non-pruritic, worsened with sun exposure, and spared the nasolabial folds. Associated features included photosensitivity, diffuse hair loss, and recurrent painless oral ulcers. She did not seek medical attention at that time.
+
+Approximately 3 weeks prior to presentation, she developed generalised body swelling, initially involving the face (periorbital puffiness, worse in the mornings), then progressing to involve the legs and abdomen.
+
+Around the same time, she noticed her urine had become frothy, suggesting significant proteinuria.
+
+About 1 week prior to presentation, she developed reduced urine output, progressively worsening. No dysuria, no grossly visible haematuria, no loin pain.
+
+She also complains of generalised weakness, loss of appetite, and occasional low-grade fever.
+
+No history of seizures, altered consciousness, haemoptysis, or recurrent miscarriages.
+
+PAST MEDICAL HISTORY
+No previously diagnosed chronic illness
+No prior diagnosis of SLE — this is the likely first presentation
+
+DRUG HISTORY
+Occasional NSAIDs for joint pain
+No prior corticosteroids or immunosuppressants
+No known drug allergies
+
+FAMILY HISTORY
+No family history of autoimmune or renal disease
+
+SOCIAL HISTORY
+Undergraduate student
+No alcohol, no smoking, no herbal medication use
+
+REVIEW OF SYSTEMS
+Renal: Frothy urine, oliguria, generalised oedema including ascites
+Musculoskeletal: Symmetrical polyarthritis
+Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
+Cardiorespiratory: Bibasal crepitations (fluid overload), no chest pain
+Neurological: No neuropsychiatric symptoms
+
+SUMMARY
+A 22-year-old woman with a 5-month background of multisystem features consistent with SLE (arthritis, malar rash, photosensitivity, alopecia, oral ulcers) now presenting with advanced lupus nephritis complicated by full nephrotic syndrome, anasarca, oliguria, hypertension, and fluid overload, requiring urgent nephrology and rheumatology management.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, acutely ill-looking
+Generalised oedema (anasarca)
+Mildly pale
+Not icteric
+Afebrile (temperature 36.9°C)
+Periorbital oedema (facial puffiness, worse in the mornings — characteristic of nephrotic syndrome)
+Malar rash over cheeks and nasal bridge, sparing nasolabial folds
+Patchy alopecia
+
+Vital Signs:
+PR: 98 bpm (borderline tachycardia)
+BP: 160/100 mmHg (severe hypertension — hypertensive urgency in the context of renal disease)
+RR: 22 cpm (mildly elevated — partly from fluid overload and reduced chest compliance)
+Temperature: 36.9°C (afebrile)
+SpO₂: 97% on room air (mildly reduced — bilateral pleural effusions contributing)
+
+Cardiovascular System:
+PR 98 bpm, regular
+BP 160/100 mmHg
+Heart sounds S1 and S2, no murmurs
+JVP: not documented but should be assessed (elevated JVP would confirm fluid overload)
+
+Respiratory System:
+Reduced air entry at lung bases (pleural effusions from hypoalbuminaemia and fluid overload)
+Bibasal crepitations (pulmonary oedema and/or pleural effusions)
+No wheeze
+
+Abdomen:
+Distended
+Moves with respiration
+Positive shifting dullness (ascites)
+No organomegaly
+No tenderness
+
+Musculoskeletal:
+Tender MCP and PIP joints bilaterally
+No deformities, no warmth or erythema
+
+Central Nervous System:
+Conscious and alert
+Oriented in time, place, and person
+No focal neurological deficits
+Anterior fontanelle: not applicable (adult patient)
+
+Anthropometry:
+Weight: 70 kg (likely significantly above dry weight given anasarca — true lean body weight may be considerably lower)
+Height: 1.62 m
+BMI: 26.7 kg/m² (overweight category, but largely artefactual from fluid retention)
+
+ASSESSMENT
+
+Systemic lupus erythematosus with severe lupus nephritis presenting with full nephrotic syndrome, anasarca (generalised oedema, ascites, pleural effusions), oliguria, and hypertensive urgency — likely ISN/RPS Class III, IV, or mixed Class IV+V
+
+Diagnosis based on:
+
+SLE diagnosis:
+This patient meets the ACR 1997 SLE criteria on clinical grounds alone:
+Malar rash: present
+Photosensitivity: present
+Oral ulcers: present
+Non-erosive arthritis: present
+Renal disorder (proteinuria — frothy urine, oliguria): present
+Haematological disorder: pending FBC (expected cytopenias)
+Immunological: pending ANA, Anti-dsDNA
+She meets at least 5–6 criteria clinically before any investigations are returned
+The 2019 EULAR/ACR score will exceed 10 points, confirming SLE formally once ANA and immunological results are available
+
+Severity of renal involvement in this case:
+This case represents the most severe end of lupus nephritis — the combination of:
+Full nephrotic syndrome (frothy urine from nephrotic-range proteinuria, periorbital oedema, dependent oedema, hypoalbuminaemia)
+Oliguria (reduced GFR — suggests significant glomerulonephritis)
+Anasarca (periorbital oedema, generalised pitting oedema, ascites, bibasal crepitations from pleural effusions — indicates profound hypoalbuminaemia and sodium retention)
+Hypertension (160/100 mmHg — from sodium retention, activation of the renin-angiotensin-aldosterone system, and impaired renal autoregulation)
+Severity at first presentation without prior treatment suggests Class IV (diffuse proliferative) or mixed Class IV+V nephritis, or rapidly progressive glomerulonephritis
+
+Nephrotic syndrome — diagnostic features present:
+Classic tetrad:
+Heavy proteinuria (greater than 3.5 g/24 hours) — frothy urine strongly suggests nephrotic-range proteinuria
+Hypoalbuminaemia — will be confirmed on serum albumin (expected less than 25 g/L given anasarca)
+Peripheral oedema — present (generalised, including periorbital, legs, and abdomen)
+Hyperlipidaemia — expected on lipid profile (hepatic lipoprotein over-synthesis in response to hypoalbuminaemia — visible as lipiduria on urinalysis)
+Periorbital oedema in the morning is a characteristic feature of nephrotic syndrome (low oncotic pressure allows oedema to redistribute to the periorbital space overnight when lying flat — face oedema in the morning, leg oedema after standing)
+
+Additional features suggesting concurrent nephritic syndrome (mixed nephritic-nephrotic presentation):
+Oliguria (reduced GFR — nephritic component)
+Hypertension (fluid and sodium retention from nephritis)
+Microscopic haematuria and red cell casts likely on urinalysis (expected in Class III/IV lupus nephritis)
+This mixed nephritic-nephrotic picture is highly characteristic of Class IV (diffuse proliferative) lupus nephritis
+
+Anasarca — severity indicator:
+Anasarca = diffuse generalised oedema involving the skin, mucosae, and body cavities
+In this patient: periorbital oedema, bilateral leg oedema, ascites (positive shifting dullness), and bibasal pleural effusions/crepitations
+Reflects profound hypoalbuminaemia from massive urinary protein loss
+Serum albumin likely less than 20 g/L
+Requires urgent diuresis alongside definitive immunosuppression
+
+Pathophysiology of oedema in lupus nephritis:
+Two mechanisms contribute simultaneously:
+
+Underfill mechanism (nephrotic syndrome):
+Massive urinary protein loss → hypoalbuminaemia → reduced plasma oncotic pressure → fluid shifts from intravascular to interstitial space → oedema
+Reduced effective circulating volume → activation of renin-angiotensin-aldosterone system → sodium and water retention → worsens oedema
+
+Overfill mechanism (nephritis):
+Primary sodium retention from glomerular inflammation → expanded intravascular volume → oedema without necessarily severe hypoalbuminaemia
+In this patient: both mechanisms are likely active (nephritic-nephrotic mixed disease)
+
+Hypertension — severity and mechanism:
+BP 160/100 mmHg = Stage 2 hypertension
+In a 22-year-old previously normotensive woman: strongly secondary to lupus nephritis
+Mechanisms: sodium and water retention, RAAS activation, reduced prostaglandin-mediated vasodilation, corticosteroid effect (not currently on steroids — so first two mechanisms dominate)
+At this level of BP: risk of hypertensive emergency complications (encephalopathy, cardiac dysfunction, worsening renal failure) — must be controlled urgently
+Target: less than 130/80 mmHg for SLE with nephritis (KDIGO and EULAR guidelines)
+
+ISN/RPS Classification of lupus nephritis (why biopsy is essential):
+
+Class I — Minimal mesangial nephritis:
+Normal light microscopy, mesangial deposits on immunofluorescence only
+Clinically: no renal symptoms; normal urinalysis
+Management: treat underlying SLE; no specific nephritis treatment
+
+Class II — Mesangial proliferative nephritis:
+Mesangial hypercellularity on light microscopy
+Clinically: mild proteinuria and/or haematuria; no nephrotic or nephritic syndrome
+Management: low-dose steroids for symptomatic control; HCQ
+
+Class III — Focal proliferative nephritis:
+Less than 50% of glomeruli involved on light microscopy
+Clinically: proteinuria, haematuria, hypertension, variable GFR reduction
+Management: high-dose steroids + MMF or cyclophosphamide (same as Class IV)
+
+Class IV — Diffuse proliferative nephritis (most common and most severe):
+Greater than or equal to 50% of glomeruli involved
+Active lesions: endocapillary hypercellularity, karyorrhexis, fibrinoid necrosis, crescents
+Chronic lesions: glomerulosclerosis, fibrous crescents
+Subclasses: IV-S (segmental, less than 50% of each glomerulus) and IV-G (global, greater than or equal to 50% of each glomerulus involved)
+Clinically: nephrotic and/or nephritic syndrome, haematuria, red cell casts, significant hypertension, impaired GFR
+Most likely diagnosis in this patient
+Management: high-dose steroids + cyclophosphamide or MMF (induction); azathioprine or MMF (maintenance)
+Prognosis without treatment: progression to ESRD within months to years
+Prognosis with early aggressive treatment: approximately 60–80% achieve renal remission
+
+Class V — Membranous nephritis:
+Subepithelial immune deposits, thickened glomerular basement membrane
+Clinically: predominantly nephrotic syndrome; normal or mildly reduced GFR; haematuria less prominent
+Class V can coexist with Class III or IV (mixed lesion — Class III+V or IV+V): this mixed pattern has features of both
+Management: steroids + MMF (preferred over cyclophosphamide for pure Class V); anticoagulation important given very high thrombosis risk in membranous nephritis
+
+Class VI — Advanced sclerosing nephritis:
+Greater than 90% of glomeruli globally sclerosed (burnt-out disease)
+Clinically: severely reduced GFR; minimal active inflammation
+Management: no significant benefit from immunosuppression; prepare for renal replacement therapy
+
+Why the ISN/RPS class matters for this patient:
+This patient's clinical profile most strongly suggests Class IV, possibly with a Class V component (mixed Class IV+V)
+This distinction has direct therapeutic implications:
+Class IV or III: high-dose steroids + cyclophosphamide or MMF — urgent induction required
+Class V alone: steroids + MMF preferred; anticoagulation more urgently needed
+Class IV+V: treat as Class IV (most aggressive component drives management)
+Without biopsy, empirical treatment for Class IV/III is reasonable in this acutely ill patient — but biopsy must not be deferred indefinitely
+
+Thrombosis risk in this patient — a critical concern:
+Nephrotic syndrome is a highly prothrombotic state:
+Urinary loss of antithrombin III, protein C, and protein S (endogenous anticoagulants lost in urine) + increased hepatic synthesis of clotting factors + reduced fibrinolysis + increased platelet activation
+Risk of renal vein thrombosis (particularly in membranous nephritis), deep vein thrombosis, and pulmonary embolism is significantly elevated
+In SLE: additionally compounded by antiphospholipid antibodies (if present)
+Renal vein thrombosis should be suspected if sudden worsening of proteinuria, flank pain, or haematuria occurs during management
+Prophylactic anticoagulation should be seriously considered in this patient (see management below)
+
+Differential diagnoses:
+
+Primary nephrotic syndrome — minimal change disease (MCD):
+Most common cause of nephrotic syndrome in young adults (particularly South Asian patients; less common in Africans)
+Presents with pure nephrotic syndrome without haematuria, hypertension, or GFR reduction in typical cases
+No multisystem features (no arthritis, no malar rash, no oral ulcers)
+ANA and anti-dsDNA negative; complement levels normal
+Responds dramatically to oral prednisolone alone (80–90% remission)
+Renal biopsy: normal light microscopy, podocyte foot process effacement on electron microscopy
+This patient: multisystem SLE features + haematuria + GFR reduction + hypertension make MCD very unlikely — but biopsy will confirm
+
+Focal segmental glomerulosclerosis (FSGS):
+Segmental scarring of glomeruli; can present with nephrotic syndrome
+Secondary FSGS can occur in SLE (Class IV nephritis with segmental necrosis may mimic FSGS on biopsy)
+ANA positive in about 30% of primary FSGS — can cause confusion
+Biopsy with immunofluorescence differentiates: SLE nephritis has immune complex deposits (IgG, IgA, IgM, C3, C1q — full house pattern on immunofluorescence); FSGS has scanty or no immune deposits
+
+Chronic glomerulonephritis (primary):
+IgA nephropathy, membranoproliferative glomerulonephritis
+Can present with haematuria, proteinuria, hypertension
+No multisystem SLE features
+ANA and anti-dsDNA negative in primary glomerulonephritis
+Biopsy and immunofluorescence differentiate
+
+Acute kidney injury from other causes:
+Sepsis-associated AKI (haemodynamic — prerenal)
+Hepatorenal syndrome (no liver disease documented)
+Acute tubular necrosis from NSAID use (NSAIDs cause renal vasoconstriction and can cause AKI in the context of reduced renal perfusion — she has been using NSAIDs)
+NSAID-induced nephrotoxicity is a potential concurrent contributor to the oliguria — NSAIDs should be stopped immediately
+
+Primary hypertensive nephropathy:
+Sustained hypertension causes renal damage over years
+Very unlikely in a 22-year-old with acute presentation and no prior hypertension
+Hypertension here is secondary to nephritis, not the cause
+
+Diabetic nephropathy:
+No diabetes mellitus documented
+No prior hyperglycaemia — unlikely
+
+Preeclampsia:
+Can present with hypertension, proteinuria, oedema, and seizures
+Must always be excluded in a woman of reproductive age — pregnancy test essential
+This patient is single and denies pregnancy, but a serum beta-hCG should confirm
+Preeclampsia does not cause malar rash, arthritis, or oral ulcers
+
+PLAN
+
+Admit to the nephrology/internal medicine ward with daily senior physician review. Involve nephrology and rheumatology teams from admission. Arrange renal biopsy planning as a priority.
+
+Immediate Resuscitation and Stabilisation
+
+Assessment of haemodynamic status:
+Despite anasarca (total body sodium and water overload), effective circulating volume may be reduced (underfill from hypoalbuminaemia) or increased (overfill from primary sodium retention)
+Assess: JVP (elevated = overfill; collapsed = underfill), capillary refill, skin turgor, pulse volume, postural BP
+This patient: BP 160/100 mmHg (suggesting overfill — expanded intravascular volume from primary nephritis-mediated sodium retention) with bibasal crepitations (pulmonary oedema) — consistent with volume overload
+Management: aggressive diuresis (do NOT give IV fluids — this will worsen the overload)
+
+Stop NSAIDs immediately:
+NSAIDs cause renal vasoconstriction by inhibiting prostaglandin-mediated afferent arteriolar dilation — directly worsens GFR reduction and oliguria in the setting of nephritis
+NSAIDs also increase risk of fluid and sodium retention (worsen oedema and hypertension)
+Stop all NSAIDs immediately
+Paracetamol is the safe analgesic alternative
+
+Blood pressure management:
+
+BP 160/100 mmHg in a 22-year-old with renal disease is a hypertensive urgency (acute hypertension with potential organ damage — kidney, heart, brain — but no immediate life-threatening emergency such as encephalopathy, aortic dissection, or pulmonary oedema imminently)
+Target: reduce BP by no more than 25% within the first few hours, then gradually to less than 130/80 mmHg over 24–48 hours
+Avoid overly rapid lowering (may worsen renal perfusion in a nephritis patient who depends on elevated BP to maintain GFR)
+
+First-line agents:
+
+ACE inhibitor (gold standard for lupus nephritis with proteinuria):
+Ramipril 2.5 mg orally once daily, titrate up to 10 mg/day
+Or Lisinopril 5 mg orally once daily
+Mechanism: reduces intraglomerular pressure, reduces proteinuria by 30–50% independent of BP effect, slows CKD progression
+Caution: hold if serum creatinine is severely elevated (greater than 265 µmol/L or greater than 3.0 mg/dL) or serum potassium is above 5.5 mmol/L — assess renal function before starting
+Monitor: serum creatinine and potassium at 2 weeks after starting — up to 30% rise in creatinine is acceptable; greater than 30% mandates dose reduction or switch to ARB
+Availability: widely available and inexpensive in Nigeria — Ramipril and Lisinopril are on the NHIS formulary at most tertiary hospitals
+
+ARB (Losartan or Irbesartan) as an alternative:
+Use if ACE inhibitor-associated cough develops (more common in African patients than in Caucasians)
+Losartan 50–100 mg orally once daily
+Practical note: ARBs are available at most tertiary hospitals; slightly more expensive than ACE inhibitors
+
+Calcium channel blocker (add-on if BP not controlled on ACE inhibitor alone):
+Amlodipine 5–10 mg orally once daily
+Useful addition for BP control without adversely affecting renal haemodynamics
+Widely available in Nigeria
+
+If BP remains above 160/100 mmHg despite oral agents and requires more rapid control:
+IV Labetalol 20–80 mg IV boluses or infusion (1–2 mg/min) — gold standard for hypertensive urgency
+Practical note: IV Labetalol available at most teaching hospitals; if unavailable, oral Nifedipine retard 20 mg is a practical alternative widely available across Nigeria
+Avoid sublingual Nifedipine (precipitous BP drop — reflex tachycardia and organ hypoperfusion)
+
+Beta-blockers (Atenolol, Metoprolol): add if tachycardia persists despite above agents
+
+Fluid and oedema management:
+
+Fluid restriction:
+Restrict oral fluid intake to less than 1000 ml/day (including IV fluids, oral drinks, medications)
+Sodium restriction: less than 2 g sodium per day (no-added-salt diet) — reduces sodium-driven oedema
+Patient education: explain the importance of fluid and salt restriction clearly — non-adherence is a major cause of treatment failure in nephrotic patients
+
+Diuretic therapy:
+IV Furosemide (loop diuretic — first-line for oedema in nephrotic syndrome):
+IV Furosemide 40–80 mg bolus; if oliguria persists, escalate to 80–160 mg IV bolus or continuous infusion
+Important: in nephrotic syndrome, furosemide binds to albumin in the tubular lumen — hypoalbuminaemia reduces the effective concentration of furosemide in the tubule, causing diuretic resistance
+Management of diuretic resistance:
+IV albumin infusion before IV furosemide: 100 ml of 20% human albumin infused over 1 hour, then IV furosemide 80–120 mg immediately after
+Mechanism: IV albumin temporarily raises oncotic pressure, draws fluid from interstitium into the intravascular space, and also carries furosemide to the tubular lumen (increases effective furosemide concentration)
+Gold standard for diuretic-resistant nephrotic oedema
+Practical note in Nigeria: 20% human albumin is available at major teaching hospitals (LUTH, UCH, ABUTH) but is very expensive and may not be affordable for all patients; where albumin is unavailable or unaffordable, high-dose IV furosemide infusion (continuous infusion 40–80 mg/hr) is a practical alternative — achieves more sustained tubular furosemide levels than bolus dosing
+Furosemide infusion practical note: available at most teaching hospitals; mix 200 mg furosemide in 50 ml Normal Saline, run at 4–8 ml/hr (40–80 mg/hr) via syringe driver or IV burette
+
+Add spironolactone (aldosterone antagonist):
+Spironolactone 25–100 mg orally once daily — synergistic with furosemide for nephrotic oedema
+RAAS activation in nephrotic syndrome causes secondary hyperaldosteronism — spironolactone blocks aldosterone-mediated sodium retention
+Monitor potassium (hyperkalaemia risk, particularly with concurrent ACE inhibitor)
+Practical note: widely available and inexpensive in Nigeria
+
+Target fluid removal:
+Aim for 0.5–1 kg weight loss per day (gradual fluid removal avoids precipitating prerenal AKI from overly rapid volume depletion)
+Monitor urine output (target gradual increase from oliguria toward normal: greater than 0.5 ml/kg/hr)
+Daily weight: strict (morning, after voiding, same scale)
+Monitor for signs of hypovolaemia from over-diuresis: falling BP, rising creatinine, decreased urine output despite diuretics — reduce diuretic dose if hypovolaemia develops
+
+IV furosemide and renal function monitoring:
+Loop diuretics do not worsen renal function if the patient is volume overloaded
+However, aggressive diuresis in a patient with underfill physiology (reduced effective circulating volume) can precipitate AKI — reassess JVP, BP, and creatinine daily during diuresis
+
+Investigations
+
+Renal investigations (urgent):
+
+Urinalysis with microscopy:
+Most immediately available and informative test
+Dipstick: protein (3+ or 4+ — nephrotic range), blood (haematuria), glucose, nitrites
+Microscopy: red cell casts (pathognomonic of glomerulonephritis — confirms nephritis component), granular casts, oval fat bodies (nephrotic syndrome — lipid-laden renal tubular epithelial cells), broad waxy casts (advanced nephritis)
+Availability: widely available at all Nigerian tertiary and secondary hospitals — do immediately on admission
+
+24-hour urine protein (gold standard quantification):
+Nephrotic-range proteinuria: greater than 3.5 g/24 hours
+Guides severity assessment and treatment monitoring
+Practical note: urine protein:creatinine ratio (UPCR) on a morning spot urine sample is an acceptable and reliable alternative — UPCR greater than 3.5 mg/mg indicates nephrotic-range proteinuria; preferred over 24-hour collection at many Nigerian centres (avoids collection errors)
+
+Serum electrolytes, urea, and creatinine (urgent):
+Assess severity of AKI (elevated urea and creatinine)
+eGFR calculation (CKD-EPI or MDRD formula) — stages the degree of renal impairment
+Hyperkalemia (life-threatening — immediate management if K⁺ greater than 6.0 mmol/L)
+Hyponatraemia (dilutional from sodium and water retention — do not aggressively correct unless symptomatic)
+Repeat every 24–48 hours during acute management
+
+Serum albumin (urgent):
+Expected to be severely reduced (less than 20 g/L in anasarca)
+Guides severity and informs albumin infusion decision
+Monitor weekly during treatment
+
+Serum uric acid:
+Hyperuricaemia occurs in renal impairment — contributes to gout risk and worsens endothelial function
+
+Lipid profile:
+Nephrotic hyperlipidaemia: elevated total cholesterol, LDL, triglycerides (hepatic compensation for hypoalbuminaemia)
+Baseline and monitoring during treatment
+Statin therapy indicated if LDL significantly elevated
+
+Blood glucose:
+Baseline before steroid therapy
+Monitor regularly (steroid-induced hyperglycaemia)
+Exclude diabetic nephropathy as a contributing cause
+
+Serum pregnancy test (beta-hCG):
+Essential in any woman of reproductive age presenting with hypertension, proteinuria, and oedema — exclude preeclampsia
+Even if the patient denies pregnancy — serum beta-hCG is definitive
+
+Renal biopsy (gold standard — most important investigation in this case):
+Cannot be deferred — the treatment intensity for Class IV differs from Class V; mixed Class IV+V changes both immunosuppressive choice and anticoagulation decision
+Contraindications to renal biopsy (must be addressed before proceeding):
+BP must be less than 150/90 mmHg (uncontrolled hypertension increases risk of post-biopsy haematoma — control BP before biopsy)
+Coagulopathy: platelet count must be greater than 80 × 10⁹/L and INR less than 1.5
+Correct before biopsy if abnormal
+Solitary kidney: relative contraindication — ultrasound to confirm two kidneys
+Active urinary tract infection: treat before biopsy
+Other: uncooperative patient, severe anaemia (correct to Hb greater than 10 g/dL if possible)
+
+Preparation for biopsy:
+Renal ultrasound before biopsy: confirm kidney position, size, and cortical thickness; identify two kidneys; exclude obstructive uropathy; assess echogenicity (increased echogenicity suggests chronicity — may affect decision to biopsy if kidneys are small and echogenic, suggesting irreversible scarring)
+FBC, coagulation profile, group and save — essential pre-biopsy
+Control BP to less than 150/90 mmHg before proceeding
+Ultrasound-guided percutaneous renal biopsy (preferred approach): real-time ultrasound guidance using automated biopsy gun; two to three passes from the lower pole of the left kidney (preferred — further from major vessels)
+Post-biopsy monitoring: 4–6 hours bed rest, monitor BP and urine output; haematuria (mild haematuria common and expected after biopsy — macrohaematuria with clot retention or haemodynamic compromise suggests significant haemorrhage); CBC at 4–6 hours post-biopsy
+Practical note: ultrasound-guided renal biopsy is available at most teaching hospitals in Nigeria with nephrology units (LUTH, UCH, ABUTH, UNTH, UITH); pathological analysis (light microscopy, immunofluorescence, ideally electron microscopy) available at these centres; electron microscopy is not uniformly available — immunofluorescence is the minimum required additional technique beyond light microscopy
+
+Immunological investigations:
+As described in med-02 (ANA, Anti-dsDNA, Anti-Sm, Complement C3 and C4, antiphospholipid antibody panel)
+Anti-dsDNA titres are particularly important in lupus nephritis — correlate with nephritis activity and guide flare prediction
+Availability and practical notes: same as discussed in med-02
+
+Haematological investigations:
+FBC with differential: anaemia (from chronic disease, haemolysis, or microangiopathic haemolytic anaemia in severe nephritis), leucopenia, thrombocytopaenia
+Peripheral blood film: assess for schistocytes (thrombotic microangiopathy — TMA; a rare but severe complication of SLE nephritis requiring plasma exchange)
+Direct Coombs test: exclude autoimmune haemolytic anaemia
+
+ESR and CRP:
+ESR markedly elevated in active SLE
+CRP usually mildly elevated in SLE (markedly elevated CRP in SLE suggests concurrent infection)
+
+Chest X-ray:
+Assess for pleural effusions (fluid overload and hypoalbuminaemia)
+Pulmonary oedema (fluid overload)
+Cardiomegaly (pericardial effusion from serositis — SLE-related)
+Baseline before immunosuppression
+Screen for active pulmonary tuberculosis
+
+ECG:
+Baseline (particularly before starting cyclophosphamide and monitoring for hyperkalaemia-related cardiac changes)
+Pericarditis pattern (ST changes) if serositis is present
+
+Renal ultrasound:
+Kidney size and echogenicity (large kidneys with normal or reduced echogenicity suggest acute nephritis — potentially reversible; small echogenic kidneys suggest chronic irreversible scarring)
+Hydronephrosis (obstructive uropathy — less likely but should be excluded)
+Doppler assessment of renal vasculature (renal vein thrombosis if clinically suspected)
+
+Echocardiogram:
+Assess for pericardial effusion (serositis), Libman-Sacks endocarditis, pulmonary hypertension
+Lupus myocarditis (rare but can cause cardiac decompensation and worsening fluid overload in the setting of aggressive diuresis)
+Recommended in all SLE patients with cardiorespiratory symptoms
+Practical note: available at most teaching hospitals
+
+Urine MCS:
+Exclude urinary tract infection
+UTI can trigger SLE flares and must be treated promptly
+
+Blood culture (two sets):
+If fever (greater than 38°C) develops — infection triggers flares and must be excluded before escalating immunosuppression
+
+Immunosuppressive Management
+
+This patient has severe lupus nephritis (likely Class IV) — requires aggressive induction immunosuppression. Do not wait for biopsy results to start induction in a patient with oliguria and rapidly deteriorating renal function — treat empirically for Class IV while biopsy is arranged.
+
+Step 1 — IV Methylprednisolone pulse therapy:
+
+IV Methylprednisolone 500–1000 mg IV once daily for 3 consecutive days
+Gold standard induction step for severe lupus nephritis with oliguria, nephrotic syndrome, and hypertension
+Rapidly suppresses glomerular immune complex-mediated inflammation
+Administer with IV Omeprazole 40 mg for gastroprotection
+Monitor BP carefully during infusion (methylprednisolone can transiently raise BP — titrate antihypertensives accordingly)
+Monitor blood glucose every 6 hours during pulse (stress hyperglycaemia — treat with insulin if persistent)
+Monitor serum potassium daily during pulse (steroids cause potassium wasting — supplement if needed)
+Practical note: IV methylprednisolone (Solu-Medrol) is available at most teaching hospitals in Nigeria; it is moderately expensive — confirm stock availability; if unavailable, high-dose oral prednisolone 1–1.5 mg/kg/day is a practical bridge while IV methylprednisolone is arranged
+
+Transition to oral prednisolone after pulse:
+Prednisolone 1 mg/kg/day orally (approximately 60 mg/day for this patient at 60 kg estimated dry weight)
+Continue for 4–6 weeks at induction dose, then taper
+Taper: reduce by 10 mg every 2 weeks to 20 mg/day, then by 2.5 mg every 2–4 weeks to the minimum effective maintenance dose (target less than or equal to 7.5 mg/day at 6 months)
+Taper guided by clinical response, creatinine trend, proteinuria, and anti-dsDNA levels
+
+Step 2 — Induction immunosuppression for Class III/IV lupus nephritis:
+
+Two evidence-based options — choice guided by patient preference, fertility concerns, and local availability:
+
+Option A — Mycophenolate mofetil (MMF) (preferred for young women):
+Target dose: MMF 3 g/day orally in two divided doses (start at 500 mg twice daily, escalate to 1.5 g twice daily over 4 weeks)
+Evidence: equivalent to cyclophosphamide for induction remission in Class III/IV nephritis; superior in Black and Hispanic patients (ASPREVA trial — directly applicable to Nigerian patients)
+Advantages over cyclophosphamide: no gonadotoxicity (preserves fertility — critical in a 22-year-old unmarried student), less alopecia, no haemorrhagic cystitis
+Practical note: MMF is available at major teaching hospitals and specialist pharmacies in Nigeria; significantly more expensive than cyclophosphamide; not uniformly covered by NHIS; generic formulations (Cellcept or Myfortic generics) are more affordable — explore generic options with the patient; cost should not preclude its use given the superiority in Black patients and the fertility advantage in this young woman
+
+Option B — Cyclophosphamide (practical and equally effective):
+Euro-Lupus low-dose regimen: IV Cyclophosphamide 500 mg every 2 weeks for 6 doses (total 3 g) — preferred regimen for young patients given lower cumulative dose and reduced gonadotoxicity compared with NIH regimen
+Give with IV Mesna (20% of cyclophosphamide dose IV at 0, 4, and 8 hours) — prevents haemorrhagic cystitis
+Aggressive IV hydration: 2–3 litres of Normal Saline before and after each dose
+Monitor FBC before each dose: defer if WBC less than 3 × 10⁹/L or neutrophil count less than 1.5 × 10⁹/L
+Fertility counselling and GnRH agonist co-therapy: as described in med-03 — urgent and essential in this 22-year-old
+Practical note: IV cyclophosphamide is available at most teaching hospitals and oncology centres in Nigeria; considerably less expensive than MMF; the Euro-Lupus regimen is practical and achievable at most tertiary centres
+
+Recommendation for this patient:
+Given age 22, unmarried, academic student, Black African ethnicity: MMF is the preferred choice if it can be afforded
+If MMF is unaffordable: Euro-Lupus cyclophosphamide with GnRH agonist co-therapy is the practical and equally effective alternative
+
+Step 3 — Hydroxychloroquine (cornerstone therapy):
+As described in detail in med-02
+HCQ 200–400 mg orally once daily — start as soon as patient can take oral medication
+Baseline ophthalmology review
+Practical note: same availability and cost considerations as described in med-02
+
+Step 4 — Maintenance therapy (after 3–6 months of induction):
+MMF 1.5–2 g/day orally (preferred) — or Azathioprine 1.5–2 mg/kg/day if MMF is unavailable or unaffordable
+Combined with low-dose Prednisolone (less than or equal to 7.5 mg/day)
+Plus Hydroxychloroquine (continued lifelong)
+
+Anticoagulation — Critical Decision in This Patient
+
+This patient has two major thrombotic risk factors operating simultaneously:
+Nephrotic syndrome (loss of antithrombin III, protein C, and protein S in urine; hyperviscosity from hyperlipidaemia and haemoconcentration)
+Possible antiphospholipid syndrome (results pending — aPL antibodies positive in approximately 30–40% of SLE patients)
+Membranous nephritis (Class V component, if present) has the highest thrombosis risk of all lupus nephritis classes — renal vein thrombosis occurs in up to 50% of membranous nephritis cases
+
+Decision on prophylactic anticoagulation:
+
+Gold standard threshold (KDIGO and international guidelines):
+Prophylactic anticoagulation is recommended in nephrotic syndrome when serum albumin is less than 25 g/L (this patient likely meets this threshold)
+This patient: anasarca with expected very low albumin — prophylactic anticoagulation is strongly indicated pending albumin result
+
+Anticoagulant choice:
+LMWH (Enoxaparin 40 mg SC daily) — prophylactic dose while inpatient
+Transition to oral anticoagulant when ambulatory:
+Warfarin (target INR 2.0–3.0): gold standard for long-term anticoagulation in nephrotic syndrome
+Practical note: warfarin is widely available and inexpensive in Nigeria; regular INR monitoring at most tertiary hospitals; establish therapeutic INR before discharging on warfarin
+
+Note: direct oral anticoagulants (DOACs — Rivaroxaban, Apixaban) are not currently recommended for primary thrombosis prevention in nephrotic syndrome (limited evidence and some DOACs are partially renally cleared — dose adjustment needed if GFR reduced); DOACs are available at some private hospitals and pharmacies in Nigeria but are expensive; warfarin remains the practical standard in Nigeria
+
+Duration of anticoagulation:
+Continue until nephrotic syndrome resolves (albumin normalises and proteinuria reduces to non-nephrotic levels)
+If antiphospholipid antibodies are confirmed positive (and thrombosis has occurred): indefinite anticoagulation with warfarin
+
+Contraindication to anticoagulation: platelet count less than 50 × 10⁹/L or active bleeding — check FBC before starting
+
+Renal Replacement Therapy — Indications and Planning
+
+Most patients with acute lupus nephritis can avoid dialysis if treated promptly
+However, prepare for renal replacement therapy if:
+
+Urgent dialysis indications (life-threatening — do not delay):
+Symptomatic uraemia (uraemic encephalopathy, pericarditis, nausea, asterixis)
+Severe hyperkalaemia (K⁺ greater than 6.5 mmol/L or with ECG changes) refractory to medical management
+Severe metabolic acidosis (pH less than 7.1) unresponsive to bicarbonate
+Refractory fluid overload with pulmonary oedema unresponsive to IV furosemide (respiratory failure)
+Oliguria with serum creatinine rapidly rising despite treatment (suggests rapidly progressive GN)
+
+Dialysis modalities:
+Haemodialysis (HD): gold standard; most widely available at Nigerian teaching hospitals; requires dialysis unit, trained nurses, and nephrologist
+Peritoneal dialysis (PD): may be considered in centres without HD capacity; less rapidly effective for potassium and volume control; lower infection risk if sterile technique is maintained — however, ascites in this patient complicates PD access and may limit its use
+Practical note: haemodialysis is available at most teaching hospitals and some specialist centres in Nigeria (though access is limited relative to disease burden and is expensive); NHIS funding for dialysis is available at some centres but unreliable — early nephrology involvement is essential to plan access creation and funding
+
+Important: starting dialysis does not mean stopping immunosuppression — lupus nephritis can recover renal function even after dialysis has been initiated if treated aggressively; do not abandon immunosuppression in a dialysis-dependent patient with active Class IV nephritis
+
+Hyperkalaemia management (if K⁺ greater than 6.0 mmol/L on admission):
+
+Immediate (cardiac membrane stabilisation):
+IV Calcium gluconate 10 ml of 10% solution over 10 minutes: protects the cardiac membrane from hyperkalaemia-related arrhythmias (does not lower serum potassium — only stabilises the heart); repeat after 5 minutes if ECG changes persist
+Practical note: widely available
+
+Short-term (shifts potassium into cells):
+IV Dextrose 50% 50 ml + IV Actrapid (short-acting insulin) 10 units IV over 15 minutes: lowers serum potassium within 20–30 minutes by stimulating cellular K⁺ uptake
+Nebulised Salbutamol 10–20 mg: additional K⁺ shift into cells
+Practical note: widely available in Nigeria
+
+Definitive (removes potassium from the body):
+Furosemide-driven diuresis (promotes renal K⁺ excretion — only works if urine output is present)
+Sodium polystyrene sulphonate (Kayexalate) orally or rectally (cation exchange resin — removes K⁺ from the gut): available at most teaching hospitals; use with caution in ileus or bowel disease
+Dialysis: if hyperkalaemia is refractory to above measures
+
+Nutritional Support
+
+Dietary protein in nephrotic syndrome:
+Historically, protein restriction was recommended in nephrotic syndrome — this is now known to be harmful as it worsens hypoalbuminaemia
+Recommendation: adequate dietary protein intake (0.8–1 g/kg/day of high-quality protein) to replace urinary losses without overburdening the kidneys
+High-quality protein sources: eggs, lean meat, fish, beans, milk — accessible and affordable in Nigeria
+
+Sodium restriction: less than 2 g/day (reduces oedema and hypertension — critical adjunct to diuretic therapy)
+
+Fluid restriction: as described above (less than 1000 ml/day until oedema resolves)
+
+Caloric intake: adequate (steroid therapy increases appetite — monitor for excessive weight gain which worsens hypertension and dyslipidaemia)
+
+Nutritional supplementation:
+Calcium 1000 mg + Vitamin D 800 IU daily (steroid-related osteoporosis prevention)
+Folate supplementation if on MMF or methotrexate
+
+Dyslipidaemia management:
+Nephrotic hyperlipidaemia (elevated LDL and total cholesterol) — significant cardiovascular risk
+Statin therapy:
+Gold standard: Rosuvastatin 10–20 mg or Atorvastatin 20–40 mg orally once daily at night
+Start after confirming LFTs are acceptable (statins are hepatotoxic in the context of SLE hepatitis)
+Monitor LFTs and CK at baseline and 3 months after starting
+Practical note: statins are available at most tertiary hospitals in Nigeria; generic formulations (Atorvastatin) are inexpensive and widely accessible; NHIS may cover
+
+Dyslipidaemia in nephrotic syndrome often resolves when proteinuria resolves — reassess after achieving remission
+
+Infection Prevention and Prophylaxis
+
+As described in detail in med-02:
+PJP prophylaxis: Co-trimoxazole 480–960 mg three times per week
+TB screening: Mantoux or IGRA before starting immunosuppression (with practical note regarding IGRA availability in Nigeria)
+Hepatitis B serology and antiviral prophylaxis if HBsAg positive
+HIV screening
+Vaccinations: pneumococcal, influenza, hepatitis B (if seronegative) — avoid live vaccines during significant immunosuppression
+
+Monitoring
+
+During acute admission:
+Vital signs (BP, pulse, RR, temperature): every 4 hours
+Urine output: hourly during acute diuretic therapy
+Daily weight (monitoring oedema resolution)
+Blood glucose: 4–6 hourly (steroid-induced hyperglycaemia)
+Serum electrolytes, urea, creatinine: every 24–48 hours
+Serum potassium: daily (ACE inhibitor + spironolactone combination increases hyperkalaemia risk)
+FBC: every 48 hours during acute phase
+Serum albumin: weekly
+UPCR or 24-hour urine protein: weekly to monitor proteinuria response to treatment
+Coagulation profile: twice weekly (DIC risk in severe nephritis; assess before and during anticoagulation)
+Anti-dsDNA and complement: every 4–6 weeks during induction
+LFTs: weekly
+
+Outpatient monitoring (after discharge):
+Monthly during the first 6 months of induction
+Frequency as described in the med-02 follow-up section
+
+Definitions of treatment response in lupus nephritis:
+
+Complete renal remission:
+Proteinuria less than 500 mg/24 hours (or UPCR less than 0.5)
+Serum creatinine returning to baseline or within 25% of baseline
+No active urinary sediment (no red cell casts)
+Achieving complete remission is the goal of induction therapy (typically assessed at 6 months)
+
+Partial renal remission:
+Proteinuria reduction by greater than or equal to 50% and to less than 3.5 g/24 hours
+Stabilisation or improvement in serum creatinine
+
+No response or flare:
+Proteinuria increasing, creatinine worsening, or serological activity increasing
+Requires biopsy to reassess class (may have transformed to a more severe class or developed chronicity)
+
+Counselling
+
+Explanation of diagnosis:
+She has a condition called SLE where the immune system has attacked her own kidneys — this is the most severe kidney complication of SLE
+The kidney disease is causing protein to leak into the urine (frothy urine), fluid to build up throughout the body (swelling of the face, legs, and abdomen), reduced urine production, and high blood pressure
+This is a serious but potentially reversible condition if treated promptly and aggressively
+
+Explanation of kidney biopsy:
+A kidney biopsy is essential to determine the exact type of kidney disease she has, which will guide exactly how powerful the treatment needs to be
+A small needle is passed through the skin into the lower part of the kidney under ultrasound guidance to remove a tiny piece of kidney tissue for examination under a microscope
+The procedure requires the blood pressure to be controlled first
+It is performed under local anaesthesia with the patient awake but not in pain; she will need to lie still for several hours afterwards
+There is a small risk of bleeding — the team will monitor carefully
+
+Medication counselling:
+The powerful medicines being used (steroids and immunosuppressants) are necessary to stop the immune system from destroying the kidneys
+Side effects of steroids (weight gain, mood changes, high blood sugar, increased infection risk, facial rounding) will be monitored and managed
+The fertility-preserving approach is being prioritised given her age — explain the plan clearly and compassionately
+Contraception is essential while on cyclophosphamide or MMF — recommend progesterone-only or barrier methods
+
+Fluid and dietary advice:
+She must strictly limit salt in her diet — advise no adding salt to food, avoiding very salty foods (processed foods, canned foods, stock cubes)
+Fluid restriction (no more than 1000 ml of fluid per day, including water, soup, and drinks) until the swelling resolves — explain that drinking more fluid will not reduce the swelling; the medicine will
+Daily weight monitoring at home after discharge (if weight rises by more than 1–2 kg in 24 hours: report to hospital — fluid is re-accumulating)
+
+Adherence and follow-up:
+Stress the absolute importance of not stopping medications without medical advice
+Missing doses or stopping immunosuppression is the commonest cause of kidney function loss in lupus nephritis
+She should report immediately if she develops fever, reduced urine output, worsening swelling, shortness of breath, or any new symptoms
+
+Future fertility planning:
+Her fertility is a priority and has been considered in the choice of treatment
+Once the disease is in remission for at least 6 months, pregnancy can be considered with careful planning and close obstetric and rheumatological monitoring
+Oral contraception: avoid combined oral contraceptive pills (oestrogen increases thrombotic risk in SLE with nephrotic syndrome — very high risk in this patient); use progesterone-only pill or barrier methods
+
+Prognosis discussion:
+With early, aggressive, and sustained treatment, many patients with lupus nephritis achieve complete renal remission and preserve kidney function long-term
+Without treatment or with inadequate treatment: progression to end-stage renal disease requiring dialysis or transplantation is likely within 5–10 years
+The likelihood of a good outcome depends on: the histological class (biopsy result), how quickly treatment is started, how well the blood pressure is controlled, and how reliably the patient attends follow-up and takes medications
+Lupus nephritis can relapse — this is why lifelong monitoring is essential even after achieving remission
+
+PROGNOSIS
+
+Renal prognosis:
+Class IV (diffuse proliferative) nephritis — most likely diagnosis in this patient:
+Without treatment: ESRD within 2–5 years in the majority of patients
+With aggressive immunosuppressive induction: complete renal remission achieved in approximately 50–60% at 6 months with MMF; approximately 50% with cyclophosphamide
+10-year renal survival (avoidance of ESRD): approximately 70–85% with optimal management in specialist centres
+Worse outcomes in African patients compared with European patients — partly due to access to care and biological factors (more proliferative nephritis, more rapid progression)
+
+Factors conferring poor prognosis in this patient:
+Delayed presentation (5 months of SLE symptoms before diagnosis — untreated nephritis for at least 3 weeks)
+Anasarca at presentation (reflects profound hypoalbuminaemia and significant renal protein loss)
+Oliguria (reduced GFR — significant nephron loss)
+BP 160/100 mmHg (uncontrolled hypertension accelerates CKD progression)
+African ethnicity (independent predictor of worse renal outcome in lupus nephritis — more aggressive disease biology)
+Young age at onset (paradoxically associated with more severe disease in SLE nephritis)
+Antiphospholipid antibody status unknown (if positive: doubles the risk of ESRD)
+
+Favourable factors:
+Young age (22 years) — greater capacity for renal recovery
+No prior renal disease
+No CNS involvement
+Presenting at a facility capable of renal biopsy and immunosuppression
+
+Overall prognosis:
+This patient requires aggressive, sustained, specialist-level management
+With optimal care and full adherence: reasonable chance of complete renal remission and preservation of kidney function
+With suboptimal care, non-adherence, or inadequate access to immunosuppression: significant risk of progression to ESRD requiring dialysis within 5 years
+
+FOLLOW-UP
+Nephrology and rheumatology review in 2 weeks post-discharge (BP control, creatinine trend, urine protein response, tolerability of medications). Monthly review during induction (6 months): UPCR, serum creatinine, albumin, FBC, LFTs, BP, weight. Anti-dsDNA and complement every 3 months. Renal biopsy histology review with nephrology and rheumatology team. Reassess response to induction at 6 months — if less than partial remission, consider biopsy to assess transformation of nephritis class and modify treatment. Transition to maintenance therapy at 6 months if adequate response. Annual renal function assessment thereafter. Ophthalmology review before hydroxychloroquine and annually after 5 years. Annual cardiovascular risk assessment. Fertility counselling at every visit until pregnancy is planned. TB screening before and annually during immunosuppression. INR monitoring if on warfarin (every 2–4 weeks until stable, then monthly). Renal function monitoring: stage CKD annually if persistent impairment and plan early referral for renal transplant evaluation if GFR falls below 30 ml/min/1.73m².
+`,
+bookmarkCount: 0
+},
   // Surgery
   {
     id: 'surg-1',

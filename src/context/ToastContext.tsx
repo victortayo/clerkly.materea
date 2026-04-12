@@ -1,27 +1,44 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { Toast } from '../components/Toast';
 
+type ToastType = 'default' | 'encouragement';
+
 interface ToastContextType {
-  showToast: (message: string) => void;
+  showToast: (message: string, type?: ToastType, duration?: number) => void;
+}
+
+interface ToastConfig {
+  message: string;
+  type: ToastType;
+  duration: number;
+  key: number;
 }
 
 const ToastContext = createContext<ToastContextType | undefined>(undefined);
 
 export function ToastProvider({ children }: { children: ReactNode }) {
-  const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [toast, setToast] = useState<ToastConfig | null>(null);
 
-  const showToast = (message: string) => {
-    setToastMessage(message);
+  const showToast = (message: string, type: ToastType = 'default', duration = 3000) => {
+    setToast({ message, type, duration, key: Date.now() });
   };
 
   const closeToast = () => {
-    setToastMessage(null);
+    setToast(null);
   };
 
   return (
     <ToastContext.Provider value={{ showToast }}>
       {children}
-      {toastMessage && <Toast message={toastMessage} onClose={closeToast} />}
+      {toast && (
+        <Toast
+          key={toast.key}
+          message={toast.message}
+          type={toast.type}
+          duration={toast.duration}
+          onClose={closeToast}
+        />
+      )}
     </ToastContext.Provider>
   );
 }

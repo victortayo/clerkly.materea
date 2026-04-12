@@ -20011,6 +20011,1241 @@ Nephrology and rheumatology review in 2 weeks post-discharge (BP control, creati
 `,
 bookmarkCount: 0
 },
+{
+  id: 'im-44',
+  title: 'Mild Systemic Lupus Erythematosus without Major Organ Involvement',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Rheumatology',
+  condition: 'Mild systemic lupus erythematosus with cutaneous and musculoskeletal involvement and no major organ involvement at presentation',
+  symptoms: [
+    'Symmetrical polyarthritis',
+    'Malar rash',
+    'Easy fatigability',
+    'Photosensitivity',
+    'Diffuse non-scarring alopecia',
+    'Recurrent painless oral ulcers',
+    'No renal, neuropsychiatric, cardiac, or respiratory symptoms'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-11',
+  summary: 'Miss T.A., a 19-year-old undergraduate student presenting with a 3-month history of mild bilateral symmetrical polyarthritis involving the MCP and PIP joints, wrists, and knees with morning stiffness lasting 20–30 minutes, and a 2-month history of a malar rash over the cheeks and nasal bridge sparing the nasolabial folds, worsening with sun exposure. Associated features include photosensitivity, diffuse non-scarring alopecia, recurrent painless oral ulcers, and easy fatigability. No renal symptoms, no neuropsychiatric features, no chest pain, no oedema, and no fever. Not previously diagnosed with any chronic illness. Examination reveals a well-looking young woman with BP 110/70 mmHg, malar rash, mild diffuse alopecia, mild MCP and PIP joint tenderness with no swelling or deformity and full range of motion, and no organomegaly. Diagnosis: mild systemic lupus erythematosus with cutaneous and musculoskeletal involvement and no major organ involvement at presentation. Suitable for outpatient management with hydroxychloroquine as cornerstone therapy, sun protection, and close surveillance for organ involvement.',
+  content: `
+Miss T.A., a 19-year-old undergraduate student, resident in Ile-Ife, Osun State, Christian, Yoruba, single.
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Joint pains × 3 months
+Facial rash × 2 months
+Easy fatigability × 2 months
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 3 months prior to presentation when she developed joint pains, initially involving the small joints of the hands (MCP and PIP joints) and later spreading to the wrists and knees. The pain is bilateral and symmetrical, dull aching in character, with a pain score of 4–5/10. It is associated with morning stiffness lasting approximately 20–30 minutes, improves with activity and simple analgesics, and has not significantly impaired her academic activities. There is no significant joint swelling, erythema, or deformity.
+
+About 2 months prior to presentation, she noticed a facial rash over both cheeks and the bridge of the nose. The rash is non-pruritic, non-scaly, spares the nasolabial folds, and becomes more prominent after sun exposure.
+
+She also complains of photosensitivity, diffuse non-scarring hair loss, and recurrent painless oral ulcers. She has also noted easy fatigability over the past 2 months, though this has not significantly limited her function.
+
+No history of leg swelling, frothy urine, or reduced urine output. No chest pain or breathlessness. No seizures or behavioural change. No fever. No prior similar illness.
+
+PAST MEDICAL HISTORY
+No known chronic illness
+No previous hospital admissions
+
+DRUG HISTORY
+Occasional paracetamol for joint pain
+No prior corticosteroids or immunosuppressants
+No known drug allergies
+
+FAMILY HISTORY
+No family history of autoimmune disease
+
+SOCIAL HISTORY
+Undergraduate student
+No alcohol, no smoking, no herbal medication use
+
+REVIEW OF SYSTEMS
+Musculoskeletal: Mild symmetrical polyarthritis, morning stiffness
+Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
+Renal: No symptoms
+Neuropsychiatric: No symptoms
+Cardiorespiratory: No symptoms
+Constitutional: Easy fatigability, no fever, no weight loss
+
+SUMMARY
+A 19-year-old woman presenting with a 3-month history of mild symmetrical inflammatory polyarthritis and 2-month history of malar rash with photosensitivity, alopecia, and oral ulcers, with no evidence of major organ involvement at this time, consistent with mild systemic lupus erythematosus suitable for outpatient management with close surveillance.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, well-looking, not in distress
+Not pale, not icteric
+Afebrile (temperature 36.6°C)
+Well hydrated
+Malar rash present over both cheeks and nasal bridge, sparing the nasolabial folds
+Mild diffuse alopecia
+No pedal oedema
+No peripheral lymphadenopathy
+
+Vital Signs:
+PR: 80 bpm (normal)
+BP: 110/70 mmHg (normal)
+RR: 16 cpm (normal)
+Temperature: 36.6°C (afebrile)
+SpO₂: 99% on room air
+
+Musculoskeletal System:
+Mild tenderness over MCP and PIP joints bilaterally
+No joint swelling, no erythema, no warmth
+No deformities
+Full range of motion at all joints
+
+Cardiovascular System:
+PR 80 bpm, regular
+BP 110/70 mmHg
+Heart sounds S1 and S2, no murmurs, no pericardial rub
+
+Respiratory System:
+Vesicular breath sounds bilaterally, no added sounds
+
+Abdomen:
+Flat, soft
+No tenderness
+No organomegaly
+
+Central Nervous System:
+Conscious and alert, oriented in time, place, and person
+No focal neurological deficits
+
+ASSESSMENT
+
+Mild systemic lupus erythematosus with cutaneous and musculoskeletal involvement and no major organ involvement at presentation
+
+Diagnosis based on:
+
+SLE classification — ACR 1997 criteria:
+Malar rash: present
+Photosensitivity: present
+Oral ulcers: present
+Non-erosive arthritis: present (MCP, PIP, wrists, knees bilaterally — without deformity or erosion)
+Haematological disorder: pending (mild anaemia or leucopenia expected)
+Immunological (ANA, Anti-dsDNA, Anti-Sm): pending
+She meets at least 4 clinical criteria before any investigations; meeting 4 or more ACR 1997 criteria confirms SLE with greater than 95% specificity
+The 2019 EULAR/ACR criteria will also be met once ANA (the entry criterion) is confirmed positive — estimated score well above the required threshold of 10 points
+
+Defining mild disease in this patient:
+SLE severity is classified as mild, moderate, or severe based on the organs involved and degree of functional impairment
+
+Mild SLE (this patient):
+No major organ involvement (kidneys, brain, heart, lungs unaffected)
+Symptoms do not significantly limit daily function — she is maintaining her academic activities
+Manageable with hydroxychloroquine and NSAIDs without the need for high-dose corticosteroids or immunosuppressants at this stage
+Estimated SLEDAI-2K score: arthritis (4) + rash (2) + alopecia (2) + oral ulcers (2) = approximately 10; however, absence of organ-specific features keeps overall disease burden manageable
+
+This classification directly determines the treatment approach:
+Mild SLE: hydroxychloroquine + NSAIDs (±brief low-dose prednisolone for flares)
+Moderate SLE: hydroxychloroquine + low-to-moderate dose prednisolone ± immunosuppressant (azathioprine, methotrexate)
+Severe SLE (major organ threatening): hydroxychloroquine + high-dose steroids + cyclophosphamide or MMF
+
+Why this patient must not be undertreated:
+Untreated or undertreated mild SLE frequently progresses to severe organ-threatening disease
+SLE nephritis develops in approximately 50% of all SLE patients over the course of their disease
+Neuropsychiatric SLE and cardiopulmonary involvement can emerge during flares triggered by sun exposure, infections, stress, or pregnancy
+Hydroxychloroquine is the single most important intervention for preventing progression — its life-prolonging effect in SLE is well established
+Close surveillance is as important as treatment at this stage
+
+Musculoskeletal involvement:
+Non-erosive polyarthritis is the most common musculoskeletal manifestation of SLE (present in up to 90% of patients)
+Distinguishes from rheumatoid arthritis which causes erosive, deforming arthritis — SLE arthritis does not erode cartilage or bone, and deformity (Jaccoud arthropathy — reducible subluxation from capsular laxity) is rare and late
+The pattern here (MCP, PIP, wrists, knees — symmetrical, bilateral, with morning stiffness improving with activity) is typical of inflammatory arthritis in SLE
+Morning stiffness of 20–30 minutes is characteristic of mild inflammatory arthritis (longer stiffness — 1 hour or more — is more typical of rheumatoid arthritis; less than 30 minutes may suggest less severe or early inflammatory disease)
+
+Cutaneous involvement:
+Malar (butterfly) rash: acute cutaneous lupus erythematosus (ACLE) — the most recognisable feature of SLE
+Located over the malar eminences (cheeks and nasal bridge), respects the nasolabial folds (the fold between nose and mouth is spared — pathognomonic distribution)
+Fixed erythematous, slightly raised, non-scarring
+Triggered and worsened by ultraviolet light exposure
+Must be distinguished from: rosacea (involves nasolabial folds, has papules and pustules), seborrhoeic dermatitis (involves nasolabial folds and scalp, scaly, responds to antifungals), contact dermatitis (pruritic, linear distribution, triggered by a contactant)
+Photosensitivity: UV light triggers keratinocyte apoptosis, exposing nuclear antigens that stimulate autoantibody production — explains why sun exposure worsens both the rash and systemic disease activity
+Alopecia: diffuse, non-scarring — hair follicles are not permanently destroyed; reversible with disease control; differs from scarring alopecia (lichen planopilaris, discoid lupus — causes permanent hair loss)
+Oral ulcers: painless oral ulcers are an ACR criterion for SLE; must be distinguished from painful aphthous ulcers (common, non-autoimmune, do not respond to immunosuppression)
+
+Constitutional features:
+Easy fatigability: affects up to 90% of SLE patients; multifactorial (anaemia, poor sleep, depression, cytokine-driven fatigue, disease activity)
+No fever, no weight loss at this time — absence of constitutional features suggests mild disease activity
+
+Critically important: assessment for silent organ involvement
+This patient has no symptoms of renal, neuropsychiatric, cardiac, or pulmonary disease
+However, lupus nephritis and other major organ involvements can be clinically silent — occurring without symptoms until advanced
+Urinalysis with microscopy and serum creatinine are mandatory even in the absence of renal symptoms — this cannot be deferred
+If proteinuria or haematuria is found on urinalysis (even without symptoms), immediate nephrology referral and renal biopsy planning are required
+
+Differential diagnoses:
+
+Early rheumatoid arthritis (RA):
+Shares symmetrical small joint arthritis with morning stiffness
+Key distinguishing features: RA causes erosive, deforming arthritis over time; rheumatoid nodules; positive anti-CCP antibodies (highly specific for RA); rheumatoid factor positive; no malar rash, no oral ulcers, no photosensitivity in RA
+Anti-CCP (cyclic citrullinated peptide) antibody: must be requested to formally exclude RA
+Rheumatoid factor: may be weakly positive in SLE — not diagnostic of RA alone
+The multisystem features (malar rash, photosensitivity, alopecia, oral ulcers) make isolated RA very unlikely — RA does not cause these features
+
+Dermatomyositis:
+Can cause a facial rash (heliotrope rash — periorbital violaceous oedema; Gottron papules over MCP and PIP joints) and proximal muscle weakness
+Key distinguishing features: rash in dermatomyositis is periorbital and violaceous, NOT the fixed malar erythema of SLE; muscle weakness is proximal and symmetrical (hip and shoulder girdle); elevated CK and aldolase; EMG showing myopathic pattern; muscle biopsy confirmation
+This patient has no muscle weakness, no proximal muscle involvement, and no periorbital rash — dermatomyositis is less likely, but anti-Jo-1 antibodies and CK can be requested to formally exclude
+
+Mixed connective tissue disease (MCTD):
+Overlap syndrome with features of SLE, systemic sclerosis, and polymyositis
+Defined by high-titre anti-U1-RNP antibodies
+Key distinguishing feature: Raynaud's phenomenon is a cardinal feature (absent in this patient); swollen sausage-like fingers, oesophageal dysmotility, pulmonary hypertension
+Anti-U1-RNP antibody: request as part of immunological panel
+This patient does not have Raynaud's, oesophageal symptoms, or myositis — MCTD is less likely
+
+Viral arthritis (post-infectious):
+Parvovirus B19, Chikungunya, Ross River virus, HIV — can cause symmetrical small joint arthritis in young adults
+Typically self-limiting (resolves within weeks to months)
+Serological testing for viral causes: Parvovirus B19 IgM, Chikungunya serology if travel history is relevant
+Skin rash in parvovirus (slapped cheek rash) is different from the malar distribution seen here
+Viral arthritis does not cause oral ulcers or alopecia — these features make SLE far more likely
+
+Reactive arthritis:
+Follows gastrointestinal or genitourinary infection
+Asymmetrical, predominantly large joint (knee, ankle) — different from the symmetrical small joint pattern here
+Associated with conjunctivitis, urethritis (Reiter's syndrome triad)
+Skin manifestation: keratoderma blennorrhagica (not malar rash)
+No history of preceding infection in this patient
+
+Adult-onset Still's disease:
+Systemic JIA in adults — quotidian fever, salmon-coloured evanescent rash, arthritis
+Rash appears with fever spikes and resolves — not a fixed malar distribution
+Markedly elevated ferritin (greater than 5 times normal in Still's disease)
+No oral ulcers or photosensitivity
+
+Drug-induced lupus:
+Hydralazine, procainamide, isoniazid can cause a lupus-like syndrome
+Anti-histone antibodies positive; renal and CNS involvement rare; anti-dsDNA typically negative
+No relevant drug exposure in this patient
+
+Rosacea:
+Causes a facial rash with erythema, papules, pustules
+Involves the nasolabial folds (unlike SLE malar rash — which spares them)
+Aggravated by sun, heat, spicy food, alcohol
+No systemic features (no arthritis, oral ulcers, alopecia)
+Responds to topical metronidazole or azelaic acid
+
+PLAN
+
+This patient is suitable for outpatient management. Urgent investigations are required before the first clinic visit. A dedicated rheumatology outpatient clinic is the appropriate follow-up setting.
+
+Investigations
+
+Immunological investigations:
+
+Antinuclear antibody (ANA):
+Entry criterion for 2019 EULAR/ACR SLE classification
+Positive at titre 1:80 or higher on indirect immunofluorescence (HEp-2 cells)
+Positive in greater than 95% of SLE patients — a negative ANA in a patient who clinically has SLE should prompt re-testing and consideration of rare ANA-negative SLE (associated with Anti-Ro antibodies)
+Gold standard: indirect immunofluorescence on HEp-2 cells
+Practical note in Nigeria: ANA is available at major teaching hospitals (LUTH, UCH, ABUTH, UNTH); may require referral to the immunology laboratory if not available on-site; turn-around time is typically 5–14 days
+
+Anti-double-stranded DNA (anti-dsDNA):
+Most specific test for SLE — positive in approximately 70% of SLE patients
+Low titre or negative anti-dsDNA is not uncommon in mild SLE (higher titres correlate with disease activity, particularly nephritis)
+Serial anti-dsDNA is the most useful single marker for monitoring disease activity and predicting flares
+Practical note: available at major teaching hospitals in Nigeria; results in 5–14 days
+
+Anti-Smith antibody (anti-Sm):
+Highly specific for SLE (specificity greater than 99%) even when other antibodies are borderline
+Positive in approximately 25% of SLE patients
+Its presence is pathognomonic — confirms SLE diagnosis even with other negative serology
+Practical note: available at major teaching hospital immunology laboratories; may require referral from smaller centres
+
+Anti-Ro/SSA and Anti-La/SSB:
+Important for future pregnancy counselling (associated with neonatal lupus and congenital heart block in neonates of affected mothers)
+Anti-Ro is also associated with photosensitivity and subacute cutaneous lupus
+This patient is 19 and may desire future pregnancy — anti-Ro status is essential to document early
+
+Anti-cyclic citrullinated peptide (anti-CCP) antibody:
+Request to formally exclude rheumatoid arthritis (which may co-exist with or be confused with SLE)
+Highly specific for RA (specificity greater than 95%)
+Practical note: available at most teaching hospitals in Nigeria
+
+Rheumatoid factor (RF):
+May be weakly positive in SLE — not diagnostic of RA alone
+Useful to screen alongside anti-CCP; a high RF in the context of SLE raises concern for overlap syndrome
+
+Complement C3 and C4:
+Usually normal or mildly reduced in mild SLE without nephritis
+Important baseline — will drop with disease flares or nephritis
+Serial measurement tracks disease activity
+Practical note: available at most teaching hospitals
+
+Antiphospholipid antibody panel (lupus anticoagulant, anticardiolipin IgG/IgM, anti-beta-2-glycoprotein-I):
+Important to screen in all SLE patients regardless of current symptoms — antiphospholipid syndrome may be subclinical until a thrombotic event or miscarriage occurs
+This patient is young and single — early identification allows preventive counselling before pregnancy and before starting hormonal contraception
+Practical note: available at major teaching hospitals
+
+Haematological investigations:
+
+Full blood count with differential:
+Mild normocytic normochromic anaemia (chronic disease)
+Lymphopenia (WBC less than 4 × 10⁹/L — a diagnostic criterion for SLE; lymphopenia less than 1.0 × 10⁹/L is specifically associated with SLE)
+Mild thrombocytopaenia (platelet count less than 100 × 10⁹/L — a criterion for SLE)
+May be normal or only mildly abnormal in mild disease
+Practical note: widely available at all Nigerian tertiary and secondary hospitals
+
+ESR and CRP:
+ESR typically elevated in active SLE even in mild disease
+CRP usually only mildly elevated in SLE (a disproportionately low CRP for the clinical activity of the disease is characteristic of SLE — markedly elevated CRP should raise suspicion of concurrent bacterial infection)
+Serial ESR: used to monitor disease activity alongside clinical assessment
+Practical note: widely available
+
+Direct Coombs test:
+Screen for autoimmune haemolytic anaemia (a haematological criterion for SLE that may be subclinical)
+
+Renal investigations (mandatory even in the absence of symptoms):
+
+Urinalysis with microscopy:
+The single most important test to detect silent lupus nephritis
+Dipstick: protein (even 1+ requires further quantification), blood, leucocytes, nitrites
+Microscopy: red cell casts (diagnostic of glomerulonephritis — must not be missed), granular casts, oval fat bodies
+This test must not be deferred or omitted in any SLE patient regardless of renal symptoms — silent lupus nephritis is common and dangerous
+Practical note: widely available at all Nigerian hospitals
+
+Urine protein:creatinine ratio (UPCR):
+If dipstick shows proteinuria of 1+ or more: quantify with spot morning UPCR
+Normal UPCR less than 0.2 (mg/mg); nephrotic range greater than 3.5 mg/mg
+Practical note: available at most tertiary hospitals and selected secondary hospitals in Nigeria
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function
+Elevated creatinine in asymptomatic patients would indicate significant nephron loss from silent nephritis requiring urgent escalation
+Practical note: widely available
+
+Additional investigations:
+
+Blood glucose (fasting):
+Baseline before hydroxychloroquine (rarely affects glucose but important baseline) and in case future steroid therapy is needed
+Practical note: widely available
+
+Liver function tests:
+Baseline before any drug therapy
+SLE can cause mild hepatitis (lupus hepatitis — transaminitis)
+
+Lipid profile:
+Baseline (SLE increases cardiovascular risk; important in a young woman who will be on medications long-term)
+Hydroxychloroquine has a mild beneficial lipid-lowering effect
+
+Thyroid function tests (TSH, free T4):
+Autoimmune thyroid disease (Hashimoto's thyroiditis) is significantly more common in SLE patients than the general population — co-existing autoimmune conditions are common
+Hypothyroidism can cause fatigue and joint pains — may contribute to symptoms; treat if found
+Practical note: available at most tertiary hospitals
+
+G6PD enzyme assay:
+Essential before starting hydroxychloroquine — G6PD deficiency is common in Yoruba patients (up to 20% of females are carriers with variable enzyme levels; some female carriers have sufficiently low enzyme activity to be clinically affected)
+Hydroxychloroquine can trigger haemolytic episodes in G6PD-deficient patients — this is particularly important in a Yoruba female patient
+If G6PD deficiency is confirmed: hydroxychloroquine can generally still be used at standard doses in most carriers (moderate deficiency); however, close monitoring for haemolysis is required; severe deficiency warrants alternative therapy or very close monitoring
+Practical note: G6PD enzyme assay is available at most teaching hospitals; where unavailable, clinical risk assessment (Yoruba female) warrants close monitoring even without formal testing
+Gold standard: quantitative G6PD enzyme assay; qualitative (fluorescent spot test) is an acceptable practical alternative at most Nigerian centres
+
+Ophthalmology review:
+Baseline retinal assessment before starting hydroxychloroquine
+Hydroxychloroquine-related retinopathy: rare (less than 1% with standard dosing), irreversible once established — prevention through regular screening is the goal
+Baseline fundoscopy documents any pre-existing retinal changes
+Subsequent annual review recommended after 5 years of continuous HCQ use (or earlier if high-risk features: pre-existing maculopathy, renal impairment affecting HCQ clearance)
+Practical note: available at all teaching hospitals; should not delay starting hydroxychloroquine — arrange within 1–2 weeks of starting
+
+Chest X-ray (baseline):
+Exclude incidental pulmonary or cardiac pathology
+Screen for pulmonary tuberculosis — essential before immunosuppression (even hydroxychloroquine, which has mild immunomodulatory effects)
+Practical note: widely available
+
+ECG:
+Baseline cardiac assessment
+Hydroxychloroquine can prolong the QT interval (rare at standard doses, but important to document baseline QTc)
+Practical note: widely available
+
+Pharmacological Management
+
+This patient has mild SLE — the goals are to control current symptoms, prevent flares, prevent organ damage accrual, and maintain quality of life for a young student.
+
+Step 1 — Hydroxychloroquine (cornerstone, first-line, mandatory therapy):
+
+Hydroxychloroquine 200–400 mg orally once daily (dose calculated at 5 mg/kg/day of ideal body weight — do not exceed 400 mg/day or 5 mg/kg/day to minimise retinal toxicity risk)
+For this patient: assuming ideal body weight approximately 55–60 kg, target dose 275–300 mg/day; prescribe 200 mg twice daily or 400 mg once daily depending on tablet availability
+
+Mechanism of action:
+Modulates toll-like receptor signalling (inhibits TLR7 and TLR9 — key pathways in SLE autoantibody production)
+Reduces antigen presentation and T-cell activation
+Decreases production of pro-inflammatory cytokines (IL-6, TNF-alpha, interferon-alpha)
+Alkalinises intracellular lysosomes — disrupts autoantigen processing
+Inhibits platelet aggregation and has anticoagulant properties
+
+Benefits specific to this patient:
+Reduces flare frequency and severity — the single most important intervention for preventing SLE flares; stopping HCQ increases flare risk 2–3 fold
+Reduces cumulative organ damage accrual — patients who take HCQ consistently accumulate less renal, neurological, and cardiac damage over time
+Reduces all-cause mortality in SLE — a rare example of a medication with proven mortality benefit in a non-malignant disease
+Addresses joint pain and rash (disease-modifying effect — not just symptomatic)
+Reduces thrombotic risk (antiplatelet and mild anticoagulant effect — particularly important given possible antiphospholipid antibody status)
+Mild lipid-lowering effect (reduces total cholesterol and LDL)
+Provides some antimalarial activity (modest, not sufficient for malaria prophylaxis in Nigeria — but reduces severity of malaria-associated SLE flares)
+
+Onset of action: 2–3 months — explain this to the patient to manage expectations; HCQ is not an acute analgesic
+
+Duration: lifelong — stopping HCQ even when feeling well significantly increases flare risk; this must be emphasised clearly and repeatedly
+
+Side effects (discuss at initiation):
+GI disturbance (nausea, anorexia, abdominal discomfort) — most common; occurs early; usually resolves within 2–4 weeks; take with food to reduce nausea
+Skin pigmentation (bluish-grey pigmentation of skin and mucosae with prolonged use)
+Retinal toxicity (rare at standard doses — less than 1% at 5 years; risk increases with cumulative dose, renal impairment, and duration greater than 5 years; prevented by annual ophthalmology review from year 5)
+QT prolongation (rare at standard doses; document baseline ECG)
+Haemolysis in G6PD deficiency (see above)
+
+Practical note in Nigeria: Hydroxychloroquine (Plaquenil brand) is available at major teaching hospitals and specialist pharmacies in Lagos, Ibadan, Enugu, Abuja — access is improving but cost remains a barrier outside major cities; generic HCQ formulations are available and more affordable; the patient should be counselled on accessing consistent supply (erratic use is worse than no use in terms of rebound flare risk); explore NHIS coverage where applicable; if HCQ is temporarily unavailable, chloroquine phosphate 250 mg daily (hydroxychloroquine equivalent) is an acceptable practical substitute but carries a higher retinal toxicity risk — use with caution and more frequent ophthalmology review
+
+Step 2 — Analgesic and anti-inflammatory therapy for arthritis:
+
+NSAIDs (for joint pain and morning stiffness):
+Ibuprofen 400 mg orally three times daily with food (for symptomatic flares of arthritis)
+Or Naproxen 500 mg orally twice daily with food (longer duration of action — once or twice daily dosing may improve adherence in a student)
+Use at the lowest effective dose for the shortest duration necessary
+Mechanism: inhibit prostaglandin synthesis, reduce synovial inflammation and morning stiffness
+Benefits: rapid onset (days); effective for mild inflammatory arthritis in SLE
+Cautions in SLE patients:
+NSAIDs can cause aseptic meningitis in SLE patients (rare but specific — more common with ibuprofen in SLE than in the general population)
+NSAIDs reduce renal prostaglandin synthesis and worsen renal function — monitor urinalysis when using NSAIDs in SLE, particularly at higher doses or with prolonged use
+NSAIDs can worsen hypertension and cause fluid retention — monitor BP
+Gastroprotection: co-prescribe Omeprazole 20 mg daily if NSAIDs are used regularly
+Practical note: Ibuprofen and Naproxen are widely available and inexpensive across Nigeria
+
+Paracetamol 500–1000 mg orally three to four times daily:
+Safe analgesic adjunct for arthralgia not responding fully to NSAIDs
+Preferred over NSAIDs when renal involvement is a concern
+Widely available and inexpensive
+
+Step 3 — Low-dose corticosteroids (for flares not controlled by HCQ and NSAIDs):
+
+Prednisolone 5–10 mg orally once daily — short course (2–4 weeks) during symptomatic flares
+Gold standard: use the lowest effective dose for the shortest duration possible in mild SLE — long-term steroids cause significant cumulative organ damage (osteoporosis, avascular necrosis, hyperglycaemia, Cushingoid features, accelerated cardiovascular disease) which can exceed the damage from mild SLE itself
+This patient does not currently require steroids — document this explicitly and reserve for flares
+If steroids are required for a flare: provide gastroprotection (Omeprazole) and counsel on side effects
+Calcium + Vitamin D supplementation: start if prednisolone is prescribed for more than 4 weeks
+Practical note: Prednisolone is widely available and inexpensive in Nigeria
+
+Topical therapies for mucocutaneous features:
+
+Topical corticosteroid cream (low-to-medium potency, e.g., Hydrocortisone 1% or Betamethasone valerate 0.025% cream) for malar rash during flares:
+Apply thinly to the affected facial skin once or twice daily during active rash — do not use continuously (risk of skin atrophy, particularly with medium-to-high potency steroids on facial skin)
+Gold standard: short-term topical steroids for acute ACLE flares while awaiting full HCQ effect
+Practical note: widely available in Nigeria
+
+Topical calcineurin inhibitors (Tacrolimus 0.03–0.1% ointment or Pimecrolimus 1% cream):
+Alternative or adjunct to topical steroids for facial rash
+No skin atrophy risk — preferable for long-term facial use
+Gold standard: preferred for chronic or recurrent facial rash in ACLE to avoid steroid-related atrophy
+Practical note: Tacrolimus ointment (Protopic) and Pimecrolimus (Elidel) are available at some teaching hospital pharmacies and private dermatology clinics in Nigeria; moderately expensive; available at LUTH, UCH dermatology clinics
+
+Topical Lidocaine gel or chlorhexidine mouthwash for oral ulcers:
+Symptomatic relief for painless (or mildly uncomfortable) oral ulcers
+Chlorhexidine 0.2% mouthwash (twice daily): reduces secondary bacterial colonisation of ulcers, speeds healing
+Practical note: widely available in Nigeria
+
+Step 4 — Future escalation if disease worsens (anticipatory planning):
+
+If arthritis worsens and is not controlled by HCQ + NSAIDs ± low-dose prednisolone:
+Add Methotrexate 7.5–15 mg orally or SC once weekly (steroid-sparing agent for SLE arthritis)
+Or Azathioprine 1–2 mg/kg/day (immunosuppressant for moderate musculoskeletal or cutaneous disease)
+These agents are not required currently but should be discussed as part of the patient's overall management plan
+Practical note: Methotrexate is available at most teaching hospitals in Nigeria; Azathioprine is widely available and relatively affordable
+
+Non-Pharmacological Management
+
+Sun protection (critical and non-negotiable in SLE):
+Sun exposure directly triggers SLE flares — both the malar rash and systemic disease activity
+UV light induces keratinocyte apoptosis, releasing nuclear antigens that drive autoantibody production and immune complex formation
+Practical measures (emphasise culturally appropriate and affordable options for a student):
+Avoid direct sun exposure during peak UV hours (10 am to 4 pm) whenever possible
+Wear protective clothing: long-sleeved shirts, wide-brimmed hats, lightweight scarves
+Apply broad-spectrum sunscreen (SPF 30 or higher — covers both UVA and UVB) to exposed skin 30 minutes before going outside; reapply every 2 hours if outdoors
+Practical note: Sunscreen is available at pharmacies and cosmetic stores across Nigeria; it may be perceived as a cosmetic product rather than a medical necessity — explain its medical importance clearly; Daylong, Eucerin, La Roche-Posay, and local brands are available; cost may be a concern for a student — smaller affordable products should be identified; using shade, hats, and clothing is a free and effective alternative
+Fluorescent indoor lighting: modern fluorescent tubes emit low levels of UV — use UV-filtering covers for overhead lights in study areas if photosensitivity is significant (rare but documented)
+Window films: UV-filtering films for car and home windows — reduce indoor UV exposure
+
+Rest and activity balance:
+Adequate sleep (7–8 hours per night) — fatigue is a dominant symptom in SLE; poor sleep quality worsens disease activity
+Pacing: alternate periods of activity and rest throughout the day — particularly important during examinations and high-stress periods
+Avoid physical and emotional exhaustion — both are recognised triggers of SLE flares
+
+Stress management:
+Psychological stress directly triggers SLE flares through hypothalamic-pituitary-adrenal axis dysregulation and pro-inflammatory cytokine release
+Strategies: mindfulness, regular light exercise (swimming, walking — avoid intense exercise during active disease), peer support, academic counselling
+University health services: encourage the patient to register with the university health centre for support during examinations (accommodation may be available for chronic medical conditions)
+
+Exercise:
+Regular low-intensity aerobic exercise (walking, swimming, cycling) reduces fatigue, improves cardiovascular health, maintains bone density (especially important if future steroids are used), and improves psychological wellbeing
+Avoid intense exercise during disease flares (increases systemic inflammation and fatigue)
+Swimming: particularly beneficial in SLE — low-impact, reduces heat stress (unlike outdoor running in Nigerian climate), no significant UV exposure if indoors
+
+Diet and nutrition:
+No specific anti-SLE diet is evidence-based, but a balanced diet with anti-inflammatory properties is recommended
+Omega-3 fatty acids (oily fish, flaxseed): mild anti-inflammatory effect; reasonable to include in diet
+Avoid excessive salt (cardiovascular health — relevant even at baseline given future steroid use and possible renal involvement)
+Adequate vitamin D: vitamin D deficiency is very common in SLE patients (photosensitivity necessitates sun avoidance, which reduces cutaneous vitamin D synthesis); supplement with Vitamin D3 800–1000 IU daily
+Avoid excessive alfalfa sprouts (L-canavanine content has been reported to trigger SLE flares — though evidence is weak, avoidance is prudent)
+Avoid smoking and alcohol (both worsen SLE disease activity and cardiovascular risk)
+
+Infection prevention:
+Infections are a leading trigger of SLE flares — even in patients not on immunosuppression
+Maintain good hand hygiene
+Vaccinations (discuss and arrange):
+Pneumococcal vaccine (Pneumovax 23 or PCV13): recommended in all SLE patients; reduces risk of pneumococcal sepsis
+Influenza vaccine: annually
+Hepatitis B vaccination: if seronegative (check HBsAg and anti-HBs before vaccinating)
+COVID-19 vaccination: recommended (inactivated or mRNA vaccine — discuss with rheumatologist)
+Avoid live vaccines if future immunosuppression is anticipated (MMR, varicella, yellow fever — discuss timing with rheumatologist before vaccination)
+Practical note: pneumococcal and hepatitis B vaccines are available through NPI at most teaching hospitals; influenza vaccine availability varies seasonally and by location
+
+Contraception counselling (important in a 19-year-old):
+Combined oral contraceptive pills (COCPs) containing oestrogen:
+Oestrogen stimulates the immune system and increases thrombotic risk in SLE (particularly in patients with antiphospholipid antibodies — status pending)
+Traditionally avoided in SLE — use with extreme caution and only if antiphospholipid antibodies are negative and disease is well-controlled
+Progesterone-only pill (POP): safer choice in SLE — does not stimulate oestrogen-mediated autoimmune pathways; does not significantly increase thrombotic risk
+Levonorgestrel-releasing IUS (Mirena): highly effective long-term contraception; progesterone-only — suitable for SLE patients
+Barrier methods (condoms): safe, provide additional STI protection, no hormonal effect
+Counsel on the need for planned pregnancy when disease is in remission — do not attempt pregnancy while on teratogenic medications
+Practical note: this conversation should be conducted sensitively and non-judgementally in a 19-year-old student
+
+Psychological wellbeing:
+SLE in a young student can cause significant anxiety, depression, and social isolation
+Acknowledge the emotional burden of a chronic autoimmune diagnosis
+Offer referral to a clinical psychologist or counsellor if available at the university or tertiary hospital
+Lupus Foundation of Nigeria and online support communities — connect the patient with peers
+Encourage family education — involve a trusted family member in counselling to ensure support at home
+
+Monitoring
+
+Outpatient clinical monitoring schedule:
+First follow-up: 4–6 weeks after starting hydroxychloroquine (assess tolerability, early GI side effects, disease response, investigation results)
+Subsequent follow-up: every 3 months for the first year (disease activity assessment, symptom review, medication adherence)
+Annual review: comprehensive assessment of all organ systems
+
+Disease activity monitoring at each visit:
+SLEDAI-2K score: formal documentation of disease activity (target SLEDAI less than 4 = low disease activity; zero = remission)
+Physician Global Assessment (PGA) score
+Joint count: swollen and tender joint count (28-joint count) at each visit
+Skin and mucosal assessment: degree of rash, current alopecia, oral ulcers
+Assessment for new symptoms in any organ system (especially renal, neuropsychiatric, cardiovascular)
+
+Laboratory monitoring schedule:
+Urinalysis with microscopy: at every clinic visit (most important surveillance test for silent nephritis — cannot be omitted)
+FBC: every 3–6 months (monitor for cytopenias)
+Serum creatinine: every 6 months (renal surveillance)
+Anti-dsDNA and complement C3 and C4: every 6 months and during suspected flares (rising anti-dsDNA + falling complement predicts impending nephritis flare — allows preemptive treatment escalation)
+ESR and CRP: every 3–6 months
+LFTs: every 6–12 months (baseline toxicity monitoring)
+Lipid profile: annually
+Blood glucose: annually (and before any steroid therapy)
+Ophthalmology review: baseline (now) and annually after 5 years of continuous HCQ use; annually from the start if pre-existing maculopathy or renal impairment
+
+Triggers for urgent escalation between clinic visits:
+Development of any new symptoms — frothy urine, oedema, reduced urine output, headache, confusion, chest pain, breathlessness, significant hair loss, or new widespread rash
+Proteinuria on home urinalysis dipstick (patient may be provided with dipstick urinalysis to self-monitor between visits)
+Significant worsening of arthritis not responding to NSAIDs
+Temperature greater than 38°C (fever in SLE is a red flag — may indicate flare or concurrent infection — both require prompt evaluation)
+
+Practical note on monitoring in Nigeria: the proposed 3-monthly FBC and creatinine monitoring may be difficult for a student to access and afford in a city other than Ile-Ife — if investigations must be done at intervals, prioritise urinalysis with microscopy (inexpensive, widely available) and anti-dsDNA (annually at minimum); ensure the patient knows to present immediately for any new renal, neurological, or cardiopulmonary symptoms without waiting for the next scheduled appointment
+
+Counselling
+
+Explanation of the diagnosis:
+SLE (systemic lupus erythematosus) is an autoimmune condition — the body's immune system, which normally fights infections, mistakenly attacks the body's own tissues
+It is not contagious, not directly inherited (though it runs in families in some cases), and is not caused by anything she did
+It predominantly affects women of childbearing age — this patient is at the typical age of onset
+Currently, only the skin and joints are affected — this is considered mild disease, which is a positive finding
+
+Nature of the disease — explaining chronicity:
+SLE is a chronic, lifelong condition — it does not have a cure, but it can be very well-controlled with treatment
+The disease follows a relapsing-remitting course — periods of active disease (flares) and periods of remission where symptoms are minimal or absent
+The goal of treatment is to keep the disease in remission as much as possible and prevent it from affecting more organs
+With appropriate treatment and regular follow-up, many people with SLE live normal, full, active lives — including completing university and pursuing a career
+
+Explaining the risk of progression:
+Currently the kidneys, brain, and heart are not affected — this is very important and a reason for optimism
+However, there is a risk that the disease could affect other organs in the future, particularly the kidneys — which can happen without any symptoms at first
+This is why regular urine tests are mandatory even when she feels well — early detection of kidney involvement allows early treatment before permanent damage occurs
+
+Hydroxychloroquine — importance of adherence:
+Hydroxychloroquine is the most important medicine for her condition — it will protect all her organs from damage, reduce the frequency of flares, reduce the risk of the disease affecting her kidneys or brain in the future, and improve her long-term outlook
+It takes 2–3 months to start working — she should not stop it if she does not feel immediate benefit; its value is in prevention, not immediate symptom relief
+She must take it every day, at the same time, with food to reduce nausea
+She must not stop taking it without discussing with her doctor — even if she feels completely well (stopping HCQ is a common cause of severe SLE flares)
+She will need a yearly eye check after 5 years to make sure it is not affecting her vision — this is a very rare side effect that can be detected early and managed
+
+Sun protection — critical lifestyle change:
+Emphasise that sunlight directly triggers disease flares for her — this is not a preference but a medical necessity
+She should make sun protection a daily habit regardless of weather (UV light passes through clouds)
+Affordable and practical measures: shade, clothing, hats — these are as effective as sunscreen
+
+Regarding her studies:
+She is currently able to manage her academic activities — this is positive and should be maintained
+She should inform her university's health services and student welfare office about her diagnosis — she may be entitled to academic accommodations during disease flares (medical certificates for missed examinations, extensions for assignments)
+Avoiding excessive academic stress is important — stress is a documented trigger for SLE flares
+
+Regarding future pregnancy:
+SLE can affect pregnancy — it can cause complications for both mother and baby (preeclampsia, preterm birth, neonatal lupus)
+She should not attempt pregnancy while the disease is active or while on certain medicines (such as cyclophosphamide or methotrexate if these are ever needed in the future)
+When she is ready for pregnancy in the future, she should plan this in advance with her rheumatologist and obstetrician — a planned pregnancy in SLE remission with the right medicines can be successful
+Anti-Ro antibody status will be checked — if positive, neonatal monitoring during a future pregnancy will be specifically needed
+
+Contraception advice:
+Combined oral contraceptive pills are generally not recommended in SLE — explain why (oestrogen can worsen the disease and increase the risk of blood clots)
+Safer options include: the progesterone-only pill, or barrier methods (condoms)
+Discuss openly and sensitively — ensure she feels comfortable asking questions
+
+When to return urgently:
+Provide a clear list of warning symptoms that require immediate medical attention (not waiting for the next appointment):
+Swelling of the face, legs, or body
+Frothy or dark urine
+Reduced urination
+Severe or new headache
+Confusion or unusual behaviour
+Chest pain or breathlessness
+Fever greater than 38°C
+Any new significant skin change
+
+PROGNOSIS
+
+Overall prognosis:
+Mild SLE at presentation, young age, no major organ involvement, prompt diagnosis — collectively very favourable prognostic features
+With consistent hydroxychloroquine use, sun protection, and regular follow-up: most patients with mild SLE maintain good quality of life and normal function
+
+Life expectancy:
+10-year survival for SLE overall: approximately 85–90% in high-income settings; somewhat lower in Nigeria due to delayed diagnosis, access barriers, and higher infectious disease burden
+Patients with mild SLE and no major organ involvement at diagnosis have an even better prognosis than average
+
+Risk of progression:
+Lupus nephritis develops in approximately 50% of all SLE patients over the course of their disease — this makes renal surveillance mandatory
+Risk of neuropsychiatric SLE: approximately 15–30% lifetime
+Risk of cardiovascular disease: accelerated by chronic inflammation, steroid use, and hyperlipidaemia — important long-term consideration even in young women
+Hydroxychloroquine significantly reduces all of these risks
+
+Factors favouring good outcome in this patient:
+Young (19 years) with relatively early presentation
+Mild disease at diagnosis — no organ involvement
+Normal BP, renal function, and CNS status
+No prior organ damage
+Non-smoker, no alcohol use
+Educated (university student) — good capacity to understand and adhere to management
+Prompt presentation — diagnosis made before organ damage has occurred
+
+Potential adverse prognostic factors to monitor:
+Antiphospholipid antibody status (pending — if positive, significantly increases thrombotic risk and changes long-term management)
+G6PD status (pending — relevant for HCQ use)
+Anti-Ro antibody (relevant for future pregnancy and skin disease course)
+Academic stress and sun exposure patterns (both modifiable and must be addressed)
+Access to hydroxychloroquine (consistent supply is essential — erratic use is worse than structured consistent use)
+Follow-up attendance (loss to follow-up is a major cause of disease progression in Nigeria — address proactively)
+
+FOLLOW-UP
+First review in 4–6 weeks: assess HCQ tolerability, results of all baseline investigations, and disease activity. Every 3 months for the first year: SLEDAI assessment, urinalysis, FBC, BP, clinical examination. Every 6 months: anti-dsDNA, complement C3 and C4, serum creatinine, ESR, lipid profile. Ophthalmology baseline review before or within 2 weeks of starting hydroxychloroquine; annual review after 5 years. Annual comprehensive assessment including cardiovascular risk, bone health, and psychological wellbeing. Arrange vaccinations (pneumococcal, influenza, hepatitis B if seronegative) at this or the next visit. Provide patient with written emergency contact information and a list of warning symptoms requiring immediate attendance. Advise to register with university health services. Fertility and contraceptive counselling at every visit. Review antiphospholipid antibody results when available and counsel on implications for future pregnancy and contraception choice.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'im-45',
+  title: 'SLE Flare versus Sepsis — A Diagnostic and Management Dilemma',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Rheumatology / Infectious Disease / Nephrology',
+  condition: 'Known SLE presenting with fever, polyarthritis, oliguria, and haemodynamic compromise — simultaneous SLE flare and sepsis must be distinguished before escalating immunosuppression',
+  symptoms: [
+    'Fever (initially low-grade, later high-grade with chills and rigors)',
+    'Joint pains',
+    'Generalised weakness and anorexia',
+    'Reduced urine output',
+    'Bilateral pitting pedal oedema',
+    'Mild shortness of breath',
+    'Recurrence of malar rash, photosensitivity, and hair loss',
+    'Borderline hypotension (BP 95/60 mmHg)',
+    'Tachycardia (112 bpm)',
+    'Bibasal crepitations',
+    'Mild suprapubic tenderness',
+    'Poor medication compliance and missed clinic follow-ups'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-11',
+  summary: 'Mrs B.O., a 32-year-old known SLE patient (diagnosed 3 years ago, on hydroxychloroquine and low-dose prednisolone with poor compliance) presenting with a 2-week history of joint pains involving wrists, fingers, and knees with 45-minute morning stiffness, 5-day history of high-grade fever with chills and rigors, generalised weakness and anorexia, and 3-day history of reduced urine output with bilateral leg swelling. Recurrence of malar rash, photosensitivity, and alopecia. Poor medication adherence and missed follow-up appointments. Examination reveals an acutely ill, febrile (38.9°C), tachycardic (112 bpm), borderline hypotensive (95/60 mmHg) woman with mild pallor, malar rash, mild dehydration, bilateral pitting pedal oedema, bibasal crepitations, mild suprapubic tenderness, and SpO₂ 95% on room air. The core clinical dilemma: this presentation is consistent with both an SLE flare triggered by medication non-compliance AND bacterial sepsis — these two conditions require diametrically opposite initial treatments (antibiotics versus immunosuppression). Sepsis must be excluded before immunosuppression is escalated. Requires immediate resuscitation, urgent sepsis workup, empirical broad-spectrum antibiotics, cautious steroid handling, and systematic investigation to guide definitive management.',
+  content: `
+Mrs B.O., a 32-year-old trader, resident in Ibadan, Oyo State, Christian, Yoruba, married.
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Joint pains × 2 weeks
+Fever × 5 days
+Generalised weakness × 5 days
+Reduced urine output × 3 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient is a known case of SLE, diagnosed 3 years ago, and has been managed on hydroxychloroquine and low-dose prednisolone. However, she admits to irregular medication use and missed clinic follow-ups in recent months.
+
+She was apparently well until about 2 weeks prior to presentation when she developed joint pains involving both wrists, fingers (MCP and PIP joints), and knees, bilateral and symmetrical, dull aching, with morning stiffness lasting approximately 45 minutes — a pattern similar to her previous lupus flares.
+
+About 5 days prior to presentation, she developed fever, initially low-grade but progressing to high-grade with chills and rigors. This was associated with marked generalised weakness, loss of appetite, and occasional nausea.
+
+She also complains of mild shortness of breath (no cough).
+
+About 3 days prior to presentation, she noticed reduced urine output with associated mild bilateral leg swelling.
+
+There is recurrence of malar rash, photosensitivity, and hair loss.
+
+No history of dysuria, though suprapubic tenderness on examination raises concern for urinary tract infection. No productive cough, diarrhoea, seizures, or altered consciousness.
+
+PAST MEDICAL HISTORY
+SLE × 3 years
+No previously diagnosed lupus nephritis
+
+DRUG HISTORY
+Hydroxychloroquine (irregular use)
+Prednisolone low-dose (poorly compliant)
+No known drug allergies
+
+FAMILY HISTORY
+Non-contributory
+
+SOCIAL HISTORY
+Trader
+No alcohol or smoking
+
+REVIEW OF SYSTEMS
+General: High-grade fever, malaise, weakness
+Renal: Oliguria, mild leg swelling
+Musculoskeletal: Bilateral symmetrical polyarthritis
+Dermatological: Malar rash, photosensitivity, alopecia
+Respiratory: Mild dyspnoea, bibasal crepitations
+Gastrointestinal: Anorexia, nausea
+
+SUMMARY
+A 32-year-old known SLE patient, poorly compliant with medications, presenting with features simultaneously consistent with an SLE disease flare (joint pains, rash, oliguria, alopecia) and bacterial sepsis (high-grade fever with rigors, tachycardia, borderline hypotension, bibasal crepitations, suprapubic tenderness), creating the most dangerous diagnostic dilemma in SLE management — a situation where treating one condition aggressively without excluding the other can be fatal.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Acutely ill-looking woman
+Febrile (temperature 38.9°C — high-grade)
+Mildly pale
+Not icteric
+Malar rash present
+Mildly dehydrated
+Bilateral pitting pedal oedema
+
+Vital Signs:
+PR: 112 bpm (tachycardia)
+BP: 95/60 mmHg (borderline hypotension — shock requiring urgent attention)
+RR: 24 cpm (tachypnoea)
+Temperature: 38.9°C
+SpO₂: 95% on room air (reduced)
+
+Cardiovascular System:
+PR 112 bpm, regular
+Heart sounds S1 and S2, no murmurs
+JVP: not documented — must be assessed (elevated = fluid overload; collapsed = hypovolaemia)
+Capillary refill: not documented — must be assessed (greater than 3 seconds indicates poor perfusion)
+
+Respiratory System:
+Tachypnoeic
+Bibasal crepitations (pleural effusions from hypoalbuminaemia or nephrotic syndrome, or pneumonia as a septic source, or fluid overload)
+
+Abdomen:
+Soft
+Mild suprapubic tenderness (suggests possible urinary tract infection as source of sepsis)
+No organomegaly
+
+Musculoskeletal:
+Tender MCP and PIP joints bilaterally
+No deformities documented
+
+Central Nervous System:
+Conscious and alert
+Oriented in time, place, and person
+No focal neurological deficits
+
+ASSESSMENT
+
+The core clinical problem: SLE flare versus sepsis — or both simultaneously — in a poorly compliant SLE patient with haemodynamic compromise
+
+This is the most dangerous scenario in SLE management. The two conditions are not mutually exclusive and frequently coexist.
+
+Why this distinction is critical:
+SLE flare requiring escalated immunosuppression: high-dose corticosteroids and possibly cyclophosphamide or MMF — these will worsen and potentially kill a patient with uncontrolled sepsis
+Bacterial sepsis requiring aggressive antibiotic therapy: if unrecognised and the physician instead escalates immunosuppression, the infection will become overwhelming and potentially fatal (immunosuppression removes the patient's remaining ability to fight the infection)
+A patient who receives high-dose steroids for a presumed SLE flare when they actually have sepsis may deteriorate and die within 24–48 hours
+Conversely, a patient whose SLE flare is treated as sepsis only (without eventual immunosuppression) will continue to accumulate organ damage from uncontrolled lupus activity
+
+Clinical context explaining both possibilities:
+
+Why SLE flare is likely:
+Known SLE for 3 years — established disease
+Irregular medication use (both hydroxychloroquine and prednisolone) — medication non-compliance is the single most common trigger of SLE flares; stopping HCQ and prednisolone after even weeks of irregular use causes predictable disease rebound
+Missed clinic follow-ups — no monitoring to catch rising anti-dsDNA or falling complement levels that precede clinical flares
+Recurrence of specific lupus features: malar rash, photosensitivity, alopecia — these are organ-specific SLE manifestations not caused by infection
+Joint pain pattern: bilateral symmetrical polyarthritis involving MCP, PIP joints, wrists, and knees with 45-minute morning stiffness — identical to her prior SLE flares
+New oliguria with leg swelling: suggests new or worsening lupus nephritis (previously no nephritis documented — new onset nephritis during flare is common with non-compliance)
+Active urinary sediment (if red cell casts found on urinalysis): pathognomonic of glomerulonephritis, not infection
+
+Why sepsis is equally likely (and must be excluded first):
+High-grade fever with chills and rigors: in SLE, fever from disease activity is typically low-grade to moderate (38.0–38.5°C); high-grade fever (38.9°C) with chills and rigors is characteristic of bacteraemia and should be attributed to infection until proven otherwise
+Haemodynamic compromise: BP 95/60 mmHg (borderline hypotensive) + tachycardia 112 bpm + RR 24 cpm + SpO₂ 95% — this haemodynamic picture constitutes sepsis-induced organ dysfunction (septic shock criteria are met or nearly met)
+SLE flare alone rarely causes hypotension and tachycardia to this degree without a concurrent infectious trigger
+Bibasal crepitations: consistent with pneumonia (pulmonary source of sepsis) or fluid overload from nephritis
+Suprapubic tenderness: suggestive of lower urinary tract infection or ascending pyelonephritis (common and particularly dangerous source of sepsis in immunocompromised SLE patients)
+SLE patients are chronically immunocompromised — from the disease itself (immune dysregulation) and from medications (corticosteroids, even at low dose, impair bacterial clearance)
+Even patients not on immunosuppressants have impaired innate immunity from SLE-related complement and neutrophil dysfunction
+Common infective sources in SLE patients:
+Urinary tract infection and pyelonephritis (most common — particularly with suprapubic tenderness as here)
+Pneumonia — bacterial (Streptococcus pneumoniae, Staphylococcus aureus) or opportunistic (Pneumocystis jirovecii if on immunosuppression)
+Tuberculosis (high-risk in Nigeria — latent TB reactivation from even low-dose prednisolone)
+Septicaemia (haematogenous spread from any of the above)
+Fungal infection (Cryptococcus, Candida) — less likely here but important in heavily immunosuppressed patients
+
+The critical diagnostic principle:
+Fever greater than 38.5°C with rigors in an SLE patient should be considered infective until proven otherwise.
+CRP is the key initial differentiator: CRP is typically only mildly elevated (less than 50 mg/L) in SLE flares; CRP greater than 100 mg/L in an SLE patient strongly suggests concurrent bacterial infection. Procalcitonin (greater than 0.5 ng/ml) further supports bacterial infection over SLE activity.
+
+Note: both SLE flare AND infection can co-exist — infection can trigger an SLE flare; resolving the infection may be sufficient to resolve the flare, or both may need treatment simultaneously in carefully staged management.
+
+Possible simultaneous diagnoses:
+This patient may have a urinary tract infection or pneumonia triggering an SLE flare — the infection activated the immune system, which then triggered autoantibody production and SLE organ involvement
+In this scenario: antibiotics will address the infectious trigger; disease-modifying therapy (HCQ + low-dose steroids) will address the SLE component; escalated immunosuppression (pulse steroids + cyclophosphamide) will be deferred until infection is controlled
+
+Clinical assessment for sepsis — qSOFA score:
+Quick SOFA (qSOFA) criteria (bedside tool for sepsis risk):
+RR greater than or equal to 22 cpm: present (RR 24 cpm)
+Altered mentation (GCS less than 15): absent (conscious and alert)
+Systolic BP less than or equal to 100 mmHg: present (BP 95/60 mmHg)
+qSOFA score: 2 out of 3 — HIGH RISK for sepsis-related organ dysfunction
+A qSOFA score of 2 or more in a patient with suspected infection warrants immediate sepsis workup and empirical antibiotics regardless of other diagnoses
+
+SOFA score (formal organ dysfunction assessment — should be calculated once investigations return):
+Includes renal function, hepatic function, coagulation, cardiovascular, respiratory, and neurological parameters
+SOFA score greater than or equal to 2 associated with greater than 10% mortality — confirms sepsis-related organ dysfunction
+
+Clinical features differentiating SLE flare from sepsis — applied to this patient:
+
+Feature / SLE Flare / Sepsis / This Patient:
+Fever degree — Low to moderate (38.0–38.5°C) / High-grade with rigors / 38.9°C with rigors — suggests infection
+WBC — Low or normal (leucopenia is an ACR criterion for SLE) / Elevated leucocytosis / Pending FBC — critical result
+CRP — Mildly elevated (typically less than 50 mg/L in SLE activity) / Markedly elevated (often greater than 100 mg/L) / Pending — most important immediate differentiator
+Procalcitonin — Normal (less than 0.5 ng/ml) / Elevated (greater than 0.5 ng/ml; greater than 2 ng/ml strongly suggests bacteria) / Pending — send urgently
+Complement (C3, C4) — Reduced (consumed by immune complex deposition in active SLE) / Normal / Pending
+Anti-dsDNA — Elevated (correlates with SLE activity) / Not elevated by infection alone / Pending
+Urine sediment — Red cell casts, granular casts (active nephritis) / Pyuria, bacteria, leucocyte casts (infection) / Pending — urinalysis urgent
+Blood culture — Negative / Positive (bacteraemia) / Pending — must send before antibiotics
+Haemodynamics — Usually preserved in SLE flare (unless septic shock or severe nephritis) / Frequently compromised (tachycardia, hypotension) / Compromised — strongly suggests sepsis component
+Suprapubic tenderness — Not a feature of SLE flare / Consistent with UTI/pyelonephritis / Present — suggests infective source
+
+Assessment of organ involvement:
+
+Renal:
+Oliguria (3 days) + bilateral pedal oedema + previously no lupus nephritis — suggests new-onset lupus nephritis during this flare, OR prerenal AKI from hypotension and dehydration from sepsis, OR both simultaneously
+Must determine: is the AKI prerenal (from hypotension/sepsis) or intrinsic renal (from lupus nephritis)?
+Urinalysis will help: red cell casts = lupus nephritis; pyuria = urinary tract infection; both = both
+Serum creatinine trajectory: rapid rise suggests intrinsic renal disease; improvement with IV fluids suggests prerenal AKI
+
+Respiratory:
+Bibasal crepitations + SpO₂ 95% + mild dyspnoea:
+Possible pneumonia (infective — bilateral lower lobe consolidation)
+Possible pleural effusions (from new lupus nephritis and hypoalbuminaemia)
+Possible pulmonary lupus (lupus pneumonitis — rare, diagnosis of exclusion)
+Possible pulmonary oedema from fluid overload
+Chest X-ray will differentiate
+
+Cardiovascular:
+BP 95/60 mmHg — borderline hypotensive: consistent with septic shock
+Also possible in severe lupus nephritis from salt-wasting nephropathy (rare)
+Lupus myocarditis (rare) can cause hypotension — echocardiogram if no response to resuscitation
+
+Haematological (pending FBC):
+Sepsis: leucocytosis (WBC greater than 11 × 10⁹/L) with neutrophil predominance
+SLE flare: leucopenia (WBC less than 4 × 10⁹/L) with lymphopenia, or thrombocytopaenia
+A normal or elevated WBC in this patient would strongly favour infection over isolated SLE flare
+
+PLAN
+
+This is a medical emergency. Alert senior physician immediately. Do not delay antibiotics while awaiting investigation results.
+
+Immediate Resuscitation
+
+Airway:
+Patent (patient conscious and alert)
+Supplemental oxygen via face mask (6–10 L/min) — target SpO₂ greater than 95%
+Continuous pulse oximetry
+
+Circulation (septic shock protocol):
+Two wide-bore IV cannulae immediately (16G or 18G)
+Send blood samples urgently (before any antibiotics)
+Commence IV fluid resuscitation:
+IV Normal Saline or Ringer's Lactate 500 ml bolus over 15–30 minutes (Surviving Sepsis Campaign: 30 ml/kg IV crystalloid within the first 3 hours)
+Important caution: this patient has bibasal crepitations, oliguria, and oedema — assess carefully for fluid overload after each bolus (JVP, auscultation, SpO₂)
+If JVP rises, crepitations worsen, or SpO₂ falls: slow the infusion immediately and reassess
+If bibasal crepitations persist despite appropriate fluid resuscitation and BP does not improve: consider vasopressor (Noradrenaline 0.1–0.5 mcg/kg/min via central line) — alert ICU team
+Target: MAP greater than 65 mmHg (BP systolic greater than 90 mmHg), urine output greater than 0.5 ml/kg/hr, improving capillary refill, improving mental status
+
+Urinary catheter:
+Insert Foley catheter immediately — accurate hourly urine output monitoring is mandatory
+Target urine output greater than 0.5 ml/kg/hr
+Send urine sample for urinalysis, microscopy, culture, and sensitivity at time of catheterisation
+
+Blood glucose (point-of-care):
+Hypoglycaemia can coexist in severely ill patients — measure and correct immediately if less than 3.0 mmol/L
+
+Investigations (Collect All Before Starting Antibiotics)
+
+Sepsis workup — urgent (must not be delayed):
+
+Blood cultures (two sets, different peripheral sites):
+Most critical sepsis investigation
+Collect before the first antibiotic dose — a positive blood culture confirms bacteraemia, identifies the causative organism, and guides de-escalation to targeted narrow-spectrum therapy
+If IV access is being established, collect at the time of cannulation
+Do not delay antibiotics by more than 1 hour if blood cultures cannot be immediately obtained — in septic shock, timely antibiotics save lives
+Practical note: blood cultures are available at all teaching hospitals and most secondary hospitals in Nigeria; results typically take 48–72 hours
+
+Urine MCS (midstream or catheter specimen):
+Send at time of catheterisation
+Pyuria (greater than 10 WBC/HPF), bacteriuria, and leucocyte casts suggest UTI or pyelonephritis — the most likely infective source given suprapubic tenderness
+Urine Gram stain: immediate result; identifies gram-negative rods (E. coli, Klebsiella — most common UTI organisms in Nigeria) vs gram-positive cocci
+Practical note: widely available; urine Gram stain and preliminary microscopy results within hours
+
+Chest X-ray:
+Assess for pneumonia (lobar or patchy consolidation), pleural effusions (bilateral in nephrotic syndrome; may be unilateral in pneumonia), pulmonary oedema, TB reactivation
+A specific pattern of consolidation helps identify the infective source (lower lobe consolidation = typical pneumonia; diffuse bilateral infiltrates = atypical pneumonia, PJP, or lupus pneumonitis)
+Practical note: widely available; arrange portable chest X-ray at the bedside given haemodynamic compromise
+
+Procalcitonin (PCT):
+Most specific biomarker for bacterial infection versus SLE flare
+PCT less than 0.25 ng/ml: bacterial infection unlikely; consider non-infectious cause (SLE flare)
+PCT 0.25–0.5 ng/ml: equivocal; repeat in 6–12 hours; clinical judgement required
+PCT greater than 0.5 ng/ml: bacterial infection probable; escalate antibiotic therapy
+PCT greater than 2.0 ng/ml: bacterial sepsis highly likely; aggressive antibiotic management
+PCT also guides antibiotic de-escalation — falling PCT (greater than 80% reduction from peak) supports stopping antibiotics
+Gold standard: most important single biomarker for this specific diagnostic dilemma
+Practical note in Nigeria: PCT is available at most major teaching hospitals (LUTH, UCH, ABUTH, UNTH) and some large private hospitals; it is moderately expensive and may not be available at all centres; where unavailable, CRP combined with clinical assessment and FBC differential must substitute
+CRP practical substitute: CRP greater than 100 mg/L strongly suggests bacterial infection in an SLE patient; CRP less than 50 mg/L is more consistent with SLE flare activity; markedly elevated CRP + leucocytosis + rigors = treat as sepsis
+
+Full blood count with differential (critical):
+WBC and differential: the single most practically important discriminating test in most Nigerian hospitals
+Leucocytosis (WBC greater than 11 × 10⁹/L) with neutrophilia: strongly supports bacterial infection
+Leucopenia (WBC less than 4 × 10⁹/L) with lymphopenia: supports SLE flare (leucopenia is an ACR criterion for SLE)
+Note: steroids (prednisolone) can cause leucocytosis — does not apply here as patient has been poorly compliant; demargination of neutrophils from chronic low-dose steroids still possible
+Thrombocytopaenia (platelet count less than 100 × 10⁹/L): consistent with SLE (a diagnostic criterion) or sepsis-related consumptive coagulopathy (DIC) — must differentiate
+Haemoglobin: assess anaemia of chronic disease or acute haemolysis
+Practical note: FBC is available at all Nigerian tertiary and secondary hospitals — this result will be available within 1–2 hours in most centres and is the most immediately useful discriminating test where PCT is unavailable
+
+CRP (C-reactive protein):
+As described above — available at most Nigerian tertiary hospitals; results within 2–4 hours
+A markedly elevated CRP (greater than 100 mg/L) in an SLE patient should always prompt investigation and treatment of bacterial infection before or alongside escalation of immunosuppression
+
+ESR:
+Non-specific — elevated in both SLE flare and infection; less useful for discrimination than CRP
+Still useful baseline and for monitoring disease activity during follow-up
+
+SLE disease activity investigations:
+
+Anti-dsDNA:
+Rising titre correlates with SLE disease activity (particularly nephritis)
+Infection does not independently elevate anti-dsDNA — a rising anti-dsDNA supports SLE flare contribution to the presentation
+Results in 5–14 days — not immediately useful for acute management but important for follow-up planning
+
+Complement C3 and C4:
+Reduced complement consumption occurs during active SLE (particularly nephritis)
+Normal complement in the context of active symptoms is more consistent with infection than SLE flare
+Low complement + rising anti-dsDNA = strong evidence of active SLE
+Results in 3–5 days at most Nigerian teaching hospitals
+
+Urinalysis with microscopy (simultaneous with MCS):
+Dipstick: protein, blood, leucocytes, nitrites
+Microscopy:
+Red cell casts: pathognomonic of glomerulonephritis (active lupus nephritis)
+Leucocyte casts: tubular infection (pyelonephritis)
+Pyuria (WBC greater than 10/HPF) without casts: lower UTI or contamination
+Both red cell casts AND pyuria: both lupus nephritis AND urinary infection coexisting (common in SLE)
+Granular casts, oval fat bodies: lupus nephritis with nephrotic component
+Practical note: widely available — this is the most immediately available and clinically discriminating test for the renal component of this presentation
+
+Renal investigations:
+Serum electrolytes, urea, creatinine: assess AKI severity; guide fluid management; determine if dialysis is approaching
+Serum albumin: assess hypoalbuminaemia (new lupus nephritis)
+24-hour urine protein or UPCR: quantify proteinuria
+Serial serum creatinine: trajectory guides whether AKI is improving (prerenal from sepsis responding to fluids) or worsening (intrinsic nephritis requiring immunosuppression)
+
+Coagulation profile:
+PT, aPTT, INR, fibrinogen, D-dimer
+DIC can occur in both severe sepsis and severe SLE — important baseline
+Coagulopathy must be corrected before renal biopsy
+
+Liver function tests:
+Assess hepatic involvement from SLE or sepsis
+Baseline before antibiotic and immunosuppressive therapy
+
+HIV serology (voluntary, with pre-test counselling):
+HIV-positive patients are at higher risk of opportunistic infections that can mimic SLE flares (CMV, Cryptococcus, Pneumocystis)
+Important in Nigeria given HIV prevalence
+Results affect subsequent management decisions
+
+TB investigations:
+Mantoux test or IGRA (QuantiFERON-Gold): latent TB reactivation screening
+Sputum AFB smear × 3 and Xpert MTB/RIF: if productive cough or chest X-ray abnormalities suggest TB
+Practical note: Xpert MTB/RIF is available at many Nigerian teaching hospitals through the National TB Programme
+
+Echocardiogram:
+Assess for pericardial effusion (serositis from SLE flare), Libman-Sacks endocarditis (source of embolic sepsis), myocarditis (hypotension unresponsive to fluids)
+Arrange once patient is stabilised
+
+Management
+
+CRITICAL PRINCIPLE: TREAT INFECTION FIRST — DO NOT ESCALATE IMMUNOSUPPRESSION UNTIL INFECTION IS EXCLUDED OR CONTROLLED.
+
+Giving high-dose IV methylprednisolone to a patient with uncontrolled bacterial sepsis can cause fulminant infection, septic shock progression, and death within hours. This error kills patients with SLE.
+
+Step 1 — Empirical broad-spectrum antibiotics (start within 1 hour of presentation, immediately after blood cultures are collected):
+
+Rationale for immediate antibiotics:
+This patient meets qSOFA criteria (score 2) with borderline hypotension and tachypnoea
+In septic shock, every 1-hour delay in antibiotic administration increases mortality by approximately 7%
+The clinical picture (high-grade fever with rigors, haemodynamic compromise) mandates antibiotics now — before awaiting investigation results
+
+Empirical antibiotic regimen (cover likely sources — UTI/pyelonephritis as primary suspect, pneumonia as secondary):
+
+First-line (gram-negative and gram-positive cover with anaerobic cover):
+IV Ceftriaxone 2 g once daily: excellent coverage for gram-negative organisms (E. coli, Klebsiella — most common UTI/pyelonephritis pathogens in Nigeria); also covers community-acquired pneumonia organisms (Streptococcus pneumoniae, Haemophilus influenzae)
+PLUS IV Metronidazole 500 mg every 8 hours: anaerobic cover (if polymicrobial pelvic or abdominal source is possible)
+Practical note: Ceftriaxone is widely available and inexpensive at all Nigerian teaching hospitals; this combination is practical and broad
+
+If gram-negative pyelonephritis or urosepsis is strongly suspected (suprapubic tenderness, positive urine Gram stain showing gram-negative rods):
+Add IV Gentamicin 5 mg/kg once daily (synergistic gram-negative cover with Ceftriaxone — not usually needed but can be added in severe urosepsis):
+Caution: nephrotoxic — use only if creatinine is not severely elevated; monitor levels after 48 hours; reduce dose if eGFR less than 30 ml/min; withhold if oliguria is severe
+Practical note: Gentamicin is widely available in Nigeria
+
+If atypical pneumonia is suspected (bilateral infiltrates on chest X-ray, no response to beta-lactam in 48 hours):
+Add oral or IV Azithromycin 500 mg once daily (covers Legionella, Mycoplasma, Chlamydophila)
+Practical note: Azithromycin is available at most Nigerian tertiary hospitals
+
+If PJP (Pneumocystis jirovecii pneumonia) is suspected (hypoxia disproportionate to chest X-ray findings, bilateral diffuse infiltrates, previous immunosuppression — even low-dose prednisolone, lymphopenia):
+High-dose Co-trimoxazole (TMP-SMX): Trimethoprim 15–20 mg/kg/day IV or oral in 3–4 divided doses
+Add Prednisolone 40 mg twice daily for the first 5 days (paradoxically, steroids reduce mortality in moderate-to-severe PJP — PO₂ less than 70 mmHg; if PJP suspected, this steroid dose is indicated regardless of the usual principle of avoiding steroids in infection)
+Practical note: Co-trimoxazole is widely available in Nigeria
+
+Antibiotic review at 48–72 hours:
+De-escalate to narrowest spectrum antibiotic based on blood culture and urine culture sensitivity results
+If all cultures are negative and PCT is falling: consider stopping antibiotics after 5–7 days
+If cultures are positive: complete the pathogen-specific antibiotic course (typically 7–14 days for UTI/pyelonephritis bacteraemia; 7–10 days for community-acquired pneumonia)
+
+Step 2 — Corticosteroid handling during the acute phase:
+
+This is one of the most nuanced decisions in SLE management:
+
+Steroid continuation (not escalation):
+Do NOT abruptly stop prednisolone in a patient who has been on even low-dose chronic steroids — risk of adrenal insufficiency (secondary adrenal suppression from hypothalamic-pituitary-adrenal axis suppression)
+Continue the patient's usual low-dose prednisolone (even 5–10 mg/day) throughout the acute illness
+If the patient is vomiting and cannot take oral prednisolone: convert to IV hydrocortisone 25–50 mg every 6–8 hours (physiological stress dosing)
+
+Do NOT escalate steroids (no pulse methylprednisolone) until:
+Blood cultures are collected and growing organisms are excluded (48 hours) OR
+Specific infection is identified and being adequately treated (48–72 hours of antibiotics with clear clinical improvement) AND
+SLE flare is confirmed by laboratory evidence (rising anti-dsDNA, falling complement, active urinary sediment)
+
+Steroid stress dosing (hydrocortisone) in septic shock:
+If BP does not respond to 2–3 litres of IV fluid resuscitation and vasopressors (noradrenaline), consider relative adrenal insufficiency from chronic low-dose prednisolone use — add IV Hydrocortisone 200–300 mg/day (50 mg every 6 hours) as stress dosing
+This is physiological replacement, not immunosuppression escalation — it restores the normal adrenal response to stress that has been suppressed by chronic exogenous steroids
+Practical note: IV Hydrocortisone is widely available in Nigeria
+
+Step 3 — Decision framework at 48–72 hours based on investigation results:
+
+Scenario A — Infection confirmed, SLE flare less likely:
+Blood culture positive OR specific focus of infection identified (pyelonephritis, pneumonia confirmed on CXR, positive urine culture)
+WBC leucocytosis with neutrophilia, PCT markedly elevated
+Complement normal, anti-dsDNA not significantly elevated
+Urinalysis: pyuria without red cell casts
+Management: complete antibiotic course; maintain low-dose prednisolone; do not escalate immunosuppression; reinforce medication adherence; monitor renal function for resolution; restart regular HCQ if not already taking
+
+Scenario B — SLE flare confirmed, no infection:
+Blood cultures negative at 48 hours, urine culture negative, PCT normal or low
+WBC leucopenia with lymphopenia, complement reduced, anti-dsDNA elevated
+Urinalysis: red cell casts (active nephritis), no pyuria
+CRP mild
+Clinical improvement not occurring despite antibiotics alone
+Management: escalate immunosuppression — IV methylprednisolone pulse 500–1000 mg daily for 3 days; determine nephritis class (renal biopsy — only after BP controlled and coagulopathy corrected); MMF or cyclophosphamide for nephritis (if confirmed); hydroxychloroquine optimised (ensure consistent regular dosing); counselling on medication adherence
+
+Scenario C — Both SLE flare AND infection coexisting (most likely in this patient):
+Blood culture positive OR urine culture positive AND anti-dsDNA elevated AND complement reduced AND red cell casts on urinalysis
+This is the commonest scenario — infection triggering SLE reactivation
+Management sequence:
+First 48–72 hours: aggressive antibiotic therapy; supportive care; maintain low-dose prednisolone only
+Once infection is controlled (fever defervescing, improving haemodynamics, falling WBC and CRP): escalate SLE treatment carefully
+IV methylprednisolone pulse can be introduced once there is clear evidence of infection control — typically at day 3–5 if patient is responding to antibiotics
+Add cyclophosphamide or MMF for nephritis once infection is under control
+Continue antibiotics for the full course alongside immunosuppression — this is safe and necessary
+Close monitoring for infection recurrence after immunosuppression is escalated
+
+Scenario D — Diagnosis remains uncertain at 48 hours:
+Review all available results with senior physician and rheumatologist
+Consider rheumatology specialist input
+Consider empirical steroid increase only if:
+Clear evidence of life-threatening SLE flare (severe nephritis with rising creatinine, neuropsychiatric SLE, severe haematological crisis)
+Adequate antibiotic coverage is ongoing
+Close monitoring for clinical deterioration is in place
+Do not rush to escalate immunosuppression — wait for more diagnostic clarity
+
+Step 4 — Definitive SLE management (after infection control confirmed):
+
+Re-evaluation of SLE control and adherence:
+The primary reason this patient is presenting in crisis is medication non-adherence and missed follow-up
+This is a critical counselling opportunity — the consequences of non-adherence have been made dramatically real for the patient
+Structured adherence counselling is as important as the pharmacological management
+
+Hydroxychloroquine (reinforce and restart):
+Resume hydroxychloroquine 200–400 mg daily immediately — even during acute illness (safe alongside antibiotics)
+HCQ does not worsen infection — it has mild anti-infective properties (antimalarial action)
+Emphasise that HCQ must be taken every day for life — irregular use confers no benefit and creates rebound disease activity
+
+Prednisolone dose adjustment after flare control:
+Once flare is confirmed and infection controlled: increase prednisolone to an appropriate induction dose for the organ involvement identified (renal vs non-renal)
+For mild-to-moderate flare without major organ involvement: oral prednisolone 0.5 mg/kg/day, then taper over 4–8 weeks
+For severe flare with nephritis: IV methylprednisolone pulse + oral prednisolone 1 mg/kg/day as described in med-02 and med-04
+
+Lupus nephritis management (if confirmed):
+As described in detail in med-04 — renal biopsy to classify, MMF or cyclophosphamide for Class III/IV nephritis, full nephroprotective therapy
+
+Step 5 — AKI management:
+
+Determine the mechanism of AKI:
+Prerenal AKI (from hypotension and dehydration in sepsis): serum creatinine and urine output will improve with IV fluid resuscitation; fractional excretion of sodium (FENa) less than 1% supports prerenal cause
+Intrinsic renal AKI from lupus nephritis: red cell casts on urinalysis, proteinuria, no improvement in creatinine with fluids; requires immunosuppression
+Both may coexist — partial response to fluids + persistent active urinary sediment
+Manage AKI as described in med-04 (fluid management, electrolyte correction, diuretics if fluid overloaded, dialysis indications as listed)
+
+Address medication non-adherence (most important long-term intervention):
+Address root causes of non-adherence:
+Financial barriers: medication cost — explore NHIS coverage for hydroxychloroquine and prednisolone; counsel on generic alternatives
+Lack of perceived benefit: patient may not have felt symptoms improving, so stopped treatment — educate that HCQ prevents future flares and organ damage, not just current symptoms
+Side effect concerns: enquire specifically what caused her to stop or reduce medications — address specific concerns (prednisolone weight gain, HCQ GI side effects)
+Social and occupational barriers: trading responsibilities may conflict with clinic hours — explore flexible appointment arrangements or task-shifting (pharmacy refills without always needing full clinic visit)
+Health literacy: reinforce understanding of SLE as a chronic disease requiring lifelong treatment — the current hospitalisation illustrates the consequence of stopping medications
+
+Practical measures for improving adherence in Nigeria:
+Prescribe medications in the longest practical refill intervals (3-month supplies where possible)
+Provide patient with a written medication schedule with clear instructions
+Educate a trusted family member (husband or close relative) to support medication taking
+Consider pill organisers (weekly pill box) — inexpensive and effective
+Provide emergency contact number for rheumatology clinic to call if running out of medications or developing new symptoms
+Set up reminder systems (mobile phone alarms — extremely practical in a smartphone-owning population)
+
+Supportive Care
+
+Oxygen therapy:
+Continue supplemental oxygen to maintain SpO₂ greater than 95%
+If respiratory status worsens (SpO₂ less than 90% despite 10–15 L/min face mask oxygen): escalate to CPAP or mechanical ventilation — alert ICU early
+
+Temperature management:
+Paracetamol 1 g every 6 hours for fever (avoid NSAIDs in the context of AKI)
+Tepid sponging as adjunct
+Monitor temperature response to antibiotics (fever should defervesce within 48–72 hours with appropriate antibiotic therapy — persistent fever despite antibiotics mandates reassessment of antibiotic choice, focus of infection, and SLE contribution)
+
+Analgesia:
+Paracetamol 1 g orally every 6–8 hours for joint pain
+Avoid NSAIDs (oliguric AKI — NSAIDs further reduce renal perfusion)
+Codeine phosphate 30 mg every 6 hours if paracetamol insufficient (monitor for constipation)
+
+Nutritional support:
+The patient is unwell with anorexia — ensure adequate nutrition
+Oral diet with high protein and low sodium (if nephritis) once tolerating feeds
+NG tube feeding if oral intake is insufficient due to nausea or obtundation
+IV 10% Dextrose for caloric supplementation if nil by mouth temporarily
+
+Gastroprotection:
+Omeprazole 20–40 mg daily — gastric protection during steroid continuation and any NSAID use
+Widely available in Nigeria
+
+Thromboprophylaxis:
+If oedema confirms nephrotic-range proteinuria (albumin less than 25 g/L): anticoagulation decision as described in med-04
+Routine DVT prophylaxis: LMWH (Enoxaparin 40 mg SC daily) once bleeding risk assessed (check coagulation profile)
+TED stockings, early mobilisation when haemodynamically stable
+
+Counselling
+
+Explanation of the dual diagnostic problem:
+Explain clearly to the patient that she has two possible problems occurring at the same time:
+The SLE may be flaring up — likely because of stopping medications
+There may also be a bacterial infection somewhere in the body — possibly in the urine or lungs
+These two problems require very different treatments: infection needs antibiotics first, and SLE flare needs anti-inflammatory medicines
+The medical team must work out which is causing most of the problem before giving the stronger medicines — giving the wrong medicine first could make her much worse
+She will be watched very closely and the plan will be updated as investigation results return
+
+The consequences of medication non-adherence — honest, compassionate discussion:
+The current hospitalisation is very likely a direct consequence of stopping her SLE medicines
+Her SLE has been uncontrolled for some time — the rash, joint pains, hair loss, and now kidney involvement and possible infection are the result
+Every time SLE is uncontrolled, the risk of permanent damage to the kidneys, brain, and heart increases
+The medicines are not optional — they are as essential as eating and drinking for keeping her well
+The doctor understands that taking medicines every day for a chronic illness is challenging; the discussion should be non-judgemental and focused on solving the practical barriers rather than expressing disapproval
+
+Practical adherence strategies:
+Work with the patient to identify specific barriers and address each one
+Medication cost: explore NHIS, generic medicines, hospital pharmacy bulk dispensing
+Clinic access: discuss whether afternoon or weekend clinics are available; identify whether husband or a family member can bring her medications if she cannot attend
+Understanding: use simple language, drawings or visual aids, and engage the husband in the education session
+
+Understanding warning signs:
+Provide the patient with a written (or verbal) list of symptoms that require immediate hospital presentation without waiting for a scheduled appointment:
+High fever with rigors
+Reduced urine output
+Swelling of the face or legs
+Confusion or abnormal behaviour
+Severe headache
+Chest pain or difficulty breathing
+Any new severe symptom
+
+Follow-up commitment:
+The patient must commit to attending every scheduled follow-up appointment
+If she cannot attend a clinic, she should telephone the clinic to reschedule — not simply stop attending
+Regular monitoring is the most important tool for preventing future hospitalisations — laboratory surveillance detects a flare before it causes a crisis
+
+PROGNOSIS
+
+This presentation is potentially life-threatening if the diagnostic dilemma is not resolved correctly and promptly.
+
+If infection is missed and immunosuppression is escalated:
+Overwhelming sepsis → septic shock → multi-organ failure → death
+Mortality from mismanaged SLE-sepsis overlap is very high — this is one of the commonest causes of preventable death in hospitalised SLE patients
+
+If SLE flare is missed and only treated as infection:
+Lupus nephritis will progress → irreversible renal damage → chronic kidney disease → ESRD
+Neuropsychiatric SLE may develop → permanent cognitive impairment
+Cumulative organ damage accrual from uncontrolled disease
+
+With correct management (treat infection first, then SLE flare):
+Recovery from infection: 5–10 days with appropriate antibiotics
+Recovery from AKI: dependent on whether AKI is prerenal (fully reversible with hydration) or nephritic (requires immunosuppression; partial recovery expected)
+Long-term SLE control: depends entirely on medication adherence after discharge
+
+Favourable factors:
+No prior lupus nephritis — kidneys were previously unaffected
+Young patient (32 years) with good physiological reserve
+Conscious and alert (no neuropsychiatric involvement)
+Prompt hospital presentation
+Facility capable of managing both sepsis and SLE
+
+Unfavourable factors:
+Haemodynamic compromise at presentation (BP 95/60 mmHg — septic shock)
+SpO₂ 95% (respiratory compromise)
+New renal involvement (oliguria, oedema) — may represent first episode of lupus nephritis
+Prior poor compliance with medications (suggests ongoing challenges with adherence after discharge)
+High-grade fever with rigors (suggests significant bacteraemia)
+Nigeria-specific: limited access to PCT and serial anti-dsDNA for rapid discrimination at some centres
+
+FOLLOW-UP
+Review with all investigation results at 24 and 48 hours to determine which scenario applies (Scenario A, B, C, or D as defined above) and adjust management accordingly. Daily clinical review during admission. Once stable and infection controlled: rheumatology clinic in 2 weeks to review anti-dsDNA, complement, urinalysis, and creatinine; confirm whether nephritis is present and arrange biopsy if indicated. Structured adherence counselling at every contact. Monthly follow-up for 6 months post-discharge: SLEDAI score, urinalysis, FBC, creatinine, anti-dsDNA, complement. Reinforce HCQ adherence and prednisolone taper plan. Explore NHIS registration and medication subsidy options before discharge. Provide written emergency contact for rheumatology clinic. Annual comprehensive review thereafter.
+`,
+bookmarkCount: 0
+},
   // Surgery
   {
     id: 'surg-1',

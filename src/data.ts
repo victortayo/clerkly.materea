@@ -19386,7 +19386,6 @@ Central Nervous System:
 Conscious and alert
 Oriented in time, place, and person
 No focal neurological deficits
-Anterior fontanelle: not applicable (adult patient)
 
 Anthropometry:
 Weight: 70 kg (likely significantly above dry weight given anasarca — true lean body weight may be considerably lower)
@@ -44195,6 +44194,608 @@ POLE ultramutated: excellent prognosis; may require less adjuvant therapy
 
 FOLLOW-UP
 Post-operative review at 4–6 weeks: assess wound healing, review final histopathology and pathological stage, discuss adjuvant therapy plan in MDT. Commencement of adjuvant therapy (radiotherapy and/or chemotherapy) at 4–6 weeks post-surgery when the patient has recovered. Clinical review every 3 months for the first 2 years (highest recurrence risk period): history, examination, vault smear. Review every 6 months from years 3–5. Annual review thereafter. CA-125 monitoring at each visit if elevated at diagnosis. CT or MRI imaging if clinical suspicion of recurrence. Hypertension review at every oncology visit. Nutritional and psychological support throughout treatment and follow-up. Immediate review if new symptoms develop (vaginal bleeding, pelvic pain, leg swelling, urinary or bowel symptoms).
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-33',
+  title: 'SLE Flare in Pregnancy with Possible Lupus Nephritis',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics',
+  condition: 'SLE flare at 28 weeks gestation with possible lupus nephritis, hypertension in pregnancy, and reduced fetal movements in a known SLE patient who defaulted medications',
+  symptoms: [
+    'Symmetrical polyarthritis',
+    'Malar rash',
+    'Bilateral pitting pedal oedema',
+    'Frothy urine and mild oliguria',
+    'Reduced fetal movements',
+    'Hypertension (150/95 mmHg)',
+    'Photosensitivity, alopecia, oral ulcers',
+    'Defaulted SLE medications in early pregnancy',
+    'Low-grade fever and generalised weakness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-07',
+  summary: 'Mrs A.A., a 30-year-old G2P1+0 (1 alive) known SLE patient (diagnosed 2 years ago, previously stable on hydroxychloroquine and low-dose prednisolone) presenting at 28 weeks + 3 days gestation with a 1-month history of bilateral symmetrical polyarthritis, 3-week history of malar rash with photosensitivity, alopecia, and oral ulcers, 2-week history of bilateral pitting pedal oedema progressing from ankles to knees with frothy urine and mild oliguria, and 2-day history of reduced fetal movements. She defaulted both hydroxychloroquine and prednisolone early in pregnancy due to fear of fetal harm. No prior lupus nephritis. BP 150/95 mmHg. No headache, visual disturbance, or seizures. Fetal heart rate 150 bpm, fundal height corresponds to 28 weeks. Previous obstetric history: one term spontaneous vaginal delivery in 2021, uneventful. The central diagnostic challenge is distinguishing SLE nephritis from preeclampsia — both present with hypertension, proteinuria, and oedema and require diametrically different treatments. Requires immediate admission to a high-risk obstetric unit, urgent fetal assessment with CTG and Doppler, antenatal corticosteroids for fetal lung maturity, safe pregnancy-compatible immunosuppression, antihypertensive therapy, and multidisciplinary obstetric, rheumatology, and neonatology team management.',
+  content: `
+Mrs A.A., a 30-year-old G2P1+0 (1 alive) trader, resident in Lafenwa, Abeokuta, Ogun State, Muslim, Yoruba, married in a monogamous setting.
+
+OBSTETRIC DATA
+Gravidity: G2
+Parity: P1+0 (one term delivery, no miscarriages)
+Living children: 1 alive
+LMP: 20/09/2025
+EDD: 27/06/2026
+EGA: 28 weeks + 3 days
+
+PRESENTING COMPLAINTS
+Joint pains × 1 month
+Facial rash × 3 weeks
+Swelling of both legs × 2 weeks
+Reduced fetal movements × 2 days
+
+HISTORY OF PRESENTING COMPLAINT
+Patient is a known case of SLE diagnosed approximately 2 years prior to presentation, previously stable on hydroxychloroquine 200 mg daily and low-dose prednisolone 5 mg daily. She defaulted both medications early in this pregnancy due to fear of harm to the fetus — a decision that is the likely precipitant of this flare.
+
+She was in her usual state of health until about 1 month prior to presentation when she developed joint pains involving both wrists, fingers (MCP and PIP joints), and knees. The pain is bilateral and symmetrical, dull aching in nature, severity approximately 5–6/10, associated with morning stiffness lasting approximately 30 minutes, and partially relieved by movement.
+
+About 3 weeks prior to presentation, she noticed a facial rash over the cheeks and nasal bridge. The rash is non-pruritic, worsens with sun exposure, and spares the nasolabial folds. This was associated with photosensitivity, recurrent painless oral ulcers, and progressive diffuse hair loss.
+
+Approximately 2 weeks prior to presentation, she developed bilateral leg swelling starting from the ankles and progressing to involve the legs up to the knees, worse in the evenings and partially reducing with rest. She also noticed passage of frothy urine and mild reduction in urine output.
+
+Two days prior to presentation, she observed reduced fetal movements compared to her usual pattern, which prompted this presentation.
+
+There is associated generalised weakness and occasional low-grade fever. No history of seizures, visual disturbances, or severe headache to suggest severe preeclampsia. No vaginal bleeding or leakage of fluid. No prior history of thrombotic events.
+
+GYNAECOLOGICAL HISTORY
+
+Menstrual History:
+Menarche at 14 years
+Regular 28-day cycle
+Flow lasts 4–5 days
+No dysmenorrhoea, dyspareunia, or intermenstrual bleeding
+
+Contraceptive History:
+Not documented
+
+Cervical Cancer Screening:
+Not documented
+
+OBSTETRIC HISTORY
+G2P1+0
+Previous pregnancy 2021: term spontaneous vaginal delivery of a live infant; pregnancy, labour, and puerperium uneventful; child alive and well
+No history of miscarriage, stillbirth, or prior pregnancy complications
+
+PAST MEDICAL HISTORY
+SLE diagnosed 2 years ago
+No prior lupus nephritis
+No pre-pregnancy hypertension
+
+DRUG HISTORY
+Previously on hydroxychloroquine 200 mg daily and prednisolone 5 mg daily
+Defaulted both medications early in pregnancy due to misconception regarding fetal safety
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No family history of autoimmune disease
+
+Social History:
+Trader, married in a monogamous setting
+No cigarette smoking, no alcohol use, no herbal medications
+
+REVIEW OF SYSTEMS
+Renal: Frothy urine, reduced urine output
+Musculoskeletal: Bilateral symmetrical polyarthritis
+Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
+Obstetric: Reduced fetal movements
+Constitutional: Low-grade fever, generalised weakness
+
+OBSTETRIC SUMMARY
+A 30-year-old G2P1+0 known SLE patient at 28 weeks + 3 days gestation presenting with disease flare (joint pains, malar rash, oral ulcers, alopecia) on a background of medication non-adherence, complicated by hypertension, proteinuria, oedema, and reduced fetal movements — a presentation simultaneously consistent with SLE nephritis and preeclampsia, requiring urgent multidisciplinary evaluation and management.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young pregnant woman, conscious, alert, not in obvious distress
+Not pale, not icteric
+Afebrile (36.7°C)
+Well hydrated
+Malar rash over cheeks and nasal bridge, sparing nasolabial folds
+Patchy alopecia
+Bilateral pitting pedal oedema up to knees
+
+Vital Signs:
+Pulse rate: 96 bpm (normal for pregnancy)
+Blood pressure: 150/95 mmHg (significant hypertension in pregnancy)
+Respiratory rate: 20 cpm (normal)
+Temperature: 36.7°C (afebrile)
+SpO₂: 98% on room air
+
+Obstetric Examination:
+Abdomen gravidly enlarged, moves with respiration
+Symphysiofundal height: corresponds to 28 weeks gestation (appropriate for gestational age)
+Uterine tenderness: absent (excludes abruption)
+Fetal heart rate: 150 bpm, regular (normal range 110–160 bpm)
+Fetal movements: subjectively reduced (requires formal CTG assessment)
+Presenting part: not documented — should be assessed
+
+Musculoskeletal Examination:
+Tenderness over MCP and PIP joints bilaterally
+No joint deformities
+
+Cardiovascular System:
+Pulse regular, good volume
+Heart sounds S1 and S2 only, no murmurs, no pericardial rub
+
+Respiratory System:
+Chest clinically clear
+Vesicular breath sounds bilaterally, no added sounds
+
+Central Nervous System:
+Conscious and alert
+Oriented in time, place, and person
+No focal neurological deficits
+
+Anthropometry:
+Weight: 68 kg (may include fluid component from oedema)
+Height: 1.64 m
+BMI: 25.3 kg/m²
+
+ASSESSMENT
+
+A 30-year-old G2P1+0 at 28 weeks + 3 days gestation with SLE flare in pregnancy, with features suggestive of possible lupus nephritis, hypertension in pregnancy, and reduced fetal movements
+
+The central clinical challenge:
+This presentation raises three simultaneous urgent problems:
+
+SLE disease flare secondary to medication non-adherence:
+Recurrence of malar rash, polyarthritis, oral ulcers, and alopecia following discontinuation of hydroxychloroquine and prednisolone
+Medication non-adherence is the single most common and preventable trigger of SLE flares in pregnancy
+
+Hypertension with proteinuria and oedema — requires urgent differentiation between lupus nephritis and preeclampsia:
+Both conditions present identically at the bedside: hypertension, proteinuria, oedema
+Both are potentially life-threatening if managed incorrectly
+The treatment of preeclampsia is delivery — the treatment of lupus nephritis is immunosuppression — these are not interchangeable
+
+Reduced fetal movements:
+Demands immediate formal fetal assessment
+Associated with placental insufficiency, IUGR, fetal hypoxia, congenital heart block (if Anti-Ro positive), or uteroplacental thrombosis from antiphospholipid syndrome
+At 28 weeks gestation, any identified fetal compromise may necessitate emergency delivery
+
+Why distinguishing lupus nephritis from preeclampsia matters:
+Treating preeclampsia as lupus nephritis (escalating immunosuppression without delivering) allows placental disease to progress — eclampsia, stroke, and fetal death may follow
+Treating lupus nephritis as preeclampsia (delivering at 28 weeks) exposes a premature neonate to significant morbidity from RDS, IVH, NEC, and infection without treating the underlying maternal disease
+Both conditions can coexist — SLE patients have a 3–4 times higher risk of preeclampsia than the general population; antiphospholipid syndrome compounds this risk
+
+Clinical differentiation — lupus nephritis vs preeclampsia:
+
+Complement levels (C3, C4):
+Reduced in active SLE nephritis (immune complex consumption)
+Normal or elevated in preeclampsia (acute phase reaction)
+Most immediately useful differentiating immunological parameter
+
+Anti-dsDNA:
+Elevated in active SLE (particularly with nephritis)
+Not elevated by preeclampsia
+Confirms SLE activity but results take days
+
+Urinalysis and microscopy:
+Red cell casts: pathognomonic of glomerulonephritis — confirms lupus nephritis; not seen in preeclampsia
+Bland sediment (proteinuria only, no casts): consistent with preeclampsia
+The most immediately available and clinically discriminating bedside test
+
+Serum uric acid:
+Elevated early in preeclampsia (impaired renal urate clearance)
+Normal or mildly elevated in lupus nephritis
+Useful practical discriminating test
+
+Liver function tests (LFTs):
+Elevated AST and ALT with low platelets and haemolysis = HELLP syndrome (preeclampsia spectrum)
+Usually normal in lupus nephritis (unless concurrent lupus hepatitis)
+
+Full blood count:
+Leucopenia with lymphopenia: favours SLE
+Leucocytosis: favours infection
+Thrombocytopaenia occurs in both — not discriminating alone
+
+SLE-specific clinical features:
+Malar rash, oral ulcers, alopecia, photosensitivity, polyarthritis: specific to SLE — not caused by preeclampsia
+Their presence strongly supports SLE disease activity as a contributing diagnosis
+
+Antiphospholipid syndrome as a third concurrent diagnosis:
+No prior thrombotic events; previous uncomplicated term delivery — primary APS criteria not met
+However: APS can manifest first in pregnancy with placental thrombosis causing IUGR, reduced fetal movements, and preeclampsia-like picture
+Antiphospholipid antibody panel is mandatory — results determine anticoagulation need
+Low-dose aspirin should have been started from 12–16 weeks in this patient — can be started now
+
+Anti-Ro/SSA antibodies — neonatal lupus risk:
+If positive: risk of neonatal lupus rash (transient) and congenital heart block (CHB — 2–3% of Anti-Ro positive pregnancies)
+CHB causes fetal bradycardia and can cause hydrops and intrauterine death
+Fetal echocardiography is required if Anti-Ro status is positive or unknown
+Inform neonatology team before delivery
+
+Differential diagnoses:
+
+Preeclampsia:
+Most important differential — presents identically with hypertension, proteinuria, oedema after 20 weeks
+Urinalysis (bland sediment), elevated uric acid, elevated LFTs, normal complement — favour preeclampsia
+May coexist with SLE nephritis in the same patient
+
+Chronic kidney disease:
+Pre-existing renal impairment from earlier undiagnosed lupus nephritis or other cause
+No prior documented renal disease in this patient
+Baseline renal function before pregnancy not available — creatinine trend during admission will help
+
+Antiphospholipid syndrome with obstetric manifestations:
+Placental insufficiency, IUGR, and preeclampsia-like picture from placental thrombosis
+Must be excluded by antiphospholipid antibody panel
+Changes management significantly (anticoagulation with LMWH)
+
+Gestational hypertension:
+New hypertension after 20 weeks without proteinuria
+Less likely here given frothy urine suggesting proteinuria
+
+PLAN
+
+Admit immediately to the high-risk obstetric unit. Multidisciplinary team management: senior obstetrician, rheumatologist or physician, and neonatologist involved from admission.
+
+Immediate Fetal Assessment (First Priority)
+
+Cardiotocography (CTG) — non-stress test:
+Perform immediately on admission (reduced fetal movements demand immediate formal fetal assessment)
+Reassuring CTG: baseline 110–160 bpm, variability 5–25 bpm, accelerations present, no pathological decelerations
+Non-reassuring or pathological CTG: alert senior obstetrician immediately — prepare for emergency assessment and possible delivery
+Practical note: CTG is available at all tertiary hospitals and most secondary hospitals in Nigeria
+
+Biophysical profile (BPP):
+Five components (fetal breathing, movements, tone, reactive NST, amniotic fluid) scored 0 or 2 each
+Score 8–10: reassuring; score 6: repeat in 6 hours; score 4 or less: significant fetal compromise — prepare for delivery
+Practical note: requires ultrasound; available at most teaching hospitals
+
+Obstetric ultrasound:
+Fetal biometry: estimated fetal weight (expected approximately 1.0–1.1 kg at 28 weeks); document any IUGR (EFW below 10th centile)
+Amniotic fluid index (AFI): oligohydramnios (AFI less than 5 cm) suggests placental insufficiency
+Placental site and appearance
+Doppler studies:
+Umbilical artery Doppler: the most important vascular assessment in this context
+Normal = positive end-diastolic flow
+Absent end-diastolic flow (AEDF): significant placental compromise — escalate delivery planning
+Reversed end-diastolic flow (REDF): fetal emergency — deliver immediately
+Middle cerebral artery (MCA) Doppler: MCA pulsatility index below 5th centile (brain sparing) indicates fetal hypoxaemia
+Uterine artery Doppler: bilateral notching and high resistance suggest impaired placentation (preeclampsia, APS)
+Practical note: Doppler studies are available at most teaching hospitals; where specialist equipment is unavailable, prioritise CTG and BPP
+
+Fetal echocardiography:
+Indicated if Anti-Ro/SSA status is positive or unknown — screen for congenital heart block (complete AV block causes fetal bradycardia less than 60 bpm)
+Practical note: available at tertiary teaching hospital obstetric units and selected private facilities; arrange urgently once Anti-Ro result is known
+
+Antenatal corticosteroids for fetal lung maturity (give immediately — do not delay):
+At 28 weeks gestation the fetal lungs are immature — surfactant deficiency causes respiratory distress syndrome (RDS) at delivery
+IM Betamethasone 12 mg every 24 hours for 2 doses (48-hour course): gold standard
+OR IM Dexamethasone 6 mg every 12 hours for 4 doses (48-hour course): widely used in Nigeria — practical and affordable alternative where Betamethasone is unavailable
+Administer immediately on admission regardless of delivery timeline — if delivery becomes necessary within the next 7 days, the baby will benefit; if delivery does not occur, the benefit is established
+Practical note: Dexamethasone is available at most Nigerian tertiary and secondary facilities; Betamethasone is available at most teaching hospitals
+
+Investigations
+
+Investigations to be sent immediately on admission, simultaneously with clinical assessment:
+
+Haematological:
+
+Full blood count with differential:
+Haemoglobin (anaemia of chronic disease from SLE; anaemia of pregnancy)
+Platelet count: thrombocytopaenia in SLE (immune thrombocytopaenia) vs HELLP (microangiopathic)
+WBC differential: leucopenia with lymphopenia favours SLE flare; leucocytosis suggests infection
+Peripheral blood film: schistocytes (fragmented red cells) in HELLP — pathognomonic of microangiopathic haemolytic anaemia; absent in lupus nephritis
+Practical note: widely available at all Nigerian facilities
+
+Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer):
+DIC screen — can complicate both severe SLE and severe preeclampsia/HELLP
+Mandatory before any regional anaesthesia for delivery
+Practical note: available at most tertiary hospitals
+
+Renal investigations:
+
+Urinalysis with microscopy (most immediately discriminating test — do first):
+Dipstick: protein (1+ to 4+), blood, leucocytes, nitrites
+Microscopy: red cell casts (pathognomonic of glomerulonephritis — confirms lupus nephritis); granular casts, oval fat bodies (nephrotic component); pyuria (concurrent UTI — must treat if present)
+Bland protein only with no casts: consistent with preeclampsia
+Practical note: widely available — immediate result
+
+Urine protein:creatinine ratio (UPCR) on morning spot specimen:
+Nephrotic range (UPCR greater than 3.5 mg/mg) suggests lupus nephritis rather than preeclampsia (preeclampsia rarely causes nephrotic range proteinuria acutely)
+Practical note: available at most teaching hospitals; preferred over 24-hour urine collection in pregnancy (collection errors common)
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function; elevated creatinine in SLE nephritis or preeclampsia-related AKI
+Serial creatinine guides severity and response to treatment
+Practical note: widely available
+
+Serum albumin:
+Reduced in lupus nephritis from urinary protein loss
+May be mildly reduced in preeclampsia from haemodilution
+Marked hypoalbuminaemia (less than 25 g/L) favours lupus nephritis
+Practical note: available at most teaching hospitals
+
+Liver function tests (urgent):
+ALT, AST, LDH: elevated in HELLP syndrome (preeclampsia spectrum)
+Markedly elevated LFTs + thrombocytopaenia + haemolysis (schistocytes, elevated LDH) = HELLP syndrome — not lupus nephritis
+Practical note: available at most teaching hospitals
+
+Serum uric acid:
+Elevated early in preeclampsia
+Normal in lupus nephritis
+Practical note: available at most teaching hospitals; useful immediate discriminating test
+
+Immunological investigations:
+
+Anti-dsDNA:
+Elevated in active SLE; not elevated by preeclampsia
+Results in 5–14 days — cannot guide immediate management but essential for follow-up
+Practical note: available at major Nigerian teaching hospitals
+
+Complement C3 and C4:
+Reduced in active SLE nephritis (immune complex consumption)
+Normal or elevated in preeclampsia
+Results in 3–5 days — most useful of the immunological tests for practical decision-making
+Practical note: available at most teaching hospitals
+
+ANA:
+Confirms SLE diagnosis if any doubt; available at major teaching hospitals
+
+Anti-Ro/SSA and Anti-La/SSB:
+Essential for neonatal lupus risk stratification and congenital heart block surveillance
+Results guide fetal echocardiography and neonatology team preparation
+Practical note: available at major teaching hospitals; results in 5–14 days
+
+Antiphospholipid antibody panel (lupus anticoagulant, anticardiolipin IgG/IgM, anti-beta-2-glycoprotein-I):
+Mandatory — APS causes placental thrombosis and is an independent cause of IUGR, reduced fetal movements, and preeclampsia-like presentation
+If positive: LMWH anticoagulation is added to management
+Start prophylactic LMWH empirically while awaiting results given clinical risk
+Practical note: available at major teaching hospitals; results in 7–14 days
+
+Chest X-ray (with fetal shielding):
+Assess for pulmonary oedema, pleural effusions, or lupus pneumonitis
+Baseline cardiorespiratory assessment
+Screen for active pulmonary tuberculosis before immunosuppression escalation
+Radiation dose to fetus from chest X-ray is negligible — safe in pregnancy
+
+Pharmacological Management
+
+Critical principle: several SLE medications are teratogenic. Using the wrong drug in pregnancy causes fetal malformation, pregnancy loss, or neonatal harm. Using no medication causes the maternal flare to continue uncontrolled with equally severe consequences. The correct approach is to use pregnancy-compatible SLE medications immediately.
+
+The most important immediate intervention is to correct the patient's misconception that SLE medications harm the fetus — and to restart her medications today.
+
+Drugs SAFE in pregnancy — restart immediately:
+
+Hydroxychloroquine (HCQ) 200 mg twice daily:
+Safe throughout all trimesters — this is unambiguous and well-established
+Stopping HCQ in pregnancy increases SLE flare risk by 2–3 fold — this flare is a direct consequence of stopping HCQ
+HCQ improves fetal outcomes (reduces fetal loss, preterm birth, IUGR, and neonatal lupus severity)
+In Anti-Ro positive patients: HCQ specifically reduces the risk of congenital heart block
+HCQ is safe in breastfeeding
+Restart immediately
+Practical note: available at major teaching hospitals and specialist pharmacies; ensure consistent supply is arranged before discharge
+
+Prednisolone (not dexamethasone or betamethasone for immunosuppression):
+Safe at maintenance and treatment doses — prednisolone is preferentially metabolised by the placenta (95% inactivated before reaching the fetus)
+Dexamethasone and betamethasone cross the placenta — reserved specifically for fetal lung maturity (as above), not for maternal immunosuppression
+Resume prednisolone at minimum 10 mg/day immediately (previous maintenance dose was 5 mg/day — increase given active flare)
+If lupus nephritis is confirmed: increase to 0.5–1 mg/kg/day (30–60 mg/day) under rheumatology guidance
+IV methylprednisolone pulse (500–1000 mg daily for 3 consecutive days): safe in pregnancy for life-threatening or severe organ-threatening SLE flare (severe nephritis, neuropsychiatric SLE, severe haemolytic anaemia) — use if clinical severity warrants
+Practical note: prednisolone is widely available and inexpensive in Nigeria
+
+Azathioprine 1.5–2 mg/kg/day orally:
+Safe in pregnancy — the fetal liver lacks the enzyme to convert azathioprine to its active toxic metabolite; the fetus is substantially protected
+The preferred additional immunosuppressant for moderate-to-severe SLE in pregnancy requiring steroid-sparing therapy
+Indicated if lupus nephritis is confirmed and additional immunosuppression beyond prednisolone alone is required
+Practical note: available at most teaching hospitals; relatively inexpensive; generic formulations accessible
+
+Low-dose aspirin 75 mg orally once daily:
+Safe from the second trimester onwards
+Should have been started from 12–16 weeks (SLE with hypertension risk = high preeclampsia risk)
+Start now — reduces (but does not eliminate) the risk of preeclampsia progression
+If antiphospholipid antibodies are positive: aspirin is mandatory in combination with LMWH
+Practical note: widely available and inexpensive
+
+Low molecular weight heparin — LMWH (Enoxaparin):
+Safe in pregnancy — does not cross the placenta
+Prophylactic dose: Enoxaparin 40 mg SC daily
+Indications in this patient: nephrotic-range proteinuria with hypoalbuminaemia (very high thrombosis risk), suspected antiphospholipid syndrome (pending results), hospitalisation-related immobility
+Start prophylactic LMWH now; increase to therapeutic dose (Enoxaparin 1 mg/kg SC twice daily) if antiphospholipid antibodies are confirmed positive or if thrombosis is diagnosed
+Withhold for 12–24 hours before delivery (regional anaesthesia safety)
+Resume 12 hours postpartum (24 hours post-caesarean section)
+Continue for at least 6 weeks postpartum (SLE + puerperium = very high VTE risk)
+Practical note: Enoxaparin is available at most Nigerian teaching hospitals; moderately expensive — discuss affordability and NHIS coverage
+
+Drugs CONTRAINDICATED in pregnancy — do not use:
+
+Mycophenolate mofetil (MMF): causes spontaneous abortion, external ear abnormalities, cleft palate, limb and cardiac defects; absolutely contraindicated throughout pregnancy; must be stopped at least 6 weeks before conception and switched to azathioprine
+Methotrexate: potent abortifacient and teratogen (fetal anomalies, embryopathy); contraindicated in pregnancy; must be stopped 3 months before conception
+Cyclophosphamide: highly teratogenic in the first and second trimesters; avoid; may be used in the third trimester only for life-threatening maternal disease unresponsive to all safer alternatives — even then, try prednisolone + azathioprine first
+ACE inhibitors and ARBs: contraindicated in the second and third trimesters — cause bilateral renal agenesis, oligohydramnios, and pulmonary hypoplasia
+Warfarin: teratogenic in the first trimester (warfarin embryopathy); risk of intracranial fetal haemorrhage in the third trimester; use LMWH throughout pregnancy; warfarin can be restarted postpartum
+NSAIDs: avoid from 20 weeks onwards — cause premature closure of the ductus arteriosus and fetal renal impairment (oligohydramnios); paracetamol is the safe analgesic alternative in pregnancy
+
+Blood Pressure Control
+
+BP 150/95 mmHg at 28 weeks in a previously normotensive woman is clinically significant and requires treatment
+Target BP in pregnancy: systolic 130–150 mmHg, diastolic 80–100 mmHg — do not lower below 130/80 mmHg (impairs uteroplacental perfusion)
+Antihypertensive agents safe in pregnancy:
+
+First-line — Labetalol:
+Oral Labetalol 100–200 mg twice to three times daily, titrate to response (maximum 800 mg/day)
+IV Labetalol 20–80 mg IV boluses for acute severe hypertension (systolic greater than or equal to 160 mmHg or diastolic greater than or equal to 110 mmHg): 20 mg IV over 2 minutes, repeat 40 mg after 10 minutes, then 80 mg every 10 minutes to a maximum 300 mg cumulative dose
+Practical note: oral Labetalol is available at most teaching hospitals; IV Labetalol at tertiary centres — may not be stocked at all secondary facilities
+
+Second-line — Nifedipine:
+Oral Nifedipine retard 10–20 mg twice daily (slow-release — safe in pregnancy)
+For acute severe hypertension: oral Nifedipine immediate release 10 mg (bite and swallow — never sublingual; sublingual nifedipine causes precipitous BP drop and fetal distress)
+Widely available and inexpensive in Nigeria — the most practical first-line option at secondary and primary facilities
+
+Third-line — Methyldopa:
+Oral Methyldopa 250–500 mg three times daily (maximum 2 g/day)
+Longest safety record in pregnancy; slower onset than Labetalol and Nifedipine
+Useful as an add-on for chronic BP control
+Practical note: widely available and inexpensive in Nigeria
+
+Antihypertensives to AVOID in pregnancy: ACE inhibitors, ARBs, Atenolol (causes IUGR), sublingual Nifedipine
+
+Magnesium Sulphate (Seizure Prophylaxis):
+Indicated when BP reaches severe range (systolic greater than or equal to 160 mmHg or diastolic greater than or equal to 110 mmHg) or when features of severe preeclampsia develop
+This patient: BP 150/95 mmHg — below severe threshold currently; maintain close surveillance and initiate magnesium sulphate promptly if BP escalates or new neurological symptoms develop
+
+Zuspan regimen (standard in Nigeria):
+Loading dose: IV Magnesium sulphate 4 g (16 ml of 25% solution in 100 ml Normal Saline) over 15–20 minutes
+Maintenance: 1–2 g/hour IV infusion
+Monitor: respiratory rate (must be greater than 12 cpm), patellar reflexes (loss = impending toxicity), urine output (must be greater than 25 ml/hr)
+Antidote: IV Calcium gluconate 10 ml of 10% solution — keep at bedside throughout
+Continue for 24 hours after delivery or 24 hours after the last seizure
+Practical note: Magnesium sulphate is widely available at all Nigerian facilities and is affordable; the Zuspan regimen is standard of care
+
+Fetal Monitoring Plan
+
+Daily fetal movement chart (Cardiff kick count method):
+Count from 9 am — 10 movements by midday is reassuring; if not reached, attend for CTG assessment
+Simple, inexpensive, and practicable anywhere in Nigeria
+
+CTG (non-stress test):
+Twice daily minimum during admission given reduced fetal movements on presentation
+Daily thereafter if reassuring
+Document baseline, variability, accelerations, and decelerations at each recording
+Alert obstetric team for any category II or III pattern
+
+Serial obstetric ultrasound and Doppler:
+Fetal growth biometry: every 2 weeks
+Umbilical artery Doppler: weekly — most important vascular surveillance tool
+MCA Doppler: if IUGR confirmed (brain-sparing physiology)
+AFI: at each scan
+Practical note: at minimum, 2-weekly growth scans with Doppler; daily CTG substitutes for Doppler surveillance between scans where Doppler is unavailable
+
+Delivery Planning
+
+Aim to continue the pregnancy to term (37 weeks) if maternal disease is adequately controlled and fetal surveillance is reassuring
+
+Maternal indications for preterm delivery at or before 28 weeks:
+Severe preeclampsia or HELLP syndrome unresponsive to antihypertensives
+Eclampsia (seizures)
+Life-threatening SLE flare unresponsive to treatment (severe nephritis with rapidly deteriorating renal function, neuropsychiatric SLE, severe haematological crisis)
+
+Fetal indications for delivery:
+Reversed end-diastolic flow on umbilical artery Doppler
+Category III CTG (sinusoidal pattern, absent variability, prolonged bradycardia)
+BPP score 4 or less
+IUGR with progressive deteriorating Doppler waveforms
+Fetal hydrops
+
+At 28 weeks: the decision to deliver must balance the risk of significant prematurity (RDS, IVH, NEC, sepsis, retinopathy) against the risk of continuing pregnancy (maternal organ damage, placental failure, fetal hypoxia). This decision requires senior obstetrician judgement with full MDT input.
+
+Neonatology team must be present at delivery for a 28-week neonate.
+
+Route of delivery:
+Vaginal delivery preferred if cervical conditions are favourable and no acute fetal compromise
+Emergency caesarean section: indicated for acute fetal compromise, failed induction, or maternal indications
+Regional anaesthesia preferred over general anaesthesia — withhold LMWH for 12–24 hours before regional anaesthesia
+
+Postpartum:
+SLE flares are particularly common in the early postpartum period (immune reconstitution)
+Resume full pre-pregnancy immunosuppressive regimen postpartum
+HCQ and prednisolone are safe in breastfeeding; MMF and cyclophosphamide are contraindicated in breastfeeding
+Restart LMWH within 12–24 hours of delivery and continue for at least 6 weeks postpartum
+
+Multidisciplinary Team Management
+
+Senior obstetrician: overall pregnancy, delivery, and BP management
+Rheumatologist or physician: SLE disease activity assessment and immunosuppression decisions
+Nephrologist: if lupus nephritis is confirmed — renal biopsy is generally deferred to the postpartum period (increased bleeding risk during pregnancy) unless the diagnosis is genuinely uncertain and management depends entirely on histology
+Neonatologist: preparation for 28-week delivery; management of neonatal lupus, CHB, and prematurity complications
+Anaesthetist: anaesthetic planning for potential delivery
+MDT meeting: daily during this admission
+
+Supportive Care
+
+Analgesia:
+Paracetamol 500–1000 mg orally every 6–8 hours (safe in all trimesters)
+Avoid NSAIDs from 20 weeks onwards (premature ductal closure and fetal renal impairment)
+Avoid opioids unless pain is severe and unresponsive to paracetamol (monitor fetal wellbeing closely)
+
+Temperature management:
+Paracetamol as above for low-grade fever
+Tepid sponging as adjunct
+Investigate any temperature above 38°C — infection must be excluded before escalating immunosuppression (same principle as med-06)
+
+Thromboprophylaxis:
+LMWH as above; TED stockings during admission; early mobilisation when haemodynamically stable
+
+Nutritional support:
+Adequate dietary protein (do not restrict — worsens hypoalbuminaemia from nephrotic losses)
+Low sodium diet (less than 2 g/day): reduces hypertension and oedema
+High-calorie diet for fetal growth
+Iron and folate supplementation (routine in pregnancy)
+
+Gastroprotection:
+Omeprazole 20 mg daily if on prednisolone
+
+Calcium and Vitamin D supplementation:
+Calcium carbonate 1000 mg + Cholecalciferol 800 IU daily
+Prevents steroid-related osteoporosis and supports fetal bone mineralisation
+
+Counselling
+
+The most critical counselling task — correcting the medication misconception:
+This is the most important single intervention at this admission
+The patient's decision to stop HCQ and prednisolone in early pregnancy directly caused this flare and placed both her and her baby at risk
+HCQ is safe in pregnancy — this has been established clearly by multiple studies over more than 30 years; it is not only safe but beneficial to the baby
+Prednisolone at maintenance doses (5–10 mg/day) is safe in pregnancy — it is preferentially metabolised by the placenta before reaching the fetus
+The risk of stopping SLE medications in pregnancy (severe flare, lupus nephritis, preterm delivery, fetal loss) is far greater than any risk from taking them
+She should never stop SLE medications in a future pregnancy without explicit instruction from her medical team to do so — stopping without advice may be life-threatening to both mother and baby
+
+Explanation of the diagnostic situation:
+She has three interrelated problems at this admission: a lupus flare, high blood pressure with protein in the urine (which could be from either kidney disease from SLE or a pregnancy complication called preeclampsia), and reduced baby movements
+Tests are being done urgently to find out which is responsible — the treatment depends on the answer
+In the meantime, both conditions are being managed appropriately and the baby is being monitored closely
+
+The baby at 28 weeks:
+At 28 weeks, the baby can survive outside the womb with intensive neonatal care, but prematurity carries significant risks — breathing problems, brain bleeds, bowel complications, infections
+The team's goal is to keep the baby in the womb as long as it is safe for both mother and baby
+Steroid injections are being given now to help the baby's lungs mature faster if early delivery becomes necessary
+The baby is being checked closely with heart rate monitoring and scans
+
+Future pregnancy planning:
+For any future pregnancy, SLE must be in remission for at least 6 months before conception
+HCQ and prednisolone should be continued throughout the planning period and pregnancy — do not stop
+Medications such as MMF (if ever prescribed in future) must be switched to azathioprine at least 6 weeks before pregnancy
+All future pregnancies must be managed jointly by obstetrics and rheumatology from the first trimester
+Low-dose aspirin 75 mg daily should be started from 12–16 weeks in future pregnancies (reduces preeclampsia risk in SLE)
+Antiphospholipid antibody status should be established before future pregnancies — if positive, aspirin and LMWH should be started from early pregnancy
+
+PROGNOSIS
+
+Maternal prognosis:
+With immediate resumption of SLE medications and appropriate BP control: good chance of maternal disease control and pregnancy continuation to a safer gestational age
+Preeclampsia risk remains — requires close BP surveillance and low threshold for delivery if severe features emerge
+Risk of lupus nephritis progressing to chronic kidney disease if not treated promptly — early immunosuppression and BP control improve the renal prognosis
+
+Fetal prognosis:
+Survival rate at 28 weeks in a well-resourced NICU: approximately 90%
+In Nigerian tertiary NICUs: survival is improving but significant prematurity morbidity remains
+Antenatal corticosteroids substantially reduce RDS mortality and morbidity — the most important immediate intervention for the baby
+Reassuring CTG and normal Doppler at this stage: immediate delivery may be avoidable; aim to extend gestation to at least 32–34 weeks with intensive monitoring
+Neonatal lupus (if Anti-Ro positive): rash is transient; congenital heart block is the most serious risk — requires cardiac pacing if complete
+
+Factors determining outcome:
+Speed of restarting HCQ and prednisolone
+Adequacy of BP control
+Correct identification of whether preeclampsia, lupus nephritis, or both are contributing
+Antiphospholipid antibody status
+Anti-Ro status and congenital heart block risk
+Gestational age at delivery
+Availability and quality of NICU care
+
+FOLLOW-UP
+Daily MDT review during admission. CTG twice daily. Weekly Doppler studies. Fetal growth scan every 2 weeks. Review immunological results (anti-dsDNA, complement, antiphospholipid panel, Anti-Ro) as they return and adjust management accordingly. Ophthalmology review within 2 weeks (hypertensive retinopathy + HCQ baseline). Post-delivery: rheumatology review within 6 weeks — resume full pre-pregnancy SLE regimen; restart any deferred medications if not breastfeeding. Neonatal follow-up for Anti-Ro positive neonates: ECG and rash surveillance. Pre-conception counselling at postnatal review for future pregnancy: confirm 6-month remission target, medication optimisation, antiphospholipid antibody screening, and aspirin plan.
   `,
   bookmarkCount: 0
 },

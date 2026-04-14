@@ -5180,9 +5180,6 @@ No bleeding from any orifice
 No jaundice noticed by the mother
 No skin rash
 
-NEONATAL SUMMARY
-A 3-day-old term male neonate with a significant obstetric risk factor of prolonged rupture of membranes, presenting with fever, poor feeding, lethargy, tachypnoea, and hypoxaemia, with examination findings consistent with early onset neonatal sepsis complicated by pneumonia.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -17142,9 +17139,6 @@ Respiratory: Breathlessness occurring during spasms
 Gastrointestinal: Dysphagia present; no nausea or vomiting independent of swallowing difficulty
 Genitourinary: No urinary symptoms
 
-SUMMARY
-A 42-year-old poorly immunised male farmer presenting with generalised tetanus following an infected contaminated wound from a rusty cutlass, characterised by trismus, risus sardonicus, opisthotonus, generalised hypertonia, stimulus-triggered spasms, autonomic dysfunction, and early respiratory involvement, consistent with severe (Ablett Grade III) generalised tetanus.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -17914,9 +17908,6 @@ Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
 Cardiorespiratory: Pleuritic chest pain
 Neurological: No deficits, no seizures, no psychosis
 
-SUMMARY
-A 28-year-old woman presenting with a multisystem illness characterised by constitutional symptoms, symmetrical inflammatory polyarthritis, malar rash, photosensitivity, alopecia, oral ulcers, pleuritic chest pain, and features of nephrotic syndrome (frothy urine, peripheral oedema, hypertension, oliguria), consistent with systemic lupus erythematosus with lupus nephritis and multiorgan involvement.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -18595,9 +18586,6 @@ Musculoskeletal: Symmetrical polyarthritis
 Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
 Renal: No overt symptoms at this time
 Cardiorespiratory: No chest pain or dyspnoea
-
-SUMMARY
-A 24-year-old woman with a preceding background of multisystem features consistent with SLE (arthritis, malar rash, photosensitivity, alopecia, oral ulcers) now presenting acutely with headache, behavioural change, and seizures, consistent with neuropsychiatric SLE with acute confusional state, lupus cerebritis, and seizure disorder requiring urgent multidisciplinary evaluation and treatment.
 
 PHYSICAL EXAMINATION
 
@@ -19338,9 +19326,6 @@ Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
 Cardiorespiratory: Bibasal crepitations (fluid overload), no chest pain
 Neurological: No neuropsychiatric symptoms
 
-SUMMARY
-A 22-year-old woman with a 5-month background of multisystem features consistent with SLE (arthritis, malar rash, photosensitivity, alopecia, oral ulcers) now presenting with advanced lupus nephritis complicated by full nephrotic syndrome, anasarca, oliguria, hypertension, and fluid overload, requiring urgent nephrology and rheumatology management.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -20071,9 +20056,6 @@ Neuropsychiatric: No symptoms
 Cardiorespiratory: No symptoms
 Constitutional: Easy fatigability, no fever, no weight loss
 
-SUMMARY
-A 19-year-old woman presenting with a 3-month history of mild symmetrical inflammatory polyarthritis and 2-month history of malar rash with photosensitivity, alopecia, and oral ulcers, with no evidence of major organ involvement at this time, consistent with mild systemic lupus erythematosus suitable for outpatient management with close surveillance.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -20722,9 +20704,6 @@ Musculoskeletal: Bilateral symmetrical polyarthritis
 Dermatological: Malar rash, photosensitivity, alopecia
 Respiratory: Mild dyspnoea, bibasal crepitations
 Gastrointestinal: Anorexia, nausea
-
-SUMMARY
-A 32-year-old known SLE patient, poorly compliant with medications, presenting with features simultaneously consistent with an SLE disease flare (joint pains, rash, oliguria, alopecia) and bacterial sepsis (high-grade fever with rigors, tachycardia, borderline hypotension, bibasal crepitations, suprapubic tenderness), creating the most dangerous diagnostic dilemma in SLE management — a situation where treating one condition aggressively without excluding the other can be fatal.
 
 PHYSICAL EXAMINATION
 
@@ -31001,8 +30980,6 @@ PAST OBSTETRIC HISTORY
 - Manual vacuum aspiration (MVA) performed
 - No post-procedure complications
 
-Summary: P1+1 (1 alive)
-
 GYNAECOLOGICAL HISTORY
 - Menarche at 14 years
 - Regular 28-day menstrual cycle
@@ -35946,9 +35923,6 @@ Membranes ruptured
 Liquor: Meconium-stained (thick)
 Pelvis clinically adequate
 
-OBSTETRIC SUMMARY
-A 31-year-old G2P1+0 woman at 39 weeks gestation in active labour presenting with reduced fetal movements and meconium-stained liquor. Examination reveals fetal tachycardia and ongoing labour.
-
 ASSESSMENT
 
 Fetal distress in active labour in a booked multiparous woman at term (39 weeks + 1 day gestation)
@@ -37638,9 +37612,6 @@ Presenting part cephalic at station -2 (2 cm above ischial spines)
 Membranes ruptured
 No significant caput or moulding
 Pelvis clinically adequate
-
-OBSTETRIC SUMMARY
-A 26-year-old G2P1+0 woman at 39 weeks + 4 days gestation in labour for 18 hours with slow progress. Findings show suboptimal uterine contractions and delayed cervical dilatation with a live fetus.
 
 ASSESSMENT
 
@@ -39503,9 +39474,6 @@ Married, sexually active
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 30-year-old P1+1 woman presenting with an 8-month history of chronic bilateral lower abdominal pain, yellowish vaginal discharge, and progressive dyspareunia, with a background of recurrent partially treated genital infections and no consistent barrier contraception use, consistent with chronic pelvic inflammatory disease.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -39866,9 +39834,6 @@ Married in a monogamous setting
 No alcohol or cigarette use
 No use of herbal medications
 History suggestive of early onset of sexual activity (inferred from grand multiparity and early menarche)
-
-GYNAECOLOGICAL SUMMARY
-A 52-year-old P5+0 postmenopausal woman presenting with a 3-month history of progressive vaginal bleeding, foul-smelling vaginal discharge, and lower abdominal pain, with associated constitutional symptoms, no prior cervical screening, and clinical findings highly suggestive of carcinoma of the cervix, likely locally advanced.
 
 PHYSICAL EXAMINATION
 
@@ -40348,9 +40313,6 @@ Single, sexually active
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 24-year-old nulliparous woman presenting on day 18 of her cycle with sudden onset severe right-sided lower abdominal pain that has generalised, associated dizziness, right adnexal tenderness, and clinical evidence of minimal free fluid in the peritoneal cavity, consistent with a ruptured ovarian cyst with haemoperitoneum. Ectopic pregnancy must be actively excluded.
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -40825,8 +40787,6 @@ Single, sexually active
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 26-year-old nulliparous woman presenting with sudden onset severe colicky left lower abdominal pain and bilious vomiting, with marked left adnexal tenderness and possible adnexal fullness on examination, in the context of an uncertain pregnancy status, consistent with a clinical diagnosis of left ovarian torsion pending urgent investigations and surgical confirmation.
 
 PHYSICAL EXAMINATION
 
@@ -41327,8 +41287,6 @@ Single, sexually active
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 22-year-old G2P1+0 woman at 10 weeks gestation presenting with progressive lower abdominal pain, high-grade fever, foul-smelling vaginal discharge, and vaginal bleeding with tissue passage following an attempted termination of pregnancy at a private facility, with clinical and haemodynamic features consistent with septic abortion complicated by retained products of conception and septic shock.
 
 PHYSICAL EXAMINATION
 
@@ -41877,8 +41835,6 @@ Married in a monogamous setting
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 38-year-old G3P3+0 woman presenting with acute heavy uterine bleeding with haemodynamic compromise on a background of one year of progressively worsening menorrhagia, requiring urgent stabilisation, pregnancy exclusion, identification of the underlying aetiology, and targeted management.
 
 PHYSICAL EXAMINATION
 
@@ -42454,8 +42410,6 @@ Married in a monogamous setting
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 42-year-old G3P3+0 woman presenting with a 1-year history of progressive lower abdominal swelling and 6-month history of heavy menstrual bleeding, dysmenorrhoea, and lower abdominal pain, with examination findings of a 14-week-sized irregular uterus, consistent with symptomatic uterine leiomyomata causing abnormal uterine bleeding and chronic anaemia.
 
 PHYSICAL EXAMINATION
 
@@ -43035,8 +42989,6 @@ Married in a monogamous setting
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 58-year-old G5P5+0 postmenopausal woman, 8 years since her last menstrual period, presenting with a 2-week history of recurrent vaginal bleeding with associated constitutional symptoms of weight loss and anorexia, in the context of known hypertension and no hormone replacement therapy use, with clinical features warranting urgent exclusion of endometrial carcinoma.
 
 PHYSICAL EXAMINATION
 
@@ -43611,8 +43563,6 @@ Married in a monogamous setting
 No alcohol or cigarette use
 No use of herbal medications
 
-GYNAECOLOGICAL SUMMARY
-A 60-year-old G6P6+0 postmenopausal woman with histologically confirmed endometrial carcinoma, presenting with progressive postmenopausal vaginal bleeding, lower abdominal pain, and constitutional symptoms, referred for complete staging and definitive multidisciplinary management.
 
 PHYSICAL EXAMINATION
 
@@ -44215,7 +44165,7 @@ Post-operative review at 4–6 weeks: assess wound healing, review final histopa
     'Low-grade fever and generalised weakness'
   ],
   contributor: 'Admin',
-  lastModified: '2026-04-07',
+  lastModified: '2026-04-13',
   summary: 'Mrs A.A., a 30-year-old G2P1+0 (1 alive) known SLE patient (diagnosed 2 years ago, previously stable on hydroxychloroquine and low-dose prednisolone) presenting at 28 weeks + 3 days gestation with a 1-month history of bilateral symmetrical polyarthritis, 3-week history of malar rash with photosensitivity, alopecia, and oral ulcers, 2-week history of bilateral pitting pedal oedema progressing from ankles to knees with frothy urine and mild oliguria, and 2-day history of reduced fetal movements. She defaulted both hydroxychloroquine and prednisolone early in pregnancy due to fear of fetal harm. No prior lupus nephritis. BP 150/95 mmHg. No headache, visual disturbance, or seizures. Fetal heart rate 150 bpm, fundal height corresponds to 28 weeks. Previous obstetric history: one term spontaneous vaginal delivery in 2021, uneventful. The central diagnostic challenge is distinguishing SLE nephritis from preeclampsia — both present with hypertension, proteinuria, and oedema and require diametrically different treatments. Requires immediate admission to a high-risk obstetric unit, urgent fetal assessment with CTG and Doppler, antenatal corticosteroids for fetal lung maturity, safe pregnancy-compatible immunosuppression, antihypertensive therapy, and multidisciplinary obstetric, rheumatology, and neonatology team management.',
   content: `
 Mrs A.A., a 30-year-old G2P1+0 (1 alive) trader, resident in Lafenwa, Abeokuta, Ogun State, Muslim, Yoruba, married in a monogamous setting.
@@ -44292,8 +44242,6 @@ Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
 Obstetric: Reduced fetal movements
 Constitutional: Low-grade fever, generalised weakness
 
-OBSTETRIC SUMMARY
-A 30-year-old G2P1+0 known SLE patient at 28 weeks + 3 days gestation presenting with disease flare (joint pains, malar rash, oral ulcers, alopecia) on a background of medication non-adherence, complicated by hypertension, proteinuria, oedema, and reduced fetal movements — a presentation simultaneously consistent with SLE nephritis and preeclampsia, requiring urgent multidisciplinary evaluation and management.
 
 PHYSICAL EXAMINATION
 

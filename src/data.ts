@@ -44206,10 +44206,10 @@ Flow lasts 4–5 days
 No dysmenorrhoea, dyspareunia, or intermenstrual bleeding
 
 Contraceptive History:
-Not documented
+None
 
 Cervical Cancer Screening:
-Not documented
+None
 
 OBSTETRIC HISTORY
 G2P1+0
@@ -44235,14 +44235,6 @@ Social History:
 Trader, married in a monogamous setting
 No cigarette smoking, no alcohol use, no herbal medications
 
-REVIEW OF SYSTEMS
-Renal: Frothy urine, reduced urine output
-Musculoskeletal: Bilateral symmetrical polyarthritis
-Dermatological: Malar rash, photosensitivity, alopecia, oral ulcers
-Obstetric: Reduced fetal movements
-Constitutional: Low-grade fever, generalised weakness
-
-
 PHYSICAL EXAMINATION
 
 General Examination:
@@ -44267,7 +44259,6 @@ Symphysiofundal height: corresponds to 28 weeks gestation (appropriate for gesta
 Uterine tenderness: absent (excludes abruption)
 Fetal heart rate: 150 bpm, regular (normal range 110–160 bpm)
 Fetal movements: subjectively reduced (requires formal CTG assessment)
-Presenting part: not documented — should be assessed
 
 Musculoskeletal Examination:
 Tenderness over MCP and PIP joints bilaterally
@@ -44744,6 +44735,534 @@ Availability and quality of NICU care
 
 FOLLOW-UP
 Daily MDT review during admission. CTG twice daily. Weekly Doppler studies. Fetal growth scan every 2 weeks. Review immunological results (anti-dsDNA, complement, antiphospholipid panel, Anti-Ro) as they return and adjust management accordingly. Ophthalmology review within 2 weeks (hypertensive retinopathy + HCQ baseline). Post-delivery: rheumatology review within 6 weeks — resume full pre-pregnancy SLE regimen; restart any deferred medications if not breastfeeding. Neonatal follow-up for Anti-Ro positive neonates: ECG and rash surveillance. Pre-conception counselling at postnatal review for future pregnancy: confirm 6-month remission target, medication optimisation, antiphospholipid antibody screening, and aspirin plan.
+  `,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-34',
+  title: 'Preterm Labour in a Twin Gestation',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics',
+  condition: 'Preterm labour at 30 weeks + 2 days in a dichorionic diamniotic twin pregnancy with cephalic-transverse presentation',
+  symptoms: [
+    'Lower abdominal pain',
+    'Low back pain',
+    'Blood-stained mucus show',
+    'Uterine contractions 3–4 in 10 minutes lasting 35–45 seconds',
+    'Cervix 3 cm dilated and 50% effaced',
+    'Cephalic first twin at station -2',
+    'Transverse second twin',
+    'Symphysiofundal height 36 cm (greater than expected for gestational age)',
+    'No leakage of fluid, no vaginal bleeding, no fever'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-16',
+  summary: 'Mrs R.T., a 28-year-old booked G2P1+0 (1 alive) hairdresser presenting at 30 weeks + 2 days gestation with a 12-hour history of progressive lower abdominal and low back pain and a bloody show 4 hours prior to presentation. Known dichorionic diamniotic twin pregnancy confirmed by serial ultrasound, spontaneously conceived. Booking investigations: PCV 33%, blood group B positive, genotype AA, HIV negative. Positive family history of twinning in the maternal lineage. Previous obstetric history: one term spontaneous vaginal delivery in 2021, no complications. Examination reveals a woman in mild-to-moderate painful distress, haemodynamically stable. Symphysiofundal height 36 cm (greater than expected for 30 weeks — consistent with twin gestation and uterine overdistension). Multiple fetal parts palpable, Twin A cephalic, Twin B transverse. Contractions 3–4 in 10 minutes lasting 35–45 seconds. Twin A FHR 146 bpm, Twin B FHR 152 bpm. Cervix 3 cm dilated and 50% effaced, presenting part at station -2, membranes intact, pelvis clinically adequate. Diagnosis: preterm labour in a dichorionic diamniotic twin gestation at 30 weeks + 2 days, likely secondary to uterine overdistension. Requires immediate admission to the high-risk labour ward, antenatal corticosteroids for fetal lung maturity, magnesium sulphate for fetal neuroprotection, tocolysis to allow the corticosteroid course to complete, and multidisciplinary preparation for possible preterm twin delivery.',
+  content: `
+Mrs R.T., a 28-year-old booked G2P1+0 (1 alive) hairdresser, resident in Ibadan, Oyo State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G2
+Parity: P1+0 (one term delivery, no miscarriages)
+Living children: 1 alive
+LMP: 10/10/2025
+EDD: 17/07/2026
+EGA: 30 weeks + 2 days
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 12 hours
+Low back pain × 12 hours
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 12 hours prior to presentation when she developed lower abdominal pains. The pains were initially mild, irregular, and occurring approximately once every 20–30 minutes. Over time, they progressively increased in frequency, intensity, and regularity. They are currently occurring 3–4 times in 10 minutes, lasting approximately 35–45 seconds, colicky in nature, and radiating to the lower back.
+
+She reports associated pelvic pressure but no urge to bear down at this time.
+
+There is a history of passage of blood-stained mucus (show) approximately 4 hours prior to presentation.
+
+There is no history of leakage of fluid per vaginam, no vaginal bleeding, no fever, no dysuria, and no foul-smelling vaginal discharge.
+
+She perceives fetal movements but is unable to clearly differentiate between the movements of the two fetuses.
+
+No history of recent trauma, sexual intercourse, or use of medications or herbal preparations prior to presentation.
+
+ANTENATAL HISTORY
+The pregnancy was spontaneously conceived. Early ultrasound scan confirmed a twin gestation. She booked at 14 weeks gestation and has attended antenatal clinic regularly.
+
+She has been compliant with antenatal haematinics, received tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 33%
+Blood group: B positive
+Genotype: AA
+HIV: Negative
+
+Serial ultrasound scans confirmed a dichorionic diamniotic (DCDA) twin pregnancy with appropriate fetal growth throughout the pregnancy. No antenatal complications have been recorded.
+
+PAST OBSTETRIC HISTORY
+2021: Term spontaneous vaginal delivery of a live female infant (3.1 kg). Pregnancy, labour, and puerperium uneventful. Child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic medical condition
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+No routine medications prior to pregnancy
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+Positive family history of twinning in the maternal lineage (increases predisposition to dizygotic twinning)
+
+Social History:
+Married in a monogamous setting
+Does not smoke or take alcohol
+No use of herbal medications
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Pregnant woman, conscious and alert
+In mild-to-moderate painful distress
+Not pale, afebrile (36.7°C), not dehydrated
+
+Vital Signs:
+BP: 112/70 mmHg (normal)
+PR: 92 bpm (normal)
+RR: 20 cpm (normal)
+Temperature: 36.7°C (afebrile)
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen markedly distended, consistent with multiple gestation
+
+Palpation:
+Symphysiofundal height: 36 cm (greater than expected for 30 weeks gestation — expected approximately 30 cm; excess is consistent with the twin gestation and uterine overdistension)
+Multiple fetal parts easily palpable
+Lie: Longitudinal
+Presentation:
+Twin A (lower): Cephalic
+Twin B (upper): Transverse (confirmed on deep palpation)
+Uterine contractions: 3–4 in 10 minutes, lasting 35–45 seconds (consistent with established preterm labour)
+No uterine tenderness (excludes abruption and chorioamnionitis)
+
+Auscultation:
+Two distinct fetal heart rates heard at separate locations:
+Twin A: 146 bpm (normal)
+Twin B: 152 bpm (normal)
+
+Pelvic Examination:
+Vulva and vagina normal
+Cervix: 3 cm dilated, approximately 50% effaced
+Presenting part: cephalic (Twin A) at station -2
+Membranes: intact
+Pelvis: clinically adequate
+
+ASSESSMENT
+
+Preterm labour at 30 weeks + 2 days in a dichorionic diamniotic twin gestation, likely secondary to uterine overdistension, with a cephalic-transverse twin presentation
+
+Diagnosis based on:
+
+Definition of preterm labour:
+Regular uterine contractions with progressive cervical change before 37 completed weeks of gestation
+This patient: contractions 3–4 per 10 minutes lasting 35–45 seconds (established labour pattern) + cervical dilatation of 3 cm + 50% effacement + bloody show at 30 weeks + 2 days — meets the clinical definition of preterm labour
+
+Why twin pregnancies are predisposed to preterm labour:
+Multiple gestation is the single most important risk factor for preterm birth — approximately 50% of twin pregnancies deliver before 37 weeks
+Uterine overdistension: the uterus reaches the volume equivalent of a 36-week singleton by approximately 30 weeks in a twin pregnancy (confirmed here: SFH 36 cm at 30 weeks)
+Overdistension stimulates stretch-activated ion channels in myometrial cells → upregulates oxytocin receptors and gap junction proteins (connexin-43) → enhances myometrial contractility → triggers preterm labour
+Cervical incompetence: increased uterine volume exerts mechanical pressure on the internal os, promoting cervical ripening and effacement
+Elevated prostaglandin levels: overdistended decidua and fetal membranes produce more prostaglandins → promotes uterine contractions and cervical ripening
+Placentation-related factors: twin placentae have a larger total surface area and are more prone to low-lying implantation and uteroplacental insufficiency, both of which contribute to preterm labour risk
+
+Why this case is high risk:
+Gestational age 30 weeks + 2 days: significant prematurity — neonates at this gestation require intensive neonatal care; the major risks are respiratory distress syndrome (RDS), intraventricular haemorrhage (IVH), necrotising enterocolitis (NEC), retinopathy of prematurity (ROP), and sepsis
+Twin gestation: doubled neonatal morbidity — two premature neonates
+Cephalic-transverse presentation: Twin A (presenting twin) is cephalic — vaginal delivery is possible; Twin B is transverse — this creates a management challenge after delivery of Twin A (see delivery plan)
+Established labour: cervix already 3 cm dilated — tocolysis may delay but is unlikely to prevent delivery
+Uterine overdistension: significantly increases postpartum haemorrhage risk (atonic uterus from overdistension is the most common cause of PPH after twin delivery — must anticipate and prepare)
+
+Chorioamnionitis — must be excluded:
+No fever (afebrile 36.7°C), no uterine tenderness, no foul-smelling discharge, no maternal tachycardia
+Clinical features do not suggest chorioamnionitis at this time
+However: infection is a common precipitant of preterm labour — high vaginal swab and urinalysis are mandatory
+Monitor temperature, maternal pulse, and uterine tenderness regularly throughout admission
+
+Antiphospholipid syndrome and thrombophilia:
+Not known in this patient
+Not the primary cause of preterm labour here (uterine overdistension is the more likely mechanism)
+Investigations will guide if clinical suspicion arises
+
+Differential diagnoses:
+
+False preterm labour (Braxton Hicks contractions):
+Irregular, non-progressive contractions without cervical change
+This patient: regular contractions with established cervical dilatation (3 cm) and effacement (50%) — this is true preterm labour, not false labour
+
+Chorioamnionitis:
+Infection of the fetal membranes — a major cause of preterm labour
+Clinical features: fever, uterine tenderness, maternal tachycardia, fetal tachycardia, foul-smelling discharge
+Not currently clinically evident in this patient but must be excluded with investigations
+If confirmed: tocolysis is contraindicated (withholding delivery in the face of chorioamnionitis increases maternal and fetal morbidity)
+
+Placental abruption:
+Can cause painful uterine contractions and preterm labour
+Typically: painful constant uterine tenderness, vaginal bleeding, woody-hard uterus, fetal heart rate abnormalities
+This patient: no uterine tenderness, no abnormal vaginal bleeding, reassuring fetal heart rates — abruption less likely but cannot be fully excluded without ultrasound
+
+Placenta praevia:
+Painless bright red vaginal bleeding
+This patient has a bloody show (cervical mucus plug — not fresh red bleeding) and no painless haemorrhage — placenta praevia is unlikely; ultrasound will confirm placental site
+
+Urinary tract infection:
+A common precipitant of preterm labour in pregnancy
+No dysuria reported; urinalysis will screen
+
+PLAN
+
+Admit immediately to the high-risk labour ward. Alert senior obstetrician, neonatology team, and anaesthetist.
+
+Immediate Admission and Monitoring
+
+Admit to high-risk labour ward:
+Close nursing supervision
+Keep nil by mouth (in preparation for possible operative delivery)
+
+Monitoring:
+Maternal vital signs: BP, pulse, RR, temperature every 30–60 minutes (monitor for chorioamnionitis — rising temperature and tachycardia mandate reassessment)
+Uterine contractions: document frequency, duration, and intensity every 30 minutes
+Cervical assessment: repeat vaginal examination every 2–4 hours to assess progression of cervical dilatation and effacement and descent of presenting part
+
+Continuous fetal monitoring:
+Gold standard: continuous electronic fetal monitoring (CTG) for both twins simultaneously using two separate CTG transducers applied at different locations on the abdomen — twin CTG monitoring requires two channels; confirm both FHRs are independently tracked (different baselines) to avoid recording the same twin twice
+Practical note: dual-channel CTG machines are available at most Nigerian tertiary hospitals; single-channel machines can be used alternately for each twin at 30-minute intervals where dual-channel monitoring is unavailable
+Monitor Twin A and Twin B FHR baselines, variability, accelerations, and decelerations separately
+Alert obstetric team immediately for: fetal tachycardia (FHR greater than 160 bpm — could indicate chorioamnionitis), decelerations (fetal compromise), loss of variability
+
+Investigations
+
+Full blood count:
+Leucocytosis (WBC greater than 11 × 10⁹/L with neutrophilia): suggests chorioamnionitis or other infection
+Haemoglobin and PCV (baseline anaemia — booking PCV was 33%, monitor for worsening)
+Platelet count (baseline before potential operative delivery)
+Practical note: widely available
+
+Urinalysis and urine MCS:
+Exclude urinary tract infection as a precipitant of preterm labour
+Pyuria and bacteriuria: treat with appropriate antibiotics
+Practical note: widely available
+
+High vaginal swab (MCS):
+Exclude bacterial vaginosis, Group B Streptococcus (GBS) colonisation, and other lower genital tract infections — all are associated with preterm labour
+GBS colonisation at preterm labour: intrapartum antibiotic prophylaxis with IV Benzylpenicillin reduces risk of early-onset neonatal GBS disease
+Practical note: available at most teaching hospitals; results take 48–72 hours — if GBS status unknown, prophylactic antibiotics are given empirically at delivery
+
+Blood grouping and cross-matching:
+Blood group known (B positive) — crossmatch 2–4 units of packed red cells urgently
+Twin delivery carries high risk of postpartum haemorrhage (uterine atony from overdistension, large placental surface area)
+Blood must be available in theatre before delivery
+
+Coagulation profile:
+Baseline before operative delivery
+DIC risk is increased with twin gestation and postpartum haemorrhage
+
+Ultrasound scan:
+Confirm presentations of both twins (clinical assessment confirmed Twin A cephalic, Twin B transverse — ultrasound provides definitive confirmation)
+Confirm chorionicity (DCDA confirmed on serial antenatal scans)
+Confirm placental site (exclude placenta praevia)
+Assess amniotic fluid in each sac (polyhydramnios in one sac increases preterm labour and PPH risk; oligohydramnios in one sac suggests placental insufficiency)
+Estimate fetal weights (important for neonatal team preparation)
+Practical note: bedside ultrasound in labour ward is available at most teaching hospitals
+
+CRP and ESR:
+Inflammatory markers — elevated CRP supports infection as a precipitant of preterm labour
+Practical note: available at most teaching hospitals
+
+Antenatal Corticosteroids (Immediate — Do Not Delay)
+
+Antenatal corticosteroids reduce neonatal morbidity and mortality from RDS, IVH, and NEC by approximately 50% in preterm neonates — the single most effective intervention for improving neonatal outcome in preterm labour
+
+Indication: confirmed preterm labour at 30 weeks + 2 days (between 24 and 34 weeks gestation)
+
+Regimen:
+IM Betamethasone 12 mg every 24 hours for 2 doses (48-hour course): gold standard
+OR IM Dexamethasone 6 mg every 12 hours for 4 doses (48-hour course): practical alternative — more widely available and less expensive in Nigeria; comparable efficacy for RDS reduction
+
+Administer immediately on admission:
+Benefit is achieved within 24 hours of the first dose and is maximal at 48–72 hours
+If delivery cannot be delayed by 24 hours: administering even the first dose provides partial benefit
+Do not withhold corticosteroids while preparing other interventions
+
+Practical note: Dexamethasone is available at most Nigerian tertiary and secondary facilities; Betamethasone is available at most teaching hospitals; both are safe with tocolytic agents and magnesium sulphate
+
+Repeat course:
+A single repeat course of corticosteroids (rescue course) may be given if delivery has not occurred within 7 days of the first course and gestational age remains less than 34 weeks — not applicable at this time but document and plan for it if tocolysis is successful
+
+Magnesium Sulphate for Fetal Neuroprotection (Immediate)
+
+Indications:
+Fetal neuroprotection in preterm birth before 34 weeks gestation
+This patient at 30 weeks + 2 days: clearly indicated
+Evidence: antenatal magnesium sulphate reduces the risk of cerebral palsy by approximately 30–40% and severe motor dysfunction in surviving preterm neonates
+Gold standard: WHO, RCOG, ACOG, and FMOH guidelines all recommend magnesium sulphate for fetal neuroprotection before 32 weeks (some guidelines extend to 34 weeks); administer if delivery is anticipated within 24 hours or if the decision to deliver is made
+
+Regimen (neuroprotection dose — distinct from the preeclampsia seizure prophylaxis dose):
+Loading dose: IV Magnesium sulphate 4 g over 20–30 minutes
+Maintenance: IV Magnesium sulphate 1 g/hour continuous infusion
+Duration: continue until delivery or for a maximum of 24 hours (whichever comes first)
+If delivery is delayed beyond 24 hours: stop infusion and restart if delivery becomes imminent again
+
+Monitoring:
+Respiratory rate: must remain greater than 12 cpm
+Deep tendon reflexes (patellar reflex): loss of reflex is the earliest sign of toxicity — stop infusion immediately
+Urine output: must remain greater than 25 ml/hr
+Serum magnesium levels if available (therapeutic range for neuroprotection: 2–3.5 mmol/L)
+Antidote at bedside: IV Calcium gluconate 10 ml of 10% solution — administer immediately if respiratory depression or loss of reflexes occurs
+Practical note: Magnesium sulphate is available at all Nigerian facilities and is affordable; the same preparation used for preeclampsia management is used here at a different dose for a different indication — ensure the team understands the indication and dose difference
+
+Tocolysis (to Delay Delivery for Corticosteroid Benefit)
+
+Goal of tocolysis:
+NOT to prevent preterm birth indefinitely — preterm labour in a twin pregnancy at 30 weeks is unlikely to be fully arrested
+Goal: delay delivery by 24–48 hours to allow corticosteroid benefit to be realised
+
+Contraindications to tocolysis (must be excluded before initiating):
+Chorioamnionitis (infection — withholding delivery worsens maternal and fetal outcome)
+Ruptured membranes with established labour (relative contraindication — tocolysis is generally less effective with ROM)
+Significant vaginal bleeding (abruption)
+Maternal haemodynamic instability
+Advanced cervical dilatation (greater than 5–6 cm — tocolysis unlikely to be effective)
+Fetal compromise (non-reassuring CTG — delivery should not be delayed)
+This patient: none of the absolute contraindications are present; tocolysis is appropriate
+
+Tocolytic agents:
+
+First-line — Nifedipine (calcium channel blocker):
+Oral Nifedipine immediate release 20 mg orally; repeat 20 mg after 30 minutes if contractions persist; then 20 mg every 4 hours for 48 hours (acute tocolysis phase)
+OR modified-release Nifedipine 60 mg loading dose, then 20–40 mg three times daily
+Mechanism: blocks L-type calcium channels in myometrial smooth muscle → reduces intracellular calcium → inhibits actin-myosin interaction → reduces uterine contractility
+Evidence: superior to ritodrine and equivalent to atosiban for short-term tocolysis; significantly reduces RDS, NEC, and IVH in neonates compared to betamimetics
+Side effects: maternal hypotension, headache, flushing, tachycardia; these are generally mild and well-tolerated
+Contraindication: avoid with magnesium sulphate in high doses (risk of profound hypotension and neuromuscular blockade — use at standard doses as above; monitor BP carefully when using both)
+Practical note: Nifedipine immediate release is widely available and inexpensive in Nigeria — the most practical first-line tocolytic in the Nigerian context; modified-release formulations are available at most tertiary hospitals
+
+Second-line — Atosiban (oxytocin receptor antagonist):
+IV Atosiban 6.75 mg bolus over 1 minute, then infusion 18 mg/hour for 3 hours, then 6 mg/hour for up to 45 hours
+Mechanism: competitively blocks oxytocin and vasopressin receptors on myometrial cells — directly inhibits oxytocin-driven contractions
+Gold standard in Europe (RCOG first-line choice): fewest maternal side effects of all tocolytics; no cardiovascular effects; safe in multiple gestation
+Contraindications: few — placental abruption, chorioamnionitis
+Practical note in Nigeria: Atosiban (Tractocile) is available at some major teaching hospitals and private hospitals but is expensive and not uniformly accessible at all tertiary centres; where unavailable, Nifedipine is the practical first-line alternative
+
+Third-line — Indomethacin (NSAID/cyclo-oxygenase inhibitor):
+Indomethacin 100 mg rectal suppository loading dose, then 25–50 mg orally or rectally every 6 hours for up to 48 hours
+Mechanism: inhibits prostaglandin synthesis → reduces prostaglandin-driven uterine contractions
+Effective but with significant fetal risks:
+Premature constriction of the ductus arteriosus (risk increases with gestational age — greater risk after 32 weeks)
+Fetal renal impairment and oligohydramnios (reversible on stopping)
+Restriction: use only before 32 weeks and for no more than 48 hours
+At 30 weeks + 2 days: indomethacin is technically within the safe gestational window but carries fetal risks — use as a third-line alternative if Nifedipine and Atosiban are unavailable or ineffective
+Practical note: Indomethacin suppositories are available at most Nigerian hospitals and are inexpensive
+
+Fourth-line — Betamimetics (Ritodrine, Salbutamol):
+Salbutamol IV infusion: 10–45 mcg/min, titrated to response
+Mechanism: beta-2 adrenergic receptor stimulation → smooth muscle relaxation → uterine quiescence
+Significant maternal cardiovascular side effects: tachycardia, palpitations, pulmonary oedema (especially in twin pregnancy — risk of pulmonary oedema is significantly higher in multiple gestation)
+NOT recommended as first-line tocolytic — particularly in twin pregnancy given high pulmonary oedema risk
+Practical note: IV Salbutamol is available at many Nigerian facilities; if used, monitor maternal heart rate, SpO₂, and fluid balance closely; discontinue if maternal HR greater than 120 bpm or pulmonary oedema develops
+
+This patient: initiate oral Nifedipine as first-line tocolytic immediately alongside magnesium sulphate and corticosteroids. Monitor maternal BP closely during concurrent use.
+
+Antibiotics
+
+Empirical antibiotics in preterm labour with intact membranes:
+Note: evidence (ORACLE I trial) showed that prophylactic antibiotics in preterm labour with intact membranes do not improve neonatal outcome and may be associated with harm (increased risk of cerebral palsy) — routine antibiotics are NOT recommended for preterm labour with intact membranes unless infection is confirmed or GBS prophylaxis is indicated at delivery
+
+Indications for antibiotics in this patient:
+GBS prophylaxis at delivery (if GBS status unknown or positive on HVS): IV Benzylpenicillin 3 g loading dose then 1.5 g every 4 hours during labour until delivery — reduces early-onset neonatal GBS disease
+If urinalysis or HVS confirms infection: targeted antibiotic therapy based on MCS results
+If chorioamnionitis develops: broad-spectrum antibiotics (IV Ampicillin + IV Gentamicin + Metronidazole)
+
+Corticosteroids, magnesium sulphate, and tocolysis should not be delayed pending HVS or urine results.
+
+Intrapartum Management — If Labour Progresses Despite Tocolysis
+
+Labour ward preparation:
+Senior obstetrician must be present throughout labour and delivery (twin delivery requires highest level of obstetric skill)
+Anaesthetist must be alerted immediately — epidural anaesthesia strongly recommended (provides optimal maternal analgesia and allows rapid intervention for Twin B if needed: forceps, internal podalic version, or emergency caesarean section)
+Neonatology team: two separate neonatal resuscitation teams must be present at delivery (one for each twin, each with full resuscitation equipment and warm incubator)
+Theatre on standby throughout twin labour — emergency caesarean section may be required for Twin B
+Two IV cannulae: wide-bore (14G or 16G) in both antecubital fossae — anticipate PPH
+
+Analgesia in labour:
+Epidural analgesia (gold standard for twin labour):
+Provides excellent pain relief
+Allows rapid conversion to dense block for operative procedures on Twin B (internal podalic version, forceps, or emergency LSCS) without general anaesthesia
+Reduces maternal bearing-down reflex — allows controlled delivery of Twin B
+Strongly recommended in all twin labours
+Practical note: epidural analgesia is available at most Nigerian teaching hospitals; anaesthetic cover must be confirmed on admission
+If epidural is unavailable: IV/IM Tramadol or Pethidine (Meperidine) with anti-emetic; note that opioids given within 4 hours of delivery cause neonatal respiratory depression — have naloxone available for neonates
+
+Mode of delivery — determination:
+
+Twin A cephalic: vaginal delivery is the intended route for Twin A
+The mode of delivery for Twin B (currently transverse) is the critical management decision
+
+Twin B transverse — management options after delivery of Twin A:
+If Twin B spontaneously converts to a longitudinal lie after delivery of Twin A (cephalic or breech): allow vaginal delivery (cephalic) or breech extraction (breech)
+Internal podalic version (IPV): the obstetrician manually rotates Twin B to a breech presentation from inside the uterus and delivers by breech extraction — requires a skilled obstetrician, intact uterus, adequate amniotic fluid, and general anaesthesia or dense epidural block; the gold standard procedure for a transverse Twin B in an experienced hands
+Emergency caesarean section for Twin B: if IPV fails, cervix closes, fetal distress develops, or operator is not skilled in IPV — emergency caesarean section after vaginal delivery of Twin A (a rare but important scenario)
+Immediate caesarean section for both twins: indicated if: non-reassuring fetal wellbeing develops before delivery of Twin A, cord prolapse, placental abruption, or failed labour progress
+
+Current presentation:
+Twin A: Cephalic — plan vaginal delivery
+Twin B: Transverse — plan for IPV after delivery of Twin A, with emergency caesarean section backup
+
+This patient: vaginal delivery planned for Twin A followed by internal podalic version and breech extraction for Twin B. This requires a senior obstetrician skilled in operative delivery; theatre must be immediately available throughout.
+
+Timing of delivery of Twin B after Twin A:
+Deliver Twin B within 20–30 minutes of Twin A (gold standard):
+Risk of cord prolapse, placental abruption (placenta may partially separate after Twin A's delivery), and fetal compromise increases with prolonged inter-twin delivery interval
+Assess Twin B's lie, presentation, and FHR immediately after Twin A is delivered
+If Twin B develops fetal distress or cord prolapse: deliver immediately by the safest route (breech extraction or emergency caesarean section)
+
+Fetal monitoring in labour:
+Continuous dual-channel CTG throughout labour
+Each twin's FHR must be independently confirmed and documented
+Scalp electrode (FSE) can be applied to Twin A's presenting part once membranes are ruptured — confirms it is Twin A's heart rate being recorded, not Twin B's
+Monitor Twin B's FHR externally (Doppler) or by abdominal ultrasound
+
+Rupture of membranes:
+Amniotomy (artificial rupture of membranes for Twin A) to be performed when labour is established and presenting part is well-engaged
+Do not rupture membranes for Twin B until immediately before delivery — intact membranes for Twin B maintain amniotic fluid volume and facilitate version if needed
+
+Labour augmentation:
+If uterine contractions become inadequate after initiating tocolysis is stopped: low-dose oxytocin infusion (as per the singleton labour protocol) is safe in twin labour to augment contractions
+Carefully titrated — uterine hyperstimulation in twin pregnancy is particularly dangerous (risk of PPH, uterine rupture, fetal distress)
+
+Third Stage and Postpartum Haemorrhage Prevention
+
+Twin pregnancy is one of the highest risk situations for postpartum haemorrhage:
+Uterine atony is the primary mechanism (overdistended uterus — myometrial fibres are stretched and fatigue rapidly after delivery)
+Large placental surface area (two placentae or a large fused placenta — more extensive placental bed)
+The twins are premature — additional blood loss risk from placental implantation abnormality
+
+Active management of the third stage (mandatory):
+IV Oxytocin 10 units IM or slow IV immediately after delivery of the second twin (not after Twin A — wait until both twins and the placenta are delivered to avoid trapping Twin B)
+Controlled cord traction after signs of placental separation
+Inspect placenta and membranes for completeness (two placentae or one fused placenta — confirm based on chorionicity; dichorionic twins have two separate placentae)
+
+Anticipate and prepare for PPH:
+Two wide-bore IV cannulae in situ before delivery
+Blood cross-matched and available in theatre
+Oxytocin infusion (40 units in 1 litre Normal Saline at 125 ml/hr) after placental delivery for at least 4 hours
+Ergometrine 0.5 mg IM as second-line uterotonic if atony persists
+Carboprost (Prostaglandin F2-alpha) 250 mcg IM every 15 minutes (maximum 8 doses) if ergometrine fails
+Balloon tamponade (Bakri balloon or condom catheter) and surgical measures as per PPH protocol (as detailed in obg-13) if pharmacological measures fail
+
+Neonatal Team Preparation
+
+Alert the neonatal unit for expected delivery of two premature neonates at 30 weeks + 2 days:
+Two separate neonatal resuscitation stations (radiant warmers, resuscitation equipment, laryngoscopes, endotracheal tubes, surfactant) must be prepared before delivery
+Two neonatologists or senior paediatric registrars, each responsible for one twin
+Neonatal intensive care unit (NICU) beds must be confirmed and available
+
+Major neonatal risks at 30 weeks (brief for team preparation):
+Respiratory distress syndrome (RDS): most common complication — antenatal corticosteroids will reduce severity; exogenous surfactant therapy after delivery if needed
+Intraventricular haemorrhage (IVH): antenatal magnesium sulphate reduces risk
+Necrotising enterocolitis (NEC): early enteral feeding with breast milk is protective
+Retinopathy of prematurity (ROP): ophthalmology screening from 31–32 weeks corrected age
+Hypothermia: place in plastic wrap immediately at delivery, then warm incubator
+Hypoglycaemia: early glucose monitoring (within 1 hour of delivery)
+Neonatal sepsis: blood culture and empirical antibiotics if sepsis is suspected
+Anaemia of prematurity: monitor haemoglobin; transfusion thresholds as per neonatal protocol
+
+Postpartum Care
+
+For the mother:
+Monitor vital signs every 15–30 minutes for the first 2 hours after delivery (PPH watch)
+Uterine tone: fundal palpation every 15–30 minutes; administer additional uterotonics if uterine tone is poor
+Blood loss: quantify carefully (weigh blood-soaked pads, measure blood in kidney dish)
+Urine output: monitor hourly for first 4 hours
+Haemoglobin: recheck 6–12 hours after delivery
+Breastfeeding support: encourage early expression of colostrum even if twins are in NICU; colostrum is beneficial even in small quantities for preterm neonates
+Iron supplementation: continue or restart based on postpartum haemoglobin (booking PCV was 33% — baseline anaemia increases PPH risk)
+Thromboprophylaxis: LMWH (Enoxaparin 40 mg SC daily) commencing 12 hours after delivery and continuing for 6 weeks — twin pregnancy and preterm birth are independent VTE risk factors
+Emotional support: preterm delivery and NICU admission for both twins is psychologically traumatic — involve social worker and counsellor; encourage frequent maternal visits to the NICU and active participation in care where possible
+
+Counselling
+
+Explanation of diagnosis:
+Labour has started early — at 30 weeks, which is about 10 weeks before the expected due date
+In twin pregnancies, the uterus becomes much larger than in singleton pregnancies and this stretching of the womb commonly triggers early labour — this is the most likely reason labour has started now
+It is not caused by anything she did
+
+Regarding the babies:
+At 30 weeks, the babies are premature — their organs, particularly the lungs and brain, are not fully developed
+Babies born at this age need intensive neonatal care support: special breathing support, warmth, and feeding assistance through a tube until they are strong enough to breathe and feed independently
+The medical team is doing everything possible to give the babies the best chance
+
+Regarding the steroid injection:
+Special injections (corticosteroids) are being given to help the babies' lungs mature faster before they are born
+This is the most important medicine for improving the babies' chances of survival and reducing serious complications
+Even if delivery cannot be delayed, the injections provide significant benefit
+
+Regarding the magnesium sulphate infusion:
+A medicine called magnesium sulphate is being given through the drip — this medicine has been shown to protect the babies' brains from injury that can occur with premature birth
+It reduces the risk of cerebral palsy
+
+Regarding tocolysis:
+A medicine is also being given to try to slow down or stop the contractions temporarily — not to prevent delivery permanently, but to give time for the steroid injections to work
+Labour may still progress despite this medicine
+
+Regarding the birth:
+The first baby (Twin A) is head-down and can be born normally through the vagina if all is going well
+The second baby (Twin B) is lying sideways at the moment — the doctor may need to turn the baby from inside the womb and deliver it bottom-first (breech delivery), or an emergency operation (caesarean section) may be needed for the second baby if turning is not possible
+A specialist team of doctors will be present throughout to ensure the safest possible delivery for both babies
+
+Regarding the NICU:
+Both babies will most likely be admitted to the special baby care unit (NICU) after delivery — this is expected and is not an emergency
+They may need to stay for several weeks
+The mother will be encouraged to visit frequently and to express breast milk, which will be given to the babies and provides them with important protection against infections
+
+Prognosis and what to expect:
+Babies born at 30 weeks have very good chances of survival in a well-equipped neonatal unit (approximately 90%)
+There may be short-term complications while the babies are in the NICU
+The majority of premature babies who survive go on to develop normally, though some may have long-term developmental challenges — early follow-up and developmental support will be arranged
+
+Future pregnancies:
+After this delivery, the risks and implications for future pregnancies will be discussed
+Future pregnancies will be closely monitored from early gestation, including cervical length screening for preterm birth risk
+She should book early in any subsequent pregnancy and report promptly if symptoms of early labour develop
+
+PROGNOSIS
+
+Maternal prognosis:
+Excellent — haemodynamically stable, no evidence of infection, no prior complications
+Primary maternal risk at delivery: postpartum haemorrhage from uterine atony — active prevention and preparation will substantially reduce this risk
+
+Fetal and neonatal prognosis:
+At 30 weeks: survival rate approximately 90% in a well-resourced NICU
+With antenatal corticosteroids: risk of RDS, IVH, and NEC significantly reduced
+With antenatal magnesium sulphate: risk of cerebral palsy reduced by approximately 30%
+Prematurity morbidity is the primary challenge: expect NICU admission of 6–10 weeks duration
+Long-term neurodevelopmental outcome: the majority of 30-week neonates who survive have normal development; approximately 10–15% have significant neurodevelopmental impairment
+
+Factors affecting prognosis:
+Completion of antenatal corticosteroid course (48 hours ideal — may not be fully achieved if labour is already advanced)
+Availability and quality of NICU care
+Skill of obstetric team for Twin B delivery
+Prevention and management of PPH
+Chorionicity: DCDA twins have better outcomes than monochorionic twins (no twin-to-twin transfusion syndrome risk)
+
+FOLLOW-UP
+Postpartum review at day 3 and at 6 weeks. Haemoglobin check before discharge. Iron supplementation if anaemic. NICU daily update and active maternal participation in neonatal care. Neonatal developmental follow-up at 3, 6, 12, and 24 months corrected age. Ophthalmology (ROP) screening from 31–32 weeks corrected age. Hearing screening before NICU discharge. Future pregnancy counselling: early booking, cervical length assessment, progesterone supplementation if short cervix identified, enhanced antenatal surveillance.
   `,
   bookmarkCount: 0
 },

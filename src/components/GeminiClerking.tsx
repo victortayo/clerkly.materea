@@ -15,12 +15,23 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [loading, setLoading] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState('');
   const [selectedTasks, setSelectedTasks] = useState<string[]>(['complete']);
   const [copied, setCopied] = useState(false);
   const [isButtonVisible, setIsButtonVisible] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const loadingIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const outputRef = useRef<HTMLDivElement>(null);
   const { showToast } = useToast();
+
+  const loadingMessages = [
+    'Analyzing clinical notes...',
+    'Identifying key patterns...',
+    'Formulating potential diagnoses...',
+    'Structuring the management plan...',
+    'Finalizing the summary...'
+  ];
 
   // Handle scroll visibility for FAB
   useEffect(() => {
@@ -47,12 +58,25 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
   const handleGenerate = async () => {
     if (!input.trim() || selectedTasks.length === 0) return;
 
+    if (window.innerWidth < 768) { // Check for mobile screen size
+      outputRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+
     if (!navigator.onLine) {
       setOutput("⚠️ You are currently offline.\n\nAI features require an active internet connection to process your request. Please check your connection and try again.");
       return;
     }
 
     setLoading(true);
+    setOutput(''); // Clear previous output
+
+    let messageIndex = 0;
+    setLoadingMessage(loadingMessages[messageIndex]);
+    loadingIntervalRef.current = setInterval(() => {
+      messageIndex = (messageIndex + 1) % loadingMessages.length;
+      setLoadingMessage(loadingMessages[messageIndex]);
+    }, 2500);
+
     try {
       const result = await assistClerking(input, selectedTasks);
       if (result) {
@@ -63,13 +87,16 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
       setOutput("Error generating response. Please check your internet connection and try again.");
     } finally {
       setLoading(false);
+      if (loadingIntervalRef.current) {
+        clearInterval(loadingIntervalRef.current);
+      }
     }
   };
 
   const handleCopy = () => {
     navigator.clipboard.writeText(output);
     setCopied(true);
-    showToast('AI result copied to clipboard');
+    showToast('Copied', 'copy', 2000);
     setTimeout(() => setCopied(false), 2000);
   };
 
@@ -275,8 +302,16 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
               </div>
 
               {/* Output Display (Right Column) */}
-              <div className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-hidden md:overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0 relative">
-                {output ? (
+              <div ref={outputRef} className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-hidden md:overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0 relative">
+                {loading ? (
+                  <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto py-12">
+                    <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 shrink-0 animate-pulse overflow-hidden">
+                      <img src="/avatar.png" alt="Loading" className="w-full h-full object-cover" />
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-700 dark:text-slate-300 mb-2">Working on it, Chief...</h3>
+                    <p className="text-sm text-slate-500 h-4">{loadingMessage}</p>
+                  </div>
+                ) : output ? (
                   <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto relative custom-scrollbar">
                     <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm pr-12">
                       {output}

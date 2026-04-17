@@ -27,7 +27,7 @@ export default function App() {
     const [isGameOpen, setIsGameOpen] = useState(false);
     const [isLearnOpen, setIsLearnOpen] = useState(false);
     const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
-    const [activeModal, setActiveModal] = useState<'none' | 'help' | 'contribute'>('none');
+    const [activeModal, setActiveModal] = useState<'none' | 'help' | 'contribute' | 'about' | 'disclaimer'>('none');
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -121,6 +121,8 @@ export default function App() {
             onReset={handleReset}
             onOpenHelp={() => setActiveModal('help')}
             onOpenContribute={() => setActiveModal('contribute')}
+            onOpenAbout={() => setActiveModal('about')}
+            onOpenDisclaimer={() => setActiveModal('disclaimer')}
             onShowBookmarks={() => setShowBookmarks(true)}
             hero={!selectedTemplate ? (
                 <Hero
@@ -274,12 +276,11 @@ export default function App() {
                         
                         <ul className="space-y-2.5">
                             {[
-                                "There are no strict guidelines for now. Simply send in your templates",
-                                "Patient -identifiable information will be removed",
-                                "Templates will be reformatted if necessary",
-                                "Priority is given to detail, clarity and medical accuracy"
+                                "All submissions will be reviewed and, if not already done, any patient-identifying or personal data will be removed.",
+                                "Cases may also be reformatted to improve clarity, consistency, and educational value across the platform.",
+                                "Contributors may be acknowledged where appropriate and if they chose to."
                             ].map((item, idx) => (
-                                <li key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-indigo-900 dark:text-slate-300">
+                                <li key={idx} className="flex items-start gap-2 text-[10px] sm:text-xs text-indigo-900 dark:text-slate-300">
                                     <i className="fa-solid fa-check text-indigo-500 dark:text-indigo-400 mt-0.5 text-[10px]"></i>
                                     <span className="leading-tight">{item}</span>
                                 </li>
@@ -304,6 +305,122 @@ export default function App() {
                     </a>
 
                     {/* Section 3: Contact & Support (Copied from Help Modal) */}
+                    <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
+                        <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
+                        <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
+                            Join our community on WhatsApp and Telegram to share feedback, discuss clinical cases, and stay updated on new guidelines.
+                        </p>
+                        <div className="flex flex-col gap-2">
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
+                            >
+                                <i className="fa-brands fa-whatsapp text-sm"></i>
+                                Join our WhatsApp Group
+                            </a>
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
+                            >
+                                <i className="fa-brands fa-telegram text-sm"></i>
+                                Join our Telegram Channel
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </Modal>
+
+            {/* About Modal */}
+            <Modal
+                isOpen={activeModal === 'about'}
+                onClose={() => setActiveModal('none')}
+                title="About This Platform"
+            >
+                <div className="space-y-6">
+                    <div className="bg-gradient-to-br from-indigo-50 to-white dark:from-slate-800 dark:to-slate-900 p-4 rounded-2xl border border-indigo-100 dark:border-slate-700">
+                        <div className="space-y-4 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                            <p>
+                                Medicine has always been an apprenticeship. The best way to learn is by seeing — by observing real patients, patterns, and decision-making in context. But in reality, many doctors in training do not get enough exposure to the full range of clinical cases they are expected to understand.
+                            </p>
+                            <p>
+                                The next best way to learn is through well-structured examples — to learn from what others have seen, documented, and reasoned through.
+                            </p>
+                            <p>
+                                This platform was built on that idea.
+                            </p>
+                            <p>
+                                Here, you will find curated clinical clerkings of common conditions encountered in Nigerian practice. While these cases are not real patients, they are carefully constructed from patterns seen across real-life cases and adapted specifically for learning. Each clerking reflects how these conditions typically present in our environment, with attention to the nuances that matter in day-to-day practice.
+                            </p>
+                            <p>
+                                Beyond documentation, this resource is designed to bridge the gap between theory and reality. It provides practical, step-by-step approaches to patient management, taking into account the socioeconomic and infrastructural realities of healthcare in Nigeria.
+                            </p>
+                            <p>
+                                This platform is intended for medical students in their clinical years, house officers, and early-career doctors — anyone looking to think more clearly, clerk more effectively, and manage patients with greater confidence.
+                            </p>
+                            <p>
+                                Medical education is constantly evolving, and this project is built with that in mind. Your feedback, suggestions, and support are not only welcome — they are essential. Every contribution will be taken seriously and used to improve the experience for everyone.
+                            </p>
+                            <p>
+                                If you would like to share your thoughts, suggestions, or even contribute cases and insights, we invite you to join our community and be part of building a better learning experience for doctors across Nigeria.
+                            </p>
+                            <p>
+                                At its core, this is driven by a deep commitment to improving medical education and healthcare delivery in Nigeria.
+                            </p>
+                        </div>
+                    </div>
+
+                    <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
+                        <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
+                        <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
+                            Join our community on WhatsApp and Telegram to share feedback, discuss clinical cases, and stay updated on new guidelines.
+                        </p>
+                        <div className="flex flex-col gap-2">
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
+                            >
+                                <i className="fa-brands fa-whatsapp text-sm"></i>
+                                Join our WhatsApp Group
+                            </a>
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
+                            >
+                                <i className="fa-brands fa-telegram text-sm"></i>
+                                Join our Telegram Channel
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </Modal>
+
+            {/* Disclaimer Modal */}
+            <Modal
+                isOpen={activeModal === 'disclaimer'}
+                onClose={() => setActiveModal('none')}
+                title="Disclaimer"
+            >
+                <div className="space-y-6">
+                    <div className="bg-amber-50 dark:bg-amber-950/30 p-3 rounded-xl border border-amber-100/50 dark:border-amber-900/50">
+                        <div className="flex gap-2">
+                            <i className="fa-solid fa-circle-info text-amber-500 text-xs mt-0.5"></i>
+                            <div className="space-y-2">
+                                <p className="text-xs font-bold text-amber-900 dark:text-amber-200">For Educational Purposes Only</p>
+                                <p className="text-[10px] sm:text-xs text-amber-800/80 dark:text-amber-200/70 leading-relaxed">
+                                These case templates are for educational purposes only and are based on typical presentations in Nigerian practice, not actual patient cases.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                         <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">

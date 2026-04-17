@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { generateLearningModule, generatePhysicalExamModule, generateLabInterpretationModule, generateClinicalScoringModule, generateManagementPlanModule, LearningModule, PhysicalExamModule, LabInterpretationModule, ClinicalScoringModule, ManagementPlanModule } from '../services/gemini';
 import { useToast } from '../context/ToastContext';
@@ -79,12 +79,22 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
   const [isSettingDropdownOpen, setIsSettingDropdownOpen] = useState(false);
   
   const [loading, setLoading] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState('');
   const [module, setModule] = useState<LearningModule | PhysicalExamModule | LabInterpretationModule | ClinicalScoringModule | ManagementPlanModule | null>(null);
   const [activeTab, setActiveTab] = useState<'content' | 'quiz'>('content');
   const [quizAnswers, setQuizAnswers] = useState<Record<number, string>>({});
   const [showExplanations, setShowExplanations] = useState<Record<number, boolean>>({});
+  const loadingIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const { showToast } = useToast();
+
+  const loadingMessages = [
+    'Building your learning module...',
+    'Gathering key educational points...',
+    'Designing interactive questions...',
+    'Tailoring content to the African context...',
+    'Finalizing your module...'
+  ];
 
   const handleGenerate = async () => {
     if (!navigator.onLine) {
@@ -97,6 +107,13 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
     setQuizAnswers({});
     setShowExplanations({});
     setActiveTab('content');
+
+    let messageIndex = 0;
+    setLoadingMessage(loadingMessages[messageIndex]);
+    loadingIntervalRef.current = setInterval(() => {
+      messageIndex = (messageIndex + 1) % loadingMessages.length;
+      setLoadingMessage(loadingMessages[messageIndex]);
+    }, 2500);
 
     try {
       let generatedModule;
@@ -122,6 +139,9 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
       showToast("An error occurred while generating the module. The model may be unavailable. Please try again later.");
     } finally {
       setLoading(false);
+      if (loadingIntervalRef.current) {
+        clearInterval(loadingIntervalRef.current);
+      }
     }
   };
 
@@ -205,8 +225,8 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
           </div>
         </div>
 
-        <div className={`flex-1 overflow-y-auto custom-scrollbar ${
-          module ? '' : 'md:overflow-hidden flex-col md:flex-row'
+        <div className={`flex-1 overflow-y-auto custom-scrollbar flex ${
+          module ? '' : 'flex-col md:flex-row'
         }`}>
           {/* Sidebar Controls */}
           <div className={`w-full md:w-80 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 p-6 flex flex-col gap-6 shrink-0 ${
@@ -554,9 +574,12 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
             )}
 
             {loading && (
-              <div className="flex-1 flex flex-col items-center justify-center text-center py-12">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-4 border-indigo-950 dark:border-indigo-400 mb-4 shrink-0"></div>
-                <p className="text-indigo-950 dark:text-indigo-400 font-medium animate-pulse">Generating your custom module...</p>
+              <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto py-12">
+                <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 shrink-0 animate-pulse overflow-hidden">
+                  <img src="/avatar.png" alt="Loading" className="w-full h-full object-cover" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-700 dark:text-slate-300 mb-2">Building Your Module...</h3>
+                <p className="text-sm text-slate-500 h-4">{loadingMessage}</p>
               </div>
             )}
 
@@ -758,7 +781,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
                             <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
                               <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-4 flex items-center gap-2">
                                 <i className="fa-solid fa-eye text-indigo-500"></i>
-                                Important Findings
+                                Important Clinical Findings
                               </h3>
                               <ul className="space-y-2">
                                 {module.important_clinical_findings.map((finding, i) => (

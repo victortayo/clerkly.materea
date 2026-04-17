@@ -72,6 +72,7 @@ export function TemplateList({
         <h4 className="text-xl font-bold font-brand text-slate-700 dark:text-slate-200 mb-2">No templates found</h4>
         <p className="text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
           We couldn't find any templates matching your search criteria. Try a broader keyword or change the specialty.
+          Can't find what you're looking for? <a href="mailto:contactmaterea@gmail.com?subject=Template%20Request" className="text-indigo-500 hover:underline">Request a template</a>.
         </p>
       </div>
     );

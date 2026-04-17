@@ -92,6 +92,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
     const [result, setResult] = useState<{ result: string | number; interpretation: string; recommendation?: string, color?: string, redFlag?: string } | null>(null);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
     const [showExplanation, setShowExplanation] = useState(false);
+    const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
         const handleResize = () => {
@@ -101,12 +102,21 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
+    const filteredCalculators = useMemo(() => {
+        if (!searchTerm) {
+            return calculators;
+        }
+        return calculators.filter(calculator =>
+            calculator.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+    }, [searchTerm]);
+
     const groupedCalculators = useMemo(() => {
-        return calculators.reduce((acc, calculator) => {
+        return filteredCalculators.reduce((acc, calculator) => {
             (acc[calculator.category] = acc[calculator.category] || []).push(calculator);
             return acc;
         }, {} as { [key: string]: Calculator[] });
-    }, []);
+    }, [filteredCalculators]);
 
     const handleCalculatorChange = (calculator: Calculator) => {
         setSelectedCalculator(calculator);
@@ -171,6 +181,18 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
             <div className="flex-1 overflow-y-auto md:overflow-hidden custom-scrollbar flex flex-col md:flex-row p-4 gap-4">
                 {/* ===== Calculator List ===== */}
                 <div className={`md:w-1/3 shrink-0 md:overflow-y-auto custom-scrollbar p-2 ${selectedCalculator ? 'hidden md:flex flex-col' : 'flex flex-col w-full'}`}>
+                    <div className="p-2 mb-4">
+                        <div className="relative">
+                            <i className="fa-solid fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                            <input
+                                type="text"
+                                placeholder="Search calculators..."
+                                value={searchTerm}
+                                onChange={e => setSearchTerm(e.target.value)}
+                                className="w-full bg-slate-100 dark:bg-slate-800 border-transparent focus:bg-white dark:focus:bg-slate-900 border-2 focus:border-indigo-500 focus:ring-0 rounded-lg pl-10 pr-4 py-2 text-sm transition-colors"
+                            />
+                        </div>
+                    </div>
                     <div className="space-y-6">
                         {Object.entries(groupedCalculators).map(([category, calcs]) => (
                             <div key={category}>

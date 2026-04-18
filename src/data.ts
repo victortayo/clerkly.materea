@@ -45266,4 +45266,994 @@ Postpartum review at day 3 and at 6 weeks. Haemoglobin check before discharge. I
   `,
   bookmarkCount: 0
 },
+{
+  id: 'ob-35',
+  title: 'Umbilical Cord Prolapse with Fetal Distress',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Emergency Obstetrics',
+  condition: 'Umbilical cord prolapse with fetal bradycardia in a multigravid woman at term in active labour',
+  symptoms: [
+    'Sudden gush of fluid per vaginam followed by cord extrusion',
+    'Cord-like structure protruding through the vaginal introitus',
+    'Reduced fetal movements',
+    'Fetal bradycardia (FHR 90 bpm)',
+    'Weak cord pulsations',
+    'Presenting part high and not well applied to the cervix',
+    'Ongoing uterine contractions',
+    'No significant vaginal bleeding'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-17',
+  summary: 'Mrs A.A., a 29-year-old booked G3P2+0 (2 alive) woman presenting at 38 weeks + 2 days gestation with a 1-hour history of sudden rupture of membranes followed immediately by extrusion of the umbilical cord through the vaginal introitus and sudden reduction in fetal movements. Labour had been progressing normally prior to this event. No trauma, no significant vaginal bleeding. Booking investigations: PCV 34%, blood group O positive, genotype AA, HIV negative. Previous obstetric history: two uncomplicated term spontaneous vaginal deliveries in 2018 and 2021. Examination reveals an anxious, distressed woman, haemodynamically stable (BP 110/70 mmHg, PR 100 bpm). Umbilical cord visibly protruding through the vaginal introitus with weak pulsations. FHR 90 bpm (bradycardia — acute fetal compromise). Presenting part high and not well applied to the cervix. Longitudinal lie, cephalic presentation. Diagnosis: umbilical cord prolapse with fetal distress. This is a Category 1 obstetric emergency — every minute without delivery increases the risk of fetal hypoxic brain injury and death. Immediate manual elevation of the presenting part, positioning, oxygen, and emergency caesarean section are life-saving.',
+  content: `
+Mrs A.A., a 29-year-old booked G3P2+0 (2 alive) trader, resident in Abeokuta, Ogun State, Muslim, Yoruba, married in a monogamous setting, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G3
+Parity: P2+0 (two term deliveries, no miscarriages)
+Living children: 2 alive
+LMP: 12/09/2025
+EDD: 19/06/2026
+EGA: 38 weeks + 2 days (term)
+
+PRESENTING COMPLAINTS
+Sudden passage of something through the vagina × 1 hour
+Reduced fetal movements × 1 hour
+
+HISTORY OF PRESENTING COMPLAINT
+She was in labour and progressing normally until approximately 1 hour prior to presentation when she experienced a sudden gush of fluid per vaginam (spontaneous rupture of membranes). Immediately following this, she noticed a soft cord-like structure protruding through the vagina.
+
+Shortly after this, she noticed a sudden reduction in fetal movements.
+
+There was no history of significant vaginal bleeding. Uterine contractions were ongoing at the time of this event. No history of trauma. Labour had been progressing normally prior to this event.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived. She booked at 16 weeks gestation and attended antenatal clinic regularly. Compliant with antenatal haematinics, received tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 34%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+
+Pregnancy was otherwise uneventful.
+
+PAST OBSTETRIC HISTORY
+2018: Term spontaneous vaginal delivery — no complications; child alive and well
+2021: Term spontaneous vaginal delivery — no complications; child alive and well
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No significant family history
+Married in a monogamous setting
+Does not smoke or take alcohol
+No use of herbal medications
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Pregnant woman, anxious and in distress
+Not pale, not icteric
+Afebrile (36.8°C)
+
+Vital Signs:
+BP: 110/70 mmHg (normal — haemodynamically stable)
+PR: 100 bpm (mild tachycardia — from anxiety and pain)
+RR: 22 cpm (slightly elevated)
+Temperature: 36.8°C (afebrile)
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 36 cm (appropriate for term gestation; slight discrepancy from EGA may reflect engagement or normal variation)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterine contractions present and ongoing
+
+Auscultation:
+Fetal heart rate: 90 bpm (severe bradycardia — normal range 110–160 bpm; this confirms acute fetal compromise)
+
+Pelvic Examination:
+Umbilical cord visibly protruding through the vaginal introitus
+Cord pulsations: weak (reduced fetal cardiac output from cord compression)
+Presenting part: high and not well applied to the cervix (the descent of the cord below the presenting part is facilitated by the high station — cord compression worsens with uterine contractions as the presenting part descends and compresses the cord against the pelvic inlet)
+
+ASSESSMENT
+
+Umbilical cord prolapse with acute fetal distress in a multigravid woman at term
+
+Diagnosis based on:
+
+Definition of umbilical cord prolapse:
+Descent of the umbilical cord below the presenting part, through the cervix and into the vagina, in the presence of ruptured membranes
+Distinguished from:
+Cord presentation: cord below the presenting part but membranes still intact (less urgent — no direct cord compression until membranes rupture)
+Occult cord prolapse: cord alongside the presenting part but not visible on examination (cord compression still occurs; may be detected by FHR abnormalities)
+This patient: overt (complete) cord prolapse — cord visible at the introitus; most urgent form
+
+Mechanism of fetal compromise:
+The prolapsed cord is compressed between the presenting part (fetal head) and the maternal pelvis (bony pelvis, pelvic soft tissues, or the cervix)
+Cord compression obstructs umbilical blood flow:
+Umbilical vein compression: reduces oxygenated blood from placenta to the fetus
+Umbilical artery compression: reduces deoxygenated blood return from fetus to placenta — but also represents a reflex vasoconstrictive response to hypoxia
+Result: fetal hypoxia → fetal bradycardia (as seen here at 90 bpm) → anaerobic metabolism → metabolic acidosis → hypoxic-ischaemic injury to the brain and other organs → fetal death if not relieved
+The higher the presenting part above the cord, the less compression initially — but every uterine contraction forces the presenting part downward against the cord, intermittently or continuously compressing it
+In this patient: weak cord pulsations + FHR 90 bpm = significant cord compression and fetal hypoxia already occurring
+
+Why this is a Category 1 obstetric emergency:
+The fetus can sustain irreversible hypoxic brain injury within 5–10 minutes of complete cord compression
+Fetal death can occur within 10–15 minutes of sustained complete cord occlusion
+The decision-to-delivery interval (DDI) is the most critical determinant of neonatal outcome — DDI less than 30 minutes is the target for cord prolapse
+Every minute of delay from diagnosis to delivery increases the risk of hypoxic-ischaemic encephalopathy, cerebral palsy, and perinatal death
+
+Predisposing factors — why cord prolapse occurred in this patient:
+
+High presenting part (not well applied to the cervix):
+The space between the presenting part and the cervix allows the cord to slip past the presenting part when the membranes rupture
+In this patient: multigravid woman with a high station at the time of membrane rupture — a known risk factor
+
+Multiparity (G3P2+0):
+Multiparous women have a laxer uterus and often a higher presenting part in early or active labour compared to nulliparous women
+Higher station at membrane rupture increases cord prolapse risk
+
+Other recognised risk factors (review for completeness — some not applicable to this patient):
+Malpresentation: breech, transverse, and oblique lie (the presenting part does not completely occlude the cervix, leaving space for cord descent) — not applicable here (cephalic)
+Polyhydramnios: excessive amniotic fluid leads to a forceful gush on membrane rupture, which can carry the cord down
+Preterm birth: the presenting part is smaller relative to the cervix
+Multiple gestation: particularly for the second twin after delivery of the first
+Amniotomy (artificial rupture of membranes): particularly when the presenting part is high — iatrogenic cord prolapse is a recognised complication of poorly-timed amniotomy; this patient had spontaneous rupture but the principle is important
+Long umbilical cord: a longer cord has greater likelihood of descending below the presenting part
+Low-lying placenta or placenta praevia: alters the presenting part relationship to the cervix
+In this patient: multiparity and a high presenting part at the time of spontaneous membrane rupture are the most likely predisposing factors
+
+Severity of fetal compromise:
+FHR 90 bpm (bradycardia): represents a class IV FHR pattern (the most severe — also called a terminal bradycardia or prolonged deceleration)
+FHR below 100 bpm for more than 3 minutes is associated with progressive metabolic acidosis
+Weak cord pulsations: confirms reduced umbilical blood flow
+Reduced fetal movements: consistent with fetal hypoxia and reduced CNS activity
+The fetus is in immediate danger — delivery must be achieved within the shortest possible time
+
+Differential diagnoses:
+
+Placental abruption:
+Can cause sudden change in fetal heart rate and maternal distress
+However: associated with painful, tense uterus, vaginal bleeding, and no visible cord — clinically distinct
+A visible cord at the introitus is pathognomonic of cord prolapse — no further diagnostic uncertainty exists
+
+Fetal distress from other causes (true variable decelerations from cord compression in labour):
+Occult cord prolapse — cord alongside the presenting part but not visible
+FHR abnormalities without a visible cord on inspection may prompt vaginal examination to feel for the cord alongside the presenting part
+In this patient: the cord is visible at the introitus — the diagnosis is confirmed without ambiguity
+
+Vasa praevia:
+A fetal blood vessel from a velamentous cord insertion crosses the internal os below the presenting part
+On membrane rupture: the vessel tears and causes sudden painless fetal haemorrhage (bright red bleeding) and rapid fetal bradycardia
+The visible structure at the introitus would be a vessel rather than the cord — distinguishable by appearance (a single vessel vs the coiled structure of the umbilical cord)
+However: the history (cord-like structure described by the patient) and examination (cord visible at introitus with pulsations) confirm cord prolapse
+
+PLAN
+
+This is a Category 1 obstetric emergency. All steps below must be initiated simultaneously, not sequentially.
+
+Immediate Life-Saving Measures (These Must Be Initiated the Moment the Diagnosis Is Made — Before Any Investigations)
+
+Step 1 — Call for help:
+Senior obstetrician (most experienced available)
+Anaesthetist
+Neonatal resuscitation team (two clinicians — one to manage the airway, one for vascular access)
+Scrub nurse and theatre team
+Paediatric team for neonatal resuscitation
+
+Step 2 — Manual elevation of the presenting part (most critical immediate intervention):
+Purpose: to relieve cord compression immediately by physically lifting the presenting part off the prolapsed cord — this is the single most important intervention before delivery and can be maintained continuously until the baby is delivered
+Technique:
+Insert a gloved hand into the vagina (palm upward)
+Place fingers on the fetal presenting part (the fetal head)
+Firmly elevate the presenting part upward out of the pelvis — away from the cord
+The person performing this manoeuvre must maintain this position continuously, without releasing pressure, until the baby is delivered (in theatre, under anaesthesia)
+The hand does not come out of the vagina until the baby is delivered
+The anaesthetist must be informed that the obstetrician's hand will be in the vagina throughout induction and positioning — this requires coordinated theatre logistics
+This manoeuvre reduces cord compression, restores umbilical blood flow, and can improve FHR from severe bradycardia to a near-normal range within seconds — it buys time for theatre preparation
+
+Step 3 — Patient positioning:
+Knee-chest (all-fours) position: the most effective position for gravity-assisted relief of cord compression
+The presenting part falls away from the pelvis under gravity
+Can be maintained during transfer to theatre
+If the patient cannot maintain the knee-chest position (too weak, distressed, or in pain): left lateral Trendelenburg (head-down tilt with left lateral decubitus) — less effective than knee-chest but achieves partial gravity-assisted decompression
+Steep Trendelenburg (head down, pelvis up): also used — combined with manual elevation provides maximal decompression
+The position chosen must allow the manual hand to remain in the vagina — the obstetrician performing elevation guides the choice of position
+Maintain the chosen position throughout transfer, induction of anaesthesia, and until uterine incision in theatre
+
+Step 4 — Do NOT handle the cord excessively:
+The cord must not be pushed back into the vagina (risk of further cord compression and vasospasm)
+The cord must not be manipulated with instruments or compressed between fingers
+If the cord is protruding and exposed to air outside the vagina: wrap it gently in a warm sterile saline-soaked gauze (to prevent vasospasm from cold and desiccation — these can worsen cord spasm and reduce umbilical blood flow)
+Do not attempt to replace the cord into the uterus
+
+Step 5 — Oxygen:
+High-flow oxygen via non-rebreather face mask (10–15 L/min) to the mother
+Increases maternal alveolar PO₂ → increases umbilical venous PO₂ → delivers more oxygen to the fetus through whatever cord blood flow is present
+Simple and effective adjunct — but not a substitute for relieving cord compression
+
+Step 6 — Stop uterine contractions (tocolysis):
+Uterine contractions force the presenting part downward onto the cord and worsen cord compression — tocolysis provides temporary relief between Step 2 and delivery
+Options:
+Terbutaline 0.25 mg SC: beta-2 agonist; relaxes uterine smooth muscle; available at most Nigerian facilities; onset within 5 minutes; practical first-line tocolytic for this acute situation
+OR IV Salbutamol 100–200 mcg IV slowly (if IV access is established and Terbutaline is unavailable)
+OR Nifedipine immediate release 10–20 mg orally (slower onset — less ideal for this acute situation)
+GTN (glyceryl trinitrate) 400 mcg sublingual spray: extremely rapid onset (less than 1 minute); provides immediate uterine relaxation; particularly useful just before or during emergency caesarean section to facilitate uterine incision in a contracting uterus; available at many Nigerian hospitals and private pharmacies
+Practical note: Terbutaline SC is the most practical option in most Nigerian labour wards; GTN spray is useful if available
+
+Step 7 — Bladder filling (adjunct measure):
+Instilling 500–750 ml of Normal Saline into the bladder via a Foley catheter elevates the presenting part by physically raising the fetal head — as the bladder fills, it pushes the uterus (and the fetal head with it) upward, relieving cord compression
+Used as an adjunct to manual elevation and positioning, particularly during transfer to theatre when the manual hand position is challenging to maintain
+The bladder is drained immediately before the uterine incision is made in theatre
+Practical note: this technique is underutilised but simple, effective, and practical in any setting — a Foley catheter and a litre of Normal Saline are universally available
+It is particularly valuable for prolonged transfer times (long corridors, lifts, distances between labour ward and theatre)
+
+Step 8 — IV access and blood sampling:
+While Steps 1–7 are being performed by other team members:
+Insert one or two IV cannulae (18G or 16G)
+Blood samples: blood grouping and cross-matching (minimum 2 units), FBC, coagulation profile (baseline before possible emergency surgery)
+Commence IV Normal Saline at a maintenance rate
+
+Step 9 — Fetal monitoring during transfer and preparation:
+Continuous monitoring of fetal heart rate throughout
+If FHR improves with manual elevation, positioning, and tocolysis: a good prognostic sign — continue and proceed urgently to theatre
+If FHR remains severely bradycardic or deteriorates: escalate the urgency of theatre preparation; the decision-to-delivery interval must be minimised
+Practical note: Doppler or auscultation every 2 minutes during transfer if continuous CTG is not feasible
+
+Step 10 — Nil by mouth:
+The patient was in labour — assume a full stomach
+RSI anaesthesia mandatory for general anaesthesia
+
+Definitive Management — Emergency Delivery
+
+The method of delivery depends on the cervical status at the time of diagnosis:
+
+Scenario A — Cervix not fully dilated (most common):
+Emergency caesarean section is the definitive treatment
+Preparation:
+Anaesthetist prepares for RSI general anaesthesia (as described in obg-24 — Ketamine preferred in any haemodynamic compromise)
+Theatre team readied
+Patient positioned on the operating table maintaining manual elevation and knee-chest or Trendelenburg position
+The manual hand remains in the vagina throughout induction and positioning until uterine incision — coordinate explicitly with the anaesthetist and scrub team
+Incision:
+Lower segment transverse (Joel-Cohen or Pfannenstiel) if time allows and the surgeon is experienced
+Lower midline vertical incision if fastest access is required (no skin or fascia closure delay)
+In cord prolapse: speed of incision is paramount — the incision chosen is the one the surgeon can make fastest
+Uterine incision:
+Lower segment transverse uterine incision (Kerr incision): standard
+If dense adhesions from prior surgery, if the lower segment is poorly formed, or if a classical incision is required (very rare): vertical uterine incision
+Deliver the fetal head:
+After uterine incision: the obstetrician with the manual hand in the vagina pushes the fetal head upward through the vagina while the surgeon delivers the head through the uterine incision (fundal pressure from above by an assistant)
+This coordinated push-pull delivery avoids cord compression at the moment of delivery
+Pass the baby to the neonatal team immediately
+
+Scenario B — Cervix fully dilated (less common but possible in a multigravid woman in active labour):
+Immediate assisted vaginal delivery:
+If the presenting part is cephalic and the head is low enough: forceps or vacuum-assisted delivery is the fastest option
+Forceps (preferable in acute fetal distress with cord prolapse): apply forceps blades without waiting for a contraction; traction with the next contraction; delivers within 1–2 minutes in experienced hands
+Vacuum (ventouse): apply the cup to the flexion point; traction with maternal effort and contractions; slightly slower than forceps in an emergency
+Conditions required for instrumental delivery:
+Fully dilated cervix
+Vertex presentation
+Presenting part at station 0 or below (preferably +1 or lower)
+Clinically adequate pelvis
+No contraindication to instrumental delivery
+Experienced operator
+In this patient: presenting part is high and not well applied to the cervix — this suggests the station is not low enough for immediate instrumental delivery; emergency caesarean section is likely the appropriate route
+If a multigravid patient has a second-stage cord prolapse (fully dilated, head at station +2 or lower): immediate forceps delivery is the fastest and most appropriate response
+
+Scenario C — Fetal demise confirmed during preparation:
+If the fetal heart disappears completely and is absent for more than 5–10 minutes with no recovery despite all resuscitative measures: fetal demise has likely occurred
+In this scenario: the urgency of surgery is modified — caesarean section is no longer mandatory; the choice of delivery mode can prioritise maternal safety
+Vaginal delivery (expectant management or oxytocin augmentation) is preferred if the fetal heart remains absent
+If cord prolapse was the only indication for caesarean section and the fetus is confirmed dead: emergency caesarean section adds maternal surgical risk without fetal benefit
+However: this determination must be made by a senior obstetrician and confirmed — do not delay surgery based on absence of FHR if there is any uncertainty, as the fetus may be in profound bradycardia rather than dead
+
+In this patient: FHR is 90 bpm with weak cord pulsations — the fetus is bradycardic but not yet dead; emergency caesarean section must proceed immediately (the presenting part is high — instrumental delivery is not feasible)
+
+Intrapartum Antibiotic Prophylaxis:
+IV Cefazolin 2 g (or IV Benzylpenicillin if GBS prophylaxis is indicated) at induction of anaesthesia
+Standard prophylaxis for emergency caesarean section
+
+Active Management of the Third Stage:
+IV Oxytocin 10 units IM or slow IV immediately after delivery of the baby
+Controlled cord traction after signs of placental separation
+Prevents postpartum haemorrhage (this patient has been in active labour — uterine atony risk after rapid emergency delivery is real)
+
+Neonatal Resuscitation
+
+Neonatal resuscitation team must be present and fully prepared at the operating table before the baby is delivered:
+
+Expected condition of the baby:
+FHR of 90 bpm before delivery suggests significant fetal hypoxia
+The neonate may be born with: low Apgar score (0–4), no spontaneous respirations, absent or poor tone, cyanosis or pallor, absent or slow heart rate
+The neonatologist must be prepared for full resuscitation including endotracheal intubation, positive pressure ventilation, cardiac compressions, and IV adrenaline
+
+Equipment to have prepared:
+Radiant warmer or incubator (warm, dry environment for the neonate)
+Suction device and bulb syringe
+Bag-mask (Neopuff or Ambu bag) with oxygen
+Laryngoscope (neonatal blade size 0 or 1) and endotracheal tubes (size 3.0–3.5 mm uncuffed)
+IV or intraosseous access equipment
+Emergency drugs: IV Adrenaline (Epinephrine) 1:10,000 solution; Sodium bicarbonate (if available); IV Dextrose 10%
+Practical note: at most Nigerian teaching hospitals, a neonatologist or senior paediatrician is present for all emergency deliveries; where unavailable, the most experienced person present must manage neonatal resuscitation
+
+Neonatal resuscitation steps (NRP — Neonatal Resuscitation Program):
+Dry, stimulate, and reposition the airway (head in neutral position)
+Assess: breathing, heart rate, colour
+If apnoeic or FHR less than 100 bpm: provide positive pressure ventilation (PPV) with bag-mask (21% oxygen initially for term neonates — titrate up to 100% if FHR less than 60 bpm)
+If FHR less than 60 bpm despite effective PPV for 30 seconds: commence cardiac compressions (3:1 ratio — 3 compressions to 1 ventilation)
+If FHR still less than 60 bpm: IV Adrenaline 0.01–0.03 mg/kg IV through umbilical venous catheter or peripheral IV
+If born flat (Apgar 0): attempt full resuscitation for at least 10 minutes before considering cessation — outcome in a term neonate with acute cord prolapse who receives immediate skilled resuscitation is often better than expected
+Practical note: all Nigerian tertiary hospitals should have access to neonatal resuscitation; secondary facilities should have access to basic bag-mask resuscitation at minimum
+
+Post-resuscitation assessment:
+Arterial blood gas (umbilical cord blood gas at delivery is the gold standard — collect from the cut cord immediately after delivery)
+Apgar scores at 1, 5, and 10 minutes
+Assess for HIE (hypoxic-ischaemic encephalopathy) — particularly if Apgar was very low and resuscitation was prolonged; consider therapeutic hypothermia (as described in ped-04)
+Neonatal blood glucose: within 30 minutes of delivery
+
+Postoperative and Postnatal Maternal Care
+
+Standard post-caesarean section monitoring:
+Vital signs every 15–30 minutes for the first 2 hours, then hourly for 4 hours, then 4-hourly
+Urine output: hourly via Foley catheter
+Wound inspection: daily from day 1
+Haemoglobin: 6–12 hours post-delivery
+IV fluids: maintain until tolerating oral intake (typically 12–24 hours)
+
+Antibiotics:
+Post-operative: IV Cefazolin 1 g every 8 hours for 24–48 hours (standard post-caesarean prophylaxis)
+Extend to broader cover if chorioamnionitis is suspected (no signs currently but ruptured membranes in labour increases risk)
+
+Analgesia:
+IV Paracetamol 1 g every 6–8 hours (regular)
+Oral or IV Tramadol 50–100 mg every 8 hours if additional pain relief is needed
+Reduce opioid use as early as possible
+Diclofenac (PR 100 mg) is a useful anti-inflammatory adjunct once the patient is tolerating oral medication
+
+Wound care:
+Review day 3 and day 7
+Suture or staple removal at day 7
+Encourage early mobilisation (day 1 post-caesarean with physiotherapy assistance)
+
+VTE prophylaxis:
+LMWH (Enoxaparin 40 mg SC daily): commence 12 hours after surgery and continue until fully mobile (minimum 6–8 weeks for emergency caesarean section)
+TED stockings
+
+Breastfeeding:
+Encourage skin-to-skin contact and breastfeeding as soon as the mother is awake and the neonate's condition allows
+If the neonate is in the NICU: support expressed breast milk and facilitate early maternal visits
+
+Psychological support:
+Emergency caesarean section is a frightening and potentially traumatic experience
+Debrief with the patient when she is stable: explain what happened and why, what was done during surgery, the condition of the baby
+If the neonatal outcome is poor: bereavement support as described in ped-04 and obg-24
+
+Counselling
+
+Immediate explanation (before surgery):
+Keep this brief — every second matters before the decision to operate
+Explain simply: the umbilical cord (the baby's lifeline) has come down and is being squeezed, which is reducing the oxygen supply to the baby; the baby's heart rate is very slow, showing that the baby is in danger; an emergency operation (caesarean section) is needed immediately to deliver the baby and save its life; this is being done as quickly as possible
+Obtain verbal consent and document — if the patient is unable to consent, involve the husband or nearest relative and document the emergency decision
+
+After surgery — when the patient is stable:
+Explain what cord prolapse is and why it occurred: the cord came down when the waters broke; the baby's head was high, leaving space for the cord to slip below it; this is not caused by anything she did
+Explain the emergency that occurred and the emergency surgery that was performed
+Discuss the condition of the baby honestly and compassionately — if the baby required resuscitation and is in the NICU, explain the current situation and what to expect
+If the neonatal outcome is good: reassure and celebrate the safe delivery with the family
+If the neonatal outcome is poor: bereavement support (as detailed in previous cases)
+
+Future pregnancies:
+She now has one caesarean section scar — counselling on VBAC versus planned repeat caesarean section for future pregnancies is required at the 6-week postnatal review
+Cord prolapse risk is not significantly increased in future pregnancies solely from this event unless predisposing factors persist (high presenting part, polyhydramnios, malpresentation)
+She should book early in future pregnancies and attend all antenatal appointments
+
+Prevention — for community and healthcare system awareness:
+Cord prolapse following spontaneous or artificial rupture of membranes is more likely when the presenting part is high
+Amniotomy (artificial rupture of membranes) must only be performed by a skilled attendant who confirms the presenting part is well-engaged (at or below the ischial spines) before membrane rupture
+If the presenting part is high or mobile: artificial rupture of membranes is contraindicated unless it is done under controlled conditions in theatre with immediate caesarean section capability
+Labour ward staff must be trained to check for cord prolapse immediately after any spontaneous or artificial rupture of membranes — the first vaginal examination after membrane rupture must specifically exclude cord prolapse
+
+PROGNOSIS
+
+Maternal prognosis:
+Excellent — the mother is haemodynamically stable and has no additional comorbidities
+Emergency caesarean section carries standard surgical risks (bleeding, infection, VTE) which are managed with routine postoperative care
+She now has one uterine scar — inform her for future pregnancy planning
+
+Neonatal prognosis:
+Directly dependent on the decision-to-delivery interval (DDI) and the effectiveness of the immediate pre-delivery measures (manual elevation, positioning, tocolysis)
+FHR of 90 bpm at presentation: represents significant fetal compromise but not necessarily irreversible injury
+DDI less than 30 minutes: associated with good neonatal outcomes in the majority of cases
+DDI greater than 30 minutes: risk of HIE, cerebral palsy, and perinatal death increases significantly
+If cord compression was effectively relieved by manual elevation before delivery and the DDI was short: the neonate has a reasonable chance of a good outcome even with initial bradycardia
+If the neonate required prolonged resuscitation: outcome depends on severity and duration of hypoxia; HIE assessment and cooling should be considered (as described in ped-04)
+Weak cord pulsations at presentation: suggests already significant reduction in cord blood flow — a concerning prognostic sign, but not a deterministic one
+
+Factors determining outcome:
+Speed from diagnosis to delivery (DDI) — the single most important factor
+Effectiveness of manual elevation and positioning in relieving cord compression before delivery
+Quality of neonatal resuscitation at delivery
+Whether therapeutic hypothermia can be initiated promptly if HIE is confirmed
+
+FOLLOW-UP
+Postnatal review at day 3 and at 6 weeks. Wound check and haemoglobin at 6-week visit. Contraceptive counselling and family planning discussion (now has one caesarean scar). VBAC versus elective repeat caesarean section counselling for any future pregnancy. Neonatal follow-up: NICU review daily while inpatient; neurodevelopmental assessment at 3, 6, 12, and 24 months corrected age if HIE was diagnosed; hearing and vision screening. Debriefing with patient regarding the emergency — offer counselling or psychology referral if psychological trauma is evident.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'ob-36',
+  title: 'Ruptured Uterus',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Emergency Obstetrics',
+  condition: 'Ruptured uterus in a scarred uterus at term with intra-abdominal haemorrhage, haemodynamic shock, and fetal demise',
+  symptoms: [
+    'Sudden severe tearing abdominal pain',
+    'Cessation of uterine contractions',
+    'Vaginal bleeding',
+    'Absent fetal movements',
+    'Absent fetal heart sounds',
+    'Hypovolaemic shock (BP 90/60 mmHg, pulse 120 bpm thready)',
+    'Fetal parts palpable superficially',
+    'Presenting part no longer engaged',
+    'Previous caesarean section scar',
+    'Referred from peripheral facility in active labour'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-17',
+  summary: 'Mrs K.O., a 33-year-old booked G4P2+1 (2 alive) trader presenting at 39 weeks + 1 day gestation with a 1-hour history of sudden severe tearing abdominal pain that was markedly different from her preceding labour pains, simultaneous cessation of uterine contractions, moderate vaginal bleeding, and complete loss of fetal movements. Previous obstetric history: term spontaneous vaginal delivery in 2016, emergency caesarean section for prolonged labour in 2019, and first trimester miscarriage in 2022. Uterine scar from prior caesarean section confirmed. Referred from a peripheral facility where she had been in active labour — use of uterotonic agents could not be confirmed. Booking PCV 32%, blood group O positive. Examination reveals a critically ill, pale, restless woman in hypovolaemic shock (BP 90/60 mmHg, PR 120 bpm thready, RR 26 cpm). Abdomen tense and tender with generalised tenderness, uterus not clearly delineable, fetal parts easily palpable superficially, presenting part no longer engaged, no effective uterine contractions. Fetal heart sounds absent. Diagnosis: complete uterine rupture in a scarred uterus with intra-abdominal haemorrhage, haemodynamic shock, and fetal demise. This is an obstetric emergency — immediate resuscitation and emergency laparotomy are life-saving.',
+  content: `
+Mrs K.O., a 33-year-old booked G4P2+1 (2 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G4
+Parity: P2+1 (two term deliveries, one miscarriage)
+Living children: 2 alive
+LMP: 20/09/2025
+EDD: 27/06/2026
+EGA: 39 weeks + 1 day (term)
+
+PRESENTING COMPLAINTS
+Sudden severe abdominal pain × 1 hour
+Cessation of labour pains × 1 hour
+Vaginal bleeding × 1 hour
+
+HISTORY OF PRESENTING COMPLAINT
+She had been in active labour for several hours prior to presentation, with regular strong contractions progressing normally.
+
+Approximately 1 hour prior to presentation, she suddenly developed a severe generalised abdominal pain. The pain was described as tearing in nature, constant, and markedly different in character from the intermittent labour pains she had been experiencing.
+
+Immediately following the onset of this pain, she noticed a sudden cessation of uterine contractions.
+
+This was associated with moderate vaginal bleeding, not associated with passage of clots, and a sudden reduction in fetal movements that subsequently progressed to complete absence.
+
+She complained of generalised weakness, dizziness, and had an episode of near-syncope.
+
+No history of abdominal trauma.
+
+She was initially managed at a peripheral facility where she had been in labour before being referred. Use of uterotonic agents such as oxytocin or misoprostol at the referring facility could not be confirmed.
+
+No history of fever or foul-smelling vaginal discharge prior to this event.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived. She booked at 20 weeks gestation and attended antenatal clinic irregularly. She has been on antenatal haematinics.
+
+Booking investigations:
+PCV: 32%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+
+PAST OBSTETRIC HISTORY
+2016: Term spontaneous vaginal delivery — no complications
+2019: Emergency caesarean section for prolonged labour
+2022: First trimester spontaneous miscarriage
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+Previous lower segment caesarean section (uterine scar present)
+No other known chronic illness
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No significant family history
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Critically ill-looking woman
+Restless, pale
+In obvious distress
+Weak, appearing to be in shock
+
+Vital Signs:
+BP: 90/60 mmHg (hypotension — hypovolaemic shock)
+PR: 120 bpm, thready (tachycardia — shock)
+RR: 26 cpm (tachypnoea — compensatory)
+Temperature: 36.5°C (low-normal — early haemorrhagic shock causes mild hypothermia)
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen tense and tender
+
+Palpation:
+Generalised abdominal tenderness (intraperitoneal blood causing peritoneal irritation)
+Uterus difficult to delineate (uterus has lost its normal shape — ruptured and contents extruded)
+Fetal parts easily palpable superficially (fetus or parts of the fetus now in the peritoneal cavity)
+Previously presenting part no longer engaged (retraction of fetus through the rupture into the abdomen)
+No effective uterine contractions
+
+Auscultation:
+Fetal heart sounds: absent (fetal demise)
+
+Pelvic Examination:
+Moderate vaginal bleeding
+Presenting part high and no longer engaged
+Cervical findings variable (may be fully dilated from preceding active labour)
+
+ASSESSMENT
+
+Complete uterine rupture in a scarred uterus at term, with intra-abdominal haemorrhage, haemodynamic shock, and fetal demise
+
+Diagnosis based on:
+
+Definition of uterine rupture:
+Full-thickness disruption of the uterine wall, including the serosa, myometrium, and endometrium, during pregnancy or labour
+Results in extrusion of fetal parts or the entire fetus into the peritoneal cavity
+Distinguished from uterine dehiscence (incomplete rupture — only the myometrium tears; the overlying peritoneum remains intact, bleeding is less severe, the fetus remains in the uterine cavity, and fetal heart sounds are usually preserved)
+This patient: complete rupture — fetal parts palpable superficially (fetus in the peritoneal cavity), absent fetal heart sounds, and haemodynamic shock
+
+Pathophysiology in this patient:
+Previous caesarean section (2019) created a scar in the lower uterine segment
+The lower uterine segment scar is thinner, less vascular, and has less muscle fibre content than normal myometrium — it has reduced tensile strength
+During labour, the progressive rise in intrauterine pressure from contractions exerts maximal stress on the weakest point of the uterus — the scar
+When the mechanical forces exceed the tensile strength of the scar tissue, rupture occurs — abruptly and catastrophically
+The rupture releases uterine contents (fetus, placenta, amniotic fluid, blood) into the peritoneal cavity
+Intraperitoneal haemorrhage from torn uterine vessels causes haemodynamic shock
+Peritoneal irritation from blood causes generalised abdominal rigidity and tenderness
+
+Classic triad of uterine rupture — all present in this patient:
+Sudden severe abdominal pain (tearing, constant — distinct from contractions): present
+Cessation of uterine contractions (the uterus can no longer contract effectively once ruptured): present
+Recession or disappearance of the presenting part (fetus extruded into the peritoneal cavity): present — presenting part no longer engaged, fetal parts palpable superficially
+
+Additional confirming features:
+Haemodynamic shock (BP 90/60 mmHg, PR 120 bpm thready): from intraperitoneal haemorrhage — the rate of blood loss from uterine rupture can be 1–2 litres per minute
+Absent fetal heart sounds: confirms fetal demise — occurs rapidly after rupture as umbilical cord is compressed or placenta separates
+Generalised abdominal tenderness: intraperitoneal blood is intensely irritating to the peritoneum
+Vaginal bleeding: from the disrupted uterine vessels and placental bed — bleeding may be internal (peritoneal) or external (vaginal); quantity of external bleeding may underestimate total blood loss significantly
+
+Risk factors for uterine rupture in this patient:
+
+Previous caesarean section (most important risk factor):
+Lower segment uterine scar is the most common predisposing factor for uterine rupture in high-income and low-income countries
+Risk of rupture with a trial of labour after one previous caesarean section (TOLAC/VBAC): approximately 0.5–1%
+Risk is higher with: classical (vertical) uterine incision (2–9% rupture rate — much higher than lower segment transverse incision); two or more previous caesarean sections; previous uterine rupture; short inter-pregnancy interval (less than 18–24 months between caesarean section and next delivery); use of uterotonic agents to induce or augment labour with a scarred uterus (risk 2–3 times higher with oxytocin or misoprostol in VBAC)
+
+Grand multiparity (G4P2+1):
+Multiparity alone increases uterine rupture risk (myometrial thinning and reduced elasticity with increasing parity)
+The combination of prior caesarean section and grand multiparity significantly compounds the risk
+
+Unknown use of oxytocin or misoprostol at the referring facility:
+Cannot be confirmed or excluded in this patient
+Excessive oxytocin augmentation in a scarred uterus is a well-documented precipitant of uterine rupture in Nigeria — this must be acknowledged as a possible contributing factor
+Misoprostol use in a woman with a previous uterine scar is a major risk factor for catastrophic uterine rupture and is generally contraindicated
+
+Irregular antenatal attendance:
+Booked at 20 weeks gestation and attended irregularly — reduced opportunity for antenatal counselling on scar risks and birth planning
+
+Booking anaemia (PCV 32%):
+Pre-existing anaemia significantly worsens the haemodynamic impact of intraoperative blood loss — even moderate intraoperative haemorrhage in an already anaemic patient will produce proportionally more severe haemodynamic compromise
+
+Delay in presentation:
+Referred from a peripheral facility after the rupture had already occurred — the delay between rupture and definitive surgery increases mortality and morbidity proportionally
+Every minute without haemostasis in uterine rupture represents ongoing blood loss of potentially hundreds of millilitres
+
+Classification of uterine rupture:
+
+By completeness:
+Complete (true) rupture: full-thickness tear through all three layers (endometrium, myometrium, serosa) with extrusion of uterine contents into the peritoneal cavity — this patient
+Incomplete (dehiscence): myometrial tear only; serosa intact; fetus remains in uterine cavity; haemodynamic status usually preserved; may be an incidental intraoperative finding
+
+By location:
+Lower segment rupture (most common in scarred uteri): occurs along the previous caesarean scar line; may extend laterally to involve the broad ligament and uterine vessels
+Upper segment rupture (rare; more common in unscarred uteri with obstructed labour or oxytocin misuse): more catastrophic; higher blood loss; higher mortality
+Cervical rupture: may extend from cervix into lower segment or bladder
+
+By aetiology:
+Scarred uterus: previous caesarean section (most common), previous myomectomy, cornual resection
+Unscarred uterus: obstructed labour, excessive oxytocin, grandmultiparity, uterine anomaly, placenta percreta
+This patient: scarred uterus rupture
+
+Complications that have already occurred and those requiring prevention:
+Maternal haemorrhagic shock: already present (BP 90/60 mmHg, PR 120 bpm) — requires immediate resuscitation
+Fetal demise: already confirmed (absent FHS) — irreversible
+DIC: developing or imminent (massive blood loss consumes clotting factors; peritoneal haemorrhage activates the coagulation cascade) — monitor and treat
+Acute kidney injury: from renal hypoperfusion during shock — monitor urine output
+Bladder injury: the bladder is intimately related to the lower uterine segment and is the most commonly injured adjacent organ during rupture — check for haematuria; assess at laparotomy
+Ureter injury: less common; more likely if rupture extends laterally to the broad ligament
+Infection: peritonitis from prolonged intraperitoneal haemorrhage and possible bowel involvement — administer broad-spectrum antibiotics
+
+Differential diagnoses (these should be rapidly considered and excluded clinically):
+
+Placental abruption (severe):
+Painful, tense uterus; maternal shock; fetal distress or demise
+Key differences: the uterus remains palpable and contracted (woody-hard board-like uterus); fetal parts are not superficially palpable; presenting part remains engaged; no sudden cessation of contractions; uterus retains its shape
+In this patient: fetal parts superficially palpable, presenting part no longer engaged, uterus not delineable — these findings are incompatible with abruption alone
+
+Placenta praevia with major haemorrhage:
+Painless bright red vaginal bleeding
+No uterine tenderness, no shock from intraperitoneal haemorrhage
+Fetal heart sounds usually present (unless severe)
+Uterus palpable and soft
+Not consistent with the tearing pain, cessation of contractions, and superficially palpable fetal parts in this patient
+
+Cord prolapse:
+Prolapsed umbilical cord through the cervix causing acute fetal compromise
+Does not cause maternal haemodynamic shock, abdominal tenderness, or loss of uterine contour
+Fetal demise can occur but mechanism is different
+
+All three differentials are readily excluded by the combination of superficially palpable fetal parts, non-delineable uterus, absent fetal heart sounds, absent contractions, and haemodynamic shock — this clinical picture is pathognomonic of uterine rupture.
+
+PLAN
+
+This is a Category 1 obstetric emergency — the highest level of urgency. Death can occur within minutes if action is not taken immediately.
+
+Simultaneous Resuscitation and Theatre Preparation (These Must Happen at the Same Time — Not Sequentially)
+
+Call for help:
+Senior obstetrician (most experienced available — this patient requires the highest surgical skill)
+Anaesthetist (general anaesthesia will be required — no time for regional anaesthesia in haemodynamic shock)
+Theatre team: scrub nurse, circulating nurse, theatre orderlies
+Haematologist or blood bank team
+Additional nursing support
+Activate the massive obstetric haemorrhage protocol
+
+Airway and Breathing:
+High-flow oxygen via non-rebreather face mask (10–15 L/min)
+Target SpO₂ greater than 95%
+Anticipate need for rapid sequence intubation (RSI) at induction of general anaesthesia
+
+Circulation — immediate resuscitation:
+Two wide-bore IV cannulae (14G) in both antecubital fossae simultaneously
+Blood samples urgently (all from the same venepuncture if possible):
+Full blood count (haemoglobin, platelet count)
+Blood grouping and cross-matching (request minimum 4–6 units of packed red cells as emergency)
+Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer — DIC screen)
+Serum electrolytes, urea, creatinine
+Blood glucose
+
+Activate massive transfusion protocol:
+Request emergency release of O positive packed red cells if O positive cross-matched blood not immediately available (patient is O positive — O positive red cells are safe)
+Activate 1:1:1 ratio transfusion protocol:
+For every 4 units packed red cells: give 4 units fresh frozen plasma (FFP) and 1 unit platelets — reduces DIC from dilutional coagulopathy during massive transfusion
+Request minimum 4 units packed red cells, 4 units FFP, and 1 unit platelets from blood bank — escalate as needed
+Practical note: blood bank communication must happen immediately — the time from activation to first unit at the operating table can determine survival; blood bank and haematology must be called at the same time as theatre
+
+Fluid resuscitation (bridging to blood):
+IV Normal Saline or Ringer's Lactate 1 litre as fast as possible (wide open, use pressure bags if available)
+Continue rapid IV crystalloid until blood arrives
+Warm fluids (hypothermia worsens coagulopathy — use warming devices if available)
+Target resuscitation: systolic BP greater than 90 mmHg, pulse below 100 bpm — a damage-control target, not a final target; do not delay surgery to achieve perfect haemodynamic stability; the only definitive treatment for haemorrhage from uterine rupture is surgical haemostasis
+
+Urinary catheter:
+Insert Foley catheter immediately
+Hourly urine output monitoring (target greater than 30 ml/hr; oliguria = inadequate resuscitation or acute kidney injury)
+Inspect urine for haematuria (suggests bladder injury from uterine rupture)
+
+Tranexamic acid:
+IV Tranexamic acid 1 g (10 mg/kg) over 10 minutes — antifibrinolytic
+Inhibits plasminogen activation and prevents fibrinolysis
+Evidence (WOMAN trial): tranexamic acid given within 3 hours of onset of PPH significantly reduces death from haemorrhage — this patient's bleeding started 1 hour ago
+Give immediately, before transport to theatre
+Practical note: tranexamic acid is available at most Nigerian teaching hospitals and increasingly at secondary facilities; it is inexpensive
+
+Nil by mouth:
+The patient was in active labour — likely has a full stomach
+RSI technique mandatory for general anaesthesia (rapid sequence induction with cricoid pressure to prevent aspiration)
+
+Note at time of consent:
+The patient is in shock and may not be fully oriented — if she is able to provide consent: obtain it rapidly and document
+If she is not able to consent: involve next of kin (husband) immediately; a life-saving emergency procedure can be performed without formal consent in a life-threatening emergency — document the clinical decision-making clearly and contemporaneously
+
+Emergency Laparotomy — Definitive Management
+
+Timing: immediately — no investigations should delay theatre; theatre should be entered within 30 minutes of the decision (ideally less)
+
+Anaesthesia:
+General anaesthesia with rapid sequence induction (RSI):
+Pre-oxygenation for 3 minutes (or 8 vital capacity breaths)
+IV Ketamine 1–2 mg/kg (preferred induction agent in haemodynamic shock — maintains cardiovascular tone unlike propofol which causes profound vasodilation in a shocked patient) OR IV Thiopentone 3–5 mg/kg (if Ketamine unavailable; use lower dose in shocked patients)
+IV Suxamethonium 1.5 mg/kg for rapid paralysis
+Sellick's manoeuvre (cricoid pressure): apply from induction until cuff is inflated and tube placement confirmed
+Endotracheal intubation: confirmatory capnography and bilateral air entry
+Maintenance: Ketamine or volatile agent (halothane, isoflurane, sevoflurane) + neuromuscular blockade
+Practical note: Ketamine is widely available at most Nigerian facilities and is the most appropriate induction agent in this haemodynamically compromised patient
+
+Incision:
+Lower midline (vertical) incision from the umbilicus to the pubic symphysis:
+Fastest access to the abdominal cavity
+Allows extension upward if needed for complex repair
+Avoids the bladder (which may be injured)
+In an emergency, the midline laparotomy is preferred over Pfannenstiel (horizontal) incision which has limited exposure and cannot be rapidly extended
+Speed of entry to the abdomen is critical — every minute of continued haemorrhage worsens the patient's condition
+
+Intraoperative steps:
+
+Step 1 — Control haemorrhage:
+Immediately on entering the abdomen: the surgeon places their hand around the lower uterus/aorta to provide manual compression of the uterine vasculature while the situation is assessed
+Aspirate intraperitoneal blood (cell salvage if available — transfuse back after filtration)
+Identify and manually compress the major bleeding vessels
+
+Step 2 — Deliver the fetus:
+Remove the fetus and placenta from the peritoneal cavity (the fetus is already in or near the peritoneal cavity)
+Cord: clamp and cut
+Pass the fetus to the neonatology team — even though fetal heart sounds were absent, a neonatal resuscitation team should attempt resuscitation; an apparently dead fetus may have a cardiac rhythm that responds to resuscitation
+Document time of delivery
+
+Step 3 — Assess the extent of rupture:
+Inspect the uterine rupture site: location, length of tear, edges of the tear, extension
+Assess involvement of: broad ligament, uterine vessels, bladder (hold the bladder down and inspect its posterior surface), ureters (trace if parametrial involvement)
+Assess viability of the uterus for repair
+
+Step 4 — Surgical decision: repair versus hysterectomy:
+
+Option A — Uterine repair (uterine conservation):
+Indications:
+Clean, well-defined rupture edges with limited extension
+No involvement of major vessels
+Haemostasis achievable with repair
+Patient desires future fertility and is haemodynamically stable enough for a longer operation
+No significant bladder or ureteric involvement
+Procedure:
+Freshen the edges of the rupture (excise necrotic or ragged tissue)
+Repair in 2 layers using absorbable sutures (Vicryl 0 or 1):
+First layer: continuous or interrupted sutures approximating the myometrial edges
+Second layer: continuous inverting sutures covering the first layer and reinforcing the repair
+Confirm haemostasis at each layer
+Drain if needed (pelvic drain)
+Advantages: preserves uterus and future fertility; shorter operation time (relative)
+Disadvantages: risk of re-rupture in subsequent pregnancy (higher with upper segment rupture; repair of lower segment scar is more durable); risk of haemostasis failure requiring return to theatre
+
+Option B — Hysterectomy (definitive haemostatic surgery):
+Indications:
+Extensive, irreparable tear with ragged, devascularised edges
+Involvement of major vessels (uterine artery laceration, broad ligament haematoma)
+Uncontrollable haemorrhage from the rupture site despite repair attempts
+Patient has completed her family or is haemodynamically too unstable for a longer repair
+Concurrent uterine atony not responding to uterotonics (PPH added to rupture haemorrhage)
+Multiple previous caesarean sections with densely adherent placenta (placenta accreta spectrum)
+Type:
+Subtotal hysterectomy (supracervical): faster; removes the uterine body above the level of the cervix; less risk of bladder and ureter injury; appropriate when haemorrhage control is the primary goal and the cervix is not involved in the tear; sufficient for haemostasis in most cases of uterine rupture
+Total hysterectomy: removes the entire uterus including the cervix; required if the cervix is involved in the rupture, if there is a cervical tear extending from the rupture, or if cervical pathology coexists; longer operation with higher surgical risk
+Procedure (subtotal hysterectomy steps):
+Ligate and divide the round ligaments bilaterally
+Identify the broad ligament and uterine vessels
+Ligate the uterine arteries and veins bilaterally at the level of the internal os (Heaney or O'Brien clamps, transfixion sutures)
+Divide the uterus above the cervix
+Oversew the cervical stump
+Closure in layers
+Haemostasis confirmed before closure
+
+Decision in this patient:
+This patient has a lower segment rupture (most common site in scarred uteri)
+If the rupture edges are clean and well-defined, and haemostasis is achievable: repair is attempted — this patient is 33 years old with 2 living children; preservation of the uterus preserves future reproductive capacity
+If the rupture is extensive, bleeding is uncontrollable, or the patient's condition deteriorates on the table: proceed immediately to hysterectomy without hesitation — life over fertility
+The decision is made intraoperatively by the senior surgeon based on direct assessment of the injury
+
+Step 5 — Inspect adjacent organs:
+Bladder: inspect posterior surface carefully (haematuria on catheter suggests bladder involvement); if laceration identified — repair with two-layer absorbable suture (urology involvement if complex)
+Ureters: trace from the kidney to the bladder if there is significant parametrial extension of the rupture or broad ligament haematoma — ureteric injury requires urology consultation
+Bowel: inspect small bowel and large bowel for involvement (rare but can occur with upper segment rupture or very extensive lower segment tears)
+
+Step 6 — Peritoneal toilet:
+Thorough washout of the peritoneal cavity with several litres of warm Normal Saline
+Remove all blood, clots, amniotic fluid, and meconium (peritoneal contamination causes chemical and bacterial peritonitis)
+Irrigate until the washout fluid is clear
+
+Step 7 — Drains:
+Pelvic drain (Robinson drain or corrugated drain): placed in the pelvis before closure
+Monitors for ongoing haemorrhage in the immediate postoperative period
+Allows early detection of haematoma formation
+Practical note: drains are available at all Nigerian surgical facilities
+
+Step 8 — Abdominal closure:
+Close the abdomen in layers (mass closure with loop nylon or PDS for the rectus sheath in an emergency setting — strong and rapid)
+Skin closure: interrupted nylon sutures or skin staples
+If peritoneal contamination is severe: leave skin wound open for delayed primary closure to prevent wound infection
+
+Management of Coagulopathy (DIC)
+
+Massive haemorrhage from uterine rupture consumes clotting factors and triggers DIC:
+
+Clinical clues to DIC:
+Oozing from IV sites, wound edges, or intraperitoneal surfaces
+Inability to achieve haemostasis despite adequate surgical technique
+Dark, unclotting blood in the operative field
+Coagulation results: elevated PT, aPTT, INR; reduced fibrinogen (less than 1 g/L = severe); elevated D-dimer
+
+Management:
+Fresh frozen plasma (FFP): 15 ml/kg (approximately 4 units for this patient) — replaces all clotting factors
+Cryoprecipitate: 10 units if fibrinogen less than 1.5 g/L (provides concentrated fibrinogen and Factor VIII)
+Platelets: if platelet count less than 50 × 10⁹/L — transfuse 1 adult therapeutic dose (6–8 units pooled or 1 apheresis unit)
+Tranexamic acid: 1 g IV bolus (already given pre-operatively — can repeat 1 g if DIC is confirmed and fibrinolysis is suspected)
+Continue red cell transfusion in parallel
+The 1:1:1 ratio of red cells:FFP:platelets should guide product transfusion
+Definitive DIC treatment: removing the source of DIC (the ruptured uterus with its released tissue factor and placental fragments) is achieved by the surgery itself — removing the uterus resolves the stimulus for DIC
+Practical note: FFP is available at most Nigerian teaching hospitals; cryoprecipitate is available at most tertiary blood banks; call haematology team early
+
+Postoperative Care
+
+ICU or high-dependency unit (HDU) admission:
+All patients after emergency surgery for uterine rupture should be managed in ICU or HDU postoperatively
+Continuous monitoring of: vital signs, urine output, drain output, haemoglobin
+Alert for: ongoing haemorrhage (increasing drain output, falling BP, rising pulse), DIC, acute kidney injury, infection
+
+Monitoring:
+Vital signs: every 15 minutes for 1 hour, then every 30 minutes for 4 hours, then hourly for 24 hours
+Urine output: hourly (target greater than 30 ml/hr; oliguria = inadequate resuscitation or AKI)
+Drain output: document hourly; greater than 200 ml/hr of fresh blood = return to theatre
+Haemoglobin: at 6, 12, and 24 hours postoperatively
+Coagulation profile: at 6 hours post-surgery; repeat 12-hourly until normalising
+Electrolytes and renal function: every 12 hours for the first 48 hours
+Serum lactate: at 6 hours (guides resuscitation adequacy — normalisation indicates tissue perfusion restored)
+Temperature: every 2–4 hours (rising temperature after 24 hours suggests infection)
+
+Blood transfusion:
+Continue transfusion to maintain haemoglobin greater than 8 g/dL
+Serial haemoglobin guides ongoing transfusion requirement
+
+Antibiotics:
+Broad-spectrum IV antibiotics:
+IV Ceftriaxone 2 g once daily (covers gram-negative organisms and many gram-positive organisms)
+PLUS IV Metronidazole 500 mg every 8 hours (covers anaerobes — essential given intraperitoneal contamination with blood, amniotic fluid, and possibly meconium)
+PLUS IV Gentamicin 5 mg/kg once daily (if significant peritoneal contamination or clinical signs of infection at surgery — synergistic gram-negative cover)
+Duration: IV antibiotics for at least 48–72 hours; transition to oral antibiotics to complete 7–10 days based on clinical response
+Rationale: peritoneal contamination with blood and amniotic fluid (and possibly meconium) creates a high-risk environment for peritonitis and sepsis; prophylaxis is mandatory and should be considered therapeutic rather than prophylactic given the degree of contamination
+
+Analgesia:
+IV Paracetamol 1 g every 6–8 hours (regular, non-opioid baseline analgesia)
+IV Tramadol 50–100 mg every 8 hours or IV Morphine patient-controlled analgesia (if available) for moderate-to-severe postoperative pain
+Epidural analgesia postoperatively (if regional anaesthesia is established): not applicable here (general anaesthesia was used)
+
+IV fluids:
+Maintain IV fluids until oral intake is safely established (typically 24–48 hours after laparotomy)
+Switch to oral hydration when bowel sounds return and patient is alert
+
+Nasogastric tube:
+Consider if prolonged ileus is anticipated (large volume of intraperitoneal blood and contamination can cause ileus) — insert intraoperatively or in the recovery room; remove when bowel function returns
+
+Venous thromboembolism (VTE) prophylaxis:
+Risk is very high: emergency surgery + haemorrhagic shock + massive transfusion + prolonged immobility
+TED stockings and pneumatic compression devices: apply intraoperatively and maintain throughout hospital stay
+LMWH (Enoxaparin 40 mg SC daily): commence 24–48 hours postoperatively once haemostasis is confirmed (haemoglobin stable, drain output minimal)
+Continue until fully mobile (minimum 6–8 weeks given high VTE risk — particularly if hysterectomy was performed)
+
+Bladder care:
+Maintain Foley catheter for at least 5–7 days (longer if bladder repair was performed — 10–14 days)
+If bladder repair was performed: cystography before catheter removal (confirm watertight closure)
+Monitor for haematuria — clear urine by postoperative day 2 is reassuring
+
+Wound care:
+Daily wound inspection from postoperative day 1
+Keep wound clean and dry
+Remove sutures or staples at 7–10 days
+If wound was left open for delayed primary closure: daily wound dressing; close when wound is clean and granulating
+
+Nutritional support:
+Resume oral fluids when bowel sounds return (typically 24–48 hours after laparotomy)
+High-protein, high-calorie diet during recovery
+IV total parenteral nutrition only if prolonged ileus develops
+Iron supplementation orally as soon as tolerating diet (booking PCV was 32%; significant intraoperative blood loss will cause severe postoperative anaemia)
+IV iron (ferric carboxymaltose) if haemoglobin is very low and oral iron is insufficient
+
+Grief support:
+Acknowledge the loss of the baby with the patient and family
+This is a devastating concurrent loss — maternal survival was achieved at the cost of fetal demise
+Offer compassionate, honest communication regarding the baby
+Mortuary arrangements and burial: liaise with social worker and hospital mortuary
+Grief counselling: offer referral to a trained counsellor or clinical psychologist
+Allow the mother to see and hold the baby if she wishes — this is an important part of the grieving process and should not be denied
+
+Counselling
+
+Breaking the news — to the family and later the patient:
+This must be done sensitively and clearly, by a senior member of the medical team
+First priority: communicate the emergency and obtain consent for surgery from the next of kin if the patient cannot consent — this is not the time for lengthy explanation; explain that the situation is life-threatening and surgery is the only life-saving option
+After surgery: once the patient is stable, explain what happened comprehensively and compassionately
+
+Explanation of what happened:
+The womb ruptured during labour — the scar from the previous caesarean section gave way under the pressure of labour
+This is a very serious complication that required emergency surgery to save the mother's life
+The baby was delivered during the surgery but unfortunately could not be saved — the baby had already passed away before surgery could be performed
+
+Regarding the surgery:
+Explain whether the uterus was repaired or removed (hysterectomy), and why
+If hysterectomy was performed: explain clearly that the womb was removed to save her life; this means she will not be able to have any more pregnancies; the ovaries are preserved (if applicable) so she will not experience early menopause
+This information should be communicated by a senior clinician, in a private setting, with a trusted family member present
+
+Regarding the loss of the baby:
+Express condolences sincerely and compassionately
+Explain that the team did everything possible but the baby did not survive the rupture
+Grief is a natural and expected response — it is appropriate for the family to feel devastated
+Offer religious or spiritual support if requested
+
+Future pregnancy counselling (if uterine repair was performed):
+She must not attempt another pregnancy for at least 18–24 months (adequate time for uterine scar healing)
+Any future pregnancy carries a significant risk of recurrent uterine rupture (risk is higher than the original caesarean scar — a repaired rupture is weaker than an intact uterus)
+Future pregnancy (if she desires): must be managed at a tertiary centre with senior obstetric supervision; elective caesarean section at 37 weeks (before onset of labour) is mandatory
+She must not labour with a previously ruptured uterus
+She should present immediately to a hospital if labour pains begin in any future pregnancy
+Effective contraception (LMWH, then hormonal or barrier methods) should be used during the healing period
+
+If hysterectomy was performed:
+She will not be able to conceive again — this must be communicated clearly, compassionately, and at an appropriate time (not in the immediate postoperative period if she is still critically unwell)
+The decision was taken to save her life
+She will have a normal life expectancy and normal hormonal function if her ovaries were preserved
+Psychological support and grief counselling are strongly recommended
+
+Prevention — for future consideration and community learning:
+Women with a previous caesarean section must be counselled extensively in subsequent pregnancies about the risks of labour with a uterine scar (trial of labour after caesarean — TOLAC)
+TOLAC should only be offered at facilities capable of immediate emergency laparotomy and blood transfusion
+Uterotonic agents (oxytocin, misoprostol) must be used with extreme caution or avoided entirely in women with a uterine scar — particularly misoprostol (generally contraindicated for cervical ripening or labour augmentation in scarred uteri)
+Irregular antenatal attendance (this patient booked at 20 weeks and attended irregularly) reduces the opportunity for birth planning counselling — improving ANC attendance is a public health priority
+All facilities that conduct deliveries must have a protocol for immediate referral of women with uterine scars who develop warning signs of impending rupture (scar tenderness, abnormal fetal heart rate, slow labour progress)
+
+PROGNOSIS
+
+Maternal prognosis:
+With prompt emergency laparotomy and aggressive resuscitation: survival is achievable
+Mortality from uterine rupture in Nigeria and sub-Saharan Africa: approximately 5–30% (depending on time to surgery, blood availability, and facility capability) — significantly higher than in high-income countries (less than 1%)
+This patient's delay (transfer from peripheral facility) increases mortality risk
+If haemostasis is achieved surgically and coagulopathy is corrected: full maternal recovery is expected
+Major postoperative morbidities: acute kidney injury (from prolonged hypoperfusion), DIC-related coagulopathy, sepsis from peritoneal contamination, wound infection, and prolonged anaemia
+If AKI develops: the majority of cases are pre-renal and recover with adequate resuscitation; a minority develop acute tubular necrosis requiring dialysis support
+Long-term sequelae:
+If repair was performed: risk of recurrent rupture in subsequent pregnancy; patient must understand this risk before attempting future pregnancy
+If hysterectomy was performed: permanent loss of fertility; ovarian function preserved if oophorectomy not performed; possible bladder dysfunction if complex repair was required
+
+Fetal prognosis:
+Fetal demise already confirmed (absent fetal heart sounds on presentation)
+Irreversible at this stage
+The family must be supported through this loss
+
+Preventability of this outcome:
+This outcome was potentially preventable at multiple points:
+Early booking and regular antenatal attendance would have allowed better birth planning for a scarred uterus
+Delivery at a facility capable of emergency caesarean section for a woman with a previous uterine scar
+Avoidance of uterotonic agents in a scarred uterus at the peripheral facility
+Prompt recognition of scar dehiscence warning signs (scar tenderness, abnormal CTG, scar pain between contractions) before complete rupture occurred
+Earlier transfer to a tertiary centre after warning signs appeared
+
+FOLLOW-UP
+Daily review in ICU or HDU until haemodynamically stable, haemoglobin acceptable, renal function normalising, and afebrile for 48 hours. Drain removal when output is less than 50 ml per 24 hours and non-haemorrhagic. Foley catheter removal at day 5–7 (day 10–14 if bladder repair performed). Wound review at day 7. Haemoglobin check before discharge; oral iron supplementation continued for 3 months. Discharge when clinically stable (typically day 7–10). Postnatal review at 6 weeks: wound healing, haemoglobin, renal function, and psychological wellbeing. Grief counselling referral arranged before discharge. If uterine repair performed: contraception counselling; effective contraception for minimum 18–24 months; future pregnancy planning with senior obstetric consultant. If hysterectomy performed: confirm ovarian function; psychological support for loss of fertility; gynaecology follow-up at 3 months for hormonal and psychological assessment.
+`,
+bookmarkCount: 0
+},
+
 ];

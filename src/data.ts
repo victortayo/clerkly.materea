@@ -30435,7 +30435,7 @@ bookmarkCount: 0
     id: 'ob-1',
     title: 'Severe Pre-eclampsia',
     specialty: 'Obstetrics and Gynecology',
-    subSpecialty: 'Gynae Emergency',
+    subSpecialty: 'Gyne Emergency',
     condition: 'Pre-eclampsia',
     symptoms: ['High blood pressure', 'Proteinuria', 'Chronic hypertension', 'G5P3+1'],
     contributor: 'Admin',
@@ -31521,7 +31521,7 @@ No headache, visual disturbance, or epigastric pain.
 No chest pain or difficulty breathing.
 
 O/E
-Young pregnant woman, conscious and alert, in mild painful distress.
+Young woman, conscious and alert, in mild painful distress.
 Not pale, afebrile, anicteric, not dehydrated.
 No pedal oedema.
 
@@ -46255,5 +46255,1087 @@ Daily review in ICU or HDU until haemodynamically stable, haemoglobin acceptable
 `,
 bookmarkCount: 0
 },
+{
+  id: 'ob-37',
+  title: 'Severe Preeclampsia with Iatrogenic Preterm Delivery',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics',
+  condition: 'Severe preeclampsia at 32 weeks + 6 days gestation with maternal end-organ compromise, fetal tachycardia, and probable IUGR requiring expedited delivery',
+  symptoms: [
+    'Severe persistent frontal headache',
+    'Blurring of vision with flashes of light',
+    'Constant worsening epigastric pain',
+    'Generalised body weakness',
+    'Reduced fetal movements',
+    'Severe hypertension (BP 170/110 mmHg)',
+    'Fetal tachycardia (FHR 168 bpm)',
+    'Moderate generalised oedema',
+    'Symphysiofundal height 30 cm (less than expected for gestational age)',
+    'Previously commenced on antihypertensives at 30 weeks but defaulted follow-up'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-19',
+  summary: 'Mrs M.A., a 31-year-old booked G2P1+0 (1 alive) banker presenting at 32 weeks + 6 days gestation with a 3-day history of severe persistent frontal headache not relieved by simple analgesics, 2-day history of blurring of vision with flashes of light, and 1-day history of constant worsening epigastric pain with generalised weakness. She was noted to have elevated blood pressure at 30 weeks gestation and was commenced on antihypertensives but defaulted follow-up. Reduced fetal movements over the past 24 hours. Booking investigations at 14 weeks: PCV 34%, blood group A positive, genotype AA, HIV negative. No pre-pregnancy hypertension. Previous obstetric history: one term uncomplicated SVD in 2022. Examination reveals a conscious but ill-looking, restless, moderately oedematous pregnant woman. BP 170/110 mmHg (severe range). SFH 30 cm (slightly less than expected for 32 weeks + 6 days — suggests possible IUGR). Uterus relaxed with no contractions. FHR 168 bpm (tachycardia — fetal compromise). Cervix closed and uneffaced. Diagnosis: severe preeclampsia at 32 weeks + 6 days gestation with maternal end-organ involvement (CNS — headache, visual disturbance; hepatic — epigastric pain) and fetal compromise (tachycardia, reduced movements, probable IUGR). Requires immediate admission to the high-dependency unit, IV antihypertensive therapy, magnesium sulphate for seizure prophylaxis, antenatal corticosteroids, urgent investigations, and expedited delivery once the mother is stabilised.',
+  content: `
+Mrs M.A., a 31-year-old booked G2P1+0 (1 alive) banker, resident in Lagos State, Christian, Yoruba, married in a monogamous setting, with tertiary level education.
 
+OBSTETRIC DATA
+
+LMP: 18/10/2025
+EDD: 25/07/2026
+EGA: 32 weeks + 6 days
+
+PRESENTING COMPLAINTS
+Severe headache × 3 days
+Blurring of vision × 2 days
+Epigastric pain × 1 day
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 3 days prior to presentation when she developed a persistent frontal headache. The headache was progressive in severity and not relieved by simple analgesics (an important distinguishing feature from benign tension headache).
+
+About 2 days prior to presentation, she noticed blurring of vision associated with seeing flashes of light (photopsia) — a symptom that indicates retinal or cerebral involvement from hypertension.
+
+One day prior to presentation, she developed epigastric pain, which was constant and worsening — a symptom that in the context of severe hypertension in pregnancy indicates hepatic subcapsular distension or developing HELLP syndrome.
+
+There is associated generalised body weakness.
+
+She reports reduced fetal movements over the past 24 hours.
+
+There is no lower abdominal pain, uterine contractions, leakage of fluid per vaginam, vaginal bleeding, or fever.
+
+She was noted to have elevated blood pressure at her 30-week antenatal visit and was commenced on antihypertensives, but she defaulted follow-up — this is a critical lapse that allowed a manageable hypertensive disorder to progress to severe preeclampsia.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived. She booked at 14 weeks gestation and attended regularly until defaulting at 30 weeks. She has been on antenatal haematinics. Received tetanus toxoid and IPT for malaria.
+
+Booking investigations:
+PCV: 34%
+Blood group: A positive
+Genotype: AA
+HIV: Negative
+
+At 30 weeks gestation: elevated blood pressure documented; antihypertensives commenced; defaulted subsequent follow-up.
+
+PAST OBSTETRIC HISTORY
+2022: Term spontaneous vaginal delivery of a live male infant (3.2 kg); no complications; child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No pre-pregnancy hypertension documented
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+Currently on antihypertensives (specific agents and doses not documented — must be ascertained)
+
+FAMILY AND SOCIAL HISTORY
+No family history of hypertension in pregnancy
+Married in a monogamous setting
+Does not smoke or take alcohol
+
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, conscious but ill-looking and restless
+Moderately oedematous (generalised — face, limbs, and abdomen)
+No pallor or jaundice at this examination (jaundice and pallor would suggest HELLP syndrome progression)
+
+Vital Signs:
+BP: 170/110 mmHg (severe-range hypertension — the threshold for severe preeclampsia is systolic greater than or equal to 160 mmHg or diastolic greater than or equal to 110 mmHg; this patient meets both criteria)
+PR: 96 bpm (mildly elevated — possible pain, anxiety, or early autonomic response)
+RR: 22 cpm (mildly elevated)
+Temperature: 36.8°C (afebrile — excludes infection as the primary diagnosis)
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 30 cm (expected for 32 weeks + 6 days: approximately 32–33 cm; the 2–3 cm discrepancy suggests possible IUGR — placental insufficiency from chronic hypertension and preeclampsia impairs fetal growth)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterus: relaxed, no contractions (no spontaneous labour)
+
+Auscultation:
+Fetal heart rate: 168 bpm (tachycardia — normal range 110–160 bpm; FHR 168 bpm indicates fetal distress; possible causes in this context: placental insufficiency from severe preeclampsia, maternal fever (absent), maternal tachycardia response, or cord compression)
+
+Pelvic Examination:
+Cervix closed and uneffaced (unfavourable cervix — not in spontaneous labour; Bishop score is low)
+Membranes intact
+Note: in severe preeclampsia with an unfavourable cervix at 32 weeks, delivery will most likely be by caesarean section rather than induction of labour (see delivery plan)
+
+ASSESSMENT
+
+Severe preeclampsia at 32 weeks + 6 days gestation with CNS and hepatic end-organ involvement, probable IUGR, fetal tachycardia, and an indication for expedited delivery
+
+Diagnosis and classification:
+
+Preeclampsia — diagnostic criteria:
+New-onset hypertension (BP greater than or equal to 140/90 mmHg on two occasions 4 hours apart) after 20 weeks of gestation, with one or more of the following:
+Proteinuria (greater than or equal to 300 mg/24 hours or UPCR greater than 0.3 or dipstick protein 1+ or more)
+End-organ dysfunction (see severe features below)
+This patient: hypertension first noted at 30 weeks (onset after 20 weeks); now presenting with severe-range BP (170/110 mmHg) and multiple severe features
+
+Severe preeclampsia — diagnostic criteria (any one of the following is sufficient):
+Systolic BP greater than or equal to 160 mmHg or diastolic BP greater than or equal to 110 mmHg: present (170/110 mmHg)
+Neurological features: severe persistent headache (present), visual disturbances (blurring, photopsia — present), altered consciousness or seizures (absent currently — but impending eclampsia is a significant risk)
+Hepatic involvement: epigastric or right upper quadrant pain (constant, worsening — present; indicates hepatic subcapsular distension or microinfarction from hepatic vasospasm in HELLP syndrome)
+Haematological: thrombocytopaenia (platelet count less than 100 × 10⁹/L), evidence of haemolysis (elevated LDH, low haptoglobin)
+Renal: serum creatinine greater than 97 µmol/L (greater than 1.1 mg/dL) or doubling of baseline creatinine
+Pulmonary oedema
+Fetal growth restriction
+
+This patient meets multiple severe criteria:
+Severe-range BP (170/110 mmHg)
+Neurological features (severe headache, visual disturbance)
+Hepatic features (epigastric pain)
+Probable IUGR (SFH 30 cm at 32+6 weeks — discordant)
+Fetal tachycardia (168 bpm — fetal compromise)
+
+HELLP syndrome — must be actively excluded:
+HELLP syndrome is a severe variant of preeclampsia characterised by:
+H: Haemolysis (microangiopathic haemolytic anaemia — schistocytes on blood film, elevated LDH, low haptoglobin)
+EL: Elevated Liver enzymes (ALT and AST greater than twice the upper limit of normal)
+LP: Low Platelets (less than 100 × 10⁹/L)
+Epigastric pain in the context of severe preeclampsia is a warning sign for HELLP
+Laboratory results (LFTs, FBC, LDH, peripheral blood film) are essential and urgent
+HELLP syndrome significantly worsens both maternal and perinatal prognosis
+Management of HELLP: delivery is the definitive treatment; blood products (platelets, FFP) may be required if counts are critically low before surgery
+
+Impending eclampsia:
+Eclampsia = generalised tonic-clonic seizures in a patient with preeclampsia (in the absence of other neurological cause)
+The prodromal features of eclampsia — severe headache, visual disturbance, and epigastric pain — are all present in this patient
+This patient is at very high risk of eclampsia — seizures may occur at any time
+Magnesium sulphate must be started immediately to prevent eclampsia
+
+Pathophysiology of severe preeclampsia:
+Abnormal trophoblast invasion in early pregnancy leads to failure of physiological transformation of the spiral arteries — they retain their muscular walls and remain narrow (high resistance), reducing uteroplacental blood flow
+Hypoxic placental trophoblasts release anti-angiogenic factors (soluble Flt-1, endoglin) into the maternal circulation, which inhibit VEGF and PlGF — the key pro-angiogenic factors maintaining endothelial function
+Systemic maternal endothelial dysfunction results:
+Vasoconstriction → hypertension
+Increased vascular permeability → proteinuria, oedema
+Activation of the coagulation cascade → platelet consumption (thrombocytopaenia)
+Hepatic vasospasm → subcapsular haematoma, elevated transaminases (HELLP)
+Cerebral vasospasm → headache, visual disturbance, eclampsia, cortical blindness
+Renal vasospasm → reduced GFR, proteinuria, oliguria
+Placental insufficiency → IUGR, fetal hypoxia
+
+The placenta is both the cause and the cure:
+All features of preeclampsia resolve after placental delivery (within hours to days)
+Delivery is therefore the only definitive treatment — but at 32 weeks + 6 days, the decision must balance the risks of preterm birth against the risks of continuing the pregnancy (eclampsia, HELLP, placental abruption, fetal death)
+At greater than or equal to 34 weeks: delivery is recommended without delay in severe preeclampsia
+At 32–34 weeks: delivery after maternal stabilisation (24–48 hours) to allow antenatal corticosteroids to complete — only if the mother can be safely maintained
+This patient: 32 weeks + 6 days — at the border of this window; given the severity of features (end-organ compromise, fetal tachycardia), delivery should not be delayed beyond 24–48 hours
+
+Probable IUGR from uteroplacental insufficiency:
+SFH 30 cm at 32 weeks + 6 days: expected SFH 32–33 cm at this gestation
+The discrepancy suggests IUGR — ultrasound with Doppler is essential to confirm
+IUGR in the context of severe preeclampsia occurs from chronic placental insufficiency (reduced uteroplacental blood flow → reduced fetal nutrient and oxygen delivery → asymmetric IUGR with reduced abdominal circumference but relatively preserved head circumference = brain-sparing)
+
+Fetal tachycardia (FHR 168 bpm):
+The upper limit of the normal fetal heart rate range is 160 bpm
+FHR 168 bpm: mild fetal tachycardia
+In the context of severe preeclampsia and probable IUGR: likely reflects placental insufficiency and fetal hypoxia — a compensatory fetal response (sympathetic activation from hypoxia causes tachycardia before the decompensatory bradycardia of late fetal distress)
+Maternal fever is absent (excludes maternal infection-related fetal tachycardia)
+CTG is urgently required to characterise the FHR pattern fully (baseline, variability, decelerations)
+
+Risk of placental abruption:
+Severe hypertension is an independent risk factor for placental abruption
+The uterus is currently relaxed with no tenderness — abruption not clinically present
+However: the risk is elevated and close monitoring is required (sudden onset of uterine tenderness, vaginal bleeding, or worsening FHR abnormality should prompt immediate assessment for abruption)
+
+Differential diagnoses:
+
+Eclampsia (impending vs established):
+This patient has the prodromal features of eclampsia — not yet in eclampsia (no seizures at this time)
+If seizures occur: this becomes eclampsia; manage as per the eclampsia protocol (secure the airway, lateral position, magnesium sulphate — see management below)
+Magnesium sulphate must be started now to prevent this progression
+
+Chronic hypertension with superimposed preeclampsia:
+Chronic hypertension: hypertension diagnosed before 20 weeks or pre-pregnancy
+This patient: no pre-pregnancy hypertension documented; hypertension first noted at 30 weeks (after 20 weeks) — consistent with gestational hypertension or preeclampsia, not chronic hypertension
+However: the clinical diagnosis at 30 weeks (was it hypertension or preeclampsia?) was not fully documented — the antihypertensive commenced was unspecified; if proteinuria was already present at 30 weeks, this could represent earlier-onset preeclampsia
+
+HELLP syndrome:
+A variant of severe preeclampsia — laboratory results will determine whether HELLP criteria are met
+Epigastric pain + severe hypertension + abnormal LFTs + low platelets = HELLP
+Must be actively excluded at this admission — management is the same (delivery) but surgical and haematological preparation differs
+
+Acute fatty liver of pregnancy (AFLP):
+Also presents with epigastric pain, nausea, liver dysfunction, coagulopathy
+Typically: altered consciousness, severe coagulopathy, hypoglycaemia, jaundice
+Distinct from HELLP: AFLP involves microvesicular steatosis; hypoglycaemia is characteristic (absent in HELLP)
+LFTs, coagulation, and glucose will help distinguish
+Practical note: AFLP is rare but fatal if unrecognised — coagulation profile and blood glucose are essential in any case of epigastric pain in pregnancy
+
+Thrombotic thrombocytopaenic purpura (TTP) or haemolytic uraemic syndrome (HUS):
+Cause microangiopathic haemolytic anaemia and thrombocytopaenia (mimics HELLP)
+Usually occur outside pregnancy or in the postpartum period
+Neurological features, severe renal failure, and fever may be present
+Peripheral blood film (for schistocytes) and ADAMTS13 level (if available) distinguish from HELLP
+
+PLAN
+
+This patient requires simultaneous initiation of multiple life-saving interventions. All steps below begin immediately and simultaneously — not sequentially.
+
+Call for Help Immediately:
+Senior obstetrician (consultant or most senior available)
+Anaesthetist (patient at high risk of eclampsia and imminent delivery)
+Neonatology team (preterm delivery anticipated at 32 weeks + 6 days)
+Theatre team on standby
+
+Admission:
+High-dependency unit (HDU) or obstetric high-care unit
+Continuous monitoring
+One-to-one nursing care
+
+Immediate Measures
+
+Airway and Breathing:
+Airway is patent (patient is conscious)
+Supplemental oxygen via face mask (4–6 L/min) — not routinely required unless SpO₂ is reduced; give if SpO₂ falls below 95% or if pulmonary oedema is suspected (bibasal crepitations on auscultation)
+Have suction apparatus at the bedside (in case of vomiting during a seizure)
+
+Magnesium Sulphate (seizure prophylaxis — start first):
+This patient has impending eclampsia features (severe headache, visual disturbance, epigastric pain with severe hypertension) — magnesium sulphate must be started immediately
+Zuspan regimen (FMOH and WHO recommended for Nigeria):
+Loading dose: IV Magnesium sulphate 4 g (16 ml of 25% MgSO₄) in 100 ml Normal Saline over 15–20 minutes
+Maintenance: IV Magnesium sulphate infusion 1–2 g/hour (add 6 g MgSO₄ to 500 ml Normal Saline, run at 60–120 ml/hr based on urine output and clinical response)
+Continue for 24 hours after delivery or 24 hours after the last seizure (whichever is later)
+Monitoring during magnesium sulphate infusion:
+Respiratory rate: every 30 minutes; must remain greater than 12 cpm; respiratory depression is the most dangerous side effect
+Deep tendon reflexes (patellar reflex): assess every hour; loss of patellar reflex is the earliest sign of magnesium toxicity — stop the infusion immediately if reflexes are absent
+Urine output: via Foley catheter every hour; must remain greater than 25 ml/hr; magnesium is renally cleared — oliguria leads to accumulation and toxicity; reduce maintenance dose or hold infusion if urine output falls
+Serum magnesium: if available, check at 2 hours and 4 hours (therapeutic range for prophylaxis: 2–3.5 mmol/L; toxic range: greater than 5 mmol/L)
+Antidote at bedside at all times: IV Calcium gluconate 10 ml of 10% solution (1 g IV over 10 minutes) — reverse magnesium toxicity immediately if respiratory depression, loss of reflexes, or cardiac arrhythmia occurs
+Practical note: magnesium sulphate is available at all Nigerian facilities; the Zuspan regimen is standard of care at all levels
+
+If eclampsia occurs (seizure develops) while on magnesium sulphate or before it is established:
+Secure the airway: turn the patient into the left lateral position; protect from injury
+Give IV Diazepam 10 mg slow IV push over 2 minutes: immediate seizure termination if no IV magnesium given yet (or IV Magnesium sulphate bolus if not already commenced)
+Call for help: this is now an eclampsia emergency
+If already on magnesium and a seizure occurs: give a further IV Magnesium sulphate 2 g bolus slowly over 5–10 minutes
+After seizure termination: assess airway, breathing, and FHR; prepare for urgent delivery
+
+Antihypertensive therapy (acute blood pressure control):
+
+Target: reduce systolic BP to 140–155 mmHg and diastolic to 90–105 mmHg
+Rationale: lowering BP to a normal range is harmful in preeclampsia — excessively low BP reduces uteroplacental perfusion and worsens fetal hypoxia; target a moderate reduction only
+Do NOT allow BP to remain at or above 160/110 mmHg — this level is associated with maternal stroke and placental abruption
+
+Acute antihypertensive options for severe hypertension in pregnancy:
+
+First-line — Labetalol (IV for acute severe hypertension):
+IV Labetalol 20 mg IV over 2 minutes; if BP not controlled after 10 minutes, give 40 mg IV; repeat 80 mg every 10 minutes to a maximum cumulative dose of 300 mg
+OR continuous IV Labetalol infusion 1–2 mg/min (preferable for sustained control)
+Once BP is controlled acutely: transition to oral Labetalol 200–400 mg twice to three times daily
+Practical note: IV Labetalol is available at most Nigerian teaching hospitals; oral Labetalol is widely available
+
+Second-line — Hydralazine (IV):
+IV Hydralazine 5 mg slow IV push over 2 minutes; may repeat 5–10 mg every 20 minutes; maximum 30 mg per episode
+Widely used in Nigerian teaching hospitals; effective but causes maternal reflex tachycardia and flushing
+If used: co-administer IV fluid bolus (250–500 ml Normal Saline) to prevent severe hypotension
+
+Third-line — Nifedipine (oral):
+Oral Nifedipine immediate release 10–20 mg (bite and swallow — not sublingual)
+Onset within 15–30 minutes
+Can be used while establishing IV access or if IV access is delayed
+Widely available and inexpensive in Nigeria — the most practical acute antihypertensive at secondary facilities where IV Labetalol is unavailable
+Caution: avoid using Nifedipine and Magnesium sulphate simultaneously at high doses (both cause vasodilation — risk of severe hypotension); use at standard doses with close BP monitoring
+
+Ongoing antihypertensive therapy (oral maintenance):
+Once acute BP is controlled:
+Oral Nifedipine retard 20–40 mg twice daily
+OR oral Labetalol 200–400 mg twice daily
+OR oral Methyldopa 250–500 mg three times daily (if above not available)
+Target oral maintenance BP: 130–150/80–100 mmHg
+
+Avoid: ACE inhibitors, ARBs (contraindicated in pregnancy — as described in obg-22)
+
+IV Access and Investigations
+
+IV access:
+Two wide-bore cannulae (16G) in both antecubital fossae
+Send blood samples urgently from the first IV attempt to avoid additional venepuncture
+
+Investigations (all urgent):
+
+Full blood count with peripheral blood film:
+Haemoglobin (anaemia from HELLP haemolysis)
+Platelet count: key for HELLP diagnosis and surgical planning (platelets less than 50 × 10⁹/L: regional anaesthesia contraindicated; blood transfusion may be required before caesarean section)
+White cell count (baseline)
+Peripheral blood film: schistocytes (fragmented red cells) = microangiopathic haemolytic anaemia — confirms HELLP; their presence mandates haematology team involvement
+Practical note: widely available; results in 30–60 minutes
+
+Liver function tests (urgent):
+AST and ALT: elevation (greater than twice the upper limit of normal) confirms hepatic involvement in HELLP
+LDH: elevated in haemolysis (HELLP) — markedly elevated LDH (greater than 600 IU/L) is characteristic
+Total and conjugated bilirubin: elevated in haemolysis
+The combination of elevated LFTs + low platelets + haemolytic anaemia = HELLP syndrome = delivery must not be delayed
+Practical note: available at all teaching hospitals and most secondary hospitals
+
+Renal function (serum electrolytes, urea, creatinine):
+Serum creatinine greater than 97 µmol/L (greater than 1.1 mg/dL) = severe preeclampsia criterion
+Guides fluid management (avoid fluid overload in preeclampsia — risk of pulmonary oedema)
+Practical note: widely available
+
+Serum uric acid:
+Elevated in preeclampsia; elevated levels correlate with severity
+Practical note: available at most teaching hospitals
+
+Serum albumin:
+Hypoalbuminaemia from proteinuria and generalised endothelial leakage — guides fluid management
+
+Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer):
+DIC may develop in HELLP syndrome and severe preeclampsia
+Coagulopathy mandates blood product support before caesarean section
+Required before regional or general anaesthesia
+Practical note: available at most teaching hospitals
+
+Blood glucose:
+Baseline
+Hypoglycaemia suggests AFLP (distinguishes from HELLP — though both cause hepatic dysfunction)
+Steroid-induced hyperglycaemia will be monitored after corticosteroids are given
+
+Urinalysis and urine protein:creatinine ratio (UPCR):
+Dipstick: protein 2+ or more (nephrotic range in severe preeclampsia)
+Microscopy: granular casts, red cell casts (severe nephritis — less common)
+UPCR: quantify proteinuria (UPCR greater than 0.3 is diagnostic; greater than 0.8 = significant; greater than 3.5 = nephrotic range)
+Practical note: widely available; UPCR at most teaching hospitals
+
+Blood grouping and cross-matching:
+Blood group A positive (from booking) — confirm
+Cross-match minimum 2–4 units of packed red cells (caesarean section anticipated; HELLP may require platelet and FFP support)
+
+Urine output — Foley catheter:
+Insert immediately
+Monitor hourly (target greater than 0.5 ml/kg/hr or approximately 30 ml/hr)
+Oliguria (less than 25 ml/hr for 2 or more hours) is a criterion for severe preeclampsia; also indicates risk of acute kidney injury
+If oliguria: do not automatically give IV fluid boluses in preeclampsia (risk of pulmonary oedema from endothelial dysfunction); reassess fluid status and senior review
+
+Fluid management:
+Strict fluid restriction in severe preeclampsia:
+Total IV and oral intake: maximum 80–100 ml/hr (approximately 1 ml/kg/hr)
+Rationale: preeclampsia endothelial dysfunction causes capillary leak — excess fluid distributes into the interstitial space rather than the intravascular compartment, causing pulmonary oedema without adequate intravascular expansion
+Avoid IV fluid boluses unless there is clear evidence of intravascular volume depletion (postural hypotension, persistent oliguria with haemodynamic compromise)
+Do not give Hartmann's solution (contains potassium — risk in oliguria from renal insufficiency); use Normal Saline
+
+Respiratory monitoring:
+Auscultate the lung bases every 2–4 hours for crepitations (pulmonary oedema)
+SpO₂ monitoring continuously
+If bibasal crepitations or SpO₂ less than 95%: this is a sign of pulmonary oedema — reduce fluid rate; upright position; IV Furosemide 20–40 mg if confirmed; escalate to ICU if respiratory status worsens
+
+Fetal Surveillance
+
+Continuous CTG monitoring:
+Apply immediately on admission
+Baseline FHR (recorded as 168 bpm) — reassess with CTG
+Assess: baseline, variability, accelerations, decelerations
+Non-reassuring or pathological CTG (late decelerations, absent variability, prolonged deceleration): alerts senior obstetrician and anaesthetist — may indicate need for immediate delivery regardless of maternal status
+
+Obstetric ultrasound (arrange urgently):
+Confirm fetal biometry (compare with previous measurements — document IUGR if confirmed by EFW less than 10th centile)
+Doppler studies:
+Umbilical artery Doppler: assess placental vascular resistance (elevated S/D ratio, AEDF, or REDF = significant placental compromise)
+MCA Doppler: brain sparing (MCA PI below 5th centile = fetal hypoxaemia compensatory redistribution)
+Biophysical profile: assess fetal breathing, movements, tone, and amniotic fluid
+Amniotic fluid index: oligohydramnios (AFI less than 5 cm) = chronic placental insufficiency and fetal compromise
+Practical note: obstetric ultrasound with Doppler available at most Nigerian teaching hospitals; if unavailable, CTG alone guides delivery timing
+
+Antenatal Corticosteroids (Give Immediately)
+
+Indicated: at 32 weeks + 6 days — fetal lungs are immature
+Regimen:
+IM Dexamethasone 6 mg every 12 hours for 4 doses (48-hour course): widely available in Nigeria — give the first dose immediately
+OR IM Betamethasone 12 mg every 24 hours for 2 doses: preferred in international guidelines; available at most teaching hospitals
+
+The goal is to delay delivery by 24–48 hours to allow maximal corticosteroid benefit — this is only achievable if the mother can be safely maintained:
+If maternal condition (BP, neurological status, FHR, laboratories) remains stable with antihypertensive therapy and magnesium sulphate: delay delivery for 24–48 hours for corticosteroid completion
+If maternal condition deteriorates (uncontrolled BP despite antihypertensives, eclamptic seizure, HELLP with platelet count less than 50 × 10⁹/L, pulmonary oedema, acute kidney injury, significant abruption, or non-reassuring CTG): deliver immediately regardless of corticosteroid completion — a single partial dose is better than none; maternal survival takes priority
+
+Delivery Planning
+
+Indication for delivery:
+This patient has severe preeclampsia at 32 weeks + 6 days with end-organ involvement (CNS, hepatic, fetal compromise)
+At greater than or equal to 34 weeks with severe preeclampsia: deliver without delay
+At 32–34 weeks with severe preeclampsia: delay delivery by 24–48 hours for corticosteroids ONLY if maternal and fetal condition can be safely maintained
+This patient is at 32+6 weeks: at the lower end of the acceptable steroid delay window given the severity of features
+Decision: attempt to delay delivery by 24–48 hours for corticosteroid completion, provided maternal and fetal condition remains stable
+Proceed to immediate delivery if any of the deterioration criteria above are met
+
+Mode of delivery:
+
+Cervix assessment (Bishop score):
+Cervix closed and uneffaced (unfavourable cervix — low Bishop score)
+Induction of labour would require cervical ripening (Prostaglandin E2 — Dinoprostone gel or Misoprostol)
+Misoprostol is generally avoided at less than 34 weeks with a prior uterine scar (this patient has no prior uterine scar — misoprostol would be acceptable) or in the presence of a compromised fetus
+
+However, in severe preeclampsia with a compromised fetus and an unfavourable cervix at 32+6 weeks:
+Emergency caesarean section is generally preferred:
+Safer and faster than induction of labour in a compromised fetus
+Avoids the uncertainty and potentially prolonged process of induction with a closed, uneffaced cervix
+Allows simultaneous HELLP management and neonatal team preparation
+A formal MDT decision (obstetrician + anaesthetist + neonatologist) should document the rationale for the chosen mode
+
+If the decision is to induce labour (only if the senior obstetrician judges that the cervix is sufficiently favourable or the clinical situation allows):
+Cervical ripening: Dinoprostone gel (1 mg or 2 mg intracervical or intravaginal); reassess Bishop score after 6 hours
+Oxytocin augmentation: once cervical ripening is achieved and active labour established
+Continuous fetal monitoring throughout induction
+If induction fails or fetal status deteriorates: proceed to caesarean section without delay
+
+This patient: given severe hypertension, fetal tachycardia, probable IUGR, and an unfavourable cervix — emergency caesarean section after maternal stabilisation (24–48 hours or sooner if deterioration) is the most likely and appropriate delivery method
+
+Pre-operative preparation for caesarean section:
+Blood pressure must be below 160/110 mmHg before surgery (severe hypertension increases risk of stroke during anaesthetic induction and surgery)
+Platelet count: if less than 80 × 10⁹/L — regional (spinal or epidural) anaesthesia is relatively contraindicated; general anaesthesia with RSI required
+If platelets 80–150 × 10⁹/L: spinal anaesthesia is generally safe (preferred over epidural and general anaesthesia in preeclampsia — easier to administer, predictable block, avoids the hypertensive response to laryngoscopy)
+If platelets greater than 150 × 10⁹/L: all regional techniques are safe
+Cross-matched blood in theatre
+Coagulation results reviewed and corrected if abnormal
+Inform anaesthetist of coagulation, platelet count, and antihypertensive regime
+
+Anaesthesia consideration:
+Spinal anaesthesia (gold standard for elective and semi-elective caesarean section in preeclampsia — if platelets adequate):
+Rapid, reliable, avoids hypertensive response to intubation
+Requires adequate platelet count
+General anaesthesia with RSI (if platelets less than 80 × 10⁹/L, patient refuses regional, or if emergency delivery precludes time for spinal):
+Ketamine is used cautiously in preeclampsia (can elevate BP further — consider propofol for induction if BP is controlled)
+Thiopentone 3–5 mg/kg (if available) + Suxamethonium 1.5 mg/kg for RSI
+Attenuate the hypertensive response to laryngoscopy: IV Labetalol 10–20 mg or IV Alfentanil 1 mg before intubation
+Active management of the third stage: oxytocin with caution
+Ergometrine is CONTRAINDICATED in hypertensive women (causes severe systemic vasoconstriction and can cause hypertensive crisis, stroke, and pulmonary oedema — ergometrine must never be given in preeclampsia/eclampsia)
+Oxytocin 5 units slow IV over 2–5 minutes (not as a rapid bolus — rapid IV oxytocin bolus causes transient hypotension and tachycardia) OR Oxytocin infusion 20 units in 1 litre at 125 ml/hr
+
+Management of HELLP Syndrome (if confirmed on laboratory results)
+
+If HELLP is confirmed (haemolysis + elevated LFTs + low platelets):
+Delivery is the definitive and urgent treatment — do not delay
+Blood products:
+Platelet transfusion: if platelet count less than 50 × 10⁹/L before surgery; aim for greater than 50 × 10⁹/L for caesarean section (greater than 80 × 10⁹/L for regional anaesthesia)
+FFP: if INR greater than 1.5 or aPTT greater than 1.5 times normal (15 ml/kg)
+Cryoprecipitate: if fibrinogen less than 1.5 g/L
+Corticosteroids for HELLP (controversial but widely used):
+High-dose Dexamethasone IV 10 mg every 12 hours for 2–3 days (in addition to the antenatal corticosteroid dose for fetal lung maturity)
+Some evidence for acceleration of platelet count recovery — allows safer delivery in cases where platelet count is critically low
+Standard antenatal corticosteroid doses also provide modest HELLP benefit
+Haematology team involvement: mandatory if HELLP is confirmed
+Close monitoring: platelet count, LFTs, LDH every 4–6 hours
+Epigastric pain with HELLP carries a risk of hepatic subcapsular haematoma → rupture (a catastrophic and often fatal complication): severe right upper quadrant pain radiating to the shoulder, haemorrhagic shock — if suspected, immediate surgical consultation (laparotomy and hepatic compression)
+
+Postpartum Care
+
+Continue Magnesium Sulphate for 24 hours postpartum:
+Eclampsia risk does not end with delivery — approximately 40% of eclampsia cases occur postpartum
+Continue the magnesium sulphate infusion at 1–2 g/hour for 24 hours after delivery
+Monitoring of respiratory rate, reflexes, and urine output continues throughout the postpartum infusion
+
+Continue antihypertensive therapy postpartum:
+Blood pressure often remains elevated or worsens transiently in the first 24–72 hours after delivery — this is a well-recognised pattern and does not indicate treatment failure
+Continue oral antihypertensives: Nifedipine retard or Labetalol (as above)
+Safe for breastfeeding: Nifedipine and Labetalol are both compatible with breastfeeding
+Enalapril (ACE inhibitor): safe postpartum and for breastfeeding — may be introduced after delivery for longer-term BP control (ACE inhibitors are contraindicated in pregnancy but safe postpartum)
+Avoid Methyldopa postpartum in women with postnatal depression risk (Methyldopa depletes dopamine — associated with postnatal depression)
+Target postpartum BP: less than 140/90 mmHg before discharge
+BP review schedule: daily for 3–5 days postpartum, then at 1 week, 6 weeks
+
+Monitor for HELLP syndrome progression or new HELLP postpartum:
+HELLP can develop or worsen after delivery — most cases peak at 24–48 hours postpartum
+Continue FBC, LFTs, LDH every 12–24 hours for the first 48 hours postpartum
+Platelet count nadir: typically 24–48 hours after delivery; then gradually recovers (platelets should be normalising by day 3–5 postpartum)
+If platelet count continues to fall after 72 hours postpartum or fails to recover: consider TTP/HUS (distinct from HELLP; managed with plasma exchange)
+
+Monitor for pulmonary oedema (first 24–72 hours postpartum):
+Fluid shifts from the interstitial compartment back to the intravascular space post-delivery — this mobilised fluid can precipitate pulmonary oedema
+SpO₂ monitoring continuously for first 24 hours postpartum
+IV Furosemide 20–40 mg if pulmonary oedema develops (bibasal crepitations, SpO₂ falling, breathlessness)
+
+ICU or HDU care:
+Postpartum management of severe preeclampsia and HELLP requires close monitoring
+ICU: if respiratory compromise, DIC, hepatic haematoma, acute kidney injury requiring dialysis, or refractory hypertension
+HDU: if BP stabilised, magnesium infusion ongoing, but no ICU-level complications
+
+Breastfeeding:
+Encourage breastfeeding or breast milk expression even while in HDU (if the mother is stable enough)
+Arrange for the mother to visit the NICU as soon as she is able
+
+Neonatal Team and NICU
+
+Alert neonatal team before delivery — as described in obg-26:
+Prepare for a 32 + 6 week neonate (expected weight approximately 1.8–2.0 kg)
+Antenatal corticosteroids: document timing of first dose — at most one complete course will be available before delivery
+Magnesium sulphate exposure: neonatal team must be aware (neonatal hypotonia, respiratory depression, and low Apgar scores may occur in magnesium-exposed neonates — have IV Calcium gluconate available for the neonate)
+Probable IUGR: smaller than expected for gestational age — adjust resuscitation equipment accordingly
+Antenatal corticosteroids, delayed cord clamping, hypothermia prevention, early CPAP, surfactant if needed (as detailed in obg-26)
+
+Counselling
+
+Explanation of diagnosis:
+She has a pregnancy complication called severe preeclampsia — a dangerous condition in which the blood pressure is very high and affecting the brain, the liver, and the baby
+The symptoms she has been experiencing — severe headache, flashing lights, and pain under the ribs — are warning signs that the condition is becoming dangerous
+This is a life-threatening emergency for both her and the baby if not managed immediately
+
+Explanation of the medication defaulting and its consequences — sensitively:
+At the 30-week visit, she was started on blood pressure medicine but did not continue her follow-up
+This is not said to blame her — many people stop medicines when they feel well or face barriers to attending clinic
+However, the uncontrolled blood pressure over the past 2 weeks has allowed the condition to worsen to its current severity
+Going forward, it is vital that all medications prescribed during pregnancy are taken as directed, and that all clinic appointments are kept — particularly when a problem has been identified
+
+Regarding delivery:
+The only definitive treatment for this condition is delivery of the baby
+The baby is premature — at 32 weeks, the lungs are not fully mature and the baby will need intensive care support after birth
+The team is giving medicines to help the baby's lungs develop faster (steroids) and to protect the baby's brain (magnesium sulphate)
+The goal is to delay delivery by 24–48 hours to give these medicines time to work — but if either the mother or the baby shows signs of deterioration, the baby will be delivered immediately
+Delivery will most likely be by caesarean section as the cervix is not ready for a vaginal delivery
+
+Regarding the risks:
+The risk of continuing the pregnancy at this severity is: seizures (eclampsia), stroke, kidney failure, severe bleeding, and possible fetal death
+The risk of delivery at 32 weeks is: prematurity-related complications in the baby, requiring neonatal intensive care for several weeks
+The team will do everything possible to minimise both sets of risks
+
+Regarding future pregnancies:
+Severe preeclampsia significantly increases the risk of preeclampsia in future pregnancies — she should inform her doctor about this history at the beginning of any future pregnancy
+She will be advised to take low-dose aspirin (75 mg daily) from 12–16 weeks gestation in future pregnancies — this reduces (but does not eliminate) the risk of recurrent preeclampsia
+She will need enhanced antenatal surveillance in future pregnancies including more frequent BP monitoring and uterine artery Doppler at 20–24 weeks
+
+Regarding hypertension after delivery:
+Her blood pressure will be monitored closely after delivery and she will be discharged on antihypertensive medication if her BP has not normalised
+She must attend the postnatal review appointments — BP is often still elevated for 6–12 weeks after delivery and occasionally persists as chronic hypertension
+If BP has not returned to normal by 6–12 weeks postpartum: she will be referred to an internal medicine or cardiology specialist for long-term hypertension management
+
+PROGNOSIS
+
+Maternal prognosis:
+With prompt treatment (magnesium sulphate, antihypertensive therapy, and timely delivery): the majority of women with severe preeclampsia at this gestation recover fully
+Risks include: eclampsia (if magnesium is not initiated promptly), stroke (from uncontrolled BP), HELLP syndrome with hepatic complications, pulmonary oedema, acute kidney injury, and postpartum haemorrhage
+Long-term: approximately 15–25% of women with severe early-onset preeclampsia develop chronic hypertension within 10 years; cardiovascular risk is significantly elevated; lifestyle modification and long-term cardiometabolic surveillance are important
+
+Fetal and neonatal prognosis:
+At 32 weeks + 6 days with appropriate NICU care: survival rate approximately 95%
+With antenatal corticosteroids: significant reduction in RDS severity
+With antenatal magnesium sulphate: reduction in IVH and cerebral palsy risk
+IUGR neonates have an additional risk of neonatal hypoglycaemia, polycythaemia, and hypothermia — neonatal team is prepared for these
+Long-term: IUGR with severe preeclampsia is associated with increased cardiovascular and metabolic risk in the offspring in adult life (Barker hypothesis — developmental origins of health and disease)
+
+Factors determining outcome:
+Speed of BP control to below 160/110 mmHg (prevents stroke and eclampsia)
+Timely initiation of magnesium sulphate
+Whether a complete corticosteroid course can be achieved before delivery
+Laboratory results (HELLP status — the most important prognostic modifier)
+Speed of delivery once the decision is made
+Quality of NICU care for the preterm neonate
+
+FOLLOW-UP
+Daily review in HDU during the 24–48 hour stabilisation period. BP, urine output, neurological status, FHR monitoring, and laboratory parameters (FBC, LFTs, LDH, coagulation) reviewed every 6–12 hours. Postpartum magnesium sulphate for 24 hours; monitor for toxicity throughout. Continue antihypertensives postpartum; daily BP review for 3–5 days. Discharge on oral antihypertensives if BP not normalised. Postnatal review at day 3 and 6 weeks: BP, urinalysis, renal function, FBC (confirm HELLP resolution). If BP remains elevated at 6 weeks: refer to internal medicine for long-term hypertension management. Ophthalmology review if visual symptoms persist after delivery. Counselling on future pregnancy planning: aspirin from 12–16 weeks; early booking; enhanced surveillance. NICU follow-up for the neonate as described in obg-26.
+`,
+bookmarkCount: 0
+},
+{
+  id: 'ob-38',
+  title: 'Advanced Preterm Labour with Imminent Delivery',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Advanced preterm labour at 31 weeks + 5 days with imminent delivery in an unbooked multiparous woman',
+  symptoms: [
+    'Severe lower abdominal pain',
+    'Urge to bear down',
+    'Bloody show',
+    'Cervix fully effaced and 8 cm dilated',
+    'Cephalic presentation at station +1',
+    'Fetal heart rate 150 bpm (reassuring)',
+    'No leakage of fluid per vaginam',
+    'No fever, no vaginal bleeding',
+    'Unbooked pregnancy with no antenatal care'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-04-19',
+  summary: 'Mrs E.A., a 24-year-old unbooked G2P1+0 (1 alive) petty trader presenting at 31 weeks + 5 days gestation with a 10-hour history of severe lower abdominal pain progressing from irregular mild contractions to regular strong contractions occurring 4–5 times in 10 minutes and lasting 50–60 seconds, a 2-hour history of strong urge to bear down, and a bloody show 4 hours prior to presentation. No antenatal care received in this pregnancy. Previous obstetric history: one term uncomplicated spontaneous vaginal delivery in 2022. No chronic illness, no prior surgeries. Examination reveals a young woman in severe painful distress, actively bearing down, haemodynamically stable (BP 110/70 mmHg, PR 104 bpm). Symphysiofundal height 30 cm, longitudinal lie, cephalic presentation, contractions 4–5 in 10 minutes lasting 50–60 seconds and strong. FHR 150 bpm (reassuring). Pelvic examination: cervix fully effaced and 8 cm dilated, cephalic presenting part at station +1, membranes intact, pelvis clinically adequate. Diagnosis: advanced preterm labour at 31 weeks + 5 days in an unbooked multiparous woman with imminent vaginal delivery. Tocolysis is not indicated at this stage of labour. Priority is corticosteroids and magnesium sulphate if time permits, preparation for imminent preterm delivery, and immediate neonatal team activation.',
+  content: `
+Mrs E.A., a 24-year-old unbooked G2P1+0 (1 alive) petty trader, resident in Abeokuta, Ogun State, Christian, Yoruba, married in a monogamous setting, with primary level education.
+
+OBSTETRIC DATA
+
+LMP: 01/11/2025
+EDD: 08/08/2026
+EGA: 31 weeks + 5 days
+
+PRESENTING COMPLAINTS
+Severe lower abdominal pain × 10 hours
+Urge to bear down × 2 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 10 hours prior to presentation when she developed lower abdominal pains. The pains were initially mild and irregular but progressively increased in frequency, intensity, and regularity.
+
+The pains are currently occurring 4–5 times in 10 minutes. They are severe, colicky, and radiate to the lower back.
+
+She also feels increasing pelvic pressure and a strong urge to bear down over the past 2 hours.
+
+There is a history of passage of blood-stained mucus (show) approximately 4 hours prior to presentation.
+
+There is no history of leakage of fluid per vaginam, no vaginal bleeding, no fever, and no trauma.
+
+She reports that fetal movements were present earlier but has not clearly perceived them in the last few hours due to the severity of pain.
+
+She did not receive any antenatal care in this pregnancy.
+
+ANTENATAL HISTORY
+This pregnancy was unbooked. No formal antenatal care received. No documented investigations, routine medications, or tetanus toxoid administered during this pregnancy.
+
+PAST OBSTETRIC HISTORY
+2022: Term spontaneous vaginal delivery of a live female infant (3.0 kg); no complications; child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 14 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No significant family history
+Married in a monogamous setting
+Does not smoke or take alcohol
+No use of herbal medications
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman in severe painful distress
+Restless, actively bearing down
+Not pale, not icteric
+Afebrile (36.9°C)
+
+Vital Signs:
+BP: 110/70 mmHg (normal)
+PR: 104 bpm (mild tachycardia — from pain and exertion)
+RR: 24 cpm (elevated — from pain and bearing down)
+Temperature: 36.9°C (afebrile)
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 30 cm (appropriate for 31 weeks gestation)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterine contractions: 4–5 in 10 minutes, lasting 50–60 seconds, strong
+No uterine tenderness
+
+Auscultation:
+Fetal heart rate: 150 bpm, regular (reassuring — within the normal range of 110–160 bpm)
+
+Pelvic Examination:
+Vulva and vagina: normal
+Cervix: fully effaced and 8 cm dilated
+Presenting part: cephalic at station +1 (below the ischial spines — descent is well advanced)
+Membranes: intact (or bulging — document the finding at the time of examination)
+Pelvis: clinically adequate
+
+ASSESSMENT
+
+Advanced preterm labour at 31 weeks + 5 days gestation with imminent delivery in an unbooked multiparous woman with a live fetus
+
+Diagnosis based on:
+
+Preterm labour:
+Regular uterine contractions (4–5 per 10 minutes, 50–60 seconds each — well-established, strong pattern) with progressive cervical change before 37 weeks of gestation
+This patient: 31 weeks + 5 days; contractions are strong and in an established pattern; cervix is 8 cm dilated and fully effaced — these findings confirm advanced preterm labour
+
+Why this is classified as advanced preterm labour:
+Cervical dilatation 8 cm: well into the active phase, approaching full dilatation
+Full cervical effacement: the cervix has been fully incorporated into the lower uterine segment
+Station +1: the presenting part has descended below the ischial spines, indicating significant fetal descent into the pelvis
+Urge to bear down for 2 hours: likely represents the fetal head impinging on the pelvic floor and the levator ani muscles — a precursor to the second stage of labour
+Delivery is expected within minutes to a few hours for a multiparous woman in this clinical state
+
+Why tocolysis is not appropriate:
+Tocolysis is contraindicated when labour is too advanced (generally cervical dilatation greater than 5–6 cm)
+At 8 cm dilatation with station +1 in a multiparous woman: delivery cannot and should not be prevented — tocolytic agents would be ineffective and would only delay the preparation for a safe delivery
+The clinical goal shifts entirely from preventing delivery to optimising the conditions for the preterm birth and neonatal outcome
+
+Gestational age and expected neonatal challenges:
+At 31 weeks + 5 days, the fetus is in the late-moderate preterm period (28–32 weeks)
+Expected neonatal birth weight: approximately 1.5–1.8 kg
+Major neonatal risks:
+Respiratory distress syndrome (RDS): surfactant deficiency — the leading cause of morbidity and mortality at this gestation; mitigated by antenatal corticosteroids
+Intraventricular haemorrhage (IVH): fragile germinal matrix in the preterm brain; mitigated by antenatal magnesium sulphate
+Necrotising enterocolitis (NEC): immature gut barrier and microbiome; mitigated by breast milk feeding
+Retinopathy of prematurity (ROP): immature retinal vasculature; requires ophthalmology screening
+Sepsis: immature immune system
+Hypothermia: limited subcutaneous fat and poor thermoregulation — must be prevented at delivery
+Hypoglycaemia: limited hepatic glycogen stores — monitor within 1 hour of birth
+Temperature instability, feeding difficulties, apnoea of prematurity
+With antenatal corticosteroids, magnesium sulphate, and a prepared neonatal team: survival at 31–32 weeks is approximately 90–95% in a well-equipped NICU
+
+Clinical significance of unbooked status:
+No prior antenatal investigations: HIV status, blood group, genotype, PCV, syphilis serology, and hepatitis B status are all unknown — these must be assessed urgently
+No prior tetanus toxoid: tetanus risk for the newborn if cord care is suboptimal (particularly relevant in a primary education household in Ogun State — careful sterile cord care at delivery is critical; consider tetanus prophylaxis)
+Unknown obstetric risk factors: prior uterine surgery, placenta praevia, multiple gestation, or other conditions that may influence intrapartum management are not documented
+No prior HIV status known: point-of-care HIV testing should be done immediately if available — if reactive, administer intrapartum antiretroviral prophylaxis (IV Nevirapine or oral AZT to the mother; post-exposure prophylaxis to the neonate)
+Unknown cause of preterm labour: in a booked patient, common causes (UTI, bacterial vaginosis, polyhydramnios, multiple gestation, uterine anomaly) would have been investigated; in this unbooked patient, the precipitating cause is unknown — a high vaginal swab will assess for infection retrospectively
+
+Fetal wellbeing:
+FHR 150 bpm — reassuring at this time
+Reduced maternal perception of fetal movements in the last few hours: likely from pain and distress rather than true fetal compromise — however, FHR must be monitored continuously to confirm fetal wellbeing
+No late decelerations or fetal bradycardia documented
+
+Differential diagnoses:
+
+False preterm labour:
+Irregular, non-progressive contractions without cervical change
+This patient: cervix 8 cm dilated and fully effaced with station +1 and strong regular contractions — this is unambiguously true advanced labour, not false labour
+
+Abruption with preterm labour:
+Painful contractions with vaginal bleeding and a tense, tender uterus
+This patient: no vaginal bleeding, no uterine tenderness — abruption is not clinically evident
+However: a bloody show (cervical mucus plug) must be distinguished from frank haemorrhage; in this patient the show is described as blood-stained mucus consistent with a cervical show and not haemorrhage
+
+Chorioamnionitis as a precipitant of preterm labour:
+Infection of the fetal membranes is a common cause of preterm labour at less than 34 weeks
+This patient: afebrile, no foul-smelling discharge, no uterine tenderness — clinical chorioamnionitis is not currently present
+However: chorioamnionitis can be subclinical (histological chorioamnionitis without clinical features) — high vaginal swab after delivery and neonatal blood culture will retrospectively assess
+If fever develops during labour: escalate antibiotic coverage and expedite delivery
+
+PLAN
+
+This patient is in advanced preterm labour with imminent delivery. The priority is not to delay or prevent delivery — it is to maximise the chances of a good neonatal outcome and ensure a safe maternal delivery.
+
+Call for help immediately:
+Senior obstetrician (to supervise delivery and manage any complications)
+Neonatal team: paediatrician or neonatologist, neonatal nurse
+Midwife or labour ward nurse to assist with delivery
+
+Monitoring
+
+Maternal monitoring:
+Vital signs every 30 minutes during the remainder of labour (temperature, BP, PR, RR)
+Watch for fever (greater than 38°C — may indicate subclinical chorioamnionitis becoming clinical)
+Input-output monitoring
+
+Fetal monitoring:
+Continuous fetal heart rate monitoring throughout labour
+Gold standard: continuous electronic fetal monitoring (CTG) — apply as soon as the patient is settled
+Practical note: CTG is available at most Nigerian tertiary hospitals; if unavailable, intermittent auscultation of FHR every 5–15 minutes during active second stage is the minimum standard
+Normal FHR currently (150 bpm) — document baseline, variability, and presence of decelerations
+Late or prolonged decelerations: indicate uteroplacental insufficiency — alert senior obstetrician; fetal scalp electrode if membranes rupture
+
+Contractions:
+Document frequency, duration, and intensity every 15–30 minutes
+
+Antenatal Corticosteroids (administer immediately — even if delivery is imminent)
+
+At 31 weeks + 5 days, antenatal corticosteroids provide significant benefit even if administered at this late stage of labour — any interval between the first dose and delivery provides partial benefit
+
+Clinical evidence:
+Benefit from corticosteroids begins within 1–2 hours of the first dose (some surfactant induction is initiated rapidly)
+Even a single incomplete course (one dose) provides measurable benefit for RDS, IVH, and neonatal death compared with no corticosteroids
+
+Regimen:
+IM Dexamethasone 6 mg every 12 hours for 4 doses (48 hours total): gold standard practical option in Nigeria
+OR IM Betamethasone 12 mg every 24 hours for 2 doses (48 hours): preferred in guidelines but less widely available in Nigeria
+
+Give the first dose now — immediately:
+Even if delivery occurs after the first dose only, the partial benefit is worthwhile
+Do not withhold corticosteroids because delivery is expected to be soon
+
+Practical note: Dexamethasone is available at virtually all Nigerian facilities; Betamethasone is available at most teaching hospitals; the first dose should not be delayed more than 5 minutes from the decision to administer
+
+Magnesium Sulphate for Fetal Neuroprotection
+
+Indicated at less than 34 weeks gestation — this patient at 31 weeks + 5 days clearly qualifies
+
+If time permits before delivery: administer the loading dose immediately:
+Loading dose: IV Magnesium sulphate 4 g over 20–30 minutes
+Maintenance: IV Magnesium sulphate 1 g/hour continuous infusion until delivery (or maximum 24 hours)
+
+Even if only the loading dose is completed before delivery: partial neuroprotective benefit is achieved
+Monitoring during magnesium sulphate infusion: as described in obg-23 (respiratory rate, patellar reflexes, urine output; antidote calcium gluconate at bedside)
+
+If delivery is so imminent (less than 15–20 minutes) that magnesium cannot be safely loaded:
+Do not delay delivery for magnesium sulphate — neonatal outcome from hypoxic birth is worse than the marginal additional neuroprotection from magnesium
+The obstetrician must make a clinical judgement about whether there is enough time to safely load magnesium before delivery — this is the senior obstetrician's decision
+If the patient is actively in the second stage (pushing, head visible): proceed with delivery; do not administer magnesium at this moment
+
+Practical note: Magnesium sulphate is available at all Nigerian facilities; same preparation used for preeclampsia at a different dose for neuroprotection — ensure the team understands the distinction
+
+IV Access and Urgent Investigations
+
+IV access:
+Insert one wide-bore IV cannula (16G or 18G) immediately
+Commence IV fluid (Normal Saline or Ringer's Lactate) at a maintenance rate while awaiting blood results
+
+Urgent investigations (results will not delay delivery but are critical for management):
+
+Full blood count:
+Assess baseline haemoglobin (unbooked — PCV unknown)
+Platelet count, white cell count (infection screening)
+Practical note: widely available
+
+Blood grouping and cross-matching:
+Group O positive is a common blood group but must be confirmed — blood group of this unbooked patient is not documented
+Cross-match 2 units of packed red cells (anticipate PPH risk in multiparous woman with preterm delivery)
+Practical note: widely available
+
+Urinalysis:
+Protein (preeclampsia screening — no prior BP measurements documented in this unbooked patient)
+Leucocytes and nitrites (UTI as a precipitant of preterm labour)
+Glucose
+
+HIV rapid test (point-of-care):
+HIV status unknown (unbooked)
+If reactive: initiate intrapartum antiretroviral therapy immediately (single-dose Nevirapine 200 mg orally OR IV AZT infusion during labour) to reduce mother-to-child transmission
+Post-exposure prophylaxis for the neonate (NVP syrup or AZT syrup immediately after birth — as per FMOH PMTCT guidelines)
+Practical note: rapid HIV test kits are available at all Nigerian tertiary and most secondary hospitals; this must be done urgently given the imminent delivery
+
+Syphilis serology (RPR or VDRL):
+Unknown status in this unbooked patient
+Congenital syphilis can affect the preterm neonate; if reactive — IM Benzathine penicillin to the mother (if time allows) and IV Penicillin to the neonate postnatally
+Practical note: RPR is available at most Nigerian hospitals
+
+Hepatitis B surface antigen:
+Unknown status — Hepatitis B vaccination of the neonate immediately after birth (within 12 hours) plus Hepatitis B immunoglobulin (HBIG) if the mother is HBsAg positive; Hepatitis B vaccine alone if HBsAg status unknown or negative
+Practical note: Hepatitis B vaccine is available through the Nigerian NPI; HBIG may not be universally available at all centres
+
+High vaginal swab (MCS):
+Retrospective assessment for infection (GBS, bacterial vaginosis, other organisms) as a precipitant of preterm labour
+Also guides neonatal antibiotic decision if GBS is subsequently identified
+Practical note: send after delivery if not possible before due to imminence of birth
+
+Blood pressure reassessment:
+Document a formal BP at this visit (no prior antenatal BP documented) — unbooked patients may have undiagnosed pre-eclampsia or hypertension
+If BP is elevated (greater than 140/90 mmHg): initiate antihypertensive and magnesium sulphate for seizure prophylaxis (as per the preeclampsia protocol — distinct from the neuroprotection dose)
+This patient BP is 110/70 mmHg — normal at this reading; continue to monitor
+
+Intrapartum Management
+
+Tocolysis — NOT indicated:
+Cervix 8 cm dilated, presenting part at station +1 in a multiparous woman: tocolysis will not arrest labour and is not appropriate
+Do not administer tocolytic agents — they serve no purpose at this stage and may cause maternal side effects without benefit
+
+Intrapartum position:
+Left lateral position between contractions (reduces aortocaval compression and improves uteroplacental blood flow)
+Upright or semi-recumbent for pushing in the second stage
+
+Analgesia:
+Labour is causing severe pain — adequate analgesia improves maternal cooperation and reduces physiological stress
+Options:
+Intramuscular Tramadol 50–100 mg or Pethidine 50–100 mg: effective for labour pain; give with anti-emetic (Metoclopramide 10 mg IM)
+Important caution with opioids: if delivery is expected within 4 hours, avoid opioids (Pethidine and Tramadol cause neonatal respiratory depression in the preterm neonate; the effect is more profound in a 31-week fetus than a term neonate); have IV Naloxone available for the neonate if opioids are given within 4 hours of delivery
+Entonox (nitrous oxide and oxygen 50:50): if available — safe in preterm labour, no neonatal respiratory depression; provides rapid but partial pain relief; practical note: Entonox is available at selected Nigerian teaching hospitals
+Non-pharmacological: supportive positioning, breathing guidance, warm cloths on the lower back, partner presence if available
+
+Given this patient's advanced labour state (8 cm dilated, actively bearing down), delivery may occur very quickly — prioritise other interventions over opioid analgesia to avoid neonatal respiratory depression. IV Paracetamol 1 g is a safe non-opioid option that can be given at any stage.
+
+Strict asepsis:
+Sterile gloves for all vaginal examinations
+Sterile delivery pack
+Sterile cord-cutting equipment
+
+Intrapartum GBS prophylaxis:
+GBS status unknown (unbooked)
+If GBS results are unavailable and the patient has risk factors for neonatal GBS disease (preterm birth less than 37 weeks is a major risk factor): administer prophylactic IV Benzylpenicillin G 3 g loading dose then 1.5 g every 4 hours until delivery
+Practical note: Benzylpenicillin is available at all Nigerian facilities and is inexpensive
+Neonatal team should be informed of unknown GBS status so they can assess the neonate for early-onset neonatal sepsis after birth
+
+Membranes:
+Membranes are currently intact — do not perform amniotomy
+Intact membranes provide a protective cushion for the fetal head during descent in preterm labour — preterm fetal skull sutures are not fully calcified and the brain is more vulnerable to mechanical injury during the birth process
+Allow spontaneous rupture of membranes (SROM) — only perform amniotomy if there is a specific clinical indication (e.g., to apply a fetal scalp electrode if FHR is unclear)
+
+Second Stage and Delivery
+
+Active pushing:
+The patient has been bearing down for 2 hours — the second stage may already be underway if the cervix has progressed from 8 cm to full dilatation
+Reassess the cervix: if fully dilated (10 cm), active pushing may proceed with guidance
+
+Controlled delivery of the fetal head:
+Slow, controlled delivery of the fetal head is particularly important in preterm labour — the preterm skull is less rigid and the brain is more vulnerable to trauma from rapid, uncontrolled delivery
+Apply gentle counter-pressure to the fetal head (Ritgen manoeuvre or palm-on-crown technique) to control the speed of head delivery
+Allow the head to deliver slowly between contractions rather than with a single explosive push
+Do not apply excessive fundal pressure (Kristeller expression) — associated with increased risk of fetal intracranial haemorrhage in preterm neonates
+
+Episiotomy:
+A routine episiotomy in preterm delivery is NOT recommended — there is no evidence that it improves neonatal outcome and it increases maternal morbidity
+Perform a mediolateral episiotomy only if there is evidence of imminent perineal tear that would be more extensive than an episiotomy, or if there is an obstetric indication (e.g., instrumental delivery)
+
+Umbilical cord clamping:
+Delayed cord clamping (DCC): delay clamping by 30–60 seconds after birth (in the absence of need for immediate neonatal resuscitation)
+Benefits in preterm neonates: DCC increases neonatal blood volume and iron stores, reduces the need for blood transfusion, reduces IVH, reduces NEC, and improves haemodynamic stability in the first hours of life
+This is now recommended for all preterm births by WHO, RCOG, and ACOG
+Practical note: DCC requires the baby to be placed below the level of the placenta (at the level of the introitus or lower) for 30–60 seconds before clamping; this is feasible at all Nigerian delivery settings with no additional equipment
+If the neonate is born flat (requires immediate resuscitation at birth): clamp and cut the cord immediately and proceed with resuscitation; neonatal survival takes priority over delayed clamping in this situation
+
+Cord milking (umbilical cord milking):
+If DCC is not feasible (e.g., cord is too short to hold the baby below the placenta): milking the cord (squeezing blood from the cord toward the neonate three to five times) provides a partial alternative to DCC
+Practical note: simple, requires no equipment, and achieves a meaningful transfer of blood volume to the neonate; can be performed at any facility
+
+Cord care after clamping:
+Sterile cord clamping and cutting
+Apply chlorhexidine to the cord stump (reduces omphalitis risk, particularly important in this unbooked patient where neonatal tetanus risk cannot be excluded)
+This patient is unbooked with primary education: tetanus toxoid status unknown; cord tetanus prophylaxis through sterile cord care is critical
+
+Neonatal Team Preparation and Immediate Neonatal Care
+
+Neonatal resuscitation team must be present in the delivery room before the baby is born:
+Paediatrician or neonatologist
+Neonatal nurse
+Resuscitation equipment must be set up and checked before delivery
+
+Equipment to prepare (as described in obg-23 and ped-04):
+Radiant warmer or incubator set to 37°C (switched on and warmed before delivery)
+Warm dry towels and plastic wrap (polyethylene bag) for hypothermia prevention — placing the 31-week neonate directly into a polyethylene bag (without drying) immediately after birth reduces heat loss more effectively than towel drying alone; gold standard for preterm neonates less than 32 weeks
+Suction device
+Bag-mask (Neopuff or Ambu bag with PEEP valve) with oxygen
+Laryngoscope (neonatal blade 0 or 1), endotracheal tubes (size 3.0 mm for an expected weight of approximately 1.5–1.8 kg)
+Surfactant (if available): Poractant alfa (Curosurf) or Beractant (Survanta) — surfactant replacement therapy is the gold standard treatment for RDS; administer intratracheally through the endotracheal tube after intubation if the neonate develops RDS
+Practical note on surfactant: surfactant is available at most Nigerian teaching hospital NICUs; it is expensive; its availability significantly improves RDS outcomes; neonatal team should confirm availability before delivery
+
+Immediate steps after birth:
+Place the neonate under the radiant warmer (or into a polyethylene bag if less than 32 weeks — this patient is 31+5 weeks: use plastic wrap)
+Dry and stimulate (if not in plastic wrap — for this gestation use the wrap without drying to prevent evaporative heat loss)
+Assess: respiratory effort, heart rate, colour, tone (Apgar scores at 1 and 5 minutes)
+Clamp and cut the cord after delayed cord clamping
+
+If neonate breathes spontaneously and HR is greater than 100 bpm:
+Provide supplemental oxygen (target SpO₂ 85–95% at 10 minutes of life for a preterm neonate — avoid hyperoxia)
+CPAP (continuous positive airway pressure): first-line respiratory support for a breathing preterm neonate with signs of RDS (nasal CPAP 5–7 cmH₂O, FiO₂ titrated to maintain SpO₂ 90–95%); reduces need for intubation; available at most Nigerian teaching hospitals with neonatal CPAP units
+Practical note: nasal CPAP (or a simple improvised bubble CPAP system) is available at many teaching hospital NICUs; where unavailable, supplemental oxygen via nasal prongs is the practical alternative
+
+If neonate is apnoeic or HR less than 100 bpm:
+Positive pressure ventilation (PPV) via bag-mask — as described in ped-04 (neonatal resuscitation protocol)
+Escalate to intubation, cardiac compressions, and IV adrenaline as per NRP protocol if no response
+
+Warmth:
+The preterm neonate has minimal subcutaneous fat — hypothermia develops within seconds of birth
+Incubator at the appropriate servo-controlled temperature for the birth weight (approximately 34–36°C for 1.5–1.8 kg)
+Monitor axillary temperature every 30 minutes until stable (target 36.5–37.5°C)
+
+Glucose monitoring:
+Blood glucose within 30 minutes of birth (heel prick)
+Target: greater than 2.6 mmol/L
+If hypoglycaemic: IV Dextrose 10% (2 ml/kg bolus then continuous infusion at 4–6 mg/kg/min)
+
+Surfactant (if RDS develops):
+Early surfactant administration (within 2 hours of birth) significantly reduces mortality and severity of RDS
+Administer through the endotracheal tube if intubated, or via the INSURE technique (INtubate-SURfactant-Extubate to CPAP) if the neonate was on nasal CPAP
+
+Active Management of the Third Stage
+
+Mandatory after delivery of the preterm infant:
+IV Oxytocin 10 units IM or slow IV immediately after delivery of the anterior shoulder or immediately after delivery of the baby
+Controlled cord traction after signs of placental separation
+Inspect the placenta for completeness (preterm placenta should still be inspected carefully)
+Inspect the perineum and vagina for lacerations — repair any tears under good lighting
+
+Postpartum haemorrhage (PPH) anticipation:
+This patient is a multigravida — uterine atony is the most common cause of PPH
+Risk is not as high as in twin gestation (obg-23) but remains significant
+Oxytocin infusion (20 units in 1 litre Normal Saline at 125 ml/hr) for 4–6 hours after placental delivery
+Palpate the uterine fundus every 15–30 minutes for the first 2 hours (ensure the uterus remains well-contracted)
+Quantify blood loss
+
+Post-Delivery Maternal Care
+
+Monitor for PPH: vital signs every 15 minutes for 1 hour, then 30-minutely for 2 hours, then hourly
+Urine output: assess for the first 4 hours
+Haemoglobin: check 6–12 hours after delivery
+Iron supplementation: start or continue (unbooked — anaemia status unknown; PCV unknown; provide haematinics empirically)
+Analgesia: Paracetamol 1 g every 6–8 hours for perineal or uterine pain
+Thromboprophylaxis: TED stockings; early mobilisation (within 6–12 hours of delivery); LMWH if additional risk factors identified (e.g., if operative delivery was needed)
+
+Breastfeeding:
+Encourage early breast milk expression even before the neonate is able to suckle (preterm neonates in the NICU need expressed breast milk — colostrum is particularly important)
+Educate on positioning and breast milk expression
+Arrange lactation support
+
+Infection screening (retrospective):
+Review blood results and HVS results once available
+If GBS is subsequently isolated on HVS: inform neonatal team for extended neonatal observation and possible antibiotic administration to the neonate
+
+Neonatal Intensive Care Unit (NICU) Admission
+
+The neonate will require NICU admission:
+Confirm NICU bed availability before or immediately after delivery
+Brief the NICU team with: gestational age, expected birth weight, antenatal corticosteroid status (what dose was given and timing), magnesium sulphate status, HIV and GBS status (if known), mode of delivery, cord clamping timing, Apgar scores, and resuscitation performed
+
+NICU management will include:
+Incubator nursing with neutral thermal environment
+Respiratory support (CPAP or mechanical ventilation depending on respiratory status)
+Surfactant if RDS confirmed
+Caffeine citrate (20 mg/kg loading dose, then 5–10 mg/kg/day maintenance): started early in all neonates less than 34 weeks; prevents and treats apnoea of prematurity; reduces BPD and improves neurodevelopmental outcome; gold standard
+Parenteral nutrition until enteral feeding is established (preterm neonates cannot feed orally at 31 weeks — start nasogastric tube feeds with expressed breast milk as soon as haemodynamically stable)
+Antibiotics: if clinical or laboratory signs of neonatal sepsis develop
+Glucose monitoring
+Bilirubin monitoring (jaundice is common and potentially severe in preterm neonates — monitor daily from day 2 onwards)
+Head ultrasound at 24–48 hours of life and at day 7: screen for IVH (grade I–IV); antenatal magnesium sulphate reduces IVH risk
+ROP screening from 31–32 weeks corrected age (ophthalmology review)
+Hearing screen before NICU discharge
+
+Counselling
+
+Explanation of the situation:
+Labour has started very early — at 31 weeks, the baby is premature and will be smaller and less developed than a full-term baby
+The baby's lungs, brain, intestines, and immune system are not fully mature — the baby will need intensive care support after birth
+The medical team is doing everything possible to help the baby: injections to help the lungs mature (corticosteroids), medicine to protect the baby's brain (magnesium sulphate), and a specialist team ready to care for the baby immediately after birth
+
+Regarding the antenatal corticosteroids and magnesium sulphate:
+Explain simply that a special injection is being given to help the baby's lungs mature before birth — even if the baby is born soon, this injection helps reduce serious breathing problems
+A second medicine through the drip helps protect the baby's brain — this reduces the risk of brain damage from premature birth
+
+What to expect at delivery and after:
+The baby will likely cry weakly or not at all immediately after birth — this is expected for a premature baby and the specialist team will help the baby breathe
+The baby will be placed in a special warm cot (incubator) and given breathing support
+The baby will need to stay in the special baby care unit (NICU) for several weeks — until the baby can breathe independently, maintain body temperature, and feed on their own
+The mother will be encouraged to visit the baby frequently and to express breast milk — breast milk is the best food for premature babies and also helps protect them from infections
+
+Explaining the risks of prematurity:
+Breathing problems (RDS): the most common issue — treated with breathing support and medicines
+Brain bleeds (IVH): a risk in premature babies — the medicines given are reducing this risk
+Infections: premature babies are more vulnerable — the medical team will monitor closely
+Eye problems (ROP): will be checked by an eye specialist
+These risks will be monitored and managed — many babies born at 31 weeks do very well with appropriate care
+
+Importance of antenatal care:
+This is a compassionate, non-judgemental conversation — the focus is on future health-seeking behaviour, not blame
+Explain that regular antenatal care from early pregnancy allows the team to monitor the pregnancy, detect complications early, give protective treatments (folic acid, iron, tetanus toxoid), and plan for any risk factors
+In future pregnancies: she should book as early as possible (ideally before 12 weeks) and attend all scheduled visits
+Any future pregnancy should be closely monitored given the preterm birth in this pregnancy
+
+PROGNOSIS
+
+Maternal prognosis:
+Excellent — haemodynamically stable with no documented comorbidities
+Risk of PPH is the primary immediate maternal concern — active management will reduce this
+Unknown HIV, hepatitis B, and syphilis status: if any are reactive, appropriate treatment will be initiated
+
+Neonatal prognosis:
+At 31 weeks + 5 days with appropriate neonatal care: survival rate approximately 90–95% in a well-equipped Nigerian teaching hospital NICU
+With antenatal corticosteroids: significant reduction in RDS severity, IVH, and NEC
+With antenatal magnesium sulphate: reduction in cerebral palsy risk by approximately 30%
+With delayed cord clamping: improved haematological and haemodynamic stability
+Long-term neurodevelopmental outcome: the majority of 31–32 week survivors have normal development; approximately 10–15% have significant neurodevelopmental impairment
+
+Factors affecting prognosis:
+How much of the antenatal corticosteroid course is completed before birth — even a partial course is beneficial
+Whether magnesium sulphate loading was completed before delivery
+Apgar scores at delivery and quality of immediate neonatal resuscitation
+Availability of NICU resources (CPAP, surfactant, incubator, parenteral nutrition)
+Early exclusive breast milk feeding
+Unbooked status: unknown HIV, GBS, and syphilis status may affect neonatal management — results must be tracked and acted upon promptly
+
+FOLLOW-UP
+Postnatal maternal review at day 3 and 6 weeks. Haemoglobin check before discharge. Initiate or continue haematinics. Hepatitis B, syphilis, and HIV results (if pending) to be reviewed and acted upon. Contraceptive counselling at 6-week visit (family planning). Antenatal care counselling for future pregnancies — advise early booking and regular attendance. Neonatal NICU review: daily while inpatient. Discharge from NICU when the neonate achieves full oral feeding, thermoregulation, and stable respiratory status (typically around 36–40 weeks corrected age). Neurodevelopmental follow-up at 3, 6, 12, 18, and 24 months corrected age. ROP screening from 31–32 weeks corrected age. Hearing screening before discharge. Head ultrasound results to guide neurodevelopmental counselling.
+`,
+bookmarkCount: 0
+},
 ];

@@ -225,11 +225,11 @@ export default function App() {
                     <section className="pt-2 border-t border-slate-100 dark:border-slate-800">
                         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                         <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share feedback, discuss clinical cases, and stay updated on new guidelines.
+                            Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                         </p>
                         <div className="flex flex-col gap-2">
                             <a
-                                href="#"
+                                href="https://chat.whatsapp.com/ESwg00h0z76Fotkn9EnEdO?mode=gi_t"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
@@ -238,7 +238,7 @@ export default function App() {
                                 Join our WhatsApp Group
                             </a>
                             <a
-                                href="#"
+                                href="https://t.me/+CTzB_o08AewwODdk"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
@@ -308,11 +308,11 @@ export default function App() {
                     <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                         <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share feedback, discuss clinical cases, and stay updated on new guidelines.
+                        Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                         </p>
                         <div className="flex flex-col gap-2">
                             <a
-                                href="#"
+                                href="https://chat.whatsapp.com/ESwg00h0z76Fotkn9EnEdO?mode=gi_t"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
@@ -321,7 +321,7 @@ export default function App() {
                                 Join our WhatsApp Group
                             </a>
                             <a
-                                href="#"
+                                href="https://t.me/+CTzB_o08AewwODdk"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
@@ -376,11 +376,11 @@ export default function App() {
                     <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                         <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share feedback, discuss clinical cases, and stay updated on new guidelines.
+                        Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                         </p>
                         <div className="flex flex-col gap-2">
                             <a
-                                href="#"
+                                href="https://chat.whatsapp.com/ESwg00h0z76Fotkn9EnEdO?mode=gi_t"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
@@ -389,7 +389,7 @@ export default function App() {
                                 Join our WhatsApp Group
                             </a>
                             <a
-                                href="#"
+                                href="https://t.me/+CTzB_o08AewwODdk"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
@@ -424,11 +424,11 @@ export default function App() {
                     <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                         <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                         <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share feedback, discuss clinical cases, and stay updated on new guidelines.
+                        Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                         </p>
                         <div className="flex flex-col gap-2">
                             <a
-                                href="#"
+                                href="https://chat.whatsapp.com/ESwg00h0z76Fotkn9EnEdO?mode=gi_t"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
@@ -437,7 +437,7 @@ export default function App() {
                                 Join our WhatsApp Group
                             </a>
                             <a
-                                href="#"
+                                href="https://t.me/+CTzB_o08AewwODdk"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"

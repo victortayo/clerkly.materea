@@ -24,17 +24,22 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   const [isInsightModalOpen, setIsInsightModalOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editableContent, setEditableContent] = useState(template.content);
+  const [mode, setMode] = useState<'teach' | 'documentation'>('teach');
   const { showToast } = useToast();
 
   useEffect(() => {
-    setEditableContent(template.content);
-    setInsight(null); 
-  }, [template]);
+    const newContent = mode === 'teach' ? template.content : template.documentation || 'Not yet available';
+    setEditableContent(newContent);
+    setInsight(null);
+    // When switching modes, exit editing mode
+    if (mode === 'teach') {
+      setIsEditing(false);
+    }
+  }, [template, mode]);
 
   const handleCopy = () => {
     const textToCopy = editableContent;
     
-    // Attempt to use modern clipboard API
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(textToCopy).then(() => {
         setCopied(true);
@@ -45,7 +50,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         fallbackCopy(textToCopy);
       });
     } else {
-      // Fallback for older browsers or insecure contexts
       fallbackCopy(textToCopy);
     }
   };
@@ -54,7 +58,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
     const textArea = document.createElement("textarea");
     textArea.value = text;
     
-    // Make the textarea out of sight
     textArea.style.position = "fixed";
     textArea.style.top = "0";
     textArea.style.left = "0";
@@ -88,7 +91,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   };
 
   const handleReset = () => {
-    setEditableContent(template.content);
+    setEditableContent(mode === 'teach' ? template.content : template.documentation || 'Not yet available');
     showToast('Template reset to original');
   };
 
@@ -191,28 +194,62 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
       {/* Card Container */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl sm:rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 overflow-hidden mb-8">
         {/* Card Header */}
-        <div className="flex flex-col sm:flex-row justify-between items-center px-4 py-3 sm:px-6 sm:py-4 bg-slate-50/50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800 gap-4 sm:gap-0">
-          <div className="flex items-center gap-4 w-full sm:w-auto">
+        <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-x-4 gap-y-3 px-4 py-3 sm:px-6 sm:py-4 bg-slate-50/50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800">
+          
+          {/* Subspecialty */}
+          <div className="flex-shrink-0">
             <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
               {template.subSpecialty}
             </span>
-            
-            {/* Edit Toggle */}
-            <button
-              onClick={() => setIsEditing(!isEditing)}
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${
-                isEditing 
-                  ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300' 
-                  : 'bg-white border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
-              }`}
-            >
-              <i className={`fa-solid ${isEditing ? 'fa-eye' : 'fa-pen-to-square'}`}></i>
-              <span>{isEditing ? 'View' : 'Edit'}</span>
-            </button>
+          </div>
 
-            {/* Reset Button (Only visible when edited) */}
-            {editableContent !== template.content && (
+          {/* Center Group: Toggle Switch */}
+          <div className="w-full sm:flex-1 flex justify-center order-3 sm:order-2">
+            <div className="flex items-center bg-slate-200 dark:bg-slate-700/80 rounded-full p-1 text-[11px] font-semibold">
               <button
+                onClick={() => setMode('teach')}
+                className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${
+                  mode === 'teach' 
+                    ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-800 shadow-md' 
+                    : 'text-slate-500 dark:text-slate-300'
+                }`}
+              >
+                <i className="fa-regular fa-book"></i>
+                <span className="hidden sm:inline">Learn</span>
+              </button>
+              <button
+                onClick={() => setMode('documentation')}
+                className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${ 
+                  mode === 'documentation' 
+                    ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-800 shadow-md' 
+                    : 'text-slate-500 dark:text-slate-300'
+                }`}
+              >
+                <i className="fa-regular fa-file-alt"></i>
+                <span className="hidden sm:inline">Doc</span>
+              </button>
+            </div>
+          </div>
+
+          {/* Right Group: Action Buttons */}
+          <div className="flex items-center gap-2 order-2 sm:order-3">
+            {mode === 'documentation' && (
+              <button
+                onClick={() => setIsEditing(!isEditing)}
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${ 
+                  isEditing 
+                    ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-300' 
+                    : 'bg-white border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
+                }`}
+                title={isEditing ? 'View Mode' : 'Edit Mode'}
+              >
+                <i className={`fa-regular ${isEditing ? 'fa-eye' : 'fa-pen-to-square'}`}></i>
+                <span className="hidden sm:inline">{isEditing ? 'View' : 'Edit'}</span>
+              </button>
+            )}
+            
+            {editableContent !== (mode === 'teach' ? template.content : template.documentation || 'Not yet available') && isEditing && (
+               <button
                 onClick={handleReset}
                 className="text-xs font-medium text-slate-400 hover:text-rose-500 transition-colors"
                 title="Reset to original template"
@@ -220,26 +257,22 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
                 Reset
               </button>
             )}
-          </div>
-          
-          <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
-            {/* Desktop Insight Button */}
+
             <button
               onClick={handleGetInsight}
               className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold text-amber-700 bg-amber-50 hover:bg-amber-100 dark:text-amber-400 dark:bg-amber-900/20 dark:hover:bg-amber-900/30 transition-colors"
               title="Generate Clinical Insight"
             >
               <i className="fa-solid fa-lightbulb text-yellow-500"></i>
-              <span>Insight</span>
+              <span className="hidden sm:inline">Insight</span>
             </button>
 
-            {/* Copy Button */}
             <button
               onClick={handleCopy}
-              className={`w-8 h-8 flex items-center justify-center rounded-lg transition-colors ${
+              className={`flex items-center justify-center w-10 h-8 rounded-lg transition-colors ${ 
                 copied 
                   ? 'text-emerald-600 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20' 
-                  : 'text-slate-300 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:text-indigo-400 dark:hover:bg-indigo-900/20'
+                  : 'text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:text-indigo-400 dark:hover:bg-slate-800 dark:border-slate-700'
               }`}
               title="Copy content"
             >
@@ -247,6 +280,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
             </button>
           </div>
         </div>
+
 
         {/* Content Body */}
         <div className="p-4 sm:p-8 bg-white dark:bg-slate-900">

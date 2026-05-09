@@ -16,5 +16,6 @@ export interface Template {
   lastModified: string;
   summary: string;
   content: string;
+  documentation?: string;
   bookmarkCount: number;
 }

@@ -47339,7 +47339,7 @@ bookmarkCount: 0
   id: 'ob-39',
   title: 'Severe Preeclampsia with Iatrogenic Preterm Delivery',
   specialty: 'Obstetrics and Gynecology',
-  subSpecialty: 'Obstetrics/Maternal-Fetal Medicine',
+  subSpecialty: 'Obstetrics',
   condition: 'Severe preeclampsia at 32 weeks + 6 days gestation with maternal end-organ compromise, fetal tachycardia, and probable IUGR requiring expedited delivery',
   symptoms: [
     'Severe persistent frontal headache',
@@ -48945,7 +48945,7 @@ Daily clinical review during admission: temperature, pulse, uterine tenderness, 
 bookmarkCount: 0
 },
 {
-  id: 'ob-41',
+  id: 'ob-42',
   title: 'Chorioamnionitis with Preterm Labour',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Obstetrics/Emergency Obstetrics',
@@ -49581,10 +49581,10 @@ Daily maternal clinical review during admission: temperature, BP, pulse, urine o
 bookmarkCount: 0
 },
 {
-  id: 'ob-42',
+  id: 'ob-43',
   title: 'Preterm Premature Rupture of Membranes without Chorioamnionitis',
   specialty: 'Obstetrics and Gynecology',
-  subSpecialty: 'Obstetrics/Maternal-Fetal Medicine',
+  subSpecialty: 'Obstetrics',
   condition: 'Preterm premature rupture of membranes at 32 weeks + 3 days gestation without clinical evidence of chorioamnionitis, managed expectantly',
   symptoms: [
     'Sudden gush of clear odourless fluid per vaginam',
@@ -50094,6 +50094,1241 @@ During admission: maternal temperature, pulse, and uterine tenderness assessment
 `,
 bookmarkCount: 0
 },
+{
+  id: 'ob-44',
+  title: 'Threatened Preterm Labour',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics',
+  condition: 'Threatened preterm labour at 32 weeks + 5 days with mild irregular uterine contractions and a closed, uneffaced, posterior cervix',
+  symptoms: [
+    'Lower abdominal pain',
+    'Low back pain',
+    'Mild irregular uterine contractions',
+    'Sensation of pelvic heaviness',
+    'Cervix posterior, firm, uneffaced, and closed (0 cm dilatation)',
+    'No show, no membrane rupture, no vaginal bleeding',
+    'Fetal heart rate 142 bpm (reassuring)',
+    'No fever, no uterine tenderness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-05-04',
+  summary: 'Mrs K.A., a 25-year-old booked G2P1+0 (1 alive) seamstress presenting at 32 weeks + 5 days gestation with an 8-hour history of mild, irregular lower abdominal and low back pain occurring 1–2 times in 10 minutes and lasting less than 20 seconds. Sensation of pelvic heaviness but no significant pelvic pressure, no show, no leakage of fluid, no vaginal bleeding, no fever, and no abnormal vaginal discharge. Fetal movements present and normal. Booked at 16 weeks with regular antenatal attendance. Booking PCV 33%, blood group B positive, genotype AA, HIV negative. Previous obstetric history: one uncomplicated term SVD in 2022. Examination reveals a young woman who is comfortable at rest and not in obvious distress. Haemodynamically stable (BP 108/68 mmHg, PR 86 bpm, temperature 36.7°C). SFH 31 cm (appropriate for gestational age). Uterus relaxed between contractions with no tenderness. Occasional mild uterine contractions (not regular). FHR 142 bpm (reassuring). Cervix posterior, firm, uneffaced, and closed — a completely unfavourable cervix with no evidence of cervical change. Diagnosis: threatened preterm labour at 32 weeks + 5 days. The absence of cervical dilatation or effacement distinguishes this from established preterm labour. Admission for close observation, exclusion of precipitating causes, antenatal corticosteroids given the gestational age and the risk of progression, and patient education is the appropriate management.',
+  content: `
+Mrs K.A., a 25-year-old booked G2P1+0 (1 alive) seamstress, resident in Ilorin, Kwara State, Muslim, Yoruba, married in a monogamous setting, with secondary level education.
 
+OBSTETRIC DATA
+Gravidity: G2
+Parity: P1+0 (one term delivery, no miscarriages)
+Living children: 1 alive
+LMP: 20/10/2025
+EDD: 27/07/2026
+EGA: 32 weeks + 5 days
 
+PRESENTING COMPLAINTS
+Lower abdominal pain × 8 hours
+Low back pain × 8 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 8 hours prior to presentation when she developed lower abdominal pain. The pain was initially mild, irregular, and infrequent, occurring approximately once every 20–30 minutes and lasting only a few seconds. Over time, the pains became slightly more frequent but remain irregular, occurring approximately 1–2 times in 10 minutes and lasting less than 20 seconds.
+
+The pains are colicky in nature, located in the lower abdomen, and sometimes radiate to the lower back. She also reports a sensation of pelvic heaviness but no significant pelvic pressure.
+
+There is no history of passage of blood-stained mucus (no show), no leakage of fluid per vaginam, and no vaginal bleeding. Fetal movements are present and normal.
+
+There is no history of fever, dysuria, or abnormal vaginal discharge. No history of recent trauma, sexual intercourse, or physical exertion prior to onset of symptoms. She has not experienced similar symptoms earlier in this pregnancy.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived, confirmed with a positive pregnancy test and early ultrasound scan. She booked at 16 weeks and attended antenatal clinic regularly. Compliant with antenatal haematinics, received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 33%
+Blood group: B positive
+Genotype: AA
+HIV: Negative
+
+Pregnancy has been uneventful prior to this episode.
+
+PAST OBSTETRIC HISTORY
+2022: Term spontaneous vaginal delivery of a live male infant (3.0 kg) — no complications; child alive and well
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of preterm delivery
+Married in a monogamous setting
+Does not smoke or take alcohol
+No use of herbal medications
+
+OBSTETRIC SUMMARY
+A 25-year-old G2P1+0 woman at 32 weeks + 5 days gestation presenting with mild irregular uterine contractions and a completely unfavourable cervix — consistent with threatened preterm labour rather than established preterm labour, requiring observation, exclusion of precipitating causes, antenatal corticosteroids, and close monitoring for progression.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young pregnant woman, conscious and alert
+Comfortable at rest, not in obvious distress
+Not pale, not icteric
+Afebrile (36.7°C)
+Not dehydrated
+
+Vital Signs:
+BP: 108/68 mmHg (normal)
+PR: 86 bpm (normal)
+RR: 18 cpm (normal)
+Temperature: 36.7°C (afebrile — fever would suggest infection as a precipitating cause)
+SpO₂: not documented — should be measured
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 31 cm (appropriate for 32 weeks + 5 days — expected approximately 31–32 cm)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterus relaxed between contractions
+Occasional mild uterine contractions — not regular, mild intensity
+No uterine tenderness (important negative finding — tenderness would indicate chorioamnionitis or abruption)
+
+Auscultation:
+Fetal heart rate: 142 bpm, regular (normal range 110–160 bpm; reassuring)
+
+Pelvic Examination:
+Vulva and vagina: normal
+Cervix: posterior, firm, uneffaced, and closed (0 cm dilatation)
+No show
+Membranes intact
+Note: the cervical findings are the most important determinant in distinguishing threatened preterm labour from established preterm labour — a posterior, firm, long, closed cervix indicates no significant cervical change has occurred despite 8 hours of contractions
+
+ASSESSMENT
+
+Threatened preterm labour at 32 weeks + 5 days gestation in a multiparous woman with a completely unfavourable cervix and reassuring fetal status
+
+Diagnosis based on:
+
+Definition and distinction — threatened versus established preterm labour:
+
+Established preterm labour:
+Regular uterine contractions (at least 3 per 10 minutes, each lasting at least 30 seconds) with progressive cervical change (dilatation and or effacement) before 37 completed weeks
+The key criterion is the combination of regular, painful contractions AND cervical dilatation or effacement
+
+Threatened preterm labour:
+Uterine contractions before 37 completed weeks that are not yet regular or persistent enough to cause demonstrable cervical change
+The cervix remains closed, uneffaced, and firm — there is no established labour despite the uterine activity
+The contractions may or may not progress to established preterm labour — approximately 30–50% of women presenting with threatened preterm labour deliver within 7 days without treatment; the majority (50–70%) have contractions that resolve spontaneously without cervical progression
+
+Why this patient has threatened and not established preterm labour:
+Contractions: occurring 1–2 times in 10 minutes, lasting less than 20 seconds — below the frequency and duration criteria for established preterm labour (less than 3 per 10 minutes, and duration less than 30 seconds is not a sustained pattern)
+Cervical findings: posterior, firm, uneffaced, and closed — a Bishop score of approximately 0–2 (no dilatation, no effacement, firm consistency, posterior position, presenting part above station -3); this cervix shows no change from a normal mid-trimester cervix at 32 weeks
+Absence of show: in established preterm labour, the mucus plug is typically expelled as the cervix effaces and dilates; no show is present here — consistent with the absence of cervical change
+Absence of pelvic pressure: significant pelvic pressure indicates that the presenting part has descended; this patient reports only pelvic heaviness, which is a less specific symptom
+
+The clinical significance of this distinction:
+The distinction between threatened and established preterm labour is critical for management:
+In established preterm labour: tocolysis is initiated immediately; the primary goal is gaining 48 hours for corticosteroid benefit; delivery is expected and preparation is urgent
+In threatened preterm labour: watchful expectation and observation is the primary approach; tocolysis is not routinely indicated for contractions without cervical change; investigations target identification and treatment of any reversible precipitating cause; corticosteroids are given given the gestational age and the real possibility of progression
+
+Pathophysiology and aetiology of threatened preterm labour:
+The uterus becomes progressively more excitable as gestation advances due to increasing oxytocin receptor density, increasing gap junction formation between myometrial cells (connexin-43), and prostaglandin accumulation
+In most cases of threatened preterm labour, a specific trigger can be identified or suspected:
+
+Urinary tract infection (UTI):
+The most important and treatable cause of preterm uterine activity
+Bacterial lipopolysaccharide (LPS) from gram-negative organisms (E. coli, Klebsiella) activates decidual macrophages → prostaglandin E2 and F2-alpha release → uterine contractions
+UTI may be entirely asymptomatic in pregnancy (no dysuria or frequency) yet cause significant uterine irritability
+Must be excluded in every case of threatened preterm labour — urinalysis and urine MCS are mandatory investigations
+If UTI is confirmed: treat the infection; contractions frequently resolve within 24–48 hours of effective antibiotic therapy without any additional tocolytic
+
+Bacterial vaginosis (BV):
+Polymicrobial overgrowth of anaerobic organisms (Gardnerella vaginalis, Mobiluncus) replacing normal Lactobacillus flora
+Associated with preterm labour through prostaglandin-mediated mechanisms
+Often asymptomatic; sometimes presents as fishy-smelling grey discharge
+High vaginal swab will identify; treat with oral Metronidazole 400 mg twice daily for 7 days
+
+Dehydration:
+Mild dehydration causes relative haemoconcentration → elevated oxytocin levels → uterine contractions
+A clinically significant cause of threatened preterm labour that is frequently overlooked
+Treated with oral or IV hydration — contractions often resolve within 1–2 hours of adequate rehydration
+This patient: not clinically dehydrated at presentation, but hydration status should be formally assessed and maintained
+
+Physical exertion or sexual intercourse:
+Prostaglandins in semen can stimulate uterine contractions
+Physical exertion increases maternal cortisol and catecholamines → uterine irritability
+Both denied in this patient — less likely to be the precipitant here
+
+Placental pathology (subclinical abruption or placenta praevia):
+Disruption of the placental implantation site releases thrombin and tissue factor → prostaglandin production → uterine contractions
+No vaginal bleeding, no uterine tenderness — placental pathology is less likely but should be excluded by ultrasound
+
+Subclinical chorioamnionitis:
+Ascending infection weakening the membranes and stimulating myometrial contractility
+No clinical features at this time (afebrile, no tenderness, no offensive discharge) — but subclinical infection cannot be excluded at the bedside; HVS and inflammatory markers will assess
+
+Idiopathic:
+A significant proportion of threatened preterm labour has no identifiable cause — it may represent normal physiological variation in myometrial excitability at this gestation or subclinical processes not detectable by available tests
+
+Cervical length — the strongest predictor of preterm birth risk:
+Transvaginal cervical length measurement is the most accurate test for distinguishing women at risk of imminent preterm birth from those whose contractions will resolve:
+Cervical length greater than or equal to 30 mm: very low probability of delivery within 7 days (negative predictive value approximately 95%); reassuring; expectant management is appropriate
+Cervical length 20–29 mm: intermediate risk; clinical judgement guides management
+Cervical length less than 20 mm: high risk of preterm birth within 7 days; consider admission, tocolysis, and escalated corticosteroid prioritisation
+Fetal fibronectin (fFN) test: a glycoprotein present in the cervicovaginal secretions when the chorioamnion is disrupting from the decidua (a sign that delivery is likely within 7–14 days); a negative fFN result (less than 50 ng/ml) has a very high negative predictive value (approximately 96%) — meaning that if fFN is negative, delivery within 7 days is very unlikely and tocolysis and corticosteroids may not be urgently needed; a positive result mandates active intervention
+Practical note: transvaginal cervical length measurement is available at most Nigerian teaching hospitals; fetal fibronectin testing is available at selected major teaching hospitals (LUTH, UCH) and some private hospitals in Nigeria; where both are unavailable, the clinical cervical examination and serial monitoring remain the standard of care
+In this patient: digital examination shows an unfavourable cervix (0 cm, uneffaced, firm, posterior); if transvaginal cervical length is available, it should be performed to quantify the cervical length and guide the aggressiveness of management
+
+Differential diagnoses:
+
+Established preterm labour:
+The most important differential — if the cervix were dilating and effacing with regular contractions, this would be established preterm labour requiring tocolysis and urgent corticosteroids
+Excluded in this patient: cervix is closed, uneffaced, and firm; contractions are irregular and do not meet the frequency or duration criteria for established labour
+Serial assessment will monitor for transition from threatened to established labour
+
+Braxton Hicks contractions (physiological uterine activity):
+Normal physiological uterine contractions from mid-pregnancy onward, becoming more frequent and noticeable in the third trimester
+Characteristics: irregular, do not progressively increase in frequency, intensity, or regularity; typically non-painful or mildly uncomfortable; resolve with rest and hydration; do not cause cervical change
+This patient: mild, irregular contractions lasting less than 20 seconds — consistent with Braxton Hicks; however, at 32 weeks with a sensation of pelvic heaviness and lower back pain, the presentation warrants careful assessment to exclude a precipitating cause
+The distinction is clinical — serial monitoring will clarify whether this is physiological Braxton Hicks activity or true threatened preterm labour
+
+Urinary tract infection presenting as lower abdominal pain:
+Lower abdominal pain and back pain in pregnancy can be the primary symptom of a UTI, even without classical dysuria or frequency
+UTI is both a differential and the most important precipitating cause to exclude
+Urinalysis will distinguish
+
+Round ligament pain:
+Sharp, brief, unilateral lower abdominal pain from stretching of the round ligaments in pregnancy
+Typically: very brief, sharp, unilateral, provoked by sudden movement, resolves immediately with rest
+Not colicky, not bilateral, not associated with uterine contractions
+Less consistent with this patient's presentation (colicky bilateral pain with pelvic heaviness) but worth considering as a component
+
+Placental abruption (mild):
+Can cause uterine irritability and lower abdominal pain
+Typically: some degree of uterine tenderness, possible vaginal bleeding (though may be concealed)
+Excluded: no uterine tenderness, no vaginal bleeding; ultrasound will confirm
+
+PLAN
+
+Admit to the high-risk antenatal ward for observation. Alert the senior obstetrician. The key management goals are: exclusion of reversible precipitating causes, close monitoring for progression to established preterm labour, administration of antenatal corticosteroids given the gestational age and real risk of progression, and patient education.
+
+Monitoring
+
+Maternal monitoring:
+Uterine contractions: assess and document the frequency, duration, and intensity every 30 minutes for the first 4 hours, then every 1–2 hours if contractions are not progressing
+Temperature: every 4 hours (fever is the most important clinical sign to detect — it would indicate infection as a precipitant and change management)
+Blood pressure and pulse: every 2–4 hours
+General wellbeing assessment: ask at each observation whether the contractions are becoming stronger, more frequent, or more painful
+
+Fetal monitoring:
+CTG on admission: document baseline FHR (142 bpm — reassuring), variability, accelerations, and any decelerations
+Repeat CTG at 4–6 hours if contractions are persisting; earlier if FHR or contraction pattern changes
+Fetal kick chart: instruct the patient to count fetal movements (Cardiff kick count — 10 movements from 9 am; report if fewer than 10 by noon or if movements stop)
+If fetal tachycardia develops (greater than 160 bpm): escalate immediately — indicates fetal compromise or developing infection
+Practical note: CTG monitoring is available at all Nigerian tertiary hospitals; if a CTG machine is unavailable, intermittent auscultation with a Doppler every 1–2 hours and manual palpation of the uterus is the minimum standard
+
+Contraction monitoring criteria for escalation:
+Progress to established preterm labour (action required): contractions becoming regular (3 or more per 10 minutes), lasting 30 seconds or more, progressively stronger, and not settling with rest and hydration
+If this progression is detected: perform a vaginal examination to assess cervical change; if the cervix is dilating or effacing, reclassify as established preterm labour and initiate tocolysis immediately
+
+Investigations
+
+Urinalysis (point of care):
+This is the single most important investigation in threatened preterm labour — UTI is the most common, treatable, reversible cause
+Dipstick assessment: leucocytes, nitrites, protein, blood
+Leucocytes and nitrites positive: strongly suggests UTI; initiate treatment immediately pending MCS result
+Practical note: dipstick urinalysis is available at all Nigerian facilities; a critical and low-cost investigation that must not be omitted
+
+Urine microscopy, culture, and sensitivity (MCS):
+Midstream clean-catch urine sample (or catheter specimen if unable to provide a clean sample)
+Identifies the causative organism and antibiotic sensitivities
+Guides definitive antibiotic therapy if UTI is confirmed
+Significant bacteriuria in pregnancy: greater than or equal to 10⁵ colony-forming units per ml of a single organism
+Treatment while awaiting sensitivity results: oral Nitrofurantoin 50–100 mg four times daily for 7 days (avoid in the third trimester if delivery is imminent — risk of neonatal haemolysis; alternative: oral Cefalexin 500 mg four times daily for 7 days) OR oral Amoxicillin 500 mg three times daily for 7 days (empirical pending sensitivities in a setting where Nitrofurantoin is unavailable or deferred)
+Practical note: urine MCS is available at all Nigerian tertiary hospitals; results in 48–72 hours
+
+Full blood count:
+WBC and differential: leucocytosis suggests infection; leucopenia suggests viral illness; both are relevant to management
+Haemoglobin (booking PCV 33% — assess for anaemia, which worsens physiological reserve for any subsequent blood loss)
+Platelet count (baseline)
+Practical note: widely available
+
+CRP (C-reactive protein):
+Elevated CRP indicates an inflammatory precipitant (subclinical infection)
+Provides a baseline reference point; serial measurement useful if the patient remains admitted
+Practical note: available at most Nigerian tertiary and many secondary hospitals
+
+High vaginal swab (MCS):
+Screen for bacterial vaginosis (BV), Group B Streptococcus (GBS), Trichomonas vaginalis, and other lower genital tract pathogens
+BV: treat with oral Metronidazole 400 mg twice daily for 7 days — treating BV reduces the risk of ascending infection and may resolve the uterine activity
+GBS colonisation: document and alert the labour ward for intrapartum GBS prophylaxis if the patient subsequently enters labour
+Practical note: available at all Nigerian tertiary hospitals; results in 48–72 hours; obtain at admission alongside the urinalysis
+
+Transvaginal cervical length measurement:
+The most useful objective test for quantifying the risk of preterm birth and guiding management aggressiveness in threatened preterm labour
+Cervical length greater than or equal to 30 mm: very low risk of delivery within 7 days — expectant management; consider deferring tocolysis and using a watch-and-wait approach with hydration and bed rest before committing to antenatal corticosteroids urgently (though given the 32-week gestation, corticosteroids are still appropriate)
+Cervical length less than 25 mm: high risk; initiate tocolysis and prioritise corticosteroid completion
+Technique: performed transvaginally with a vaginal probe after emptying the bladder; the image is obtained in the midsagittal plane; three measurements are taken and the shortest is used; avoid excessive pressure that artificially lengthens the cervix
+Practical note: transvaginal ultrasound is available at most Nigerian teaching hospitals; arrange as a priority investigation; where not available, the clinical cervical examination and serial observation guide management
+
+Obstetric ultrasound (transabdominal):
+Confirm fetal presentation (cephalic — consistent with clinical finding)
+Estimate fetal weight (relevant for neonatal team preparation if labour progresses)
+Amniotic fluid index (exclude oligohydramnios — reduced AFI suggests membrane leak or uteroplacental insufficiency)
+Placental site and appearance (exclude low-lying placenta; look for retroplacental haematoma suggesting subclinical abruption)
+Fetal biometry: compare with previous scans to exclude IUGR
+Doppler studies (umbilical artery): if IUGR is suspected from the biometry, assess placental vascular resistance
+Practical note: transabdominal obstetric ultrasound is available at all Nigerian tertiary hospitals
+
+Blood pressure re-assessment:
+No hypertension at this examination (108/68 mmHg); document a formal BP at each observation — preeclampsia can precipitate preterm labour and must be excluded, particularly as this is a new presentation without prior documented elevated BP
+
+Antenatal Corticosteroids
+
+Administer on admission at 32 weeks + 5 days:
+Rationale: even in threatened preterm labour where delivery may not be imminent, the uncertainty of the clinical course justifies giving corticosteroids at this gestation
+The potential benefit of corticosteroids if delivery occurs (reduction in RDS, IVH, NEC) is substantial at 32 weeks; the risk of administering a course that may not ultimately be needed (if labour does not progress) is minimal
+At 32 weeks + 5 days — well below the 34-week threshold: antenatal corticosteroids are unambiguously indicated in any preterm scenario where delivery within the next 7 days is a genuine possibility
+
+Regimen:
+IM Dexamethasone 6 mg every 12 hours for 4 doses (total 48-hour course): widely available at all Nigerian tertiary and secondary hospitals
+OR IM Betamethasone 12 mg every 24 hours for 2 doses (total 48-hour course): gold standard in international guidelines; available at most Nigerian teaching hospitals
+Give the first dose immediately on admission — do not delay for investigation results
+If the patient's contractions resolve and she is discharged before completing the course: she takes the remaining doses at the discharge facility or receives a prescription to complete the course at the nearest facility; document the time of each dose received
+
+If the patient remains pregnant and at less than 34 weeks and the first course was given more than 7 days ago: a single rescue course of corticosteroids may be given (one additional course only); document the timing of all previous courses
+
+Magnesium Sulphate for Fetal Neuroprotection
+
+Timing of administration in threatened preterm labour:
+Magnesium sulphate is indicated for fetal neuroprotection when preterm birth is anticipated within 24 hours before 34 weeks of gestation
+In threatened preterm labour where the cervix is closed and delivery is not imminent: withhold magnesium sulphate at this time
+Rationale for deferral: magnesium sulphate is associated with maternal side effects (flushing, nausea, lethargy) and requires continuous clinical monitoring (respiratory rate, reflexes, urine output) which is resource-intensive; administering it when delivery is not imminent increases patient burden without established benefit
+Plan: administer immediately if the clinical picture changes — if the cervix begins to dilate, if contractions become regular and established, or if the decision to deliver is made
+
+If labour becomes established and delivery within 24 hours is anticipated:
+Loading dose: IV Magnesium sulphate 4 g (20 ml of 20% solution or 16 ml of 25% solution) diluted in 100 ml of Normal Saline, administered over 20–30 minutes via infusion pump
+Maintenance: IV Magnesium sulphate 1 g per hour continuous infusion until delivery or a maximum of 24 hours, whichever is sooner
+Stop and recommence if delivery is delayed beyond 24 hours and then becomes imminent again
+
+Monitoring during magnesium sulphate infusion (when initiated):
+Respiratory rate: every 30 minutes; must remain above 12 cpm; stop immediately if respiratory rate falls below 12 cpm
+Deep tendon reflexes (patellar reflex): assess hourly; loss of patellar reflex is the earliest sign of toxicity — stop immediately if absent
+Urine output: via Foley catheter; must remain above 25 ml per hour; reduce infusion rate by 50% if urine output is 15–25 ml per hour; withhold if below 15 ml per hour
+Antidote at the bedside throughout: IV Calcium gluconate 10 ml of 10% solution (1 g) drawn up and labelled; administer over 10 minutes if toxicity develops
+
+Tocolysis
+
+Role of tocolysis in threatened preterm labour:
+Tocolysis is not routinely indicated in threatened preterm labour when the cervix is closed and there is no established labour pattern
+The rationale: irregular contractions without cervical change may resolve spontaneously with conservative measures (hydration, rest, treatment of any precipitating infection); tocolytic drugs carry maternal side effects and are not justified when the indication (cervical change and regular contractions) is not met
+Tocolysis is reserved for: established preterm labour (regular contractions with cervical dilatation or effacement) to gain a 48-hour window for corticosteroid completion
+
+When to initiate tocolysis in this patient:
+If, on reassessment, the cervix is dilating or effacing: reclassify as established preterm labour; initiate tocolysis immediately
+
+If tocolysis is indicated (progression to established preterm labour):
+First-line: oral Nifedipine immediate release 20 mg orally (bite and swallow); repeat 20 mg after 30 minutes if contractions persist; repeat a third dose of 20 mg if contractions continue; then maintenance oral Nifedipine modified-release 20 mg every 6–8 hours for 48 hours
+Monitor BP every 30 minutes during the acute tocolytic phase (Nifedipine causes vasodilation — hypotension worsens uteroplacental blood flow; hold if systolic BP is below 90 mmHg)
+Second-line: IV Atosiban (oxytocin receptor antagonist) if Nifedipine is ineffective or unavailable at the facility — IV Atosiban 6.75 mg bolus over 1 minute, then 18 mg per hour for 3 hours, then 6 mg per hour for up to 45 hours (total maximum 48-hour course)
+Contraindications to tocolysis to exclude before initiating: chorioamnionitis (fever, uterine tenderness, offensive discharge), fetal compromise (non-reassuring CTG), significant vaginal bleeding or abruption, ruptured membranes with established labour, advanced cervical dilatation beyond 6–7 cm
+
+Supportive Management
+
+Hydration:
+Dehydration is a reversible cause of uterine contractions — adequate hydration is both therapeutic and diagnostic
+Encourage oral fluids liberally (water, diluted juice — at least 2 litres orally if the patient can tolerate)
+If oral intake is insufficient or if the patient is mildly dehydrated: IV Normal Saline or Ringer's Lactate 1 litre over 4 hours
+Observe contractions after rehydration — if they settle within 1–2 hours of adequate fluid administration, dehydration was likely the precipitant
+
+Bed rest:
+Advised during the observation period to reduce physical activity-related uterine stimulation
+Not mandatory if contractions settle completely — the patient may ambulate cautiously within the ward
+Complete bed rest is not supported by strong evidence for preventing progression of threatened preterm labour, but it reduces exertional uterine stimulation and allows close nursing observation
+
+Analgesia:
+This patient is comfortable at rest — routine analgesia is not required
+If lower abdominal discomfort is causing distress: oral Paracetamol 500–1000 mg every 6–8 hours is safe in pregnancy
+Avoid NSAIDs at greater than or equal to 32 weeks (premature closure of the ductus arteriosus; worsening of oligohydramnios if present)
+
+Vaginal progesterone (adjunct to reduce preterm birth risk):
+Vaginal micronised progesterone has evidence for reducing preterm birth in women with a short cervix (less than 25 mm on transvaginal scan) presenting with threatened preterm labour
+If cervical length is less than 25 mm on transvaginal scan: commence vaginal micronised progesterone 200 mg at night (Utrogestan or Cyclogest pessary); continue until 34 weeks or until delivery, whichever is sooner
+If cervical length is greater than or equal to 25 mm: progesterone is not indicated at this time for cervical length alone; reassess if length shortens on follow-up
+Practical note: vaginal micronised progesterone is available at most Nigerian teaching hospitals and specialist pharmacies; moderately expensive; oral Dydrogesterone 10 mg twice daily is a widely available, more affordable alternative though with less robust evidence specifically for threatened preterm labour
+
+Reassessment at 4–6 Hours
+
+Repeat clinical assessment after 4–6 hours of observation (or earlier if symptoms worsen):
+
+Digital vaginal examination:
+If contractions have not progressed and the patient remains comfortable: gentle vaginal examination to confirm the cervix remains closed and uneffaced (confirming resolution or non-progression of threatened preterm labour)
+If contractions have progressed or worsened: examine immediately regardless of time interval
+
+Assessment criteria at reassessment:
+
+Favourable (resolution of threatened preterm labour — criteria for discharge consideration):
+Contractions have settled to fewer than 2 per hour or have stopped
+Cervix remains posterior, firm, long, and closed
+No show, no fluid leaking, no new symptoms
+Fetal heart rate remains reassuring
+No infection identified on preliminary investigations (urinalysis normal, no fever, no offensive discharge)
+Vital signs stable
+
+Unfavourable (progression to established preterm labour — criteria for active management):
+Contractions have increased in frequency (3 or more per 10 minutes) and duration (30 seconds or more)
+Cervix has dilated or begun to efface
+New show or leakage of fluid
+Fetal tachycardia or non-reassuring CTG
+Maternal fever or uterine tenderness
+
+Discharge Plan (if assessment is favourable at 4–6 hours)
+
+Discharge criteria — all must be met:
+Contractions have settled completely or are minimal (fewer than 2 per hour) and the pattern is not progressing
+Cervix confirmed closed, uneffaced, and posterior on repeat examination (or favourable cervical length on transvaginal scan)
+No infection identified (urinalysis normal, afebrile, no offensive discharge)
+Fetal wellbeing confirmed (reassuring CTG, normal fetal movements)
+First dose of corticosteroids given; prescription provided for remaining doses if not completed in hospital
+Patient fully educated on warning signs and able to return immediately if symptoms recur or worsen
+
+If discharged:
+Provide a written list of warning signs requiring immediate return to hospital
+Arrange a follow-up appointment in the antenatal clinic within 48–72 hours for review of HVS and urine MCS results
+Continue any prescribed antibiotic (for UTI or BV) as an outpatient
+Complete the corticosteroid course at the nearest facility if not completed before discharge — document the time of the first dose clearly
+Prescribe vaginal progesterone if cervical length is less than 25 mm
+Advise adequate rest, avoidance of strenuous physical activity, and maintenance of good oral hydration
+
+If contractions progress and the patient delivers during the admission:
+Proceed as for established preterm labour at 32 weeks + 5 days
+Alert neonatal team (as below)
+Administer magnesium sulphate for neuroprotection immediately
+Initiate tocolysis if not contraindicated — to gain 48-hour corticosteroid window
+
+Neonatal Team Awareness
+
+Alert the neonatal team on admission that a 32-week preterm neonate may potentially need NICU care:
+At 32 weeks + 5 days: survival rate greater than 95% with appropriate care; NICU admission is expected for any neonate delivering at this gestation
+Neonatal preparation (for potential delivery):
+Radiant warmer and incubator pre-warmed
+Bag-mask ventilation and nasal CPAP equipment ready
+Surfactant (Poractant alfa or Beractant) available for RDS management
+Two neonatal resuscitation-trained attendants
+Delayed cord clamping (30–60 seconds) if the neonate is vigorous
+Empirical neonatal sepsis assessment with blood culture, FBC, and IV antibiotics (IV Ampicillin 50 mg per kg every 12 hours PLUS IV Gentamicin 5 mg per kg once daily) if GBS is confirmed on maternal HVS or clinical signs of neonatal infection develop after birth
+
+Note: if the patient is discharged without delivering, update the neonatal team accordingly and document clearly in the clinical notes
+
+Counselling
+
+Explanation of the diagnosis:
+The womb (uterus) has been having some tightening contractions over the past 8 hours but these are not yet strong enough or regular enough to be true labour
+The opening of the womb (cervix) has not yet begun to open or thin out — which means that actual labour has not started yet
+This is called threatened preterm labour — it means the body is showing some signs that could lead to early labour, but it has not happened yet
+Many women with these symptoms find that the contractions settle down without any labour starting
+
+What is being done now:
+The patient is being admitted for careful monitoring to watch whether the contractions settle or progress
+Tests are being done to check for any infection in the urine or vagina that might be causing the contractions — if an infection is found, treating it often stops the contractions
+An injection is being given immediately to help the baby's lungs develop faster, in case the baby needs to be born early — this injection significantly reduces the risk of breathing problems for the baby if born at 32 weeks
+The baby's heart rate is being monitored and is currently normal
+
+What to watch for and report immediately:
+She must report any of the following immediately, at any time:
+Contractions becoming more painful, more frequent (more than 4 per hour), or closer together
+A gush or trickle of fluid from the vagina (waters breaking)
+Vaginal bleeding of any amount
+Passage of a jelly-like mucus plug (show)
+The baby moving less than usual or stopping moving
+Developing a fever or feeling cold and shivery
+Worsening pain in the lower abdomen or back that does not settle with rest
+
+If discharged before completing all the injections:
+The corticosteroid injection course consists of either 4 injections (one every 12 hours) or 2 injections (one every 24 hours) depending on the medication being used
+If she is discharged before the course is complete, she must attend the nearest hospital to receive the remaining doses — these injections are very important for the baby's wellbeing and must not be skipped
+A note will be provided with the time of the first injection and how many remain
+
+If labour starts at home before she returns:
+Report to any hospital immediately — do not wait
+This is particularly important because the baby is still too early (32 weeks) and will need special care after birth
+
+Future pregnancies:
+Having threatened preterm labour in this pregnancy means there is a slightly higher risk of preterm labour in a future pregnancy
+In the next pregnancy: book before 12 weeks, have a cervical length check by ultrasound between 16 and 24 weeks, and start vaginal progesterone immediately if the cervix is found to be short (less than 25 mm) — this significantly reduces the risk of early labour
+Report any lower abdominal pain, pelvic pressure, or regular contractions to the hospital immediately in any future pregnancy — early assessment and treatment of the cause is important
+
+PROGNOSIS
+
+Maternal prognosis:
+Excellent — haemodynamically stable, no infection, no comorbidities
+If contractions resolve (likely in 50–70% of cases without cervical change): this episode of threatened preterm labour does not affect long-term maternal wellbeing
+If labour progresses to delivery at 32–33 weeks: standard postpartum recovery; main risk is postpartum haemorrhage (booking PCV 33% — active third stage management is essential)
+
+Neonatal prognosis:
+If no delivery occurs: no immediate neonatal risk from this episode
+If delivery occurs at 32 weeks + 5 days: survival rate greater than 95% with NICU support; expected NICU stay 4–6 weeks; RDS, apnoea of prematurity, hypothermia, and hypoglycaemia are the primary managed risks; long-term neurodevelopmental outcome is generally good with appropriate neonatal care
+
+Prognosis for remaining pregnant:
+A closed, uneffaced cervix at 32+5 weeks in the context of irregular contractions is associated with a high probability of resolution — the majority of these women will continue their pregnancy beyond 34 weeks
+Cervical length greater than 30 mm on transvaginal scan (if performed): very low risk of delivery within 7 days; prognosis for continuing the pregnancy is excellent
+Negative fetal fibronectin (if available): similarly reassuring
+
+Factors improving prognosis:
+Identification and treatment of any precipitating cause (UTI, BV, dehydration)
+Administration of corticosteroids providing cover for any potential preterm delivery within 7 days
+Close monitoring enabling early detection and management of progression
+Regular future antenatal follow-up with cervical surveillance if available
+
+FOLLOW-UP
+During admission: contraction frequency and duration every 30 minutes for the first 4 hours; maternal temperature and pulse every 4 hours; CTG at admission and repeat at 4–6 hours or earlier if clinically indicated; repeat vaginal examination at 4–6 hours to confirm cervical status. Review urinalysis result immediately; treat UTI if confirmed. Review HVS and urine MCS results at 48–72 hours; adjust antibiotic treatment based on sensitivities; ensure GBS status is documented for intrapartum management. If discharged: follow-up in antenatal clinic within 48–72 hours for review of investigation results and clinical reassessment. Ongoing antenatal care: continue routine antenatal visits; cervical length monitoring by transvaginal scan every 2 weeks from 28–34 weeks if available; progesterone supplementation if short cervix is confirmed. Advise to book early and attend regularly in future pregnancies; cervical surveillance from 16 weeks in the next pregnancy.
+`,
+  documentation: `
+Mrs K.A., a 25-year-old booked G2P1+0 (1 alive) seamstress, resident in Ilorin, Kwara State, Muslim, Yoruba, married in a monogamous setting, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G2
+Parity: P1+0
+Living children: 1 alive
+LMP: 20/10/2025
+EDD: 27/07/2026
+EGA: 32 weeks + 5 days
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 8 hours
+Low back pain × 8 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 8 hours prior to presentation when she developed lower abdominal pain. The pain was initially mild, irregular, and infrequent, occurring approximately once every 20–30 minutes and lasting only a few seconds. Over time, the pains became slightly more frequent but remained irregular, occurring approximately 1–2 times in 10 minutes and lasting less than 20 seconds.
+
+The pains were colicky in nature, located in the lower abdomen, and sometimes radiated to the lower back. She also reported a sensation of pelvic heaviness but no significant pelvic pressure.
+
+There was no history of passage of blood-stained mucus, leakage of fluid per vaginam, or vaginal bleeding. Fetal movements were present and normal.
+
+There was no history of fever, dysuria, or abnormal vaginal discharge. No history of recent trauma, sexual intercourse, or physical exertion prior to onset of symptoms. She had not experienced similar symptoms earlier in this pregnancy.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived, confirmed with a positive pregnancy test and early ultrasound scan. She booked at 16 weeks and attended antenatal clinic regularly. She was compliant with antenatal haematinics, received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 33%
+Blood group: B positive
+Genotype: AA
+HIV: Negative
+
+Pregnancy had been uneventful prior to this episode.
+
+PAST OBSTETRIC HISTORY
+2022: Term spontaneous vaginal delivery of a live male infant (3.0 kg) with no complications; child alive and well.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years.
+Regular menstrual cycles prior to pregnancy.
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness.
+No previous surgeries.
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+No family history of preterm delivery.
+Does not smoke or take alcohol.
+No use of herbal medications.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young pregnant woman, conscious and alert.
+Comfortable at rest, not in obvious distress.
+Not pale, not icteric, afebrile, not dehydrated.
+
+Vital Signs:
+BP: 108/68 mmHg
+PR: 86 bpm
+RR: 18 cpm
+Temperature: 36.7°C
+
+Abdominal Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus.
+
+Palpation:
+SFH: 31 cm
+Lie: Longitudinal
+Presentation: Cephalic
+Uterus relaxed between contractions.
+Occasional mild irregular uterine contractions palpated.
+No uterine tenderness.
+
+Auscultation:
+FHR: 142 bpm, regular.
+
+Pelvic Examination:
+Vulva and vagina normal.
+Cervix posterior, firm, uneffaced, and closed.
+No show.
+Membranes intact.
+
+ASSESSMENT
+Threatened preterm labour at 32 weeks + 5 days gestation with reassuring fetal status.
+
+PLAN
+
+Admit HRPW
+Inform senior registrar/consultant
+Monitor vital signs, uterine contractions, and FHR
+CTG on admission
+Urinalysis, urine MCS
+FBC, CRP
+HVS for MCS
+Obstetric USS ± transvaginal cervical length scan
+Encourage oral hydration; IV Normal saline 1 L over 4 hours if required
+IM Dexamethasone 6 mg 12-hourly × 4 doses
+Oral Paracetamol 1 g 8-hourly PRN
+Repeat vaginal examination in 4–6 hours if contractions persist/worsen
+If progression to established preterm labour: commence oral Nifedipine 20 mg stat, repeat after 30 minutes if contractions persist, then Nifedipine SR 20 mg 6–8 hourly for 48 hours
+MgSO₄ for fetal neuroprotection if delivery becomes imminent: IV 4 g loading dose over 20 minutes, then 1 g/hour infusion
+Inform neonatal team if labour progresses
+Counsel on warning signs including worsening contractions, vaginal bleeding, liquor drainage, fever, and reduced fetal movements
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-45',
+  title: 'Preterm Labour with Intact Membranes',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics/Labour Ward',
+  condition: 'Established preterm labour at 34 weeks + 1 day with intact membranes in a multiparous woman, requiring corticosteroids and cautious tocolysis',
+  symptoms: [
+    'Lower abdominal pain',
+    'Low back pain',
+    'Bloody show',
+    'Urge to bear down',
+    'Uterine contractions 3–4 in 10 minutes lasting 40–50 seconds',
+    'Cervix soft, anterior, 70% effaced, 4 cm dilated',
+    'Cephalic presenting part at station -1',
+    'Membranes intact and bulging',
+    'Fetal heart rate 146 bpm (reassuring)',
+    'No fever, no leakage of fluid, no vaginal bleeding'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-05-04',
+  summary: 'Mrs T.O., a 29-year-old booked G3P1+1 (1 alive) trader presenting at 34 weeks + 1 day gestation with a 12-hour history of progressively worsening lower abdominal and low back pain, now occurring 3–4 times in 10 minutes and lasting 40–50 seconds, with a bloody show 4 hours prior and an urge to bear down. No leakage of fluid, no vaginal bleeding, no fever. Fetal movements present and normal. Booked at 15 weeks with regular antenatal attendance. Booking investigations: PCV 31%, blood group O positive, genotype AS, HIV negative. Previous obstetric history: one uncomplicated term SVD in 2018 and a first trimester miscarriage managed with MVA in 2021. Examination reveals a woman in moderate painful distress, haemodynamically stable (BP 112/70 mmHg, PR 94 bpm, temperature 36.8°C). SFH 33 cm (consistent with gestational age). Contractions 3–4 in 10 minutes lasting 40–50 seconds, moderate intensity, no uterine tenderness. FHR 146 bpm (reassuring). Cervix soft, anterior, 70% effaced, and 4 cm dilated with an intact bulging membranes and cephalic presenting part at station -1. Pelvis clinically adequate. Diagnosis: established preterm labour with intact membranes at 34 weeks + 1 day in a multiparous woman. Tocolysis is appropriate to gain 48 hours for corticosteroid benefit. Requires antenatal corticosteroids, tocolysis, magnesium sulphate, and preparation for delivery.',
+  content: `
+Mrs T.O., a 29-year-old booked G3P1+1 (1 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G3
+Parity: P1+1 (one term delivery, one first trimester miscarriage)
+Living children: 1 alive
+LMP: 10/11/2025
+EDD: 17/08/2026
+EGA: 34 weeks + 1 day
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 12 hours
+Low back pain × 12 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 12 hours prior to presentation when she developed lower abdominal pains. The pains were initially mild and irregular, occurring approximately once every 20 minutes and lasting only a few seconds. Over time, the pains became progressively more frequent, stronger, and more regular. They are currently occurring 3–4 times in 10 minutes and lasting approximately 40–50 seconds. The pains are colicky, located in the lower abdomen, and radiate to the lower back.
+
+She reports a sensation of increasing pelvic pressure and an urge to bear down.
+
+There is a history of passage of blood-stained mucus (show) approximately 4 hours prior to presentation.
+
+There is no history of leakage of fluid per vaginam, no vaginal bleeding, no fever, no dysuria, no foul-smelling vaginal discharge, no trauma, and no recent sexual intercourse. Fetal movements are present and remain normal.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived, confirmed with a positive pregnancy test and early ultrasound scan. She booked at 15 weeks and attended antenatal clinic regularly. Compliant with antenatal haematinics, received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 31%
+Blood group: O positive
+Genotype: AS
+HIV: Negative
+
+Pregnancy has been uneventful prior to this episode.
+
+PAST OBSTETRIC HISTORY
+2018: Term spontaneous vaginal delivery of a live male infant (3.2 kg) — no complications; child alive and well
+2021: First trimester spontaneous miscarriage at 10 weeks — managed with manual vacuum aspiration (MVA); no complications
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No previous surgeries
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+No family history of preterm delivery
+Married in a monogamous setting
+Does not smoke or take alcohol
+No use of herbal medications
+
+OBSTETRIC SUMMARY
+A 29-year-old G3P1+1 multiparous woman at 34 weeks + 1 day gestation presenting with established preterm labour with intact membranes, a reassuring fetal heart rate, and no clinical evidence of infection — suitable for tocolysis to gain a 48-hour window for corticosteroid benefit while preparing for delivery.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Pregnant woman, conscious and alert
+In moderate painful distress
+Not pale, not icteric
+Afebrile (36.8°C)
+Not dehydrated
+
+Vital Signs:
+BP: 112/70 mmHg (normal)
+PR: 94 bpm (mildly elevated from pain)
+RR: 20 cpm (normal)
+Temperature: 36.8°C (afebrile — critical: fever would contraindicate tocolysis and indicate infection)
+SpO₂: not documented — should be measured
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus
+
+Palpation:
+Symphysiofundal height: 33 cm (consistent with 34 weeks gestation)
+Lie: Longitudinal
+Presentation: Cephalic
+Uterine contractions: 3–4 in 10 minutes, lasting 40–50 seconds, moderate intensity
+No uterine tenderness (important negative finding — uterine tenderness would suggest chorioamnionitis and would contraindicate tocolysis)
+
+Auscultation:
+Fetal heart rate: 146 bpm, regular (normal range 110–160 bpm; reassuring)
+
+Pelvic Examination:
+Vulva and vagina: normal
+Cervix: soft, anterior, 70% effaced, 4 cm dilated
+Presenting part: cephalic at station -1 (above the ischial spines — not yet engaged)
+Membranes: intact and bulging
+No liquor drainage
+Pelvis: clinically adequate
+
+ASSESSMENT
+
+Established preterm labour with intact membranes at 34 weeks + 1 day gestation in a multiparous woman with a live, reassuring fetus
+
+Diagnosis based on:
+
+Definition and criteria for preterm labour:
+Regular uterine contractions (at least 3 contractions per 10 minutes, each lasting at least 30 seconds) with progressive cervical change before 37 completed weeks of gestation
+This patient: contractions 3–4 per 10 minutes lasting 40–50 seconds (meets the frequency and duration criteria) with cervix 4 cm dilated and 70% effaced (progressive cervical change confirmed) at 34 weeks + 1 day — preterm labour is established
+
+Gestational age significance at 34 weeks + 1 day:
+This is the late preterm period (34–36+6 weeks)
+Late preterm neonates have significantly better outcomes than earlier preterm neonates (32 weeks as in the prior case) but still carry substantial morbidity compared with term neonates
+At 34 weeks: survival rate with appropriate NICU care is greater than 98%; however, these neonates require NICU admission in approximately 50–70% of cases
+The most common neonatal problems at this gestation include:
+Respiratory distress (late preterm RDS, transient tachypnoea of the newborn — TTN): surfactant production is nearly complete but the transition to air breathing is less efficient than at term
+Feeding difficulties: weak suck, poor coordination of sucking and swallowing
+Hypothermia: less subcutaneous fat than term neonates
+Hypoglycaemia: reduced hepatic glycogen stores
+Apnoea of prematurity: less common at 34 weeks than at earlier gestations but still possible
+Jaundice: more common and more severe in late preterm neonates (less effective bilirubin conjugation)
+Sepsis: higher infection risk from immature immune system
+Neurodevelopmental effects: late preterm neonates have slightly higher rates of attention and learning difficulties compared with term neonates
+
+The case for tocolysis at 34 weeks + 1 day:
+The Antenatal Late Preterm Steroids (ALPS) trial demonstrated that a course of corticosteroids given between 34+0 and 36+6 weeks significantly reduces respiratory morbidity (need for CPAP, surfactant, oxygen) in late preterm neonates
+Tocolysis at this gestation aims to delay delivery by 48 hours to allow the corticosteroid course to complete — this is the sole goal; tocolysis is not intended to prevent delivery permanently at 34 weeks
+With a 48-hour window: corticosteroids can meaningfully reduce neonatal RDS and NICU admission duration in this late preterm neonate
+Tocolysis is reasonable at 34 weeks + 1 day: it is below the threshold where most guidelines recommend accepting delivery without tocolysis (which is typically 36–37 weeks in uncomplicated preterm labour)
+
+Clinical note on sickle cell trait (genotype AS):
+Booking genotype is AS (sickle cell trait)
+Sickle cell trait is generally not associated with significant maternal complications in pregnancy
+However: extreme physiological stress (severe haemorrhage, hypoxia, dehydration, high fever) can precipitate sickle cell crises in trait carriers
+Practical precautions:
+Maintain adequate hydration throughout labour and delivery
+Avoid hypoxia (supplemental oxygen if SpO₂ falls below 95%)
+Avoid hypothermia
+Neonatal genotyping: the neonate's genotype depends on the father's genotype (not documented — the father should be counselled for genotype testing); if the father is AS or SS, the neonate may be affected; newborn screening should be arranged
+
+Intact membranes — clinical significance:
+Intact membranes at 34 weeks with 4 cm dilatation offer the opportunity for tocolysis (PPROM changes the risk-benefit calculation by increasing infection risk)
+The bulging nature of the membranes at 4 cm dilatation and station -1 indicates that membrane rupture may occur spontaneously as labour advances
+Do not perform amniotomy at this stage unless labour is being actively augmented after a decision to deliver
+
+Chorioamnionitis — excluded at this examination:
+Afebrile (36.8°C), no uterine tenderness, PR 94 bpm, FHR 146 bpm, no offensive discharge — none of the Gibbs criteria for chorioamnionitis are met
+Tocolysis is appropriate in the absence of infection
+
+Differential diagnoses:
+
+False preterm labour:
+Irregular non-progressive contractions without cervical change — Braxton Hicks contractions
+Excluded in this patient: contractions are regular, progressive, and associated with 4 cm cervical dilatation and 70% effacement — this is established true preterm labour
+A cervical dilatation of 4 cm in the context of regular contractions is beyond the range of false labour in a multiparous woman
+
+Chorioamnionitis with preterm labour:
+Preterm labour can be precipitated by ascending infection
+Currently excluded clinically — as above
+Monitor closely: if fever develops during the admission, reassess immediately and withhold tocolysis
+
+Placental abruption:
+Can cause painful uterine contractions with or without vaginal bleeding
+Typically: constant uterine pain, uterine tenderness, tense uterus, possible vaginal bleeding
+This patient: colicky contractions, no uterine tenderness, no bleeding, uterus relaxes between contractions — abruption is not clinically supported; however, if contractions become continuous and the uterus loses its relaxation between contractions, reassess for concealed abruption
+
+Urinary tract infection precipitating uterine contractions:
+UTI is a well-recognised precipitant of preterm labour through prostaglandin-mediated uterine stimulation
+No dysuria or urinary frequency reported; urinalysis will formally exclude
+If UTI is confirmed: treat with appropriate antibiotics (oral Nitrofurantoin 50 mg four times daily for 7 days or oral Cephalexin 500 mg four times daily for 7 days); labour may settle once the urinary infection is treated
+
+PLAN
+
+Admit immediately to the high-risk labour ward. Alert senior obstetrician and neonatal team.
+
+Monitoring
+
+Maternal monitoring:
+Vital signs every 30–60 minutes
+Temperature monitoring every 2–4 hours (chorioamnionitis surveillance — fever greater than 38°C is an absolute indication to stop tocolysis and prepare for delivery)
+If temperature rises above 37.5°C: assess the full Gibbs criteria and alert senior obstetrician
+Uterine contractions: document frequency, duration, and intensity every 30 minutes
+Uterine tenderness: assess at each observation
+
+Fetal monitoring:
+Apply continuous CTG on admission
+Assess: baseline FHR (currently 146 bpm — reassuring), variability, accelerations, and decelerations
+A reassuring CTG must be confirmed before tocolysis is initiated and maintained throughout the tocolytic course
+Non-reassuring CTG (late decelerations, absent variability, sustained tachycardia greater than 160 bpm, or prolonged bradycardia): stop tocolysis and plan delivery
+Practical note: CTG monitoring is available at all Nigerian tertiary hospitals; if CTG is unavailable, intermittent auscultation every 15–30 minutes with documentation of fetal heart rate and contraction pattern is the minimum standard
+
+Investigations
+
+Full blood count:
+WBC (leucocytosis supports infection as a precipitant or complication of preterm labour)
+Haemoglobin and PCV (baseline 31% at booking — ensure no worsening; baseline anaemia increases PPH risk at delivery)
+Platelet count (baseline before possible operative delivery)
+Practical note: widely available
+
+Urinalysis and urine MCS:
+Dipstick: leucocytes, nitrites, protein, glucose
+Pyuria and bacteriuria: confirm UTI — treat with appropriate antibiotic
+Protein: screen for preeclampsia (BP is normal but must be documented formally at each observation)
+Practical note: widely available
+
+High vaginal swab (MCS):
+Screen for GBS and bacterial vaginosis — both are precipitants of preterm labour and have implications for intrapartum and neonatal management
+If GBS is confirmed: document and alert the labour ward team for intrapartum GBS prophylaxis at delivery (IV Benzylpenicillin G 3 g loading dose, then 1.5 g every 4 hours during active labour)
+Practical note: available at all Nigerian tertiary hospitals; results in 48–72 hours
+
+CRP (C-reactive protein):
+Baseline inflammation marker
+Rising CRP during tocolysis and after antibiotics are given: suggests developing infection — reassess management
+Practical note: available at most Nigerian tertiary and many secondary hospitals
+
+Group and save serum:
+O positive confirmed at booking — reconfirm and save serum (delivery may occur at short notice)
+Cross-match if there is any clinical concern about haemorrhage risk (booking PCV 31% warrants cross-matching)
+
+Obstetric ultrasound (arrange):
+Confirm presentation (clinical: cephalic — ultrasound provides formal confirmation)
+Estimate fetal weight (relevant for neonatal team preparation)
+Assess amniotic fluid index (oligohydramnios would suggest occult membrane leak)
+Placental site (exclude low-lying placenta)
+Practical note: available at all Nigerian tertiary hospitals
+
+Antenatal Corticosteroids
+
+Administer the first dose immediately — this is the primary therapeutic goal of delaying delivery:
+IM Dexamethasone 6 mg every 12 hours for 4 doses (48-hour course total): widely available at all Nigerian facilities; practical first choice
+OR IM Betamethasone 12 mg every 24 hours for 2 doses (48-hour course): gold standard in international guidelines; available at most teaching hospitals
+
+ALPS trial evidence at 34 weeks:
+The ALPS trial (Gyamfi-Bannerman et al., NEJM 2016) specifically evaluated late preterm corticosteroids at 34+0 to 36+6 weeks and demonstrated a significant reduction in neonatal respiratory morbidity (need for CPAP, surfactant, and supplemental oxygen) in the treated group compared with placebo
+This evidence supports the use of corticosteroids in this patient at 34+1 weeks, even though this gestational age was previously not considered to require corticosteroids
+Give the first dose immediately on admission regardless of tocolysis status — even if tocolysis fails and delivery occurs before the full course is complete, any partial benefit from the doses administered is clinically meaningful
+
+If the patient has previously received a course of corticosteroids in this pregnancy and the first course was given more than 7 days ago and she remains at less than 34 weeks: a single rescue course can be considered (one additional course only); this is not applicable here as no prior course is documented
+
+Tocolysis
+
+Goal of tocolysis:
+Delay delivery by 48 hours to allow the corticosteroid course to exert maximal benefit
+Tocolysis is not intended to stop labour permanently — it is a bridge to corticosteroid completion
+At 34+1 weeks: the neonatal benefit of gaining 48 hours for corticosteroids justifies short-term tocolysis; prolonged tocolysis beyond 48 hours at this gestation has diminishing benefit and increasing risk
+
+Contraindications to tocolysis — must be confirmed absent before initiating:
+Absolute contraindications: chorioamnionitis (absent — afebrile, no uterine tenderness), significant vaginal bleeding or evidence of placental abruption (absent), fetal compromise on CTG (absent — FHR 146 bpm, reassuring), ruptured membranes with established labour (membranes are intact), advanced cervical dilatation greater than 6–7 cm in a multiparous woman (cervix is 4 cm — tocolysis is appropriate)
+Relative contraindications: preeclampsia (BP is normal), maternal cardiac disease, hypersensitivity to the tocolytic agent
+
+First-line tocolytic — Nifedipine (calcium channel blocker):
+
+Mechanism: blocks L-type voltage-gated calcium channels in myometrial smooth muscle cells; reduces intracellular calcium concentration; inhibits actin-myosin crosslinking and uterine smooth muscle contraction
+Evidence: Nifedipine is equivalent to Atosiban in efficacy for delaying delivery by 48 hours in preterm labour, with a similar or better neonatal outcome profile compared with betamimetics; superior to ritodrine and salbutamol in safety; cost-effective and widely available
+
+Regimen:
+Acute tocolysis (loading phase): oral Nifedipine immediate release 20 mg orally (bite and swallow — not sublingual); if contractions persist after 30 minutes, give a second dose of 20 mg; may give a third dose of 20 mg after a further 30 minutes if still contracting (maximum loading dose 60 mg over 1.5 hours)
+Maintenance (after contractions are suppressed): oral Nifedipine modified-release (retard) 20 mg every 6–8 hours for 48 hours
+Duration: continue for 48 hours from initiation (the window needed for corticosteroid benefit); reassess at 48 hours — if contractions have settled and corticosteroids have been administered, discontinue tocolysis and allow labour to proceed
+Do not continue tocolysis beyond 48 hours for the sole purpose of preventing delivery at 34+ weeks — no benefit has been established for prolonged tocolysis at this gestation, and the risks (maternal cardiovascular side effects, masking of chorioamnionitis development) outweigh any potential benefit
+
+Maternal monitoring during Nifedipine tocolysis:
+Blood pressure: every 30 minutes for the first 2 hours, then hourly (Nifedipine causes vasodilation and can lower BP; hypotension worsens uteroplacental blood flow; if systolic BP falls below 90 mmHg, stop tocolysis)
+Pulse: every 30 minutes (reflex tachycardia from vasodilation is expected and is mild; pulse above 120 bpm should prompt dose reduction or cessation)
+Symptoms: headache, flushing, palpitations — common and usually mild; reassure the patient; if severe, consider alternative tocolytic
+Fetal heart rate: continuous CTG throughout the tocolytic period — Nifedipine has no direct fetal cardiac effects at therapeutic doses but the uteroplacental response must be monitored
+
+Concurrent use of Nifedipine and Magnesium Sulphate:
+Both agents cause vasodilation and smooth muscle relaxation; their concurrent use at standard doses increases the risk of hypotension and neuromuscular blockade
+Use at standard doses with close BP monitoring; reduce doses if hypotension occurs
+Do not combine at high doses
+
+Second-line tocolytic — Atosiban (oxytocin receptor antagonist):
+
+Mechanism: competitively blocks oxytocin and vasopressin V1A receptors on myometrial cells and decidua; directly inhibits oxytocin-driven uterine contractions without cardiovascular side effects
+Evidence: equivalent efficacy to Nifedipine for delaying delivery 48 hours; superior maternal side effect profile (no cardiovascular effects, no headache, no flushing); the preferred tocolytic in European guidelines (RCOG, ESHRE)
+Regimen:
+Loading dose: IV Atosiban 6.75 mg (0.9 ml of 7.5 mg/ml solution) as an IV bolus over 1 minute
+Continuous infusion: IV Atosiban 18 mg per hour (300 mcg per minute) for 3 hours, then 6 mg per hour (100 mcg per minute) for up to 45 hours
+Total duration: maximum 48 hours per course
+Practical note: Atosiban (Tractocile) is available at some major Nigerian teaching hospitals and private hospitals but is significantly more expensive than Nifedipine; limited availability outside Lagos, Ibadan, and Abuja; where available, it is the preferred choice for concurrent use with magnesium sulphate; where not available, Nifedipine is the appropriate first-line agent
+
+Do not use — betamimetics (Salbutamol, Ritodrine) as first-line:
+IV Salbutamol (beta-2 agonist): effective tocolytic but associated with significant maternal cardiovascular side effects — tachycardia (up to 140–160 bpm), palpitations, tremor, hypokalaemia, and pulmonary oedema (particularly with concurrent IV fluids and corticosteroids)
+In singleton pregnancies at standard doses: acceptable as a third-line agent if Nifedipine and Atosiban are unavailable; however, betamimetics have higher adverse effect rates and inferior safety profiles compared with calcium channel blockers
+Practical note: if Nifedipine and Atosiban are both unavailable, IV Salbutamol 10–45 mcg per minute (titrated to response) is a practical alternative; monitor maternal heart rate closely; hold if HR exceeds 120 bpm or if the patient develops chest pain, breathlessness, or palpitations
+
+Tocolysis failure:
+If contractions continue despite adequate tocolytic doses:
+Reassess clinical status for chorioamnionitis (rising temperature, uterine tenderness) — if found, stop tocolysis and deliver
+Consider adding a second agent (e.g., add Atosiban if Nifedipine is failing — use at low doses given the interaction risk)
+If cervix progresses to 7 cm or beyond despite tocolysis: tocolysis is no longer effective; discontinue; prepare for delivery
+
+Magnesium Sulphate for Fetal Neuroprotection
+
+Indication:
+Fetal neuroprotection for preterm birth at less than 34 weeks gestation (most guidelines)
+This patient is at 34+1 weeks: at the borderline of the 34-week threshold
+Decision: based on local protocol; many units administer magnesium sulphate up to 34+6 weeks given the marginal benefit at this borderline gestation; the senior obstetrician should decide; if the patient is expected to deliver within 24 hours, administer the neuroprotective course
+
+Administer when delivery is anticipated within 24 hours:
+Loading dose: IV Magnesium sulphate 4 g (20 ml of 20% solution or 16 ml of 25% solution) diluted in 100 ml of Normal Saline, administered over 20–30 minutes via an infusion pump
+Maintenance: IV Magnesium sulphate 1 g per hour continuous infusion; continue until delivery or for a maximum of 24 hours, whichever is sooner
+If delivery is delayed beyond 24 hours: stop the infusion; recommence when delivery again becomes imminent
+
+Monitoring during magnesium sulphate infusion:
+Respiratory rate: every 30 minutes; must remain above 12 cpm; respiratory depression is the most serious complication — stop the infusion immediately if the respiratory rate falls below 12 cpm or the patient becomes drowsy
+Deep tendon reflexes (patellar reflex): assess every hour; loss of the patellar reflex is the earliest sign of magnesium toxicity — stop the infusion immediately if absent
+Urine output: via Foley catheter; must remain above 25 ml per hour; magnesium is renally cleared and accumulates in oliguria; reduce the infusion rate by 50% if urine output falls to 15–25 ml per hour; withhold if urine output is below 15 ml per hour
+Serum magnesium levels: check at 2 and 6 hours if available; therapeutic range for neuroprotection is 2.0–3.5 mmol per litre; toxic range is above 5 mmol per litre
+Antidote — IV Calcium gluconate 10 ml of 10% solution (1 g) over 10 minutes: reverses magnesium toxicity immediately; keep at the bedside throughout the infusion and have it drawn up and labelled
+
+Concurrent use of Nifedipine and Magnesium Sulphate:
+As above — use at standard doses with close BP monitoring; both cause vasodilation and enhanced neuromuscular blockade at high doses
+
+Intrapartum GBS Prophylaxis
+
+GBS status is unknown (HVS result pending):
+Preterm birth at less than 37 weeks is an independent risk factor for early-onset neonatal GBS disease
+Administer empirical intrapartum GBS prophylaxis when delivery is established or imminent:
+IV Benzylpenicillin G (Penicillin G) 3 g loading dose, then 1.5 g every 4 hours until delivery
+Provides prophylaxis against neonatal GBS EONS (early-onset sepsis) from vaginal GBS colonisation
+Practical note: Benzylpenicillin is widely available and inexpensive at all Nigerian facilities
+
+If penicillin allergy (not applicable here but for documentation): IV Clindamycin 900 mg every 8 hours (if GBS is known to be susceptible); if susceptibility is unknown: IV Vancomycin 1 g every 12 hours
+
+Supportive Care
+
+Analgesia:
+Labour pain at this stage is moderate — adequate analgesia improves maternal cooperation and reduces physiological stress
+IV Paracetamol 1 g over 15 minutes: safe first-line non-opioid analgesic; can be given with tocolysis and magnesium sulphate without interaction
+Oral Paracetamol 1 g every 6 hours: for maintenance
+If pain is not controlled with Paracetamol: consider IM Tramadol 50–100 mg with antiemetic (IV Metoclopramide 10 mg) — caution if delivery is anticipated within 4 hours (neonatal respiratory depression risk; alert neonatal team if opioids are given within 4 hours of delivery; IV Naloxone for the neonate is available in the neonatal resuscitation kit)
+Avoid NSAIDs at greater than or equal to 32 weeks (premature ductal arteriosus closure and oligohydramnios risk)
+Epidural analgesia: gold standard for labour pain; provides complete pain relief and facilitates any operative intervention for the baby if needed; alert anaesthetist on admission if the patient requests or is expected to need operative delivery
+
+Hydration:
+Maintain adequate IV fluid hydration — Normal Saline or Ringer's Lactate at 125 ml per hour until oral intake is established
+Avoid excessive fluid administration (risk of pulmonary oedema when tocolytics and corticosteroids are given concurrently, though this risk is lower with Nifedipine than with betamimetics)
+Monitor fluid balance: input-output chart
+
+Bladder care:
+Insert Foley catheter when magnesium sulphate is commenced (required for accurate urine output monitoring)
+Remove catheter after magnesium sulphate is discontinued and the patient is mobilising
+
+Membranes:
+Membranes are intact and bulging — do not perform amniotomy during the tocolytic phase
+Intact membranes during tocolysis maintain the physiological barrier against ascending infection
+Amniotomy is appropriate when the decision to deliver is made and labour is being augmented
+
+Reassessment After 4 Hours (or Earlier If Clinically Indicated)
+
+Perform a careful speculum examination (not digital examination) at 4 hours:
+Assess: Has the fluid status changed (any liquor leaking — confirm membrane rupture if suspected)? Any change in colour or odour of discharge?
+Digital vaginal examination: if the patient has worsening pain, urge to push, or if there is clinical concern about progress — assess cervical dilatation and fetal station
+If contractions have settled with tocolysis: continue the tocolytic regimen and monitor; give the second dose of corticosteroid at the appropriate interval
+If labour is progressing despite tocolysis (cervix dilating beyond 6–7 cm): discontinue tocolysis; prepare for delivery
+
+Delivery Management
+
+If tocolysis succeeds and corticosteroids are completed (48 hours):
+Discontinue tocolysis
+Allow spontaneous onset of labour or plan induction at 36–37 weeks if labour does not restart spontaneously
+No urgent obstetric indication to deliver at 34 weeks in the absence of complications if the patient remains stable
+
+If tocolysis fails and labour establishes:
+This patient: multiparous (previous SVD), cephalic presentation, clinically adequate pelvis — vaginal delivery is the appropriate route
+Continuous CTG monitoring throughout labour
+Amniotomy (ARM) when the cervix is fully dilated or when the obstetrician decides augmentation is required to optimise progress
+Active management of the second stage if the second stage is prolonged (more than 1 hour in a multiparous woman with a preterm fetus — the preterm head is more vulnerable to prolonged compression)
+If the second stage is prolonged and fetal compromise develops: instrumental delivery (vacuum or forceps) is appropriate in an experienced operator's hands; the preterm skull is more compressible and vacuum extraction is generally safe at 34 weeks; forceps are preferred by some operators at this gestation for controlled delivery
+
+Active Management of the Third Stage:
+IV Oxytocin 10 units IM or slow IV immediately after delivery of the anterior shoulder
+Controlled cord traction after placental separation
+Delayed cord clamping (30–60 seconds) if the neonate is vigorous — provides additional blood volume, reduces anaemia, and reduces IVH and NEC risk at this gestation; clamp immediately if the neonate requires resuscitation
+
+PPH risk:
+Booking PCV 31% (baseline anaemia — physiological impact of blood loss is greater)
+Multiparous woman
+Cross-matched blood available before delivery
+Oxytocin infusion (20 units in 1 litre Normal Saline at 125 ml per hour) for 4–6 hours after delivery of the placenta
+Quantify blood loss carefully at delivery
+
+Caesarean section:
+Not the primary plan — vaginal delivery is appropriate for this patient
+Indicate for: failed labour progress despite adequate contractions with tocolysis discontinued, fetal compromise (non-reassuring CTG with no response to conservative measures), cord prolapse, malpresentation confirmed
+
+Neonatal Team Preparation
+
+Alert neonatology team on admission:
+Gestational age at potential delivery: 34+1 weeks (late preterm)
+Expected birth weight: approximately 2.0–2.2 kg (confirm by ultrasound EFW)
+Antenatal corticosteroid status: first dose given on admission; document the exact timing of each dose for the neonatal team
+Magnesium sulphate status: if administered, neonatal hypotonia and respiratory depression may occur — have IV Calcium gluconate (for maternal toxicity) and neonatal IV Calcium gluconate (for neonatal hypermagnesaemia) available
+GBS status: unknown; empirical neonatal assessment and possible antibiotics depending on clinical signs after birth
+
+Equipment and preparation:
+Radiant warmer (pre-warmed) and warm dry towels
+Bag-mask ventilation (Neopuff or Ambu bag with PEEP valve) and oxygen
+Laryngoscope (neonatal blade 1) and ETT (size 3.5 mm)
+Nasal CPAP equipment (5–7 cmH₂O) — first-line respiratory support for a breathing late preterm neonate
+Surfactant (Poractant alfa or Beractant): available if RDS requires intubation
+Practical note: surfactant is available at most Nigerian teaching hospital NICUs; alert the pharmacy to have it ready
+
+Immediate neonatal steps at delivery:
+Delayed cord clamping 30–60 seconds if vigorous
+Dry and stimulate (or place in pre-warmed incubator directly)
+Apgar at 1 and 5 minutes
+Assess: respiratory effort, FHR, colour, tone
+If spontaneously breathing: apply nasal CPAP (5–7 cmH₂O) early even if breathing appears adequate — late preterm neonates develop respiratory distress in the hours after birth rather than immediately
+If apnoeic or HR less than 100 bpm: PPV with bag-mask; escalate to intubation and cardiac compressions per NRP protocol
+
+NICU management after birth (expected):
+Respiratory support: nasal CPAP; surfactant via INSURE technique (intubate, instil surfactant, extubate to CPAP) if RDS is confirmed
+Temperature: incubator with servo-control targeting 36.5–37.5°C
+Glucose: blood glucose within 30 minutes of birth; target 2.6–8 mmol per litre; IV Dextrose 10% if hypoglycaemic
+Feeding: nasogastric tube feeds with expressed breast milk from the first 24 hours; advance to full enteral feeds over 3–5 days
+Caffeine citrate: loading dose 20 mg per kg IV or oral, then 5–10 mg per kg once daily — start within 24 hours of birth; standard for all neonates less than 34 weeks and reasonable at 34 weeks given apnoea risk; discuss with neonatologist
+Sepsis assessment: if GBS is subsequently confirmed on maternal HVS, or if clinical signs of infection develop in the neonate (temperature instability, respiratory distress, hypotonia, poor feeding) — blood culture, FBC, CRP and IV Ampicillin 50 mg per kg every 12 hours PLUS IV Gentamicin 5 mg per kg once daily (neonatal dosing); duration based on culture results and clinical response
+
+Postpartum Maternal Care
+
+Vital signs: every 30 minutes for the first 2 hours after delivery; then hourly for 4 hours
+Uterine tone: fundal palpation every 15–30 minutes for 2 hours
+Urine output: hourly for first 4 hours (Foley catheter in situ if magnesium sulphate was given; remove 6–12 hours after stopping magnesium infusion)
+Haemoglobin: 6–12 hours after delivery (booking PCV 31% — significant anaemia is likely postpartum; treat promptly)
+Iron supplementation: oral Ferrous sulphate 200 mg twice daily; if haemoglobin is very low (less than 7 g per dL) and recovery is slow: IV Ferric carboxymaltose 1000 mg single dose
+VTE prophylaxis: LMWH (Enoxaparin 40 mg SC daily) commencing 12 hours after delivery; continue until fully mobile; TED stockings throughout admission
+Continue antenatal haematinics postpartum
+Breastfeeding support: encourage early breast milk expression; colostrum is particularly important for a late preterm neonate in the NICU; arrange lactation support; educate on expressing breast milk every 2–3 hours to establish and maintain supply
+Wound care (if caesarean section performed): daily inspection, suture removal at 7–10 days, antibiotics if wound infection develops
+
+Counselling
+
+Explanation of the diagnosis:
+Labour has started earlier than expected — at 34 weeks, which is approximately 6 weeks before the due date
+At 34 weeks, babies can survive but need special support; the team is doing everything possible to give the baby the best chance
+The main priority now is to delay the birth by 48 hours using medicines to allow the injections to help the baby's lungs mature faster — these injections reduce the risk of breathing problems after birth
+
+The plan and what to expect:
+A medicine called Nifedipine is being given as tablets to try to slow down the contractions temporarily — this will not stop labour permanently but aims to delay it by 24–48 hours
+An injection into the thigh (corticosteroid) has been given and the second dose will follow in 12 hours (or 24 hours, depending on the regimen)
+If delivery is expected soon, a medicine called magnesium sulphate will be given through the drip to help protect the baby's brain
+The baby will most likely need to stay in the special baby care unit (NICU) after birth for feeding support, breathing support, and warmth — this is expected and planned for
+
+Sickle cell trait (genotype AS):
+The patient's genotype (AS) has been noted
+AS is called sickle cell trait — it is a carrier state, not the full sickle cell disease (SS)
+In pregnancy, AS does not usually cause significant problems but it is important to stay well-hydrated and avoid hypoxia during labour and delivery
+The baby's genotype will depend on the father's genotype — if he is AS or SS, the baby could be affected; the couple should have a counselling session about this and arrange newborn screening after delivery
+
+If tocolysis is not successful and labour continues:
+She has had a previous normal vaginal delivery — the same is planned for this birth
+The team will monitor the baby's heart rate closely throughout
+A small stitch (for pain relief) may be offered if needed; the baby will be assisted by a specialist team immediately after birth
+
+When to return urgently:
+Report any of the following immediately: fever or feeling cold and shivery, fluid leaking from the vagina, worsening or constant abdominal pain (different from the usual contractions), reduced baby movements, or if she feels very unwell
+
+Future pregnancies:
+Preterm labour in this pregnancy may increase the risk of preterm labour in future pregnancies
+In future pregnancies: book early (before 12 weeks), screen for vaginal infections in the first trimester, consider cervical length screening from 16–24 weeks, and start progesterone supplementation if the cervix is found to be short (less than 25 mm) — this significantly reduces the risk of recurrence
+Report any symptoms of early labour (regular pain, pelvic pressure, or show) to hospital immediately in any future pregnancy without waiting
+
+PROGNOSIS
+
+Maternal prognosis:
+Excellent — haemodynamically stable, no comorbidities, no infection
+Primary maternal risk: postpartum haemorrhage (booking PCV 31%; active management and blood availability will mitigate this)
+Risk of chorioamnionitis developing during tocolysis: approximately 2–5% per 24–48 hours of intact membrane PPROM; close surveillance will ensure early detection and prompt delivery
+
+Neonatal prognosis:
+At 34 weeks + 1 day: survival rate greater than 98% with appropriate NICU support
+With antenatal corticosteroids (ALPS trial): meaningful reduction in respiratory morbidity — reduced need for CPAP, surfactant, and supplemental oxygen; reduced NICU admission rate
+NICU stay: expected 2–4 weeks; until the neonate can breathe independently, regulate temperature, and feed orally
+Long-term neurodevelopmental outcome: excellent at this gestation; late preterm neonates have a small but measurable increase in rates of attention and learning difficulties compared with term neonates; the majority develop normally
+
+Factors improving prognosis:
+Completion of the 48-hour corticosteroid course before delivery
+Magnesium sulphate neuroprotection if delivery occurs within 24 hours
+Delayed cord clamping at delivery
+Availability of NICU with CPAP and surfactant
+Early expressed breast milk feeding
+Caffeine citrate for apnoea prevention
+
+FOLLOW-UP
+Reassess after 4 hours to confirm tocolysis response — speculum examination; CTG; maternal temperature and pulse. Serial temperature and pulse every 4 hours during tocolytic course. HVS result review at 48–72 hours — if GBS positive, ensure intrapartum prophylaxis at delivery is planned and documented. If tocolysis is successful and corticosteroids are completed: plan for delivery at 36–37 weeks if labour does not restart. Postnatal maternal review at day 3 and 6 weeks: haemoglobin, wound healing if applicable, and psychological wellbeing. Iron supplementation before discharge. VTE prophylaxis continued until fully mobile. NICU daily updates while the neonate is inpatient. Neurodevelopmental follow-up at 3, 6, 12, and 24 months corrected age. Hearing screening before NICU discharge. Future pregnancy counselling on preterm birth risk and preventive cervical length screening.
+`,
+  documentation: `
+Mrs T.O., a 29-year-old booked G3P1+1 (1 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, with secondary level education.
+
+OBSTETRIC DATA
+Gravidity: G3
+Parity: P1+1 (one term delivery, one first trimester miscarriage)
+Living children: 1 alive
+LMP: 10/11/2025
+EDD: 17/08/2026
+EGA: 34 weeks + 1 day
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 12 hours
+Low back pain × 12 hours
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 12 hours prior to presentation when she developed lower abdominal pains. The pains were initially mild and irregular, occurring approximately once every 20 minutes and lasting only a few seconds. Over time, the pains became progressively more frequent, stronger, and more regular. They were occurring 3–4 times in 10 minutes and lasting approximately 40–50 seconds. The pains were colicky, located in the lower abdomen, and radiated to the lower back.
+
+She reported a sensation of increasing pelvic pressure and an urge to bear down.
+
+There was a history of passage of blood-stained mucus (show) approximately 4 hours prior to presentation.
+
+There was no history of leakage of fluid per vaginam, vaginal bleeding, fever, dysuria, foul-smelling vaginal discharge, trauma, or recent sexual intercourse. Fetal movements were present and normal.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived, confirmed with a positive pregnancy test and early ultrasound scan. She booked at 15 weeks and attended antenatal clinic regularly. She was compliant with antenatal haematinics, received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+
+Booking investigations:
+PCV: 31%
+Blood group: O positive
+Genotype: AS
+HIV: Negative
+
+Pregnancy had been uneventful prior to this episode.
+
+PAST OBSTETRIC HISTORY
+2018: Term spontaneous vaginal delivery of a live male infant (3.2 kg) with no complications; child alive and well.
+2021: First trimester spontaneous miscarriage at 10 weeks managed with MVA; no complications.
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years.
+Regular menstrual cycles prior to pregnancy.
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness.
+No previous surgeries.
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+No family history of preterm delivery.
+Does not smoke or take alcohol.
+No use of herbal medications.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Pregnant woman, conscious and alert.
+In moderate painful distress.
+Not pale, not icteric.
+Afebrile.
+Not dehydrated.
+
+Vital Signs:
+BP: 112/70 mmHg
+PR: 94 bpm
+RR: 20 cpm
+Temperature: 36.8°C
+
+Abdominal Examination:
+
+Inspection:
+Abdomen uniformly enlarged by gravid uterus.
+
+Palpation:
+SFH: 33 cm
+Lie: Longitudinal
+Presentation: Cephalic
+Uterine contractions: 3–4 in 10 minutes, lasting 40–50 seconds, moderate intensity.
+No uterine tenderness.
+
+Auscultation:
+FHR: 146 bpm, regular.
+
+Pelvic Examination:
+Vulva and vagina normal.
+Cervix soft, anterior, 70% effaced, 4 cm dilated.
+Presenting part cephalic at station -1.
+Membranes intact and bulging.
+No liquor drainage.
+Pelvis clinically adequate.
+
+ASSESSMENT
+Established preterm labour with intact membranes at 34 weeks + 1 day gestation in a multiparous woman with reassuring fetal status.
+
+PLAN
+
+Admit into high-risk labour ward
+Inform senior registrar/consultant and neonatal team
+Continuous CTG monitoring
+Monitor vital signs and contractions closely
+FBC, urinalysis, urine MCS, CRP, HVS MCS
+Group and save ± crossmatch
+Obstetric ultrasound scan
+IM Dexamethasone 6 mg 12-hourly × 4 doses
+Commence tocolysis with oral Nifedipine 20 mg stat, repeat after 30 minutes if contractions persist, then Nifedipine SR 20 mg 6–8 hourly for 48 hours
+Monitor BP and pulse during tocolysis
+Consider MgSO₄ for fetal neuroprotection if delivery anticipated within 24 hours: IV loading dose 4 g over 20 minutes, then 1 g/hour infusion
+IV fluids: Normal saline or Ringer’s lactate at 125 ml/hour
+IV/Oral Paracetamol for pain relief
+Foley catheter if MgSO₄ commenced; monitor urine output
+Avoid ARM during tocolysis phase
+If labour progresses despite tocolysis, prepare for vaginal delivery
+Intrapartum GBS prophylaxis if delivery imminent: IV Benzylpenicillin 3 g stat then 1.5 g 4-hourly until delivery
+Active management of third stage with Oxytocin 10 IU IM/slow IV
+Counselled on diagnosis, possible NICU admission, warning signs, and possibility of delivery if labour progresses
+`,
+  bookmarkCount: 0
+},
 ];

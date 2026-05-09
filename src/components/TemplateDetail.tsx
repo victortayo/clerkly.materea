@@ -113,7 +113,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
 
   return (
     <div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8 animate-in fade-in slide-in-from-right duration-500">
-      <ScrollProgressBar templateId={template.id} />
+      <ScrollProgressBar templateId={template.id} mode={mode} />
       
       <ClinicalInsightModal 
         isOpen={isInsightModalOpen}
@@ -210,7 +210,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
                 onClick={() => setMode('teach')}
                 className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${
                   mode === 'teach' 
-                    ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-800 shadow-md' 
+                    ? 'bg-white text-indigo-900 shadow-md' 
                     : 'text-slate-500 dark:text-slate-300'
                 }`}
               >
@@ -221,7 +221,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
                 onClick={() => setMode('documentation')}
                 className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${ 
                   mode === 'documentation' 
-                    ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-800 shadow-md' 
+                    ? 'bg-white text-indigo-900 shadow-md' 
                     : 'text-slate-500 dark:text-slate-300'
                 }`}
               >

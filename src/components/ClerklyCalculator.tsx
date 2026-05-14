@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { calculators, Calculator } from '../data/calculators';
 
 interface ClerklyCalculatorProps {
@@ -93,6 +93,8 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
     const [showExplanation, setShowExplanation] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
+    const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+    const dropdownRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const handleResize = () => {
@@ -101,6 +103,18 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+                setOpenDropdown(null);
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [dropdownRef]);
 
     const filteredCalculators = useMemo(() => {
         if (!searchTerm) {
@@ -147,7 +161,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
         }
     };
 
-    const modalTitle = isMobile && selectedCalculator ? selectedCalculator.name : "Clerkly Calculator";
+    const modalTitle = isMobile && selectedCalculator ? selectedCalculator.name : "Calculator";
 
     return (
         <div 
@@ -221,7 +235,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                 {/* ===== Calculator Details ===== */}
                 <div className="flex-1 md:overflow-y-auto custom-scrollbar">
                     {selectedCalculator ? (
-                        <div>
+                        <div ref={dropdownRef}>
                              {/* --- Headers for Mobile and Desktop --- */}
                             <div className="flex justify-between items-center md:hidden mb-4">
                                 <button onClick={handleBack} className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 flex items-center gap-1.5">
@@ -251,31 +265,17 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                         <div key={input.name}>
                                             <label className="font-medium text-slate-600 dark:text-slate-300 mb-1.5 block text-xs">{input.name}</label>
                                             {input.type === 'number' && (
-                                                <div className="flex items-center justify-center">
-                                                    <div className="bg-slate-100 dark:bg-slate-800 p-1 rounded-lg flex items-center space-x-1">
-                                                        <button
-                                                            onClick={() => handleInputChange(input.name, (parseFloat(inputs[input.name]) || input.min || 0) - (input.step || 1))}
-                                                            className="px-3 py-1 rounded-md bg-white dark:bg-slate-700/50 shadow-sm text-slate-700 dark:text-slate-200 font-bold text-lg"
-                                                        >
-                                                            -
-                                                        </button>
-                                                        <input
-                                                            type="number"
-                                                            min={input.min}
-                                                            max={input.max}
-                                                            step={input.step}
-                                                            value={inputs[input.name] || ''}
-                                                            onChange={(e) => handleInputChange(input.name, e.target.value === '' ? '' : parseFloat(e.target.value))}
-                                                            className="w-20 text-center p-2 text-sm bg-transparent border-none focus:ring-0 focus:outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
-                                                        />
-                                                        <button
-                                                            onClick={() => handleInputChange(input.name, (parseFloat(inputs[input.name]) || input.min || 0) + (input.step || 1))}
-                                                            className="px-3 py-1 rounded-md bg-white dark:bg-slate-700/50 shadow-sm text-slate-700 dark:text-slate-200 font-bold text-lg"
-                                                        >
-                                                            +
-                                                        </button>
-                                                        {input.unit && <span className="px-2 text-sm text-slate-500 dark:text-slate-400"></span>}
-                                                    </div>
+                                                <div className="relative">
+                                                    <input
+                                                        type="number"
+                                                        min={input.min}
+                                                        max={input.max}
+                                                        step={input.step}
+                                                        value={inputs[input.name] || ''}
+                                                        onChange={(e) => handleInputChange(input.name, e.target.value === '' ? '' : parseFloat(e.target.value))}
+                                                        className="w-full px-4 py-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 rounded-xl text-xs font-semibold border border-slate-200 dark:border-slate-700 focus:border-indigo-500 focus:ring-0 focus:outline-none transition-colors pr-10 text-center [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                                                    />
+                                                    {input.unit && <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs text-slate-400 dark:text-slate-500 pointer-events-none">{input.unit}</span>}
                                                 </div>
                                             )}
                                              {input.type === 'date' && (
@@ -285,21 +285,37 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                                     className="w-full p-2 text-xs bg-white dark:bg-slate-900 rounded-md border border-slate-200 dark:border-slate-700 focus:border-indigo-500 focus:ring-0 focus:outline-none transition-colors"
                                                 />
                                             )}
-                                            {input.type === 'select' && (
-                                                <div className="grid grid-cols-1 gap-2">
-                                                {input.options?.map(option => (
-                                                        <label key={option} className={`flex items-center justify-center text-center cursor-pointer p-2.5 rounded-md border-2 transition-colors ${inputs[input.name] === option ? 'bg-indigo-50 dark:bg-indigo-900/50 border-indigo-500' : 'bg-slate-50 dark:bg-slate-800 border-slate-50 dark:border-slate-800 hover:border-slate-200 dark:hover:border-slate-700'}`}>
-                                                            <input
-                                                                type="radio"
-                                                                name={input.name}
-                                                                value={option}
-                                                                checked={inputs[input.name] === option}
-                                                                onChange={() => handleInputChange(input.name, option)}
-                                                                className="hidden"
-                                                            />
-                                                            <span className="text-xs font-semibold text-slate-700 dark:text-slate-200">{option}</span>
-                                                        </label>
-                                                    ))}
+                                            {input.type === 'select' && input.options && (
+                                                <div className="relative">
+                                                    <button
+                                                        onClick={() => setOpenDropdown(openDropdown === input.name ? null : input.name)}
+                                                        className="w-full px-4 py-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 rounded-xl text-xs font-semibold flex items-center justify-between gap-3 border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700/50 transition-colors"
+                                                    >
+                                                        <span className="whitespace-nowrap">
+                                                            {inputs[input.name] || input.options[0]}
+                                                        </span>
+                                                        <i className={`fa-solid fa-chevron-down text-xs transition-transform duration-300 ${openDropdown === input.name ? 'rotate-180' : ''}`}></i>
+                                                    </button>
+
+                                                    {openDropdown === input.name && (
+                                                        <div className="absolute top-full right-0 mt-2 w-full bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700 py-2 z-50 animate-in fade-in zoom-in-95 duration-200 max-h-60 overflow-y-auto custom-scrollbar">
+                                                            {input.options.map((option) => (
+                                                                <button
+                                                                    key={option}
+                                                                    onClick={() => {
+                                                                        handleInputChange(input.name, option);
+                                                                        setOpenDropdown(null);
+                                                                    }}
+                                                                    className={`w-full text-left px-4 py-2 text-xs transition-colors ${
+                                                                        (inputs[input.name] || input.options[0]) === option
+                                                                            ? 'font-bold bg-indigo-50 text-indigo-950 dark:bg-indigo-900/40 dark:text-indigo-200'
+                                                                            : 'font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700'
+                                                                    }`}>
+                                                                    {option}
+                                                                </button>
+                                                            ))}
+                                                        </div>
+                                                    )}
                                                 </div>
                                             )}
                                             {input.type === 'boolean' && (
@@ -341,7 +357,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                             <div className="w-20 h-20 bg-slate-200 dark:bg-slate-800 rounded-full flex items-center justify-center">
                                 <i className="fa-solid fa-calculator text-3xl text-slate-400"></i>
                             </div>
-                            <h3 className="text-xl font-bold text-slate-700 dark:text-slate-300">Clerkly Calculator</h3>
+                            <h3 className="text-xl font-bold text-slate-700 dark:text-slate-300">Calculator</h3>
                             <p className="text-sm">Select a calculator from the list to begin.</p>
                         </div>
                     )}

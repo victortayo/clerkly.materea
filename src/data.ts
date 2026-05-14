@@ -4472,7 +4472,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-05',
-  summary: 'A 10-day-old male neonate delivered at home in Ilesa, Osun State by a traditional birth attendant, cord cut with a razor blade of uncertain sterility and tied with local thread, umbilical stump managed with methylated spirit and herbal preparations. Mother is a 24-year-old primipara with no antenatal care and no tetanus toxoid vaccination during pregnancy. Presenting with a 3-day history of inability to suck and high-pitched excessive crying, 2-day history of progressive generalised body stiffness beginning with trismus and extending to the neck, trunk, and whole body with opisthotonus, and 1-day history of recurrent generalised tonic spasms triggered by minimal stimulation. Associated fever (38.5°C), poor feeding, and reduced activity. Examination reveals an acutely ill, irritable, febrile neonate (weight 3.0 kg) with generalised hypertonia, trismus, opisthotonus during spasms, hyperreflexia, a normotensive anterior fontanelle, tachycardia (160 bpm), tachypnoea (52 cpm), apnoeic episodes during spasms, SpO₂ 94% on room air, and an infected umbilical stump with surrounding erythema and foul smell. Diagnosis: neonatal tetanus. This is a neonatal emergency requiring immediate admission to the neonatal unit, isolation, toxin neutralisation, spasm control, airway protection, umbilical stump care, and nutritional support.',
+  summary: 'A 10-day-old male neonate delivered at home without maternal tetanus immunisation presented with inability to suck, excessive crying, stiffness, trismus, opisthotonus, and stimulus-induced spasms. Examination showed fever, hypertonia, recurrent spasms, and an infected umbilical stump. Impression: neonatal tetanus. Plan: urgent neonatal admission, isolation, tetanus immunoglobulin, antibiotics, spasm control, airway support, umbilical wound care, and nutritional support.',
   content: `
 A 10-day-old male neonate, delivered at home in Ilesa, Osun State, to a 24-year-old primiparous mother, Christian, Yoruba, trader, with no formal education.
 
@@ -5119,7 +5119,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-06',
-  summary: 'A 3-day-old male neonate (DOB 03/04/2026, EGA 39 weeks) born via spontaneous vaginal delivery at a private hospital in Akure, Ondo State, to a 29-year-old multiparous mother with a booked and supervised pregnancy. Birth weight 3.2 kg, immediate cry at birth, no evidence of birth asphyxia. Significant obstetric risk factor: prolonged rupture of membranes greater than 18 hours prior to delivery. Mother received two doses of tetanus toxoid and intermittent preventive therapy during pregnancy. Presenting with a 2-day history of low-to-moderate grade persistent fever and poor feeding, and 1-day history of progressive lethargy with reduced spontaneous movements and fast breathing. No convulsions, vomiting, cough, or cyanosis. Immunised at birth with BCG, OPV 0, and Hepatitis B. Examination reveals an acutely ill, lethargic, febrile (38.2°C), mildly pale, mildly dehydrated neonate weighing 3.0 kg (loss of 200 g from birth weight). Respiratory examination shows tachypnoea (68 cpm), intercostal recession, occasional crepitations, and SpO₂ 92% on room air. CNS examination shows hypotonia, weak suck reflex, and a normotensive anterior fontanelle. Cardiovascular examination shows tachycardia (170 bpm). Mild abdominal distension noted. Cord stump mildly erythematous with no discharge. Diagnosis: early onset neonatal sepsis with respiratory involvement, likely pneumonia, in a term neonate with prolonged rupture of membranes. Requires immediate admission to the neonatal unit, respiratory support, urgent sepsis workup, and empirical broad-spectrum IV antibiotics.',
+  summary: 'A 3-day-old term male neonate with history of prolonged rupture of membranes presented with fever, poor feeding, lethargy, and fast breathing. Examination showed tachypnoea, intercostal recession, crepitations, SpO₂ 92%, hypotonia, weak suck, and tachycardia. Impression: early-onset neonatal sepsis with likely pneumonia. Plan: urgent neonatal admission, respiratory support, sepsis workup, and empirical broad-spectrum IV antibiotics.',
   content: `
 A 3-day-old male neonate, delivered at a private hospital in Akure, Ondo State, to a 29-year-old multiparous mother, Christian, Yoruba, trader.
 
@@ -5774,7 +5774,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-06',
-  summary: 'A 4-day-old male neonate (DOB 02/04/2026, EGA 38 weeks) born via spontaneous vaginal delivery at a private hospital in Ado-Ekiti, to a 27-year-old multiparous mother with a booked and supervised pregnancy. Birth weight 3.4 kg, immediate cry at birth, no birth asphyxia. No jaundice in the first 24 hours of life. Presenting with a 2-day history of progressive jaundice beginning in the eyes, spreading to the face, trunk, and lower limbs, with associated poor feeding and mild irritability. No fever, convulsions, pale stools, or dark urine. Mother blood group O positive; baby blood group B positive (from referral note). Immunised at birth with BCG, OPV 0, and Hepatitis B. Examination reveals an alert, mildly irritable, moderately icteric neonate weighing 3.2 kg (weight loss of 200 g from birth weight), afebrile, with good tone, good suck reflex, and a normotensive anterior fontanelle. Respiratory and cardiovascular examinations are normal. No hepatosplenomegaly. Investigations show total serum bilirubin 18.5 mg/dL (conjugated 1.2 mg/dL), PCV 38%, elevated reticulocyte count, and a positive direct Coombs test. Diagnosis: neonatal jaundice secondary to ABO incompatibility with haemolysis. Requires intensive phototherapy, serial bilirubin monitoring, and readiness for exchange blood transfusion if bilirubin reaches exchange threshold or rises rapidly.',
+  summary: 'A 4-day-old term male neonate presented with progressive jaundice, poor feeding, and irritability. Examination showed moderate icterus with preserved tone and reflexes. Investigations revealed elevated unconjugated bilirubin, positive direct Coombs test, and reticulocytosis in the setting of maternal O positive and neonatal B positive blood groups. Impression: neonatal jaundice secondary to ABO haemolytic disease. Plan: intensive phototherapy, serial bilirubin monitoring, and preparedness for exchange transfusion if indicated.',
   content: `
 A 4-day-old male neonate, delivered at a private hospital in Ado-Ekiti, Ekiti State, to a 27-year-old multiparous mother, Christian, Yoruba, trader.
 
@@ -5842,9 +5842,6 @@ Serum bilirubin: Total 18.5 mg/dL, Conjugated 1.2 mg/dL (unconjugated 17.3 mg/dL
 PCV: 38% (mildly low for a 4-day-old term neonate; normal range day 3–5: 45–65%; haemolysis consuming red cells)
 Reticulocyte count: Elevated (confirms active haemolysis with compensatory bone marrow response)
 Direct Coombs test (direct antiglobulin test): Positive (confirms immune-mediated haemolysis — maternal antibodies coating the neonate's red cells)
-
-NEONATAL SUMMARY
-A 4-day-old term male neonate with blood group incompatibility (mother O positive, baby B positive), presenting with progressive pathological neonatal jaundice from day 2 of life, elevated unconjugated bilirubin, haemolytic anaemia, elevated reticulocytes, and a positive direct Coombs test, consistent with ABO haemolytic disease of the newborn.
 
 PHYSICAL EXAMINATION
 
@@ -7015,7 +7012,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-08',
-  summary: 'A 20-hour-old female term neonate (DOB 06/04/2026, EGA 39 weeks + 3 days, birth weight 2.9 kg) delivered via spontaneous vaginal delivery at a private hospital in Ijebu-Ode, Ogun State, the fourth child of a 29-year-old G4P4+0 mother with irregular antenatal care. Labour was prolonged (approximately 15 hours) with a prolonged second stage, thick meconium-stained liquor, no continuous fetal monitoring, and reduced fetal movements noted 18 hours before delivery. Baby was depressed at birth with delayed cry (2–3 minutes), Apgar scores of 5, 6, and 7 at 1, 5, and 10 minutes. Resuscitation was limited to suctioning and stimulation — no bag-mask ventilation or oxygen was administered. Since birth, the neonate has had reduced spontaneous movements, poor feeding with weak suck, and lethargy. Multifocal clonic seizures with facial twitching and eye deviation developed 8 hours after birth. Examination reveals a lethargic but arousable term neonate with hypertonia, intermittent stiffening, weak suck, incomplete Moro reflex, equal and reactive pupils, and multifocal clonic seizures. SpO₂ 95% on room air. No hepatosplenomegaly. Mild dehydration. Diagnosis: perinatal asphyxia with moderate hypoxic ischaemic encephalopathy (Sarnat Stage II). Requires immediate admission to the neonatal unit, seizure control, glucose management, fluid restriction, empirical antibiotics, therapeutic hypothermia if available, and neurodevelopmental follow-up.',
+  summary: 'A 20-hour-old term female neonate delivered after prolonged labour with meconium-stained liquor and birth depression presented with poor feeding, lethargy, reduced movements, and multifocal seizures. Examination showed hypertonia, weak suck, incomplete Moro reflex, and clonic seizures. Impression: perinatal asphyxia with moderate hypoxic ischaemic encephalopathy (Sarnat II). Plan: neonatal unit admission, seizure control, glucose and fluid management, empirical antibiotics, therapeutic hypothermia if available, and neurodevelopmental follow-up.',
   content: `
 A 20-hour-old female neonate delivered at a private hospital in Ijebu-Ode, Ogun State. She is the fourth child in a monogamous Muslim Yoruba family of low-middle socioeconomic class.
 
@@ -17085,7 +17082,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-04',
-  summary: 'Mr A.O., a 42-year-old male farmer presenting with a 7-day history of a contaminated lacerated wound on the right leg sustained from a rusty cutlass, followed by a 3-day history of generalised painful muscle spasms (spontaneous and stimulus-triggered, with opisthotonus), and a 2-day history of trismus, dysphagia, neck stiffness, and risus sardonicus. Wound was managed at home with herbal applications with no professional wound care and no tetanus prophylaxis administered. Poorly immunised with uncertain childhood immunisation history and no adult booster doses. Associated features include profuse sweating, breathlessness during spasms, and low-grade fever. Examination reveals a distressed middle-aged man with characteristic risus sardonicus, trismus, opisthotonus during spasms, generalised hypertonia, profuse sweating, tachycardia (104 bpm), tachypnoea (26 cpm), and SpO₂ 95% on room air. Local examination of the right leg reveals a contaminated lacerated wound (approximately 4 × 3 cm) with surrounding erythema, necrotic tissue, and foul-smelling discharge. Diagnosis: generalised tetanus (Ablett Grade III — severe) secondary to an infected contaminated wound in a poorly immunised adult. Requires immediate admission to a quiet environment, toxin neutralisation with human tetanus immunoglobulin, spasm control, airway protection, antibiotic therapy, wound debridement, and intensive supportive care.',
+  summary: 'Mr A.O., a 42-year-old farmer, presented with trismus, dysphagia, painful generalized spasms, opisthotonus, and risus sardonicus following a contaminated cutlass wound managed without tetanus prophylaxis. Examination showed hypertonia, profuse sweating, tachycardia, and an infected necrotic leg wound. Impression: severe generalized tetanus (Ablett Grade III). Plan: urgent admission to a quiet environment, tetanus immunoglobulin, spasm control, antibiotics, wound debridement, airway support, and intensive care monitoring.',
   content: `
 Mr A.O., a 42-year-old male farmer, resident in a rural community in Ogun State, Christian, Yoruba, married with four children.
 
@@ -17848,7 +17845,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-10',
-  summary: 'Mrs A.O., a 28-year-old female trader presenting with a 3-month history of generalised body weakness, symmetrical polyarthritis involving MCP, PIP joints, wrists, and knees bilaterally with early morning stiffness lasting 45 minutes, and a 2-month history of a malar rash over the cheeks and nasal bridge sparing the nasolabial folds, worsening with sun exposure. Associated features include photosensitivity, diffuse non-scarring alopecia, recurrent painless oral ulcers, and occasional pleuritic chest pain. Three weeks prior to presentation she developed bilateral pitting pedal oedema progressing from the ankles to the knees, and 2 weeks prior she noticed frothy urine with reduced urine output. No prior history of miscarriages, thrombotic events, seizures, or psychosis. Examination reveals a chronically ill-looking young woman with BP 140/90 mmHg, malar rash sparing the nasolabial folds, patchy alopecia, bilateral pitting pedal oedema to the knees, bilateral MCP and PIP joint tenderness with mild swelling and reduced grip strength, and no focal neurological deficits. Diagnosis: systemic lupus erythematosus with lupus nephritis, non-erosive arthritis, and mucocutaneous involvement. Requires immunological workup, renal biopsy for nephritis classification, and multidisciplinary management with immunosuppression, nephroprotective therapy, and hydroxychloroquine.',
+  summary: 'Mrs A.O., a 28-year-old trader, presented with polyarthritis, photosensitive malar rash, alopecia, oral ulcers, pedal oedema, frothy urine, and oliguria. Examination showed hypertension (140/90 mmHg), MCP/PIP tenderness with swelling, malar rash, and bilateral pedal oedema. Impression: systemic lupus erythematosus with lupus nephritis and mucocutaneous/musculoskeletal involvement. Plan: immunologic and renal workup, renal biopsy, hydroxychloroquine, immunosuppression, and nephroprotective therapy.',
   content: `
 Mrs A.O., a 28-year-old female trader, resident in Abeokuta, Ogun State, Christian, Yoruba, married in a monogamous setting.
 
@@ -18536,7 +18533,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-10',
-  summary: 'Miss K.T., a 24-year-old undergraduate student presenting with a 4-month history of symmetrical polyarthritis, 3-month history of malar rash with photosensitivity, alopecia, and recurrent painless oral ulcers, followed by acute neuropsychiatric deterioration over the past week. She developed a persistent progressive headache 1 week prior, behavioural changes (confusion, agitation, incoherent speech, restlessness, insomnia) 5 days prior, and two episodes of generalised tonic-clonic seizures with loss of consciousness, tongue biting, and post-ictal confusion 2 days prior. No prior psychiatric illness, no history of seizures, no head trauma, no illicit drug or alcohol use. Examination reveals an acutely ill, restless, confused young woman (GCS 13/15) with BP 150/95 mmHg, low-grade fever (37.8°C), tachycardia (104 bpm), malar rash, patchy alopecia, and bilateral MCP and PIP joint tenderness. No neck stiffness, no focal neurological deficits. Mental state examination shows disorganised thought, labile affect, impaired cognition, disorientation in time and place, and poor insight. Diagnosis: systemic lupus erythematosus with neuropsychiatric involvement (NPSLE) — acute confusional state, seizures, and likely lupus cerebritis. CNS infection must be urgently excluded. Requires immediate stabilisation, seizure control, urgent CSF analysis, neuroimaging, and high-dose immunosuppressive therapy.',
+  summary: 'Miss K.T., a 24-year-old undergraduate, presented with SLE features (polyarthritis, malar rash, alopecia, oral ulcers) complicated by acute neuropsychiatric symptoms including confusion, agitation, progressive headache, and two episodes of generalized tonic-clonic seizures. Examination showed low-grade fever, hypertension (150/95 mmHg), malar rash, and cognitive impairment without focal deficits. Impression: neuropsychiatric SLE (likely lupus cerebritis) with seizures; CNS infection to exclude. Plan: urgent stabilisation, seizure control, neuroimaging, CSF analysis, and high-dose immunosuppressive therapy.',
   content: `
 Miss K.T., a 24-year-old undergraduate student, resident in Ibadan, Oyo State, Christian, Yoruba, single.
 
@@ -19275,7 +19272,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-11',
-  summary: 'Miss E.O., a 22-year-old undergraduate student presenting with a 5-month history of symmetrical polyarthritis (MCP, PIP joints, wrists, and knees bilaterally), 4-month history of malar rash with photosensitivity, alopecia, and painless oral ulcers, and a 3-week history of progressive generalised body swelling beginning with periorbital puffiness and progressing to involve the legs and abdomen, with concurrent frothy urine. Reduced urine output for 1 week. No seizures, no altered consciousness. Not previously diagnosed with SLE or any chronic illness. Examination reveals an acutely ill, mildly pale young woman with a malar rash, patchy alopecia, anasarca (periorbital oedema, generalised pitting oedema), BP 160/100 mmHg, bibasal crepitations, and ascites with shifting dullness. Weight 70 kg (likely fluid overloaded). No focal neurological deficits. Diagnosis: systemic lupus erythematosus with severe lupus nephritis (likely ISN/RPS Class III, IV, or V), full nephrotic syndrome, anasarca, hypertensive urgency, and fluid overload requiring immediate admission, urgent renal workup, fluid and blood pressure management, and immunosuppressive induction therapy.',
+  summary: 'Miss E.O., a 22-year-old undergraduate, presented with polyarthritis, malar rash, alopecia, oral ulcers, frothy urine, oliguria, and progressive body swelling. Examination showed hypertension (160/100 mmHg), anasarca, ascites, bibasal crepitations, and malar rash. Impression: systemic lupus erythematosus with severe lupus nephritis causing nephrotic syndrome and fluid overload. Plan: urgent admission, renal/immunologic workup, fluid and BP control, and initiation of immunosuppressive therapy.',
   content: `
 Miss E.O., a 22-year-old undergraduate student, resident in Ibadan, Oyo State, Christian, Yoruba, single.
 
@@ -20009,7 +20006,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-11',
-  summary: 'Miss T.A., a 19-year-old undergraduate student presenting with a 3-month history of mild bilateral symmetrical polyarthritis involving the MCP and PIP joints, wrists, and knees with morning stiffness lasting 20–30 minutes, and a 2-month history of a malar rash over the cheeks and nasal bridge sparing the nasolabial folds, worsening with sun exposure. Associated features include photosensitivity, diffuse non-scarring alopecia, recurrent painless oral ulcers, and easy fatigability. No renal symptoms, no neuropsychiatric features, no chest pain, no oedema, and no fever. Not previously diagnosed with any chronic illness. Examination reveals a well-looking young woman with BP 110/70 mmHg, malar rash, mild diffuse alopecia, mild MCP and PIP joint tenderness with no swelling or deformity and full range of motion, and no organomegaly. Diagnosis: mild systemic lupus erythematosus with cutaneous and musculoskeletal involvement and no major organ involvement at presentation. Suitable for outpatient management with hydroxychloroquine as cornerstone therapy, sun protection, and close surveillance for organ involvement.',
+  summary: 'Miss T.A., a 19-year-old undergraduate, presented with symmetrical polyarthritis, photosensitive malar rash, alopecia, oral ulcers, and fatigue. She was haemodynamically stable with mild MCP/PIP tenderness and no evidence of renal or neuropsychiatric involvement. Impression: mild systemic lupus erythematosus with cutaneous and musculoskeletal involvement. Plan: outpatient management with hydroxychloroquine, sun protection, symptomatic care, and close monitoring for organ involvement.',
   content: `
 Miss T.A., a 19-year-old undergraduate student, resident in Ile-Ife, Osun State, Christian, Yoruba, single.
 
@@ -20651,7 +20648,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-11',
-  summary: 'Mrs B.O., a 32-year-old known SLE patient (diagnosed 3 years ago, on hydroxychloroquine and low-dose prednisolone with poor compliance) presenting with a 2-week history of joint pains involving wrists, fingers, and knees with 45-minute morning stiffness, 5-day history of high-grade fever with chills and rigors, generalised weakness and anorexia, and 3-day history of reduced urine output with bilateral leg swelling. Recurrence of malar rash, photosensitivity, and alopecia. Poor medication adherence and missed follow-up appointments. Examination reveals an acutely ill, febrile (38.9°C), tachycardic (112 bpm), borderline hypotensive (95/60 mmHg) woman with mild pallor, malar rash, mild dehydration, bilateral pitting pedal oedema, bibasal crepitations, mild suprapubic tenderness, and SpO₂ 95% on room air. The core clinical dilemma: this presentation is consistent with both an SLE flare triggered by medication non-compliance AND bacterial sepsis — these two conditions require diametrically opposite initial treatments (antibiotics versus immunosuppression). Sepsis must be excluded before immunosuppression is escalated. Requires immediate resuscitation, urgent sepsis workup, empirical broad-spectrum antibiotics, cautious steroid handling, and systematic investigation to guide definitive management.',
+  summary: 'Mrs B.O., a 32-year-old known SLE patient with poor medication adherence, presented with polyarthritis, fever, oliguria, leg swelling, malar rash, and weakness. She was febrile, tachycardic, borderline hypotensive, with pedal oedema and bibasal crepitations. Impression: possible SLE flare versus bacterial sepsis. Plan: urgent admission, resuscitation, sepsis workup, empirical broad-spectrum antibiotics, cautious steroid management, and further investigations to guide treatment.',
   content: `
 Mrs B.O., a 32-year-old trader, resident in Ibadan, Oyo State, Christian, Yoruba, married.
 
@@ -21221,6 +21218,7 @@ Review with all investigation results at 24 and 48 hours to determine which scen
 `,
 bookmarkCount: 0
 },
+
   // Surgery
   {
     id: 'surg-1',
@@ -28393,7 +28391,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-05',
-  summary: 'A 48-year-old multiparous woman (para 5) and petty trader presenting with right groin swelling for 1 year that has gradually increased in size. Swelling is intermittent, becoming prominent on standing, coughing, or straining, and reduces on lying down or with gentle pressure. Associated with occasional dull aching discomfort, especially after prolonged standing. No episodes of irreducibility, severe pain, or obstruction symptoms. Examination reveals reducible groin swelling located below and lateral to pubic tubercle (below inguinal ligament), with expansile cough impulse, soft and non-tender. Key anatomical feature: position below inguinal ligament distinguishes femoral from inguinal hernia. Diagnosis: reducible right femoral hernia. Risk factors: multiparity, occupation with prolonged standing. Critical management point: femoral hernias have high strangulation risk and require urgent elective surgical repair even when asymptomatic and reducible.',
+  summary: 'A 48-year-old multiparous petty trader presented with a reducible right groin swelling worsened by standing and straining, associated with dull aching discomfort. Examination showed a soft reducible swelling below and lateral to the pubic tubercle with cough impulse. Impression: reducible right femoral hernia. Plan: urgent elective surgical repair due to the high risk of strangulation associated with femoral hernias.',
   content: `
 Mrs. R.A is a 48-year-old petty trader who resides in Abeokuta, Ogun State. She is married, Christian, and of Yoruba ethnicity. She is para 5, all spontaneous vaginal deliveries.
 
@@ -28996,7 +28994,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-05',
-  summary: 'A 52-year-old male farmer presenting with right groin swelling for 3 years that has gradually increased in size and now extends into the scrotum. Swelling is intermittent, becoming prominent on standing, coughing, or straining, and reduces completely on lying down or with gentle pressure. Associated with occasional dull aching discomfort for 1 year, especially after prolonged standing or heavy lifting. No episodes of irreducibility, severe pain, or obstruction symptoms. Examination reveals inguinoscrotal swelling (cannot get above it), soft, non-tender, completely reducible with gurgling sensation, expansile cough impulse present. Deep ring occlusion test suggestive of indirect inguinal hernia. Risk factors: male gender, occupation with regular heavy lifting. Diagnosis: reducible right inguinoscrotal hernia (indirect inguinal hernia). Requires elective surgical repair with mesh (Lichtenstein technique preferred) to prevent complications and restore function.',
+  summary: 'A 52-year-old male farmer presented with a progressively enlarging right inguinoscrotal swelling worsened by standing and heavy lifting, associated with dull aching discomfort. Examination showed a soft, reducible inguinoscrotal swelling with cough impulse and positive deep ring occlusion test. Impression: reducible right indirect inguinal hernia. Plan: elective mesh hernioplasty (preferably Lichtenstein repair) to prevent obstruction or strangulation.',
   content: `
 Mr. K.A is a 52-year-old farmer who resides in Ifo, Ogun State. He is married, Christian, and of Yoruba ethnicity.
 
@@ -29747,7 +29745,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-05',
-  summary: 'Mr S.O., a 45-year-old male trader presenting with a 2-year history of a progressively enlarging left inguinoscrotal swelling that was previously reducible, now irreducible for 2 days following failed manual reduction attempts, with associated left groin and scrotal pain (7/10). One day prior to presentation he developed diffuse colicky abdominal pain, progressive abdominal distension, absolute constipation, and bilious vomiting, consistent with mechanical intestinal obstruction. No prior hernia surgery. Occupation involves frequent heavy lifting. Examination reveals a distressed, tachycardic (104 bpm), mildly dehydrated man. Abdominal examination shows distension with generalised mild tenderness and hyperactive bowel sounds. Local examination reveals a firm, tender, irreducible left inguinoscrotal swelling with no expansile cough impulse, inability to get above the swelling, and possible tympany on percussion. Diagnosis: incarcerated left inguinoscrotal indirect inguinal hernia with mechanical intestinal obstruction. Strangulation must be actively excluded. Requires urgent resuscitation, nasogastric decompression, and emergency surgical exploration without delay.',
+  summary: 'Mr S.O., a 45-year-old trader, presented with a previously reducible left inguinoscrotal swelling that became painful and irreducible, followed by abdominal distension, bilious vomiting, and absolute constipation. Examination showed dehydration, abdominal distension, hyperactive bowel sounds, and a tender irreducible inguinoscrotal swelling without cough impulse. Impression: incarcerated left indirect inguinal hernia with intestinal obstruction; strangulation to exclude. Plan: urgent resuscitation, nasogastric decompression, and emergency surgical exploration.',
   content: `
 Mr S.O., a 45-year-old male trader, resident in Sagamu, Ogun State, Muslim, Yoruba, married.
 
@@ -32612,7 +32610,7 @@ Review in clinic within 1–2 weeks with histology results to confirm complete e
   ],
   contributor: 'Admin',
   lastModified: '2026-03-22',
-  summary: 'A 29-year-old booked G2P1+0 (1 alive) at 39 weeks + 3 days gestation presenting with progressive lower abdominal pains (10 hours) and passage of show (6 hours). Regular uterine contractions: 3-4 in 10 minutes, each lasting 40-50 seconds. Previous obstetric history: term SVD of 3.1 kg baby in 2022, no complications. Current pregnancy uncomplicated with regular antenatal care, booking PCV 33%, blood group O positive, genotype AA, HIV negative. Examination reveals cervix 5 cm dilated with 80% effacement, cephalic presentation at station -1, intact membranes, adequate pelvis. Fetal heart rate 142 bpm (reassuring). Clinical findings consistent with active phase of labour. Plan for expectant management with partograph monitoring and anticipated spontaneous vaginal delivery.',
+  summary: 'A 29-year-old booked G2P1+0 at 39+3 weeks presented with labour pains and show. She had regular contractions (3–4/10 minutes), cervix 5 cm dilated and 80% effaced, cephalic presentation at station -1, and intact membranes. FHR was reassuring at 142 bpm. Impression: active phase of labour. Plan: expectant management with partograph monitoring and anticipated spontaneous vaginal delivery.',
   content: `
 Mrs A.O., a 29-year-old booked G2P1+0 (1 alive) woman, trader, Christian, Yoruba, who resides in Ibadan, Oyo State. She has a secondary level of education and is married in a monogamous setting.
 
@@ -32729,9 +32727,6 @@ Cervix central, soft, 80% effaced, and 5 cm dilated
 Presenting part cephalic at station -1
 Membranes intact
 Pelvis clinically adequate
-
-OBSTETRIC SUMMARY
-A 29-year-old G2P1+0 woman at 39 weeks + 3 days gestation who presented with progressive lower abdominal pain of 10 hours duration associated with passage of show. Examination findings are consistent with active labour.
 
 ASSESSMENT
 
@@ -33033,7 +33028,7 @@ Immediate postpartum care in labour ward for at least 2 hours. Postnatal ward tr
   ],
   contributor: 'Admin',
   lastModified: '2026-03-22',
-  summary: 'A 32-year-old booked G3P2+0 (2 alive) at 39 weeks + 5 days gestation presenting with sudden passage of clear fluid per vaginam (8 hours) without onset of labour. Previous obstetric history: two term spontaneous vaginal deliveries (3.0 kg in 2018, 3.2 kg in 2021), both uncomplicated. Current pregnancy uncomplicated with regular antenatal care, booking PCV 34%, blood group B positive, genotype AA, HIV negative. Examination reveals clear fluid pooling in posterior fornix on speculum examination, afebrile, fetal heart rate 144 bpm (reassuring), cephalic presentation with head not well engaged (4/5 palpable above pelvic brim), no uterine tenderness, no contractions. No signs of chorioamnionitis. Clinical diagnosis: term prelabour rupture of membranes (PROM). Plan for expectant management (12-24 hours), prophylactic antibiotics, and induction of labour if spontaneous labour does not commence.',
+  summary: 'A 32-year-old booked G3P2+0 at 39+5 weeks presented with 8 hours of clear liquor drainage without labour pains. She was afebrile with reassuring FHR, cephalic presentation, and pooling of liquor on speculum examination. No uterine tenderness or signs of infection. Impression: term prelabour rupture of membranes (PROM). Plan: expectant management, prophylactic antibiotics, and induction of labour if spontaneous labour does not commence.',
   content: `
 Mrs B.O., a 32-year-old booked G3P2+0 (2 alive) woman, trader, Christian, Yoruba, who resides in Ilorin, Kwara State. She has a secondary level of education and is married in a monogamous setting.
 
@@ -33146,9 +33141,6 @@ No bleeding
 
 Digital vaginal examination:
 Deferred initially to reduce risk of infection as patient is not in labour
-
-OBSTETRIC SUMMARY
-A 32-year-old G3P2+0 woman at 39 weeks + 5 days gestation who presented with an 8-hour history of passage of clear fluid per vaginam without labour pains. Examination findings confirm rupture of membranes with a live fetus.
 
 ASSESSMENT
 
@@ -33583,7 +33575,7 @@ Postpartum follow-up at day 3 and 6 weeks. Monitor for signs of endometritis. En
   ],
   contributor: 'Admin',
   lastModified: '2026-03-22',
-  summary: 'A 36-year-old unbooked G4P3+0 (3 alive) at approximately 37 weeks gestation presenting with obstetric emergency: sudden onset vaginal bleeding (6 hours, dark with clots), severe continuous abdominal pain (6 hours), and reduced fetal movements (4 hours). Previous obstetric history: three term spontaneous vaginal deliveries (2015, 2018, 2021), all uncomplicated. Current pregnancy unbooked with no antenatal care. Examination reveals maternal shock (BP 90/60 mmHg, pulse 112 bpm thready), pallor, tense tender board-like uterus, absent fetal heart sounds. Clinical diagnosis: severe abruptio placentae (placental abruption) with concealed/revealed haemorrhage, maternal hypovolaemic shock, and likely intrauterine fetal demise. Requires immediate resuscitation with IV fluids and blood transfusion, emergency delivery, and monitoring for complications (DIC, acute kidney injury, postpartum haemorrhage).',
+  summary: 'A 36-year-old unbooked G4P3+0 at ~37 weeks presented with dark vaginal bleeding, severe continuous abdominal pain, and reduced fetal movements. She was in hypovolaemic shock with pallor, a tense tender board-like uterus, and absent fetal heart sounds. Impression: severe abruptio placentae with concealed/revealed haemorrhage and likely IUFD. Plan: urgent resuscitation, blood transfusion, emergency delivery, and monitoring for DIC, AKI, and postpartum haemorrhage.',
   content: `
 Mrs K.A., a 36-year-old unbooked G4P3+0 (3 alive) woman, trader, Muslim, Yoruba, who resides in Abeokuta, Ogun State. She has a primary level of education and is married in a polygamous setting.
 
@@ -33680,9 +33672,6 @@ Digital vaginal examination (performed cautiously after excluding placenta praev
 Cervix partially dilated
 Membranes status unclear
 Presenting part high
-
-OBSTETRIC SUMMARY
-A 36-year-old unbooked G4P3+0 woman at approximately 37 weeks gestation presenting with sudden onset vaginal bleeding, severe abdominal pain, and reduced fetal movements. Examination reveals a tense, tender uterus, maternal shock, and absent fetal heart sounds.
 
 ASSESSMENT
 
@@ -34091,7 +34080,7 @@ Intensive care for 24-48 hours post-delivery. Monitor for complications (DIC, re
   ],
   contributor: 'Admin',
   lastModified: '2026-03-22',
-  summary: 'A 34-year-old booked G3P2+0 (2 alive) at 36 weeks + 4 days gestation presenting with painless vaginal bleeding (5 hours, bright red, moderate quantity) without abdominal pain. Previous obstetric history: term SVD in 2017 and term caesarean section for breech in 2020. Current pregnancy: regular antenatal care, ultrasound at 32 weeks showed low-lying placenta, booking PCV 32%, blood group O positive, genotype AA, HIV negative. Examination reveals mild pallor, haemodynamically stable (BP 108/70 mmHg, pulse 92 bpm), soft non-tender uterus, cephalic presentation with high unengaged head (5/5 palpable), fetal heart rate 146 bpm (reassuring). Digital vaginal examination not performed due to risk of torrential haemorrhage. Clinical diagnosis: placenta praevia with antepartum haemorrhage. Requires admission, close monitoring, blood availability, confirmation of placental location with ultrasound, and planned caesarean section delivery.',
+  summary: 'A 34-year-old booked G3P2+0 at 36+4 weeks presented with painless bright red vaginal bleeding. She was mildly pale but haemodynamically stable, with a soft non-tender uterus, high unengaged presenting part, and reassuring FHR. Previous ultrasound showed low-lying placenta. Impression: placenta praevia with antepartum haemorrhage. Plan: admission, monitoring, blood preparation, ultrasound confirmation of placental location, and planned caesarean delivery.',
   content: `
 Mrs T.O., a 34-year-old booked G3P2+0 (2 alive) woman, teacher, Christian, Yoruba, who resides in Ibadan, Oyo State. She has a tertiary level of education and is married in a monogamous setting.
 
@@ -34199,9 +34188,6 @@ No active bleeding from cervical os
 
 Digital vaginal examination:
 NOT PERFORMED due to suspicion of placenta praevia (risk of torrential haemorrhage with digital examination)
-
-OBSTETRIC SUMMARY
-A 34-year-old G3P2+0 woman at 36 weeks + 4 days gestation presenting with painless vaginal bleeding. She has a history of low-lying placenta on ultrasound. Examination reveals a soft, non-tender uterus with a high, unengaged presenting part and a live fetus.
 
 ASSESSMENT
 
@@ -34660,7 +34646,7 @@ Postnatal follow-up at 6 weeks. Counsel on recurrence risk in future pregnancies
   ],
   contributor: 'Admin',
   lastModified: '2026-03-22',
-  summary: 'A 27-year-old primigravida at 34 weeks + 2 days gestation presenting with severe preeclampsia and features of imminent eclampsia: persistent headache (3 days), visual disturbances with flashing lights (2 days), epigastric pain (1 day), severe hypertension (BP 170/110 mmHg), significant proteinuria (+++), and bilateral pedal oedema up to knees. Irregular antenatal care, booked at 20 weeks at primary health centre, booking PCV 31%, blood group O positive, genotype AA, HIV negative. No documented hypertension earlier in pregnancy. Fetal assessment reveals tachycardia (168 bpm) and reduced movements suggesting fetal compromise. Requires immediate admission to high-dependency unit, seizure prophylaxis with magnesium sulphate, antihypertensive therapy, close maternal and fetal monitoring, and delivery after stabilization.',
+  summary: 'A 27-year-old primigravida at 34+2 weeks presented with headache, visual disturbances, epigastric pain, severe hypertension (170/110 mmHg), proteinuria (+++), and pedal oedema. Fetal tachycardia and reduced movements suggested fetal compromise. Impression: severe preeclampsia with features of imminent eclampsia. Plan: HDU admission, magnesium sulphate, antihypertensives, close monitoring, and delivery after maternal stabilisation.',
   content: `
 Mrs R.A., a 27-year-old booked G1P0+0 woman, tailor, Muslim, Yoruba, who resides in Osogbo, Osun State. She has a secondary level of education and is married in a monogamous setting.
 
@@ -34758,9 +34744,6 @@ Not routinely indicated at this stage (no labour)
 
 INVESTIGATIONS (Bedside/Initial)
 Urinalysis: Proteinuria +++ (significant proteinuria)
-
-OBSTETRIC SUMMARY
-A 27-year-old primigravida at 34 weeks + 2 days gestation presenting with headache, visual disturbance, and epigastric pain. She is markedly hypertensive with significant proteinuria and pedal oedema.
 
 ASSESSMENT
 
@@ -35246,7 +35229,7 @@ Postnatal review at 6 weeks with BP check and urinalysis (ensure resolution). Co
   ],
   contributor: 'Admin',
   lastModified: '2026-03-22',
-  summary: 'A 24-year-old unbooked primigravida at approximately 40 weeks gestation presenting with obstructed labour: labour pains (24 hours), failure to progress (12 hours), lower abdominal swelling (8 hours), and absent fetal movements (6 hours). Previous labour at home supervised by traditional birth attendant. Examination reveals severe maternal compromise: exhaustion, dehydration, fever (38.2°C), tachycardia (120 bpm weak), tachypnoea (26 cpm), pathological retraction ring (Bandl ring visible), tender uterus, absent fetal heart sounds, fully dilated cervix with high presenting part (station -2) showing significant caput and moulding. Risk factors include short stature (1.50 m), clinically inadequate pelvis, primigravida, unbooked pregnancy, prolonged labour with ruptured membranes (14 hours). Clinical diagnosis: obstructed labour with cephalopelvic disproportion, maternal exhaustion and sepsis, intrauterine fetal demise. Requires immediate resuscitation, broad-spectrum antibiotics, and emergency delivery. High risk of complications including uterine rupture, sepsis, postpartum haemorrhage, and vesicovaginal fistula.',
+  summary: 'A 24-year-old unbooked primigravida at term presented with prolonged obstructed labour, maternal exhaustion, fever, and absent fetal movements after labour at home. She was dehydrated, tachycardic, febrile, with Bandl ring, tender uterus, fully dilated cervix, and high moulded presenting part; FHS absent. Impression: obstructed labour from CPD with sepsis and IUFD. Plan: urgent resuscitation, broad-spectrum antibiotics, and emergency delivery.',
   content: `
 Mrs M.O., a 24-year-old unbooked G1P0+0 woman, petty trader, Christian, Yoruba, who resides in Ijebu-Ode, Ogun State. She has a primary level of education and is married in a monogamous setting.
 
@@ -35341,8 +35324,6 @@ Presenting part cephalic but high (station -2, well above ischial spines despite
 Significant caput (scalp oedema) and moulding (overlapping skull bones) present
 Pelvis clinically inadequate (contracted pelvis, cephalopelvic disproportion)
 
-OBSTETRIC SUMMARY
-A 24-year-old unbooked primigravida at term presenting with prolonged labour of 24 hours duration and failure to progress. Examination reveals maternal exhaustion, dehydration, fever, Bandl ring, and a fully dilated cervix with a high presenting part and absent fetal heart sounds.
 
 ASSESSMENT
 
@@ -35823,7 +35804,7 @@ Postnatal review at 2 weeks (wound check, assess for fistula). Review at 6 weeks
   ],
   contributor: 'Admin',
   lastModified: '2026-03-23',
-  summary: 'A 31-year-old booked G2P1+0 (1 alive) at 39 weeks + 1 day gestation presenting in active labour with signs of fetal distress. Labour started 10 hours ago, membranes ruptured spontaneously 4 hours ago with thick meconium-stained liquor. Reduced fetal movements noted for 6 hours. Previous obstetric history: term SVD of 3.2 kg baby in 2022, no complications. Current pregnancy uncomplicated with regular antenatal care, booking PCV 33%, blood group O positive, genotype AA, HIV negative. Examination reveals active labour (cervix 6 cm dilated, 80% effaced, 4 contractions in 10 minutes), fetal tachycardia (170 bpm, irregular), cephalic presentation at station -1. Clinical features of fetal distress: fetal tachycardia, reduced movements, thick meconium-stained liquor. Requires immediate intrauterine resuscitation and expedited delivery (emergency caesarean section or assisted vaginal delivery depending on progress).',
+  summary: 'A 31-year-old booked G2P1+0 at 39+1 weeks presented in active labour with thick meconium-stained liquor and reduced fetal movements. She was in active labour (6 cm dilated), with fetal tachycardia (170 bpm) and station -1. Impression: fetal distress in labour. Plan: immediate intrauterine resuscitation and urgent expedited delivery, preferably emergency caesarean section if no rapid progress.',
   content: `
 Mrs S.O., a 31-year-old booked G2P1+0 (1 alive) woman, banker, Christian, Yoruba, who resides in Lagos, Lagos State. She has a tertiary level of education and is married in a monogamous setting.
 
@@ -36403,7 +36384,7 @@ Neonatal follow-up for assessment of birth asphyxia sequelae if applicable. Deve
   ],
   contributor: 'Admin',
   lastModified: '2026-03-24',
-  summary: 'A 29-year-old P0+1 (1 spontaneous abortion) woman with 7 weeks amenorrhoea and positive pregnancy test presenting with acute gynaecological emergency: severe lower abdominal pain (8 hours) radiating to shoulders, scanty vaginal bleeding (6 hours), and two syncopal episodes (3 hours). Examination reveals hypovolaemic shock (BP 80/50 mmHg, pulse 124 bpm thready), pallor, cold clammy extremities, generalized abdominal tenderness with guarding and rebound tenderness, cervical motion tenderness, and fullness in pouch of Douglas. Clinical features highly suggestive of ruptured ectopic pregnancy with significant haemoperitoneum. Requires immediate resuscitation with IV fluids and blood transfusion, and urgent exploratory laparotomy for salpingectomy and evacuation of haemoperitoneum.',
+  summary: 'A 29-year-old P0+1 woman at 7 weeks amenorrhoea presented with severe abdominal pain radiating to the shoulder, vaginal spotting, and syncope. She was in hypovolaemic shock with severe pallor, hypotension (80/50 mmHg), tachycardia, and peritonism with cervical motion tenderness and pelvic fullness. Impression: ruptured ectopic pregnancy with haemoperitoneum. Plan: immediate resuscitation with IV fluids and blood products, and urgent exploratory laparotomy with salpingectomy.',
   content: `
 A 29-year-old P0+1 (1A) trader, resident in Ikorodu, Lagos State, Christian, Yoruba, married, with secondary level education.
 
@@ -36918,7 +36899,7 @@ Review in gynaecology clinic in 2 weeks with histopathology results. Serial seru
   ],
   contributor: 'Admin',
   lastModified: '2026-03-27',
-  summary: 'A 27-year-old P0+1 (1 spontaneous abortion) woman with 6 weeks amenorrhoea and positive pregnancy test presenting with mild left iliac fossa pain (3 days) and scanty vaginal spotting (2 days). Previous obstetric history: spontaneous abortion at 8 weeks. Examination reveals haemodynamically stable patient (BP 110/70 mmHg, pulse 82 bpm), mild left iliac fossa tenderness, left adnexal tenderness, mild cervical motion tenderness, no peritonism, no free fluid. Clinical features suggestive of unruptured ectopic pregnancy. Requires urgent investigations (quantitative β-hCG, transvaginal ultrasound) to confirm diagnosis and guide management. Management options include expectant management, medical management with methotrexate, or surgical management depending on findings and patient suitability.',
+  summary: 'A 27-year-old P0+1 woman at 6 weeks amenorrhoea presented with mild left iliac fossa pain and scanty vaginal spotting. She was haemodynamically stable with left adnexal tenderness and mild cervical motion tenderness, without peritonism or free fluid. Impression: suspected unruptured ectopic pregnancy. Plan: urgent serum β-hCG and transvaginal ultrasound for confirmation and to guide management (expectant, methotrexate, or surgical intervention as indicated).',
   content: `
 A 27-year-old P0+1 (1A) hairdresser, resident in Surulere, Lagos State, Christian, Yoruba, married, with secondary level education.
 
@@ -37514,7 +37495,7 @@ Serial β-hCG monitoring as per protocol until negative. Clinical review weekly 
   ],
   contributor: 'Admin',
   lastModified: '2026-03-27',
-  summary: 'A 26-year-old booked G2P1+0 (1 alive) at 39 weeks + 4 days gestation presenting with prolonged labour (18 hours total, 10 hours of slow progress). Previous obstetric history: term SVD of 3.0 kg baby in 2021, no complications. Current pregnancy uncomplicated with regular antenatal care, booking PCV 34%, blood group A positive, genotype AA, HIV negative. Membranes ruptured 12 hours ago with clear fluid. Examination reveals inadequate uterine contractions (2-3 in 10 minutes, lasting 25-30 seconds, mild-moderate intensity), cervix 5 cm dilated with 60% effacement, presenting part at station -2, no significant caput or moulding, clinically adequate pelvis. Mother mildly exhausted but stable, fetal heart rate 140 bpm (reassuring). Diagnosis: prolonged labour in active phase due to uterine inertia. Requires augmentation with oxytocin, close monitoring on partograph, and reassessment after 4 hours.',
+  summary: 'A 26-year-old booked G2P1+0 at 39+4 weeks presented with prolonged labour and slow progress despite 18 hours of labour and 12 hours of ruptured membranes. She was haemodynamically stable, mildly exhausted, with inadequate contractions. Cervix 5 cm dilated, 60% effaced, station -2, FHR 140 bpm. Impression: prolonged labour due to uterine inertia. Plan: oxytocin augmentation, partograph monitoring, and reassessment in 4 hours.',
   content: `
 Mrs A.A., a 26-year-old booked G2P1+0 (1 alive) woman, hairdresser, Christian, Yoruba, who resides in Abeokuta, Ogun State. She has a secondary level of education and is married in a monogamous setting.
 
@@ -38091,7 +38072,7 @@ Postpartum review at day 3 and 6 weeks. Discuss labour experience. Debrief on pr
   ],
   contributor: 'Admin',
   lastModified: '2026-03-27',
-  summary: 'A 28-year-old G3P2+0 (2 alive) delivered at 38 weeks + 6 days gestation with retained placenta 45 minutes after spontaneous vaginal delivery of 3.2 kg baby. Labour lasted 8 hours, no instrumental delivery, oxytocin given after baby delivery. Previous obstetric history: two term spontaneous vaginal deliveries (2019, 2022), no complications. Booking PCV 33%, blood group B positive, genotype AA, HIV negative. Current presentation: progressive vaginal bleeding for 30 minutes (bright red, continuous, estimated 400-600 ml), umbilical cord protruding, placenta undelivered, uterus moderately enlarged and poorly contracted. Examination reveals mild pallor, tachycardia (104 bpm), blood pressure 100/65 mmHg (early shock). Diagnosis: retained placenta with secondary postpartum haemorrhage. Requires immediate resuscitation, uterotonics, and manual removal of placenta under anaesthesia.',
+  summary: 'A 28-year-old G3P2+0 woman delivered at 38+6 weeks presented with retained placenta 45 minutes post vaginal delivery and ongoing postpartum bleeding (~400–600 ml). She was mildly pale, tachycardic, and borderline hypotensive. Uterus was poorly contracted with protruding cord. Impression: retained placenta with secondary postpartum haemorrhage and early shock. Plan: immediate resuscitation, uterotonics, and urgent manual removal of placenta under anaesthesia.',
   content: `
 Mrs D.A., a 28-year-old booked G3P2+0 (2 alive) woman, trader, Christian, Yoruba, who resides in Abeokuta, Ogun State. She has a secondary level of education and is married in a monogamous setting.
 
@@ -39397,7 +39378,7 @@ Discharge after 3-5 days if stable. Check haemoglobin before discharge. Postnata
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 30-year-old G2P1+1 (1A) seamstress presenting with an 8-month history of bilateral lower abdominal pain, 6-month history of yellowish foul-smelling vaginal discharge, and 5-month history of progressive dyspareunia. Previous obstetric history: one term SVD, one spontaneous abortion. History of recurrent untreated or partially treated genital infections with temporary relief from over-the-counter antibiotics. No consistent use of barrier contraception. Sexually active in a marital relationship. Examination reveals afebrile patient with mild suprapubic tenderness, inflamed vaginal walls, erythematous cervix with yellowish discharge, cervical motion tenderness, and bilateral adnexal tenderness with no palpable masses. Diagnosis: chronic pelvic inflammatory disease. Requires microbiological investigations, targeted antibiotic therapy covering gonorrhoea, chlamydia, and anaerobes, partner treatment, and counselling on sequelae and safe sexual practices.',
+  summary: 'A 30-year-old G2P1+1 seamstress presented with 8 months of bilateral lower abdominal pain, foul-smelling yellow vaginal discharge, and progressive dyspareunia. History of recurrent untreated genital infections and inconsistent barrier contraception use. Examination showed cervical motion tenderness, erythematous cervix with discharge, and bilateral adnexal tenderness. Impression: chronic pelvic inflammatory disease. Plan: microbiological tests, broad-spectrum antibiotics covering GC, chlamydia and anaerobes, partner treatment, and counselling on sexual health.',
   content: `
 A 30-year-old G2P1+1 (1A) seamstress, resident in Ikotun, Lagos State, Christian, Yoruba, married, with secondary level education.
 
@@ -39766,7 +39747,7 @@ Review at 72 hours to assess response to antibiotic therapy. Full review at 2 we
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 52-year-old G5P5+0 postmenopausal petty trader presenting with a 3-month history of progressive vaginal bleeding (initially postcoital, later spontaneous), 2-month history of foul-smelling watery blood-stained vaginal discharge, and 1-month history of lower abdominal pain, with associated constitutional symptoms of easy fatigability, unintentional weight loss, and loss of appetite. LMP 3 years ago. Previous obstetric history: five term spontaneous vaginal deliveries, all children alive. No prior cervical cancer screening. History of postcoital bleeding prior to menopause which was never investigated. Examination reveals a chronically ill-looking, moderately pale woman with mild suprapubic tenderness. Speculum examination shows an irregular, friable, ulcerated cervix with contact bleeding and foul-smelling discharge. Bimanual examination reveals a firm, irregular cervix with reduced mobility and possible early parametrial involvement. Clinical features are highly suggestive of carcinoma of the cervix, likely locally advanced. Requires urgent histological confirmation by cervical biopsy, full staging workup, and multidisciplinary oncological management.',
+  summary: 'A 52-year-old G5P5+0 postmenopausal petty trader presented with 3 months of progressive vaginal bleeding, foul-smelling discharge, lower abdominal pain, weight loss, and anorexia. Examination revealed pallor and a friable, ulcerated cervix with contact bleeding, reduced mobility, and possible parametrial involvement. Impression: likely locally advanced carcinoma of the cervix. Plan: urgent cervical biopsy for histology, staging investigations, and multidisciplinary oncologic management.',
   content: `
 A 52-year-old G5P5+0 (5 alive) petty trader, resident in Abeokuta, Ogun State, Christian, Yoruba, married, with primary level education.
 
@@ -40258,7 +40239,7 @@ Urgent referral to gynaecological oncology or nearest oncology centre with radio
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 24-year-old nulliparous undergraduate presenting with a 10-hour history of sudden onset severe lower abdominal pain (8/10), initially localised to the right iliac fossa and later generalising, with associated dizziness of 6 hours duration. LMP 12/03/2026, day 18 of a regular 28-day cycle (mid-cycle). Sexually active, not on contraception. No history of vaginal bleeding, fever, or prior similar episodes. No prior surgeries or pelvic inflammatory disease. Examination reveals a distressed but haemodynamically borderline-stable patient (BP 100/65 mmHg, pulse 96 bpm), with right iliac fossa tenderness, mild guarding, mild abdominal distension, percussion evidence of minimal free fluid, right adnexal tenderness, and mild fullness in the pouch of Douglas on bimanual examination. No cervical motion tenderness. Speculum examination normal with no vaginal bleeding. Clinical diagnosis: ruptured ovarian cyst, likely corpus luteum, with minimal haemoperitoneum. Ectopic pregnancy must be urgently excluded. Requires urgent pregnancy test, pelvic ultrasound, and full blood count. Management is conservative if haemodynamically stable, with low threshold for surgical intervention if clinical deterioration occurs.',
+  summary: 'A 24-year-old nulliparous undergraduate presented with sudden severe right iliac fossa pain and dizziness in mid-cycle. No fever or vaginal bleeding. She was haemodynamically borderline stable with right iliac fossa and adnexal tenderness and mild signs of free fluid. Impression: ruptured ovarian (likely corpus luteum) cyst with minimal haemoperitoneum. Ectopic pregnancy to exclude. Plan: urgent pregnancy test, pelvic ultrasound, FBC, and conservative management with close monitoring.',
   content: `
 A 24-year-old nulliparous undergraduate, resident in Yaba, Lagos State, Christian, Yoruba, single, with tertiary level education.
 
@@ -40728,7 +40709,7 @@ Urgent review of beta-hCG result and ultrasound findings. Serial vital signs and
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 26-year-old nulliparous fashion designer presenting with a 12-hour history of sudden onset severe colicky left lower abdominal pain and a 10-hour history of recurrent bilious vomiting. LMP 20 days ago. Sexually active, not using contraception, unsure of current pregnancy status. No prior similar episodes, though occasional mild lower abdominal discomfort reported in the past. Examination reveals a distressed young woman, tachycardic (104 bpm), haemodynamically stable, with marked left iliac fossa tenderness and mild guarding on abdominal examination. Pelvic examination shows marked left adnexal tenderness and possible adnexal fullness with no cervical motion tenderness and no vaginal bleeding. Clinical features are highly suggestive of left ovarian torsion. Ectopic pregnancy must be urgently excluded. Requires urgent pregnancy test, pelvic ultrasound with Doppler studies, and prompt surgical intervention as time to detorsion is critical for ovarian salvage.',
+  summary: 'A 26-year-old nulliparous fashion designer presented with sudden severe left lower abdominal pain and bilious vomiting. She was tachycardic but haemodynamically stable, with marked left iliac fossa and adnexal tenderness/fullness. No vaginal bleeding or cervical motion tenderness. Impression: left ovarian torsion; ectopic pregnancy to exclude. Plan: urgent pregnancy test, pelvic ultrasound with Doppler, and prompt surgical intervention for ovarian salvage.',
   content: `
 A 26-year-old nulliparous fashion designer, resident in Ikeja, Lagos State, Christian, Yoruba, single, with tertiary level education.
 
@@ -41213,7 +41194,7 @@ Post-operative review at 1–2 weeks for wound check and histopathology results.
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 22-year-old G2P1+0 student presenting with a 4-day history of progressive lower abdominal pain, 3-day history of high-grade fever with chills and rigors and foul-smelling purulent vaginal discharge, and 2-day history of vaginal bleeding with passage of clots and tissue-like material. LMP 10 weeks ago. Urine pregnancy test was positive 2 weeks prior to presentation, after which she underwent an attempted termination of pregnancy at a private facility. Symptoms began 5 days after the procedure. She has taken oral antibiotics and analgesics from a patent medicine vendor with no improvement. Examination reveals an acutely ill-looking, febrile, pale, dehydrated, toxic-appearing young woman in septic shock (BP 90/60 mmHg, pulse 118 bpm, temperature 38.9°C, RR 26 cpm, SpO₂ 96%). Abdominal examination shows generalised lower abdominal tenderness with guarding. Pelvic examination reveals an open cervical os with copious foul-smelling purulent blood-stained discharge, cervical motion tenderness, a bulky tender uterus, and bilateral adnexal tenderness. Diagnosis: septic abortion with retained products of conception complicated by sepsis and hypovolaemic shock. Requires immediate resuscitation, urgent broad-spectrum IV antibiotics, and uterine evacuation once the patient is stabilised.',
+  summary: 'A 22-year-old G2P1+0 student presented with abdominal pain, fever, foul-smelling discharge, and vaginal bleeding after attempted pregnancy termination at 10 weeks gestation. She was toxic-looking, febrile, hypotensive, tachycardic, and dehydrated. Pelvic examination showed an open cervix with purulent blood-stained discharge, tender bulky uterus, and cervical motion tenderness. Impression: septic abortion with retained products causing sepsis and shock. Plan: urgent resuscitation, broad-spectrum IV antibiotics, and uterine evacuation after stabilisation.',
   content: `
 A 22-year-old G2P1+0 student, resident in Mushin, Lagos State, Christian, Yoruba, single, with secondary level education.
 
@@ -41765,7 +41746,7 @@ Review clinical response to antibiotics at 48–72 hours (fever should be deferv
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 38-year-old G3P3+0 trader presenting with a 5-day history of abnormally heavy menstrual bleeding soaking 5–6 fully soaked pads per day with large clots and requirement for double padding, 2-day history of progressive dizziness and generalised weakness, and more severe than usual lower abdominal cramping. LMP commenced 5 days ago and is ongoing. Background history of progressive heavy menstrual bleeding over the past 1 year, though not as severe as the current episode. Not using contraception, no prior cervical screening, pregnancy status not yet confirmed. Examination reveals an ill-looking, moderately pale woman with haemodynamic compromise (BP 95/60 mmHg, pulse 108 bpm, RR 22 cpm). Abdomen shows mild suprapubic tenderness with no masses. Pelvic examination reveals active bleeding from the cervical os with blood and clots in the vaginal vault, a healthy-appearing cervix, normal-sized uterus, and no adnexal masses. Diagnosis: acute abnormal uterine bleeding (AUB) with symptomatic anaemia and haemodynamic compromise, on a background of one year of menorrhagia, requiring urgent stabilisation, exclusion of pregnancy, haematological support, medical haemostasis, and investigation to identify the underlying cause.',
+  summary: 'A 38-year-old G3P3+0 trader presented with 5 days of heavy menstrual bleeding with clots, dizziness, weakness, and worsening abdominal cramps on a background of chronic menorrhagia. She was moderately pale with haemodynamic compromise (BP 95/60 mmHg, pulse 108 bpm). Pelvic examination showed active bleeding from the cervical os. Impression: acute abnormal uterine bleeding with symptomatic anaemia. Plan: urgent stabilisation, exclude pregnancy, haematinic/blood support, medical haemostasis, and evaluation for underlying cause.',
   content: `
 A 38-year-old G3P3+0 trader, resident in Agege, Lagos State, Christian, Yoruba, married, with secondary level education.
 
@@ -42340,7 +42321,7 @@ Review of all investigation results within 24–48 hours. Clinical reassessment 
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 42-year-old G3P3+0 trader presenting with a 1-year history of progressive lower abdominal swelling and 6-month history of heavy menstrual bleeding with large clots soaking 5–6 pads per day, lower abdominal pain worsening during menstruation with occasional radiation to the lower back, and associated dysmenorrhoea, easy fatigability, and dizziness. LMP 2 weeks ago. Not using contraception, no prior cervical screening, no prior specialist evaluation. Self-medicating with over-the-counter analgesics and haematinics with minimal relief. Family history of uterine fibroids. Examination reveals a well-looking but mildly pale woman, haemodynamically stable. Abdominal examination shows a firm, irregular, non-tender suprapubic mass of approximately 14-week size with limited mobility. Pelvic examination confirms a 14-week-sized, irregular, firm, non-tender uterus with no adnexal masses and a healthy cervix. Diagnosis: symptomatic uterine leiomyomata (fibroids) presenting with abnormal uterine bleeding (AUB-L) and symptomatic iron deficiency anaemia. Requires confirmation and characterisation by pelvic ultrasound, haematological assessment, correction of anaemia, and multidisciplinary discussion of definitive management options based on symptom burden and completion of childbearing.',
+  summary: 'A 42-year-old G3P3+0 trader presented with progressive abdominal swelling, heavy menstrual bleeding with clots, dysmenorrhoea, and symptoms of anaemia. Examination revealed mild pallor and a firm irregular 14-week-sized uterine mass. Impression: symptomatic uterine fibroids causing AUB-L and iron deficiency anaemia. Plan: pelvic ultrasound, haematological evaluation, correction of anaemia, and discussion of definitive management options.',
   content: `
 A 42-year-old G3P3+0 trader, resident in Ibadan, Oyo State, Christian, Yoruba, married, with secondary level education.
 
@@ -42913,7 +42894,7 @@ Review in gynaecology outpatient clinic in 2 weeks with ultrasound results, full
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 58-year-old G5P5+0 retired civil servant presenting with a 2-week history of intermittent scanty to moderate postmenopausal vaginal bleeding (bright red, occasionally with small clots, requiring 1–2 pads per day), lower abdominal discomfort, easy fatigability, unintentional weight loss, and reduced appetite over the past few months. LMP 8 years ago (menopause at 50 years). Not on hormone replacement therapy. Known hypertensive for 5 years on antihypertensive medication. Last Pap smear over 10 years ago with unknown result. All previous five term deliveries via spontaneous vaginal delivery. Examination reveals a mildly pale, afebrile, haemodynamically stable woman (BP 130/80 mmHg, pulse 88 bpm). Abdominal examination is unremarkable. Speculum examination shows minimal blood in the vaginal vault, atrophic vaginal mucosa, and a healthy-appearing cervix with no visible lesion. Bimanual examination reveals a normal-sized uterus with no adnexal masses. Postmenopausal bleeding must be considered endometrial carcinoma until proven otherwise. Constitutional symptoms of weight loss and anorexia increase clinical concern for malignancy. Requires urgent transvaginal ultrasound to assess endometrial thickness, endometrial biopsy for histological diagnosis, and full staging workup if malignancy is confirmed.',
+  summary: 'A 58-year-old G5P5+0 retired civil servant presented with postmenopausal bleeding, lower abdominal discomfort, weight loss, anorexia, and easy fatigability. Known hypertensive on treatment. Examination showed mild pallor, minimal vaginal bleeding, healthy cervix, and normal-sized uterus without adnexal masses. Impression: postmenopausal bleeding suspicious for endometrial carcinoma. Plan: urgent transvaginal ultrasound, endometrial biopsy, and staging investigations if malignancy is confirmed.',
   content: `
 A 58-year-old G5P5+0 retired civil servant, resident in Abeokuta, Ogun State, Christian, Yoruba, married, with tertiary level education.
 
@@ -43491,7 +43472,7 @@ Urgent review in gynaecology clinic within 1–2 weeks with all investigation re
   ],
   contributor: 'Admin',
   lastModified: '2026-03-29',
-  summary: 'A 60-year-old G6P6+0 retired teacher presenting with a 1-month history of progressive postmenopausal vaginal bleeding (10 years after menopause) and 3-week history of dull persistent lower abdominal pain, with associated constitutional symptoms of easy fatigability, loss of appetite, and unintentional weight loss. Known hypertensive for 8 years on treatment. Not on hormone replacement therapy. No prior hormonal contraceptive use. Previously referred to a peripheral hospital where transvaginal ultrasound showed a thickened endometrium and endometrial biopsy confirmed endometrial carcinoma. Now referred for staging and definitive management. Examination reveals a chronically ill-looking, mildly to moderately pale elderly woman with controlled hypertension (BP 135/85 mmHg, pulse 90 bpm). Abdominal examination shows mild suprapubic tenderness with no palpable masses. Pelvic examination reveals minimal blood in the vaginal vault, a grossly normal cervix with no visible growth, a slightly enlarged mobile uterus, and no adnexal masses. Histological diagnosis of endometrial carcinoma is established. This presentation requires complete surgical staging, perioperative medical optimisation, adjuvant therapy planning by a multidisciplinary oncology team, and comprehensive patient counselling.',
+  summary: 'A 60-year-old G6P6+0 retired teacher presented with postmenopausal bleeding, lower abdominal pain, weight loss, and easy fatigability. Known hypertensive on treatment. Ultrasound showed thickened endometrium, and biopsy confirmed endometrial carcinoma. Examination revealed mild pallor, minimal vaginal bleeding, and a slightly enlarged mobile uterus. Impression: confirmed endometrial carcinoma. Plan: complete surgical staging, optimise comorbidities, multidisciplinary oncology care, and counsel on definitive treatment and adjuvant therapy.',
   content: `
 A 60-year-old G6P6+0 retired teacher, resident in Ibadan, Oyo State, Christian, Yoruba, married, with tertiary level education.
 
@@ -44163,7 +44144,7 @@ Post-operative review at 4–6 weeks: assess wound healing, review final histopa
   ],
   contributor: 'Admin',
   lastModified: '2026-04-13',
-  summary: 'Mrs A.A., a 30-year-old G2P1+0 (1 alive) known SLE patient (diagnosed 2 years ago, previously stable on hydroxychloroquine and low-dose prednisolone) presenting at 28 weeks + 3 days gestation with a 1-month history of bilateral symmetrical polyarthritis, 3-week history of malar rash with photosensitivity, alopecia, and oral ulcers, 2-week history of bilateral pitting pedal oedema progressing from ankles to knees with frothy urine and mild oliguria, and 2-day history of reduced fetal movements. She defaulted both hydroxychloroquine and prednisolone early in pregnancy due to fear of fetal harm. No prior lupus nephritis. BP 150/95 mmHg. No headache, visual disturbance, or seizures. Fetal heart rate 150 bpm, fundal height corresponds to 28 weeks. Previous obstetric history: one term spontaneous vaginal delivery in 2021, uneventful. The central diagnostic challenge is distinguishing SLE nephritis from preeclampsia — both present with hypertension, proteinuria, and oedema and require diametrically different treatments. Requires immediate admission to a high-risk obstetric unit, urgent fetal assessment with CTG and Doppler, antenatal corticosteroids for fetal lung maturity, safe pregnancy-compatible immunosuppression, antihypertensive therapy, and multidisciplinary obstetric, rheumatology, and neonatology team management.',
+  summary: 'Mrs A.A., a 30-year-old G2P1+0 with known SLE at 28+3 weeks, presented with polyarthritis, malar rash, oral ulcers, oedema, frothy urine, oliguria, and reduced fetal movements after stopping medications in pregnancy. BP 150/95 mmHg, FHR 150 bpm. Differential includes lupus nephritis versus preeclampsia. Plan: high-risk admission, fetal assessment, corticosteroids, antihypertensives, pregnancy-safe immunosuppression, and multidisciplinary management.',
   content: `
 Mrs A.A., a 30-year-old G2P1+0 (1 alive) trader, resident in Lafenwa, Abeokuta, Ogun State, Muslim, Yoruba, married in a monogamous setting.
 
@@ -44754,7 +44735,7 @@ Daily MDT review during admission. CTG twice daily. Weekly Doppler studies. Feta
   ],
   contributor: 'Admin',
   lastModified: '2026-04-16',
-  summary: 'Mrs R.T., a 28-year-old booked G2P1+0 (1 alive) hairdresser presenting at 30 weeks + 2 days gestation with a 12-hour history of progressive lower abdominal and low back pain and a bloody show 4 hours prior to presentation. Known dichorionic diamniotic twin pregnancy confirmed by serial ultrasound, spontaneously conceived. Booking investigations: PCV 33%, blood group B positive, genotype AA, HIV negative. Positive family history of twinning in the maternal lineage. Previous obstetric history: one term spontaneous vaginal delivery in 2021, no complications. Examination reveals a woman in mild-to-moderate painful distress, haemodynamically stable. Symphysiofundal height 36 cm (greater than expected for 30 weeks — consistent with twin gestation and uterine overdistension). Multiple fetal parts palpable, Twin A cephalic, Twin B transverse. Contractions 3–4 in 10 minutes lasting 35–45 seconds. Twin A FHR 146 bpm, Twin B FHR 152 bpm. Cervix 3 cm dilated and 50% effaced, presenting part at station -2, membranes intact, pelvis clinically adequate. Diagnosis: preterm labour in a dichorionic diamniotic twin gestation at 30 weeks + 2 days, likely secondary to uterine overdistension. Requires immediate admission to the high-risk labour ward, antenatal corticosteroids for fetal lung maturity, magnesium sulphate for fetal neuroprotection, tocolysis to allow the corticosteroid course to complete, and multidisciplinary preparation for possible preterm twin delivery.',
+  summary: 'Mrs R.T., a 28-year-old booked G2P1+0 with DCDA twins at 30+2 weeks, presented with labour pains and bloody show. Stable vitals, SFH 36 cm, contractions 3–4/10 minutes. Twin A cephalic, Twin B transverse; FHRs reassuring. Cervix 3 cm dilated, 50% effaced, membranes intact. Impression: preterm labour in twin gestation likely from uterine overdistension. Plan: admission, corticosteroids, magnesium sulphate, tocolysis, and preparation for possible preterm twin delivery.',
   content: `
 Mrs R.T., a 28-year-old booked G2P1+0 (1 alive) hairdresser, resident in Ibadan, Oyo State, Christian, Yoruba, married, with secondary level education.
 
@@ -45281,7 +45262,7 @@ Postpartum review at day 3 and at 6 weeks. Haemoglobin check before discharge. I
   ],
   contributor: 'Admin',
   lastModified: '2026-04-17',
-  summary: 'Mrs A.A., a 29-year-old booked G3P2+0 (2 alive) woman presenting at 38 weeks + 2 days gestation with a 1-hour history of sudden rupture of membranes followed immediately by extrusion of the umbilical cord through the vaginal introitus and sudden reduction in fetal movements. Labour had been progressing normally prior to this event. No trauma, no significant vaginal bleeding. Booking investigations: PCV 34%, blood group O positive, genotype AA, HIV negative. Previous obstetric history: two uncomplicated term spontaneous vaginal deliveries in 2018 and 2021. Examination reveals an anxious, distressed woman, haemodynamically stable (BP 110/70 mmHg, PR 100 bpm). Umbilical cord visibly protruding through the vaginal introitus with weak pulsations. FHR 90 bpm (bradycardia — acute fetal compromise). Presenting part high and not well applied to the cervix. Longitudinal lie, cephalic presentation. Diagnosis: umbilical cord prolapse with fetal distress. This is a Category 1 obstetric emergency — every minute without delivery increases the risk of fetal hypoxic brain injury and death. Immediate manual elevation of the presenting part, positioning, oxygen, and emergency caesarean section are life-saving.',
+  summary: 'Mrs A.A., a 29-year-old booked G3P2+0 at 38+2 weeks, presented with sudden rupture of membranes followed by cord protrusion and reduced fetal movements. Haemodynamically stable but distressed. Umbilical cord protruding with weak pulsations, FHR 90 bpm, presenting part high. Impression: umbilical cord prolapse with fetal distress. Plan: immediate manual elevation of presenting part, maternal positioning, oxygen, and emergency caesarean section.',
   content: `
 Mrs A.A., a 29-year-old booked G3P2+0 (2 alive) trader, resident in Abeokuta, Ogun State, Muslim, Yoruba, married in a monogamous setting, with secondary level education.
 
@@ -45715,7 +45696,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-17',
-  summary: 'Mrs K.O., a 33-year-old booked G4P2+1 (2 alive) trader presenting at 39 weeks + 1 day gestation with a 1-hour history of sudden severe tearing abdominal pain that was markedly different from her preceding labour pains, simultaneous cessation of uterine contractions, moderate vaginal bleeding, and complete loss of fetal movements. Previous obstetric history: term spontaneous vaginal delivery in 2016, emergency caesarean section for prolonged labour in 2019, and first trimester miscarriage in 2022. Uterine scar from prior caesarean section confirmed. Referred from a peripheral facility where she had been in active labour — use of uterotonic agents could not be confirmed. Booking PCV 32%, blood group O positive. Examination reveals a critically ill, pale, restless woman in hypovolaemic shock (BP 90/60 mmHg, PR 120 bpm thready, RR 26 cpm). Abdomen tense and tender with generalised tenderness, uterus not clearly delineable, fetal parts easily palpable superficially, presenting part no longer engaged, no effective uterine contractions. Fetal heart sounds absent. Diagnosis: complete uterine rupture in a scarred uterus with intra-abdominal haemorrhage, haemodynamic shock, and fetal demise. This is an obstetric emergency — immediate resuscitation and emergency laparotomy are life-saving.',
+  summary: 'Mrs K.O., a 33-year-old booked G4P2+1 at 39+1 weeks with previous CS, presented with sudden tearing abdominal pain, cessation of contractions, vaginal bleeding, and absent fetal movements. In hypovolaemic shock (BP 90/60 mmHg, PR 120 bpm), with tense abdomen, easily palpable fetal parts, and absent FHS. Impression: ruptured scar uterus with intra-abdominal haemorrhage and fetal demise. Plan: immediate resuscitation and emergency laparotomy.',
   content: `
 Mrs K.O., a 33-year-old booked G4P2+1 (2 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married, with secondary level education.
 
@@ -46272,7 +46253,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-19',
-  summary: 'Mrs M.A., a 31-year-old booked G2P1+0 (1 alive) banker presenting at 32 weeks + 6 days gestation with a 3-day history of severe persistent frontal headache not relieved by simple analgesics, 2-day history of blurring of vision with flashes of light, and 1-day history of constant worsening epigastric pain with generalised weakness. She was noted to have elevated blood pressure at 30 weeks gestation and was commenced on antihypertensives but defaulted follow-up. Reduced fetal movements over the past 24 hours. Booking investigations at 14 weeks: PCV 34%, blood group A positive, genotype AA, HIV negative. No pre-pregnancy hypertension. Previous obstetric history: one term uncomplicated SVD in 2022. Examination reveals a conscious but ill-looking, restless, moderately oedematous pregnant woman. BP 170/110 mmHg (severe range). SFH 30 cm (slightly less than expected for 32 weeks + 6 days — suggests possible IUGR). Uterus relaxed with no contractions. FHR 168 bpm (tachycardia — fetal compromise). Cervix closed and uneffaced. Diagnosis: severe preeclampsia at 32 weeks + 6 days gestation with maternal end-organ involvement (CNS — headache, visual disturbance; hepatic — epigastric pain) and fetal compromise (tachycardia, reduced movements, probable IUGR). Requires immediate admission to the high-dependency unit, IV antihypertensive therapy, magnesium sulphate for seizure prophylaxis, antenatal corticosteroids, urgent investigations, and expedited delivery once the mother is stabilised.',
+  summary: 'Mrs M.A., a 31-year-old booked G2P1+0 at 32+6 weeks, presented with severe headache, visual disturbance, epigastric pain, and reduced fetal movements. Ill-looking, oedematous, BP 170/110 mmHg; SFH 30 cm, relaxed uterus, FHR 168 bpm. Cervix closed and uneffaced. Impression: severe preeclampsia with maternal end-organ involvement and fetal compromise. Plan: HDU admission, IV antihypertensives, magnesium sulphate, corticosteroids, urgent investigations, and expedited delivery after stabilisation.',
   content: `
 Mrs M.A., a 31-year-old booked G2P1+0 (1 alive) banker, resident in Lagos State, Christian, Yoruba, married in a monogamous setting, with tertiary level education.
 
@@ -46850,7 +46831,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-19',
-  summary: 'Mrs E.A., a 24-year-old unbooked G2P1+0 (1 alive) petty trader presenting at 31 weeks + 5 days gestation with a 10-hour history of severe lower abdominal pain progressing from irregular mild contractions to regular strong contractions occurring 4–5 times in 10 minutes and lasting 50–60 seconds, a 2-hour history of strong urge to bear down, and a bloody show 4 hours prior to presentation. No antenatal care received in this pregnancy. Previous obstetric history: one term uncomplicated spontaneous vaginal delivery in 2022. No chronic illness, no prior surgeries. Examination reveals a young woman in severe painful distress, actively bearing down, haemodynamically stable (BP 110/70 mmHg, PR 104 bpm). Symphysiofundal height 30 cm, longitudinal lie, cephalic presentation, contractions 4–5 in 10 minutes lasting 50–60 seconds and strong. FHR 150 bpm (reassuring). Pelvic examination: cervix fully effaced and 8 cm dilated, cephalic presenting part at station +1, membranes intact, pelvis clinically adequate. Diagnosis: advanced preterm labour at 31 weeks + 5 days in an unbooked multiparous woman with imminent vaginal delivery. Tocolysis is not indicated at this stage of labour. Priority is corticosteroids and magnesium sulphate if time permits, preparation for imminent preterm delivery, and immediate neonatal team activation.',
+  summary: 'Mrs E.A., a 24-year-old unbooked G2P1+0 at 31+5 weeks, presented with severe labour pains, bloody show, and urge to bear down. In severe painful distress but haemodynamically stable. Contractions 4–5/10 minutes, FHR 150 bpm. Cervix fully effaced and 8 cm dilated, cephalic at station +1, membranes intact. Impression: advanced preterm labour with imminent delivery. Plan: corticosteroids and magnesium sulphate if feasible, prepare for preterm vaginal delivery, and activate neonatal team.',
   content: `
 Mrs E.A., a 24-year-old unbooked G2P1+0 (1 alive) petty trader, resident in Abeokuta, Ogun State, Christian, Yoruba, married in a monogamous setting, with primary level education.
 
@@ -47355,7 +47336,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-04-19',
-  summary: 'Mrs M.A., a 31-year-old booked G2P1+0 (1 alive) banker presenting at 32 weeks + 6 days gestation with a 3-day history of severe persistent frontal headache not relieved by simple analgesics, 2-day history of blurring of vision with flashes of light, and 1-day history of constant worsening epigastric pain with generalised weakness. She was noted to have elevated blood pressure at 30 weeks gestation and was commenced on antihypertensives but defaulted follow-up. Reduced fetal movements over the past 24 hours. Booking investigations at 14 weeks: PCV 34%, blood group A positive, genotype AA, HIV negative. No pre-pregnancy hypertension. Previous obstetric history: one term uncomplicated SVD in 2022. Examination reveals a conscious but ill-looking, restless, moderately oedematous pregnant woman. BP 170/110 mmHg (severe range). SFH 30 cm (slightly less than expected for 32 weeks + 6 days — suggests possible IUGR). Uterus relaxed with no contractions. FHR 168 bpm (tachycardia — fetal compromise). Cervix closed and uneffaced. Diagnosis: severe preeclampsia at 32 weeks + 6 days gestation with maternal end-organ involvement (CNS — headache, visual disturbance; hepatic — epigastric pain) and fetal compromise (tachycardia, reduced movements, probable IUGR). Requires immediate admission to the high-dependency unit, IV antihypertensive therapy, magnesium sulphate for seizure prophylaxis, antenatal corticosteroids, urgent investigations, and expedited delivery once the mother is stabilised.',
+  summary: 'Mrs M.A., a 31-year-old booked G2P1+0 at 32+6 weeks, presented with severe headache, visual disturbance, epigastric pain, and reduced fetal movements. BP 170/110 mmHg with oedema; SFH 30 cm, relaxed uterus, FHR 168 bpm. Cervix closed and uneffaced. Impression: severe preeclampsia with maternal end-organ involvement and fetal compromise. Plan: HDU admission, IV antihypertensives, magnesium sulphate, corticosteroids, urgent investigations, and expedited delivery after stabilisation.',
   content: `
 Mrs M.A., a 31-year-old booked G2P1+0 (1 alive) banker, resident in Lagos State, Christian, Yoruba, married in a monogamous setting, with tertiary level education.
 
@@ -47935,7 +47916,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-05-01',
-  summary: 'Mrs S.A., a 32-year-old booked G3P2+0 (2 alive) woman presenting at 34 weeks + 5 days gestation with a 14-hour history of progressive lower abdominal and low back pain, now occurring 4 times in 10 minutes and lasting 40–50 seconds, with a bloody show 6 hours prior to presentation and an urge to bear down. Known dichorionic diamniotic twin pregnancy confirmed by serial ultrasound, spontaneously conceived. Booking investigations: PCV 31%, blood group O positive, genotype AA, HIV negative. Positive family history of twinning on the maternal side. Previous obstetric history: two uncomplicated term spontaneous vaginal deliveries in 2018 and 2021. Examination reveals a woman in moderate painful distress, haemodynamically stable. SFH 40 cm (greater than expected — consistent with twin gestation and uterine overdistension). Multiple fetal parts palpable. Twin A cephalic, Twin B breech. Contractions 4 in 10 minutes lasting 40–50 seconds. Twin A FHR 144 bpm, Twin B FHR 150 bpm. Cervix 5 cm dilated and 80% effaced, cephalic presenting part at station -1, membranes intact, pelvis clinically adequate. Diagnosis: preterm labour at 34 weeks + 5 days in a dichorionic diamniotic twin pregnancy with a cephalic-breech presentation. Tocolysis may be considered cautiously to allow corticosteroids to work. Requires urgent preparation for twin delivery with a specific intrapartum plan for the cephalic-breech combination.',
+  summary: 'Mrs S.A., a 32-year-old booked G3P2+0 with DCDA twins at 34+5 weeks, presented with progressive labour pains, bloody show, and urge to bear down. Stable vitals, SFH 40 cm, contractions 4/10 minutes. Twin A cephalic, Twin B breech; FHRs reassuring. Cervix 5 cm dilated, 80% effaced, membranes intact. Impression: preterm labour in twin gestation. Plan: corticosteroids, cautious tocolysis, and urgent preparation for twin delivery with intrapartum management plan.',
   content: `
 Mrs S.A., a 32-year-old booked G3P2+0 (2 alive) trader, resident in Ilorin, Kwara State, Muslim, Yoruba, married in a monogamous setting, with secondary level education.
 
@@ -48418,7 +48399,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-05-02',
-  summary: 'Mrs A.O., a 30-year-old booked G4P1+2 (1 alive) civil servant presenting at 24 weeks + 6 days gestation with a 6-hour history of mild lower abdominal discomfort without regular uterine contractions and a 2-hour history of a sensation of vaginal protrusion with pelvic pressure, subsequently finding a mass at the vaginal introitus with protrusion of fetal membranes. No regular contractions, no vaginal bleeding, and minimal fluid staining only. Fetal movements were present before symptom onset. Obstetric history is highly significant: one term SVD in 2018, spontaneous pregnancy loss at 20 weeks in 2020 following painless cervical dilatation, and spontaneous pregnancy loss at 22 weeks in 2022 preceded by minimal pain and rapid expulsion — a classic history of cervical incompetence. No prior cervical surgery. Booking PCV 34%, blood group O positive, genotype AA, HIV negative. Examination reveals a mildly anxious but non-distressed woman, haemodynamically stable (BP 110/70 mmHg). SFH 24 cm, uterus relaxed with no contractions. FHR 150 bpm. Speculum examination shows bulging fetal membranes at or beyond the cervical os. Digital examination confirms cervix 4–5 cm dilated, soft, uneffaced, with no active contractions and membranes intact but bulging into the vagina. Diagnosis: cervical incompetence presenting as painless preterm cervical dilatation with bulging membranes at the threshold of viability. Emergency (rescue) cervical cerclage is the pivotal management decision. Requires urgent infection screening, corticosteroids, and a multidisciplinary decision on cerclage candidacy.',
+  summary: 'Mrs A.O., a 30-year-old booked G4P1+2 at 24+6 weeks, presented with pelvic pressure and protruding fetal membranes without contractions or bleeding. History significant for two mid-trimester painless pregnancy losses suggestive of cervical incompetence. Stable vitals, relaxed uterus, FHR 150 bpm. Cervix 4–5 cm dilated with intact bulging membranes. Impression: cervical incompetence with advanced painless cervical dilatation. Plan: urgent infection screening, corticosteroids, and assessment for rescue cerclage.',
   content: `
 Mrs A.O., a 30-year-old booked G4P1+2 (1 alive) civil servant, resident in Akure, Ondo State, Christian, Yoruba, married in a monogamous setting, with tertiary level education.
 
@@ -48964,7 +48945,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-05-02',
-  summary: 'Mrs R.O., a 26-year-old booked G2P1+0 (1 alive) trader presenting at 33 weeks + 2 days gestation with a 2-day history of sudden gush of fluid per vaginam followed by persistent drainage of foul-smelling liquor, 1-day history of offensive vaginal discharge and high-grade fever with chills and generalised weakness, and 12-hour history of constant, progressive, diffuse lower abdominal pain with uterine tightening occurring 3–4 times in 10 minutes. Reduced fetal movements noted. No vaginal bleeding, no trauma. Booked at 18 weeks with irregular attendance, received one dose of tetanus toxoid. Booking PCV 31%, blood group O positive, genotype AA, HIV negative. Previous obstetric history: one uncomplicated term SVD in 2022. Examination reveals an ill-looking, febrile (38.6°C), tachycardic (120 bpm), mildly hypotensive (100/65 mmHg), and mildly dehydrated pregnant woman. Uterus tender on palpation with contractions 3–4 in 10 minutes. FHR 170 bpm (fetal tachycardia). Speculum examination shows foul-smelling liquor pooling in the vagina. Cervix soft, 60% effaced, and 4 cm dilated with ruptured membranes. Diagnosis: clinical chorioamnionitis complicating prolonged preterm premature rupture of membranes with established preterm labour at 33 weeks + 2 days. Tocolysis is absolutely contraindicated. Delivery is the definitive treatment. Requires immediate broad-spectrum IV antibiotics, resuscitation, urgent delivery, and neonatal team preparation.',
+  summary: 'Mrs R.O., a 26-year-old booked G2P1+0 at 33+2 weeks, presented with 2 days of liquor drainage, foul-smelling discharge, fever, abdominal pain, contractions, and reduced fetal movements. Febrile, tachycardic, mildly hypotensive, with uterine tenderness and FHR 170 bpm. Cervix 4 cm dilated with ruptured membranes and offensive liquor. Impression: chorioamnionitis complicating prolonged PPROM with established preterm labour. Plan: IV antibiotics, resuscitation, urgent delivery, and neonatal team preparation.',
   content: `
 Mrs R.O., a 26-year-old booked G2P1+0 (1 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, with secondary level education.
 
@@ -49599,7 +49580,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-05-02',
-  summary: 'Mrs B.O., a 28-year-old booked G2P1+0 (1 alive) hairdresser presenting at 32 weeks + 3 days gestation with a 14-hour history of a sudden gush of clear, odourless, non-blood-stained fluid per vaginam while at rest, followed by persistent leakage soaking her underwear and requiring repeated pad changes. Occasional mild irregular lower abdominal tightening noted over the past few hours but no painful regular contractions. No fever, no offensive vaginal discharge, no vaginal bleeding, and no dysuria. Fetal movements are present and normal. Booked at 14 weeks with regular antenatal attendance. Booking investigations: PCV 33%, blood group O positive, genotype AA, HIV negative. Previous obstetric history: one uncomplicated term SVD in 2022. Examination reveals a comfortable, afebrile, haemodynamically stable woman. SFH 31 cm (slightly less than expected — possible oligohydramnios from liquor loss). Uterus relaxed, no tenderness, no regular contractions. FHR 148 bpm (reassuring). Speculum examination shows pooling of clear fluid in the posterior fornix with fluid trickling from the cervical os, no offensive odour. Digital vaginal examination deferred. Diagnosis: preterm premature rupture of membranes (PPROM) at 32 weeks + 3 days without clinical evidence of chorioamnionitis. Expectant management is appropriate at this gestation, alongside latency antibiotics, antenatal corticosteroids, magnesium sulphate, and close infection surveillance.',
+  summary: 'Mrs B.O., a 28-year-old booked G2P1+0 at 32+3 weeks, presented with a 14-hour history of sudden gush and persistent leakage of clear liquor. No fever, bleeding, offensive discharge, or regular contractions; fetal movements normal. Stable vitals, relaxed uterus, FHR 148 bpm. Speculum exam showed pooling of liquor from the cervical os. Impression: PPROM without chorioamnionitis. Plan: expectant management, latency antibiotics, corticosteroids, magnesium sulphate, and infection surveillance.',
   content: `
 Mrs B.O., a 28-year-old booked G2P1+0 (1 alive) hairdresser, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, with secondary level education.
 
@@ -50112,7 +50093,7 @@ bookmarkCount: 0
   ],
   contributor: 'Admin',
   lastModified: '2026-05-04',
-  summary: 'Mrs K.A., a 25-year-old booked G2P1+0 (1 alive) seamstress presenting at 32 weeks + 5 days gestation with an 8-hour history of mild, irregular lower abdominal and low back pain occurring 1–2 times in 10 minutes and lasting less than 20 seconds. Sensation of pelvic heaviness but no significant pelvic pressure, no show, no leakage of fluid, no vaginal bleeding, no fever, and no abnormal vaginal discharge. Fetal movements present and normal. Booked at 16 weeks with regular antenatal attendance. Booking PCV 33%, blood group B positive, genotype AA, HIV negative. Previous obstetric history: one uncomplicated term SVD in 2022. Examination reveals a young woman who is comfortable at rest and not in obvious distress. Haemodynamically stable (BP 108/68 mmHg, PR 86 bpm, temperature 36.7°C). SFH 31 cm (appropriate for gestational age). Uterus relaxed between contractions with no tenderness. Occasional mild uterine contractions (not regular). FHR 142 bpm (reassuring). Cervix posterior, firm, uneffaced, and closed — a completely unfavourable cervix with no evidence of cervical change. Diagnosis: threatened preterm labour at 32 weeks + 5 days. The absence of cervical dilatation or effacement distinguishes this from established preterm labour. Admission for close observation, exclusion of precipitating causes, antenatal corticosteroids given the gestational age and the risk of progression, and patient education is the appropriate management.',
+  summary: 'Mrs K.A., a 25-year-old booked G2P1+0 at 32+5 weeks, presented with 8 hours of mild irregular lower abdominal/back pain and pelvic heaviness. No show, liquor drainage, bleeding, fever, or discharge; fetal movements normal. Stable vitals, mild irregular contractions, FHR 142 bpm. Cervix closed, firm, posterior, and uneffaced. Impression: threatened preterm labour. Plan: admission, observation, exclude precipitating causes, antenatal corticosteroids, and patient education.',
   content: `
 Mrs K.A., a 25-year-old booked G2P1+0 (1 alive) seamstress, resident in Ilorin, Kwara State, Muslim, Yoruba, married in a monogamous setting, with secondary level education.
 
@@ -50167,9 +50148,6 @@ No family history of preterm delivery
 Married in a monogamous setting
 Does not smoke or take alcohol
 No use of herbal medications
-
-OBSTETRIC SUMMARY
-A 25-year-old G2P1+0 woman at 32 weeks + 5 days gestation presenting with mild irregular uterine contractions and a completely unfavourable cervix — consistent with threatened preterm labour rather than established preterm labour, requiring observation, exclusion of precipitating causes, antenatal corticosteroids, and close monitoring for progression.
 
 PHYSICAL EXAMINATION
 
@@ -50723,7 +50701,7 @@ Counsel on warning signs including worsening contractions, vaginal bleeding, liq
   ],
   contributor: 'Admin',
   lastModified: '2026-05-04',
-  summary: 'Mrs T.O., a 29-year-old booked G3P1+1 (1 alive) trader presenting at 34 weeks + 1 day gestation with a 12-hour history of progressively worsening lower abdominal and low back pain, now occurring 3–4 times in 10 minutes and lasting 40–50 seconds, with a bloody show 4 hours prior and an urge to bear down. No leakage of fluid, no vaginal bleeding, no fever. Fetal movements present and normal. Booked at 15 weeks with regular antenatal attendance. Booking investigations: PCV 31%, blood group O positive, genotype AS, HIV negative. Previous obstetric history: one uncomplicated term SVD in 2018 and a first trimester miscarriage managed with MVA in 2021. Examination reveals a woman in moderate painful distress, haemodynamically stable (BP 112/70 mmHg, PR 94 bpm, temperature 36.8°C). SFH 33 cm (consistent with gestational age). Contractions 3–4 in 10 minutes lasting 40–50 seconds, moderate intensity, no uterine tenderness. FHR 146 bpm (reassuring). Cervix soft, anterior, 70% effaced, and 4 cm dilated with an intact bulging membranes and cephalic presenting part at station -1. Pelvis clinically adequate. Diagnosis: established preterm labour with intact membranes at 34 weeks + 1 day in a multiparous woman. Tocolysis is appropriate to gain 48 hours for corticosteroid benefit. Requires antenatal corticosteroids, tocolysis, magnesium sulphate, and preparation for delivery.',
+  summary: 'Mrs T.O., a 29-year-old booked G3P1+1 at 34+1 weeks, presented with 12 hours of worsening lower abdominal/back pain, bloody show, and urge to bear down. No liquor drainage, bleeding, or fever; fetal movements normal. Stable vitals, contractions 3–4/10 minutes, FHR 146 bpm. Cervix 4 cm dilated, 70% effaced, intact bulging membranes. Impression: established preterm labour. Plan: corticosteroids, tocolysis, magnesium sulphate, and prepare for delivery.',
   content: `
 Mrs T.O., a 29-year-old booked G3P1+1 (1 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, with secondary level education.
 
@@ -50779,9 +50757,6 @@ No family history of preterm delivery
 Married in a monogamous setting
 Does not smoke or take alcohol
 No use of herbal medications
-
-OBSTETRIC SUMMARY
-A 29-year-old G3P1+1 multiparous woman at 34 weeks + 1 day gestation presenting with established preterm labour with intact membranes, a reassuring fetal heart rate, and no clinical evidence of infection — suitable for tocolysis to gain a 48-hour window for corticosteroid benefit while preparing for delivery.
 
 PHYSICAL EXAMINATION
 
@@ -51328,6 +51303,1011 @@ If labour progresses despite tocolysis, prepare for vaginal delivery
 Intrapartum GBS prophylaxis if delivery imminent: IV Benzylpenicillin 3 g stat then 1.5 g 4-hourly until delivery
 Active management of third stage with Oxytocin 10 IU IM/slow IV
 Counselled on diagnosis, possible NICU admission, warning signs, and possibility of delivery if labour progresses
+`,
+  bookmarkCount: 0
+},
+
+  // General Outpatient
+{
+  id: 'gopd-1',
+  title: 'Acute Urinary Tract Infection in a Young Adult Male',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Urology',
+  condition: 'Acute lower urinary tract infection in a young adult male',
+  symptoms: [
+    'Painful urination',
+    'Increased urinary frequency with urgency',
+    'Suprapubic discomfort',
+    'Cloudy and occasionally foul-smelling urine',
+    'Mild suprapubic tenderness on examination',
+    'No fever, no loin pain, no costovertebral angle tenderness',
+    'No urethral discharge, no genital ulcers',
+    'No obstructive voiding symptoms'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-05-11',
+  summary: 'Mr O.A., a 27-year-old undergraduate, presented with dysuria, urinary frequency, urgency, cloudy foul-smelling urine, and suprapubic discomfort. He was afebrile with mild suprapubic tenderness and no flank pain or urethral discharge. Impression: complicated urinary tract infection in a young male. Plan: urine MCS before antibiotics, empirical antimicrobial therapy, and evaluation for underlying structural or functional urinary abnormalities.',
+  content: `
+Mr O.A., a 27-year-old single male undergraduate, resident in Lagos, Christian, Yoruba.
+
+PRESENTING COMPLAINTS
+Painful urination × 5 days
+Increased urinary frequency × 5 days
+Lower abdominal discomfort × 3 days
+
+HISTORY OF PRESENTING COMPLAINT
+The patient was apparently well until about 5 days prior to presentation when he developed painful urination, described as a burning sensation occurring during micturition, present throughout the entire act of voiding, and not relieved by completing the void. 
+
+About the same time, he also noticed increased urinary frequency — passing urine more often than usual, often in small volumes, with urgency.
+
+Approximately 3 days prior to presentation, he began to experience lower abdominal discomfort localised to the suprapubic region. The discomfort was dull, non-radiating, and of mild to moderate intensity, with no identifiable aggravating or relieving factors.
+
+He also noticed that his urine had become cloudy and occasionally foul-smelling. There is no history of visible haematuria.
+
+There is no history of fever, chills, or rigors. There is no history of loin or flank pain. The abdominal discomfort is not colicky and does not radiate to the groin or genitalia. No nausea or vomiting.
+
+He has no difficulty initiating urination, no weak urinary stream, no intermittency, no straining, and no sensation of incomplete bladder emptying. He has voided spontaneously without suprapubic distension. There is no urethral discharge, no penile itching, no genital ulcers, no testicular pain or swelling, and no dysuria following sexual intercourse.
+
+He is sexually active with a single partner and reports consistent condom use. No history of recent change of sexual partner and no prior history of sexually transmitted infections. No history of recent urinary catheterisation or urological instrumentation.
+
+PAST MEDICAL HISTORY
+No history of diabetes mellitus, hypertension, or renal disease
+No prior history of urinary tract infections
+
+DRUG HISTORY
+No recent antibiotic use
+No known drug allergies
+
+FAMILY HISTORY
+Non-contributory
+
+SOCIAL HISTORY
+Undergraduate student, resident in Lagos
+Does not smoke cigarettes or take alcohol
+Maintains fair personal hygiene
+
+REVIEW OF SYSTEMS
+No weight loss, no night sweats, no other constitutional symptoms
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young man, not in distress
+Afebrile (36.8°C)
+Not pale, not icteric
+Not dehydrated
+No pedal oedema
+
+Vital Signs:
+Temperature: 36.8°C (afebrile)
+Pulse: 76 bpm (normal)
+BP: 118/72 mmHg (normal)
+Respiratory rate: 16 cpm (normal)
+
+Abdominal Examination:
+Abdomen soft, moves with respiration
+Mild suprapubic tenderness on palpation
+No guarding or rebound tenderness
+No palpable masses
+Kidneys not ballotable bilaterally
+
+Costovertebral Angle Tenderness:
+Absent bilaterally — an important negative finding; its presence would indicate upper urinary tract involvement (pyelonephritis or perinephric abscess)
+
+Genitourinary Examination:
+External genitalia: normal appearance
+No urethral discharge
+Testes: normal size, non-tender, no epididymal tenderness or swelling
+No scrotal masses, no varicocele noted
+
+ASSESSMENT
+
+Acute urinary tract infection in a young adult male — classified as complicated UTI until proven otherwise
+
+Diagnosis based on:
+
+Definition and diagnostic criteria for urinary tract infection (UTI):
+UTI is defined as the presence of a significant number of microorganisms (typically greater than or equal to 10⁵ colony-forming units per ml of a single pathogen, though lower counts of 10³–10⁴ CFU/ml may be significant in symptomatic males) in the urinary tract, associated with clinical symptoms of infection
+Symptomatic lower UTI (cystitis): dysuria, frequency, urgency, and suprapubic discomfort — all present in this patient
+The diagnosis requires microbiological confirmation (urine MCS) before definitive management — empirical treatment is started while results are awaited
+
+This patient's symptoms applied:
+Burning dysuria (present throughout voiding — classic of cystitis involving the bladder mucosa and urethra)
+Increased urinary frequency with urgency (bladder mucosal inflammation reduces effective bladder capacity and triggers uninhibited detrusor contractions)
+Suprapubic discomfort (referred pain from the inflamed bladder base)
+Cloudy, foul-smelling urine (pyuria and bacteriuria; the cloudiness reflects leucocytes and bacteria; the odour reflects bacterial metabolic by-products, particularly from gram-negative organisms producing urease)
+
+Why UTI in a young adult male is classified as complicated:
+In adult women, uncomplicated UTI refers to infection in an otherwise healthy female with a normal urinary tract — this is the most common UTI presentation globally
+UTI in males aged 15–50 years is uncommon because:
+The male urethra is approximately 20 cm long (compared with 3–4 cm in women), creating a substantial anatomical barrier to ascending infection
+The prostate produces prostatic fluid with antibacterial properties (zinc, spermine, lysozyme)
+The male bladder does not share proximity with the perianal region and vaginal flora as in women
+When UTI does occur in a young male, it implies that one or more of the protective anatomical and physiological barriers has been compromised, making it a complicated UTI by definition:
+A complicated UTI is one that occurs in a host with a structural abnormality, functional impairment, metabolic disturbance, or immunological compromise that predisposes to infection, increases the risk of treatment failure, or increases the risk of serious complications
+
+Possible predisposing causes that must be systematically excluded:
+
+Urethral stricture or obstruction:
+A stricture narrows the urethra, causing incomplete bladder emptying (residual urine), which creates a static medium for bacterial growth
+Clinical clues: weak urinary stream, straining to void, intermittency, prolonged voiding time
+This patient: denies all obstructive symptoms; a stricture is less likely but must be formally excluded by measuring post-void residual urine on ultrasound and by urine flow rate assessment if facilities allow
+Causes of stricture in a young Nigerian male: prior gonococcal urethritis (most common cause of urethral stricture in sub-Saharan Africa), traumatic catheterisation, perineal trauma
+Important in this patient: he denies prior STIs but this should be confirmed — a prior episode of gonorrhoea may have been subclinical or managed by self-medication and led to a stricture without his awareness
+
+Posterior urethral valves (PUV):
+Congenital obstructive membranes at the level of the posterior urethra — the most common cause of obstructive uropathy in males
+Most PUV cases are diagnosed in childhood (recurrent UTI, poor urinary stream in boys)
+In mild cases, the obstruction is incomplete and presentation may be delayed to adolescence or early adulthood
+Clinical clues: history of UTI in childhood, recurrent UTI, weak stream since childhood
+This patient: no such history — PUV is less likely but ultrasound will assess residual urine and bladder morphology
+
+Urinary calculus (urolithiasis):
+A stone in the bladder or lower ureter can obstruct urine flow, create a nidus for bacterial colonisation, and cause recurrent UTI
+Clinical clue: colicky loin-to-groin pain (absent here), haematuria (absent), intermittent symptoms
+Less likely in this patient without haematuria or colicky pain, but ultrasound and urinalysis will exclude
+
+Bladder diverticulum:
+Outpouching of the bladder mucosa through the muscular wall — creates a stagnant pool of urine that does not empty with voiding; a classic nidus for recurrent UTI
+Usually associated with bladder outlet obstruction (prostatic enlargement, urethral stricture) or as a congenital anomaly
+Ultrasound or cystoscopy will identify
+
+Prostatitis:
+Bacterial infection of the prostate — a common and frequently missed cause of UTI symptoms in young men
+Types:
+Acute bacterial prostatitis: fever, rigors, perineal pain, exquisitely tender boggy prostate on digital rectal examination (DRE), systemic sepsis features; the patient is systemically unwell
+Chronic bacterial prostatitis: recurrent UTI caused by bacteria persisting in the prostate despite antibiotic treatment of the bladder component; perineal discomfort; episodes of exacerbation and remission
+Chronic pelvic pain syndrome (CPPS): the most common form in young men; no documented bacterial infection; perineal, lower abdominal, or scrotal pain; may mimic UTI symptoms
+Assessment in this patient: no fever, no perineal pain, no systemic features — acute prostatitis is less likely; chronic prostatitis or CPPS cannot be excluded on clinical grounds alone; digital rectal examination is required to assess prostatic size, consistency, and tenderness
+DRE in this patient: a tender, possibly boggy or indurated prostate on DRE would support bacterial prostatitis; a normal prostate does not exclude CPPS; prostate-specific antigen (PSA) is elevated in acute prostatitis and can guide diagnosis
+Note: DRE should be performed gently in suspected prostatitis — vigorous massage can cause bacteraemia
+
+Sexually transmitted infections (urethritis from STI):
+Urethritis from Neisseria gonorrhoeae or Chlamydia trachomatis causes dysuria, frequency, and urethral discharge
+This patient: denies urethral discharge and denies prior STIs; consistent condom use reduces but does not eliminate STI risk
+Important caveat: urethritis from STI does not always produce visible discharge — subclinical or early gonococcal or chlamydial urethritis can present with dysuria alone
+Distinction from UTI: STI-related urethritis typically does NOT cause pyuria on standard dipstick (or causes only mild pyuria); urine culture is negative for uropathogens; NAAT (nucleic acid amplification test) for Neisseria gonorrhoeae and Chlamydia trachomatis will be positive
+This patient should have STI screening given his age and sexual activity, even with reported condom use — partner notification is also required if an STI is identified
+Practical note: NAAT testing is available at some Nigerian tertiary hospitals (LUTH, UCH, ABUTH) and most private molecular laboratories in Lagos; it is the gold standard; if unavailable, urethral swab for Gram stain (intracellular gram-negative diplococci = gonorrhoea) and culture is an acceptable alternative
+
+Diabetes mellitus:
+Undiagnosed diabetes causes glucosuria — glucose in the urine serves as a rich growth medium for bacteria
+Diabetic patients also have impaired leucocyte function (impaired chemotaxis, phagocytosis) and autonomic neuropathy causing incomplete bladder emptying (neurogenic bladder) — both increase UTI risk
+Fasting blood glucose and HbA1c must be measured in any young male presenting with an apparently uncomplicated UTI
+This patient: no prior diagnosis of diabetes, no polyuria, no polydipsia, no weight loss — but subclinical diabetes is common in the Nigerian population and must be excluded
+
+Immunosuppression:
+HIV infection reduces CD4-mediated immune surveillance, increasing susceptibility to opportunistic and common infections including UTI
+HIV status should be assessed by point-of-care rapid test with pre- and post-test counselling
+Practical note: HIV rapid testing is available at all Nigerian hospitals through the PEPFAR-supported PMTCT and VCT programmes
+
+Anatomical variants:
+Horseshoe kidney, renal or ureteric duplication, and other congenital anomalies can be associated with recurrent UTI
+Ultrasound will identify major structural variants
+
+Classification of the infection in this patient — localising the site:
+
+Lower UTI (cystitis — most likely):
+Dysuria, frequency, urgency, suprapubic tenderness — all features of bladder involvement
+No loin pain, no costovertebral angle tenderness, no fever, no rigors — upper tract involvement (pyelonephritis) is not clinically apparent
+However: the absence of systemic features does not completely exclude early or subclinical upper tract involvement in a male patient — urine culture, serum creatinine, and clinical monitoring will clarify
+
+Upper UTI (pyelonephritis — less likely but cannot be fully excluded):
+If fever, loin pain, or costovertebral angle tenderness were present: pyelonephritis would need to be managed more aggressively (IV antibiotics, hospitalisation)
+Currently excluded clinically — but must be monitored for during the treatment period (failure to defervesce or new fever after starting antibiotics should prompt upper tract imaging)
+
+The common causative organisms in male UTI in Nigeria:
+Escherichia coli: the most common uropathogen (50–80% of community-acquired UTI in Nigeria and globally); gram-negative rod; ferments lactose; produces the characteristic cloudy, foul-smelling urine seen in this patient
+Klebsiella pneumoniae: second most common; gram-negative rod; particularly virulent in diabetic patients; associated with hospital-acquired UTI and urinary tract abnormalities
+Staphylococcus saprophyticus: gram-positive; the second most common cause of UTI in young adults, mainly in sexually active young women; associated with sexual activity
+Proteus mirabilis: gram-negative; produces urease → splits urea → alkaline urine → risk of struvite stone formation; associated with urinary tract abnormalities and instrumentation
+Enterococcus faecalis: gram-positive; associated with structural abnormalities and hospital-acquired UTI
+Pseudomonas aeruginosa: gram-negative; associated with structural abnormalities, indwelling catheters, and antibiotic-resistant infections
+Note on antimicrobial resistance in Nigeria: empirical antibiotic choice must account for the high prevalence of extended-spectrum beta-lactamase (ESBL)-producing E. coli and Klebsiella in Nigerian communities; Ampicillin resistance rates exceed 80% in community-acquired E. coli UTI in many Nigerian studies; Cotrimoxazole (Trimethoprim-Sulfamethoxazole) resistance is approximately 50%; Fluoroquinolone resistance is increasing; this underscores the importance of urine MCS before definitive antibiotic selection
+
+Differential diagnoses:
+
+Urethritis from sexually transmitted infection (gonorrhoea or chlamydia):
+Presents with dysuria, frequency, and urethral discharge (though discharge may be absent or subclinical)
+Key distinction: urine culture negative for uropathogens; NAAT positive for Neisseria gonorrhoeae and/or Chlamydia trachomatis
+This patient: no visible discharge; consistent condom use; STI screening will formally exclude
+Both UTI and STI can coexist — urine MCS and NAAT should both be sent
+
+Prostatitis (bacterial or chronic pelvic pain syndrome):
+Dysuria, frequency, perineal or suprapubic discomfort in a young male is a classic presentation of prostatitis
+Acute bacterial prostatitis: fever, systemic illness, exquisitely tender boggy prostate on DRE — absent here
+Chronic bacterial prostatitis or CPPS: more insidious; normal or mildly tender prostate; may have normal urine MCS between flares
+DRE and expressed prostatic secretions (EPS) culture will help distinguish
+Important: if prostatitis is confirmed, antibiotic choice must achieve adequate prostatic tissue penetration (fluoroquinolones are the preferred class for prostatic penetration — see treatment below)
+
+Bladder calculus:
+Can cause dysuria, frequency, and suprapubic discomfort
+Classic additional features: terminal haematuria (blood at the end of the urinary stream as the stone traumatises the bladder neck), interruption of urinary stream by movement of the stone
+Absent in this patient; ultrasound will exclude
+
+Acute epididymo-orchitis:
+Testicular and epididymal infection causing scrotal pain, swelling, and tenderness — can cause dysuria and frequency if associated with urethritis
+Excluded: no testicular or epididymal tenderness on examination, no scrotal swelling
+
+Cystitis from bladder diverticulum or tumour:
+Mass lesion within the bladder causing irritative voiding symptoms
+Less likely in a 27-year-old without haematuria
+Ultrasound and, if necessary, cystoscopy will exclude
+
+Interstitial cystitis (painful bladder syndrome):
+Chronic, non-infectious bladder inflammation causing persistent dysuria, frequency, urgency, and suprapubic pain
+Typically: urine culture consistently negative; symptoms chronic and recurring; predominantly affects women but can occur in men
+Less likely as a first presentation — exclude bacterial UTI first; if cultures are consistently negative and symptoms persist, consider referral to urology
+
+PLAN
+
+The patient can be managed as an outpatient provided: no fever or systemic sepsis features, no upper tract involvement, able to tolerate oral medications, reliable for follow-up, and adequate access to a pharmacy.
+
+Investigations
+
+Urine dipstick (point of care — immediate):
+Leucocytes: positive in UTI (white cells in the urine indicating infection or inflammation)
+Nitrites: positive if gram-negative bacteria are present (E. coli and Klebsiella reduce dietary nitrates to nitrites); useful screening tool; a negative nitrite does not exclude UTI (gram-positive organisms and some gram-negatives do not produce nitrites)
+Protein: mildly elevated in UTI (inflammatory response); significantly elevated protein suggests renal parenchymal disease
+Blood: haematuria may be present even without visible bleeding in cystitis (microscopic haematuria); gross haematuria in the context of UTI in a male must prompt upper tract imaging
+Glucose: glycosuria supports undiagnosed diabetes mellitus
+Practical note: urine dipstick strips are available at all Nigerian hospitals; a critical and inexpensive investigation that guides immediate management
+
+Urine microscopy, culture, and sensitivity (MCS) — the most critical investigation:
+Collection: midstream clean-catch urine sample
+Method: the patient is instructed to clean the urethral meatus, discard the first portion of urine, and collect the midstream portion in a sterile container — reduces contamination with periurethral flora
+Send before starting antibiotics: antibiotic administration within 12 hours of urine collection significantly reduces culture yield and may produce a false-negative result; it is essential that the urine sample is collected before the first antibiotic dose
+Microscopy: red blood cells, white blood cells (pyuria — greater than 10 WBC per high-power field is significant), casts (red cell casts indicate glomerulonephritis; WBC casts indicate pyelonephritis), bacteria (rod versus cocci morphology guides empirical choice while awaiting culture)
+Culture: identifies the causative organism with certainty; significant bacteriuria is defined as greater than or equal to 10⁵ CFU/ml (though in symptomatic males, lower counts of 10³–10⁴ CFU/ml are considered clinically significant)
+Sensitivity (antibiogram): provides the minimum inhibitory concentration (MIC) for each antibiotic tested; guides de-escalation from empirical to targeted therapy; critical given the high antibiotic resistance rates in Nigeria
+Results: expected in 48–72 hours; adjust antibiotics accordingly
+Practical note: urine MCS is available at all Nigerian tertiary hospitals; most secondary hospitals; some primary health centres with basic laboratory services; the patient should be instructed not to start any antibiotic until after providing the sample
+
+Full blood count:
+WBC and differential: leucocytosis with neutrophilia supports systemic infection (if present, reconsider whether this is truly lower UTI only, or whether there is early upper tract involvement)
+Haemoglobin: baseline; haemolysis from E. coli producing haemolysins can cause mild anaemia in severe UTI
+Platelet count: baseline
+
+Serum electrolytes, urea, and creatinine:
+Baseline renal function — essential in any urinary tract pathology
+Elevated creatinine: suggests renal impairment, which may indicate upper tract involvement, pre-existing renal disease, or obstructive uropathy with hydronephrosis
+Practical note: available at all Nigerian tertiary hospitals
+
+Fasting blood glucose and HbA1c:
+Must be measured in every male with a first episode of UTI — undiagnosed diabetes must be excluded
+Fasting blood glucose greater than or equal to 7.0 mmol/L (126 mg/dL) on two occasions: confirms diabetes mellitus
+HbA1c greater than or equal to 6.5% (48 mmol/mol): confirms diabetes mellitus (single measurement sufficient)
+Practical note: fasting blood glucose is available at all Nigerian facilities; HbA1c is available at most teaching hospitals and private laboratories
+
+HIV rapid test (with pre-test counselling):
+Perform with informed consent
+HIV status is essential in a young male with UTI — immunosuppression from HIV is a recognised predisposing factor
+If reactive: confirm with Western Blot or second-generation ELISA; refer to the infectious disease or HIV clinic; initiate HAART after staging (CD4 count, viral load)
+Practical note: HIV rapid tests (WHO-approved first-line tests) are available at all Nigerian hospitals through VCT and PEPFAR programmes
+
+STI screening:
+NAAT (nucleic acid amplification test) for Neisseria gonorrhoeae and Chlamydia trachomatis: the gold standard; can be performed on a first-void urine specimen (the first 10–20 ml of urine, not midstream); first-void urine has the highest yield for urethral organisms compared with midstream urine
+Practical note: NAAT is available at most Lagos tertiary hospitals (LUTH, Lagos Island General Hospital) and private molecular diagnostic laboratories in Lagos; relatively expensive; if unavailable, a urethral swab for Gram stain (intracellular gram-negative diplococci = gonorrhoea) and Chlamydia-specific immunofluorescence or culture is an alternative
+Serology: VDRL or RPR for syphilis (Treponema pallidum — another STI to screen for in a sexually active young man); Hepatitis B surface antigen; Hepatitis C antibody
+These are offered alongside the NAAT as part of a comprehensive sexual health screen
+
+Abdominopelvic ultrasound:
+Assess kidney morphology (exclude hydronephrosis — dilated collecting system suggesting obstruction), echogenicity (chronic renal disease), and size (symmetrical reduction in size in chronic kidney disease)
+Assess the bladder: wall thickness (thickened wall suggests chronic outlet obstruction), post-void residual (PVR) — normal PVR is less than 50 ml; PVR greater than 100 ml indicates clinically significant retention and supports outlet obstruction (urethral stricture, bladder neck pathology, PUV); PVR 50–100 ml is borderline; measure at two separate occasions if borderline
+Assess for bladder diverticula, bladder stones (calculi appear as echogenic foci with acoustic shadowing)
+Assess the prostate: size (transabdominal assessment of a 27-year-old prostate is limited — the normal prostate weighs approximately 20 g at this age; significant enlargement suggests prostatic pathology) and echogenicity
+Assess the kidneys for calculi, cysts, or structural anomalies
+Practical note: abdominopelvic ultrasound is widely available at all Nigerian tertiary and secondary hospitals and most private diagnostic centres
+
+Urine flow rate measurement and post-void residual (uroflowmetry):
+If obstructive voiding symptoms are identified on clinical review or if post-void residual is elevated on ultrasound: formal uroflowmetry assesses maximum flow rate (Qmax) and pattern
+Normal Qmax: greater than 15 ml per second
+Reduced Qmax: suggests outlet obstruction or detrusor failure
+Available at teaching hospitals with urology units; may require referral to urology
+Practical note: available at LUTH, UCH, ABUTH, and selected private urology centres in Nigeria
+
+Treatment
+
+Step 1 — Collect urine MCS before starting antibiotics (mandatory):
+The urine sample must be collected first — antibiotic treatment should not begin until the sample is collected
+This can be done at the outpatient clinic before departure: the patient collects the sample, it is labelled and sent to the laboratory, and the first antibiotic dose is then taken
+
+Step 2 — Empirical antibiotic therapy:
+
+Rationale for antibiotic selection in Nigerian community-acquired male UTI:
+The antibiotic chosen must: (a) achieve high urinary concentrations, (b) cover the most likely organisms (E. coli, Klebsiella, Staphylococcus saprophyticus), (c) account for local resistance patterns in Nigeria (high Ampicillin resistance greater than 80%, moderate Cotrimoxazole resistance approximately 50%, increasing Ciprofloxacin resistance in some studies), and (d) achieve adequate tissue penetration if prostatitis is suspected
+
+First-line empirical choice — Ciprofloxacin (fluoroquinolone):
+Oral Ciprofloxacin 500 mg every 12 hours for 7–14 days (7 days if simple lower UTI confirmed; 14 days if prostatitis is suspected or confirmed — fluoroquinolones achieve excellent prostatic tissue penetration, with prostatic concentrations exceeding serum concentrations)
+Ciprofloxacin covers gram-negative rods (E. coli, Klebsiella, Proteus) and has activity against Staphylococci; it is bactericidal and achieves very high urinary concentrations (10–100 times the MIC for most uropathogens)
+Rationale for fluoroquinolone selection in a young male: the prostatic penetration makes fluoroquinolones uniquely suited to male UTI where prostatitis cannot be clinically excluded; if this were an uncomplicated female UTI, a shorter course of Nitrofurantoin or Fosfomycin would be preferred; in a male, the fluoroquinolone course is both more appropriate and more comprehensive
+Nigerian resistance caveat: Ciprofloxacin resistance is documented in some Nigerian community settings at approximately 15–30% in recent studies; urine culture sensitivity results must be reviewed at 48–72 hours and the antibiotic changed if the organism is resistant
+Practical note: oral Ciprofloxacin 500 mg tablets are widely available at all Nigerian pharmacy outlets and hospital pharmacies; relatively affordable; available without prescription in many Nigerian settings (a public health concern that contributes to resistance)
+
+Second-line empirical choice — Cefuroxime (second-generation cephalosporin):
+Oral Cefuroxime axetil 250–500 mg every 12 hours for 7–14 days
+Coverage: gram-positive and gram-negative organisms including E. coli and Klebsiella; less active against Pseudomonas and some ESBL-producing organisms
+Preferred over Ampicillin and Amoxicillin given the high resistance rates in Nigeria
+Does not achieve the same prostatic tissue penetration as Ciprofloxacin — less preferred if prostatitis is suspected
+Appropriate if Ciprofloxacin is unavailable, not tolerated, or if the patient has a history of adverse effects to fluoroquinolones
+Practical note: oral Cefuroxime axetil is available at most Nigerian hospital pharmacies and larger community pharmacies
+
+Alternative — Trimethoprim-Sulfamethoxazole (Co-trimoxazole):
+480 mg (80/400 mg) to 960 mg (160/800 mg) every 12 hours for 7–14 days
+Reasonable option if local MCS data from the reference laboratory show sensitivity rates above 70–80% for the local E. coli strains
+High resistance rates in many Nigerian settings (approximately 50%) make it an unreliable empirical choice without prior sensitivity data
+Very inexpensive and widely available — use only if sensitivity is confirmed on MCS results
+
+Do NOT use as empirical treatment:
+Ampicillin or Amoxicillin alone: resistance rates exceed 80% in community-acquired E. coli UTI in Nigeria
+Nitrofurantoin: excellent for uncomplicated female lower UTI; however, it does not achieve adequate tissue concentrations in the prostate or the upper urinary tract — not appropriate for male UTI where upper tract or prostatic involvement cannot be excluded
+Fosfomycin: a single-dose option for uncomplicated female cystitis — not validated for male UTI or complicated UTI
+
+Step 3 — Review and adjust at 48–72 hours:
+When urine MCS results are available: review the antibiotic sensitivity report
+If the organism is sensitive to the current empirical antibiotic: continue for the full course
+If the organism is resistant to the current antibiotic: switch to an antibiotic to which it is sensitive (targeted de-escalation or de-escalation based on the narrowest effective agent)
+Document the organism and its sensitivities clearly — relevant for future management if UTI recurs
+
+If STI is identified on NAAT or swab:
+Gonorrhoea:
+IM Ceftriaxone 500 mg single dose (gold standard — WHO 2022 recommendation following global resistance trends; use 1 g IM if weight greater than 150 kg; some guidelines recommend oral Cefixime 400 mg if IM route is not feasible and susceptibility is documented)
+PLUS oral Azithromycin 1 g single dose (if chlamydia co-infection cannot be excluded or if dual therapy is indicated by local protocol)
+Partner notification: mandatory — the sexual partner must be evaluated and treated
+Practical note: IM Ceftriaxone is available at all Nigerian hospitals; ensure mixing with 1% Lignocaine to reduce injection pain
+
+Chlamydia trachomatis:
+Oral Azithromycin 1 g single dose (most practical and effective single-dose regimen)
+OR oral Doxycycline 100 mg twice daily for 7 days (first-line alternative; slightly superior efficacy for genital chlamydia with the 7-day course over single-dose Azithromycin per BASHH and CDC updated guidelines)
+Partner notification: mandatory
+Practical note: Azithromycin is available at most Nigerian pharmacies; Doxycycline is very widely available and inexpensive
+
+If bacterial prostatitis is confirmed (tender boggy prostate on DRE, elevated PSA, clinical picture):
+Oral Ciprofloxacin 500 mg every 12 hours for 4–6 weeks (the full course is required for acute bacterial prostatitis to penetrate prostatic tissue adequately and prevent chronicity)
+OR oral Ofloxacin 200–400 mg every 12 hours for 4–6 weeks (alternative fluoroquinolone with similar prostatic penetration)
+The 4–6 week course is critically important — under-treatment of bacterial prostatitis leads to chronic bacterial prostatitis and recurrent UTI
+Practical note: Ciprofloxacin tablets are widely available throughout Nigeria; compliance with the full 4–6 week course must be emphasised
+
+Step 4 — If no improvement in 48–72 hours despite appropriate empirical antibiotics:
+Reassess the diagnosis — is this truly UTI or prostatitis, or is there an STI or structural cause?
+Review culture sensitivity results — resistance may explain treatment failure
+Consider hospitalisation for IV antibiotics if the patient develops fever, systemic signs, or worsening symptoms
+IV Ciprofloxacin 400 mg every 12 hours OR IV Ceftriaxone 2 g once daily for initial IV therapy pending further culture guidance
+Urgent urology referral if a structural abnormality is suspected
+
+Supportive and Symptomatic Management
+
+Oral hydration:
+Increase fluid intake to at least 2.5–3 litres of water daily
+Increased urine flow flushes bacteria from the bladder mechanically and dilutes the urine, reducing the concentration of irritants on the urothelium
+Practical note: inexpensive, evidence-based, and effective adjunct; reinforce at every clinical contact
+
+Analgesic and antipyretic:
+Oral Paracetamol 500–1000 mg every 6–8 hours as needed for dysuria, suprapubic discomfort, and any fever
+Safe, widely available, and inexpensive
+NSAIDs (oral Ibuprofen 400 mg every 8 hours with food) can be used for their anti-inflammatory effect on the urothelium if there is no history of peptic ulcer disease, renal impairment, or contraindication — may provide faster symptomatic relief than Paracetamol alone
+Phenazopyridine (urinary analgesic/dye): sometimes used for dysuria relief in UTI; colours the urine orange; note that it does not have antibacterial activity and must not be used as a substitute for antibiotic therapy; available at some Nigerian pharmacies
+
+Personal hygiene advice:
+Clean the genital area daily with clean water and mild soap
+Avoid harsh or scented soap in the genital area (disrupts periurethral flora)
+Void completely at each visit to the toilet — incomplete voiding leaves residual urine as a bacterial growth medium
+Void after sexual intercourse (though the evidence for this is stronger in women, the principle of flushing urethral organisms is sound)
+
+Sexual health advice:
+Continue consistent condom use
+Pending STI screening results: advise the patient to abstain from sexual intercourse or use condoms consistently; if an STI is identified, abstain until both the patient and his partner have completed treatment and symptoms have resolved
+Discuss the importance of partner notification and treatment if an STI is identified
+
+Lifestyle:
+Adequate fluid intake daily
+Avoid caffeinated beverages and alcohol acutely (both are bladder irritants and worsen frequency and urgency)
+Ensure adequate sleep and rest during the acute illness
+
+Follow-Up Plan
+
+Review at 48–72 hours (mandatory):
+This is the most important early follow-up visit
+Assess clinical response: Is dysuria improving? Has frequency reduced? Is suprapubic tenderness less? Has any fever developed?
+Review urine MCS results: adjust antibiotic based on sensitivity results; document the organism and sensitivities
+Review blood results: FBC, electrolytes, creatinine, fasting blood glucose
+If the patient is improving clinically and the antibiotic is appropriate based on sensitivities: continue and complete the course
+If not improving or worsening: reassess (see above)
+
+Review at completion of antibiotic course (7–14 days):
+Assess for complete symptom resolution
+Repeat urine MCS (test of cure): in male UTI, a post-treatment urine culture is more important than in uncomplicated female UTI because:
+Male UTI is classified as complicated — the organism may persist despite clinical improvement if the underlying cause has not been addressed
+A positive post-treatment culture with the same organism indicates treatment failure — requires further investigation (structural abnormality, resistant organism, prostatic reservoir)
+A positive post-treatment culture with a different organism: re-infection from the same underlying structural cause
+Review all investigation results: NAAT, ultrasound, DRE findings, PSA, fasting glucose
+If a structural abnormality is identified: refer to urology for further evaluation (urethroscopy, urethrogram for stricture, urodynamics)
+Note: Repeat urine culture is indicated if symptoms persist, recur, or if resistant organisms/prostatic involvement are suspected.
+
+Urology referral (indications):
+Elevated post-void residual urine (greater than 100 ml)
+Identified structural abnormality on ultrasound (hydronephrosis, bladder diverticulum, calculus)
+Poor flow rate on uroflowmetry
+Recurrent UTI (two or more episodes)
+Evidence of urethral stricture (reduced flow, history of gonococcal urethritis)
+Persistent symptoms after completing appropriate antibiotic therapy
+Confirmed or suspected prostatitis requiring further evaluation (transrectal ultrasound, prostatic biopsy if indicated)
+Practical note: urology units are available at all Nigerian tertiary hospitals; LUTH, UCH, ABUTH, and UITH have well-established urology departments
+
+Counselling
+
+Explanation of the diagnosis:
+A urinary tract infection (UTI) is a bacterial infection affecting the bladder and urethra — the tubes and bladder that are involved in passing urine
+The symptoms he has been experiencing — burning when passing urine, going more often, cloudy urine, and lower abdominal discomfort — are all caused by bacteria irritating the lining of the bladder and urethra
+The infection is treatable with antibiotics, and most men recover fully
+
+Why this is considered a complicated infection:
+UTIs are rare in young men — unlike in women, the male urinary tract has natural protective features that normally prevent infection
+When a young man gets a UTI, there is often an underlying cause that needs to be identified — this might be a narrowing in the urinary passage (stricture), a stone, an infection involving the prostate, or rarely a structural abnormality from birth
+Tests are being done to look for any such underlying cause — if one is found, it must be treated to prevent the infection from recurring
+
+About the antibiotics:
+He must collect the urine sample before taking any antibiotic — this is important because antibiotics can prevent the laboratory from identifying the bacteria causing the infection
+The antibiotic course is being given now to start treating the infection while the laboratory results are being processed
+He must complete the full course of antibiotics even if he feels better — stopping early allows the bacteria to survive and can lead to the infection coming back or becoming resistant to treatment
+Do not share these antibiotics with anyone else
+
+The STI question:
+As part of investigating the cause of the UTI, tests are being done to check for certain sexually transmitted infections that can cause similar symptoms
+This is routine and does not mean the doctor assumes he has an STI — it is a standard investigation in any young man presenting with urinary symptoms
+If an STI is identified: it is treatable; his partner would also need to be tested and treated; there is no need for shame — early diagnosis and treatment prevents serious complications
+
+When to return urgently:
+He must return immediately if any of the following develop:
+Fever (temperature above 38°C) or chills
+Pain in the loin or sides (between the ribs and the hip) — may indicate the infection has spread to the kidneys
+Inability to pass urine
+Significantly worsening symptoms despite starting antibiotics
+Blood in the urine (visible red or pink discolouration)
+Any new symptoms
+
+Importance of follow-up:
+He must return in 2–3 days for review — this is not optional
+The doctor needs to check the urine culture result and confirm that the antibiotic being used will effectively treat his specific infection
+After completing the antibiotic course, he will need a repeat urine test to confirm the infection has been completely eradicated
+
+Fluid intake:
+Increase water intake to at least 2.5 litres daily throughout the course of treatment and for several weeks after recovery
+Adequate hydration helps flush the bacteria from the urinary tract and speeds recovery
+
+PROGNOSIS
+
+With appropriate antibiotic therapy and treatment of any underlying cause:
+Resolution of symptoms expected within 3–7 days of starting effective antibiotics
+Post-treatment urine culture at completion of course: expected to be negative if the causative organism is sensitive to the antibiotic and the course has been completed
+If no underlying structural cause is identified: excellent prognosis; recurrence rate in young men without a structural abnormality is low
+If an underlying cause is identified (stricture, prostatitis, bladder diverticulum): prognosis depends on the successful management of the underlying cause; once the structural abnormality is corrected, recurrence rate falls significantly
+
+Risk of complications without treatment or with inadequate treatment:
+Ascending infection (pyelonephritis): the infection may spread to the kidneys causing fever, loin pain, and potentially bacteraemia and septic shock — a preventable outcome with prompt and complete antibiotic treatment
+Chronic bacterial prostatitis: inadequately treated bacterial prostatitis in a young male leads to a chronic relapsing course with recurrent UTI, perineal discomfort, and sexual dysfunction — requires prolonged fluoroquinolone therapy (4–6 weeks) for cure
+Renal scarring: repeated episodes of pyelonephritis, particularly in the context of a structural abnormality causing vesicoureteral reflux, can cause renal cortical scarring and progressive chronic kidney disease
+Antibiotic resistance from inadequate treatment courses: partial treatment courses select for resistant organisms — completing the full course is essential
+
+FOLLOW-UP
+Review at 48–72 hours to assess clinical response and review urine MCS results; adjust antibiotics based on sensitivities; review FBC, renal function, and fasting blood glucose results; review NAAT and STI screening results when available; clinical assessment for improvement in symptoms. Review at completion of antibiotic course (7–14 days): post-treatment urine MCS for test of cure; review ultrasound findings and DRE documentation; review PSA if performed. Urology referral if: elevated post-void residual, structural abnormality on imaging, poor flow rate, confirmed or suspected prostatitis, or recurrence. HIV clinic referral if HIV reactive. Sexual health clinic referral if STI identified: partner notification and treatment, and follow-up NAAT at 3 months to confirm cure.
+`,
+  documentation: `
+Mr O.A., a 27-year-old single male undergraduate, resident in Lagos, Christian, Yoruba.
+
+PRESENTING COMPLAINTS
+
+Painful urination × 5 days
+Increased urinary frequency × 5 days
+Lower abdominal discomfort × 3 days
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about 5 days prior to presentation when he developed painful urination, described as a burning sensation occurring during micturition, present throughout the entire act of voiding, and not relieved by completing the void. 
+
+About the same time, he also noticed increased urinary frequency — passing urine more often than usual, often in small volumes, with urgency.
+
+Approximately 3 days prior to presentation, he began to experience lower abdominal discomfort localised to the suprapubic region. The discomfort was dull, non-radiating, and of mild to moderate intensity, with no identifiable aggravating or relieving factors.
+
+He also noticed that his urine had become cloudy and occasionally foul-smelling. There is no history of visible haematuria.
+
+There is no history of fever, chills, or rigors. There is no history of loin or flank pain. The abdominal discomfort is not colicky and does not radiate to the groin or genitalia. No nausea or vomiting.
+
+He has no difficulty initiating urination, no weak urinary stream, no intermittency, no straining, and no sensation of incomplete bladder emptying. He has voided spontaneously without suprapubic distension. There is no urethral discharge, no penile itching, no genital ulcers, no testicular pain or swelling, and no dysuria following sexual intercourse.
+
+He is sexually active with a single partner and reports consistent condom use. No history of recent change of sexual partner and no prior history of sexually transmitted infections. No history of recent urinary catheterisation or urological instrumentation.
+
+PAST MEDICAL HISTORY
+
+No history of diabetes mellitus, hypertension, or renal disease
+No prior history of urinary tract infections
+
+DRUG HISTORY
+
+No recent antibiotic use
+No known drug allergies
+
+FAMILY HISTORY
+
+Non-contributory
+
+SOCIAL HISTORY
+
+Does not smoke cigarettes or take alcohol
+Maintains fair personal hygiene
+
+REVIEW OF SYSTEMS
+
+No weight loss, no night sweats, no other constitutional symptoms
+
+PHYSICAL EXAMINATION
+General Examination:
+
+Young man, not in distress
+Afebrile (36.8°C)
+Not pale, not icteric
+Not dehydrated
+No pedal oedema
+
+Vital Signs:
+
+Temperature: 36.8°C (afebrile)
+Pulse: 76 bpm (normal)
+BP: 118/72 mmHg (normal)
+Respiratory rate: 16 cpm (normal)
+
+Abdominal Examination:
+
+Abdomen soft, moves with respiration
+Mild suprapubic tenderness on palpation
+No guarding or rebound tenderness
+No palpable masses
+Kidneys not ballotable bilaterally
+
+Costovertebral Angle Tenderness:
+
+Absent bilaterally
+
+Genitourinary Examination:
+
+External genitalia: normal appearance
+No urethral discharge
+Testes: normal size, non-tender, no epididymal tenderness or swelling
+No scrotal masses, no varicocele noted
+
+ASSESSMENT
+
+Acute urinary tract infection in a young adult male — classified as complicated UTI until proven otherwise
+
+PLAN 
+Urine MCS sent prior to antibiotics
+Commence empirical oral Ciprofloxacin 500 mg 12-hourly (7–14 days)
+Adequate oral hydration advised
+Analgesia: Paracetamol 1 g 8-hourly PRN
+Request FBC, U&E/creatinine, FBS ± HbA1c, HIV screening, STI screen (NAAT GC/CT where available)
+Abdominopelvic ultrasound (renal tract, bladder, PVR assessment)
+Review in 48–72 hours with urine MCS results and clinical response
+Adjust antibiotics based on culture and sensitivity
+Urology review if abnormal imaging, poor response, or recurrent symptoms
+Educate patient on medication adherence and red flags (fever, flank pain, urinary retention, worsening symptoms)
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'gopd-02',
+  title: 'Acute Uncomplicated Lower Urinary Tract Infection in a Young Woman',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Nephrology',
+  condition: 'Acute uncomplicated lower urinary tract infection (acute cystitis) in an otherwise healthy young woman',
+  symptoms: [
+    'Burning dysuria',
+    'Increased urinary frequency with urgency',
+    'Suprapubic pain',
+    'Cloudy and occasionally foul-smelling urine',
+    'Mild suprapubic tenderness on examination',
+    'No fever, no loin pain, no costovertebral angle tenderness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-05-11',
+  summary: 'Miss A.T., a 24-year-old single female undergraduate presenting with a 4-day history of burning dysuria, increased urinary frequency with urgency, and a 3-day history of suprapubic pain with cloudy, foul-smelling urine. Afebrile, haemodynamically stable, with mild suprapubic tenderness and absent costovertebral angle tenderness. No fever, no loin pain, no vaginal discharge. Diagnosis: acute uncomplicated lower urinary tract infection. Managed as an outpatient.',
+  content: `
+Miss A.T., a 24-year-old single female undergraduate, resident in Lagos, Christian, Yoruba. Resides in a hostel.
+
+PRESENTING COMPLAINTS
+Painful urination × 4 days
+Increased urinary frequency × 4 days
+Lower abdominal pain × 3 days
+
+HISTORY OF PRESENTING COMPLAINT
+She was apparently well until about 4 days prior to presentation when she developed burning dysuria occurring throughout the act of micturition.
+
+About the same time, she also noticed urinary frequency — passing urine more often than usual, in small volumes, with urgency.
+
+About 3 days prior to presentation, she developed dull suprapubic pain of mild to moderate intensity with no radiation. She noticed her urine had become cloudy and occasionally foul-smelling. No visible haematuria.
+
+No fever, chills, rigors, loin or flank pain, nausea, or vomiting. No obstructive voiding symptoms. She occasionally delays voiding while attending lectures.
+
+Menstrual history: regular 28-day cycles, 4–5 days flow, moderate. LMP 2 weeks prior to presentation. No abnormal vaginal discharge, no vulval itching, no dyspareunia, no postcoital bleeding, no intermenstrual bleeding.
+
+Sexually active with a single partner. No recent change in sexual partner, no prior STIs, no spermicide use. No recent urinary catheterisation or instrumentation.
+
+PAST MEDICAL HISTORY
+No diabetes mellitus, hypertension, sickle cell disease, or chronic renal disease
+No prior history of recurrent urinary tract infections
+
+DRUG HISTORY
+No recent antibiotic use
+No known drug allergies
+
+FAMILY HISTORY
+No family history of renal disease or diabetes mellitus
+
+SOCIAL HISTORY
+Undergraduate student, hostel resident
+Occasionally delays voiding during lectures
+Does not smoke or take alcohol
+Personal hygiene is fair
+
+REVIEW OF SYSTEMS
+No cough, chest pain, weight loss, night sweats, leg swelling, or change in bowel habits
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, conscious and not in obvious distress
+Afebrile (36.8°C)
+Not pale, not icteric, acyanosed
+Not dehydrated
+No pedal oedema, no significant peripheral lymphadenopathy
+
+Vital Signs:
+Temperature: 36.8°C (afebrile)
+Pulse rate: 78 bpm, regular, good volume
+Blood pressure: 110/70 mmHg (normal)
+Respiratory rate: 16 cpm (normal)
+
+Abdominal Examination:
+Abdomen flat, soft, moves with respiration
+Mild suprapubic tenderness on palpation
+No guarding or rebound tenderness
+No palpable masses
+Kidneys not ballotable
+No suprapubic fullness
+
+Costovertebral Angle Tenderness:
+Absent bilaterally — excludes upper urinary tract involvement at this examination
+
+Pelvic Examination:
+External genitalia appear normal
+No abnormal vaginal discharge
+Cervix healthy, no cervical motion tenderness
+
+ASSESSMENT
+
+Acute uncomplicated lower urinary tract infection (acute cystitis) in an otherwise healthy young woman
+
+Diagnosis based on:
+
+Uncomplicated UTI — definition and application to this patient:
+An uncomplicated UTI is a lower urinary tract infection occurring in a non-pregnant woman with a normal urinary tract, normal renal function, and no predisposing structural, functional, or metabolic abnormality
+This patient meets all criteria: female, non-pregnant (LMP 2 weeks ago, cycle regular), no prior UTIs, no diabetes, no structural abnormality, and no immunosuppression
+Uncomplicated UTI is one of the most common bacterial infections in women — approximately 50% of women experience at least one episode in their lifetime; recurrence within 12 months occurs in approximately 25–30%
+
+Why UTI is common in women:
+The female urethra is approximately 3–4 cm long, compared with 20 cm in males — the short urethra allows colonising periurethral organisms (predominantly bowel flora) to ascend to the bladder readily
+The proximity of the urethral meatus to the anus and vagina exposes it to faecal and vaginal flora
+Sexual activity causes mechanical translocation of periurethral bacteria into the bladder (post-coital bacteriuria)
+Oestrogen maintains the normal Lactobacillus-dominant vaginal flora and urethral mucosal integrity — in this premenopausal woman, oestrogen levels are adequate
+
+Precipitating factors identified in this patient:
+Voiding delay: habitual delay of voiding during lectures allows bacteria that have entered the bladder to replicate for longer periods rather than being flushed out with regular voiding — a modifiable risk factor
+Hostel living: shared bathroom facilities are associated with higher colonisation pressure from diverse organisms
+Sexual activity: mechanical introduction of periurethral bacteria into the bladder during intercourse is a recognised precipitant; the patient is sexually active
+
+Pathogen and pathophysiology:
+The most likely causative organism is Escherichia coli (responsible for approximately 70–80% of uncomplicated female UTI in Nigerian and global studies)
+E. coli produces virulence factors enabling uroepithelial infection:
+Type 1 fimbriae (mannose-sensitive): facilitate adhesion to uroepithelial cells
+P fimbriae (mannose-resistant): enable upper tract invasion — more relevant in pyelonephritis
+Haemolysin, cytotoxic necrotising factor: damage the urothelium and trigger an inflammatory response
+Urease production: hydrolysis of urea → ammonia → alkaline urine → cloudy, foul-smelling urine — as observed in this patient
+The inflammatory response to infection produces dysuria (from prostaglandin and bradykinin sensitisation of the urothelium), frequency, and urgency (from reduced effective bladder capacity due to mucosal inflammation and uninhibited detrusor contractions)
+
+Other common causative organisms:
+Staphylococcus saprophyticus: second most common in sexually active young women; gram-positive; associated with sexual activity; characteristically novobiocin-resistant on antibiogram
+Klebsiella pneumoniae: particularly in patients with diabetes or structural abnormality (less relevant here)
+Proteus mirabilis: associated with alkaline urine and struvite stone formation; produces urease
+Enterococcus faecalis: gram-positive; particularly in older women or those with structural abnormalities
+
+Classification — lower versus upper UTI:
+Lower UTI (cystitis): dysuria, frequency, urgency, suprapubic pain — all present here
+Upper UTI (pyelonephritis): fever, rigors, loin pain, costovertebral angle tenderness, nausea, vomiting — all absent
+The absence of systemic features and upper tract signs at this examination confirms lower UTI; however, progression to ascending infection (pyelonephritis) can occur within 24–72 hours if untreated, particularly in a sexually active young woman
+
+Differential diagnoses:
+
+Urethritis from sexually transmitted infection:
+Neisseria gonorrhoeae and Chlamydia trachomatis cause urethritis with dysuria and frequency
+Key distinction: urine culture negative for uropathogens; NAAT positive for N. gonorrhoeae or C. trachomatis; urethral discharge may or may not be present; cervical motion tenderness may be present if ascending PID is developing
+This patient: no abnormal vaginal discharge, no cervical motion tenderness, consistent single partner — STI is less likely but screening is appropriate given the clinical overlap
+Urinalysis: STI-related urethritis may show mild pyuria but the culture is typically negative for uropathogens
+
+Vaginitis:
+Candida, bacterial vaginosis, or Trichomonas vaginalis can cause external dysuria (from contact of urine with inflamed external genitalia) and vulval discomfort
+Key distinction: external rather than internal dysuria (burning felt outside before urine passes over the vulva, rather than inside during voiding); vaginal discharge, vulval itching, and odour are the dominant symptoms; speculum examination shows vaginal discharge and mucosal changes
+This patient: no vaginal discharge, no vulval itching, no external dysuria — vaginitis is not clinically supported; pelvic examination was normal
+
+Early pyelonephritis:
+Upper tract infection may present initially without fever or loin pain — systemic features may develop over 24–48 hours after initial lower UTI symptoms
+Currently excluded clinically — afebrile, absent costovertebral angle tenderness, no loin pain
+Key: the patient must be specifically instructed to return immediately if fever or loin pain develops after starting treatment — this would indicate ascending infection requiring IV antibiotics and hospitalisation
+
+Interstitial cystitis (painful bladder syndrome):
+Chronic condition causing recurrent sterile dysuria and frequency
+Urine culture consistently negative
+No prior history of similar episodes — first presentation, acute in onset; bacterial UTI is much more likely; exclude infection first
+
+PLAN
+
+Outpatient management is appropriate — the patient is afebrile, haemodynamically stable, has no upper tract involvement, and can tolerate oral medication.
+
+Investigations
+
+Urine dipstick (bedside, immediate):
+Leucocytes: positive in UTI (pyuria); a negative leucocyte result makes UTI unlikely but does not exclude it
+Nitrites: positive if gram-negative bacteria are present; negative in gram-positive infections; a helpful screening tool
+Blood: microscopic haematuria may be present in cystitis; visible haematuria in the context of UTI in a young woman requires upper tract imaging (uncommon in uncomplicated cystitis)
+Protein: mildly elevated in UTI; significantly elevated protein suggests renal parenchymal disease
+Glucose: glycosuria supports undiagnosed diabetes mellitus — screen if recurrent UTI
+Practical note: urine dipstick strips are available at all Nigerian hospitals; a critical and inexpensive investigation
+
+Urine microscopy, culture, and sensitivity (MCS) — the most important investigation:
+Collect before starting antibiotics — antibiotic administration before collection significantly reduces culture yield and may produce a false-negative result
+Midstream clean-catch collection: the patient cleans the urethral meatus, discards the first portion of urine, and collects the midstream portion in a sterile container
+Significant bacteriuria: greater than or equal to 10⁵ CFU/ml of a single organism (though counts of 10²–10³ CFU/ml may be clinically significant in a symptomatic woman)
+Results in 48–72 hours — adjust antibiotics if the organism is resistant to the empirical choice
+Why it matters in this case: although the clinical diagnosis is straightforward, confirming the organism and its sensitivities is important because:
+Antibiotic resistance to first-line agents is increasing in Nigeria
+A culture result provides objective evidence of infection and guides de-escalation to the narrowest effective antibiotic
+Post-treatment culture confirms eradication — important if symptoms recur
+Practical note: urine MCS is available at all Nigerian tertiary and secondary hospitals
+
+Full blood count:
+WBC and differential: leucocytosis suggests systemic infection; useful baseline
+Haemoglobin: sickle cell anaemia is excluded clinically and by history in this patient, but FBC provides a baseline
+Practical note: widely available
+
+Fasting blood glucose:
+For a first uncomplicated UTI in a young woman without diabetes risk factors: fasting blood glucose is not mandatory at this presentation
+Indicated if: recurrent UTI (two or more episodes per year), if glycosuria is found on dipstick, or if other diabetes risk factors are identified on review
+Document the clinical decision — if she presents with a second UTI, fasting blood glucose and HbA1c should be performed
+
+STI screening:
+Given that she is sexually active and the clinical presentation overlaps with STI-related urethritis, NAAT testing for Neisseria gonorrhoeae and Chlamydia trachomatis on a first-void urine specimen is reasonable
+This may be offered at this visit with counselling, or deferred to the 48–72-hour review if symptoms are improving on antibiotics — if symptoms do not improve on appropriate antibiotics by 48–72 hours, STI screening becomes more important
+Practical note: NAAT is available at selected Lagos tertiary hospitals and private molecular laboratories; if unavailable, high vaginal and endocervical swabs for Gram stain and culture are an alternative
+
+Antibiotic Treatment
+
+Collect urine MCS before the first antibiotic dose — this is mandatory and must be communicated clearly to the patient.
+
+First-line — Nitrofurantoin macrocrystals:
+Oral Nitrofurantoin 100 mg (macrocrystal formulation — Macrobid) twice daily for 5 days
+OR oral Nitrofurantoin monohydrate/macrocrystal 100 mg twice daily for 5 days (same drug, different formulation)
+If only the immediate-release formulation (50–100 mg) is available: oral Nitrofurantoin 50–100 mg four times daily for 5–7 days
+Mechanism: Nitrofurantoin is reduced by bacterial flavoproteins to reactive intermediates that damage bacterial DNA, ribosomal proteins, and cell wall synthesis — multiple mechanisms reduce the likelihood of single-step resistance
+Spectrum: covers E. coli, S. saprophyticus, Enterococcus faecalis — the three most common organisms in uncomplicated female cystitis; does NOT cover Proteus, Pseudomonas, or Klebsiella (which are less common in uncomplicated UTI)
+Advantages:
+Achieves very high urine concentrations (up to 200 times the MIC for susceptible E. coli) — effective precisely because it concentrates in the urine
+Low systemic absorption — minimal effect on vaginal or gut flora; does not select for systemic resistance
+Resistance rates remain low globally (less than 5% for E. coli in uncomplicated female UTI) and in Nigeria compared with other first-line agents
+Not associated with significant collateral damage to the gastrointestinal microbiome
+Disadvantages:
+Does NOT achieve adequate tissue concentrations — absolutely contraindicated if upper tract involvement (pyelonephritis) is suspected or if bacteraemia is possible; for lower tract only
+Contraindicated in renal impairment (eGFR less than 30 ml per minute per 1.73 m²) — the drug concentrates in urine through renal excretion; reduced GFR reduces urinary concentrations and increases systemic toxicity risk
+Take with food to reduce gastrointestinal side effects (nausea is the most common side effect)
+Practical note: Nitrofurantoin (Macrobid or Macrodantin) is available at most Nigerian tertiary and secondary hospital pharmacies and large private pharmacies in Lagos; the immediate-release formulation (50 mg tablets) is more widely available and inexpensive; ensure the patient understands the dosing frequency difference between formulations
+
+Second-line — Fosfomycin trometamol:
+Oral Fosfomycin trometamol 3 g as a single dose (sachet dissolved in water)
+Mechanism: inhibits bacterial cell wall synthesis by blocking the first step in peptidoglycan biosynthesis (MurA enzyme inhibition — distinct from beta-lactam mechanism)
+Evidence: equivalent efficacy to 7-day Nitrofurantoin or 3-day Cotrimoxazole for uncomplicated female cystitis; single-dose regimen maximises adherence
+Advantages: single dose eliminates adherence concerns; excellent safety profile; low resistance rates in Nigeria
+Practical note: Fosfomycin trometamol (Monurol) is available at some Nigerian tertiary hospital pharmacies and selected private pharmacies in Lagos; it is more expensive than Nitrofurantoin and may not be widely stocked; where available, it is an excellent option for patients where adherence to a multi-day regimen is uncertain
+
+Third-line — Cotrimoxazole (Trimethoprim-Sulfamethoxazole):
+Oral Cotrimoxazole 960 mg (160/800 mg) every 12 hours for 3 days
+Use only if local resistance rates for E. coli are below 20% — where available MCS data support susceptibility
+Practical context in Nigeria: Cotrimoxazole resistance in community-acquired E. coli UTI in Nigeria is approximately 40–55% in recent studies from Lagos and other major cities — this is above the 20% threshold recommended by IDSA and EAU guidelines for empirical use
+Therefore: Cotrimoxazole should NOT be used empirically in this patient without prior sensitivity data from a recent local antibiogram; it can be used if urine culture confirms susceptibility
+Practical note: Cotrimoxazole is very widely available and inexpensive throughout Nigeria — its high resistance rate makes it an unreliable empirical choice despite its affordability; resistance data must guide its use
+
+Do NOT use:
+Ampicillin or Amoxicillin alone: resistance rates exceed 80% in community-acquired E. coli UTI in Nigeria — ineffective empirically
+Ciprofloxacin: fluoroquinolones are specifically recommended by IDSA, EAU, and WHO to be avoided as first-line agents for uncomplicated female cystitis because:
+They are highly effective systemically (important for more serious infections) and widespread use for uncomplicated cystitis selects for fluoroquinolone-resistant organisms that then compromise treatment of more serious infections (pyelonephritis, pneumonia, gonorrhoea)
+Increasing fluoroquinolone resistance in Nigerian community isolates (approximately 15–30% in recent studies) is in part attributable to over-prescribing for uncomplicated UTI
+Reserve Ciprofloxacin for: pyelonephritis, complicated UTI, male UTI, and infections confirmed as fluoroquinolone-sensitive on MCS
+
+Review at 48–72 hours:
+Urine MCS result: if the organism is resistant to Nitrofurantoin — switch to the appropriate sensitive agent based on the antibiogram
+If clinically improving and MCS confirms sensitivity: complete the course
+If not improving despite a sensitive organism: reconsider the diagnosis (STI? early pyelonephritis?)
+
+Supportive Management
+
+Oral hydration:
+Increase daily fluid intake to at least 2–2.5 litres of water
+High urine flow mechanically flushes bacteria from the bladder and dilutes bacteriotoxins irritating the urothelium
+Practical and evidence-supported adjunct to antibiotic therapy
+
+Analgesia:
+Oral Paracetamol 500–1000 mg every 6–8 hours as needed for dysuria and suprapubic pain
+Oral Ibuprofen 400 mg every 8 hours with food can be added for its anti-inflammatory effect on the urothelium if there is no contraindication (avoid in renal impairment)
+
+Behavioural and hygiene advice:
+Wipe from front to back after toileting — reduces faecal-periurethral colonisation
+Do not delay voiding — void when the urge is felt; regular voiding every 3–4 hours flushes bacteria before they can colonise the urothelium
+Post-coital voiding: voiding within 30 minutes after sexual intercourse reduces the risk of post-coital bacteriuria (though the evidence in women who are not prone to recurrent UTI is less robust, it is a practical recommendation with no harm)
+Avoid douching and scented products in the perineal area — these disrupt the protective Lactobacillus flora
+Wear breathable cotton underwear — reduces periurethral moisture and bacterial growth
+Adequate daily fluid intake
+
+Voiding habit counselling:
+The identified behaviour of delaying voiding during lectures is an important modifiable risk factor
+Explain clearly: bacteria that enter the bladder are normally expelled by regular voiding; allowing urine to remain stagnant in the bladder for hours provides the bacteria with time to multiply and establish infection; simply voiding regularly throughout the day is one of the most effective prevention measures
+
+Counselling
+
+Explanation of the diagnosis:
+She has a bladder infection — bacteria have entered the bladder and are causing irritation of the bladder lining
+This is a very common infection in young women and is caused by bacteria (most commonly from the bowel) entering the urinary tract
+It is treatable with antibiotics and most women recover completely within a few days of starting treatment
+
+The antibiotic course:
+A 5-day course of antibiotic tablets is being given to clear the infection
+She must collect the urine sample before taking the first tablet — the sample will identify exactly which bacteria is causing the infection and confirm the antibiotic is the right one
+She must complete the full 5-day course even if she feels better after 2 days — stopping early allows bacteria to survive and can cause the infection to return with resistance to the antibiotic
+
+When to return urgently:
+She must return immediately if:
+Fever develops (temperature above 38°C) or she develops chills or rigors
+Pain moves to the loin or sides (between the ribs and hip) — indicates the infection may have spread to the kidneys
+Nausea or vomiting prevents her from taking the tablets
+Symptoms are significantly worsening rather than improving after 48 hours on antibiotics
+
+How to prevent recurrence:
+She should avoid delaying voiding during lectures — this is likely an important contributor to her current infection
+Void after sexual intercourse
+Wipe from front to back after toileting
+Increase daily water intake to at least 2 litres
+She should present early in future episodes — early treatment prevents spread to the kidneys
+
+If the infection recurs:
+If she experiences two or more episodes of UTI within 6 months or three or more within a year, she should discuss recurrent UTI management with her doctor — options include post-coital antibiotic prophylaxis or low-dose nightly prophylaxis
+
+PROGNOSIS
+
+Excellent with prompt and appropriate antibiotic treatment:
+Symptom resolution: expected within 2–3 days of starting Nitrofurantoin; full resolution within 5 days
+Treatment failure (defined as persistent symptoms beyond 48–72 hours on an appropriate antibiotic): approximately 5–10%; usually indicates resistant organism, misdiagnosis (STI, vaginitis), or early ascending infection — all of which are addressed at the 48–72 hour review
+Recurrence at 6 months: approximately 25–30% of young sexually active women experience a recurrence; the risk is modifiable through behavioural interventions
+Progression to pyelonephritis if untreated: approximately 2–4% of uncomplicated lower UTI cases in women develop ascending infection — prevented by prompt treatment
+Long-term renal sequelae from a single episode of uncomplicated cystitis in a woman with a normal urinary tract: negligible — unlike in children with vesicoureteral reflux, adult uncomplicated cystitis does not cause renal scarring
+
+FOLLOW-UP
+Review at 48–72 hours: clinical assessment for symptom improvement; review urine MCS result and adjust antibiotic if organism is resistant; review FBC if results are available. Return at completion of 5-day course if symptoms have not fully resolved. Repeat urine MCS is not routinely required after a single uncomplicated UTI if symptoms have resolved — reserve post-treatment culture for recurrent UTI or persistent symptoms. Consider STI screening if symptoms do not improve with appropriate antibiotics by 48–72 hours. Advise to present early in future episodes. If two or more episodes occur within 6 months: arrange further evaluation (fasting blood glucose, HbA1c, urine MCS at each episode) and discuss prophylactic strategies.
+`,
+  documentation: `
+Miss A.T., a 24-year-old single female undergraduate, resident in Lagos, Christian, Yoruba. Resides in a hostel.
+
+PRESENTING COMPLAINTS
+Painful urination × 4 days
+Increased urinary frequency × 4 days
+Lower abdominal pain × 3 days
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until about 4 days prior to presentation when she developed burning dysuria occurring throughout the act of micturition.
+
+About the same time, she also noticed urinary frequency — passing urine more often than usual, in small volumes, with urgency.
+
+
+No fever, chills, rigors, loin or flank pain, nausea, or vomiting. No obstructive voiding symptoms. She occasionally delays voiding while attending lectures.
+
+Menstrual history: regular 28-day cycles, 4–5 days flow, moderate. LMP 2 weeks prior to presentation. No abnormal vaginal discharge, no vulval itching, no dyspareunia, no postcoital bleeding, no intermenstrual bleeding.
+
+Sexually active with a single partner. No recent change in sexual partner, no prior STIs, no spermicide use. No recent urinary catheterisation or instrumentation.
+
+PAST MEDICAL HISTORY
+No diabetes mellitus, hypertension, sickle cell disease, or chronic renal disease
+No prior history of recurrent urinary tract infections
+
+DRUG HISTORY
+No recent antibiotic use
+No known drug allergies
+
+FAMILY HISTORY
+No family history of renal disease or diabetes mellitus
+
+SOCIAL HISTORY
+Undergraduate student, hostel resident
+Occasionally delays voiding during lectures
+Does not smoke or take alcohol
+Personal hygiene is fair
+
+REVIEW OF SYSTEMS
+No cough, chest pain, weight loss, night sweats, leg swelling, or change in bowel habits
+
+PHYSICAL EXAMINATION
+General Examination
+Young woman, conscious and not in obvious distress
+Afebrile (36.8°C)
+Not pale, not icteric, acyanosed
+Not dehydrated
+No pedal oedema, no significant peripheral lymphadenopathy
+
+Vital Signs
+Temperature: 36.8°C
+Pulse rate: 78 bpm, regular, good volume
+Blood pressure: 110/70 mmHg
+Respiratory rate: 16 cpm
+
+Abdominal Examination
+Abdomen flat, soft, moves with respiration
+Mild suprapubic tenderness on palpation
+No guarding or rebound tenderness
+No palpable masses
+Kidneys not ballotable
+No suprapubic fullness
+
+Costovertebral Angle Tenderness
+Absent bilaterally
+
+Pelvic Examination
+External genitalia appear normal
+No abnormal vaginal discharge
+Cervix healthy, no cervical motion tenderness
+
+ASSESSMENT
+
+Acute uncomplicated lower urinary tract infection (acute cystitis) in an otherwise healthy young woman.
+
+PLAN
+
+Investigations
+Urine dipstick
+Urine microscopy, culture, and sensitivity (MCS) before antibiotics
+Full blood count
+STI screening if clinically indicated or symptoms persist despite treatment
+
+Treatment
+Start empirical antibiotics after urine sample collection:
+Oral Nitrofurantoin 100 mg BD for 5 days
+Analgesia:
+Paracetamol 500–1000 mg PRN
+Consider Ibuprofen 400 mg TDS with food if no contraindication
+Encourage oral hydration (2–2.5 L daily)
+
+Counselling / Lifestyle Advice
+Do not delay voiding
+Maintain good perineal hygiene
+Void after sexual intercourse
+Wipe front to back after toileting
+Avoid scented vaginal products and douching
+Complete full antibiotic course
+
+Return immediately if:
+
+Fever or chills develop
+Loin/flank pain develops
+Vomiting or inability to tolerate oral medications
+Symptoms worsen or fail to improve within 48–72 hours
+FOLLOW-UP
+Review in 48–72 hours to assess clinical response and review urine MCS results
+Adjust antibiotics based on sensitivity results if required
+Further evaluation if recurrent or persistent symptoms occur
 `,
   bookmarkCount: 0
 },

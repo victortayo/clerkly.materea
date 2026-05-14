@@ -214,7 +214,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
                     : 'text-slate-500 dark:text-slate-300'
                 }`}
               >
-                <i className="fa-regular fa-book"></i>
+                <i className="fa-solid fa-seedling"></i>
                 <span className="hidden sm:inline">Learn</span>
               </button>
               <button
@@ -225,7 +225,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
                     : 'text-slate-500 dark:text-slate-300'
                 }`}
               >
-                <i className="fa-regular fa-file-alt"></i>
+                <i className="fa-solid fa-file-medical"></i>
                 <span className="hidden sm:inline">Doc</span>
               </button>
             </div>

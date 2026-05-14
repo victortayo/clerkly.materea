@@ -133,7 +133,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                 <i className="fa-solid fa-robot"></i>
               </div>
               <div className="text-left">
-                <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Clerkly Assistant</p>
+                <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Assistant</p>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400">AI-powered clinical notes</p>
               </div>
             </button>
@@ -152,7 +152,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
               </div>
               <div className="text-left flex-1">
                 <div className="flex items-center justify-between">
-                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Clerkly Calculator</p>
+                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Calculator</p>
                   </div>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400">Essential clinical calculators</p>
               </div>
@@ -172,7 +172,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
               </div>
               <div className="text-left flex-1">
                 <div className="flex items-center justify-between">
-                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Clerkly Learn</p>
+                  <p className="text-sm font-bold text-slate-800 dark:text-slate-200">Learn</p>
                   </div>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400">Clinical reasoning modules</p>
               </div>

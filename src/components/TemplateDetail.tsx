@@ -24,11 +24,13 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   const [isInsightModalOpen, setIsInsightModalOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editableContent, setEditableContent] = useState(template.content);
-  const [mode, setMode] = useState<'teach' | 'documentation'>('teach');
+  const [mode, setMode] = useState<'teach' | 'documentation'>('documentation');
   const { showToast } = useToast();
+  const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true);
+
 
   useEffect(() => {
-    const newContent = mode === 'teach' ? template.content : template.documentation || 'Not yet available';
+    const newContent = mode === 'teach' ? template.documentation || 'Not yet available' : template.content;
     setEditableContent(newContent);
     setInsight(null);
     // When switching modes, exit editing mode
@@ -91,7 +93,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   };
 
   const handleReset = () => {
-    setEditableContent(mode === 'teach' ? template.content : template.documentation || 'Not yet available');
+    setEditableContent(mode === 'teach' ? template.documentation || 'Not yet available' : template.content);
     showToast('Template reset to original');
   };
 
@@ -122,6 +124,23 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         insight={insight}
         templateTitle={template.title}
       />
+
+      {isDisclaimerVisible && (
+        <div className="bg-amber-50 dark:bg-amber-950/30 p-2.5 rounded-xl border border-amber-100/50 dark:border-amber-900/50 mb-4">
+          <div className="flex gap-2 items-start">
+            <i className="fa-solid fa-circle-info text-amber-500 text-[11px] mt-0.5"></i>
+            <div className="flex-1 space-y-1">
+              <p className="text-[11px] font-bold text-amber-900 dark:text-amber-200">For Educational Use Only</p>
+              <p className="text-[10px] text-amber-800/80 dark:text-amber-200/70 leading-snug">
+                This content is for informational purposes and is not a substitute for clinical judgment.
+              </p>
+            </div>
+            <button onClick={() => setIsDisclaimerVisible(false)} className="-mr-1 -mt-1 p-1 rounded-full text-amber-500/70 hover:text-amber-700 dark:hover:text-amber-300 hover:bg-amber-500/10">
+              <i className="fa-solid fa-xmark text-xs"></i>
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Floating Back Button */}
       <button 
@@ -207,17 +226,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           <div className="w-full sm:flex-1 flex justify-center order-3 sm:order-2">
             <div className="flex items-center bg-slate-200 dark:bg-slate-700/80 rounded-full p-1 text-[11px] font-semibold">
               <button
-                onClick={() => setMode('teach')}
-                className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${
-                  mode === 'teach' 
-                    ? 'bg-white text-indigo-900 shadow-md' 
-                    : 'text-slate-500 dark:text-slate-300'
-                }`}
-              >
-                <i className="fa-solid fa-seedling"></i>
-                <span className="hidden sm:inline">Learn</span>
-              </button>
-              <button
                 onClick={() => setMode('documentation')}
                 className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${ 
                   mode === 'documentation' 
@@ -227,6 +235,17 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
               >
                 <i className="fa-solid fa-file-medical"></i>
                 <span className="hidden sm:inline">Doc</span>
+              </button>
+              <button
+                onClick={() => setMode('teach')}
+                className={`flex items-center gap-2 px-3 py-1 rounded-full transition-colors ${
+                  mode === 'teach' 
+                    ? 'bg-white text-indigo-900 shadow-md' 
+                    : 'text-slate-500 dark:text-slate-300'
+                }`}
+              >
+                <i className="fa-solid fa-seedling"></i>
+                <span className="hidden sm:inline">Learn</span>
               </button>
             </div>
           </div>
@@ -248,7 +267,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
               </button>
             )}
             
-            {editableContent !== (mode === 'teach' ? template.content : template.documentation || 'Not yet available') && isEditing && (
+            {editableContent !== (mode === 'teach' ? template.documentation || 'Not yet available' : template.content) && isEditing && (
                <button
                 onClick={handleReset}
                 className="text-xs font-medium text-slate-400 hover:text-rose-500 transition-colors"
@@ -289,7 +308,12 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
               ? 'bg-white dark:bg-slate-950 border-indigo-200 dark:border-indigo-900 ring-2 ring-indigo-500/20' 
               : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800'
           }`}>
-            {isEditing ? (
+            {mode === 'teach' ? (
+                <div
+                    className="prose prose-sm sm:prose-base dark:prose-invert max-w-none p-4 sm:p-8"
+                    dangerouslySetInnerHTML={{ __html: editableContent }}
+                />
+            ) : isEditing ? (
               <textarea
                 value={editableContent}
                 onChange={(e) => setEditableContent(e.target.value)}

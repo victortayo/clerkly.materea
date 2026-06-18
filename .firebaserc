@@ -1,6 +1,7 @@
 {
   "projects": {
-    "clerklynotes": "clerklynotes"
+    "clerklynotes": "clerklynotes",
+    "clerkly-materea": "clerkly-materea"
   },
   "targets": {},
   "etags": {}

@@ -403,52 +403,66 @@ export default function App() {
             </Modal>
 
             {/* Disclaimer Modal */}
-            <Modal
-                isOpen={activeModal === 'disclaimer'}
-                onClose={() => setActiveModal('none')}
-                title="Disclaimer"
-            >
-                <div className="space-y-6">
-                    <div className="bg-amber-50 dark:bg-amber-950/30 p-3 rounded-xl border border-amber-100/50 dark:border-amber-900/50">
-                        <div className="flex gap-2">
-                            <i className="fa-solid fa-circle-info text-amber-500 text-xs mt-0.5"></i>
-                            <div className="space-y-2">
-                                <p className="text-xs font-bold text-amber-900 dark:text-amber-200">For Educational Purposes Only</p>
-                                <p className="text-[10px] sm:text-xs text-amber-800/80 dark:text-amber-200/70 leading-relaxed">
-                                These case templates are for educational purposes only and are based on typical presentations in Nigerian practice, not actual patient cases.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
-                        <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
-                        <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                        Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
+<Modal
+    isOpen={activeModal === 'disclaimer'}
+    onClose={() => setActiveModal('none')}
+    title="Disclaimer"
+>
+    <div className="space-y-6 max-h-[80vh] overflow-y-auto p-1 no-scrollbar">
+        <div className="bg-amber-50 dark:bg-amber-950/30 p-4 rounded-xl border border-amber-100/50 dark:border-amber-900/50">
+            <div className="flex gap-3">
+                <i className="fa-solid fa-circle-info text-amber-500 text-sm mt-1"></i>
+                <div className="space-y-3">
+                    <p className="text-xs font-bold text-amber-900 dark:text-amber-200">For Educational & Informational Purposes Only</p>
+                    <div className="text-[11px] text-amber-800/80 dark:text-amber-200/70 leading-relaxed space-y-3">
+                        <p>
+                            This application is provided for educational and informational purposes only. It is designed to help users become familiar with common clinical presentations and support learning in medical documentation and note-writing.
                         </p>
-                        <div className="flex flex-col gap-2">
-                            <a
-                                href="https://chat.whatsapp.com/ESwg00h0z76Fotkn9EnEdO?mode=gi_t"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
-                            >
-                                <i className="fa-brands fa-whatsapp text-sm"></i>
-                                Join our WhatsApp Group
-                            </a>
-                            <a
-                                href="https://t.me/+CTzB_o08AewwODdk"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
-                            >
-                                <i className="fa-brands fa-telegram text-sm"></i>
-                                Join our Telegram Channel
-                            </a>
-                        </div>
-                    </section>
+                        <p>
+                            The content within this app is experimental and is continuously being developed and reviewed to improve accuracy and clinical relevance. However, it may not always reflect the most current medical evidence or local clinical guidelines.
+                        </p>
+                        <p>
+                            This tool is not intended to replace clinical judgment, professional training, institutional protocols, or formal medical advice. Users are advised to independently verify all medical information with appropriate, up-to-date, and authoritative sources before applying it in any clinical setting.
+                        </p>
+                        <p>
+                            The developers and contributors assume no responsibility or liability for any errors, omissions, or outcomes arising from the use or misuse of the information provided in this application.
+                        </p>
+                        <p>
+                            Use of this platform signifies acknowledgment that clinical decisions remain the sole responsibility of the healthcare professional.
+                        </p>
+                    </div>
                 </div>
-            </Modal>
+            </div>
+        </div>
+
+        <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
+            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
+            <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
+            Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
+            </p>
+            <div className="flex flex-col gap-2">
+                <a
+                    href="https://chat.whatsapp.com/ESwg00h0z76Fotkn9EnEdO?mode=gi_t"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20 px-4 py-2.5 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors border border-emerald-100 dark:border-emerald-800"
+                >
+                    <i className="fa-brands fa-whatsapp text-sm"></i>
+                    Join our WhatsApp Group
+                </a>
+                <a
+                    href="https://t.me/+CTzB_o08AewwODdk"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
+                >
+                    <i className="fa-brands fa-telegram text-sm"></i>
+                    Join our Telegram Channel
+                </a>
+            </div>
+        </section>
+    </div>
+</Modal>
         </Layout>
     );
 }

@@ -1,3 +1,4 @@
+
 import { Template } from './types';
 
 export const INITIAL_TEMPLATES: Template[] = [
@@ -1099,204 +1100,48 @@ Avoid NSAIDs and topical/systemic corticosteroids
 Review in 4 weeks
   `,
   documentation: `
-<div class="learn">
-
-  <div class="learn-header">
-    <div class="specialty-tag">Internal Medicine — Cardiology Clinic</div>
-    <h1>Newly diagnosed hypertension with chronic epigastric discomfort</h1>
-    <p class="subtitle">A clinical reasoning guide for medical students, house officers, and young doctors. Follow the logic from history through to prescribing decisions.</p>
-  </div>
-
-  <nav class="toc" aria-label="Sections">
-    <div class="toc-label">Contents</div>
-    <ul class="toc-list">
-      <li><a href="#s1"><span class="toc-num">01</span> Why we asked what we asked — history taking</a></li>
-      <li><a href="#s2"><span class="toc-num">02</span> Examination findings and their meaning</a></li>
-      <li><a href="#s3"><span class="toc-num">03</span> Rationale for each investigation</a></li>
-      <li><a href="#s4"><span class="toc-num">04</span> Management decisions explained</a></li>
-      <li><a href="#s5"><span class="toc-num">05</span> Key teaching points — Nigerian clinical context</a></li>
-    </ul>
-  </nav>
-
-  <!-- SECTION 01 -->
-  <div class="section" id="s1">
-    <div class="section-header">
-      <div class="section-num">01</div>
-      <h2 class="section-title">Why we asked what we asked — history taking</h2>
+<div class="space-y-6">
+  <div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">1. History taking — why we asked what we asked</h3>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Hypertension history:</strong> Establishing the recency of the diagnosis (1 month) is important because it tells you this patient has had minimal time on antihypertensive therapy and has not yet been worked up for end-organ damage. You want to know where she started treatment and what drug she was given — this informs whether you are initiating, continuing, or switching therapy.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Epigastric pain characterisation:</strong> The classic description — "pepperish," hunger-related, radiating retrosternally — is highly suggestive of peptic ulcer disease (PUD) or gastroesophageal reflux disease (GERD). The loss of the meal-related pattern after 10 years is clinically significant: it may indicate disease progression or the emergence of a different aetiology.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Symptoms of cardiac decompensation:</strong> In a hypertensive patient, screening for dyspnoea on exertion, orthopnoea, PND, and peripheral oedema is mandatory. Their absence here is reassuring and helps localise the chest/epigastric symptoms to the GI tract.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Renal symptoms:</strong> Oliguria and haematuria screen for hypertensive nephropathy. Normal EUCr and urinalysis argue against significant renal involvement at this point.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Key Social History (Nigeria Context):</strong> Asking about alcohol, smoking, herbal concoctions, and NSAIDs is critical. Herbals can be nephrotoxic, and NSAIDs worsen both PUD and hypertension.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Family history:</strong> A father who died of stroke is a classical and sobering positive family history, increasing this patient's cardiovascular risk.</p>
     </div>
-    <div class="subsections">
 
-      <div class="subsection">
-        <div class="subsection-title">Recency of hypertension diagnosis</div>
-        <div class="subsection-body">Establishing that the diagnosis is only 1 month old tells you this patient has had minimal time on antihypertensive therapy and has not yet been comprehensively evaluated for end-organ damage. You also need to know what drug was started at the private hospital — this determines whether you are initiating, continuing, or switching therapy.</div>
-      </div>
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">2. Examination — what findings mean</h3>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Cardiovascular findings:</strong> BP of 147/86 mmHg confirms Stage 2 hypertension. The <strong class="font-semibold text-indigo-600 dark:text-indigo-400">loud A2</strong> is a key finding: accentuation of the aortic component of the second heart sound reflects increased aortic pressure and is a recognised clinical marker of systemic hypertension.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Abdominal examination:</strong> Epigastric tenderness on deep palpation supports the diagnosis of PUD or gastritis.</p>
+    </div>
 
-      <div class="subsection">
-        <div class="subsection-title">Character and evolution of the epigastric pain</div>
-        <div class="subsection-body">The "pepperish," hunger-related pain radiating retrosternally, associated with belching, is the textbook description of peptic ulcer disease (PUD) or gastroesophageal reflux disease (GERD). Crucially, the loss of its meal-related pattern after 10 years is clinically significant — it may indicate disease progression, a developing complication such as a penetrating ulcer, or the emergence of a different aetiology. Always document the evolution of a chronic symptom, not just its original character.</div>
-        <div class="callout tip">
-          <div class="callout-label">Clinical pearl</div>
-          A change in the character or pattern of a long-standing symptom is as important as the symptom itself. Do not anchor on the original description.
-        </div>
-      </div>
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">3. Investigations — rationale</h3>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">ECG, Urinalysis, EUCr, CXR:</strong> This is the baseline workup for end-organ damage (heart and kidneys). All are reassuringly normal at this early stage.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Fasting Lipid Profile (FLP):</strong> Hypertension and dyslipidaemia frequently coexist (metabolic syndrome). This is essential for formal cardiovascular risk calculation to decide on statin therapy.</p>
+      <p><strong class="font-semibold text-slate-800 dark:text-slate-200">H. pylori stool antigen test:</strong> This is the most practical non-invasive test for H. pylori in the Nigerian setting. Eradication is the cornerstone of management for H. pylori-positive PUD.</p>
+    </div>
 
-      <div class="subsection">
-        <div class="subsection-title">Symptoms of cardiac decompensation</div>
-        <div class="subsection-body">In any hypertensive patient, you must screen for dyspnoea on exertion, orthopnoea, paroxysmal nocturnal dyspnoea, and peripheral oedema — the hallmarks of hypertensive heart disease with diastolic or systolic dysfunction. These are common and serious end-organ complications in Africans with poorly controlled or long-standing hypertension. Their absence here helps localise the chest and epigastric symptoms to the gastrointestinal tract rather than the heart.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Renal symptoms</div>
-        <div class="subsection-body">Oliguria and haematuria screen for hypertensive nephropathy and renovascular disease — the two most clinically important renal end-organ complications of hypertension. The normal EUCr and urinalysis argue against significant renal involvement at this point, but baseline documentation is essential for future comparison.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Alcohol, smoking, herbal use, and NSAIDs</div>
-        <div class="subsection-body">These are among the most critical questions in any Nigerian hypertensive patient, yet they are frequently omitted.</div>
-        <div class="callout warn">
-          <div class="callout-label">Nigerian context</div>
-          Herbal concoctions are widely used in Nigeria and are a significant, often undisclosed cause of both hypertension and renal injury. Many contain nephrotoxic compounds or licorice-like substances that raise BP. Always ask directly and non-judgementally. NSAIDs — freely available over the counter — worsen both PUD and hypertension by inhibiting prostaglandin synthesis.
-        </div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Family history</div>
-        <div class="subsection-body">A father who died of stroke is a sobering and clinically significant positive family history. Hypertension clusters strongly in families of African descent, and stroke — not myocardial infarction — is the commonest hypertension-related death in Nigeria. This positive history increases the patient's cardiovascular risk score and reinforces the urgency of achieving BP control.</div>
-      </div>
-
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">4. Management — rationale for each decision</h3>
+       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Amlodipine 5 mg daily:</strong> A calcium channel blocker (CCB) is the preferred first-line agent for hypertension in Black African patients, as they tend to have low-renin, volume-dependent hypertension.</p>
+       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Rabeprazole & H. pylori test:</strong> A proton pump inhibitor (PPI) provides immediate acid suppression for the epigastric pain, while the test determines if H. pylori eradication therapy is needed.</p>
+       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Lifestyle measures:</strong> Low-sodium diet, exercise, and weight optimisation are underemphasised but are cornerstones of hypertension management.</p>
     </div>
   </div>
-
-  <!-- SECTION 02 -->
-  <div class="section" id="s2">
-    <div class="section-header">
-      <div class="section-num">02</div>
-      <h2 class="section-title">Examination findings and their meaning</h2>
-    </div>
-    <div class="subsections">
-
-      <div class="subsection">
-        <div class="subsection-title">General survey — why each feature matters</div>
-        <div class="subsection-body">Pallor would suggest anaemia, which increases cardiac workload and can aggravate hypertensive symptoms. Jaundice may point toward hepatic disease with implications for drug metabolism. Peripheral oedema is a key indicator of cardiac failure or nephrotic syndrome. Their absence must be actively documented as meaningful negatives, not simply skipped.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Cardiovascular findings</div>
-        <div class="subsection-body">A BP of 147/86 mmHg meets Stage 2 hypertension criteria under JNC 8 (≥140/90 mmHg). Always measure in both arms at the first visit and document the average of at least two readings taken 1–2 minutes apart. The JVP being non-elevated excludes venous congestion from early cardiac failure. A PR of 93 bpm is mildly elevated and warrants monitoring.</div>
-        <div class="callout info">
-          <div class="callout-label">Key sign</div>
-          A loud A2 (aortic component of the second heart sound) reflects increased systemic arterial pressure and is a recognised bedside marker of hypertension. It is produced when the aortic valve closes forcefully against an elevated aortic pressure. This sign is commonly overlooked by junior doctors — document it explicitly when you hear it.
-        </div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Abdominal examination</div>
-        <div class="subsection-body">Epigastric tenderness on deep palpation supports the diagnosis of PUD or gastritis. Organomegaly is screened for because hepatomegaly may indicate congestive cardiac failure, and bilateral renal enlargement may suggest polycystic kidney disease — a secondary and reversible cause of hypertension.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Neurological examination</div>
-        <div class="subsection-body">Even a brief CNS assessment screens for hypertensive encephalopathy and focal deficits from silent cerebrovascular events — both relevant in a patient with Stage 2 hypertension and a family history of fatal stroke. A normal CNS exam here is a clinically meaningful negative finding.</div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- SECTION 03 -->
-  <div class="section" id="s3">
-    <div class="section-header">
-      <div class="section-num">03</div>
-      <h2 class="section-title">Rationale for each investigation</h2>
-    </div>
-    <div class="subsections">
-
-      <div class="subsection">
-        <div class="subsection-title">ECG</div>
-        <div class="subsection-body">The primary goal is to detect left ventricular hypertrophy (LVH) using voltage criteria (Sokolow-Lyon: SV1 + RV5 or RV6 ≥35 mm) or the Cornell criteria. Ischaemic changes would point toward hypertensive coronary artery disease. A normal ECG at one month post-diagnosis is expected and does not exclude early LVH, which is better detected echocardiographically.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Urinalysis and EUCr</div>
-        <div class="subsection-body">Non-negotiable baseline investigations in every hypertensive patient. Proteinuria indicates early hypertensive nephropathy. Serum creatinine and electrolytes establish baseline renal function, which directly guides drug selection. Hypokalaemia may suggest primary hyperaldosteronism — a secondary cause of hypertension.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Chest X-ray</div>
-        <div class="subsection-body">Screens for cardiomegaly, pulmonary oedema, and aortic knuckle prominence. A normal CXR is reassuring but does not substitute for echocardiography if there is clinical suspicion of structural heart disease.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">Fasting lipid profile (FLP)</div>
-        <div class="subsection-body">Hypertension and dyslipidaemia co-exist as part of the metabolic syndrome and independently multiply cardiovascular risk. The specific pattern — LDL, HDL, triglycerides — must be reviewed to calculate a formal 10-year cardiovascular risk score and determine whether statin therapy is indicated. In Nigeria, atherogenic dyslipidaemia (high triglycerides + low HDL) is the pattern most commonly associated with the metabolic syndrome.</div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-title">H. pylori stool antigen test</div>
-        <div class="subsection-body">The most practical non-invasive test for active H. pylori infection in the Nigerian setting. If positive, initiate first-line triple therapy: PPI + amoxicillin + clarithromycin for 14 days (substitute metronidazole if penicillin-allergic). Eradication dramatically reduces the risk of PUD recurrence.</div>
-        <div class="callout warn">
-          <div class="callout-label">Nigerian context</div>
-          H. pylori seroprevalence in Nigeria exceeds 70% in many population studies. Maintain a high index of suspicion in any patient presenting with chronic epigastric symptoms.
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- SECTION 04 -->
-  <div class="section" id="s4">
-    <div class="section-header">
-      <div class="section-num">04</div>
-      <h2 class="section-title">Management decisions explained</h2>
-    </div>
-
-    <div class="drug-grid">
-      <div class="drug-card">
-        <div class="drug-name">Amlodipine 5 mg daily</div>
-        <div class="drug-class">Dihydropyridine CCB</div>
-        <div class="drug-body">First-line choice for Black African patients. Black patients tend to have low-renin, volume-dependent hypertension, making CCBs and thiazide diuretics more effective as monotherapy than ACE inhibitors or ARBs (ALLHAT trial). If not at target in 4 weeks, uptitrate to 10 mg or add a second agent.</div>
-      </div>
-      <div class="drug-card">
-        <div class="drug-name">Rabeprazole 20 mg daily</div>
-        <div class="drug-class">Proton pump inhibitor (PPI)</div>
-        <div class="drug-body">Irreversibly inhibits gastric H⁺/K⁺-ATPase. Most effective class for acid suppression in PUD and GERD. If H. pylori is confirmed, becomes part of triple therapy for a minimum of 4 weeks total.</div>
-      </div>
-      <div class="drug-card">
-        <div class="drug-name">Metoclopramide 10 mg TDS before meals</div>
-        <div class="drug-class">Prokinetic / dopamine D2 antagonist</div>
-        <div class="drug-body">Enhances gastric emptying and increases lower oesophageal sphincter tone — relevant in GERD and functional dyspepsia. Replaces pregabalin, which has no mechanistic rationale in acid-related or organic epigastric disease.</div>
-      </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="subsections">
-      <div class="subsection">
-        <div class="subsection-title">Dietitian referral and lifestyle counselling</div>
-        <div class="subsection-body">Low-sodium diet (&lt;2 g sodium/day) reduces systolic BP by 4–6 mmHg. Regular aerobic exercise (30 min, 5×/week) reduces it by a further 4–9 mmHg. Dietary modification is the first-line treatment for dyslipidaemia before statins are considered. These non-pharmacological measures are consistently underemphasised in Nigerian clinical practice.</div>
-      </div>
-      <div class="subsection">
-        <div class="subsection-title">Avoiding NSAIDs and corticosteroids</div>
-        <div class="subsection-body">NSAIDs remove prostaglandin-mediated gastric mucosal protection and cause sodium retention — worsening both PUD and hypertension simultaneously. Topical corticosteroids misused for skin lightening can be absorbed systemically to cause mineralocorticoid-mediated secondary hypertension. Counsel this explicitly — do not assume the patient is aware.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- SECTION 05 -->
-  <div class="section" id="s5">
-    <div class="section-header">
-      <div class="section-num">05</div>
-      <h2 class="section-title">Key teaching points — Nigerian clinical context</h2>
-    </div>
-    <ul class="keypoints">
-      <li>Black African patients have a higher prevalence of hypertension, present at younger ages, and are more likely to die from stroke than ischaemic heart disease — the reverse of the Western pattern. This shapes your monitoring and counselling priorities.</li>
-      <li>A loud A2 on auscultation is a bedside physical sign of elevated aortic pressure, often the only cardiac finding in early hypertensive heart disease. Seek it deliberately and document it clearly.</li>
-      <li>Herbal concoctions and topical steroid preparations are deeply embedded in Nigerian health-seeking behaviour. Ask about them at every visit, framed non-judgementally.</li>
-      <li>H. pylori seroprevalence exceeds 70% in many Nigerian populations. Chronic epigastric symptoms should prompt early investigation and eradication therapy — not indefinite empirical PPI use.</li>
-      <li>Every prescribing decision must be mechanistically justified. If you cannot articulate why a drug is being given for this specific symptom in this specific patient, reconsider before writing it.</li>
-      <li>Statin therapy should not be prescribed reflexively on the basis of dyslipidaemia alone. Review the full FLP pattern, calculate a formal cardiovascular risk score, and apply shared decision-making before initiating pharmacotherapy.</li>
+  
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">5. Key teaching points for the Nigerian clinical context</h3>
+    <ul class="list-disc list-inside space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li>Black African patients have a higher prevalence of hypertension and a higher risk of stroke.</li>
+      <li>A <strong class="font-semibold">loud A2</strong> on auscultation is a classic bedside sign of hypertension.</li>
+      <li>Herbal concoctions are a significant, often undisclosed cause of hypertension and renal injury in Nigeria — always ask directly.</li>
+      <li>H. pylori is highly prevalent in Nigeria; maintain a high index of suspicion for any patient with chronic epigastric symptoms.</li>
     </ul>
   </div>
-
 </div>
   `,
   bookmarkCount: 0
@@ -1623,7 +1468,7 @@ There has also been reduced urine volume over the last day but no passage of blo
 
 There is no history of fever, chills, flank pain, trauma to the lower abdomen, urethral instrumentation, or recent surgery.
 
-No history suggestive of spinal cord injury.
+No history of suggestive of spinal cord injury.
 
 PMH 
 He is a known hypertensive for 8 years, controlled on medications.

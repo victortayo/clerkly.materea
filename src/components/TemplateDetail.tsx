@@ -23,21 +23,31 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   const [loadingInsight, setLoadingInsight] = useState(false);
   const [isInsightModalOpen, setIsInsightModalOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
-  const [editableContent, setEditableContent] = useState(template.content);
+  const [editableContent, setEditableContent] = useState(template ? template.content : '');
   const [mode, setMode] = useState<'teach' | 'documentation'>('documentation');
   const { showToast } = useToast();
   const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true);
 
 
   useEffect(() => {
-    const newContent = mode === 'teach' ? template.documentation || 'Not yet available' : template.content;
-    setEditableContent(newContent);
-    setInsight(null);
-    // When switching modes, exit editing mode
-    if (mode === 'teach') {
-      setIsEditing(false);
+    if (template) {
+      let newContent = mode === 'teach' ? template.documentation || 'Not yet available' : template.content;
+      // Replace em-dashes with hyphens for consistency in teach mode
+      if (mode === 'teach' && typeof newContent === 'string') {
+        newContent = newContent.replace(/—/g, '-');
+      }
+      setEditableContent(newContent);
+      setInsight(null);
+      // When switching modes, exit editing mode
+      if (mode === 'teach') {
+        setIsEditing(false);
+      }
     }
   }, [template, mode]);
+
+  if (!template) {
+    return <div>Loading...</div>; // Or some other placeholder
+  }
 
   const handleCopy = () => {
     const textToCopy = editableContent;
@@ -303,16 +313,16 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
 
         {/* Content Body */}
         <div className="p-4 sm:p-8 bg-white dark:bg-slate-900">
-          <div className={`rounded-xl border shadow-inner overflow-hidden transition-all ${
-            isEditing 
+          <div className={`rounded-xl transition-all ${
+            mode === 'documentation' ? 'border shadow-inner overflow-hidden ' + (isEditing 
               ? 'bg-white dark:bg-slate-950 border-indigo-200 dark:border-indigo-900 ring-2 ring-indigo-500/20' 
-              : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800'
+              : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800') : ''
           }`}>
             {mode === 'teach' ? (
-                <div
-                    className="prose prose-sm sm:prose-base dark:prose-invert max-w-none p-4 sm:p-8"
-                    dangerouslySetInnerHTML={{ __html: editableContent }}
-                />
+              <div
+                className="max-w-none p-4 sm:p-8 text-[11px] sm:text-xs"
+                dangerouslySetInnerHTML={{ __html: editableContent }}
+              />
             ) : isEditing ? (
               <textarea
                 value={editableContent}

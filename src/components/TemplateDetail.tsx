@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Template } from '../types';
 import { generateClinicalInsight } from '../services/gemini';
 import { useToast } from '../context/ToastContext';
@@ -23,34 +23,40 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   const [loadingInsight, setLoadingInsight] = useState(false);
   const [isInsightModalOpen, setIsInsightModalOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
-  const [editableContent, setEditableContent] = useState(template ? template.content : '');
+  // State specifically for the content being edited in the textarea
+  const [editedContent, setEditedContent] = useState(template ? template.content : '');
   const [mode, setMode] = useState<'teach' | 'documentation'>('documentation');
   const { showToast } = useToast();
   const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true);
 
-
+  // When the template prop changes (e.g., navigating between templates), reset the edited content.
   useEffect(() => {
     if (template) {
-      let newContent = mode === 'teach' ? template.documentation || 'Not yet available' : template.content;
-      // Replace em-dashes with hyphens for consistency in teach mode
-      if (mode === 'teach' && typeof newContent === 'string') {
-        newContent = newContent.replace(/—/g, '-');
-      }
-      setEditableContent(newContent);
-      setInsight(null);
-      // When switching modes, exit editing mode
-      if (mode === 'teach') {
-        setIsEditing(false);
-      }
+      setEditedContent(template.content);
     }
-  }, [template, mode]);
+  }, [template]);
+
+  // Handle side-effects of switching modes, like clearing insights or exiting edit mode.
+  useEffect(() => {
+    setInsight(null);
+    if (mode === 'teach') {
+      setIsEditing(false); // Can't edit in teach mode
+    }
+  }, [mode]);
 
   if (!template) {
     return <div>Loading...</div>; // Or some other placeholder
   }
+  
+  // Derive the content for teach mode, memoizing the result.
+  const teachModeContent = useMemo(() => {
+    const content = template.documentation || 'Not yet available';
+    return content.replace(/—/g, '-');
+  }, [template.documentation]);
 
   const handleCopy = () => {
-    const textToCopy = editableContent;
+    // Determine what content to copy based on the current mode.
+    const textToCopy = mode === 'teach' ? teachModeContent : (isEditing ? editedContent : template.content);
     
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(textToCopy).then(() => {
@@ -102,10 +108,19 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
     document.body.removeChild(textArea);
   };
 
+  // Resets the content in the editor to the original template content.
   const handleReset = () => {
-    setEditableContent(mode === 'teach' ? template.documentation || 'Not yet available' : template.content);
+    setEditedContent(template.content);
     showToast('Template reset to original');
   };
+
+  // Toggles edit mode, ensuring the editor is populated with fresh content.
+  const handleToggleEdit = () => {
+    if (!isEditing) {
+      setEditedContent(template.content);
+    }
+    setIsEditing(!isEditing);
+  }
 
   const handleGetInsight = async () => {
     setIsInsightModalOpen(true);
@@ -262,22 +277,22 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
 
           {/* Right Group: Action Buttons */}
           <div className="flex items-center gap-2 order-2 sm:order-3">
-            {mode === 'documentation' && (
-              <button
-                onClick={() => setIsEditing(!isEditing)}
-                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${ 
-                  isEditing 
-                    ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-300' 
-                    : 'bg-white border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
-                }`}
-                title={isEditing ? 'View Mode' : 'Edit Mode'}
-              >
-                <i className={`fa-regular ${isEditing ? 'fa-eye' : 'fa-pen-to-square'}`}></i>
-                <span className="hidden sm:inline">{isEditing ? 'View' : 'Edit'}</span>
-              </button>
-            )}
+          <button
+              onClick={handleToggleEdit}
+              disabled={mode !== 'documentation'}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold transition-colors ${
+                mode !== 'documentation' ? 'invisible' : 
+                isEditing
+                  ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-300'
+                  : 'bg-white border border-slate-200 text-slate-600 hover:border-indigo-300 hover:text-indigo-600 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300'
+              }`}
+              title={isEditing ? 'View Mode' : 'Edit Mode'}
+            >
+              <i className={`fa-regular ${isEditing ? 'fa-eye' : 'fa-pen-to-square'}`}></i>
+              <span className="hidden sm:inline">{isEditing ? 'View' : 'Edit'}</span>
+            </button>
             
-            {editableContent !== (mode === 'teach' ? template.documentation || 'Not yet available' : template.content) && isEditing && (
+            {isEditing && editedContent !== template.content && (
                <button
                 onClick={handleReset}
                 className="text-xs font-medium text-slate-400 hover:text-rose-500 transition-colors"
@@ -313,27 +328,28 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
 
         {/* Content Body */}
         <div className="p-4 sm:p-8 bg-white dark:bg-slate-900">
-          <div className={`rounded-xl transition-all ${
-            mode === 'documentation' ? 'border shadow-inner overflow-hidden ' + (isEditing 
+          <div className={`rounded-xl transition-all border ${
+            mode === 'documentation' ? 'shadow-inner overflow-hidden ' + (isEditing 
               ? 'bg-white dark:bg-slate-950 border-indigo-200 dark:border-indigo-900 ring-2 ring-indigo-500/20' 
-              : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800') : ''
+              : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800') 
+              : 'border-transparent'
           }`}>
             {mode === 'teach' ? (
               <div
-                className="max-w-none p-4 sm:p-8 text-[11px] sm:text-xs"
-                dangerouslySetInnerHTML={{ __html: editableContent }}
+                className="max-w-none text-[11px] sm:text-xs prose prose-slate dark:prose-invert prose-sm prose-headings:border-t prose-headings:border-b prose-headings:py-4 prose-headings:mt-8 prose-headings:mb-2"
+                dangerouslySetInnerHTML={{ __html: teachModeContent }}
               />
             ) : isEditing ? (
               <textarea
-                value={editableContent}
-                onChange={(e) => setEditableContent(e.target.value)}
+                value={editedContent}
+                onChange={(e) => setEditedContent(e.target.value)}
                 className="w-full h-[60vh] p-4 sm:p-8 font-mono text-[11px] sm:text-xs leading-relaxed text-slate-800 dark:text-slate-200 bg-transparent outline-none resize-none"
                 placeholder="Start typing to edit the template..."
                 autoFocus
               />
             ) : (
               <pre className="p-4 sm:p-8 font-mono text-[11px] sm:text-xs leading-relaxed text-slate-800 dark:text-slate-200 whitespace-pre-wrap overflow-x-auto min-h-[200px]">
-                {editableContent}
+                {template.content}
               </pre>
             )}
           </div>

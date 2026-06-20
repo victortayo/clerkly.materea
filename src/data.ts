@@ -484,7 +484,7 @@ Father is ?age, farmer with HLE as First School Leaving Certificate. Average inc
 Eldest sibling is a 9 year old male, not in school, alive and well, no hx of similar symptoms.
 2nd sibling is a 7 year old male, not in school, alive and well, no hx of similar symptoms.
 1st set of twin is a 5 year old female, not in school, alive and well, no hx of similar symptoms.
-Child lives with father and step mother along with siblings in a mud house.
+Child lives with father and step mother in a mud house.
 
 ROS:
 No loss of consciousness, no convulsion, no bluish discoloration of any part of the body. Positive hx of generalized body weakness.
@@ -1101,9 +1101,10 @@ Review in 4 weeks
   `,
   documentation: `
 <div class="space-y-6">
-  <div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    
     <div class="space-y-4 text-slate-700 dark:text-slate-300">
-      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">1. History taking — why we asked what we asked</h3>
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">History taking</h3>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Hypertension history:</strong> Establishing the recency of the diagnosis (1 month) is important because it tells you this patient has had minimal time on antihypertensive therapy and has not yet been worked up for end-organ damage. You want to know where she started treatment and what drug she was given — this informs whether you are initiating, continuing, or switching therapy.</p>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Epigastric pain characterisation:</strong> The classic description — "pepperish," hunger-related, radiating retrosternally — is highly suggestive of peptic ulcer disease (PUD) or gastroesophageal reflux disease (GERD). The loss of the meal-related pattern after 10 years is clinically significant: it may indicate disease progression or the emergence of a different aetiology.</p>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Symptoms of cardiac decompensation:</strong> In a hypertensive patient, screening for dyspnoea on exertion, orthopnoea, PND, and peripheral oedema is mandatory. Their absence here is reassuring and helps localise the chest/epigastric symptoms to the GI tract.</p>
@@ -1113,20 +1114,20 @@ Review in 4 weeks
     </div>
 
     <div class="space-y-4 text-slate-700 dark:text-slate-300">
-      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">2. Examination — what findings mean</h3>
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Examination</h3>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Cardiovascular findings:</strong> BP of 147/86 mmHg confirms Stage 2 hypertension. The <strong class="font-semibold text-indigo-600 dark:text-indigo-400">loud A2</strong> is a key finding: accentuation of the aortic component of the second heart sound reflects increased aortic pressure and is a recognised clinical marker of systemic hypertension.</p>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Abdominal examination:</strong> Epigastric tenderness on deep palpation supports the diagnosis of PUD or gastritis.</p>
     </div>
 
     <div class="space-y-4 text-slate-700 dark:text-slate-300">
-      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">3. Investigations — rationale</h3>
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Investigations</h3>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">ECG, Urinalysis, EUCr, CXR:</strong> This is the baseline workup for end-organ damage (heart and kidneys). All are reassuringly normal at this early stage.</p>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Fasting Lipid Profile (FLP):</strong> Hypertension and dyslipidaemia frequently coexist (metabolic syndrome). This is essential for formal cardiovascular risk calculation to decide on statin therapy.</p>
       <p><strong class="font-semibold text-slate-800 dark:text-slate-200">H. pylori stool antigen test:</strong> This is the most practical non-invasive test for H. pylori in the Nigerian setting. Eradication is the cornerstone of management for H. pylori-positive PUD.</p>
     </div>
 
     <div class="space-y-4 text-slate-700 dark:text-slate-300">
-      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">4. Management — rationale for each decision</h3>
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Management</h3>
        <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Amlodipine 5 mg daily:</strong> A calcium channel blocker (CCB) is the preferred first-line agent for hypertension in Black African patients, as they tend to have low-renin, volume-dependent hypertension.</p>
        <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Rabeprazole & H. pylori test:</strong> A proton pump inhibitor (PPI) provides immediate acid suppression for the epigastric pain, while the test determines if H. pylori eradication therapy is needed.</p>
        <p><strong class="font-semibold text-slate-800 dark:text-slate-200">Lifestyle measures:</strong> Low-sodium diet, exercise, and weight optimisation are underemphasised but are cornerstones of hypertension management.</p>
@@ -1134,7 +1135,7 @@ Review in 4 weeks
   </div>
   
   <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
-    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">5. Key teaching points for the Nigerian clinical context</h3>
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key teaching points for the Nigerian clinical context</h3>
     <ul class="list-disc list-inside space-y-2 text-indigo-900 dark:text-indigo-300">
       <li>Black African patients have a higher prevalence of hypertension and a higher risk of stroke.</li>
       <li>A <strong class="font-semibold">loud A2</strong> on auscultation is a classic bedside sign of hypertension.</li>
@@ -2115,7 +2116,7 @@ BP 160/102 mmHg
 
 Chest:
 RR 22 cpm
-SpO₂ 98% room air
+SpO₂ 98% in room air
 Breath sounds vesicular
 
 ABD:
@@ -2221,6 +2222,465 @@ Review with USS results
 Inform consultant on call
 `,
 bookmarkCount: 0
+},
+
+{
+  id: 'ob-41',
+  title: 'Cervical Incompetence with Bulging Membranes',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Obstetrics',
+  condition: 'Cervical incompetence at 24 weeks + 6 days with painless cervical dilatation, bulging membranes, and threatened second trimester pregnancy loss in a woman with two prior mid-trimester losses, presenting below the local threshold of fetal viability',
+  symptoms: [
+    'Lower abdominal discomfort',
+    'Sensation of vaginal protrusion',
+    'Bulging membranes at the cervical os',
+    'Cervix 4–5 cm dilated, soft, uneffaced',
+    'No regular uterine contractions',
+    'No vaginal bleeding',
+    'Two prior mid-trimester spontaneous losses at 20 and 22 weeks',
+    'No cervical surgery history',
+    'Fetal heart rate 150 bpm (reassuring)'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-06-20',
+  summary: 'Mrs A.O., a 30-year-old booked G4P1+2 at 24+6 weeks, presented with pelvic pressure and protruding fetal membranes without contractions or bleeding. History significant for two mid-trimester painless pregnancy losses suggestive of cervical incompetence. Stable vitals, relaxed uterus, FHR 150 bpm. Cervix 4–5 cm dilated with intact bulging membranes. This gestation is below the official Nigerian threshold of fetal viability (28 weeks). Impression: cervical incompetence with advanced painless cervical dilatation at a previable gestation. Plan: urgent infection screening and assessment for rescue cerclage, with joint neonatology counselling on realistic prognosis.',
+  content: `
+Mrs A.O., a 30-year-old booked G4P1+2 (1 alive) civil servant, resident in Akure, Ondo State, Christian, Yoruba, married in a monogamous setting, with tertiary level education.
+
+OBSTETRIC DATA
+Gravidity: G4
+Parity: P1+2 (one term delivery, two mid-trimester losses)
+Living children: 1 alive
+LMP: 15/12/2025
+EDD: 22/09/2026
+EGA: 24 weeks + 6 days
+
+PRESENTING COMPLAINTS
+Lower abdominal discomfort × 6 hours
+Passage of something per vaginam × 2 hours
+
+HISTORY OF PRESENTING COMPLAINT
+Patient was apparently well until about 6 hours prior to presentation when she developed a mild lower abdominal discomfort. The discomfort was dull, non-colicky, and not associated with regular uterine contractions. She did not experience the typical intermittent labour pains.
+
+About 2 hours prior to presentation, she noticed a sensation of something descending in the vagina, associated with pelvic pressure. Shortly after, she felt a mass at the vaginal introitus and subsequently noticed protrusion of membranes.
+
+There is no history of severe abdominal pain, regular uterine contractions, or vaginal bleeding. There is no history of leakage of fluid initially, although she later noticed minimal fluid staining.
+
+Fetal movements had been present prior to onset of symptoms. No history of fever, trauma, or recent sexual intercourse.
+
+ANTENATAL HISTORY
+Pregnancy was planned and spontaneously conceived, confirmed with a positive pregnancy test and early ultrasound scan. She booked at 14 weeks gestation and has been compliant with antenatal haematinics.
+
+Booking investigations:
+PCV: 34%
+Blood group: O positive
+Genotype: AA
+HIV: Negative
+
+No complications documented in this pregnancy prior to this episode.
+
+PAST OBSTETRIC HISTORY
+G4P1+2
+2018: Term spontaneous vaginal delivery of a live infant (3.1 kg) — no complications; child alive and well
+2020: Spontaneous pregnancy loss at 20 weeks gestation — preceded by painless cervical dilatation; no prior surgical procedure in that pregnancy
+2022: Spontaneous pregnancy loss at 22 weeks gestation — preceded by minimal pain and rapid expulsion of the fetus
+
+GYNAECOLOGICAL HISTORY
+Menarche at 13 years
+Regular menstrual cycles prior to pregnancy
+No history of cervical surgery (no LLETZ, cone biopsy, cervical dilatation and curettage, or trachelectomy)
+
+PAST MEDICAL AND SURGICAL HISTORY
+No known chronic illness
+No prior uterine or cervical surgery
+
+DRUG AND ALLERGY HISTORY
+No known drug allergies
+
+FAMILY AND SOCIAL HISTORY
+
+Family History:
+No family history of similar condition or connective tissue disorders
+
+Social History:
+Married in a monogamous setting
+Does not smoke or take alcohol
+No use of herbal medications
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young pregnant woman, conscious and alert
+Mildly anxious but not in painful distress
+Not pale, not icteric
+Afebrile (36.7°C)
+
+Vital Signs:
+BP: 110/70 mmHg
+PR: 88 bpm
+RR: 18 cpm
+Temperature: 36.7°C
+SpO₂: not documented
+
+Abdominal (Obstetric) Examination:
+
+Inspection:
+Abdomen uniformly enlarged consistent with pregnancy
+
+Palpation:
+Symphysiofundal height: 24 cm
+Lie: Longitudinal
+Uterus relaxed, no regular uterine contractions, no uterine tenderness
+No evidence of uterine irritability
+
+Auscultation:
+Fetal heart rate: 150 bpm, regular
+
+Pelvic Examination:
+
+Speculum Examination (performed gently with minimal trauma):
+Bulging fetal membranes seen at or beyond the cervical os
+No evidence of blood, frank liquor loss, or purulent discharge at this examination
+Appearance of the membranes: intact but prolapsing
+
+Digital Vaginal Examination (performed once, with caution):
+Cervix markedly dilated (4–5 cm)
+Cervix soft and uneffaced
+Membranes bulging into the vagina and palpable through the dilated os
+No active contractions palpable
+
+ASSESSMENT
+Cervical incompetence presenting as painless mid-trimester cervical dilatation with bulging membranes at 24 weeks + 6 days, with two prior consistent mid-trimester losses. Note: this gestational age is below Nigeria's official threshold of fetal viability (28 weeks); the case is approached as previable but potentially salvageable with successful pregnancy prolongation.
+
+Differential diagnoses considered: preterm labour, placental abruption, placenta praevia, low-lying placenta/velamentous cord insertion, chorioamnionitis.
+
+PLAN
+
+Admit immediately to the high-risk obstetric unit. Alert senior obstetrician, neonatology team, and anaesthetist for joint counselling and decision-making, given the previable gestational age.
+
+Immediate Measures on Admission:
+Strict bed rest in the Trendelenburg position (10–15 degree head-down tilt)
+Minimise further vaginal examinations; reassess membrane status by speculum only if necessary
+Empty the bladder — insert Foley catheter or encourage immediate voiding
+Nil by mouth in preparation for possible emergency cerclage
+IV access — 18G cannula sited, bloods sent
+
+Investigations Ordered:
+Full blood count
+CRP
+Serum white cell count differential
+High vaginal swab (MCS)
+Urinalysis and urine MCS
+Maternal observations — temperature, pulse, uterine tenderness every 2–4 hours
+Amniocentesis for infection screening where available (Gram stain, WBC, glucose, culture, IL-6 if available)
+Continuous fetal heart rate monitoring (CTG)
+Obstetric ultrasound — fetal viability, biometry/EFW, amniotic fluid index, placental site, cervical length, fetal anatomy survey
+
+Medications/Interventions:
+IM Dexamethasone 6 mg every 12 hours for 4 doses (or IM Betamethasone 12 mg every 24 hours for 2 doses) — discussed jointly with neonatology given previable gestation, and given once a realistic prospect of pregnancy prolongation past the local viability threshold is established
+IV Magnesium sulphate 4 g loading dose over 20–30 minutes, then 1 g/hour maintenance, if delivery anticipated within 24 hours
+Vaginal micronised progesterone 200 mg nightly (or oral Dydrogesterone 10 mg twice daily if unavailable) — start immediately, continue regardless of cerclage decision
+SC Terbutaline 0.25 mg, or PR Indomethacin 50 mg, as short-term tocolysis prior to cerclage attempt
+
+Plan for Emergency (Rescue) Cervical Cerclage:
+If membranes remain intact, no clinical chorioamnionitis, no established labour, cervix less than 5–6 cm dilated, and no major fetal anomaly — proceed to rescue cerclage (McDonald technique) under regional anaesthesia after reduction of prolapsing membranes (bladder filling with warm Normal Saline and Trendelenburg positioning), following full counselling given the previable gestational age.
+Post-cerclage: bed rest 24–48 hours, repeat speculum at 24–48 hours, CTG, continue tocolysis (oral Nifedipine retard 20 mg twice daily for 48 hours), continue progesterone, single prophylactic dose IV Ceftriaxone 1–2 g at induction (or oral Cefalexin 500 mg twice daily for 5–7 days).
+Elective removal of cerclage planned at 36–37 weeks, or earlier if chorioamnionitis develops or labour cannot be suppressed.
+
+Plan if Cerclage Not Performed (Expectant Management):
+Continue bed rest and monitoring as above
+If membranes rupture: IV Ampicillin 2 g every 6 hours plus Azithromycin 1 g single dose (or oral Erythromycin 250 mg every 6 hours for 10 days)
+Deliver immediately if chorioamnionitis develops
+
+Counselling given to patient and husband, jointly with the neonatology team, on the diagnosis, the implications of the previable gestational age, the cerclage procedure and its risks, realistic prospects of pregnancy prolongation, signs of infection to report, and the plan for elective cerclage and cervical length surveillance in future pregnancies.
+
+FOLLOW-UP
+Daily clinical review during admission — temperature, pulse, uterine tenderness, fetal heart rate, vaginal discharge assessment every 4 hours. Serial WBC and CRP every 24–48 hours. CTG twice daily once gestation approaches a viable threshold. Weekly obstetric ultrasound for fetal growth, AFI, and cerclage stitch position (if placed). Cerclage stitch inspection at 24–48 hours post-procedure and then weekly. Progesterone continued until 36 weeks. Refer to maternal-fetal medicine specialist for next pregnancy booking; counsel on elective cerclage at 12–14 weeks, serial cervical length surveillance, and progesterone from 16 weeks in future pregnancies.
+`,
+  documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Cervical Incompetence Is the Diagnosis</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Definition</strong>
+        <p>Cervical incompetence (cervical insufficiency) is the inability of the cervix to retain a pregnancy to term in the absence of uterine contractions, due to a structural or functional weakness. It causes painless, progressive dilatation in the mid-trimester, typically leading to loss between 14 and 28 weeks. The cervix opens silently — without the painful, regular contractions of preterm labour — and once membranes prolapse, the pregnancy is expelled rapidly.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What the History Tells Us</strong>
+        <p>This patient's history shows the classic triad: a loss at 20 weeks preceded by painless dilatation, a loss at 22 weeks with minimal pain and rapid expulsion, and now painless dilatation again at 24+6 weeks. The absence of labour pains each time is the feature that separates cervical incompetence from spontaneous preterm labour. Two consecutive mid-trimester losses is itself a major diagnostic criterion, and the progressive pattern (20 weeks, then 22 weeks) suggests the cervix may be weakening further with each pregnancy.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What the Current Exam Confirms</strong>
+        <p>A cervix that is soft, fully uneffaced, and 4–5 cm dilated without any contractions is pathognomonic at this stage. The bulging membranes prolapsing through the internal os represent the most advanced and urgent form of this presentation. Critically, there is no fever, uterine tenderness, or purulent discharge — no clinical evidence of chorioamnionitis yet, which is the single factor that determines whether emergency cerclage remains an option.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Aetiology and Pathophysiology</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">How the Cervix Normally Holds</strong>
+        <p>The cervix maintains pregnancy through mechanical strength (its collagen network), biochemical stability (glycosaminoglycans, decorin), and hormonal competence (progesterone-driven collagen synthesis). Cervical incompetence results when one or more of these fail.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Congenital and Acquired Causes</strong>
+        <p>Congenital causes include uterine/cervical anomalies, connective tissue disorders such as Ehlers-Danlos or Marfan syndrome, and historical DES exposure (not relevant in contemporary Nigerian patients). Acquired causes include previous cervical surgery (LLETZ, cone biopsy, trachelectomy) and cervical trauma from obstetric procedures such as forceps delivery or overzealous D&C dilatation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">This Patient</strong>
+        <p>No cervical surgery, no connective tissue disorder family history, and no traumatic obstetric procedures are documented. This is idiopathic cervical incompetence — a compelling clinical history with no identifiable structural or iatrogenic cause, which is the case in many patients.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Gestational Age Matters Here — and a Key Correction</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Nigeria's Viability Threshold Is 28 Weeks, Not 24</strong>
+        <p>The official and legal age of fetal viability in Nigeria is 28 weeks, not 24 weeks. This matters because international figures (WHO, UK, US) often cite 24 weeks as a viability cutoff, which is not the reality of outcomes in most Nigerian centres, including well-equipped tertiary facilities. At 24+6 weeks, this patient is technically previable by Nigerian standards, and this must shape both the medical plan and the counselling.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Real Survival Data From Nigerian Centres</strong>
+        <p>A retrospective review of a Nigerian tertiary neonatal unit found no survivors among babies born at 22–25 weeks gestation, with survival only reaching 53.8% at 26 weeks and improving substantially by 35 weeks. This reflects limited availability of surfactant therapy and mechanical ventilation in many Nigerian neonatal units, and should temper any expectation of meaningful survival if delivery occurs at 24–25 weeks, even with antenatal optimisation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Goal Is Prolongation Past 28 Weeks, Not Just "More Weeks"</strong>
+        <p>Because real Nigerian survival data show essentially no survival below 26 weeks and only meaningful survival from 26–28 weeks onward, the realistic clinical target for this patient is not simply "buying time" in the abstract — it is prolonging the pregnancy specifically toward and beyond the local viability threshold of 28 weeks. WHO guidance on antenatal corticosteroids explicitly recommends that the lowest gestational age for steroid use be set according to local viability data and local newborn survival, rather than uncritically applying the 24-week threshold used in high-resource settings.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Rescue Cerclage — The Pivotal Decision</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What It Is and the Evidence Behind It</strong>
+        <p>Rescue cerclage is a suture placed after the cervix has already dilated, unlike elective cerclage placed prophylactically at 12–14 weeks. A 2023 systematic review and meta-analysis of over 3,200 women undergoing emergency cerclage found an overall survival rate of 74%, with neonatal survival of 90% among those reaching a viable gestation, and a mean gestational age at delivery of 30 weeks for singleton pregnancies — well past the Nigerian viability threshold when successful. Compared with expectant management, emergency cerclage was associated with significantly higher survival and longer pregnancy prolongation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Criteria That Must All Be Met</strong>
+        <p>Intact membranes, no clinical chorioamnionitis, no established labour, cervix dilated less than 5–6 cm, and no major fetal anomaly incompatible with survival. This patient meets all of them, with her 4–5 cm dilatation sitting at the upper acceptable range. Given the previable gestation, the decision to proceed should be made jointly with neonatology and with full, honest counselling of the family.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Risks on Both Sides</strong>
+        <p>Cerclage carries a risk of membrane rupture during the procedure itself, plus chorioamnionitis risk, procedure-triggered labour, and anaesthetic risk. Expectant management without cerclage carries near-certain rupture and delivery at a previable gestation, with very limited survival prospects in the Nigerian context, plus ongoing chorioamnionitis and maternal sepsis risk.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">FBC, CRP, and Differential</strong>
+        <p>White cell count and CRP screen for leucocytosis suggesting subclinical or clinical chorioamnionitis — a critical contraindication to cerclage. A neutrophilia with left shift (bands) is more specific for infection than total WBC alone. Both are widely available, and serial CRP is used to monitor for developing infection during expectant management.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">High Vaginal Swab and Urinalysis</strong>
+        <p>The HVS screens for bacterial vaginosis and GBS, both linked to mid-trimester loss and preterm birth — confirmed BV is treated with oral Metronidazole even before cerclage, and GBS positivity prompts intrapartum prophylaxis at delivery. Urinalysis catches UTI, a known precipitant of cervical ripening, which should be treated before cerclage. Results take 48–72 hours, so the cerclage decision should not wait on them if the clinical picture is otherwise favourable.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Amniocentesis — Where Available</strong>
+        <p>Amniocentesis for amniotic fluid Gram stain, white cell count, glucose, and culture is the most sensitive way to detect subclinical chorioamnionitis before cerclage. It is available at a number of Nigerian tertiary centres with maternal-fetal medicine capability, but is not universally accessible. Where it cannot be performed, clinical and laboratory criteria (vital signs, WBC, CRP) must guide the decision, and the patient should be counselled that subclinical infection cannot be fully excluded.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">CTG and Ultrasound</strong>
+        <p>Fetal tachycardia above 160 bpm is a sign of chorioamnionitis or fetal compromise, making CTG part of the infection-monitoring picture, not just fetal wellbeing. Ultrasound confirms viability and biometry, documents amniotic fluid index (oligohydramnios may signal an occult membrane leak), checks placental site to exclude praevia, and screens for major anomalies that would change the counselling around intervention.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Measure and Medication Was Chosen</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Positioning, Bladder, and Examination Limits</strong>
+        <p>Trendelenburg positioning uses gravity to help the prolapsing membranes retract back through the cervix under the weight of the presenting part — the most immediate tool available before any procedure. A full bladder raises intraperitoneal pressure and worsens prolapse, hence early catheterisation. Vaginal examinations are minimised because each one raises infection risk and the risk of precipitating rupture.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Tocolysis and Membrane Reduction Before Suturing</strong>
+        <p>SC Terbutaline or PR Indomethacin given before the procedure suppresses uterine activity and reduces membrane tension; Indomethacin additionally reduces amniotic fluid production via fetal renal prostaglandin inhibition, useful below 32 weeks. Reducing the membranes — by filling the bladder with 500–750 ml warm saline or using a wet gauze/Foley balloon — is the most technically difficult step, since suturing around still-prolapsing membranes dramatically raises the risk of rupture and failure.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Choosing the Cerclage Technique</strong>
+        <p>McDonald cerclage is the gold standard for rescue cases — a purse-string suture at the internal os with no bladder dissection required, performable under spinal anaesthesia by any trained obstetrician, with Mersilene tape generally available at Nigerian teaching hospitals. Shirodkar places the suture higher but is more technically demanding and reserved for failed McDonald attempts. Transabdominal cerclage requires laparotomy/laparoscopy and interval surgery between pregnancies, making it unsuitable for this acute first attempt.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Post-Cerclage Medications</strong>
+        <p>Oral Nifedipine retard for 48 hours prevents contraction-related stitch failure while the cervix settles. Progesterone (vaginal micronised, oral Dydrogesterone, or weekly IM 17-OHPC depending on availability) supports collagen synthesis and suppresses contractility, and is started immediately and continued regardless of the cerclage decision. Prophylactic Ceftriaxone or Cefalexin is widely used in Nigerian practice post-cerclage; the evidence isn't definitive, but the risk-benefit favours it given the infection risk in this setting.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">When Cerclage Is Abandoned for Expectant Management</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Indications to Switch Plans</strong>
+        <p>Expectant management replaces cerclage when there's clinical or lab evidence of chorioamnionitis, established regular contractions, membrane rupture before the stitch can be placed, dilatation beyond 6 cm, patient declines after counselling, or a fetal anomaly incompatible with survival.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">If Membranes Rupture</strong>
+        <p>IV Ampicillin plus a single dose of Azithromycin (or oral Erythromycin for 10 days if Azithromycin isn't accessible) is based on trial evidence showing this type of regimen prolongs the latency from rupture to delivery and reduces neonatal infectious morbidity. Erythromycin remains the more affordable option in many Nigerian settings.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Corticosteroids and Magnesium Were Considered, and How the Previable Gestation Changes the Approach</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Corticosteroids — A More Nuanced Decision Than "Give Immediately"</strong>
+        <p>WHO's updated 2022 guidance recommends antenatal corticosteroids from 24 to 34 weeks gestation, but specifies that the lowest gestational age for use should reflect local viability limits and local newborn survival data — not be applied uncritically from high-resource settings. Given that Nigerian neonatal survival data show essentially no survival at 24–25 weeks even at tertiary centres, the decision to give corticosteroids at this gestation should be made jointly with neonatology, alongside an honest assessment of whether the pregnancy is likely to be successfully prolonged toward a gestation where survival becomes realistic.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Magnesium Sulphate — Fetal Neuroprotection</strong>
+        <p>Most international guidelines recommend magnesium sulphate for fetal neuroprotection between roughly 24 and 30–34 weeks gestation when birth is anticipated within 24 hours, reducing cerebral palsy risk in survivors by approximately 30%. At 24+6 weeks, this patient falls within that window. As with corticosteroids, its use should be considered within the context of a realistic discussion about prolongation toward viability, particularly if delivery is not in fact imminent and cerclage may succeed.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Chorioamnionitis — What to Watch For and Why</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Gibbs Criteria</strong>
+        <p>Clinical chorioamnionitis is defined by two or more of: maternal fever above 38°C, maternal tachycardia above 100 bpm, fetal tachycardia above 160 bpm, uterine tenderness, purulent/foul discharge, and maternal leucocytosis above 15 × 10⁹/L. Meeting two or more means cerclage is contraindicated (or must be removed if already placed), and delivery should proceed without delay alongside IV antibiotics.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Monitoring Schedule Looks the Way It Does</strong>
+        <p>Four-hourly observations, serial CRP/WBC every 24–48 hours, twice-daily CTG, and stitch inspection at 24–48 hours then weekly all exist specifically to catch chorioamnionitis early — before it becomes clinically obvious — since this is the complication that changes the entire management plan.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Differential Diagnosis — Why Each Was Excluded</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Preterm Labour</strong>
+        <p>Distinguished by regular, painful, progressive contractions driving cervical change. This patient had painless dilatation with no contractions, clinically excluding it — though it's worth noting preterm labour can still develop later if prolapsed membranes become infected.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Abruption, Praevia, and Vascular Mimics</strong>
+        <p>Abruption presents with painful tenderness, bleeding, and a tense uterus — none present here. Praevia causes painless bleeding from a low-lying placenta — absent, and early ultrasound had already confirmed normal placental positioning. A vasa praevia or velamentous cord mimicking prolapse is excluded on speculum, which clearly showed fetal membranes rather than a vascular structure.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Chorioamnionitis and Funnelling</strong>
+        <p>Chorioamnionitis was excluded by the absence of fever, tenderness, tachycardia, or discharge — though it must be actively monitored going forward. Funnelling (an earlier stage where the internal os dilates before the external os) had already progressed past — this patient is at frank dilatation with prolapse, illustrating why cervical length surveillance from 16 weeks matters in women with this history: it could catch funnelling before it reaches this stage.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Counselling Framework</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Explaining the Diagnosis and the Honest Picture on Timing</strong>
+        <p>In plain terms: the cervix isn't strong enough to stay closed, and it has opened silently — the same likely cause behind both earlier losses. At 24+6 weeks, the pregnancy is below Nigeria's recognised threshold of viability (28 weeks), and survival at this exact gestation is very unlikely even with intensive care. The honest goal of any intervention is to buy enough time to reach a gestation where survival becomes realistic — every week gained matters, but the family should understand the gestation is currently previable.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Explaining the Procedure and Its Risks</strong>
+        <p>The stitch is placed under anaesthesia similar to a spinal injection — awake, no pain. The hardest part is pushing the bulging membranes back before suturing, which carries a real risk of rupture during the attempt itself. Pregnancy data show that when rescue cerclage succeeds, pregnancies are commonly prolonged by several weeks to a couple of months, often reaching the early third trimester; when it fails, rupture and delivery follow.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Counselling for Future Pregnancies</strong>
+        <p>She should never reach this point again. Early booking before 10 weeks, disclosure of this history, elective cerclage at 12–14 weeks before the cervix begins opening, cervical length scans every 2 weeks from 14–24 weeks, and vaginal progesterone from 16 weeks all meaningfully change the trajectory of a future pregnancy.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Setting Realistic Expectations</strong>
+        <p>Success means reaching 28 weeks and beyond, not just "more time" in the abstract — this is the threshold at which survival in the Nigerian setting becomes genuinely possible. If the pregnancy is lost despite everything, that reflects the severity of this presentation, not a failure of care. With two prior losses plus this emergency, her anxiety should be acknowledged directly, with psychological support and her husband included in every major decision.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Prognosis — The Numbers Behind the Counselling</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">With Successful Cerclage</strong>
+        <p>A 2023 meta-analysis of rescue cerclage in over 3,200 women found an overall survival rate of 74%, a neonatal survival rate of 90% among viable pregnancies, and a mean gestational age at delivery of 30 weeks for singleton pregnancies — though outcomes were less favourable at greater degrees of dilatation and membrane prolapse, both of which apply here.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Without Cerclage, and What Local Data Show</strong>
+        <p>Nigerian neonatal data show no survivors among babies born at 22–25 weeks at the centre studied, with survival reaching just over half only from 26 weeks onward. This means expectant management without successful prolongation, if delivery occurs at the current gestation, carries an extremely poor prognosis in the Nigerian setting. By contrast, elective cerclage placed at 12–14 weeks in a future pregnancy — before any dilatation occurs — offers a far better chance of reaching term or near-term delivery. Maternal mortality risk from cerclage itself is low; the main maternal risk is sepsis if rupture and delayed delivery occur, and psychological morbidity from recurrent loss is significant and deserves ongoing support.</p>
+      </div>
+    </div>
+
+  </div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Nigeria's official threshold of fetal viability is 28 weeks, not 24 — do not anchor counselling or prognosis to internationally cited 24-week figures without checking local neonatal unit outcome data first.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Painless cervical dilatation is the defining feature that separates cervical incompetence from preterm labour — always ask specifically about pain pattern in recurrent mid-trimester loss.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Amniocentesis for infection screening is the most sensitive test before rescue cerclage; where unavailable, lean on clinical chorioamnionitis criteria (Gibbs) and serial CRP/WBC, and counsel the patient that subclinical infection cannot be fully excluded.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Cervix dilated beyond 5–6 cm, active labour, ruptured membranes, or any sign of chorioamnionitis are hard contraindications to cerclage — do not proceed.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Decisions on antenatal corticosteroids and resuscitation at previable gestations should be made jointly with the neonatology team and grounded in local survival data, not assumed from international thresholds.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Every woman with a history of mid-trimester loss should be booked early in subsequent pregnancies, with elective cerclage at 12–14 weeks and serial cervical length scans from 14–24 weeks, rather than waiting to present in an emergency like this one.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>This patient has experienced two prior losses plus this acute presentation — treat the psychological burden as seriously as the obstetric one, and involve her husband in major decisions.</span>
+      </li>
+    </ul>
+  </div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Audu L, Otuneye A, Mairami A, Mukhtar-Yola M, Mshelia L, Ekhaguere O. Gestational age-related neonatal survival at a tertiary health institution in Nigeria: the age of fetal viability dilemma. Nigerian Journal of Paediatrics. 2020;47(2):61–67.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Hulshoff CC, Bosgraaf RP, Spaanderman MEA, Inthout J, Scholten RR, van Drongelen J. The efficacy of emergency cervical cerclage in singleton and twin pregnancies: a systematic review with meta-analysis. American Journal of Obstetrics & Gynecology MFM. 2023;5(7):100971.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. WHO Recommendations on Antenatal Corticosteroids for Improving Preterm Birth Outcomes. Geneva: WHO; 2022.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. WHO Recommendations on Interventions to Improve Preterm Birth Outcomes. Geneva: WHO.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Magee LA, De Silva DA, Sawchuck D, Synnes A, von Dadelszen P. SOGC Clinical Practice Guideline No. 376: Magnesium Sulphate for Fetal Neuroprotection. Journal of Obstetrics and Gynaecology Canada. 2019;41(4):505–522.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society of Gynaecology and Obstetrics of Nigeria (SOGON) clinical practice guidance on management of cervical incompetence and preterm birth, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+  bookmarkCount: 0
 },
 
   // General Outpatient

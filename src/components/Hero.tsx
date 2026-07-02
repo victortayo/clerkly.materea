@@ -27,7 +27,8 @@ export function Hero({
     'Internal Medicine',
     'Obstetrics and Gynecology',
     'Surgery',
-    'General Outpatient'
+    'General Outpatient',
+    'Behavioral Sciences'
   ];
 
   useEffect(() => {

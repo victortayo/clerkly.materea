@@ -1,8 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Template } from '../types';
-import { generateClinicalInsight } from '../services/gemini';
 import { useToast } from '../context/ToastContext';
-import { ClinicalInsightModal } from './ClinicalInsightModal';
 import ScrollProgressBar from './ScrollProgressBar';
 
 interface TemplateDetailProps {
@@ -14,14 +12,6 @@ interface TemplateDetailProps {
 
 export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmark }: TemplateDetailProps) {
   const [copied, setCopied] = useState(false);
-  const [insight, setInsight] = useState<{ 
-    managementPrinciples: string[], 
-    criticalActions: string[], 
-    contraindications: string[], 
-    contextualNotes: string 
-  } | null>(null);
-  const [loadingInsight, setLoadingInsight] = useState(false);
-  const [isInsightModalOpen, setIsInsightModalOpen] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   // State specifically for the content being edited in the textarea
   const [editedContent, setEditedContent] = useState(template ? template.content : '');
@@ -36,9 +26,8 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
     }
   }, [template]);
 
-  // Handle side-effects of switching modes, like clearing insights or exiting edit mode.
+  // Handle side-effects of switching modes, like exiting edit mode.
   useEffect(() => {
-    setInsight(null);
     if (mode === 'teach') {
       setIsEditing(false); // Can't edit in teach mode
     }
@@ -122,34 +111,10 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
     setIsEditing(!isEditing);
   }
 
-  const handleGetInsight = async () => {
-    setIsInsightModalOpen(true);
-    if (insight) return;
-    
-    setLoadingInsight(true);
-    try {
-      const result = await generateClinicalInsight(template);
-      setInsight(result);
-    } catch (error) {
-      console.error(error);
-      showToast('Failed to generate insight');
-    } finally {
-      setLoadingInsight(false);
-    }
-  };
-
   return (
     <div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8 animate-in fade-in slide-in-from-right duration-500">
       <ScrollProgressBar templateId={template.id} mode={mode} />
       
-      <ClinicalInsightModal 
-        isOpen={isInsightModalOpen}
-        onClose={() => setIsInsightModalOpen(false)}
-        isLoading={loadingInsight}
-        insight={insight}
-        templateTitle={template.title}
-      />
-
       {isDisclaimerVisible && (
         <div className="bg-amber-50 dark:bg-amber-950/30 p-2.5 rounded-xl border border-amber-100/50 dark:border-amber-900/50 mb-4">
           <div className="flex gap-2 items-start">
@@ -192,6 +157,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
                 template.specialty === 'Internal Medicine' ? 'bg-blue-500/10 text-blue-300 border-blue-500/20' :
                 template.specialty === 'Obstetrics and Gynecology' ? 'bg-rose-500/10 text-rose-300 border-rose-500/20' :
                 template.specialty === 'Surgery' ? 'bg-orange-500/10 text-orange-300 border-orange-500/20' :
+                template.specialty === 'Behavioral Sciences' ? 'bg-purple-500/10 text-purple-300 border-purple-500/20' :
                 'bg-indigo-500/10 text-indigo-300 border-indigo-500/20'
               }`}>
                 {template.specialty}
@@ -303,17 +269,11 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
             )}
 
             <button
-              onClick={handleGetInsight}
-              className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold text-amber-700 bg-amber-50 hover:bg-amber-100 dark:text-amber-400 dark:bg-amber-900/20 dark:hover:bg-amber-900/30 transition-colors"
-              title="Generate Clinical Insight"
-            >
-              <i className="fa-solid fa-lightbulb text-yellow-500"></i>
-              <span className="hidden sm:inline">Insight</span>
-            </button>
-
-            <button
               onClick={handleCopy}
+              disabled={mode === 'teach'}
               className={`flex items-center justify-center w-10 h-8 rounded-lg transition-colors ${ 
+                mode === 'teach' ? 'invisible' : ''
+              } ${
                 copied 
                   ? 'text-emerald-600 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20' 
                   : 'text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:text-indigo-400 dark:hover:bg-slate-800 dark:border-slate-700'
@@ -383,14 +343,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         </button>
 
         <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
-          {/* Mobile Insight Button */}
-          <button
-            onClick={handleGetInsight}
-            className="sm:hidden w-full px-6 py-3 rounded-xl font-bold text-xs text-amber-700 bg-amber-50 hover:bg-amber-100 dark:text-amber-400 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-800 transition-colors flex items-center justify-center gap-2"
-          >
-            <i className="fa-solid fa-lightbulb text-yellow-500"></i>
-            <span>Generate Insight</span>
-          </button>
 
           {/* Save Button */}
           <button
@@ -406,17 +358,19 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           </button>
 
           {/* Copy Button (Primary CTA) */}
-          <button
-            onClick={handleCopy}
-            className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2 ${
-              copied
-                ? 'bg-emerald-600 text-white shadow-emerald-200 dark:shadow-none'
-                : 'bg-indigo-950 text-white shadow-indigo-200 dark:shadow-none hover:bg-indigo-900'
-            }`}
-          >
-            {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
-            <span>{copied ? 'Copied' : 'Copy'}</span>
-          </button>
+          {mode === 'documentation' &&
+            <button
+              onClick={handleCopy}
+              className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2 ${
+                copied
+                  ? 'bg-emerald-600 text-white shadow-emerald-200 dark:shadow-none'
+                  : 'bg-indigo-950 text-white shadow-indigo-200 dark:shadow-none hover:bg-indigo-900'
+              }`}
+            >
+              {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
+              <span>{copied ? 'Copied' : 'Copy'}</span>
+            </button>
+          }
         </div>
       </div>
     </div>

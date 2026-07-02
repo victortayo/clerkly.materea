@@ -3,7 +3,8 @@ export type Specialty =
   | 'Internal Medicine'
   | 'Obstetrics and Gynecology'
   | 'Surgery'
-  | 'General Outpatient';
+  | 'General Outpatient'
+  | 'Behavioral Sciences';
 
 export interface Template {
   id: string;

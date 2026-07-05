@@ -1,5 +1,5 @@
 
-export type LearningModuleCategory = 'Symptom Clerking' | 'Physical Examination' | 'Laboratory Interpretation' | 'Clinical Scoring Systems';
+export type LearningModuleCategory = 'Symptom Clerking' | 'Physical Examination' | 'Laboratory Interpretation' | 'Clinical Scoring Systems' | 'Counselling';
 
 export interface LearningModule {
   id: string;
@@ -11,135 +11,280 @@ export interface LearningModule {
 export const clerklyLearnLibrary: LearningModule[] = [
   {
     id: 'symptom-clerking-fever',
-    title: 'Clerking a Fever Patient',
+    title: 'Fever',
     category: 'Symptom Clerking',
     content: `
-<h1 class="font-brand text-4xl font-bold mb-4 text-slate-900 dark:text-white">Clerking a Fever Patient</h1>
-
-<div class="bg-indigo-50 dark:bg-indigo-900/20 p-5 rounded-xl border border-indigo-200 dark:border-indigo-800/50 mb-8">
-  <h2 class="font-brand text-lg font-bold text-indigo-900 dark:text-indigo-300 mb-2">Guiding Principles</h2>
-  <ul class="space-y-2 list-disc pl-5 text-indigo-900/80 dark:text-indigo-200/80 text-sm">
-    <li>Fever is a symptom, not a diagnosis. Your primary goal is to find the source.</li>
-    <li>Before taking a detailed history, spend 30-60 seconds assessing for instability. Rule out the killers first.</li>
-    <li>The differential diagnosis for fever is vast and varies significantly with age, immune status, and geographical location.</li>
-    <li>In Nigeria, always consider Malaria, Tuberculosis, and HIV in cases of persistent or unexplained fever.</li>
-  </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Fever</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">SYMPTOMS</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Fever</h1>
+    <p class="text-sm text-indigo-200">Fever is one of the commonest presenting complaints on the wards and in outpatient clinics across Nigerian hospitals, and it sits behind an unusually wide differential - from a self-limiting viral illness to conditions capable of killing within hours, such as severe malaria, bacterial sepsis, or Lassa fever. This guide focuses on the two things that do the most diagnostic work - a well-directed history and a thorough examination - before closing with the investigations and differentials they point you towards.</p>
+  </div>
 </div>
-
-<div class="space-y-8">
-
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
   <div>
-    <h2 class="font-brand text-2xl font-bold text-slate-800 dark:text-slate-200 border-b border-slate-200 dark:border-slate-700 pb-2 mb-4">Step 1: Assess for Stability (ABCDE)</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-        <strong class="font-bold text-lg text-slate-800 dark:text-slate-200">A - Airway</strong>
-        <ul class="list-disc pl-5 mt-2 text-sm text-slate-600 dark:text-slate-400 space-y-1">
-          <li>Is it patent?</li>
-          <li>Any stridor or gurgling sounds?</li>
-          <li>Risk of aspiration?</li>
-        </ul>
-      </div>
-      <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-        <strong class="font-bold text-lg text-slate-800 dark:text-slate-200">B - Breathing</strong>
-        <ul class="list-disc pl-5 mt-2 text-sm text-slate-600 dark:text-slate-400 space-y-1">
-          <li>Respiratory rate &amp; SpO₂</li>
-          <li>Work of breathing (accessory muscles)</li>
-          <li>Auscultate for abnormal sounds</li>
-        </ul>
-      </div>
-      <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-        <strong class="font-bold text-lg text-slate-800 dark:text-slate-200">C - Circulation</strong>
-        <ul class="list-disc pl-5 mt-2 text-sm text-slate-600 dark:text-slate-400 space-y-1">
-          <li>Pulse rate &amp; Blood pressure</li>
-          <li>Capillary refill time (&lt;2s)</li>
-          <li>Peripheral perfusion (warm/cold)</li>
-          <li>Urine output</li>
-        </ul>
-      </div>
-      <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-        <strong class="font-bold text-lg text-slate-800 dark:text-slate-200">D - Disability</strong>
-        <ul class="list-disc pl-5 mt-2 text-sm text-slate-600 dark:text-slate-400 space-y-1">
-          <li>AVPU or GCS</li>
-          <li>Blood glucose</li>
-          <li>Pupil size and reactivity</li>
-          <li>Check for neck stiffness</li>
-        </ul>
-      </div>
-    </div>
-     <div class="mt-4 bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-        <strong class="font-bold text-lg text-slate-800 dark:text-slate-200">E - Exposure</strong>
-        <ul class="list-disc pl-5 mt-2 text-sm text-slate-600 dark:text-slate-400 space-y-1">
-          <li>Measure temperature</li>
-          <li>Check for rashes, petechiae, or purpura</li>
-           <li>Look for sources: cellulitis, wounds, abscesses</li>
-        </ul>
-      </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Fever Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When exactly did the fever start, and how many days has it lasted?</li>
+      <li>Has it been continuous, or does it come and go? Does it break with sweating, and does it respond to paracetamol or other antipyretics?</li>
+      <li>Has the patient already taken any antimalarial or antibiotic for this illness, and did it help even partially? (Partial treatment blurs the picture and can mask a serious cause.)</li>
+      <li>Is there an associated pattern - chills and rigors, night sweats, or a sense of the fever being worse at a particular time of day?</li>
+    </ul>
+    <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">Note: the classical teaching of a step-ladder rise in typhoid or strict 48-hourly periodicity in <em>Plasmodium vivax</em> infection is unreliable in practice locally, given how often patients have already self-medicated. Treat the pattern as a clue, not a diagnosis.</p>
   </div>
-
-  <div class="bg-rose-50 dark:bg-rose-900/20 p-5 rounded-xl border border-rose-200 dark:border-rose-800/50">
-      <h3 class="font-bold text-lg text-rose-900 dark:text-rose-300 mb-2 flex items-center gap-2"><i class="fa-solid fa-flag"></i>Urgent Red Flags</h3>
-      <p class="text-rose-900/80 dark:text-rose-200/80 text-sm">If you see these signs during your initial assessment, escalate for immediate management:</p>
-      <ul class="mt-2 space-y-1 list-disc pl-5 text-sm text-rose-900/80 dark:text-rose-200/80">
-          <li>Altered consciousness, persistent seizures, or neck stiffness (Meningitis, Severe Malaria)</li>
-          <li>Hypotension, tachycardia, poor perfusion (Septic Shock)</li>
-          <li>Severe respiratory distress or cyanosis (Severe Pneumonia, PE)</li>
-          <li>Non-blanching petechial or purpuric rash (Meningococcemia)</li>
-      </ul>
-  </div>
-
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
   <div>
-    <h2 class="font-brand text-2xl font-bold text-slate-800 dark:text-slate-200 border-b border-slate-200 dark:border-slate-700 pb-2 mb-4">Step 2: Focused History</h2>
-    <div>
-      <h3 class="font-bold text-lg text-slate-800 dark:text-slate-300 mb-2">Characterizing the Fever</h3>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">Ask about onset, duration, pattern (e.g., continuous, intermittent), highest recorded temperature, and associated symptoms like chills, rigors, and night sweats.</p>
-    </div>
-  </div>
-
-   <div>
-    <h3 class="font-bold text-lg text-slate-800 dark:text-slate-300 mb-2">Localizing Symptoms</h3>
-    <p class="text-slate-600 dark:text-slate-400 text-sm mb-3">Systematically ask about symptoms to pinpoint the source of infection:</p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-        <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700"><strong>Respiratory:</strong> Cough, chest pain, SOB</div>
-        <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700"><strong>Gastrointestinal:</strong> Abdominal pain, diarrhea, vomiting, jaundice</div>
-        <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700"><strong>Genitourinary:</strong> Dysuria, frequency, flank pain</div>
-        <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700"><strong>Neurological:</strong> Headache, confusion, neck stiffness</div>
-    </div>
-  </div>
-
-  <div>
-      <h2 class="font-brand text-2xl font-bold text-slate-800 dark:text-slate-200 border-b border-slate-200 dark:border-slate-700 pb-2 mb-4">Step 3: Examination &amp; Investigations</h2>
-      <p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Perform a full head-to-toe examination. Pay close attention to vital signs, hydration status, and look for a source (e.g., crackles in the lungs, abdominal tenderness, a skin rash, or a heart murmur).</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-              <h4 class="font-bold text-md text-slate-800 dark:text-slate-300 mb-1">Baseline Tests (Nigeria)</h4>
-              <ul class="list-disc pl-5 text-sm text-slate-600 dark:text-slate-400">
-                  <li>Malaria RDT/Microscopy</li>
-                  <li>Full Blood Count (FBC)</li>
-                  <li>Urinalysis</li>
-              </ul>
-          </div>
-          <div class="bg-white dark:bg-slate-800 p-4 rounded-lg border border-slate-200 dark:border-slate-700">
-              <h4 class="font-bold text-md text-slate-800 dark:text-slate-300 mb-1">Crucial Second-Line Tests</h4>
-              <ul class="list-disc pl-5 text-sm text-slate-600 dark:text-slate-400">
-                  <li><strong>Blood Culture (before antibiotics)</strong></li>
-                  <li>Chest X-ray</li>
-                  <li>HIV Test (with consent)</li>
-                  <li>Sputum GeneXpert (if TB suspected)</li>
-              </ul>
-          </div>
-      </div>
-  </div>
-
-  <div class="bg-amber-50 dark:bg-amber-900/20 p-5 rounded-xl border border-amber-200 dark:border-amber-800/50">
-    <h3 class="font-bold text-lg text-amber-900 dark:text-amber-300 mb-2 flex items-center gap-2"><i class="fa-solid fa-lightbulb"></i>Common Pitfalls in Nigeria</h3>
-    <ul class="space-y-1 list-disc pl-5 text-sm text-amber-900/80 dark:text-amber-200/80">
-        <li><strong>Not every fever is malaria.</strong> Test before you treat.</li>
-        <li><strong>The Widal test is unreliable for diagnosing typhoid.</strong> Use blood culture.</li>
-        <li><strong>Always consider Tuberculosis and HIV</strong> in any fever lasting more than two weeks.</li>
-        <li>A fever in a neonate or an immunocompromised patient is an emergency until proven otherwise.</li>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General:</span> chills/rigors, night sweats, weight loss, loss of appetite, generalized body weakness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Head/neuro:</span> headache (severity/character), neck stiffness, photophobia, seizures, confusion, or a behaviour change noticed by relatives.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough (how many days/weeks - beyond two weeks raises TB), sputum, chest pain, difficulty breathing, sore throat.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> abdominal pain (site), vomiting, diarrhoea or constipation, jaundice.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, loin pain, discharge; in women of reproductive age - LMP and pregnancy possibility.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal/skin:</span> joint pains, myalgia, rash (timing relative to fever), unusual bleeding from gums, nose, or injection sites.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Haematological:</span> easy bruising, prolonged bleeding from small cuts, blood in urine or stool.</li>
     </ul>
   </div>
 </div>
-`
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Exposure History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria:</span> Sleeps under a treated bednet? Recent mosquito bites or travel to a high-transmission area? Number of malaria episodes this year?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid:</span> Water source - pipe-borne, borehole, sachet, or well? Street food? Similar illness among contacts?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lassa fever:</span> Rodents seen at home or in food stores? Bush meat consumption? Contact with anyone with unexplained fever, bleeding, or a recent unexplained death? Residence/travel to an endemic state, and is it within the November-May peak?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Meningitis:</span> Crowded household/hostel? Similar illness nearby with neck stiffness or rash? Meningococcal vaccination? Dry season (Dec-June)?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis:</span> Cough beyond two weeks? Known TB contact? HIV status?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sepsis:</span> Recent surgery, delivery, catheter, IV line, or wound? Recent hospitalization?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupational/zoonotic:</span> Abattoir, farm, or livestock work? (leptospirosis, brucellosis, anthrax)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General:</span> Recent travel (local/international)? Immunization history? HIV risk factors/status?</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or toxic/acutely unwell? This impression should shape urgency more than any single number.</li>
+      <li>Full set of vitals - temperature, heart rate, respiratory rate, blood pressure, SpO2. A normal temperature at examination does <span class="font-medium text-slate-800 dark:text-slate-200">not</span> exclude a febrile illness.</li>
+      <li>Hydration status - dry mucous membranes, reduced skin turgor, sunken eyes.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Physical Signs to Actively Look For</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pallor</span> - conjunctivae and palms; malaria-associated haemolysis or chronic disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Jaundice</span> - sclerae; seen in malaria and hepatic causes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Rash</span> - distinguish petechial/purpuric, non-blanching (meningococcaemia, viral haemorrhagic fever) from maculopapular (viral exanthem, drug reaction).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphadenopathy</span> - cervical, axillary, inguinal nodes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bleeding</span> - gums, nose, venepuncture sites, particularly if Lassa fever is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Facial or neck swelling</span> - an often-overlooked Lassa fever pointer.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Systemic Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest:</span> crepitations or consolidation; respiratory distress.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdomen:</span> hepatomegaly and splenomegaly (malaria, typhoid), localized tenderness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Joints/skin:</span> signs of inflammatory or infective arthritis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological screen</span> (mandatory if drowsy, confused, or headache): GCS, neck stiffness, Kernig's and Brudzinski's signs - do not skip because the patient "seems fine."</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="list-disc pl-5 space-y-2 text-sm text-rose-900 dark:text-rose-300">
+    <li><span class="font-medium">Severe malaria (WHO criteria)</span> - impaired consciousness/prostration, repeated convulsions, respiratory distress, circulatory collapse/shock, abnormal bleeding, jaundice, severe anaemia, hypoglycaemia, renal impairment. Any one mandates treatment as severe disease.</li>
+    <li><span class="font-medium">Sepsis</span> - hypotension, altered mental status, tachypnoea (qSOFA). Prompts urgent source identification and early antibiotics.</li>
+    <li><span class="font-medium">Meningitis</span> - neck stiffness, photophobia, non-blanching rash, seizures, reduced conscious level.</li>
+    <li><span class="font-medium">Lassa fever</span> - unexplained bleeding, exudative sore throat, facial/neck swelling, pregnancy (higher mortality, especially third trimester), contact with a confirmed/suspected case.</li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - every febrile patient, before any antimalarial (NMEP's Test, Treat, Track policy).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC with differential and urinalysis</span> - baseline for essentially every febrile presentation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood culture</span> (before antibiotics) - preferred over Widal for suspected typhoid; a single Widal result should never confirm typhoid alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFT, RFT, electrolytes</span> - where systemic illness or organ involvement is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest radiograph</span> - respiratory symptoms or chronic cough.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lumbar puncture</span> - where meningitis is suspected, once raised ICP is reasonably excluded.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy test</span> - in any woman of reproductive age, before certain medications.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lassa fever RT-PCR</span> at a reference laboratory (e.g. ISTH Irrua, LUTH) - where red flags are present; report to NCDC without waiting for results.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria</span> - the default and commonest cause; always confirm, never assume.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid fever</span> - abdominal pain, relative bradycardia, poor sanitation history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">UTI/pyelonephritis</span> - dysuria, frequency, loin pain/tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacterial sepsis</span> - clear source (wound, line, recent surgery) with systemic derangement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Meningitis</span> - headache, neck stiffness, photophobia, altered consciousness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lassa fever</span> - unexplained fever with bleeding, sore throat, facial swelling, or a relevant exposure/contact history, particularly in season.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - chronic fever beyond two weeks, night sweats, weight loss, cough.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV-related opportunistic infection</span> - in a patient with risk factors or known positive status.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Viral URTI/COVID-19</span> - self-limiting, predominant respiratory symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Leptospirosis/brucellosis/anthrax</span> - relevant occupational or animal exposure.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Fever, duration in days.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, pattern, associated symptoms by system, directed epidemiological history, treatment already received, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Chronic illnesses, prior hospitalizations, previous similar episodes.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Medications already taken, regular medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Living conditions, water/sanitation access, occupation, similar illness in contacts.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, general and systemic findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, empirical treatment (where justified), monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 7. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Labelling every fever as "malaria" and treating empirically without parasitological confirmation.</li>
+    <li>Relying on a single Widal test result to confirm typhoid fever.</li>
+    <li>Failing to consider Lassa fever during peak season, particularly with bleeding, sore throat, or facial swelling.</li>
+    <li>Reassuring oneself because a patient "looks well" early - severe malaria and sepsis can deteriorate rapidly.</li>
+    <li>Neglecting to isolate and notify authorities when a notifiable disease is suspected.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li>Test before you treat - confirm malaria parasitologically before starting antimalarials, per NMEP's T3 policy.</li>
+    <li>A single Widal test should never be the sole basis for a typhoid diagnosis in an endemic population.</li>
+    <li>Unexplained fever with bleeding, sore throat, or facial swelling in season should trigger isolation and Lassa workup, not just reassurance.</li>
+    <li>Reassess febrile patients who currently look well - deterioration in severe malaria and sepsis can be rapid.</li>
+    <li>Notify NCDC or the state epidemiologist promptly for any suspected notifiable disease.</li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, National Malaria Elimination Programme - National Guidelines for Diagnosis and Treatment of Malaria in Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria (severe malaria criteria).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - National Guidelines for Lassa Fever Case Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Surviving Sepsis Campaign / qSOFA criteria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - Meningitis Surveillance and Response Guidelines.</li>
+    </ul>
+  </div>
+</details>
+ 
+ 
+</body>
+
+    `
   }
 ]

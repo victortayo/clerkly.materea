@@ -1,11 +1,10 @@
 interface FooterProps {
   onOpenHelp: () => void;
-  onOpenContribute: () => void;
   onOpenAbout: () => void;
   onOpenDisclaimer: () => void;
 }
 
-export function Footer({ onOpenHelp, onOpenContribute, onOpenAbout, onOpenDisclaimer }: FooterProps) {
+export function Footer({ onOpenHelp, onOpenAbout, onOpenDisclaimer }: FooterProps) {
   return (
     <footer className="bg-indigo-950 dark:bg-slate-900 text-slate-400 dark:text-slate-500 py-12 mt-16 border-t border-transparent dark:border-slate-800 transition-colors">
       <div className="max-w-7xl mx-auto px-4 text-center">
@@ -30,22 +29,16 @@ export function Footer({ onOpenHelp, onOpenContribute, onOpenAbout, onOpenDiscla
             Help
           </button>
           <button 
-            onClick={onOpenContribute} 
+            onClick={onOpenDisclaimer} 
             className="hover:text-white transition-colors text-xs font-semibold bg-transparent border-none cursor-pointer"
           >
-            Contribute
+            Disclaimer
           </button>
           <button 
             onClick={onOpenAbout} 
             className="hover:text-white transition-colors text-xs font-semibold bg-transparent border-none cursor-pointer"
           >
             About
-          </button>
-          <button 
-            onClick={onOpenDisclaimer} 
-            className="hover:text-white transition-colors text-xs font-semibold bg-transparent border-none cursor-pointer"
-          >
-            Disclaimer
           </button>
         </div>
         

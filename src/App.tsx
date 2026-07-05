@@ -122,7 +122,6 @@ export default function App() {
             <Layout 
                 onReset={handleReset}
                 onOpenHelp={() => setActiveModal('help')}
-                onOpenContribute={() => setActiveModal('contribute')}
                 onOpenAbout={() => setActiveModal('about')}
                 onOpenDisclaimer={() => setActiveModal('disclaimer')}
                 onShowBookmarks={() => setShowBookmarks(true)}
@@ -227,7 +226,7 @@ export default function App() {
                         <section className="pt-2 border-t border-slate-100 dark:border-slate-800">
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                             <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                                Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
+                                Join our community on WhatsApp to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                             </p>
                             <div className="flex flex-col gap-2">
                                 <a
@@ -238,15 +237,6 @@ export default function App() {
                                 >
                                     <i className="fa-brands fa-whatsapp text-sm"></i>
                                     Join our WhatsApp Group
-                                </a>
-                                <a
-                                    href="https://t.me/+CTzB_o08AewwODdk"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
-                                >
-                                    <i className="fa-brands fa-telegram text-sm"></i>
-                                    Join our Telegram Channel
                                 </a>
                             </div>
                         </section>
@@ -310,7 +300,7 @@ export default function App() {
                         <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                             <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
+                            Join our community on WhatsApp to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                             </p>
                             <div className="flex flex-col gap-2">
                                 <a
@@ -321,15 +311,6 @@ export default function App() {
                                 >
                                     <i className="fa-brands fa-whatsapp text-sm"></i>
                                     Join our WhatsApp Group
-                                </a>
-                                <a
-                                    href="https://t.me/+CTzB_o08AewwODdk"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
-                                >
-                                    <i className="fa-brands fa-telegram text-sm"></i>
-                                    Join our Telegram Channel
                                 </a>
                             </div>
                         </section>
@@ -346,10 +327,10 @@ export default function App() {
                         <div className="bg-gradient-to-br from-indigo-50 to-white dark:from-slate-800 dark:to-slate-900 p-4 rounded-2xl border border-indigo-100 dark:border-slate-700">
                             <div className="space-y-4 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                                 <p>
-                                    Medicine has always been an apprenticeship. The best way to learn is by seeing — by observing real patients, patterns, and decision-making in context. But in reality, many doctors in training do not get enough exposure to the full range of clinical cases they are expected to understand.
+                                    Medicine has always been an apprenticeship. The best way to learn is by seeing - by observing real patients, patterns, and decision-making in context. But in reality, many doctors in training do not get enough exposure to the full range of clinical cases they are expected to understand.
                                 </p>
                                 <p>
-                                    The next best way to learn is through well-structured examples — to learn from what others have seen, documented, and reasoned through.
+                                    The next best way to learn is through well-structured examples - to learn from what others have seen, documented, and reasoned through.
                                 </p>
                                 <p>
                                     This platform was built on that idea.
@@ -361,16 +342,10 @@ export default function App() {
                                     Beyond documentation, this resource is designed to bridge the gap between theory and reality. It provides practical, step-by-step approaches to patient management, taking into account the socioeconomic and infrastructural realities of healthcare in Nigeria.
                                 </p>
                                 <p>
-                                    This platform is intended for medical students in their clinical years, house officers, and early-career doctors — anyone looking to think more clearly, clerk more effectively, and manage patients with greater confidence.
+                                    This platform is intended for medical students in their clinical years, house officers, and early-career doctors - anyone looking to think more clearly, clerk more effectively, and manage patients with greater confidence.
                                 </p>
                                 <p>
-                                    Medical education is constantly evolving, and this project is built with that in mind. Your feedback, suggestions, and support are not only welcome — they are essential. Every contribution will be taken seriously and used to improve the experience for everyone.
-                                </p>
-                                <p>
-                                    If you would like to share your thoughts, suggestions, or even contribute cases and insights, we invite you to join our community and be part of building a better learning experience for doctors across Nigeria.
-                                </p>
-                                <p>
-                                    At its core, this is driven by a deep commitment to improving medical education and healthcare delivery in Nigeria.
+                                    Medical education is constantly evolving, and this project is built with that in mind. Your feedback, suggestions, and support are welcome. Every contribution will be taken seriously and used to improve the experience for everyone.
                                 </p>
                             </div>
                         </div>
@@ -378,7 +353,7 @@ export default function App() {
                         <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                             <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
+                            Join our community on WhatsApp or connect on X to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                             </p>
                             <div className="flex flex-col gap-2">
                                 <a
@@ -391,13 +366,15 @@ export default function App() {
                                     Join our WhatsApp Group
                                 </a>
                                 <a
-                                    href="https://t.me/+CTzB_o08AewwODdk"
+                                    href="https://x.com/your_handle_here"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
+                                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-slate-700 bg-slate-50 dark:text-slate-400 dark:bg-slate-900/20 px-4 py-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-900/40 transition-colors border border-slate-100 dark:border-slate-800"
                                 >
-                                    <i className="fa-brands fa-telegram text-sm"></i>
-                                    Join our Telegram Channel
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter-x" viewBox="0 0 16 16">
+                                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                    </svg>
+                                    Connect with me on X
                                 </a>
                             </div>
                         </section>
@@ -410,7 +387,7 @@ export default function App() {
                     onClose={() => setActiveModal('none')}
                     title="Disclaimer"
                 >
-                    <div className="space-y-6 max-h-[80vh] overflow-y-auto p-1 no-scrollbar">
+                    <div className="space-y-6">
                         <div className="bg-amber-50 dark:bg-amber-950/30 p-4 rounded-xl border border-amber-100/50 dark:border-amber-900/50">
                             <div className="flex gap-3">
                                 <i className="fa-solid fa-circle-info text-amber-500 text-sm mt-1"></i>
@@ -440,7 +417,7 @@ export default function App() {
                         <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                             <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
-                            Join our community on WhatsApp and Telegram to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
+                            Join our community on WhatsApp to share comments, complaints, feedback, discuss clinical cases, and stay updated on new guidelines.
                             </p>
                             <div className="flex flex-col gap-2">
                                 <a
@@ -451,15 +428,6 @@ export default function App() {
                                 >
                                     <i className="fa-brands fa-whatsapp text-sm"></i>
                                     Join our WhatsApp Group
-                                </a>
-                                <a
-                                    href="https://t.me/+CTzB_o08AewwODdk"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-sky-700 bg-sky-50 dark:text-sky-400 dark:bg-sky-900/20 px-4 py-2.5 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/40 transition-colors border border-sky-100 dark:border-sky-800"
-                                >
-                                    <i className="fa-brands fa-telegram text-sm"></i>
-                                    Join our Telegram Channel
                                 </a>
                             </div>
                         </section>

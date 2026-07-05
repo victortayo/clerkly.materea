@@ -3,6 +3,1282 @@ import { Template } from './types';
 export const INITIAL_TEMPLATES: Template[] = [
   // Behavioral Sciences
   {
+    id: 'bs-05',
+    title: 'Autism Spectrum Disorder in a Young Adult',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry',
+    condition: 'Autism Spectrum Disorder',
+    symptoms: [
+      'Poor social communication',
+      'Repetitive behaviours',
+      'Echolalia',
+      'Hand flapping',
+      'Sensory hypersensitivity'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '18-year-old male presenting with lifelong social communication deficits, repetitive behaviours, sensory hypersensitivity and developmental delay, consistent with Autism Spectrum Disorder requiring Level 2 support.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Seen
+  An 18-year-old Yoruba male apprentice mechanic from Ibadan, Oyo State, accompanied by his mother who is a reliable informant.
+  
+  PC:
+  Difficulty interacting with peers and poor communication skills since childhood (more impairing × 6 months).
+  Repetitive hand movements and insistence on strict daily routines since early childhood.
+  
+  HPC:
+  He was apparently well until early childhood when his mother noticed persistent difficulties with social interaction and communication, which have become significantly more impairing over the last 6 months following commencement of his apprenticeship as a mechanic.
+  
+  According to his mother, he has always been different from his peers. His developmental milestones were delayed. He did not speak single words until about 3 years of age and was unable to construct simple sentences until approximately 5 years.
+  
+  He has persistent difficulty initiating and sustaining conversations, frequently repeats words or phrases spoken to him (echolalia), and maintains poor eye contact. He has difficulty understanding social cues, jokes and workplace instructions, resulting in frequent misunderstandings and conflicts with his master.
+  
+  There is a history of restricted and repetitive behaviours. He frequently exhibits hand-flapping, especially when anxious or excited. He insists on rigid daily routines, including taking the same route to work and arranging his tools in a fixed linear sequence. Any disruption to these routines results in marked agitation, shouting and occasional emotional meltdowns.
+  
+  There is associated sensory hypersensitivity, particularly to loud noises such as generator sounds, which cause him to cover his ears and panic.
+  
+  There is no history of developmental regression, head injury, meningitis or childhood seizures.
+  
+  There is no history of depressed mood, sleep disturbance, hallucinations or delusions.
+  
+  No previous psychiatric or psychological evaluation had been sought, as the family previously attributed his behaviour to shyness and spiritual causes.
+  
+  PMH:
+  Term spontaneous vaginal delivery.
+  No birth asphyxia, neonatal jaundice or prolonged labour.
+  Fully immunized according to the National Programme on Immunization schedule.
+  No previous hospital admissions, surgeries or blood transfusions.
+  Genotype AA.
+  
+  Drug History:
+  Not on any regular medications.
+  No history of herbal medication use or self-medication.
+  No known drug allergies.
+  
+  Family/Social History:
+  Youngest of four children in a monogamous family.
+  Parents are petty traders.
+  No family history of autism, intellectual disability or psychiatric illness.
+  Lives with his parents in a rented apartment.
+  Low socioeconomic background.
+  
+  ROS:
+  CNS:
+  No headache.
+  No seizures.
+  Occasional delayed sleep onset.
+  
+  CVS:
+  No chest pain.
+  No palpitations.
+  
+  RS:
+  No cough.
+  No dyspnoea.
+  
+  GIT:
+  Normal appetite.
+  Normal bowel habits.
+  
+  MSS:
+  No joint pain.
+  Normal motor coordination.
+  
+  O/E:
+  Young male, neatly dressed, avoids eye contact and demonstrates intermittent hand-flapping during the interview.
+  Not acutely ill.
+  Not pale, anicteric, acyanosed.
+  No peripheral lymphadenopathy or pedal oedema.
+  Well hydrated.
+  
+  Vitals:
+  Temperature: 36.6°C
+  PR: 74 bpm
+  RR: 16 cpm
+  BP: 110/70 mmHg
+  SpO₂: 98% on room air
+  
+  Mental State/CNS Examination:
+  Conscious and alert.
+  Oriented to person and place, partially oriented to time.
+  Echolalia present.
+  Limited vocabulary with pragmatic language deficits.
+  Cranial nerves II–XII intact.
+  Normal muscle bulk and tone.
+  Power 5/5 in all limbs.
+  Deep tendon reflexes normal.
+  Sensation intact.
+  
+  CVS:
+  S1 and S2 heard.
+  No murmurs.
+  
+  RS:
+  Chest clinically clear.
+  Vesicular breath sounds bilaterally.
+  
+  ABD:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  ASS:
+  Newly diagnosed Autism Spectrum Disorder requiring Level 2 support for deficits in social communication and restricted, repetitive behaviours.
+  
+  DDX:
+  Social (Pragmatic) Communication Disorder.
+  Intellectual Disability.
+  Prodromal schizophrenia.
+  
+  PLAN:
+  Investigations:
+  Audiometry/hearing assessment.
+  Clinical psychology referral for psychometric evaluation and adaptive functioning assessment.
+  FBC.
+  Thyroid Function Tests.
+  Serum Electrolytes, Urea and Creatinine.
+  EEG only if seizures become clinically suspected.
+  
+  Management:
+  Provide psychoeducation to the patient and caregiver regarding Autism Spectrum Disorder.
+  Reassure the family that the condition is neurodevelopmental and not due to spiritual causes or poor parenting.
+  Refer to Neuropsychiatry/Child and Adolescent Psychiatry for specialist evaluation.
+  Refer to Clinical Psychology for behavioural therapy using ABA principles adapted for young adults.
+  Refer to Speech and Language Therapy to improve pragmatic communication.
+  Refer to Occupational Therapy for management of sensory hypersensitivity and functional skills.
+  Advise workplace modifications including structured tasks, quieter work areas where feasible and allowing established organizational routines.
+  No pharmacotherapy is indicated at present as there is no severe aggression, self-harm or disabling anxiety.
+  Connect the family with autism support groups and relevant NGOs.
+  Arrange regular psychiatric follow-up for ongoing assessment and multidisciplinary management.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'bs-06',
+    title: 'Attention Deficit Hyperactivity Disorder (Combined Presentation)',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry',
+    condition: 'Attention Deficit Hyperactivity Disorder',
+    symptoms: [
+      'Poor concentration',
+      'Easy distractibility',
+      'Hyperactivity',
+      'Impulsivity',
+      'Academic decline'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '19-year-old undergraduate presenting with lifelong inattention, hyperactivity and impulsivity, resulting in worsening academic performance and recent examination failure.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Seen
+  A 19-year-old Yoruba male undergraduate of the University of Lagos, resident in Yaba, Lagos State, accompanied by his mother who is a reliable informant.
+  
+  PC:
+  Inability to concentrate on lectures and academic tasks × 6 months.
+  Easy distractibility and forgetfulness × 6 months.
+  Recent academic decline and examination failure × 1 week.
+  
+  HPC:
+  He was apparently well until about 6 months prior to presentation when he noticed worsening difficulty sustaining attention following admission into the university.
+  
+  He reports extreme difficulty maintaining concentration during lectures lasting up to 2 hours, frequently finding his mind wandering to unrelated thoughts. He often loses personal belongings including notebooks, pens and his student identification card. He struggles to follow multi-step instructions from lecturers, makes careless mistakes in assignments and frequently leaves academic tasks unfinished until the last minute.
+  
+  These symptoms culminated in failure of his first semester examinations about one week prior to presentation.
+  
+  There is also a longstanding history of hyperactivity and impulsivity dating back to childhood. According to his mother, he has always been "on the go." He constantly fidgets with his hands and feet, finds it difficult to remain seated during church services or seminars, frequently interrupts others while they are speaking, and often acts impulsively, including spending his monthly allowance within the first week.
+  
+  There is no history of persistent low mood, anhedonia or suicidal ideation.
+  
+  There is no history of excessive worry, panic attacks or prominent somatic anxiety symptoms.
+  
+  There is no history of elevated mood, grandiosity or decreased need for sleep.
+  
+  There is no history of hallucinations or delusions.
+  
+  He denies alcohol, cannabis or other recreational drug use but admits to frequent consumption of caffeinated energy drinks in an attempt to stay awake while studying.
+  
+  There is no history of heat intolerance, weight loss despite increased appetite or tremors.
+  
+  PMH:
+  No history of childhood febrile convulsions.
+  No head injury.
+  No previous psychiatric consultation or admission.
+  Genotype AA.
+  
+  Drug History:
+  No chronic medications.
+  Occasional OTC Paracetamol for tension headaches.
+  No herbal medication use.
+  No known drug allergies.
+  
+  Family/Social History:
+  Second of four children in a monogamous family.
+  Father is a civil servant and mother is a trader.
+  Father described as impulsive and impatient with frequent job changes.
+  No family history of diagnosed psychiatric illness or suicide.
+  Lives in a university hostel.
+  Does not smoke or use recreational drugs.
+  
+  ROS:
+  CNS:
+  Poor concentration.
+  Sleep-onset insomnia.
+  No seizures.
+  No focal neurological deficits.
+  
+  CVS:
+  No chest pain.
+  No palpitations.
+  No orthopnoea.
+  
+  RS:
+  No cough.
+  No dyspnoea.
+  
+  GIT:
+  Normal appetite.
+  No abdominal pain.
+  No diarrhoea.
+  
+  Endocrine:
+  No excessive sweating.
+  No polyuria.
+  No polydipsia.
+  
+  O/E:
+  Young male, conscious and alert.
+  Not acutely ill.
+  Not pale, anicteric or cyanosed.
+  Well hydrated.
+  No peripheral lymphadenopathy or pedal oedema.
+  
+  Vitals:
+  Temperature: 36.5°C
+  PR: 76 bpm
+  RR: 16 cpm
+  BP: 115/75 mmHg
+  SpO₂: 99% on room air
+  
+  Mental State Examination:
+  Neatly dressed in casual clothing.
+  Fidgety throughout the interview with frequent position changes and foot tapping.
+  Speech is rapid, productive, coherent and relevant.
+  Subjective mood is "stressed."
+  Affect is mildly anxious, reactive and congruent.
+  Thought process is logical and goal-directed.
+  No delusions, obsessions or suicidal ideation.
+  No hallucinations.
+  Oriented to time, place and person.
+  Attention and concentration impaired with difficulty performing serial 7 subtraction.
+  Immediate, recent and remote memory intact.
+  Insight preserved.
+  
+  CVS:
+  S1 and S2 heard.
+  No murmurs.
+  
+  RS:
+  Chest clinically clear.
+  Vesicular breath sounds bilaterally.
+  
+  ABD:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  ASS:
+  Attention Deficit Hyperactivity Disorder (ADHD), Combined Presentation.
+  
+  DDX:
+  Generalized Anxiety Disorder.
+  Substance-induced inattention secondary to excessive caffeine consumption.
+  Subclinical hyperthyroidism.
+  
+  PLAN:
+  Investigations:
+  FBC.
+  Thyroid Function Tests (TSH, Free T3, Free T4).
+  Urinalysis.
+  Urine toxicology screen.
+  ECG.
+  
+  Management:
+  Provide psychoeducation to the patient and his mother regarding ADHD as a neurodevelopmental disorder.
+  Advise reduction of caffeine and energy drink intake.
+  Counsel on sleep hygiene and healthy lifestyle practices.
+  Refer for Cognitive Behavioural Therapy focusing on organization, time management and study skills.
+  Advise academic accommodations including structured study sessions, scheduled breaks and studying in low-distraction environments.
+  Refer to the Adult Psychiatry Clinic for formal diagnostic confirmation using standardized assessment tools and consideration for pharmacotherapy.
+  If indicated after specialist assessment and cardiac evaluation, initiate methylphenidate or atomoxetine.
+  Review in 2 weeks with investigation results prior to specialist appointment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'bs-03',
+    title: 'Acute Relapse of Schizophrenia',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry Clinic',
+    condition: 'Schizophrenia',
+    symptoms: [
+      'Abnormal behaviour',
+      'Auditory hallucinations',
+      'Persecutory delusions',
+      'Sleeplessness',
+      'Aggression',
+      'Social withdrawal'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: 'A 26-year-old male with known schizophrenia presented with an acute psychotic relapse characterized by auditory hallucinations, persecutory delusions, aggression and insomnia following medication non-adherence and cannabis use.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Seen
+  
+  A 26-year-old Yoruba male, unemployed, residing in Ibadan, Oyo State, brought to the clinic by his mother, who is the primary caregiver and a reliable informant.
+  
+  PC:
+  Abnormal behaviour × 2 weeks.
+  Hearing strange voices × 2 weeks.
+  Sleeplessness × 5 days.
+  
+  HPC:
+  The patient was apparently well until about two weeks prior to presentation when his mother noticed progressive behavioural changes. He became increasingly withdrawn, preferring to remain locked in his room, and was frequently observed muttering and gesturing to himself as though conversing with unseen persons.
+  
+  He later disclosed that he had been hearing the voices of two unknown men discussing him, mocking his actions and plotting to harm him. The voices are heard in the third person.
+  
+  He subsequently refused to eat meals prepared by family members or neighbours, claiming that the food had been poisoned with the intention of killing him.
+  
+  Over the last five days, he has experienced severe insomnia, spending most of the night pacing around the compound.
+  
+  One day prior to presentation, he became physically aggressive, throwing household items and attempting to strike his mother when she encouraged him to resume his medications.
+  
+  There is no history of fever.
+  No headache.
+  No convulsions.
+  No neck stiffness.
+  No head trauma.
+  No visual hallucinations.
+  No depressive symptoms.
+  
+  His mother reports occasional cannabis use, with the last use estimated to have been approximately three weeks prior to presentation.
+  
+  PMH:
+  Diagnosed with Schizophrenia three years ago at the University College Hospital (UCH), Ibadan.
+  Two previous psychiatric admissions, the most recent occurring one year ago and lasting three weeks.
+  No history of hypertension.
+  No diabetes mellitus.
+  No asthma.
+  Retroviral status unknown.
+  
+  Drug History:
+  Previously prescribed:
+  Tab Haloperidol 5 mg nocte.
+  Tab Benzhexol 5 mg daily.
+  
+  Defaulted from medications three months ago because of financial constraints and poor insight, believing he had been cured.
+  
+  No recent use of herbal medications or over-the-counter remedies.
+  
+  No known drug allergies.
+  
+  Family History:
+  Second of four children in a monogamous family.
+  Father is deceased following a road traffic accident.
+  No other significant psychiatric history reported.
+  
+  Social History:
+  Dropped out of vocational tailoring training because of his illness.
+  Lives with his mother.
+  Occasional alcohol use.
+  Occasional cannabis use.
+  Denies intravenous drug use.
+  
+  ROS:
+  
+  CNS:
+  As stated in the HPC.
+  No focal weakness.
+  No sensory deficits.
+  
+  CVS:
+  No chest pain.
+  No palpitations.
+  No orthopnoea.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  GIT:
+  Reduced appetite.
+  Normal bowel habits.
+  No abdominal pain.
+  
+  UG:
+  Normal micturition.
+  No dysuria.
+  
+  O/E:
+  
+  General Examination:
+  Acutely ill-looking.
+  Unkempt.
+  Untidy appearance with poor personal hygiene.
+  Cooperative but highly guarded and suspicious.
+  Avoids eye contact.
+  Not pale.
+  Anicteric.
+  Acyanotic.
+  Not dehydrated.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 36.6°C.
+  Pulse Rate: 84 beats/minute, regular.
+  Respiratory Rate: 18 cycles/minute.
+  Blood Pressure: 120/80 mmHg.
+  SpO₂: 98% on room air.
+  
+  Mental State Examination:
+  
+  Appearance and Behaviour:
+  Poorly groomed.
+  Wearing stained clothing.
+  Guarded.
+  Suspicious.
+  Hypervigilant.
+  Frequently muttering to himself during the interview.
+  
+  Speech:
+  Low volume.
+  Slow rate.
+  Coherent with poverty of content.
+  
+  Mood:
+  Patient reports feeling "fine."
+  
+  Affect:
+  Restricted.
+  Flat.
+  Incongruent with thought content.
+  
+  Thought Content:
+  Persecutory delusions involving family members and neighbours poisoning his food.
+  No suicidal ideation.
+  No homicidal ideation elicited.
+  
+  Perception:
+  Third-person auditory hallucinations involving two male voices discussing him.
+  
+  Cognition:
+  Alert.
+  Fully oriented to time, place and person.
+  Attention and concentration impaired due to distractibility.
+  Memory intact.
+  
+  Insight:
+  Grade I (complete denial of illness).
+  
+  Cardiovascular Examination:
+  Pulse regular.
+  S1 and S2 heard.
+  No murmurs.
+  
+  Respiratory Examination:
+  Chest expansion symmetrical.
+  Vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  Abdominal Examination:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Central Nervous System:
+  No focal neurological deficits.
+  No meningeal signs.
+  Negative Kernig's sign.
+  
+  Assessment:
+  Acute relapse of Schizophrenia secondary to medication non-adherence and cannabis use.
+  
+  Differential Diagnoses:
+  Substance (Cannabis)-Induced Psychotic Disorder.
+  Schizoaffective Disorder.
+  Organic Psychosis secondary to CNS infection or toxic encephalopathy.
+  
+  Investigations:
+  Urinalysis.
+  Urine Toxicology Screen.
+  Full Blood Count with differential.
+  ESR.
+  Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  Random Blood Sugar.
+  
+  Plan:
+  
+  Admission:
+  Admit to the psychiatric ward for stabilization, close observation and treatment.
+  
+  Safety Measures:
+  Institute suicide, self-harm and escape precautions.
+  Provide a safe, low-stimulus environment free of potentially harmful objects.
+  
+  Pharmacological Management:
+  
+  For Acute Agitation (PRN):
+  Inj. Chlorpromazine 100 mg IM stat
+  
+  OR
+  
+  Inj. Diazepam 10 mg IM/slow IV stat if severely agitated or violent.
+  
+  Maintenance Antipsychotic:
+  Tab Haloperidol 5 mg nocte
+  
+  OR
+  
+  Tab Risperidone 2 mg daily depending on availability and affordability.
+  
+  Anticholinergic:
+  Tab Benzhexol 5 mg daily for prevention of extrapyramidal side effects.
+  
+  Supportive Care:
+  Maintain adequate hydration.
+  Monitor nutritional intake closely because of persecutory delusions relating to food.
+  Monitor vital signs 12-hourly.
+  
+  Psychosocial Interventions:
+  Provide psychoeducation for the patient's mother regarding the chronic relapsing nature of schizophrenia, the importance of medication adherence and recognition of early warning signs of relapse.
+  
+  Offer substance-use counselling with emphasis on complete cessation of cannabis after stabilization.
+  
+  Referral:
+  Refer to the Consultant Psychiatrist/Neuropsychiatric team for long-term management, psychotherapy, psychosocial rehabilitation and community follow-up.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'bs-04',
+    title: 'Generalized Anxiety Disorder with Panic-like Features',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry Clinic',
+    condition: 'Generalized Anxiety Disorder',
+    symptoms: [
+      'Excessive uncontrollable worry',
+      'Poor sleep quality',
+      'Palpitations',
+      'Hand tremors',
+      'Restlessness',
+      'Difficulty concentrating'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: 'A 24-year-old female undergraduate presented with a 6-month history of excessive generalized anxiety associated with insomnia, palpitations, tremors and impaired concentration, consistent with Generalized Anxiety Disorder with panic-like features.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Seen
+  
+  A 24-year-old female undergraduate, Yoruba, Christian, residing in Agbowo, Ibadan, Oyo State.
+  
+  PC:
+  Excessive, uncontrollable worry × 6 months.
+  Poor sleep quality × 3 months.
+  Recurrent palpitations and hand tremors × 2 months.
+  
+  HPC:
+  The patient was apparently well until about six months prior to presentation when she developed excessive, generalized and uncontrollable worry. The worry occurred on most days and involved multiple areas including her academic performance, future career prospects and the health of her family members. She found it extremely difficult to control these thoughts, which significantly interfered with her daily functioning and academic work.
+  
+  The anxiety was associated with marked restlessness and feeling "on edge", easy fatigability even with minimal exertion, difficulty concentrating during lectures and studies, muscle tension particularly around the neck and shoulders, and irritability which had strained her relationship with her roommates.
+  
+  She also reported a three-month history of sleep-onset insomnia, taking up to two hours to fall asleep because of persistent racing thoughts.
+  
+  Over the last two months, she experienced recurrent episodes of sudden-onset palpitations, sweating and fine hand tremors lasting about 10–15 minutes. These episodes were usually triggered by academic stress but occasionally occurred spontaneously.
+  
+  There is no history of persistently low mood, anhedonia or feelings of worthlessness.
+  There is no history of elevated mood, hyperactivity or decreased need for sleep.
+  There is no history of auditory or visual hallucinations.
+  There are no delusional beliefs.
+  There is no history of heat intolerance, weight loss despite increased appetite or neck swelling.
+  There is no excessive caffeine consumption.
+  She does not consume alcohol.
+  There is no use of over-the-counter stimulants.
+  
+  PTP:
+  She had been self-medicating with over-the-counter Paracetamol for muscle tension and herbal teas for sleep without significant improvement.
+  
+  PMH:
+  No history of hypertension.
+  No asthma.
+  No diabetes mellitus.
+  No previous psychiatric illness.
+  No previous contact with mental health services.
+  No previous surgeries.
+  No history of blood transfusion.
+  Genotype: AA.
+  
+  Drug History:
+  No chronic medication use.
+  No known drug allergies.
+  
+  Family History:
+  Second of four children in a monogamous family.
+  Mother has a history of treated "nervous exhaustion" managed as an outpatient.
+  No family history of suicide.
+  No family history of severe mental illness.
+  
+  Social History:
+  Final-year university student.
+  Reports significant academic pressure.
+  Lives with a roommate in an off-campus apartment.
+  Non-smoker.
+  Does not consume alcohol.
+  Denies recreational drug use.
+  
+  ROS:
+  
+  CNS:
+  As stated in the HPC.
+  No headaches.
+  No seizures.
+  No focal weakness.
+  
+  CVS:
+  Palpitations during anxious episodes.
+  No chest pain.
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  
+  Respiratory:
+  Subjective shortness of breath during panic-like episodes.
+  No chronic cough.
+  No haemoptysis.
+  
+  GIT:
+  Occasional epigastric bloating and abdominal discomfort.
+  Normal bowel habits.
+  No nausea.
+  No vomiting.
+  
+  UG:
+  Normal menstrual cycle.
+  No dysuria.
+  
+  O/E:
+  
+  General Examination:
+  Conscious.
+  Alert.
+  Appears anxious and restless.
+  Fidgeting with her hands throughout the interview.
+  Not pale.
+  Not jaundiced.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  Adequately hydrated.
+  
+  Vital Signs:
+  Temperature: 36.5°C.
+  Pulse Rate: 94 beats/minute, regular.
+  Respiratory Rate: 18 cycles/minute.
+  Blood Pressure: 110/70 mmHg.
+  SpO₂: 98% on room air.
+  
+  Head and Neck:
+  No thyroid enlargement.
+  No thyroid bruit.
+  Pupils equal and reactive to light.
+  
+  Cardiovascular Examination:
+  S1 and S2 heard.
+  No murmurs.
+  Apex beat at the 5th left intercostal space, midclavicular line.
+  
+  Respiratory Examination:
+  Trachea central.
+  Chest expansion symmetrical.
+  Vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  Abdominal Examination:
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  
+  Central Nervous System:
+  Oriented to time, place and person.
+  Cranial nerves II–XII intact.
+  Normal motor and sensory function.
+  
+  Mental State Examination:
+  
+  Appearance and Behaviour:
+  Neatly dressed.
+  Cooperative but restless.
+  Poor eye contact.
+  Fine tremors of both hands noted.
+  
+  Speech:
+  Normal rate, tone and volume.
+  Occasionally hesitant.
+  
+  Mood:
+  Patient describes her mood as "extremely anxious and overwhelmed."
+  
+  Affect:
+  Anxious.
+  Congruent with stated mood.
+  Restricted in range.
+  
+  Thought Content:
+  Preoccupied with academic failure and the health of family members.
+  No suicidal ideation.
+  No homicidal ideation.
+  No delusions.
+  
+  Perception:
+  No hallucinations.
+  No illusions.
+  
+  Cognition:
+  Fully oriented to time, place and person.
+  Attention and concentration mildly impaired with difficulty performing serial 7 subtraction.
+  
+  Insight:
+  Grade VI (intact). Recognizes that her worries are excessive and requires medical attention.
+  
+  Assessment:
+  Generalized Anxiety Disorder with panic-like features.
+  
+  Differential Diagnoses:
+  Panic Disorder.
+  Hyperthyroidism.
+  Adjustment Disorder with anxious mood.
+  
+  Investigations:
+  Thyroid Function Tests (Free T3, Free T4 and TSH).
+  Full Blood Count.
+  Random Blood Glucose.
+  Electrocardiogram if palpitations persist outside anxious episodes.
+  
+  Plan:
+  
+  Non-Pharmacological:
+  Provide psychoeducation regarding Generalized Anxiety Disorder.
+  Reassure the patient that the palpitations and tremors are physiological manifestations of anxiety and not evidence of underlying heart disease.
+  Refer for Cognitive Behavioural Therapy (CBT).
+  Teach deep breathing exercises and progressive muscle relaxation techniques.
+  Provide sleep hygiene counselling including maintaining a regular sleep schedule, avoiding screens and caffeine before bedtime, and reserving the bed for sleep only.
+  
+  Pharmacological:
+  Tab Escitalopram 10 mg nocte for 4 weeks.
+  Counsel regarding the 2–4 week delay before therapeutic benefit and possible transient side effects including nausea, headache and temporary worsening of anxiety.
+  
+  Tab Propranolol 20 mg twice daily as needed for troublesome palpitations and tremors for 2 weeks, provided there is no history of asthma.
+  
+  Avoid routine use of benzodiazepines because of the risk of dependence and tolerance.
+  
+  Follow-up:
+  Review after 2 weeks to assess medication adherence, monitor for adverse effects and actively screen for emergent suicidal ideation.
+  
+  Refer to a Consultant Psychiatrist if there is no significant improvement after 6–8 weeks of optimized therapy or if suicidal ideation or severe functional impairment develops.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'bs-02',
+    title: 'Acute Manic Episode with Psychotic Features',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry Clinic',
+    condition: 'Bipolar I Disorder',
+    symptoms: [
+      'Overactivity',
+      'Excessive talkativeness',
+      'Decreased need for sleep',
+      'Grandiose delusions',
+      'Irritability',
+      'Pressured speech'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: 'A 24-year-old male with known Bipolar I Disorder presented with an acute manic episode characterized by overactivity, decreased need for sleep, pressured speech and grandiose delusions following medication non-adherence and cannabis use.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Seen
+  
+  A 24-year-old male, 300-Level university student, Yoruba, residing in Ogbomoso, Oyo State, accompanied by his mother, who is a reliable informant.
+  
+  PC:
+  Overactivity, excessive talkativeness and decreased need for sleep × 5 days.
+  Grandiose claims and irritability × 3 days.
+  
+  HPC:
+  The patient is a known case of Bipolar I Disorder who presented with a 5-day history of overactivity, excessive talkativeness and markedly reduced need for sleep.
+  
+  The illness had a gradual onset and was characterized by sleeping less than 2 hours each night while waking up feeling fully energized. He became highly energetic, paced around the house continuously and engaged in multiple unfinished projects.
+  
+  His speech became rapid, loud, pressured and difficult to interrupt.
+  
+  Over the last three days, he developed grandiose beliefs, claiming that he had been ordained as a special spiritual healer and had recently acquired billions of Naira in his bank account.
+  
+  He also became increasingly irritable, hostile and verbally aggressive whenever challenged or corrected.
+  
+  There is a history of medication non-adherence. He stopped taking his prescribed mood stabilizer and antipsychotic medications approximately three weeks before presentation because of financial constraints and complaints of excessive daytime drowsiness.
+  
+  There is also a history of occasional cannabis use, with increased intake over the preceding two weeks.
+  
+  There is no history of fever.
+  No headache.
+  No neck stiffness.
+  No convulsions.
+  No head trauma.
+  No ear discharge.
+  
+  There were no preceding depressive symptoms including low mood, suicidal ideation or loss of interest in previously pleasurable activities.
+  
+  PMH:
+  Diagnosed with Bipolar I Disorder two years ago at a tertiary neuropsychiatric hospital.
+  One previous psychiatric admission for a manic episode 18 months ago with good response to treatment.
+  No history of hypertension.
+  No diabetes mellitus.
+  No asthma.
+  No sickle cell disease.
+  No previous blood transfusion.
+  No previous major surgery.
+  
+  Drug History:
+  Previously prescribed:
+  Tab Sodium Valproate 500 mg BD.
+  Tab Olanzapine 10 mg nocte.
+  
+  Non-adherent for three weeks.
+  
+  No recent use of over-the-counter stimulants.
+  No use of traditional herbal mixtures ("agbo").
+  No known drug allergies.
+  
+  Family History:
+  Second of four children in a monogamous family.
+  Maternal uncle has a history of recurrent psychiatric admissions.
+  
+  Social History:
+  Currently on academic leave.
+  Occasional alcohol use.
+  Occasional cannabis use.
+  Does not smoke cigarettes.
+  
+  ROS:
+  
+  CNS:
+  As stated in the HPC.
+  No headache.
+  No visual disturbance.
+  No focal weakness.
+  
+  CVS:
+  No chest pain.
+  No palpitations.
+  No orthopnoea.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  No haemoptysis.
+  
+  GIT:
+  Normal appetite.
+  No nausea.
+  No vomiting.
+  No abdominal pain.
+  
+  UG:
+  Normal micturition.
+  No dysuria.
+  
+  O/E:
+  
+  General Examination:
+  Acutely ill-looking.
+  Hyperactive.
+  Poorly kempt.
+  Not in respiratory distress.
+  Mildly dehydrated.
+  Not pale.
+  Anicteric.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 36.7°C.
+  Pulse Rate: 98 beats/minute, regular.
+  Respiratory Rate: 18 cycles/minute.
+  Blood Pressure: 120/80 mmHg.
+  SpO₂: 98% on room air.
+  
+  Mental State Examination:
+  
+  Appearance and Behaviour:
+  Poorly kempt.
+  Hyperactive.
+  Highly distractible.
+  Cooperative but difficult to redirect.
+  
+  Speech:
+  Pressured.
+  Rapid.
+  Loud.
+  Dramatic.
+  
+  Mood:
+  Elevated and irritable.
+  
+  Affect:
+  Labile.
+  Congruent with mood.
+  
+  Thought Content:
+  Grandiose delusions involving immense wealth and spiritual powers.
+  No persecutory or referential delusions elicited.
+  
+  Perception:
+  No auditory or visual hallucinations elicited.
+  
+  Cognition:
+  Alert.
+  Conscious.
+  Fully oriented to time, place and person.
+  Attention poorly sustained.
+  
+  Insight:
+  Poor.
+  
+  Central Nervous System:
+  No focal neurological deficits.
+  Normal gait.
+  
+  Cardiovascular Examination:
+  S1 and S2 heard.
+  No murmurs.
+  
+  Respiratory Examination:
+  Trachea central.
+  Chest expansion symmetrical.
+  Vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  Abdominal Examination:
+  Flat.
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Assessment:
+  Acute Manic Episode with Psychotic Features in a known patient with Bipolar I Disorder, precipitated by medication non-adherence and cannabis use.
+  
+  Differential Diagnoses:
+  Substance-induced Mood Disorder (Cannabis-induced mania with psychosis).
+  Schizoaffective Disorder (Manic type).
+  Organic Mood Syndrome secondary to cerebral malaria or viral encephalitis.
+  
+  Investigations:
+  Urgent Urine Toxicology Screen.
+  Full Blood Count.
+  Electrolytes, Urea and Creatinine.
+  Malaria Parasite Smear/Rapid Diagnostic Test.
+  Urinalysis.
+  Random Blood Sugar.
+  
+  Plan:
+  
+  Stabilization and Safety:
+  Nurse the patient in a quiet, low-stimulus environment.
+  Ensure close observation to prevent harm to self or others.
+  Maintain adequate hydration.
+  Encourage oral fluid intake or administer IV fluids if oral intake is inadequate.
+  
+  Pharmacological Management:
+  Tab Olanzapine 10 mg nocte
+  
+  OR
+  
+  Tab Haloperidol 5 mg BD with Tab Trihexyphenidyl 5 mg daily to prevent extrapyramidal side effects.
+  
+  If severe agitation:
+  Inj. Diazepam 10 mg IM/IV slowly stat.
+  
+  Mood Stabilization:
+  Restart Tab Sodium Valproate 500 mg BD after baseline investigations (particularly liver function assessment where feasible).
+  
+  Referral:
+  Refer to a Neuropsychiatric Specialist or tertiary psychiatric facility for comprehensive psychiatric evaluation, long-term pharmacotherapy, psychotherapy and substance-use rehabilitation.
+  
+  Follow-up:
+  Monitor mental state, medication adherence, hydration status and response to treatment.
+  Provide psychoeducation to the patient and family regarding medication adherence, avoidance of cannabis and recognition of early warning signs of relapse.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'bs-01',
+    title: 'Generalized Anxiety Disorder with Panic-like Features',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry Clinic',
+    condition: 'Generalized Anxiety Disorder',
+    symptoms: [
+      'Excessive uncontrollable worry',
+      'Poor sleep quality',
+      'Palpitations',
+      'Hand tremors',
+      'Restlessness',
+      'Difficulty concentrating'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: 'A 24-year-old female undergraduate presented with a 6-month history of excessive generalized anxiety associated with insomnia, palpitations, tremors and impaired concentration, consistent with Generalized Anxiety Disorder with panic-like features.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Seen
+  
+  A 24-year-old single female undergraduate, Yoruba, Christian, residing in Agbowo, Ibadan, Oyo State.
+  
+  PC:
+  Excessive, uncontrollable worry × 6 months.
+  Poor sleep quality × 3 months.
+  Recurrent palpitations and hand tremors × 2 months.
+  
+  HPC:
+  The patient was apparently well until about six months prior to presentation when she developed excessive, generalized and uncontrollable worry. The worry is present on most days and is focused on multiple areas, including her academic performance, future career prospects and the health of her family members. She reports that she finds it extremely difficult to control these thoughts, which have significantly interfered with her daily functioning and schoolwork.
+  
+  The anxiety is associated with:
+  • Marked restlessness and feeling "on edge".
+  • Easy fatigability even with minimal exertion.
+  • Difficulty concentrating during lectures and studies.
+  • Muscle tension, particularly around the neck and shoulders.
+  • Irritability, which has strained her relationships with her roommates.
+  
+  She also reports a 3-month history of sleep-onset insomnia, taking up to two hours to fall asleep because of racing thoughts.
+  
+  Over the last two months, she has experienced recurrent episodes of sudden-onset palpitations, sweating and fine hand tremors lasting about 10–15 minutes, usually triggered by academic stress but occasionally occurring spontaneously.
+  
+  No history of persistently low mood, anhedonia or feelings of worthlessness.
+  No history of elevated mood, hyperactivity or decreased need for sleep.
+  No history of auditory or visual hallucinations.
+  No history of delusional beliefs.
+  No history of heat intolerance, weight loss despite increased appetite or neck swelling.
+  No history of excessive caffeine intake, alcohol use or over-the-counter stimulant use.
+  
+  PTP she has been self-medicating with over-the-counter Paracetamol for muscle tension and various herbal teas for sleep without significant relief.
+  
+  PMH:
+  No known hypertension.
+  No asthma.
+  No diabetes mellitus.
+  No previous psychiatric illness or contact with mental health services.
+  No previous surgeries or blood transfusions.
+  Genotype: AA.
+  
+  Drug History:
+  No chronic medication use.
+  No known drug allergies.
+  
+  Family History:
+  Second of four children from a monogamous family.
+  Mother has a history of treated "nervous exhaustion" managed on an outpatient basis.
+  No family history of suicide or severe mental illness.
+  
+  Social History:
+  Final-year university student.
+  Reports high academic pressure.
+  Lives with a roommate in an off-campus apartment.
+  Non-smoker.
+  Does not consume alcohol.
+  Denies recreational drug use.
+  
+  ROS:
+  
+  CNS:
+  As stated in the HPC.
+  No headaches.
+  No seizures.
+  No focal weakness.
+  
+  CVS:
+  Palpitations during anxious episodes.
+  No chest pain.
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  
+  Respiratory:
+  Subjective shortness of breath during panic-like episodes.
+  No chronic cough.
+  No haemoptysis.
+  
+  GIT:
+  Occasional epigastric bloating and abdominal discomfort.
+  Normal bowel habits.
+  No nausea or vomiting.
+  
+  UG:
+  Normal menstrual cycle.
+  No dysuria.
+  
+  O/E:
+  
+  General Examination:
+  Conscious.
+  Alert.
+  Appears anxious and restless.
+  Fidgeting with her hands during the interview.
+  No pallor.
+  No jaundice.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  Adequately hydrated.
+  
+  Vital Signs:
+  Temperature: 36.5°C.
+  Pulse Rate: 94 beats/minute, regular.
+  Respiratory Rate: 18 cycles/minute.
+  Blood Pressure: 110/70 mmHg.
+  SpO₂: 98% on room air.
+  
+  Head and Neck:
+  No thyroid enlargement.
+  No thyroid bruit.
+  Pupils normal in size and reactive.
+  
+  Cardiovascular Examination:
+  S1 and S2 heard.
+  No murmurs.
+  Apex beat at the 5th left intercostal space, midclavicular line.
+  
+  Respiratory Examination:
+  Trachea central.
+  Chest expansion symmetrical.
+  Vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  Abdominal Examination:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Central Nervous System:
+  Oriented to time, place and person.
+  Cranial nerves II–XII intact.
+  Normal motor and sensory function.
+  
+  Mental State Examination:
+  
+  Appearance and Behaviour:
+  Neatly dressed.
+  Cooperative but restless.
+  Poor eye contact.
+  Fine tremors of both hands observed.
+  
+  Speech:
+  Normal rate, tone and volume.
+  Hesitant at times.
+  
+  Mood:
+  Patient reports feeling "extremely anxious and overwhelmed."
+  
+  Affect:
+  Anxious.
+  Congruent with mood.
+  Restricted in range.
+  
+  Thought Content:
+  Preoccupied with academic failure and family health.
+  No suicidal ideation.
+  No homicidal ideation.
+  No delusions.
+  
+  Perception:
+  No hallucinations.
+  No illusions.
+  
+  Cognition:
+  Oriented to time, place and person.
+  Attention and concentration mildly impaired (difficulty performing serial 7 subtraction).
+  
+  Insight:
+  Grade VI (intact). Patient recognizes that her worries are excessive and requires medical help.
+  
+  Assessment:
+  Generalized Anxiety Disorder (GAD) with panic-like features.
+  
+  Differential Diagnoses:
+  Panic Disorder.
+  Hyperthyroidism.
+  Adjustment Disorder with anxious mood.
+  
+  Investigations:
+  Thyroid Function Tests (Free T3, Free T4, TSH).
+  Full Blood Count.
+  Random Blood Glucose.
+  Electrocardiogram (ECG) if palpitations persist outside anxious episodes.
+  
+  Plan:
+  
+  Non-Pharmacological:
+  Psychoeducation regarding Generalized Anxiety Disorder.
+  Reassure the patient that the palpitations and tremors are physiological manifestations of anxiety.
+  Refer for Cognitive Behavioural Therapy (CBT).
+  Teach deep breathing exercises and progressive muscle relaxation.
+  Provide sleep hygiene education including regular sleep schedule, avoidance of caffeine and screen time before bedtime, and using the bed only for sleep.
+  
+  Pharmacological:
+  Tab Escitalopram 10 mg nocte for 4 weeks.
+  Counsel regarding the 2–4 week delay before therapeutic effect and possible transient side effects including nausea, headache and temporary worsening of anxiety.
+  
+  Tab Propranolol 20 mg twice daily for 2 weeks as needed for severe palpitations and tremors, provided there is no history of asthma.
+  
+  Avoid routine benzodiazepine use because of the risk of dependence and tolerance.
+  
+  Follow-up:
+  Review in 2 weeks to assess treatment adherence, monitor for adverse effects and screen for emergent suicidal ideation.
+  
+  Refer to a psychiatrist if there is no significant improvement after 6–8 weeks of optimized treatment or if suicidal ideation or severe functional impairment develops.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'bs-07',
     title: 'Moderate Depressive Episode',
     specialty: 'Behavioral Sciences',
@@ -211,6 +1487,2366 @@ export const INITIAL_TEMPLATES: Template[] = [
   
 
   // Pediatrics
+  {
+    id: 'peds-01',
+    title: 'Non-Bullous Impetigo Contagiosa',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Outpatient Clinic',
+    condition: 'Non-Bullous Impetigo',
+    symptoms: [
+      'Itchy facial sores',
+      'Honey-coloured crusting',
+      'Pruritus',
+      'Facial vesicles and erosions',
+      'Submandibular lymphadenopathy'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: 'A 7-year-old boy presented with a 6-day history of pruritic facial lesions that progressed to honey-coloured crusted erosions, consistent with non-bullous impetigo contagiosa.',
+    content: `GENERAL OUTPATIENT CLINIC
+  
+  Patient Seen
+  
+  A 7-year-old male primary school pupil from Abeokuta, Ogun State, Christian, Yoruba, accompanied by his mother (reliable informant).
+  
+  PC:
+  Itchy sores on the face × 6 days.
+  Yellowish crusting over the lesions × 4 days.
+  
+  HPC:
+  The patient was apparently well until six days prior to presentation when he developed a small itchy red bump just below the left nostril. Over the next two days, similar lesions appeared around the mouth and chin. The lesions rapidly progressed into small blisters which ruptured easily, leaving shallow erosions covered with thick yellow ("honey-coloured") crusts.
+  
+  The lesions have gradually increased in number despite the application of an over-the-counter herbal cream. The child frequently scratches the affected areas because of intense itching. His mother reports that two classmates recently developed similar facial sores.
+  
+  There is mild discomfort but no severe pain.
+  
+  There has been no bleeding from the lesions.
+  
+  There is no swelling around the eyes.
+  
+  There is no difficulty swallowing.
+  
+  There is no fever.
+  
+  There is no vomiting.
+  
+  There is no recent trauma to the face.
+  
+  There is no history of eczema, although the child recently recovered from a mosquito bite rash over the face.
+  
+  The child remains active and continues to eat normally.
+  
+  ROS:
+  
+  General:
+  No fever.
+  Good appetite.
+  No weight loss.
+  Active and playful.
+  
+  Dermatological:
+  Pruritic facial lesions.
+  Yellow crusting.
+  No skin ulceration.
+  No generalized rash.
+  
+  ENT:
+  No sore throat.
+  No ear discharge.
+  No nasal bleeding.
+  
+  Respiratory:
+  No cough.
+  No difficulty breathing.
+  
+  Cardiovascular:
+  No palpitations.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No vomiting.
+  No diarrhoea.
+  
+  Genitourinary:
+  No urinary complaints.
+  
+  PMH:
+  Fully immunized for age.
+  No history of diabetes mellitus.
+  No chronic skin disease.
+  No previous hospital admissions.
+  
+  Birth and Developmental History:
+  Full-term spontaneous vaginal delivery.
+  Normal developmental milestones.
+  
+  Drug History:
+  Herbal topical cream applied by caregiver without improvement.
+  No regular medications.
+  No known drug allergies.
+  
+  Family History:
+  No similar chronic skin disease.
+  Younger sibling developed a similar rash one week ago.
+  
+  Social History:
+  Lives with both parents and two siblings.
+  Attends primary school.
+  Good family support.
+  No exposure to tobacco smoke.
+  
+  O/E:
+  
+  General Examination:
+  Young boy.
+  Alert.
+  Active.
+  Playful.
+  Not pale.
+  Not jaundiced.
+  Afebrile.
+  Well hydrated.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 36.9°C
+  Pulse Rate: 96 beats/minute, regular
+  Respiratory Rate: 22 cycles/minute
+  Blood Pressure: 98/62 mmHg
+  SpO₂: 99% on room air
+  Weight: 24 kg
+  
+  Dermatological Examination:
+  Multiple discrete and coalescing superficial erosions measuring approximately 0.5–2 cm are present around the left nostril, upper lip, chin and right cheek.
+  
+  The lesions are covered with characteristic thick golden-yellow (honey-coloured) crusts.
+  
+  Few ruptured vesicles are seen at the margins.
+  
+  Surrounding erythema is mild.
+  
+  No fluctuance.
+  No abscess formation.
+  No cellulitis.
+  No bullae.
+  No mucosal involvement.
+  
+  Mild excoriation marks are present.
+  
+  Small, mobile, mildly tender submandibular lymph nodes measuring approximately 1 cm are palpable bilaterally.
+  
+  Systemic Examination:
+  
+  Cardiovascular:
+  Pulse regular.
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  No added sounds.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  Bowel sounds present.
+  
+  Central Nervous System:
+  Conscious.
+  Alert.
+  Appropriate for age.
+  No focal neurological deficits.
+  
+  Assessment:
+  Non-bullous impetigo contagiosa involving the face, most likely caused by Staphylococcus aureus and/or Streptococcus pyogenes.
+  
+  Differential Diagnoses:
+  Bullous impetigo.
+  Infected insect bites.
+  Herpes simplex infection.
+  Contact dermatitis with secondary bacterial infection.
+  Tinea faciei.
+  
+  Investigations:
+  Routine investigations are not required in uncomplicated impetigo.
+  
+  If recurrent, severe or unresponsive to treatment:
+  Skin swab for microscopy, culture and sensitivity.
+  Full Blood Count.
+  Fasting Blood Sugar (if recurrent infections raise suspicion of diabetes).
+  Urinalysis if there is concern for post-streptococcal glomerulonephritis following recent streptococcal infection.
+  
+  Plan:
+  
+  General Measures:
+  Explain that impetigo is a highly contagious superficial bacterial skin infection.
+  Keep fingernails short and clean.
+  Discourage scratching.
+  Wash affected areas gently with warm water and mild soap to soften and remove crusts before applying topical medication.
+  Do not share towels, face cloths, pillows or clothing.
+  Wash hands thoroughly after touching the lesions.
+  The child should remain away from school until 24 hours after effective antibiotic treatment has commenced and lesions are improving.
+  
+  Medications:
+  
+  Topical Antibiotic (Preferred for Localized Disease):
+  Mupirocin 2% ointment.
+  Apply a thin layer to the affected areas three times daily for 5 days after gentle cleansing.
+  
+  Alternative:
+  Fusidic Acid 2% cream.
+  Apply three times daily for 5 days where local resistance patterns remain favourable.
+  
+  Oral Antibiotics (Recommended because of multiple facial lesions):
+  
+  Option 1 (Preferred):
+  Flucloxacillin suspension 250 mg/5 mL.
+  Dose: 250 mg (5 mL) orally every 6 hours for 7 days.
+  
+  Option 2 (If Penicillin Allergy):
+  Azithromycin suspension 200 mg/5 mL.
+  10 mg/kg (240 mg = 6 mL) orally once on Day 1, then
+  5 mg/kg (120 mg = 3 mL) orally once daily on Days 2–5.
+  
+  Option 3:
+  Cephalexin suspension 250 mg/5 mL.
+  25 mg/kg/day divided into four doses for 7 days.
+  For this child (24 kg):
+  150 mg (3 mL) orally every 6 hours for 7 days.
+  
+  Antipruritic:
+  Cetirizine syrup 5 mg (5 mL) orally once daily at night for 5 days if itching is troublesome.
+  
+  Analgesia:
+  If painful:
+  Paracetamol syrup 15 mg/kg (360 mg = 11 mL of 120 mg/5 mL formulation) orally every 6 hours as required, not exceeding four doses in 24 hours.
+  
+  Nursing Advice:
+  Clean crusts gently before each application of topical antibiotic.
+  Observe for increasing redness, swelling, pus or fever.
+  Maintain good personal hygiene.
+  
+  Parental Counselling:
+  Explain that impetigo is contagious but responds well to appropriate antibiotic treatment.
+  Stress the importance of completing the prescribed antibiotic course even if lesions improve early.
+  Advise parents to seek immediate medical attention if the child develops fever, rapidly spreading redness, facial swelling, painful skin lesions, reduced urine output, cola-coloured urine or generalized body swelling, which may suggest complications such as cellulitis or post-streptococcal glomerulonephritis.
+  Emphasize regular hand washing, laundering of clothing and bed linen, and avoidance of close skin-to-skin contact until treatment has been established.
+  
+  Follow-up:
+  Review in the General Outpatient or Dermatology Clinic in 5–7 days to assess clinical response.
+  
+  Earlier review is advised if new lesions continue to appear after 48 hours of treatment, fever develops, lesions become painful or extensive, or there is evidence of cellulitis or abscess formation.
+  
+  Prognosis:
+  Excellent. Complete healing is expected within 1–2 weeks with appropriate treatment, usually without scarring unless lesions become secondarily infected or are repeatedly excoriated.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-8',
+    title: 'Acute Watery Diarrhoea with Suspected Cholera',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Children Emergencies',
+    condition: 'Acute Gastroenteritis',
+    symptoms: [
+      'Loose stools',
+      'Vomiting',
+      'Fever',
+      'Reduced oral intake',
+      'Reduced urine output',
+      'Dehydration'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: 'A 1-year-8-month-old female child with acute watery diarrhoea and some dehydration, presenting with profuse non-bloody loose stools, vomiting, low-grade fever, and reduced urine output following exposure to untreated well water in a rural community. The clinical picture raised suspicion for cholera or another toxigenic bacterial cause. Antibiotics were withheld per WHO guidance, which restricts cholera-specific antibiotic treatment to children with severe dehydration; management focused on WHO Plan B oral rehydration, zinc supplementation, and close monitoring with a clear plan for escalation if dehydration worsens.',
+    content: `Miss T.E., a 1-year-8-month-old female child, Igbo, resident in Enugu, Enugu State, brought to the Children Emergency Room by her mother. She is the first child in a monogamous family setting.
+
+Informant: Mother (reliable)
+
+PC
+Passage of loose stools for 2 days
+Vomiting for 1 day
+Reduced oral intake for 1 day
+Fever for 1 day
+
+HPC
+The child was apparently well until 2 days prior to presentation when she developed sudden onset of frequent passage of loose stools. The stools are watery, copious, yellowish in colour, and non-offensive, occurring approximately 8–10 times daily.
+
+There is no history of blood, mucus, or pus in the stool. The mother reports associated vomiting which started a day prior to presentation. Vomiting has occurred about three times in the last 24 hours and consists mainly of recently ingested feeds. It is non-projectile and non-bilious.
+
+She developed a low-grade fever associated with reduced appetite and increased thirst. The mother also noticed that the child has become less playful and has passed less urine than usual, with only two wet diapers in the preceding 12 hours.
+
+There is no history of abdominal distension, severe abdominal pain, convulsions, altered consciousness, cough, catarrh, difficulty breathing, rash, recent antibiotic use, or contact with persons known to have similar symptoms.
+
+The mother reports that the child consumed untreated well water during a recent visit to a rural community. No stool microscopy, culture, or rapid diagnostic testing has been performed because of limited access to laboratory facilities and financial constraints.
+
+ROS
+Gastrointestinal: As above. No blood or mucus in stool.
+Respiratory: No cough, catarrh, or difficulty breathing.
+Central Nervous System: No convulsions or altered sensorium.
+Genitourinary: Reduced urine output.
+
+PMH
+No previous hospital admissions. No known chronic illnesses.
+
+DRUG HISTORY
+Mother administered oral paracetamol and an over-the-counter antidiarrhoeal medication before presentation without improvement.
+
+ALLERGY HISTORY
+No known drug or food allergies.
+
+BIRTH AND NEONATAL HISTORY
+Delivered at term via spontaneous vaginal delivery with no significant antenatal, intrapartum, or neonatal complications.
+
+IMMUNIZATION HISTORY
+Immunization is up to date for age according to the National Programme on Immunization schedule.
+
+NUTRITIONAL HISTORY
+The child was exclusively breastfed for the first 6 months of life and is currently on complementary feeds with continued breastfeeding.
+
+DEVELOPMENTAL HISTORY
+Developmental milestones have been attained appropriately for age.
+
+FAMILY AND SOCIAL HISTORY
+The child lives with her parents in a semi-urban community. The family obtains drinking water from a well, which is not routinely boiled or treated before use. They use a pit latrine for sewage disposal.
+
+EXAMINATION FINDINGS
+Acutely ill-looking child, conscious and irritable but consolable, mildly febrile, not pale, not jaundiced, and not cyanosed.
+
+Anthropometry
+Weight: 10 kg
+Length: 78 cm
+MUAC: 14.5 cm
+
+Evidence of some dehydration:
+Sunken eyes
+Dry buccal mucosa
+Thirsty and drinks eagerly
+Skin pinch returns slowly (within 2 seconds)
+
+No pedal oedema.
+
+VITAL SIGNS
+Temperature: 38.1°C
+Pulse rate: 126 beats/minute, regular, moderate volume
+Respiratory rate: 30 cycles/minute
+SpO₂: 99% in room air
+
+SYSTEMIC EXAMINATION
+
+Central Nervous System: Conscious, irritable but responsive. No focal neurological deficits.
+
+Cardiovascular System: Pulse rate 126 beats/minute. Heart sounds S1 and S2 only. No murmurs.
+
+Respiratory System: Chest expansion is symmetrical. Breath sounds are vesicular with no added sounds.
+
+Abdomen: Abdomen is full, moves with respiration, and is soft and non-tender. No palpable organomegaly. Bowel sounds are hyperactive.
+
+ASSESSMENT
+Acute watery diarrhoea with some dehydration, in the setting of untreated well-water exposure; profile (large-volume, non-bloody, non-offensive watery stools, rapid onset, reduced urine output) raises suspicion for cholera or other toxigenic bacterial cause, though currently classified as having "some" rather than severe dehydration.
+
+Differential Diagnoses
+1. Early/mild cholera (Vibrio cholerae)
+2. Other food/water-borne enterotoxigenic bacterial infection (e.g. enterotoxigenic E. coli)
+3. Acute viral gastroenteritis
+
+PLAN
+
+Investigations (subject to availability and affordability)
+Random blood glucose
+Full blood count
+Serum electrolytes, urea, and creatinine
+Stool microscopy, culture, and sensitivity if available
+Malaria rapid diagnostic test if clinically indicated
+
+Fluid Management
+Weight: 10 kg
+Hydration status: Some dehydration
+
+Commence oral rehydration therapy according to WHO Plan B.
+Administer low-osmolarity oral rehydration solution at 75 mL/kg over 4 hours.
+Total ORS volume required = 750 mL over 4 hours
+Average rate = approximately 190 mL/hour
+Administer in small frequent aliquots of 5–10 mL every 1–2 minutes using a cup and spoon
+
+Continue breastfeeding and age-appropriate feeding during rehydration.
+
+Replace ongoing losses with:
+100 mL ORS after each loose stool
+50–100 mL ORS after each episode of vomiting
+
+Reassess hydration status after 4 hours.
+
+If oral rehydration fails because of persistent vomiting, inability to drink, worsening dehydration, altered consciousness, or circulatory compromise:
+Secure intravenous access and commence Ringer's lactate (preferred) or 0.9% normal saline if Ringer's lactate is unavailable.
+
+If the child develops severe dehydration:
+Administer 100 mL/kg intravenous fluid (1,000 mL total) according to WHO Plan C, age-appropriate timing for a child over 12 months:
+30 mL/kg (300 mL) over the first 30 minutes
+Followed by 70 mL/kg (700 mL) over the next 2½ hours
+
+Once the child can tolerate oral intake, administer ORS at 5 mL/kg/hour (50 mL/hour) alongside intravenous fluids.
+
+Medications
+Zinc sulphate dispersible tablet: 20 mg orally once daily for 14 days
+Paracetamol: 15 mg/kg/dose every 6 hours as required for fever — calculated dose 150 mg orally every 6 hours as needed, maximum of four doses in 24 hours
+Ondansetron: 0.15 mg/kg stat if vomiting persists and is limiting oral rehydration — calculated dose 1.5 mg orally or intravenously as a single dose; monitor stool frequency closely afterward, as ondansetron can transiently increase diarrhoea
+
+Antibiotics are not indicated at this time. Current guidance restricts empiric antibiotic treatment for suspected cholera/bacterial watery diarrhoea to children with severe dehydration; this child currently has some dehydration only. Do not commence azithromycin or erythromycin now. Reassess this decision if the child progresses to severe dehydration, if stool culture/microscopy becomes available and is positive, or if the clinical picture evolves (e.g. rice-water stools, deteriorating hydration status despite adequate ORS).
+
+If severe dehydration develops or stool testing confirms a toxigenic bacterial cause:
+Azithromycin 20 mg/kg orally as a single dose (calculated dose 200 mg) — preferred first-line for suspected/confirmed cholera in children
+Alternative if azithromycin unavailable: Erythromycin 12.5 mg/kg/dose orally every 6 hours for 3 days (calculated dose 125 mg orally every 6 hours for 3 days)
+
+Monitoring
+Monitor temperature, pulse rate, respiratory rate, and hydration status 4-hourly
+Strict fluid input and output charting
+Monitor urine output
+Document frequency of stools and vomiting
+Monitor for signs of fluid overload during intravenous therapy, should it become necessary
+Repeat serum electrolytes if clinically indicated
+
+Health Education
+Continue breastfeeding and feeding during diarrhoeal illness
+Use only boiled, chlorinated, or otherwise treated water for drinking
+Wash hands with soap after toileting and before food preparation
+Dispose of faeces safely
+Avoid the use of over-the-counter antidiarrhoeal medications in children
+Advise the caregiver to return immediately if the child develops persistent vomiting, inability to drink, lethargy, convulsions, worsening diarrhoea, abdominal distension, or reduced urine output
+
+DISPOSITION
+Admit to the Children's Ward for supervised rehydration, monitoring, and reassessment.
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Cholera Is on the Differential, and Why That's Different From Dysentery</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reading the Stool Pattern</strong>
+        <p>This child's stools are large-volume, watery, non-offensive, and free of blood or mucus, occurring 8–10 times daily — a pattern distinct from the bloody, mucoid dysentery picture seen with Shigella. Profuse watery, "rice-water"-like stools with rapid-onset dehydration are the classic presentation of cholera, caused by Vibrio cholerae, and the recent exposure to untreated well water during travel to a rural community is a specific and relevant risk factor that should raise this possibility actively, not just generically.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Changes the Treatment Approach From the Bloody Diarrhoea Case</strong>
+        <p>Bacillary dysentery (bloody, mucoid stools with fever and cramps) and suspected cholera (profuse watery, non-bloody stools) are managed differently. As discussed below, antibiotic treatment thresholds and the specific antibiotic regimen used for suspected cholera differ from those used for dysentery — this is not a single "treat all diarrhoea the same way" protocol, and recognising which clinical pattern is present should directly shape the plan.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why "Some Dehydration" Is the Correct Classification Here</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reading the Signs Together</strong>
+        <p>Sunken eyes, dry buccal mucosa, eager drinking, and a skin pinch that returns slowly (within 2 seconds, not the very slow >2 second return that signals severe dehydration) together place this child in the "some dehydration" category under WHO/IMCI criteria. The child remains conscious, irritable but consolable, and able to drink — none of the features that would push this into severe dehydration (lethargy or unconsciousness, inability to drink, or a very slow skin pinch).</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Distinction Is the Single Most Important Decision Point in This Case</strong>
+        <p>The classification of "some" versus "severe" dehydration does not just determine fluid route (oral versus IV) — in suspected cholera, it is also the deciding factor for whether antibiotics are indicated at all, as discussed in detail below. Getting this classification right is therefore doing double duty in this case.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Antibiotics Are Not Given Now</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">WHO Guidance Restricts Cholera Antibiotics to Severe Dehydration</strong>
+        <p>Current WHO guidance recommends antibiotics for suspected or confirmed cholera only in patients with severe dehydration — not for those with mild or "some" dehydration. This child currently has some dehydration, meaning empiric antibiotic treatment is not indicated at this point, even though the clinical picture is suspicious for a toxigenic bacterial cause. Rehydration remains the priority treatment regardless of cause, and antibiotics are reserved as an adjunct specifically for more severe presentations, where they meaningfully reduce stool volume, illness duration, and bacterial shedding.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What Would Change This Decision</strong>
+        <p>If this child progresses to severe dehydration despite oral rehydration, if stool testing becomes available and confirms a toxigenic organism, or if the clinical picture evolves to a more classic cholera presentation (rice-water stools, rapid deterioration), the decision to start antibiotics should be actively revisited rather than treated as settled. This is a good example of why reassessment matters as much as the initial plan — the correct decision today is not necessarily the correct decision in six hours.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">If Antibiotics Become Indicated — Why This Specific Regimen</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Azithromycin as a Single Dose, Not a Multi-Day Course</strong>
+        <p>For confirmed or strongly suspected cholera with severe dehydration, single-dose azithromycin at 20 mg/kg is the preferred first-line antibiotic in children in current international guidance, having shown clearly superior clinical success compared with single-dose ciprofloxacin in a randomised trial in children (94.5% versus 70.7% clinical success). This regimen — a single 20 mg/kg dose — is specifically a cholera-targeted protocol, distinct from the multi-day, lower-dose azithromycin regimen used for bacillary dysentery (10 mg/kg once daily for 3 days); these are not interchangeable despite using the same drug, and the dose/duration must match the actual indication.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ciprofloxacin and Tetracyclines Are Not First Choices</strong>
+        <p>While ciprofloxacin has historically been listed as an alternative, rising global fluoroquinolone resistance in cholera-causing organisms means it is no longer recommended as routine treatment in children. Tetracycline-class antibiotics are now reserved specifically for outbreak settings where local antibiotic susceptibility has been confirmed, rather than used as a default option.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Erythromycin as the Stated Alternative</strong>
+        <p>If azithromycin is unavailable, erythromycin 12.5 mg/kg/dose every 6 hours for 3 days is a reasonable alternative, though it generally has more gastrointestinal side effects than azithromycin and a less convenient multi-day dosing schedule, which is part of why azithromycin remains preferred where accessible.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Fluid Plan Is Built the Way It Is</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why 750 mL Over 4 Hours, in Small Frequent Aliquots</strong>
+        <p>WHO Plan B for some dehydration uses 75 mL/kg over 4 hours, giving 750 mL for this 10 kg child. Administering this in small, frequent aliquots (5–10 mL every 1–2 minutes by cup and spoon) rather than larger volumes at once reduces the risk of vomiting interrupting rehydration and is the standard practical technique for delivering ORS to a young child, particularly one who has already been vomiting.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Plan C Timing Is Age-Specific</strong>
+        <p>If this child were to deteriorate to severe dehydration, WHO Plan C timing differs by age: infants under 12 months receive the initial 30 mL/kg bolus over a longer 1 hour, followed by the remaining 70 mL/kg over 5 hours, whereas children 12 months and older (as this child is, at 1 year 8 months) receive the faster protocol of 30 mL/kg over 30 minutes followed by 70 mL/kg over 2½ hours. Using the infant timing in an older child would unnecessarily slow correction of severe dehydration, and using the older-child timing in an infant under 12 months risks fluid overload — this age cutoff is a genuinely easy detail to miss under pressure and is worth double-checking every time Plan C is used.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Oral Fluids Continue Alongside IV Fluids, Once Tolerated</strong>
+        <p>Even during IV rehydration for severe dehydration, giving ORS at approximately 5 mL/kg/hour once the child can tolerate oral intake helps maintain potassium and other electrolyte replacement that IV crystalloid solutions like Ringer's lactate do not fully provide, and supports a smoother transition back to oral intake as the child improves.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Other Medications Were Chosen</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Zinc, Regardless of Final Diagnosis</strong>
+        <p>As with any child with acute diarrhoea, zinc supplementation (20 mg daily for 14 days in this age group) shortens illness duration and reduces the risk of the diarrhoea becoming persistent, and should be given regardless of whether the final cause turns out to be cholera, another bacterial cause, or viral gastroenteritis.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Over-the-Counter Antidiarrhoeal Medication Was Flagged for Avoidance</strong>
+        <p>The mother had already given an over-the-counter antidiarrhoeal before presentation. Anti-motility agents are generally discouraged in young children with acute diarrhoea, as they can prolong pathogen retention in the gut, mask the severity of fluid losses, and in some cases worsen outcomes — this is worth specifically addressing in caregiver education, since these products are often available without prescription and may seem like a reasonable first response to a worried parent.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>For suspected cholera, WHO restricts antibiotic treatment to children with severe dehydration — do not start empiric antibiotics for cholera in a child with only "some" dehydration, regardless of how suspicious the exposure history looks.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Distinguish the stool pattern carefully: profuse watery, non-bloody stools point toward cholera/toxigenic causes, while bloody mucoid stools point toward dysentery — these use different antibiotic regimens when antibiotics are indicated, even when the drug (e.g. azithromycin) is the same.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Cholera-specific azithromycin dosing is a single 20 mg/kg dose — distinct from the lower-dose, multi-day regimen used for dysentery. Always match the dose and duration to the actual indication, not just the drug name.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>WHO Plan C timing depends on age — infants under 12 months get a slower protocol (1 hour then 5 hours) than children 12 months and older (30 minutes then 2½ hours). Double-check this age cutoff every time, since it's an easy detail to miss under pressure.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Discourage over-the-counter antidiarrhoeal medications in young children — they can mask fluid losses and worsen outcomes, and caregivers should be specifically counselled against them.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Untreated well water remains a major risk factor for cholera and other waterborne illness in many Nigerian communities, both rural and semi-urban — treat any history of untreated water exposure as clinically significant and use it to guide both diagnosis and caregiver education.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Lo Vecchio A, et al. Guidelines for the Management of Paediatric Cholera Infection: A Systematic Review of the Evidence. Paediatrics and International Child Health, 2018.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Khan WA, et al. Single Dose Azithromycin Versus Ciprofloxacin for Cholera in Children: A Randomized Controlled Trial. Indian Pediatrics, 2010.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Global Task Force on Cholera Control (GTFCC). Treatment for Patients with Severe Dehydration: Plan C.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. The Treatment of Diarrhoea: A Manual for Physicians and Other Senior Health Workers, 4th revision.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization / UNICEF. WHO/UNICEF Integrated Management of Childhood Illness (IMCI) Handbook, diarrhoea case management chapter.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Houpt ER, Ferdous T, Ahmed T, et al. Rapid Intravenous Rehydration of Children with Acute Gastroenteritis and Dehydration: A Systematic Review and Meta-Analysis. PMC.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>International Zinc Nutrition Consultative Group (IZiNCG). Zinc as Part of the Treatment of Diarrhea.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM), Standard Treatment Guidelines, and Cholera Outbreak Response Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) / Nigeria Centre for Disease Control and Prevention (NCDC) clinical guidance on cholera and acute watery diarrhoea management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-6',
+    title: 'Acute Gastroenteritis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Children Emergencies',
+    condition: 'Acute Gastroenteritis',
+    symptoms: ['Cough', 'Fever', 'Vomiting', 'Loose stools', 'Dehydration'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '2-year-old male with acute gastroenteritis (some dehydration) and moderate acute malnutrition (confirmed by both WHZ and MUAC). Presented with cough, fever, vomiting, and loose stools, with a history of unindicated empirical antimalarial and antibiotic therapy at a referring facility that required active reassessment on this admission.',
+    content: `Age: 2 years
+Sex: Male
+Residence: Abeokuta, Ogun State
+Informant: Mother (reliable)
+
+PC
+Cough × 1/7
+Fever × 1/7
+Vomiting × 3/7 (resolved)
+Passage of loose stools × 2/7
+
+HPC
+The patient was apparently well until about one week prior to presentation when he developed a cough, non-paroxysmal and non-barky, associated with whitish nasal discharge.
+There was no associated difficulty in breathing, chest indrawing, or noisy breathing.
+
+A few hours after onset of cough, he developed fever, described as high-grade and intermittent, temporarily relieved by tepid sponging.
+There was no associated convulsion or loss of consciousness.
+
+Due to persistence of fever, he was taken to a private health facility on the first day of illness, where he received intramuscular paracetamol (dose unknown) and intramuscular artemether, and was managed as an outpatient. Fever however persisted, and he re-presented to the same facility the following day, where he was admitted and continued on daily intramuscular artemether for three days. He was also commenced on intravenous antibiotics (name unknown) for presumed sepsis. No records of investigations were available.
+
+On the fourth day of illness, while still on admission, he developed vomiting, about 4 episodes per day, non-projectile, non-bilious, containing mainly recently ingested fluids, estimated at ~50 mls per episode. Vomiting resolved by the fifth day of illness.
+
+Subsequently, he developed loose stools, about 5 episodes per day, watery but mucoid, non-bloody, and not foul-smelling.
+The last episode of stooling was about 9 hours prior to presentation.
+
+He was discharged on the sixth day of illness on oral amoxicillin-clavulanate, ibuprofen, and cough syrup. However, on getting home, he was noticed to be weak with reduced appetite, prompting presentation to this facility about 24 hours after discharge.
+
+There is no history of difficulty in breathing, convulsions, dysuria, or reduced urine output.
+
+PMH
+No history of any chronic illness
+No previous hospital admissions
+No history of blood transfusion
+Genotype: AA
+
+DRUG HISTORY
+No known drug allergies.
+Currently on oral amoxicillin-clavulanate, ibuprofen, and cough syrup from previous facility (see assessment regarding continuation).
+
+IMMUNIZATION HISTORY
+Up to date for age according to the NPI schedule (cards not seen).
+
+NUTRITIONAL HISTORY
+24-hour dietary recall:
+- Pap with sugar
+- Rice and stew
+Appetite has reduced in the past few days.
+
+O/E
+Toddler, afebrile (T = 36.3°C), anicteric, not pale, sunken eyes, dry oral mucosa, no peripheral lymphadenopathy, no pedal oedema.
+
+Anthropometry:
+Weight: 10 kg (~71% of expected)
+Height: 87 cm
+Weight-for-height: between −2 and −3 Z-scores
+MUAC: 12 cm
+OFC: 53 cm
+
+CVS
+PR: 112 bpm, full volume, regular
+HS: S₁ S₂ only
+
+RS:
+RR: 26 cpm
+Breath sounds vesicular
+SpO₂: 98% in room air
+
+ENT:
+Tonsils not enlarged
+
+Abdomen:
+Full, moves with respiration
+No tenderness
+No palpable organomegaly
+
+Neurological:
+Conscious, alert
+No neurological deficit
+
+INVESTIGATIONS
+mRDT for malaria: Negative
+Random blood sugar: 108 mg/dL
+PCV: 32%
+Urinalysis: Essentially normal
+
+ASSESSMENT
+1. Acute gastroenteritis with some dehydration (sunken eyes, dry mucosa, reduced appetite, no shock)
+2. Moderate acute malnutrition (WHZ between -2 and -3; MUAC 12 cm, consistent with MAM)
+3. Antecedent unindicated antimalarial and antibiotic therapy at referring facility, in a child currently testing negative for malaria, with no documented septic workup
+
+PLAN
+Admit for observation
+Discontinue intramuscular artemether (mRDT negative here; no documented positive parasitological test at any point in this illness)
+Discontinue amoxicillin-clavulanate and ibuprofen pending reassessment; no clear bacterial source identified to justify continued antibiotics at this time, and ibuprofen is not first-line for fever in a child with reduced oral intake/dehydration risk; may switch to paracetamol if antipyretic still required
+ORS 75 mL/kg over 4 hours (total 750 mL), reassessing hourly, then reassess hydration status at 4 hours
+Tab Zinc 20 mg once daily for 10–14 days
+Continue breastfeeding/age-appropriate feeding throughout rehydration; do not withhold food
+Monitor intake/output and stool frequency
+Send FBC, E/U/Cr, and CRP to help clarify whether the earlier "presumed sepsis" diagnosis has any current supporting evidence
+Review after rehydration
+
+REVIEW (POST-REHYDRATION)
+Child has completed rehydration and appears to have improved clinically.
+O/E:
+Afebrile, not dehydrated
+
+PR: 100 bpm, full volume
+RR: 24 cpm, chest clear
+
+REVISED ASSESSMENT
+1. Acute gastroenteritis (resolved dehydration)
+2. Moderate acute malnutrition
+
+PLAN
+Continue ORS 10 mL/kg per loose stool
+Continue Zinc 20 mg daily to complete 10–14 days total
+Tab Folic acid 5 mg daily
+Syr multivitamin (Afravite) 5 mL daily
+Syr Vitamin B-complex 5 mL daily
+Dietary counselling, with emphasis on energy- and protein-dense, age-appropriate complementary feeding given moderate acute malnutrition
+Refer to nutritionist/outpatient therapeutic feeding programme for MAM follow-up and monitoring
+See in 3/7 for follow-up, including weight and MUAC recheck
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why "Some Dehydration," and Why This Classification Matters</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reading the Dehydration Signs</strong>
+        <p>WHO/IMCI classifies dehydration into three tiers — no dehydration, some dehydration, and severe dehydration — based on specific clinical signs rather than a vague "mild/moderate/severe" label. This child has sunken eyes, dry oral mucosa, and reduced appetite/thirst, without signs of shock such as a weak or absent pulse, lethargy, or an inability to drink. This combination places him in the "some dehydration" category, which is managed with oral rehydration therapy (WHO Plan B), not IV fluids, which are reserved for severe dehydration or failure of oral rehydration.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Oral Rehydration Was the Right Choice Here</strong>
+        <p>Oral rehydration therapy is recommended by both WHO and the American Academy of Pediatrics as the first-line treatment for children with no-to-moderate dehydration who can drink, and has a treatment failure rate of under 5% when given correctly. There is no indication in this child's presentation — no shock, no inability to tolerate oral fluids, no intestinal obstruction — that would justify bypassing ORS in favour of IV fluids.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why 75 mL/kg Over 4 Hours Is Correct</strong>
+        <p>WHO Treatment Plan B for some dehydration recommends 75 mL/kg of ORS given over 4 hours, with reassessment of hydration status at that point. For this 10 kg child, that is 750 mL, exactly as planned. Throughout this period, ongoing losses from continuing diarrhoea or vomiting should be replaced in addition to this calculated volume, and breastfeeding or age-appropriate feeding should continue rather than being paused.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Moderate Acute Malnutrition Is Confirmed by Two Independent Measures</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Weight-for-Height and MUAC Agree Here</strong>
+        <p>This child's weight-for-height sits between -2 and -3 z-scores, and his MUAC of 12 cm (120 mm) falls within the 115–125 mm range — both independently classify him as having moderate acute malnutrition (MAM) rather than severe acute malnutrition (SAM), which requires a weight-for-height below -3 z-scores or a MUAC below 115 mm. It is worth noting that MUAC and weight-for-height do not always agree in the same child; when they do, as here, this strengthens confidence in the MAM classification.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Distinction From SAM Matters for Fluid Choice</strong>
+        <p>Children with severe acute malnutrition and diarrhoea are managed with a specific, lower-sodium rehydration solution (ReSoMal) rather than standard WHO ORS, because of a higher risk of sodium overload and severe hypokalaemia in SAM. Because this child has moderate, not severe, acute malnutrition, standard WHO ORS at the usual volume remains appropriate — this distinction is worth being explicit about, since reflexively reaching for SAM-specific protocols in a MAM child is unnecessary, just as using standard ORS volumes in a SAM child can be unsafe.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Earlier Treatment at the Referring Facility Needed to Be Actively Reviewed</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Antimalarial Treatment Without a Positive Test</strong>
+        <p>This child received three days of intramuscular artemether at the previous facility, but no record exists of a positive malaria test at any point during that admission, and his malaria rapid diagnostic test on this presentation is negative. Empirical antimalarial treatment without parasitological confirmation is discouraged in current malaria case management guidance specifically because it risks missing the true cause of fever, contributes to drug pressure and resistance, and exposes the child to medication without benefit. This is a teaching opportunity to reinforce "test before treat" as the standard of care, rather than treating fever in a malaria-endemic area as presumptively malarial.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Antibiotics for "Presumed Sepsis" Without Supporting Investigations</strong>
+        <p>IV antibiotics were started for presumed sepsis with no documented investigations to support this diagnosis. While it is sometimes appropriate to start empirical antibiotics in a genuinely unwell child while awaiting results, the absence of any recorded workup makes it impossible to know what this treatment was actually targeting, and the child's current presentation (active, alert, no fever, normal urinalysis, reassuring vital signs once rehydrated) does not support an ongoing severe bacterial process. Sending FBC and CRP at this admission helps establish whether there is any current evidence of bacterial infection, rather than continuing antibiotics by default because they were already started elsewhere.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Discharge Medications Were Reassessed Rather Than Simply Continued</strong>
+        <p>The child was sent home on amoxicillin-clavulanate, ibuprofen, and cough syrup. Continuing a course of antibiotics without a clear ongoing indication contributes unnecessarily to antimicrobial resistance pressure and does not address this child's current problem, which is gastrointestinal, not a bacterial infection requiring this antibiotic. Ibuprofen is best avoided in a child who has been vomiting, has reduced oral intake, and is dehydrated, given the increased risk of renal impact under these conditions — paracetamol is the safer choice if an antipyretic is still needed. Cough syrups have limited evidence of benefit in young children and are not a priority in this presentation. Reassessing and stopping medications that are no longer indicated is as much a part of careful prescribing as starting new ones.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Zinc Was Given, and Why the Dose Is Correct</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Zinc Is a Core Part of Diarrhoea Management, Not an Optional Extra</strong>
+        <p>WHO and UNICEF have recommended zinc supplementation as part of standard diarrhoea case management since 2004, alongside oral rehydration and continued feeding. Zinc supplementation reduces the duration and severity of the diarrhoeal episode and lowers the risk of the diarrhoea becoming persistent, and is recommended for any child with diarrhoea, with particular emphasis on malnourished children, who are at higher risk of zinc deficiency.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Dosing</strong>
+        <p>The standard WHO dose is 20 mg of elemental zinc daily for children 6 months and older, for a duration of 10–14 days; infants under 6 months receive a lower dose of 10 mg daily. At 2 years old, this child correctly receives 20 mg daily, and the duration should be confirmed to run the full 10–14 days even after discharge, not stopped early once symptoms improve.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Ongoing Management Looks Beyond the Acute Episode</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Treating the Malnutrition, Not Just the Diarrhoea</strong>
+        <p>Acute gastroenteritis and moderate acute malnutrition interact in both directions: malnutrition increases susceptibility to and severity of diarrhoeal illness, while diarrhoea further worsens nutritional status through reduced intake and nutrient losses. This is why dietary counselling and referral to nutritional follow-up are included as part of the discharge plan rather than treating this purely as a self-limiting gastroenteritis episode that ends once stools normalise.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Repeat Anthropometry at Follow-Up Matters</strong>
+        <p>Rechecking weight and MUAC at the 3-day follow-up (rather than just asking how the child is doing) gives an objective measure of nutritional trajectory and allows early identification if the child is not responding to dietary counselling and outpatient support, which would prompt earlier or more intensive nutritional intervention.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Classify dehydration using WHO/IMCI criteria (no dehydration, some dehydration, severe dehydration) based on specific signs — sunken eyes, skin pinch, ability to drink, pulse — rather than a generic "mild/moderate/severe" label that doesn't map directly to a treatment plan.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always actively review medications a child arrives already taking — antimalarials started without a positive test, and antibiotics started without supporting investigations, should be reassessed and stopped if no longer justified, not continued by default.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>"Test before treat" applies to malaria even in endemic settings like Nigeria — empirical antimalarial treatment for fever without a positive test is discouraged and can delay diagnosis of the real cause.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Use both MUAC and weight-for-height where possible to classify acute malnutrition — they don't always agree, and relying on only one risks missing children who meet criteria on the other.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Standard WHO ORS is appropriate for moderate acute malnutrition with diarrhoea — reserve specialised low-sodium solutions like ReSoMal specifically for severe acute malnutrition, where standard ORS carries a higher risk of complications.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Avoid ibuprofen in dehydrated or vomiting children where possible, given the increased renal risk in that context — paracetamol is the safer first-line antipyretic.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Diarrhoea and malnutrition reinforce each other — always pair acute gastroenteritis management with nutritional follow-up and dietary counselling, not just resolution of stooling.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization / UNICEF. WHO/UNICEF Integrated Management of Childhood Illness (IMCI) Handbook, diarrhoea case management chapter.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. The Treatment of Diarrhoea: A Manual for Physicians and Other Senior Health Workers, 4th revision.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. WHO Guideline on the Prevention and Management of Wasting and Nutritional Oedema (Acute Malnutrition) in Infants and Children Under 5 Years, 2023.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Bhutta ZA, et al. Oral Rehydration of Malnourished Children with Diarrhoea and Dehydration: A Systematic Review. PMC.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>International Zinc Nutrition Consultative Group (IZiNCG). Zinc as Part of the Treatment of Diarrhea.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Pediatrics, Subcommittee on Acute Gastroenteritis. Practice Parameter: The Management of Acute Gastroenteritis in Young Children.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Treatment of Malaria — "test, treat, track" principle.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for Diagnosis and Treatment of Malaria, and National Essential Medicines List (NLEM).</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on acute gastroenteritis and malnutrition management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-5',
+    title: 'Severe Malaria with Hyperglycemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Emergency Pediatrics',
+    condition: 'Severe Malaria',
+    symptoms: ['Fever', 'Pale eyes and feet', 'Respiratory distress', 'Severe pallor', 'Bounding pulse', 'Hepatomegaly', 'Hyperglycemia'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '5-year-old male, twin gestation, born at 33 weeks, presenting with severe anaemia (PCV 8%) in decompensated anaemic heart failure (bounding pulse, marked hepatomegaly, severe respiratory distress, hypoxaemia despite oxygen), hyperglycaemia (RBS 206 mg/dL), and incidentally noted bilateral cryptorchidism. Transfusion volume reduced and given as packed cells per WHO heart-failure-specific guidance.',
+    content: `5 year old male pre-schooler, with Christian TIV parents, resides at Akure, Ondo State.
+Informant is the paternal aunt and mother.
+
+PC:
+Fever x5/7
+Pale eyes and feet x2/7
+
+HPC:
+He was in his usual state of health until 5 days ago when he developed fever, fever was said to be high grade, intermittent, worse in the evening. It was temporarily relieved with tepid sponging.
+
+About 3 days after onset of fever, he was noticed to be pale which was described that the hands, feet and eyes were white in colour.
+
+Since onset of symptoms, step mother had called an auxiliary who administered blood tonic and an intramuscular injection which could not be ascertained.
+
+However symptoms persisted and the paternal aunt was called which necessitated presentation to this facility for expert care.
+
+PMH:
+No hx of similar symptoms in the past.
+Hx of previous hospital admission could not be ascertained.
+No hx of blood transfusion or surgery.
+
+Pregnancy, Birth and Perinatal Hx:
+Pregnancy was planned, spontaneously conceived, booked and delivered at a private hospital.
+No hx of febrile illness, no hx of HTN, DM, or symptoms suggestive of UTI during pregnancy.
+
+He is the 2nd of a set of twins delivered at about 33 weeks EGA, cried spontaneously at birth, BW could not be ascertained; mother described he was average in size.
+Child was put to breast within 1 hour of delivery; however, mother was not lactating well and had to be given baby food.
+No adverse event during the perinatal period.
+
+Immunization hx:
+Immunized for age according to NPI schedule.
+
+Developmental hx:
+Attained developmental milestones as at when due.
+
+Nutritional Hx:
+Child was not exclusively breastfed, and was on AFM. Currently on family diet.
+
+Family & Social Hx:
+He is the 2nd of a set of twins born in a polygamous family setting with 2 wives.
+Mother is the 1st wife; however, is separated from father and does not reside with them. Mother has 4 children for the father.
+Mother is a 26-year-old farmer with no formal education. Genotype is unknown. Average income of mother is about N50,000 monthly.
+Father's age unknown, farmer with HLE as First School Leaving Certificate. Average income of father could not be ascertained.
+Eldest sibling is a 9-year-old male, not in school, alive and well, no hx of similar symptoms.
+2nd sibling is a 7-year-old male, not in school, alive and well, no hx of similar symptoms.
+1st set of twin is a 5-year-old female, not in school, alive and well, no hx of similar symptoms.
+Child lives with father and step mother in a mud house.
+
+ROS:
+No loss of consciousness, no convulsion, no bluish discoloration of any part of the body. Positive hx of generalized body weakness.
+No vomiting, no passage of loose stool.
+No rash; hx of change in colour or decrease in urine output could not be ascertained.
+
+O/E:
+Acutely ill-looking, in respiratory distress, severely pale, not icteric, febrile (T: 37.8°C), not cyanosed, not dehydrated, no finger clubbing, no PLNE, no pedal oedema.
+
+Weight: 16 kg
+WFA at 15th centile
+Length: 102 cm
+LFA between -1 and -2 z-score
+WFL at 0 z-score
+MUAC: 15 cm
+MUAC for age between -1 and -2 z-score
+OFC: 50 cm
+OFC for age at 0 z-score
+
+Respiratory:
+Dyspnoeic with IC, SC recession
+RR 68 cpm
+BS vesicular
+SpO₂ 88–92% on supplemental oxygen
+
+CVS:
+PR 156 bpm, bounding, regular
+BP 88/40 mmHg
+SBP <50th centile
+DBP <50th centile
+HS S1 S2
+
+Digestive:
+Abdomen full, MWR, soft
+? Vague generalised tenderness
+Liver 5 cm below RCM, soft, ? tender
+Spleen not palpably enlarged
+
+CNS:
+Conscious
+Pupils round, equal, reactive to light bilaterally
+No neck stiffness
+Kernig negative
+Brudzinski negative
+Tone normal globally
+
+UGS:
+Testes not palpable within scrotal sac
+
+Investigations:
+PCV 8%
+mRDT Positive
+RBS 206 mg/dL
+RVS Non-reactive
+Urinalysis:
+Glucose: negative
+Bilirubin: negative
+Ketone: Trace
+SG: 1.030
+Blood: negative
+pH: 6.5
+Protein: negative
+Urobilinogen: Normal
+Nitrite: Negative
+Leucocyte: Negative
+
+ASSESSMENT
+Severe malaria with severe anaemia (PCV 8%) in decompensated anaemic heart failure (bounding pulse, hepatomegaly, severe respiratory distress, hypoxaemia despite supplemental oxygen), with associated hyperglycaemia, and bilateral undescended testes (cryptorchidism) noted incidentally.
+
+PLAN
+Admit to a high-dependency/intensive care setting given decompensated heart failure
+Continue supplemental oxygen, titrating to maintain SpO₂ ≥94% where possible; escalate respiratory support if not achieved
+MP microscopy, FBC, E/U/Cr, Hb phenotype
+IV Artesunate 3 mg/kg = 48 mg at 0, 12, and 24 hours (commence oral ACT 40/240 mg at 0h, 8h, then 12-hourly × 2/7 after completion of IV Artesunate, once tolerating oral intake)
+Urgent transfusion with packed red cells 8 mL/kg = 128 mL slowly over 3–4 hours under continuous cardiorespiratory monitoring, given decompensated heart failure; reassess clinically throughout and plan a further small top-up 24–48 hours later if anaemia remains severe
+IV Furosemide 1 mg/kg = 16 mg with the transfusion, given clear signs of decompensated heart failure
+Monitor temperature, pulse rate, respiratory rate, SpO₂, and clinical signs of fluid overload continuously during transfusion, then 4-hourly
+Monitor RBS hourly until 3 consecutive normal values, then 4-hourly
+Invite the paediatric surgical team for assessment of bilateral cryptorchidism once acutely stabilised
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Is Decompensated, Not Just Severe, Heart Failure</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reading the Severity Correctly</strong>
+        <p>A PCV of 8% is profoundly low and, combined with a bounding pulse, marked hepatomegaly (liver 5 cm below the costal margin), severe respiratory distress with intercostal and subcostal recession, a respiratory rate of 68 breaths per minute, and an oxygen saturation that remains only 88–92% despite supplemental oxygen, this child is in decompensated — not merely compensated — anaemic heart failure. This is meaningfully more severe than a child showing early signs of cardiac strain, and should prompt management in the highest level of care available, with continuous monitoring rather than intermittent observations.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Bounding Pulse Matters</strong>
+        <p>A bounding (rather than weak or thready) pulse in severe anaemia reflects the hyperdynamic circulation the body mounts to compensate for critically reduced oxygen-carrying capacity — the heart is working much harder and faster to circulate the limited haemoglobin available. This is a sign of significant physiological strain, not reassurance, and it is part of the same picture as the hepatomegaly and respiratory distress.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Transfusion Volume and Approach Were Adjusted</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Applying the Heart-Failure-Specific Transfusion Range</strong>
+        <p>WHO/AFRO case management guidance recommends 5–10 mL/kg of packed cells (or 10–20 mL/kg of whole blood) specifically for children with severe pallor and heart failure features such as dyspnoea, enlarged liver, and gallop or bounding pulse — rather than the larger volumes used for severe anaemia without cardiac compromise. For this severely decompensated child, 8 mL/kg of packed cells sits within this recommended range while still providing meaningful correction; the original plan of 20 mL/kg whole blood sat at the very upper limit of the heart-failure-specific whole blood range, which is more volume than is generally advisable in a child this decompensated, particularly given packed cells deliver more red cell mass per mL of volume infused than whole blood.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Packed Cells Rather Than Whole Blood, Where Available</strong>
+        <p>Where packed red cells are available, they allow correction of the haemoglobin with a smaller total transfused volume compared with whole blood, which is specifically advantageous in a child already showing signs of volume-related cardiac strain — the same haemoglobin rise can be achieved with less added circulating volume.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why a Planned Top-Up Is Safer Than a Single Larger Transfusion</strong>
+        <p>In a child this decompensated, attempting to fully correct an 8% PCV in a single transfusion risks precipitating overt pulmonary oedema. Giving a smaller, carefully monitored volume first, reassessing cardiorespiratory status, and planning a further top-up 24–48 hours later if needed is a safer strategy than chasing a normal haemoglobin in one sitting.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Continuous Monitoring During Transfusion Is Non-Negotiable Here</strong>
+        <p>Given this child's degree of decompensation, transfusion should take place under continuous, not intermittent, cardiorespiratory monitoring, with a low threshold to slow, pause, or modify the rate at any sign of worsening — increasing respiratory distress, new crepitations, rising heart rate, or falling saturation despite oxygen.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Furosemide and Oxygen Were Both Used</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Furosemide Is Targeted, Not Routine, and Strongly Indicated Here</strong>
+        <p>As with less severe presentations, diuretic use alongside transfusion is specifically reserved for children showing signs of pulmonary oedema or biventricular heart failure — criteria this child clearly meets, given the combination of severe respiratory distress, oxygen saturation below 90% despite supplemental oxygen, bounding pulse, and significant hepatomegaly. At 1 mg/kg, this gives 16 mg for this 16 kg child, consistent with standard paediatric dosing.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Oxygen Saturation Targets Need Active Pursuit, Not Just Documentation</strong>
+        <p>An oxygen saturation of 88–92% on supplemental oxygen is below typical target ranges and indicates the current level of respiratory support is inadequate. The plan should actively pursue an adequate saturation (generally ≥94% where achievable) by escalating oxygen delivery method or flow rate, and should trigger early consideration of higher-level respiratory support if targets cannot be met, rather than simply documenting the low reading and moving on.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why IV Artesunate Dosing Is Correct as Written</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Weight-Based Dosing Confirmed</strong>
+        <p>Current WHO-aligned dosing for children weighing less than 20 kg is 3 mg/kg per dose of IV artesunate, at 0, 12, and 24 hours. For this 16 kg child, that is 48 mg per dose, matching the plan exactly. As with any severe malaria presentation, treatment should continue for a minimum of 24 hours, with transition to a full oral ACT course only once the child can reliably tolerate oral medication — interim oral antimalarial cover should never substitute for completing the parenteral course in a child this unwell.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Hourly Glucose Monitoring Is Appropriate</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">A Genuinely Unwell Child With Glucose Instability</strong>
+        <p>This child has a markedly elevated RBS of 206 mg/dL, in a child who is severely unwell with decompensated heart failure — glucose can shift rapidly in either direction during the acute phase of severe malaria, particularly with ongoing treatment, fluid shifts, and the physiological stress response. Hourly monitoring until three consecutive normal values are obtained, then stepping down to four-hourly, reflects an appropriately cautious approach in a child this sick rather than over-monitoring.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Cryptorchidism Was Identified but Not Urgently Managed</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">An Incidental Finding That Still Deserves Follow-Through</strong>
+        <p>Bilateral undescended testes found on examination during an unrelated acute illness is a genuine finding that needs paediatric surgical input, but it is not an emergency in the context of life-threatening severe malaria — referral should be made for assessment once the child is acutely stabilised, rather than during the acute resuscitation phase. This is also a useful prompt to ask whether this had been noted before by caregivers, since earlier identification (ideally well before age 5) generally allows for more straightforward surgical correction and reduces the long-term risks associated with undescended testes, including infertility and malignancy.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Reading the Wider Social Context</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Care-Seeking Pathway Matters</strong>
+        <p>Five days of high-grade fever were initially managed with an unqualified auxiliary giving "blood tonic" and an unidentified intramuscular injection, rather than prompt assessment for malaria — a pattern that contributed to this child reaching hospital only once severely anaemic and in decompensated heart failure. This reflects a broader and very real barrier to care in many Nigerian communities: reliance on informal, unregulated providers, often due to distance, cost, or limited awareness of danger signs, which can allow a treatable illness to progress to a life-threatening one.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Family History Detail About the Twin Pregnancy Is Relevant</strong>
+        <p>Birth at approximately 33 weeks gestation as part of a twin pregnancy is a recognised risk factor for poorer nutritional and developmental trajectories, and combined with a history of poor maternal lactation requiring early supplementation, this child's overall nutritional reserve may have been more limited heading into this acute illness — worth factoring into how cautiously fluid and transfusion management is approached, and into counselling on nutrition once he recovers.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>A bounding pulse in severe anaemia is a sign of significant cardiovascular strain, not reassurance — read it alongside hepatomegaly and respiratory distress as part of the same decompensation picture.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>In decompensated heart failure, stay within the WHO heart-failure-specific transfusion range (5–10 mL/kg packed cells, 10–20 mL/kg whole blood), favour packed cells where available, and plan for a slower, possibly staged correction rather than one large-volume transfusion.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>An oxygen saturation that remains low despite supplemental oxygen is a signal to escalate respiratory support, not just a number to record — actively pursue an adequate target saturation.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Incidental but genuine findings like cryptorchidism still deserve a clear referral plan — note them, refer appropriately, but do not let them distract from or delay acute resuscitation priorities.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Delayed presentation after treatment by unqualified informal providers is a recurring and important pattern in Nigerian paediatric emergencies — use every such admission as an opportunity to counsel families on recognising danger signs and seeking care early.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>IV artesunate dosing (3 mg/kg under 20 kg, at 0/12/24 hours) does not change based on disease severity — what changes with severity is the surrounding supportive care, monitoring intensity, and transfusion strategy.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization Regional Office for Africa. Guidelines for Case Management of Malaria.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. WHO Guidelines for Malaria, November 2024 update.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Centers for Disease Control and Prevention (CDC). Guidelines on the Treatment of Severe Malaria, March 2024.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Maitland K, Kiguli S, Olupot-Olupot P, et al. Transfusion Volume for Children with Severe Anemia in Africa (TRACT trial). New England Journal of Medicine, 2019.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Hassall O, et al. Transfusion Management of Severe Anaemia in African Children: A Consensus Algorithm. PMC.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cheng A, et al. Whole Blood Versus Red Cell Concentrates for Children with Severe Anaemia: Secondary Analysis of the TRACT Trial. PMC.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Urological Association / European Association of Urology guidance on management of undescended testes (cryptorchidism) in children.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for Diagnosis and Treatment of Malaria, and National Essential Medicines List (NLEM).</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on severe malaria management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-4',
+    title: 'Severe Malaria with Severe Anemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Emergency Pediatrics',
+    condition: 'Severe Malaria',
+    symptoms: ['Fever', 'Difficulty in breathing', 'Fast breathing', 'Pallor', 'Gallop rhythm', 'Hepatomegaly'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '2-year-old female presenting with high-grade fever and respiratory distress, found to have severe anaemia (PCV 15%) in anaemic heart failure (gallop rhythm, tender hepatomegaly, hypoxia), with incidental hyperglycaemia. Transfusion volume and rate adjusted for heart failure per WHO heart-failure-specific guidance.',
+    content: `2-year-old female child of Christian, Yoruba parents.
+Informant: mother.
+
+PC:
+Fever x 3 days
+Difficulty in breathing x 4 hrs PTP
+
+HPC:
+She was apparently well until 3 days PTP when she developed high-grade, intermittent fever temporarily relieved with PCM.
+4 hrs PTP, she developed difficulty in breathing, evidenced by fast breathing.
+Since the onset of symptoms, mother has given her 3 doses of 5 mls syrup amoxicillin without resolution of symptoms necessitating her presentation to a private facility.
+At the private hospital, she was noted to be pale and was advised on the need for a blood transfusion, hence the referral to this facility.
+
+PMH:
+No history of previous hospitalization, blood transfusion, or surgery. Genotype unknown.
+
+Pregnancy, Birth, and Neonatal Hx:
+Pregnancy, delivery, and neonatal period were not adversely eventful.
+
+Nutritional Hx:
+Exclusively breastfed for 6 months, currently on family diet.
+
+Immunization Hx:
+Fully immunized for age according to the NPI schedule.
+
+Developmental Hx:
+Attained developmental milestones as and when due.
+
+Family & Social Hx:
+Third of three children.
+1st child: 7-year-old male, alive and well
+2nd child: 5-year-old male, alive and well
+Mother, 29 years, tailor, HLE: FSLC
+Father, 40 years, self-employed, HLE: SSCE
+Family lives in a single-room dwelling.
+
+ROS:
+One episode of vomiting with passage of loose stool
+Nil cough
+Nil reduction in urine output
+Nil convulsion or loss of consciousness
+
+O/E:
+Pale, anicteric, not cyanosed, febrile, not dehydrated, nil pedal edema
+
+Anthropometry:
+Weight: 10 kg
+Length: 70 cm
+MUAC: 14 cm
+OFC: 45 cm
+
+CVS:
+PR 156 bpm, full volume, regular
+S1 and S2 with gallop rhythm
+
+RS:
+RR 30 cpm, dyspneic with flaring of alar nasi
+BS vesicular
+SpO₂ 93% in room air
+
+Digestive:
+Mouth: NAD
+Abdomen full, soft, MWR
+Liver soft, 3 cm below RCM, tender
+Nil splenomegaly
+
+CNS:
+Conscious
+Tone normal globally
+Power full in all limbs
+
+Investigations:
+mRDT: positive
+PCV: 15%
+RBS: 147 mg/dL
+Urinalysis: within normal limits
+
+ASSESSMENT
+Severe malaria with severe anaemia in anaemic heart failure (gallop rhythm, tender hepatomegaly, tachypnoea, tachycardia, hypoxia), and incidental hyperglycaemia.
+
+PLAN
+Admit
+MP for microscopy
+FBC, Hb phenotype
+Group-specific uncrossmatched blood
+Transfuse with settled/packed cells 7.5 mL/kg = 75 mL slowly over 3–4 hours, given signs of heart failure; reassess clinically during transfusion and consider a further small top-up 24–48 hours later if anaemia remains severe
+IV Artesunate 3 mg/kg = 30 mg at 0 hr, 12 hr, and 24 hr (commence oral ACT Artemether-Lumefantrine 20/120 at 0h, 8h, then 12 hrly × 2/7 after completion of IV Artesunate, once tolerating oral intake)
+IV Furosemide 1 mg/kg = 10 mg with the transfusion, given clinical signs of heart failure; reassess need for further doses based on response
+IVF 5% dextrose in half saline, maintenance rate based on weight, via fluid giving set; avoid fluid overload given heart failure — total fluids (including transfusion volume) should be carefully calculated, not given in addition to a full maintenance volume
+Monitor vital signs (PR, RR, Temp, SpO₂) continuously during transfusion, then 4-hourly
+Monitor RBS given hyperglycaemia on presentation
+Review with investigation results
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Is Severe Malaria, and Why Heart Failure Is Part of the Diagnosis</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Defining Severe Malaria</strong>
+        <p>A positive malaria rapid diagnostic test together with one or more markers of severity — here, a PCV of 15% (severe anaemia) and respiratory distress — meets criteria for severe malaria, which is a medical emergency regardless of the child's level of consciousness or other complications.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why "Anaemic Heart Failure" Is the Correct Framing, Not Just "Severe Anaemia"</strong>
+        <p>This child has three specific findings that together indicate the heart is struggling to compensate for severe anaemia: a gallop rhythm (an added heart sound reflecting volume overload and reduced ventricular compliance), a tender, enlarged liver (hepatic congestion from right heart strain), and tachypnoea with nasal flaring out of proportion to a clear chest. This combination — rather than anaemia and respiratory distress considered separately — is what defines anaemic (high-output) heart failure, and it fundamentally changes the transfusion approach, as discussed below.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Transfusion Volume Has Been Reduced</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Heart Failure Changes the Safe Transfusion Volume</strong>
+        <p>WHO/AFRO malaria case management guidance specifically recommends 5–10 mL/kg of packed cells (or 10–20 mL/kg of whole blood) for children with severe pallor and signs of heart failure such as dyspnoea, enlarged liver, and gallop rhythm — a smaller volume than is used for severe anaemia without heart failure. This is because a heart already struggling to compensate for anaemia can be tipped into overt pulmonary oedema by a larger transfusion volume delivered on top of its existing volume load. A volume of 15 mL/kg of packed cells, as originally planned, sits above this heart-failure-specific range; 7.5 mL/kg over 3–4 hours brings this within the recommended range while still meaningfully raising the haemoglobin.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why a Smaller, Slower Transfusion Plus Possible Top-Up Is Safer Here</strong>
+        <p>Standard paediatric transfusion practice for severe chronic or severe anaemia is generally 10–15 mL/kg over 3–4 hours, but this should be slowed and the volume reduced specifically in children with congestive features, since transfusion can be administered faster in straightforward acute blood loss but must be slower or given in smaller aliquots in the presence of heart failure. If the haemoglobin remains markedly low after this initial transfusion, a further small top-up 24–48 hours later — once the child has had time to redistribute the additional volume and cardiac status has been reassessed — is safer than attempting to correct the full deficit in one sitting.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Continuous Monitoring During Transfusion Matters</strong>
+        <p>Because this child already has signs of heart failure before transfusion even begins, she is at meaningfully higher risk of transfusion-associated circulatory overload (TACO) than a child being transfused for anaemia alone. Close monitoring throughout the transfusion — not just before and after — allows early detection of worsening respiratory distress, new or worsening crepitations, rising heart rate, or falling oxygen saturation, any of which should prompt slowing or pausing the transfusion and reassessing.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Furosemide Is Appropriate Here Specifically</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">This Is Not Routine Practice — It Is Indicated by the Heart Failure Signs</strong>
+        <p>Diuretics are not given routinely alongside every blood transfusion in children — in fact, their routine use during transfusion in children with normal cardiopulmonary status is discouraged, since it offers no proven benefit and adds an unnecessary medication. However, current practice specifically reserves diuretic use during transfusion for children developing or already showing signs suggestive of pulmonary oedema or biventricular heart failure — which this child already has on presentation (gallop rhythm, hepatomegaly, respiratory distress, hypoxia). This makes furosemide a targeted intervention for a specific clinical finding, not a default addition to the transfusion order.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Dosing</strong>
+        <p>1 mg/kg is a standard paediatric furosemide dose, giving 10 mg for this 10 kg child, consistent with WHO case management guidance for malaria-associated heart failure.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why IV Fluids Need Extra Caution in This Child</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Avoiding Double Volume Loading</strong>
+        <p>A child already in heart failure who is receiving a blood transfusion is at risk of fluid overload if a full separate maintenance IV fluid volume is given on top of the transfusion volume. The total fluid the child receives — transfusion plus any additional IV fluids — needs to be considered together, not calculated as two separate, additive volumes, to avoid inadvertently overloading a heart that is already struggling.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Dextrose-Containing Fluid Was Chosen</strong>
+        <p>Hypoglycaemia is a recognised and dangerous complication of severe malaria in children, particularly with IV artesunate and in the setting of poor oral intake during illness — using a dextrose-containing maintenance fluid provides an ongoing glucose source between blood glucose checks. This child's blood glucose was actually elevated (147 mg/dL) on admission rather than low, which is also a recognised feature of severe malaria in some children (see below); glucose should be monitored, since the clinical picture can shift in either direction during treatment.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Hyperglycaemia Is Noted but Not Separately Treated</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Hyperglycaemia in Severe Malaria</strong>
+        <p>While hypoglycaemia is the more classically taught and more dangerous glucose abnormality in severe malaria — especially in young children and with quinine therapy — hyperglycaemia can also occur, related to the physiological stress response to severe illness (catecholamine and cortisol release) rather than representing an independent diagnosis like diabetes in this context. A single elevated reading in an acutely unwell 2-year-old does not warrant insulin or specific glucose-lowering treatment; the priority is treating the underlying severe malaria and monitoring glucose trends, since stress hyperglycaemia typically resolves as the acute illness is treated.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why IV Artesunate Dosing Is Correct as Written</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Weight-Based Dosing Confirmed</strong>
+        <p>Current WHO-aligned dosing for children weighing less than 20 kg is 3 mg/kg per dose of IV artesunate, given at 0, 12, and 24 hours, then once daily if parenteral treatment needs to continue beyond 24 hours. For this 10 kg child, that is 30 mg per dose, matching the plan. Treatment should continue for a minimum of 24 hours regardless of how quickly the child appears to improve, and only switch to oral ACT once the child can reliably tolerate oral medication.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why a Full Oral ACT Course Still Follows IV Treatment</strong>
+        <p>IV artesunate clears the acute danger but does not replace the need for a full course of oral artemisinin-combination therapy afterward — stopping treatment early risks recrudescence of parasitaemia. This is also the point at which delayed post-artesunate haemolysis should be kept in mind: this complication can occur up to several weeks after artesunate treatment and may require monitoring for a late drop in haemoglobin even after apparent recovery.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>When gallop rhythm, hepatomegaly, or other heart failure signs accompany severe anaemia, reduce the transfusion volume to 5–10 mL/kg packed cells (or 10–20 mL/kg whole blood) and give it slowly — do not use the larger volumes appropriate for severe anaemia without heart failure.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Furosemide alongside transfusion is targeted at children with heart failure signs, not a routine co-prescription — avoid reflexively adding it to every transfusion order regardless of cardiac status.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always calculate total fluid intake — transfusion volume plus any maintenance IV fluids — together in a child with heart failure, rather than adding a full maintenance fluid volume on top of the transfusion.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>IV artesunate dosing is 3 mg/kg for children under 20 kg, given at 0, 12, and 24 hours, for a minimum of 24 hours regardless of apparent early improvement — always follow with a full course of oral ACT once oral intake is tolerated.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Hyperglycaemia in acutely unwell children with severe malaria is usually a stress response rather than a separate diagnosis — monitor rather than treat with insulin unless persistently and markedly elevated.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Keep delayed post-artesunate haemolysis in mind even after apparent recovery — it can present with a falling haemoglobin weeks after treatment and needs active surveillance, not just discharge and forget.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization Regional Office for Africa. Guidelines for Case Management of Malaria.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. WHO Guidelines for Malaria, November 2024 update.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Centers for Disease Control and Prevention (CDC). Guidelines on the Treatment of Severe Malaria, March 2024.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Haghiri A, Price DJ, Fitzpatrick P, et al. Evidence Based Optimal Dosing of Intravenous Artesunate in Children with Severe Falciparum Malaria. Clinical Pharmacology & Therapeutics, 2023.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Maitland K, Kiguli S, Olupot-Olupot P, et al. Transfusion Volume for Children with Severe Anemia in Africa (TRACT trial). New England Journal of Medicine, 2019.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Hassall O, et al. Transfusion Management of Severe Anaemia in African Children: A Consensus Algorithm. PMC.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for Diagnosis and Treatment of Malaria, and National Essential Medicines List (NLEM).</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on severe malaria management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-3',
+    title: 'Acute Tonsillitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Otolaryngology / Pediatrics',
+    condition: 'Acute Tonsillitis',
+    symptoms: ['Fever', 'Noisy breathing', 'Snoring', 'Erythematous tonsils', 'Upper airway obstruction'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '2-year-old male with 3-day history of high-grade fever and 1-day history of noisy breathing (snoring). Bilateral erythematous tonsils with mild upper airway obstruction; no features of peritonsillar abscess or epiglottitis.',
+    content: `Patient Seen
+2-year-old male residing with Muslim Yoruba parents at Akure, Ondo state.
+
+Informant: Father (reliable)
+
+PC:
+
+Fever × 3 days
+Noisy breathing × 1 day
+
+HPC:
+Patient was apparently well until 3 days prior to presentation when he developed high-grade intermittent fever, temporarily relieved by antipyretics.
+There was no associated cough, catarrh, vomiting, diarrhea, or convulsion.
+
+About 1 day prior to presentation, he developed noisy breathing, described by the caregiver as a snoring sound, more noticeable during sleep and associated with restless sleep.
+There was no stridor, choking, or witnessed apneic episodes.
+
+There is no history of difficulty in swallowing, drooling of saliva, voice change, or neck swelling.
+No history suggestive of foreign body aspiration.
+
+He was initially seen at a private facility where he received oral medications but symptoms persisted, hence presentation to this facility.
+There is no history of recurrent sore throat.
+
+He is not a known asthmatic, seizure disorder, or sickle cell disease patient, however, Genotype is unknown.
+No history of previous hospital admissions.
+No prior surgeries or blood transfusions.
+
+He is fully immunized for age according to the NPI schedule.
+
+He lives with his parents
+No similar illness in household contacts
+
+ROS
+No cough, chest pain, or fast breathing
+No cyanosis or syncope
+No vomiting or diarrhea
+No dysuria or dark urine
+No seizures or altered consciousness
+
+O/E:
+Well-nourished toddler, acutely ill-looking, febrile (37.8°C), calm at rest, not pale, anicteric, acyanosed, not dehydrated. No pedal edema or digital clubbing.
+
+Weight: 16 kg
+
+ENT:
+Tonsils: Bilateral erythematous tonsils, mildly enlarged, no exudates
+Posterior pharyngeal wall hyperemic
+Uvula midline
+No peritonsillar bulge
+No drooling of saliva
+Bilateral submandibular lymph nodes: small, tender, mobile
+
+Respiratory:
+Not dyspneic
+RR 32 cpm
+BS vesicular
+SpO₂ 99% in room air
+
+CVS:
+PR 132 bpm, full volume, regular
+HS S1 S2 heard
+
+Abdomen:
+Full, MWR, soft, non-tender
+No organomegaly
+
+CNS: Grossly intact
+
+MSS: NAD
+
+mRDT: Negative
+
+ASSESSMENT
+Acute tonsillitis with mild upper airway obstruction (snoring), low clinical suspicion for peritonsillar abscess or epiglottitis given absence of drooling, trismus, voice change, or peritonsillar bulge.
+
+PLAN
+Oral Paracetamol 240 mg (15 mg/kg/dose) 6-hourly as needed for fever/pain
+Oral Ibuprofen 160 mg (10 mg/kg/dose) 8-hourly if fever persists despite paracetamol, avoiding if dehydrated
+Oral Amoxicillin 50 mg/kg/day in 2 divided doses for 10 days
+Warm saline gargles / steam inhalation as tolerated
+Encourage adequate oral fluid intake
+Counsel caregiver on danger signs requiring immediate return:
+- Worsening noisy breathing or new stridor
+- Difficulty breathing or swallowing, drooling, or muffled voice
+- Persistent high-grade fever despite treatment
+- Reduced oral intake or signs of dehydration
+Review in ENT or paediatric clinic in 48–72 hours, or earlier if symptoms worsen
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Is Diagnosed as Acute Tonsillitis</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Core Findings</strong>
+        <p>Bilateral erythematous, mildly enlarged tonsils with a hyperaemic posterior pharyngeal wall and tender, mobile submandibular lymphadenopathy, in the context of fever, fit the typical picture of acute tonsillitis. The absence of exudates does not rule out a bacterial cause — exudates are neither sensitive nor specific for streptococcal infection — but it is one data point feeding into the overall clinical impression.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Snoring Matters, and Why It Is Reassuring Here</strong>
+        <p>Mildly enlarged, inflamed tonsils can cause partial upper airway narrowing during sleep, producing the snoring described here. This is consistent with mild obstruction from tonsillar swelling rather than a more dangerous cause, particularly since there is no stridor (which would suggest more significant or fixed airway narrowing), no witnessed apnoeic episodes, and the child remains calm, alert, and not in respiratory distress at rest, with a reassuring oxygen saturation of 99% in room air.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Dangerous Mimics Were Actively Excluded</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Peritonsillar Abscess</strong>
+        <p>A peritonsillar abscess (quinsy) typically presents with trismus (difficulty opening the mouth), drooling, a muffled "hot potato" voice, and asymmetric tonsillar swelling with deviation of the uvula away from the affected side. None of these features are present — the uvula is midline, there is no peritonsillar bulge, and there is no drooling — making this diagnosis unlikely, though it should still be considered if the child fails to improve on antibiotics.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Epiglottitis</strong>
+        <p>Epiglottitis is a life-threatening cause of noisy breathing and fever in young children, classically presenting with a toxic-looking child, drooling, stridor, a preference to sit forward (tripod positioning), and rapid progression. This child is calm at rest, not drooling, has no stridor, and has a reassuring oxygen saturation, making epiglottitis very unlikely — but this is precisely why these specific negative findings are documented explicitly rather than assumed, since misdiagnosing epiglottitis as simple tonsillitis can be fatal.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Foreign Body Aspiration</strong>
+        <p>No history of choking, no acute onset of symptoms coinciding with eating or playing with small objects, and a gradual 3-day fever-led illness pattern argue against an aspirated foreign body, which more typically causes sudden-onset symptoms without a preceding febrile illness.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Viral Versus Bacterial Tonsillitis — Why It Matters for Treatment</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Most Tonsillitis Is Viral</strong>
+        <p>Approximately 70–85% of acute tonsillitis and pharyngitis cases in children are viral in origin and do not require antibiotics at all. Group A Streptococcus (GAS) is the most common bacterial cause, and formal guidelines recommend using a clinical scoring system (such as Centor or McIsaac criteria) and, where available, rapid antigen detection testing or throat culture before starting antibiotics, to avoid unnecessary antimicrobial use.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Antibiotics Were Still Reasonable in This Case</strong>
+        <p>Rapid strep testing and throat culture are frequently unavailable in many Nigerian primary and secondary care settings, making clinical judgement the practical basis for treatment decisions. In this child, three days of high-grade intermittent fever, visibly inflamed tonsils, and tender cervical lymphadenopathy, combined with symptoms that have already failed an initial course of treatment at another facility, make empirical antibiotic treatment a reasonable pragmatic choice here, even without formal microbiological confirmation.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Amoxicillin, Not Amoxicillin-Clavulanate</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Penicillin or Amoxicillin Is the Correct First-Line Choice</strong>
+        <p>Across major guidelines, penicillin V or amoxicillin is the recommended first-line antibiotic for bacterial tonsillitis/pharyngitis, primarily targeting Group A Streptococcus, which has not developed resistance to penicillins over five decades of use. Amoxicillin is frequently preferred over penicillin V in young children specifically because it is better tolerated and available as a more palatable suspension — which fits well for a 2-year-old.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Co-Amoxiclav Is Not the Right First Choice Here</strong>
+        <p>Amoxicillin-clavulanate is a broader-spectrum option generally reserved for cases where beta-lactamase-producing organisms are suspected, for documented treatment failure on amoxicillin/penicillin, or for recurrent tonsillitis being managed prior to considering tonsillectomy. Using it as first-line therapy in an otherwise straightforward first presentation is broader-spectrum than necessary and contributes unnecessarily to antimicrobial resistance pressure, without offering any proven benefit over amoxicillin alone for typical GAS tonsillitis.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why a 10-Day Course</strong>
+        <p>A full 10-day course of amoxicillin or penicillin remains the standard recommended duration specifically because it is the regimen proven to reduce the risk of acute rheumatic fever — a serious concern in settings, including many parts of Nigeria, where rheumatic heart disease still occurs. While shorter antibiotic courses (3–6 days) have shown comparable symptom relief in some studies, only the standard 10-day course has demonstrated proven efficacy in preventing rheumatic fever, which is why shortening the course is not advised here.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Cetirizine Has Been Removed From the Plan</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">No Evidence-Based Indication Here</strong>
+        <p>Cetirizine is an antihistamine used for allergic conditions such as allergic rhinitis and urticaria, where symptoms are driven by histamine release. Acute tonsillitis is an infectious/inflammatory process, not an allergic one, and there is no evidence that antihistamines improve tonsillitis symptoms, reduce airway swelling from tonsillar inflammation, or shorten the illness course. Its inclusion likely reflected an attempt to address the "noisy breathing/snoring" symptomatically, but it does not address the underlying tonsillar swelling causing it.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">A Specific Safety Point Worth Flagging</strong>
+        <p>Separately from the lack of indication, this particular child is exactly 2 years old, which sits right at a commonly cited age threshold below which antihistamines such as cetirizine should generally be avoided due to a higher reported rate of serious adverse drug reactions in children under 2. This makes cetirizine a medication worth removing on both efficacy and safety-margin grounds in this specific case, not simply an optional extra.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Remaining Treatment Was Chosen</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Paracetamol and Ibuprofen Dosing</strong>
+        <p>For a 16 kg child, paracetamol at 15 mg/kg/dose works out to 240 mg per dose, and ibuprofen at 10 mg/kg/dose works out to 160 mg per dose — both within standard weight-based ranges for this age group. Regardless of whether the underlying cause turns out to be viral or bacterial, adequate pain and fever control is one of the most important things that can be offered, since pain from tonsillar inflammation is often the main driver of reduced oral intake and distress in young children.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ibuprofen Is Conditional on Hydration Status</strong>
+        <p>NSAIDs such as ibuprofen carry a higher risk of renal impact in the setting of dehydration, which is a realistic concern in a febrile toddler with reduced intake from a sore throat — hence the caution to avoid it if signs of dehydration are present, favouring paracetamol alone in that situation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Fluids and Supportive Measures Matter</strong>
+        <p>Adequate oral fluid intake is important both to prevent dehydration from reduced feeding due to throat pain, and because adequate hydration supports overall recovery. Warm saline gargles, while of modest evidence-based benefit, are low-risk, widely accessible, and commonly help symptomatically in children old enough to gargle safely (though in younger toddlers, this may need adapting to other comfort measures).</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Penicillin or amoxicillin is the correct first-line antibiotic for tonsillitis — reserve amoxicillin-clavulanate for treatment failure, suspected resistant organisms, or recurrent cases, not first presentations.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Most tonsillitis is viral — where rapid strep testing isn't available, base the decision to treat on the overall clinical picture rather than treating every sore throat with antibiotics by default.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Antihistamines like cetirizine have no proven role in tonsillitis and should not be reached for to manage noisy breathing from tonsillar swelling — and avoid antihistamines altogether in children under 2 unless there is a clear, specific allergic indication.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always actively document the negative findings that rule out peritonsillar abscess and epiglottitis (trismus, drooling, voice change, stridor, peritonsillar bulge) — these are the details that protect against missing a life-threatening mimic.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>A full 10-day antibiotic course matters specifically because it is the regimen proven to prevent acute rheumatic fever, which remains clinically relevant in Nigeria — do not shorten the course for convenience.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Counsel caregivers explicitly on red flags — worsening noisy breathing, new stridor, drooling, or reduced oral intake — since this is a young child whose condition could deteriorate at home before a scheduled review.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Pediatrics. Pharyngitis and Tonsillitis. Pediatric Care Online.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls. Tonsillitis. NCBI Bookshelf, National Institutes of Health, 2025.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Italian Intersociety Consensus (SIPPS-SIP-SITIP-FIMP-SIAIP-SIMRI-FIMMG). Treatment of Acute Pharyngitis in Children. PMC, 2024.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Society for Clinical Microbiology and Infectious Diseases. Guideline for Acute Sore Throat, 2012.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Altamimi S, Khalil A, Khalaiwi KA, et al. Short Versus Standard Duration Antibiotic Therapy for Acute Streptococcal Pharyngitis in Children. Cochrane Database of Systematic Reviews, 2009.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>South Africa National Department of Health. Primary Healthcare Standard Treatment Guidelines, Chapter 19: Ear, Nose and Throat Conditions, 2025 (regional reference for antihistamine age cautions).</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) / Otorhinolaryngological Society of Nigeria clinical practice guidance, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-2',
+    title: 'Neonatal Jaundice',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Hyperbilirubinemia',
+    symptoms: ['Yellowness of the eyes', 'Yellow body', 'EMCS delivery'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '48-hour-old term female neonate, born to a group O-positive mother, presenting with jaundice noted at approximately 24 hours of life. Delivered via EMCS, exclusively breastfed, clinically well with no encephalopathy features. Being evaluated for haemolytic (including ABO incompatibility and G6PD deficiency) and non-haemolytic causes.',
+    content: `DOB: 04/10/25
+TOB: 11:48 am
+Mode of delivery: EMCS
+Indication: 2 previous caesarean sections in labour
+EGA: 40 weeks
+Tribe: Yoruba
+Religion: Islam
+
+A 48-hour-old term female neonate
+
+PC:
+Yellowness of the eyes × 1 day PTP
+
+HPI:
+She was apparently well until about a day prior to presentation (i.e. around 24 hours of age) when she was noticed to have yellowness of the eyes and body while by the mother's side during postnatal ward round.
+Mother's blood group: O positive
+No history of use of icterogenic substances.
+No poor suck or refusal of feeds.
+Mother was unbooked and registered for ANC at a federal neuropsychiatric facility in Ogun State.
+She received 2 doses of IM TT during pregnancy and 2 doses of IPT for malaria.
+No history of peripartum fever or rash.
+No symptoms suggestive of UTI, abnormal vaginal discharge, APH or PROM.
+Baby was delivered at term via EMCS.
+Birth weight: 3.8 kg
+Cried spontaneously at birth.
+APGAR score: 9 @ 1 min, 10 @ 5 mins.
+
+Feeding History:
+Exclusively breastfed.
+Mother reports good lactation.
+Baby feeds for about 30 minutes per feed and sleeps thereafter.
+No excessive sweating, difficulty in breathing or prolonged suck–rest–suck cycle.
+
+Social History:
+Mother is a 36-year-old patent medicine vendor.
+Father is a 36-year-old aluminium fabricator with HLE: HND, supportive of care.
+Patient is the 4th of 4 children in a monogamous setting.
+1st: 13-year-old female, alive and well
+2nd: 6-year-old male, alive and well
+3rd: 4-year-old male, alive and well
+No history of neonatal jaundice requiring admission in siblings.
+They reside in a well-ventilated, netted 2-bedroom apartment.
+
+ROS:
+No fever
+No seizures or loss of consciousness
+No cough, difficulty in breathing or bluish discoloration of lips or limbs
+No vomiting, loose stools or refusal of feeds
+No bleeding from any orifice
+No rash
+
+O/E:
+Conscious, average-sized neonate, not in respiratory distress
+Not pale, icteric, not cyanosed
+Afebrile (T: 36.4°C)
+Weight: 3.6 kg
+Length: 50 cm
+OFC: 36 cm
+
+CNS:
+Conscious with good activity
+AF, PF: patent, normotensive
+Grasp reflex: firm
+Moro reflex: complete
+Suck reflex: sustained
+Tone: normal
+
+CVS:
+PR: 130 bpm, full volume, regular
+HS: Normal S1 and S2
+
+Respiratory:
+Not dyspnoeic
+RR: 36 cpm
+BS: Vesicular
+SpO₂: 97% in room air
+
+Digestive System:
+Mouth: NAD
+Abdomen: full, moves with respiration, soft
+No tenderness
+No palpable organomegaly
+
+UGS:
+Normal female external genitalia
+Kidneys not ballotable
+
+Investigations:
+RBS: 84 mg/dL
+PCV: 44%
+
+ASSESSMENT
+Neonatal jaundice of unknown cause at 48 hours of life, in a term neonate of a group O-positive mother — to be evaluated for haemolytic and non-haemolytic causes.
+
+PLAN
+Admit into the Neonatal Unit (NNU)
+Send infant blood group and direct antiglobulin test (DAT/Coombs test), given maternal blood group O
+Total and direct serum bilirubin
+Reticulocyte count
+G6PD screening
+CRP and septic screen if clinically indicated
+Plot total serum bilirubin against the hour-specific bilirubin threshold chart to confirm phototherapy/exchange transfusion thresholds for this gestation and risk profile
+Commence phototherapy once bilirubin result is available and confirmed to meet threshold for age in hours; given visible jaundice and unbooked status, may commence empirically while awaiting results per unit protocol, with results reviewed urgently on return
+Continue breastfeeding; feed as tolerated, supporting adequate hydration
+Monitor temperature, pulse rate, respiratory rate, and SpO₂ 4-hourly
+Monitor for signs of acute bilirubin encephalopathy (lethargy, high-pitched cry, poor feeding, abnormal tone)
+Counsel mother on diagnosis, prognosis, and line of management
+Review with investigation results and adjust plan accordingly
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Timing of This Jaundice Matters</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Onset Around 24 Hours Is the Key Detail</strong>
+        <p>This baby's jaundice was first noticed roughly 24 hours after birth, with presentation at 48 hours of age. Jaundice appearing within the first 24 hours of life is always abnormal and should immediately raise suspicion of haemolysis, sepsis, or another pathological cause. Jaundice appearing after 24 hours, as in this case, is far more likely to represent physiological jaundice or breastfeeding-related jaundice, though pathological causes — particularly ABO incompatibility — must still be actively excluded, especially given this baby's specific risk profile.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Day 3–4 Peak Matters for Discharge Planning</strong>
+        <p>Neonatal jaundice typically peaks around day 3–4 of life. In many Nigerian and other low-resource settings, mother–baby pairs are often discharged by day 2, before the bilirubin has peaked — meaning a baby can leave hospital looking only mildly jaundiced and progress to significant hyperbilirubinaemia at home, unobserved. This is a major contributor to severe neonatal jaundice and kernicterus risk in these settings, and reinforces why any baby readmitted with jaundice in the 24–72 hour window deserves a thorough work-up rather than reassurance alone.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Maternal Blood Group O Positive Is a Key Finding</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The ABO Incompatibility Risk</strong>
+        <p>A maternal blood group of O is one of the most important risk factors to flag in any newborn with jaundice, because it raises the possibility of ABO incompatibility if the baby is blood group A or B — a common cause of haemolytic jaundice that can present early and progress quickly. Current AAP guidance specifically recommends sending a direct antiglobulin test (DAT/Coombs test) in any infant requiring evaluation for jaundice when the mother's blood group is O, regardless of Rh status — this is why infant blood group and DAT are prioritised in the work-up here, rather than being optional add-ons.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why G6PD Screening Is Essential in This Context</strong>
+        <p>Glucose-6-phosphate dehydrogenase (G6PD) deficiency is a major cause of severe neonatal jaundice in Nigerian and other African populations, where carrier and deficiency rates are high. G6PD deficiency is a recognised risk factor for both the development of significant hyperbilirubinaemia and for bilirubin-related neurotoxicity, meaning affected babies can develop dangerous bilirubin levels at a lower threshold than unaffected babies. Every neonate presenting with jaundice of unknown cause, particularly in this population, should be screened for G6PD deficiency as part of the initial work-up rather than reserved only for babies who fail to respond to phototherapy.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Reading the Rest of the History and Exam</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why "Unbooked" Status Matters</strong>
+        <p>The mother being unbooked for most of the pregnancy means there is limited documented antenatal screening — no clear record of infections, anaemia, or other risk factors that might otherwise have been identified and managed proactively. This increases the importance of a thorough postnatal work-up, since fewer assumptions can be made about what has already been excluded.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Feeding History Is Reassuring but Not Conclusive</strong>
+        <p>Good lactation, sustained feeding for 30 minutes per session, and a strong suck reflex on examination are reassuring against severe dehydration or poor intake as a major driver of this jaundice. However, breastfeeding-associated jaundice (related to relative caloric/fluid intake in the first days of life, distinct from true breast-milk jaundice which appears later) remains a possible contributor even when feeding appears adequate, and should not be assumed to fully explain the picture without excluding haemolytic causes first.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Neurological Exam Findings Matter</strong>
+        <p>A baby with good activity, a complete Moro reflex, sustained suck, and normal tone is reassuring against acute bilirubin encephalopathy at this point. These specific findings (lethargy, high-pitched cry, poor feeding, abnormal tone) are the early warning signs of bilirubin neurotoxicity and should be actively monitored for throughout admission, since they can change rapidly as bilirubin rises.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why a Normal RBS and PCV Are Reassuring, but Limited</strong>
+        <p>A normal random blood sugar argues against hypoglycaemia as a contributing factor to lethargy or poor feeding (neither of which is present here in any case), and a PCV of 44% is within a normal range for a neonate, arguing against significant polycythaemia (which can itself contribute to jaundice) or anaemia from ongoing haemolysis at this point in time. Neither test, however, identifies the cause of the jaundice itself — that requires the bilirubin and haemolysis work-up.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Total and Direct Serum Bilirubin</strong>
+        <p>Total serum bilirubin (TSB) is the definitive test used to guide both the decision to start phototherapy and the decision to escalate toward exchange transfusion. Current guidance recommends plotting the TSB against an hour-specific threshold chart that accounts for the baby's gestational age and any neurotoxicity risk factors (such as G6PD deficiency, isoimmune haemolysis, or sepsis), rather than using a single flat cut-off for all babies. A direct (conjugated) bilirubin is also checked to screen for cholestatic causes, which would change the management pathway entirely.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Infant Blood Group and DAT</strong>
+        <p>As above, this is specifically indicated because the mother is blood group O — the DAT (Coombs test) detects antibody-coated red cells, which would confirm ABO or Rh-mediated haemolysis as the cause if positive.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reticulocyte Count</strong>
+        <p>An elevated reticulocyte count is a marker of ongoing red cell destruction and active bone marrow compensation, supporting a haemolytic process even before other specific tests return.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">G6PD Screening</strong>
+        <p>As discussed above, this should be sent as part of the initial work-up for jaundice of unknown cause in this population, not held back until the baby fails to respond to phototherapy.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Phototherapy Decisions Should Be Bilirubin-Guided</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Nomogram-Based Approach</strong>
+        <p>Modern guidance does not simply say "start phototherapy because a baby looks jaundiced" — it directs clinicians to plot the actual TSB value against the baby's age in hours on a threshold chart, which accounts for gestational age and the presence of neurotoxicity risk factors. A baby with risk factors (such as G6PD deficiency or isoimmune haemolysis, both of which are being actively screened for here) will have a lower phototherapy threshold than a baby without those risk factors at the same age and bilirubin level.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Empirical Phototherapy May Still Be Reasonable Here</strong>
+        <p>In many Nigerian neonatal units, turnaround time for serum bilirubin can be slow, and visible jaundice combined with risk factors (unbooked mother, maternal group O, onset around 24 hours) may reasonably prompt starting phototherapy while investigation results are awaited, rather than leaving a baby unphototreated for hours. This is a pragmatic adaptation to local resource constraints rather than a deviation from the underlying principle — once the TSB result is available, it should be checked against the threshold chart to confirm phototherapy remains indicated and to guide intensification or step-down.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Indications for Intensifying Phototherapy</strong>
+        <p>Phototherapy should be intensified (additional light source or increased irradiance) if the bilirubin is rising rapidly, is within a narrow margin below the exchange transfusion threshold beyond 72 hours of age, or fails to fall within 6 hours of starting standard phototherapy. These are useful checkpoints for monitoring this baby's response once treatment begins.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Other Practical Points in the Plan</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Breastfeeding Should Continue, Not Be Interrupted</strong>
+        <p>Current guidance specifically recommends against giving supplemental water or dextrose water to manage or prevent hyperbilirubinaemia — adequate breastfeeding (or supplementation with expressed breast milk if needed) supports hydration and bilirubin excretion far better, and breastfeeding should continue through phototherapy wherever possible rather than being withheld.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Vital Sign Monitoring Matters During Phototherapy</strong>
+        <p>Phototherapy itself carries risks including dehydration, temperature instability, and loose stools, so 4-hourly monitoring of temperature, pulse, respiratory rate, and oxygen saturation is as much about safely managing the treatment as it is about monitoring the underlying jaundice.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Jaundice within the first 24 hours of life is always pathological and demands urgent work-up — jaundice after 24 hours, as in this case, is more often physiological but still requires exclusion of ABO/Rh incompatibility and other causes, especially with risk factors present.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>A maternal blood group of O should always prompt sending infant blood group and DAT — this is a specific, guideline-backed indication, not a routine add-on test.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Given high G6PD deficiency prevalence in Nigerian and African populations, screen for it early in any neonate with unexplained jaundice rather than waiting for treatment failure to prompt testing.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Phototherapy decisions should ultimately be guided by plotting the actual bilirubin value against an hour-specific threshold chart that accounts for gestational age and risk factors — visible jaundice alone should not be the only basis for treatment decisions once a result is available.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Because bilirubin typically peaks at day 3–4 of life, babies discharged by day 2 — common practice in many Nigerian facilities — can develop significant jaundice at home unobserved. Counsel every discharging mother on warning signs and the importance of early review.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Never give supplemental water or dextrose water to manage jaundice — continued, supported breastfeeding is the correct approach to hydration and bilirubin clearance.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Watch closely for lethargy, high-pitched cry, poor feeding, or abnormal tone — these are early signs of acute bilirubin encephalopathy and can develop quickly as bilirubin rises.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Kemper AR, Newman TB, Slaughter JL, et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE). Jaundice in Newborn Babies Under 28 Days, Clinical Guideline CG98 (with 2016 addendum).</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Mitra S, Rennie J. Neonatal Jaundice: Aetiology, Diagnosis and Treatment. British Journal of Hospital Medicine, and related primary care management summaries.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Iskander I, Gamaleldin R. Acute Bilirubin Encephalopathy and Kernicterus Risk in Low-Resource Settings — relevant discussion of discharge timing and bilirubin peak.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Olusanya BO, et al. Neonatal Jaundice: Knowledge and Practices of Healthcare Providers and Trainees in Southwest Nigeria. PMC, 2022.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on neonatal jaundice, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ped-01',
+    title: 'Uncomplicated Malaria in a School-Age Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Infectious Disease / General Paediatrics',
+    condition: 'Acute uncomplicated Plasmodium falciparum malaria in a previously well 6-year-old male with high-grade intermittent fever, headache, and anorexia',
+    symptoms: [
+      'High-grade intermittent fever with chills and rigors',
+      'Generalised headache',
+      'Loss of appetite',
+      'Generalised body weakness',
+      'No pallor, no jaundice, no splenomegaly',
+      'No neurological signs, no meningeal irritation',
+      'Inconsistent insecticide-treated net use'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-06-24',
+    summary: 'Master Chidi Okoro, a 6-year-old Igbo Christian male from Surulere, Lagos, presenting with a 3-day history of high-grade intermittent fever preceded by chills and rigors, and a 2-day history of generalised headache, generalised body weakness, and loss of appetite. Afebrile to paracetamol temporarily. No vomiting, no diarrhoea, no altered consciousness, no convulsions, no neck stiffness, no pallor, no jaundice. Fully immunised. Inconsistent insecticide-treated net use reported. Weight 21 kg, appropriate for age. Examination reveals a febrile, acutely ill-looking but non-toxic child with normal systemic examination and no signs of severe malaria. Diagnosis: acute uncomplicated malaria. Managed as an outpatient with weight-appropriate Artemether-Lumefantrine.',
+    content: `
+  Master Chidi Okoro, a 6-year-old male, Igbo, Christian. Resident in Surulere, Lagos State. Currently in Primary 1.
+  
+  Informant: Mother (reliable)
+  
+  Presenting Complaints
+  
+  Fever × 3 days
+  Headache × 2 days
+  Loss of appetite × 2 days
+  
+  History of Presenting Complaint
+  
+  He was apparently well until 3 days prior to presentation when he developed fever. The fever is high-grade and intermittent, usually preceded by chills and rigors, with temporary relief following paracetamol administration.
+  
+  Two days prior to presentation, he developed generalised headache and significant generalised body weakness. His mother noted a marked reduction in food intake.
+  
+  No persistent vomiting, diarrhoea, or abdominal pain. No cough, fast breathing, or chest pain. No ear discharge, sore throat, or neck stiffness. No convulsions, altered consciousness, or abnormal movements. No passage of dark-coloured urine or yellow discolouration of the eyes.
+  
+  Birth History
+  Uneventful antenatal and neonatal periods. Delivered at term by spontaneous vaginal delivery at a general hospital. No neonatal jaundice or delayed cry at birth.
+  
+  Dietary History
+  Takes family diet. Adequate calorie and protein intake for age.
+  
+  Immunisation History
+  Completed all routine immunisations per the National Programme on Immunization (NPI) schedule. BCG scar visible on the left deltoid.
+  
+  Developmental History
+  All milestones attained at appropriate ages. Currently in Primary 1, performing well.
+  
+  Past Medical History
+  Similar episodes of fever in the past, often treated as malaria with over-the-counter medications. No previous hospital admissions or blood transfusions.
+  
+  Drug/Allergy History
+  No known drug allergies. Genotype AA (per mother).
+  
+  Family and Social History
+  Second of three children in a monogamous family. Parents are civil servants. Three-bedroom apartment in Surulere with good ventilation. Insecticide-treated nets (ITNs) available but used inconsistently.
+  
+  Review of Systems
+  CNS: No neck pain, no photophobia.
+  Respiratory: No cough, no dyspnoea.
+  CVS: No palpitations.
+  GIT: No nausea, no change in bowel habits.
+  Musculoskeletal: No joint pains or swellings.
+  
+  Examination
+  
+  General Examination
+  Conscious and alert, in no obvious distress. Acutely ill-looking but not toxic. Febrile. Not pale, not icteric, not dehydrated. No peripheral lymphadenopathy. No pedal oedema.
+  
+  Anthropometry
+  Weight: 21 kg (appropriate for age)
+  Height: 115 cm
+  
+  Vital Signs
+  Temperature: 38.4°C
+  Pulse: 106 bpm, regular, normal volume
+  BP: 98/64 mmHg
+  Respiratory rate: 24 cpm
+  
+  Respiratory System
+  Trachea central. Chest symmetrical, moves with respiration. Percussion resonant bilaterally. Breath sounds vesicular. No added sounds.
+  
+  Cardiovascular System
+  Apex beat at 4th left intercostal space, mid-clavicular line. S1 and S2 only, no murmurs.
+  
+  Abdomen
+  Flat, moves with respiration. No tenderness. Liver and spleen not palpable. Bowel sounds present and normal.
+  
+  Neurological System
+  GCS 15/15. No meningeal signs — neck stiffness, Kernig's, and Brudzinski's signs all negative. Cranial nerves I–XII intact. Normal muscle bulk and tone. Power 5/5 in all limbs.
+  
+  Assessment
+  
+  Acute uncomplicated malaria.
+  
+  Differentials
+  Enteric fever (typhoid)
+  Urinary tract infection
+  Upper respiratory tract infection
+  
+  Plan
+  
+  Investigations
+  Malaria parasite (MPS) — Giemsa-stained thick and thin blood films
+  Rapid diagnostic test (RDT) for malaria antigen
+  Full blood count
+  Urinalysis
+  
+  Do not start antimalarial treatment before confirming parasitological diagnosis.
+  
+  Treatment
+  Start only after positive MPS or RDT result confirmed.
+  
+  Artemether-Lumefantrine (20/120 mg) — 2 tablets per dose:
+  Day 1: 2 tablets stat, then 2 tablets after 8 hours
+  Day 2: 2 tablets morning, 2 tablets evening
+  Day 3: 2 tablets morning, 2 tablets evening
+  Administer with food or a fatty drink. Total: 6 doses over 3 days.
+  
+  Paracetamol 300 mg (15 mg/kg/dose) three times daily for 3 days, for fever and headache.
+  Tepid sponging for temperature above 38.5°C.
+  Encourage liberal oral fluid intake and continued feeding throughout illness.
+  
+  Counselling
+  Explain diagnosis and treatment course clearly to the mother.
+  Administer all 6 doses of Artemether-Lumefantrine even if the child feels better after the first dose.
+  Administer with food or milk — reduces nausea and improves absorption.
+  Consistent nightly use of insecticide-treated nets for all family members.
+  Prompt return to clinic if: persistent vomiting, inability to feed or drink, new convulsions, altered consciousness, worsening fever after 48 hours, or jaundice develops.
+  
+  Follow-Up
+  Review at 72 hours (day 3) to assess clinical response and review investigation results. If fever persists or worsens at 72 hours: repeat MPS, reassess for complicated malaria or alternative diagnosis. If parasitaemia has cleared and the child is well: complete the ITN and prevention counselling and discharge.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Diagnosis — Uncomplicated Malaria</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Is Malaria</strong>
+          <p>The clinical picture here is classic for Plasmodium falciparum malaria in a school-age child in Lagos: high-grade intermittent fever with a periodicity preceded by chills and rigors, headache, and anorexia, in a child with a documented history of previous malaria episodes and inconsistent insecticide-treated net use. The absence of pallor, jaundice, hepatosplenomegaly, neurological signs, and systemic toxicity places this firmly in the uncomplicated category. The key clinical question in any febrile child with suspected malaria is not whether it is malaria — in a high-transmission area like Lagos, malaria is the default diagnosis — but whether it is complicated or uncomplicated, because this determines the treatment route and urgency.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Uncomplicated vs Complicated Malaria — The Critical Distinction</strong>
+          <p>Uncomplicated malaria is defined as symptomatic malaria infection without evidence of end-organ dysfunction or severe disease. The WHO and FMOH criteria for severe or complicated malaria — any one of which would require immediate intravenous artesunate and hospitalisation — are: impaired consciousness or coma (cerebral malaria); multiple convulsions (more than two in 24 hours); severe anaemia (haemoglobin below 7 g/dl or haematocrit below 21%); respiratory distress (acidotic breathing); hypoglycaemia (blood glucose below 2.2 mmol/L); circulatory collapse or shock; abnormal bleeding; haemoglobinuria (passage of dark-coloured urine — blackwater fever); hyperparasitaemia (greater than 5% of red cells parasitised on film); jaundice with evidence of vital organ dysfunction; and acute kidney injury. This child has none of these features: he is conscious and alert with a GCS of 15, not pale, not icteric, no dark urine, no convulsions, no respiratory distress, and no hepatosplenomegaly suggesting heavy parasite burden. The diagnosis of uncomplicated malaria is appropriate and outpatient oral treatment is the correct management.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Pathophysiology of Malarial Fever</strong>
+          <p>The fever pattern in malaria is produced by the synchronised rupture of red blood cells at the end of the erythrocytic schizogony cycle. Plasmodium falciparum has a 48-hour erythrocytic cycle — the trophozoite matures within the red cell over 48 hours, culminating in the rupture of the cell and release of merozoites, malarial toxins (including glycosylphosphatidylinositol anchors and haemozoin), and cellular debris into the bloodstream. This triggers a cytokine storm — massive release of tumour necrosis factor-alpha, interleukin-1, and interleukin-6 — producing the characteristic fever spike, rigors, and prostration. The periodicity of malarial fever (tertian for P. falciparum and P. vivax, quartan for P. malariae) corresponds to this synchronised schizogony cycle. In early or mixed infections, the periodicity may be less distinct — which is why the clinical pattern of fever with preceding chills and rigors is diagnostically suggestive but not pathognomonic, and parasitological confirmation is essential before treatment.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Test Before Treat — Why Parasitological Confirmation Is Mandatory</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Principle</strong>
+          <p>The FMOH Nigeria malaria treatment guidelines, aligned with WHO policy, are unequivocal: antimalarial treatment must not be started without a confirmed parasitological diagnosis. This represents a fundamental shift from the earlier syndromic approach where any febrile child in a malaria-endemic area was treated empirically with antimalarials. The rationale for the change is threefold. First, not all fever in malaria-endemic areas is malaria — studies from Lagos and other Nigerian cities consistently show that between 30 and 50% of febrile children presenting to outpatient facilities do not have malaria parasitaemia on blood film; treating them with antimalarials exposes them to drug toxicity, delays the correct diagnosis, and contributes to selection pressure for resistant parasites. Second, artemisinin-based combination therapies (ACTs) are expensive, and the health system cannot absorb the cost of empirical treatment of every febrile child. Third, resistance to antimalarials develops faster when drugs are used without confirmed infection.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Thick and Thin Blood Films — Still the Gold Standard</strong>
+          <p>Giemsa-stained thick and thin blood films remain the gold standard for malaria diagnosis. The thick film is used for parasite detection — its greater volume of blood per field increases sensitivity, particularly at low parasitaemia. A skilled microscopist examining a thick film can detect as few as 5 to 10 parasites per microlitre of blood. The thin film is used for species identification — the morphology of the parasitised red cells, the appearance of the ring forms, and the presence of characteristic features (banana-shaped gametocytes in P. falciparum; Schüffner's dots in P. vivax and P. ovale) allow definitive speciation. In Nigeria, Plasmodium falciparum accounts for more than 95% of malaria infections and is the species responsible for virtually all malaria mortality. The film also provides a parasite count (number of parasites per microlitre or as a percentage of red cells infected) — a critical number for distinguishing uncomplicated from severe malaria (hyperparasitaemia threshold is 5% or greater).</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Rapid Diagnostic Tests — The Practical Complement</strong>
+          <p>Malaria rapid diagnostic tests detect plasmodial antigens — most commonly HRP-2 (histidine-rich protein 2, specific to P. falciparum) or pLDH (parasite lactate dehydrogenase, pan-species). They produce a result in 15 to 20 minutes without a microscope and require no technical expertise beyond following the manufacturer's instructions. The sensitivity of WHO-approved RDTs for P. falciparum is 95% or greater at parasitaemias above 200 parasites per microlitre — adequate for most clinical presentations. The limitations are: they cannot provide a parasite count; they cannot distinguish species in pan-species tests with certainty; a positive HRP-2 test can remain positive for 2 to 4 weeks after successful treatment (due to persistence of the antigen), making them unreliable for test of cure; and a small proportion of P. falciparum strains in Nigeria and West Africa carry HRP-2 gene deletions that produce false-negative results on HRP-2-based tests. At health facilities where microscopy is available, RDT and blood film should both be performed: RDT for speed, film for parasite count and species confirmation.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The Differential Diagnoses</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Enteric Fever (Typhoid)</strong>
+          <p>Salmonella typhi infection is the most clinically important differential for a febrile school-age child in Lagos and shares several features with malaria: sustained or stepwise high-grade fever, headache, anorexia, and malaise. The distinguishing features of enteric fever that are absent in this patient are: a relative bradycardia (pulse rate disproportionately slow relative to the height of the fever — present in about 30% of cases); rose spots (faint salmon-coloured maculopapular spots on the trunk, transient and easily missed in dark-skinned patients); marked abdominal tenderness with hepatosplenomegaly; constipation in the early stages followed by diarrhoea later; and a toxic, prostrated appearance that is more prominent than in uncomplicated malaria. The Widal test — widely used in Nigerian facilities — has poor sensitivity and poor specificity for diagnosing acute typhoid, particularly in previously exposed or immunised individuals where background titres may be elevated; blood culture for Salmonella typhi remains the gold standard but takes 5 to 7 days. If this child's malaria test returns negative, enteric fever becomes the primary diagnosis to investigate and treat.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urinary Tract Infection</strong>
+          <p>UTI is an important and commonly missed cause of fever in children, particularly under the age of 5 years where lower urinary tract symptoms may be absent or non-specific. In a 6-year-old, UTI typically produces fever with dysuria, urinary frequency, or suprapubic pain — none of which are present in this child. However, upper UTI (pyelonephritis) can present with fever alone and no urinary symptoms, particularly in younger children. The urinalysis is a simple and appropriate screening test and has been correctly included in the investigation plan. A dipstick positive for leucocytes and nitrites, or microscopy showing pyuria and bacteriuria, would warrant urine MCS and empirical antibiotic treatment.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Upper Respiratory Tract Infection</strong>
+          <p>Viral URTI is the most common cause of fever in children globally and is always in the differential for any febrile child. However, the absence of cough, sore throat, ear discharge, rhinorrhoea, and respiratory distress makes a primary respiratory viral illness less likely as the single explanation for this presentation. URTI can co-exist with malaria — a positive malaria test does not exclude a concurrent viral illness — but the clinical picture here is dominated by the systemic features of malaria rather than localised upper respiratory symptoms.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Treatment — Artemether-Lumefantrine, Dosing, and Administration</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Artemether-Lumefantrine as First-Line ACT</strong>
+          <p>Artemether-Lumefantrine (AL) is the first-line artemisinin-based combination therapy for uncomplicated Plasmodium falciparum malaria in Nigeria, as specified in the current FMOH malaria treatment guidelines and consistent with WHO recommendations for sub-Saharan Africa. The combination exploits complementary mechanisms and pharmacokinetics: artemether is a sesquiterpene lactone endoperoxide that is rapidly absorbed, rapidly active, and rapidly eliminated — it produces a fast reduction in parasite biomass (approximately 10,000-fold reduction per 48-hour erythrocytic cycle) by generating free radicals that alkylate parasite proteins and haemoglobin. Lumefantrine is a slowly eliminated aryl amino alcohol (half-life 3 to 6 days) that clears the residual parasitaemia after artemether has been eliminated — acting as the "partner drug" that prevents recrudescence from the small number of parasites that survive the initial artemether exposure. This pharmacokinetic complementarity is the basis of combination therapy: the fast-acting artemether reduces the parasite burden rapidly (alleviating symptoms quickly) while the slowly eliminated lumefantrine eliminates residual infection and protects against resistance selection.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Weight-Based Dosing — Why 2 Tablets Per Dose Is Correct for This Child</strong>
+          <p>Artemether-Lumefantrine dosing is strictly weight-based. The standard tablet contains 20 mg artemether and 120 mg lumefantrine. For children weighing 15 to 24 kg, the recommended dose is 2 tablets per dose. This child weighs 21 kg, placing him firmly in the 15 to 24 kg band. The 6-dose regimen over 3 days — dose at time zero, dose at 8 hours, then twice daily doses on days 2 and 3 — is the WHO-recommended schedule designed to maintain lumefantrine above the minimum inhibitory concentration for sufficient time to eliminate residual parasitaemia. The 8-hour spacing of the first two doses is important: it maintains artemether exposure during the critical early period when parasite biomass is highest. Prescribing a flat adult dose regardless of weight in a child is a common dosing error in Nigerian outpatient settings and results in underdosing, which promotes recrudescence and, over time, resistance selection.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Administer with Food</strong>
+          <p>Lumefantrine is highly lipophilic — its oral bioavailability increases approximately 16-fold when taken with a fatty meal compared with fasting. This is a pharmacokinetically critical instruction that is frequently omitted in counselling. A child who takes AL on an empty stomach may absorb insufficient lumefantrine to maintain therapeutic concentrations, leading to treatment failure and recrudescence despite completing all six doses. In practice, the instruction should be given specifically: the child should take each dose with a full meal, a cup of milk, or a fatty drink. If the child is anorexic (as this child is), the mother should be encouraged to offer the tablets with the highest-fat food available — even a small biscuit or spoonful of groundnut paste — rather than water alone.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Paracetamol Dosing — The Correction</strong>
+          <p>The correct paracetamol dose for a child is 15 mg/kg per dose. For this child weighing 21 kg, that gives 315 mg per dose — rounded to 300 mg in practice (one and a half 200 mg tablets, or three 100 mg paediatric tablets). The source note prescribed 250 mg, which is underdosed for this weight. Underdosing paracetamol in a febrile child results in inadequate antipyresis, prolonged discomfort, and a risk of further febrile convulsions if the child has a predisposition. The dose is given three times daily and can be continued for 3 days alongside the AL course.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Complications to Watch For and Red Flags</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Progression to Severe Malaria</strong>
+          <p>Uncomplicated malaria in children, if untreated or inadequately treated, can progress to severe disease within 24 to 72 hours. The most feared complication in a school-age child is cerebral malaria — sequestration of Plasmodium falciparum-infected erythrocytes in the cerebral microvasculature, causing progressive encephalopathy, seizures, and coma. The WHO defines cerebral malaria as a GCS below 11 in adults (Blantyre Coma Scale below 3 in children) in the context of confirmed falciparum infection with no other explanation for the coma. Cerebral malaria carries a mortality of 15 to 25% even with treatment, and 10 to 20% of survivors have lasting neurological sequelae. The mother must be specifically counselled to return immediately if the child develops any alteration in consciousness, becomes difficult to wake, or has a seizure — these are cerebral malaria warning signs requiring emergency intravenous artesunate.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Severe Anaemia</strong>
+          <p>Haemolytic anaemia is an inevitable consequence of erythrocytic schizogony — each rupturing red cell destroys the parasitised erythrocyte. In a child with high parasitaemia or a prolonged untreated infection, the rate of red cell destruction can be sufficient to produce severe anaemia (haemoglobin below 7 g/dl) rapidly. This is the most common cause of malaria mortality in African children under 5 years in high-transmission settings. This child is not pale on examination, suggesting the haemoglobin is currently adequate, but the FBC will provide a baseline. If the FBC returns with haemoglobin below 7 g/dl at the 72-hour review, blood transfusion criteria apply.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Recrudescence vs Reinfection</strong>
+          <p>Recrudescence — return of parasitaemia from the original infection due to incomplete parasite clearance — typically occurs within 28 days of treatment and implies treatment failure (inadequate drug exposure, poor adherence, or resistant parasites). It is distinguished from reinfection (a new bite from an infected mosquito producing a new infection) by molecular typing of the parasite, which is a research tool. Clinically, fever returning within 14 days of completing AL is more likely recrudescence; fever after 28 days is more likely reinfection. Recrudescence requires treatment with a different ACT — Dihydroartemisinin-Piperaquine (DHA-PPQ) is the recommended second-line agent in Nigeria.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Prevention — ITNs and the Wider Context</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Insecticide-Treated Nets — Why Consistent Use Matters</strong>
+          <p>The family has ITNs but uses them inconsistently — a very common pattern in urban Nigerian households where heat, the perceived absence of mosquitoes, or practical barriers to net use lead to irregular compliance. ITNs work through two mechanisms: physical barrier protection for the individual sleeping under the net, and community-level mosquito population suppression through the insecticidal effect on mosquitoes that contact the net. The FMOH and WHO recommend universal coverage: every sleeping space should have a net, and every person should sleep under it every night regardless of season. The peak biting time of Anopheles gambiae — the principal malaria vector in Lagos — is between 10 pm and 2 am, meaning a child who sleeps without a net even occasionally is exposed during the highest-risk period. This consultation is a teachable moment: the mother should understand that inconsistent net use offers substantially less protection than consistent nightly use for all family members.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Malaria Burden in Lagos and Nigeria</strong>
+          <p>Nigeria carries the highest malaria burden of any country in the world — accounting for approximately 27% of global malaria cases and 31% of global malaria deaths. Lagos State, despite being urban and more developed than many Nigerian states, still reports high malaria transmission due to its extensive water bodies, poor drainage infrastructure, and high population density creating abundant mosquito breeding sites. Children under 5 years bear the greatest mortality burden; school-age children like this patient typically have partial immunity from repeated infections, which reduces their risk of severe malaria compared with younger children — but does not eliminate it. Malaria remains the leading cause of outpatient visits and hospital admissions in Nigerian children.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+      <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Never start antimalarial treatment without a confirmed parasitological diagnosis — either a positive blood film or a positive RDT. Empirical antimalarial treatment of all febrile children is no longer recommended by FMOH or WHO. Not all fever in Lagos is malaria, and treating unconfirmed malaria delays correct diagnosis and drives resistance.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Artemether-Lumefantrine must be given with food or a fatty drink. Lumefantrine bioavailability increases 16-fold with fat. A child who takes all six doses on an empty stomach may receive therapeutically inadequate lumefantrine exposure and recrudesce — this is a counselling point that must be given explicitly to every caregiver.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Paracetamol dosing in children is weight-based at 15 mg/kg per dose — not a fixed paediatric dose. For a 21 kg child, the correct dose is 300 mg, not 250 mg. Underdosing results in inadequate antipyresis and risks further febrile convulsions in susceptible children.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>The most important red flags to communicate to the caregiver are: altered consciousness or difficulty waking the child, new convulsions, inability to feed or drink, persistent vomiting preventing oral medications, and passage of dark-coloured urine. Any of these indicates progression to severe malaria requiring immediate emergency care and intravenous artesunate — not an extra dose of oral AL.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>A positive HRP-2 RDT can remain positive for 2 to 4 weeks after successful malaria treatment due to antigen persistence. Do not use a repeat RDT as the test of cure at the 72-hour review — use a repeat thick blood film parasite count to assess treatment response. A falling or cleared parasitaemia on film at 72 hours is the appropriate marker of treatment success.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>The Widal test for typhoid diagnosis has poor sensitivity and specificity in Nigeria, where background Salmonella exposure and subclinical infections produce elevated titres in the general population. A Widal titre alone should not be used to diagnose enteric fever or to start treatment. Blood culture remains the gold standard; if not available, the diagnosis of typhoid should be based on the full clinical picture and response to empirical treatment after malaria has been excluded.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Malaria Strategic Plan and National Guidelines for Diagnosis and Treatment of Malaria. Abuja: FMOH / NMEP Nigeria.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Treatment of Malaria, 3rd edition. Geneva: WHO Press.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Management of Severe Malaria: A Practical Handbook. Geneva: WHO Press.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) — clinical guidance on malaria diagnosis and management in Nigerian children, where locally available.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on malaria in children, artemisinin-based combination therapy, and severe malaria management.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Plasmodium falciparum malaria, cerebral malaria, and malaria in paediatric patients.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — artemisinin-based combination therapies for uncomplicated Plasmodium falciparum malaria; insecticide-treated nets for malaria prevention.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — infectious diseases and paediatrics chapters.</li>
+        </ul>
+      </div>
+    </details>
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
 {
   id: 'peds-01',
   title: 'Allergic Rhinitis',
@@ -3215,7 +6851,1298 @@ Not yet available
 
 
   // Internal Medicine
+  {
+    id: 'im-01',
+    title: "Probable Alzheimer's Disease",
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology Clinic',
+    condition: 'Major Neurocognitive Disorder (Dementia)',
+    symptoms: [
+      'Progressive forgetfulness',
+      'Difficulty performing daily activities',
+      'Behavioral changes',
+      'Disorientation',
+      'Poor recent memory',
+      'Night-time wandering'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '58-year-old hypertensive woman with a two-year history of progressive memory impairment, functional decline and behavioural changes consistent with probable Alzheimer’s disease.',
+    content: `NEUROLOGY CLINIC
+  
+  Patient Seen
+  
+  A 58-year-old married retired school teacher from Abeokuta, Ogun State, Christian, Yoruba.
+  
+  Informants: Husband and eldest daughter (Reliable)
+  
+  PC:
+  Progressive forgetfulness × 2 years
+  Difficulty performing daily activities × 8 months
+  Behavioral changes × 6 months
+  
+  HPC:
+  The patient was apparently well until about two years prior to presentation when her family noticed that she frequently forgot recent conversations and misplaced personal belongings. Initially, these episodes were occasional and attributed to stress, but they gradually became more frequent and progressive.
+  
+  Over the past year, she repeatedly asked the same questions despite receiving answers, forgot scheduled appointments and failed to remember the names of familiar neighbours. She became increasingly dependent on family members for routine activities such as paying bills, preparing meals and taking her medications correctly.
+  
+  Approximately eight months prior to presentation, she developed difficulty carrying out previously familiar household tasks, including cooking meals she had prepared for many years. She also became disoriented on two occasions while returning from a nearby market that she had visited regularly.
+  
+  During the last six months, her family observed progressive personality changes. She became withdrawn, occasionally irritable and suspicious that family members were hiding her belongings. She also lost interest in social activities and spent much of the day sitting quietly.
+  
+  There have been occasional episodes of wandering outside the house without informing family members and fragmented sleep with occasional nighttime wandering.
+  
+  There is no history of visual or auditory hallucinations, loss of consciousness, seizures, recent head injury, limb weakness, facial deviation, speech loss, urinary or faecal incontinence or alcohol misuse.
+  
+  ROS:
+  
+  General:
+  Progressive memory loss.
+  No fever.
+  No weight loss.
+  Good appetite.
+  
+  Neurological:
+  Forgetfulness.
+  Poor recent memory.
+  Poor concentration.
+  Disorientation to time.
+  No headaches.
+  No seizures.
+  No limb weakness.
+  
+  Psychiatric:
+  Personality change.
+  Irritability.
+  Reduced social interaction.
+  No hallucinations.
+  No suicidal ideation.
+  
+  Cardiovascular:
+  Known hypertensive.
+  No chest pain.
+  No palpitations.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No vomiting.
+  Normal bowel habits.
+  
+  Genitourinary:
+  No urinary symptoms.
+  
+  PMH:
+  Known hypertensive diagnosed 10 years ago with poor blood pressure control.
+  No diabetes mellitus.
+  No epilepsy.
+  No previous stroke.
+  No Parkinson's disease.
+  
+  PSH:
+  Nil significant.
+  
+  Drug History:
+  Tab Amlodipine 10 mg PO daily.
+  Tab Hydrochlorothiazide 25 mg PO daily.
+  Occasionally forgets to take medications.
+  No known drug allergies.
+  
+  Family History:
+  Mother developed dementia in her seventies.
+  No family history of Parkinson's disease.
+  
+  Social History:
+  Retired school teacher.
+  Lives with husband and children.
+  Never smoked.
+  Does not consume alcohol.
+  Previously independent in activities of daily living but now requires assistance with finances, cooking and medication administration.
+  
+  O/E:
+  Middle-aged woman, calm and cooperative.
+  Neatly dressed but requires prompting during history taking.
+  Not pale.
+  Anicteric.
+  Well hydrated.
+  No pedal oedema.
+  
+  Vitals:
+  BP 148/88 mmHg
+  PR 76 bpm, regular
+  RR 16 cpm
+  Temperature 36.7°C
+  SpO₂ 98% on room air
+  Weight 69 kg
+  Height 1.62 m
+  BMI 26.3 kg/m²
+  
+  Cognitive Assessment:
+  MMSE: 20/30
+  
+  Orientation impaired (lost points for date and day).
+  Registration intact.
+  Recall poor (1/3 objects after 5 minutes).
+  Attention and calculation impaired.
+  Mild word-finding difficulty.
+  Mild visuospatial impairment on copying intersecting pentagons.
+  Insight limited.
+  
+  Neurological Examination:
+  
+  Higher Mental Functions:
+  Alert.
+  Conscious.
+  Speech fluent.
+  Recent memory markedly impaired.
+  Remote memory relatively preserved.
+  Judgement impaired.
+  Executive function reduced.
+  
+  Cranial Nerves:
+  II–XII intact.
+  
+  Motor:
+  Normal bulk.
+  Normal tone.
+  Power 5/5 in all four limbs.
+  Deep tendon reflexes normal.
+  Plantar responses flexor bilaterally.
+  
+  Sensory:
+  Intact.
+  
+  Cerebellar:
+  No dysmetria.
+  Coordination normal.
+  
+  Gait:
+  Slow but steady.
+  No ataxia.
+  No Parkinsonian gait.
+  
+  CVS:
+  Pulse regular.
+  S1 and S2 normal.
+  No murmurs.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  Bowel sounds present.
+  
+  Assessment:
+  Probable Alzheimer's disease presenting as mild to moderate major neurocognitive disorder (dementia) with associated behavioural and psychological symptoms.
+  
+  Differential Diagnoses:
+  Vascular dementia.
+  Mixed Alzheimer's disease and vascular dementia.
+  Frontotemporal dementia.
+  Dementia with Lewy bodies.
+  Depression with cognitive impairment (pseudodementia).
+  Reversible causes of cognitive impairment including vitamin B12 deficiency, hypothyroidism and neurosyphilis.
+  
+  Plan:
+  
+  Investigations:
+  FBC.
+  EUCr.
+  FBS.
+  HbA1c.
+  LFT.
+  Thyroid function tests.
+  Vitamin B12 and Folate levels.
+  Serum calcium.
+  HIV screening (with counselling and consent).
+  VDRL/RPR if clinically indicated.
+  Urinalysis.
+  MRI Brain (preferred) or CT Brain.
+  Montreal Cognitive Assessment (MoCA).
+  Depression screening (PHQ-9 or Geriatric Depression Scale).
+  Functional assessment of activities of daily living.
+  
+  Management:
+  
+  Non-Pharmacological:
+  Educate patient and family regarding dementia and its progressive nature.
+  Encourage a structured daily routine.
+  Use calendars, clocks and labelled household items as memory aids.
+  Encourage regular physical activity and social interaction.
+  Promote good sleep hygiene.
+  Review home safety and remove fall hazards.
+  Supervise cooking and outdoor activities.
+  Advise against driving until formally assessed.
+  Optimize hypertension and other vascular risk factors.
+  
+  Medications:
+  
+  Preferred:
+  Tab Donepezil 5 mg nocte for 4 weeks, then increase to 10 mg nocte if well tolerated.
+  
+  Alternatives:
+  Tab Rivastigmine 1.5 mg PO BD, titrating gradually to 3–6 mg BD.
+  Tab Galantamine 4 mg PO BD, titrating gradually as tolerated.
+  
+  For moderate to severe disease:
+  Tab Memantine 5 mg daily, increasing weekly by 5 mg to a maintenance dose of 20 mg daily, alone or with a cholinesterase inhibitor where appropriate.
+  
+  If severe agitation or psychosis develops despite non-pharmacological measures:
+  Tab Risperidone 0.25–0.5 mg nocte, increasing cautiously after specialist review.
+  Use only when clearly indicated because of increased cerebrovascular and mortality risk in dementia.
+  
+  Continue:
+  Tab Amlodipine 10 mg PO daily.
+  Review antihypertensive therapy to optimize blood pressure control.
+  
+  Nursing Instructions:
+  Monitor cognitive function at each clinic visit.
+  Assess medication adherence.
+  Monitor for adverse effects of cholinesterase inhibitors including nausea, vomiting, diarrhoea, dizziness, syncope and bradycardia.
+  Assess caregiver burden and provide support.
+  
+  Counselling:
+  Explain that dementia is a progressive disorder affecting memory, thinking and daily functioning.
+  Discuss that treatment aims to slow progression, improve quality of life and manage behavioural symptoms but is not curative.
+  Encourage family supervision of medications and financial decisions.
+  Discuss future care planning including advance directives where appropriate.
+  Provide education on nutrition, exercise, fall prevention and recognition of complications such as delirium.
+  
+  Follow-up:
+  Review in the Geriatric Medicine or Neurology Clinic in 4 weeks to assess treatment tolerance and review investigation results.
+  Thereafter review every 3–6 months with reassessment of cognitive function, activities of daily living, behavioural symptoms, medication adherence and caregiver support.
+  Advise immediate presentation if there is sudden worsening of confusion, new focal neurological deficits, recurrent falls, seizures, fever or acute behavioural changes suggestive of delirium or another superimposed illness.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-02',
+    title: 'Early-Onset Dementia',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology Clinic',
+    condition: 'Cognitive Decline (Dementia)',
+    symptoms: [
+      'Progressive memory loss',
+      'Personality changes',
+      'Behavioral changes',
+      'Difficulty performing activities of daily living',
+      'Disorientation',
+      'Apathy'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '52-year-old hypertensive woman with an 8-month history of progressive cognitive decline, personality changes and loss of functional independence, requiring evaluation for early-onset dementia and reversible causes of cognitive impairment.',
+    content: `NEUROLOGY CLINIC
+  
+  Patient Seen
+  
+  A 52-year-old Yoruba female civil servant residing in Ibadan, Oyo State, accompanied by her husband.
+  
+  PC:
+  Progressive memory loss × 8 months
+  Personality and behavioral changes × 4 months
+  Difficulty performing activities of daily living × 2 months
+  
+  HPC:
+  History was obtained from the patient and corroborated by her husband.
+  
+  She was apparently well until about eight months prior to presentation when she developed progressive memory loss. The onset was insidious and symptoms have progressively worsened. Initially, she frequently forgot where she kept household items and forgot recent conversations.
+  
+  Over the last four months, she has started forgetting the names of close relatives and has twice become lost within her neighborhood, requiring assistance to return home.
+  
+  Associated personality changes include progressive apathy, social withdrawal and occasional unprovoked irritability.
+  
+  Over the last two months, she has required assistance with basic activities of daily living including bathing, dressing and grooming, all of which she previously performed independently.
+  
+  There is no history of head trauma, loss of consciousness or seizures. No history of chronic headaches, visual disturbances or focal neurological deficits. No history of urinary incontinence or gait disturbance suggestive of normal pressure hydrocephalus. No history of heat intolerance, weight gain or constipation suggestive of hypothyroidism. No history of high-risk sexual behaviour or chronic cough.
+  
+  Prior to presentation, she had not been evaluated by a specialist. Her family managed her at home and occasionally administered over-the-counter multivitamins without improvement.
+  
+  ROS:
+  
+  CNS:
+  Progressive memory impairment.
+  Disorientation.
+  No tremors.
+  No sensory loss.
+  
+  CVS:
+  No chest pain.
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Gastrointestinal:
+  No dysphagia.
+  Normal bowel habits.
+  
+  Genitourinary:
+  No urinary incontinence.
+  No dysuria.
+  
+  Musculoskeletal:
+  No joint pain or swelling.
+  
+  PMH:
+  Known hypertensive diagnosed 5 years ago.
+  Poor medication compliance.
+  No diabetes mellitus.
+  No previous psychiatric illness.
+  No history of blood transfusion.
+  No major surgeries.
+  
+  Drug History:
+  Tab Amlodipine 10 mg PO daily (poor compliance).
+  Occasional use of herbal remedies ("Agbo") over the past 6 months.
+  No chronic alcohol consumption.
+  No substance abuse.
+  No known drug allergies.
+  
+  Family History:
+  No family history of early-onset dementia.
+  No family history of psychiatric illness.
+  
+  Social History:
+  Married with three children.
+  Lives with her family in a rented apartment in Ibadan.
+  Non-smoker.
+  
+  O/E:
+  Conscious but disoriented to time and place.
+  Oriented to person.
+  Not acutely ill-looking.
+  Afebrile (36.6°C).
+  Not pale.
+  Anicteric.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  Adequately hydrated.
+  
+  Vitals:
+  BP 155/95 mmHg
+  PR 84 bpm, regular, normal volume
+  RR 16 cpm
+  SpO₂ 98% on room air
+  
+  CNS:
+  Mental Status:
+  Disoriented to time and place.
+  Oriented to person.
+  
+  MMSE:
+  16/30 (moderate cognitive impairment).
+  
+  Cranial Nerves:
+  I–XII intact.
+  
+  Motor:
+  Normal muscle bulk and tone.
+  Power 5/5 globally.
+  Deep tendon reflexes normal and symmetrical.
+  Plantar responses flexor bilaterally.
+  
+  Sensory:
+  Intact to pain, light touch and temperature.
+  
+  Coordination:
+  Normal.
+  No cerebellar signs.
+  
+  Gait:
+  Normal.
+  
+  CVS:
+  Apex beat located at the 5th left intercostal space, midclavicular line.
+  S1 and S2 heard.
+  No murmurs.
+  
+  Respiratory:
+  Trachea central.
+  Chest expansion symmetrical.
+  Percussion note resonant.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  Abdomen:
+  Flat and moves with respiration.
+  Soft.
+  Non-tender.
+  No organomegaly.
+  Bowel sounds present.
+  
+  Assessment:
+  Early-onset cognitive decline (dementia) in a 52-year-old hypertensive female with poorly controlled hypertension. Rule out reversible causes of dementia versus early-onset neurodegenerative disease.
+  
+  Differential Diagnoses:
+  Vascular dementia.
+  Hypothyroidism.
+  Neurosyphilis.
+  HIV-associated neurocognitive disorder.
+  Vitamin B12 deficiency.
+  Early-onset Alzheimer's disease.
+  
+  Plan:
+  
+  Investigations:
+  FBC with red cell indices.
+  EUCr.
+  Thyroid function tests (T3, T4, TSH).
+  Serum Vitamin B12 and Folate levels.
+  Fasting blood glucose.
+  Retroviral screening.
+  VDRL/TPHA.
+  Brain CT scan.
+  Consider Brain MRI following specialist review.
+  
+  Management:
+  
+  Counselling:
+  Counsel patient and family regarding the nature of cognitive decline.
+  Emphasize patient safety, supervision and prevention of wandering.
+  Encourage a structured daily routine.
+  Advise use of memory aids such as calendars and clocks.
+  
+  Medical Management:
+  Optimize blood pressure control.
+  Restart Tab Amlodipine 10 mg PO daily with emphasis on strict adherence.
+  Consider Tab Lisinopril 5 mg PO daily after assessment of renal function where appropriate.
+  Advise immediate cessation of unregistered herbal medications ("Agbo").
+  Avoid sedatives and antihistamines unless clearly indicated.
+  
+  Referral:
+  Refer to Neurology/Psychiatry at a tertiary hospital for comprehensive neuropsychological assessment, advanced neuroimaging and consideration for cognitive-enhancing therapy (e.g., Donepezil) after exclusion of reversible causes.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-4',
+    title: 'Newly Diagnosed Hypertension with Chronic Epigastric Discomfort',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology Clinic',
+    condition: 'Essential hypertension with dyslipidaemia and chronic epigastric pain',
+    symptoms: [
+      'Recently diagnosed Stage 2 hypertension',
+      'Recurrent epigastric discomfort with retrosternal radiation',
+      'Positive family history of hypertension (father died of stroke)',
+      'Dyslipidaemia',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: 'A 45-year-old Igbo woman, recently diagnosed with Stage 2 hypertension, presenting to the Cardiology Clinic with a 10-year history of recurrent epigastric discomfort and incidentally identified dyslipidaemia. Antihypertensive therapy corrected to combination (amlodipine + lisinopril) per Stage 2 guideline recommendations; rabeprazole dose corrected to twice-daily; H. pylori testing and eradication pathway built into the GI management plan.',
+    content: `CARDIOLOGY CLINIC
+Patient seen:
+45-year-old woman, typist, resident in Akure, Ondo State, married with children, Christian, of Igbo ethnicity.
+She was recently diagnosed with hypertension (1 month ago) at a private hospital and has been commenced on treatment.
+She gives a long-standing history (about 10 years) of recurrent "pepperish" epigastric discomfort, radiating to the retrosternal area, occasionally associated with belching. The discomfort was initially worse when hungry but has recently lost its meal-related pattern.
+She denies symptoms of cardiac decompensation — no dyspnoea on exertion, orthopnoea, paroxysmal nocturnal dyspnoea, chest pain, syncope, or peripheral oedema.
+No urinary symptoms suggestive of renal involvement.
+She does not consume alcohol, does not smoke, and has no history of herbal concoction use or NSAID use.
+Not a known diabetic or asthmatic. Positive family history of hypertension; father died of stroke.
+Review of systems otherwise unremarkable.
 
+Investigations:
+ECG: normal sinus rhythm, no LVH or ischaemic changes
+Urinalysis: normal
+E/U/Cr: normal
+CXR: normal
+Fasting lipid profile: dyslipidaemia (pattern not specified — to be reviewed)
+H. pylori stool antigen test: pending
+
+O/E:
+Not pale, anicteric, afebrile, acyanosed, no pedal oedema
+
+CVS:
+PR 93 bpm, regular
+BP 147/86 mmHg
+JVP not elevated
+Heart sounds S1 S2, with loud A2
+
+RS:
+RR 20 cpm
+Breath sounds vesicular, no added sounds
+
+Abdomen:
+Soft, non-distended, moves with respiration
+Mild epigastric tenderness on deep palpation
+No organomegaly
+
+CNS:
+Conscious and alert, no focal neurological deficit
+
+ASSESSMENT
+1. Essential hypertension — Stage 2 (BP 147/86 mmHg; JNC 8 / ACC/AHA 2017 criteria), recently diagnosed, with a positive family history of hypertension complicated by stroke
+2. Dyslipidaemia — aetiology and pattern to be characterised on review of lipid profile
+3. Chronic epigastric pain with retrosternal radiation — likely peptic ulcer disease or GERD, possibly H. pylori-associated; pending stool antigen result
+
+PLAN
+
+Antihypertensive Therapy
+Stage 2 hypertension requires combination therapy with two complementary agents; monotherapy is unlikely to achieve target blood pressure reduction.
+Tab Amlodipine 5 mg orally once daily (calcium channel blocker)
+Tab Lisinopril 5 mg orally once daily (ACE inhibitor — preferred combination partner for a 45-year-old woman without diabetes or CKD; titrate to 10 mg at next review if tolerated and BP target not met)
+Target BP: less than 130/80 mmHg (ACC/AHA 2017) or less than 140/90 mmHg (JNC 8), reviewed at follow-up
+
+GI Symptoms
+Await H. pylori stool antigen result before finalising the GI management approach.
+Tab Rabeprazole 20 mg orally twice daily for 4 weeks pending H. pylori result (twice-daily dosing for active PUD/GERD symptom control, rather than once daily)
+If H. pylori result returns positive: switch to standard triple eradication therapy (e.g. PPI + Amoxicillin 1 g BD + Clarithromycin 500 mg BD for 14 days), then repeat stool antigen 4 weeks after completing eradication
+If H. pylori result is negative: continue PPI alone and consider upper GI endoscopy if symptoms persist beyond 4–8 weeks, to exclude erosive oesophagitis or other structural cause
+Tab Metoclopramide 10 mg orally three times daily before meals for up to 4 weeks only — for prokinetic/symptom relief; do not exceed 12 weeks' total duration given risk of tardive dyskinesia with prolonged use; use with particular caution given female sex (higher risk group)
+
+Dyslipidaemia
+Review fasting lipid profile to characterise pattern (elevated LDL, elevated triglycerides, or mixed).
+Statin therapy will be indicated if LDL is significantly elevated or if 10-year cardiovascular risk is above threshold, calculated using a validated risk tool at next review.
+Dietitian review for dyslipidaemia and dietary counselling.
+
+Lifestyle Counselling
+Low-sodium diet (less than 5 g sodium/day)
+Regular aerobic exercise (30 minutes, 5 times per week)
+Weight optimisation
+Avoid NSAIDs and corticosteroids (risk of GI mucosal injury and hypertension aggravation)
+
+Review in 4 weeks: reassess blood pressure on combination therapy, review H. pylori result and GI response, and finalise lipid management plan including decision on statin therapy.
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Stage 2 Hypertension Requires Combination Therapy, Not Monotherapy</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What the Guidelines Actually Say</strong>
+        <p>Both the JNC 8 report and the 2017 ACC/AHA guideline recommend initiating combination therapy with two antihypertensive agents for Stage 2 hypertension, on the basis that a single agent at standard doses rarely achieves the full blood pressure reduction needed in this range, and that combination therapy with complementary mechanisms achieves target more reliably and more quickly than sequential up-titration of monotherapy. Starting with amlodipine 5 mg alone in a patient at 147/86 mmHg would leave this patient undertreated from the outset, requiring multiple visits to reach target.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Amlodipine Plus an ACE Inhibitor Is the Right Combination Here</strong>
+        <p>A dihydropyridine calcium channel blocker (amlodipine) combined with an ACE inhibitor (lisinopril) is one of the most evidence-supported first-line combinations for hypertension management, with complementary mechanisms — the CCB reduces peripheral vascular resistance, while the ACE inhibitor blocks the renin-angiotensin-aldosterone axis, providing additive blood pressure lowering with fewer side effects than either agent alone at higher doses. For a 45-year-old woman without CKD, diabetes, or heart failure, there is no compelling indication that would override this choice, and an ACE inhibitor also provides cardiovascular protection beyond blood pressure reduction itself.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Blood Pressure Target and What to Use as the Reference Point</strong>
+        <p>The two most commonly used guideline thresholds give slightly different targets: the 2017 ACC/AHA guideline recommends a target below 130/80 mmHg for most adults, while JNC 8 uses below 140/90 mmHg for non-diabetic, non-CKD adults under 60. In clinical practice in Nigeria and across sub-Saharan Africa, the JNC 8 threshold remains widely used; the important principle is to pick a clearly documented target at the outset and reassess against it at every visit, rather than treating each review as a fresh starting point without a benchmark.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Family History of Stroke Matters More Than It Might Seem</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Parental Stroke as a Cardiovascular Risk Amplifier</strong>
+        <p>A father who died of stroke in a family with hypertension is a meaningful, independent cardiovascular risk factor. It increases this patient's baseline 10-year cardiovascular risk above what her blood pressure and age alone would suggest, and strengthens the case for treating to a more aggressive blood pressure target and for early consideration of statin therapy even at mildly elevated LDL levels — since total cardiovascular risk, not individual risk factor thresholds in isolation, should guide treatment intensity.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">How to Read the GI History in This Patient</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What "Pepperish" Epigastric Discomfort Radiating Retrosternally Suggests</strong>
+        <p>A 10-year history of epigastric burning that was initially hunger-related and now has retrosternal radiation and belching fits both peptic ulcer disease and GERD, with meaningful overlap. The loss of meal-relatedness over time is a subtle but important clinical observation — hunger-associated relief typically characterises a duodenal ulcer pattern (eating neutralises acid), and losing this pattern may suggest mucosal changes, a shift in disease character, or the emergence of a different process overlying the original problem. This is one reason why endoscopy remains relevant if the patient does not respond fully to empirical treatment.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why H. pylori Status Must Be Established Before Finalising Management</strong>
+        <p>H. pylori is the most important causative factor in peptic ulcer disease globally, and remains highly prevalent in the Nigerian/West African population, with documented prevalence rates among symptomatic adults well above 50% in multiple community studies. Empirical acid suppression without testing for and eradicating H. pylori, when present, leads to symptom recurrence after stopping the PPI rather than genuine cure. The stool antigen test is the right initial investigation — non-invasive, accurate, and accessible — and the subsequent management plan should branch clearly depending on the result.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Rabeprazole Was Changed to Twice-Daily Dosing</strong>
+        <p>Once-daily PPI dosing is appropriate for maintenance therapy or mild GERD, but the standard recommendation for active symptomatic PUD or moderate-to-severe GERD is twice-daily dosing for the initial treatment course. This patient has a 10-year history and active tenderness on examination, placing her well above the threshold for the more intensive initial regimen.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Metoclopramide Was Kept, With a Clear Safety Caveat</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Evidence for Short-Term Use</strong>
+        <p>Metoclopramide has established prokinetic activity and a demonstrated symptom response rate roughly 30% above placebo in functional dyspepsia and GERD. As a short course (up to 4 weeks here), it is a reasonable adjunct for symptom relief while the underlying cause is investigated and PPI therapy takes effect, particularly given the belching and possible delayed gastric emptying component suggested by this patient's symptom profile.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Black Box Warning and This Patient's Specific Risk</strong>
+        <p>Metoclopramide carries a US FDA black box warning for tardive dyskinesia, a potentially irreversible movement disorder, the risk of which increases with cumulative exposure beyond 12 weeks. Tardive dyskinesia risk is specifically higher in women and in older patients — two factors that apply to this 45-year-old female patient. The 4-week course planned here is within the acceptable short-term use window, but the duration must not be extended beyond 12 weeks under any circumstances without a specific, documented re-evaluation of the risk-benefit balance. If longer-term prokinetic support is needed, alternative agents with a more favourable safety profile should be considered.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Dyslipidaemia Management Was Deferred Pending Lipid Profile Review</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Pattern Matters Before Choosing Therapy</strong>
+        <p>The lipid profile result is documented as showing dyslipidaemia but without specifying the pattern — elevated LDL, elevated triglycerides, low HDL, or a mixed picture all point toward different primary treatment approaches. Prescribing a statin before knowing the full lipid pattern presumes an LDL-dominant picture, which is the most common but not universal. Reviewing the actual values at the next visit and calculating the 10-year cardiovascular risk alongside them will allow statin therapy to be introduced or withheld on the basis of the patient's actual total risk rather than the presence of dyslipidaemia as a label alone.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Lifestyle Remains Central Regardless of Statin Decision</strong>
+        <p>Dietary modification and aerobic exercise have evidence-based effects on lipid levels across all dyslipidaemia patterns, and the dietitian referral is appropriate regardless of whether a statin is ultimately started. Reducing sodium intake specifically benefits blood pressure control as well — making dietary counselling a dual-purpose intervention for this patient's two leading diagnoses.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Certain Medications Were Specifically Advised Against</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">NSAIDs and Corticosteroids in This Patient</strong>
+        <p>NSAIDs inhibit prostaglandin synthesis in the gastric mucosa, directly worsening PUD and GERD, and independently raise blood pressure by promoting sodium retention and blunting the effect of antihypertensive medications. This patient has a 10-year history of what is likely acid-peptic disease, newly diagnosed Stage 2 hypertension, and no documented indication for NSAIDs — making them specifically inappropriate here on two separate grounds. Corticosteroids similarly promote sodium retention and can worsen blood pressure control. This patient should be clearly advised to seek a specific discussion before taking either class of drug for any indication, including over-the-counter analgesics.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Stage 2 hypertension requires two antihypertensive agents from the start — monotherapy is a setup for persistent undertreatment and multiple re-attendance cycles before target is reached.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always test for H. pylori before relying on PPI monotherapy for peptic ulcer disease — H. pylori prevalence is high in Nigeria, and treating acid without eradicating the organism leads to recurrence rather than cure.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Metoclopramide carries a real tardive dyskinesia risk, higher in women — keep courses strictly under 12 weeks and document the rationale for use; it is not a default prokinetic to be repeated indefinitely.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>NSAIDs worsen both peptic disease and blood pressure control — this patient has both, and should be specifically counselled against them, including OTC formulations.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>A parental history of stroke in a hypertensive family amplifies this patient's cardiovascular risk beyond what the BP number alone suggests — factor it into treatment intensity and lipid management thresholds.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Characterise the full lipid pattern before prescribing a statin — the label "dyslipidaemia" on a result is not a prescription; the pattern and total cardiovascular risk score together determine whether and how aggressively to treat.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Cardiology / American Heart Association (ACC/AHA) 2017 Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Eighth Joint National Committee (JNC 8) Panel Report. 2014 Evidence-Based Guideline for the Management of High Blood Pressure in Adults. JAMA.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Society of Hypertension / European Society of Cardiology (ESH/ESC) Guidelines for the Management of Arterial Hypertension.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Gastroenterology (ACG) Clinical Guidelines — Management of Helicobacter pylori Infection and Peptic Ulcer Disease.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Gastroenterology Organisation (WGO) Global Guidelines — Helicobacter pylori in Developing Countries.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Metoclopramide pharmacology, tardive dyskinesia risk, and clinical use.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on hypertension initial management, peptic ulcer disease, H. pylori eradication therapy, and dyslipidaemia.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Nigerian Hypertension Society clinical practice guidance on hypertension management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-2',
+    title: 'Acute Left Hemispheric Stroke',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology Unit',
+    condition: 'Stroke',
+    symptoms: ['Irrational talk', 'Slurred speech', 'Right-sided weakness', 'Loss of consciousness', 'Hypertension'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '70-year-old male with acute left hemispheric stroke (GCS 7/15), right hemiparesis, and severe previously undiagnosed hypertension. Meningismus present in the absence of fever, most consistent with haemorrhagic irritation of the meninges rather than infection; empiric antibiotics withheld pending evidence of infection. Permissive blood pressure management maintained pending urgent neuroimaging to distinguish haemorrhagic from ischaemic stroke before any definitive stroke-specific therapy is started.',
+    content: `70-year-old male commercial driver who resides at Itunko, Oke-Aro, Ibadan.
+
+Presented on account of:
+
+Irrational talk × 10/7
+Slurred speech × 10 hours
+Right-sided weakness × 10 hours
+Loss of consciousness × 6 hours
+
+Informant: Daughter (reliable)
+
+HPC
+Patient was apparently well until about 10 days prior to presentation when he was noticed by family members to be talking irrationally and out of context, with inappropriate responses to questions. There was no associated fever, headache, or abnormal movements at onset.
+
+About 10 hours prior to presentation, patient developed sudden onset weakness of the right side of the body, more marked in the right lower limb than the upper limb, and was unable to stand without support. This was non-progressive. At the same time, he was noticed to have slurred speech, with difficulty articulating words.
+
+Approximately 2–4 hours later, while being conveyed to this facility, patient lapsed into unconsciousness. Duration of unconsciousness was about 6 hours prior to arrival. Activities during the period of unconsciousness could not be ascertained. There was no history of convulsion, tongue biting, or urinary/fecal incontinence.
+
+There was no history of headache, vomiting, photophobia, phonophobia, fever, or neck pain prior to loss of consciousness. No history of head trauma.
+
+No prior history suggestive of stroke or TIA.
+No polyuria, polydipsia, polyphagia.
+No reduction in urine output, frothy urine, or facial puffiness.
+
+Patient was initially taken to a private facility where blood pressure was recorded above 200 mmHg systolic (exact diastolic unknown), following which he was referred.
+
+Not a known hypertensive (however admits to have a poor health-seeking behavior)
+Not a known diabetic
+No history of PUD or asthma
+
+Takes sachet alcohol; quantity not quantifiable
+Does not smoke cigarettes
+Occasional use of herbal concoctions
+No known drug allergies
+
+O/E
+Elderly man, unconscious, lying supine in bed.
+Not pale, acyanosed, anicteric, not dehydrated, afebrile.
+No peripheral edema.
+
+CNS
+Unconscious
+GCS: E1 V1 M5 = 7/15
+Pupils: 3 mm bilaterally, sluggishly reactive to light
+Right gaze preference
+Left facial weakness (UMN type)
+Right-sided hemiparesis, power difficult to assess due to reduced level of consciousness
+Tone increased on right side
+Neck stiffness present
+Brudzinski sign positive
+
+CVS
+PR: 86 bpm, full volume, regular
+Peripheral pulses present and symmetrical
+BP: 180/100 mmHg
+Apex beat: 6th left intercostal space, anterior axillary line
+HS: S4, S1, S2, no murmurs
+
+RS
+RR: 20 cpm
+Trachea central
+Vesicular breath sounds bilaterally
+No added sounds
+SpO₂: 97% in room air
+
+ABDOMEN
+Full, moves with respiration
+Mild epigastric tenderness
+Liver palpable 6 cm below RCM, non-tender, smooth
+No ascites
+
+ASSESSMENT
+Acute left hemispheric stroke with severely reduced consciousness (GCS 7/15) and clinical signs concerning for raised intracranial pressure, in a previously undiagnosed hypertensive elderly male presenting with hypertensive urgency. Meningismus (neck stiffness, positive Brudzinski sign) present in the absence of fever — most consistent with meningeal irritation from intracranial haemorrhage (subarachnoid extension or mass effect) rather than infectious meningitis; to be reassessed once neuroimaging is available. Hemorrhagic stroke is the leading concern given the severity of presentation, though ischaemic stroke cannot be excluded clinically.
+
+PLAN
+
+Admit, urgent neuroimaging is the immediate priority before further targeted therapy.
+
+Urgent non-contrast CT scan of the brain — do not delay for other investigations or results.
+
+Investigations
+FBC
+ESR
+Urinalysis
+Urine MCS
+E/U/Cr
+Fasting lipid profile
+HbA1c
+Chest X-ray
+ECG
+Echocardiography
+Abdominopelvic ultrasound
+
+Immediate Supportive Measures
+Nurse patient in 30° head-up position
+Maintain airway; assess airway protection given GCS 7 — low threshold for airway intervention/intubation if unable to protect airway
+Give supplemental oxygen if SpO₂ <94%
+Permissive blood pressure management: do not acutely lower blood pressure at this stage, as current BP (180/100 mmHg) remains within the range where permissive hypertension is appropriate pending neuroimaging and a clear diagnosis (ischaemic vs haemorrhagic); reassess BP targets once CT results are available
+IV 20% Mannitol 250 ml over 20 minutes, repeated as clinically indicated, as an emergency bridging measure for probable raised intracranial pressure given GCS 7, sluggish pupillary response, and right gaze preference — reassess ongoing need once CT results are available and a definitive diagnosis is established
+IV Furosemide 20 mg may be given alongside mannitol dosing per unit protocol
+IV Paracetamol (Febramol) 1 g 8-hourly for temperature control if febrile; not required if patient remains afebrile
+IV Rabeprazole 40 mg 12-hourly for stress ulcer prophylaxis
+IV fluids: 0.9% Normal Saline 500 ml alternating with 5% Dextrose 500 ml 4-hourly; monitor input/output strictly
+Pass NGT for medications and feeding once airway is secured/protected
+Insert urethral catheter (Paul's tube) to monitor urine output
+Apply TED stockings for DVT prophylaxis
+Regular turning on bed (2-hourly) for pressure area care
+Monitor vital signs and GCS closely, with frequent neurological observations
+
+Do not commence empiric antibiotics (IV Ceftriaxone/Metronidazole) at this time. The patient is afebrile with no documented infective source; the neck stiffness and positive Brudzinski sign in this context are more consistent with meningeal irritation from intracranial haemorrhage than infectious meningitis. Reassess for signs of infection (fever, leucocytosis, clear source) as the clinical picture evolves; antibiotics should be guided by evidence of infection, not started reflexively based on meningeal signs alone in a patient with an acute stroke syndrome.
+
+Invite Physiotherapy for early rehabilitation planning once stabilised.
+Invite ICU team for assessment and possible transfer given GCS 7 and risk of further deterioration/airway compromise.
+Commence definitive stroke protocol (thrombolysis/anticoagulation/antiplatelet decisions, blood pressure targets, and further management) once neuroimaging results are available and haemorrhagic versus ischaemic stroke has been distinguished.
+Counsel family on diagnosis, severity, and the plan pending imaging results.
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Neck Stiffness and a Positive Brudzinski Sign Here Point to Haemorrhage, Not Meningitis</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Meningeal Signs Are Not Specific to Infection</strong>
+        <p>Neck stiffness, Kernig's sign, and Brudzinski's sign reflect meningeal irritation, which can result from infection (meningitis) or from blood in the subarachnoid space (subarachnoid haemorrhage, or intracerebral haemorrhage with subarachnoid extension). These signs do not, by themselves, distinguish between the two causes — the rest of the clinical picture has to do that work.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Patient's Picture Points Away From Infection</strong>
+        <p>This patient is afebrile, with no antecedent history of fever, photophobia, or infective symptoms, and no documented source of infection anywhere in the history or examination. What he does have is an acute focal neurological deficit (right hemiparesis, left UMN facial weakness, gaze preference), a severely reduced level of consciousness (GCS 7/15), sluggish pupillary responses, and a background of severe, previously undiagnosed hypertension with a systolic BP recorded above 200 mmHg at the referring facility. This combination — meningismus plus acute focal deficit plus depressed consciousness plus severe hypertension — is the classic picture of intracranial haemorrhage with meningeal irritation, not bacterial meningitis, which would far more typically present with fever, a more gradual or different evolution, and would be unlikely to produce this degree of acute focal motor and gaze deficit at onset.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Changes the Antibiotic Decision</strong>
+        <p>Starting empiric IV antibiotics (such as ceftriaxone and metronidazole) on the basis of meningeal signs alone, without fever or any other evidence of infection, treats a non-specific examination finding as if it were diagnostic of meningitis. In this patient, the far more likely explanation for the neck stiffness and positive Brudzinski sign is haemorrhagic irritation of the meninges from the underlying stroke itself. Antibiotics should be reserved for situations with actual supporting evidence of infection — fever, raised inflammatory markers, a clear source, or CSF findings — rather than triggered reflexively by a meningeal sign in a patient whose presentation is otherwise fully explained by a catastrophic stroke.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why "Hemorrhagic KIV Ischaemic" Is the Right Working Diagnosis Before Imaging</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Features Favouring Haemorrhage Clinically</strong>
+        <p>Several features in this presentation lean toward a haemorrhagic event: the severity and rapidity of decline to GCS 7, the markedly elevated blood pressure at outset (systolic over 200 mmHg), the presence of meningeal irritation signs, and the progression from confusion to severe depression of consciousness within hours. None of these features can confirm haemorrhage on clinical grounds alone — only CT imaging can reliably distinguish haemorrhagic from ischaemic stroke — but they appropriately raise the index of suspicion and shape the urgency and content of the supportive plan while imaging is awaited.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the 10-Day History of Irrational Speech Is a Separate, Earlier Clue</strong>
+        <p>The family's report of irrational, out-of-context talk for 10 days prior to this acute deterioration suggests this may not be a single isolated event — it could reflect an earlier, smaller ischaemic or haemorrhagic event, evolving vascular cognitive changes, or another insidious process, which then culminated in this larger, acute deterioration. This detail is worth specifically flagging for the imaging and subsequent work-up, since it may suggest a more complex or evolving cerebrovascular picture rather than a single acute event explaining the entire 10-day history.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Blood Pressure Was Not Acutely Lowered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Permissive Hypertension Before a Diagnosis Is Established</strong>
+        <p>Current stroke guidance recommends permissive hypertension in undifferentiated acute stroke, generally tolerating blood pressure up to around 220/120 mmHg in the first 24–48 hours, provided the patient is not a candidate for acute reperfusion therapy. This patient's blood pressure on arrival (180/100 mmHg) sits within that permissive range. Acutely lowering blood pressure before knowing whether this is an ischaemic or haemorrhagic stroke carries real risk: in ischaemic stroke, aggressive BP lowering can worsen cerebral perfusion to already-compromised tissue, while in haemorrhagic stroke, the evidence for benefit from very early intensive BP lowering is more nuanced and should ideally be guided once the diagnosis and haematoma characteristics are known.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Will Need to Be Revisited After CT</strong>
+        <p>If imaging confirms intracerebral haemorrhage, more active blood pressure lowering (generally targeting a systolic blood pressure around 140 mmHg, if presenting within a few hours of onset and without contraindication) becomes appropriate and has shown benefit for reducing haematoma expansion. If imaging confirms ischaemic stroke and the patient is not a candidate for thrombolysis, permissive hypertension generally continues. This is a clear example of how the correct blood pressure strategy is diagnosis-dependent, and why imaging genuinely needs to come first rather than treating blood pressure reflexively based on the number alone.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Mannitol Was Still Given Despite Awaiting Imaging</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Clinical Signs of Raised Intracranial Pressure Justify Acting Before the Scan</strong>
+        <p>While imaging findings alone should not trigger mannitol without clinical correlation, this patient has multiple clinical features suggesting raised intracranial pressure or impending herniation: a GCS of 7/15, sluggishly reactive pupils, and a right gaze preference. In this setting, mannitol as a temporising measure is a reasonable emergency bridge while definitive imaging is urgently arranged, rather than something that must wait for a scan result — the clinical signs of likely raised ICP are themselves the indication, recognising that mannitol has not been proven in randomised trials to improve overall long-term stroke outcomes, but is still widely used as bridging therapy for clinically apparent raised ICP or signs of impending herniation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Should Be Reassessed, Not Continued Indefinitely</strong>
+        <p>Once CT results are available, the ongoing need for mannitol should be reassessed against the actual findings — confirmed haemorrhage with mass effect, evidence of herniation, or significant midline shift would support continued use, whereas a smaller infarct without significant oedema would not justify ongoing osmotic therapy. Mannitol carries real risks of its own, including acute kidney injury and electrolyte disturbance, so it should not be continued by default once the clinical picture is clarified.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Airway and Level of Consciousness Take Priority</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">A GCS of 7 Is a Genuine Airway Concern</strong>
+        <p>A Glasgow Coma Scale score of 7/15 places this patient at significant risk of being unable to protect his own airway, independent of the underlying stroke subtype. This should prompt an active, ongoing assessment of airway protection — not simply "maintain airway" as a passive instruction — with a low threshold for intubation if airway reflexes are compromised, since aspiration and hypoxia are immediately life-threatening complications that can be prevented with timely intervention.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Feeding via NGT Should Wait for Airway Security</strong>
+        <p>Passing a nasogastric tube for feeding and medications is appropriate in a patient who cannot swallow safely, but in a patient with a GCS this low, airway protection should be addressed and secured first — feeding into an unprotected airway risks aspiration, which would compound an already critical situation.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Rest of the Supportive Care Plan Is Built the Way It Is</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Head Positioning and DVT Prophylaxis</strong>
+        <p>Nursing the patient at 30° head-up helps optimise venous drainage from the head and can assist with intracranial pressure control, and is a simple, low-risk measure appropriate from the outset regardless of final diagnosis. TED stockings and regular turning address the very real risk of venous thromboembolism and pressure injury in an immobile, unconscious patient, both of which are common and preventable complications in prolonged stroke admissions.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Definitive Stroke Protocol Waits for Imaging</strong>
+        <p>Decisions central to stroke-specific treatment — thrombolysis eligibility, anticoagulation or antiplatelet therapy, and target blood pressure — cannot be safely made until haemorrhagic stroke has been excluded by CT. Giving antiplatelet or thrombolytic therapy to a patient who turns out to have an intracerebral haemorrhage would be catastrophic, which is why the urgent CT scan is correctly positioned as the gateway investigation that determines the entire subsequent treatment pathway.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Broader Investigation Panel Still Matters</strong>
+        <p>While the CT scan is the most urgent single investigation, the wider panel — full blood count, renal function, lipid profile, HbA1c, ECG, echocardiography — remains important for establishing this patient's overall cardiovascular risk profile (especially relevant given his previously undiagnosed hypertension), identifying any contributing or complicating factors such as renal impairment or cardiac arrhythmia (e.g. atrial fibrillation as a source of embolic stroke), and planning secondary prevention once the acute picture is stabilised.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Neck stiffness and a positive Brudzinski sign are not specific to meningitis — in an afebrile patient with an acute stroke syndrome, they more likely reflect meningeal irritation from intracranial haemorrhage. Do not start empiric antibiotics on meningeal signs alone without supporting evidence of infection.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Tolerate blood pressure up to around 220/120 mmHg in undifferentiated acute stroke before imaging — acute BP lowering before knowing haemorrhagic versus ischaemic status can worsen outcomes in either direction.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>A GCS of 7 demands active airway assessment, not a passive "maintain airway" order — have a low threshold for securing the airway before pursuing NGT feeding or other interventions that assume airway safety.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Mannitol can be justified before imaging when there are clear clinical signs of raised intracranial pressure (depressed GCS, sluggish pupils, gaze preference) — but should be reassessed against actual CT findings once available, not continued indefinitely by default.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Never start thrombolysis, antiplatelet, or anticoagulant therapy before imaging has excluded haemorrhage — the CT scan is the gateway investigation that determines the entire subsequent treatment pathway.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Previously undiagnosed hypertension presenting first as a catastrophic stroke remains common in Nigeria, reflecting limited routine BP screening and poor health-seeking behaviour — every stroke admission is an opportunity to counsel families on the importance of regular blood pressure checks for at-risk relatives.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Heart Association / American Stroke Association (AHA/ASA) Guideline for the Early Management of Patients with Acute Ischemic Stroke.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Heart Association / American Stroke Association (AHA/ASA) Guideline for the Management of Spontaneous Intracerebral Hemorrhage.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Stroke Organisation (ESO) Guidelines on Blood Pressure Management in Acute Ischaemic Stroke and Intracerebral Haemorrhage.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Stroke (American Heart Association journal), clinical guideline literature on blood pressure management, mannitol use, and acute stroke care.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews, mannitol for acute stroke and related neurocritical care interventions.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on evaluation of meningeal signs, intracerebral haemorrhage, and acute stroke management.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — meningism, Brudzinski's sign, and related bedside neurological examination topics.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Nigerian Society of Neurological Sciences / West African College of Physicians clinical practice guidance on stroke management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-1',
+    title: 'Acute STEMI',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology Clinic',
+    condition: 'ST Elevation Myocardial Infarction',
+    symptoms: ['Chest pain', 'Crushing chest pain', 'Sudden-onset chest pain', 'Febrile illness', 'Tachycardia'],
+    contributor: 'Admin',
+    lastModified: '2026-07-01',
+    summary: '51-year-old man with anterolateral STEMI presenting as a late presenter (chest pain onset approximately 48 hours prior), on a background of poorly controlled hypertension. Outside the standard reperfusion window for fibrinolysis, but urgent angiography with a view to PCI remains appropriate given ongoing symptoms and severe hypertension. Management includes dual antiplatelet therapy, high-intensity statin, and careful correction of antihypertensive therapy to avoid dual RAAS blockade.',
+    content: `Patient seen
+51-year-old man presented with
+
+Chest pain × 2 days.
+
+He was in his usual state of health until 2 days prior to presentation when he developed central, sudden-onset, crushing chest pain, non-radiating, graded 10/10, starting a few minutes after an altercation with his son. No known aggravating or relieving factors.
+Four days before chest pain onset, patient had a febrile illness treated at a private hospital with antimalarials and antibiotics. No previous history of similar symptoms. No cough, sweating, calf swelling or pain, palpitations, orthopnea, PND, vomiting, or abdominal pain.
+
+Patient is a known hypertensive for 5 years, on Tab Vasoprin, Amlodipine, Bondomet, and Lisinopril with fair compliance.
+No diabetes, seizure disorder, or asthma.
+Does not smoke or consume alcohol.
+
+At onset, patient presented to a referring facility where he was managed for Plasmodiasis. On presentation at our facility, ECG showed Acute STEMI, Sinus Tachycardia, Anterolateral ST Elevation, suggestive of acute infarct.
+
+Admitting vitals:
+BP 177/123 mmHg
+PR 112 bpm
+
+O/E:
+Middle-aged man, in moderate painful distress, anicteric, acyanosed, afebrile, no pedal edema
+
+CVS:
+PR 112 bpm,
+LCB+,
+BP 150/80 mmHg,
+HS S1 & S2 heard
+
+Chest:
+RR 26 cpm,
+SpO₂ 98% room air,
+Vesicular breath sounds
+
+ABD:
+Full, MWR,
+No tenderness,
+No organomegaly,
+L0S0K0
+
+CNS:
+Conscious,
+OTPP,
+GCS 15/15,
+No meningeal signs,
+Normal tone,
+Full power in all limbs
+
+ASSESSMENT
+Acute coronary syndrome — ST Elevation Myocardial Infarction (STEMI), anterolateral, in a late-presenting patient (symptom onset approximately 48 hours prior to presentation), on a background of poorly controlled hypertension.
+
+PLAN
+
+Admit to ICU/coronary care unit for continuous cardiac monitoring.
+
+Urgent cardiology referral for coronary angiography with a view to PCI. Although this patient presents outside the standard 12-hour primary reperfusion window, current guidance supports considering angiography with follow-on PCI in late presenters (12–48 hours), particularly given ongoing chest pain and markedly elevated admission blood pressure — this referral should not be delayed pending other results.
+
+Investigations
+FBC, E/U/Cr, fasting lipid profile, LFT, urinalysis, urine MCS, HbA1c
+Troponin I and T (serial), CXR, abdominopelvic ultrasound, repeat ECG in 12 hours, echocardiogram
+
+Antiplatelet and Antithrombotic Therapy
+Tab Aspirin 300 mg stat, then 75 mg daily
+Tab Clopidogrel 300–600 mg loading dose, then 75 mg daily (ticagrelor or prasugrel preferred where available and not contraindicated; clopidogrel used here as the more widely accessible option)
+SC Enoxaparin (Clexane) 40 mg twice daily, dose-adjusted per renal function and bleeding risk
+
+Lipid-Lowering Therapy
+Tab Atorvastatin 80 mg nocte (high-intensity statin dosing; started promptly rather than at a moderate-intensity dose)
+
+Symptom Control and Supportive Care
+Tab Vastarel (trimetazidine) 35 mg twice daily
+IV Morphine titrated cautiously for pain if required, in small increments, monitoring blood pressure and respiratory status closely (morphine should not delay or be substituted for definitive reperfusion strategy, and may reduce absorption/effect of oral P2Y12 inhibitors)
+Commence supplemental oxygen only if SpO₂ falls below 90–94%; not indicated routinely while SpO₂ remains 98% on room air
+IV Rabeprazole 20 mg twice daily for gastrointestinal protection given dual antiplatelet therapy
+
+Blood Pressure and Cardiac Remodelling Therapy
+Discontinue Lisinopril for now given markedly elevated admission BP (177/123 mmHg); reintroduce an ACE inhibitor (preferred over an ARB in anterior STEMI) once blood pressure and renal function allow, generally within the first 24 hours if no contraindication
+Tab Bisoprolol 2.5 mg daily, titrating cautiously, once haemodynamically stable and no contraindications (e.g. acute heart failure, bradycardia, hypotension)
+Do not add an ARB (e.g. telmisartan) alongside an ACE inhibitor — combining both increases the risk of hyperkalaemia and renal impairment without added cardiovascular benefit
+Continue Amlodipine for now for additional blood pressure control if needed, reviewing necessity once ACE inhibitor and beta-blocker are established
+
+Monitoring
+Strict input/output monitoring
+Continuous cardiac monitoring with serial ECGs
+Monitor blood pressure closely given presenting hypertensive urgency in the context of acute MI
+
+Other
+Dietary counselling
+Counsel patient and family on diagnosis, the rationale for urgent angiography despite later presentation, and overall management plan
+`,
+    documentation: `
+<div class="space-y-6">
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Patient Is a "Late Presenter" — and Why That Changes Everything</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Critical Timing Detail</strong>
+        <p>This patient's chest pain began approximately 48 hours before presentation, not 48 minutes. This single detail fundamentally reframes the case: standard STEMI teaching centres on the urgency of reperfusion within 12 hours of symptom onset, with primary PCI preferred if deliverable within 120 minutes of diagnosis, and fibrinolysis as an alternative if PCI is not rapidly available. This patient falls well outside that window, placing him in the "late presenter" category (12–48 hours, and in this case at the outer edge of it).</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Fibrinolysis Is No Longer an Option</strong>
+        <p>Fibrinolytic therapy has shown no benefit when given between 12 and 24 hours after symptom onset, and current guidance specifically advises against administering fibrinolysis to patients whose symptoms began more than 24 hours earlier. This patient, at roughly 48 hours, is well outside any window where thrombolysis would be appropriate — this is not a treatment option to reach for here, even as a fallback if PCI access is delayed.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Angiography and PCI Remain Worth Pursuing Urgently</strong>
+        <p>Despite the delayed presentation, current cardiology guidance supports primary PCI for STEMI patients presenting between 12 and 24 hours if there is clinical or ECG evidence of ongoing ischaemia, and considers routine PCI reasonable even out to 12–48 hours in appropriately selected, haemodynamically stable patients. This patient has ongoing chest pain at presentation and a markedly elevated blood pressure (177/123 mmHg) — both features that support pursuing urgent angiography rather than deferring or downgrading the urgency of cardiology referral simply because the strict 12-hour window has passed. The benefit of opening the artery diminishes with time but does not disappear, and substantial myocardial salvage can still occur with PCI performed in this 12–48 hour window.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Diagnosis Is STEMI, and a Note on the Preceding Illness</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reading the Presentation</strong>
+        <p>Central, sudden-onset, severe (10/10), non-radiating crushing chest pain in a man with established hypertension, occurring at emotional stress (an altercation), together with ECG findings of anterolateral ST elevation and sinus tachycardia, is a classic STEMI presentation. The absence of cough, calf swelling, or pleuritic features helps make pulmonary embolism and other chest pain mimics less likely, though these were appropriately screened for.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Preceding Febrile Illness Is Likely Incidental, Not Causative</strong>
+        <p>The febrile illness four days before chest pain onset, treated with antimalarials and antibiotics at a private facility, was almost certainly a separate, self-limiting infective episode rather than a direct cause of this myocardial infarction. It is worth documenting clearly, since acute illness and physiological stress can be a trigger for plaque rupture in a vulnerable patient, but it should not be allowed to distract from or delay recognising and treating the STEMI itself, which is the dominant and life-threatening problem here.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Dual Antiplatelet Therapy, Not Aspirin Alone</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Core Principle</strong>
+        <p>Reperfusion therapy for STEMI is paired with dual antiplatelet therapy (DAPT) — aspirin plus a P2Y12 inhibitor — as the cornerstone of antithrombotic management, regardless of whether the patient proceeds to primary PCI or is managed medically while awaiting angiography. Aspirin alone, as in the original plan, leaves out a critical component of standard STEMI care; the P2Y12 inhibitor should be added without waiting for the cardiology team to physically arrive, since earlier platelet inhibition improves outcomes.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ticagrelor or Prasugrel Are Preferred, With Clopidogrel as the Practical Alternative</strong>
+        <p>Current cardiology guidelines favour the more potent P2Y12 inhibitors, ticagrelor or prasugrel, over clopidogrel for most STEMI patients undergoing PCI, given their faster onset and greater platelet inhibition. Clopidogrel (300–600 mg loading dose, then 75 mg daily) remains an appropriate and effective choice specifically when ticagrelor or prasugrel are unavailable or contraindicated — a realistic and common scenario in many Nigerian hospital pharmacies — and should not be withheld simply because it is not the "preferred" agent on paper; the priority is starting an effective P2Y12 inhibitor promptly, not waiting for a specific drug to become available.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Low-Molecular-Weight Heparin Continues Alongside DAPT</strong>
+        <p>Anticoagulation with a low-molecular-weight heparin such as enoxaparin remains part of standard antithrombotic management in STEMI alongside antiplatelet therapy, reducing the risk of further thrombus formation while definitive revascularisation is arranged. Dose should be adjusted for renal function and bleeding risk, particularly relevant here given this patient's significantly elevated blood pressure on admission.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Statin Dose Was Increased</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Atorvastatin 20 mg Is Only Moderate Intensity</strong>
+        <p>Atorvastatin doses of 10–20 mg are classified as moderate-intensity statin therapy; high-intensity therapy — the standard recommended for all patients following an acute coronary syndrome — requires atorvastatin 40–80 mg (or an equivalent high-intensity dose of another statin, such as rosuvastatin 20–40 mg). High-intensity statin therapy started as early as possible after presentation, ideally before any planned PCI, has been associated with improved outcomes including reduced periprocedural myocardial infarction and major adverse cardiac events in multiple trials. The original 20 mg dose should be increased to 80 mg to meet this standard, rather than treated as an adequate starting dose to be up-titrated later.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Blood Pressure Medications Needed Correcting</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Problem With Withholding Lisinopril While Adding Telmisartan</strong>
+        <p>The original plan withheld Lisinopril (an ACE inhibitor) given the markedly elevated admission blood pressure, which is a reasonable initial caution — but then added Telmisartan (an angiotensin receptor blocker) as a new agent. Combining an ACE inhibitor and an ARB is specifically not recommended in current guidance, as dual renin-angiotensin-aldosterone system (RAAS) blockade increases the risk of hyperkalaemia and renal impairment without conferring additional cardiovascular benefit. If Lisinopril were later resumed without explicitly stopping Telmisartan, this patient would end up on both simultaneously — an avoidable and genuinely dangerous prescribing error. The clearer approach is to withhold the ACE inhibitor temporarily and not introduce an ARB at all, rather than substituting one RAAS-acting drug for another.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why an ACE Inhibitor, Not an ARB, Should Be Reintroduced</strong>
+        <p>For STEMI, particularly anterior STEMI as in this patient, an ACE inhibitor started within the first 24 hours (once haemodynamically appropriate) is the guideline-preferred agent for limiting adverse cardiac remodelling, with the strongest evidence base specifically for ACE inhibitors in this setting. ARBs are generally reserved for patients who cannot tolerate an ACE inhibitor (e.g. due to cough or angioedema), not used as a routine first choice or run in parallel with one.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Beta-Blocker Dosing Was Adjusted</strong>
+        <p>An oral beta-blocker is recommended within 24 hours of presentation in the absence of contraindications such as acute heart failure, cardiogenic shock, or bradycardia. Starting at a lower dose (e.g. bisoprolol 2.5 mg daily) and titrating up, rather than starting directly at 5 mg in a patient who is currently tachycardic and markedly hypertensive but whose haemodynamic trajectory is not yet fully established, is a more cautious approach, particularly given this patient has not yet undergone angiography to clarify the extent of myocardial damage and left ventricular function.</p>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Oxygen and Morphine Are Used More Selectively Than in the Original Plan</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Routine Supplemental Oxygen Is Not Recommended</strong>
+        <p>Current guidance specifically advises against routine oxygen administration in STEMI patients who are not hypoxic, reserving supplemental oxygen for those with oxygen saturation below the 90–94% range. This patient's SpO₂ of 98% on room air means oxygen is not indicated at this time, and should only be started if saturation falls.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Morphine Should Be Used Cautiously, Not Routinely</strong>
+        <p>While morphine remains an option for pain relief in STEMI, it should be used cautiously and in small titrated increments rather than as a routine fixed-dose order, since it can lower blood pressure and has been associated with reduced absorption and delayed onset of oral P2Y12 inhibitors when given concurrently. Pain control matters for patient comfort, but it should never substitute for or delay the more important priority of arranging definitive reperfusion.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always calculate actual time from symptom onset to presentation precisely — "2 days" of chest pain is a fundamentally different clinical scenario from "2 hours," and this single detail should reshape the entire management plan, not just be noted in passing.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Late presentation (beyond 12–24 hours) rules out fibrinolysis but does not rule out angiography and PCI — urgent cardiology referral remains appropriate, especially with ongoing symptoms or haemodynamic instability.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Never combine an ACE inhibitor and an ARB — this is a recurring, avoidable prescribing error with real hyperkalaemia and renal risk. If one RAAS-acting drug is withheld, do not substitute the other class as a workaround.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Start DAPT (aspirin plus a P2Y12 inhibitor) and a high-intensity statin promptly in any confirmed ACS — these should not wait for cardiology review, and a moderate-intensity statin dose is not an adequate substitute for high-intensity dosing.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Reserve oxygen for documented hypoxia (generally SpO₂ below 90–94%) — routine oxygen in normoxic STEMI patients is not recommended and is not a benign default order.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>In settings where ticagrelor or prasugrel are not reliably available, clopidogrel remains an effective and appropriate P2Y12 inhibitor — prioritise starting an effective agent promptly over waiting for the "preferred" drug to become available.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Society of Cardiology (ESC) Guidelines for the Management of Acute Coronary Syndromes, 2023.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Cardiology / American Heart Association (ACC/AHA) Guideline for the Management of Patients with Acute Coronary Syndromes, latest edition.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) Guidance NG185, Acute Coronary Syndromes.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Journal of the American College of Cardiology (JACC), peer-reviewed clinical reviews and guideline summaries on STEMI management and late presentation.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Circulation (American Heart Association journal), STEMI management guideline literature.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews, antiplatelet and statin therapy in acute coronary syndromes.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on STEMI management, late-presenting myocardial infarction, and dual antiplatelet therapy.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Nigerian Cardiac Society / West African College of Physicians clinical practice guidance on acute coronary syndrome management, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+`,
+    bookmarkCount: 0
+  },
 {
   id: 'im-01',
   title: 'Acute Gastroenteritis with Moderate Dehydration',
@@ -5481,6 +10408,2164 @@ Not yet available
 
 
 // General Outpatient
+{
+  id: 'gopd-03',
+  title: 'Allergic Contact Dermatitis in an Elderly Hypertensive Patient',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Allergic Contact Dermatitis',
+  symptoms: [
+    'Pruritic rash',
+    'Neck rash',
+    'Upper limb rash',
+    'Contact dermatitis',
+    'Herbal cosmetic exposure'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: '70-year-old hypertensive woman presenting with a 2-week history of intensely pruritic erythematous rash over the neck and upper limbs following the use of new herbal cosmetic products.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+A 70-year-old retired civil servant, Yoruba, Christian, resident of Bodija, Ibadan, Oyo State.
+
+PC:
+Itchy rashes on the neck and upper limbs × 2 weeks.
+
+HPC:
+She was apparently well until about 2 weeks prior to presentation when she developed an insidious onset of itchy skin rash over the posterior aspect of the neck. Over the following few days, the rash gradually spread to involve the extensor surfaces of both forearms and the dorsum of both hands.
+
+The rash is intensely pruritic, with itching worse at night and during hot weather, resulting in significant sleep disturbance.
+
+She started using a new over-the-counter herbal soap and moisturizing cream approximately 3 weeks before the onset of symptoms.
+
+There is no previous history of similar skin lesions.
+
+There is no history of fever, joint pain, facial swelling, photosensitivity, skin peeling, oral ulcers, genital lesions, recent insect bites, or exposure to chemicals other than the new cosmetic products.
+
+PMH:
+Known hypertensive diagnosed 5 years ago, compliant on Tab Amlodipine 5 mg daily.
+No history of bronchial asthma, allergic rhinitis, childhood eczema, diabetes mellitus, chronic kidney disease, previous blood transfusions, or major surgeries.
+
+Drug History:
+Tab Amlodipine 5 mg daily.
+Recently used OTC herbal soap and moisturizing cream (discontinued 3 days prior to presentation).
+No recent use of antibiotics, NSAIDs, or herbal concoctions.
+No known drug allergies.
+
+Family/Social History:
+Married with four adult children.
+Non-smoker.
+Does not consume alcohol.
+Lives in a well-ventilated home with access to potable water.
+
+ROS:
+General:
+No fever.
+No weight loss.
+No night sweats.
+
+CNS:
+No headache.
+No dizziness.
+Sleep disturbed by itching.
+
+CVS:
+No chest pain.
+No orthopnoea.
+No paroxysmal nocturnal dyspnoea.
+
+RS:
+No cough.
+No dyspnoea.
+
+GIT:
+No abdominal pain.
+Normal bowel habits.
+
+GUT:
+No dysuria.
+No change in urine colour or volume.
+
+MSS:
+No joint pain or swelling.
+
+O/E:
+Elderly woman, comfortable, afebrile, not pale, anicteric, acyanosed, well hydrated, no significant peripheral lymphadenopathy or pedal oedema.
+
+Vitals:
+Temperature: 36.6°C
+PR: 78 bpm
+BP: 130/80 mmHg
+RR: 16 cpm
+SpO₂: 98% on room air
+
+Dermatological Examination:
+Multiple bilateral symmetrical erythematous papular rashes involving the posterior and lateral aspects of the neck, extensor surfaces of both forearms, and dorsum of both hands.
+
+Lesions have poorly defined margins with multiple excoriation marks and mild lichenification.
+
+Generalized xerosis present.
+
+No pustules, vesicles, silvery scales, target lesions, ulceration or purulent discharge.
+
+Scalp, nails, oral cavity and genital mucosa are normal.
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Chest clinically clear.
+Vesicular breath sounds bilaterally.
+
+ABD:
+Soft.
+Non-tender.
+No organomegaly.
+
+CNS:
+Conscious and alert.
+No focal neurological deficits.
+
+ASS:
+Allergic contact dermatitis secondary to herbal cosmetic use in a known hypertensive elderly woman.
+
+DDX:
+Asteatotic eczema.
+Drug-induced eruption (Amlodipine).
+Senile pruritus with secondary neurodermatitis.
+
+PLAN:
+Investigations:
+FBC.
+Random Blood Sugar.
+E/U/Cr.
+Skin scraping for KOH microscopy if lesions persist.
+
+Management:
+Discontinue the suspected herbal soap and moisturizing cream.
+Avoid identified triggers.
+Use lukewarm water for bathing.
+Avoid vigorous scrubbing.
+Use mild non-perfumed soap or soap substitute.
+Apply liberal emollients (plain white petroleum jelly or aqueous cream) immediately after bathing.
+Keep fingernails short and clean.
+
+Medications:
+Hydrocortisone 1% cream, apply sparingly to affected areas twice daily for 1 week.
+Tab Loratadine 10 mg nocte for 1 week.
+
+Follow-up:
+Review in General Outpatient Clinic after 1 week.
+Return immediately if worsening erythema, pain, warmth or purulent discharge develops, suggesting secondary bacterial infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-01',
+  title: 'Allergic Contact Dermatitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Allergic Contact Dermatitis',
+  symptoms: [
+    'Pruritic rash on both hands and forearms',
+    'Erythematous plaques',
+    'Vesicular lesions',
+    'Burning sensation',
+    'Mild swelling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: 'A 28-year-old female hairdresser presented with a 10-day history of pruritic erythematous vesicular rash involving both hands and forearms following occupational exposure to a new hair dye and latex gloves, consistent with allergic contact dermatitis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 28-year-old single female hairdresser from Abeokuta, Ogun State, Christian, Yoruba, who presented herself as a reliable informant.
+
+PC:
+Itchy rash on both hands and forearms × 10 days.
+
+HPC:
+The patient was apparently well until about ten days prior to presentation when she developed intense itching over the dorsum of both hands shortly after changing to a new brand of hair dye and wearing latex gloves for prolonged periods while working.
+
+The itching was initially mild but progressively worsened over the following two days and was soon followed by the appearance of redness and multiple small raised lesions over both hands. The rash gradually spread to involve the wrists and distal forearms, corresponding to areas that came into direct contact with the gloves and hair dye.
+
+The lesions became associated with mild swelling and occasional clear fluid-filled vesicles, some of which ruptured following scratching, leaving superficial crusts. She reports burning discomfort but no severe pain.
+
+The symptoms worsen during work and improve slightly on weekends when she has less exposure to the suspected irritants.
+
+She has applied an over-the-counter antifungal cream without improvement.
+
+There is no history of fever.
+There is no purulent discharge.
+There is no ulceration.
+There is no similar rash elsewhere on the body.
+There is no history of recent insect bites.
+There is no exposure to individuals with similar skin lesions.
+She denies recent use of new medications.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+No malaise.
+
+Dermatological:
+Pruritic erythematous rash.
+Occasional vesicles.
+Mild swelling.
+No skin ulceration.
+No purulent discharge.
+
+Respiratory:
+No cough.
+No wheezing.
+No shortness of breath.
+
+ENT:
+No facial swelling.
+No throat tightness.
+
+Gastrointestinal:
+No nausea.
+No vomiting.
+
+Musculoskeletal:
+No joint pain.
+No muscle weakness.
+
+PMH:
+No hypertension.
+No diabetes mellitus.
+No chronic kidney disease.
+History of mild childhood eczema which resolved.
+No previous admissions.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+Previously used topical clotrimazole cream without benefit.
+No regular medications.
+No known drug allergies.
+
+Allergy History:
+Reports itching after wearing certain latex gloves in the past.
+No food allergies.
+No history of anaphylaxis.
+
+Family History:
+Mother has atopic dermatitis.
+No family history of psoriasis.
+
+Social History:
+Hairdresser for six years.
+Frequently handles hair dyes, shampoos, bleaching agents and detergents.
+Lives alone.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+
+General Examination:
+Young woman.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Afebrile.
+Well hydrated.
+No peripheral lymphadenopathy.
+
+Vital Signs:
+Blood Pressure: 116/72 mmHg
+Pulse Rate: 78 beats/minute, regular
+Respiratory Rate: 16 cycles/minute
+Temperature: 36.7°C
+SpO₂: 99% on room air
+Weight: 64 kg
+Height: 1.66 m
+BMI: 23.2 kg/m²
+
+Dermatological Examination:
+Multiple ill-defined erythematous plaques involving the dorsum of both hands, wrists and distal forearms.
+
+Numerous excoriation marks present.
+
+Few small intact vesicles noted over the dorsal aspects of the fingers.
+
+Minimal serous crusting.
+
+Mild oedema of the affected skin.
+
+No pustules.
+No abscess.
+No cellulitis.
+No ulceration.
+No skin necrosis.
+
+Palms, soles, scalp, nails and mucous membranes are normal.
+
+No evidence of secondary bacterial infection.
+
+Systemic Examination:
+
+Cardiovascular:
+Pulse regular.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+Chest expands symmetrically.
+Normal vesicular breath sounds.
+No added sounds.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+Bowel sounds present.
+
+Central Nervous System:
+Conscious.
+Alert.
+Oriented.
+No focal neurological deficits.
+
+Assessment:
+Allergic contact dermatitis involving both hands and forearms secondary to occupational exposure to hair dye and latex gloves.
+
+Differential Diagnoses:
+Irritant contact dermatitis.
+Atopic dermatitis.
+Dyshidrotic eczema.
+Tinea manuum.
+Scabies (unlikely).
+
+Investigations:
+
+Routine:
+None required for diagnosis in uncomplicated cases.
+
+If Symptoms Persist or Recur:
+Complete Blood Count.
+Fasting Blood Sugar (if recurrent infection or poor healing).
+Patch testing to identify the responsible allergen.
+Skin scraping for fungal microscopy and culture if tinea is suspected.
+Bacterial swab for microscopy, culture and sensitivity if secondary infection develops.
+
+Plan:
+
+General Measures:
+Identify and avoid the offending allergen.
+Discontinue use of the new hair dye pending evaluation.
+Replace latex gloves with nitrile gloves or other non-latex alternatives.
+Minimize prolonged exposure to detergents and chemicals.
+Wear cotton glove liners beneath protective gloves where feasible.
+Apply fragrance-free emollients frequently, especially after hand washing.
+Use mild, non-perfumed soap substitutes.
+Avoid scratching to reduce skin trauma and secondary infection.
+
+Medications:
+
+Topical Corticosteroid (Preferred):
+Mometasone furoate 0.1% cream.
+Apply a thin layer to affected areas once daily for 10–14 days.
+
+Alternative Options:
+Betamethasone valerate 0.1% cream.
+Apply twice daily for 7–14 days.
+
+or
+
+Hydrocortisone 1% cream.
+Apply twice daily for 7–14 days for mild disease or sensitive skin areas.
+
+Oral Antihistamine:
+Tab Cetirizine 10 mg orally at night for 14 days.
+
+If itching is severe and affects sleep:
+Tab Chlorpheniramine 4 mg orally every 8 hours as required, with counselling regarding possible drowsiness.
+
+Emollient:
+White soft paraffin/liquid paraffin (50:50) cream.
+Apply liberally at least 4–6 times daily and immediately after hand washing.
+
+Alternatively:
+A ceramide-containing moisturizer may be used if available.
+
+If Secondary Bacterial Infection Develops:
+Tab Flucloxacillin 500 mg orally every 6 hours for 5–7 days.
+
+If penicillin-allergic:
+Tab Clindamycin 300 mg orally every 6 hours for 5–7 days.
+
+Only prescribe antibiotics if there is clinical evidence of secondary infection.
+
+Patient Education:
+Explain that contact dermatitis is an inflammatory skin reaction caused by direct contact with an irritant or allergen.
+
+Advise that complete avoidance of the triggering substance is the most effective long-term treatment.
+
+Demonstrate the correct amount of topical steroid to apply using the fingertip unit method.
+
+Advise against prolonged unsupervised use of potent topical steroids because of the risk of skin thinning and other adverse effects.
+
+Stress the importance of regular use of emollients even after symptoms improve to restore the skin barrier.
+
+Follow-up:
+Review in the Dermatology or General Outpatient Clinic in 2 weeks to assess symptom resolution and treatment adherence.
+
+If symptoms recur despite avoidance measures, arrange patch testing to identify the responsible allergen.
+
+Earlier review is advised if there is worsening rash, increasing pain, fever, purulent discharge or rapidly spreading redness suggestive of secondary bacterial infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-05',
+  title: 'Pelvic Inflammatory Disease',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Infectious Disease',
+  condition: 'Pelvic inflammatory disease (lower abdominal pain syndrome) likely secondary to ascending gonococcal and/or chlamydial infection in a sexually active young woman',
+  symptoms: [
+    'Bilateral lower abdominal pain',
+    'Purulent foul-smelling vaginal discharge',
+    'Fever',
+    'Deep dyspareunia',
+    'Dysuria',
+    'Cervical motion tenderness',
+    'Bilateral adnexal tenderness',
+    'Mucopurulent discharge at the cervical os',
+    'Multiple sexual partners, inconsistent condom use'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-01',
+  summary: 'Miss C.O., a 24-year-old single nulliparous student presenting with a 5-day history of bilateral lower abdominal pain worsening with movement and intercourse, 4-day history of yellowish foul-smelling vaginal discharge, and 3-day history of low-grade fever with malaise. Multiple sexual partners, inconsistent condom use, and previous untreated vaginal discharge. Febrile (38.2°C), with suprapubic tenderness, cervical motion tenderness, bilateral adnexal tenderness, and mucopurulent endocervical discharge on examination. Diagnosis: pelvic inflammatory disease. Ectopic pregnancy must be excluded before treatment is commenced.',
+  content: `Miss C.O., a 24-year-old single student, resident in Ibadan, Oyo State, Yoruba. Tertiary level education.
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Lower abdominal pain × 5 days
+Abnormal vaginal discharge × 4 days
+Fever × 3 days
+
+HISTORY OF PRESENTING COMPLAINT
+The patient was apparently well until about 5 days prior to presentation when she developed pain in the lower abdomen. The pain was initially mild but has progressively worsened. It affects both sides of the lower abdomen, is dull and aching in nature, occasionally becoming sharper, with no clear radiation. The pain is made worse by movement and during sexual intercourse, and is partially relieved by rest.
+
+About a day after the pain started, she noticed an abnormal vaginal discharge — yellowish in colour, moderate in amount, with an unpleasant smell, soiling her underwear and causing discomfort around the vaginal area.
+
+Three days before presentation she developed fever — low to moderate grade, intermittent, with general tiredness and feeling unwell.
+
+She also reports pain during sexual intercourse, particularly felt deep inside the pelvis. She has noticed some burning when passing urine but no increased frequency or urgency.
+
+No missed period, no abnormal vaginal bleeding, no fainting, and no pain at the tip of the shoulder.
+
+She is sexually active with multiple partners and uses condoms inconsistently. She has no prior similar episodes but admits to a previous episode of vaginal discharge that she did not seek treatment for.
+
+MENSTRUAL HISTORY
+Menarche at 13 years
+Regular 28-day cycle, 5-day flow
+Moderate flow, no painful periods
+LMP: 2 weeks ago
+
+OBSTETRIC HISTORY
+Nulliparous
+
+CONTRACEPTIVE HISTORY
+Not currently using any contraceptive method
+
+SEXUAL HISTORY
+Sexually active
+Multiple sexual partners
+Inconsistent condom use
+
+PAST GYNAECOLOGICAL HISTORY
+Previous untreated vaginal discharge — no formal diagnosis made
+No prior STI diagnosis
+No history of pelvic surgery
+
+PAST MEDICAL HISTORY
+Not a known hypertensive or diabetic
+
+DRUG HISTORY
+No treatment taken for the current illness prior to presentation
+No known drug allergies
+
+FAMILY HISTORY
+Non-contributory
+
+SOCIAL HISTORY
+Student, lives in a shared apartment
+Does not smoke or take alcohol
+
+REVIEW OF SYSTEMS
+General: fever and general malaise present
+Genitourinary: as above
+Gastrointestinal: no vomiting, no change in bowel habits
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young woman, mildly ill-looking
+Febrile (38.2°C)
+Not pale, not icteric
+Not dehydrated
+
+Vital Signs:
+Temperature: 38.2°C
+Pulse: 96 bpm
+BP: 110/68 mmHg
+Respiratory rate: 20 cpm
+
+Abdominal Examination:
+Abdomen moves with respiration
+Suprapubic tenderness present
+No guarding or rebound tenderness
+No palpable masses
+
+Pelvic Examination:
+
+Inspection of External Genitalia:
+Normal vulva
+No ulcers, warts, or genital lesions
+
+Speculum Examination:
+Yellowish purulent discharge in the vaginal vault
+Cervix appears inflamed (oedematous, hyperaemic)
+Mucopurulent discharge visible at the cervical os
+
+Bimanual Examination:
+Cervical motion tenderness — marked
+Uterus normal in size but tender on palpation
+Bilateral adnexal tenderness — present
+No adnexal masses palpated
+
+ASSESSMENT
+Pelvic inflammatory disease (PID) in a sexually active young nulliparous woman, most likely caused by ascending Neisseria gonorrhoeae and/or Chlamydia trachomatis infection. Ectopic pregnancy must be excluded before treatment is commenced.
+
+Differential diagnoses considered: ectopic pregnancy, acute appendicitis, ovarian torsion, complicated ovarian cyst, urinary tract infection/pyelonephritis.
+
+PLAN
+
+Step 1 — Exclude ectopic pregnancy before commencing antibiotics:
+Urine beta-hCG (qualitative rapid test) — immediate, result in 5 minutes
+If positive: urgent pelvic ultrasound; refer to gynaecology; do not start antibiotics
+If negative: proceed with the plan below
+
+Investigations
+Urine beta-hCG (as above — mandatory first step)
+Full blood count
+ESR and CRP
+High vaginal swab and endocervical swab for MCS and Gram stain
+NAAT for Neisseria gonorrhoeae and Chlamydia trachomatis (where available)
+Pelvic ultrasound (assess for tubo-ovarian abscess and free fluid)
+HIV rapid test (with pre-test counselling)
+VDRL or RPR for syphilis
+Urinalysis
+
+Antibiotic Treatment (once beta-hCG confirmed negative):
+IM Ceftriaxone 500 mg single dose given in clinic today (diluted in 1 ml of 1% Lignocaine)
+PLUS oral Doxycycline 100 mg every 12 hours for 14 days
+PLUS oral Metronidazole 400 mg every 8 hours for 14 days
+
+Alternative if Doxycycline is unavailable or not tolerated:
+Oral Azithromycin 1 g once weekly for 2 weeks PLUS oral Metronidazole 400 mg every 8 hours for 14 days (after single IM Ceftriaxone)
+
+Supportive Care:
+Oral Paracetamol 1000 mg every 6–8 hours as needed for pain and fever
+Oral Ibuprofen 400 mg every 8 hours with food if needed for additional anti-inflammatory effect
+Adequate oral hydration
+Abstain from sexual intercourse until treatment is completed, partner has been assessed and treated, and symptoms have resolved
+
+Partner Management:
+All sexual partners in the preceding 60 days to be notified, tested, and treated
+Male partners: IM Ceftriaxone 500 mg single dose PLUS oral Azithromycin 1 g single dose
+
+Counsel patient on:
+Diagnosis, treatment, and importance of completing the full 14-day course
+Alcohol avoidance during Metronidazole course
+Sun protection during Doxycycline course
+Partner notification and treatment
+Consistent condom use and reducing number of partners to prevent recurrence
+Early presentation in future if symptoms recur
+Implications for future fertility if episodes recur or are inadequately treated
+
+Review in 72 hours (mandatory): reassess pain, fever, and discharge; review investigation results; confirm partner notification status. If not improving at 72 hours: admit for IV antibiotics; urgent pelvic ultrasound to exclude tubo-ovarian abscess; gynaecology referral.
+
+Review at completion of 14-day course: confirm symptom resolution; review NAAT, HIV, and VDRL results; confirm partners treated; reinforce safe sex counselling; discuss contraception.
+
+Repeat NAAT at 3 months to confirm cure and exclude reinfection.
+`,
+  documentation: `
+<div class="space-y-6">
+<div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Is PID and How the Diagnosis Is Made</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Definition and Clinical Criteria</strong>
+      <p>Pelvic inflammatory disease is an ascending infection of the upper female genital tract — involving the endometrium, fallopian tubes, ovaries, and potentially the peritoneal cavity — caused by organisms ascending from the lower genital tract. The CDC minimum diagnostic criteria require all three of: lower abdominal or pelvic pain, cervical motion tenderness, and uterine or adnexal tenderness. This patient satisfies all three, with additional supporting features — fever above 38°C, mucopurulent endocervical discharge, deep dyspareunia, and a clear epidemiological risk profile.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reading the Risk History</strong>
+      <p>Multiple sexual partners and inconsistent condom use are the single most important risk factors for PID, and the risk is directly proportional to the number of partners. The previous episode of untreated vaginal discharge is equally important — it almost certainly represented an earlier lower genital tract infection (cervicitis from gonorrhoea or chlamydia) that was never treated, giving organisms the opportunity to ascend over time to the upper tract. This is the primary mechanism by which PID develops.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Pathophysiology: How the Infection Ascends</strong>
+      <p>N. gonorrhoeae and C. trachomatis initially infect the endocervical columnar epithelium, often asymptomatically. Ascent to the endometrium and fallopian tubes is facilitated by menstruation — when the cervical mucus barrier is reduced and retrograde menstrual flow can propel organisms upward — and by sexual intercourse. Once in the fallopian tubes, the inflammatory response destroys the ciliated tubal epithelium. It is this ciliary destruction that underlies the most serious long-term consequences of PID: tubal factor infertility and ectopic pregnancy. In more advanced cases, infection spreads through the fimbriated ends to the pelvic peritoneum and can reach the liver capsule via the right paracolic gutter, producing the perihepatic adhesions of Fitz-Hugh–Curtis syndrome.</p>
+    </div>
+  </div>
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Ectopic Pregnancy Must Be Excluded First</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Overlap Between PID and Ectopic Pregnancy</strong>
+      <p>Lower abdominal pain, cervical motion tenderness, and adnexal tenderness occur in both PID and ectopic pregnancy. An ectopic pregnancy cannot be excluded on clinical grounds alone, regardless of how typical the PID picture appears. Tubal rupture from an ectopic pregnancy causes catastrophic intraperitoneal haemorrhage and rapid maternal death — a pregnancy test is therefore a mandatory first step, not an optional investigation.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">This Patient's Clinical Profile Is Reassuring, But Does Not Remove the Obligation</strong>
+      <p>LMP two weeks ago, no missed period, no shoulder-tip pain, no vaginal bleeding, no syncope — all make ectopic pregnancy clinically unlikely in this case. But ectopic pregnancy can occur without a missed period and with a recent apparently normal LMP. A urine beta-hCG that is negative effectively excludes clinically significant pregnancy and allows treatment to proceed. A positive result mandates urgent pelvic ultrasound and gynaecology referral before any antibiotics are started.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why the Causative Organisms Determine the Treatment Regimen</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Primary and Secondary Pathogens</strong>
+      <p>N. gonorrhoeae causes a more acute, purulent, symptomatic presentation and more rapid progression to tubo-ovarian abscess. C. trachomatis more often produces an insidious, subclinical infection but is responsible for the majority of tubal-factor infertility from PID globally. Mycoplasma genitalium is increasingly recognised as an independent cause. Alongside these sexually transmitted organisms, endogenous anaerobes — Bacteroides fragilis, Prevotella, Peptostreptococcus — and other vaginal flora ascend as co-pathogens, particularly in women with concurrent bacterial vaginosis. This polymicrobial nature is precisely why PID always requires a multi-drug regimen covering all these groups simultaneously.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Severity Assessment and Why This Patient Is Managed as an Outpatient</strong>
+      <p>This patient has mild-to-moderate PID: fever is present but moderate (38.2°C), she is haemodynamically stable, there is no peritonism (no guarding or rebound tenderness), no palpable adnexal mass suggesting tubo-ovarian abscess, and she can tolerate oral medication. Outpatient treatment is appropriate in this clinical context. Indications for admission — which are currently not met — include high fever above 39°C, haemodynamic instability, inability to tolerate oral drugs, suspected tubo-ovarian abscess, failure to respond to 72 hours of outpatient therapy, pregnancy, or an inability to exclude a surgical emergency.</p>
+    </div>
+  </div>
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Antibiotic Was Chosen</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Single-Dose IM Ceftriaxone 500 mg</strong>
+      <p>Ceftriaxone covers N. gonorrhoeae, including penicillin-resistant and quinolone-resistant strains. Giving it as a single intramuscular injection in the clinic ensures immediate systemic drug levels regardless of the patient's subsequent oral adherence — it cannot be forgotten or stopped early. It is diluted in 1% Lignocaine to reduce injection pain. This approach aligns with both WHO syndromic management guidance and FMOH standard treatment guidelines, and Ceftriaxone vials are available at all Nigerian facilities.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Oral Doxycycline 100 mg Every 12 Hours for 14 Days</strong>
+      <p>Doxycycline is first-line for C. trachomatis and Mycoplasma genitalium, achieves excellent tissue penetration into the endometrium and fallopian tubes, and is widely available and inexpensive. A full 14-day course is required for PID — the shorter courses used for uncomplicated genital chlamydia are inadequate for upper tract infection. The two key counselling points are photosensitivity (advise sun protection) and the need to take it with food and remain upright for 30 minutes to reduce oesophageal irritation. Doxycycline is absolutely contraindicated in pregnancy, which is why confirming a negative beta-hCG before prescribing is non-negotiable.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Oral Metronidazole 400 mg Every 8 Hours for 14 Days</strong>
+      <p>Metronidazole covers the anaerobic organisms that are essential co-pathogens in PID and are not covered by Ceftriaxone or Doxycycline alone. It also covers the bacterial vaginosis organisms that likely facilitated ascending infection in this patient. The 14-day co-prescription with Doxycycline is essential — omitting Metronidazole leaves a significant gap in anaerobic coverage and risks treatment failure. The two key counselling points are the metallic taste (common and transient) and the absolute alcohol contraindication during the course.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">FBC, ESR, and CRP</strong>
+      <p>Leucocytosis with neutrophilia on FBC confirms bacterial infection and guides the admission-versus-outpatient decision. ESR and CRP are markers of systemic inflammation that are elevated in PID, useful both to support the diagnosis and to monitor treatment response — both should normalise within one to two weeks of effective therapy, and failure to do so at the 72-hour review is a signal that treatment is not working.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">HVS, Endocervical Swab, and NAAT</strong>
+      <p>Swabs should ideally be collected before starting antibiotics. Gram stain of the endocervical discharge looking for gram-negative intracellular diplococci provides a rapid (though imperfect) result for gonorrhoea. Culture on Thayer-Martin medium formally identifies the organism and, critically, provides sensitivity results for managing treatment failure or recurrence. NAAT is the gold standard for both gonorrhoea and chlamydia — sensitivity above 97% — and is particularly important for chlamydia, which cannot be grown on standard culture media. A confirmed positive NAAT result also drives partner notification and guides the public health response.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Pelvic Ultrasound</strong>
+      <p>The primary purpose of ultrasound in PID is to exclude complications rather than to confirm the diagnosis — mild salpingitis is frequently not visible on ultrasound, so a normal scan does not exclude PID. It is ordered here to look for a tubo-ovarian abscess (a complex adnexal mass with internal echoes that would mandate admission and IV therapy), free fluid in the pouch of Douglas suggesting peritoneal extension, and thickened fluid-filled fallopian tubes indicating pyosalpinx.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">HIV and Syphilis Screening</strong>
+      <p>HIV-positive women have a higher risk of PID, more severe disease, more frequent tubo-ovarian abscess, and poorer response to standard antibiotic therapy. HIV testing is offered routinely in all STI presentations in Nigeria, supported through PEPFAR-funded VCT programmes. Syphilis co-infection is also part of the routine STI screen, since the organisms causing PID are transmitted through the same sexual routes as syphilis.</p>
+    </div>
+  </div>
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Differential Diagnoses Were Excluded</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Acute Appendicitis</strong>
+      <p>Appendicitis classically migrates from central to right iliac fossa, with maximal tenderness at McBurney's point, anorexia, nausea, and peritoneal signs. This patient has bilateral tenderness without guarding or rebound, no right-predominant localisation, and a strong infective/sexual history. The two can coexist and occasionally be confused, which is why ultrasound is included in the plan.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Ovarian Torsion and Complicated Ovarian Cyst</strong>
+      <p>Torsion is typically sudden-onset, severe, unilateral pain with nausea and vomiting — not the 5-day progressive bilateral pattern seen here. A complicated ovarian cyst would not produce fever, cervicitis, or cervical motion tenderness. Ultrasound will confirm absence of these structural lesions.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urinary Tract Infection</strong>
+      <p>Dysuria is present but without frequency, urgency, or costovertebral angle tenderness, and is dominated by the pelvic and cervical findings. Dysuria in PID can result from periurethral inflammation rather than true bladder infection. Urinalysis will exclude a concurrent UTI.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Partner Management and Why It Is Non-Negotiable</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why All Partners in the Last 60 Days Must Be Treated</strong>
+      <p>Treating the patient without treating her sexual partners leads directly to reinfection the moment she resumes intercourse. Partners are treated for urethral discharge syndrome — dual syndromic coverage with single-dose IM Ceftriaxone and oral Azithromycin 1 g — since the male partner almost certainly has gonococcal and/or chlamydial urethritis that may be entirely asymptomatic. Partner treatment is both a clinical and a public health obligation.</p>
+    </div>
+  </div>
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Counselling Framework</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Explaining the Diagnosis in Plain Language</strong>
+      <p>An infection has spread from the vagina upward into the womb and the fallopian tubes — the tubes that carry eggs from the ovaries. This kind of infection is called pelvic inflammatory disease, and it is most commonly caused by bacteria passed through sexual contact, though it is not necessarily a sign of infidelity; the infection may have been present for weeks before causing symptoms.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Full 14-Day Course Matters</strong>
+      <p>The fallopian tubes are delicate structures — when infected and inflamed, they can be permanently damaged even without visible symptoms. Stopping antibiotics early, even when feeling better, allows bacteria to survive inside the tubes and cause ongoing silent damage. Complete treatment is the most important action the patient can take to protect her future fertility.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Future Fertility and the Stakes of Recurrence</strong>
+      <p>After a single episode of PID treated promptly and completely, tubal infertility risk is approximately 10–12%. After three or more episodes it rises above 50%. This patient is young, nulliparous, and this is her first documented episode — her fertility prognosis is therefore good if this episode is treated fully and does not recur. Consistent condom use and early presentation with any future symptoms are the two most important things she can do to preserve that prognosis.</p>
+    </div>
+  </div>
+
+  <div class="space-y-4 text-slate-700 dark:text-slate-300">
+    <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Complications to Monitor For</h3>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Tubo-Ovarian Abscess</strong>
+      <p>A collection of pus involving the fallopian tube and ovary, requiring inpatient IV antibiotic therapy and possibly surgical or radiological drainage. Rupture causes peritonitis and septic shock — a life-threatening emergency. The 72-hour reassessment is the primary opportunity to identify failure to respond that might signal TOA formation.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Long-Term Reproductive Consequences</strong>
+      <p>Tubal factor infertility and ectopic pregnancy are the most consequential long-term sequelae. Chronic pelvic pain from adhesion formation affects roughly 20% of women following PID. Fitz-Hugh–Curtis syndrome — right upper quadrant pain from perihepatic adhesions following peritoneal extension of the infection — occurs in 10–30% of salpingitis cases and is managed with antibiotics targeting the underlying pelvic infection.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+  <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2">
+      <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+      </svg>
+      <span>Always do a pregnancy test before starting antibiotics for PID — ectopic pregnancy and PID overlap clinically, and missing an ectopic can be fatal.</span>
+    </li>
+    <li class="flex gap-2">
+      <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+      </svg>
+      <span>PID is polymicrobial — the three-drug regimen (Ceftriaxone + Doxycycline + Metronidazole) is not optional; omitting any component leaves a gap in coverage that risks treatment failure and ongoing tubal damage.</span>
+    </li>
+    <li class="flex gap-2">
+      <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+      </svg>
+      <span>A 14-day course is required for PID — the shorter courses used for uncomplicated cervicitis are inadequate for upper tract infection; emphasise this strongly to patients who feel better within days.</span>
+    </li>
+    <li class="flex gap-2">
+      <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+      </svg>
+      <span>The 72-hour review is mandatory, not optional — failure to improve by 72 hours means treatment failure, possible antibiotic resistance, or a tubo-ovarian abscess; do not discharge and re-review at two weeks.</span>
+    </li>
+    <li class="flex gap-2">
+      <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+      </svg>
+      <span>Treating the patient without treating her partners guarantees reinfection — partner management is a clinical and public health obligation, not an optional recommendation.</span>
+    </li>
+    <li class="flex gap-2">
+      <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="9" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+      </svg>
+      <span>Tubal factor infertility from recurrent or undertreated PID is the most common cause of infertility in young Nigerian women — the consequences of inadequate management are not abstract; they are the fertility of every nulliparous patient you send home without a full course and a follow-up appointment.</span>
+    </li>
+  </ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Centers for Disease Control and Prevention (CDC). Sexually Transmitted Infections Treatment Guidelines — Pelvic Inflammatory Disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization (WHO). Guidelines for the Management of Symptomatic Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for STI/HIV Prevention, Care and Treatment, and National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society of Gynaecology and Obstetrics of Nigeria (SOGON) clinical practice guidance on pelvic inflammatory disease management, where locally available.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>British Association for Sexual Health and HIV (BASHH) Guidelines for the Management of Pelvic Inflammatory Disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews, antibiotic regimens for pelvic inflammatory disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on pelvic inflammatory disease: clinical features, diagnosis, treatment, and complications.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — pelvic inflammatory disease, Fitz-Hugh–Curtis syndrome, and related topics.</li>
+    </ul>
+  </div>
+</details>
+</div>
+
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-03',
+  title: 'Urethral Discharge Syndrome — Gonococcal and Chlamydial Urethritis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Infectious Disease',
+  condition: 'Urethral discharge syndrome in a young sexually active male, likely gonococcal and/or chlamydial urethritis, managed syndromically',
+  symptoms: [
+    'Purulent urethral discharge',
+    'Burning dysuria',
+    'Urethral itching and discomfort at the penile tip',
+    'Discharge thick, yellowish, staining underwear',
+    'Unprotected sexual intercourse with a new partner 10 days prior',
+    'Multiple sexual partners, inconsistent condom use'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-06-23',
+  summary: 'Mr A.O., a 27-year-old single male trader presenting with a 5-day history of purulent urethral discharge, initially whitish and scanty then progressively thick and yellowish, and a 4-day history of burning dysuria with urethral itching. Unprotected intercourse with a new partner 10 days prior. Purulent discharge confirmed at the urethral meatus on examination. No systemic features. Diagnosis: urethral discharge syndrome, likely gonococcal and/or chlamydial urethritis. Managed syndromically with IM Ceftriaxone 500 mg plus oral Azithromycin 1 g single-dose observed dual therapy at the same visit, alongside a full STI screen including HIV, syphilis, and hepatitis serology, health education on condom use and partner reduction, and partner notification and treatment.',
+  content: `
+Mr A.O., a 27-year-old single male trader, resident in Ibadan, Oyo State, Yoruba. Secondary level education.
+
+Informant: Patient (reliable)
+
+PRESENTING COMPLAINTS
+Urethral discharge × 5 days
+Painful urination × 4 days
+
+HISTORY OF PRESENTING COMPLAINT
+The patient was apparently well until 5 days prior to presentation when he noticed a whitish discharge from the tip of the penis. The discharge was initially scanty but progressively increased in quantity, becoming thick and yellowish, staining his underwear, and more prominent in the early morning before passing urine.
+
+About a day later he developed a burning sensation on urination along the length of the penis, worst at the start of micturition, with associated itching inside the penis and mild discomfort at the tip.
+
+No haematuria, increased urinary frequency, urgency, or nocturia. No lower abdominal or loin pain. No penile sores, blisters, or swelling. No scrotal pain or swelling.
+
+He reports unprotected sexual intercourse with a new partner approximately 10 days before symptom onset. He admits to multiple sexual partners and inconsistent condom use. No prior similar symptoms. No treatment taken prior to presentation.
+
+PAST MEDICAL HISTORY
+Not a known hypertensive or diabetic.
+No previous history of sexually transmitted infections.
+
+DRUG HISTORY
+No prior antibiotic use.
+No known drug allergy.
+
+SOCIAL HISTORY
+Sexually active with multiple partners. Inconsistent condom use.
+No alcohol or recreational drug use.
+
+FAMILY HISTORY
+Non-contributory.
+
+REVIEW OF SYSTEMS
+General: no fever, no weight loss.
+Musculoskeletal: no joint pains.
+Skin: no rashes or skin lesions.
+Eyes: no redness or discharge.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young man, not in distress. Afebrile. Not pale, not icteric, not dehydrated. No peripheral lymphadenopathy.
+
+Vital Signs:
+Temperature: 36.8°C
+Pulse: 78 bpm
+BP: 118/76 mmHg
+Respiratory rate: 16 cpm
+
+Abdominal Examination:
+Flat, soft, non-tender. No suprapubic tenderness.
+
+Genitourinary Examination:
+External genitalia normal. Purulent yellowish discharge at the urethral meatus; urethral milking produces further discharge. No penile ulcers, vesicles, or warts. No scrotal swelling or tenderness. Testes normal in size and consistency bilaterally.
+
+Other Systems:
+Essentially normal.
+
+ASSESSMENT
+
+Urethral discharge syndrome — gonococcal urethritis with or without concurrent chlamydial co-infection.
+
+Differentials:
+Chlamydial urethritis
+Trichomonas vaginalis urethritis
+Mycoplasma genitalium urethritis
+Herpes simplex virus urethritis (excluded — no penile ulcers or vesicles)
+
+PLAN
+
+Investigations
+Urethral swab — Gram stain (bedside, immediate)
+Urethral swab — MCS in Stuart's/Amies transport medium with activated charcoal; transport within 4–6 hours
+NAAT for Neisseria gonorrhoeae and Chlamydia trachomatis (urethral swab or first-void urine)
+HIV rapid test with pre- and post-test counselling
+VDRL/RPR for syphilis; confirm reactive result with TPHA or FTA-ABS
+HBsAg and anti-HCV
+Urinalysis — dipstick and microscopy
+
+Treatment
+IM Ceftriaxone 500 mg single dose (reconstitute in 1 ml of 1% Lignocaine solution) — administered at this visit
+Oral Azithromycin 1 g single dose (2 × 500 mg tablets) — observed administration at this visit
+
+If Azithromycin unavailable: oral Doxycycline 100 mg twice daily × 7 days.
+If Trichomonas confirmed on microscopy: add oral Metronidazole 2 g single dose.
+If symptoms persist at 1-week review: review culture sensitivity; send NAAT for Mycoplasma genitalium; if Azithromycin-resistant Mycoplasma genitalium confirmed, oral Moxifloxacin 400 mg daily × 7–14 days.
+
+Supportive Care
+Oral Paracetamol 1000 mg every 6–8 hours as needed
+Oral Ibuprofen 400 mg every 8 hours with food
+Increase oral fluid intake to 2–2.5 litres daily
+Abstain from sexual activity until treatment complete, partner(s) treated, and symptoms resolved at review
+
+If HIV non-reactive: refer to HIV prevention clinic to discuss PrEP (oral TDF/FTC once daily)
+If syphilis confirmed: IM Benzathine Penicillin G 2.4 million units single dose
+If HBsAg negative and unvaccinated: offer Hepatitis B vaccine series (0, 1, and 6 months)
+
+Partner Notification and Treatment
+Notify all sexual partners in the 60 days preceding symptom onset. The new partner from 10 days prior is the primary contact.
+Female partner treatment: IM Ceftriaxone 500 mg single dose plus oral Azithromycin 1 g single dose — same visit, regardless of symptoms.
+Provide contact referral letter. Counsel patient on importance of partner attendance.
+
+Health Education
+Consistent condom use with every partner from the start of every sexual encounter.
+Regular STI screening every 6–12 months given multiple partners.
+Explain risk of recurrence, urethral stricture, and infertility with inadequately treated or repeated infection.
+HIV risk increased by concurrent STI — discuss risk reduction and PrEP eligibility.
+
+COMPLICATIONS
+Local: epididymo-orchitis, urethral stricture, prostatitis.
+Systemic: disseminated gonococcal infection (migratory polyarthritis, tenosynovitis, pustular skin rash) — not present at this visit.
+Reproductive: male infertility; female partner pelvic inflammatory disease, tubal infertility, ectopic pregnancy.
+
+PROGNOSIS
+Excellent with prompt dual therapy. Symptom resolution expected within 3–5 days. Risk of reinfection high without behavioural change.
+
+FOLLOW-UP
+Review at 1 week (day 7): assess symptom resolution; inspect urethral meatus; scrotal examination; review all investigation results; post-test counselling for HIV, syphilis, and hepatitis results. If symptoms resolved: reinforce partner notification and risk reduction; arrange HIV repeat test at 6 weeks if initial test was within the window period. If symptoms persist: reassess for treatment failure, reinfection, Trichomonas, or Mycoplasma genitalium.
+`,
+  documentation: `
+<div class="space-y-6">
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Syndromic Management — Why We Treat Before We Know</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Principle</strong>
+        <p>Syndromic management is not a compromise — it is a deliberate, evidence-based public health strategy endorsed by the WHO and the Nigerian Federal Ministry of Health for sexually transmitted infection care in settings where laboratory infrastructure is variable and patient follow-up is unreliable. The principle is straightforward: rather than waiting for laboratory confirmation of a specific organism, you identify the clinical syndrome (in this case, urethral discharge in a male following sexual exposure), and you treat all the organisms that commonly produce that syndrome at the same visit.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Not Wait for Results?</strong>
+        <p>Three realities drive this approach in the Nigerian setting. First, the definitive test for Chlamydia trachomatis — nucleic acid amplification testing (NAAT) — takes 24 to 48 hours and is only available at major tertiary centres and selected private molecular laboratories. If you defer treatment pending confirmation, a significant proportion of patients will not return for a second appointment; in the meantime, they remain infectious to partners and the untreated organism can begin to cause local complications. Second, treating both gonorrhoea and chlamydia simultaneously eliminates the problem of post-gonococcal urethritis — the syndrome where chlamydia, left untreated, perpetuates discharge after the gonococcal component has been cleared by antibiotics. Third, same-visit dual therapy is more cost-effective from a systems perspective: it removes the need for a follow-up prescription visit, reduces the risk of re-exposure through continued sexual activity, and interrupts the transmission chain earlier.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Five Classic STI Syndromes</strong>
+        <p>Urethral discharge syndrome is one of the five sexually transmitted infection syndromes around which syndromic management guidelines are structured. The others are vaginal discharge syndrome, genital ulcer disease, lower abdominal pain in women (used as a proxy for pelvic inflammatory disease), and inguinal bubo syndrome. Each syndrome has a defined treatment package targeting the most epidemiologically important organisms for that clinical picture in a given region. Being familiar with these five syndromes is the foundation of STI management in any outpatient or general practice setting in Nigeria.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Reading the Clinical Picture — Gonococcal vs Non-Gonococcal Urethritis</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why the Clinical Features Point Firmly to Gonorrhoea</strong>
+        <p>Even before any investigation result returns, the discharge characteristics in this case are essentially diagnostic of gonococcal urethritis to an experienced clinician. Thick, profuse, purulent, yellowish discharge with prominent morning prominence and underwear staining — this is the textbook presentation of Neisseria gonorrhoeae. The reason lies in pathophysiology: gonococci attach to and invade the columnar epithelium of the anterior urethra, triggering an exuberant neutrophilic inflammatory response. The copious purulent discharge represents this outpouring of neutrophils, bacterial debris, and mucosal secretions. Non-gonococcal urethritis, by contrast, produces a scant, mucoid, white or clear discharge — this is because Chlamydia trachomatis is an obligate intracellular organism that replicates more slowly within epithelial cells without eliciting the same degree of acute neutrophilic inflammation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Incubation Period as a Diagnostic Clue</strong>
+        <p>The timing here is instructive. The patient had unprotected intercourse 10 days before presentation, and symptoms began 5 days before he attended — placing the incubation period at 5 days. This sits squarely within the classic gonorrhoeal incubation window of 2 to 7 days. For comparison, chlamydial urethritis has an incubation period of 7 to 21 days, and Mycoplasma genitalium urethritis is similar. The short, precise incubation period in this case reinforces gonorrhoea as the primary causative organism.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Gram Stain — Your Most Powerful Bedside Tool</strong>
+        <p>In a symptomatic male with urethral discharge, the bedside Gram stain is close to definitive. When a trained observer identifies intracellular Gram-negative diplococci within polymorphonuclear leucocytes on a urethral smear, the sensitivity for gonococcal urethritis in symptomatic males is approximately 90 to 95% and the specificity is approximately 99%. No other bedside STI test comes close to this diagnostic performance. The technique is simple: a small urogenital swab or bacteriology loop is inserted 1 to 2 centimetres into the urethral meatus, rotated, smeared on a glass slide, and fixed before Gram staining. Every secondary hospital and teaching hospital in Nigeria should be able to perform this. When you see Gram-negative diplococci sitting inside neutrophils — classically described as coffee bean-shaped diplococci — the diagnosis is made. A negative Gram stain does not exclude gonorrhoea, and you should still treat and send culture and NAAT.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Chlamydia Must Always Be Treated Simultaneously</strong>
+        <p>Co-infection of gonorrhoea and chlamydia is so common — with rates of 20 to 40% in clinical studies from Nigeria and globally — that chlamydia should be considered a co-infecting organism until proven absent, not a possibility to be tested for and treated separately. Unlike gonorrhoea, chlamydia cannot be diagnosed by Gram stain; it cannot even be reliably grown on standard bacterial culture media. NAAT is the only accurate test. This means that in any Nigerian outpatient setting without on-site NAAT, you have no practical way of ruling out chlamydia on the day of presentation. The clinical and public health consequences of missing it — persistent post-gonococcal urethritis, asymptomatic transmission to partners, and the progressive complications of untreated chlamydial infection — are significant enough that empirical co-treatment is the correct default for every patient with urethral discharge syndrome regardless of what the Gram stain shows.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The Organisms — Microbiology You Need to Know</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Neisseria gonorrhoeae</strong>
+        <p>Neisseria gonorrhoeae is a Gram-negative intracellular diplococcus — one of the few bacteria capable of surviving and replicating inside human neutrophils, the primary cellular defence against bacterial infection. This intracellular survival strategy explains both the intensity of the inflammatory response and the organism's successful evasion of initial immune clearance. It preferentially infects columnar and transitional epithelium, which is why it targets the urethral mucosa in men, the cervical endocervix in women, the pharynx when oropharyngeal sexual contact occurs, and the rectal mucosa. The organism is extraordinarily fastidious outside the host — it dies rapidly when exposed to room temperature, drying, or standard transport media without charcoal. This fragility is the most common reason culture yields a false negative: the specimen was transported too slowly or in unsuitable media.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Chlamydia trachomatis</strong>
+        <p>Chlamydia trachomatis is an obligate intracellular bacterium — it has no capacity to replicate outside a living host cell and cannot be grown on standard bacterial culture media. It exists in two forms: the elementary body, which is the infectious extracellular form capable of surviving brief environmental exposure and infecting a new host; and the reticulate body, the intracellular replicating form that resides within a membrane-bound inclusion inside the host epithelial cell. The serovars responsible for urogenital infection in adults are serovars D through K; different serovars cause trachoma (A–C) and lymphogranuloma venereum (L1–L3). The slow replication cycle of chlamydia explains its longer incubation period of 7 to 21 days and its tendency toward asymptomatic infection — particularly in women, where up to 70% of chlamydial infections produce no symptoms yet can cause progressive tubal damage, leading to infertility and ectopic pregnancy. This asymptomatic reservoir in women is precisely why partner notification and treatment is not optional — it is a clinical imperative.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Antimicrobial Resistance — The Most Important Trend in STI Medicine</strong>
+        <p>Neisseria gonorrhoeae has demonstrated a remarkable and disturbing ability to acquire resistance to every antibiotic that has been used as first-line therapy: sulphonamides in the 1930s, penicillin in the 1970s to 1980s, tetracyclines through the 1980s, fluoroquinolones (ciprofloxacin) from the 1990s to 2000s, and oral cefixime in the 2010s. Azithromycin monotherapy for gonorrhoea was also abandoned globally as resistance rates exceeded acceptable thresholds. This progressive loss of treatment options has left intramuscular ceftriaxone as the last reliably effective single-dose therapy for gonorrhoea worldwide. Ciprofloxacin resistance in Nigerian gonococcal isolates now exceeds 50% in multiple surveillance studies — meaning that more than half of gonorrhoea cases treated empirically with ciprofloxacin will fail treatment. The patient experiences temporary symptomatic improvement as the inflammatory response partially subsides, then experiences recurrence or persistence that is attributed to reinfection rather than the original treatment failure. In the meantime, the untreated infection continues to be transmitted. Ciprofloxacin should not be used for gonorrhoea in Nigeria without first confirming susceptibility on culture.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urethral Gram Stain — Immediate Bedside Diagnosis</strong>
+        <p>The Gram stain is the first investigation to perform in any patient with urethral discharge because it produces a result within 30 to 60 minutes and, in a symptomatic male, provides near-diagnostic accuracy for gonococcal urethritis. It also demonstrates the presence of polymorphonuclear leucocytes, which confirms true urethral inflammation as distinct from physiological secretions or contamination. The threshold for urethritis on microscopy is five or more polymorphonuclear leucocytes per high-power field. This test is available and affordable at all Nigerian secondary and tertiary hospitals and should be the default first investigation at any STI clinic visit.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Culture and Sensitivity on Thayer-Martin Medium</strong>
+        <p>Culture is ordered not primarily to confirm the diagnosis — the clinical picture and Gram stain have done that — but to generate an antibiogram. In the current era of emerging gonococcal resistance, knowing whether this patient's isolate is susceptible to ceftriaxone matters for two reasons: it confirms that the treatment administered will be effective, and it contributes to local surveillance data that inform empirical treatment guidelines for future patients. The critical practical point is transport: Neisseria gonorrhoeae dies rapidly outside the host, and specimens must reach the laboratory within 4 to 6 hours in Stuart's or Amies transport medium with activated charcoal. Delayed transport is the single most common cause of false-negative gonococcal culture.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">NAAT for Gonorrhoea and Chlamydia</strong>
+        <p>NAAT is the gold standard for diagnosing both organisms, with sensitivity exceeding 98% and specificity above 99% for each. Crucially, it is the only reliable test for chlamydia — there is no Gram stain equivalent for this organism. NAAT can be performed on a urethral swab or on a first-void urine specimen: the first 10 to 20 millilitres voided at the start of micturition (not midstream) carries the highest concentration of urethral organisms and provides a non-invasive diagnostic alternative that many patients prefer. In Nigeria, NAAT is available at molecular diagnostic laboratories of major teaching hospitals and at large private laboratory networks in Lagos, Ibadan, Abuja, and Kano.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">HIV, Syphilis, Hepatitis B and C — The Full STI Screen</strong>
+        <p>A patient presenting with a sexually transmitted infection is, by definition, a patient with recent unprotected sexual exposure and high-risk sexual behaviour. This is not the moment to treat only the presenting complaint and miss the broader clinical opportunity. HIV and STIs are co-transmitted; the presence of any genital STI, including gonococcal urethritis, increases both HIV acquisition risk through mucosal disruption and HIV transmission risk through enhanced genital viral shedding. Syphilis and hepatitis B are both meaningfully prevalent in the sexually active Nigerian population and both transmissible through the same route. Screening for all of these at the same visit is efficient, clinically appropriate, and aligned with WHO and FMOH syndromic management recommendations. HIV rapid testing through PEPFAR-supported voluntary counselling and testing infrastructure is available at no cost to the patient at all Nigerian hospitals with active HIV programmes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why This Treatment — Drug Choices, Doses, and Technique</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Ceftriaxone 500 mg IM — The Last Reliable Single-Dose Agent for Gonorrhoea</strong>
+        <p>Ceftriaxone is a third-generation cephalosporin that acts by irreversibly binding to penicillin-binding proteins in the gonococcal cell wall, inhibiting peptidoglycan synthesis and causing bacterial cell death. It is bactericidal, achieves high concentrations in genital secretions after a single intramuscular dose, and retains clinical effectiveness against the vast majority of Neisseria gonorrhoeae strains encountered in Nigerian clinical practice. The 500 milligram dose is the current standard recommendation of the CDC 2021 guidelines and is consistent with WHO guidance for uncomplicated gonococcal urethritis. The dose was increased from the previously recommended 250 milligrams because higher peak tissue concentrations provide a greater pharmacodynamic margin of safety against strains with slightly elevated minimum inhibitory concentrations — a precautionary response to global trends in resistance development. The injection technique point is not trivial: reconstituting the powder in 1 millilitre of 1% lignocaine solution rather than sterile water significantly reduces injection site pain. Lignocaine acts as a local anaesthetic at the injection site; when Ceftriaxone is administered in plain water, the injection is painful enough to deter some patients from accepting treatment and from returning for future treatment episodes.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Azithromycin 1 g Orally — Chlamydial Cover as Empirical Standard of Care</strong>
+        <p>Azithromycin is a macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit and blocking peptide chain elongation. It achieves unusually high intracellular tissue concentrations that persist for several days after a single dose — a pharmacokinetic property that makes it ideal for treating obligate intracellular organisms like Chlamydia trachomatis and Mycoplasma genitalium. The single gram oral dose achieves chlamydial cure rates above 90% for uncomplicated genital chlamydial infection and provides simultaneous coverage for Mycoplasma genitalium and other non-gonococcal urethritis pathogens. It is administered as observed therapy in the clinic — two 500 milligram tablets taken at the appointment — removing the adherence variable entirely. An important nuance: the CDC 2021 update now expresses a preference for doxycycline 100 mg twice daily for 7 days as the chlamydial co-treatment agent, reflecting evidence of slightly superior microbiological cure rates and concerns about rising azithromycin resistance in some settings. In Nigerian syndromic management, however, single-dose observed azithromycin remains the pragmatic preferred choice because a 7-day doxycycline course depends entirely on patient adherence and is less reliably completed in a busy outpatient setting.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Not Ciprofloxacin?</strong>
+        <p>Ciprofloxacin oral tablets remain common in many Nigerian outpatient and pharmacy settings for urethral discharge, and this practice deserves direct correction. Fluoroquinolone resistance in Neisseria gonorrhoeae isolates from Nigeria has been documented at rates exceeding 50% in multiple surveillance studies — meaning that more than half of gonorrhoea cases treated empirically with ciprofloxacin will fail treatment. The patient typically experiences apparent short-term improvement as the inflammatory response partially subsides, then experiences recurrence or persistence that is attributed to reinfection rather than the original treatment failure. Ciprofloxacin should not be used for gonorrhoea at any Nigerian outpatient setting without prior culture sensitivity confirmation, and this recommendation should be reinforced at every teaching opportunity.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Complications — What Happens When Gonorrhoea Is Inadequately Treated</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urethral Stricture — The Most Important Long-Term Complication in Young Nigerian Men</strong>
+        <p>Gonococcal urethritis is the most common infectious cause of urethral stricture — progressive fibrotic narrowing of the urethral lumen — in young Nigerian men. The mechanism involves repeated episodes of inadequately treated or untreated gonococcal infection producing periurethral inflammation and fibrosis in the anterior urethra, primarily at the bulbar urethra. The resulting stricture presents gradually with reduced urinary stream, straining to void, incomplete bladder emptying, recurrent urinary tract infections, and eventually acute or chronic urinary retention. Treatment involves urethral dilatation as a temporary measure requiring repetition, or formal urethroplasty as definitive surgical reconstruction. Urethral stricture is a major cause of chronic lower urinary tract dysfunction in men in their 30s and 40s in Nigeria — and a substantial proportion of these cases are directly attributable to inadequately managed gonorrhoea earlier in life. This outpatient encounter represents an opportunity to prevent that trajectory entirely through correct first-line treatment and health education.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Epididymo-Orchitis</strong>
+        <p>Ascending infection from the anterior urethra to the epididymis produces epididymo-orchitis — painful swelling and inflammation of the epididymis, sometimes extending to the testicle itself. The epididymis stores and matures spermatozoa; bilateral epididymal scarring from recurrent infection can cause obstructive azoospermia and male infertility. When gonorrhoea (rather than chlamydia) is the causative organism, the presentation tends to be more acute with prominent systemic features including fever and rigors. This patient has no scrotal findings at this presentation, confirming epididymo-orchitis has not yet developed — but it is the complication to watch for if treatment is delayed or incomplete.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Disseminated Gonococcal Infection</strong>
+        <p>Disseminated gonococcal infection (DGI) occurs when Neisseria gonorrhoeae enters the bloodstream, either because the local infection is untreated and organism burden is high, or because the patient is immunocompromised or has complement deficiency — complement components C5 through C9 are essential for bactericidal killing of Neisseria species. The two main clinical patterns are the arthritis-dermatitis syndrome — migratory asymmetric polyarthralgia or polyarthritis, tenosynovitis of small joint tendons, and a sparse papular or pustulo-haemorrhagic skin rash on the extremities — and purulent septic arthritis of a single large joint. The skin lesions of DGI are easily missed: few in number, evolving from small papules through vesiculopustules to haemorrhagic necrotic centres, distributed on the extremities. This patient has none of these features, confirming DGI is not present. Treatment is intravenous Ceftriaxone 1 gram daily for at least 7 days, followed by oral cephalosporin to complete a 7 to 14 day course.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Partner Notification — A Clinical Imperative, Not an Optional Extra</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Matters Clinically</strong>
+        <p>Partner notification is not a public health bureaucratic exercise — it is clinically essential for this individual patient. Without treating his partner, the patient will be reinfected at his next sexual encounter, the treatment administered will have been wasted, and he will present again with the same complaint — this time with one treatment episode behind him and one step closer to local complications. The female partner is at particular risk: gonorrhoea and chlamydia in women are frequently asymptomatic or produce only subtle symptoms (mild vaginal discharge, dysuria, intermenstrual spotting), meaning she is likely unaware that she is infected, untreated, and at risk of ascending pelvic infection, tubal damage, and infertility. Treating him without treating her is an incomplete clinical act.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Practical Approach in Nigeria</strong>
+        <p>Partner notification in Nigerian STI clinics is predominantly patient-initiated: the patient is counselled, given a contact referral letter for his partner, and asked to inform her to attend an STI clinic. The practical focus should be on strong counselling — explaining to the patient that his partner very likely has the infection even if she has no obvious symptoms, that her treatment is genuinely important for his own health given the reinfection risk, and that the same simple dual-agent regimen will cure her. Female partners should receive the same treatment: intramuscular Ceftriaxone 500 mg plus oral Azithromycin 1 gram, given at the same visit as single-dose observed therapy, regardless of symptoms. The WHO and FMOH syndromic management guidelines recommend notifying all sexual partners in the 60 days preceding symptom onset as the default look-back period for urethral discharge syndrome.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">HIV Risk, Counselling, and PrEP — Making the Most of This Consultation</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Biological Interaction Between STIs and HIV</strong>
+        <p>The concurrent presence of gonorrhoeal urethritis and HIV risk is not coincidental — it is driven by a bidirectional biological interaction. Active gonorrhoeal urethritis increases HIV acquisition risk because mucosal inflammation disrupts the epithelial barrier, the first line of defence against HIV entry, and recruits CD4+ T lymphocytes and macrophages to the site of infection — the very cells that HIV preferentially infects. In an HIV-negative person with gonorrhoea who is exposed to HIV during sexual contact, the inflamed urethral mucosa makes successful HIV transmission substantially more likely than in a person with an intact mucosa. In the reverse direction, HIV-positive individuals with concurrent gonorrhoea have higher concentrations of HIV in their genital secretions, making them more likely to transmit HIV to their sexual partners. Treating gonorrhoea promptly is itself an HIV prevention intervention.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Pre-Exposure Prophylaxis — Offering PrEP at This Visit</strong>
+        <p>This patient has a sexual behaviour profile that meets the clinical criteria for HIV pre-exposure prophylaxis: multiple sexual partners, inconsistent condom use, and a recent STI diagnosis. PrEP with oral tenofovir disoproxil fumarate 300 mg and emtricitabine 200 mg taken once daily — the fixed-dose combination available as generic TDF/FTC — reduces HIV acquisition risk by more than 99% in individuals who take it consistently. It is available at PEPFAR-supported HIV prevention clinics in Nigerian tertiary hospitals and selected primary health care facilities at no or minimal cost. If his HIV test today is negative, offering PrEP is a natural and appropriate extension of this consultation — not overstepping, but completing the care this patient needs.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Treating urethral discharge with oral ciprofloxacin in Nigeria is a clinical error. Fluoroquinolone resistance in Neisseria gonorrhoeae exceeds 50% in Nigerian surveillance data. Use intramuscular Ceftriaxone 500 mg as the default first-line agent.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always reconstitute Ceftriaxone in 1% lignocaine, not plain water. The injection is significantly less painful — this matters both for patient comfort and for their willingness to accept treatment in future episodes.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Urethral stricture from inadequately treated gonorrhoea is a major cause of obstructive uropathy in Nigerian men aged 30 to 50. What you do at this outpatient visit — treat correctly, educate on completion, trace the partner — directly determines whether this young man will need a urethroplasty in twenty years.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Neisseria gonorrhoeae is a fastidious organism that dies quickly outside the host. If gonococcal culture returns negative despite a strongly positive Gram stain, the most likely explanation is delayed transport or inadequate transport media — not a Gram stain false positive.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Partner treatment is part of the clinical management of this patient — not a public health add-on. A patient sent home without clear instruction to bring his partner for treatment has been incompletely managed.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Azithromycin resistance in Neisseria gonorrhoeae is rising globally. The CDC 2021 guidelines now prefer doxycycline over azithromycin as the chlamydial co-treatment. In Nigerian syndromic management, single-dose observed azithromycin remains the pragmatic first choice because a 7-day doxycycline course depends entirely on patient adherence — but both are valid, and the clinician should prescribe whichever the patient is more likely to complete correctly.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Post-gonococcal urethritis — persistent or recurrent discharge after Ceftriaxone — is almost always caused by untreated chlamydia or Mycoplasma genitalium, not Ceftriaxone treatment failure. If symptoms persist at 1-week review, do not reflexively re-treat with more Ceftriaxone; review the NAAT and culture results and consider Mycoplasma genitalium as the emerging diagnosis requiring Moxifloxacin.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. WHO Guidelines for the Treatment of Neisseria gonorrhoeae. Geneva: WHO Press.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for the Management of Sexually Transmitted Infections — Syndromic Management Approach. Abuja: FMOH Nigeria.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Centers for Disease Control and Prevention (CDC). Sexually Transmitted Infections Treatment Guidelines, 2021 — Gonococcal Infections Among Adolescents and Adults.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Management of Symptomatic Sexually Transmitted Infections, 2021 — syndromic management and flowcharts for urethral discharge.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on urethritis in males, gonococcal and chlamydial infections, and antimicrobial resistance in Neisseria gonorrhoeae.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Gonococcal urethritis, Chlamydial urethritis, and disseminated gonococcal infection.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — interventions for treating uncomplicated Neisseria gonorrhoeae infections, and interventions for treating chlamydial genital infections.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>British Association for Sexual Health and HIV (BASHH). United Kingdom National Guidelines on the Management of Gonorrhoea in Adults.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Nigerian Society for Infectious Diseases and Clinical Microbiology — position papers and surveillance data on antimicrobial resistance in Neisseria gonorrhoeae in Nigeria, where locally available.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — infectious diseases chapter.</li>
+      </ul>
+    </div>
+  </details>
+
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'gopd-02',
+  title: 'Acute Uncomplicated Lower Urinary Tract Infection in a Young Woman',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Nephrology / Infectious Disease',
+  condition: 'Acute uncomplicated lower urinary tract infection (acute cystitis) in an otherwise healthy young woman',
+  symptoms: [
+    'Burning dysuria',
+    'Urinary frequency with urgency',
+    'Suprapubic pain',
+    'Cloudy, foul-smelling urine',
+    'Mild suprapubic tenderness on examination',
+    'Absent costovertebral angle tenderness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-06-24',
+  summary: 'Miss A.T., a 24-year-old single female undergraduate presenting with a 4-day history of burning dysuria, urinary frequency with urgency, and a 3-day history of suprapubic pain with cloudy, foul-smelling urine. Afebrile and haemodynamically stable with mild suprapubic tenderness and absent costovertebral angle tenderness. No fever, no loin pain, no vaginal discharge. Recognised precipitants include habitual voiding delay during lectures and recent sexual activity. Diagnosis: acute uncomplicated lower urinary tract infection. Managed as an outpatient with empirical oral Nitrofurantoin.',
+  content: `
+Miss A.T., a 24-year-old single female undergraduate, resident in Lagos, Christian, Yoruba. Resides in a student hostel.
+
+Informant: Patient (reliable)
+
+Presenting Complaints
+
+Painful urination × 4 days
+Urinary frequency × 4 days
+Lower abdominal pain × 3 days
+
+History of Presenting Complaint
+
+She was apparently well until 4 days prior to presentation when she developed burning pain on urination, occurring throughout micturition, associated with increased urinary frequency — passing urine in small volumes with urgency.
+
+About 3 days prior to presentation, she developed mild to moderate lower abdominal pain with no radiation. She noticed her urine had become cloudy and occasionally foul-smelling. No visible blood in urine.
+
+No fever, chills, rigors, loin or flank pain, nausea, or vomiting. No obstructive voiding symptoms. She admits to occasionally delaying voiding during lectures.
+
+Menstrual history: regular 28-day cycles, 4–5 days flow, moderate. LMP 2 weeks prior to presentation. No abnormal vaginal discharge, no vulval itching, no dyspareunia, no postcoital bleeding, no intermenstrual bleeding.
+
+Sexually active with a single partner. No recent change in partner, no prior STI history, no spermicide use. No recent urinary catheterisation or instrumentation.
+
+No prior similar episodes. No prior treatment taken.
+
+Past Medical History
+No known diabetes mellitus, hypertension, sickle cell disease, or chronic renal disease.
+No prior history of recurrent urinary tract infections.
+
+Drug/Allergy History
+No recent antibiotic use.
+No known drug allergies.
+
+Family History
+No family history of renal disease or diabetes mellitus.
+
+Social History
+Undergraduate student, hostel resident. Occasionally delays voiding during lectures.
+Does not smoke or take alcohol.
+
+Review of Systems
+No cough, chest pain, weight loss, night sweats, leg swelling, or change in bowel habits.
+
+Examination
+
+General Examination
+Young woman, conscious, not in distress. Afebrile. Not pale, not icteric, not cyanosed, not dehydrated. No pedal oedema, no peripheral lymphadenopathy.
+
+Vital Signs
+Temperature: 36.8°C
+Pulse: 78 bpm, regular, good volume
+BP: 110/70 mmHg
+Respiratory rate: 16 cpm
+
+Abdomen
+Flat, soft, moves with respiration. Mild suprapubic tenderness on palpation. No guarding or rebound tenderness. No palpable masses. Kidneys not ballotable.
+
+Costovertebral Angle Tenderness
+Absent bilaterally.
+
+Pelvic Examination
+External genitalia normal. No abnormal vaginal discharge. Cervix healthy, no cervical motion tenderness.
+
+Assessment
+
+Acute uncomplicated lower urinary tract infection (acute cystitis).
+
+Differentials
+Urethritis from sexually transmitted infection (Neisseria gonorrhoeae / Chlamydia trachomatis)
+Vaginitis (candidal, bacterial vaginosis, Trichomonas vaginalis)
+Early pyelonephritis
+
+Plan
+
+Investigations
+Urine dipstick (bedside)
+Urine MCS — collect before first antibiotic dose
+Full blood count
+STI screening (NAAT for N. gonorrhoeae and C. trachomatis) if symptoms fail to improve at 48–72 hours
+
+Treatment
+Collect urine MCS sample before starting antibiotics.
+
+First-line: Oral Nitrofurantoin 100 mg (macrocrystal) twice daily × 5 days — take with food
+If macrocrystal formulation unavailable: Oral Nitrofurantoin 50–100 mg four times daily × 5–7 days
+
+Second-line (if Nitrofurantoin unavailable or unsuitable):
+Oral Fosfomycin trometamol 3 g as a single dose
+
+Third-line (sensitivity-guided only — do not use empirically):
+Oral Cotrimoxazole 960 mg twice daily × 3 days — use only if MCS confirms susceptibility
+
+Do not use: Ampicillin, Amoxicillin alone, or Ciprofloxacin empirically for uncomplicated lower UTI.
+
+Analgesia
+Oral Paracetamol 500–1000 mg every 6–8 hours as needed
+Oral Ibuprofen 400 mg every 8 hours with food if no contraindication
+
+Supportive Care
+Encourage oral fluid intake of at least 2–2.5 litres daily.
+
+Counselling / Lifestyle Advice
+Do not delay voiding — void every 3–4 hours and when the urge arises.
+Void after sexual intercourse.
+Wipe front to back after toileting.
+Avoid scented vaginal products and douching.
+Complete the full antibiotic course even if symptoms improve early.
+
+Return immediately if:
+Fever or rigors develop
+Loin or flank pain develops
+Vomiting prevents oral intake
+Symptoms worsen rather than improve after 48 hours
+
+Follow-Up
+Review at 48–72 hours: assess clinical response and review urine MCS results. Adjust antibiotic based on sensitivity if required. Further evaluation (fasting blood glucose, HbA1c) if recurrent episodes occur.
+`,
+  documentation: `
+<div class="space-y-6">
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Diagnosis — Why This Is a Lower UTI</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Uncomplicated UTI — Definition and Why It Matters</strong>
+        <p>An uncomplicated UTI is defined as a lower urinary tract infection occurring in a non-pregnant woman with a structurally and functionally normal urinary tract, normal renal function, and no predisposing metabolic or immunological abnormality. This patient meets every criterion: young, female, non-pregnant, no diabetes, no prior UTI history, no structural abnormality, and no immunosuppression. The distinction between complicated and uncomplicated UTI is not academic — it directly determines the antibiotic choice, route, duration, and follow-up required. Complicated UTI (occurring in men, pregnant women, the elderly, patients with diabetes, renal impairment, or structural urinary tract abnormality) requires longer courses, broader-spectrum agents, and closer follow-up.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Lower vs Upper UTI — The Critical Distinction</strong>
+        <p>Lower UTI (cystitis) is confined to the bladder and urethra. The classic triad is dysuria, frequency with urgency, and suprapubic pain — all present in this patient. Upper UTI (pyelonephritis) involves the renal parenchyma and collecting system and produces fever, rigors, loin or flank pain, costovertebral angle tenderness, nausea, and vomiting. The absence of every one of these systemic and upper tract features in this patient confirms lower tract involvement. This distinction matters enormously for management: lower UTI is managed with oral antibiotics that concentrate in the urine; upper UTI may require intravenous antibiotics, hospital admission, and assessment for sepsis. A patient who presents with lower UTI symptoms and then develops fever and loin pain within 24 to 48 hours should be re-evaluated urgently for ascending infection.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why UTI Is So Common in Women</strong>
+        <p>The anatomical basis for the high female prevalence of UTI is the short female urethra — approximately 3 to 4 centimetres compared with 20 centimetres in males. This short anatomical distance allows bacteria colonising the periurethral area (predominantly bowel flora including Escherichia coli) to ascend to the bladder with relative ease. The proximity of the urethral meatus to the vaginal introitus and anus further increases exposure to faecal and vaginal flora. Sexual activity causes mechanical translocation of periurethral bacteria into the bladder — a well-recognised precipitant in young sexually active women. In this patient, two additional precipitants were identified: habitual voiding delay during lectures, which allows bacteria entering the bladder to replicate rather than being flushed out by regular voiding; and hostel living with shared bathroom facilities, which increases colonisation pressure from diverse organisms.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Pathophysiology — How Bacteria Cause Cystitis Symptoms</strong>
+        <p>Escherichia coli, responsible for approximately 70 to 80% of uncomplicated female UTI, produces several virulence factors enabling it to establish bladder infection. Type 1 fimbriae facilitate adhesion to uroepithelial cells via mannose-sensitive receptors. Urease production hydrolyses urea to ammonia, alkalinising the urine and producing the characteristic cloudy, foul-smelling appearance noted in this patient. The inflammatory response to bacterial invasion of the urothelium drives the clinical symptoms: prostaglandins and bradykinins sensitise the urothelium to produce dysuria; mucosal oedema and uninhibited detrusor contractions reduce effective bladder capacity, producing urinary frequency and urgency. Staphylococcus saprophyticus is the second most common causative organism in sexually active young women — clinically indistinguishable from E. coli urethritis but characteristically novobiocin-resistant on antibiogram, a useful laboratory identifier.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The Differential Diagnoses — How to Distinguish Them</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urethritis from Sexually Transmitted Infection</strong>
+        <p>Neisseria gonorrhoeae and Chlamydia trachomatis can cause urethritis that closely mimics cystitis — dysuria, frequency, and urethral discomfort. The key distinguishing feature is the urine culture: STI-related urethritis produces pyuria (leucocytes in urine) but a sterile culture — no growth of uropathogens. Definitive diagnosis requires NAAT testing for gonorrhoea and chlamydia on a first-void urine or urethral/cervical swab. Clinical clues towards STI include vaginal discharge, cervical motion tenderness, a new or multiple sexual partners, and inconsistent condom use. This patient has a consistent single partner and no vaginal discharge or cervical motion tenderness, making STI less likely as the primary diagnosis — but if symptoms fail to improve on appropriate antibiotics by 48 to 72 hours, STI screening becomes an important next step.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Vaginitis</strong>
+        <p>Candida vulvovaginitis, bacterial vaginosis, and Trichomonas vaginalis all cause dysuria — but this is external dysuria: the burning is felt as urine passes over inflamed external genitalia, rather than internal dysuria felt along the urethra during voiding. The dominant symptoms of vaginitis are vaginal discharge, vulval itching, and odour; these are absent in this patient. Pelvic examination was normal with no abnormal discharge and no vulval inflammation. Vaginitis is not supported clinically in this case.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Early Pyelonephritis</strong>
+        <p>Upper tract infection can occasionally present without fever or loin pain in its earliest hours — systemic features may develop over 24 to 48 hours after initial lower tract symptoms. This diagnosis cannot be completely excluded on clinical grounds at a single assessment; it is excluded at this visit by the absence of fever, costovertebral angle tenderness, and loin pain. The specific instruction to return immediately if fever or loin pain develops is therefore clinically essential — it is not routine counselling but an active safety net for detecting progression to ascending infection.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urine Dipstick</strong>
+        <p>The dipstick provides an immediate, bedside screening result. A positive leucocyte esterase confirms pyuria (white cells in urine), which is highly sensitive for bacterial UTI in a symptomatic patient. Positive nitrites indicate the presence of nitrate-reducing Gram-negative bacteria — primarily E. coli, Klebsiella, and Proteus — and increase the specificity. The combination of positive leucocytes and positive nitrites in a symptomatic young woman is sufficient to start empirical antibiotics before culture results return. A completely negative dipstick (leucocytes and nitrites both absent) should prompt reconsideration of the diagnosis. Microscopic haematuria may also be present in cystitis from urothelial inflammation; visible haematuria in the context of UTI in a young woman is uncommon and warrants upper tract imaging.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urine MCS — Why It Must Be Collected Before the First Dose</strong>
+        <p>Urine microscopy, culture, and sensitivity is the most important investigation in this case, and the sequence matters: the sample must be collected before the first antibiotic dose. Even a single dose of an antibiotic can suppress bacterial growth sufficiently to produce a false-negative culture, rendering the result uninterpretable and wasting both the laboratory cost and the clinical opportunity to identify the organism and its resistance profile. The correct collection technique is a midstream clean-catch: the patient cleans the urethral meatus, discards the first few millilitres of urine (which may contain periurethral contaminating organisms), and collects the midstream portion in a sterile container. Significant bacteriuria in a symptomatic woman is defined as growth of a single organism at a count of 10⁵ CFU/ml or greater, though counts as low as 10² to 10³ CFU/ml can be clinically significant in a symptomatic patient. The culture result allows antibiotic de-escalation to the narrowest effective agent and serves as a baseline if the infection recurs.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">When to Screen for STI</strong>
+        <p>NAAT testing for Neisseria gonorrhoeae and Chlamydia trachomatis is not mandatory at the first uncomplicated UTI visit in a low-risk patient with a consistent single partner and no vaginal discharge. The clinical priority at this visit is collecting the urine MCS and starting antibiotics. STI screening becomes a priority if symptoms fail to improve on an appropriate antibiotic by 48 to 72 hours — at that point, STI urethritis should be actively excluded. Where NAAT is unavailable, high vaginal and endocervical swabs for Gram stain and culture are an alternative, though less sensitive for chlamydia.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Antibiotic Choice — The Rationale and the Resistance Problem in Nigeria</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Nitrofurantoin Is the First-Line Choice</strong>
+        <p>Nitrofurantoin is the preferred first-line agent for acute uncomplicated cystitis in young women in current international guidelines (IDSA, EAU, NICE) and is the appropriate empirical choice in the Nigerian context. Its mechanism is distinct from all other antibiotics used in UTI: it is reduced by bacterial flavoproteins to reactive intermediates that simultaneously damage bacterial DNA, ribosomal proteins, and cell wall synthesis — this multi-target mechanism makes the development of resistance through a single mutation essentially impossible, which explains why resistance rates to Nitrofurantoin have remained low globally (below 5% for E. coli) and in Nigeria despite decades of use. The pharmacokinetic profile is perfectly suited for lower UTI: it achieves very high concentrations in urine — up to 200 times the minimum inhibitory concentration for susceptible E. coli — but does not achieve meaningful tissue concentrations in the renal parenchyma or blood. This means it is effective precisely where it is needed (the bladder) and ineffective where it is not needed (the systemic circulation), which also means it cannot be used for pyelonephritis or bacteraemia. It covers E. coli, Staphylococcus saprophyticus, and Enterococcus faecalis — the three most common organisms in uncomplicated female cystitis. The 5-day course is recommended over 3 days to reduce the risk of early relapse. It must be taken with food to reduce the most common adverse effect, which is nausea.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Fosfomycin as Second-Line — A Single-Dose Option</strong>
+        <p>Fosfomycin trometamol 3 grams as a single oral dose (sachet dissolved in water) is an effective and practical second-line option when Nitrofurantoin is unavailable or unsuitable. Its mechanism — inhibition of the first step in bacterial cell wall peptidoglycan biosynthesis via MurA enzyme inhibition — is entirely distinct from beta-lactams and fluoroquinolones, meaning there is no cross-resistance. The single-dose regimen eliminates adherence concerns entirely and is particularly useful where completion of a 5-day course is uncertain. Clinical trial evidence demonstrates equivalence to 7-day Nitrofurantoin or 3-day cotrimoxazole for uncomplicated female cystitis. It is available at some Nigerian tertiary hospital pharmacies and selected private pharmacies in major cities, though it is more expensive than Nitrofurantoin.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Cotrimoxazole Should Not Be Used Empirically in Lagos</strong>
+        <p>Cotrimoxazole (trimethoprim-sulfamethoxazole) is inexpensive, widely available, and was for decades the standard first-line agent for uncomplicated female UTI. It is no longer appropriate for empirical use in Lagos and most major Nigerian cities. Multiple surveillance studies from Lagos, Ibadan, and other centres consistently show E. coli resistance to cotrimoxazole in community-acquired UTI at rates of 40 to 55% — more than double the 20% threshold above which international guidelines (IDSA, EAU) recommend against empirical use. Using cotrimoxazole empirically at these resistance rates means that approximately half of treated patients will fail therapy, experience ongoing symptoms, and risk ascending infection — while being incorrectly reassured that they are being treated. Cotrimoxazole remains valid when used in a sensitivity-guided manner after urine MCS confirms susceptibility.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ciprofloxacin Should Not Be Used for Uncomplicated Cystitis</strong>
+        <p>Ciprofloxacin is frequently prescribed for uncomplicated lower UTI in Nigerian outpatient settings, and this practice is specifically discouraged by all major international guidelines for a reason that goes beyond individual patient outcomes. Fluoroquinolones are highly effective systemic antibiotics critical for treating more serious infections — pyelonephritis, complicated UTI, pneumonia, and, as discussed in the gopd-03 case, gonorrhoea. Their widespread use for uncomplicated cystitis creates selection pressure for fluoroquinolone-resistant organisms at a community level, gradually undermining treatment effectiveness for serious infections. The emerging fluoroquinolone resistance in Nigerian N. gonorrhoeae (exceeding 50%) is partly a product of this pattern. Ciprofloxacin should be reserved for pyelonephritis, complicated UTI, male UTI, or infections confirmed as fluoroquinolone-sensitive on MCS where a preferred agent is not available or suitable.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ampicillin and Amoxicillin Alone Are Ineffective</strong>
+        <p>Ampicillin and amoxicillin resistance in community-acquired E. coli UTI in Nigeria now exceeds 80% in most published data — these agents are ineffective empirically for UTI and should not be prescribed for this indication.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Supportive Management and Prevention</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Hydration</strong>
+        <p>Increasing oral fluid intake to at least 2 to 2.5 litres daily is a practical and evidence-supported adjunct to antibiotic therapy. High urine flow mechanically flushes bacteria and bacteriotoxins from the bladder and dilutes the irritants responsible for dysuria and frequency. It also reduces the concentration of urease-generated ammonia in the urine, which contributes to the cloudy, malodorous appearance and the urothelial irritation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Voiding Habits — The Most Important Modifiable Risk Factor in This Patient</strong>
+        <p>Habitual voiding delay is a well-recognised and modifiable risk factor for UTI. When voiding is deferred, urine remains stagnant in the bladder, providing bacteria that have entered the bladder with time to replicate and establish adhesion to the urothelium. Regular voiding every 3 to 4 hours mechanically interrupts this colonisation cycle. For this patient specifically — a student who delays voiding during lectures — this behavioural change is arguably as important as the antibiotic in preventing future episodes. Post-coital voiding within 30 minutes of sexual intercourse reduces post-coital bacteriuria by flushing mechanically translocated bacteria from the bladder before they can establish infection.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Perineal Hygiene</strong>
+        <p>Wiping from front to back after toileting reduces faecal contamination of the periurethral area. Avoiding scented vaginal products and douching preserves the normal Lactobacillus-dominant vaginal flora — Lactobacillus produces lactic acid that maintains an acidic vaginal pH (3.8 to 4.5) which inhibits the growth of uropathogens including E. coli. Disruption of this flora by douching or scented products increases periurethral colonisation pressure and UTI risk.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Prognosis and Recurrence</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Expected Outcome with Treatment</strong>
+        <p>With prompt and appropriate oral antibiotic therapy, symptom resolution is expected within 2 to 3 days and complete resolution within 5 days. Treatment failure — defined as persistent symptoms beyond 48 to 72 hours on an appropriate antibiotic — occurs in approximately 5 to 10% of cases and warrants re-evaluation for a resistant organism, misdiagnosis (STI urethritis, vaginitis), or early ascending infection. A single episode of uncomplicated cystitis in a woman with a normal urinary tract carries negligible risk of long-term renal sequelae — this is in contrast to UTI in children with vesicoureteral reflux, where ascending infection can cause renal scarring and permanent nephron loss.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Recurrent UTI — When to Investigate Further</strong>
+        <p>Recurrent UTI — defined as two or more episodes within 6 months or three or more within 12 months — affects approximately 25 to 30% of young sexually active women after a first episode. When recurrence occurs, the evaluation should include fasting blood glucose and HbA1c (to exclude undiagnosed diabetes mellitus, which significantly impairs neutrophil function and mucosal immunity), urine MCS at each episode, and consideration of a renal tract ultrasound to exclude structural abnormality. Management options for confirmed recurrent UTI include post-coital antibiotic prophylaxis (a single dose of Nitrofurantoin or Trimethoprim taken within 2 hours of intercourse) or low-dose nightly antibiotic prophylaxis (Nitrofurantoin 50 mg nightly for 6 to 12 months). These are not appropriate at a first episode but should be discussed and planned for if recurrence occurs.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Always collect the urine MCS before giving the first antibiotic dose. This is a commonly skipped step in busy outpatient settings — but it is the single most important action for guiding management if symptoms persist or recur.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Cotrimoxazole resistance in community E. coli UTI in Lagos is approximately 40 to 55% — above the 20% threshold for empirical use. Despite being cheap and widely available, cotrimoxazole is an unreliable empirical choice and should only be used after MCS confirms susceptibility.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Do not use Nitrofurantoin if there is any clinical suspicion of upper tract involvement. Its inability to achieve tissue concentrations means it is ineffective for pyelonephritis — this is not a side effect or limitation to work around; it is a fundamental pharmacokinetic property of the drug.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Prescribing Ciprofloxacin for uncomplicated lower UTI in a young woman is a stewardship error — it is not a matter of personal preference or availability. Fluoroquinolone overuse in outpatient UTI is a documented driver of the community-level fluoroquinolone resistance now compromising treatment of gonorrhoea and pyelonephritis in Nigeria.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>The instruction to return immediately if fever or loin pain develops is a clinical safety net, not boilerplate counselling. Approximately 2 to 4% of untreated lower UTI cases develop ascending pyelonephritis. If a patient started on Nitrofurantoin returns with fever and loin pain, she needs re-examination, blood cultures, and likely IV antibiotics — not a repeat prescription.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Symptoms failing to improve at 48 to 72 hours on an appropriate antibiotic should prompt STI screening — STI urethritis (especially chlamydial) produces a sterile pyuria that mimics UTI clinically but will not respond to any antibiotic active against uropathogens.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Voiding delay is a modifiable and underappreciated risk factor for UTI in Nigerian female students. The habit of holding urine through long lectures is common and directly contributes to recurrent infection in this demographic — addressing it at this consultation is genuinely preventive.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Infectious Diseases Society of America (IDSA) / European Society for Microbiology and Infectious Diseases (ESMID). Clinical Practice Guidelines for the Treatment of Uncomplicated Urinary Tract Infections and Pyelonephritis in Women.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Association of Urology (EAU). Guidelines on Urological Infections — Uncomplicated Urinary Tract Infections in Adults.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE). Urinary Tract Infection (Lower) — Women: Antimicrobial Prescribing Guideline.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. Standard Treatment Guidelines and National Essential Medicines List — Infectious Diseases chapter.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on acute uncomplicated cystitis in women, choice of antibiotic for UTI, and antibiotic resistance in urinary tract infections.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Urinary tract infection, cystitis, and pyelonephritis.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — duration of antibacterial treatment for uncomplicated urinary tract infection in women; Fosfomycin for uncomplicated urinary tract infection.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>West African Journal of Medicine and Nigerian published surveillance literature on antimicrobial resistance patterns in community-acquired urinary tract infections in Lagos and major Nigerian cities.</li>
+      </ul>
+    </div>
+  </details>
+
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'gopd-01',
+  title: 'Acute Urinary Tract Infection in a Young Adult Male',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Urology / Infectious Disease',
+  condition: 'Acute lower urinary tract infection in a young adult male, classified as complicated UTI',
+  symptoms: [
+    'Burning dysuria',
+    'Urinary frequency with urgency',
+    'Suprapubic discomfort',
+    'Cloudy and foul-smelling urine',
+    'Mild suprapubic tenderness on examination',
+    'No fever, no loin pain, no costovertebral angle tenderness',
+    'No urethral discharge, no genital ulcers',
+    'No obstructive voiding symptoms'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-06-24',
+  summary: 'Mr O.A., a 27-year-old single male undergraduate presenting with a 5-day history of burning dysuria, urinary frequency with urgency, and a 3-day history of suprapubic discomfort with cloudy foul-smelling urine. Afebrile and haemodynamically stable with mild suprapubic tenderness and absent costovertebral angle tenderness. No urethral discharge, no obstructive voiding symptoms, no fever or loin pain. Sexually active with consistent condom use. No prior UTI or STI history. Diagnosis: acute lower urinary tract infection in a young adult male, classified as complicated UTI until proven otherwise. Managed as an outpatient with empirical oral Ciprofloxacin pending urine MCS, with investigations to exclude underlying structural, metabolic, and infective predisposing causes.',
+  content: `
+Mr O.A., a 27-year-old single male undergraduate, resident in Lagos, Christian, Yoruba.
+
+Informant: Patient (reliable)
+
+Presenting Complaints
+
+Painful urination × 5 days
+Urinary frequency × 5 days
+Lower abdominal discomfort × 3 days
+
+History of Presenting Complaint
+
+The patient was apparently well until 5 days prior to presentation when he developed a burning sensation on urination, occurring throughout the act of micturition and not relieved by completing the void. About the same time he noticed increased urinary frequency — passing urine in small volumes with urgency.
+
+Approximately 3 days prior to presentation he developed dull suprapubic discomfort of mild to moderate intensity, non-radiating. He also noticed his urine had become cloudy and occasionally foul-smelling. No visible blood in urine.
+
+No fever, chills, or rigors. No loin or flank pain. No nausea or vomiting.
+
+No difficulty initiating urination, no weak stream, no intermittency, no straining, no sensation of incomplete emptying. No urethral discharge, no penile itching, no genital ulcers, no scrotal pain or swelling.
+
+Sexually active with a single partner; consistent condom use reported. No recent change of sexual partner. No prior STI history. No recent urinary catheterisation or instrumentation.
+
+Past Medical History
+No known diabetes mellitus, hypertension, or renal disease.
+No prior history of urinary tract infections.
+
+Drug/Allergy History
+No recent antibiotic use.
+No known drug allergies.
+
+Family History
+Non-contributory.
+
+Social History
+Undergraduate student, resident in Lagos. Does not smoke or take alcohol. Fair personal hygiene.
+
+Review of Systems
+No weight loss, night sweats, or other constitutional symptoms.
+
+Examination
+
+General Examination
+Young man, not in distress. Afebrile. Not pale, not icteric, not dehydrated. No pedal oedema.
+
+Vital Signs
+Temperature: 36.8°C
+Pulse: 76 bpm
+BP: 118/72 mmHg
+Respiratory rate: 16 cpm
+
+Abdomen
+Soft, moves with respiration. Mild suprapubic tenderness on palpation. No guarding or rebound tenderness. No palpable masses. Kidneys not ballotable bilaterally.
+
+Costovertebral Angle Tenderness
+Absent bilaterally.
+
+Genitourinary Examination
+External genitalia normal. No urethral discharge. Testes normal size and non-tender bilaterally. No epididymal tenderness or swelling. No scrotal masses.
+
+Digital Rectal Examination
+Prostate: normal size, smooth, non-tender.
+
+Assessment
+
+Acute lower urinary tract infection in a young adult male — complicated UTI until proven otherwise.
+
+Differentials
+Urethritis from sexually transmitted infection (Neisseria gonorrhoeae / Chlamydia trachomatis)
+Bacterial prostatitis
+Urethral stricture with secondary UTI
+Bladder calculus
+Interstitial cystitis
+
+Plan
+
+Investigations
+Urine dipstick (bedside, immediate)
+Urine MCS — collect before first antibiotic dose (midstream clean-catch)
+Full blood count
+Serum electrolytes, urea, and creatinine
+Fasting blood glucose and HbA1c
+HIV rapid test with pre-test counselling
+STI screen: NAAT for Neisseria gonorrhoeae and Chlamydia trachomatis (first-void urine); VDRL/RPR; HBsAg; anti-HCV
+Abdominopelvic ultrasound: renal tract, bladder wall, post-void residual, prostate
+
+Treatment
+Collect urine MCS sample before starting antibiotics.
+
+Empirical first-line: Oral Ciprofloxacin 500 mg twice daily × 7–14 days
+(7 days if lower UTI confirmed on MCS; 14 days if prostatitis confirmed)
+
+Second-line if Ciprofloxacin unsuitable: Oral Cefuroxime axetil 500 mg twice daily × 7–14 days
+
+Do not use empirically: Ampicillin, Amoxicillin alone, Nitrofurantoin, Fosfomycin, or Cotrimoxazole without MCS sensitivity confirmation.
+
+Review and adjust antibiotics at 48–72 hours based on urine MCS results.
+
+If gonorrhoea confirmed: IM Ceftriaxone 500 mg single dose (reconstitute in 1 ml of 1% Lignocaine) plus Oral Azithromycin 1 g single dose.
+If chlamydia confirmed: Oral Azithromycin 1 g single dose or Oral Doxycycline 100 mg twice daily × 7 days.
+If bacterial prostatitis confirmed: extend Ciprofloxacin to 4–6 weeks total.
+
+If no improvement at 48–72 hours with appropriate antibiotics: reassess, consider hospitalisation for IV antibiotics (IV Ciprofloxacin 400 mg twice daily or IV Ceftriaxone 2 g once daily), and urgent urology referral.
+
+Supportive Care
+Oral Paracetamol 500–1000 mg every 6–8 hours as needed.
+Oral Ibuprofen 400 mg every 8 hours with food if no contraindication.
+Increase oral fluid intake to at least 2.5–3 litres daily.
+Void completely at each toilet visit. Void after sexual intercourse.
+Avoid caffeine and alcohol during acute illness.
+
+Counselling
+Complete the full antibiotic course even if symptoms improve early.
+Collect urine sample before taking the first tablet.
+STI screening is routine for any young man with urinary symptoms — not diagnostic of an STI.
+If STI identified: abstain from intercourse and ensure partner is tested and treated.
+Return immediately if: fever or chills develop, loin or flank pain develops, unable to pass urine, or symptoms worsen on antibiotics.
+
+Follow-Up
+Review at 48–72 hours: assess clinical response, review urine MCS and blood results, adjust antibiotics as needed.
+Review at completion of antibiotic course: post-treatment urine MCS for test of cure; review ultrasound findings; review STI results.
+Urology referral if: elevated post-void residual, structural abnormality on imaging, confirmed urethral stricture, prostatitis requiring further evaluation, or recurrent UTI.
+HIV clinic referral if HIV reactive. Sexual health clinic referral if STI confirmed.
+`,
+  documentation: `
+<div class="space-y-6">
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why UTI in a Young Man Is Always Complicated</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Fundamental Principle</strong>
+        <p>UTI in a male aged 15 to 50 years is uncommon, and when it occurs it is classified as complicated by definition — not because the presentation is necessarily severe, but because the male urinary tract has substantial anatomical and physiological defences against ascending infection that are absent in women. The male urethra is approximately 20 centimetres long compared with 3 to 4 centimetres in women, creating a far greater physical barrier to ascending infection. The prostate secretes antibacterial compounds including zinc, spermine, and lysozyme into the prostatic urethra. The anatomical distance between the male urethral meatus and the perianal region is much greater than in women, reducing faecal-periurethral contamination. When infection overcomes all of these barriers in a young man, something has usually gone wrong — a structural abnormality, a metabolic problem, immunosuppression, or a reservoir of infection in the prostate — and the clinical task is to find it.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What Makes a UTI Complicated</strong>
+        <p>A complicated UTI is one that occurs in the context of a structural abnormality, functional impairment, metabolic disturbance, or immunological compromise that predisposes to infection, increases the risk of treatment failure, or increases the risk of serious complications. In a young woman, uncomplicated UTI is the norm; in a young man, complicated UTI is the default classification until a structural or predisposing cause has been excluded. This is not merely semantic — it determines antibiotic duration (7 to 14 days rather than 3 to 5 days), antibiotic choice (agents that penetrate prostatic tissue rather than just concentrating in urine), the scope of investigation required, and the need for urology follow-up.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Predisposing Causes to Exclude Systematically</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urethral Stricture</strong>
+        <p>Urethral stricture — fibrotic narrowing of the urethral lumen — is the most important structural cause of recurrent UTI in young Nigerian men, and gonococcal urethritis is its most common infectious cause in sub-Saharan Africa. A stricture causes incomplete bladder emptying (elevated post-void residual urine), creating a static urine pool that serves as an ideal bacterial growth medium. The classic obstructive symptoms are a weak urinary stream, straining to initiate voiding, intermittency, and a sensation of incomplete emptying. This patient denies all obstructive symptoms, making a significant stricture less likely at this presentation — but the absence of symptoms does not exclude a mild stricture with partial obstruction. Post-void residual measurement on ultrasound and, if indicated, formal uroflowmetry will exclude this. An important point in Nigerian practice: a prior episode of gonorrhoea may have been subclinical, self-medicated, or inadequately treated, leading to periurethral fibrosis without the patient's awareness. Always ask about prior treatment of urethral discharge even if the patient denies a formal STI diagnosis.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Prostatitis</strong>
+        <p>Bacterial infection of the prostate is a common and frequently under-recognised cause of UTI symptoms in young men, and the clinical presentation of acute lower UTI and bacterial prostatitis can overlap substantially. Acute bacterial prostatitis is the easiest to recognise: the patient is systemically unwell with fever, rigors, and perineal pain, and digital rectal examination reveals an exquisitely tender, boggy prostate. Chronic bacterial prostatitis is more insidious — recurrent episodes of UTI caused by bacteria persisting within the prostatic acini despite apparently adequate antibiotic treatment of the bladder component, with perineal discomfort between flares. Chronic pelvic pain syndrome (category III prostatitis) is the most common prostatitis syndrome in young men and produces urinary symptoms, perineal and suprapubic pain, and sexual dysfunction without a demonstrable bacterial cause. This patient has a non-tender prostate on DRE and no systemic features, making acute prostatitis unlikely — but chronic prostatitis and CPPS cannot be clinically excluded and are addressed by the fluoroquinolone choice, which achieves adequate prostatic tissue penetration.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Diabetes Mellitus</strong>
+        <p>Undiagnosed diabetes mellitus is an important and common predisposing cause of UTI in young Nigerian adults. Glucosuria provides a rich growth medium for uropathogens. Diabetic patients have impaired neutrophil function — reduced chemotaxis and phagocytic killing — that allows bacterial counts to reach the threshold for infection more easily. Autonomic neuropathy causes incomplete bladder emptying (neurogenic bladder), increasing post-void residual and bacterial colonisation time. Fasting blood glucose and HbA1c must be measured in every male presenting with a first episode of UTI — not as a screening exercise but as a clinically mandatory investigation. Subclinical or undiagnosed diabetes is prevalent in the Nigerian population and will not be volunteered in the history.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Bladder Calculus and Structural Abnormalities</strong>
+        <p>A stone within the bladder creates a foreign body nidus for bacterial biofilm formation and causes recurrent UTI that is difficult to eradicate without removing the stone. Symptoms include terminal haematuria (blood at the end of the urinary stream as the stone traumatises the bladder neck during voiding) and interruption of the urinary stream by stone movement — both absent in this patient. Congenital structural abnormalities including bladder diverticula (outpouchings of the bladder mucosa that trap stagnant urine), horseshoe kidney, and ureteric duplication can all predispose to recurrent UTI. Abdominopelvic ultrasound will screen for all of these at this visit.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">HIV and Immunosuppression</strong>
+        <p>HIV-related immunosuppression impairs cell-mediated immunity and increases susceptibility to bacterial infections including UTI. HIV should be considered in any young sexually active person presenting with an infection that would be unusual in an immunocompetent host. Point-of-care HIV rapid testing with pre- and post-test counselling is available at all Nigerian hospitals through PEPFAR-supported VCT programmes at no cost to the patient and should be offered routinely at this visit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The Differential Diagnoses</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">STI Urethritis — The Most Important Differential in a Young Sexually Active Man</strong>
+        <p>Urethritis from Neisseria gonorrhoeae or Chlamydia trachomatis produces dysuria, urinary frequency, and urethral discomfort that can be clinically indistinguishable from bacterial cystitis. The key distinguishing investigation is the urine culture: STI urethritis produces pyuria (leucocytes in urine) but a sterile culture — no uropathogen is grown. NAAT testing for both organisms on a first-void urine specimen (the first 10 to 20 millilitres voided, not midstream, which carries the highest urethral organism concentration) is the definitive test. Importantly, urethral discharge is not always present in STI-related urethritis — subclinical or early infection may present with dysuria alone. This patient reports consistent condom use and a single partner, which reduces but does not eliminate STI risk. Both UTI and STI can coexist; sending both urine MCS and STI NAAT is the correct approach.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Acute Epididymo-Orchitis</strong>
+        <p>Epididymo-orchitis — bacterial infection of the epididymis and sometimes the testis — causes dysuria and frequency when associated with urethritis, and is the most common cause of acute scrotal pain in men under 35 years. It is excluded in this patient by the absence of testicular or epididymal tenderness, the absence of scrotal swelling, and the normal genitourinary examination. If scrotal tenderness or swelling were present, the differential from testicular torsion — a surgical emergency — would need to be resolved urgently by Doppler ultrasound.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Interstitial Cystitis</strong>
+        <p>Interstitial cystitis (painful bladder syndrome) is a chronic non-infectious bladder inflammatory condition producing persistent dysuria, frequency, urgency, and suprapubic pain with consistently negative urine cultures. It is predominantly a condition of women but does occur in men, where it overlaps clinically with chronic pelvic pain syndrome. It is excluded at a first presentation by first establishing that the current episode is infectious — a positive culture and response to antibiotics would confirm bacterial UTI and exclude interstitial cystitis. If cultures are consistently sterile and symptoms persist through appropriate antibiotic courses, urology referral for cystoscopy is indicated.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Urine MCS — Collect Before the First Dose, Without Exception</strong>
+        <p>In male UTI, urine MCS is not merely confirmatory — it is the foundation of management. The organism and its antibiogram determine the antibiotic, the duration, and whether the infection is likely to have a prostatic reservoir. The specimen must be collected before the first antibiotic dose because even a single dose significantly suppresses bacterial growth and can produce a false-negative culture. The correct collection technique is a midstream clean-catch: the patient cleans the urethral meatus, discards the first few millilitres (periurethral flora), and collects the midstream portion in a sterile container. Significant bacteriuria in a symptomatic male is defined as growth of a single organism at 10⁵ CFU/ml, though lower counts of 10³ to 10⁴ CFU/ml are clinically significant in symptomatic men. Post-treatment urine MCS at the end of the antibiotic course is also mandatory in male UTI — unlike uncomplicated female cystitis, male UTI can harbour a prostatic reservoir that produces clinical cure but microbiological persistence, leading to early recurrence.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Abdominopelvic Ultrasound — What You Are Looking For</strong>
+        <p>The ultrasound in this case is not routine — it is a structured search for predisposing causes. The key measurements and findings to document are: post-void residual urine volume (normal is under 50 ml; over 100 ml is clinically significant and indicates outlet obstruction or a hypotonic bladder; borderline 50 to 100 ml should be repeated); bladder wall thickness (a thickened bladder wall indicates chronic outlet obstruction and detrusor hypertrophy); the presence of bladder calculi (hyperechoic foci with acoustic shadowing); bladder diverticula (outpouchings of the bladder wall); renal tract morphology including any hydronephrosis (dilated collecting system suggesting outflow obstruction); and prostatic size and echogenicity on transabdominal assessment. A normal ultrasound significantly reduces the probability of a structural predisposing cause but does not exclude urethral pathology (stricture), which requires uroflowmetry or urethrography for definitive assessment.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Digital Rectal Examination — An Essential Clinical Step</strong>
+        <p>DRE is mandatory in any young man presenting with UTI symptoms. The findings determine whether prostatitis is present and influence both antibiotic choice and duration. A tender, boggy, or fluctuant prostate on DRE points to acute bacterial prostatitis; a normal prostate does not exclude chronic prostatitis or CPPS. One important technical point: in suspected acute prostatitis, DRE should be gentle — vigorous prostatic massage can cause bacteraemia by forcing organisms from the inflamed prostate into the bloodstream. If the prostate is exquisitely tender and the patient is febrile, defer vigorous examination and treat empirically.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Antibiotic Choice — Why Male UTI Is Treated Differently from Female UTI</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ciprofloxacin and Not Nitrofurantoin</strong>
+        <p>The antibiotic choice in male UTI is fundamentally different from uncomplicated female cystitis for one reason: prostatic penetration. Nitrofurantoin — the preferred first-line agent for uncomplicated female cystitis — achieves excellent urine concentrations but negligible tissue concentrations. It cannot treat prostatitis, cannot treat early pyelonephritis, and cannot eradicate a prostatic bacterial reservoir. In a young male with UTI where prostatitis cannot be confidently excluded clinically, Nitrofurantoin is inappropriate. Fluoroquinolones (Ciprofloxacin, Ofloxacin) are uniquely suited to male UTI because they achieve prostatic tissue concentrations that exceed serum concentrations — they penetrate the lipid-rich prostatic stroma that many antibiotics cannot cross. A 7-day course is used if lower UTI without prostatitis is confirmed; 14 days if prostatitis is confirmed; 4 to 6 weeks if chronic bacterial prostatitis is established. Fosfomycin single dose — effective for uncomplicated female cystitis — is not validated for male UTI or complicated UTI and should not be used here.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Nigerian Resistance Landscape for Male UTI</strong>
+        <p>The most common uropathogen in Nigerian community-acquired UTI is Escherichia coli, accounting for 50 to 80% of cases, followed by Klebsiella pneumoniae, Staphylococcus saprophyticus, Proteus mirabilis, and Enterococcus faecalis. The resistance pattern in Nigeria makes several agents unreliable for empirical use: Ampicillin and Amoxicillin alone have resistance rates exceeding 80%; Cotrimoxazole resistance is approximately 50%; Fluoroquinolone resistance in community E. coli is documented at 15 to 30% in some Nigerian centres. The key implication is that urine culture sensitivity results at 48 to 72 hours are not optional — they are the pivot on which the entire management plan turns. Starting empirical Ciprofloxacin is appropriate and evidence-based, but confirming sensitivity and adjusting if resistant is mandatory. The emergence of ESBL-producing E. coli and Klebsiella in Nigerian communities is also an important trend: these organisms are resistant to most oral agents and may require IV carbapenems for eradication — a finding that should prompt immediate urology referral and consideration of hospitalisation.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">A Note on Ciprofloxacin Stewardship</strong>
+        <p>In the context of uncomplicated female UTI (gopd-02), Ciprofloxacin was specifically listed as an agent to avoid empirically because its systemic use for a simple bladder infection drives fluoroquinolone resistance and compromises its availability for more serious infections. Male UTI is the legitimate exception to that principle. Here, the fluoroquinolone's prostatic penetration makes it the appropriate choice — this is not a stewardship failure but the correct application of the drug to the clinical situation it is designed for. The stewardship principle is not to avoid fluoroquinolones universally, but to use them where their pharmacological properties are clinically necessary.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Prognosis and the Importance of Follow-Up</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">With No Underlying Structural Cause</strong>
+        <p>If investigations exclude a structural abnormality, diabetes, immunosuppression, and STI, the prognosis is excellent — symptoms should resolve within 3 to 7 days of starting effective antibiotics, and the recurrence rate in young men without a structural predisposing cause is low. A post-treatment urine MCS at the end of the antibiotic course confirms microbiological cure and provides reassurance.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">If a Structural Cause Is Found</strong>
+        <p>The prognosis depends entirely on addressing the underlying cause. A urethral stricture causing recurrent UTI will continue to produce infections until the stricture is treated — by urethral dilatation as a temporising measure, or by urethroplasty as definitive repair. Chronic bacterial prostatitis requires a minimum of 4 to 6 weeks of fluoroquinolone therapy; under-treatment converts a curable infection into a chronic relapsing condition. A bladder calculus causing recurrent UTI cannot be eradicated by antibiotics alone — the stone must be removed (by cystoscopic lithotripsy or open cystolithotomy). Uncontrolled diabetes perpetuates the immune impairment that allows infection to establish and recur; glycaemic optimisation is part of the UTI treatment in that context.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Post-Treatment Culture Is Mandatory in Male UTI</strong>
+        <p>Unlike uncomplicated female cystitis where post-treatment culture is not routinely required after a single episode, male UTI always warrants a test-of-cure urine MCS at the completion of the antibiotic course. Clinical symptom resolution does not guarantee microbiological eradication — particularly in the context of a prostatic bacterial reservoir, where organisms persist in the prostatic tissue despite resolution of bladder symptoms. A positive post-treatment culture with the same organism indicates treatment failure; with a different organism it indicates reinfection from a persistent structural nidus. Both findings require further investigation and urology referral.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>UTI in a young man is always complicated until proven otherwise. Treating it with the same short-course, urine-only antibiotic regimen used for uncomplicated female cystitis is a clinical error — investigate for a predisposing cause and use an agent with prostatic tissue penetration.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Nitrofurantoin is contraindicated in male UTI. Its inability to achieve tissue concentrations means it cannot treat prostatitis or upper tract involvement — both of which are realistic possibilities in a young male that cannot be excluded on clinical grounds alone.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Urethral stricture from prior gonococcal urethritis is the leading structural cause of recurrent UTI in young Nigerian men. A prior episode of gonorrhoea may have been subclinical or self-medicated without formal diagnosis — always ask about prior urethral discharge treatment, not just formal STI diagnosis.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Do not perform vigorous prostatic massage during DRE if acute bacterial prostatitis is suspected — it can cause bacteraemia. A gentle examination to assess tenderness and consistency is sufficient; if the prostate is exquisitely tender and the patient is febrile, treat empirically without vigorous palpation.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Post-treatment urine MCS is mandatory in male UTI — not optional as it is after uncomplicated female cystitis. Clinical symptom resolution does not exclude a persistent prostatic bacterial reservoir. A positive culture with the same organism at the end of treatment means treatment failure; with a different organism it means structural reinfection — both require urology referral.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>If chronic bacterial prostatitis is confirmed, the antibiotic course must be 4 to 6 weeks — not 7 to 14 days. Premature discontinuation of treatment is the most common cause of relapsing prostatitis and subsequent antibiotic resistance development in this condition.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Using Ciprofloxacin for male UTI is not a stewardship error — it is the correct pharmacological choice because of its prostatic penetration. The stewardship principle applied in the female UTI case (reserve fluoroquinolones for complicated infections) is being correctly applied here: male UTI is a complicated infection that warrants a fluoroquinolone.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Association of Urology (EAU). Guidelines on Urological Infections — Complicated UTI, Prostatitis, and Male UTI.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Infectious Diseases Society of America (IDSA). Clinical Practice Guidelines for the Diagnosis and Treatment of Complicated Urinary Tract Infections.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE). Urinary Tract Infection (Complicated) — Antimicrobial Prescribing Guideline.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. Standard Treatment Guidelines and National Essential Medicines List — Infectious Diseases and Urology chapters.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on urinary tract infection in males, bacterial prostatitis, and complicated urinary tract infections.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Complicated urinary tract infection, bacterial prostatitis, and urethral stricture.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — antibiotic treatment duration for complicated urinary tract infections; fluoroquinolones for prostatitis.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>West African Journal of Medicine and Nigerian published surveillance literature on antimicrobial resistance patterns in community-acquired urinary tract infections, including ESBL-producing organisms in Nigerian centres.</li>
+      </ul>
+    </div>
+  </details>
+
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'gopd-04',
+  title: 'Vaginal Discharge Syndrome — Vulvovaginal Candidiasis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Infectious Disease',
+  condition: 'Vaginal discharge syndrome in a young married woman, most likely vulvovaginal candidiasis precipitated by recent antibiotic use',
+  symptoms: [
+    'Thick whitish curdy vaginal discharge',
+    'Vulval itching and irritation',
+    'Vulval soreness and dyspareunia',
+    'Vulval erythema with excoriation on examination',
+    'Vaginal walls coated with curdy white discharge on speculum',
+    'Recent antibiotic use 2 weeks prior',
+    'No fever, no lower abdominal pain, no offensive odour'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-06-24',
+  summary: 'Mrs B.T., a 29-year-old married G2P2+0 trader presenting with a 7-day history of thick, whitish, curdy, non-offensive vaginal discharge and a 5-day history of progressive vulval itching, irritation, soreness, and dyspareunia, following antibiotic use 2 weeks prior. Vulval erythema with excoriation and curdy white vaginal discharge confirmed on speculum examination. No fever, no lower abdominal tenderness, no cervical motion tenderness. Diagnosis: vulvovaginal candidiasis precipitated by antibiotic-induced disruption of normal vaginal flora. Managed with oral Fluconazole 150 mg single dose and topical Clotrimazole cream.',
+  content: `
+Mrs B.T., a 29-year-old married trader, resident in Ibadan, Oyo State, Yoruba. Secondary level education. Monogamous setting.
+
+Informant: Patient (reliable)
+
+Presenting Complaints
+
+Abnormal vaginal discharge × 7 days
+Vulval itching × 5 days
+
+History of Presenting Complaint
+
+She was apparently well until 7 days prior to presentation when she noticed a change in her vaginal discharge. The discharge progressively increased in quantity, becoming thick, whitish, and lumpy — similar to curd — with no foul smell. It sticks to her underwear and causes vaginal discomfort.
+
+Two days later she developed itching around the vaginal opening, progressively worsening, with associated irritation, soreness, and painful intercourse.
+
+No lower abdominal pain, no fever, no dysuria, no urinary frequency, no abnormal vaginal bleeding.
+
+She received antibiotics approximately 2 weeks ago for a chest infection. She does not use vaginal douches or harsh soaps. Sexually active with her husband only. No prior similar symptoms. No history of groin swelling or sores.
+
+Gynaecological History
+Regular 28-day cycle, 4 days flow. LMP: 2 weeks ago. No intermenstrual or postcoital bleeding.
+
+Obstetric History
+G2P2+0 (2 alive). Both deliveries by spontaneous vaginal delivery at term.
+
+Past Medical History
+Not a known diabetic or hypertensive. No prior STI history.
+
+Drug/Allergy History
+Recent antibiotic use (approximately 2 weeks ago, for a respiratory tract infection). No known drug allergies.
+
+Social History
+Married, monogamous. Does not smoke or take alcohol.
+
+Review of Systems
+No fever, no weight loss, no abdominal pain.
+
+Examination
+
+General Examination
+Young woman, not in distress. Afebrile. Not pale, not icteric.
+
+Vital Signs
+Temperature: 36.7°C
+Pulse: 80 bpm
+BP: 110/70 mmHg
+
+Abdomen
+Soft, non-tender. No suprapubic tenderness.
+
+Pelvic Examination
+Vulva: erythema present; excoriation marks from scratching visible.
+Speculum: vaginal walls coated with thick, curdy white discharge. Cervix healthy, no contact bleeding.
+Bimanual: no cervical motion tenderness. Uterus normal size. Adnexa free and non-tender.
+
+Assessment
+
+Vaginal discharge syndrome — vulvovaginal candidiasis, precipitated by recent antibiotic use.
+
+Differentials
+Bacterial vaginosis
+Trichomonas vaginalis vaginitis
+Gonococcal or chlamydial cervicitis (excluded clinically — no cervical findings, no pelvic pain)
+
+Plan
+
+Investigations
+Vaginal pH (bedside pH paper, lateral vaginal wall)
+KOH whiff test
+Wet preparation microscopy (normal saline and 10% KOH preparations)
+High vaginal swab for Gram stain and MCS
+HIV rapid test with pre-test counselling
+VDRL/RPR for syphilis
+Fasting blood glucose
+NAAT for Neisseria gonorrhoeae and Chlamydia trachomatis if clinically indicated or symptoms persist
+
+Treatment
+Oral Fluconazole 150 mg single dose
+
+If Fluconazole contraindicated or unavailable:
+Intravaginal Clotrimazole pessary 500 mg single dose at night
+OR Intravaginal Clotrimazole 100 mg pessary nightly × 6 nights
+
+For external vulval symptoms:
+Topical Clotrimazole 1% cream applied to vulva twice daily × 5–7 days
+
+Symptomatic relief:
+Oral Paracetamol 1000 mg every 6–8 hours as needed for vulval soreness.
+Avoid scratching. Avoid tight or synthetic underwear during treatment.
+
+Partner treatment: not routinely required for a first uncomplicated episode. If partner has symptomatic balanitis: topical Clotrimazole 1% cream to glans twice daily × 7 days.
+
+Counselling
+Complete the full topical cream course even after symptoms improve.
+Avoid vaginal douching, scented products, and synthetic underwear.
+Abstain from intercourse or use condoms until symptoms fully resolve.
+If antibiotics are prescribed in future, ask the doctor about concurrent Fluconazole prophylaxis.
+Return if symptoms have not resolved after 7 days or if recurrence occurs.
+If three or more episodes occur within a year: return for further investigation.
+
+Follow-Up
+Review at 1–2 weeks: assess symptom resolution, inspect vulva, review investigation results. If symptoms persist after 7 days: repeat HVS — consider Fluconazole-resistant organism (C. glabrata); switch to intravaginal Nystatin 100,000 units nightly × 14 days or intravaginal Boric acid 600 mg daily × 14 days; refer to gynaecology if recalcitrant. If recurrent (≥3 episodes per year): investigate for diabetes and HIV; consider maintenance oral Fluconazole 150 mg once weekly × 6 months.
+`,
+  documentation: `
+<div class="space-y-6">
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Diagnosis — Vaginal Discharge Syndrome and Candidiasis</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Vaginal Discharge Syndrome — The Syndromic Framework</strong>
+        <p>Vaginal discharge syndrome is one of the five classic sexually transmitted infection syndromes in the WHO and FMOH syndromic management framework — the others being urethral discharge syndrome (gopd-03), genital ulcer disease, lower abdominal pain in women, and inguinal bubo syndrome. Unlike urethral discharge syndrome in men (where the clinical picture is usually dominated by one organism), vaginal discharge syndrome has multiple possible causes that can be distinguished clinically using the character of the discharge, the associated symptoms, the vaginal pH, and simple bedside tests. This allows targeted treatment in most cases without waiting for laboratory culture results — though laboratory confirmation remains valuable for guiding management when treatment fails or when co-infection is possible.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Presentation Is Candidiasis and Not an STI</strong>
+        <p>Three features in this case together make the diagnosis of vulvovaginal candidiasis essentially certain before any investigation result returns. First, the character of the discharge: thick, curdy, adherent, white discharge resembling cottage cheese is the pathognomonic description of candidal infection. Bacterial vaginosis produces a thin, homogeneous grey-white discharge; Trichomonas produces a frothy, sometimes yellow-green discharge; gonococcal cervicitis produces a mucopurulent discharge from the cervical os. None of these match the curd-like appearance described and confirmed on speculum here. Second, the absence of odour: candidal discharge is non-offensive. Bacterial vaginosis characteristically produces a fishy amine odour (from anaerobic bacterial metabolism) that is often worse after unprotected intercourse when alkaline semen raises the vaginal pH and liberates volatile amines. Trichomonas can also produce an offensive smell. The complete absence of odour in this case is a strong pointer away from both. Third, the intensity of vulval inflammation: intense itching, soreness, erythema, and excoriation are hallmarks of candidiasis. Bacterial vaginosis typically produces minimal vulval symptoms — the discharge is the dominant complaint. The vulval inflammatory component in this patient is fully consistent with the pronounced immune response triggered by Candida invasion of the vulval skin.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Precipitating History — Antibiotics and the Disruption of Vaginal Flora</strong>
+        <p>The history of antibiotic use 2 weeks prior is not incidental — it is the most likely precipitating cause of this episode and is one of the most common triggers of vulvovaginal candidiasis. Under normal conditions, the vaginal flora is dominated by Lactobacillus species, particularly Lactobacillus crispatus and Lactobacillus iners. Lactobacillus produces lactic acid (maintaining vaginal pH at 3.8 to 4.5), hydrogen peroxide, and bacteriocins that collectively suppress the growth of potential pathogens including Candida albicans. Broad-spectrum antibiotics — particularly amoxicillin, amoxicillin-clavulanate, and ciprofloxacin — deplete this protective Lactobacillus flora as a collateral effect. When the flora is disrupted, the vaginal pH rises and Candida, which normally exists as a harmless low-level commensal, undergoes a transformation from its non-pathogenic yeast (blastospore) form to its invasive hyphal (pseudohyphal) form. The hyphal form penetrates the superficial vaginal epithelium, triggering neutrophil recruitment and the inflammatory cascade that produces the itching, erythema, and discharge characteristic of clinical candidiasis.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Distinguishing the Three Main Causes of Vaginal Discharge</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Bacterial Vaginosis — The Most Common Cause Overall</strong>
+        <p>Bacterial vaginosis (BV) is the most common cause of abnormal vaginal discharge in women of reproductive age, accounting for approximately 40 to 50% of vaginal discharge presentations. It is caused by a shift from the normal Lactobacillus-dominant flora to a polymicrobial overgrowth dominated by Gardnerella vaginalis, Mobiluncus species, Mycoplasma hominis, and anaerobes. The key distinguishing features are: a homogeneous, thin, grey-white, watery discharge that coats the vaginal walls uniformly; a characteristic fishy or musty amine odour that is accentuated after intercourse (semen is alkaline and liberates volatile amines from the anaerobic bacteria); minimal or absent vulval itching and irritation — this is the most clinically important differentiating point from candidiasis; vaginal pH above 4.5; a positive KOH whiff test; and clue cells on wet preparation (epithelial cells so heavily coated with adherent bacteria that their borders are obscured). BV is definitively diagnosed by the Amsel criteria (three of four: homogeneous discharge, pH above 4.5, positive whiff test, clue cells on wet mount) or by Nugent scoring on Gram stain. Treatment is oral Metronidazole 400 to 500 mg twice daily for 7 days, or intravaginal Metronidazole gel 0.75% once daily for 5 nights, or intravaginal Clindamycin cream 2% once daily for 7 nights.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Trichomonas vaginalis — An STI That Mimics Candidiasis</strong>
+        <p>Trichomonas vaginalis is a sexually transmitted flagellated protozoon and one of the most prevalent non-viral STIs globally. Its vaginal presentation can overlap with both candidiasis and BV: the discharge is typically yellow-green, frothy, and offensive. Vulval itching and irritation are present but usually less intense than in candidiasis. The classic speculum finding is a strawberry cervix — punctate haemorrhages on the ectocervix visible to the naked eye or more clearly on colposcopy — present in approximately 2% of cases but pathognomonic when seen. Vaginal pH is above 4.5. The definitive bedside test is wet preparation showing motile trichomonads under microscopy — the organisms are pear-shaped, slightly larger than a neutrophil, and swim with a characteristic tumbling motion using their anterior flagella. Treatment requires systemic therapy because Trichomonas infects the periurethral glands and Skene's glands in addition to the vagina: oral Metronidazole 2 g single dose for both patient and partner, or 400 mg twice daily for 5 to 7 days. Partner treatment is mandatory — unlike candidiasis, Trichomonas is sexually transmitted.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Gonococcal and Chlamydial Cervicitis — The Important Not-to-Miss</strong>
+        <p>In women, gonorrhoea and chlamydia primarily infect the endocervix (columnar epithelium of the cervical canal) rather than the vaginal epithelium itself. The discharge is mucopurulent — yellow or green, coming specifically from the cervical os rather than coating the vaginal walls uniformly. Contact bleeding (the cervix bleeds on gentle touching with a swab) is a hallmark of cervicitis. Cervical motion tenderness on bimanual examination suggests ascending infection has begun (pelvic inflammatory disease). This patient has a healthy-looking cervix, no contact bleeding, no cervical motion tenderness, and no pelvic pain — gonococcal and chlamydial cervicitis are clinically excluded. NAAT on first-void urine or an endocervical swab provides definitive confirmation where available. The distinction matters enormously: missing pelvic inflammatory disease means missing the most common preventable cause of tubal infertility in Nigeria.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Investigation Was Ordered</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Vaginal pH and KOH Whiff Test — Bedside Triage in 2 Minutes</strong>
+        <p>These two tests together are quick, inexpensive, and immediately clarify the most important diagnostic question in vaginal discharge: is this a normal or low-pH condition (candidiasis) or an elevated-pH condition (BV or Trichomonas)? Vaginal pH is measured by applying a narrow-range pH strip (3.5 to 6.0) to the lateral vaginal wall discharge — not the cervical os, which has a higher natural pH and will give a false result. A pH at or below 4.5 is strongly consistent with candidiasis (Candida does not produce amines and does not significantly alter vaginal pH). A pH above 4.5 points away from candidiasis and towards BV or Trichomonas. The KOH whiff test adds a drop of 10% potassium hydroxide to vaginal discharge on a glass slide: a positive test releases a fishy amine odour from the volatile amines produced by anaerobic bacteria, confirming BV or Trichomonas. A negative KOH test supports candidiasis. Both strips and 10% KOH are available in most Nigerian hospital laboratories and outpatient departments.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Wet Preparation Microscopy — The Most Useful Laboratory Test at This Visit</strong>
+        <p>Wet preparation microscopy performed on a fresh high vaginal swab provides immediate visual confirmation of the clinical diagnosis. Two preparations are made: a normal saline wet mount is examined for motile trichomonads (swimming pear-shaped organisms — pathognomonic of Trichomonas vaginalis) and for clue cells (BV). A 10% KOH preparation dissolves cellular debris and background material, making fungal elements visible: pseudohyphae (elongated branching chains of yeast cells that have failed to separate after budding) and blastospores (round budding yeast cells) are pathognomonic of Candida infection. The sensitivity of the KOH preparation for candidiasis in symptomatic women is approximately 60 to 70% — a negative preparation does not exclude candidiasis when the clinical picture is convincing, and treatment should proceed on clinical grounds if the microscopy is negative but the history and examination are classic.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Fasting Blood Glucose — Screening for a Critical Predisposing Cause</strong>
+        <p>Uncontrolled diabetes mellitus is the most important systemic predisposing cause of recurrent vulvovaginal candidiasis. Elevated glucose in vaginal secretions provides a rich growth substrate for Candida, and impaired neutrophil function in hyperglycaemia reduces the immune response that normally limits fungal colonisation. A single episode of antibiotic-precipitated candidiasis in a young woman without other risk factors does not mandate urgent diabetes screening, but offering a fasting blood glucose at this visit is clinically appropriate — particularly in Nigeria where undiagnosed diabetes is prevalent. If she presents with a second or third episode within the year, fasting glucose and HbA1c become mandatory investigations before initiating maintenance antifungal therapy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Treatment Rationale — Drugs, Doses, and What to Do When Treatment Fails</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Oral Fluconazole 150 mg Single Dose Is the Preferred Treatment</strong>
+        <p>Fluconazole is a triazole antifungal that inhibits lanosterol 14-alpha demethylase, a cytochrome P450 enzyme essential for the synthesis of ergosterol — the principal sterol in the fungal cell membrane. Without ergosterol, the fungal membrane becomes dysfunctional and permeable, leading to cell death. Ergosterol is absent in human cells, which is why azole antifungals have a highly selective fungal toxicity with a favourable safety profile. The 150 mg single oral dose achieves clinical and mycological cure rates of 90 to 95% for uncomplicated Candida albicans vulvovaginal candidiasis. Its major practical advantage over vaginal pessaries is simplicity: one tablet, taken once, with no intravaginal insertion required. This maximises adherence. Fluconazole is absorbed orally and achieves therapeutic concentrations in vaginal secretions via systemic distribution. It is widely available and affordable at Nigerian hospital pharmacies and community pharmacies in generic formulations. The one critical contraindication is pregnancy: Fluconazole is associated with craniofacial and cardiac birth defects with first-trimester exposure and should not be prescribed to pregnant women — intravaginal imidazoles (Clotrimazole pessaries) are the safe alternative in pregnancy and are equally effective for uncomplicated candidiasis.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Topical Clotrimazole — Treating the External Component</strong>
+        <p>Oral Fluconazole treats the internal vaginal infection systemically but may take a day or two to achieve therapeutic concentrations in the vulval skin. Topical Clotrimazole 1% cream applied directly to the vulva addresses the external component of the infection more immediately — relieving the itching, erythema, and excoriation that are causing the patient the most discomfort. Clotrimazole is an imidazole antifungal with the same mechanism as the triazoles (ergosterol synthesis inhibition) but applied topically with minimal systemic absorption. It is safe in pregnancy, safe for use on broken excoriated skin, and has a soothing base that provides symptomatic relief. The two-pronged approach — oral Fluconazole for internal infection, topical cream for external symptoms — provides faster overall symptom resolution than either agent alone.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">When Fluconazole Fails — Recognising Resistant Candida</strong>
+        <p>Persistent or recurrent symptoms despite completing a course of Fluconazole should prompt high vaginal swab culture for species identification and antifungal sensitivity. Candida glabrata accounts for approximately 10 to 15% of vulvovaginal candidiasis and has intrinsically higher minimum inhibitory concentrations for all azole antifungals, meaning standard Fluconazole doses are often insufficient. Candida krusei has complete intrinsic resistance to Fluconazole. Both species require alternative agents: intravaginal Boric acid 600 mg gelatin capsules inserted nightly for 14 days is the recommended management for azole-resistant candidiasis (achieving cure rates of 70 to 80% even for C. glabrata), though boric acid is not widely available in Nigerian hospital pharmacies. Intravaginal Nystatin pessary 100,000 units nightly for 14 days is a more available alternative. Recurrent candidiasis caused by Fluconazole-sensitive C. albicans (confirmed on culture) is managed with a longer induction course — oral Fluconazole 150 mg every 72 hours for three doses — followed by maintenance therapy of Fluconazole 150 mg once weekly for 6 months to suppress recurrence.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Partner Treatment — Why It Is Not Routinely Required for Candidiasis</strong>
+        <p>Vulvovaginal candidiasis is not classified as a sexually transmitted infection, and routine treatment of the male partner is not recommended for a first uncomplicated episode in an immunocompetent woman. Candida is an endogenous commensal that overgrows due to internal host factors (antibiotic-mediated flora disruption in this case) rather than being newly acquired from a sexual partner. The distinction from Trichomonas and gonococcal or chlamydial infection — where partner treatment is mandatory — is clinically important and should be explained clearly to the patient to avoid unnecessary treatment of her husband and to distinguish candidiasis from an STI diagnosis. The exception is if the male partner has symptomatic penile candidiasis (candidal balanitis — erythema, itching, and a rash on the glans penis), in which case topical Clotrimazole cream is appropriate.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <div class="space-y-4 text-slate-700 dark:text-slate-300">
+      <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Recurrent Vulvovaginal Candidiasis — When It Keeps Coming Back</h3>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Definition and Systemic Causes to Exclude</strong>
+        <p>Recurrent vulvovaginal candidiasis (RVVC) is defined as four or more symptomatic episodes per year confirmed by culture. It affects approximately 5% of women and causes substantial distress, sexual dysfunction, and anxiety. When a woman presents with her third or subsequent episode, the clinical approach shifts from simple treatment to systematic investigation: fasting blood glucose and HbA1c to exclude diabetes mellitus (the most common systemic predisposing cause in Nigerian women); HIV rapid test if not recently performed (impaired T-cell immunity leads to failure of the cell-mediated response that normally contains Candida to commensal levels); and high vaginal swab culture with species identification and antifungal sensitivity to determine whether a resistant species is responsible. Recurrent episodes caused by Fluconazole-sensitive C. albicans without an identifiable predisposing cause are managed with suppressive maintenance therapy: oral Fluconazole 150 mg once weekly for 6 months, which reduces recurrence rates by approximately 50% during the maintenance period, though recurrence after stopping therapy remains common.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Antibiotic Prophylaxis Strategy</strong>
+        <p>For women who reliably develop candidiasis following antibiotic courses, there is a practical and evidence-based preventive strategy: a single dose of oral Fluconazole 150 mg taken at the start of or during any future antibiotic course significantly reduces the incidence of antibiotic-associated candidiasis. This should be discussed at this visit and specifically mentioned in the counselling — the patient should be empowered to request prophylactic Fluconazole from any future prescriber when antibiotics are necessary.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+    <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+    <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>The absence of odour and the presence of intense vulval itching are the two clinical features that most reliably distinguish candidiasis from bacterial vaginosis. BV is odorous and minimally itchy; candidiasis is non-odorous and intensely itchy. Getting this distinction right at the first consultation prevents unnecessary antibiotic treatment with Metronidazole for a fungal infection.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Fluconazole is contraindicated in pregnancy. Any woman of reproductive age prescribed Fluconazole for vaginal candidiasis should have pregnancy either confirmed as absent by history (reliable LMP, consistent contraception) or excluded by a urine pregnancy test before the prescription is given. Topical Clotrimazole pessaries are the safe alternative in pregnancy and are equally effective.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>A negative KOH wet preparation does not exclude candidiasis. The sensitivity of the KOH preparation is only 60 to 70% in symptomatic women. If the clinical picture is classic — curdy white discharge, intense itching, recent antibiotics, no odour — treat empirically for candidiasis regardless of a negative microscopy result.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Trichomonas vaginalis is the only cause of vaginal discharge syndrome that requires mandatory partner treatment — just as gonorrhoea and chlamydia do. Candidiasis and bacterial vaginosis do not require routine partner treatment. Getting this right prevents unnecessary treatment of partners and avoids inadvertently labelling a non-STI presentation as sexually transmitted.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Recurrent vulvovaginal candidiasis (three or more episodes per year) in a young Nigerian woman must prompt screening for undiagnosed diabetes mellitus and HIV — both are prevalent in this population and both cause the immune impairment that drives recurrent fungal colonisation. Do not start long-term antifungal suppression without first excluding these systemic predisposing causes.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>If Fluconazole treatment fails or candidiasis recurs rapidly, send a high vaginal swab for culture and species identification before retreating. Candida glabrata — intrinsically less sensitive to azoles — accounts for 10 to 15% of cases and will not respond to standard Fluconazole doses. Empirically increasing the Fluconazole dose without culture confirmation is not the correct approach.</span>
+      </li>
+      <li class="flex gap-2">
+        <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="9" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+        </svg>
+        <span>Counsel every woman who develops candidiasis following antibiotics to request prophylactic Fluconazole 150 mg when future antibiotic courses are prescribed. This is a simple, evidence-based, and empowering prevention strategy that prevents recurrence and reduces the burden of repeated consultations for the same condition.</span>
+      </li>
+    </ul>
+  </div>
+
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+      <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+      <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </summary>
+    <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+      <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Management of Symptomatic Sexually Transmitted Infections, 2021 — vaginal discharge syndrome and syndromic management flowcharts.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for the Management of Sexually Transmitted Infections — Syndromic Management Approach. Abuja: FMOH Nigeria.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Centers for Disease Control and Prevention (CDC). Sexually Transmitted Infections Treatment Guidelines, 2021 — Vulvovaginal Candidiasis, Bacterial Vaginosis, and Trichomoniasis.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>British Association for Sexual Health and HIV (BASHH). United Kingdom National Guidelines on the Management of Vulvovaginal Candidiasis.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on vulvovaginal candidiasis, bacterial vaginosis, and Trichomonas vaginalis infection.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Candidal vulvovaginitis, bacterial vaginosis, and recurrent vulvovaginal candidiasis.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — antifungal treatments for vulvovaginal candidiasis; maintenance therapy for recurrent vulvovaginal candidiasis.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — infectious diseases and women's health chapters.</li>
+        <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society of Obstetricians and Gynaecologists of Nigeria (SOGON) — clinical practice guidance on vulvovaginal infections and vaginal discharge in Nigerian women, where locally available.</li>
+      </ul>
+    </div>
+  </details>
+
+</div>
+`,
+  bookmarkCount: 0
+},
+
 
 {
   id: 'gopd-06',
@@ -9736,7 +16821,627 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-02',
+  title: 'Symptomatic Cholelithiasis (Biliary Colic)',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Symptomatic Cholelithiasis',
+  symptoms: [
+    'Recurrent right upper abdominal pain',
+    'Fatty food intolerance',
+    'Nausea',
+    'Occasional vomiting',
+    'Pain radiating to the right shoulder'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: 'A 42-year-old woman presented with an 8-month history of recurrent biliary colic precipitated by fatty meals. Abdominal ultrasound demonstrated multiple gallstones without evidence of acute cholecystitis.',
+  content: `GENERAL SURGERY CLINIC
 
+Patient Seen
+
+A 42-year-old married female banker from Abeokuta, Ogun State, Christian, Yoruba, who presented herself as a reliable informant.
+
+PC:
+Recurrent right upper abdominal pain × 8 months.
+Nausea after fatty meals × 8 months.
+
+HPC:
+The patient was apparently well until about eight months prior to presentation when she developed recurrent episodes of pain in the right upper abdomen. The pain is sudden in onset, colicky in nature, moderate to severe in intensity (8/10), localized to the right hypochondrium and epigastrium, with radiation to the right scapular region and right shoulder.
+
+The pain is usually precipitated by the ingestion of fatty or oily meals and begins approximately 30–60 minutes after eating. Each episode lasts between one and four hours before resolving spontaneously or after taking analgesics.
+
+She experiences associated nausea during the painful episodes with occasional non-bilious vomiting.
+
+She has noticed progressive intolerance to fatty foods because they consistently trigger her symptoms.
+
+There is no history of fever.
+There are no chills or rigors.
+There is no jaundice.
+There is no passage of dark urine.
+There is no passage of pale stool.
+There is no generalized pruritus.
+There is no abdominal distension.
+There is no haematemesis.
+There is no melaena.
+
+She reports that the frequency of attacks has increased over the past two months, occurring approximately once every week.
+
+She underwent an abdominal ultrasound at a private diagnostic centre one week ago, which demonstrated multiple gallstones without evidence of acute cholecystitis.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+Appetite preserved.
+
+Gastrointestinal:
+Recurrent right upper quadrant pain.
+Nausea.
+Occasional vomiting.
+No diarrhoea.
+No constipation.
+No jaundice.
+
+Hepatobiliary:
+Fatty food intolerance.
+No dark urine.
+No pale stool.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+PMH:
+No hypertension.
+No diabetes mellitus.
+No chronic liver disease.
+No sickle cell disease.
+No previous hospital admissions.
+
+Past Surgical History:
+No previous abdominal surgery.
+
+Drug History:
+Occasional use of Tab Diclofenac 50 mg for pain.
+No known drug allergies.
+
+Family History:
+Mother underwent cholecystectomy for gallstones.
+No family history of gastrointestinal malignancy.
+
+Social History:
+Lives with her husband and three children.
+Non-smoker.
+Occasional alcohol intake.
+Consumes a diet rich in fried and fatty foods.
+
+O/E:
+
+General Examination:
+Middle-aged woman.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Afebrile.
+Well hydrated.
+No pedal oedema.
+
+Vital Signs:
+Blood Pressure: 122/78 mmHg.
+Pulse Rate: 78 beats/minute, regular.
+Respiratory Rate: 16 cycles/minute.
+Temperature: 36.8°C.
+SpO₂: 99% on room air.
+Weight: 84 kg.
+Height: 1.63 m.
+BMI: 31.6 kg/m² (Obesity Class I).
+
+Abdominal Examination:
+Abdomen is full and moves with respiration.
+Soft.
+Mild tenderness in the right hypochondrium.
+No guarding.
+No rebound tenderness.
+Murphy's sign negative.
+No palpable gallbladder.
+No hepatosplenomegaly.
+No abdominal masses.
+Bowel sounds normal.
+
+Cardiovascular Examination:
+Pulse regular.
+S1 and S2 heard.
+No murmurs.
+
+Respiratory Examination:
+Chest expands symmetrically.
+Good bilateral air entry.
+No added sounds.
+
+Central Nervous System:
+Conscious.
+Alert.
+Oriented.
+No focal neurological deficits.
+
+Investigation Results:
+
+Abdominal Ultrasound:
+Gallbladder contains multiple mobile echogenic calculi with posterior acoustic shadowing.
+Gallbladder wall thickness: 2.5 mm.
+No pericholecystic fluid.
+No sonographic Murphy's sign.
+Common bile duct measures 5 mm (not dilated).
+Liver, pancreas and spleen appear normal.
+
+Assessment:
+Symptomatic cholelithiasis (recurrent biliary colic) without evidence of acute cholecystitis or choledocholithiasis.
+
+Differential Diagnoses:
+Chronic calculous cholecystitis.
+Peptic ulcer disease.
+Functional dyspepsia.
+Acute pancreatitis (unlikely).
+Choledocholithiasis.
+Hepatic colic.
+
+Further Investigations:
+
+Laboratory:
+Full Blood Count.
+Electrolytes, Urea & Creatinine.
+Liver Function Tests (AST, ALT, ALP, GGT, bilirubin).
+Serum Amylase and Lipase.
+Fasting Blood Sugar.
+HbA1c (if diabetic risk factors).
+Coagulation profile (preoperative).
+Blood group and Rh typing.
+Urinalysis.
+Pregnancy test if of reproductive age and pregnancy is possible.
+
+Additional Imaging (If Indicated):
+Magnetic Resonance Cholangiopancreatography (MRCP) if choledocholithiasis is suspected.
+Endoscopic Ultrasound where available.
+ERCP only if there is confirmed common bile duct stone or biliary obstruction.
+
+Plan:
+
+Conservative Measures:
+Advise a low-fat diet.
+Avoid fried and oily meals.
+Encourage gradual weight reduction.
+Maintain adequate hydration.
+
+Analgesia:
+
+Option 1 (Preferred):
+Inj. Diclofenac 75 mg IM stat during an acute attack.
+
+Followed by:
+Tab Diclofenac 50 mg orally every 12 hours after meals for 3–5 days as required.
+
+Option 2:
+Tab Ibuprofen 400 mg orally every 8 hours after meals for up to 5 days if there are no contraindications.
+
+If NSAIDs Are Contraindicated:
+Tab Paracetamol 1 g orally every 8 hours as required (maximum 4 g/day).
+
+For severe uncontrolled pain in the emergency setting:
+Inj. Tramadol 50–100 mg IV or IM every 6–8 hours as required (maximum 400 mg/day).
+
+Antiemetic:
+Inj. Ondansetron 4 mg IV stat, then
+Tab Ondansetron 4 mg orally every 8 hours as required.
+
+Alternatively:
+Inj. Metoclopramide 10 mg IV or IM every 8 hours as required, provided there is no contraindication.
+
+Definitive Treatment:
+Elective laparoscopic cholecystectomy is recommended because the patient has symptomatic gallstones.
+
+Benefits include:
+Relief of recurrent biliary colic.
+Prevention of acute cholecystitis.
+Prevention of gallstone pancreatitis.
+Prevention of choledocholithiasis.
+
+If laparoscopic facilities are unavailable or contraindicated:
+Open cholecystectomy may be performed.
+
+Preoperative Preparation:
+Obtain informed consent.
+Nil per os for at least 6 hours before surgery.
+Pre-anaesthetic review.
+Routine preoperative laboratory investigations.
+
+Administer prophylactic antibiotics only if indicated according to institutional protocol (e.g., Inj. Cefazolin 2 g IV within 60 minutes before incision. If allergic to β-lactams, Inj. Clindamycin 600–900 mg IV may be used).
+
+Postoperative Management:
+Early ambulation.
+Adequate analgesia.
+Resume oral intake as tolerated.
+Monitor for bleeding, bile leak, wound infection and other postoperative complications.
+Encourage deep breathing exercises and early mobilization.
+
+Patient Education:
+Explain that gallstones are hardened deposits of bile constituents within the gallbladder.
+
+Inform her that recurrent pain is likely to continue until the gallbladder is removed.
+
+Advise her to seek immediate medical attention if she develops fever, persistent severe right upper quadrant pain lasting more than six hours, jaundice, dark urine, pale stools, repeated vomiting or severe epigastric pain radiating to the back, as these may indicate acute cholecystitis, choledocholithiasis or gallstone pancreatitis.
+
+Follow-up:
+Review in the General Surgery Clinic within 1–2 weeks with laboratory results and anaesthetic assessment.
+
+Schedule for elective laparoscopic cholecystectomy.
+
+Review earlier if symptoms worsen or if features of biliary obstruction or acute cholecystitis develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-01',
+  title: 'Mild Traumatic Brain Injury with Facial Laceration',
+  specialty: 'Surgery',
+  subSpecialty: 'Accident & Emergency',
+  condition: 'Mild Traumatic Brain Injury',
+  symptoms: [
+    'Head injury',
+    'Facial laceration',
+    'Facial bruising',
+    'Headache',
+    'Multiple superficial abrasions'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: 'A 24-year-old female sustained a mild traumatic brain injury with a right frontal facial laceration, facial contusions and superficial abrasions following a motorcycle road traffic accident.',
+  content: `ACCIDENT & EMERGENCY
+
+Patient Seen
+
+A 24-year-old single female university student from Abeokuta, Ogun State, Christian, Yoruba, who presented herself as a reliable informant.
+
+PC:
+Head injury following a motorcycle accident × 2 hours.
+Facial bruising and facial laceration × 2 hours.
+Headache × 2 hours.
+
+HPC:
+The patient was apparently well until approximately two hours prior to presentation when she was involved in a road traffic accident while travelling as a passenger on a commercial motorcycle (Okada). According to the patient, the motorcycle collided with a motor vehicle while attempting to avoid a pothole, causing both riders to be thrown onto the road. She struck the right side of her face and forehead against the tarred road.
+
+She was not wearing a crash helmet at the time of the accident.
+
+She sustained a laceration over the right forehead and bruising involving the right cheek and periorbital region. Bleeding from the laceration was moderate initially but was controlled at the scene by applying direct pressure with a clean cloth.
+
+Immediately after the accident, she experienced a mild headache but did not lose consciousness. She remembers the entire event and was able to stand with assistance. There was no witnessed seizure activity.
+
+There is no history of vomiting.
+There is no bleeding from the ears or nose.
+There is no clear fluid discharge from the ears or nose.
+There is no visual loss or diplopia.
+There is no weakness or numbness of any limb.
+There is no neck pain or back pain.
+There is no chest pain or difficulty breathing.
+There is no abdominal pain.
+
+She was brought directly to the hospital without receiving any medications.
+
+ROS:
+
+General:
+Mild pain.
+No fever.
+No dizziness.
+No loss of appetite.
+
+Neurological:
+Headache.
+No loss of consciousness.
+No vomiting.
+No seizures.
+No weakness.
+No numbness.
+No confusion.
+No memory loss.
+
+Ophthalmic:
+Right periorbital swelling.
+No blurred vision.
+No diplopia.
+No eye pain.
+
+ENT:
+No hearing loss.
+No epistaxis.
+No otorrhoea.
+No rhinorrhoea.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+Cardiovascular:
+No palpitations.
+No chest pain.
+
+Gastrointestinal:
+No abdominal pain.
+No vomiting.
+
+Musculoskeletal:
+Facial pain.
+Minor abrasions over both palms.
+No limb deformity.
+Able to move all limbs.
+
+PMH:
+No hypertension.
+No diabetes mellitus.
+No epilepsy.
+No bleeding disorder.
+No previous head injury.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+No anticoagulant or antiplatelet use.
+No known drug allergies.
+
+Menstrual History:
+Menarche at 13 years.
+Regular 28-day menstrual cycle.
+Last menstrual period was 12 days ago.
+No possibility of pregnancy according to the patient.
+
+Family History:
+No family history of epilepsy.
+No bleeding disorders.
+
+Social History:
+University student.
+Lives with her parents.
+Non-smoker.
+Does not consume alcohol.
+No recreational drug use.
+
+O/E:
+
+General Examination:
+Young woman.
+Conscious.
+Alert.
+Oriented in time, place and person.
+Mild painful distress.
+Not pale.
+Not jaundiced.
+Well hydrated.
+No cyanosis.
+No respiratory distress.
+
+Primary Survey (ATLS):
+
+Airway (A):
+Airway patent.
+Patient speaking normally.
+No airway compromise.
+No facial fractures causing obstruction.
+Cervical spine manually stabilized on arrival. Hard cervical collar maintained until cervical spine injury is excluded clinically.
+
+Breathing (B):
+Chest expands symmetrically.
+Good bilateral air entry.
+No respiratory distress.
+
+Circulation (C):
+No active external haemorrhage.
+Peripheral pulses full.
+Capillary refill time less than 2 seconds.
+
+Disability (D):
+Glasgow Coma Scale: 15/15.
+Eye opening – 4.
+Verbal response – 5.
+Motor response – 6.
+Pupils equal (3 mm bilaterally) and reactive to light.
+Random Blood Glucose: 5.8 mmol/L.
+
+Exposure (E):
+Complete trauma survey performed.
+Superficial abrasions over both palms and right knee.
+No long bone deformities.
+No pelvic instability.
+No additional injuries identified.
+
+Vital Signs:
+Blood Pressure: 118/74 mmHg.
+Pulse Rate: 84 beats/minute, regular.
+Respiratory Rate: 18 cycles/minute.
+Temperature: 36.8°C.
+SpO₂: 99% on room air.
+Weight: 63 kg.
+Height: 1.67 m.
+BMI: 22.6 kg/m².
+
+Local Examination of the Face:
+Approximately 4 cm oblique laceration over the right frontal region extending towards the lateral eyebrow.
+Clean wound edges.
+Minimal active bleeding.
+No exposed bone.
+Moderate surrounding soft tissue swelling.
+Bruising over the right zygomatic region and right periorbital area.
+No palpable facial bone step deformity.
+No crepitus.
+No facial nerve weakness.
+No malocclusion.
+
+Head Examination:
+No scalp swelling apart from the frontal injury.
+No depressed skull fracture.
+No boggy swelling.
+No Battle's sign.
+No raccoon eyes beyond localized traumatic bruising.
+No cerebrospinal fluid leak.
+
+Cervical Spine Examination:
+No midline cervical tenderness.
+No deformity.
+Full painless active range of motion after application of the Canadian C-Spine Rule and exclusion of clinically significant cervical spine injury.
+No neurological deficit.
+
+Central Nervous System:
+
+Higher Mental Functions:
+Normal.
+Fully oriented.
+Speech normal.
+Memory intact.
+
+Cranial Nerves:
+II–XII intact.
+Visual acuity preserved.
+Extraocular movements full.
+No facial asymmetry.
+
+Motor Examination:
+Power 5/5 in all four limbs.
+Normal tone.
+Normal reflexes.
+
+Sensory Examination:
+Intact to light touch, pain and proprioception.
+
+Cerebellar Examination:
+Finger-to-nose and heel-to-shin testing normal.
+Normal coordination.
+
+Cardiovascular Examination:
+Pulse regular.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory Examination:
+Normal vesicular breath sounds.
+No added sounds.
+
+Abdominal Examination:
+Abdomen soft.
+Non-tender.
+No guarding.
+No organomegaly.
+Bowel sounds present.
+
+Assessment:
+Mild traumatic brain injury (concussion) (GCS 15/15) with right frontal facial laceration, right periorbital and zygomatic soft tissue contusions, and multiple superficial abrasions following a motorcycle road traffic accident.
+
+Differential Diagnoses:
+Mild traumatic brain injury (concussion).
+Occult facial bone fracture.
+Orbital wall fracture.
+Small intracranial haemorrhage (unlikely but to be excluded if indicated).
+Cervical soft tissue injury.
+
+Investigations:
+
+Bedside:
+Random Blood Glucose.
+Visual acuity assessment.
+Serial Glasgow Coma Scale monitoring.
+
+Laboratory:
+Full Blood Count.
+Electrolytes, Urea & Creatinine.
+Coagulation profile if surgery is anticipated.
+Pregnancy test if clinically indicated before imaging.
+
+Imaging:
+CT Brain (Non-Contrast): Indicated if symptoms worsen, high-risk features develop, or based on institutional head injury protocols.
+CT Facial Bones: If facial fracture is suspected clinically.
+Plain X-rays only if indicated for associated limb injuries.
+
+Plan:
+
+Emergency Care:
+Continue ATLS protocol.
+Observe closely in the emergency unit for at least 4–6 hours with serial neurological examinations.
+Monitor GCS, pupils and vital signs every 30 minutes for the first 2 hours, then hourly if stable.
+
+Wound Management:
+Inj. Lidocaine (Lignocaine) 1% without adrenaline, infiltrate approximately 5–8 mL around the wound.
+Irrigate thoroughly with at least 500–1000 mL of normal saline under pressure.
+Clean surrounding skin with 10% Povidone-Iodine solution, avoiding introduction into the wound.
+Explore the wound for retained foreign bodies and assess for injury to deeper structures.
+Perform layered wound closure where indicated.
+Close the skin using 4/0 Nylon interrupted sutures.
+Apply sterile dressing.
+
+Analgesia:
+Tab Paracetamol 1 g orally every 8 hours as required (maximum 4 g/day).
+
+If pain is more severe:
+Tab Ibuprofen 400 mg orally every 8 hours after meals for 3–5 days.
+
+Avoid opioid analgesics unless absolutely necessary to prevent masking neurological deterioration.
+
+Antibiotics:
+For contaminated facial lacerations:
+Tab Amoxicillin-Clavulanate 625 mg orally every 8 hours for 5 days.
+
+If allergic to penicillin:
+Tab Clindamycin 300 mg orally every 6 hours for 5 days.
+
+Tetanus Prophylaxis:
+If fully immunized and last booster was within 5 years:
+No further vaccination required.
+
+If immunization is incomplete or uncertain:
+Tetanus Toxoid 0.5 mL IM stat.
+
+For high-risk wounds in incompletely immunized patients:
+Human Tetanus Immunoglobulin 250 IU IM at a separate site in addition to tetanus toxoid.
+
+Nursing Instructions:
+Neurological observations according to head injury protocol.
+Monitor for repeated vomiting, worsening headache, drowsiness, confusion, seizures or focal neurological deficits.
+Maintain head elevation at 30 degrees.
+Observe wound for bleeding.
+
+Counselling:
+Explain that she has sustained a mild head injury (concussion) with facial soft tissue injuries but currently has no clinical evidence of severe brain injury.
+
+Advise strict observation for the next 24–48 hours and ensure a responsible adult remains with her after discharge.
+
+She should return immediately if she develops repeated vomiting, increasing drowsiness, confusion, worsening headache, seizures, weakness of any limb, visual disturbances, persistent bleeding or fluid leakage from the ears or nose.
+
+Advise avoidance of alcohol, sedatives, strenuous physical activity and driving for at least 24–48 hours, and until symptoms have completely resolved.
+
+Emphasize the importance of wearing a properly fitted crash helmet whenever riding a motorcycle.
+
+Disposition:
+Observe in the Accident & Emergency Unit for 4–6 hours.
+
+If neurological observations remain normal, she tolerates oral intake, pain is controlled and no new symptoms develop, discharge home with head injury instructions and outpatient review in the General Surgery/Trauma Clinic within 5–7 days for wound inspection and suture removal (facial sutures typically removed after 5 days to optimize cosmetic outcome). Arrange earlier review if symptoms worsen or imaging reveals additional injuries.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-01',
   title: 'Superficial Partial-Thickness Contact Burn of the Left Calf',

@@ -1488,6 +1488,1029 @@ export const INITIAL_TEMPLATES: Template[] = [
 
   // Pediatrics
   {
+    id: 'peds-02',
+    title: 'Non-inflammatory Tinea Capitis (Grey Patch/Black Dot Type)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Dermatology',
+    condition: 'Tinea Capitis',
+    symptoms: [
+      'Scalp itching',
+      'Patchy hair loss',
+      'Scalp scaling',
+      'Alopecia',
+      'Black dots'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-07',
+    summary: 'An 8-year-old boy presented with a five-week history of pruritic scaly scalp lesions associated with patchy hair loss. Examination revealed multiple areas of non-scarring alopecia with black dots and occipital lymphadenopathy, consistent with non-inflammatory tinea capitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  An 8-year-old male primary school pupil from Abeokuta, Ogun State, Christian, Yoruba.
+  
+  Accompanied by: Mother (Reliable Informant)
+  
+  PC:
+  Scalp rash with hair loss × 5 weeks.
+  Scalp itching × 5 weeks.
+  
+  HPC:
+  
+  The child was apparently well until about five weeks prior to presentation when his mother noticed a small itchy patch over the right parietal region of the scalp. The lesion gradually increased in size and was associated with progressive hair loss over the affected area.
+  
+  Over the following weeks, additional patches developed over the occipital scalp. The lesions became increasingly pruritic and were associated with fine whitish scales. The child frequently scratches the scalp, particularly at night.
+  
+  There is no history of pain over the lesions.
+  
+  There is no purulent discharge.
+  
+  There is no bleeding from the scalp.
+  
+  There is no fever.
+  
+  There is no headache.
+  
+  There is no facial swelling.
+  
+  His mother reports that two classmates have similar scalp lesions, and the child frequently shares hair clippers during haircuts at the neighbourhood barbershop.
+  
+  She applied an over-the-counter topical antifungal cream for two weeks without improvement.
+  
+  There is no previous history of similar illness.
+  
+  Review of Systems
+  
+  General:
+  No fever.
+  Good appetite.
+  No weight loss.
+  Active.
+  
+  Dermatological:
+  Scalp itching.
+  Patchy hair loss.
+  Scalp scaling.
+  No generalized skin rash.
+  
+  ENT:
+  No ear discharge.
+  No sore throat.
+  
+  Respiratory:
+  No cough.
+  No difficulty breathing.
+  
+  Gastrointestinal:
+  No vomiting.
+  No diarrhoea.
+  
+  Neurological:
+  No seizures.
+  No headache.
+  
+  Past Medical History:
+  No chronic medical illness.
+  No diabetes mellitus.
+  No eczema.
+  No previous hospital admissions.
+  
+  Birth History:
+  Delivered at term via spontaneous vaginal delivery.
+  No neonatal complications.
+  
+  Immunization History:
+  Fully immunized according to the National Programme on Immunization schedule.
+  
+  Drug History:
+  Previously used topical antifungal cream without improvement.
+  No known drug allergies.
+  
+  Family History:
+  Younger sibling had a similar scalp infection one year ago.
+  No family history of psoriasis or alopecia areata.
+  
+  Social History:
+  Lives with both parents and three siblings.
+  Attends primary school.
+  Frequently shares hair clippers at the local barbershop.
+  No household pets.
+  
+  O/E:
+  
+  General Examination:
+  Young boy.
+  Alert.
+  Playful.
+  Well hydrated.
+  Afebrile.
+  Not pale.
+  Not jaundiced.
+  
+  Vital Signs:
+  Temperature: 36.8°C
+  PR: 94 bpm
+  RR: 22 cpm
+  BP: 96/60 mmHg
+  SpO₂: 99% on room air
+  Weight: 27 kg
+  
+  Dermatological Examination:
+  Multiple well-circumscribed patches of alopecia involving the right parietal and occipital regions of the scalp.
+  
+  The lesions measure approximately 2–5 cm in diameter.
+  
+  Fine grey-white scales are present over the affected areas.
+  
+  Numerous broken hairs ("black dots") are seen within the patches.
+  
+  Mild surrounding erythema noted.
+  
+  No pustules.
+  
+  No abscess.
+  
+  No boggy inflammatory swelling (kerion).
+  
+  No ulceration.
+  
+  No scarring alopecia.
+  
+  Mild bilateral occipital lymphadenopathy is present. The lymph nodes are mobile, mildly tender and approximately 1 cm in diameter.
+  
+  No lesions are present on the face, trunk or limbs.
+  
+  Systemic Examination
+  
+  Cardiovascular:
+  Pulse regular.
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Respiratory:
+  Chest clinically clear.
+  Normal vesicular breath sounds.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  Bowel sounds present.
+  
+  Central Nervous System:
+  Conscious.
+  Alert.
+  Appropriate for age.
+  No focal neurological deficits.
+  
+  Assessment:
+  Non-inflammatory tinea capitis (grey patch/black dot type), likely caused by a dermatophyte infection, most commonly Trichophyton species.
+  
+  Differential Diagnoses:
+  Alopecia areata.
+  Seborrhoeic dermatitis.
+  Scalp psoriasis.
+  Trichotillomania.
+  Early kerion.
+  
+  Investigations:
+  
+  If available:
+  • Skin and hair scrapings for 10–20% potassium hydroxide (KOH) microscopy.
+  • Fungal culture of plucked hairs or scalp scrapings.
+  • Wood's lamp examination (may fluoresce with some Microsporum species).
+  
+  Baseline investigations (if prolonged systemic antifungal therapy is anticipated):
+  • Liver Function Tests.
+  • Full Blood Count (if clinically indicated).
+  
+  Plan:
+  
+  General Measures:
+  Explained that tinea capitis is a contagious fungal infection involving the scalp and hair shafts.
+  Advise against sharing combs, brushes, towels, caps, pillows or hair clippers.
+  Ensure all household members and close contacts are examined for scalp fungal infection.
+  Disinfect or replace hair grooming equipment.
+  Encourage regular hair washing with antifungal shampoo.
+  
+  Systemic Antifungal Therapy (First-Line):
+  
+  Option 1 (Preferred):
+  Griseofulvin (Microsize) 20–25 mg/kg/day PO for 6–8 weeks.
+  
+  For this child (27 kg):
+  Griseofulvin 500 mg PO once daily after a fatty meal for 8 weeks.
+  
+  Option 2:
+  Terbinafine 125 mg PO once daily for 4 weeks (for children weighing 20–40 kg).
+  Preferred where Trichophyton infection is suspected.
+  
+  Option 3:
+  Itraconazole 5 mg/kg/day PO for 4–6 weeks under specialist supervision.
+  
+  Option 4:
+  Fluconazole 6 mg/kg PO once daily for 3–6 weeks where other agents are unavailable or contraindicated.
+  
+  Adjunctive Topical Therapy:
+  Topical treatment alone is not curative but helps reduce fungal shedding and transmission.
+  
+  Ketoconazole 2% shampoo:
+  Wash scalp twice weekly for 4 weeks, leaving the shampoo in contact with the scalp for 5 minutes before rinsing.
+  
+  Alternative:
+  Selenium sulphide 2.5% shampoo twice weekly for 2–4 weeks.
+  
+  Antipruritic:
+  If itching is troublesome:
+  Cetirizine syrup 5 mg PO at night for 7 days.
+  
+  If Secondary Bacterial Infection Develops:
+  
+  Flucloxacillin 25 mg/kg PO every 6 hours for 5–7 days.
+  
+  If penicillin-allergic:
+  Clindamycin 10 mg/kg PO every 8 hours for 5–7 days.
+  
+  Antibiotics should only be prescribed if there is clinical evidence of secondary bacterial infection.
+  
+  Parent Education:
+  Explained that oral antifungal medication is necessary because the fungus infects the hair shafts and follicles, which topical creams cannot adequately penetrate.
+  Emphasized the importance of completing the full course of treatment even if improvement occurs early.
+  Explained that hair regrowth usually begins several weeks after successful treatment and may take several months to become complete.
+  Advised parents to avoid sharing hair grooming equipment and ensure barbering instruments are properly sterilized.
+  Recommended screening of siblings and other close household contacts for similar scalp lesions.
+  
+  Follow-up:
+  Review after 4 weeks to assess clinical improvement and treatment adherence.
+  Continue systemic therapy until complete clinical resolution and, where available, mycological cure.
+  Advise earlier review if painful scalp swelling (kerion), pus discharge, fever or rapidly progressive hair loss develops.
+  
+  Prognosis:
+  Excellent with appropriate systemic antifungal therapy. Early diagnosis and treatment minimize the risk of permanent scarring alopecia.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-01',
+    title: 'Acute Left Otitis Media',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Emergency / ENT',
+    condition: 'Acute Otitis Media',
+    symptoms: [
+      'Left ear pain',
+      'Fever',
+      'Excessive crying',
+      'Ear pulling',
+      'Upper respiratory tract infection'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-07',
+    summary: 'A 3-year-old boy presented with acute onset left ear pain, fever and excessive crying following an upper respiratory tract infection. Examination revealed a bulging erythematous left tympanic membrane, consistent with acute left otitis media.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 3-year-old male preschool child from Abeokuta, Ogun State, Christian, Yoruba.
+  
+  Accompanied by: Mother (Reliable Informant)
+  
+  PC:
+  Left ear pain × 2 days.
+  Fever × 2 days.
+  Excessive crying × 2 days.
+  
+  HPC:
+  
+  The child was apparently well until two days prior to presentation when he developed a high-grade intermittent fever associated with excessive crying and irritability. A few hours later, he began complaining of pain in the left ear and repeatedly pulled at the affected ear.
+  
+  The pain progressively worsened and became severe enough to disturb his sleep. His mother reports reduced appetite but adequate fluid intake.
+  
+  The illness was preceded by a five-day history of cough, nasal congestion and clear nasal discharge suggestive of an upper respiratory tract infection.
+  
+  There is no ear discharge.
+  
+  There is no bleeding from the ear.
+  
+  There is no swelling behind the ear.
+  
+  There is no vomiting.
+  
+  There are no seizures.
+  
+  There is no history of trauma to the ear.
+  
+  No foreign body was inserted into the ear.
+  
+  There is no previous history of recurrent ear infections.
+  
+  Paracetamol syrup was administered at home with temporary relief.
+  
+  Review of Systems
+  
+  General:
+  Fever.
+  Irritability.
+  Reduced appetite.
+  No weight loss.
+  
+  ENT:
+  Left ear pain.
+  Ear pulling.
+  Nasal congestion.
+  Rhinorrhoea.
+  No ear discharge.
+  No hearing loss noticed by the caregiver.
+  
+  Respiratory:
+  Mild cough.
+  No difficulty breathing.
+  
+  Gastrointestinal:
+  No vomiting.
+  No diarrhoea.
+  
+  Neurological:
+  No seizures.
+  No altered consciousness.
+  
+  Past Medical History:
+  No previous hospital admissions.
+  No chronic medical illness.
+  No known immunodeficiency.
+  
+  Birth History:
+  Delivered at term via spontaneous vaginal delivery.
+  Birth weight: 3.2 kg.
+  No neonatal complications.
+  
+  Immunization History:
+  Fully immunized for age, including Pneumococcal Conjugate Vaccine (PCV) and Haemophilus influenzae type b (Hib) vaccine.
+  
+  Drug History:
+  Paracetamol syrup administered at home.
+  No known drug allergies.
+  
+  Family History:
+  No recurrent ear disease among siblings.
+  
+  Social History:
+  Lives with both parents.
+  Attends daycare.
+  No exposure to cigarette smoke at home.
+  
+  O/E:
+  
+  General Examination:
+  Young child.
+  Conscious.
+  Alert.
+  Irritable because of pain.
+  Febrile.
+  Well hydrated.
+  Not pale.
+  Not jaundiced.
+  
+  Vital Signs:
+  Temperature: 38.8°C
+  PR: 118 bpm
+  RR: 28 cpm
+  BP: 92/58 mmHg
+  SpO₂: 99% on room air
+  Weight: 15 kg
+  
+  ENT Examination
+  
+  Left Ear:
+  External ear normal.
+  No tenderness on tragal pressure or pinna traction.
+  External auditory canal healthy.
+  Otoscopy reveals an erythematous, dull, bulging tympanic membrane with loss of normal landmarks.
+  Light reflex absent.
+  Reduced tympanic membrane mobility on pneumatic otoscopy (where available).
+  No perforation.
+  No discharge.
+  
+  Right Ear:
+  External auditory canal normal.
+  Tympanic membrane intact with normal landmarks.
+  
+  Nose:
+  Mild nasal congestion.
+  Mucoid nasal discharge present.
+  
+  Throat:
+  Mild pharyngeal erythema.
+  No tonsillar exudates.
+  
+  Neck:
+  No cervical lymphadenopathy.
+  No neck stiffness.
+  
+  Mastoid Region:
+  No mastoid tenderness.
+  No erythema.
+  No swelling.
+  
+  Systemic Examination
+  
+  Cardiovascular:
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  No added sounds.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  Bowel sounds present.
+  
+  Central Nervous System:
+  Conscious.
+  Alert.
+  Appropriate for age.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute left otitis media following an upper respiratory tract infection.
+  
+  Differential Diagnoses:
+  Otitis externa.
+  Otitis media with effusion.
+  Foreign body in the ear.
+  Referred otalgia secondary to acute pharyngotonsillitis.
+  Mastoiditis (currently no clinical evidence).
+  
+  Investigations:
+  
+  Routine investigations are not required in uncomplicated acute otitis media.
+  
+  If recurrent or complicated:
+  • Full Blood Count.
+  • Ear swab for microscopy, culture and sensitivity (if perforation with discharge develops).
+  • Audiological assessment if persistent hearing impairment develops.
+  • Tympanometry where available.
+  • CT Temporal Bone if mastoiditis or intracranial complications are suspected.
+  
+  Plan:
+  
+  General Measures:
+  Explain that acute otitis media commonly follows viral upper respiratory tract infections due to Eustachian tube dysfunction with secondary bacterial infection.
+  Encourage adequate oral fluid intake.
+  Continue age-appropriate feeding.
+  Ensure adequate rest.
+  
+  Analgesia / Antipyretics:
+  
+  Paracetamol:
+  Paracetamol syrup 15 mg/kg/dose PO every 6 hours as required.
+  For this child (15 kg):
+  225 mg per dose.
+  Using 120 mg/5 mL syrup: Give 9.5 mL every 6 hours as needed.
+  
+  Ibuprofen (Alternative or Additional):
+  Ibuprofen 10 mg/kg/dose PO every 8 hours after meals.
+  For this child:
+  150 mg per dose.
+  Using 100 mg/5 mL suspension: Give 7.5 mL every 8 hours.
+  Avoid if dehydrated or renal impairment is suspected.
+  
+  Antibiotic Therapy:
+  
+  First-line:
+  Amoxicillin 80–90 mg/kg/day PO divided into two doses for 7 days.
+  
+  For this child (15 kg):
+  Total daily dose ≈ 1,200 mg/day.
+  
+  Amoxicillin suspension 400 mg/5 mL:
+  Give 7.5 mL orally twice daily for 7 days.
+  
+  If amoxicillin was used within the previous 30 days or purulent conjunctivitis is present:
+  Amoxicillin-Clavulanate (Augmentin) 90 mg/kg/day (amoxicillin component) divided twice daily for 7 days.
+  
+  Penicillin Allergy (Non-anaphylactic):
+  Cefuroxime axetil 15 mg/kg PO twice daily for 7 days.
+  
+  Severe Penicillin Allergy:
+  Azithromycin 10 mg/kg on Day 1, then 5 mg/kg once daily on Days 2–5.
+  
+  Nasal Care:
+  Normal saline nasal drops 2–3 drops into each nostril 3–4 times daily as required.
+  Routine oral or topical decongestants are not recommended.
+  
+  Nursing Instructions:
+  Monitor temperature.
+  Encourage oral fluid intake.
+  Administer prescribed medications.
+  Observe for worsening pain, ear discharge or mastoid swelling.
+  
+  Parent Education:
+  Explained that acute otitis media is common in young children and frequently follows a cold.
+  Emphasized the importance of completing the prescribed antibiotic course.
+  Advised against inserting cotton buds, herbs or oils into the ear.
+  Encouraged attendance at follow-up appointments.
+  Caregiver advised to return immediately if the child develops persistent high fever, swelling behind the ear, persistent vomiting, severe headache, convulsions, drowsiness, facial weakness or ear discharge.
+  
+  Follow-up:
+  Review in 48–72 hours if symptoms fail to improve or worsen.
+  Routine review in 1–2 weeks to confirm clinical resolution and assess hearing.
+  Earlier ENT referral is indicated for recurrent acute otitis media, persistent middle ear effusion beyond 3 months, hearing impairment or suspected complications.
+  
+  Prognosis:
+  Excellent. Most children recover completely with appropriate analgesia and antibiotic therapy. Early treatment reduces the risk of tympanic membrane perforation, mastoiditis and hearing impairment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-02',
+    title: 'Vaso-Occlusive Crisis Secondary to Malaria or Upper Respiratory Tract Infection',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Haematology',
+    condition: 'Sickle Cell Disease (HbSS)',
+    symptoms: [
+      'Generalized bone pain',
+      'Lower limb pain',
+      'Low-grade fever',
+      'Dry cough',
+      'Painful crisis',
+      'Bone tenderness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '16-year-old girl with HbSS disease presenting with an acute vaso-occlusive crisis likely precipitated by malaria or an upper respiratory tract infection.',
+    content: `PAEDIATRIC EMERGENCY UNIT / PAEDIATRIC HAEMATOLOGY
+  
+  Patient Seen
+  
+  A 16-year-old Yoruba female student from Bodija, Ibadan, Oyo State, with known HbSS genotype.
+  
+  PC:
+  Severe generalized bone pain × 1 day
+  Low-grade fever × 2 days
+  
+  HPC:
+  The patient is a known HbSS patient diagnosed at the age of 2 years at the University College Hospital (UCH), Ibadan. She was apparently well until one day prior to presentation when she developed sudden onset severe generalized bone pain involving both lower limbs, lower back and chest.
+  
+  The pain is throbbing in nature, rated 8/10 in severity, and was precipitated by exposure to cold weather following heavy rainfall as well as physical exertion at school. The pain was minimally relieved by oral Paracetamol and Ibuprofen taken prior to presentation but progressively worsened, preventing her from walking or sleeping.
+  
+  There is an associated history of low-grade intermittent fever of two days duration accompanied by a mild non-productive cough and physical exhaustion.
+  
+  There is no history of dactylitis, abdominal pain, vomiting, diarrhoea, shortness of breath, pleuritic chest pain, headache, neck stiffness or focal neurological deficits.
+  
+  Her last vaso-occlusive crisis occurred six months ago and was mild, resolving with oral hydration and analgesics at home. She has had two previous hospital admissions for vaso-occlusive crises within the last two years.
+  
+  ROS:
+  
+  General:
+  Fever.
+  Physical exhaustion.
+  Severe pain.
+  
+  Cardiovascular:
+  No palpitations.
+  No orthopnoea.
+  No pedal swelling.
+  
+  Respiratory:
+  Mild dry cough.
+  No dyspnoea.
+  No pleuritic chest pain.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No abdominal distension.
+  No vomiting.
+  
+  Neurological:
+  No headache.
+  No dizziness.
+  No seizures.
+  No focal weakness.
+  
+  Musculoskeletal:
+  Severe generalized bone pain.
+  No joint swelling.
+  
+  PMH:
+  Known HbSS disease diagnosed at 2 years of age.
+  Two previous blood transfusions, the last one year ago during a severe anaemic crisis.
+  No previous surgical intervention.
+  No known drug allergies.
+  
+  Drug History:
+  Tab Folic Acid 5 mg PO daily.
+  Tab Proguanil (Paludrine) 100 mg PO daily.
+  Poor medication adherence over the past month.
+  Prior to presentation, took Tab Paracetamol 1 g and Tab Ibuprofen 400 mg approximately 6 hours earlier with minimal relief.
+  
+  Family History:
+  Second of four children in a monogamous family.
+  Father HbAS.
+  Mother HbAS.
+  One younger sibling (10 years old) also has HbSS disease.
+  
+  Social History:
+  Lives with parents in a well-ventilated three-bedroom apartment.
+  Middle-income household.
+  
+  O/E:
+  Acutely ill-looking adolescent.
+  Conscious.
+  Alert.
+  In obvious painful distress.
+  Warm to touch.
+  Mildly dehydrated.
+  No peripheral lymphadenopathy.
+  
+  Vitals:
+  Temperature 37.8°C
+  PR 104 bpm, regular, full volume
+  RR 22 cpm
+  BP 105/65 mmHg
+  SpO₂ 96% on room air
+  
+  Head and Neck:
+  Mild conjunctival pallor.
+  Mild scleral icterus consistent with chronic haemolysis.
+  Dry mucous membranes.
+  
+  CVS:
+  Hyperdynamic precordium.
+  Apex beat at the 5th left intercostal space, midclavicular line.
+  S1 and S2 heard.
+  Grade 2/6 haemic systolic murmur loudest at the apex.
+  
+  Respiratory:
+  Trachea central.
+  Chest expands symmetrically.
+  Percussion note resonant.
+  Vesicular breath sounds.
+  No crepitations.
+  No rhonchi.
+  
+  Abdomen:
+  Flat.
+  Soft.
+  Non-tender.
+  Liver palpable 3 cm below the right costal margin, smooth and non-tender.
+  Spleen not palpable, suggestive of autosplenectomy.
+  Bowel sounds present.
+  
+  CNS:
+  Conscious.
+  Alert.
+  GCS 15/15.
+  No neck stiffness.
+  No focal neurological deficits.
+  
+  Musculoskeletal:
+  Marked tenderness over both femora, tibiae and humeri.
+  No localized swelling.
+  No erythema.
+  No increased warmth over joints.
+  
+  Assessment:
+  Known HbSS disease with acute vaso-occlusive (painful) crisis, likely precipitated by malaria or an upper respiratory tract infection.
+  
+  Differential Diagnoses:
+  Malaria in a patient with HbSS.
+  Acute osteomyelitis (early stage).
+  Acute chest syndrome (prodromal phase).
+  
+  Plan:
+  
+  Investigations:
+  FBC.
+  Reticulocyte count.
+  Malaria parasite thick and thin blood films.
+  Urinalysis.
+  EUCr.
+  Chest X-ray.
+  
+  Management:
+  
+  Immediate Stabilization:
+  Secure intravenous access.
+  Commence 5% Dextrose in 0.9% Normal Saline at 150 mL/hour, adjusting according to hydration status and avoiding fluid overload.
+  Encourage oral fluids as tolerated.
+  
+  Analgesia:
+  Inj. Pentazocine 30 mg IV stat administered slowly over 2 minutes, then 30 mg IV every 6–8 hours as required.
+  If Morphine is available:
+  Inj. Morphine 0.1 mg/kg IV every 4 hours as required.
+  Inj. Paracetamol 1 g IV every 8 hours.
+  Diclofenac suppository 100 mg PR stat, followed by Tab Ibuprofen 400 mg PO every 8 hours once oral intake is tolerated and renal function is satisfactory.
+  
+  Treatment of Precipitating Factors:
+  Oral Artemether-Lumefantrine 80/480 mg twice daily for 3 days.
+  Inj. Ceftriaxone 1 g IV once daily pending clinical assessment and investigation results.
+  
+  Supportive Care:
+  Keep patient warm and avoid cold exposure.
+  Administer oxygen via nasal cannula at 2–3 L/min only if SpO₂ falls below 95%.
+  Continue Tab Folic Acid 5 mg PO daily after stabilization.
+  
+  Monitoring:
+  Monitor temperature, pulse rate, respiratory rate, blood pressure, oxygen saturation and pain score every 2 hours.
+  Maintain strict input and output chart.
+  
+  Referral/Escalation:
+  Refer to a tertiary centre (e.g., University College Hospital, Ibadan) if:
+  Pain remains refractory after 24–48 hours of adequate opioid therapy.
+  Respiratory distress, tachypnoea or oxygen saturation below 92% develops.
+  Haemoglobin falls below 5 g/dL requiring urgent blood transfusion.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-01',
+    title: 'Vaso-Occlusive Crisis Secondary to Uncomplicated Malaria',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Haematology',
+    condition: 'Sickle Cell Disease (HbSS)',
+    symptoms: [
+      'Generalized body pains',
+      'Fever',
+      'Refusal to walk',
+      'Bone pain',
+      'Painful crisis',
+      'Malaria'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '6-year-old boy with HbSS disease presenting with acute vaso-occlusive crisis precipitated by uncomplicated Plasmodium falciparum malaria.',
+    content: `PAEDIATRIC EMERGENCY UNIT / PAEDIATRIC HAEMATOLOGY
+  
+  Patient Seen
+  
+  A 6-year-old Yoruba male nursery/primary school pupil from Abeokuta, Ogun State, Christian, with confirmed HbSS genotype by haemoglobin electrophoresis.
+  
+  Accompanied by: Mother (Reliable Informant)
+  
+  PC:
+  Generalized body pains × 1 day
+  Fever × 2 days
+  Refusal to walk due to pain × 1 day
+  
+  HPC:
+  The patient is a known HbSS patient diagnosed during infancy and is being followed up at the Paediatric Haematology Clinic.
+  
+  He was apparently well until two days prior to presentation when he developed high-grade intermittent fever associated with chills, excessive sweating, weakness and poor appetite.
+  
+  Approximately 24 hours prior to presentation, he developed severe pain involving both lower limbs, both upper limbs and the lower back. The pain was sudden in onset, deep, aching in nature and severe enough to prevent him from walking. His mother reported that the pain was similar to previous vaso-occlusive crises but was more severe on this occasion.
+  
+  The child also complained of headache and generalized body weakness.
+  
+  There is no history of trauma, joint swelling, redness over the painful areas, chest pain, cough, difficulty breathing, abdominal swelling, vomiting, diarrhoea or reduced urine output.
+  
+  His mother administered oral paracetamol at home with minimal relief before presentation.
+  
+  There is a history of inconsistent use of insecticide-treated mosquito nets with frequent mosquito exposure at home.
+  
+  There is no history of recent blood transfusion.
+  
+  ROS:
+  
+  General:
+  High-grade fever.
+  Generalized weakness.
+  Poor appetite.
+  Painful distress.
+  
+  Musculoskeletal:
+  Generalized bone pain.
+  Upper limb pain.
+  Lower limb pain.
+  Refusal to bear weight.
+  No joint swelling.
+  
+  Respiratory:
+  No cough.
+  No chest pain.
+  No fast breathing.
+  
+  Cardiovascular:
+  No palpitations.
+  
+  Gastrointestinal:
+  No vomiting.
+  No diarrhoea.
+  No abdominal pain.
+  
+  Genitourinary:
+  Normal urine output.
+  No dysuria.
+  
+  Neurological:
+  Headache.
+  No seizures.
+  No loss of consciousness.
+  
+  PMH:
+  Known HbSS disease.
+  Multiple previous vaso-occlusive crises.
+  One previous blood transfusion two years ago.
+  No previous stroke.
+  No previous acute chest syndrome.
+  No splenectomy.
+  
+  Drug History:
+  Tab Hydroxyurea 500 mg PO daily.
+  Tab Folic Acid 5 mg PO daily.
+  Poor adherence to malaria chemopreventive measures.
+  No known drug allergies.
+  
+  Immunization History:
+  Fully immunized for age, including Pneumococcal Conjugate Vaccine, Haemophilus influenzae type b vaccine and Meningococcal vaccine.
+  
+  Family History:
+  Both parents are HbAS.
+  No family history of malignancy.
+  
+  Social History:
+  Lives with both parents.
+  Attends primary school.
+  Uses insecticide-treated mosquito net inconsistently.
+  
+  O/E:
+  Young child.
+  Conscious.
+  Alert.
+  In severe painful distress.
+  Febrile.
+  Mildly pale.
+  Anicteric.
+  Well hydrated.
+  Not cyanosed.
+  No pedal oedema.
+  
+  Vitals:
+  Temperature 39.2°C
+  PR 126 bpm, regular
+  RR 28 cpm
+  BP 94/60 mmHg
+  SpO₂ 98% on room air
+  Weight 22 kg
+  
+  Musculoskeletal:
+  Diffuse tenderness over both femora, tibiae, humeri and lumbar spine.
+  No erythema.
+  No warmth.
+  No joint swelling.
+  Passive movements preserved but painful.
+  Refuses to stand because of pain.
+  
+  CVS:
+  Tachycardia.
+  S1 and S2 heard.
+  No murmurs.
+  Peripheral pulses full.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Vesicular breath sounds.
+  No crepitations.
+  No wheeze.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  Liver palpable 2 cm below the right costal margin, smooth and non-tender.
+  Spleen not palpable.
+  Bowel sounds present.
+  
+  CNS:
+  Conscious.
+  Alert.
+  Appropriate for age.
+  No neck stiffness.
+  Power difficult to assess because of pain but moves all four limbs spontaneously.
+  No focal neurological deficits.
+  
+  Assessment:
+  Known HbSS disease with acute vaso-occlusive (painful) crisis precipitated by uncomplicated malaria (likely Plasmodium falciparum infection).
+  
+  Differential Diagnoses:
+  Acute osteomyelitis.
+  Septic arthritis.
+  Acute chest syndrome (currently no clinical evidence).
+  Aplastic crisis.
+  Septicaemia.
+  
+  Results Available:
+  Malaria Rapid Diagnostic Test positive for Plasmodium falciparum.
+  
+  Plan:
+  
+  Investigations:
+  mRDT.
+  Pain score assessment.
+  Pulse oximetry.
+  Urinalysis.
+  Random blood glucose.
+  FBC.
+  Reticulocyte count.
+  Peripheral blood film.
+  Thick and thin blood film for malaria parasite density.
+  EUCr.
+  LFT.
+  Blood culture (if sepsis suspected).
+  CRP.
+  Group and save/crossmatch.
+  Chest X-ray if respiratory symptoms develop.
+  X-ray of affected limb if osteomyelitis is suspected.
+  
+  Management:
+  
+  Admission:
+  Admit to the Paediatric Ward.
+  Commence regular pain assessment using an age-appropriate pain scale.
+  Monitor vital signs every 4 hours.
+  Maintain strict input and output chart.
+  
+  Oxygen:
+  Not indicated presently.
+  Administer oxygen only if SpO₂ falls below 94% or respiratory distress develops.
+  
+  Fluid Therapy:
+  Encourage oral fluids if tolerated.
+  If oral intake is poor:
+  0.9% Normal Saline 500 mL IV over 4 hours, followed by maintenance fluids at 62 mL/hour (4-2-1 rule), adjusting according to oral intake, urine output and clinical status while avoiding overhydration.
+  
+  Analgesia:
+  Paracetamol 15 mg/kg (330 mg) PO/IV every 6 hours as required.
+  Ibuprofen 10 mg/kg (220 mg) PO every 8 hours after meals if pain persists and there are no contraindications.
+  For severe pain:
+  Morphine 0.1 mg/kg IV every 4 hours as required (2 mg IV slowly for this child), titrated to pain relief with monitoring.
+  
+  Antimalarial:
+  Artemether-Lumefantrine (20/120 mg):
+  Two tablets at 0 hour.
+  Two tablets at 8 hours.
+  Then two tablets twice daily on Days 2 and 3.
+  Administer with milk or a fatty meal.
+  
+  If severe malaria develops or oral therapy is not tolerated:
+  Inj. Artesunate 2.4 mg/kg IV/IM at 0, 12 and 24 hours, then once daily until oral medication can be commenced.
+  
+  Continue:
+  Tab Folic Acid 5 mg PO daily.
+  Continue Hydroxyurea after review by the Paediatric Haematology Team provided there are no contraindications.
+  
+  Antibiotics:
+  Not routinely indicated.
+  If bacterial infection or sepsis is suspected:
+  Inj. Ceftriaxone 80 mg/kg/day IV once daily (1.75 g IV daily; maximum 2 g/day) pending culture results.
+  
+  Nursing Instructions:
+  Maintain strict fluid balance chart.
+  Monitor pain score every 2–4 hours.
+  Monitor temperature every 4 hours.
+  Encourage oral fluid intake.
+  Observe for respiratory distress, chest pain, worsening anaemia, splenic enlargement and neurological deterioration.
+  
+  Health Education:
+  Explain that malaria is a common trigger for vaso-occlusive crises in sickle cell disease.
+  Emphasize consistent use of long-lasting insecticide-treated mosquito nets, environmental mosquito control, prompt treatment of fever and adequate hydration.
+  Stress adherence to Hydroxyurea, Folic Acid and routine clinic follow-up.
+  Advise immediate presentation if the child develops difficulty breathing, persistent fever, convulsions, increasing pallor, jaundice, abdominal swelling, reduced urine output, inability to drink or worsening pain despite treatment.
+  
+  Follow-up:
+  Daily review while on admission.
+  Repeat malaria parasite assessment if clinically indicated.
+  Review by the Paediatric Haematology Team during admission.
+  Following discharge, follow up in the Paediatric Haematology Clinic within 1–2 weeks to reinforce malaria prevention, assess Hydroxyurea adherence and optimize long-term sickle cell disease care.
+  
+  Prognosis:
+  Good with prompt treatment of malaria, adequate analgesia, hydration and close monitoring for complications such as acute chest syndrome, severe anaemia and sepsis.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'peds-01',
     title: 'Non-Bullous Impetigo Contagiosa',
     specialty: 'Pediatrics',
@@ -6853,6 +7876,758 @@ Not yet available
   // Internal Medicine
   {
     id: 'im-01',
+    title: 'Acute Viral Labyrinthitis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'ENT / Neurology',
+    condition: 'Acute Peripheral Vertigo',
+    symptoms: [
+      'Vertigo',
+      'Nausea and vomiting',
+      'Left-sided hearing loss',
+      'Left-sided tinnitus',
+      'Gait unsteadiness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-07',
+    summary: 'A 34-year-old woman presented with acute severe vertigo, nausea, vomiting, left-sided hearing loss and tinnitus following a recent upper respiratory tract infection, consistent with acute viral labyrinthitis.',
+    content: `MEDICAL CLINIC
+  
+  Patient Seen
+  
+  A 34-year-old married secondary school teacher from Abeokuta, Ogun State, Christian, Yoruba.
+  
+  PC:
+  Severe spinning sensation (vertigo) × 2 days.
+  Nausea and vomiting × 2 days.
+  Reduced hearing in the left ear × 2 days.
+  
+  HPC:
+  
+  She was apparently well until two days prior to presentation when she developed sudden-onset severe spinning sensation. She describes the environment as rotating around her even while lying still. The vertigo is continuous, worsens with head movement, and is associated with marked unsteadiness while walking.
+  
+  The symptoms were preceded by a five-day history of upper respiratory tract infection characterized by nasal congestion, sore throat and low-grade fever, which had begun to improve before the onset of vertigo.
+  
+  Shortly after the dizziness began, she developed nausea and has had four episodes of non-bilious, non-projectile vomiting.
+  
+  She also noticed reduced hearing in the left ear associated with tinnitus.
+  
+  There is no ear pain.
+  
+  There is no ear discharge.
+  
+  There is no facial weakness.
+  
+  There is no diplopia.
+  
+  There is no dysarthria.
+  
+  There is no limb weakness.
+  
+  There is no loss of consciousness.
+  
+  There is no severe headache or features suggestive of meningitis.
+  
+  She has never experienced similar symptoms previously.
+  
+  Review of Systems
+  
+  General:
+  Mild malaise.
+  No current fever.
+  No weight loss.
+  
+  ENT:
+  Vertigo.
+  Left-sided hearing impairment.
+  Left-sided tinnitus.
+  No ear pain.
+  No ear discharge.
+  
+  Neurological:
+  Difficulty maintaining balance.
+  No seizures.
+  No focal weakness.
+  No sensory loss.
+  No visual disturbance.
+  
+  Gastrointestinal:
+  Nausea.
+  Repeated vomiting.
+  No abdominal pain.
+  
+  Cardiovascular:
+  No chest pain.
+  No palpitations.
+  
+  Past Medical History:
+  No hypertension.
+  No diabetes mellitus.
+  No previous ear disease.
+  No cerebrovascular disease.
+  
+  Past Surgical History:
+  Nil significant.
+  
+  Drug History:
+  Paracetamol taken during the recent upper respiratory tract infection.
+  No known drug allergies.
+  
+  Family History:
+  No family history of Ménière disease or neurological disorders.
+  
+  Social History:
+  Secondary school teacher.
+  Non-smoker.
+  Does not consume alcohol.
+  No recreational drug use.
+  
+  O/E:
+  
+  General Examination:
+  Young woman.
+  Conscious.
+  Alert.
+  Ill-looking because of vertigo.
+  Unable to stand unsupported.
+  Well hydrated.
+  Not pale.
+  Not jaundiced.
+  
+  Vital Signs:
+  BP: 118/74 mmHg
+  PR: 88 bpm
+  RR: 18 cpm
+  Temperature: 36.9°C
+  SpO₂: 99% on room air
+  Weight: 67 kg
+  
+  ENT Examination:
+  External ears appear normal.
+  External auditory canals healthy.
+  Both tympanic membranes intact with normal landmarks.
+  No middle ear effusion.
+  No mastoid tenderness.
+  Bedside hearing assessment demonstrates reduced hearing in the left ear.
+  
+  Neurological Examination:
+  Patient conscious and fully oriented.
+  Speech normal.
+  Horizontal left-beating spontaneous nystagmus present.
+  Positive head impulse test toward the left.
+  Positive Romberg test with tendency to fall toward the left.
+  Broad-based unsteady gait.
+  Cranial nerves II–XII otherwise intact.
+  Normal muscle bulk, tone and power (5/5) in all limbs.
+  Reflexes normal.
+  Sensation intact.
+  No cerebellar dysmetria.
+  No signs of meningeal irritation.
+  
+  Cardiovascular Examination:
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Respiratory Examination:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  
+  Abdominal Examination:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Assessment:
+  Acute viral labyrinthitis (left ear) following recent upper respiratory tract infection.
+  
+  Differential Diagnoses:
+  Vestibular neuritis.
+  Ménière disease.
+  Benign paroxysmal positional vertigo (BPPV).
+  Posterior circulation stroke.
+  Cerebellar tumour.
+  Multiple sclerosis.
+  
+  Investigations:
+  
+  Laboratory:
+  Full Blood Count.
+  Electrolytes, Urea & Creatinine.
+  Random Blood Glucose.
+  
+  Audiological:
+  Pure Tone Audiometry.
+  Tympanometry.
+  
+  Imaging (if red flags are present):
+  MRI Brain with Internal Auditory Canal.
+  CT Brain if MRI is unavailable and stroke is suspected.
+  
+  Plan:
+  
+  General Measures:
+  Admit if vomiting is persistent, oral intake is inadequate or the patient cannot ambulate safely.
+  Encourage bed rest during the acute phase.
+  Maintain adequate hydration.
+  Commence vestibular rehabilitation exercises once acute symptoms improve.
+  
+  Fluid Therapy:
+  If unable to tolerate oral fluids:
+  0.9% Normal Saline 1 L IV over 6 hours, then continue according to hydration status and oral intake.
+  
+  Vestibular Suppressants:
+  Option 1:
+  Tab Prochlorperazine (Stemetil) 5 mg PO every 8 hours for up to 3 days.
+  If vomiting is severe:
+  Inj. Prochlorperazine 12.5 mg IM stat, then convert to oral therapy.
+  
+  Option 2:
+  Tab Cinnarizine 25 mg PO three times daily for 5–7 days.
+  
+  Option 3:
+  Tab Meclizine 25 mg PO every 8 hours for 3–5 days where available.
+  
+  Vestibular suppressants should not be continued beyond the acute phase (3–5 days) because prolonged use may delay vestibular compensation.
+  
+  Antiemetics:
+  Inj. Ondansetron 4 mg IV slowly every 8 hours as required.
+  Convert to Tab Ondansetron 4 mg PO every 8 hours as needed once oral intake is tolerated.
+  
+  Analgesia:
+  Tab Paracetamol 1 g PO every 6 hours as required (maximum 4 g/day).
+  
+  Corticosteroids:
+  May be considered within the first 72 hours if there are no contraindications:
+  Tab Prednisolone 60 mg PO daily for 5 days followed by gradual taper over the next 5 days.
+  
+  Antibiotics:
+  Not indicated in uncomplicated viral labyrinthitis.
+  
+  If bacterial labyrinthitis is suspected:
+  Inj. Ceftriaxone 2 g IV once daily plus
+  Inj. Vancomycin 15–20 mg/kg IV every 8–12 hours (adjusted for renal function and local guidelines).
+  Urgent ENT review.
+  
+  Nursing Instructions:
+  Monitor vital signs.
+  Institute falls precautions.
+  Assist with ambulation.
+  Maintain hydration.
+  Monitor nausea and vomiting.
+  
+  Patient Education:
+  Explained that labyrinthitis is inflammation of the inner ear affecting both hearing and balance.
+  Advised to avoid driving, climbing heights and operating heavy machinery until symptoms completely resolve.
+  Encouraged gradual mobilization as tolerated.
+  Advised to return immediately if severe headache, worsening hearing loss, facial weakness, diplopia, limb weakness, confusion or persistent vomiting develops.
+  
+  Follow-up:
+  ENT Clinic review within one week.
+  Repeat hearing assessment if hearing loss persists after recovery.
+  Refer for vestibular rehabilitation if imbalance persists beyond several weeks.
+  
+  Prognosis:
+  Good. Most patients with viral labyrinthitis recover over several weeks, although transient imbalance may persist. Persistent hearing loss or recurrent vertigo warrants further evaluation for alternative diagnoses.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-04',
+    title: 'Acute Chest Syndrome',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Haematology',
+    condition: 'Sickle Cell Disease (HbSS)',
+    symptoms: [
+      'Chest pain',
+      'Cough',
+      'Difficulty breathing',
+      'Generalized bone pain',
+      'Fever',
+      'Hypoxia'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '22-year-old man with HbSS disease presenting with acute chest syndrome likely precipitated by community-acquired pneumonia, with associated vaso-occlusive crisis and hypoxaemia.',
+    content: `ACCIDENT & EMERGENCY UNIT / HAEMATOLOGY
+  
+  Patient Seen
+  
+  A 22-year-old Yoruba male undergraduate student from Bodija, Ibadan, Oyo State, with known HbSS genotype.
+  
+  PC:
+  Chest pain × 2 days
+  Cough × 2 days
+  Difficulty breathing × 1 day
+  Generalized bone pain × 3 days
+  
+  HPC:
+  The patient is a known HbSS patient diagnosed by haemoglobin electrophoresis at 18 months of age. He was apparently well until three days prior to presentation when he developed generalized bone pain involving both lower limbs and the lower back, similar to previous vaso-occlusive crises.
+  
+  He took oral Paracetamol and Ibuprofen at home with minimal relief.
+  
+  Two days prior to presentation, he developed sharp pleuritic right-sided chest pain aggravated by deep inspiration and coughing. This was associated with an initially dry cough which subsequently became productive of whitish sputum without haemoptysis. There was associated high-grade fever with chills and rigors.
+  
+  One day prior to presentation, he developed progressive difficulty in breathing, worse on minimal exertion. There is no history of orthopnoea, paroxysmal nocturnal dyspnoea or bilateral pedal oedema. There is no history of recent prolonged immobilization, long-distance travel or calf pain.
+  
+  Because of worsening dyspnoea and persistent chest pain, he presented to the emergency department.
+  
+  He averages two to three vaso-occlusive crises annually, most of which are managed at home with hydration and oral analgesics. His last hospital admission was six months ago for a severe painful crisis.
+  
+  ROS:
+  
+  General:
+  High-grade fever.
+  Generalized weakness.
+  Bone pain.
+  
+  Respiratory:
+  Chest pain.
+  Productive cough.
+  Progressive difficulty breathing.
+  
+  Cardiovascular:
+  Palpitations.
+  No orthopnoea.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No vomiting.
+  No diarrhoea.
+  
+  Neurological:
+  Mild generalized headache.
+  No seizures.
+  No focal neurological deficits.
+  
+  Musculoskeletal:
+  Generalized bone pain.
+  No joint swelling.
+  
+  PMH:
+  Known HbSS disease diagnosed at 18 months of age.
+  Two previous blood transfusions, last one year ago during severe malaria.
+  No previous stroke.
+  No priapism.
+  No chronic leg ulcers.
+  No previous thoracic surgery.
+  
+  Drug History:
+  Tab Folic Acid 5 mg PO daily.
+  Tab Proguanil (Paludrine) 100 mg PO daily.
+  Poor adherence to Hydroxyurea, discontinued four months ago due to financial constraints.
+  Prior to presentation, took Tab Paracetamol 1 g TDS and Tab Ibuprofen 400 mg TDS for two days with minimal relief.
+  No known drug allergies.
+  
+  Family History:
+  Second of four children.
+  Both parents are HbAS.
+  One younger sibling also has HbSS disease.
+  
+  Social History:
+  Lives in a shared apartment in Ibadan.
+  Non-smoker.
+  Does not consume alcohol.
+  
+  O/E:
+  Acutely ill-looking young man.
+  Conscious.
+  Alert.
+  In respiratory distress with nasal flaring and intercostal recession.
+  Febrile.
+  Moderately pale.
+  Icteric.
+  Mildly dehydrated.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  No digital clubbing.
+  
+  Vitals:
+  BP 110/70 mmHg
+  PR 114 bpm, regular
+  RR 28 cpm
+  Temperature 38.7°C
+  SpO₂ 89% on room air, improving to 96% on 5 L/min oxygen via nasal cannula
+  
+  Respiratory:
+  Tachypnoeic.
+  Reduced expansion of the right lower chest.
+  Trachea central.
+  Increased tactile fremitus over the right lower lung zone.
+  Dull percussion note over the right lower lung zone.
+  Bronchial breath sounds with fine crepitations over the right lower lung zone.
+  Other lung fields clear.
+  
+  CVS:
+  Hyperdynamic precordium.
+  Apex beat at the 5th left intercostal space, midclavicular line.
+  S1 and S2 heard.
+  Grade 2/6 haemic systolic murmur loudest at the apex.
+  JVP not elevated.
+  
+  Abdomen:
+  Flat.
+  Soft.
+  Non-tender.
+  Liver span 14 cm, smooth, firm and non-tender.
+  Spleen not palpable, consistent with autosplenectomy.
+  
+  CNS:
+  Conscious.
+  Alert.
+  Oriented in time, place and person.
+  GCS 15/15.
+  No neck stiffness.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute Chest Syndrome in a known HbSS patient, likely precipitated by community-acquired pneumonia versus pulmonary infarction.
+  
+  Differential Diagnoses:
+  Severe vaso-occlusive crisis with chest wall involvement.
+  Lobar pneumonia in a patient with sickle cell disease.
+  Pulmonary embolism.
+  
+  Plan:
+  
+  Investigations:
+  FBC.
+  Reticulocyte count.
+  Chest X-ray (PA and lateral views).
+  Sputum microscopy, culture and sensitivity.
+  Blood culture.
+  EUCr.
+  Group and cross-match two units of packed red blood cells.
+  Arterial blood gas analysis if available.
+  
+  Management:
+  
+  Immediate Stabilization:
+  Commence humidified oxygen via nasal cannula at 4–5 L/min to maintain SpO₂ >95%.
+  Commence IV 5% Dextrose in 0.9% Normal Saline at 100 mL/hour while avoiding fluid overload.
+  Encourage oral fluids as tolerated.
+  Encourage incentive spirometry (or blowing into a glove/bottle) 10 times every hour while awake.
+  
+  Antibiotics:
+  Inj. Ceftriaxone 2 g IV once daily.
+  Tab Azithromycin 500 mg PO once daily for 5 days.
+  
+  Analgesia:
+  Inj. Pentazocine 30 mg IV every 6 hours, titrated according to pain and respiratory status.
+  Inj. Paracetamol 1 g IV every 8 hours.
+  
+  Thromboprophylaxis:
+  Enoxaparin 40 mg SC once daily while immobile, unless contraindicated.
+  
+  Transfusion:
+  Prepare for simple blood transfusion with target haemoglobin of 9–10 g/dL.
+  If respiratory status worsens despite oxygen therapy or severe hypoxaemia develops, prepare for urgent exchange blood transfusion.
+  
+  Monitoring:
+  Monitor pulse rate, respiratory rate, blood pressure, oxygen saturation and temperature hourly.
+  Maintain strict fluid input and output chart.
+  Monitor for worsening hypoxia, acute chest syndrome progression and respiratory failure.
+  
+  Referral:
+  If managed in a primary care facility, administer oxygen, the first doses of antibiotics and analgesics, stabilize the patient and arrange immediate transfer to a secondary or tertiary hospital with Haematology and Intensive Care support.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-03',
+    title: 'Uncomplicated Vaso-Occlusive Crisis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Haematology',
+    condition: 'Sickle Cell Disease (HbSS)',
+    symptoms: [
+      'Generalized bone pain',
+      'Lower limb pain',
+      'Lower back pain',
+      'Hip pain',
+      'Painful crisis',
+      'Dehydration'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-05',
+    summary: '24-year-old woman with HbSS disease presenting with an uncomplicated acute vaso-occlusive crisis likely precipitated by dehydration and poor adherence to hydroxyurea therapy.',
+    content: `ACCIDENT & EMERGENCY UNIT / HAEMATOLOGY
+  
+  Patient Seen
+  
+  A 24-year-old single undergraduate student from Abeokuta, Ogun State, Christian, Yoruba, with confirmed HbSS genotype by haemoglobin electrophoresis.
+  
+  Informant: Patient (Reliable)
+  
+  PC:
+  Generalized bone pain × 18 hours
+  Pain in both lower limbs × 18 hours
+  Lower back pain × 18 hours
+  
+  HPC:
+  The patient is a known HbSS patient diagnosed during childhood and is on regular follow-up at the Haematology Clinic.
+  
+  She was apparently well until about 18 hours prior to presentation when she developed sudden onset severe pain involving both upper and lower limbs, lower back and hips.
+  
+  The pain is deep, throbbing and aching in nature, rated 9/10 in severity and is similar to previous vaso-occlusive crises. It is aggravated by movement and weight-bearing and was minimally relieved by oral paracetamol taken at home.
+  
+  Symptoms were preceded by inadequate fluid intake and prolonged exposure to hot weather over the preceding two days.
+  
+  There is no history of trauma, joint swelling or redness over the painful areas.
+  
+  There is no history of chest pain, cough, difficulty breathing, fever, chills, rigors, abdominal pain, abdominal swelling, priapism, headache or focal neurological deficits.
+  
+  She has experienced approximately three vaso-occlusive crises requiring hospital admission over the past year.
+  
+  She is on routine folic acid supplementation but admits poor adherence to hydroxyurea therapy over the last three months.
+  
+  ROS:
+  
+  General:
+  Severe pain.
+  Reduced appetite due to pain.
+  No fever.
+  No recent weight loss.
+  
+  Musculoskeletal:
+  Generalized bone pain.
+  Lower back pain.
+  Hip pain.
+  Pain involving both upper and lower limbs.
+  No joint swelling.
+  
+  Respiratory:
+  No cough.
+  No chest pain.
+  No dyspnoea.
+  
+  Cardiovascular:
+  No palpitations.
+  No syncope.
+  
+  Gastrointestinal:
+  No vomiting.
+  No diarrhoea.
+  No abdominal pain.
+  
+  Genitourinary:
+  No dysuria.
+  No haematuria.
+  No priapism.
+  
+  Neurological:
+  No seizures.
+  No limb weakness.
+  No altered consciousness.
+  
+  PMH:
+  Known HbSS disease.
+  Multiple previous vaso-occlusive crises.
+  Three previous blood transfusions.
+  No previous stroke.
+  No previous acute chest syndrome.
+  No diabetes mellitus.
+  No hypertension.
+  
+  PSH:
+  Nil significant.
+  
+  Drug History:
+  Tab Hydroxyurea 500 mg PO daily (poor compliance).
+  Tab Folic Acid 5 mg PO daily.
+  Occasional use of Paracetamol for pain.
+  No known drug allergies.
+  
+  Transfusion History:
+  Last blood transfusion 14 months ago.
+  No history of transfusion reactions.
+  
+  Immunization History:
+  Routine childhood immunizations completed.
+  Received Pneumococcal, Haemophilus influenzae type b and Meningococcal vaccines.
+  
+  Family History:
+  Younger brother has HbSS disease.
+  Both parents are HbAS.
+  
+  Social History:
+  Lives with parents.
+  Non-smoker.
+  Does not consume alcohol.
+  No recreational drug use.
+  Poor daily fluid intake during school activities.
+  
+  O/E:
+  Young woman.
+  Conscious.
+  Alert.
+  In severe painful distress.
+  Mildly pale.
+  Not jaundiced.
+  Well hydrated.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vitals:
+  BP 116/72 mmHg
+  PR 104 bpm, regular
+  RR 22 cpm
+  Temperature 36.9°C
+  SpO₂ 98% on room air
+  Weight 58 kg
+  
+  Musculoskeletal:
+  Diffuse tenderness over both humeri, femora, hips and lumbar spine.
+  No erythema.
+  No warmth.
+  No joint swelling.
+  Range of movement limited by pain.
+  No deformity.
+  
+  CVS:
+  Mild tachycardia.
+  S1 and S2 normal.
+  No murmurs.
+  Peripheral pulses full.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Vesicular breath sounds.
+  No crepitations.
+  No wheeze.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No hepatomegaly.
+  Spleen not palpable.
+  Bowel sounds present.
+  
+  CNS:
+  Conscious.
+  Alert.
+  Oriented.
+  Cranial nerves II–XII intact.
+  Power 5/5 in all limbs.
+  Normal sensation.
+  No focal neurological deficits.
+  
+  Assessment:
+  Known HbSS disease with uncomplicated acute vaso-occlusive (painful) crisis, likely precipitated by dehydration.
+  
+  Differential Diagnoses:
+  Acute osteomyelitis.
+  Septic arthritis.
+  Aplastic crisis.
+  Acute chest syndrome (currently no clinical evidence).
+  Splenic sequestration crisis (unlikely in an adult).
+  Avascular necrosis of the femoral head.
+  
+  Plan:
+  
+  Investigations:
+  Continuous pulse oximetry.
+  Urinalysis.
+  Pain score assessment.
+  FBC.
+  Reticulocyte count.
+  Peripheral blood film.
+  EUCr.
+  LFT.
+  LDH.
+  CRP.
+  Blood culture if fever develops.
+  Malaria parasite test if clinically indicated.
+  Group and save/crossmatch if transfusion may become necessary.
+  Chest X-ray if respiratory symptoms develop.
+  X-ray of painful bones if osteomyelitis or fracture is suspected.
+  MRI hips if avascular necrosis is suspected.
+  
+  Management:
+  
+  Admission:
+  Admit to the Medical Ward/Haematology Unit.
+  Commence regular pain assessment using a validated pain score.
+  Monitor vital signs every 4 hours.
+  Maintain strict input and output chart.
+  
+  Oxygen:
+  Not routinely indicated.
+  Administer oxygen only if SpO₂ <94%, respiratory distress or acute chest syndrome develops.
+  If required, administer oxygen via nasal cannula at 2–4 L/min to maintain SpO₂ ≥95%.
+  
+  Fluid Therapy:
+  Encourage oral fluids if tolerated.
+  If oral intake is inadequate:
+  0.9% Normal Saline 1 L IV over 4 hours, followed by 1 L over the next 8 hours while monitoring urine output and avoiding fluid overload.
+  Continue maintenance fluids according to clinical status (approximately 30–35 mL/kg/day).
+  
+  Analgesia:
+  Mild pain:
+  Tab Paracetamol 1 g PO every 6 hours as required (maximum 4 g/day).
+  
+  Moderate pain:
+  Inj. Diclofenac 75 mg IM stat, followed by Tab Diclofenac 50 mg PO every 12 hours after meals for up to 5 days if no contraindications.
+  
+  Severe pain (current patient):
+  Inj. Morphine 5 mg IV slowly over 5 minutes stat.
+  Repeat 2.5–5 mg IV every 4 hours as required, titrating to pain relief while monitoring respiratory status.
+  If IV access is delayed:
+  Morphine 10 mg IM every 4 hours as required.
+  If morphine is unavailable or contraindicated:
+  Inj. Tramadol 50–100 mg IV slowly or IM every 6–8 hours as required (maximum 400 mg/day).
+  Commence bowel regimen if prolonged opioid therapy is anticipated.
+  
+  Continue:
+  Tab Folic Acid 5 mg PO daily.
+  Restart/continue Hydroxyurea at approximately 15 mg/kg/day (about 1 g PO daily) after Haematology review with regular FBC monitoring.
+  
+  Antibiotics:
+  Not routinely indicated.
+  If bacterial infection is suspected:
+  Inj. Ceftriaxone 2 g IV once daily pending culture results.
+  
+  DVT Prophylaxis:
+  If significantly immobile and no contraindications:
+  Enoxaparin 40 mg SC once daily until mobility improves.
+  
+  Nursing Instructions:
+  Monitor pain score every 2–4 hours.
+  Monitor vital signs every 4 hours.
+  Maintain strict fluid balance chart.
+  Encourage oral hydration.
+  Observe for fever, hypoxia, chest pain or neurological symptoms.
+  Encourage early mobilization as tolerated.
+  
+  Health Education:
+  Explain that vaso-occlusive crisis results from obstruction of small blood vessels by sickled red blood cells causing tissue ischaemia and severe pain.
+  Advise adequate hydration (2–3 litres daily unless contraindicated), avoidance of extreme temperatures, prompt treatment of infections and adherence to prescribed medications.
+  Emphasize regular hydroxyurea use to reduce painful crises, acute chest syndrome and transfusion requirements.
+  Advise immediate hospital presentation if she develops fever, chest pain, difficulty breathing, worsening anaemia or neurological symptoms.
+  
+  Follow-up:
+  Review daily while admitted.
+  Following discharge, follow up in the Haematology Clinic within 2 weeks for reassessment, review of investigation results, reinforcement of hydroxyurea adherence, vaccination review and long-term sickle cell disease management.
+  
+  Prognosis:
+  Good with prompt analgesia, adequate hydration, close monitoring and adherence to disease-modifying therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-01',
     title: "Probable Alzheimer's Disease",
     specialty: 'Internal Medicine',
     subSpecialty: 'Neurology Clinic',
@@ -10408,6 +12183,1602 @@ Not yet available
 
 
 // General Outpatient
+{
+  id: 'gopd-01',
+  title: 'Acute Diffuse Bacterial Otitis Externa',
+  specialty: 'General Outpatient',
+  subSpecialty: 'ENT',
+  condition: 'Otitis Externa',
+  symptoms: [
+    'Right ear pain',
+    'Purulent ear discharge',
+    'Reduced hearing',
+    'Ear itching',
+    'Pain on tragal pressure'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-07',
+  summary: 'A 27-year-old female swimming instructor presented with severe right ear pain, purulent ear discharge and reduced hearing following frequent water exposure and habitual cotton bud use. Examination was consistent with acute diffuse bacterial otitis externa.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 27-year-old single female swimming instructor from Abeokuta, Ogun State, Christian, Yoruba.
+
+PC:
+Right ear pain × 4 days.
+Right ear discharge × 2 days.
+Reduced hearing in the right ear × 2 days.
+
+HPC:
+
+The patient was apparently well until four days prior to presentation when she developed progressively worsening pain in the right ear. The pain was initially mild but became severe, throbbing and continuous, rated 8/10 in severity. It is aggravated by chewing, manipulation of the ear and lying on the affected side.
+
+Two days prior to presentation, she noticed a small amount of yellowish, foul-smelling discharge from the right ear, associated with a sensation of blockage and reduced hearing. She also reports itching within the ear canal before the onset of pain.
+
+She swims almost daily as part of her occupation and frequently cleans her ears with cotton buds after swimming.
+
+There is no history of ear trauma.
+
+There is no bleeding from the ear.
+
+There is no tinnitus.
+
+There is no vertigo.
+
+There is no facial weakness.
+
+There is no headache.
+
+There is no neck swelling.
+
+She had one similar episode about one year ago which resolved with treatment.
+
+Review of Systems
+
+General:
+No fever.
+No chills.
+No weight loss.
+
+ENT:
+Right ear pain.
+Right ear discharge.
+Reduced hearing in the right ear.
+Ear itching.
+No nasal discharge.
+No sore throat.
+No facial weakness.
+
+Neurological:
+No headache.
+No dizziness.
+No seizures.
+
+Respiratory:
+No cough.
+No difficulty breathing.
+
+Cardiovascular:
+No palpitations.
+
+Past Medical History:
+No diabetes mellitus.
+No hypertension.
+No HIV infection.
+No chronic ear disease.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+Paracetamol taken with minimal relief.
+No known drug allergies.
+
+Family History:
+Nil contributory.
+
+Social History:
+Swimming instructor.
+Frequently exposed to water.
+Uses cotton buds regularly.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+
+General Examination:
+Young woman.
+Conscious.
+Alert.
+In mild painful distress.
+Afebrile.
+Well hydrated.
+Not pale.
+Not jaundiced.
+
+Vital Signs:
+BP: 118/74 mmHg
+PR: 82 bpm, regular
+RR: 16 cpm
+Temperature: 37.1°C
+SpO₂: 99% on room air
+Weight: 65 kg
+
+ENT Examination
+
+Right Ear:
+Pain elicited on traction of the pinna and pressure over the tragus.
+External auditory canal oedematous, erythematous and narrowed.
+Small amount of yellow purulent discharge present within the canal.
+Marked tenderness on otoscopic examination.
+Tympanic membrane only partially visualized because of canal oedema but appears intact where visible.
+No granulation tissue.
+No foreign body.
+No mastoid tenderness.
+
+Left Ear:
+External auditory canal healthy.
+Tympanic membrane intact with normal landmarks.
+
+Nose:
+Nasal cavities patent.
+No discharge.
+
+Throat:
+Oropharynx normal.
+No tonsillar enlargement.
+
+Neck:
+No cervical lymphadenopathy.
+No neck swelling.
+
+Systemic Examination
+
+Cardiovascular:
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Normal vesicular breath sounds.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+Central Nervous System:
+Conscious.
+Alert.
+Oriented.
+No focal neurological deficits.
+
+Assessment:
+Acute diffuse bacterial otitis externa of the right ear, likely caused by Pseudomonas aeruginosa or Staphylococcus aureus.
+
+Differential Diagnoses:
+Acute otitis media with tympanic membrane perforation.
+Otomycosis.
+Furunculosis of the external auditory canal.
+Foreign body in the external auditory canal.
+Malignant (necrotizing) otitis externa (unlikely in this immunocompetent patient).
+
+Investigations:
+
+Routine investigations are not required in uncomplicated acute otitis externa.
+
+If recurrent, severe or unresponsive to treatment:
+• Ear swab for microscopy, culture and sensitivity.
+• Fasting Blood Sugar.
+• HIV screening where indicated.
+• CT Temporal Bone if malignant otitis externa is suspected.
+
+Plan:
+
+General Measures:
+Explained that otitis externa is an infection of the external auditory canal commonly precipitated by retained moisture and trauma from ear cleaning.
+Keep the affected ear dry.
+Avoid swimming until complete recovery.
+Avoid inserting cotton buds, hairpins or other objects into the ear canal.
+Avoid self-medication with unprescribed ear drops.
+
+Aural Toilet:
+Perform gentle aural toilet (microsuction or dry mopping where available) to remove debris and discharge and improve penetration of topical medication.
+If canal oedema prevents adequate penetration of ear drops, insert an ear wick and instill prescribed drops through the wick. Remove or replace the wick after 24–72 hours depending on clinical response.
+
+Medications:
+
+Topical Antibiotic ± Steroid (First-Line)
+
+Option 1 (Preferred):
+Ciprofloxacin 0.3% ear drops.
+Instill 4 drops into the affected ear twice daily for 7–10 days.
+
+Option 2:
+Ciprofloxacin 0.3% + Dexamethasone 0.1% ear drops.
+Instill 4 drops twice daily for 7 days.
+
+Option 3:
+Ofloxacin 0.3% ear drops.
+Instill 5 drops twice daily for 7–10 days.
+Safe even if tympanic membrane perforation is suspected.
+
+Analgesia:
+
+Option 1:
+Tab Paracetamol 1 g PO every 6 hours as required (maximum 4 g/day).
+
+Option 2:
+Tab Ibuprofen 400 mg PO every 8 hours after meals for 3–5 days provided there are no contraindications.
+
+Oral Antibiotics:
+
+Not routinely indicated for uncomplicated otitis externa.
+
+Consider oral antibiotics only if:
+• Infection extends beyond the ear canal (cellulitis).
+• Immunocompromised patient.
+• Diabetes mellitus.
+• Systemic features such as fever.
+• Failure of topical therapy.
+
+If indicated:
+Tab Ciprofloxacin 500 mg PO every 12 hours for 7–10 days.
+
+If Fungal Otitis (Otomycosis) is Suspected:
+
+Following aural toilet:
+Clotrimazole 1% ear drops.
+Instill 2–3 drops twice daily for 10–14 days.
+Do not use antibacterial drops alone for confirmed fungal infection.
+
+Patient Education:
+Advised to keep the ear dry during bathing by placing a cotton ball lightly coated with petroleum jelly at the entrance of the ear canal without deep insertion.
+Dry the outer ear gently after bathing.
+Avoid swimming until symptoms have completely resolved.
+Avoid routine use of cotton buds as they remove protective ear wax and increase the risk of recurrent infection.
+Return immediately if severe headache, fever, swelling behind the ear, facial weakness, worsening hearing loss or persistent ear discharge develops.
+
+Follow-up:
+Review in the ENT or General Outpatient Clinic after 5–7 days to assess clinical improvement, repeat aural toilet if necessary and remove any ear wick.
+Earlier review is advised if pain worsens despite treatment, fever develops, swelling extends beyond the ear canal or hearing loss persists.
+
+Prognosis:
+Excellent. Most patients recover completely within 7–10 days with appropriate topical therapy, adequate analgesia and proper ear care.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-02',
+  title: 'Interdigital Tinea Pedis (Athlete’s Foot)',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dermatology',
+  condition: 'Tinea Pedis',
+  symptoms: [
+    'Interdigital itching',
+    'Scaling between toes',
+    'Foot malodour',
+    'Burning sensation',
+    'Skin fissuring'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-07',
+  summary: 'A 36-year-old commercial banker presented with a six-week history of itchy, scaling lesions affecting the interdigital spaces of both feet following prolonged use of enclosed footwear and exposure to communal showers. Examination was consistent with interdigital tinea pedis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 36-year-old married commercial banker from Abeokuta, Ogun State, Christian, Yoruba.
+
+PC:
+Itching between the toes of both feet × 6 weeks.
+Scaling of the feet × 4 weeks.
+
+HPC:
+
+The patient was apparently well until about six weeks prior to presentation when he developed itching between the fourth and fifth toes of the right foot. The itching was initially mild but progressively worsened and later involved the corresponding web spaces of the left foot.
+
+Four weeks prior to presentation, he noticed whitish scaling and peeling of the skin between the toes, associated with an unpleasant foot odour. He also reports an occasional burning sensation after prolonged walking or wearing covered shoes.
+
+He works long hours in enclosed leather shoes and often wears the same pair throughout the day. His feet sweat excessively, particularly while at work. He regularly uses communal shower facilities at his gym.
+
+He initially applied petroleum jelly without improvement.
+
+There is no fever.
+
+There is no purulent discharge.
+
+There is no ulceration.
+
+There is no bleeding.
+
+There is no preceding trauma.
+
+There is no history of diabetes mellitus or peripheral vascular disease.
+
+There is no previous history of recurrent fungal infections.
+
+Review of Systems
+
+General:
+No fever.
+No weight loss.
+Good appetite.
+
+Dermatological:
+Pruritus.
+Scaling between the toes.
+Mild burning sensation.
+No generalized rash.
+
+Musculoskeletal:
+No joint pain.
+No foot swelling.
+
+Cardiovascular:
+No intermittent claudication.
+
+Endocrine:
+No polyuria.
+No polydipsia.
+
+Neurological:
+No numbness.
+No paraesthesia.
+
+Past Medical History:
+No diabetes mellitus.
+No hypertension.
+No chronic kidney disease.
+No HIV infection.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+Previously applied petroleum jelly without benefit.
+No known drug allergies.
+
+Family History:
+No family history of chronic skin diseases.
+
+Social History:
+Commercial banker.
+Exercises regularly at a public gym.
+Uses communal shower facilities.
+Frequently wears closed leather shoes for prolonged periods.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+
+General Examination:
+Young adult male.
+Comfortable at rest.
+Well hydrated.
+Afebrile.
+Not pale.
+Not jaundiced.
+
+Vital Signs:
+BP: 122/78 mmHg
+PR: 74 bpm, regular
+RR: 16 cpm
+Temperature: 36.7°C
+SpO₂: 99% on room air
+Weight: 74 kg
+Height: 1.74 m
+BMI: 24.4 kg/m²
+
+Dermatological Examination:
+Whitish maceration with fine scaling involving the third and fourth, as well as the fourth and fifth interdigital web spaces bilaterally, more marked on the right foot.
+
+Superficial fissures are present within the affected web spaces.
+
+Mild surrounding erythema noted.
+
+No vesicles.
+
+No pustules.
+
+No ulceration.
+
+No cellulitis.
+
+Mild malodour present.
+
+Toenails appear normal without discoloration or thickening.
+
+No lesions are present on the palms or other body surfaces.
+
+Peripheral pulses are intact.
+
+Capillary refill is normal.
+
+Systemic Examination
+
+Cardiovascular:
+Heart sounds I and II normal.
+No murmurs.
+Peripheral pulses palpable.
+
+Respiratory:
+Chest clinically clear.
+Normal vesicular breath sounds.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+Central Nervous System:
+Conscious.
+Alert.
+No focal neurological deficits.
+Peripheral sensation intact.
+
+Assessment:
+Interdigital tinea pedis (athlete's foot), likely caused by a dermatophyte infection (most likely Trichophyton rubrum).
+
+Differential Diagnoses:
+Interdigital candidiasis.
+Erythrasma.
+Contact dermatitis.
+Dyshidrotic eczema.
+Juvenile plantar dermatosis (less likely).
+
+Investigations:
+
+If available:
+• Skin scrapings for 10–20% potassium hydroxide (KOH) microscopy.
+• Fungal culture if recurrent or treatment-resistant.
+• Wood's lamp examination if erythrasma is suspected.
+
+If recurrent or severe:
+• Fasting Blood Sugar.
+• HbA1c.
+• HIV screening (with counselling and consent where appropriate).
+
+Plan:
+
+General Measures:
+Explained that tinea pedis is a contagious superficial fungal infection.
+Keep the feet clean and dry.
+Dry carefully between the toes after bathing.
+Change socks daily.
+Wear clean cotton socks.
+Alternate footwear to allow shoes to dry completely between uses.
+Use breathable footwear whenever possible.
+Avoid walking barefoot in communal changing rooms and public showers.
+Avoid sharing towels, socks or footwear.
+Discard or disinfect heavily contaminated footwear.
+
+Medications:
+
+Topical Antifungal (First-Line)
+
+Option 1 (Preferred):
+Terbinafine 1% cream.
+Apply a thin layer to the affected areas once daily for 2 weeks and continue for one additional week after complete clinical resolution.
+
+Option 2:
+Clotrimazole 1% cream.
+Apply twice daily for 4 weeks.
+
+Option 3:
+Ketoconazole 2% cream.
+Apply twice daily for 4 weeks.
+
+Option 4:
+Miconazole 2% cream.
+Apply twice daily for 4 weeks.
+
+Oral Antifungal Therapy:
+Indicated for extensive disease, recurrent infection, moccasin-type tinea pedis or failure of topical treatment.
+
+Option 1:
+Tab Terbinafine 250 mg PO once daily for 2 weeks.
+
+Option 2:
+Cap Itraconazole 100 mg PO twice daily for 1 week.
+
+Option 3:
+Tab Fluconazole 150 mg PO once weekly for 2–6 weeks.
+
+Antipruritic:
+If itching is troublesome:
+Tab Cetirizine 10 mg PO at night for 7 days.
+
+If Secondary Bacterial Infection Develops:
+
+Tab Flucloxacillin 500 mg PO every 6 hours for 5–7 days.
+
+If penicillin-allergic:
+Tab Clindamycin 300 mg PO every 6 hours for 5–7 days.
+
+Antibiotics should only be prescribed if there is evidence of secondary bacterial infection such as cellulitis, purulent discharge or increasing pain.
+
+Patient Education:
+Explained that fungal organisms thrive in warm, moist environments and that keeping the feet dry is an essential component of treatment.
+Advised against discontinuing treatment once symptoms improve, as this increases the risk of recurrence.
+Advised to avoid steroid-containing creams without medical advice because they may mask fungal infection and worsen disease.
+Advised to seek early review if toenail fungal infection develops, as prolonged oral antifungal therapy may then be required.
+
+Follow-up:
+Review in 4 weeks to assess clinical response.
+Earlier review is advised if the rash spreads, becomes painful, develops purulent discharge or fails to improve after 2–4 weeks of appropriate therapy.
+
+Prognosis:
+Excellent with adherence to topical antifungal therapy, proper foot hygiene and avoidance of predisposing factors. Recurrence can be minimized by maintaining dry feet and practicing appropriate footwear hygiene.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-03',
+  title: 'Localized Tinea Corporis (Ringworm of the Body)',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dermatology',
+  condition: 'Tinea Corporis',
+  symptoms: [
+    'Pruritic annular rash',
+    'Scaly plaques',
+    'Central clearing',
+    'Raised erythematous border',
+    'Itching worse with sweating'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-07',
+  summary: 'A 23-year-old university student presented with a four-week history of multiple pruritic annular scaly plaques with central clearing involving the right upper arm, anterior chest and lower abdomen. The lesions recurred following the use of a steroid-containing combination cream, consistent with localized tinea corporis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 23-year-old single female university student from Abeokuta, Ogun State, Christian, Yoruba.
+
+PC:
+Itchy rash over the trunk and right upper arm × 4 weeks.
+
+HPC:
+
+She was apparently well until about four weeks prior to presentation when she noticed a small circular itchy rash over the right upper arm. The lesion gradually enlarged with central clearing while the edges became raised, erythematous and scaly. Over the following two weeks, two similar lesions appeared over the anterior chest and lower abdomen.
+
+The itching is moderate in severity and is worse after sweating and at night. There is no associated pain, burning sensation or bleeding from the lesions.
+
+She initially applied an over-the-counter combination cream containing clotrimazole and betamethasone, with temporary improvement. However, the lesions recurred and increased in size after discontinuing the cream.
+
+She frequently attends a gym and admits to sharing exercise mats and towels with friends. There is no history of contact with domestic animals, but her roommate is currently being treated for a similar rash.
+
+There is no fever.
+
+There is no weight loss.
+
+There is no purulent discharge.
+
+There are no scalp lesions or hair loss.
+
+There is no nail discoloration or thickening.
+
+There is no history of diabetes mellitus or use of immunosuppressive medications.
+
+Review of Systems
+
+General:
+No fever.
+No weight loss.
+Good appetite.
+
+Dermatological:
+Pruritic annular skin lesions.
+No vesicles.
+No ulceration.
+No purulent discharge.
+
+Respiratory:
+No cough.
+No difficulty breathing.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Gastrointestinal:
+No abdominal pain.
+No vomiting.
+No diarrhoea.
+
+Genitourinary:
+No urinary complaints.
+
+Musculoskeletal:
+No joint pains.
+No muscle weakness.
+
+Past Medical History:
+No hypertension.
+No diabetes mellitus.
+No chronic skin disease.
+No history of HIV infection.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+Previously applied clotrimazole/betamethasone cream without sustained improvement.
+No regular medications.
+No known drug allergies.
+
+Family History:
+No family history of chronic skin diseases.
+Roommate currently has a similar rash.
+
+Social History:
+University student.
+Exercises regularly at a public gym.
+Occasionally shares towels and exercise equipment.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+
+General Examination:
+Young woman.
+Comfortable at rest.
+Well hydrated.
+Afebrile.
+Not pale.
+Not jaundiced.
+No peripheral lymphadenopathy.
+
+Vital Signs:
+BP: 112/70 mmHg
+PR: 76 bpm, regular
+RR: 16 cpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+Weight: 60 kg
+Height: 1.65 m
+BMI: 22.0 kg/m²
+
+Dermatological Examination:
+Three well-demarcated annular erythematous plaques are present over the right upper arm, anterior chest and lower abdomen.
+
+The lesions measure approximately 3–6 cm in diameter.
+
+Each lesion demonstrates central clearing with an active raised scaly border.
+
+Fine peripheral scaling is present.
+
+Mild excoriation marks noted.
+
+No vesicles.
+
+No pustules.
+
+No ulceration.
+
+No evidence of secondary bacterial infection.
+
+Scalp, hair, nails, palms, soles and mucous membranes are normal.
+
+Systemic Examination
+
+Cardiovascular:
+Pulse regular.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Normal vesicular breath sounds.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+Bowel sounds present.
+
+Central Nervous System:
+Conscious.
+Alert.
+Oriented.
+No focal neurological deficits.
+
+Assessment:
+Localized tinea corporis (ringworm of the body), most likely caused by a dermatophyte infection (commonly Trichophyton rubrum).
+
+Differential Diagnoses:
+Nummular eczema.
+Pityriasis rosea.
+Plaque psoriasis.
+Granuloma annulare.
+Contact dermatitis.
+
+Investigations:
+
+If available:
+• Skin scrapings from the active border for 10–20% potassium hydroxide (KOH) microscopy.
+• Fungal culture if diagnosis is uncertain, recurrent or treatment-resistant.
+
+If recurrent or extensive:
+• Fasting Blood Sugar.
+• HIV screening (with counselling and consent where appropriate).
+
+Plan:
+
+General Measures:
+Explained that tinea corporis is a contagious superficial fungal infection of the skin.
+Avoid scratching the lesions.
+Keep the skin clean and dry.
+Avoid sharing towels, clothing and bedding.
+Wash clothing, towels and bed linen regularly with hot water where possible.
+Avoid unnecessary use of topical steroid-containing combination creams, as these may worsen fungal infection (tinea incognito).
+Advise that close household contacts with similar lesions should be evaluated and treated where necessary.
+
+Medications:
+
+Topical Antifungal (Preferred for Localized Disease)
+
+Option 1 (Preferred):
+Clotrimazole 1% cream.
+Apply a thin layer to the lesions and approximately 2 cm beyond the margins twice daily for 4 weeks, continuing for 1–2 weeks after complete clinical resolution.
+
+Option 2:
+Terbinafine 1% cream.
+Apply once or twice daily for 2 weeks.
+
+Option 3:
+Ketoconazole 2% cream.
+Apply twice daily for 3–4 weeks.
+
+Option 4:
+Miconazole 2% cream.
+Apply twice daily for 4 weeks.
+
+Oral Antifungal Therapy:
+Indicated only if lesions become extensive, recurrent, involve multiple body sites, fail topical treatment or occur in immunocompromised patients.
+
+Option 1:
+Tab Terbinafine 250 mg PO once daily for 2 weeks.
+
+Option 2:
+Cap Itraconazole 100 mg PO twice daily for 1 week or 200 mg PO once daily for 2 weeks.
+
+Option 3:
+Tab Fluconazole 150 mg PO once weekly for 2–4 weeks.
+
+Antipruritic:
+If itching is troublesome:
+Tab Cetirizine 10 mg PO at night for 7–10 days.
+
+If Secondary Bacterial Infection Develops:
+
+Tab Flucloxacillin 500 mg PO every 6 hours for 5–7 days.
+
+If penicillin-allergic:
+Tab Clindamycin 300 mg PO every 6 hours for 5–7 days.
+
+Antibiotics should only be prescribed if there is clinical evidence of secondary bacterial infection.
+
+Patient Education:
+Explained that fungal infections spread through direct skin contact or contaminated objects such as towels, clothing and gym equipment.
+Emphasized the importance of completing the full course of treatment even if the rash appears to resolve early.
+Advised against using topical steroid-containing creams without medical supervision because they can mask fungal infection and delay cure.
+Encouraged prompt treatment of infected household contacts to reduce reinfection.
+Maintain good personal hygiene and dry the skin thoroughly after bathing or exercise.
+
+Follow-up:
+Review in 4 weeks to assess treatment response.
+Earlier review is advised if lesions enlarge rapidly, become painful, develop purulent discharge or fail to improve after 2–4 weeks of appropriate therapy.
+
+Prognosis:
+Excellent. Most patients achieve complete clinical resolution with appropriate topical antifungal therapy, although recurrence may occur if predisposing factors are not addressed.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-01',
+  title: 'Chronic Functional Constipation',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Family Medicine',
+  condition: 'Functional Constipation',
+  symptoms: [
+    'Difficulty passing stool',
+    'Hard stools',
+    'Abdominal bloating',
+    'Excessive straining',
+    'Incomplete evacuation',
+    'Constipation'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: '48-year-old woman presenting with chronic functional constipation associated with low dietary fibre intake, inadequate fluid intake and a sedentary lifestyle, without alarm features.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 48-year-old married civil servant from Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant: Patient (Reliable)
+
+PC:
+Difficulty passing stool × 3 months
+Passing hard stools × 3 months
+Abdominal bloating × 2 months
+
+HPC:
+The patient was apparently well until about three months prior to presentation when she noticed increasing difficulty passing stool. She now opens her bowels only once every 4–5 days compared with her previous bowel habit of once daily.
+
+The stools are hard, dry and pellet-like (Bristol Stool Chart Type 1–2). Defaecation is associated with excessive straining and a sensation of incomplete evacuation. She occasionally experiences mild lower abdominal discomfort and abdominal bloating, both of which improve after passing stool.
+
+There is no history of passage of fresh blood per rectum or melaena. There is no mucus in the stool. She denies painful defaecation, anal swelling, prolapse, nausea or vomiting.
+
+Her diet consists predominantly of refined carbohydrates with poor intake of fruits, vegetables and other fibre-rich foods. She drinks approximately one litre of water daily and leads a sedentary lifestyle because of her office-based occupation.
+
+She has not experienced weight loss, loss of appetite or change in stool calibre. There is no history of alternating diarrhoea and constipation.
+
+She has used over-the-counter herbal laxatives intermittently with only temporary relief.
+
+There is no history of hypothyroidism, diabetes mellitus, neurological disease or previous abdominal surgery.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+Good appetite.
+
+Gastrointestinal:
+Constipation.
+Hard stools.
+Abdominal bloating.
+No vomiting.
+No diarrhoea.
+No rectal bleeding.
+No melaena.
+
+Genitourinary:
+No urinary symptoms.
+
+Endocrine:
+No cold intolerance.
+No heat intolerance.
+No polyuria.
+No polydipsia.
+
+Neurological:
+No limb weakness.
+No sensory loss.
+No bowel or bladder incontinence.
+
+PMH:
+No hypertension.
+No diabetes mellitus.
+No hypothyroidism.
+No chronic kidney disease.
+
+PSH:
+No previous abdominal or pelvic surgery.
+
+Drug History:
+Occasional use of herbal laxatives.
+No chronic opioid or iron therapy.
+No known drug allergies.
+
+Family History:
+No family history of colorectal carcinoma.
+No inflammatory bowel disease.
+
+Social History:
+Civil servant.
+Sedentary occupation.
+Low dietary fibre intake.
+Consumes approximately one litre of water daily.
+Non-smoker.
+Occasional alcohol consumption.
+
+O/E:
+Middle-aged woman.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Afebrile.
+Well hydrated.
+No peripheral lymphadenopathy.
+
+Vitals:
+BP 122/78 mmHg
+PR 76 bpm, regular
+RR 16 cpm
+Temperature 36.8°C
+SpO₂ 99% on room air
+Weight 76 kg
+Height 1.65 m
+BMI 27.9 kg/m²
+
+Abdominal Examination:
+Abdomen full but moves with respiration.
+No visible distension.
+Soft.
+Mild fullness over the left iliac fossa.
+No tenderness.
+No guarding or rebound tenderness.
+No palpable masses.
+No hepatosplenomegaly.
+Bowel sounds present and normal.
+
+Digital Rectal Examination:
+Normal perianal skin.
+Normal anal tone.
+Small amount of hard stool palpable in the rectum.
+No rectal masses.
+No blood on the examining glove.
+No anal fissures or haemorrhoids.
+
+CVS:
+Heart sounds S1 and S2 normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Vesicular breath sounds.
+
+CNS:
+Conscious.
+Alert.
+No focal neurological deficits.
+
+Assessment:
+Chronic functional constipation without alarm features.
+
+Differential Diagnoses:
+Irritable bowel syndrome with constipation (IBS-C).
+Hypothyroidism.
+Colorectal carcinoma (currently no alarm features).
+Medication-induced constipation.
+Pelvic floor dysfunction.
+
+Plan:
+
+Investigations:
+
+Baseline:
+FBC.
+EUCr.
+Random blood sugar.
+Thyroid function tests (TSH and Free T4).
+
+If alarm features develop or patient is ≥50 years with new-onset symptoms:
+Faecal occult blood test.
+Colonoscopy.
+Flexible sigmoidoscopy where colonoscopy is unavailable.
+CT abdomen if intestinal obstruction or malignancy is suspected.
+
+Management:
+
+Lifestyle Modification:
+Gradually increase dietary fibre intake to 25–30 g/day using fruits (pawpaw, oranges, apples), vegetables, beans, oats and whole grains.
+Increase water intake to 2–3 litres daily unless contraindicated.
+Engage in at least 30 minutes of moderate physical activity on most days.
+Respond promptly to the urge to defaecate and avoid prolonged stool withholding.
+Establish a regular toilet routine, preferably 15–30 minutes after breakfast, and avoid excessive straining.
+
+Medications:
+
+First-line Osmotic Laxative:
+
+Option 1:
+Lactulose syrup 15–30 mL PO twice daily, titrating to achieve one soft bowel motion daily.
+
+Option 2:
+Polyethylene Glycol (Macrogol) 17 g dissolved in 250 mL of water PO once daily, increasing to twice daily if required.
+
+Bulk-forming Laxative:
+Psyllium husk 3.5–7 g PO once or twice daily with at least 250 mL of water if hydration is adequate.
+
+Short-term Rescue Therapy:
+
+Option 1:
+Tab Bisacodyl 5–10 mg PO at night for up to 5 days.
+
+Option 2:
+Tab Senna 15 mg PO at night for up to 5 days.
+
+Avoid prolonged routine use of stimulant laxatives.
+
+Rectal Therapy (if faecal loading is present):
+Bisacodyl suppository 10 mg PR once daily as required.
+
+or
+
+Glycerin suppository 2–3 g PR once daily as required.
+
+If Faecal Impaction Develops:
+Polyethylene Glycol (Macrogol) 17 g PO three to four times daily for 3–6 days until disimpaction.
+If oral therapy fails:
+Warm normal saline enema 500–1000 mL under appropriate supervision.
+
+Health Education:
+Explain that constipation is commonly related to poor dietary fibre intake, inadequate hydration, physical inactivity and bowel habits.
+Advise against excessive reliance on herbal preparations and stimulant laxatives without medical supervision.
+Encourage maintenance of a high-fibre diet and adequate hydration even after symptoms improve.
+Educate on warning symptoms requiring urgent medical attention, including severe abdominal pain, persistent vomiting, abdominal distension, inability to pass stool or flatus, rectal bleeding, unexplained weight loss or persistent constipation despite treatment.
+
+Follow-up:
+Review after 2–4 weeks to assess symptom improvement and response to treatment.
+Advise earlier review if symptoms worsen or alarm features develop.
+Refer to a Gastroenterologist or General Surgeon if constipation persists despite optimal therapy, secondary causes are suspected or colonoscopy is indicated.
+
+Prognosis:
+Good. Most patients with functional constipation respond well to lifestyle modification, appropriate laxative therapy and sustained bowel habit training.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-02',
+  title: 'Bilateral Dry Eye Disease',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Ophthalmology Clinic',
+  condition: 'Dry Eye Disease (Keratoconjunctivitis Sicca)',
+  symptoms: [
+    'Gritty sensation',
+    'Burning eyes',
+    'Intermittent blurred vision',
+    'Dry eyes',
+    'Foreign body sensation',
+    'Excessive tearing'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: '46-year-old accountant with bilateral dry eye disease presenting with gritty sensation, burning eyes and intermittent blurred vision secondary to prolonged digital screen exposure.',
+  content: `OPHTHALMOLOGY CLINIC
+
+Patient Seen
+
+A 46-year-old married accountant from Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant: Patient (Reliable)
+
+PC:
+Gritty sensation in both eyes × 3 months
+Burning sensation in both eyes × 3 months
+Intermittent blurred vision × 2 months
+
+HPC:
+The patient was apparently well until about three months prior to presentation when she developed a persistent gritty sensation in both eyes, described as a feeling of sand in the eyes. This was accompanied by burning discomfort and occasional redness.
+
+She also reports intermittent blurring of vision, particularly after prolonged reading or working on a computer. The blurring improves temporarily after blinking.
+
+She experiences excessive tearing at times despite the sensation of dry eyes.
+
+Her symptoms worsen towards the end of the day, in air-conditioned rooms and after prolonged screen use.
+
+She works as an accountant and spends approximately 8–10 hours daily using a computer.
+
+There is no purulent eye discharge.
+
+There is no severe eye pain.
+
+There is no photophobia.
+
+There is no history of trauma to the eyes.
+
+She does not wear contact lenses.
+
+There is no history of recent eye surgery.
+
+She has no known autoimmune disease but occasionally experiences dry mouth.
+
+There is no fever.
+
+There is no skin rash.
+
+There is no joint swelling.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+Good appetite.
+
+Eyes:
+Dryness.
+Burning sensation.
+Foreign body sensation.
+Intermittent blurred vision relieved by blinking.
+Occasional excessive tearing.
+No purulent discharge.
+No severe pain.
+
+ENT:
+Occasional dry mouth.
+No recurrent oral ulcers.
+
+Musculoskeletal:
+No joint pain.
+No joint swelling.
+
+Respiratory:
+No cough.
+No shortness of breath.
+
+Skin:
+No photosensitive rash.
+
+PMH:
+No diabetes mellitus.
+No hypertension.
+No glaucoma.
+No previous ocular surgery.
+
+PSH:
+Nil significant.
+
+Drug History:
+Occasional use of over-the-counter lubricating eye drops with temporary relief.
+No known drug allergies.
+
+Family History:
+No family history of autoimmune disease.
+
+Social History:
+Works long hours on a computer.
+Frequently works in air-conditioned offices.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+Middle-aged woman.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Afebrile.
+Well hydrated.
+
+Vitals:
+BP 118/76 mmHg
+PR 74 bpm
+RR 16 cpm
+Temperature 36.7°C
+SpO₂ 99% on room air
+
+Ophthalmic Examination:
+
+Visual Acuity:
+OD: 6/6
+OS: 6/6
+OU: 6/6
+
+External Examination:
+Mild bilateral conjunctival injection.
+No eyelid swelling.
+No ptosis.
+No blepharospasm.
+
+Conjunctiva:
+Mild conjunctival hyperaemia.
+Reduced tear meniscus height.
+No papillae.
+No follicles.
+No purulent discharge.
+
+Cornea:
+Clear bilaterally.
+Mild punctate superficial epithelial erosions inferiorly on fluorescein staining.
+No corneal ulceration.
+No corneal opacity.
+
+Tear Film:
+Unstable tear film.
+Reduced Tear Break-Up Time (TBUT) of approximately 6 seconds.
+
+Pupils:
+Equal and reactive to light.
+
+Extraocular Movements:
+Full in all directions.
+
+Fundoscopy:
+Normal optic discs and retinae bilaterally.
+
+CVS:
+Heart sounds S1 and S2 normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+
+CNS:
+No focal neurological deficits.
+
+Assessment:
+Bilateral Dry Eye Disease (Keratoconjunctivitis Sicca), likely evaporative type secondary to prolonged digital screen exposure.
+
+Differential Diagnoses:
+Allergic conjunctivitis.
+Blepharitis with meibomian gland dysfunction.
+Sjögren syndrome.
+Viral conjunctivitis.
+Exposure keratopathy.
+
+Plan:
+
+Investigations:
+
+Ophthalmic:
+Schirmer I test.
+Tear Break-Up Time (TBUT).
+Fluorescein staining.
+Ocular surface staining with lissamine green where available.
+
+If autoimmune disease is suspected:
+FBC.
+ESR/CRP.
+ANA.
+Anti-Ro (SSA) and Anti-La (SSB) antibodies.
+Rheumatoid factor.
+Fasting blood sugar.
+
+Management:
+
+General Measures:
+Explain that dry eye disease results from inadequate tear production or excessive tear evaporation.
+Encourage adequate hydration.
+Avoid prolonged exposure to air conditioners, smoke and dust.
+Increase ambient humidity where possible.
+Wear protective eyewear in windy environments.
+Avoid unnecessary use of preserved eye drops.
+
+Lifestyle Advice:
+Follow the 20-20-20 rule during computer use (every 20 minutes, look at an object 20 feet away for at least 20 seconds).
+Blink consciously and frequently during screen use.
+Position computer screens slightly below eye level.
+Take regular breaks during prolonged reading or computer work.
+
+Medications:
+
+Artificial Tears:
+
+Option 1 (Preferred):
+Carboxymethylcellulose 0.5% eye drops.
+Instill 1 drop into both eyes 4–6 times daily or as required.
+
+Option 2:
+Hypromellose (Hydroxypropyl Methylcellulose) 0.3% eye drops.
+Instill 1 drop into both eyes four times daily.
+
+Option 3:
+Sodium Hyaluronate 0.1–0.2% eye drops.
+Instill 1 drop into both eyes four times daily.
+Preferred for moderate to severe dry eye disease.
+
+Lubricating Eye Ointment:
+Paraffin-based lubricating eye ointment.
+Apply a small ribbon into both lower conjunctival sacs at bedtime for nocturnal symptoms.
+
+If Meibomian Gland Dysfunction is Present:
+Warm eyelid compresses for 10 minutes twice daily.
+Gentle eyelid massage after warm compresses.
+Daily eyelid hygiene using diluted baby shampoo or commercial eyelid cleansing wipes.
+
+Moderate to Severe Disease:
+Refer to an ophthalmologist for consideration of:
+Cyclosporine 0.05% eye drops, 1 drop twice daily for long-term management.
+
+or
+
+Lifitegrast 5% eye drops where available.
+
+Short courses of topical corticosteroids may be considered only under ophthalmologist supervision.
+
+Nursing Instructions:
+Demonstrate proper eye drop instillation technique.
+Advise hand hygiene before applying eye medications.
+Do not allow the dropper tip to touch the eye.
+
+Patient Education:
+Explain that dry eye disease is often chronic but can be effectively controlled with regular treatment and lifestyle modification.
+Stress the importance of using lubricating eye drops consistently rather than only when symptoms become severe.
+Avoid smoking and exposure to second-hand smoke.
+Advise immediate presentation if severe eye pain, marked redness, sudden loss of vision or photophobia develops.
+
+Follow-up:
+Review in 4 weeks to assess symptom control and treatment adherence.
+Advise earlier review if symptoms worsen or vision deteriorates.
+Refer to the Ophthalmology Clinic if symptoms persist despite treatment, there is evidence of corneal damage, recurrent ocular infections or suspicion of Sjögren syndrome or another autoimmune disorder.
+
+Prognosis:
+Good. Most patients experience significant improvement with regular use of preservative-free lubricants, environmental modification and appropriate management of contributing factors. Long-term treatment may be required to maintain symptom control.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-03',
+  title: 'Bilateral Seasonal Allergic Conjunctivitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Ophthalmology Clinic',
+  condition: 'Allergic Conjunctivitis',
+  symptoms: [
+    'Bilateral eye itching',
+    'Red eyes',
+    'Excessive tearing',
+    'Mucoid eye discharge',
+    'Eyelid swelling',
+    'Allergic rhinitis'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: '21-year-old university student presenting with bilateral seasonal allergic conjunctivitis associated with allergic rhinitis, characterized by itching, redness, tearing and mucoid discharge following dust exposure.',
+  content: `OPHTHALMOLOGY CLINIC
+
+Patient Seen
+
+A 21-year-old single university student from Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant: Patient (Reliable)
+
+PC:
+Itching of both eyes × 5 days
+Redness of both eyes × 5 days
+Excessive tearing × 5 days
+
+HPC:
+The patient was apparently well until five days prior to presentation when she developed intense itching in both eyes. The itching was gradual in onset and progressively worsened, prompting frequent rubbing of the eyes.
+
+This was associated with redness of both eyes, excessive tearing and mild swelling of the eyelids. She also noticed a stringy, whitish mucoid discharge, particularly on waking in the mornings.
+
+She reports that the symptoms worsen following exposure to dust, after sweeping the house and during windy weather. She has experienced similar episodes during previous dry seasons, which usually improved with antiallergic eye drops.
+
+There is no purulent eye discharge.
+
+There is no severe eye pain.
+
+There is no photophobia.
+
+There is no reduction in vision.
+
+There is no foreign body sensation.
+
+There is no history of trauma to the eyes.
+
+She does not wear contact lenses.
+
+There is no history of fever or recent upper respiratory tract infection.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+No malaise.
+
+Eyes:
+Bilateral itching.
+Redness.
+Watery eyes.
+Mucoid discharge.
+No blurred vision.
+No photophobia.
+
+ENT:
+Occasional sneezing.
+Intermittent nasal itching.
+Clear rhinorrhoea.
+
+Respiratory:
+No cough.
+No wheezing.
+No shortness of breath.
+
+Skin:
+No generalized rash.
+No facial swelling.
+
+PMH:
+History of seasonal allergic rhinitis.
+No glaucoma.
+No diabetes mellitus.
+No hypertension.
+
+PSH:
+Nil significant.
+
+Drug History:
+Occasional use of over-the-counter lubricating eye drops.
+No known drug allergies.
+
+Family History:
+Mother has allergic rhinitis.
+No family history of glaucoma.
+
+Social History:
+University student.
+Lives in a hostel.
+Frequently exposed to dusty environments.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+Young woman.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Afebrile.
+Well hydrated.
+
+Vitals:
+BP 112/70 mmHg
+PR 76 bpm
+RR 16 cpm
+Temperature 36.8°C
+SpO₂ 99% on room air
+
+Ophthalmic Examination:
+
+Visual Acuity:
+OD: 6/6
+OS: 6/6
+OU: 6/6
+
+External Eye Examination:
+Mild bilateral eyelid oedema.
+No ptosis.
+No peri-orbital cellulitis.
+
+Conjunctiva:
+Diffuse bilateral conjunctival hyperaemia.
+Conjunctival chemosis present.
+Fine papillary reaction on the upper tarsal conjunctiva.
+Scanty whitish stringy mucoid discharge.
+No purulent discharge.
+No subconjunctival haemorrhage.
+
+Cornea:
+Clear bilaterally.
+No corneal ulcer.
+No corneal opacity.
+Fluorescein staining negative.
+
+Pupils:
+Equal and reactive to light.
+
+Extraocular Movements:
+Full in all directions.
+No pain on movement.
+
+Fundoscopy:
+Normal optic discs.
+Normal retinal appearance.
+
+ENT:
+Mild nasal mucosal oedema with clear rhinorrhoea.
+No sinus tenderness.
+
+CVS:
+Heart sounds S1 and S2 normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Normal vesicular breath sounds.
+
+Assessment:
+Bilateral seasonal allergic conjunctivitis associated with allergic rhinitis.
+
+Differential Diagnoses:
+Viral conjunctivitis.
+Bacterial conjunctivitis.
+Vernal keratoconjunctivitis.
+Dry eye syndrome.
+Blepharoconjunctivitis.
+
+Plan:
+
+Investigations:
+No routine investigations are required for uncomplicated allergic conjunctivitis.
+
+If symptoms are recurrent, severe or atypical:
+Conjunctival swab for microscopy and culture if secondary infection is suspected.
+Skin prick allergy testing or serum IgE where available.
+Referral for slit-lamp examination if corneal involvement is suspected.
+
+Management:
+
+General Measures:
+Reassure the patient that allergic conjunctivitis is not contagious.
+Advise avoidance of known triggers such as dust, smoke, pollen and animal dander.
+Avoid rubbing the eyes.
+Apply cold compresses to the eyes for 10–15 minutes, 3–4 times daily.
+Maintain good hand hygiene.
+
+Medications:
+
+Topical Antihistamine/Mast Cell Stabilizer:
+
+Option 1 (Preferred):
+Olopatadine 0.1% eye drops.
+Instill 1 drop into each eye twice daily for 2 weeks.
+
+Option 2:
+Ketotifen 0.025% eye drops.
+Instill 1 drop into each eye twice daily for 2 weeks.
+
+Option 3:
+Sodium Cromoglycate 2% eye drops.
+Instill 1–2 drops into each eye four times daily for 2–4 weeks.
+Useful for recurrent or seasonal symptoms.
+
+Lubricating Eye Drops:
+Carboxymethylcellulose 0.5% eye drops.
+Instill 1 drop into each eye four times daily as required.
+
+Oral Antihistamine:
+Tab Cetirizine 10 mg PO once daily for 7–14 days.
+
+Alternative:
+Tab Loratadine 10 mg PO once daily for 7–14 days.
+
+Intranasal Therapy (if allergic rhinitis is significant):
+Fluticasone nasal spray 50 micrograms.
+Instill 2 sprays into each nostril once daily for 2 weeks, then reduce to 1 spray daily as symptoms improve.
+
+Corticosteroid Eye Drops:
+Not recommended for routine use in primary care.
+If symptoms are severe or vernal keratoconjunctivitis is suspected, refer to an ophthalmologist. Short courses of Fluorometholone 0.1% or Loteprednol 0.5% eye drops may be prescribed only under specialist supervision with intraocular pressure monitoring.
+
+Nursing Instructions:
+Educate the patient on proper eye drop instillation technique.
+Advise washing hands before and after touching the eyes.
+Do not share towels or face cloths.
+
+Patient Education:
+Explain that allergic conjunctivitis results from an allergic reaction rather than an infection.
+Emphasize that avoiding allergens is an important part of treatment.
+Advise against self-medicating with steroid eye drops because they may increase the risk of glaucoma, cataracts and corneal infections.
+Seek immediate medical attention if severe eye pain, blurred vision, marked photophobia or copious purulent discharge develops.
+
+Follow-up:
+Review in 2 weeks to assess symptom resolution.
+Advise earlier review if symptoms worsen, vision becomes blurred, significant eye pain develops or there is no improvement after one week of treatment.
+Refer to the Ophthalmology Clinic if symptoms are recurrent, severe, associated with corneal involvement or suggestive of vernal or atopic keratoconjunctivitis.
+
+Prognosis:
+Excellent. Most patients respond well to allergen avoidance and topical antihistamine/mast cell stabilizer therapy, although recurrences are common with ongoing allergen exposure.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'gopd-03',
   title: 'Allergic Contact Dermatitis in an Elderly Hypertensive Patient',
@@ -14492,7 +17863,312 @@ Not yet available
 
 
 // Obstetrics and Gynecology
+{
+  id: 'ob-01',
+  title: 'Routine Day 3 Postnatal Review',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Postnatal Clinic',
+  condition: 'Normal Puerperium',
+  symptoms: [
+    'Routine postpartum review',
+    'Lochia rubra',
+    'Exclusive breastfeeding',
+    'Physiological neonatal jaundice',
+    'Successful maternal recovery'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-06',
+  summary: 'A 29-year-old P1+0 on Day 3 following an uncomplicated spontaneous vaginal delivery with satisfactory maternal recovery and successful establishment of exclusive breastfeeding. Her healthy term neonate has appropriate physiological weight loss and mild physiological jaundice.',
+  content: `POSTNATAL CLINIC
 
+Patient Seen
+
+A 29-year-old P1+0 (1 alive) married trader from Abeokuta, Ogun State, Christian.
+
+
+Mode of Delivery: Spontaneous Vaginal Delivery (SVD)
+
+Date/Time of Delivery: 03/07/2026 at 2:35 PM
+
+Gestational Age at Delivery: 39 weeks + 2 days
+
+Place of Delivery: Labour Ward
+
+Blood Group: O Rh Positive
+
+Genotype: HbAA
+
+Baby: Live term male infant
+
+Birth Weight: 3.2 kg
+
+PC:
+Routine Day 3 postnatal review for mother and baby.
+
+Maternal History:
+
+She is on the third postpartum day following an uncomplicated spontaneous vaginal delivery at term. Labour lasted approximately 8 hours without intrapartum complications. Estimated blood loss at delivery was approximately 300 mL.
+
+She reports feeling generally well.
+
+Lochia is moderate in amount, dark red (lochia rubra), non-offensive, and she changes approximately 3–4 sanitary pads daily. There is no excessive vaginal bleeding or passage of large clots.
+
+She experiences only mild after-pains during breastfeeding. There is no fever, chills or rigors.
+
+She has no dysuria, urinary frequency or urinary retention and is voiding normally. She has opened her bowels once since delivery without difficulty.
+
+She is ambulating independently.
+
+She is exclusively breastfeeding with good milk flow. The baby latches well with only minimal nipple discomfort. There is no breast pain, redness or swelling.
+
+She denies headache, visual disturbances, facial swelling, calf pain or leg swelling.
+
+Her mood is good. She expresses happiness with her baby, reports adequate family support, and denies persistent sadness, excessive anxiety or thoughts of self-harm.
+
+Baby's History:
+
+The baby is three days old and has been exclusively breastfed on demand approximately every 2–3 hours.
+
+The baby suckles vigorously for about 15–20 minutes on each breast.
+
+There has been no vomiting or abdominal distension.
+
+The baby has passed urine more than six times within the last 24 hours and passed yellow stools three times today.
+
+There is no fever, cough or fast breathing.
+
+Mother noticed mild yellow discoloration of the eyes this morning. Despite this, the baby remains active and feeds well.
+
+There is no poor suck, excessive sleepiness, convulsion or bleeding from the umbilical stump.
+
+Review of Systems
+
+Mother
+
+General:
+Feels well.
+Good appetite.
+Sleeping intermittently due to infant care.
+No fever.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+Gastrointestinal:
+Good appetite.
+No vomiting.
+Normal bowel motion.
+
+Genitourinary:
+Normal micturition.
+Normal lochia.
+No offensive vaginal discharge.
+
+Breasts:
+Milk production established.
+No engorgement.
+No cracked nipples.
+No mastitis.
+
+Baby
+
+Feeding well.
+Normal urine output.
+Normal stooling.
+Active.
+Mild jaundice limited to the face.
+No respiratory distress.
+
+O/E
+
+Mother
+
+Young woman, conscious, alert and comfortable at rest.
+
+Well hydrated.
+
+Not pale.
+
+Not jaundiced.
+
+No pedal oedema.
+
+Vital Signs:
+BP: 114/72 mmHg
+PR: 78 bpm
+RR: 16 cpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+Weight: 71 kg
+
+Breasts:
+Both breasts full and symmetrical.
+Milk easily expressible.
+No tenderness.
+No erythema.
+No fluctuation.
+Healthy nipples without cracks or bleeding.
+Baby demonstrates good attachment and effective suckling.
+
+Abdomen:
+Soft.
+Non-tender.
+Uterus well contracted.
+Fundus approximately 3 cm below the umbilicus, appropriate for Day 3 postpartum.
+No suprapubic tenderness.
+Bowel sounds present.
+
+Perineum:
+No episiotomy.
+Perineum intact.
+No haematoma.
+No excessive swelling.
+No wound breakdown.
+Moderate non-offensive lochia rubra.
+
+Lower Limbs:
+No calf tenderness.
+No unilateral swelling.
+No clinical features of deep vein thrombosis.
+
+Baby
+
+Term male neonate.
+
+Alert.
+
+Active.
+
+Strong cry.
+
+Pink.
+
+Mild jaundice involving the face only.
+
+Well hydrated.
+
+No dysmorphic features.
+
+Vital Signs:
+Temperature: 36.7°C
+Heart Rate: 138 bpm
+Respiratory Rate: 42 cpm
+SpO₂: 99% on room air
+
+Current Weight: 3.05 kg (approximately 4.7% physiological weight loss from birth weight)
+
+Systemic Examination
+
+Head:
+Anterior fontanelle soft and flat.
+No scalp swelling.
+
+Eyes:
+Mild scleral icterus.
+Red reflex present bilaterally.
+
+Mouth:
+Moist mucous membranes.
+No oral thrush.
+Good suck reflex.
+
+Chest:
+Symmetrical chest movement.
+Good air entry bilaterally.
+No respiratory distress.
+
+Cardiovascular:
+Heart sounds normal.
+No murmurs.
+Peripheral pulses palpable.
+Capillary refill <2 seconds.
+
+Abdomen:
+Soft.
+No organomegaly.
+Umbilical stump clean and dry.
+No discharge.
+No surrounding erythema.
+
+Genitalia:
+Normal male external genitalia.
+Both testes descended.
+
+Neurological:
+Normal tone.
+Primitive reflexes (Moro, rooting, sucking and grasp) present.
+Moves all four limbs spontaneously.
+
+Assessment:
+
+Mother:
+Day 3 postpartum following uncomplicated spontaneous vaginal delivery with satisfactory uterine involution and successful establishment of exclusive breastfeeding.
+
+Baby:
+Healthy Day 3 term neonate with satisfactory feeding, appropriate physiological weight loss and mild physiological neonatal jaundice.
+
+Plan:
+
+Mother:
+Continue exclusive breastfeeding on demand.
+Continue early ambulation.
+Maintain good perineal hygiene.
+Encourage oral fluid intake of at least 2–3 litres daily.
+Encourage a balanced diet rich in protein, iron and fruits.
+
+Medications:
+Tab Ferrous Sulphate 200 mg PO twice daily for 6 weeks.
+Tab Folic Acid 5 mg PO daily for 6 weeks.
+Tab Vitamin C 100 mg PO daily for 6 weeks (optional to enhance iron absorption).
+Tab Paracetamol 1 g PO every 6 hours as required for pain (maximum 4 g/day).
+
+Baby:
+Continue exclusive breastfeeding every 2–3 hours or on demand.
+Maintain thermal care.
+Practice appropriate cord care using 4% chlorhexidine gel once daily until stump separation (where locally recommended) or keep the cord clean and dry according to institutional protocol.
+Monitor neonatal jaundice. Encourage frequent breastfeeding to enhance bilirubin excretion. Phototherapy is not indicated at present.
+
+Ensure administration of outstanding newborn medications/immunizations if not previously received:
+• BCG vaccine
+• Oral Polio Vaccine (OPV-0)
+• Hepatitis B vaccine (Birth dose)
+• Vitamin K 1 mg IM
+
+Health Education
+
+Mother:
+Counselled on exclusive breastfeeding for the first six months.
+Discussed breast care and recognition of mastitis.
+Advised on adequate nutrition and hydration.
+Discussed postpartum family planning options.
+Educated on postpartum danger signs including heavy vaginal bleeding, fever, offensive lochia, severe abdominal pain, severe headache, blurred vision, breast redness with fever, calf swelling and chest pain.
+Informally screened for postpartum depression and encouraged continued family support.
+
+Baby:
+Mother counselled on neonatal danger signs including poor feeding, fever, hypothermia, fast breathing, chest indrawing, convulsions, lethargy, worsening jaundice extending below the knees or involving the palms and soles, persistent vomiting and umbilical redness or discharge.
+Safe sleeping practices discussed.
+Hand hygiene reinforced.
+
+Follow-up:
+Mother to return for routine postnatal review at 6 weeks postpartum or earlier if danger signs develop.
+
+Baby to return for Day 7 neonatal review, routine immunizations and weight monitoring. Mother advised to present immediately if jaundice worsens, feeding becomes poor, fever develops or any neonatal danger signs occur.
+
+Overall Impression:
+Mother and baby are clinically stable with satisfactory postnatal progress.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'ob-05',
   title: 'Vulvovaginal Candidiasis in Pregnancy',
@@ -16821,6 +20497,562 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-01',
+  title: 'Acute Right Knee Injury (Grade II MCL Sprain)',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics and Trauma',
+  condition: 'Sports-related Knee Injury',
+  symptoms: [
+    'Right knee pain',
+    'Right knee swelling',
+    'Difficulty bearing weight',
+    'Painful knee movement',
+    'Knee instability',
+    'Sports injury'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: '24-year-old male who sustained an acute right knee injury while playing football, consistent with a Grade II medial collateral ligament sprain with possible associated medial meniscal injury.',
+  content: `ORTHOPAEDIC CLINIC
+
+Patient Seen
+
+A 24-year-old single university student from Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant: Patient (Reliable)
+
+PC:
+Right knee pain × 1 day
+Right knee swelling × 1 day
+Difficulty bearing weight on the right lower limb × 1 day
+
+HPC:
+The patient was apparently well until one day prior to presentation when he sustained an injury to his right knee while playing football.
+
+He reports attempting to change direction rapidly when another player collided with the lateral aspect of his right knee, forcing the knee into valgus while his right foot remained firmly planted on the ground.
+
+He experienced immediate sharp pain over the medial aspect of the right knee and was unable to continue playing. Within the following hour, progressive swelling developed around the knee joint.
+
+Since the injury, he has experienced difficulty walking and is only able to bear partial weight on the affected limb because of pain.
+
+The pain is localized mainly over the medial aspect of the knee, rated 8/10 in severity, aggravated by walking, climbing stairs and knee flexion, and partially relieved by rest.
+
+He reports a sensation of instability while walking but denies complete giving way.
+
+There was no audible "pop" at the time of injury.
+
+There is no locking of the knee.
+
+There is no numbness or tingling of the foot.
+
+There is no open wound or bleeding.
+
+There is no associated hip or ankle pain.
+
+He applied ice to the knee shortly after the injury and took Tab Paracetamol 1 g with minimal relief.
+
+There is no previous history of significant knee injury or knee surgery.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+No malaise.
+
+Musculoskeletal:
+Right knee pain.
+Right knee swelling.
+Difficulty walking.
+Painful knee movement.
+No pain in other joints.
+
+Neurological:
+No limb weakness.
+No numbness.
+No paraesthesia.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Respiratory:
+No cough.
+No shortness of breath.
+
+PMH:
+No hypertension.
+No diabetes mellitus.
+No bleeding disorders.
+No previous fractures.
+
+PSH:
+Nil significant.
+
+Drug History:
+Tab Paracetamol 1 g taken after injury.
+No known drug allergies.
+
+Family History:
+Nil contributory.
+
+Social History:
+University student.
+Plays football recreationally three times weekly.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+Young man.
+Conscious.
+Alert.
+Walking with an antalgic gait.
+In mild painful distress.
+Not pale.
+Not jaundiced.
+Afebrile.
+
+Vitals:
+BP 118/74 mmHg
+PR 84 bpm
+RR 18 cpm
+Temperature 36.8°C
+SpO₂ 99% on room air
+Weight 72 kg
+Height 1.78 m
+BMI 22.7 kg/m²
+
+Local Examination of the Right Knee:
+Patient ambulates with difficulty and favours the right lower limb.
+Mild diffuse swelling of the right knee.
+Small joint effusion present.
+No bruising.
+No open wounds.
+No obvious deformity.
+Skin temperature mildly increased compared with the contralateral knee.
+Maximum tenderness over the medial joint line and medial collateral ligament.
+
+Range of Motion:
+Active flexion limited to 90° because of pain.
+Full extension present but painful at terminal range.
+No crepitus.
+
+Special Tests:
+Valgus stress test at 30° demonstrates pain with mild medial joint opening, consistent with a Grade II MCL sprain.
+Varus stress test negative.
+Anterior drawer test negative.
+Posterior drawer test negative.
+Lachman test negative.
+McMurray test elicits medial joint line pain without an audible click, suggesting a possible medial meniscal injury.
+Patellar apprehension test negative.
+
+Neurovascular Examination:
+Distal sensation intact.
+Dorsalis pedis and posterior tibial pulses palpable.
+Capillary refill less than 2 seconds.
+
+Other Joints:
+Left knee normal.
+Both hips and ankles demonstrate full painless range of motion.
+
+CVS:
+Heart sounds S1 and S2 normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Breath sounds vesicular.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+CNS:
+Conscious.
+Alert.
+No focal neurological deficits.
+
+Assessment:
+Acute right knee injury secondary to sports trauma.
+Likely Grade II medial collateral ligament (MCL) sprain with possible associated medial meniscal injury.
+
+Differential Diagnoses:
+Medial meniscal tear.
+Anterior cruciate ligament sprain or partial tear.
+Knee contusion with traumatic synovitis.
+Osteochondral injury.
+Tibial plateau fracture.
+
+Plan:
+
+Investigations:
+X-ray Right Knee (AP, Lateral and Skyline views).
+Apply Ottawa Knee Rules where appropriate.
+MRI Right Knee if instability persists or internal derangement is suspected.
+FBC.
+EUCr.
+Coagulation profile if operative intervention is planned.
+
+Management:
+
+RICE Protocol:
+Rest from sporting activities and minimize weight-bearing.
+Ice packs wrapped in a towel for 15–20 minutes every 2–3 hours during the first 48 hours.
+Apply compression with an elastic crepe bandage or hinged knee brace.
+Elevate the affected limb above heart level whenever possible.
+
+Immobilization:
+Provide a hinged knee brace or removable knee immobilizer.
+Ambulate with axillary crutches and partial weight-bearing until pain improves.
+
+Medications:
+
+Analgesia:
+Tab Paracetamol 1 g PO every 6 hours as required (maximum 4 g/day).
+
+NSAIDs:
+Option 1:
+Tab Ibuprofen 400 mg PO every 8 hours after meals for 5 days.
+
+Option 2:
+Tab Naproxen 500 mg PO twice daily after meals for 5–7 days.
+
+Gastroprotection:
+Cap Omeprazole 20 mg PO once daily while taking NSAIDs.
+
+Topical Therapy:
+Diclofenac 1% gel.
+Apply 2–4 g over the affected knee four times daily for 7–10 days.
+
+Physiotherapy:
+Refer for physiotherapy once acute pain and swelling begin to improve.
+
+Rehabilitation programme should include:
+Quadriceps strengthening exercises.
+Hamstring strengthening.
+Range-of-motion exercises.
+Proprioception and balance training.
+Progressive return-to-sport rehabilitation.
+
+Orthopaedic Referral:
+Urgent referral if:
+MRI confirms significant ligament or meniscal injury.
+Mechanical locking develops.
+Gross instability persists.
+Suspected fracture or neurovascular injury.
+Failure of conservative treatment after 4–6 weeks.
+
+Health Education:
+Explain that most isolated Grade I and II MCL injuries heal successfully with conservative treatment.
+Advise avoidance of football, running, jumping and pivoting activities until medically cleared.
+Emphasize adherence to physiotherapy to restore knee strength, stability and function.
+Advise immediate presentation if severe swelling develops, numbness occurs, the foot becomes cold or pale, or weight-bearing becomes impossible.
+
+Follow-up:
+Review in the Orthopaedic Clinic within one week with X-ray results.
+Review earlier if symptoms worsen or neurovascular symptoms develop.
+If symptoms persist beyond 2–4 weeks, arrange MRI and reassess for internal derangement.
+
+Prognosis:
+Good. Most Grade I–II medial collateral ligament injuries recover completely with conservative management and structured rehabilitation. Return to sports is generally expected within 4–8 weeks depending on functional recovery.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-02',
+  title: 'Primary Osteoarthritis of the Left Knee',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics and Trauma',
+  condition: 'Knee Osteoarthritis',
+  symptoms: [
+    'Left knee pain',
+    'Morning stiffness',
+    'Difficulty walking',
+    'Knee swelling',
+    'Crepitus',
+    'Reduced mobility'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-05',
+  summary: '58-year-old obese woman with progressive left knee pain and functional limitation consistent with primary osteoarthritis of the knee.',
+  content: `ORTHOPAEDIC CLINIC
+
+Patient Seen
+
+A 58-year-old married trader from Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant: Patient (Reliable)
+
+PC:
+Left knee pain × 2 years
+Progressive difficulty walking × 8 months
+Morning stiffness × 6 months
+
+HPC:
+The patient was apparently well until about two years prior to presentation when she developed gradual-onset pain involving the left knee. The pain was initially mild and intermittent but has progressively become more frequent and severe.
+
+The pain is dull, aching and localized mainly to the medial aspect of the left knee, with an average severity of 7/10. It is aggravated by prolonged standing, walking long distances, climbing stairs, squatting and rising from a sitting position. The pain improves with rest and simple analgesics but recurs with activity.
+
+She reports morning stiffness lasting approximately 15 minutes, which improves with movement. She also experiences stiffness after prolonged sitting.
+
+Over the past eight months, she has noticed progressive difficulty walking long distances and occasionally requires support from a walking stick. She reports intermittent swelling of the left knee following prolonged activity and occasionally notices a grinding or cracking sensation during knee movement.
+
+There is no preceding history of trauma.
+
+There is no locking or giving way of the knee.
+
+There is no redness or warmth over the joint.
+
+There is no fever.
+
+There is no involvement of other joints.
+
+There are no features suggestive of inflammatory arthritis such as prolonged morning stiffness, symmetrical small joint involvement or skin rash.
+
+She has gained weight over the past several years and has become less physically active because of her knee pain.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+Good appetite.
+
+Musculoskeletal:
+Left knee pain.
+Morning stiffness lasting less than 30 minutes.
+Difficulty climbing stairs.
+Reduced walking distance.
+Intermittent knee swelling.
+No pain in other joints.
+
+Neurological:
+No limb weakness.
+No numbness.
+No bowel or bladder symptoms.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+PMH:
+Known hypertensive for six years.
+Blood pressure well controlled on medication.
+No diabetes mellitus.
+No rheumatoid arthritis.
+No gout.
+
+PSH:
+Nil significant.
+
+Drug History:
+Tab Amlodipine 5 mg PO daily.
+Occasional Tab Paracetamol 1 g for knee pain with partial relief.
+No known drug allergies.
+
+Family History:
+Mother had knee osteoarthritis in old age.
+No family history of rheumatoid arthritis.
+
+Social History:
+Trader who stands for prolonged periods.
+Sedentary lifestyle.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+Middle-aged woman.
+Ambulates with an antalgic gait favouring the left lower limb.
+Not pale.
+Not jaundiced.
+Afebrile.
+Well hydrated.
+Obese.
+
+Vitals:
+BP 136/82 mmHg
+PR 78 bpm, regular
+RR 18 cpm
+Temperature 36.7°C
+SpO₂ 99% on room air
+Weight 84 kg
+Height 1.62 m
+BMI 32.0 kg/m²
+
+Musculoskeletal Examination
+
+Left Knee:
+Mild varus deformity.
+No erythema.
+Mild diffuse bony enlargement.
+Minimal joint effusion.
+Mild quadriceps wasting.
+Tenderness along the medial joint line.
+Palpable crepitus during flexion and extension.
+
+Range of Motion:
+Flexion 0–110°.
+Full extension.
+Pain at terminal flexion.
+
+Stability:
+Anterior drawer test negative.
+Posterior drawer test negative.
+Valgus stress test negative.
+Varus stress test negative.
+McMurray test negative.
+Patellar tracking normal.
+
+Neurovascular Examination:
+Distal sensation intact.
+Peripheral pulses palpable.
+
+Right Knee:
+No swelling.
+No tenderness.
+Full painless range of motion.
+
+CVS:
+Heart sounds S1 and S2 normal.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Breath sounds vesicular.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+CNS:
+Conscious.
+Alert.
+No focal neurological deficits.
+
+Assessment:
+Primary osteoarthritis of the left knee (clinically Kellgren-Lawrence Grade II–III), with obesity as a significant risk factor.
+
+Differential Diagnoses:
+Degenerative medial meniscal tear.
+Patellofemoral pain syndrome.
+Rheumatoid arthritis.
+Crystal arthropathy (gout or pseudogout).
+Chronic septic arthritis.
+
+Plan:
+
+Investigations:
+
+Laboratory:
+FBC.
+ESR.
+CRP if inflammatory arthritis is suspected.
+Serum uric acid if crystal arthropathy is suspected.
+Random blood sugar.
+Renal function test prior to prolonged NSAID therapy.
+
+Imaging:
+Weight-bearing AP and lateral X-rays of both knees with skyline (Merchant) view where available.
+
+Expected radiographic findings:
+Medial joint space narrowing.
+Marginal osteophytes.
+Subchondral sclerosis.
+Possible subchondral cysts.
+
+MRI is not routinely indicated unless internal derangement is suspected.
+
+Management:
+
+Non-Pharmacological:
+Educate the patient regarding the chronic nature of osteoarthritis.
+Encourage weight reduction with a target loss of 5–10% of body weight over 6–12 months.
+Refer for physiotherapy.
+
+Physiotherapy programme:
+Quadriceps strengthening exercises.
+Hamstring stretching.
+Range-of-motion exercises.
+Low-impact aerobic exercises.
+Gait training.
+
+Lifestyle Advice:
+Encourage low-impact exercises such as walking on level ground, cycling and swimming.
+Avoid prolonged standing, deep squatting and kneeling.
+Use a walking stick in the right hand to reduce load on the affected left knee when necessary.
+
+Medications:
+
+Analgesia:
+Tab Paracetamol 1 g PO every 6–8 hours as required (maximum 4 g/day).
+
+NSAIDs:
+
+Option 1:
+Tab Naproxen 500 mg PO twice daily after meals for 5–10 days.
+
+Co-prescribe:
+Cap Omeprazole 20 mg PO once daily while on NSAIDs.
+
+Option 2:
+Tab Celecoxib 200 mg PO once daily for 10–14 days, particularly in patients at increased gastrointestinal risk without significant cardiovascular contraindications.
+
+Option 3:
+Tab Ibuprofen 400 mg PO every 8 hours after meals for 5–10 days.
+
+Topical Therapy:
+Diclofenac 1% gel.
+Apply 2–4 g to the left knee four times daily for up to 4 weeks.
+
+Persistent Symptoms:
+Consider referral for intra-articular Triamcinolone Acetonide 40 mg with local anaesthetic under aseptic technique.
+Limit corticosteroid injections to no more than 3–4 injections annually in the same joint.
+Viscosupplementation with hyaluronic acid may be considered where available.
+
+Surgical Referral:
+Refer to Orthopaedics if there is:
+Persistent moderate-to-severe pain despite optimal conservative treatment.
+Significant functional limitation.
+Progressive deformity.
+Advanced radiographic osteoarthritis.
+
+Possible surgical options:
+High tibial osteotomy in selected younger patients with unicompartmental disease.
+Unicompartmental knee arthroplasty.
+Total knee replacement for advanced symptomatic disease.
+
+Health Education:
+Explain that osteoarthritis is a chronic degenerative joint disease that cannot be cured but whose symptoms and progression can be effectively managed.
+Encourage regular exercise despite pain, as inactivity worsens stiffness and muscle weakness.
+Advise against prolonged unsupervised NSAID use because of gastrointestinal, renal and cardiovascular risks.
+Recommend supportive footwear and avoidance of high-heeled shoes.
+
+Follow-up:
+Review in the Orthopaedic Clinic in 4–6 weeks to assess pain relief, functional improvement and response to physiotherapy.
+Advise earlier presentation if severe swelling, inability to bear weight, fever, redness or suspicion of septic arthritis develops.
+
+Prognosis:
+Good with adherence to weight reduction, physiotherapy and appropriate analgesic therapy. Disease progression is usually gradual, and many patients maintain satisfactory function for years with conservative treatment. Early orthopaedic referral is indicated if symptoms become disabling despite optimal management.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-02',
   title: 'Symptomatic Cholelithiasis (Biliary Colic)',

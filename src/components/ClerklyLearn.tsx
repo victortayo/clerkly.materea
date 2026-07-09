@@ -74,23 +74,59 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
             Back to Categories
           </button>
           <h2 className="text-xs font-bold text-slate-400 uppercase tracking-wider my-3 px-2">{selectedCategory}</h2>
-          <div className="flex flex-col gap-1.5">
-            {clerklyLearnLibrary
-              .filter(module => module.category === selectedCategory)
-              .map(module => (
-                  <button
-                      key={module.id}
-                      onClick={() => handleSelectModule(module)}
-                      className={`w-full text-left px-3 py-2 rounded-md text-xs font-semibold transition-colors border ${
-                      selectedModule?.id === module.id
-                          ? 'bg-indigo-50 text-indigo-900 dark:bg-indigo-900/30 border-indigo-200 dark:border-indigo-700 shadow-sm'
-                          : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-700/50 hover:border-slate-300 dark:hover:border-slate-600'
-                      }`}
-                  >
-                      {module.title}
-                  </button>
-              ))}
-          </div>
+          
+          {selectedCategory === 'Symptom Clerking' ? (
+            <div className="flex flex-col gap-6">
+              {(() => {
+                const modules = clerklyLearnLibrary.filter(m => m.category === 'Symptom Clerking');
+                const grouped: Record<string, LearningModule[]> = {};
+                modules.forEach(m => {
+                  const sub = m.subCategory || 'Other';
+                  if (!grouped[sub]) grouped[sub] = [];
+                  grouped[sub].push(m);
+                });
+                
+                return Object.entries(grouped).map(([subCategory, subModules]) => (
+                  <div key={subCategory} className="flex flex-col gap-1.5">
+                    <h3 className="text-[10px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest px-2 mb-1">
+                      {subCategory}
+                    </h3>
+                    {subModules.map(module => (
+                      <button
+                        key={module.id}
+                        onClick={() => handleSelectModule(module)}
+                        className={`w-full text-left px-3 py-2 rounded-md text-xs font-semibold transition-colors border ${
+                        selectedModule?.id === module.id
+                            ? 'bg-indigo-50 text-indigo-900 dark:bg-indigo-900/30 border-indigo-200 dark:border-indigo-700 shadow-sm'
+                            : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-700/50 hover:border-slate-300 dark:hover:border-slate-600'
+                        }`}
+                      >
+                        {module.title}
+                      </button>
+                    ))}
+                  </div>
+                ));
+              })()}
+            </div>
+          ) : (
+            <div className="flex flex-col gap-1.5">
+              {clerklyLearnLibrary
+                .filter(module => module.category === selectedCategory)
+                .map(module => (
+                    <button
+                        key={module.id}
+                        onClick={() => handleSelectModule(module)}
+                        className={`w-full text-left px-3 py-2 rounded-md text-xs font-semibold transition-colors border ${
+                        selectedModule?.id === module.id
+                            ? 'bg-indigo-50 text-indigo-900 dark:bg-indigo-900/30 border-indigo-200 dark:border-indigo-700 shadow-sm'
+                            : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-700/50 hover:border-slate-300 dark:hover:border-slate-600'
+                        }`}
+                    >
+                        {module.title}
+                    </button>
+                ))}
+            </div>
+          )}
         </div>
       )}
     </div>

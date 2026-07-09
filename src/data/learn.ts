@@ -986,4 +986,328 @@ export const clerklyLearnLibrary: LearningModule[] = [
 </html>
     `
   },
+  {
+    id: 'symptom-clerking-vomiting',
+    title: 'Vomiting',
+    category: 'Symptom Clerking',
+    subCategory: 'Gatrointestinal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Headache</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Vomiting</h1>
+    <p class="text-sm text-indigo-200">Vomiting is common and often self-limiting, but it is also the presenting feature of surgical emergencies, diabetic ketoacidosis, raised intracranial pressure, and severe dehydrating illness that remains a major cause of childhood mortality locally. This guide focuses on the history and examination that separate benign vomiting from the causes that need urgent action, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Vomiting Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how many episodes has the patient had?</li>
+      <li>What does the vomitus look like - undigested food, bile-stained (green/yellow), blood-stained or coffee-ground (hematemesis), or foul-smelling/feculent?</li>
+      <li>Is it projectile? (Suggests pyloric stenosis in infants, or raised intracranial pressure at any age.)</li>
+      <li>Is there any relationship to meals - immediately after eating, or delayed by hours?</li>
+      <li>Has the patient been able to keep any fluids down at all?</li>
+      <li>Has anything been tried already, and did it help?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General/infective:</span> fever, chills, night sweats.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal:</span> pain (and its location - epigastric, right upper quadrant, right lower quadrant, or diffuse), distension, diarrhoea or constipation, last bowel motion and whether flatus is still passing.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological:</span> headache, visual disturbance, neck stiffness, confusion, or seizures - any of these alongside vomiting raises a central cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> last menstrual period and possibility of pregnancy in any woman of reproductive age; urinary frequency, dysuria, or loin pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic:</span> excessive thirst, polyuria, or rapid/laboured breathing (raises diabetic ketoacidosis).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac:</span> chest pain or breathlessness - vomiting can be an atypical presentation of myocardial infarction, particularly worth considering in an older or diabetic patient.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">In children specifically:</span> ability to breastfeed/drink, urine output (number of wet nappies), activity level, and whether they appear unusually sleepy or irritable.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Exposure/Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria:</span> Recent fever, chills, or confirmed malaria exposure? Vomiting with fever should always prompt malaria testing.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Food/water source:</span> Recent street food, untreated water, or similar illness in others who ate the same food? (Raises infective gastroenteritis, and in outbreak settings, cholera.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy:</span> Is the patient pregnant, and if so, how many weeks? Severe, persistent vomiting in early pregnancy raises hyperemesis gravidarum.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> Known diabetic? Any missed insulin doses or recent illness? (Vomiting can be the presenting feature of diabetic ketoacidosis.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> Known genotype? Vomiting can accompany a vaso-occlusive crisis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous abdominal surgery:</span> Any prior operations? (Raises adhesions as a cause of bowel obstruction.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> NSAIDs, alcohol use, chemotherapy, or other new medications that could cause gastritis or drug-induced vomiting.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Head injury:</span> Any recent trauma, however minor it seemed at the time?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal history:</span> Known kidney disease? (Raises uraemia as a cause.)</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression, Vital Signs, and Hydration Status</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, lethargic, or acutely unwell? In a child, lethargy or unusual sleepiness is a significant finding.</li>
+      <li>Heart rate and blood pressure, including a check for a postural drop - both point towards volume depletion.</li>
+      <li>Respiratory rate and pattern - deep, sighing (Kussmaul) breathing suggests a metabolic acidosis such as DKA.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Assess hydration status carefully</span> - skin turgor, sunken eyes, dryness of mucous membranes, capillary refill time, and in infants, the fontanelle. This is one of the most important parts of the examination and directly informs the urgency of rehydration.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Inspection:</span> distension, visible peristalsis, or surgical scars.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpation:</span> tenderness (and its location), guarding, rigidity, or a palpable mass.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Auscultation:</span> bowel sounds - absent in ileus or peritonitis, high-pitched/tinkling in bowel obstruction.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of peritonism</span> - rebound tenderness or rigidity - is a surgical emergency until proven otherwise.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Findings</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Jaundice or hepatomegaly</span> - raises a hepatobiliary cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological examination and fundoscopy</span> - where a central cause (raised intracranial pressure, meningitis) is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Level of consciousness</span> - any drowsiness or confusion changes the urgency of the case considerably and may reflect DKA, uraemia, or a CNS cause.</li>
+      <li>In a pregnant patient - blood pressure, oedema, and epigastric tenderness (pre-eclampsia can co-exist with severe vomiting).</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bilious or feculent vomiting</span> - suggests bowel obstruction; a surgical emergency requiring urgent referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Haematemesis</span> - blood or coffee-ground vomitus indicates an upper GI bleed and needs urgent assessment and resuscitation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of peritonism</span> - rigidity, guarding, rebound tenderness - a surgical abdomen until proven otherwise.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe or shock-level dehydration</span> - marked tachycardia, hypotension, prolonged capillary refill, or reduced consciousness; in children, WHO danger signs include lethargy/unconsciousness, inability to drink or breastfeed, and very slow skin pinch.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Kussmaul breathing, altered consciousness, or a known diabetic with vomiting</span> - check blood glucose and urine/blood ketones to exclude diabetic ketoacidosis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Vomiting with severe headache, neck stiffness, or a focal neurological deficit</span> - raises a central cause such as raised intracranial pressure or meningitis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe vomiting in pregnancy with ketosis or weight loss</span> - hyperemesis gravidarum needing IV fluids and admission.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies vomiting, before any antimalarial is started.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Random blood glucose and urine/blood ketones</span> - in every patient with unexplained or significant vomiting, particularly if diabetic or unwell-looking, to exclude DKA.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Electrolytes (U&E)</span> - vomiting commonly causes hypokalaemia and a metabolic alkalosis; essential before and during rehydration.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine pregnancy test</span> - in any woman of reproductive age presenting with vomiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - looking for leukocytosis (infective/surgical cause) or anaemia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Erect chest/abdominal radiograph</span> - where bowel obstruction or perforation is suspected (looking for air-fluid levels or free air under the diaphragm).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal ultrasound</span> - for suspected gallstones, appendicitis, or to confirm/date a pregnancy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Amylase/lipase</span> - where pancreatitis is suspected (typically epigastric pain radiating to the back).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stool microscopy/culture</span> - where diarrhoea accompanies the vomiting and an infective cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - where jaundice or a hepatobiliary cause is suspected.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastroenteritis</span> - the commonest cause, particularly in children; often with diarrhoea and a dietary/water source clue.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria/typhoid fever</span> - vomiting with fever and other systemic features.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peptic ulcer disease/gastritis</span> - epigastric pain related to meals, NSAID/alcohol use.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Appendicitis</span> - periumbilical pain migrating to the right iliac fossa, with anorexia and low-grade fever.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bowel obstruction</span> - bilious/feculent vomiting, distension, absolute constipation, previous abdominal surgery.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic ketoacidosis</span> - vomiting, polyuria, polydipsia, Kussmaul breathing, altered mentation in a diabetic patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperemesis gravidarum/pregnancy</span> - persistent vomiting in early pregnancy, sometimes with ketosis and weight loss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Raised intracranial pressure/migraine</span> - vomiting with headache, worse in the morning or with straining, or classic migrainous features.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal colic/pyelonephritis</span> - loin pain radiating to the groin, dysuria, or fever with flank tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cholecystitis/biliary colic</span> - right upper quadrant pain, often after fatty meals.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell vaso-occlusive crisis</span> - vomiting alongside severe bone/joint pain in a known sickle cell patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - NSAIDs, chemotherapy, or other new drugs.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Uraemia</span> - in a patient with known or undiagnosed chronic kidney disease.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief of Vomiting Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral rehydration salts (ORS)</span> - the cornerstone of managing vomiting with associated fluid loss, particularly in children; started as soon as the patient can tolerate small, frequent sips.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">IV fluids</span> - where the patient cannot tolerate oral intake, or is significantly dehydrated; correct electrolyte derangements (particularly potassium) alongside rehydration.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Antiemetics</span> (e.g. metoclopramide, ondansetron) - useful for symptomatic relief, but use metoclopramide cautiously in children (extrapyramidal side effects) and check safety profiles in pregnancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Zinc supplementation</span> - recommended alongside ORS in children with vomiting/diarrhoea, per WHO/UNICEF guidance, to reduce duration and severity.</li>
+      <li>Do not give antiemetics that mask a surgical abdomen without first assessing for peritonism, obstruction, or other danger signs.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastroenteritis</span> - ORS and zinc as above; antibiotics reserved for confirmed or strongly suspected bacterial dysentery, not routine viral gastroenteritis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria/typhoid</span> - as per the fever guide: ACT/IV artesunate for malaria, appropriate antibiotics for typhoid.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peptic ulcer disease/gastritis</span> - proton pump inhibitor, H. pylori eradication if confirmed, and avoidance of NSAIDs/alcohol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Appendicitis/bowel obstruction</span> - surgical referral; nil by mouth, IV fluids, and nasogastric decompression where obstruction is present, pending definitive surgical management.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic ketoacidosis</span> - IV fluid resuscitation, insulin infusion, potassium replacement guided by levels, and treatment of the precipitating cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperemesis gravidarum</span> - IV fluids, pregnancy-safe antiemetics, and thiamine supplementation if vomiting has been prolonged.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal colic</span> - analgesia, IV fluids, and urology referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell crisis</span> - analgesia, hydration, and haematology input as per local sickle cell protocol.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Vomiting, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, content/character of vomitus, frequency, associated symptoms, directed risk history, treatment already received, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Diabetes, sickle cell disease, previous abdominal surgery, renal disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">NSAIDs, insulin/oral hypoglycaemics, other recent medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Food/water source, similar illness in contacts, alcohol use.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, hydration status explicitly, abdominal findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Giving antiemetics without first assessing for a surgical abdomen or other danger signs.</li>
+    <li>Underestimating the severity of dehydration in a vomiting child.</li>
+    <li>Not checking blood glucose and ketones in unexplained vomiting, missing diabetic ketoacidosis.</li>
+    <li>Not performing a pregnancy test in a woman of reproductive age with vomiting.</li>
+    <li>Failing to correct electrolyte disturbances, particularly hypokalaemia, during rehydration.</li>
+    <li>Reassuring oneself in a case of bowel obstruction because the patient "looks well" early on.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Assess hydration status carefully in every vomiting patient, especially children - this directly drives management urgency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check a pregnancy test in a woman of reproductive age presenting with vomiting.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Bilious or feculent vomiting is a surgical emergency until proven otherwise.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check blood glucose and ketones in any unexplained vomiting to rule out diabetic ketoacidosis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>ORS plus zinc supplementation is central to managing vomiting/diarrhoea in children, per WHO/UNICEF guidance.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization/UNICEF - Joint Statement on Clinical Management of Acute Diarrhoea (ORS and zinc).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Integrated Management of Childhood Illness (IMCI) Guidelines.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>International Society for Pediatric and Adolescent Diabetes (ISPAD) - Clinical Practice Consensus Guidelines on DKA.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, National Malaria Elimination Programme - National Guidelines for Diagnosis and Treatment of Malaria in Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Nausea and Vomiting in Pregnancy and Hyperemesis Gravidarum.</li>
+    </ul>
+  </div>
+</details>
+
+</body>
+</html>
+    `
+  },
 ];

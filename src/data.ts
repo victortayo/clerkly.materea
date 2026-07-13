@@ -1488,6 +1488,576 @@ export const INITIAL_TEMPLATES: Template[] = [
 
   // Pediatrics
   {
+    id: 'peds-01',
+    title: 'HbSS Disease Presenting with Dactylitis (Hand-Foot Syndrome)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Haematology',
+    condition: 'Homozygous Sickle Cell Disease (HbSS) - Dactylitis',
+    symptoms: [
+      'Painful swelling of both hands',
+      'Painful swelling of both feet',
+      'Excessive crying',
+      'Reduced use of both hands',
+      'Poor feeding',
+      'Low-grade fever'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-11',
+    summary: 'A 10-month-old male infant with newly diagnosed HbSS disease presented with his first vaso-occlusive crisis manifesting as dactylitis (hand-foot syndrome), characterized by painful swelling of both hands and feet, excessive crying and reduced limb use.',
+    content: `PAEDIATRIC HAEMATOLOGY
+  
+  Patient Seen
+  
+  A 10-month-old male infant weighing 8.8 kg from Abeokuta, Ogun State, Christian, Yoruba. Informant: Mother (Reliable).
+  
+  PC:
+  Painful swelling of both hands and feet × 2 days
+  Excessive crying × 2 days
+  Reduced use of both hands × 2 days
+  
+  HPC:
+  The child was apparently well until about 2 days prior to presentation when he developed swelling of both hands and both feet. The swelling was gradual in onset and progressively increased in size. It is associated with excessive crying, especially when the affected limbs are touched or moved.
+  
+  The mother noticed that the child refused to crawl or grasp toys because of pain and cries whenever attempts are made to lift him under the arms or encourage him to stand.
+  
+  There is no history of trauma, open wounds, discharge from the swollen areas, redness or obvious deformity.
+  
+  There is a history of low-grade fever noticed at home but no documented high-grade fever.
+  
+  There is no cough, fast breathing, vomiting, diarrhoea or abdominal distension.
+  
+  The child has been feeding less than usual over the past 2 days but is still breastfeeding.
+  
+  Urine output is slightly reduced but remains adequate.
+  
+  There has been no previous similar episode.
+  
+  The parents report that newborn screening was not performed. During evaluation at a referring facility because of persistent anaemia, haemoglobin electrophoresis demonstrated HbSS, making this the child's first diagnosis of sickle cell disease.
+  
+  Both parents were subsequently screened and found to have HbAS genotype.
+  
+  Review of Systems:
+  
+  General:
+  Excessive crying
+  Poor feeding
+  Low-grade fever
+  Reduced activity
+  
+  Musculoskeletal:
+  Painful swelling of both hands
+  Painful swelling of both feet
+  Reduced limb movement
+  
+  Respiratory:
+  No cough
+  No fast breathing
+  No chest indrawing
+  
+  Cardiovascular:
+  No cyanosis
+  No syncope
+  
+  Gastrointestinal:
+  No vomiting
+  No diarrhoea
+  No abdominal distension
+  
+  Genitourinary:
+  Slight reduction in urine output
+  No haematuria
+  
+  Neurological:
+  No seizures
+  No loss of consciousness
+  
+  Past Medical History:
+  No previous hospital admissions.
+  No previous blood transfusion.
+  No previous diagnosis of sickle cell disease.
+  No previous painful crises.
+  
+  Birth History:
+  Delivered at term via spontaneous vaginal delivery.
+  Birth weight: 3.2 kg.
+  No history of birth asphyxia.
+  
+  Developmental History:
+  Development appropriate for age.
+  Able to sit without support.
+  Was crawling prior to onset of illness.
+  
+  Immunization History:
+  Routine childhood immunizations up to date according to the National Programme on Immunization schedule.
+  Has not commenced pneumococcal prophylaxis specific for sickle cell disease.
+  
+  Drug History:
+  Received Paracetamol syrup at home with minimal improvement.
+  No known drug allergies.
+  
+  Family History:
+  Both parents have HbAS genotype.
+  No sibling with sickle cell disease.
+  
+  Social History:
+  Lives with both parents.
+  Good family support.
+  
+  O/E:
+  Infant carried by mother.
+  Conscious.
+  Irritable but consolable.
+  Moderately painful distress.
+  Mild pallor.
+  Mild scleral icterus.
+  Well hydrated.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 37.9°C
+  PR: 132 bpm
+  RR: 34 cpm
+  BP: 90/56 mmHg
+  SpO₂: 99% on room air
+  Weight: 8.8 kg
+  
+  Musculoskeletal Examination:
+  Diffuse symmetrical swelling of both hands and both feet.
+  Marked tenderness over the metacarpals, metatarsals and phalanges.
+  No fluctuation.
+  No erythema.
+  No open wounds.
+  No deformity.
+  Passive movements limited by pain.
+  Peripheral pulses present.
+  Capillary refill time <2 seconds.
+  
+  Abdominal Examination:
+  Abdomen soft.
+  No tenderness.
+  Liver palpable 2 cm below the right costal margin.
+  Spleen palpable 1 cm below the left costal margin.
+  Normal bowel sounds.
+  
+  Cardiovascular Examination:
+  Pulse regular.
+  Heart sounds I and II normal.
+  Soft flow systolic murmur.
+  No signs of cardiac failure.
+  
+  Respiratory Examination:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  No crepitations.
+  No wheezes.
+  
+  Central Nervous System:
+  Conscious.
+  Alert.
+  Anterior fontanelle flat.
+  Normal tone.
+  No focal neurological deficits.
+  
+  Assessment:
+  Newly diagnosed Homozygous Sickle Cell Disease (HbSS) presenting with first vaso-occlusive crisis (dactylitis/hand-foot syndrome).
+  
+  Differential Diagnoses:
+  Acute osteomyelitis.
+  Septic arthritis.
+  Cellulitis.
+  Juvenile idiopathic arthritis (unlikely).
+  Soft tissue injury.
+  
+  Investigations:
+  
+  Laboratory:
+  Full Blood Count.
+  Reticulocyte Count.
+  Peripheral Blood Film.
+  Haemoglobin Electrophoresis (confirmatory if not already documented).
+  Sickling test where electrophoresis is unavailable.
+  Serum Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  Blood Culture before antibiotics if febrile.
+  Malaria Parasite Test.
+  Urinalysis.
+  G6PD status.
+  
+  Imaging:
+  X-ray of hands and feet if osteomyelitis or fracture is suspected.
+  Chest X-ray if respiratory symptoms develop.
+  
+  Management:
+  
+  Admission:
+  Admit to the Paediatric Ward under the Paediatric Haematology team.
+  
+  Hydration:
+  Encourage breastfeeding and oral fluids.
+  
+  If oral intake is inadequate:
+  0.9% Normal Saline 180 mL IV over 1 hour (approximately 20 mL/kg) if clinically dehydrated, then reassess.
+  
+  After stabilization:
+  5% Dextrose in 0.45% Saline at approximately 35–40 mL/hour (maintenance rate for an 8.8 kg infant), adjusted according to hydration status and urine output.
+  
+  Avoid overhydration.
+  
+  Analgesia:
+  
+  Mild to Moderate Pain:
+  Paracetamol syrup 15 mg/kg orally every 6 hours as required.
+  
+  For 8.8 kg:
+  132 mg per dose.
+  
+  Using 120 mg/5 mL suspension:
+  Administer 5.5 mL every 6 hours.
+  
+  If Pain Persists:
+  Ibuprofen 10 mg/kg orally every 8 hours after feeds (if adequately hydrated and renal function is normal).
+  
+  For 8.8 kg:
+  88 mg per dose.
+  
+  Using 100 mg/5 mL suspension:
+  Administer 4.5 mL every 8 hours.
+  
+  Severe Pain:
+  Inj. Morphine 0.05–0.1 mg/kg IV slowly every 4–6 hours as required with continuous monitoring for respiratory depression.
+  
+  If Fever is Present (≥38.5°C or Clinical Suspicion of Bacterial Infection):
+  Obtain blood cultures before antibiotics where possible.
+  
+  Commence empiric therapy:
+  Inj. Ceftriaxone 80 mg/kg IV once daily.
+  
+  For 8.8 kg:
+  700 mg IV once daily.
+  
+  Modify therapy according to culture results and local antimicrobial guidelines.
+  
+  Disease-Specific Management:
+  Folic Acid syrup 2.5 mg orally once daily.
+  
+  Commence Penicillin V prophylaxis 125 mg orally twice daily (recommended from diagnosis until at least 5 years of age unless contraindicated).
+  
+  Review immunization status and arrange completion of pneumococcal, meningococcal, Haemophilus influenzae type b and annual influenza vaccination according to national recommendations.
+  
+  Discuss initiation of hydroxyurea with the Paediatric Haematology team after recovery, based on current guidelines and disease severity.
+  
+  Nursing Instructions:
+  Monitor vital signs every 4 hours.
+  Assess pain regularly using an age-appropriate pain scale.
+  Maintain fluid input and output chart.
+  Observe for increasing swelling, fever, respiratory distress or neurological symptoms.
+  Encourage continued breastfeeding.
+  
+  Health Education:
+  Explain that sickle cell disease is an inherited condition caused by receiving the sickle gene from both parents and that painful swelling of the hands and feet is a common first manifestation during infancy.
+  
+  Educate the parents on avoiding dehydration, seeking early treatment for fever, ensuring routine clinic attendance, adhering to penicillin prophylaxis and folic acid therapy, and maintaining all recommended immunizations.
+  
+  Advise immediate hospital presentation if the child develops fever, difficulty breathing, increasing pallor, abdominal swelling (particularly sudden splenic enlargement), persistent vomiting, reduced urine output, seizures or inability to feed.
+  
+  Provide genetic counselling and explain the recurrence risk in future pregnancies.
+  
+  Follow-up:
+  Daily review while admitted.
+  Review in the Paediatric Haematology Clinic 2 weeks after discharge.
+  
+  Thereafter, routine follow-up every 2–3 months with growth monitoring, counselling, prophylactic care and screening for sickle cell disease complications.
+  
+  Prognosis:
+  Good. Dactylitis is usually self-limiting and responds well to hydration, analgesia and supportive care. Early diagnosis, penicillin prophylaxis, appropriate immunization and regular specialist follow-up significantly reduce morbidity and improve long-term outcomes in children with HbSS.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-02',
+    title: 'Acute Dentoalveolar Abscess Secondary to Dental Caries',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Dentistry',
+    condition: 'Acute Dentoalveolar Abscess',
+    symptoms: [
+      'Lower left jaw pain',
+      'Left lower jaw swelling',
+      'Difficulty chewing',
+      'Low-grade fever',
+      'Dental caries',
+      'Reduced oral intake'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-11',
+    summary: 'A 7-year-old boy presented with a 4-day history of severe toothache and a 2-day history of painful left mandibular swelling secondary to untreated dental caries, consistent with an acute dentoalveolar abscess.',
+    content: `PAEDIATRIC DENTISTRY
+  
+  Patient Seen
+  
+  A 7-year-old male primary school pupil weighing 24 kg from Abeokuta, Ogun State, Christian, Yoruba. Accompanied by his mother (Reliable Informant).
+  
+  PC:
+  Pain in the lower left jaw × 4 days
+  Swelling of the left lower jaw × 2 days
+  Difficulty chewing × 2 days
+  
+  HPC:
+  The child was apparently well until about 4 days prior to presentation when he developed pain in the lower left back tooth. The pain was initially intermittent but progressively became continuous and severe. It is described as throbbing, rated 8/10 in severity and is aggravated by chewing, taking cold or hot foods, and touching the affected tooth. There is minimal relief with over-the-counter paracetamol.
+  
+  Two days before presentation, his mother noticed swelling over the left lower jaw, which has gradually increased in size. The swelling is painful but has not discharged pus.
+  
+  The child has been reluctant to chew on the affected side and has had reduced oral intake because of pain.
+  
+  He has had low-grade fever and poor sleep over the past two nights.
+  
+  There is no difficulty opening the mouth, drooling of saliva, difficulty swallowing, difficulty breathing or facial trauma.
+  
+  His mother reports that he has had a "hole" in the affected tooth for several months but did not seek dental care because the pain used to settle spontaneously.
+  
+  His oral hygiene is poor, and he frequently consumes sugary snacks and carbonated drinks.
+  
+  Review of Systems:
+  
+  General:
+  Toothache
+  Low-grade fever
+  Reduced appetite
+  Poor sleep
+  
+  Oral and Maxillofacial:
+  Painful lower jaw swelling
+  Dental caries
+  Pain on chewing
+  No trismus
+  No dysphagia
+  No odynophagia
+  No foul-smelling oral discharge
+  
+  Respiratory:
+  No cough
+  No noisy breathing
+  No respiratory distress
+  
+  Gastrointestinal:
+  No vomiting
+  No diarrhoea
+  
+  Neurological:
+  No headache
+  No seizures
+  
+  Past Medical History:
+  No chronic medical illness.
+  No congenital heart disease.
+  No diabetes mellitus.
+  
+  Past Surgical History:
+  Nil significant.
+  
+  Drug History:
+  Paracetamol syrup administered at home with partial relief.
+  No known drug allergies.
+  
+  Birth History:
+  Delivered at term by spontaneous vaginal delivery.
+  No significant perinatal complications.
+  
+  Immunization History:
+  Fully immunized for age according to the National Programme on Immunization schedule.
+  
+  Family History:
+  Nil contributory.
+  
+  Social History:
+  Lives with both parents.
+  Consumes sugary snacks and soft drinks frequently.
+  Brushes teeth irregularly, usually once daily without supervision.
+  Has never attended a dental clinic previously.
+  
+  O/E:
+  Young boy.
+  Conscious.
+  Alert.
+  Mild painful distress.
+  Mild left facial swelling.
+  Not pale.
+  Not jaundiced.
+  Well hydrated.
+  
+  Vital Signs:
+  Temperature: 38.1°C
+  PR: 104 bpm
+  RR: 22 cpm
+  BP: 98/60 mmHg
+  SpO₂: 99% on room air
+  Weight: 24 kg
+  
+  Oral Examination:
+  Poor oral hygiene.
+  Multiple dental plaques present.
+  Deep carious lesion involving the lower left second primary molar (75).
+  Adjacent gingiva erythematous and oedematous.
+  Fluctuant swelling measuring approximately 2 × 2 cm present in the left buccal sulcus adjacent to the affected tooth.
+  Marked tenderness over the involved tooth.
+  Tooth tender to percussion.
+  No spontaneous pus discharge.
+  No significant tooth mobility.
+  No trismus.
+  No floor of mouth swelling.
+  No uvular deviation.
+  No cervical lymphadenopathy.
+  
+  Cardiovascular Examination:
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Respiratory Examination:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  No added sounds.
+  
+  Abdominal Examination:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Central Nervous System:
+  Conscious.
+  Alert.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute dentoalveolar abscess involving the lower left second primary molar (75), secondary to untreated dental caries.
+  
+  Differential Diagnoses:
+  Acute irreversible pulpitis.
+  Acute apical periodontitis.
+  Buccal cellulitis secondary to odontogenic infection.
+  Periodontal abscess.
+  Acute osteomyelitis of the mandible (less likely).
+  
+  Investigations:
+  
+  Laboratory:
+  Not routinely required in uncomplicated cases.
+  
+  If systemic illness or extensive infection is present:
+  Full Blood Count.
+  Random Blood Sugar (if indicated).
+  
+  Dental Imaging:
+  Periapical radiograph of the affected tooth.
+  Bitewing radiographs to assess additional carious lesions.
+  Orthopantomogram (OPG) if multiple teeth are involved or extensive disease is suspected.
+  
+  Management:
+  
+  Immediate Measures:
+  Refer urgently to the Paediatric Dental Unit.
+  Encourage adequate oral fluid intake.
+  Advise a soft diet and chewing on the unaffected side.
+  
+  Analgesia:
+  
+  First-Line:
+  Paracetamol syrup 15 mg/kg orally every 6 hours as required.
+  
+  For 24 kg:
+  360 mg per dose.
+  
+  Using 120 mg/5 mL suspension:
+  Administer 15 mL every 6 hours as required.
+  
+  If Additional Pain Relief is Needed:
+  Ibuprofen 10 mg/kg orally every 8 hours after meals.
+  
+  For 24 kg:
+  240 mg per dose.
+  
+  Using 100 mg/5 mL suspension:
+  Administer 12 mL every 8 hours for 3–5 days.
+  
+  Antibiotic Therapy:
+  
+  Because there is facial swelling and systemic features, antibiotics are indicated in addition to definitive dental treatment.
+  
+  First-Line:
+  Amoxicillin 25 mg/kg/dose orally every 8 hours for 5 days.
+  
+  For 24 kg:
+  600 mg every 8 hours.
+  
+  Using 250 mg/5 mL suspension:
+  Administer 12 mL every 8 hours.
+  
+  If Penicillin Allergy:
+  Azithromycin 10 mg/kg orally on Day 1, then 5 mg/kg once daily on Days 2–5.
+  
+  For 24 kg:
+  Day 1: 240 mg (approximately 6 mL of 200 mg/5 mL suspension).
+  
+  Days 2–5:
+  120 mg once daily (approximately 3 mL daily).
+  
+  If Anaerobic Infection is Suspected or Infection is Extensive:
+  Metronidazole 7.5 mg/kg orally every 8 hours for 5 days.
+  
+  For 24 kg:
+  180 mg every 8 hours.
+  
+  Using 200 mg/5 mL suspension:
+  Administer 4.5 mL every 8 hours.
+  
+  Definitive Dental Management:
+  
+  Under the Paediatric Dental Team:
+  Incision and drainage if the abscess is fluctuant.
+  Extraction of the affected primary tooth if non-restorable.
+  If the tooth is restorable and appropriate, perform pulpectomy or other pulp therapy after infection control.
+  Provide fluoride therapy and preventive dental care.
+  
+  Nursing Instructions:
+  Monitor temperature and pain score.
+  Encourage oral fluids.
+  Maintain oral hygiene.
+  Observe for increasing facial swelling or airway compromise.
+  
+  Health Education:
+  Explain that the abscess resulted from untreated dental decay and that antibiotics alone will not cure the infection without definitive dental treatment.
+  
+  Advise brushing twice daily with fluoride toothpaste under parental supervision.
+  
+  Reduce intake of sugary foods, sweets and carbonated drinks, particularly between meals.
+  
+  Encourage regular dental reviews every six months.
+  
+  Advise immediate hospital presentation if facial swelling rapidly worsens, the child develops difficulty swallowing, difficulty breathing, inability to open the mouth, persistent high fever or lethargy.
+  
+  Follow-up:
+  Review in the Paediatric Dental Clinic within 24–48 hours for definitive treatment.
+  
+  Earlier review if swelling increases, fever persists after 48 hours of antibiotics or airway symptoms develop.
+  
+  Following treatment, continue routine dental follow-up every 6 months.
+  
+  Prognosis:
+  Good. With prompt drainage or extraction of the affected tooth, appropriate antibiotics when indicated and improved oral hygiene, complete recovery is expected. Delay in treatment may result in facial cellulitis, osteomyelitis or spread of infection into the deep neck spaces.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'peds-02',
     title: 'Non-inflammatory Tinea Capitis (Grey Patch/Black Dot Type)',
     specialty: 'Pediatrics',
@@ -1747,6 +2317,297 @@ export const INITIAL_TEMPLATES: Template[] = [
   
   Prognosis:
   Excellent with appropriate systemic antifungal therapy. Early diagnosis and treatment minimize the risk of permanent scarring alopecia.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-03',
+    title: 'Closed Displaced Mid-shaft Fracture of the Right Radius and Ulna',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Orthopaedics',
+    condition: 'Both-Bone Forearm Fracture',
+    symptoms: [
+      'Right forearm pain',
+      'Forearm swelling',
+      'Inability to use the right upper limb',
+      'Forearm deformity',
+      'Pain following a fall'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-07',
+    summary: 'A 10-year-old boy presented two hours after falling onto an outstretched hand while playing football, resulting in severe right forearm pain, swelling, deformity and inability to use the limb. Examination was consistent with a closed displaced mid-shaft fracture of the radius and ulna with intact distal neurovascular status.',
+    content: `PAEDIATRIC EMERGENCY / ORTHOPAEDIC CLINIC
+  
+  Patient Seen
+  
+  A 10-year-old male primary school pupil from Abeokuta, Ogun State, Christian, Yoruba.
+  
+  Accompanied by: Mother (Reliable Informant)
+  
+  PC:
+  Right forearm pain × 2 hours.
+  Right forearm swelling × 2 hours.
+  Inability to use the right upper limb × 2 hours.
+  
+  HPC:
+  
+  The patient was apparently well until about two hours prior to presentation when he sustained an injury to his right forearm after falling while playing football at school. According to his mother, he tripped while running and landed on his outstretched right hand.
+  
+  He experienced immediate severe pain in the right forearm followed by rapid swelling and was unable to continue playing. Since the injury, he has been unable to move or use the affected upper limb because of pain.
+  
+  The pain is severe (9/10), constant, localized to the middle third of the right forearm and aggravated by any attempt at movement. There is partial relief when the limb is supported.
+  
+  There is no history of loss of consciousness.
+  
+  There was no head injury.
+  
+  There is no pain in the shoulder, elbow or wrist apart from radiation from the forearm.
+  
+  There is no numbness or tingling of the fingers.
+  
+  There is no weakness of finger movement.
+  
+  There is no bleeding or open wound.
+  
+  There is no previous fracture involving the affected limb.
+  
+  No medication was administered before presentation.
+  
+  Review of Systems
+  
+  General:
+  Severe pain.
+  No fever.
+  No vomiting.
+  
+  Musculoskeletal:
+  Right forearm pain.
+  Right forearm swelling.
+  Inability to use the limb.
+  No pain in other limbs.
+  
+  Neurological:
+  No numbness.
+  No paraesthesia.
+  Able to move fingers despite pain.
+  
+  Cardiovascular:
+  No palpitations.
+  
+  Respiratory:
+  No cough.
+  No breathing difficulty.
+  
+  Past Medical History:
+  No chronic illness.
+  No previous fractures.
+  No bleeding disorders.
+  
+  Birth and Developmental History:
+  Born at term via spontaneous vaginal delivery.
+  Normal developmental milestones.
+  
+  Immunization History:
+  Fully immunized for age.
+  
+  Drug History:
+  No routine medications.
+  No known drug allergies.
+  
+  Family History:
+  No family history of bone disorders.
+  
+  Social History:
+  Primary five pupil.
+  Right-hand dominant.
+  Previously healthy and active.
+  
+  O/E:
+  
+  General Examination:
+  Young boy.
+  Conscious.
+  Alert.
+  In painful distress.
+  Right upper limb supported by the left hand.
+  Well hydrated.
+  Not pale.
+  Not jaundiced.
+  
+  Vital Signs:
+  Temperature: 36.8°C
+  PR: 104 bpm
+  RR: 22 cpm
+  BP: 102/64 mmHg
+  SpO₂: 99% on room air
+  Weight: 34 kg
+  
+  Local Examination of the Right Forearm:
+  
+  The right forearm is held immobile against the body.
+  
+  Diffuse swelling involving the middle third of the forearm.
+  
+  Visible deformity with dorsal angulation.
+  
+  Skin intact with no laceration or puncture wound.
+  
+  No bruising initially.
+  
+  Marked tenderness over the middle third of both the radius and ulna.
+  
+  Crepitus not deliberately elicited because of pain and the risk of worsening the injury.
+  
+  Abnormal mobility present at the fracture site.
+  
+  Active movements of the forearm markedly limited by pain.
+  
+  Wrist and elbow movements are painful but preserved.
+  
+  Distal Neurovascular Examination:
+  
+  Radial and ulnar pulses palpable and symmetrical.
+  
+  Capillary refill time less than 2 seconds.
+  
+  Hand warm with normal colour.
+  
+  Sensation intact in the median, ulnar and radial nerve distributions.
+  
+  The patient is able to flex and extend all fingers and move the thumb, although movement is limited by pain.
+  
+  No evidence of compartment syndrome.
+  
+  Systemic Examination
+  
+  Cardiovascular:
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Central Nervous System:
+  Conscious.
+  Alert.
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  Assessment:
+  Closed displaced mid-shaft fracture of the right radius and ulna (both-bone forearm fracture) following a fall on an outstretched hand.
+  
+  Differential Diagnoses:
+  Isolated fracture of the right radius.
+  Isolated fracture of the right ulna.
+  Monteggia fracture-dislocation.
+  Galeazzi fracture-dislocation.
+  Soft tissue injury with severe contusion.
+  
+  Investigations:
+  
+  Imaging:
+  • X-ray Right Forearm (AP and Lateral Views), including the elbow and wrist joints.
+  
+  Expected findings:
+  • Displaced transverse or short oblique fractures of the mid-shaft of the radius and ulna.
+  • Dorsal angulation of the distal fracture fragments.
+  • No associated elbow or wrist dislocation.
+  
+  • Repeat X-rays after reduction and during follow-up to assess maintenance of alignment.
+  
+  Laboratory (if operative intervention is anticipated):
+  • Full Blood Count.
+  • Serum Electrolytes, Urea and Creatinine.
+  • Blood Group and Cross-match if indicated.
+  • Coagulation Profile if clinically indicated.
+  
+  Plan:
+  
+  Immediate Care:
+  Reassure the patient and mother.
+  Immobilize the affected limb immediately using a well-padded above-elbow posterior backslab with the elbow flexed to 90° and the forearm in an appropriate rotational position.
+  Elevate the limb in an arm sling to reduce swelling.
+  Apply an ice pack wrapped in a towel over the swelling for 15–20 minutes every 2–3 hours during the first 24–48 hours, avoiding direct contact with the skin.
+  
+  Analgesia:
+  
+  Initial Analgesia:
+  Inj. Paracetamol 15 mg/kg IV every 6 hours as required.
+  
+  For this child (34 kg):
+  510 mg IV every 6 hours as required.
+  
+  If pain is moderate to severe:
+  Inj. Diclofenac 1 mg/kg IM stat (maximum 75 mg), provided there are no contraindications.
+  
+  For this child:
+  34 mg IM stat.
+  
+  Oral Analgesia After Stabilization:
+  
+  Paracetamol syrup 15 mg/kg PO every 6 hours as required.
+  
+  For this child:
+  Approximately 500 mg per dose.
+  
+  Using 250 mg/5 mL suspension:
+  Administer 10 mL every 6 hours as needed.
+  
+  If additional analgesia is required:
+  Ibuprofen 10 mg/kg PO every 8 hours after meals for 3–5 days.
+  
+  For this child:
+  340 mg per dose.
+  
+  Using 100 mg/5 mL suspension:
+  Administer 17 mL every 8 hours.
+  
+  Definitive Management:
+  Urgent Orthopaedic review.
+  Proceed with closed reduction under procedural sedation or general anaesthesia followed by application of a well-moulded above-elbow plaster cast.
+  
+  If acceptable alignment cannot be achieved or maintained, or if the fracture is unstable:
+  Open Reduction and Internal Fixation (ORIF) or Elastic Stable Intramedullary Nailing (ESIN) should be considered.
+  
+  Nursing Instructions:
+  Monitor pain using an age-appropriate pain scale.
+  Elevate the limb continuously.
+  Perform and document distal neurovascular observations every 2–4 hours during the first 24 hours:
+  • Finger colour.
+  • Capillary refill.
+  • Finger movement.
+  • Sensation.
+  • Radial pulse.
+  • Increasing pain.
+  
+  Observe closely for signs of compartment syndrome.
+  
+  Health Education:
+  Explain the diagnosis and treatment plan to the parent.
+  Advise keeping the cast clean and dry.
+  Do not insert objects into the cast to relieve itching.
+  Encourage regular finger movements to reduce swelling and stiffness.
+  Return immediately if increasing pain not relieved by medication, numbness, inability to move the fingers, swelling of the fingers, foul smell from the cast, fever or bluish discoloration of the hand develops.
+  Avoid sports and rough play until cleared by the Orthopaedic team.
+  
+  Follow-up:
+  Review in the Orthopaedic Clinic within 5–7 days with repeat X-rays to confirm maintenance of reduction.
+  Subsequent reviews at 2 weeks, 4 weeks and 6 weeks with repeat radiographs as indicated.
+  Cast removal is anticipated after approximately 6 weeks, followed by progressive rehabilitation and range-of-motion exercises.
+  
+  Prognosis:
+  Excellent. Paediatric both-bone forearm fractures generally heal well because of the child's high bone-remodelling potential. Early immobilization, maintenance of reduction and careful neurovascular monitoring are essential to prevent complications such as malunion, compartment syndrome and limitation of forearm rotation.
   `,
     documentation: `
   <div class="space-y-6">
@@ -7876,6 +8737,270 @@ Not yet available
   // Internal Medicine
   {
     id: 'im-01',
+    title: 'HbSC Disease with Uncomplicated Vaso-Occlusive Crisis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Haematology',
+    condition: 'Sickle Cell Disease (HbSC) - Vaso-Occlusive Crisis',
+    symptoms: [
+      'Generalized bone pain',
+      'Bilateral lower limb pain',
+      'Difficulty walking',
+      'Lower back pain',
+      'Pain in both upper arms',
+      'Mild fatigue'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-11',
+    summary: 'A 24-year-old woman with known HbSC disease presented with a 2-day history of generalized bone pain and bilateral lower limb pain consistent with an uncomplicated vaso-occlusive crisis, likely precipitated by dehydration and cold exposure.',
+    content: `INTERNAL MEDICINE (HAEMATOLOGY)
+  
+  Patient Seen
+  
+  A 24-year-old single female undergraduate student from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
+  
+  PC:
+  Generalized bone pain × 2 days
+  Pain in both lower limbs × 2 days
+  Difficulty walking × 1 day
+  
+  HPC:
+  The patient is a known HbSC patient diagnosed in childhood by haemoglobin electrophoresis. She was apparently well until about 2 days prior to presentation when she developed generalized bone pain involving both thighs, both legs, the lower back and both upper arms.
+  
+  The pain was gradual in onset, progressively worsened over several hours and is described as deep, aching and throbbing. Pain severity is rated 8/10. It is aggravated by movement and weight bearing with minimal relief following oral paracetamol taken at home.
+  
+  She reports that the pain started after prolonged travel without adequate fluid intake and exposure to cold weather during heavy rainfall.
+  
+  There is no history of recent trauma, limb swelling, joint redness, chest pain, cough, difficulty breathing, abdominal pain, fever, dysuria or passage of dark urine.
+  
+  She has experienced similar vaso-occlusive crises approximately one to two times yearly, with the last episode occurring about 10 months ago. Previous episodes resolved with analgesics and intravenous fluids.
+  
+  She is compliant with routine folic acid therapy but is not on hydroxyurea.
+  
+  Review of Systems:
+  
+  General:
+  Severe bone pain
+  Mild fatigue
+  No fever
+  No weight loss
+  
+  Musculoskeletal:
+  Generalized bone pain
+  Difficulty walking
+  No joint swelling
+  No recent trauma
+  
+  Respiratory:
+  No cough
+  No chest pain
+  No shortness of breath
+  
+  Cardiovascular:
+  No palpitations
+  No syncope
+  
+  Gastrointestinal:
+  No abdominal pain
+  No vomiting
+  Normal bowel habits
+  
+  Genitourinary:
+  No dysuria
+  No haematuria
+  
+  Neurological:
+  No headache
+  No limb weakness
+  No seizures
+  
+  Past Medical History:
+  Known HbSC disease diagnosed in childhood.
+  Approximately one to two vaso-occlusive crises annually.
+  No previous stroke.
+  No avascular necrosis.
+  No acute chest syndrome.
+  No chronic kidney disease.
+  
+  Past Surgical History:
+  Nil significant.
+  
+  Drug History:
+  Tab Folic Acid 5 mg orally once daily.
+  Occasional Paracetamol during painful crises.
+  No known drug allergies.
+  
+  Family History:
+  One sibling has sickle cell disease.
+  Both parents are known haemoglobinopathy carriers.
+  
+  Social History:
+  Lives with family.
+  Non-smoker.
+  Does not consume alcohol.
+  Maintains regular sickle cell clinic follow-up.
+  
+  O/E:
+  Young woman, conscious, alert and in painful distress.
+  Mild scleral icterus.
+  Mild pallor.
+  Well hydrated.
+  No peripheral oedema.
+  No lymphadenopathy.
+  
+  Vital Signs:
+  BP: 112/70 mmHg
+  PR: 96 bpm, regular
+  RR: 20 cpm
+  Temperature: 36.9°C
+  SpO₂: 98% on room air
+  Weight: 60 kg
+  Height: 1.65 m
+  BMI: 22.0 kg/m²
+  
+  Musculoskeletal Examination:
+  Diffuse tenderness over both femora, tibiae, humeri and the lumbosacral spine.
+  No erythema.
+  No warmth.
+  No joint swelling.
+  No deformity.
+  Range of motion of the hips, knees and shoulders mildly limited by pain.
+  No focal bony swelling suggestive of osteomyelitis.
+  Distal neurovascular status intact.
+  
+  Abdominal Examination:
+  Abdomen moves with respiration.
+  Soft.
+  Non-tender.
+  Spleen not palpable.
+  Liver palpable 2 cm below the right costal margin, smooth and non-tender.
+  No ascites.
+  Normal bowel sounds.
+  
+  Cardiovascular Examination:
+  Pulse regular.
+  Heart sounds I and II normal.
+  Soft flow systolic murmur.
+  No signs of cardiac failure.
+  
+  Respiratory Examination:
+  Chest expansion symmetrical.
+  Normal vesicular breath sounds.
+  No crepitations.
+  No wheezes.
+  
+  Central Nervous System:
+  Conscious.
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  Assessment:
+  Known HbSC disease with uncomplicated vaso-occlusive (painful) crisis affecting the long bones and lower back, likely precipitated by dehydration and cold exposure.
+  
+  Differential Diagnoses:
+  Acute osteomyelitis.
+  Septic arthritis.
+  Avascular necrosis of the femoral head.
+  Occult fracture.
+  Acute chest syndrome (currently no clinical evidence).
+  
+  Investigations:
+  
+  Laboratory:
+  Full Blood Count.
+  Reticulocyte Count.
+  Peripheral Blood Film.
+  Serum Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  C-Reactive Protein.
+  Blood Culture if fever develops.
+  Urinalysis.
+  Malaria Parasite Test where clinically indicated.
+  
+  Imaging (if clinically indicated):
+  X-ray of painful bones if fracture is suspected.
+  MRI if avascular necrosis or osteomyelitis is suspected.
+  Chest X-ray immediately if chest pain, hypoxia or respiratory symptoms develop.
+  
+  Management:
+  
+  Admission:
+  Admit to the Haematology or Medical Ward for observation, pain control and hydration.
+  
+  Hydration:
+  If unable to maintain adequate oral intake:
+  0.9% Normal Saline 1 litre IV over 4 hours, then continue 0.9% Normal Saline or 5% Dextrose in 0.45% Saline at 80–100 mL/hour, adjusting according to hydration status, urine output and cardiovascular status.
+  
+  Encourage oral fluid intake of 2.5–3 litres/day as tolerated.
+  Avoid overhydration.
+  
+  Analgesia:
+  
+  Mild to Moderate Pain:
+  Tab Paracetamol 1 g orally every 6 hours as required (maximum 4 g/day).
+  
+  PLUS
+  
+  Tab Ibuprofen 400 mg orally every 8 hours after meals for up to 5 days, provided renal function is normal and there are no contraindications.
+  
+  Moderate to Severe Pain:
+  Inj. Tramadol 50–100 mg IV slowly every 8 hours as required.
+  
+  OR
+  
+  Inj. Morphine 0.1 mg/kg IV slowly, titrated to pain relief with close monitoring of respiratory rate, sedation and oxygen saturation.
+  
+  Supportive Therapy:
+  Tab Folic Acid 5 mg orally once daily.
+  Administer supplemental oxygen only if SpO₂ falls below 94% or respiratory compromise develops.
+  Maintain normothermia.
+  Encourage gentle mobilization once pain improves.
+  
+  If Infection is Suspected:
+  Obtain cultures before antibiotics where feasible.
+  Commence empiric intravenous antibiotics according to the suspected source and local antimicrobial guidelines.
+  
+  Blood Transfusion:
+  Not routinely indicated for uncomplicated painful crisis.
+  Consider simple or exchange transfusion only if there is:
+  • Acute chest syndrome
+  • Symptomatic severe anaemia
+  • Stroke
+  • Multi-organ failure
+  • Preparation for selected surgical procedures
+  
+  Nursing Instructions:
+  Monitor vital signs every 4 hours.
+  Assess pain using a validated pain score.
+  Maintain accurate fluid input and output chart.
+  Observe for chest pain, hypoxia, neurological deficits or increasing bone swelling.
+  Encourage oral hydration.
+  
+  Health Education:
+  Explain that painful crises result from vaso-occlusion and may be triggered by dehydration, infection, cold exposure, extreme physical exertion or emotional stress.
+  
+  Advise maintaining good hydration, avoiding prolonged exposure to cold, treating infections promptly and attending regular sickle cell clinic follow-up.
+  
+  Discuss long-term preventive measures, including assessment by a haematologist for hydroxyurea if painful crises become more frequent or severe.
+  
+  Advise immediate hospital presentation if fever, chest pain, shortness of breath, severe headache, limb weakness, persistent abdominal pain or reduced urine output develops.
+  
+  Follow-up:
+  Daily review while admitted.
+  Review in the Haematology Clinic 2 weeks after discharge.
+  Continue regular sickle cell clinic follow-up every 3–6 months.
+  
+  Prognosis:
+  Good. HbSC disease generally has a milder clinical course than HbSS, and this uncomplicated vaso-occlusive crisis is expected to resolve with prompt analgesia, hydration and supportive care. Ongoing preventive measures reduce the likelihood of recurrent painful crises and long-term complications.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-01',
     title: 'Acute Viral Labyrinthitis',
     specialty: 'Internal Medicine',
     subSpecialty: 'ENT / Neurology',
@@ -12183,6 +13308,517 @@ Not yet available
 
 
 // General Outpatient
+{
+  id: 'gopd-01',
+  title: 'Symptomatic Orthostatic Hypotension Secondary to Dehydration',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Orthostatic Hypotension',
+  symptoms: [
+    'Dizziness on standing',
+    'Generalized weakness',
+    'Near-syncope',
+    'Light-headedness',
+    'Blurred vision',
+    'Easy fatigability'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-11',
+  summary: 'A 26-year-old woman presented with a 2-day history of postural dizziness, generalized weakness and a near-syncopal episode secondary to dehydration from inadequate fluid and food intake.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 26-year-old single female Bank Customer Service Officer from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
+
+PC:
+Dizziness × 2 days
+Generalized weakness × 2 days
+Near-fainting episode × 1 day
+
+HPC:
+The patient was apparently well until about 2 days prior to presentation when she developed recurrent episodes of dizziness, particularly on standing from a sitting or lying position. The dizziness is associated with generalized weakness, light-headedness, blurring of vision and a feeling that she might faint. She experienced one episode of near-syncope at work the previous day but did not lose consciousness.
+
+She reports poor oral intake over the preceding 3 days because of a busy work schedule and had been consuming less than one litre of water daily. She also skipped several meals during this period.
+
+There is no history of chest pain, palpitations or shortness of breath.
+
+There is no fever, vomiting, diarrhoea or excessive sweating.
+
+There is no history of recent blood loss, haematemesis, melaena or heavy menstrual bleeding.
+
+Her last menstrual period was 12 days before presentation and was of normal duration and flow.
+
+There is no history suggestive of pregnancy.
+
+She is not taking antihypertensive medications or diuretics.
+
+There is no history of diabetes mellitus or adrenal disease.
+
+Review of Systems:
+
+General:
+Generalized weakness
+Easy fatigability
+No fever
+No weight loss
+
+Cardiovascular:
+Dizziness on standing
+Near syncope
+No chest pain
+No palpitations
+
+Respiratory:
+No cough
+No dyspnoea
+
+Gastrointestinal:
+Reduced oral intake
+No vomiting
+No diarrhoea
+No abdominal pain
+
+Genitourinary:
+No dysuria
+No urinary frequency
+Normal urine output though slightly concentrated
+
+Neurological:
+Light-headedness
+No headache
+No seizures
+No focal weakness
+
+Past Medical History:
+No hypertension.
+No diabetes mellitus.
+No chronic kidney disease.
+No known endocrine disorders.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+No use of antihypertensives, diuretics or recreational drugs.
+No known drug allergies.
+
+Gynaecological History:
+Menarche at 13 years.
+Regular 28-day menstrual cycle.
+Flow lasts 4–5 days.
+No menorrhagia.
+LMP: 25/06/2026.
+No history suggestive of pregnancy.
+
+Family History:
+No family history of sudden cardiac death.
+No endocrine disorders.
+
+Social History:
+Works long hours with frequent meal skipping.
+Non-smoker.
+Occasional alcohol consumption.
+Does not use recreational drugs.
+
+O/E:
+Young woman.
+Conscious.
+Alert.
+Looks mildly dehydrated.
+Mild postural dizziness noted on standing.
+Not pale.
+Not jaundiced.
+Afebrile.
+No peripheral oedema.
+
+Vital Signs:
+Supine BP: 96/60 mmHg
+Standing BP (after 3 minutes): 84/54 mmHg
+PR: 108 bpm, regular
+RR: 18 cpm
+Temperature: 36.7°C
+SpO₂: 99% on room air
+Weight: 58 kg
+Height: 1.65 m
+BMI: 21.3 kg/m²
+
+Cardiovascular Examination:
+Pulse regular with reduced volume.
+Heart sounds I and II normal.
+No murmurs.
+No gallop rhythm.
+Jugular venous pressure not elevated.
+Peripheral pulses palpable.
+
+Respiratory Examination:
+Chest expands symmetrically.
+Normal vesicular breath sounds.
+No added sounds.
+
+Abdominal Examination:
+Abdomen soft.
+Non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+Neurological Examination:
+Conscious and oriented.
+GCS 15/15.
+Cranial nerves intact.
+Normal muscle bulk and tone.
+Power 5/5 in all limbs.
+Normal sensation.
+No cerebellar signs.
+
+Assessment:
+Symptomatic orthostatic hypotension secondary to dehydration from inadequate oral fluid and food intake.
+
+Differential Diagnoses:
+Vasovagal presyncope.
+Early pregnancy with dehydration.
+Iron deficiency anaemia.
+Cardiac arrhythmia.
+Adrenal insufficiency.
+Autonomic dysfunction (less likely).
+
+Investigations:
+
+Bedside:
+Repeat orthostatic blood pressure measurements after fluid replacement.
+Random Blood Glucose.
+Urine pregnancy test.
+Urinalysis (specific gravity, ketones).
+
+Laboratory:
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Packed Cell Volume.
+Serum β-hCG if pregnancy status is uncertain.
+Thyroid Function Tests if symptoms are recurrent.
+Morning serum cortisol if adrenal insufficiency is suspected.
+
+Cardiac Evaluation:
+12-lead ECG.
+Echocardiography if structural heart disease is suspected.
+Holter monitoring if recurrent syncope or arrhythmia is suspected.
+
+Management:
+
+Initial Stabilization:
+Place the patient in the supine position with the legs elevated.
+Monitor blood pressure, pulse rate and oxygen saturation.
+Assess response to fluid therapy.
+
+Fluid Therapy:
+Because the patient is mildly dehydrated and symptomatic:
+
+0.9% Normal Saline 1 litre IV over 2 hours, then reassess blood pressure, pulse rate and urine output.
+
+Once symptoms improve, encourage oral fluid intake of 2–3 litres daily.
+
+If intravenous access is not required and oral intake is tolerated:
+Administer Oral Rehydration Solution (ORS) 200–250 mL every hour until hydration improves.
+
+Medications:
+No specific antihypotensive medication is required initially, as the likely cause is dehydration.
+
+If nausea is present:
+Tab Metoclopramide 10 mg orally every 8 hours as required (avoid if contraindicated).
+
+If laboratory investigations confirm iron deficiency anaemia:
+Tab Ferrous Sulphate (equivalent to 65 mg elemental iron) orally once daily.
+Tab Folic Acid 5 mg orally once daily.
+
+Pharmacological agents such as Fludrocortisone or Midodrine should only be considered for persistent or recurrent orthostatic hypotension after specialist evaluation.
+
+Nursing Instructions:
+Monitor blood pressure and pulse every 30 minutes until stable, then every 4 hours if admitted.
+Maintain an input and output chart.
+Encourage gradual mobilization after symptoms improve.
+Observe for recurrent dizziness or syncope.
+
+Health Education:
+Explain that the low blood pressure is most likely due to inadequate fluid and calorie intake, leading to reduced circulating blood volume.
+
+Advise drinking at least 2–3 litres of water daily, especially during hot weather or prolonged work.
+
+Avoid skipping meals.
+
+Rise slowly from sitting or lying positions to reduce orthostatic symptoms.
+
+Avoid prolonged standing.
+
+Seek immediate medical attention if fainting, chest pain, shortness of breath, severe palpitations or persistent dizziness occurs.
+
+Follow-up:
+Observe in the Emergency Unit until blood pressure stabilizes and symptoms resolve.
+
+Repeat orthostatic blood pressure after fluid replacement.
+
+Review in the General Outpatient Clinic within 1 week with investigation results.
+
+Refer to a Cardiologist or Endocrinologist if hypotension persists despite adequate hydration or if a secondary cause is identified.
+
+Prognosis:
+Good. Symptoms are expected to resolve with correction of dehydration and improvement in dietary and fluid intake. Persistent or recurrent hypotension warrants further evaluation for cardiovascular, endocrine or neurological causes.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-02',
+  title: 'Uncomplicated Intestinal Ascariasis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Ascariasis',
+  symptoms: [
+    'Intermittent abdominal pain',
+    'Passage of worms in stool',
+    'Reduced appetite',
+    'Abdominal bloating'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-11',
+  summary: 'A 20-year-old female undergraduate presented with a 3-week history of intermittent periumbilical abdominal pain and recent passage of worms in stool, consistent with uncomplicated intestinal ascariasis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 20-year-old single female undergraduate student from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
+
+PC:
+Intermittent abdominal pain × 3 weeks
+Passage of worms in stool × 2 days
+Reduced appetite × 2 weeks
+
+HPC:
+The patient was apparently well until about 3 weeks prior to presentation when she developed intermittent, dull, colicky abdominal pain mainly around the umbilical region. The pain is mild to moderate in severity, non-radiating, occurs several times daily and is not related to meals. It is relieved temporarily after defaecation.
+
+Two days prior to presentation, she noticed two long, cream-coloured worms in her stool after defaecation, prompting her presentation to the clinic.
+
+She also reports reduced appetite over the past 2 weeks and occasional abdominal bloating.
+
+There is no history of nausea, vomiting, diarrhoea, constipation, abdominal distension, passage of blood or mucus in stool, fever, cough, wheezing or shortness of breath.
+
+She admits to frequently eating unwashed fruits purchased from roadside vendors and occasionally drinking untreated well water while visiting her village.
+
+She has not taken any deworming medication in over 2 years.
+
+Review of Systems:
+
+General:
+Reduced appetite.
+No fever.
+No significant weight loss.
+
+Gastrointestinal:
+Intermittent abdominal pain.
+Passage of worms in stool.
+Abdominal bloating.
+No vomiting.
+No diarrhoea.
+No constipation.
+No gastrointestinal bleeding.
+
+Respiratory:
+No cough.
+No wheezing.
+No breathlessness.
+
+Genitourinary:
+No urinary symptoms.
+
+Neurological:
+No headache.
+No seizures.
+
+Past Medical History:
+No hypertension.
+No diabetes mellitus.
+No previous abdominal surgery.
+No chronic gastrointestinal disease.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No routine medications.
+No known drug allergies.
+
+Gynaecological History:
+Menarche at 13 years.
+Regular menstrual cycle.
+LMP: 20/06/2026.
+Not pregnant.
+No history of abnormal vaginal discharge.
+
+Family History:
+No similar complaints among household members.
+
+Social History:
+Lives in a student hostel.
+Occasionally consumes food from roadside vendors.
+Uses a pit latrine when visiting her village.
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+Young woman.
+Conscious.
+Alert.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Well hydrated.
+No peripheral lymphadenopathy.
+
+Vital Signs:
+BP: 110/68 mmHg
+PR: 76 bpm
+RR: 16 cpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+Weight: 58 kg
+Height: 1.64 m
+BMI: 21.6 kg/m²
+
+Abdominal Examination:
+Abdomen flat and moves with respiration.
+Soft.
+Mild periumbilical tenderness.
+No guarding.
+No rebound tenderness.
+No palpable masses.
+No hepatosplenomegaly.
+Normal bowel sounds.
+
+Cardiovascular Examination:
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory Examination:
+Chest expands symmetrically.
+Normal vesicular breath sounds.
+No wheezes or crackles.
+
+Central Nervous System:
+Conscious.
+Alert.
+No focal neurological deficits.
+
+Assessment:
+Uncomplicated intestinal ascariasis (Ascariasis due to Ascaris lumbricoides).
+
+Differential Diagnoses:
+Mixed soil-transmitted helminth infection (hookworm, whipworm).
+Giardiasis.
+Functional abdominal pain.
+Irritable bowel syndrome.
+Chronic gastritis.
+
+Investigations:
+
+Stool Examination:
+Stool microscopy for ova, cysts and parasites (OCP).
+
+Expected finding:
+Fertilized or unfertilized Ascaris lumbricoides ova.
+
+Laboratory:
+Full Blood Count (to assess for eosinophilia or anaemia).
+Peripheral Blood Film if eosinophilia is suspected.
+Serum Electrolytes, Urea and Creatinine if persistent vomiting develops (not routinely indicated).
+
+Imaging:
+Not routinely indicated in uncomplicated disease.
+
+If intestinal obstruction, biliary ascariasis or pancreatitis is suspected:
+Abdominal ultrasound.
+Plain abdominal X-ray.
+CT abdomen where indicated.
+
+Management:
+
+General Measures:
+Reassure the patient that ascariasis is a common and treatable parasitic infection.
+Encourage adequate oral hydration.
+Advise a balanced diet with adequate protein and iron intake.
+
+Anthelmintic Therapy:
+
+First-Line:
+Tab Albendazole 400 mg orally as a single dose.
+
+Alternative Options:
+Tab Mebendazole 100 mg orally twice daily for 3 days.
+
+OR
+
+Tab Mebendazole 500 mg orally as a single dose.
+
+OR
+
+Tab Levamisole 150 mg orally as a single dose.
+
+If Pregnancy is Confirmed:
+Avoid Albendazole and Mebendazole during the first trimester. Management should follow current obstetric and national deworming guidelines.
+
+Symptomatic Treatment:
+
+For abdominal discomfort:
+Tab Hyoscine Butylbromide 10 mg orally three times daily as required for up to 3 days.
+
+If significant nausea develops:
+Tab Metoclopramide 10 mg orally every 8 hours as required (avoid if bowel obstruction is suspected).
+
+Nutritional Support:
+Encourage increased intake of fruits, vegetables and protein-rich foods.
+Treat anaemia if detected on investigation.
+
+Health Education:
+Explain that ascariasis is transmitted through the faeco-oral route.
+
+Advise washing hands thoroughly with soap and water before eating and after using the toilet.
+
+Wash fruits and vegetables thoroughly before consumption.
+
+Drink clean, treated or boiled water.
+
+Avoid open defaecation and ensure proper disposal of human waste.
+
+Keep fingernails short and clean.
+
+Advise periodic deworming every 6–12 months, particularly in endemic areas.
+
+Encourage household members to seek evaluation or routine deworming where appropriate according to local public health recommendations.
+
+Advise immediate hospital presentation if severe abdominal pain, persistent vomiting, abdominal distension, inability to pass stool or flatus, jaundice or high fever develops, as these may indicate intestinal or biliary complications.
+
+Follow-up:
+Review in 2 weeks to assess symptom resolution and review stool microscopy results if performed.
+
+Repeat stool examination if symptoms persist or recur.
+
+Refer to a General Surgeon if complications such as intestinal obstruction develop.
+
+Refer to a Gastroenterologist if recurrent infection or persistent gastrointestinal symptoms occur despite appropriate treatment.
+
+Prognosis:
+Excellent. Most uncomplicated intestinal ascariasis resolves completely after a single dose of an effective anthelmintic. Reinfection can occur if sanitation and personal hygiene measures are not maintained.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'gopd-01',
   title: 'Acute Diffuse Bacterial Otitis Externa',
@@ -20497,6 +22133,343 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-01',
+  title: 'Gustilo-Anderson Grade II Open Fracture of the Left Tibia and Fibula',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics',
+  condition: 'Open Tibia and Fibula Fracture',
+  symptoms: [
+    'Left leg pain',
+    'Open leg wound',
+    'Bleeding',
+    'Inability to bear weight',
+    'Visible bone'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-07',
+  summary: 'A 27-year-old commercial motorcyclist presented one hour after a motorcycle road traffic accident with severe left leg pain, active bleeding, an open wound with exposed bone and inability to bear weight. Examination was consistent with a Gustilo-Anderson Grade II open mid-shaft fracture of the left tibia and fibula with intact distal neurovascular status.',
+  content: `ORTHOPAEDIC EMERGENCY
+
+Patient Seen
+
+A 27-year-old single male commercial motorcyclist from Abeokuta, Ogun State, Christian, Yoruba.
+
+PC:
+Left leg pain × 1 hour.
+Bleeding from the left leg × 1 hour.
+Open wound over the left leg with inability to bear weight × 1 hour.
+
+HPC:
+
+The patient was apparently well until one hour prior to presentation when he was involved in a motorcycle-versus-motor vehicle road traffic accident. He was thrown from his motorcycle after a collision with a car and landed on his left leg.
+
+He experienced immediate severe pain in the left leg followed by profuse bleeding and inability to stand or bear weight. He noticed an open wound over the middle aspect of the leg through which bone was visible.
+
+The pain is severe (10/10), constant and aggravated by any movement of the limb.
+
+There was no loss of consciousness.
+
+No vomiting.
+
+No seizure activity.
+
+No chest pain.
+
+No abdominal pain.
+
+No neck pain.
+
+No pain in other limbs.
+
+He was transported to the hospital by bystanders without any splint being applied.
+
+His last meal was approximately 4 hours before the accident.
+
+His tetanus immunization status is uncertain.
+
+Primary Survey (ATLS)
+
+Airway:
+Airway patent.
+Patient speaking in complete sentences.
+Cervical spine manually protected until cleared.
+
+Breathing:
+Respiratory effort adequate.
+Equal bilateral chest expansion.
+No respiratory distress.
+SpO₂ 98% on room air.
+
+Circulation:
+Active bleeding from the left leg controlled with sterile pressure dressing.
+Peripheral pulses present.
+Capillary refill <2 seconds.
+Two large-bore intravenous cannulae inserted.
+
+Disability:
+GCS 15/15 (E4 V5 M6).
+Pupils equal and reactive.
+No focal neurological deficits.
+
+Exposure:
+Entire patient examined.
+No additional injuries identified.
+Patient covered with warm blankets after examination.
+
+Review of Systems
+
+General:
+Severe pain.
+No fever.
+
+Musculoskeletal:
+Open injury to the left leg.
+Bleeding.
+Inability to bear weight.
+
+Neurological:
+No numbness.
+No weakness of other limbs.
+
+Cardiovascular:
+No palpitations.
+
+Respiratory:
+No dyspnoea.
+No cough.
+
+Past Medical History:
+No diabetes mellitus.
+No hypertension.
+No bleeding disorders.
+No previous fractures.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No routine medications.
+No known drug allergies.
+
+Family History:
+Nil contributory.
+
+Social History:
+Commercial motorcyclist.
+Occasional alcohol consumption.
+Non-smoker.
+
+O/E:
+
+General Examination:
+Young man.
+Conscious.
+Alert.
+In severe painful distress.
+Well hydrated.
+Not pale.
+
+Vital Signs:
+BP: 118/76 mmHg
+PR: 108 bpm
+RR: 22 cpm
+Temperature: 36.7°C
+SpO₂: 98% on room air
+Weight: 72 kg
+
+Local Examination of the Left Leg:
+
+Obvious deformity involving the middle third of the left leg.
+
+Approximately 6 cm laceration over the anteromedial aspect of the middle leg with visible cortical bone.
+
+Moderate contamination with sand and road debris.
+
+Active oozing of blood.
+
+Diffuse swelling.
+
+Marked tenderness.
+
+Abnormal mobility at the fracture site.
+
+Crepitus not deliberately elicited.
+
+No evidence of compartment syndrome.
+
+Distal Neurovascular Examination:
+
+Dorsalis pedis and posterior tibial pulses palpable.
+
+Capillary refill <2 seconds.
+
+Foot warm.
+
+Sensation intact in the superficial peroneal, deep peroneal, tibial and sural nerve distributions.
+
+Able to wiggle toes despite pain.
+
+Examination of Other Systems
+
+Head and Neck:
+No scalp wounds.
+No facial injuries.
+No cervical tenderness.
+
+Chest:
+Normal vesicular breath sounds.
+No rib tenderness.
+
+Cardiovascular:
+Heart sounds I and II normal.
+No murmurs.
+
+Abdomen:
+Soft.
+Non-tender.
+No guarding.
+No organomegaly.
+
+Pelvis:
+Stable.
+No tenderness.
+
+Assessment:
+Gustilo-Anderson Grade II open fracture of the middle third of the left tibia and fibula secondary to a road traffic accident.
+
+Differential Diagnoses:
+Grade IIIA open tibial fracture.
+Open isolated tibial shaft fracture.
+Open fracture with vascular injury.
+Crush injury of the left leg.
+
+Investigations:
+
+Laboratory:
+• Full Blood Count.
+• Serum Electrolytes, Urea and Creatinine.
+• Random Blood Sugar.
+• Coagulation Profile.
+• Blood Group and Cross-match (2 units).
+• Hepatitis B, Hepatitis C and HIV screening (pre-operative).
+
+Imaging:
+• X-ray Left Leg (AP and Lateral Views), including the knee and ankle joints.
+
+Expected findings:
+• Displaced transverse fracture of the mid-shaft tibia.
+• Associated displaced fibular fracture.
+
+If polytrauma is suspected:
+• FAST ultrasound.
+• Chest X-ray.
+• Pelvic X-ray.
+• CT scan as clinically indicated.
+
+Plan:
+
+Emergency Measures:
+Admit under Orthopaedic Surgery.
+Keep patient nil per os (NPO) pending surgery.
+Elevate the affected limb.
+Cover the wound with a sterile saline-soaked dressing.
+Do not probe or repeatedly manipulate the wound in the Emergency Department.
+Immobilize the limb in an above-knee posterior plaster backslab.
+
+Intravenous Fluids:
+0.9% Normal Saline 1 litre IV over 2 hours, then continue according to haemodynamic status and urine output.
+
+Target urine output: >0.5 mL/kg/hour.
+
+Analgesia:
+
+Severe Pain:
+Inj. Morphine 0.1 mg/kg IV slowly.
+
+For this patient (72 kg):
+7 mg IV slowly, titrated to effect.
+
+Monitor respiratory rate and oxygen saturation.
+
+Alternative where morphine is unavailable:
+Inj. Tramadol 100 mg IV slowly every 8 hours as required.
+
+Antibiotics:
+
+Initiate within one hour of presentation.
+
+Grade II Open Fracture:
+Inj. Ceftriaxone 2 g IV once daily
+
+PLUS
+
+Inj. Gentamicin 5 mg/kg IV once daily.
+
+For this patient (72 kg):
+Gentamicin 360 mg IV once daily (adjust according to renal function).
+
+Continue for 48–72 hours or according to Orthopaedic protocol after wound debridement.
+
+If gross farm or soil contamination is present:
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+Tetanus Prophylaxis:
+
+If immunization status is uncertain:
+
+Tetanus Toxoid 0.5 mL IM stat
+
+PLUS
+
+Human Tetanus Immunoglobulin 250 IU IM stat administered at a separate site.
+
+Definitive Surgical Management:
+Urgent transfer to theatre for:
+• Thorough wound irrigation with copious normal saline.
+• Extensive surgical debridement.
+• Removal of all devitalized tissue and contaminants.
+• Fracture stabilization.
+
+Definitive fixation options include:
+• External fixation (particularly if soft tissue injury is significant).
+• Intramedullary interlocking nail after adequate debridement where appropriate.
+• Delayed wound closure or split-thickness skin graft/flap if required.
+
+Repeat debridement may be necessary depending on wound contamination and tissue viability.
+
+Nursing Instructions:
+Monitor vital signs every 30 minutes until stable, then every 4 hours.
+Assess pain regularly.
+Monitor distal neurovascular status every 2 hours.
+Maintain sterile wound dressing.
+Elevate the limb.
+Monitor for excessive bleeding and signs of compartment syndrome.
+Record fluid input and output.
+
+Health Education:
+Explain the nature of the injury and the need for urgent surgery to reduce the risk of infection and improve bone healing.
+Advise that healing may take several months and that physiotherapy will be required during recovery.
+Counsel regarding complications including infection, delayed union, non-union, chronic osteomyelitis, compartment syndrome and possible need for further surgery.
+Stress the importance of compliance with antibiotics, wound care and follow-up appointments.
+
+Follow-up:
+Daily Orthopaedic review while admitted.
+Post-operative wound inspection at 48–72 hours.
+Serial radiographs to monitor fracture healing.
+Physiotherapy to commence when clinically appropriate.
+Outpatient Orthopaedic Clinic review at 2 weeks, 6 weeks, 3 months and subsequently until fracture union.
+
+Prognosis:
+Guarded but favourable with prompt intravenous antibiotics, early surgical debridement, stable fracture fixation and meticulous wound care. Delay in treatment significantly increases the risk of deep infection, chronic osteomyelitis and non-union.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-01',
   title: 'Acute Right Knee Injury (Grade II MCL Sprain)',

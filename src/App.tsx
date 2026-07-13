@@ -39,7 +39,7 @@ export default function App() {
     }, []);
 
     const filteredTemplates = useMemo(() => {
-        const query = searchQuery.toLowerCase();
+        const query = searchQuery.toLowerCase().trim();
         
         const baseTemplates = INITIAL_TEMPLATES.map(template => ({
             ...template,
@@ -70,25 +70,36 @@ export default function App() {
             return matches.sort((a, b) => {
                 const aTitle = a.title.toLowerCase();
                 const bTitle = b.title.toLowerCase();
-                const aCondition = a.condition.toLowerCase();
-                const bCondition = b.condition.toLowerCase();
                 
+                // 1. Exact Title Match
                 if (aTitle === query && bTitle !== query) return -1;
                 if (bTitle === query && aTitle !== query) return 1;
                 
-                if (aTitle.startsWith(query) && !bTitle.startsWith(query)) return -1;
-                if (bTitle.startsWith(query) && !aTitle.startsWith(query)) return 1;
+                // 2. Title Starts With
+                const aStarts = aTitle.startsWith(query);
+                const bStarts = bTitle.startsWith(query);
+                if (aStarts && !bStarts) return -1;
+                if (bStarts && !aStarts) return 1;
                 
-                const aTitleHas = aTitle.includes(query);
-                const bTitleHas = bTitle.includes(query);
-                if (aTitleHas && !bTitleHas) return -1;
-                if (bTitleHas && !aTitleHas) return 1;
+                // 3. Title Includes (prioritize earlier index)
+                const aIndex = aTitle.indexOf(query);
+                const bIndex = bTitle.indexOf(query);
+                
+                if (aIndex !== -1 && bIndex === -1) return -1;
+                if (bIndex !== -1 && aIndex === -1) return 1;
+                if (aIndex !== -1 && bIndex !== -1 && aIndex !== bIndex) {
+                    return aIndex - bIndex;
+                }
 
+                // 4. Condition Includes
+                const aCondition = a.condition.toLowerCase();
+                const bCondition = b.condition.toLowerCase();
                 const aCondHas = aCondition.includes(query);
                 const bCondHas = bCondition.includes(query);
                 if (aCondHas && !bCondHas) return -1;
                 if (bCondHas && !aCondHas) return 1;
 
+                // 5. Default: Recency
                 return new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime();
             });
         }

@@ -990,7 +990,7 @@ export const clerklyLearnLibrary: LearningModule[] = [
     id: 'symptom-clerking-vomiting',
     title: 'Vomiting',
     category: 'Symptom Clerking',
-    subCategory: 'Gatrointestinal',
+    subCategory: 'Gastrointestinal',
     content: `
 <!DOCTYPE html>
 <html lang="en">
@@ -1302,6 +1302,650 @@ export const clerklyLearnLibrary: LearningModule[] = [
       <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, National Malaria Elimination Programme - National Guidelines for Diagnosis and Treatment of Malaria in Nigeria.</li>
       <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
       <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Nausea and Vomiting in Pregnancy and Hyperemesis Gravidarum.</li>
+    </ul>
+  </div>
+</details>
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-abdominal-pain',
+    title: 'Abdominal Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Gastrointestinal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Headache</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Abdominal Pain</h1>
+    <p class="text-sm text-indigo-200">Abdominal pain covers an enormous range, from simple gastritis to surgical emergencies that can kill within hours - ruptured ectopic pregnancy, typhoid ileal perforation, and strangulated bowel among them. Typhoid perforation in particular remains one of the most important causes of the acute surgical abdomen seen locally. This guide focuses on the history and examination that separate benign pain from a surgical emergency, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and was the onset sudden or gradual?</li>
+      <li>Where is it located, and has it moved or spread since it started? (Periumbilical pain migrating to the right iliac fossa is classic for appendicitis.)</li>
+      <li>What is the character - colicky (comes in waves), constant/sharp, or a dull ache?</li>
+      <li>How severe is it, on a scale of 1 to 10?</li>
+      <li>What makes it better or worse - movement, eating, lying still, or pressing on the abdomen?</li>
+      <li>Has the patient had similar pain before, and if so, was a cause ever found?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General/infective:</span> fever, chills, night sweats, weight loss.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> nausea/vomiting, change in bowel habit, blood or mucus in stool, abdominal distension, last flatus/bowel motion.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, loin pain, or blood in urine.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gynaecological (in women):</span> last menstrual period, any missed period, abnormal vaginal bleeding or discharge, or shoulder-tip pain (can accompany intra-abdominal bleeding).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatobiliary:</span> jaundice, pale stool, dark urine, pain related to fatty meals.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genital (in men):</span> testicular pain or swelling - sudden, severe scrotal pain accompanying lower abdominal pain raises testicular torsion.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Exposure/Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid/recent febrile illness:</span> Any preceding fever, poor sanitation exposure, or partially treated typhoid? (Ileal perforation from typhoid remains a major cause of the acute surgical abdomen locally, typically in the second to third week of untreated illness.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy/ectopic risk:</span> Sexually active? Last menstrual period? Any previous ectopic pregnancy, pelvic infection, tubal surgery, or intrauterine device in place? (Any woman of reproductive age with abdominal pain needs pregnancy excluded, and ectopic pregnancy actively considered.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> Known genotype? Previous vaso-occlusive crises? (Abdominal pain can be a sickle cell crisis, but new/different pain should not be assumed to be "just a crisis" without excluding other causes.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous surgery/hernia:</span> Any prior abdominal operations (adhesions) or known hernia (risk of strangulation)?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history (PID):</span> Multiple partners, discharge, or previous sexually transmitted infection?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol/medication use:</span> Alcohol intake (pancreatitis), NSAID or steroid use (peptic ulcer/perforation risk).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatitis risk factors:</span> Blood transfusion history, unsafe injections, or known hepatitis B/C status.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact:</span> Chronic abdominal pain with distension and weight loss raises tuberculous peritonitis, particularly with a TB contact history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trauma:</span> Any recent injury to the abdomen?</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or in obvious distress, lying still (peritonism) or writhing (colic)?</li>
+      <li>Heart rate and blood pressure, including a check for a postural drop - tachycardia and hypotension raise concern for intra-abdominal bleeding, perforation, or severe sepsis.</li>
+      <li>Temperature - fever alongside abdominal pain should always prompt a search for an infective or perforative cause.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Inspection:</span> distension, visible peristalsis, surgical scars, or hernial swellings.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpation:</span> tenderness by quadrant, guarding, rigidity, or a palpable mass. Specifically elicit rebound tenderness where peritonism is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Specific signs:</span> Murphy's sign (cholecystitis), McBurney's point tenderness and Rovsing's sign (appendicitis), and a succussion splash (gastric outlet obstruction).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Auscultation:</span> bowel sounds - absent in peritonitis/ileus, high-pitched/tinkling in obstruction.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hernial orifices</span> - always examine, particularly if obstruction is suspected; an irreducible or tender hernia is a surgical emergency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Rigid, board-like abdomen with generalized guarding</span> - suggests perforation with peritonitis and needs urgent surgical assessment.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Jaundice</span> - check sclerae; raises a hepatobiliary cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pallor</span> - relevant to sickle cell disease, and to significant intra-abdominal bleeding.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic/vaginal examination</span> - where a gynaecological cause is suspected, ideally with a chaperone and appropriate consent.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular examination</span> - in any male with lower abdominal or groin pain, to exclude torsion.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Digital rectal examination</span> - where indicated by the clinical picture (e.g. suspected appendicitis, GI bleeding, or bowel obstruction).</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Peritonism</span> - rigidity, guarding, rebound tenderness, or a silent abdomen - a surgical emergency until proven otherwise.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected ectopic pregnancy</span> - abdominal pain with a missed period, positive pregnancy test, vaginal bleeding, or syncope; needs urgent gynaecological assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected typhoid ileal perforation</span> - fever, abdominal pain and distension in a patient with a preceding febrile illness, particularly in week 2-3 of illness.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of shock</span> - hypotension, tachycardia, or a prolonged capillary refill time - raises intra-abdominal bleeding, perforation, or severe sepsis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Irreducible or tender hernia</span> - suggests strangulation and needs urgent surgical referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden, severe testicular pain</span> - testicular torsion is a time-critical surgical emergency (viability falls sharply after 6 hours).</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Absolute constipation with distension and vomiting</span> - raises complete bowel obstruction.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine or serum pregnancy test</span> - essential in every woman of reproductive age with abdominal pain, regardless of how unlikely pregnancy seems.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - leukocytosis supports an infective/inflammatory cause; also assess for anaemia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies the pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood culture</span> - before antibiotics, where typhoid or another bacterial cause is suspected; a single Widal test should never confirm typhoid alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis</span> - for UTI, or blood suggesting renal colic.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Erect chest radiograph and abdominal X-ray</span> - looking for free air under the diaphragm (perforation) or air-fluid levels (obstruction).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal/pelvic ultrasound</span> - for gallstones, appendicitis, free fluid, or to confirm and locate a pregnancy (essential if ectopic is suspected).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Amylase/lipase</span> - where pancreatitis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - where a hepatobiliary cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Group and crossmatch</span> - where surgery or significant bleeding is anticipated.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Appendicitis</span> - periumbilical pain migrating to the right iliac fossa, anorexia, low-grade fever.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid ileal perforation</span> - preceding febrile illness with subsequent peritonitis, typically in the second to third week.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - missed period, positive pregnancy test, unilateral pain, vaginal bleeding, possible syncope.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - lower abdominal pain, discharge, cervical motion tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peptic ulcer disease/perforation</span> - epigastric pain related to meals; sudden severe pain with a rigid abdomen if perforated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cholecystitis/biliary colic</span> - right upper quadrant pain, often after fatty meals, positive Murphy's sign.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bowel obstruction (adhesions, hernia, volvulus)</span> - colicky pain, distension, absolute constipation, vomiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal colic/pyelonephritis</span> - loin-to-groin pain, dysuria, haematuria, or fever with flank tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell vaso-occlusive crisis</span> - in a known sickle cell patient, though new or atypical pain still needs other causes excluded.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute pancreatitis</span> - epigastric pain radiating to the back, often with a history of alcohol use or gallstones.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculous peritonitis</span> - chronic pain, distension (ascites), weight loss, and a TB contact history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastroenteritis</span> - diffuse crampy pain with diarrhoea and vomiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular torsion</span> - sudden severe scrotal pain with associated lower abdominal pain in a male patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Viral hepatitis</span> - right upper quadrant discomfort with jaundice, dark urine, pale stool.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief of Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Analgesia</span> - give in a stepwise fashion (paracetamol, then stronger agents as needed); adequate analgesia does not mask a surgical abdomen and should not be withheld while a diagnosis is being reached, though findings should still be documented before and after.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Antispasmodics</span> (e.g. hyoscine) - can help with colicky pain once a serious cause has been reasonably excluded.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">IV fluids</span> - where the patient is vomiting, septic, or unable to tolerate oral intake.</li>
+      <li>Keep the patient nil by mouth if a surgical cause is suspected or being actively worked up.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Appendicitis</span> - surgical referral for appendicectomy; antibiotics as an adjunct or, in select uncomplicated cases, as sole treatment per current surgical protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid perforation</span> - urgent surgical repair alongside IV antibiotics covering typhoid.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - urgent gynaecological/surgical management; may be medical (methotrexate) in carefully selected, haemodynamically stable cases, or surgical where ruptured or unstable.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - antibiotic combination per local/WHO STI treatment guidelines, covering gonococcal and chlamydial infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peptic ulcer disease</span> - proton pump inhibitor, H. pylori eradication if confirmed; perforation requires urgent surgical repair.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cholecystitis</span> - IV antibiotics, analgesia, and surgical referral for cholecystectomy (timing per local protocol).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bowel obstruction</span> - nil by mouth, nasogastric decompression, IV fluids, and surgical referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal colic</span> - analgesia, IV fluids, and urology referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell crisis</span> - analgesia, hydration, and haematology input as per local sickle cell protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute pancreatitis</span> - supportive care: IV fluids, analgesia, initial nil by mouth, and monitoring for complications.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular torsion</span> - immediate surgical exploration and detorsion; this is not managed with medication.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Abdominal pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, site, migration, character, severity, aggravating/relieving factors, associated symptoms, directed risk history, treatment already received, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Sickle cell disease, previous abdominal surgery, known hernia, previous ectopic pregnancy.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">NSAID use, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Alcohol use, sexual history where relevant, TB contact.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, abdominal findings by quadrant, specific signs elicited, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not performing a pregnancy test in a woman of reproductive age with abdominal pain.</li>
+    <li>Withholding analgesia unnecessarily while awaiting a surgical opinion.</li>
+    <li>Attributing all pain in a known sickle cell patient to a crisis without excluding other causes.</li>
+    <li>Missing typhoid perforation in a patient with a preceding febrile illness who develops new abdominal signs.</li>
+    <li>Delaying surgical referral for a rigid, peritonitic abdomen while pursuing further investigations.</li>
+    <li>Forgetting to examine hernial orifices and the testes where relevant.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check a pregnancy test in a woman of reproductive age with abdominal pain, and actively consider ectopic pregnancy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A rigid, peritonitic abdomen is a surgical emergency until proven otherwise.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider typhoid perforation in anyone with a preceding febrile illness who develops new abdominal signs - it remains a leading local cause of the surgical abdomen.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Adequate analgesia does not mask a surgical abdomen - do not withhold it while working towards a diagnosis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New or different pain in a sickle cell patient still needs other causes actively excluded, not just attributed to a crisis.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Ectopic Pregnancy and Miscarriage.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, National Malaria Elimination Programme - National Guidelines for Diagnosis and Treatment of Malaria in Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines on the Management of Acute Abdomen and Surgical Emergencies in Low-Resource Settings.</li>
+    </ul>
+  </div>
+</details>
+
+ 
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-lower-back-pain',
+    title: 'Lower Back Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Pain',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Headache</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Lower Back Pain</h1>
+    <p class="text-sm text-indigo-200">Most lower back pain is mechanical and self-limiting, but the differential also includes causes that change management entirely - spinal tuberculosis (Pott's disease), cauda equina syndrome, vertebral metastasis, and sickle cell-related bone disease. Pott's disease in particular remains an important cause of chronic back pain locally and is easy to miss if red flags aren't actively screened for. This guide focuses on the history and examination that separate simple mechanical pain from the causes that need urgent action, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and was there a specific triggering event - lifting, bending, a fall, or an injury?</li>
+      <li>How long has it lasted? (Acute is generally under 6 weeks; chronic back pain beyond this, or pain that is worse at night or unremitting, needs a wider differential than simple strain.)</li>
+      <li>Where exactly is the pain, and does it radiate - down one leg (sciatica), or is it central/diffuse?</li>
+      <li>What is the character - a dull ache, sharp, or shooting?</li>
+      <li>What makes it better or worse - movement, rest, a particular position, or coughing/straining?</li>
+      <li>Is it worse at night, or does it wake the patient from sleep? Is there significant morning stiffness that improves with movement? (Night pain and morning stiffness are both important flags, pointing towards infective/malignant or inflammatory causes respectively.)</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats, weight loss - all raise infective or malignant causes and should be asked about directly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological (ask explicitly, do not wait for volunteering):</span> leg weakness or numbness, difficulty walking, numbness around the perianal area or inner thighs ("saddle" distribution), and any new bladder or bowel difficulty (incontinence, retention, or loss of sensation when passing urine/stool).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, loin pain, or blood in urine; in men, urinary hesitancy, poor stream, or nocturia (prostatic symptoms).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gynaecological (in women):</span> abnormal vaginal discharge or bleeding, last menstrual period, and possibility of pregnancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal:</span> joint pain elsewhere, or morning stiffness lasting more than 30 minutes (raises an inflammatory cause such as ankylosing spondylitis).</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB/HIV status:</span> Known TB contact, HIV status, or constitutional symptoms alongside chronic back pain? (Spinal TB/Pott's disease is an important local cause of chronic back pain and progressive deformity, and is frequently diagnosed late.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> Known genotype? Back pain can reflect a vaso-occlusive crisis or avascular necrosis of the vertebrae.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy:</span> Any personal history of breast, prostate, or other cancer? (Raises vertebral metastasis in new, unremitting back pain, particularly in an older patient.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupational/mechanical:</span> Manual labour, heavy lifting, or prolonged sitting/driving?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Steroid use/osteoporosis risk:</span> Long-term steroid use, early menopause, or known osteoporosis? (Raises vertebral compression fracture, especially with minimal or no trauma.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trauma:</span> Any fall or injury, however minor it seemed at the time?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history (in women):</span> Risk factors for pelvic inflammatory disease where lower back pain accompanies pelvic symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> Inflammatory arthritis or ankylosing spondylitis in the family?</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Inspection and Spine Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or unwell/wasted? Note their gait and how they move on and off the examination couch.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal deformity</span> - a localized angular kyphosis ("gibbus") is a classic sign of spinal TB and should specifically be looked for, particularly with a compatible history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpation</span> - point tenderness over a vertebral level, and paraspinal muscle spasm.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Range of motion</span> - flexion, extension, and lateral movement; note pain-limited versus stiffness-limited movement.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Straight leg raise test</span> - reproduction of radiating leg pain supports nerve root irritation (sciatica).</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neurological Examination (Mandatory in Every Back Pain Assessment)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lower limb power, sensation, and reflexes</span> - document explicitly, even when the history seems purely mechanical.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Perianal sensation and anal tone</span> - essential wherever cauda equina syndrome is being considered; this is frequently omitted but is critical.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gait</span> - any evidence of foot drop or an unsteady gait.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal examination</span> - renal angle tenderness (pyelonephritis/renal colic), or a palpable mass.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic examination (women)</span> - where a gynaecological cause is suspected, with appropriate consent and chaperone.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Digital rectal examination (men)</span> - to assess the prostate where prostatic disease is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphadenopathy</span> - relevant where TB or malignancy is suspected.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Cauda equina syndrome</span> - saddle anaesthesia, bilateral leg weakness, and new bladder or bowel dysfunction; a surgical emergency requiring immediate neurosurgical/orthopaedic referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Progressive neurological deficit or a sensory level</span> - raises spinal cord compression, which may be due to TB, malignancy, or abscess.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected spinal TB (Pott's disease)</span> - chronic back pain with fever, weight loss, night sweats, or a visible gibbus deformity; needs early diagnosis, since delay increases the risk of permanent neurological damage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected malignancy</span> - new, unremitting back pain (particularly worse at night) in a patient over 50, with unexplained weight loss, or a known history of cancer.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected fracture</span> - significant trauma, or minimal/no trauma in a patient with osteoporosis risk factors.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever with severe, localized spinal tenderness</span> - raises a spinal/epidural abscess, a surgical and medical emergency.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Simple mechanical back pain without red flags</span> - generally does not need imaging initially; manage symptomatically and reassess if it fails to improve.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC and ESR/CRP</span> - raised inflammatory markers support an infective, inflammatory, or malignant cause and should prompt further workup.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spine radiograph</span> - a reasonable first step where a red flag is present, though it may miss early spinal TB or cord compression.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">MRI spine</span> - the investigation of choice where cauda equina, cord compression, spinal TB, or malignancy is suspected, and should not be delayed where available and affordable.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - where spinal TB is suspected, to look for concurrent pulmonary disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - given how significantly it changes the differential and urgency of infective causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis</span> - where a renal cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">PSA</span> - in an older man with suspected prostatic disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood culture</span> - where a spinal infection/abscess is suspected, before antibiotics.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mechanical/musculoskeletal back pain</span> - the commonest cause, related to lifting, posture, or exertion, without red flags.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sciatica/disc prolapse</span> - pain radiating down one leg, positive straight leg raise.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal tuberculosis (Pott's disease)</span> - chronic pain, constitutional symptoms, and a gibbus deformity in advanced cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pyelonephritis/renal colic</span> - loin pain, fever, dysuria, or haematuria.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - lower back/pelvic pain with discharge in a sexually active woman.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Prostatic disease</span> - urinary symptoms in an older man; consider prostatitis, benign hyperplasia, or malignancy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vertebral compression fracture</span> - sudden pain with minimal trauma in an osteoporosis-risk patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell-related bone disease</span> - vaso-occlusive crisis or avascular necrosis in a known sickle cell patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vertebral metastasis</span> - new, unremitting pain, particularly with a known primary malignancy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ankylosing spondylitis/inflammatory back pain</span> - younger patient, morning stiffness lasting over 30 minutes, improving with movement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cauda equina syndrome</span> - a surgical emergency, not a differential to sit alongside the others once suspected.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief of Back Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Paracetamol and/or NSAIDs</span> - first-line analgesia for simple mechanical back pain, once red flags have been reasonably excluded.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Encourage early mobilization</span> - prolonged bed rest is not recommended for simple mechanical back pain and can worsen outcomes; encourage the patient to stay as active as pain allows.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Muscle relaxants</span> - can be considered short-term for significant muscle spasm.</li>
+      <li>Symptomatic relief should never substitute for red flag screening, especially given how commonly serious causes are initially mistaken for simple strain.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mechanical back pain</span> - analgesia, early mobilization, and physiotherapy where available.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal tuberculosis</span> - standard anti-TB therapy, typically for an extended duration compared to pulmonary TB, with bracing and surgical decompression where there is neurological compromise or significant instability.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sciatica/disc prolapse</span> - analgesia and physiotherapy initially; surgical referral where there is a progressive neurological deficit or the pain fails to settle.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pyelonephritis</span> - antibiotics as per the fever/UTI guide.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - antibiotic combination per local/WHO STI treatment guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Prostatic disease</span> - alpha-blockers for benign hyperplasia, antibiotics for bacterial prostatitis, and urology referral where malignancy is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vertebral compression fracture</span> - analgesia, bracing, orthopaedic referral, and osteoporosis workup/treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell-related bone disease</span> - analgesia and hydration for a vaso-occlusive crisis; orthopaedic referral for confirmed avascular necrosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vertebral metastasis</span> - oncology and orthopaedic/spinal input for pain control, radiotherapy, and stabilization as indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cauda equina syndrome</span> - immediate neurosurgical/orthopaedic referral for urgent decompression; this is not managed with medication alone.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Lower back pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, site, radiation, character, aggravating/relieving factors, night pain/morning stiffness, associated symptoms (neurological, urinary, constitutional), directed risk history, treatment already received, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">TB, HIV status, sickle cell disease, known malignancy, osteoporosis.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Long-term steroid use, current analgesics, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Occupation/manual labour, family history of inflammatory arthritis.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Spine inspection/palpation, range of motion, full lower limb neurological exam including perianal sensation where relevant, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not examining perianal sensation and anal tone when cauda equina syndrome is a possibility.</li>
+    <li>Attributing chronic back pain to mechanical strain without screening for constitutional symptoms or a gibbus deformity that would suggest spinal TB.</li>
+    <li>Skipping the neurological examination because the history "sounds mechanical."</li>
+    <li>Missing malignancy in an older patient with new, unremitting back pain, particularly worse at night.</li>
+    <li>Not considering renal, gynaecological, or prostatic causes when the pain has a non-mechanical quality.</li>
+    <li>Prescribing prolonged bed rest for simple mechanical back pain instead of encouraging early mobilization.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Any saddle anaesthesia or new bladder/bowel dysfunction with back pain is a surgical emergency (cauda equina) until proven otherwise.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider spinal TB in chronic back pain with constitutional symptoms or a gibbus deformity - it is an important and often late-diagnosed cause locally.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Perform a focused neurological exam, including perianal sensation where relevant, in every back pain assessment - not only when it "seems needed."</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Red flags - age, night pain, weight loss, trauma, fever - should always change the pace and depth of the workup.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Most back pain is mechanical and self-limiting - reserve imaging and extensive workup for red flags rather than every presentation.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Diagnosis and Management of Musculoskeletal (Spinal) Tuberculosis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Low Back Pain and Sciatica in Over 16s: Assessment and Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
     </ul>
   </div>
 </details>

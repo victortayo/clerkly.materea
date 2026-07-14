@@ -1488,6 +1488,276 @@ export const INITIAL_TEMPLATES: Template[] = [
 
   // Pediatrics
   {
+    id: 'peds-03',
+    title: 'Sickle Cell Disease (HbSS) Routine Follow-Up in an Infant',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Sickle Cell Clinic',
+    condition: 'Sickle Cell Disease',
+    symptoms: [
+      'Routine follow-up',
+      'HbSS disease',
+      'Infant with sickle cell disease'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: 'Infant with known HbSS disease on regular follow-up, clinically stable in steady state with no recent sickle cell-related complications.',
+    content: `
+  SICKLE CELL CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  An infant with known HbSS disease on regular follow-up, accompanied by mother.
+  
+  PC:
+  Routine follow-up.
+  
+  HPC:
+  Infant has remained clinically stable since the last clinic visit.
+  
+  There are no fresh complaints. No history of fever, excessive crying, poor feeding, difficulty breathing, cough, chest pain, swelling of hands or feet, worsening jaundice, seizures, abnormal body movements, or reduced activity.
+  
+  There has been no hospital admission, blood transfusion, or emergency room visit since the last review.
+  
+  Mother reports good feeding with adequate breast milk intake. Infant has adequate urine output and normal bowel habit. No vomiting or diarrhoea.
+  
+  Infant is active and responsive. Immunizations are up to date. There is good compliance with prescribed medications.
+  
+  O/E:
+  Infant, conscious, active, not in painful distress, afebrile, mildly pale, mildly icteric, acyanosed, not dehydrated.
+  
+  Weight: 6.5 kg
+  
+  PR: 132 bpm, regular, good volume
+  RR: 34 cpm
+  Temperature: 36.7°C
+  SpO₂: 99% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable hepatomegaly or splenomegaly.
+  
+  CNS:
+  Conscious and alert.
+  Good tone with spontaneous movement of all limbs.
+  No focal neurological deficit.
+  
+  Investigations:
+  PCV: 27%
+  
+  ASSESSMENT:
+  Known HbSS infant in steady state.
+  
+  PLAN:
+  - Commence Cap Hydroxyurea 100 mg daily (approximately 15 mg/kg/day based on weight of 6.5 kg).
+  - Review hydroxyurea dose and titrate according to weight and FBC monitoring.
+  - Continue Syr Folic Acid 5 mg daily.
+  - Continue Syr Penicillin V 125 mg twice daily for pneumococcal prophylaxis.
+  - Give routine immunizations as scheduled.
+  - Ensure completion of pneumococcal vaccination:
+    - PCV vaccine according to national immunization schedule.
+    - Pneumococcal polysaccharide vaccine (PPSV23) when age appropriate (after 2 years).
+  - Commence malaria prevention measures:
+    - Sleep under long-lasting insecticide-treated net (LLIN) daily.
+    - Prompt malaria testing for any febrile illness.
+    - Maintain environmental mosquito control measures.
+  - Encourage exclusive breastfeeding up to 6 months and age-appropriate complementary feeding thereafter.
+  - Encourage adequate fluid intake.
+  - Counsel mother on early warning signs requiring hospital presentation including fever ≥38°C, poor feeding, excessive crying, increasing pallor, difficulty breathing, limb swelling, or reduced activity.
+  - Monitor growth parameters and developmental milestones.
+  - Repeat FBC, PCV, and reticulocyte count as indicated.
+  - Review in Sickle Cell Clinic in 3 months or earlier if symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-02',
+    title: 'Sickle Cell Disease (HbSS) Routine Follow-Up in a Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Sickle Cell Clinic',
+    condition: 'Sickle Cell Disease',
+    symptoms: [
+      'Routine follow-up',
+      'HbSS disease',
+      'History of vaso-occlusive crisis'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: '2-year-old child with known HbSS disease on regular follow-up, clinically stable in steady state with no recent sickle cell complications.',
+    content: `
+  SICKLE CELL CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 2-year-old child with known HbSS disease on regular follow-up, accompanied by mother.
+  
+  PC:
+  Routine follow-up.
+  
+  HPC:
+  Child has remained clinically stable since the last clinic visit.
+  
+  There are no fresh complaints. No history of fever, bone pain, swelling of hands or feet, difficulty breathing, chest pain, abdominal swelling, worsening jaundice, seizures, weakness of any limb, or change in behaviour since the last review.
+  
+  There has been no hospital admission, emergency room visit, or blood transfusion since the last clinic visit. No history suggestive of acute chest syndrome.
+  
+  Child is compliant with prescribed medications. Feeding well with satisfactory appetite. Has adequate urine output and sleeps well.
+  
+  Developmental milestones are appropriate for age.
+  
+  O/E:
+  Young child, conscious and playful, not in painful distress, afebrile, mildly pale, mildly icteric, acyanosed, not dehydrated.
+  
+  Weight: 12 kg
+  
+  PR: 96 bpm, regular, good volume
+  BP: 100/60 mmHg
+  RR: 22 cpm
+  Temperature: 36.8°C
+  SpO₂: 99% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable hepatomegaly or splenomegaly.
+  Bowel sounds normoactive.
+  
+  CNS:
+  Conscious and alert.
+  No focal neurological deficit.
+  
+  Investigations:
+  PCV: 25%
+  
+  ASSESSMENT:
+  Known HbSS patient in steady state.
+  
+  PLAN:
+  - Continue Cap Hydroxyurea 250 mg daily (weight-adjusted dose).
+  - Continue Syr Folic Acid 5 mg daily.
+  - Continue routine prophylactic medications:
+    - Syr Penicillin V as prescribed.
+    - Routine immunization and pneumococcal vaccination as indicated.
+  - Encourage adequate fluid intake and balanced diet.
+  - Counsel mother on early presentation for fever, bone pain, difficulty breathing, excessive pallor, worsening jaundice, or reduced activity.
+  - Ensure malaria prevention measures.
+  - Monitor growth and developmental milestones.
+  - Repeat FBC/PCV as indicated.
+  - Review in Sickle Cell Clinic in 3 months or earlier if symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-01',
+    title: 'Sickle Cell Disease (HbSS) Routine Follow-Up',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Sickle Cell Clinic',
+    condition: 'Sickle Cell Disease',
+    symptoms: [
+      'Routine follow-up',
+      'HbSS disease',
+      'History of vaso-occlusive crises'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: 'Young adult with known HbSS disease on regular follow-up, clinically stable in steady state with no recent vaso-occlusive crisis or acute complications.',
+    content: `
+  SICKLE CELL CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A young adult with known HbSS disease on regular follow-up at the Sickle Cell Clinic.
+  
+  PC:
+  Routine follow-up.
+  
+  HPC:
+  Patient is a known HbSS patient who has remained clinically stable since the last clinic visit.
+  
+  There is no history of vaso-occlusive crisis, bone pain, fever, cough, chest pain, jaundice, limb swelling, abdominal swelling, difficulty breathing, priapism (if male), or neurological symptoms since the last review.
+  
+  There has been no hospital admission, emergency room visit, or blood transfusion since the last clinic visit.
+  
+  Patient reports good compliance with prescribed medications including Hydroxyurea and Folic acid. Maintains adequate oral fluid intake. Appetite and sleep are satisfactory. No new complaints today.
+  
+  O/E:
+  Young adult, comfortable at rest, not in painful distress, afebrile, not pale, mildly icteric, acyanosed, not dehydrated.
+  
+  Weight: 58 kg
+  
+  PR: 80 bpm, regular, full volume
+  BP: 114/72 mmHg
+  RR: 18 cpm
+  Temperature: 36.7°C
+  SpO₂: 99% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable hepatomegaly or splenomegaly.
+  Bowel sounds normoactive.
+  
+  Investigations:
+  PCV: 29%
+  
+  ASSESSMENT:
+  Known HbSS patient in steady state.
+  
+  PLAN:
+  - Continue Cap Hydroxyurea 500 mg twice daily.
+  - Continue Tab Folic Acid 5 mg daily.
+  - Continue routine prophylactic medications as indicated.
+  - Maintain adequate hydration and balanced nutrition.
+  - Reinforce avoidance of known crisis precipitants.
+  - Counsel on prompt hospital presentation if fever, bone pain, chest pain, difficulty breathing, or other acute symptoms develop.
+  - Repeat PCV/FBC as indicated before next clinic visit.
+  - Review in Sickle Cell Clinic in 3 months or earlier if indicated.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'peds-01',
     title: 'HbSS Disease Presenting with Dactylitis (Hand-Foot Syndrome)',
     specialty: 'Pediatrics',
@@ -8737,6 +9007,150 @@ Not yet available
   // Internal Medicine
   {
     id: 'im-01',
+    title: 'Sickle Cell Anaemia in Steady State Follow-up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Hematology Clinic',
+    condition: 'Sickle Cell Anaemia (HbSS)',
+    symptoms: [
+      'Routine follow-up',
+      'Steady state',
+      'Known HbSS',
+      'No vaso-occlusive crisis',
+      'Mild pallor'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: 'A 22-year-old male with known HbSS presenting for routine hematology follow-up in steady state, with no interval vaso-occlusive crises or acute complications.',
+    content: `HEMATOLOGY CLINIC
+  
+  PATIENT IDENTIFICATION
+  
+  A 22-year-old male student with known sickle cell anaemia (HbSS), diagnosed at the age of 3 years.
+  
+  PRESENTING COMPLAINT
+  
+  Routine follow-up clinic visit.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a known HbSS patient who presented for his scheduled routine follow-up visit.
+  
+  He remains in steady state and reports feeling generally well.
+  
+  There has been no history of bone pain, fever, generalized body weakness, or vaso-occlusive crisis since his last clinic visit 3 months ago.
+  
+  There is no history of cough, chest pain, or shortness of breath.
+  
+  There is no history of yellowish discoloration of the eyes or passage of tea-coloured urine.
+  
+  His appetite and sleep pattern are normal.
+  
+  There have been no episodes of priapism or leg ulcers.
+  
+  He is able to carry out his academic and daily activities without significant limitation.
+  
+  The last vaso-occlusive crisis occurred approximately 8 months ago and was managed as an inpatient for 3 days with intravenous fluids and analgesics.
+  
+  His last blood transfusion was 2 years ago.
+  
+  There is no history of previous surgeries or known drug allergies.
+  
+  DRUG HISTORY
+  
+  He is highly compliant with:
+  
+  Tab. Folic Acid 5 mg once daily.
+  Tab. Proguanil (Paludrine) 200 mg once daily.
+  Tab. Vitamin B Complex once daily.
+  He occasionally takes Paracetamol for mild aches.
+  
+  PAST MEDICAL HISTORY
+  
+  Known HbSS diagnosed at the age of 3 years.
+  Last vaso-occlusive crisis was 8 months ago.
+  Last blood transfusion was 2 years ago.
+  No previous surgeries.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is the second of four children in a monogamous family.
+  One younger sibling also has HbSS.
+  Both parents are known HbAS.
+  He is a full-time student.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Young man, comfortable at rest.
+  Not acutely ill.
+  Not in respiratory or painful distress.
+  Afebrile (36.7°C).
+  Mildly pale.
+  Mildly icteric.
+  No significant peripheral lymphadenopathy.
+  No pedal edema.
+  Hydration is fair.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 84 bpm, regular, full volume.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 18 cycles/minute.
+  SpO₂: 97% on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen flat and moves with respiration.
+  Soft and non-tender.
+  Liver palpable 2 cm below the right costal margin, smooth, firm, and non-tender.
+  Spleen not palpable.
+  Normal bowel sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat located at the 5th left intercostal space, mid-clavicular line.
+  Heart sounds S1 and S2 heard.
+  Soft grade 2/6 systolic flow murmur heard at the apex.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central.
+  Chest symmetrical with adequate expansion.
+  Percussion notes resonant bilaterally.
+  Breath sounds vesicular with clear lung fields.
+  
+  ASSESSMENT
+  
+  Sickle Cell Anaemia (HbSS) in steady state.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  Packed Cell Volume (PCV).
+  Urinalysis (dipstick) to assess for proteinuria and urobilinogen.
+  Reticulocyte count (if baseline assessment is required).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  Encourage adequate oral hydration (at least 3–4 litres of water daily).
+  Counsel on avoiding triggers of sickling, including dehydration, infections, strenuous exercise, and exposure to extreme temperatures.
+  Continue Tab. Proguanil (Paludrine) 200 mg once daily.
+  Continue Tab. Folic Acid 5 mg once daily.
+  Continue Tab. Vitamin B Complex once daily.
+  Prescribe Tab. Paracetamol 1 g as required for mild pain.
+  Educate the patient on danger signs including severe bone pain, fever, sudden pallor, chest pain, or neurological symptoms, and advise immediate presentation to the Emergency Department should any occur.
+  Review in the Hematology Clinic in 3 months.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-01',
     title: 'HbSC Disease with Uncomplicated Vaso-Occlusive Crisis',
     specialty: 'Internal Medicine',
     subSpecialty: 'Haematology',
@@ -13309,6 +13723,873 @@ Not yet available
 
 // General Outpatient
 {
+  id: 'gopd-03',
+  title: 'ACE Inhibitor-Induced Angioedema',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Accident and Emergency',
+  condition: 'ACE Inhibitor-Induced Angioedema',
+  symptoms: [
+    'Tongue swelling',
+    'Difficulty speaking',
+    'Difficulty swallowing',
+    'Muffled voice',
+    'Macroglossia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 45-year-old hypertensive man presenting with acute isolated tongue swelling shortly after commencing lisinopril, consistent with ACE inhibitor-induced angioedema with threatened upper airway obstruction.',
+  content: `ACCIDENT AND EMERGENCY
+
+PATIENT IDENTIFICATION
+
+A 45-year-old Yoruba man who resides in Ikeja, Lagos State. He is married and works as a civil servant.
+
+PRESENTING COMPLAINT
+
+Swelling of the tongue × 1 hour.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about 1 hour prior to presentation when he developed sudden-onset, rapidly progressive swelling of the tongue. The swelling was preceded by a sensation of fullness within the mouth and tingling of the tongue.
+
+The swelling has been associated with difficulty speaking, resulting in a muffled voice, and mild difficulty swallowing.
+
+There is no history of shortness of breath, wheezing, noisy breathing, or stridor.
+
+He denies skin rash, generalized itching, swelling of the lips or eyes, ingestion of new foods, herbal medications, or recent insect bites.
+
+He was commenced on a new antihypertensive medication (Lisinopril) approximately 10 days prior to presentation.
+
+There is no previous history of similar episodes.
+
+There is no family history of recurrent swelling or sudden unexplained deaths.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive diagnosed 5 years ago.
+No history of diabetes mellitus, asthma, sickle cell disease, or other chronic illnesses.
+No known drug or food allergies.
+
+DRUG HISTORY
+
+Tab. Lisinopril 10 mg once daily (commenced 10 days ago).
+Tab. Amlodipine 5 mg once daily.
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+Married with three children.
+Non-smoker.
+Does not consume alcohol.
+No family history of hereditary angioedema or recurrent swelling.
+
+REVIEW OF SYSTEMS
+
+Respiratory System:
+No cough.
+No chest pain.
+No orthopnoea.
+
+Cardiovascular System:
+
+No palpitations.
+No paroxysmal nocturnal dyspnoea.
+Gastrointestinal System:
+No abdominal pain.
+No vomiting.
+No diarrhoea.
+Central Nervous System:
+No headache.
+No loss of consciousness.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+An anxious middle-aged man in mild respiratory distress.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Not dehydrated.
+No peripheral lymphadenopathy.
+No pedal edema.
+No generalized urticaria or limb swelling.
+
+VITAL SIGNS
+
+Pulse Rate: 98 bpm, regular, normal volume.
+Blood Pressure: 150/94 mmHg.
+Respiratory Rate: 24 cycles/minute.
+Temperature: 36.7°C.
+SpO₂: 97% on room air.
+
+LOCAL EXAMINATION (OROPHARYNX)
+
+Grossly oedematous tongue protruding slightly from the mouth.
+No swelling, erythema, or tenderness of the floor of the mouth.
+Uvula central and not oedematous.
+Oropharyngeal airway patent but narrowed by the enlarged tongue.
+No dental caries.
+
+RESPIRATORY SYSTEM
+
+Trachea central.
+Normal chest expansion.
+Percussion note resonant.
+Vesicular breath sounds bilaterally.
+No added sounds.
+
+CARDIOVASCULAR SYSTEM
+
+Apex beat at the 5th left intercostal space, midclavicular line.
+Heart sounds S1 and S2 only.
+No murmurs.
+
+ABDOMINAL EXAMINATION
+
+Abdomen flat, soft, and non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+CENTRAL NERVOUS SYSTEM
+
+Conscious and alert.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Acute angioedema, most likely ACE inhibitor-induced (Lisinopril), with significant tongue involvement causing threatened upper airway obstruction.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Anaphylaxis.
+2. Hereditary angioedema.
+3. Ludwig's angina.
+
+INITIAL INVESTIGATION PLAN
+
+Continuous pulse oximetry.
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Serum C4 level if symptoms persist or recur.
+
+INITIAL MANAGEMENT PLAN
+
+Treat as a potentially difficult airway.
+Maintain continuous airway monitoring.
+Keep emergency airway equipment and tracheostomy set at the bedside.
+Nurse patient in an upright sitting position.
+Administer 100% oxygen via face mask at 6–8 L/min.
+
+Pharmacotherapy:
+
+Inj. Hydrocortisone 200 mg IV stat.
+Inj. Chlorpheniramine 10 mg IV stat.
+Inj. Adrenaline (1:1000) 0.5 mg IM stat if there is evidence of airway compromise or cardiovascular collapse.
+
+Commence 0.9% Normal Saline intravenously as a keep-vein-open (KVO) line.
+
+Immediately discontinue Lisinopril.
+
+Document ACE inhibitor-induced angioedema prominently in the patient's medical records and advise permanent avoidance of ACE inhibitors.
+
+Monitor blood pressure, pulse rate, respiratory rate, oxygen saturation, and tongue swelling every 30 minutes.
+
+Arrange urgent review by the Anaesthesia and ENT teams.
+
+Escalate to HDU/ICU if airway obstruction progresses or advanced airway intervention becomes necessary.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-02',
+  title: 'Acute Angioedema with Tongue Involvement',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Accident and Emergency',
+  condition: 'Acute Angioedema',
+  symptoms: [
+    'Sudden tongue swelling',
+    'Difficulty speaking',
+    'Difficulty swallowing',
+    'Muffled voice',
+    'Mild shortness of breath'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 34-year-old man presenting with acute tongue swelling causing dysphagia and dysarthria, consistent with acute angioedema with threatened upper airway obstruction.',
+  content: `ACCIDENT AND EMERGENCY
+
+PATIENT IDENTIFICATION
+
+A 34-year-old married Yoruba man who resides in Abeokuta, Ogun State. He is a Christian and works as an accountant.
+
+Informant: Patient (Reliable)
+
+PRESENTING COMPLAINTS
+
+Sudden swelling of the tongue × 2 hours.
+Difficulty speaking × 2 hours.
+Difficulty swallowing × 1 hour.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately 2 hours prior to presentation when he suddenly noticed swelling of his tongue while at home. The swelling progressively increased over the next hour, resulting in difficulty speaking, difficulty swallowing saliva, and a muffled voice.
+
+He denies ingestion of any new food, medication, or herbal preparation prior to symptom onset. There is no history of insect sting or animal bite.
+
+He reports no generalized itching, urticarial rash, flushing, wheezing, or chest tightness.
+
+He complains of mild shortness of breath, particularly when lying flat, but denies noisy breathing or cyanosis.
+
+He recalls two previous episodes of painless swelling of the lips over the past year. Each episode developed suddenly, lasted approximately 24–48 hours, and resolved spontaneously without hospitalization. There was no associated rash during those episodes.
+
+There is no previous history of tongue swelling.
+
+There is no history of trauma to the mouth, dental pain, or fever.
+
+He is not taking an angiotensin-converting enzyme (ACE) inhibitor and has no known drug allergies.
+
+There is no family history of recurrent swelling involving the face or tongue.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Difficulty swallowing.
+Difficulty speaking.
+No fever.
+No weight loss.
+
+Ear, Nose and Throat:
+
+Marked tongue swelling.
+Muffled voice.
+No sore throat.
+No drooling.
+No neck swelling.
+
+Respiratory:
+
+Mild shortness of breath.
+
+No wheezing.
+No cough.
+No haemoptysis.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No syncope.
+
+Gastrointestinal:
+
+No abdominal pain.
+No vomiting.
+No diarrhoea.
+
+Skin:
+
+No urticaria.
+No generalized itching.
+No facial rash.
+
+Central Nervous System:
+
+No headache.
+No limb weakness.
+No loss of consciousness.
+
+PAST MEDICAL HISTORY
+
+No history of hypertension, diabetes mellitus, asthma, chronic kidney disease, or previous hospital admissions.
+
+PAST SURGICAL HISTORY
+
+No significant past surgical history.
+
+DRUG HISTORY
+
+Not on regular medications.
+Specifically denies use of Lisinopril, Enalapril, Ramipril, or any other ACE inhibitor.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No known family history of hereditary angioedema or recurrent unexplained swelling.
+
+SOCIAL HISTORY
+
+Lives with his wife.
+Non-smoker.
+Occasional alcohol consumption.
+No recreational drug use.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Young man.
+Conscious and alert.
+Moderately ill-looking.
+
+Anxious.
+
+Able to speak only in short sentences because of a muffled voice.
+Moderate tongue swelling evident.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+No generalized skin rash.
+
+VITAL SIGNS
+
+Blood Pressure: 126/82 mmHg.
+Pulse Rate: 104 beats/minute, regular.
+Respiratory Rate: 22 cycles/minute.
+Temperature: 36.8°C.
+SpO₂: 97% on room air.
+Weight: 76 kg.
+
+AIRWAY EXAMINATION
+
+Moderately enlarged tongue occupying much of the oral cavity.
+Mild pooling of saliva.
+Muffled speech.
+No stridor.
+No uvular deviation.
+No facial burns or oral trauma.
+Airway currently patent but at significant risk of deterioration.
+
+RESPIRATORY EXAMINATION
+
+Chest expands symmetrically.
+Vesicular breath sounds bilaterally.
+No wheeze.
+No crepitations.
+No use of accessory muscles.
+
+CARDIOVASCULAR EXAMINATION
+
+Heart sounds S1 and S2 present.
+No murmurs.
+Peripheral pulses palpable.
+Capillary refill time less than 2 seconds.
+
+ABDOMINAL EXAMINATION
+
+Abdomen soft.
+Non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+CENTRAL NERVOUS SYSTEM
+
+Glasgow Coma Scale: 15/15.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Acute angioedema with significant tongue involvement (macroglossal angioedema) causing threatened upper airway obstruction.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Histamine-mediated (allergic) angioedema.
+2. Bradykinin-mediated angioedema (hereditary or acquired).
+3. ACE inhibitor-induced angioedema (less likely as there is no history of ACE inhibitor use).
+4. Lingual cellulitis.
+5. Deep neck space infection.
+
+INVESTIGATION PLAN
+
+Immediate:
+
+Continuous pulse oximetry.
+12-lead ECG.
+
+Laboratory:
+
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Random Blood Glucose.
+C-Reactive Protein.
+Serum tryptase (if available, ideally within 1–4 hours if anaphylaxis is suspected).
+Complement C4 level.
+C1 esterase inhibitor level and function after stabilization if hereditary angioedema is suspected.
+
+Imaging:
+
+Flexible nasolaryngoscopy by the ENT team to assess for laryngeal oedema where available.
+
+CT neck only after stabilization if an alternative diagnosis is suspected.
+
+MANAGEMENT PLAN
+
+AIRWAY
+
+Treat as a potential difficult airway.
+
+Activate the difficult airway team.
+
+Urgent review by the Anaesthesia and ENT teams.
+
+Administer high-flow oxygen at 10–15 L/min via a non-rebreather mask.
+
+Prepare for awake fibre-optic intubation if airway compromise progresses.
+
+If intubation is unsuccessful or impossible and complete airway obstruction develops, perform emergency cricothyrotomy or tracheostomy.
+
+MEDICATIONS
+
+Commence treatment for histamine-mediated angioedema while maintaining continuous airway assessment.
+
+Adrenaline (if anaphylaxis or rapidly progressive airway compromise is suspected):
+
+Inj. Adrenaline (Epinephrine) 0.5 mg IM (0.5 mL of 1:1000 solution) into the anterolateral thigh.
+
+Repeat every 5–15 minutes if clinically indicated.
+
+Corticosteroid:
+
+Inj. Hydrocortisone 200 mg IV stat, then 100 mg IV every 6 hours.
+
+Alternative:
+
+Inj. Dexamethasone 8 mg IV stat, then 4 mg IV every 12 hours.
+
+Antihistamine:
+
+Inj. Chlorpheniramine 10 mg IV slowly stat.
+
+Alternative:
+
+Inj. Promethazine 25 mg IM stat if chlorpheniramine is unavailable.
+
+Intravenous Fluids:
+
+If oral intake is impaired:
+
+0.9% Normal Saline 1 litre IV over 4 hours, then adjust according to hydration status.
+
+IF BRADYKININ-MEDIATED ANGIOEDEMA IS CONFIRMED OR STRONGLY SUSPECTED
+
+Recognize that adrenaline, corticosteroids, and antihistamines may provide limited benefit.
+
+Administer one of the following where available:
+
+C1 esterase inhibitor concentrate 20 IU/kg IV.
+OR
+Icatibant 30 mg subcutaneously.
+
+OR
+
+Fresh Frozen Plasma 2 units IV if specific therapy is unavailable and airway compromise is progressing.
+
+NURSING INSTRUCTIONS
+
+Continuous airway monitoring.
+Continuous pulse oximetry.
+Record vital signs every 15 minutes until clinically stable.
+Observe closely for stridor, worsening dysphagia, drooling, or increasing respiratory distress.
+Maintain patient in a sitting position.
+Keep patient nil per os until the airway is considered safe.
+
+HEALTH EDUCATION
+
+Explain that recurrent swelling of the lips followed by tongue swelling is suggestive of angioedema and may become life-threatening if it affects the airway.
+Advise avoidance of any identified trigger.
+Instruct the patient to seek immediate emergency care if future swelling involves the tongue, throat, or breathing.
+If hereditary angioedema is confirmed, recommend screening of first-degree relatives and referral for long-term specialist care.
+If an allergic cause is identified, advise carrying an adrenaline auto-injector where available and wearing medical identification.
+
+FOLLOW-UP
+
+Admit for observation for at least 24 hours because delayed airway deterioration may occur.
+
+Review by the ENT and Allergy/Immunology teams.
+
+Arrange outpatient evaluation for recurrent angioedema, including complement studies and allergy assessment after recovery.
+
+PROGNOSIS
+
+Guarded initially because tongue swelling may rapidly progress to complete upper airway obstruction. With prompt airway management, appropriate medical therapy, and identification of the underlying cause, the overall prognosis is good.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-01',
+  title: 'Dental Caries with Acute Pulpitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dental Clinic',
+  condition: 'Dental Caries with Acute Pulpitis',
+  symptoms: [
+    'Toothache',
+    'Throbbing dental pain',
+    'Pain aggravated by chewing',
+    'Sensitivity to cold and sugary foods',
+    'Facial swelling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 22-year-old female student presenting with acute right lower molar pain associated with facial swelling and tenderness, diagnosed as dental caries with acute pulpitis.',
+  content: `GENERAL OUTPATIENT DEPARTMENT
+
+PATIENT IDENTIFICATION
+
+A 22-year-old female student who resides in Ogbomosho, Oyo State. She is of Yoruba ethnicity.
+
+PRESENTING COMPLAINT
+
+Toothache × 3 days.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about 3 days prior to presentation when she developed pain involving the right lower back tooth.
+
+The pain is sharp and throbbing in nature, initially intermittent but has become more persistent over the last 24 hours. It is aggravated by chewing and intake of cold or sugary drinks.
+
+The pain radiates to the right ear and temple and is partially relieved by over-the-counter analgesics.
+
+There is associated mild right-sided facial swelling and low-grade fever.
+
+There is no history of bleeding gums, foul-smelling breath, trauma to the jaw, or previous similar episodes.
+
+PAST MEDICAL HISTORY
+
+No known history of sickle cell disease, diabetes mellitus, hypertension, or other chronic illnesses.
+
+No previous dental procedures or hospital admissions.
+
+DRUG HISTORY
+
+Not on any routine medications.
+
+No known drug allergies, particularly to penicillin or NSAIDs.
+
+FAMILY AND SOCIAL HISTORY
+
+She is the second of four children in a monogamous family setting.
+
+She resides in a university hostel with adequate ventilation.
+
+She does not smoke or consume alcohol.
+
+REVIEW OF SYSTEMS
+
+CNS:
+No headache.
+No seizures.
+
+Respiratory System:
+No cough.
+No shortness of breath.
+
+Cardiovascular System:
+No palpitations.
+No chest pain.
+
+Gastrointestinal System:
+No abdominal pain.
+No change in bowel habits.
+
+Musculoskeletal System:
+No joint pains or swelling.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Young lady in painful distress but clinically stable.
+
+Not pale.
+
+Anicteric.
+
+Not dehydrated.
+
+No pedal edema.
+
+VITAL SIGNS
+
+Pulse Rate: 92 bpm, regular, normal volume.
+
+Respiratory Rate: 18 cycles/minute.
+
+Blood Pressure: 110/70 mmHg.
+
+Temperature: 37.6°C.
+
+SpO₂: 98% on room air.
+
+EXTRA-ORAL EXAMINATION
+
+Mild firm tender swelling over the right mandibular region.
+
+Right submandibular lymph nodes palpable, mobile, and tender.
+
+No trismus. Patient able to open mouth fully.
+
+INTRA-ORAL EXAMINATION
+
+Poor oral hygiene with significant plaque accumulation.
+
+Deep carious lesion involving the right lower second molar.
+
+Tooth is exquisitely tender to vertical percussion.
+
+No fluctuant gingival swelling.
+
+Other teeth appear grossly normal.
+
+ASSESSMENT
+
+Dental caries with acute pulpitis.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Periapical abscess.
+2. Pericoronitis secondary to erupting third molar.
+3. Dentoalveolar abscess.
+
+INITIAL INVESTIGATION PLAN
+
+Intra-oral periapical (IOPA) radiograph of the right lower molar region.
+
+Full Blood Count (FBC) to assess for leucocytosis.
+
+Random Blood Sugar (RBS) to exclude underlying hyperglycaemia.
+
+INITIAL MANAGEMENT PLAN
+
+Analgesia:
+
+Tab Ibuprofen 400 mg orally three times daily for 3 days.
+
+PLUS
+
+Tab Paracetamol 1 g orally three times daily for 3 days.
+
+Antibiotic Therapy:
+
+Due to facial swelling and tender lymphadenopathy:
+
+Cap Amoxicillin 500 mg orally three times daily for 5 days.
+
+PLUS
+
+Tab Metronidazole 400 mg orally three times daily for 5 days.
+
+Warm saline mouthwash 4–6 times daily.
+
+Urgent referral to the Dental Clinic for definitive management including possible root canal treatment or dental extraction.
+
+Counsel patient on oral hygiene practices including twice daily tooth brushing and regular dental review.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-02',
+  title: 'Genital Ulcer Disease (Likely Primary Genital Herpes)',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Sexually Transmitted Infections',
+  condition: 'Genital Ulcer Disease',
+  symptoms: [
+    'Penile rash',
+    'Painful genital ulcers',
+    'Genital itching',
+    'Genital pain',
+    'Tender inguinal lymphadenopathy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 24-year-old male presented with painful vesicular penile lesions that progressed to shallow ulcers following recent unprotected sexual exposure, most consistent with primary genital herpes causing genital ulcer disease.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old male student from Ogbomosho, Oyo State, Yoruba. Informant: Patient (Reliable).
+
+PC:
+Rashes on the penis × 4 days
+Genital pain and itching × 3 days
+
+HPC:
+The patient was apparently well until 4 days prior to presentation when he noticed multiple small, fluid-filled rashes on the glans penis and prepuce. The lesions were initially itchy but became significantly painful within 24 hours.
+
+Two days prior to presentation, some of the vesicles ruptured, resulting in shallow, painful ulcers.
+
+There is no history of urethral discharge.
+
+There is no dysuria.
+
+There is no haematuria.
+
+There is no previous history of similar lesions.
+
+There is no history of fever, malaise or joint pains.
+
+He reports a sexual encounter with a new partner approximately 10 days before symptom onset, during which condom use was inconsistent.
+
+There are no rashes elsewhere on the body.
+
+There is no history of ingestion of new medications before the onset of the rash.
+
+Review of Systems:
+
+Central Nervous System:
+No headache.
+No neck pain.
+
+Respiratory:
+No cough.
+No chest pain.
+
+Cardiovascular:
+No palpitations.
+No pedal oedema.
+
+Gastrointestinal:
+No abdominal pain.
+No change in bowel habits.
+
+Musculoskeletal:
+No joint swelling.
+No generalized body aches.
+
+Past Medical History:
+Not a known hypertensive.
+Not diabetic.
+No history of asthma.
+No history of sickle cell disease.
+No previous blood transfusion.
+
+Drug History:
+No known drug allergies.
+Not on any long-term medications.
+
+Family History:
+First of three children in a monogamous family.
+Nil contributory.
+
+Social History:
+Single.
+Undergraduate student.
+Occasional alcohol use.
+Non-smoker.
+
+O/E:
+Young man.
+Not acutely ill-looking.
+Not in respiratory distress.
+Not in obvious painful distress.
+Not pale.
+Anicteric.
+Not dehydrated.
+No pedal oedema.
+
+Vital Signs:
+BP: 120/80 mmHg
+PR: 82 bpm, regular, normal volume
+RR: 18 cpm
+Temperature: 36.8°C
+SpO₂: 98% on room air
+
+Abdominal Examination:
+Abdomen flat and moves with respiration.
+No tenderness.
+No organomegaly.
+Normal bowel sounds.
+
+Genitourinary Examination:
+Inspection:
+Multiple grouped vesicles and shallow erythematous non-purulent ulcers on the glans penis and inner surface of the prepuce.
+No active bleeding.
+No visible urethral discharge.
+
+Palpation:
+Lesions exquisitely tender.
+No induration at the base of the ulcers.
+
+Scrotum/Testes:
+Normal appearance.
+Both testes descended with normal size and consistency.
+
+Inguinal Region:
+Bilateral small, tender, mobile inguinal lymphadenopathy.
+
+Assessment:
+Genital ulcer disease, most likely primary genital herpes (HSV infection).
+
+Differential Diagnoses:
+Primary genital herpes (HSV-2/HSV-1).
+Primary syphilis.
+Chancroid.
+Fixed drug eruption.
+
+Investigations:
+Ulcer swab for microscopy, culture and sensitivity.
+HSV PCR or viral culture where available.
+VDRL/RPR with confirmatory treponemal test if reactive.
+HIV screening with pre- and post-test counselling.
+HBsAg.
+Anti-HCV.
+Full Blood Count.
+
+Management:
+Counsel the patient regarding the likely diagnosis, transmission and importance of partner notification.
+
+Commence syndromic treatment:
+
+Tab Acyclovir 400 mg orally three times daily for 7 days.
+
+Tab Azithromycin 1 g orally stat.
+
+Analgesia:
+Tab Ibuprofen 400 mg orally three times daily after meals for 3 days, provided there are no contraindications.
+
+Advise gentle cleansing of the genital area with clean water and keeping the lesions dry.
+
+Advise abstinence from all sexual activity until complete healing of lesions and appropriate evaluation and treatment of sexual partner(s).
+
+Offer HIV counselling and testing and discuss screening for other sexually transmitted infections.
+
+Health Education:
+Explain that genital herpes is a sexually transmitted viral infection that may recur in the future.
+
+Emphasize consistent condom use to reduce transmission risk, while noting that transmission may still occur even in the absence of visible lesions.
+
+Encourage early presentation if future episodes occur, as antiviral treatment is most effective when started early.
+
+Advise against sharing towels or engaging in sexual activity while lesions are present.
+
+Follow-up:
+Review after 1 week to assess symptom resolution and review investigation results.
+
+Arrange referral to a Dermatology, Genitourinary Medicine or STI clinic if symptoms persist, recurrent episodes occur or diagnosis remains uncertain.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'gopd-01',
   title: 'Symptomatic Orthostatic Hypotension Secondary to Dehydration',
   specialty: 'General Outpatient',
@@ -17406,7 +18687,7 @@ Review at 1–2 weeks: assess symptom resolution, inspect vulva, review investig
       <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Diagnosis — Vaginal Discharge Syndrome and Candidiasis</h3>
       <div>
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Vaginal Discharge Syndrome — The Syndromic Framework</strong>
-        <p>Vaginal discharge syndrome is one of the five classic sexually transmitted infection syndromes in the WHO and FMOH syndromic management framework — the others being urethral discharge syndrome (gopd-03), genital ulcer disease, lower abdominal pain in women, and inguinal bubo syndrome. Unlike urethral discharge syndrome in men (where the clinical picture is usually dominated by one organism), vaginal discharge syndrome has multiple possible causes that can be distinguished clinically using the character of the discharge, the associated symptoms, the vaginal pH, and simple bedside tests. This allows targeted treatment in most cases without waiting for laboratory culture results — though laboratory confirmation remains valuable for guiding management when treatment fails or when co-infection is possible.</p>
+        <p>Vaginal discharge syndrome is one of the five classic sexually transmitted infection syndromes in the WHO and FMOH syndromic management framework — the others being urethral discharge syndrome, genital ulcer disease, lower abdominal pain in women, and inguinal bubo syndrome. Unlike urethral discharge syndrome in men (where the clinical picture is usually dominated by one organism), vaginal discharge syndrome has multiple possible causes that can be distinguished clinically using the character of the discharge, the associated symptoms, the vaginal pH, and simple bedside tests. This allows targeted treatment in most cases without waiting for laboratory culture results — though laboratory confirmation remains valuable for guiding management when treatment fails or when co-infection is possible.</p>
       </div>
       <div>
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Presentation Is Candidiasis and Not an STI</strong>
@@ -19499,6 +20780,191 @@ Not yet available
 
 
 // Obstetrics and Gynecology
+{
+  id: 'ob-04',
+  title: 'Active Phase of the First Stage of Labour',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Labour Ward',
+  condition: 'Active Phase of Labour',
+  symptoms: [
+    'Regular painful abdominal contractions',
+    'Mucoid blood-stained vaginal discharge (show)',
+    'Low back pain radiating to the abdomen',
+    'Term pregnancy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 28-year-old G3P2+0 at 39 weeks + 2 days gestation presenting with regular painful uterine contractions and show, found to be in the active phase of the first stage of labour with stable maternal and fetal conditions.',
+  content: `LABOUR WARD
+
+PATIENT IDENTIFICATION
+
+Fatima Abubakar is a 28-year-old married Hausa woman, a trader, who resides in Dutse, Jigawa State. She has secondary level education.
+
+Obstetric Status:
+G3P2+0 (2 alive)
+
+OBSTETRIC DATES
+
+LMP: 12/05/2023
+
+EDD: 19/02/2024
+
+EGA: 39 weeks + 2 days
+
+PRESENTING COMPLAINTS
+
+Regular painful abdominal contractions × 8 hours.
+
+Mucoid blood-stained vaginal discharge (show) × 6 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until about 8 hours prior to presentation when she developed intermittent cramp-like lower back pain radiating to the anterior abdomen. The contractions initially occurred every 30 minutes but progressively increased in both frequency and intensity.
+
+Approximately 6 hours prior to presentation, she noticed a blood-stained mucoid vaginal discharge (show).
+
+There was no history of sudden gush of liquor per vaginam, persistent vaginal fluid leakage, vaginal bleeding, or fever.
+
+Fetal movements have remained adequate and well perceived throughout the onset of labour.
+
+HISTORY OF INDEX PREGNANCY
+
+She is booked for antenatal care at this facility and has attended six antenatal clinic visits.
+She received two doses of Tetanus Toxoid.
+She has been compliant with routine antenatal medications including Ferrous Sulphate and Folic Acid.
+
+Booking investigations revealed:
+Packed Cell Volume: 34%.
+Genotype: AA.
+Blood Group: O Rh Positive.
+HIV screening: Non-reactive.
+VDRL: Non-reactive.
+The pregnancy has remained uncomplicated with no history of hypertension or diabetes mellitus.
+
+PAST OBSTETRIC HISTORY
+
+2018:
+G1.
+Term spontaneous vaginal delivery at a General Hospital.
+Delivered a live male infant weighing 3.2 kg.
+No antenatal, intrapartum, or postpartum complications.
+Child alive and well.
+
+2021:
+G2.
+Term spontaneous vaginal delivery at a General Hospital.
+Delivered a live female infant weighing 3.4 kg.
+No antenatal, intrapartum, or postpartum complications.
+Child alive and well.
+
+PAST MEDICAL AND SURGICAL HISTORY
+
+No known history of hypertension, diabetes mellitus, asthma, epilepsy, or sickle cell disease.
+No previous surgeries.
+No previous blood transfusions.
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+No family history of twinning.
+She lives in a monogamous family setting with her husband.
+She does not smoke cigarettes or consume alcohol.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Young woman in painful distress during contractions but comfortable in between contractions.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Not dehydrated.
+No pedal edema.
+
+VITAL SIGNS
+
+Pulse Rate: 88 bpm, regular, normal volume.
+Blood Pressure: 120/80 mmHg.
+Respiratory Rate: 20 cycles/minute.
+Temperature: 36.7°C.
+
+OBSTETRIC ABDOMINAL EXAMINATION
+
+Inspection:
+Gravid abdomen moving with respiration.
+Striae gravidarum and linea nigra present.
+No previous abdominal surgical scars.
+
+Palpation:
+Symphysio-fundal height: 38 cm.
+Longitudinal lie.
+Cephalic presentation.
+Left Occipito-Anterior (LOA) position.
+Fetal head 3/5 palpable per abdomen.
+Fetal Heart Rate: 144 bpm, regular.
+Uterine contractions: Three contractions in 10 minutes, each lasting 40–45 seconds with strong intensity.
+
+PELVIC EXAMINATION (VAGINAL EXAMINATION)
+
+Vulva and vagina appear normal.
+Cervix is 6 cm dilated, 80% effaced, centrally positioned, and stretchy.
+Membranes intact and bulging during contractions.
+Presenting part at station -1.
+Pelvis clinically adequate.
+No abnormal vaginal discharge or bleeding on the examining gloved finger.
+
+SUMMARY
+
+A 28-year-old G3P2+0 woman at 39 weeks + 2 days gestation presenting with an 8-hour history of regular painful uterine contractions and a 6-hour history of show. Examination revealed a singleton fetus in longitudinal lie and cephalic presentation with a reassuring fetal heart rate of 144 bpm. The cervix is 6 cm dilated and 80% effaced, consistent with the active phase of the first stage of labour.
+
+ASSESSMENT
+
+G3P2+0 at 39 weeks + 2 days gestation in the active phase of the first stage of labour with a singleton fetus in cephalic presentation.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Term labour (active phase).
+2. False labour (unlikely due to progressive cervical dilatation).
+3. Abruptio placentae (unlikely due to absence of vaginal bleeding and uterine tenderness).
+
+INITIAL INVESTIGATION PLAN
+
+Bedside urinalysis for proteinuria and glycosuria.
+
+Packed Cell Volume (PCV).
+
+Blood grouping and cross-matching (2 units on standby according to local protocol).
+
+INITIAL MANAGEMENT PLAN
+
+Admit into the labour ward.
+
+Encourage comfortable positioning or ambulation as tolerated.
+
+Maintain hydration with oral fluids or intravenous fluids where indicated.
+
+Commence partograph monitoring:
+
+- Fetal Heart Rate every 30 minutes.
+- Maternal Pulse every 30 minutes.
+- Blood Pressure and Temperature every 4 hours.
+- Cervical dilatation and fetal station every 4 hours or sooner if indicated.
+- Frequency and duration of uterine contractions every 30 minutes.
+
+Encourage regular bladder emptying.
+
+Provide emotional support and non-pharmacological pain relief including breathing techniques and back massage.
+
+Prepare delivery pack and notify the neonatal team/pediatrician in anticipation of delivery.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'ob-01',
   title: 'Routine Day 3 Postnatal Review',
@@ -21841,7 +23307,379 @@ Not yet available
 `,
   bookmarkCount: 0
 },
+{
+  id: 'ob-01',
+  title: 'Symptomatic Uterine Fibroids with Menorrhagia',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Emergency',
+  condition: 'Uterine Fibroids',
+  symptoms: [
+    'Severe lower abdominal pain',
+    'Heavy irregular menstrual bleeding',
+    'Passage of blood clots',
+    'Dysmenorrhea',
+    'Easy fatigability'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 24-year-old nulliparous female presenting with severe dysmenorrhea, menorrhagia, and symptomatic uterine fibroids complicated by secondary anemia.',
+  content: `PATIENT IDENTIFICATION
 
+A 24-year-old female student who resides in Yaba, Lagos State. She is of the Yoruba ethnic group and is single.
+
+PRESENTING COMPLAINTS
+
+Severe abdominal pain × 2 days.
+Heavy, irregular menstrual bleeding with passage of clots × 6 months.
+Painful menstruation × 6 months.
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until about 6 months prior to presentation when she noticed that her menstrual periods became progressively heavy and irregular. She reports soaking 5–6 sanitary pads daily (previously 2–3 pads) and frequently passes large blood clots, some described as being the size of her palm. Each menstrual cycle is associated with severe cramping lower abdominal pain beginning one day before menstruation and persisting throughout the duration of menstrual flow.
+
+The current episode of abdominal pain started 2 days prior to presentation. The pain is located in the suprapubic region, dull in character with intermittent sharp colicky exacerbations, and radiates to the lower back and both thighs. There is no associated nausea, vomiting, constipation, diarrhea, urinary frequency, dysuria, vaginal discharge, or post-coital bleeding.
+
+Her last menstrual period was one week prior to presentation.
+
+GYNAECOLOGICAL HISTORY
+
+Menarche at 12 years.
+Menstrual cycle was previously regular (28-day cycle) but has become irregular (21–35 days).
+Duration of menstrual flow is now 7–8 days (previously 4–5 days).
+No history of contraceptive use.
+
+OBSTETRIC HISTORY
+
+G0P0+0.
+
+PAST MEDICAL HISTORY
+
+No known history of hypertension, diabetes mellitus, asthma, epilepsy, or sickle cell disease (HbAA).
+No previous hospital admissions or surgeries.
+
+DRUG HISTORY
+
+Frequently uses Ibuprofen and Paracetamol for menstrual pain with minimal relief.
+No known drug allergies.
+No use of herbal medications or hormonal therapy.
+
+FAMILY AND SOCIAL HISTORY
+
+She is the second of four children in a monogamous family.
+Mother had uterine fibroids and underwent hysterectomy.
+She does not smoke cigarettes or consume alcohol.
+
+REVIEW OF SYSTEMS
+
+CNS:
+No headache or dizziness.
+
+CVS:
+Occasional palpitations and easy fatigability.
+
+RS:
+No cough or chest pain.
+
+GIT:
+As stated in the history of presenting complaint.
+No constipation or diarrhea.
+
+GUS:
+No urinary frequency or dysuria.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Young lady in painful distress.
+Afebrile (36.7°C).
+Marked conjunctival and palmar pallor.
+Not jaundiced.
+Not dehydrated.
+No peripheral lymphadenopathy.
+No pedal edema.
+
+Vital Signs:
+Pulse Rate: 104 bpm, regular, moderate volume.
+Blood Pressure: 110/70 mmHg.
+Respiratory Rate: 20 cycles/minute.
+SpO₂: 98% on room air.
+
+Abdominal Examination
+
+Inspection:
+Abdomen flat and moves with respiration.
+No visible scars or dilated superficial veins.
+
+Palpation:
+Mild suprapubic tenderness.
+A firm, mobile, non-tender suprapubic mass palpable, approximately 12-week uterine size.
+
+Percussion:
+Dullness over the suprapubic mass.
+
+Auscultation:
+Normal bowel sounds.
+
+Pelvic Examination
+
+Speculum Examination:
+Normal-appearing cervix.
+No active vaginal bleeding.
+
+Bimanual Examination:
+Firmly enlarged irregular uterus.
+Fornices free.
+
+ASSESSMENT
+
+Symptomatic uterine fibroids (leiomyoma) with menorrhagia and secondary anemia.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Adenomyosis.
+2. Endometriosis.
+3. Pelvic inflammatory disease with pelvic adhesions.
+
+INITIAL INVESTIGATION PLAN
+
+Full Blood Count (FBC).
+Pelvic ultrasound scan.
+Urinalysis and urine microscopy.
+Serum pregnancy test (β-hCG).
+Blood grouping and cross-matching.
+
+INITIAL MANAGEMENT PLAN
+
+Admit for observation and pain control.
+IV Pentazocine 30 mg stat.
+Transition to Tab Mefenamic acid 500 mg tds.
+Commence Tab Tranexamic acid 500 mg tds if active bleeding persists.
+Normal Saline 1 L intravenously over 8 hours.
+Commence oral Ferrous Sulphate and Folic acid if PCV is above 30%; consider blood transfusion if PCV is below 24% or patient is symptomatic.
+Counsel patient regarding diagnosis and definitive treatment options including myomectomy and medical therapy with GnRH analogues.
+Review by the Gynaecology team.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-02',
+  title: 'Latent Phase of Labour',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Labour Ward',
+  condition: 'Latent Phase of Labour',
+  symptoms: [
+    'Intermittent lower abdominal pain',
+    'Mucoid blood-tinged vaginal discharge (show)',
+    'Uterine contractions',
+    'Term pregnancy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 29-year-old G2P1+0 at 39 weeks + 2 days gestation presenting with intermittent labour pains and show, consistent with the latent phase of labour with a singleton fetus in cephalic presentation.',
+  content: `LABOUR WARD
+
+PATIENT IDENTIFICATION
+
+Mrs. Funmilayo Adeleke is a 29-year-old married Yoruba woman from Akure, Ondo State. She is a Christian, a teacher by occupation, and has tertiary education.
+
+Obstetric Status:
+G2P1+0 (1 alive)
+
+OBSTETRIC DATES
+
+LMP: 12th February 2024
+EDD: 19th November 2024
+EGA: 39 weeks + 2 days
+
+PRESENTING COMPLAINTS
+
+Intermittent lower abdominal pain × 8 hours.
+Mucoid blood-tinged vaginal discharge (show) × 5 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until about 8 hours prior to presentation when she developed intermittent lower abdominal pain. The pain was gradual in onset, initially mild and cramp-like, radiating from the lower back to the anterior abdomen. Over the preceding few hours, the contractions became more frequent, occurring every 15–20 minutes and lasting approximately 20 seconds each.
+
+Five hours prior to presentation, she noticed a mucoid blood-tinged vaginal discharge (show). There was no history of sudden gush of liquor, persistent vaginal fluid leakage, or active vaginal bleeding. Fetal movements have remained normal and well perceived.
+
+There is no associated fever, headache, blurring of vision, epigastric pain, or reduced fetal movements.
+
+HISTORY OF INDEX PREGNANCY
+
+She is booked for antenatal care at the State Specialist Hospital and has attended eight antenatal clinic visits.
+
+The pregnancy has been uneventful.
+
+She received two doses of Tetanus Toxoid.
+
+She has been compliant with routine antenatal medications including Fefol and Calcium.
+
+Booking PCV was 34%.
+
+Retroviral screening and HBsAg were negative.
+
+Blood group is O Rh positive.
+
+Genotype is AA.
+
+Obstetric ultrasound scan performed at 36 weeks showed a singleton live fetus in cephalic presentation with adequate liquor volume.
+
+PAST OBSTETRIC HISTORY
+
+2021:
+Booked pregnancy.
+Delivered a live male infant at 40 weeks gestation via spontaneous vaginal delivery at a General Hospital.
+Birth weight was 3.2 kg.
+There were no antenatal, intrapartum, or postpartum complications.
+Child is alive and well.
+
+GYNAECOLOGICAL HISTORY
+
+Menarche occurred at 13 years.
+
+Menstrual cycle was regular (28-day cycle) with menstrual flow lasting 4–5 days.
+
+No history of contraceptive use.
+
+No previous gynaecological surgeries.
+
+PAST MEDICAL AND SURGICAL HISTORY
+
+No known history of hypertension, diabetes mellitus, asthma, epilepsy, or sickle cell disease.
+
+No previous blood transfusions.
+
+No previous surgeries.
+
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+She is in a monogamous marriage.
+
+Her husband is a civil servant.
+
+She does not smoke cigarettes or consume alcohol.
+
+There is a family history of twinning in the maternal lineage.
+
+PHYSICAL EXAMINATION
+
+General Examination
+
+Adult woman, calm and comfortable.
+
+Not in respiratory distress.
+
+Not in obvious painful distress between contractions.
+
+Not pale.
+
+Anicteric.
+
+No pedal edema.
+
+Vital Signs
+
+Pulse Rate: 84 bpm.
+
+Blood Pressure: 110/70 mmHg.
+
+Respiratory Rate: 18 cycles/minute.
+
+Temperature: 36.6°C.
+
+ABDOMINAL EXAMINATION
+
+Inspection
+
+Gravid abdomen moving with respiration.
+
+Striae gravidarum and linea nigra present.
+
+No previous abdominal scars.
+
+Palpation
+
+Symphysio-fundal height: 38 cm, corresponding with gestational age.
+
+Longitudinal lie.
+
+Cephalic presentation.
+
+Five-fifths of the fetal head palpable per abdomen.
+
+Uterine contractions: Two contractions in 10 minutes, each lasting approximately 20 seconds, mild intensity.
+
+Auscultation
+
+Fetal Heart Rate: 142 bpm, regular.
+
+PELVIC EXAMINATION
+
+Vulva and vagina appear normal.
+
+Cervix is central, soft, 2 cm dilated and 50% effaced.
+
+Membranes are intact.
+
+Presenting part is vertex at station -3.
+
+Pelvis appears clinically adequate for spontaneous vaginal delivery.
+
+SUMMARY
+
+A 29-year-old G2P1+0 woman at 39 weeks + 2 days gestation presenting with an 8-hour history of intermittent labour pains and a 5-hour history of show. Examination revealed a stable mother with mild uterine contractions, intact membranes, a singleton fetus in cephalic presentation, and a cervix that is 2 cm dilated and 50% effaced.
+
+ASSESSMENT
+
+G2P1+0 at 39 weeks + 2 days gestation in the latent phase of labour with a singleton fetus in cephalic presentation.
+
+DIFFERENTIAL DIAGNOSES
+
+1. False labour.
+2. Braxton Hicks contractions.
+
+INITIAL INVESTIGATION PLAN
+
+Urinalysis to assess for proteinuria and glycosuria.
+
+Bedside Packed Cell Volume (PCV).
+
+Continue monitoring fetal heart rate and uterine contractions.
+
+INITIAL MANAGEMENT PLAN
+
+Admit into the labour observation ward.
+
+Encourage ambulation as tolerated.
+
+Allow light diet and oral fluids.
+
+Encourage regular bladder emptying.
+
+Provide reassurance and emotional support.
+
+Monitor maternal pulse rate and blood pressure 4-hourly.
+
+Monitor fetal heart rate 4-hourly or more frequently as labour progresses.
+
+Repeat vaginal examination after 4 hours to assess cervical dilatation and labour progress.
+
+Commence partograph documentation once the patient enters the active phase of labour (cervical dilatation ≥4 cm).
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'ob-02',
   title: 'Symptomatic Uterine Fibroids with Severe Anemia',
@@ -22133,6 +23971,1316 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-01',
+  title: 'Multiple Soft Tissue Injuries Following Road Traffic Accident',
+  specialty: 'Surgery',
+  subSpecialty: 'Trauma and Emergency Surgery',
+  condition: 'Road Traffic Accident with Multiple Lacerations and Abrasions',
+  symptoms: [
+    'Pain following road traffic accident',
+    'Multiple skin lacerations',
+    'Multiple skin abrasions',
+    'Generalized body pain',
+    'Right forearm pain',
+    'Bilateral knee pain'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 27-year-old male civil engineer presenting after a road traffic accident with multiple contaminated lacerations and abrasions without evidence of head injury, fracture, or internal organ injury.',
+  content: `TRAUMA AND EMERGENCY UNIT
+
+PATIENT IDENTIFICATION
+
+A 27-year-old male civil engineer who resides in Abeokuta, Ogun State. He is Yoruba, Christian, and single.
+
+Informant: Patient (Reliable)
+
+PRESENTING COMPLAINTS
+
+Pain following road traffic accident × 2 hours.
+
+Multiple body cuts × 2 hours.
+
+Multiple skin abrasions × 2 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about 2 hours prior to presentation when he was involved in a road traffic accident. He was the restrained driver of a saloon car that had a head-on collision with another vehicle while attempting to avoid a motorcycle.
+
+The airbags deployed and he was able to exit the vehicle with assistance from bystanders.
+
+Immediately following the accident, he sustained multiple cuts and abrasions involving the forehead, right forearm, both knees, and left leg. He also developed generalized body pain, worse over the right upper limb and both lower limbs.
+
+There was no loss of consciousness, seizure activity, vomiting, or amnesia.
+
+There was no bleeding from the ears, nose, or mouth.
+
+He denies neck pain, back pain, limb weakness, chest pain, difficulty breathing, abdominal pain, or haematuria.
+
+The wounds bled immediately after the accident but bleeding was controlled with direct pressure before arrival.
+
+He was brought directly to the Emergency Department and has not received prior medical treatment.
+
+REVIEW OF SYSTEMS
+
+General:
+Generalized body pain.
+No fever.
+No dizziness.
+
+Skin:
+Multiple lacerations.
+Multiple abrasions.
+Mild bleeding from wounds.
+
+Neurological:
+No headache.
+No loss of consciousness.
+No seizures.
+No limb weakness.
+No visual disturbance.
+
+Musculoskeletal:
+Pain over right forearm.
+Pain over both knees.
+No obvious deformity.
+Able to move all limbs.
+
+Respiratory:
+No cough.
+No chest pain.
+No shortness of breath.
+
+Cardiovascular:
+No palpitations.
+No syncope.
+
+Gastrointestinal:
+No abdominal pain.
+No vomiting.
+
+Genitourinary:
+No haematuria.
+No dysuria.
+
+PAST MEDICAL HISTORY
+
+No known history of hypertension, diabetes mellitus, epilepsy, bleeding disorders, or other chronic illnesses.
+
+PAST SURGICAL HISTORY
+
+No significant past surgical history.
+
+DRUG HISTORY
+
+Not on any regular medications.
+
+No anticoagulant use.
+
+No known drug allergies.
+
+IMMUNIZATION HISTORY
+
+Completed childhood immunizations.
+
+Last tetanus booster was more than 10 years ago.
+
+FAMILY HISTORY
+
+No significant family history.
+
+SOCIAL HISTORY
+
+Lives alone.
+
+Non-smoker.
+
+Occasional alcohol consumption.
+
+No recreational drug use.
+
+PRIMARY SURVEY (ATLS)
+
+AIRWAY
+
+Airway patent.
+
+Patient speaking in complete sentences.
+
+No facial obstruction.
+
+No cervical tenderness.
+
+Cervical spine maintained in rigid collar until cleared clinically.
+
+BREATHING
+
+Respiratory effort adequate.
+
+Equal bilateral chest expansion.
+
+No respiratory distress.
+
+Breath sounds vesicular bilaterally.
+
+No chest wall tenderness.
+
+CIRCULATION
+
+Peripheral pulses palpable.
+
+No active major haemorrhage.
+
+Capillary refill time <2 seconds.
+
+Extremities warm.
+
+DISABILITY
+
+Glasgow Coma Scale: 15/15 (E4V5M6).
+
+Pupils 3 mm bilaterally, equal and reactive to light.
+
+No focal neurological deficit.
+
+EXPOSURE
+
+Multiple abrasions and lacerations noted.
+
+No other obvious injuries identified.
+
+Patient kept warm after examination.
+
+VITAL SIGNS
+
+Blood Pressure: 122/78 mmHg.
+
+Pulse Rate: 94 bpm, regular.
+
+Respiratory Rate: 18 cycles/minute.
+
+Temperature: 36.8°C.
+
+SpO₂: 99% on room air.
+
+Weight: 72 kg.
+
+SECONDARY SURVEY
+
+HEAD AND FACE
+
+A 4 cm superficial laceration over the right forehead with minimal bleeding.
+
+Multiple superficial facial abrasions.
+
+No scalp haematoma.
+
+No facial bone tenderness.
+
+No signs of basal skull fracture.
+
+NECK
+
+No tenderness.
+
+Full range of motion after cervical spine clearance.
+
+No swelling or crepitus.
+
+CHEST
+
+No bruising.
+
+No chest wall tenderness.
+
+Normal breath sounds.
+
+ABDOMEN
+
+Soft and non-tender.
+
+No guarding or rebound tenderness.
+
+No organomegaly.
+
+UPPER LIMBS
+
+A 5 cm laceration over the dorsal aspect of the right forearm extending into the subcutaneous tissue.
+
+Multiple abrasions over both forearms.
+
+No tendon exposure.
+
+No visible foreign body.
+
+Full range of movement of wrist and fingers.
+
+Distal pulses intact.
+
+Normal sensation.
+
+LOWER LIMBS
+
+Multiple abrasions over both knees and anterior aspect of the left leg.
+
+A 3 cm laceration over the left shin with minimal contamination by road debris.
+
+No limb deformity.
+
+No shortening or external rotation.
+
+Full active movement of hips, knees, and ankles.
+
+Peripheral pulses intact.
+
+Normal sensation.
+
+SPINE
+
+No spinal tenderness.
+
+No deformity.
+
+No step-offs.
+
+ASSESSMENT
+
+Multiple soft tissue injuries (lacerations and abrasions) following road traffic accident without clinical evidence of head injury, fractures, or internal organ injury.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Occult fractures of extremities.
+2. Tendon injury.
+3. Peripheral nerve injury.
+4. Retained foreign body within wounds.
+5. Early wound infection.
+
+INVESTIGATIONS
+
+Laboratory:
+
+Full Blood Count.
+
+Random Blood Glucose.
+
+Blood Group and Rhesus Factor if significant bleeding occurs.
+
+Serum Electrolytes, Urea and Creatinine if admission is anticipated.
+
+Imaging:
+
+X-ray right forearm (AP and lateral views) to exclude occult fracture or retained foreign body.
+
+X-ray both knees and left leg if bony tenderness develops.
+
+FAST ultrasound if abdominal injury is suspected.
+
+CT brain if neurological symptoms or signs develop.
+
+MANAGEMENT PLAN
+
+Initial Care:
+
+Continue ATLS protocol.
+
+Control bleeding with direct pressure.
+
+Elevate injured limbs where appropriate.
+
+WOUND MANAGEMENT:
+
+Administer adequate analgesia before wound care.
+
+Irrigate all wounds copiously with 1–2 litres of 0.9% Normal Saline.
+
+Remove visible dirt, gravel, and devitalized tissue.
+
+Clean surrounding skin with 10% Povidone-Iodine.
+
+Explore wounds for tendon injury, neurovascular injury, and retained foreign bodies.
+
+WOUND CLOSURE:
+
+Forehead laceration:
+Close with 5-0 nylon interrupted sutures.
+
+Right forearm laceration:
+Close with 4-0 nylon interrupted sutures after adequate irrigation.
+
+Left shin laceration:
+Close with 3-0 nylon interrupted sutures after debridement.
+
+Apply sterile non-adherent dressings.
+
+ANALGESIA:
+
+Tab Paracetamol 1 g orally 6-hourly as required (maximum 4 g/day).
+
+PLUS
+
+Tab Ibuprofen 400 mg orally 8-hourly after meals for 5 days if no contraindication.
+
+For severe pain:
+
+Inj. Diclofenac 75 mg IM stat.
+
+OR
+
+Inj. Tramadol 50–100 mg IV slowly 8-hourly as required.
+
+ANTIBIOTICS:
+
+Due to contaminated wounds:
+
+Inj. Co-amoxiclav 1.2 g IV stat.
+
+Then:
+
+Tab Amoxicillin-Clavulanate 625 mg orally 8-hourly for 5–7 days.
+
+If penicillin allergy:
+
+Tab Clindamycin 300 mg orally 6-hourly for 5–7 days.
+
+TETANUS PROPHYLAXIS:
+
+Tetanus Toxoid (Td) 0.5 mL IM stat.
+
+If immunization history is uncertain:
+
+Administer Human Tetanus Immunoglobulin (HTIG) 250 IU IM stat at a separate injection site in addition to Td vaccine.
+
+NURSING INSTRUCTIONS:
+
+Monitor vital signs 4-hourly while under observation.
+
+Observe wounds for bleeding, swelling, or infection.
+
+Perform regular neurovascular assessment of affected limbs.
+
+Keep dressings clean and dry.
+
+HEALTH EDUCATION:
+
+Explain nature of injuries and expected healing process.
+
+Keep dressings dry for the first 24–48 hours and change as instructed.
+
+Complete prescribed antibiotic course.
+
+Return immediately if increasing pain, redness, swelling, fever, pus discharge, numbness, or reduced limb movement occurs.
+
+Avoid strenuous use of affected limbs until healing is complete.
+
+FOLLOW-UP:
+
+Review at Surgical Dressing Clinic after 48 hours for wound inspection and dressing change.
+
+Suture removal:
+
+Face: 5–7 days.
+
+Upper limb: 7–10 days.
+
+Lower limb: 10–14 days.
+
+Earlier review if signs of wound infection or dehiscence develop.
+
+PROGNOSIS:
+
+Good. No evidence of major head injury, fracture, or internal organ injury. With appropriate wound care, tetanus prophylaxis, antibiotics, and follow-up, complete recovery is expected with minimal scarring.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-02',
+  title: 'Acute Alcohol-Induced Pancreatitis',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Acute Pancreatitis',
+  symptoms: [
+    'Severe epigastric pain',
+    'Vomiting',
+    'Abdominal distension',
+    'Back pain',
+    'Loss of appetite',
+    'Generalized weakness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 35-year-old male with a history of regular alcohol consumption presented with sudden severe epigastric pain radiating to the back, repeated vomiting and abdominal distension, consistent with a first episode of acute alcohol-induced pancreatitis.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 35-year-old married male sales representative from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
+
+PC:
+Severe upper abdominal pain × 10 hours
+Repeated vomiting × 8 hours
+Abdominal distension × 6 hours
+
+HPC:
+The patient was apparently well until about 10 hours prior to presentation when he developed sudden onset severe epigastric pain shortly after consuming a large quantity of alcohol at a social gathering. The pain is constant, deep, boring in nature, rated 10/10, and radiates straight through to the back. It is aggravated by lying flat and partially relieved by sitting up and leaning forward.
+
+Approximately 2 hours after the onset of pain, he developed repeated episodes of non-bloody, non-bilious vomiting containing recently ingested food. He has vomited about six times and has been unable to tolerate oral intake.
+
+He also complains of abdominal bloating and generalized weakness.
+
+There is no history of haematemesis.
+
+There is no diarrhoea.
+
+There is no constipation.
+
+There is no passage of black stools.
+
+There is no jaundice.
+
+He admits to regular alcohol consumption of approximately 8–10 bottles of beer weekly with occasional binge drinking. He denies previous episodes of pancreatitis but reports intermittent dyspepsia after heavy alcohol intake.
+
+There is no history of gallstones, recent abdominal trauma, hyperlipidaemia or recent endoscopic procedures.
+
+Review of Systems:
+
+General:
+Severe abdominal pain.
+Loss of appetite.
+Generalized weakness.
+No recent weight loss.
+
+Gastrointestinal:
+Severe epigastric pain radiating to the back.
+Persistent vomiting.
+Abdominal distension.
+No diarrhoea.
+No constipation.
+No haematemesis.
+No melaena.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Respiratory:
+Pain worsens with deep inspiration.
+No cough.
+No dyspnoea.
+
+Genitourinary:
+Reduced urine output since onset of illness.
+No dysuria.
+
+Neurological:
+No headache.
+No seizures.
+No confusion.
+
+Past Medical History:
+No diabetes mellitus.
+No hypertension.
+No chronic liver disease.
+No previous pancreatitis.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+No known drug allergies.
+
+Family History:
+No family history of pancreatic disease.
+
+Social History:
+Consumes alcohol regularly.
+Non-smoker.
+No recreational drug use.
+
+O/E:
+Young man.
+Conscious.
+Alert.
+Moderately ill-looking.
+Severe painful distress.
+Moderately dehydrated.
+No pallor.
+No jaundice.
+
+Vital Signs:
+BP: 104/68 mmHg
+PR: 112 bpm, regular
+RR: 24 cpm
+Temperature: 38.0°C
+SpO₂: 98% on room air
+Weight: 74 kg
+Height: 1.75 m
+BMI: 24.2 kg/m²
+
+Abdominal Examination:
+Abdomen mildly distended.
+Moves minimally with respiration because of pain.
+Marked epigastric tenderness.
+Mild guarding over the epigastrium.
+No rebound tenderness.
+No palpable masses.
+No hepatosplenomegaly.
+Bowel sounds reduced.
+No shifting dullness.
+No Grey Turner's sign.
+No Cullen's sign.
+
+Cardiovascular Examination:
+Tachycardia.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory Examination:
+Chest expands symmetrically.
+Normal vesicular breath sounds.
+No crepitations.
+
+Central Nervous System:
+Conscious.
+Alert.
+GCS 15/15.
+No focal neurological deficits.
+
+Assessment:
+Acute pancreatitis, likely alcohol-induced (first episode).
+
+Differential Diagnoses:
+Gallstone pancreatitis.
+Perforated peptic ulcer.
+Acute cholecystitis.
+Inferior wall myocardial infarction.
+Acute gastritis.
+Mesenteric ischaemia.
+
+Investigations:
+
+Laboratory:
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Liver Function Tests.
+Serum Amylase.
+Serum Lipase (preferred; expected >3 times the upper limit of normal).
+Random Blood Glucose.
+Fasting Lipid Profile.
+Serum Calcium.
+C-Reactive Protein.
+Arterial Blood Gas if clinically indicated.
+Coagulation Profile.
+Urinalysis.
+Blood cultures only if infection is suspected.
+
+Imaging:
+Abdominal Ultrasound.
+To assess for gallstones, biliary obstruction and pancreatic oedema.
+
+Contrast-enhanced CT Abdomen (preferably after 48–72 hours if diagnosis is uncertain or severe disease/complications are suspected).
+
+Chest X-ray if pleural effusion or respiratory symptoms are present.
+
+ECG to exclude myocardial infarction.
+
+Severity Assessment:
+Calculate:
+BISAP Score.
+Modified Glasgow (Imrie) Score.
+APACHE II Score (if admitted to ICU).
+
+Monitor for evidence of organ dysfunction and pancreatic necrosis.
+
+Management:
+
+Admission:
+Admit under the General Surgery team.
+Keep Nil Per Os (NPO) initially.
+Insert two large-bore intravenous cannulae.
+Monitor urine output with a urinary catheter if severe disease is suspected.
+
+Intravenous Fluid Resuscitation:
+Ringer's Lactate is the preferred crystalloid.
+
+Administer:
+Ringer's Lactate 1 litre IV over the first hour, followed by 250–300 mL/hour, adjusting according to blood pressure, urine output (>0.5 mL/kg/hour), haematocrit, renal function and overall clinical response.
+
+Avoid both under-resuscitation and fluid overload.
+
+Analgesia:
+Moderate to Severe Pain:
+Inj. Morphine 0.1 mg/kg IV slowly, titrated to pain relief.
+
+For 74 kg:
+7 mg IV slowly, repeated as required with close monitoring.
+
+Alternative:
+Inj. Tramadol 100 mg IV every 8 hours as required.
+
+Additional Analgesia:
+Inj. Paracetamol 1 g IV every 6 hours (maximum 4 g/day).
+
+Antiemetics:
+Inj. Ondansetron 4 mg IV every 8 hours as required.
+
+Alternative:
+Inj. Metoclopramide 10 mg IV every 8 hours, provided there is no bowel obstruction.
+
+Gastric Protection:
+Inj. Pantoprazole 40 mg IV once daily.
+
+Nutrition:
+Commence early enteral feeding (oral low-fat diet or nasogastric feeding if necessary) once abdominal pain improves and vomiting resolves, usually within 24–48 hours.
+
+Avoid prolonged fasting where possible.
+
+Total parenteral nutrition should be reserved for patients in whom enteral feeding is not feasible.
+
+Antibiotics:
+Routine prophylactic antibiotics are NOT indicated in uncomplicated acute pancreatitis.
+
+Administer antibiotics only if there is evidence of infected pancreatic necrosis, cholangitis, pneumonia, urinary tract infection or another confirmed bacterial infection.
+
+If infected pancreatic necrosis is suspected:
+Inj. Meropenem 1 g IV every 8 hours (or according to local antimicrobial policy and culture results).
+
+Definitive Management:
+
+If gallstones are identified as the cause:
+Early laparoscopic cholecystectomy after recovery during the same admission where feasible.
+
+If common bile duct obstruction or cholangitis is present:
+Urgent ERCP followed by definitive cholecystectomy.
+
+For alcohol-induced pancreatitis:
+Provide alcohol cessation counselling and referral for addiction support where appropriate.
+
+Nursing Instructions:
+Monitor vital signs every 2–4 hours.
+Maintain strict input and output chart.
+Monitor urine output hourly if catheterized.
+Assess pain regularly.
+Observe for signs of shock, respiratory compromise, acute kidney injury and sepsis.
+
+Health Education:
+Explain that acute pancreatitis is inflammation of the pancreas and, in this patient, is most likely related to excessive alcohol intake.
+
+Strongly advise complete abstinence from alcohol to reduce the risk of recurrent attacks and progression to chronic pancreatitis.
+
+Explain warning signs requiring urgent intervention, including worsening abdominal pain, persistent vomiting, jaundice, difficulty breathing, reduced urine output or confusion.
+
+Advise adherence to follow-up appointments and dietary recommendations.
+
+Follow-up:
+Daily surgical review while admitted.
+Repeat laboratory investigations according to clinical progress.
+Repeat imaging if complications such as pancreatic necrosis, pseudocyst or abscess are suspected.
+Review in the General Surgery Clinic 2 weeks after discharge.
+Refer to a Gastroenterologist if recurrent episodes occur or complications develop.
+
+Prognosis:
+Good. This patient has features of mild acute pancreatitis without evidence of organ failure or local complications. With prompt fluid resuscitation, effective analgesia, early enteral nutrition and complete alcohol abstinence, full recovery is expected.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-03',
+  title: 'Acute Calculous Cholecystitis',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Acute Cholecystitis',
+  symptoms: [
+    'Right upper abdominal pain',
+    'Fever',
+    'Nausea and vomiting',
+    'Loss of appetite',
+    'Right shoulder pain',
+    'Positive Murphy\'s sign'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-14',
+  summary: 'A 43-year-old woman with known cholelithiasis presented with severe right upper quadrant pain following a fatty meal, fever and vomiting, consistent with acute calculous cholecystitis secondary to cystic duct obstruction.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 43-year-old married female trader from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
+
+PC:
+Severe right upper abdominal pain × 18 hours
+Fever × 12 hours
+Nausea and vomiting × 12 hours
+
+HPC:
+The patient was apparently well until about 18 hours prior to presentation when she developed sudden severe pain in the right upper quadrant of the abdomen shortly after eating a fatty meal. The pain is constant, sharp and severe (9/10), with radiation to the right shoulder and inferior angle of the right scapula. It has progressively worsened and is aggravated by deep inspiration and movement. There is no significant relief with over-the-counter analgesics.
+
+Approximately 6 hours after the onset of pain, she developed nausea followed by three episodes of non-projectile, non-bilious vomiting containing recently ingested food. She has since been unable to tolerate oral intake.
+
+She also developed fever associated with chills but no rigors.
+
+She reports having had three previous episodes of similar but milder right upper abdominal pain over the past year, each lasting a few hours and resolving spontaneously after taking analgesics. She was told during a previous hospital visit that she had gallstones but declined surgery.
+
+She denies yellowing of the eyes or skin.
+
+There is no passage of dark urine.
+
+There are no pale stools.
+
+There is no generalized abdominal pain.
+
+There is no abdominal distension.
+
+She has no history of peptic ulcer disease or previous abdominal surgery.
+
+Review of Systems:
+
+General:
+Fever.
+Loss of appetite.
+Malaise.
+
+Gastrointestinal:
+Right upper quadrant pain.
+Nausea.
+Vomiting.
+No diarrhoea.
+No constipation.
+No jaundice.
+No haematemesis.
+No melaena.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Respiratory:
+Pain worsens with deep inspiration.
+No cough.
+No shortness of breath.
+
+Genitourinary:
+No dysuria.
+No urinary frequency.
+
+Neurological:
+No headache.
+No loss of consciousness.
+
+Past Medical History:
+Known cholelithiasis diagnosed one year ago.
+No hypertension.
+No diabetes mellitus.
+No chronic liver disease.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+Occasional Diclofenac for pain.
+No known drug allergies.
+
+Gynaecological History:
+Gravida 3 Para 3+0 (3 alive).
+Regular menstrual cycles.
+LMP: 18/06/2026.
+No possibility of pregnancy.
+
+Family History:
+No family history of gallstone disease.
+
+Social History:
+Lives with husband and children.
+Consumes high-fat meals frequently.
+Non-smoker.
+Occasional alcohol consumption.
+
+O/E:
+Middle-aged woman.
+Conscious.
+Alert.
+Moderately ill-looking.
+In painful distress.
+Mild dehydration.
+No pallor.
+No jaundice.
+
+Vital Signs:
+BP: 124/78 mmHg
+PR: 106 bpm, regular
+RR: 22 cpm
+Temperature: 38.4°C
+SpO₂: 98% on room air
+Weight: 78 kg
+Height: 1.64 m
+BMI: 29.0 kg/m²
+
+Abdominal Examination:
+Abdomen moves with respiration.
+No abdominal distension.
+Marked tenderness in the right hypochondrium.
+Localized guarding in the right upper quadrant.
+Murphy's sign positive, with inspiratory arrest on palpation of the right subcostal region.
+No rebound tenderness.
+No palpable gallbladder.
+No hepatosplenomegaly.
+Normal bowel sounds.
+No ascites.
+
+Cardiovascular Examination:
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory Examination:
+Chest expands symmetrically.
+Normal vesicular breath sounds.
+No crepitations.
+
+Central Nervous System:
+Conscious.
+Alert.
+GCS 15/15.
+No focal neurological deficits.
+
+Assessment:
+Acute calculous cholecystitis secondary to gallstone obstruction of the cystic duct.
+
+Differential Diagnoses:
+Biliary colic.
+Acute cholangitis.
+Gallstone pancreatitis.
+Acute hepatitis.
+Perforated peptic ulcer.
+Right lower lobe pneumonia.
+Acute pyelonephritis.
+
+Investigations:
+
+Laboratory:
+Full Blood Count (expected leukocytosis with neutrophilia).
+Serum Electrolytes, Urea and Creatinine.
+Liver Function Tests (bilirubin, AST, ALT, ALP, GGT).
+Serum Amylase and Lipase.
+C-Reactive Protein.
+Random Blood Glucose.
+Coagulation Profile.
+Blood Group and Cross-match if surgery is anticipated.
+Urinalysis.
+Urine pregnancy test if pregnancy status is uncertain.
+Blood cultures if septic features are present.
+
+Imaging:
+Abdominal Ultrasound (First-line Investigation).
+
+Expected findings:
+Gallstones.
+Thickened gallbladder wall (>3 mm).
+Pericholecystic fluid.
+Distended gallbladder.
+Positive sonographic Murphy's sign.
+
+If ultrasound is inconclusive:
+Contrast-enhanced CT abdomen.
+
+MRCP if common bile duct stones are suspected.
+
+HIDA scan where available if diagnostic uncertainty persists.
+
+Management:
+
+Admission:
+Admit under the General Surgery team.
+Keep Nil Per Os (NPO).
+Monitor vital signs closely.
+
+Intravenous Fluids:
+0.9% Normal Saline 1 litre IV over 2 hours, followed by 0.9% Normal Saline alternating with 5% Dextrose at 100–125 mL/hour, adjusting according to hydration status, urine output and electrolyte results.
+
+Insert a urinary catheter only if strict urine output monitoring is required.
+
+Analgesia:
+First-Line:
+Inj. Paracetamol 1 g IV every 6 hours.
+
+Additional Pain Control:
+Inj. Diclofenac 75 mg IM stat, then 75 mg IM every 12 hours as required, provided there are no contraindications.
+
+If pain remains severe:
+Inj. Tramadol 100 mg IV slowly every 8 hours as required.
+
+or
+
+Inj. Morphine 0.1 mg/kg IV slowly, titrated to effect with monitoring of respiratory status.
+
+Antiemetics:
+Inj. Ondansetron 4 mg IV every 8 hours as required.
+
+Alternative:
+Inj. Metoclopramide 10 mg IV every 8 hours, unless contraindicated.
+
+Antibiotics:
+Empiric intravenous antibiotics should cover Gram-negative enteric organisms and anaerobes.
+
+Option 1:
+Inj. Ceftriaxone 2 g IV once daily
+
+PLUS
+
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+Option 2:
+Inj. Ampicillin-Sulbactam 3 g IV every 6 hours.
+
+Option 3 (Severe Infection):
+Inj. Piperacillin-Tazobactam 4.5 g IV every 8 hours.
+
+Modify antibiotics according to culture results and local antimicrobial policy.
+
+Definitive Management:
+Arrange early laparoscopic cholecystectomy, preferably within 72 hours of symptom onset if the patient is fit for surgery.
+
+If laparoscopic surgery is unavailable or contraindicated:
+Open cholecystectomy.
+
+If the patient is critically ill or unfit for surgery:
+Percutaneous cholecystostomy with interval cholecystectomy after stabilization.
+
+Nursing Instructions:
+Monitor temperature, pulse, blood pressure and respiratory rate every 4 hours.
+Maintain strict fluid input and output chart.
+Observe for worsening abdominal pain, jaundice, hypotension or signs of generalized peritonitis.
+Maintain NPO status until reviewed by the surgical team.
+
+Health Education:
+Explain that acute cholecystitis results from obstruction of the cystic duct by gallstones, leading to inflammation and, in some cases, infection of the gallbladder.
+
+Inform the patient that surgery is the definitive treatment and helps prevent recurrent attacks and complications such as gallbladder perforation, empyema, gangrene, cholangitis and gallstone pancreatitis.
+
+Advise avoidance of fatty meals until definitive treatment.
+
+Encourage adherence to follow-up and postoperative instructions.
+
+Follow-up:
+Daily review by the General Surgery team while admitted.
+Review postoperative histology if cholecystectomy is performed.
+Outpatient surgical clinic review 1–2 weeks after discharge.
+
+Prognosis:
+Good. With prompt intravenous fluids, antibiotics, analgesia and early laparoscopic cholecystectomy, most patients recover completely with a low risk of recurrence or complications.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-01',
+  title: 'Perforated Duodenal Ulcer with Generalized Peritonitis',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Perforated Peptic Ulcer',
+  symptoms: [
+    'Sudden severe upper abdominal pain',
+    'Abdominal distension',
+    'Persistent vomiting',
+    'Generalized abdominal pain',
+    'Obstipation',
+    'Generalized weakness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-11',
+  summary: 'A 46-year-old commercial driver with poorly controlled peptic ulcer disease presented with sudden severe epigastric pain that rapidly became generalized, abdominal distension and persistent vomiting, consistent with a perforated duodenal ulcer complicated by generalized peritonitis and early hypovolaemic shock.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 46-year-old married male commercial driver from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
+
+PC:
+Sudden severe upper abdominal pain × 8 hours
+Abdominal distension × 6 hours
+Persistent vomiting × 5 hours
+
+HPC:
+The patient is a known case of acid peptic disease diagnosed about 3 years ago. He admits poor compliance with anti-ulcer medications and frequently purchases non-steroidal anti-inflammatory drugs (NSAIDs) over the counter for chronic low back pain. He also consumes alcohol occasionally and smokes about one pack of cigarettes daily.
+
+He was apparently well until about 8 hours prior to presentation when he suddenly developed severe epigastric pain while eating dinner. The pain was abrupt in onset, described as "knife-like," initially confined to the epigastrium but rapidly became generalized throughout the abdomen. It is constant, severe (10/10), aggravated by movement, coughing and deep breathing, with no relieving factors.
+
+Approximately 2 hours later, he developed progressive abdominal distension and three episodes of non-bloody, non-bilious vomiting containing recently ingested food.
+
+He has been unable to tolerate oral intake.
+
+He complains of generalized weakness and dizziness.
+
+There is no diarrhoea.
+
+He reports passing a normal stool the previous day but has not passed stool or flatus since the onset of pain.
+
+He gives a history of recurrent epigastric burning pain over the past several months, usually occurring when hungry and relieved temporarily by food or antacids.
+
+There is no history of haematemesis or melaena during this episode.
+
+Review of Systems:
+
+General:
+Severe abdominal pain.
+Generalized weakness.
+Loss of appetite.
+No documented fever.
+
+Gastrointestinal:
+Generalized abdominal pain.
+Persistent vomiting.
+Abdominal distension.
+Obstipation since onset.
+No diarrhoea.
+No haematemesis.
+No melaena.
+
+Cardiovascular:
+Dizziness.
+No chest pain.
+No palpitations.
+
+Respiratory:
+Pain aggravated by deep inspiration.
+No cough.
+
+Genitourinary:
+Reduced urine output.
+No dysuria.
+
+Neurological:
+No loss of consciousness.
+No seizures.
+
+Past Medical History:
+Known acid peptic disease.
+No hypertension.
+No diabetes mellitus.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+Irregular use of Omeprazole.
+Frequent Diclofenac and Ibuprofen use without prescription.
+No known drug allergies.
+
+Family History:
+Nil contributory.
+
+Social History:
+Commercial driver.
+Smokes approximately one pack of cigarettes daily.
+Consumes alcohol occasionally.
+Irregular meals due to work schedule.
+
+O/E:
+Middle-aged man.
+Conscious.
+Alert.
+Acutely ill-looking.
+Severe painful distress.
+Moderately dehydrated.
+Cold extremities.
+Mild pallor.
+No jaundice.
+
+Vital Signs:
+BP: 92/58 mmHg
+PR: 122 bpm, regular, thready
+RR: 30 cpm
+Temperature: 37.8°C
+SpO₂: 97% on room air
+Weight: 70 kg
+
+Abdominal Examination:
+Patient lies motionless because movement worsens the pain.
+Abdomen markedly distended.
+Generalized tenderness with maximal tenderness in the epigastrium.
+Generalized involuntary guarding.
+Board-like rigidity.
+Marked rebound tenderness.
+Bowel sounds absent.
+Liver dullness obliterated on percussion.
+No palpable masses.
+
+Digital Rectal Examination:
+Empty rectum.
+No blood.
+
+Cardiovascular Examination:
+Tachycardia.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory Examination:
+Reduced basal air entry secondary to splinting.
+No crepitations.
+
+Central Nervous System:
+GCS 15/15.
+No focal neurological deficits.
+
+Assessment:
+Perforated duodenal ulcer with generalized peritonitis and early hypovolaemic shock.
+
+Differential Diagnoses:
+Perforated gastric ulcer.
+Perforated typhoid ileitis.
+Acute pancreatitis.
+Acute mesenteric ischaemia.
+Perforated appendix.
+Small bowel perforation.
+
+Investigations:
+
+Laboratory:
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Random Blood Sugar.
+Liver Function Tests.
+Serum Amylase/Lipase.
+Arterial Blood Gas.
+Serum Lactate.
+Coagulation Profile.
+Blood Group and Cross-match (4 units).
+Urinalysis.
+Blood cultures if septic.
+
+Imaging:
+
+Erect Chest X-ray.
+Expected finding:
+Free sub-diaphragmatic air (pneumoperitoneum).
+
+Abdominal X-ray:
+May demonstrate free intraperitoneal air.
+
+Contrast-enhanced CT Abdomen:
+If diagnosis is uncertain and the patient is haemodynamically stable.
+
+Management:
+
+Resuscitation:
+Admit under the General Surgery team.
+Keep Nil Per Os (NPO).
+Insert two wide-bore (16G) intravenous cannulae.
+Administer high-flow oxygen at 6–10 L/min via face mask.
+Insert a nasogastric tube for gastric decompression.
+Insert a Foley catheter for hourly urine output monitoring.
+
+Intravenous Fluids:
+Ringer's Lactate 1 litre IV over 30–60 minutes, followed by further boluses according to blood pressure, urine output and haemodynamic response.
+
+Continue maintenance fluids after initial resuscitation, aiming for urine output >0.5 mL/kg/hour.
+
+Analgesia:
+Inj. Morphine 5–7 mg IV slowly, titrated to pain relief with monitoring.
+
+Plus
+
+Inj. Paracetamol 1 g IV every 6 hours.
+
+Proton Pump Inhibitor:
+Inj. Pantoprazole 80 mg IV stat, followed by Inj. Pantoprazole 40 mg IV every 12 hours.
+
+Alternative:
+Inj. Omeprazole 80 mg IV stat, then 8 mg/hour continuous infusion where available.
+
+Antibiotics:
+Commence immediately after obtaining cultures where feasible.
+
+Inj. Ceftriaxone 2 g IV once daily
+
+PLUS
+
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+If severe sepsis or delayed presentation:
+Inj. Piperacillin-Tazobactam 4.5 g IV every 8 hours.
+
+Modify therapy based on intra-operative cultures and local antimicrobial guidelines.
+
+Definitive Management:
+Urgent exploratory laparotomy after adequate resuscitation.
+
+Expected operative findings:
+Perforated anterior duodenal ulcer.
+Generalized biliary contamination.
+Fibrinous exudates.
+
+Perform:
+Thorough peritoneal lavage with warm normal saline.
+Graham omental patch repair of the perforation.
+Placement of an intra-abdominal drain where indicated.
+
+Obtain biopsy if a gastric ulcer is identified to exclude malignancy.
+
+Postoperative Care:
+Continue intravenous fluids.
+Continue intravenous antibiotics for 5–7 days or as clinically indicated.
+Continue proton pump inhibitor therapy.
+Commence enteral feeding when bowel function returns.
+
+Test for Helicobacter pylori after recovery (urea breath test or stool antigen test where available).
+
+If positive, commence eradication therapy, for example:
+Tab Omeprazole 20 mg orally twice daily.
+Tab Amoxicillin 1 g orally twice daily.
+Tab Clarithromycin 500 mg orally twice daily.
+
+Continue for 14 days in accordance with local resistance patterns.
+
+Nursing Instructions:
+Monitor vital signs every 30 minutes until stable, then every 4 hours.
+Maintain strict input and output chart.
+Observe abdominal findings.
+Monitor nasogastric tube output.
+Monitor surgical drain output if inserted.
+
+Health Education:
+Explain that the ulcer has perforated the wall of the stomach or duodenum, allowing leakage of gastrointestinal contents into the abdominal cavity, resulting in life-threatening peritonitis.
+
+Advise strict avoidance of NSAIDs unless prescribed.
+
+Strongly counsel smoking cessation and abstinence from alcohol.
+
+Stress adherence to ulcer medications and completion of Helicobacter pylori eradication therapy if indicated.
+
+Encourage regular follow-up and, where available, upper gastrointestinal endoscopy after recovery.
+
+Follow-up:
+Daily surgical review while admitted.
+Remove the nasogastric tube when bowel function returns.
+Outpatient review 2 weeks after discharge for wound assessment.
+Review histology if gastric ulcer biopsy was obtained.
+Arrange follow-up endoscopy in 6–8 weeks for gastric ulcers to confirm healing and exclude malignancy.
+
+Prognosis:
+Guarded initially because perforated peptic ulcer is a surgical emergency. With prompt resuscitation, early surgery, broad-spectrum antibiotics and appropriate postoperative care, the prognosis is generally good. Delayed presentation significantly increases the risk of septic shock, multi-organ failure and death.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-01',
   title: 'Gustilo-Anderson Grade II Open Fracture of the Left Tibia and Fibula',

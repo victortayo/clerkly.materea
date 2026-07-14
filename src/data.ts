@@ -9006,6 +9006,421 @@ Not yet available
 
   // Internal Medicine
   {
+    id: 'im-02',
+    title: 'Hypertension Follow-Up with Bilateral Pedal Oedema',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Hypertension Clinic',
+    condition: 'Hypertension with Peripheral Oedema',
+    symptoms: [
+      'Bilateral leg swelling',
+      'Hypertension',
+      'Pedal oedema'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: '50-year-old man with known hypertension presenting with bilateral pedal oedema, likely amlodipine-induced, with suboptimally controlled blood pressure and need to exclude cardiac or renal complications.',
+    content: `
+  HYPERTENSION CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 50-year-old male, known hypertensive patient on regular follow-up.
+  
+  PC:
+  Bilateral leg swelling.
+  
+  HPC:
+  Patient was apparently stable until about 2 weeks prior to presentation when he noticed swelling of both lower limbs.
+  
+  The swelling initially started around the ankles and has gradually increased. It is worse towards the evening and improves slightly with overnight rest.
+  
+  There is no associated pain, redness, or trauma to the affected limbs.
+  
+  There is no history of chest pain, difficulty breathing, orthopnoea, paroxysmal nocturnal dyspnoea, palpitations, reduced exercise tolerance, abdominal swelling, or reduced urine output. No history of frothy urine.
+  
+  There is no history of headache, dizziness, blurring of vision, seizures, weakness of any limb, or speech disturbance.
+  
+  There has been no recent hypertensive crisis or hospital admission.
+  
+  Patient reports good compliance with prescribed antihypertensive medications and adherence to dietary and lifestyle modifications.
+  
+  Appetite and sleep are satisfactory.
+  
+  O/E:
+  Middle-aged man, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+  
+  Bilateral pitting pedal oedema up to the mid-shin.
+  
+  Weight: 82 kg
+  
+  PR: 84 bpm, regular, full volume
+  BP: 146/90 mmHg
+  RR: 20 cpm
+  Temperature: 36.8°C
+  SpO₂: 97% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No basal crepitations.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  No ascites.
+  
+  CNS:
+  Conscious and alert.
+  Oriented in time, place, and person.
+  No focal neurological deficit.
+  
+  ASSESSMENT:
+  1. Known hypertensive patient with bilateral pedal oedema, likely amlodipine-induced oedema.
+  2. Hypertension, suboptimally controlled.
+  3. To rule out underlying cardiac or renal complications.
+  
+  PLAN:
+  - Continue Tab Losartan 50 mg daily.
+  - Continue Tab Hydrochlorothiazide 25 mg daily.
+  - Withhold Tab Amlodipine 10 mg daily due to possible drug-related pedal oedema and review response.
+  - Consider addition of alternative antihypertensive agent if blood pressure remains uncontrolled after resolution of oedema.
+  
+  Investigations:
+  - Serum electrolytes, urea and creatinine.
+  - Urinalysis.
+  - Urine albumin-creatinine ratio (if available).
+  - Fasting lipid profile.
+  - Fasting blood glucose/HbA1c.
+  - ECG.
+  - Echocardiography to assess cardiac function if indicated.
+  
+  Counselling:
+  - Encourage low salt diet.
+  - Encourage weight reduction.
+  - Encourage regular moderate physical activity as tolerated.
+  - Advise avoidance of tobacco and excessive alcohol intake.
+  - Encourage home blood pressure monitoring and documentation.
+  
+  Follow-Up:
+  Review in 2–4 weeks with investigation results or earlier if worsening leg swelling, difficulty breathing, chest pain, or reduced urine output.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-03',
+    title: 'Uncontrolled Hypertension on Monotherapy Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Hypertension Clinic',
+    condition: 'Hypertension',
+    symptoms: [
+      'Poor blood pressure control',
+      'Hypertension',
+      'Routine follow-up'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: '52-year-old man with recently diagnosed hypertension presenting with persistently elevated blood pressure readings despite compliance with amlodipine monotherapy, requiring treatment intensification.',
+    content: `
+  HYPERTENSION CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 52-year-old male, known hypertensive patient on regular follow-up.
+  
+  PC:
+  Poor blood pressure control on current medication.
+  
+  HPC:
+  Patient reports persistently elevated blood pressure readings during home monitoring despite good compliance with prescribed medications.
+  
+  He was diagnosed with hypertension 6 months ago and has been on Tab Amlodipine 10 mg daily.
+  
+  There is no history of headache, dizziness, blurring of vision, chest pain, difficulty breathing, palpitations, orthopnoea, paroxysmal nocturnal dyspnoea, leg swelling, reduced urine output, or focal neurological symptoms.
+  
+  There has been no recent hospital admission or hypertensive emergency.
+  
+  Patient reports good medication compliance. He has reduced salt intake but admits to limited physical activity.
+  
+  Appetite and sleep are satisfactory.
+  
+  O/E:
+  Middle-aged man, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated, with no pedal oedema.
+  
+  Weight: 84 kg
+  
+  PR: 80 bpm, regular, full volume
+  BP: 162/96 mmHg
+  RR: 18 cpm
+  Temperature: 36.7°C
+  SpO₂: 98% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  
+  CNS:
+  Conscious and alert.
+  Oriented in time, place, and person.
+  No focal neurological deficit.
+  
+  ASSESSMENT:
+  1. Known hypertensive patient with suboptimal blood pressure control on monotherapy.
+  2. Uncontrolled hypertension requiring treatment intensification.
+  
+  PLAN:
+  - Continue Tab Amlodipine 10 mg daily.
+  - Add Tab Losartan 50 mg daily.
+  - Encourage compliance with medications and proper timing of medication intake.
+  - Encourage home blood pressure monitoring and documentation.
+  
+  Investigations:
+  - Serum electrolytes, urea and creatinine.
+  - Urinalysis.
+  - Urine albumin-creatinine ratio (if available).
+  - Fasting blood glucose/HbA1c.
+  - Fasting lipid profile.
+  - ECG.
+  
+  Counselling:
+  - Encourage low salt diet (<5 g salt/day).
+  - Encourage weight reduction.
+  - Encourage regular moderate physical activity.
+  - Advise avoidance of tobacco and excessive alcohol intake.
+  - Reduce processed and high-sodium food intake.
+  
+  Follow-Up:
+  Review in 4 weeks with blood pressure records and investigation results or earlier if symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-04',
+    title: 'Type 2 Diabetes Mellitus Routine Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Diabetes Clinic',
+    condition: 'Type 2 Diabetes Mellitus',
+    symptoms: [
+      'Routine follow-up',
+      'Diabetes mellitus',
+      'Blood glucose monitoring'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: '55-year-old man with known Type 2 Diabetes Mellitus on regular follow-up, clinically stable with good glycaemic control on metformin therapy.',
+    content: `
+  DIABETES CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 55-year-old male, known diabetic patient on regular follow-up.
+  
+  PC:
+  Routine follow-up.
+  
+  HPC:
+  Patient has remained clinically stable since the last clinic visit.
+  
+  There are no fresh complaints. No history of excessive thirst, frequent urination, increased hunger, weight loss, blurred vision, recurrent infections, numbness or tingling sensation of the limbs, foot ulcers, or poor wound healing since the last review.
+  
+  There is no history of hypoglycaemic symptoms such as sweating, tremors, palpitations, dizziness, confusion, or loss of consciousness.
+  
+  There has been no recent hospital admission for hyperglycaemia or hypoglycaemia.
+  
+  Patient reports good compliance with prescribed medications and dietary modifications. He engages in regular physical activity.
+  
+  Appetite and sleep are satisfactory.
+  
+  O/E:
+  Middle-aged man, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated, with no pedal oedema.
+  
+  Weight: 76 kg
+  
+  PR: 78 bpm, regular, full volume
+  BP: 126/78 mmHg
+  RR: 18 cpm
+  Temperature: 36.7°C
+  SpO₂: 98% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  
+  CNS:
+  Conscious and alert.
+  Oriented in time, place, and person.
+  No focal neurological deficit.
+  
+  EXTREMITIES:
+  No pedal oedema.
+  Feet warm with intact skin.
+  No ulcers or obvious deformities.
+  
+  Investigations:
+  FBS: 104 mg/dL
+  HbA1c: 7.1%
+  
+  ASSESSMENT:
+  Known Type 2 Diabetes Mellitus, currently controlled.
+  
+  PLAN:
+  - Continue Tab Metformin 500 mg twice daily with meals.
+  - Continue other prescribed medications.
+  - Encourage adherence to diabetic diet and regular physical activity.
+  - Encourage home blood glucose monitoring and documentation.
+  
+  Foot Care Advice:
+  - Daily foot inspection.
+  - Avoid walking barefoot.
+  - Use appropriate footwear.
+  - Report any foot wounds or infections early.
+  
+  Screening for Diabetic Complications:
+  - Annual eye examination (fundoscopy/diabetic retinopathy screening).
+  - Urine albumin-creatinine ratio and renal function monitoring.
+  - Lipid profile monitoring.
+  - Regular foot examination.
+  
+  Cardiovascular Risk Reduction:
+  - Encourage weight control.
+  - Encourage low salt and low fat diet.
+  - Advise avoidance of tobacco.
+  
+  Investigations:
+  - Repeat FBS/HbA1c.
+  - Fasting lipid profile.
+  - Serum electrolytes, urea and creatinine as indicated.
+  
+  Follow-Up:
+  Review in Diabetes Clinic in 3 months or earlier if symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-01',
+    title: 'Hypertension Routine Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Hypertension Clinic',
+    condition: 'Hypertension',
+    symptoms: [
+      'Routine follow-up',
+      'Hypertension',
+      'Blood pressure monitoring'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-14',
+    summary: '55-year-old man with known hypertension on regular follow-up, clinically stable with controlled blood pressure on current antihypertensive medications.',
+    content: `
+  HYPERTENSION CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 55-year-old male, known hypertensive patient on regular follow-up.
+  
+  PC:
+  Routine follow-up.
+  
+  HPC:
+  Patient has remained clinically stable since the last clinic visit.
+  
+  There are no fresh complaints. No history of headache, dizziness, blurring of vision, chest pain, difficulty breathing, palpitations, orthopnoea, paroxysmal nocturnal dyspnoea, leg swelling, reduced urine output, or focal neurological symptoms since the last review.
+  
+  There has been no recent hospital admission.
+  
+  Patient reports good compliance with prescribed medications and adherence to dietary and lifestyle modifications.
+  
+  Appetite and sleep are satisfactory.
+  
+  O/E:
+  Middle-aged man, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated, with no pedal oedema.
+  
+  Weight: 78 kg
+  
+  PR: 76 bpm, regular, full volume
+  BP: 128/78 mmHg
+  RR: 18 cpm
+  Temperature: 36.7°C
+  SpO₂: 98% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  
+  CNS:
+  Conscious and alert.
+  Oriented in time, place, and person.
+  No focal neurological deficit.
+  
+  ASSESSMENT:
+  Known hypertensive patient, currently controlled.
+  
+  PLAN:
+  - Continue Tab Amlodipine 10 mg daily.
+  - Continue Tab Losartan 50 mg daily.
+  - Continue Tab Hydrochlorothiazide 25 mg daily.
+  - Encourage low salt diet, regular physical activity, weight reduction, and avoidance of tobacco/alcohol excess.
+  - Encourage home blood pressure monitoring and documentation.
+  - Repeat EUCr, fasting lipid profile, fasting blood glucose/HbA1c, and urinalysis as indicated.
+  - Continue monitoring for hypertension-related target organ damage.
+  - Review in Hypertension Clinic in 3 months or earlier if symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'im-01',
     title: 'Sickle Cell Anaemia in Steady State Follow-up',
     specialty: 'Internal Medicine',

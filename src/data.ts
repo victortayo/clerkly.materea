@@ -9006,6 +9006,966 @@ Not yet available
 
   // Internal Medicine
   {
+    id: 'im-01',
+    title: 'Rheumatoid Arthritis with Symmetrical Polyarthritis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Rheumatology Clinic',
+    condition: 'Inflammatory Polyarthritis',
+    symptoms: [
+      'Bilateral hand and wrist pain',
+      'Early morning stiffness',
+      'Swelling of MCP and PIP joints',
+      'Reduced grip strength',
+      'Fatigue'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-15',
+    summary: '42-year-old female secondary school teacher with newly diagnosed seropositive rheumatoid arthritis presenting with symmetrical inflammatory polyarthritis involving the wrists and small joints of both hands.',
+    content: `INTERNAL MEDICINE - RHEUMATOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 42-year-old female secondary school teacher, married, residing in Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+  
+  Informant:
+  Patient (Reliable)
+  
+  PC:
+  Pain in both hands and wrists × 5 months
+  
+  Early morning stiffness × 5 months
+  
+  Swelling of multiple finger joints × 4 months
+  
+  
+  HPC:
+  She was apparently well until about five months prior to presentation when she developed gradual onset pain involving both wrists and the small joints of both hands.
+  
+  The pain is symmetrical, involving the metacarpophalangeal (MCP) joints, proximal interphalangeal (PIP) joints and both wrists. It is dull, persistent and rated 7/10 in severity.
+  
+  There is associated swelling of the affected joints with prolonged early morning stiffness lasting approximately two hours before improving with activity. The pain improves slightly with movement during the day but worsens after prolonged rest.
+  
+  She reports difficulty making a fist, opening jars, writing for long periods and performing household chores.
+  
+  She has noticed progressive reduction in hand grip strength over the past two months.
+  
+  There is associated generalized fatigue and occasional low-grade fever.
+  
+  There is no history of preceding trauma.
+  
+  No associated skin rash, oral ulcers, photosensitivity or Raynaud phenomenon.
+  
+  No history of eye redness, chronic cough, haematuria or significant weight loss.
+  
+  She has used over-the-counter Diclofenac with temporary relief of symptoms.
+  
+  
+  REVIEW OF SYSTEMS:
+  
+  General:
+  - Fatigue
+  - Reduced appetite
+  - Occasional low-grade fever
+  - No significant weight loss
+  
+  Musculoskeletal:
+  - Symmetrical pain involving both wrists, MCP and PIP joints
+  - Joint swelling
+  - Prolonged morning stiffness
+  - Reduced grip strength
+  - No low back pain
+  
+  Respiratory:
+  No cough or shortness of breath.
+  
+  Cardiovascular:
+  No chest pain or palpitations.
+  
+  Gastrointestinal:
+  No abdominal pain or diarrhoea.
+  
+  Genitourinary:
+  No dysuria or haematuria.
+  
+  Skin:
+  No rash or nodules noticed.
+  
+  Neurological:
+  No limb weakness or numbness.
+  
+  
+  PAST MEDICAL HISTORY:
+  No history of hypertension, diabetes mellitus, tuberculosis or chronic kidney disease.
+  
+  No previous hospital admissions or blood transfusions.
+  
+  PAST SURGICAL HISTORY:
+  Nil significant.
+  
+  DRUG HISTORY:
+  Occasional Tab Diclofenac 50 mg purchased over the counter.
+  
+  No known drug allergies.
+  
+  GYNAECOLOGICAL HISTORY:
+  G3P3+0 (3 alive).
+  
+  Regular menstrual cycles.
+  
+  No current pregnancy.
+  
+  FAMILY HISTORY:
+  Mother had chronic arthritis involving the hands in later life.
+  
+  No known family history of autoimmune disease.
+  
+  SOCIAL HISTORY:
+  Lives with husband and children.
+  
+  Non-smoker.
+  
+  Does not consume alcohol.
+  
+  Independent in activities of daily living but increasingly limited by hand pain.
+  
+  
+  O/E:
+  
+  GENERAL:
+  Middle-aged woman, conscious, alert, not in obvious painful distress at rest.
+  
+  Mildly pale.
+  
+  Anicteric.
+  
+  Not cyanosed.
+  
+  No peripheral oedema.
+  
+  No significant lymphadenopathy.
+  
+  VITAL SIGNS:
+  BP: 118/74 mmHg
+  
+  PR: 82 bpm, regular
+  
+  RR: 18 cpm
+  
+  Temperature: 37.2°C
+  
+  SpO₂: 99% in room air
+  
+  Weight: 68 kg
+  
+  Height: 1.62 m
+  
+  BMI: 25.9 kg/m²
+  
+  
+  MUSCULOSKELETAL EXAMINATION:
+  
+  Both wrists are mildly swollen and tender.
+  
+  Symmetrical swelling and tenderness involving the 2nd–5th MCP joints and 2nd–5th PIP joints bilaterally.
+  
+  No distal interphalangeal (DIP) joint involvement.
+  
+  Affected joints are warm but not erythematous.
+  
+  Grip strength reduced bilaterally.
+  
+  Painful limitation of wrist flexion and extension.
+  
+  Early mild ulnar deviation of fingers noted.
+  
+  No boutonnière deformity.
+  
+  No swan-neck deformity.
+  
+  No rheumatoid nodules.
+  
+  Both knees and ankles are non-tender with full range of motion.
+  
+  
+  CVS:
+  Heart sounds I and II normal.
+  
+  No murmurs.
+  
+  
+  RESPIRATORY:
+  Chest expands symmetrically.
+  
+  Normal vesicular breath sounds.
+  
+  No added sounds.
+  
+  
+  ABDOMEN:
+  Soft and non-tender.
+  
+  No hepatosplenomegaly.
+  
+  Normal bowel sounds.
+  
+  
+  CNS:
+  Conscious and alert.
+  
+  No focal neurological deficits.
+  
+  
+  ASSESSMENT:
+  Newly diagnosed seropositive rheumatoid arthritis with active symmetrical inflammatory polyarthritis involving the small joints of both hands and wrists.
+  
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Systemic lupus erythematosus.
+  2. Psoriatic arthritis.
+  3. Viral polyarthritis.
+  4. Osteoarthritis of the hands.
+  5. Reactive arthritis.
+  
+  
+  PLAN:
+  
+  INVESTIGATIONS:
+  
+  Laboratory:
+  - Full Blood Count
+  - ESR
+  - CRP
+  - Rheumatoid Factor
+  - Anti-CCP antibody
+  - Serum Electrolytes, Urea and Creatinine
+  - Liver Function Tests
+  - Urinalysis
+  - Hepatitis B and C screening
+  - HIV screening before immunosuppressive therapy
+  - Tuberculosis screening (Mantoux/IGRA and chest X-ray) if biologic therapy is considered
+  - Pregnancy test where applicable before commencing Methotrexate
+  
+  Imaging:
+  - X-ray of both hands and wrists (AP views) to assess for periarticular osteopenia, joint space narrowing and erosions
+  - Baseline chest X-ray before DMARD therapy
+  - Musculoskeletal ultrasound or MRI if diagnosis remains uncertain
+  
+  
+  MANAGEMENT:
+  
+  Disease-Modifying Antirheumatic Drug (DMARD):
+  
+  Tab Methotrexate 15 mg orally once weekly (same day each week).
+  
+  Increase gradually to 20–25 mg once weekly depending on response and tolerance.
+  
+  Patient counselled that Methotrexate must never be taken daily.
+  
+  PLUS
+  
+  Tab Folic Acid 5 mg orally once weekly, taken 24–48 hours after Methotrexate.
+  
+  
+  Bridging Therapy:
+  
+  Tab Prednisolone 10 mg orally daily for 2–4 weeks, then taper gradually as DMARD becomes effective.
+  
+  
+  Analgesia:
+  
+  Tab Paracetamol 1 g orally 6 hourly as required.
+  
+  Maximum dose: 4 g/day.
+  
+  If no contraindication:
+  
+  Tab Naproxen 500 mg orally 12 hourly after meals for up to 2 weeks.
+  
+  Alternative:
+  
+  Tab Ibuprofen 400 mg orally 8 hourly after meals.
+  
+  Consider gastroprotection with prolonged NSAID use.
+  
+  
+  Gastroprotection:
+  
+  Tab Omeprazole 20 mg orally daily while taking NSAIDs or corticosteroids.
+  
+  
+  Alternative DMARDs if Methotrexate is contraindicated:
+  
+  - Tab Sulfasalazine 500 mg twice daily, increasing gradually to 1 g twice daily.
+  - Tab Hydroxychloroquine 200 mg twice daily with baseline and periodic ophthalmologic assessment.
+  - Tab Leflunomide 20 mg daily.
+  
+  
+  If persistent disease activity despite conventional DMARDs:
+  
+  Refer to Rheumatology for consideration of biologic or targeted synthetic DMARD therapy after appropriate infection screening.
+  
+  
+  PHYSIOTHERAPY:
+  - Joint protection techniques.
+  - Range-of-motion exercises.
+  - Strengthening exercises.
+  - Occupational therapy assessment for hand function and activities of daily living.
+  
+  
+  NURSING INSTRUCTIONS:
+  - Assess pain score during each review.
+  - Monitor for Methotrexate adverse effects including oral ulcers, nausea, hepatotoxicity and bone marrow suppression.
+  - Reinforce weekly Methotrexate dosing.
+  
+  
+  HEALTH EDUCATION:
+  Patient counselled that rheumatoid arthritis is a chronic autoimmune inflammatory condition affecting joints.
+  
+  Early initiation of DMARD therapy helps prevent irreversible joint damage and disability.
+  
+  Emphasised importance of adherence, regular monitoring and attending follow-up appointments.
+  
+  Advised regular exercise, weight control and avoidance of smoking.
+  
+  Patient advised to seek urgent medical review if fever, persistent cough, mouth ulcers, unusual bruising, jaundice or severe breathlessness develops while on immunosuppressive therapy.
+  
+  Counselled regarding avoidance of pregnancy while taking Methotrexate and the need for effective contraception.
+  
+  
+  FOLLOW-UP:
+  Review at Rheumatology Clinic in 2 weeks to assess tolerance to treatment.
+  
+  Subsequent review every 4–8 weeks during treatment titration.
+  
+  Monitor FBC, LFT and renal function every 4–8 weeks initially, then every 8–12 weeks once stable.
+  
+  Assess disease activity using DAS28 score during follow-up.
+  
+  Prognosis is good with early DMARD initiation and adherence to therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-01',
+    title: 'Cow’s Milk Protein Allergy with Allergic Proctocolitis and Atopic Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Gastroenterology Clinic',
+    condition: 'Food Allergy',
+    symptoms: [
+      'Loose mucoid stools',
+      'Vomiting after feeds',
+      'Blood-streaked stool',
+      'Itchy eczematous skin rash',
+      'Excessive crying after feeds',
+      'Poor weight gain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-15',
+    summary: '3-month-old female infant presenting with chronic mucoid diarrhoea, post-feed vomiting, eczema and poor weight gain secondary to suspected non-IgE-mediated cow’s milk protein allergy.',
+    content: `PAEDIATRICS CLINIC
+  
+  Patient Seen
+  
+  A 3-month-old female infant, residing in Abeokuta, Ogun State.
+  
+  Weight: 5.8 kg
+  
+  Length: 60 cm
+  
+  Head Circumference: 39.5 cm
+  
+  Informant:
+  Mother (Reliable)
+  
+  
+  PC:
+  Loose stools with mucus × 3 weeks
+  
+  Frequent vomiting after feeds × 3 weeks
+  
+  Generalized itchy skin rash × 2 weeks
+  
+  Excessive crying after feeds × 3 weeks
+  
+  
+  HPC:
+  The baby was apparently well until about three weeks prior to presentation when she developed recurrent loose stools occurring about five to six times daily.
+  
+  The stools are loose, yellowish with mucus and occasionally streaked with small amounts of fresh blood. They are not foul smelling. There is no history of profuse watery diarrhoea.
+  
+  The mother also noticed frequent regurgitation and vomiting shortly after feeds. The vomiting is non-projectile, non-bilious and consists mainly of recently ingested milk. Episodes occur after most feeds.
+  
+  The infant has become increasingly irritable, especially during and shortly after feeding. She cries excessively, draws up her legs and appears uncomfortable for prolonged periods.
+  
+  Two weeks prior to presentation, she developed an itchy rash involving the cheeks, neck and extensor surfaces of both arms. The rash has persisted despite use of emollients.
+  
+  The baby is currently fed standard cow’s milk-based infant formula as breastfeeding was discontinued at two weeks of age due to maternal illness.
+  
+  Mother reports poor weight gain over the past month.
+  
+  There is no history of fever, cough, difficulty breathing or choking during feeds.
+  
+  No recent change in formula brand.
+  
+  No medication use prior to onset of symptoms.
+  
+  
+  REVIEW OF SYSTEMS:
+  
+  General:
+  - Poor weight gain
+  - Excessive crying
+  - Irritability
+  - No fever
+  
+  Gastrointestinal:
+  - Frequent vomiting
+  - Loose mucoid stools
+  - Occasional blood-streaked stool
+  - Abdominal discomfort after feeds
+  - No abdominal distension
+  
+  Skin:
+  - Generalized itchy rash
+  - Dry skin
+  - No blisters
+  
+  Respiratory:
+  - No cough
+  - No wheezing
+  - No noisy breathing
+  
+  Cardiovascular:
+  - No cyanosis
+  - No excessive sweating during feeds
+  
+  Neurological:
+  - Active
+  - No seizures
+  - No altered level of consciousness
+  
+  
+  BIRTH HISTORY:
+  Delivered at 39 weeks gestation via spontaneous vaginal delivery.
+  
+  Birth weight: 3.2 kg.
+  
+  Cried immediately after birth.
+  
+  No neonatal admission.
+  
+  
+  FEEDING HISTORY:
+  Exclusively formula-fed from 2 weeks of age.
+  
+  Currently receives approximately 120 mL of standard cow’s milk formula every 3 hours.
+  
+  No complementary feeds.
+  
+  
+  IMMUNIZATION HISTORY:
+  Immunizations up to date according to National Programme on Immunization schedule.
+  
+  
+  DEVELOPMENTAL HISTORY:
+  Social smile present.
+  
+  Good head control for age.
+  
+  Development appropriate for age.
+  
+  
+  PAST MEDICAL HISTORY:
+  No previous hospital admission.
+  
+  No previous surgeries.
+  
+  DRUG HISTORY:
+  No regular medications.
+  
+  No known drug allergies.
+  
+  
+  FAMILY HISTORY:
+  Father has allergic rhinitis.
+  
+  Mother had eczema during childhood.
+  
+  No family history of inflammatory bowel disease.
+  
+  
+  SOCIAL HISTORY:
+  Lives with both parents.
+  
+  Good home sanitation.
+  
+  No tobacco smoke exposure.
+  
+  
+  O/E:
+  
+  GENERAL:
+  Infant awake and active.
+  
+  Mildly irritable but consolable.
+  
+  Not pale.
+  
+  Anicteric.
+  
+  Well hydrated.
+  
+  Mild generalized eczematous rash involving both cheeks, neck folds and extensor surfaces of upper limbs.
+  
+  No peripheral oedema.
+  
+  
+  VITAL SIGNS:
+  Temperature: 36.8°C
+  
+  PR: 132 bpm
+  
+  RR: 34 cpm
+  
+  SpO₂: 99% in room air
+  
+  
+  ANTHROPOMETRY:
+  Weight: 5.8 kg
+  
+  Length: 60 cm
+  
+  Head circumference: 39.5 cm
+  
+  Weight gain over preceding month is suboptimal.
+  
+  
+  SYSTEMIC EXAMINATION:
+  
+  GASTROINTESTINAL:
+  Abdomen full but not distended.
+  
+  Soft.
+  
+  Mild diffuse tenderness on deep palpation.
+  
+  No palpable masses.
+  
+  No hepatosplenomegaly.
+  
+  Normal bowel sounds.
+  
+  
+  SKIN:
+  Dry erythematous eczematous plaques over both cheeks.
+  
+  Excoriation marks present.
+  
+  No secondary bacterial infection.
+  
+  
+  RESPIRATORY:
+  Chest expands symmetrically.
+  
+  Normal vesicular breath sounds.
+  
+  No wheeze.
+  
+  
+  CARDIOVASCULAR:
+  Heart sounds I and II normal.
+  
+  No murmurs.
+  
+  Peripheral pulses normal.
+  
+  
+  CENTRAL NERVOUS SYSTEM:
+  Alert.
+  
+  Normal tone.
+  
+  Primitive reflexes appropriate for age.
+  
+  
+  ASSESSMENT:
+  Cow’s Milk Protein Allergy (CMPA), likely non-IgE-mediated, presenting with allergic proctocolitis, gastro-oesophageal reflux symptoms and atopic dermatitis.
+  
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Viral gastroenteritis.
+  2. Infantile gastro-oesophageal reflux disease.
+  3. Lactose intolerance (secondary).
+  4. Food protein-induced enterocolitis syndrome (FPIES).
+  5. Infectious colitis.
+  6. Intussusception (unlikely).
+  
+  
+  PLAN:
+  
+  INVESTIGATIONS:
+  
+  Laboratory:
+  - Full Blood Count
+  - Stool microscopy, culture and sensitivity if infection suspected
+  - Stool occult blood
+  - Serum electrolytes if significant diarrhoea or vomiting occurs
+  - Serum albumin if protein-losing enteropathy suspected
+  
+  Allergy investigations:
+  - Specific IgE to cow’s milk protein if IgE-mediated allergy suspected
+  - Skin prick testing where available
+  
+  Diagnosis mainly clinical based on elimination and re-challenge.
+  
+  
+  MANAGEMENT:
+  
+  DIETARY MANAGEMENT:
+  
+  For formula-fed infant:
+  
+  Stop standard cow’s milk formula immediately.
+  
+  Commence extensively hydrolysed formula (EHF), such as:
+  - Nutramigen
+  - Similac Alimentum
+  - Althéra
+  
+  Give approximately 150 mL/kg/day divided into 6–8 feeds.
+  
+  For weight 5.8 kg:
+  
+  Estimated daily requirement ≈ 870 mL/day.
+  
+  Give approximately 120–150 mL every 3–4 hours.
+  
+  
+  If symptoms persist after 2–4 weeks:
+  
+  Commence amino acid formula:
+  - Neocate
+  - EleCare
+  
+  
+  For breastfeeding mothers:
+  
+  Continue breastfeeding.
+  
+  Mother to eliminate:
+  - Cow’s milk
+  - Cheese
+  - Yoghurt
+  - Butter
+  - Other dairy-containing products
+  
+  Provide maternal supplementation:
+  
+  Tab Calcium Carbonate providing 1,000–1,200 mg elemental calcium daily.
+  
+  Vitamin D₃ 800 IU orally daily.
+  
+  
+  ATOPIC DERMATITIS MANAGEMENT:
+  
+  White soft paraffin/liquid paraffin emollient applied liberally 3–4 times daily.
+  
+  For inflamed areas:
+  
+  Hydrocortisone 1% cream applied thinly twice daily for 5–7 days, avoiding eyes.
+  
+  If significant pruritus:
+  
+  Chlorpheniramine syrup 1 mg orally twice daily as needed (short course where clinically indicated).
+  
+  If secondary skin infection develops:
+  
+  Mupirocin 2% ointment applied three times daily for 5 days.
+  
+  
+  NUTRITIONAL COUNSELLING:
+  Avoid:
+  - Cow’s milk
+  - Goat’s milk
+  - Sheep’s milk
+  - Unmodified soy milk in infants below 6 months
+  
+  Educate parents to check food labels for hidden milk proteins.
+  
+  Monitor growth closely.
+  
+  
+  HEALTH EDUCATION:
+  Parents counselled that Cow’s Milk Protein Allergy is an immune-mediated reaction to proteins in cow’s milk and differs from lactose intolerance.
+  
+  Explained that symptoms usually improve within 2–4 weeks after complete elimination of cow’s milk protein.
+  
+  Emphasised strict avoidance of cow’s milk-containing products.
+  
+  Parents informed that most children develop tolerance during early childhood.
+  
+  Advised urgent medical review if infant develops:
+  - Difficulty breathing
+  - Generalized swelling
+  - Persistent vomiting
+  - Lethargy
+  - Poor feeding
+  
+  
+  FOLLOW-UP:
+  Review after 2 weeks to assess symptom improvement and weight gain.
+  
+  Monitor weight, length and head circumference at each visit.
+  
+  Continue elimination diet if symptoms resolve.
+  
+  Consider supervised oral cow’s milk challenge after 6–12 months of elimination depending on clinical progress and specialist advice.
+  
+  Refer to Paediatric Gastroenterologist or Allergist if:
+  - Symptoms persist despite appropriate elimination
+  - There is faltering growth
+  - Severe IgE-mediated reactions occur
+  
+  Prognosis is good with appropriate dietary management. Most infants improve significantly after elimination of cow’s milk protein and achieve normal growth and development.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-05',
+    title: 'Type 1 Diabetes Mellitus Routine Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Diabetes Clinic',
+    condition: 'Type 1 Diabetes Mellitus',
+    symptoms: [
+      'Routine follow-up',
+      'Type 1 Diabetes Mellitus',
+      'Insulin therapy'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-15',
+    summary: '22-year-old woman with known Type 1 Diabetes Mellitus on regular follow-up, clinically stable with good glycaemic control on basal-bolus insulin therapy.',
+    content: `
+  DIABETES CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 22-year-old female, known Type 1 Diabetes Mellitus patient on regular follow-up.
+  
+  PC:
+  Routine follow-up.
+  
+  HPC:
+  Patient has remained clinically stable since the last clinic visit.
+  
+  There are no fresh complaints. No history of polyuria, polydipsia, polyphagia, weight loss, blurred vision, recurrent infections, numbness or tingling sensation of the limbs, foot ulcers, or poor wound healing since the last review.
+  
+  There is no history of hypoglycaemic episodes, excessive sweating, tremors, palpitations, dizziness, confusion, seizures, or loss of consciousness.
+  
+  There has been no episode of diabetic ketoacidosis or hospital admission since the last clinic visit.
+  
+  Patient reports good compliance with prescribed insulin therapy and regular home blood glucose monitoring. She rotates injection sites appropriately and adheres to dietary recommendations and regular physical activity.
+  
+  Appetite and sleep are satisfactory.
+  
+  O/E:
+  Young woman, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+  
+  Weight: 60 kg
+  
+  PR: 76 bpm, regular, full volume
+  BP: 112/70 mmHg
+  RR: 18 cpm
+  Temperature: 36.6°C
+  SpO₂: 99% on room air
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  No evidence of injection site lipohypertrophy.
+  
+  CNS:
+  Conscious and alert.
+  Oriented in time, place, and person.
+  No focal neurological deficit.
+  
+  EXTREMITIES:
+  No pedal oedema.
+  Feet warm with intact skin.
+  Peripheral pulses palpable.
+  Protective sensation preserved.
+  No foot ulcers.
+  
+  Investigations:
+  FBS: 118 mg/dL
+  HbA1c: 6.9%
+  
+  ASSESSMENT:
+  Known Type 1 Diabetes Mellitus, currently well controlled on insulin therapy.
+  
+  PLAN:
+  - Continue SC Insulin Glargine 18 units nocte.
+  - Continue SC Insulin Aspart 6 units before breakfast, 6 units before lunch, and 8 units before dinner (adjust according to blood glucose records and carbohydrate intake).
+  - Continue self-monitoring of blood glucose before meals and at bedtime and maintain a glucose diary.
+  - Reinforce proper insulin storage, injection technique, and rotation of injection sites.
+  - Counsel on recognition and immediate treatment of hypoglycaemia using the 15-15 rule (take 15–20 g of fast-acting carbohydrate and recheck blood glucose after 15 minutes).
+  - Advise patient to carry glucose tablets, sweets, or a sugar-containing drink at all times.
+  - Reinforce sick-day rules and advise early hospital presentation if persistent hyperglycaemia, vomiting, abdominal pain, or ketonuria develops.
+  - Continue diabetic diet and regular physical activity.
+  - Continue routine foot care and annual ophthalmology review.
+  - Repeat HbA1c in 3 months.
+  - Request FBC, serum electrolytes, urea and creatinine, fasting lipid profile, urine albumin-creatinine ratio, and urinalysis as indicated.
+  - Review in Diabetes Clinic in 3 months or earlier if symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-06',
+    title: 'Type 2 Diabetes Mellitus with Diabetic Foot Ulcer',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Diabetes Clinic',
+    condition: 'Diabetic Foot Disease',
+    symptoms: [
+      'Right foot ulcer',
+      'Numbness of both feet',
+      'Type 2 Diabetes Mellitus'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-15',
+    summary: '60-year-old man with known Type 2 Diabetes Mellitus presenting with a right plantar foot ulcer consistent with Wagner Grade I diabetic foot ulcer, associated with peripheral diabetic neuropathy and suboptimal glycaemic control.',
+    content: `
+  DIABETES CLINIC FOLLOW-UP
+  
+  Patient Seen:
+  A 60-year-old male, known Type 2 Diabetes Mellitus patient on regular follow-up.
+  
+  PC:
+  Right foot ulcer.
+  
+  HPC:
+  Patient was apparently stable until about 10 days prior to presentation when he noticed a small blister on the sole of the right foot after wearing a tight shoe.
+  
+  The blister subsequently ruptured and gradually increased in size, with minimal serous discharge. There is no associated severe pain; however, the patient reports numbness affecting both feet for several months.
+  
+  There is no history of fever, foul-smelling discharge, trauma, or black discoloration of the foot.
+  
+  There is no history of polyuria, polydipsia, polyphagia, or significant weight loss. No history of hypoglycaemic episodes, loss of consciousness, or recent hospital admission.
+  
+  Patient reports good compliance with prescribed medications but admits to irregular home blood glucose monitoring.
+  
+  Appetite and sleep are satisfactory.
+  
+  O/E:
+  Elderly man, conscious, comfortable at rest, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+  
+  Weight: 80 kg
+  
+  PR: 82 bpm, regular, full volume
+  BP: 132/80 mmHg
+  RR: 18 cpm
+  Temperature: 36.8°C
+  SpO₂: 98% on room air
+  
+  RIGHT FOOT:
+  Approximately 2 × 2 cm shallow ulcer over the plantar aspect of the forefoot with a clean base and minimal serous discharge.
+  Surrounding skin is mildly erythematous.
+  No purulent discharge or necrosis.
+  Peripheral pulses are palpable.
+  Reduced vibration and pressure sensation in both feet.
+  
+  CVS:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  Chest clinically clear.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  
+  CNS:
+  Conscious and alert.
+  Oriented in time, place, and person.
+  Reduced peripheral sensation over both feet.
+  No focal neurological deficit.
+  
+  Investigations:
+  RBS: 214 mg/dL
+  
+  ASSESSMENT:
+  1. Known Type 2 Diabetes Mellitus with diabetic foot ulcer (Wagner Grade I).
+  2. Peripheral diabetic neuropathy.
+  3. Suboptimal glycaemic control.
+  
+  PLAN:
+  - Admit if extensive infection develops or outpatient management is unsuitable.
+  - Clean wound with normal saline and perform sterile wound dressing.
+  - Commence appropriate off-loading of the affected foot and advise against barefoot walking.
+  - Commence Tab Amoxicillin-Clavulanate 625 mg orally every 8 hours for 7 days if there is clinical evidence of mild infection.
+    *Alternative:* Tab Clindamycin 450 mg orally every 8 hours if penicillin-allergic.
+  - Continue Tab Metformin 1 g twice daily with meals.
+  - Add Tab Gliclazide 80 mg twice daily before meals.
+  - Optimize glycaemic control with insulin if persistent hyperglycaemia or poor oral intake.
+  
+  Investigations:
+  - Full blood count.
+  - ESR and/or CRP.
+  - Serum electrolytes, urea and creatinine.
+  - HbA1c.
+  - Fasting lipid profile.
+  - Wound swab for microscopy, culture and sensitivity (if discharge is present).
+  - Foot X-ray if osteomyelitis is suspected.
+  
+  Further Management:
+  - Daily wound dressing.
+  - Refer to the Diabetic Foot Clinic/Wound Care Team.
+  
+  Counselling:
+  - Strict adherence to diabetic diet.
+  - Regular home blood glucose monitoring.
+  - Meticulous daily foot care.
+  - Early presentation if increasing pain, swelling, fever, foul-smelling discharge, or black discoloration of the foot develops.
+  
+  Follow-Up:
+  Review in 1 week or earlier if symptoms worsen.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'im-02',
     title: 'Hypertension Follow-Up with Bilateral Pedal Oedema',
     specialty: 'Internal Medicine',
@@ -14137,6 +15097,358 @@ Not yet available
 
 
 // General Outpatient
+{
+  id: 'gopd-01',
+  title: 'Chronic Insomnia Disorder',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Insomnia',
+  symptoms: [
+    'Difficulty sleeping',
+    'Difficulty initiating sleep',
+    'Frequent nocturnal awakening',
+    'Daytime fatigue',
+    'Poor concentration'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '42-year-old woman presenting with a 5-month history of difficulty initiating and maintaining sleep associated with daytime fatigue and reduced concentration, suggestive of chronic insomnia disorder.',
+  content: `
+GENERAL OUTPATIENT CLINIC
+
+Patient Seen:
+A 42-year-old female presenting with difficulty sleeping.
+
+PC:
+Difficulty sleeping × 5 months.
+
+HPC:
+Patient was apparently well until about 5 months prior to presentation when she developed difficulty initiating and maintaining sleep.
+
+She reports taking approximately 2–3 hours to fall asleep on most nights and wakes up several times during the night with difficulty returning to sleep. She sleeps for an average of 3–4 hours each night and wakes up feeling unrefreshed.
+
+Symptoms occur at least 5 nights per week and have progressively affected her daytime functioning with excessive daytime fatigue, poor concentration, irritability, and reduced work productivity.
+
+She denies excessive caffeine or alcohol intake and reports maintaining a regular bedtime.
+
+There is no history of loud snoring, witnessed apnoeic episodes, nocturnal choking, restless legs, nightmares, sleepwalking, nocturnal seizures, or shift work.
+
+There is no history of fever, chronic pain, chronic cough, nocturia, palpitations, weight loss, heat intolerance, or other symptoms suggestive of an underlying medical illness.
+
+There is no history of persistent low mood, loss of interest, suicidal ideation, hallucinations, or illicit drug use. She has no previous psychiatric illness.
+
+Appetite is satisfactory.
+
+O/E:
+Middle-aged woman, conscious, alert, cooperative, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 68 kg
+
+PR: 78 bpm, regular, full volume
+BP: 118/74 mmHg
+RR: 18 cpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+
+CVS:
+Pulse as above.
+Heart sounds S1 and S2 only.
+No murmurs.
+
+CHEST:
+Chest clinically clear.
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Full, moves with respiration.
+Soft and non-tender.
+No palpable organomegaly.
+
+CNS:
+Conscious and alert.
+Oriented in time, place, and person.
+No focal neurological deficit.
+
+Mental State Examination:
+Well kempt and maintains good eye contact.
+Speech spontaneous and coherent.
+Mood euthymic with appropriate affect.
+Thought form and content normal.
+No perceptual abnormalities.
+Insight and judgement intact.
+
+ASSESSMENT:
+1. Chronic insomnia disorder.
+2. To exclude secondary causes of insomnia.
+
+PLAN:
+- Educate patient on sleep hygiene:
+  - Maintain a regular sleep and wake schedule.
+  - Avoid daytime naps.
+  - Avoid caffeine, nicotine, alcohol, and heavy meals within 4–6 hours of bedtime.
+  - Avoid screen use for at least 1 hour before bedtime.
+  - Ensure a quiet, dark, and comfortable sleeping environment.
+  - Use the bed only for sleep and sexual activity.
+- Recommend Cognitive Behavioural Therapy for Insomnia (CBT-I) as first-line treatment.
+- Commence Tab Melatonin 3 mg nocte for 2–4 weeks.
+
+Alternative (if significant impairment and short-term pharmacotherapy is required):
+- Tab Zolpidem 5–10 mg nocte for a maximum of 2–4 weeks.
+
+Screening:
+- Screen for anxiety using GAD-7.
+- Screen for depression using PHQ-9.
+
+Investigations:
+- Full blood count.
+- Fasting blood glucose.
+- Serum electrolytes, urea and creatinine.
+- Thyroid function tests (TSH ± FT4).
+- Other investigations as clinically indicated to exclude secondary causes.
+
+Additional Advice:
+- Keep a 2-week sleep diary.
+
+Follow-Up:
+Review in 2–4 weeks to assess response to treatment and review investigation results.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-02',
+  title: 'Episodic Migraine Without Aura',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Migraine',
+  symptoms: [
+    'Recurrent left-sided headache',
+    'Nausea and vomiting',
+    'Photophobia',
+    'Phonophobia',
+    'Throbbing headache'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '28-year-old woman presenting with an 8-month history of recurrent unilateral throbbing headaches associated with nausea, photophobia and phonophobia, consistent with episodic migraine without aura.',
+  content: `
+GENERAL OUTPATIENT CLINIC
+
+Patient Seen:
+A 28-year-old female presenting with recurrent headache.
+
+PC:
+Recurrent left-sided headache × 8 months.
+
+HPC:
+Patient was apparently well until about 8 months prior to presentation when she developed recurrent episodes of headache.
+
+The headache is predominantly left frontotemporal, throbbing in nature, of gradual onset, with a severity of 8/10. Episodes occur about 2–4 times monthly and last between 6 and 24 hours if untreated.
+
+The headache is associated with nausea, occasional vomiting, photophobia and phonophobia, and is aggravated by physical activity. She reports relief with rest in a quiet, dark room and partial relief with over-the-counter analgesics.
+
+She identifies emotional stress, inadequate sleep and missed meals as common triggers.
+
+There is no preceding visual aura, limb weakness, facial asymmetry, speech disturbance, seizures, loss of consciousness, fever, neck stiffness, head trauma, or weight loss. There is no history of early morning headache or headache waking her from sleep.
+
+There is no known history of hypertension or diabetes mellitus.
+
+Appetite is satisfactory. Sleep is occasionally disturbed during headache episodes.
+
+O/E:
+Young woman, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 64 kg
+
+PR: 78 bpm, regular, full volume
+BP: 116/74 mmHg
+RR: 18 cpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+
+HEENT:
+Pupils equal and reactive to light.
+Extraocular movements full.
+Visual acuity grossly normal.
+No papilloedema on fundoscopy.
+
+CVS:
+Pulse as above.
+Heart sounds S1 and S2 only.
+No murmurs.
+
+CHEST:
+Chest clinically clear.
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Full, moves with respiration.
+Soft and non-tender.
+No palpable organomegaly.
+
+CNS:
+Conscious and alert.
+Oriented in time, place and person.
+Cranial nerves II–XII intact.
+Normal muscle bulk, tone and power in all limbs.
+Deep tendon reflexes normal.
+No sensory deficit.
+No cerebellar signs.
+No meningeal signs.
+
+ASSESSMENT:
+1. Episodic migraine without aura.
+2. No clinical features suggestive of a secondary headache disorder.
+
+PLAN:
+- Commence Tab Sumatriptan 50 mg orally at the onset of headache; may repeat after 2 hours if headache persists (maximum 200 mg in 24 hours).
+- Commence Tab Naproxen 500 mg orally at the onset of headache, then 250 mg every 12 hours as required for up to 3 days (avoid if contraindicated).
+- Commence Tab Metoclopramide 10 mg orally every 8 hours as needed for nausea or vomiting.
+- As the patient has ≥4 headache days per month with significant functional impairment, commence prophylaxis with Tab Propranolol 40 mg twice daily (if no contraindications such as asthma or bradycardia).
+- Alternative prophylaxis: Tab Amitriptyline 10–25 mg nocte if propranolol is contraindicated.
+- Advise patient to maintain a headache diary documenting headache frequency, duration, severity, triggers and medication use.
+- Counsel on avoidance of known triggers including sleep deprivation, missed meals, dehydration, emotional stress, alcohol and excessive caffeine.
+- Encourage regular sleep pattern, adequate hydration, regular exercise and stress management.
+
+Investigations:
+- Full blood count.
+- Fasting blood glucose.
+- Serum electrolytes, urea and creatinine if clinically indicated.
+- Neuroimaging (CT/MRI brain) only if red flag features develop or neurological examination becomes abnormal.
+
+Follow-Up:
+Review in the General Outpatient Clinic in 4 weeks to assess response to therapy and determine the need for adjustment of prophylactic treatment.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-03',
+  title: 'Recurrent Headache (Probable Tension-Type Headache)',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Primary Headache Disorder',
+  symptoms: [
+    'Recurrent headache',
+    'Bifrontal headache',
+    'Generalized headache',
+    'Photophobia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '35-year-old woman presenting with a 6-month history of recurrent bifrontal dull aching headache with normal neurological examination, suggestive of a primary headache disorder, likely tension-type headache.',
+  content: `
+GENERAL OUTPATIENT CLINIC
+
+Patient Seen:
+A 35-year-old female presenting with recurrent headache.
+
+PC:
+Recurrent headache × 6 months.
+
+HPC:
+Patient was apparently well until about 6 months prior to presentation when she developed recurrent episodes of headache.
+
+The headache is predominantly bifrontal and occasionally generalized, dull aching in nature, of gradual onset, with a severity of about 6/10.
+
+Episodes occur 2–3 times weekly, lasting several hours, and are relieved by rest and over-the-counter analgesics.
+
+The headache is occasionally associated with photophobia but no phonophobia.
+
+There is no history of nausea, vomiting, blurring of vision, diplopia, eye redness, tearing, rhinorrhoea, fever, neck stiffness, seizures, loss of consciousness, weakness of any limb, facial asymmetry, speech difficulty, or gait disturbance.
+
+There is no history of preceding head trauma.
+
+There is no history of early morning headache, headache waking her from sleep, or worsening with coughing or straining.
+
+No known history of hypertension or diabetes mellitus.
+
+Appetite and sleep are satisfactory.
+
+O/E:
+Young woman, conscious, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 70 kg
+
+PR: 76 bpm, regular, full volume
+BP: 118/76 mmHg
+RR: 18 cpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+
+HEENT:
+No scalp tenderness.
+Pupils equal and reactive to light.
+Extraocular movements full.
+Visual acuity grossly normal.
+
+CVS:
+Pulse as above.
+Heart sounds S1 and S2 only.
+No murmurs.
+
+CHEST:
+Chest clinically clear.
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Full, moves with respiration.
+Soft and non-tender.
+No palpable organomegaly.
+
+CNS:
+Conscious and alert.
+Oriented in time, place, and person.
+Cranial nerves II–XII grossly intact.
+Normal muscle bulk, tone and power (5/5) in all limbs.
+Deep tendon reflexes normal.
+Plantar reflexes flexor bilaterally.
+No sensory deficit.
+No cerebellar signs.
+No neck stiffness.
+
+ASSESSMENT:
+1. Recurrent headache, likely primary headache disorder (?Tension-type headache).
+2. To exclude migraine and secondary causes of headache.
+
+PLAN:
+- Commence Tab Paracetamol 1 g orally every 8 hours as needed (maximum 4 g/day).
+- If inadequate relief, commence Tab Ibuprofen 400 mg orally every 8 hours after meals as needed (if no contraindications).
+- Encourage adequate hydration, regular meals, adequate sleep, stress reduction, and avoidance of identified headache triggers.
+- Encourage keeping a headache diary documenting frequency, duration, severity, associated symptoms, and possible triggers.
+
+Investigations (if clinically indicated):
+- Full blood count.
+- Fasting blood glucose.
+- Serum electrolytes, urea and creatinine.
+- ESR if inflammatory cause is suspected.
+- Eye review with visual acuity and fundoscopy.
+- Brain CT/MRI if red flag features develop or neurological examination becomes abnormal.
+
+Counselling:
+- Advise patient to return immediately if headache becomes sudden and severe, progressively worsens, or is associated with persistent vomiting, fever, seizures, visual loss, altered consciousness, or focal neurological deficits.
+
+Follow-Up:
+Review in General Outpatient Clinic in 2–4 weeks or earlier if symptoms worsen.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'gopd-03',
   title: 'ACE Inhibitor-Induced Angioedema',

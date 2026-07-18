@@ -1,4 +1,4 @@
-export type LearningModuleCategory = 'Symptom Clerking' | 'Physical Examination' | 'Laboratory Interpretation' | 'Clinical Scoring Systems' | 'Counselling';
+export type LearningModuleCategory = 'Symptom Clerking' | 'Physical Examination' | 'Laboratory Interpretation' | 'Clinical Scoring Systems' | 'Counselling' | 'Treatment' | 'Procedures' | 'History Taking';
 
 export type SymptomSubCategory = 
   | 'General Constitutional Symptoms' | 'Pain' | 'Respiratory' | 'Cardiovascular' 
@@ -1954,4 +1954,71 @@ export const clerklyLearnLibrary: LearningModule[] = [
 </html>
     `
   },
+
+  {
+    id: 'treatment-example-1',
+    title: 'Example Treatment Topic',
+    category: 'Treatment',
+    // subCategory: 'OptionalSubCategory', // This is optional
+    content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example Treatment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1>This is a guide on a new treatment.</h1>
+    <p>Add your detailed HTML content for the treatment guide here.</p>
+  </body>
+  </html>
+    `
+  },
+
+  
+  {
+    id: 'procedures-example-1',
+    title: 'Example Procedure Topic',
+    category: 'Procedures',
+    // subCategory: 'OptionalSubCategory', // This is optional
+    content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example Procedure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1>This is a guide on a new procedure.</h1>
+    <p>Add your detailed HTML content for the procedure guide here.</p>
+  </body>
+  </html>
+    `
+  },
+
+
+  {
+    id: 'history-taking-example-1',
+    title: 'Example History Taking Topic',
+    category: 'History Taking',
+    // subCategory: 'OptionalSubCategory', // This is optional
+    content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example History Taking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1>This is a guide on history taking.</h1>
+    <p>Add your detailed HTML content for the history taking guide here.</p>
+  </body>
+  </html>
+    `
+  }
+  
+
 ];

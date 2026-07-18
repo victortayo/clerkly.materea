@@ -9007,6 +9007,568 @@ Not yet available
   // Internal Medicine
   {
     id: 'im-01',
+    title: 'Acute Viral Myocarditis with Acute Heart Failure',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Acute Myocarditis',
+    symptoms: [
+      'Progressive difficulty breathing',
+      'Chest pain',
+      'Palpitations',
+      'Easy fatigability',
+      'Generalized weakness',
+      'Dry cough'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-19',
+    summary: '28-year-old male secondary school teacher presenting with progressive dyspnoea, chest pain and palpitations following a flu-like illness, diagnosed with acute viral myocarditis complicated by early left ventricular systolic dysfunction.',
+    content: `
+  CARDIOLOGY UNIT
+  
+  Patient Seen
+  
+  A 28-year-old single male secondary school teacher from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+  
+  Informant: Patient (Reliable)
+  
+  PC:
+  Difficulty breathing × 4 days
+  Chest pain × 3 days
+  Palpitations × 2 days
+  Easy fatigability × 1 week
+  
+  HPC:
+  The patient was apparently well until about one week prior to presentation when he developed low-grade fever, generalized body weakness, sore throat and muscle aches. He self-medicated with over-the-counter paracetamol with slight improvement.
+  
+  Four days before presentation, he developed progressive difficulty breathing, initially occurring on exertion but later with minimal activity. The breathlessness progressively worsened, and he became breathless after walking a few metres.
+  
+  Three days before presentation, he developed central chest pain described as dull, constant, severity 6/10, non-radiating, worsened by exertion and not related to meals. The pain was partially relieved by sitting upright.
+  
+  Two days before presentation, he began experiencing episodes of rapid heartbeat associated with dizziness but no history of syncope.
+  
+  There is associated marked fatigue, reduced exercise tolerance and loss of appetite.
+  
+  There is mild dry cough.
+  No history of haemoptysis.
+  No leg swelling.
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  
+  No previous history of hypertension, diabetes mellitus, rheumatic heart disease or other cardiac disease.
+  
+  Review of Systems:
+  
+  General:
+  History of easy fatigability, generalized weakness, reduced appetite and recent low-grade fever.
+  
+  Cardiovascular:
+  Positive history of chest pain, palpitations and progressive exertional dyspnoea.
+  No syncope.
+  
+  Respiratory:
+  Mild dry cough and shortness of breath.
+  No wheezing or haemoptysis.
+  
+  Gastrointestinal:
+  Reduced appetite.
+  No abdominal pain or vomiting.
+  
+  Genitourinary:
+  No dysuria or haematuria.
+  
+  Neurological:
+  No seizures, focal weakness or loss of consciousness.
+  
+  Past Medical History:
+  No history of hypertension, diabetes mellitus, chronic kidney disease, autoimmune disease or previous cardiac disease.
+  
+  Past Surgical History:
+  Nil significant.
+  
+  Drug History:
+  Recently used Tab Paracetamol 1 g three times daily for flu-like symptoms.
+  No known drug allergies.
+  
+  Family History:
+  No family history of cardiomyopathy or sudden cardiac death.
+  
+  Social History:
+  Non-smoker.
+  Occasional alcohol consumption.
+  No recreational drug use.
+  Lives alone.
+  
+  O/E:
+  Young man, conscious and alert, in mild respiratory distress.
+  Not cyanosed.
+  Not jaundiced.
+  No peripheral oedema.
+  Mildly anxious.
+  
+  Vital Signs:
+  BP: 104/68 mmHg
+  PR: 118 bpm, regular
+  RR: 26 cpm
+  Temperature: 37.8°C
+  SpO₂: 95% in room air
+  Weight: 70 kg
+  Height: 1.75 m
+  BMI: 22.9 kg/m²
+  
+  CVS:
+  Pulse regular but tachycardic.
+  Peripheral pulses palpable.
+  JVP mildly elevated.
+  Apex beat displaced to the 6th left intercostal space.
+  S1 and S2 present.
+  Soft S3 gallop heard.
+  No significant murmurs.
+  No pericardial rub.
+  
+  Chest:
+  Respiratory rate increased.
+  Fine bibasal crepitations.
+  No wheezing.
+  Normal chest expansion.
+  
+  Abdomen:
+  Soft and non-tender.
+  No ascites.
+  Liver palpable 2 cm below the right costal margin.
+  Normal bowel sounds.
+  
+  CNS:
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute viral myocarditis complicated by early left ventricular systolic dysfunction (acute heart failure).
+  
+  Differential Diagnoses:
+  1. Acute coronary syndrome.
+  2. Acute pericarditis.
+  3. Dilated cardiomyopathy.
+  4. Pulmonary embolism.
+  5. Stress-induced cardiomyopathy.
+  6. Infective endocarditis.
+  
+  Investigations:
+  
+  Laboratory:
+  - Full Blood Count.
+  - Serum Electrolytes, Urea and Creatinine.
+  - Liver Function Tests.
+  - Random Blood Glucose.
+  - Cardiac Troponin I/T.
+  - Creatine Kinase-MB.
+  - C-reactive protein.
+  - ESR.
+  - BNP or NT-proBNP.
+  - Blood cultures if febrile.
+  - Viral serology where available.
+  - HIV screening.
+  - Autoimmune profile if clinically indicated.
+  
+  ECG:
+  Possible findings:
+  - Sinus tachycardia.
+  - Diffuse ST-T wave abnormalities.
+  - Ventricular ectopics.
+  - Atrial or ventricular arrhythmias.
+  
+  Chest X-ray:
+  Possible findings:
+  - Mild cardiomegaly.
+  - Pulmonary vascular congestion.
+  - Early pulmonary oedema.
+  
+  Echocardiography:
+  Expected findings:
+  - Global left ventricular hypokinesia.
+  - Reduced left ventricular ejection fraction (approximately 35–40%).
+  - Mild left ventricular dilatation.
+  - Possible small pericardial effusion.
+  
+  Cardiac MRI:
+  May demonstrate myocardial oedema and late gadolinium enhancement consistent with myocarditis.
+  
+  Endomyocardial Biopsy:
+  Reserved for selected severe or unexplained cases.
+  
+  Management:
+  
+  Admission:
+  - Admit to Cardiology Unit.
+  - Bed rest.
+  - Continuous cardiac monitoring.
+  - Strict fluid balance chart.
+  - Daily weight monitoring.
+  
+  Oxygen:
+  - Oxygen via nasal cannula 2–4 L/min to maintain SpO₂ ≥94%.
+  
+  Fluid Management:
+  - Avoid fluid overload.
+  - If hypotensive with poor perfusion:
+    0.9% Normal saline 250–500 mL IV cautiously over 30–60 minutes with reassessment.
+  
+  Diuretics (if pulmonary congestion):
+  - Inj. Furosemide 40 mg IV stat, then 40 mg IV 12 hourly, titrated according to response.
+  
+  ACE Inhibitor (after stabilization):
+  - Tab Enalapril 2.5 mg orally twice daily, gradually increased as tolerated.
+  OR
+  - Tab Lisinopril 5 mg orally once daily.
+  
+  Beta Blocker (after haemodynamic stabilization):
+  - Tab Bisoprolol 1.25 mg orally once daily.
+  OR
+  - Tab Carvedilol 3.125 mg orally twice daily.
+  
+  Mineralocorticoid Receptor Antagonist:
+  - Tab Spironolactone 25 mg orally once daily.
+  - Monitor serum potassium and renal function.
+  
+  Analgesia:
+  - Tab Paracetamol 1 g orally every 6 hours as required.
+  - Avoid routine NSAIDs unless specialist indication due to possible worsening of myocardial inflammation.
+  
+  Arrhythmia Management:
+  - Continuous ECG monitoring.
+  - Correct electrolyte abnormalities.
+  - Manage significant arrhythmias according to ACLS protocols.
+  - Sustained ventricular tachycardia:
+    Inj. Amiodarone 150 mg IV over 10 minutes followed by infusion as indicated.
+  
+  If Cardiogenic Shock Develops:
+  - Transfer to Intensive Care Unit.
+  - Consider:
+    Inj. Dobutamine infusion 2–20 micrograms/kg/min IV titrated according to response.
+  - Consider mechanical circulatory support where available.
+  
+  Nursing Instructions:
+  - Continuous cardiac monitoring.
+  - Monitor vital signs every 2–4 hours.
+  - Strict input/output chart.
+  - Daily weight.
+  - Observe for worsening heart failure.
+  - Monitor for arrhythmias.
+  
+  Health Education:
+  Explain that myocarditis is inflammation of the heart muscle, commonly caused by viral infections.
+  
+  Advise:
+  - Avoid strenuous physical activity for 3–6 months.
+  - Strict adherence to medications and follow-up.
+  - Avoid alcohol and recreational drugs.
+  - Seek urgent care if worsening breathlessness, fainting, persistent chest pain or palpitations occur.
+  
+  Follow-up:
+  - Daily Cardiology review while admitted.
+  - Repeat ECG as clinically indicated.
+  - Repeat echocardiography after 3–6 months to assess recovery of ventricular function.
+  - Cardiology clinic review 2 weeks after discharge.
+  - Gradual return to activity only after recovery of ventricular function and specialist clearance.
+  
+  Prognosis:
+  Guarded during the acute phase. Most patients recover completely with supportive care; however, some may progress to dilated cardiomyopathy, chronic heart failure, malignant arrhythmias or cardiogenic shock. Early diagnosis, close monitoring and appropriate heart failure therapy improve outcomes.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-02',
+    title: 'Acute Decompensated Heart Failure Secondary to Hypertensive Heart Disease',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Congestive Cardiac Failure',
+    symptoms: [
+      'Difficulty breathing',
+      'Bilateral leg swelling',
+      'Orthopnoea',
+      'Paroxysmal nocturnal dyspnoea',
+      'Reduced exercise tolerance',
+      'Easy fatigability'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-19',
+    summary: '58-year-old male civil servant with poorly controlled long-standing hypertension presenting with progressive dyspnoea, orthopnoea, paroxysmal nocturnal dyspnoea and bilateral leg swelling, diagnosed with acute decompensated congestive cardiac failure secondary to hypertensive heart disease.',
+    content: `
+  CARDIOLOGY UNIT
+  
+  Patient Seen
+  
+  A 58-year-old married male civil servant from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+  
+  Informants: Patient and wife (Reliable)
+  
+  PC:
+  Difficulty breathing × 5 days.
+  Bilateral leg swelling × 3 weeks.
+  Difficulty breathing while lying flat × 2 weeks.
+  Waking from sleep due to breathlessness × 1 week.
+  
+  HPC:
+  The patient is a known hypertensive diagnosed approximately 12 years ago. He admits poor adherence to antihypertensive medications and has not attended clinic follow-up for over one year.
+  
+  He was apparently well until about five days prior to presentation when he developed progressive difficulty breathing. The breathlessness was initially noticed during strenuous activity but progressively worsened to occur with minimal exertion and is now present even at rest.
+  
+  He reports marked worsening of breathlessness when lying flat and currently requires three pillows to sleep comfortably (orthopnoea).
+  
+  He has experienced repeated episodes of sudden breathlessness that awaken him from sleep over the past one week (paroxysmal nocturnal dyspnoea), requiring him to sit upright for relief.
+  
+  He also complains of bilateral leg swelling which started around the ankles three weeks ago and progressively extended to involve both legs up to the knees. The swelling is painless and worse in the evenings.
+  
+  There is associated persistent cough productive of small amounts of frothy whitish sputum.
+  
+  He has generalized weakness, easy fatigability and reduced exercise tolerance.
+  
+  No chest pain.
+  No fever.
+  No haemoptysis.
+  No recent upper respiratory tract infection.
+  
+  Urine output has slightly reduced over the past two days.
+  
+  Review of Systems:
+  
+  General:
+  Positive history of easy fatigability, reduced exercise tolerance and poor appetite.
+  No fever or significant weight loss.
+  
+  Cardiovascular:
+  Progressive exertional dyspnoea.
+  Orthopnoea.
+  Paroxysmal nocturnal dyspnoea.
+  Bilateral leg swelling.
+  No chest pain or syncope.
+  
+  Respiratory:
+  Productive cough with frothy sputum.
+  No wheezing or haemoptysis.
+  
+  Gastrointestinal:
+  Poor appetite.
+  No abdominal pain or vomiting.
+  
+  Genitourinary:
+  Reduced urine output.
+  No dysuria or haematuria.
+  
+  Neurological:
+  No limb weakness, seizures or loss of consciousness.
+  
+  Past Medical History:
+  Known hypertensive for 12 years.
+  Poor compliance with medications.
+  No diabetes mellitus.
+  No known chronic kidney disease.
+  No previous stroke.
+  
+  Past Surgical History:
+  Nil significant.
+  
+  Drug History:
+  Previously prescribed:
+  - Tab Amlodipine 10 mg daily (poor compliance).
+  - Tab Hydrochlorothiazide 25 mg daily (poor compliance).
+  
+  No known drug allergies.
+  
+  Family History:
+  Father had hypertension.
+  No family history of cardiomyopathy.
+  
+  Social History:
+  Lives with wife.
+  Non-smoker.
+  Occasional alcohol consumption.
+  No recreational drug use.
+  Sedentary lifestyle.
+  
+  O/E:
+  Middle-aged man, conscious and alert, moderately dyspnoeic at rest.
+  Unable to lie flat comfortably.
+  Mild respiratory distress.
+  No cyanosis.
+  No jaundice.
+  Mild pallor.
+  Bilateral pitting pedal oedema extending to the knees.
+  Raised JVP.
+  
+  Vital Signs:
+  BP: 168/102 mmHg
+  PR: 112 bpm, regular
+  RR: 30 cpm
+  Temperature: 36.8°C
+  SpO₂: 90% in room air
+  Weight: 84 kg
+  BMI: 29.1 kg/m²
+  
+  CVS:
+  Pulse regular.
+  Raised JVP approximately 6 cm above sternal angle.
+  Apex beat displaced to the 6th left intercostal space, anterior axillary line.
+  Heaving apex.
+  S1 and S2 heard.
+  S3 gallop rhythm present.
+  Grade II pansystolic murmur best heard at the apex and radiating to the axilla, suggestive of functional mitral regurgitation.
+  No pericardial rub.
+  
+  Chest:
+  Tachypnoea.
+  Reduced air entry at both lung bases.
+  Fine bibasal inspiratory crepitations extending to mid-lung zones.
+  No wheezing.
+  
+  Abdomen:
+  Soft and non-tender.
+  Mild hepatomegaly (liver palpable 4 cm below right costal margin).
+  Mild right upper quadrant tenderness.
+  No ascites.
+  Normal bowel sounds.
+  
+  CNS:
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute decompensated congestive cardiac failure (NYHA Class IV) secondary to long-standing poorly controlled hypertensive heart disease.
+  
+  Differential Diagnoses:
+  1. Dilated cardiomyopathy.
+  2. Acute coronary syndrome with heart failure.
+  3. Severe valvular heart disease.
+  4. Chronic kidney disease with fluid overload.
+  5. Cor pulmonale.
+  
+  Investigations:
+  
+  Laboratory:
+  - Full Blood Count.
+  - Serum Electrolytes, Urea and Creatinine.
+  - Random Blood Glucose.
+  - Liver Function Tests.
+  - Cardiac Troponin I/T.
+  - BNP or NT-proBNP where available.
+  - Thyroid Function Tests.
+  - Lipid Profile.
+  - Urinalysis.
+  
+  Imaging:
+  
+  Chest X-ray:
+  Expected findings:
+  - Cardiomegaly.
+  - Pulmonary vascular congestion.
+  - Bilateral pulmonary oedema.
+  - Possible pleural effusions.
+  
+  12-lead ECG:
+  Possible findings:
+  - Left ventricular hypertrophy.
+  - Left atrial enlargement.
+  - Sinus tachycardia.
+  
+  Echocardiography:
+  Expected findings:
+  - Dilated left ventricle.
+  - Reduced ejection fraction (approximately 35%).
+  - Left ventricular hypertrophy.
+  - Functional mitral regurgitation.
+  
+  Management:
+  
+  Admission:
+  - Admit to Medical Ward or High Dependency Unit.
+  - Nurse patient in propped-up position (45–90°).
+  - Administer oxygen.
+  - Restrict fluid intake to 1.5–2 litres/day.
+  - Restrict dietary sodium to <2 g/day.
+  - Strict input/output chart.
+  - Daily weight measurement.
+  
+  Oxygen:
+  - Oxygen via nasal cannula 3–5 L/min aiming for SpO₂ ≥94%.
+  - Consider CPAP/BiPAP if severe pulmonary oedema develops.
+  
+  Diuretics:
+  - Inj. Furosemide 80 mg IV stat.
+  - Continue Inj. Furosemide 40 mg IV 12 hourly, adjusting according to urine output and renal function.
+  - Monitor electrolytes closely.
+  
+  Vasodilator:
+  If systolic BP remains above 100 mmHg:
+  - Sublingual Glyceryl Trinitrate 0.5 mg repeated every 5 minutes for up to 3 doses if severe pulmonary oedema.
+  
+  Where available:
+  - IV Glyceryl Trinitrate infusion starting at 10 micrograms/minute, titrated according to blood pressure.
+  
+  ACE Inhibitor (after stabilization):
+  - Tab Enalapril 2.5 mg orally twice daily, gradually increasing as tolerated.
+  OR
+  - Tab Lisinopril 5 mg orally once daily.
+  
+  Beta Blocker:
+  Commence only after acute decompensation has resolved:
+  - Tab Bisoprolol 1.25 mg orally once daily, gradually titrating upwards.
+  OR
+  - Tab Carvedilol 3.125 mg orally twice daily.
+  
+  Mineralocorticoid Receptor Antagonist:
+  - Tab Spironolactone 25 mg orally once daily.
+  - Monitor serum potassium and renal function.
+  
+  SGLT2 Inhibitor:
+  If renal function permits:
+  - Tab Dapagliflozin 10 mg orally once daily.
+  
+  Thromboprophylaxis:
+  If immobilized:
+  - Inj. Enoxaparin 40 mg subcutaneously once daily unless contraindicated.
+  
+  Nursing Instructions:
+  - Monitor vital signs every 4 hours.
+  - Strict fluid balance chart.
+  - Daily weight measurement.
+  - Continuous oxygen saturation monitoring.
+  - Monitor urine output.
+  - Observe for worsening respiratory distress.
+  
+  Health Education:
+  Explain that heart failure occurs when the heart cannot pump blood efficiently, resulting in fluid accumulation in the lungs and legs.
+  
+  Advice:
+  - Strict adherence to medications.
+  - Low salt diet.
+  - Appropriate fluid restriction.
+  - Gradual return to physical activity after stabilization.
+  - Avoid smoking and excessive alcohol intake.
+  - Regular blood pressure monitoring and clinic follow-up.
+  - Seek urgent care if worsening breathlessness, chest pain, fainting or rapid weight gain occurs.
+  
+  Follow-up:
+  - Daily review by Internal Medicine/Cardiology team during admission.
+  - Repeat renal function and electrolytes 48–72 hours after initiation of ACE inhibitors and diuretics.
+  - Cardiology clinic review 2 weeks after discharge.
+  - Repeat echocardiography in 3–6 months to assess response.
+  
+  Prognosis:
+  Guarded during the acute episode. With prompt diuresis, optimization of guideline-directed medical therapy, blood pressure control, lifestyle modification and regular follow-up, symptoms can improve significantly, hospitalizations can be reduced and long-term outcomes enhanced.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-01',
     title: 'Rheumatoid Arthritis with Symmetrical Polyarthritis',
     specialty: 'Internal Medicine',
     subSpecialty: 'Rheumatology Clinic',
@@ -9025,16 +9587,14 @@ Not yet available
   
   Patient Seen
   
-  A 42-year-old female secondary school teacher, married, residing in Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+  A 42-year-old female secondary school teacher, married, residing in Abeokuta, Ogun State, Christian.
   
   Informant:
   Patient (Reliable)
   
   PC:
   Pain in both hands and wrists × 5 months
-  
   Early morning stiffness × 5 months
-  
   Swelling of multiple finger joints × 4 months
   
   
@@ -9050,9 +9610,7 @@ Not yet available
   She has noticed progressive reduction in hand grip strength over the past two months.
   
   There is associated generalized fatigue and occasional low-grade fever.
-  
   There is no history of preceding trauma.
-  
   No associated skin rash, oral ulcers, photosensitivity or Raynaud phenomenon.
   
   No history of eye redness, chronic cough, haematuria or significant weight loss.
@@ -9096,7 +9654,6 @@ Not yet available
   
   PAST MEDICAL HISTORY:
   No history of hypertension, diabetes mellitus, tuberculosis or chronic kidney disease.
-  
   No previous hospital admissions or blood transfusions.
   
   PAST SURGICAL HISTORY:
@@ -9109,23 +9666,17 @@ Not yet available
   
   GYNAECOLOGICAL HISTORY:
   G3P3+0 (3 alive).
-  
   Regular menstrual cycles.
-  
   No current pregnancy.
   
   FAMILY HISTORY:
   Mother had chronic arthritis involving the hands in later life.
-  
   No known family history of autoimmune disease.
   
   SOCIAL HISTORY:
   Lives with husband and children.
-  
   Non-smoker.
-  
   Does not consume alcohol.
-  
   Independent in activities of daily living but increasingly limited by hand pain.
   
   
@@ -9133,85 +9684,57 @@ Not yet available
   
   GENERAL:
   Middle-aged woman, conscious, alert, not in obvious painful distress at rest.
-  
   Mildly pale.
-  
   Anicteric.
-  
   Not cyanosed.
-  
   No peripheral oedema.
-  
   No significant lymphadenopathy.
   
   VITAL SIGNS:
   BP: 118/74 mmHg
-  
   PR: 82 bpm, regular
-  
   RR: 18 cpm
-  
   Temperature: 37.2°C
-  
   SpO₂: 99% in room air
-  
   Weight: 68 kg
-  
   Height: 1.62 m
-  
   BMI: 25.9 kg/m²
   
   
   MUSCULOSKELETAL EXAMINATION:
   
   Both wrists are mildly swollen and tender.
-  
   Symmetrical swelling and tenderness involving the 2nd–5th MCP joints and 2nd–5th PIP joints bilaterally.
-  
   No distal interphalangeal (DIP) joint involvement.
-  
   Affected joints are warm but not erythematous.
-  
   Grip strength reduced bilaterally.
-  
   Painful limitation of wrist flexion and extension.
-  
   Early mild ulnar deviation of fingers noted.
-  
   No boutonnière deformity.
-  
   No swan-neck deformity.
-  
   No rheumatoid nodules.
-  
   Both knees and ankles are non-tender with full range of motion.
   
   
   CVS:
   Heart sounds I and II normal.
-  
   No murmurs.
   
   
   RESPIRATORY:
   Chest expands symmetrically.
-  
   Normal vesicular breath sounds.
-  
   No added sounds.
   
   
   ABDOMEN:
   Soft and non-tender.
-  
   No hepatosplenomegaly.
-  
   Normal bowel sounds.
   
   
   CNS:
   Conscious and alert.
-  
   No focal neurological deficits.
   
   
@@ -9254,31 +9777,22 @@ Not yet available
   MANAGEMENT:
   
   Disease-Modifying Antirheumatic Drug (DMARD):
-  
   Tab Methotrexate 15 mg orally once weekly (same day each week).
-  
   Increase gradually to 20–25 mg once weekly depending on response and tolerance.
-  
   Patient counselled that Methotrexate must never be taken daily.
   
   PLUS
   
   Tab Folic Acid 5 mg orally once weekly, taken 24–48 hours after Methotrexate.
   
-  
   Bridging Therapy:
-  
   Tab Prednisolone 10 mg orally daily for 2–4 weeks, then taper gradually as DMARD becomes effective.
   
-  
   Analgesia:
-  
   Tab Paracetamol 1 g orally 6 hourly as required.
-  
   Maximum dose: 4 g/day.
-  
+
   If no contraindication:
-  
   Tab Naproxen 500 mg orally 12 hourly after meals for up to 2 weeks.
   
   Alternative:
@@ -9289,7 +9803,6 @@ Not yet available
   
   
   Gastroprotection:
-  
   Tab Omeprazole 20 mg orally daily while taking NSAIDs or corticosteroids.
   
   
@@ -15097,6 +15610,327 @@ Not yet available
 
 
 // General Outpatient
+{
+  id: 'gopd-01',
+  title: 'Halitosis Secondary to Plaque-Induced Gingivitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Halitosis',
+  symptoms: [
+    'Persistent bad breath',
+    'Bleeding gums',
+    'Gum swelling',
+    'Poor oral hygiene',
+    'Coated tongue'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '29-year-old male presenting with persistent halitosis secondary to poor oral hygiene, chronic plaque-induced gingivitis and coated tongue.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 29-year-old male sales executive, single, residing in Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant:
+Patient (Reliable)
+
+PC:
+Persistent bad breath × 8 months
+
+Bleeding gums while brushing × 4 months
+
+
+HPC:
+The patient was apparently well until about eight months prior to presentation when he noticed persistent bad breath, which was first brought to his attention by family members and colleagues.
+
+The offensive breath is present throughout the day, worse on waking in the morning, and temporarily improves after brushing his teeth or using mouthwash before recurring within a few hours.
+
+He also reports bleeding from the gums during tooth brushing over the past four months. The bleeding is mild, occurs mainly while brushing and stops spontaneously. He has noticed mild gum swelling but denies severe dental pain.
+
+He brushes his teeth once daily and rarely flosses. His last dental review was over four years ago.
+
+He occasionally experiences food trapping between his posterior teeth.
+
+There is no history of loose teeth or purulent gum discharge.
+
+No history of sore throat, recurrent tonsillitis, nasal blockage, postnasal drip or chronic sinus symptoms.
+
+No history of recurrent vomiting, dysphagia, heartburn or regurgitation suggestive of gastro-oesophageal reflux disease.
+
+No chronic cough or haemoptysis.
+
+No history of diabetes mellitus, chronic kidney disease or chronic liver disease.
+
+He is a social smoker, averaging three to five cigarettes daily for the past six years.
+
+
+REVIEW OF SYSTEMS:
+
+General:
+- No fever
+- No weight loss
+- No night sweats
+
+Oral Cavity:
+- Persistent bad breath
+- Bleeding gums
+- Occasional gum swelling
+- No toothache
+- No oral ulcers
+
+Ear, Nose and Throat:
+- No sore throat
+- No recurrent tonsillitis
+- No nasal discharge
+- No postnasal drip
+- No facial pain
+
+Gastrointestinal:
+- No heartburn
+- No regurgitation
+- No vomiting
+- No dysphagia
+- No abdominal pain
+
+Respiratory:
+- No chronic cough
+- No sputum production
+- No haemoptysis
+
+Endocrine:
+- No excessive thirst
+- No polyuria
+- No weight loss
+
+
+PAST MEDICAL HISTORY:
+No history of hypertension, diabetes mellitus, chronic kidney disease or chronic liver disease.
+
+PAST SURGICAL HISTORY:
+Nil significant.
+
+DRUG HISTORY:
+No regular medications.
+
+No known drug allergies.
+
+
+DENTAL HISTORY:
+Brushes teeth once daily.
+
+Does not floss regularly.
+
+Uses mouthwash occasionally.
+
+Last professional dental scaling over four years ago.
+
+No previous tooth extraction.
+
+
+FAMILY HISTORY:
+Nil contributory.
+
+
+SOCIAL HISTORY:
+Lives alone.
+
+Smokes approximately 3–5 cigarettes daily.
+
+Occasional alcohol consumption.
+
+Consumes coffee frequently.
+
+
+O/E:
+
+GENERAL:
+Young man, conscious, alert and not in distress.
+
+Not pale.
+
+Anicteric.
+
+No cervical lymphadenopathy.
+
+
+VITAL SIGNS:
+BP: 118/76 mmHg
+
+PR: 78 bpm, regular
+
+RR: 16 cpm
+
+Temperature: 36.8°C
+
+SpO₂: 99% in room air
+
+Weight: 72 kg
+
+Height: 1.74 m
+
+BMI: 23.8 kg/m²
+
+
+ORAL EXAMINATION:
+Noticeable halitosis during conversation.
+
+Poor oral hygiene.
+
+Generalized dental plaque.
+
+Supragingival calculus, especially around the lower anterior teeth.
+
+Mild generalized gingival erythema and oedema.
+
+Bleeding on gentle probing.
+
+No periodontal abscess.
+
+No dental caries extending into the pulp.
+
+No loose teeth.
+
+Tongue coated with a whitish biofilm over the dorsum.
+
+No oral candidiasis.
+
+No oral ulcers.
+
+No leukoplakia.
+
+
+EAR, NOSE AND THROAT:
+Tonsils not enlarged.
+
+No tonsillar exudates.
+
+No tonsilloliths.
+
+No postnasal discharge.
+
+Nasal cavities patent.
+
+
+NECK:
+No cervical lymphadenopathy.
+
+No thyroid enlargement.
+
+
+RESPIRATORY:
+Chest expands symmetrically.
+
+Normal vesicular breath sounds.
+
+No added sounds.
+
+
+ABDOMEN:
+Soft and non-tender.
+
+No organomegaly.
+
+Normal bowel sounds.
+
+
+ASSESSMENT:
+Halitosis secondary to poor oral hygiene with chronic plaque-induced gingivitis and coated tongue.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Chronic periodontitis.
+2. Dental caries with pulpal infection.
+3. Chronic tonsillitis with tonsilloliths.
+4. Chronic rhinosinusitis with postnasal drip.
+5. Gastro-oesophageal reflux disease.
+6. Diabetes mellitus (ketotic breath).
+7. Chronic kidney disease (uraemic fetor).
+8. Hepatic disease (fetor hepaticus).
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Dental:
+- Comprehensive periodontal examination.
+- Dental charting.
+- Bitewing or periapical dental X-rays if caries or periodontal disease is suspected.
+
+Laboratory (if indicated):
+- Random Blood Glucose.
+- Full Blood Count.
+- Serum Urea, Electrolytes and Creatinine.
+- Liver Function Tests where clinically indicated.
+- Helicobacter pylori testing only if significant dyspeptic symptoms are present.
+
+
+MANAGEMENT:
+
+Oral Hygiene Measures:
+- Professional dental scaling and polishing.
+- Daily tongue cleaning using a tongue scraper.
+- Brush teeth twice daily with fluoride toothpaste for at least 2 minutes.
+- Use dental floss or interdental brushes daily.
+- Replace toothbrush every 3 months.
+
+Antiseptic Mouthwash:
+- Chlorhexidine gluconate 0.2% mouthwash.
+- Use 10–15 mL to rinse for 30 seconds twice daily after tooth brushing for 7–14 days.
+- Counsel regarding possible tooth staining and taste disturbance with prolonged use.
+
+If significant gingivitis persists after scaling:
+- Reinforce meticulous oral hygiene.
+
+If there is evidence of acute periodontal infection:
+- Tab Amoxicillin 500 mg orally every 8 hours for 5 days.
+
+PLUS
+
+- Tab Metronidazole 400 mg orally every 8 hours for 5 days.
+
+For penicillin-allergic patients (where clinically indicated):
+- Tab Metronidazole 400 mg orally every 8 hours for 5 days.
+- Tab Azithromycin 500 mg orally once daily for 3 days.
+
+Antibiotics are not routinely indicated for uncomplicated plaque-induced gingivitis.
+
+Smoking Cessation:
+- Advise complete smoking cessation.
+- Offer referral to a smoking cessation programme where available.
+
+Hydration:
+- Encourage adequate oral hydration (approximately 2–3 litres daily unless contraindicated).
+- Advise chewing sugar-free gum after meals if dry mouth is present.
+
+
+HEALTH EDUCATION:
+Patient counselled that approximately 80–90% of persistent halitosis originates from the oral cavity, commonly due to bacterial accumulation on the tongue, dental plaque and gum disease.
+
+Emphasised brushing twice daily, tongue cleaning, daily flossing and routine dental reviews every six months.
+
+Advised reduction of tobacco use, alcohol intake and strongly odorous foods.
+
+Instructed to seek medical review if symptoms persist despite adequate oral hygiene or if associated with weight loss, persistent sore throat, dysphagia or recurrent oral ulcers.
+
+
+FOLLOW-UP:
+Review in the Dental Clinic after 2 weeks following scaling and initiation of oral hygiene measures.
+
+Routine dental review every 6 months.
+
+If halitosis persists despite appropriate dental treatment, refer to an ENT specialist or Gastroenterologist for evaluation of non-oral causes.
+
+Prognosis is excellent with professional dental cleaning, improved oral hygiene, tongue cleaning and regular dental follow-up.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'gopd-01',
   title: 'Chronic Insomnia Disorder',
@@ -22508,6 +23342,993 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
+  id: 'ob-05',
+  title: 'Routine Antenatal Follow-Up (Term Pregnancy)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Routine Antenatal Care',
+  symptoms: [
+    'Routine antenatal follow-up',
+    'Term singleton pregnancy',
+    'Cephalic presentation',
+    'No obstetric complaints'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '27-year-old G2P1+0 at 38 weeks 5 days gestation presenting for routine antenatal follow-up with an uncomplicated singleton term pregnancy.',
+  content: `
+ANTENATAL CLINIC FOLLOW-UP
+
+Patient Seen:
+A 27-year-old G2P1+0, married teacher, Christian, Yoruba, residing in Ibara, Abeokuta.
+
+LMP: 20/10/2025
+EGA: 38 weeks 5 days
+EDD: 27/07/2026
+
+PC:
+Routine antenatal follow-up.
+
+HPC:
+Patient presented for routine antenatal follow-up.
+
+The pregnancy has remained uneventful since the last clinic visit.
+
+There is no history of headache, blurring of vision, epigastric pain, facial swelling, vaginal bleeding, leakage of liquor, or regular uterine contractions.
+
+Fetal movements are well perceived.
+
+There is no history of fever, dysuria, or abnormal vaginal discharge.
+
+She is compliant with haematinics and other prescribed medications.
+
+Booking Investigations:
+- PCV: 33%.
+- Blood Group: O Rh D Positive.
+- Hb Genotype: AA.
+- RVS: Negative.
+- HBsAg: Negative.
+- HCV: Negative.
+- VDRL: Non-reactive.
+- Urinalysis: Nil abnormality detected.
+- Obstetric ultrasound scan: Singleton viable intrauterine pregnancy corresponding to gestational age.
+
+Immunization/Prophylaxis:
+- Received TT1 and TT2.
+- Received IPT1, IPT2, IPT3 and IPT4.
+- Currently on routine haematinics.
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated. No pedal oedema.
+
+Weight: 80 kg
+
+RR: 20 cpm
+PR: 86 bpm
+BP: 118/76 mmHg
+Temperature: 36.8°C
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Gravidly enlarged abdomen, moves with respiration.
+Soft and non-tender.
+
+SFH: 38 cm.
+
+Singleton fetus.
+Longitudinal lie.
+Cephalic presentation.
+Presenting part 2/5 palpable per abdomen (engaged).
+Fetal movements present.
+Fetal heart rate: 144 bpm, regular.
+
+ASSESSMENT:
+27-year-old G2P1+0 at 38 weeks 5 days gestation with an uncomplicated singleton term pregnancy.
+
+PLAN:
+- Continue Tab Ferrous Sulphate 200 mg twice daily.
+- Continue Tab Folic Acid 5 mg daily.
+- Continue Tab Vitamin C 200 mg three times daily.
+- Continue routine antenatal multivitamins.
+- Repeat PCV and urinalysis if not done within the last 2 weeks.
+- Counsel on:
+  - Daily fetal movement counting.
+  - Signs of labour (regular painful uterine contractions, show, and rupture of membranes).
+  - Danger signs including vaginal bleeding, reduced or absent fetal movements, severe headache, blurring of vision, convulsions, fever, or leakage of liquor.
+  - Immediate presentation to the labour ward if labour commences or membranes rupture.
+- Review delivery plan and ensure birth preparedness:
+  - Planned hospital delivery.
+  - Availability of a blood donor if required.
+  - Transportation arrangements.
+  - Baby items and delivery materials ready.
+- Schedule induction of labour if pregnancy extends beyond 40–41 weeks in accordance with hospital protocol.
+- Review in the Antenatal Clinic in 1 week or earlier if labour commences or any danger sign develops.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-06',
+  title: 'Postnatal Clinic Review (Day 2) – Mother and Healthy Term Neonate',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Postnatal Clinic',
+  condition: 'Routine Postnatal Care',
+  symptoms: [
+    'Postnatal review',
+    'Day 2 postpartum',
+    'Healthy mother',
+    'Healthy term neonate'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '28-year-old P2+0 reviewed on Day 2 following spontaneous vaginal delivery of a healthy term male infant. Both mother and baby are clinically stable.',
+  content: `
+POSTNATAL CLINIC REVIEW (DAY 2)
+
+Patient Seen:
+A 28-year-old P2+0, Day 2 following spontaneous vaginal delivery of a live male infant at term.
+
+MATERNAL REVIEW
+
+PC:
+Routine postnatal review.
+
+HPC:
+Mother has no complaints.
+
+Pain is adequately controlled and she is ambulant.
+
+Breastfeeding has been established with good infant attachment and effective suckling.
+
+There is no history of excessive vaginal bleeding, passage of large clots, foul-smelling lochia, lower abdominal pain, fever, dysuria, calf pain or swelling, headache, blurring of vision, or difficulty breathing.
+
+Appetite is satisfactory.
+
+She has passed urine and opened her bowels.
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 74 kg
+
+RR: 18 cpm
+PR: 80 bpm
+BP: 118/74 mmHg
+Temperature: 36.8°C
+SpO₂: 99% on room air
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Chest clinically clear.
+Breasts full with healthy nipples.
+Breastfeeding well established.
+
+ABD:
+Uterus well contracted.
+Fundal height approximately 16-week size (about 2 cm below the umbilicus).
+Mild expected uterine tenderness.
+Lochia rubra, moderate and non-offensive.
+
+Perineum:
+Episiotomy/laceration repair intact (where applicable).
+Wound clean and dry.
+
+EXTREMITIES:
+No pedal oedema.
+No calf tenderness.
+
+ASSESSMENT:
+28-year-old P2+0, Day 2 following spontaneous vaginal delivery, clinically stable.
+
+PLAN:
+- Continue exclusive breastfeeding on demand.
+- Continue Tab Ferrous Sulphate 200 mg twice daily for 3 months.
+- Continue Tab Folic Acid 5 mg daily for 6 weeks.
+- Continue analgesia:
+  - Tab Paracetamol 1 g orally every 8 hours as required.
+  - Tab Ibuprofen 400 mg orally every 8 hours after meals as required (if no contraindication).
+- Encourage early ambulation, adequate oral hydration, and a balanced diet.
+- Counsel on breast care and exclusive breastfeeding.
+- Counsel on perineal hygiene.
+- Counsel on postpartum danger signs including excessive vaginal bleeding, foul-smelling lochia, fever, severe abdominal pain, severe headache, difficulty breathing, or calf swelling.
+- Discuss postpartum family planning options.
+- Review at the postnatal clinic in 6 weeks or earlier if symptoms develop.
+
+BABY REVIEW
+
+Patient Seen:
+Male neonate, Day 2 of life, delivered at term by spontaneous vaginal delivery.
+
+HPC:
+Mother reports the baby is breastfeeding well every 2–3 hours with good suck.
+
+The baby has passed urine several times and has passed meconium.
+
+There is no history of fever, jaundice, poor feeding, vomiting, excessive crying, fast breathing, or convulsions.
+
+O/E:
+Active, pink, afebrile, not pale, anicteric, acyanosed, well hydrated.
+
+Weight: 3.2 kg
+
+RR: 42 cpm
+PR: 138 bpm
+Temperature: 36.7°C
+SpO₂: 99% on room air
+
+HEAD:
+Anterior fontanelle soft and flat.
+
+CHEST:
+Chest clinically clear.
+Vesicular breath sounds.
+
+CVS:
+Heart sounds S1 and S2 only.
+No murmurs.
+
+ABD:
+Soft and non-distended.
+Umbilical stump clean and dry.
+
+CNS:
+Active with good tone.
+Primitive reflexes intact.
+
+ASSESSMENT:
+Healthy term male neonate, Day 2 of life.
+
+PLAN:
+- Continue exclusive breastfeeding on demand.
+- Monitor urine and stool output.
+- Continue cord care with chlorhexidine gel (where indicated by local protocol) and keep the stump clean and dry.
+- Ensure BCG, OPV-0, and Hepatitis B birth-dose vaccines have been administered (or administer if not yet given).
+- Counsel mother on neonatal danger signs including poor feeding, fever, hypothermia, jaundice extending to the limbs, fast breathing, convulsions, or reduced activity.
+- Encourage kangaroo mother care/skin-to-skin contact where appropriate.
+- Review at the immunization clinic and postnatal clinic as scheduled or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-07',
+  title: 'Postnatal Clinic Review (Day 4) – Mother and Healthy Term Neonate',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Postnatal Clinic',
+  condition: 'Routine Postnatal Care',
+  symptoms: [
+    'Postnatal review',
+    'Day 4 postpartum',
+    'Healthy mother',
+    'Healthy term neonate'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '28-year-old P2+0 reviewed on Day 4 following spontaneous vaginal delivery of a healthy term male infant. Both mother and baby are clinically stable with normal postnatal progress.',
+  content: `
+POSTNATAL CLINIC REVIEW (DAY 4)
+
+Patient Seen:
+A 28-year-old P2+0, Day 4 following spontaneous vaginal delivery of a live male infant at term.
+
+MATERNAL REVIEW
+
+PC:
+Routine postnatal review.
+
+HPC:
+Mother has no complaints.
+
+She reports she has remained well since the last review.
+
+Breastfeeding is well established with good infant attachment and suckling.
+
+There is no history of breast pain, breast engorgement, nipple cracks or nipple discharge.
+
+There is no history of excessive vaginal bleeding, passage of large clots, foul-smelling lochia, lower abdominal pain, fever, dysuria, calf pain or swelling, headache, blurring of vision, or difficulty breathing.
+
+Lochia has reduced in amount.
+
+Appetite and sleep are satisfactory.
+
+She is ambulant and has passed urine and opened her bowels without difficulty.
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 73 kg
+
+RR: 18 cpm
+PR: 78 bpm
+BP: 116/72 mmHg
+Temperature: 36.7°C
+SpO₂: 99% on room air
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Chest clinically clear.
+Breasts full but not engorged.
+Nipples healthy.
+Breastfeeding well established.
+
+ABD:
+Soft and non-tender.
+Uterus well contracted.
+Fundus approximately 4 cm below the umbilicus.
+Lochia rubra, scanty and non-offensive.
+
+Perineum:
+Episiotomy/laceration repair healthy (where applicable).
+Wound clean, dry and healing satisfactorily.
+No perineal haematoma or discharge.
+
+EXTREMITIES:
+No pedal oedema.
+No calf tenderness.
+
+ASSESSMENT:
+28-year-old P2+0, Day 4 following spontaneous vaginal delivery, clinically stable.
+
+PLAN:
+- Continue exclusive breastfeeding on demand.
+- Continue Tab Ferrous Sulphate 200 mg twice daily for 3 months.
+- Continue Tab Folic Acid 5 mg daily for 6 weeks postpartum.
+- Continue analgesics only as required:
+  - Tab Paracetamol 1 g orally every 8 hours as required.
+  - Tab Ibuprofen 400 mg orally every 8 hours after meals as required (if no contraindications).
+- Encourage adequate oral hydration, balanced diet, and early ambulation.
+- Continue perineal hygiene and breast care.
+- Counsel on postpartum danger signs including excessive vaginal bleeding, offensive lochia, fever, severe abdominal pain, breast redness or swelling, calf pain or swelling, and severe headache.
+- Discuss postpartum family planning and schedule commencement where appropriate.
+- Review at the 6-week postnatal clinic or earlier if symptoms develop.
+
+BABY REVIEW
+
+Patient Seen:
+Male neonate, Day 4 of life, delivered at term by spontaneous vaginal delivery.
+
+HPC:
+Mother reports the baby is breastfeeding well on demand (8–12 feeds/day) with good suck and attachment.
+
+The baby has passed urine more than six times in the last 24 hours and has passed transitional stools.
+
+There is no history of fever, poor feeding, vomiting, excessive crying, fast breathing, jaundice progressing to the lower limbs, convulsions, or reduced activity.
+
+O/E:
+Active, alert, pink, afebrile, not pale, mildly icteric (physiological jaundice limited to the face), acyanosed, well hydrated.
+
+Weight: 3.1 kg (acceptable physiological weight loss)
+
+RR: 40 cpm
+PR: 140 bpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+
+HEAD:
+Anterior fontanelle soft and flat.
+
+CHEST:
+Chest clinically clear.
+Vesicular breath sounds.
+
+CVS:
+Heart sounds S1 and S2 only.
+No murmurs.
+
+ABD:
+Soft and non-distended.
+Umbilical stump clean, dry and healthy.
+No peri-umbilical erythema or discharge.
+
+CNS:
+Active.
+Good tone.
+Normal neonatal reflexes present.
+
+ASSESSMENT:
+1. Healthy term male neonate, Day 4 of life.
+2. Physiological neonatal weight loss.
+3. Physiological neonatal jaundice.
+
+PLAN:
+- Continue exclusive breastfeeding on demand.
+- Reassure mother regarding physiological weight loss and mild physiological jaundice.
+- Encourage adequate feeding (8–12 feeds/day).
+- Continue cord care with chlorhexidine gel (where indicated by local protocol) and keep the umbilical stump clean and dry.
+- Confirm that BCG, OPV-0, and Hepatitis B birth-dose vaccines have been administered.
+- Counsel mother on neonatal danger signs including poor feeding, fever, hypothermia, worsening jaundice, fast breathing, convulsions, lethargy, or reduced urine output.
+- Review at the postnatal/immunization clinic as scheduled or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-08',
+  title: 'Postnatal Clinic Review (Day 6) – Mother and Healthy Term Neonate',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Postnatal Clinic',
+  condition: 'Routine Postnatal Care',
+  symptoms: [
+    'Postnatal review',
+    'Day 6 postpartum',
+    'Healthy mother',
+    'Healthy term neonate'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '28-year-old P2+0 reviewed on Day 6 following spontaneous vaginal delivery of a healthy term male infant. Mother demonstrates satisfactory puerperal involution and the neonate is thriving on exclusive breastfeeding.',
+  content: `
+POSTNATAL CLINIC REVIEW (DAY 6)
+
+Patient Seen:
+A 28-year-old P2+0, Day 6 following spontaneous vaginal delivery of a live male infant at term.
+
+========================
+MATERNAL REVIEW
+========================
+
+PC:
+Routine postnatal review.
+
+HPC:
+Mother has no complaints.
+
+She reports she has remained well since delivery.
+
+Breastfeeding is well established with good infant attachment and suckling.
+
+There is no history of breast pain, engorgement, nipple cracks or mastitis.
+
+There is no history of excessive vaginal bleeding, passage of clots, foul-smelling lochia, lower abdominal pain, fever, dysuria, calf pain or swelling, headache, blurring of vision, or difficulty breathing.
+
+Lochia has reduced and is now scanty.
+
+Appetite and sleep are satisfactory.
+
+She is ambulant independently and has passed urine and opened her bowels without difficulty.
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 72 kg
+
+RR: 18 cpm
+PR: 76 bpm
+BP: 118/76 mmHg
+Temperature: 36.7°C
+SpO₂: 99% on room air
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Chest clinically clear.
+Breasts soft with good milk production.
+Nipples healthy.
+Breastfeeding well established.
+
+ABD:
+Soft and non-tender.
+Uterus well contracted.
+Fundus not palpable abdominally (well involuted into the pelvis).
+Lochia serosa, scanty and non-offensive.
+
+Perineum:
+Episiotomy/laceration repair healed satisfactorily (where applicable).
+Wound clean and dry with no evidence of infection.
+
+EXTREMITIES:
+No pedal oedema.
+No calf tenderness.
+
+ASSESSMENT:
+28-year-old P2+0, Day 6 following spontaneous vaginal delivery, clinically stable with satisfactory puerperal involution.
+
+PLAN:
+- Continue exclusive breastfeeding on demand.
+- Continue Tab Ferrous Sulphate 200 mg twice daily for 3 months postpartum.
+- Continue Tab Folic Acid 5 mg daily for 6 weeks postpartum.
+- Continue routine postnatal multivitamins if prescribed.
+- Encourage adequate nutrition, hydration, adequate rest, and continued early ambulation.
+- Continue good breast and perineal hygiene.
+- Counsel on postpartum danger signs including heavy vaginal bleeding, offensive lochia, fever, severe abdominal pain, breast redness or swelling, calf pain or swelling, and severe headache.
+- Reinforce postpartum family planning counselling and discuss suitable contraceptive options.
+- Review at the 6-week postnatal clinic or earlier if symptoms develop.
+
+========================
+BABY REVIEW
+========================
+
+Patient Seen:
+Male neonate, Day 6 of life, delivered at term by spontaneous vaginal delivery.
+
+HPC:
+Mother reports the baby is breastfeeding exclusively on demand (8–12 feeds/day) with good suck and attachment.
+
+The baby passes urine adequately (>6 wet diapers/day) and stools regularly.
+
+There is no history of poor feeding, fever, vomiting, worsening jaundice, fast breathing, excessive crying, convulsions, or reduced activity.
+
+O/E:
+Active, alert, pink, afebrile, not pale, anicteric, acyanosed, well hydrated.
+
+Weight: 3.3 kg (regaining birth weight appropriately)
+
+RR: 42 cpm
+PR: 138 bpm
+Temperature: 36.8°C
+SpO₂: 99% on room air
+
+HEAD:
+Anterior fontanelle soft and flat.
+
+CHEST:
+Chest clinically clear.
+Vesicular breath sounds.
+
+CVS:
+Heart sounds S1 and S2 only.
+No murmurs.
+
+ABD:
+Soft and non-distended.
+Umbilical stump dry, shrivelling and separating normally.
+No peri-umbilical erythema, discharge, or bleeding.
+
+CNS:
+Active with good tone.
+Primitive neonatal reflexes present and appropriate for age.
+
+ASSESSMENT:
+Healthy term male neonate, Day 6 of life, thriving on exclusive breastfeeding.
+
+PLAN:
+- Continue exclusive breastfeeding on demand.
+- Continue routine cord care until the umbilical stump separates completely.
+- Confirm that BCG, OPV-0, and Hepatitis B birth-dose vaccines have been administered.
+- Encourage warmth, skin-to-skin contact, and routine newborn care.
+- Counsel mother on neonatal danger signs including poor feeding, fever, hypothermia, jaundice extending to the palms and soles, fast breathing, convulsions, lethargy, or umbilical discharge.
+- Continue routine immunization schedule.
+- Review at the 6-week postnatal/immunization clinic or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-02',
+  title: 'Routine Antenatal Follow-Up (First Trimester)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Routine Antenatal Care',
+  symptoms: [
+    'Routine antenatal follow-up',
+    'Singleton pregnancy',
+    'First trimester pregnancy',
+    'No obstetric complaints'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '26-year-old G2P1+0 at 11 weeks 4 days gestation presenting for routine first-trimester antenatal follow-up with an uncomplicated singleton pregnancy.',
+  content: `
+ANTENATAL CLINIC FOLLOW-UP
+
+Patient Seen:
+A 26-year-old G2P1+0, married trader, Christian, Yoruba, residing in Lafenwa, Abeokuta.
+
+LMP: 05/05/2026
+EGA: 11 weeks 4 days
+EDD: 09/02/2027
+
+Pt. presented for routine ANC follow-up.
+
+Patient presented for routine antenatal follow-up.
+
+The pregnancy has remained uneventful since booking.
+
+There is no history of vaginal bleeding, lower abdominal pain, leakage of fluid per vaginam, abnormal vaginal discharge, fever, dysuria, excessive vomiting, syncopal attacks, or significant weight loss.
+
+She is compliant with prescribed haematinics.
+
+Appetite is satisfactory.
+
+Booking Investigations:
+- PCV: 32%.
+- Blood Group: O Rh D Positive.
+- Hb Genotype: AA.
+- RVS: Negative.
+- HBsAg: Negative.
+- HCV: Negative.
+- VDRL: Non-reactive.
+- Urinalysis: Normal.
+- Obstetric ultrasound scan: Single viable intrauterine pregnancy corresponding to gestational age.
+
+Current Medications:
+- Tab Folic Acid 5 mg daily.
+- Tab Ferrous Sulphate 200 mg twice daily.
+- Routine antenatal multivitamins.
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Weight: 65 kg
+
+RR: 18 cpm
+PR: 82 bpm
+BP: 108/68 mmHg
+Temperature: 36.7°C
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Soft and non-tender.
+No palpable masses.
+Uterus not palpable abdominally, consistent with gestational age.
+
+ASSESSMENT:
+26-year-old G2P1+0 at 11 weeks 4 days gestation with an uncomplicated singleton pregnancy.
+
+PLAN:
+- Continue Tab Folic Acid 5 mg daily until completion of the first trimester.
+- Continue Tab Ferrous Sulphate 200 mg twice daily.
+- Continue routine antenatal multivitamins.
+- Counsel on balanced diet, adequate hydration, and regular antenatal attendance.
+- Advise commencement of intermittent preventive treatment for malaria (IPTp-SP) after quickening and when eligible.
+- Encourage daily use of a long-lasting insecticide-treated mosquito net (LLIN).
+- Plan for Tetanus Toxoid vaccination if not previously received, according to the National Programme on Immunization schedule.
+- Counsel on danger signs in pregnancy including vaginal bleeding, severe abdominal pain, persistent vomiting, fever, passage of liquor per vaginam, or reduced maternal wellbeing.
+- Review in the Antenatal Clinic in 4 weeks or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-03',
+  title: 'Routine Antenatal Follow-Up (Second Trimester)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Routine Antenatal Care',
+  symptoms: [
+    'Routine antenatal follow-up',
+    'Singleton pregnancy',
+    'Second trimester pregnancy',
+    'No obstetric complaints'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '29-year-old G3P2+0 at 24 weeks 3 days gestation presenting for routine second-trimester antenatal follow-up with an uncomplicated singleton pregnancy.',
+  content: `
+ANTENATAL CLINIC FOLLOW-UP
+
+Patient Seen:
+A 29-year-old G3P2+0, married civil servant, Christian, Yoruba, residing in Adigbe, Abeokuta.
+
+LMP: 27/01/2026
+EGA: 24 weeks 3 days
+EDD: 03/11/2026
+
+Pt. presented for routine second trimester ANC follow-up.
+
+No complaints. Pregnancy has been progressing satisfactorily. No history of vaginal bleeding, lower abdominal pain, leakage of liquor, abnormal vaginal discharge, fever, dysuria, headache, blurring of vision, facial swelling or reduced fetal movements. Fetal movements have been well perceived. Compliant with haematinics and antenatal medications. Appetite and sleep satisfactory.
+
+Booking investigations:
+PCV: 33%
+Blood Group: B Rh D Positive
+Hb Genotype: AS
+RVS: Negative
+HBsAg: Negative
+HCV: Negative
+VDRL: Non-reactive
+Urinalysis: Nil abnormality detected.
+Obstetric USS: Singleton viable intrauterine pregnancy corresponding to gestational age.
+
+Received TT1 and TT2.
+Received IPT1 at 20 weeks gestation.
+Currently on routine haematinics.
+
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated. No pedal oedema.
+
+Weight: 72 kg
+
+RR: 20 cpm
+PR: 84 bpm
+BP: 110/70 mmHg
+Temperature: 36.8°C
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Gravidly enlarged abdomen, moves with respiration.
+Soft and non-tender.
+
+SFH: 24 cm.
+
+Singleton fetus.
+Longitudinal lie.
+Cephalic presentation.
+Fetal movements present.
+Fetal heart rate: 146 bpm, regular.
+
+ASSESSMENT:
+29-year-old G3P2+0 at 24 weeks 3 days gestation with an uncomplicated singleton pregnancy.
+
+PLAN:
+- Continue Tab Ferrous Sulphate 200 mg twice daily.
+- Continue Tab Folic Acid 5 mg daily.
+- Continue Tab Vitamin C 200 mg three times daily.
+- Continue routine antenatal multivitamins.
+- Administer IPT2 with Tab Fansidar iii stat under directly observed therapy when due (at least 4 weeks after IPT1).
+- Continue Tetanus Toxoid vaccination as scheduled if not yet completed.
+- Counsel on adequate nutrition, hydration, and daily use of a long-lasting insecticide-treated mosquito net (LLIN).
+- Counsel on fetal kick count and danger signs in pregnancy including vaginal bleeding, leakage of liquor, reduced fetal movements, severe headache, blurring of vision, severe abdominal pain, and facial swelling.
+- Repeat PCV at 28 weeks gestation.
+- Schedule a 75 g oral glucose tolerance test (OGTT) between 24–28 weeks to screen for gestational diabetes mellitus.
+- Review in the Antenatal Clinic in 4 weeks or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-04',
+  title: 'Routine Antenatal Follow-Up (Third Trimester)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Routine Antenatal Care',
+  symptoms: [
+    'Routine antenatal follow-up',
+    'Singleton pregnancy',
+    'Third trimester pregnancy',
+    'No obstetric complaints'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '32-year-old G3P2+0 at 34 weeks 5 days gestation presenting for routine third-trimester antenatal follow-up with an uncomplicated singleton pregnancy.',
+  content: `
+ANTENATAL CLINIC FOLLOW-UP
+
+Patient Seen:
+A 32-year-old G3P2+0, married trader, Christian, Yoruba, residing in Lafenwa, Abeokuta.
+
+LMP: 15/11/2025
+EGA: 34 weeks 5 days
+EDD: 22/08/2026
+
+Pt. presented for routine ANC follow-up.
+
+No complaints. Pregnancy has remained uneventful since the last clinic visit. No history of headache, blurring of vision, epigastric pain, facial swelling, vaginal bleeding, leakage of liquor, lower abdominal pain or reduced fetal movements. Fetal movements are well perceived. No history of fever, dysuria or abnormal vaginal discharge. No uterine contractions. Compliant with haematinics and other prescribed medications. Appetite and sleep satisfactory.
+
+Booking investigations:
+PCV: 34%
+Blood Group: O Rh D Positive
+Hb Genotype: AA
+RVS: Negative
+HBsAg: Negative
+HCV: Negative
+VDRL: Non-reactive
+Urinalysis: Nil abnormality detected.
+Obstetric USS: Singleton viable intrauterine pregnancy corresponding to gestational age.
+
+Received TT1 and TT2.
+Received IPT1, IPT2 and IPT3.
+Currently on routine haematinics.
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated. No pedal oedema.
+
+Weight: 78 kg
+
+RR: 20 cpm
+PR: 88 bpm
+BP: 118/74 mmHg
+Temperature: 36.8°C
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Gravidly enlarged abdomen, moves with respiration.
+Soft and non-tender.
+
+SFH: 35 cm.
+
+Singleton fetus.
+Longitudinal lie.
+Cephalic presentation.
+Engagement: 4/5 palpable per abdomen.
+Fetal movements present.
+Fetal heart rate: 144 bpm, regular.
+
+ASSESSMENT:
+32-year-old G3P2+0 at 34 weeks 5 days gestation with an uncomplicated singleton pregnancy.
+
+PLAN:
+- Continue Tab Ferrous Sulphate 200 mg twice daily.
+- Continue Tab Folic Acid 5 mg daily.
+- Continue Tab Vitamin C 200 mg three times daily.
+- Continue routine antenatal multivitamins.
+- Administer IPT4 with Tab Fansidar iii stat under directly observed therapy when due (at least 4 weeks after the previous dose).
+- Continue routine antenatal care with monitoring of maternal weight, blood pressure, and fetal wellbeing.
+- Repeat PCV at 36 weeks gestation.
+- Perform urinalysis at each antenatal visit.
+- Arrange obstetric ultrasound scan if clinically indicated to assess fetal growth, liquor volume, and placental location.
+- Counsel on daily fetal movement counting (kick chart).
+- Counsel on signs of labour and when to present to the hospital.
+- Counsel on danger signs in pregnancy including vaginal bleeding, leakage of liquor, severe headache, blurring of vision, severe abdominal pain, reduced fetal movements, fever, and convulsions.
+- Discuss birth preparedness and complication readiness, including hospital delivery, availability of a blood donor if required, transportation plan, and newborn care.
+- Encourage continued use of a long-lasting insecticide-treated mosquito net (LLIN).
+- Review in the Antenatal Clinic in 2/52 or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-01',
+  title: 'Antenatal Booking Visit (Low-Risk Singleton Pregnancy)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Routine Antenatal Care',
+  symptoms: [
+    'Antenatal booking',
+    'Singleton pregnancy',
+    'Second trimester pregnancy',
+    'No obstetric complaints'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '30-year-old G4P1+2(1A) at 21 weeks 6 days gestation presenting for antenatal booking with an uncomplicated singleton pregnancy.',
+  content: `
+ANTENATAL CLINIC BOOKING
+
+Patient Seen:
+A 30-year-old G4P1+2(1A), married undergraduate, Muslim, Yoruba, residing in Ibadan.
+
+LMP: 23/06/2023
+EGA: 21 weeks 6 days
+EDD: 29/06/2024
+
+PC:
+Antenatal booking.
+
+HPC:
+Patient presented for routine antenatal booking.
+
+The pregnancy was planned and has been uneventful.
+
+There is no history of vaginal bleeding, lower abdominal pain, leakage of liquor, abnormal vaginal discharge, fever, dysuria, or reduced fetal movements. Quickening has been appreciated.
+
+She is currently on routine haematinics with good compliance.
+
+Booking Investigations:
+- Retroviral screening (RVS): Negative.
+- VDRL: Non-reactive.
+- Yet to perform:
+  - Haemoglobin genotype.
+  - Blood group and Rhesus factor.
+  - PCV/FBC.
+  - HBsAg.
+  - HCV screening.
+  - Urinalysis.
+  - Fasting blood sugar.
+  - Obstetric ultrasound scan.
+
+Immunization/Prophylaxis:
+- Yet to receive Tetanus Toxoid.
+- Yet to commence Intermittent Preventive Treatment in pregnancy (IPTp).
+
+O/E:
+Young woman, conscious and alert, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Bilateral ankle oedema present.
+
+Weight: 74 kg
+
+RR: 22 cpm
+PR: 86 bpm
+BP: 90/60 mmHg
+Temperature: 36.8°C
+
+CVS:
+Heart sounds S1 and S2 only.
+
+CHEST:
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+Gravidly enlarged abdomen, moves with respiration.
+Soft and non-tender.
+
+SFH: 23 cm.
+
+Singleton fetus.
+Longitudinal lie.
+Cephalic presentation.
+Fetal heart rate present and regular at approximately 148 bpm.
+
+ASSESSMENT:
+30-year-old G4P1+2(1A) at 21 weeks 6 days gestation with a low-risk singleton pregnancy.
+
+PLAN:
+- Complete booking investigations:
+  - PCV/FBC.
+  - Haemoglobin genotype.
+  - Blood group and Rhesus factor.
+  - HBsAg.
+  - HCV screening.
+  - Urinalysis ± MCS if indicated.
+  - Fasting blood sugar (or random blood sugar if indicated).
+  - Obstetric ultrasound scan.
+- Administer IM Tetanus Toxoid 0.5 mL stat (TT1).
+- Administer Tab Fansidar (Sulphadoxine-Pyrimethamine) iii stat under directly observed therapy as first dose of IPTp.
+- Continue Tab Ferrous Sulphate 200 mg twice daily.
+- Continue Tab Folic Acid 5 mg daily.
+- Continue Tab Vitamin C 200 mg three times daily.
+- Continue routine antenatal multivitamins.
+- Counsel on adequate nutrition, hydration, and malaria prevention including daily use of a long-lasting insecticide-treated mosquito net.
+- Counsel on danger signs in pregnancy including vaginal bleeding, severe abdominal pain, severe headache, blurring of vision, reduced fetal movements, leakage of liquor, and fever.
+- Return to the Antenatal Clinic in 4 weeks or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'ob-04',
   title: 'Active Phase of the First Stage of Labour',
   specialty: 'Obstetrics and Gynecology',
@@ -25698,6 +27519,3125 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-01',
+  title: 'Haemotoxic Snake Bite Envenomation',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Snake Bite with Haemotoxic Envenomation',
+  symptoms: [
+    'Snake bite injury',
+    'Pain and swelling of left leg',
+    'Bleeding from bite site',
+    'Dizziness',
+    'Generalized weakness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-19',
+  summary: '38-year-old male farmer presenting with snake bite injury to the left lower limb associated with progressive swelling and bleeding, consistent with likely viper envenomation causing haemotoxic coagulopathy.',
+  content: `
+GENERAL SURGERY UNIT
+
+Patient Seen
+
+A 38-year-old married male farmer from Yewa North, Ogun State, Christian, Yoruba, with HLE: Primary.
+
+Informants: Patient and wife (Reliable)
+
+PC:
+Snake bite on the left leg × 3 hours.
+Pain and swelling of the left leg × 3 hours.
+Bleeding from bite site × 2 hours.
+
+HPC:
+The patient was apparently well until about three hours prior to presentation when he sustained a snake bite injury to the left lower leg while harvesting cassava on his farm.
+
+He described the snake as brown with dark markings, approximately one metre long. The snake struck once before disappearing into nearby vegetation.
+
+Immediately following the bite, he developed severe burning pain at the bite site followed by progressive swelling involving the left foot and lower leg. Bleeding from the puncture wounds persisted despite application of a cloth bandage.
+
+Approximately one hour later, he noticed bleeding from his gums while brushing his teeth and persistent oozing from the bite site.
+
+There is associated dizziness and generalized weakness.
+
+No history of loss of consciousness.
+No vomiting.
+No abdominal pain.
+No difficulty breathing.
+No drooping of eyelids.
+No difficulty swallowing.
+No limb weakness.
+
+No tourniquet was applied.
+No incision or suction was performed.
+No traditional treatment was received before presentation.
+
+Review of Systems:
+
+General:
+Severe pain.
+Generalized weakness.
+Dizziness.
+No fever.
+
+Skin:
+Progressive swelling of affected limb.
+Persistent bleeding from bite site.
+No rash.
+
+Cardiovascular:
+Dizziness.
+No chest pain or palpitations.
+
+Respiratory:
+No cough, shortness of breath or wheezing.
+
+Gastrointestinal:
+No nausea, vomiting or abdominal pain.
+
+Neurological:
+No blurred vision.
+No ptosis.
+No dysphagia.
+No limb weakness.
+No seizures.
+
+Genitourinary:
+No haematuria.
+No reduced urine output.
+
+Past Medical History:
+No hypertension.
+No diabetes mellitus.
+No bleeding disorders.
+No previous snake bites.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+No known drug allergies.
+
+Immunization History:
+Last tetanus booster received over 10 years ago.
+
+Family History:
+Nil contributory.
+
+Social History:
+Farmer.
+Lives in a rural community.
+Non-smoker.
+Occasional alcohol consumption.
+
+O/E:
+Middle-aged man, conscious and alert.
+Moderately ill-looking.
+In painful distress.
+Mild dehydration.
+No jaundice.
+No cyanosis.
+No pallor.
+Active bleeding from bite site.
+
+Vital Signs:
+BP: 100/64 mmHg
+PR: 108 bpm, regular
+RR: 20 cpm
+Temperature: 37.2°C
+SpO₂: 98% in room air
+Weight: 72 kg
+
+Local Examination (Left Leg):
+
+Two fang puncture marks over the anteromedial aspect of the lower left leg.
+
+Persistent oozing of dark blood.
+
+Marked swelling extending from the foot to just below the knee.
+
+Affected limb warm and tender.
+
+No skin necrosis.
+
+No evidence of compartment syndrome.
+
+Distal pulses palpable.
+Capillary refill <2 seconds.
+Sensation intact.
+Active toe movement preserved.
+
+Calf circumference:
+Affected limb: 39 cm.
+Unaffected limb: 34 cm.
+
+Systemic Examination:
+
+CVS:
+Tachycardic.
+Heart sounds I and II normal.
+No murmurs.
+
+Chest:
+Normal vesicular breath sounds.
+No added sounds.
+
+Abdomen:
+Soft and non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+CNS:
+GCS 15/15.
+No cranial nerve deficits.
+Power 5/5 in all limbs.
+Normal reflexes.
+
+Assessment:
+Venomous snake bite (likely viper envenomation) with local tissue injury and haemotoxic envenomation.
+
+Differential Diagnoses:
+1. Non-venomous snake bite.
+2. Cellulitis.
+3. Traumatic puncture wound.
+4. Spider bite.
+
+Investigations:
+
+Bedside:
+- 20-Minute Whole Blood Clotting Test (20WBCT).
+  Expected finding:
+  Failure of blood to clot after 20 minutes indicating coagulopathy.
+- Measure limb circumference every 4 hours.
+- Urine dipstick for haematuria.
+
+Laboratory:
+- Full Blood Count.
+- Blood group and cross-match.
+- Coagulation profile (PT/INR, aPTT, fibrinogen).
+- Serum electrolytes, urea and creatinine.
+- Liver function tests.
+- Creatine kinase.
+- Random blood glucose.
+- Urinalysis.
+
+Imaging:
+Not routinely indicated unless fracture or retained foreign body is suspected.
+
+Management:
+
+Immediate Care:
+- Admit to Emergency Ward.
+- Reassure patient.
+- Immobilize affected limb with splint.
+- Elevate limb slightly while avoiding excessive elevation.
+- Remove rings, anklets and tight clothing.
+- Avoid incision, suction, massage or ice application.
+- Do not apply tourniquet.
+
+Intravenous Access:
+- Insert two wide-bore IV cannulae.
+
+Intravenous Fluids:
+- 0.9% Normal Saline 1 litre IV over 2 hours.
+- Continue fluids according to haemodynamic status and urine output.
+- Aim for urine output >0.5 mL/kg/hour.
+- Insert Foley catheter if severe envenomation develops.
+
+Analgesia:
+- Inj. Paracetamol 1 g IV every 6 hours.
+- If severe pain persists:
+  Inj. Tramadol 50–100 mg IV every 8 hours as required.
+- Avoid NSAIDs due to increased bleeding risk.
+
+Antivenom:
+Indications present:
+- Persistent bleeding.
+- Progressive limb swelling.
+- Suspected coagulopathy.
+
+Administer:
+- Polyvalent Snake Antivenom 10 vials IV diluted in 500 mL 0.9% Normal Saline infused over 60 minutes under close monitoring.
+
+Repeat 20WBCT after 6 hours.
+
+Administer additional 10 vials if coagulopathy persists or bleeding continues.
+
+Premedication:
+Only if indicated according to institutional protocol or previous antivenom reaction:
+- Inj. Adrenaline 0.25 mg IM before antivenom.
+- Ensure emergency medications are readily available.
+
+Management of Antivenom Reaction:
+
+If anaphylaxis develops:
+- Inj. Adrenaline 0.5 mg IM (1:1000 solution) immediately.
+- Repeat every 5–15 minutes if required.
+- Inj. Hydrocortisone 200 mg IV stat.
+- Inj. Chlorpheniramine 10 mg IV stat.
+- Maintain airway and administer oxygen.
+
+Tetanus Prophylaxis:
+- Tetanus toxoid 0.5 mL IM stat.
+
+If immunization incomplete or unknown:
+- Human Tetanus Immunoglobulin 250 IU IM at a separate site.
+
+Antibiotics:
+Routine prophylactic antibiotics not indicated.
+
+If secondary wound infection develops:
+- Inj. Ampicillin-Sulbactam 1.5 g IV every 6 hours.
+OR
+- Tab Amoxicillin-Clavulanate 625 mg orally every 8 hours when able to tolerate oral medication.
+
+Blood Products:
+If severe coagulopathy persists after adequate antivenom:
+- Fresh Frozen Plasma guided by coagulation profile and bleeding status.
+- Packed Red Blood Cells if significant blood loss causes symptomatic anaemia.
+
+Nursing Instructions:
+- Monitor vital signs every 15 minutes during antivenom infusion, then hourly until stable.
+- Repeat 20WBCT every 6 hours until normal.
+- Measure limb circumference every 4 hours.
+- Monitor urine output hourly.
+- Observe for compartment syndrome.
+- Monitor closely for anaphylaxis.
+
+Health Education:
+Explain that snake venom can interfere with blood clotting and damage surrounding tissues. Antivenom is the definitive treatment that neutralizes circulating venom.
+
+Advise against:
+- Incision.
+- Suction.
+- Herbal applications.
+- Tourniquet use.
+
+Encourage preventive measures:
+- Wear protective boots, long trousers and gloves while farming.
+- Seek immediate hospital care after any snake bite.
+
+Follow-up:
+- Daily surgical review for progression of swelling or tissue necrosis.
+- Repeat coagulation studies until normalized.
+- Physiotherapy if prolonged swelling affects mobility.
+- General Surgery Clinic review one week after discharge.
+
+Prognosis:
+Guarded initially due to evidence of haemotoxic envenomation with suspected coagulopathy. With prompt antivenom administration, monitoring, correction of coagulation abnormalities and supportive care, prognosis is generally good. Delay in treatment increases risk of haemorrhage, acute kidney injury, compartment syndrome and death.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-02',
+  title: 'Scorpion Sting with Local Envenomation',
+  specialty: 'Surgery',
+  subSpecialty: 'Emergency Surgery',
+  condition: 'Scorpion Sting',
+  symptoms: [
+    'Severe pain at sting site',
+    'Swelling of right foot',
+    'Numbness around sting site',
+    'Redness at sting site'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-19',
+  summary: '30-year-old male farmer presenting with acute painful scorpion sting injury to the right foot associated with localized swelling and paraesthesia, with no evidence of systemic envenomation.',
+  content: `
+GENERAL SURGERY UNIT
+
+Patient Seen
+
+A 30-year-old married male farmer from Ifo, Ogun State, Christian, Yoruba, with HLE: Primary.
+
+Informant: Patient (Reliable)
+
+PC:
+Severe pain in the right foot × 1 hour.
+Swelling of the right foot × 1 hour.
+Numbness around the sting site × 30 minutes.
+
+HPC:
+The patient was apparently well until about one hour prior to presentation when he was stung on the dorsum of his right foot by a scorpion while wearing open sandals on his farm.
+
+Immediately following the sting, he experienced sudden severe burning pain at the sting site followed by progressive swelling and numbness around the affected area.
+
+The pain is constant, severe (9/10), non-radiating and worsened by movement or touch.
+
+He noticed mild redness around the sting site but no active bleeding.
+
+There is no history of loss of consciousness.
+No generalized itching.
+No widespread rash.
+No facial swelling.
+No difficulty breathing.
+No chest pain.
+No excessive salivation.
+No vomiting.
+No abdominal pain.
+No muscle spasms or involuntary movements.
+
+He has not taken any medication before presentation.
+
+The scorpion was killed by relatives but was not brought to the hospital.
+
+Review of Systems:
+
+General:
+Severe localized pain.
+No fever.
+No generalized weakness.
+
+Skin:
+Localized swelling.
+Redness at sting site.
+No generalized rash.
+
+Respiratory:
+No cough.
+No wheezing.
+No shortness of breath.
+
+Cardiovascular:
+No palpitations.
+No chest pain.
+No dizziness.
+
+Gastrointestinal:
+No nausea.
+No vomiting.
+No diarrhoea.
+No abdominal pain.
+
+Neurological:
+Localized numbness around sting site.
+No seizures.
+No muscle twitching.
+No weakness.
+
+Past Medical History:
+No hypertension.
+No diabetes mellitus.
+No asthma.
+No bleeding disorders.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+No known drug allergies.
+
+Immunization History:
+Childhood immunizations complete.
+Last tetanus booster approximately 8 years ago.
+
+Family History:
+Nil contributory.
+
+Social History:
+Farmer.
+Non-smoker.
+Occasional alcohol consumption.
+Lives with wife and two children.
+
+O/E:
+Young man, conscious and alert.
+In obvious painful distress.
+Well hydrated.
+No pallor.
+No jaundice.
+No cyanosis.
+No generalized oedema.
+
+Vital Signs:
+BP: 124/78 mmHg
+PR: 92 bpm, regular
+RR: 18 cpm
+Temperature: 36.9°C
+SpO₂: 99% in room air
+Weight: 74 kg
+
+Local Examination (Right Foot):
+
+Single puncture mark over the dorsum of the right foot.
+
+Surrounding erythema measuring approximately 4 × 5 cm.
+
+Mild localized swelling.
+
+Marked tenderness over sting site.
+
+No blistering.
+No necrosis.
+No active bleeding.
+No retained foreign body.
+
+Distal pulses palpable.
+Capillary refill <2 seconds.
+Normal toe movements.
+
+Sensation preserved except mild paraesthesia immediately surrounding the sting.
+
+Systemic Examination:
+
+CVS:
+Heart sounds I and II normal.
+No murmurs.
+
+Chest:
+Symmetrical chest expansion.
+Normal vesicular breath sounds.
+No wheeze.
+
+Abdomen:
+Soft and non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+CNS:
+GCS 15/15.
+No cranial nerve deficits.
+Normal muscle tone and power.
+No autonomic features.
+
+Assessment:
+Scorpion sting with moderate local envenomation and no evidence of systemic toxicity.
+
+Differential Diagnoses:
+1. Bee or wasp sting.
+2. Spider bite.
+3. Snake bite (unlikely).
+4. Cellulitis.
+5. Foreign body puncture wound.
+
+Investigations:
+
+Routine investigations are not required in uncomplicated local envenomation.
+
+If systemic envenomation develops:
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Random Blood Glucose.
+- Serum Creatine Kinase.
+- Liver Function Tests.
+- Coagulation Profile.
+- Urinalysis.
+- ECG.
+- Chest X-ray if respiratory symptoms occur.
+
+Management:
+
+Immediate Care:
+- Reassure patient.
+- Immobilize and elevate affected limb.
+- Apply cold compress using wrapped ice pack intermittently for 10–15 minutes every hour during first 24 hours.
+- Clean sting site thoroughly with soap and clean water followed by 0.9% Normal Saline.
+- Do not incise wound.
+- Do not apply tourniquet.
+- Do not attempt venom suction.
+
+Analgesia:
+
+For mild to moderate pain:
+- Tab Paracetamol 1 g orally every 6 hours as required (maximum 4 g/day).
+
+For severe pain:
+- Inj. Diclofenac 75 mg IM stat.
+- Tab Diclofenac 50 mg orally every 8 hours after meals for 3 days if no contraindications.
+
+If pain remains severe:
+- Inj. Tramadol 50 mg IV slowly every 8 hours as required.
+
+Local Wound Care:
+- Clean wound daily.
+- Dress only if skin breakdown develops.
+- Monitor for secondary bacterial infection.
+
+Tetanus Prophylaxis:
+As the last booster was more than 5 years ago and this is a puncture wound:
+- Tetanus Toxoid (Td) 0.5 mL IM stat.
+
+If vaccination history uncertain or incomplete:
+- Human Tetanus Immunoglobulin (HTIG) 250 IU IM at a different site.
+
+Antibiotics:
+Routine prophylactic antibiotics are not recommended for uncomplicated scorpion stings.
+
+If secondary bacterial infection develops:
+- Tab Flucloxacillin 500 mg orally every 6 hours for 5–7 days.
+
+Alternative if penicillin allergy:
+- Tab Clindamycin 300 mg orally every 6 hours for 5 days.
+
+Management of Severe Systemic Envenomation (If It Occurs):
+
+Monitor for:
+- Excessive salivation.
+- Sweating.
+- Vomiting.
+- Hypertension or hypotension.
+- Tachycardia or arrhythmias.
+- Pulmonary oedema.
+- Respiratory distress.
+- Altered consciousness.
+
+Management:
+- High-flow oxygen.
+- Establish IV access.
+- Cardiac monitoring.
+- IV fluids as clinically indicated.
+
+If autonomic storm with severe hypertension:
+- Tab Prazosin 500 micrograms orally, repeated every 3 hours until clinical improvement where appropriate and according to local protocols.
+
+Where scorpion antivenom is available and indicated:
+- Administer according to manufacturer's dosing recommendations with facilities available to manage anaphylaxis.
+
+Admit to High Dependency Unit or Intensive Care Unit if cardiovascular or respiratory compromise develops.
+
+Nursing Instructions:
+- Monitor vital signs every 30 minutes for first 2 hours, then every 4 hours if stable.
+- Observe for progression of swelling.
+- Monitor pain score.
+- Watch for signs of systemic envenomation.
+
+Health Education:
+Explain that most scorpion stings cause severe local pain but resolve without long-term complications.
+
+Advise patient to return immediately if he develops:
+- Difficulty breathing.
+- Excessive sweating.
+- Persistent vomiting.
+- Muscle twitching.
+- Weakness.
+- Chest pain.
+- Dizziness.
+- Worsening swelling.
+
+Preventive advice:
+- Wear closed protective footwear and gloves while farming.
+- Avoid placing hands or feet into dark crevices without inspection.
+
+Follow-up:
+- Observe in Emergency Department for 4–6 hours.
+- If no systemic features develop and pain is controlled, discharge home.
+- Review in General Outpatient Clinic after 48–72 hours or earlier if symptoms worsen.
+
+Prognosis:
+Good. The patient has localized scorpion envenomation without evidence of systemic toxicity. With adequate analgesia, wound care, tetanus prophylaxis and observation, complete recovery is expected within several days.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-03',
+  title: 'Neurotoxic Snake Bite Envenomation with Respiratory Failure Risk',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Neurotoxic Snake Envenomation',
+  symptoms: [
+    'Snake bite injury',
+    'Bilateral ptosis',
+    'Difficulty swallowing',
+    'Difficulty breathing',
+    'Generalized weakness',
+    'Slurred speech'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-19',
+  summary: '27-year-old male farmer presenting with snake bite to the right hand complicated by progressive neurotoxicity, bulbar paralysis and impending respiratory failure, consistent with neurotoxic snake envenomation.',
+  content: `
+GENERAL SURGERY UNIT
+
+Patient Seen
+
+A 27-year-old married male farmer from Ogbomoso, Oyo State, Christian, Yoruba, with HLE: Primary.
+
+Informants: Patient and relative (Reliable)
+
+PC:
+Snake bite on the right hand × 2 hours.
+Drooping of both eyelids × 1 hour.
+Difficulty swallowing × 45 minutes.
+Difficulty breathing × 30 minutes.
+
+HPC:
+The patient was apparently well until about two hours prior to presentation when he sustained a snake bite injury to the dorsum of his right hand while clearing bushes on his farm.
+
+He reports seeing a long, black snake that rapidly disappeared after the bite. He experienced only mild pain at the bite site with minimal bleeding.
+
+Approximately one hour after the bite, he developed drooping of both eyelids which progressively worsened. This was followed by blurred vision and double vision.
+
+About 45 minutes before presentation, he developed difficulty swallowing both liquids and saliva associated with slurred speech. He has since been unable to swallow adequately and has pooling of saliva in his mouth.
+
+Thirty minutes before arrival, he developed increasing difficulty breathing associated with generalized weakness, especially involving the neck and upper limbs.
+
+No severe swelling around the bite site.
+No spontaneous bleeding.
+No haematuria.
+No vomiting.
+No abdominal pain.
+
+No tourniquet was applied.
+No incision or suction was attempted.
+
+He was brought directly to the hospital.
+
+Review of Systems:
+
+General:
+Generalized weakness.
+Difficulty speaking.
+No fever.
+
+Neurological:
+Bilateral ptosis.
+Blurred vision.
+Diplopia.
+Difficulty swallowing.
+Slurred speech.
+Neck weakness.
+Generalized muscle weakness.
+No seizures.
+
+Respiratory:
+Progressive shortness of breath.
+Difficulty taking deep breaths.
+No cough.
+No wheezing.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+No syncope.
+
+Gastrointestinal:
+Difficulty swallowing.
+No vomiting.
+No abdominal pain.
+
+Genitourinary:
+No haematuria.
+Normal urine output.
+
+Past Medical History:
+No hypertension.
+No diabetes mellitus.
+No epilepsy.
+No chronic respiratory disease.
+
+Past Surgical History:
+Nil significant.
+
+Drug History:
+No regular medications.
+No known drug allergies.
+
+Immunization History:
+Last tetanus booster over 10 years ago.
+
+Family History:
+Nil contributory.
+
+Social History:
+Farmer.
+Non-smoker.
+Occasional alcohol intake.
+Lives with wife and children.
+
+O/E:
+Young man, conscious and alert but anxious.
+Moderately ill-looking.
+Unable to keep eyes fully open.
+Speech slurred.
+Pooling of saliva noted.
+Using accessory muscles of respiration.
+
+No pallor.
+No jaundice.
+No cyanosis.
+
+Vital Signs:
+BP: 118/74 mmHg
+PR: 112 bpm, regular
+RR: 30 cpm
+Temperature: 36.8°C
+SpO₂: 89% in room air
+Weight: 70 kg
+
+Local Examination (Right Hand):
+
+Two fang puncture marks over dorsum of right hand.
+
+Minimal surrounding erythema.
+
+Mild tenderness.
+
+No significant swelling.
+No blistering.
+No tissue necrosis.
+
+Distal pulses present.
+Capillary refill <2 seconds.
+
+Respiratory Examination:
+
+Tachypnoea.
+Reduced chest expansion.
+Weak cough.
+Reduced air entry bilaterally.
+No crepitations.
+No wheeze.
+
+Single breath count: 8 (markedly reduced).
+
+CVS:
+Heart sounds I and II normal.
+Tachycardia.
+No murmurs.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+Neurological Examination:
+
+GCS: 15/15.
+
+Cranial Nerves:
+- Bilateral complete ptosis.
+- Ophthalmoplegia with limited extraocular movements.
+- Diplopia.
+- Facial weakness.
+- Palatal weakness.
+- Reduced gag reflex.
+- Dysarthria.
+- Dysphagia.
+- Weak tongue movements.
+
+Motor Examination:
+- Marked neck flexion weakness.
+- Upper limb power: 4/5.
+- Lower limb power: 4+/5.
+- Tone normal.
+- Reflexes preserved.
+- Plantar responses flexor.
+
+Sensation:
+Intact.
+
+Assessment:
+Acute neurotoxic snake envenomation (likely cobra or mamba bite) with bulbar paralysis and impending respiratory failure.
+
+Differential Diagnoses:
+1. Krait envenomation.
+2. Myasthenic crisis.
+3. Brainstem stroke.
+4. Botulism.
+5. Organophosphate poisoning.
+
+Investigations:
+
+Bedside:
+- 20-minute Whole Blood Clotting Test (20WBCT).
+  Expected: Normal clotting.
+- Capillary blood glucose.
+- Peak expiratory flow if feasible.
+- Arterial Blood Gas.
+
+Expected ABG findings:
+- Hypoxaemia.
+- Hypercapnia if respiratory failure develops.
+
+Laboratory:
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Liver Function Tests.
+- Creatine Kinase.
+- Coagulation Profile.
+- Blood Group and Cross-match.
+- Urinalysis.
+
+Imaging:
+- Chest X-ray (baseline).
+- ECG.
+
+Management:
+
+Emergency Stabilization (ABCDE):
+
+- Activate emergency response.
+- Transfer immediately to resuscitation bay.
+- Involve Anaesthesia, Intensive Care and Surgical teams.
+
+Airway:
+Patient has bulbar weakness and impaired airway protection.
+
+- Keep patient nil per os.
+- Suction oral secretions regularly.
+- Prepare for rapid sequence endotracheal intubation.
+
+Breathing:
+- Administer 100% oxygen via non-rebreather mask at 15 L/min immediately.
+- Continuous pulse oximetry.
+
+If respiratory muscle weakness progresses or SpO₂ remains <94%:
+- Perform endotracheal intubation and commence mechanical ventilation without delay.
+
+Circulation:
+- Insert two large-bore IV cannulae (16–18G).
+- Continuous ECG monitoring.
+
+Intravenous Fluids:
+- 0.9% Normal Saline 1 litre IV over 2 hours.
+- Continue maintenance fluids according to haemodynamic status and urine output.
+
+Target urine output:
+>0.5 mL/kg/hour.
+
+- Insert Foley catheter for accurate monitoring.
+
+Antivenom:
+
+Indication:
+Clear evidence of systemic neurotoxic envenomation.
+
+Administer:
+- Polyvalent Snake Antivenom 10 vials IV diluted in 500 mL 0.9% Normal Saline infused over 60 minutes under continuous monitoring.
+
+Reassess neurological status after 1–2 hours.
+
+If paralysis progresses or fails to improve:
+- Administer additional 10 vials according to specialist recommendation and local protocol.
+
+Management of Antivenom Anaphylaxis:
+
+If reaction occurs:
+- Inj. Adrenaline 0.5 mg IM (1:1000 solution) immediately.
+- Repeat every 5–15 minutes if required.
+- Inj. Hydrocortisone 200 mg IV stat.
+- Inj. Chlorpheniramine 10 mg IV stat.
+- Continue oxygen and IV fluids.
+
+Anticholinesterase Trial:
+
+If cobra envenomation is suspected:
+
+- Inj. Atropine 0.6 mg IV stat.
+- Follow immediately with Inj. Neostigmine 2.5 mg IV slowly.
+
+If improvement occurs:
+- Continue Inj. Neostigmine 0.5–2.5 mg IV every 2–3 hours with Atropine 0.6 mg IV before each dose, or use continuous infusion under specialist supervision.
+
+Analgesia:
+If able to swallow:
+- Tab Paracetamol 1 g orally every 6 hours as required.
+
+Alternative:
+- Inj. Paracetamol 1 g IV every 6 hours.
+
+Avoid sedatives and opioids unless airway is secured.
+
+Tetanus Prophylaxis:
+- Td vaccine 0.5 mL IM stat.
+
+If immunization status incomplete or unknown:
+- Human Tetanus Immunoglobulin 250 IU IM at a separate site.
+
+Antibiotics:
+Routine prophylactic antibiotics not indicated.
+
+Commence antibiotics only if secondary wound infection develops.
+
+Nursing Instructions:
+- Admit to Intensive Care Unit.
+- Continuous ECG and pulse oximetry.
+- Monitor vital signs every 15 minutes until stable.
+- Assess cranial nerve function hourly.
+- Monitor respiratory rate, tidal volume and single breath count.
+- Strict input/output chart.
+- Observe closely for antivenom reactions.
+
+Health Education:
+Explain that neurotoxic snake venom affects nerves controlling muscles, especially those involved in swallowing and breathing.
+
+Explain that mechanical ventilation may be required for several days until venom is neutralized and nerve function recovers.
+
+Advise against:
+- Traditional remedies.
+- Tourniquets.
+- Wound incision.
+- Venom suction.
+
+Preventive advice:
+- Wear protective boots and gloves during farming.
+- Seek immediate hospital care after snake bites.
+
+Follow-up:
+- Daily review by Intensive Care, Medical and Surgical teams.
+- Wean from mechanical ventilation once respiratory strength improves.
+- Repeat neurological assessment every 4–6 hours.
+- Monitor renal function and electrolytes daily.
+- Review in General Surgery/Medical Clinic two weeks after discharge.
+
+Prognosis:
+Guarded on presentation due to bulbar paralysis and impending respiratory failure. With early airway protection, timely antivenom administration, intensive supportive care and mechanical ventilation when required, complete neurological recovery is expected in most patients over several days to weeks. Mortality is mainly related to delayed presentation and untreated respiratory failure.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-02',
+  title: 'Grade IV Internal Haemorrhoids with Irreducible Prolapse',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Internal Haemorrhoids',
+  symptoms: [
+    'Permanent anal protrusion',
+    'Painless bright red rectal bleeding',
+    'Anal itching',
+    'Anal discomfort',
+    'Chronic constipation'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '45-year-old male civil servant presenting with long-standing constipation, painless rectal bleeding and permanently prolapsed irreducible haemorrhoidal mass consistent with Grade IV internal haemorrhoids.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 45-year-old male civil servant residing in Ogbomosho, Oyo State.
+
+Yoruba by tribe.
+
+Married with four children.
+
+Informant:
+Patient (Reliable)
+
+
+PC:
+Protrusion at the anus × 6 months
+
+Bleeding per rectum × 4 months
+
+Anal itching and discomfort × 2 months
+
+
+HPC:
+The patient was apparently well until about six months prior to presentation when he noticed a fleshy protrusion from the anus during defecation.
+
+Initially, the swelling would reduce spontaneously into the anal canal after stooling. However, the protrusion progressively worsened over time.
+
+About three months prior to presentation, the swelling began requiring manual reduction after defecation.
+
+For the past one month, the protrusion has remained permanently outside the anal orifice and can no longer be pushed back.
+
+He also reports painless bleeding per rectum which started about four months prior to presentation.
+
+The blood is bright red, occurs mainly at the end of defecation and is often described as splashing the toilet bowl.
+
+There is no history of blood mixed with stool or passage of melaena.
+
+He has a long-standing history of chronic constipation with frequent straining during defecation.
+
+There is associated perianal itching and persistent sensation of heaviness in the rectum.
+
+There is no significant weight loss, loss of appetite or change in bowel habit.
+
+No history of alternating diarrhoea and constipation.
+
+No history of chronic cough, heavy lifting or urinary obstructive symptoms.
+
+
+PAST MEDICAL HISTORY:
+No known history of hypertension, diabetes mellitus or sickle cell disease.
+
+No previous abdominal or anorectal surgeries.
+
+
+DRUG HISTORY:
+Uses over-the-counter laxatives and various herbal preparations (agbo) for chronic constipation.
+
+No known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY:
+Married in a monogamous setting with four children.
+
+Works a sedentary desk job.
+
+Diet consists mainly of processed carbohydrates with low fruit and vegetable intake.
+
+Does not smoke.
+
+Does not consume alcohol.
+
+
+REVIEW OF SYSTEMS:
+
+CNS:
+No headache.
+
+No dizziness.
+
+CVS:
+No palpitations.
+
+No easy fatigability.
+
+RESPIRATORY:
+No cough.
+
+No chest pain.
+
+GASTROINTESTINAL:
+Chronic constipation.
+
+No nausea or vomiting.
+
+No change in bowel habit.
+
+MUSCULOSKELETAL:
+No joint pains or swelling.
+
+
+O/E:
+
+GENERAL:
+Middle-aged man, not in respiratory or painful distress.
+
+Afebrile.
+
+Not pale.
+
+Anicteric.
+
+No pedal oedema.
+
+No peripheral lymphadenopathy.
+
+Hydration adequate.
+
+
+VITAL SIGNS:
+Temperature: 36.7°C
+
+PR: 76 bpm, regular, normal volume
+
+BP: 130/80 mmHg
+
+RR: 18 cpm
+
+SpO₂: 98% in room air
+
+
+ABDOMEN:
+Abdomen flat and moves with respiration.
+
+No surgical scars.
+
+No visible dilated veins.
+
+Soft and non-tender.
+
+No organomegaly.
+
+No shifting dullness.
+
+No fluid thrill.
+
+Bowel sounds present and normal.
+
+
+DIGITAL RECTAL EXAMINATION:
+
+Perianal area:
+Multiple skin tags noted.
+
+Circumferential purple, fleshy mass visible protruding through the anal orifice.
+
+Mass is non-reducible and mildly congested but not gangrenous.
+
+No perianal discharge.
+
+No ulcers.
+
+No fistulous openings.
+
+
+Anal tone:
+Normal.
+
+
+Rectal mucosa:
+Internal haemorrhoidal cushions palpable at the 3, 7 and 11 o'clock positions.
+
+No palpable rectal masses.
+
+No hard faecal impaction within reach of examining finger.
+
+
+Glove:
+Stained with bright red blood.
+
+No melaena or mucus.
+
+
+ASSESSMENT:
+Grade IV internal haemorrhoids with permanent irreducible prolapse and intermittent painless rectal bleeding secondary to chronic constipation and excessive straining.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Rectal prolapse.
+2. Anal fissure.
+3. Rectal carcinoma.
+4. Hypertrophied anal papillae.
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Laboratory:
+- Full Blood Count to assess for anaemia due to chronic blood loss.
+- Urinalysis.
+- Serum electrolytes, urea and creatinine as part of preoperative assessment.
+
+Imaging/Endoscopy:
+- Proctoscopy to assess haemorrhoidal cushions and rectal mucosa.
+- Colonoscopy if indicated due to age or suspicion of proximal colonic pathology.
+- Abdominal ultrasound if portal hypertension is suspected as a secondary cause.
+
+
+MANAGEMENT:
+
+Patient counselled regarding diagnosis and need for surgical intervention due to Grade IV haemorrhoids.
+
+
+CONSERVATIVE MANAGEMENT:
+
+Lifestyle modification:
+- Increase dietary fibre intake with fruits, vegetables and whole grains.
+- Increase fluid intake to approximately 2–3 litres daily unless contraindicated.
+- Avoid prolonged sitting on the toilet.
+- Avoid excessive straining during defecation.
+- Encourage regular physical activity.
+
+Sitz bath:
+- Warm water sitz bath for 10–15 minutes, 2–3 times daily for relief of itching and discomfort.
+
+
+PHARMACOTHERAPY:
+
+Bulk-forming laxative:
+- Psyllium husk as directed.
+
+Stool softener:
+- Liquid paraffin as indicated.
+
+Topical therapy:
+- Haemorrhoidal ointment (e.g., Anusol) for symptomatic relief.
+
+
+SURGICAL MANAGEMENT:
+
+Indication:
+Grade IV haemorrhoids with permanently prolapsed, irreducible haemorrhoidal tissue.
+
+Plan:
+- Schedule elective haemorrhoidectomy after appropriate work-up.
+
+Options:
+- Open haemorrhoidectomy (Milligan-Morgan).
+- Stapled haemorrhoidopexy in selected cases.
+
+Preoperative preparation:
+- Assess surgical fitness.
+- Request baseline investigations.
+- Anaesthetic review.
+
+
+NURSING INSTRUCTIONS:
+- Monitor rectal bleeding.
+- Document bowel habits.
+- Encourage compliance with high-fibre diet and adequate hydration.
+- Maintain proper perianal hygiene.
+- Provide postoperative counselling if surgery is performed.
+
+
+HEALTH EDUCATION:
+Patient counselled that haemorrhoids are enlarged vascular cushions within the anal canal caused by factors including chronic constipation, straining and prolonged sitting during defecation.
+
+Explained that Grade IV haemorrhoids usually require surgical management due to permanent prolapse.
+
+Advised avoidance of constipation and excessive straining.
+
+Instructed to seek urgent medical attention if there is severe anal pain, heavy bleeding, fever or worsening swelling.
+
+
+FOLLOW-UP:
+Review in General Surgery Clinic after completion of investigations.
+
+Arrange elective haemorrhoidectomy after surgical assessment and anaesthetic clearance.
+
+Prognosis is good following definitive treatment, with improvement in bleeding, prolapse and discomfort after appropriate surgical management.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-03',
+  title: 'Chronic Anal Fissure',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Anal Fissure',
+  symptoms: [
+    'Painful defecation',
+    'Bright red rectal bleeding',
+    'Chronic constipation',
+    'Anal sphincter spasm',
+    'Perianal discomfort'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '34-year-old male civil servant presenting with severe tearing anal pain during defecation, streaky bright red rectal bleeding and chronic constipation, with examination findings consistent with chronic anal fissure.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 34-year-old male civil servant residing in Garki, Abuja.
+
+Igbo by tribe.
+
+Married with two children.
+
+Informant:
+Patient (Reliable)
+
+
+PC:
+Painful defecation × 2 weeks
+
+Bright red rectal bleeding × 2 weeks
+
+Chronic constipation × 6 months
+
+
+HPC:
+The patient was apparently well until about two weeks prior to presentation when he began experiencing severe sharp tearing pain during defecation.
+
+He describes the pain as feeling like "passing shards of broken glass."
+
+The pain is most intense during passage of stool and persists for approximately 30–60 minutes afterwards.
+
+The pain is associated with passage of small amounts of bright red blood, noticed mainly as streaks on the surface of stool and occasionally on toilet tissue after wiping.
+
+There is no history of dripping blood into the toilet bowl or passage of dark tarry stools.
+
+He has a six-month history of chronic constipation characterised by passage of hard, lumpy stools once every 3–4 days, often requiring significant straining.
+
+There is no history of perianal swelling, discharge or pruritus ani.
+
+No significant weight loss, loss of appetite or change in bowel habits apart from chronic constipation.
+
+No previous perianal surgery.
+
+No history of anal intercourse.
+
+
+PAST MEDICAL HISTORY:
+Not a known hypertensive or diabetic.
+
+No known history of sickle cell disease.
+
+No previous hospitalisation for similar complaints.
+
+
+DRUG HISTORY:
+Occasional use of over-the-counter stimulant laxatives (Bisacodyl) with temporary relief of constipation.
+
+No known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY:
+Married in a monogamous setting with two children.
+
+Non-smoker.
+
+Does not consume alcohol.
+
+Diet predominantly carbohydrate-based with low fibre intake.
+
+
+REVIEW OF SYSTEMS:
+
+Gastrointestinal:
+- Painful defecation
+- Bright red rectal bleeding
+- Chronic constipation
+- No nausea or vomiting
+
+Cardiovascular:
+- No palpitations
+- No orthopnoea
+
+Respiratory:
+- No cough
+- No breathlessness
+
+Central Nervous System:
+- No headache
+- No dizziness
+
+
+O/E:
+
+GENERAL:
+Young man in no obvious respiratory or painful distress at rest.
+
+Not pale.
+
+Anicteric.
+
+Not dehydrated.
+
+No peripheral oedema.
+
+No significant lymphadenopathy.
+
+
+VITAL SIGNS:
+PR: 76 bpm, regular, normal volume
+
+BP: 120/70 mmHg
+
+RR: 18 cpm
+
+Temperature: 36.7°C
+
+SpO₂: 98% in room air
+
+
+ABDOMEN:
+Abdomen flat and moves with respiration.
+
+No surgical scars or striae.
+
+Soft and non-tender.
+
+No palpable masses.
+
+Liver, spleen and kidneys not enlarged.
+
+Bowel sounds present and normal.
+
+
+PERIANAL EXAMINATION:
+
+Inspection:
+Visible linear tear/ulcer in the posterior midline of the anoderm.
+
+Small hypertrophied skin tag (sentinel pile) noted at the distal end of the fissure, suggesting chronicity.
+
+No external haemorrhoids.
+
+No perianal fistulae.
+
+No abscess.
+
+
+Digital Rectal Examination:
+Deferred due to severe pain and palpable anal sphincter spasm.
+
+
+ASSESSMENT:
+Chronic anal fissure secondary to chronic constipation with painful defecation and minor bright red rectal bleeding.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Grade I internal haemorrhoids.
+2. Ulcerative proctitis.
+3. Perianal Crohn's disease.
+4. Anal carcinoma (less likely given age and duration).
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Laboratory:
+- Full Blood Count to assess for anaemia or evidence of infection.
+- Fasting Blood Sugar to exclude diabetes mellitus as a factor affecting healing.
+- Urinalysis.
+
+Endoscopy:
+- Proctoscopy after pain reduction or under sedation to exclude internal haemorrhoids, proctitis or other rectal pathology.
+
+
+MANAGEMENT:
+
+CONSERVATIVE MANAGEMENT:
+
+Dietary modification:
+- Increase dietary fibre intake through fruits, vegetables and whole grains.
+- Increase oral fluid intake to at least 2–3 litres daily unless contraindicated.
+
+Warm Sitz Bath:
+- Warm water sitz bath for 15 minutes 2–3 times daily and after bowel movements to relieve pain and reduce internal sphincter spasm.
+
+
+PHARMACOTHERAPY:
+
+Stool softener:
+- Liquid Paraffin 15 mL orally at night for 1 week, titrated to maintain soft stools.
+
+Topical analgesia:
+- Lidocaine 2% gel applied locally approximately 10 minutes before defecation.
+
+Chemical sphincterotomy:
+- Glyceryl Trinitrate (GTN) 0.2% ointment applied to the anal canal twice daily for 6 weeks.
+
+Counsel patient regarding possible adverse effects including headache and dizziness.
+
+Analgesia:
+- Tab Ibuprofen 400 mg orally three times daily for 3 days after meals if no contraindications.
+
+
+NURSING INSTRUCTIONS:
+- Monitor pain severity.
+- Monitor bowel frequency and stool consistency.
+- Encourage compliance with fibre intake and adequate hydration.
+- Reinforce proper perianal hygiene.
+
+
+HEALTH EDUCATION:
+Patient counselled that anal fissure is a tear in the lining of the anal canal, commonly caused by passage of hard stools and excessive straining.
+
+Explained the importance of maintaining soft stools to allow healing.
+
+Advised avoidance of straining during defecation and avoidance of stimulant laxative overuse.
+
+Instructed to seek medical review if bleeding worsens, fever develops, or pain becomes severe.
+
+
+FOLLOW-UP:
+Review in General Surgery Clinic after 2 weeks to assess symptom improvement and adherence to treatment.
+
+If symptoms persist after 6–8 weeks of appropriate conservative management, consider referral for surgical intervention.
+
+Surgical option:
+- Lateral Internal Sphincterotomy (LIS).
+
+Prognosis is good. Most acute and chronic anal fissures improve with stool softening, dietary modification, topical sphincter-relaxing therapy and appropriate follow-up.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-04',
+  title: 'Acute Bacterial Prostatitis',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology Clinic',
+  condition: 'Prostatitis',
+  symptoms: [
+    'Difficulty passing urine',
+    'Fever with chills and rigors',
+    'Perineal pain',
+    'Dysuria',
+    'Poor urinary stream',
+    'Painful ejaculation'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '46-year-old male commercial driver presenting with acute urinary symptoms, fever, severe perineal pain and a tender boggy prostate consistent with acute bacterial prostatitis.',
+  content: `UROLOGY CLINIC
+
+Patient Seen
+
+A 46-year-old male commercial driver, married, residing in Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant:
+Patient (Reliable)
+
+
+PC:
+Difficulty passing urine × 4 days
+
+Fever × 3 days
+
+Perineal pain × 3 days
+
+Painful urination × 3 days
+
+
+HPC:
+The patient was apparently well until about four days prior to presentation when he developed progressive difficulty passing urine.
+
+He describes associated hesitancy, poor urinary stream, straining during micturition and a sensation of incomplete bladder emptying.
+
+Three days prior to presentation, he developed high-grade fever associated with chills and rigors. The fever has been intermittent and partially relieved by Paracetamol.
+
+He also complains of severe aching pain in the perineum radiating to the lower back and suprapubic region. The pain is worsened by sitting, walking and defecation and is rated 8/10 in severity.
+
+There is associated dysuria, urinary frequency and urgency. He voids small volumes frequently and occasionally experiences burning throughout micturition.
+
+He reports nocturia occurring three to four times nightly.
+
+There is associated painful ejaculation over the past two days.
+
+There is no urethral discharge.
+
+No visible haematuria.
+
+No flank pain.
+
+No history of recent urethral instrumentation or catheterisation.
+
+No history suggestive of sexually transmitted infection.
+
+Patient reports being in a monogamous relationship.
+
+
+REVIEW OF SYSTEMS:
+
+General:
+- High-grade fever
+- Chills and rigors
+- Generalised weakness
+- Poor appetite
+
+Genitourinary:
+- Dysuria
+- Frequency
+- Urgency
+- Poor urinary stream
+- Hesitancy
+- Incomplete bladder emptying
+- Perineal pain
+- Painful ejaculation
+- No haematuria
+- No urethral discharge
+
+Gastrointestinal:
+- Pain during defecation
+- No abdominal distension
+- No vomiting
+- No diarrhoea
+
+Musculoskeletal:
+- Lower back discomfort
+- No joint pains
+
+Respiratory:
+- No cough
+- No dyspnoea
+
+Cardiovascular:
+- No chest pain
+- No palpitations
+
+
+PAST MEDICAL HISTORY:
+Known hypertensive diagnosed five years ago.
+
+Controlled on medication.
+
+No history of diabetes mellitus.
+
+No previous urinary tract surgery.
+
+No previous history of benign prostatic hyperplasia.
+
+
+PAST SURGICAL HISTORY:
+Nil significant.
+
+
+DRUG HISTORY:
+Tab Amlodipine 5 mg orally once daily.
+
+Tab Paracetamol 1 g as required.
+
+No known drug allergies.
+
+
+SEXUAL HISTORY:
+Married with one sexual partner.
+
+No recent high-risk sexual exposure.
+
+No previous sexually transmitted infections.
+
+
+FAMILY HISTORY:
+No family history of prostate cancer.
+
+No family history of renal disease.
+
+
+SOCIAL HISTORY:
+Commercial driver.
+
+Non-smoker.
+
+Occasional alcohol consumption.
+
+
+O/E:
+
+GENERAL:
+Middle-aged man, conscious and alert.
+
+Ill-looking.
+
+Febrile.
+
+Moderately uncomfortable due to pain.
+
+Well hydrated.
+
+Not pale.
+
+Anicteric.
+
+
+VITAL SIGNS:
+Temperature: 38.9°C
+
+BP: 128/80 mmHg
+
+PR: 108 bpm, regular
+
+RR: 20 cpm
+
+SpO₂: 98% in room air
+
+Weight: 82 kg
+
+Height: 1.75 m
+
+BMI: 26.8 kg/m²
+
+
+ABDOMEN:
+Abdomen full.
+
+Soft.
+
+Mild suprapubic tenderness.
+
+No guarding.
+
+No rebound tenderness.
+
+No palpable renal masses.
+
+Bladder not distended.
+
+Normal bowel sounds.
+
+
+DIGITAL RECTAL EXAMINATION:
+
+Performed gently with caution.
+
+Prostate moderately enlarged.
+
+Markedly tender.
+
+Warm.
+
+Soft and boggy.
+
+Smooth surface.
+
+No nodules.
+
+Examination limited due to significant pain.
+
+No fluctuation suggestive of prostatic abscess.
+
+No rectal masses.
+
+No blood on examining finger.
+
+
+EXTERNAL GENITAL EXAMINATION:
+Normal penis.
+
+No urethral discharge.
+
+Scrotum normal.
+
+Testes normal in size and consistency.
+
+No epididymal tenderness.
+
+
+CARDIOVASCULAR:
+Heart sounds I and II normal.
+
+No murmurs.
+
+
+RESPIRATORY:
+Normal vesicular breath sounds.
+
+No added sounds.
+
+
+CENTRAL NERVOUS SYSTEM:
+Alert.
+
+GCS 15/15.
+
+No focal neurological deficits.
+
+
+ASSESSMENT:
+Acute bacterial prostatitis, likely secondary to Gram-negative enteric organisms, especially Escherichia coli.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Acute cystitis.
+2. Acute pyelonephritis.
+3. Benign prostatic hyperplasia with urinary tract infection.
+4. Prostatic abscess.
+5. Urethritis.
+6. Epididymo-orchitis.
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Laboratory:
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Random Blood Glucose.
+- C-Reactive Protein.
+- Erythrocyte Sedimentation Rate.
+- Blood culture if febrile or septic.
+
+Urine Studies:
+- Urinalysis.
+- Urine microscopy, culture and sensitivity before antibiotics.
+
+Expected findings:
+- Pyuria.
+- Positive leukocyte esterase.
+- Possible positive nitrites.
+
+Imaging:
+- Ultrasound KUB and prostate if urinary retention or obstruction is suspected.
+- Transrectal ultrasound if symptoms fail to improve within 48–72 hours or prostatic abscess is suspected.
+
+PSA:
+Avoid PSA testing during acute illness as it is commonly elevated due to inflammation.
+
+
+MANAGEMENT:
+
+ADMISSION:
+Patient admitted due to high fever and systemic symptoms.
+
+Other indications for admission include:
+- Sepsis.
+- Inability to tolerate oral medication.
+- Acute urinary retention.
+- Immunocompromised state.
+- Significant comorbidities.
+
+
+FLUIDS:
+0.9% Normal Saline 1 litre IV over 2 hours, then continue according to hydration status and urine output.
+
+
+ANTIBIOTICS:
+
+Initial intravenous therapy:
+
+Inj. Ceftriaxone 2 g IV once daily.
+
+PLUS
+
+Inj. Gentamicin 5 mg/kg IV once daily, adjusted according to renal function.
+
+Continue until afebrile and clinically improved (usually 48–72 hours), then switch to oral therapy.
+
+Oral step-down therapy:
+
+Tab Ciprofloxacin 500 mg orally 12 hourly for 4 weeks.
+
+Alternative:
+- Tab Levofloxacin 500 mg orally once daily for 4 weeks.
+- Tab Trimethoprim-Sulfamethoxazole 960 mg orally 12 hourly for 4–6 weeks if culture-sensitive.
+
+Adjust antibiotics according to urine culture and sensitivity results.
+
+
+ANALGESIA:
+
+Tab Paracetamol 1 g orally 6 hourly as required.
+
+If severe pain persists:
+
+Tab Ibuprofen 400 mg orally 8 hourly after meals for 5 days if renal function is normal and no contraindications.
+
+
+ALPHA BLOCKER:
+
+Tab Tamsulosin 0.4 mg orally at night for 4–6 weeks.
+
+Alternative:
+
+Tab Alfuzosin 10 mg orally once daily.
+
+
+MANAGEMENT OF URINARY RETENTION:
+
+If acute urinary retention develops:
+
+Avoid urethral catheterisation where possible.
+
+Insert suprapubic catheter under aseptic conditions if bladder decompression is required.
+
+Seek urgent urology review before attempting urethral catheterisation.
+
+
+NURSING INSTRUCTIONS:
+- Monitor temperature 4 hourly.
+- Monitor urine output.
+- Encourage adequate hydration (2–3 litres/day if not contraindicated).
+- Observe for features of sepsis.
+- Monitor response to antibiotics.
+
+
+HEALTH EDUCATION:
+Patient counselled that acute bacterial prostatitis is an infection of the prostate gland, commonly caused by bacteria ascending from the urinary tract.
+
+Emphasised importance of completing the full antibiotic course even after symptoms improve.
+
+Advised avoidance of alcohol, prolonged sitting, cycling and sexual activity until symptoms resolve.
+
+Encouraged adequate fluid intake.
+
+Advised urgent medical review if unable to pass urine, worsening fever, increasing pain or confusion occurs.
+
+
+FOLLOW-UP:
+Review after 48–72 hours to assess clinical response.
+
+Review urine culture and sensitivity results and adjust antibiotics accordingly.
+
+Repeat urine culture 1–2 weeks after completion of therapy if symptoms persist.
+
+Refer to Urology Clinic if:
+- Symptoms fail to improve.
+- Recurrent infections occur.
+- Prostatic abscess is suspected.
+
+Prognosis is good with prompt diagnosis, appropriate prolonged antibiotic therapy and supportive care.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-05',
+  title: 'Suspected Advanced Prostate Cancer with Bone Metastasis',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology Clinic',
+  condition: 'Prostate Cancer',
+  symptoms: [
+    'Difficulty passing urine',
+    'Poor urinary stream',
+    'Nocturia',
+    'Lower back pain',
+    'Unintentional weight loss',
+    'Painless haematuria'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '68-year-old male retired teacher presenting with progressive lower urinary tract symptoms, constitutional symptoms and abnormal digital rectal examination findings suggestive of locally advanced prostate adenocarcinoma with possible skeletal metastases.',
+  content: `UROLOGY CLINIC
+
+Patient Seen
+
+A 68-year-old male retired teacher residing in Abeokuta, Ogun State.
+
+Yoruba by tribe.
+
+Married.
+
+Informants:
+Patient and wife (Reliable)
+
+
+PC:
+Difficulty passing urine × 8 months
+
+Poor urinary stream × 8 months
+
+Low back pain × 4 months
+
+Unintentional weight loss × 3 months
+
+
+HPC:
+The patient was apparently well until about eight months prior to presentation when he developed progressively worsening lower urinary tract symptoms.
+
+He initially noticed hesitancy while passing urine, followed by weak urinary stream requiring straining.
+
+There is associated intermittency, terminal dribbling and sensation of incomplete bladder emptying.
+
+Over the past six months, he has experienced increased urinary frequency and urgency with nocturia occurring 5–6 times nightly, significantly affecting sleep.
+
+Four months prior to presentation, he developed dull aching pain over the lower back and pelvis. The pain has progressively worsened, is persistent, worse at night and partially relieved by simple analgesics.
+
+The pain now limits mobility.
+
+There is no history of trauma.
+
+Three months prior to presentation, he noticed progressive unintentional weight loss despite no dietary changes. This is associated with poor appetite and generalized weakness.
+
+He reports occasional painless terminal haematuria over the past one month.
+
+There is no dysuria.
+
+No urethral discharge.
+
+No fever.
+
+No complete urinary retention.
+
+No lower limb weakness.
+
+No urinary or faecal incontinence.
+
+
+REVIEW OF SYSTEMS:
+
+General:
+- Weight loss
+- Poor appetite
+- Easy fatigability
+- Generalized weakness
+- No fever
+
+Genitourinary:
+- Poor urinary stream
+- Hesitancy
+- Intermittency
+- Terminal dribbling
+- Incomplete bladder emptying
+- Frequency
+- Urgency
+- Nocturia
+- Occasional painless haematuria
+- No dysuria
+
+Musculoskeletal:
+- Persistent lower back pain
+- Pelvic pain
+- No trauma
+
+Neurological:
+- No lower limb weakness
+- No numbness
+- No bowel or bladder incontinence
+
+Gastrointestinal:
+- Poor appetite
+- No abdominal pain
+- No constipation
+
+
+PAST MEDICAL HISTORY:
+Known hypertensive diagnosed 10 years ago.
+
+Controlled on medication.
+
+No history of diabetes mellitus.
+
+No chronic kidney disease.
+
+
+PAST SURGICAL HISTORY:
+Nil significant.
+
+
+DRUG HISTORY:
+Tab Amlodipine 10 mg orally once daily.
+
+Tab Paracetamol 1 g orally as required for back pain.
+
+No known drug allergies.
+
+
+FAMILY HISTORY:
+Older brother diagnosed with prostate cancer at 72 years.
+
+No family history of breast cancer.
+
+
+SOCIAL HISTORY:
+Retired teacher.
+
+Lives with wife.
+
+Non-smoker.
+
+Occasional alcohol consumption.
+
+Independent in activities of daily living, but mobility reduced due to back pain.
+
+
+O/E:
+
+GENERAL:
+Elderly man.
+
+Chronically ill-looking.
+
+Mildly cachectic.
+
+Conscious and alert.
+
+Mild pallor.
+
+No jaundice.
+
+No peripheral oedema.
+
+Walks slowly due to back pain.
+
+
+VITAL SIGNS:
+BP: 142/86 mmHg
+
+PR: 84 bpm, regular
+
+RR: 18 cpm
+
+Temperature: 36.8°C
+
+SpO₂: 98% in room air
+
+Weight: 66 kg
+
+Height: 1.72 m
+
+BMI: 22.3 kg/m²
+
+
+ABDOMEN:
+Abdomen full.
+
+Soft and non-tender.
+
+Mildly palpable distended bladder after voiding.
+
+No palpable abdominal masses.
+
+No hepatosplenomegaly.
+
+Normal bowel sounds.
+
+
+DIGITAL RECTAL EXAMINATION:
+
+Anal sphincter tone normal.
+
+Prostate markedly enlarged.
+
+Hard and irregular consistency.
+
+Loss of median sulcus.
+
+Nodular surface.
+
+Fixed to surrounding tissues.
+
+Non-tender.
+
+Rectal mucosa normal.
+
+No blood on examining finger.
+
+Findings highly suspicious for carcinoma of the prostate.
+
+
+MUSCULOSKELETAL EXAMINATION:
+
+Localized tenderness over lumbar vertebrae (L4–L5) and sacrum.
+
+Mild tenderness over both iliac bones.
+
+No pathological fractures.
+
+
+CARDIOVASCULAR:
+Heart sounds I and II normal.
+
+No murmurs.
+
+
+RESPIRATORY:
+Normal vesicular breath sounds.
+
+No added sounds.
+
+
+CENTRAL NERVOUS SYSTEM:
+GCS 15/15.
+
+Normal tone and power in all limbs.
+
+No focal neurological deficits.
+
+
+ASSESSMENT:
+Likely locally advanced adenocarcinoma of the prostate with suspected bone metastases.
+
+Clinical stage T3/T4 disease; metastatic disease to be confirmed.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Benign prostatic hyperplasia.
+2. Chronic prostatitis.
+3. Bladder outlet obstruction secondary to urethral stricture.
+4. Bladder carcinoma involving the prostate.
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Laboratory:
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Liver Function Tests.
+- Serum Calcium.
+- Alkaline Phosphatase.
+- Prostate-Specific Antigen (PSA).
+- Urinalysis.
+- Urine Microscopy, Culture and Sensitivity.
+
+Expected findings:
+Markedly elevated PSA.
+Raised alkaline phosphatase if bone metastases are present.
+
+
+Histology:
+- Transrectal ultrasound-guided prostate biopsy (10–12 cores).
+
+Expected finding:
+Adenocarcinoma of the prostate.
+
+Gleason grading to determine tumour aggressiveness.
+
+
+Imaging:
+- Multiparametric MRI of the prostate for local staging.
+- CT abdomen and pelvis for lymph node involvement.
+- Bone scan (Technetium-99m) or PSMA PET-CT where available for skeletal metastasis assessment.
+- Chest X-ray baseline.
+
+
+MANAGEMENT:
+
+INITIAL MANAGEMENT:
+- Explain suspected diagnosis and need for histological confirmation.
+- Provide psychological support.
+- Involve family members with patient's consent.
+- Refer to Urology and Oncology teams.
+
+
+ANDROGEN DEPRIVATION THERAPY:
+
+LHRH agonist:
+
+Inj. Goserelin 10.8 mg subcutaneously every 12 weeks.
+
+OR
+
+Inj. Leuprolide 22.5 mg IM every 3 months.
+
+To prevent tumour flare:
+
+Tab Bicalutamide 50 mg orally once daily.
+
+Commence 7 days before first LHRH agonist injection and continue for 2–4 weeks.
+
+
+Alternative:
+
+Bilateral orchidectomy after counselling and informed consent.
+
+
+IF METASTATIC HORMONE-SENSITIVE DISEASE:
+
+Consider addition of:
+
+Tab Abiraterone 1000 mg orally once daily on empty stomach.
+
+PLUS
+
+Tab Prednisolone 5 mg orally twice daily.
+
+Alternative agents:
+- Enzalutamide.
+- Apalutamide.
+
+
+MANAGEMENT OF LOWER URINARY TRACT SYMPTOMS:
+
+Tab Tamsulosin 0.4 mg orally at night.
+
+If acute urinary retention develops:
+
+Insert Foley catheter.
+
+If urethral catheterisation fails:
+
+Perform suprapubic cystostomy.
+
+
+PAIN MANAGEMENT:
+
+Mild to moderate pain:
+
+Tab Paracetamol 1 g orally every 6 hours as required.
+
+Moderate to severe pain:
+
+Tab Tramadol 50–100 mg orally every 8 hours as required.
+
+Severe metastatic bone pain:
+
+Oral Morphine 5–10 mg every 4 hours, titrated according to response.
+
+Provide laxative prophylaxis with opioid therapy.
+
+
+BONE HEALTH:
+
+Tab Calcium Carbonate 1200 mg orally once daily.
+
+Vitamin D₃ 800–1000 IU orally once daily.
+
+If bone metastases confirmed:
+
+Inj. Zoledronic Acid 4 mg IV every 4 weeks after assessment of renal function.
+
+Alternative:
+Denosumab 120 mg subcutaneously every 4 weeks.
+
+
+RADIOTHERAPY:
+Refer to Radiation Oncology for:
+- Painful bone metastases.
+- Spinal cord compression.
+- Locally advanced symptomatic disease.
+- Palliation of haematuria or obstruction.
+
+
+CHEMOTHERAPY:
+For suitable patients with metastatic disease:
+
+Docetaxel 75 mg/m² IV every 3 weeks for 6 cycles under oncology supervision.
+
+
+NURSING INSTRUCTIONS:
+- Monitor urinary output.
+- Assess pain score regularly.
+- Monitor for urinary retention.
+- Observe for lower limb weakness or features of spinal cord compression.
+- Provide mobility support and pressure area care if required.
+
+
+HEALTH EDUCATION:
+Patient and family counselled that prostate cancer is a malignant tumour of the prostate gland and differs from benign prostate enlargement.
+
+Explained that advanced disease may not be curable but treatment can relieve symptoms, delay progression and improve quality of life.
+
+Emphasised adherence to treatment and follow-up appointments.
+
+Advised urgent presentation if he develops:
+- Acute urinary retention.
+- Severe lower limb weakness.
+- Loss of bowel or bladder control.
+- Worsening bone pain.
+
+Discussed possible effects of androgen deprivation therapy including hot flushes, reduced libido, erectile dysfunction, fatigue, osteoporosis and metabolic changes.
+
+
+FOLLOW-UP:
+Review in Urology Clinic after 2 weeks with biopsy and imaging results.
+
+Refer to Clinical Oncology for multidisciplinary care.
+
+Monitor:
+- PSA every 3–6 months.
+- Renal function.
+- Full Blood Count.
+- Serum testosterone where indicated.
+- Repeat imaging according to symptoms or rising PSA.
+
+Prognosis is guarded. Outcome depends on tumour stage, histological grade, metastatic burden and response to systemic therapy.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-06',
+  title: 'Symptomatic Benign Prostatic Hyperplasia',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology Clinic',
+  condition: 'Benign Prostatic Hyperplasia',
+  symptoms: [
+    'Difficulty passing urine',
+    'Poor urinary stream',
+    'Urinary frequency',
+    'Nocturia',
+    'Incomplete bladder emptying',
+    'Terminal dribbling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '65-year-old male retired civil servant presenting with progressive lower urinary tract symptoms, severe IPSS score and examination findings consistent with symptomatic benign prostatic hyperplasia causing bladder outlet obstruction.',
+  content: `UROLOGY CLINIC
+
+Patient Seen
+
+A 65-year-old male retired civil servant residing in Abeokuta, Ogun State.
+
+Yoruba by tribe.
+
+Married.
+
+Informant:
+Patient (Reliable)
+
+
+PC:
+Difficulty passing urine × 1 year
+
+Poor urinary stream × 1 year
+
+Frequent urination × 8 months
+
+Nocturia × 6 months
+
+
+HPC:
+The patient was apparently well until about one year prior to presentation when he developed progressive difficulty initiating urination.
+
+He noticed a weak urinary stream requiring straining to commence and maintain micturition.
+
+There is associated intermittent urinary flow, terminal dribbling after voiding and a sensation of incomplete bladder emptying.
+
+He often has to return to the toilet shortly after urinating.
+
+Over the past eight months, he has experienced increased urinary frequency, voiding approximately 10–12 times daily.
+
+He reports urinary urgency without urge incontinence.
+
+For the past six months, he wakes 4–5 times nightly to pass urine, significantly disturbing his sleep.
+
+He occasionally experiences mild suprapubic discomfort when the bladder is full.
+
+There is no dysuria.
+
+No haematuria.
+
+No fever.
+
+No urethral discharge.
+
+No history of complete inability to pass urine.
+
+No flank pain.
+
+No weight loss, bone pain or loss of appetite suggestive of advanced prostate malignancy.
+
+
+REVIEW OF SYSTEMS:
+
+General:
+- Poor sleep due to nocturia
+- No fever
+- No weight loss
+
+Genitourinary:
+- Hesitancy
+- Poor urinary stream
+- Intermittency
+- Straining
+- Terminal dribbling
+- Incomplete bladder emptying
+- Frequency
+- Urgency
+- Nocturia
+- No dysuria
+- No haematuria
+- No urinary incontinence
+
+Gastrointestinal:
+- No constipation
+- No abdominal pain
+- No rectal bleeding
+
+Cardiovascular:
+- No chest pain
+- No palpitations
+
+Respiratory:
+- No cough
+- No dyspnoea
+
+Neurological:
+- No lower limb weakness
+- No saddle anaesthesia
+- No bowel or bladder incontinence
+
+
+PAST MEDICAL HISTORY:
+Known hypertensive diagnosed eight years ago.
+
+Well controlled on medication.
+
+No diabetes mellitus.
+
+No chronic kidney disease.
+
+No previous urinary tract infections.
+
+
+PAST SURGICAL HISTORY:
+No previous urological surgery.
+
+
+DRUG HISTORY:
+Tab Amlodipine 10 mg orally once daily.
+
+No herbal medication use.
+
+No known drug allergies.
+
+
+FAMILY HISTORY:
+No family history of prostate cancer.
+
+No family history of urinary tract disease.
+
+
+SOCIAL HISTORY:
+Retired civil servant.
+
+Lives with wife.
+
+Non-smoker.
+
+Occasional alcohol consumption.
+
+Independent in activities of daily living.
+
+
+O/E:
+
+GENERAL:
+Elderly man.
+
+Conscious and alert.
+
+Comfortable at rest.
+
+Not pale.
+
+Anicteric.
+
+Well hydrated.
+
+No peripheral oedema.
+
+
+VITAL SIGNS:
+BP: 136/82 mmHg
+
+PR: 78 bpm, regular
+
+RR: 16 cpm
+
+Temperature: 36.7°C
+
+SpO₂: 98% in room air
+
+Weight: 78 kg
+
+Height: 1.70 m
+
+BMI: 27.0 kg/m²
+
+
+ABDOMEN:
+Abdomen moves with respiration.
+
+Soft and non-tender.
+
+Mildly palpable distended urinary bladder after voiding.
+
+No renal angle tenderness.
+
+No palpable masses.
+
+Normal bowel sounds.
+
+
+DIGITAL RECTAL EXAMINATION:
+
+Anal sphincter tone normal.
+
+Prostate uniformly enlarged, approximately Grade II.
+
+Smooth surface.
+
+Firm but elastic consistency.
+
+Median sulcus partially obliterated.
+
+No nodules.
+
+No asymmetry.
+
+Non-tender.
+
+Rectal mucosa normal.
+
+No blood on examining finger.
+
+
+OTHER SYSTEMS:
+
+CARDIOVASCULAR:
+Heart sounds I and II normal.
+
+No murmurs.
+
+
+RESPIRATORY:
+Normal vesicular breath sounds.
+
+No added sounds.
+
+
+NEUROLOGICAL:
+Normal lower limb power and sensation.
+
+Normal anal sphincter tone.
+
+
+INTERNATIONAL PROSTATE SYMPTOM SCORE (IPSS):
+
+Score: 21/35 (Severe lower urinary tract symptoms)
+
+Quality of Life Score: 5/6 (Mostly dissatisfied)
+
+
+ASSESSMENT:
+Symptomatic benign prostatic hyperplasia with severe lower urinary tract symptoms and probable bladder outlet obstruction.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Carcinoma of the prostate.
+2. Urethral stricture.
+3. Neurogenic bladder.
+4. Chronic prostatitis.
+5. Bladder neck stenosis.
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Laboratory:
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Random Blood Glucose.
+- Urinalysis.
+- Urine Microscopy, Culture and Sensitivity if infection is suspected.
+- PSA after excluding urinary tract infection and avoiding recent catheterisation/DRE where possible.
+
+
+IMAGING:
+
+Ultrasound Kidney, Ureters, Bladder and Prostate.
+
+Expected findings:
+- Enlarged prostate approximately 55 g.
+- Increased post-void residual urine.
+- Mild bladder wall thickening.
+- No hydronephrosis.
+
+
+OTHER TESTS:
+
+Uroflowmetry:
+Expected peak flow rate (Qmax) less than 10 mL/sec.
+
+Post-void residual urine measurement.
+
+Cystoscopy if:
+- Haematuria.
+- Recurrent infection.
+- Suspicion of urethral pathology.
+
+Prostate biopsy only if PSA or DRE findings are suspicious for malignancy.
+
+
+MANAGEMENT:
+
+LIFESTYLE MODIFICATION:
+
+- Reduce evening fluid intake.
+- Avoid caffeine, alcohol and carbonated drinks.
+- Practice double voiding.
+- Avoid prolonged postponement of urination.
+- Review medications that may worsen urinary symptoms such as decongestants and anticholinergics.
+
+
+MEDICAL MANAGEMENT:
+
+Alpha-1 Adrenergic Blocker (First line):
+
+Tab Tamsulosin 0.4 mg orally at night after food.
+
+Review response after 4–6 weeks.
+
+Alternative:
+- Tab Alfuzosin 10 mg orally once daily after meals.
+- Tab Doxazosin 1 mg orally at night, gradually increasing according to response and blood pressure.
+
+Counsel patient regarding dizziness, postural hypotension and retrograde ejaculation.
+
+
+5-Alpha Reductase Inhibitor:
+
+Indicated for prostate volume >40 g or PSA >1.5 ng/mL.
+
+Tab Finasteride 5 mg orally once daily.
+
+Alternative:
+Tab Dutasteride 0.5 mg orally once daily.
+
+Explain that improvement may take 3–6 months.
+
+
+COMBINATION THERAPY:
+
+For severe symptoms with enlarged prostate:
+
+Tab Tamsulosin 0.4 mg nightly
+
+PLUS
+
+Tab Finasteride 5 mg daily.
+
+
+OVERACTIVE BLADDER SYMPTOMS:
+
+If persistent after excluding significant residual urine:
+
+Tab Solifenacin 5 mg orally once daily.
+
+
+IF ACUTE URINARY RETENTION OCCURS:
+
+Insert 16–18 Fr Foley urethral catheter using aseptic technique.
+
+If urethral catheterisation fails:
+
+Perform suprapubic cystostomy.
+
+Attempt trial without catheter after 3–7 days while continuing alpha blocker therapy.
+
+
+INDICATIONS FOR SURGERY:
+
+Consider surgical intervention if:
+- Recurrent urinary retention.
+- Recurrent urinary tract infections.
+- Bladder stones.
+- Persistent haematuria secondary to BPH.
+- Renal impairment due to obstruction.
+- Failure of medical therapy.
+- Severe symptoms affecting quality of life.
+
+
+SURGICAL OPTIONS:
+
+- Transurethral Resection of the Prostate (TURP) – gold standard for prostate size 30–80 g.
+- Bipolar TURP.
+- Holmium Laser Enucleation of Prostate (HoLEP).
+- Open simple prostatectomy for very large prostates (>80–100 g).
+
+
+NURSING INSTRUCTIONS:
+- Monitor urinary output.
+- Assess for urinary retention.
+- Monitor blood pressure after initiation of alpha blockers.
+- Reinforce medication adherence.
+
+
+HEALTH EDUCATION:
+Patient counselled that benign prostatic hyperplasia is a non-cancerous enlargement of the prostate gland commonly occurring with ageing.
+
+Explained that BPH differs from prostate cancer, although both conditions may coexist.
+
+Advised:
+- Limit fluid intake 2–3 hours before bedtime.
+- Reduce caffeine and alcohol intake.
+- Seek urgent review if unable to pass urine, develops fever, severe suprapubic pain or gross haematuria.
+
+Encouraged regular prostate assessment and PSA monitoring where clinically indicated.
+
+
+FOLLOW-UP:
+Review after 4–6 weeks to assess symptom improvement using IPSS.
+
+Review renal function and ultrasound findings.
+
+Review PSA result.
+
+Refer for surgical management if symptoms persist despite optimal medical therapy or complications develop.
+
+Prognosis is good. Most patients with uncomplicated BPH respond well to medical therapy, with alpha blockers providing rapid symptom relief and 5-alpha reductase inhibitors reducing prostate volume over time.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-01',
+  title: 'Grade II Internal Haemorrhoids',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Internal Haemorrhoids',
+  symptoms: [
+    'Bright red rectal bleeding',
+    'Anal swelling during defecation',
+    'Anal discomfort',
+    'Constipation',
+    'Straining at stool'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-15',
+  summary: '45-year-old male commercial banker presenting with Grade II internal haemorrhoids causing intermittent painless rectal bleeding and prolapse secondary to chronic constipation and excessive straining.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 45-year-old male commercial banker, married, residing in Abeokuta, Ogun State, Christian, Yoruba.
+
+Informant:
+Patient (Reliable)
+
+PC:
+Passage of bright red blood during defecation × 3 months
+Anal swelling during defecation × 2 months
+Anal discomfort × 2 months
+
+
+HPC:
+The patient was apparently well until about three months prior to presentation when he noticed passage of bright red blood per rectum during defecation.
+
+The blood is usually seen coating the stool and dripping into the toilet bowl, occasionally staining the toilet paper. The bleeding is painless and occurs intermittently.
+
+Approximately one month later, he began noticing a fleshy swelling protruding through the anus during bowel movements. The swelling reduces spontaneously shortly after defecation and has never required manual reduction.
+
+He also complains of mild anal discomfort and a sensation of incomplete evacuation after defecation.
+
+He has a long-standing history of constipation, passing hard stools every 2–3 days, often requiring excessive straining.
+
+He spends prolonged periods sitting on the toilet while using his mobile phone.
+
+There is no severe anal pain.
+
+No purulent discharge.
+No faecal incontinence.
+No change in bowel habit.
+No mucus discharge.
+No weight loss.
+No abdominal pain.
+No history suggestive of inflammatory bowel disease or colorectal malignancy.
+
+
+REVIEW OF SYSTEMS:
+
+General:
+- No fever
+- No weight loss
+- No anorexia
+
+Gastrointestinal:
+- Bright red rectal bleeding
+- Constipation
+- Straining at stool
+- Anal swelling
+- No abdominal pain
+- No vomiting
+- No melaena
+- No diarrhoea
+
+Genitourinary:
+- No dysuria
+- No urinary symptoms
+
+Cardiovascular:
+- No dizziness
+- No palpitations
+
+Respiratory:
+- No cough
+- No dyspnoea
+
+
+PAST MEDICAL HISTORY:
+Known chronic constipation.
+No hypertension.
+No diabetes mellitus.
+No chronic liver disease.
+
+
+PAST SURGICAL HISTORY:
+Nil significant.
+
+
+DRUG HISTORY:
+Occasional use of herbal laxatives.
+No anticoagulant use.
+No known drug allergies.
+
+
+FAMILY HISTORY:
+No family history of colorectal cancer.
+No inflammatory bowel disease.
+
+
+SOCIAL HISTORY:
+Sedentary occupation.
+Low dietary fibre intake.
+Consumes less than 1 litre of water daily.
+Occasional alcohol consumption.
+Non-smoker.
+
+
+O/E:
+
+GENERAL:
+Middle-aged man, conscious, alert and comfortable at rest.
+Not pale.
+Anicteric.
+No peripheral oedema.
+No lymphadenopathy.
+
+
+VITAL SIGNS:
+BP: 126/80 mmHg
+PR: 80 bpm, regular
+RR: 16 cpm
+Temperature: 36.7°C
+SpO₂: 99% in room air
+Weight: 82 kg
+Height: 1.73 m
+BMI: 27.4 kg/m²
+
+
+ABDOMEN:
+Abdomen full.
+Soft.
+Non-tender.
+No palpable masses.
+No hepatosplenomegaly.
+Normal bowel sounds.
+
+
+PERIANAL EXAMINATION:
+Perianal skin healthy.
+No erythema.
+No fissure-in-ano.
+No fistulous opening.
+No thrombosed external haemorrhoid.
+No perianal abscess.
+
+
+DIGITAL RECTAL EXAMINATION:
+Normal anal sphincter tone.
+No palpable rectal mass.
+No tenderness.
+Glove stained with a small amount of bright red blood.
+
+
+PROCTOSCOPY:
+Three enlarged internal haemorrhoidal cushions identified at the 3, 7 and 11 o'clock positions.
+They prolapse during straining but reduce spontaneously.
+No active bleeding at the time of examination.
+No rectal tumour.
+No rectal polyp.
+
+
+ASSESSMENT:
+Grade II internal haemorrhoids with intermittent painless rectal bleeding secondary to chronic constipation and excessive straining.
+
+
+DIFFERENTIAL DIAGNOSES:
+1. Anal fissure.
+2. Colorectal polyp.
+3. Colorectal carcinoma.
+4. Ulcerative colitis.
+5. Rectal prolapse.
+6. Angiodysplasia.
+
+
+PLAN:
+
+INVESTIGATIONS:
+
+Laboratory:
+- Full Blood Count.
+- Packed Cell Volume.
+- Random Blood Glucose.
+- Serum Electrolytes, Urea and Creatinine if surgery is contemplated.
+
+Endoscopic evaluation:
+- Flexible sigmoidoscopy.
+- Colonoscopy (recommended because patient is over 40 years with rectal bleeding to exclude colorectal neoplasia or other significant pathology).
+
+
+MANAGEMENT:
+
+Conservative Treatment:
+- Increase dietary fibre intake to 25–35 g/day through fruits, vegetables, legumes and whole grains.
+- Increase oral fluid intake to 2–3 litres/day unless contraindicated.
+- Avoid prolonged sitting on the toilet.
+- Avoid excessive straining during defecation.
+- Encourage regular physical activity.
+
+Stool Softeners:
+- Lactulose syrup 15–30 mL orally at night, adjusting dose to achieve one soft bowel movement daily.
+
+Alternative:
+- Macrogol (Polyethylene Glycol) 17 g dissolved in 250 mL of water orally once daily.
+
+Analgesia:
+- Tab Paracetamol 1 g orally every 6 hours as required (maximum 4 g/day).
+
+Avoid routine opioid analgesics as they may worsen constipation.
+
+Topical Therapy:
+- Hydrocortisone 1% plus Lidocaine 2% rectal cream.
+
+Apply a small amount into the anal canal and around the anus twice daily for 5–7 days.
+
+Avoid prolonged topical steroid use beyond one week.
+
+Warm Sitz Bath:
+- Sit in warm water for 10–15 minutes, 2–3 times daily and after bowel movements.
+
+If bleeding or prolapse persists:
+- Arrange Rubber Band Ligation (preferred office procedure for Grade II haemorrhoids).
+
+Alternative office procedures:
+- Injection sclerotherapy.
+- Infrared coagulation.
+
+Surgical Management (if indicated):
+Indications:
+- Grade III or IV haemorrhoids.
+- Persistent bleeding despite office treatment.
+- Recurrent prolapse.
+- Strangulation or thrombosis.
+
+Options:
+- Open (Milligan-Morgan) haemorrhoidectomy.
+- Closed (Ferguson) haemorrhoidectomy.
+- Stapled haemorrhoidopexy (selected cases).
+
+
+NURSING INSTRUCTIONS:
+- Monitor ongoing rectal bleeding.
+- Document bowel habits.
+- Encourage high-fibre meals and adequate hydration.
+- Educate on proper perianal hygiene.
+
+
+HEALTH EDUCATION:
+Patient counselled that haemorrhoids are enlarged vascular cushions within the anal canal commonly associated with chronic constipation, excessive straining and prolonged sitting during defecation.
+
+Reassured that Grade II haemorrhoids usually respond well to dietary modification and office-based procedures.
+
+Advised to avoid delaying defecation when the urge occurs.
+
+Advised not to read or use mobile phones while on the toilet.
+
+Instructed to seek urgent medical attention if bleeding becomes heavy, severe anal pain develops or a prolapsed haemorrhoid becomes irreducible.
+
+
+FOLLOW-UP:
+Review in the General Surgery Clinic in 4 weeks.
+
+Assess symptom improvement and bowel habits.
+
+If bleeding persists despite conservative management, schedule Rubber Band Ligation.
+
+Arrange colonoscopy if indicated or if alarm symptoms develop.
+
+Prognosis is excellent. Most patients with Grade II internal haemorrhoids improve significantly with dietary modification, stool softeners, lifestyle changes and office-based procedures where indicated.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-01',
   title: 'Multiple Soft Tissue Injuries Following Road Traffic Accident',

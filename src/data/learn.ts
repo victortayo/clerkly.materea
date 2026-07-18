@@ -11,7 +11,7 @@ export interface LearningModule {
   id: string;
   title: string;
   category: LearningModuleCategory;
-  subCategory?: SymptomSubCategory;
+  subCategory?: string;
   content: string; 
 }
 
@@ -1955,70 +1955,960 @@ export const clerklyLearnLibrary: LearningModule[] = [
     `
   },
 
-  {
-    id: 'treatment-example-1',
-    title: 'Example Treatment Topic',
-    category: 'Treatment',
-    // subCategory: 'OptionalSubCategory', // This is optional
-    content: `
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Example Treatment</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <h1>This is a guide on a new treatment.</h1>
-    <p>Add your detailed HTML content for the treatment guide here.</p>
-  </body>
-  </html>
-    `
-  },
-
-  
-  {
-    id: 'procedures-example-1',
-    title: 'Example Procedure Topic',
-    category: 'Procedures',
-    // subCategory: 'OptionalSubCategory', // This is optional
-    content: `
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Example Procedure</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <h1>This is a guide on a new procedure.</h1>
-    <p>Add your detailed HTML content for the procedure guide here.</p>
-  </body>
-  </html>
-    `
-  },
+ 
+// PHYSICAL EXAMINATION
+{
+  id: 'examination-general-physical',
+  title: 'General Physical Examination',
+  category: 'Physical Examination',
+  subCategory: 'General',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>General Physical Examination</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
 
 
-  {
-    id: 'history-taking-example-1',
-    title: 'Example History Taking Topic',
-    category: 'History Taking',
-    // subCategory: 'OptionalSubCategory', // This is optional
-    content: `
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Example History Taking</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <h1>This is a guide on history taking.</h1>
-    <p>Add your detailed HTML content for the history taking guide here.</p>
-  </body>
-  </html>
-    `
-  }
-  
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
 
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Clinical Skills</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">General Physical Examination</h1>
+  <p class="text-sm text-indigo-200">The general physical examination is the first structured look at the patient as a whole, before a stethoscope ever touches the chest. Done well, it can point you toward a diagnosis before you examine a single system. This guide walks through the standard sequence, with the reasoning behind each sign and the local patterns - sickle cell disease, malaria, TB, HIV - that shift how you interpret what you find.</p>
+</div>
+</div>
+
+<!-- 1. Principles -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Principles and Approach
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Seek consent and introduce yourself, even on a busy ward round - patients remember being examined without being told what for.</li>
+    <li>Ensure adequate exposure, balanced against dignity - expose one region at a time and use a cover cloth, particularly with older patients and in mixed-sex bays.</li>
+    <li>Position yourself on the patient's right side, the conventional side for both general and systemic examination.</li>
+    <li>Sequence matters: general appearance (posture, gait, distress) first, then a detailed general examination, then systemic examination. Do not skip straight to the system you suspect is affected.</li>
+    <li>Examine in natural daylight wherever possible - fluorescent ward lighting commonly masks mild jaundice and pallor, and this is one of the most practice-changing habits a student can build.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 2. General Inspection -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+General Inspection
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">From the End of the Bed</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Consciousness and alertness</span> - awake, drowsy, responsive to voice or pain only.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">General demeanour</span> - well, anxious, depressed, acutely ill or toxic-looking, or chronically ill.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional status</span> - obese, average, or wasted, evidenced by prominent zygomatic or clavicular bones and loss of buttock/thigh bulk.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Attachments</span> - IV cannula and fluids, urinary catheter, nasogastric tube, oxygen delivery device, drains, or wound dressings.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Posture and gait</span>, where the patient is able to stand or walk.</li>
+  </ul>
+  <p class="mt-3 text-sm">A toxic-looking or acutely distressed appearance on first inspection should raise suspicion for sepsis or severe malaria, and should shorten - not lengthen - the time before vital signs are checked.</p>
+</div>
+</div>
+
+<!-- 3. Hands -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+The Hands
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Inspection</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Palmar pallor</span> - compare the patient's palmar creases to your own at the same angle and lighting; creases as pale as the surrounding skin suggest significant anaemia, roughly below Hb 7-8 g/dL. This remains one of the most reliable bedside signs of anaemia regardless of skin tone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Palmar erythema</span> - mottled redness of the thenar and hypothenar eminences; seen in chronic liver disease, pregnancy, thyrotoxicosis, and rheumatoid arthritis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dupuytren's contracture</span> - thickened palmar fascia, usually the ring or little finger; associated with chronic liver disease, diabetes, manual labour, and alcohol use.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splinter haemorrhages</span> - linear reddish-brown streaks under the nail; classically infective endocarditis, but also seen after trauma or manual work, so ask about occupation before assuming pathology.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Koilonychia</span> - spoon-shaped nails, seen in chronic iron deficiency anaemia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nail temperature and moisture</span> - cool and clammy suggests poor perfusion; warm suggests fever or thyrotoxicosis.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Digital Clubbing</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fluctuancy test</span> - stabilise the finger and press the nail bed; increased sponginess is the earliest sign.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Schamroth's window</span> - bring the dorsal surfaces of the patient's two fingers together at the DIP joint; loss of the normal diamond-shaped gap confirms clubbing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lateral profile</span> - obliteration of the normal angle between nail and nail fold (Lovibond angle).</li>
+  </ul>
+  <p class="mt-3 text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Grading:</span> 1 - increased fluctuancy only; 2 - loss of the nail-nail fold angle; 3 - increased nail convexity, longitudinal and transverse; 4 - drumstick appearance; 5 - hypertrophic osteoarthropathy, with shiny thickened skin and periosteal new bone.</p>
+  <p class="mt-2 text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Causes to know:</span> suppurative lung disease, complicated pulmonary TB, and non-small cell bronchogenic carcinoma; cyanotic congenital heart disease and infective endocarditis; inflammatory bowel disease, malabsorption, and liver cirrhosis. Given the local burden of pulmonary TB and its suppurative complications, clubbing in a chronically unwell patient should prompt an early TB work-up alongside the standard differential, not just malignancy or cardiac causes.</p>
+</div>
+</div>
+
+<!-- 4. Vitals & Hydration -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Temperature and Hydration Status
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Temperature</strong>
+  <p class="text-sm">Measure in the axilla, or orally/rectally where appropriate. If no thermometer is available, feel with the back of your hand and document clearly as an estimate rather than a measured value.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hydration Status</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tongue and mucosa</span> - ask the patient to put out their tongue; note dryness and reduced saliva pooling.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin turgor</span> - pinch a fold of abdominal skin and release; slow return suggests dehydration. Turgor is naturally reduced in the elderly, so interpret with caution in older patients.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Capillary refill</span> - press the nail bed until it blanches and time the return of colour; normal is 2-3 seconds, and this stays reliable regardless of skin tone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sunken eyes, cool peripheries, and reduced urine output</span> support a more severe picture.</li>
+  </ul>
+  <p class="mt-3 text-sm">These same bedside signs - skin pinch, sunken eyes, thirst, and mental state - underpin WHO/FMOH dehydration grading (none, some, severe), which is used routinely in managing acute watery diarrhoea and cholera, and determines whether a patient needs oral rehydration therapy or urgent IV fluids.</p>
+</div>
+</div>
+
+<!-- 5. Head, Face, Eyes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Head, Face and Eyes
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hair, Scalp and Skull</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hair texture</span> - fine, sparse, or easily pluckable hair can indicate protein-energy malnutrition or hypothyroidism.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alopecia</span> - patterned or diffuse hair loss; consider telogen effluvium, autoimmune disease, or nutritional causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Skull shape</span> - frontal or parietal bossing with a broad, tower-like skull in a young patient with chronic anaemia and jaundice is a classic finding of chronic haemolysis, most importantly sickle cell disease, which affects an estimated 2-3% of births as SS or SC disease locally. Combined with pallor and scleral icterus, this should immediately bring sickle cell disease into the differential. Other causes include rickets and, less commonly, Paget's disease of bone.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Eyes</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Conjunctival pallor</span> - gently evert the lower eyelid in good light; the normal conjunctiva is deep pink-red, and loss of this colour is one of the most reliable signs of anaemia across all skin tones.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Scleral icterus</span> - examine in natural light where possible; ask the patient to look down while you retract the upper lid to bring more sclera into view.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of inflammation</span> - conjunctival injection or discharge.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sunken eyes</span> - dehydration.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Exophthalmos, lid lag, or lid retraction</span> - thyroid eye disease or thyrotoxicosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ptosis</span> - consider myasthenia gravis, third nerve palsy, or Horner's syndrome.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Periorbital oedema</span> - consider nephrotic syndrome, severe allergic reaction, or angioedema.</li>
+  </ul>
+  <p class="mt-3 text-sm">Combined conjunctival pallor and scleral icterus in the same patient should trigger a haemolytic screen - reticulocyte count, LDH, unconjugated bilirubin, and blood film - rather than being read as two unrelated findings.</p>
+</div>
+</div>
+
+<!-- 6. Mouth, Cyanosis, Neck -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Mouth, Cyanosis and Neck
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cyanosis</strong>
+  <p class="text-sm">Examine the tongue and buccal mucosa, not just the lips, for a bluish discolouration.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Central cyanosis</span> - bluish tongue and mucosa, reflecting arterial desaturation; seen in advanced respiratory or cyanotic cardiac disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peripheral cyanosis</span> - bluish nail beds with a warm, pink tongue; reflects reduced peripheral perfusion.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Oral Cavity</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Check teeth and gums for oral hygiene, caries, and gum disease - an overlooked but real source of sepsis and endocarditis risk.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Angular stomatitis and glossitis</span> - suggest iron, B12, or folate deficiency.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral thrush</span> - white plaques on the buccal mucosa or tongue; consider immunosuppression, including undiagnosed HIV, diabetes, recent antibiotics, or inhaled steroid use.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mucosal pigmentation</span> - some buccal pigmentation is a normal racial variant locally; distinguish this from Addison's disease, which tends to be patchy and also involves pressure areas, scars, and palmar creases.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neck</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Inspect and palpate the thyroid for enlargement, nodularity, or a bruit; ask the patient to swallow (thyroid moves up) and protrude the tongue (a thyroglossal cyst moves up).</li>
+    <li>Check the jugular venous pressure at 45 degrees, and palpate the trachea for central position.</li>
+  </ul>
+  <p class="mt-3 text-sm">Endemic goitre remains relevant in some inland or riverine communities with iodine-deficient soil, despite national salt iodisation - a visible or palpable goitre in a patient from such an area warrants a specific enquiry into dietary iodine and thyroid function.</p>
+</div>
+</div>
+
+<!-- 7. Lymph Nodes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Lymphatic System
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nodal Groups to Examine</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Head and neck:</span> submental, submandibular, pre-auricular, post-auricular, anterior and posterior cervical, supraclavicular.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Axillary:</span> anterior, posterior, lateral, medial, and apical.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Other:</span> supratrochlear, inguinal, and popliteal.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterising Each Node</strong>
+  <p class="text-sm">Size, position, and shape; consistency (soft, firm, hard, or rubbery); mobility; tenderness (tender with overlying warmth suggests infection; painless, hard, or matted raises concern for malignancy or TB lymphadenitis); and whether isolated or matted together.</p>
+  <p class="mt-3 text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Significant lymphadenopathy:</span> a node greater than 1-1.5 cm, except inguinal nodes at 2 cm or more, and epitrochlear nodes of any size. <span class="font-medium text-slate-800 dark:text-slate-200">Generalised lymphadenopathy:</span> involvement of two or more non-contiguous sites. <span class="font-medium text-slate-800 dark:text-slate-200">Persistent:</span> lasting more than three months.</p>
+  <p class="mt-2 text-sm">Generalised lymphadenopathy in a Nigerian adult should specifically raise tuberculous lymphadenitis (often matted, cervical, sometimes with an overlying sinus or scarring), HIV-related persistent generalised lymphadenopathy (an HIV test should be offered as part of routine work-up, with pre-test counselling), and reactive lymphadenopathy from recurrent malaria or other endemic infections - alongside lymphoma.</p>
+</div>
+</div>
+
+<!-- 8. Legs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Lower Limbs and Oedema
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Examine the toes and toenails for clubbing and splinter haemorrhages, as with the fingers.</li>
+    <li>Examine the ankles for oedema - press firmly over the medial tibial surface for 5-10 seconds and look for pitting.</li>
+    <li>If ankle oedema is present, trace it upward - calf, thigh, sacrum - to determine its highest point of extension. Unilateral leg oedema points to a local venous or lymphatic cause; bilateral, sacral-extending oedema points to a systemic cause.</li>
+  </ul>
+  <p class="mt-3 text-sm">Bilateral leg oedema in a Nigerian adult has a broad differential that should specifically include nephrotic syndrome (including HIV-associated nephropathy and, historically, quartan malarial nephropathy), decompensated heart failure - often from hypertensive heart disease or rheumatic valve disease in younger patients - chronic liver disease, and severe protein-energy malnutrition, alongside chronic venous insufficiency and drug-induced oedema such as from calcium channel blockers.</p>
+</div>
+</div>
+
+<!-- 9. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A toxic-looking or acutely distressed general appearance</span> - shortens the time to vital signs and should raise suspicion for sepsis or severe malaria.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Frontal bossing with pallor and jaundice</span> in a young patient - sickle cell disease until confirmed otherwise by genotype.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Supraclavicular or firm, matted, painless lymphadenopathy</span> - raises malignancy or TB lymphadenitis and warrants prompt biopsy or further work-up.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Generalised lymphadenopathy of unclear cause</span> - offer HIV testing with pre-test counselling as part of routine work-up.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bilateral, sacral-extending oedema</span> - suggests a systemic cause (renal, cardiac, hepatic, or nutritional) rather than local venous disease, and needs urgent further assessment.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of severe dehydration</span> - sunken eyes, very slow skin pinch return, and altered mental state - needs urgent IV rehydration, not oral therapy alone.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Read pallor, jaundice, and cyanosis from the conjunctiva, tongue, nail beds, and buccal mucosa, not from skin colour - skin colour alone is unreliable in moderately to darkly pigmented patients.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Frontal bossing plus pallor plus jaundice is sickle cell disease until proven otherwise.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Clubbing in a chronically unwell patient should bring pulmonary TB into the differential early, not just malignancy or cardiac disease.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Generalised lymphadenopathy locally is TB, HIV, and malaria until proven otherwise, alongside the standard haematological differential.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never rush past general inspection - a large amount of the diagnostic picture is available before you ever touch the patient.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Integrated Management of Diarrhoea and Dehydration Assessment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Sickle Cell Foundation Nigeria - Clinical Guidelines for the Management of Sickle Cell Disease.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National TB and Leprosy Control Programme, Nigeria - Diagnosis and Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Agency for the Control of AIDS / Federal Ministry of Health - National HIV Testing Services Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+// LABORATORY INTERPRETATIONS
+{
+  id: 'lab-full-blood-count',
+  title: 'Full Blood Count',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Hematology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting the Full Blood Count (FBC)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Full Blood Count</h1>
+  <p class="text-sm text-indigo-200">The FBC is frequently the only investigation available at the point of decision - CRP and procalcitonin are rarely accessible outside tertiary centres, and a blood culture, where the lab runs one at all, takes days to return. Every parameter has to be read for its underlying mechanism, not just flagged as high or low against a printed reference range.</p>
+</div>
+</div>
+
+<!-- 1. Approach -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Approaching the FBC in This Setting
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Reading order matters more than reading each line in isolation:</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">PCV/Hb</span> - presence and severity of anaemia.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">MCV</span>, with RDW where available - narrows the anaemia differential.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">WBC and differential</span> - a pattern suggesting bacterial, malarial, viral, or parasitic process.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Platelets</span> - evidence toward malaria, dengue, typhoid, or bleeding risk.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Peripheral film</span>, wherever available - the single most informative addition to a basic FBC in this setting, and underused relative to its diagnostic yield.</li>
+</ol>
+</div>
+
+<!-- 2. Hb / PCV -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Haemoglobin (Hb) and Packed Cell Volume (PCV)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hb and PCV move together (PCV is roughly 3 x Hb, give or take 3). PCV by microhaematocrit centrifugation is usually the first value available outside teaching hospitals - faster, cheaper, and requiring only a capillary sample. The degree of anaemia matters more than which side of a threshold it falls on - an Hb of 4 g/dL and an Hb of 10 g/dL are managed on entirely different timelines.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">WHO Reference Thresholds</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Population</th>
+          <th class="py-2 pr-3 font-medium">Anaemia threshold</th>
+          <th class="py-2 font-medium">Severe anaemia</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Adult men</td><td class="py-2 pr-3">&lt; 13 g/dL</td><td class="py-2">&lt; 8 g/dL</td></tr>
+        <tr><td class="py-2 pr-3">Non-pregnant women</td><td class="py-2 pr-3">&lt; 12 g/dL</td><td class="py-2">&lt; 8 g/dL</td></tr>
+        <tr><td class="py-2 pr-3">Pregnant women</td><td class="py-2 pr-3">&lt; 11 g/dL</td><td class="py-2">&lt; 7 g/dL</td></tr>
+        <tr><td class="py-2 pr-3">Children 6-59 months</td><td class="py-2 pr-3">&lt; 11 g/dL</td><td class="py-2">&lt; 7 g/dL</td></tr>
+        <tr><td class="py-2 pr-3">Children 5-11 years</td><td class="py-2 pr-3">&lt; 11.5 g/dL</td><td class="py-2">&lt; 8 g/dL</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Classification by MCV</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Pattern</th>
+          <th class="py-2 pr-3 font-medium">Range (fL)</th>
+          <th class="py-2 font-medium">Principal causes here</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Microcytic</td><td class="py-2 pr-3">&lt; 80</td><td class="py-2">Iron deficiency (hookworm, menorrhagia, peptic ulcer disease), thalassaemia trait</td></tr>
+        <tr><td class="py-2 pr-3">Normocytic</td><td class="py-2 pr-3">80-100</td><td class="py-2">Malaria-associated anaemia, anaemia of chronic disease, acute haemorrhage, early haemolysis</td></tr>
+        <tr><td class="py-2 pr-3">Macrocytic</td><td class="py-2 pr-3">&gt; 100</td><td class="py-2">Folate/B12 deficiency, reticulocytosis from active haemolysis (check genotype)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul class="list-disc pl-5 space-y-2 text-sm mt-3">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Microcytic:</span> iron deficiency and thalassaemia trait can look identical on Hb/MCV alone. A raised RDW favours iron deficiency (a heterogeneous cell population); a normal RDW with an MCV disproportionately low for the degree of anaemia favours thalassaemia trait. A low ferritin confirms iron deficiency where available, but ferritin is an acute-phase reactant and can be falsely normal or elevated with concurrent infection - common in febrile patients being worked up for anaemia at the same time.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Normocytic:</span> malaria destroys both parasitised and non-parasitised red cells (bystander haemolysis via splenic clearance and complement-mediated destruction), and also suppresses erythropoiesis through cytokine-mediated dyserythropoiesis - the anaemia can worsen for several days into treatment even as parasitaemia clears. Anaemia of chronic disease, driven by hepcidin-mediated iron sequestration, is common in TB, HIV, and chronic osteomyelitis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Macrocytic:</span> reticulocytosis from ongoing haemolysis should prompt a genotype check if not already known, alongside LDH and unconjugated bilirubin where available. Nutritional macrocytic anaemia from folate deficiency is more common than B12 deficiency in most local dietary patterns.</li>
+  </ul>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Peripheral Film Correlation</strong>
+  <p class="text-sm">The film adds information the automated count cannot: sickle cells and target cells (haemoglobinopathy), hypochromic microcytes with anisopoikilocytosis (iron deficiency), and malaria parasites with species identification and parasite density. Requesting a film alongside the FBC, rather than only after an abnormal count, changes management more often than the Hb value alone.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Transfusion Decision-Making</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Hb</th>
+          <th class="py-2 pr-3 font-medium">Clinical state</th>
+          <th class="py-2 font-medium">Approach</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">&lt; 4 g/dL</td><td class="py-2 pr-3">Any</td><td class="py-2">Transfuse; packed cells, slow rate, diuretic cover if any sign of cardiac strain</td></tr>
+        <tr><td class="py-2 pr-3">4-6 g/dL</td><td class="py-2 pr-3">Symptomatic (tachycardia, tachypnoea, heart failure signs)</td><td class="py-2">Transfuse packed cells cautiously; consider furosemide cover</td></tr>
+        <tr><td class="py-2 pr-3">4-6 g/dL</td><td class="py-2 pr-3">Asymptomatic, haemodynamically stable</td><td class="py-2">Individualise; correct the underlying cause first if feasible</td></tr>
+        <tr><td class="py-2 pr-3">&gt; 7 g/dL</td><td class="py-2 pr-3">Stable</td><td class="py-2">Transfusion rarely indicated; treat the cause</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="mt-3 text-sm">Anaemic heart failure changes the transfusion approach substantially - packed red cells rather than whole blood, a slower infusion rate, and diuretic cover, to avoid precipitating acute pulmonary oedema in a heart already volume-loaded from chronic compensation.</p>
+</div>
+</div>
+
+<!-- 3. WBC -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+White Blood Cell Count and Differential
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The total count alone carries limited weight - the differential is where the diagnostic value lies.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Pattern</th>
+        <th class="py-2 pr-3 font-medium">Reference (adult)</th>
+        <th class="py-2 font-medium">Principal causes here</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Neutrophilia</td><td class="py-2 pr-3">Neutrophils &gt; 7.5 x 10⁹/L</td><td class="py-2">Bacterial infection, stress response, corticosteroids, acute malaria (neutrophil-predominant leucocytosis mimicking bacterial sepsis)</td></tr>
+      <tr><td class="py-2 pr-3">Lymphocytosis</td><td class="py-2 pr-3">Lymphocytes &gt; 4.0 x 10⁹/L (higher in children)</td><td class="py-2">Viral infections, pertussis in infants, atypical lymphocytosis in typhoid or viral hepatitis</td></tr>
+      <tr><td class="py-2 pr-3">Eosinophilia</td><td class="py-2 pr-3">Eosinophils &gt; 0.5 x 10⁹/L</td><td class="py-2">Hookworm, ascariasis, schistosomiasis, filariasis, strongyloidiasis; allergic causes rank lower here than in non-endemic settings</td></tr>
+      <tr><td class="py-2 pr-3">Leucopenia</td><td class="py-2 pr-3">Total WBC &lt; 4.0 x 10⁹/L</td><td class="py-2">Typhoid fever (classically leucopenic, not leucocytotic), viral infections, overwhelming sepsis (a late, ominous finding)</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-2 text-sm mt-3">
+  <li>Malaria-associated neutrophilia arises through cytokine-mediated demargination and bone marrow release during the febrile paroxysm, and is indistinguishable on the differential alone from bacterial sepsis - a major driver of unnecessary co-prescription of antibiotics alongside antimalarials.</li>
+  <li>Typhoid's classical leucopenia reflects endotoxin-mediated bone marrow suppression and splenic sequestration; a normal or raised WBC does not exclude typhoid, particularly with intestinal perforation or secondary bacterial infection, where a reactive leucocytosis can supervene.</li>
+  <li>Marked eosinophilia, roughly above 1.5 x 10⁹/L, in a patient with nonspecific gastrointestinal or dermatological symptoms warrants stool microscopy for ova and parasites; empirical deworming is reasonable even without a confirmed organism, given the sensitivity limits of single-sample stool microscopy for helminth ova.</li>
+</ul>
+</div>
+
+<!-- 4. Platelets -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Platelet Count
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 pr-3 font-medium">Range</th>
+        <th class="py-2 font-medium">Notes</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">150-450 x 10⁹/L</td><td class="py-2">-</td></tr>
+      <tr><td class="py-2 pr-3">Mild thrombocytopenia</td><td class="py-2 pr-3">100-150 x 10⁹/L</td><td class="py-2">Common, usually asymptomatic</td></tr>
+      <tr><td class="py-2 pr-3">Moderate thrombocytopenia</td><td class="py-2 pr-3">50-100 x 10⁹/L</td><td class="py-2">Monitor; bleeding risk low without other coagulopathy</td></tr>
+      <tr><td class="py-2 pr-3">Severe thrombocytopenia</td><td class="py-2 pr-3">&lt; 50 x 10⁹/L</td><td class="py-2">Bleeding risk rises, especially with trauma or invasive procedures</td></tr>
+      <tr><td class="py-2 pr-3">Critical</td><td class="py-2 pr-3">&lt; 20 x 10⁹/L</td><td class="py-2">Spontaneous bleeding risk; consider transfusion if bleeding or pre-procedure</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-2 text-sm mt-3">
+  <li>Thrombocytopenia in acute malaria is near-universal and multifactorial - splenic sequestration and destruction, bone marrow suppression, and immune-mediated destruction via antiplatelet antibodies triggered by the infection. It is usually not, on its own, an indication for platelet transfusion; the priority is antimalarial treatment, with the count typically recovering over 7-10 days.</li>
+  <li>Dengue-associated thrombocytopenia, increasingly reported locally, tends to be more marked and is accompanied by capillary leak in severe disease - a rising haematocrit alongside falling platelets is a warning sign for progression to dengue haemorrhagic fever/dengue shock syndrome, distinct from the malaria pattern.</li>
+  <li>Reactive thrombocytosis (&gt; 450 x 10⁹/L) occurs with iron deficiency, chronic inflammatory states, and hyposplenism - relevant in sickle cell disease patients who have autosplenectomised and lost the spleen's normal platelet-clearance function.</li>
+</ul>
+</div>
+
+<!-- 5. Reading Order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Putting It Together
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A febrile patient with normocytic anaemia, neutrophilia, and thrombocytopenia fits acute malaria well - but the same trio with a rising haematocrit and a more marked platelet fall should raise dengue instead. A patient with microcytic anaemia and eosinophilia points toward hookworm-driven iron deficiency rather than a purely nutritional cause. A patient with macrocytic anaemia, jaundice, and a skull that shows frontal bossing on general examination should have a genotype checked before any other work-up proceeds. Reading the FBC as a pattern, alongside the clinical picture, consistently outperforms reading any single parameter against its printed reference range.</p>
+</div>
+
+<!-- 6. Critical values -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Hb below 4 g/dL, or any Hb with signs of cardiac strain</span> - transfuse with packed cells, slow rate, and diuretic cover.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Platelets below 20 x 10⁹/L</span> - spontaneous bleeding risk; consider transfusion if bleeding or before a procedure.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Rising haematocrit alongside falling platelets</span> in a febrile patient - a dengue warning sign, distinct from the malaria pattern, and a signal to escalate monitoring.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Chronic normocytic-to-macrocytic anaemia with jaundice, painful crises, or a spleen that has become impalpable over time</span> - check genotype; adult HbSS with autosplenectomy is easily missed.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A normal PCV immediately after acute haemorrhage</span> - PCV can remain deceptively normal for several hours before compensatory haemodilution occurs, and does not exclude significant blood loss.</span></li>
+</ul>
+</div>
+
+<!-- 7. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Interpreting the Hb number without requesting a film - a PCV of 28% could represent simple iron deficiency or an active haemolytic crisis, and the film (with reticulocyte count, where available) differentiates them.</li>
+  <li>Treating a raised WBC as automatic confirmation of bacterial infection and adding antibiotics by default - malaria alone frequently produces a neutrophil-predominant leucocytosis.</li>
+  <li>Assuming a normal or low WBC excludes serious infection - typhoid classically presents with a normal-to-low count.</li>
+  <li>Dismissing eosinophilia as incidental rather than investigating it, in a population with substantial helminth burden.</li>
+  <li>Pursuing platelet transfusion for isolated thrombocytopenia in confirmed malaria without active bleeding - rarely indicated, and platelet products are limited in most local blood banks regardless.</li>
+  <li>Not considering dengue in a thrombocytopenic febrile patient once malaria and typhoid have been excluded, particularly during rainy season peaks in urban centres.</li>
+  <li>Reading a single platelet value in isolation rather than trending it over 24-48 hours - the trajectory carries more information than one number.</li>
+  <li>Attributing all anaemia in a febrile patient to malaria without film confirmation, particularly where hookworm prevalence means coexisting iron deficiency is common.</li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Request a peripheral film alongside the FBC by default in this setting, not only after an abnormal count - it is the single highest-yield addition available.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Malaria alone can mimic bacterial sepsis on the WBC differential - do not let a raised neutrophil count justify antibiotics by default.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Typhoid classically produces leucopenia - a normal or low WBC does not argue against the diagnosis.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Track platelets and haematocrit together over time in a febrile patient, not as single values - the trajectory distinguishes malaria from dengue.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check genotype in any adult with unexplained chronic anaemia and jaundice - autosplenectomised HbSS is easily missed on general examination alone.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Haemoglobin Concentrations for the Diagnosis of Anaemia and Assessment of Severity.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Sickle Cell Foundation Nigeria - Clinical Guidelines for the Management of Sickle Cell Disease.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - Dengue Fever Situation Reports and Case Management Guidance.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+// COUNSELLING
+{
+  id: 'counselling-hypertension',
+  title: 'Hypertension',
+  category: 'Counselling',
+  subCategory: 'Cardiometabolic',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Counselling Guide for a Patient with Hypertension</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+.quote { border-left: 3px solid; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Hypertension</h1>
+  <p class="text-sm text-indigo-200">Hypertension counselling succeeds or fails less on what is explained and more on whether specific, commonly held misconceptions are directly corrected. This guide gives a structured session with the actual language to use, adapted for a Nigerian clinical setting - from diet and salt substitution to herbal remedy disclosure and medication adherence barriers.</p>
+</div>
+</div>
+
+<!-- 1. Rapport -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction and Establishing Rapport
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Good morning/afternoon. My name is Dr. ____. I would like to talk with you about your blood pressure, what it means, how we can control it, and what you can do to prevent complications."</p>
+<p class="text-sm">Ensure privacy. Where the patient consents, involve a family member present at the visit - medication adherence in Nigerian households is frequently supported or undermined by a spouse, parent, or elder who was not in the room for the original explanation, so bringing them into the conversation directly is often more effective than counselling the patient alone and expecting them to relay it accurately at home.</p>
+</div>
+
+<!-- 2. Explaining hypertension -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Explaining Hypertension
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What Is Blood Pressure?</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Blood pressure is the force of blood pushing against the walls of your blood vessels as your heart pumps blood around your body. Everyone has blood pressure, but when it stays higher than normal over time, we call it hypertension or high blood pressure."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Explaining the Diagnosis</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Your blood pressure has been consistently higher than the normal range. This means your heart and blood vessels are working harder than they should."</p>
+</div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Correcting Common Misconceptions</strong>
+<p class="text-sm">Patients frequently present with one or more of these beliefs. Each needs a specific, direct response rather than a general reassurance - a vague dismissal is less convincing than acknowledging the specific concern and addressing it.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">What the patient says</th>
+        <th class="py-2 pr-3 font-medium">What it reflects</th>
+        <th class="py-2 font-medium">How to respond</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">"I don't feel sick, so I don't have hypertension"</td><td class="py-2 pr-3">Misunderstanding of asymptomatic disease</td><td class="py-2">"High blood pressure is often called a silent disease because many people feel completely normal even when it is damaging the body. The absence of symptoms does not mean it is controlled."</td></tr>
+      <tr><td class="py-2 pr-3">"My blood pressure only rises when I am angry or worried"</td><td class="py-2 pr-3">Conflating situational spikes with sustained diagnosis</td><td class="py-2">Acknowledge that stress raises blood pressure acutely, but distinguish this from a sustained diagnosis that persists independent of any single stressor.</td></tr>
+      <tr><td class="py-2 pr-3">"I will stop the drugs when I feel better"</td><td class="py-2 pr-3">The most common driver of self-discontinuation</td><td class="py-2">"The tablets are why you feel well. Feeling well is not a sign that the tablets are no longer needed - it is a sign they are working."</td></tr>
+      <tr><td class="py-2 pr-3">"Once my reading is normal on the machine, I can stop"</td><td class="py-2 pr-3">Confusing a controlled reading with a resolved condition</td><td class="py-2">Use a concrete comparison: seeing clearly while wearing glasses is not evidence the eyes no longer need correction - the reading is normal because of the treatment.</td></tr>
+      <tr><td class="py-2 pr-3">"Once you start these drugs, you become dependent on them"</td><td class="py-2 pr-3">Conflating physiological dependency with chronic disease management</td><td class="py-2">Distinguish the two directly: there is no dependency in the addictive sense; the ongoing need reflects the chronic nature of the condition, not a property of the drug.</td></tr>
+      <tr><td class="py-2 pr-3">"High blood pressure is 'too much blood' or 'bad blood'"</td><td class="py-2 pr-3">Traditional causation belief</td><td class="py-2">Address without ridicule. This belief often coexists with, rather than replaces, acceptance of conventional treatment - direct dismissal can damage rapport more than it corrects the belief.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Causes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Causes and Risk Factors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Non-Modifiable</strong>
+  <p class="text-sm">Increasing age; family history of hypertension; genetic tendency.</p>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"Some people inherit a higher tendency to develop hypertension from their parents, but lifestyle changes and medications can still control it."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Modifiable</strong>
+  <p class="text-sm">Excess salt intake, overweight or obesity, physical inactivity, excess alcohol intake, smoking, chronic stress, poor diet, and poor medication adherence.</p>
+</div>
+</div>
+
+<!-- 4. Complications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Complications of Poorly Controlled Hypertension
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Explain the reason for treatment without inducing fatalism. Pairing risk with the fact that it is modifiable sustains motivation better than listing complications alone, which can produce a "this will happen regardless" response that undermines adherence.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"The reason we take hypertension seriously is because uncontrolled high blood pressure can gradually damage important organs. The good news is that controlling your blood pressure greatly reduces these risks."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Organ system</th>
+        <th class="py-2 font-medium">Complications</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Brain</td><td class="py-2">Stroke, paralysis, memory problems</td></tr>
+      <tr><td class="py-2 pr-3">Heart</td><td class="py-2">Heart enlargement, heart failure, heart attack</td></tr>
+      <tr><td class="py-2 pr-3">Kidneys</td><td class="py-2">Kidney failure, dialysis dependence</td></tr>
+      <tr><td class="py-2 pr-3">Eyes</td><td class="py-2">Retinal damage, vision loss</td></tr>
+      <tr><td class="py-2 pr-3">Blood vessels</td><td class="py-2">Peripheral circulatory problems</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 5. BP targets -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Blood Pressure Targets
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Our goal is usually to keep your blood pressure below 140/90 mmHg. For some patients, especially those with diabetes, kidney disease, or existing cardiovascular disease, we aim for a lower target of below 130/80 mmHg."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Patient group</th>
+        <th class="py-2 font-medium">Target (Nigerian national guideline, 2023-2028)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">General adult population, no comorbidity</td><td class="py-2">&lt; 140/90 mmHg</td></tr>
+      <tr><td class="py-2 pr-3">Known cardiovascular disease, diabetes, or high overall CV risk</td><td class="py-2">&lt; 130/80 mmHg</td></tr>
+      <tr><td class="py-2 pr-3">Chronic kidney disease</td><td class="py-2">&lt; 130/80 mmHg; loop diuretic preferred over thiazide if GFR &lt; 30 mL/min</td></tr>
+      <tr><td class="py-2 pr-3">Elderly</td><td class="py-2">Individualise; measure standing BP at every visit given the high risk of postural hypotension, which can itself be worsened by treatment</td></tr>
+      <tr><td class="py-2 pr-3">Sickle cell disease</td><td class="py-2">Baseline BP runs lower than the general population in SCD, so a reading above 130/80 mmHg is treated as relative hypertension and therapy is initiated at this lower threshold; CCB or ACEI/ARB preferred</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Encourage home monitoring where feasible (see Section 10).</p>
+</div>
+
+<!-- 6. Lifestyle -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Lifestyle Modification Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A. Salt Reduction</strong>
+  <p class="text-sm">Particularly important in Nigeria, where salt intake is driven heavily by Maggi/seasoning cubes, salted fish, stockfish, smoked foods, and processed snacks.</p>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"Salt causes the body to retain water, which increases the pressure inside your blood vessels."</p>
+  <p class="text-sm mt-2">Frame this as substitution, not elimination - build flavour with onion, garlic, ginger, pepper, and local herbs instead of multiple seasoning cubes. This lands better than a blanket "avoid salt" instruction, since it doesn't ask the patient to give up flavour, only to source it differently.</p>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"Try to keep your total salt intake, including salt already in your food, to less than one level teaspoon per day."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">B. Diet (DASH Principles, Adapted Locally)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Increase</th>
+          <th class="py-2 font-medium">Reduce</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Fruits: orange, pawpaw, banana*, watermelon, pineapple, apple</td><td class="py-2">Fried foods, excess palm oil, fatty meat, frequent ponmo</td></tr>
+        <tr><td class="py-2 pr-3">Vegetables: ugu, ewedu, okra, spinach, garden egg leaves</td><td class="py-2">Soft drinks, sweetened juices, excess pastries</td></tr>
+        <tr><td class="py-2 pr-3">Whole grains: brown rice, ofada rice, oats, whole wheat</td><td class="py-2">Instant noodle seasoning sachets</td></tr>
+        <tr><td class="py-2 pr-3">Lean protein: fish, beans, skinless chicken, eggs in moderation</td><td class="py-2">Salted fish, very salty soups</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">*As standard practice around potassium-sparing agents, be cautious about recommending high-potassium fruit like banana without qualification in patients on an ACE inhibitor, ARB, or potassium-sparing diuretic, or with reduced renal function - check potassium periodically in these patients and individualise rather than applying the general fruit recommendation uniformly.</p>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"You do not need to stop eating your traditional foods completely. The goal is to reduce unhealthy portions and prepare them in healthier ways."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">C. Weight Management</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Excess body weight makes the heart work harder and increases blood pressure."</p>
+  <p class="text-sm mt-2">Aim for gradual weight loss, not crash dieting - a 5-10% reduction in body weight can produce a meaningful improvement in blood pressure control.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">D. Physical Activity</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Aim for at least 30 minutes of moderate exercise on most days of the week."</p>
+  <p class="text-sm mt-2">Brisk walking, cycling, swimming, dancing, and household activity all count. For a previously inactive patient, start with 10-15 minutes daily in week one and progress gradually rather than prescribing the full target immediately - an unrealistic starting point is a common reason patients abandon exercise advice within the first week. Avoid unassessed vigorous exercise in patients with chest pain, significant breathlessness, or known heart disease.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">E. Alcohol</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Excess alcohol can raise blood pressure and reduce the effectiveness of your medications."</p>
+  <p class="text-sm mt-2">Advise reduction or avoidance, and specifically caution against binge patterns rather than only average weekly intake, since binge consumption has a disproportionate acute pressor effect.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">F. Smoking</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Smoking damages blood vessels and increases the risk of stroke and heart attack."</p>
+  <p class="text-sm mt-2">Encourage complete cessation, explicitly including cigarettes, shisha, and other tobacco products - shisha in particular is sometimes not recognised by patients as equivalent to cigarette smoking.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">G. Stress and Sleep</strong>
+  <p class="text-sm">Discuss adequate sleep, relaxation practices, prayer or meditation where personally relevant, and social support.</p>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"Stress alone is unlikely to be the only cause of your blood pressure, but chronic stress can make it harder to control."</p>
+</div>
+</div>
+
+<!-- 7. Medication counselling -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Medication Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"These medications help reduce the pressure in your blood vessels and protect your heart, brain, and kidneys. Hypertension treatment is usually long-term. Do not stop your medication because you feel well."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Drug class</th>
+        <th class="py-2 pr-3 font-medium">Examples</th>
+        <th class="py-2 pr-3 font-medium">Effects patients raise</th>
+        <th class="py-2 font-medium">Counselling point</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Calcium channel blockers</td><td class="py-2 pr-3">Amlodipine, nifedipine</td><td class="py-2 pr-3">Ankle swelling, headache, flushing</td><td class="py-2">Explain swelling as a recognised class effect, not fluid overload or heart failure - this prevents inappropriate diuretic self-medication. Report rather than stop.</td></tr>
+      <tr><td class="py-2 pr-3">ACE inhibitors</td><td class="py-2 pr-3">Lisinopril, enalapril, captopril</td><td class="py-2 pr-3">Persistent dry cough, dizziness</td><td class="py-2">Explain the cough as a known, non-dangerous class effect; switching to an ARB usually resolves it. <span class="font-medium text-slate-800 dark:text-slate-200">Contraindicated in pregnancy</span> - confirm pregnancy status and contraception plans in women of childbearing age before initiating, and discuss switching in advance of any planned pregnancy.</td></tr>
+      <tr><td class="py-2 pr-3">ARBs</td><td class="py-2 pr-3">Losartan, valsartan</td><td class="py-2 pr-3">Dizziness</td><td class="py-2">Generally better tolerated than ACE inhibitors regarding cough; the same pregnancy contraindication applies.</td></tr>
+      <tr><td class="py-2 pr-3">Thiazide/thiazide-like diuretics</td><td class="py-2 pr-3">Hydrochlorothiazide, chlorthalidone</td><td class="py-2 pr-3">Increased urination, electrolyte changes</td><td class="py-2">Frame increased urination as the intended mechanism, not kidney strain. Advise morning dosing to reduce night-time disruption.</td></tr>
+      <tr><td class="py-2 pr-3">Beta-blockers</td><td class="py-2 pr-3">Bisoprolol, atenolol</td><td class="py-2 pr-3">Fatigue, slow heartbeat, reduced exercise tolerance</td><td class="py-2">Address directly - fatigue is a common covert reason for discontinuation, particularly in patients with physically demanding work, and patients may not volunteer it unless asked specifically.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 8. Adherence -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Medication Adherence Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"What challenges do you face in taking your medications regularly?"</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Barrier</th>
+        <th class="py-2 font-medium">Approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Cost</td><td class="py-2">Discuss generic alternatives, NHIA/HMO coverage where available, and pharmacy price variation. Cost is frequently the unspoken barrier behind apparent non-adherence - ask directly rather than assuming a knowledge gap when the real barrier is financial.</td></tr>
+      <tr><td class="py-2 pr-3">Forgetfulness</td><td class="py-2">Fixed daily timing, phone reminders, linking dosing to an existing daily routine (e.g. with brushing teeth).</td></tr>
+      <tr><td class="py-2 pr-3">Side effects</td><td class="py-2">Encourage reporting rather than silent discontinuation - normalise this explicitly, since many patients stop without mentioning it at the next visit unless asked directly.</td></tr>
+      <tr><td class="py-2 pr-3">Religious fasting</td><td class="py-2">Extended fasting (common in some Christian and Islamic observances) requires specific advance counselling on dose timing, and on the risks of skipping doses altogether rather than adjusting timing appropriately.</td></tr>
+      <tr><td class="py-2 pr-3">Belief that treatment competes with faith-based practice</td><td class="py-2">Frame medical treatment as complementary to, not competing with, spiritual practice, and keep reinforcing adherence within that framing rather than confronting the belief directly.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 9. Herbal -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Herbal Medication and Hypertension
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Ask specifically and non-judgmentally at every visit, not only at diagnosis.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Do you take any herbal medicines, supplements, or traditional remedies? Some herbal preparations may contain substances that can raise blood pressure or interfere with your prescribed medications."</p>
+<p class="text-sm">Patients frequently do not volunteer herbal use unless asked in a way that does not feel like an accusation - repeated, routine, non-judgmental asking yields more accurate disclosure than a single question at the first visit.</p>
+</div>
+
+<!-- 10. Home BP monitoring -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Home Blood Pressure Monitoring
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Before checking:</span> rest for 5 minutes; avoid caffeine or exercise in the 30 minutes prior; sit with back supported, feet flat on the floor, arm supported at heart level; use an appropriately sized cuff.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Record:</span> date, time, reading, pulse rate, and any symptoms - bring the record to clinic visits.</p>
+<p class="text-sm">A poorly taken home reading (wrong posture, immediately after activity, wrong cuff size) can undermine confidence in either direction - falsely reassuring or falsely alarming - so technique should be checked, not assumed, at least once in person.</p>
+</div>
+
+<!-- 11. Warning symptoms -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Warning Symptoms Requiring Urgent Hospital Review
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Severe headache</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Weakness or paralysis of one side of the body</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Difficulty speaking</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Chest pain or severe shortness of breath</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Confusion or loss of consciousness</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Sudden vision changes</span></li>
+</ul>
+<p class="text-sm text-rose-900 dark:text-rose-300 mt-3 quote border-rose-300 dark:border-rose-600 pl-4 italic">"These may be signs of complications requiring urgent attention."</p>
+</div>
+
+<!-- 12. Follow-up -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Follow-Up Plan
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Regular clinic visits allow us to check whether the treatment is working and whether your organs are being protected."</p>
+<p class="text-sm">Set an explicit expectation for what follow-up involves - this converts an ambiguous "come back sometime" into a stated plan the patient can recognise deviations from: blood pressure review, weight monitoring, kidney function tests (urea, electrolytes, creatinine), urinalysis, blood glucose, lipid profile, and ECG where indicated. Initial follow-up is typically every 1-4 weeks until target BP is reached, then every 3-6 months once stable.</p>
+<p class="text-sm">Also establish, explicitly, what to do about a missed dose - take it as soon as remembered unless close to the next scheduled dose, and do not double up - since this specific scenario is rarely addressed proactively and is a common point of confusion between visits.</p>
+</div>
+
+<!-- 13. Closing -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Closing the Counselling Session
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Can you tell me in your own words what you understand about your blood pressure and what changes you plan to make?"</p>
+<p class="text-sm">This teach-back question surfaces misunderstandings that a simple "do you understand?" will not. Correct any gaps directly rather than moving on if the response reveals a misconception from Section 2.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Controlling hypertension is a partnership between you and your healthcare team. Taking your medication regularly, eating healthier, exercising, and attending follow-up visits will greatly reduce your risk of complications."</p>
+</div>
+
+<!-- Key Take-Home Points -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Take-Home Points for the Patient</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Hypertension can exist without symptoms - feeling well is not evidence it is resolved.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not stop medication because you feel better.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Reduce salt intake; substitute flavour with natural spices rather than eliminating taste.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Disclose any herbal or traditional remedy use, and check blood pressure regularly with correct technique.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seek urgent care immediately for warning symptoms.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Guidelines for Prevention and Management of Hypertension in Nigeria, 2023-2028.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigerian Hypertension Society Guidelines, 2020.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - HEARTS Technical Package for Cardiovascular Disease Management in Primary Health Care.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Society of Hypertension - Global Hypertension Practice Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
 ];

@@ -12,7 +12,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
   const [isMobileContentVisible, setIsMobileContentVisible] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   
-  const categories: LearningModuleCategory[] = ['Symptom Clerking', 'Physical Examination', 'Laboratory Interpretation', 'Clinical Scoring Systems', 'Counselling'];
+  const categories: LearningModuleCategory[] = Array.from(new Set(clerklyLearnLibrary.map(module => module.category)));
 
   // Auto-select first category and module on desktop for a better initial view.
   useEffect(() => {

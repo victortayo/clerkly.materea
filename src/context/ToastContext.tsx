@@ -1,8 +1,9 @@
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { Toast } from '../components/Toast';
 import { CopyToast } from '../components/CopyToast';
+import { SaveToast } from '../components/SaveToast';
 
-type ToastType = 'default' | 'encouragement' | 'copy';
+type ToastType = 'default' | 'encouragement' | 'copy' | 'save';
 
 interface ToastContextType {
   showToast: (message: string, type?: ToastType, duration?: number) => void;
@@ -35,6 +36,15 @@ export function ToastProvider({ children }: { children: ReactNode }) {
       case 'copy':
         return (
           <CopyToast
+            key={toast.key}
+            message={toast.message}
+            duration={toast.duration}
+            onClose={closeToast}
+          />
+        );
+      case 'save':
+        return (
+          <SaveToast
             key={toast.key}
             message={toast.message}
             duration={toast.duration}

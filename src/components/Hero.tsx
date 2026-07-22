@@ -67,6 +67,27 @@ export function Hero({
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
+              <div className="relative group">
+                <button
+                  onClick={() => setShowBookmarks(!showBookmarks)}
+                  className={`ml-2 w-9 h-9 flex items-center justify-center rounded-lg transition-all active:scale-90 ${
+                    showBookmarks
+                      ? 'bg-indigo-100 dark:bg-indigo-900/50'
+                      : 'bg-slate-200 dark:bg-slate-700/50 hover:bg-slate-300 dark:hover:bg-slate-700'
+                  }`}
+                >
+                  <i
+                    className={`fa-bookmark transition-colors ${
+                      showBookmarks
+                        ? 'fa-solid text-indigo-600 dark:text-indigo-300'
+                        : 'fa-regular text-slate-500 dark:text-slate-400 group-hover:text-indigo-500'
+                    }`}
+                  ></i>
+                </button>
+                <span className="absolute top-full right-0 mt-2 whitespace-nowrap bg-slate-800 text-white text-xs rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
+                  {showBookmarks ? 'Showing Bookmarks' : 'Show Bookmarks'}
+                </span>
+              </div>
             </div>
 
             {/* Specialty Dropdown */}
@@ -103,21 +124,6 @@ export function Hero({
                 </div>
               )}
             </div>
-          </div>
-          
-          {/* Bookmark Filter Toggle */}
-          <div className="mt-4 flex justify-center">
-            <button
-              onClick={() => setShowBookmarks(!showBookmarks)}
-              className={`group px-4 py-2 text-sm rounded-xl font-bold shadow-md transition-all active:scale-[0.98] flex items-center gap-2 ${
-                showBookmarks
-                  ? 'bg-indigo-950 dark:bg-white text-white dark:text-indigo-950 shadow-indigo-100 dark:shadow-none hover:bg-black dark:hover:bg-slate-100'
-                  : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:border-indigo-300 dark:hover:border-indigo-700'
-              }`}
-            >
-              <i className={`${showBookmarks ? 'fa-solid' : 'fa-regular'} fa-bookmark ${showBookmarks ? '' : 'text-indigo-500'}`}></i>
-              <span>{showBookmarks ? 'Showing Bookmarks' : 'Show Bookmarks'}</span>
-            </button>
           </div>
         </div>
       </div>

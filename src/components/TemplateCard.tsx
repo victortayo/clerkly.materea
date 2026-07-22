@@ -27,7 +27,7 @@ export function TemplateCard({
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(textToCopy).then(() => {
         setCopied(true);
-        showToast('Template copied to clipboard', 'copy', 2000);
+        showToast('Copied', 'copy', 2000);
         setTimeout(() => setCopied(false), 2000);
       }).catch(err => {
         console.error('Modern copy failed, falling back.', err);
@@ -61,7 +61,7 @@ export function TemplateCard({
       const successful = document.execCommand('copy');
       if(successful) {
         setCopied(true);
-        showToast('Template copied to clipboard', 'copy', 2000);
+        showToast('Copied', 'copy', 2000);
         setTimeout(() => setCopied(false), 2000);
       } else {
         showToast('Failed to copy content', 'default', 3000);
@@ -77,6 +77,9 @@ export function TemplateCard({
   const handleBookmark = (e: MouseEvent) => {
     e.stopPropagation();
     onToggleBookmark(template);
+    if (!isBookmarked) {
+      showToast('Saved', 'save', 2000);
+    }
   };
 
   // List view

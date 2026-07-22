@@ -2911,4 +2911,920 @@ Closing the Counselling Session
 </html>
   `
 },
+
+// PROCEDURES
+{
+  id: 'procedure-wound-suturing',
+  title: 'Wound Suturing',
+  category: 'Procedures',
+  subCategory: 'General',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wound Suturing / Laceration Repair</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Procedures</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Wound Suturing / Laceration Repair</h1>
+  <p class="text-sm text-indigo-200">Laceration repair is one of the most frequently performed procedures at house officer and general practice level in Nigeria, and one of the most commonly under-taught - learned largely by observation rather than structured instruction. This guide covers indications, equipment (with commonly available local substitutions), technique, complications, and post-procedure care, with linked reference videos for the core techniques.</p>
+</div>
+</div>
+
+<!-- 1. Indications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Indications
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Clean, uncomplicated lacerations presenting within the acceptable closure window - generally up to 6-8 hours for most body sites, extending to 12-24 hours for well-vascularised areas such as the face and scalp, where infection risk is lower.</li>
+  <li>Wounds with well-defined, viable edges that can be approximated without excessive tension.</li>
+  <li>Wounds where cosmetic outcome and functional restoration (e.g. over joints, on the face) justify primary closure over healing by secondary intention.</li>
+</ul>
+</div>
+
+<!-- 2. Contraindications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Contraindications and Situations Requiring Caution
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Situation</th>
+        <th class="py-2 font-medium">Consideration</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Heavily contaminated or bite wounds (human or animal)</td><td class="py-2">Often left open or closed only after thorough irrigation and debridement, with delayed primary closure considered at 3-5 days; human bites carry particularly high infection risk</td></tr>
+      <tr><td class="py-2 pr-3">Wounds presenting late (beyond 12-24 hours, longer for highly vascular areas)</td><td class="py-2">Higher infection risk with primary closure; consider delayed primary closure</td></tr>
+      <tr><td class="py-2 pr-3">Devitalised or heavily crushed tissue edges</td><td class="py-2">Requires debridement before closure is considered; suturing over non-viable tissue predisposes to wound breakdown</td></tr>
+      <tr><td class="py-2 pr-3">Suspected retained foreign body</td><td class="py-2">Explore and remove before closure; do not close over a suspected retained foreign body without adequate exploration</td></tr>
+      <tr><td class="py-2 pr-3">Deep wounds with suspected tendon, nerve, vascular, or joint capsule involvement</td><td class="py-2">Requires exploration and often specialist surgical referral rather than simple closure in the general ward/A&E setting</td></tr>
+      <tr><td class="py-2 pr-3">Signs of established wound infection at presentation</td><td class="py-2">Do not close primarily; manage as an infected wound with appropriate drainage/antibiotics, with delayed closure considered later</td></tr>
+      <tr><td class="py-2 pr-3">Puncture wounds</td><td class="py-2">Generally not sutured, given difficulty ensuring adequate irrigation of the wound tract and higher retained-contamination risk</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Equipment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Equipment
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Standard Suturing Set</strong>
+  <p class="text-sm">Needle holder; toothed (Adson) forceps; suture scissors; sterile drape; skin antiseptic (chlorhexidine or povidone-iodine); local anaesthetic (1% or 2% lidocaine, with or without adrenaline depending on site); syringe and needle for infiltration; suture material; sterile gauze; sterile gloves.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Suture Material Selection</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Location</th>
+          <th class="py-2 pr-3 font-medium">Suggested suture</th>
+          <th class="py-2 font-medium">Typical removal timing</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Face/lip</td><td class="py-2 pr-3">6-0 non-absorbable (e.g. nylon)</td><td class="py-2">3-5 days</td></tr>
+        <tr><td class="py-2 pr-3">Scalp</td><td class="py-2 pr-3">3-0 to 4-0 non-absorbable, or staples where available</td><td class="py-2">7-10 days</td></tr>
+        <tr><td class="py-2 pr-3">Trunk (chest/abdomen/back)</td><td class="py-2 pr-3">3-0 to 4-0 non-absorbable</td><td class="py-2">10-14 days</td></tr>
+        <tr><td class="py-2 pr-3">Extremities</td><td class="py-2 pr-3">4-0 to 5-0 non-absorbable</td><td class="py-2">10-14 days</td></tr>
+        <tr><td class="py-2 pr-3">Over joints/high-tension areas</td><td class="py-2 pr-3">3-0 to 4-0, consider additional deep dermal sutures to offload tension</td><td class="py-2">10-14 days</td></tr>
+        <tr><td class="py-2 pr-3">Deep/dermal layer (any site)</td><td class="py-2 pr-3">Absorbable (e.g. polyglactin/Vicryl, or catgut where that is what's available)</td><td class="py-2">Absorbs; not removed</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Common Local Substitutions and Workarounds</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Where a formal suturing set is unavailable, a minimum functional set (needle holder, forceps, scissors, suture) should still be assembled and sterilised individually rather than proceeding without one.</li>
+    <li>Chlorhexidine or povidone-iodine are both widely available and acceptable; use whichever is stocked.</li>
+    <li>Where nylon in the specific required gauge is unavailable, silk is an acceptable substitute for skin closure in most non-cosmetically sensitive areas, though it carries a higher tissue reactivity profile.</li>
+    <li>Where sterile drapes are limited, a clean (not necessarily sterile) surrounding field with a sterile area immediately around the wound is a reasonable compromise, prioritising sterility at the wound edge itself.</li>
+    <li>Adrenaline-containing local anaesthetic should be avoided or used cautiously in areas with end-arterial supply (fingers, toes, nose, ears, penis), regardless of setting - this is a universal contraindication, not one specific to resource constraints.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 4. Pre-procedure -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Pre-Procedure Assessment
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">History:</span> mechanism of injury, time since injury, contamination (soil, saliva, rust), tetanus immunisation status, comorbidities affecting healing (diabetes, sickle cell disease, malnutrition), allergy to local anaesthetics or antiseptics.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Examination:</span> assess wound depth, extent, and involvement of underlying structures; check distal neurovascular status and tendon function before infiltrating anaesthetic, since anaesthesia will mask sensory testing afterward.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Tetanus prophylaxis:</span> assess and administer per the protocol in Section 6 below.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Consent:</span> explain the procedure, expected outcome, and the alternative of non-operative management where relevant.</li>
+</ol>
+</div>
+
+<!-- 5. Technique -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Technique
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 1: Wound Preparation</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Clean the surrounding skin with antiseptic in a widening circular motion from the wound outward.</li>
+    <li>Irrigate the wound itself thoroughly with normal saline or clean water under pressure - a syringe without a needle, or a syringe with an 18-20G cannula attached, generates adequate irrigation pressure. Irrigation volume and pressure matter more for infection prevention than the antiseptic used on intact skin.</li>
+    <li>Debride any obviously devitalised tissue.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 2: Local Anaesthesia</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Infiltrate 1% or 2% lidocaine directly into the wound edges using a small-gauge needle, injecting slowly to reduce the pain of infiltration.</li>
+    <li>Wait 2-3 minutes for full effect before testing with a needle or forceps pinch at the wound edge.</li>
+    <li>Maximum safe dose: 4.5 mg/kg (up to 300 mg total) for plain lidocaine, or 7 mg/kg (up to 500 mg total) with adrenaline - calculate the ceiling in mg before starting in larger wounds or paediatric patients, where the total volume needed can approach the limit.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 3: Simple Interrupted Suturing (Default Technique)</strong>
+  <ol class="list-decimal pl-5 space-y-1 text-sm">
+    <li>Grasp the needle holder with the thumb and ring finger through the handles, index finger along the shaft for control.</li>
+    <li>Enter the skin perpendicular to the surface, approximately equidistant from the wound edge as the wound is deep (bite width roughly equal to bite depth), to evert the wound edges rather than invert them.</li>
+    <li>Pass the needle through both wound edges, exiting perpendicular to the skin on the opposite side.</li>
+    <li>Tie a surgeon's knot: two throws in one direction, followed by single throws in the alternating direction, generally 3-4 throws total for adequate security.</li>
+    <li>Cut the suture ends, leaving 5-7 mm tails.</li>
+    <li>Space subsequent sutures evenly along the wound, with inter-suture spacing approximately equal to the bite width, leaving no gaps along the wound edge.</li>
+  </ol>
+  <div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+    <p>📹 <span class="font-medium">Simple Interrupted Suture - OSCE Guide (Geeky Medics):</span> step-by-step written guide with images and embedded video demonstration.<br>
+    <a href="https://geekymedics.com/simple-interrupted-suture-osce-guide/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/simple-interrupted-suture-osce-guide</a></p>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 4: Alternative/Adjunct Techniques for Specific Situations</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Technique</th>
+          <th class="py-2 font-medium">When to use</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Vertical mattress suture</td><td class="py-2">Wounds under tension, or where additional eversion is needed; provides both deep and superficial approximation in one pass</td></tr>
+        <tr><td class="py-2 pr-3">Horizontal mattress suture</td><td class="py-2">Wounds under tension along a linear axis; useful in friable or fragile skin (e.g. elderly patients) where interrupted sutures may tear through</td></tr>
+        <tr><td class="py-2 pr-3">Subcuticular (running intradermal) suture</td><td class="py-2">Cosmetically sensitive areas where suture marks should be minimised; requires more technical practice</td></tr>
+        <tr><td class="py-2 pr-3">Deep dermal (buried) suture</td><td class="py-2">Deeper wounds requiring layered closure to reduce tension on the skin surface and obliterate dead space</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+    <p>📹 <span class="font-medium">Suturing Guides collection (Geeky Medics):</span> covers vertical mattress, horizontal mattress, and subcuticular suturing with a written guide and video for each.<br>
+    <a href="https://geekymedics.com/category/surgery/suturing/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/category/surgery/suturing</a></p>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 5: Dressing</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Apply a simple non-adherent dressing.</li>
+    <li>Advise the patient to keep the wound dry for the first 24-48 hours, after which gentle washing is generally acceptable depending on wound location and closure type.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 6. Tetanus -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Tetanus Prophylaxis Protocol
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">First classify the wound, then apply the standard wound-tetanus decision rule (the same logic underlying WHO and national EPI-aligned practice):</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Wound type</th>
+        <th class="py-2 pr-3 font-medium">Immunisation history</th>
+        <th class="py-2 font-medium">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Clean, minor wound</td><td class="py-2 pr-3">Primary series complete, last dose &lt; 10 years ago</td><td class="py-2">No vaccine needed today</td></tr>
+      <tr><td class="py-2 pr-3">Clean, minor wound</td><td class="py-2 pr-3">Primary series complete, last dose &ge; 10 years ago, or unknown/incomplete history</td><td class="py-2">Give a booster dose (Td or Tdap) today</td></tr>
+      <tr><td class="py-2 pr-3">Contaminated/tetanus-prone wound (soil, faeces, saliva contamination; puncture; devitalised tissue; burns; crush injury; bite)</td><td class="py-2 pr-3">Primary series complete, last dose &lt; 5 years ago</td><td class="py-2">No vaccine needed today</td></tr>
+      <tr><td class="py-2 pr-3">Contaminated/tetanus-prone wound</td><td class="py-2 pr-3">Primary series complete, last dose &ge; 5 years ago</td><td class="py-2">Give a booster dose today; TIG not required</td></tr>
+      <tr><td class="py-2 pr-3">Contaminated/tetanus-prone wound</td><td class="py-2 pr-3">Fewer than 3 documented prior doses, or unknown history</td><td class="py-2">Give both vaccine and tetanus immunoglobulin (TIG) today, in separate syringes at separate sites; continue the primary series thereafter</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">TIG is never required for a clean, minor wound regardless of immunisation status. Where TIG is indicated, immediate active vaccination alone will not protect against the current injury, since active immunity takes time to develop - this is the reason TIG is given for tetanus-prone wounds in inadequately immunised patients rather than vaccine alone.</p>
+</div>
+
+<!-- 7. Complications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Complications and Management
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Complication</th>
+        <th class="py-2 pr-3 font-medium">Recognition</th>
+        <th class="py-2 font-medium">Management</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Wound infection</td><td class="py-2 pr-3">Increasing pain, erythema, warmth, purulent discharge, typically after day 2-3</td><td class="py-2">Remove one or more sutures to allow drainage if a collection is present, wound swab if available, appropriate antibiotics, review in 24-48 hours</td></tr>
+      <tr><td class="py-2 pr-3">Wound dehiscence</td><td class="py-2 pr-3">Separation of wound edges, often from excessive tension, premature suture removal, or infection</td><td class="py-2">Assess cause; may require re-closure if clean and early, or healing by secondary intention if infected or delayed presentation</td></tr>
+      <tr><td class="py-2 pr-3">Suture reaction/inflammation</td><td class="py-2 pr-3">Localised redness/irritation around individual suture points without systemic signs</td><td class="py-2">Usually self-limiting; consider early removal if using a non-absorbable material with high reactivity (e.g. silk)</td></tr>
+      <tr><td class="py-2 pr-3">Hypertrophic scarring/keloid</td><td class="py-2 pr-3">Raised, thickened scar formation, particularly common and more pronounced in patients with a personal or family history of keloid formation</td><td class="py-2">Prevention (minimising tension, appropriate technique, timely removal) is more effective than treatment; counsel at-risk patients before the procedure - higher keloid tendency is well recognised in the West African population</td></tr>
+      <tr><td class="py-2 pr-3">Nerve or vessel injury from infiltration or suturing</td><td class="py-2 pr-3">Numbness, weakness, or bleeding beyond expected</td><td class="py-2">Withdraw and reposition the needle if resistance or paraesthesia occurs during infiltration; direct pressure for bleeding</td></tr>
+      <tr><td class="py-2 pr-3">Missed underlying injury (tendon, foreign body)</td><td class="py-2 pr-3">Persistent dysfunction, pain, or discharge after apparently uncomplicated closure</td><td class="py-2">Re-explore if suspected; missed tendon injuries often present later as functional deficit rather than at the original visit</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Keloid risk counselling deserves particular emphasis in this population - discussing the possibility before the procedure, and setting expectations about scar appearance, avoids a difficult conversation later when a hypertrophic scar has already formed.</p>
+</div>
+
+<!-- 8. Post-procedure -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Post-Procedure Care and Follow-Up
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Provide clear wound care instructions: keep dry initially, watch for infection signs, return early if pain worsens rather than improves after the first 48 hours.</li>
+  <li>Give an explicit suture removal date based on location (see Section 3 table) rather than a vague "come back in some days" - patients often do not return for removal unless given a specific date.</li>
+  <li>Confirm tetanus status has been addressed before the patient leaves, not assumed.</li>
+  <li>For wounds over joints or high-tension areas, consider splinting or activity restriction to reduce dehiscence risk during healing.</li>
+</ul>
+</div>
+
+<!-- 9. Findings not to miss -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Reduced distal sensation, weakness, or absent tendon function</span> before anaesthetic infiltration - test and document this first, since infiltration will mask it afterward.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A suspected retained foreign body</span> - explore and remove before any closure; do not suture over an unexplored wound.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of established infection at presentation</span> - do not close primarily; manage as an infected wound instead.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Approaching the lidocaine dose ceiling</span> in a large wound or paediatric patient - calculate the maximum allowable dose in mg before starting, not after.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">An unimmunised or inadequately immunised patient with a tetanus-prone wound</span> - this needs both vaccine and TIG, not vaccine alone.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check distal neurovascular status and tendon function before infiltrating anaesthetic, not after.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Irrigation volume and pressure matter more for infection prevention than which antiseptic is used on intact skin.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give an explicit suture removal date at the time of closure, rather than a vague follow-up instruction.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Counsel patients on keloid risk before the procedure, not after a hypertrophic scar has already formed.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm tetanus status is addressed before the patient leaves - do not assume it has been handled elsewhere.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Geeky Medics - Simple Interrupted Suture and Suturing Guides collection (OSCE guides with video demonstrations).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Recommendations on Tetanus Toxoid-Containing Vaccine Wound Management.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Centers for Disease Control and Prevention - Clinical Guidance for Wound Management to Prevent Tetanus.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Lidocaine Hydrochloride (Local) Monograph - dosing and toxicity reference.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Programme on Immunization / NPHCDA, Nigeria - Routine Immunization Schedule.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+// CLINICAL SCORING SYSTEMS
+{
+  id: 'scoring-glasgow-coma-scale',
+  title: 'Glasgow Coma Scale',
+  category: 'Clinical Scoring Systems',
+  subCategory: 'Emergency',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Glasgow Coma Scale (GCS)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Clinical Scoring Systems</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">The Glasgow Coma Scale (GCS)</h1>
+  <p class="text-sm text-indigo-200">GCS is often the only objective marker of neurological status available at first contact, particularly outside centres with CT access. In many Nigerian emergency departments, the decision to refer, transfer, or manage conservatively rests heavily on a correctly scored and correctly trended GCS, since imaging may be delayed by hours or unavailable altogether.</p>
+</div>
+</div>
+
+<!-- 1. Scoring Components -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Scoring Components
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Component</th>
+        <th class="py-2 pr-3 font-medium">Response</th>
+        <th class="py-2 font-medium">Score</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-medium">Eye opening (E)</td><td class="py-2 pr-3">Spontaneous</td><td class="py-2">4</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">To voice</td><td class="py-2">3</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">To pain</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Verbal response (V)</td><td class="py-2 pr-3">Oriented</td><td class="py-2">5</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Confused</td><td class="py-2">4</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Inappropriate words</td><td class="py-2">3</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Incomprehensible sounds</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Motor response (M)</td><td class="py-2 pr-3">Obeys commands</td><td class="py-2">6</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Localises to pain</td><td class="py-2">5</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Withdraws from pain (normal flexion)</td><td class="py-2">4</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Abnormal flexion (decorticate)</td><td class="py-2">3</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Extension (decerebrate)</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Total score range: 3-15 (there is no 0, since the minimum on each component is 1). Report as total and as the E/V/M breakdown - for example, "GCS 10 = E3V3M4" - since the breakdown carries more information than the sum alone, and different combinations reaching the same total reflect different injury patterns.</p>
+</div>
+
+<!-- 2. Severity Classification -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Severity Classification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">GCS</th>
+        <th class="py-2 font-medium">Classification</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">13-15</td><td class="py-2">Mild</td></tr>
+      <tr><td class="py-2 pr-3">9-12</td><td class="py-2">Moderate</td></tr>
+      <tr><td class="py-2 pr-3">&le; 8</td><td class="py-2">Severe - airway protection indicated</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A GCS of 8 or below is the conventional threshold for definitive airway management (intubation) - "GCS 8, intubate" - because a patient at this level typically cannot protect their airway against aspiration. This applies regardless of whether the low score comes from trauma, cerebral malaria, meningitis, or metabolic derangement, though it is a guideline rather than a mandate: a patient with an isolated severe verbal deficit (e.g. E4V1M6 = 11) may still need intubation for airway concerns despite a higher total, while a transiently post-ictal patient at GCS 7 may recover within minutes without intervention.</p>
+</div>
+
+<!-- 3. What Each Component Measures -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Scoring in Practice: What Each Component Measures
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Eye opening</span> reflects arousal, mediated by the reticular activating system, not cognition. A patient can score E4 and still have severely impaired cognition - eye opening alone should never be used as a proxy for overall consciousness.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Verbal response</span> is the component most affected by non-neurological factors: language barrier, hearing impairment, endotracheal intubation, and pre-existing dysphasia all reduce the verbal score without reflecting a change in neurological status. This is a frequent source of scoring error in Nigerian practice, particularly where the examining team and patient do not share a first language and confusion is misread as disorientation.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Motor response</span> carries the most prognostic weight of the three and should be scored using the best response obtained from any limb, not the worst and not an average. If one limb localises to pain and another only withdraws, the patient is scored M5, not M4.</li>
+</ul>
+</div>
+
+<!-- 4. Common Scoring Errors -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Common Scoring Errors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Error</th>
+        <th class="py-2 font-medium">Consequence</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Scoring verbal response as low in a patient simply unable to communicate in the examiner's language</td><td class="py-2">Falsely lowers total GCS; may trigger unnecessary escalation or intubation</td></tr>
+      <tr><td class="py-2 pr-3">Using the worst limb response rather than the best for the motor score</td><td class="py-2">Falsely lowers total GCS</td></tr>
+      <tr><td class="py-2 pr-3">Recording "GCS 3T" for an intubated patient without documenting that verbal is untestable</td><td class="py-2">The total becomes uninterpretable to a second reviewer; document as E and M scores with verbal marked untestable ("VT" or "NT"), rather than assigning an arbitrary verbal number or folding it silently into a single total</td></tr>
+      <tr><td class="py-2 pr-3">Treating a single GCS value as sufficient, without a repeat assessment</td><td class="py-2">Deteriorating trends are missed; a GCS of 12 that was 15 two hours ago is a different clinical problem from a stable GCS of 12</td></tr>
+      <tr><td class="py-2 pr-3">Assessing GCS immediately post-ictal, without allowing the post-ictal state to resolve</td><td class="py-2">Falsely suggests a lower baseline than the patient's true interictal status</td></tr>
+      <tr><td class="py-2 pr-3">Not accounting for sedation, alcohol intoxication, or hypoglycaemia before attributing a low GCS to primary neurological pathology</td><td class="py-2">Delays correction of a reversible cause - hypoglycaemia should be excluded at the bedside with a glucometer in any patient with reduced GCS, before extensive neurological work-up</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 5. Paediatric GCS -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Paediatric GCS (Under Approximately 2 Years)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Standard adult verbal and motor criteria assume a level of language and cooperation that pre-verbal or minimally verbal children do not have. Eye opening scoring is unchanged from the adult scale; verbal and motor responses are age-adapted.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Verbal Response (Infant)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Response</th>
+          <th class="py-2 font-medium">Score</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Coos, babbles appropriately</td><td class="py-2">5</td></tr>
+        <tr><td class="py-2 pr-3">Irritable cry</td><td class="py-2">4</td></tr>
+        <tr><td class="py-2 pr-3">Cries to pain</td><td class="py-2">3</td></tr>
+        <tr><td class="py-2 pr-3">Moans to pain</td><td class="py-2">2</td></tr>
+        <tr><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Motor Response (Infant)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Response</th>
+          <th class="py-2 font-medium">Score</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Moves spontaneously and purposefully</td><td class="py-2">6</td></tr>
+        <tr><td class="py-2 pr-3">Withdraws to touch</td><td class="py-2">5</td></tr>
+        <tr><td class="py-2 pr-3">Withdraws to pain</td><td class="py-2">4</td></tr>
+        <tr><td class="py-2 pr-3">Abnormal flexion to pain (decorticate)</td><td class="py-2">3</td></tr>
+        <tr><td class="py-2 pr-3">Abnormal extension to pain (decerebrate)</td><td class="py-2">2</td></tr>
+        <tr><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="text-sm">Using adult verbal criteria in an infant systematically underscores neurological status and can trigger inappropriate escalation. Where the child is intubated, preverbal, or otherwise unable to be scored on verbal or motor grounds, the motor response carries the most weight and should be evaluated carefully.</p>
+</div>
+
+<!-- 6. Blantyre Coma Scale -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+The Blantyre Coma Scale
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The Blantyre Coma Scale is a distinct tool, not simply a shortcut version of the paediatric GCS - it was developed specifically to assess consciousness in preverbal children with cerebral malaria and is the standard scale used in malaria-endemic paediatric settings. It scores three components from 0-2 each (eye movement scored 0-1), for a total range of 0-5, with lower scores indicating worse consciousness. All scores below 5 are considered abnormal.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Component</th>
+        <th class="py-2 pr-3 font-medium">Response</th>
+        <th class="py-2 font-medium">Score</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-medium">Eye movement</td><td class="py-2 pr-3">Watches or follows (e.g. mother's face)</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Fails to watch or follow</td><td class="py-2">0</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Best verbal response</td><td class="py-2 pr-3">Cries appropriately with pain, or speaks (if verbal)</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Moan or abnormal cry with pain</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">No vocal response to pain</td><td class="py-2">0</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Best motor response</td><td class="py-2 pr-3">Localises the painful stimulus</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Withdraws the limb from the painful stimulus</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">No response, or an inappropriate response</td><td class="py-2">0</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A Blantyre Coma Score of 2 or below is the threshold most commonly used to define coma for the clinical case definition of cerebral malaria in children, alongside falciparum parasitaemia and no other identifiable cause of coma.</p>
+</div>
+
+<!-- 7. Nigerian Context -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Context-Specific Considerations for Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Cerebral Malaria</strong>
+  <p class="text-sm">GCS is central to the working definition of cerebral malaria: unarousable coma - most commonly cited as a GCS below 11 in adults (some series use a stricter threshold of 9 or below), or a Blantyre Coma Score of 2 or below in children - in a patient with falciparum parasitaemia and no other identifiable cause of coma. Serial GCS trending matters more than a single value here: a static or improving GCS on antimalarial treatment is reassuring, while a falling GCS despite treatment should prompt evaluation for raised intracranial pressure, hypoglycaemia (common in cerebral malaria, and partly quinine-induced where quinine is used), or secondary bacterial meningitis.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Meningitis</strong>
+  <p class="text-sm">GCS trajectory, alongside neck stiffness and Kernig's/Brudzinski's signs, often has to substitute for neuroimaging and CSF analysis where lumbar puncture is delayed - coagulopathy screening unavailable, raised ICP not excluded - or the laboratory cannot process CSF promptly.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Head Injury Without CT Access</strong>
+  <p class="text-sm">In facilities without CT, the GCS trend over the first 4-6 hours of observation, together with pupillary findings and lateralising motor signs, drives the decision to transfer to a centre with imaging rather than observe further. A deteriorating GCS - a drop of 2 or more points - is an indication for urgent transfer regardless of the absolute value.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Sickle Cell Disease with Acute Neurological Symptoms</strong>
+  <p class="text-sm">A falling GCS in a known SCD patient should raise concern for stroke - ischaemic, from vaso-occlusion, or haemorrhagic - and prompt urgent referral for imaging where available, rather than being attributed to a pain crisis alone.</p>
+</div>
+</div>
+
+<!-- 8. Reading Order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Establish reliable baseline conditions before scoring - correct hypoglycaemia, allow the post-ictal state to pass, account for sedation or intoxication where relevant.</li>
+  <li>Score each component independently using the best response obtained.</li>
+  <li>Report as the E/V/M breakdown, not only the total.</li>
+  <li>Repeat serially - the trend is frequently more clinically useful than any single value.</li>
+  <li>Interpret in context: cerebral malaria, meningitis, head injury, and metabolic coma all produce GCS changes through different mechanisms, and the accompanying signs (pupils, lateralising weakness, neck stiffness, fever pattern) narrow the differential.</li>
+</ol>
+</div>
+
+<!-- 9. Findings not to be missed -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">GCS of 8 or below</span> - manage the airway regardless of the presumed underlying cause.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A drop of 2 or more points on trend</span> - treat as significant deterioration and act, even if the absolute value still looks reassuring.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Any reduced GCS before extensive work-up</span> - check bedside glucose first; hypoglycaemia is a rapidly reversible cause that is easy to miss under time pressure.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A falling GCS in a known sickle cell disease patient</span> - treat as possible stroke and refer urgently for imaging, rather than attributing it to a pain crisis alone.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A falling GCS despite antimalarial treatment in suspected cerebral malaria</span> - evaluate for raised intracranial pressure, hypoglycaemia, or secondary bacterial meningitis rather than assuming slow treatment response.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always score and report the E/V/M breakdown, not just the total - the same number can hide very different injury patterns.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the best response, not the worst or an average, for the motor score - and never assign an intubated patient's verbal component a number.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the Blantyre Coma Scale, not the adult verbal criteria, in preverbal children - it is a distinct tool built for this purpose, not a simplified GCS.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Exclude hypoglycaemia at the bedside before attributing a low GCS to primary neurological disease.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Trend GCS serially - a single value tells you far less than the trajectory, especially in cerebral malaria and evolving head injury.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Teasdale G, Jennett B - Assessment of Coma and Impaired Consciousness: A Practical Scale. Lancet, 1974.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Molyneux ME, Taylor TE - Blantyre Coma Scale for Young Children with Cerebral Malaria.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria (severe/cerebral malaria criteria).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kirkham FJ, Newton CR, Whitehouse W - Paediatric Coma Scales. Developmental Medicine and Child Neurology, 2008.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - Meningitis Surveillance and Response Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+// HISTORY TAKING
+{
+  id: 'history-taking-internal-medicine',
+  title: 'History Taking in Internal Medicine',
+  category: 'History Taking',
+  subCategory: 'General Approach',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>History Taking in Internal Medicine</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">History Taking in Internal Medicine</h1>
+  <p class="text-sm text-indigo-200">The answer to a patient's problem lies in the history in roughly 90% of cases, with examination and investigation accounting for the rest. This guide walks through the full structure - biodata to review of systems - with the framework, the reasoning behind each section, and a worked example bringing it all together into a presentable case summary.</p>
+</div>
+</div>
+
+<!-- 1. Introduction -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction and General Principles
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>History-taking is the crucial first step in reaching a diagnosis - the history alone points to the answer in the large majority of cases, with physical examination and investigations filling in the remainder.</li>
+  <li>In an emergency, resuscitation always precedes history-taking. Stabilise first, and take a focused history in parallel with or immediately after initial resuscitation, not before it.</li>
+  <li>A structured sequence prevents important sections being skipped under time pressure, particularly on a busy ward round or in a crowded emergency unit.</li>
+</ul>
+</div>
+
+<!-- 2. Biodata -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Biodata
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Name, age, sex, occupation, religion, address, tribe, and the informant - specifically noted where the patient is unconscious or otherwise unable to give a reliable history themselves.</p>
+<p class="text-sm">Occupation and address are not throwaway details - they carry diagnostic weight. A patient's occupation can point toward specific exposure risks, and address can flag proximity to an outbreak area or a community with a known endemic pattern (goitre-prone areas, recent cholera clusters, and so on).</p>
+</div>
+
+<!-- 3. Presenting Complaint -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Presenting Complaint
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>This is the main reason the patient came to hospital, and should be recorded in the patient's own words wherever possible, rather than translated into medical terminology at this stage.</li>
+  <li>Complaints should be arranged in chronological order, from the first symptom to the most recent.</li>
+  <li>There should not be more than five presenting complaints. If the disease has already been diagnosed, this may be stated directly as part of the complaint.</li>
+</ul>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">Example: "A known hypertensive patient presented on account of breathlessness of 5 days duration and cough of 3 days duration."</p>
+</div>
+
+<!-- 4. HPC -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+History of Presenting Complaint (The 5 Cs)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Characterise</span> each symptom - onset, site, character, severity, radiation, timing, and aggravating/relieving factors, as relevant to the symptom in question.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Course</span> - the progression of the symptom, i.e. whether it has worsened, improved, or stayed the same since onset.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cause</span> - ask questions related to the differentials, specifically to help identify the most likely diagnosis rather than asking generic questions unrelated to what you actually suspect.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Complications</span> - questions related to the complications of the most likely diagnosis, and how the symptom has affected the patient's quality of life.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Care given so far</span> - including care given at home, at a referral centre, and since admission.</li>
+</ol>
+</div>
+
+<!-- 5. PMH -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Past Medical History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>History of similar illness in the past.</li>
+  <li>History of chronic diseases - e.g. diabetes mellitus, sickle cell disease, hypertension, asthma, seizure disorder.</li>
+  <li>History of previous hospital admission, blood transfusion, or surgery.</li>
+  <li>Gynaecological history where relevant, including last menstrual period.</li>
+</ul>
+</div>
+
+<!-- 6. Family History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Family History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Position of the patient in the family.</li>
+  <li>Type of family - monogamous or polygamous, which is directly relevant when tracing hereditary and genetic risk within a Nigerian household structure.</li>
+  <li>History of similar illness in the family - e.g. diabetes mellitus, sickle cell disease, hypertension, asthma, seizure disorder.</li>
+  <li>History of chronic disease in the family, and history of atopy.</li>
+</ul>
+</div>
+
+<!-- 7. Social History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Social History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Marital status, number of children, educational level, and occupation.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cigarette Smoking</strong>
+  <p class="text-sm">Report the type of cigarette, and quantify exposure in pack-years:</p>
+  <p class="text-sm bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 p-3 mt-2 sans">Pack-years = (sticks smoked per day &divide; 20) &times; number of years smoked</p>
+  <p class="text-sm mt-2 italic">Example: a patient who smoked 5 cigarettes/day for 4 years has a pack-year history of (5/20) &times; 4 = 1 pack-year.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Alcohol Consumption</strong>
+  <p class="text-sm">Ask when the patient started drinking, the type of alcohol, and estimate the amount in grams or units. Report the amount taken per sitting, number of times per week, and number of years the patient has been drinking. If the patient has stopped, ask when and why.</p>
+  <div class="overflow-x-auto mt-3">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Drink</th>
+          <th class="py-2 pr-3 font-medium">Alcohol % by volume</th>
+          <th class="py-2 pr-3 font-medium">Measure (mL)</th>
+          <th class="py-2 font-medium">Alcohol units</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Beer</td><td class="py-2 pr-3">4-5%</td><td class="py-2 pr-3">330</td><td class="py-2">1</td></tr>
+        <tr><td class="py-2 pr-3">Stout</td><td class="py-2 pr-3">6%</td><td class="py-2 pr-3">330</td><td class="py-2">1.8</td></tr>
+        <tr><td class="py-2 pr-3">Wine</td><td class="py-2 pr-3">9-14%</td><td class="py-2 pr-3">125 / 750</td><td class="py-2">1.5 / 6.8-10.5</td></tr>
+        <tr><td class="py-2 pr-3">Gin/rum</td><td class="py-2 pr-3">37.5%</td><td class="py-2 pr-3">25 / 750</td><td class="py-2">1 / 26.3</td></tr>
+        <tr><td class="py-2 pr-3">Fresh palm wine</td><td class="py-2 pr-3">&le; 4%</td><td class="py-2 pr-3">1 calabash (400-500 mL)</td><td class="py-2">1</td></tr>
+        <tr><td class="py-2 pr-3">Spirit</td><td class="py-2 pr-3">-</td><td class="py-2 pr-3">-</td><td class="py-2">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">1 unit = 8-10 g of alcohol = approximately &frac12; pint. Reference: Oxford Clinical Handbook of Psychiatry, 3rd edition.</p>
+  <p class="text-sm mt-3">No amount of alcohol consumption is entirely safe. As a general guide: men should not drink more than 3 units/week, and women not more than 2 units/week. Consumption of 90 g/day for at least 5 years is a recognised risk factor for alcoholic liver disease.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Social History</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Substance abuse.</li>
+    <li>Sexual history - number of sexual partners.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 8. Drug History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Drug History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Chronic drug use and drug allergies. Ask specifically and non-judgmentally about herbal or traditional remedy use, since patients frequently do not volunteer this unless asked directly and repeatedly.</p>
+</div>
+
+<!-- 9. Review of Systems -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Review of Systems
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Relevant questions are asked about each system, except the one(s) already covered under the presenting complaint and history of presenting complaint.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">CNS:</span> headache, seizure, confusion, loss of consciousness, blurring of vision, neck pain.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough, breathlessness, chest pain, sneezing, running nose, cyanosis.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiovascular:</span> palpitations, breathlessness, easy fatigability, dizziness, paroxysmal nocturnal dyspnoea, orthopnoea.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> diarrhoea, constipation, nausea, vomiting, abdominal pain, jaundice.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Urogenital:</span> frequency, urgency, dysuria, hesitancy, haematuria, reduced urine output.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal:</span> muscle pain, difficulty walking, abnormal body movement, joint deformity.</li>
+</ul>
+</div>
+
+<!-- 10. Summary -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Putting It Together: The Summary
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The summary condenses everything above into a single presentable case, and should include:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Biodata (initials of name, age, sex).</li>
+  <li>Presenting complaints, with important exclusions ("xch" - negative findings worth stating).</li>
+  <li>Days on admission.</li>
+  <li>Important positives and negatives.</li>
+  <li>Care given so far.</li>
+  <li>Any improvement since admission.</li>
+</ul>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic mt-3">Example: "I have presented Mr S.A, a 40-year-old known hypertensive who presented on account of insidious onset breathlessness of 5 days duration and cough productive of whitish frothy sputum of 3 days duration. There is a positive history of nausea, anorexia, and ankle swelling. There is no history of haemoptysis. He has had a chest radiograph and some blood tests done, and he is on IV medication. His condition has improved as symptoms have subsided."</p>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Resuscitation always precedes history-taking in an emergency - stabilise the patient first.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Record the presenting complaint in the patient's own words, and keep it to five complaints or fewer, arranged chronologically.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the 5 Cs to structure the history of presenting complaint, and direct the "cause" questions specifically at your working differentials rather than asking generically.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Quantify smoking in pack-years and alcohol in units rather than leaving either as a vague description - both change management directly.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about herbal and traditional remedy use directly and non-judgmentally - patients rarely volunteer it unprompted.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Oxford Clinical Handbook of Psychiatry, 3rd edition - alcohol unit reference table.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Macleod's Clinical Examination - history-taking framework and structure.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>UK Chief Medical Officers' Low Risk Drinking Guidelines - weekly unit thresholds.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
 ];

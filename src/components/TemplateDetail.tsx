@@ -13,44 +13,46 @@ interface TemplateDetailProps {
 export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmark }: TemplateDetailProps) {
   const [copied, setCopied] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
-  // State specifically for the content being edited in the textarea
   const [editedContent, setEditedContent] = useState(template ? template.content : '');
   const [mode, setMode] = useState<'teach' | 'documentation'>('documentation');
   const { showToast } = useToast();
   const [isDisclaimerVisible, setIsDisclaimerVisible] = useState(true);
 
-  // When the template prop changes (e.g., navigating between templates), reset the edited content.
   useEffect(() => {
     if (template) {
       setEditedContent(template.content);
     }
   }, [template]);
 
-  // Handle side-effects of switching modes, like exiting edit mode.
   useEffect(() => {
     if (mode === 'teach') {
-      setIsEditing(false); // Can't edit in teach mode
+      setIsEditing(false);
     }
   }, [mode]);
 
   if (!template) {
-    return <div>Loading...</div>; // Or some other placeholder
+    return <div>Loading...</div>;
   }
-  
-  // Derive the content for teach mode, memoizing the result.
+
   const teachModeContent = useMemo(() => {
     const content = template.documentation || 'Not yet available';
     return content.replace(/—/g, '-');
   }, [template.documentation]);
 
+  const handleBookmarkClick = () => {
+    onToggleBookmark();
+    if (!isBookmarked) {
+      showToast('Saved', 'save', 2000);
+    }
+  };
+
   const handleCopy = () => {
-    // Determine what content to copy based on the current mode.
     const textToCopy = mode === 'teach' ? teachModeContent : (isEditing ? editedContent : template.content);
     
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(textToCopy).then(() => {
         setCopied(true);
-        showToast('Content copied to clipboard', 'copy', 2000);
+        showToast('Copied', 'copy', 2000);
         setTimeout(() => setCopied(false), 2000);
       }).catch(err => {
         console.error('Modern copy failed, falling back.', err);
@@ -84,7 +86,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
       const successful = document.execCommand('copy');
       if(successful) {
         setCopied(true);
-        showToast('Content copied to clipboard', 'copy', 2000);
+        showToast('Copied', 'copy', 2000);
         setTimeout(() => setCopied(false), 2000);
       } else {
         showToast('Failed to copy content', 'default', 3000);
@@ -97,13 +99,11 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
     document.body.removeChild(textArea);
   };
 
-  // Resets the content in the editor to the original template content.
   const handleReset = () => {
     setEditedContent(template.content);
     showToast('Template reset to original');
   };
 
-  // Toggles edit mode, ensuring the editor is populated with fresh content.
   const handleToggleEdit = () => {
     if (!isEditing) {
       setEditedContent(template.content);
@@ -132,7 +132,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         </div>
       )}
 
-      {/* Floating Back Button */}
       <button 
         onClick={onBack}
         className="fixed bottom-6 left-6 w-12 h-12 rounded-full bg-white/90 dark:bg-slate-800/90 backdrop-blur-md shadow-xl flex items-center justify-center text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-all hover:scale-110 hover:-translate-y-0.5 z-50 group border border-slate-200 dark:border-slate-700"
@@ -141,16 +140,12 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         <i className="fa-solid fa-arrow-left group-hover:-translate-x-0.5 transition-transform"></i>
       </button>
 
-      {/* Header Card */}
       <div className="relative bg-indigo-950 dark:bg-slate-900 rounded-3xl p-3 sm:p-6 shadow-xl shadow-indigo-900/20 dark:shadow-none border border-indigo-800 dark:border-slate-800 mb-8 overflow-hidden">
-        
-        {/* Decorative Background Elements */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 w-40 h-40 bg-blue-500/10 rounded-full blur-2xl translate-y-1/3 -translate-x-1/4 pointer-events-none"></div>
 
         <div className="relative flex justify-between items-start gap-4">
           <div className="flex-1">
-            {/* Specialty Pill (Dynamic Color - Dark Mode Optimized) */}
             <div className="mb-2">
               <span className={`px-2.5 py-0.5 rounded-full text-[8px] sm:text-[9px] font-bold uppercase tracking-wide shadow-sm border ${
                 template.specialty === 'Pediatrics' ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20' :
@@ -164,12 +159,10 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
               </span>
             </div>
 
-            {/* Title */}
             <h1 className="text-xl sm:text-3xl font-bold font-brand text-white tracking-tight mb-3">
               {template.title}
             </h1>
             
-            {/* Meta Info: Author & Last Updated */}
             <div className="flex flex-wrap items-center gap-x-3 sm:gap-x-5 gap-y-2">
               <div className="flex items-center gap-2">
                 <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-white/10 flex items-center justify-center text-indigo-200 ring-1 ring-white/20 backdrop-blur-sm">
@@ -187,9 +180,8 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
             </div>
           </div>
 
-          {/* Bookmark Section - Vertical Pill */}
           <button
-            onClick={onToggleBookmark}
+            onClick={handleBookmarkClick}
             className={`group flex items-center justify-center w-10 sm:w-12 py-3 sm:py-4 rounded-xl border transition-all duration-300 ${
               isBookmarked
                 ? 'bg-white border-white text-indigo-950 shadow-lg shadow-black/20'
@@ -201,19 +193,15 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         </div>
       </div>
 
-      {/* Card Container */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl sm:rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 overflow-hidden mb-8">
-        {/* Card Header */}
         <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-x-4 gap-y-3 px-4 py-3 sm:px-6 sm:py-4 bg-slate-50/50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800">
           
-          {/* Subspecialty */}
           <div className="flex-shrink-0">
             <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
               {template.subSpecialty}
             </span>
           </div>
 
-          {/* Center Group: Toggle Switch */}
           <div className="w-full sm:flex-1 flex justify-center order-3 sm:order-2">
             <div className="flex items-center bg-slate-200 dark:bg-slate-700/80 rounded-full p-1 text-[11px] font-semibold">
               <button
@@ -241,7 +229,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
             </div>
           </div>
 
-          {/* Right Group: Action Buttons */}
           <div className="flex items-center gap-2 order-2 sm:order-3">
           <button
               onClick={handleToggleEdit}
@@ -285,8 +272,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           </div>
         </div>
 
-
-        {/* Content Body */}
         <div className="p-4 sm:p-8 bg-white dark:bg-slate-900">
           <div className={`rounded-xl transition-all border ${
             mode === 'documentation' ? 'shadow-inner overflow-hidden ' + (isEditing 
@@ -321,7 +306,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         </div>
       </div>
 
-      {/* Tags */}
       <div className="flex flex-wrap gap-2 mb-8">
         {template.symptoms.map((symptom) => (
           <span 
@@ -333,7 +317,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         ))}
       </div>
 
-      {/* Bottom Actions */}
       <div className="pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
         <button 
           onClick={onBack}
@@ -344,9 +327,8 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
 
         <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
 
-          {/* Save Button */}
           <button
-            onClick={onToggleBookmark}
+            onClick={handleBookmarkClick}
             className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs transition-all active:scale-95 flex items-center justify-center gap-2 border ${
               isBookmarked
                 ? 'bg-indigo-50 border-indigo-200 text-indigo-700 dark:bg-indigo-900/20 dark:border-indigo-800 dark:text-indigo-300'
@@ -357,7 +339,6 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
             <span>{isBookmarked ? 'Saved' : 'Save'}</span>
           </button>
 
-          {/* Copy Button (Primary CTA) */}
           {mode === 'documentation' &&
             <button
               onClick={handleCopy}

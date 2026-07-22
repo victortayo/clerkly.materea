@@ -528,26 +528,93 @@ const freeWaterDeficitCalculation = (inputs: { 'Serum Sodium': number; 'Weight':
     return { result: `${deficit.toFixed(1)} L`, interpretation: 'Volume of free water to correct hypernatremia.', color: 'text-yellow-500', recommendation: 'Correct slowly to avoid cerebral edema. Typically replace over 24-48 hours.' };
 };
 
-const eddCalculation = (inputs: { 'Last Menstrual Period': string }) => {
-    if (!inputs['Last Menstrual Period']) return { result: 'N/A', interpretation: 'Please select a date.' };
-    const lmp = new Date(inputs['Last Menstrual Period']);
-    const edd = new Date(lmp);
-    edd.setDate(edd.getDate() + 280);
-    const result = edd.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-    return { result, interpretation: "Based on 280 days from LMP", color: 'text-blue-500' };
-};
+const obstetricsCalculation = (inputs: {
+    'Current Date'?: string;
+    'Last Menstrual Period'?: string;
+    'Estimated Due Date'?: string;
+    'Ultrasound Date'?: string;
+    'EGA at Scan (Weeks)'?: number;
+    'EGA at Scan (Days)'?: number;
+}) => {
+    const today = inputs['Current Date'] ? new Date(inputs['Current Date']) : new Date();
+    today.setHours(0, 0, 0, 0);
 
-const gestationalAgeCalculation = (inputs: { 'Last Menstrual Period': string }) => {
-    if (!inputs['Last Menstrual Period']) return { result: 'N/A', interpretation: 'Please select a date.' };
-    const lmp = new Date(inputs['Last Menstrual Period']);
-    const today = new Date();
-    const diffTime = today.getTime() - lmp.getTime();
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-    if (diffDays < 0) return { result: 'N/A', interpretation: 'LMP cannot be in the future.' };
-    const weeks = Math.floor(diffDays / 7);
-    const days = diffDays % 7;
-    const result = `${weeks} weeks, ${days} days`;
-    return { result, interpretation: 'Current gestational age', color: 'text-blue-500' };
+    let lmp: Date | null = null;
+    let edd: Date | null = null;
+    let egaDays: number | null = null;
+
+    const formatDate = (date: Date) => {
+        return date.toLocaleDateString('en-CA'); // YYYY-MM-DD format
+    };
+
+    const formatEga = (totalDays: number) => {
+        if (totalDays < 0) return "N/A";
+        const weeks = Math.floor(totalDays / 7);
+        const days = totalDays % 7;
+        if (weeks > 42) return "Post-term (>42 weeks)";
+        return `${weeks} weeks, ${days} days`;
+    };
+
+    if (inputs['Last Menstrual Period']) {
+        lmp = new Date(inputs['Last Menstrual Period']);
+        lmp.setHours(0,0,0,0);
+        edd = new Date(lmp.getTime());
+        edd.setDate(edd.getDate() + 280);
+        const diffTime = today.getTime() - lmp.getTime();
+        egaDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    } else if (inputs['Estimated Due Date']) {
+        edd = new Date(inputs['Estimated Due Date']);
+        edd.setHours(0,0,0,0);
+        lmp = new Date(edd.getTime());
+        lmp.setDate(lmp.getDate() - 280);
+        const diffTime = today.getTime() - lmp.getTime();
+        egaDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    } else if (inputs['Ultrasound Date'] && inputs['EGA at Scan (Weeks)'] !== undefined) {
+        const usDate = new Date(inputs['Ultrasound Date']);
+        usDate.setHours(0,0,0,0);
+        const usEgaWeeks = inputs['EGA at Scan (Weeks)'] || 0;
+        const usEgaDays = inputs['EGA at Scan (Days)'] || 0;
+        const usEgaTotalDays = usEgaWeeks * 7 + usEgaDays;
+        lmp = new Date(usDate.getTime());
+        lmp.setDate(lmp.getDate() - usEgaTotalDays);
+        edd = new Date(lmp.getTime());
+        edd.setDate(edd.getDate() + 280);
+        const diffTime = today.getTime() - lmp.getTime();
+        egaDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    }
+
+    if (lmp && edd && egaDays !== null) {
+        let clinicalNote = `LMP-based EDD and Ultrasound-based EDD can differ. Ultrasound in the first trimester is generally more accurate.`;
+        if (inputs['Last Menstrual Period'] && inputs['Estimated Due Date']) {
+            const lmpEdd = new Date(new Date(inputs['Last Menstrual Period']).getTime() + 280 * 24 * 60 * 60 * 1000);
+            const providedEdd = new Date(inputs['Estimated Due Date']);
+            const diff = Math.abs(lmpEdd.getTime() - providedEdd.getTime()) / (1000 * 60 * 60 * 24);
+            if (diff > 7) {
+                 clinicalNote = `Note: The provided LMP and EDD are discrepant by more than 7 days. First-trimester ultrasound dating is preferred for accuracy.`;
+            }
+        }
+
+        let finalRecommendation = clinicalNote;
+        if (inputs['Estimated Due Date']) {
+             finalRecommendation = `Back-calculated LMP: ${formatDate(lmp)}\n\n${clinicalNote}`;
+        } else if (inputs['Ultrasound Date']) {
+             finalRecommendation = `LMP derived from ultrasound: ${formatDate(lmp)}\n\n${clinicalNote}`;
+        }
+
+        return {
+            result: formatEga(egaDays),
+            interpretation: `EDD: ${formatDate(edd)}`,
+            recommendation: `EGA calculated for date: ${formatDate(today)}\n\n${finalRecommendation}`,
+            color: 'text-blue-500',
+        };
+    }
+
+    return {
+        result: 'N/A',
+        interpretation: 'Please provide Current Date and one of LMP, EDD, or Ultrasound data.',
+        recommendation: '',
+        color: 'text-red-500'
+    };
 };
 
 const bishopScoreCalculation = (inputs: { 'Dilation': string; 'Effacement': string; 'Station': string; 'Position': string; 'Consistency': string; }) => {
@@ -832,7 +899,7 @@ export const calculators: Calculator[] = [
         name: 'CURB-65 Score',
         category: 'Emergency & Resuscitation',
         description: 'Assess severity of community-acquired pneumonia.',
-        explanation: `Clinical Significance: The CURB-65 score helps physicians decide the site of care for patients with community-acquired pneumonia (CAP). It predicts mortality and can guide whether a patient can be treated at home, should be admitted to a hospital ward, or requires intensive care.\n\nHow it is calculated: One point is given for each of the following prognostic variables:\n\n| Mnemonic | Criteria |\n|:---|:---|\n| **C** | Confusion |\n| **U** | Urea > 7 mmol/L (19 mg/dL) |\n| **R** | Respiratory Rate ≥ 30 breaths/min |\n| **B** | SBP < 90 mmHg or DBP ≤ 60 mmHg |\n| **65** | Age ≥ 65 years |\n\nHow to Interpret the Result:\n\n| Score | Severity | Recommendation |\n|:---|:---|\n| 0-1 | Low | Consider outpatient treatment |\n| 2 | Moderate | Consider hospital admission |\n| ≥ 3 | High | Manage as severe pneumonia, consider ICU |`,
+        explanation: `Clinical Significance: The CURB-65 score helps physicians decide the site of care for patients with community-acquired pneumonia (CAP). It predicts mortality and can guide whether a patient can be treated at home, should be admitted to a hospital ward, or requires intensive care.\n\nHow it is calculated: One point is given for each of the following prognostic variables:\n\n| Mnemonic | Criteria |\n|:---|:---|\n| **C** | Confusion |\n| **U** | Urea > 7 mmol/L (19 mg/dL) |\n| **R** | Respiratory Rate ≥ 30 breaths/min |\n| **B** | SBP < 90 mmHg or DBP ≤ 60 mmHg |\n| **65** | Age ≥ 65 years |\n\nHow to Interpret the Result:\n\n| Score | Severity | Recommendation |\n|:---|:--- |:---|\n| 0-1 | Low | Consider outpatient treatment |\n| 2 | Moderate | Consider hospital admission |\n| ≥ 3 | High | Manage as severe pneumonia, consider ICU |`,
         inputs: [
             { name: 'Confusion', type: 'boolean' },
             { name: 'Urea > 7 mmol/L', type: 'boolean' },
@@ -1071,24 +1138,19 @@ export const calculators: Calculator[] = [
 
     // Obstetrics
     {
-        name: 'Estimated Delivery Date (EDD)',
+        name: 'Obstetrics Calculator',
         category: 'Obstetrics',
-        description: "Calculates EDD based on LMP.",
-        explanation: `Clinical Significance: The EDD is critical for timing prenatal care and assessing fetal growth.\n\nHow it is calculated: LMP + 280 days.`,
+        description: 'Calculate EGA, EDD, and LMP from various inputs.',
+        explanation: `A comprehensive calculator for obstetric dating. Provides Estimated Gestational Age (EGA), Estimated Due Date (EDD), and Last Menstrual Period (LMP).\n\n**How it works:**\n- **If LMP is entered:** Calculates EGA and EDD.\n- **If EDD is entered:** Calculates LMP and EGA.\n- **If Ultrasound EGA is entered:** Calculates EDD and derives LMP and current EGA.\n\n**Clinical Notes:**\n- First-trimester ultrasound dating is the most accurate method for determining the EDD.\n- Discrepancies between LMP-based and ultrasound-based dating are common. If the discrepancy is significant (e.g., >7 days in the first trimester), the ultrasound-based EDD should be used to guide clinical management.`,
         inputs: [
+            { name: 'Current Date', type: 'date' },
             { name: 'Last Menstrual Period', type: 'date' },
+            { name: 'Estimated Due Date', type: 'date' },
+            { name: 'Ultrasound Date', type: 'date' },
+            { name: 'EGA at Scan (Weeks)', type: 'number', min: 0, max: 42, step: 1 },
+            { name: 'EGA at Scan (Days)', type: 'number', min: 0, max: 6, step: 1 },
         ],
-        calculation: eddCalculation,
-    },
-    {
-        name: 'Gestational Age',
-        category: 'Obstetrics',
-        description: 'Calculates gestational age from LMP.',
-        explanation: `Clinical Significance: Knowing the gestational age is essential for managing pregnancy and scheduling screenings.\n\nHow it is calculated: It is the number of weeks and days since the first day of the last menstrual period (LMP).`,
-        inputs: [
-            { name: 'Last Menstrual Period', type: 'date' },
-        ],
-        calculation: gestationalAgeCalculation,
+        calculation: obstetricsCalculation,
     },
     {
         name: 'Bishop Score',

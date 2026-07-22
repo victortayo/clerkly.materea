@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-interface CopyToastProps {
+interface SaveToastProps {
   message: string;
   duration: number;
   onClose: () => void;
 }
 
-export function CopyToast({ message, duration, onClose }: CopyToastProps) {
+export function SaveToast({ message, duration, onClose }: SaveToastProps) {
   useEffect(() => {
     const timer = setTimeout(() => {
       onClose();
@@ -24,7 +24,7 @@ export function CopyToast({ message, duration, onClose }: CopyToastProps) {
       exit={{ opacity: 0, y: 20, scale: 0.8 }}
       transition={{ type: 'spring', damping: 15, stiffness: 300, mass: 0.5 }}
     >
-      <i className="fa-solid fa-check-circle text-emerald-400"></i>
+      <i className="fa-solid fa-bookmark text-indigo-400"></i>
       <p className="text-sm font-medium">{message}</p>
     </motion.div>
   );

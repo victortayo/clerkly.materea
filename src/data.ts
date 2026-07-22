@@ -3,7 +3,7 @@ import { Template } from './types';
 export const INITIAL_TEMPLATES: Template[] = [
   // Behavioral Sciences
   {
-    id: 'bs-05',
+    id: 'bs-07',
     title: 'Autism Spectrum Disorder in a Young Adult',
     specialty: 'Behavioral Sciences',
     subSpecialty: 'Psychiatry',
@@ -327,7 +327,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'bs-03',
+    id: 'bs-05',
     title: 'Acute Relapse of Schizophrenia',
     specialty: 'Behavioral Sciences',
     subSpecialty: 'Psychiatry Clinic',
@@ -811,7 +811,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'bs-02',
+    id: 'bs-03',
     title: 'Acute Manic Episode with Psychotic Features',
     specialty: 'Behavioral Sciences',
     subSpecialty: 'Psychiatry Clinic',
@@ -1049,7 +1049,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'bs-01',
+    id: 'bs-02',
     title: 'Generalized Anxiety Disorder with Panic-like Features',
     specialty: 'Behavioral Sciences',
     subSpecialty: 'Psychiatry Clinic',
@@ -1279,7 +1279,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'bs-07',
+    id: 'bs-01',
     title: 'Moderate Depressive Episode',
     specialty: 'Behavioral Sciences',
     subSpecialty: 'Mood Disorders',
@@ -1488,7 +1488,1132 @@ export const INITIAL_TEMPLATES: Template[] = [
 
   // Pediatrics
   {
-    id: 'peds-03',
+    id: 'peds-36',
+    title: 'Aplastic Crisis in a Child with Sickle Cell Anaemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Haematology',
+    condition: 'Aplastic Crisis',
+    symptoms: [
+      'Progressive weakness',
+      'Generalized pallor',
+      'Fever',
+      'Easy fatigability',
+      'Dizziness',
+      'Palpitations'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '7-year-old male child with HbSS presenting with fever, progressive weakness, severe pallor and symptomatic anaemia, with markedly reduced reticulocyte count consistent with acute aplastic crisis, likely secondary to Parvovirus B19 infection.',
+    content: `PAEDIATRIC HAEMATOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 7-year-old male child, known HbSS patient, weighing 22 kg, residing in Abeokuta, Ogun State.
+  
+  Informant: Mother (Reliable)
+  
+  PC:
+  Progressive weakness × 4 days.
+  Generalized pallor × 3 days.
+  Fever × 5 days.
+  Easy fatigability × 3 days.
+  
+  HPC:
+  The child is a known patient with sickle cell anaemia (HbSS), diagnosed in infancy and on regular follow-up at the Paediatric Haematology Clinic.
+  
+  He was apparently well until five days prior to presentation when he developed a low-grade fever associated with malaise and reduced appetite. There was no associated cough, catarrh or diarrhoea.
+  
+  About four days prior to presentation, he developed progressive weakness and reduced activity. His mother noticed increasing pallor over the following three days, with the child becoming easily fatigued while walking short distances.
+  
+  There is associated dizziness and occasional palpitations.
+  
+  No significant jaundice.
+  No dark-coloured urine.
+  No bone pain suggestive of vaso-occlusive crisis.
+  No abdominal swelling.
+  No bleeding from any site.
+  No history of recent blood transfusion.
+  
+  The mother reports that several children at school recently had a febrile illness associated with a rash.
+  
+  Review of Systems:
+  
+  General:
+  Weakness.
+  Easy fatigability.
+  Reduced appetite.
+  Low-grade fever.
+  
+  Cardiovascular:
+  Palpitations.
+  Dizziness.
+  No syncope.
+  
+  Respiratory:
+  Mild breathlessness on exertion.
+  No cough.
+  No chest pain.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No vomiting.
+  No diarrhoea.
+  
+  Genitourinary:
+  Normal urine colour.
+  No haematuria.
+  
+  Neurological:
+  No seizures.
+  No altered consciousness.
+  
+  Past Medical History:
+  Known HbSS disease.
+  Previous vaso-occlusive crises.
+  No previous aplastic crisis.
+  No history of stroke.
+  No history of acute chest syndrome.
+  
+  Drug History:
+  - Tab Folic Acid 5 mg orally once daily.
+  - Tab Proguanil 100 mg orally once daily.
+  
+  No known drug allergies.
+  
+  Immunization History:
+  Fully immunized for age.
+  Received Pneumococcal conjugate vaccine.
+  Received Haemophilus influenzae type b vaccine.
+  Received Meningococcal vaccine.
+  
+  Family History:
+  One younger sibling has HbAS.
+  No family history of bone marrow disorders.
+  
+  Social History:
+  Lives with parents.
+  Attends primary school.
+  No recent travel.
+  
+  O/E:
+  School-aged child, conscious, alert and ill-looking.
+  Severely pale.
+  No significant jaundice.
+  Well hydrated.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 37.9°C
+  PR: 148 bpm, regular
+  RR: 30 cpm
+  BP: 92/58 mmHg
+  SpO₂: 98% in room air
+  Weight: 22 kg
+  
+  CVS:
+  Marked tachycardia.
+  Heart sounds I and II normal.
+  Soft flow systolic murmur.
+  Peripheral pulses full volume.
+  
+  Chest:
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  No added sounds.
+  
+  Abdomen:
+  Soft and non-tender.
+  No hepatomegaly.
+  Spleen not palpable.
+  Normal bowel sounds.
+  
+  CNS:
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute aplastic crisis secondary to probable Parvovirus B19 infection in a child with HbSS disease, presenting with severe symptomatic anaemia.
+  
+  Differential Diagnoses:
+  1. Severe iron deficiency anaemia.
+  2. Acute leukaemia.
+  3. Acute splenic sequestration crisis.
+  4. Hyperhaemolytic crisis.
+  5. Bone marrow suppression secondary to sepsis or medications.
+  
+  Investigations:
+  
+  Laboratory:
+  - Full Blood Count.
+  - Reticulocyte Count.
+  - Peripheral Blood Film.
+  - Blood Group and Cross-match.
+  - Serum Electrolytes, Urea and Creatinine.
+  - Liver Function Tests.
+  - Parvovirus B19 IgM antibody or PCR, where available.
+  - Malaria Parasite Microscopy/RDT.
+  - Blood Culture if febrile.
+  
+  Expected Results:
+  - Haemoglobin: 4.8 g/dL (baseline approximately 8.5 g/dL).
+  - Packed Cell Volume: 15%.
+  - Reticulocyte count: 0.2% (markedly reduced).
+  - White blood cell count: Normal or mildly reduced.
+  - Platelet count: Usually normal.
+  - Bilirubin: Normal or mildly elevated.
+  - Malaria parasite: Negative.
+  
+  Management:
+  
+  Admission:
+  - Admit to the Paediatric Haematology Unit.
+  - Continuous monitoring of vital signs.
+  
+  Oxygen Therapy:
+  - Administer oxygen via nasal cannula at 2–3 L/min if symptomatic anaemia or SpO₂ <94%.
+  - Maintain oxygen saturation ≥95%.
+  
+  Intravenous Fluids:
+  Maintain hydration with:
+  - 0.9% Normal Saline with 5% Dextrose at approximately 60 mL/hour IV, adjusting according to oral intake and urine output.
+  - Avoid fluid overload.
+  
+  Blood Transfusion:
+  Urgent transfusion is indicated for severe symptomatic anaemia.
+  
+  - Packed Red Blood Cells 10–15 mL/kg IV over 3–4 hours.
+  - For this child weighing 22 kg: approximately 220–330 mL.
+  - A volume of 250 mL IV over 4 hours may be administered.
+  - Monitor closely for transfusion reactions.
+  - Repeat haemoglobin 12–24 hours after transfusion.
+  
+  Antipyretics:
+  - Paracetamol 15 mg/kg orally every 6 hours as required.
+  - For this child: approximately 330 mg orally every 6 hours.
+  
+  Antibiotics:
+  Routine antibiotics are not indicated unless bacterial infection is suspected.
+  
+  If persistent fever or clinical evidence of bacterial infection:
+  - Inj. Ceftriaxone 80 mg/kg/day IV once daily.
+  - For this child: approximately 1.8 g IV once daily.
+  - Modify according to culture results and clinical response.
+  
+  Continue Routine Therapy:
+  - Tab Folic Acid 5 mg orally once daily.
+  - Continue malaria prophylaxis according to local protocol after recovery.
+  
+  Nursing Instructions:
+  - Monitor vital signs every 4 hours.
+  - Maintain strict input and output chart.
+  - Observe for signs of heart failure due to severe anaemia.
+  - Monitor closely for transfusion reactions.
+  - Monitor daily weight.
+  
+  Health Education:
+  Explain to the parents that aplastic crisis occurs when the bone marrow temporarily stops producing red blood cells, most commonly due to infection with Parvovirus B19.
+  
+  Explain that children with sickle cell disease already have shortened red blood cell survival, so even a few days of reduced red cell production can result in profound anaemia.
+  
+  Reassure the parents that the condition is usually self-limiting, with bone marrow recovery occurring within approximately 7–10 days, although blood transfusion may be required to support the child during this period.
+  
+  Advise prompt hospital presentation if the child develops:
+  - Worsening pallor.
+  - Extreme weakness.
+  - Dizziness.
+  - Difficulty breathing.
+  - Fainting.
+  - Persistent fever.
+  
+  Continue regular sickle cell clinic attendance, folic acid supplementation and malaria prevention measures.
+  
+  Follow-up:
+  - Repeat Full Blood Count and reticulocyte count after 48–72 hours to document marrow recovery.
+  - Repeat haemoglobin after transfusion and again before discharge.
+  - Daily review by the Paediatric Haematology team.
+  - Follow-up in the Sickle Cell Clinic 1 week after discharge, then continue routine follow-up.
+  - If aplastic crisis recurs or reticulocytopenia persists, evaluate for other causes of bone marrow failure.
+  
+  Prognosis:
+  Excellent with prompt recognition and supportive care. Most children recover completely once bone marrow function returns. Early blood transfusion prevents cardiovascular decompensation and significantly reduces morbidity and mortality.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-35',
+    title: 'Acute Splenic Sequestration Crisis in a Child with HbSS Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Haematology',
+    condition: 'Acute Splenic Sequestration Crisis',
+    symptoms: ['Sudden abdominal swelling', 'Generalized weakness', 'Progressive pallor', 'Massive splenomegaly', 'Poor feeding', 'Hypovolaemic shock'],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '2-year-8-month-old boy with known HbSS disease presenting with sudden massive splenomegaly, progressive pallor, generalized weakness, poor feeding and features of hypovolaemic shock, consistent with acute splenic sequestration crisis.',
+    content: `PAEDIATRIC HAEMATOLOGY
+    
+    Patient Seen
+    
+    A 2-year-8-month-old male child, weighing 12 kg, a known HbSS patient diagnosed on newborn screening and on routine follow-up at the Paediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
+    
+    CHIEF COMPLAINT
+    
+    Sudden abdominal swelling × 8 hours.
+    Generalized weakness × 8 hours.
+    Progressive pallor × 8 hours.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The child was apparently well until about 8 hours prior to presentation when the mother noticed progressive abdominal swelling, predominantly on the left side. This was associated with sudden-onset generalized weakness and reduced activity.
+    
+    He subsequently became increasingly pale and refused feeds. The mother also noticed fast breathing and excessive sleepiness.
+    
+    There is associated pain over the left upper abdomen, causing irritability and crying when handled.
+    
+    There is no history of trauma.
+    There is no vomiting or diarrhoea.
+    There is no cough or convulsion.
+    There is no loss of consciousness.
+
+    The mother reports reduced urine output over the past 6 hours.
+    
+    There is no history of dark-coloured urine or passage of black stool.
+    
+    He had low-grade fever one day prior to presentation but did not receive treatment.
+    
+    There is no recent history of blood transfusion.
+    
+    REVIEW OF SYSTEMS
+    
+    General:
+    Marked weakness.
+    Poor feeding.
+    Progressive pallor.
+    Lethargy.
+    
+    Gastrointestinal:
+    Left upper abdominal swelling.
+    Abdominal pain.
+    No vomiting.
+    No diarrhoea.
+    
+    Respiratory:
+    Fast breathing.
+    No cough.
+    No wheezing.
+    
+    Cardiovascular:
+    Palpitations, described by the mother as rapid heartbeat.
+    No cyanosis.
+    
+    Genitourinary:
+    Reduced urine output.
+    No haematuria.
+    
+    Neurological:
+    Increasing drowsiness.
+    No seizures.
+    
+    PAST MEDICAL HISTORY
+    
+    Known HbSS disease diagnosed in infancy.
+    History of two previous vaso-occlusive crises requiring admission.
+    No previous history of splenic sequestration crisis.
+    No previous stroke or acute chest syndrome.
+    
+    DRUG HISTORY
+    
+    Folic Acid 5 mg orally once daily.
+    Proguanil 100 mg orally once daily.
+    No known drug allergies.
+    
+    IMMUNIZATION HISTORY
+    
+    Routine childhood immunizations complete for age.
+    Received Pneumococcal conjugate vaccine (PCV).
+    Received Haemophilus influenzae type b vaccine.
+    Received Meningococcal vaccine.
+    
+    FAMILY HISTORY
+    
+    One older sibling also has HbSS disease.
+    No family history of hereditary anaemia.
+    
+    SOCIAL HISTORY
+    
+    Lives with both parents.
+    Parents understand sickle cell disease but have not been taught routine splenic palpation.
+    
+    GENERAL EXAMINATION
+    
+    A young child who is lethargic but arousable.
+    He is severely pale and moderately dehydrated.
+    No jaundice.
+    No cyanosis.
+    Cold extremities.
+    Capillary refill time: 4 seconds.
+    
+    VITAL SIGNS
+    
+    Temperature: 38.2°C
+    Pulse Rate: 168 beats/minute, weak and regular
+    Respiratory Rate: 42 cycles/minute
+    Blood Pressure: 78/46 mmHg
+    SpO₂: 97% on room air
+    Weight: 12 kg
+    
+    SYSTEMIC EXAMINATION
+    
+    ABDOMEN:
+    
+    Abdomen mildly distended.
+    Massive splenomegaly, with the spleen palpable 8 cm below the left costal margin.
+    Spleen is tender, smooth-surfaced and soft in consistency.
+    Liver palpable 2 cm below the right costal margin.
+    Normal bowel sounds.
+    
+    CARDIOVASCULAR SYSTEM:
+    
+    Marked tachycardia.
+    Normal heart sounds.
+    Flow systolic murmur.
+    Weak peripheral pulses.
+    
+    RESPIRATORY SYSTEM:
+    
+    Tachypnoeic.
+    Equal bilateral air entry.
+    No crepitations.
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    Glasgow Coma Scale: 14/15.
+    Responds appropriately to painful stimuli.
+    No focal neurological deficits.
+    
+    ASSESSMENT
+    
+    Acute splenic sequestration crisis in a child with HbSS disease, complicated by hypovolaemic shock.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    1. Hyperhaemolytic crisis.
+    2. Aplastic crisis secondary to Parvovirus B19 infection.
+    3. Severe malaria with splenomegaly.
+    4. Septicaemia.
+    5. Acute abdomen.
+    
+    INVESTIGATIONS
+    
+    URGENT:
+    
+    1. Full Blood Count.
+    2. Reticulocyte Count.
+    3. Peripheral Blood Film.
+    4. Blood Group and Cross-match.
+    5. Serum Electrolytes, Urea and Creatinine.
+    6. Random Blood Glucose.
+    7. Blood Culture.
+    8. Malaria Parasite Microscopy/RDT.
+    9. Urinalysis.
+    10. Pulse Oximetry.
+    
+    EXPECTED RESULTS:
+    
+    Haemoglobin: 4.2 g/dL (baseline approximately 8.0 g/dL).
+    Packed Cell Volume: 13%.
+    Reticulocyte Count: Markedly elevated at approximately 12%.
+    Platelets: May be mildly reduced due to splenic pooling.
+    
+    MANAGEMENT
+    
+    EMERGENCY RESUSCITATION:
+    
+    Admit to the Paediatric Emergency Unit.
+    Inform the Paediatric Haematologist immediately.
+    Maintain airway.
+    Administer oxygen via face mask at 5 L/min to maintain SpO₂ >95%.
+    Insert two peripheral IV cannulae.
+    Commence continuous cardiorespiratory monitoring.
+    
+    INTRAVENOUS FLUIDS:
+    
+    In view of hypovolaemic shock:
+    Administer 0.9% Normal Saline 20 mL/kg IV over 30 minutes, then reassess perfusion.
+    
+    For this child (12 kg):
+    240 mL IV over 30 minutes.
+    
+    Avoid excessive fluid administration because blood transfusion will rapidly increase intravascular volume.
+    
+    BLOOD TRANSFUSION:
+    
+    Arrange urgent cross-matched packed red blood cells.
+    Packed Red Blood Cells 10 mL/kg IV over 3–4 hours.
+    
+    For this child (12 kg):
+    120 mL IV over approximately 3–4 hours.
+    Monitor closely for circulatory overload.
+    Repeat haemoglobin after transfusion.
+    Target haemoglobin approximately 8–9 g/dL.
+    Avoid over-transfusion because sequestrated red blood cells may rapidly re-enter the circulation.
+    
+    ANTIBIOTICS:
+    
+    In view of fever and the possibility of overwhelming bacterial infection:
+    Inj. Ceftriaxone 75 mg/kg/day IV once daily.
+    
+    For this child:
+    Ceftriaxone 900 mg IV once daily.
+    
+    Modify antibiotic therapy according to culture results and clinical response.
+    
+    ANALGESIA:
+    
+    Paracetamol 15 mg/kg orally or IV every 6 hours.
+    
+    For this child:
+    180 mg per dose.
+    
+    If severe pain:
+    Morphine 0.1 mg/kg IV slowly.
+    
+    For this child:
+    1.2 mg IV, with close monitoring.
+    
+    ANTIMALARIAL THERAPY:
+    
+    If malaria is confirmed:
+    Inj. Artesunate 2.4 mg/kg IV at 0, 12 and 24 hours, then once daily until oral therapy can be commenced.
+    
+    CONTINUE ROUTINE MEDICATIONS:
+    Continue Folic Acid 5 mg orally once daily after stabilization.
+    
+    NURSING INSTRUCTIONS:
+    
+    Monitor vital signs every 15 minutes until clinically stable, then space monitoring according to clinical condition.
+    Maintain strict fluid input and output chart.
+    Monitor spleen size every 2–4 hours by marking the splenic tip.
+    Observe closely for signs of transfusion reaction.
+    Monitor urine output, with a target of >1 mL/kg/hour.
+    Monitor daily weight.
+    
+    HEALTH EDUCATION:
+    
+    The parents should be counselled that acute splenic sequestration occurs when a large volume of blood becomes trapped within the spleen, causing a sudden and potentially life-threatening fall in circulating blood volume and haemoglobin.
+    Teach the parents how to palpate the child's spleen and emphasize the need to seek immediate medical attention if there is sudden enlargement of the abdomen, increasing pallor, weakness, excessive sleepiness or abdominal swelling.
+    Explain that recurrent sequestration crises can occur in children with HbSS disease and that recurrent episodes may require elective splenectomy following specialist evaluation.
+    Emphasize adherence to penicillin prophylaxis where indicated, folic acid supplementation, malaria prevention, recommended immunizations and regular haematology follow-up.
+    
+    FOLLOW-UP:
+    
+    Repeat Full Blood Count and reticulocyte count 6–12 hours after transfusion, then daily until clinically stable.
+    Daily review by the Paediatric Haematology team.
+    Follow-up at the Sickle Cell Clinic 1 week after discharge.
+    Counsel parents regarding splenic palpation at each clinic visit.
+    Consider elective splenectomy after recurrent sequestration episodes, typically after two or more episodes, with appropriate pre-operative vaccination and long-term specialist follow-up.
+    
+    PROGNOSIS:
+    
+    Guarded at presentation due to the risk of hypovolaemic shock and cardiovascular collapse. With prompt recognition, urgent blood transfusion and appropriate supportive care, most children recover well. Delayed presentation significantly increases the risk of severe complications and mortality.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },    
+  {
+    id: 'peds-34',
+    title: 'Acute Haemolytic Crisis in a Child with HbSS Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Acute Haemolytic Crisis',
+    symptoms: ['Jaundice', 'Generalized weakness', 'Fever', 'Dark-coloured urine', 'Severe anaemia', 'Fatigue'],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '6-year-old boy with known HbSS disease presenting with progressive jaundice, marked pallor, generalized weakness, fever and dark-coloured urine, consistent with acute haemolytic crisis likely precipitated by severe malaria, resulting in symptomatic severe anaemia.',
+    content: `PAEDIATRIC HAEMATOLOGY
+    
+    Patient Seen
+    
+    A 6-year-old male child, weighing 20 kg, a known HbSS patient diagnosed in infancy and on regular follow-up at the Paediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
+    
+    CHIEF COMPLAINT
+    
+    Progressive yellowish discoloration of the eyes × 3 days.
+    Generalized weakness × 3 days.
+    Fever × 2 days.
+    Dark-coloured urine × 2 days.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The child was apparently well until 3 days prior to presentation when his mother noticed progressive yellowish discoloration of the sclera, followed by increasing weakness and easy fatigability.
+    
+    Two days prior to presentation, he developed intermittent high-grade fever associated with chills and rigors. The fever was temporarily relieved by paracetamol.
+    
+    The mother subsequently noticed passage of dark, "coca-cola"-coloured urine and increasing pallor. He has become less active and complains of dizziness on standing.
+    
+    There is mild generalized bone pain but no severe limb pain suggestive of a vaso-occlusive crisis.
+    
+    There is no abdominal swelling or history of trauma. There is no bleeding from any site.
+    There is no cough or difficulty breathing.
+    There is no vomiting or diarrhoea.
+    
+    The child slept under a mosquito net inconsistently during the preceding week.
+    
+    REVIEW OF SYSTEMS
+    
+    General:
+    Fever.
+    Generalized weakness.
+    Easy fatigability.
+    Loss of appetite.
+    
+    Gastrointestinal:
+    No abdominal pain.
+    No vomiting.
+    No diarrhoea.
+    
+    Genitourinary:
+    Dark-coloured urine.
+    Reduced urine output.
+    No dysuria.
+    
+    Respiratory:
+    No cough.
+    No chest pain.
+    No difficulty breathing.
+    
+    Cardiovascular:
+    Palpitations.
+    Dizziness.
+    No syncope.
+    
+    Neurological:
+    No seizures.
+    No loss of consciousness.
+    
+    PAST MEDICAL HISTORY
+    
+    Known HbSS disease.
+    History of several previous vaso-occlusive crises.
+    One previous blood transfusion 18 months ago.
+    No previous history of stroke or splenic sequestration crisis.
+    
+    DRUG HISTORY
+    
+    Tab. Folic Acid 5 mg orally once daily.
+    Tab. Proguanil 100 mg orally once daily, with poor compliance reported.
+    No known drug allergies.
+    
+    IMMUNIZATION HISTORY
+    
+    Fully immunized for age, including:
+    Pneumococcal conjugate vaccine.
+    Haemophilus influenzae type b vaccine.
+    Meningococcal vaccine.
+    
+    FAMILY HISTORY
+    
+    One sibling has HbAS.
+    No family history of G6PD deficiency.
+    
+    SOCIAL HISTORY
+    
+    Lives with both parents.
+    Poor compliance with malaria preventive measures.
+    
+    GENERAL EXAMINATION
+    
+    An ill-looking school-aged boy who is conscious and alert.
+    He is markedly pale, moderately icteric and mildly dehydrated.
+    No cyanosis.
+    No peripheral oedema.
+    
+    VITAL SIGNS
+    
+    Temperature: 38.8°C
+    Pulse Rate: 136 beats/minute, regular
+    Respiratory Rate: 30 cycles/minute
+    Blood Pressure: 96/60 mmHg
+    SpO₂: 98% on room air
+    Weight: 20 kg
+    
+    SYSTEMIC EXAMINATION
+    
+    ABDOMEN:
+    
+    Abdomen soft and non-tender.
+    Mild hepatomegaly, with the liver palpable 3 cm below the right costal margin.
+    Spleen just palpable, approximately 2 cm below the left costal margin, unchanged from previous clinic records.
+    Normal bowel sounds.
+    
+    CARDIOVASCULAR SYSTEM:
+    
+    Marked tachycardia.
+    Heart sounds I and II normal.
+    Soft flow systolic murmur.
+    Peripheral pulses full volume.
+    
+    RESPIRATORY SYSTEM:
+    
+    Chest expands symmetrically.
+    Normal vesicular breath sounds.
+    No crepitations.
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    Glasgow Coma Scale: 15/15.
+    No focal neurological deficits.
+    
+    ASSESSMENT
+    
+    Acute haemolytic crisis in a child with HbSS disease, likely precipitated by severe malaria, resulting in symptomatic severe anaemia and jaundice.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    1. Severe malaria with haemolysis.
+    2. Hyperhaemolysis syndrome following transfusion.
+    3. Acute splenic sequestration crisis.
+    4. Aplastic crisis secondary to Parvovirus B19 infection.
+    5. G6PD-related haemolysis.
+    
+    INVESTIGATIONS
+    
+    Laboratory:
+    
+    1. Full Blood Count.
+    2. Reticulocyte Count.
+    3. Peripheral Blood Film.
+    4. Malaria Parasite Microscopy and Rapid Diagnostic Test.
+    5. Blood Group and Cross-match.
+    6. Serum Bilirubin (Total and Direct).
+    7. Lactate Dehydrogenase (LDH).
+    8. Serum Haptoglobin, if available.
+    9. Serum Electrolytes, Urea and Creatinine.
+    10. Liver Function Tests.
+    11. Urinalysis.
+    12. Blood Culture.
+    13. G6PD screening after recovery, if clinically indicated.
+    
+    EXPECTED RESULTS:
+    
+    Haemoglobin: 5.6 g/dL (baseline approximately 8.5 g/dL).
+    Packed Cell Volume: 17%.
+    Reticulocyte Count: 12% (elevated).
+    Indirect hyperbilirubinaemia.
+    Elevated LDH.
+    Positive malaria parasite test.
+    
+    MANAGEMENT
+    
+    ADMISSION:
+    
+    Admit to the Paediatric Haematology Unit.
+    Continuous monitoring of vital signs.
+    
+    INTRAVENOUS FLUIDS:
+    
+    Administer 0.9% Normal Saline at 40 mL/hour IV for the first 6 hours, then adjust according to hydration status and urine output.
+    Avoid overhydration.
+    
+    BLOOD TRANSFUSION:
+    
+    In view of symptomatic severe anaemia:
+    Packed Red Blood Cells 10–15 mL/kg IV over 3–4 hours.
+    
+    For this child (20 kg):
+    Packed Red Blood Cells 250 mL IV over approximately 4 hours.
+    
+    Monitor closely for transfusion reactions.
+    Repeat haemoglobin after transfusion.
+    
+    ANTIMALARIAL THERAPY:
+    
+    As malaria is the likely precipitating factor:
+    Inj. Artesunate 2.4 mg/kg IV.
+    
+    For this child:
+    48 mg IV at 0, 12 and 24 hours, then 48 mg IV once daily until oral therapy is tolerated.
+    
+    Thereafter, complete treatment with:
+    Artemether-Lumefantrine 20/120 mg.
+    
+    For body weight 15–24 kg:
+    2 tablets orally twice daily for 3 days, administered at 0, 8, 24, 36, 48 and 60 hours.
+    
+    ANTIBIOTICS:
+    
+    If bacterial infection cannot be excluded:
+    Inj. Ceftriaxone 75 mg/kg/day IV once daily.
+    
+    For this child:
+    1.5 g IV once daily.
+    
+    Adjust according to culture results and clinical response.
+    
+    ANTIPYRETICS:
+    
+    Paracetamol 15 mg/kg orally or IV every 6 hours as required.
+    
+    For this child:
+    300 mg per dose.
+    
+    CONTINUE ROUTINE THERAPY:
+    
+    Tab. Folic Acid 5 mg orally once daily.
+    Continue malaria prophylaxis after recovery according to local protocol.
+    
+    NURSING INSTRUCTIONS:
+    
+    Monitor vital signs every 4 hours.
+    Maintain strict fluid input and output chart.
+    Monitor urine colour and volume.
+    Observe for worsening jaundice.
+    Monitor closely for transfusion reactions.
+    Monitor daily weight.
+    
+    HEALTH EDUCATION:
+    
+    The parents should be counselled that a haemolytic crisis occurs when sickled red blood cells are destroyed faster than usual, resulting in a rapid fall in haemoglobin and worsening jaundice. In malaria-endemic regions, malaria is an important potential trigger.
+    Emphasize the importance of malaria prevention through consistent use of insecticide-treated bed nets, environmental vector control and adherence to antimalarial prophylaxis where prescribed.
+    Encourage adequate hydration, prompt treatment of febrile illnesses, regular clinic attendance and compliance with folic acid supplementation.
+    Advise immediate hospital presentation if the child develops worsening pallor, jaundice, dark-coloured urine, difficulty breathing, altered consciousness or reduced urine output.
+    
+    FOLLOW-UP:
+    
+    Repeat Full Blood Count and reticulocyte count 24 hours after transfusion, then as clinically indicated.
+    Repeat malaria parasite testing after completion of treatment if symptoms persist.
+    Daily review by the Paediatric Haematology team.
+    Follow-up at the Sickle Cell Clinic 1 week after discharge, then resume routine follow-up.
+    
+    PROGNOSIS:
+    
+    Good with early recognition and appropriate treatment. Prompt blood transfusion, correction of the precipitating cause such as malaria, adequate hydration and supportive care usually result in recovery. Delay in treatment may lead to severe anaemia, cardiac failure, acute kidney injury or death.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'peds-33',
+    title: 'Acute Chest Syndrome in a Child with HbSS Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Haematology',
+    condition: 'Acute Chest Syndrome',
+    symptoms: ['Fever', 'Chest pain', 'Difficulty breathing', 'Cough', 'Hypoxaemia', 'Vaso-occlusive bone pain'],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '8-year-old boy with known HbSS disease presenting with fever, cough, pleuritic chest pain, respiratory distress and hypoxaemia, consistent with acute chest syndrome likely precipitated by pulmonary infection, with associated vaso-occlusive crisis.',
+    content: `PAEDIATRIC HAEMATOLOGY
+    
+    Patient Seen
+    
+    An 8-year-old male child, weighing 24 kg, a known HbSS patient diagnosed in infancy and followed up regularly at the Paediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
+    
+    CHIEF COMPLAINT
+    
+    Fever × 2 days.
+    Chest pain × 1 day.
+    Difficulty breathing × 12 hours.
+    Cough × 2 days.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The child was apparently well until 2 days prior to presentation when he developed high-grade intermittent fever associated with chills and reduced appetite.
+    
+    He subsequently developed a dry cough, which became productive of small amounts of whitish sputum on the day of presentation.
+    
+    Approximately 24 hours prior to presentation, he developed right-sided pleuritic chest pain. The pain is sharp, worsens with coughing and deep inspiration, and is rated 8/10 in severity.
+    
+    Twelve hours prior to presentation, he developed progressively worsening difficulty breathing associated with fast breathing and inability to complete sentences comfortably.
+    
+    He also complains of generalized body pains, predominantly involving the back and both lower limbs, similar to his previous vaso-occlusive crises.
+    
+    There is no history of haemoptysis or aspiration. There is no recent surgery or prolonged immobilization. No history of cyanosis. No recent blood transfusion.
+    
+    REVIEW OF SYSTEMS
+    
+    General:
+    High-grade fever.
+    Weakness.
+    Loss of appetite.
+    Reduced activity.
+    
+    Respiratory:
+    Cough.
+    Chest pain.
+    Difficulty breathing.
+    Fast breathing.
+    No haemoptysis.
+    
+    Cardiovascular:
+    Palpitations.
+    No syncope.
+    
+    Musculoskeletal:
+    Bone pains involving the back and lower limbs.
+    
+    Gastrointestinal:
+    No vomiting.
+    No diarrhoea.
+    No abdominal pain.
+    
+    Neurological:
+    No seizures.
+    No altered consciousness.
+    
+    PAST MEDICAL HISTORY
+    
+    Known HbSS disease diagnosed in infancy.
+    History of multiple previous vaso-occlusive crises.
+    One previous blood transfusion.
+    No previous history of stroke or acute chest syndrome.
+    
+    DRUG HISTORY
+    
+    Tab. Folic Acid 5 mg orally once daily.
+    Tab. Proguanil 100 mg orally once daily.
+    Poor compliance with penicillin prophylaxis.
+    No known drug allergies.
+    
+    IMMUNIZATION HISTORY
+    
+    Fully immunized for age.
+    Received pneumococcal vaccine.
+    Received Haemophilus influenzae type b vaccine.
+    Received meningococcal vaccine.
+    Has not received the annual influenza vaccine.
+    
+    FAMILY HISTORY
+    
+    One younger sibling has HbAS.
+    
+    SOCIAL HISTORY
+    
+    Lives with both parents.
+    Attends primary school.
+    No exposure to cigarette smoke.
+    
+    GENERAL EXAMINATION
+    
+    An 8-year-old school-aged boy, conscious and alert, moderately ill-looking, moderately pale, mildly icteric and febrile.
+    He is in moderate respiratory distress with nasal flaring and intercostal recessions.
+    No peripheral oedema.
+    
+    VITAL SIGNS
+    
+    Temperature: 39.0°C
+    Pulse Rate: 142 beats/minute, regular
+    Respiratory Rate: 42 cycles/minute
+    Blood Pressure: 100/64 mmHg
+    SpO₂: 89% on room air
+    Weight: 24 kg
+    
+    SYSTEMIC EXAMINATION
+    
+    RESPIRATORY SYSTEM:
+    Moderate respiratory distress.
+    Reduced expansion of the right lower chest.
+    Dullness to percussion over the right lower lung zone.
+    Bronchial breath sounds over the right lower zone.
+    Fine inspiratory crepitations over the right lower lobe.
+    Occasional scattered wheeze.
+    
+    CARDIOVASCULAR SYSTEM:
+    
+    Tachycardic.
+    Heart sounds I and II normal.
+    No murmurs.
+    Peripheral pulses full volume.
+    
+    ABDOMEN:
+    
+    Soft and non-tender.
+    Liver palpable 2 cm below the right costal margin.
+    Spleen not palpable.
+    Normal bowel sounds.
+    
+    MUSCULOSKELETAL SYSTEM:
+    
+    Diffuse tenderness over both femora and lumbar spine.
+    No joint swelling.
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    Glasgow Coma Scale: 15/15.
+    No focal neurological deficits.
+    
+    ASSESSMENT
+    
+    Acute chest syndrome in a child with HbSS disease, likely precipitated by pulmonary infection, with associated vaso-occlusive crisis and hypoxaemia.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    1. Community-acquired pneumonia.
+    2. Pulmonary embolism.
+    3. Acute severe asthma.
+    4. Congestive cardiac failure.
+    5. Viral lower respiratory tract infection.
+    
+    INVESTIGATIONS
+    
+    Laboratory:
+    
+    1. Full Blood Count.
+    2. Reticulocyte Count.
+    3. Peripheral Blood Film.
+    4. Blood Group and Cross-match.
+    5. Serum Electrolytes, Urea and Creatinine.
+    6. Liver Function Tests.
+    7. Blood Culture.
+    8. C-Reactive Protein.
+    9. Malaria Parasite Microscopy/RDT.
+    10. Arterial Blood Gas, if available.
+    
+    Imaging:
+    
+    1. Chest X-ray (PA view).
+    
+    Expected finding: New pulmonary infiltrate involving the right lower lobe, with or without a small pleural effusion.
+    
+    Other:
+    
+    1. Continuous pulse oximetry.
+    2. Sputum microscopy and culture if productive cough persists.
+    3. Nasopharyngeal viral PCR where available.
+    
+    MANAGEMENT
+    
+    ADMISSION:
+    
+    Admit to the Paediatric High Dependency Unit or Paediatric Ward.
+    Urgent review by the Paediatric Haematology team.
+    
+    OXYGEN THERAPY:
+    
+    Administer humidified oxygen via nasal cannula at 2–4 L/min, titrating to maintain SpO₂ ≥95%.
+    Escalate to face mask or high-flow nasal oxygen if oxygen saturation remains low.
+    
+    INTRAVENOUS FLUIDS:
+    
+    Maintain adequate hydration while avoiding fluid overload.
+    Administer 0.9% Normal Saline with 5% Dextrose at approximately 60 mL/hour IV, adjusted according to maintenance requirements, oral intake and urine output.
+    Avoid excessive intravenous fluid administration due to the risk of worsening pulmonary oedema.
+    
+    ANTIBIOTICS:
+    
+    Commence empirical broad-spectrum antibiotic therapy promptly.
+    Inj. Ceftriaxone 80 mg/kg/day IV once daily.
+    
+    For this child (24 kg):
+    Ceftriaxone 2 g IV once daily.
+    
+    PLUS
+    
+    Azithromycin 10 mg/kg orally on Day 1, then 5 mg/kg once daily for the next 4 days.
+    
+    For this child:
+    Day 1: 240 mg orally once.
+    Days 2–5: 120 mg orally once daily.
+    
+    If unable to tolerate oral medication:
+    Inj. Clarithromycin 7.5 mg/kg IV every 12 hours, where available.
+    
+    ANALGESIA:
+    
+    Paracetamol 15 mg/kg orally/IV every 6 hours.
+    
+    For this child:
+    360 mg every 6 hours.
+    
+    If pain remains moderate to severe:
+    Morphine 0.1 mg/kg IV slowly every 4 hours as required.
+    
+    For this child:
+    2.4 mg IV, titrated to pain relief while monitoring respiratory status.
+    
+    Avoid pethidine because of the risk of seizures.
+    
+    BRONCHODILATOR:
+    
+    If wheezing is present:
+    Salbutamol nebulization 2.5 mg every 4–6 hours as required.
+    
+    BLOOD TRANSFUSION:
+    
+    Because of hypoxaemia and symptomatic anaemia:
+    Packed Red Blood Cells 10 mL/kg IV over 3–4 hours.
+    
+    For this child:
+    240 mL packed red blood cells over approximately 4 hours.
+    
+    If severe disease, progressive hypoxaemia or extensive pulmonary infiltrates develop, consider exchange transfusion in consultation with the Paediatric Haematologist.
+    
+    INCENTIVE SPIROMETRY:
+    
+    Encourage 10 deep breaths every 2 hours while awake using an incentive spirometer.
+    If unavailable, encourage regular deep-breathing exercises and assisted coughing.
+    
+    CONTINUE ROUTINE MEDICATIONS:
+    
+    Tab. Folic Acid 5 mg orally once daily.
+    Resume malaria prophylaxis after recovery.
+    
+    NURSING INSTRUCTIONS:
+    
+    Monitor vital signs every 2 hours until stable.
+    Maintain continuous pulse oximetry.
+    Maintain strict fluid input and output chart.
+    Monitor respiratory effort.
+    Monitor pain score.
+    Observe closely for worsening hypoxaemia or increasing oxygen requirement.
+    
+    HEALTH EDUCATION:
+    
+    The parents should be counselled that acute chest syndrome is a serious complication of sickle cell disease caused by blockage of blood vessels in the lungs, infection, or both. It can rapidly progress to respiratory failure if not treated promptly.
+    
+    Emphasize adherence to hydroxyurea therapy if prescribed, regular clinic follow-up, prompt hospital presentation for fever, adequate hydration, avoidance of extreme cold, and completion of recommended vaccinations, including annual influenza vaccination.
+    
+    Advise immediate hospital presentation if the child develops fever, chest pain, cough, difficulty breathing or reduced oxygen saturation.
+    
+    FOLLOW-UP:
+    
+    Repeat Chest X-ray in 48–72 hours if clinical improvement is inadequate.
+    Repeat Full Blood Count after transfusion and thereafter as clinically indicated.
+    Daily review by the Paediatric Haematology team.
+    Physiotherapy review for chest exercises.
+    Follow-up at the Sickle Cell Clinic 1 week after discharge.
+    Consider initiation or optimization of Hydroxyurea therapy at 15–20 mg/kg/day orally after recovery if not already prescribed, with regular Full Blood Count monitoring.
+    
+    PROGNOSIS:
+    
+    Guarded at presentation because acute chest syndrome is a potentially life-threatening complication and a major cause of morbidity and mortality in sickle cell disease. Early administration of oxygen, appropriate antibiotic therapy, adequate analgesia, incentive spirometry and timely blood transfusion can improve outcomes and reduce the risk of respiratory failure.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'peds-32',
     title: 'Sickle Cell Disease (HbSS) Routine Follow-Up in an Infant',
     specialty: 'Pediatrics',
     subSpecialty: 'Sickle Cell Clinic',
@@ -1512,13 +2637,9 @@ export const INITIAL_TEMPLATES: Template[] = [
   
   HPC:
   Infant has remained clinically stable since the last clinic visit.
-  
   There are no fresh complaints. No history of fever, excessive crying, poor feeding, difficulty breathing, cough, chest pain, swelling of hands or feet, worsening jaundice, seizures, abnormal body movements, or reduced activity.
-  
   There has been no hospital admission, blood transfusion, or emergency room visit since the last review.
-  
   Mother reports good feeding with adequate breast milk intake. Infant has adequate urine output and normal bowel habit. No vomiting or diarrhoea.
-  
   Infant is active and responsive. Immunizations are up to date. There is good compliance with prescribed medications.
   
   O/E:
@@ -1585,7 +2706,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-02',
+    id: 'peds-31',
     title: 'Sickle Cell Disease (HbSS) Routine Follow-Up in a Child',
     specialty: 'Pediatrics',
     subSpecialty: 'Sickle Cell Clinic',
@@ -1676,7 +2797,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-01',
+    id: 'peds-30',
     title: 'Sickle Cell Disease (HbSS) Routine Follow-Up',
     specialty: 'Pediatrics',
     subSpecialty: 'Sickle Cell Clinic',
@@ -1758,7 +2879,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-01',
+    id: 'peds-29',
     title: 'HbSS Disease Presenting with Dactylitis (Hand-Foot Syndrome)',
     specialty: 'Pediatrics',
     subSpecialty: 'Paediatric Haematology',
@@ -2051,7 +3172,7 @@ export const INITIAL_TEMPLATES: Template[] = [
   },
   
   {
-    id: 'peds-02',
+    id: 'peds-28',
     title: 'Acute Dentoalveolar Abscess Secondary to Dental Caries',
     specialty: 'Pediatrics',
     subSpecialty: 'Paediatric Dentistry',
@@ -2328,7 +3449,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-02',
+    id: 'peds-27',
     title: 'Non-inflammatory Tinea Capitis (Grey Patch/Black Dot Type)',
     specialty: 'Pediatrics',
     subSpecialty: 'Dermatology',
@@ -2596,7 +3717,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-03',
+    id: 'peds-26',
     title: 'Closed Displaced Mid-shaft Fracture of the Right Radius and Ulna',
     specialty: 'Pediatrics',
     subSpecialty: 'Orthopaedics',
@@ -2887,7 +4008,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-01',
+    id: 'peds-25',
     title: 'Acute Left Otitis Media',
     specialty: 'Pediatrics',
     subSpecialty: 'Paediatric Emergency / ENT',
@@ -3167,7 +4288,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-02',
+    id: 'peds-24',
     title: 'Vaso-Occlusive Crisis Secondary to Malaria or Upper Respiratory Tract Infection',
     specialty: 'Pediatrics',
     subSpecialty: 'Paediatric Haematology',
@@ -3373,7 +4494,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-01',
+    id: 'peds-23',
     title: 'Vaso-Occlusive Crisis Secondary to Uncomplicated Malaria',
     specialty: 'Pediatrics',
     subSpecialty: 'Paediatric Haematology',
@@ -3642,7 +4763,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-01',
+    id: 'peds-22',
     title: 'Non-Bullous Impetigo Contagiosa',
     specialty: 'Pediatrics',
     subSpecialty: 'General Outpatient Clinic',
@@ -3904,7 +5025,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     bookmarkCount: 0
   },
   {
-    id: 'peds-8',
+    id: 'peds-21',
     title: 'Acute Watery Diarrhoea with Suspected Cholera',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Emergencies',
@@ -4247,7 +5368,7 @@ Admit to the Children's Ward for supervised rehydration, monitoring, and reasses
     bookmarkCount: 0
   },
   {
-    id: 'peds-6',
+    id: 'peds-20',
     title: 'Acute Gastroenteritis',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Emergencies',
@@ -4543,7 +5664,7 @@ See in 3/7 for follow-up, including weight and MUAC recheck
     bookmarkCount: 0
   },
   {
-    id: 'peds-5',
+    id: 'peds-19',
     title: 'Severe Malaria with Hyperglycemia',
     specialty: 'Pediatrics',
     subSpecialty: 'Emergency Pediatrics',
@@ -4848,7 +5969,7 @@ Invite the paediatric surgical team for assessment of bilateral cryptorchidism o
     bookmarkCount: 0
   },
   {
-    id: 'peds-4',
+    id: 'peds-18',
     title: 'Severe Malaria with Severe Anemia',
     specialty: 'Pediatrics',
     subSpecialty: 'Emergency Pediatrics',
@@ -5110,7 +6231,7 @@ Review with investigation results
     bookmarkCount: 0
   },
   {
-    id: 'peds-3',
+    id: 'peds-17',
     title: 'Acute Tonsillitis',
     specialty: 'Pediatrics',
     subSpecialty: 'Otolaryngology / Pediatrics',
@@ -5379,7 +6500,7 @@ Review in ENT or paediatric clinic in 48–72 hours, or earlier if symptoms wors
     bookmarkCount: 0
   },
   {
-    id: 'peds-2',
+    id: 'peds-16',
     title: 'Neonatal Jaundice',
     specialty: 'Pediatrics',
     subSpecialty: 'Neonatology',
@@ -6002,7 +7123,7 @@ Review with investigation results and adjust plan accordingly
   },
   
 {
-  id: 'peds-01',
+  id: 'peds-15',
   title: 'Allergic Rhinitis',
   specialty: 'Pediatrics',
   subSpecialty: 'Children Outpatient Clinic',
@@ -6184,7 +7305,7 @@ Not yet available
 },
 
   {
-    id: 'peds-01',
+    id: 'peds-14',
     title: 'Acute Bacterial Conjunctivitis',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Outpatient',
@@ -6348,7 +7469,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'peds-02',
+    id: 'peds-13',
     title: 'Acute Gastroenteritis with Some Dehydration',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Emergency',
@@ -6631,7 +7752,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'peds-03',
+    id: 'peds-12',
     title: 'Acute Gastroenteritis with Some Dehydration (Infant)',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Emergency',
@@ -6914,7 +8035,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'peds-04',
+    id: 'peds-11',
     title: 'Acute Gastroenteritis with Some Dehydration and Dysentery',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Emergency',
@@ -7208,7 +8329,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'peds-05',
+    id: 'peds-10',
     title: 'Acute Bacterial Rhinosinusitis',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Outpatient',
@@ -7494,7 +8615,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'peds-06',
+    id: 'peds-09',
     title: 'Acute Group A Streptococcal Pharyngotonsillitis',
     specialty: 'Pediatrics',
     subSpecialty: 'Children Outpatient',
@@ -7789,7 +8910,7 @@ Not yet available
   },
 
 {
-  id: 'peds-05',
+  id: 'peds-08',
   title: 'Acute Bacterial Tonsillopharyngitis',
   specialty: 'Pediatrics',
   subSpecialty: 'Children Emergency',
@@ -7967,7 +9088,7 @@ Not yet available
 },
 
 {
-  id: 'peds-04',
+  id: 'peds-07',
   title: 'Uncomplicated Malaria with Mild Upper Respiratory Tract Infection',
   specialty: 'Pediatrics',
   subSpecialty: 'Children Outpatient Clinic',
@@ -8135,7 +9256,7 @@ Not yet available
 },
 
 {
-  id: 'peds-03',
+  id: 'peds-06',
   title: 'Acute Gastroenteritis with Mild Febrile Illness',
   specialty: 'Pediatrics',
   subSpecialty: 'Children Outpatient Clinic',
@@ -8274,7 +9395,7 @@ Not yet available
 },
 
 {
-  id: 'peds-02',
+  id: 'peds-05',
   title: 'Post-Viral Exanthem with Co-existing Irritant Diaper Dermatitis',
   specialty: 'Pediatrics',
   subSpecialty: 'Children Outpatient Clinic',
@@ -8423,7 +9544,7 @@ Not yet available
 },
 
 {
-  id: 'peds-01',
+  id: 'peds-04',
   title: 'Acute Exudative Tonsillopharyngitis with Mild Upper Airway Obstruction',
   specialty: 'Pediatrics',
   subSpecialty: 'Emergency Pediatric Unit',
@@ -8579,7 +9700,7 @@ Not yet available
 },
 
 {
-  id: 'peds-02',
+  id: 'peds-03',
   title: 'Acute Watery Diarrhea with Some Dehydration',
   specialty: 'Pediatrics',
   subSpecialty: 'General Outpatient Clinic',
@@ -8781,7 +9902,7 @@ Not yet available
 },
 
 {
-  id: 'peds-01',
+  id: 'peds-02',
   title: 'Moderate Viral Croup',
   specialty: 'Pediatrics',
   subSpecialty: 'Emergency Paediatrics',
@@ -9006,7 +10127,307 @@ Not yet available
 
   // Internal Medicine
   {
-    id: 'im-01',
+    id: 'im-31',
+    title: 'Acute Gouty Arthritis (Podagra)',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Rheumatology',
+    condition: 'Acute Gout',
+    symptoms: [
+      'Severe right great toe pain',
+      'Swelling of the first metatarsophalangeal joint',
+      'Joint redness and warmth',
+      'Difficulty walking',
+      'Recurrent gout attacks'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '52-year-old obese male banker with hypertension and dyslipidaemia presenting with acute severe monoarthritis of the right first metatarsophalangeal joint following dietary and alcohol indiscretion, consistent with acute gouty arthritis (podagra).',
+    content: `INTERNAL MEDICINE / RHEUMATOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 52-year-old married male banker from Abeokuta, Ogun State, Christian, Yoruba.
+  
+  Informant: Patient (Reliable)
+  
+  PC:
+  Severe pain and swelling of the right big toe × 2 days.
+  Difficulty walking × 2 days.
+  
+  HPC:
+  The patient was apparently well until two days prior to presentation when he developed sudden onset of severe pain involving the right first metatarsophalangeal (MTP) joint.
+  
+  The pain woke him from sleep and rapidly increased in intensity over a few hours. It is described as excruciating, throbbing and constant, with a severity of 10/10.
+  
+  The pain is associated with swelling, redness, warmth and marked tenderness over the affected joint. He is unable to wear shoes or bear weight comfortably on the affected foot.
+  
+  Symptoms began the morning after attending a social event where he consumed a large quantity of red meat, seafood and alcoholic beverages.
+  
+  He reports a similar but milder episode involving the left great toe about one year ago, which resolved spontaneously after a few days.
+  
+  No history of trauma.
+  No fever or chills.
+  No urethral discharge.
+  No skin rash.
+  No recent diarrhoeal illness.
+  No history of psoriasis.
+  
+  He admits to frequent consumption of beer and sugary soft drinks and a diet rich in organ meats.
+  
+  Review of Systems:
+  
+  General:
+  Severe pain.
+  Difficulty walking.
+  No fever.
+  No weight loss.
+  
+  Musculoskeletal:
+  Acute pain involving the right first MTP joint.
+  Joint swelling.
+  Marked tenderness.
+  Reduced range of movement.
+  No involvement of other joints.
+  
+  Genitourinary:
+  No dysuria.
+  No haematuria.
+  No flank pain.
+  No history of renal stones.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No vomiting.
+  
+  Cardiovascular:
+  No chest pain.
+  No palpitations.
+  Known hypertension.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Past Medical History:
+  Hypertension diagnosed 5 years ago.
+  Dyslipidaemia.
+  No diabetes mellitus.
+  No chronic kidney disease.
+  Previous episode of acute gout one year ago.
+  
+  Drug History:
+  - Tab Amlodipine 10 mg orally once daily.
+  - Tab Hydrochlorothiazide 25 mg orally once daily.
+  - Occasional Tab Diclofenac for pain.
+  
+  No known drug allergies.
+  
+  Family History:
+  Father had gout.
+  Mother has hypertension.
+  
+  Social History:
+  Consumes alcohol, mainly beer, 3–4 times weekly.
+  Sedentary lifestyle.
+  Diet rich in red meat and seafood.
+  Non-smoker.
+  
+  O/E:
+  Middle-aged man, conscious and alert.
+  Walking with an antalgic gait.
+  In obvious painful distress.
+  No pallor.
+  No jaundice.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  BP: 148/92 mmHg
+  PR: 92 bpm, regular
+  RR: 18 cpm
+  Temperature: 37.2°C
+  SpO₂: 99% in room air
+  Weight: 92 kg
+  Height: 1.74 m
+  BMI: 30.4 kg/m² (Obesity Class I)
+  
+  Musculoskeletal Examination:
+  
+  Right first metatarsophalangeal joint markedly swollen.
+  Overlying skin erythematous.
+  Joint warm to touch.
+  Marked tenderness on minimal palpation.
+  Severely restricted range of motion due to pain.
+  No discharging sinus.
+  No surrounding cellulitis.
+  Small, firm, non-tender subcutaneous nodule over the left olecranon, consistent with a possible tophus.
+  No other joint swelling.
+  
+  CVS:
+  Heart sounds I and II normal.
+  No murmurs.
+  Peripheral pulses palpable.
+  
+  Chest:
+  Clinically clear.
+  Normal vesicular breath sounds.
+  
+  Abdomen:
+  Soft and non-tender.
+  No organomegaly.
+  Normal bowel sounds.
+  
+  CNS:
+  Conscious and oriented.
+  No focal neurological deficits.
+  
+  Assessment:
+  Acute gouty arthritis (podagra) involving the right first metatarsophalangeal joint in a patient with obesity and hypertension, likely precipitated by dietary indiscretion and alcohol intake.
+  
+  Differential Diagnoses:
+  1. Septic arthritis.
+  2. Pseudogout (calcium pyrophosphate deposition disease).
+  3. Traumatic synovitis.
+  4. Cellulitis.
+  5. Reactive arthritis.
+  
+  Investigations:
+  
+  Laboratory:
+  - Full Blood Count.
+  - ESR.
+  - C-reactive protein.
+  - Serum uric acid.
+  - Serum electrolytes, urea and creatinine.
+  - Fasting blood glucose.
+  - HbA1c.
+  - Lipid profile.
+  - Urinalysis.
+  
+  Joint Aspiration:
+  If septic arthritis cannot be excluded, perform joint aspiration for:
+  - Synovial fluid cell count.
+  - Gram stain.
+  - Culture and sensitivity.
+  - Polarized light microscopy.
+  
+  Expected finding:
+  Needle-shaped, negatively birefringent monosodium urate crystals.
+  
+  Imaging:
+  - X-ray of the affected foot.
+  - Musculoskeletal ultrasound for double contour sign.
+  - Dual-energy CT, if available, in difficult diagnostic cases.
+  
+  Management:
+  
+  Acute Attack:
+  
+  NSAID (First-line if no contraindication):
+  - Tab Naproxen 500 mg orally twice daily after meals for 5–7 days.
+  OR
+  - Tab Indomethacin 50 mg orally three times daily for 2 days, then 25 mg three times daily for another 5 days.
+  OR
+  - Tab Diclofenac 50 mg orally three times daily after meals for 5 days.
+  
+  Gastric Protection:
+  - Cap Omeprazole 20 mg orally once daily while receiving NSAIDs.
+  
+  Colchicine:
+  If started within 24–36 hours:
+  - Tab Colchicine 1 mg orally immediately, followed by 0.5 mg one hour later.
+  - Then Tab Colchicine 0.5 mg orally twice daily until the attack resolves, maximum duration 5–7 days.
+  - Reduce dose in renal impairment.
+  - Avoid concomitant use with strong CYP3A4 inhibitors.
+  
+  Corticosteroids:
+  If NSAIDs or colchicine are contraindicated:
+  - Tab Prednisolone 30–40 mg orally once daily for 5 days, then discontinue or taper if used for longer.
+  OR
+  - Intra-articular Triamcinolone Acetonide 20–40 mg for monoarthritis after septic arthritis has been excluded.
+  
+  Analgesia:
+  - Tab Paracetamol 1 g orally every 6 hours as required, maximum 4 g/day.
+  
+  Urate-Lowering Therapy:
+  
+  After the acute attack has settled:
+  - Do not initiate allopurinol during an untreated acute attack.
+  - If the patient is already taking allopurinol before the flare, continue it.
+  
+  First-line:
+  - Tab Allopurinol 100 mg orally once daily.
+  - Increase every 2–4 weeks by 100 mg according to serum urate levels and renal function.
+  
+  Target serum uric acid:
+  - <6 mg/dL (360 µmol/L) for most patients.
+  - <5 mg/dL (300 µmol/L) if tophi are present.
+  
+  Maximum dose:
+  - 800 mg/day, adjusted according to renal function.
+  
+  Flare Prophylaxis During Urate-Lowering Therapy Initiation:
+  - Tab Colchicine 0.5 mg orally once daily or twice daily for 3–6 months.
+  OR
+  - Tab Naproxen 250 mg orally twice daily with proton pump inhibitor cover.
+  
+  Alternative Urate-Lowering Agents:
+  
+  If allopurinol is contraindicated or not tolerated:
+  - Tab Febuxostat 40 mg orally once daily, increasing to 80 mg daily if required.
+  - Tab Probenecid 250 mg orally twice daily, increasing gradually.
+  - Avoid probenecid in significant renal impairment or history of nephrolithiasis.
+  
+  Management of Comorbidities:
+  
+  Review antihypertensive medications.
+  
+  Consider replacing Hydrochlorothiazide, which can increase serum uric acid, with an alternative antihypertensive such as Losartan, which has mild uricosuric properties, after discussion with the managing physician.
+  
+  Encourage weight reduction and optimal blood pressure control.
+  
+  Nursing Instructions:
+  - Elevate the affected foot.
+  - Apply intermittent ice packs for 15–20 minutes every 2–3 hours during the acute phase.
+  - Assess pain score regularly.
+  - Encourage oral hydration unless contraindicated.
+  
+  Health Education:
+  Explain that gout is caused by the deposition of monosodium urate crystals within joints due to persistently elevated serum uric acid levels.
+  
+  Explain that acute attacks may be triggered by alcohol intake, dehydration, excessive consumption of red meat, organ meats, seafood, fructose-rich beverages and certain medications such as thiazide diuretics.
+  
+  Advise the patient to:
+  - Reduce alcohol intake, particularly beer and spirits.
+  - Maintain adequate hydration, aiming for 2–3 litres of water daily if there are no contraindications.
+  - Lose weight gradually.
+  - Exercise regularly.
+  - Avoid prolonged fasting.
+  
+  Recommend limiting purine-rich foods such as liver, kidney, sardines, anchovies, shellfish and large portions of red meat.
+  
+  Encourage consumption of low-fat dairy products, vegetables, whole grains and fruits with lower fructose content.
+  
+  Emphasize that urate-lowering therapy is a long-term treatment aimed at preventing recurrent attacks and joint damage. It should be taken consistently even when symptoms improve.
+  
+  Follow-up:
+  - Review in the Medical Outpatient/Rheumatology Clinic 1 week after the acute attack to assess symptom resolution.
+  - Repeat serum uric acid, renal function and liver function tests 4–6 weeks after initiating urate-lowering therapy.
+  - Monitor serum uric acid every 3 months until target levels are achieved, then every 6–12 months.
+  - Assess for recurrence of attacks, medication adherence, adverse effects and the development or resolution of tophi.
+  
+  Prognosis:
+  Excellent with appropriate treatment and sustained serum urate reduction. Long-term adherence to lifestyle modification and urate-lowering therapy significantly reduces recurrent attacks, prevents tophaceous disease, preserves joint function and lowers the risk of uric acid nephrolithiasis and chronic gouty arthropathy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-30',
     title: 'Acute Viral Myocarditis with Acute Heart Failure',
     specialty: 'Internal Medicine',
     subSpecialty: 'Cardiology',
@@ -9281,7 +10702,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-02',
+    id: 'im-29',
     title: 'Acute Decompensated Heart Failure Secondary to Hypertensive Heart Disease',
     specialty: 'Internal Medicine',
     subSpecialty: 'Cardiology',
@@ -9568,7 +10989,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-01',
+    id: 'im-28',
     title: 'Rheumatoid Arthritis with Symmetrical Polyarthritis',
     specialty: 'Internal Medicine',
     subSpecialty: 'Rheumatology Clinic',
@@ -10254,7 +11675,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-05',
+    id: 'im-27',
     title: 'Type 1 Diabetes Mellitus Routine Follow-Up',
     specialty: 'Internal Medicine',
     subSpecialty: 'Diabetes Clinic',
@@ -10357,7 +11778,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-06',
+    id: 'im-26',
     title: 'Type 2 Diabetes Mellitus with Diabetic Foot Ulcer',
     specialty: 'Internal Medicine',
     subSpecialty: 'Diabetes Clinic',
@@ -10479,7 +11900,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-02',
+    id: 'im-25',
     title: 'Hypertension Follow-Up with Bilateral Pedal Oedema',
     specialty: 'Internal Medicine',
     subSpecialty: 'Hypertension Clinic',
@@ -10590,7 +12011,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-03',
+    id: 'im-24',
     title: 'Uncontrolled Hypertension on Monotherapy Follow-Up',
     specialty: 'Internal Medicine',
     subSpecialty: 'Hypertension Clinic',
@@ -10692,7 +12113,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-04',
+    id: 'im-23',
     title: 'Type 2 Diabetes Mellitus Routine Follow-Up',
     specialty: 'Internal Medicine',
     subSpecialty: 'Diabetes Clinic',
@@ -10809,7 +12230,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-01',
+    id: 'im-22',
     title: 'Hypertension Routine Follow-Up',
     specialty: 'Internal Medicine',
     subSpecialty: 'Hypertension Clinic',
@@ -10894,7 +12315,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-01',
+    id: 'im-21',
     title: 'Sickle Cell Anaemia in Steady State Follow-up',
     specialty: 'Internal Medicine',
     subSpecialty: 'Hematology Clinic',
@@ -11038,7 +12459,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-01',
+    id: 'im-20',
     title: 'HbSC Disease with Uncomplicated Vaso-Occlusive Crisis',
     specialty: 'Internal Medicine',
     subSpecialty: 'Haematology',
@@ -11302,7 +12723,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-01',
+    id: 'im-19',
     title: 'Acute Viral Labyrinthitis',
     specialty: 'Internal Medicine',
     subSpecialty: 'ENT / Neurology',
@@ -11563,7 +12984,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-04',
+    id: 'im-18',
     title: 'Acute Chest Syndrome',
     specialty: 'Internal Medicine',
     subSpecialty: 'Haematology',
@@ -11769,7 +13190,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-03',
+    id: 'im-17',
     title: 'Uncomplicated Vaso-Occlusive Crisis',
     specialty: 'Internal Medicine',
     subSpecialty: 'Haematology',
@@ -12054,7 +13475,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-01',
+    id: 'im-16',
     title: "Probable Alzheimer's Disease",
     specialty: 'Internal Medicine',
     subSpecialty: 'Neurology Clinic',
@@ -12331,7 +13752,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-02',
+    id: 'im-15',
     title: 'Early-Onset Dementia',
     specialty: 'Internal Medicine',
     subSpecialty: 'Neurology Clinic',
@@ -12538,7 +13959,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'im-4',
+    id: 'im-14',
     title: 'Newly Diagnosed Hypertension with Chronic Epigastric Discomfort',
     specialty: 'Internal Medicine',
     subSpecialty: 'Cardiology Clinic',
@@ -12786,7 +14207,7 @@ Review in 4 weeks: reassess blood pressure on combination therapy, review H. pyl
     bookmarkCount: 0
   },
   {
-    id: 'im-2',
+    id: 'im-13',
     title: 'Acute Left Hemispheric Stroke',
     specialty: 'Internal Medicine',
     subSpecialty: 'Neurology Unit',
@@ -13080,7 +14501,7 @@ Counsel family on diagnosis, severity, and the plan pending imaging results.
     bookmarkCount: 0
   },
   {
-    id: 'im-1',
+    id: 'im-12',
     title: 'Acute STEMI',
     specialty: 'Internal Medicine',
     subSpecialty: 'Cardiology Clinic',
@@ -13346,7 +14767,7 @@ Counsel patient and family on diagnosis, the rationale for urgent angiography de
     bookmarkCount: 0
   },
 {
-  id: 'im-01',
+  id: 'im-11',
   title: 'Acute Gastroenteritis with Moderate Dehydration',
   specialty: 'Internal Medicine',
   subSpecialty: 'Medical Emergency',
@@ -13495,7 +14916,7 @@ Not yet available
 },
 
 {
-  id: 'im-01',
+  id: 'im-10',
   title: 'Breakthrough Seizures Secondary to Medication Non-Compliance',
   specialty: 'Internal Medicine',
   subSpecialty: 'Accident and Emergency',
@@ -13633,7 +15054,7 @@ Not yet available
 },
 
   {
-    id: 'im-03',
+    id: 'im-09',
     title: 'Transient Ischemic Attack Secondary to Poorly Controlled Hypertension',
     specialty: 'Internal Medicine',
     subSpecialty: 'Neurology',
@@ -13826,7 +15247,7 @@ Not yet available
   },
 
 {
-  id: 'im-02',
+  id: 'im-08',
   title: 'Migraine with Aura',
   specialty: 'Internal Medicine',
   subSpecialty: 'Neurology Clinic',
@@ -14075,7 +15496,7 @@ Not yet available
 },
 
 {
-  id: 'im-01',
+  id: 'im-07',
   title: 'Migraine with Visual Aura',
   specialty: 'Internal Medicine',
   subSpecialty: 'Neurology Clinic',
@@ -23342,7 +24763,7 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
-  id: 'ob-05',
+  id: 'ob-26',
   title: 'Routine Antenatal Follow-Up (Term Pregnancy)',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -23458,7 +24879,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-06',
+  id: 'ob-25',
   title: 'Postnatal Clinic Review (Day 2) – Mother and Healthy Term Neonate',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Postnatal Clinic',
@@ -23607,7 +25028,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-07',
+  id: 'ob-24',
   title: 'Postnatal Clinic Review (Day 4) – Mother and Healthy Term Neonate',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Postnatal Clinic',
@@ -23765,7 +25186,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-08',
+  id: 'ob-23',
   title: 'Postnatal Clinic Review (Day 6) – Mother and Healthy Term Neonate',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Postnatal Clinic',
@@ -23921,7 +25342,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-02',
+  id: 'ob-22',
   title: 'Routine Antenatal Follow-Up (First Trimester)',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -24017,7 +25438,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-03',
+  id: 'ob-21',
   title: 'Routine Antenatal Follow-Up (Second Trimester)',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -24114,7 +25535,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-04',
+  id: 'ob-20',
   title: 'Routine Antenatal Follow-Up (Third Trimester)',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -24215,7 +25636,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-01',
+  id: 'ob-19',
   title: 'Antenatal Booking Visit (Low-Risk Singleton Pregnancy)',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -24329,7 +25750,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-04',
+  id: 'ob-18',
   title: 'Active Phase of the First Stage of Labour',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Labour Ward',
@@ -24514,7 +25935,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-01',
+  id: 'ob-17',
   title: 'Routine Day 3 Postnatal Review',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Postnatal Clinic',
@@ -24820,7 +26241,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-05',
+  id: 'ob-16',
   title: 'Vulvovaginal Candidiasis in Pregnancy',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -24992,7 +26413,7 @@ Not yet available
 },
 
 {
-  id: 'ob-04',
+  id: 'ob-15',
   title: 'Hyperemesis Gravidarum',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -25152,7 +26573,7 @@ Not yet available
 },
 
 {
-  id: 'ob-03',
+  id: 'ob-14',
   title: 'Chronic Pelvic Pain for Evaluation',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynae Clinic',
@@ -25309,7 +26730,7 @@ Not yet available
 },
 
 {
-  id: 'ob-02',
+  id: 'ob-13',
   title: 'Ruptured Ectopic Pregnancy with Hypovolemic Shock',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynae Emergency',
@@ -25483,7 +26904,7 @@ Not yet available
 },
 
 {
-  id: 'ob-01',
+  id: 'ob-12',
   title: 'Unruptured Right Ectopic Pregnancy',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynae Emergency',
@@ -25656,7 +27077,7 @@ Not yet available
 },
 
 {
-    id: 'ob-02',
+    id: 'ob-11',
     title: 'Hyperemesis Gravidarum with Moderate Dehydration',
     specialty: 'Obstetrics and Gynecology',
     subSpecialty: 'Gynaecology Ward',
@@ -25829,7 +27250,7 @@ Not yet available
     },
     
 {
-  id: 'ob-01',
+  id: 'ob-10',
   title: 'Stress Urinary Incontinence in Pregnancy Secondary to Pelvic Floor Dysfunction',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Antenatal Clinic',
@@ -25950,7 +27371,7 @@ Not yet available
 },
 
 {
-    id: 'ob-03',
+    id: 'ob-09',
     title: 'Polyendocrine Metabolic Ovarian Syndrome with Primary Infertility',
     specialty: 'Obstetrics and Gynecology',
     subSpecialty: 'Gynae Clinic',
@@ -26085,7 +27506,7 @@ Not yet available
   },
 
   {
-    id: 'ob-04',
+    id: 'ob-08',
     title: 'Premature Ovarian Insufficiency',
     specialty: 'Obstetrics and Gynecology',
     subSpecialty: 'Gynae Clinic',
@@ -26225,7 +27646,7 @@ Not yet available
     bookmarkCount: 0
   },
   {
-    id: 'ob-02',
+    id: 'ob-07',
     title: 'Polyendocrine Metabolic Ovarian Syndrome (PMOS)',
     specialty: 'Obstetrics and Gynecology',
     subSpecialty: 'Gynae Clinic',
@@ -26450,7 +27871,7 @@ Not yet available
     },
     
 {
-    id: 'ob-03',
+    id: 'ob-06',
     title: 'Polycystic Ovary Syndrome with Primary Infertility',
     specialty: 'Obstetrics and Gynecology',
     subSpecialty: 'Gynae Clinic',
@@ -26584,7 +28005,7 @@ Not yet available
     bookmarkCount: 0
   },
 {
-  id: 'ob-01',
+  id: 'ob-05',
   title: 'Missed Miscarriage',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynae Emergency',
@@ -26856,7 +28277,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-01',
+  id: 'ob-04',
   title: 'Symptomatic Uterine Fibroids with Menorrhagia',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Gynae Emergency',
@@ -27015,7 +28436,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'ob-02',
+  id: 'ob-03',
   title: 'Latent Phase of Labour',
   specialty: 'Obstetrics and Gynecology',
   subSpecialty: 'Labour Ward',
@@ -27520,7 +28941,7 @@ Not yet available
 
 // Surgery
 {
-  id: 'surg-01',
+  id: 'surg-23',
   title: 'Haemotoxic Snake Bite Envenomation',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery',
@@ -27835,7 +29256,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-02',
+  id: 'surg-22',
   title: 'Scorpion Sting with Local Envenomation',
   specialty: 'Surgery',
   subSpecialty: 'Emergency Surgery',
@@ -28141,7 +29562,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-03',
+  id: 'surg-21',
   title: 'Neurotoxic Snake Bite Envenomation with Respiratory Failure Risk',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery',
@@ -28504,7 +29925,319 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-02',
+  id: 'surg-20',
+  title: 'Bilateral Primary Knee Osteoarthritis',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics',
+  condition: 'Knee Osteoarthritis',
+  symptoms: [
+    'Bilateral knee pain',
+    'Progressive difficulty walking',
+    'Morning stiffness',
+    'Knee swelling',
+    'Crepitus',
+    'Reduced range of motion'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-19',
+  summary: '58-year-old overweight female trader presenting with chronic bilateral knee pain, stiffness, crepitus and progressive functional limitation, consistent with primary knee osteoarthritis, worse on the right.',
+  content: `
+ORTHOPAEDIC CLINIC
+
+Patient Seen
+
+A 58-year-old married female trader from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+
+Informant: Patient (Reliable)
+
+PC:
+Bilateral knee pain × 3 years.
+Progressive difficulty walking × 8 months.
+Morning stiffness × 6 months.
+
+HPC:
+The patient was apparently well until about three years ago when she developed gradual onset pain in both knees, worse in the right knee.
+
+The pain is dull, aching and localized mainly to the medial aspect of both knees. It was initially intermittent but has progressively become persistent over the past year.
+
+The pain is aggravated by prolonged standing, walking long distances, climbing stairs, squatting and rising from a sitting position. It is partially relieved by rest and oral analgesics.
+
+She reports early morning stiffness lasting approximately 15–20 minutes, which improves with movement. She also experiences stiffness after prolonged sitting.
+
+Over the past eight months, she has developed increasing difficulty walking and now requires frequent rest while shopping. She occasionally feels that the knees "give way" but denies true locking.
+
+There is intermittent swelling of both knees, particularly after prolonged activity.
+
+She reports an audible grating sensation (crepitus) during knee movement.
+
+No history of significant trauma.
+No fever.
+No redness of the joints.
+No pain involving the small joints of the hands.
+No history of psoriasis, gout or inflammatory arthritis.
+
+She has been taking over-the-counter diclofenac tablets intermittently with temporary relief.
+
+Review of Systems:
+
+General:
+Difficulty walking.
+Reduced physical activity.
+Weight gain over the past few years.
+No fever or weight loss.
+
+Musculoskeletal:
+Bilateral knee pain.
+Joint stiffness.
+Intermittent knee swelling.
+Crepitus.
+Difficulty climbing stairs.
+No involvement of other major joints.
+
+Cardiovascular:
+Known hypertension.
+No chest pain or palpitations.
+
+Respiratory:
+No cough or dyspnoea.
+
+Gastrointestinal:
+No abdominal pain or vomiting.
+
+Neurological:
+No limb weakness or numbness.
+
+Past Medical History:
+Hypertension diagnosed 6 years ago.
+No diabetes mellitus.
+No rheumatoid arthritis.
+No previous fractures.
+
+Drug History:
+- Tab Amlodipine 10 mg orally once daily.
+- Occasional Tab Diclofenac 50 mg orally.
+
+No known drug allergies.
+
+Family History:
+Mother had osteoarthritis of both knees.
+No family history of rheumatoid arthritis.
+
+Social History:
+Lives with her husband.
+Works as a trader requiring prolonged standing.
+Non-smoker.
+Does not consume alcohol.
+Limited exercise due to knee pain.
+
+O/E:
+Middle-aged woman, conscious and alert.
+Walks with an antalgic gait.
+Overweight.
+No pallor.
+No jaundice.
+No cyanosis.
+No pedal oedema.
+
+Vital Signs:
+BP: 136/84 mmHg
+PR: 82 bpm, regular
+RR: 18 cpm
+Temperature: 36.8°C
+SpO₂: 99% in room air
+Weight: 84 kg
+Height: 1.62 m
+BMI: 32.0 kg/m² (Obesity Class I)
+
+Musculoskeletal Examination:
+
+Gait:
+Antalgic gait favouring the right lower limb.
+
+Knees:
+Mild varus deformity of both knees.
+Small bilateral knee effusions.
+No erythema.
+No increased local warmth.
+Medial joint line tenderness bilaterally, worse on the right.
+Coarse crepitus palpable during flexion and extension.
+
+Range of Motion:
+Right knee: 10–105°.
+Left knee: 5–115°.
+Terminal flexion is painful.
+
+Mild quadriceps muscle wasting.
+
+Collateral and cruciate ligaments stable.
+McMurray's test negative.
+Patellar grind test mildly positive.
+Distal neurovascular examination normal.
+
+CVS:
+Heart sounds I and II normal.
+No murmurs.
+
+Chest:
+Clear.
+Normal vesicular breath sounds.
+
+Abdomen:
+Soft and non-tender.
+No organomegaly.
+Normal bowel sounds.
+
+CNS:
+Conscious and oriented.
+No focal neurological deficits.
+
+Assessment:
+Bilateral primary knee osteoarthritis (right worse than left), Kellgren-Lawrence Grade II–III clinically, with moderate functional limitation and obesity.
+
+Differential Diagnoses:
+1. Rheumatoid arthritis.
+2. Gouty arthritis.
+3. Calcium pyrophosphate deposition disease (pseudogout).
+4. Chronic meniscal injury.
+5. Septic arthritis (unlikely).
+
+Investigations:
+
+Laboratory:
+- Full Blood Count.
+- ESR.
+- C-reactive protein.
+- Serum uric acid.
+- Serum electrolytes, urea and creatinine.
+- Fasting blood glucose.
+- Lipid profile.
+- Vitamin D level if clinically indicated.
+
+Imaging:
+
+Weight-bearing X-ray of both knees (AP, lateral and skyline views).
+
+Expected findings:
+- Medial joint space narrowing.
+- Marginal osteophytes.
+- Subchondral sclerosis.
+- Mild subchondral cysts.
+- Varus alignment.
+
+MRI:
+Not routinely indicated unless internal derangement is suspected.
+
+Management:
+
+Non-Pharmacological Management:
+
+Weight Reduction:
+- Advise gradual weight loss with a target of 5–10% of body weight over 6–12 months.
+- Explain that weight reduction can significantly reduce knee pain and improve function.
+
+Exercise Programme:
+Refer to Physiotherapy for:
+- Quadriceps strengthening exercises.
+- Hamstring stretching.
+- Range-of-motion exercises.
+- Low-impact aerobic exercises such as walking on level ground, cycling or swimming.
+- Gait training.
+
+Assistive Devices:
+- Use a walking stick in the hand opposite the more painful knee.
+- Consider a knee brace if instability is present.
+- Avoid prolonged standing, squatting, kneeling and heavy lifting.
+
+Pharmacological Management:
+
+First-line Analgesia:
+- Tab Paracetamol 1 g orally every 6 hours as required (maximum 4 g/day).
+
+Topical NSAID (Preferred Initial Therapy):
+- Diclofenac 1% gel.
+- Apply 2–4 g to each affected knee four times daily.
+
+Oral NSAIDs (if pain persists and no contraindications):
+- Tab Naproxen 500 mg orally twice daily after meals for 7–14 days.
+OR
+- Tab Celecoxib 200 mg orally once daily.
+OR
+- Tab Diclofenac 50 mg orally three times daily after meals for short-term use only.
+
+Gastric Protection:
+- Cap Omeprazole 20 mg orally once daily while taking oral NSAIDs.
+
+If Persistent Moderate Pain:
+- Tab Tramadol 50 mg orally every 8–12 hours as required, maximum 400 mg/day, for short-term use only.
+- Avoid long-term opioid therapy.
+
+Intra-articular Therapy:
+If symptoms persist despite conservative management:
+- Triamcinolone Acetonide 40 mg intra-articular injection under aseptic conditions.
+- Repeat injections should generally not exceed 3–4 times per year in the same joint.
+
+Supplements:
+Routine glucosamine or chondroitin supplementation is not recommended due to inconsistent evidence of benefit.
+
+Surgical Options:
+
+Refer to Orthopaedic Surgery if:
+- Severe persistent pain despite optimal conservative management.
+- Significant functional limitation.
+- Advanced radiographic osteoarthritis.
+
+Possible procedures include:
+- High tibial osteotomy in selected patients.
+- Unicompartmental knee replacement.
+- Total knee arthroplasty.
+
+Nursing Instructions:
+- Assess pain using a visual analogue scale.
+- Encourage adherence to physiotherapy.
+- Monitor for NSAID adverse effects.
+- Educate on correct use of walking aids.
+
+Health Education:
+Explain that osteoarthritis is a chronic degenerative joint disease caused by gradual loss of cartilage, resulting in pain, stiffness and reduced mobility. It is not primarily an inflammatory or infectious condition.
+
+Emphasize that regular exercise is one of the most effective treatments and that avoiding all movement may worsen symptoms.
+
+Encourage daily strengthening and flexibility exercises as prescribed by the physiotherapist.
+
+Advise gradual weight reduction, explaining that even modest weight loss can significantly reduce stress on the knees and improve pain and function.
+
+Recommend supportive footwear with cushioned soles.
+
+Advise avoidance of prolonged standing, squatting, kneeling and carrying heavy loads.
+
+Seek medical attention if she develops:
+- Sudden severe knee swelling.
+- Redness.
+- Fever.
+- Inability to bear weight.
+- Rapidly worsening pain.
+
+These symptoms may indicate another diagnosis such as septic arthritis or crystal arthropathy.
+
+Follow-up:
+- Review in Orthopaedic or Family Medicine Clinic in 4 weeks to assess pain control, functional improvement and medication tolerance.
+- Review physiotherapy progress after 6 weeks.
+- Monitor renal function and blood pressure periodically if prolonged NSAID therapy is required.
+- Repeat weight-bearing knee radiographs if there is significant clinical deterioration or when surgical intervention is being considered.
+- Refer for orthopaedic assessment if pain remains severe despite optimized medical management or if there is progressive deformity and loss of function.
+
+Prognosis:
+Good with adherence to weight reduction, structured exercise therapy and appropriate analgesia. Although osteoarthritis is a chronic progressive condition, early lifestyle modification, physiotherapy and timely medical intervention can substantially reduce pain, improve mobility and delay the need for joint replacement surgery.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-19',
   title: 'Grade IV Internal Haemorrhoids with Irreducible Prolapse',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery Clinic',
@@ -28808,7 +30541,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-03',
+  id: 'surg-18',
   title: 'Chronic Anal Fissure',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery Clinic',
@@ -29060,7 +30793,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-04',
+  id: 'surg-17',
   title: 'Acute Bacterial Prostatitis',
   specialty: 'Surgery',
   subSpecialty: 'Urology Clinic',
@@ -29473,7 +31206,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-05',
+  id: 'surg-16',
   title: 'Suspected Advanced Prostate Cancer with Bone Metastasis',
   specialty: 'Surgery',
   subSpecialty: 'Urology Clinic',
@@ -29924,7 +31657,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-06',
+  id: 'surg-15',
   title: 'Symptomatic Benign Prostatic Hyperplasia',
   specialty: 'Surgery',
   subSpecialty: 'Urology Clinic',
@@ -30355,7 +32088,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-14',
   title: 'Grade II Internal Haemorrhoids',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery Clinic',
@@ -30639,7 +32372,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-13',
   title: 'Multiple Soft Tissue Injuries Following Road Traffic Accident',
   specialty: 'Surgery',
   subSpecialty: 'Trauma and Emergency Surgery',
@@ -31066,7 +32799,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-02',
+  id: 'surg-12',
   title: 'Acute Alcohol-Induced Pancreatitis',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery',
@@ -31363,7 +33096,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-03',
+  id: 'surg-11',
   title: 'Acute Calculous Cholecystitis',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery',
@@ -31654,7 +33387,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-10',
   title: 'Perforated Duodenal Ulcer with Generalized Peritonitis',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery',
@@ -31949,7 +33682,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-09',
   title: 'Gustilo-Anderson Grade II Open Fracture of the Left Tibia and Fibula',
   specialty: 'Surgery',
   subSpecialty: 'Orthopaedics',
@@ -32286,7 +34019,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-08',
   title: 'Acute Right Knee Injury (Grade II MCL Sprain)',
   specialty: 'Surgery',
   subSpecialty: 'Orthopaedics and Trauma',
@@ -32554,7 +34287,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-02',
+  id: 'surg-07',
   title: 'Primary Osteoarthritis of the Left Knee',
   specialty: 'Surgery',
   subSpecialty: 'Orthopaedics and Trauma',
@@ -32842,7 +34575,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-02',
+  id: 'surg-06',
   title: 'Symptomatic Cholelithiasis (Biliary Colic)',
   specialty: 'Surgery',
   subSpecialty: 'General Surgery Clinic',
@@ -33112,7 +34845,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-05',
   title: 'Mild Traumatic Brain Injury with Facial Laceration',
   specialty: 'Surgery',
   subSpecialty: 'Accident & Emergency',
@@ -33463,7 +35196,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'surg-01',
+  id: 'surg-04',
   title: 'Superficial Partial-Thickness Contact Burn of the Left Calf',
   specialty: 'Surgery',
   subSpecialty: 'Accident and Emergency',
@@ -33611,7 +35344,7 @@ Not yet available
 },
 
 {
-  id: 'surg-01',
+  id: 'surg-03',
   title: 'Mechanical Chronic Low Back Pain Secondary to Lumbar Spondylosis',
   specialty: 'Surgery',
   subSpecialty: 'Outpatient Clinic',

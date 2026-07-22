@@ -18,7 +18,6 @@ const Explanation: React.FC<{ text: string }> = ({ text }) => {
                 {sections.map((section, index) => {
                     const lines = section.trim().split('\n');
                     
-                    // Check for markdown table
                     if (lines.length > 1 && lines[0].includes('|') && lines[1].includes('---')) {
                         const headers = lines[0].split('|').slice(1, -1).map(h => h.trim());
                         const rowsData = lines.slice(2).map(l => l.split('|').slice(1, -1).map(c => c.trim()));
@@ -137,8 +136,12 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
         setShowExplanation(false);
         const defaultInputs: { [key: string]: any } = {};
         calculator.inputs.forEach(input => {
-            if (input.type === 'select' && input.options) {
+            if (input.name === 'Current Date') {
+                defaultInputs[input.name] = new Date().toLocaleDateString('en-CA');
+            } else if (input.type === 'select' && input.options) {
                 defaultInputs[input.name] = input.options[0];
+            } else {
+                defaultInputs[input.name] = '';
             }
         });
         setInputs(defaultInputs);
@@ -152,7 +155,32 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
     }
 
     const handleInputChange = (name: string, value: any) => {
-        setInputs(prev => ({ ...prev, [name]: value }));
+        setInputs(prev => {
+            const newInputs = { ...prev, [name]: value };
+
+            if (selectedCalculator?.name === 'Obstetrics Calculator') {
+                if (name === 'Last Menstrual Period' && value) {
+                    newInputs['Estimated Due Date'] = '';
+                    newInputs['Ultrasound Date'] = '';
+                    newInputs['EGA at Scan (Weeks)'] = '';
+                    newInputs['EGA at Scan (Days)'] = '';
+                } else if (name === 'Estimated Due Date' && value) {
+                    newInputs['Last Menstrual Period'] = '';
+                    newInputs['Ultrasound Date'] = '';
+                    newInputs['EGA at Scan (Weeks)'] = '';
+                    newInputs['EGA at Scan (Days)'] = '';
+                } else if (name === 'Ultrasound Date') {
+                    if (value) {
+                        newInputs['Last Menstrual Period'] = '';
+                        newInputs['Estimated Due Date'] = '';
+                    } else {
+                        newInputs['EGA at Scan (Weeks)'] = '';
+                        newInputs['EGA at Scan (Days)'] = '';
+                    }
+                }
+            }
+            return newInputs;
+        });
     };
 
     const handleCalculate = () => {
@@ -261,7 +289,23 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                             ) : (
                             <>
                                 <div className="space-y-3.5">
-                                    {selectedCalculator.inputs.map(input => (
+                                    {selectedCalculator.inputs.map(input => {
+                                        let isDisabled = false;
+                                        if (selectedCalculator.name === 'Obstetrics Calculator') {
+                                            const lmpIsFilled = !!inputs['Last Menstrual Period'];
+                                            const eddIsFilled = !!inputs['Estimated Due Date'];
+                                            const usDateIsFilled = !!inputs['Ultrasound Date'];
+
+                                            if (input.type === 'date' && input.name !== 'Current Date') {
+                                                if (input.name === 'Last Menstrual Period') isDisabled = eddIsFilled || usDateIsFilled;
+                                                else if (input.name === 'Estimated Due Date') isDisabled = lmpIsFilled || usDateIsFilled;
+                                                else if (input.name === 'Ultrasound Date') isDisabled = lmpIsFilled || eddIsFilled;
+                                            } else if (input.type === 'number') {
+                                                isDisabled = !usDateIsFilled || lmpIsFilled || eddIsFilled;
+                                            }
+                                        }
+
+                                        return (
                                         <div key={input.name}>
                                             <label className="font-medium text-slate-600 dark:text-slate-300 mb-1.5 block text-xs">{input.name}</label>
                                             {input.type === 'number' && (
@@ -274,6 +318,7 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                                         value={inputs[input.name] || ''}
                                                         onChange={(e) => handleInputChange(input.name, e.target.value === '' ? '' : parseFloat(e.target.value))}
                                                         className="w-full px-4 py-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 rounded-xl text-xs font-semibold border border-slate-200 dark:border-slate-700 focus:border-indigo-500 focus:ring-0 focus:outline-none transition-colors pr-10 text-center [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                                                        disabled={isDisabled}
                                                     />
                                                     {input.unit && <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs text-slate-400 dark:text-slate-500 pointer-events-none">{input.unit}</span>}
                                                 </div>
@@ -281,8 +326,10 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                              {input.type === 'date' && (
                                                 <input
                                                     type="date"
+                                                    value={inputs[input.name] || ''}
                                                     onChange={(e) => handleInputChange(input.name, e.target.value)}
                                                     className="w-full p-2 text-xs bg-white dark:bg-slate-900 rounded-md border border-slate-200 dark:border-slate-700 focus:border-indigo-500 focus:ring-0 focus:outline-none transition-colors"
+                                                    disabled={isDisabled}
                                                 />
                                             )}
                                             {input.type === 'select' && input.options && (
@@ -329,7 +376,8 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                                 </label>
                                             )}
                                         </div>
-                                    ))}
+                                        )
+                                    })}
                                 </div>
 
                                 <button onClick={handleCalculate} className="mt-5 w-full py-2.5 bg-indigo-950 hover:bg-black text-white rounded-lg font-bold shadow-md transition-all active:scale-95 text-xs">Calculate</button>
@@ -341,7 +389,11 @@ const ClerklyCalculator: React.FC<ClerklyCalculatorProps> = ({ onClose }) => {
                                             <p className={`text-xl font-bold ${result.color || 'text-slate-800 dark:text-slate-100'}`}>{result.result}</p>
                                         </div>
                                         <p className={`text-xs font-semibold mt-1 ${result.color || 'text-slate-800 dark:text-slate-100'}`}>{result.interpretation}</p>
-                                        {result.recommendation && <p className="text-xs text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">{result.recommendation}</p>}
+                                        {result.recommendation && 
+                                            <div className="text-xs text-slate-500 dark:text-slate-400 mt-2 leading-relaxed whitespace-pre-wrap">
+                                                {result.recommendation.split('\n\n').map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+                                            </div>
+                                        }
                                         {result.redFlag && 
                                         <div className="mt-2.5 bg-red-50 dark:bg-red-950/30 p-2 rounded-md">
                                             <p className="text-xs text-red-600 dark:text-red-400 font-medium"><i className="fa-solid fa-triangle-exclamation mr-1.5"></i> {result.redFlag}</p>

@@ -16,6 +16,265 @@ export interface LearningModule {
 }
 
 export const clerklyLearnLibrary: LearningModule[] = [
+// HISTORY TAKING
+{
+  id: 'history-taking-internal-medicine',
+  title: 'History Taking in Internal Medicine',
+  category: 'History Taking',
+  subCategory: 'General Approach',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>History Taking in Internal Medicine</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">History Taking in Internal Medicine</h1>
+  <p class="text-sm text-indigo-200">The answer to a patient's problem lies in the history in roughly 90% of cases, with examination and investigation accounting for the rest. This guide walks through the full structure - biodata to review of systems - with the framework, the reasoning behind each section, and a worked example bringing it all together into a presentable case summary.</p>
+</div>
+</div>
+
+<!-- 1. Introduction -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction and General Principles
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>History-taking is the crucial first step in reaching a diagnosis - the history alone points to the answer in the large majority of cases, with physical examination and investigations filling in the remainder.</li>
+  <li>In an emergency, resuscitation always precedes history-taking. Stabilise first, and take a focused history in parallel with or immediately after initial resuscitation, not before it.</li>
+  <li>A structured sequence prevents important sections being skipped under time pressure, particularly on a busy ward round or in a crowded emergency unit.</li>
+</ul>
+</div>
+
+<!-- 2. Biodata -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Biodata
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Name, age, sex, occupation, religion, address, tribe, and the informant - specifically noted where the patient is unconscious or otherwise unable to give a reliable history themselves.</p>
+<p class="text-sm">Occupation and address are not throwaway details - they carry diagnostic weight. A patient's occupation can point toward specific exposure risks, and address can flag proximity to an outbreak area or a community with a known endemic pattern (goitre-prone areas, recent cholera clusters, and so on).</p>
+</div>
+
+<!-- 3. Presenting Complaint -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Presenting Complaint
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>This is the main reason the patient came to hospital, and should be recorded in the patient's own words wherever possible, rather than translated into medical terminology at this stage.</li>
+  <li>Complaints should be arranged in chronological order, from the first symptom to the most recent.</li>
+  <li>There should not be more than five presenting complaints. If the disease has already been diagnosed, this may be stated directly as part of the complaint.</li>
+</ul>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">Example: "A known hypertensive patient presented on account of breathlessness of 5 days duration and cough of 3 days duration."</p>
+</div>
+
+<!-- 4. HPC -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+History of Presenting Complaint (The 5 Cs)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Characterise</span> each symptom - onset, site, character, severity, radiation, timing, and aggravating/relieving factors, as relevant to the symptom in question.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Course</span> - the progression of the symptom, i.e. whether it has worsened, improved, or stayed the same since onset.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cause</span> - ask questions related to the differentials, specifically to help identify the most likely diagnosis rather than asking generic questions unrelated to what you actually suspect.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Complications</span> - questions related to the complications of the most likely diagnosis, and how the symptom has affected the patient's quality of life.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Care given so far</span> - including care given at home, at a referral centre, and since admission.</li>
+</ol>
+</div>
+
+<!-- 5. PMH -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Past Medical History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>History of similar illness in the past.</li>
+  <li>History of chronic diseases - e.g. diabetes mellitus, sickle cell disease, hypertension, asthma, seizure disorder.</li>
+  <li>History of previous hospital admission, blood transfusion, or surgery.</li>
+  <li>Gynaecological history where relevant, including last menstrual period.</li>
+</ul>
+</div>
+
+<!-- 6. Family History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Family History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Position of the patient in the family.</li>
+  <li>Type of family - monogamous or polygamous, which is directly relevant when tracing hereditary and genetic risk within a Nigerian household structure.</li>
+  <li>History of similar illness in the family - e.g. diabetes mellitus, sickle cell disease, hypertension, asthma, seizure disorder.</li>
+  <li>History of chronic disease in the family, and history of atopy.</li>
+</ul>
+</div>
+
+<!-- 7. Social History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Social History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Marital status, number of children, educational level, and occupation.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cigarette Smoking</strong>
+  <p class="text-sm">Report the type of cigarette, and quantify exposure in pack-years:</p>
+  <p class="text-sm bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 p-3 mt-2 sans">Pack-years = (sticks smoked per day &divide; 20) &times; number of years smoked</p>
+  <p class="text-sm mt-2 italic">Example: a patient who smoked 5 cigarettes/day for 4 years has a pack-year history of (5/20) &times; 4 = 1 pack-year.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Alcohol Consumption</strong>
+  <p class="text-sm">Ask when the patient started drinking, the type of alcohol, and estimate the amount in grams or units. Report the amount taken per sitting, number of times per week, and number of years the patient has been drinking. If the patient has stopped, ask when and why.</p>
+  <div class="overflow-x-auto mt-3">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Drink</th>
+          <th class="py-2 pr-3 font-medium">Alcohol % by volume</th>
+          <th class="py-2 pr-3 font-medium">Measure (mL)</th>
+          <th class="py-2 font-medium">Alcohol units</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Beer</td><td class="py-2 pr-3">4-5%</td><td class="py-2 pr-3">330</td><td class="py-2">1</td></tr>
+        <tr><td class="py-2 pr-3">Stout</td><td class="py-2 pr-3">6%</td><td class="py-2 pr-3">330</td><td class="py-2">1.8</td></tr>
+        <tr><td class="py-2 pr-3">Wine</td><td class="py-2 pr-3">9-14%</td><td class="py-2 pr-3">125 / 750</td><td class="py-2">1.5 / 6.8-10.5</td></tr>
+        <tr><td class="py-2 pr-3">Gin/rum</td><td class="py-2 pr-3">37.5%</td><td class="py-2 pr-3">25 / 750</td><td class="py-2">1 / 26.3</td></tr>
+        <tr><td class="py-2 pr-3">Fresh palm wine</td><td class="py-2 pr-3">&le; 4%</td><td class="py-2 pr-3">1 calabash (400-500 mL)</td><td class="py-2">1</td></tr>
+        <tr><td class="py-2 pr-3">Spirit</td><td class="py-2 pr-3">-</td><td class="py-2 pr-3">-</td><td class="py-2">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">1 unit = 8-10 g of alcohol = approximately &frac12; pint. Reference: Oxford Clinical Handbook of Psychiatry, 3rd edition.</p>
+  <p class="text-sm mt-3">No amount of alcohol consumption is entirely safe. As a general guide: men should not drink more than 3 units/week, and women not more than 2 units/week. Consumption of 90 g/day for at least 5 years is a recognised risk factor for alcoholic liver disease.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Social History</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Substance abuse.</li>
+    <li>Sexual history - number of sexual partners.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 8. Drug History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Drug History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Chronic drug use and drug allergies. Ask specifically and non-judgmentally about herbal or traditional remedy use, since patients frequently do not volunteer this unless asked directly and repeatedly.</p>
+</div>
+
+<!-- 9. Review of Systems -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Review of Systems
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Relevant questions are asked about each system, except the one(s) already covered under the presenting complaint and history of presenting complaint.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">CNS:</span> headache, seizure, confusion, loss of consciousness, blurring of vision, neck pain.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough, breathlessness, chest pain, sneezing, running nose, cyanosis.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiovascular:</span> palpitations, breathlessness, easy fatigability, dizziness, paroxysmal nocturnal dyspnoea, orthopnoea.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> diarrhoea, constipation, nausea, vomiting, abdominal pain, jaundice.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Urogenital:</span> frequency, urgency, dysuria, hesitancy, haematuria, reduced urine output.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal:</span> muscle pain, difficulty walking, abnormal body movement, joint deformity.</li>
+</ul>
+</div>
+
+<!-- 10. Summary -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Putting It Together: The Summary
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The summary condenses everything above into a single presentable case, and should include:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Biodata (initials of name, age, sex).</li>
+  <li>Presenting complaints, with important exclusions ("xch" - negative findings worth stating).</li>
+  <li>Days on admission.</li>
+  <li>Important positives and negatives.</li>
+  <li>Care given so far.</li>
+  <li>Any improvement since admission.</li>
+</ul>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic mt-3">Example: "I have presented Mr S.A, a 40-year-old known hypertensive who presented on account of insidious onset breathlessness of 5 days duration and cough productive of whitish frothy sputum of 3 days duration. There is a positive history of nausea, anorexia, and ankle swelling. There is no history of haemoptysis. He has had a chest radiograph and some blood tests done, and he is on IV medication. His condition has improved as symptoms have subsided."</p>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Resuscitation always precedes history-taking in an emergency - stabilise the patient first.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Record the presenting complaint in the patient's own words, and keep it to five complaints or fewer, arranged chronologically.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the 5 Cs to structure the history of presenting complaint, and direct the "cause" questions specifically at your working differentials rather than asking generically.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Quantify smoking in pack-years and alcohol in units rather than leaving either as a vague description - both change management directly.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about herbal and traditional remedy use directly and non-judgmentally - patients rarely volunteer it unprompted.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Oxford Clinical Handbook of Psychiatry, 3rd edition - alcohol unit reference table.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Macleod's Clinical Examination - history-taking framework and structure.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>UK Chief Medical Officers' Low Risk Drinking Guidelines - weekly unit thresholds.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+// SYMPTOM CLERKING
+  
   {
     id: 'symptom-clerking-fever',
     title: 'Fever',
@@ -2528,6 +2787,757 @@ Common Pitfalls
 },
 
 
+// CLINICAL SCORING SYSTEMS
+{
+  id: 'scoring-glasgow-coma-scale',
+  title: 'Glasgow Coma Scale',
+  category: 'Clinical Scoring Systems',
+  subCategory: 'Emergency',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Glasgow Coma Scale (GCS)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Clinical Scoring Systems</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">The Glasgow Coma Scale (GCS)</h1>
+  <p class="text-sm text-indigo-200">GCS is often the only objective marker of neurological status available at first contact, particularly outside centres with CT access. In many Nigerian emergency departments, the decision to refer, transfer, or manage conservatively rests heavily on a correctly scored and correctly trended GCS, since imaging may be delayed by hours or unavailable altogether.</p>
+</div>
+</div>
+
+<!-- 1. Scoring Components -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Scoring Components
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Component</th>
+        <th class="py-2 pr-3 font-medium">Response</th>
+        <th class="py-2 font-medium">Score</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-medium">Eye opening (E)</td><td class="py-2 pr-3">Spontaneous</td><td class="py-2">4</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">To voice</td><td class="py-2">3</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">To pain</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Verbal response (V)</td><td class="py-2 pr-3">Oriented</td><td class="py-2">5</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Confused</td><td class="py-2">4</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Inappropriate words</td><td class="py-2">3</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Incomprehensible sounds</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Motor response (M)</td><td class="py-2 pr-3">Obeys commands</td><td class="py-2">6</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Localises to pain</td><td class="py-2">5</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Withdraws from pain (normal flexion)</td><td class="py-2">4</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Abnormal flexion (decorticate)</td><td class="py-2">3</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Extension (decerebrate)</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Total score range: 3-15 (there is no 0, since the minimum on each component is 1). Report as total and as the E/V/M breakdown - for example, "GCS 10 = E3V3M4" - since the breakdown carries more information than the sum alone, and different combinations reaching the same total reflect different injury patterns.</p>
+</div>
+
+<!-- 2. Severity Classification -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Severity Classification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">GCS</th>
+        <th class="py-2 font-medium">Classification</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">13-15</td><td class="py-2">Mild</td></tr>
+      <tr><td class="py-2 pr-3">9-12</td><td class="py-2">Moderate</td></tr>
+      <tr><td class="py-2 pr-3">&le; 8</td><td class="py-2">Severe - airway protection indicated</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A GCS of 8 or below is the conventional threshold for definitive airway management (intubation) - "GCS 8, intubate" - because a patient at this level typically cannot protect their airway against aspiration. This applies regardless of whether the low score comes from trauma, cerebral malaria, meningitis, or metabolic derangement, though it is a guideline rather than a mandate: a patient with an isolated severe verbal deficit (e.g. E4V1M6 = 11) may still need intubation for airway concerns despite a higher total, while a transiently post-ictal patient at GCS 7 may recover within minutes without intervention.</p>
+</div>
+
+<!-- 3. What Each Component Measures -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Scoring in Practice: What Each Component Measures
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Eye opening</span> reflects arousal, mediated by the reticular activating system, not cognition. A patient can score E4 and still have severely impaired cognition - eye opening alone should never be used as a proxy for overall consciousness.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Verbal response</span> is the component most affected by non-neurological factors: language barrier, hearing impairment, endotracheal intubation, and pre-existing dysphasia all reduce the verbal score without reflecting a change in neurological status. This is a frequent source of scoring error in Nigerian practice, particularly where the examining team and patient do not share a first language and confusion is misread as disorientation.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Motor response</span> carries the most prognostic weight of the three and should be scored using the best response obtained from any limb, not the worst and not an average. If one limb localises to pain and another only withdraws, the patient is scored M5, not M4.</li>
+</ul>
+</div>
+
+<!-- 4. Common Scoring Errors -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Common Scoring Errors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Error</th>
+        <th class="py-2 font-medium">Consequence</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Scoring verbal response as low in a patient simply unable to communicate in the examiner's language</td><td class="py-2">Falsely lowers total GCS; may trigger unnecessary escalation or intubation</td></tr>
+      <tr><td class="py-2 pr-3">Using the worst limb response rather than the best for the motor score</td><td class="py-2">Falsely lowers total GCS</td></tr>
+      <tr><td class="py-2 pr-3">Recording "GCS 3T" for an intubated patient without documenting that verbal is untestable</td><td class="py-2">The total becomes uninterpretable to a second reviewer; document as E and M scores with verbal marked untestable ("VT" or "NT"), rather than assigning an arbitrary verbal number or folding it silently into a single total</td></tr>
+      <tr><td class="py-2 pr-3">Treating a single GCS value as sufficient, without a repeat assessment</td><td class="py-2">Deteriorating trends are missed; a GCS of 12 that was 15 two hours ago is a different clinical problem from a stable GCS of 12</td></tr>
+      <tr><td class="py-2 pr-3">Assessing GCS immediately post-ictal, without allowing the post-ictal state to resolve</td><td class="py-2">Falsely suggests a lower baseline than the patient's true interictal status</td></tr>
+      <tr><td class="py-2 pr-3">Not accounting for sedation, alcohol intoxication, or hypoglycaemia before attributing a low GCS to primary neurological pathology</td><td class="py-2">Delays correction of a reversible cause - hypoglycaemia should be excluded at the bedside with a glucometer in any patient with reduced GCS, before extensive neurological work-up</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 5. Paediatric GCS -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Paediatric GCS (Under Approximately 2 Years)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Standard adult verbal and motor criteria assume a level of language and cooperation that pre-verbal or minimally verbal children do not have. Eye opening scoring is unchanged from the adult scale; verbal and motor responses are age-adapted.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Verbal Response (Infant)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Response</th>
+          <th class="py-2 font-medium">Score</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Coos, babbles appropriately</td><td class="py-2">5</td></tr>
+        <tr><td class="py-2 pr-3">Irritable cry</td><td class="py-2">4</td></tr>
+        <tr><td class="py-2 pr-3">Cries to pain</td><td class="py-2">3</td></tr>
+        <tr><td class="py-2 pr-3">Moans to pain</td><td class="py-2">2</td></tr>
+        <tr><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Motor Response (Infant)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Response</th>
+          <th class="py-2 font-medium">Score</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Moves spontaneously and purposefully</td><td class="py-2">6</td></tr>
+        <tr><td class="py-2 pr-3">Withdraws to touch</td><td class="py-2">5</td></tr>
+        <tr><td class="py-2 pr-3">Withdraws to pain</td><td class="py-2">4</td></tr>
+        <tr><td class="py-2 pr-3">Abnormal flexion to pain (decorticate)</td><td class="py-2">3</td></tr>
+        <tr><td class="py-2 pr-3">Abnormal extension to pain (decerebrate)</td><td class="py-2">2</td></tr>
+        <tr><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="text-sm">Using adult verbal criteria in an infant systematically underscores neurological status and can trigger inappropriate escalation. Where the child is intubated, preverbal, or otherwise unable to be scored on verbal or motor grounds, the motor response carries the most weight and should be evaluated carefully.</p>
+</div>
+
+<!-- 6. Blantyre Coma Scale -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+The Blantyre Coma Scale
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The Blantyre Coma Scale is a distinct tool, not simply a shortcut version of the paediatric GCS - it was developed specifically to assess consciousness in preverbal children with cerebral malaria and is the standard scale used in malaria-endemic paediatric settings. It scores three components from 0-2 each (eye movement scored 0-1), for a total range of 0-5, with lower scores indicating worse consciousness. All scores below 5 are considered abnormal.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Component</th>
+        <th class="py-2 pr-3 font-medium">Response</th>
+        <th class="py-2 font-medium">Score</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-medium">Eye movement</td><td class="py-2 pr-3">Watches or follows (e.g. mother's face)</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Fails to watch or follow</td><td class="py-2">0</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Best verbal response</td><td class="py-2 pr-3">Cries appropriately with pain, or speaks (if verbal)</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Moan or abnormal cry with pain</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">No vocal response to pain</td><td class="py-2">0</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Best motor response</td><td class="py-2 pr-3">Localises the painful stimulus</td><td class="py-2">2</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Withdraws the limb from the painful stimulus</td><td class="py-2">1</td></tr>
+      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">No response, or an inappropriate response</td><td class="py-2">0</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A Blantyre Coma Score of 2 or below is the threshold most commonly used to define coma for the clinical case definition of cerebral malaria in children, alongside falciparum parasitaemia and no other identifiable cause of coma.</p>
+</div>
+
+<!-- 7. Nigerian Context -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Context-Specific Considerations for Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Cerebral Malaria</strong>
+  <p class="text-sm">GCS is central to the working definition of cerebral malaria: unarousable coma - most commonly cited as a GCS below 11 in adults (some series use a stricter threshold of 9 or below), or a Blantyre Coma Score of 2 or below in children - in a patient with falciparum parasitaemia and no other identifiable cause of coma. Serial GCS trending matters more than a single value here: a static or improving GCS on antimalarial treatment is reassuring, while a falling GCS despite treatment should prompt evaluation for raised intracranial pressure, hypoglycaemia (common in cerebral malaria, and partly quinine-induced where quinine is used), or secondary bacterial meningitis.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Meningitis</strong>
+  <p class="text-sm">GCS trajectory, alongside neck stiffness and Kernig's/Brudzinski's signs, often has to substitute for neuroimaging and CSF analysis where lumbar puncture is delayed - coagulopathy screening unavailable, raised ICP not excluded - or the laboratory cannot process CSF promptly.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Head Injury Without CT Access</strong>
+  <p class="text-sm">In facilities without CT, the GCS trend over the first 4-6 hours of observation, together with pupillary findings and lateralising motor signs, drives the decision to transfer to a centre with imaging rather than observe further. A deteriorating GCS - a drop of 2 or more points - is an indication for urgent transfer regardless of the absolute value.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Sickle Cell Disease with Acute Neurological Symptoms</strong>
+  <p class="text-sm">A falling GCS in a known SCD patient should raise concern for stroke - ischaemic, from vaso-occlusion, or haemorrhagic - and prompt urgent referral for imaging where available, rather than being attributed to a pain crisis alone.</p>
+</div>
+</div>
+
+<!-- 8. Reading Order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Establish reliable baseline conditions before scoring - correct hypoglycaemia, allow the post-ictal state to pass, account for sedation or intoxication where relevant.</li>
+  <li>Score each component independently using the best response obtained.</li>
+  <li>Report as the E/V/M breakdown, not only the total.</li>
+  <li>Repeat serially - the trend is frequently more clinically useful than any single value.</li>
+  <li>Interpret in context: cerebral malaria, meningitis, head injury, and metabolic coma all produce GCS changes through different mechanisms, and the accompanying signs (pupils, lateralising weakness, neck stiffness, fever pattern) narrow the differential.</li>
+</ol>
+</div>
+
+<!-- 9. Findings not to be missed -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">GCS of 8 or below</span> - manage the airway regardless of the presumed underlying cause.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A drop of 2 or more points on trend</span> - treat as significant deterioration and act, even if the absolute value still looks reassuring.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Any reduced GCS before extensive work-up</span> - check bedside glucose first; hypoglycaemia is a rapidly reversible cause that is easy to miss under time pressure.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A falling GCS in a known sickle cell disease patient</span> - treat as possible stroke and refer urgently for imaging, rather than attributing it to a pain crisis alone.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A falling GCS despite antimalarial treatment in suspected cerebral malaria</span> - evaluate for raised intracranial pressure, hypoglycaemia, or secondary bacterial meningitis rather than assuming slow treatment response.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always score and report the E/V/M breakdown, not just the total - the same number can hide very different injury patterns.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the best response, not the worst or an average, for the motor score - and never assign an intubated patient's verbal component a number.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the Blantyre Coma Scale, not the adult verbal criteria, in preverbal children - it is a distinct tool built for this purpose, not a simplified GCS.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Exclude hypoglycaemia at the bedside before attributing a low GCS to primary neurological disease.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Trend GCS serially - a single value tells you far less than the trajectory, especially in cerebral malaria and evolving head injury.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Teasdale G, Jennett B - Assessment of Coma and Impaired Consciousness: A Practical Scale. Lancet, 1974.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Molyneux ME, Taylor TE - Blantyre Coma Scale for Young Children with Cerebral Malaria.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria (severe/cerebral malaria criteria).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kirkham FJ, Newton CR, Whitehouse W - Paediatric Coma Scales. Developmental Medicine and Child Neurology, 2008.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - Meningitis Surveillance and Response Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+
+// TREATMENT
+
+{
+  id: 'treatment-malaria',
+  title: 'Malaria',
+  category: 'Treatment',
+  subCategory: 'Infectious Disease',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Malaria: A Treatment Guideline for Nigerian Clinical Practice</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Treatment</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Malaria</h1>
+  <p class="text-sm text-indigo-200">Malaria remains the most common cause of febrile illness presenting to Nigerian health facilities. Five <em>Plasmodium</em> species infect humans - <em>P. falciparum</em>, <em>P. malariae</em>, <em>P. vivax</em>, <em>P. ovale</em>, and <em>P. knowlesi</em> - but <em>P. falciparum</em> accounts for roughly 98% of Nigerian cases and is responsible for essentially all severe disease. Transmission is via the bite of an infected female <em>Anopheles</em> mosquito, with peak biting at dusk, dawn, and through the night; blood transfusion and mother-to-child transmission are recognised but uncommon routes.</p>
+</div>
+</div>
+
+<!-- 1. Overview -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Overview
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Nigeria carries one of the highest global burdens of malaria, which shapes several practice points that differ from lower-transmission settings elsewhere: near-universal population exposure produces a spectrum from silent parasitaemia to fulminant severe disease, over-reliance on clinical diagnosis remains a persistent problem, and chemoprevention strategies aimed at low-transmission contexts (e.g. transmission-blocking primaquine) are less central here than in many WHO-referenced examples.</p>
+</div>
+
+<!-- 2. Classification -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Classification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 font-medium">Definition</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-medium">Asymptomatic parasitaemia</td><td class="py-2">Parasites present on blood film with no symptoms; occurs in older children and adults with acquired partial immunity in high-endemicity areas</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Acute uncomplicated malaria</td><td class="py-2">Symptomatic infection without any severity feature listed in Section 5</td></tr>
+      <tr><td class="py-2 pr-3 font-medium">Severe (complicated) malaria</td><td class="py-2">A medical emergency - presence of any clinical or laboratory severity feature (Section 5)</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Clinical Presentation -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Clinical Presentation
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Uncomplicated malaria</span> presents with nonspecific systemic symptoms: fever, chills, headache, malaise, body/joint aches, weakness, anorexia, nausea and vomiting, a bitter taste in the mouth, excessive sweating, and pallor. Hepatosplenomegaly and mild jaundice can occur even in uncomplicated disease.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Differential diagnoses to actively consider</span>, given overlapping presentations: typhoid fever, meningitis, encephalitis, septicaemia, and other causes of fever. Malaria should never be a diagnosis of exclusion arrived at by default - parasitological confirmation (Section 4) is what separates malaria from these mimics, not the clinical picture alone.</p>
+</div>
+
+<!-- 4. Diagnosis -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Diagnosis
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Clinical diagnosis alone is presumptive and is explicitly associated with over-diagnosis; it should not be relied upon to initiate treatment.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Parasitological confirmation is required in all suspected cases</span> before treatment - by microscopy or rapid diagnostic test (RDT).</li>
+  <li>Light microscopy remains the gold standard, allowing species identification and parasite density quantification. RDTs are the practical first-line test at primary health care level.</li>
+  <li>Microscopic confirmation should <span class="font-medium text-slate-800 dark:text-slate-200">not</span> delay treatment where there is clinical suspicion of severe malaria - treat first, confirm in parallel.</li>
+</ul>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Supporting investigations</span> (guided by clinical severity and differential): full blood count with differential, packed cell volume/haemoglobin, blood glucose, urinalysis, electrolytes/urea/creatinine, stool microscopy where relevant, chest radiograph, and CSF analysis where meningitis cannot be excluded clinically.</p>
+</div>
+
+<!-- 5. Severe Malaria Recognition -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Recognising Severe Malaria
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Severe malaria is a medical emergency. Any one of the following - clinical or laboratory - defines it.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Clinical Features</strong>
+  <p class="text-sm">Prostration; impaired consciousness or unrousable coma; failure to feed (children); respiratory distress; multiple convulsions (more than 2 episodes in 24 hours); circulatory collapse (algid malaria); pulmonary oedema (radiological); abnormal bleeding/DIC; jaundice.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Laboratory Features</strong>
+  <p class="text-sm">Severe anaemia; hypoglycaemia (blood glucose &lt; 2.2 mmol/L); metabolic acidosis (arterial pH &lt; 7.3, serum HCO&#8323; &lt; 15 mmol/L); haemoglobinuria (black-water fever); renal impairment (creatinine &gt; 265 &micro;mol/L); hyperlactataemia (&gt; 5 mmol/L); hyperparasitaemia (&gt; 5% or &gt; 250,000/&micro;L).</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Poor Prognostic Indicators</strong>
+  <p class="text-sm">Marked agitation, hyperventilation, hypothermia (&lt; 36.5&deg;C), deep coma, repeated convulsions, active bleeding, anuria, haemodynamic shock; hyperparasitaemia &gt; 100,000/&micro;L (~2% infected cells), &gt; 20% of parasites at late (schizont) stage on film, elevated total bilirubin (&gt; 50 &micro;mol/L), leukocytosis (&gt; 12,000/&micro;L), thrombocytopenia (&lt; 50,000/&micro;L), prolonged prothrombin time, and low fibrinogen.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cerebral Malaria</strong>
+  <p class="text-sm">A specific severe presentation: coma persisting more than 30 minutes after a seizure, occurring mainly in children and non-immune adults, with diffuse symmetric encephalopathy. Focal neurological signs are unusual and should prompt consideration of an alternative or additional diagnosis.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Complications</strong>
+  <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Early:</span> pneumonia, septicaemia; in pregnancy - preterm labour, abortion, low birth weight, intrauterine death, congenital malaria. <span class="font-medium text-slate-800 dark:text-slate-200">Late:</span> hyperreactive malarial splenomegaly, quartan malaria nephropathy, and a possible association with Burkitt's lymphoma.</p>
+</div>
+</div>
+
+<!-- 6. Treatment of Uncomplicated Malaria -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Treatment of Uncomplicated Malaria
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Principles</strong>
+  <p class="text-sm">Treatment goals: eradicate parasitaemia, prevent progression to severe disease, prevent gametocyte transmission, and address any immediate threat to life. Artemisinin-based Combination Therapy (ACT) is first-line, globally and in Nigeria. <span class="font-medium text-slate-800 dark:text-slate-200">Artemether-Lumefantrine (AL) is the preferred agent.</span> Alternatives include Artesunate-Amodiaquine (AA), Dihydroartemisinin-Piperaquine, and Artesunate-Pyronaridine.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Dosing - Artemether-Lumefantrine (AL)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Weight</th>
+          <th class="py-2 pr-3 font-medium">20/120 mg tablet</th>
+          <th class="py-2 pr-3 font-medium">40/240 mg tablet</th>
+          <th class="py-2 font-medium">80/480 mg tablet</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">5-&lt;15 kg</td><td class="py-2 pr-3">1 tab twice daily &times; 3 days</td><td class="py-2 pr-3">-</td><td class="py-2">-</td></tr>
+        <tr><td class="py-2 pr-3">15-&lt;25 kg</td><td class="py-2 pr-3">2 tabs twice daily &times; 3 days</td><td class="py-2 pr-3">1 tab twice daily &times; 3 days</td><td class="py-2">-</td></tr>
+        <tr><td class="py-2 pr-3">25-&lt;35 kg</td><td class="py-2 pr-3">3 tabs twice daily &times; 3 days</td><td class="py-2 pr-3">-</td><td class="py-2">-</td></tr>
+        <tr><td class="py-2 pr-3">&gt;35 kg</td><td class="py-2 pr-3">4 tabs twice daily &times; 3 days</td><td class="py-2 pr-3">2 tabs twice daily &times; 3 days</td><td class="py-2">1 tab twice daily &times; 3 days</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">Give with a fatty meal or milk where possible - this improves lumefantrine absorption.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Dosing - Artesunate-Amodiaquine (AA)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Weight/Age</th>
+          <th class="py-2 pr-3 font-medium">Tablet strength</th>
+          <th class="py-2 font-medium">Regimen</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">4.5-&lt;9 kg (2-11 months)</td><td class="py-2 pr-3">25/67.5 mg</td><td class="py-2">1 tablet once daily &times; 3 days</td></tr>
+        <tr><td class="py-2 pr-3">9-&lt;18 kg (1-5 years)</td><td class="py-2 pr-3">50/135 mg</td><td class="py-2">1 tablet once daily &times; 3 days</td></tr>
+        <tr><td class="py-2 pr-3">18-&lt;36 kg (6-13 years)</td><td class="py-2 pr-3">100/270 mg</td><td class="py-2">1 tablet once daily &times; 3 days</td></tr>
+        <tr><td class="py-2 pr-3">&ge;36 kg (&ge;14 years)</td><td class="py-2 pr-3">100/270 mg</td><td class="py-2">2 tablets once daily &times; 3 days</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">Infants &lt; 5 kg should still be treated with an ACT, but under direct provider supervision.</p>
+</div>
+</div>
+
+<!-- Guideline Watch: First trimester -->
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<h3 class="font-brand flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-200 mb-2">
+  <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#d97706"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg>
+  Guideline Watch - First-Trimester Pregnancy Treatment
+</h3>
+<p class="text-sm text-amber-900 dark:text-amber-300 mb-2">This is the single point in this guideline where Nigerian source documents and current global evidence do not all agree, and it matters clinically.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm text-amber-900 dark:text-amber-300">
+  <li><span class="font-medium">FMOH STG (2022):</span> ACTs recommended across all trimesters of pregnancy, without a separate first-trimester regimen.</li>
+  <li><span class="font-medium">NHIA STGRP (2025):</span> specifies oral quinine sulphate 10 mg/kg 8-hourly plus clindamycin 10 mg/kg 12-hourly for first-trimester uncomplicated malaria, with same-day referral if the patient cannot tolerate oral treatment or symptoms persist.</li>
+  <li><span class="font-medium">Current WHO guidance (updated 2022):</span> recommends artemether-lumefantrine specifically for first-trimester uncomplicated malaria, based on safety data showing fewer adverse pregnancy outcomes than quinine. This replaced the older quinine-plus-clindamycin standard that the NHIA document still reflects.</li>
+</ul>
+<p class="text-sm text-amber-900 dark:text-amber-300 mt-2"><span class="font-medium">Practical takeaway:</span> where AL is available, current evidence supports using it in the first trimester rather than defaulting to quinine plus clindamycin. The quinine-based regimen is a reasonable fallback where AL is genuinely unavailable, not a preferred first choice. Following the newer-dated Nigerian document (NHIA 2025) on this specific point would mean practising a step behind current global evidence.</p>
+</div>
+
+<!-- 7. Treatment of Severe Malaria -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Treatment of Severe Malaria
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pre-Referral Treatment</strong>
+  <p class="text-sm">Where definitive parenteral care is not immediately available, give one of the following as soon as severe malaria is suspected, without waiting for confirmation or transfer, in order of preference:</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Route</th>
+          <th class="py-2 font-medium">Dose</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Rectal artesunate</td><td class="py-2">10 mg/kg body weight, single dose</td></tr>
+        <tr><td class="py-2 pr-3">IM artesunate</td><td class="py-2">3 mg/kg (children &lt; 6 years or &lt; 20 kg); 2.4 mg/kg (older children/adults)</td></tr>
+        <tr><td class="py-2 pr-3">IM artemether</td><td class="py-2">3.2 mg/kg</td></tr>
+        <tr><td class="py-2 pr-3">IM quinine</td><td class="py-2">10 mg/kg</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+<!-- Guideline Watch: PHC severe malaria -->
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<h3 class="font-brand flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-200 mb-2">
+  <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#d97706"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg>
+  Guideline Watch - Severe Malaria at First Point of Contact
+</h3>
+<p class="text-sm text-amber-900 dark:text-amber-300">The NHIA STGRP (PHC-level protocol) directs providers to give oral Artesunate-Amodiaquine 200/540 mg daily for 3 days (or Artesunate-Mefloquine 200/440 mg daily for 3 days if the patient is on efavirenz) as a stabilisation measure in severe malaria, with same-day referral if the patient is pregnant, cannot tolerate oral treatment, or is not improving. This is not a substitute for parenteral treatment - it reflects the reality that many PHC facilities do not stock IV artesunate. Where parenteral treatment is available at any level, it should be used in preference to this oral pre-referral approach.</p>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Definitive Treatment - Parenteral Artesunate (Drug of Choice)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Group</th>
+          <th class="py-2 font-medium">Regimen</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Adults and children &gt; 20 kg</td><td class="py-2">Artesunate 2.4 mg/kg IV or IM at 0, 12, and 24 hours, then once daily. No upper limit to total dose.</td></tr>
+        <tr><td class="py-2 pr-3">Children &le; 20 kg</td><td class="py-2">Artesunate 3 mg/kg IV or IM at 0, 12, and 24 hours, then once daily</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">If parenteral artesunate is unavailable, alternatives are artemether 3.2 mg/kg IM on admission then 1.6 mg/kg/day, or quinine 20 mg salt/kg IV infusion or divided IM on admission then 10 mg/kg every 8 hours (infusion rate must not exceed 5 mg/kg/hour).</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Minimum duration:</span> give parenteral antimalarials for at least 24 hours once started, regardless of how soon the patient can tolerate oral intake.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Follow-On (Oral) Treatment</strong>
+  <p class="text-sm">Once the patient has completed a minimum of 24 hours of parenteral treatment and can tolerate oral intake, complete a full 3-day course of ACT (AL, AA, DHA-piperaquine, or pyronaridine-artesunate) - irrespective of how many days of parenteral artesunate preceded it.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Supportive Management in Severe Malaria</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Complication</th>
+          <th class="py-2 font-medium">Management</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Fever</td><td class="py-2">Paracetamol (oral/rectal); tepid sponging and fanning if temperature &gt; 38.5&deg;C</td></tr>
+        <tr><td class="py-2 pr-3">Pulmonary oedema</td><td class="py-2">Nurse upright (cardiac position), give oxygen, furosemide 2-4 mg/kg IV; exclude anaemia as a contributing cause before diuresis</td></tr>
+        <tr><td class="py-2 pr-3">Renal failure</td><td class="py-2">Fluid challenge if dehydrated (0.9% saline 20 mL/kg) with furosemide 1-2 mg/kg; catheterise to monitor output; refer for renal replacement therapy if anuric beyond 24 hours</td></tr>
+        <tr><td class="py-2 pr-3">Profuse bleeding</td><td class="py-2">Transfuse screened fresh whole blood; give pre-referral treatment and refer urgently</td></tr>
+        <tr><td class="py-2 pr-3">Suspected meningitis, unexcluded</td><td class="py-2">Give appropriate antibiotics empirically if lumbar puncture cannot be performed immediately</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Not recommended:</span> high-dose corticosteroids and other anti-inflammatory agents, agents used for cerebral oedema (e.g. urea), adrenaline, and heparin.</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Caution:</span> avoid mefloquine in patients with a history of cerebral malaria, given increased risk of seizure, encephalopathy, and psychosis.</p>
+</div>
+</div>
+
+<!-- 8. Prevention -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Prevention
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Personal Protection</strong>
+  <p class="text-sm">Avoid exposure at peak biting times (dusk, dawn, throughout the night). Insect repellents, appropriate clothing, and insecticide-treated bed nets (ITNs).</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Chemoprophylaxis - Indicated For</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Non-immune travellers to endemic areas.</li>
+    <li>Children born to non-immune mothers in endemic areas.</li>
+    <li>Pregnant women (see IPTp-SP below).</li>
+    <li>Patients with sickle cell disease, who should receive regular chemoprophylaxis.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Chemoprophylaxis Regimens (Non-Immune Travellers)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Agent</th>
+          <th class="py-2 font-medium">Regimen</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Mefloquine</td><td class="py-2">5 mg base/kg weekly (adult dose 250 mg base weekly); start 2-3 weeks before arrival, continue weekly throughout stay, and for 2-3 weeks after departure. Contraindicated in children &lt; 8 years and in pregnancy.</td></tr>
+        <tr><td class="py-2 pr-3">Atovaquone-Proguanil</td><td class="py-2">Fixed-dose combination, daily; start 1-2 days before arrival, continue throughout stay, and for 7 days after departure</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="overflow-x-auto mt-3">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Weight</th>
+          <th class="py-2 pr-3 font-medium">Total daily dose</th>
+          <th class="py-2 font-medium">Regimen</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">11-20 kg</td><td class="py-2 pr-3">62.5/25 mg</td><td class="py-2">1 paediatric tablet daily</td></tr>
+        <tr><td class="py-2 pr-3">21-30 kg</td><td class="py-2 pr-3">125/50 mg</td><td class="py-2">2 paediatric tablets daily</td></tr>
+        <tr><td class="py-2 pr-3">31-40 kg</td><td class="py-2 pr-3">187.5/75 mg</td><td class="py-2">3 paediatric tablets daily</td></tr>
+        <tr><td class="py-2 pr-3">&gt;40 kg</td><td class="py-2 pr-3">250/100 mg</td><td class="py-2">1 adult tablet daily</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">IPTp-SP (Intermittent Preventive Treatment in Pregnancy)</strong>
+  <p class="text-sm">Sulfadoxine-pyrimethamine 3 tablets (500/25 mg), given at each scheduled antenatal visit, at least 1 month apart, starting in the second trimester.</p>
+</div>
+</div>
+
+<!-- Guideline Watch: IPTp-SP -->
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<h3 class="font-brand flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-200 mb-2">
+  <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#d97706"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg>
+  Guideline Watch - IPTp-SP Duration
+</h3>
+<p class="text-sm text-amber-900 dark:text-amber-300">The NHIA STGRP states dosing should stop at 36 weeks. Current WHO policy is to continue SP dosing at every antenatal visit through to delivery, with no stated cutoff week - stopping earlier would leave the remainder of pregnancy unprotected relative to global guidance.</p>
+</div>
+
+<!-- 9. Referral Criteria -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Referral Criteria (Red Flags)
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="text-sm text-rose-900 dark:text-rose-300 mb-3">Refer urgently from a primary center to a higher level center for any of the following:</p>
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>No improvement, or worsening, on first-line oral treatment</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Fits/seizures, drowsiness, altered consciousness, or meningism</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Respiratory distress or oxygen saturation concerns</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>BP &lt; 90/60 or other signs of circulatory compromise</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Severe abdominal pain or jaundice</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Easy bleeding or bruising</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Inability to sit up or walk unaided</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Pregnancy with severe malaria, or any patient unable to tolerate oral medication when oral treatment was planned</span></li>
+</ul>
+</div>
+
+<!-- 10. Patient Education -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Patient Health Education Points
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Advise on avoiding mosquito bites: sleep under an ITN, eliminate standing water collections nearby, cover up after dusk.</li>
+  <li>Explicitly advise against self-medication, which contributes to resistance.</li>
+  <li>Reinforce compliance with the full treatment course, even once symptoms improve.</li>
+  <li>Reinforce compliance with referral advice when given.</li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways / Algorithm -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Summary Treatment Algorithm</h3>
+<ol class="list-decimal pl-5 space-y-2 text-sm text-indigo-900 dark:text-indigo-300">
+  <li>Suspect malaria on clinical grounds &rarr; confirm parasitologically (RDT or microscopy) before treating, unless severe malaria is suspected, in which case treat first and confirm in parallel.</li>
+  <li>Classify: asymptomatic parasitaemia / uncomplicated / severe.</li>
+  <li><span class="font-medium">Uncomplicated, not pregnant, or 2nd/3rd trimester:</span> AL first-line, AA or other ACT as alternative, full 3-day course.</li>
+  <li><span class="font-medium">Uncomplicated, 1st trimester:</span> AL where available (current best evidence); quinine + clindamycin as fallback where AL is unavailable.</li>
+  <li><span class="font-medium">Severe malaria, any trimester or age:</span> parenteral artesunate as soon as possible (any level of care); pre-referral rectal/IM artesunate, artemether, or quinine if transfer is needed; minimum 24 hours parenteral before switching to a full oral ACT course.</li>
+  <li>Manage complications supportively; refer per red flags in Section 9.</li>
+  <li>Reinforce prevention: ITNs, chemoprophylaxis where indicated, IPTp-SP through pregnancy (to delivery).</li>
+</ol>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines, 2022 edition.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Health Insurance Authority - Standard Treatment Guidelines and Referral Protocol for Primary Health Care Providers, 2025 edition.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria (current edition, including 2022 update on first-trimester treatment).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Malaria Elimination Programme, Nigeria - Case Management Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
 // COUNSELLING
 {
   id: 'counselling-hypertension',
@@ -3246,585 +4256,5 @@ Findings That Must Not Be Missed
 </html>
   `
 },
-
-// CLINICAL SCORING SYSTEMS
-{
-  id: 'scoring-glasgow-coma-scale',
-  title: 'Glasgow Coma Scale',
-  category: 'Clinical Scoring Systems',
-  subCategory: 'Emergency',
-  content: `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>The Glasgow Coma Scale (GCS)</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
-.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-</style>
-</head>
-<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
-
-
-<!-- Hero -->
-<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
-
-<!-- Top-right glow -->
-<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
-
-<!-- Bottom-left glow -->
-<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
-
-<!-- Content -->
-<div class="relative p-6 sm:p-8">
-  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Clinical Scoring Systems</span>
-  <h1 class="font-brand text-3xl font-bold mb-3 text-white">The Glasgow Coma Scale (GCS)</h1>
-  <p class="text-sm text-indigo-200">GCS is often the only objective marker of neurological status available at first contact, particularly outside centres with CT access. In many Nigerian emergency departments, the decision to refer, transfer, or manage conservatively rests heavily on a correctly scored and correctly trended GCS, since imaging may be delayed by hours or unavailable altogether.</p>
-</div>
-</div>
-
-<!-- 1. Scoring Components -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
-Scoring Components
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<div class="overflow-x-auto">
-  <table class="w-full text-xs sans border-collapse">
-    <thead>
-      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-        <th class="py-2 pr-3 font-medium">Component</th>
-        <th class="py-2 pr-3 font-medium">Response</th>
-        <th class="py-2 font-medium">Score</th>
-      </tr>
-    </thead>
-    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-      <tr><td class="py-2 pr-3 font-medium">Eye opening (E)</td><td class="py-2 pr-3">Spontaneous</td><td class="py-2">4</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">To voice</td><td class="py-2">3</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">To pain</td><td class="py-2">2</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
-      <tr><td class="py-2 pr-3 font-medium">Verbal response (V)</td><td class="py-2 pr-3">Oriented</td><td class="py-2">5</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Confused</td><td class="py-2">4</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Inappropriate words</td><td class="py-2">3</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Incomprehensible sounds</td><td class="py-2">2</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
-      <tr><td class="py-2 pr-3 font-medium">Motor response (M)</td><td class="py-2 pr-3">Obeys commands</td><td class="py-2">6</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Localises to pain</td><td class="py-2">5</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Withdraws from pain (normal flexion)</td><td class="py-2">4</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Abnormal flexion (decorticate)</td><td class="py-2">3</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Extension (decerebrate)</td><td class="py-2">2</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
-    </tbody>
-  </table>
-</div>
-<p class="text-sm">Total score range: 3-15 (there is no 0, since the minimum on each component is 1). Report as total and as the E/V/M breakdown - for example, "GCS 10 = E3V3M4" - since the breakdown carries more information than the sum alone, and different combinations reaching the same total reflect different injury patterns.</p>
-</div>
-
-<!-- 2. Severity Classification -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
-Severity Classification
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<div class="overflow-x-auto">
-  <table class="w-full text-xs sans border-collapse">
-    <thead>
-      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-        <th class="py-2 pr-3 font-medium">GCS</th>
-        <th class="py-2 font-medium">Classification</th>
-      </tr>
-    </thead>
-    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-      <tr><td class="py-2 pr-3">13-15</td><td class="py-2">Mild</td></tr>
-      <tr><td class="py-2 pr-3">9-12</td><td class="py-2">Moderate</td></tr>
-      <tr><td class="py-2 pr-3">&le; 8</td><td class="py-2">Severe - airway protection indicated</td></tr>
-    </tbody>
-  </table>
-</div>
-<p class="text-sm">A GCS of 8 or below is the conventional threshold for definitive airway management (intubation) - "GCS 8, intubate" - because a patient at this level typically cannot protect their airway against aspiration. This applies regardless of whether the low score comes from trauma, cerebral malaria, meningitis, or metabolic derangement, though it is a guideline rather than a mandate: a patient with an isolated severe verbal deficit (e.g. E4V1M6 = 11) may still need intubation for airway concerns despite a higher total, while a transiently post-ictal patient at GCS 7 may recover within minutes without intervention.</p>
-</div>
-
-<!-- 3. What Each Component Measures -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
-Scoring in Practice: What Each Component Measures
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ul class="list-disc pl-5 space-y-2 text-sm">
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Eye opening</span> reflects arousal, mediated by the reticular activating system, not cognition. A patient can score E4 and still have severely impaired cognition - eye opening alone should never be used as a proxy for overall consciousness.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Verbal response</span> is the component most affected by non-neurological factors: language barrier, hearing impairment, endotracheal intubation, and pre-existing dysphasia all reduce the verbal score without reflecting a change in neurological status. This is a frequent source of scoring error in Nigerian practice, particularly where the examining team and patient do not share a first language and confusion is misread as disorientation.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Motor response</span> carries the most prognostic weight of the three and should be scored using the best response obtained from any limb, not the worst and not an average. If one limb localises to pain and another only withdraws, the patient is scored M5, not M4.</li>
-</ul>
-</div>
-
-<!-- 4. Common Scoring Errors -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
-Common Scoring Errors
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<div class="overflow-x-auto">
-  <table class="w-full text-xs sans border-collapse">
-    <thead>
-      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-        <th class="py-2 pr-3 font-medium">Error</th>
-        <th class="py-2 font-medium">Consequence</th>
-      </tr>
-    </thead>
-    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-      <tr><td class="py-2 pr-3">Scoring verbal response as low in a patient simply unable to communicate in the examiner's language</td><td class="py-2">Falsely lowers total GCS; may trigger unnecessary escalation or intubation</td></tr>
-      <tr><td class="py-2 pr-3">Using the worst limb response rather than the best for the motor score</td><td class="py-2">Falsely lowers total GCS</td></tr>
-      <tr><td class="py-2 pr-3">Recording "GCS 3T" for an intubated patient without documenting that verbal is untestable</td><td class="py-2">The total becomes uninterpretable to a second reviewer; document as E and M scores with verbal marked untestable ("VT" or "NT"), rather than assigning an arbitrary verbal number or folding it silently into a single total</td></tr>
-      <tr><td class="py-2 pr-3">Treating a single GCS value as sufficient, without a repeat assessment</td><td class="py-2">Deteriorating trends are missed; a GCS of 12 that was 15 two hours ago is a different clinical problem from a stable GCS of 12</td></tr>
-      <tr><td class="py-2 pr-3">Assessing GCS immediately post-ictal, without allowing the post-ictal state to resolve</td><td class="py-2">Falsely suggests a lower baseline than the patient's true interictal status</td></tr>
-      <tr><td class="py-2 pr-3">Not accounting for sedation, alcohol intoxication, or hypoglycaemia before attributing a low GCS to primary neurological pathology</td><td class="py-2">Delays correction of a reversible cause - hypoglycaemia should be excluded at the bedside with a glucometer in any patient with reduced GCS, before extensive neurological work-up</td></tr>
-    </tbody>
-  </table>
-</div>
-</div>
-
-<!-- 5. Paediatric GCS -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
-Paediatric GCS (Under Approximately 2 Years)
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<p class="text-sm">Standard adult verbal and motor criteria assume a level of language and cooperation that pre-verbal or minimally verbal children do not have. Eye opening scoring is unchanged from the adult scale; verbal and motor responses are age-adapted.</p>
-
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Verbal Response (Infant)</strong>
-  <div class="overflow-x-auto">
-    <table class="w-full text-xs sans border-collapse">
-      <thead>
-        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-          <th class="py-2 pr-3 font-medium">Response</th>
-          <th class="py-2 font-medium">Score</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-        <tr><td class="py-2 pr-3">Coos, babbles appropriately</td><td class="py-2">5</td></tr>
-        <tr><td class="py-2 pr-3">Irritable cry</td><td class="py-2">4</td></tr>
-        <tr><td class="py-2 pr-3">Cries to pain</td><td class="py-2">3</td></tr>
-        <tr><td class="py-2 pr-3">Moans to pain</td><td class="py-2">2</td></tr>
-        <tr><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Motor Response (Infant)</strong>
-  <div class="overflow-x-auto">
-    <table class="w-full text-xs sans border-collapse">
-      <thead>
-        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-          <th class="py-2 pr-3 font-medium">Response</th>
-          <th class="py-2 font-medium">Score</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-        <tr><td class="py-2 pr-3">Moves spontaneously and purposefully</td><td class="py-2">6</td></tr>
-        <tr><td class="py-2 pr-3">Withdraws to touch</td><td class="py-2">5</td></tr>
-        <tr><td class="py-2 pr-3">Withdraws to pain</td><td class="py-2">4</td></tr>
-        <tr><td class="py-2 pr-3">Abnormal flexion to pain (decorticate)</td><td class="py-2">3</td></tr>
-        <tr><td class="py-2 pr-3">Abnormal extension to pain (decerebrate)</td><td class="py-2">2</td></tr>
-        <tr><td class="py-2 pr-3">None</td><td class="py-2">1</td></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-<p class="text-sm">Using adult verbal criteria in an infant systematically underscores neurological status and can trigger inappropriate escalation. Where the child is intubated, preverbal, or otherwise unable to be scored on verbal or motor grounds, the motor response carries the most weight and should be evaluated carefully.</p>
-</div>
-
-<!-- 6. Blantyre Coma Scale -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
-The Blantyre Coma Scale
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<p class="text-sm">The Blantyre Coma Scale is a distinct tool, not simply a shortcut version of the paediatric GCS - it was developed specifically to assess consciousness in preverbal children with cerebral malaria and is the standard scale used in malaria-endemic paediatric settings. It scores three components from 0-2 each (eye movement scored 0-1), for a total range of 0-5, with lower scores indicating worse consciousness. All scores below 5 are considered abnormal.</p>
-<div class="overflow-x-auto">
-  <table class="w-full text-xs sans border-collapse">
-    <thead>
-      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-        <th class="py-2 pr-3 font-medium">Component</th>
-        <th class="py-2 pr-3 font-medium">Response</th>
-        <th class="py-2 font-medium">Score</th>
-      </tr>
-    </thead>
-    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-      <tr><td class="py-2 pr-3 font-medium">Eye movement</td><td class="py-2 pr-3">Watches or follows (e.g. mother's face)</td><td class="py-2">1</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Fails to watch or follow</td><td class="py-2">0</td></tr>
-      <tr><td class="py-2 pr-3 font-medium">Best verbal response</td><td class="py-2 pr-3">Cries appropriately with pain, or speaks (if verbal)</td><td class="py-2">2</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Moan or abnormal cry with pain</td><td class="py-2">1</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">No vocal response to pain</td><td class="py-2">0</td></tr>
-      <tr><td class="py-2 pr-3 font-medium">Best motor response</td><td class="py-2 pr-3">Localises the painful stimulus</td><td class="py-2">2</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Withdraws the limb from the painful stimulus</td><td class="py-2">1</td></tr>
-      <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">No response, or an inappropriate response</td><td class="py-2">0</td></tr>
-    </tbody>
-  </table>
-</div>
-<p class="text-sm">A Blantyre Coma Score of 2 or below is the threshold most commonly used to define coma for the clinical case definition of cerebral malaria in children, alongside falciparum parasitaemia and no other identifiable cause of coma.</p>
-</div>
-
-<!-- 7. Nigerian Context -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
-Context-Specific Considerations for Nigerian Practice
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Cerebral Malaria</strong>
-  <p class="text-sm">GCS is central to the working definition of cerebral malaria: unarousable coma - most commonly cited as a GCS below 11 in adults (some series use a stricter threshold of 9 or below), or a Blantyre Coma Score of 2 or below in children - in a patient with falciparum parasitaemia and no other identifiable cause of coma. Serial GCS trending matters more than a single value here: a static or improving GCS on antimalarial treatment is reassuring, while a falling GCS despite treatment should prompt evaluation for raised intracranial pressure, hypoglycaemia (common in cerebral malaria, and partly quinine-induced where quinine is used), or secondary bacterial meningitis.</p>
-</div>
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Meningitis</strong>
-  <p class="text-sm">GCS trajectory, alongside neck stiffness and Kernig's/Brudzinski's signs, often has to substitute for neuroimaging and CSF analysis where lumbar puncture is delayed - coagulopathy screening unavailable, raised ICP not excluded - or the laboratory cannot process CSF promptly.</p>
-</div>
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Head Injury Without CT Access</strong>
-  <p class="text-sm">In facilities without CT, the GCS trend over the first 4-6 hours of observation, together with pupillary findings and lateralising motor signs, drives the decision to transfer to a centre with imaging rather than observe further. A deteriorating GCS - a drop of 2 or more points - is an indication for urgent transfer regardless of the absolute value.</p>
-</div>
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 sans">Sickle Cell Disease with Acute Neurological Symptoms</strong>
-  <p class="text-sm">A falling GCS in a known SCD patient should raise concern for stroke - ischaemic, from vaso-occlusion, or haemorrhagic - and prompt urgent referral for imaging where available, rather than being attributed to a pain crisis alone.</p>
-</div>
-</div>
-
-<!-- 8. Reading Order -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
-Reading Order in Practice
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ol class="list-decimal pl-5 space-y-1 text-sm">
-  <li>Establish reliable baseline conditions before scoring - correct hypoglycaemia, allow the post-ictal state to pass, account for sedation or intoxication where relevant.</li>
-  <li>Score each component independently using the best response obtained.</li>
-  <li>Report as the E/V/M breakdown, not only the total.</li>
-  <li>Repeat serially - the trend is frequently more clinically useful than any single value.</li>
-  <li>Interpret in context: cerebral malaria, meningitis, head injury, and metabolic coma all produce GCS changes through different mechanisms, and the accompanying signs (pupils, lateralising weakness, neck stiffness, fever pattern) narrow the differential.</li>
-</ol>
-</div>
-
-<!-- 9. Findings not to be missed -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
-Findings That Must Not Be Missed
-</h2>
-
-<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
-<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">GCS of 8 or below</span> - manage the airway regardless of the presumed underlying cause.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A drop of 2 or more points on trend</span> - treat as significant deterioration and act, even if the absolute value still looks reassuring.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Any reduced GCS before extensive work-up</span> - check bedside glucose first; hypoglycaemia is a rapidly reversible cause that is easy to miss under time pressure.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A falling GCS in a known sickle cell disease patient</span> - treat as possible stroke and refer urgently for imaging, rather than attributing it to a pain crisis alone.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A falling GCS despite antimalarial treatment in suspected cerebral malaria</span> - evaluate for raised intracranial pressure, hypoglycaemia, or secondary bacterial meningitis rather than assuming slow treatment response.</span></li>
-</ul>
-</div>
-
-<!-- Key Clinical Takeaways -->
-<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
-<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
-<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always score and report the E/V/M breakdown, not just the total - the same number can hide very different injury patterns.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the best response, not the worst or an average, for the motor score - and never assign an intubated patient's verbal component a number.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the Blantyre Coma Scale, not the adult verbal criteria, in preverbal children - it is a distinct tool built for this purpose, not a simplified GCS.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Exclude hypoglycaemia at the bedside before attributing a low GCS to primary neurological disease.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Trend GCS serially - a single value tells you far less than the trajectory, especially in cerebral malaria and evolving head injury.</span></li>
-</ul>
-</div>
-
-<!-- References -->
-<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
-<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
-  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
-  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-  </svg>
-</summary>
-<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
-  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Teasdale G, Jennett B - Assessment of Coma and Impaired Consciousness: A Practical Scale. Lancet, 1974.</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Molyneux ME, Taylor TE - Blantyre Coma Scale for Young Children with Cerebral Malaria.</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria (severe/cerebral malaria criteria).</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kirkham FJ, Newton CR, Whitehouse W - Paediatric Coma Scales. Developmental Medicine and Child Neurology, 2008.</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - Meningitis Surveillance and Response Guidelines.</li>
-  </ul>
-</div>
-</details>
-
-</body>
-</html>
-  `
-},
-
-
-// HISTORY TAKING
-{
-  id: 'history-taking-internal-medicine',
-  title: 'History Taking in Internal Medicine',
-  category: 'History Taking',
-  subCategory: 'General Approach',
-  content: `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>History Taking in Internal Medicine</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
-.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-</style>
-</head>
-<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
-
-
-<!-- Hero -->
-<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
-
-<!-- Top-right glow -->
-<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
-
-<!-- Bottom-left glow -->
-<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
-
-<!-- Content -->
-<div class="relative p-6 sm:p-8">
-  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking</span>
-  <h1 class="font-brand text-3xl font-bold mb-3 text-white">History Taking in Internal Medicine</h1>
-  <p class="text-sm text-indigo-200">The answer to a patient's problem lies in the history in roughly 90% of cases, with examination and investigation accounting for the rest. This guide walks through the full structure - biodata to review of systems - with the framework, the reasoning behind each section, and a worked example bringing it all together into a presentable case summary.</p>
-</div>
-</div>
-
-<!-- 1. Introduction -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
-Introduction and General Principles
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ul class="list-disc pl-5 space-y-2 text-sm">
-  <li>History-taking is the crucial first step in reaching a diagnosis - the history alone points to the answer in the large majority of cases, with physical examination and investigations filling in the remainder.</li>
-  <li>In an emergency, resuscitation always precedes history-taking. Stabilise first, and take a focused history in parallel with or immediately after initial resuscitation, not before it.</li>
-  <li>A structured sequence prevents important sections being skipped under time pressure, particularly on a busy ward round or in a crowded emergency unit.</li>
-</ul>
-</div>
-
-<!-- 2. Biodata -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
-Biodata
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<p class="text-sm">Name, age, sex, occupation, religion, address, tribe, and the informant - specifically noted where the patient is unconscious or otherwise unable to give a reliable history themselves.</p>
-<p class="text-sm">Occupation and address are not throwaway details - they carry diagnostic weight. A patient's occupation can point toward specific exposure risks, and address can flag proximity to an outbreak area or a community with a known endemic pattern (goitre-prone areas, recent cholera clusters, and so on).</p>
-</div>
-
-<!-- 3. Presenting Complaint -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
-Presenting Complaint
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ul class="list-disc pl-5 space-y-2 text-sm">
-  <li>This is the main reason the patient came to hospital, and should be recorded in the patient's own words wherever possible, rather than translated into medical terminology at this stage.</li>
-  <li>Complaints should be arranged in chronological order, from the first symptom to the most recent.</li>
-  <li>There should not be more than five presenting complaints. If the disease has already been diagnosed, this may be stated directly as part of the complaint.</li>
-</ul>
-<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">Example: "A known hypertensive patient presented on account of breathlessness of 5 days duration and cough of 3 days duration."</p>
-</div>
-
-<!-- 4. HPC -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
-History of Presenting Complaint (The 5 Cs)
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ol class="list-decimal pl-5 space-y-2 text-sm">
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Characterise</span> each symptom - onset, site, character, severity, radiation, timing, and aggravating/relieving factors, as relevant to the symptom in question.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Course</span> - the progression of the symptom, i.e. whether it has worsened, improved, or stayed the same since onset.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cause</span> - ask questions related to the differentials, specifically to help identify the most likely diagnosis rather than asking generic questions unrelated to what you actually suspect.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Complications</span> - questions related to the complications of the most likely diagnosis, and how the symptom has affected the patient's quality of life.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Care given so far</span> - including care given at home, at a referral centre, and since admission.</li>
-</ol>
-</div>
-
-<!-- 5. PMH -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
-Past Medical History
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ul class="list-disc pl-5 space-y-1 text-sm">
-  <li>History of similar illness in the past.</li>
-  <li>History of chronic diseases - e.g. diabetes mellitus, sickle cell disease, hypertension, asthma, seizure disorder.</li>
-  <li>History of previous hospital admission, blood transfusion, or surgery.</li>
-  <li>Gynaecological history where relevant, including last menstrual period.</li>
-</ul>
-</div>
-
-<!-- 6. Family History -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
-Family History
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<ul class="list-disc pl-5 space-y-1 text-sm">
-  <li>Position of the patient in the family.</li>
-  <li>Type of family - monogamous or polygamous, which is directly relevant when tracing hereditary and genetic risk within a Nigerian household structure.</li>
-  <li>History of similar illness in the family - e.g. diabetes mellitus, sickle cell disease, hypertension, asthma, seizure disorder.</li>
-  <li>History of chronic disease in the family, and history of atopy.</li>
-</ul>
-</div>
-
-<!-- 7. Social History -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
-Social History
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-<p class="text-sm">Marital status, number of children, educational level, and occupation.</p>
-
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cigarette Smoking</strong>
-  <p class="text-sm">Report the type of cigarette, and quantify exposure in pack-years:</p>
-  <p class="text-sm bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 p-3 mt-2 sans">Pack-years = (sticks smoked per day &divide; 20) &times; number of years smoked</p>
-  <p class="text-sm mt-2 italic">Example: a patient who smoked 5 cigarettes/day for 4 years has a pack-year history of (5/20) &times; 4 = 1 pack-year.</p>
-</div>
-
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Alcohol Consumption</strong>
-  <p class="text-sm">Ask when the patient started drinking, the type of alcohol, and estimate the amount in grams or units. Report the amount taken per sitting, number of times per week, and number of years the patient has been drinking. If the patient has stopped, ask when and why.</p>
-  <div class="overflow-x-auto mt-3">
-    <table class="w-full text-xs sans border-collapse">
-      <thead>
-        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-          <th class="py-2 pr-3 font-medium">Drink</th>
-          <th class="py-2 pr-3 font-medium">Alcohol % by volume</th>
-          <th class="py-2 pr-3 font-medium">Measure (mL)</th>
-          <th class="py-2 font-medium">Alcohol units</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-        <tr><td class="py-2 pr-3">Beer</td><td class="py-2 pr-3">4-5%</td><td class="py-2 pr-3">330</td><td class="py-2">1</td></tr>
-        <tr><td class="py-2 pr-3">Stout</td><td class="py-2 pr-3">6%</td><td class="py-2 pr-3">330</td><td class="py-2">1.8</td></tr>
-        <tr><td class="py-2 pr-3">Wine</td><td class="py-2 pr-3">9-14%</td><td class="py-2 pr-3">125 / 750</td><td class="py-2">1.5 / 6.8-10.5</td></tr>
-        <tr><td class="py-2 pr-3">Gin/rum</td><td class="py-2 pr-3">37.5%</td><td class="py-2 pr-3">25 / 750</td><td class="py-2">1 / 26.3</td></tr>
-        <tr><td class="py-2 pr-3">Fresh palm wine</td><td class="py-2 pr-3">&le; 4%</td><td class="py-2 pr-3">1 calabash (400-500 mL)</td><td class="py-2">1</td></tr>
-        <tr><td class="py-2 pr-3">Spirit</td><td class="py-2 pr-3">-</td><td class="py-2 pr-3">-</td><td class="py-2">1</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">1 unit = 8-10 g of alcohol = approximately &frac12; pint. Reference: Oxford Clinical Handbook of Psychiatry, 3rd edition.</p>
-  <p class="text-sm mt-3">No amount of alcohol consumption is entirely safe. As a general guide: men should not drink more than 3 units/week, and women not more than 2 units/week. Consumption of 90 g/day for at least 5 years is a recognised risk factor for alcoholic liver disease.</p>
-</div>
-
-<div>
-  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Social History</strong>
-  <ul class="list-disc pl-5 space-y-1 text-sm">
-    <li>Substance abuse.</li>
-    <li>Sexual history - number of sexual partners.</li>
-  </ul>
-</div>
-</div>
-
-<!-- 8. Drug History -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
-Drug History
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<p class="text-sm">Chronic drug use and drug allergies. Ask specifically and non-judgmentally about herbal or traditional remedy use, since patients frequently do not volunteer this unless asked directly and repeatedly.</p>
-</div>
-
-<!-- 9. Review of Systems -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
-Review of Systems
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<p class="text-sm">Relevant questions are asked about each system, except the one(s) already covered under the presenting complaint and history of presenting complaint.</p>
-<ul class="list-disc pl-5 space-y-1 text-sm">
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">CNS:</span> headache, seizure, confusion, loss of consciousness, blurring of vision, neck pain.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough, breathlessness, chest pain, sneezing, running nose, cyanosis.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiovascular:</span> palpitations, breathlessness, easy fatigability, dizziness, paroxysmal nocturnal dyspnoea, orthopnoea.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> diarrhoea, constipation, nausea, vomiting, abdominal pain, jaundice.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Urogenital:</span> frequency, urgency, dysuria, hesitancy, haematuria, reduced urine output.</li>
-  <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal:</span> muscle pain, difficulty walking, abnormal body movement, joint deformity.</li>
-</ul>
-</div>
-
-<!-- 10. Summary -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
-Putting It Together: The Summary
-</h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-<p class="text-sm">The summary condenses everything above into a single presentable case, and should include:</p>
-<ul class="list-disc pl-5 space-y-1 text-sm">
-  <li>Biodata (initials of name, age, sex).</li>
-  <li>Presenting complaints, with important exclusions ("xch" - negative findings worth stating).</li>
-  <li>Days on admission.</li>
-  <li>Important positives and negatives.</li>
-  <li>Care given so far.</li>
-  <li>Any improvement since admission.</li>
-</ul>
-<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic mt-3">Example: "I have presented Mr S.A, a 40-year-old known hypertensive who presented on account of insidious onset breathlessness of 5 days duration and cough productive of whitish frothy sputum of 3 days duration. There is a positive history of nausea, anorexia, and ankle swelling. There is no history of haemoptysis. He has had a chest radiograph and some blood tests done, and he is on IV medication. His condition has improved as symptoms have subsided."</p>
-</div>
-
-<!-- Key Clinical Takeaways -->
-<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
-<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
-<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Resuscitation always precedes history-taking in an emergency - stabilise the patient first.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Record the presenting complaint in the patient's own words, and keep it to five complaints or fewer, arranged chronologically.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the 5 Cs to structure the history of presenting complaint, and direct the "cause" questions specifically at your working differentials rather than asking generically.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Quantify smoking in pack-years and alcohol in units rather than leaving either as a vague description - both change management directly.</span></li>
-  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about herbal and traditional remedy use directly and non-judgmentally - patients rarely volunteer it unprompted.</span></li>
-</ul>
-</div>
-
-<!-- References -->
-<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
-<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
-  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
-  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-  </svg>
-</summary>
-<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
-  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Oxford Clinical Handbook of Psychiatry, 3rd edition - alcohol unit reference table.</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Macleod's Clinical Examination - history-taking framework and structure.</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>UK Chief Medical Officers' Low Risk Drinking Guidelines - weekly unit thresholds.</li>
-  </ul>
-</div>
-</details>
-
-</body>
-</html>
-  `
-},
-
 
 ];

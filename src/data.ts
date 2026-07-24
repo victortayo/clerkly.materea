@@ -3,6 +3,997 @@ import { Template } from './types';
 export const INITIAL_TEMPLATES: Template[] = [
   // Behavioral Sciences
   {
+    id: 'bs-11',
+    title: 'Cannabis and Nicotine Use Disorders',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Addiction Psychiatry',
+    condition: 'Cannabis and Nicotine Use Disorders',
+    symptoms: ['Cannabis dependence', 'Nicotine dependence', 'Craving', 'Difficulty stopping substance use', 'Irritability on cessation', 'Poor sleep'],
+    contributor: 'Admin',
+    lastModified: '2026-07-23',
+    summary: '24-year-old female fashion designer with a 5-year history of cannabis use and 6-year history of cigarette smoking, presenting with escalating substance use, persistent craving, unsuccessful quit attempts and withdrawal symptoms on cessation, consistent with moderate-to-severe Cannabis and Nicotine Use Disorders.',
+    content: `PSYCHIATRY UNIT
+    
+    Patient Seen
+    
+    A 24-year-old Yoruba female, Christian, single, fashion designer, residing in Lagos, Lagos State. History was obtained from the patient and her elder sister and was considered fairly reliable.
+    
+    CHIEF COMPLAINTS
+    
+    Cannabis use × 5 years.
+    Cigarette smoking × 6 years.
+    Increased cannabis and cigarette use × 2 years.
+    Difficulty stopping substance use × 1 year.
+    Craving for cannabis and cigarettes × 1 year.
+    Irritability and poor sleep on attempting cessation × 6 months.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The patient was apparently well until about 5 years prior to presentation when she was introduced to cannabis by friends during social gatherings. She initially used it occasionally but gradually progressed to frequent use and currently smokes cannabis approximately 3–4 times daily, usually in rolled form, with increased use during periods of stress.
+    She reports experiencing relaxation, euphoria and increased sociability following cannabis use. She now reports recurrent craving and spending significant time obtaining and using cannabis. She has made several unsuccessful attempts to stop but resumes use because of irritability, restlessness, poor sleep and craving.
+    There is a history of continued cannabis use despite its negative effects on her academic/work performance and family relationships. She reports reduced motivation, poor concentration and occasional forgetfulness.
+    She commenced cigarette smoking approximately 6 years ago and currently smokes about 10–15 sticks daily. She reports craving for cigarettes and difficulty controlling the amount smoked. Previous attempts to quit resulted in irritability, anxiety, restlessness, increased appetite and difficulty concentrating.
+    
+    There is no history of seizures, delirium or severe withdrawal symptoms.
+    
+    There is no history of persistent depressed mood, anhedonia, suicidal ideation or previous suicide attempt.
+    
+    There is no history suggestive of mania, psychosis, auditory or visual hallucinations or delusional beliefs.
+    
+    She denies use of heroin, cocaine, amphetamines or other illicit substances. She reports occasional alcohol intake.
+    
+    PAST PSYCHIATRIC HISTORY
+    
+    No previous psychiatric admission.
+    No previous history of diagnosed psychiatric illness.
+    No previous history of deliberate self-harm or suicide attempt.
+    
+    PAST MEDICAL HISTORY
+    
+    No known history of hypertension, diabetes mellitus, bronchial asthma or epilepsy.
+    No previous surgery.
+    No known drug or food allergy.
+    
+    FAMILY HISTORY
+    
+    Second of four children in a monogamous family.
+    No known family history of psychiatric illness or substance use disorder.
+    No family history of suicide.
+    
+    PERSONAL AND SOCIAL HISTORY
+    
+    The patient is a fashion designer and lives with her mother and younger siblings.
+    She reports that most of her friends use cannabis or smoke cigarettes.
+    She is single with no children.
+    No known recent legal problems.
+    
+    MENTAL STATE EXAMINATION
+    
+    A young adult female, appropriately dressed but mildly unkempt.
+    Conscious and alert.
+    Cooperative with good eye contact.
+    Psychomotor activity normal.
+    Speech spontaneous, coherent and relevant, with normal rate and volume.
+    Subjective mood described as "okay."
+    Objectively euthymic.
+    Affect appropriate and reactive.
+    Thought form coherent and goal-directed.
+    No delusions elicited.
+    No suicidal or homicidal ideation.
+    No hallucinations.
+    Conscious and oriented in time, place and person.
+    Attention and concentration mildly impaired.
+    Memory grossly intact.
+    Insight partial.
+    Judgement fair.
+    
+    GENERAL EXAMINATION
+    
+    Young adult female, conscious and alert.
+    Not pale.
+    Anicteric.
+    Acyanosed.
+    Afebrile.
+    Well hydrated.
+    No pedal oedema.
+    Pulse Rate: 88 beats/minute, regular.
+    Blood Pressure: 118/76 mmHg.
+    Respiratory Rate: 18 cycles/minute.
+    SpO₂: 98% on room air.
+    Temperature: 36.7°C.
+    
+    ASSESSMENT
+    
+    1. Cannabis Use Disorder, moderate-to-severe.
+    2. Nicotine Use Disorder, moderate-to-severe.
+    3. Cannabis and nicotine withdrawal symptoms on attempted cessation – KIV.
+    4. ?Substance-induced cognitive/motivational symptoms.
+    
+    INVESTIGATIONS
+    
+    Full Blood Count.
+    Serum Electrolytes, Urea and Creatinine.
+    Liver Function Tests.
+    Fasting Blood Sugar / Random Blood Glucose.
+    Urinalysis.
+    HIV screening after appropriate counselling and consent.
+    HBsAg.
+    Anti-HCV.
+    Urine toxicology screening where available.
+    Electrocardiogram.
+    Chest X-ray if clinically indicated.
+    
+    MANAGEMENT
+    
+    Admit or observe under Psychiatry as clinically indicated.
+    
+    Monitor mental state and withdrawal symptoms.
+    
+    CANNABIS WITHDRAWAL:
+    
+    Provide supportive care, reassurance, adequate hydration, sleep hygiene and psychological support.
+    
+    Treat specific withdrawal symptoms symptomatically.
+    
+    Routine pharmacological detoxification is not required.
+    
+    NICOTINE DEPENDENCE:
+    
+    Offer Nicotine Replacement Therapy (NRT).
+    
+    Consider nicotine patch 21 mg transdermally once daily, with nicotine gum 2 mg orally as required for breakthrough cravings. Adjust dose according to cigarette consumption and clinical response.
+    
+    Consider Tab. Bupropion SR 150 mg orally once daily for 3 days, then 150 mg twice daily, if there are no contraindications, particularly seizure disorder or eating disorder.
+    
+    Provide psychoeducation regarding cannabis and nicotine dependence and their associated health consequences.
+    
+    Provide motivational interviewing and cognitive behavioural therapy/relapse-prevention counselling.
+    
+    Identify triggers for substance use and develop alternative coping strategies.
+    
+    Encourage family involvement with the patient's consent.
+    
+    Screen for and manage comorbid depression, anxiety and other psychiatric disorders.
+    
+    Counsel the patient to avoid alcohol and other psychoactive substances.
+    
+    Encourage complete cannabis abstinence and smoking cessation.
+    
+    Arrange follow-up with Psychiatry/Addiction Medicine for continued psychosocial rehabilitation and relapse prevention.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+{
+  id: 'bs-10',
+  title: 'Pentazocine Dependence (Opioid Use Disorder)',
+  specialty: 'Behavioral Sciences',
+  subSpecialty: 'Psychiatry',
+  condition: 'Opioid Use Disorder',
+  symptoms: [
+    'Pentazocine dependence',
+    'Drug craving',
+    'Opioid withdrawal symptoms',
+    'Generalized body pains',
+    'Restlessness',
+    'Insomnia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-23',
+  summary: '29-year-old male commercial motorcycle rider with a 4-year history of pentazocine dependence presenting with craving, repeated unsuccessful attempts to stop use, withdrawal symptoms, tolerance and functional impairment consistent with moderate-to-severe Opioid Use Disorder.',
+  content: `
+PSYCHIATRY UNIT
+
+Patient Seen
+
+A 29-year-old Yoruba male, Christian, single, commercial motorcycle rider residing in Abeokuta, Ogun State, with highest level of education of SSCE.
+
+History was obtained from the patient and his elder sister and was considered fairly reliable.
+
+
+PRESENTING COMPLAINTS
+
+Recurrent use of pentazocine injections × 4 years.
+
+Inability to stop pentazocine use despite repeated attempts × 2 years.
+
+Craving for pentazocine × 2 years.
+
+Generalized body pains and restlessness whenever he misses a dose × 8 months.
+
+Insomnia × 6 months.
+
+Irritability and poor concentration × 6 months.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about four years prior to presentation when he was introduced to pentazocine injections by a friend who was also using them recreationally. He initially commenced use out of curiosity and to experience the euphoric and energizing effects described by his friend.
+
+He reportedly started with occasional intramuscular pentazocine use about once or twice weekly, but the frequency gradually increased over time. He subsequently progressed to daily use and currently reports using approximately 60–90 mg of pentazocine daily, usually administered intramuscularly, with occasional escalation of dose when the desired effect is not achieved.
+
+He initially experienced euphoria, increased energy and reduced perception of fatigue after each dose. He now reports that he mainly uses the drug to feel "normal" and to prevent unpleasant symptoms that occur when he does not take it.
+
+There is a positive history of persistent craving with recurrent thoughts about obtaining and using pentazocine. He reports spending considerable time obtaining the drug and has made repeated unsuccessful attempts to stop.
+
+He has attempted to discontinue pentazocine use on approximately three occasions. During these attempts he developed generalized body pains, excessive sweating, rhinorrhoea, lacrimation, abdominal discomfort, diarrhoea, restlessness, anxiety, irritability and insomnia. Symptoms became prominent within several hours of missing his usual dose and resolved after resuming pentazocine.
+
+There is a history of increasing tolerance, with progressively larger doses required to achieve the desired effect.
+
+His pentazocine use has resulted in significant functional impairment. He reports financial difficulties, repeated borrowing of money to purchase the drug and occasional neglect of work responsibilities because of drug-seeking behaviour.
+
+His elder sister reports progressive social withdrawal, irritability and recurrent conflicts with family members. He has reportedly sold personal belongings to obtain money for pentazocine.
+
+There is no history of sharing needles, although he admits to reusing injection sites and occasionally injecting himself without proper aseptic precautions.
+
+There is no history of overdose, respiratory depression or loss of consciousness.
+
+There is no history of heroin, cocaine or methamphetamine use. He reports occasional alcohol consumption and occasional cigarette smoking.
+
+There is no history of seizures, delirium or severe withdrawal requiring admission.
+
+There is no history suggestive of major depressive disorder, bipolar affective disorder, psychosis, obsessive-compulsive disorder or panic disorder.
+
+There is no previous psychiatric admission.
+
+PAST PSYCHIATRIC HISTORY
+
+No previous psychiatric illness.
+
+No previous psychiatric admission.
+
+No previous suicide attempt or deliberate self-harm.
+
+No previous psychiatric medications.
+
+PAST MEDICAL HISTORY
+
+No history of hypertension.
+No history of diabetes mellitus.
+No history of bronchial asthma.
+No history of epilepsy.
+No history of sickle cell disease.
+No previous tuberculosis.
+No known hepatitis B, hepatitis C or HIV infection.
+No previous surgery.
+No previous blood transfusion.
+No known drug or food allergy.
+
+DRUG HISTORY
+
+Pentazocine injection 60–90 mg daily, self-administered intramuscularly.
+Occasional alcohol consumption.
+Occasional cigarette smoking.
+Denies use of other psychoactive substances.
+
+FAMILY HISTORY
+
+Second of four children in a monogamous family.
+No known family history of psychiatric illness.
+No known family history of substance use disorder.
+No known family history of suicide.
+Parents alive and well.
+
+PERSONAL AND SOCIAL HISTORY
+
+Completed secondary school education (SSCE).
+Currently works as a commercial motorcycle rider.
+Lives with his mother and younger siblings.
+Normal childhood development.
+Reports limited social support and association with peers who use psychoactive substances.
+Reports significant financial difficulties related to pentazocine use.
+Single with no children.
+No recent legal problems.
+
+MENTAL STATE EXAMINATION
+
+A young adult male, appropriately dressed but mildly unkempt.
+Conscious and alert.
+Cooperative during the interview but initially guarded while discussing his drug use.
+Maintained intermittent eye contact.
+Psychomotor activity mildly increased.
+Speech spontaneous, coherent and relevant with normal rate and volume.
+Subjective mood described as "anxious."
+Objectively mildly anxious.
+Affect appropriate and reactive.
+Thought form coherent and goal directed.
+Thought content revealed persistent preoccupation with obtaining pentazocine and fear of withdrawal symptoms.
+No delusions elicited.
+No suicidal or homicidal ideation.
+No auditory or visual hallucinations.
+Oriented to time, place and person.
+Attention and concentration mildly impaired.
+Immediate and recent memory intact.
+Insight partial.
+Judgement fair.
+
+GENERAL EXAMINATION
+
+Young adult male.
+Conscious and alert.
+Mildly anxious.
+Not pale.
+Anicteric.
+Acyanosed.
+Afebrile.
+Mildly dehydrated.
+No pedal oedema.
+Pulse Rate: 96 beats/minute, regular, good volume.
+Blood Pressure: 128/82 mmHg.
+Respiratory Rate: 20 cycles/minute.
+Temperature: 36.8°C.
+SpO₂: 98% on room air.
+
+No obvious needle-track marks over accessible injection sites.
+No active skin or soft tissue infection.
+
+SYSTEMIC EXAMINATION
+
+CENTRAL NERVOUS SYSTEM
+
+Conscious and alert.
+Oriented to time, place and person.
+No neck stiffness.
+No focal neurological deficits.
+Power 5/5 globally.
+No tremors or abnormal involuntary movements.
+
+CARDIOVASCULAR SYSTEM
+
+Pulse Rate: 96 beats/minute.
+Regular rhythm.
+Good volume.
+Blood Pressure: 128/82 mmHg.
+No thrills.
+No left parasternal heave.
+JVP not elevated.
+Apex beat at the 5th left intercostal space, mid-clavicular line.
+S1 and S2 only.
+No added heart sounds.
+
+RESPIRATORY SYSTEM
+
+Respiratory Rate: 20 cycles/minute.
+Trachea central.
+Equal chest expansion.
+Breath sounds vesicular bilaterally.
+No added sounds.
+
+ABDOMEN
+
+Full and moves with respiration.
+Soft.
+Non-tender.
+No palpable organomegaly.
+Normoactive bowel sounds.
+L0S0K0.
+
+ASSESSMENT
+
+1. Pentazocine Dependence (Moderate-to-Severe Opioid Use Disorder) with physiological dependence.
+2. Opioid withdrawal symptoms on attempted cessation.
+3. Nicotine use.
+4. ?Comorbid anxiety symptoms.
+5. Evaluate for medical complications of recurrent parenteral drug use.
+
+DIFFERENTIAL DIAGNOSES
+
+Opioid-induced anxiety disorder.
+Substance-induced depressive disorder.
+Other substance use disorder.
+Primary anxiety disorder (to be excluded after sustained abstinence).
+
+INVESTIGATIONS
+
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Liver Function Tests.
+Fasting Blood Sugar or Random Blood Glucose.
+Urinalysis.
+HIV screening after appropriate counselling and consent.
+HBsAg.
+Anti-HCV.
+VDRL.
+Urine toxicology screening.
+Electrocardiogram.
+Chest X-ray if clinically indicated.
+Screen for other substances of abuse.
+Screen for injection-related complications.
+Consider Creatine Kinase and other investigations where clinically indicated.
+
+PLAN
+
+Admit to the Psychiatry Unit for supervised withdrawal and comprehensive substance-use management.
+
+Assess withdrawal severity using the Clinical Opiate Withdrawal Scale (COWS) and monitor vital signs regularly.
+
+Tab. Clonidine 0.1 mg orally every 8 hours for autonomic withdrawal symptoms with close blood pressure monitoring. Withhold if hypotension or bradycardia develops.
+
+Tab. Paracetamol 1 g orally every 6–8 hours as required for myalgia.
+
+Tab. Hyoscine Butylbromide 10–20 mg orally every 8 hours as required for abdominal cramps.
+
+Tab./Inj. Ondansetron 4 mg orally or IV every 8–12 hours as required for nausea or vomiting.
+
+Oral Rehydration Solution as required for diarrhoea.
+
+If diarrhoea is severe and there is no suspicion of invasive infection:
+Cap. Loperamide 4 mg stat, then 2 mg after each loose stool.
+
+Discuss medication-assisted treatment (MAT) with the patient and family.
+
+If appropriate, commence Buprenorphine under specialist supervision:
+2–4 mg sublingually once moderate objective withdrawal has developed, reassess after 1–2 hours and titrate according to clinical response, usually to a maintenance dose of 8–16 mg daily.
+
+Alternatively, where indicated:
+Methadone 10–20 mg orally daily with cautious specialist-supervised titration according to withdrawal symptoms, craving and clinical response.
+
+Provide psychoeducation regarding opioid dependence, withdrawal, relapse prevention and long-term recovery.
+
+Conduct motivational interviewing and relapse-prevention counselling.
+
+Screen for and manage comorbid psychiatric illness.
+
+Evaluate and treat injection-related complications where present.
+
+Counsel regarding overdose risk and avoidance of alcohol, benzodiazepines and other sedatives.
+
+Provide naloxone education and consider naloxone provision where available.
+
+Arrange follow-up with the Psychiatry/Addiction Medicine Clinic for long-term maintenance therapy, psychosocial rehabilitation and community reintegration.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+    
+  {
+    id: 'bs-09',
+    title: 'Cannabis-Induced Psychotic Disorder',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry',
+    condition: 'Cannabis-Induced Psychotic Disorder',
+    symptoms: ['Abnormal behaviour', 'Auditory hallucinations', 'Persecutory delusions', 'Aggressive behaviour', 'Severe insomnia', 'Social withdrawal'],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '22-year-old male undergraduate with heavy daily cannabis use presenting with a 2-week history of progressive behavioural change, persecutory delusions, auditory hallucinations, severe insomnia and recent aggressive behaviour, consistent with cannabis-induced psychotic disorder.',
+    content: `PSYCHIATRY CLINIC
+    
+    Patient Seen
+    
+    A 22-year-old Yoruba male, Christian, undergraduate student residing in Yaba, Lagos State. He is the second of four children in a monogamous family. History was obtained from his mother, who is a reliable informant.
+    
+    PRESENTING COMPLAINT
+    
+    Abnormal behaviour × 2 weeks.
+    Poor sleep × 2 weeks.
+    Aggressive behaviour × 3 days.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The patient is a 22-year-old male undergraduate student who was brought to the outpatient clinic by his mother on account of abnormal behaviour of 2 weeks' duration.
+    
+    The onset was gradual and characterized by progressive social withdrawal, neglect of personal hygiene and talking to himself.
+    
+    According to the mother, the patient has been expressing unfounded beliefs that his roommates and neighbours are plotting to poison his food and harm him. He has also been observed reacting to unseen stimuli, occasionally shouting at empty spaces as if arguing with someone, suggestive of auditory hallucinations.
+    
+    Over the past 2 weeks, his sleep has been severely disrupted. He reportedly sleeps for approximately 2 hours per night and is often found pacing around the room.
+    
+    Over the last 3 days, he became increasingly irritable and physically aggressive towards family members, destroying household items without apparent provocation.
+    
+    There is a known history of chronic cannabis use ("Loud", "Skunk") for approximately 3 years, which has reportedly escalated to daily use over the past 6 months due to academic stress and suspension from school.
+    
+    There is no history of fever, headache, neck stiffness, convulsions or head injury.
+    
+    There is no history of previous episodes of similar behavioural changes.
+    
+    There is no history of depressive symptoms, manic episodes prior to substance use or suicidal ideation.
+    
+    PAST MEDICAL HISTORY
+    
+    No previous psychiatric admissions or evaluations.
+    No history of chronic medical conditions including hypertension, asthma or epilepsy.
+    No history of previous blood transfusions or major surgery.
+    
+    DRUG HISTORY
+    
+    Active daily cannabis use by smoking for approximately 3 years.
+    Occasional social alcohol use.
+    No history of intravenous drug use.
+    No regular prescription medications.
+    No history of traditional herbal concoction ingestion prior to presentation.
+    
+    FAMILY HISTORY
+    
+    Second of four children in a monogamous family.
+    Parents are civil servants residing in Lagos.
+    No known family history of mental illness or substance use disorders.
+    
+    SOCIAL HISTORY
+    
+    Currently on academic suspension from a tertiary institution due to poor academic performance.
+    
+    REVIEW OF SYSTEMS
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    Restlessness.
+    Aggressive behaviour.
+    Insomnia.
+    No seizures.
+    No focal weakness.
+    
+    CARDIOVASCULAR:
+    
+    No chest pain.
+    No palpitations.
+    
+    RESPIRATORY:
+    
+    No cough.
+    No dyspnoea.
+    
+    GASTROINTESTINAL:
+    
+    Normal appetite.
+    No vomiting.
+    Normal bowel habits.
+    
+    GENITOURINARY:
+    
+    No dysuria.
+    Normal micturition.
+    
+    GENERAL EXAMINATION
+    
+    An acutely ill-looking, unkempt young man with poor personal hygiene, wearing stained clothes.
+    He is conscious but uncooperative and highly suspicious of his surroundings.
+    Mildly dehydrated.
+    No conjunctival pallor.
+    Anicteric.
+    No peripheral lymphadenopathy.
+    No pedal oedema.
+    
+    VITAL SIGNS
+    
+    Temperature: 36.7°C
+    Pulse Rate: 94 beats/minute, regular and normal volume
+    Respiratory Rate: 18 cycles/minute
+    Blood Pressure: 120/80 mmHg
+    SpO₂: 98% on room air
+    
+    SYSTEMIC EXAMINATION
+    
+    CARDIOVASCULAR SYSTEM:
+    
+    S1 and S2 heard.
+    No murmurs.
+    Pulse character normal.
+    
+    RESPIRATORY SYSTEM:
+    
+    Trachea central.
+    Chest clear.
+    Vesicular breath sounds heard bilaterally.
+    
+    ABDOMEN:
+    
+    Flat, soft and non-tender.
+    No organomegaly.
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    Grossly intact motor and sensory function.
+    Formal neurological examination was limited by the patient's uncooperativeness.
+    
+    MENTAL STATE EXAMINATION
+    
+    Appearance and Behaviour:
+    
+    Unkempt young man with poor personal hygiene, wearing dirty clothes.
+    Restless.
+    Poor eye contact.
+    Suspicious and guarded posture.
+    
+    Speech:
+    
+    Rapid, high-volume speech with increased rate and pressure.
+    
+    Mood and Affect:
+    
+    Subjective mood reported as "angry".  
+    Affect is irritable, labile and incongruent with the situation.
+    
+    Thought:
+    
+    Form: Flight of ideas and loose associations.
+    
+    Content: Persecutory delusions, with the belief that his roommates want to poison him.
+    
+    Perception:
+  
+    Auditory hallucinations, with the patient reporting voices of people plotting against him.
+    
+    Cognition:
+    
+    Oriented to time, place and person.
+    Attention and concentration impaired.
+    
+    Insight:
+    
+    Grade 1, with complete denial of illness.
+    
+    ASSESSMENT
+    
+    1. Cannabis-Induced Psychotic Disorder.
+    2. Cannabis Use Disorder, severe.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    1. First-Episode Schizophrenia.
+    2. Brief Psychotic Disorder.
+    3. Organic Psychosis secondary to cerebral malaria or meningitis.
+    
+    INVESTIGATIONS
+    
+    1. Urine Toxicology Screen to confirm recent cannabis use and assess for co-ingestion of other substances, including amphetamines and tramadol.
+    2. Full Blood Count.
+    3. Malaria Parasite Microscopy/Smear.
+    4. Serum Electrolytes, Urea and Creatinine.
+    5. Liver Function Tests.
+    6. Random Blood Glucose.
+    
+    INITIAL MANAGEMENT PLAN
+    
+    STABILIZATION AND SAFETY:
+    
+    Nurse in a quiet, low-stimulus environment to reduce agitation.
+    
+    Remove potentially harmful objects from the patient's immediate vicinity.
+    
+    Ensure close observation due to the risk of aggression, absconding or harm to self or others.
+    
+    ACUTE AGITATION:
+    
+    If there is severe agitation or immediate risk of harm to self or others:
+    
+    Administer Inj. Haloperidol 5 mg IM combined with Inj. Promethazine 25 mg IM stat, with appropriate monitoring.
+    
+    Further doses should be guided by clinical response and local psychiatric emergency protocols.
+    
+    Monitor for extrapyramidal symptoms, excessive sedation, hypotension and other adverse effects.
+    
+    PHARMACOTHERAPY:
+    
+    Once the patient is cooperative and medically stable:
+    
+    Consider initiation of an atypical antipsychotic.
+    
+    Tab. Olanzapine 10 mg orally at night.
+    
+    Alternatively:
+    Tab. Risperidone 2 mg orally twice daily.
+    
+    Choice and dose should be reviewed by the treating psychiatrist based on clinical response, adverse effects and comorbidities.
+    
+    SUPPORTIVE CARE:
+    
+    Ensure adequate hydration.
+    
+    Administer intravenous fluids if the patient refuses oral intake due to paranoia or if clinically dehydrated.
+    
+    Monitor vital signs, including BP, PR and temperature, every 4 hours or more frequently if clinically indicated.
+    
+    Monitor mental state, agitation level and response to treatment.
+    
+    REFERRAL AND LONG-TERM MANAGEMENT:
+    
+    Once medically stabilized and acute agitation is controlled, refer to a tertiary psychiatric facility with specialist psychiatric and addiction services for comprehensive assessment and management.
+    
+    Long-term management should include cessation of cannabis use, motivational enhancement therapy, cognitive behavioural therapy where appropriate, relapse prevention and psychosocial rehabilitation.
+    
+    Family involvement and psychoeducation should be encouraged.
+    
+    The patient should be monitored for persistence of psychotic symptoms after sustained abstinence, as this may help distinguish a persistent primary psychotic disorder from a substance-induced psychotic disorder.
+    
+    PROGNOSIS:
+    
+    Potentially good if cannabis use is discontinued and treatment is initiated early. Prognosis is influenced by the duration and severity of cannabis exposure, adherence to treatment and whether psychotic symptoms persist after sustained abstinence. Continued cannabis use increases the risk of recurrent psychosis and progression to a persistent psychotic disorder.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'bs-08',
+    title: 'Polysubstance Use Disorder with Acute Withdrawal State',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Addiction Psychiatry',
+    condition: 'Polysubstance Use Disorder',
+    symptoms: ['Erratic behaviour', 'Aggressive outbursts', 'Poor sleep', 'Drug-seeking behaviour', 'Neglect of personal hygiene', 'Withdrawal symptoms'],
+    contributor: 'Admin',
+    lastModified: '2026-07-21',
+    summary: '24-year-old woman with prolonged codeine-containing cough syrup and cannabis use, with recent synthetic cannabinoid exposure, presenting with progressive behavioural disturbance, aggression, poor sleep, drug-seeking behaviour and symptoms suggestive of opioid withdrawal.',
+    content: `BEHAVIOURAL SCIENCES / ADDICTION PSYCHIATRY
+    
+    Patient Seen
+    
+    A 24-year-old Yoruba female, Christian, unemployed and a former undergraduate student, residing in Yaba, Lagos State. She is the second of four children from a monogamous family. History was obtained from her mother, who is a reliable historian.
+    
+    PRESENTING COMPLAINT
+    
+    Erratic behaviour, aggressive outbursts and poor sleep × 2 weeks.
+    
+    Progressive neglect of personal hygiene and drug-seeking behaviour × 6 months.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The patient is a 24-year-old female who was brought to the facility by her mother on account of erratic behaviour and aggressive outbursts of 2 weeks' duration.
+    
+    The mother reports that the patient has become increasingly irritable, frequently shouting at family members and destroying household items when denied money. Her sleep has significantly reduced, averaging approximately 2–3 hours per night.
+    
+    There is a background history of progressive behavioural change of approximately 6 months' duration, characterized by dropping out of university lectures, stealing household items to sell and associating with peers known to abuse psychoactive substances.
+    
+    The mother recently discovered empty bottles of codeine-containing cough syrup, wraps of cannabis ("Loud") and suspected synthetic cannabinoids ("Colorado") in the patient's room.
+    
+    When she does not have access to these substances, she develops severe restlessness, generalized body aches, excessive sweating, rhinorrhoea and abdominal cramps, suggestive of opioid/substance withdrawal.
+    
+    There is no history of visual or auditory hallucinations. There are no grandiose beliefs or symptoms suggestive of a primary mood disorder preceding the onset of substance use.
+    
+    There is no history of head injury, convulsions or high-grade fever preceding the onset of symptoms.
+    
+    PRIOR TO PRESENTATION:
+    
+    The patient was taken to a spiritual healing home approximately 1 week prior to presentation, with no significant improvement, prompting presentation at this facility.
+    
+    PAST MEDICAL HISTORY
+    
+    No previous history of diagnosed psychiatric illness.
+    No history of chronic medical conditions including hypertension, asthma or diabetes mellitus.
+    No history of previous blood transfusion or major surgery.
+    
+    Genotype: AA.
+    
+    DRUG HISTORY
+    
+    Active abuse of codeine-containing cough syrup, reportedly up to 2–3 bottles daily, for approximately 18 months.
+    Smoked cannabis ("Loud") for approximately 18 months.
+    Recent use of suspected synthetic cannabinoids ("Colorado") for approximately 3 months.
+    No history of intravenous drug use.
+    No known drug allergies.
+    
+    FAMILY HISTORY
+    
+    Second of four children in a monogamous family.
+    Father has a history of chronic alcohol abuse.
+    No known family history of major mental illness.
+    
+    SOCIAL HISTORY
+    
+    The patient dropped out of a private university in Southwestern Nigeria during her third year due to academic decline.
+    She currently lives with her parents in a rented 3-bedroom apartment in Yaba, Lagos State.
+    
+    REVIEW OF SYSTEMS
+    
+    GENERAL:
+    
+    Mild weight loss.
+    No fever.
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    Poor sleep.
+    Restlessness.
+    Drug cravings.
+    No seizures.
+    No focal weakness.
+    
+    CARDIOVASCULAR:
+    
+    Occasional palpitations during withdrawal.
+    No chest pain.
+    No orthopnoea.
+    
+    GASTROINTESTINAL:
+    
+    Occasional abdominal cramps and diarrhoea associated with withdrawal.
+    Reduced appetite.
+    
+    RESPIRATORY:
+    
+    No cough.
+    No dyspnoea.
+    
+    GENERAL EXAMINATION
+    
+    An acutely ill-looking young woman, dishevelled and poorly groomed, wearing stained clothing with a strong body odour.
+    She is mildly dehydrated.
+    Not pale.
+    Anicteric.
+    Acyanotic.
+    No peripheral lymphadenopathy.
+    No pedal oedema.
+    
+    VITAL SIGNS
+    
+    Temperature: 37.1°C
+    Pulse Rate: 98 beats/minute, regular and moderate volume
+    Blood Pressure: 115/75 mmHg
+    Respiratory Rate: 18 cycles/minute
+    SpO₂: 98% on room air
+    
+    MENTAL STATE EXAMINATION
+    
+    Appearance and Behaviour:
+    
+    Dishevelled young woman wearing stained clothes with uncombed hair.
+    Restless while seated.
+    Avoids direct eye contact.
+    Occasionally scratches her skin.
+    
+    Speech:
+    
+    Rapid and high-pitched but coherent and relevant.
+    
+    Mood and Affect:
+    
+    Subjective mood described as "angry and tired".
+    Affect is irritable, labile and congruent with mood.
+    
+    Thought:
+    
+    No formal thought disorder.
+    No delusions of persecution, reference or grandeur.
+    Preoccupied with leaving the clinic to "get some rest", in the context of apparent drug-seeking behaviour.
+    
+    Perception:
+    
+    No active auditory or visual hallucinations.
+    
+    Cognition:
+    
+    Oriented to time, place and person.
+    Attention and concentration mildly impaired.
+    Immediate, recent and remote memory intact.
+    
+    Insight:
+    
+    Poor insight, with complete denial of illness or perceived need for treatment.
+    
+    SYSTEMIC EXAMINATION
+    
+    CARDIOVASCULAR SYSTEM:
+    
+    S1 and S2 heard.
+    No murmurs.
+    Pulse regular.
+    
+    RESPIRATORY SYSTEM:
+    
+    Trachea central.
+    Chest clear.
+    Vesicular breath sounds heard bilaterally.
+    
+    ABDOMEN:
+    
+    Soft.
+    Mild generalized tenderness.
+    No organomegaly.
+    Bowel sounds normoactive.
+    
+    CENTRAL NERVOUS SYSTEM:
+    
+    No focal neurological deficits.
+    Pupils equal and reactive to light, mildly dilated at approximately 4 mm bilaterally.
+    
+    ASSESSMENT
+    
+    Polysubstance Use Disorder involving opioids and cannabis, with acute withdrawal state and substance-induced behavioural disturbance.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    1. Substance-Induced Psychotic Disorder.
+    2. First-Episode Schizophrenia with comorbid Substance Use Disorder.
+    3. Bipolar Affective Disorder, current episode manic with psychotic features, potentially precipitated or exacerbated by substance use.
+    
+    INVESTIGATIONS
+    
+    1. Urine Toxicology Screen (Multi-panel) to assess for cannabinoids, opiates, benzodiazepines and other commonly abused substances.
+    2. Full Blood Count.
+    3. Serum Electrolytes, Urea and Creatinine.
+    4. Liver Function Tests.
+    5. Random Blood Glucose.
+    6. HIV screening.
+    7. Hepatitis B surface antigen (HBsAg).
+    8. Hepatitis C virus (HCV) screening.
+    
+    INITIAL MANAGEMENT PLAN
+    
+    IMMEDIATE STABILIZATION AND SAFETY:
+    
+    Admit to a holding bay or psychiatric ward under close observation.
+    
+    Ensure a safe environment and prevent self-harm, absconding and access to illicit substances.
+    
+    AGITATION CONTROL:
+    
+    If acutely agitated and unable to cooperate:
+    
+    Consider benzodiazepine administration according to local emergency psychiatric protocol, with close monitoring of respiratory and cardiovascular status.
+    
+    If cooperative and oral medication is appropriate:
+    
+    Consider Tab. Olanzapine 10 mg orally, with specialist review and monitoring.
+    
+    HYDRATION:
+    
+    Establish intravenous access if clinically indicated.
+    
+    Administer intravenous fluids to correct dehydration, guided by clinical assessment, oral intake and fluid status.
+    
+    NUTRITIONAL SUPPORT:
+    
+    Tab. Thiamine (Vitamin B1) 100 mg orally once daily.
+    
+    Tab. Vitamin B Complex, 1 tablet orally once daily.
+    
+    SYMPTOMATIC MANAGEMENT OF WITHDRAWAL:
+    
+    For abdominal cramps:
+    
+    Tab. Hyoscine Butylbromide 10 mg orally three times daily as required.
+    
+    For pain and generalized body aches:
+    
+    Tab. Paracetamol 1 g orally three times daily as required.
+    
+    MONITORING:
+    
+    Monitor vital signs, including BP, PR, temperature and RR, every 4 hours or more frequently if clinically indicated.
+    
+    Monitor level of consciousness.
+    
+    Assess and monitor withdrawal severity using the Clinical Opiate Withdrawal Scale (COWS), if available.
+    
+    Monitor for worsening agitation, delirium, psychosis, seizures or other complications of substance withdrawal.
+    
+    REFERRAL AND LONG-TERM CARE:
+    
+    Once medically stabilized, refer to a tertiary psychiatric facility with addiction psychiatry services for specialist assessment.
+    
+    Management should include structured withdrawal management/detoxification, comprehensive psychiatric assessment, relapse prevention, psychosocial interventions, cognitive behavioural therapy where appropriate and long-term rehabilitation.
+    
+    Engage the patient's family in treatment planning and psychoeducation.
+    
+    Assess for coexisting psychiatric disorders and medical complications of prolonged substance use.
+    
+    PROGNOSIS:
+    
+    Guarded without sustained treatment due to poor insight, ongoing polysubstance use, drug-seeking behaviour and significant psychosocial impairment. Prognosis improves with supervised withdrawal management, specialist addiction treatment, family involvement, psychosocial rehabilitation and sustained abstinence.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
     id: 'bs-07',
     title: 'Autism Spectrum Disorder in a Young Adult',
     specialty: 'Behavioral Sciences',

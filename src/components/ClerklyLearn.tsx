@@ -68,7 +68,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search symptoms or topics..."
+          placeholder="Search topics..."
           className="w-full bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 rounded-xl py-2.5 pl-9 pr-9 text-xs focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 outline-none transition-all dark:text-slate-200"
         />
         {searchQuery && (

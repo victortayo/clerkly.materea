@@ -2214,8 +2214,5009 @@ Putting It Together: The Summary
     `
   },
 
+
+  {
+    id: 'symptom-clerking-insomnia',
+    title: 'Insomnia',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Insomnia</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Insomnia</h1>
+    <p class="text-sm text-indigo-200">Insomnia is rarely just about sleep - it is often the surface presentation of depression, anxiety, an underlying medical condition, substance use, or simply an environment that makes rest difficult (heat, mosquitoes, noise, overcrowding). Mental health stigma locally means mood and safety may not be volunteered unless asked directly and sensitively. This guide focuses on the history and examination that uncover the real driver behind poor sleep, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Insomnia Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Is the difficulty falling asleep, staying asleep (frequent waking), or waking too early and being unable to get back to sleep? (Early morning waking is a particularly important pattern to note - it is classically associated with depression.)</li>
+      <li>How long has this been going on - is it a recent change (under 3 months) or a longstanding pattern?</li>
+      <li>How many nights a week is sleep affected, and roughly how many hours of sleep is the patient actually getting?</li>
+      <li>How is this affecting daytime functioning - fatigue, poor concentration, irritability, or reduced work performance? (This matters particularly for anyone whose work requires sustained alertness, such as commercial drivers.)</li>
+      <li>What does the pre-sleep routine and sleeping environment look like - screen use before bed, room temperature, noise, and who else is in the sleeping space?</li>
+      <li>Has anything been tried already (over-the-counter remedies, herbal preparations, or specific routines), and did it help?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mood/mental health (ask directly and without judgement - this is often not volunteered):</span> persistent low mood, loss of interest or pleasure in things usually enjoyed, feelings of hopelessness, excessive worry or racing thoughts, or - where mood symptoms are present - whether the patient has ever had thoughts of harming themselves or not wanting to be alive. This is a standard, necessary safety question whenever depression is suspected, not an accusatory one.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Elevated mood/mania screen:</span> any periods of needing very little sleep while still feeling full of energy, unusually elevated mood, or racing thoughts - important not to miss, since treating this as simple insomnia can be harmful.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sleep-related breathing:</span> loud snoring, witnessed pauses in breathing, gasping/choking during sleep, or morning headaches - raises obstructive sleep apnoea.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological:</span> an uncomfortable urge to move the legs, particularly in the evening, relieved by movement - raises restless legs syndrome.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Endocrine:</span> heat intolerance, weight loss, palpitations, or tremor - raises hyperthyroidism.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary:</span> frequent night-time urination disrupting sleep - relevant to diabetes, benign prostatic disease, or heart failure.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiorespiratory:</span> breathlessness on lying flat, or waking gasping for breath - raises heart failure or poorly controlled asthma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pain:</span> any chronic pain condition that specifically disrupts sleep.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Lifestyle and Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Caffeine/stimulant intake:</span> tea, coffee, cola/energy drinks, or kola nut - how much, and how late in the day?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> alcohol can help someone fall asleep initially but fragments sleep later in the night.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Other substance use:</span> use of tramadol or other opioids outside of prescription, or other stimulants - misuse of these is a recognized local concern and can significantly disrupt sleep architecture.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> steroids, some antihypertensives, decongestants, or antidepressants that can affect sleep.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupation:</span> shift work, night security duty, or other work patterns that disrupt a regular sleep-wake schedule.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sleeping environment:</span> heat, mosquitoes, generator or traffic noise, overcrowded or shared sleeping spaces - these are common, fixable contributors that are easy to overlook.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Religious/night-time practices:</span> regular attendance at night vigils or similar activities that shift sleep timing - worth understanding as a lifestyle factor, without judgement, since it may simply need scheduling around rather than "treating."</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Psychosocial stressors:</span> financial pressure, relationship difficulties, bereavement, or exposure to insecurity/trauma - ask gently and let the patient lead on how much they want to share.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reproductive/postpartum status:</span> pregnancy, recent delivery, or menopausal symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Comorbidities:</span> known hypertension, diabetes, asthma, heart failure, or chronic pain conditions.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family/personal psychiatric history:</span> previous depression, anxiety, or other mental health diagnoses.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>General appearance - visibly fatigued, psychomotor slowing (may suggest depression), or agitation.</li>
+      <li>Weight/BMI and neck circumference - relevant to obstructive sleep apnoea risk.</li>
+      <li>Blood pressure and heart rate - poorly controlled hypertension and tachycardia can both disrupt sleep and be worsened by it.</li>
+      <li>Signs of hyperthyroidism - tremor, tachycardia, warm moist skin, or a goitre.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Basic Mental State Assessment</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Appearance and behaviour, mood and affect, and thought content - conducted sensitively and without making the patient feel judged or labelled.</li>
+      <li>Where low mood or hopelessness has been disclosed, gently and directly ask about safety (thoughts of self-harm or suicide) - this is a necessary clinical step, not an intrusion.</li>
+      <li>Cognitive screen where relevant, particularly in an older patient with new sleep disturbance.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination Where Indicated</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Cardiorespiratory examination - where heart failure or asthma is suspected as a cause of nocturnal symptoms.</li>
+      <li>Basic neurological examination - where restless legs syndrome or another neurological cause is suspected.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Active suicidal ideation or a plan</span> - in a patient with depression-linked insomnia, this needs an immediate, direct safety assessment and urgent referral; do not let discomfort with the topic lead to avoiding the question.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Features suggesting mania/hypomania</span> - markedly decreased need for sleep without fatigue, elevated or irritable mood, and grandiosity; needs psychiatric assessment rather than being treated as simple insomnia.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Significant obstructive sleep apnoea features</span> - loud snoring, witnessed apnoeas, and marked daytime sleepiness, particularly alongside hypertension or obesity - carries real cardiovascular risk if untreated.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of substance withdrawal</span> (e.g. alcohol or opioid) - severe insomnia with autonomic instability (tremor, sweating, tachycardia) can indicate a withdrawal state needing urgent medical management.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">New severe insomnia in the postpartum period with confusion, agitation, or unusual thoughts</span> - raises postpartum psychosis, a psychiatric emergency.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - to screen for hyperthyroidism where suggestive symptoms are present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC and ferritin</span> - iron deficiency is associated with restless legs syndrome, and anaemia can contribute to fatigue.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose</span> - where nocturia or other diabetes symptoms are present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">A standardized depression/anxiety screening tool</span> (e.g. PHQ-9, GAD-7) where available, to help quantify severity and guide referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Polysomnography (sleep study)</span> - the definitive test for suspected obstructive sleep apnoea, where access allows; where unavailable, clinical assessment and risk-factor modification still guide management.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal/cardiac assessment</span> - where nocturia or nocturnal breathlessness suggests an underlying renal or cardiac cause.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Primary/psychophysiological insomnia</span> - a learned pattern of poor sleep, often perpetuated by anxiety about sleep itself.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression-related insomnia</span> - classically early morning waking, alongside low mood and loss of interest.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety-related insomnia</span> - difficulty falling asleep with racing thoughts or worry.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bipolar disorder (manic/hypomanic episode)</span> - markedly reduced need for sleep without fatigue.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Obstructive sleep apnoea</span> - loud snoring, witnessed apnoeas, daytime sleepiness, often with obesity.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Restless legs syndrome</span> - an uncomfortable urge to move the legs, worse in the evening.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - weight loss, heat intolerance, tremor, palpitations.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Substance-related</span> - caffeine/stimulant excess, alcohol use, or tramadol/opioid misuse.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - steroids, certain antihypertensives, decongestants.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Environmental</span> - heat, mosquitoes, noise, overcrowded sleeping space.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic pain-related insomnia</span> - pain that specifically disrupts sleep.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nocturia-related</span> - benign prostatic disease, diabetes, or heart failure causing frequent waking.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopause-related insomnia</span> - often with night sweats/hot flashes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Shift work sleep disorder</span> - misalignment between work schedule and the body's natural sleep-wake cycle.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Trauma-related insomnia</span> - including nightmares and hyperarousal following a significant traumatic experience.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/Non-Pharmacological Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sleep hygiene education</span> - a consistent sleep-wake schedule, reducing caffeine/cola nut particularly in the afternoon and evening, limiting screen use before bed, and avoiding excessive daytime napping.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Addressing the sleeping environment</span> - practical steps such as bednets and fans for heat/mosquitoes, and where possible, reducing noise exposure.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cognitive behavioural therapy for insomnia (CBT-I)</span> - the recommended first-line treatment for chronic insomnia where trained providers or structured programmes are available, and more effective long-term than medication alone.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Relaxation techniques</span> - can help reduce pre-sleep anxiety and physiological arousal.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression-related insomnia</span> - treat the underlying depression (psychotherapy and/or antidepressants as indicated), with safety planning where suicidal ideation is present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety-related insomnia</span> - CBT and/or anxiolytic treatment as clinically indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bipolar disorder</span> - psychiatric referral for mood stabilization; this should not be managed with sedatives alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Obstructive sleep apnoea</span> - weight loss where relevant, CPAP where available and tolerated, and ENT referral for anatomical contributors.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Restless legs syndrome</span> - iron supplementation if ferritin is low, with dopaminergic agents considered for persistent symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - treatment of the underlying thyroid disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Substance-related</span> - counselling on reducing caffeine/alcohol; referral for a substance use disorder where tramadol or other misuse is identified, rather than simply prescribing a sedative on top.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Short-term pharmacological options</span> - short-course hypnotics can be considered for acute, severe insomnia, but should be used at the lowest effective dose for the shortest possible time given the risk of dependence; they are not a substitute for addressing the underlying cause.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Difficulty sleeping, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Pattern (initial/middle/late insomnia), duration, daytime impact, sleep environment/routine, associated mood/physical symptoms, directed lifestyle history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Psychiatric History</dt>
+      <dd class="mt-0.5">Previous depression/anxiety, thyroid disease, comorbid medical conditions.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Substance History</dt>
+      <dd class="mt-0.5">Caffeine/cola nut intake, alcohol use, tramadol/other substance use, current medications.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Occupation/shift pattern, sleeping environment, psychosocial stressors, family history of mental health conditions.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination/Mental State Findings</dt>
+      <dd class="mt-0.5">General and relevant systemic findings, basic mental state assessment, explicitly documenting danger signs including safety screening where indicated.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Prescribing a sleeping tablet without first asking about mood, safety, or substance use.</li>
+    <li>Avoiding the question about suicidal thoughts out of discomfort, once low mood has been disclosed.</li>
+    <li>Missing features of mania/hypomania and treating reduced sleep need as ordinary insomnia.</li>
+    <li>Attributing insomnia purely to "stress" without screening for thyroid disease or sleep apnoea.</li>
+    <li>Prescribing benzodiazepines or other hypnotics long-term without a plan to address the underlying cause.</li>
+    <li>Overlooking simple, fixable environmental factors - heat, mosquitoes, noise - in favour of jumping straight to medication.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always screen mood and, where indicated, safety - insomnia is very often a symptom of depression or anxiety rather than an isolated sleep problem.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Early morning waking is a classic red flag for depression and should prompt a mood screen.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask specifically about caffeine/cola nut intake and tramadol or other substance use - both are common, under-reported contributors locally.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Simple environmental factors - heat, mosquitoes, noise - are often fixable and frequently overlooked in favour of medication.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Avoid long-term hypnotic prescribing without a clear plan to address the underlying cause.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Sleep Medicine - Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - mhGAP Intervention Guide for Mental, Neurological and Substance Use Disorders.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>International Classification of Sleep Disorders (ICSD-3).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - National Policy for Mental Health Services Delivery, Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Insomnia: Clinical Knowledge Summary.</li>
+    </ul>
+  </div>
+</details>
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-vaginal-discharge',
+    title: 'Vaginal Discharge',
+    category: 'Symptom Clerking',
+    subCategory: 'Gynecological',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Vaginal Discharge</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
  
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Vaginal Discharge</h1>
+    <p class="text-sm text-indigo-200">Vaginal discharge ranges from a normal physiological finding to the presenting feature of an infection, pelvic inflammatory disease, or occasionally malignancy. Getting the history right depends on taking a sensitive, non-judgemental sexual history - something that is easy to rush or avoid, but is essential for an accurate diagnosis and for treating partners where needed. This guide focuses on the history and examination that clarify the underlying cause, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Discharge Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>What colour is it - white, yellow, green, grey, or blood-stained?</li>
+      <li>What is the consistency - thin and watery, thick and curdy ("cottage cheese"-like), or frothy?</li>
+      <li>Is there any odour, and how would the patient describe it (e.g. fishy)?</li>
+      <li>How much is there, and has the amount changed recently?</li>
+      <li>Does it relate to the menstrual cycle, or to intercourse?</li>
+      <li>Has anything been tried already (over-the-counter treatments, herbal preparations, or douching), and did it help?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Local:</span> itching, soreness, burning, or visible lesions/sores/warts.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary:</span> dysuria or urinary frequency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic:</span> lower abdominal or pelvic pain, and pain during intercourse (dyspareunia).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bleeding:</span> intermenstrual bleeding, bleeding after intercourse (postcoital bleeding), or, in an older patient, any bleeding after menopause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Systemic:</span> fever, chills, or general malaise - raises a more significant pelvic infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menstrual/reproductive:</span> last menstrual period, regularity of cycles, and possibility of pregnancy.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history:</span> ask privately, without a partner present, and without judgement - number of partners, any new partner recently, condom use, and whether a partner has any similar symptoms. This information is clinically necessary, not optional, and patients are more forthcoming when the questions are asked matter-of-factly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous STIs:</span> any prior sexually transmitted infection, and how it was treated.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Contraception:</span> current method, particularly an intrauterine device (raises the possibility of a foreign-body-related infection if inserted recently or if strings cannot be felt).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent antibiotic use:</span> a common precipitant of candidiasis by disrupting normal vaginal flora.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> known or undiagnosed diabetes increases susceptibility to recurrent candidiasis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status:</span> known status or risk factors, since immunosuppression predisposes to recurrent or atypical infections.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hygiene practices:</span> vaginal douching or use of scented soaps/products, both of which can disrupt normal flora and cause irritation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Obstetric history:</span> recent delivery, miscarriage, or termination, which raises retained products of conception or postpartum/post-abortal infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopausal status:</span> postmenopausal discharge or bleeding needs malignancy actively excluded, not just treated as infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Safety:</span> where the history or presentation raises any concern, gently and privately ask about safety at home and in relationships - some patients disclose intimate partner or sexual violence only when given a private, unhurried opportunity to do so.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General and Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>General appearance and vital signs, particularly temperature - fever alongside discharge raises a more significant pelvic infection.</li>
+      <li>Abdominal palpation for lower abdominal or suprapubic tenderness.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Genital and Pelvic Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Always explain the examination clearly, obtain consent, and ensure a chaperone is present.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">External inspection</span> - erythema, excoriation from scratching, ulcers or sores (herpes, syphilis), or warty lesions (HPV).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Speculum examination</span> - directly note the colour, consistency, and odour of the discharge, and inspect the cervix for inflammation (cervicitis), an irregular or friable lesion, or contact bleeding.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bimanual examination</span> - cervical motion tenderness, uterine tenderness, or an adnexal mass/tenderness, all of which raise pelvic inflammatory disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Check for a retained foreign body</span> - a forgotten tampon or other object, particularly where the discharge is foul-smelling and disproportionate to other findings.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever with severe pelvic pain and cervical motion tenderness</span> - raises pelvic inflammatory disease or a tubo-ovarian abscess, needing prompt antibiotic treatment and close monitoring.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Positive pregnancy test with pain and discharge/bleeding</span> - ectopic pregnancy must be actively excluded before assuming an infective cause.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever, foul discharge, and uterine tenderness in a pregnant patient</span> - raises chorioamnionitis, an obstetric emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Postmenopausal bleeding or discharge, or an irregular/friable cervical lesion</span> - malignancy must be actively excluded, not assumed to be a simple infection.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Disclosure of sexual violence or intimate partner violence</span> - respond with a calm, supportive, and non-judgemental approach, and follow local safeguarding/referral pathways.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Heavy vaginal bleeding with haemodynamic instability</span> - needs urgent resuscitation and gynaecological assessment.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">High vaginal swab</span> - for microscopy and culture, including a wet mount and whiff test where available, to help distinguish candidiasis, bacterial vaginosis, and trichomoniasis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Endocervical swab</span> - for gonorrhoea and chlamydia testing (NAAT where available); where laboratory testing is not accessible, the WHO syndromic management approach guides empirical treatment based on the clinical picture.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine or serum pregnancy test</span> - in any woman of reproductive age, before treatment is finalized.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV and syphilis screening</span> - as part of a comprehensive STI workup, with appropriate pre-test discussion and consent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose</span> - where recurrent or difficult-to-treat candidiasis raises the possibility of underlying diabetes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic ultrasound</span> - where a tubo-ovarian abscess, retained products of conception, or another pelvic mass is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cervical screening (Pap smear/HPV testing)</span> - where an irregular cervical lesion is seen, or as part of routine screening where due.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Physiological discharge</span> - clear/white, odourless, varying with the menstrual cycle; a diagnosis of exclusion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Candidiasis</span> - thick, white, curdy discharge with itching and soreness, often without odour.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacterial vaginosis</span> - thin, grey discharge with a fishy odour, often worse after intercourse.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Trichomoniasis</span> - frothy, yellow-green discharge, sometimes with itching and a "strawberry" cervix on examination.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gonococcal/chlamydial cervicitis</span> - mucopurulent discharge, may be asymptomatic, with cervical inflammation or contact bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - discharge with pelvic pain, fever, and cervical motion tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Atrophic vaginitis</span> - in a postmenopausal woman, with dryness, soreness, and sometimes light bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Retained foreign body</span> - foul-smelling discharge disproportionate to other findings, particularly in a child or following forgotten tampon use.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cervical ectropion</span> - a benign cause of mucoid discharge and occasional contact bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cervical or endometrial malignancy</span> - foul, blood-stained discharge, particularly with an irregular cervical lesion or postmenopausal bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Retained products of conception/postpartum infection</span> - foul discharge with fever following delivery, miscarriage, or termination.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Allergic/contact vaginitis</span> - related to soaps, douching products, or other irritants.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief and General Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Advise against vaginal douching and scented products</span> - these disrupt normal vaginal flora and often worsen rather than improve symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Loose, breathable (cotton) underwear</span> - can help with comfort and reduce recurrence of candidiasis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Simple analgesia</span> - for any associated discomfort.</li>
+      <li>Symptomatic measures should not delay swabs or treatment once a likely cause has been identified.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Candidiasis</span> - a topical or oral antifungal (e.g. clotrimazole pessary/cream, or oral fluconazole); recurrent cases warrant checking blood glucose.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacterial vaginosis</span> - oral or topical metronidazole; partner treatment is not routinely required.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Trichomoniasis</span> - oral metronidazole for the patient and their partner(s), since this is sexually transmitted and reinfection is otherwise likely.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gonococcal/chlamydial infection</span> - dual antibiotic therapy per WHO/local STI treatment guidelines, with partner notification and treatment essential to prevent reinfection and further transmission.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - a combination antibiotic regimen per WHO/local guidelines, covering gonococcal, chlamydial, and anaerobic organisms; admission and IV therapy where the patient is systemically unwell.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Atrophic vaginitis</span> - topical vaginal oestrogen where appropriate and not contraindicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Retained foreign body</span> - removal, with antibiotics if there is associated infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Suspected malignancy</span> - referral to gynaecology/gynae-oncology for biopsy and staging; this is not managed empirically with antibiotics or antifungals.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Retained products of conception/postpartum infection</span> - antibiotics and evacuation of retained products where indicated, per obstetric protocol.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Vaginal discharge, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, colour, consistency, odour, amount, relation to cycle/intercourse, associated symptoms, directed risk history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Gynaecological History</dt>
+      <dd class="mt-0.5">Previous STIs, diabetes, HIV status, obstetric history.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Recent antibiotics, contraceptive method, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Sexual and Social History</dt>
+      <dd class="mt-0.5">Taken privately and sensitively - partners, condom use, partner symptoms, hygiene practices, safety at home.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, abdominal findings, external/speculum/bimanual findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given (including partner treatment where relevant), and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Skipping or rushing the sexual history out of discomfort, leading to a missed or incomplete diagnosis.</li>
+    <li>Treating a patient for an STI without also addressing and treating their partner, leading to reinfection.</li>
+    <li>Assuming foul discharge is always infective and missing an underlying malignancy.</li>
+    <li>Not excluding pregnancy before finalizing treatment in a woman of reproductive age.</li>
+    <li>Treating postmenopausal bleeding or discharge as routine infection without further gynaecological assessment.</li>
+    <li>Missing an opportunity to ask about safety when the history or presentation raises any concern.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Take the sexual history privately, sensitively, and matter-of-factly - it is clinically necessary, not optional.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Partner treatment is essential for cure and to prevent reinfection wherever an STI is diagnosed.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Postmenopausal bleeding or discharge needs malignancy actively excluded, not just empirical treatment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Where lab testing isn't accessible, use WHO syndromic management to guide empirical STI treatment rather than withholding treatment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always create a private opportunity to ask about safety where the presentation or history raises any concern.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Syndromic Case Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Pelvic Inflammatory Disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Responding to Intimate Partner Violence and Sexual Violence Against Women: Clinical and Policy Guidelines.</li>
+    </ul>
+  </div>
+</details>
+
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-recurrent-fever',
+    title: 'Recurrent Fever',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Reccurrent Fever</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Recurrent Fever</h1>
+    <p class="text-sm text-indigo-200">Recurrent fever is different from a single febrile illness - it demands finding out why the fever keeps coming back rather than simply re-treating the same presumed cause each time. In a high-malaria-transmission setting it is tempting to label every episode as malaria, but repeated "malaria" that never quite resolves may be reinfection, resistant disease, or something else entirely - TB relapse, brucellosis, sickle cell-related infection, or an autoimmune or malignant process. This guide focuses on the history and examination that uncover the real pattern, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pattern Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>How many episodes has the patient had, and over what total period of time?</li>
+      <li>Is there a regular interval between episodes, or is the pattern irregular?</li>
+      <li>How long does each episode of fever typically last, and is the patient completely well between episodes, or is there ongoing low-grade illness?</li>
+      <li>When was the very first episode, and has the pattern changed since then?</li>
+      <li>What treatment was given for each previous episode, and was it completed as prescribed? Did the fever fully resolve each time, or only partially improve before returning?</li>
+      <li>Was the diagnosis confirmed with a test each time (e.g. a positive malaria test), or was treatment given on clinical suspicion alone?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> weight loss, night sweats, and loss of appetite between or during episodes - raises TB, HIV, malignancy, or chronic infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal:</span> joint pains or swelling, bone pain, or a rash accompanying the fever - raises an autoimmune cause (e.g. adult-onset Still's disease, lupus) or osteomyelitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphatic:</span> noticeable lumps or swelling in the neck, armpit, or groin.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> abdominal pain, particularly right upper quadrant pain (raises recurrent biliary infection), or jaundice.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, or loin pain recurring with each episode - raises recurrent UTI/pyelonephritis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dental/ENT:</span> toothache, dental abscess, or recurrent sinus symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac:</span> new breathlessness or palpitations - relevant if endocarditis is being considered.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Exposure/Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria:</span> Bednet use? Was each previous episode confirmed with an RDT or microscopy, or treated presumptively? Recurrent, confirmed malaria may reflect ongoing reinfection in a high-transmission area, or, less commonly, resistant disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis:</span> Previous TB treatment, and was it completed in full? Incomplete treatment raises relapse or drug-resistant disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status:</span> Known status or risk factors? Recurrent fever with a widening range of infections raises underlying immunosuppression.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> Known genotype? Patients with sickle cell disease have functional asplenia and are at higher risk of serious infection with encapsulated organisms, and recurrent fever may reflect either infection or vaso-occlusive crises.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucellosis:</span> Occupational exposure to livestock (herding, abattoir work) or consumption of unpasteurized milk/dairy? Raises undulant (recurring, wave-like) fever.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Relapsing fever:</span> Exposure to ticks or lice, or travel to an area where tick-borne relapsing fever is recognized?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recurrent UTI:</span> Any known urinary tract abnormality, or recurrent infections in the past?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Autoimmune/family history:</span> Personal or family history of autoimmune disease?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy risk:</span> Any risk factors or personal/family history relevant to lymphoma or other malignancy?</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>General appearance - wasting or chronic illness raises TB, HIV, or malignancy.</li>
+      <li>Full set of vital signs, taken during the current episode if the patient presents while febrile.</li>
+      <li>Pallor - relevant to malaria, chronic disease, and sickle cell disease.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination for Underlying Cause</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphadenopathy</span> - palpate cervical, axillary, and inguinal nodes; raises TB, HIV, or lymphoma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatosplenomegaly</span> - common in malaria, but also relevant to brucellosis and lymphoma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Joint examination</span> - swelling, warmth, or tenderness; raises an autoimmune or infective arthritis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin</span> - any rash accompanying the fever, particularly one that comes and goes with the fever itself (seen in some autoimmune conditions).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dental and oral examination</span> - looking for a dental abscess or other oral source.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac auscultation</span> - a new or changing murmur alongside recurrent fever raises infective endocarditis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bone tenderness</span> - relevant to osteomyelitis or sickle cell-related bone disease.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever in a known sickle cell patient</span> - because of functional asplenia, these patients are at real risk of overwhelming infection with encapsulated organisms and need a lower threshold for urgent antibiotics rather than routine reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A new or changing cardiac murmur with recurrent fever</span> - raises infective endocarditis, which needs blood cultures before antibiotics and prompt cardiology input.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Unexplained weight loss with lymphadenopathy or hepatosplenomegaly</span> - raises lymphoma or another malignancy and needs prompt further workup rather than repeated empirical treatment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected TB relapse after incomplete previous treatment</span> - raises the possibility of drug-resistant disease and needs appropriate testing before restarting standard therapy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe malaria features on any recurrence</span> - impaired consciousness, prostration, jaundice, or bleeding - should be managed as severe disease regardless of how many previous episodes seemed mild.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy at each episode</span> - never assume; confirm parasitologically every time, since the pattern of confirmed versus presumed episodes materially changes the workup.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC, ESR/CRP</span> - baseline for every episode, and helpful in distinguishing infective from inflammatory/malignant causes over time.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood culture</span> - before antibiotics, particularly where endocarditis, brucellosis, or another bacteraemia is suspected; multiple sets improve yield if endocarditis is a real concern.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - where TB relapse or extrapulmonary TB is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Haemoglobin genotype</span> - where sickle cell disease is suspected but not previously confirmed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucella serology</span> - where there is a compatible occupational or dietary exposure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood film for spirochetes</span> - where relapsing fever is suspected based on exposure history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Autoimmune workup (e.g. ANA)</span> - where joint symptoms, rash, or an unrevealing infective workup points towards an autoimmune cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal ultrasound</span> - where recurrent biliary infection is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Echocardiography</span> - where infective endocarditis is suspected.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Recurrent malaria</span> - either genuine reinfection in a high-transmission setting, or, less commonly, resistant/recrudescent disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid relapse</span> - recurrence after incomplete or inadequate initial treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis (relapse or extrapulmonary)</span> - particularly after incomplete previous treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucellosis</span> - undulant, wave-like fever with a relevant occupational or dietary exposure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Relapsing fever (borrelia)</span> - recurring febrile episodes with a compatible tick/louse exposure history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Recurrent UTI/pyelonephritis</span> - dysuria, frequency, or loin pain recurring with each episode.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease-related</span> - recurrent vaso-occlusive crises, or recurrent infection due to functional asplenia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV-related recurrent opportunistic infections</span> - in a patient with known or unaddressed HIV status.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Autoimmune disease</span> (e.g. adult-onset Still's disease, systemic lupus erythematosus) - recurring fever with joint pain, rash, or an unrevealing infective workup.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphoma</span> - recurring fever, sometimes with a cyclical pattern, alongside lymphadenopathy and weight loss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Recurrent biliary infection (cholangitis/cholecystitis)</span> - right upper quadrant pain recurring with fever.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Infective endocarditis</span> - recurring fever with a new or changing murmur.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic dental/sinus infection</span> - a source that is easy to overlook if not specifically examined for.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Drug fever</span> - recurring fever temporally related to a specific medication.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief During Episodes</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Antipyretics (paracetamol)</span> - for comfort during febrile episodes, while the underlying cause is being identified.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Adequate hydration</span> - during each episode.</li>
+      <li>Resist the urge to simply repeat the same empirical treatment for each new episode without first confirming the diagnosis - this is the single most important principle in managing recurrent fever.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Recurrent malaria (confirmed reinfection)</span> - standard ACT for each confirmed episode, alongside reinforcing bednet use and vector control measures.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid relapse</span> - a full, appropriate antibiotic course guided by sensitivity where possible.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">TB relapse</span> - retreatment regimen per national guidelines, with drug-susceptibility testing to exclude resistant disease before restarting standard therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucellosis</span> - a prolonged combination antibiotic course (e.g. doxycycline with rifampicin or an aminoglycoside) per current guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Relapsing fever</span> - a course of doxycycline or an alternative antibiotic per local guidance.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Recurrent UTI/pyelonephritis</span> - antibiotics guided by culture, with further urological workup for recurrent cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell-related infection</span> - a low threshold for antibiotics covering encapsulated organisms, per local sickle cell protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV-related recurrent infection</span> - treat the specific infection, and initiate or optimize antiretroviral therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Autoimmune disease</span> - rheumatology referral for immunosuppressive treatment as indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphoma/malignancy</span> - haematology/oncology referral for staging and treatment; this is not managed with antibiotics.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Infective endocarditis</span> - prolonged IV antibiotics guided by blood culture results, with cardiology/cardiothoracic input.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Recurrent fever, number of episodes, total duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Pattern of episodes, duration of each, symptom-free intervals, associated symptoms, treatment given and adequacy for each prior episode, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Sickle cell disease, HIV status, previous TB treatment and completion, known cardiac disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">All previous treatments for prior episodes, current medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Occupational/dietary exposure (brucellosis), tick/louse exposure, family history of autoimmune disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, lymphadenopathy, hepatosplenomegaly, joint/skin findings, cardiac auscultation, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Re-treating every episode as "malaria" without confirming it parasitologically each time.</li>
+    <li>Not asking whether previous treatment courses were actually completed.</li>
+    <li>Missing TB relapse or drug-resistant disease in a patient with an incomplete treatment history.</li>
+    <li>Underestimating infection risk in a sickle cell patient due to functional asplenia.</li>
+    <li>Not considering autoimmune or malignant causes when a thorough infective workup keeps coming back unrevealing.</li>
+    <li>Overlooking a dental or sinus source as the cause of recurring fever.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm malaria parasitologically at every episode - don't assume it's "the same thing again" without testing.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check whether previous treatment courses were actually completed - incomplete treatment reframes the whole differential, particularly for TB.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cell patients have functional asplenia and need a low threshold for antibiotics with any fever, not routine reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>When infective causes have been thoroughly excluded, actively consider autoimmune disease and malignancy rather than repeating the same workup.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The goal with recurrent fever is to find out why it keeps returning, not to keep re-treating the same presumed cause.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, National Malaria Elimination Programme - National Guidelines for Diagnosis and Treatment of Malaria in Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment (Retreatment Regimens).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Brucellosis in Humans and Animals: Guidance for Diagnosis, Surveillance and Control.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Society of Hematology - Guidelines on the Management of Sickle Cell Disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-chills',
+    title: 'Chills',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Chills</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Chills</h1>
+    <p class="text-sm text-indigo-200">Chills and rigors are often dismissed as the opening act of an obvious malaria episode, but true shaking rigors are one of the strongest clinical markers of bacteraemia and deserve to be taken seriously in their own right. In specific contexts - a patient on chemotherapy, mid-transfusion, or with a recent IV line - chills can be the first sign of a genuine emergency. This guide focuses on the history and examination that separate a routine malaria paroxysm from the presentations that need urgent action, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Chills Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long did the episode last?</li>
+      <li>How severe was it - mild shivering, or a true rigor with uncontrollable shaking? (A frank rigor is a more significant finding than a mild shiver and deserves to be taken seriously.)</li>
+      <li>Was a temperature actually measured during or shortly after the episode, and if so, what was it?</li>
+      <li>Is this the first episode, or has this happened before?</li>
+      <li>Did the chills occur in relation to anything specific - during or shortly after a blood transfusion, an IV line being accessed, a dialysis session, or another procedure? (Timing here is one of the most important pieces of information in the whole history.)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General:</span> sweating after the chill resolves, headache, myalgia, or generalized weakness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough, breathlessness, or chest pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, or loin pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> abdominal pain (particularly right upper quadrant pain with jaundice, which alongside fever and rigors forms Charcot's triad for cholangitis).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin/line site:</span> any redness, swelling, or discharge at an IV line, catheter, or wound site.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Transfusion-related:</span> itching, rash, back or flank pain, or dark urine occurring during or shortly after a transfusion.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological:</span> confusion or altered behaviour - raises severe sepsis or severe malaria.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria:</span> bednet use, recent mosquito exposure, or previous episodes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chemotherapy/immunosuppression:</span> is the patient currently receiving chemotherapy, or otherwise significantly immunosuppressed? Chills and fever in this context must be treated as febrile neutropenia until proven otherwise - this is a genuine emergency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent transfusion:</span> has the patient received blood or blood products recently, and did the chills start during or shortly after the transfusion?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">IV lines/catheters/dialysis access:</span> any indwelling line, and how long has it been in place?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent surgery or invasive procedure:</span> raises post-procedural bacteraemia.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> known genotype, given the increased risk of serious bacterial infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">New medications:</span> anything started recently that could cause a drug fever/reaction.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> a recent reduction or stop in regular heavy drinking can cause tremor and chills as part of a withdrawal syndrome.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or unwell/toxic? Chills with an unwell appearance should raise concern for significant bacteraemia.</li>
+      <li>Temperature, heart rate, blood pressure, respiratory rate, and oxygen saturation - a full set of vitals is essential, since a rigor is often followed by a rapid rise in temperature and can precede haemodynamic instability.</li>
+      <li>Look specifically for hypotension or tachycardia disproportionate to the temperature - both raise sepsis.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Looking for a Source</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">IV lines/catheters/wound sites</span> - inspect specifically for redness, swelling, tenderness, or discharge.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest</span> - crepitations, reduced air entry, or signs of consolidation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdomen</span> - right upper quadrant tenderness with jaundice (cholangitis), or renal angle tenderness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin</span> - any rash, cellulitis, or signs of a transfusion reaction (urticaria, flushing).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological status</span> - any confusion or reduced consciousness changes the urgency of the case considerably.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever and chills in a patient on chemotherapy or otherwise significantly immunosuppressed</span> - treat as febrile neutropenia and give empirical broad-spectrum antibiotics immediately; this cannot wait for a neutrophil count to return.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Rigors during or shortly after a blood transfusion</span> - stop the transfusion immediately, keep the line open with saline, and notify the blood bank; do not simply give an antipyretic and continue.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Rigors with hypotension or altered consciousness</span> - a strong marker of bacteraemia progressing to septic shock; needs urgent resuscitation and early antibiotics.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Charcot's triad</span> (fever/rigors, jaundice, right upper quadrant pain) - raises ascending cholangitis, which needs urgent antibiotics and biliary drainage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Features of severe malaria on any confirmed episode</span> - impaired consciousness, prostration, jaundice, or bleeding - regardless of how mild previous episodes seemed.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood cultures (ideally two sets, from different sites)</span> - before antibiotics wherever possible, given how strongly true rigors correlate with bacteraemia; do not, however, delay antibiotics in an unstable patient purely to obtain cultures.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - as a routine part of the workup in this setting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC with differential</span> - essential in every case, and specifically the neutrophil count in any patient on chemotherapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis and urine culture</span> - where a urinary source is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest radiograph</span> - where a respiratory source is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lactate</span> - where septic shock is suspected, to guide resuscitation and severity assessment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Catheter/line-tip culture</span> - where a line infection is suspected and the line is being removed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Transfusion reaction workup</span> - repeat crossmatch, direct antiglobulin test, and urine for haemoglobinuria where a transfusion reaction is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs and abdominal ultrasound</span> - where cholangitis is suspected.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria paroxysm</span> - the commonest cause of chills locally, but should still be confirmed rather than assumed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacteraemia/sepsis (any source)</span> - urinary, respiratory, intra-abdominal, or skin/soft tissue.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid fever</span> - chills alongside the other systemic features of typhoid.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Febrile neutropenia</span> - in a patient on chemotherapy or otherwise immunosuppressed; a medical emergency.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute transfusion reaction</span> - occurring during or shortly after a blood transfusion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Catheter/line-related bloodstream infection</span> - in a patient with an indwelling line.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ascending cholangitis</span> - fever/rigors with jaundice and right upper quadrant pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pyelonephritis</span> - fever/rigors with urinary symptoms and loin tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Post-procedural bacteraemia</span> - following a recent surgery or invasive procedure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Drug fever/reaction</span> - temporally related to a new medication.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol withdrawal</span> - tremor and chills in a patient reducing or stopping regular heavy alcohol use.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief During an Episode</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Warm blankets and reassurance</span> - for comfort during a rigor.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Antipyretics (paracetamol)</span> - once a fever has developed, alongside identifying and treating the underlying cause.</li>
+      <li>Symptomatic comfort measures should never delay recognition of a genuine emergency (febrile neutropenia, transfusion reaction, or septic shock).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria</span> - ACT for uncomplicated disease, IV artesunate for severe/complicated disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacteraemia/sepsis</span> - early broad-spectrum IV antibiotics per local protocol, with fluid resuscitation and source control.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Febrile neutropenia</span> - immediate empirical broad-spectrum IV antibiotics as per local/international neutropenic sepsis protocol; this should not be delayed for any reason.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute transfusion reaction</span> - stop the transfusion, maintain IV access with saline, supportive management of any haemodynamic instability, and notify the blood bank for further workup.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Catheter-related bloodstream infection</span> - removal or exchange of the line where feasible, alongside appropriate antibiotics.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ascending cholangitis</span> - IV antibiotics and urgent biliary drainage.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pyelonephritis</span> - antibiotics as per the fever/UTI guide.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Drug fever</span> - stopping the causative medication where identified.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol withdrawal</span> - benzodiazepine-based withdrawal management per local protocol, with monitoring for progression to more severe withdrawal.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Chills/rigors, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, severity, temporal relation to any procedure/transfusion/line access, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Current chemotherapy/immunosuppression, sickle cell disease, recent surgery or procedures.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Recent new medications, current chemotherapy regimen if applicable, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Alcohol use, relevant occupational exposure.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, source examination (lines/wounds/chest/abdomen/skin), explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Assuming every episode of chills is malaria without confirming and without considering the broader differential.</li>
+    <li>Not recognizing febrile neutropenia in a chemotherapy patient and treating it as a minor illness.</li>
+    <li>Continuing a blood transfusion after rigors develop instead of stopping it immediately.</li>
+    <li>Starting antibiotics without first attempting to obtain blood cultures, where feasible and without unduly delaying treatment.</li>
+    <li>Missing a line/catheter-related source because the site was not specifically examined.</li>
+    <li>Missing Charcot's triad by not asking about jaundice or examining for it.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A true rigor is a strong marker of bacteraemia - take it seriously and send blood cultures before antibiotics wherever possible.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Chills and fever in a chemotherapy patient is febrile neutropenia until proven otherwise - give antibiotics immediately.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Rigors during a transfusion mean stop the transfusion immediately, not "wait and see."</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always examine any IV line, catheter, or wound site directly - a visible source changes management immediately.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Don't let "it's probably malaria" stop you from asking about recent transfusions, lines, procedures, or immunosuppression.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Infectious Diseases Society of America - Clinical Practice Guideline for the Use of Antimicrobial Agents in Neutropenic Patients with Cancer.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Surviving Sepsis Campaign Guidelines.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Clinical Guidelines for the Management of Transfusion Reactions.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, National Malaria Elimination Programme - National Guidelines for Diagnosis and Treatment of Malaria in Nigeria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-night-sweats',
+    title: 'Night Sweats',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Night Sweats</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Night Sweats</h1>
+    <p class="text-sm text-indigo-200">Night sweats are frequently benign - menopause is the commonest cause in women of the right age - but true drenching night sweats, particularly alongside fever and weight loss, form the classic "B symptoms" that should prompt active screening for tuberculosis, HIV, and lymphoma rather than reassurance. This guide focuses on the history and examination that separate a benign cause from one that needs urgent workup, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Night Sweats Themselves</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>How long has this been happening, and how often does it occur?</li>
+      <li>How severe is it - mild dampness, or truly drenching sweats that soak the sheets or clothing and require a change? (This distinction matters - "drenching" sweats carry more diagnostic weight than a mild sweat.)</li>
+      <li>What time of night does it tend to happen - early in the night, or closer to early morning?</li>
+      <li>Does it resolve with a fan or cooler room, or does it happen regardless of the environment?</li>
+      <li>In a woman of the relevant age - are there also hot flashes during the day, and what is the current menstrual/menopausal status?</li>
+      <li>Has anything been tried already, and did it help?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional (ask explicitly):</span> fever, unintentional weight loss, and loss of appetite - alongside night sweats, these form the classic "B symptoms" that should not be dismissed.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> a cough lasting more than 2 weeks, haemoptysis, or breathlessness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphatic:</span> noticeable lumps or swelling in the neck, armpit, or groin.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Endocrine:</span> heat intolerance, palpitations, tremor, or weight loss with a good appetite - raises hyperthyroidism.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic (in a known diabetic):</span> tremor, hunger, or confusion preceding the sweating episode - raises nocturnal hypoglycaemia.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac:</span> new breathlessness, palpitations, or fatigue - relevant if endocarditis is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Psychological:</span> anxiety or panic symptoms occurring around the same time.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact:</span> known contact with someone with TB or a chronic cough?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status:</span> known status or risk factors? Night sweats are a common and important presenting feature of HIV itself, as well as its opportunistic infections.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes and its treatment:</span> is the patient on insulin or a sulfonylurea, and what is the timing of the evening dose relative to the last meal? (These medications carry a real risk of nocturnal hypoglycaemia, which can present as night sweats.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopausal status:</span> last menstrual period, and any other menopausal symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy risk:</span> personal or family history relevant to lymphoma or other malignancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac risk (endocarditis):</span> known valve disease, recent dental work or other invasive procedures, or intravenous drug use.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupational exposure:</span> livestock or unpasteurized dairy exposure (brucellosis).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> any new medication started recently, particularly antidepressants, which are a recognized cause of night sweats.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> can contribute to night sweats, particularly with heavier or irregular drinking patterns.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>General appearance - wasting or cachexia raises TB, HIV, or malignancy.</li>
+      <li>Vital signs, including temperature - document any fever objectively rather than relying on a subjective description alone.</li>
+      <li>Weight - compare to any previous recorded weight where available, to objectively assess for weight loss.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination for Underlying Cause</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphadenopathy</span> - palpate cervical, axillary, and inguinal nodes; raises TB, HIV, or lymphoma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest examination</span> - crepitations or signs of consolidation, relevant to TB or another chronic chest infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral examination</span> - oral thrush or other lesions can be a clue to underlying HIV.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatosplenomegaly</span> - relevant to lymphoma, TB, or chronic infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid examination</span> - goitre, tremor, or tachycardia suggest hyperthyroidism.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac auscultation</span> - a new or changing murmur raises infective endocarditis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Capillary blood glucose</span> - check where nocturnal hypoglycaemia is suspected, ideally with a glucose diary or check at the time symptoms occur if possible.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Drenching night sweats with fever and unintentional weight loss</span> - the classic "B symptoms" - need active screening for TB, HIV, and lymphoma rather than reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Recurrent nocturnal hypoglycaemia in a diabetic patient</span> - particularly on insulin or a sulfonylurea; needs urgent medication review to prevent a more severe hypoglycaemic event.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A new or changing cardiac murmur with night sweats</span> - raises infective endocarditis and needs blood cultures and prompt cardiology input.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Rapidly enlarging or matted lymphadenopathy</span> - raises lymphoma and needs prompt further workup rather than a course of antibiotics "to see if it settles."</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A cough lasting more than 2 weeks alongside night sweats</span> - active TB screening is required, not deferral.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - wherever TB is a realistic possibility, particularly with a cough lasting 2 weeks or more.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent, given how significantly it changes the differential.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC and ESR/CRP</span> - baseline, and helpful in distinguishing infective/inflammatory from other causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - to screen for hyperthyroidism where suggestive symptoms are present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose (including a glucose diary where relevant)</span> - in any diabetic patient on insulin or a sulfonylurea presenting with night sweats.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LDH and further imaging (CT chest/abdomen)</span> - where lymphoma or another malignancy is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood cultures and echocardiography</span> - where infective endocarditis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucella serology</span> - where there is a compatible occupational or dietary exposure.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopause</span> - the commonest cause in women of the relevant age, often with daytime hot flashes as well.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - drenching night sweats with cough, weight loss, and fever.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/AIDS</span> - either from HIV itself or an associated opportunistic infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphoma</span> - drenching night sweats with lymphadenopathy and weight loss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nocturnal hypoglycaemia</span> - in a diabetic patient, particularly on insulin or a sulfonylurea.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - heat intolerance, tremor, palpitations, weight loss with preserved or increased appetite.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Infective endocarditis</span> - night sweats with a new or changing murmur.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucellosis</span> - undulant fever and night sweats with a relevant occupational/dietary exposure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - particularly antidepressants.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety/panic-related sweating</span> - a diagnosis of exclusion once other causes have been reasonably ruled out.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic infection (other)</span> - any other ongoing infective process.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Idiopathic night sweats</span> - a diagnosis of exclusion once the above have been reasonably screened for.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/General Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cooling measures</span> - a fan, lighter bedding, and breathable sleepwear can help regardless of cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Avoiding known triggers</span> - alcohol, spicy food, or caffeine close to bedtime, where these seem to worsen symptoms.</li>
+      <li>These measures provide comfort but should not substitute for identifying and treating the underlying cause, particularly where B symptoms are present.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopause</span> - lifestyle measures first-line, with hormone replacement therapy considered where appropriate and not contraindicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - standard six-month RHZE regimen under DOTS, per the National Tuberculosis and Leprosy Control Programme.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/AIDS</span> - initiation or optimization of antiretroviral therapy, alongside treatment of any specific opportunistic infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphoma</span> - haematology/oncology referral for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nocturnal hypoglycaemia</span> - review and adjust the diabetes medication regimen, and consider a bedtime snack where appropriate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - treatment of the underlying thyroid disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Infective endocarditis</span> - prolonged IV antibiotics guided by blood culture results, with cardiology/cardiothoracic input.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Brucellosis</span> - a prolonged combination antibiotic course per current guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - review and adjust the causative medication where clinically appropriate.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Night sweats, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, frequency, severity (drenching or mild), timing, associated B symptoms, directed risk history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Diabetes and its treatment, HIV status, previous TB treatment, known valve disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Insulin/sulfonylurea use and timing, other current medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Occupational/dietary exposure, alcohol use, family history of malignancy.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, weight, lymphadenopathy, chest/cardiac findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Attributing all night sweats in a woman of the relevant age to menopause without checking for other red flags.</li>
+    <li>Not actively screening for TB and HIV in a patient with drenching night sweats.</li>
+    <li>Missing nocturnal hypoglycaemia in a diabetic patient on insulin or a sulfonylurea.</li>
+    <li>Treating enlarging lymphadenopathy with a course of antibiotics without further workup if it fails to resolve.</li>
+    <li>Not weighing the patient or comparing to a previous recorded weight to objectively assess weight loss.</li>
+    <li>Overlooking endocarditis risk factors in a patient with night sweats and a murmur.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Drenching night sweats with fever and weight loss are B symptoms - actively screen for TB, HIV, and lymphoma.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Don't assume menopause in a woman of the right age without checking for red flags first.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about insulin/sulfonylurea timing in every diabetic patient with night sweats - nocturnal hypoglycaemia is a common and fixable cause.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A new murmur with night sweats should raise infective endocarditis, not just a general infection.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Objectively document weight and fever where possible - a subjective description alone is easy to under- or overestimate.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Consolidated Guidelines on HIV Testing Services.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Menopause: Diagnosis and Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Diabetes Association - Standards of Care (Hypoglycaemia section).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-weight-loss',
+    title: 'Weight Loss',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Weight Loss</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Weight Loss</h1>
+    <p class="text-sm text-indigo-200">Unintentional weight loss always deserves a proper explanation - it is a genuine red flag symptom, sitting behind causes ranging from tuberculosis and HIV to malignancy, uncontrolled diabetes, and depression. In this setting, food insecurity is also a real and common cause that needs to be asked about sensitively rather than assumed or overlooked. This guide focuses on the history and examination that clarify why the weight is actually coming off, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Weight Loss Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>How much weight has been lost, and over what period of time? Try to get an actual figure or a comparison to well-fitting clothes, rather than a vague impression.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Is this weight loss intentional (deliberate dieting or increased exercise) or unintentional?</span> This is the single most important distinguishing question, since unintentional weight loss carries far more diagnostic weight.</li>
+      <li>How is the appetite - increased, decreased, or unchanged? (Weight loss with a preserved or increased appetite points towards a different set of causes than weight loss with reduced appetite.)</li>
+      <li>Has the pattern of eating changed at all, and is the patient able to access and afford enough food regularly?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats - alongside weight loss, these form the classic "B symptoms" and should be asked about directly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> a cough lasting more than 2 weeks, haemoptysis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> difficulty or pain swallowing (and whether it is progressive), abdominal pain, change in bowel habit, diarrhoea, or blood in the stool.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Endocrine:</span> heat intolerance, tremor, palpitations (hyperthyroidism); excessive thirst and urination (diabetes).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiorespiratory:</span> breathlessness, orthopnoea, or leg swelling - relevant to heart failure-related weight loss.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mood (ask directly and without judgement):</span> persistent low mood, loss of interest or pleasure in things usually enjoyed, and - where these are present - whether the patient has had any thoughts of harming themselves or not wanting to be alive. This is a standard safety question once depression is suspected, not an accusatory one.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphatic:</span> noticeable lumps or swelling anywhere.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> known contact with someone with TB, or known HIV status/risk factors.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Food security:</span> ask gently and without judgement whether the patient is able to get enough food to eat regularly - this is a genuine and common cause of unintentional weight loss locally, and patients may not volunteer it unless asked directly and non-judgementally.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> any known diagnosis, and if so, how well controlled is it currently?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy risk:</span> personal or family history of cancer, and age (weight loss in an older patient carries a higher baseline concern for malignancy).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic diarrhoea/malabsorption:</span> any longstanding change in stool pattern, and exposure to poor sanitation or walking barefoot (raises soil-transmitted helminth infection).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> relevant to both nutritional intake and chronic liver disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> any new medication, particularly stimulants, thyroid medication, or chemotherapy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac/renal history:</span> known heart failure or chronic kidney disease, both of which can cause significant weight loss when advanced.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Psychosocial stressors:</span> ask gently about mood, stress, and life circumstances, letting the patient lead on how much they want to share.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Calculate and record BMI, and compare to any previous recorded weight where available - this objectively confirms and quantifies the weight loss.</li>
+      <li>General appearance - temporal wasting, muscle wasting, or visible cachexia.</li>
+      <li>Vital signs, including temperature.</li>
+      <li>Pallor and hydration status.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination for Underlying Cause</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphadenopathy</span> - palpate cervical, axillary, and inguinal nodes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid examination</span> - goitre, tremor, tachycardia.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal examination</span> - any palpable mass, hepatosplenomegaly, or ascites.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral examination</span> - oral thrush, dental problems, or lesions that could impair intake.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest examination</span> - relevant to TB or another chronic chest condition.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac examination</span> - signs of heart failure (raised JVP, gallop rhythm, peripheral oedema).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Basic mental state assessment</span> - mood and affect, conducted sensitively, particularly where reduced appetite and low mood coexist.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Unintentional weight loss with fever and night sweats</span> - the classic "B symptoms" - need active screening for TB, HIV, and lymphoma rather than reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">New or progressive difficulty swallowing with weight loss</span> - raises oesophageal or gastric malignancy and needs prompt endoscopy referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A palpable abdominal mass or change in bowel habit with rectal bleeding</span> - raises colorectal or another gastrointestinal malignancy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Significant unintentional weight loss in a patient over 50 with no clear cause identified</span> - needs prompt further workup for malignancy, not watchful waiting.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Active suicidal ideation</span> - in a patient with depression-related weight loss, this needs an immediate, direct safety assessment and urgent referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe malnutrition/cachexia with signs of physiological compromise</span> - needs prompt nutritional and medical support alongside identifying the underlying cause.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - wherever TB is a realistic possibility.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC, ESR/CRP</span> - baseline, and helpful in distinguishing infective/inflammatory from other causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose/HbA1c</span> - to screen for uncontrolled or new diabetes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - where hyperthyroidism is suggested by the history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs and renal function</span> - as part of a general metabolic screen.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stool microscopy</span> - where chronic diarrhoea or a parasitic cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Upper GI endoscopy</span> - where dysphagia or another alarm gastrointestinal symptom is present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal ultrasound or CT</span> - where a mass or organomegaly is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">A standardized depression screening tool</span> (e.g. PHQ-9) - where mood symptoms are present, to help quantify severity and guide referral.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - weight loss with cough, fever, and night sweats.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/AIDS</span> - either from HIV itself or an associated opportunistic infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy</span> - gastrointestinal, lung, or other; particularly with alarm symptoms or in an older patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Uncontrolled/new diabetes mellitus</span> - weight loss with polyuria, polydipsia, and often a preserved or increased appetite.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - weight loss with a preserved or increased appetite, heat intolerance, tremor, palpitations.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - weight loss with reduced appetite, low mood, and loss of interest.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Food insecurity/inadequate intake</span> - weight loss explained by genuinely limited access to food; needs a sensitive, non-judgemental approach and appropriate support/referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic diarrhoeal illness/malabsorption</span> - including parasitic causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure (cardiac cachexia)</span> - in advanced, poorly controlled disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic kidney disease</span> - in advanced disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic liver disease</span> - particularly with a relevant alcohol or hepatitis history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - stimulants, chemotherapy, or thyroid medication.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Disordered eating</span> - a less common but important consideration, particularly in a younger patient; requires a sensitive approach and referral to appropriate specialist support rather than a purely medical workup alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Intentional weight loss</span> - deliberate dieting or increased exercise; not itself pathological, but still worth confirming this is genuinely the explanation.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/General Support</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional assessment and support</span> - where malnutrition is present, involve a dietitian/nutrition service where available.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Where food insecurity is identified</span> - connect the patient with available social support services or community resources, rather than treating it purely as a medical problem to medicate.</li>
+      <li>General supportive measures should never delay identifying and treating the specific underlying cause, particularly where red flags are present.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - standard six-month RHZE regimen under DOTS, per the National Tuberculosis and Leprosy Control Programme.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/AIDS</span> - initiation or optimization of antiretroviral therapy, alongside nutritional support and treatment of any opportunistic infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy</span> - referral to the relevant oncology service for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes</span> - optimization of glycaemic control per standard protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - treatment of the underlying thyroid disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - psychotherapy and/or antidepressants as clinically indicated, with safety planning where suicidal ideation is present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic diarrhoea/parasitic infection</span> - deworming where appropriate, and treatment of any underlying malabsorptive condition.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure/chronic kidney disease</span> - optimization of standard disease-specific therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Disordered eating</span> - referral to appropriate specialist mental health/eating disorder support; this should not be managed with generic dietary advice alone.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Weight loss, amount and duration if known.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Intentional versus unintentional, appetite, associated B symptoms and alarm features, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Psychiatric History</dt>
+      <dd class="mt-0.5">Diabetes, HIV status, previous TB treatment, previous depression/anxiety.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Current medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Food security, alcohol use, family history of malignancy/diabetes/thyroid disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">BMI/weight compared to baseline, general appearance, lymphadenopathy, abdominal/chest/cardiac findings, basic mental state assessment, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not clearly establishing whether the weight loss is intentional or unintentional before proceeding.</li>
+    <li>Avoiding the question about food security out of discomfort, missing a common and correctable cause.</li>
+    <li>Not actively screening for TB and HIV in a patient with unexplained weight loss.</li>
+    <li>Dismissing weight loss in an older patient without adequate workup for malignancy.</li>
+    <li>Not screening mood where appetite and interest are both reduced.</li>
+    <li>Missing new dysphagia as a red flag requiring prompt endoscopy referral.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always establish intentional versus unintentional weight loss first - this single question reframes the whole differential.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Unintentional weight loss with fever or night sweats needs active TB/HIV/lymphoma screening, not reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask sensitively about food security - it is a genuine and common cause locally, and rarely volunteered unasked.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New dysphagia or unexplained weight loss in an older patient needs prompt further workup, not watchful waiting.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen mood directly where reduced appetite and low interest coexist - depression is a common and treatable cause.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Consolidated Guidelines on HIV Testing Services.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Suspected Cancer: Recognition and Referral.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - mhGAP Intervention Guide for Mental, Neurological and Substance Use Disorders.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-Weight Gain',
+    title: 'Weight Gain',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Weight Gain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Weight Gain</h1>
+    <p class="text-sm text-indigo-200">Weight gain is usually related to diet and activity, but the clerking task is to first work out whether the gain is genuinely fat, or fluid from an underlying heart, kidney, or liver problem, and then to screen for the specific medical causes that are easy to miss - hypothyroidism, PCOS, and exogenous steroid use, including hidden steroids in unregulated skin-lightening or herbal products, which is a real and under-recognized cause locally. This guide focuses on the history and examination that clarify the underlying driver, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Weight Gain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>How much weight has been gained, and over what period of time? (Where possible, compare to an actual recorded weight rather than an estimate.)</li>
+      <li>Has the gain been generalized, or more concentrated around the face, neck, and trunk (raising a hormonal cause), or in the legs and abdomen specifically (raising fluid retention)?</li>
+      <li>Has there been any noticeable swelling of the legs, ankles, or abdomen, separate from general weight gain? (This distinction between fat and fluid is one of the most important things to clarify early.)</li>
+      <li>Have diet or activity levels genuinely changed recently, and if so, how?</li>
+      <li>Has anything been tried already, and did it help?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Endocrine (thyroid):</span> fatigue, cold intolerance, constipation, dry skin, or hair thinning.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reproductive (in women):</span> irregular or absent periods, excess facial/body hair, or acne (raises PCOS); a missed period alongside nausea or breast tenderness should always raise pregnancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cushingoid features:</span> easy bruising, thinning skin, purple stretch marks, rounding of the face, a fat pad at the back of the neck, or proximal muscle weakness (difficulty rising from a chair or climbing stairs).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiorespiratory/renal (fluid retention):</span> breathlessness, breathlessness lying flat, or waking breathless at night; reduced urine output or frothy urine.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sleep:</span> loud snoring, witnessed pauses in breathing, or daytime sleepiness - relevant to obstructive sleep apnoea, which has a bidirectional relationship with weight.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mood:</span> low mood or a marked change in appetite/eating pattern linked to how the patient has been feeling emotionally.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Steroid use, in any form:</span> oral, inhaled, injectable, or topical steroids prescribed by a doctor - but just as importantly, ask directly and without judgement about the use of skin-lightening creams, "miracle" herbal preparations, or other unregulated products, since these not infrequently contain hidden steroids and can cause a genuine Cushingoid picture without the patient realizing why.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Other medications:</span> antipsychotics, certain antidepressants, insulin or sulfonylureas, and hormonal contraceptives can all contribute to weight gain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menstrual/reproductive history:</span> cycle regularity, and possibility of pregnancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known heart, kidney, or liver disease:</span> any existing diagnosis that could explain fluid-related weight gain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> thyroid disease, diabetes, or PCOS in close relatives.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> relevant to liver disease as a cause of fluid-related weight gain (ascites).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sleep pattern:</span> ask the patient, or a partner if present, about snoring or breathing pauses during sleep.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Weigh the patient and calculate BMI, comparing to any previous recorded weight where available.</li>
+      <li>Note the pattern of weight distribution - generalized, central/truncal, or with a fat pad at the back of the neck.</li>
+      <li>Blood pressure - relevant to Cushing's syndrome, PCOS-related metabolic changes, and fluid overload states.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination for Underlying Cause</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid signs</span> - dry skin, bradycardia, a goitre, or delayed reflexes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cushingoid signs</span> - moon-shaped facies, a fat pad at the back of the neck, purple striae, thin skin with easy bruising, and proximal muscle weakness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">PCOS-related signs</span> - acne, excess facial/body hair, or acanthosis nigricans (darkened, velvety skin, typically at the neck or axillae).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Fluid overload signs</span> - pitting oedema of the legs, raised jugular venous pressure, ascites, or hepatomegaly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy-related signs</span> - where relevant to the history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neck circumference</span> - relevant to obstructive sleep apnoea risk.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Rapid weight gain with breathlessness and leg swelling</span> - raises decompensated heart failure, nephrotic syndrome, or liver disease and needs prompt assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Clear Cushingoid features with hypertension and/or hyperglycaemia</span> - needs a search for the source (including unregulated steroid-containing products) and appropriate endocrine workup; if the cause is an exogenous steroid, it must be tapered rather than stopped abruptly, given the risk of adrenal crisis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected pregnancy with associated complications</span> - such as significant hypertension or swelling, which would need urgent obstetric assessment rather than being treated as simple weight gain.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe, untreated obstructive sleep apnoea</span> - marked daytime sleepiness alongside weight gain and hypertension carries real cardiovascular risk.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - to screen for hypothyroidism.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose/HbA1c and lipid profile</span> - relevant to PCOS, Cushing's syndrome, and general metabolic assessment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine or serum pregnancy test</span> - in any woman of reproductive age.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs, renal function, albumin, and urinalysis</span> - where fluid-related weight gain is suspected, to screen for liver, kidney, and nephrotic causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cortisol/overnight dexamethasone suppression test</span> - where Cushing's syndrome is genuinely suspected on clinical grounds.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic ultrasound and androgen levels</span> - where PCOS is suspected, alongside the clinical picture.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Echocardiography</span> - where heart failure is suspected as the cause of fluid retention.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Polysomnography (sleep study)</span> - where access allows and obstructive sleep apnoea is suspected.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dietary/activity-related weight gain</span> - the commonest cause; explored factually and without judgement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypothyroidism</span> - weight gain with fatigue, cold intolerance, and constipation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Polycystic ovary syndrome</span> - weight gain with irregular periods, acne, or excess hair growth.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cushing's syndrome (exogenous or endogenous)</span> - central weight gain with Cushingoid features; always ask about hidden steroid sources, including unregulated skin/herbal products.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - antipsychotics, certain antidepressants, insulin/sulfonylureas, or hormonal contraceptives.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy</span> - always consider in a woman of reproductive age.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fluid retention (heart failure, nephrotic syndrome, liver disease)</span> - weight gain that is disproportionately fluid, with oedema, breathlessness, or ascites.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopause-related weight gain</span> - often with a shift towards central fat distribution.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - weight gain linked to increased appetite/comfort eating and reduced activity in the context of low mood.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Obstructive sleep apnoea</span> - both a contributor to, and consequence of, weight gain.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Supportive Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Approach the conversation without judgement</span> - weight gain is often multifactorial, and a supportive, non-stigmatizing approach makes patients more likely to engage in follow-up.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Refer to a dietitian where available</span> - individualized dietary guidance is more appropriate and effective than generic advice, and avoids inadvertently promoting restrictive or extreme approaches.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Encourage regular physical activity</span> - tailored to the patient's ability and preferences, alongside addressing any underlying medical cause.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypothyroidism</span> - levothyroxine replacement, titrated to thyroid function tests.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">PCOS</span> - lifestyle measures alongside metformin and/or hormonal management as guided by gynaecology/endocrinology, tailored to whether fertility is a current priority.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cushing's syndrome</span> - identify and address the source; where due to an unregulated steroid-containing product, stop it under medical supervision with an appropriate taper rather than abruptly, given adrenal suppression risk; where endogenous, refer to endocrinology.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - review with the prescriber and consider an alternative agent where clinically appropriate, rather than stopping unilaterally.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fluid retention (heart failure, nephrotic syndrome, liver disease)</span> - diuretics alongside treatment of the underlying condition.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - psychotherapy and/or antidepressants as clinically indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Obstructive sleep apnoea</span> - CPAP where available and tolerated, alongside weight management as part of a broader plan.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Weight gain, amount and duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Amount gained, distribution (generalized/central/fluid), dietary/activity changes, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Reproductive History</dt>
+      <dd class="mt-0.5">Known thyroid disease, PCOS, heart/kidney/liver disease, menstrual history.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Substance History</dt>
+      <dd class="mt-0.5">All steroid use including topical/herbal/unregulated products, other relevant medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Family history of thyroid disease/diabetes/PCOS, alcohol use, sleep pattern.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Weight/BMI, distribution pattern, thyroid/Cushingoid/PCOS/fluid overload signs, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not asking directly about unregulated skin-lightening or herbal products that may contain hidden steroids.</li>
+    <li>Not distinguishing fluid-related from fat-related weight gain, leading to a missed cardiac, renal, or liver cause.</li>
+    <li>Not checking a pregnancy test in a woman of reproductive age.</li>
+    <li>Stopping a steroid abruptly once identified as the cause, rather than tapering appropriately.</li>
+    <li>Approaching the conversation judgementally, which discourages patients from further engagement.</li>
+    <li>Not screening thyroid function as a simple, common, and treatable cause.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Clarify fat versus fluid early - it points towards two entirely different sets of causes.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask directly and without judgement about steroid use of any kind, including unregulated skin/herbal products.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check a pregnancy test in a woman of reproductive age with new weight gain.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If an exogenous steroid is found to be the cause, taper rather than stop abruptly, given the risk of adrenal crisis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Approach the whole conversation without judgement - it materially affects whether the patient engages with follow-up care.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Endocrine Society - Clinical Practice Guideline on the Diagnosis of Cushing's Syndrome.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>International Evidence-Based Guideline for the Assessment and Management of Polycystic Ovary Syndrome.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Thyroid Association - Guidelines for the Diagnosis and Management of Hypothyroidism.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Sleep Medicine - Clinical Guideline for the Diagnosis of Obstructive Sleep Apnoea.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+ 
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-loss-of-appetite',
+    title: 'Loss of Appetite',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Loss of Appetite</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Loss of Appetite</h1>
+    <p class="text-sm text-indigo-200">Loss of appetite is easy to file under "not eating well" without asking why, but the differential runs from a self-limiting infection to depression, chronic organ disease, malignancy, and adrenal insufficiency - a genuinely dangerous cause that presents non-specifically and is easy to miss. This guide focuses on the history and examination that clarify what is actually behind the reduced appetite, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Appetite Loss Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did this start, and how long has it lasted?</li>
+      <li>Is there genuinely no desire to eat, or does the patient want to eat but feel full very quickly (early satiety), or avoid eating because of pain, nausea, or difficulty swallowing? (This distinction changes the differential considerably - early satiety and pain-related avoidance point towards different causes than true loss of interest in food.)</li>
+      <li>Has actual food intake reduced, and has this led to any weight loss?</li>
+      <li>Is the reduced appetite constant, or does it fluctuate?</li>
+      <li>Has anything been tried already, and did it help?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats, and weight loss - alongside appetite loss, these raise TB, HIV, or malignancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> nausea, vomiting, abdominal pain, jaundice, difficulty or pain swallowing, or a change in bowel habit.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Endocrine (ask specifically):</span> persistent fatigue, dizziness on standing, salt craving, or darkening of the skin (particularly the gums, palmar creases, or scars) - raises adrenal insufficiency, which is easy to miss because it presents so non-specifically.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal:</span> itching, a metallic taste, or reduced urine output - raises uraemia in advanced kidney disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mood (ask directly and without judgement):</span> persistent low mood, loss of interest or pleasure in things usually enjoyed, and - where these are present - whether the patient has had any thoughts of harming themselves or not wanting to be alive. This is a standard safety question once depression is suspected, not an accusatory one.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral:</span> mouth pain, ulcers, or dental problems that make eating uncomfortable.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiorespiratory:</span> breathlessness or leg swelling - relevant to heart failure-related anorexia.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> known contact with someone with TB, or known HIV status/risk factors.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy risk:</span> personal or family history of cancer, and age (new appetite loss in an older patient carries more weight).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic organ disease:</span> known chronic kidney disease, liver disease, or heart failure.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> chemotherapy, opioids, metformin, or recently started antibiotics - all recognized causes of reduced appetite.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> relevant to nutritional intake, gastritis, and chronic liver disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal disease:</span> any known history of steroid use that was recently stopped (raises adrenal suppression), or other autoimmune conditions.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Psychosocial factors:</span> recent bereavement, major stress, or other significant life changes - ask gently and let the patient lead on how much they want to share.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Food security:</span> ask sensitively whether reduced intake reflects a genuine lack of appetite, or difficulty accessing enough food - these need different responses.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy:</span> last menstrual period and possibility of pregnancy in a woman of reproductive age.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>General appearance - wasting or cachexia, and a comparison to any previous recorded weight.</li>
+      <li>Blood pressure lying and standing - a significant postural drop supports adrenal insufficiency.</li>
+      <li>Skin - hyperpigmentation of the gums, palmar creases, or scars is a specific and important sign of adrenal insufficiency; also look for jaundice.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination for Underlying Cause</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphadenopathy</span> - relevant to TB, HIV, or lymphoma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal examination</span> - any palpable mass, hepatosplenomegaly, or epigastric tenderness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral examination</span> - ulcers, thrush, or dental problems affecting the ability to eat comfortably.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac examination</span> - signs of heart failure (raised JVP, gallop rhythm, peripheral oedema).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of chronic liver or kidney disease</span> - as relevant to the history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Basic mental state assessment</span> - mood and affect, conducted sensitively.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected adrenal insufficiency</span> (fatigue, postural dizziness, hyperpigmentation, weight loss) - this is a genuinely dangerous, easily missed diagnosis; if the patient is acutely unwell with vomiting, hypotension, and collapse, treat as an Addisonian crisis and give hydrocortisone without waiting for confirmatory results.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Loss of appetite with fever, night sweats, and weight loss</span> - the classic "B symptoms" - need active screening for TB, HIV, and lymphoma.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Active suicidal ideation</span> - in a patient with depression-related loss of appetite, needs an immediate, direct safety assessment and urgent referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Early satiety with weight loss and vomiting</span> - raises gastric outlet obstruction or a gastric malignancy and needs prompt endoscopy referral, not reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe malnutrition/cachexia with signs of physiological compromise</span> - needs prompt nutritional and medical support alongside identifying the underlying cause.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC, ESR/CRP</span> - baseline, and helpful in distinguishing infective/inflammatory from other causes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - wherever TB is a realistic possibility.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">U&E</span> - hyponatraemia and hyperkalaemia support adrenal insufficiency; also assesses renal function for uraemia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">9am serum cortisol, or a short synacthen (ACTH stimulation) test</span> - where adrenal insufficiency is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - where chronic liver disease is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose</span> - as part of a general metabolic screen.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine or serum pregnancy test</span> - in a woman of reproductive age.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">A standardized depression screening tool</span> (e.g. PHQ-9) - where mood symptoms are present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Upper GI endoscopy and/or abdominal imaging</span> - where early satiety, alarm gastrointestinal symptoms, or a mass are present.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute infection</span> - malaria, typhoid, or any self-limiting febrile illness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - loss of appetite with cough, fever, and night sweats.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/AIDS</span> - from HIV itself or an associated opportunistic infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy</span> - particularly gastrointestinal; consider more strongly with alarm symptoms or in an older patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - reduced appetite with low mood and loss of interest.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal insufficiency</span> - fatigue, postural dizziness, hyperpigmentation, and weight loss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic kidney disease/uraemia</span> - itching, metallic taste, fatigue.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic liver disease</span> - jaundice, ascites, a relevant alcohol or hepatitis history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure</span> - anorexia related to gut congestion in advanced disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - chemotherapy, opioids, metformin, certain antibiotics.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal causes</span> - gastritis, peptic ulcer disease, or gastroparesis (particularly in a diabetic patient).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral/dental problems</span> - making eating physically uncomfortable.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use disorder</span> - reduced intake related to heavy or dependent drinking.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Grief/psychosocial stress</span> - a temporary but genuine cause following a significant loss or life change.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Early pregnancy</span> - nausea-related reduced appetite.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Food insecurity</span> - reduced intake due to limited access rather than true loss of appetite; needs a different response.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/General Support</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Small, frequent meals</span> - often better tolerated than large meals when appetite is reduced.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Treating associated nausea</span> - an antiemetic can meaningfully improve intake where nausea is contributing.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional support/supplementation</span> - where malnutrition is present, involve a dietitian/nutrition service where available.</li>
+      <li>General supportive measures should never delay identifying and treating the specific underlying cause, particularly where red flags are present.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - standard six-month RHZE regimen under DOTS, per the National Tuberculosis and Leprosy Control Programme.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/AIDS</span> - initiation or optimization of antiretroviral therapy, alongside nutritional support.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy</span> - referral to the relevant oncology service for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - psychotherapy and/or antidepressants as clinically indicated, with safety planning where suicidal ideation is present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal insufficiency</span> - glucocorticoid replacement (hydrocortisone), with urgent IV hydrocortisone and fluid resuscitation if an Addisonian crisis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic kidney disease/uraemia</span> - standard nephrology management of the underlying disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic liver disease</span> - management per the underlying cause, with nutritional input.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure</span> - optimization of standard heart failure therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced</span> - review and adjust the causative medication where clinically appropriate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal causes</span> - proton pump inhibitor for gastritis/PUD, prokinetics for gastroparesis where appropriate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Food insecurity</span> - connect the patient with available social support services rather than treating it as a purely medical problem.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Loss of appetite, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">True anorexia versus early satiety versus pain/nausea-related avoidance, associated B symptoms and alarm features, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Psychiatric History</dt>
+      <dd class="mt-0.5">HIV status, previous TB treatment, chronic kidney/liver/heart disease, previous depression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Recent steroid use/cessation, chemotherapy, opioids, metformin, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Food security, alcohol use, recent bereavement/psychosocial stress, family history of malignancy.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs including postural blood pressure, skin pigmentation, lymphadenopathy, abdominal/oral/cardiac findings, basic mental state assessment, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not distinguishing true loss of appetite from early satiety or pain/nausea-related avoidance - these need different workups.</li>
+    <li>Missing adrenal insufficiency because its presentation is vague and non-specific.</li>
+    <li>Not actively screening for TB and HIV in a patient with unexplained loss of appetite.</li>
+    <li>Not screening mood where reduced appetite and low interest coexist.</li>
+    <li>Dismissing new appetite loss in an older patient without adequate workup for malignancy.</li>
+    <li>Not checking postural blood pressure or electrolytes when adrenal insufficiency is a real possibility.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Distinguish true anorexia from early satiety and pain/nausea-related avoidance - each points to a different differential.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider adrenal insufficiency in unexplained appetite loss with fatigue, postural dizziness, and hyperpigmentation - it is rare but dangerous and easy to miss.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Actively screen for TB, HIV, and depression as a default in unexplained loss of appetite.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New, unexplained appetite loss in an older patient needs a malignancy screen, not reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check postural blood pressure and U&E wherever adrenal insufficiency is a realistic possibility.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Endocrine Society - Clinical Practice Guideline on the Diagnosis and Treatment of Primary Adrenal Insufficiency.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Consolidated Guidelines on HIV Testing Services.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - mhGAP Intervention Guide for Mental, Neurological and Substance Use Disorders.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-general-body-weakness',
+    title: 'General Body Weakness',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with General Body Weakness</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with General Body Weakness</h1>
+    <p class="text-sm text-indigo-200">"Body weakness" is one of the commonest and vaguest complaints seen in Nigerian clinics, and the first job of the clerking is to work out what the patient actually means - generalized fatigue and low energy (usually anaemia, infection, or a metabolic/endocrine cause), or true motor weakness of the limbs (which can mean a stroke, Guillain-Barre syndrome, or another neurological emergency). Getting this distinction right early changes everything that follows. This guide focuses on the history and examination that separate the two, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Essential First Question: What Does "Weakness" Actually Mean?</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Is this a general lack of energy, tiredness, or feeling unwell overall - or is it an actual reduction in the strength of specific limbs or muscles? Ask the patient to describe exactly what they can no longer do (e.g. carry a bucket of water, climb stairs, lift an arm above the head) - this clarifies far more than the word "weakness" alone.</li>
+      <li>If it is true motor weakness: which parts of the body are affected - one side, both legs, all four limbs, proximal (shoulders/hips) or distal (hands/feet)?</li>
+      <li>When did it start - suddenly (over seconds to minutes) or gradually (over days to weeks)? Sudden onset of true weakness is a very different problem from a gradual decline in energy.</li>
+      <li>Is it constant, or does it fluctuate - for example, worse later in the day or after repeated activity, and better with rest?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia-related:</span> breathlessness on exertion, palpitations, and noticeable pallor.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats, weight loss.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic/endocrine:</span> excessive thirst and urination (diabetes), cold intolerance and constipation (hypothyroidism), or heat intolerance and tremor (hyperthyroidism).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological (ask explicitly):</span> sudden facial drooping, slurred speech, difficulty finding words, or a sudden one-sided limb weakness (raises stroke and needs immediate action); numbness or tingling; double vision, drooping eyelids, or difficulty swallowing/chewing that worsens through the day (raises myasthenia gravis); weakness that started in the legs and is climbing upwards, especially following a recent diarrhoeal or respiratory illness (raises Guillain-Barre syndrome).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal:</span> back pain, saddle numbness, or new bladder/bowel difficulty alongside leg weakness (raises spinal cord compression).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mood (ask directly and without judgement):</span> persistent low mood, loss of interest, poor sleep, or - where these are present - thoughts of self-harm. This is a standard safety question once depression is suspected, not an accusatory one.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal:</span> muscle cramps or aches, which can accompany electrolyte disturbance.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menstrual history (in women):</span> heavy or prolonged periods are a very common cause of significant iron-deficiency anaemia locally.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> known genotype, and any features of a vaso-occlusive crisis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria exposure and TB/HIV risk:</span> bednet use, TB contact, HIV status/risk factors.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> known diagnosis and current medications - both uncontrolled hyperglycaemia and hypoglycaemia from treatment can present as weakness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> diuretics (raise hypokalaemia), and statins (raise medication-induced myopathy).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent diarrhoeal or respiratory illness:</span> important to ask about specifically, since Guillain-Barre syndrome often follows an infection by one to three weeks.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Stroke risk factors:</span> known hypertension, diabetes, atrial fibrillation, or smoking.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dietary history:</span> adequacy of intake, particularly of iron-rich foods.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal/cardiac/hepatic/thyroid history:</span> any known chronic disease affecting these systems.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>General appearance, vital signs, and temperature.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pallor</span> - check conjunctivae and palms; given how common anaemia is as a cause locally, this should never be skipped.</li>
+      <li>Hydration status, and signs of thyroid disease (goitre, tremor, dry skin).</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Formal Neurological Examination (Do This Even If the History "Sounds Like" Fatigue)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Power testing</span> - formally grade power in all four limbs; do not rely on a general impression.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cranial nerves</span> - facial asymmetry, ptosis, or eye movement abnormalities.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reflexes and sensation</span> - reduced or absent reflexes with ascending weakness supports Guillain-Barre syndrome.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gait</span> - where safely assessable.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Fatigability</span> - ask the patient to sustain upward gaze or repeatedly raise an arm; worsening weakness with repetition supports myasthenia gravis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Perianal sensation and anal tone</span> - where cord compression is suspected alongside leg weakness and back pain.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Cardiac examination - signs of heart failure or an arrhythmia.</li>
+      <li>Abdominal examination - hepatosplenomegaly relevant to haemolysis or chronic disease.</li>
+      <li>Basic mental state assessment - mood and affect, conducted sensitively.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden-onset one-sided weakness, facial droop, or speech disturbance</span> - a stroke until proven otherwise; act fast, since the window for time-critical treatment is short.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Rapidly progressive, ascending weakness</span> (Guillain-Barre syndrome) - carries a real risk of respiratory muscle involvement and needs monitoring of breathing and urgent neurology input, not reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bladder or bowel dysfunction with leg weakness and back pain</span> - raises spinal cord compression/cauda equina syndrome, a surgical emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe or symptomatic hypoglycaemia</span> in a diabetic patient - needs immediate glucose correction.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe anaemia with haemodynamic compromise</span> - tachycardia, hypotension, or breathlessness at rest - needs urgent transfusion assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bulbar symptoms</span> (difficulty swallowing or talking) alongside generalized weakness - raises aspiration risk and, in myasthenia, may signal an evolving crisis.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC and blood film</span> - given how commonly anaemia underlies this complaint locally, this should be a routine part of the workup.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies the weakness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose</span> - in every diabetic patient with weakness, and as a general screen otherwise.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Electrolytes (U&E)</span> - particularly potassium, given its link to both weakness and diuretic use.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - where suggestive symptoms are present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening and TB workup</span> - where suggested by the history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urgent CT/MRI brain</span> - wherever a stroke is suspected; this should not be delayed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Creatine kinase (CK)</span> - where medication-induced myopathy is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nerve conduction studies/EMG, lumbar puncture (looking for albuminocytological dissociation)</span> - where Guillain-Barre syndrome is suspected, alongside monitoring of respiratory function.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acetylcholine receptor antibodies</span> - where myasthenia gravis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal MRI</span> - where cord compression is suspected.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia</span> - the single commonest cause of "body weakness" locally, from malaria, hookworm, sickle cell disease, nutritional deficiency, or menorrhagia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute infection</span> - malaria, typhoid, or another febrile illness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic infection</span> - TB or HIV.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Electrolyte disturbance</span> - particularly hypokalaemia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypoglycaemia</span> - in a diabetic patient on insulin or a sulfonylurea.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid disease</span> - hypo- or hyperthyroidism.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Uncontrolled diabetes</span> - fatigue with polyuria and polydipsia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure or chronic kidney disease</span> - fatigue in advanced disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - fatigue with low mood and poor sleep.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stroke</span> - true focal motor weakness, sudden onset.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Guillain-Barre syndrome</span> - ascending symmetrical weakness, often post-infectious.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Myasthenia gravis</span> - fatigable weakness, ptosis, diplopia, worse through the day.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal cord compression</span> - leg weakness with back pain and bladder/bowel involvement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced myopathy</span> - particularly statins.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal insufficiency</span> - fatigue, postural dizziness, hyperpigmentation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dehydration/heat exhaustion</span> - relevant in a hot climate, particularly with poor fluid intake.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/General Support</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Rest and adequate hydration</span> - reasonable general measures while the underlying cause is identified.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Immediate glucose</span> - for confirmed or strongly suspected hypoglycaemia; this should never be delayed for confirmatory testing.</li>
+      <li>General supportive measures should never delay identifying and treating the specific underlying cause, particularly where red flags are present.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia</span> - iron/folate replacement for nutritional deficiency, deworming where relevant, treatment of the underlying cause (e.g. malaria, menorrhagia), and transfusion where severe or symptomatic.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria/typhoid</span> - as per the fever guide.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">TB/HIV</span> - standard treatment per national guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypokalaemia</span> - potassium replacement, with review of any contributing diuretic.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypoglycaemia</span> - immediate glucose, with review of the diabetes medication regimen afterwards.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid disease</span> - treatment of the underlying thyroid condition.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Depression</span> - psychotherapy and/or antidepressants as clinically indicated, with safety planning where suicidal ideation is present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stroke</span> - urgent stroke pathway (thrombolysis where eligible and available), stroke unit care, and secondary prevention.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Guillain-Barre syndrome</span> - IV immunoglobulin or plasmapheresis where available, with close monitoring of respiratory function.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Myasthenia gravis</span> - pyridostigmine and immunosuppressive therapy as indicated; urgent escalation if features of a myasthenic crisis develop.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spinal cord compression</span> - urgent surgical decompression; not managed with medication alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-induced myopathy</span> - review and adjust the causative medication.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal insufficiency</span> - glucocorticoid replacement, with urgent IV hydrocortisone if crisis is suspected.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Generalized body weakness, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Clarify fatigue/malaise versus true motor weakness, onset, distribution, fluctuation, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Diabetes, sickle cell disease, HIV status, known thyroid/cardiac/renal disease, stroke risk factors.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Diuretics, statins, insulin/sulfonylureas, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Dietary intake, menstrual history, recent preceding infection.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, pallor, formal power/reflex/sensory testing, cranial nerve exam, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not clarifying whether the patient means generalized fatigue or true motor weakness before proceeding.</li>
+    <li>Skipping a formal neurological examination because the history "sounds like" simple tiredness.</li>
+    <li>Not checking an FBC despite anaemia being the commonest cause of this complaint locally.</li>
+    <li>Missing the ascending pattern of Guillain-Barre syndrome and its risk of respiratory failure.</li>
+    <li>Missing myasthenia gravis because fatigability was not specifically tested for.</li>
+    <li>Not checking blood glucose in a diabetic patient presenting with weakness.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always clarify what "weakness" means first - fatigue/malaise and true motor weakness need completely different workups.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Anaemia is the single commonest cause of "body weakness" locally - check an FBC routinely.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sudden focal weakness or facial droop is a stroke until proven otherwise - act fast.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ascending weakness needs urgent recognition because of the real risk of respiratory failure.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check blood glucose in a diabetic patient presenting with weakness.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines on Haemoglobin Cutoffs to Define Anaemia and Its Severity.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Stroke Organization - Global Stroke Services Guidelines and Action Plan.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Neurology - Guideline on the Management of Guillain-Barre Syndrome.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Myasthenia Gravis Foundation of America - International Consensus Guidance for Management of Myasthenia Gravis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+ 
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-left-upper-quadrant-pain',
+    title: 'Left Upper Quadrant Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Abdominal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Left Upper Quadrant Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Left Upper Quadrant Pain</h1>
+    <p class="text-sm text-indigo-200">Left upper quadrant pain points first towards the spleen, and locally that means thinking about malaria-associated splenomegaly, sickle cell-related splenic sequestration, and the real risk of splenic rupture - sometimes from trauma that seemed too minor to mention. This guide focuses on the history and examination that clarify whether the spleen (or another structure) is behind the pain, and how urgently that needs acting on, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and was the onset sudden or gradual? (Sudden-onset severe pain raises rupture or infarction; a gradual, dragging ache is more typical of a slowly enlarging spleen.)</li>
+      <li>What is the character - a constant dragging/fullness sensation, or sharp and severe?</li>
+      <li>Does it radiate to the tip of the left shoulder? (This - Kehr's sign - suggests irritation of the diaphragm from splenic pathology, including bleeding, and should never be dismissed as unrelated shoulder pain.)</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Has there been any recent trauma to the abdomen or left side of the chest, even if it seemed minor at the time</span> - a fall, a blow during play or contact sport, or a road traffic incident? Splenic rupture can present with a delay of hours to days after the original injury, so this must be asked about directly rather than assumed to be irrelevant just because it happened a few days ago.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General/circulatory:</span> dizziness, fainting, or feeling generally unwell - any of these alongside sudden LUQ pain raises internal bleeding.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats, and weight loss - relevant to malaria, TB, or lymphoma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia-related:</span> breathlessness, palpitations, and fatigue.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> early satiety or a feeling of fullness (raises significant splenomegaly), nausea, or a change in bowel habit.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Haematological:</span> easy bruising or bleeding, which can reflect hypersplenism (an enlarged spleen trapping platelets).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal (in known sickle cell patients):</span> bone or joint pain elsewhere, which may accompany a broader crisis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough or pleuritic pain - relevant if a left lower lobe pneumonia is being considered.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> known genotype - this is essential. In a child, a rapidly enlarging spleen with pallor and lethargy is a splenic sequestration crisis until proven otherwise, a paediatric emergency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria:</span> recent or repeated episodes, and any known longstanding splenic enlargement (raises hyperreactive malarial splenomegaly, sometimes called tropical splenomegaly syndrome, which develops after chronic or repeated malaria exposure).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> relevant to splenic TB, which is under-recognized.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trauma history:</span> as above - ask specifically and do not let the patient minimize it.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> haemolytic disease or a known blood disorder.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use and NSAID use:</span> relevant to pancreatitis and gastritis/PUD respectively, both of which can present in this region.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Contact sports or heavy physical activity:</span> where malaria-associated or other splenomegaly is already known, this raises the risk of spontaneous rupture and is worth discussing directly.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, pale, or in shock? Any suggestion of haemodynamic instability after abdominal trauma should be treated as active bleeding until proven otherwise.</li>
+      <li>Heart rate and blood pressure, including a check for a postural drop.</li>
+      <li>Temperature - fever alongside splenic enlargement raises malaria, an abscess, or TB.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpate the spleen carefully</span>, starting from the right iliac fossa and moving diagonally towards the left costal margin; note the size in centimetres below the costal margin.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Kehr's sign</span> - pain referred to the tip of the left shoulder on palpation of the LUQ - supports splenic irritation, including from bleeding.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of peritonism or distension</span> - raises free intraperitoneal blood following rupture.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatomegaly and lymphadenopathy</span> - relevant if malaria, lymphoma, or a myeloproliferative disorder is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Jaundice and pallor</span> - relevant to haemolysis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bruising or petechiae</span> - support hypersplenism-related thrombocytopenia.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected splenic rupture</span> - LUQ pain (with or without Kehr's sign) following trauma, with tachycardia, hypotension, or distension - a surgical emergency needing urgent resuscitation and surgical/interventional radiology input.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Acute splenic sequestration crisis in a child with sickle cell disease</span> - rapidly enlarging spleen, worsening pallor, and falling haemoglobin, with risk of hypovolaemic shock; a paediatric emergency needing urgent transfusion.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Massive splenomegaly with a history of recent trauma or heavy physical activity</span> - a genuinely enlarged spleen is at higher risk of spontaneous or minor-trauma-related rupture, and this should be discussed with the patient directly.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Splenomegaly with unexplained fever, night sweats, and weight loss</span> - needs active screening for TB and lymphoma rather than reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe symptomatic anaemia from acute sequestration or haemolysis</span> - needs prompt transfusion assessment.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - looking for anaemia and thrombocytopenia (hypersplenism), and to establish a baseline for comparison if a sequestration crisis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - as a routine part of the workup locally.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Haemoglobin genotype</span> - if sickle cell disease is suspected but not previously confirmed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal ultrasound</span> - assesses spleen size, and can detect free intraperitoneal fluid suggesting bleeding; a good first-line and widely accessible investigation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">CT abdomen</span> - where trauma and rupture are strongly suspected and the patient is stable enough to be scanned.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Group and crossmatch</span> - where bleeding or rupture is a possibility.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - as part of a general workup, particularly if a hepatosplenic process is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peripheral blood film and LDH</span> - where haemolysis, leukaemia, or lymphoma is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - where splenic TB is suspected.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria-associated splenomegaly</span> - acute enlargement during an episode, or chronic enlargement from hyperreactive malarial splenomegaly with repeated exposure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic sequestration crisis</span> - in a child with sickle cell disease; a paediatric emergency.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic rupture</span> - traumatic, or spontaneous in the context of a significantly enlarged spleen.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic infarct</span> - sudden pain, sometimes in a patient with a haemoglobinopathy or hypercoagulable state.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic abscess</span> - fever with tender splenomegaly.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic tuberculosis</span> - part of disseminated TB, often under-recognized.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphoma</span> - splenomegaly with lymphadenopathy, fever, and weight loss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Myeloproliferative disorder</span> - massive splenomegaly, sometimes with abnormal blood counts.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastritis/peptic ulcer disease</span> - can present with left-sided upper abdominal discomfort.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute pancreatitis (tail involvement)</span> - epigastric pain radiating to the left side and back.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Left renal colic/pyelonephritis</span> - loin pain that can be mistaken for a splenic source.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Left lower lobe pneumonia</span> - referred pain with respiratory symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Constipation/splenic flexure syndrome</span> - trapped gas causing discomfort in this region.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Analgesia</span> - appropriate for comfort while the underlying cause is being identified.</li>
+      <li>Symptomatic relief should never delay urgent resuscitation or transfusion where rupture or sequestration is suspected.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria-associated splenomegaly</span> - ACT/IV artesunate per severity; hyperreactive malarial splenomegaly may benefit from prolonged antimalarial prophylaxis per specialist guidance.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic sequestration crisis</span> - urgent blood transfusion, close monitoring, and haematology input; splenectomy may be considered after recurrent episodes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic rupture</span> - haemodynamic stabilization with urgent surgical (splenectomy) or interventional radiology (embolization) management, depending on stability and local expertise; conservative management may be possible in select stable, minor cases under close monitoring.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic abscess</span> - IV antibiotics with drainage or splenectomy as indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Splenic TB</span> - standard anti-TB therapy per national guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lymphoma/myeloproliferative disorder</span> - haematology/oncology referral for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastritis/PUD</span> - proton pump inhibitor, with H. pylori eradication if confirmed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pancreatitis</span> - supportive care as per the epigastric pain guide.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Left renal colic/pyelonephritis</span> - analgesia/antibiotics as appropriate.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Left upper quadrant pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, character, radiation (including shoulder tip), trauma history, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Sickle cell disease, known splenomegaly, HIV/TB status.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">NSAID use, alcohol use, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Family history of haemolytic disease, contact sports/physical activity.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, spleen size and tenderness, Kehr's sign, pallor/jaundice, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not asking about trauma (even minor) given the risk of delayed splenic rupture.</li>
+    <li>Not recognizing splenic sequestration crisis in a sickle cell child as an emergency needing urgent transfusion.</li>
+    <li>Underestimating spleen size on palpation, or not palpating carefully at all.</li>
+    <li>Missing the significance of Kehr's sign (left shoulder tip pain).</li>
+    <li>Not considering TB or lymphoma in unexplained splenomegaly with constitutional symptoms.</li>
+    <li>Not counselling a patient with known massive splenomegaly about the risk of rupture from contact sports or heavy activity.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always ask about trauma, even seemingly minor, given the real risk of delayed splenic rupture.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Splenic sequestration crisis in a sickle cell child is a paediatric emergency - recognize it fast and transfuse urgently.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Malaria is the commonest cause of splenomegaly locally, but a genuinely massive spleen carries a real rupture risk worth discussing openly.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Kehr's sign (left shoulder tip pain) points to splenic irritation, including bleeding - take it seriously.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Splenomegaly with B symptoms needs active TB/lymphoma screening, not reassurance.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Society of Hematology - Guidelines on the Management of Sickle Cell Disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Association for the Surgery of Trauma - Organ Injury Scaling for the Spleen.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-right-iliac-fossa-pain',
+    title: 'Right Iliac Fossa Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Abdominal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Right Iliac Fossa Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Right Iliac Fossa Pain</h1>
+    <p class="text-sm text-indigo-200">Appendicitis is the classic teaching answer for right iliac fossa pain, but locally the differential must also seriously include ileocecal tuberculosis, which can mimic appendicitis closely, especially in a more chronic or atypical presentation - and in any woman of reproductive age, ectopic pregnancy must be actively excluded rather than assumed away. This guide focuses on the history and examination that separate these possibilities, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and has it moved or changed location since then? (Pain that started around the umbilicus and has migrated to the right iliac fossa is the classic pattern for appendicitis, though far from universal.)</li>
+      <li>How long has it lasted - hours (acute, raising appendicitis or a gynaecological emergency) or weeks to months (raising a more chronic process such as ileocecal TB or Crohn's disease)?</li>
+      <li>What is the character, and how severe is it?</li>
+      <li>What makes it worse - movement, coughing, or walking (suggests peritoneal irritation)?</li>
+      <li>Has this happened before? Recurrent, self-resolving episodes point away from a first presentation of appendicitis and towards a chronic or recurrent process.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> loss of appetite, nausea, vomiting, and any change in bowel habit (diarrhoea or constipation).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional (ask explicitly for chronic presentations):</span> fever, night sweats, and weight loss - these raise TB, Crohn's disease, or malignancy over straightforward appendicitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, or loin pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gynaecological (in women):</span> last menstrual period, any missed period, abnormal vaginal bleeding or discharge, and shoulder-tip pain (can accompany intra-abdominal bleeding).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genital (in men):</span> sudden testicular pain or swelling - important to ask directly, since testicular torsion can present with associated lower abdominal pain.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy/ectopic risk:</span> sexually active? Last menstrual period? Any previous ectopic pregnancy, pelvic infection, tubal surgery, or an intrauterine device in place? This must be asked in every woman of reproductive age with RIF pain, regardless of how classic the presentation looks for appendicitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> essential given how closely ileocecal TB can mimic appendicitis, particularly with a more chronic course, constitutional symptoms, or a palpable mass.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history (PID):</span> multiple partners, discharge, or previous sexually transmitted infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent viral illness (in children):</span> raises mesenteric adenitis as a self-limiting cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history of inflammatory bowel disease:</span> relevant if Crohn's disease is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known hernia:</span> raises the possibility of a strangulated inguinal hernia presenting with RIF pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent febrile illness:</span> relevant if typhoid with ileal involvement is being considered.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or in obvious distress?</li>
+      <li>Heart rate and blood pressure, including a check for a postural drop - tachycardia and hypotension raise intra-abdominal bleeding (ruptured ectopic) or perforation with sepsis.</li>
+      <li>Temperature - a low-grade fever supports appendicitis; a more prolonged or higher fever pattern with constitutional symptoms raises TB or another chronic infective process.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">McBurney's point tenderness</span> - classically supports appendicitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Rovsing's sign, psoas sign, and obturator sign</span> - further supportive findings for an inflamed appendix.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Rebound tenderness and guarding</span> - raise peritonism, whether from appendicitis, perforation, or another cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">A palpable mass in the right iliac fossa</span> - can reflect an appendiceal mass/abscess, but should also raise ileocecal TB or a caecal malignancy, particularly with a more chronic history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hernial orifices</span> - always examine, particularly if a hernia is in the differential.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of wasting</span> - support a chronic process such as TB, Crohn's disease, or malignancy over acute appendicitis.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic/vaginal examination</span> - where a gynaecological cause is suspected, with appropriate consent and a chaperone.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular examination</span> - in any male with lower abdominal or groin pain, to exclude torsion.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Digital rectal examination</span> - where clinically indicated.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected ectopic pregnancy</span> - RIF pain with a missed period, positive pregnancy test, vaginal bleeding, or syncope; needs urgent gynaecological assessment and must be excluded before assuming appendicitis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden, severe testicular pain</span> - testicular torsion is a time-critical surgical emergency; viability falls sharply after about 6 hours.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of a perforated appendix/generalized peritonitis</span> - a rigid abdomen, high fever, and tachycardia; needs urgent surgical referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden severe pain with a palpable adnexal mass in a woman</span> - raises ovarian torsion, a time-critical surgical emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A chronic RIF mass with constitutional symptoms</span> - needs active workup for ileocecal TB, Crohn's disease, or malignancy, including biopsy where feasible, rather than proceeding straight to major bowel resection based on appearance alone.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine or serum pregnancy test</span> - essential in every woman of reproductive age with RIF pain, regardless of how classic the presentation looks for appendicitis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - leukocytosis supports an acute infective/inflammatory cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies the pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis</span> - for UTI, or blood suggesting a ureteric source.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal/pelvic ultrasound</span> - for appendicitis, ovarian pathology, or to confirm and locate a pregnancy (essential if ectopic is suspected).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert and chest radiograph</span> - where TB is suspected, given how commonly ileocecal disease coexists with pulmonary involvement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">CT abdomen/pelvis</span> - where the diagnosis remains unclear on clinical grounds and ultrasound.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Colonoscopy with biopsy</span> - where ileocecal TB, Crohn's disease, or malignancy is suspected on chronic presentation; histology is important since these can look strikingly similar without it.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood culture</span> - before antibiotics, where typhoid or another bacterial cause is suspected.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute appendicitis</span> - the classic diagnosis; periumbilical pain migrating to the RIF, anorexia, low-grade fever.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ileocecal tuberculosis</span> - a more chronic course, constitutional symptoms, and sometimes a palpable mass; closely mimics appendicitis and needs active consideration locally.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - missed period, positive pregnancy test, unilateral pain, vaginal bleeding, possible syncope.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian cyst rupture or torsion</span> - sudden onset pain, sometimes with a palpable adnexal mass.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease/tubo-ovarian abscess</span> - lower abdominal pain, discharge, cervical motion tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mesenteric adenitis</span> - particularly in children, often following a recent viral illness; self-limiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Meckel's diverticulitis</span> - can mimic appendicitis closely, particularly in children.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Crohn's disease (terminal ileitis)</span> - chronic or recurrent RIF pain, sometimes with diarrhoea and weight loss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid fever with ileal involvement</span> - preceding febrile illness, with risk of perforation in more advanced disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Right ureteric colic</span> - loin-to-groin pain, haematuria.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular torsion</span> - sudden severe scrotal pain with associated lower abdominal pain in a male patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Strangulated inguinal hernia</span> - a tender, irreducible groin swelling.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Caecal malignancy</span> - consider in an older patient with a more chronic history, particularly with anaemia or altered bowel habit.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Analgesia</span> - given in a stepwise fashion; adequate analgesia does not mask a surgical abdomen and should not be withheld while a diagnosis is being reached.</li>
+      <li>Keep the patient nil by mouth if a surgical cause is suspected or being actively worked up.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Appendicitis</span> - surgical referral for appendicectomy; antibiotics as an adjunct or, in select uncomplicated cases, as sole treatment per current surgical protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ileocecal TB</span> - standard anti-TB therapy per national guidelines; ideally confirmed histologically or by other appropriate testing before committing to major bowel resection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - urgent gynaecological/surgical management; may be medical (methotrexate) in carefully selected, stable cases, or surgical where ruptured or unstable.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian torsion</span> - urgent surgical detorsion, ideally within hours to preserve ovarian viability.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - antibiotic combination per local/WHO STI treatment guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mesenteric adenitis</span> - supportive care; this is typically self-limiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Crohn's disease</span> - gastroenterology referral for disease-specific therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Typhoid</span> - antibiotics as per the fever guide; urgent surgical repair if perforated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular torsion</span> - immediate surgical exploration and detorsion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Strangulated hernia</span> - urgent surgical repair.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Right iliac fossa pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, migration pattern, character, duration (acute versus chronic), associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">HIV/TB status, previous ectopic pregnancy, known hernia, family history of IBD.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Known allergies, current medications.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Sexual history where relevant, TB contact.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, specific abdominal signs (McBurney's, Rovsing's), any palpable mass, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not performing a pregnancy test in a woman of reproductive age with RIF pain.</li>
+    <li>Assuming appendicitis in every case without considering ileocecal TB, particularly with a more chronic history.</li>
+    <li>Proceeding straight to major bowel resection for a RIF mass without attempting histological confirmation where feasible.</li>
+    <li>Missing testicular torsion by not examining the testes in a male with RIF pain.</li>
+    <li>Withholding analgesia unnecessarily while awaiting a surgical opinion.</li>
+    <li>Forgetting to examine the hernial orifices where relevant.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check a pregnancy test in a woman of reproductive age with RIF pain, and actively consider ectopic pregnancy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider ileocecal TB in a chronic or atypical presentation mimicking appendicitis - it is a genuine, common local mimic.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sudden testicular pain with RIF pain means torsion until excluded - it is time-critical.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Classic migratory pain supports appendicitis, but atypical presentations are common - don't rely on this pattern alone.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seek histological confirmation where feasible for a chronic RIF mass before committing to major surgery.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Diagnosis and Management of Abdominal Tuberculosis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Ectopic Pregnancy and Miscarriage.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-left-iliac-fossa-pain',
+    title: 'Left Iliac Fossa Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Abdominal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Left Iliac Fossa Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Left Iliac Fossa Pain</h1>
+    <p class="text-sm text-indigo-200">In an older patient with marked abdominal distension and absolute constipation, sigmoid volvulus deserves to be near the top of the list here - it is a genuinely common cause of bowel obstruction locally and is treatable if recognized in time, but can perforate if missed. Ectopic pregnancy must still be actively excluded in any woman of reproductive age. This guide focuses on the history and examination that separate these possibilities, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and was the onset sudden or gradual?</li>
+      <li>What is the character - colicky (comes in waves, suggests obstruction), or a constant ache (more typical of an inflammatory process such as diverticulitis)?</li>
+      <li>Is there marked abdominal swelling or distension alongside the pain?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Has the patient completely stopped passing both stool and flatus?</span> Absolute constipation alongside distension is an important combination that should raise bowel obstruction, including sigmoid volvulus, rather than simple constipation.</li>
+      <li>Has anything like this happened before and settled on its own? Recurrent episodes of severe bloating that resolve spontaneously can be an early warning sign preceding a full volvulus.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> nausea, vomiting, diarrhoea, blood or mucus in the stool, and any change in bowel habit over recent weeks or months.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, unintentional weight loss - relevant to diverticulitis, malignancy, or inflammatory bowel disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary:</span> dysuria, frequency, or loin pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gynaecological (in women):</span> last menstrual period, any missed period, abnormal vaginal bleeding or discharge, or shoulder-tip pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genital (in men):</span> sudden testicular pain or swelling.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Age and bowel habit:</span> older patients with a history of chronic constipation or regular laxative use, and those with a high-fibre diet leading to a long, redundant sigmoid colon, are at greater risk of sigmoid volvulus - a genuinely common cause of bowel obstruction in this setting.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy/ectopic risk:</span> sexually active? Last menstrual period? Any previous ectopic pregnancy, pelvic infection, or tubal surgery? This must be asked in every woman of reproductive age with LIF pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history (PID):</span> multiple partners, discharge, or previous sexually transmitted infection.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> relevant if a psoas abscess or another TB-related process is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> colorectal cancer or inflammatory bowel disease in first-degree relatives.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known hernia:</span> raises the possibility of a strangulated inguinal hernia presenting with LIF pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Vascular risk factors:</span> relevant in an older patient where ischaemic colitis is a possibility.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or in obvious distress? Marked, sometimes asymmetric abdominal distension is a notable feature of sigmoid volvulus.</li>
+      <li>Heart rate and blood pressure, including a check for a postural drop - tachycardia and hypotension raise concern for bowel ischaemia/perforation or intra-abdominal bleeding.</li>
+      <li>Temperature - fever raises an inflammatory or infective cause, or complications of obstruction such as ischaemia or perforation.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Inspection:</span> degree and symmetry of distension.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpation:</span> tenderness by location, guarding, or rigidity (raises peritonism from ischaemia or perforation).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Percussion:</span> a tympanic, resonant abdomen supports significant gas distension, as seen in volvulus/obstruction.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Auscultation:</span> high-pitched, tinkling bowel sounds support obstruction; absent bowel sounds raise ileus or peritonism.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Digital rectal examination</span> - an empty rectum can support high obstruction/volvulus; blood on the glove raises malignancy or inflammatory bowel disease. This is an important step that is easy to skip.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hernial orifices</span> - always examine, particularly if obstruction is suspected.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic/vaginal examination</span> - where a gynaecological cause is suspected, with appropriate consent and a chaperone.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular examination</span> - in any male with lower abdominal or groin pain.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected sigmoid volvulus</span> - marked distension, absolute constipation, and a tympanic abdomen, particularly in an older patient; needs urgent imaging and decompression, since a delay risks strangulation and perforation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Peritonism with distension and fever</span> - raises bowel ischaemia or perforation, a surgical emergency needing urgent assessment rather than further trials of conservative management.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected ectopic pregnancy</span> - LIF pain with a missed period, positive pregnancy test, vaginal bleeding, or syncope; needs urgent gynaecological assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden severe pain with a palpable adnexal mass in a woman</span> - raises ovarian torsion, a time-critical surgical emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden, severe testicular pain</span> - testicular torsion is time-critical.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Erect chest and abdominal radiograph</span> - a key first investigation where obstruction is suspected; sigmoid volvulus classically shows a grossly dilated loop of sigmoid colon, sometimes described as a "coffee bean" sign.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine or serum pregnancy test</span> - essential in every woman of reproductive age with LIF pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - leukocytosis supports an infective/inflammatory or ischaemic process.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal/pelvic ultrasound</span> - for gynaecological causes, or to confirm and locate a pregnancy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">CT abdomen/pelvis</span> - where the diagnosis remains unclear, or complications of volvulus/diverticulitis (ischaemia, perforation, abscess) are suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis</span> - for UTI, or blood suggesting a ureteric source.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Colonoscopy</span> - where malignancy or inflammatory bowel disease is suspected, once any acute obstruction/inflammation has been appropriately managed first.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sigmoid volvulus</span> - marked distension, absolute constipation, and colicky pain, particularly in an older patient; an important and common local cause of bowel obstruction.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Simple constipation/faecal impaction</span> - a much more common and benign cause, but should be distinguished from volvulus by the degree of distension and whether flatus is still passing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diverticulitis</span> - constant LIF pain, fever, and altered bowel habit.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - missed period, positive pregnancy test, unilateral pain, vaginal bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease/tubo-ovarian abscess</span> - lower abdominal pain, discharge, cervical motion tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian cyst rupture or torsion</span> - sudden onset pain, sometimes with a palpable adnexal mass.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Left ureteric colic</span> - loin-to-groin pain, haematuria.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Left-sided colonic malignancy</span> - altered bowel habit, weight loss, anaemia, particularly in an older patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ulcerative colitis</span> - bloody diarrhoea with lower abdominal pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Strangulated inguinal hernia</span> - a tender, irreducible groin swelling.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular torsion</span> - sudden severe scrotal pain with associated lower abdominal pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Psoas abscess</span> - including a TB-related cause, with pain worse on hip extension.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ischaemic colitis</span> - in an older patient with vascular risk factors.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Analgesia</span> - appropriate for comfort while the underlying cause is being identified; adequate analgesia does not mask a surgical abdomen.</li>
+      <li>Keep the patient nil by mouth if obstruction is suspected or being actively worked up.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sigmoid volvulus</span> - urgent sigmoidoscopic detorsion/decompression where the bowel appears viable and there is no peritonism, followed by definitive surgical resection given the high rate of recurrence after decompression alone; emergency surgery where there is evidence of ischaemia or perforation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Simple constipation</span> - laxatives and, where needed, manual disimpaction, alongside dietary and fluid advice.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diverticulitis</span> - antibiotics and bowel rest for uncomplicated disease; surgical referral for an abscess or perforation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - urgent gynaecological/surgical management as clinically appropriate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - antibiotic combination per local/WHO STI treatment guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian torsion</span> - urgent surgical detorsion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Colonic malignancy</span> - referral to the relevant oncology/surgical service for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ulcerative colitis</span> - 5-ASA compounds and/or corticosteroids for a flare, with gastroenterology referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Testicular torsion</span> - immediate surgical exploration and detorsion.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Left iliac fossa pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, character, distension, obstipation status, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Chronic constipation, previous volvulus episodes, known hernia, previous ectopic pregnancy.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Laxative use, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Dietary pattern, sexual history where relevant, family history of colorectal cancer/IBD.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, degree of distension, percussion note, bowel sounds, digital rectal exam findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not considering sigmoid volvulus in an older patient with marked distension and absolute constipation.</li>
+    <li>Missing the classic radiographic appearance of volvulus on a plain abdominal film.</li>
+    <li>Not performing a pregnancy test in a woman of reproductive age with LIF pain.</li>
+    <li>Skipping the digital rectal examination.</li>
+    <li>Delaying surgical referral for peritonism or suspected bowel ischaemia.</li>
+    <li>Attempting decompression alone for volvulus without arranging definitive surgery, given the high recurrence rate.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider sigmoid volvulus in older patients with marked distension and absolute constipation - a treatable but genuinely common local emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Learn to recognize the classic dilated-loop appearance of volvulus on plain abdominal radiograph.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check a pregnancy test in a woman of reproductive age with LIF pain.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Peritonism with distension needs urgent surgical assessment for possible ischaemia or perforation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Digital rectal examination is an important, easy-to-skip part of assessing this presentation.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Society of Emergency Surgery - Guidelines for the Management of Sigmoid Volvulus.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Ectopic Pregnancy and Miscarriage.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-right-upper-quadrant-pain',
+    title: 'Right Upper Quadrant Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Abdominal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Right Upper Quadrant Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Right Upper Quadrant Pain</h1>
+    <p class="text-sm text-indigo-200">Right upper quadrant pain sits at the crossroads of the biliary tree, the liver, and occasionally the chest, pelvis, and kidney. Locally, this differential leans more heavily on viral hepatitis and amoebic liver abscess than it might elsewhere, and on hepatocellular carcinoma given the hepatitis B burden. This guide focuses on the history and examination that clarify which of these is actually driving the pain, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>What is the character - colicky (comes and goes in waves), or a constant, severe ache?</li>
+      <li>Does it relate to fatty meals?</li>
+      <li>Does it radiate anywhere - particularly to the right shoulder or scapula (classic for a biliary cause)?</li>
+      <li>Is it associated with deep breathing (raises a pleuritic/subphrenic component)?</li>
+      <li>Has this happened before, and if so, was a cause ever found?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, rigors, night sweats, and weight loss.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatobiliary:</span> jaundice, pale stool, dark urine, and generalized itching.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> nausea, vomiting, abdominal distension, or a history of diarrhoea (including bloody diarrhoea), which is relevant to amoebic disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough or pleuritic chest pain - relevant if a lower lobe pneumonia or subphrenic process is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gynaecological (in sexually active women):</span> pelvic pain, abnormal discharge, or pain during intercourse - relevant to Fitz-Hugh-Curtis syndrome (perihepatitis associated with pelvic inflammatory disease).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac:</span> breathlessness, orthopnoea, or leg swelling - relevant to congestive hepatomegaly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal (in known sickle cell patients):</span> bone/joint pain elsewhere, which may accompany a hepatic crisis.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatitis B/C risk factors:</span> blood transfusion history, unsafe injections, or known status - hepatitis B is a significant local cause of chronic liver disease and hepatocellular carcinoma.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent diarrhoeal illness:</span> particularly bloody diarrhoea, which raises the possibility of amoebic disease progressing to a liver abscess.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell disease:</span> known genotype, given the risk of hepatic crisis or sequestration.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known gallstones:</span> any prior diagnosis or family history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> relevant to liver disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Herbal remedies ("agbo") or other unregulated preparations:</span> ask specifically, given their recognized potential for hepatotoxicity.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history (in women):</span> relevant if Fitz-Hugh-Curtis syndrome is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known heart failure/rheumatic heart disease:</span> raises congestive hepatomegaly as a cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria exposure:</span> relevant to malaria-associated hepatomegaly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> liver disease or hepatocellular carcinoma.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or septic/unwell?</li>
+      <li>Temperature, heart rate, and blood pressure - fever with tachycardia and hypotension raises cholangitis or a liver abscess progressing to sepsis.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Murphy's sign</span> - supports acute cholecystitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatomegaly</span> - assess whether smooth and tender (supports hepatitis, congestion, or abscess) or hard/nodular (raises malignancy or cirrhosis).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Point tenderness directly over the liver</span> - supports a liver abscess, particularly in a patient with a compatible history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">A palpable, non-tender gallbladder with jaundice (Courvoisier's sign)</span> - suggests malignant biliary obstruction rather than gallstones, since a stone-diseased gallbladder is usually too scarred to distend.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Ascites, splenomegaly, spider naevi, or palmar erythema</span> - signs of chronic liver disease.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Jaundice</span> - check sclerae directly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest examination</span> - where a lower lobe pneumonia or subphrenic process is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac examination</span> - raised JVP and peripheral oedema support congestive hepatomegaly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic examination (in women, where indicated)</span> - cervical motion tenderness or discharge supports pelvic inflammatory disease/Fitz-Hugh-Curtis syndrome.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Level of consciousness</span> - any confusion alongside jaundice raises hepatic encephalopathy, a marker of severe liver dysfunction.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Charcot's triad</span> (fever/rigors, jaundice, RUQ pain) - ascending cholangitis; needs urgent IV antibiotics and biliary decompression, not delay.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Reynolds' pentad</span> (Charcot's triad plus hypotension and altered mental status) - suppurative cholangitis, a severe, life-threatening emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Courvoisier's sign</span> (painless jaundice with a palpable gallbladder) - suggests malignant biliary obstruction and needs urgent imaging, not reassurance.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected liver abscess</span> - fever with tender hepatomegaly, particularly in the context of preceding diarrhoeal illness; needs prompt imaging and drainage where indicated.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of decompensated liver disease</span> (encephalopathy, ascites, coagulopathy) - a marker of severe liver dysfunction needing urgent specialist input.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Acute hepatic crisis or sequestration in a known sickle cell patient</span> - can progress rapidly and needs prompt haematology involvement.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal ultrasound</span> - the first-line investigation for RUQ pain; identifies gallstones, biliary dilation, liver abscess, and hepatomegaly, and is widely accessible.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - leukocytosis supports an infective/inflammatory cause; also assesses for anaemia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - pattern of derangement helps distinguish an obstructive (biliary) from a hepatocellular (hepatitis) process.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood cultures</span> - before antibiotics, where cholangitis or another bacteraemic source is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatitis B and C serology</span> - given the local burden and relevance to chronic liver disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stool microscopy and/or amoebic serology</span> - where amoebic liver abscess is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies hepatomegaly.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alpha-fetoprotein (AFP)</span> - where hepatocellular carcinoma is suspected, alongside further imaging.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">CT/MRI</span> - for further characterization of a mass or to plan drainage/intervention.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest radiograph</span> - where a right lower lobe pneumonia is suspected.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Biliary colic</span> - colicky pain related to fatty meals, resolving between episodes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute cholecystitis</span> - constant pain, fever, positive Murphy's sign.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ascending cholangitis</span> - Charcot's triad, needing urgent treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Viral hepatitis</span> - RUQ discomfort with jaundice, dark urine, pale stool.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Amoebic liver abscess</span> - fever with tender hepatomegaly, often with a preceding diarrhoeal illness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pyogenic liver abscess</span> - similarly presenting, from a bacterial source.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Congestive hepatomegaly</span> - tender, smooth hepatomegaly with signs of heart failure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell hepatic crisis/sequestration</span> - in a known sickle cell patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatocellular carcinoma</span> - hard, nodular hepatomegaly, weight loss, often in a patient with known chronic hepatitis B.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fitz-Hugh-Curtis syndrome (perihepatitis)</span> - RUQ pain in a sexually active woman with pelvic symptoms, associated with pelvic inflammatory disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Right lower lobe pneumonia</span> - referred pain with respiratory symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peptic ulcer disease</span> - particularly a duodenal ulcer, which can present with right-sided upper abdominal pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Right renal colic/pyelonephritis</span> - loin pain that can be mistaken for a hepatobiliary source.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Analgesia</span> - appropriate for comfort while the underlying cause is being identified.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Antiemetics</span> - where nausea/vomiting is prominent.</li>
+      <li>Symptomatic relief should never delay imaging or antibiotics where cholangitis, an abscess, or sepsis is suspected.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Biliary colic</span> - analgesia, with elective cholecystectomy referral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute cholecystitis</span> - IV antibiotics, analgesia, and surgical referral for cholecystectomy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ascending cholangitis</span> - urgent IV antibiotics and biliary decompression (e.g. ERCP) without delay.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Viral hepatitis</span> - supportive care for acute disease; antiviral therapy for chronic hepatitis B/C where indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Amoebic liver abscess</span> - metronidazole (or tinidazole), followed by a luminal agent to clear intestinal colonization; aspiration where the abscess is large or at risk of rupture.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pyogenic liver abscess</span> - IV antibiotics with drainage, guided by culture where possible.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Congestive hepatomegaly</span> - treatment of the underlying heart failure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sickle cell hepatic crisis</span> - supportive care, hydration, and haematology input; exchange transfusion in severe cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatocellular carcinoma</span> - referral to the relevant oncology/surgical service for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fitz-Hugh-Curtis syndrome</span> - antibiotic combination per WHO/local STI treatment guidelines, covering gonococcal and chlamydial infection.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Right upper quadrant pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, character, relation to meals, radiation, associated symptoms, directed risk history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Sickle cell disease, known gallstones, hepatitis B/C status, heart failure.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Herbal remedies, alcohol use, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Sexual history where relevant, family history of liver disease/HCC.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, abdominal findings (Murphy's sign, hepatomegaly character), jaundice, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not obtaining an ultrasound as the first-line investigation.</li>
+    <li>Missing cholangitis by not recognizing Charcot's triad promptly.</li>
+    <li>Not considering amoebic liver abscess, particularly with a preceding diarrhoeal illness.</li>
+    <li>Not checking hepatitis B/C status in unexplained liver pathology.</li>
+    <li>Missing Fitz-Hugh-Curtis syndrome by not taking a sexual history in a woman with RUQ pain.</li>
+    <li>Not considering hepatocellular carcinoma in a patient with known hepatitis B and a new liver mass.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ultrasound is the first-line investigation for RUQ pain - use it early rather than reaching for other imaging first.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Charcot's triad means cholangitis until proven otherwise - urgent antibiotics and biliary drainage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider amoebic liver abscess given local prevalence, especially with a preceding diarrhoeal illness.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen hepatitis B/C status in unexplained liver pathology, given the local burden and its link to hepatocellular carcinoma.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Courvoisier's sign (painless jaundice, palpable gallbladder) points towards malignant obstruction, not gallstones.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Prevention, Care and Treatment of Persons with Chronic Hepatitis B Infection.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Amoebiasis: Diagnosis and Management Guidance.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Tokyo Guidelines - Diagnostic Criteria and Severity Grading of Acute Cholangitis/Cholecystitis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on Pelvic Inflammatory Disease.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+ 
+
+</body>
+</html>
+    `
+  },
+
+
+  {
+    id: 'symptom-clerking-epigastric-pain',
+    title: 'Epigastric Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Abdominal',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Epigastric Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Epigastric Pain</h1>
+    <p class="text-sm text-indigo-200">Most epigastric pain is gastritis or peptic ulcer disease, often related to NSAID use or unregulated herbal remedies, but epigastric pain is also a well-recognized way for a myocardial infarction to present - especially in diabetic patients, where the more typical chest pain may be blunted or absent. This guide focuses on the history and examination that separate a benign gastric cause from the ones that need urgent action, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>What is the character - burning, gnawing, a dull ache, or a crushing/pressure sensation?</li>
+      <li>Does it relate to meals - worse shortly after eating (suggests a gastric ulcer), or worse when fasting and relieved by food (suggests a duodenal ulcer)?</li>
+      <li>Is it worse lying flat or bending forward, and better sitting upright (raises reflux)?</li>
+      <li>Does it radiate anywhere - straight through to the back (raises pancreatitis or a posterior ulcer), or to the jaw, neck, or left arm (raises a cardiac cause)?</li>
+      <li>What makes it better - antacids, food, or a particular position?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> nausea, vomiting (and whether it is blood-stained or coffee-ground), heartburn, regurgitation, bloating, or early satiety.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alarm features (ask explicitly):</span> unintentional weight loss, difficulty or pain swallowing, or black, tarry stools (melena) - all raise a more serious underlying cause and change the urgency of the workup.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac (ask explicitly in every case):</span> breathlessness, sweating, palpitations, or a sense of impending doom accompanying the pain - epigastric pain can be the presenting feature of a myocardial infarction, particularly in diabetic patients.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatobiliary:</span> jaundice, pale stool, dark urine, or pain specifically related to fatty meals.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats - relevant if an infective or malignant cause is being considered.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">NSAID/aspirin use:</span> current or recent use, including over-the-counter analgesics the patient may not think to mention.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Herbal remedies ("agbo") or other unregulated preparations:</span> ask specifically and non-judgementally - these are a common and often overlooked local cause of gastritis, peptic ulceration, and even hepatotoxicity.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac risk factors:</span> known hypertension, diabetes, smoking, family history of heart disease, or previous cardiac events - essential in every patient with epigastric pain, not just those with typical chest pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> relevant to both gastritis and pancreatitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous PUD/H. pylori history:</span> any prior diagnosis or treatment.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous GI bleeding:</span> any prior episode of haematemesis or melena.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gallstone risk factors:</span> known gallstones, or risk factors for them.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatitis risk factors:</span> blood transfusion history, unsafe injections, or known hepatitis B/C status.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy risk:</span> age, and personal or family history of gastric or other GI cancer.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent febrile illness:</span> relevant if a perforative complication of typhoid is being considered.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, distressed, or acutely unwell?</li>
+      <li>Heart rate and blood pressure, including a check for a postural drop - tachycardia and hypotension raise concern for bleeding, perforation, or a cardiac event.</li>
+      <li>Temperature - fever alongside epigastric pain raises an infective or inflammatory cause.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpation:</span> epigastric tenderness, and specifically check for guarding or rigidity, which raises perforation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Murphy's sign</span> - supports cholecystitis if the pain is more right-sided/subcostal.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bowel sounds</span> - absent bowel sounds with a rigid abdomen supports perforation with peritonitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Jaundice or hepatomegaly</span> - raises a hepatobiliary cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Digital rectal examination</span> - where GI bleeding is suspected, to check for melena.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cardiac Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Auscultate for murmurs or a gallop rhythm, and look for signs of heart failure - relevant given how easily a cardiac cause can be overlooked when the pain is epigastric rather than classically retrosternal.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Epigastric pain in a patient with cardiac risk factors</span> - particularly diabetics, in whom a myocardial infarction can present atypically without classic chest pain; get an ECG rather than assuming a gastric cause.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A rigid, board-like abdomen with guarding</span> - raises a perforated peptic ulcer, a surgical emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Haematemesis or melena</span> - a bleeding peptic ulcer needs urgent resuscitation and endoscopy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe epigastric pain radiating to the back with vomiting</span> - raises acute pancreatitis, particularly with a gallstone or alcohol history.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">New dyspepsia with alarm features</span> - unintentional weight loss, dysphagia, persistent vomiting, or anaemia - needs prompt endoscopy referral rather than an empirical PPI trial alone, particularly in an older patient.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">ECG</span> - obtain in essentially every patient with epigastric pain where a cardiac cause is even plausible, particularly diabetics and those with vascular risk factors.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Troponin</span> - where available, to support or exclude myocardial injury.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - looking for anaemia from occult or overt GI bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Amylase/lipase</span> - where pancreatitis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">H. pylori testing</span> (stool antigen, urea breath test, or biopsy at endoscopy) - where peptic ulcer disease is confirmed or strongly suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Upper GI endoscopy</span> - for any alarm feature, or where symptoms persist despite an initial PPI trial.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal ultrasound</span> - where gallstones are suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - where a hepatobiliary cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Erect chest/abdominal radiograph</span> - where perforation is suspected (looking for free air under the diaphragm).</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastritis/peptic ulcer disease</span> - the commonest cause, often related to NSAID/herbal remedy use or H. pylori infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastro-oesophageal reflux disease (GERD)</span> - burning pain worse lying flat, with heartburn/regurgitation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute coronary syndrome</span> - epigastric pain, particularly in diabetics or those with vascular risk factors; must always be actively considered, not assumed away.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute pancreatitis</span> - severe pain radiating to the back, often with a gallstone or alcohol history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Biliary colic/cholecystitis</span> - pain related to fatty meals, positive Murphy's sign.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Perforated peptic ulcer</span> - sudden, severe pain with a rigid abdomen.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastric malignancy</span> - persistent dyspepsia with alarm features, particularly in an older patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Functional dyspepsia</span> - a diagnosis of exclusion once organic causes have been reasonably ruled out.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatitis</span> - right upper quadrant/epigastric discomfort with jaundice, dark urine, pale stool.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Herbal/unregulated remedy-induced gastropathy</span> - a distinct and locally relevant contributor, sometimes alongside hepatotoxicity.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Antacids</span> - for quick symptomatic relief while further assessment proceeds.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Stopping the causative agent</span> - discontinuing NSAIDs or the offending herbal remedy is often the single most important step.</li>
+      <li>Symptomatic relief should never substitute for an ECG or further workup where a cardiac cause, perforation, or bleeding is a realistic possibility.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastritis/peptic ulcer disease</span> - a proton pump inhibitor course, H. pylori eradication therapy if confirmed positive, and stopping NSAIDs/herbal irritants.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD</span> - proton pump inhibitor and lifestyle measures (weight loss where relevant, avoiding late meals, elevating the head of the bed).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute coronary syndrome</span> - manage as per the chest pain guide: aspirin, oxygen if hypoxic, and urgent referral for further cardiac care.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute pancreatitis</span> - supportive care with IV fluids, analgesia, initial nil by mouth, and monitoring for complications.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cholecystitis</span> - IV antibiotics, analgesia, and surgical referral for cholecystectomy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Perforated peptic ulcer</span> - urgent surgical repair.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastric malignancy</span> - referral to the relevant oncology/surgical service for staging and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatitis</span> - supportive care, with antiviral treatment where indicated for chronic hepatitis B/C.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Epigastric pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, character, relation to meals/position, radiation, aggravating/relieving factors, associated and alarm symptoms, directed risk history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Hypertension, diabetes, known PUD, previous GI bleeding, cardiac history.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">NSAID use, herbal remedies, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Alcohol use, family history of GI malignancy or cardiac disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs, abdominal findings, cardiac examination, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not obtaining an ECG in a patient with epigastric pain and cardiac risk factors, particularly diabetics.</li>
+    <li>Not asking specifically about herbal remedy ("agbo") use as a cause of gastritis or hepatotoxicity.</li>
+    <li>Missing alarm features and treating persistent dyspepsia with an indefinite PPI trial instead of referring for endoscopy.</li>
+    <li>Not stopping the NSAID or herbal irritant actually driving ongoing gastritis.</li>
+    <li>Missing perforation by not specifically examining for peritonism.</li>
+    <li>Assuming epigastric pain is always gastric and overlooking a cardiac cause.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always consider a cardiac cause and get an ECG for epigastric pain, especially in patients with vascular risk factors - it can be an MI equivalent.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask specifically about NSAID and herbal remedy ("agbo") use - a common and often overlooked local cause of gastritis and peptic ulcer disease.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New dyspepsia with alarm features needs endoscopy referral, not an indefinite PPI trial.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A rigid abdomen with epigastric pain is a perforation until excluded.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stopping the causative NSAID or herbal irritant is often the single most important treatment step.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Dyspepsia and Gastro-oesophageal Reflux Disease in Adults.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Society of Cardiology - Guidelines for the Management of Acute Coronary Syndromes.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Gastroenterology - Guideline on the Treatment of Helicobacter pylori Infection.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+ 
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-scaling-peeling-of-the-skin',
+    title: 'Scaling/Peeling of the Skin',
+    category: 'Symptom Clerking',
+    subCategory: 'Dermatological',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Scaling or Peeling of the Skin</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Scaling or Peeling of the Skin</h1>
+    <p class="text-sm text-indigo-200">Scaling skin is usually something simple - a fungal infection, eczema, or dry skin - but the differential includes leprosy, which is easy to miss unless a hypopigmented patch is specifically tested for sensory loss, and Stevens-Johnson syndrome/toxic epidermal necrolysis, a dermatological emergency that can follow a new medication. Steroid-containing skin-lightening products also frequently distort the picture locally by masking or altering an underlying fungal infection. This guide focuses on the history and examination that clarify what is really going on, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Scaling Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>Where is it - one or two localized patches, or widespread over much of the body? (This distinction matters a great deal, since localized and generalized scaling point towards very different causes.)</li>
+      <li>What does the scale look like - fine and powdery, thick and silvery, greasy, or ring-shaped with a clearer centre?</li>
+      <li>Is it itchy, and if so, is it worse at night? (Nocturnal itching is classic for scabies.)</li>
+      <li>Has it spread outward or changed shape over time?</li>
+      <li>Has this happened before, and is there anyone else at home with something similar? (Relevant to contagious causes such as fungal infection or scabies.)</li>
+      <li>What has been tried already, and did it help or seem to change the appearance?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sensation in the patch (ask explicitly for any hypopigmented area):</span> is the area numb, or does it feel different to touch compared with the surrounding skin? This single question is central to screening for leprosy and is very easy to skip if not asked directly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mucosal symptoms (ask explicitly where scaling is widespread):</span> soreness or ulceration of the mouth, lips, eyes, or genitals, and any fever - together with widespread skin peeling and a recent new medication, this raises a dermatological emergency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Systemic symptoms:</span> fever, chills, or feeling generally unwell - relevant to erythroderma and severe drug reactions.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Joint symptoms:</span> joint pain or stiffness, particularly with thick, well-demarcated scaly plaques (raises psoriasis/psoriatic arthritis).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hair and nails:</span> patchy hair loss with scaling of the scalp (tinea capitis), or nail thickening/discolouration (fungal nail involvement or psoriasis).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> weight loss or other symptoms that might point towards underlying HIV, given how broadly it can affect the skin.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Steroid-containing skin-lightening creams or other unregulated products:</span> ask specifically and non-judgementally - long-term use can alter the appearance of an underlying fungal infection (tinea incognito), making it look atypical and harder to recognize.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">New medications in the preceding weeks:</span> ask about every new drug, including antibiotics, anticonvulsants, and any others - this is essential wherever widespread peeling is present, given the risk of a severe drug reaction.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status/risk factors:</span> relevant given how many skin conditions present differently, more severely, or more persistently in the context of HIV.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB/leprosy contact:</span> known contact with someone with leprosy, or a family history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history:</span> relevant if secondary syphilis is being considered, which can present with scaling on the palms and soles.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bathing practices and soap use:</span> harsh soaps or frequent hot bathing can worsen dry, scaling skin.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupational/chemical exposure:</span> relevant to irritant or allergic contact dermatitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional intake:</span> particularly in a child or an adult with limited food access, since certain nutritional deficiencies have distinctive skin findings.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> psoriasis, eczema, or other atopic conditions.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Skin Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Distribution - localized versus widespread/generalized - and whether it is symmetrical.</li>
+      <li>Character of the scale, border, and any central clearing (a ring-shaped lesion with an active, scaly border and clearer centre supports tinea).</li>
+      <li>Colour changes - hypopigmentation, hyperpigmentation, or erythema.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Sensory Testing in Any Hypopigmented Patch (Do Not Skip This)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Test light touch and pinprick sensation directly within the patch and compare with normal surrounding skin. Reduced or absent sensation within a hypopigmented, scaly patch is a key clinical sign of leprosy and should prompt urgent referral for confirmation and treatment - early treatment prevents the nerve damage and disability leprosy is best known for.</li>
+      <li>Palpate for thickened peripheral nerves where leprosy is suspected.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Mucosal surfaces</span> (mouth, eyes, genitals) - examine directly wherever widespread skin peeling is present, given the importance of not missing Stevens-Johnson syndrome/TEN.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Scalp and hair</span> - patchy hair loss with scaling supports tinea capitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nails</span> - thickening, discolouration, or pitting.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Joints</span> - where psoriatic arthritis is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of skin thinning or telangiectasia</span> - support long-term topical steroid use.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General signs of HIV</span> - oral thrush, wasting, or lymphadenopathy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Vital signs</span> - essential wherever scaling is widespread, since erythroderma can cause temperature dysregulation and haemodynamic instability.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Widespread skin peeling with mucosal involvement following a new medication</span> - Stevens-Johnson syndrome/toxic epidermal necrolysis until proven otherwise; stop the suspected drug immediately and arrange urgent hospital admission.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A hypopigmented, scaly patch with reduced or absent sensation</span> - leprosy until excluded; early diagnosis and treatment are what prevent permanent nerve damage and disability, so this cannot wait.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Erythroderma (widespread redness and scaling affecting most of the body surface)</span> - carries a real risk of fluid and heat loss, infection, and cardiovascular strain; needs hospital admission and monitoring rather than outpatient management.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of secondary bacterial infection over scaling/broken skin</span> - spreading redness, warmth, or systemic symptoms, needing prompt antibiotic treatment.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin scraping for KOH microscopy</span> - where a fungal cause is suspected; simple and widely useful for confirming tinea.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Slit-skin smear and/or skin biopsy</span> - where leprosy is suspected, alongside careful clinical sensory testing, which remains central to diagnosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent, given how broadly it can affect the skin.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Syphilis serology (RPR/VDRL with confirmatory testing)</span> - where secondary syphilis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC and electrolytes</span> - where erythroderma is present, to assess for fluid and metabolic derangement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin biopsy</span> - where the diagnosis is unclear, or a severe drug reaction/erythroderma needs further characterization.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional assessment</span> - where a dietary deficiency is suspected as a contributing cause.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tinea (corporis, cruris, pedis, or capitis)</span> - a ring-shaped, scaly, often itchy patch with an active border; common in this climate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tinea incognito</span> - a fungal infection whose appearance has been altered by prior topical steroid use, making it look atypical.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pityriasis versicolor</span> - fine scaling with patchy hypo- or hyperpigmentation, typically on the trunk.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Eczema/atopic dermatitis</span> - itchy, scaly patches, often with a personal or family history of atopy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Psoriasis</span> - well-demarcated, thick, silvery scaly plaques, sometimes with nail or joint involvement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Seborrhoeic dermatitis</span> - greasy scaling in the scalp, eyebrows, and nasolabial folds; often more severe in HIV.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Contact dermatitis (irritant or allergic)</span> - related to a specific product or exposure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Xerosis (dry skin)</span> - diffuse fine scaling, often worsened by harsh soaps or frequent hot bathing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Scabies (particularly crusted/Norwegian scabies)</span> - intense itching, worse at night, sometimes with thick scaling in immunosuppressed patients.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Leprosy</span> - a hypopigmented, scaly patch with reduced sensation; a diagnosis that must always be actively considered.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Secondary syphilis</span> - a scaly rash, classically including the palms and soles, in a sexually active patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV-associated skin changes</span> - acquired ichthyosis, severe/atypical seborrhoeic dermatitis, or generalized xerosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Drug reaction/Stevens-Johnson syndrome/TEN</span> - widespread peeling with mucosal involvement following a new medication.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional deficiency dermatoses</span> - distinctive skin changes in the context of significant malnutrition.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Skin Care Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Regular emollient use</span> - helps most scaling conditions regardless of cause, by restoring the skin barrier.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gentle, non-drying soaps</span> - and avoiding excessively hot or prolonged bathing.</li>
+      <li>General measures should never delay specific treatment once a cause is identified, particularly for leprosy or a severe drug reaction.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tinea</span> - a topical antifungal for localized disease; oral antifungal therapy for extensive disease, tinea capitis, or nail involvement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tinea incognito</span> - stop the causative topical steroid and treat with an appropriate antifungal.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pityriasis versicolor</span> - topical antifungal (e.g. selenium sulfide or an azole); pigment changes can take months to fully resolve after treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Eczema</span> - emollients as the foundation of treatment, with topical corticosteroids for flares and identification/avoidance of triggers.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Psoriasis</span> - topical corticosteroids and/or vitamin D analogues for localized disease; referral for more extensive or refractory disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Seborrhoeic dermatitis</span> - topical antifungal combined with a mild topical steroid.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Contact dermatitis</span> - identification and avoidance of the causative product/exposure, with a topical steroid for the flare.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Scabies</span> - topical permethrin or oral ivermectin, with treatment of household contacts and washing of bedding/clothing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Leprosy</span> - urgent referral into the national leprosy programme for confirmation and multidrug therapy; this is not managed with general dermatological treatment alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Secondary syphilis</span> - penicillin per WHO/local STI treatment guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stevens-Johnson syndrome/TEN</span> - immediate cessation of the causative drug, urgent hospital admission (ideally with burns-unit-level supportive care where available), and specialist input.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Erythroderma</span> - hospital admission, careful fluid and temperature management, and treatment of the underlying cause.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Scaling/peeling of the skin, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, distribution, scale character, itch pattern, sensory changes, associated and alarm symptoms, directed risk history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">HIV status, atopy, psoriasis, previous leprosy or TB contact.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Product History</dt>
+      <dd class="mt-0.5">New medications, steroid-containing skin products, current treatments tried.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Family history of atopy/psoriasis, contacts with similar symptoms, occupational exposures, sexual history where relevant.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Distribution and character of scaling, sensory testing of any hypopigmented patch, mucosal examination where relevant, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not testing sensation in a hypopigmented scaly patch, missing an opportunity to diagnose leprosy early.</li>
+    <li>Not asking about recent new medications when widespread skin peeling is present, missing a severe drug reaction.</li>
+    <li>Continuing a steroid cream that is altering the appearance of an underlying fungal infection (tinea incognito).</li>
+    <li>Not considering HIV in atypical, severe, or treatment-resistant skin conditions.</li>
+    <li>Missing secondary syphilis in a sexually active patient with a scaly rash on the palms and soles.</li>
+    <li>Underestimating fluid and temperature regulation risks in a patient with erythroderma.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always test sensation in any hypopigmented scaly patch - early leprosy diagnosis is what prevents permanent nerve damage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Widespread skin peeling with mucosal involvement after a new drug is a dermatological emergency - stop the drug and refer urgently.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about steroid cream use - it can mask or distort an underlying fungal infection.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider HIV in atypical, severe, or treatment-resistant skin conditions.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Secondary syphilis can present as scaling on the palms and soles - consider it in sexually active patients.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Diagnosis, Treatment and Prevention of Leprosy.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis: Recognition and Initial Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Dermatology - Guidelines on the Diagnosis and Management of Tinea Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-comedones',
+    title: 'Comedones (Blackheads and Whiteheads)',
+    category: 'Symptom Clerking',
+    subCategory: 'Dermatological',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Comedones (Blackheads and Whiteheads)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Comedones (Blackheads and Whiteheads)</h1>
+    <p class="text-sm text-indigo-200">Comedones are the non-inflammatory building blocks of acne vulgaris, and while they are rarely medically dangerous, they carry real psychosocial weight - particularly given the risk of post-inflammatory hyperpigmentation in darker skin, which patients often find more distressing than the comedones themselves. Locally, pomades, hair oils, and skin-lightening products are common, correctable contributors that are easy to miss unless asked about directly. This guide focuses on the history and examination that identify what is driving the comedones, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Comedones Themselves</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did they start, and how long have they been present?</li>
+      <li>Where are they located - forehead, nose, chin (the classic distribution), cheeks, chest, or back? A distribution that is unusual for typical acne (e.g. concentrated along the hairline or jawline) is worth noting specifically.</li>
+      <li>Are they mostly open (blackheads) or closed (whiteheads), or is there a mix?</li>
+      <li>Are there also inflamed lesions - papules, pustules, or deeper nodules/cysts - alongside the comedones? This distinguishes comedonal acne from more inflammatory acne, which needs a different treatment approach.</li>
+      <li>Does anything seem to make them worse - certain skincare or haircare products, sweating, humidity, or the time of the menstrual cycle in women?</li>
+      <li>What has been tried already, and did it help?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms and Concerns</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Post-inflammatory hyperpigmentation</span> - ask directly whether dark marks are left behind after lesions resolve, and how much this bothers the patient; for many patients this is the more distressing part of the whole picture, not the comedones themselves.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Scarring</span> - any pitted or textured scarring developing over time.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Itching or tenderness</span> - more typical of inflamed lesions than pure comedones.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">In women:</span> menstrual regularity, excess facial/body hair, or hair thinning - raises an underlying hormonal contributor such as PCOS.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Psychological impact:</span> ask gently how this is affecting confidence and daily life - skin appearance carries significant social weight, and this is a legitimate part of the clerking, not an afterthought.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pomades, hair oils, and hair grease:</span> ask specifically whether these are applied near the hairline or forehead - a genuine and common local cause of comedones along the forehead and temples ("pomade acne").</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin-lightening creams or other unregulated skin products:</span> ask directly and without judgement - some of these contain steroids or other ingredients that can worsen comedones, cause a distinct steroid-induced acne, or thin the skin over time.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cosmetics and moisturizers:</span> heavy, oil-based products can be comedogenic ("acne cosmetica").</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupational exposure:</span> exposure to oils, greases, or certain industrial chemicals can cause an acne-like eruption (chloracne), typically with a more monomorphic comedonal pattern.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> some hormonal contraceptives, corticosteroids, isoniazid, and certain anticonvulsants can trigger or worsen acne.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history:</span> a family history of acne is common and relevant.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Picking or manipulation of lesions:</span> worth asking about gently, since this significantly increases the risk of scarring and hyperpigmentation.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Lesion Assessment</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Distribution and density of open and closed comedones - forehead, nose, chin, cheeks, chest, back.</li>
+      <li>Presence and number of inflammatory lesions (papules, pustules, nodules, or cysts), which determines overall severity and guides treatment intensity.</li>
+      <li>Extent of post-inflammatory hyperpigmentation - document this specifically, since it is often the primary driver of the patient's concern.</li>
+      <li>Any scarring, and its type where visible (e.g. icepick, boxcar, or rolling scars).</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Signs Suggesting a Specific Contributing Cause</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Comedones concentrated along the hairline/forehead</span> - supports pomade-related acne.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin thinning, telangiectasia, or stretch marks at the site of product use</span> - supports topical steroid-related skin damage from bleaching creams.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hirsutism or acanthosis nigricans</span> - raises PCOS as a hormonal contributor, particularly with a compatible menstrual history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">A uniform, monomorphic pattern of comedones in an unusual distribution</span> - raises an occupational/chemical cause (chloracne) rather than typical acne vulgaris.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Red Flags - When to Refer or Act Promptly
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe nodulocystic acne with a real risk of scarring</span> - needs prompt dermatology referral rather than a wait-and-see approach, since scarring is much easier to prevent than to treat once established.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of PCOS</span> (irregular periods, hirsutism, acanthosis nigricans) - warrants a broader hormonal workup rather than treating the acne in isolation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Evidence of skin damage from long-term steroid-containing skin-lightening products</span> - needs a supervised, gradual withdrawal plan rather than abrupt cessation, which can trigger a significant rebound flare.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Acute, severe acne with systemic symptoms</span> (fever, joint pain) - raises acne fulminans, a rare but serious variant needing urgent dermatology input.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Significant psychological distress or impact on daily functioning</span> - deserves direct acknowledgement and, where needed, appropriate support rather than being treated as a purely cosmetic concern.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">None routinely required</span> - comedonal acne is usually a clinical diagnosis based on history and examination alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Androgen profile and pelvic ultrasound</span> - where PCOS is suspected based on menstrual irregularity, hirsutism, or acanthosis nigricans.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin biopsy</span> - rarely needed, but can help where the diagnosis is unclear or an alternative cause (e.g. a different follicular disorder) is being considered.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acne vulgaris (comedonal type)</span> - the default diagnosis, classically on the forehead, nose, and chin.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pomade acne</span> - comedones concentrated along the hairline and forehead, related to hair oils/pomades.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Steroid-induced acne</span> - related to long-term use of steroid-containing skin-lightening products.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acne cosmetica</span> - related to comedogenic cosmetics or moisturizers.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chloracne</span> - occupational exposure to oils or certain chemicals, often with a more uniform pattern.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Drug-induced acne</span> - related to hormonal contraceptives, corticosteroids, isoniazid, or certain anticonvulsants.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">PCOS-related acne</span> - alongside menstrual irregularity and hirsutism.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Milia</span> - small, firm, superficial white cysts that can be mistaken for closed comedones but do not respond the same way to acne treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sebaceous hyperplasia</span> - benign, yellowish papules that can be confused with comedones, more common with increasing age.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Skin Care Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Switch to non-comedogenic skincare and haircare products</span> - and specifically stop or reduce pomades/oils applied near the hairline, which is often the single most impactful change.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gentle cleansing</span> - twice daily with a mild cleanser; avoid harsh scrubbing, which worsens irritation and post-inflammatory pigmentation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Avoid picking or squeezing lesions</span> - this significantly increases the risk of scarring and hyperpigmentation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Daily sunscreen use</span> - important to reduce the risk and severity of post-inflammatory hyperpigmentation as lesions heal.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause/Severity</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Comedonal acne (first-line)</span> - a topical retinoid (e.g. adapalene or tretinoin), applied consistently; this is the treatment of choice for comedones specifically and also helps prevent new lesions from forming.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mild inflammatory acne</span> - benzoyl peroxide, alone or combined with a topical retinoid.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Moderate-to-severe inflammatory acne</span> - addition of a topical or oral antibiotic per standard acne treatment ladders, alongside the above.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pomade/product-related acne</span> - removal of the causative product is often sufficient alone, alongside standard topical therapy if lesions persist.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Steroid-related skin damage</span> - a gradual, supervised taper of the steroid-containing product, not abrupt cessation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">PCOS-related acne</span> - hormonal management (e.g. combined oral contraceptives where appropriate) alongside standard topical therapy, and referral for broader PCOS management.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Post-inflammatory hyperpigmentation</span> - sun protection is essential; topical agents (e.g. azelaic acid) can help, and this should be addressed as a treatment goal in its own right, not an afterthought.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Severe nodulocystic acne or scarring risk</span> - dermatology referral for consideration of more intensive therapy.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Comedones/blackheads and whiteheads, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, distribution, lesion type mix, associated hyperpigmentation/scarring, directed product/risk history, treatment already tried, psychosocial impact, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Menstrual history and hyperandrogenism features where relevant.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">PCOS or other endocrine conditions, previous dermatological diagnoses.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Product History</dt>
+      <dd class="mt-0.5">Pomades/oils, skin-lightening products, cosmetics, current medications.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Family history of acne, occupational exposures.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Distribution and severity of lesions, hyperpigmentation, scarring, signs suggesting a specific contributing cause, explicitly documenting red flags.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses/contributors with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Treatment/referral given, product changes advised, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not asking specifically about pomades, hair oils, and skin-lightening product use.</li>
+    <li>Treating the acne while ignoring post-inflammatory hyperpigmentation, which is often the patient's primary concern.</li>
+    <li>Missing PCOS in a woman with acne alongside menstrual irregularity or hirsutism.</li>
+    <li>Advising abrupt cessation of a long-term steroid-containing product instead of a supervised taper.</li>
+    <li>Not counselling on sun protection to reduce the risk of hyperpigmentation.</li>
+    <li>Dismissing the psychological impact of acne as purely cosmetic.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask specifically about pomades, hair oils, and skin-lightening products - common, correctable local contributors.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A topical retinoid is first-line treatment for comedonal acne specifically.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Post-inflammatory hyperpigmentation is often more distressing to the patient than the acne itself - address it proactively.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen for PCOS features in women with acne plus menstrual irregularity or hirsutism.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never advise abrupt cessation of long-term topical steroid use - always a supervised taper.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Dermatology - Guidelines of Care for the Management of Acne Vulgaris.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Global Alliance to Improve Outcomes in Acne - Skin of Colour Considerations in Acne Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Acne Vulgaris: Clinical Knowledge Summary.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+
+</body>
+</html>
+    `
+  },
+
 // PHYSICAL EXAMINATION
+
 {
   id: 'examination-general-physical',
   title: 'General Physical Examination',

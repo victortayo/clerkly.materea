@@ -2479,6 +2479,619 @@ Not yet available
 
   // Pediatrics
   {
+    id: 'peds-38',
+    title: 'Idiopathic Nephrotic Syndrome',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Nephrology',
+    condition: 'Nephrotic Syndrome',
+    symptoms: [
+      'Periorbital swelling',
+      'Generalized oedema',
+      'Abdominal swelling',
+      'Frothy urine',
+      'Scrotal oedema',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '5-year-old boy presenting with first-episode idiopathic nephrotic syndrome, characterized by progressive periorbital and generalized oedema, ascites, scrotal swelling and frothy urine, with likely Minimal Change Disease.',
+    content: `PAEDIATRICS / PAEDIATRIC NEPHROLOGY
+  
+  Patient Seen
+  
+  A 5-year-old male child, weighing 20 kg, accompanied by his mother who is a reliable historian.
+  
+  CHIEF COMPLAINT
+  
+  Swelling of the face × 10 days.
+  Swelling of both legs × 7 days.
+  Abdominal swelling × 4 days.
+  Passing frothy urine × 1 week.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The child was apparently well until about 10 days prior to presentation when his mother noticed puffiness around both eyes on waking. The swelling initially subsided later in the day but gradually became persistent and progressively worsened.
+  
+  Over the following week, the swelling extended to involve both lower limbs and scrotum. Four days before presentation, progressive abdominal swelling developed, making his clothes feel tighter.
+  
+  His mother also reports that he has been passing frothy urine for about one week. Urine volume has remained fairly normal. There is no history of painful urination, blood in urine, foul-smelling urine or passage of stones.
+  
+  She reports gradual weight gain despite reduced physical activity.
+  
+  There is no history of fever, sore throat, skin infection or recent immunization.
+  No history of reduced urine output.
+  No history of hypertension.
+  No difficulty breathing.
+  No seizures.
+  No history of previous similar illness.
+  There is no history suggestive of systemic lupus erythematosus or vasculitis.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Facial swelling.
+  Weight gain.
+  Reduced activity.
+  No fever.
+  
+  Renal:
+  Frothy urine.
+  No haematuria.
+  No dysuria.
+  Normal urine volume.
+  
+  Respiratory:
+  No cough.
+  No difficulty breathing.
+  
+  Cardiovascular:
+  Leg swelling.
+  No cyanosis.
+  
+  Gastrointestinal:
+  Abdominal swelling.
+  Good appetite.
+  No vomiting.
+  No diarrhoea.
+  
+  Neurological:
+  No seizures.
+  No altered consciousness.
+  
+  BIRTH HISTORY
+  
+  Full-term spontaneous vaginal delivery.
+  Normal pregnancy.
+  No neonatal admission.
+  
+  IMMUNIZATION HISTORY
+  
+  Fully immunized for age according to the National Programme on Immunization schedule.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Developmental milestones attained appropriately.
+  
+  NUTRITIONAL HISTORY
+  
+  Mixed family diet.
+  No recent change in feeding.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic illness.
+  No previous hospital admission.
+  No previous kidney disease.
+  
+  DRUG HISTORY
+  
+  No regular medications.
+  No herbal medications.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  No family history of kidney disease.
+  No family history of autoimmune disease.
+  
+  GENERAL EXAMINATION
+  
+  Young child.
+  Alert.
+  Comfortable at rest.
+  Generalized oedema (anasarca).
+  Periorbital oedema.
+  Bilateral pitting pedal oedema extending to the thighs.
+  Scrotal oedema present.
+  Moderate ascites.
+  No pallor.
+  No jaundice.
+  No cyanosis.
+  No lymphadenopathy.
+  
+  ANTHROPOMETRY
+  
+  Weight: 20 kg (increased from previous clinic weight of 18 kg)
+  Height: 112 cm
+  BMI appropriate for age.
+  
+  VITAL SIGNS
+  
+  Temperature: 36.8°C
+  Pulse Rate: 96 beats/minute
+  Respiratory Rate: 22 cycles/minute
+  Blood Pressure: 98/62 mmHg (normal for age)
+  SpO₂: 99% on room air
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Pulse regular.
+  Heart sounds normal.
+  No murmurs.
+  No signs of heart failure.
+  
+  RESPIRATORY EXAMINATION
+  
+  Normal chest expansion.
+  Good bilateral air entry.
+  No crepitations.
+  No pleural effusion clinically.
+  
+  ABDOMINAL EXAMINATION
+  
+  Moderately distended abdomen.
+  Shifting dullness present.
+  No tenderness.
+  No hepatosplenomegaly.
+  Normal bowel sounds.
+  
+  GENITOURINARY EXAMINATION
+  
+  Scrotal oedema present.
+  External genitalia otherwise normal.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Conscious.
+  Alert.
+  Normal tone.
+  Normal power.
+  No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  First episode of idiopathic nephrotic syndrome (likely Minimal Change Disease) presenting with generalized oedema (anasarca), ascites and nephrotic-range proteinuria.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Minimal Change Disease (most likely).
+  2. Focal Segmental Glomerulosclerosis.
+  3. Congenital nephrotic syndrome (unlikely).
+  4. Lupus nephritis (less likely).
+  5. Acute glomerulonephritis (less likely because of absence of haematuria and hypertension).
+  
+  INVESTIGATIONS
+  
+  Bedside:
+  Urinalysis (expected: 3+–4+ protein, no or trace blood).
+  Daily urine protein by dipstick.
+  Strict fluid input/output chart.
+  Daily body weight.
+  Blood pressure chart every 6 hours.
+  
+  Laboratory:
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  Serum Albumin.
+  Total Protein.
+  Liver Function Tests.
+  Fasting Lipid Profile.
+  Urine Protein-Creatinine Ratio (UPCR).
+  Urine Microscopy, Culture and Sensitivity.
+  Serum Calcium.
+  Hepatitis B and HIV screening if prolonged immunosuppression is anticipated.
+  
+  If atypical features are present (persistent haematuria, hypertension, reduced renal function, low complement, age <1 year or >12 years):
+  ANA.
+  Anti-dsDNA.
+  Complement (C3, C4).
+  
+  Imaging:
+  Renal ultrasound if atypical presentation or poor response to treatment.
+  Chest X-ray if pleural effusion is suspected.
+  
+  MANAGEMENT
+  
+  Admission:
+  Admit to the paediatric ward for monitoring of oedema, urine protein, blood pressure and response to corticosteroid therapy.
+  
+  Dietary Management:
+  No added salt diet. Avoid salty snacks, processed foods and added table salt.
+  Maintain normal protein intake for age; do not provide a high-protein diet.
+  Fluid restriction is not routinely required but may be considered if there is severe oedema with hyponatraemia or reduced urine output.
+  
+  Corticosteroid Therapy (First-line):
+  
+  Prednisolone 2 mg/kg/day orally once daily, maximum 60 mg/day.
+  
+  For this child (20 kg):
+  Prednisolone 40 mg orally once daily after breakfast for 6 weeks.
+  
+  Then:
+  Prednisolone 1.5 mg/kg (30 mg) orally on alternate days for another 6 weeks, followed by gradual discontinuation according to response and local paediatric nephrology protocol.
+  
+  Monitor urine protein daily to assess remission.
+  
+  Gastric Protection:
+  
+  While on high-dose corticosteroids:
+  
+  Omeprazole 20 mg orally once daily, or 10 mg once daily if local protocol prefers weight-based dosing, before breakfast for the duration of high-dose steroid therapy, especially if gastrointestinal symptoms or additional ulcer risk factors are present.
+  
+  Diuretic Therapy:
+  
+  For troublesome oedema causing discomfort or impaired mobility:
+  
+  Furosemide 1 mg/kg/dose orally every 12 hours.
+  
+  For this child:
+  Furosemide 20 mg orally every 12 hours.
+  
+  Monitor electrolytes and urine output closely.
+  
+  Albumin Infusion (For Severe Symptomatic Oedema):
+  
+  If there is severe anasarca with intravascular depletion, hypotension or poor urine output:
+  
+  20% Human Albumin 1 g/kg IV over 4 hours.
+  
+  For this child:
+  20 g albumin IV over 4 hours, followed immediately by:
+  
+  Furosemide 1 mg/kg IV (20 mg IV) at the end of the infusion to promote diuresis.
+  
+  Monitor blood pressure and respiratory status throughout.
+  
+  Infection Management:
+  
+  Children with nephrotic syndrome are at increased risk of bacterial infections.
+  
+  If bacterial infection is suspected:
+  Ceftriaxone 50–75 mg/kg IV once daily while awaiting culture results.
+  
+  For this child:
+  Ceftriaxone 1 g IV once daily.
+  
+  Adjust according to culture and sensitivity.
+  
+  Thrombosis Prevention:
+  
+  Encourage adequate mobilization and hydration when clinically appropriate.
+  Routine anticoagulation is not recommended in children unless there is confirmed thrombosis or a very high thrombotic risk.
+  
+  Calcium and Vitamin D Supplementation:
+  
+  During prolonged corticosteroid therapy:
+  
+  Calcium carbonate 500 mg orally once daily.
+  Vitamin D3 (Cholecalciferol) 400–600 IU orally once daily.
+  
+  Immunization:
+  
+  Review immunization status.
+  Defer live vaccines while receiving high-dose corticosteroids.
+  Recommend annual influenza vaccination and pneumococcal vaccination where available.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor vital signs every 6 hours.
+  Measure blood pressure every shift.
+  Strict fluid input/output chart.
+  Daily body weight.
+  Measure abdominal girth daily.
+  Test urine protein daily using dipstick.
+  Observe for fever, respiratory distress or signs of thrombosis.
+  
+  HEALTH EDUCATION
+  
+  Explain that nephrotic syndrome is a kidney condition in which excessive amounts of protein leak into the urine because the kidney filters become abnormally permeable. This causes low blood protein levels, leading to swelling around the eyes, legs, abdomen and sometimes the scrotum.
+  
+  Reassure the parents that Minimal Change Disease, the most common cause in children, responds well to corticosteroid therapy, with most children achieving remission. However, relapses are common, particularly during or after viral infections, and prompt recognition is important.
+  
+  Advise strict adherence to prescribed medications and clinic appointments. Teach the caregiver how to perform and record early morning urine dipstick testing at home, if available, to detect relapse early.
+  
+  Advise avoiding excessive dietary salt and discourage the use of herbal medications or over-the-counter NSAIDs. Encourage prompt medical review if the child develops fever, severe abdominal pain, difficulty breathing, reduced urine output, painful swollen limbs, gross haematuria or worsening oedema.
+  
+  FOLLOW-UP
+  
+  Review daily while admitted.
+  
+  Monitor:
+  Daily urine protein.
+  Daily weight.
+  Blood pressure.
+  Serum electrolytes, urea and creatinine twice weekly initially.
+  Serum albumin weekly until improving.
+  
+  Following discharge:
+  Weekly Paediatric Nephrology Clinic review until remission.
+  Then monthly for 6 months, with ongoing monitoring for relapse, steroid adverse effects, growth parameters and blood pressure.
+  
+  Prognosis:
+  Excellent. Approximately 80–90% of children with idiopathic nephrotic syndrome due to Minimal Change Disease achieve complete remission with corticosteroid therapy. Although relapses are common, long-term renal function is usually preserved with appropriate treatment and regular follow-up.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-37',
+    title: 'Uncomplicated Measles',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency',
+    condition: 'Measles (Rubeola)',
+    symptoms: [
+      'Generalized body rash',
+      'High-grade fever',
+      'Cough and catarrh',
+      'Red eyes',
+      'Koplik spots'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-25',
+    summary: 'A 3-year-old incompletely immunized male presented with fever, cough, coryza, conjunctivitis, Koplik spots and a generalized cephalocaudal maculopapular rash, consistent with uncomplicated acute measles.',
+    content: `PAEDIATRIC EMERGENCY
+  
+  Patient Seen
+  
+  A 3-year-old male child weighing 14 kg, resident in Abeokuta, Ogun State. Informant: Mother (Reliable).
+  
+  CC:
+  Generalized body rash × 2 days.
+  High-grade fever × 5 days.
+  Cough and catarrh × 5 days.
+  Red eyes × 4 days.
+  
+  HPC:
+  The child was apparently well until 5 days prior to presentation when he developed a high-grade intermittent fever associated with dry cough, catarrh, poor appetite and irritability. Fever was temporarily relieved with paracetamol administered at home.
+  
+  Four days prior to presentation, the mother noticed redness of both eyes associated with excessive tearing and photophobia. There was no purulent eye discharge or visual impairment.
+  
+  Three days prior to presentation, she observed multiple tiny whitish spots on the inner aspect of the cheeks before the onset of the skin rash.
+  
+  Two days prior to presentation, a reddish non-vesicular rash appeared behind the ears and on the face before progressively spreading in a cephalocaudal fashion to involve the neck, trunk, upper limbs and lower limbs over the next 24–48 hours. The rash is mildly pruritic without blistering or skin peeling.
+  
+  The child has become less active, refuses solid meals but continues to take fluids. Urine output has remained adequate.
+  
+  There is no vomiting, diarrhoea, convulsion, difficulty breathing or ear discharge.
+  
+  There is a positive history of contact with another child in the neighbourhood who recently developed a similar febrile rash illness.
+  
+  The child missed the Measles-Containing Vaccine (MCV1) scheduled at 9 months because of missed immunization appointments.
+  
+  ROS:
+  
+  General:
+  High-grade fever.
+  Poor appetite.
+  Weakness.
+  Irritability.
+  
+  Respiratory:
+  Dry cough.
+  Catarrh.
+  No fast breathing.
+  No difficulty breathing.
+  
+  Ophthalmic:
+  Red eyes.
+  Watery eyes.
+  Photophobia.
+  No purulent discharge.
+  
+  Skin:
+  Generalized erythematous rash.
+  Mild pruritus.
+  No blisters.
+  No skin peeling.
+  
+  Gastrointestinal:
+  Poor feeding.
+  No vomiting.
+  No diarrhoea.
+  
+  Neurological:
+  No seizures.
+  No altered consciousness.
+  
+  PMH:
+  No previous hospital admissions.
+  No chronic medical illness.
+  No history of recurrent respiratory tract infections.
+  
+  Birth History:
+  Delivered at term via spontaneous vaginal delivery.
+  Birth weight 3.2 kg.
+  No neonatal complications.
+  
+  Immunization History:
+  Routine immunizations completed up to 14 weeks.
+  Missed Measles-Containing Vaccine (MCV1) at 9 months.
+  
+  Drug History:
+  Paracetamol syrup administered at home.
+  No known drug allergies.
+  
+  Family History:
+  Nil significant.
+  
+  Social History:
+  Lives with parents and two siblings.
+  Attends nursery school.
+  Recent contact with another child who developed a similar febrile rash illness.
+  
+  O/E:
+  Ill-looking but not toxic.
+  Conscious and alert.
+  Febrile.
+  Mildly dehydrated (dry lips, moist tongue).
+  Generalized erythematous maculopapular rash.
+  No pallor.
+  No jaundice.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 39.1°C
+  Pulse Rate: 124 bpm
+  Respiratory Rate: 28 cpm
+  Blood Pressure: 92/58 mmHg
+  SpO₂: 98% on room air
+  Weight: 14 kg
+  
+  Skin:
+  Generalized erythematous maculopapular rash.
+  Rash began on the face and spread in a cephalocaudal pattern to involve the trunk and limbs.
+  Lesions confluent over the face and upper trunk.
+  No vesicles.
+  No bullae.
+  No purpura.
+  No evidence of secondary bacterial infection.
+  
+  Oral Cavity:
+  Multiple Koplik spots present on the buccal mucosa opposite the lower molars.
+  Mild pharyngeal erythema.
+  No oral thrush.
+  
+  Eyes:
+  Bilateral non-purulent conjunctivitis.
+  Watery discharge.
+  Photophobia.
+  Cornea clear.
+  No corneal ulceration.
+  Extraocular movements full.
+  
+  Respiratory:
+  Chest expansion symmetrical.
+  Breath sounds vesicular.
+  No crepitations.
+  No wheeze.
+  
+  CVS:
+  Heart sounds S1 and S2 normal.
+  No murmurs.
+  Peripheral pulses full.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  Normal bowel sounds.
+  
+  CNS:
+  Conscious.
+  Alert.
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  ASSESSMENT:
+  Uncomplicated acute measles in an incompletely immunized 3-year-old child with mild dehydration and mild pruritus.
+  
+  Differential Diagnoses:
+  Rubella.
+  Roseola infantum.
+  Scarlet fever.
+  Other viral exanthem.
+  Drug-induced maculopapular eruption.
+  
+  PLAN:
+  
+  Investigations:
+  FBC.
+  Measles IgM antibody.
+  Measles PCR (where available).
+  Serum Electrolytes, Urea and Creatinine if dehydration worsens.
+  Chest X-ray only if pneumonia is suspected.
+  
+  Isolation:
+  Manage as an outpatient as the child is clinically stable.
+  Advise home isolation until at least 4 days after onset of the rash.
+  Notify the Disease Surveillance and Notification Officer (DSNO).
+  
+  Hydration:
+  Encourage frequent oral fluids, ORS, soups and continued feeding.
+  If unable to tolerate orally or dehydration worsens:
+  0.9% Normal Saline 20 mL/kg IV over 1 hour, then reassess.
+  
+  Antipyretic:
+  Paracetamol 15 mg/kg (210 mg = 6.5 mL of 160 mg/5 mL suspension) PO every 6 hours as required.
+  Avoid aspirin.
+  
+  Vitamin A:
+  Vitamin A 200,000 IU PO immediately.
+  Repeat after 24 hours.
+  Consider a third dose after 2–4 weeks if severe measles or vitamin A deficiency is present.
+  
+  Eye Care:
+  Clean eyelids gently with sterile normal saline or cooled boiled water.
+  Carboxymethylcellulose 0.5% eye drops, 1 drop into each eye qid for 5–7 days.
+  Advise avoidance of bright sunlight.
+  Refer urgently if eye pain, reduced vision, corneal clouding or ulceration develops.
+  
+  Pruritus:
+  Calamine lotion applied 2–3 times daily.
+  Cetirizine 2.5 mg PO daily for 5 days.
+  Encourage lukewarm baths and regular emollient use.
+  Avoid topical corticosteroids unless otherwise indicated.
+  
+  Nutrition:
+  Continue age-appropriate feeding.
+  Encourage protein- and vitamin A-rich meals.
+  Continue breastfeeding if applicable.
+  
+  Antibiotics:
+  Not routinely indicated.
+  If secondary bacterial pneumonia develops:
+  Ceftriaxone 80 mg/kg/day IV once daily (approximately 1.1 g daily).
+  If acute otitis media develops:
+  Amoxicillin 45 mg/kg/day PO in two divided doses for 5–7 days (approximately 320 mg every 12 hours).
+  
+  Cough Relief:
+  Encourage warm fluids.
+  Honey 2.5–5 mL at bedtime (child >1 year).
+  Avoid routine cough suppressants.
+  
+  Nursing Instructions:
+  Monitor temperature every 6 hours.
+  Monitor hydration status and urine output.
+  Maintain skin and eye hygiene.
+  Watch for respiratory distress or altered consciousness.
+  
+  Health Education:
+  Counsel the caregiver that measles is a highly contagious viral illness transmitted through respiratory droplets.
+  Explain that treatment is mainly supportive with hydration, fever control, vitamin A supplementation and adequate nutrition.
+  Advise isolation until at least 4 days after rash onset.
+  Stress completion of routine immunization and catch-up measles vaccination after recovery.
+  Advise immediate return if difficulty breathing, persistent vomiting, inability to drink, convulsions, persistent fever, excessive drowsiness, worsening eye symptoms, ear discharge or reduced urine output develops.
+  
+  Follow-up:
+  Review in the Paediatric Clinic in 3–5 days or earlier if symptoms worsen.
+  Monitor for pneumonia, otitis media, diarrhoea, keratitis, encephalitis and secondary bacterial skin infection.
+  Arrange catch-up measles vaccination after complete recovery.
+  
+  Prognosis:
+  Good, given the absence of complications and prompt supportive management. Complete recovery is expected within 1–2 weeks with close monitoring for complications.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'peds-36',
     title: 'Aplastic Crisis in a Child with Sickle Cell Anaemia',
     specialty: 'Pediatrics',
@@ -11118,6 +11731,6984 @@ Not yet available
 
   // Internal Medicine
   {
+    id: 'im-49',
+    title: 'Stress-Induced (Takotsubo) Cardiomyopathy Presenting as Acute Coronary Syndrome',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Takotsubo Cardiomyopathy',
+    symptoms: ['Sudden-onset central chest pain', 'Shortness of breath', 'Palpitations', 'Profuse sweating', 'Nausea', 'Acute emotional distress', 'Anxiety'],
+    contributor: 'Admin',
+    lastModified: '2026-07-30',
+    summary: '58-year-old postmenopausal woman presenting with sudden-onset severe central chest pain, dyspnoea, palpitations and diaphoresis shortly after receiving news of her son’s sudden death, with clinical features suggestive of stress-induced Takotsubo cardiomyopathy presenting as an acute coronary syndrome-like syndrome.',
+    content: `INTERNAL MEDICINE
+    
+    Patient Seen
+    
+    A 58-year-old postmenopausal widowed female school administrator from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informants: Patient and daughter (Reliable).
+    
+    PC:
+    
+    Sudden-onset central chest pain × 4 hours.
+    Shortness of breath × 3 hours.
+    Palpitations × 3 hours.
+    
+    HPC:
+    
+    The patient was apparently well until approximately four hours prior to presentation when she developed sudden-onset severe central chest pain.
+    
+    The pain is described as a crushing and pressure-like sensation over the retrosternal region, rated 8/10 in intensity, with radiation to the left shoulder.
+    
+    The pain was associated with shortness of breath, palpitations, marked sweating, nausea and a feeling of impending doom.
+    
+    Approximately three hours prior to presentation, she developed worsening shortness of breath and became increasingly anxious.
+    
+    The symptoms began shortly after she received the news of the sudden death of her eldest son in a road traffic accident earlier that day.
+    
+    She reports experiencing intense emotional distress, crying repeatedly and feeling overwhelmed since receiving the news.
+    
+    There is no history of previous similar episodes.
+    
+    There is no history of recent strenuous physical activity.
+    
+    There is no history of fever or recent respiratory tract infection.
+    
+    There is no history of pleuritic chest pain, haemoptysis or syncope.
+    
+    She has no known history of myocardial infarction or previous coronary artery disease.
+    
+    REVIEW OF SYSTEMS
+    
+    Cardiovascular:
+    
+    Severe central chest pain.
+    Palpitations.
+    Shortness of breath.
+    Profuse sweating.
+    No previous myocardial infarction.
+    No known heart failure.
+    No syncope.
+    No significant previous exertional angina.
+    
+    Respiratory:
+    
+    Shortness of breath.
+    No cough.
+    No haemoptysis.
+    No wheezing.
+    
+    Gastrointestinal:
+    
+    Nausea.
+    No vomiting.
+    No abdominal pain.
+    
+    Neurological:
+    
+    No loss of consciousness.
+    No seizures.
+    No focal neurological deficit.
+    
+    Psychological:
+    
+    Severe acute emotional distress.
+    Recent major bereavement.
+    Anxiety.
+    Sleep disturbance since the stressful event.
+    No previous history of diagnosed psychiatric illness.
+    No suicidal ideation or thoughts of self-harm reported.
+    
+    PAST MEDICAL HISTORY:
+    
+    Known hypertensive patient for 8 years.
+    No known diabetes mellitus.
+    No known dyslipidaemia.
+    No previous myocardial infarction.
+    No known coronary artery disease.
+    No previous heart failure.
+    No known cardiomyopathy.
+    
+    PAST SURGICAL HISTORY:
+    
+    No previous surgery.
+    
+    DRUG HISTORY:
+    
+    Tab Amlodipine 5 mg orally once daily.
+    Reports occasional poor compliance.
+    No known drug allergies.
+    
+    FAMILY HISTORY:
+    
+    No family history of premature coronary artery disease.
+    No family history of cardiomyopathy.
+    No family history of sudden cardiac death.
+    
+    SOCIAL HISTORY:
+    
+    School administrator.
+    Recently widowed.
+    Lives with her daughter.
+    Non-smoker.
+    Does not consume alcohol.
+    No recreational drug use.
+    
+    O/E:
+    
+    Middle-aged to elderly woman, conscious and alert, anxious and tearful, moderately ill-looking, in moderate painful distress and profusely diaphoretic, not pale, anicteric, not cyanosed and without peripheral oedema.
+    
+    VITAL SIGNS:
+    
+    BP 154/92 mmHg
+    PR 112 bpm, regular
+    RR 26 cpm
+    Temperature 36.8°C
+    SpO₂ 94% on room air
+    Weight 74 kg
+    Height 1.62 m
+    BMI 28.2 kg/m²
+    
+    CVS:
+    
+    Pulse regular and tachycardic.
+    Blood pressure elevated.
+    JVP not significantly elevated.
+    Heart sounds I and II present.
+    No obvious murmur.
+    No pericardial friction rub.
+    No peripheral oedema.
+    No clinical evidence of cardiogenic shock at presentation.
+    
+    CHEST:
+    
+    Tachypnoeic.
+    Chest expansion symmetrical.
+    Fine bibasal inspiratory crepitations.
+    No wheezing.
+    No obvious pleural effusion clinically.
+    
+    ABD:
+    
+    Abdomen soft and non-tender.
+    No hepatosplenomegaly.
+    No ascites.
+    
+    CNS:
+    
+    Conscious and oriented.
+    GCS 15/15.
+    No focal neurological deficit.
+    
+    PSYCHIATRIC ASSESSMENT:
+    
+    Patient is conscious, cooperative and appropriately responsive.
+    Appears markedly anxious and emotionally distressed.
+    Speech coherent.
+    Thought content appropriate to recent bereavement.
+    No delusions or hallucinations.
+    No suicidal or homicidal ideation.
+    
+    ASSESSMENT:
+    
+    Acute stress-induced (Takotsubo) cardiomyopathy presenting with an acute coronary syndrome-like presentation, likely triggered by severe emotional stress.
+    
+    However, because the patient presents with acute chest pain, possible ECG abnormalities and myocardial injury, acute coronary syndrome must be assumed and managed appropriately until acute coronary occlusion has been excluded.
+    
+    The diagnosis of Takotsubo cardiomyopathy requires demonstration of characteristic transient left ventricular dysfunction and exclusion of alternative causes, particularly acute coronary occlusion.
+    
+    DIFFERENTIAL DIAGNOSES:
+    
+    Acute coronary syndrome — STEMI/NSTEMI.
+    Stress-induced (Takotsubo) cardiomyopathy.
+    Acute myocarditis/myopericarditis.
+    Acute pulmonary embolism.
+    Acute aortic syndrome/dissection.
+    Acute decompensated heart failure.
+    Panic attack or acute anxiety reaction.
+    Pericarditis.
+    
+    INVESTIGATIONS:
+    
+    1. 12-LEAD ECG
+    
+    Obtain immediately and ideally within 10 minutes of presentation.
+    
+    Possible findings include:
+    
+    ST-segment elevation.
+    ST-segment depression.
+    T-wave inversion.
+    QT interval prolongation.
+    Dynamic ECG changes.
+    
+    The ECG may mimic acute myocardial infarction and cannot reliably distinguish Takotsubo cardiomyopathy from ACS on its own.
+    
+    Repeat serial ECGs as clinically indicated.
+    
+    2. HIGH-SENSITIVITY CARDIAC TROPONIN
+    
+    Obtain serial high-sensitivity troponin measurements.
+    
+    Troponin is often elevated in Takotsubo cardiomyopathy but is frequently disproportionate to the degree of left ventricular dysfunction.
+    
+    Serial measurements assist in distinguishing myocardial injury from other causes of chest pain.
+    
+    3. FULL BLOOD COUNT
+    
+    Assess for anaemia, leukocytosis and other haematological abnormalities.
+    
+    4. SERUM ELECTROLYTES, UREA AND CREATININE
+    
+    Assess renal function, sodium, potassium and magnesium.
+    
+    Correct electrolyte abnormalities, particularly in patients with QT prolongation or arrhythmias.
+    
+    5. BLOOD GLUCOSE / HbA1c
+    
+    Assess for diabetes mellitus and stress hyperglycaemia.
+    
+    6. LIPID PROFILE
+    
+    Obtain baseline lipid profile as part of cardiovascular risk assessment.
+    
+    7. THYROID FUNCTION TESTS
+    
+    Consider where clinically indicated to exclude thyroid disease as a precipitant or contributor to cardiac dysfunction.
+    
+    8. CHEST X-RAY
+    
+    Assess for pulmonary oedema, cardiomegaly, pleural effusion and alternative causes of acute respiratory symptoms.
+    
+    9. TRANSTHORACIC ECHOCARDIOGRAPHY
+    
+    Perform urgent transthoracic echocardiography.
+    
+    Possible findings include:
+    
+    Reduced left ventricular ejection fraction.
+    Regional wall motion abnormality extending beyond a single coronary artery territory.
+    Typical apical ballooning pattern.
+    Mid-ventricular pattern.
+    Basal/reverse Takotsubo pattern.
+    Possible right ventricular involvement.
+    Functional mitral regurgitation.
+    Left ventricular outflow tract obstruction in selected patients.
+    
+    Assess for complications including acute heart failure, left ventricular thrombus and dynamic LV outflow tract obstruction.
+    
+    10. CORONARY ANGIOGRAPHY
+    
+    Because Takotsubo cardiomyopathy can closely mimic acute coronary syndrome, coronary angiography is often required to exclude obstructive coronary artery disease, particularly in patients presenting with STEMI-like features or significant troponin elevation.
+    
+    If invasive coronary angiography is not immediately appropriate, coronary CT angiography may be considered in selected stable patients.
+    
+    11. CARDIAC MRI
+    
+    Consider cardiac MRI where available and clinically appropriate.
+    
+    It may help confirm the pattern of ventricular dysfunction, assess myocardial oedema, exclude myocarditis, assess for myocardial infarction and late gadolinium enhancement and evaluate other structural myocardial diseases.
+    
+    DIAGNOSTIC ASSESSMENT:
+    
+    The diagnosis of Takotsubo cardiomyopathy is supported by:
+    
+    Transient left ventricular or biventricular systolic dysfunction.
+    Characteristic regional wall motion abnormality extending beyond a single coronary territory.
+    New ECG abnormalities and/or modest elevation of cardiac biomarkers.
+    Absence of an alternative explanation such as myocarditis or acute coronary occlusion.
+    Often, but not always, a preceding emotional or physical trigger.
+    
+    The condition is most commonly seen in postmenopausal women but may occur in other patient groups.
+    
+    PLAN:
+    
+    1. INITIAL MANAGEMENT
+    
+    Because the presentation may be indistinguishable from ACS:
+    
+    Place patient on continuous cardiac monitoring.
+    Establish IV access.
+    Obtain urgent ECG.
+    Obtain serial cardiac biomarkers.
+    Arrange urgent echocardiography.
+    Involve Cardiology early.
+    
+    If ACS cannot initially be excluded, manage according to the local ACS protocol while urgent diagnostic evaluation is undertaken.
+    
+    2. ANTIPLATELET THERAPY
+    
+    If ACS is suspected at presentation:
+    
+    Aspirin 300 mg orally, chewed immediately, provided there is no significant contraindication.
+    
+    Further antiplatelet therapy should be guided by the ECG, coronary angiography findings and the treating Cardiology team.
+    
+    If coronary angiography excludes acute coronary occlusion and Takotsubo cardiomyopathy is confirmed, long-term dual antiplatelet therapy is generally not required unless there is another indication.
+    
+    3. ANTICOAGULATION
+    
+    Routine anticoagulation is not required for all patients with Takotsubo cardiomyopathy.
+    
+    Consider therapeutic anticoagulation if there is documented left ventricular thrombus, extensive apical ballooning with severe LV systolic dysfunction and high thrombotic risk, systemic thromboembolism or another established indication for anticoagulation.
+    
+    Treatment should be individualized according to thrombotic and bleeding risk.
+    
+    4. MANAGEMENT OF HEART FAILURE
+    
+    If pulmonary congestion is present:
+    
+    Furosemide 20–40 mg IV, followed by reassessment of clinical response.
+    
+    Adjust dose according to volume status, renal function and urine output.
+    
+    If the patient is clinically stable and has reduced LV systolic function, an ACE inhibitor/ARB or ARNI may be considered.
+    
+    5. ACE INHIBITOR / ARB
+    
+    For a haemodynamically stable patient with significant LV systolic dysfunction:
+    
+    Enalapril 2.5–5 mg orally twice daily, gradually titrated as tolerated.
+    
+    Alternatively, an appropriate ARB/ARNI may be considered according to Cardiology guidance.
+    
+    Monitor blood pressure, renal function and serum potassium.
+    
+    6. BETA-BLOCKER
+    
+    Consider beta-blocker therapy in haemodynamically stable patients, particularly where there is tachycardia, hypertension, sympathetic overactivity or arrhythmia risk.
+    
+    One option:
+    
+    Bisoprolol 1.25 mg orally once daily, gradually titrated.
+    
+    Avoid initiation in cardiogenic shock, severe acute decompensated heart failure, significant bradycardia or high-grade heart block.
+    
+    Use caution in patients with significant QT prolongation.
+    
+    7. MANAGEMENT OF QT PROLONGATION
+    
+    If QT prolongation is present:
+    
+    Correct hypokalaemia.
+    Correct hypomagnesaemia.
+    Avoid unnecessary QT-prolonging medications.
+    Maintain continuous ECG monitoring where significant QT prolongation is present.
+    
+    Monitor for torsades de pointes and other ventricular arrhythmias.
+    
+    8. MANAGEMENT OF LEFT VENTRICULAR OUTFLOW TRACT OBSTRUCTION
+    
+    If echocardiography demonstrates significant LV outflow tract obstruction:
+    
+    Avoid excessive diuresis.
+    Avoid unnecessary vasodilators.
+    Maintain adequate preload.
+    Consider beta-blockade where appropriate.
+    
+    Urgent specialist Cardiology management is required.
+    
+    9. CARDIOGENIC SHOCK
+    
+    If cardiogenic shock develops:
+    
+    Admit to ICU/CCU.
+    Urgent echocardiographic assessment.
+    Identify whether LV outflow tract obstruction is present.
+    Avoid reflexive use of inotropes if significant LV outflow tract obstruction exists, as they may worsen the obstruction.
+    
+    Management should be individualized by the Cardiology/critical care team.
+    
+    Mechanical circulatory support may be considered in refractory cases.
+    
+    10. PSYCHOLOGICAL SUPPORT
+    
+    Provide supportive psychological care.
+    
+    Allow the patient to discuss the precipitating stressor.
+    
+    Assess for acute stress reaction, depression, anxiety disorder, complicated grief and suicidal ideation.
+    
+    Offer referral to a psychologist, psychiatrist or trained counsellor where appropriate.
+    
+    Encourage family support.
+    
+    NURSING INSTRUCTIONS:
+    
+    Admit to a monitored cardiac bed or coronary care unit depending on severity.
+    
+    Continuous ECG monitoring.
+    
+    Monitor blood pressure.
+    Monitor pulse rate.
+    Monitor respiratory rate.
+    Monitor SpO₂.
+    Monitor cardiac rhythm.
+    Monitor urine output.
+    Maintain accurate fluid balance.
+    
+    Monitor for recurrent chest pain, worsening dyspnoea, pulmonary oedema, hypotension, ventricular arrhythmias and QT prolongation.
+    
+    Monitor serum electrolytes and renal function.
+    
+    HEALTH EDUCATION:
+    
+    Explain to the patient that stress-induced cardiomyopathy, also known as Takotsubo cardiomyopathy, is a temporary weakening of the heart muscle that may occur after severe emotional or physical stress.
+    
+    Explain that the symptoms can closely resemble a heart attack and that urgent assessment is required because the two conditions cannot initially be reliably distinguished based on symptoms alone.
+    
+    Reassure the patient that heart function often improves substantially or returns to normal over time with appropriate treatment.
+    
+    Advise the patient to adhere strictly to prescribed medications, attend scheduled Cardiology appointments, avoid excessive physical exertion during recovery, seek help for persistent anxiety, depression or severe emotional distress and return immediately for recurrent chest pain, severe breathlessness, fainting or palpitations.
+    
+    FOLLOW-UP:
+    
+    Repeat echocardiography after approximately 4–8 weeks or as directed by Cardiology to document recovery of left ventricular function.
+    
+    Review symptoms, ECG, LV ejection fraction, ventricular wall motion, presence or resolution of LV thrombus, heart failure symptoms and blood pressure.
+    
+    Continue heart failure medications during recovery where clinically indicated, with reassessment as ventricular function normalizes.
+    
+    Assess and manage cardiovascular risk factors.
+    
+    Provide ongoing psychological support where required.
+    
+    PROGNOSIS:
+    
+    Generally favorable, with most patients experiencing substantial recovery of left ventricular systolic function over days to weeks.
+    
+    However, the acute phase can be complicated by acute heart failure, cardiogenic shock, ventricular arrhythmias, left ventricular outflow tract obstruction, left ventricular thrombus and systemic embolism and, rarely, ventricular rupture or death.
+    
+    Recurrence can occur, although it is relatively uncommon.
+    
+    Final working diagnosis: Suspected stress-induced (Takotsubo) cardiomyopathy presenting with an acute coronary syndrome-like syndrome following severe emotional stress, with acute coronary syndrome to be excluded urgently by ECG, serial cardiac biomarkers and coronary assessment.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    
+    Not yet available
+    
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'im-48',
+    title: 'Suspected Native-Valve Infective Endocarditis with Mild Congestive Cardiac Failure',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Infective Endocarditis',
+    symptoms: ['Fever', 'Chills and rigors', 'Night sweats', 'Progressive easy fatigability', 'Weight loss', 'Exertional dyspnoea', 'Palpitations', 'Bilateral ankle swelling', 'Dry cough'],
+    contributor: 'Admin',
+    lastModified: '2026-07-30',
+    summary: '38-year-old man presenting with 3 weeks of fever, constitutional symptoms and weight loss, followed by progressive exertional dyspnoea, palpitations and bilateral pedal oedema, with a pansystolic mitral regurgitation murmur and splinter haemorrhages, suggestive of native-valve infective endocarditis complicated by mild congestive cardiac failure.',
+    content: `INTERNAL MEDICINE
+    
+    Patient Seen
+    
+    A 38-year-old married male commercial driver from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informants: Patient and wife (Reliable).
+    
+    PC:
+    
+    Fever × 3 weeks.
+    Progressive easy fatigability × 3 weeks.
+    Shortness of breath × 1 week.
+    
+    HPC:
+    
+    The patient was apparently well until approximately three weeks prior to presentation when he developed intermittent high-grade fever associated with chills and rigors.
+    
+    The fever is worse at night and is associated with generalized body weakness, malaise and reduced appetite.
+    
+    He reports intermittent excessive sweating, particularly at night, and has noticed progressive weight loss of approximately 4 kg over the past three weeks.
+    
+    He initially self-medicated with over-the-counter antimalarial medication with transient improvement in his fever. However, the fever subsequently recurred.
+    
+    Approximately one week prior to presentation, he developed progressive shortness of breath, initially on moderate exertion but now occurring with minimal exertion.
+    
+    He also reports occasional dry cough and awareness of his heartbeat.
+    
+    He has noticed bilateral ankle swelling over the past four days.
+    
+    There is no history of pleuritic chest pain or haemoptysis.
+    
+    There is no history of recurrent sore throat or recent dental procedure.
+    
+    He denies intravenous drug use.
+    
+    He reports having undergone a minor skin procedure at a local clinic approximately one month prior to the onset of symptoms, following which he developed a localized wound infection that was treated with oral antibiotics.
+    
+    He has no known history of rheumatic heart disease but reports being told in the past that he had a "heart murmur."
+    
+    There is no history of previous infective endocarditis.
+    
+    REVIEW OF SYSTEMS
+    
+    General:
+    
+    Intermittent fever.
+    Chills and rigors.
+    Night sweats.
+    Malaise.
+    Generalized weakness.
+    Reduced appetite.
+    Recent unintentional weight loss.
+    
+    Cardiovascular:
+    
+    Progressive exertional dyspnoea.
+    Palpitations.
+    Bilateral ankle swelling.
+    No significant chest pain.
+    No syncope.
+    
+    Respiratory:
+    
+    Shortness of breath.
+    Occasional dry cough.
+    No haemoptysis.
+    
+    Neurological:
+    
+    No headache.
+    No seizures.
+    No loss of consciousness.
+    No focal neurological deficit.
+    
+    Gastrointestinal:
+    
+    Reduced appetite.
+    No abdominal pain.
+    No vomiting.
+    No diarrhoea.
+    
+    Genitourinary:
+    
+    No dysuria.
+    No haematuria.
+    No flank pain.
+    
+    PAST MEDICAL HISTORY:
+    
+    No known hypertension.
+    No known diabetes mellitus.
+    No known chronic kidney disease.
+    No previous diagnosis of infective endocarditis.
+    No known congenital heart disease.
+    No known rheumatic heart disease, although he reports a previous history of a heart murmur.
+    No known immunosuppression.
+    
+    PAST SURGICAL HISTORY:
+    
+    No major previous surgery.
+    Recent minor skin procedure approximately one month prior to presentation.
+    
+    DRUG HISTORY:
+    
+    No regular medications.
+    Recently completed an unspecified oral antibiotic course for a presumed skin infection.
+    No known drug allergies.
+    
+    FAMILY HISTORY:
+    
+    No known family history of congenital heart disease.
+    No family history of sudden cardiac death.
+    
+    SOCIAL HISTORY:
+    
+    Commercial driver.
+    Married with two children.
+    Non-smoker.
+    Occasional alcohol consumption.
+    Denies recreational drug use.
+    Denies intravenous drug use.
+    
+    O/E:
+    
+    Middle-aged man, conscious and alert, mildly ill-looking, febrile, mildly dyspnoeic, not pale, anicteric, not cyanosed, with no significant peripheral lymphadenopathy and mild bilateral pitting pedal oedema.
+    
+    VITAL SIGNS:
+    
+    BP 112/68 mmHg
+    PR 108 bpm, regular
+    RR 24 cpm
+    Temperature 38.7°C
+    SpO₂ 95% on room air
+    Weight 68 kg
+    Height 1.74 m
+    BMI 22.5 kg/m²
+    
+    CVS:
+    
+    Pulse regular and tachycardic.
+    Blood pressure maintained.
+    JVP mildly elevated.
+    Apex beat not significantly displaced.
+    Heart sounds I and II present.
+    Grade 3/6 pansystolic murmur audible at the apex and radiating to the left axilla, suggestive of mitral regurgitation.
+    No pericardial friction rub.
+    Mild bilateral pitting pedal oedema.
+    
+    CHEST:
+    
+    Tachypnoeic.
+    Chest expansion symmetrical.
+    Bibasal fine inspiratory crepitations.
+    No wheezing.
+    
+    ABD:
+    
+    Abdomen soft.
+    Mild right hypochondrial tenderness.
+    Liver palpable approximately 2 cm below the right costal margin.
+    No splenomegaly appreciated clinically.
+    No ascites.
+    
+    CNS:
+    
+    Conscious and oriented.
+    GCS 15/15.
+    No focal neurological deficit.
+    
+    PERIPHERAL VASCULAR AND SKIN EXAMINATION:
+    
+    A few splinter haemorrhages noted beneath the fingernails.
+    No obvious Janeway lesions or Osler nodes.
+    No active skin infection identified.
+    Conjunctivae examined for conjunctival haemorrhages.
+    Oral cavity and dentition examined for potential sources of infection.
+    
+    ASSESSMENT:
+    
+    Suspected native-valve infective endocarditis, likely involving the mitral valve, with associated mild congestive cardiac failure.
+    
+    The diagnosis is supported by prolonged fever, constitutional symptoms and weight loss, a new or worsening cardiac murmur suggestive of valvular regurgitation, peripheral stigmata suggestive of infective endocarditis and a possible recent source of bacteraemia following a skin procedure complicated by local wound infection.
+    
+    The patient requires urgent blood cultures and echocardiographic assessment.
+    
+    DIFFERENTIAL DIAGNOSES:
+    
+    Infective endocarditis.
+    Rheumatic valvular heart disease with intercurrent infection.
+    Myocarditis.
+    Acute rheumatic fever.
+    Tuberculosis.
+    Malaria.
+    Occult abscess or other systemic bacterial infection.
+    Connective tissue disease.
+    Malignancy, particularly lymphoma.
+    
+    INVESTIGATIONS:
+    
+    1. BLOOD CULTURES
+    
+    Obtain at least three sets of blood cultures from separate peripheral venepuncture sites before commencing antibiotics, provided this does not result in clinically significant treatment delay in an unstable patient.
+    
+    Each set should be appropriately collected for aerobic and anaerobic culture according to local laboratory protocols.
+    
+    Document time of collection, site of collection and temperature at the time of collection.
+    
+    Repeat blood cultures if initially negative but clinical suspicion remains high or if the patient continues to have fever.
+    
+    2. FULL BLOOD COUNT
+    
+    Assess for anaemia, leukocytosis and thrombocytopenia.
+    
+    3. ESR AND CRP
+    
+    Assess inflammatory activity and monitor response to treatment.
+    
+    4. SERUM ELECTROLYTES, UREA AND CREATININE
+    
+    Assess renal function before and during potentially nephrotoxic antimicrobial therapy.
+    
+    Monitor for immune-complex glomerulonephritis and other renal complications.
+    
+    5. LIVER FUNCTION TESTS
+    
+    Establish baseline hepatic function and assess for hepatic congestion or systemic infection.
+    
+    6. URINALYSIS
+    
+    Assess for haematuria, proteinuria and evidence of renal involvement.
+    
+    7. BLOOD GLUCOSE / HbA1c
+    
+    Assess for previously undiagnosed diabetes mellitus and identify factors that may increase infection risk.
+    
+    8. HIV SCREENING
+    
+    Perform after appropriate counselling and consent according to local protocols.
+    
+    9. CHEST X-RAY
+    
+    Assess for cardiomegaly, pulmonary vascular congestion, pulmonary oedema and pneumonia.
+    
+    10. TRANSTHORACIC ECHOCARDIOGRAPHY (TTE)
+    
+    Perform urgently to assess for vegetations, valvular regurgitation, valve destruction, cardiac chamber size, left ventricular function, pericardial effusion and evidence of heart failure.
+    
+    Expected finding may include a mobile vegetation attached to the anterior mitral valve leaflet with moderate mitral regurgitation.
+    
+    11. TRANSOESOPHAGEAL ECHOCARDIOGRAPHY (TEE)
+    
+    Arrange TEE if TTE is negative but clinical suspicion remains high, TTE images are inadequate, prosthetic valve endocarditis is suspected, a cardiac device is present, complications such as abscess or fistula are suspected or detailed assessment is required before surgery.
+    
+    DIAGNOSIS USING DUKE CRITERIA:
+    
+    Assess using the 2023 Duke-ISCVID criteria where applicable.
+    
+    Major criteria include positive blood cultures for typical microorganisms consistent with infective endocarditis and evidence of endocardial involvement, including vegetation on echocardiography, new valvular regurgitation or other imaging evidence of valve infection.
+    
+    Minor criteria include predisposition such as previous valve disease or prosthetic material, fever ≥38°C, vascular phenomena, immunological phenomena and microbiological evidence not meeting a major criterion.
+    
+    The final diagnosis should be established based on the complete clinical, microbiological and imaging findings.
+    
+    PLAN:
+    
+    1. ADMISSION
+    
+    Admit to the medical ward or a monitored cardiac unit depending on severity.
+    Urgent Cardiology and Infectious Disease/Microbiology consultation.
+    
+    2. ANTIMICROBIAL THERAPY
+    
+    Obtain appropriate blood cultures before commencing antibiotics, provided this does not cause clinically significant delay in an unstable patient.
+    
+    Empiric antibiotic selection should be guided by native versus prosthetic valve, community versus healthcare-associated infection, previous antibiotic exposure, local antimicrobial resistance patterns, renal function and allergy history.
+    
+    One possible empiric regimen, depending on local protocol and microbiology advice, is intravenous vancomycin dosed according to actual body weight and renal function with therapeutic drug monitoring, plus ceftriaxone 2 g IV once daily in selected community-acquired presentations where appropriate.
+    
+    Treatment should be modified promptly once the causative organism and antimicrobial susceptibility results become available.
+    
+    Targeted antimicrobial therapy should be guided by the causative organism and susceptibility results.
+    
+    For susceptible viridans group streptococci or Streptococcus gallolyticus, a beta-lactam such as ceftriaxone 2 g IV once daily may be used for selected uncomplicated native-valve infections, with duration determined by the organism, valve involved and treatment protocol.
+    
+    For MSSA, an antistaphylococcal beta-lactam such as flucloxacillin IV or nafcillin/oxacillin IV may be used according to local availability and susceptibility.
+    
+    For MRSA, vancomycin IV with therapeutic monitoring or daptomycin IV may be used in selected cases.
+    
+    For Enterococcus species, treatment should be guided by species and susceptibility, with ampicillin IV combined with ceftriaxone IV being a possible regimen for susceptible strains under specialist guidance.
+    
+    3. HEART FAILURE MANAGEMENT
+    
+    The patient has clinical features of mild congestive cardiac failure.
+    
+    Consider furosemide 20–40 mg IV or orally depending on severity and volume status.
+    
+    Monitor urine output, daily weight, renal function and serum electrolytes.
+    
+    Treat the underlying infection promptly.
+    
+    Avoid excessive IV fluid administration in a patient with significant cardiac failure.
+    
+    4. ANTICOAGULATION
+    
+    Do not initiate anticoagulation solely for infective endocarditis.
+    
+    If the patient has another established indication for anticoagulation, discuss management with Cardiology and Infectious Disease specialists, particularly in the presence of cerebral embolic events or intracranial haemorrhage risk.
+    
+    5. DENTAL AND INFECTIVE SOURCE CONTROL
+    
+    Perform a careful search for the source of bacteraemia.
+    
+    Assess for dental disease, skin and soft tissue infection, urinary infection, intravascular devices and recent surgical procedures.
+    
+    Remove infected intravascular catheters where indicated.
+    
+    Dental intervention should be coordinated with the treating team once the patient is clinically stable.
+    
+    SURGICAL MANAGEMENT:
+    
+    Urgent Cardiothoracic Surgery assessment is required if there is:
+    
+    1. Heart Failure
+    
+    Severe acute valvular regurgitation causing pulmonary oedema or cardiogenic shock.
+    
+    2. Uncontrolled Infection
+    
+    Persistent bacteraemia despite appropriate antibiotics.
+    Perivalvular abscess.
+    Fistula.
+    New heart block suggesting extension of infection.
+    Fungal or highly resistant organism.
+    
+    3. Prevention of Embolism
+    
+    Large or highly mobile vegetations with recurrent embolic events or other high-risk features despite appropriate antibiotic therapy.
+    
+    4. Prosthetic Valve Endocarditis
+    
+    Early surgery may be required depending on the causative organism, prosthetic dysfunction and presence of complications.
+    
+    The exact timing of surgery should be determined by a multidisciplinary Endocarditis Team.
+    
+    MONITORING:
+    
+    Monitor temperature chart.
+    Monitor pulse and blood pressure.
+    Monitor respiratory rate and oxygen saturation.
+    Monitor cardiac rhythm.
+    Monitor daily weight.
+    Maintain accurate fluid input and output.
+    Monitor renal function and electrolytes.
+    Monitor CRP/ESR.
+    Repeat blood cultures until clearance is documented.
+    Monitor closely for embolic complications.
+    
+    COMPLICATIONS TO WATCH FOR:
+    
+    Cardiac:
+    
+    Acute heart failure.
+    Severe valvular regurgitation.
+    Perivalvular abscess.
+    Conduction abnormalities.
+    Complete heart block.
+    Pericarditis.
+    Myocardial infarction.
+    
+    Neurological:
+    
+    Ischaemic stroke.
+    Intracranial haemorrhage.
+    Brain abscess.
+    Mycotic aneurysm.
+    Seizures.
+    
+    Renal:
+    
+    Immune-complex glomerulonephritis.
+    Acute kidney injury.
+    
+    Vascular:
+    
+    Systemic embolization.
+    Splenic infarction or abscess.
+    Pulmonary embolic phenomena in right-sided endocarditis.
+    
+    NURSING INSTRUCTIONS:
+    
+    Monitor temperature regularly.
+    Maintain accurate fluid balance.
+    Monitor urine output.
+    Monitor for new neurological deficits.
+    Observe for worsening dyspnoea or signs of pulmonary oedema.
+    Administer IV antibiotics at the prescribed times.
+    Monitor for antibiotic-related adverse effects.
+    Obtain repeat blood cultures as instructed.
+    Monitor renal function and electrolytes.
+    
+    HEALTH EDUCATION:
+    
+    Explain to the patient that infective endocarditis is an infection of the inner lining of the heart, usually involving the heart valves.
+    
+    Explain the importance of completing the full course of antimicrobial therapy.
+    
+    Advise the patient not to stop antibiotics without medical advice.
+    
+    Educate regarding the importance of good dental hygiene.
+    
+    Advise the patient to seek medical attention early for recurrent unexplained fever.
+    
+    Explain that patients with certain high-risk cardiac conditions may require antibiotic prophylaxis before specific dental procedures, according to current guideline recommendations.
+    
+    FOLLOW-UP:
+    
+    Continue follow-up with Cardiology, Infectious Disease/Microbiology and Cardiothoracic Surgery where indicated.
+    
+    Repeat echocardiography if clinical status deteriorates, a new murmur develops, heart failure worsens, complications are suspected or initial imaging is inconclusive.
+    
+    Repeat blood cultures until the bloodstream infection has cleared.
+    
+    Monitor renal function throughout antimicrobial treatment.
+    
+    After completion of treatment, repeat echocardiography may be required to assess residual valvular damage and cardiac function.
+    
+    PROGNOSIS:
+    
+    Guarded but potentially favorable with early diagnosis, appropriate prolonged antimicrobial therapy and timely surgical intervention when indicated.
+    
+    Prognosis depends on the causative organism, valve involved, presence of prosthetic material, degree of valvular destruction, presence of heart failure, presence of embolic complications, speed of clearance of bacteraemia and need for and timing of valve surgery.
+    
+    Final working diagnosis: Suspected native-valve infective endocarditis, likely involving the mitral valve, with associated mild congestive cardiac failure. Diagnosis to be confirmed using blood cultures and echocardiography, with treatment guided by microbiology results and multidisciplinary Endocarditis Team review.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    
+    Not yet available
+    
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'im-47',
+    title: 'Dilated Cardiomyopathy with Heart Failure with Reduced Ejection Fraction',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Heart Failure with Reduced Ejection Fraction (HFrEF)',
+    symptoms: ['Progressive shortness of breath', 'Orthopnoea', 'Paroxysmal nocturnal dyspnoea', 'Bilateral leg swelling', 'Easy fatigability', 'Reduced exercise tolerance', 'Palpitations'],
+    contributor: 'Admin',
+    lastModified: '2026-07-30',
+    summary: '45-year-old man with progressive exertional dyspnoea, orthopnoea, paroxysmal nocturnal dyspnoea and bilateral lower limb swelling, with clinical features of congestive cardiac failure secondary to suspected dilated cardiomyopathy with HFrEF.',
+    content: `INTERNAL MEDICINE / CARDIOLOGY
+    
+    Patient Seen
+    
+    A 45-year-old married male civil servant from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated.
+    
+    CHIEF COMPLAINT
+    
+    Progressive shortness of breath × 6 months.
+    
+    Bilateral leg swelling × 3 months.
+    
+    Easy fatigability × 4 months.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The patient was apparently well until approximately six months prior to presentation when he developed progressive shortness of breath.
+    
+    The shortness of breath was initially noticed during moderate exertion, such as walking long distances or climbing two flights of stairs, but has progressively worsened and now occurs with minimal exertion.
+    
+    He currently becomes breathless after walking a short distance on level ground and is unable to perform his usual daily activities without stopping to rest.
+    
+    He also reports difficulty breathing when lying flat and currently sleeps with three pillows. He occasionally wakes from sleep at night with sudden severe shortness of breath, which improves when he sits upright and dangles his legs over the side of the bed.
+    
+    Approximately three months prior to presentation, he developed progressive bilateral lower limb swelling, initially around the ankles and gradually extending up to the lower legs.
+    
+    The swelling is worse towards the evening and improves partially after overnight rest.
+    
+    He reports easy fatigability, reduced exercise tolerance and generalized weakness.
+    
+    He also reports occasional awareness of his heartbeat but denies syncope.
+    
+    He has had intermittent dry cough, particularly at night.
+    
+    There is no history of recurrent chest pain.
+    
+    There is no history of haemoptysis.
+    
+    There is no history of fever or recent respiratory tract infection.
+    
+    There is no history of chronic alcohol abuse.
+    
+    There is no known history of hypertension, diabetes mellitus or previous myocardial infarction.
+    
+    There is no history of previous rheumatic fever.
+    
+    There is no history of congenital heart disease.
+    
+    He reports no previous diagnosis of heart disease.
+    
+    REVIEW OF SYSTEMS
+    
+    Cardiovascular:
+    
+    Progressive exertional dyspnoea.
+    Orthopnoea.
+    Paroxysmal nocturnal dyspnoea.
+    Bilateral lower limb swelling.
+    Easy fatigability.
+    Reduced exercise tolerance.
+    Occasional palpitations.
+    No syncope.
+    No significant chest pain.
+    
+    Respiratory:
+    
+    Shortness of breath.
+    Occasional dry cough.
+    No haemoptysis.
+    No wheezing.
+    
+    Gastrointestinal:
+    
+    Reduced appetite.
+    Occasional early satiety.
+    No vomiting.
+    No diarrhoea.
+    No abdominal pain.
+    
+    Genitourinary:
+    
+    No dysuria.
+    No haematuria.
+    No significant reduction in urine output.
+    
+    Neurological:
+    
+    No headache.
+    No seizures.
+    No focal neurological deficit.
+    
+    PAST MEDICAL HISTORY
+    
+    No known hypertension.
+    No known diabetes mellitus.
+    No previous myocardial infarction.
+    No known chronic kidney disease.
+    No known chronic lung disease.
+    No previous diagnosis of heart failure.
+    No known rheumatic heart disease.
+    No known congenital heart disease.
+    
+    PAST SURGICAL HISTORY
+    
+    No previous surgery.
+    
+    DRUG HISTORY
+    
+    Not on regular medications.
+    Occasional use of Paracetamol.
+    No known drug allergies.
+    
+    FAMILY HISTORY
+    
+    No known family history of cardiomyopathy.
+    No family history of sudden cardiac death.
+    No known family history of unexplained premature death.
+    Parents are deceased from non-cardiac causes.
+    
+    SOCIAL HISTORY
+    
+    Civil servant.
+    Married with three children.
+    Non-smoker.
+    Reports occasional alcohol consumption but denies heavy or prolonged alcohol use.
+    No recreational drug use.
+    No known exposure to cardiotoxic medications.
+    
+    GENERAL EXAMINATION
+    
+    Middle-aged man, mildly ill-looking.
+    Mild respiratory distress at rest.
+    Not pale.
+    Not jaundiced.
+    Not cyanosed.
+    Bilateral pitting pedal oedema extending to the lower third of both legs.
+    No peripheral stigmata of infective endocarditis.
+    
+    VITAL SIGNS
+    
+    Blood Pressure: 106/72 mmHg
+    Pulse Rate: 104 beats/minute, regular.
+    Respiratory Rate: 24 cycles/minute
+    Temperature: 36.7°C
+    SpO₂: 94% on room air
+    Weight: 86 kg
+    Height: 1.75 m
+    BMI: 28.1 kg/m²
+    
+    CARDIOVASCULAR EXAMINATION
+    
+    Pulse regular, low volume.
+    Blood pressure mildly low-normal.
+    Jugular venous pressure elevated approximately 6 cm above the sternal angle.
+    Apex beat is displaced laterally and inferiorly to the 6th left intercostal space, anterior axillary line.
+    Heart sounds I and II present.
+    Soft third heart sound (S3 gallop) audible.
+    No significant pericardial rub.
+    A soft pansystolic murmur, maximal at the apex and radiating towards the left axilla, is present, suggestive of functional mitral regurgitation.
+    Bilateral pitting pedal oedema.
+    
+    RESPIRATORY EXAMINATION
+    
+    Tachypnoeic.
+    Chest expansion symmetrical.
+    Bibasal fine inspiratory crepitations.
+    No wheezing.
+    No clinical evidence of pleural effusion on examination.
+    
+    ABDOMINAL EXAMINATION
+    
+    Abdomen mildly distended.
+    Liver palpable approximately 3 cm below the right costal margin.
+    Liver mildly tender.
+    No splenomegaly.
+    No clinically significant ascites.
+    
+    CENTRAL NERVOUS SYSTEM
+    
+    Conscious and oriented.
+    GCS 15/15.
+    No focal neurological deficit.
+    
+    ASSESSMENT
+    
+    Dilated cardiomyopathy presenting with chronic symptomatic heart failure with reduced ejection fraction (HFrEF), currently with features of congestive cardiac failure.
+    
+    Likely NYHA Functional Class III based on marked limitation of physical activity with symptoms on less-than-ordinary exertion.
+    
+    The patient is currently haemodynamically stable but has evidence of both:
+    
+    Left-sided heart failure: exertional dyspnoea, orthopnoea, PND and pulmonary crepitations.
+    Right-sided/systemic venous congestion: elevated JVP, hepatomegaly and bilateral peripheral oedema.
+    
+    The underlying cause of the dilated cardiomyopathy remains to be determined.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    Ischaemic cardiomyopathy.
+    Hypertensive cardiomyopathy.
+    Viral myocarditis with subsequent dilated cardiomyopathy.
+    Alcohol-induced cardiomyopathy.
+    Peripartum cardiomyopathy, if applicable.
+    Tachycardia-induced cardiomyopathy.
+    Valvular heart disease.
+    Infiltrative or inflammatory cardiomyopathy.
+    Thyrotoxic cardiomyopathy.
+    Idiopathic/familial dilated cardiomyopathy.
+    
+    INVESTIGATIONS
+    
+    1. ELECTROCARDIOGRAM (ECG)
+    
+    Assess for:
+    
+    Sinus tachycardia.
+    Atrial fibrillation or other arrhythmias.
+    Conduction abnormalities.
+    Left bundle branch block.
+    Evidence of previous myocardial infarction.
+    Non-specific ST-T changes.
+    
+    2. TRANSTHORACIC ECHOCARDIOGRAPHY
+    
+    Essential to establish the diagnosis and assess severity.
+    
+    Expected findings may include:
+    
+    Dilated left ventricle.
+    Reduced left ventricular systolic function.
+    Reduced left ventricular ejection fraction.
+    Global hypokinesia.
+    Functional mitral or tricuspid regurgitation.
+    Possible right ventricular dysfunction.
+    Assessment of pulmonary artery pressure.
+    
+    Assess for regional wall motion abnormalities to help distinguish ischaemic from non-ischaemic cardiomyopathy.
+    
+    3. FULL BLOOD COUNT
+    
+    Assess for anaemia and infection.
+    
+    4. SERUM ELECTROLYTES, UREA AND CREATININE
+    
+    Assess:
+    
+    Renal function.
+    Sodium.
+    Potassium.
+    Magnesium.
+    
+    Important before and during diuretic, ACE inhibitor/ARB/ARNI and mineralocorticoid receptor antagonist therapy.
+    
+    5. LIVER FUNCTION TESTS
+    
+    Assess for congestive hepatopathy and establish baseline before medication therapy.
+    
+    6. THYROID FUNCTION TESTS
+    
+    Exclude thyrotoxicosis and hypothyroidism as potentially reversible causes of cardiomyopathy.
+    
+    7. RANDOM BLOOD GLUCOSE / HbA1c
+    
+    Screen for diabetes mellitus.
+    
+    8. CARDIAC BIOMARKERS
+    
+    High-sensitivity cardiac troponin if there is concern for acute myocardial injury or myocarditis.
+    
+    BNP or NT-proBNP may be useful to support the diagnosis and assess prognosis where available.
+    
+    9. CHEST X-RAY
+    
+    Assess for:
+    
+    Cardiomegaly.
+    Pulmonary vascular congestion.
+    Pulmonary oedema.
+    Pleural effusion.
+    
+    10. CORONARY ARTERY ASSESSMENT
+    
+    Consider coronary CT angiography or invasive coronary angiography where clinically appropriate to exclude significant coronary artery disease, particularly in patients with cardiovascular risk factors or regional wall motion abnormalities.
+    
+    11. CARDIAC MRI
+    
+    Consider cardiac MRI where available to:
+    
+    Characterize myocardial tissue.
+    Assess for myocarditis.
+    Identify infiltrative disease.
+    Assess myocardial fibrosis.
+    Differentiate ischaemic from non-ischaemic cardiomyopathy.
+    
+    12. ADDITIONAL ETIOLOGICAL INVESTIGATIONS
+    
+    Depending on clinical suspicion:
+    
+    HIV screening after appropriate counselling.
+    Hepatitis screening.
+    Iron studies/ferritin.
+    Autoimmune testing where indicated.
+    Assessment for Chagas disease if epidemiologically relevant.
+    Genetic counselling and testing in suspected familial cardiomyopathy.
+    Assessment for alcohol or toxin exposure.
+    
+    MANAGEMENT
+    
+    1. ADMISSION
+    
+    Admit the patient for stabilization and optimization of heart failure therapy because of symptomatic congestion and reduced functional capacity.
+    
+    Monitor:
+    
+    Blood pressure.
+    Pulse rate.
+    Respiratory rate.
+    SpO₂.
+    Cardiac rhythm.
+    Urine output.
+    Daily weight.
+    
+    2. OXYGEN THERAPY
+    
+    Administer supplemental oxygen if hypoxaemic.
+    
+    Aim to maintain adequate oxygen saturation.
+    
+    If acute pulmonary oedema develops, consider non-invasive ventilation where indicated.
+    
+    3. DIURETIC THERAPY
+    
+    For clinical congestion:
+    
+    Furosemide 40 mg IV once, followed by reassessment of urine output and symptoms.
+    
+    Dose may be increased according to response and previous diuretic exposure.
+    
+    Once clinically stable, transition to oral therapy, e.g.:
+    
+    Furosemide 40 mg orally once or twice daily, adjusted according to volume status.
+    
+    Monitor:
+    
+    Urine output.
+    Daily weight.
+    Serum sodium.
+    Serum potassium.
+    Renal function.
+    
+    4. GUIDELINE-DIRECTED MEDICAL THERAPY FOR HFrEF
+    
+    Once the patient is euvolaemic and haemodynamically stable, initiate and gradually optimize the four major pillars of therapy.
+    
+    A. ARNI / ACE INHIBITOR / ARB
+    
+    Where available and appropriate:
+    
+    Sacubitril/Valsartan 24/26 mg orally twice daily, with gradual uptitration as tolerated.
+    
+    If ARNI is unavailable or unsuitable:
+    
+    Enalapril 2.5–5 mg orally twice daily, gradually titrated according to blood pressure, renal function and tolerance.
+    
+    Monitor:
+    
+    Blood pressure.
+    Serum potassium.
+    Renal function.
+    
+    B. EVIDENCE-BASED BETA-BLOCKER
+    
+    Once the patient is clinically euvolaemic and stable:
+    
+    Carvedilol 3.125 mg orally twice daily, gradually titrated.
+    
+    Alternatively:
+    
+    Bisoprolol 1.25 mg orally once daily, gradually titrated.
+    
+    Avoid initiating or increasing beta-blockers during acute decompensated heart failure with significant congestion or haemodynamic instability.
+    
+    C. MINERALOCORTICOID RECEPTOR ANTAGONIST
+    
+    If renal function and serum potassium permit:
+    
+    Spironolactone 25 mg orally once daily, with monitoring of potassium and renal function.
+    
+    May be increased to 50 mg daily where appropriate and tolerated.
+    
+    D. SGLT2 INHIBITOR
+    
+    Consider:
+    
+    Dapagliflozin 10 mg orally once daily
+    
+    or
+    
+    Empagliflozin 10 mg orally once daily.
+    
+    These may be used in eligible patients with HFrEF irrespective of diabetes status, subject to renal function and contraindications.
+    
+    5. ANTICOAGULATION
+    
+    Routine anticoagulation is not indicated solely because of dilated cardiomyopathy.
+    
+    Consider anticoagulation if there is:
+    
+    Atrial fibrillation.
+    Documented left ventricular thrombus.
+    Previous systemic thromboembolism.
+    Another established indication.
+    
+    6. MANAGEMENT OF ARRHYTHMIAS
+    
+    If atrial fibrillation is present:
+    
+    Assess thromboembolic risk.
+    Consider anticoagulation.
+    Optimize rate or rhythm control.
+    
+    If significant ventricular arrhythmias are present, urgent Cardiology review is required.
+    
+    7. DEVICE THERAPY
+    
+    After optimization of guideline-directed medical therapy and reassessment of left ventricular function, consider:
+    
+    Implantable Cardioverter-Defibrillator (ICD)
+    
+    For eligible patients with persistent severe LV systolic dysfunction and appropriate life expectancy despite optimal medical therapy.
+    
+    Cardiac Resynchronization Therapy (CRT)
+    
+    Consider in selected patients with:
+    
+    Persistent reduced LVEF.
+    Appropriate QRS prolongation, particularly LBBB morphology.
+    Persistent symptoms despite optimal medical therapy.
+    
+    Device eligibility should be determined by Cardiology based on current guideline criteria.
+    
+    8. ADVANCED HEART FAILURE THERAPY
+    
+    For refractory advanced heart failure despite maximal medical therapy:
+    
+    Consider referral to an advanced heart failure centre for assessment for:
+    
+    Mechanical circulatory support.
+    Heart transplantation.
+    
+    NURSING INSTRUCTIONS
+    
+    Monitor vital signs regularly.
+    Maintain strict fluid balance.
+    Record daily weight.
+    Monitor urine output.
+    Monitor for worsening dyspnoea.
+    Monitor peripheral oedema.
+    Monitor oxygen saturation.
+    Monitor serum electrolytes and renal function.
+    Observe for arrhythmias.
+    Restrict excessive dietary sodium.
+    Administer medications as prescribed.
+    
+    FLUID AND DIETARY MANAGEMENT
+    
+    Advise a moderate sodium-restricted diet.
+    Fluid restriction may be considered in patients with significant congestion or hyponatraemia, based on clinical status.
+    Avoid excessive alcohol intake.
+    Encourage appropriate nutritional intake.
+    
+    HEALTH EDUCATION
+    
+    Explain to the patient that dilated cardiomyopathy is a condition in which the heart muscle becomes enlarged and weakened, reducing its ability to pump blood effectively.
+    
+    Explain that several causes are possible, including:
+    
+    Genetic/familial disease.
+    Previous viral myocarditis.
+    Ischaemic heart disease.
+    Alcohol or toxin exposure.
+    Thyroid disease.
+    Certain medications.
+    Pregnancy-related cardiomyopathy.
+    Other systemic diseases.
+    
+    Explain that the cause may remain unknown despite appropriate investigation.
+    
+    Emphasize the importance of strict adherence to heart failure medications.
+    
+    Advise daily monitoring of body weight where possible.
+    
+    Advise the patient to report rapid weight gain, worsening breathlessness, increasing leg swelling or reduced urine output.
+    
+    Advise avoidance of excessive salt intake.
+    
+    Advise avoidance of smoking and recreational drugs.
+    
+    Avoid excessive alcohol consumption.
+    
+    Encourage appropriate physical activity once clinically stable and after medical assessment.
+    
+    WARNING SIGNS REQUIRING URGENT REVIEW
+    
+    The patient should seek urgent medical attention for:
+    
+    Severe or rapidly worsening shortness of breath.
+    Breathlessness at rest.
+    New or worsening orthopnoea.
+    Persistent chest pain.
+    Syncope.
+    Sustained palpitations.
+    Rapidly increasing leg swelling.
+    Sudden weight gain.
+    Marked reduction in urine output.
+    Confusion or severe weakness.
+    
+    FOLLOW-UP
+    
+    Review after discharge within 1–2 weeks for assessment of:
+    
+    Symptoms.
+    Volume status.
+    Blood pressure.
+    Heart rate.
+    Renal function.
+    Serum potassium.
+    Medication tolerance.
+    
+    Gradually uptitrate heart failure medications to maximally tolerated target doses.
+    
+    Repeat echocardiography after an appropriate period of optimized guideline-directed therapy to reassess left ventricular ejection fraction and determine eligibility for device therapy where indicated.
+    
+    Refer for Cardiology follow-up.
+    
+    Consider cardiac rehabilitation and structured exercise advice where appropriate.
+    
+    Screen first-degree relatives if familial dilated cardiomyopathy is suspected.
+    
+    PROGNOSIS
+    
+    Guarded but potentially favorable with early diagnosis, identification of reversible causes and optimized guideline-directed medical therapy.
+    
+    Prognosis depends on:
+    
+    Degree of left ventricular dysfunction.
+    Severity of heart failure symptoms.
+    Underlying cause.
+    Presence of significant arrhythmias.
+    Response to medical therapy.
+    Development of renal dysfunction or other complications.
+    
+    Final working diagnosis: Dilated cardiomyopathy with heart failure with reduced ejection fraction (HFrEF), presenting with features of congestive cardiac failure, NYHA functional class III. Etiology to be determined.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'im-46',
+    title: 'Acute Coronary Syndrome',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Acute Coronary Syndrome',
+    symptoms: [
+      'Severe central crushing chest pain',
+      'Shortness of breath',
+      'Profuse sweating',
+      'Nausea and vomiting',
+      'Pain radiating to the left arm and shoulder'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-30',
+    summary: '56-year-old male businessman with poorly controlled hypertension, type 2 diabetes mellitus, dyslipidaemia and significant smoking history presenting with severe central crushing chest pain radiating to the left arm and shoulder, associated with diaphoresis, nausea, vomiting and shortness of breath, highly suspicious for acute coronary syndrome.',
+    content: `
+  INTERNAL MEDICINE
+  
+  Patient Seen
+  
+  A 56-year-old married Yoruba Christian male businessman from Ikeja, Lagos State, who presented with a reliable history from himself and his wife.
+  
+  CHIEF COMPLAINT
+  
+  Severe central chest pain × 2 hours.
+  Shortness of breath × 1 hour.
+  Sweating and nausea × 1 hour.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until approximately two hours prior to presentation when he developed sudden-onset central chest pain while walking from his office to his car.
+  
+  The pain is described as a severe, crushing and pressure-like sensation in the centre of the chest, rated 9/10 in intensity.
+  
+  The pain radiates to his left shoulder and medial aspect of the left arm and is associated with marked sweating, nausea and a feeling of impending doom.
+  
+  The pain initially improved slightly after he stopped walking but subsequently became persistent and severe at rest.
+  
+  Approximately one hour prior to presentation, he developed shortness of breath and had one episode of vomiting.
+  
+  He reports that he has experienced intermittent episodes of mild chest discomfort on exertion over the past three months, which usually resolved after resting. He had not previously sought medical attention.
+  
+  There is no history of recent fever or respiratory infection.
+  
+  There is no history of chest trauma.
+  
+  There is no history of pleuritic chest pain.
+  
+  There is no history of pain that is significantly relieved by sitting forward.
+  
+  There is no history of haemoptysis.
+  
+  He has no known history of previous myocardial infarction.
+  
+  REVIEW OF SYSTEMS
+  
+  Cardiovascular:
+  
+  Severe central crushing chest pain.
+  Pain radiating to the left arm and shoulder.
+  Shortness of breath.
+  Profuse sweating.
+  No previous myocardial infarction.
+  No known heart failure.
+  No syncope.
+  No previous documented arrhythmia.
+  
+  Respiratory:
+  
+  Shortness of breath.
+  No cough.
+  No haemoptysis.
+  No wheezing.
+  
+  Gastrointestinal:
+  
+  Nausea.
+  One episode of vomiting.
+  No abdominal pain.
+  No diarrhoea.
+  
+  Neurological:
+  
+  No loss of consciousness.
+  No seizures.
+  No focal neurological deficit.
+  
+  General:
+  
+  Marked sweating.
+  Anxiety.
+  No recent weight loss.
+  No recent fever.
+  
+  PAST MEDICAL HISTORY
+  
+  Known hypertensive patient for 12 years.
+  
+  Known type 2 diabetic patient for 7 years.
+  
+  Known dyslipidaemia for 4 years.
+  
+  Poor compliance with prescribed medications.
+  
+  He reports frequently missing his antihypertensive and diabetic medications.
+  
+  No known previous myocardial infarction.
+  
+  No known chronic kidney disease.
+  
+  No known previous stroke.
+  
+  PAST SURGICAL HISTORY
+  
+  No previous surgery.
+  
+  DRUG HISTORY
+  
+  Tab Amlodipine 10 mg orally once daily, with poor compliance.
+  Tab Metformin 500 mg orally twice daily, with poor compliance.
+  Tab Atorvastatin 20 mg orally at night, with poor compliance.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  Father died suddenly at 62 years of age from an alleged heart attack.
+  
+  Mother is alive and has hypertension and diabetes mellitus.
+  
+  No known family history of inherited cardiac disease.
+  
+  SOCIAL HISTORY
+  
+  Businessman.
+  Married with four children.
+  Smokes approximately 10 cigarettes daily and has done so for 25 years.
+  Consumes approximately 3–4 bottles of beer on weekends.
+  Sedentary lifestyle.
+  Reports frequent consumption of fried and high-fat meals.
+  No recreational drug use.
+  
+  GENERAL EXAMINATION
+  
+  Middle-aged man.
+  Conscious and alert.
+  Anxious and restless.
+  Moderately ill-looking.
+  In significant painful distress.
+  Profusely diaphoretic.
+  Not pale.
+  Not jaundiced.
+  Not cyanosed.
+  No peripheral oedema.
+  
+  VITAL SIGNS
+  
+  Blood Pressure: 168/96 mmHg
+  Pulse Rate: 104 beats/minute, regular.
+  Respiratory Rate: 24 cycles/minute
+  Temperature: 36.7°C
+  SpO₂: 95% on room air
+  Weight: 92 kg
+  Height: 1.72 m
+  BMI: 31.1 kg/m²
+  Capillary Blood Glucose: 14.8 mmol/L
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Pulse regular and mildly tachycardic.
+  Blood pressure elevated.
+  Jugular venous pressure not elevated.
+  Heart sounds I and II present.
+  No obvious murmurs.
+  No pericardial friction rub.
+  No peripheral oedema.
+  No clinical evidence of cardiogenic shock at presentation.
+  
+  RESPIRATORY EXAMINATION
+  
+  Respiratory rate mildly elevated.
+  Chest expansion symmetrical.
+  Normal vesicular breath sounds bilaterally.
+  No significant crepitations.
+  No wheeze.
+  No clinical evidence of acute pulmonary oedema.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen soft and non-tender.
+  No hepatosplenomegaly.
+  No palpable abdominal mass.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious and oriented.
+  GCS 15/15.
+  No focal neurological deficit.
+  
+  INITIAL ASSESSMENT
+  
+  Acute Coronary Syndrome (ACS), likely acute myocardial infarction, in a high-risk patient with multiple cardiovascular risk factors.
+  
+  The patient requires immediate ECG-based classification into:
+  
+  ST-Elevation Myocardial Infarction (STEMI).
+  Non-ST-Elevation Myocardial Infarction (NSTEMI).
+  Unstable Angina.
+  
+  There is currently no clinical evidence of cardiogenic shock or acute pulmonary oedema.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  Acute coronary syndrome.
+  Acute aortic syndrome/dissection.
+  Acute pulmonary embolism.
+  Acute pericarditis/myopericarditis.
+  Acute myocarditis.
+  Pneumothorax.
+  Oesophageal rupture.
+  Gastro-oesophageal reflux disease.
+  Acute pancreatitis.
+  
+  IMMEDIATE INVESTIGATIONS
+  
+  1. 12-LEAD ECG
+  
+  Obtain a 12-lead ECG immediately, ideally within 10 minutes of first medical contact.
+  
+  Repeat serial ECGs if the initial ECG is non-diagnostic but symptoms persist.
+  
+  Assess for:
+  
+  ST-segment elevation.
+  ST-segment depression.
+  T-wave inversion.
+  New left bundle branch block or other high-risk conduction abnormalities.
+  Arrhythmias.
+  
+  The ECG will determine whether the patient has a STEMI requiring immediate reperfusion therapy or an NSTE-ACS pathway.
+  
+  2. HIGH-SENSITIVITY CARDIAC TROPONIN
+  
+  Obtain high-sensitivity cardiac troponin I or T at presentation.
+  
+  Repeat according to the laboratory's validated 0/1-hour or 0/2-hour diagnostic algorithm.
+  
+  A dynamic rise and/or fall in troponin with clinical evidence of myocardial ischemia supports the diagnosis of acute myocardial infarction.
+  
+  3. FULL BLOOD COUNT
+  
+  Assess haemoglobin and white cell count.
+  
+  4. SERUM ELECTROLYTES, UREA AND CREATININE
+  
+  Assess renal function and electrolyte abnormalities.
+  
+  Important before contrast administration and certain medications.
+  
+  5. RANDOM BLOOD GLUCOSE / HbA1c
+  
+  Assess current glycaemic status and long-term diabetic control.
+  
+  6. FASTING LIPID PROFILE
+  
+  Obtain baseline lipid profile, although treatment should not be delayed while awaiting results.
+  
+  7. COAGULATION PROFILE
+  
+  PT/INR and aPTT prior to anticoagulation where appropriate.
+  
+  Do not delay emergency reperfusion therapy while awaiting routine coagulation results unless clinically indicated.
+  
+  8. LIVER FUNCTION TESTS
+  
+  Useful as baseline assessment before and during statin therapy.
+  
+  9. CHEST X-RAY
+  
+  Perform if clinically indicated to assess for:
+  
+  Pulmonary oedema.
+  Pneumonia.
+  Pneumothorax.
+  Other causes of chest pain.
+  
+  Chest X-ray should not delay reperfusion in STEMI.
+  
+  10. ECHOCARDIOGRAPHY
+  
+  Perform transthoracic echocardiography when available to assess:
+  
+  Regional wall motion abnormalities.
+  Left ventricular systolic function.
+  Mechanical complications.
+  Pericardial effusion.
+  Alternative diagnoses.
+  
+  IMMEDIATE MANAGEMENT
+  
+  1. ABCDE ASSESSMENT
+  
+  Assess and stabilize airway, breathing and circulation.
+  
+  Place patient on continuous cardiac monitoring.
+  
+  Establish two IV cannulas.
+  
+  Monitor:
+  
+  Blood pressure.
+  Pulse rate.
+  Respiratory rate.
+  SpO₂.
+  Cardiac rhythm.
+  Level of consciousness.
+  
+  2. OXYGEN THERAPY
+  
+  The patient's SpO₂ is 95% on room air.
+  
+  Routine oxygen therapy is not indicated.
+  
+  Administer supplemental oxygen if:
+  
+  SpO₂ falls below approximately 90%.
+  There is significant respiratory distress.
+  There is hypoxaemia or acute heart failure.
+  
+  3. ANTIPLATELET THERAPY
+  
+  Administer:
+  
+  Aspirin 300 mg orally, chewed immediately, provided there is no true aspirin allergy or active major bleeding.
+  
+  A second antiplatelet agent should be added according to the ACS pathway and whether the patient undergoes PCI or fibrinolysis.
+  
+  For patients undergoing PCI, a P2Y12 inhibitor such as:
+  
+  Ticagrelor 180 mg orally as a loading dose.
+  
+  may be used where appropriate.
+  
+  Alternatively:
+  
+  Clopidogrel 600 mg orally as a loading dose.
+  
+  may be used depending on the planned reperfusion strategy, contraindications and local protocol.
+  
+  4. ANTICOAGULATION
+  
+  Anticoagulation is indicated in selected ACS patients according to the clinical presentation and planned management.
+  
+  Options include:
+  
+  Unfractionated heparin.
+  Enoxaparin.
+  Fondaparinux in selected NSTE-ACS patients.
+  
+  Choice and dosing should be guided by whether the patient is undergoing PCI, fibrinolysis or conservative management, as well as renal function and bleeding risk.
+  
+  5. STATIN THERAPY
+  
+  Administer high-intensity statin therapy early:
+  
+  Atorvastatin 80 mg orally once daily.
+  
+  Continue long-term unless contraindicated.
+  
+  6. ANALGESIA
+  
+  For persistent severe pain:
+  
+  Morphine 2–5 mg IV slowly, titrated to effect with close monitoring.
+  
+  Avoid routine use of NSAIDs because of the risk of adverse cardiovascular effects and interference with antiplatelet therapy.
+  
+  7. NITRATES
+  
+  If the patient remains hypertensive and has ongoing chest pain, sublingual nitrate may be considered:
+  
+  Glyceryl trinitrate 0.4 mg sublingually, repeated every 5 minutes for up to 3 doses if blood pressure remains adequate.
+  
+  Avoid nitrates in:
+  
+  Hypotension.
+  Right ventricular infarction.
+  Recent phosphodiesterase-5 inhibitor use.
+  Severe aortic stenosis.
+  
+  REPERFUSION STRATEGY
+  
+  IF ECG SHOWS STEMI
+  
+  Activate the emergency reperfusion pathway immediately.
+  
+  Preferred option: PRIMARY PCI
+  
+  If timely primary PCI is available, arrange urgent transfer to a PCI-capable centre.
+  
+  The goal is rapid restoration of coronary blood flow.
+  
+  IF TIMELY PCI IS NOT AVAILABLE
+  
+  Consider fibrinolysis if:
+  
+  Symptom onset is within the appropriate time window.
+  There are no contraindications.
+  Primary PCI cannot be achieved within the recommended time frame.
+  
+  One possible fibrinolytic option:
+  
+  Tenecteplase IV as a single weight-adjusted bolus, according to the manufacturer's dosing schedule and local protocol.
+  
+  Fibrinolysis should be accompanied by appropriate antiplatelet and anticoagulant therapy.
+  
+  Arrange rescue PCI if fibrinolysis fails, evidenced by persistent symptoms or inadequate ST-segment resolution.
+  
+  MANAGEMENT OF NSTE-ACS
+  
+  If ECG does not show persistent ST elevation and troponin confirms myocardial infarction:
+  
+  Classify the patient according to ischaemic and bleeding risk.
+  
+  Continue:
+  
+  Aspirin.
+  Appropriate P2Y12 inhibitor.
+  Anticoagulation.
+  High-intensity statin.
+  Anti-ischaemic therapy.
+  
+  Consider an early invasive strategy with coronary angiography and possible PCI in high-risk patients, particularly those with:
+  
+  Ongoing or recurrent chest pain.
+  Dynamic ST/T-wave changes.
+  Significant troponin elevation.
+  Haemodynamic instability.
+  Life-threatening arrhythmias.
+  Acute heart failure.
+  
+  MANAGEMENT OF UNSTABLE ANGINA
+  
+  If there is clinical evidence of myocardial ischaemia without a significant rise/fall in troponin:
+  
+  Treat according to the NSTE-ACS pathway.
+  
+  Continue appropriate antiplatelet and anti-ischaemic therapy.
+  
+  Risk stratify for invasive management.
+  
+  MANAGEMENT OF HYPERTENSION
+  
+  The patient's BP is 168/96 mmHg.
+  
+  Treat severe hypertension cautiously in the setting of ACS.
+  
+  Sublingual or IV nitrates may be considered if there is ongoing ischaemic pain or significant hypertension, provided there are no contraindications.
+  
+  Avoid precipitous reduction in blood pressure that could compromise coronary perfusion.
+  
+  MANAGEMENT OF DIABETES
+  
+  Monitor capillary blood glucose regularly.
+  
+  Avoid severe hyperglycaemia and hypoglycaemia.
+  
+  Use insulin therapy if clinically indicated for persistent significant hyperglycaemia, particularly in critically ill patients.
+  
+  BETA-BLOCKER THERAPY
+  
+  Consider initiation of an oral beta-blocker after haemodynamic stabilization, particularly in patients with:
+  
+  Hypertension.
+  Tachycardia.
+  Ongoing angina.
+  
+  Avoid or delay beta-blockers in patients with:
+  
+  Cardiogenic shock.
+  Acute decompensated heart failure.
+  Severe bradycardia.
+  High-grade AV block.
+  Severe reactive airway disease.
+  
+  MONITORING FOR COMPLICATIONS
+  
+  Monitor closely for:
+  
+  Arrhythmias:
+  
+  Ventricular tachycardia.
+  Ventricular fibrillation.
+  Bradyarrhythmias.
+  Complete heart block.
+  
+  Heart Failure:
+  
+  Monitor for:
+  
+  Increasing dyspnoea.
+  Pulmonary crepitations.
+  Hypoxia.
+  Peripheral oedema.
+  
+  Cardiogenic Shock:
+  
+  Monitor for:
+  
+  Hypotension.
+  Cold clammy extremities.
+  Altered mental status.
+  Oliguria.
+  Rising lactate.
+  
+  Mechanical Complications:
+  
+  Consider:
+  
+  Acute mitral regurgitation.
+  Ventricular septal rupture.
+  Free-wall rupture.
+  Cardiac tamponade.
+  
+  Urgent echocardiography is required if these are suspected.
+  
+  NURSING INSTRUCTIONS
+  
+  Admit to a monitored cardiac area or coronary care unit where available.
+  
+  Maintain continuous ECG monitoring.
+  
+  Record vital signs regularly.
+  
+  Monitor urine output.
+  
+  Monitor chest pain using a standardized pain score.
+  
+  Administer prescribed antiplatelet and anticoagulant therapy.
+  
+  Observe for bleeding complications.
+  
+  Monitor blood glucose.
+  
+  Maintain NPO status if urgent coronary angiography/PCI is anticipated.
+  
+  SECONDARY PREVENTION
+  
+  Before discharge, institute comprehensive secondary prevention.
+  
+  Antiplatelet Therapy:
+  
+  Continue:
+  
+  Aspirin 75–100 mg orally once daily, usually long-term unless contraindicated.
+  
+  Add a P2Y12 inhibitor for the recommended duration based on ACS type, stent placement and bleeding risk.
+  
+  High-Intensity Statin:
+  
+  Continue:
+  
+  Atorvastatin 80 mg orally once daily.
+  
+  Monitor lipid levels and treatment response.
+  
+  ACE INHIBITOR / ARB
+  
+  Consider initiation, particularly in patients with:
+  
+  Diabetes mellitus.
+  Hypertension.
+  Left ventricular systolic dysfunction.
+  Chronic kidney disease.
+  
+  Beta-Blocker:
+  
+  Continue where indicated, especially in patients with reduced left ventricular ejection fraction or other specific indications.
+  
+  LIFESTYLE MODIFICATION
+  
+  Advise:
+  
+  Complete smoking cessation.
+  Reduction in alcohol consumption.
+  Regular physical activity after cardiac rehabilitation clearance.
+  Weight reduction.
+  Low-salt diet.
+  Reduced intake of saturated fats and trans fats.
+  Increased intake of vegetables, fruits and whole grains.
+  Improved adherence to prescribed medications.
+  Regular blood pressure monitoring.
+  Good diabetic control.
+  
+  Refer for structured cardiac rehabilitation after stabilization.
+  
+  HEALTH EDUCATION
+  
+  Explain that Acute Coronary Syndrome occurs when blood flow through a coronary artery becomes suddenly reduced or blocked, usually because of rupture of an atherosclerotic plaque and formation of a blood clot.
+  
+  Emphasize that recurrent chest pain, shortness of breath, unexplained sweating or collapse requires immediate emergency medical attention.
+  
+  Advise the patient to avoid self-medicating with NSAIDs for recurrent chest pain.
+  
+  Emphasize strict adherence to antiplatelet therapy, particularly after coronary stent placement.
+  
+  DISPOSITION
+  
+  Admit to Coronary Care Unit / monitored cardiac bed.
+  
+  Urgent Cardiology review.
+  
+  Activate STEMI pathway immediately if ECG demonstrates ST-segment elevation.
+  
+  If NSTE-ACS is confirmed, risk stratify and determine timing of coronary angiography.
+  
+  Monitor for arrhythmias, acute heart failure and cardiogenic shock.
+  
+  PROGNOSIS
+  
+  Guarded initially but potentially good with rapid diagnosis and timely reperfusion.
+  
+  Prognosis depends on:
+  
+  Time from symptom onset to reperfusion.
+  Extent of myocardial damage.
+  Left ventricular function.
+  Presence of arrhythmias.
+  Development of heart failure or cardiogenic shock.
+  Control of cardiovascular risk factors.
+  
+  Final working diagnosis: Acute Coronary Syndrome — likely acute myocardial infarction, pending ECG and serial high-sensitivity troponin results.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-45',
+    title: 'Acute Pericarditis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Acute Pericarditis',
+    symptoms: [
+      'Sharp central chest pain',
+      'Fever',
+      'Shortness of breath',
+      'Pleuritic chest pain',
+      'Positional chest pain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-30',
+    summary: '32-year-old male banker presenting with acute sharp pleuritic and positional central chest pain, fever, mild shortness of breath following a recent flu-like illness, and an audible pericardial friction rub, consistent with acute post-viral/idiopathic pericarditis without current evidence of cardiac tamponade.',
+    content: `
+  INTERNAL MEDICINE
+  
+  Patient Seen
+  
+  A 32-year-old married Yoruba Christian male banker from Lagos, Lagos State, who presented with a reliable history.
+  
+  CHIEF COMPLAINT
+  
+  Sharp central chest pain × 2 days.
+  Fever × 2 days.
+  Shortness of breath × 1 day.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until two days prior to presentation when he developed sudden-onset sharp central chest pain.
+  
+  The pain is retrosternal, severe, stabbing in nature and rated 7/10 in intensity. It is worse on deep inspiration, coughing and lying flat, and is partially relieved when he sits up and leans forward.
+  
+  The pain is non-radiating and is not related to exertion.
+  
+  Two days prior to presentation, he also developed low-grade intermittent fever associated with generalized body weakness and malaise.
+  
+  One day prior to presentation, he noticed mild shortness of breath, particularly when lying flat, which improves when he sits upright.
+  
+  He reports a recent flu-like illness approximately one week before the onset of the chest pain, characterized by sore throat, nasal congestion and generalized body aches. He had no known COVID-19 infection and no recent vaccination.
+  
+  There is no history of syncope.
+  
+  There is no history of palpitations.
+  
+  There is no history of significant leg swelling.
+  
+  There is no history of recent chest trauma.
+  
+  There is no history of known tuberculosis contact.
+  
+  There is no history suggestive of connective tissue disease.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  
+  Fever.
+  Malaise.
+  Generalized weakness.
+  Reduced appetite.
+  No significant weight loss.
+  
+  Cardiovascular:
+  
+  Retrosternal chest pain.
+  Mild shortness of breath.
+  No exertional chest pain.
+  No palpitations.
+  No syncope.
+  No significant leg swelling.
+  
+  Respiratory:
+  
+  Mild dyspnoea.
+  Pain worse with deep inspiration.
+  No cough.
+  No haemoptysis.
+  
+  Gastrointestinal:
+  
+  No vomiting.
+  No abdominal pain.
+  No diarrhoea.
+  
+  Genitourinary:
+  
+  No urinary symptoms.
+  
+  Neurological:
+  
+  No headache.
+  No seizures.
+  No focal neurological deficit.
+  
+  PAST MEDICAL HISTORY
+  
+  No known hypertension.
+  No diabetes mellitus.
+  No known heart disease.
+  No previous history of pericarditis.
+  No known tuberculosis.
+  No known autoimmune disease.
+  
+  PAST SURGICAL HISTORY
+  
+  No previous surgery.
+  
+  DRUG HISTORY
+  
+  Occasional use of Paracetamol for fever.
+  No regular medications.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  No family history of premature cardiovascular disease.
+  No family history of autoimmune disease.
+  
+  SOCIAL HISTORY
+  
+  Banker.
+  Married with two children.
+  Non-smoker.
+  Occasional alcohol consumption.
+  No recreational drug use.
+  
+  GENERAL EXAMINATION
+  
+  Young man.
+  Conscious and alert.
+  Mildly ill-looking.
+  In mild painful distress.
+  Febrile.
+  Not pale.
+  Not jaundiced.
+  Not cyanosed.
+  No peripheral oedema.
+  No clinically obvious features of shock.
+  
+  VITAL SIGNS
+  
+  Blood Pressure: 118/74 mmHg
+  Pulse Rate: 104 beats/minute, regular.
+  Respiratory Rate: 22 cycles/minute
+  Temperature: 38.1°C
+  SpO₂: 98% on room air
+  Weight: 76 kg
+  Height: 1.78 m
+  BMI: 24.0 kg/m²
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Pulse regular, mildly tachycardic.
+  Blood pressure maintained.
+  Jugular venous pressure not elevated.
+  A high-pitched, scratchy pericardial friction rub is audible over the left lower sternal border, best heard with the patient sitting forward and holding his breath.
+  Heart sounds I and II present.
+  No significant murmurs.
+  No peripheral oedema.
+  No clinical features of cardiac tamponade.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest expansion symmetrical.
+  Normal vesicular breath sounds bilaterally.
+  No crepitations.
+  No wheeze.
+  No clinical evidence of pulmonary oedema.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen soft and non-tender.
+  No organomegaly.
+  No ascites.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious and oriented.
+  GCS 15/15.
+  No focal neurological deficit.
+  
+  ASSESSMENT
+  
+  Acute pericarditis, likely post-viral/idiopathic, presenting with typical pleuritic and positional chest pain and pericardial friction rub.
+  
+  No current clinical evidence of:
+  
+  Cardiac tamponade.
+  Haemodynamic compromise.
+  Significant pericardial effusion.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  Acute myopericarditis.
+  Acute coronary syndrome.
+  Pulmonary embolism.
+  Acute myocarditis.
+  Pneumonia or pleurisy.
+  Aortic dissection.
+  Gastro-oesophageal reflux disease.
+  Costochondritis.
+  
+  INVESTIGATIONS
+  
+  Immediate Investigations:
+  
+  12-Lead ECG
+  
+  Expected findings may include:
+  
+  Widespread concave ST-segment elevation.
+  PR-segment depression.
+  Reciprocal PR elevation and ST depression in aVR, and sometimes V1.
+  Absence of a territorial coronary distribution.
+  
+  Serial ECGs may be performed to monitor evolution.
+  
+  High-Sensitivity Cardiac Troponin I/T
+  
+  Assess for myocardial involvement.
+  
+  A significant elevation raises concern for myopericarditis rather than isolated pericarditis.
+  
+  Echocardiography
+  
+  Perform transthoracic echocardiography to assess for:
+  
+  Pericardial effusion.
+  Right atrial or right ventricular diastolic collapse.
+  Respiratory variation in cardiac filling.
+  Features of cardiac tamponade.
+  Left ventricular systolic function.
+  
+  Laboratory Investigations:
+  
+  Full Blood Count
+  
+  Assess for leukocytosis or anaemia.
+  
+  CRP and ESR
+  
+  Assess inflammatory activity and establish a baseline for monitoring response to treatment.
+  
+  Serum Electrolytes, Urea and Creatinine
+  
+  Assess renal function before NSAID/colchicine therapy.
+  
+  Liver Function Tests
+  
+  Useful before and during colchicine treatment where clinically indicated.
+  
+  Random Blood Glucose.
+  
+  Blood Cultures
+  
+  If the patient is significantly febrile or bacterial infection is suspected.
+  
+  Additional Tests Depending on Clinical Context:
+  
+  Chest X-ray
+  
+  May show an enlarged cardiac silhouette if there is a significant pericardial effusion.
+  
+  HIV screening after appropriate counselling.
+  
+  Tuberculosis testing
+  
+  If there is epidemiological risk or clinical suspicion of tuberculous pericarditis.
+  
+  Autoimmune screening
+  
+  Consider ANA, anti-dsDNA and other relevant tests if there are clinical features suggesting systemic autoimmune disease.
+  
+  Viral testing
+  
+  Guided by clinical presentation and local protocols.
+  
+  MANAGEMENT
+  
+  1. ADMISSION
+  
+  Admit for observation if any of the following are present:
+  
+  Fever >38°C.
+  Large pericardial effusion.
+  Evidence of cardiac tamponade.
+  Immunosuppression.
+  Trauma.
+  Suspected bacterial or tuberculous pericarditis.
+  Elevated cardiac troponin suggesting myocardial involvement.
+  Failure to respond to outpatient therapy.
+  Significant haemodynamic compromise.
+  
+  This patient has fever and tachycardia and should be observed initially with cardiology/medical review.
+  
+  2. ANALGESIA AND ANTI-INFLAMMATORY THERAPY
+  
+  First-line NSAID Option:
+  
+  Ibuprofen 600 mg orally three times daily with food.
+  
+  Continue until significant clinical improvement, then gradually taper according to symptoms and inflammatory markers.
+  
+  Check renal function and gastrointestinal risk before treatment.
+  
+  Alternative NSAID:
+  
+  Aspirin 750–1000 mg orally three times daily, particularly where aspirin is preferred or clinically indicated.
+  
+  Avoid combining multiple NSAIDs.
+  
+  3. COLCHICINE
+  
+  For an adult weighing >70 kg:
+  
+  Colchicine 0.5 mg orally twice daily.
+  
+  Continue for approximately 3 months in a first episode of acute pericarditis, depending on clinical response and specialist guidance.
+  
+  For patients ≤70 kg or those at increased risk of adverse effects:
+  
+  Colchicine 0.5 mg once daily may be appropriate.
+  
+  Adjust or avoid colchicine in significant renal or hepatic impairment and check for important drug interactions.
+  
+  4. GASTROPROTECTION
+  
+  If using NSAIDs, consider:
+  
+  Omeprazole 20 mg orally once daily.
+  
+  Continue for the duration of significant NSAID therapy where indicated.
+  
+  5. CORTICOSTEROIDS
+  
+  Corticosteroids should not be used routinely as first-line treatment for uncomplicated acute pericarditis.
+  
+  They may be considered when:
+  
+  NSAIDs are contraindicated.
+  NSAIDs and colchicine are ineffective.
+  There is a specific indication such as autoimmune disease.
+  There is a requirement for specialist-directed treatment.
+  
+  One possible regimen when indicated:
+  
+  Prednisolone 0.2–0.5 mg/kg/day orally, followed by a slow, clinically guided taper after sustained improvement.
+  
+  6. ACTIVITY RESTRICTION
+  
+  Advise avoidance of strenuous physical activity during the acute inflammatory phase.
+  
+  If myocardial involvement is suspected or confirmed, restrict strenuous exercise and competitive sports for a longer period, typically until symptoms, inflammatory markers and cardiac investigations have normalized, with cardiology guidance.
+  
+  7. MONITORING FOR CARDIAC TAMPONADE
+  
+  Monitor for:
+  
+  Hypotension.
+  Rising JVP.
+  Tachycardia.
+  Muffled heart sounds.
+  Pulsus paradoxus.
+  Increasing dyspnoea.
+  Altered mental status.
+  Oliguria.
+  
+  If cardiac tamponade develops, urgent echocardiography and emergency pericardial drainage are indicated.
+  
+  PERICARDIOCENTESIS
+  
+  Pericardiocentesis is indicated in selected patients with:
+  
+  Cardiac tamponade.
+  Suspected purulent pericarditis.
+  Suspected malignant pericardial effusion.
+  Large symptomatic effusion requiring diagnostic or therapeutic drainage.
+  
+  In suspected purulent or tuberculous pericarditis, send pericardial fluid for appropriate investigations, including:
+  
+  Cell count and differential.
+  Protein and LDH.
+  Gram stain and bacterial culture.
+  AFB testing and mycobacterial culture where appropriate.
+  Cytology where malignancy is suspected.
+  
+  ANTIBIOTICS
+  
+  Routine antibiotics are not indicated for uncomplicated idiopathic or viral acute pericarditis.
+  
+  If bacterial or purulent pericarditis is suspected, initiate urgent broad-spectrum IV antibiotics according to local protocols after obtaining appropriate cultures where feasible.
+  
+  If tuberculous pericarditis is confirmed or strongly suspected, initiate appropriate anti-tuberculosis therapy in conjunction with specialist care.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor vital signs regularly.
+  Monitor chest pain severity.
+  Monitor ECG as clinically indicated.
+  Observe for signs of cardiac tamponade.
+  Maintain strict fluid balance if significant effusion is present.
+  Administer medications as prescribed.
+  Monitor renal function and gastrointestinal symptoms during NSAID therapy.
+  
+  HEALTH EDUCATION
+  
+  Explain that acute pericarditis is inflammation of the pericardium, the sac surrounding the heart.
+  
+  Explain that the condition is often idiopathic or follows a viral infection, although other causes include autoimmune disease, tuberculosis, bacterial infection, malignancy and certain medications.
+  
+  Advise the patient to seek immediate medical attention if he develops:
+  
+  Worsening chest pain.
+  Severe shortness of breath.
+  Fainting or near-fainting.
+  Persistent tachycardia.
+  Marked weakness.
+  Increasing abdominal swelling or leg swelling.
+  
+  Explain that recurrent episodes can occur and that colchicine reduces the risk of recurrence.
+  
+  Emphasize adherence to treatment and follow-up.
+  
+  FOLLOW-UP
+  
+  Review clinically within 1–2 weeks or sooner if symptoms worsen.
+  
+  Repeat CRP/ESR to assess resolution where appropriate.
+  
+  Repeat echocardiography if there is a significant pericardial effusion or persistent symptoms.
+  
+  Review ECG and troponin results.
+  
+  If symptoms persist or recur, reassess for:
+  
+  Myopericarditis.
+  Tuberculosis.
+  Autoimmune disease.
+  Malignancy.
+  Recurrent pericarditis.
+  
+  Refer to Cardiology if there is:
+  
+  Recurrent pericarditis.
+  Myocardial involvement.
+  Significant pericardial effusion.
+  Cardiac tamponade.
+  Diagnostic uncertainty.
+  
+  Prognosis: Generally good in uncomplicated idiopathic or viral acute pericarditis with appropriate anti-inflammatory treatment. However, complications such as recurrent pericarditis, significant pericardial effusion, cardiac tamponade and, rarely, constrictive pericarditis may occur depending on the underlying cause.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-44',
+    title: 'Bell’s Palsy',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Acute Left-Sided Lower Motor Neuron Facial Nerve Palsy',
+    symptoms: [
+      'Left-sided facial weakness',
+      'Difficulty closing the left eye',
+      'Drooling of saliva',
+      'Reduced taste sensation',
+      'Left-sided hyperacusis',
+      'Post-auricular pain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-27',
+    summary: '35-year-old male banker presenting with a 2-day history of acute left-sided lower motor neuron facial weakness involving the forehead and lower face, associated with lagophthalmos, drooling, reduced taste and hyperacusis, consistent with acute Bell’s palsy.',
+    content: `MEDICAL CLINIC
+  
+  Patient Seen
+  
+  A 35-year-old married male banker from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  
+  CHIEF COMPLAINT
+  
+  Sudden weakness of the left side of the face × 2 days.
+  Difficulty closing the left eye × 2 days.
+  Drooling of saliva from the left side of the mouth × 2 days.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until two days prior to presentation when he noticed sudden weakness affecting the left side of his face on waking from sleep. He was unable to smile properly, close his left eye completely or wrinkle the left side of his forehead.
+  
+  He noticed drooling of saliva from the left corner of his mouth while drinking water and difficulty retaining food within the mouth during chewing.
+  
+  His wife observed deviation of the angle of his mouth to the right side.
+  
+  He reports mild pain behind the left ear one day before the onset of facial weakness.
+  
+  He also complains of increased sensitivity to loud sounds in the left ear and reduced taste sensation over the anterior two-thirds of the left side of the tongue.
+  
+  There is no limb weakness.
+  There is no facial numbness.
+  There is no difficulty speaking or swallowing.
+  There is no double vision.
+  There is no dizziness.
+  There is no hearing loss or ear discharge.
+  There is no vesicular rash around the ear.
+  There is no recent head injury.
+  There is no recent tick bite.
+  
+  He reports a mild upper respiratory tract infection one week before symptom onset.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  
+  No fever.
+  No weight loss.
+  No night sweats.
+  
+  Neurological:
+  
+  Left facial weakness.
+  Difficulty closing the left eye.
+  Reduced taste sensation.
+  Hyperacusis in the left ear.
+  No headache.
+  No seizures.
+  No limb weakness.
+  No sensory loss.
+  No gait disturbance.
+  
+  Ear, Nose and Throat:
+  
+  Mild pain behind the left ear.
+  No ear discharge.
+  No hearing loss.
+  No tinnitus.
+  No nasal symptoms.
+  
+  Ophthalmic:
+  
+  Incomplete closure of the left eye.
+  Excessive tearing.
+  No visual loss.
+  No eye pain.
+  
+  Cardiovascular:
+  
+  No chest pain.
+  No palpitations.
+  
+  Respiratory:
+  
+  Recent mild cough and coryza, now resolved.
+  No shortness of breath.
+  
+  PAST MEDICAL HISTORY
+  
+  No hypertension.
+  No diabetes mellitus.
+  No previous stroke.
+  No autoimmune disease.
+  No previous facial nerve palsy.
+  
+  PAST SURGICAL HISTORY
+  
+  Nil significant.
+  
+  DRUG HISTORY
+  
+  No regular medications.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  No family history of neurological disorders.
+  
+  SOCIAL HISTORY
+  
+  Lives with his wife and two children.
+  Non-smoker.
+  Occasional alcohol consumption.
+  Independent in activities of daily living before onset of illness.
+  
+  GENERAL EXAMINATION
+  
+  Young man.
+  Conscious.
+  Alert.
+  Not in distress.
+  Well hydrated.
+  No pallor.
+  No jaundice.
+  No peripheral lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  Blood Pressure: 122/78 mmHg
+  Pulse Rate: 76 beats/minute, regular.
+  Respiratory Rate: 16 cycles/minute
+  Temperature: 36.8°C
+  SpO₂: 99% on room air
+  Weight: 74 kg
+  Height: 1.76 m
+  BMI: 23.9 kg/m²
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Higher Mental Functions:
+  
+  Alert and fully oriented to time, place and person.
+  Speech normal.
+  Memory intact.
+  
+  Cranial Nerves:
+  
+  Cranial Nerve VII (Facial Nerve):
+  
+  Left-sided lower motor neuron facial nerve palsy.
+  Loss of forehead wrinkling on the left.
+  Inability to raise the left eyebrow.
+  Incomplete closure of the left eye (lagophthalmos).
+  Positive Bell's phenomenon.
+  Flattening of the left nasolabial fold.
+  Deviation of the angle of the mouth to the right on smiling.
+  Inability to puff out the left cheek.
+  Reduced taste over the anterior two-thirds of the left side of the tongue.
+  Mild hyperacusis on the left.
+  
+  Other cranial nerves are intact.
+  
+  Motor Examination:
+  
+  Normal bulk and tone in all limbs.
+  Power 5/5 in all muscle groups.
+  Normal reflexes.
+  Plantar responses flexor bilaterally.
+  
+  Sensory Examination:
+  
+  Normal sensation to light touch, pinprick, vibration and proprioception.
+  
+  Cerebellar Examination:
+  
+  Normal coordination.
+  No dysmetria.
+  Normal gait.
+  
+  EYE EXAMINATION
+  
+  Incomplete left eyelid closure.
+  Cornea clear.
+  No corneal ulceration.
+  Visual acuity preserved.
+  No conjunctival injection.
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest expands symmetrically.
+  Normal vesicular breath sounds.
+  No added sounds.
+  
+  ABDOMINAL EXAMINATION
+  
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  ASSESSMENT
+  
+  Acute left-sided Bell's palsy (idiopathic lower motor neuron facial nerve palsy), House-Brackmann Grade IV.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  Acute ischemic stroke.
+  Ramsay Hunt syndrome (Herpes zoster oticus).
+  Lyme disease where epidemiologically relevant.
+  Otitis media with facial nerve involvement.
+  Facial nerve tumour.
+  Parotid gland tumour.
+  Neurosarcoidosis.
+  
+  INVESTIGATIONS
+  
+  Bell's palsy is primarily a clinical diagnosis.
+  
+  Laboratory:
+  
+  Random Blood Glucose.
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  HIV screening where indicated.
+  Lyme serology only if there is appropriate travel or exposure history.
+  
+  Imaging:
+  
+  MRI brain with contrast, or CT brain where MRI is unavailable, only if:
+  
+  Atypical presentation.
+  Bilateral facial weakness.
+  Recurrent facial palsy.
+  Progressive symptoms.
+  Associated limb weakness or other neurological deficits.
+  No improvement after 3 months.
+  
+  MANAGEMENT
+  
+  CORTICOSTEROID THERAPY
+  
+  Best started within 72 hours of symptom onset.
+  
+  Tab Prednisolone 60 mg orally once daily for 5 days, followed by a taper of 10 mg daily over the next 5 days.
+  
+  Total treatment duration: 10 days.
+  
+  ANTIVIRAL THERAPY
+  
+  May be considered in severe facial paralysis or when herpes simplex virus involvement is suspected.
+  
+  Tab Valaciclovir 1 g orally three times daily for 7 days.
+  
+  Alternative:
+  
+  Tab Acyclovir 400 mg orally five times daily for 7 days.
+  
+  EYE PROTECTION
+  
+  Eye protection is essential because of incomplete eyelid closure.
+  
+  Artificial tears (Carboxymethylcellulose 0.5%):
+  
+  Instil 1–2 drops into the left eye every 2–4 hours while awake.
+  
+  Lubricating eye ointment, e.g. Lacri-Lube® or equivalent:
+  
+  Apply into the affected eye at bedtime.
+  
+  Tape or patch the affected eye closed during sleep to prevent exposure keratitis.
+  
+  Wear protective glasses outdoors.
+  
+  Urgent ophthalmology review if eye pain, redness or visual impairment develops.
+  
+  ANALGESIA
+  
+  For post-auricular pain:
+  
+  Tab Paracetamol 1 g orally every 6–8 hours as required, maximum 4 g/day.
+  
+  If pain is more severe:
+  
+  Tab Ibuprofen 400 mg orally every 8 hours after meals for 3–5 days if there are no contraindications.
+  
+  PHYSIOTHERAPY
+  
+  Refer for facial muscle exercises.
+  Facial massage.
+  Neuromuscular retraining.
+  Mirror-assisted facial exercises.
+  
+  NURSING INSTRUCTIONS
+  
+  Assess ability to close the affected eye.
+  Ensure regular eye lubrication.
+  Monitor facial nerve function at each review.
+  Document House-Brackmann grade.
+  
+  HEALTH EDUCATION
+  
+  Explain that Bell's palsy is an acute inflammation of the facial nerve causing temporary weakness of one side of the face. It is not a stroke, and unlike stroke, Bell's palsy affects both the upper and lower parts of the face on the affected side.
+  
+  Stress the importance of completing the corticosteroid course and protecting the affected eye from drying and injury.
+  
+  Demonstrate facial exercises and encourage regular practice.
+  
+  Advise avoidance of driving if vision is significantly affected because of incomplete eye closure.
+  
+  Seek urgent medical attention if limb weakness, worsening headache, double vision, persistent vomiting, seizures or altered consciousness develops, as these symptoms suggest an alternative diagnosis.
+  
+  FOLLOW-UP
+  
+  Review after 1 week to assess eye protection, medication tolerance and progression.
+  
+  Repeat neurological examination at each visit.
+  
+  Review again at 4–6 weeks.
+  
+  Refer to Neurology if there is no clinical improvement by 3 months, recurrent facial palsy or atypical features.
+  
+  Refer to Ophthalmology if exposure keratitis develops or if eye closure remains incomplete.
+  
+  PROGNOSIS
+  
+  Excellent. Approximately 70–85% of patients recover completely within 3–6 months, particularly when corticosteroid therapy is started within 72 hours of symptom onset. Residual facial weakness or synkinesis may occur in a minority of patients, especially in severe cases.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-43',
+    title: 'Acute Exacerbation of Chronic Obstructive Pulmonary Disease',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Respiratory Medicine',
+    condition: 'Acute Exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD)',
+    symptoms: [
+      'Progressive difficulty breathing',
+      'Productive cough with increased sputum',
+      'Wheezing',
+      'Chest tightness',
+      'Reduced exercise tolerance',
+      'Increased sputum purulence'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-27',
+    summary: '64-year-old male retired welder and known COPD patient presenting with a 5-day history of progressively worsening dyspnoea, increased purulent sputum production and wheezing, likely representing an infective acute exacerbation of COPD, with hypoxaemia and no current evidence of respiratory failure or heart failure.',
+    content: `MEDICAL CLINIC
+  
+  Patient Seen
+  
+  A 64-year-old married male retired welder from Ibadan, Oyo State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  
+  CHIEF COMPLAINT
+  
+  Progressive difficulty breathing × 5 days.
+  Productive cough × 1 week.
+  Wheezing × 5 days.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a known case of Chronic Obstructive Pulmonary Disease (COPD) diagnosed 5 years ago. He presented with worsening shortness of breath over the past five days. Initially, he experienced breathlessness only on exertion, but it has progressed to occurring with minimal activity, limiting his ability to walk short distances.
+  
+  He has had a productive cough for one week with increased sputum volume. The sputum is thick, yellowish and occasionally difficult to expectorate. There is no haemoptysis.
+  
+  He also reports worsening wheezing and chest tightness.
+  
+  There is no pleuritic chest pain.
+  He denies orthopnoea and paroxysmal nocturnal dyspnoea.
+  He has had no fever or rigors.
+  
+  He admits poor adherence to his maintenance inhalers over the past two months because of financial constraints.
+  
+  He has smoked approximately one pack of cigarettes daily for 35 years and stopped smoking one year ago, giving a 35 pack-year smoking history.
+  
+  There is no history suggestive of pulmonary tuberculosis.
+  
+  No recent travel or sick contacts.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  
+  Easy fatigability.
+  Reduced exercise tolerance.
+  No significant weight loss.
+  No night sweats.
+  
+  Respiratory:
+  
+  Progressive dyspnoea.
+  Productive cough.
+  Increased sputum production.
+  Wheezing.
+  No haemoptysis.
+  
+  Cardiovascular:
+  
+  No chest pain.
+  No palpitations.
+  No syncope.
+  No ankle swelling.
+  
+  Gastrointestinal:
+  
+  No abdominal pain.
+  No vomiting.
+  
+  Neurological:
+  
+  No headache.
+  No focal weakness.
+  
+  PAST MEDICAL HISTORY
+  
+  Known COPD for 5 years.
+  
+  Hypertension for 8 years, well controlled.
+  
+  No diabetes mellitus.
+  No previous pulmonary tuberculosis.
+  
+  Two previous hospital admissions for COPD exacerbations, the most recent 18 months ago.
+  
+  PAST SURGICAL HISTORY
+  
+  Nil significant.
+  
+  DRUG HISTORY
+  
+  Previously prescribed:
+  
+  Salbutamol inhaler as needed.
+  Tiotropium inhaler once daily.
+  
+  Poor compliance with maintenance inhalers.
+  
+  Amlodipine 10 mg orally once daily.
+  
+  No known drug allergies.
+  
+  SOCIAL HISTORY
+  
+  Retired welder with prolonged occupational exposure to dust and fumes.
+  
+  Former smoker with a 35 pack-year history.
+  
+  Occasional alcohol consumption.
+  
+  Lives with his wife.
+  
+  Independent in activities of daily living before this illness.
+  
+  FAMILY HISTORY
+  
+  No family history of COPD.
+  No family history of asthma.
+  
+  GENERAL EXAMINATION
+  
+  Elderly man.
+  Conscious and alert.
+  Moderately dyspnoeic.
+  Able to speak in short sentences.
+  Mild respiratory distress.
+  No cyanosis.
+  No pallor.
+  No jaundice.
+  No pedal oedema.
+  
+  VITAL SIGNS
+  
+  Blood Pressure: 138/84 mmHg
+  Pulse Rate: 104 beats/minute, regular.
+  Respiratory Rate: 28 cycles/minute
+  Temperature: 37.1°C
+  SpO₂: 90% on room air
+  Weight: 67 kg
+  Height: 1.70 m
+  BMI: 23.2 kg/m²
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest appears mildly hyperinflated.
+  Reduced chest expansion bilaterally.
+  Use of accessory muscles of respiration.
+  Percussion note is hyper-resonant bilaterally.
+  Reduced breath sounds.
+  Prolonged expiratory phase.
+  Diffuse polyphonic expiratory wheeze over both lung fields.
+  Few scattered coarse crackles at both lung bases.
+  Vocal resonance normal.
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Heart sounds I and II normal.
+  No murmurs.
+  No raised jugular venous pressure.
+  Peripheral pulses normal.
+  
+  ABDOMINAL EXAMINATION
+  
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  Normal bowel sounds.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious.
+  Alert.
+  GCS 15/15.
+  No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Acute exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD), likely infective, in a known COPD patient with hypoxaemia.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  Community-acquired pneumonia.
+  Acute bronchial asthma exacerbation.
+  Acute left ventricular failure.
+  Pulmonary embolism.
+  Pneumothorax.
+  
+  INVESTIGATIONS
+  
+  Laboratory:
+  
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  Random Blood Glucose.
+  C-Reactive Protein.
+  Arterial Blood Gas (ABG).
+  Sputum Microscopy, Culture and Sensitivity.
+  Sputum GeneXpert if tuberculosis is suspected.
+  
+  Imaging:
+  
+  Chest X-ray (PA view).
+  ECG.
+  Echocardiography if cor pulmonale or heart failure is suspected.
+  
+  Pulmonary Function Tests:
+  
+  Spirometry after recovery from the acute exacerbation demonstrating persistent airflow limitation:
+  
+  Post-bronchodilator FEV₁/FVC <0.70.
+  
+  Grade severity according to FEV₁ percentage predicted.
+  
+  MANAGEMENT
+  
+  OXYGEN THERAPY
+  
+  Administer controlled oxygen via Venturi mask (24–28%) or nasal cannula 1–2 L/min.
+  
+  Target SpO₂: 88–92%.
+  
+  Avoid excessive oxygen administration to reduce the risk of carbon dioxide retention.
+  
+  Monitor with repeat ABG where indicated.
+  
+  BRONCHODILATOR THERAPY
+  
+  Nebulized Short-Acting Beta₂ Agonist:
+  
+  Nebulized Salbutamol 2.5–5 mg every 20 minutes for the first hour, then every 4–6 hours according to response.
+  
+  PLUS
+  
+  Nebulized Short-Acting Anticholinergic:
+  
+  Nebulized Ipratropium Bromide 500 micrograms every 6 hours.
+  
+  CORTICOSTEROIDS
+  
+  Tab Prednisolone 40 mg orally once daily for 5 days.
+  
+  If unable to tolerate oral medication:
+  
+  Inj. Hydrocortisone 100 mg IV every 8 hours, switching to oral prednisolone once clinically improved.
+  
+  ANTIBIOTICS
+  
+  Antibiotics are indicated because of increased sputum purulence and volume.
+  
+  Option 1:
+  
+  Tab Amoxicillin-Clavulanate 625 mg orally every 8 hours for 5–7 days.
+  
+  Option 2:
+  
+  Tab Doxycycline 100 mg orally twice daily for 5 days.
+  
+  Option 3:
+  
+  Tab Azithromycin 500 mg orally once daily for 3 days.
+  
+  Choose according to local antibiogram, allergy status and recent antibiotic exposure.
+  
+  MUCOLYTIC THERAPY
+  
+  If required:
+  
+  Tab Carbocisteine 750 mg orally three times daily, reducing to 750 mg twice daily once symptoms improve.
+  
+  MAINTENANCE THERAPY AFTER STABILIZATION
+  
+  Resume or commence long-acting inhaled bronchodilators:
+  
+  Tiotropium 18 micrograms inhaled once daily (LAMA).
+  
+  PLUS/OR
+  
+  Salmeterol 50 micrograms inhaled twice daily (LABA).
+  
+  For patients with frequent exacerbations or eosinophilia:
+  
+  LABA + Inhaled Corticosteroid (ICS) combination, e.g.:
+  
+  Salmeterol/Fluticasone 50/500 micrograms, one inhalation twice daily.
+  
+  Patients with persistent symptoms despite dual therapy may require triple therapy (LABA + LAMA + ICS).
+  
+  VENOUS THROMBOEMBOLISM PROPHYLAXIS
+  
+  If admitted with reduced mobility:
+  
+  Enoxaparin 40 mg subcutaneously once daily, unless contraindicated.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor respiratory rate, pulse, blood pressure and oxygen saturation every 4 hours or more frequently if unstable.
+  
+  Maintain target oxygen saturation between 88–92%.
+  
+  Monitor sputum volume and colour.
+  
+  Encourage effective coughing and deep-breathing exercises.
+  
+  Maintain adequate hydration.
+  
+  PULMONARY REHABILITATION
+  
+  Following recovery:
+  
+  Supervised exercise programme.
+  Breathing exercises, including pursed-lip breathing.
+  Chest physiotherapy where indicated.
+  Nutritional assessment and counselling.
+  
+  HEALTH EDUCATION
+  
+  Explain that COPD is a chronic lung disease characterized by persistent airflow limitation that can be slowed but not reversed.
+  
+  Strongly reinforce permanent smoking cessation.
+  
+  Avoid exposure to biomass smoke, dust and occupational fumes.
+  
+  Demonstrate correct inhaler technique and assess it at every clinic visit.
+  
+  Encourage adherence to maintenance inhalers even when asymptomatic.
+  
+  Recommend annual influenza vaccination and pneumococcal vaccination according to local availability and guidelines.
+  
+  Teach recognition of worsening symptoms such as increasing breathlessness, increased sputum volume or purulence, fever, cyanosis or confusion, and advise prompt hospital presentation if these occur.
+  
+  FOLLOW-UP
+  
+  Admit to the medical ward for monitoring and treatment.
+  
+  Repeat ABG if respiratory status worsens or hypercapnia is suspected.
+  
+  Review daily while admitted.
+  
+  Respiratory clinic follow-up 2–4 weeks after discharge.
+  
+  Arrange spirometry once the acute exacerbation has resolved.
+  
+  Assess inhaler technique, smoking status, vaccination status and exacerbation risk at follow-up.
+  
+  PROGNOSIS
+  
+  Fair. With prompt treatment of the acute exacerbation, smoking cessation, adherence to inhaled maintenance therapy and pulmonary rehabilitation, symptoms can improve significantly and future exacerbations can be reduced, although COPD remains a chronic progressive disease.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-42',
+    title: 'Graves Disease with Mild Thyroid Eye Disease',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology',
+    condition: 'Hyperthyroidism',
+    symptoms: ['Palpitations', 'Weight loss despite increased appetite', 'Excessive sweating', 'Heat intolerance', 'Neck swelling', 'Fine tremors', 'Increased bowel frequency', 'Irregular menstruation'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '32-year-old woman with a 3-month history of palpitations, weight loss, excessive sweating, heat intolerance and tremors, with a diffuse goitre, thyroid bruit and mild thyroid eye disease, clinically suggestive of newly diagnosed Graves disease.',
+    content: `INTERNAL MEDICINE / ENDOCRINOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 32-year-old single female secondary school teacher from Abeokuta, Ogun State, who presented with palpitations, progressive weight loss, excessive sweating and an enlarging anterior neck swelling. Informant was the patient, who was considered reliable.
+  
+  CHIEF COMPLAINT
+  
+  Palpitations × 3 months.
+  Weight loss × 3 months.
+  Neck swelling × 2 months.
+  Excessive sweating × 3 months.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until about three months prior to presentation when she developed recurrent episodes of palpitations occurring both at rest and during activity.
+  
+  The palpitations were rapid and regular and were associated with anxiety and hand tremors.
+  
+  She also noticed excessive sweating, heat intolerance and progressive weight loss of approximately 8 kg despite having an increased appetite.
+  
+  She complains of generalized weakness, easy fatigability and difficulty climbing stairs.
+  
+  Two months prior to presentation, she noticed a gradually enlarging swelling in the anterior aspect of her neck. The swelling has progressively increased in size but is not painful.
+  
+  She denies difficulty swallowing, choking sensation or hoarseness of voice.
+  
+  She reports increased nervousness, irritability and difficulty sleeping.
+  
+  She has also noticed increased frequency of bowel motions, passing 3–4 soft stools daily, but no frank diarrhoea.
+  
+  Her menstrual cycles have become lighter and less frequent over the past two months.
+  
+  She denies fever, neck pain or recent upper respiratory tract infection.
+  
+  There is no history of previous thyroid surgery or neck irradiation.
+  
+  There is no history of taking amiodarone, lithium or iodine-containing medications.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Weight loss despite increased appetite.
+  Heat intolerance.
+  Excessive sweating.
+  Easy fatigability.
+  
+  Cardiovascular:
+  Palpitations.
+  No chest pain.
+  No syncope.
+  No ankle swelling.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Gastrointestinal:
+  Increased bowel frequency.
+  No abdominal pain.
+  No vomiting.
+  
+  Neurological:
+  Fine tremors.
+  Anxiety.
+  Difficulty sleeping.
+  No seizures.
+  
+  Ophthalmic:
+  Occasional gritty sensation in both eyes.
+  Excessive tearing.
+  No diplopia.
+  No visual loss.
+  
+  Reproductive:
+  Scanty and irregular menstruation.
+  
+  PAST MEDICAL HISTORY
+  
+  No history of hypertension.
+  No history of diabetes mellitus.
+  No previous thyroid disease.
+  No previous surgery.
+  
+  DRUG HISTORY
+  
+  No regular medications.
+  No herbal medication use.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  Mother was treated for thyroid disease.
+  No known family history of autoimmune disorders.
+  
+  SOCIAL HISTORY
+  
+  Lives alone.
+  Non-smoker.
+  Occasional alcohol consumption.
+  No recreational drug use.
+  
+  GENERAL EXAMINATION
+  
+  Young woman, conscious and alert, anxious-looking and restless.
+  
+  She had warm, moist palms and fine tremors of the outstretched hands.
+  
+  She was not pale, not jaundiced and not cyanosed.
+  
+  No pedal oedema.
+  
+  VITAL SIGNS
+  
+  BP: 138/78 mmHg
+  PR: 124 bpm, regular
+  RR: 22 cpm
+  Temperature: 37.2°C
+  SpO₂: 99% on room air
+  Weight: 54 kg
+  Height: 1.66 m
+  BMI: 19.6 kg/m²
+  
+  NECK EXAMINATION
+  
+  There was diffuse, symmetrical enlargement of the thyroid gland, consistent with WHO Grade II goitre.
+  
+  The thyroid gland had a smooth surface and soft consistency.
+  
+  It was non-tender and moved with swallowing.
+  
+  No palpable thyroid nodules.
+  No cervical lymphadenopathy.
+  
+  A thyroid bruit was present.
+  
+  EYE EXAMINATION
+  
+  Mild bilateral exophthalmos.
+  Lid retraction.
+  Lid lag present.
+  
+  No ophthalmoplegia.
+  Visual acuity preserved.
+  No corneal ulceration.
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Tachycardia present.
+  Regular rhythm.
+  Heart sounds I and II were normal.
+  No murmurs.
+  No clinical features of heart failure.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest was clear.
+  Normal vesicular breath sounds.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen was soft and non-tender.
+  No hepatosplenomegaly.
+  Bowel sounds were normal.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Fine postural tremor present.
+  Normal muscle tone.
+  Mild proximal muscle weakness with power 4+/5 at the shoulder and hip girdles.
+  
+  Deep tendon reflexes were brisk.
+  
+  No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Newly diagnosed hyperthyroidism, most likely Graves' disease, with a diffuse toxic goitre and mild thyroid eye disease.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Graves' disease — most likely.
+  2. Toxic multinodular goitre.
+  3. Toxic thyroid adenoma.
+  4. Thyroiditis, including subacute or painless thyroiditis.
+  5. Factitious thyrotoxicosis.
+  
+  INVESTIGATIONS
+  
+  LABORATORY
+  
+  Thyroid Function Tests:
+  - TSH.
+  - Free T4.
+  - Free T3.
+  
+  Thyroid receptor antibodies (TRAb).
+  
+  Anti-thyroid peroxidase (Anti-TPO) antibodies.
+  
+  Full Blood Count — baseline assessment before commencing antithyroid medication.
+  
+  Liver Function Tests — baseline assessment before commencing antithyroid medication.
+  
+  Serum Electrolytes, Urea and Creatinine.
+  
+  Fasting Blood Glucose.
+  
+  Pregnancy test if pregnancy is possible.
+  
+  IMAGING
+  
+  Thyroid Ultrasound:
+  
+  Assess for:
+  - Thyroid size.
+  - Thyroid echotexture.
+  - Presence of nodules.
+  - Vascularity using Doppler.
+  
+  Expected finding in Graves' disease:
+  Diffuse thyroid enlargement with increased vascularity, sometimes described as a "thyroid inferno" on Doppler.
+  
+  RADIOACTIVE IODINE UPTAKE SCAN
+  
+  If available and clinically appropriate, and provided the patient is not pregnant or breastfeeding.
+  
+  Expected findings:
+  - Diffusely increased uptake in Graves' disease.
+  - Focal increased uptake in toxic adenoma.
+  - Low uptake in thyroiditis.
+  
+  CARDIAC EVALUATION
+  
+  12-lead ECG.
+  
+  Expected finding:
+  Sinus tachycardia.
+  
+  Echocardiography if atrial fibrillation, heart failure or other structural cardiac disease is suspected.
+  
+  MANAGEMENT
+  
+  SYMPTOMATIC CONTROL
+  
+  Beta-blocker:
+  
+  Propranolol 40 mg orally three times daily, titrated according to heart rate and clinical symptoms.
+  
+  Usual total daily dose may range from 80–240 mg/day depending on response and tolerance.
+  
+  Alternative if beta-blockers are contraindicated, such as in significant asthma or certain obstructive airway diseases:
+  
+  Diltiazem 60 mg orally three times daily, titrated according to heart rate and clinical response.
+  
+  ANTITHYROID DRUG THERAPY
+  
+  Carbimazole:
+  
+  Carbimazole 20 mg orally twice daily for moderate symptomatic hyperthyroidism, with subsequent dose adjustment according to thyroid function tests and clinical response.
+  
+  Review thyroid function after approximately 4–6 weeks and adjust the dose accordingly.
+  
+  Once euthyroid, reduce to an appropriate maintenance dose, commonly 5–15 mg orally once daily, depending on thyroid function.
+  
+  Alternative:
+  
+  Methimazole 20–30 mg orally once daily where available and appropriate.
+  
+  PREGNANCY CONSIDERATION
+  
+  If pregnancy occurs during the first trimester, specialist review is required.
+  
+  Propylthiouracil (PTU) is generally preferred during the first trimester because of the teratogenic risk associated with carbimazole/methimazole.
+  
+  After the first trimester, consideration may be given to switching back to carbimazole where appropriate because of the risk of PTU-associated hepatotoxicity.
+  
+  MANAGEMENT OF THYROID EYE DISEASE
+  
+  Carboxymethylcellulose 0.5% eye drops:
+  
+  Instill 1 drop into each eye four times daily as needed for dryness and irritation.
+  
+  Advise the patient to wear sunglasses outdoors.
+  
+  Advise sleeping with the head of the bed elevated if eyelid swelling is present.
+  
+  Refer to an ophthalmologist if she develops:
+  - Diplopia.
+  - Reduced visual acuity.
+  - Severe eye pain.
+  - Corneal exposure.
+  - Worsening proptosis.
+  - Features suggestive of optic nerve compression.
+  
+  NUTRITIONAL ADVICE
+  
+  Encourage adequate calorie and protein intake until thyroid function normalizes.
+  
+  Maintain good hydration.
+  
+  Avoid excessive caffeine intake because it may worsen palpitations, anxiety and tremors.
+  
+  DEFINITIVE TREATMENT
+  
+  Discuss definitive treatment if appropriate, particularly in cases of:
+  
+  Relapse following a course of antithyroid therapy.
+  Poor adherence to medical therapy.
+  Adverse reactions to antithyroid drugs.
+  Large goitre.
+  Suspicious thyroid nodules.
+  Patient preference.
+  
+  Options include:
+  
+  Radioactive iodine ablation — contraindicated during pregnancy and breastfeeding and may worsen thyroid eye disease in some patients.
+  
+  Near-total or total thyroidectomy after achieving euthyroidism, particularly where there is a large goitre, significant compressive symptoms, suspicious nodules or other indications for surgery.
+  
+  THYROID STORM RISK
+  
+  The patient currently has no clinical features of thyroid storm, with no hyperpyrexia, delirium, severe tachyarrhythmia, heart failure or cardiovascular collapse.
+  
+  Advise immediate hospital presentation if she develops severe fever, confusion, marked agitation, severe or persistent palpitations, collapse or significant breathlessness.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor pulse rate and blood pressure at each visit.
+  Monitor body weight.
+  Assess for worsening eye symptoms.
+  Monitor for improvement in tremors, palpitations and heat intolerance.
+  Observe for adverse effects of antithyroid medication.
+  Reinforce medication adherence.
+  
+  HEALTH EDUCATION
+  
+  Explain that hyperthyroidism is a condition in which the thyroid gland produces excessive amounts of thyroid hormones, resulting in an increased metabolic rate.
+  
+  Explain that common symptoms include weight loss despite increased appetite, palpitations, tremors, excessive sweating, heat intolerance, anxiety and increased bowel frequency.
+  
+  Explain that Graves' disease is an autoimmune disorder and is the most likely cause of her symptoms and clinical findings.
+  
+  Explain that treatment aims to control thyroid hormone production, relieve symptoms and prevent complications such as atrial fibrillation, heart failure, osteoporosis and thyroid storm.
+  
+  Counsel the patient regarding potential adverse effects of carbimazole, including agranulocytosis and liver injury.
+  
+  Advise her to stop carbimazole and seek urgent medical attention if she develops fever, sore throat, mouth ulcers, jaundice, dark urine or severe skin rash.
+  
+  Advise the patient to avoid smoking and exposure to cigarette smoke, as smoking can worsen Graves' ophthalmopathy.
+  
+  Emphasize the importance of regular follow-up and thyroid function monitoring.
+  
+  FOLLOW-UP
+  
+  Review in the Endocrinology Clinic after approximately 4 weeks.
+  
+  Repeat TSH, Free T4 and Free T3 every 4–6 weeks initially until euthyroid, then every 3–6 months.
+  
+  Repeat Full Blood Count and Liver Function Tests promptly if symptoms suggestive of antithyroid drug toxicity develop.
+  
+  Monitor pulse rate, weight, blood pressure and symptom resolution at each visit.
+  
+  Assess thyroid eye disease at follow-up and arrange ophthalmology review if symptoms progress.
+  
+  Discuss definitive treatment if there is relapse after an appropriate course of antithyroid therapy, if medication is not tolerated or if definitive treatment is preferred.
+  
+  PROGNOSIS
+  
+  Prognosis is generally good with early diagnosis, appropriate treatment, medication adherence and regular monitoring.
+  
+  Most patients achieve euthyroidism with medical therapy, although relapse can occur after discontinuation of antithyroid medication.
+  
+  Early recognition and treatment reduce the risk of complications such as atrial fibrillation, heart failure, osteoporosis and thyroid storm.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-41',
+    title: 'Primary Hypothyroidism with Diffuse Goitre',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology',
+    condition: 'Primary Hypothyroidism',
+    symptoms: ['Easy fatigability', 'Progressive weight gain', 'Cold intolerance', 'Constipation', 'Neck swelling', 'Menorrhagia'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '46-year-old woman with a 6-month history of fatigue, progressive weight gain, cold intolerance, constipation and a 3-month history of diffuse goitre, with clinical features suggestive of primary hypothyroidism, likely secondary to Hashimoto thyroiditis.',
+    content: `INTERNAL MEDICINE / ENDOCRINOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 46-year-old married female civil servant from Abeokuta, Ogun State, who presented with progressive easy fatigability, weight gain, cold intolerance and an enlarging anterior neck swelling. Informant was the patient, who was considered reliable.
+  
+  PRESENTING COMPLAINT
+  
+  Easy fatigability × 6 months.
+  Progressive weight gain × 5 months.
+  Cold intolerance × 4 months.
+  Neck swelling × 3 months.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until about six months prior to presentation when she developed progressive easy fatigability and generalized weakness, which made it increasingly difficult to carry out her usual daily activities.
+  
+  Over the past five months, she has gained approximately 9 kg despite no significant increase in appetite.
+  
+  She complains of persistent cold intolerance, preferring warm environments even when others are comfortable.
+  
+  She also reports constipation, passing hard stools every 3–4 days, associated with abdominal bloating but no rectal bleeding.
+  
+  She noticed a progressive swelling in the anterior aspect of her neck approximately three months prior to presentation. The swelling is painless, gradually increasing in size and moves with swallowing.
+  
+  She denies dysphagia, dyspnoea or hoarseness of voice.
+  
+  She reports dry, coarse skin, progressive hair loss, brittle nails and swelling around her face, particularly in the mornings.
+  
+  She has become increasingly forgetful, slow in thinking and often feels sleepy during the day.
+  
+  Her menstrual periods have become heavier and prolonged over the past four months, lasting 7–8 days with passage of clots.
+  
+  She denies palpitations, tremors, heat intolerance or excessive sweating.
+  
+  There is no history of previous thyroid surgery, neck irradiation or use of amiodarone or lithium.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Easy fatigability.
+  Progressive weight gain.
+  Cold intolerance.
+  Reduced exercise tolerance.
+  Daytime somnolence.
+  
+  Cardiovascular:
+  No chest pain.
+  No palpitations.
+  Occasional mild ankle swelling.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Gastrointestinal:
+  Constipation.
+  Abdominal bloating.
+  No vomiting.
+  
+  Neurological:
+  Poor concentration.
+  Memory impairment.
+  Slowed thinking.
+  No seizures.
+  
+  Musculoskeletal:
+  Generalized muscle aches.
+  Mild proximal muscle weakness.
+  
+  Reproductive:
+  Menorrhagia.
+  Regular menstrual cycles.
+  
+  PAST MEDICAL HISTORY
+  
+  No history of hypertension.
+  No history of diabetes mellitus.
+  No previous thyroid disease.
+  No previous surgery.
+  
+  DRUG HISTORY
+  
+  Occasional paracetamol use.
+  No herbal medication use.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  Mother has hypothyroidism.
+  Sister has rheumatoid arthritis.
+  
+  SOCIAL HISTORY
+  
+  Lives with her husband and children.
+  Non-smoker.
+  Does not consume alcohol.
+  No recreational drug use.
+  
+  GENERAL EXAMINATION
+  
+  Middle-aged woman, conscious and alert, but appeared tired with slow speech.
+  
+  She had a puffy face with mild periorbital oedema, dry coarse skin and coarse brittle hair.
+  
+  She was not pale, not jaundiced and not cyanosed.
+  
+  No finger clubbing.
+  Mild non-pitting ankle oedema.
+  
+  VITAL SIGNS
+  
+  BP: 128/82 mmHg
+  PR: 56 bpm, regular
+  RR: 16 cpm
+  Temperature: 36.1°C
+  SpO₂: 99% on room air
+  Weight: 82 kg
+  Height: 1.63 m
+  BMI: 30.9 kg/m² (Obesity Class I)
+  
+  NECK EXAMINATION
+  
+  There was a diffuse, symmetrical enlargement of the thyroid gland, consistent with WHO Grade II goitre.
+  
+  The gland was firm and non-tender with a smooth surface.
+  
+  The swelling moved with swallowing.
+  
+  No palpable thyroid nodules.
+  No thyroid bruit.
+  No cervical lymphadenopathy.
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Bradycardia present.
+  Heart sounds I and II were normal.
+  No murmurs.
+  No pericardial rub.
+  No clinical signs of heart failure.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest expanded symmetrically.
+  Normal vesicular breath sounds.
+  No added sounds.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen was soft and non-tender.
+  No organomegaly.
+  Bowel sounds were reduced.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Patient was conscious and oriented.
+  
+  Speech was slow but coherent.
+  Fine motor function was intact.
+  Power was 5/5 in all limbs.
+  
+  Delayed relaxation phase of deep tendon reflexes, particularly the ankle jerks.
+  
+  No focal neurological deficits.
+  
+  SKIN EXAMINATION
+  
+  Dry, rough and cool skin.
+  Reduced sweating.
+  Diffuse hair thinning.
+  Brittle nails.
+  
+  ASSESSMENT
+  
+  Primary hypothyroidism, most likely secondary to Hashimoto's thyroiditis, presenting with symptomatic hypothyroidism and diffuse goitre.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Hashimoto's thyroiditis — most likely.
+  2. Iodine deficiency hypothyroidism.
+  3. Post-thyroiditis hypothyroidism.
+  4. Drug-induced hypothyroidism, e.g. amiodarone or lithium-induced.
+  5. Secondary or central hypothyroidism.
+  
+  INVESTIGATIONS
+  
+  Laboratory:
+  
+  Thyroid Function Tests:
+  - TSH.
+  - Free T4.
+  - Free T3 if indicated.
+  
+  Anti-thyroid peroxidase (Anti-TPO) antibodies.
+  Anti-thyroglobulin antibodies.
+  
+  Full Blood Count — to assess for anaemia, particularly in view of menorrhagia.
+  
+  Serum Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  Fasting Blood Glucose.
+  HbA1c.
+  Fasting Lipid Profile — hypothyroidism may be associated with hypercholesterolaemia.
+  
+  Serum Vitamin B12 if autoimmune disease is suspected.
+  
+  Pregnancy test if pregnancy is possible before dose adjustment or if clinically indicated.
+  
+  IMAGING
+  
+  Thyroid Ultrasound:
+  
+  Assess for:
+  - Thyroid size.
+  - Echotexture.
+  - Diffuse heterogeneity suggestive of chronic autoimmune thyroiditis.
+  - Presence of thyroid nodules.
+  - Cervical lymph nodes if clinically indicated.
+  
+  CARDIAC EVALUATION
+  
+  12-lead ECG.
+  
+  Expected finding:
+  Sinus bradycardia.
+  
+  Echocardiography if there are clinical features suggestive of pericardial effusion or heart failure.
+  
+  MANAGEMENT
+  
+  THYROID HORMONE REPLACEMENT
+  
+  Levothyroxine is the treatment of choice for primary hypothyroidism.
+  
+  For this 46-year-old patient with no known cardiovascular disease:
+  
+  Levothyroxine 75 micrograms orally once daily, taken every morning on an empty stomach, at least 30–60 minutes before breakfast, with plain water.
+  
+  Adjust the dose by 12.5–25 micrograms every 6–8 weeks based on TSH levels, Free T4 and clinical response.
+  
+  The expected full replacement dose is approximately 1.6 micrograms/kg/day, but the final dose should be individualized according to thyroid function, body weight, age and clinical response.
+  
+  If the patient is subsequently found to have significant coronary artery disease or is elderly:
+  
+  Start levothyroxine at a lower dose, e.g. 25 micrograms orally once daily, with gradual dose increments every 6–8 weeks.
+  
+  MANAGEMENT OF CONSTIPATION
+  
+  Encourage increased dietary fibre intake.
+  Encourage adequate fluid intake where not contraindicated.
+  Encourage regular physical activity as tolerated.
+  
+  If required:
+  
+  Lactulose syrup 15–30 mL orally once or twice daily, titrated to achieve one soft stool daily.
+  
+  MANAGEMENT OF HYPERLIPIDAEMIA
+  
+  Repeat the lipid profile after euthyroidism has been achieved.
+  
+  Consider lipid-lowering therapy based on the patient's residual lipid levels and overall cardiovascular risk after thyroid function has normalized.
+  
+  NUTRITIONAL ADVICE
+  
+  Maintain a balanced diet.
+  
+  Encourage gradual weight reduction through dietary modification and physical activity after hypothyroid symptoms begin to improve.
+  
+  Avoid excessive iodine supplementation unless specifically indicated.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor pulse rate and blood pressure.
+  Record body weight at each visit.
+  Assess for improvement in fatigue, constipation and cold intolerance.
+  Monitor adherence to levothyroxine.
+  Confirm correct timing and administration of medication.
+  Monitor for symptoms of excessive thyroid hormone replacement.
+  
+  HEALTH EDUCATION
+  
+  Explain that hypothyroidism occurs when the thyroid gland does not produce enough thyroid hormone, leading to slowing of the body's metabolic processes.
+  
+  Explain that common symptoms include fatigue, weight gain, constipation, cold intolerance, dry skin, slowed thinking and menstrual irregularities.
+  
+  Explain that levothyroxine replaces the thyroid hormone that the body is unable to produce adequately and is usually a lifelong treatment in permanent hypothyroidism.
+  
+  Reassure the patient that improvement is gradual and may take several weeks. Energy levels and other symptoms may begin to improve within 2–4 weeks, although complete resolution may take several months.
+  
+  Advise the patient to take levothyroxine on an empty stomach with plain water, at least 30–60 minutes before breakfast.
+  
+  Advise her to avoid taking calcium supplements, iron tablets, multivitamins, antacids and other medications or supplements that interfere with levothyroxine absorption within approximately 4 hours of the medication.
+  
+  Explain that missed doses should be taken when remembered if appropriate, but double doses should generally be avoided unless specifically instructed by a healthcare professional.
+  
+  Advise the patient to report symptoms suggestive of excessive thyroid hormone replacement, including palpitations, tremors, unexplained weight loss, excessive sweating or insomnia.
+  
+  Discuss the increased prevalence of other autoimmune conditions in patients with Hashimoto's thyroiditis and the importance of regular medical follow-up.
+  
+  FOLLOW-UP
+  
+  Review in the Endocrinology Clinic in 6 weeks.
+  
+  Repeat TSH and Free T4 approximately 6–8 weeks after initiation of levothyroxine or following any dose adjustment.
+  
+  Once euthyroidism is achieved, monitor TSH every 6–12 months or earlier if symptoms recur.
+  
+  Repeat lipid profile after thyroid function has normalized.
+  
+  Monitor body weight, pulse rate, blood pressure, bowel habit, menstrual pattern and resolution of hypothyroid symptoms at follow-up visits.
+  
+  Refer to Endocrine Surgery if significant compressive symptoms, suspicious thyroid nodules or progressive enlargement of the goitre develop.
+  
+  PROGNOSIS
+  
+  Prognosis is excellent with appropriate thyroid hormone replacement and regular monitoring.
+  
+  Most patients experience gradual resolution of symptoms over several weeks to months and can maintain a normal quality of life with appropriate lifelong adherence to levothyroxine therapy.
+  
+  Untreated hypothyroidism may lead to complications including dyslipidaemia, infertility, cardiovascular disease, pericardial effusion and, rarely, myxoedema coma.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-40',
+    title: 'Euthyroid Multinodular Goitre',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology',
+    condition: 'Multinodular Goitre',
+    symptoms: ['Anterior neck swelling', 'Progressive neck swelling', 'Dysphagia to solid foods', 'Neck fullness'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '45-year-old woman with a 5-year history of progressively enlarging anterior neck swelling and recent dysphagia to solid foods, clinically consistent with a euthyroid multinodular goitre with mild compressive symptoms requiring further evaluation.',
+    content: `INTERNAL MEDICINE / ENDOCRINOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 45-year-old married female trader from Abeokuta, Ogun State, who presented with a progressively enlarging anterior neck swelling and occasional difficulty swallowing solid foods. Informant was the patient, who was considered reliable.
+  
+  CHIEF COMPLAINT
+  
+  Anterior neck swelling × 5 years.
+  Progressive increase in size × 1 year.
+  Occasional difficulty swallowing × 3 months.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until approximately five years prior to presentation when she noticed a small, painless swelling in the anterior aspect of her neck.
+  
+  The swelling has progressively increased in size over the years, with a more noticeable increase during the past year.
+  
+  The swelling is not painful and moves on swallowing.
+  
+  She reports occasional difficulty swallowing solid foods over the past three months but denies difficulty swallowing liquids.
+  
+  She also notices a sensation of neck fullness, especially when lying flat.
+  
+  There is no history of difficulty breathing, stridor or choking episodes.
+  
+  There is no hoarseness of voice or neck pain.
+  
+  She denies symptoms suggestive of hyperthyroidism, including palpitations, excessive sweating, heat intolerance, tremors, weight loss despite good appetite or frequent bowel motions.
+  
+  She also denies symptoms suggestive of hypothyroidism, including cold intolerance, constipation, excessive weight gain, dry skin, excessive sleepiness or facial swelling.
+  
+  There is no history of rapid enlargement of the swelling.
+  
+  There is no history of neck irradiation.
+  
+  There is no family history of thyroid cancer or multiple endocrine neoplasia.
+  
+  She has never undergone thyroid surgery.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Neck swelling.
+  No fever.
+  No weight loss.
+  No night sweats.
+  
+  Endocrine:
+  No heat intolerance.
+  No cold intolerance.
+  No palpitations.
+  No tremors.
+  No excessive sweating.
+  Normal appetite.
+  
+  Respiratory:
+  Occasional sensation of neck tightness when lying flat.
+  No stridor.
+  No cough.
+  No dyspnoea.
+  
+  Gastrointestinal:
+  Occasional dysphagia to solid foods.
+  No vomiting.
+  No constipation.
+  
+  Cardiovascular:
+  No chest pain.
+  No palpitations.
+  
+  Neurological:
+  No tremors.
+  No muscle weakness.
+  
+  PAST MEDICAL HISTORY
+  
+  No history of hypertension.
+  No history of diabetes mellitus.
+  No previous thyroid disease.
+  No previous neck surgery.
+  
+  DRUG HISTORY
+  
+  No regular medications.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  No family history of thyroid cancer.
+  No family history of endocrine disorders.
+  
+  SOCIAL HISTORY
+  
+  Lives with her husband and children.
+  Non-smoker.
+  Does not consume alcohol.
+  Uses adequately iodized table salt at home.
+  
+  GENERAL EXAMINATION
+  
+  Middle-aged woman, conscious, alert and comfortable at rest.
+  
+  No respiratory distress.
+  
+  She was not pale, not jaundiced, not cyanosed and had no finger clubbing or pedal oedema.
+  
+  VITAL SIGNS
+  
+  BP: 124/78 mmHg
+  PR: 76 bpm, regular
+  RR: 18 cpm
+  Temperature: 36.8°C
+  SpO₂: 99% on room air
+  Weight: 70 kg
+  Height: 1.65 m
+  BMI: 25.7 kg/m²
+  
+  NECK EXAMINATION
+  
+  A diffuse multinodular swelling involving both thyroid lobes was present in the anterior neck, measuring approximately 7 × 5 cm.
+  
+  The swelling moved upwards with swallowing but did not move with protrusion of the tongue.
+  
+  The surface was nodular.
+  The swelling was firm but not hard.
+  It was non-tender.
+  The overlying skin was normal.
+  There was no local warmth or fluctuation.
+  No bruit was heard over the swelling.
+  The lower border was palpable.
+  There was no clinical evidence of retrosternal extension.
+  No cervical lymphadenopathy was palpable.
+  Pemberton's sign was negative.
+  The trachea was central.
+  
+  EYE EXAMINATION
+  
+  No exophthalmos.
+  No lid lag.
+  No lid retraction.
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Pulse was regular.
+  Heart sounds I and II were normal.
+  No murmurs.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest expanded symmetrically.
+  Normal vesicular breath sounds.
+  No stridor.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen was soft and non-tender.
+  No organomegaly.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Patient was conscious and alert.
+  No focal neurological deficits.
+  No tremors.
+  Normal muscle tone and power.
+  
+  ASSESSMENT
+  
+  Euthyroid multinodular goitre with mild compressive symptoms, particularly dysphagia, requiring further evaluation to assess thyroid function, characterize the thyroid nodules and exclude malignancy.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Benign multinodular goitre — most likely.
+  2. Colloid goitre.
+  3. Thyroid adenoma.
+  4. Hashimoto thyroiditis.
+  5. Thyroid carcinoma, including papillary or follicular carcinoma.
+  6. Retrosternal goitre.
+  
+  INVESTIGATIONS
+  
+  Laboratory:
+  
+  Thyroid Function Tests:
+  - TSH.
+  - Free T4.
+  - Free T3.
+  
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  Serum calcium.
+  Thyroid peroxidase antibodies if autoimmune thyroid disease is suspected.
+  
+  Imaging:
+  
+  Thyroid Ultrasound — essential.
+  
+  Assess:
+  - Thyroid size.
+  - Number and size of nodules.
+  - Solid or cystic composition.
+  - Microcalcifications.
+  - Nodule margins.
+  - Echogenicity.
+  - Cervical lymph nodes.
+  
+  Classify nodules using an appropriate TI-RADS system.
+  
+  Fine Needle Aspiration Cytology (FNAC):
+  
+  Indicated according to ultrasound risk stratification and nodule size, particularly for:
+  
+  - Nodules with suspicious ultrasound features.
+  - Dominant nodules meeting criteria for sampling.
+  - Rapidly enlarging nodules.
+  - Suspicious cervical lymph nodes.
+  
+  Chest X-ray:
+  
+  Assess for tracheal deviation and possible retrosternal extension where clinically indicated.
+  
+  CT Neck and Thorax:
+  
+  Consider if there is:
+  - Large goitre.
+  - Suspected retrosternal extension.
+  - Significant compressive symptoms.
+  - Need for detailed surgical planning.
+  
+  Flexible Laryngoscopy:
+  
+  Assess vocal cord mobility, particularly if surgery is planned or if hoarseness develops.
+  
+  MANAGEMENT
+  
+  MEDICAL MANAGEMENT
+  
+  As the patient is clinically euthyroid, routine levothyroxine suppression therapy is not recommended because of limited benefit in reducing goitre size and the potential risk of adverse effects, including atrial fibrillation and osteoporosis.
+  
+  If iodine deficiency is suspected, assess dietary iodine intake and thyroid function before considering iodine supplementation.
+  
+  No antithyroid medication is indicated unless hyperthyroidism develops.
+  
+  SURGICAL REFERRAL
+  
+  Refer to the General Surgery/Endocrine Surgery Unit for specialist evaluation, particularly because of progressive enlargement and compressive symptoms.
+  
+  Potential indications for surgical management include:
+  
+  Progressive enlargement.
+  Compressive symptoms such as dysphagia.
+  Significant cosmetic concerns.
+  Suspicious ultrasound or FNAC findings.
+  Confirmed or suspected thyroid malignancy.
+  
+  The extent of surgery, such as hemithyroidectomy, subtotal thyroidectomy or total thyroidectomy, should be determined by the underlying pathology, nodule characteristics, extent of disease and specialist surgical assessment.
+  
+  PRE-OPERATIVE PREPARATION
+  
+  If surgery is planned, obtain:
+  
+  Thyroid function tests.
+  FNAC report where indicated.
+  Thyroid ultrasound report.
+  ECG.
+  Chest X-ray where indicated.
+  Serum calcium.
+  Blood grouping and crossmatching.
+  
+  POST-OPERATIVE CONSIDERATIONS
+  
+  Discuss potential complications with the patient, including:
+  
+  Post-operative bleeding or neck haematoma.
+  Recurrent laryngeal nerve injury causing hoarseness or vocal cord dysfunction.
+  Hypocalcaemia due to parathyroid injury or dysfunction.
+  Need for lifelong thyroid hormone replacement following total thyroidectomy.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor for increasing neck swelling.
+  Observe for development of respiratory difficulty or stridor.
+  Advise the patient to sleep with the head elevated if this improves neck discomfort or pressure symptoms.
+  Monitor for worsening dysphagia or new-onset hoarseness.
+  
+  HEALTH EDUCATION
+  
+  Explain that a goitre is an enlargement of the thyroid gland and may occur even when thyroid hormone levels are normal.
+  
+  Explain that many goitres are benign, but appropriate investigations are necessary to determine the underlying cause, assess thyroid function and exclude thyroid malignancy.
+  
+  Advise the patient to continue using adequately iodized salt and maintain a balanced diet.
+  
+  Explain that iodine supplements should not be started without medical advice, as excessive iodine intake may worsen some thyroid conditions.
+  
+  Discuss symptoms requiring urgent medical attention, including rapidly increasing neck swelling, difficulty breathing, persistent hoarseness, severe or progressive difficulty swallowing or the appearance of enlarged neck lymph nodes.
+  
+  If surgery is recommended, explain the expected benefits, potential risks and the possibility of requiring lifelong thyroid hormone replacement if the entire thyroid gland is removed.
+  
+  FOLLOW-UP
+  
+  Review in the Endocrinology/General Surgery Clinic in 2 weeks with the results of thyroid function tests, thyroid ultrasound and FNAC if performed.
+  
+  If thyroid function is normal and investigations confirm a benign multinodular goitre, continue periodic clinical and ultrasound monitoring every 6–12 months, or earlier if symptoms worsen.
+  
+  Repeat thyroid ultrasound if there is rapid growth or development of suspicious clinical or sonographic features.
+  
+  Proceed with surgical management if compressive symptoms worsen, cosmetic concerns become significant or malignancy is suspected or confirmed.
+  
+  PROGNOSIS
+  
+  Prognosis is generally good if the goitre is benign and appropriately monitored or surgically managed when indicated.
+  
+  Most euthyroid multinodular goitres have a favourable outcome. However, progressive enlargement, worsening compressive symptoms or suspicious features within a thyroid nodule necessitate timely specialist evaluation and intervention.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-39',
+    title: 'Metabolic Syndrome',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology / Metabolic Medicine',
+    condition: 'Metabolic Syndrome',
+    symptoms: ['Progressive weight gain', 'Easy fatigability', 'Elevated blood pressure', 'Central obesity', 'Impaired fasting glucose'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '52-year-old man with central obesity, elevated blood pressure, impaired fasting glucose and suspected dyslipidaemia in the setting of a sedentary lifestyle and unhealthy dietary habits, consistent with metabolic syndrome and insulin resistance.',
+    content: `INTERNAL MEDICINE / ENDOCRINOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 52-year-old married male bank manager from Abeokuta, Ogun State, who presented with progressive weight gain, easy fatigability and recently detected elevated blood pressure. Informant was the patient, who was considered reliable.
+  
+  CHIEF COMPLAINT
+  
+  Progressive weight gain × 5 years.
+  Easy fatigability × 6 months.
+  Elevated blood pressure noted during routine medical check-up × 1 week.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient presented following a routine medical examination at his workplace where he was found to have elevated blood pressure, increased fasting blood glucose and abnormal cholesterol levels.
+  
+  He reports progressive weight gain over the past five years, mainly around the abdomen, despite no significant change in appetite.
+  
+  Over the past six months, he has experienced reduced exercise tolerance and easy fatigability. He also reports occasional mild headaches but denies dizziness, visual disturbances or loss of consciousness.
+  
+  He admits to a sedentary lifestyle, spending long hours at a desk with minimal physical activity.
+  
+  His diet is rich in refined carbohydrates, fried foods, processed snacks and sugar-sweetened beverages, with frequent late-night meals.
+  
+  He denies chest pain, palpitations, orthopnoea or paroxysmal nocturnal dyspnoea.
+  
+  There is no history of polyuria, polydipsia or unexplained weight loss.
+  
+  There is no history of stroke or transient ischaemic attacks.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Progressive weight gain.
+  Easy fatigability.
+  No fever.
+  
+  Cardiovascular:
+  Occasional mild headache.
+  No chest pain.
+  No palpitations.
+  
+  Endocrine:
+  Central obesity.
+  No heat or cold intolerance.
+  No polyuria.
+  No polydipsia.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No change in bowel habit.
+  
+  Neurological:
+  No focal weakness.
+  No dizziness.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous diagnosis of diabetes mellitus.
+  No previous cardiovascular disease.
+  No chronic kidney disease.
+  No thyroid disease.
+  
+  DRUG HISTORY
+  
+  No regular medications.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  Father had type 2 diabetes mellitus and hypertension.
+  
+  Mother has hypertension.
+  
+  Older brother had myocardial infarction at 58 years of age.
+  
+  SOCIAL HISTORY
+  
+  Married with three children.
+  Works long hours in an office.
+  Consumes fast food several times weekly.
+  Minimal exercise.
+  Occasional alcohol consumption.
+  Non-smoker.
+  
+  GENERAL EXAMINATION
+  
+  Middle-aged man, conscious, alert and comfortable at rest.
+  
+  He was centrally obese.
+  
+  He was not pale, not jaundiced, not cyanosed and had no pedal oedema.
+  
+  Acanthosis nigricans was present over the posterior neck and axillae.
+  
+  ANTHROPOMETRIC MEASUREMENTS
+  
+  Weight: 98 kg
+  Height: 1.72 m
+  BMI: 33.1 kg/m² (Obesity Class I)
+  Waist circumference: 110 cm
+  
+  VITAL SIGNS
+  
+  BP: 148/94 mmHg
+  PR: 84 bpm, regular
+  RR: 18 cpm
+  Temperature: 36.7°C
+  SpO₂: 99% on room air
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Heart sounds I and II were normal.
+  No murmurs.
+  Peripheral pulses were palpable.
+  No clinical signs of heart failure.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest was clear.
+  Normal vesicular breath sounds.
+  
+  ABDOMINAL EXAMINATION
+  
+  Central obesity.
+  Abdomen was soft and non-tender.
+  No hepatosplenomegaly.
+  No ascites.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Patient was conscious and oriented.
+  No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Metabolic syndrome characterized by:
+  
+  1. Central obesity with waist circumference of 110 cm.
+  2. Elevated blood pressure of 148/94 mmHg.
+  3. Impaired fasting glucose / probable prediabetes.
+  4. Dyslipidaemia, suspected to include elevated triglycerides and low HDL cholesterol.
+  
+  The overall clinical picture is likely related to insulin resistance and a sedentary lifestyle.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Type 2 diabetes mellitus.
+  2. Hypothyroidism.
+  3. Cushing syndrome.
+  4. Non-alcoholic fatty liver disease (NAFLD).
+  5. Obesity without metabolic syndrome.
+  
+  INVESTIGATIONS
+  
+  Laboratory:
+  
+  Fasting Blood Glucose.
+  HbA1c.
+  Oral Glucose Tolerance Test if the diagnosis remains uncertain.
+  Fasting Lipid Profile.
+  Serum Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  Serum Uric Acid.
+  Urine Albumin-Creatinine Ratio.
+  Full Blood Count.
+  Thyroid Function Tests if clinically indicated.
+  
+  Cardiovascular Assessment:
+  
+  12-lead ECG.
+  Echocardiography if clinically indicated.
+  Calculate 10-year cardiovascular risk using an appropriate validated risk calculator.
+  
+  Imaging:
+  
+  Abdominal ultrasound to assess for fatty liver disease and other hepatic abnormalities if clinically indicated.
+  
+  MANAGEMENT
+  
+  LIFESTYLE MODIFICATION
+  
+  Lifestyle modification is the cornerstone of management.
+  
+  Weight Reduction:
+  
+  Target gradual weight loss of approximately 5–10% of baseline body weight over 6–12 months through dietary modification, increased physical activity and behavioural changes.
+  
+  Dietary Advice:
+  
+  Recommend a calorie-restricted, balanced diet emphasizing:
+  
+  Vegetables and fruits.
+  Whole grains.
+  Beans and legumes.
+  Fish and skinless poultry.
+  Low-fat dairy products.
+  Unsalted nuts in moderation.
+  
+  Reduce intake of:
+  
+  Sugar-sweetened beverages.
+  White bread and refined carbohydrates.
+  Fried foods.
+  Processed meats.
+  Excess salt.
+  Saturated fats.
+  Trans fats.
+  
+  Advise limiting sodium intake to <2 g/day, approximately 5 g of salt/day.
+  
+  Physical Activity:
+  
+  Aim for 150–300 minutes per week of moderate-intensity aerobic exercise, such as brisk walking, cycling or swimming.
+  
+  Add resistance training 2–3 times per week as tolerated.
+  
+  Reduce prolonged sitting by standing, stretching or walking briefly every 30–60 minutes during working hours.
+  
+  PHARMACOLOGICAL MANAGEMENT
+  
+  Hypertension:
+  
+  If lifestyle modification alone is insufficient or antihypertensive treatment is indicated:
+  
+  Amlodipine 5 mg orally once daily.
+  
+  Review after 2–4 weeks and increase to 10 mg once daily if required and tolerated.
+  
+  OR
+  
+  Losartan 50 mg orally once daily, increasing to 100 mg once daily if blood pressure remains uncontrolled and renal function and serum potassium permit.
+  
+  Target BP: <130/80 mmHg if tolerated and appropriate based on overall cardiovascular risk.
+  
+  Prediabetes / Insulin Resistance:
+  
+  If HbA1c is 5.7–6.4% and the patient has high-risk features such as BMI >30 kg/m², consider intensive lifestyle modification and, where appropriate, metformin therapy following assessment of renal function.
+  
+  Metformin 500 mg orally once daily with the evening meal for one week, then increase to:
+  
+  500 mg orally twice daily.
+  
+  Increase gradually every 1–2 weeks as tolerated, up to:
+  
+  1000 mg orally twice daily.
+  
+  Avoid or adjust according to renal function, particularly if eGFR is <30 mL/min/1.73 m².
+  
+  Dyslipidaemia:
+  
+  If LDL cholesterol remains elevated or cardiovascular risk is moderate to high:
+  
+  Atorvastatin 20 mg orally at night.
+  
+  Increase to 40–80 mg nightly depending on cardiovascular risk, baseline LDL cholesterol and treatment targets.
+  
+  Hypertriglyceridaemia:
+  
+  If triglycerides are persistently >500 mg/dL (5.6 mmol/L) after addressing secondary causes and lifestyle factors:
+  
+  Consider Fenofibrate 145 mg orally once daily, taking renal function and potential drug interactions into account.
+  
+  MANAGEMENT OF ASSOCIATED CONDITIONS
+  
+  Screen for and manage:
+  
+  Obstructive sleep apnoea.
+  Non-alcoholic fatty liver disease.
+  Chronic kidney disease.
+  Cardiovascular disease.
+  
+  NURSING INSTRUCTIONS
+  
+  Record blood pressure at each visit.
+  Measure weight, BMI and waist circumference regularly.
+  Provide dietary counselling.
+  Encourage adherence to prescribed physical activity.
+  Monitor medication adherence and tolerance.
+  Reinforce lifestyle modification at each visit.
+  
+  HEALTH EDUCATION
+  
+  Explain that metabolic syndrome is a combination of several metabolic risk factors, including central obesity, elevated blood pressure, abnormal blood glucose and dyslipidaemia, which commonly occur together and are often associated with insulin resistance.
+  
+  Explain that although individual components may initially cause few symptoms, their combination significantly increases the risk of developing type 2 diabetes mellitus, cardiovascular disease, myocardial infarction, stroke, chronic kidney disease and fatty liver disease.
+  
+  Emphasize that lifestyle modification is a key component of treatment.
+  
+  Encourage gradual and sustainable weight loss through a balanced diet, regular physical activity and avoidance of sugary drinks, highly processed foods and excessive salt.
+  
+  Advise aiming for at least 150 minutes of moderate-intensity exercise each week, such as brisk walking, while gradually increasing activity according to tolerance.
+  
+  Discuss the importance of adhering to prescribed medications, monitoring blood pressure and blood glucose as advised, and attending scheduled follow-up visits.
+  
+  Encourage routine screening for cardiovascular risk factors, kidney disease and diabetes-related complications as indicated.
+  
+  Advise immediate medical attention if he develops chest pain, sudden weakness of a limb, slurred speech, severe shortness of breath or symptoms suggestive of severe hyperglycaemia.
+  
+  FOLLOW-UP
+  
+  Review in the Medical Outpatient Clinic in 4 weeks to assess blood pressure, weight, medication tolerance and adherence to lifestyle modifications.
+  
+  Repeat fasting blood glucose, HbA1c and fasting lipid profile after approximately 3 months, depending on initial results and treatment plan.
+  
+  Monitor renal and liver function periodically, particularly if receiving metformin or statin therapy.
+  
+  Reassess weight, BMI and waist circumference at each visit.
+  
+  Refer to a dietitian for individualized meal planning.
+  
+  Consider referral to a physiotherapist or exercise specialist if required.
+  
+  PROGNOSIS
+  
+  Prognosis is good with early intervention and sustained lifestyle modification.
+  
+  Achieving a 5–10% reduction in body weight, maintaining regular physical activity and adequately controlling blood pressure, blood glucose and lipid levels can substantially reduce the risk of progression to type 2 diabetes mellitus, cardiovascular disease, stroke and chronic kidney disease.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-38',
+    title: 'Chronic Kidney Disease Stage 4',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Nephrology',
+    condition: 'Chronic Kidney Disease',
+    symptoms: ['Bilateral leg swelling', 'Easy fatigability', 'Reduced urine output', 'Poor appetite', 'Exertional dyspnoea', 'Generalized pruritus'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '59-year-old man with long-standing hypertension and type 2 diabetes mellitus presenting with bilateral leg oedema, reduced urine output, fatigue, pruritus and uraemic symptoms, consistent with Stage 4 chronic kidney disease likely secondary to hypertensive nephrosclerosis and diabetic kidney disease.',
+    content: `INTERNAL MEDICINE / NEPHROLOGY
+  
+  Patient Seen
+  
+  A 59-year-old married male retired teacher from Abeokuta, Ogun State, who presented with progressive bilateral leg swelling, easy fatigability, reduced urine output and loss of appetite. Informants were the patient and his wife, both considered reliable.
+  
+  CHIEF COMPLAINT
+  
+  Progressive bilateral leg swelling × 3 months.
+  Easy fatigability × 4 months.
+  Reduced urine output × 2 weeks.
+  Loss of appetite × 1 month.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a known hypertensive diagnosed 15 years ago and has had type 2 diabetes mellitus for 10 years. He has been on irregular treatment and admits poor adherence to medications and clinic appointments.
+  
+  He was apparently well until about four months prior to presentation when he developed progressive easy fatigability and generalized weakness.
+  
+  Three months prior to presentation, he noticed swelling of both feet, which gradually progressed to involve both legs. The swelling is worse in the evenings and partially improves overnight.
+  
+  Over the past month, he has experienced poor appetite, occasional nausea and generalized itching.
+  
+  Two weeks prior to presentation, he noticed a reduction in urine output without dysuria or haematuria.
+  
+  He reports nocturia, passing urine approximately 3–4 times nightly, but denies flank pain or passage of urinary stones.
+  
+  He also complains of exertional shortness of breath but denies orthopnoea or paroxysmal nocturnal dyspnoea.
+  
+  There is no history of fever, cough or chest pain.
+  
+  There is no history of NSAID abuse, recurrent urinary tract infections or known polycystic kidney disease.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Easy fatigability.
+  Poor appetite.
+  Generalized weakness.
+  Generalized pruritus.
+  No fever.
+  
+  Cardiovascular:
+  Bilateral leg swelling.
+  Exertional dyspnoea.
+  No chest pain.
+  No palpitations.
+  
+  Renal:
+  Reduced urine output.
+  Nocturia.
+  No dysuria.
+  No haematuria.
+  
+  Gastrointestinal:
+  Poor appetite.
+  Occasional nausea.
+  No vomiting.
+  
+  Neurological:
+  Poor concentration.
+  No seizures.
+  No altered consciousness.
+  
+  PAST MEDICAL HISTORY
+  
+  Hypertension × 15 years.
+  Type 2 diabetes mellitus × 10 years.
+  No previous dialysis.
+  No previous renal transplant.
+  
+  DRUG HISTORY
+  
+  Previously prescribed:
+  
+  Amlodipine 10 mg orally once daily.
+  Losartan 50 mg orally once daily.
+  Metformin 1 g orally twice daily.
+  Glibenclamide 5 mg orally once daily.
+  
+  Poor medication adherence.
+  
+  Occasional NSAID use for joint pain.
+  
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  Father died from complications of hypertension.
+  
+  No known hereditary kidney disease.
+  
+  SOCIAL HISTORY
+  
+  Retired teacher.
+  Lives with his wife.
+  Does not smoke.
+  Occasional alcohol intake.
+  No current herbal medication use.
+  
+  GENERAL EXAMINATION
+  
+  Chronically ill-looking elderly man, conscious and oriented.
+  
+  He had mild respiratory distress on exertion and moderate pallor.
+  
+  He was not jaundiced and not cyanosed.
+  
+  Bilateral pitting pedal oedema extending to the knees was present.
+  
+  Excoriation marks were noted over the limbs, consistent with pruritus.
+  
+  VITAL SIGNS
+  
+  BP: 168/96 mmHg
+  PR: 88 bpm, regular
+  RR: 22 cpm
+  Temperature: 36.8°C
+  SpO₂: 97% on room air
+  Weight: 82 kg
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Heart sounds I and II were audible.
+  No murmurs.
+  No pericardial rub.
+  Mildly elevated jugular venous pressure.
+  
+  RESPIRATORY EXAMINATION
+  
+  Bibasal fine crepitations.
+  No wheeze.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen was soft and non-tender.
+  No palpable kidneys.
+  No ascites.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Patient was conscious and alert.
+  Power was 5/5 in all limbs.
+  No focal neurological deficits.
+  No asterixis.
+  
+  ASSESSMENT
+  
+  Chronic Kidney Disease Stage 4 (eGFR approximately 22 mL/min/1.73 m²), likely secondary to long-standing hypertensive nephrosclerosis and diabetic kidney disease, with complications including fluid overload, renal anaemia and uraemic symptoms.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Chronic kidney disease secondary to diabetic kidney disease.
+  2. Hypertensive nephrosclerosis.
+  3. Chronic glomerulonephritis.
+  4. Obstructive uropathy.
+  5. Polycystic kidney disease.
+  
+  INVESTIGATIONS
+  
+  Bedside:
+  
+  Urinalysis for protein, blood and glucose.
+  Blood glucose monitoring.
+  Strict fluid input/output chart.
+  
+  Laboratory:
+  
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  Estimated GFR.
+  Serum calcium, phosphate and magnesium.
+  Serum bicarbonate.
+  Serum albumin.
+  Liver Function Tests.
+  HbA1c.
+  Lipid profile.
+  Iron studies, including ferritin and transferrin saturation.
+  Urine Albumin-Creatinine Ratio (ACR) or Protein-Creatinine Ratio (PCR).
+  Viral screening for HBV, HCV and HIV if dialysis preparation is anticipated.
+  
+  Imaging:
+  
+  Renal ultrasound to assess kidney size, cortical thickness, echogenicity and presence of hydronephrosis.
+  
+  Chest X-ray if pulmonary oedema is suspected.
+  
+  ECG to assess for left ventricular hypertrophy and hyperkalaemia-related changes.
+  
+  Echocardiography if heart failure is suspected.
+  
+  MANAGEMENT
+  
+  Admission:
+  
+  Admit if there is worsening uraemia, pulmonary oedema, refractory hyperkalaemia, severe metabolic acidosis or uncontrolled hypertension.
+  
+  Otherwise, manage through the Nephrology Clinic with close follow-up.
+  
+  Blood Pressure Control:
+  
+  Target blood pressure: <130/80 mmHg, particularly if significant albuminuria is present.
+  
+  Losartan 50 mg orally once daily, increasing to 100 mg once daily if tolerated and if serum potassium and renal function permit.
+  
+  Amlodipine 10 mg orally once daily.
+  
+  If blood pressure and fluid status remain uncontrolled:
+  
+  Furosemide 40–80 mg orally once daily, titrated according to fluid status and response.
+  
+  Glycaemic Control:
+  
+  Discontinue Metformin if eGFR is <30 mL/min/1.73 m².
+  
+  Consider transition to insulin therapy, for example:
+  
+  Insulin Glargine 10 units subcutaneously at night, titrating according to fasting blood glucose and overall glycaemic control.
+  
+  Avoid Glibenclamide because of the increased risk of prolonged hypoglycaemia in advanced CKD.
+  
+  Fluid Overload:
+  
+  Furosemide 80 mg orally once daily, increasing to 80 mg twice daily if clinically indicated and tolerated.
+  
+  Restrict sodium intake to <2 g/day, approximately 5 g salt/day.
+  
+  Consider fluid restriction of 1.5–2 litres/day, individualized according to urine output and overall fluid status.
+  
+  ANAEMIA OF CKD
+  
+  Assess and correct iron deficiency before considering erythropoiesis-stimulating therapy.
+  
+  If Hb remains <10 g/dL after correction of iron deficiency, consider erythropoiesis-stimulating agent therapy following nephrology review.
+  
+  Epoetin alfa 4,000 IU subcutaneously once weekly, titrated according to haemoglobin response and clinical indication.
+  
+  If iron deficient:
+  
+  Ferrous sulphate 200 mg orally three times daily.
+  
+  OR
+  
+  Iron sucrose 200 mg IV weekly for 5 doses if oral iron is ineffective or not tolerated.
+  
+  CKD-MINERAL AND BONE DISORDER
+  
+  If hyperphosphataemia is present:
+  
+  Calcium carbonate 500–1,000 mg orally three times daily with meals as a phosphate binder, if appropriate.
+  
+  If vitamin D deficiency or clinically significant secondary hyperparathyroidism is present:
+  
+  Consider vitamin D supplementation or active vitamin D therapy based on calcium, phosphate and PTH levels.
+  
+  Calcitriol 0.25 micrograms orally once daily may be considered where indicated, with dose adjustment according to calcium, phosphate and PTH levels.
+  
+  METABOLIC ACIDOSIS
+  
+  If serum bicarbonate is persistently <22 mmol/L:
+  
+  Sodium bicarbonate 650 mg orally three times daily, adjusting treatment to maintain an appropriate serum bicarbonate level while monitoring volume status and blood pressure.
+  
+  HYPERKALAEMIA
+  
+  If hyperkalaemia is present:
+  
+  Institute a low-potassium diet.
+  Review and discontinue potassium-raising medications where clinically appropriate.
+  Treat urgently if potassium is ≥6.5 mmol/L or if significant ECG changes develop.
+  
+  DYSLIPIDAEMIA
+  
+  Atorvastatin 20 mg orally at night, increasing to 40 mg if clinically indicated and tolerated.
+  
+  RENAL REPLACEMENT THERAPY PREPARATION
+  
+  Discuss the progressive nature of CKD and available renal replacement therapy options with the patient and family.
+  
+  Refer early for:
+  
+  Arteriovenous fistula creation if haemodialysis is anticipated.
+  Assessment for kidney transplantation where feasible and appropriate.
+  
+  Initiate dialysis when clinically indicated, including refractory fluid overload, persistent severe hyperkalaemia, severe metabolic acidosis, uraemic encephalopathy, uraemic pericarditis or intractable uraemic symptoms.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor blood pressure daily.
+  Maintain strict fluid balance chart.
+  Monitor daily weight.
+  Monitor urine output.
+  Observe for worsening oedema.
+  Observe for increasing dyspnoea or features of pulmonary oedema.
+  Monitor for neurological changes or worsening uraemic symptoms.
+  
+  HEALTH EDUCATION
+  
+  Explain that chronic kidney disease is a gradual and often irreversible loss of kidney function. In this patient, the likely contributing factors are long-standing hypertension and diabetes mellitus.
+  
+  Explain that the kidneys are no longer able to effectively remove waste products, regulate body fluids or maintain normal electrolyte and acid-base balance.
+  
+  Emphasize the importance of strict blood pressure and blood glucose control to slow further progression of kidney disease.
+  
+  Advise avoidance of nephrotoxic medications, particularly NSAIDs, unregulated herbal remedies and unnecessary exposure to contrast agents.
+  
+  Discuss dietary measures, including restriction of sodium, moderation of protein intake, approximately 0.8 g/kg/day in non-dialysis CKD unless malnourished, and limitation of foods high in potassium and phosphate where indicated.
+  
+  Advise adherence to prescribed fluid restrictions.
+  
+  Counsel the patient on symptoms requiring urgent medical review, including severe breathlessness, markedly reduced urine output, chest pain, confusion, persistent vomiting or significant muscle weakness.
+  
+  Explain that progression to end-stage kidney disease may eventually require dialysis or kidney transplantation and that early preparation for renal replacement therapy improves outcomes.
+  
+  FOLLOW-UP
+  
+  Review in the Nephrology Clinic in 2 weeks, then every 1–3 months depending on disease progression and clinical stability.
+  
+  Repeat:
+  
+  Serum electrolytes, urea and creatinine.
+  Estimated GFR.
+  Full Blood Count.
+  Serum calcium, phosphate and bicarbonate.
+  
+  Monitor blood pressure, weight, urine protein and glycaemic control at each visit.
+  
+  Perform regular cardiovascular risk assessment.
+  
+  Arrange regular retinal examination as part of diabetic care.
+  
+  Review vaccination status and administer indicated vaccines, including influenza, pneumococcal and hepatitis B vaccination where appropriate, particularly if dialysis is anticipated.
+  
+  PROGNOSIS
+  
+  Prognosis is guarded.
+  
+  Chronic kidney disease is generally progressive; however, optimal blood pressure and glycaemic control, avoidance of nephrotoxins, correction of complications and regular nephrology follow-up can significantly slow disease progression and improve quality of life.
+  
+  Early preparation for renal replacement therapy is essential if renal function continues to decline.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-37',
+    title: 'Acute Kidney Injury Secondary to Hypovolaemia and Sepsis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Nephrology',
+    condition: 'Acute Kidney Injury',
+    symptoms: ['Reduced urine output', 'Generalized weakness', 'Fever', 'Vomiting', 'Dehydration'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '48-year-old man presenting with oliguria, fever, vomiting, hypotension and clinical dehydration, consistent with acute kidney injury likely secondary to hypovolaemia and sepsis, with recent NSAID use as a contributing factor.',
+    content: `INTERNAL MEDICINE / NEPHROLOGY
+  
+  Patient Seen
+  
+  A 48-year-old married male farmer from Abeokuta, Ogun State, who presented with reduced urine output, generalized weakness, fever and vomiting. Informants were the patient and his wife, both considered reliable.
+  
+  CHIEF COMPLAINT
+  
+  Reduced urine output × 2 days.
+  Generalized weakness × 3 days.
+  Fever × 4 days.
+  Vomiting × 2 days.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until four days prior to presentation when he developed high-grade intermittent fever associated with chills and rigors. This was followed by generalized body weakness and poor appetite.
+  
+  Two days later, he developed multiple episodes of vomiting, approximately 5–6 episodes per day. The vomiting was non-bloody and non-bilious and was associated with inability to tolerate oral intake.
+  
+  Over the last two days, he noticed a marked reduction in urine output, passing only small volumes of dark, concentrated urine, estimated at approximately 200 mL in the preceding 24 hours.
+  
+  He also complains of excessive thirst, dizziness on standing and progressive generalized weakness.
+  
+  He denies dysuria, urinary frequency, loin pain or haematuria.
+  
+  There is no history of passage of urinary stones.
+  
+  There is no known history of chronic kidney disease.
+  
+  He admits to taking diclofenac tablets obtained from a patent medicine vendor for fever and body pains before presentation.
+  
+  There is no history of diabetes mellitus or chronic hypertension.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Fever.
+  Generalized weakness.
+  Poor appetite.
+  Excessive thirst.
+  
+  Renal:
+  Reduced urine output.
+  Dark concentrated urine.
+  No dysuria.
+  No haematuria.
+  
+  Gastrointestinal:
+  Repeated vomiting.
+  No diarrhoea.
+  No abdominal pain.
+  
+  Cardiovascular:
+  Postural dizziness.
+  No chest pain.
+  No palpitations.
+  
+  Respiratory:
+  No cough.
+  No shortness of breath.
+  
+  Neurological:
+  Generalized weakness.
+  No seizures.
+  No altered consciousness.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic kidney disease.
+  No history of hypertension.
+  No history of diabetes mellitus.
+  No previous dialysis.
+  
+  DRUG HISTORY
+  
+  Recent use of Diclofenac 50 mg orally three times daily for 3 days.
+  Occasional use of herbal medications.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  No family history of kidney disease.
+  
+  SOCIAL HISTORY
+  
+  Farmer.
+  Lives with his wife and children.
+  Non-smoker.
+  Occasional alcohol intake.
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking middle-aged man, conscious and oriented.
+  
+  He was moderately dehydrated with dry mucous membranes, sunken eyes and reduced skin turgor.
+  
+  He was not pale, not jaundiced, not cyanosed and had no peripheral oedema.
+  
+  VITAL SIGNS
+  
+  BP: 92/58 mmHg
+  PR: 118 bpm, regular
+  RR: 24 cpm
+  Temperature: 38.8°C
+  SpO₂: 98% on room air
+  Weight: 74 kg
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Tachycardic.
+  Heart sounds I and II were normal.
+  No murmurs.
+  Peripheral pulses were weak.
+  Capillary refill time was approximately 4 seconds.
+  
+  RESPIRATORY EXAMINATION
+  
+  Chest expanded symmetrically.
+  Normal vesicular breath sounds.
+  No crepitations.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen was soft.
+  No suprapubic fullness.
+  No renal angle tenderness.
+  No palpable bladder.
+  No organomegaly.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Glasgow Coma Scale: 15/15.
+  No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Acute Kidney Injury (AKI), likely KDIGO Stage 2–3 pending serum creatinine results, probably secondary to hypovolaemia from severe dehydration and possible sepsis, with recent NSAID use contributing to renal hypoperfusion and kidney injury.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Prerenal AKI secondary to hypovolaemia.
+  2. Acute Tubular Necrosis following prolonged renal hypoperfusion.
+  3. Sepsis-associated AKI.
+  4. Drug-induced nephrotoxicity secondary to NSAID use.
+  5. Post-renal obstruction — to be excluded.
+  
+  INVESTIGATIONS
+  
+  Bedside:
+  
+  Insert Foley urethral catheter for accurate urine output monitoring if clinically indicated.
+  Strict fluid input/output chart.
+  Urinalysis for protein, blood, glucose, nitrites and leukocytes.
+  Random Blood Glucose.
+  
+  Laboratory:
+  
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  Estimated GFR, recognizing its limitations during acute kidney injury.
+  Serum bicarbonate.
+  Serum calcium and phosphate.
+  Liver Function Tests.
+  C-reactive protein.
+  Blood cultures before antibiotic administration, where feasible.
+  Urine microscopy, culture and sensitivity.
+  Malaria parasite test if clinically indicated.
+  Serum lactate if sepsis or tissue hypoperfusion is suspected.
+  
+  Imaging:
+  
+  Renal ultrasound to assess:
+  - Kidney size.
+  - Hydronephrosis.
+  - Obstructive uropathy.
+  - Cortical thickness.
+  
+  Chest X-ray if pulmonary oedema is suspected.
+  
+  ECG to assess for hyperkalaemic changes and other electrolyte-related abnormalities.
+  
+  MANAGEMENT
+  
+  Admission:
+  
+  Admit to the Medical Ward/HDU for close monitoring and management.
+  
+  Urgent nephrology consultation if there is worsening renal function, refractory electrolyte abnormalities, severe acidosis, fluid overload or likely need for renal replacement therapy.
+  
+  Immediate Resuscitation:
+  
+  Assess and secure airway if necessary.
+  Insert two large-bore IV cannulae.
+  Commence continuous monitoring of:
+  - Blood pressure.
+  - Pulse rate.
+  - Respiratory rate.
+  - Oxygen saturation.
+  - Urine output.
+  
+  Fluid Resuscitation:
+  
+  In view of clinical evidence of hypovolaemia:
+  
+  Administer 0.9% Normal Saline 1 litre IV over the first hour, with frequent reassessment of haemodynamic response.
+  
+  Reassess:
+  - Blood pressure.
+  - Heart rate.
+  - Jugular venous pressure.
+  - Lung examination.
+  - Peripheral perfusion.
+  - Urine output.
+  
+  If still clinically dehydrated and there is no evidence of fluid overload, continue 0.9% Normal Saline 500–1000 mL over the next 2–4 hours, adjusting further fluid therapy according to haemodynamic status, renal function, electrolyte results and urine output.
+  
+  Avoid fluid overload through frequent clinical reassessment.
+  
+  Stop Nephrotoxic Agents:
+  
+  Immediately discontinue NSAIDs, including diclofenac.
+  
+  Temporarily withhold ACE inhibitors/ARBs if contributing to AKI or hypotension.
+  
+  Avoid aminoglycosides where suitable alternatives are available.
+  
+  Withhold metformin in severe AKI or significant acute illness where indicated.
+  
+  Review all medications and adjust doses according to renal function.
+  
+  Empirical Antibiotic Therapy:
+  
+  If sepsis is suspected, obtain appropriate cultures where feasible before initiating antibiotics, without unnecessarily delaying treatment.
+  
+  Ceftriaxone 2 g IV once daily.
+  
+  PLUS
+  
+  Metronidazole 500 mg IV every 8 hours if an intra-abdominal or anaerobic source is suspected.
+  
+  Modify antibiotic therapy according to the identified source, culture and sensitivity results, renal function and local antimicrobial guidelines.
+  
+  Electrolyte Management:
+  
+  Hyperkalaemia:
+  
+  If K⁺ ≥6.0 mmol/L or there are significant ECG changes:
+  
+  Calcium Gluconate 10%, 10 mL IV over 5–10 minutes for cardiac membrane stabilization.
+  
+  Regular Insulin 10 units IV plus 25 g glucose, administered according to local protocol.
+  
+  Salbutamol nebulization 10–20 mg if available and appropriate.
+  
+  Consider Sodium Bicarbonate 50 mmol IV if significant metabolic acidosis is present and specialist assessment supports its use.
+  
+  Repeat serum potassium after approximately 1–2 hours and continue close ECG monitoring.
+  
+  Metabolic Acidosis:
+  
+  Treat the underlying cause.
+  Consider IV sodium bicarbonate only in severe metabolic acidosis, such as pH <7.1, and following specialist assessment.
+  
+  Nausea and Vomiting:
+  
+  Ondansetron 4 mg IV every 8 hours as needed.
+  
+  OR
+  
+  Metoclopramide 10 mg IV every 8 hours as needed, provided there is no suspected bowel obstruction or other contraindication.
+  
+  Thromboprophylaxis:
+  
+  If immobilized and there are no contraindications, consider pharmacological thromboprophylaxis.
+  
+  Enoxaparin 40 mg subcutaneously once daily, with dose adjustment or alternative prophylaxis if renal impairment is severe.
+  
+  Indications for Urgent Dialysis (AEIOU):
+  
+  Initiate urgent renal replacement therapy if any of the following develop:
+  
+  Acidosis:
+  Severe metabolic acidosis refractory to medical treatment.
+  
+  Electrolyte abnormalities:
+  Refractory or life-threatening hyperkalaemia.
+  
+  Intoxication:
+  Intoxication with a dialyzable toxin.
+  
+  Overload:
+  Severe pulmonary oedema or fluid overload unresponsive to appropriate medical therapy.
+  
+  Uraemia:
+  Uraemic encephalopathy, pericarditis, severe bleeding tendency or persistent severe uraemic symptoms.
+  
+  NURSING INSTRUCTIONS
+  
+  Monitor vital signs every 2–4 hours or more frequently if unstable.
+  Maintain strict hourly urine output chart.
+  Maintain strict fluid balance chart.
+  Monitor daily body weight.
+  Monitor for signs of fluid overload and pulmonary oedema.
+  Monitor for worsening hypotension and poor peripheral perfusion.
+  Repeat serum electrolytes, urea and creatinine every 24 hours or more frequently if clinically unstable.
+  Monitor for worsening metabolic acidosis and electrolyte abnormalities.
+  
+  HEALTH EDUCATION
+  
+  Explain that acute kidney injury is a sudden decline in kidney function, which may occur due to severe dehydration, infection, reduced blood flow to the kidneys or exposure to medications that impair kidney function.
+  
+  In this patient, dehydration from repeated vomiting, possible infection or sepsis and recent NSAID use are likely contributing factors.
+  
+  Advise the patient to maintain adequate hydration, particularly during episodes of fever, vomiting or diarrhoea, and to seek prompt medical attention if urine output decreases significantly.
+  
+  Counsel against self-medication with NSAIDs such as diclofenac or ibuprofen, particularly during episodes of dehydration or acute illness.
+  
+  Advise avoidance of unregulated herbal remedies, as some may contain nephrotoxic substances and worsen kidney injury.
+  
+  Explain that kidney function often improves when the underlying cause is identified and treated early. However, some patients may require temporary dialysis if severe complications develop.
+  
+  FOLLOW-UP
+  
+  Daily clinical review while admitted with close monitoring of urine output, serum creatinine, electrolytes and acid-base status.
+  
+  Repeat renal function tests every 24–48 hours, or more frequently depending on clinical stability.
+  
+  Arrange nephrology follow-up after discharge to confirm recovery of renal function and assess for progression to chronic kidney disease.
+  
+  Repeat renal function testing approximately 2–4 weeks after discharge to ensure adequate recovery and resolution of AKI.
+  
+  PROGNOSIS
+  
+  Prognosis is generally good if the condition is recognized and treated early, with prompt correction of hypovolaemia, appropriate treatment of sepsis and withdrawal of nephrotoxic medications.
+  
+  Delayed presentation, persistent renal hypoperfusion or severe intrinsic renal injury may result in prolonged renal dysfunction, progression to chronic kidney disease or the need for temporary renal replacement therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-36',
+    title: 'Nephrotic Syndrome',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Nephrology',
+    condition: 'Nephrotic Syndrome',
+    symptoms: ['Facial swelling', 'Bilateral leg swelling', 'Frothy urine', 'Abdominal swelling', 'Weight gain'],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '28-year-old man presenting with progressive periorbital and bilateral lower limb oedema, frothy urine, weight gain and ascites, consistent with nephrotic syndrome likely due to an underlying primary glomerular disease.',
+    content: `INTERNAL MEDICINE / NEPHROLOGY CLINIC
+    
+    Patient Seen
+    
+    A 28-year-old single male accountant from Abeokuta, Ogun State, who presented with progressive facial and bilateral lower limb swelling, frothy urine and abdominal swelling. Informant was the patient, who was considered reliable.
+    
+    CHIEF COMPLAINT
+    
+    Progressive swelling of the face and both legs × 4 weeks.
+    Passing frothy urine × 3 weeks.
+    Progressive abdominal swelling × 1 week.
+    
+    HISTORY OF PRESENTING COMPLAINT
+    
+    The patient was apparently well until about four weeks prior to presentation when he noticed swelling around both eyes on waking, which initially subsided during the day. Over the following weeks, the swelling became persistent and progressively involved both lower limbs up to the thighs.
+    
+    One week prior to presentation, he developed progressive abdominal distension associated with a feeling of abdominal fullness.
+    
+    He also reports passing persistently frothy urine over the past three weeks. There is no history of reduced urine output, dysuria, haematuria or loin pain.
+    
+    He complains of gradual weight gain despite no increase in appetite. His current weight is 86 kg compared with his usual weight of 78 kg.
+    
+    There is no history of fever, sore throat, skin infection or recent upper respiratory tract infection.
+    
+    There is no history of diabetes mellitus or long-standing hypertension.
+    
+    There is no history of prolonged NSAID use or use of nephrotoxic herbal medications.
+    
+    He denies joint pains, oral ulcers, photosensitive skin rash or hair loss suggestive of systemic lupus erythematosus.
+    
+    There is no history of hepatitis, HIV infection or tuberculosis.
+    
+    REVIEW OF SYSTEMS
+    
+    General:
+    Facial swelling.
+    Progressive leg swelling.
+    Weight gain.
+    Easy fatigability.
+    
+    Renal:
+    Frothy urine.
+    No haematuria.
+    No dysuria.
+    Normal urine output.
+    
+    Cardiovascular:
+    Bilateral leg swelling.
+    No chest pain.
+    No orthopnoea.
+    No palpitations.
+    
+    Respiratory:
+    No cough.
+    No dyspnoea.
+    
+    Gastrointestinal:
+    Abdominal swelling.
+    No vomiting.
+    No diarrhoea.
+    
+    Musculoskeletal:
+    No joint pains.
+    No muscle weakness.
+    
+    PAST MEDICAL HISTORY
+    
+    No history of hypertension.
+    No history of diabetes mellitus.
+    No previous kidney disease.
+    No previous hospital admission.
+    
+    DRUG HISTORY
+    
+    Not on any regular medications.
+    No recent NSAID use.
+    No herbal medication use.
+    No known drug allergies.
+    
+    FAMILY HISTORY
+    
+    No family history of kidney disease.
+    No family history of autoimmune disorders.
+    
+    SOCIAL HISTORY
+    
+    Lives alone.
+    Non-smoker.
+    Does not consume alcohol.
+    No recreational drug use.
+    
+    GENERAL EXAMINATION
+    
+    Young man, conscious, alert and comfortable at rest.
+    
+    He had periorbital oedema and bilateral pitting pedal oedema extending to the thighs. Moderate ascites was present.
+    
+    He was not pale, not jaundiced, not cyanosed and had no finger clubbing.
+    
+    VITAL SIGNS
+    
+    BP: 136/84 mmHg
+    PR: 82 bpm, regular
+    RR: 18 cpm
+    Temperature: 36.8°C
+    SpO₂: 99% on room air
+    Weight: 86 kg (usual weight: 78 kg)
+    
+    CARDIOVASCULAR EXAMINATION
+    
+    Heart sounds I and II were normal.
+    No murmurs.
+    No elevated jugular venous pressure.
+    
+    RESPIRATORY EXAMINATION
+    
+    Good air entry bilaterally.
+    No crepitations.
+    No pleural rub.
+    
+    ABDOMINAL EXAMINATION
+    
+    Abdomen was moderately distended.
+    Shifting dullness was present, consistent with ascites.
+    Abdomen was soft and non-tender.
+    No hepatosplenomegaly.
+    
+    NEUROLOGICAL EXAMINATION
+    
+    Patient was conscious and oriented.
+    No focal neurological deficits.
+    
+    ASSESSMENT
+    
+    Nephrotic syndrome, likely secondary to primary glomerular disease, with generalized oedema and ascites.
+    
+    DIFFERENTIAL DIAGNOSES
+    
+    1. Minimal Change Disease.
+    2. Focal Segmental Glomerulosclerosis (FSGS).
+    3. Membranous nephropathy.
+    4. Lupus nephritis.
+    5. Diabetic nephropathy — less likely.
+    
+    INVESTIGATIONS
+    
+    Bedside:
+    
+    Urinalysis — expected to show 3+ or 4+ proteinuria, with no significant haematuria.
+    Strict fluid input/output chart.
+    Daily body weight.
+    
+    Laboratory:
+    
+    Full Blood Count.
+    Serum Electrolytes, Urea and Creatinine.
+    Estimated GFR.
+    Serum albumin.
+    Total protein.
+    Fasting lipid profile.
+    Liver Function Tests.
+    Urine Protein-Creatinine Ratio (UPCR) or 24-hour urinary protein quantification.
+    Urine microscopy, culture and sensitivity.
+    Fasting blood glucose.
+    HbA1c.
+    ANA and anti-dsDNA if autoimmune disease is suspected.
+    Complement levels — C3 and C4.
+    Hepatitis B surface antigen.
+    Hepatitis C antibody.
+    HIV screening.
+    
+    Imaging:
+    
+    Renal ultrasound to assess kidney size and echogenicity.
+    Chest X-ray if pleural effusion is suspected.
+    Doppler ultrasound of the lower limbs if deep vein thrombosis is suspected.
+    
+    Special Investigation:
+    
+    Renal biopsy after excluding contraindications, if indicated, to establish the histological diagnosis and guide therapy, particularly in adults.
+    
+    MANAGEMENT
+    
+    Admission:
+    
+    Admit if there is severe oedema, acute kidney injury, thromboembolism, severe infection or significant respiratory compromise due to fluid overload.
+    
+    Otherwise, manage through the Nephrology Clinic with close follow-up.
+    
+    Dietary Management:
+    
+    Restrict sodium intake to <2 g/day, approximately 5 g of salt/day.
+    Consider moderate fluid restriction of 1.5–2 litres/day if significant oedema or hyponatraemia is present.
+    Maintain adequate protein intake of approximately 0.8–1.0 g/kg/day.
+    Avoid excessive protein consumption.
+    
+    Diuretic Therapy:
+    
+    Furosemide 40 mg orally twice daily, increasing gradually according to the degree of oedema and renal function.
+    
+    If oedema remains resistant:
+    Spironolactone 25–50 mg orally once daily, titrating as clinically indicated while monitoring serum potassium and renal function.
+    
+    Renin–Angiotensin System Blockade:
+    
+    To reduce proteinuria, if renal function and serum potassium permit:
+    
+    Losartan 50 mg orally once daily, increasing to 100 mg once daily as tolerated.
+    
+    OR
+    
+    Lisinopril 10 mg orally once daily, titrating to 20–40 mg daily.
+    
+    Monitor serum creatinine and potassium within 1–2 weeks of initiation or dose adjustment.
+    
+    Corticosteroid Therapy:
+    
+    If Minimal Change Disease is suspected, corticosteroid therapy should be initiated following nephrology review and appropriate assessment.
+    
+    Prednisolone 1 mg/kg/day orally, maximum 80 mg/day, for 4–8 weeks, followed by gradual tapering depending on clinical response and biopsy findings.
+    
+    Lipid Management:
+    
+    Because nephrotic syndrome commonly causes hyperlipidaemia:
+    
+    Atorvastatin 20 mg orally at night, increasing to 40 mg if lipid targets are not achieved, as clinically indicated.
+    
+    Thrombosis Prevention:
+    
+    Patients with severe hypoalbuminaemia, particularly serum albumin <20–25 g/L, have an increased risk of venous thromboembolism.
+    
+    Encourage regular ambulation.
+    Maintain adequate hydration while avoiding fluid overload.
+    
+    If there is very high thrombotic risk or previous thromboembolism, consider prophylactic anticoagulation after specialist assessment.
+    
+    Infection Prevention:
+    
+    Review immunization status.
+    Treat identified infections promptly.
+    Avoid live vaccines while receiving high-dose corticosteroids or other immunosuppressive therapy.
+    
+    NURSING INSTRUCTIONS
+    
+    Monitor daily weight.
+    Maintain strict fluid balance chart.
+    Monitor blood pressure.
+    Measure abdominal girth if ascites is significant.
+    Observe for worsening oedema.
+    Monitor for dyspnoea and other features of fluid overload.
+    Monitor for fever or other signs of infection.
+    Observe for clinical features suggestive of deep vein thrombosis or thromboembolism.
+    
+    HEALTH EDUCATION
+    
+    Explain that nephrotic syndrome is a kidney disorder in which damage to the glomeruli causes excessive amounts of protein to leak into the urine. This may result in low blood protein levels, generalized swelling, elevated blood cholesterol and an increased risk of blood clots and infections.
+    
+    Advise adherence to a low-salt diet and prescribed medications.
+    
+    Explain that treatment aims to reduce protein loss in the urine, control oedema, treat the underlying kidney disease and prevent complications.
+    
+    Counsel the patient regarding corticosteroid therapy if prescribed, including possible adverse effects such as increased appetite, weight gain, elevated blood sugar, mood changes, gastric irritation, increased susceptibility to infections and osteoporosis.
+    
+    Advise the patient to report fever, severe abdominal pain, calf pain, chest pain or sudden shortness of breath immediately.
+    
+    Avoid NSAIDs, nephrotoxic herbal remedies and unnecessary over-the-counter medications.
+    
+    FOLLOW-UP
+    
+    Review in the Nephrology Clinic in 2 weeks, then every 4–6 weeks depending on disease activity and clinical response.
+    
+    Repeat:
+    
+    Urinalysis and urine protein quantification.
+    Serum albumin.
+    Serum creatinine and electrolytes.
+    Lipid profile every 3–6 months.
+    Weight and blood pressure at each visit.
+    
+    Review renal biopsy results when available to guide definitive treatment.
+    
+    Consider immunosuppressive agents such as tacrolimus, cyclosporine, cyclophosphamide or mycophenolate mofetil if indicated based on the underlying histological diagnosis and specialist assessment.
+    
+    PROGNOSIS
+    
+    Prognosis is variable and depends on the underlying cause.
+    
+    Minimal Change Disease generally responds well to corticosteroids and has an excellent prognosis, while FSGS and membranous nephropathy may have a more prolonged course and can progress to chronic kidney disease if inadequately treated.
+    
+    Early diagnosis, appropriate treatment, adherence to therapy and regular nephrology follow-up significantly improve outcomes.
+    `,
+      documentation: `
+    
+    <div class="space-y-6">
+    Not yet available
+    </div>
+    `,
+      bookmarkCount: 0
+    },
+    
+  {
+    id: 'im-35',
+    title: 'Acute Hypertensive Intracerebral Haemorrhage',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Haemorrhagic Stroke',
+    symptoms: [
+      'Sudden left-sided weakness',
+      'Difficulty speaking',
+      'Severe headache',
+      'Loss of consciousness',
+      'Vomiting',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-26',
+    summary: '64-year-old hypertensive man presenting with sudden-onset severe headache, vomiting, left hemiplegia, expressive dysphasia and reduced consciousness, consistent with an acute right intracerebral haemorrhage secondary to poorly controlled hypertension.',
+    content: `INTERNAL MEDICINE / NEUROLOGY
+  
+  Patient Seen
+  
+  A 64-year-old retired civil servant, married, Christian, with a history of long-standing poorly controlled hypertension, brought in by his wife who is a reliable informant.
+  
+  PRESENTING COMPLAINT
+  
+  Sudden weakness of the left side of the body × 3 hours.
+  Difficulty speaking × 3 hours.
+  Loss of consciousness × 30 minutes.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a known hypertensive on irregular treatment. He was apparently well until about three hours prior to presentation when he suddenly developed a severe occipital headache described as the "worst headache of his life," followed by repeated vomiting.
+  
+  Shortly afterwards, he became unable to move the left side of his body and developed slurred speech.
+  
+  Approximately 30 minutes before arrival, he became progressively drowsy with reduced responsiveness, prompting emergency presentation.
+  
+  There was no preceding trauma.
+  There is no history of fever or seizures prior to presentation.
+  There is no history of chest pain or hypoglycaemic symptoms.
+  No previous history of stroke.
+  No history of anticoagulant use.
+  
+  REVIEW OF SYSTEMS
+  
+  General:
+  Sudden collapse.
+  Reduced level of consciousness.
+  Vomiting.
+  
+  Neurological:
+  Left-sided weakness.
+  Slurred speech.
+  Severe headache.
+  Reduced consciousness.
+  
+  Cardiovascular:
+  Known hypertension.
+  No chest pain.
+  
+  Respiratory:
+  No cough.
+  No breathlessness before onset.
+  
+  PAST MEDICAL HISTORY
+  
+  Hypertension × 15 years.
+  Poor medication compliance.
+  No diabetes mellitus.
+  No previous stroke.
+  
+  DRUG HISTORY
+  
+  Previously prescribed:
+  Tab Amlodipine 10 mg orally once daily, with poor adherence.
+  
+  No anticoagulants.
+  No antiplatelet agents.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  Father had hypertension.
+  No family history of stroke.
+  
+  SOCIAL HISTORY
+  
+  Retired civil servant.
+  Occasional alcohol use.
+  Non-smoker.
+  
+  GENERAL EXAMINATION
+  
+  Elderly man, acutely ill-looking and drowsy.
+  Responds to painful stimuli.
+  Airway patent.
+  No cyanosis.
+  No pallor.
+  No pedal oedema.
+  
+  VITAL SIGNS
+  
+  BP: 224/126 mmHg
+  PR: 62 beats/minute, regular
+  RR: 20 cycles/minute
+  Temperature: 36.9°C
+  SpO₂: 96% on room air
+  RBG: 7.1 mmol/L
+  
+  GLASGOW COMA SCALE
+  
+  Eye Opening: 2
+  Verbal Response: 3
+  Motor Response: 5
+  
+  Total GCS: 10/15
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Higher Mental Function:
+  Drowsy.
+  Expressive dysphasia.
+  
+  Cranial Nerves:
+  Right gaze preference.
+  Left upper motor neuron facial weakness.
+  Pupils 3 mm bilaterally and reactive.
+  No papilloedema on bedside examination.
+  
+  Motor Examination:
+  Right Upper Limb: 5/5
+  Right Lower Limb: 5/5
+  Left Upper Limb: 1/5
+  Left Lower Limb: 2/5
+  
+  Marked spasticity developing on the left.
+  
+  Reflexes:
+  Hyperreflexia on the left.
+  Left extensor plantar response.
+  
+  Sensory Examination:
+  Reduced sensation over the left upper and lower limbs.
+  
+  Cerebellar Examination:
+  Unable to assess due to weakness.
+  
+  CARDIOVASCULAR EXAMINATION
+  
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  RESPIRATORY EXAMINATION
+  
+  Good bilateral air entry.
+  No crepitations.
+  
+  ABDOMINAL EXAMINATION
+  
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  ASSESSMENT
+  
+  Acute right intracerebral haemorrhage (haemorrhagic stroke), likely secondary to poorly controlled hypertension, with left hemiplegia, expressive dysphasia and depressed level of consciousness.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Hypertensive intracerebral haemorrhage (most likely).
+  2. Ruptured cerebral arteriovenous malformation.
+  3. Cerebral aneurysm with intracerebral extension.
+  4. Haemorrhagic transformation of an ischaemic stroke.
+  5. Brain tumour with intratumoral haemorrhage.
+  
+  URGENT INVESTIGATIONS
+  
+  Bedside:
+  Capillary blood glucose.
+  ECG.
+  Continuous cardiac monitoring.
+  Swallow assessment when conscious.
+  
+  Laboratory:
+  Full Blood Count.
+  Serum Electrolytes, Urea and Creatinine.
+  Liver Function Tests.
+  Random Blood Glucose.
+  HbA1c.
+  Coagulation profile (PT/INR, aPTT).
+  Blood grouping and cross-match.
+  Lipid profile.
+  
+  Imaging:
+  Urgent Non-Contrast CT Brain immediately.
+  
+  Expected findings:
+  Acute intracerebral haemorrhage.
+  Site and volume of bleeding.
+  Midline shift.
+  Intraventricular extension.
+  Hydrocephalus.
+  
+  If CT is unavailable immediately, arrange urgent transfer to a facility where neuroimaging can be performed.
+  
+  MANAGEMENT
+  
+  Admission:
+  Admit to the High Dependency Unit (HDU) or Intensive Care Unit (ICU).
+  Urgent review by Neurology and Neurosurgery.
+  
+  Initial Stabilization (ABC):
+  Maintain airway patency.
+  Administer oxygen only if SpO₂ <94%, aiming for 94–98%.
+  Insert two large-bore IV cannulas.
+  Keep the patient nil per os (NPO) until swallowing has been formally assessed.
+  Elevate the head of the bed to 30 degrees to reduce intracranial pressure.
+  
+  Blood Pressure Management:
+  Because systolic BP is 224 mmHg, cautious reduction is indicated.
+  Target systolic BP 140–160 mmHg and avoid rapid excessive reductions.
+  
+  Inj. Labetalol 20 mg IV over 2 minutes.
+  
+  If BP remains above target:
+  Repeat 20–40 mg IV every 10 minutes, maximum 300 mg.
+  
+  Alternative, where infusion pumps are available:
+  Nicardipine infusion starting at 5 mg/hour IV, increasing by 2.5 mg/hour every 5–15 minutes to a maximum of 15 mg/hour, titrated to target blood pressure.
+  
+  Intracranial Pressure Management:
+  If there are clinical or radiological signs of raised intracranial pressure:
+  
+  Mannitol 20% 0.5–1 g/kg IV over 20 minutes.
+  
+  For an estimated 70 kg patient:
+  Mannitol 70 g (350 mL of 20% solution) IV over 20 minutes, monitoring serum osmolality, renal function and urine output.
+  
+  Alternative:
+  3% Hypertonic saline 250 mL IV over 30–60 minutes, particularly if hypotension or renal dysfunction makes mannitol less suitable.
+  
+  Avoid routine corticosteroids, as they do not improve outcomes in spontaneous intracerebral haemorrhage.
+  
+  Seizure Management:
+  If seizures occur:
+  
+  Inj. Diazepam 10 mg IV slowly, followed by
+  Levetiracetam 500–1000 mg IV every 12 hours, adjusted for renal function if necessary.
+  
+  Routine anticonvulsant prophylaxis is not recommended in patients without seizures.
+  
+  Fluid Management:
+  Maintain euvolaemia.
+  0.9% Normal Saline 1–1.5 litres over 24 hours, adjusting according to clinical status.
+  Avoid hypotonic fluids and excessive fluid administration.
+  
+  Glycaemic Control:
+  Maintain blood glucose between 7.8–10 mmol/L.
+  Use insulin if persistent hyperglycaemia develops.
+  Avoid hypoglycaemia.
+  
+  Temperature Control:
+  If temperature ≥38°C:
+  Paracetamol 1 g orally/NG tube/IV every 6 hours as required, maximum 4 g/day.
+  Treat any underlying infection.
+  
+  Deep Vein Thrombosis Prevention:
+  Apply intermittent pneumatic compression devices on admission.
+  Low-dose LMWH may be considered 24–48 hours after haemorrhage only when repeat imaging confirms stability and after specialist review.
+  
+  Nutrition:
+  Commence nasogastric tube feeding if swallowing is unsafe.
+  Request dietitian review.
+  
+  Neurosurgical Management:
+  Urgent neurosurgical evaluation if any of the following are present:
+  Cerebellar haemorrhage >3 cm.
+  Hydrocephalus.
+  Significant mass effect or midline shift.
+  Progressive neurological deterioration.
+  Lobar haemorrhage causing life-threatening compression.
+  
+  NURSING INSTRUCTIONS
+  
+  Neurological observations (GCS and pupil size) every hour initially.
+  Monitor blood pressure every 15–30 minutes until stable.
+  Maintain head elevation at 30°.
+  Strict fluid balance chart.
+  Pressure area care.
+  Reposition every 2 hours.
+  Monitor for aspiration.
+  Passive limb physiotherapy.
+  
+  HEALTH EDUCATION
+  
+  Explain to the family that a haemorrhagic stroke occurs when a blood vessel in the brain ruptures, leading to bleeding into the brain tissue. In this patient, the most likely cause is long-standing poorly controlled hypertension. The bleeding causes increased pressure within the skull and damage to surrounding brain tissue.
+  
+  Discuss that treatment focuses on stabilizing the patient, controlling blood pressure, preventing complications and determining whether neurosurgical intervention is required. Recovery depends on the size and location of the haemorrhage, the patient's neurological status at presentation and the speed of treatment.
+  
+  Counsel on the importance of lifelong blood pressure control, medication adherence, regular follow-up, dietary salt restriction, weight management, smoking cessation if applicable, moderation of alcohol intake and participation in rehabilitation.
+  
+  FOLLOW-UP
+  
+  Daily review by the Internal Medicine/Neurology team.
+  Urgent Neurosurgery consultation following CT findings.
+  Repeat CT brain if neurological deterioration occurs or as advised by the neurosurgical team.
+  Commence multidisciplinary rehabilitation (physiotherapy, occupational therapy and speech therapy) once clinically stable.
+  
+  Following discharge:
+  Neurology clinic review in 2–4 weeks.
+  Blood pressure monitoring with a long-term target of <130/80 mmHg unless otherwise indicated.
+  Secondary prevention through strict control of hypertension and other cardiovascular risk factors.
+  
+  Prognosis:
+  Guarded. Prognosis depends on the volume and location of the haemorrhage, level of consciousness at presentation, presence of intraventricular extension or hydrocephalus, and the patient's response to treatment. Early blood pressure control, specialist neurological care and comprehensive rehabilitation improve the chances of functional recovery.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-34',
+    title: 'Hypertensive Emergency with Acute Ischemic Stroke',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Acute Ischemic Stroke Secondary to Hypertensive Emergency',
+    symptoms: [
+      'Sudden right-sided weakness',
+      'Difficulty speaking',
+      'Facial asymmetry',
+      'Severely elevated blood pressure',
+      'Reduced sensation on one side of the body'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-25',
+    summary: 'A 64-year-old hypertensive male with poor medication adherence presented with sudden onset right hemiparesis and dysphasia with severe hypertension, suggestive of a left hemispheric acute ischemic stroke occurring in the setting of hypertensive emergency.',
+    content: `MEDICAL EMERGENCY / STROKE UNIT
+  
+  Patient Seen
+  
+  A 64-year-old married retired civil servant. Informants: Patient’s wife and son (Reliable).
+  
+  CC:
+  Sudden weakness of the right side of the body × 3 hours.
+  Difficulty speaking × 3 hours.
+  
+  HPC:
+  He is a known hypertensive diagnosed 12 years ago and has been poorly compliant with his antihypertensive medications. He was prescribed Amlodipine 10 mg once daily and Losartan 50 mg once daily, but his wife reports frequent missed doses.
+  
+  He was apparently well until about 3 hours prior to presentation when he suddenly developed weakness of the right upper and lower limbs while eating breakfast. The weakness was associated with difficulty speaking, with inability to express himself clearly. His wife also noticed deviation of the angle of his mouth to the left.
+  
+  Symptoms began suddenly and reached maximum severity within minutes.
+  
+  There was no preceding trauma.
+  No loss of consciousness.
+  No generalized convulsion.
+  No severe headache.
+  No vomiting.
+  No fever.
+  No neck pain.
+  
+  He has not had similar symptoms in the past.
+  
+  The family brought him to the hospital approximately 3 hours after symptom onset.
+  
+  ROS:
+  
+  Neurological:
+  Sudden right-sided weakness.
+  Difficulty speaking.
+  Facial asymmetry.
+  No seizures.
+  No loss of consciousness.
+  No visual loss.
+  No swallowing difficulty reported.
+  
+  Cardiovascular:
+  No chest pain.
+  No palpitations.
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  
+  Respiratory:
+  No cough.
+  No shortness of breath.
+  
+  Renal:
+  No reduced urine output.
+  No haematuria.
+  
+  General:
+  No fever.
+  No weight loss.
+  
+  PMH:
+  Known hypertension × 12 years.
+  Poor medication adherence.
+  No diabetes mellitus.
+  No previous stroke.
+  No previous transient ischaemic attack.
+  No chronic kidney disease.
+  No previous myocardial infarction.
+  
+  Drug History:
+  Amlodipine 10 mg PO daily.
+  Losartan 50 mg PO daily.
+  Poor compliance.
+  No anticoagulant use.
+  No known drug allergies.
+  
+  Family History:
+  Father died from complications of stroke.
+  Mother had hypertension.
+  
+  Social History:
+  Retired civil servant.
+  Lives with wife.
+  Sedentary lifestyle.
+  High salt intake.
+  Non-smoker.
+  Occasional alcohol consumption.
+  
+  O/E:
+  Elderly man.
+  Conscious but distressed.
+  Unable to communicate effectively due to dysarthria.
+  Not in respiratory distress.
+  No pallor.
+  No jaundice.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  BP: 228/126 mmHg.
+  Pulse: 96 bpm, regular.
+  RR: 20 cpm.
+  Temperature: 36.7°C.
+  SpO₂: 98% on room air.
+  Random Blood Glucose: 7.2 mmol/L.
+  
+  PRIMARY SURVEY (ABCDE):
+  
+  Airway:
+  Patent.
+  Able to protect airway.
+  Mild dysarthria.
+  
+  Breathing:
+  SpO₂ 98% on room air.
+  Chest clinically clear.
+  
+  Circulation:
+  Severely elevated blood pressure.
+  Peripheral pulses palpable.
+  Two large-bore IV cannulas inserted.
+  
+  Disability:
+  GCS 15/15.
+  E4 V5 M6.
+  
+  NEUROLOGICAL EXAMINATION:
+  
+  Higher Mental Function:
+  Conscious.
+  Alert.
+  Oriented to person and place.
+  Expressive dysphasia present.
+  
+  Cranial Nerves:
+  Right lower motor facial weakness.
+  Pupils equal and reactive.
+  Extraocular movements intact.
+  No obvious visual field defect.
+  
+  Motor Examination:
+  
+  Right Upper Limb:
+  Power 2/5.
+  Reduced tone.
+  Reduced reflexes initially.
+  
+  Right Lower Limb:
+  Power 3/5.
+  
+  Left Upper and Lower Limbs:
+  Power 5/5.
+  
+  Sensory Examination:
+  Reduced sensation to light touch on the right side.
+  
+  Cerebellar Examination:
+  No obvious cerebellar signs.
+  
+  NIHSS:
+  Estimated score: 10 (Moderate neurological deficit).
+  
+  CVS:
+  Heart sounds S1 and S2 normal.
+  No murmurs.
+  No gallop rhythm.
+  No carotid bruit.
+  
+  Respiratory:
+  Chest clear.
+  Normal vesicular breath sounds.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  Fundoscopy:
+  Possible hypertensive retinal changes.
+  No obvious papilloedema.
+  
+  ASSESSMENT:
+  Hypertensive emergency (BP 228/126 mmHg) complicated by suspected acute ischemic stroke involving the left cerebral hemisphere causing right-sided hemiparesis and dysphasia, likely secondary to uncontrolled hypertension.
+  
+  Time of symptom onset: 3 hours prior to arrival — patient is within possible thrombolysis window pending imaging and eligibility assessment.
+  
+  Differential Diagnoses:
+  Acute ischemic stroke.
+  Intracerebral haemorrhage secondary to hypertension.
+  Hypoglycaemia mimicking stroke.
+  Post-ictal Todd’s paralysis.
+  Intracranial tumour with acute presentation.
+  
+  PLAN:
+  
+  Investigations:
+  
+  Immediate Bedside:
+  Capillary blood glucose.
+  12-lead ECG.
+  Continuous cardiac monitoring.
+  Oxygen saturation monitoring.
+  
+  Neuroimaging:
+  Urgent non-contrast CT Brain.
+  
+  Purpose:
+  Differentiate ischemic stroke from intracerebral haemorrhage.
+  Assess eligibility for thrombolysis.
+  
+  Additional Imaging:
+  CT angiography head and neck if available.
+  CT perfusion imaging in selected patients.
+  MRI brain with diffusion-weighted imaging if diagnosis remains uncertain.
+  
+  Laboratory:
+  FBC.
+  Serum Electrolytes, Urea and Creatinine.
+  Random Blood Glucose.
+  HbA1c.
+  Fasting Lipid Profile.
+  Coagulation Profile (PT/INR, aPTT).
+  Cardiac Troponin.
+  Liver Function Tests.
+  Urinalysis.
+  
+  MANAGEMENT:
+  
+  Admission:
+  Admit into Stroke Unit/HDU/ICU.
+  Urgent neurologist/stroke team review.
+  Continuous monitoring of:
+  - Blood pressure.
+  - Cardiac rhythm.
+  - Oxygen saturation.
+  - Neurological status.
+  
+  Airway and Breathing:
+  Maintain airway.
+  Administer oxygen only if SpO₂ <94% or respiratory compromise develops.
+  
+  Blood Pressure Management:
+  
+  Do not rapidly reduce blood pressure unless indicated.
+  
+  If NOT receiving thrombolysis:
+  Allow permissive hypertension unless BP >220/120 mmHg.
+  
+  If BP remains above threshold:
+  Reduce cautiously by approximately 15% during the first 24 hours.
+  
+  If eligible for IV thrombolysis:
+  Reduce BP to <185/110 mmHg before thrombolysis.
+  
+  After thrombolysis:
+  Maintain BP <180/105 mmHg for at least 24 hours.
+  
+  IV Antihypertensive Options:
+  
+  Labetalol:
+  10–20 mg IV over 1–2 minutes.
+  May repeat 10 mg every 10 minutes as required.
+  Maximum cumulative dose: 300 mg.
+  
+  OR
+  
+  Nicardipine:
+  Start 5 mg/hour IV infusion.
+  Increase by 2.5 mg/hour every 5–15 minutes.
+  Maximum 15 mg/hour.
+  
+  OR
+  
+  Clevidipine:
+  Start 1–2 mg/hour IV infusion and titrate.
+  
+  Thrombolysis:
+  
+  If CT excludes haemorrhage and patient meets eligibility criteria:
+  
+  Alteplase (tPA):
+  0.9 mg/kg IV.
+  Maximum dose: 90 mg.
+  
+  Administration:
+  10% as IV bolus over 1 minute.
+  Remaining 90% infused over 60 minutes.
+  
+  Patient presented at 3 hours from symptom onset and requires urgent assessment.
+  
+  Antiplatelet Therapy:
+  
+  If thrombolysis is not given and CT excludes haemorrhage:
+  
+  Aspirin 160–325 mg PO stat.
+  
+  Then:
+  Aspirin 75–100 mg PO daily.
+  
+  Lipid Management:
+  
+  Atorvastatin 80 mg PO nocte.
+  
+  Blood Glucose:
+  Maintain glucose approximately 7.8–10 mmol/L.
+  Avoid hypoglycaemia.
+  
+  Swallow Assessment:
+  Keep NPO until swallowing assessment is completed.
+  Consider nasogastric feeding if swallowing impairment is present.
+  Refer for speech and swallow therapy.
+  
+  DVT Prevention:
+  Enoxaparin 40 mg SC daily if no contraindication.
+  
+  OR
+  
+  Intermittent pneumatic compression.
+  
+  Long-Term Secondary Prevention:
+  
+  Optimize antihypertensive therapy after stabilization:
+  
+  Amlodipine 10 mg daily.
+  Losartan 100 mg daily if renal function permits.
+  
+  Consider additional agents:
+  Indapamide SR 1.5 mg daily.
+  
+  Lifestyle modification:
+  Low salt diet.
+  Weight reduction.
+  Regular exercise after rehabilitation.
+  Smoking cessation.
+  Alcohol moderation.
+  
+  Nursing Instructions:
+  Neurological observations hourly initially.
+  Monitor GCS and limb power.
+  Monitor BP every 5–15 minutes during titration.
+  Maintain aspiration precautions.
+  Pressure area care.
+  Strict input/output monitoring.
+  
+  Health Education:
+  Explain to patient and family that hypertensive emergency occurs when severely elevated blood pressure causes damage to vital organs. In this case, the high blood pressure is associated with a suspected stroke.
+  
+  Explain the importance of early presentation because some patients with ischemic stroke may benefit from clot-dissolving treatment when they arrive within the appropriate time window.
+  
+  Emphasize strict adherence to antihypertensive medications even when symptoms are absent.
+  
+  Discuss stroke rehabilitation including physiotherapy, occupational therapy and speech therapy.
+  
+  Follow-up:
+  Stroke Rehabilitation Clinic.
+  Physiotherapy assessment.
+  Occupational therapy assessment.
+  Speech and language therapy if dysphasia persists.
+  Medical Outpatient Clinic review within 1–2 weeks after discharge.
+  
+  Monitor:
+  Blood pressure control.
+  Medication adherence.
+  Lipid levels.
+  Renal function.
+  Functional recovery.
+  
+  Prognosis:
+  Depends on infarct size, affected brain area, speed of treatment, blood pressure control and rehabilitation. Early recognition and appropriate management improve neurological recovery and reduce complications.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-33',
+    title: 'Hypertensive Urgency',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Hypertensive Urgency',
+    symptoms: [
+      'Severe headache',
+      'Dizziness',
+      'Elevated blood pressure',
+      'Occasional blurred vision'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-25',
+    summary: 'A 56-year-old hypertensive female with poor medication adherence presented with markedly elevated blood pressure without clinical evidence of acute target-organ damage, consistent with hypertensive urgency.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Seen
+  
+  A 56-year-old married female trader residing in Abeokuta, Ogun State. Informant: Patient (Reliable).
+  
+  CC:
+  Severe headache × 2 days.
+  Dizziness × 1 day.
+  Elevated blood pressure noted today.
+  
+  HPC:
+  She is a known hypertensive diagnosed 6 years ago and currently prescribed Amlodipine 10 mg PO once daily and Losartan 50 mg PO once daily. She admits poor adherence to her medications over the past 2 weeks because she felt well and had run out of her medications.
+  
+  She was apparently well until 2 days prior to presentation when she developed a gradual onset generalized throbbing headache associated with dizziness. The headache is persistent, rated 7/10 in severity and is partially relieved by paracetamol.
+  
+  She checked her blood pressure at a nearby pharmacy today and recorded 210/118 mmHg, prompting presentation to the hospital.
+  
+  There is no chest pain, shortness of breath, palpitations, orthopnoea or paroxysmal nocturnal dyspnoea.
+  
+  There is no limb weakness, facial asymmetry, slurred speech, confusion or altered level of consciousness.
+  
+  There is no sudden visual loss, although she occasionally experiences mild blurring of vision during severe headaches.
+  
+  There are no seizures.
+  
+  There is no reduced urine output or haematuria.
+  
+  There is no fever, cough or recent illness.
+  
+  ROS:
+  
+  General:
+  Headache.
+  Dizziness.
+  No fever.
+  
+  Cardiovascular:
+  No chest pain.
+  No palpitations.
+  No ankle swelling.
+  
+  Respiratory:
+  No cough.
+  No dyspnoea.
+  
+  Neurological:
+  Headache.
+  Mild dizziness.
+  No limb weakness.
+  No seizures.
+  No altered consciousness.
+  
+  Renal:
+  No dysuria.
+  No haematuria.
+  Normal urine output.
+  
+  Ophthalmic:
+  Occasional blurred vision during headache.
+  No sudden visual loss.
+  
+  PMH:
+  Essential hypertension diagnosed 6 years ago.
+  No diabetes mellitus.
+  No chronic kidney disease.
+  No previous stroke.
+  No heart failure.
+  
+  Drug History:
+  Amlodipine 10 mg PO daily (poor adherence).
+  Losartan 50 mg PO daily (poor adherence).
+  Occasional Paracetamol.
+  No known drug allergies.
+  
+  Family History:
+  Mother has hypertension.
+  Brother had a stroke at age 60 years.
+  
+  Social History:
+  Lives with husband.
+  Non-smoker.
+  Occasional alcohol intake.
+  Consumes a high-salt diet.
+  Limited physical activity.
+  
+  O/E:
+  Middle-aged woman.
+  Conscious and alert.
+  Comfortable at rest.
+  Not in respiratory distress.
+  No pallor.
+  No jaundice.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  BP: 210/118 mmHg (confirmed after 10 minutes of rest using an appropriate cuff size).
+  Pulse: 88 bpm, regular.
+  RR: 18 cpm.
+  Temperature: 36.9°C.
+  SpO₂: 99% on room air.
+  Weight: 76 kg.
+  Height: 1.65 m.
+  BMI: 27.9 kg/m² (Overweight).
+  
+  CVS:
+  Pulse regular.
+  Heart sounds S1 and S2 normal.
+  No S3 gallop.
+  No murmurs.
+  Peripheral pulses equal.
+  
+  Respiratory:
+  Chest expands symmetrically.
+  Breath sounds vesicular.
+  No crepitations.
+  No wheeze.
+  
+  Neurological:
+  GCS 15/15.
+  Cranial nerves intact.
+  Normal muscle bulk and tone.
+  Power 5/5 in all limbs.
+  Sensation intact.
+  No cerebellar signs.
+  Normal gait.
+  
+  Fundoscopy:
+  Mild arteriovenous nicking.
+  No retinal haemorrhages.
+  No cotton wool spots.
+  No papilloedema.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No renal bruit.
+  No organomegaly.
+  
+  ASSESSMENT:
+  Hypertensive urgency (BP 210/118 mmHg) secondary to poor medication adherence, with no clinical evidence of acute target-organ damage.
+  
+  Differential Diagnoses:
+  Uncontrolled essential hypertension.
+  White-coat hypertension (unlikely).
+  Secondary hypertension (renal or endocrine causes).
+  Anxiety-associated blood pressure elevation.
+  
+  PLAN:
+  
+  Investigations:
+  
+  Bedside:
+  Repeat BP after 15–30 minutes of rest.
+  12-lead ECG.
+  Urinalysis (protein, blood, glucose).
+  Random Blood Glucose.
+  
+  Laboratory:
+  FBC.
+  Serum Electrolytes, Urea and Creatinine.
+  Estimated GFR.
+  Fasting Blood Glucose.
+  HbA1c.
+  Lipid Profile.
+  Urine Albumin-Creatinine Ratio (if available).
+  Thyroid Function Tests if clinically indicated.
+  
+  Imaging:
+  Chest X-ray if cardiac enlargement or heart failure is suspected.
+  Echocardiography (outpatient evaluation for LVH if indicated).
+  Renal ultrasound if secondary hypertension is suspected.
+  
+  Management:
+  
+  Observation:
+  Observe in the Emergency Unit or Medical Observation Ward for 4–6 hours.
+  Repeat blood pressure every 30–60 minutes.
+  Avoid rapid blood pressure reduction.
+  
+  Blood Pressure Reduction:
+  Gradually reduce BP over 24–48 hours.
+  Avoid reducing MAP by more than approximately 25% within the first 24 hours.
+  
+  Oral Antihypertensives:
+  Amlodipine 10 mg PO stat, then 10 mg PO daily.
+  
+  PLUS
+  
+  Losartan 50 mg PO stat, then 50 mg PO daily.
+  Increase to 100 mg daily if blood pressure remains uncontrolled and renal function permits.
+  
+  If Additional BP Reduction is Required:
+  Captopril 25 mg PO.
+  Repeat 12.5–25 mg after 1–2 hours if necessary, provided there is no bilateral renal artery stenosis, pregnancy or history of angioedema.
+  
+  OR
+  
+  Labetalol 200 mg PO, repeat every 8–12 hours and titrate according to BP response.
+  
+  If Diuretic Therapy is Required:
+  Hydrochlorothiazide 12.5–25 mg PO daily.
+  
+  OR
+  
+  Indapamide SR 1.5 mg PO daily, particularly in older adults.
+  
+  Headache:
+  Paracetamol 1 g PO every 6 hours as required (maximum 4 g/day).
+  Avoid NSAIDs.
+  
+  Lifestyle Modification:
+  Advise dietary sodium restriction (<5 g salt/day).
+  Recommend DASH diet.
+  Weight reduction.
+  Regular aerobic exercise (≥150 minutes/week).
+  Smoking cessation.
+  Limit alcohol intake.
+  Stress reduction and adequate sleep.
+  
+  Nursing Instructions:
+  Monitor BP every 30–60 minutes while under observation.
+  Observe for chest pain, neurological deficits, visual symptoms or worsening headache.
+  Ensure medication adherence before discharge.
+  
+  Health Education:
+  Explain that hypertensive urgency is a markedly elevated blood pressure without evidence of acute injury to vital organs. Emphasize that blood pressure should be lowered gradually to reduce the risk of stroke, myocardial infarction, heart failure and kidney disease.
+  
+  Stress the importance of lifelong medication adherence, regular clinic attendance and home blood pressure monitoring where available.
+  
+  Advise adherence to a low-salt diet, regular exercise, weight reduction, avoidance of tobacco and moderation of alcohol intake.
+  
+  Advise immediate presentation if severe chest pain, sudden weakness, difficulty speaking, severe breathlessness, confusion, seizures, sudden visual loss or reduced urine output develops.
+  
+  Follow-up:
+  Repeat blood pressure before discharge.
+  Review in the Medical Outpatient Clinic within 48–72 hours.
+  Repeat renal function and serum electrolytes within 1–2 weeks, especially if ACE inhibitors, ARBs or diuretics are initiated or adjusted.
+  Arrange ECG and assessment for chronic target-organ damage if not completed during this visit.
+  Encourage home blood pressure monitoring and documentation of readings.
+  
+  Prognosis:
+  Good with prompt resumption and optimization of antihypertensive therapy, strict medication adherence and lifestyle modification. Regular follow-up is essential to achieve target blood pressure and prevent progression to hypertensive emergency and long-term cardiovascular and renal complications.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-32',
+    title: 'Hypertensive Emergency with Acute Pulmonary Oedema',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Hypertensive Emergency',
+    symptoms: [
+      'Severe headache',
+      'Progressive difficulty breathing',
+      'Blurred vision',
+      'Orthopnoea',
+      'Chest tightness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-07-25',
+    summary: 'A 58-year-old hypertensive male with poor medication adherence presented with severe hypertension complicated by acute pulmonary oedema, hypertensive retinopathy and acute left ventricular failure.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Seen
+  
+  A 58-year-old married male civil servant. Informants: Patient and wife (Reliable).
+  
+  CC:
+  Severe headache × 12 hours.
+  Progressive difficulty breathing × 6 hours.
+  Blurred vision × 4 hours.
+  
+  HPC:
+  He is a known hypertensive diagnosed 8 years ago and previously maintained on Amlodipine 10 mg once daily and Losartan 50 mg once daily. He admits poor adherence to his medications over the past 3 weeks because he "felt well."
+  
+  He was apparently well until about 12 hours prior to presentation when he developed a severe generalized throbbing headache associated with dizziness and blurred vision.
+  
+  Approximately 4 hours later, he developed progressive shortness of breath, initially on exertion and later occurring at rest. This was associated with orthopnoea requiring three pillows and two episodes of paroxysmal nocturnal dyspnoea.
+  
+  He also complains of central chest tightness without radiation.
+  
+  There is no loss of consciousness.
+  No seizures.
+  No focal limb weakness.
+  No facial deviation.
+  No speech difficulty.
+  No fever.
+  No productive cough.
+  
+  ROS:
+  
+  General:
+  Severe headache.
+  Marked breathlessness.
+  No fever.
+  
+  Cardiovascular:
+  Chest tightness.
+  Orthopnoea.
+  Paroxysmal nocturnal dyspnoea.
+  No palpitations.
+  
+  Respiratory:
+  Severe dyspnoea.
+  No haemoptysis.
+  
+  Neurological:
+  Headache.
+  Blurred vision.
+  No focal weakness.
+  No seizures.
+  
+  Renal:
+  No dysuria.
+  No haematuria.
+  Normal urine output.
+  
+  PMH:
+  Known hypertension × 8 years.
+  No diabetes mellitus.
+  No previous stroke.
+  No chronic kidney disease.
+  No previous myocardial infarction.
+  
+  Drug History:
+  Previously prescribed:
+  Amlodipine 10 mg PO daily.
+  Losartan 50 mg PO daily.
+  Poor medication adherence.
+  No known drug allergies.
+  
+  Family History:
+  Father died from complications of hypertension.
+  Mother is hypertensive.
+  
+  Social History:
+  Lives with wife.
+  Does not smoke.
+  Occasional alcohol consumption.
+  Sedentary lifestyle.
+  
+  O/E:
+  Middle-aged man.
+  Conscious and alert.
+  Anxious.
+  Sitting upright in severe respiratory distress.
+  Unable to complete full sentences.
+  Moderately diaphoretic.
+  No cyanosis.
+  No pallor.
+  Grade 1 bilateral pitting pedal oedema.
+  
+  Vital Signs:
+  BP: 236/142 mmHg
+  Pulse: 118 bpm, regular
+  RR: 34 cpm
+  Temperature: 36.8°C
+  SpO₂: 88% on room air
+  Weight: 82 kg
+  Random Blood Glucose: 8.4 mmol/L
+  
+  CVS:
+  Pulse regular.
+  Apex beat displaced laterally.
+  S1 and S2 heard.
+  S3 gallop present.
+  No murmurs.
+  Jugular venous pressure elevated.
+  
+  Respiratory:
+  Severe respiratory distress.
+  Bibasal fine inspiratory crepitations extending to the mid-lung zones.
+  Reduced air entry at both lung bases.
+  No wheeze.
+  
+  Neurological:
+  GCS 15/15.
+  Pupils equal and reactive.
+  No neck stiffness.
+  Power 5/5 in all limbs.
+  No cranial nerve deficits.
+  No cerebellar signs.
+  
+  Fundoscopy:
+  Grade III hypertensive retinopathy.
+  Retinal haemorrhages.
+  Cotton wool spots.
+  Arteriovenous nicking.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  No renal bruit.
+  
+  ASSESSMENT:
+  Hypertensive emergency (BP 236/142 mmHg) complicated by acute pulmonary oedema (acute left ventricular failure) secondary to poorly controlled essential hypertension.
+  
+  Differential Diagnoses:
+  Acute coronary syndrome with acute heart failure.
+  Acute decompensated heart failure secondary to dilated cardiomyopathy.
+  Aortic dissection.
+  Acute kidney injury secondary to malignant hypertension.
+  
+  PLAN:
+  
+  Investigations:
+  
+  Bedside:
+  12-lead ECG.
+  Random blood glucose.
+  Urinalysis.
+  Continuous ECG monitoring.
+  Continuous pulse oximetry.
+  Strict urine output monitoring with urethral catheter.
+  
+  Laboratory:
+  FBC.
+  Serum Electrolytes, Urea and Creatinine.
+  Estimated GFR.
+  Liver Function Tests.
+  Cardiac Troponin I/T.
+  NT-proBNP (if available).
+  Arterial Blood Gas.
+  Coagulation profile.
+  Lipid profile.
+  HbA1c.
+  
+  Imaging:
+  Chest X-ray.
+  Echocardiography.
+  CT Brain if neurological deficits or altered consciousness develop.
+  CT Aortogram if aortic dissection is suspected.
+  
+  Management:
+  
+  Admission:
+  Admit immediately into the HDU/ICU.
+  Continuous ECG, blood pressure and oxygen saturation monitoring.
+  Insert two large-bore IV cannulae.
+  
+  Oxygen:
+  Administer oxygen via non-rebreather mask at 10–15 L/min aiming for SpO₂ 94–98%.
+  Consider CPAP/BiPAP if severe pulmonary oedema or persistent hypoxia.
+  
+  Blood Pressure Reduction:
+  Target reduction in MAP by no more than 20–25% within the first hour, then gradually reduce BP to approximately 160/100–110 mmHg over the next 2–6 hours.
+  
+  IV Antihypertensive:
+  Glyceryl Trinitrate infusion:
+  Prepare 50 mg GTN in 500 mL 5% Dextrose.
+  Start at 5 micrograms/minute.
+  Increase by 5–10 micrograms/minute every 3–5 minutes.
+  Maximum 200 micrograms/minute.
+  Titrate according to blood pressure and symptom relief.
+  
+  Alternative agents if GTN unavailable:
+  Labetalol:
+  20 mg IV over 2 minutes, then 40–80 mg IV every 10 minutes until target BP or maximum cumulative dose of 300 mg.
+  OR continuous infusion at 2 mg/minute IV.
+  
+  Nicardipine:
+  Start at 5 mg/hour IV infusion.
+  Increase by 2.5 mg/hour every 5–15 minutes.
+  Maximum 15 mg/hour.
+  
+  Diuretic:
+  Furosemide 80 mg IV stat.
+  Repeat according to urine output and clinical response.
+  
+  Analgesia:
+  Paracetamol 1 g IV or PO every 6 hours as required.
+  Avoid NSAIDs.
+  
+  Fluid Management:
+  Strict input-output chart.
+  Daily weight.
+  Avoid excessive IV fluids.
+  Insert urethral catheter for hourly urine output.
+  
+  Long-term Antihypertensives (after stabilization):
+  Restart Amlodipine 10 mg PO daily.
+  Restart Losartan 50 mg PO daily and titrate to 100 mg daily if tolerated.
+  If HFrEF is confirmed, commence guideline-directed heart failure therapy as appropriate.
+  
+  Nursing Instructions:
+  Monitor BP every 5–15 minutes until stable.
+  Continuous ECG monitoring.
+  Hourly urine output.
+  Strict fluid balance chart.
+  Daily body weight.
+  Observe for hypotension, chest pain, neurological deterioration and arrhythmias.
+  
+  Health Education:
+  Counsel the patient and family regarding hypertensive emergency as a life-threatening condition requiring urgent treatment.
+  Emphasize lifelong adherence to antihypertensive medications.
+  Advise dietary salt restriction, weight reduction, regular exercise, smoking cessation, moderation of alcohol intake and regular clinic follow-up.
+  Advise immediate presentation if severe headache, chest pain, breathlessness, visual loss, seizures or neurological deficits recur.
+  
+  Follow-up:
+  Review in the Medical Outpatient/Cardiology Clinic within one week after discharge.
+  Repeat renal function and electrolytes 48–72 hours after initiation or adjustment of RAAS blockers and diuretics.
+  Consider ambulatory or home blood pressure monitoring.
+  Annual screening for target-organ damage with fundoscopy, urine albumin-creatinine ratio, ECG and renal function tests.
+  
+  Prognosis:
+  Guarded in the acute phase but favourable with prompt blood pressure control and treatment of end-organ damage. Long-term outcome depends on medication adherence, sustained blood pressure control, lifestyle modification and regular follow-up.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'im-31',
     title: 'Acute Gouty Arthritis (Podagra)',
     specialty: 'Internal Medicine',
@@ -11439,7 +19030,7 @@ Not yet available
   
   Patient Seen
   
-  A 28-year-old single male secondary school teacher from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+  A 28-year-old single male secondary school teacher from Abeokuta, Ogun State, Christian, Yoruba.
   
   Informant: Patient (Reliable)
   
@@ -11714,7 +19305,7 @@ Not yet available
   
   Patient Seen
   
-  A 58-year-old married male civil servant from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Primary.
+  A 58-year-old married male civil servant from Abeokuta, Ogun State, Christian, Yoruba.
   
   Informants: Patient and wife (Reliable)
   
@@ -25754,6 +33345,2130 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
+  id: 'ob-31',
+  title: 'Symptomatic Bacterial Vaginosis in Pregnancy',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Bacterial Vaginosis in Pregnancy',
+  symptoms: ['Foul-smelling vaginal discharge', 'Thin greyish-white vaginal discharge', 'Fishy vaginal odour', 'Mild vulval irritation', 'Lower abdominal discomfort'],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '31-year-old G2P1 at 22 weeks + 5 days gestation presenting with foul-smelling, thin, homogeneous, greyish-white vaginal discharge and mild lower abdominal discomfort, clinically suggestive of symptomatic bacterial vaginosis without evidence of premature rupture of membranes, preterm labour or systemic infection.',
+  content: `ANTENATAL CLINIC
+
+Patient Seen
+
+A 31-year-old G2P1 married hairdresser from Yaba, Lagos State, Christian, Yoruba, at 22 weeks + 5 days gestation by reliable LMP and dating ultrasound. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Foul-smelling vaginal discharge × 1 week.
+Lower abdominal discomfort × 3 days.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately one week prior to presentation when she noticed an increase in vaginal discharge.
+
+The discharge is described as thin, greyish-white and offensive-smelling, with a fishy odour that is particularly noticeable after sexual intercourse.
+
+She reports associated mild vulval irritation but no significant vulval itching.
+
+Three days prior to presentation, she developed mild intermittent lower abdominal discomfort, which is non-radiating and not associated with uterine contractions.
+
+There is no history of fever, chills or rigors.
+There is no history of dysuria, urinary frequency or urgency.
+There is no history of vaginal bleeding.
+There is no history of gush or continuous leakage of clear fluid per vaginam.
+There is no history of severe lower abdominal pain.
+She reports normal fetal movements for her gestational age.
+
+There is no history of recent antibiotic use.
+She reports occasionally using scented vaginal soaps and vaginal cleansing products.
+There is no history of recurrent vaginal discharge.
+She has no known history of sexually transmitted infections.
+She reports being sexually active with her husband and denies any recent change in sexual partner.
+
+REVIEW OF SYSTEMS
+
+GYNAECOLOGICAL
+
+Increased vaginal discharge.
+Thin, greyish-white discharge.
+Offensive/fishy odour.
+Mild vulval irritation.
+No significant vulval itching.
+No genital ulcers.
+No genital vesicles.
+No dyspareunia.
+No postcoital bleeding.
+No vaginal bleeding.
+
+URINARY
+
+No dysuria.
+No urinary frequency.
+No urgency.
+No haematuria.
+
+OBSTETRIC
+
+No vaginal bleeding.
+No leakage of liquor.
+No gush or continuous trickling of fluid.
+No regular uterine contractions.
+No symptoms suggestive of preterm labour.
+Fetal movements perceived and appropriate for gestational age.
+
+GENERAL
+
+No fever.
+No chills.
+No rigors.
+No significant malaise.
+
+ANTENATAL HISTORY
+
+Current pregnancy was spontaneous and desired.
+
+She booked for antenatal care at approximately 10 weeks gestation.
+Antenatal care has been regular.
+Booking investigations were reportedly satisfactory.
+She has been taking routine antenatal supplements.
+
+No history of hypertension in the current pregnancy.
+No history of diabetes mellitus.
+No previous urinary tract infection during this pregnancy.
+No previous episode of foul-smelling vaginal discharge during this pregnancy.
+
+PAST MEDICAL HISTORY
+
+No known hypertension.
+No known diabetes mellitus.
+No known chronic kidney disease.
+No known immunosuppressive illness.
+No history of recurrent bacterial vaginosis.
+No history of recurrent vulvovaginal candidiasis.
+No previous pelvic inflammatory disease.
+
+PAST SURGICAL HISTORY
+
+No previous surgery.
+
+DRUG HISTORY
+
+Currently taking routine antenatal supplements.
+No recent antibiotic use.
+No known drug allergies.
+
+OBSTETRIC HISTORY
+
+G2P1.
+
+Previous pregnancy resulted in a term spontaneous vaginal delivery of a live female infant, currently alive and well.
+
+No previous preterm delivery.
+No previous pregnancy complicated by premature rupture of membranes.
+No history of previous pregnancy complicated by intra-amniotic infection.
+
+GYNAECOLOGICAL HISTORY
+
+Menarche at 13 years.
+Previously regular menstrual cycles.
+No known history of sexually transmitted infection.
+No previous history of pelvic inflammatory disease.
+No known history of recurrent vaginal infections.
+
+SEXUAL HISTORY
+
+Married and sexually active with one regular partner.
+No recent change in sexual partner.
+No known history of sexually transmitted infection in her partner.
+No history suggestive of sexual assault.
+
+GENERAL EXAMINATION
+
+Young woman.
+Conscious and alert.
+Comfortable at rest.
+Not in obvious painful distress.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Not dehydrated.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 114/70 mmHg.
+Pulse Rate: 86 beats/minute, regular.
+Respiratory Rate: 18 cycles/minute.
+Temperature: 37.1°C.
+SpO₂: 99% on room air.
+
+ABDOMINAL EXAMINATION
+
+Abdomen uniformly distended by pregnancy.
+Fundal height corresponds approximately with gestational age.
+Abdomen soft.
+Mild suprapubic tenderness.
+No guarding.
+No rebound tenderness.
+No palpable abdominal masses.
+No uterine tenderness.
+No palpable regular uterine contractions.
+
+OBSTETRIC EXAMINATION
+
+Uterus appropriate for gestational age.
+Fundal height: approximately 22 cm.
+Fetal heart rate: 144 beats/minute, regular.
+No vaginal bleeding noted.
+No clinical evidence of preterm labour.
+
+VULVOVAGINAL EXAMINATION
+
+Informed consent obtained and privacy ensured with a chaperone present.
+
+External genitalia inspected.
+Mild vulval erythema noted.
+A moderate amount of thin, homogeneous, greyish-white vaginal discharge is present.
+The discharge has a distinct offensive/fishy odour.
+No thick curd-like discharge.
+No genital ulcers.
+No vesicular lesions.
+No obvious genital warts.
+No active vaginal bleeding.
+Cervix appears closed.
+No obvious cervical lesion.
+No cervical friability or contact bleeding.
+No obvious pooling of clear fluid in the posterior fornix.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular
+
+Pulse regular.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory
+
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Central Nervous System
+
+Conscious and oriented.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Foul-smelling vaginal discharge in pregnancy, clinically suggestive of bacterial vaginosis (BV), at 22 weeks + 5 days gestation.
+
+The thin, homogeneous, greyish-white discharge with a characteristic fishy odour is suggestive of bacterial vaginosis.
+
+However, other causes of offensive vaginal discharge must be excluded, particularly:
+
+Trichomoniasis.
+Cervicitis due to sexually transmitted infections.
+Mixed vaginal infection.
+Retained vaginal foreign body.
+Pelvic inflammatory disease/upper genital tract infection.
+Premature rupture of membranes with secondary infection.
+
+There is currently no clinical evidence of systemic infection, preterm labour or premature rupture of membranes.
+
+DIFFERENTIAL DIAGNOSES
+
+Bacterial vaginosis.
+Trichomoniasis.
+Cervicitis due to Chlamydia trachomatis or Neisseria gonorrhoeae.
+Mixed vaginal infection.
+Vulvovaginal candidiasis.
+Retained vaginal foreign body.
+Pelvic inflammatory disease or upper genital tract infection.
+Premature rupture of membranes with secondary infection.
+
+INVESTIGATIONS
+
+1. HIGH VAGINAL SWAB
+
+Collect vaginal swab for microscopy, culture and sensitivity where available.
+
+Assess for:
+
+Bacterial pathogens.
+Candida species.
+Other causes of abnormal discharge.
+
+2. VAGINAL pH
+
+Measure vaginal pH.
+
+Bacterial vaginosis is typically associated with a vaginal pH greater than 4.5.
+
+3. MICROSCOPY
+
+Microscopy may demonstrate:
+
+Clue cells — suggestive of bacterial vaginosis.
+Motile trichomonads — suggestive of trichomoniasis.
+Budding yeast or pseudohyphae — suggestive of candidiasis.
+
+4. TESTING FOR SEXUALLY TRANSMITTED INFECTIONS
+
+Where clinically indicated, screen for:
+
+Chlamydia trachomatis.
+Neisseria gonorrhoeae.
+Trichomonas vaginalis.
+
+NAAT should be used where available.
+
+5. HIV AND SYPHILIS SCREENING
+
+Perform according to routine antenatal protocols and local guidelines.
+
+6. URINALYSIS
+
+Perform to exclude concurrent urinary tract infection, particularly if urinary symptoms develop.
+
+7. FULL BLOOD COUNT
+
+Assess for leukocytosis or anaemia if there is clinical concern for systemic infection.
+
+8. C-REACTIVE PROTEIN
+
+Consider if there is concern about an ascending or systemic infection.
+
+9. ASSESSMENT FOR RUPTURE OF MEMBRANES
+
+If the patient reports watery vaginal leakage, a gush or continuous trickling of fluid:
+
+Perform a sterile speculum examination to assess for pooling of amniotic fluid.
+Use validated biochemical testing for rupture of membranes where available and clinically appropriate.
+Avoid unnecessary digital vaginal examination if premature rupture of membranes is suspected.
+
+10. OBSTETRIC ULTRASOUND
+
+Perform if clinically indicated to assess:
+
+Fetal wellbeing.
+Fetal growth.
+Amniotic fluid volume.
+
+MANAGEMENT
+
+1. ANTIBIOTIC THERAPY
+
+Given the characteristic clinical presentation, treat for bacterial vaginosis after appropriate assessment.
+
+One pregnancy-compatible regimen is:
+
+Metronidazole 400–500 mg orally twice daily for 5–7 days, according to local guideline and clinical assessment.
+
+Alternatively:
+
+Metronidazole 0.75% vaginal gel, 5 g intravaginally once daily for 5 days, where appropriate and available.
+
+Treatment should be reviewed and modified if microbiology results identify an alternative diagnosis.
+
+2. IF TRICHOMONIASIS IS CONFIRMED
+
+Treat with an appropriate oral metronidazole regimen according to current local protocol.
+
+The sexual partner should also be treated.
+
+Advise abstinence from sexual intercourse until both partners have completed treatment and symptoms have resolved.
+
+3. IF GONORRHOEA OR CHLAMYDIA IS CONFIRMED
+
+Treat with appropriate pregnancy-compatible antibiotics according to current STI guidelines and antimicrobial susceptibility patterns.
+
+The patient and relevant sexual partner(s) should receive appropriate management.
+
+4. IF CANDIDIASIS IS CONFIRMED
+
+Treat with a 7-day course of topical intravaginal azole therapy during pregnancy.
+
+Avoid routine oral fluconazole for uncomplicated vulvovaginal candidiasis during pregnancy.
+
+5. IF PREMATURE RUPTURE OF MEMBRANES IS SUSPECTED
+
+Urgently refer/admit for obstetric assessment.
+
+Assess for:
+
+Chorioamnionitis.
+Gestational age.
+Fetal wellbeing.
+Evidence of labour.
+
+Management should follow the appropriate protocol for preterm or term rupture of membranes.
+
+6. IF ASCENDING INFECTION OR SEPSIS IS SUSPECTED
+
+Admit urgently.
+
+Obtain appropriate cultures.
+
+Commence IV broad-spectrum antibiotics according to local obstetric and microbiology protocols.
+
+Monitor:
+
+Maternal vital signs.
+Fetal wellbeing.
+Full blood count.
+CRP.
+Renal function.
+
+NURSING INSTRUCTIONS
+
+Monitor temperature.
+Monitor pulse and blood pressure.
+Observe for worsening abdominal pain.
+Observe for vaginal bleeding.
+Observe for leakage of clear fluid.
+Monitor for uterine contractions.
+Monitor fetal wellbeing as clinically indicated.
+Administer medications as prescribed.
+
+HEALTH EDUCATION
+
+Explain that foul-smelling vaginal discharge is not considered normal physiological vaginal discharge in pregnancy and requires assessment.
+
+Advise the patient to:
+
+Complete the prescribed medication.
+Avoid vaginal douching.
+Avoid scented vaginal washes and perfumed feminine hygiene products.
+Maintain good vulval hygiene.
+Wear loose-fitting cotton underwear.
+Avoid self-medication with antibiotics.
+Use condoms where appropriate, particularly if there is concern about STI exposure.
+Ensure sexual partner treatment where an STI is diagnosed.
+
+Explain the importance of returning for review if symptoms persist after treatment.
+
+WARNING SIGNS REQUIRING URGENT REVIEW
+
+Advise the patient to return immediately if she develops:
+
+Fever or chills.
+Severe or worsening lower abdominal pain.
+Uterine tenderness.
+Regular painful uterine contractions.
+Vaginal bleeding.
+Gush or continuous leakage of clear fluid.
+Reduced fetal movements, when fetal movements are established.
+Severe weakness or dizziness.
+Foul-smelling discharge associated with systemic illness.
+
+These symptoms may indicate ascending genital tract infection, chorioamnionitis, premature rupture of membranes or preterm labour.
+
+FOLLOW-UP
+
+Review within 48–72 hours if symptoms are significant or earlier if there is clinical deterioration.
+
+Review microbiology and STI results when available.
+
+Modify treatment according to confirmed diagnosis and antimicrobial susceptibility.
+
+If symptoms persist despite treatment:
+
+Reassess the diagnosis.
+Exclude trichomoniasis.
+Exclude gonorrhoea and chlamydia.
+Assess for mixed infection.
+Consider retained foreign body.
+Reassess for premature rupture of membranes.
+Evaluate for ascending infection if abdominal pain or systemic symptoms develop.
+
+Continue routine antenatal care.
+
+PROGNOSIS
+
+Good with appropriate diagnosis and treatment.
+
+Final working diagnosis: Symptomatic bacterial vaginosis in pregnancy at 22 weeks + 5 days gestation, presenting with thin, homogeneous, foul-smelling vaginal discharge, currently without clinical evidence of premature rupture of membranes, preterm labour or systemic infection.`,
+  documentation: `
+<div class="space-y-6">
+
+Not yet available
+
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-30',
+  title: 'Vulvovaginal Candidiasis in Pregnancy',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Vulvovaginal Candidiasis',
+  symptoms: ['Abnormal vaginal discharge', 'Vulval itching', 'Vulval irritation', 'Vulval soreness', 'Thick curd-like vaginal discharge'],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '29-year-old G3P1+1 at 24 weeks + 2 days gestation presenting with thick, whitish, curd-like vaginal discharge associated with vulval itching, irritation and mild soreness, with examination findings suggestive of symptomatic vulvovaginal candidiasis and no evidence of premature rupture of membranes or preterm labour.',
+  content: `ANTENATAL CLINIC
+  
+  Patient Seen
+  
+  A 29-year-old G3P1+1 married female trader from Surulere, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  
+  Gestational Age: 24 weeks + 2 days by reliable LMP and dating ultrasound.
+  
+  PC:
+  
+  Abnormal vaginal discharge × 5 days.
+  Vulval itching × 4 days.
+  
+  HPC:
+  
+  The patient is a 29-year-old G3P1+1 woman at 24 weeks + 2 days gestation who was apparently well until five days prior to presentation when she noticed an increase in vaginal discharge.
+  
+  The discharge is described as thick, whitish and curd-like, with no significant offensive odour.
+  
+  This is associated with vulval itching and irritation, which is worse at night.
+  
+  She reports mild vulval soreness but no significant vulval swelling.
+  
+  There is no history of lower abdominal pain.
+  
+  There is no history of fever, chills or rigors.
+  
+  There is no dysuria or urinary frequency.
+  
+  There is no history of vaginal bleeding.
+  
+  There is no history of leakage of clear fluid per vaginam.
+  
+  There is no history of gush or continuous trickling of fluid from the vagina.
+  
+  There is no history of uterine contractions.
+  
+  She reports normal fetal movements for her gestational age.
+  
+  There is no history of recent antibiotic use.
+  
+  She denies recent use of vaginal douches or other intravaginal preparations.
+  
+  She has no known history of recurrent vaginal infections.
+  
+  REVIEW OF SYSTEMS:
+  
+  Genital / Gynaecological:
+  
+  Increased vaginal discharge.
+  Thick, whitish, curd-like discharge.
+  Vulval itching.
+  Vulval irritation and soreness.
+  No offensive odour.
+  No vaginal bleeding.
+  No lower abdominal pain.
+  No dyspareunia.
+  
+  Urinary:
+  
+  No dysuria.
+  No urinary frequency.
+  No urgency.
+  No haematuria.
+  
+  Obstetric:
+  
+  No vaginal bleeding.
+  No leakage of liquor.
+  No gush or continuous trickling of fluid.
+  No uterine contractions.
+  No symptoms suggestive of preterm labour.
+  Fetal movements perceived and appropriate for gestational age.
+  
+  General:
+  
+  No fever.
+  No chills.
+  No rigors.
+  No significant malaise.
+  
+  ANTENATAL HISTORY:
+  
+  Current pregnancy was spontaneous and desired.
+  
+  She booked for antenatal care at approximately 11 weeks gestation.
+  
+  Antenatal care has been regular.
+  
+  Booking investigations were reportedly satisfactory.
+  
+  She has been taking routine antenatal supplements.
+  
+  No history of hypertension in the current pregnancy.
+  
+  No history of diabetes mellitus.
+  
+  No previous sexually transmitted infection during the current pregnancy.
+  
+  No previous episode of abnormal vaginal discharge during this pregnancy.
+  
+  PAST MEDICAL HISTORY:
+  
+  No known hypertension.
+  No known diabetes mellitus.
+  No known chronic kidney disease.
+  No known immunosuppressive illness.
+  No history of recurrent vulvovaginal candidiasis.
+  
+  PAST SURGICAL HISTORY:
+  
+  No previous surgery.
+  
+  DRUG HISTORY:
+  
+  Currently taking routine antenatal supplements.
+  
+  No recent antibiotic use.
+  
+  No use of corticosteroids.
+  
+  No known drug allergies.
+  
+  OBSTETRIC HISTORY:
+  
+  G3P1+1.
+  
+  Previous pregnancy resulted in a term spontaneous vaginal delivery of a live female infant, currently alive and well.
+  
+  One previous first-trimester miscarriage.
+  
+  No previous preterm delivery.
+  
+  No previous pregnancy complicated by premature rupture of membranes.
+  
+  GYNAECOLOGICAL HISTORY:
+  
+  Menarche at 13 years.
+  
+  Previously regular menstrual cycles.
+  
+  No known history of sexually transmitted infection.
+  
+  No known history of pelvic inflammatory disease.
+  
+  No history of recurrent bacterial vaginosis.
+  
+  No history of recurrent vulvovaginal candidiasis.
+  
+  SEXUAL HISTORY:
+  
+  Married and sexually active with one regular partner.
+  
+  No recent change in sexual partner.
+  
+  No history suggestive of sexual assault.
+  
+  No known history of sexually transmitted infection in her partner.
+  
+  FAMILY HISTORY:
+  
+  No significant family history of recurrent vaginal infections.
+  
+  No known family history of diabetes mellitus.
+  
+  SOCIAL HISTORY:
+  
+  Trader.
+  
+  Lives with husband and child.
+  
+  Non-smoker.
+  
+  Does not consume alcohol.
+  
+  No recreational drug use.
+  
+  O/E:
+  
+  Young woman, conscious and alert, comfortable at rest, not in obvious painful distress, not pale, anicteric, not cyanosed, not dehydrated and without peripheral oedema.
+  
+  VITAL SIGNS:
+  
+  BP 110/68 mmHg
+  PR 84 bpm, regular
+  RR 18 cpm
+  Temperature 36.7°C
+  SpO₂ 99% on room air
+  
+  ABD:
+  
+  Abdomen uniformly distended by pregnancy.
+  
+  Fundal height corresponds approximately with gestational age.
+  
+  Abdomen soft and non-tender.
+  
+  No guarding.
+  
+  No rebound tenderness.
+  
+  No palpable abdominal masses.
+  
+  No uterine tenderness.
+  
+  No palpable uterine contractions.
+  
+  OBSTETRIC EXAMINATION:
+  
+  Uterus appropriate for gestational age.
+  
+  Fundal height approximately 24 cm.
+  
+  Fetal lie and presentation appropriate for gestational age.
+  
+  Fetal heart rate 146 bpm, regular.
+  
+  No vaginal bleeding noted.
+  
+  No clinical evidence of preterm labour.
+  
+  VULVOVAGINAL EXAMINATION:
+  
+  Informed consent obtained. Privacy ensured and chaperone present.
+  
+  External genitalia inspected.
+  
+  Mild vulval erythema and excoriation noted.
+  
+  A moderate amount of thick, white, curd-like vaginal discharge is present.
+  
+  No offensive or fishy odour.
+  
+  No genital ulcers.
+  
+  No vesicles.
+  
+  No obvious genital warts.
+  
+  No active vaginal bleeding.
+  
+  Cervix appears closed with no obvious cervical lesion or active bleeding.
+  
+  No obvious pooling of clear fluid in the posterior fornix.
+  
+  CVS:
+  
+  Pulse regular.
+  
+  Heart sounds I and II normal.
+  
+  No murmurs.
+  
+  CHEST:
+  
+  Normal vesicular breath sounds bilaterally.
+  
+  No added sounds.
+  
+  CNS:
+  
+  Conscious and oriented.
+  
+  No focal neurological deficit.
+  
+  ASSESSMENT:
+  
+  Symptomatic vulvovaginal candidiasis (vulvovaginal thrush) in pregnancy at 24 weeks + 2 days gestation.
+  
+  The clinical picture of thick, white, curd-like, non-offensive vaginal discharge associated with marked vulval pruritus and erythema is suggestive of vulvovaginal candidiasis.
+  
+  There is currently no clinical evidence of premature rupture of membranes, preterm labour, pelvic inflammatory disease or systemic infection.
+  
+  However, abnormal vaginal discharge in pregnancy requires appropriate assessment because the differential diagnosis includes sexually transmitted infections and other causes that may have implications for maternal and fetal health.
+  
+  DIFFERENTIAL DIAGNOSES:
+  
+  Vulvovaginal candidiasis.
+  Bacterial vaginosis.
+  Trichomoniasis.
+  Cervicitis due to Chlamydia trachomatis or Neisseria gonorrhoeae.
+  Physiological leukorrhoea of pregnancy.
+  Premature rupture of membranes — to be excluded clinically if watery leakage is reported.
+  Genital herpes infection.
+  Mixed vaginal infection.
+  
+  INVESTIGATIONS:
+  
+  1. VAGINAL SWAB
+  
+  Collect vaginal swab for microscopy, culture and sensitivity where available.
+  
+  Assess for Candida species, bacterial pathogens and other causes of abnormal discharge.
+  
+  2. HIGH VAGINAL SWAB / MICROSCOPY
+  
+  Microscopy may demonstrate:
+  
+  Budding yeast.
+  Pseudohyphae.
+  Clue cells.
+  Motile trichomonads.
+  
+  3. VAGINAL pH
+  
+  Vaginal pH is useful in differentiating causes of vaginal discharge.
+  
+  Vulvovaginal candidiasis typically has a vaginal pH within the normal acidic range.
+  
+  A higher vaginal pH may suggest bacterial vaginosis or trichomoniasis.
+  
+  4. TESTING FOR SEXUALLY TRANSMITTED INFECTIONS
+  
+  Where clinically indicated, screen for:
+  
+  Chlamydia trachomatis.
+  Neisseria gonorrhoeae.
+  Trichomonas vaginalis.
+  
+  Use NAAT where available.
+  
+  5. HIV AND SYPHILIS SCREENING
+  
+  Perform according to routine antenatal protocols and local guidelines.
+  
+  6. URINALYSIS
+  
+  Perform if urinary symptoms are present or if there is diagnostic uncertainty.
+  
+  7. OBSTETRIC ULTRASOUND
+  
+  Perform where clinically indicated to assess fetal wellbeing, fetal growth and amniotic fluid volume.
+  
+  8. ASSESSMENT FOR RUPTURE OF MEMBRANES
+  
+  If the patient describes watery leakage, a gush or continuous trickling of fluid, perform a sterile speculum examination to assess for pooling of amniotic fluid.
+  
+  Use validated biochemical testing for rupture of membranes where available and clinically appropriate.
+  
+  Avoid unnecessary digital vaginal examination if rupture of membranes is suspected.
+  
+  PLAN:
+  
+  1. ANTIFUNGAL TREATMENT
+  
+  For symptomatic vulvovaginal candidiasis in pregnancy, use a topical intravaginal azole preparation for 7 days.
+  
+  One option is:
+  
+  Clotrimazole vaginal tablet 100 mg inserted intravaginally at night for 7 nights.
+  
+  Alternatively:
+  
+  Clotrimazole 1% vaginal cream, applied intravaginally once daily for 7 days.
+  
+  External vulval symptoms may be managed with:
+  
+  Clotrimazole 1% cream applied thinly to the external vulval area twice daily for up to 7 days, if required.
+  
+  Treatment should be reviewed if symptoms persist or recur.
+  
+  2. ORAL ANTIFUNGAL THERAPY
+  
+  Avoid routine oral fluconazole during pregnancy, particularly for uncomplicated vulvovaginal candidiasis.
+  
+  Use pregnancy-appropriate topical therapy instead.
+  
+  MANAGEMENT OF OTHER POSSIBLE CAUSES:
+  
+  Treatment should be guided by clinical findings and laboratory results.
+  
+  Bacterial Vaginosis:
+  
+  If confirmed or strongly suspected, pregnancy-compatible treatment may include:
+  
+  Metronidazole 400–500 mg orally twice daily for 5–7 days, according to local guideline.
+  
+  Alternatively, an appropriate intravaginal regimen may be used.
+  
+  Trichomoniasis:
+  
+  Treat with:
+  
+  Metronidazole 400–500 mg orally twice daily for 5–7 days, according to local protocol.
+  
+  The sexual partner should also be treated to prevent reinfection.
+  
+  Advise abstinence from sexual intercourse until both partners have completed treatment and symptoms have resolved.
+  
+  Gonorrhoea / Chlamydia:
+  
+  Treat according to current local STI guidelines and antimicrobial susceptibility patterns.
+  
+  The patient and sexual partner(s) should receive appropriate management.
+  
+  NURSING INSTRUCTIONS:
+  
+  Monitor temperature.
+  Monitor for worsening vaginal symptoms.
+  Observe for vaginal bleeding.
+  Observe for leakage of clear fluid.
+  Monitor for uterine contractions.
+  Monitor fetal wellbeing as clinically indicated.
+  Administer medication as prescribed.
+  
+  HEALTH EDUCATION:
+  
+  Explain that increased vaginal discharge is common during pregnancy, but discharge that is associated with itching, unpleasant odour, pain or other symptoms may indicate an infection.
+  
+  Advise the patient to:
+  
+  Keep the vulval area clean and dry.
+  Avoid vaginal douching.
+  Avoid scented soaps, sprays and perfumed feminine hygiene products.
+  Wear loose-fitting cotton underwear.
+  Avoid self-medication with antibiotics or antifungal medications.
+  Complete the prescribed treatment.
+  Return for review if symptoms persist after treatment.
+  
+  Explain that recurrent symptoms may require further investigation to confirm the diagnosis and exclude other infections.
+  
+  WARNING SIGNS REQUIRING URGENT REVIEW:
+  
+  Advise the patient to return immediately if she develops:
+  
+  Gush or continuous leakage of clear fluid.
+  Vaginal bleeding.
+  Regular painful uterine contractions.
+  Lower abdominal or pelvic pain.
+  Fever or chills.
+  Foul-smelling discharge associated with fever or abdominal pain.
+  Reduced fetal movements, when fetal movements are established.
+  Severe vulval swelling or ulceration.
+  
+  These symptoms may indicate premature rupture of membranes, preterm labour, intra-amniotic infection or another obstetric complication.
+  
+  FOLLOW-UP:
+  
+  Review within 1–2 weeks or earlier if symptoms worsen.
+  
+  Assess response to treatment.
+  
+  Review vaginal swab and STI test results when available.
+  
+  If symptoms persist despite appropriate therapy:
+  
+  Confirm the diagnosis.
+  Assess for non-albicans Candida species.
+  Consider bacterial vaginosis or mixed infection.
+  Reassess for sexually transmitted infections.
+  Consider diabetes mellitus or other predisposing factors.
+  
+  Continue routine antenatal care.
+  
+  PROGNOSIS:
+  
+  Good with appropriate diagnosis and treatment.
+  
+  Vulvovaginal candidiasis is common during pregnancy and is generally not associated with serious maternal or fetal complications when appropriately managed.
+  
+  However, persistent or recurrent abnormal vaginal discharge should be reassessed to exclude bacterial vaginosis, trichomoniasis, sexually transmitted infections, mixed infection or premature rupture of membranes.
+  
+  Final working diagnosis: Symptomatic vulvovaginal candidiasis in pregnancy at 24 weeks + 2 days gestation, presenting with pruritic, thick, non-offensive vaginal discharge, with no current clinical evidence of premature rupture of membranes or preterm labour.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
+  id: 'ob-29',
+  title: 'Acute Cystitis in Pregnancy',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Urinary Tract Infection in Pregnancy',
+  symptoms: ['Dysuria', 'Urinary frequency', 'Urinary urgency', 'Suprapubic discomfort', 'Cloudy urine', 'Strong-smelling urine'],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '27-year-old G2P1 at 18 weeks + 4 days gestation presenting with dysuria, urinary frequency, urgency and mild suprapubic discomfort, clinically stable with features of acute uncomplicated cystitis and no evidence of pyelonephritis or systemic infection.',
+  content: `ANTENATAL CLINIC
+  
+  Patient Seen
+  
+  A 27-year-old G2P1 married female teacher from Ikeja, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  
+  Gestational Age: 18 weeks + 4 days by reliable LMP and dating ultrasound.
+  
+  PC:
+  
+  Painful urination × 3 days.
+  Increased urinary frequency × 3 days.
+  Lower abdominal discomfort × 2 days.
+  
+  HPC:
+  
+  The patient is a 27-year-old G2P1 woman at 18 weeks + 4 days gestation who was apparently well until three days prior to presentation when she developed painful urination.
+  
+  She describes the pain as a burning sensation occurring mainly towards the end of urination.
+  
+  This is associated with increased urinary frequency and urgency, with passage of small volumes of urine at a time.
+  
+  Two days prior to presentation, she developed mild intermittent suprapubic discomfort, described as a dull aching sensation, without radiation.
+  
+  She reports that her urine has become cloudy and has a stronger-than-usual smell.
+  
+  There is no history of visible haematuria.
+  
+  There is no history of urinary retention.
+  
+  There is no history of flank pain.
+  
+  There is no history of fever, chills or rigors.
+  
+  There is no nausea or vomiting.
+  
+  There is no history of vaginal bleeding or abnormal vaginal discharge.
+  
+  There is no history of leakage of liquor.
+  
+  There is no history of uterine contractions.
+  
+  She reports normal fetal movements for her gestational age.
+  
+  There is no history of previous renal disease or recurrent urinary tract infections.
+  
+  REVIEW OF SYSTEMS:
+  
+  Genitourinary:
+  
+  Dysuria.
+  Urinary frequency.
+  Urinary urgency.
+  Suprapubic discomfort.
+  Cloudy, strong-smelling urine.
+  No frank haematuria.
+  No flank pain.
+  No urinary retention.
+  
+  General:
+  
+  No fever.
+  No chills.
+  No rigors.
+  No significant weight loss.
+  
+  Obstetric:
+  
+  No vaginal bleeding.
+  No abnormal vaginal discharge.
+  No leakage of fluid per vaginam.
+  No uterine contractions.
+  No symptoms suggestive of preterm labour.
+  Fetal movements perceived and appropriate for gestational age.
+  
+  Gastrointestinal:
+  
+  No nausea.
+  No vomiting.
+  No diarrhoea.
+  
+  ANTENATAL HISTORY:
+  
+  Pregnancy was spontaneous and desired.
+  
+  She booked for antenatal care at approximately 10 weeks gestation.
+  
+  Antenatal care has been regular.
+  
+  Booking investigations were reportedly satisfactory.
+  
+  She has been taking routine antenatal supplements.
+  
+  No history of hypertension in the current pregnancy.
+  
+  No history of diabetes mellitus.
+  
+  No previous urinary tract infection during this pregnancy.
+  
+  No history of previous preterm delivery.
+  
+  PAST MEDICAL HISTORY:
+  
+  No known hypertension.
+  No known diabetes mellitus.
+  No known chronic kidney disease.
+  No known renal stones.
+  No known recurrent urinary tract infections.
+  No known sickle cell disease.
+  
+  PAST SURGICAL HISTORY:
+  
+  No previous surgery.
+  
+  DRUG HISTORY:
+  
+  Currently taking routine antenatal supplements, including folic acid and iron.
+  
+  No recent antibiotic use.
+  
+  No known drug allergies.
+  
+  OBSTETRIC HISTORY:
+  
+  G2P1.
+  
+  Previous pregnancy resulted in a term spontaneous vaginal delivery of a live male infant, currently alive and well.
+  
+  No history of previous preterm delivery.
+  
+  No history of miscarriage.
+  
+  No previous pregnancy complicated by urinary tract infection or pyelonephritis.
+  
+  GYNAECOLOGICAL HISTORY:
+  
+  Menarche at 13 years.
+  
+  Previously regular menstrual cycles.
+  
+  No known history of sexually transmitted infection.
+  
+  No known history of recurrent vaginal infections.
+  
+  FAMILY HISTORY:
+  
+  No significant family history of renal disease.
+  
+  No family history of recurrent urinary tract infections.
+  
+  SOCIAL HISTORY:
+  
+  Teacher.
+  
+  Lives with husband and child.
+  
+  Non-smoker.
+  
+  Does not consume alcohol.
+  
+  No recreational drug use.
+  
+  O/E:
+  
+  Young woman, conscious and alert, comfortable at rest, not in obvious painful distress, not pale, anicteric, not cyanosed, not dehydrated and without peripheral oedema.
+  
+  VITAL SIGNS:
+  
+  BP 112/70 mmHg
+  PR 88 bpm, regular
+  RR 18 cpm
+  Temperature 36.8°C
+  SpO₂ 99% on room air
+  
+  ABD:
+  
+  Abdomen uniformly distended by pregnancy.
+  
+  Fundal height corresponds approximately with gestational age.
+  
+  Abdomen soft.
+  
+  Mild suprapubic tenderness.
+  
+  No guarding.
+  
+  No rebound tenderness.
+  
+  No palpable abdominal masses.
+  
+  No renal angle tenderness.
+  
+  No costovertebral angle tenderness.
+  
+  No clinical evidence of acute abdomen.
+  
+  OBSTETRIC EXAMINATION:
+  
+  Uterus appropriate for gestational age.
+  
+  No uterine tenderness.
+  
+  No palpable uterine contractions.
+  
+  Fetal heart rate 148 bpm, regular.
+  
+  No vaginal bleeding noted.
+  
+  No clinical evidence of preterm labour.
+  
+  CVS:
+  
+  Pulse regular.
+  
+  Heart sounds I and II normal.
+  
+  No murmurs.
+  
+  CHEST:
+  
+  Normal vesicular breath sounds bilaterally.
+  
+  No added sounds.
+  
+  CNS:
+  
+  Conscious and oriented.
+  
+  No focal neurological deficit.
+  
+  ASSESSMENT:
+  
+  Acute uncomplicated lower urinary tract infection (acute cystitis) in pregnancy at 18 weeks + 4 days gestation.
+  
+  Currently clinically stable with no evidence of systemic infection or acute pyelonephritis.
+  
+  Pregnancy-associated UTI requires treatment because untreated infection may progress to pyelonephritis and is associated with adverse maternal and obstetric outcomes.
+  
+  DIFFERENTIAL DIAGNOSES:
+  
+  Acute cystitis in pregnancy.
+  Asymptomatic bacteriuria with coincidental urinary symptoms.
+  Vulvovaginal candidiasis.
+  Sexually transmitted infection/urethritis.
+  Bacterial vaginosis.
+  Acute pyelonephritis — currently less likely in the absence of fever, rigors and flank pain.
+  Urolithiasis.
+  
+  INVESTIGATIONS:
+  
+  1. URINALYSIS
+  
+  Perform urine dipstick for:
+  
+  Leukocyte esterase.
+  Nitrites.
+  Blood.
+  Protein.
+  Glucose.
+  Ketones.
+  
+  Findings may show positive leukocyte esterase and/or nitrites.
+  
+  2. MIDSTREAM URINE MCS
+  
+  Send a properly collected midstream urine sample for microscopy, culture and antibiotic sensitivity.
+  
+  Ideally obtain the urine sample before starting antibiotics.
+  
+  Modify antibiotic therapy according to the culture and sensitivity result.
+  
+  3. FULL BLOOD COUNT
+  
+  Assess for leukocytosis and anaemia.
+  
+  4. SERUM ELECTROLYTES, UREA AND CREATININE
+  
+  Assess renal function, particularly if there is concern for upper urinary tract involvement or complicated infection.
+  
+  5. BLOOD CULTURES
+  
+  Obtain if the patient develops high fever, rigors, sepsis or suspected pyelonephritis.
+  
+  6. OBSTETRIC ULTRASOUND
+  
+  Perform if clinically indicated to assess fetal wellbeing and exclude obstetric complications.
+  
+  7. RENAL ULTRASOUND
+  
+  Consider if there is recurrent UTI, persistent infection despite appropriate therapy, suspected urinary obstruction, renal stones or suspected renal abscess.
+  
+  PLAN:
+  
+  1. OUTPATIENT MANAGEMENT
+  
+  The patient is clinically stable, afebrile and has no features of pyelonephritis or sepsis.
+  
+  She may be managed as an outpatient with appropriate oral antibiotics and close follow-up.
+  
+  2. ANTIBIOTIC THERAPY
+  
+  Treatment should ideally be guided by urine culture and local antimicrobial susceptibility patterns.
+  
+  Reasonable pregnancy-compatible options for acute cystitis include:
+  
+  OPTION 1 — NITROFURANTOIN
+  
+  Nitrofurantoin 100 mg orally twice daily for 5 days.
+  
+  Avoid in patients with significant renal impairment.
+  
+  Avoid near term where possible and according to local obstetric guidance.
+  
+  OPTION 2 — CEPHALEXIN
+  
+  Cephalexin 500 mg orally four times daily for 5–7 days.
+  
+  Adjust according to urine culture and sensitivity.
+  
+  OPTION 3 — AMOXICILLIN-CLAVULANATE
+  
+  Amoxicillin-clavulanate 625 mg orally every 8 hours for 5–7 days.
+  
+  Use when appropriate based on local resistance patterns and culture results.
+  
+  OPTION 4 — FOSFOMYCIN
+  
+  Fosfomycin trometamol 3 g orally as a single dose.
+  
+  May be considered for uncomplicated lower UTI in pregnancy, subject to local availability and susceptibility patterns.
+  
+  IMPORTANT:
+  
+  Avoid empiric amoxicillin or ampicillin monotherapy in many settings because of high rates of E. coli resistance unless culture and sensitivity demonstrate susceptibility.
+  
+  Avoid fluoroquinolones and tetracyclines during pregnancy unless specifically directed by a specialist for an exceptional indication.
+  
+  3. ANALGESIA
+  
+  For discomfort:
+  
+  Paracetamol 1 g orally every 6–8 hours as required.
+  
+  Do not exceed the recommended maximum daily dose.
+  
+  Avoid routine NSAID use during pregnancy, particularly later in pregnancy.
+  
+  4. HYDRATION
+  
+  Encourage adequate oral fluid intake unless contraindicated.
+  
+  Advise the patient not to deliberately restrict fluids.
+  
+  5. ANTENATAL CARE
+  
+  Continue routine antenatal supplements.
+  
+  Continue regular antenatal visits.
+  
+  Monitor maternal blood pressure and fetal wellbeing.
+  
+  MANAGEMENT IF PYELONEPHRITIS DEVELOPS:
+  
+  The patient should be admitted if she develops:
+  
+  Fever ≥38°C.
+  Rigors.
+  Flank or loin pain.
+  Renal angle tenderness.
+  Vomiting.
+  Tachycardia.
+  Hypotension.
+  Sepsis.
+  Clinical deterioration.
+  
+  Possible treatment includes:
+  
+  IV Ceftriaxone 1–2 g once daily.
+  
+  Alternatively, another appropriate pregnancy-compatible IV antibiotic may be selected based on local guidelines and culture results.
+  
+  Obtain urine culture and blood cultures before antibiotics where feasible.
+  
+  Continue IV therapy until the patient is clinically improved and afebrile, then switch to an appropriate oral antibiotic to complete the recommended treatment course based on culture results.
+  
+  NURSING INSTRUCTIONS:
+  
+  Monitor temperature.
+  Monitor pulse and blood pressure.
+  Monitor urinary symptoms.
+  Encourage adequate oral fluids.
+  Administer antibiotics as prescribed.
+  Observe for development of fever, rigors, flank pain or vomiting.
+  Monitor fetal wellbeing as clinically indicated.
+  
+  HEALTH EDUCATION:
+  
+  Explain that urinary tract infections are common during pregnancy because of physiological changes in the urinary tract.
+  
+  Emphasize the importance of completing the full course of antibiotics even if symptoms resolve early.
+  
+  Advise adequate fluid intake.
+  
+  Advise regular bladder emptying and avoidance of prolonged urinary retention.
+  
+  Advise wiping from front to back after using the toilet.
+  
+  Advise the patient to return immediately if she develops:
+  
+  Fever.
+  Chills or rigors.
+  Flank or loin pain.
+  Persistent vomiting.
+  Reduced urine output.
+  Severe weakness.
+  Vaginal bleeding.
+  Leakage of fluid.
+  Painful uterine contractions.
+  
+  Explain that these may indicate progression to pyelonephritis, sepsis or an obstetric complication.
+  
+  FOLLOW-UP:
+  
+  Review the patient within 48–72 hours to assess clinical response.
+  
+  Review urine culture and sensitivity results when available.
+  
+  Modify antibiotic therapy according to susceptibility results.
+  
+  Consider a test-of-cure urine culture approximately 1–2 weeks after completion of therapy, particularly because the patient is pregnant and recurrence may have obstetric consequences.
+  
+  If recurrent UTIs occur during pregnancy, assess for underlying risk factors and consider specialist obstetric/urological review.
+  
+  PROGNOSIS:
+  
+  Good with prompt diagnosis and appropriate antibiotic treatment.
+  
+  Untreated or inadequately treated UTI in pregnancy may progress to:
+  
+  Acute pyelonephritis.
+  Maternal sepsis.
+  Preterm labour.
+  Preterm birth.
+  Low birth weight.
+  Other adverse pregnancy outcomes.
+  
+  Final working diagnosis: Acute uncomplicated cystitis (lower urinary tract infection) in pregnancy at 18 weeks + 4 days gestation, currently without clinical evidence of pyelonephritis or systemic infection.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
+  id: 'ob-28',
+  title: 'Lactational Breast Abscess',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Postnatal Clinic',
+  condition: 'Lactational Breast Abscess',
+  symptoms: [
+    'Painful left breast swelling',
+    'Fever',
+    'Purulent discharge from the breast',
+    'Difficulty breastfeeding',
+    'Breast erythema and warmth',
+    'Reduced milk flow'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-27',
+  summary: '31-year-old G2P2+0 woman, 5 weeks postpartum and exclusively breastfeeding, presenting with a 7-day history of painful left breast swelling complicated by fever and spontaneous purulent discharge, with examination findings consistent with a lactational breast abscess secondary to acute bacterial mastitis.',
+  content: `POSTNATAL CLINIC
+
+Patient Seen
+
+A 31-year-old G2P2+0 married female trader from Ibadan, Oyo State, Christian, Yoruba, 5 weeks postpartum following spontaneous vaginal delivery at 39 weeks. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Painful swelling of the left breast × 7 days.
+Fever × 5 days.
+Purulent discharge from the left breast × 1 day.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient is a 31-year-old lactating mother who is 5 weeks postpartum and exclusively breastfeeding her infant. She was well until seven days prior to presentation when she developed pain and redness over the upper outer quadrant of her left breast. The pain was initially mild but progressively worsened and became throbbing, severe (9/10), and aggravated by breastfeeding and palpation.
+
+Five days before presentation, she developed fever associated with chills, malaise and generalized body weakness. She initially self-medicated with Paracetamol and herbal preparations without improvement.
+
+Three days ago, she noticed that the swelling became more localized and progressively enlarged. One day prior to presentation, the swelling became soft in the centre, and a small amount of thick yellow pus discharged spontaneously through a small opening in the overlying skin.
+
+She reports marked difficulty breastfeeding from the affected breast because of pain, although she continues to breastfeed from the unaffected breast. Milk production from the affected breast has reduced.
+
+She had cracked nipples during the first two weeks after delivery and admits that the baby occasionally had poor attachment during breastfeeding.
+
+There is no history of breast trauma.
+There is no previous breast surgery.
+There is no family history of breast cancer.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Fever.
+Chills.
+Malaise.
+Reduced appetite.
+Generalized weakness.
+
+Breast:
+
+Pain.
+Swelling.
+Redness.
+Purulent discharge.
+Difficulty breastfeeding.
+Reduced milk flow.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+
+Gastrointestinal:
+
+No vomiting.
+No abdominal pain.
+
+Genitourinary:
+
+Lochia minimal and non-offensive.
+No urinary symptoms.
+
+OBSTETRIC HISTORY
+
+G2P2+0.
+
+Spontaneous vaginal delivery at 39 weeks.
+Healthy male infant weighing 3.4 kg.
+Currently exclusively breastfeeding.
+No postpartum complications.
+
+PAST MEDICAL HISTORY
+
+No hypertension.
+No diabetes mellitus.
+No HIV infection.
+No chronic medical illness.
+
+PAST SURGICAL HISTORY
+
+Nil significant.
+
+DRUG HISTORY
+
+Paracetamol as required.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No family history of breast malignancy.
+
+SOCIAL HISTORY
+
+Lives with husband and children.
+Non-smoker.
+Does not consume alcohol.
+Good family support.
+
+GENERAL EXAMINATION
+
+Young woman.
+Conscious.
+Alert.
+Looks acutely ill.
+Febrile.
+Mildly dehydrated.
+Not pale.
+Not jaundiced.
+
+VITAL SIGNS
+
+Blood Pressure: 112/72 mmHg
+Pulse Rate: 108 beats/minute, regular.
+Respiratory Rate: 22 cycles/minute
+Temperature: 38.8°C
+SpO₂: 98% on room air
+Weight: 72 kg
+Height: 1.64 m
+BMI: 26.8 kg/m²
+
+BREAST EXAMINATION
+
+Left Breast:
+
+The left breast is enlarged compared with the right.
+
+There is an approximately 6 × 5 cm fluctuant swelling in the upper outer quadrant.
+
+The overlying skin is erythematous, warm and oedematous.
+
+Marked tenderness is elicited.
+
+Fluctuation is present.
+
+A small sinus near the centre is discharging thick yellow pus.
+
+Surrounding induration extends beyond the fluctuant area.
+
+A superficial nipple fissure is present.
+
+No nipple inversion.
+No peau d'orange.
+
+Milk can still be expressed around the abscess.
+
+Right Breast:
+
+Normal.
+No tenderness.
+No swelling.
+Milk expression normal.
+
+Axillae:
+
+Tender, mildly enlarged left anterior axillary lymph nodes.
+No supraclavicular lymphadenopathy.
+
+CARDIOVASCULAR EXAMINATION
+
+Heart sounds I and II normal.
+No murmurs.
+
+RESPIRATORY EXAMINATION
+
+Normal vesicular breath sounds.
+No added sounds.
+
+ABDOMINAL EXAMINATION
+
+Soft.
+Non-tender.
+No organomegaly.
+Uterus well involuted.
+
+ASSESSMENT
+
+Left lactational breast abscess complicating acute bacterial mastitis, most likely due to Staphylococcus aureus.
+
+DIFFERENTIAL DIAGNOSES
+
+Infected galactocele.
+Breast cellulitis.
+Inflammatory breast carcinoma.
+Fat necrosis of the breast.
+Infected epidermoid cyst.
+
+INVESTIGATIONS
+
+LABORATORY
+
+Full Blood Count, likely showing neutrophilic leukocytosis.
+
+Random Blood Glucose.
+
+Serum Electrolytes, Urea and Creatinine.
+
+HIV screening after counselling where appropriate.
+
+Pus microscopy, Gram stain, culture and sensitivity.
+
+Blood cultures if septicemia is suspected.
+
+IMAGING
+
+Breast ultrasound:
+
+Expected findings:
+
+Localized fluid collection.
+Abscess cavity.
+Size and depth of collection.
+Presence of loculations.
+Guidance for aspiration where appropriate.
+
+MANAGEMENT
+
+ADMISSION
+
+Admit under the General Surgery/Breast Surgery team.
+
+Monitor vital signs and clinical response.
+
+ANTIBIOTICS
+
+Commence empiric therapy pending culture results.
+
+Option 1 (Outpatient or mild infection):
+
+Cap Flucloxacillin 500 mg orally every 6 hours for 10–14 days.
+
+Option 2 (Hospitalized patient):
+
+Inj. Flucloxacillin 1–2 g IV every 6 hours, switching to oral therapy once improving.
+
+Alternative:
+
+Inj. Amoxicillin-Clavulanate 1.2 g IV every 8 hours, then 625 mg orally every 8 hours to complete 10–14 days.
+
+Penicillin Allergy:
+
+Cap Clindamycin 300–450 mg orally every 6 hours, or equivalent IV dosing if unable to take orally.
+
+Adjust antibiotics according to culture and sensitivity results and local antimicrobial guidelines.
+
+ANALGESIA
+
+Tab Paracetamol 1 g orally every 6 hours as required, maximum 4 g/day.
+
+If additional analgesia is required:
+
+Tab Ibuprofen 400 mg orally every 8 hours after meals, provided there are no contraindications. Ibuprofen is compatible with breastfeeding.
+
+DEFINITIVE TREATMENT
+
+Ultrasound-Guided Needle Aspiration:
+
+Preferred for:
+
+Unilocular abscesses.
+Abscesses generally <3–5 cm.
+Lactating women where feasible.
+
+Repeat aspiration may be required every 2–3 days until the cavity resolves.
+
+Send aspirated pus for microscopy, culture and sensitivity.
+
+INCISION AND DRAINAGE (I&D)
+
+Indications include:
+
+Large abscess.
+Multiloculated abscess.
+Overlying skin necrosis.
+Failure of repeated aspiration.
+Spontaneously ruptured abscess.
+Significant surrounding cellulitis.
+
+Procedure:
+
+Perform under appropriate anaesthesia.
+Make a radial incision where feasible to preserve breast ducts.
+Drain all pus.
+Break down loculations.
+Irrigate the cavity with normal saline.
+Obtain pus for microscopy, culture and sensitivity.
+Lightly pack the cavity if indicated and perform regular dressing changes.
+
+BREASTFEEDING
+
+Continue breastfeeding from the unaffected breast.
+
+Breastfeeding or expressing milk from the affected breast should continue if tolerated and clinically feasible, unless extensive surgery or other contraindications exist.
+
+Lactation support should be provided to maintain milk production and prevent milk stasis.
+
+WOUND CARE
+
+Daily sterile dressing.
+Monitor drainage.
+Observe for recurrent collection.
+Remove packing progressively as healing occurs.
+
+NURSING INSTRUCTIONS
+
+Monitor temperature every 4 hours.
+Monitor pain score.
+Record wound drainage.
+Maintain adequate hydration.
+Assist with breastfeeding technique and breast emptying.
+Administer medications as prescribed.
+
+HEALTH EDUCATION
+
+Explain that a breast abscess is a collection of pus that commonly develops as a complication of untreated or inadequately treated mastitis.
+
+Stress the importance of completing the full antibiotic course even after symptoms improve.
+
+Continue effective breast emptying through breastfeeding or milk expression.
+
+Maintain proper breastfeeding technique and nipple care to prevent recurrence.
+
+Seek immediate medical attention if fever persists, swelling enlarges, new abscesses develop, or there is worsening redness or systemic illness.
+
+FOLLOW-UP
+
+Daily review while admitted.
+
+Review wound after drainage.
+
+Repeat breast ultrasound if persistent collection is suspected.
+
+Review in the Breast Surgery Clinic 1 week after discharge.
+
+Continue dressing changes until complete healing.
+
+Refer to a lactation consultant for breastfeeding support.
+
+If the breast mass persists after infection has resolved, arrange further evaluation with repeat imaging and biopsy if indicated to exclude underlying malignancy.
+
+PROGNOSIS
+
+Good. Most lactational breast abscesses resolve completely with prompt drainage, appropriate antibiotics, continued breast emptying and good wound care. Delay in treatment may lead to recurrent abscess formation, chronic sinus formation, or interruption of breastfeeding.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-27',
+  title: 'Acute Lactational Mastitis',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Postnatal Clinic',
+  condition: 'Acute Lactational Mastitis',
+  symptoms: [
+    'Painful right breast swelling',
+    'Fever',
+    'Breast erythema and warmth',
+    'Difficulty breastfeeding',
+    'Cracked nipple',
+    'Reduced milk flow'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-27',
+  summary: '29-year-old G1P1+0 woman, 3 weeks postpartum and exclusively breastfeeding, presenting with a 4-day history of painful right breast swelling, erythema and warmth associated with fever and difficulty breastfeeding, consistent with acute lactational mastitis without clinical evidence of breast abscess.',
+  content: `POSTNATAL CLINIC
+
+Patient Seen
+
+A 29-year-old G1P1+0 married female teacher from Abeokuta, Ogun State, Christian, Yoruba, 3 weeks postpartum following spontaneous vaginal delivery at 39 weeks. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Painful swelling of the right breast × 4 days.
+Fever × 3 days.
+Difficulty breastfeeding from the right breast × 2 days.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient is a 29-year-old primiparous woman who is 3 weeks postpartum and exclusively breastfeeding her infant. She presented with a four-day history of progressively worsening pain in the right breast.
+
+The pain began as a localized area of tenderness in the upper outer quadrant of the right breast and gradually became associated with swelling, redness and warmth. It is throbbing in nature, rated 8/10 in severity, worsens during breastfeeding and with breast palpation, and is partially relieved by Paracetamol.
+
+Three days prior to presentation, she developed fever associated with chills, malaise and generalized body weakness.
+
+She reports that breastfeeding from the affected breast has become increasingly painful, leading to incomplete emptying of the breast. She has noticed decreased milk flow from the right breast but continues to breastfeed from the left breast.
+
+She admits to occasional poor latch by the infant and cracked nipples during the first week after delivery.
+
+There is no history of trauma to the breast.
+There is no purulent nipple discharge.
+She has not noticed a fluctuant swelling suggestive of an abscess.
+There is no previous history of mastitis or breast surgery.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Fever.
+Chills.
+Malaise.
+Reduced appetite.
+
+Breast:
+
+Pain.
+Swelling.
+Redness.
+Warmth.
+Difficulty breastfeeding.
+No bloody nipple discharge.
+No obvious breast lump before this illness.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+
+Gastrointestinal:
+
+No vomiting.
+No abdominal pain.
+
+Genitourinary:
+
+Lochia minimal and non-offensive.
+No dysuria.
+
+OBSTETRIC HISTORY
+
+G1P1+0.
+
+Spontaneous vaginal delivery at 39 weeks.
+Live female infant weighing 3.2 kg.
+No postpartum haemorrhage.
+Currently exclusively breastfeeding.
+
+PAST MEDICAL HISTORY
+
+No hypertension.
+No diabetes mellitus.
+No HIV infection.
+No chronic medical illness.
+
+PAST SURGICAL HISTORY
+
+Nil significant.
+
+DRUG HISTORY
+
+Paracetamol as required.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No family history of breast cancer.
+
+SOCIAL HISTORY
+
+Lives with her husband.
+Non-smoker.
+Does not consume alcohol.
+Good family support.
+
+GENERAL EXAMINATION
+
+Young woman.
+Conscious.
+Alert.
+Looks mildly ill.
+Febrile.
+Not pale.
+Not jaundiced.
+Well hydrated.
+
+VITAL SIGNS
+
+Blood Pressure: 118/76 mmHg
+Pulse Rate: 102 beats/minute, regular.
+Respiratory Rate: 20 cycles/minute
+Temperature: 38.5°C
+SpO₂: 99% on room air
+Weight: 70 kg
+Height: 1.65 m
+BMI: 25.7 kg/m²
+
+BREAST EXAMINATION
+
+Right Breast:
+
+The right breast is mildly enlarged.
+
+There is an approximately 8 × 6 cm area of erythema involving the upper outer quadrant.
+
+The affected area is warm, tender and indurated.
+
+No fluctuation is elicited.
+No obvious abscess.
+No skin ulceration.
+No peau d'orange appearance.
+No nipple retraction.
+
+A small superficial crack is present on the right nipple.
+
+Milk can be expressed from the nipple.
+No purulent nipple discharge.
+
+Left Breast:
+
+Normal.
+No tenderness.
+No swelling.
+No erythema.
+Milk expression is normal.
+
+Axillae:
+
+Small tender right anterior axillary lymph nodes palpable.
+No left axillary lymphadenopathy.
+
+CARDIOVASCULAR EXAMINATION
+
+Heart sounds I and II normal.
+No murmurs.
+
+RESPIRATORY EXAMINATION
+
+Normal vesicular breath sounds.
+No crepitations.
+
+ABDOMINAL EXAMINATION
+
+Soft.
+Non-tender.
+Uterus well involuted.
+No organomegaly.
+
+ASSESSMENT
+
+Acute lactational mastitis of the right breast, likely secondary to milk stasis with bacterial infection, most commonly Staphylococcus aureus, without clinical evidence of breast abscess.
+
+DIFFERENTIAL DIAGNOSES
+
+Breast abscess.
+Plugged (blocked) milk duct.
+Galactocele.
+Inflammatory breast cancer, unlikely.
+Cellulitis of the breast.
+
+INVESTIGATIONS
+
+Routine investigations are not always required in uncomplicated mastitis.
+
+Laboratory:
+
+Full Blood Count.
+Random Blood Glucose.
+
+Breast milk culture and sensitivity if symptoms are severe, recurrent, hospital-acquired or fail to improve after 48 hours of appropriate antibiotics.
+
+Blood cultures if the patient appears septic.
+
+Imaging:
+
+Breast ultrasound if:
+
+A fluctuant mass develops.
+Symptoms fail to improve after 48–72 hours.
+A breast abscess is suspected.
+
+MANAGEMENT
+
+GENERAL MEASURES
+
+Continue breastfeeding from both breasts, including the affected breast, unless an abscess drainage procedure or another contraindication exists.
+
+Ensure complete emptying of the affected breast after each feed.
+
+Encourage frequent feeding or milk expression every 2–3 hours.
+
+Correct breastfeeding technique and improve infant latch.
+
+Adequate oral hydration.
+
+Adequate rest.
+
+Warm compresses before feeding.
+
+Cold compresses after feeding for pain relief.
+
+ANTIBIOTICS
+
+First-line:
+
+Cap Flucloxacillin 500 mg orally every 6 hours for 10–14 days.
+
+If Flucloxacillin is unavailable:
+
+Tab Amoxicillin-Clavulanate 625 mg orally every 8 hours for 10–14 days.
+
+Penicillin Allergy:
+
+Cap Clindamycin 300 mg orally every 6 hours for 10–14 days.
+
+If MRSA is suspected based on local epidemiology or previous cultures, antibiotic choice should be guided by local antimicrobial guidelines and culture results.
+
+ANALGESIA
+
+Tab Paracetamol 1 g orally every 6 hours as required, maximum 4 g/day.
+
+If additional pain relief is required and there are no contraindications:
+
+Tab Ibuprofen 400 mg orally every 8 hours after meals for 3–5 days.
+
+Ibuprofen is compatible with breastfeeding.
+
+BREAST CARE
+
+Continue regular breastfeeding.
+Massage the affected area gently toward the nipple during feeding.
+Avoid tight brassieres.
+Maintain nipple hygiene.
+Apply purified lanolin cream to cracked nipples after feeds if available.
+
+IF BREAST ABSCESS DEVELOPS
+
+If ultrasound confirms an abscess:
+
+Ultrasound-guided needle aspiration, which may require repeated aspirations, or
+
+Incision and drainage for large, multiloculated or recurrent abscesses.
+
+Send aspirated pus for microscopy, culture and sensitivity.
+
+Continue antibiotics.
+
+Breastfeeding from the affected breast may continue if tolerated and clinically appropriate.
+
+NURSING INSTRUCTIONS
+
+Monitor temperature every 4–6 hours while admitted.
+
+Assess pain score regularly.
+
+Encourage adequate hydration.
+
+Observe for increasing redness, fluctuation or spontaneous drainage.
+
+Support breastfeeding and reinforce correct positioning and attachment.
+
+HEALTH EDUCATION
+
+Explain that mastitis is usually caused by milk stasis with bacterial infection entering through damaged nipples.
+
+Reassure the patient that breastfeeding should continue, as this promotes breast emptying and hastens recovery.
+
+Demonstrate proper breastfeeding positioning and attachment.
+
+Advise avoiding missed feeds.
+
+Maintain good hand hygiene before breastfeeding.
+
+Seek immediate medical attention if fever persists beyond 48 hours after starting antibiotics, if a fluctuant swelling develops, if symptoms worsen, or if there is increasing redness or purulent discharge.
+
+FOLLOW-UP
+
+Review after 48–72 hours to assess clinical improvement.
+
+If symptoms have not improved, arrange breast ultrasound to exclude abscess formation and review antibiotic choice.
+
+Follow-up again after completion of antibiotic therapy to ensure complete resolution.
+
+Refer to the Breast Surgery Clinic if recurrent mastitis, persistent breast lump after infection resolves, or suspicion of underlying malignancy.
+
+PROGNOSIS
+
+Excellent. Most cases of uncomplicated lactational mastitis respond well to early antibiotics, continued breastfeeding, effective breast emptying and supportive care. Delay in treatment may result in breast abscess formation requiring drainage.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'ob-26',
   title: 'Routine Antenatal Follow-Up (Term Pregnancy)',
   specialty: 'Obstetrics and Gynecology',
@@ -29931,6 +39646,3555 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-31',
+  title: 'Acute Epididymo-Orchitis',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Acute Epididymo-Orchitis',
+  symptoms: [
+    'Left scrotal pain and swelling',
+    'Fever',
+    'Dysuria',
+    'Urethral discharge',
+    'Urinary frequency'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '24-year-old male mechanic presenting with gradually worsening left scrotal pain and swelling, fever, dysuria, urinary frequency and urethral discharge following recent unprotected sexual intercourse, consistent with acute left epididymo-orchitis likely secondary to a sexually transmitted infection.',
+  content: `
+UROLOGY
+
+Patient Seen
+
+A 24-year-old single Yoruba Christian male mechanic from Lagos, Lagos State, who presented with a reliable history.
+
+CHIEF COMPLAINT
+
+Left scrotal pain and swelling × 3 days.
+Fever × 2 days.
+Dysuria and urethral discharge × 2 days.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until three days prior to presentation when he developed gradually worsening pain in the left side of the scrotum.
+
+The pain initially started around the left epididymal region and progressively increased in severity. It is described as a dull, aching pain, rated 7/10, and is worse on standing and walking.
+
+The pain was followed by progressive swelling of the left hemiscrotum.
+
+Two days prior to presentation, he developed fever associated with chills and generalized body weakness.
+
+He also reports dysuria, urinary frequency and a small amount of whitish-yellow urethral discharge.
+
+He reports unprotected sexual intercourse with a new sexual partner approximately two weeks prior to the onset of symptoms.
+
+There is no history of sudden onset of severe testicular pain.
+
+There is no history of recent scrotal trauma.
+
+There is no history of previous testicular torsion.
+
+There is no history of recent urinary catheterization or urological instrumentation.
+
+He denies nausea or vomiting.
+
+He has no abdominal pain.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Fever.
+Chills.
+Malaise.
+Reduced appetite.
+
+Genitourinary:
+
+Left scrotal pain.
+Left scrotal swelling.
+Dysuria.
+Urinary frequency.
+Urethral discharge.
+No haematuria.
+No urinary retention.
+No flank pain.
+
+Gastrointestinal:
+
+No nausea.
+No vomiting.
+No abdominal pain.
+No diarrhoea.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+
+PAST MEDICAL HISTORY
+
+No known chronic medical illness.
+No previous sexually transmitted infection.
+No previous urinary tract infection.
+No previous urological disease.
+No history of diabetes mellitus.
+
+PAST SURGICAL HISTORY
+
+No previous surgery.
+No previous urological procedure.
+
+DRUG HISTORY
+
+Not on regular medications.
+No recent antibiotic use.
+No known drug allergies.
+
+SEXUAL HISTORY
+
+Sexually active.
+Reports one new sexual partner within the past month.
+Had unprotected sexual intercourse approximately two weeks before onset of symptoms.
+No previous history of sexually transmitted infection.
+Partner's STI status is unknown.
+
+FAMILY HISTORY
+
+No significant family history of urological disease.
+
+SOCIAL HISTORY
+
+Works as a mechanic.
+Non-smoker.
+Occasional alcohol consumption.
+
+GENERAL EXAMINATION
+
+Young man.
+Conscious and alert.
+Mildly ill-looking.
+In mild painful distress.
+Febrile.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Mildly dehydrated.
+
+VITAL SIGNS
+
+Blood Pressure: 118/72 mmHg
+Pulse Rate: 104 beats/minute, regular.
+Respiratory Rate: 20 cycles/minute
+Temperature: 38.3°C
+SpO₂: 98% on room air
+Weight: 70 kg
+Height: 1.76 m
+BMI: 22.6 kg/m²
+
+GENITOURINARY EXAMINATION
+
+Inspection:
+
+Left hemiscrotum is enlarged.
+The overlying scrotal skin is erythematous and mildly oedematous.
+No ulceration.
+No skin necrosis.
+No visible urethral discharge at the time of examination.
+
+Palpation:
+
+Left epididymis is enlarged and markedly tender, particularly at the posterior aspect of the testis.
+The left testis is mildly tender but maintains normal lie.
+Left spermatic cord is mildly tender.
+The left testis is not high-riding.
+No palpable inguinal hernia.
+No crepitus.
+The right testis and epididymis are normal.
+
+Cremasteric Reflex:
+
+Present bilaterally.
+
+Prehn's Sign:
+
+Elevation of the left scrotum provides partial relief of pain.
+
+ABDOMINAL EXAMINATION
+
+Abdomen soft.
+Non-tender.
+No guarding.
+No rebound tenderness.
+No palpable masses.
+No hepatosplenomegaly.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Tachycardic.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Central Nervous System:
+
+Conscious and oriented.
+GCS 15/15.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Acute left epididymo-orchitis, likely sexually transmitted infection-associated, with possible Chlamydia trachomatis or Neisseria gonorrhoeae infection.
+
+There is currently no strong clinical evidence of testicular torsion, but torsion should be excluded urgently in any patient presenting with acute unilateral scrotal pain.
+
+DIFFERENTIAL DIAGNOSES
+
+Testicular torsion.
+Isolated acute epididymitis.
+Torsion of the appendix testis.
+Testicular abscess.
+Testicular tumour.
+Incarcerated or strangulated inguinal hernia.
+Fournier's gangrene.
+
+INVESTIGATIONS
+
+Laboratory Investigations:
+
+Full Blood Count
+
+May show leukocytosis with neutrophilia.
+
+Serum Electrolytes, Urea and Creatinine
+
+Assess renal function prior to certain antibiotic therapies.
+
+Random Blood Glucose
+
+Especially if severe infection or recurrent infection is present.
+
+Urinalysis
+
+Assess for pyuria, haematuria and nitrites.
+
+Urine Microscopy, Culture and Sensitivity
+
+Particularly useful if an enteric or urinary pathogen is suspected.
+
+First-void urine NAAT/PCR for:
+
+Chlamydia trachomatis.
+Neisseria gonorrhoeae.
+
+HIV screening after appropriate counselling.
+
+Syphilis screening where appropriate.
+
+Imaging:
+
+Colour Doppler Ultrasound of the Scrotum
+
+May demonstrate:
+
+Increased blood flow to the epididymis and testis.
+Enlarged epididymis.
+Scrotal wall thickening.
+Reactive hydrocele.
+
+The examination should also assess for reduced or absent testicular blood flow suggestive of torsion.
+
+Important: If clinical suspicion of testicular torsion is high, ultrasound should not delay emergency surgical exploration.
+
+MANAGEMENT
+
+1. OUTPATIENT OR INPATIENT CARE
+
+Assess severity.
+
+Admit if there is:
+
+Severe systemic illness.
+High fever or sepsis.
+Severe pain.
+Testicular abscess.
+Immunocompromise.
+Inability to tolerate oral medication.
+Failure of outpatient treatment.
+
+This patient is clinically stable and may be managed as an outpatient with close follow-up.
+
+2. ANTIBIOTIC THERAPY
+
+Treatment should be guided by the likely causative organism, sexual history and local antimicrobial resistance patterns.
+
+If likely sexually transmitted infection-associated epididymo-orchitis:
+
+Inj. Ceftriaxone 500 mg IM as a single dose for uncomplicated gonococcal infection in adults weighing <150 kg.
+
+If the patient weighs ≥150 kg, ceftriaxone 1 g IM once may be used.
+
+PLUS
+
+Doxycycline 100 mg orally twice daily for 7 days.
+
+If Chlamydia trachomatis infection is suspected or confirmed, complete the doxycycline course.
+
+If there is concern for concomitant enteric organisms or insertive anal intercourse, an appropriate regimen should include coverage for both STI pathogens and enteric organisms, such as:
+
+Ceftriaxone 500 mg IM once.
+
+PLUS
+
+Levofloxacin 500 mg orally once daily for 10 days, where local guidelines and susceptibility patterns support fluoroquinolone use.
+
+If likely urinary tract/enteric organism:
+
+For selected patients with epididymo-orchitis due to enteric organisms and no concern for gonorrhoea:
+
+Levofloxacin 500 mg orally once daily for 10 days, guided by urine culture and local antimicrobial resistance patterns.
+
+Antibiotic selection should be modified according to culture and sensitivity results.
+
+3. ANALGESIA
+
+Tab Paracetamol 1 g orally every 6–8 hours as required.
+
+Maximum daily dose should not exceed 4 g/day in adults without risk factors for hepatotoxicity.
+
+For additional analgesia:
+
+Tab Ibuprofen 400 mg orally every 8 hours after meals, provided there are no contraindications such as renal impairment, active peptic ulcer disease or significant gastrointestinal bleeding risk.
+
+4. SCROTAL SUPPORT
+
+Advise use of supportive underwear or scrotal support.
+
+Elevate the scrotum when resting.
+
+Apply intermittent cold packs wrapped in cloth to reduce pain and swelling.
+
+Avoid direct application of ice to the skin.
+
+5. HYDRATION
+
+Encourage adequate oral fluid intake if not contraindicated.
+
+IV fluids may be administered if oral intake is poor or the patient is dehydrated.
+
+6. SEXUAL HEALTH MANAGEMENT
+
+Advise abstinence from sexual intercourse until:
+
+The patient has completed treatment.
+Symptoms have resolved.
+All recent sexual partners have been evaluated and treated where indicated.
+
+Offer HIV and syphilis testing.
+
+Counsel regarding consistent condom use.
+
+PARTNER NOTIFICATION
+
+Recent sexual partners should be notified, evaluated and treated appropriately if an STI is suspected or confirmed.
+
+Partner management should follow local STI guidelines.
+
+FOLLOW-UP
+
+Review the patient within 48–72 hours to assess response to treatment.
+
+Expected improvement includes:
+
+Reduction in fever.
+Reduction in pain.
+Reduction in scrotal swelling.
+Improvement in urinary symptoms.
+
+If symptoms fail to improve within 48–72 hours, reassess the diagnosis and exclude:
+
+Testicular torsion.
+Testicular abscess.
+Testicular infarction.
+Inadequate antibiotic coverage.
+Resistant organism.
+Testicular tumour.
+
+Persistent swelling after treatment should prompt repeat scrotal ultrasound and urological review.
+
+NURSING INSTRUCTIONS
+
+Monitor temperature.
+Administer antibiotics as prescribed.
+Monitor pain score.
+Encourage adequate hydration.
+Assist with scrotal elevation.
+Observe for increasing scrotal swelling, worsening pain, skin discoloration or systemic deterioration.
+
+HEALTH EDUCATION
+
+Explain that epididymo-orchitis is an infection and inflammation involving the epididymis and testis.
+
+Explain that in younger sexually active men, sexually transmitted organisms such as Chlamydia trachomatis and Neisseria gonorrhoeae are common causes.
+
+Emphasize the importance of completing the full course of antibiotics.
+
+Advise the patient to return immediately if he develops:
+
+Sudden worsening of testicular pain.
+Severe persistent pain.
+Increasing swelling.
+High fever.
+Vomiting.
+Scrotal skin discoloration.
+Difficulty passing urine.
+
+Emphasize that sudden severe testicular pain may represent testicular torsion, which requires immediate surgical treatment.
+
+Prognosis: Good with prompt and appropriate treatment. Most uncomplicated cases improve with appropriate antibiotic therapy and supportive care. Potential complications include testicular abscess, testicular infarction, chronic scrotal pain, infertility and recurrent infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-30',
+  title: 'Acute Left Testicular Torsion',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Testicular Torsion',
+  symptoms: [
+    'Sudden severe left testicular pain',
+    'Left scrotal swelling',
+    'Nausea and vomiting',
+    'High-riding left testis',
+    'Absent left cremasteric reflex'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '19-year-old male university student presenting with sudden severe left testicular pain, progressive left scrotal swelling, nausea and vomiting, high-riding horizontally positioned testis, absent ipsilateral cremasteric reflex, and negative Prehn’s sign, consistent with acute left testicular torsion requiring immediate surgical exploration.',
+  content: `
+UROLOGY
+
+Patient Seen
+
+A 19-year-old single Yoruba Christian male university student from Lagos, Lagos State, who presented with a reliable history.
+
+CHIEF COMPLAINT
+
+Sudden onset of severe left testicular pain × 6 hours.
+Left scrotal swelling × 5 hours.
+Nausea and vomiting × 4 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately six hours prior to presentation when he developed sudden onset of severe pain in the left testicle. The pain began abruptly while he was asleep and woke him from sleep.
+
+The pain was initially localized to the left testicle but subsequently became associated with swelling of the left side of the scrotum. The pain is severe, constant and rated 9/10 in intensity.
+
+Approximately two hours after onset of pain, he developed nausea followed by two episodes of vomiting.
+
+He reports that the left testicle appears to be sitting higher than usual and that the scrotal swelling has progressively increased.
+
+There is no history of recent trauma.
+
+There is no history of dysuria.
+
+There is no urethral discharge.
+
+There is no urinary frequency or urgency.
+
+There is no history of fever or chills.
+
+There is no previous similar episode.
+
+He denies recent sexual intercourse or sexually transmitted infection symptoms.
+
+He reports no recent strenuous exercise, although he played football the previous evening.
+
+REVIEW OF SYSTEMS
+
+General:
+
+No fever.
+No chills.
+No weight loss.
+
+Genitourinary:
+
+Sudden severe left testicular pain.
+Left scrotal swelling.
+No dysuria.
+No haematuria.
+No urethral discharge.
+No urinary frequency.
+No previous sexually transmitted infection.
+
+Gastrointestinal:
+
+Nausea.
+Two episodes of vomiting.
+No abdominal pain.
+No diarrhoea.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No syncope.
+
+PAST MEDICAL HISTORY
+
+No known chronic medical illness.
+No previous urological disease.
+No previous episodes of testicular pain.
+No history of undescended testis.
+
+PAST SURGICAL HISTORY
+
+No previous surgery.
+
+DRUG HISTORY
+
+Not on any regular medication.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No family history of testicular disease.
+No known family history of testicular torsion.
+
+SOCIAL HISTORY
+
+University undergraduate.
+Lives in a university hostel.
+Non-smoker.
+Does not consume alcohol.
+Sexually active but reports one regular partner.
+
+GENERAL EXAMINATION
+
+Young man.
+Conscious and alert.
+In severe painful distress.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Well hydrated.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 124/76 mmHg
+Pulse Rate: 102 beats/minute, regular.
+Respiratory Rate: 20 cycles/minute
+Temperature: 36.9°C
+SpO₂: 99% on room air
+Weight: 68 kg
+Height: 1.75 m
+BMI: 22.2 kg/m²
+
+GENITOURINARY EXAMINATION
+
+Inspection:
+
+Left hemiscrotum is enlarged and mildly erythematous.
+Left testis appears elevated compared with the right.
+The left testis is positioned more horizontally than the contralateral testis.
+No visible skin ulceration.
+No urethral discharge.
+
+Palpation:
+
+Left testis is exquisitely tender.
+Left testis is firm and high-riding.
+The epididymis is difficult to distinguish separately from the testis due to severe tenderness and swelling.
+The left spermatic cord is tender.
+No obvious inguinal hernia.
+Right testis is normal in size, position and consistency.
+
+Cremasteric Reflex:
+
+Absent on the left side.
+Present on the right.
+
+Prehn's Sign:
+
+Elevation of the left scrotum does not provide significant pain relief.
+
+ABDOMINAL EXAMINATION
+
+Abdomen soft.
+Non-tender.
+No guarding.
+No palpable masses.
+No hepatosplenomegaly.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Heart sounds I and II normal.
+Mild tachycardia.
+No murmurs.
+
+Respiratory:
+
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Central Nervous System:
+
+Conscious and fully oriented.
+GCS 15/15.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Acute left testicular torsion (torsion of the spermatic cord) with threatened testicular ischemia.
+
+This is a urological emergency requiring immediate surgical exploration.
+
+The likelihood of testicular salvage decreases significantly with increasing duration of torsion, particularly beyond approximately 6 hours.
+
+DIFFERENTIAL DIAGNOSES
+
+Acute epididymo-orchitis.
+Torsion of the appendix testis.
+Incarcerated or strangulated inguinal hernia.
+Testicular trauma.
+Acute idiopathic scrotal oedema.
+Testicular tumour with acute haemorrhage or infarction.
+
+INVESTIGATIONS
+
+Investigations must not delay surgical exploration when clinical suspicion is high.
+
+Laboratory Investigations:
+
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Random Blood Glucose.
+Urinalysis.
+Urine microscopy, culture and sensitivity if urinary infection is suspected.
+Urethral swab or NAAT for gonorrhoea/chlamydia if clinically indicated.
+Group and Crossmatch.
+
+Imaging:
+
+Colour Doppler Ultrasound of the Scrotum
+
+May demonstrate:
+
+Reduced or absent intratesticular blood flow.
+Enlarged and oedematous testis.
+Abnormal horizontal lie.
+Twisting of the spermatic cord ("whirlpool sign").
+Reactive hydrocele.
+Scrotal wall thickening.
+
+Important: If clinical suspicion of torsion is high, Doppler ultrasound should not delay emergency surgery.
+
+EMERGENCY MANAGEMENT
+
+1. URGENT UROLOGY REVIEW
+
+Immediately notify the Urology/General Surgery Team.
+
+Prepare the patient for emergency scrotal exploration.
+
+2. NIL PER OS
+
+Keep patient NPO in preparation for emergency surgery.
+
+3. IV ACCESS
+
+Establish a large-bore IV cannula.
+
+Commence maintenance IV fluids as clinically indicated.
+
+4. ANALGESIA
+
+Inj. Paracetamol 1 g IV every 6–8 hours as required.
+
+For severe pain:
+
+Inj. Morphine 2–5 mg IV slowly, titrated to pain relief while monitoring respiratory and cardiovascular status.
+
+5. ANTIEMETIC
+
+Inj. Ondansetron 4 mg IV every 8–12 hours as required.
+
+6. MANUAL DETORSION
+
+While preparing for surgery, manual detorsion may be attempted by an experienced clinician as a temporary measure if surgery is not immediately available.
+
+The testis is generally rotated outward (medially to laterally), often described as "opening a book."
+
+However:
+
+Multiple rotations may be required.
+Pain relief and return of blood flow suggest successful detorsion.
+Manual detorsion does not replace surgery.
+The direction of torsion can vary.
+Contralateral torsion may also be present.
+
+Emergency surgical exploration remains mandatory even after apparently successful manual detorsion.
+
+DEFINITIVE MANAGEMENT
+
+EMERGENCY BILATERAL SCROTAL EXPLORATION
+
+The patient requires immediate surgical exploration.
+
+Informed consent should cover:
+
+Scrotal exploration.
+Detorsion of the affected testis.
+Assessment of testicular viability.
+Bilateral orchidopexy.
+Possible left orchidectomy if the testis is non-viable.
+Possible contralateral orchidopexy.
+Risks of infection, bleeding, chronic pain and impaired fertility.
+
+OPERATIVE MANAGEMENT
+
+At exploration:
+
+If the Left Testis is Viable:
+
+Detorse the spermatic cord.
+Apply warm packs and observe for reperfusion.
+Assess colour, turgor and bleeding from the tunica albuginea.
+Perform left orchidopexy using appropriate fixation technique.
+Perform prophylactic right orchidopexy because the underlying anatomical predisposition is usually bilateral.
+
+If the Left Testis is Non-Viable:
+
+If there is irreversible infarction despite detorsion and warming:
+
+Perform left orchidectomy.
+Perform right orchidopexy to prevent contralateral torsion.
+
+The decision regarding orchidectomy should be based on intraoperative assessment of viability.
+
+POSTOPERATIVE MANAGEMENT
+
+Monitor vital signs.
+Continue appropriate analgesia.
+Inspect surgical wounds.
+Monitor for scrotal swelling or haematoma.
+Provide scrotal support.
+Encourage early mobilization.
+Monitor for wound infection.
+
+ANALGESIA
+
+Tab Paracetamol 1 g orally every 6–8 hours as required.
+
+If additional analgesia is required:
+
+Tab Ibuprofen 400 mg orally every 8 hours after meals, provided there are no contraindications.
+
+ANTIBIOTICS
+
+Routine prolonged antibiotics are not usually required for uncomplicated torsion and clean surgical exploration.
+
+Administer perioperative antibiotic prophylaxis according to local surgical protocol.
+
+Continue antibiotics only if there is evidence of infection or significant contamination.
+
+HISTOPATHOLOGY
+
+If orchidectomy is performed, send the excised testis for histopathological examination to confirm infarction and exclude an underlying testicular tumour where appropriate.
+
+HEALTH EDUCATION
+
+Explain to the patient that testicular torsion occurs when the spermatic cord twists, compromising blood flow to the testis.
+
+Emphasize that it is a time-critical emergency.
+
+Explain that early treatment offers the best chance of preserving the affected testis.
+
+Advise the patient to return immediately if he experiences sudden testicular pain in the future, even if the pain resolves spontaneously, as intermittent torsion may occur.
+
+If orchidectomy is required, discuss the implications for fertility, hormonal function and body image.
+
+Explain that a healthy contralateral testis usually provides adequate testosterone production and may maintain fertility.
+
+Offer counselling regarding testicular prosthesis where appropriate after recovery.
+
+FOLLOW-UP
+
+Review in the Urology Clinic approximately 1–2 weeks postoperatively for wound assessment.
+Further review at 4–6 weeks.
+
+If orchidectomy was performed, assess the remaining testis and discuss fertility and endocrine implications where appropriate.
+
+Consider semen analysis and hormonal evaluation if clinically indicated.
+
+Advise avoidance of strenuous physical activity until adequate postoperative healing.
+
+Prognosis: Time-dependent. Testicular salvage is most likely when detorsion occurs within approximately 6 hours of symptom onset. The probability of salvage decreases substantially with prolonged torsion, particularly after 12–24 hours. Early recognition and immediate surgical intervention offer the best chance of preserving testicular viability and function.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-29',
+  title: 'Obstructed Right Inguinal Hernia',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Obstructed Inguinal Hernia with Acute Intestinal Obstruction',
+  symptoms: [
+    'Painful right groin swelling',
+    'Abdominal distension',
+    'Vomiting',
+    'Inability to pass stool and flatus',
+    'Colicky abdominal pain'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '59-year-old man with a 4-year history of reducible right groin swelling presenting with acute painful irreducibility, abdominal distension, bilious vomiting, and obstipation, consistent with an obstructed right inguinal hernia causing acute mechanical small bowel obstruction without current clinical evidence of strangulation.',
+  content: `
+GENERAL SURGERY
+
+Patient Seen
+
+A 59-year-old married Yoruba Christian male commercial driver from Lagos, Lagos State, who presented with a reliable history.
+
+CHIEF COMPLAINT
+
+Painful right groin swelling × 2 days.
+Abdominal distension × 18 hours.
+Vomiting × 12 hours.
+Inability to pass stool and flatus × 10 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until two days prior to presentation when he noticed that a previously known right groin swelling had become progressively painful and difficult to reduce.
+
+He reports that the groin swelling had been present for approximately four years. It was initially small, painless and reducible, usually becoming prominent when standing, coughing or lifting heavy objects and disappearing spontaneously when he lay down.
+
+Two days prior to presentation, the swelling became persistently prominent and could no longer be completely reduced. He subsequently developed increasing discomfort and pain over the swelling.
+
+Approximately 18 hours prior to presentation, he developed progressive abdominal distension associated with colicky abdominal pain.
+
+He subsequently had several episodes of vomiting, initially consisting of recently ingested food and later becoming bilious.
+
+For the past 10 hours, he has been unable to pass stool or flatus.
+
+He reports reduced appetite and generalized weakness.
+
+He denies fever or chills.
+
+He has not noticed any change in colour of the skin over the groin swelling.
+
+There is no severe, constant or progressively worsening pain.
+
+There is no history of bloody stool.
+
+There is no history of previous abdominal surgery.
+
+He has no known history of colorectal disease.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Generalized weakness.
+Reduced appetite.
+No fever.
+No chills.
+No significant weight loss.
+
+Gastrointestinal:
+
+Right groin swelling.
+Right groin discomfort.
+Colicky abdominal pain.
+Abdominal distension.
+Repeated vomiting.
+Failure to pass stool and flatus.
+No haematemesis.
+No melaena.
+No passage of blood per rectum.
+
+Genitourinary:
+
+No dysuria.
+No haematuria.
+No urinary retention.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No syncope.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive patient for 8 years.
+
+On Tab Amlodipine 10 mg orally once daily with fair compliance.
+
+No diabetes mellitus.
+No chronic kidney disease.
+No previous abdominal surgery.
+No previous bowel disease.
+
+PAST SURGICAL HISTORY
+
+No previous hernia repair.
+No previous abdominal or pelvic surgery.
+
+DRUG HISTORY
+
+Tab Amlodipine 10 mg orally once daily.
+Occasional use of Paracetamol.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No significant family history of hernia or bowel disease.
+
+SOCIAL HISTORY
+
+Commercial driver.
+Married with three children.
+Non-smoker.
+Occasional alcohol consumption.
+History of frequent heavy lifting associated with his occupation.
+
+GENERAL EXAMINATION
+
+Middle-aged man.
+Conscious and alert.
+Mildly ill-looking.
+Mild painful distress.
+Mild dehydration.
+Not pale.
+Not jaundiced.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 128/78 mmHg
+Pulse Rate: 96 beats/minute, regular.
+Respiratory Rate: 20 cycles/minute
+Temperature: 37.1°C
+SpO₂: 98% on room air
+Weight: 82 kg
+Height: 1.74 m
+BMI: 27.1 kg/m²
+Capillary Refill Time: <3 seconds
+
+ABDOMINAL EXAMINATION
+
+Abdomen moderately distended.
+Moves with respiration.
+Mild diffuse abdominal tenderness, more marked in the lower abdomen.
+No guarding.
+No rebound tenderness.
+No clinical evidence of generalized peritonitis.
+Bowel sounds are increased with occasional high-pitched tinkling sounds.
+No palpable hepatosplenomegaly.
+No palpable intra-abdominal mass.
+
+Clinical findings are consistent with mechanical intestinal obstruction.
+
+GROIN EXAMINATION
+
+There is an approximately 10 × 8 cm swelling in the right inguinal region, located above and medial to the pubic tubercle.
+
+The swelling is firm and mildly tender.
+It is irreducible.
+There is no cough impulse.
+The overlying skin is normal in colour with no erythema, ulceration or dusky discoloration.
+There is no marked local warmth.
+There is no crepitus.
+The swelling is not exquisitely tender.
+The right testis is palpable separately and is normal.
+
+The findings are consistent with an obstructed right inguinal hernia without clinical evidence of strangulation.
+
+LEFT GROIN
+
+No visible swelling.
+No cough impulse.
+No palpable hernia.
+
+DIGITAL RECTAL EXAMINATION
+
+Normal anal sphincter tone.
+Rectum is empty.
+No palpable rectal mass.
+No blood on examining glove.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Pulse regular and normal volume.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Central Nervous System:
+
+Conscious and fully oriented.
+GCS 15/15.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Obstructed right inguinal hernia causing acute mechanical small bowel obstruction, with no current clinical evidence of strangulation or bowel ischemia.
+
+This remains a surgical emergency because an obstructed hernia can progress to strangulation and bowel necrosis.
+
+DIFFERENTIAL DIAGNOSES
+
+Strangulated inguinal hernia.
+Incarcerated inguinal hernia without bowel obstruction.
+Obstructed femoral hernia.
+Adhesive small bowel obstruction.
+Intussusception.
+Obstructing intra-abdominal tumour.
+
+INVESTIGATIONS
+
+Investigations should be performed promptly while preparing the patient for surgical management.
+
+Laboratory Investigations:
+
+Full Blood Count
+
+Assess for leukocytosis and anaemia.
+
+Serum Electrolytes, Urea and Creatinine
+
+Assess dehydration, renal function and electrolyte abnormalities resulting from vomiting.
+
+Serum Lactate
+
+Useful for assessing tissue hypoperfusion and possible evolving bowel ischemia.
+
+C-Reactive Protein
+
+Assess inflammatory response.
+
+Random Blood Glucose.
+Liver Function Tests.
+Coagulation Profile.
+
+Group and Crossmatch
+
+Crossmatch 2 units of blood in preparation for surgery.
+
+Urinalysis.
+
+Imaging:
+
+Plain Abdominal X-ray
+
+May demonstrate:
+
+Dilated small bowel loops.
+Multiple air-fluid levels.
+Features of mechanical small bowel obstruction.
+
+Ultrasound of the Groin
+
+May confirm the presence of bowel within the hernia sac and assess bowel movement and vascularity.
+
+CT Abdomen and Pelvis with IV Contrast
+
+If the diagnosis is uncertain and the patient is haemodynamically stable, CT may demonstrate:
+
+Herniated bowel loop.
+Transition point at the inguinal canal.
+Proximal bowel dilatation.
+Bowel wall enhancement.
+Mesenteric changes.
+Signs of ischemia if strangulation develops.
+
+If clinical evidence of strangulation develops, imaging should not delay emergency surgery.
+
+INITIAL MANAGEMENT
+
+1. RESUSCITATION
+
+Assess and stabilize using the ABCDE approach.
+
+Establish two large-bore IV cannulas.
+
+Keep patient Nil Per Os (NPO).
+
+Monitor:
+
+Blood pressure.
+Pulse rate.
+Respiratory rate.
+SpO₂.
+Temperature.
+Urine output.
+Level of consciousness.
+
+2. FLUID RESUSCITATION
+
+Commence IV crystalloid:
+
+Ringer's Lactate or 0.9% Normal Saline 500–1000 mL IV, followed by reassessment.
+
+Replace ongoing fluid losses from vomiting and nasogastric drainage.
+
+Correct electrolyte abnormalities.
+
+Monitor renal function.
+
+3. NASOGASTRIC DECOMPRESSION
+
+Insert a nasogastric tube and place on free drainage or low intermittent suction.
+
+Monitor and document the volume and character of aspirate.
+
+4. URINARY CATHETERIZATION
+
+Insert a Foley catheter if the patient is significantly dehydrated or requires close monitoring of urine output.
+
+Target urine output is approximately ≥0.5 mL/kg/hour, while considering the overall clinical context.
+
+5. ANALGESIA
+
+Inj. Paracetamol 1 g IV every 6–8 hours as required.
+
+For severe pain:
+
+Inj. Morphine 2–5 mg IV slowly, titrated to response while monitoring respiratory and cardiovascular status.
+
+6. ANTIEMETIC
+
+Inj. Ondansetron 4 mg IV every 8–12 hours as required.
+
+7. ANTIBIOTIC PROPHYLAXIS
+
+Administer perioperative antibiotics according to local surgical protocol.
+
+One possible regimen:
+
+Inj. Ceftriaxone 2 g IV once daily
+PLUS
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+Antibiotics should be escalated or modified if strangulation, bowel necrosis or contamination is identified.
+
+MANUAL REDUCTION
+
+Gentle manual reduction (taxis) may be considered in a carefully selected patient with an early obstructed hernia only when there are no clinical signs of strangulation or peritonitis, and preferably under close surgical supervision.
+
+In this patient, given the established intestinal obstruction, taxis should be approached with caution.
+
+Forceful reduction is contraindicated.
+
+If gentle reduction is attempted and successful, the patient should remain under close observation for signs of bowel ischemia or reduction en masse.
+
+If reduction is unsuccessful, or symptoms persist, urgent operative intervention is required.
+
+DEFINITIVE MANAGEMENT
+
+URGENT OPERATIVE REPAIR
+
+The patient should undergo urgent surgical exploration and repair following initial resuscitation.
+
+Obtain informed consent for:
+
+Exploration of the right inguinal hernia.
+Reduction of hernia contents.
+Assessment of bowel viability.
+Possible bowel resection.
+Possible bowel anastomosis.
+Possible stoma formation if non-viable bowel is found.
+Hernia repair.
+Possible mesh placement depending on operative findings and contamination.
+
+OPERATIVE PLAN
+
+At surgery:
+
+Explore the right inguinal canal.
+Identify the hernia sac and its contents.
+Release the constricting structures carefully.
+Assess the bowel for viability.
+Reduce viable bowel into the peritoneal cavity.
+If bowel is non-viable, perform appropriate bowel resection.
+Perform primary anastomosis if clinically appropriate.
+Consider stoma formation in cases of extensive contamination, unstable physiology or questionable bowel viability.
+Perform definitive hernia repair.
+
+If the operative field is clean and no bowel resection is required, mesh repair may be considered.
+
+If bowel necrosis, perforation or significant contamination is present, the choice of repair should be guided by the degree of contamination and the patient's physiological status.
+
+PREOPERATIVE MANAGEMENT
+
+Urgent General Surgery review.
+Anaesthetic assessment.
+Continue IV fluid resuscitation.
+Correct electrolyte abnormalities.
+Monitor serum lactate.
+Maintain strict fluid balance.
+Ensure blood is grouped and crossmatched.
+Administer appropriate perioperative antibiotic prophylaxis.
+
+NURSING INSTRUCTIONS
+
+Keep patient NPO.
+Monitor vital signs regularly.
+Maintain strict fluid balance.
+Monitor nasogastric tube output.
+Monitor urine output.
+Assess abdominal distension and pain.
+Observe the groin swelling for increasing tenderness, erythema or skin discoloration.
+
+Report immediately if the patient develops:
+
+Increasing or constant severe pain.
+Fever.
+Tachycardia or hypotension.
+Generalized abdominal tenderness.
+Guarding or rebound tenderness.
+Rising serum lactate.
+Clinical deterioration.
+
+These may indicate progression to strangulation.
+
+POSTOPERATIVE MANAGEMENT
+
+Monitor vital signs closely.
+
+Continue IV fluids until adequate oral intake is tolerated.
+Monitor urine output.
+Continue antibiotics according to operative findings.
+Provide adequate analgesia.
+
+Monitor for:
+
+Surgical site infection.
+Wound dehiscence.
+Anastomotic leak if bowel resection was performed.
+Intra-abdominal abscess.
+Persistent ileus.
+Sepsis.
+Acute kidney injury.
+Hernia recurrence.
+
+Gradually reintroduce oral feeding after return of bowel function.
+
+Encourage early mobilization when clinically stable.
+
+Provide venous thromboembolism prophylaxis according to bleeding risk and institutional protocol.
+
+HEALTH EDUCATION
+
+Explain to the patient and family that an obstructed inguinal hernia occurs when bowel becomes trapped within the hernia and causes intestinal obstruction.
+
+Explain that although there is currently no clinical evidence of strangulation, the condition can rapidly progress to compromised blood supply, bowel necrosis, perforation and peritonitis.
+
+Explain the importance of urgent surgical management.
+
+Advise the patient to seek immediate medical attention in the future for any recurrent painful or irreducible groin swelling.
+
+FOLLOW-UP
+
+Daily postoperative surgical review while admitted.
+
+Monitor return of bowel function.
+Monitor wound healing.
+Assess for postoperative complications.
+
+Review in the General Surgery Clinic approximately 2–6 weeks after discharge, depending on postoperative recovery.
+
+Advise gradual return to heavy physical activity following adequate wound healing and surgical review.
+
+Prognosis: Good if treated promptly before strangulation develops. However, the patient remains at risk of bowel ischemia and necrosis if treatment is delayed. Early surgical intervention is associated with a better outcome and lower risk of bowel resection and postoperative complications.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'surg-28',
+  title: 'Incarcerated Right Femoral Hernia',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Incarcerated Femoral Hernia with Small Bowel Obstruction',
+  symptoms: [
+    'Painful right groin swelling',
+    'Inability to reduce the groin swelling',
+    'Abdominal pain',
+    'Abdominal distension',
+    'Repeated vomiting',
+    'Failure to pass stool and flatus',
+    'Fever'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '68-year-old woman presenting with an acute painful irreducible right femoral swelling associated with vomiting, abdominal distension and obstipation, consistent with an incarcerated right femoral hernia causing mechanical small bowel obstruction, with strangulation and bowel ischemia requiring urgent exclusion.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 68-year-old retired primary school teacher, widowed, from Lagos, Lagos State, Christian, Yoruba, with a reliable history obtained from the patient and her daughter.
+
+CHIEF COMPLAINT
+
+Painful swelling in the right groin × 18 hours.
+Inability to reduce the swelling × 14 hours.
+Vomiting × 8 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately 18 hours prior to presentation when she noticed a small swelling in the right groin associated with mild discomfort.
+
+The swelling progressively increased in size and became increasingly painful. Approximately 14 hours prior to presentation, she noticed that the swelling could no longer be pushed back and did not disappear when she lay down.
+
+She subsequently developed worsening right groin pain, initially intermittent but becoming constant and progressively severe.
+
+About eight hours prior to presentation, she developed colicky lower abdominal pain associated with four episodes of vomiting, initially containing recently ingested food and later becoming bilious.
+
+She reports progressive abdominal distension and has been unable to pass stool or flatus for approximately 10 hours.
+
+She has no history of previous groin surgery.
+She has no history of trauma.
+There is no fever initially, although she reports feeling increasingly weak since the onset of symptoms.
+She has no known history of a previous groin swelling.
+There is no history of previous abdominal surgery.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Generalized weakness.
+Reduced appetite.
+No significant weight loss.
+No documented fever before presentation.
+
+Gastrointestinal:
+
+Right groin swelling.
+Right groin pain.
+Abdominal pain.
+Abdominal distension.
+Repeated vomiting.
+Failure to pass stool and flatus.
+No haematemesis.
+
+Genitourinary:
+
+No dysuria.
+No haematuria.
+No urinary retention.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No syncope.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive patient for 10 years.
+
+On Tab Amlodipine 10 mg once daily with good compliance.
+
+No diabetes mellitus.
+No chronic kidney disease.
+No previous abdominal surgery.
+
+PAST SURGICAL HISTORY
+
+No previous hernia repair.
+No previous abdominal or pelvic surgery.
+
+DRUG HISTORY
+
+Tab Amlodipine 10 mg orally once daily.
+Occasional use of Paracetamol.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No significant family history of hernia.
+
+SOCIAL HISTORY
+
+Retired primary school teacher.
+Widowed.
+Lives with her daughter.
+Non-smoker.
+Does not consume alcohol.
+
+GENERAL EXAMINATION
+
+Elderly woman.
+Conscious and alert.
+Acute-on-chronically ill-looking.
+In moderate painful distress.
+Mildly dehydrated.
+Not pale.
+Not jaundiced.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 104/68 mmHg
+Pulse Rate: 106 beats/minute, regular.
+Respiratory Rate: 24 cycles/minute
+Temperature: 37.8°C
+SpO₂: 97% on room air
+Weight: 70 kg
+Height: 1.60 m
+BMI: 27.3 kg/m²
+Capillary Refill Time: <3 seconds
+
+ABDOMINAL EXAMINATION
+
+Abdomen moderately distended.
+Moves with respiration.
+Diffuse abdominal tenderness, more marked in the lower abdomen.
+No generalized guarding.
+No rebound tenderness.
+Bowel sounds are hyperactive with occasional high-pitched tinkling sounds.
+No palpable hepatosplenomegaly.
+
+Clinical features are consistent with mechanical intestinal obstruction.
+
+GROIN EXAMINATION
+
+There is an approximately 6 × 5 cm rounded swelling in the right femoral region, situated below and lateral to the pubic tubercle and below the inguinal ligament.
+
+The swelling is tense, firm and tender.
+
+It is irreducible.
+There is no cough impulse.
+The overlying skin is mildly erythematous but without frank necrosis or ulceration.
+The swelling does not extend into the labia.
+The right femoral pulse is palpable distal to the swelling.
+No crepitus.
+
+Clinical findings are consistent with an incarcerated right femoral hernia.
+
+There are currently no definite clinical features of strangulation, but given the acute pain, irreducibility and associated intestinal obstruction, strangulation must be urgently excluded.
+
+LEFT GROIN
+
+No visible swelling.
+No cough impulse.
+No palpable hernia.
+
+ABDOMINAL AND PELVIC EXAMINATION
+
+No palpable abdominal mass.
+No organomegaly.
+No clinical evidence of generalized peritonitis.
+
+DIGITAL RECTAL EXAMINATION
+
+Normal anal sphincter tone.
+Rectum contains minimal stool.
+No palpable rectal mass.
+No blood on examining glove.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Heart sounds I and II normal.
+Tachycardic.
+No murmurs.
+Peripheral pulses palpable.
+
+Respiratory:
+
+Tachypnoeic.
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Central Nervous System:
+
+Conscious and oriented.
+GCS 15/15.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Acute incarcerated right femoral hernia causing mechanical small bowel obstruction.
+
+Strangulation and bowel ischemia must be urgently excluded.
+
+The patient requires urgent General Surgery review and emergency operative management, particularly because femoral hernias have a relatively high risk of strangulation.
+
+DIFFERENTIAL DIAGNOSES
+
+Strangulated femoral hernia.
+Incarcerated inguinal hernia.
+Obstructed inguinal hernia.
+Enlarged femoral lymph node.
+Saphena varix.
+Femoral artery aneurysm.
+Psoas abscess.
+
+INVESTIGATIONS
+
+Investigations should be performed rapidly and should not delay emergency surgery if strangulation is suspected.
+
+LABORATORY INVESTIGATIONS
+
+Full Blood Count:
+
+Assess for leukocytosis and anaemia.
+
+Serum Electrolytes, Urea and Creatinine:
+
+Assess dehydration, electrolyte disturbances and renal function.
+
+Serum Lactate:
+
+Assess for tissue hypoperfusion and possible bowel ischemia.
+
+C-Reactive Protein:
+
+Assess inflammatory response.
+
+Random Blood Glucose.
+
+Liver Function Tests.
+
+Coagulation Profile.
+
+Group and Crossmatch:
+
+Crossmatch 2–4 units of blood depending on clinical status and institutional protocol.
+
+Blood Culture:
+
+If febrile or septic, where this does not delay antibiotic therapy.
+
+Urinalysis.
+
+IMAGING
+
+Abdominal X-ray:
+
+May demonstrate features of small bowel obstruction, including dilated bowel loops and multiple air-fluid levels.
+
+Ultrasound of the Groin:
+
+May help confirm the diagnosis if clinically uncertain and can identify bowel or fluid within the femoral canal.
+
+CT Abdomen and Pelvis with IV Contrast:
+
+In a haemodynamically stable patient with diagnostic uncertainty, CT may demonstrate:
+
+Femoral hernia containing bowel.
+Transition point.
+Bowel obstruction.
+Bowel wall thickening.
+Reduced bowel wall enhancement.
+Mesenteric edema.
+Features of bowel ischemia.
+
+CT should not delay emergency surgery when there are clear clinical features of strangulation or peritonitis.
+
+EMERGENCY MANAGEMENT
+
+1. ABCDE RESUSCITATION
+
+Immediate assessment and stabilization.
+
+Continuous monitoring of:
+
+Blood pressure.
+Pulse rate.
+Respiratory rate.
+SpO₂.
+Temperature.
+Level of consciousness.
+
+Establish two large-bore IV cannulas.
+
+Keep the patient Nil Per Os (NPO).
+
+2. INTRAVENOUS FLUID RESUSCITATION
+
+Commence:
+
+Ringer's Lactate or 0.9% Normal Saline 500–1000 mL IV bolus, followed by reassessment.
+
+Continue fluid therapy according to haemodynamic response, urine output, electrolyte results and ongoing losses.
+
+Correct electrolyte abnormalities.
+
+3. NASOGASTRIC DECOMPRESSION
+
+Insert a nasogastric tube and place on free drainage or low intermittent suction because of vomiting and intestinal obstruction.
+
+Monitor and document aspirate volume.
+
+4. URINARY CATHETERIZATION
+
+Insert a Foley catheter if significant dehydration, haemodynamic instability or major surgery is anticipated.
+
+Monitor urine output.
+
+5. ANALGESIA
+
+Inj. Paracetamol 1 g IV every 6–8 hours, as required.
+
+For severe pain:
+
+Inj. Morphine 2–5 mg IV slowly, titrated according to response and haemodynamic status.
+
+6. ANTIEMETIC
+
+Inj. Ondansetron 4 mg IV every 8–12 hours as required.
+
+7. ANTIBIOTIC THERAPY
+
+Because of the risk of bowel ischemia and bacterial translocation, commence appropriate IV antibiotics, particularly if strangulation is suspected.
+
+One possible regimen:
+
+Inj. Ceftriaxone 2 g IV once daily
+
+PLUS
+
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+For severe sepsis or significant contamination, broader-spectrum therapy may be required according to local antimicrobial guidelines.
+
+MANUAL REDUCTION
+
+Gentle manual reduction (taxis) may be considered only in a carefully selected patient with a recent incarcerated hernia and no clinical evidence of strangulation, bowel ischemia or peritonitis.
+
+Given this patient's:
+
+Persistent pain.
+Irreducibility.
+Vomiting.
+Abdominal distension.
+Mechanical intestinal obstruction.
+
+Forceful manual reduction should not be attempted.
+
+If strangulation is suspected, urgent operative exploration is indicated.
+
+DEFINITIVE MANAGEMENT
+
+EMERGENCY SURGICAL EXPLORATION
+
+Urgent General Surgery review.
+
+Prepare for emergency exploration and repair of the right femoral hernia.
+
+Obtain informed consent for:
+
+Emergency femoral hernia repair.
+Possible bowel resection.
+Possible bowel anastomosis.
+Possible stoma formation.
+Possible blood transfusion.
+Possible postoperative intensive care admission.
+
+OPERATIVE MANAGEMENT
+
+At surgery:
+
+Identify the femoral hernia sac.
+Carefully expose the femoral canal.
+Release the constricting femoral ring.
+Open the hernia sac.
+Assess the viability of the herniated bowel.
+Reduce viable bowel into the abdominal cavity.
+Resect non-viable bowel if present.
+Perform primary anastomosis if appropriate.
+Consider stoma formation if there is extensive bowel necrosis, contamination or physiological instability.
+Repair the femoral defect using an appropriate technique.
+
+The choice of mesh depends on the degree of contamination and the viability of the bowel.
+
+In a clean operative field, mesh repair may be considered.
+
+In a contaminated or dirty field, particularly following bowel resection with significant contamination, tissue repair or another appropriate non-mesh technique may be preferred.
+
+PREOPERATIVE MANAGEMENT
+
+Urgent anaesthetic assessment.
+
+Continue IV fluid resuscitation.
+
+Correct electrolyte abnormalities.
+
+Monitor serum lactate.
+
+Maintain strict fluid balance.
+
+Ensure blood is grouped and crossmatched.
+
+Administer perioperative antibiotic therapy according to local protocol.
+
+NURSING INSTRUCTIONS
+
+Keep patient NPO.
+Monitor vital signs frequently.
+Maintain strict fluid balance.
+Monitor nasogastric tube output.
+Monitor urine output.
+Assess abdominal distension and pain.
+Observe for signs of worsening strangulation or peritonitis.
+Prepare patient for emergency theatre.
+Ensure all investigations and blood products are available without delaying surgery.
+
+POSTOPERATIVE MANAGEMENT
+
+Monitor vital signs closely.
+
+Continue IV fluids until adequate oral intake is tolerated.
+
+Monitor urine output.
+
+Continue antibiotics according to operative findings.
+
+Provide adequate analgesia.
+
+Monitor for:
+
+Surgical site infection.
+Wound dehiscence.
+Anastomotic leak.
+Intra-abdominal abscess.
+Persistent postoperative ileus.
+Sepsis.
+Acute kidney injury.
+Hernia recurrence.
+
+Gradually reintroduce oral intake following return of bowel function.
+
+Encourage early mobilization when clinically stable.
+
+Provide venous thromboembolism prophylaxis according to bleeding risk and institutional protocol.
+
+HEALTH EDUCATION
+
+Explain to the patient and family that a femoral hernia occurs when abdominal contents protrude through the femoral canal, below the inguinal ligament.
+
+Explain that the hernia has become incarcerated, meaning that it cannot be pushed back into the abdomen.
+
+Emphasize that femoral hernias have a relatively high risk of becoming strangulated because of the narrow femoral canal.
+
+Explain the warning signs of strangulation:
+
+Increasing or severe groin pain.
+Increasing tenderness.
+Skin discoloration over the swelling.
+Fever.
+Persistent vomiting.
+Abdominal distension.
+Inability to pass stool or flatus.
+Generalized weakness or collapse.
+
+Emphasize the need for urgent surgical treatment.
+
+FOLLOW-UP
+
+Postoperative review by the General Surgery Team.
+
+Monitor return of bowel function.
+
+Monitor wound healing and signs of infection.
+
+Assess for postoperative complications.
+
+Review in the surgical clinic approximately 2–6 weeks after discharge, depending on postoperative recovery.
+
+Advise gradual return to normal physical activity according to the surgeon's instructions.
+
+PROGNOSIS
+
+Guarded but potentially good with prompt treatment. The prognosis depends on whether the bowel remains viable or requires resection. Early surgical intervention before strangulation and bowel necrosis develops is associated with better outcomes. Delayed treatment may result in bowel necrosis, perforation, peritonitis, sepsis and increased mortality.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'surg-27',
+  title: 'Strangulated Right Inguinal Hernia',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Strangulated Inguinal Hernia with Intestinal Obstruction',
+  symptoms: [
+    'Painful right groin swelling',
+    'Severe abdominal pain',
+    'Abdominal distension',
+    'Repeated vomiting',
+    'Obstipation',
+    'Fever',
+    'Irreducible groin swelling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-30',
+  summary: '67-year-old man with a 3-year history of a reducible right inguinal hernia presenting with acute painful irreducible groin swelling, intestinal obstruction and peritonitis, consistent with a strangulated right inguinal hernia with suspected bowel ischemia or necrosis requiring emergency surgical exploration.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 67-year-old retired civil servant, married, from Lagos, Lagos State, Christian, Yoruba, with a reliable history obtained from the patient and his son.
+
+CHIEF COMPLAINT
+
+Painful right groin swelling × 18 hours.
+Severe abdominal pain and distension × 10 hours.
+Repeated vomiting × 8 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately 18 hours prior to presentation when he developed sudden onset of severe pain involving a previously known right groin swelling.
+
+The swelling had been present for approximately 3 years and was initially small, painless and reducible. It usually became prominent on standing, coughing and straining and would reduce spontaneously when he lay down. He had previously been advised to undergo elective surgical repair but did not proceed with surgery.
+
+Approximately 18 hours prior to presentation, he noticed that the swelling suddenly became larger, tense and severely painful. Unlike previous episodes, the swelling did not reduce when he lay down and could not be pushed back into the abdomen.
+
+The pain progressively worsened and became constant. About 10 hours prior to presentation, he developed severe colicky abdominal pain associated with progressive abdominal distension.
+
+He subsequently developed repeated episodes of vomiting, initially containing recently ingested food and later becoming bilious.
+
+He has been unable to pass stool or flatus since the onset of the abdominal symptoms.
+
+He reports fever and generalized weakness.
+
+There is no history of recent abdominal trauma.
+There is no history of previous abdominal surgery.
+There is no history of similar acute episodes in the past.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Fever.
+Generalized weakness.
+Reduced appetite.
+No recent significant weight loss.
+
+Gastrointestinal:
+
+Severe right groin pain.
+Right groin swelling.
+Severe abdominal pain.
+Abdominal distension.
+Repeated vomiting.
+Obstipation.
+No haematemesis.
+
+Genitourinary:
+
+No dysuria.
+No haematuria.
+No acute urinary retention.
+
+Respiratory:
+
+No cough.
+No shortness of breath prior to the current illness.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No previous syncope.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive patient for 12 years.
+Poor compliance with antihypertensive medications.
+No known diabetes mellitus.
+No chronic kidney disease.
+No previous history of peptic ulcer disease.
+No previous abdominal surgery.
+
+PAST SURGICAL HISTORY
+
+No previous hernia repair.
+No previous abdominal or pelvic surgery.
+
+DRUG HISTORY
+
+Previously prescribed Tab Amlodipine 10 mg daily but takes it irregularly.
+Occasional use of Paracetamol.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No significant family history of hernia.
+No known family history of colorectal malignancy.
+
+SOCIAL HISTORY
+
+Retired civil servant.
+Lives with wife and children.
+Occasional heavy lifting.
+Non-smoker.
+Occasional alcohol consumption.
+
+GENERAL EXAMINATION
+
+Elderly man.
+Conscious but acutely ill-looking.
+In severe painful distress.
+Restless.
+Febrile.
+Moderately dehydrated.
+Mildly pale.
+No jaundice.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 96/62 mmHg
+Pulse Rate: 118 beats/minute, regular and low volume.
+Respiratory Rate: 28 cycles/minute
+Temperature: 38.6°C
+SpO₂: 95% on room air
+Weight: 76 kg
+Capillary refill time: >3 seconds
+
+ABDOMINAL EXAMINATION
+
+Abdomen markedly distended.
+Moves minimally with respiration.
+Diffuse abdominal tenderness, more marked in the lower abdomen.
+Guarding present.
+Rebound tenderness present.
+No palpable hepatosplenomegaly.
+
+Bowel sounds are initially high-pitched and tinkling, with areas of reduced bowel sounds.
+
+Clinical features are suggestive of intestinal obstruction with evolving peritonitis.
+
+GROIN EXAMINATION
+
+There is a 12 × 10 cm swelling in the right inguinal region.
+
+The swelling is tense, firm and exquisitely tender.
+
+The overlying skin is erythematous with areas of dusky discoloration.
+
+The swelling is irreducible.
+There is no cough impulse.
+The swelling is located above and medial to the pubic tubercle.
+It does not reduce with gentle manual pressure.
+The skin over the swelling is warm.
+There is no crepitus.
+
+Clinical findings are highly suggestive of a strangulated right inguinal hernia.
+
+SCROTAL EXAMINATION
+
+Right testis palpable separately from the swelling.
+No testicular torsion.
+No hydrocele.
+Left testis normal.
+
+DIGITAL RECTAL EXAMINATION
+
+Normal anal sphincter tone.
+Rectum empty.
+No palpable rectal mass.
+No blood on examining glove.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Tachycardic.
+Heart sounds I and II present.
+No obvious murmurs.
+Peripheral pulses palpable but low volume.
+
+Respiratory:
+
+Tachypnoeic.
+Normal vesicular breath sounds bilaterally.
+No obvious crepitations.
+
+Central Nervous System:
+
+Conscious and oriented.
+GCS 15/15.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Strangulated right inguinal hernia with suspected small bowel ischemia/necrosis, causing acute intestinal obstruction and generalized peritonitis, with features of hypovolaemia and evolving sepsis.
+
+This is a life-threatening surgical emergency.
+
+DIFFERENTIAL DIAGNOSES
+
+Strangulated femoral hernia.
+Obstructed but non-strangulated inguinal hernia.
+Perforated hollow viscus with coincidental groin swelling.
+Testicular torsion.
+Acute epididymo-orchitis.
+Incarcerated inguinal hernia with bowel obstruction.
+
+INVESTIGATIONS
+
+Investigations should be performed rapidly and must not delay emergency surgery.
+
+LABORATORY INVESTIGATIONS
+
+Full Blood Count:
+
+Expected findings may include leukocytosis with neutrophilia and possible anaemia.
+
+Serum Electrolytes, Urea and Creatinine:
+
+To assess dehydration, electrolyte disturbance and renal function.
+
+Serum Lactate:
+
+To assess tissue hypoperfusion and possible bowel ischemia.
+
+C-Reactive Protein:
+
+To assess systemic inflammatory response.
+
+Random Blood Glucose.
+
+Liver Function Tests.
+
+Coagulation Profile.
+
+Group and Crossmatch:
+
+Crossmatch at least 2–4 units of blood, depending on anticipated operative findings and institutional protocol.
+
+Blood Culture:
+
+Obtain before antibiotics where feasible, particularly if this does not delay antibiotic administration or surgery.
+
+Urinalysis.
+
+IMAGING
+
+Plain Abdominal X-ray:
+
+May demonstrate features of small bowel obstruction, including dilated bowel loops and multiple air-fluid levels.
+
+Erect Chest X-ray:
+
+May be useful to assess for free intraperitoneal air if perforation is suspected.
+
+CT Abdomen and Pelvis with IV Contrast:
+
+May demonstrate:
+
+Hernia containing bowel.
+Bowel obstruction.
+Bowel wall thickening.
+Reduced bowel wall enhancement.
+Mesenteric edema.
+Pneumatosis or other signs of bowel ischemia.
+
+CT should not delay emergency surgery in a patient with clear clinical evidence of strangulation and peritonitis.
+
+EMERGENCY MANAGEMENT
+
+1. ABCDE RESUSCITATION
+
+Immediate assessment and stabilization.
+
+Administer supplemental oxygen if required.
+
+Continuous monitoring of:
+
+Blood pressure.
+Pulse rate.
+Respiratory rate.
+SpO₂.
+Temperature.
+Urine output.
+Level of consciousness.
+
+Establish two large-bore IV cannulas.
+
+Insert urinary catheter for strict monitoring of urine output.
+
+2. FLUID RESUSCITATION
+
+Commence rapid IV crystalloid resuscitation.
+
+Ringer's Lactate or 0.9% Normal Saline 500–1000 mL IV bolus, followed by reassessment.
+
+Further fluid administration should be guided by haemodynamic response, urine output, lactate and clinical status.
+
+Correct electrolyte abnormalities.
+
+Monitor for acute kidney injury.
+
+3. NASOGASTRIC DECOMPRESSION
+
+Insert a nasogastric tube and place on free drainage or low intermittent suction.
+
+Record the volume and character of aspirate.
+
+4. URINARY CATHETERIZATION
+
+Insert Foley catheter.
+
+Monitor hourly urine output.
+
+Target urine output is approximately ≥0.5 mL/kg/hour in an adult, while considering the overall clinical context.
+
+5. ANALGESIA
+
+Inj. Paracetamol 1 g IV every 6–8 hours, as required.
+
+For severe pain:
+
+Inj. Morphine 2–5 mg IV slowly, titrated to effect while monitoring respiratory status and blood pressure.
+
+6. ANTIEMETIC
+
+Inj. Ondansetron 4 mg IV every 8–12 hours as required.
+
+7. BROAD-SPECTRUM ANTIBIOTICS
+
+Administer IV antibiotics promptly because of suspected bowel ischemia and possible contamination.
+
+One possible regimen:
+
+Inj. Ceftriaxone 2 g IV once daily
+
+PLUS
+
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+For severe sepsis, significant contamination or according to local antimicrobial policy, broader coverage may be required, such as:
+
+Inj. Piperacillin-Tazobactam 4.5 g IV every 6–8 hours, adjusted according to renal function and local guidelines.
+
+Antibiotic therapy should be modified according to operative findings and culture results where available.
+
+MANUAL REDUCTION
+
+Manual reduction (taxis) is contraindicated in this patient.
+
+The patient has clinical evidence of strangulation, including:
+
+Severe persistent pain.
+Tender irreducible hernia.
+Overlying skin discoloration.
+Intestinal obstruction.
+Peritonitis.
+Systemic inflammatory response.
+
+Attempted forceful reduction may reduce necrotic bowel into the abdominal cavity and delay recognition of ischemic bowel.
+
+DEFINITIVE MANAGEMENT
+
+EMERGENCY EXPLORATORY SURGERY
+
+The patient requires immediate emergency surgical exploration following rapid resuscitation and preparation.
+
+Do not delay surgery for unnecessary investigations.
+
+Obtain informed consent for:
+
+Emergency hernia exploration and repair.
+Possible bowel resection.
+Possible bowel anastomosis.
+Possible stoma formation.
+Possible blood transfusion.
+Possible postoperative intensive care admission.
+Risks of wound infection, anastomotic leak, recurrent hernia and mortality.
+
+OPERATIVE PLAN
+
+At surgery:
+
+Explore the right inguinal region.
+Identify the hernia sac.
+Carefully release the constricting neck.
+Open the sac and assess the contents.
+Assess bowel viability.
+Reduce viable bowel into the peritoneal cavity.
+Resect non-viable or perforated bowel.
+Perform primary bowel anastomosis if appropriate and the patient is physiologically stable.
+Consider stoma formation if there is extensive contamination, unstable physiology or questionable bowel viability.
+Irrigate the operative field as appropriate.
+Perform definitive hernia repair.
+
+The use of prosthetic mesh should be carefully considered based on the degree of contamination and bowel viability. In a clean field, mesh repair may be appropriate; in contaminated or dirty surgery, tissue repair or other strategies may be preferred.
+
+PERIOPERATIVE MANAGEMENT
+
+Urgent anaesthetic review.
+
+Continue IV fluid resuscitation.
+
+Repeat serum lactate and electrolytes as clinically indicated.
+
+Monitor urine output.
+
+Continue broad-spectrum antibiotics.
+
+Crossmatched blood should be available.
+
+Consider admission to a high-dependency or intensive care unit if there is persistent haemodynamic instability, severe sepsis, significant bowel necrosis or major comorbidity.
+
+POSTOPERATIVE MANAGEMENT
+
+Monitor vital signs closely.
+
+Continue IV fluids until oral intake is tolerated.
+
+Monitor urine output.
+
+Continue antibiotics according to intraoperative findings.
+
+Provide adequate analgesia.
+
+Monitor for:
+
+Surgical site infection.
+Wound dehiscence.
+Anastomotic leak.
+Intra-abdominal abscess.
+Persistent ileus.
+Sepsis.
+Acute kidney injury.
+Respiratory complications.
+Hernia recurrence.
+
+Gradually reintroduce oral intake following return of bowel function.
+
+Encourage early mobilization when clinically stable.
+
+Provide venous thromboembolism prophylaxis according to bleeding risk and institutional protocol.
+
+NURSING INSTRUCTIONS
+
+Maintain strict fluid balance chart.
+
+Monitor vital signs frequently.
+
+Monitor urine output hourly initially.
+
+Observe nasogastric aspirate and document volume.
+
+Monitor abdominal girth and pain.
+
+Observe surgical wound and drains if present.
+
+Monitor for signs of worsening sepsis or shock.
+
+Ensure timely administration of antibiotics and analgesics.
+
+HEALTH EDUCATION
+
+Explain to the patient and family that the hernia has become strangulated, meaning that the blood supply to the trapped bowel may have been compromised.
+
+Explain that strangulation can rapidly lead to bowel necrosis, perforation, peritonitis, sepsis and death if not treated promptly.
+
+Explain the need for emergency surgery and the possibility of bowel resection if the trapped bowel is non-viable.
+
+Advise that future hernias should be repaired electively before they become incarcerated or strangulated.
+
+FOLLOW-UP
+
+Postoperative review by the General Surgery Team.
+
+Monitor recovery of bowel function.
+
+Monitor wound healing.
+
+Assess for postoperative complications.
+
+Review histopathology if bowel specimens are submitted.
+
+Arrange surgical clinic follow-up approximately 2–6 weeks after discharge, depending on postoperative course.
+
+Advise gradual return to normal physical activity following surgical recovery.
+
+PROGNOSIS
+
+Guarded. Prognosis depends primarily on the duration of strangulation, viability of the trapped bowel, presence of bowel necrosis or perforation, degree of peritoneal contamination, and the patient's response to resuscitation. Early emergency surgery before irreversible bowel ischemia develops is associated with significantly better outcomes.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-26',
+  title: 'Acute Irreducible Inguinal Hernia with Intestinal Obstruction',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Acute Irreducible Left Inguinal Hernia',
+  symptoms: [
+    'Painful left groin swelling',
+    'Irreducible groin swelling',
+    'Vomiting',
+    'Abdominal pain',
+    'Abdominal distension',
+    'Failure to pass stool and flatus'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-27',
+  summary: '58-year-old male commercial driver with a previously reducible left groin swelling who presents with acute irreducibility, severe groin pain, vomiting and features of intestinal obstruction, requiring urgent surgical assessment to exclude strangulation.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 58-year-old married male commercial driver from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient and wife (Reliable).
+
+CHIEF COMPLAINT
+
+Painful left groin swelling × 12 hours.
+Inability to reduce the swelling × 12 hours.
+Vomiting × 6 hours.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately 12 hours prior to presentation when he noticed a sudden increase in the size of a previously known left groin swelling. The swelling, which had previously been reducible and would disappear when he lay down, became progressively larger and could no longer be pushed back into the abdomen.
+
+This was associated with moderate to severe left groin pain, initially intermittent but becoming persistent and progressively worsening.
+
+Approximately six hours prior to presentation, he developed colicky lower abdominal pain associated with three episodes of non-bilious vomiting containing recently ingested food.
+
+He has also noticed progressive abdominal distension.
+
+He last passed stool approximately 10 hours prior to presentation and last passed flatus approximately 8 hours prior to presentation.
+
+There is no history of fever.
+There is no overlying skin discoloration of the groin swelling.
+There is no history of trauma.
+He has not had previous hernia repair.
+
+The patient reports that he has had a left groin swelling for approximately three years. It was initially small and would reduce spontaneously whenever he lay down. He had been advised to undergo elective surgical repair but did not attend the scheduled appointment.
+
+There is no history of previous abdominal surgery.
+
+REVIEW OF SYSTEMS
+
+General:
+
+Moderate painful distress.
+No documented fever.
+No recent weight loss.
+
+Gastrointestinal:
+
+Left groin swelling.
+Severe groin pain.
+Abdominal pain.
+Abdominal distension.
+Vomiting.
+Failure to pass stool and flatus.
+No haematemesis.
+
+Genitourinary:
+
+No dysuria.
+No haematuria.
+No acute urinary retention.
+
+Respiratory:
+
+No cough.
+No shortness of breath.
+No chest pain.
+
+Cardiovascular:
+
+No palpitations.
+No syncope.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive patient for 6 years.
+On irregular antihypertensive medication.
+No diabetes mellitus.
+No chronic kidney disease.
+No known chronic liver disease.
+No previous abdominal surgery.
+
+PAST SURGICAL HISTORY
+
+No previous hernia repair.
+No previous abdominal operations.
+
+DRUG HISTORY
+
+Occasional use of Paracetamol for pain.
+No anticoagulant use.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No significant family history of hernia or connective tissue disorders.
+
+SOCIAL HISTORY
+
+Commercial driver.
+Frequent prolonged sitting.
+Occasional heavy lifting.
+Non-smoker.
+Occasional alcohol consumption.
+
+GENERAL EXAMINATION
+
+Middle-aged man.
+Conscious and alert.
+Moderately ill-looking.
+In moderate painful distress.
+Mildly dehydrated.
+Not pale.
+Not jaundiced.
+No peripheral oedema.
+No peripheral lymphadenopathy.
+
+VITAL SIGNS
+
+Blood Pressure: 142/88 mmHg
+Pulse Rate: 104 beats/minute, regular.
+Respiratory Rate: 22 cycles/minute
+Temperature: 37.4°C
+SpO₂: 97% on room air
+Weight: 80 kg
+
+ABDOMINAL EXAMINATION
+
+Abdomen moderately distended.
+Moves with respiration.
+Diffuse mild tenderness, more marked in the lower abdomen.
+No guarding.
+No rebound tenderness.
+No palpable abdominal masses.
+Bowel sounds are hyperactive with occasional high-pitched sounds.
+No clinical evidence of generalized peritonitis.
+
+GROIN EXAMINATION
+
+A 10 × 8 cm swelling is present in the left inguinal region.
+
+The swelling is tense and tender.
+
+The overlying skin is mildly erythematous but not frankly necrotic or discoloured.
+
+The swelling is irreducible despite gentle attempts at reduction with the patient supine.
+
+There is no cough impulse.
+
+The swelling is located above and medial to the pubic tubercle.
+
+It does not extend into the scrotum.
+
+No crepitus.
+No evidence of skin necrosis.
+
+SCROTAL EXAMINATION
+
+Both testes are descended.
+No testicular tenderness.
+No hydrocele.
+No evidence of testicular torsion.
+
+DIGITAL RECTAL EXAMINATION
+
+Normal anal sphincter tone.
+Rectum contains minimal stool.
+No palpable rectal mass.
+No blood on examining glove.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Heart sounds I and II normal.
+No murmurs.
+Peripheral pulses palpable.
+Capillary refill approximately 2 seconds.
+
+Respiratory:
+
+Chest expands symmetrically.
+Normal vesicular breath sounds.
+No added sounds.
+
+Central Nervous System:
+
+Conscious and oriented.
+GCS 15/15.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Acute irreducible (incarcerated) left inguinal hernia with features of intestinal obstruction.
+
+Strangulation must be urgently excluded.
+
+At presentation, there is no definite clinical evidence of bowel ischemia or generalized peritonitis, but the presence of persistent pain, tachycardia, vomiting and intestinal obstruction makes this a surgical emergency requiring urgent surgical assessment and intervention.
+
+DIFFERENTIAL DIAGNOSES
+
+Strangulated inguinal hernia.
+Incarcerated femoral hernia.
+Obstructed inguinal hernia without strangulation.
+Testicular torsion.
+Acute epididymo-orchitis.
+Inguinal lymphadenopathy.
+Incarcerated lipoma of the spermatic cord.
+
+INVESTIGATIONS
+
+Investigations should not delay urgent surgical intervention when strangulation is strongly suspected.
+
+Laboratory:
+
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Random Blood Glucose.
+Serum Lactate.
+C-Reactive Protein.
+Liver Function Tests.
+Coagulation Profile.
+Group and Crossmatch 2–4 units of blood.
+Urinalysis.
+
+Imaging:
+
+Abdominal and Pelvic X-ray:
+
+May demonstrate features of intestinal obstruction, including dilated bowel loops and multiple air-fluid levels.
+
+Ultrasound of the Groin:
+
+May be useful if the diagnosis is uncertain but should not delay emergency management.
+
+CT Abdomen/Pelvis with Contrast:
+
+May be considered in a haemodynamically stable patient when the diagnosis or presence of bowel ischemia is uncertain.
+
+CT should not delay surgery in a patient with clear clinical evidence of strangulation or peritonitis.
+
+EMERGENCY MANAGEMENT
+
+1. RESUSCITATION
+
+Manage using an ABCDE approach.
+
+Keep patient Nil Per Os (NPO).
+
+Place patient on continuous monitoring.
+
+Establish two large-bore IV cannulas.
+
+Monitor:
+
+Blood pressure.
+Pulse rate.
+Respiratory rate.
+Oxygen saturation.
+Urine output.
+Temperature.
+
+Insert urinary catheter if significant dehydration, shock or major surgery is anticipated.
+
+2. INTRAVENOUS FLUIDS
+
+Commence:
+
+0.9% Normal Saline or Ringer's Lactate 500–1000 mL IV bolus, reassessing response.
+
+Continue IV fluids according to clinical status, haemodynamic response, urine output and electrolyte results.
+
+Correct electrolyte abnormalities.
+
+3. NASOGASTRIC DECOMPRESSION
+
+Insert a nasogastric tube and place on free drainage or low intermittent suction because of vomiting and suspected intestinal obstruction.
+
+4. ANALGESIA
+
+Inj. Paracetamol 1 g IV every 6–8 hours, as required.
+
+For severe pain:
+
+Inj. Morphine 5 mg IV slowly, titrated carefully according to response and respiratory status.
+
+5. ANTIEMETIC
+
+Inj. Ondansetron 4 mg IV every 8–12 hours as required.
+
+Alternative:
+
+Inj. Metoclopramide 10 mg IV every 8 hours, provided there is no complete mechanical obstruction or other contraindication.
+
+6. ANTIBIOTICS
+
+Administer broad-spectrum IV antibiotics if bowel ischemia, strangulation, necrosis or perforation is suspected.
+
+Example:
+
+Inj. Ceftriaxone 2 g IV once daily
+
+PLUS
+
+Inj. Metronidazole 500 mg IV every 8 hours.
+
+Alternative according to local protocol:
+
+Inj. Amoxicillin-Clavulanate 1.2 g IV every 8 hours.
+
+Adjust antibiotic choice according to local antimicrobial policy, allergies and operative findings.
+
+MANUAL REDUCTION
+
+Gentle manual reduction (taxis) may be considered in a carefully selected patient with a recently irreducible hernia only if there are no clinical features suggesting strangulation, bowel ischemia or peritonitis.
+
+In this patient, given the presence of persistent pain, vomiting, abdominal distension and suspected intestinal obstruction, forceful manipulation should be avoided.
+
+If strangulation is suspected, proceed directly to urgent surgical exploration.
+
+Successful reduction does not eliminate the need for definitive surgical repair.
+
+DEFINITIVE MANAGEMENT
+
+EMERGENCY SURGERY
+
+Urgent General Surgery review.
+
+Prepare for emergency groin exploration and hernia repair.
+
+At operation:
+
+Identify the hernia sac.
+Assess the viability of the herniated bowel.
+Release the constricting defect.
+Reduce viable bowel into the abdominal cavity.
+Resect non-viable bowel where necessary.
+Perform appropriate hernia repair.
+
+The choice of mesh depends on the degree of contamination and bowel viability.
+
+A synthetic mesh may be considered in a clean operative field.
+
+In contaminated or dirty surgery, particularly where bowel resection and gross contamination have occurred, a non-mesh repair may be preferred depending on intraoperative findings and surgeon judgement.
+
+PREOPERATIVE MANAGEMENT
+
+Obtain informed consent for:
+
+Emergency hernia repair.
+Possible bowel resection and anastomosis.
+Possible stoma formation if extensive bowel necrosis or contamination is encountered.
+Blood transfusion if required.
+Anaesthesia.
+
+Urgent anaesthetic review.
+
+Optimize hydration and electrolyte abnormalities.
+
+Maintain strict fluid balance.
+
+Administer perioperative antibiotic prophylaxis according to local surgical protocol.
+
+NURSING INSTRUCTIONS
+
+Keep patient NPO.
+Maintain IV access.
+Monitor vital signs frequently.
+Monitor abdominal girth and pain.
+Monitor nasogastric tube output.
+Monitor urine output.
+Observe for signs of worsening shock or peritonitis.
+Prepare patient for emergency theatre.
+Ensure blood is grouped and crossmatched.
+
+COMPLICATIONS TO WATCH FOR
+
+Bowel strangulation.
+Bowel ischemia.
+Bowel necrosis.
+Intestinal perforation.
+Peritonitis.
+Sepsis.
+Septic shock.
+Acute kidney injury.
+Wound infection.
+Hernia recurrence.
+
+HEALTH EDUCATION
+
+Explain to the patient and family that the hernia has become irreducible and is associated with symptoms of intestinal obstruction.
+
+Explain that an irreducible hernia may progress to strangulation, in which the blood supply to the trapped bowel becomes compromised.
+
+Emphasize the need for urgent surgical treatment.
+
+Advise that future hernias should be repaired electively before they become irreducible or strangulated.
+
+FOLLOW-UP
+
+Postoperative review by the General Surgery Team.
+
+Monitor bowel function and return of oral intake.
+
+Monitor wound healing and signs of infection.
+
+Assess for postoperative ileus.
+
+Gradually advance diet as bowel function returns.
+
+Review in the surgical clinic after discharge for wound assessment and postoperative recovery.
+
+Advise gradual return to normal activities as directed by the surgical team.
+
+PROGNOSIS
+
+Guarded pending operative findings. Prognosis is generally good if the hernia is treated promptly before bowel ischemia or necrosis develops. Delay in treatment may result in bowel necrosis, perforation, peritonitis, sepsis and increased morbidity and mortality.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-25',
+  title: 'Reducible Direct Inguinal Hernia with Lower Urinary Tract Symptoms',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Left Reducible Direct Inguinal Hernia',
+  symptoms: [
+    'Left groin swelling',
+    'Progressive increase in groin swelling',
+    'Left groin discomfort',
+    'Chronic constipation',
+    'Poor urinary stream',
+    'Urinary hesitancy',
+    'Nocturia'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-27',
+  summary: '61-year-old male retired civil servant with a 2-year history of a progressively enlarging, reducible left groin swelling associated with occasional discomfort, clinically consistent with an uncomplicated direct inguinal hernia, with associated lower urinary tract symptoms suggestive of benign prostatic enlargement.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 61-year-old married male retired civil servant from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Left groin swelling × 2 years.
+Progressive increase in size × 8 months.
+Occasional left groin discomfort × 6 months.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately two years prior to presentation when he noticed a small swelling in the left groin while standing. The swelling was initially small but has gradually increased in size over the past eight months.
+
+The swelling is more prominent when standing, coughing, sneezing or straining during defecation. It becomes less prominent when he lies down and usually reduces spontaneously when he is supine.
+
+Unlike his previous symptoms, the patient reports that the swelling does not extend into the scrotum.
+
+He experiences occasional dull aching discomfort in the left groin, particularly after prolonged standing or walking. The pain is mild to moderate in intensity and is relieved by lying down.
+
+He has a history of chronic constipation and frequently strains during bowel movements. He also reports occasional difficulty initiating urination and a weak urinary stream for approximately one year.
+
+There is no sudden severe pain.
+There is no recent rapid increase in the size of the swelling.
+There is no history of irreducibility.
+There is no abdominal distension.
+There is no vomiting.
+There is no constipation or obstipation beyond his usual chronic constipation.
+He continues to pass stool and flatus normally.
+There is no fever.
+There is no overlying skin discoloration.
+There is no history of previous inguinal hernia repair.
+
+REVIEW OF SYSTEMS
+
+General:
+
+No fever.
+No night sweats.
+No significant weight loss.
+
+Gastrointestinal:
+
+Left groin swelling.
+Occasional left groin discomfort.
+Chronic constipation.
+Frequent straining during defecation.
+No severe abdominal pain.
+No vomiting.
+No abdominal distension.
+No obstipation.
+
+Genitourinary:
+
+Poor urinary stream.
+Occasional hesitancy.
+Increased urinary frequency, particularly at night.
+No dysuria.
+No haematuria.
+No acute urinary retention.
+
+Respiratory:
+
+No chronic cough.
+No shortness of breath.
+No haemoptysis.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No syncope.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive patient for 8 years.
+On regular antihypertensive medication with good compliance.
+No diabetes mellitus.
+No chronic kidney disease.
+No previous abdominal surgery.
+
+PAST SURGICAL HISTORY
+
+No previous hernia repair.
+No previous abdominal or pelvic surgery.
+
+DRUG HISTORY
+
+Tab Amlodipine 10 mg orally once daily.
+Occasional use of Paracetamol for groin discomfort.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No family history of hernia.
+No family history of colorectal malignancy.
+
+SOCIAL HISTORY
+
+Retired civil servant.
+Lives with his wife.
+Non-smoker.
+Occasional alcohol consumption.
+
+GENERAL EXAMINATION
+
+Elderly-looking but well-preserved man.
+Conscious.
+Alert.
+Not in obvious painful distress.
+Not pale.
+Not jaundiced.
+Well hydrated.
+No peripheral oedema.
+No significant peripheral lymphadenopathy.
+
+VITAL SIGNS
+
+Blood Pressure: 136/82 mmHg
+Pulse Rate: 76 beats/minute, regular.
+Respiratory Rate: 17 cycles/minute
+Temperature: 36.6°C
+SpO₂: 98% on room air
+Weight: 78 kg
+Height: 1.72 m
+BMI: 26.4 kg/m²
+
+ABDOMINAL EXAMINATION
+
+Abdomen is full but not distended.
+Soft.
+Non-tender.
+No guarding or rebound tenderness.
+No palpable masses.
+No hepatosplenomegaly.
+Normal bowel sounds.
+No clinical evidence of intestinal obstruction.
+
+GROIN EXAMINATION
+
+With the patient standing, there is a visible swelling in the left inguinal region.
+
+The swelling is broad-based and appears to arise from the posterior wall of the inguinal canal.
+
+It becomes more prominent on coughing and straining.
+
+It is approximately 10 × 8 cm.
+
+The overlying skin is normal.
+
+The swelling is soft and non-tender.
+
+It is readily reducible when the patient lies supine.
+
+There is a positive cough impulse.
+
+The swelling is located above and medial to the pubic tubercle.
+
+It does not extend into the scrotum.
+
+The swelling remains controlled when pressure is applied over the deep inguinal ring while the patient coughs, supporting a direct inguinal hernia.
+
+No evidence of incarceration.
+No evidence of strangulation.
+No evidence of bowel obstruction.
+
+RIGHT GROIN
+
+No visible swelling.
+No cough impulse.
+No palpable hernia.
+
+SCROTAL EXAMINATION
+
+Both testes descended.
+Normal in size and consistency.
+No testicular tenderness.
+No hydrocele.
+No scrotal swelling.
+
+DIGITAL RECTAL EXAMINATION
+
+Normal anal sphincter tone.
+No palpable rectal mass.
+No blood on examining glove.
+Prostate is moderately enlarged, smooth and non-tender.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+
+Normal vesicular breath sounds.
+No crepitations.
+No wheeze.
+
+Central Nervous System:
+
+Conscious and oriented.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Left direct inguinal hernia, reducible and uncomplicated, likely related to acquired weakness of the posterior wall of the inguinal canal in an older male, with contributing chronic constipation and straining.
+
+Associated lower urinary tract symptoms suggestive of benign prostatic enlargement (BPE/BPH).
+
+No current evidence of incarceration, strangulation or intestinal obstruction.
+
+DIFFERENTIAL DIAGNOSES
+
+Left indirect inguinal hernia.
+Femoral hernia.
+Saphena varix.
+Inguinal lymphadenopathy.
+Lipoma of the spermatic cord.
+Hydrocele.
+Femoral artery aneurysm.
+
+INVESTIGATIONS
+
+Laboratory:
+
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Random Blood Glucose.
+Urinalysis.
+Prostate-Specific Antigen (PSA) after appropriate counselling, particularly in view of lower urinary tract symptoms and age.
+
+Preoperative Investigations:
+
+ECG.
+Chest X-ray if clinically indicated.
+Coagulation profile if indicated.
+Blood Group and Rhesus factor.
+Anaesthetic assessment.
+
+Imaging:
+
+Ultrasound of the groin if the diagnosis is clinically uncertain.
+
+Ultrasound of the prostate and bladder with post-void residual volume to evaluate lower urinary tract symptoms.
+
+CT or MRI is rarely required but may be considered for an occult or diagnostically uncertain groin hernia.
+
+MANAGEMENT
+
+Definitive Treatment:
+
+The patient has a symptomatic direct inguinal hernia and should be referred for elective surgical repair.
+
+Option 1: Open Mesh Hernioplasty
+
+Perform open anterior repair using a mesh-based technique, such as the Lichtenstein tension-free mesh repair.
+
+The posterior wall defect is reinforced with synthetic mesh.
+
+Option 2: Laparoscopic Repair
+
+Consider:
+
+TEP (Totally Extraperitoneal) repair, or
+TAPP (Transabdominal Preperitoneal) repair.
+
+The choice depends on surgeon expertise, patient preference, availability and comorbidities.
+
+MANAGEMENT OF CONTRIBUTING FACTORS
+
+Treat chronic constipation.
+
+Increase dietary fibre intake to 25–30 g/day.
+
+Encourage adequate fluid intake of approximately 2–3 litres daily, unless contraindicated.
+
+Lactulose syrup 15–30 mL orally at night, titrated to achieve soft regular stools.
+
+Alternative:
+
+Macrogol (Polyethylene Glycol) 17 g orally once daily, dissolved in water.
+
+Avoid excessive straining during defecation.
+
+MANAGEMENT OF LOWER URINARY TRACT SYMPTOMS
+
+Further evaluation for benign prostatic enlargement.
+
+Perform urinalysis and assess post-void residual urine.
+
+Consider initiation of:
+
+Tab Tamsulosin 0.4 mg orally once daily, preferably after the same meal each day, following appropriate clinical assessment.
+
+Refer to Urology if symptoms are severe, complicated or associated with significant urinary retention, recurrent urinary tract infection, haematuria or suspected malignancy.
+
+ANALGESIA
+
+For mild discomfort:
+
+Tab Paracetamol 1 g orally every 6–8 hours as required, maximum 4 g/day.
+
+Avoid unnecessary prolonged NSAID use, particularly in older patients with potential renal or cardiovascular risk.
+
+ANTIBIOTIC PROPHYLAXIS
+
+For elective mesh repair, administer perioperative antibiotic prophylaxis according to local hospital protocol and surgical infection risk.
+
+An example is:
+
+Inj. Cefazolin 2 g IV within 60 minutes before skin incision, with appropriate adjustment according to body weight, allergies and local protocol.
+
+IF INCARCERATION OR STRANGULATION DEVELOPS
+
+This constitutes a surgical emergency.
+
+Urgent surgical review.
+
+Keep patient Nil Per Os (NPO).
+
+Establish intravenous access.
+
+Administer IV fluids.
+
+Provide appropriate analgesia.
+
+Insert a nasogastric tube if significant vomiting or intestinal obstruction occurs.
+
+Commence broad-spectrum IV antibiotics if bowel ischemia, strangulation or perforation is suspected.
+
+Proceed to urgent surgical exploration.
+
+Resect non-viable bowel if present and perform appropriate hernia repair.
+
+NURSING INSTRUCTIONS
+
+Monitor the hernia for changes in size and reducibility.
+Observe for sudden onset of severe pain.
+Monitor for abdominal distension, vomiting and inability to pass stool or flatus.
+Monitor blood pressure due to background hypertension.
+
+HEALTH EDUCATION
+
+Explain that a direct inguinal hernia occurs through a weakness in the posterior wall of the inguinal canal, usually medial to the inferior epigastric vessels.
+
+Explain that the current hernia is reducible and uncomplicated.
+
+Advise avoidance of excessive straining and heavy lifting until definitive repair.
+
+Encourage treatment of constipation and urinary symptoms.
+
+Explain that a truss or hernia belt does not provide definitive treatment and should not replace surgical repair in an otherwise suitable patient.
+
+Educate the patient on symptoms requiring immediate emergency attention:
+
+Sudden severe groin or abdominal pain.
+A swelling that becomes irreducible.
+Increasing tenderness or redness over the swelling.
+Persistent vomiting.
+Progressive abdominal distension.
+Inability to pass stool or flatus.
+Fever.
+
+FOLLOW-UP
+
+Review in the General Surgery Clinic within 2–4 weeks for preoperative planning.
+
+Refer for elective mesh-based hernia repair.
+
+Complete preoperative anaesthetic assessment and optimization of hypertension.
+
+Review by Urology or General Outpatient Clinic for evaluation and management of lower urinary tract symptoms.
+
+Postoperative surgical review after repair for wound assessment and recovery.
+
+PROGNOSIS
+
+Good. The patient has a reducible, uncomplicated direct inguinal hernia. Elective mesh repair is expected to provide definitive treatment and reduce the risk of future incarceration or strangulation.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'surg-24',
+  title: 'Reducible Inguinal Hernia',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Right Reducible Inguinal Hernia',
+  symptoms: [
+    'Right groin swelling',
+    'Right groin discomfort',
+    'Reducible groin swelling',
+    'Cough impulse',
+    'Swelling worsened by standing and heavy lifting'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-07-27',
+  summary: '52-year-old male building contractor with an 8-month history of a progressively enlarging, reducible right groin swelling associated with occasional discomfort, consistent with an uncomplicated right inguinal hernia without evidence of incarceration, strangulation or intestinal obstruction.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 52-year-old married male building contractor from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Right groin swelling × 8 months.
+Occasional right groin discomfort × 6 months.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until approximately eight months prior to presentation when he noticed a small swelling in the right groin region. The swelling was initially about the size of a small orange but has gradually increased in size over the past several months.
+
+The swelling becomes more prominent when standing, coughing, sneezing or lifting heavy objects and reduces spontaneously when he lies down. He is usually able to push it back into the abdomen when lying down if it does not reduce spontaneously.
+
+He reports occasional dull aching discomfort over the right groin, particularly after prolonged standing or heavy physical activity. The discomfort is not severe and does not significantly limit his daily activities.
+
+There is no sudden increase in the size of the swelling.
+There is no severe or persistent groin pain.
+There is no redness or discoloration over the swelling.
+There is no history of irreducibility.
+There is no abdominal distension.
+There is no vomiting.
+There is no constipation or obstipation.
+He is passing stool and flatus normally.
+There is no fever.
+There is no urinary retention or difficulty passing urine.
+
+He has no history of previous groin surgery or hernia repair.
+
+He reports frequent heavy lifting as part of his occupation and has had intermittent episodes of chronic cough over the past year.
+
+REVIEW OF SYSTEMS
+
+General:
+
+No fever.
+No weight loss.
+No anorexia.
+
+Gastrointestinal:
+
+Right groin swelling.
+Occasional groin discomfort.
+No abdominal pain.
+No vomiting.
+No abdominal distension.
+No constipation.
+No obstipation.
+
+Genitourinary:
+
+No dysuria.
+No urinary frequency.
+No urinary retention.
+No haematuria.
+
+Respiratory:
+
+Intermittent chronic cough.
+No shortness of breath.
+No haemoptysis.
+
+Cardiovascular:
+
+No chest pain.
+No palpitations.
+No syncope.
+
+PAST MEDICAL HISTORY
+
+No hypertension.
+No diabetes mellitus.
+No chronic kidney disease.
+No known chronic liver disease.
+No previous abdominal or groin surgery.
+
+PAST SURGICAL HISTORY
+
+Nil significant.
+
+DRUG HISTORY
+
+Occasional use of Paracetamol for pain.
+No regular medications.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No family history of hernia or connective tissue disease.
+
+SOCIAL HISTORY
+
+Building contractor with frequent heavy lifting.
+Non-smoker.
+Occasional alcohol consumption.
+
+GENERAL EXAMINATION
+
+Middle-aged man.
+Conscious.
+Alert.
+Not in obvious painful distress.
+Not pale.
+Not jaundiced.
+Well hydrated.
+No peripheral oedema.
+No significant peripheral lymphadenopathy.
+
+VITAL SIGNS
+
+Blood Pressure: 128/82 mmHg
+Pulse Rate: 78 beats/minute, regular.
+Respiratory Rate: 18 cycles/minute
+Temperature: 36.7°C
+SpO₂: 98% on room air
+Weight: 84 kg
+Height: 1.75 m
+BMI: 27.4 kg/m²
+
+ABDOMINAL EXAMINATION
+
+Abdomen is full but not distended.
+Soft.
+Non-tender.
+No guarding or rebound tenderness.
+No palpable abdominal masses.
+No hepatosplenomegaly.
+Normal bowel sounds.
+No clinical evidence of intestinal obstruction.
+
+GROIN EXAMINATION
+
+Inspection reveals a visible swelling in the right inguinal region with the patient standing.
+
+The swelling becomes more prominent on coughing and straining.
+
+It is approximately 8 × 6 cm in size.
+
+The overlying skin is normal.
+
+The swelling is soft and non-tender.
+
+It is reducible on gentle pressure with the patient supine.
+
+A positive cough impulse is present.
+
+The swelling is located above and medial to the pubic tubercle, consistent with an inguinal hernia.
+
+The deep inguinal ring occlusion test is suggestive of an indirect inguinal hernia, although clinical distinction between direct and indirect hernia may not always be reliable.
+
+No evidence of incarceration.
+No evidence of strangulation.
+No evidence of bowel obstruction.
+
+LEFT GROIN
+
+No visible swelling.
+No cough impulse.
+No palpable hernia.
+
+SCROTAL EXAMINATION
+
+Both testes are descended.
+Normal in size and consistency.
+No testicular tenderness.
+No scrotal swelling.
+No hydrocele.
+
+DIGITAL RECTAL EXAMINATION
+
+Normal anal sphincter tone.
+No palpable rectal mass.
+No blood on examining glove.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular:
+
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+
+Normal vesicular breath sounds.
+No crepitations.
+No wheeze.
+
+Central Nervous System:
+
+Conscious and oriented.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Right reducible inguinal hernia, clinically uncomplicated, likely indirect, with no evidence of incarceration, strangulation or intestinal obstruction.
+
+DIFFERENTIAL DIAGNOSES
+
+Femoral hernia.
+Hydrocele.
+Saphena varix.
+Inguinal lymphadenopathy.
+Lipoma of the spermatic cord.
+Femoral artery aneurysm.
+Undescended testis.
+
+INVESTIGATIONS
+
+Laboratory:
+
+Full Blood Count.
+Serum Electrolytes, Urea and Creatinine.
+Random Blood Glucose.
+Urinalysis.
+Liver Function Tests where clinically indicated.
+Coagulation Profile if indicated.
+Blood Group and Rhesus factor if operative intervention is planned.
+
+Preoperative Assessment:
+
+ECG due to age and cardiovascular risk assessment.
+Chest X-ray if clinically indicated or according to anaesthetic protocol.
+Anaesthetic review and assessment of fitness for surgery.
+
+Imaging:
+
+Ultrasound of the groin is not routinely necessary when the diagnosis is clinically obvious but may be performed if the diagnosis is uncertain or to assess an occult hernia.
+
+CT or MRI may be considered in selected patients with persistent groin symptoms and an inconclusive clinical examination.
+
+MANAGEMENT
+
+Definitive Management:
+
+Discuss elective surgical repair with the patient.
+
+For a symptomatic inguinal hernia in a fit adult, recommend elective mesh-based hernia repair.
+
+Option 1: Open Lichtenstein Mesh Hernioplasty
+
+Performed under appropriate anaesthesia.
+
+The hernia sac is identified and reduced or excised as appropriate.
+
+The posterior wall of the inguinal canal is reinforced with a synthetic mesh.
+
+Option 2: Laparoscopic Repair
+
+Totally Extraperitoneal (TEP) or Transabdominal Preperitoneal (TAPP) repair.
+
+Particularly useful in selected patients with bilateral or recurrent inguinal hernias and may provide faster recovery in appropriately selected patients.
+
+PREOPERATIVE MANAGEMENT
+
+Schedule for elective surgical repair.
+Obtain informed consent.
+Explain benefits, risks and alternatives to surgery.
+Assess and optimize comorbidities.
+Advise cessation of smoking if applicable.
+Treat chronic cough and constipation where present to reduce recurrent increases in intra-abdominal pressure.
+
+ANALGESIA
+
+For mild discomfort:
+
+Tab Paracetamol 1 g orally every 6–8 hours as required, maximum 4 g/day.
+
+Avoid unnecessary prolonged NSAID use.
+
+ANTIBIOTIC PROPHYLAXIS
+
+For elective mesh repair, administer perioperative antibiotic prophylaxis according to local hospital protocol and surgical infection risk.
+
+An example is:
+
+Inj. Cefazolin 2 g IV within 60 minutes before skin incision, with dosing adjusted for body weight and local protocol.
+
+IF INCARCERATION OR STRANGULATION DEVELOPS
+
+This becomes a surgical emergency.
+
+Urgent resuscitation and surgical review are required.
+
+Keep patient Nil Per Os (NPO).
+Insert intravenous access.
+Administer intravenous fluids.
+Provide adequate analgesia.
+Insert a nasogastric tube if there is significant vomiting or intestinal obstruction.
+Commence broad-spectrum antibiotics if strangulation, bowel ischemia or perforation is suspected.
+Proceed to urgent surgical exploration.
+
+Possible procedures include hernia reduction, hernia repair and resection of non-viable bowel if required.
+
+NURSING INSTRUCTIONS
+
+Monitor for sudden increase in pain or swelling.
+Observe for irreducibility of the hernia.
+Monitor for abdominal distension and vomiting.
+Assess bowel movement and passage of flatus.
+
+HEALTH EDUCATION
+
+Explain that an inguinal hernia occurs when abdominal contents protrude through a weak area in the groin.
+
+Explain that the hernia is currently reducible and there is no evidence of strangulation or obstruction.
+
+Advise the patient to avoid unnecessary heavy lifting until definitive repair.
+
+Treat chronic cough and constipation to reduce repeated increases in intra-abdominal pressure.
+
+A hernia belt or truss is not a definitive treatment and is generally not recommended as a substitute for surgical repair in a fit patient.
+
+Educate the patient on warning signs of complications, including:
+
+Sudden severe groin or abdominal pain.
+A swelling that becomes irreducible.
+Increasing tenderness or redness over the swelling.
+Abdominal distension.
+Persistent vomiting.
+Inability to pass stool or flatus.
+Fever.
+
+The patient should present immediately to the emergency department if any of these symptoms occur.
+
+FOLLOW-UP
+
+Refer to the General Surgery Clinic for elective hernia repair.
+
+Preoperative surgical and anaesthetic assessment to be completed before the scheduled procedure.
+
+Review after surgery for wound assessment and postoperative recovery.
+
+Advise gradual return to normal activities following surgical repair according to the surgeon's instructions.
+
+PROGNOSIS
+
+Excellent. The patient has an uncomplicated, reducible inguinal hernia with no current evidence of incarceration or strangulation. Elective surgical repair is expected to provide definitive treatment and prevent future complications.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-23',
   title: 'Haemotoxic Snake Bite Envenomation',

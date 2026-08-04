@@ -274,6 +274,7 @@ Putting It Together: The Summary
 },
 
 // SYMPTOM CLERKING
+
   
   {
     id: 'symptom-clerking-fever',
@@ -590,6 +591,964 @@ Putting It Together: The Summary
 </html>
     `
   },
+
+  {
+    id: 'symptom-clerking-painful-swallowing',
+    title: 'Painful Swallowing',
+    category: 'Symptom Clerking',
+    subCategory: 'Pain',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Painful Swallowing</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Painful Swallowing</h1>
+    <p class="text-sm text-indigo-200">Painful swallowing (odynophagia) is usually a simple pharyngitis, but in an HIV-positive or immunosuppressed patient it should immediately raise oesophageal candidiasis, and a small number of presentations - epiglottitis, peritonsillar abscess, caustic ingestion - are genuine emergencies where the wrong examination technique can make things worse. This guide focuses on the history and examination that separate these possibilities safely, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>Where is the pain felt - in the mouth/throat, or further down behind the breastbone (suggesting an oesophageal source)?</li>
+      <li>Is it specifically painful to swallow, or is it also difficult to get food down (odynophagia and dysphagia can coexist, but are not the same thing, and it helps to clarify which is present)?</li>
+      <li>Is it worse with solids, liquids, or both? Difficulty even with liquids or saliva is more concerning and suggests a more severe or higher process.</li>
+      <li>Did it follow taking a tablet without enough water, or lying down soon afterwards? This is a very common and often overlooked cause (pill-induced oesophagitis).</li>
+      <li>Has anything been swallowed accidentally, or intentionally, that shouldn't have been - a foreign object, or a caustic substance such as a strong cleaning agent? This needs to be asked directly and without judgement, since patients (or families, in the case of children) may not volunteer it.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General/infective:</span> fever, sore throat, and any oral ulcers or visible lesions.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Airway (ask explicitly - these are red flags):</span> drooling (an inability to swallow one's own saliva), a muffled or "hot potato" voice, noisy or difficult breathing, or difficulty opening the mouth fully (trismus).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reflux-related:</span> heartburn, regurgitation, or a relationship to meals or lying flat.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin/mucosal:</span> a rash accompanying the sore throat (relevant to measles, hand-foot-and-mouth disease, or a severe drug reaction).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> weight loss - relevant if a chronic or malignant process is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neck:</span> swelling or stiffness, particularly in a child, which can point towards a deeper neck space infection.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status/risk factors:</span> essential - odynophagia with oral thrush in an HIV-positive or otherwise immunosuppressed patient strongly suggests oesophageal candidiasis, a common and treatable cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> doxycycline, NSAIDs, potassium supplements, or bisphosphonates - and specifically how they were taken (with enough water, and remaining upright afterwards).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Immunization history (in children):</span> up to date with diphtheria and measles vaccination? Incompletely immunized children with a sore throat and a grey membrane need diphtheria actively considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Contact with similar illness:</span> relevant to viral pharyngitis or hand-foot-and-mouth disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reflux history:</span> known or previously diagnosed GERD.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Any suicidal ideation or intent, where caustic ingestion appears deliberate:</span> ask directly and sensitively, following the same safety-focused approach used for any disclosure of self-harm risk.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Radiation/chemotherapy history:</span> relevant if radiation-related oesophagitis is being considered.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Airway Safety (Assess This Before Anything Else)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, or unwell and anxious-looking? Note their position - sitting forward, drooling, and leaning on their arms (the "tripod" position) is a classic and worrying sign.</li>
+      <li>Is there drooling, stridor, or obvious difficulty breathing? <span class="font-medium text-slate-800 dark:text-slate-200">If epiglottitis is genuinely suspected, do not force an examination of the throat with a tongue depressor</span> - this can precipitate complete airway obstruction. Keep the patient calm, avoid distressing them further, and get urgent anaesthetic/ENT support to secure the airway in a controlled setting instead.</li>
+      <li>Vital signs, including oxygen saturation and temperature.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Oral and Pharyngeal Examination (Once Airway Safety Is Confirmed)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral cavity</span> - white plaques that can be scraped off (supports oral candidiasis), vesicles or ulcers, or a thick grey membrane that bleeds when disturbed (a classic sign of diphtheria).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Tonsils/pharynx</span> - erythema, exudate, and specifically any asymmetric tonsillar swelling with uvula deviation to one side - this supports a peritonsillar abscess.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trismus</span> - difficulty opening the mouth fully also supports a peritonsillar abscess.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Voice quality</span> - a muffled, "hot potato" voice is another supportive sign.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neck</span> - lymphadenopathy, swelling, or stiffness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin</span> - a rash, if present, may support measles or hand-foot-and-mouth disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hydration status</span> - relevant where oral intake has been significantly limited by the pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General signs of HIV</span> - wasting or other opportunistic findings.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Drooling, stridor, or a tripod position</span> - suspected epiglottitis; a true airway emergency needing calm handling and urgent anaesthetic/ENT support rather than a forced oral exam.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Trismus with uvula deviation and a muffled voice</span> - peritonsillar abscess, needing urgent ENT referral for drainage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected caustic ingestion</span> - do not induce vomiting; arrange urgent assessment (including endoscopy where appropriate) and supportive care.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A thick grey pharyngeal membrane with systemic illness</span> - raises diphtheria; notify public health promptly given its transmissibility and the risk of myocarditis and neuropathy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Inability to swallow saliva, or significant dehydration from pain-limited intake</span> - needs IV fluids and prompt further assessment.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent, given the strong link with oesophageal candidiasis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Throat swab/culture</span> - where bacterial pharyngitis or diphtheria is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - as a general baseline, particularly where a bacterial process is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Upper GI endoscopy</span> - where oesophageal candidiasis, herpetic oesophagitis, or another oesophageal cause is suspected and not settling with an initial trial of treatment, or where the diagnosis remains unclear.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lateral neck imaging or CT neck</span> - where a deep neck space infection or retropharyngeal abscess is suspected; this should never delay airway management if the patient is unstable.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Endoscopy (not barium studies)</span> - where a foreign body is suspected, given the risk of aspiration or worsening obstruction with a barium swallow.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Viral pharyngitis</span> - the commonest cause overall; self-limiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacterial pharyngitis/tonsillitis</span> - exudate, fever, tender cervical nodes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Oesophageal candidiasis</span> - odynophagia with oral thrush, particularly in an HIV-positive or immunosuppressed patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Herpetic oesophagitis/stomatitis</span> - painful vesicles or ulcers.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pill-induced oesophagitis</span> - retrosternal pain following a tablet taken with too little water or while lying down.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD/reflux oesophagitis</span> - burning pain related to meals or lying flat.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peritonsillar abscess</span> - trismus, uvula deviation, muffled voice.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Epiglottitis</span> - drooling, stridor, tripod positioning; a true airway emergency.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diphtheria</span> - a thick grey pharyngeal membrane, particularly in an incompletely immunized patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Measles-related oral lesions/hand-foot-and-mouth disease</span> - accompanied by a compatible rash.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Caustic ingestion</span> - accidental or deliberate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Foreign body</span> - especially in children.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute HIV seroconversion illness</span> - painful pharyngitis/oral ulcers as part of a broader acute retroviral syndrome.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malignancy</span> - usually more dysphagia-predominant, but can coexist with odynophagia.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Simple analgesia</span> - paracetamol or an NSAID where not contraindicated.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Soft or liquid diet</span> - to maintain intake while the underlying cause is treated.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Adequate hydration</span> - IV fluids where oral intake is significantly limited.</li>
+      <li>Symptomatic relief should never delay recognizing and acting on any of the airway or ingestion emergencies above.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Oesophageal candidiasis</span> - oral fluconazole, alongside initiation or optimization of antiretroviral therapy where HIV-positive.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bacterial pharyngitis/tonsillitis</span> - penicillin or amoxicillin per standard protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peritonsillar abscess</span> - urgent ENT referral for drainage, alongside IV antibiotics.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pill-induced oesophagitis</span> - stop or modify the causative medication (take with plenty of water, remain upright for at least 30 minutes afterwards).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD</span> - proton pump inhibitor and lifestyle measures.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diphtheria</span> - diphtheria antitoxin and antibiotics, with urgent notification to public health authorities.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Caustic ingestion</span> - supportive care and urgent specialist assessment; never induce vomiting or attempt neutralization.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Foreign body</span> - urgent endoscopic removal.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Measles/hand-foot-and-mouth disease</span> - supportive care; measles also requires public health notification and vitamin A per protocol in children.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Painful swallowing, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, location (oral/pharyngeal/oesophageal), solids versus liquids, associated airway red flags, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">HIV status, immunization history, known GERD.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Recent tablets and how taken, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Contact with similar illness, household context relevant to ingestion in children.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Airway assessment first, then oral/pharyngeal findings, neck findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not considering HIV/oesophageal candidiasis in a patient with odynophagia and oral thrush.</li>
+    <li>Forcing a throat examination with a tongue depressor when epiglottitis is suspected.</li>
+    <li>Missing peritonsillar abscess by not checking for trismus and uvula deviation.</li>
+    <li>Not asking about pill-taking technique as a common, fixable cause.</li>
+    <li>Missing diphtheria in an unvaccinated or under-vaccinated child with a pharyngeal membrane.</li>
+    <li>Inducing vomiting in suspected caustic ingestion, which is contraindicated.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Odynophagia with oral thrush in an HIV-positive patient strongly suggests oesophageal candidiasis - a common and treatable cause.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never force a throat examination if epiglottitis is suspected (stridor, drooling, tripod positioning) - get urgent anaesthetic/ENT support instead.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Peritonsillar abscess needs urgent drainage - always check for trismus and uvula deviation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never induce vomiting in suspected caustic ingestion.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask specifically about pill-taking technique - a common and easily fixable cause of painful swallowing.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for Managing Advanced HIV Disease and Opportunistic Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Infectious Diseases Society of America - Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Diphtheria Vaccine Position Paper and Outbreak Guidance.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+</body>
+</html>
+    `
+  },
+  {
+    id: 'symptom-clerking-tingling',
+    title: 'Tingling',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Paresthesia (Tingling Sensation)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Paresthesia (Tingling Sensation)</h1>
+    <p class="text-sm text-indigo-200">Paresthesia most often reflects diabetic peripheral neuropathy, but any patchy area of altered sensation should also raise leprosy - a diagnosis where early recognition is what prevents permanent nerve damage and disability. Sudden, one-sided tingling accompanied by other neurological symptoms needs to be treated as a possible stroke. This guide focuses on the history and examination that map out the pattern and clarify the likely cause, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Sensation Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and was the onset sudden (over seconds to minutes) or gradual (over weeks to months)? Sudden, one-sided onset is a very different problem from a slow, symmetrical development.</li>
+      <li>Where is it - both feet and hands in a "glove and stocking" pattern (suggests a metabolic/toxic cause), a single patch of skin (raises leprosy or a localized nerve problem), a band around the trunk following a strip of skin (raises shingles or a nerve root problem), or one whole side of the body (raises a central/stroke-related cause)?</li>
+      <li>Is it constant, or does it come and go?</li>
+      <li>Is there any associated pain - burning, shooting, or electric-shock-like? This points towards nerve-related (neuropathic) pain specifically.</li>
+      <li>Has any weakness developed alongside it, or is it purely a sensory change?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin changes in the affected area (ask explicitly):</span> any patch that looks different in colour, feels dry, or has lost hair - relevant to leprosy, which often affects the skin and nerve together.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological (ask explicitly - these are red flags):</span> facial drooping, slurred speech, visual disturbance, or weakness developing alongside the tingling - all raise a central cause such as stroke.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Rash:</span> a vesicular rash following the same distribution as the tingling, which can precede or accompany shingles (herpes zoster).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety-related:</span> tingling around the mouth and in the hands/feet during episodes of rapid breathing or panic.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic:</span> excessive thirst and urination (diabetes), muscle cramps or spasms (hypocalcaemia).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neck symptoms:</span> neck pain radiating down an arm, which raises cervical nerve root compression.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> known diagnosis, and how well it is controlled - diabetic peripheral neuropathy is the commonest cause of this symptom overall.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB/leprosy contact:</span> known contact with someone with leprosy, or a family history - important given how often leprosy is diagnosed late.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status and ART history:</span> both HIV itself and certain older antiretroviral drugs are associated with peripheral neuropathy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use:</span> a recognized and common cause of peripheral neuropathy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dietary intake:</span> particularly where access to food is limited, since deficiency of vitamin B12 or thiamine can cause a similar picture.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Occupational exposure:</span> work involving lead (battery recycling, artisanal mining, some painting work) or other heavy metals/solvents.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known kidney disease:</span> raises uraemic neuropathy in advanced disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Repetitive hand use or occupation:</span> relevant to entrapment neuropathies such as carpal tunnel syndrome.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous chickenpox:</span> relevant background for later shingles.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> isoniazid and certain chemotherapy agents are recognized causes of peripheral neuropathy.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Detailed Sensory Mapping</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Test light touch, pinprick, temperature, vibration, and proprioception, and carefully map out the distribution - symmetrical glove-and-stocking, a single patch, a dermatomal band, or one side of the body.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Any hypopigmented or discoloured skin patch should have its sensation tested directly and compared with normal surrounding skin</span> - reduced or absent sensation within such a patch is a key sign of leprosy and should never be assumed to be "just a skin thing."</li>
+      <li>Palpate peripheral nerves (e.g. the ulnar nerve at the elbow, the common peroneal nerve at the knee) for thickening, which supports leprosy.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Motor and Reflex Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Formal power testing in all four limbs, even if the history sounds purely sensory.</li>
+      <li>Reflexes - reduced or absent in a peripheral neuropathy; normal or exaggerated in a central process.</li>
+      <li>Cranial nerve examination and a check for facial asymmetry - essential wherever a stroke is a possibility.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic foot examination</span> - looking for ulceration, deformity, and loss of protective sensation using a monofilament where available.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin</span> - a vesicular rash in a dermatomal distribution supports shingles.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of vitamin deficiency</span> - glossitis or pallor, relevant to B12 deficiency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chvostek's and Trousseau's signs</span> - where hypocalcaemia is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neck examination</span> - where cervical radiculopathy is suspected.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden, one-sided paresthesia with other neurological symptoms</span> (facial droop, weakness, slurred speech, visual change) - a stroke until proven otherwise; needs urgent imaging without delay.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A patch of skin with reduced or absent sensation</span> - leprosy until excluded; early treatment is what prevents permanent nerve damage and disability, so this should be acted on promptly, not observed.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Paresthesia progressing to ascending weakness</span> - raises early Guillain-Barre syndrome, with a real risk of respiratory muscle involvement.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bilateral leg symptoms with new bladder or bowel dysfunction</span> - raises spinal cord compression/cauda equina syndrome, a surgical emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe hypocalcaemia with tetany</span> - carries a risk of laryngospasm and seizures and needs prompt correction.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Complete loss of protective foot sensation in a diabetic patient</span> - carries a significant risk of unnoticed injury and ulceration, and needs proactive foot care education.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose/HbA1c</span> - given how commonly diabetes underlies this symptom.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Slit-skin smear and careful sensory/nerve examination</span> - where leprosy is suspected; clinical sensory testing remains central to diagnosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC, vitamin B12/folate levels</span> - where nutritional deficiency is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal function</span> - where uraemic neuropathy is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - where suggestive symptoms are present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Calcium and electrolytes</span> - where tetany or another electrolyte-related cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood lead level</span> - where a compatible occupational exposure history is present.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urgent CT/MRI brain</span> - wherever a central/stroke-related cause is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">MRI spine</span> - where cervical radiculopathy or cord compression is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nerve conduction studies</span> - where a specific entrapment neuropathy needs confirmation, where available.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic peripheral neuropathy</span> - the commonest cause, typically a symmetrical glove-and-stocking pattern.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Leprosy</span> - a patch of altered sensation, sometimes with visible skin changes; always actively consider this.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol-related neuropathy</span> - in a patient with significant alcohol intake.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vitamin B12 or thiamine deficiency</span> - particularly with limited dietary intake.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV/ART-related neuropathy</span> - in a known HIV-positive patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Entrapment neuropathy</span> (e.g. carpal tunnel syndrome) - a single nerve distribution, often related to repetitive activity.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cervical radiculopathy</span> - a dermatomal pattern with neck pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stroke/TIA</span> - sudden, one-sided paresthesia with other neurological symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Guillain-Barre syndrome (early)</span> - ascending paresthesia, often preceding weakness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Herpes zoster (pre-rash)</span> - dermatomal tingling/pain preceding the characteristic vesicular rash.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypocalcaemia/tetany</span> - perioral and hand/foot tingling, sometimes with muscle spasm.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety/hyperventilation syndrome</span> - perioral and peripheral tingling during episodes of rapid breathing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lead poisoning</span> - with a compatible occupational exposure history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic kidney disease-related (uraemic) neuropathy</span> - in advanced disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypothyroidism-related neuropathy</span> - alongside other hypothyroid features.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief of Neuropathic Discomfort</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neuropathic pain agents</span> (e.g. amitriptyline or gabapentin, where available and appropriate) - for burning or shooting discomfort, once a specific cause is being addressed.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Foot care education</span> - for anyone with reduced sensation in the feet, particularly diabetics, to reduce the risk of unnoticed injury.</li>
+      <li>Symptomatic relief should never delay identifying and treating the underlying cause, particularly leprosy or a central process.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic peripheral neuropathy</span> - optimize glycaemic control, alongside neuropathic pain management and regular foot care.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Leprosy</span> - urgent referral into the national leprosy programme for confirmation and multidrug therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vitamin B12/thiamine deficiency</span> - appropriate vitamin replacement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol-related neuropathy</span> - abstinence counselling alongside thiamine and B-vitamin supplementation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stroke/TIA</span> - urgent stroke pathway per standard protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Guillain-Barre syndrome</span> - urgent neurology referral with close monitoring of respiratory function; IV immunoglobulin or plasmapheresis where available.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Entrapment neuropathy</span> - splinting/activity modification initially, with surgical release considered for persistent or severe cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypocalcaemia</span> - calcium replacement, guided by severity and underlying cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Herpes zoster</span> - antiviral therapy (e.g. acyclovir) started as early as possible, alongside analgesia.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lead poisoning</span> - removal from the source of exposure, with specialist input on chelation therapy where indicated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety/hyperventilation</span> - reassurance, breathing techniques, and referral for further support where needed.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Paresthesia/tingling, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, distribution, associated pain/weakness, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">Diabetes, HIV status, previous leprosy or TB contact, kidney disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Substance History</dt>
+      <dd class="mt-0.5">Alcohol use, isoniazid or chemotherapy history, current medications.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Occupational exposures, dietary intake, family history of neurological disease.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Detailed sensory mapping, motor/reflex testing, skin/nerve examination, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not testing sensation in a patch of altered skin, missing an opportunity to diagnose leprosy early.</li>
+    <li>Not checking blood glucose in every case, given how commonly diabetes underlies this symptom.</li>
+    <li>Missing a stroke by not recognizing sudden, one-sided paresthesia with other neurological symptoms as urgent.</li>
+    <li>Not asking about occupational lead or heavy metal exposure where relevant.</li>
+    <li>Not considering nutritional deficiency in patients with limited dietary access.</li>
+    <li>Missing the ascending pattern that can precede weakness in early Guillain-Barre syndrome.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Any patchy area of sensory loss or tingling needs leprosy actively considered - test sensation directly and don't assume it's "just a skin thing."</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sudden, one-sided paresthesia with other neurological symptoms is a stroke until proven otherwise.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Diabetes is the commonest cause of peripheral neuropathy - check glucose in every case.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider nutritional deficiency (B12/thiamine) where dietary intake is limited.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about occupational exposure to lead and other heavy metals where relevant.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Diagnosis, Treatment and Prevention of Leprosy.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Diabetes Association - Standards of Care (Neuropathy section).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Stroke Organization - Global Stroke Services Guidelines and Action Plan.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Neurology - Guideline on the Management of Guillain-Barre Syndrome.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+
+</body>
+</html>
+    `
+  },
+  
+  {
+    id: 'symptom-clerking-dizziness',
+    title: 'Dizziness',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Dizziness</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Dizziness</h1>
+    <p class="text-sm text-indigo-200">"Dizziness" means different things to different patients - a spinning sensation, a feeling of about to faint, unsteadiness on the feet, or a vague fogginess - and each of these needs a different workup entirely. Locally, anaemia is an extremely common and often overlooked cause of the faint, lightheaded type, while true vertigo with other neurological symptoms must be treated as a possible stroke. This guide focuses on the history and examination that sort out which type of dizziness is actually present, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Essential First Question: What Does "Dizzy" Actually Mean?</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does it feel like the room is spinning, or like you are spinning (true vertigo)?</li>
+      <li>Does it feel like you are about to faint or black out, especially on standing up (presyncope/lightheadedness)?</li>
+      <li>Do you feel unsteady or off-balance when walking, without the room spinning (disequilibrium)?</li>
+      <li>Or is it more of a vague, foggy, hard-to-describe sensation that doesn't fit any of the above?</li>
+      <li>Getting this clear early saves a great deal of time, since each pattern points towards a largely different set of causes.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Follow-Up Questions Depending on the Pattern</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">If vertigo:</span> Is it triggered by a change in head position (raises BPPV)? How long do episodes last - seconds, minutes, or hours? Any hearing loss or ringing in the ears (raises Meniere's disease or another inner ear cause)? Any ear pain or discharge?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">If presyncope/lightheadedness:</span> Does it happen specifically on standing up? Any palpitations before or during the episode? Any chest pain? Is it worse when fasting, or related to diabetes medication timing? Any recent vomiting, diarrhoea, or reduced fluid intake?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">If disequilibrium:</span> Has it come on gradually? Any known diabetes, visual problems, or joint/mobility issues? Any recent falls?</li>
+      <li>In every case: has this happened before, and what makes it better or worse?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neurological (ask explicitly - these are red flags):</span> double vision, slurred speech, difficulty swallowing, weakness or numbness anywhere, or difficulty coordinating movements. Any of these alongside vertigo raises a central (brainstem/cerebellar) cause rather than an inner ear problem.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia-related:</span> breathlessness on exertion, palpitations, and noticeable pallor or fatigue.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac:</span> palpitations, chest pain, or a sensation of the heart racing or skipping beats.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Headache:</span> particularly with a migrainous quality, which can accompany vestibular migraine.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> vomiting or diarrhoea contributing to dehydration.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reproductive (in women):</span> menstrual history (heavy periods contributing to anaemia), and pregnancy status/trimester.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> antihypertensives, diuretics, and sedatives are common causes of orthostatic dizziness; ask specifically about any recent dose changes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known anaemia, sickle cell disease, or recent malaria:</span> anaemia is an extremely common local cause of lightheaded dizziness and should always be actively considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes and its treatment:</span> hypoglycaemia can present as dizziness, and long-standing diabetes can cause autonomic neuropathy leading to orthostatic hypotension.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypertension and cardiac history:</span> relevant to both stroke risk and arrhythmia.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy:</span> in later pregnancy, lying flat can cause supine hypotension from the gravid uterus compressing major vessels; anaemia is also common in pregnancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Ear infections:</span> recent or recurrent ear infections/discharge.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Alcohol use and hydration:</span> relevant to dehydration-related presyncope.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent head injury:</span> relevant to certain vestibular or central causes.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Vital Signs (Essential in Every Case)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lying and standing blood pressure and heart rate</span> - a significant drop on standing supports orthostatic hypotension; do this in every patient presenting with dizziness.</li>
+      <li>Pulse rate and rhythm - checking specifically for an irregular rhythm suggesting an arrhythmia.</li>
+      <li>Temperature, and oxygen saturation where relevant.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General and Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pallor</span> - check conjunctivae and palms; anaemia is common enough locally that this should never be skipped.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Ear examination (otoscopy)</span> - looking for infection, discharge, or a perforated eardrum.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nystagmus</span> - note its direction and whether it changes with gaze.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cranial nerve examination</span> - looking specifically for facial asymmetry, abnormal eye movements, or slurred speech.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cerebellar signs</span> - coordination, gait, and any tremor or dysmetria.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Focal limb weakness or sensory loss</span> - alongside vertigo, this strongly raises a central cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dix-Hallpike manoeuvre</span> - where BPPV is suspected based on positional triggers, to reproduce the vertigo and characteristic nystagmus.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac auscultation</span> - murmurs or an irregular rhythm.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Capillary blood glucose</span> - in any diabetic patient presenting with dizziness.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Vertigo with double vision, slurred speech, weakness, numbness, or ataxia</span> - a stroke (posterior circulation) until proven otherwise, especially with vascular risk factors; needs urgent imaging.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Presyncope/syncope with palpitations, chest pain, or an abnormal ECG</span> - raises a cardiac arrhythmia and needs prompt cardiac assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe anaemia with haemodynamic compromise</span> - tachycardia, hypotension, or breathlessness at rest - needs urgent transfusion assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Confirmed or suspected hypoglycaemia</span> in a diabetic patient - needs immediate glucose correction.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Significant orthostatic hypotension with recurrent falls</span> - carries real injury risk and needs medication review and further assessment.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - given how common anaemia is as a cause locally, this should be routine.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose</span> - in every diabetic patient with dizziness, and as a general screen otherwise.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lying/standing blood pressure</span> - as above, essential in every case.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">ECG</span> - where a cardiac cause is plausible, particularly with palpitations or chest pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies the dizziness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Electrolytes and thyroid function tests</span> - as part of a general metabolic screen.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urgent CT/MRI brain</span> - wherever a central cause of vertigo is suspected; this should not be delayed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dix-Hallpike test</span> - a clinical test, not a laboratory investigation, but central to confirming BPPV without further imaging when the pattern is typical.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy test</span> - where relevant, in a woman of reproductive age.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vertigo (peripheral):</span> BPPV, vestibular neuritis/labyrinthitis, Meniere's disease, or otitis media-related.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vertigo (central):</span> posterior circulation stroke/TIA, vestibular migraine, or a cerebellar lesion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia</span> - a very common local cause of lightheaded dizziness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Orthostatic hypotension</span> - from medications, dehydration, or autonomic dysfunction (including diabetic autonomic neuropathy).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac arrhythmia</span> - presenting with presyncope or syncope.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypoglycaemia</span> - in a diabetic patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vasovagal episode</span> - a common, benign cause of presyncope.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal insufficiency</span> - postural dizziness alongside fatigue and hyperpigmentation.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic peripheral neuropathy</span> - disequilibrium rather than true vertigo.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety/hyperventilation syndrome</span> - a nonspecific, often lightheaded sensation, usually a diagnosis of exclusion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Supine hypotension of pregnancy</span> - in later pregnancy, related to position.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication side effects</span> - antihypertensives, diuretics, sedatives.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/General Support</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Fall precautions</span> - advise the patient to rise slowly, sit if feeling faint, and use support where needed while the cause is being identified.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Adequate hydration</span> - a reasonable general measure.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Immediate glucose</span> - for confirmed or strongly suspected hypoglycaemia; this should never be delayed.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">BPPV</span> - a canalith repositioning manoeuvre (e.g. the Epley manoeuvre), which is often curative.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Vestibular neuritis/labyrinthitis</span> - short-term vestibular suppressants for severe symptoms, with vestibular rehabilitation exercises to support longer-term recovery.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Meniere's disease</span> - salt restriction and diuretics as first-line measures, with ENT input for refractory cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Stroke</span> - urgent stroke pathway per the general weakness/stroke guidance.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia</span> - iron/folate replacement, treatment of the underlying cause, and transfusion where severe or symptomatic.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Orthostatic hypotension</span> - review and adjust contributing medications, ensure adequate hydration, and consider compression stockings.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac arrhythmia</span> - cardiology referral for further characterization and treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hypoglycaemia</span> - immediate glucose, with review of the diabetes medication regimen afterwards.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adrenal insufficiency</span> - glucocorticoid replacement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety/hyperventilation</span> - reassurance, breathing techniques, and referral for further support where needed.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Dizziness, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Clarify vertigo versus presyncope versus disequilibrium versus nonspecific, onset, triggers, duration of episodes, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Diabetes, hypertension, known anaemia/sickle cell disease, cardiac history, stroke risk factors.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Antihypertensives, diuretics, sedatives, diabetes medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Menstrual history, alcohol use, relevant occupational factors.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Lying/standing vitals, pallor, ear/neurological/cerebellar findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not clarifying what type of "dizziness" the patient means before proceeding.</li>
+    <li>Not checking lying and standing blood pressure as a routine part of the assessment.</li>
+    <li>Missing a central cause by not performing a full neurological exam when vertigo is accompanied by other neurological symptoms.</li>
+    <li>Not checking an FBC despite how common anaemia is as a cause locally.</li>
+    <li>Missing an arrhythmia by not obtaining an ECG when presyncope is accompanied by palpitations.</li>
+    <li>Not checking blood glucose in a diabetic patient with dizziness.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always clarify what type of dizziness is present first - vertigo, presyncope, disequilibrium, or nonspecific - each needs a different workup.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check lying and standing blood pressure in every case of dizziness.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Anaemia is an extremely common local cause of presyncope-type dizziness - check an FBC.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Vertigo with other neurological symptoms is a stroke until excluded, especially with vascular risk factors.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always check blood glucose in a diabetic patient presenting with dizziness.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Neurology - Guideline on the Evaluation of Vertigo/Dizziness.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Stroke Organization - Global Stroke Services Guidelines and Action Plan.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines on Haemoglobin Cutoffs to Define Anaemia and Its Severity.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Otolaryngology - Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+
+</body>
+</html>
+    `
+  },
+
+
   {
     id: 'symptom-clerking-headache',
     title: 'Headache',

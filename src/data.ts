@@ -38,7 +38,7 @@ export const INITIAL_TEMPLATES: Template[] = [
     
     There is no history of persistent depressed mood, anhedonia, suicidal ideation or previous suicide attempt.
     
-    There is no history suggestive of mania, psychosis, auditory or visual hallucinations or delusional beliefs.
+    No history suggestive of mania, psychosis, auditory or visual hallucinations or delusional beliefs.
     
     She denies use of heroin, cocaine, amphetamines or other illicit substances. She reports occasional alcohol intake.
     
@@ -229,17 +229,17 @@ His pentazocine use has resulted in significant functional impairment. He report
 
 His elder sister reports progressive social withdrawal, irritability and recurrent conflicts with family members. He has reportedly sold personal belongings to obtain money for pentazocine.
 
-There is no history of sharing needles, although he admits to reusing injection sites and occasionally injecting himself without proper aseptic precautions.
+No history of sharing needles, although he admits to reusing injection sites and occasionally injecting himself without proper aseptic precautions.
 
-There is no history of overdose, respiratory depression or loss of consciousness.
+No history of overdose, respiratory depression or loss of consciousness.
 
-There is no history of heroin, cocaine or methamphetamine use. He reports occasional alcohol consumption and occasional cigarette smoking.
+No history of heroin, cocaine or methamphetamine use. He reports occasional alcohol consumption and occasional cigarette smoking.
 
 There is no history of seizures, delirium or severe withdrawal requiring admission.
 
-There is no history suggestive of major depressive disorder, bipolar affective disorder, psychosis, obsessive-compulsive disorder or panic disorder.
+No history suggestive of major depressive disorder, bipolar affective disorder, psychosis, obsessive-compulsive disorder or panic disorder.
 
-There is no previous psychiatric admission.
+No previous psychiatric admission.
 
 PAST PSYCHIATRIC HISTORY
 
@@ -493,9 +493,9 @@ Not yet available
     
     There is no history of fever, headache, neck stiffness, convulsions or head injury.
     
-    There is no history of previous episodes of similar behavioural changes.
+    No history of previous episodes of similar behavioural changes.
     
-    There is no history of depressive symptoms, manic episodes prior to substance use or suicidal ideation.
+    No history of depressive symptoms, manic episodes prior to substance use or suicidal ideation.
     
     PAST MEDICAL HISTORY
     
@@ -753,7 +753,7 @@ Not yet available
     
     There is no history of visual or auditory hallucinations. There are no grandiose beliefs or symptoms suggestive of a primary mood disorder preceding the onset of substance use.
     
-    There is no history of head injury, convulsions or high-grade fever preceding the onset of symptoms.
+    No history of head injury, convulsions or high-grade fever preceding the onset of symptoms.
     
     PRIOR TO PRESENTATION:
     
@@ -1029,9 +1029,9 @@ Not yet available
   
   There is associated sensory hypersensitivity, particularly to loud noises such as generator sounds, which cause him to cover his ears and panic.
   
-  There is no history of developmental regression, head injury, meningitis or childhood seizures.
+  No history of developmental regression, head injury, meningitis or childhood seizures.
   
-  There is no history of depressed mood, sleep disturbance, hallucinations or delusions.
+  No history of depressed mood, sleep disturbance, hallucinations or delusions.
   
   No previous psychiatric or psychological evaluation had been sought, as the family previously attributed his behaviour to shyness and spiritual causes.
   
@@ -1187,15 +1187,15 @@ Not yet available
   
   There is no history of persistent low mood, anhedonia or suicidal ideation.
   
-  There is no history of excessive worry, panic attacks or prominent somatic anxiety symptoms.
+  No history of excessive worry, panic attacks or prominent somatic anxiety symptoms.
   
-  There is no history of elevated mood, grandiosity or decreased need for sleep.
+  No history of elevated mood, grandiosity or decreased need for sleep.
   
-  There is no history of hallucinations or delusions.
+  No history of hallucinations or delusions.
   
   He denies alcohol, cannabis or other recreational drug use but admits to frequent consumption of caffeinated energy drinks in an attempt to stay awake while studying.
   
-  There is no history of heat intolerance, weight loss despite increased appetite or tremors.
+  No history of heat intolerance, weight loss despite increased appetite or tremors.
   
   PMH:
   No history of childhood febrile convulsions.
@@ -1607,13 +1607,13 @@ Not yet available
   Over the last two months, she experienced recurrent episodes of sudden-onset palpitations, sweating and fine hand tremors lasting about 10–15 minutes. These episodes were usually triggered by academic stress but occasionally occurred spontaneously.
   
   There is no history of persistently low mood, anhedonia or feelings of worthlessness.
-  There is no history of elevated mood, hyperactivity or decreased need for sleep.
-  There is no history of auditory or visual hallucinations.
+  No history of elevated mood, hyperactivity or decreased need for sleep.
+  No history of auditory or visual hallucinations.
   There are no delusional beliefs.
-  There is no history of heat intolerance, weight loss despite increased appetite or neck swelling.
-  There is no excessive caffeine consumption.
+  No history of heat intolerance, weight loss despite increased appetite or neck swelling.
+  No excessive caffeine consumption.
   She does not consume alcohol.
-  There is no use of over-the-counter stimulants.
+  No use of over-the-counter stimulants.
   
   PTP:
   She had been self-medicating with over-the-counter Paracetamol for muscle tension and herbal teas for sleep without significant improvement.
@@ -2478,6 +2478,477 @@ Not yet available
   
 
   // Pediatrics
+  {
+    id: 'peds-40',
+    title: 'Atopic Dermatitis with Post-inflammatory Hyperpigmentation',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology',
+    condition: 'Atopic Dermatitis',
+    symptoms: [
+      'Itchy facial rash',
+      'Neck rash',
+      'Dry skin',
+      'Post-inflammatory hyperpigmentation',
+      'Nocturnal itching'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-03',
+    summary: 'A 15-year-old female with recurrent childhood eczema presented with a one-month history of pruritic facial and cervical eczema associated with post-inflammatory hyperpigmentation and lichenification, without evidence of secondary bacterial infection.',
+    content: `PAEDIATRIC DERMATOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 15-year-old female secondary school student. Accompanied by her mother (Reliable Historian).
+  
+  CC:
+  Itchy rash over the face and neck × 1 month.
+  
+  HPC:
+  The patient was apparently well until about one month prior to presentation when she developed an itchy rash involving both cheeks, which gradually spread to the forehead, chin and anterior neck. The rash progressively became more pruritic, particularly at night and during periods of excessive sweating.
+  
+  She describes the rash as dry, rough and occasionally erythematous. Frequent scratching has resulted in darkening of the affected areas and mild thickening of the skin over the neck. She reports embarrassment because of the cosmetic appearance of the rash and has recently avoided participating in school social activities.
+  
+  Symptoms are aggravated by hot weather, excessive sweating, examination-related stress and the use of scented facial cleansers and cosmetic products. Temporary relief is obtained after applying petroleum jelly.
+  
+  There is no history of painful skin lesions, blisters, pustules, facial swelling or fever.
+  
+  There is no recent history of new medications, new foods or insect bites.
+  
+  She has experienced similar episodes since childhood, mainly involving the flexural aspects of the elbows and the popliteal fossae, with intermittent remissions.
+  
+  There is no history of asthma, although she occasionally experiences allergic rhinitis during the dusty season.
+  
+  ROS:
+  
+  General:
+  No fever.
+  No weight loss.
+  Sleep occasionally disturbed by itching.
+  
+  Skin:
+  Persistent itchy rash involving the face and neck.
+  Dry skin.
+  Post-inflammatory hyperpigmentation.
+  No blisters.
+  No pustules.
+  
+  Respiratory:
+  Occasional sneezing.
+  No cough.
+  No wheeze.
+  
+  ENT:
+  Intermittent nasal itching.
+  No sore throat.
+  
+  Gastrointestinal:
+  No abdominal pain.
+  No vomiting.
+  
+  Musculoskeletal:
+  No joint pains.
+  
+  Menstrual History:
+  Menarche at 13 years.
+  Regular menstrual cycles.
+  No dysmenorrhoea.
+  
+  PMH:
+  History of childhood eczema.
+  No previous hospital admissions.
+  No diabetes mellitus.
+  No autoimmune disease.
+  
+  Drug History:
+  Occasional use of petroleum jelly.
+  Previous application of over-the-counter herbal creams with minimal improvement.
+  No known drug allergies.
+  
+  Family History:
+  Mother has bronchial asthma.
+  Younger brother has allergic rhinitis.
+  Positive family history of atopy.
+  
+  Social History:
+  Lives with parents.
+  Secondary school student.
+  No smoking or alcohol use.
+  Occasional use of facial cosmetics.
+  Reports emotional distress related to the appearance of the rash.
+  
+  O/E:
+  Adolescent girl.
+  Conscious and alert.
+  Not in distress.
+  Well nourished.
+  No pallor.
+  No jaundice.
+  No peripheral lymphadenopathy.
+  
+  Vital Signs:
+  BP: 108/68 mmHg.
+  Pulse Rate: 82 bpm.
+  Respiratory Rate: 18 cpm.
+  Temperature: 36.7°C.
+  SpO₂: 99% on room air.
+  
+  Skin:
+  Generalized xerosis.
+  Poorly defined erythematous, dry, scaly plaques involving both cheeks, forehead, chin and anterior neck.
+  Mild lichenification over the lateral neck.
+  Excoriation marks present.
+  Post-inflammatory hyperpigmentation over both cheeks and neck.
+  No vesicles.
+  No pustules.
+  No honey-coloured crusts.
+  No cellulitis.
+  No cervical lymphadenopathy.
+  
+  Respiratory:
+  Chest clinically clear.
+  Good bilateral air entry.
+  No wheeze.
+  
+  CVS:
+  Heart sounds S1 and S2 normal.
+  No murmurs.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  ASSESSMENT:
+  Mild-to-moderate atopic dermatitis (facial and cervical eczema) with post-inflammatory hyperpigmentation, without evidence of secondary bacterial infection.
+  
+  Differential Diagnoses:
+  Atopic dermatitis.
+  Allergic contact dermatitis secondary to cosmetics or skincare products.
+  Seborrhoeic dermatitis.
+  Tinea faciei.
+  Irritant contact dermatitis.
+  
+  PLAN:
+  
+  Investigations:
+  No routine investigations required.
+  
+  Consider if clinically indicated:
+  Skin scraping for fungal microscopy.
+  Skin swab for microscopy, culture and sensitivity if secondary infection develops.
+  Patch testing if allergic contact dermatitis is suspected.
+  Serum total IgE or allergy testing where clinically indicated.
+  
+  Management:
+  
+  Skin Care:
+  Advise liberal application of a fragrance-free emollient at least 3–4 times daily and immediately after bathing.
+  
+  Suitable options include:
+  White Soft Paraffin/Liquid Paraffin (50:50) ointment.
+  Cetomacrogol cream.
+  Emulsifying ointment.
+  CeraVe Moisturizing Cream (if available).
+  Epaderm® cream/ointment (if available).
+  
+  Continue daily even after the rash clears.
+  
+  Topical Anti-inflammatory Therapy:
+  Hydrocortisone 1% cream.
+  Apply a thin layer twice daily to affected areas of the face and neck for 5–7 days, then discontinue once the flare resolves.
+  
+  If recurrent flares occur or steroid-sparing therapy is required:
+  Tacrolimus 0.03% ointment applied twice daily until controlled, then twice weekly as maintenance under dermatology supervision.
+  
+  Relief of Pruritus:
+  Cetirizine 10 mg PO nocte for 10–14 days.
+  
+  If nocturnal itching remains severe:
+  Chlorpheniramine 4 mg PO nocte for a short course.
+  
+  Bathing Advice:
+  Use lukewarm water.
+  Avoid prolonged hot baths.
+  Use fragrance-free cleansers such as:
+  Cetaphil Gentle Skin Cleanser®.
+  CeraVe Hydrating Cleanser®.
+  Dove Sensitive Skin Beauty Bar®.
+  
+  Avoid facial scrubs, alcohol-based toners, bleaching creams and heavily perfumed skincare products.
+  
+  Management of Secondary Infection:
+  If honey-coloured crusts or purulent discharge develop:
+  Flucloxacillin 500 mg PO every 6 hours for 7 days.
+  
+  If penicillin-allergic:
+  Azithromycin 500 mg PO on Day 1, then 250 mg PO once daily on Days 2–5.
+  
+  Nursing Instructions:
+  Assess itch severity at each visit.
+  Reinforce correct application of moisturizers before topical medications.
+  Monitor for signs of secondary bacterial infection.
+  Encourage adherence to skincare measures.
+  
+  Health Education:
+  Explain that atopic dermatitis is a chronic inflammatory skin disorder resulting from skin barrier dysfunction, genetic predisposition and environmental triggers. It is not contagious and usually follows a relapsing-remitting course.
+  
+  Discuss common triggers including excessive heat, sweating, emotional stress, harsh soaps, fragrances, cosmetics and rough fabrics. Encourage the use of loose-fitting cotton clothing and avoidance of wool or synthetic fabrics.
+  
+  Advise against bleaching creams, potent steroid-containing creams purchased without prescription and unregulated herbal preparations because of the risk of skin atrophy, acne and pigmentary changes.
+  
+  Emphasize that daily moisturizer use is the cornerstone of treatment and should continue even when the skin appears normal. During flare-ups, topical corticosteroids should be used only as prescribed.
+  
+  Acknowledge the emotional impact of visible eczema during adolescence and reassure the patient that good disease control is achievable with consistent treatment.
+  
+  Follow-up:
+  Review in 2 weeks to assess improvement in itching, inflammation and skin hydration.
+  Continue long-term daily emollient therapy.
+  Refer to a Dermatologist if symptoms become recurrent, extensive or refractory despite appropriate first-line treatment.
+  
+  Prognosis:
+  Good. With consistent skincare, avoidance of triggers and appropriate topical anti-inflammatory therapy, most adolescents achieve good disease control. Regular emollient use and early treatment of flares reduce disease severity and improve quality of life.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-39',
+    title: 'Atopic Dermatitis (Facial Eczema)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology',
+    condition: 'Atopic Dermatitis',
+    symptoms: [
+      'Itchy facial rash',
+      'Neck rash',
+      'Dry skin',
+      'Nocturnal itching',
+      'Sleep disturbance'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-03',
+    summary: 'A 6-year-old girl with recurrent eczema since infancy presented with a 3-week history of pruritic dry scaly rash involving the face and neck, consistent with mild-to-moderate atopic dermatitis without secondary bacterial infection.',
+    content: `PAEDIATRIC DERMATOLOGY CLINIC
+  
+  Patient Seen
+  
+  A 6-year-old female child weighing 20 kg. Accompanied by her mother (Reliable Historian).
+  
+  CC:
+  Itchy rash on the face and neck × 3 weeks.
+  
+  HPC:
+  The child was apparently well until about 3 weeks prior to presentation when she developed an itchy rash involving both cheeks, forehead and the anterior and lateral aspects of the neck. The rash started as small erythematous patches which gradually enlarged and became dry, rough and scaly.
+  
+  The itching is moderate to severe, worse at night, causing sleep disturbance and frequent scratching. Scratching often results in redness and occasional superficial skin breaks but there has been no bleeding or purulent discharge.
+  
+  The rash worsens following exposure to heat, sweating and after bathing with scented soaps. She has also been using a perfumed body lotion without improvement.
+  
+  There is no history of fever, painful skin lesions, blisters or oral ulcers.
+  
+  There has been no recent change in medications or foods.
+  
+  She has experienced similar episodes since infancy, usually involving the cheeks and flexural surfaces of the elbows, with temporary improvement following the use of moisturizers.
+  
+  There is no history of wheezing or allergic rhinitis, although her mother is asthmatic.
+  
+  ROS:
+  
+  General:
+  No fever.
+  Normal appetite.
+  No weight loss.
+  Occasional sleep disturbance due to itching.
+  
+  Skin:
+  Intensely itchy rash involving the face and neck.
+  Dry skin.
+  No blisters.
+  No purulent discharge.
+  No painful lesions.
+  
+  Respiratory:
+  No cough.
+  No wheezing.
+  No shortness of breath.
+  
+  ENT:
+  No nasal discharge.
+  No sore throat.
+  
+  Gastrointestinal:
+  No vomiting.
+  No diarrhoea.
+  
+  Birth History:
+  Term pregnancy.
+  Delivered via spontaneous vaginal delivery.
+  No neonatal complications.
+  
+  Immunization History:
+  Fully immunized for age.
+  
+  Developmental History:
+  Growth and developmental milestones appropriate for age.
+  
+  PMH:
+  Recurrent eczema since infancy.
+  No previous hospital admissions.
+  No known food allergies.
+  
+  Drug History:
+  Occasional application of petroleum jelly.
+  No regular medications.
+  No known drug allergies.
+  
+  Family History:
+  Mother has bronchial asthma.
+  Older sibling has allergic rhinitis.
+  Positive family history of atopy.
+  
+  Social History:
+  Lives with parents.
+  Attends primary school.
+  No exposure to cigarette smoke.
+  
+  O/E:
+  Young girl.
+  Alert and playful.
+  Not in distress.
+  Well hydrated.
+  No pallor.
+  No jaundice.
+  No cyanosis.
+  No pedal oedema.
+  
+  Vital Signs:
+  Temperature: 36.7°C.
+  Pulse Rate: 92 bpm.
+  Respiratory Rate: 20 cpm.
+  Weight: 20 kg.
+  SpO₂: 99% on room air.
+  
+  Skin:
+  Generalized xerosis.
+  Multiple ill-defined erythematous dry scaly plaques involving both cheeks, forehead, chin and anterior neck.
+  Mild lichenification over the lateral neck.
+  Excoriation marks present.
+  No vesicles.
+  No pustules.
+  No honey-coloured crusts.
+  No cellulitis.
+  No cervical lymphadenopathy.
+  
+  Respiratory:
+  Chest clinically clear.
+  Good bilateral air entry.
+  No wheeze.
+  
+  CVS:
+  Heart sounds S1 and S2 normal.
+  No murmurs.
+  
+  Abdomen:
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  ASSESSMENT:
+  Mild-to-moderate atopic dermatitis involving the face and neck without evidence of secondary bacterial infection.
+  
+  Differential Diagnoses:
+  Atopic dermatitis.
+  Allergic contact dermatitis.
+  Seborrhoeic dermatitis.
+  Tinea faciei.
+  Irritant contact dermatitis.
+  
+  PLAN:
+  
+  Investigations:
+  No routine investigations required.
+  
+  If clinically indicated:
+  Skin swab for MCS if secondary bacterial infection is suspected.
+  Skin scraping for fungal microscopy if tinea is suspected.
+  Total serum IgE or allergy testing only where clinically indicated.
+  
+  Management:
+  
+  Skin Hydration:
+  Apply an emollient liberally at least 3–4 times daily and immediately after bathing.
+  
+  Options:
+  White Soft Paraffin/Liquid Paraffin 50:50 ointment.
+  Emulsifying ointment.
+  Cetomacrogol cream or aqueous cream if tolerated.
+  
+  Continue daily even after the rash resolves.
+  
+  Topical Corticosteroid:
+  Hydrocortisone 1% cream.
+  Apply a thin layer to affected areas of the face and neck twice daily for 5–7 days, then discontinue once the flare settles.
+  
+  Avoid prolonged continuous use on the face.
+  
+  Consider referral for topical calcineurin inhibitors (Tacrolimus or Pimecrolimus) if recurrent or poorly controlled.
+  
+  Relief of Pruritus:
+  Cetirizine syrup 5 mg (5 mL) PO nocte for 7–14 days.
+  
+  If nocturnal itching significantly disturbs sleep:
+  Chlorpheniramine syrup 2 mg PO nocte for a short duration.
+  
+  Bathing Advice:
+  Bathe once daily using lukewarm water.
+  Use fragrance-free cleansers such as Dove Sensitive Skin®, Cetaphil Gentle Skin Cleanser® or Oilatum® Emollient Wash.
+  Avoid antiseptic soaps, harsh detergents and strongly perfumed products.
+  Pat the skin dry gently and apply emollient within 3 minutes of bathing ("soak and seal").
+  
+  If Secondary Infection Develops:
+  Flucloxacillin 25 mg/kg/dose PO every 6 hours for 5–7 days.
+  
+  For this child (20 kg):
+  Flucloxacillin 500 mg PO every 6 hours for 7 days.
+  
+  If penicillin-allergic:
+  Azithromycin 10 mg/kg PO on Day 1, then 5 mg/kg once daily on Days 2–5.
+  
+  Nursing Instructions:
+  Assess itch severity at each visit.
+  Monitor response to topical treatment.
+  Reinforce proper application of emollients and topical corticosteroids.
+  Educate caregivers on signs of secondary bacterial infection.
+  
+  Health Education:
+  Explain that eczema is a chronic inflammatory skin disease associated with skin barrier dysfunction and atopy. It is not contagious.
+  
+  Emphasize that regular use of moisturizers is the cornerstone of treatment, even when the skin appears normal.
+  
+  Advise avoidance of triggers including excessive heat, sweating, harsh soaps, bubble baths, woollen clothing, scented skin products and scratching.
+  
+  Keep fingernails short and encourage the use of loose-fitting cotton clothing.
+  
+  Advise caregivers to return immediately if the rash becomes painful, develops pus, extensive crusting, fever or spreads rapidly.
+  
+  Follow-up:
+  Review in the Paediatric Clinic in 2 weeks.
+  Continue long-term daily emollient therapy.
+  Refer to a Paediatric Dermatologist if eczema becomes recurrent, severe or poorly controlled despite appropriate treatment.
+  
+  Prognosis:
+  Good. Most children with mild-to-moderate atopic dermatitis achieve good symptom control with consistent skin hydration, trigger avoidance and appropriate use of low-potency topical corticosteroids during flares. Relapses are common but many children improve with age.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'peds-38',
     title: 'Idiopathic Nephrotic Syndrome',
@@ -3380,9 +3851,9 @@ Not yet available
     There is associated pain over the left upper abdomen, causing irritability and crying when handled.
     
     There is no history of trauma.
-    There is no vomiting or diarrhoea.
-    There is no cough or convulsion.
-    There is no loss of consciousness.
+    No vomiting or diarrhoea.
+    No cough or convulsion.
+    No loss of consciousness.
 
     The mother reports reduced urine output over the past 6 hours.
     
@@ -3390,7 +3861,7 @@ Not yet available
     
     He had low-grade fever one day prior to presentation but did not receive treatment.
     
-    There is no recent history of blood transfusion.
+    No recent history of blood transfusion.
     
     REVIEW OF SYSTEMS
     
@@ -3668,7 +4139,7 @@ Not yet available
     There is mild generalized bone pain but no severe limb pain suggestive of a vaso-occlusive crisis.
     
     There is no abdominal swelling or history of trauma. There is no bleeding from any site.
-    There is no cough or difficulty breathing.
+    No cough or difficulty breathing.
     There is no vomiting or diarrhoea.
     
     The child slept under a mosquito net inconsistently during the preceding week.
@@ -5088,21 +5559,21 @@ Not yet available
   
   There is no history of pain over the lesions.
   
-  There is no purulent discharge.
+  No purulent discharge.
   
-  There is no bleeding from the scalp.
+  No bleeding from the scalp.
   
-  There is no fever.
+  No fever.
   
-  There is no headache.
+  No headache.
   
-  There is no facial swelling.
+  No facial swelling.
   
   His mother reports that two classmates have similar scalp lesions, and the child frequently shares hair clippers during haircuts at the neighbourhood barbershop.
   
   She applied an over-the-counter topical antifungal cream for two weeks without improvement.
   
-  There is no previous history of similar illness.
+  No previous history of similar illness.
   
   Review of Systems
   
@@ -5361,15 +5832,15 @@ Not yet available
   
   There was no head injury.
   
-  There is no pain in the shoulder, elbow or wrist apart from radiation from the forearm.
+  No pain in the shoulder, elbow or wrist apart from radiation from the forearm.
   
-  There is no numbness or tingling of the fingers.
+  No numbness or tingling of the fingers.
   
-  There is no weakness of finger movement.
+  No weakness of finger movement.
   
-  There is no bleeding or open wound.
+  No bleeding or open wound.
   
-  There is no previous fracture involving the affected limb.
+  No previous fracture involving the affected limb.
   
   No medication was administered before presentation.
   
@@ -5650,15 +6121,15 @@ Not yet available
   
   There is no ear discharge.
   
-  There is no bleeding from the ear.
+  No bleeding from the ear.
   
-  There is no swelling behind the ear.
+  No swelling behind the ear.
   
-  There is no vomiting.
+  No vomiting.
   
   There are no seizures.
   
-  There is no history of trauma to the ear.
+  No history of trauma to the ear.
   
   No foreign body was inserted into the ear.
   
@@ -6142,7 +6613,7 @@ Not yet available
   
   There is a history of inconsistent use of insecticide-treated mosquito nets with frequent mosquito exposure at home.
   
-  There is no history of recent blood transfusion.
+  No history of recent blood transfusion.
   
   ROS:
   
@@ -6403,15 +6874,15 @@ Not yet available
   
   There is no swelling around the eyes.
   
-  There is no difficulty swallowing.
+  No difficulty swallowing.
   
-  There is no fever.
+  No fever.
   
-  There is no vomiting.
+  No vomiting.
   
-  There is no recent trauma to the face.
+  No recent trauma to the face.
   
-  There is no history of eczema, although the child recently recovered from a mosquito bite rash over the face.
+  No history of eczema, although the child recently recovered from a mosquito bite rash over the face.
   
   The child remains active and continues to eat normally.
   
@@ -11744,7 +12215,7 @@ Not yet available
     
     Patient Seen
     
-    A 58-year-old postmenopausal widowed female school administrator from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informants: Patient and daughter (Reliable).
+    A 58-year-old postmenopausal widowed female school administrator from Lagos, Lagos State, Christian, Yoruba. Informants: Patient and daughter (Reliable).
     
     PC:
     
@@ -11768,11 +12239,11 @@ Not yet available
     
     There is no history of previous similar episodes.
     
-    There is no history of recent strenuous physical activity.
+    No history of recent strenuous physical activity.
     
-    There is no history of fever or recent respiratory tract infection.
+    No history of fever or recent respiratory tract infection.
     
-    There is no history of pleuritic chest pain, haemoptysis or syncope.
+    No history of pleuritic chest pain, haemoptysis or syncope.
     
     She has no known history of myocardial infarction or previous coronary artery disease.
     
@@ -12206,7 +12677,7 @@ Not yet available
     
     Patient Seen
     
-    A 38-year-old married male commercial driver from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informants: Patient and wife (Reliable).
+    A 38-year-old married male commercial driver from Lagos, Lagos State, Christian, Yoruba. Informants: Patient and wife (Reliable).
     
     PC:
     
@@ -12660,7 +13131,7 @@ Not yet available
     
     Patient Seen
     
-    A 45-year-old married male civil servant from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated.
+    A 45-year-old married male civil servant from Lagos, Lagos State, Christian, Yoruba.
     
     CHIEF COMPLAINT
     
@@ -12692,17 +13163,17 @@ Not yet available
     
     There is no history of recurrent chest pain.
     
-    There is no history of haemoptysis.
+    No history of haemoptysis.
     
-    There is no history of fever or recent respiratory tract infection.
+    No history of fever or recent respiratory tract infection.
     
-    There is no history of chronic alcohol abuse.
+    No history of chronic alcohol abuse.
     
-    There is no known history of hypertension, diabetes mellitus or previous myocardial infarction.
+    No known history of hypertension, diabetes mellitus or previous myocardial infarction.
     
-    There is no history of previous rheumatic fever.
+    No history of previous rheumatic fever.
     
-    There is no history of congenital heart disease.
+    No history of congenital heart disease.
     
     He reports no previous diagnosis of heart disease.
     
@@ -13264,13 +13735,13 @@ Not yet available
   
   There is no history of recent fever or respiratory infection.
   
-  There is no history of chest trauma.
+  No history of chest trauma.
   
-  There is no history of pleuritic chest pain.
+  No history of pleuritic chest pain.
   
-  There is no history of pain that is significantly relieved by sitting forward.
+  No history of pain that is significantly relieved by sitting forward.
   
-  There is no history of haemoptysis.
+  No history of haemoptysis.
   
   He has no known history of previous myocardial infarction.
   
@@ -13904,15 +14375,15 @@ Not yet available
   
   There is no history of syncope.
   
-  There is no history of palpitations.
+  No history of palpitations.
   
-  There is no history of significant leg swelling.
+  No history of significant leg swelling.
   
-  There is no history of recent chest trauma.
+  No history of recent chest trauma.
   
-  There is no history of known tuberculosis contact.
+  No history of known tuberculosis contact.
   
-  There is no history suggestive of connective tissue disease.
+  No history suggestive of connective tissue disease.
   
   REVIEW OF SYSTEMS
   
@@ -14341,7 +14812,7 @@ Not yet available
   
   Patient Seen
   
-  A 35-year-old married male banker from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  A 35-year-old married male banker from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
   
   CHIEF COMPLAINT
   
@@ -14362,14 +14833,14 @@ Not yet available
   He also complains of increased sensitivity to loud sounds in the left ear and reduced taste sensation over the anterior two-thirds of the left side of the tongue.
   
   There is no limb weakness.
-  There is no facial numbness.
-  There is no difficulty speaking or swallowing.
-  There is no double vision.
-  There is no dizziness.
+  No facial numbness.
+  No difficulty speaking or swallowing.
+  No double vision.
+  No dizziness.
   There is no hearing loss or ear discharge.
-  There is no vesicular rash around the ear.
-  There is no recent head injury.
-  There is no recent tick bite.
+  No vesicular rash around the ear.
+  No recent head injury.
+  No recent tick bite.
   
   He reports a mild upper respiratory tract infection one week before symptom onset.
   
@@ -14690,7 +15161,7 @@ Not yet available
   
   Patient Seen
   
-  A 64-year-old married male retired welder from Ibadan, Oyo State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  A 64-year-old married male retired welder from Ibadan, Oyo State, Christian, Yoruba. Informant: Patient (Reliable).
   
   CHIEF COMPLAINT
   
@@ -15809,7 +16280,7 @@ Not yet available
   
   There is no history of neck irradiation.
   
-  There is no family history of thyroid cancer or multiple endocrine neoplasia.
+  No family history of thyroid cancer or multiple endocrine neoplasia.
   
   She has never undergone thyroid surgery.
   
@@ -17182,13 +17653,13 @@ Not yet available
     
     There is no history of fever, sore throat, skin infection or recent upper respiratory tract infection.
     
-    There is no history of diabetes mellitus or long-standing hypertension.
+    No history of diabetes mellitus or long-standing hypertension.
     
-    There is no history of prolonged NSAID use or use of nephrotoxic herbal medications.
+    No history of prolonged NSAID use or use of nephrotoxic herbal medications.
     
     He denies joint pains, oral ulcers, photosensitive skin rash or hair loss suggestive of systemic lupus erythematosus.
     
-    There is no history of hepatitis, HIV infection or tuberculosis.
+    No history of hepatitis, HIV infection or tuberculosis.
     
     REVIEW OF SYSTEMS
     
@@ -17495,8 +17966,8 @@ Not yet available
   Approximately 30 minutes before arrival, he became progressively drowsy with reduced responsiveness, prompting emergency presentation.
   
   There was no preceding trauma.
-  There is no history of fever or seizures prior to presentation.
-  There is no history of chest pain or hypoglycaemic symptoms.
+  No history of fever or seizures prior to presentation.
+  No history of chest pain or hypoglycaemic symptoms.
   No previous history of stroke.
   No history of anticoagulant use.
   
@@ -18206,15 +18677,15 @@ Not yet available
   
   There is no chest pain, shortness of breath, palpitations, orthopnoea or paroxysmal nocturnal dyspnoea.
   
-  There is no limb weakness, facial asymmetry, slurred speech, confusion or altered level of consciousness.
+  No limb weakness, facial asymmetry, slurred speech, confusion or altered level of consciousness.
   
-  There is no sudden visual loss, although she occasionally experiences mild blurring of vision during severe headaches.
+  No sudden visual loss, although she occasionally experiences mild blurring of vision during severe headaches.
   
   There are no seizures.
   
-  There is no reduced urine output or haematuria.
+  No reduced urine output or haematuria.
   
-  There is no fever, cough or recent illness.
+  No fever, cough or recent illness.
   
   ROS:
   
@@ -20511,9 +20982,9 @@ Not yet available
   
   There is no associated pain, redness, or trauma to the affected limbs.
   
-  There is no history of chest pain, difficulty breathing, orthopnoea, paroxysmal nocturnal dyspnoea, palpitations, reduced exercise tolerance, abdominal swelling, or reduced urine output. No history of frothy urine.
+  No history of chest pain, difficulty breathing, orthopnoea, paroxysmal nocturnal dyspnoea, palpitations, reduced exercise tolerance, abdominal swelling, or reduced urine output. No history of frothy urine.
   
-  There is no history of headache, dizziness, blurring of vision, seizures, weakness of any limb, or speech disturbance.
+  No history of headache, dizziness, blurring of vision, seizures, weakness of any limb, or speech disturbance.
   
   There has been no recent hypertensive crisis or hospital admission.
   
@@ -21343,19 +21814,19 @@ Not yet available
   
   There is no ear pain.
   
-  There is no ear discharge.
+  No ear discharge.
   
-  There is no facial weakness.
+  No facial weakness.
   
-  There is no diplopia.
+  No diplopia.
   
-  There is no dysarthria.
+  No dysarthria.
   
-  There is no limb weakness.
+  No limb weakness.
   
-  There is no loss of consciousness.
+  No loss of consciousness.
   
-  There is no severe headache or features suggestive of meningitis.
+  No severe headache or features suggestive of meningitis.
   
   She has never experienced similar symptoms previously.
   
@@ -25613,8 +26084,804 @@ Not yet available
 
 
 // General Outpatient
+
 {
-  id: 'gopd-01',
+  id: 'gopd-38',
+  title: 'Uncomplicated Enteric (Typhoid) Fever',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Medicine',
+  condition: 'Enteric (Typhoid) Fever',
+  symptoms: [
+    'Persistent fever',
+    'Abdominal discomfort',
+    'Headache',
+    'Poor appetite',
+    'Nausea and vomiting'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-04',
+  summary: '25-year-old male university student presenting with a seven-day history of persistent fever, headache and abdominal discomfort following consumption of food and water from roadside vendors, consistent with uncomplicated enteric (typhoid) fever.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 25-year-old male university student, single, presented with a reliable history from the patient.
+
+PC:
+Fever × 7 days
+Headache × 7 days
+Abdominal discomfort × 5 days
+Poor appetite × 5 days
+
+HPC:
+He was apparently well until about 7 days prior to presentation when he developed a persistent high-grade fever. The fever was initially intermittent but became continuous over the last 3 days.
+
+The fever is associated with chills, generalized body weakness, headache and malaise.
+
+Five days before presentation, he developed diffuse abdominal discomfort predominantly around the periumbilical region, associated with nausea, poor appetite and occasional vomiting.
+
+He initially experienced constipation, followed by two episodes of loose, non-bloody stools within the last 24 hours.
+
+He admits to frequently consuming food and untreated water from roadside vendors.
+
+There is no history of dysuria, cough, chest pain or skin rash.
+
+No history of haematemesis, melaena, abdominal distension or confusion.
+
+He completed a course of over-the-counter antimalarial medication without improvement.
+
+REVIEW OF SYSTEMS:
+
+General:
+Persistent fever.
+Generalized weakness.
+Poor appetite.
+Malaise.
+
+Gastrointestinal:
+Abdominal discomfort.
+Nausea.
+Occasional vomiting.
+Constipation followed by mild diarrhoea.
+No abdominal distension.
+No gastrointestinal bleeding.
+
+Respiratory:
+No cough.
+No shortness of breath.
+
+Cardiovascular:
+No chest pain.
+No palpitations.
+
+Genitourinary:
+No dysuria.
+No haematuria.
+
+Neurological:
+Headache.
+No seizures.
+No altered consciousness.
+
+Past Medical History:
+No history of hypertension.
+No diabetes mellitus.
+No previous typhoid fever requiring admission.
+No chronic illness.
+
+Drug History:
+Completed a course of over-the-counter antimalarial medication without improvement.
+
+Occasional use of paracetamol for fever.
+
+No known drug allergies.
+
+Family History:
+Non-contributory.
+
+Social History:
+Lives in a student hostel.
+
+Frequently eats food from roadside vendors.
+
+Occasionally drinks untreated water.
+
+Does not smoke.
+
+Occasional alcohol intake.
+
+O/E:
+
+Young man, ill-looking but conscious and oriented.
+
+Mild dehydration.
+
+Not pale.
+Not jaundiced.
+Not cyanosed.
+No peripheral oedema.
+
+Vital Signs:
+Temperature: 39.2°C
+BP: 108/70 mmHg
+PR: 92 bpm, regular
+RR: 20 cpm
+SpO₂: 99% on room air
+Weight: 68 kg
+
+Abdomen:
+Moves with respiration.
+
+Soft.
+
+Mild generalized abdominal tenderness, more pronounced in the right iliac fossa and periumbilical region.
+
+No guarding or rebound tenderness.
+
+No palpable masses.
+
+Mild hepatosplenomegaly.
+
+Normal bowel sounds.
+
+CVS:
+Heart sounds I and II normal.
+
+No murmurs.
+
+Respiratory:
+Chest clear.
+
+Good bilateral air entry.
+
+Neurological:
+Conscious and oriented.
+
+GCS: 15/15.
+
+No focal neurological deficits.
+
+ASSESSMENT:
+Uncomplicated enteric (typhoid) fever, likely caused by Salmonella enterica serovar Typhi.
+
+DIFFERENTIAL DIAGNOSES:
+1. Malaria.
+2. Acute bacterial gastroenteritis.
+3. Viral fever.
+4. Amoebiasis.
+5. Acute appendicitis (if localized right iliac fossa pain develops).
+
+INVESTIGATIONS:
+
+Bedside:
+- Malaria Rapid Diagnostic Test and/or malaria parasite microscopy.
+- Urinalysis.
+
+Laboratory:
+- Blood culture (preferably before commencement of antibiotics).
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Liver Function Tests.
+- C-reactive Protein (if available).
+- Stool microscopy, culture and sensitivity (especially if diarrhoea predominates).
+- Stool occult blood if gastrointestinal bleeding is suspected.
+
+Note:
+Widal test has limited diagnostic accuracy and should not be used as the sole basis for diagnosis.
+
+PLAN:
+
+1. Admission:
+Manage as an outpatient if clinically stable and able to tolerate oral medications.
+
+Admit if persistent vomiting, severe dehydration, altered mental status, gastrointestinal bleeding, intestinal perforation or septic shock develops.
+
+2. Antibiotic Therapy:
+
+Preferred:
+
+Tab Azithromycin 1 g orally stat, then 500 mg orally once daily for 6 days.
+
+OR
+
+Tab Azithromycin 500 mg orally once daily for 7 days.
+
+Alternative (moderate to severe disease):
+
+Inj Ceftriaxone 2 g IV once daily for 7–10 days.
+
+Step down to oral therapy when clinically improved and culture results permit.
+
+Alternative:
+
+Tab Cefixime 200 mg orally twice daily for 10–14 days.
+
+Adjust antibiotic therapy according to antimicrobial susceptibility results whenever available.
+
+3. Fluid Therapy:
+
+Encourage Oral Rehydration Solution (ORS) and liberal oral fluid intake if mildly dehydrated.
+
+If unable to tolerate oral fluids:
+
+0.9% Normal Saline 1 L IV over 2–4 hours, then reassess hydration status and continue maintenance fluids as indicated.
+
+4. Fever and Pain Control:
+
+Tab Paracetamol 1 g orally every 6 hours as required.
+
+Maximum dose: 4 g/day.
+
+Avoid NSAIDs if gastrointestinal bleeding or renal impairment is suspected.
+
+5. Antiemetic (if required):
+
+Ondansetron 4 mg orally or IV every 8 hours as required.
+
+OR
+
+Metoclopramide 10 mg orally or IV every 8 hours as required (avoid if bowel obstruction is suspected).
+
+6. Nutrition:
+
+Encourage:
+- Adequate oral fluids.
+- Small frequent meals.
+- Soft, easily digestible diet.
+- Avoid alcohol and heavily spiced foods during recovery.
+
+NURSING INSTRUCTIONS:
+
+- Monitor temperature every 6 hours.
+- Monitor pulse, blood pressure and hydration status.
+- Encourage adequate oral fluid intake.
+- Record stool frequency if diarrhoea develops.
+- Observe for signs of intestinal perforation (sudden severe abdominal pain, guarding or abdominal distension) and gastrointestinal bleeding.
+
+HEALTH EDUCATION:
+
+Patient was counselled that typhoid fever is a bacterial infection transmitted through contaminated food and water.
+
+The importance of completing the prescribed antibiotic course was emphasized to prevent relapse and antimicrobial resistance.
+
+He was advised to drink only treated or boiled water, avoid food from unhygienic sources, wash fruits and vegetables thoroughly and maintain good hand hygiene.
+
+He was educated on danger signs requiring immediate hospital review, including worsening abdominal pain, abdominal distension, persistent vomiting, passage of blood in stool, persistent fever despite treatment, confusion and reduced urine output.
+
+FOLLOW-UP:
+
+Review in 48–72 hours to assess clinical response and review investigation results.
+
+Tailor antibiotic therapy according to blood culture and antimicrobial susceptibility results where available.
+
+Review again after completion of antibiotic therapy to ensure complete recovery.
+
+Consider repeat stool cultures in individuals at high risk of chronic carriage (e.g., food handlers and healthcare workers).
+
+Prognosis:
+Good with early diagnosis and appropriate antibiotic therapy. Most uncomplicated cases improve within 3–5 days of effective treatment and recover completely. Delayed treatment may result in intestinal haemorrhage, intestinal perforation, encephalopathy or septic shock.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-37',
+  title: 'Candidal Intertrigo of Skin Folds',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dermatology',
+  condition: 'Candidal Intertrigo',
+  symptoms: [
+    'Itchy rash in skin folds',
+    'Burning sensation',
+    'Skin redness and irritation',
+    'Moisture-associated discomfort',
+    'Satellite lesions'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-03',
+  summary: '38-year-old obese female trader with hypertension presenting with a three-week history of itchy erythematous rash beneath both breasts and in the groin folds, consistent with candidal intertrigo.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 38-year-old female trader, married, with a reliable history from the patient.
+
+PC:
+Itchy rash under both breasts and groin × 3 weeks.
+
+HPC:
+She was apparently well until about 3 weeks prior to presentation when she developed an itchy rash involving the skin folds beneath both breasts.
+
+The rash started as mild redness and irritation which gradually progressed to involve the groin folds.
+
+She describes associated itching, burning sensation and discomfort, worse with sweating and prolonged walking.
+
+There is associated moisture and unpleasant odour from the affected areas.
+
+She noticed small red spots around the edge of the rash which have progressively increased in number.
+
+Symptoms worsen with hot weather, sweating and wearing tight clothing. There is temporary relief with keeping the affected areas dry.
+
+There is no history of fever, chills, generalized weakness or similar rash elsewhere.
+
+No history of vesicles, ulcers or significant pain.
+
+She has been applying an over-the-counter steroid-containing cream obtained from a pharmacy, with initial improvement followed by worsening of symptoms.
+
+REVIEW OF SYSTEMS:
+
+General:
+No fever.
+No weight loss.
+No night sweats.
+
+Skin:
+Positive history of itchy rash involving skin folds.
+Associated burning sensation, redness and irritation.
+No ulcers or pus discharge.
+
+Endocrine:
+No excessive thirst.
+No increased urination.
+
+Genitourinary:
+No vaginal discharge.
+No dysuria.
+
+Respiratory:
+No cough.
+No shortness of breath.
+
+Past Medical History:
+Known hypertensive for 5 years.
+
+No known diabetes mellitus.
+No previous similar severe skin infections.
+
+Drug History:
+Tab Amlodipine 10 mg daily.
+
+Occasional use of topical steroid combination cream.
+
+No known drug allergies.
+
+Family History:
+No family history of recurrent fungal infections.
+
+Social History:
+Trader.
+Lives in a hot and humid environment.
+Often wears tight synthetic clothing.
+No smoking.
+No alcohol use.
+
+O/E:
+
+Middle-aged woman, alert and comfortable at rest.
+
+Not pale.
+Not jaundiced.
+No peripheral lymphadenopathy.
+
+Vital Signs:
+BP: 128/82 mmHg
+PR: 84 bpm
+RR: 18 cpm
+Temperature: 36.7°C
+Weight: 92 kg
+BMI: 34 kg/m² (Obesity)
+
+SKIN:
+Moist erythematous plaques involving:
+
+- Bilateral inframammary folds.
+- Bilateral inguinal folds.
+
+Findings:
+- Bright red erythema.
+- Maceration of skin folds.
+- Mild fissuring.
+- Satellite erythematous papules and small pustules extending beyond the main rash.
+- Mild tenderness on palpation.
+
+No extensive ulceration.
+No cellulitis.
+No foul-smelling discharge.
+
+SYSTEMIC EXAMINATION:
+
+CVS:
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory:
+Chest clear.
+Good bilateral air entry.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+ASSESSMENT:
+Candidal intertrigo involving inframammary and inguinal skin folds, likely precipitated by obesity, heat, sweating and moisture retention.
+
+DIFFERENTIAL DIAGNOSES:
+1. Candida intertrigo.
+2. Tinea cruris/corporis.
+3. Irritant contact dermatitis.
+4. Inverse psoriasis.
+5. Bacterial intertrigo (streptococcal/staphylococcal infection).
+
+INVESTIGATIONS:
+
+Most uncomplicated cases are diagnosed clinically.
+
+If recurrent, severe or treatment resistant:
+
+Bedside:
+- Skin scraping for KOH microscopy.
+
+Laboratory:
+- Fasting blood glucose.
+- HbA1c.
+- HIV screening if recurrent extensive candidiasis or risk factors.
+
+Skin Swab:
+Microscopy, culture and sensitivity if:
+- Purulent discharge.
+- Suspected bacterial superinfection.
+- Poor response to antifungal therapy.
+
+PLAN:
+
+1. General Skin Care:
+
+Keep affected areas dry.
+
+Wash gently and dry thoroughly.
+
+Avoid excessive sweating.
+
+Change damp clothing promptly.
+
+Wear loose-fitting cotton clothing.
+
+Avoid tight synthetic fabrics.
+
+2. Barrier Protection:
+
+Zinc oxide 10–20% ointment.
+
+Apply a thin layer to affected skin folds after drying.
+
+3. Topical Antifungal Therapy:
+
+Option 1:
+Clotrimazole 1% cream.
+
+Apply thinly to affected areas twice daily for 2–4 weeks.
+
+Continue for at least one week after symptom resolution.
+
+OR
+
+Option 2:
+Miconazole 2% cream.
+
+Apply thinly twice daily for 2–4 weeks.
+
+OR
+
+Option 3:
+Nystatin cream 100,000 units/g.
+
+Apply twice daily for 2–4 weeks.
+
+4. For Significant Inflammation:
+
+Hydrocortisone 1% cream.
+
+Apply thinly once daily for not more than 5–7 days together with antifungal therapy.
+
+Avoid steroid-only creams and potent steroid combinations.
+
+5. Oral Antifungal Therapy (if extensive/recurrent/poor response):
+
+Caps Fluconazole 150 mg orally once weekly for 2–4 weeks.
+
+Check for contraindications and drug interactions.
+
+6. If Secondary Bacterial Infection Develops:
+
+If increasing pain, pus discharge, fever or spreading redness:
+
+Consider:
+
+Caps Flucloxacillin 500 mg orally 6 hourly for 5–7 days.
+
+OR treat according to culture results.
+
+MANAGEMENT OF PREDISPOSING FACTORS:
+
+- Screen for diabetes mellitus.
+- Encourage gradual weight reduction.
+- Reduce excessive sweating.
+- Maintain good skin-fold hygiene.
+
+HEALTH EDUCATION:
+
+Patient was counselled that candidal intertrigo is a fungal infection caused by overgrowth of Candida species in warm, moist skin folds.
+
+Risk factors including obesity, sweating, diabetes, tight clothing and prolonged moisture exposure were explained.
+
+She was advised to avoid steroid-containing combination creams without medical advice as they may worsen fungal infections despite temporary improvement in redness.
+
+Counselled on keeping skin folds dry, wearing loose cotton clothing, drying thoroughly after bathing and changing sweaty clothes promptly.
+
+Advised to seek medical attention if there is increasing pain, spreading redness, fever, pus discharge or failure to improve with treatment.
+
+FOLLOW-UP:
+
+Review in 2–4 weeks to assess resolution.
+
+Earlier review if:
+- Rash spreads.
+- Pain worsens.
+- Fever develops.
+- No improvement after 1–2 weeks of antifungal therapy.
+
+If recurrent episodes occur, investigate for:
+- Diabetes mellitus.
+- Obesity-related skin fold problems.
+- Immunosuppression.
+
+Prognosis:
+Excellent. Most cases resolve completely with appropriate antifungal therapy and correction of predisposing factors. Recurrence is common if moisture, sweating, obesity or underlying conditions are not addressed.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-36',
+  title: 'Acute Bacterial Pharyngotonsillitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Medicine',
+  condition: 'Acute Pharyngotonsillitis',
+  symptoms: [
+    'Sore throat',
+    'Painful swallowing (odynophagia)',
+    'Fever',
+    'Tonsillar swelling',
+    'Generalized weakness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-03',
+  summary: '22-year-old female university student presenting with acute painful swallowing, sore throat and fever with examination findings suggestive of acute bacterial pharyngotonsillitis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 22-year-old female university student, single, presented with a reliable history from the patient.
+
+PC:
+Painful swallowing × 4 days
+Sore throat × 4 days
+Fever × 3 days
+
+HPC:
+She was apparently well until 4 days prior to presentation when she developed a progressively worsening sore throat associated with painful swallowing.
+
+The throat pain is severe, worse when swallowing solid foods compared to liquids, and has resulted in reduced oral intake due to discomfort.
+
+She also reports fever associated with chills, generalized body weakness and headache.
+
+There is associated difficulty opening her mouth fully due to throat pain; however, she denies inability to swallow saliva or drooling.
+
+There is no history of cough, rhinorrhoea or hoarseness of voice.
+
+No history of shortness of breath, noisy breathing or stridor.
+
+No neck swelling, recent dental infection or throat trauma.
+
+She has no previous history of recurrent tonsillitis and no recent contact with anyone with similar symptoms.
+
+REVIEW OF SYSTEMS:
+
+General:
+Positive history of fever, reduced appetite and generalized weakness.
+No weight loss.
+
+ENT:
+Positive history of severe sore throat and painful swallowing.
+No ear discharge, hearing loss, nasal congestion, epistaxis, drooling or muffled ("hot potato") voice.
+
+Respiratory:
+No cough, dyspnoea or wheezing.
+
+Cardiovascular:
+No chest pain or palpitations.
+
+Gastrointestinal:
+Pain on swallowing.
+No vomiting or abdominal pain.
+
+Past Medical History:
+No history of diabetes mellitus, hypertension, recurrent tonsillitis or immunosuppressive illness.
+
+Drug History:
+She took over-the-counter paracetamol with partial relief.
+No known drug allergies.
+
+Family History:
+Non-contributory.
+
+Social History:
+University student.
+Non-smoker.
+Does not consume alcohol.
+Good oral hygiene.
+
+O/E:
+
+Young woman, alert and oriented, in mild painful distress.
+
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Well hydrated.
+
+Vital Signs:
+T: 38.6°C
+BP: 112/70 mmHg
+PR: 102 bpm, regular
+RR: 18 cpm
+SpO₂: 99% on room air
+
+ENT:
+Oral cavity well hydrated.
+
+Bilateral enlarged erythematous tonsils (Grade II) with patchy whitish tonsillar exudates.
+
+Posterior pharyngeal wall markedly hyperaemic.
+
+Uvula central.
+
+No peritonsillar swelling.
+No uvular deviation.
+No trismus.
+No drooling.
+
+Tender bilateral anterior cervical lymphadenopathy.
+
+Respiratory:
+Chest expands symmetrically.
+Good bilateral air entry.
+No wheeze.
+No stridor.
+
+CVS:
+Heart sounds I and II normal.
+No murmurs.
+
+Abdomen:
+Soft.
+Non-tender.
+No hepatosplenomegaly.
+
+ASSESSMENT:
+Acute bacterial pharyngotonsillitis causing odynophagia, likely secondary to Group A β-haemolytic Streptococcal infection.
+
+DIFFERENTIAL DIAGNOSES:
+1. Viral pharyngitis.
+2. Infectious mononucleosis.
+3. Peritonsillar abscess (quinsy).
+4. Retropharyngeal abscess.
+5. Oesophagitis (Candida or reflux-related).
+6. Epiglottitis (less likely).
+
+INVESTIGATIONS:
+
+Bedside:
+- Rapid Streptococcal Antigen Test (if available).
+
+Laboratory:
+- Full Blood Count.
+- C-reactive Protein (if indicated).
+- Throat swab for microscopy, culture and sensitivity (especially in recurrent infection or treatment failure).
+- Monospot test/EBV serology if infectious mononucleosis is suspected.
+- HIV screening if recurrent or atypical infections.
+
+PLAN:
+
+1. Antibiotic Therapy:
+
+Tab Amoxicillin 500 mg orally 8 hourly for 10 days.
+
+OR
+
+Tab Phenoxymethylpenicillin (Penicillin V) 500 mg orally 6 hourly for 10 days.
+
+If poor oral intake or severe infection:
+
+Benzathine Penicillin G 1.2 million units IM stat.
+
+If penicillin allergy:
+
+Tab Azithromycin 500 mg orally on Day 1, then 250 mg daily on Days 2–5.
+
+OR
+
+Tab Clarithromycin 500 mg orally twice daily for 5 days.
+
+2. Analgesia/Antipyretics:
+
+Tab Paracetamol 1 g orally 6 hourly as required.
+
+Maximum dose: 4 g/day.
+
+If no contraindication:
+
+Tab Ibuprofen 400 mg orally 8 hourly after meals for 3–5 days.
+
+3. Adjunctive Therapy:
+
+For significant tonsillar inflammation:
+
+Dexamethasone 8 mg IM stat.
+
+OR
+
+Dexamethasone 8 mg orally stat if able to swallow.
+
+4. Mouth Care:
+
+Warm saline gargles 3–4 times daily.
+
+OR
+
+Benzydamine hydrochloride 0.15% mouthwash 15 mL gargled every 1.5–3 hours as required (do not swallow).
+
+5. Supportive Care:
+
+Encourage adequate oral fluids.
+Soft, cool foods.
+Avoid spicy or acidic foods until recovery.
+
+Health Education:
+Patient was counselled on the importance of completing the full antibiotic course despite early symptom improvement to prevent complications including rheumatic fever, post-streptococcal glomerulonephritis and recurrence.
+
+Advised adequate hydration, soft diet, warm saline gargles and avoidance of smoking, alcohol and throat irritants.
+
+Counselled on danger signs requiring urgent review including difficulty breathing, inability to swallow saliva, drooling, worsening neck swelling, severe trismus, muffled voice or persistent high fever.
+
+FOLLOW-UP:
+Review at GOPD/ENT clinic in 48–72 hours if symptoms do not improve or earlier if symptoms worsen.
+
+No further follow-up required if complete resolution occurs.
+
+Recurrent episodes should prompt ENT referral for consideration of tonsillectomy.
+
+Prognosis:
+Excellent. Most patients improve significantly within 48–72 hours of appropriate antibiotic therapy and recover fully within 7–10 days without complications.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-35',
   title: 'Halitosis Secondary to Plaque-Induced Gingivitis',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -25935,7 +27202,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-01',
+  id: 'gopd-34',
   title: 'Chronic Insomnia Disorder',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -25970,9 +27237,9 @@ She denies excessive caffeine or alcohol intake and reports maintaining a regula
 
 There is no history of loud snoring, witnessed apnoeic episodes, nocturnal choking, restless legs, nightmares, sleepwalking, nocturnal seizures, or shift work.
 
-There is no history of fever, chronic pain, chronic cough, nocturia, palpitations, weight loss, heat intolerance, or other symptoms suggestive of an underlying medical illness.
+No history of fever, chronic pain, chronic cough, nocturia, palpitations, weight loss, heat intolerance, or other symptoms suggestive of an underlying medical illness.
 
-There is no history of persistent low mood, loss of interest, suicidal ideation, hallucinations, or illicit drug use. She has no previous psychiatric illness.
+No history of persistent low mood, loss of interest, suicidal ideation, hallucinations, or illicit drug use. She has no previous psychiatric illness.
 
 Appetite is satisfactory.
 
@@ -26058,7 +27325,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-02',
+  id: 'gopd-33',
   title: 'Episodic Migraine Without Aura',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -26170,7 +27437,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-03',
+  id: 'gopd-32',
   title: 'Recurrent Headache (Probable Tension-Type Headache)',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -26204,9 +27471,9 @@ The headache is occasionally associated with photophobia but no phonophobia.
 
 There is no history of nausea, vomiting, blurring of vision, diplopia, eye redness, tearing, rhinorrhoea, fever, neck stiffness, seizures, loss of consciousness, weakness of any limb, facial asymmetry, speech difficulty, or gait disturbance.
 
-There is no history of preceding head trauma.
+No history of preceding head trauma.
 
-There is no history of early morning headache, headache waking her from sleep, or worsening with coughing or straining.
+No history of early morning headache, headache waking her from sleep, or worsening with coughing or straining.
 
 No known history of hypertension or diabetes mellitus.
 
@@ -26287,7 +27554,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-03',
+  id: 'gopd-31',
   title: 'ACE Inhibitor-Induced Angioedema',
   specialty: 'General Outpatient',
   subSpecialty: 'Accident and Emergency',
@@ -26324,9 +27591,9 @@ He denies skin rash, generalized itching, swelling of the lips or eyes, ingestio
 
 He was commenced on a new antihypertensive medication (Lisinopril) approximately 10 days prior to presentation.
 
-There is no previous history of similar episodes.
+No previous history of similar episodes.
 
-There is no family history of recurrent swelling or sudden unexplained deaths.
+No family history of recurrent swelling or sudden unexplained deaths.
 
 PAST MEDICAL HISTORY
 
@@ -26471,7 +27738,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-02',
+  id: 'gopd-30',
   title: 'Acute Angioedema with Tongue Involvement',
   specialty: 'General Outpatient',
   subSpecialty: 'Accident and Emergency',
@@ -26514,11 +27781,11 @@ He recalls two previous episodes of painless swelling of the lips over the past 
 
 There is no previous history of tongue swelling.
 
-There is no history of trauma to the mouth, dental pain, or fever.
+No history of trauma to the mouth, dental pain, or fever.
 
 He is not taking an angiotensin-converting enzyme (ACE) inhibitor and has no known drug allergies.
 
-There is no family history of recurrent swelling involving the face or tongue.
+No family history of recurrent swelling involving the face or tongue.
 
 REVIEW OF SYSTEMS
 
@@ -26791,7 +28058,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-01',
+  id: 'gopd-29',
   title: 'Dental Caries with Acute Pulpitis',
   specialty: 'General Outpatient',
   subSpecialty: 'Dental Clinic',
@@ -26967,7 +28234,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-02',
+  id: 'gopd-28',
   title: 'Genital Ulcer Disease (Likely Primary Genital Herpes)',
   specialty: 'General Outpatient',
   subSpecialty: 'Sexually Transmitted Infections',
@@ -26999,13 +28266,13 @@ Two days prior to presentation, some of the vesicles ruptured, resulting in shal
 
 There is no history of urethral discharge.
 
-There is no dysuria.
+No dysuria.
 
-There is no haematuria.
+No haematuria.
 
-There is no previous history of similar lesions.
+No previous history of similar lesions.
 
-There is no history of fever, malaise or joint pains.
+No history of fever, malaise or joint pains.
 
 He reports a sexual encounter with a new partner approximately 10 days before symptom onset, during which condom use was inconsistent.
 
@@ -27154,7 +28421,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-01',
+  id: 'gopd-27',
   title: 'Symptomatic Orthostatic Hypotension Secondary to Dehydration',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -27188,17 +28455,17 @@ She reports poor oral intake over the preceding 3 days because of a busy work sc
 
 There is no history of chest pain, palpitations or shortness of breath.
 
-There is no fever, vomiting, diarrhoea or excessive sweating.
+No fever, vomiting, diarrhoea or excessive sweating.
 
-There is no history of recent blood loss, haematemesis, melaena or heavy menstrual bleeding.
+No history of recent blood loss, haematemesis, melaena or heavy menstrual bleeding.
 
 Her last menstrual period was 12 days before presentation and was of normal duration and flow.
 
-There is no history suggestive of pregnancy.
+No history suggestive of pregnancy.
 
 She is not taking antihypertensive medications or diuretics.
 
-There is no history of diabetes mellitus or adrenal disease.
+No history of diabetes mellitus or adrenal disease.
 
 Review of Systems:
 
@@ -27417,7 +28684,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-02',
+  id: 'gopd-26',
   title: 'Uncomplicated Intestinal Ascariasis',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -27665,7 +28932,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-01',
+  id: 'gopd-25',
   title: 'Acute Diffuse Bacterial Otitis Externa',
   specialty: 'General Outpatient',
   subSpecialty: 'ENT',
@@ -27701,17 +28968,17 @@ She swims almost daily as part of her occupation and frequently cleans her ears 
 
 There is no history of ear trauma.
 
-There is no bleeding from the ear.
+No bleeding from the ear.
 
-There is no tinnitus.
+No tinnitus.
 
-There is no vertigo.
+No vertigo.
 
-There is no facial weakness.
+No facial weakness.
 
-There is no headache.
+No headache.
 
-There is no neck swelling.
+No neck swelling.
 
 She had one similar episode about one year ago which resolved with treatment.
 
@@ -27936,7 +29203,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-02',
+  id: 'gopd-24',
   title: 'Interdigital Tinea Pedis (Athlete’s Foot)',
   specialty: 'General Outpatient',
   subSpecialty: 'Dermatology',
@@ -27973,17 +29240,17 @@ He initially applied petroleum jelly without improvement.
 
 There is no fever.
 
-There is no purulent discharge.
+No purulent discharge.
 
-There is no ulceration.
+No ulceration.
 
-There is no bleeding.
+No bleeding.
 
-There is no preceding trauma.
+No preceding trauma.
 
-There is no history of diabetes mellitus or peripheral vascular disease.
+No history of diabetes mellitus or peripheral vascular disease.
 
-There is no previous history of recurrent fungal infections.
+No previous history of recurrent fungal infections.
 
 Review of Systems
 
@@ -28207,7 +29474,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-03',
+  id: 'gopd-22',
   title: 'Localized Tinea Corporis (Ringworm of the Body)',
   specialty: 'General Outpatient',
   subSpecialty: 'Dermatology',
@@ -28243,15 +29510,15 @@ She frequently attends a gym and admits to sharing exercise mats and towels with
 
 There is no fever.
 
-There is no weight loss.
+No weight loss.
 
-There is no purulent discharge.
+No purulent discharge.
 
 There are no scalp lesions or hair loss.
 
-There is no nail discoloration or thickening.
+No nail discoloration or thickening.
 
-There is no history of diabetes mellitus or use of immunosuppressive medications.
+No history of diabetes mellitus or use of immunosuppressive medications.
 
 Review of Systems
 
@@ -28474,7 +29741,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-01',
+  id: 'gopd-21',
   title: 'Chronic Functional Constipation',
   specialty: 'General Outpatient',
   subSpecialty: 'Family Medicine',
@@ -28717,7 +29984,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-02',
+  id: 'gopd-20',
   title: 'Bilateral Dry Eye Disease',
   specialty: 'General Outpatient',
   subSpecialty: 'Ophthalmology Clinic',
@@ -28759,23 +30026,23 @@ She works as an accountant and spends approximately 8–10 hours daily using a c
 
 There is no purulent eye discharge.
 
-There is no severe eye pain.
+No severe eye pain.
 
-There is no photophobia.
+No photophobia.
 
-There is no history of trauma to the eyes.
+No history of trauma to the eyes.
 
 She does not wear contact lenses.
 
-There is no history of recent eye surgery.
+No history of recent eye surgery.
 
 She has no known autoimmune disease but occasionally experiences dry mouth.
 
-There is no fever.
+No fever.
 
-There is no skin rash.
+No skin rash.
 
-There is no joint swelling.
+No joint swelling.
 
 ROS:
 
@@ -29001,7 +30268,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-03',
+  id: 'gopd-19',
   title: 'Bilateral Seasonal Allergic Conjunctivitis',
   specialty: 'General Outpatient',
   subSpecialty: 'Ophthalmology Clinic',
@@ -29039,15 +30306,15 @@ She reports that the symptoms worsen following exposure to dust, after sweeping 
 
 There is no purulent eye discharge.
 
-There is no severe eye pain.
+No severe eye pain.
 
-There is no photophobia.
+No photophobia.
 
-There is no reduction in vision.
+No reduction in vision.
 
-There is no foreign body sensation.
+No foreign body sensation.
 
-There is no history of trauma to the eyes.
+No history of trauma to the eyes.
 
 She does not wear contact lenses.
 
@@ -29261,7 +30528,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-03',
+  id: 'gopd-18',
   title: 'Allergic Contact Dermatitis in an Elderly Hypertensive Patient',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -29420,7 +30687,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-01',
+  id: 'gopd-17',
   title: 'Allergic Contact Dermatitis',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -29456,11 +30723,11 @@ The symptoms worsen during work and improve slightly on weekends when she has le
 She has applied an over-the-counter antifungal cream without improvement.
 
 There is no history of fever.
-There is no purulent discharge.
-There is no ulceration.
-There is no similar rash elsewhere on the body.
-There is no history of recent insect bites.
-There is no exposure to individuals with similar skin lesions.
+No purulent discharge.
+No ulceration.
+No similar rash elsewhere on the body.
+No history of recent insect bites.
+No exposure to individuals with similar skin lesions.
 She denies recent use of new medications.
 
 ROS:
@@ -29687,7 +30954,7 @@ Not yet available
   bookmarkCount: 0
 },
 {
-  id: 'gopd-05',
+  id: 'gopd-16',
   title: 'Pelvic Inflammatory Disease',
   specialty: 'General Outpatient',
   subSpecialty: 'Infectious Disease',
@@ -30082,7 +31349,7 @@ Repeat NAAT at 3 months to confirm cure and exclude reinfection.
   bookmarkCount: 0
 },
 {
-  id: 'gopd-03',
+  id: 'gopd-15',
   title: 'Urethral Discharge Syndrome — Gonococcal and Chlamydial Urethritis',
   specialty: 'General Outpatient',
   subSpecialty: 'Infectious Disease',
@@ -30449,7 +31716,7 @@ Review at 1 week (day 7): assess symptom resolution; inspect urethral meatus; sc
 },
 
 {
-  id: 'gopd-02',
+  id: 'gopd-14',
   title: 'Acute Uncomplicated Lower Urinary Tract Infection in a Young Woman',
   specialty: 'General Outpatient',
   subSpecialty: 'Nephrology / Infectious Disease',
@@ -30660,7 +31927,7 @@ Review at 48–72 hours: assess clinical response and review urine MCS results. 
       </div>
       <div>
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ciprofloxacin Should Not Be Used for Uncomplicated Cystitis</strong>
-        <p>Ciprofloxacin is frequently prescribed for uncomplicated lower UTI in Nigerian outpatient settings, and this practice is specifically discouraged by all major international guidelines for a reason that goes beyond individual patient outcomes. Fluoroquinolones are highly effective systemic antibiotics critical for treating more serious infections — pyelonephritis, complicated UTI, pneumonia, and, as discussed in the gopd-03 case, gonorrhoea. Their widespread use for uncomplicated cystitis creates selection pressure for fluoroquinolone-resistant organisms at a community level, gradually undermining treatment effectiveness for serious infections. The emerging fluoroquinolone resistance in Nigerian N. gonorrhoeae (exceeding 50%) is partly a product of this pattern. Ciprofloxacin should be reserved for pyelonephritis, complicated UTI, male UTI, or infections confirmed as fluoroquinolone-sensitive on MCS where a preferred agent is not available or suitable.</p>
+        <p>Ciprofloxacin is frequently prescribed for uncomplicated lower UTI in Nigerian outpatient settings, and this practice is specifically discouraged by all major international guidelines for a reason that goes beyond individual patient outcomes. Fluoroquinolones are highly effective systemic antibiotics critical for treating more serious infections — pyelonephritis, complicated UTI, pneumonia, and, gonorrhoea. Their widespread use for uncomplicated cystitis creates selection pressure for fluoroquinolone-resistant organisms at a community level, gradually undermining treatment effectiveness for serious infections. The emerging fluoroquinolone resistance in Nigerian N. gonorrhoeae (exceeding 50%) is partly a product of this pattern. Ciprofloxacin should be reserved for pyelonephritis, complicated UTI, male UTI, or infections confirmed as fluoroquinolone-sensitive on MCS where a preferred agent is not available or suitable.</p>
       </div>
       <div>
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Ampicillin and Amoxicillin Alone Are Ineffective</strong>
@@ -30783,7 +32050,7 @@ Review at 48–72 hours: assess clinical response and review urine MCS results. 
 },
 
 {
-  id: 'gopd-01',
+  id: 'gopd-13',
   title: 'Acute Urinary Tract Infection in a Young Adult Male',
   specialty: 'General Outpatient',
   subSpecialty: 'Urology / Infectious Disease',
@@ -31017,7 +32284,7 @@ HIV clinic referral if HIV reactive. Sexual health clinic referral if STI confir
       </div>
       <div>
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">A Note on Ciprofloxacin Stewardship</strong>
-        <p>In the context of uncomplicated female UTI (gopd-02), Ciprofloxacin was specifically listed as an agent to avoid empirically because its systemic use for a simple bladder infection drives fluoroquinolone resistance and compromises its availability for more serious infections. Male UTI is the legitimate exception to that principle. Here, the fluoroquinolone's prostatic penetration makes it the appropriate choice — this is not a stewardship failure but the correct application of the drug to the clinical situation it is designed for. The stewardship principle is not to avoid fluoroquinolones universally, but to use them where their pharmacological properties are clinically necessary.</p>
+        <p>In the context of uncomplicated female UTI, Ciprofloxacin was specifically listed as an agent to avoid empirically because its systemic use for a simple bladder infection drives fluoroquinolone resistance and compromises its availability for more serious infections. Male UTI is the legitimate exception to that principle. Here, the fluoroquinolone's prostatic penetration makes it the appropriate choice — this is not a stewardship failure but the correct application of the drug to the clinical situation it is designed for. The stewardship principle is not to avoid fluoroquinolones universally, but to use them where their pharmacological properties are clinically necessary.</p>
       </div>
     </div>
   </div>
@@ -31122,7 +32389,7 @@ HIV clinic referral if HIV reactive. Sexual health clinic referral if STI confir
 },
 
 {
-  id: 'gopd-04',
+  id: 'gopd-12',
   title: 'Vaginal Discharge Syndrome — Vulvovaginal Candidiasis',
   specialty: 'General Outpatient',
   subSpecialty: 'Infectious Disease',
@@ -31420,7 +32687,7 @@ Review at 1–2 weeks: assess symptom resolution, inspect vulva, review investig
 
 
 {
-  id: 'gopd-06',
+  id: 'gopd-11',
   title: 'Acute Uncomplicated Cystitis',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Department',
@@ -31574,7 +32841,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-05',
+  id: 'gopd-10',
   title: 'Acute Pelvic Inflammatory Disease',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Department',
@@ -31744,7 +33011,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-04',
+  id: 'gopd-09',
   title: 'Acute Sexually Transmitted Urethritis',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Department',
@@ -31914,7 +33181,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-03',
+  id: 'gopd-08',
   title: 'Acute Gonococcal Urethritis',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Department',
@@ -32078,7 +33345,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-02',
+  id: 'gopd-07',
   title: 'Dyspepsia Likely Secondary to Peptic Ulcer Disease',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Department',
@@ -32234,7 +33501,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-01',
+  id: 'gopd-06',
   title: 'Maintenance Insomnia Secondary to Nocturia',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Department',
@@ -32406,7 +33673,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-03',
+  id: 'gopd-05',
   title: 'Primary Chronic Insomnia Disorder',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -32661,7 +33928,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-02',
+  id: 'gopd-04',
   title: 'Chronic Mechanical Low Back Pain',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -32922,7 +34189,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-01',
+  id: 'gopd-03',
   title: 'Intertrigo with Abnormal Vaginal Discharge',
   specialty: 'General Outpatient',
   subSpecialty: 'General Outpatient Clinic',
@@ -33058,7 +34325,7 @@ Not yet available
 },
 
 {
-  id: 'gopd-01',
+  id: 'gopd-02',
   title: 'Acute Panic Attack Secondary to Academic Stress',
   specialty: 'General Outpatient',
   subSpecialty: 'Accident and Emergency',
@@ -33345,6 +34612,261 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
+  id: 'ob-32',
+  title: 'Rhesus (RhD) Isoimmunization in Pregnancy',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'High-Risk Antenatal Clinic',
+  condition: 'Rhesus Isoimmunization',
+  symptoms: [
+    'Positive anti-D antibody screen',
+    'Rh-negative pregnancy',
+    'Previous sensitizing pregnancy events',
+    'Viable singleton pregnancy',
+    'Requires fetal surveillance'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-03',
+  summary: 'A 31-year-old booked G3P1+1 at 28 weeks + 4 days with maternal anti-D alloimmunization secondary to previous sensitizing pregnancy events, requiring close fetal surveillance for haemolytic disease of the fetus and newborn.',
+  content: `HIGH-RISK ANTENATAL CLINIC
+
+Patient Seen
+
+A 31-year-old G3P1+1 (1 alive), booked, at 28 weeks + 4 days gestation by first trimester ultrasound.
+
+Blood Group: O Rh(D)-negative.
+
+CC:
+Routine antenatal follow-up with positive anti-D antibody screen.
+
+HPC:
+The patient is a 31-year-old G3P1+1 at 28 weeks + 4 days gestation presenting for review following routine antenatal investigations which demonstrated a positive indirect Coombs test with clinically significant anti-D antibodies.
+
+She reports no abdominal pain, vaginal bleeding or leakage of liquor. Fetal movements have remained active and normal. There is no history of fever, dysuria or reduced fetal movements.
+
+Routine antenatal blood grouping identified her as O Rh(D)-negative, and repeat antibody screening demonstrated clinically significant anti-D antibodies with an elevated titre.
+
+Further history revealed that she did not receive Anti-D immunoglobulin following a spontaneous miscarriage at 12 weeks' gestation three years ago. She also delivered an Rh-positive infant during her first pregnancy and is uncertain whether postpartum Anti-D prophylaxis was administered.
+
+She denies abdominal trauma, antepartum haemorrhage, external cephalic version or invasive obstetric procedures during the current pregnancy.
+
+She reports good compliance with antenatal medications and clinic appointments.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+No malaise.
+
+Obstetric:
+Normal fetal movements.
+No uterine contractions.
+No vaginal bleeding.
+No liquor drainage.
+No abdominal trauma.
+
+Cardiovascular:
+No palpitations.
+No dyspnoea.
+
+Respiratory:
+No cough.
+No chest pain.
+
+Genitourinary:
+No dysuria.
+No urinary frequency.
+
+Past Obstetric History:
+
+First Pregnancy (5 years ago):
+Term spontaneous vaginal delivery.
+Male infant.
+Birth weight 3.3 kg.
+Baby reportedly Rh-positive.
+No neonatal jaundice requiring exchange transfusion.
+Uncertain history of postpartum Anti-D administration.
+
+Second Pregnancy:
+Spontaneous miscarriage at 12 weeks.
+Manual uterine evacuation performed.
+Did not receive Anti-D immunoglobulin afterwards.
+
+PMH:
+No hypertension.
+No diabetes mellitus.
+No sickle cell disease.
+No previous blood transfusion.
+
+Drug History:
+Ferrous sulphate 200 mg PO tds.
+Folic acid 5 mg PO daily.
+Calcium carbonate 1.25 g PO daily.
+No known drug allergies.
+
+Family History:
+No family history of haemolytic disease of the newborn.
+
+Social History:
+Lives with husband.
+Non-smoker.
+Does not consume alcohol.
+Good family support.
+
+O/E:
+Young pregnant woman.
+Comfortable at rest.
+Not pale.
+Not jaundiced.
+Well hydrated.
+No pedal oedema.
+
+Vital Signs:
+BP: 112/70 mmHg.
+Pulse Rate: 84 bpm.
+Respiratory Rate: 18 cpm.
+Temperature: 36.8°C.
+Weight: 72 kg.
+
+Obstetric Examination:
+Abdomen uniformly enlarged consistent with gestational age.
+Symphysiofundal height: 28 cm.
+Singleton fetus.
+Longitudinal lie.
+Cephalic presentation.
+Fetal heart rate: 146 bpm, regular.
+Adequate fetal movements observed.
+No uterine tenderness.
+No palpable contractions.
+
+Pelvic Examination:
+Not indicated at this visit.
+
+ASSESSMENT:
+G3P1+1 at 28 weeks + 4 days gestation with Rhesus (RhD) isoimmunization (maternal anti-D alloimmunization) secondary to previous sensitizing pregnancy events, with a viable singleton pregnancy requiring surveillance for haemolytic disease of the fetus and newborn (HDFN).
+
+Differential Diagnoses:
+Rh(D) isoimmunization.
+Other red-cell alloantibody disease (anti-c, anti-Kell, anti-E).
+ABO incompatibility.
+
+PLAN:
+
+Investigations:
+
+Maternal:
+Full Blood Count.
+Confirmatory blood group and Rh typing.
+Indirect Coombs test with antibody identification and titre.
+Repeat antibody titre every 4 weeks until 28 weeks, then every 2 weeks if below the critical threshold or as advised by the fetal medicine team.
+Liver Function Tests if indicated.
+Renal Function Tests if indicated.
+Screen for HIV, Hepatitis B, Hepatitis C and Syphilis if not already completed.
+
+Paternal:
+Determine paternal Rh(D) status.
+If Rh-positive, determine zygosity where available.
+
+Fetal Assessment:
+Detailed obstetric ultrasound.
+Serial fetal growth assessment.
+Amniotic fluid volume assessment.
+Placental localization.
+Middle Cerebral Artery Peak Systolic Velocity (MCA-PSV) Doppler every 1–2 weeks.
+Biophysical profile as indicated.
+Cardiotocography (CTG) in the third trimester when appropriate.
+
+If MCA-PSV exceeds 1.5 multiples of the median:
+Urgent fetal medicine referral.
+Cordocentesis for fetal haemoglobin estimation.
+Consider intrauterine transfusion if severe fetal anaemia is confirmed.
+
+Management:
+
+Admission:
+Continue outpatient management with close fetal medicine follow-up if maternal and fetal conditions remain stable.
+
+Admit if:
+Reduced fetal movements.
+Hydrops fetalis.
+Severe fetal anaemia.
+Preterm labour.
+Antepartum haemorrhage.
+
+Antenatal Care:
+Continue routine antenatal care.
+
+Ferrous sulphate 200 mg PO tds.
+Folic acid 5 mg PO daily.
+Calcium carbonate 1.25 g PO daily.
+
+Anti-D Immunoglobulin:
+Not indicated because the patient is already sensitized with circulating anti-D antibodies.
+
+Fetal Surveillance:
+Serial MCA Doppler ultrasound every 1–2 weeks.
+Serial fetal growth scans every 4 weeks.
+Daily fetal movement counting.
+
+If Fetal Anaemia Develops:
+Urgent fetal medicine referral.
+Cordocentesis.
+Intrauterine packed red cell transfusion where indicated.
+Repeat intrauterine transfusions until fetal maturity if required.
+
+Timing of Delivery:
+If pregnancy remains uncomplicated:
+Plan delivery at 37–38 weeks in a tertiary centre with specialist obstetric, neonatal and transfusion services.
+
+Earlier delivery if:
+Progressive fetal anaemia.
+Hydrops fetalis.
+Abnormal fetal surveillance.
+
+At Delivery:
+Ensure neonatal team attendance.
+Obtain cord blood for:
+Blood group and Rh typing.
+Direct Coombs test.
+Haemoglobin.
+Serum bilirubin.
+
+Monitor the newborn for haemolytic disease, jaundice and anaemia.
+
+Prepare for phototherapy, intravenous immunoglobulin or exchange transfusion if indicated.
+
+Nursing Instructions:
+Monitor maternal vital signs at each visit.
+Educate on daily fetal movement counting.
+Advise immediate presentation if fetal movements reduce.
+Reinforce attendance at all fetal Doppler appointments.
+
+Health Education:
+Explain that Rhesus isoimmunization occurs when an Rh-negative mother develops antibodies against Rh-positive fetal red blood cells after exposure during a previous pregnancy, miscarriage, invasive procedure or blood transfusion. These antibodies can cross the placenta in subsequent pregnancies, causing fetal anaemia, hydrops fetalis or fetal death.
+
+Inform her that because sensitization has already occurred, Anti-D immunoglobulin is no longer beneficial in the current pregnancy. Management therefore focuses on close fetal surveillance using serial MCA Doppler studies to detect fetal anaemia early and institute treatment where necessary.
+
+Advise strict attendance at antenatal and fetal medicine clinics, daily fetal movement counting and prompt presentation for reduced fetal movements, vaginal bleeding, abdominal trauma, leakage of liquor or symptoms of labour.
+
+Counsel that future pregnancies will also require early specialist obstetric care because anti-D antibodies usually persist lifelong.
+
+Follow-up:
+Review in the High-Risk Antenatal Clinic in 2 weeks.
+Continue serial antibody titres where appropriate.
+Continue MCA Doppler surveillance every 1–2 weeks.
+Plan delivery in a tertiary hospital with fetal medicine, neonatal intensive care and blood bank support.
+
+Prognosis:
+Good with early diagnosis, close fetal surveillance and timely intervention. Most pregnancies complicated by Rh isoimmunization achieve favourable outcomes when managed in a specialist obstetric unit capable of detecting and treating fetal anaemia before hydrops fetalis develops.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'ob-31',
   title: 'Symptomatic Bacterial Vaginosis in Pregnancy',
   specialty: 'Obstetrics and Gynecology',
@@ -33376,10 +34898,10 @@ She reports associated mild vulval irritation but no significant vulval itching.
 Three days prior to presentation, she developed mild intermittent lower abdominal discomfort, which is non-radiating and not associated with uterine contractions.
 
 There is no history of fever, chills or rigors.
-There is no history of dysuria, urinary frequency or urgency.
-There is no history of vaginal bleeding.
-There is no history of gush or continuous leakage of clear fluid per vaginam.
-There is no history of severe lower abdominal pain.
+No history of dysuria, urinary frequency or urgency.
+No history of vaginal bleeding.
+No history of gush or continuous leakage of clear fluid per vaginam.
+No history of severe lower abdominal pain.
 She reports normal fetal movements for her gestational age.
 
 There is no history of recent antibiotic use.
@@ -33814,7 +35336,7 @@ Not yet available
   
   Patient Seen
   
-  A 29-year-old G3P1+1 married female trader from Surulere, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  A 29-year-old G3P1+1 married female trader from Surulere, Lagos State, Christian, Yoruba. Informant: Patient (Reliable).
   
   Gestational Age: 24 weeks + 2 days by reliable LMP and dating ultrasound.
   
@@ -33835,21 +35357,21 @@ Not yet available
   
   There is no history of lower abdominal pain.
   
-  There is no history of fever, chills or rigors.
+  No history of fever, chills or rigors.
   
-  There is no dysuria or urinary frequency.
+  No dysuria or urinary frequency.
   
-  There is no history of vaginal bleeding.
+  No history of vaginal bleeding.
   
-  There is no history of leakage of clear fluid per vaginam.
+  No history of leakage of clear fluid per vaginam.
   
-  There is no history of gush or continuous trickling of fluid from the vagina.
+  No history of gush or continuous trickling of fluid from the vagina.
   
-  There is no history of uterine contractions.
+  No history of uterine contractions.
   
   She reports normal fetal movements for her gestational age.
   
-  There is no history of recent antibiotic use.
+  No history of recent antibiotic use.
   
   She denies recent use of vaginal douches or other intravaginal preparations.
   
@@ -34299,7 +35821,7 @@ Not yet available
   
   Patient Seen
   
-  A 27-year-old G2P1 married female teacher from Ikeja, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+  A 27-year-old G2P1 married female teacher from Ikeja, Lagos State, Christian, Yoruba. Informant: Patient (Reliable).
   
   Gestational Age: 18 weeks + 4 days by reliable LMP and dating ultrasound.
   
@@ -34321,25 +35843,25 @@ Not yet available
   
   She reports that her urine has become cloudy and has a stronger-than-usual smell.
   
-  There is no history of visible haematuria.
+  No history of visible haematuria.
   
-  There is no history of urinary retention.
+  No history of urinary retention.
   
-  There is no history of flank pain.
+  No history of flank pain.
   
-  There is no history of fever, chills or rigors.
+  No history of fever, chills or rigors.
   
-  There is no nausea or vomiting.
+  No nausea or vomiting.
   
-  There is no history of vaginal bleeding or abnormal vaginal discharge.
+  No history of vaginal bleeding or abnormal vaginal discharge.
   
-  There is no history of leakage of liquor.
+  No history of leakage of liquor.
   
-  There is no history of uterine contractions.
+  No history of uterine contractions.
   
   She reports normal fetal movements for her gestational age.
   
-  There is no history of previous renal disease or recurrent urinary tract infections.
+  No history of previous renal disease or recurrent urinary tract infections.
   
   REVIEW OF SYSTEMS:
   
@@ -34796,8 +36318,8 @@ She reports marked difficulty breastfeeding from the affected breast because of 
 She had cracked nipples during the first two weeks after delivery and admits that the baby occasionally had poor attachment during breastfeeding.
 
 There is no history of breast trauma.
-There is no previous breast surgery.
-There is no family history of breast cancer.
+No previous breast surgery.
+No family history of breast cancer.
 
 REVIEW OF SYSTEMS
 
@@ -35168,9 +36690,9 @@ She reports that breastfeeding from the affected breast has become increasingly 
 She admits to occasional poor latch by the infant and cracked nipples during the first week after delivery.
 
 There is no history of trauma to the breast.
-There is no purulent nipple discharge.
+No purulent nipple discharge.
 She has not noticed a fluctuant swelling suggestive of an abscess.
-There is no previous history of mastitis or breast surgery.
+No previous history of mastitis or breast surgery.
 
 REVIEW OF SYSTEMS
 
@@ -39647,6 +41169,1335 @@ Not yet available
 
 // Surgery
 {
+  id: 'surg-35',
+  title: 'Spontaneously Ruptured Right Gluteal Skin Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Gluteal Skin Abscess',
+  symptoms: ['Painful right buttock swelling', 'Purulent discharge', 'Localized tenderness', 'Warmth over swelling', 'Pain while sitting'],
+  contributor: 'Admin',
+  lastModified: '2026-08-04',
+  summary: '27-year-old man presenting with a 6-day history of a painful right gluteal swelling that ruptured spontaneously one day prior to presentation with purulent discharge, consistent with a partially drained gluteal skin abscess with mild surrounding cellulitis and no evidence of systemic infection.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 27-year-old single male mechanic from Agege, Lagos State, Christian, Yoruba. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Painful swelling over the right buttock × 6 days.
+Spontaneous discharge of pus from the swelling × 1 day.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient is a 27-year-old man who was apparently well until six days prior to presentation when he noticed a small painful swelling over the right buttock.
+
+The swelling was initially small but gradually increased in size over the following days. It was associated with increasing pain, tenderness and warmth of the overlying skin, with pain aggravated by sitting and direct pressure.
+
+One day prior to presentation, the swelling became increasingly painful and subsequently ruptured spontaneously, with the discharge of a moderate amount of thick yellowish pus mixed with a small amount of blood.
+
+Following spontaneous rupture, the patient reports significant reduction in the size of the swelling and some relief of pain.
+
+He has continued to notice a small amount of purulent discharge from the opening.
+
+There is no history of persistent bleeding.
+There is no history of fever, chills or rigors.
+No history of generalized body weakness or dizziness.
+No history of similar recurrent swellings in the past.
+No history of recent trauma to the affected buttock.
+No history of recent intramuscular injection to the affected site.
+No history of recent surgery.
+No history of diabetes mellitus.
+No known history of immunosuppression.
+No history of perianal pain or difficulty passing stool.
+
+REVIEW OF SYSTEMS
+
+GENERAL
+
+No fever.
+No chills.
+No rigors.
+No significant malaise.
+No weight loss.
+
+SKIN
+
+Painful swelling over the right buttock.
+Spontaneous rupture with purulent discharge.
+No other similar swellings.
+No generalized skin rash.
+No recurrent boils.
+
+GASTROINTESTINAL
+
+No abdominal pain.
+No vomiting.
+No diarrhoea.
+No difficulty passing stool.
+
+GENITOURINARY
+
+No dysuria.
+No urinary frequency.
+No urethral discharge.
+No difficulty passing urine.
+No perianal pain.
+
+PAST MEDICAL HISTORY
+
+No known diabetes mellitus.
+No known hypertension.
+No known chronic kidney disease.
+No known HIV infection or other immunosuppressive illness.
+No history of recurrent skin infections.
+No previous history of recurrent boils or abscesses.
+
+PAST SURGICAL HISTORY
+
+No previous surgery.
+
+DRUG HISTORY
+
+Not on any regular medication.
+No recent antibiotic use.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No significant family history of recurrent skin infections.
+
+SOCIAL HISTORY
+
+Mechanic.
+Lives with family.
+Non-smoker.
+Occasional alcohol consumption.
+No recreational drug use.
+
+GENERAL EXAMINATION
+
+Young man.
+Conscious and alert.
+Comfortable at rest.
+Not in obvious painful distress.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Well hydrated.
+No peripheral lymphadenopathy.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 116/72 mmHg.
+Pulse Rate: 80 beats/minute, regular.
+Respiratory Rate: 18 cycles/minute.
+Temperature: 36.7°C.
+SpO₂: 99% on room air.
+
+LOCAL EXAMINATION OF THE RIGHT GLUTEAL REGION
+
+A small, approximately 2.5 cm × 2 cm, partially collapsed swelling is seen over the right buttock.
+
+There is a central skin opening consistent with spontaneous rupture.
+
+A small amount of thick yellowish purulent discharge is expressible from the opening.
+
+The surrounding skin is mildly erythematous and warm.
+
+There is mild surrounding induration.
+The lesion is mildly tender to palpation.
+No significant residual fluctuance is appreciated.
+No active bleeding.
+No skin necrosis.
+No crepitus.
+No extensive surrounding cellulitis.
+No evidence of extension towards the perianal region.
+
+The anal opening is normal.
+
+No clinical features of perirectal abscess.
+
+No other similar lesions identified.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular
+
+Pulse regular.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory
+
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Abdomen
+
+Soft and non-tender.
+No organomegaly.
+
+Central Nervous System
+
+Conscious and oriented.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Small right gluteal skin abscess with spontaneous rupture and partial drainage, with mild surrounding cellulitis, in a clinically stable patient.
+
+The abscess has spontaneously decompressed with significant reduction in swelling and pain.
+
+There are currently no clinical features of systemic infection, sepsis, necrotizing soft tissue infection or perirectal involvement.
+
+However, the abscess cavity should be assessed for residual pus or loculations, as spontaneous rupture does not necessarily guarantee complete drainage.
+
+DIFFERENTIAL DIAGNOSES
+
+Spontaneously ruptured gluteal skin abscess.
+Infected epidermoid cyst with spontaneous rupture.
+Furuncle.
+Inflamed pilonidal cyst, depending on anatomical location.
+Injection-site abscess, if there is a history of intramuscular injection.
+Hidradenitis suppurativa, particularly if recurrent or associated with multiple lesions.
+
+INVESTIGATIONS
+
+1. Pus MCS.
+2. Blood glucose.
+3. Full blood count (if indicated).
+4. Ultrasound of the lesion if residual collection or deep extension is suspected.
+
+MANAGEMENT
+
+1. Wound assessment and drainage.
+
+Assess the cavity for residual pus or loculations.
+
+If residual collection is present:
+
+Obtain informed consent.
+Maintain aseptic technique.
+Provide local anaesthesia where required.
+Gently enlarge the opening if necessary.
+Break down loculations.
+Irrigate with normal saline.
+Apply a sterile dressing.
+
+Routine packing is not required for a small uncomplicated cavity that has adequately drained.
+
+2. Antibiotic therapy.
+
+Routine antibiotics may not be required after adequate drainage in a clinically well patient without significant cellulitis or systemic symptoms.
+
+Consider antibiotics if there is:
+
+Incomplete drainage.
+Worsening cellulitis.
+Systemic symptoms.
+Diabetes mellitus.
+Immunosuppression.
+Multiple abscesses.
+Failure to improve.
+
+Possible regimen:
+
+Flucloxacillin 500 mg orally four times daily for 5–7 days.
+
+Modify treatment according to culture and sensitivity results where available.
+
+3. Analgesia.
+
+Paracetamol 1 g orally every 6–8 hours as required.
+
+NSAIDs may be used where appropriate.
+
+4. Wound care.
+
+Clean with normal saline.
+Apply sterile dressing.
+Perform regular dressing changes.
+
+Monitor for:
+
+Persistent purulent discharge.
+Reaccumulation of swelling.
+Increasing redness.
+Increasing pain.
+Delayed healing.
+
+5. Management of risk factors.
+
+If recurrent or healing is delayed, assess for:
+
+Diabetes mellitus.
+Immunosuppression.
+Hidradenitis suppurativa.
+Recurrent Staphylococcus aureus infection.
+Other chronic skin conditions.
+
+NURSING INSTRUCTIONS
+
+Monitor temperature.
+Monitor pain score.
+Perform wound dressing as prescribed.
+Observe the wound for reaccumulation of pus.
+Monitor for increasing redness or swelling.
+Observe for fever or systemic symptoms.
+Administer analgesia as prescribed.
+Administer antibiotics if prescribed.
+
+HEALTH EDUCATION
+
+Explain that the abscess has opened and drained spontaneously, reducing pressure and pain, but the cavity may still contain infected material.
+
+Advise the patient:
+
+Do not squeeze or manipulate the wound.
+Keep the wound clean and covered.
+Attend scheduled dressing appointments.
+Complete prescribed antibiotics.
+Avoid sharing towels, clothing or personal items.
+Maintain good personal hygiene.
+Avoid applying unprescribed herbal preparations.
+Return for review if the swelling recurs.
+
+WARNING SIGNS REQUIRING URGENT REVIEW
+
+Fever or chills.
+Rapidly increasing swelling.
+Increasing redness or warmth around the wound.
+Severe or worsening pain.
+Reaccumulation of pus.
+Skin discoloration or necrosis.
+Foul-smelling discharge.
+Crepitus.
+Generalized weakness or dizziness.
+Difficulty passing urine or stool.
+Increasing pain around the anus or perineum.
+
+FOLLOW-UP
+
+Review within 24–48 hours for wound assessment.
+
+Assess:
+
+Adequacy of drainage.
+Residual abscess.
+Reaccumulation of pus.
+Extent of cellulitis.
+Pain.
+Wound healing.
+Development of systemic symptoms.
+
+If persistent fluctuance or reaccumulation occurs, arrange repeat drainage and consider soft tissue ultrasound.
+
+If healing is delayed or recurrence occurs, investigate for diabetes mellitus, immunosuppression and hidradenitis suppurativa.
+
+PROGNOSIS
+
+Good.
+
+Final working diagnosis: Small spontaneously ruptured right gluteal skin abscess with partial spontaneous drainage and mild surrounding cellulitis, with no evidence of systemic infection or perirectal involvement.`,
+  documentation: `
+<div class="space-y-6">
+
+Not yet available
+
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-34',
+  title: 'Left Gluteal Skin Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Gluteal Skin Abscess',
+  symptoms: ['Painful left buttock swelling', 'Localized tenderness', 'Swelling', 'Warmth over swelling', 'Pain while sitting'],
+  contributor: 'Admin',
+  lastModified: '2026-08-04',
+  summary: '29-year-old man presenting with a 5-day history of a painful left gluteal swelling, clinically consistent with a localized skin abscess with mild surrounding cellulitis and no evidence of systemic infection or perirectal involvement.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 29-year-old single male technician from Lagos, Lagos State, Christian, Yoruba. Informant: Patient (Reliable).
+
+CHIEF COMPLAINT
+
+Painful swelling over the left buttock × 5 days.
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient is a 29-year-old man who was apparently well until five days prior to presentation when he noticed a small painful swelling over the left buttock.
+
+The swelling was initially the size of a small pea but gradually increased in size over the next few days.
+
+It is associated with localized pain, which is worse on sitting and direct pressure.
+
+The patient reports increasing tenderness over the swelling and mild warmth of the surrounding skin.
+
+There has been no spontaneous discharge of pus or blood.
+
+There is no history of similar recurrent swellings in the past.
+
+There is no history of fever, chills or rigors.
+No history of generalized body weakness.
+No history of significant weight loss.
+No history of recent trauma to the affected area.
+No history of recent intramuscular injection to the affected buttock.
+No history of recent surgery.
+
+He reports no known contact with anyone with a similar skin infection.
+
+There is no history of diabetes mellitus.
+
+There is no known history of immunosuppression.
+
+REVIEW OF SYSTEMS
+
+GENERAL
+
+No fever.
+No chills.
+No rigors.
+No significant malaise.
+No weight loss.
+
+SKIN
+
+Painful localized swelling over the left buttock.
+No other similar lesions.
+No generalized skin rash.
+No recurrent boils.
+
+GASTROINTESTINAL
+
+No abdominal pain.
+No vomiting.
+No diarrhoea.
+
+GENITOURINARY
+
+No dysuria.
+No urinary frequency.
+No urethral discharge.
+No perianal pain.
+No difficulty passing stool.
+
+PAST MEDICAL HISTORY
+
+No known diabetes mellitus.
+No known hypertension.
+No known chronic kidney disease.
+No known HIV infection or other immunosuppressive illness.
+No previous recurrent skin infections.
+No previous history of recurrent boils or abscesses.
+
+PAST SURGICAL HISTORY
+
+No previous surgery.
+
+DRUG HISTORY
+
+Not on any regular medication.
+No recent antibiotic use.
+No known drug allergies.
+
+FAMILY HISTORY
+
+No significant family history of recurrent skin infections.
+
+SOCIAL HISTORY
+
+Technician.
+Lives alone.
+Non-smoker.
+Occasional alcohol consumption.
+No recreational drug use.
+
+GENERAL EXAMINATION
+
+Young man.
+Conscious and alert.
+Comfortable at rest.
+Not in obvious painful distress.
+Not pale.
+Not jaundiced.
+Not cyanosed.
+Well hydrated.
+No peripheral lymphadenopathy.
+No peripheral oedema.
+
+VITAL SIGNS
+
+Blood Pressure: 118/74 mmHg.
+Pulse Rate: 82 beats/minute, regular.
+Respiratory Rate: 18 cycles/minute.
+Temperature: 36.8°C.
+SpO₂: 99% on room air.
+
+LOCAL EXAMINATION OF THE LEFT GLUTEAL REGION
+
+A solitary, approximately 3 cm × 3 cm, rounded, tender swelling is seen over the upper outer aspect of the left buttock.
+
+The overlying skin is mildly erythematous and warm.
+
+The swelling is tender to palpation.
+It is fluctuant centrally.
+There is mild surrounding induration.
+No active discharge.
+No spontaneous rupture.
+No significant surrounding cellulitis.
+No skin necrosis.
+No crepitus.
+No evidence of extension towards the perianal region.
+
+The anal opening is normal.
+
+No features suggestive of perirectal abscess.
+
+No other similar lesions identified over the buttocks or other skin surfaces.
+
+OTHER SYSTEMIC EXAMINATION
+
+Cardiovascular
+
+Pulse regular.
+Heart sounds I and II normal.
+No murmurs.
+
+Respiratory
+
+Normal vesicular breath sounds bilaterally.
+No added sounds.
+
+Abdomen
+
+Soft and non-tender.
+No organomegaly.
+
+Central Nervous System
+
+Conscious and oriented.
+No focal neurological deficit.
+
+ASSESSMENT
+
+Small localized left gluteal skin abscess (approximately 3 cm), with mild surrounding cellulitis, in an otherwise clinically stable patient.
+
+There are currently no clinical features of systemic infection, sepsis, necrotizing soft tissue infection or perirectal involvement.
+
+DIFFERENTIAL DIAGNOSES
+
+Localized gluteal skin abscess.
+Infected epidermoid cyst.
+Furuncle.
+Inflamed pilonidal cyst, depending on exact anatomical location.
+Injection-site abscess, if there is a history of intramuscular injection.
+Hidradenitis suppurativa, particularly if recurrent or associated with multiple lesions.
+
+INVESTIGATIONS
+
+1. Blood glucose.
+2. Pus MCS (if drained and clinically indicated).
+3. Full blood count.
+4. HIV screening (where indicated).
+5. Ultrasound of the lesion if diagnosis is uncertain.
+
+MANAGEMENT
+
+Incision and drainage under aseptic conditions with local anaesthesia.
+
+Send pus for MCS when indicated.
+
+Consider antibiotics if there is significant surrounding cellulitis, systemic symptoms, immunosuppression, diabetes, multiple abscesses, incomplete drainage or failure to improve.
+
+Possible regimen:
+Flucloxacillin 500 mg orally four times daily for 5–7 days (subject to local guidelines and allergy status).
+
+Analgesia:
+Paracetamol 1 g orally every 6–8 hours as required.
+Consider NSAIDs if appropriate.
+
+Wound care:
+Regular dressing changes.
+Monitor for persistent discharge, worsening pain, erythema or delayed healing.
+
+Assess for underlying risk factors if recurrent, including diabetes mellitus, hidradenitis suppurativa, immunodeficiency and Staphylococcus aureus colonization.
+
+
+HEALTH EDUCATION
+
+Advise the patient:
+
+Do not squeeze or attempt to burst the abscess.
+Keep the wound clean.
+Complete prescribed antibiotics.
+Attend dressing appointments.
+Avoid sharing towels or clothing if recurrent staphylococcal infection is suspected.
+Maintain good personal hygiene.
+Return promptly if similar swellings develop.
+
+WARNING SIGNS REQUIRING URGENT REVIEW
+
+Fever or chills.
+Rapidly increasing swelling.
+Spreading redness.
+Severe or worsening pain.
+Skin discoloration or necrosis.
+Foul-smelling discharge.
+Crepitus.
+Generalized weakness or dizziness.
+Difficulty passing urine or stool.
+Increasing pain around the anus or perineum.
+
+FOLLOW-UP
+
+Review within 24–48 hours after drainage to assess wound healing, residual collection, pain, cellulitis and systemic symptoms.
+
+Continue dressing until healing is adequate.
+
+If there is poor improvement, consider repeat drainage, ultrasound, pus MCS, screening for diabetes mellitus or immunosuppression and surgical review.
+
+PROGNOSIS
+
+Good.
+
+Final working diagnosis: Small localized left gluteal skin abscess (approximately 3 cm × 3 cm) with mild surrounding cellulitis and no evidence of systemic infection or perirectal involvement.`,
+  documentation: `
+<div class="space-y-6">
+
+Not yet available
+
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-33',
+  title: 'Typhoid Ileal Perforation with Generalized Peritonitis',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Complicated Enteric (Typhoid) Fever',
+  symptoms: [
+    'Severe generalized abdominal pain',
+    'Abdominal distension',
+    'Persistent fever',
+    'Bilious vomiting',
+    'Constipation and inability to pass flatus'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-04',
+  summary: '29-year-old male commercial driver presenting with prolonged fever followed by sudden severe abdominal pain, abdominal distension and vomiting, consistent with typhoid ileal perforation causing generalized peritonitis and septic shock.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 29-year-old married male commercial driver presented with a reliable history obtained from the patient and his wife.
+
+PC:
+Severe abdominal pain × 12 hours
+Abdominal swelling × 10 hours
+Persistent fever × 2 weeks
+Vomiting × 1 day
+
+HPC:
+He was apparently well until about 2 weeks prior to presentation when he developed a persistent high-grade fever associated with generalized body weakness, headache, poor appetite and intermittent abdominal discomfort.
+
+He was treated with over-the-counter antimalarial medications and herbal preparations without improvement.
+
+Approximately 12 hours prior to presentation, he developed sudden-onset severe generalized abdominal pain, initially involving the lower abdomen before rapidly becoming diffuse.
+
+The pain is constant, severe (10/10), aggravated by movement and coughing, and partially relieved by lying still.
+
+This was followed by progressive abdominal distension, repeated episodes of bilious vomiting and inability to pass stool or flatus.
+
+He reports persistent fever throughout the illness but denies passage of blood in stool.
+
+There is no history of previous abdominal surgery or peptic ulcer disease.
+
+REVIEW OF SYSTEMS:
+
+General:
+Persistent fever.
+Marked weakness.
+Poor appetite.
+Weight loss.
+
+Gastrointestinal:
+Severe generalized abdominal pain.
+Abdominal distension.
+Repeated vomiting.
+Constipation.
+Failure to pass flatus.
+No gastrointestinal bleeding.
+
+Respiratory:
+Pain on deep inspiration.
+No cough.
+
+Cardiovascular:
+Dizziness.
+Palpitations.
+
+Genitourinary:
+Reduced urine output over the preceding 12 hours.
+
+Past Medical History:
+No history of diabetes mellitus.
+No hypertension.
+No previous abdominal surgery.
+No known chronic illness.
+
+Drug History:
+Recently treated with unidentified antimalarial medications and herbal preparations.
+
+No known drug allergies.
+
+Family History:
+Non-contributory.
+
+Social History:
+Commercial driver.
+
+Frequently consumes food from roadside vendors.
+
+Occasionally drinks untreated water while at work.
+
+Occasional alcohol intake.
+
+Non-smoker.
+
+O/E:
+
+Young man, acutely ill-looking, lying motionless because of abdominal pain.
+
+Moderately dehydrated.
+
+Febrile.
+
+Mildly pale.
+
+Cold extremities.
+
+Not jaundiced.
+
+Vital Signs:
+Temperature: 39.4°C
+BP: 88/54 mmHg
+PR: 126 bpm, weak and thready
+RR: 30 cpm
+SpO₂: 96% on room air
+Random Blood Glucose: 6.8 mmol/L
+
+Abdomen:
+Markedly distended.
+
+Generalized tenderness.
+
+Marked involuntary guarding.
+
+Board-like rigidity.
+
+Rebound tenderness present.
+
+Absent bowel sounds.
+
+Generalized tympany with loss of liver dullness.
+
+Digital rectal examination reveals an empty rectum.
+
+CVS:
+Tachycardia.
+
+Heart sounds I and II present.
+
+No murmurs.
+
+Respiratory:
+Reduced basal air entry bilaterally secondary to abdominal splinting.
+
+No crepitations.
+
+CNS:
+Alert but restless.
+
+GCS: 15/15.
+
+No focal neurological deficits.
+
+ASSESSMENT:
+Complicated enteric (typhoid) fever with suspected ileal perforation causing generalized peritonitis, septic shock and dehydration.
+
+DIFFERENTIAL DIAGNOSES:
+1. Typhoid ileal perforation.
+2. Perforated peptic ulcer disease.
+3. Acute appendicitis with perforation.
+4. Small bowel perforation from other causes.
+5. Mesenteric ischaemia.
+
+URGENT INVESTIGATIONS:
+
+Bedside:
+- Random Blood Glucose.
+- Urinalysis.
+- Insert urinary catheter for hourly urine output monitoring.
+
+Laboratory:
+- Full Blood Count.
+- Serum Electrolytes, Urea and Creatinine.
+- Liver Function Tests.
+- Serum Lactate.
+- C-reactive Protein.
+- Blood Culture (before antibiotics if feasible).
+- Blood Grouping and Cross-match (2–4 units packed red cells).
+- Coagulation Profile.
+- HIV screening (with consent).
+
+Imaging:
+- Erect Chest X-ray (to identify free subdiaphragmatic air).
+- Abdominal X-ray (erect and supine).
+- Abdominal Ultrasound.
+- Contrast-enhanced CT Abdomen (if haemodynamically stable and available).
+
+PLAN:
+
+Admission:
+Admit to the Surgical High Dependency Unit (HDU).
+
+Urgent review by the General Surgery team.
+
+RESUSCITATION (ABC):
+
+- Maintain airway patency.
+- Administer oxygen 4–6 L/min via face mask, aiming for SpO₂ ≥94%.
+- Insert two wide-bore (16G) intravenous cannulas.
+
+Fluid Resuscitation:
+
+Ringer's Lactate 1 L IV over 30 minutes.
+
+Reassess haemodynamic status.
+
+Continue with 0.9% Normal Saline or Ringer's Lactate guided by blood pressure, pulse rate, urine output and laboratory findings.
+
+Targets:
+- Urine output >0.5 mL/kg/hour.
+- MAP ≥65 mmHg.
+
+Nil Per Os:
+Keep strictly nil by mouth.
+
+Nasogastric Decompression:
+Insert a wide-bore nasogastric tube and place on free drainage.
+
+Record NG aspirate volume.
+
+Urinary Catheter:
+Insert Foley catheter.
+
+Strict hourly urine output monitoring.
+
+Intravenous Antibiotics:
+
+Inj Ceftriaxone 2 g IV once daily.
+
+PLUS
+
+Inj Metronidazole 500 mg IV every 8 hours.
+
+If severe sepsis or hospital-acquired infection is suspected:
+
+Piperacillin-Tazobactam 4.5 g IV every 6–8 hours.
+
+OR
+
+Meropenem 1 g IV every 8 hours according to local antimicrobial policy.
+
+Analgesia:
+
+Paracetamol 1 g IV every 6 hours as required.
+
+Maximum dose: 4 g/day.
+
+For severe pain:
+
+Tramadol 50–100 mg IV every 6–8 hours as required.
+
+Antiemetic:
+
+Ondansetron 4 mg IV every 8 hours as required.
+
+Surgical Management:
+
+Urgent exploratory laparotomy after initial stabilization.
+
+Possible procedures include:
+- Primary closure of a single ileal perforation.
+- Segmental bowel resection with primary anastomosis.
+- Temporary ileostomy where indicated.
+- Thorough peritoneal lavage.
+- Placement of abdominal drains if required.
+
+Send peritoneal fluid and tissue specimens for microbiological analysis.
+
+MANAGEMENT OF SEPTIC SHOCK:
+
+Monitor:
+- Blood pressure.
+- Heart rate.
+- Respiratory rate.
+- Oxygen saturation.
+- Urine output.
+- Serum lactate.
+
+If hypotension persists after adequate fluid resuscitation:
+
+Commence Noradrenaline infusion titrated to maintain MAP ≥65 mmHg, preferably via a central venous catheter in the ICU.
+
+NURSING INSTRUCTIONS:
+
+- Record vital signs every 15–30 minutes until stable.
+- Strict fluid input/output chart.
+- Maintain NPO status.
+- Monitor NG tube drainage.
+- Observe for worsening sepsis.
+- Pressure area care.
+- Commence postoperative physiotherapy when appropriate.
+
+HEALTH EDUCATION:
+
+The patient and relatives were counselled that typhoid fever is caused by Salmonella Typhi and that delayed diagnosis or treatment may result in intestinal ulceration and perforation.
+
+The need for emergency surgery to repair the perforation and control intra-abdominal contamination was explained.
+
+Possible complications including bleeding, wound infection, anastomotic leak, intra-abdominal abscess, temporary or permanent stoma formation and ICU admission were discussed.
+
+Preventive measures including safe drinking water, proper hand hygiene, hygienic food preparation, early treatment of prolonged fever and consideration of typhoid vaccination were emphasized.
+
+FOLLOW-UP:
+
+- Daily review by the General Surgery team.
+- Infectious Disease/Internal Medicine review for antimicrobial optimization.
+- Review blood culture and sensitivity results.
+- Daily monitoring of FBC, electrolytes and renal function.
+- Wound care and postoperative review.
+- Surgical outpatient follow-up 2 weeks after discharge.
+
+Prognosis:
+Guarded. Typhoid ileal perforation is a life-threatening complication associated with significant morbidity and mortality. Early aggressive resuscitation, prompt broad-spectrum antibiotic therapy and emergency surgery significantly improve survival.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-32',
+  title: 'Injection Site Gluteal Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Injection Site Abscess',
+  symptoms: [
+    'Painful gluteal swelling',
+    'Fever',
+    'Difficulty sitting',
+    'Injection site pain',
+    'Fluctuant buttock swelling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-03',
+  summary: 'A 24-year-old female developed a painful right gluteal swelling with fever following an intramuscular injection, consistent with an injection site abscess requiring surgical drainage.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 24-year-old female tailor residing in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is a Christian.
+
+CC:
+Painful swelling on the right buttock × 5 days.
+Fever × 3 days.
+
+HPC:
+The patient was apparently well until about 5 days prior to presentation when she noticed a painful swelling over the upper outer quadrant of the right gluteal region. The swelling developed approximately 3 days after receiving an intramuscular injection (suspected Diclofenac) at a local pharmacy for lower back pain.
+
+The swelling has progressively increased in size and has become increasingly painful, making it difficult for her to sit or lie on the affected side. The pain is throbbing, constant and non-radiating.
+
+Three days prior to presentation, she developed a high-grade intermittent fever associated with chills and rigors.
+
+There is no history of similar swellings elsewhere on the body.
+
+No history of trauma to the affected site.
+
+No history of chronic cough, night sweats or significant weight loss.
+
+No history of excessive thirst or frequent urination.
+
+ROS:
+
+Central Nervous System:
+No headache.
+No seizures.
+
+Respiratory:
+No cough.
+No chest pain.
+
+Cardiovascular:
+No palpitations.
+No orthopnoea.
+
+Gastrointestinal:
+No abdominal pain.
+No diarrhoea.
+
+Musculoskeletal:
+No joint pains.
+
+PMH:
+Not a known hypertensive.
+Not diabetic.
+No history of sickle cell disease.
+No previous surgeries or hospital admissions.
+
+Drug History:
+Oral Ibuprofen and Paracetamol taken with minimal relief.
+No known drug allergies.
+
+Family/Social History:
+Second of four children in a monogamous family.
+Does not smoke.
+Does not consume alcohol.
+Lives in a well-ventilated room-and-parlour apartment with access to borehole water and a water-closet sanitation system.
+
+O/E:
+Young woman in painful distress.
+Febrile (38.4°C).
+Not pale.
+Not jaundiced.
+Not dehydrated.
+No significant peripheral lymphadenopathy.
+No pedal oedema.
+
+Vital Signs:
+Pulse Rate: 106 bpm, regular, full volume.
+BP: 110/70 mmHg.
+Respiratory Rate: 22 cpm.
+SpO₂: 98% on room air.
+
+Local Examination (Right Gluteal Region):
+
+Inspection:
+Localized swelling measuring approximately 6 × 4 cm over the upper outer quadrant of the right buttock.
+Overlying skin is erythematous and tense.
+No obvious sinus or spontaneous discharge.
+
+Palpation:
+Marked tenderness.
+Local warmth present.
+Fluctuant swelling with a positive setting sun sign.
+No regional (inguinal) lymphadenopathy.
+
+Systemic Examination:
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+Respiratory:
+Trachea central.
+Vesicular breath sounds.
+
+Cardiovascular:
+Heart sounds S1 and S2 only.
+No murmurs.
+
+Neurological:
+Conscious and oriented.
+No focal neurological deficits.
+
+ASSESSMENT:
+Injection site abscess involving the right gluteal region.
+
+Differential Diagnoses:
+Gluteal cellulitis.
+Pyomyositis.
+Infected haematoma.
+Carbuncle.
+
+PLAN:
+
+Investigations:
+Full Blood Count.
+Fasting Blood Glucose.
+Retroviral screening (with informed consent).
+Pus for microscopy, culture and sensitivity during drainage.
+
+Management:
+
+Admission:
+Admit under the General Surgery Unit.
+
+Supportive Care:
+Keep patient comfortable.
+Elevate the affected part where feasible.
+Apply warm compresses prior to drainage if appropriate.
+
+Analgesia:
+Pentazocine 30 mg IV stat.
+Then Tramadol 50 mg PO every 8 hours as required.
+
+Antibiotics:
+Ceftriaxone 1 g IV every 12 hours.
+Metronidazole 500 mg IV every 8 hours.
+Review antibiotics based on culture and sensitivity results and clinical response.
+
+Surgical Management:
+Incision and drainage under local anaesthesia or ketamine sedation.
+Evacuate all pus.
+Break down loculations.
+Copiously irrigate the cavity with normal saline.
+Loosely pack the cavity with sterile gauze.
+
+Wound Care:
+Daily wound dressing using aseptic technique.
+Regular wound assessment until healthy granulation tissue develops.
+
+Nursing Instructions:
+Monitor pulse, blood pressure and temperature every 4 hours.
+Monitor wound drainage and surrounding skin for signs of worsening infection.
+Maintain strict aseptic dressing technique.
+Encourage adequate oral hydration and nutrition.
+
+Health Education:
+Explain that an injection site abscess is a localized bacterial infection that may occur following intramuscular injections, particularly if aseptic technique is inadequate or bacteria are introduced into the tissues.
+
+Advise the patient to complete the prescribed course of antibiotics, attend all dressing appointments and avoid receiving injections from unlicensed providers. Emphasize the importance of ensuring injections are administered using sterile techniques by trained healthcare personnel.
+
+Advise immediate return to the hospital if she develops increasing pain, persistent fever, spreading redness, excessive wound discharge or recurrence of the swelling.
+
+Follow-up:
+Daily surgical review while admitted.
+Review microscopy, culture and sensitivity results to tailor antibiotic therapy.
+Continue wound care until satisfactory healing is achieved.
+Follow-up in the Surgical Outpatient Clinic after discharge.
+
+Prognosis:
+Good with prompt incision and drainage, appropriate antibiotic therapy and regular wound care. Delayed treatment or poor wound care may lead to recurrent infection, cellulitis or deeper soft tissue involvement.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-32',
+  title: 'Ruptured Gluteal Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Gluteal Abscess',
+  symptoms: [
+    'Painful gluteal swelling',
+    'Purulent discharge',
+    'Fever',
+    'Difficulty sitting',
+    'Tender buttock swelling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-03',
+  summary: 'A 26-year-old male commercial driver presented with a 5-day history of a painful left gluteal swelling that ruptured spontaneously with purulent discharge, consistent with a ruptured gluteal abscess.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 26-year-old male commercial driver residing in Mushin, Lagos State. He is of the Yoruba ethnic group.
+
+CC:
+Painful swelling in the left buttock × 5 days.
+Discharge of pus and blood from the swelling × 1 day.
+Fever × 3 days.
+
+HPC:
+The patient was apparently well until about 5 days prior to presentation when he noticed a small painful swelling over the left buttock. The swelling rapidly increased in size and became progressively more painful. The pain was throbbing in nature and severe enough to make sitting and walking difficult.
+
+Three days prior to presentation, he developed a high-grade fever associated with chills and rigors but no headache or joint pains.
+
+One day prior to presentation, the swelling ruptured spontaneously, discharging a large quantity of foul-smelling creamy pus mixed with blood. Although the pain reduced slightly following rupture, the wound has remained tender with persistent purulent discharge.
+
+There is no history of preceding trauma to the buttock or recent intramuscular injections.
+
+No history of chronic cough, night sweats or significant weight loss.
+
+No previous history of similar swellings.
+
+ROS:
+
+Respiratory:
+No cough.
+No chest pain.
+
+Cardiovascular:
+No palpitations.
+No pedal oedema.
+
+Gastrointestinal:
+No abdominal pain.
+No change in bowel habits.
+
+Central Nervous System:
+No headache.
+No seizures.
+
+Musculoskeletal:
+No joint swelling.
+
+PMH:
+Not a known hypertensive.
+Not diabetic.
+No known retroviral disease.
+No sickle cell disease.
+No previous surgeries or hospital admissions.
+
+Drug History:
+Used over-the-counter Paracetamol.
+Applied local herbal balm without significant improvement.
+No known drug allergies.
+
+Family/Social History:
+Lives in a room-and-parlour apartment with four relatives.
+Non-smoker.
+Occasional alcohol consumption.
+
+O/E:
+Young man in painful distress.
+Febrile (38.5°C).
+Not pale.
+Not jaundiced.
+Not dehydrated.
+No significant peripheral lymphadenopathy.
+
+Vital Signs:
+Pulse Rate: 102 bpm, regular, full volume.
+BP: 110/70 mmHg.
+Respiratory Rate: 22 cpm.
+SpO₂: 98% on room air.
+
+Local Examination (Left Gluteal Region):
+
+Inspection:
+Oval swelling measuring approximately 6 × 4 cm over the upper outer quadrant of the left buttock.
+Overlying skin is erythematous and shiny.
+A central 1 cm skin defect is present with foul-smelling purulent blood-stained discharge.
+
+Palpation:
+Marked local warmth.
+Exquisite tenderness.
+Fluctuant swelling with surrounding induration.
+No cough impulse.
+
+Regional Lymph Nodes:
+Left inguinal lymph nodes enlarged and tender.
+
+Systemic Examination:
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+Respiratory:
+Chest clinically clear.
+Vesicular breath sounds.
+
+Cardiovascular:
+Heart sounds S1 and S2 only.
+No murmurs.
+
+ASSESSMENT:
+Ruptured left gluteal abscess.
+
+Differential Diagnoses:
+Infected sebaceous cyst.
+Carbuncle.
+Pyomyositis.
+Injection abscess.
+
+PLAN:
+
+Investigations:
+Full Blood Count.
+Fasting Blood Glucose.
+Pus microscopy, culture and sensitivity.
+HIV screening.
+
+Management:
+
+Admission under the General Surgery Unit.
+
+Wound Care:
+Wound debridement and thorough irrigation using normal saline.
+Remove all necrotic tissue.
+Daily wound dressing with Eusol or honey-based dressing according to wound appearance.
+
+Surgical Management:
+Formal incision and drainage under local or spinal anaesthesia if residual loculated pus collection is present.
+
+Antibiotics:
+IV Ceftriaxone 1 g every 12 hours.
+IV Metronidazole 500 mg every 8 hours.
+Review antibiotics according to culture and sensitivity results and convert to oral therapy when clinically appropriate.
+
+Analgesia:
+Diclofenac 75 mg IM stat (if no contraindication).
+Thereafter:
+Ibuprofen orally as tolerated or
+Paracetamol with Codeine as appropriate.
+
+Tetanus Prophylaxis:
+Tetanus toxoid 0.5 mL IM if immunization status is uncertain.
+Administer tetanus immunoglobulin if indicated for incomplete immunization and high-risk wound.
+
+Nursing Instructions:
+Monitor temperature and vital signs every 6 hours.
+Monitor wound discharge and surrounding cellulitis.
+Maintain daily wound dressing using aseptic technique.
+Encourage adequate oral hydration.
+Observe for signs of spreading infection or sepsis.
+
+Health Education:
+Explain that a gluteal abscess is a localized bacterial infection resulting in pus collection beneath the skin. Spontaneous rupture does not eliminate the infection, and proper drainage, wound care and antibiotics are required for complete healing.
+
+Advise the patient to maintain good personal hygiene, avoid applying herbal preparations or other non-sterile substances to wounds, complete the prescribed course of antibiotics and attend all follow-up appointments.
+
+Counsel him to seek immediate medical attention if he develops persistent fever, increasing pain, expanding redness, persistent discharge or recurrence of the swelling.
+
+Follow-up:
+Daily surgical wound review while admitted.
+Review culture and sensitivity results to tailor antibiotic therapy.
+Continue wound care until healthy granulation tissue develops.
+Follow-up in the Surgical Outpatient Clinic after discharge.
+
+Prognosis:
+Good with adequate drainage, appropriate antibiotic therapy and regular wound care. Delayed treatment or poor compliance may result in recurrent abscess formation, cellulitis or systemic infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'surg-31',
   title: 'Acute Epididymo-Orchitis',
   specialty: 'Surgery',
@@ -39691,11 +42542,11 @@ He reports unprotected sexual intercourse with a new sexual partner approximatel
 
 There is no history of sudden onset of severe testicular pain.
 
-There is no history of recent scrotal trauma.
+No history of recent scrotal trauma.
 
-There is no history of previous testicular torsion.
+No history of previous testicular torsion.
 
-There is no history of recent urinary catheterization or urological instrumentation.
+No history of recent urinary catheterization or urological instrumentation.
 
 He denies nausea or vomiting.
 
@@ -40113,15 +42964,15 @@ He reports that the left testicle appears to be sitting higher than usual and th
 
 There is no history of recent trauma.
 
-There is no history of dysuria.
+No history of dysuria.
 
-There is no urethral discharge.
+No urethral discharge.
 
-There is no urinary frequency or urgency.
+No urinary frequency or urgency.
 
-There is no history of fever or chills.
+No history of fever or chills.
 
-There is no previous similar episode.
+No previous similar episode.
 
 He denies recent sexual intercourse or sexually transmitted infection symptoms.
 
@@ -40516,9 +43367,9 @@ He has not noticed any change in colour of the skin over the groin swelling.
 
 There is no severe, constant or progressively worsening pain.
 
-There is no history of bloody stool.
+No history of bloody stool.
 
-There is no history of previous abdominal surgery.
+No history of previous abdominal surgery.
 
 He has no known history of colorectal disease.
 
@@ -40640,8 +43491,8 @@ The swelling is firm and mildly tender.
 It is irreducible.
 There is no cough impulse.
 The overlying skin is normal in colour with no erythema, ulceration or dusky discoloration.
-There is no marked local warmth.
-There is no crepitus.
+No marked local warmth.
+No crepitus.
 The swelling is not exquisitely tender.
 The right testis is palpable separately and is normal.
 
@@ -41520,8 +44371,8 @@ He has been unable to pass stool or flatus since the onset of the abdominal symp
 He reports fever and generalized weakness.
 
 There is no history of recent abdominal trauma.
-There is no history of previous abdominal surgery.
-There is no history of similar acute episodes in the past.
+No history of previous abdominal surgery.
+No history of similar acute episodes in the past.
 
 REVIEW OF SYSTEMS
 
@@ -42006,7 +44857,7 @@ Not yet available
 
 Patient Seen
 
-A 58-year-old married male commercial driver from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient and wife (Reliable).
+A 58-year-old married male commercial driver from Lagos, Lagos State, Christian, Yoruba. Informant: Patient and wife (Reliable).
 
 CHIEF COMPLAINT
 
@@ -42027,8 +44878,8 @@ He has also noticed progressive abdominal distension.
 He last passed stool approximately 10 hours prior to presentation and last passed flatus approximately 8 hours prior to presentation.
 
 There is no history of fever.
-There is no overlying skin discoloration of the groin swelling.
-There is no history of trauma.
+No overlying skin discoloration of the groin swelling.
+No history of trauma.
 He has not had previous hernia repair.
 
 The patient reports that he has had a left groin swelling for approximately three years. It was initially small and would reduce spontaneously whenever he lay down. He had been advised to undergo elective surgical repair but did not attend the scheduled appointment.
@@ -42444,7 +45295,7 @@ Not yet available
 
 Patient Seen
 
-A 61-year-old married male retired civil servant from Lagos, Lagos State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+A 61-year-old married male retired civil servant from Lagos, Lagos State, Christian, Yoruba. Informant: Patient (Reliable).
 
 CHIEF COMPLAINT
 
@@ -42465,15 +45316,15 @@ He experiences occasional dull aching discomfort in the left groin, particularly
 He has a history of chronic constipation and frequently strains during bowel movements. He also reports occasional difficulty initiating urination and a weak urinary stream for approximately one year.
 
 There is no sudden severe pain.
-There is no recent rapid increase in the size of the swelling.
-There is no history of irreducibility.
-There is no abdominal distension.
-There is no vomiting.
-There is no constipation or obstipation beyond his usual chronic constipation.
+No recent rapid increase in the size of the swelling.
+No history of irreducibility.
+No abdominal distension.
+No vomiting.
+No constipation or obstipation beyond his usual chronic constipation.
 He continues to pass stool and flatus normally.
 There is no fever.
-There is no overlying skin discoloration.
-There is no history of previous inguinal hernia repair.
+No overlying skin discoloration.
+No history of previous inguinal hernia repair.
 
 REVIEW OF SYSTEMS
 
@@ -42851,7 +45702,7 @@ Not yet available
 
 Patient Seen
 
-A 52-year-old married male building contractor from Abeokuta, Ogun State, Christian, Yoruba, with HLE: Not stated. Informant: Patient (Reliable).
+A 52-year-old married male building contractor from Abeokuta, Ogun State, Christian, Yoruba. Informant: Patient (Reliable).
 
 CHIEF COMPLAINT
 
@@ -42867,15 +45718,15 @@ The swelling becomes more prominent when standing, coughing, sneezing or lifting
 He reports occasional dull aching discomfort over the right groin, particularly after prolonged standing or heavy physical activity. The discomfort is not severe and does not significantly limit his daily activities.
 
 There is no sudden increase in the size of the swelling.
-There is no severe or persistent groin pain.
-There is no redness or discoloration over the swelling.
-There is no history of irreducibility.
-There is no abdominal distension.
-There is no vomiting.
-There is no constipation or obstipation.
+No severe or persistent groin pain.
+No redness or discoloration over the swelling.
+No history of irreducibility.
+No abdominal distension.
+No vomiting.
+No constipation or obstipation.
 He is passing stool and flatus normally.
-There is no fever.
-There is no urinary retention or difficulty passing urine.
+No fever.
+No urinary retention or difficulty passing urine.
 
 He has no history of previous groin surgery or hernia repair.
 
@@ -45099,7 +47950,7 @@ He reports nocturia occurring three to four times nightly.
 
 There is associated painful ejaculation over the past two days.
 
-There is no urethral discharge.
+No urethral discharge.
 
 No visible haematuria.
 
@@ -45514,13 +48365,13 @@ Four months prior to presentation, he developed dull aching pain over the lower 
 
 The pain now limits mobility.
 
-There is no history of trauma.
+No history of trauma.
 
 Three months prior to presentation, he noticed progressive unintentional weight loss despite no dietary changes. This is associated with poor appetite and generalized weakness.
 
 He reports occasional painless terminal haematuria over the past one month.
 
-There is no dysuria.
+No dysuria.
 
 No urethral discharge.
 
@@ -45969,7 +48820,7 @@ For the past six months, he wakes 4–5 times nightly to pass urine, significant
 
 He occasionally experiences mild suprapubic discomfort when the bladder is full.
 
-There is no dysuria.
+No dysuria.
 
 No haematuria.
 
@@ -46386,7 +49237,7 @@ He has a long-standing history of constipation, passing hard stools every 2–3 
 
 He spends prolonged periods sitting on the toilet while using his mobile phone.
 
-There is no severe anal pain.
+No severe anal pain.
 
 No purulent discharge.
 No faecal incontinence.
@@ -47088,19 +49939,19 @@ Approximately 2 hours after the onset of pain, he developed repeated episodes of
 
 He also complains of abdominal bloating and generalized weakness.
 
-There is no history of haematemesis.
+No history of haematemesis.
 
-There is no diarrhoea.
+No diarrhoea.
 
-There is no constipation.
+No constipation.
 
-There is no passage of black stools.
+No passage of black stools.
 
-There is no jaundice.
+No jaundice.
 
 He admits to regular alcohol consumption of approximately 8–10 bottles of beer weekly with occasional binge drinking. He denies previous episodes of pancreatitis but reports intermittent dyspepsia after heavy alcohol intake.
 
-There is no history of gallstones, recent abdominal trauma, hyperlipidaemia or recent endoscopic procedures.
+No history of gallstones, recent abdominal trauma, hyperlipidaemia or recent endoscopic procedures.
 
 Review of Systems:
 
@@ -47393,9 +50244,9 @@ There is no passage of dark urine.
 
 There are no pale stools.
 
-There is no generalized abdominal pain.
+No generalized abdominal pain.
 
-There is no abdominal distension.
+No abdominal distension.
 
 She has no history of peptic ulcer disease or previous abdominal surgery.
 
@@ -47680,7 +50531,7 @@ He has been unable to tolerate oral intake.
 
 He complains of generalized weakness and dizziness.
 
-There is no diarrhoea.
+No diarrhoea.
 
 He reports passing a normal stool the previous day but has not passed stool or flatus since the onset of pain.
 
@@ -48320,15 +51171,15 @@ There was no audible "pop" at the time of injury.
 
 There is no locking of the knee.
 
-There is no numbness or tingling of the foot.
+No numbness or tingling of the foot.
 
-There is no open wound or bleeding.
+No open wound or bleeding.
 
-There is no associated hip or ankle pain.
+No associated hip or ankle pain.
 
 He applied ice to the knee shortly after the injury and took Tab Paracetamol 1 g with minimal relief.
 
-There is no previous history of significant knee injury or knee surgery.
+No previous history of significant knee injury or knee surgery.
 
 ROS:
 
@@ -48582,13 +51433,13 @@ Over the past eight months, she has noticed progressive difficulty walking long 
 
 There is no preceding history of trauma.
 
-There is no locking or giving way of the knee.
+No locking or giving way of the knee.
 
-There is no redness or warmth over the joint.
+No redness or warmth over the joint.
 
-There is no fever.
+No fever.
 
-There is no involvement of other joints.
+No involvement of other joints.
 
 There are no features suggestive of inflammatory arthritis such as prolonged morning stiffness, symmetrical small joint involvement or skin rash.
 
@@ -48864,15 +51715,15 @@ She experiences associated nausea during the painful episodes with occasional no
 
 She has noticed progressive intolerance to fatty foods because they consistently trigger her symptoms.
 
-There is no history of fever.
+No history of fever.
 There are no chills or rigors.
-There is no jaundice.
-There is no passage of dark urine.
-There is no passage of pale stool.
-There is no generalized pruritus.
-There is no abdominal distension.
-There is no haematemesis.
-There is no melaena.
+No jaundice.
+No passage of dark urine.
+No passage of pale stool.
+No generalized pruritus.
+No abdominal distension.
+No haematemesis.
+No melaena.
 
 She reports that the frequency of attacks has increased over the past two months, occurring approximately once every week.
 
@@ -49136,13 +51987,13 @@ She sustained a laceration over the right forehead and bruising involving the ri
 Immediately after the accident, she experienced a mild headache but did not lose consciousness. She remembers the entire event and was able to stand with assistance. There was no witnessed seizure activity.
 
 There is no history of vomiting.
-There is no bleeding from the ears or nose.
-There is no clear fluid discharge from the ears or nose.
-There is no visual loss or diplopia.
-There is no weakness or numbness of any limb.
-There is no neck pain or back pain.
-There is no chest pain or difficulty breathing.
-There is no abdominal pain.
+No bleeding from the ears or nose.
+No clear fluid discharge from the ears or nose.
+No visual loss or diplopia.
+No weakness or numbness of any limb.
+No neck pain or back pain.
+No chest pain or difficulty breathing.
+No abdominal pain.
 
 She was brought directly to the hospital without receiving any medications.
 

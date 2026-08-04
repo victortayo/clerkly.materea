@@ -60,12 +60,6 @@ function TemplateRow({
         </span>
       </td>
       <td className="px-6 py-4 hidden sm:table-cell">
-        <div className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
-          <i className="fa-solid fa-bookmark text-xs opacity-70"></i>
-          <span className="text-xs font-medium">{template.bookmarkCount || 0}</span>
-        </div>
-      </td>
-      <td className="px-6 py-4 hidden sm:table-cell">
         <span className="text-xs text-slate-500 dark:text-slate-400 font-mono">
           {template.lastModified}
         </span>
@@ -118,7 +112,6 @@ export function TemplateListView({
             <tr className="bg-slate-50 dark:bg-slate-900 border-b border-slate-100 dark:border-slate-700 text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">
               <th className="px-6 py-4">Condition Name</th>
               <th className="px-6 py-4">Specialty</th>
-              <th className="px-6 py-4 hidden sm:table-cell">Rating</th>
               <th className="px-6 py-4 hidden sm:table-cell">Last Update</th>
               <th className="px-6 py-4 text-right">Actions</th>
             </tr>

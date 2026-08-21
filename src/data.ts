@@ -2479,6 +2479,3113 @@ Not yet available
 
   // Pediatrics
   {
+    id: 'peds-52',
+    title: 'Acute Hemolytic Crisis in G6PD Deficiency',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Paediatric Clinic',
+    condition: 'G6PD Deficiency with Acute Intravascular Hemolysis',
+    symptoms: [
+      'Yellowish discoloration of the eyes',
+      'Dark-colored urine',
+      'Fever',
+      'Generalized body weakness',
+      'Lethargy',
+      'Loss of appetite'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-20',
+    summary: '4-year-old Yoruba male from Ogbomoso presenting with acute intravascular hemolysis characterized by fever, jaundice, dark-colored urine, pallor and lethargy following exposure to naphthalene balls and Co-trimoxazole, consistent with G6PD deficiency-related hemolytic crisis.',
+    content: `GENERAL PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 4-year-old Yoruba male residing in Ogbomoso, Oyo State. Informant is the mother, a trader, who is reliable.
+  
+  PC:
+  Yellowish discoloration of the eyes × 2 days.
+  Dark-colored urine × 2 days.
+  Fever × 3 days.
+  
+  HPC:
+  The patient presented on account of a 3-day history of fever, which was high-grade, intermittent and temporarily relieved by paracetamol.
+  
+  Two days prior to presentation, the mother noticed progressive yellowish discoloration of the patient's eyes (scleral icterus) and passage of dark, tea-colored urine.
+  
+  There was associated progressive body weakness, lethargy and loss of appetite.
+  
+  Further inquiry revealed that 4 days prior to presentation, the mother had packed the patient's clothes with naphthalene balls ("camphor") from the wardrobe. She also administered over-the-counter Co-trimoxazole (Septrin) syrup for the fever.
+  
+  There is no history of vomiting, abdominal swelling, bleeding from any bodily orifices, joint pain or convulsions.
+  
+  No history of recent blood transfusion.
+  
+  PMHx:
+  No previous history of jaundice or dark urine.
+  Genotype: AA, documented at birth.
+  Immunization history is up to date for age according to the National Programme on Immunization (NPI) schedule.
+  No known chronic medical conditions.
+  No prior hospital admissions.
+  
+  DHx:
+  OTC Co-trimoxazole (Septrin) syrup × 2 days prior to presentation.
+  Paracetamol syrup × 3 days.
+  Exposure to naphthalene balls ("camphor") in stored clothing.
+  No history of herbal concoction ("agbo") ingestion.
+  
+  FHx:
+  First child in a monogamous family of two children.
+  Parents are traders.
+  Low-to-middle socioeconomic status.
+  No family history of recurrent childhood jaundice, anemia or bleeding disorders.
+  
+  ROS:
+  
+  CNS:
+  Lethargic.
+  No convulsions.
+  No neck stiffness.
+  
+  CVS:
+  Tachycardia.
+  No history of orthopnoea or easy fatigability prior to this illness.
+  
+  RS:
+  Mild tachypnoea.
+  No cough.
+  No chest indrawing.
+  
+  GIT:
+  Mild abdominal pain.
+  No vomiting.
+  Normal stool colour and consistency.
+  
+  MSS:
+  No bone pain.
+  No joint swelling.
+  
+  O/E:
+  
+  Acutely ill-looking, lethargic, moderately pale, deeply icteric, acyanotic and clinically hydrated.
+  No pedal edema.
+  No peripheral lymphadenopathy.
+  
+  Vital Signs:
+  T: 38.1°C
+  PR: 136 bpm, tachycardic, regular, full volume
+  RR: 36 cpm, mild tachypnoea, no respiratory distress
+  SpO₂: 97% in room air
+  
+  CVS:
+  S1 and S2 heard.
+  No murmurs.
+  Capillary refill time < 2 seconds.
+  
+  RS:
+  Trachea central.
+  Chest clear.
+  Vesicular breath sounds bilaterally.
+  
+  ABD:
+  Flat and soft.
+  Mild generalized tenderness.
+  Liver palpable 2 cm below the right costal margin, smooth and non-tender.
+  Spleen palpable 3 cm below the left costal margin.
+  No ascites.
+  
+  CNS:
+  Conscious but lethargic.
+  No neck stiffness.
+  Kernig's sign negative.
+  Pupils 2 mm, equal and reactive bilaterally.
+  Normal muscle tone in all limbs.
+  
+  ASS:
+  Acute intravascular hemolysis secondary to Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency, triggered by oxidative stress from naphthalene ball exposure and Co-trimoxazole ingestion.
+  
+  DIFFERENTIALS:
+  1. Severe malaria with hemoglobinuria (Blackwater fever).
+  2. Autoimmune hemolytic anemia (AIHA).
+  3. Sickle cell hemolytic crisis, less likely with AA genotype but requiring re-verification.
+  
+  INVESTIGATIONS:
+  
+  Haematology:
+  Full Blood Count (FBC) and blood film to assess Packed Cell Volume (PCV) and look for Heinz bodies, bite cells and polychromasia.
+  
+  Urinalysis:
+  To confirm hemoglobinuria, typically showing positive blood/heme with no or few red blood cells on microscopy.
+  
+  Malaria:
+  Malaria parasite smear using thick and thin films to rule out malaria co-infection or malaria-induced hemolysis.
+  
+  Serum Bilirubin:
+  Total and conjugated bilirubin to assess the pattern of hyperbilirubinemia, with expected elevation of unconjugated bilirubin.
+  
+  Renal Function:
+  Serum electrolytes, urea and creatinine to monitor renal function and assess for acute kidney injury secondary to hemoglobinuria.
+  
+  G6PD Assay:
+  G6PD screening/assay to confirm deficiency.
+  G6PD levels may be falsely normal during an acute hemolytic episode because older deficient cells have lysed and circulating reticulocytes may have higher enzyme activity.
+  Plan to repeat testing in 8–12 weeks.
+  
+  PLAN:
+  
+  1. STABILIZATION & SUPPORTIVE CARE
+  
+  Admission:
+  Admit to the paediatric ward for close monitoring.
+  
+  Hydration:
+  Commence IV fluids (0.45% Saline in 5% Dextrose) at maintenance rate to maintain high urine output and prevent renal tubular blockage by free haemoglobin.
+  Target urine output > 1.5 mL/kg/hour.
+  
+  Transfusion:
+  Monitor PCV closely.
+  If PCV drops below 18% or there are signs of cardiovascular decompensation, including worsening tachycardia, tachypnoea or gallop rhythm, transfuse with 10 mL/kg of fresh packed red blood cells (G6PD-normal) slowly over 4 hours.
+  
+  2. MEDICATION OPTIONS & SAFETY GUIDELINES
+  
+  Antipyretics:
+  Paracetamol 15 mg/kg/dose 6–8 hourly for fever.
+  Strictly avoid Aspirin and NSAIDs.
+  
+  Antimalarials:
+  If malaria parasite test is positive, Artemether-Lumefantrine (ACT) is safe.
+  Strictly avoid Primaquine.
+  
+  Antibiotics:
+  If bacterial infection is suspected, Amoxicillin or Ceftriaxone are safe.
+  Strictly avoid Sulfonamides such as Co-trimoxazole (Septrin) and Nitrofurantoin.
+  
+  Acid-Base Balance:
+  If severe acidosis or severe hemoglobinuria occurs, consider oral or IV Sodium Bicarbonate to alkalinize urine and prevent acid hematin precipitation in the renal tubules.
+  
+  3. MONITORING & DISCHARGE PLANNING
+  
+  Monitor vital signs, urine colour and urine output hourly.
+  
+  Check PCV 12-hourly during the acute phase.
+  
+  PARENTAL COUNSELING:
+  
+  Educate parents on G6PD deficiency as an inherited enzyme variation.
+  
+  Provide a written list of prohibited drugs, including sulfonamides, nitrofurantoin, ciprofloxacin and primaquine.
+  
+  Advise avoidance of household chemicals and substances including naphthalene/camphor balls and fava beans.
+  
+  Advise parents to always inform healthcare providers of the child's G6PD status before any prescription.
+  
+  FOLLOW-UP:
+  
+  Continue close monitoring until hemolysis resolves and the child is clinically stable.
+  
+  Repeat G6PD assay in 8–12 weeks following recovery for more reliable assessment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+{
+  id: 'peds-51',
+  title: 'Acute Severe Asthma Exacerbation',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Asthma Clinic',
+  condition: 'Acute Severe Asthma Exacerbation',
+  symptoms: ['Breathlessness', 'Cough', 'Audible wheezing', 'Chest tightness', 'Respiratory distress'],
+  contributor: 'Admin',
+  lastModified: '2026-08-19',
+  summary: '7-year-old boy with known bronchial asthma presenting with acute severe exacerbation characterized by worsening breathlessness, nocturnal cough, wheezing, chest tightness and significant respiratory distress with SpO₂ of 91% on room air.',
+  content: `ASTHMA CLINIC
+
+Patient Seen
+
+A 7-year-old male from Challenge, Ibadan, Oyo State, Yoruba, first of two children, with mother as informant, reliable, presenting with acute respiratory symptoms.
+
+PC:
+
+Breathlessness × 1/7
+Cough × 3/7
+Audible wheezing × 1/7
+
+HPC:
+
+Patient is a known asthmatic child who was apparently well until yesterday when he developed sudden-onset breathlessness which progressively worsened and is currently worse at night and in the early hours of the morning. Symptoms are aggravated by physical activity and exposure to cold/dusty weather, particularly harmattan dust.
+
+There is associated dry, hacking cough which is worse at night, audible wheezing and chest tightness.
+
+No history of fever, rhinorrhea, sore throat or contact with individuals having similar symptoms. No history of foreign body aspiration, choking episodes or bluish discoloration of the lips or fingers.
+
+PTP:
+
+Mother administered 2 puffs of Salbutamol inhaler 100 mcg/puff via spacer approximately 2 hours prior to presentation with minimal relief.
+
+Asthma History:
+
+Diagnosed with bronchial asthma at age 4. Has had 2 hospitalizations in the past year, with the last hospitalization 6 months ago. No history of ICU admission or mechanical ventilation.
+
+Currently managed with PRN Salbutamol inhaler and is not on daily controller therapy such as inhaled corticosteroids.
+
+PMHx:
+
+Known asthmatic.
+History of atopy including allergic rhinitis and infantile eczema.
+No other chronic medical illnesses.
+No prior surgeries or blood transfusions.
+Genotype: AA.
+Immunization history completed up to date according to the NPI schedule.
+
+Drug History:
+
+Salbutamol inhaler 100 mcg/puff PRN.
+No current use of inhaled corticosteroids or leukotriene receptor antagonists.
+No history of herbal mixtures or native concoctions.
+No known drug allergies.
+
+Family and Social History:
+
+First of two children in a monogamous family setting.
+Mother has a history of bronchial asthma.
+They reside in a 2-bedroom flat with good ventilation.
+No indoor pets.
+Cooking is done with cooking gas (LPG).
+No history of exposure to secondhand cigarette smoke.
+
+ROS:
+
+General: No fever, night sweats or weight loss.
+RS: As in HPC.
+CVS: No orthopnoea or history of cyanosis.
+GIT: No vomiting or abdominal pain. Normal bowel habits.
+CNS: Alert. No convulsions or altered consciousness.
+
+O/E:
+
+Acutely ill-looking child in obvious respiratory distress with nasal flaring, intercostal and subcostal recessions and accessory muscle use. Conscious, alert and cooperative but speaks in broken phrases. Not pale, anicteric, acyanosed, hydrated, no peripheral oedema. No digital clubbing or significant peripheral lymphadenopathy.
+
+Vital Signs:
+
+Temp: 36.7°C
+PR: 128 bpm, regular, moderate volume
+RR: 38 cpm
+SpO₂: 91% RA
+
+RS:
+
+Inspection: Symmetrical chest wall movement. Marked intercostal, subcostal and suprasternal recessions. Trachea central.
+Palpation: Symmetrical chest expansion. Tactile fremitus normal bilaterally.
+Percussion: Hyperresonant percussion notes bilaterally.
+Auscultation: Bilateral widespread expiratory rhonchi/wheezes with prolonged expiratory phase and reduced air entry bilaterally.
+
+CVS:
+
+S1 and S2 heard.
+No murmurs.
+Apex beat at the 5th left intercostal space, midclavicular line.
+
+ABD:
+
+Flat, moves with respiration.
+Soft, non-tender.
+No hepatosplenomegaly.
+Bowel sounds present and normal.
+
+CNS:
+
+GCS 15/15.
+Pupils equal and reactive to light.
+No signs of meningeal irritation.
+
+ASS:
+
+1. Acute severe asthma exacerbation in a known asthmatic child.
+2. Acute bronchiolitis, less likely given age.
+3. Foreign body aspiration, less likely in the absence of choking history.
+4. Pneumonia, less likely in the absence of fever but may trigger or mimic bronchospasm.
+
+INVESTIGATIONS:
+
+- Continuous pulse oximetry.
+- PEFR when clinically stable and cooperative, for baseline comparison.
+- FBC to assess for possible infection and eosinophilia.
+- Chest X-ray AP and lateral views if poor response to initial therapy or if complications such as pneumothorax, lobar collapse or focal pneumonia are suspected.
+
+PLAN:
+
+- Keep child in a comfortable upright sitting position.
+- Administer humidified oxygen via nasal cannulae or face mask at 2–4 L/min to maintain SpO₂ between 94–98%.
+- Give Salbutamol 2.5 mg nebulized with oxygen every 20 minutes for the first hour.
+- If nebulizer is unavailable, give Salbutamol MDI 6 puffs via spacer with face mask, repeated every 20 minutes for up to 1 hour.
+- Add Ipratropium bromide 250 micrograms to nebulized Salbutamol for the first hour.
+- Give IV Hydrocortisone 4 mg/kg (approximately 100 mg) stat.
+- Alternatively, give oral Prednisolone 1 mg/kg (approximately 25 mg) if the child is not vomiting and can tolerate oral medication.
+- Reassess every 15–30 minutes.
+- Monitor respiratory rate, work of breathing, heart rate, SpO₂, air entry and intensity of wheezing.
+- If there is no significant clinical improvement after 1 hour of intensive bronchodilator therapy or SpO₂ remains <92% despite oxygen therapy, give IV Magnesium Sulfate 40 mg/kg (maximum 2 g) infused slowly over 20 minutes under continuous cardiac monitoring.
+- Initiate urgent referral to a tertiary healthcare facility, such as University College Hospital, Ibadan, for PICU support if inadequate response to initial therapy.
+- Ensure patient is stabilized on continuous oxygen and accompanied by a medical officer with emergency airway equipment during transfer.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'peds-50',
+  title: 'Bronchial Asthma with Mild Acute Exacerbation',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Asthma Clinic',
+  condition: 'Bronchial Asthma',
+  symptoms: ['Mild breathlessness', 'Wheezing', 'Chest tightness', 'Nocturnal symptoms', 'Dust-triggered symptoms'],
+  contributor: 'Admin',
+  lastModified: '2026-08-19',
+  summary: '8-year-old boy with known bronchial asthma on regular follow-up, presenting with a 2-day history of mild intermittent breathlessness, wheezing and chest tightness triggered by dust, with clinical features of a mild acute exacerbation.',
+  content: `ASTHMA CLINIC FOLLOW-UP
+
+Patient Seen
+
+An 8-year-old male, known asthmatic patient on regular follow-up, presenting with fresh complaint of mild breathlessness.
+
+C/O:
+
+Mild breathlessness × 2 days.
+
+HPC:
+
+Patient was apparently stable until 2 days prior to presentation when he developed mild intermittent difficulty in breathing, associated with occasional wheezing and chest tightness. Symptoms are worse at night and following exposure to dust. Symptoms improve temporarily with use of his Salbutamol inhaler.
+
+No history of fever, productive cough, chest pain, haemoptysis, vomiting, reduced oral intake or lethargy. No history of severe breathlessness, inability to speak, cyanosis, previous intubation or recent hospital admission. No recent nebulization. Mother reports good compliance with his controller inhaler.
+
+O/E:
+
+Young boy, conscious and alert, mildly dyspnoeic but able to speak in full sentences, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated.
+
+Wt: 25 kg
+
+PR: 96 bpm, regular, full volume
+BP: 104/66 mmHg
+RR: 26 cpm
+Temp: 36.8°C
+SpO₂: 96% RA
+
+CVS:
+
+PR as above.
+Heart sounds S1 and S2 only.
+No murmurs.
+
+CHEST:
+
+Mildly reduced air entry bilaterally.
+Bilateral expiratory polyphonic wheezes.
+No crepitations.
+
+ABD:
+
+Full, moves with respiration.
+Soft, non-tender.
+No palpable organomegaly.
+
+CNS:
+
+Conscious and alert.
+Oriented for age.
+No focal neurological deficit.
+
+ASS:
+
+1. Known bronchial asthma with mild acute exacerbation.
+2. No clinical features of severe/life-threatening asthma.
+
+PLAN:
+
+- Give Salbutamol 2.5 mg via nebulizer stat and reassess after treatment.
+- If persistent wheeze/breathlessness, repeat Salbutamol nebulization as clinically indicated and add Ipratropium bromide 250 micrograms nebulized.
+- Continue Budesonide/Formoterol inhaler 100/6 micrograms, 1 inhalation BD, if this is the child's established controller regimen.
+- Continue Salbutamol inhaler 100 micrograms, 2 puffs PRN for breakthrough symptoms, preferably with spacer.
+- Consider Tab Prednisolone 1–2 mg/kg/day PO (maximum 40 mg/day) for 3–5 days if symptoms are more than mild or do not settle adequately with initial bronchodilator treatment.
+- Monitor respiratory rate, SpO₂, work of breathing and response to treatment.
+- Reinforce correct inhaler/spacer technique and adherence to controller therapy.
+- Avoid known triggers, particularly dust, smoke, strong perfumes and cold air.
+- Encourage adequate oral fluids.
+- Advise mother to seek urgent medical attention if breathing becomes worse, child is unable to speak/feed, develops cyanosis, drowsiness, marked chest recession or poor response to repeated Salbutamol.
+- Review in 1–2 weeks or earlier if symptoms worsen.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  {
+    id: 'peds-49',
+    title: 'Acute Exacerbation of Asthma',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Respiratory',
+    condition: 'Acute Exacerbation of Asthma',
+    symptoms: ['Nasal discharge', 'Cough', 'Difficulty in breathing', 'Tachypnoea', 'Chest indrawing', 'Widespread rhonchi'],
+    contributor: 'Admin',
+    lastModified: '2026-08-19',
+    summary: '2-year-old preterm female toddler with recurrent episodes of respiratory symptoms presenting with 4 days of coryza, 1 week of cough and progressive respiratory distress with intercostal recession and widespread bilateral rhonchi, clinically consistent with acute exacerbation of probable asthma, likely triggered by a viral upper respiratory tract infection.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 2-year-old female Igbo child from Ijebu-Ode, Ogun State. Informant: Mother, a businesswoman.
+  
+  PC:
+  
+  Nasal discharge × 4 days.
+  
+  Cough × 1 week.
+  
+  Difficulty in breathing × 1 week.
+  
+  HPC:
+  
+  The patient was apparently well until 4 days prior to presentation when she developed nasal discharge, described as clear to whitish, associated with nasal blockage.
+  
+  Cough started approximately 3 days after onset of the nasal symptoms. It was insidious in onset, non-barky and non-paroxysmal, worse at night, with no post-tussive vomiting.
+  
+  No identifiable trigger for the cough.
+  
+  Around the same period, the patient developed difficulty in breathing, evidenced by fast breathing and chest indrawing. Symptoms were gradual in onset and progressively worsened.
+  
+  No associated bluish discoloration of the lips or skin.
+  
+  PTP, mother administered Otrivin nasal drops 1 drop BD, Broncholyte 5 mL and Sinufed 5 mL, with no significant improvement.
+  
+  Due to persistence and worsening of respiratory symptoms, she presented for further evaluation.
+  
+  Past Medical History:
+  
+  First admission was at approximately 4 months of age for a similar respiratory illness, during which she received intravenous medications, names not recalled, and nebulisation.
+  
+  Since then, she has had recurrent hospital visits for similar episodes.
+  
+  No previous formal diagnosis of asthma.
+  
+  No history of blood transfusion.
+  No previous surgery.
+  Not a known sickle cell disease patient.
+  No history of seizure disorder.
+  
+  Antenatal History:
+  
+  Pregnancy was supervised at a private hospital.
+  
+  No history of fever or rash during pregnancy.
+  Received 2 doses of TT and IPT.
+  No history of hypertension or diabetes mellitus during pregnancy.
+  
+  Natal History:
+  
+  Delivered preterm at an estimated gestational age of 31 weeks via emergency caesarean section at a tertiary facility due to prolonged rupture of membranes.
+  
+  Cried spontaneously at birth.
+  
+  Birth weight was 1.6 kg.
+  
+  No history of neonatal jaundice or other significant adverse neonatal events.
+  
+  Postnatal/Feeding History:
+  
+  Commenced AFM shortly after birth.
+  
+  Expressed breast milk was commenced after 5 days post-delivery.
+  
+  Received breast milk and formula for the first 6 months of life.
+  
+  Family diet was subsequently introduced.
+  
+  Immunization History:
+  
+  Fully immunized for age according to the NPI schedule.
+  
+  Developmental History:
+  
+  Attained developmental milestones at appropriate ages.
+  
+  Family and Social History:
+  
+  First child in a monogamous family setting.
+  
+  Mother is a 34-year-old businesswoman (HLE: ND).
+  
+  Father is a 35-year-old businessman (HLE: BSc).
+  
+  They live in a well-ventilated 3-bedroom apartment with netted windows.
+  
+  Child does not routinely sleep under an ITN.
+  
+  Source of drinking water is sachet water.
+  
+  Sewage disposal is via WC system.
+  
+  Refuse disposal is via municipal system.
+  
+  Cooking fuel is gas.
+  
+  No history of parental smoking.
+  
+  No pets in the home.
+  No rugs or carpets in the home.
+  Child does not attend daycare.
+  
+  Family history is negative for asthma.
+  
+  Mother reports allergic symptoms when exposed to perfumes.
+  
+  Review of Systems:
+  
+  General:
+  
+  No fever.
+  No weight loss reported.
+  
+  RS:
+  
+  Nasal discharge.
+  Nasal blockage.
+  Cough.
+  Difficulty in breathing.
+  No cyanosis.
+  
+  CVS:
+  
+  No reported cardiac symptoms.
+  
+  GIT:
+  
+  No post-tussive vomiting.
+  No other gastrointestinal symptoms reported.
+  
+  CNS:
+  
+  No seizures.
+  Conscious and alert.
+  
+  O/E:
+  
+  Well-nourished child, acutely ill-looking and in obvious respiratory distress.
+  
+  Not pale.
+  Not icteric.
+  Not cyanosed.
+  Afebrile.
+  Not dehydrated.
+  No pedal oedema.
+  
+  Weight:
+  
+  10 kg.
+  
+  Vitals:
+  
+  Temp 36.8°C.
+  PR 130 bpm, full volume and regular.
+  RR 38 cpm.
+  SpO₂ 98% in room air.
+  
+  Respiratory System:
+  
+  Dyspnoeic with intercostal recession.
+  
+  Chest movement symmetrical.
+  
+  Equal air entry bilaterally.
+  
+  Vesicular breath sounds with widespread rhonchi in the upper and middle lung zones bilaterally.
+  
+  Cardiovascular System:
+  
+  S1 and S2 heard.
+  No murmurs.
+  
+  Abdomen:
+  
+  Soft.
+  No abnormality detected.
+  
+  CNS:
+  
+  Conscious and alert.
+  
+  MRDT:
+  
+  Negative.
+  
+  ASS:
+  
+  Acute exacerbation of asthma, probable viral-triggered, in a child with recurrent wheeze/respiratory episodes.
+  
+  Differentials:
+  
+  1. Viral-induced wheeze.
+  2. Acute bronchiolitis.
+  3. Community-acquired pneumonia.
+  4. Foreign body aspiration.
+  5. Pulmonary tuberculosis, particularly if respiratory symptoms become persistent or there are constitutional symptoms.
+  
+  PLAN:
+  
+  Acute Management:
+  
+  Nebulise with Salbutamol nebules 2.5 mg × 3 doses.
+  
+  Administer over approximately 1 hour, with 15 minutes nebulisation followed by a 5-minute rest interval between doses.
+  
+  Administer oral Prednisolone 10 mg daily × 3 days.
+  
+  Monitoring:
+  
+  Monitor respiratory rate.
+  Monitor work of breathing.
+  Monitor SpO₂.
+  Monitor heart rate.
+  Observe for clinical improvement following bronchodilator therapy.
+  
+  Reassessment:
+  
+  Reassess after completion of the nebulisation.
+  
+  Assess respiratory distress, chest indrawing, air entry, respiratory rate, wheeze and oxygen saturation.
+  
+  Clinical Rationale:
+  
+  The presentation is characterized by recurrent episodes of respiratory symptoms since infancy, with the current episode preceded by coryzal symptoms and associated with progressive respiratory distress, intercostal recession and widespread bilateral rhonchi.
+  
+  The history of recurrent similar episodes requiring hospital attendance and previous nebulisation supports a diagnosis of recurrent wheeze/probable asthma.
+  
+  The current upper respiratory tract symptoms provide a likely viral trigger for the acute exacerbation.
+  
+  The absence of fever, hypoxaemia, focal chest findings or cyanosis makes severe bacterial pneumonia less likely based on the documented findings.
+  
+  The child has a history of significant prematurity at 31 weeks gestation, which may be relevant to the history of recurrent respiratory symptoms.
+  
+  Salbutamol nebulisation is used for rapid relief of acute bronchospasm during an asthma exacerbation.
+  
+  Systemic corticosteroid therapy with prednisolone is used to reduce airway inflammation and shorten the course of an acute exacerbation.
+  
+  Close reassessment after bronchodilator therapy is important to determine response and identify children requiring escalation of care.
+  
+  Final working diagnosis: Acute exacerbation of asthma, probable viral-triggered, in a 2-year-old child with recurrent respiratory episodes.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-48',
+    title: 'Ophthalmia Neonatorum',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Ophthalmia Neonatorum',
+    symptoms: ['Bilateral eye redness', 'Purulent eye discharge', 'Eyelid swelling'],
+    contributor: 'Admin',
+    lastModified: '2026-08-16',
+    summary: '8-day-old female neonate with 2 days of bilateral conjunctival redness, thick purulent eye discharge and eyelid oedema, clinically consistent with bilateral ophthalmia neonatorum requiring urgent evaluation for gonococcal and chlamydial infection.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  An 8-day-old female neonate, born at 39 weeks gestation via spontaneous vaginal delivery. Birth weight 3.1 kg and current weight 3.0 kg. Informant: Mother, reliable.
+  
+  PC:
+  
+  Eye discharge and redness × 2 days.
+  
+  HPC:
+  
+  Baby M.A. was apparently well until approximately 2 days prior to presentation when the mother noticed redness of both eyes associated with yellowish, thick eye discharge.
+  
+  The discharge was initially scanty but progressively increased, causing the eyelids to stick together, particularly after sleep.
+  
+  Mother has been cleaning the eyes with clean cotton wool and warm water with temporary improvement.
+  
+  There is associated swelling of both eyelids, worse on the right.
+  
+  No history of trauma to the eyes.
+  No history of foreign body exposure.
+  No history of fever.
+  No history of poor feeding.
+  No history of lethargy.
+  No history of abnormal cry.
+  No history of vomiting.
+  No history of seizures.
+  No difficulty with breathing.
+  
+  Baby has continued to breastfeed adequately and has been passing urine and stool normally.
+  
+  Maternal/Antenatal History:
+  
+  Mother booked for antenatal care.
+  
+  Pregnancy was reportedly uncomplicated.
+  
+  No documented maternal sexually transmitted infection during pregnancy.
+  Maternal HIV screening was negative.
+  Maternal syphilis screening was negative.
+  No history of abnormal vaginal discharge documented during pregnancy.
+  No history of prolonged rupture of membranes.
+  
+  Intranatal History:
+  
+  Delivered at 39 weeks gestation via spontaneous vaginal delivery.
+  
+  Liquor was clear.
+  No prolonged rupture of membranes.
+  Baby cried immediately at birth.
+  APGAR scores were 8 at 1 minute and 9 at 5 minutes.
+  No neonatal resuscitation was required.
+  
+  Postnatal History:
+  
+  Breastfeeding adequately.
+  No fever.
+  No respiratory difficulty.
+  No jaundice of concern.
+  No previous illness.
+  No previous eye infection.
+  
+  Past Medical History:
+  
+  No previous medical illness.
+  No previous hospital admission.
+  No known congenital abnormality.
+  
+  Drug History:
+  
+  No current medications apart from routine neonatal prophylaxis.
+  No known drug allergies.
+  
+  Family and Social History:
+  
+  No family history of significant neonatal eye disease.
+  Baby lives with both parents.
+  No known sick contacts.
+  
+  Review of Systems:
+  
+  Eyes:
+  
+  Bilateral eye redness.
+  Purulent eye discharge.
+  Eyelid swelling.
+  No obvious eye trauma.
+  
+  General:
+  
+  No fever.
+  No lethargy.
+  No poor feeding.
+  
+  Respiratory:
+  
+  No cough.
+  No difficulty breathing.
+  
+  GIT:
+  
+  No vomiting.
+  No diarrhoea.
+  
+  Genitourinary:
+  
+  Passing urine normally.
+  No abnormal genital discharge noted.
+  
+  O/E:
+  
+  Neonate, conscious and responsive, mildly irritable during eye examination, not pale, not jaundiced, not cyanosed, well hydrated, with no peripheral oedema.
+  
+  Vitals:
+  
+  Temp 36.8°C.
+  PR 138 bpm, regular.
+  RR 42 cpm.
+  SpO₂ 98% in room air.
+  
+  Eye Examination:
+  
+  Bilateral conjunctival injection, more marked on the right.
+  
+  Moderate bilateral eyelid oedema.
+  
+  Thick yellowish purulent discharge from both eyes.
+  
+  Discharge reforms after cleaning.
+  
+  No obvious corneal opacity.
+  No obvious corneal ulceration.
+  No proptosis.
+  Pupils equal and reactive to light.
+  Red reflex present bilaterally.
+  No evidence of periorbital cellulitis.
+  
+  Respiratory:
+  
+  Chest moves symmetrically.
+  Good air entry bilaterally.
+  No respiratory distress.
+  
+  CVS:
+  
+  Pulse regular and good volume.
+  S1 and S2 heard.
+  No murmurs.
+  Capillary refill <2 seconds.
+  
+  ABD:
+  
+  Soft.
+  Non-distended.
+  No palpable organomegaly.
+  Umbilical stump clean.
+  
+  CNS:
+  
+  Alert and responsive.
+  Normal neonatal tone.
+  No seizures.
+  
+  ASS:
+  
+  Bilateral ophthalmia neonatorum (neonatal conjunctivitis), with purulent discharge. Gonococcal and chlamydial infection must be specifically considered and excluded.
+  
+  Differentials:
+  
+  1. Gonococcal ophthalmia neonatorum.
+  2. Chlamydial conjunctivitis.
+  3. Other bacterial neonatal conjunctivitis.
+  4. Chemical conjunctivitis.
+  5. Nasolacrimal duct obstruction with secondary infection.
+  6. Herpetic neonatal eye infection.
+  
+  Investigations:
+  
+  Conjunctival swab for Gram stain.
+  
+  Bacterial culture and sensitivity of conjunctival discharge.
+  
+  Appropriate conjunctival specimen for Neisseria gonorrhoeae testing according to available laboratory facilities.
+  
+  Conjunctival specimen for Chlamydia trachomatis testing where available.
+  
+  Review maternal antenatal STI screening results and repeat appropriate STI testing where clinically indicated.
+  
+  FBC and blood culture if the neonate becomes febrile, clinically unwell or there is concern for systemic infection.
+  
+  Urgent ophthalmology review if there is corneal opacity, corneal ulceration, marked chemosis, severe eyelid swelling, proptosis, reduced visual response or failure to improve with treatment.
+  
+  PLAN:
+  
+  Eye Cleaning:
+  
+  Gently clean both eyes with sterile normal saline and clean gauze/cotton swabs.
+  
+  Use a separate swab for each eye.
+  
+  Perform hand hygiene before and after eye care.
+  
+  Systemic Antibiotic Therapy:
+  
+  Because gonococcal ophthalmia can rapidly cause corneal ulceration, perforation and blindness, suspected gonococcal infection requires prompt systemic treatment rather than topical therapy alone.
+  
+  If gonococcal infection is suspected, administer an appropriate systemic third-generation cephalosporin such as Ceftriaxone 25–50 mg/kg IV/IM once daily according to neonatal protocol and maximum dose.
+  
+  Ceftriaxone requires particular caution in neonates with significant hyperbilirubinaemia or those receiving calcium-containing IV solutions. An alternative such as Cefotaxime may be used according to neonatal specialist/local protocol.
+  
+  Chlamydial Infection:
+  
+  If Chlamydia trachomatis infection is suspected or confirmed, systemic macrolide therapy is required because topical treatment alone is inadequate.
+  
+  Erythromycin base/ethylsuccinate 50 mg/kg/day orally in 4 divided doses × 14 days according to neonatal protocol.
+  
+  Monitor for gastrointestinal adverse effects and infantile hypertrophic pyloric stenosis.
+  
+  Azithromycin may be considered as an alternative according to specialist/local protocol.
+  
+  Topical Antibiotics:
+  
+  Topical antibiotic therapy may be used as an adjunct where appropriate but should not replace systemic treatment when gonococcal or chlamydial infection is suspected.
+  
+  Assessment for Systemic Infection:
+  
+  Monitor for fever or hypothermia.
+  Monitor for poor feeding.
+  Monitor for lethargy.
+  Monitor for respiratory symptoms.
+  Monitor for clinical features of sepsis.
+  Monitor for arthritis or other features of disseminated gonococcal infection.
+  
+  If systemic illness is suspected, admit and manage as neonatal sepsis while awaiting culture results.
+  
+  Maternal/Partner Management:
+  
+  If gonococcal or chlamydial infection is identified or strongly suspected, assess and treat the mother appropriately.
+  
+  Sexual partner(s) should be evaluated and treated according to STI guidelines.
+  
+  Perform appropriate STI screening.
+  
+  Counsel regarding prevention of reinfection.
+  
+  Nursing Instructions:
+  
+  Clean eyes regularly with sterile normal saline.
+  
+  Use separate swabs for each eye.
+  
+  Maintain strict hand hygiene.
+  
+  Administer prescribed medications accurately.
+  
+  Monitor temperature and general condition.
+  
+  Monitor feeding.
+  
+  Observe for corneal opacity or ulceration.
+  
+  Document amount and character of eye discharge.
+  
+  Monitor response to treatment.
+  
+  Parental Counselling:
+  
+  Explain to the mother that neonatal conjunctivitis requires prompt treatment because certain organisms can cause serious damage to the cornea and vision.
+  
+  Do not apply breast milk, herbal preparations or other unprescribed substances into the eyes.
+  
+  Do not share towels or eye-cleaning materials.
+  
+  Wash hands before and after touching the baby's eyes.
+  
+  Complete the prescribed treatment.
+  
+  Return immediately if the baby's eye swelling worsens, the cornea becomes cloudy, the baby develops fever, becomes lethargic or stops feeding.
+  
+  Follow-up:
+  
+  Review within 24–48 hours or earlier if symptoms are severe.
+  
+  At review, assess conjunctival redness and discharge.
+  
+  Assess eyelid swelling.
+  
+  Examine the cornea.
+  
+  Review microbiology results.
+  
+  Assess response to treatment.
+  
+  Modify antibiotics according to culture and sensitivity where appropriate.
+  
+  Urgent ophthalmology referral if there is any evidence of corneal involvement or clinical deterioration.
+  
+  Clinical Rationale:
+  
+  Ophthalmia neonatorum is neonatal conjunctivitis occurring during the early neonatal period and may be caused by bacterial, chlamydial, chemical or other infectious agents.
+  
+  The presence of bilateral conjunctival injection, thick purulent discharge and eyelid oedema in an 8-day-old neonate is consistent with neonatal conjunctivitis.
+  
+  Gonococcal ophthalmia is an important diagnosis to exclude because it can progress rapidly to corneal ulceration, perforation and permanent visual impairment.
+  
+  Chlamydial conjunctivitis should also be considered in neonatal purulent conjunctivitis and requires systemic treatment because topical therapy alone is inadequate.
+  
+  Conjunctival microscopy, culture and sensitivity, together with specific testing for Neisseria gonorrhoeae and Chlamydia trachomatis where available, help establish the causative organism and guide treatment.
+  
+  Gentle eye cleaning with sterile normal saline and appropriate infection-control measures help reduce the accumulation and transmission of infected secretions.
+  
+  Systemic antibiotic therapy is required when gonococcal or chlamydial infection is suspected rather than relying on topical treatment alone.
+  
+  Maternal and partner assessment is important when an STI-associated cause is identified or strongly suspected to prevent reinfection.
+  
+  The absence of fever, poor feeding, lethargy, respiratory distress or other systemic features currently suggests that the neonate is clinically stable, but close monitoring remains necessary because neonatal infections can deteriorate rapidly.
+  
+  Final working diagnosis: Bilateral ophthalmia neonatorum (neonatal purulent conjunctivitis), requiring urgent microbiological evaluation and empiric treatment directed against potentially serious bacterial causes, particularly gonococcal and chlamydial infection.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-47',
+    title: 'Symptomatic Neonatal Hypoglycemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Hypoglycemia',
+    symptoms: ['Jitteriness', 'Poor suckling', 'Weak cry', 'Lethargy', 'Mild dehydration', 'Hypothermia'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '6-hour-old term male neonate with jitteriness, poor suckling, lethargy, mild dehydration and hypothermia following ineffective breastfeeding due to maternal lactation failure, clinically consistent with symptomatic neonatal hypoglycemia.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 6-hour-old male Yoruba neonate, B/O Folashade, from Ogbomoso, Oyo State. Informant: Mother, a 24-year-old primipara and civil servant.
+  
+  
+  PC:
+  
+  Jitteriness and poor suckling × 2 hours.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 2 hours prior to presentation when the mother noticed progressive jitteriness with abnormal fine tremors of the limbs which stopped when the limbs were held.
+  
+  This was associated with a weak cry and inability to latch or suckle effectively.
+  
+  There is no history of fever.
+  No history of abnormal body posturing.
+  No history of eye-rolling.
+  No history of vomiting.
+  No history of abdominal distension.
+  No history of respiratory distress.
+  No history of maternal gestational diabetes.
+  No history of prolonged rupture of membranes.
+  No history of peripartum pyrexia.
+  
+  The baby was brought to the Emergency Paediatric Unit due to worsening lethargy and jitteriness.
+  
+  Pregnancy and Antenatal History:
+  
+  Mother is a 24-year-old primigravida.
+  
+  She registered for ANC at 16 weeks gestational age at a general hospital and attended 6 ANC visits.
+  
+  She took routine hematinics and IPTp-SP for malaria prophylaxis.
+  
+  No history of gestational diabetes.
+  No history of hypertension.
+  No history of febrile illness during pregnancy.
+  
+  Birth History:
+  
+  Delivered at term at an estimated gestational age of 39 weeks via spontaneous vaginal delivery.
+  
+  Liquor was clear.
+  
+  Baby cried immediately at birth.
+  
+  APGAR scores were not formally recorded but the baby was reported to have cried well at birth.
+  
+  Birth weight was 3.1 kg.
+  
+  No history of birth asphyxia.
+  No history of meconium aspiration.
+  
+  Postnatal History:
+  
+  No Vitamin K was administered at birth.
+  
+  No eye prophylaxis was administered at birth.
+  
+  Feeding History:
+  
+  Breastfeeding was initiated within the first hour of life.
+  
+  However, the mother developed primary lactation failure with no colostrum or breast milk production detected on expression.
+  
+  The baby was unable to breastfeed effectively.
+  
+  No pre-lacteal feeds were given.
+  No water was given.
+  
+  Past Medical History:
+  
+  No previous hospital admission.
+  No previous surgery.
+  No known chronic medical condition.
+  
+  Drug History:
+  
+  No medications administered to the neonate prior to presentation.
+  
+  Family and Social History:
+  
+  First child of a primiparous mother.
+  
+  Parents reside in Ogbomoso, Oyo State.
+  
+  No relevant family history.
+  
+  Review of Systems:
+  
+  CNS:
+  
+  Jitteriness.
+  Lethargy.
+  Weak cry.
+  No seizures.
+  No abnormal posturing.
+  No eye-rolling.
+  
+  Respiratory:
+  
+  No fast breathing.
+  No grunting.
+  No chest in-drawing.
+  No respiratory distress.
+  
+  CVS:
+  
+  No cyanosis.
+  No poor peripheral perfusion.
+  
+  GIT:
+  
+  Poor suckling.
+  No vomiting.
+  No abdominal distension.
+  
+  Genitourinary:
+  
+  No abnormality reported.
+  
+  O/E:
+  
+  Acutely ill-looking neonate, conscious but lethargic and jittery on stimulation, mildly dehydrated, not pale, anicteric, acyanotic, with no peripheral oedema.
+  
+  Vitals:
+  
+  Temp 36.1°C.
+  HR 144 bpm, regular, normal volume.
+  RR 46 cpm, regular, no respiratory distress.
+  SpO₂ 98% in room air.
+  Weight 3.0 kg.
+  
+  CNS:
+  
+  Anterior fontanelle flat and normotensive.
+  
+  Mild generalized hypotonia.
+  
+  Moro reflex incomplete and weak.
+  
+  Suckling and rooting reflexes severely depressed.
+  
+  Pupils equal and reactive to light.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  Capillary refill time < 2 seconds.
+  Femoral pulses palpable and synchronous.
+  
+  Respiratory:
+  
+  Trachea central.
+  Good bilateral air entry.
+  Vesicular breath sounds.
+  No adventitious sounds.
+  No intercostal or subcostal recession.
+  
+  ABD:
+  
+  Soft.
+  Flat.
+  Non-tender.
+  Liver palpable 1 cm below the right costal margin.
+  Spleen not palpable.
+  Bowel sounds present.
+  
+  Umbilicus:
+  
+  Umbilical stump clean.
+  No active bleeding.
+  No discharge.
+  
+  ASS:
+  
+  Symptomatic neonatal hypoglycemia secondary to lactation failure in a term neonate.
+  
+  Differentials:
+  
+  1. Neonatal sepsis.
+  2. Hypothermia-induced hypoglycemia.
+  3. Perinatal asphyxia/mild hypoxic-ischaemic encephalopathy.
+  
+  Investigations:
+  
+  Immediate bedside Random Blood Glucose (RBG) using a glucometer.
+  
+  Full Blood Count (FBC) with differentials to screen for neonatal sepsis.
+  
+  C-Reactive Protein (CRP) to support sepsis screening.
+  
+  Serum Electrolytes, Urea and Creatinine to assess hydration and metabolic status, particularly if hypoglycemia is refractory.
+  
+  PLAN:
+  
+  Immediate Correction of Hypoglycemia:
+  
+  Check bedside RBG immediately.
+  
+  If RBG is <2.6 mmol/L (47 mg/dL) in this symptomatic neonate, secure peripheral intravenous access immediately.
+  
+  Administer 10% Dextrose 2 mL/kg IV over 5–10 minutes.
+  
+  For a 3.0 kg neonate, this is 6 mL of 10% Dextrose.
+  
+  Commence maintenance IV infusion of 10% Dextrose at a GIR of approximately 6 mg/kg/min.
+  
+  This is equivalent to approximately 86.4 mL/kg/day, or approximately 260 mL of 10% Dextrose over 24 hours for a 3.0 kg neonate, running at approximately 11 mL/hour.
+  
+  Thermal Regulation:
+  
+  Place the baby under a radiant warmer or initiate Kangaroo Mother Care with the mother.
+  
+  Maintain axillary temperature between 36.5°C and 37.5°C.
+  
+  Feeding and Lactation Support:
+  
+  Refer the mother to the nursing/lactation team for assessment and support.
+  
+  Provide breast massage and breast engorgement relief where appropriate.
+  
+  Counsel on correct positioning and latching techniques.
+  
+  Once blood glucose normalizes and the suckling reflex improves, initiate cup-and-spoon feeding with expressed breast milk.
+  
+  If expressed breast milk is unavailable, temporarily use prescribed infant formula until maternal lactation is established.
+  
+  Monitoring:
+  
+  Recheck bedside RBG 30 minutes after the IV dextrose bolus.
+  
+  Continue RBG monitoring every 1–2 hours until stable above 2.6 mmol/L, then monitor pre-feed.
+  
+  Monitor temperature, respiratory rate and heart rate hourly.
+  
+  Monitor neurological status for persistence or worsening of jitteriness, hypotonia, seizures or altered consciousness.
+  
+  Monitor for signs of fluid overload.
+  
+  Escalation:
+  
+  If hypoglycemia persists despite increasing the GIR appropriately, or if the neonate develops seizures, apnea, respiratory distress or persistent neurological abnormalities, stabilize and urgently refer to a tertiary Neonatal Intensive Care Unit.
+  
+  Clinical Rationale:
+  
+  Neonatal hypoglycemia can present with nonspecific neurological manifestations including jitteriness, poor feeding, weak cry, lethargy, hypotonia and, in severe cases, seizures.
+  
+  The timing of symptoms, ineffective breastfeeding and absence of alternative enteral feeds make inadequate glucose intake secondary to maternal lactation failure the most likely precipitating factor in this neonate.
+  
+  The associated mild hypothermia can further increase glucose consumption and worsen hypoglycemia, making prompt thermal stabilization important.
+  
+  Immediate bedside glucose measurement is the priority investigation because treatment should not be delayed in a symptomatic neonate when hypoglycemia is strongly suspected.
+  
+  A symptomatic neonate with significantly low blood glucose requires prompt intravenous glucose administration. A 10% dextrose bolus followed by a continuous glucose infusion provides rapid correction while preventing recurrent hypoglycemia.
+  
+  Early and frequent feeding remains important once the baby is clinically stable and has an adequate suck, while lactation support should be provided to address the underlying feeding problem.
+  
+  Neonatal sepsis remains an important differential because lethargy, poor feeding, hypothermia and hypoglycemia can occur with infection. Sepsis evaluation should therefore be considered if there are clinical features suggestive of infection or if the baby fails to improve after correction of hypoglycemia.
+  
+  The absence of a history of birth asphyxia and the reported immediate cry make significant hypoxic-ischaemic encephalopathy less likely, although persistent neurological abnormalities would require reassessment.
+  
+  Final working diagnosis: Symptomatic neonatal hypoglycemia secondary to inadequate glucose intake from maternal lactation failure in a term neonate.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-46',
+    title: 'Neonatal Hypoglycemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Hypoglycemia',
+    symptoms: ['Jitteriness', 'Poor suck', 'Difficulty latching', 'Tremulous movements'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '6-hour-old term LGA male neonate presenting with poor suck and jitteriness, with tremulous movements that stop on passive holding, clinically consistent with symptomatic neonatal hypoglycemia likely related to hyperinsulinism in an LGA infant.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  Baby of Zainab, a 6-hour-old male Hausa neonate from Dutse, Jigawa State. Informant: Mother, reliable.
+  
+  PC:
+  
+  Jitteriness × 1 hour.
+  
+  Poor suck × 2 hours.
+  
+  HPC:
+  
+  The patient is a 6-hour-old male neonate who was apparently well until approximately 2 hours prior to presentation when the mother noticed that he was having difficulty latching and sucking effectively during breastfeeding.
+  
+  This was followed 1 hour later by the onset of abnormal tremulous movements of all four limbs.
+  
+  The jitteriness was noted to subside when the limbs were held.
+  
+  No history of frank convulsions.
+  No history of cyanosis.
+  No history of apnoea.
+  No history of fever.
+  No history of vomiting.
+  No history of excessive crying.
+  
+  Past Medical and Birth History:
+  
+  Prenatal:
+  
+  Mother is a 32-year-old G4P3+0 woman.
+  
+  She was booked and attended ANC regularly at a General Hospital.
+  
+  No history of maternal diabetes mellitus.
+  No history of gestational hypertension.
+  No history of febrile illness.
+  No history of prolonged rupture of membranes.
+  
+  Natal:
+  
+  Delivered at term, approximately 39 weeks gestational age, via spontaneous vaginal delivery at a local health facility.
+  
+  Cried immediately at birth.
+  
+  Birth weight was 4.2 kg.
+  
+  Postnatal:
+  
+  No resuscitation was required.
+  
+  Vitamin K was administered at birth.
+  
+  Dietary History:
+  
+  Initiated breastfeeding at 2 hours of life.
+  
+  Sucking was initially fair but became poor over the last 2 hours.
+  
+  No pre-lacteal feeds given.
+  
+  Family and Social History:
+  
+  Mother is a trader.
+  Father is a civil servant.
+  
+  They live in a 2-bedroom apartment with good ventilation and access to borehole water.
+  
+  No history of similar illness in previous siblings.
+  
+  O/E:
+  
+  Large-for-gestational-age male neonate, acutely ill-looking and jittery, not in respiratory or painful distress.
+  
+  Not pale.
+  Not icteric.
+  Not cyanosed.
+  Not dehydrated.
+  
+  Capillary refill time < 2 seconds.
+  
+  Vitals:
+  
+  Temp 36.5°C.
+  PR 148 bpm.
+  RR 54 cpm.
+  SpO₂ 98% in room air.
+  
+  Anthropometry:
+  
+  Weight 4.2 kg, LGA.
+  Length 52 cm.
+  OFC 35.5 cm.
+  
+  CNS:
+  
+  Jittery movements of all four limbs noted.
+  
+  Movements stop on passive flexion and holding.
+  
+  Normal neonatal muscle tone.
+  
+  Moro and grasp reflexes present and brisk.
+  
+  RS:
+  
+  Normal chest excursion.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  
+  ABD:
+  
+  Full.
+  Soft.
+  Liver palpable 2 cm below the right costal margin, smooth with a sharp edge.
+  Spleen not palpable.
+  Bowel sounds present.
+  
+  Genitalia:
+  
+  Normal male genitalia.
+  Both testes descended.
+  
+  Summary:
+  
+  A 6-hour-old term LGA male neonate born via SVD to a multiparous mother, presenting with poor suck and jitteriness of 2 hours and 1 hour duration respectively.
+  
+  Examination revealed a large infant with tremulous movements and brisk neonatal reflexes but no respiratory distress, fever or cyanosis.
+  
+  ASS:
+  
+  Symptomatic neonatal hypoglycaemia, likely secondary to hyperinsulinism in an LGA infant.
+  
+  Differentials:
+  
+  1. Neonatal sepsis.
+  2. Neonatal hypocalcaemia.
+  3. Hypoxic-ischaemic encephalopathy (HIE) stage I.
+  
+  Investigations:
+  
+  Immediate bedside random blood glucose (RBG) using a glucometer.
+  
+  FBC and C-reactive protein (CRP).
+  
+  Serum electrolytes, urea and creatinine, with specific assessment of serum calcium and magnesium.
+  
+  Blood culture.
+  
+  PLAN:
+  
+  Immediate Stabilisation:
+  
+  Secure intravenous access immediately.
+  
+  Administer 10% dextrose 2 mL/kg IV over 5–10 minutes.
+  
+  For a weight of 4.2 kg, this corresponds to 8.4 mL of 10% dextrose.
+  
+  Maintenance Fluids:
+  
+  Commence 10% dextrose at 60 mL/kg/day to provide a glucose infusion rate (GIR) of approximately 4.2 mg/kg/min.
+  
+  Reassess the GIR according to subsequent RBG results and clinical response.
+  
+  Monitoring:
+  
+  Recheck RBG 30 minutes after the dextrose bolus.
+  
+  If RBG remains low, increase the GIR incrementally and continue close glucose monitoring.
+  
+  Monitor vital signs and neurological status hourly.
+  
+  Monitor for persistence or progression of jitteriness, altered consciousness or seizures.
+  
+  Feeding:
+  
+  Encourage early and frequent breastfeeding once the infant is clinically stable and able to suck effectively.
+  
+  Maintain Neutral Thermal Environment:
+  
+  Keep the neonate warm and prevent hypothermia, as cold stress may increase glucose utilisation and worsen hypoglycaemia.
+  
+  Clinical Rationale:
+  
+  The neonate is at increased risk of hypoglycaemia because of his large-for-gestational-age status.
+  
+  Poor suck and jitteriness are recognised clinical manifestations of neonatal hypoglycaemia.
+  
+  The fact that the tremulous movements stop when the limbs are held supports jitteriness rather than a frank neonatal seizure.
+  
+  Immediate bedside RBG measurement is therefore essential in this symptomatic high-risk neonate.
+  
+  Neonatal sepsis and hypocalcaemia remain important differentials because they may also present with poor feeding and abnormal movements.
+  
+  Early breastfeeding should be encouraged once the neonate is stable and able to suck effectively.
+  
+  IV dextrose is required for symptomatic hypoglycaemia, with subsequent adjustment of the glucose infusion rate according to serial blood glucose measurements.
+  
+  Maintaining a neutral thermal environment is important because hypothermia can increase glucose consumption.
+  
+  If hypoglycaemia persists despite increasing glucose delivery, the neonate requires further evaluation and escalation of care.
+  
+  Final working diagnosis: Symptomatic neonatal hypoglycaemia, likely secondary to hyperinsulinism in a term LGA infant.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-46',
+    title: 'Neonatal Hypoglycemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Hypoglycemia',
+    symptoms: ['Jitteriness', 'Poor suckling', 'Weak suck', 'Lethargy', 'Irritability'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '3-hour-old term LGA male neonate, born to a mother with poorly controlled gestational diabetes mellitus, presenting with jitteriness, poor suckling and mild lethargy, clinically suspicious of neonatal hypoglycemia in an infant of a diabetic mother.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 3-hour-old male Yoruba neonate from Surulere, Lagos State. Informant: Mother, a 28-year-old trader, G2P1+1.
+  
+  PC:
+  
+  Jitteriness × 1 hour.
+  
+  Poor suckling × 2 hours.
+  
+  HPC:
+  
+  The patient is a term, large-for-gestational-age male neonate delivered at 39 weeks gestational age via spontaneous vaginal delivery at a private hospital in Surulere.
+  
+  APGAR scores were 8 at 1 minute and 9 at 5 minutes. Birth weight was 4.2 kg.
+  
+  The neonate was initiated on breastfeeding at 1 hour of life but had a weak suck and was unable to latch effectively.
+  
+  Approximately 1 hour prior to presentation, at 2 hours of life, the mother noticed generalized jitteriness with fine tremors of the limbs and mild lethargy.
+  
+  No history of maternal intrapartum fever.
+  No history of prolonged rupture of membranes.
+  No history of foul-smelling liquor.
+  No history of abnormal posturing.
+  No history of high-pitched cry.
+  No history of cyanosis.
+  No history of vomiting.
+  No history of traditional herbal concoction administration PTP.
+  
+  Maternal/Obstetric History:
+  
+  Mother is a 28-year-old G2P1+1 who registered for ANC at 20 weeks gestational age.
+  
+  Pregnancy was complicated by gestational diabetes mellitus diagnosed at 26 weeks, which was poorly controlled on dietary modification.
+  
+  No history of pregnancy-induced hypertension.
+  RVD negative.
+  
+  Past Medical/Birth History:
+  
+  Term delivery at 39 weeks via SVD.
+  Birth weight 4.2 kg, consistent with macrosomia/LGA.
+  No history of birth asphyxia.
+  No history of neonatal resuscitation.
+  
+  Drug History:
+  
+  Mother was on routine ANC drugs including folic acid and ferrous sulphate.
+  
+  No history of maternal beta-blocker use.
+  No history of maternal oral hypoglycaemic use close to delivery.
+  
+  Family and Social History:
+  
+  Second child in a monogamous family setting.
+  
+  Parents reside in a 2-room apartment with good access to potable water.
+  
+  Review of Systems:
+  
+  CNS:
+  
+  Jittery.
+  Mildly lethargic.
+  No seizures.
+  No high-pitched cry.
+  
+  Respiratory:
+  
+  No fast breathing.
+  No grunting.
+  No chest in-drawing.
+  
+  CVS:
+  
+  No cyanosis.
+  Warm extremities.
+  
+  GIT:
+  
+  Poor suck.
+  No abdominal distension.
+  Has not passed meconium yet.
+  
+  Urogenital:
+  
+  Normal male genitalia.
+  Has not voided urine yet.
+  
+  O/E:
+  
+  Acutely ill-looking, macrosomic neonate, jittery, mildly pale, anicteric, acyanotic, not dehydrated and warm to touch.
+  
+  Vitals:
+  
+  Temp 36.4°C.
+  HR 144 bpm, regular, normal volume.
+  RR 46 cpm, no respiratory distress.
+  SpO₂ 97% in room air.
+  Weight 4.2 kg.
+  
+  CNS:
+  
+  Conscious but irritable and jittery.
+  
+  Anterior fontanelle flat and normotensive.
+  
+  Tone normal.
+  
+  Moro reflex hyperactive.
+  
+  Suck reflex weak.
+  
+  Grasp reflex weak.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  Capillary refill time < 2 seconds.
+  
+  RS:
+  
+  Chest symmetrical and moves with respiration.
+  Vesicular breath sounds.
+  No adventitious sounds.
+  
+  ABD:
+  
+  Soft.
+  Non-distended.
+  Liver palpable 1.5 cm below the right costal margin.
+  Spleen not palpable.
+  
+  ASS:
+  
+  Neonatal hypoglycaemia secondary to maternal gestational diabetes mellitus in an infant of a diabetic mother (IDM), term LGA neonate.
+  
+  Differentials:
+  
+  1. Neonatal sepsis.
+  2. Neonatal hypocalcaemia.
+  3. Hypoxic-ischaemic encephalopathy (HIE) stage I, less likely given excellent APGAR scores and absence of significant perinatal asphyxia.
+  
+  Investigations:
+  
+  Immediate point-of-care random blood sugar (RBS) using glucometer to confirm hypoglycaemia.
+  
+  Serum electrolytes, urea and creatinine, with particular attention to serum calcium and magnesium.
+  
+  FBC with blood film to assess for leucocytosis/band cells and haematocrit, particularly to exclude polycythaemia in an infant of a diabetic mother.
+  
+  CRP as part of sepsis assessment.
+  
+  Blood culture if neonatal sepsis is strongly suspected.
+  
+  PLAN:
+  
+  Immediate Stabilisation:
+  
+  Secure peripheral IV access immediately.
+  
+  If confirmed/suspected symptomatic hypoglycaemia, administer 10% dextrose 2 mL/kg IV slowly over 5–10 minutes.
+  
+  For a weight of 4.2 kg, this corresponds to 8.4 mL of 10% dextrose.
+  
+  Maintenance Infusion:
+  
+  Commence continuous IV 10% dextrose with a target glucose infusion rate (GIR) of approximately 6 mg/kg/min.
+  
+  For this 4.2 kg neonate, this is approximately 360 mL/day or 15 mL/hour of 10% dextrose.
+  
+  Monitoring:
+  
+  Repeat RBS 30 minutes after the dextrose bolus.
+  
+  Continue RBS monitoring 1–2-hourly until stable, then 4-hourly.
+  
+  Monitor temperature, heart rate, respiratory rate and SpO₂.
+  
+  Monitor neurological status including jitteriness, level of consciousness, tone and development of seizures.
+  
+  Maintain the neonate under a radiant warmer or provide appropriate Kangaroo Mother Care to prevent hypothermia, which may worsen hypoglycaemia.
+  
+  Feeding:
+  
+  Encourage early and frequent breastfeeding once the neonate is clinically stable.
+  
+  If suck remains weak but the neonate is fully conscious with a safe airway, expressed breast milk may be given by cup/spoon as appropriate.
+  
+  Empiric Antibiotic Therapy:
+  
+  If sepsis screen is positive or there is clinical deterioration:
+  
+  IV Ampicillin 50 mg/kg 12-hourly.
+  
+  IV Gentamicin 5 mg/kg 24-hourly.
+  
+  Escalation/Referral:
+  
+  If hypoglycaemia is refractory despite increasing glucose infusion requirements up to a GIR of 12 mg/kg/min, or if the neonate develops intractable seizures or respiratory distress, stabilize and refer immediately to a tertiary Neonatal Intensive Care Unit.
+  
+  Clinical Rationale:
+  
+  The neonate is at high risk of hypoglycaemia because he is both large for gestational age and an infant of a mother with poorly controlled gestational diabetes mellitus.
+  
+  Maternal hyperglycaemia results in increased fetal insulin secretion. Following delivery, the maternal glucose supply is abruptly interrupted while neonatal hyperinsulinaemia may persist, resulting in hypoglycaemia.
+  
+  The clinical presentation of jitteriness, poor suckling, weak primitive reflexes and mild lethargy is compatible with symptomatic neonatal hypoglycaemia.
+  
+  Immediate bedside blood glucose measurement is therefore critical in this symptomatic high-risk neonate.
+  
+  Neonatal sepsis and hypocalcaemia remain important differentials because they can also present with poor feeding, jitteriness, lethargy and neurological abnormalities.
+  
+  The neonate should be kept warm because hypothermia increases glucose consumption and may worsen hypoglycaemia.
+  
+  Early and frequent enteral feeding supports glucose homeostasis, while IV dextrose is required for symptomatic or significant hypoglycaemia.
+  
+  Infants of diabetic mothers are also at risk of polycythaemia, which is why haematocrit/FBC assessment is included.
+  
+  Failure to maintain adequate blood glucose despite increasing glucose infusion requirements, or development of seizures or respiratory distress, requires escalation to specialist neonatal care.
+  
+  Final working diagnosis: Symptomatic neonatal hypoglycaemia secondary to maternal gestational diabetes mellitus in a term LGA infant of a diabetic mother.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-45',
+    title: 'Symptomatic Neonatal Hypoglycaemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Hypoglycaemia',
+    symptoms: ['Poor feeding', 'Jitteriness', 'Tremulous movements', 'Neonatal hypoglycaemia'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '18-hour-old early-term male neonate with 4 hours of poor feeding and jitteriness, with bedside blood glucose of 1.9 mmol/L, clinically consistent with symptomatic neonatal hypoglycaemia requiring immediate glucose correction and evaluation for an underlying cause.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  An 18-hour-old male neonate, delivered at 37 weeks + 4 days gestation via spontaneous vaginal delivery. Birth weight: 2.7 kg. Current weight: 2.7 kg. Informant: Mother, reliable.
+  
+  PC:
+  
+  Poor feeding and jitteriness × 4 hours.
+  
+  HPC:
+  
+  Baby A.O. was apparently well after birth until approximately 4 hours prior to presentation when the mother noticed that he was feeding poorly.
+  
+  He had previously been breastfeeding adequately but subsequently became reluctant to suck and had 2 episodes of weak/poor feeding.
+  
+  The mother also noticed intermittent jitteriness/tremulous movements of the limbs, particularly when the baby was being handled.
+  
+  No history of generalized tonic-clonic seizure.
+  No history of abnormal eye deviation.
+  No history of apnoeic episode.
+  No history of loss of consciousness.
+  No history of cyanosis.
+  No history of fever.
+  No history of hypothermia.
+  No history of vomiting.
+  No history of abdominal distension.
+  No history of diarrhoea.
+  
+  The baby has passed urine and meconium appropriately.
+  
+  A bedside blood glucose measurement obtained because of the symptoms was 1.9 mmol/L.
+  
+  The baby was immediately reviewed for symptomatic neonatal hypoglycaemia.
+  
+  Antenatal History:
+  
+  Mother booked for antenatal care at approximately 10 weeks gestation.
+  
+  Antenatal care was regular.
+  
+  Pregnancy was reportedly uncomplicated apart from poor maternal weight gain in the third trimester.
+  
+  No documented maternal diabetes mellitus.
+  No pregnancy-induced hypertension.
+  No significant antepartum haemorrhage.
+  No known maternal infection during pregnancy.
+  No history of prolonged medication use apart from routine antenatal supplements.
+  
+  Intranatal History:
+  
+  Labour was spontaneous.
+  
+  Membranes ruptured approximately 8 hours before delivery.
+  
+  No prolonged obstructed labour.
+  No significant intrapartum fetal distress documented.
+  No meconium-stained liquor reported.
+  
+  Baby cried immediately after birth.
+  
+  No need for prolonged resuscitation.
+  
+  Apggar scores were 8 at 1 minute and 9 at 5 minutes.
+  
+  Postnatal History:
+  
+  Baby was initiated on breastfeeding within the first hour of life.
+  
+  Initially breastfed satisfactorily.
+  
+  Subsequently developed poor feeding and jitteriness.
+  
+  No documented fever.
+  No respiratory difficulty.
+  No significant vomiting.
+  
+  Passed urine and meconium.
+  
+  Review of Systems:
+  
+  CNS:
+  
+  Jitteriness/tremulousness.
+  No seizures.
+  No abnormal eye movements.
+  No loss of consciousness.
+  No apnoea.
+  
+  RS:
+  
+  No respiratory distress.
+  No grunting.
+  No nasal flaring.
+  No chest indrawing.
+  No cyanosis.
+  
+  GIT:
+  
+  Poor feeding.
+  No vomiting.
+  No abdominal distension.
+  No diarrhoea.
+  
+  General:
+  
+  No fever.
+  No hypothermia documented.
+  No lethargy prior to onset of current symptoms.
+  
+  Past Medical History:
+  
+  No previous medical illness.
+  No previous episodes of hypoglycaemia.
+  No known congenital abnormality.
+  
+  Drug History:
+  
+  No medications apart from routine neonatal prophylaxis.
+  No known drug exposure.
+  
+  Family History:
+  
+  No family history of metabolic disorders.
+  No known family history of recurrent neonatal hypoglycaemia.
+  No known endocrine disease in the family.
+  
+  O/E:
+  
+  Male neonate, conscious but mildly irritable and jittery on handling.
+  
+  Not pale.
+  Not jaundiced.
+  Not cyanosed.
+  Mildly lethargic during attempted feeding.
+  Mucous membranes moist.
+  No peripheral oedema.
+  
+  Vitals:
+  
+  Temp 36.5°C.
+  PR 142 bpm, regular.
+  RR 48 cpm.
+  SpO₂ 98% on room air.
+  Capillary refill <2 seconds.
+  
+  Anthropometry:
+  
+  Birth weight 2.7 kg.
+  Current weight 2.7 kg.
+  Length 48 cm.
+  Head circumference 33 cm.
+  
+  Baby is appropriate for gestational age.
+  
+  CNS:
+  
+  Mildly irritable.
+  
+  Intermittent tremulousness/jitteriness noted.
+  
+  Anterior fontanelle soft and flat.
+  
+  Normal tone overall.
+  
+  No focal neurological deficit.
+  
+  No clinical seizure activity at the time of examination.
+  
+  Respiratory:
+  
+  Chest moves symmetrically.
+  
+  Air entry good bilaterally.
+  
+  Normal vesicular breath sounds.
+  
+  No grunting.
+  No nasal flaring.
+  No chest indrawing.
+  
+  CVS:
+  
+  Pulse regular and good volume.
+  
+  Heart sounds I and II present.
+  
+  No murmur.
+  
+  Peripheral pulses palpable.
+  
+  Capillary refill <2 seconds.
+  
+  ABD:
+  
+  Soft and non-distended.
+  
+  No palpable organomegaly.
+  
+  Umbilical stump clean.
+  
+  Bowel sounds present.
+  
+  Genitourinary:
+  
+  Normal male external genitalia.
+  
+  Both testes descended.
+  
+  Blood Glucose:
+  
+  Initial bedside capillary blood glucose: 1.9 mmol/L.
+  
+  Given the presence of symptoms, this is clinically significant neonatal hypoglycaemia requiring immediate treatment and repeat glucose monitoring.
+  
+  ASS:
+  
+  Symptomatic neonatal hypoglycaemia in an early-term neonate, presenting with poor feeding and jitteriness, with initial bedside blood glucose of 1.9 mmol/L.
+  
+  Baby is currently haemodynamically stable, normothermic and without clinical evidence of sepsis, respiratory distress or seizures.
+  
+  Possible Aetiologies/Risk Factors:
+  
+  1. Inadequate oral intake/breastfeeding difficulty.
+  2. Increased glucose utilization.
+  3. Perinatal stress.
+  4. Sepsis.
+  5. Hypothermia.
+  6. Hyperinsulinism.
+  7. Maternal diabetes mellitus, although not currently documented.
+  8. Prematurity or small-for-gestational-age status, less likely in this baby.
+  9. Endocrine/metabolic disorder if hypoglycaemia is persistent or recurrent.
+  
+  Differentials:
+  
+  1. Symptomatic neonatal hypoglycaemia.
+  2. Neonatal sepsis.
+  3. Hypocalcaemia.
+  4. Neonatal seizures.
+  5. Hypothermia.
+  6. Inborn error of metabolism.
+  7. Congenital endocrine disorder.
+  
+  Investigations:
+  
+  Repeat bedside blood glucose after initial intervention and continue serial monitoring according to neonatal protocol.
+  
+  Send a laboratory plasma glucose sample where feasible, particularly if hypoglycaemia persists or the bedside result is unexpected. Treatment should not be delayed while awaiting laboratory confirmation in a symptomatic neonate.
+  
+  Full Blood Count to assess for anaemia, leukocytosis or other abnormalities suggestive of infection.
+  
+  Septic screen if there are clinical risk factors or features suggestive of sepsis, including blood culture and CRP where available.
+  
+  Serum electrolytes, particularly if hypoglycaemia is persistent or associated with other clinical abnormalities.
+  
+  Serum calcium and magnesium in a symptomatic neonate with jitteriness or persistent hypoglycaemia.
+  
+  If hypoglycaemia is persistent, recurrent or unexplained, obtain a critical sample during hypoglycaemia where possible, including plasma glucose, insulin/C-peptide as appropriate, beta-hydroxybutyrate/ketones, free fatty acids, cortisol, growth hormone, lactate and blood gas, with other metabolic investigations guided by the neonatal/endocrine team.
+  
+  PLAN:
+  
+  Immediate Stabilization:
+  
+  Assess airway, breathing, circulation, temperature, level of consciousness and feeding ability.
+  
+  Keep the baby warm and avoid unnecessary heat loss.
+  
+  Treatment of Symptomatic Hypoglycaemia:
+  
+  Because the baby is symptomatic with a glucose of 1.9 mmol/L, initiate prompt glucose therapy according to neonatal protocol.
+  
+  If IV access is available:
+  
+  10% dextrose (D10W) 2 mL/kg IV bolus may be administered, followed immediately by a continuous glucose infusion.
+  
+  For a 2.7 kg baby:
+  
+  D10W bolus = approximately 5.4 mL IV.
+  
+  The glucose infusion rate should then be adjusted according to serial blood glucose measurements and clinical response.
+  
+  Avoid unnecessarily repeated concentrated dextrose boluses because of the risk of rebound hypoglycaemia and hyperglycaemia.
+  
+  Enteral Feeding:
+  
+  If the baby is clinically stable and able to feed, establish adequate breastfeeding as soon as possible.
+  
+  Support the mother with correct positioning, proper attachment, frequent breastfeeding and assessment of effective milk transfer.
+  
+  If breastfeeding is inadequate, expressed breast milk may be given by an appropriate method.
+  
+  Do not rely on oral feeding alone in a symptomatic neonate with significant hypoglycaemia if the baby is unable to feed effectively.
+  
+  Glucose Monitoring:
+  
+  Recheck blood glucose after treatment according to the neonatal unit protocol, commonly within approximately 30 minutes after intervention, and continue serial monitoring until glucose remains consistently within the desired range.
+  
+  Monitor for recurrence, particularly around feeds and when IV glucose is reduced.
+  
+  Treat Underlying Cause:
+  
+  Assess and treat contributing factors.
+  
+  If sepsis is suspected, obtain cultures where possible and commence appropriate empiric neonatal antibiotics according to local neonatal protocol.
+  
+  If hypothermic, provide appropriate thermal care.
+  
+  If feeding difficulty is present, provide lactation support and supplemental expressed breast milk where necessary.
+  
+  If hypoglycaemia persists despite adequate glucose infusion, escalate to Neonatology/Paediatric Endocrinology for assessment of hyperinsulinism, endocrine disorders and metabolic disease.
+  
+  Refractory Hypoglycaemia:
+  
+  Persistent hypoglycaemia requiring high glucose infusion rates should prompt urgent specialist assessment.
+  
+  Depending on the suspected cause, specialist-directed treatment may include glucagon or diazoxide, particularly when hyperinsulinism is suspected.
+  
+  These should not be commenced empirically without appropriate specialist assessment.
+  
+  Nursing Instructions:
+  
+  Maintain thermoneutral environment.
+  
+  Monitor vital signs regularly.
+  
+  Monitor blood glucose as prescribed.
+  
+  Observe for jitteriness, lethargy or seizures.
+  
+  Monitor respiratory status.
+  
+  Encourage and document feeding.
+  
+  Record urine and stool output.
+  
+  Administer IV glucose accurately.
+  
+  Observe IV site for extravasation.
+  
+  Document all glucose measurements and interventions.
+  
+  Parental Counselling:
+  
+  Explain to the mother that the baby's blood glucose is lower than desired and that this can cause symptoms such as jitteriness, poor feeding, lethargy and, if severe or prolonged, seizures.
+  
+  Explain that prompt treatment is being given to restore the blood glucose level.
+  
+  Encourage frequent breastfeeding once the baby is clinically able to feed.
+  
+  Explain the importance of reporting increasing sleepiness, poor feeding, abnormal movements, apnoea, seizures or cyanosis.
+  
+  Reassure the mother that many episodes of neonatal hypoglycaemia resolve once feeding is established and contributing factors are corrected, although persistent or recurrent episodes require further investigation.
+  
+  Warning Signs:
+  
+  Urgently escalate if the baby develops:
+  
+  Seizures.
+  Increasing lethargy.
+  Apnoea.
+  Cyanosis.
+  Persistent poor feeding.
+  Recurrent hypoglycaemia.
+  Respiratory distress.
+  Temperature instability.
+  Signs of sepsis.
+  
+  Follow-up:
+  
+  Continue serial blood glucose monitoring until stable and maintaining an appropriate glucose level without IV supplementation.
+  
+  Assess feeding adequacy before discharge.
+  
+  Monitor weight and hydration.
+  
+  If hypoglycaemia is recurrent or persistent, arrange Neonatology/Paediatric Endocrinology review and complete appropriate metabolic/endocrine evaluation.
+  
+  Prognosis:
+  
+  Good if promptly recognized and appropriately treated, particularly when hypoglycaemia is transient and related to inadequate intake or an identifiable reversible cause.
+  
+  Prolonged, severe or recurrent neonatal hypoglycaemia carries a risk of neurological injury and therefore requires prompt treatment and appropriate follow-up.
+  
+  Final working diagnosis: Symptomatic neonatal hypoglycaemia (blood glucose 1.9 mmol/L) presenting with poor feeding and jitteriness in an early-term neonate, currently haemodynamically stable and requiring immediate glucose correction and evaluation for the underlying cause.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-44',
+    title: 'Tinea Pedis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Skin Infections',
+    condition: 'Tinea Pedis',
+    symptoms: ['Interdigital itching', 'Peeling skin', 'Scaling', 'Maceration', 'Interdigital fissuring'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '29-year-old Yoruba male security guard with 3 weeks of progressive bilateral interdigital itching, maceration, scaling and fissuring, worsened by prolonged use of occlusive combat boots and previously treated with a clobetasol-containing triple-action cream, clinically consistent with interdigital tinea pedis with probable tinea incognito.',
+    content: `GENERAL OUTPATIENT CLINIC
+  
+  Patient Seen
+  
+  A 29-year-old Yoruba male security guard from Ibadan, Oyo State.
+  
+  PC:
+  
+  Itchy, peeling skin between the toes of both feet × 3 weeks.
+  
+  HPC:
+  
+  The patient presented with a 3-week history of intense and progressive itching and peeling of the skin between the toes of both feet.
+  
+  The symptoms initially started in the 4th interdigital space of the left foot and subsequently spread to the right foot.
+  
+  There is associated scaling, redness and painful cracking (fissuring) of the skin, making walking uncomfortable.
+  
+  Symptoms are worse towards the end of his 12-hour work shifts, during which he wears heavy, non-breathable leather combat boots.
+  
+  No history of fever.
+  No history of leg swelling.
+  No history of purulent discharge from the lesions.
+  No history of similar lesions elsewhere on the body.
+  
+  PTP, patient self-medicated with an OTC "triple-action" cream containing clobetasol, neomycin and ketoconazole, which he applied × 10 days.
+  
+  He reports temporary relief of itching, but the lesions became more extensive and itchy after stopping the cream.
+  
+  Past Medical History:
+  
+  No known chronic medical conditions.
+  Not a known diabetic.
+  Not a known hypertensive.
+  No history of asthma.
+  No history of atopic dermatitis.
+  No history of allergic rhinitis.
+  No previous hospital admissions or surgeries.
+  
+  Drug History:
+  
+  Topical "triple-action" cream (Funbact-A) used intermittently × 10 days.
+  No known drug allergies.
+  
+  Family and Social History:
+  
+  Works as a security guard and stands and walks for long hours in occlusive footwear.
+  
+  Lives in a shared "face-to-face" apartment with shared bathroom facilities.
+  
+  Non-smoker.
+  Does not drink alcohol.
+  
+  Review of Systems:
+  
+  General:
+  
+  No fever.
+  No weight loss.
+  
+  CVS:
+  
+  No orthopnoea.
+  No pedal oedema.
+  
+  RS:
+  
+  No cough.
+  No dyspnoea.
+  
+  GIT:
+  
+  No abdominal pain.
+  Normal bowel habits.
+  
+  CNS:
+  
+  Alert and oriented.
+  No headache.
+  
+  MSS:
+  
+  No joint pain.
+  No joint swelling.
+  
+  O/E:
+  
+  Young man, comfortable and not acutely ill, not pale, anicteric, acyanosed and well hydrated. No peripheral lymphadenopathy. No bilateral pedal oedema.
+  
+  Vitals:
+  
+  Temp 36.6°C.
+  PR 74 bpm, regular, normal volume.
+  RR 16 cpm.
+  BP 115/75 mmHg.
+  SpO₂ 99% on room air.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  
+  RS:
+  
+  Lungs clear.
+  Vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  ABD:
+  
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  CNS:
+  
+  Grossly intact.
+  No focal neurological deficits.
+  
+  Dermatological Examination:
+  
+  Erythematous, macerated and scaling plaques involving the 3rd and 4th interdigital webs of both feet.
+  
+  Visible linear fissure in the 4th interdigital space of the left foot.
+  
+  Mild tenderness over the left interdigital fissure.
+  
+  No active purulent discharge.
+  No increased warmth.
+  No surrounding cellulitis.
+  
+  Toenails intact.
+  No subungual hyperkeratosis.
+  No nail thickening.
+  No nail discoloration.
+  
+  Dorsalis pedis and posterior tibial pulses palpable and equal bilaterally.
+  
+  ASS:
+  
+  Interdigital tinea pedis, exacerbated by prolonged use of occlusive footwear, with probable steroid-induced tinea incognito following inappropriate use of a clobetasol-containing triple-action cream.
+  
+  Differentials:
+  
+  1. Erythrasma due to Corynebacterium minutissimum.
+  2. Contact dermatitis, allergic or irritant, secondary to footwear materials.
+  3. Cutaneous candidiasis.
+  4. Dyshidrotic eczema (pompholyx).
+  
+  Investigations:
+  
+  Skin scrapings for KOH mount to identify fungal hyphae and arthroconidia and confirm dermatophyte infection.
+  
+  Fasting blood glucose to screen for underlying diabetes mellitus as a potential predisposing factor for persistent or recurrent cutaneous infection.
+  
+  Wood's lamp examination if available to assess for coral-red fluorescence suggestive of erythrasma.
+  
+  PLAN:
+  
+  Pharmacological:
+  
+  Clotrimazole 1% cream or Miconazole 2% cream applied to affected areas twice daily × 4 weeks.
+  
+  Continue topical antifungal treatment for an appropriate period after clinical resolution according to local treatment guidance.
+  
+  Strictly discontinue the use of "triple-action" and other steroid-containing creams unless specifically prescribed for an appropriate indication.
+  
+  Explain that topical corticosteroids such as clobetasol can suppress local immunity and worsen fungal infections, resulting in tinea incognito.
+  
+  Paracetamol 1 g orally three times daily as required × 3 days for pain associated with the interdigital fissure.
+  
+  Non-Pharmacological and Hygiene Measures:
+  
+  Keep the feet, particularly the interdigital spaces, clean and completely dry.
+  
+  Dry the feet thoroughly with a dedicated clean towel after bathing.
+  
+  Do not share towels.
+  
+  Wear light, breathable cotton socks and change them daily.
+  
+  Avoid wearing occlusive leather boots continuously where possible.
+  
+  Air out work boots and alternate footwear if possible.
+  
+  Wear open footwear when off duty where appropriate.
+  
+  Avoid walking barefoot in shared bathrooms.
+  
+  Use slippers in shared bathroom facilities.
+  
+  Follow-up:
+  
+  Review in 2 weeks to assess clinical response and treatment compliance.
+  
+  Clinical Rationale:
+  
+  The patient's prolonged use of heavy, occlusive combat boots creates a warm, moist environment that promotes dermatophyte growth and predisposes to interdigital tinea pedis.
+  
+  The clinical findings of bilateral interdigital maceration, scaling, erythema, pruritus and fissuring are characteristic of interdigital tinea pedis.
+  
+  The history of temporary improvement followed by worsening after use of a clobetasol-containing triple-action cream raises concern for steroid-modified dermatophytosis (tinea incognito).
+  
+  KOH microscopy of skin scrapings provides a low-cost method of confirming dermatophyte infection where available.
+  
+  Erythrasma is an important differential diagnosis and may demonstrate coral-red fluorescence under Wood's lamp examination.
+  
+  Fasting blood glucose may be considered to identify diabetes mellitus as a predisposing factor, particularly in persistent or recurrent infections.
+  
+  Localized uncomplicated tinea pedis can generally be managed with topical imidazole antifungals such as Clotrimazole or Miconazole. Oral antifungal therapy is generally reserved for extensive, refractory disease or associated nail involvement.
+  
+  Moisture control, appropriate footwear and avoidance of shared personal items are important to prevent recurrence and transmission.
+  
+  Final working diagnosis: Interdigital tinea pedis with probable steroid-induced tinea incognito, exacerbated by prolonged use of occlusive footwear.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-43',
+    title: 'Tinea Corporis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Dermatology',
+    condition: 'Tinea Corporis',
+    symptoms: ['Pruritic skin rash', 'Annular plaques', 'Central clearing', 'Scaly active border', 'Skin lesions'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '6-year-old boy with 2 weeks of intensely pruritic annular erythematous plaques with raised scaly active borders and central clearing on the trunk and left arm, with recent hydrocortisone use causing worsening lesions and a possible zoonotic source from a puppy with patchy hair loss, clinically consistent with tinea corporis with probable tinea incognito.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 6-year-old male Yoruba child from Ogbomoso, Oyo State. Informant: Mother, a trader.
+  
+  PC:
+  
+  Itchy skin rash on the trunk and left arm × 2 weeks.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 2 weeks prior to presentation when he developed a small, red, itchy papule on the abdomen which gradually expanded outwards.
+  
+  Over several days, the lesion developed a classic ring-like appearance with a raised, scaly, active border and central clearing.
+  
+  A similar but smaller lesion subsequently appeared on the lateral aspect of the left upper arm approximately 1 week prior to presentation.
+  
+  The lesions are intensely pruritic, particularly when the patient is warm or sweating, causing significant discomfort and disrupting sleep.
+  
+  No history of fever.
+  No history of cough.
+  No history of rhinorrhoea.
+  No history of joint pain.
+  No history of scalp hair loss.
+  No history of nail changes.
+  
+  PTP, mother applied a local herbal mixture and OTC Hydrocortisone 1% cream twice daily × 5 days.
+  
+  The hydrocortisone provided temporary relief of itching, but the lesions subsequently became larger, redder and spread more rapidly.
+  
+  The family acquired a new domestic puppy approximately 3 weeks ago which has patchy hair loss on its skin.
+  
+  Past Medical History:
+  
+  No history of asthma.
+  No history of allergic rhinitis.
+  No history of atopic dermatitis.
+  No previous hospital admissions or surgeries.
+  Genotype AA.
+  Immunization history complete for age according to the NPI schedule.
+  
+  Drug History:
+  
+  Topical Hydrocortisone 1% cream applied twice daily × 5 days.
+  Local herbal mixture applied prior to presentation.
+  No previous systemic antifungal therapy.
+  No known drug allergies.
+  
+  Family and Social History:
+  
+  Patient is the 2nd of 3 children in a monogamous family.
+  Lives with parents and 2 older siblings in a 2-room apartment.
+  Source of water is a protected well.
+  No other family member has a similar skin rash.
+  Family recently acquired a domestic puppy with patchy hair loss.
+  
+  Review of Systems:
+  
+  General:
+  
+  Active.
+  No fever.
+  No weight loss.
+  
+  GIT:
+  
+  Normal appetite.
+  No vomiting.
+  No diarrhoea.
+  
+  RS:
+  
+  No cough.
+  No fast breathing.
+  
+  CVS:
+  
+  No easy fatigability.
+  No cyanosis.
+  
+  CNS:
+  
+  Normal developmental milestones.
+  No seizures.
+  
+  O/E:
+  
+  Conscious, alert and active, well-nourished, not pale, anicteric, acyanosed and well hydrated. No significant peripheral lymphadenopathy.
+  
+  Vitals:
+  
+  Temp 36.7°C.
+  PR 94 bpm, regular, normal volume.
+  RR 22 cpm.
+  SpO₂ 99% in room air.
+  
+  Dermatological Examination:
+  
+  Trunk:
+  
+  Well-demarcated annular erythematous plaque measuring approximately 4 × 4 cm on the anterior abdominal wall.
+  
+  Raised active scaly border with fine papules and central clearing.
+  
+  Left Upper Arm:
+  
+  Similar annular erythematous plaque measuring approximately 2 × 2 cm on the lateral aspect of the left upper arm.
+  
+  Scalp and Nails:
+  
+  Normal hair distribution.
+  No patches of alopecia.
+  No scalp scaling.
+  Nails healthy with no subungual hyperkeratosis or dystrophy.
+  
+  Chest:
+  
+  Lungs clear.
+  Vesicular breath sounds bilaterally.
+  No adventitious sounds.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  
+  ABD:
+  
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  CNS:
+  
+  Grossly intact.
+  No focal neurological deficits.
+  
+  ASS:
+  
+  Tinea corporis with probable tinea incognito following topical corticosteroid use, likely secondary to zoophilic transmission from the household puppy.
+  
+  Differentials:
+  
+  1. Nummular eczema.
+  2. Pityriasis rosea.
+  3. Annular psoriasis.
+  4. Cutaneous candidiasis.
+  
+  Investigations:
+  
+  Skin scrapings for KOH mount to identify fungal hyphae and arthroconidia and confirm dermatophytosis.
+  
+  Wood's lamp examination if available, although dermatophyte species causing tinea corporis may not always fluoresce.
+  
+  Fungal culture if diagnosis is uncertain, lesions are atypical or there is treatment failure.
+  
+  PLAN:
+  
+  Patient and Caregiver Education:
+  
+  Explain the fungal nature of the infection.
+  
+  Strictly advise against further use of topical corticosteroids such as Hydrocortisone, as steroids suppress local immunity and may worsen or mask fungal infections, resulting in tinea incognito.
+  
+  Advise daily bathing and good personal hygiene.
+  
+  Avoid sharing towels, sponges, clothing and other personal items.
+  
+  Wash clothes and bedsheets regularly and iron where appropriate.
+  
+  Pharmacotherapy:
+  
+  Clotrimazole 1% cream or Miconazole 2% cream applied thinly to affected areas and approximately 2 cm beyond the visible border twice daily × 3–4 weeks.
+  
+  Continue treatment for at least 1 week after clinical clearance according to local prescribing guidance.
+  
+  Chlorpheniramine may be used short-term for significant pruritus according to the child's age/weight and available formulation.
+  
+  Management of Possible Source:
+  
+  Advise the family to take the puppy to a veterinary clinic for assessment and treatment of possible dermatophyte infection.
+  
+  Avoid close contact between the child and affected animal until veterinary assessment and treatment.
+  
+  Follow-up:
+  
+  Review in 2 weeks to assess clinical response, treatment adherence, development of new lesions and evidence of secondary bacterial infection.
+  
+  Refer to Dermatology if lesions become widespread, atypical or fail to improve despite adequate topical antifungal therapy.
+  
+  Clinical Rationale:
+  
+  The presence of annular erythematous plaques with raised, scaly active borders and central clearing is strongly suggestive of tinea corporis.
+  
+  The recent use of topical Hydrocortisone with subsequent enlargement, increased erythema and rapid spread supports tinea incognito due to steroid-induced modification of the fungal infection.
+  
+  The history of a newly acquired puppy with patchy hair loss provides a possible zoonotic source of infection, with Microsporum canis or Trichophyton species being possible causes.
+  
+  KOH microscopy of skin scrapings is a rapid and relatively inexpensive investigation that can confirm dermatophytosis where available.
+  
+  Localized tinea corporis can generally be treated effectively with topical azole antifungals such as Clotrimazole or Miconazole. Systemic antifungal therapy is not routinely required for limited disease without scalp or nail involvement.
+  
+  Short-term antipruritic therapy may help reduce the itch-scratch cycle and improve sleep.
+  
+  Discontinuation of topical corticosteroids is important to allow normal local immune response and prevent further progression of tinea incognito.
+  
+  Public health measures are important because of the possible zoonotic source and the potential for transmission through shared personal items.
+  
+  Final working diagnosis: Tinea corporis with probable tinea incognito following topical Hydrocortisone use, likely acquired through zoonotic transmission from the household puppy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-42',
+    title: 'Tinea Capitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Dermatology',
+    condition: 'Tinea Capitis',
+    symptoms: ['Scalp itching', 'Progressive hair loss', 'Scalp scaling', 'Broken hair shafts', 'Alopecia'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '7-year-old boy with 3 weeks of pruritic, scaly patches of alopecia with broken hair shafts and grey-patch/black-dot appearance, with mild occipital lymphadenopathy and similar cases among schoolmates, clinically consistent with non-inflammatory tinea capitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Seen
+  
+  A 7-year-old male Yoruba child from Ibadan, Oyo State. Informant: Mother, a trader.
+  
+  PC:
+  
+  Scalp itching and progressive hair loss × 3 weeks.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 3 weeks prior to presentation when he developed a small, itchy, scaly papule on the vertex of the scalp which gradually expanded circumferentially.
+  
+  Mother noticed progressive hair loss within the affected area, with hair shafts breaking off close to the scalp.
+  
+  There is associated intense pruritus, worse during the day and when the patient sweats.
+  
+  No history of fever.
+  No history of scalp pain.
+  No history of scalp swelling.
+  No history of discharge of pus.
+  No similar lesions on other parts of the body.
+  No history of contact with stray dogs or cats.
+  
+  Mother reports that 2 of the patient's classmates at school have similar scalp lesions.
+  
+  PTP, mother applied methylated spirit and a local herbal cream to the scalp with no improvement, prompting presentation.
+  
+  Past Medical History:
+  
+  No previous hospital admissions or surgeries.
+  Genotype AA.
+  Immunization history complete up to age according to the NPI schedule.
+  No known drug allergies.
+  
+  Drug History:
+  
+  Topical methylated spirit and herbal mixtures applied × 2 weeks.
+  No prior systemic antifungal or antibiotic use.
+  
+  Family and Social History:
+  
+  Patient is the 2nd of 3 children in a monogamous family.
+  Lives in a rented 2-room apartment with poor ventilation.
+  Source of water is a protected hand-dug well.
+  History of sharing combs, towels and caps with siblings.
+  
+  Review of Systems:
+  
+  General:
+  
+  No fever.
+  No weight loss.
+  Active.
+  
+  GIT:
+  
+  Normal appetite.
+  No abdominal pain.
+  No diarrhoea.
+  
+  RS:
+  
+  No cough.
+  No fast breathing.
+  
+  CVS:
+  
+  No easy fatigability.
+  No chest pain.
+  
+  CNS:
+  
+  Alert.
+  Active.
+  No seizures.
+  
+  O/E:
+  
+  Active, well-nourished child, not pale, anicteric, acyanosed, well hydrated, with no significant peripheral lymphadenopathy apart from mild, non-tender bilateral occipital lymphadenopathy.
+  
+  Vitals:
+  
+  Temp 36.6°C.
+  PR 94 bpm, regular, normal volume.
+  RR 22 cpm.
+  SpO₂ 99% in room air.
+  
+  Dermatological Examination:
+  
+  Multiple well-demarcated, circular patches of alopecia on the vertex and parietal regions, the largest measuring approximately 4 × 3 cm.
+  
+  The patches show fine, dull, greyish-white scaling (grey-patch appearance).
+  
+  Hair shafts within the patches are broken off 1–2 mm above the scalp surface, giving a black-dot appearance.
+  
+  Mild underlying erythema.
+  
+  No boggy swelling.
+  No fluctuance.
+  No tenderness.
+  No evidence of kerion formation.
+  
+  Occipital lymph nodes palpable, discrete and non-tender.
+  
+  Chest:
+  
+  Clear lung fields.
+  Vesicular breath sounds.
+  No adventitious sounds.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  
+  ABD:
+  
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  CNS:
+  
+  Conscious, alert and oriented to time and place.
+  No focal neurological deficits.
+  
+  ASS:
+  
+  Tinea capitis, non-inflammatory type, likely Microsporum or Trichophyton species infection.
+  
+  Differentials:
+  
+  1. Seborrhoeic dermatitis.
+  2. Alopecia areata.
+  3. Scalp psoriasis.
+  4. Bacterial folliculitis/impetigo.
+  
+  Investigations:
+  
+  Skin/scalp scrapings and hair plucking for KOH mount to identify fungal hyphae and arthroconidia and determine ectothrix/endothrix hair invasion.
+  
+  Wood's lamp examination if available to assess for bright green fluorescence suggestive of Microsporum species.
+  
+  Fungal culture on Sabouraud Dextrose Agar for species identification. Treatment may be started empirically while awaiting results due to prolonged incubation period.
+  
+  Baseline LFT if prolonged systemic antifungal therapy is anticipated.
+  
+  PLAN:
+  
+  Systemic Therapy:
+  
+  Oral Griseofulvin (microsize) 20 mg/kg/day as a single daily dose × 6–8 weeks.
+  
+  Administer with a fatty meal such as milk, groundnuts or food prepared with vegetable oil to enhance absorption.
+  
+  Adjuvant Topical Therapy:
+  
+  Ketoconazole 2% shampoo or Selenium Sulfide 2.5% shampoo.
+  
+  Apply to scalp twice weekly, leave on for 5–10 minutes before rinsing.
+  
+  Patient and Caregiver Education:
+  
+  Explain the fungal nature of the disease and the importance of completing the full 6–8 week course of oral treatment even if symptoms resolve early.
+  
+  Avoid sharing combs, hairbrushes, towels, caps and pillows.
+  
+  Wash the patient's bedding, towels and clothing regularly and iron where appropriate.
+  
+  Screen and treat other affected family members and school contacts to prevent reinfection.
+  
+  Avoid further application of methylated spirit or unprescribed herbal preparations to the scalp.
+  
+  Follow-up:
+  
+  Review in 3 weeks to assess clinical response, treatment compliance and potential adverse effects including headache, gastrointestinal upset and rash.
+  
+  Clinical Rationale:
+  
+  Tinea capitis is a superficial fungal infection involving the scalp skin and hair shafts and commonly affects school-aged children.
+  
+  The presence of pruritic, scaly patches of alopecia with broken hair shafts, grey-patch and black-dot appearance, together with mild occipital lymphadenopathy and similar lesions among school contacts, supports the diagnosis.
+  
+  Systemic antifungal therapy is required because topical antifungals alone do not adequately penetrate the infected hair shafts and follicles.
+  
+  Griseofulvin is selected as systemic therapy because of its effectiveness against dermatophytes and suitability for paediatric tinea capitis.
+  
+  Administration with a fatty meal improves griseofulvin absorption and should be emphasized during counselling.
+  
+  Adjunctive ketoconazole or selenium sulfide shampoo helps reduce fungal spore shedding and transmission but does not replace systemic treatment.
+  
+  Public health measures are important because of the history of sharing fomites and similar scalp lesions among schoolmates. Close contacts should be assessed and personal items should not be shared.
+  
+  Final working diagnosis: Non-inflammatory tinea capitis, likely Microsporum or Trichophyton species infection.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-41',
+    title: 'Transient Neonatal Pustular Melanosis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Transient Neonatal Pustular Melanosis',
+    symptoms: ['Neonatal pustular rash', 'Hyperpigmented macules', 'Collarette of scale', 'Skin lesions present at birth'],
+    contributor: 'Admin',
+    lastModified: '2026-08-13',
+    summary: '1-day-old term male neonate with superficial pustules present from birth, ruptured lesions leaving hyperpigmented macules with collarette of scale, clinically consistent with transient neonatal pustular melanosis.',
+    content: `NEONATAL UNIT
+  
+  Patient Seen
+  
+  A 1-day-old term male neonate, Yoruba, Ogbomoso, Oyo State, Nigeria. Informant: Mother, a 26-year-old trader, G1P1.
+  
+  PC:
+  
+  Skin rashes noticed since birth × 1 day.
+  
+  HPC:
+  
+  The patient is a 1-day-old male neonate who presented with skin rashes noticed by the mother immediately after delivery.
+  
+  The rashes initially appeared as small, thin-walled, fluid-filled blisters/pustules primarily on the forehead, chin, neck and chest.
+  
+  Some of the pustules ruptured shortly after birth, leaving small dark, flat spots (hyperpigmented macules) surrounded by a fine rim of peeling skin (collarette of scale).
+  
+  No history of fever.
+  No history of poor feeding.
+  No history of lethargy.
+  No history of excessive crying.
+  No history of maternal genital rashes.
+  No history of maternal vaginal discharge.
+  No history of prolonged rupture of membranes prior to delivery.
+  No native herbs, medicated soaps or over-the-counter creams have been applied to the skin.
+  
+  Past Medical and Obstetric History:
+  
+  Mother is a 26-year-old G1P1, booked at a local PHC.
+  Pregnancy was uneventful.
+  She took routine prenatal supplements and Sulfadoxine-Pyrimethamine (SP) for IPTp-Malaria.
+  HIV and HBsAg screens were negative.
+  
+  Birth History:
+  
+  Delivered at term at 39 weeks via SVD at a private maternity home.
+  Cried immediately at birth.
+  Birth weight 3.1 kg.
+  No neonatal resuscitation was required.
+  
+  Drug History:
+  
+  No medications administered to the neonate since birth except routine IM Vitamin K.
+  BCG, OPV-0 and Hep B-0 scheduled for today.
+  
+  Family and Social History:
+  
+  First child of a monogamous union.
+  Parents are low-income traders residing in a well-ventilated two-room apartment in Ogbomoso.
+  No family history of atopy or chronic skin disorders.
+  
+  Review of Systems:
+  
+  CNS:
+  
+  Active.
+  Good suck reflex.
+  No convulsions.
+  No high-pitched cry.
+  
+  CVS:
+  
+  No cyanosis.
+  Warm extremities.
+  
+  Respiratory:
+  
+  No fast breathing.
+  No grunting.
+  No chest in-drawing.
+  
+  GIT:
+  
+  Tolerating breast milk well.
+  Passed meconium within 12 hours of birth.
+  
+  Genitourinary:
+  
+  Has passed urine since birth.
+  
+  O/E:
+  
+  Active, pink, warm to touch, not pale, anicteric, well hydrated, with no respiratory distress or peripheral lymphadenopathy.
+  
+  Vitals:
+  
+  Temp 36.6°C.
+  HR 138 bpm, regular, normal volume.
+  RR 42 cpm, regular, no distress.
+  SpO₂ 99% in room air.
+  
+  Dermatological Examination:
+  
+  Multiple superficial, fragile, non-follicular pustules measuring 1–2 mm on the forehead, chin and anterior neck, without surrounding erythema.
+  
+  Numerous hyperpigmented macules measuring 2–3 mm with a delicate collarette of scale on the chest, upper back and abdomen.
+  
+  Palms and soles spared.
+  No vesicular lesions on an erythematous base.
+  
+  CNS:
+  
+  Anterior fontanelle flat and normotensive.
+  Normal neonatal reflexes.
+  Moro, grasp, suck and rooting reflexes intact.
+  Normal muscle tone.
+  
+  CVS:
+  
+  S1 and S2 heard.
+  No murmurs.
+  CRT <2 seconds.
+  
+  Chest:
+  
+  Lungs clear bilaterally.
+  Vesicular breath sounds.
+  No adventitious sounds.
+  
+  ABD:
+  
+  Soft.
+  Non-distended.
+  Liver and spleen not palpable.
+  Umbilical cord clean and clamped, with no redness or discharge.
+  
+  ASS:
+  
+  Transient Neonatal Pustular Melanosis (TNPM) in a healthy term neonate.
+  
+  Differentials:
+  
+  1. Erythema toxicum neonatorum — less likely as it typically presents on day 2–3 of life with pustules on a prominent erythematous base and spares the palms and soles, without leaving hyperpigmented macules.
+  2. Neonatal candidiasis — less likely due to absence of maternal thrush, satellite lesions and oral thrush.
+  3. Bullous impetigo/neonatal staphylococcal pustulosis — less likely as the neonate is systemically well, lesions are non-tender, and there is no surrounding cellulitis or systemic inflammatory response.
+  
+  Investigations:
+  
+  Clinical diagnosis.
+  
+  No routine laboratory investigations required.
+  
+  If there is diagnostic doubt or significant parental anxiety:
+  
+  Pustule fluid smear with Wright or Gram stain may be considered to demonstrate numerous neutrophils and absence of bacteria or yeast.
+  
+  PLAN:
+  
+  Reassurance:
+  
+  Provide reassurance to the parents that TNPM is a benign, self-limiting and non-infectious condition.
+  
+  Explain that the pustules resolve within days and the hyperpigmented macules are harmless and will fade over several weeks to months without scarring.
+  
+  Skin Care:
+  
+  Wash the baby's skin gently with mild soap and lukewarm water.
+  Do not squeeze, pop or scrub the pustules.
+  Avoid harsh native herbs, medicated soaps or steroid creams.
+  
+  Nutrition and Routine Care:
+  
+  Encourage and support exclusive breastfeeding.
+  Ensure routine neonatal immunizations including BCG, OPV-0 and Hep B-0.
+  
+  Safety Netting:
+  
+  Return to the clinic immediately if the baby develops:
+  - Fever >37.5°C.
+  - Poor feeding.
+  - Lethargy.
+  - Increasing irritability.
+  - Lesions becoming red, warm or swollen.
+  - Foul-smelling purulent discharge from lesions.
+  
+  Clinical Rationale:
+  
+  Transient Neonatal Pustular Melanosis is a benign, self-limiting dermatosis characterized by sterile pustules present at birth, ruptured pustules with a collarette of scale and subsequent hyperpigmented macules.
+  
+  The presence of pustules from birth, hyperpigmented macules and collarette of scale in an otherwise healthy term neonate strongly supports TNPM.
+  
+  Erythema toxicum neonatorum is less likely because it usually appears after birth and has pustules on an erythematous base.
+  
+  Infectious causes such as Staphylococcus aureus impetigo and Candida are less likely in the absence of systemic symptoms, surrounding inflammation, satellite lesions or oral thrush.
+  
+  No routine investigations or antimicrobial therapy are required when the clinical presentation is typical.
+  
+  Parental reassurance and appropriate skin care are the mainstays of management. Parents should be advised against applying traditional herbs, medicated soaps or unnecessary topical medications because of the risk of skin irritation or secondary complications.
+  
+  Final working diagnosis: Transient Neonatal Pustular Melanosis in a healthy term neonate.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'peds-40',
     title: 'Atopic Dermatitis with Post-inflammatory Hyperpigmentation',
     specialty: 'Pediatrics',
@@ -12201,6 +15308,1784 @@ Not yet available
 
 
   // Internal Medicine
+  {
+    id: 'im-58',
+    title: 'Neurocysticercosis Presenting with New-Onset Seizures',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Neurocysticercosis',
+    symptoms: [
+      'Generalized tonic-clonic seizures',
+      'Progressive headache',
+      'Projectile vomiting',
+      'Transient blurred vision',
+      'Features of raised intracranial pressure',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-21',
+    summary: '34-year-old man with recurrent generalized tonic-clonic seizures and a 3-month history of progressive morning-predominant headache, vomiting, and transient visual blurring, with papilledema and significant exposure risk for Taenia solium, suggestive of neurocysticercosis.',
+    content: `
+  MEDICAL WARD
+  
+  Patient Seen
+  
+  A 34-year-old Angas Christian man, pig farmer/trader, resident of Pankshin, Plateau State, married with three children, who presented with recurrent generalized tonic-clonic seizures and progressive headache.
+  
+  PC:
+  Recurrent generalized tonic-clonic seizures × 2 episodes prior to presentation (PTP)
+  Progressive, throbbing headache × 3 months
+  
+  HPC:
+  The patient presented on account of two episodes of generalized tonic-clonic seizures, the first occurring 2 days prior to presentation and the second on the morning of presentation.
+  
+  Each episode lasted approximately 3–5 minutes and was characterized by loss of consciousness, tonic-clonic movements of all four limbs, upward rolling of the eyes, tongue biting, and urinary incontinence.
+  
+  There was associated post-ictal somnolence and confusion lasting about 30 minutes.
+  
+  No prior history of seizures in childhood or adulthood.
+  
+  There is a preceding 3-month history of progressive, generalized, throbbing headache, which is worse in the early mornings and aggravated by coughing or bending forward. The headache was initially relieved by over-the-counter analgesics but has recently become intractable.
+  
+  Associated with occasional projectile vomiting and transient blurring of vision.
+  
+  No history of fever, neck stiffness, photophobia, weakness of one side of the body, or head trauma.
+  
+  No history of chronic cough, drenching night sweats, or significant weight loss.
+  
+  Dietary history reveals frequent consumption of pork from local, unregulated slaughterhouses, often prepared at local drinking joints.
+  
+  Past Medical History:
+  No known chronic medical illnesses (hypertension, diabetes mellitus, or asthma).
+  No previous history of tuberculosis or contact with a chronic cough patient.
+  No previous hospital admissions, surgeries, or blood transfusions.
+  
+  Drug History:
+  Self-medicated with Tab Paracetamol 1 g TDS and Tab Ibuprofen 400 mg BD for the headaches with minimal relief.
+  No history of traditional herbal concoction ingestion.
+  
+  Family and Social History:
+  Married with three children; family members are currently asymptomatic.
+  Resides in a semi-urban settlement in Pankshin.
+  Source of water is a communal shallow well.
+  Poor sanitary conditions with open defecation practiced in the neighborhood.
+  Keeps pigs in a free-roaming backyard pen.
+  No family history of epilepsy or psychiatric illness.
+  
+  Review of Systems:
+  
+  CNS:
+  As detailed in HPC.
+  No focal sensory or motor deficits.
+  
+  GIT:
+  No abdominal pain, diarrhoea, or passage of worm segments in stool.
+  
+  RS:
+  No cough, dyspnoea, or chest pain.
+  
+  CVS:
+  No palpitations, orthopnoea, or pedal swelling.
+  
+  MSS:
+  No joint pain or swelling.
+  
+  O/E:
+  Young man, conscious, alert, not acutely distressed, not pale, anicteric, acyanosed, no peripheral lymphadenopathy, no pedal oedema.
+  Hydration status is satisfactory.
+  
+  Vitals:
+  Temp: 36.8°C
+  PR: 72 bpm, regular, full volume
+  RR: 16 cpm
+  BP: 120/80 mmHg
+  SpO₂: 98% on room air
+  
+  CNS:
+  GCS: 15/15.
+  Meningeal signs: Neck stiffness negative, Kernig's sign negative.
+  Cranial nerves I–XII intact.
+  Fundoscopy reveals bilateral mild papilloedema with blurring of optic disc margins.
+  No retinal cysts visualized.
+  
+  Motor System:
+  Normal muscle bulk and tone globally.
+  Power 5/5 in all four limbs.
+  Deep tendon reflexes normal (2+) and symmetrical.
+  Plantar response flexor bilaterally.
+  
+  Sensory System:
+  Intact to pain, touch, and temperature globally.
+  
+  Cerebellar:
+  No cerebellar signs.
+  
+  CVS:
+  Pulse 72 bpm, regular.
+  BP 120/80 mmHg.
+  Apex beat located at the 5th left intercostal space, midclavicular line.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  RS:
+  Trachea central.
+  Chest symmetrical and moves with respiration.
+  Tactile fremitus normal.
+  Percussion note resonant bilaterally.
+  Vesicular breath sounds heard globally.
+  No adventitious sounds.
+  
+  ABD:
+  Flat, moves with respiration.
+  Soft, non-tender.
+  No hepatosplenomegaly or palpable masses.
+  Bowel sounds normal.
+  
+  ASSESSMENT:
+  Neurocysticercosis, likely parenchymal active/degenerating stage, presenting with new-onset seizures and features of raised intracranial pressure.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Brain abscess.
+  2. Tuberculoma (CNS tuberculosis).
+  3. Intracranial space-occupying lesion, e.g. primary brain tumour or metastasis.
+  4. Idiopathic epilepsy — less likely given late onset and features of raised intracranial pressure.
+  
+  INITIAL INVESTIGATION PLAN:
+  1. Contrast-enhanced CT scan of the brain to assess for cystic lesions with scolex, ring-enhancing lesions, or calcifications.
+  2. Ophthalmology consultation for formal slit-lamp examination and fundoscopy to rule out intraocular/subretinal cysticercosis prior to antiparasitic therapy.
+  3. Full Blood Count (FBC) to assess for eosinophilia.
+  4. Serum Electrolytes, Urea and Creatinine (E/U/Cr) for baseline assessment.
+  5. Stool microscopy to check for Taenia solium eggs/proglottids.
+  6. Retroviral screening (RVS) for baseline screening.
+  
+  INITIAL MANAGEMENT PLAN:
+  
+  Immediate Seizure Precautions & Stabilisation:
+  - Keep patient in the lateral decubitus position during active seizures.
+  - Maintain airway and administer oxygen if SpO₂ drops.
+  - Secure patent intravenous access.
+  - Initiate anticonvulsant therapy with Tab Levetiracetam 500 mg BD (or Tab Carbamazepine 200 mg BD) to control seizures.
+  
+  Control of Perilesional Oedema / Raised ICP:
+  - Initiate corticosteroid therapy before antiparasitic treatment to reduce the inflammatory response associated with dying larvae.
+  - Administer IV Dexamethasone 4 mg 6-hourly (or Tab Prednisolone 1 mg/kg/day, approximately 60 mg daily) for 3–5 days, with gradual tapering.
+  
+  Specific Antiparasitic Therapy:
+  - Commence only after ophthalmology clearance and adequate corticosteroid cover.
+  - Tab Albendazole 15 mg/kg/day in two divided doses (approximately 400 mg BD) for 10–14 days.
+  
+  Supportive Care & Monitoring:
+  - Monitor vital signs, GCS, and seizure activity 4-hourly.
+  - Maintain adequate hydration.
+  
+  Referral/Escalation:
+  - Refer to a tertiary healthcare facility with Neurology and Neurosurgery services once stabilised for definitive management, follow-up neuroimaging, and long-term seizure control monitoring.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-57',
+    title: 'Acute Methanol Poisoning',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Emergency Medicine / Toxicology',
+    condition: 'Methanol Poisoning',
+    symptoms: [
+      'Altered sensorium',
+      'Blurred vision',
+      'Epigastric pain',
+      'Vomiting',
+      'Kussmaul breathing',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-21',
+    summary: '34-year-old man presenting with altered sensorium, visual disturbance, abdominal pain, vomiting, and Kussmaul breathing following ingestion of local gin, consistent with acute methanol poisoning with severe metabolic acidosis and early ophthalmic toxicity.',
+    content: `
+  EMERGENCY DEPARTMENT
+  
+  Patient Seen
+  
+  A 34-year-old Yoruba man, commercial driver, resident of Ibadan, Oyo State, who presented with altered sensorium, blurred vision, abdominal pain, and vomiting.
+  
+  PC:
+  Altered sensorium × 6 hours
+  Blurred vision × 8 hours
+  Abdominal pain and vomiting × 12 hours
+  
+  HPC:
+  The patient was brought to the Emergency Department by his brother on account of progressive confusion and visual impairment.
+  
+  History revealed ingestion of a local herbal gin mixture ("ogogoro") at a local joint approximately 18 hours prior to presentation (PTP). He was initially asymptomatic but developed severe, constant epigastric pain and non-bilious, non-projectile vomiting (3 episodes) about 12 hours PTP.
+  
+  This was followed by progressive blurring of vision, described by the patient as "seeing in a snowstorm," and progressive shortness of breath.
+  
+  Over the last 6 hours, he became increasingly confused, disoriented, and restless.
+  
+  There is no history of fever, convulsions, head trauma, neck stiffness, or prior similar episodes. No history of chronic alcohol abuse, though he drinks socially.
+  
+  Past Medical History:
+  No known chronic medical illnesses (Hypertension, Diabetes Mellitus, Asthma).
+  No history of previous hospital admissions, surgeries, or blood transfusions.
+  Genotype: AA.
+  
+  Drug History:
+  No regular prescription medications.
+  History of occasional herbal mixture ingestion.
+  No known drug allergies.
+  
+  Family and Social History:
+  Married with two children.
+  Works as a commercial driver; reports high stress.
+  Social drinker of local gin ("ogogoro").
+  Non-smoker.
+  
+  Review of Systems:
+  
+  CNS:
+  Confused, blurred vision, photophobia.
+  No headache, no focal weakness.
+  
+  RS:
+  Tachypnea, deep breathing.
+  No cough, no chest pain.
+  
+  CVS:
+  Palpitations.
+  No orthopnea, no paroxysmal nocturnal dyspnoea.
+  
+  GIT:
+  Epigastric pain, vomiting.
+  No diarrhoea, no haematemesis.
+  
+  UT:
+  Normal urine output.
+  No haematuria.
+  
+  O/E:
+  Acutely ill-looking man, in respiratory distress with deep, rapid breathing, mildly dehydrated, conscious but confused and restless.
+  No pallor, no jaundice, no peripheral oedema, no cyanosis.
+  
+  Vitals:
+  Temp: 36.6°C
+  PR: 108 bpm, regular, moderate volume
+  RR: 28 cpm, deep Kussmaul pattern
+  BP: 110/70 mmHg
+  SpO₂: 96% on room air
+  
+  CNS:
+  GCS 13/15 (E4 V4 M5).
+  Pupils bilaterally dilated (approximately 5 mm), sluggishly reactive to light.
+  Fundoscopy reveals optic disc hyperaemia and mild retinal oedema.
+  No focal neurological deficits.
+  Meningeal signs negative.
+  
+  RS:
+  Tachypnoea with Kussmaul breathing.
+  Trachea central.
+  Chest expansion symmetrical.
+  Percussion note resonant.
+  Vesicular breath sounds.
+  No adventitious sounds.
+  
+  CVS:
+  S1 S2 heard.
+  No murmurs.
+  Pulse character normal.
+  
+  ABD:
+  Flat, moves with respiration.
+  Mild epigastric tenderness.
+  No organomegaly.
+  Bowel sounds present and normal.
+  
+  ASSESSMENT:
+  Acute methanol poisoning with severe metabolic acidosis and early ophthalmic toxicity.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Ethylene glycol poisoning — similar presentation but typically lacks the specific visual/retinal toxicity and may present with calcium oxalate crystalluria.
+  2. Diabetic ketoacidosis (DKA) — presents with high anion gap metabolic acidosis and Kussmaul breathing, but usually accompanied by hyperglycaemia and ketonuria.
+  3. Severe sepsis with metabolic acidosis.
+  
+  INITIAL INVESTIGATION PLAN:
+  1. Urgent arterial blood gas (ABG) to assess pH, pCO₂, HCO₃⁻ and calculate the anion gap.
+  2. Serum electrolytes, urea and creatinine to calculate the anion gap and assess renal function.
+  3. Random blood glucose (RBG) to rule out DKA.
+  4. Urinalysis to check for ketones, glucose and crystals.
+  5. Serum ethanol/methanol levels, if available, though highly unlikely in this resource setting; clinical diagnosis and osmolar gap calculation are prioritised.
+  6. Electrocardiogram (ECG) to monitor for QTc prolongation or arrhythmias.
+  
+  INITIAL MANAGEMENT PLAN:
+  
+  Resuscitation & Stabilisation:
+  - Secure airway and administer high-flow oxygen via face mask.
+  - Establish two wide-bore IV lines.
+  - Infuse Normal Saline 1 L stat to correct dehydration and maintain renal perfusion.
+  - Insert urethral catheter to monitor hourly urine output (target >0.5 mL/kg/hr).
+  
+  Antidote Therapy (Ethanol):
+  Fomepizole is unavailable/unaffordable in this setting. Oral ethanol will be used as a competitive inhibitor of alcohol dehydrogenase (ADH).
+  - Administer oral loading dose of 10% ethanol solution (prepared by diluting 40% commercial spirit/gin with water/juice) at 0.8 g/kg (approximately 2 mL/kg of 40% alcohol) via nasogastric tube.
+  - Follow with a maintenance dose of 0.13 g/kg/hour (approximately 0.3 mL/kg/hour of 40% alcohol) to maintain target blood ethanol level of 100–150 mg/dL.
+  
+  Correction of Acidosis:
+  - Administer Sodium Bicarbonate (NaHCO₃) 1–2 mEq/kg IV bolus slowly, followed by an infusion (150 mEq in 1 L 5% Dextrose) to maintain systemic pH >7.30.
+  - This is critical to reduce the proportion of non-ionised formic acid and limit tissue toxicity.
+  
+  Cofactor Therapy:
+  - Administer Folic acid 50 mg IV (or PO if IV is unavailable) 4–6 hourly to facilitate the metabolism of formic acid.
+  
+  Referral & Definitive Therapy:
+  - Contact the nearest tertiary centre (e.g., University College Hospital, Ibadan) for urgent transfer for haemodialysis.
+  - Indications include severe metabolic acidosis, visual changes, or clinical deterioration.
+  - Ensure the patient is haemodynamically stable and accompanied by a medical officer during transfer with ongoing antidote and bicarbonate therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+{
+  id: 'im-56',
+  title: 'Acute Severe Asthma Exacerbation',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Asthma Clinic',
+  condition: 'Acute Severe Asthma Exacerbation',
+  symptoms: ['Worsening breathlessness', 'Cough', 'Audible wheezing', 'Chest tightness', 'Respiratory distress'],
+  contributor: 'Admin',
+  lastModified: '2026-08-19',
+  summary: '28-year-old woman with poorly controlled bronchial asthma presenting with an acute severe exacerbation triggered by dust exposure, with worsening breathlessness, wheezing, hypoxaemia and significant respiratory distress.',
+  content: `ASTHMA CLINIC
+
+Patient Seen
+
+A 28-year-old Yoruba female fashion designer residing in Ibadan, Oyo State, known asthmatic.
+
+PC:
+
+Worsening breathlessness × 2/24
+Cough and audible wheezing × 3/7
+
+HPC:
+
+Patient is a known asthmatic diagnosed 10 years ago at a secondary health facility, managed on Salbutamol inhaler PRN, with poor compliance to preventer therapy.
+
+She presented with worsening breathlessness of 2 hours duration which woke her up from sleep. The breathlessness is sudden in onset, progressive, worse on lying flat and not relieved by her usual Salbutamol inhaler. She took 4 puffs prior to presentation with no significant relief.
+
+There is associated dry cough and audible wheezing of 3 days duration, triggered by exposure to dust during a workshop cleaning exercise.
+
+No history of fever, sore throat, runny nose or contact with individuals with similar symptoms. No history of chest pain, orthopnoea, paroxysmal nocturnal dyspnoea or bilateral pedal swelling.
+
+Her last severe asthma attack was 6 months ago and required an emergency room visit but did not necessitate ICU admission or mechanical ventilation. No known food or drug allergies.
+
+PMHx:
+
+Known asthmatic × 10 years.
+No history of hypertension, diabetes mellitus or chronic kidney disease.
+No previous surgeries or blood transfusions.
+Genotype: AA.
+
+Drug History:
+
+Salbutamol MDI 100 mcg, 2 puffs PRN, with recent frequent use up to 4–5 times a week.
+No current inhaled corticosteroid or other controller medication.
+No recent NSAID or beta-blocker use.
+No history of herbal mixture ingestion.
+
+Family and Social History:
+
+First daughter in a family of five.
+Mother has a history of atopic dermatitis and allergic rhinitis.
+Non-smoker.
+No history of alcohol intake or exposure to secondhand smoke.
+Lives in a well-ventilated 2-bedroom flat with tiled floors.
+No indoor pets.
+
+ROS:
+
+General: No fever, night sweats or weight loss.
+Respiratory: As in HPC.
+Cardiovascular: No palpitations or chest pain.
+GIT: No nausea, vomiting or abdominal pain.
+CNS: No headache, dizziness or loss of consciousness.
+Musculoskeletal: No joint pains or muscle weakness.
+
+O/E:
+
+Acutely ill-looking young female in obvious respiratory distress, sitting orthopnoeic and speaking in monosyllables. Not pale, anicteric, acyanosed, dehydrated. No peripheral lymphadenopathy or bilateral pedal oedema.
+
+Vitals:
+
+Temp: 36.7°C
+PR: 118 bpm, regular, moderate volume
+RR: 28 cpm with accessory muscle use
+BP: 125/80 mmHg
+SpO₂: 91% RA
+
+RS:
+
+Inspection: Tachypnoeic with intercostal and supraclavicular recessions. Symmetrical chest movement.
+Palpation: Trachea central. Chest expansion symmetrical but reduced bilaterally. Tactile fremitus decreased bilaterally.
+Percussion: Hyper-resonant percussion notes bilaterally.
+Auscultation: Vesicular breath sounds with widespread expiratory high-pitched polyphonic wheezes bilaterally. Reduced air entry globally.
+
+CVS:
+
+Pulse rapid at 118 bpm, regular and normal volume.
+Apex beat at the 5th left intercostal space, midclavicular line.
+Heart sounds S1 and S2 only.
+No murmurs or gallop rhythm.
+
+ABD:
+
+Flat, moves with respiration.
+Soft, non-tender.
+No palpable organomegaly.
+Bowel sounds normal.
+
+CNS:
+
+Conscious, alert but anxious.
+GCS 15/15.
+No focal neurological deficits.
+
+ASS:
+
+1. Acute severe asthma exacerbation triggered by dust exposure.
+2. Poorly controlled bronchial asthma.
+3. Acute bronchitis, less likely.
+4. Left ventricular failure, unlikely.
+5. Foreign body aspiration, less likely.
+
+INVESTIGATIONS:
+
+- Continuous pulse oximetry.
+- PEFR after stabilization.
+- FBC to assess for leukocytosis and eosinophilia.
+- Serum electrolytes, urea and creatinine, particularly to monitor potassium levels with frequent beta-agonist use.
+- Chest X-ray PA view after stabilization to assess for pneumothorax, lobar collapse or underlying pneumonia if clinically indicated.
+
+PLAN:
+
+- Keep patient in a propped-up/high Fowler's position.
+- Administer supplemental oxygen via nasal cannulae at 3–4 L/min or face mask to maintain SpO₂ between 93–95%.
+- Give nebulized Salbutamol 2.5 mg combined with Ipratropium bromide 0.5 mg immediately and repeat every 20 minutes for the first hour.
+- If nebulizer is unavailable, administer Salbutamol MDI via spacer, 4–10 puffs, repeated every 20 minutes for up to 1 hour.
+- Administer IV Hydrocortisone 100 mg stat, then 100 mg 8-hourly.
+- Alternatively, give oral Prednisolone 40–50 mg stat if the patient can swallow and tolerate oral medication.
+- Establish IV access and administer IV fluids cautiously if clinically indicated; avoid unnecessary fluid loading.
+- Monitor respiratory rate, heart rate, accessory muscle use and SpO₂ every 15–30 minutes.
+- Monitor for red flags including silent chest, cyanosis, exhaustion, confusion, bradycardia or persistent hypoxaemia despite maximal therapy.
+- If refractory after initial intensive bronchodilator therapy, consider IV Magnesium Sulfate 2 g in 100 mL Normal Saline infused over 20 minutes with appropriate monitoring.
+- If patient fails to stabilize, arrange urgent referral to a tertiary facility for higher-level respiratory support.
+- Ensure transfer is accompanied by a medical officer with portable oxygen and appropriate emergency airway equipment, including a bag-valve-mask.
+- Following stabilization, commence/optimize appropriate controller therapy and reinforce inhaler technique, adherence and avoidance of known triggers.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'im-55',
+  title: 'Controlled Hypertension and Type 2 Diabetes Mellitus',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Hypertension/Diabetes Clinic',
+  condition: 'Hypertension and Type 2 Diabetes Mellitus',
+  symptoms: ['Hypertension', 'Type 2 Diabetes Mellitus', 'Routine follow-up', 'No fresh complaints', 'Controlled blood pressure and glycaemia'],
+  contributor: 'Admin',
+  lastModified: '2026-08-19',
+  summary: '58-year-old man with known hypertension and Type 2 Diabetes Mellitus on regular follow-up, clinically stable with controlled blood pressure and glycaemia and no evidence of acute target-organ complications.',
+  content: `HYPERTENSION/DIABETES CLINIC FOLLOW-UP
+
+Patient Seen
+
+A 58-year-old male, known hypertensive and Type 2 diabetic patient on regular follow-up.
+
+No fresh complaints.
+
+No history of headache, dizziness, blurring of vision, chest pain, difficulty breathing, palpitations, orthopnoea, paroxysmal nocturnal dyspnoea, leg swelling, reduced urine output or focal neurological symptoms.
+
+No history of polyuria, polydipsia, polyphagia, unexplained weight loss, blurred vision, recurrent infections, numbness or tingling sensation of the limbs, foot ulcers or poor wound healing. No history of hypoglycaemic symptoms such as sweating, tremors, palpitations, dizziness, confusion or loss of consciousness.
+
+No recent hospital admission for hypertensive crisis, hyperglycaemia or hypoglycaemia. Good compliance with prescribed medications and dietary/lifestyle modifications. Appetite and sleep satisfactory.
+
+Current Medications:
+
+- Tab Amlodipine 10 mg daily.
+- Tab Losartan 50 mg daily.
+- Tab Metformin 1 g BD with meals.
+- Tab Gliclazide 80 mg BD before meals.
+
+O/E:
+
+Elderly man, conscious and alert, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed, not dehydrated, no pedal oedema.
+
+Wt: 78 kg
+
+PR: 76 bpm, regular, full volume
+BP: 126/78 mmHg
+RR: 18 cpm
+Temp: 36.7°C
+SpO₂: 98% RA
+
+CVS:
+
+PR as above.
+Heart sounds S1 and S2 only.
+No murmurs.
+
+CHEST:
+
+Chest clinically clear.
+Vesicular breath sounds.
+No added sounds.
+
+ABD:
+
+Full, moves with respiration.
+Soft, non-tender.
+No palpable organomegaly.
+
+CNS:
+
+Conscious and alert.
+Oriented in time, place and person.
+No focal neurological deficit.
+
+EXTREMITIES:
+
+No pedal oedema.
+Feet warm with intact skin.
+No ulcers or obvious deformities.
+Peripheral pulses palpable.
+No obvious sensory deficit.
+
+INVESTIGATIONS:
+
+FBS: 108 mg/dL
+HbA1c: 6.8%
+
+ASS:
+
+1. Known hypertensive patient, currently controlled.
+2. Known Type 2 Diabetes Mellitus, currently controlled.
+3. No clinical evidence of acute target-organ complication.
+
+PLAN:
+
+- Continue Tab Amlodipine 10 mg daily.
+- Continue Tab Losartan 50 mg daily.
+- Continue Tab Metformin 1 g BD with meals.
+- Continue Tab Gliclazide 80 mg BD before meals.
+- Encourage home BP and blood glucose monitoring with documentation.
+- Continue low-salt, diabetic-friendly diet and regular moderate physical activity.
+- Encourage weight control and avoidance of tobacco and excessive alcohol intake.
+- Reinforce daily foot care and avoidance of walking barefoot.
+- Request/repeat FBC, serum electrolytes, urea and creatinine, fasting lipid profile, HbA1c, urinalysis and urine albumin-creatinine ratio as indicated.
+- Arrange routine diabetic retinal screening/ophthalmology review.
+- Continue monitoring for cardiovascular, renal, neurological and other target-organ complications.
+- Review in Hypertension/Diabetes Clinic in 3 months or earlier if symptoms develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  {
+    id: 'im-54',
+    title: 'Bronchial Asthma – Mild Acute Exacerbation',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Respiratory Medicine',
+    condition: 'Bronchial Asthma',
+    symptoms: ['Breathlessness', 'Chest tightness', 'Wheezing'],
+    contributor: 'Admin',
+    lastModified: '2026-08-19',
+    summary: '35-year-old woman with known bronchial asthma presenting with 3 days of mild intermittent breathlessness, occasional chest tightness and wheezing triggered by dust, with temporary relief from Salbutamol and examination showing mildly reduced air entry with bilateral expiratory polyphonic wheezes, consistent with a mild acute asthma exacerbation without features of severe or life-threatening asthma.',
+    content: `ASTHMA CLINIC
+  
+  Patient Seen
+  
+  A 35-year-old female, known asthmatic patient on regular follow-up, presenting with fresh complaint of mild breathlessness.
+  
+  PC:
+  
+  Mild breathlessness × 3 days.
+  
+  HPC:
+  
+  The patient was apparently stable until 3 days prior to presentation when she developed mild intermittent difficulty in breathing, associated with occasional chest tightness and wheezing.
+  
+  Symptoms are worse at night and with exposure to dust.
+  
+  She has been using her Salbutamol inhaler with temporary relief.
+  
+  No history of fever.
+  No history of productive cough.
+  No history of chest pain.
+  No history of haemoptysis.
+  No history of palpitations.
+  No history of leg swelling.
+  No history of syncope.
+  No history of severe breathlessness.
+  No history of inability to speak in full sentences.
+  No history of cyanosis.
+  No previous intubation.
+  No recent hospital admission.
+  No recent nebulization.
+  
+  Patient reports good compliance with her controller inhaler.
+  
+  No recent change in medication.
+  
+  Appetite and sleep satisfactory.
+  
+  O/E:
+  
+  Young woman, conscious and alert, mildly dyspnoeic but able to speak in full sentences, not in painful distress, afebrile, not pale, anicteric, acyanosed and not dehydrated.
+  
+  Wt 64 kg.
+  
+  Vitals:
+  
+  PR 88 bpm, regular, full volume.
+  BP 118/74 mmHg.
+  RR 22 cpm.
+  Temp 36.8°C.
+  SpO₂ 96% on room air.
+  
+  CVS:
+  
+  PR as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  
+  Mildly reduced air entry bilaterally.
+  Bilateral expiratory polyphonic wheezes.
+  No crepitations.
+  
+  ABD:
+  
+  Full, moves with respiration.
+  Soft.
+  Non-tender.
+  No palpable organomegaly.
+  
+  CNS:
+  
+  Conscious and alert.
+  Oriented in time, place and person.
+  No focal neurological deficit.
+  
+  ASS:
+  
+  1. Known bronchial asthma with mild acute exacerbation.
+  2. No clinical features of severe or life-threatening asthma.
+  
+  PLAN:
+  
+  Acute Management:
+  
+  Nebulize with Salbutamol 2.5 mg via nebulizer stat and reassess response.
+  
+  If persistent symptoms, add Nebulized Ipratropium bromide 0.5 mg stat.
+  
+  Continue Budesonide/Formoterol 200/6 mcg, 1 inhalation BD.
+  
+  Continue Salbutamol inhaler 100 mcg, 1–2 puffs PRN for breakthrough symptoms.
+  
+  Consider Tab Prednisolone 40 mg daily × 5 days if symptoms do not settle adequately after initial bronchodilator treatment or if exacerbation is more than mild.
+  
+  Monitoring:
+  
+  Monitor SpO₂, respiratory rate and clinical response after treatment.
+  
+  Reassess respiratory effort, air entry and wheezing following nebulization.
+  
+  Health Education:
+  
+  Reinforce correct inhaler technique and adherence to controller therapy.
+  
+  Advise avoidance of identified triggers, particularly dust, smoke and strong perfumes.
+  
+  Encourage adequate oral hydration.
+  
+  Red Flags:
+  
+  Advise immediate presentation to the emergency unit if breathlessness worsens, patient becomes unable to speak in full sentences, develops cyanosis, drowsiness, severe chest tightness or poor response to repeated reliever therapy.
+  
+  Follow-up:
+  
+  Review in 1–2 weeks or earlier if symptoms worsen.
+  
+  Prognosis:
+  
+  Good if the exacerbation responds promptly to bronchodilator therapy and the patient maintains adherence to controller treatment and trigger avoidance.
+  
+  Final working diagnosis: Mild acute exacerbation of bronchial asthma.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-53',
+    title: 'Bronchial Asthma Follow-up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Respiratory Medicine',
+    condition: 'Bronchial Asthma',
+    symptoms: ['Cough', 'Wheezing', 'Chest tightness', 'Difficulty breathing'],
+    contributor: 'Admin',
+    lastModified: '2026-08-19',
+    summary: '32-year-old woman with known bronchial asthma presenting for routine follow-up, currently asymptomatic with no recent exacerbations, nocturnal symptoms, hospital admissions or oral steroid use, with good adherence and inhaler technique, consistent with well-controlled asthma.',
+    content: `ASTHMA CLINIC
+  
+  Patient Seen
+  
+  A 32-year-old female, known asthmatic patient on regular follow-up.
+  
+  No fresh complaints.
+  
+  No history of cough.
+  No history of wheezing.
+  No history of chest tightness.
+  No history of difficulty breathing since last clinic visit.
+  No nocturnal or early morning symptoms.
+  No recent exacerbation.
+  No emergency department visit.
+  No hospital admission.
+  No nebulization.
+  No oral steroid use since last review.
+  
+  Reports good compliance with prescribed inhalers and appropriate inhaler technique.
+  
+  No significant limitation of usual activities.
+  
+  Appetite and sleep satisfactory.
+  
+  O/E:
+  
+  Young woman, conscious and alert, comfortable at rest, not in painful distress, afebrile, not pale, anicteric, acyanosed and not dehydrated.
+  
+  Wt 64 kg.
+  
+  Vitals:
+  
+  PR 76 bpm, regular, full volume.
+  BP 116/72 mmHg.
+  RR 18 cpm.
+  Temp 36.7°C.
+  SpO₂ 98% on room air.
+  
+  CVS:
+  
+  PR as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  
+  Chest clinically clear.
+  Vesicular breath sounds bilaterally.
+  No wheezes.
+  No crepitations.
+  
+  ABD:
+  
+  Full, moves with respiration.
+  Soft.
+  Non-tender.
+  No palpable organomegaly.
+  
+  CNS:
+  
+  Conscious and alert.
+  Oriented in time, place and person.
+  No focal neurological deficit.
+  
+  ASS:
+  
+  Known bronchial asthma, currently clinically stable and well controlled.
+  
+  PLAN:
+  
+  Continue Budesonide/Formoterol 200/6 mcg, 1 inhalation BD.
+  
+  Continue Salbutamol inhaler 100 mcg, 1–2 puffs PRN for breakthrough symptoms.
+  
+  Reinforce correct inhaler technique and use of spacer where appropriate.
+  
+  Encourage adherence to controller medication and advise against relying on Salbutamol alone.
+  
+  Identify and avoid individual asthma triggers including smoke, dust, strong perfumes, cold air and known allergens.
+  
+  Encourage influenza vaccination annually where available and appropriate.
+  
+  Advise patient to seek urgent care if severe breathlessness, inability to speak in full sentences, cyanosis, drowsiness or poor response to reliever inhaler develops.
+  
+  Consider spirometry or peak expiratory flow monitoring for objective assessment of control if not recently performed.
+  
+  Follow-up:
+  
+  Review in Asthma/Chest Clinic in 3 months or earlier if symptoms develop.
+  
+  Prognosis:
+  
+  Good, given absence of current respiratory symptoms, recent exacerbations or activity limitation, with reported good adherence to controller therapy.
+  
+  Final working diagnosis: Well-controlled bronchial asthma on regular follow-up.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-52',
+    title: 'Chronic Obstructive Pulmonary Disease',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Respiratory Medicine',
+    condition: 'Chronic Obstructive Pulmonary Disease (COPD)',
+    symptoms: ['Progressive difficulty in breathing', 'Chronic productive cough', 'Easy fatigability', 'Exertional dyspnoea', 'Intermittent wheezing'],
+    contributor: 'Admin',
+    lastModified: '2026-08-19',
+    summary: '58-year-old retired factory worker with a 22.5 pack-year smoking history presenting with chronic productive cough, progressively worsening exertional dyspnoea, recurrent respiratory exacerbations and intermittent wheezing, clinically consistent with smoking-related chronic obstructive pulmonary disease.',
+    content: `MEDICAL OUTPATIENT CLINIC
+  
+  Patient Seen
+  
+  A 58-year-old married male, retired factory worker. Informant: Patient, reliable.
+  
+  PC:
+  
+  Progressive difficulty in breathing × 2 years.
+  Chronic cough × 3 years.
+  Easy fatigability × 1 year.
+  
+  HPC:
+  
+  The patient is a 58-year-old man who presented with a 3-year history of persistent cough productive of small amounts of whitish sputum, associated with gradually progressive shortness of breath.
+  
+  The breathlessness initially occurred only with strenuous activity but has progressively worsened and is now brought on by walking moderate distances or climbing a flight of stairs. He reports occasional wheezing and chest tightness, particularly during episodes of worsening breathlessness.
+  
+  He has experienced approximately three episodes of worsening respiratory symptoms in the past year characterized by increased cough, sputum production and dyspnoea. On two occasions, he was treated at a health facility with antibiotics and oral medications with subsequent improvement.
+  
+  No history of haemoptysis.
+  No significant weight loss.
+  No night sweats.
+  No prolonged fever.
+  No history of orthopnoea.
+  No history of paroxysmal nocturnal dyspnoea.
+  No significant leg swelling.
+  
+  He has a long history of cigarette smoking, having smoked approximately 15 cigarettes daily for 30 years.
+  
+  Estimated smoking exposure: 22.5 pack-years.
+  
+  He stopped smoking 6 months ago but continues to experience respiratory symptoms.
+  
+  No known history of childhood asthma.
+  
+  Review of Systems:
+  
+  RS:
+  
+  Chronic productive cough.
+  Progressive exertional dyspnoea.
+  Intermittent wheezing.
+  Increased sputum during exacerbations.
+  No haemoptysis.
+  No pleuritic chest pain.
+  
+  CVS:
+  
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  No syncope.
+  No significant pedal oedema.
+  
+  General:
+  
+  Easy fatigability.
+  No fever.
+  No significant weight loss.
+  
+  GIT:
+  
+  No heartburn.
+  No recurrent vomiting.
+  
+  Past Medical History:
+  
+  No known diabetes mellitus.
+  No known hypertension.
+  No previous pulmonary tuberculosis.
+  No previous cardiac disease.
+  Three respiratory exacerbations within the past year.
+  No previous ICU admission or mechanical ventilation.
+  
+  Drug History:
+  
+  Currently uses salbutamol inhaler intermittently obtained from a pharmacy.
+  No regular long-acting inhaler.
+  No known drug allergies.
+  
+  Smoking/Occupational History:
+  
+  Smoked approximately 15 cigarettes daily for 30 years.
+  Estimated smoking exposure: 22.5 pack-years.
+  Previously worked in a factory with prolonged exposure to dust and chemical fumes.
+  Stopped cigarette smoking 6 months ago.
+  
+  Family History:
+  
+  No known family history of COPD.
+  No family history of alpha-1 antitrypsin deficiency.
+  
+  Social History:
+  
+  Lives with wife and children.
+  No current alcohol abuse.
+  No current cigarette smoking.
+  Occasional exposure to household cooking smoke.
+  
+  O/E:
+  
+  Middle-aged man, conscious and alert, mildly dyspnoeic at rest, not pale, anicteric, no central cyanosis, no significant peripheral oedema and no peripheral lymphadenopathy.
+  
+  Vitals:
+  
+  BP 132/78 mmHg.
+  PR 88 bpm, regular.
+  RR 22 cpm.
+  Temperature 36.6°C.
+  SpO₂ 94% in room air.
+  BMI 23 kg/m².
+  
+  Respiratory Examination:
+  
+  Chest mildly hyperinflated.
+  Reduced chest expansion bilaterally.
+  Trachea central.
+  Percussion note mildly hyper-resonant bilaterally.
+  Reduced breath sounds bilaterally.
+  Prolonged expiratory phase.
+  Scattered bilateral expiratory wheezes.
+  No focal bronchial breathing.
+  No coarse crepitations.
+  
+  CVS:
+  
+  Pulse regular and good volume.
+  S1 and S2 heard.
+  No murmurs.
+  No raised JVP.
+  No significant pedal oedema.
+  
+  ABD:
+  
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  
+  CNS:
+  
+  Conscious and oriented.
+  GCS 15/15.
+  No focal neurological deficit.
+  
+  ASS:
+  
+  Chronic Obstructive Pulmonary Disease, likely smoking-related, currently clinically stable with suspected moderate airflow limitation.
+  
+  History suggests chronic bronchitic phenotype with recurrent exacerbations.
+  
+  Differentials:
+  
+  1. Chronic Obstructive Pulmonary Disease.
+  2. Bronchial asthma.
+  3. Asthma-COPD overlap.
+  4. Previous pulmonary tuberculosis with chronic airflow limitation.
+  5. Bronchiectasis.
+  6. Chronic heart failure.
+  7. Lung malignancy.
+  
+  Investigations:
+  
+  Spirometry with bronchodilator testing.
+  Assess FEV₁.
+  Assess FVC.
+  Determine FEV₁/FVC ratio.
+  
+  Persistent post-bronchodilator FEV₁/FVC less than 0.70 supports COPD in the appropriate clinical setting.
+  
+  Full Blood Count.
+  Chest X-ray.
+  Serum electrolytes, urea and creatinine.
+  Liver function tests where clinically indicated.
+  ECG.
+  Pulse oximetry.
+  Sputum microscopy, culture and sensitivity if increased or purulent sputum or recurrent infective exacerbations occur.
+  Tuberculosis screening if clinically suspected.
+  Alpha-1 antitrypsin level if COPD occurs unusually early, in a non-smoker or there is a strong family history.
+  
+  PLAN:
+  
+  Smoking Cessation:
+  
+  Strongly reinforce complete smoking cessation.
+  Avoid second-hand smoke.
+  Avoid occupational exposure to dust, fumes and chemical irritants.
+  Offer structured smoking cessation support where available.
+  
+  Bronchodilator Therapy:
+  
+  Initiate a long-acting bronchodilator for persistent symptoms.
+  
+  Tiotropium 18 micrograms inhaled once daily via appropriate inhaler device.
+  
+  Alternative:
+  
+  Salmeterol 50 micrograms inhaled twice daily.
+  
+  Reliever:
+  
+  Salbutamol inhaler 100 micrograms/puff, 1–2 puffs as required for acute symptoms.
+  
+  Demonstrate and assess inhaler technique.
+  
+  If Symptoms Remain Significant:
+  
+  Consider combination long-acting bronchodilator therapy.
+  
+  Tiotropium/Olodaterol 2.5/2.5 micrograms, 2 inhalations once daily depending on availability and local protocol.
+  
+  Adjust treatment according to symptom burden and exacerbation history.
+  
+  Inhaled Corticosteroid:
+  
+  ICS is not routinely indicated for every patient with COPD.
+  
+  Consider an ICS-containing regimen in patients with recurrent exacerbations and evidence suggesting eosinophilic inflammation or coexisting asthma.
+  
+  Example:
+  
+  Budesonide/Formoterol 160/4.5 micrograms, 2 inhalations twice daily where indicated.
+  
+  Review the need for ICS periodically because of potential adverse effects including oral candidiasis and increased pneumonia risk.
+  
+  Vaccination:
+  
+  Recommend annual influenza vaccination.
+  Recommend pneumococcal vaccination according to current national/local schedule.
+  Recommend COVID-19 vaccination and boosters according to current recommendations.
+  
+  Pulmonary Rehabilitation:
+  
+  Refer for pulmonary rehabilitation if available.
+  Encourage regular graded physical activity.
+  Teach pursed-lip breathing exercises.
+  
+  Nutrition:
+  
+  Encourage a balanced diet with adequate protein and calories.
+  Assess nutritional status during follow-up, particularly if weight loss develops.
+  
+  If Acute Exacerbation Occurs:
+  
+  An exacerbation is suggested by acute worsening of dyspnoea, cough and/or sputum beyond usual day-to-day variation.
+  
+  Bronchodilator:
+  
+  Salbutamol 2.5–5 mg nebulized every 20 minutes for up to 3 doses initially depending on severity, or repeated inhaled doses via spacer.
+  
+  Add Ipratropium bromide 0.5 mg nebulized every 20 minutes for up to 3 doses in moderate or severe exacerbation.
+  
+  Corticosteroid:
+  
+  Prednisolone 40 mg orally once daily for 5 days.
+  
+  Antibiotics:
+  
+  Do not prescribe antibiotics routinely.
+  
+  Consider antibiotics when there is increased sputum purulence with increased sputum volume and worsening dyspnoea, particularly in severe exacerbations.
+  
+  Example:
+  
+  Amoxicillin/Clavulanic acid 625 mg orally every 8 hours for 5 days according to local antimicrobial susceptibility patterns and patient factors.
+  
+  Oxygen:
+  
+  If hypoxaemic, administer controlled oxygen targeting SpO₂ 88–92% in patients at risk of hypercapnic respiratory failure.
+  
+  Reassess with arterial blood gas where indicated.
+  
+  Severe exacerbation with respiratory failure requires emergency admission and consideration of non-invasive ventilation.
+  
+  Nursing Instructions:
+  
+  Monitor respiratory rate, pulse and SpO₂.
+  Assess work of breathing.
+  Monitor sputum quantity and colour.
+  Ensure correct inhaler technique.
+  Encourage medication adherence.
+  Reinforce smoking cessation.
+  Monitor for signs of acute exacerbation.
+  
+  Health Education:
+  
+  Explain that COPD is a chronic disease characterized by persistent airflow limitation commonly related to cigarette smoking and long-term exposure to inhaled irritants.
+  
+  Emphasize that although COPD cannot usually be completely reversed, symptoms, exacerbations and disease progression can be substantially reduced through smoking cessation, appropriate inhaled medication, vaccination, physical activity and pulmonary rehabilitation.
+  
+  Teach the patient to recognize exacerbations early, particularly increasing breathlessness, worsening cough or changes in sputum volume or colour.
+  
+  Advise immediate hospital presentation if he develops severe breathlessness at rest, inability to speak in complete sentences, bluish discoloration, confusion, drowsiness, chest pain or markedly reduced oxygen saturation.
+  
+  Follow-up:
+  
+  Review in 4 weeks after commencement or adjustment of maintenance inhaler therapy.
+  
+  Assess dyspnoea severity.
+  Assess exercise tolerance.
+  Review frequency of reliever use.
+  Review number of exacerbations.
+  Assess sputum production.
+  Review smoking status.
+  Assess inhaler technique and adherence.
+  Review spirometry results.
+  
+  Refer to a Respiratory Physician if there are frequent exacerbations, diagnostic uncertainty, severe airflow limitation, persistent hypoxaemia or poor response to standard therapy.
+  
+  Clinical Rationale:
+  
+  COPD is a chronic respiratory disease characterized by persistent airflow limitation commonly associated with cigarette smoking and prolonged exposure to occupational dust and chemical fumes.
+  
+  The patient's chronic productive cough, progressively worsening exertional dyspnoea, intermittent wheezing, recurrent exacerbations and significant 22.5 pack-year smoking history strongly support a diagnosis of smoking-related COPD.
+  
+  Spirometry with bronchodilator testing remains the standard investigation for confirming persistent airflow limitation and differentiating COPD from asthma.
+  
+  Smoking cessation is the most important intervention for slowing disease progression and reducing further decline in lung function.
+  
+  Long-acting bronchodilators improve symptoms and exercise tolerance and are recommended for persistent symptomatic disease.
+  
+  Inhaled corticosteroids should be reserved for selected patients with recurrent exacerbations or coexisting asthma because they are not routinely indicated in all COPD patients.
+  
+  Pulmonary rehabilitation, vaccination, inhaler education and early recognition of exacerbations are important components of long-term COPD management.
+  
+  Final working diagnosis: Chronic Obstructive Pulmonary Disease, likely smoking-related, currently clinically stable with suspected moderate airflow limitation and chronic bronchitic phenotype with recurrent exacerbations.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-51',
+    title: 'Bronchial Asthma',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Respiratory Medicine',
+    condition: 'Bronchial Asthma',
+    symptoms: ['Recurrent cough', 'Wheeze', 'Chest tightness', 'Episodic dyspnoea', 'Nocturnal cough'],
+    contributor: 'Admin',
+    lastModified: '2026-08-19',
+    summary: '34-year-old male civil servant with recurrent episodic cough, wheeze, chest tightness and dyspnoea since adolescence, worsened by dust, cold air, exercise and strong perfumes, now presenting with increased symptoms and frequent salbutamol use, with bilateral expiratory polyphonic wheezes consistent with symptomatic bronchial asthma with a mild acute exacerbation.',
+    content: `
+  
+  Patient Seen
+  
+  A 34-year-old male civil servant. Informant: Patient, reliable.
+  
+  CHIEF COMPLAINT:
+  
+  Recurrent cough and chest tightness × 3 months.
+  
+  Episodic difficulty in breathing × 2 weeks.
+  
+  HPC:
+  
+  The patient presented with a 3-month history of recurrent episodes of cough, chest tightness and difficulty in breathing.
+  
+  The cough is predominantly dry and occurs more frequently at night and in the early hours of the morning.
+  
+  The episodes are intermittent, with periods of complete or near-complete relief between attacks.
+  
+  Symptoms are worse with exposure to dust, cold air, strong perfumes and during exercise.
+  
+  He reports occasional wheezing, particularly at night.
+  
+  Over the past 2 weeks, he has experienced more frequent symptoms and has been requiring his salbutamol inhaler several times a day.
+  
+  No fever.
+  No pleuritic chest pain.
+  No purulent sputum.
+  
+  He has had similar episodes since adolescence but was never formally evaluated.
+  
+  He occasionally purchased salbutamol from a pharmacy for symptomatic relief.
+  
+  No history of haemoptysis.
+  No history of weight loss.
+  No history of night sweats.
+  No history of leg swelling.
+  No history of orthopnoea.
+  
+  Review of Systems:
+  
+  Respiratory:
+  
+  Recurrent cough.
+  Wheeze.
+  Chest tightness.
+  Episodic dyspnoea.
+  No haemoptysis.
+  
+  Cardiovascular:
+  
+  No chest pain.
+  No palpitations.
+  No syncope.
+  
+  ENT:
+  
+  Occasional nasal congestion.
+  Occasional sneezing.
+  No sore throat.
+  
+  Gastrointestinal:
+  
+  No heartburn.
+  No vomiting.
+  No abdominal pain.
+  
+  General:
+  
+  No fever.
+  No significant weight loss.
+  
+  Past Medical History:
+  
+  Previous recurrent episodes of wheezing since adolescence.
+  No previous ICU admission.
+  No previous intubation.
+  No previous hospital admission for asthma.
+  No known tuberculosis.
+  No diabetes mellitus.
+  No hypertension.
+  
+  Drug History:
+  
+  Uses salbutamol metered-dose inhaler intermittently, often without a spacer.
+  
+  No known drug allergies.
+  
+  Family History:
+  
+  Mother has a history of bronchial asthma.
+  
+  Social and Environmental History:
+  
+  Non-smoker.
+  No recreational drug use.
+  
+  Works in an office but reports frequent exposure to dust during commuting.
+  
+  Uses strong perfumes and air fresheners at home.
+  
+  No pets.
+  
+  O/E:
+  
+  Young adult male, conscious and alert, mildly dyspnoeic at rest.
+  
+  Not pale.
+  Not jaundiced.
+  No peripheral cyanosis.
+  No pedal oedema.
+  
+  Vitals:
+  
+  BP 124/76 mmHg.
+  PR 96 bpm, regular.
+  RR 22 cpm.
+  Temp 36.7°C.
+  SpO₂ 96% in room air.
+  
+  Respiratory Examination:
+  
+  Chest moves symmetrically with respiration.
+  
+  Respiratory effort mildly increased.
+  
+  Percussion note resonant bilaterally.
+  
+  Reduced air entry bilaterally with widespread expiratory polyphonic wheezes.
+  
+  No crepitations.
+  No bronchial breath sounds.
+  
+  Cardiovascular Examination:
+  
+  Pulse regular and good volume.
+  
+  S1 and S2 heard.
+  
+  No murmurs.
+  
+  Abdomen:
+  
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  CNS:
+  
+  Conscious and oriented.
+  
+  GCS 15/15.
+  
+  No focal neurological deficits.
+  
+  ASS:
+  
+  Bronchial asthma, currently symptomatic, with mild acute exacerbation.
+  
+  Likely triggers include dust, cold air, exercise and inhaled irritants.
+  
+  Differentials:
+  
+  1. Allergic rhinitis with associated bronchospasm.
+  2. COPD, less likely in this non-smoker.
+  3. Gastro-oesophageal reflux disease.
+  4. Heart failure, unlikely given age and clinical findings.
+  5. Pulmonary tuberculosis, less likely in the absence of constitutional symptoms.
+  
+  Investigations:
+  
+  Spirometry with bronchodilator reversibility to confirm asthma and assess airflow limitation.
+  
+  Peak expiratory flow rate (PEFR) and personal-best monitoring.
+  
+  Pulse oximetry.
+  
+  Full Blood Count with eosinophil count where indicated.
+  
+  Chest X-ray if clinically indicated to exclude alternative pathology.
+  
+  Serum IgE/allergy testing if allergic triggers require further clarification.
+  
+  FeNO where available.
+  
+  PLAN:
+  
+  Reliever Therapy:
+  
+  Salbutamol inhaler 100 micrograms/puff.
+  
+  Give 1–2 puffs via spacer as required for symptoms.
+  
+  Demonstrate and assess correct inhaler technique.
+  
+  If currently experiencing an acute exacerbation in clinic, administer Salbutamol 4–10 puffs via spacer, one puff at a time, with reassessment; nebulised salbutamol may be used where clinically indicated.
+  
+  Controller Therapy:
+  
+  SABA-only treatment is inappropriate given the recurrent symptoms and frequent reliance on salbutamol.
+  
+  Budesonide/formoterol 160/4.5 micrograms inhaler:
+  
+  1 inhalation twice daily, with an additional inhalation as needed for symptoms according to the prescribed MART/SMART regimen.
+  
+  Alternative where MART is unavailable:
+  
+  Budesonide 200 micrograms inhaled twice daily plus an appropriate reliever inhaler.
+  
+  Subsequently step treatment up or down according to symptom control and objective assessment.
+  
+  Acute Exacerbation:
+  
+  If symptoms worsen significantly or there is persistent wheezing/dyspnoea:
+  
+  Prednisolone 40–50 mg orally once daily × 5–7 days.
+  
+  No taper is generally required for such a short course.
+  
+  If severe exacerbation, hypoxia, inability to speak comfortably, exhaustion or poor response to initial bronchodilator therapy occurs, arrange urgent emergency admission.
+  
+  Management of Associated Allergic Rhinitis:
+  
+  Cetirizine 10 mg orally once daily if symptomatic.
+  
+  Consider Fluticasone nasal spray 50 micrograms:
+  
+  2 sprays into each nostril once daily, then reduce to 1 spray into each nostril daily once controlled.
+  
+  Non-Pharmacological Management:
+  
+  Advise avoidance or reduction of identified triggers including:
+  
+  Dust.
+  Cigarette smoke.
+  Strong perfumes and air fresheners.
+  Cold air.
+  Occupational irritants.
+  Known allergens.
+  
+  Encourage regular physical activity once asthma is controlled, with appropriate pre-exercise management if exercise-induced symptoms occur.
+  
+  Maintain good indoor ventilation and reduce dust accumulation.
+  
+  Asthma Education:
+  
+  Explain that asthma is a chronic inflammatory airway disease characterized by variable respiratory symptoms and variable airflow limitation.
+  
+  Explain that symptoms may be well controlled between attacks but can recur following exposure to triggers.
+  
+  Demonstrate and assess inhaler technique, particularly the use of a spacer with a metered-dose inhaler.
+  
+  Explain the difference between controller and reliever medication.
+  
+  Controller medication:
+  
+  Inhaled corticosteroid-containing treatment used regularly to reduce airway inflammation and prevent exacerbations.
+  
+  Reliever medication:
+  
+  Used for rapid relief of acute symptoms.
+  
+  Advise the patient not to rely solely on salbutamol or repeatedly purchase medication without clinical review.
+  
+  Provide a written asthma action plan where available, including instructions on what to do when symptoms worsen.
+  
+  Warning Signs:
+  
+  Proceed to the emergency department if there is:
+  
+  Severe or rapidly worsening breathlessness.
+  Difficulty speaking in complete sentences.
+  Cyanosis.
+  Drowsiness, confusion or exhaustion.
+  Minimal or absent air entry (silent chest).
+  Poor response to repeated salbutamol.
+  Markedly reduced peak expiratory flow.
+  
+  Nursing Instructions:
+  
+  Monitor respiratory rate, pulse and SpO₂.
+  
+  Assess severity of wheezing and work of breathing.
+  
+  Monitor response following bronchodilator administration.
+  
+  Teach and assess inhaler and spacer technique.
+  
+  Reinforce adherence to controller medication.
+  
+  Follow-up:
+  
+  Review in 2–4 weeks to assess:
+  
+  Daytime symptoms.
+  Night waking.
+  Reliever use.
+  Exercise limitation.
+  Exacerbations.
+  Inhaler technique and adherence.
+  PEFR/spirometry where available.
+  
+  Once good control is sustained for approximately 2–3 months, consider gradual step-down of therapy to the lowest effective regimen.
+  
+  Clinical Rationale:
+  
+  The history of recurrent episodic cough, wheeze, chest tightness and dyspnoea since adolescence, with periods of near-complete relief between attacks and worsening with dust, cold air, exercise and strong perfumes, is strongly suggestive of asthma.
+  
+  The presence of widespread expiratory polyphonic wheezes with reduced air entry and mild respiratory distress supports active airflow limitation.
+  
+  Frequent use of salbutamol over the preceding 2 weeks indicates inadequate symptom control and the need for an inhaled corticosteroid-containing controller regimen rather than SABA-only treatment.
+  
+  Spirometry with bronchodilator reversibility is useful for objective confirmation of asthma and assessment of variable airflow limitation.
+  
+  Trigger avoidance, appropriate controller therapy and correct inhaler technique are important components of long-term asthma management.
+  
+  The patient's history of occasional nasal congestion and sneezing, together with a maternal history of asthma and symptoms triggered by inhaled irritants, suggests an allergic component may be contributing to his respiratory symptoms.
+  
+  Final working diagnosis: Bronchial asthma, currently symptomatic with mild acute exacerbation, likely triggered by dust, cold air, exercise and inhaled irritants.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-50',
+    title: 'Recurrent Palpitations',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Recurrent Palpitations',
+    symptoms: ['Palpitations', 'Lightheadedness', 'Anxiety during episodes'],
+    contributor: 'Admin',
+    lastModified: '2026-08-16',
+    summary: '34-year-old woman with 3 months of recurrent sudden-onset episodes of fluttering and thumping palpitations lasting 5–20 minutes and occurring 2–3 times weekly, associated with lightheadedness and triggered by stress and high caffeine intake, requiring evaluation for paroxysmal supraventricular tachycardia, ectopics, caffeine-induced arrhythmia and metabolic causes.',
+    content: `
+  
+  Patient Seen
+  
+  A 34-year-old female Yoruba fashion designer from Yaba, Lagos State. Religion: Christian.
+  
+  PC:
+  
+  Recurrent palpitations × 3 months.
+  
+  HPC:
+  
+  Mrs. O.A. was apparently well until approximately 3 months prior to presentation when she developed recurrent, episodic palpitations.
+  
+  The palpitations are described as a sudden-onset fluttering and thumping sensation in the chest, lasting between 5–20 minutes per episode and occurring approximately 2–3 times per week.
+  
+  Episodes are frequently triggered by periods of high work-related stress and increased intake of caffeinated beverages.
+  
+  PTP, patient has been taking approximately 2–3 cups of strong coffee/energy drinks daily to cope with work demands.
+  
+  The palpitations are associated with mild lightheadedness and subjective feelings of anxiety during the episodes.
+  
+  No history of syncope.
+  No history of chest pain.
+  No history of orthopnoea.
+  No history of paroxysmal nocturnal dyspnoea.
+  No history of pedal oedema.
+  No history of heat intolerance.
+  No history of excessive sweating.
+  No history of weight loss.
+  No history of fine tremors.
+  No history of recurrent sore throat during childhood.
+  No history of joint pain during childhood.
+  No history of chorea during childhood.
+  No previous similar episodes.
+  
+  Past Medical History:
+  
+  No known chronic medical illness.
+  No history of hypertension.
+  No history of diabetes mellitus.
+  No history of bronchial asthma.
+  No history of thyroid disease.
+  No previous hospital admissions or surgeries.
+  Genotype AA.
+  
+  Drug History:
+  
+  No chronic prescription medications.
+  Occasional self-medication with Tab Paracetamol 1 g PRN for tension headaches.
+  No history of herbal remedy use.
+  No history of weight-loss pill use.
+  No history of illicit substance use.
+  High caffeine intake of approximately 2–3 cups of coffee/energy drinks daily.
+  
+  Family History:
+  
+  No family history of sudden cardiac death.
+  No family history of early-onset cardiovascular disease.
+  No family history of thyroid disorders.
+  
+  Social History:
+  
+  Lives in a 2-bedroom flat in Yaba with her husband and two children.
+  
+  Works long hours as a fashion designer with high work-related stress.
+  
+  Non-smoker.
+  Occasional social alcohol use, approximately 1 glass of wine occasionally.
+  
+  Review of Systems:
+  
+  CNS:
+  
+  No syncope.
+  No focal weakness.
+  No tremors.
+  No sleep disturbances.
+  
+  CVS:
+  
+  Recurrent episodic palpitations.
+  No chest pain.
+  No orthopnoea.
+  No PND.
+  No pedal oedema.
+  
+  RS:
+  
+  No cough.
+  No dyspnoea.
+  No haemoptysis.
+  
+  GIT:
+  
+  Normal appetite.
+  No chronic diarrhoea.
+  No abdominal pain.
+  
+  Endocrine:
+  
+  No neck swelling.
+  No heat intolerance.
+  No cold intolerance.
+  
+  O/E:
+  
+  Young woman, comfortable at rest, not acutely ill, not pale, anicteric, acyanosed, well hydrated, with no pedal oedema.
+  
+  No thyroid gland enlargement.
+  No fine tremors of the outstretched hands.
+  
+  Vitals:
+  
+  Temp 36.6°C.
+  PR 78 bpm, regular, normal volume and synchronous with apex beat.
+  RR 16 cpm.
+  BP 115/75 mmHg.
+  SpO₂ 99% in room air.
+  
+  CVS:
+  
+  Pulse 78 bpm, regular, normal volume with normal arterial wall elasticity.
+  
+  JVP not elevated.
+  
+  Apex beat localized to the 5th left intercostal space, midclavicular line.
+  
+  S1 and S2 heard.
+  No murmurs.
+  No gallops.
+  
+  RS:
+  
+  Trachea central.
+  Chest expansion symmetrical.
+  Percussion note resonant bilaterally.
+  Vesicular breath sounds heard in all lung zones.
+  No adventitious sounds.
+  
+  ABD:
+  
+  Flat.
+  Soft.
+  Non-tender.
+  No hepatosplenomegaly.
+  Bowel sounds present and normal.
+  
+  CNS:
+  
+  Conscious, alert and oriented in time, place and person.
+  
+  Cranial nerves I–XII intact.
+  
+  Motor and sensory systems normal.
+  No focal neurological deficits.
+  
+  ASS:
+  
+  Recurrent palpitations, likely secondary to cardiac arrhythmia. Rule out paroxysmal supraventricular tachycardia versus premature atrial/ventricular contractions, with possible contribution from anxiety and high caffeine intake.
+  
+  Differentials:
+  
+  1. Paroxysmal supraventricular tachycardia (PSVT).
+  2. Caffeine-induced arrhythmia/sinus tachycardia.
+  3. Anxiety with somatic manifestations.
+  4. Subclinical hyperthyroidism.
+  
+  Investigations:
+  
+  12-lead resting ECG to assess for pre-excitation syndromes such as Wolff-Parkinson-White syndrome, ectopic beats, conduction abnormalities and chamber hypertrophy.
+  
+  FBC to rule out anaemia as a cause of hyperdynamic circulation.
+  
+  Thyroid function tests including serum T3, T4 and TSH to rule out thyrotoxicosis.
+  
+  Serum electrolytes, urea and creatinine to assess for electrolyte abnormalities, particularly hypokalaemia and hypomagnesaemia, which may precipitate arrhythmias.
+  
+  Random blood glucose to assess for hypoglycaemia-induced adrenergic symptoms.
+  
+  PLAN:
+  
+  Counselling and Lifestyle Modification:
+  
+  Reassure patient regarding her current haemodynamic stability.
+  
+  Advise strict avoidance or significant reduction of caffeine-containing beverages including coffee, energy drinks and colas.
+  
+  Avoid other stimulants.
+  
+  Counsel on stress management techniques.
+  
+  Encourage adequate sleep and sleep hygiene.
+  
+  Acute Episode Management:
+  
+  Educate patient on vagal manoeuvres, particularly the modified Valsalva manoeuvre, for episodes of sudden-onset rapid palpitations suggestive of SVT.
+  
+  Cold-water facial immersion may also be discussed where appropriate.
+  
+  Pharmacotherapy:
+  
+  If resting ECG demonstrates frequent ectopics or sinus tachycardia and symptoms remain significantly distressing despite lifestyle modification, consider a low-dose beta-blocker such as Propranolol 20 mg BD or Atenolol 25 mg daily, after assessing for contraindications including bronchial asthma.
+  
+  Further Cardiac Evaluation:
+  
+  If resting ECG is abnormal, including evidence of pre-excitation, atrial fibrillation or frequent ventricular ectopics, refer to a cardiologist for further assessment.
+  
+  24-hour Holter ECG monitoring may be required to capture intermittent arrhythmias.
+  
+  Echocardiography may be performed to assess structural heart disease where clinically indicated.
+  
+  Red Flags:
+  
+  Advise immediate medical review if she develops syncope, chest pain, significant dyspnoea or persistent/prolonged palpitations.
+  
+  Follow-up:
+  
+  Review in 1 week with investigation results.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'im-49',
     title: 'Stress-Induced (Takotsubo) Cardiomyopathy Presenting as Acute Coronary Syndrome',
@@ -26084,6 +30969,4061 @@ Not yet available
 
 
 // General Outpatient
+{
+  id: 'gopd-57',
+  title: 'Pheochromocytoma',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Secondary Hypertension secondary to suspected Pheochromocytoma',
+  symptoms: [
+    'Recurrent episodic headaches',
+    'Palpitations',
+    'Excessive sweating',
+    'Poorly controlled hypertension',
+    'Anxiety',
+    'Fine tremors',
+    'Chest tightness',
+    'Nausea'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-21',
+  summary: '38-year-old Yoruba female civil servant residing in Ibadan, Oyo State, with a 6-month history of recurrent episodic headaches, pounding palpitations and excessive sweating, associated with poorly controlled and episodically spiking hypertension, suggestive of secondary hypertension due to suspected pheochromocytoma.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 38-year-old Yoruba female civil servant residing in Ibadan, Oyo State.
+
+PC:
+Recurrent episodic headaches × 6 months.
+
+Palpitations × 6 months.
+
+Excessive sweating × 6 months.
+
+Poorly controlled high blood pressure × 2 months.
+
+HPC:
+Patient presents with a 6-month history of recurrent, episodic, throbbing headaches, which are generalized and severe, often lasting 15 to 30 minutes per episode. Headaches are characteristically accompanied by sudden-onset, pounding palpitations and drenching sweats, even in cool environments. These "spells" occur about 3 to 4 times a week, often triggered by emotional stress, sudden changes in posture, or physical exertion. During these episodes, she reports feeling highly anxious, tremulous, and occasionally experiences chest tightness and nausea. There is no associated visual blurriness, seizures, or loss of consciousness.
+
+She was diagnosed with hypertension 2 years ago at a local clinic. Despite being commenced on multiple anti-hypertensive medications, her blood pressure has remained persistently elevated, with frequent spikes during her symptomatic episodes. There is no history of weight loss, heat intolerance, neck swelling, or chronic diarrhea. No history of easy bruising, proximal muscle weakness, or purple abdominal striae.
+
+PMH:
+Diagnosed with hypertension 2 years ago.
+No history of diabetes mellitus, bronchial asthma, or sickle cell anemia.
+No previous surgical interventions.
+No history of blood transfusions.
+
+DH:
+Tab Amlodipine 10mg daily (PTP).
+Tab Lisinopril 20mg daily (PTP).
+Adherence has been poor recently due to perceived lack of efficacy and worsening symptoms.
+Denies use of over-the-counter herbal remedies, oral contraceptives, or decongestants.
+
+FHx/SHx:
+Mother is hypertensive and diabetic.
+No family history of sudden cardiac death, thyroid tumors, or adrenal masses.
+Married with 3 children.
+Non-smoker.
+Does not drink alcohol.
+
+ROS:
+
+CNS:
+Recurrent severe headaches.
+Anxiety.
+Fine tremors.
+No focal weakness.
+
+CVS:
+Palpitations.
+Episodic chest tightness.
+No orthopnea or paroxysmal nocturnal dyspnea.
+
+GIT:
+Occasional nausea and constipation.
+No abdominal pain.
+
+Endocrine:
+Excessive sweating.
+Mild weight loss despite normal appetite.
+
+O/E:
+
+General Examination:
+Patient is anxious-looking, sweaty, and tremulous, but not in respiratory distress.
+Conscious and alert.
+No pallor.
+No jaundice.
+No peripheral lymphadenopathy.
+No thyroid gland enlargement.
+No pedal edema.
+
+Vital Signs:
+BP: 185/115 mmHg (sitting, right arm; confirmed on left arm as 180/112 mmHg)
+PR: 112 bpm, regular, bounding
+RR: 20 cpm
+Temp: 37.1°C
+SpO₂: 98% on room air
+
+Systemic Examination:
+
+CVS:
+Apex beat is hyperdynamic, located in the 5th left intercostal space, midclavicular line.
+S1, S2 heard.
+No murmurs or gallops.
+
+Abdomen:
+Flat, soft.
+Deep abdominal palpation was strictly avoided to prevent precipitating a catecholamine crisis.
+No obvious masses felt.
+
+CNS:
+Intact cranial nerves.
+No focal motor or sensory deficits.
+Fine tremors observed in both hands.
+
+RS:
+Lungs are clear.
+Vesicular breath sounds bilaterally.
+
+ASS:
+Secondary Hypertension secondary to suspected Pheochromocytoma.
+
+DIFFERENTIALS:
+1. Essential Hypertension (Refractory): Poorly controlled primary hypertension.
+2. Hyperthyroidism: Can present with palpitations, sweating, tremors, and hypertension, though typically associated with goiter and weight loss.
+3. Panic Disorder / Severe Anxiety: Can mimic episodic catecholamine excess but does not typically cause such severe, refractory diastolic hypertension.
+4. Renal Artery Stenosis: Another cause of secondary, refractory hypertension.
+
+INVESTIGATIONS:
+
+Biochemical Screening (Diagnostic):
+24-hour urinary fractionated metanephrines and catecholamines (highly sensitive and specific; patient to be instructed on proper collection).
+
+Serum electrolytes, urea, and creatinine to assess renal function and rule out hypokalemia/primary aldosteronism.
+
+Fasting Blood Glucose, as catecholamines induce glycogenolysis and hyperglycemia is common.
+
+Imaging (Localization - to be done after biochemical confirmation and alpha-blockade):
+Abdominal Ultrasound as initial screening, though limited.
+
+Contrast-Enhanced CT scan of the Abdomen and Pelvis to localize adrenal or extra-adrenal mass; must only be performed after adequate alpha-blockade to prevent hypertensive crisis from contrast injection.
+
+Cardiovascular Assessment:
+12-lead ECG to check for Left Ventricular Hypertrophy (LVH), strain pattern, or tachyarrhythmias.
+
+Echocardiography to evaluate for hypertensive cardiomyopathy.
+
+PLAN:
+
+Immediate Stabilization & Safety Precautions:
+Admit to the medical ward for close monitoring of blood pressure and heart rate.
+
+Strict bed rest in a quiet, calm environment.
+
+ABSOLUTE CONTRAINDICATION:
+Do not initiate beta-blockers (e.g., Propranolol, Atenolol) at this stage. Unopposed alpha-adrenergic stimulation can lead to a catastrophic hypertensive crisis, stroke, or acute pulmonary edema.
+
+Avoid deep abdominal palpation.
+
+Pharmacological:
+
+Alpha-Blockade (First-line):
+Initiate selective alpha-1 blocker, Tab Doxazosin 1mg daily at bedtime (more widely available and affordable in Nigeria than Phenoxybenzamine).
+
+Titrate dose upward by 1–2mg every 2–3 days based on blood pressure response and tolerance, aiming for a target BP < 130/80 mmHg (or until mild orthostatic hypotension occurs).
+
+Beta-Blockade (Second-line):
+Only after 7–10 days of adequate alpha-blockade, if tachycardia persists (HR > 90 bpm), initiate Tab Propranolol 20mg TDS or Tab Atenolol 50mg daily.
+
+Hydration:
+Encourage oral fluid intake or initiate cautious IV normal saline infusion once alpha-blockade is established, as alpha-blockade reverses the chronic intravascular volume depletion characteristic of pheochromocytoma.
+
+Referral Pathway:
+Once the patient is hemodynamically stabilized on oral alpha-blockers, refer urgently to a tertiary healthcare facility (e.g., University College Hospital, Ibadan) for endocrinology specialist evaluation, CT/MRI localization, and planned surgical resection (adrenalectomy) under expert anesthetic care.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-56',
+  title: 'Trigger Thumb',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Stenosing Tenosynovitis (Trigger Thumb)',
+  symptoms: [
+    'Left thumb pain',
+    'Thumb stiffness',
+    'Difficulty flexing the left thumb',
+    'Difficulty extending the left thumb',
+    'Mechanical catching or snapping',
+    'Painful clicking',
+    'Intermittent locking of the thumb in flexion'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-20',
+  summary: '45-year-old Yoruba male civil servant residing in Bodija, Ibadan, Oyo State, with a 3-month history of left thumb pain and a 2-month history of progressive stiffness, painful catching, snapping and intermittent locking in flexion, with examination findings consistent with Grade III stenosing tenosynovitis (trigger thumb).',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 45-year-old Yoruba male civil servant (Administrative Officer) residing in Bodija, Ibadan, Oyo State.
+
+PC:
+Pain in the left thumb × 3 months.
+
+Intermittent stiffness and difficulty flexing/extending the left thumb × 2 months.
+
+HPC:
+Mr. O.A., a 45-year-old right-hand-dominant civil servant, presented with a 3-month history of pain at the base of his left thumb. The pain started gradually, described as a dull ache localized to the palmar aspect of the thumb. It is worse in the mornings and after prolonged periods of typing or writing.
+
+Over the last 2 months, he noticed progressive stiffness in the thumb, particularly upon waking. This is associated with a "catching" or "snapping" sensation when attempting to flex or extend the digit. Occasionally, the thumb becomes locked in a flexed position, requiring him to use his right hand to passively force it back into extension, which is accompanied by a painful click.
+
+There is no history of direct trauma to the hand, no swelling of other joints, no morning stiffness lasting more than 30 minutes in other joints, and no systemic symptoms such as fever, weight loss, or skin rashes.
+
+PMH:
+No known chronic medical conditions (hypertension, diabetes mellitus, or gout).
+No previous hand injuries or surgeries.
+Genotype: AA.
+
+DH:
+Has been self-medicating with OTC Tab Ibuprofen 400mg PRN with minimal, temporary relief.
+No history of herbal medication use.
+
+FHx/SHx:
+Married with three children.
+Non-smoker.
+Occasional social drinker.
+Work involves significant computer keyboard use.
+No family history of rheumatoid arthritis, gout, or other connective tissue disorders.
+
+ROS:
+
+General:
+No fever.
+No fatigue.
+
+MSS:
+No other joint pain, swelling, or stiffness.
+
+Other Systems:
+Unremarkable.
+
+O/E:
+
+General Examination:
+Acutely in no distress, comfortable, afebrile (Temp: 36.6°C), not pale, anicteric, well-hydrated.
+No peripheral lymphadenopathy.
+
+Vital Signs:
+BP: 120/80 mmHg
+PR: 74 bpm, regular, normal volume
+RR: 16 cpm
+SpO₂: 99% on room air
+
+Focused Musculoskeletal/Hand Examination – Left Hand:
+
+Inspection:
+No obvious deformity, muscle wasting (thenar/hypothenar eminence), erythema, or swelling over the left hand or wrist.
+
+Palpation:
+Marked tenderness localized over the palmar aspect of the first metacarpophalangeal (MCP) joint, corresponding to the A1 pulley.
+A small, discrete, tender nodule is palpable at this site, which moves in tandem with the flexor pollicis longus tendon.
+
+Range of Motion:
+Active flexion of the left thumb triggers a painful "snap" at the MCP joint.
+The thumb occasionally locks in flexion and requires passive extension to straighten (Positive Triggering - Green's Classification Grade III).
+
+Special Tests:
+Finkelstein's test: Negative (rules out De Quervain's tenosynovitis).
+Grind test: Negative (rules out first carpometacarpal osteoarthritis).
+Sensation and capillary refill time (< 2 seconds) are normal in all digits.
+
+ASS:
+Stenosing Tenosynovitis (Trigger Thumb) of the left hand (Green's Grade III).
+
+DIFFERENTIALS:
+1. First Carpometacarpal (CMC) Joint Osteoarthritis.
+2. De Quervain's Tenosynovitis.
+3. Early Rheumatoid Arthritis.
+4. Gouty arthropathy of the first MCP joint.
+
+INVESTIGATIONS:
+
+Radiology:
+Plain X-ray of the Left Hand (AP and Oblique views) to rule out joint space narrowing, osteophytes, or calcifications (Osteoarthritis/Gout).
+
+Biochemistry:
+Serum Uric Acid to rule out gouty tophi/arthropathy.
+
+Inflammatory/Immunological:
+FBC, ESR, and Rheumatoid Factor (RF) to rule out systemic inflammatory arthropathies if symptoms persist or involve other joints.
+
+PLAN:
+
+Conservative Management:
+
+Activity Modification:
+Advise avoidance of repetitive gripping and pinching motions.
+Recommend ergonomic adjustments at work (e.g., using an ergonomic keyboard).
+
+Splinting:
+Left thumb MCP joint splinting in neutral/extension, especially at night, for 3–6 weeks.
+
+Local Therapy:
+Warm compresses or ice packs applied to the affected area for 10–15 minutes TDS.
+
+Pharmacological Therapy:
+
+Oral NSAIDs:
+Tab Celecoxib 100mg PO BD × 10 days
+
+OR
+
+Tab Ibuprofen 400mg PO TDS PC × 7 days.
+
+Tab Omeprazole 20mg PO daily for gastric protection.
+
+Topical NSAID:
+Diclofenac gel applied to the base of the thumb TDS with gentle massage.
+
+Referral and Escalation Plan:
+Counsel the patient that if symptoms do not improve after 4–6 weeks of conservative therapy, or if locking worsens, he will be referred to an Orthopedic Surgeon or Rheumatologist at a tertiary facility (e.g., UCH, Ibadan) for:
+
+Local corticosteroid injection (e.g., Triamcinolone acetonide 10–20mg mixed with 1% Lidocaine) into the tendon sheath.
+
+Surgical release of the A1 pulley (percutaneous or open) if steroid injection fails or is contraindicated.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-55',
+  title: 'Trigger Thumb',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Stenosing Tenosynovitis (Trigger Thumb)',
+  symptoms: [
+    'Left thumb pain',
+    'Intermittent thumb stiffness',
+    'Thumb locking',
+    'Mechanical catching or snapping',
+    'Pain with gripping',
+    'Pain with fine motor tasks'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-20',
+  summary: '46-year-old Yoruba male civil servant residing in Ibadan, Oyo State, with a 2-week history of left thumb pain, stiffness, mechanical catching and intermittent locking in flexion, with examination findings consistent with trigger thumb (stenosing tenosynovitis).',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 46-year-old Yoruba male civil servant residing in Ibadan, Oyo State.
+
+PC:
+Left thumb pain × 2 weeks.
+
+Intermittent stiffness and locking of the thumb × 2 weeks.
+
+HPC:
+He was apparently well until 2 weeks ago when he began to notice pain at the base of his left thumb. The pain is described as a dull ache, localized to the palm-side of the thumb base, and is worse when he attempts to grip objects or perform fine motor tasks at work.
+
+Associated with the pain, he reports significant stiffness, particularly in the morning. He describes a mechanical "catching" or "snapping" sensation whenever he tries to flex or extend the thumb. On several occasions, the thumb has become stuck in a flexed position, requiring him to use his right hand to manually straighten it.
+
+There is no history of recent trauma, falls, or direct injury to the hand. He denies any associated numbness, tingling, or weakness in the hand or other fingers. There are no complaints of fever, weight loss, or similar pains in other joints of the body.
+
+PMH:
+Not a known hypertensive or diabetic patient.
+No previous history of inflammatory joint disease.
+No history of previous hand surgeries.
+
+DH:
+He has been using over-the-counter Ibuprofen tablets and topical methyl salicylate creams with only temporary relief.
+No known drug allergies.
+
+FSH:
+He is a civil servant whose daily routine involves significant typing and manual paperwork.
+Non-smoker.
+Does not consume alcohol.
+No family history of rheumatoid arthritis or gout.
+
+ROS:
+
+CNS:
+No headache.
+No paresthesia.
+
+CVS:
+No palpitations.
+No orthopnea.
+
+RS:
+No cough.
+No shortness of breath.
+
+GIT:
+No dyspepsia.
+No change in bowel habits.
+
+MSS:
+No other joint swelling.
+No back pain.
+
+O/E:
+
+General Examination:
+A middle-aged man in no obvious clinical distress.
+Afebrile (36.7°C).
+Not pale, not icteric, no peripheral lymphadenopathy, no pedal edema.
+
+Vital Signs:
+PR: 76 bpm, regular, normal volume
+BP: 120/80 mmHg
+RR: 16 cpm
+SpO₂: 98% on room air
+
+Local Examination – Left Hand:
+
+Inspection:
+No obvious swelling, redness, or deformity of the left thumb or thenar eminence.
+No muscle wasting of the hand intrinsics.
+
+Palpation:
+Point tenderness noted on the volar surface of the thumb over the first metacarpophalangeal (MCP) joint.
+A small, firm, non-tender nodule is palpable over the A1 pulley area, which moves during flexion and extension.
+
+Range of Motion:
+Active flexion of the thumb is limited by a painful "snap" or "click."
+The thumb occasionally locks in flexion and requires passive assistance to extend.
+
+Neurological:
+Normal sensation over the median, ulnar, and radial nerve distributions.
+Strong radial pulse.
+Good capillary refill (less than 2 seconds).
+
+ASS:
+Trigger Thumb (Stenosing Tenosynovitis) of the left hand.
+
+DIFFERENTIALS:
+1. First Carpometacarpal (CMC) Joint Osteoarthritis.
+2. De Quervain's Tenosynovitis.
+3. Sessamoiditis.
+
+INVESTIGATIONS:
+
+Radiology:
+Plain X-ray of the left hand (AP and Lateral views) to rule out bony pathology or joint space narrowing.
+
+Metabolic:
+Fasting Blood Sugar (FBS) to screen for Diabetes Mellitus, as it is a common predisposing factor.
+
+Biochemistry:
+Uric acid levels if gout is suspected based on progression.
+
+PLAN:
+
+Patient Education:
+Explain the condition and reassure the patient regarding its nature.
+Advise avoidance of repetitive gripping or pinching motions.
+
+Splinting:
+Thumb spica splinting at night to keep the MCP joint in neutral position for 3–4 weeks.
+
+Analgesia/Anti-inflammatory:
+Tab Naproxen 500mg BD or Tab Diclofenac 50mg BD × 1 week.
+To be taken with food.
+
+Follow-up:
+Review in 2–4 weeks to monitor for improvement.
+
+Referral:
+Plan for Orthopedic referral for local corticosteroid injection if symptoms do not resolve with conservative management.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-54',
+  title: 'Acute Hemolytic Crisis in G6PD Deficiency',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'G6PD Deficiency with Acute Hemolysis',
+  symptoms: [
+    'Yellowish discoloration of the eyes',
+    'Dark, tea-colored urine',
+    'Generalized body weakness',
+    'Fever',
+    'Dizziness',
+    'Exertional dyspnoea',
+    'Palpitations'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-20',
+  summary: '24-year-old Yoruba male undergraduate student with known G6PD deficiency presenting with acute intravascular hemolytic crisis following cotrimoxazole exposure, characterized by jaundice, hemoglobinuria, generalized weakness and moderate-to-severe anemia.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old Yoruba male undergraduate student residing in Agbowo, Ibadan, Oyo State.
+
+PC:
+Yellowish discoloration of the eyes × 2 days.
+Dark, tea-colored urine × 2 days.
+Generalized body weakness × 3 days.
+
+HPC:
+The patient is a 24-year-old male, a known G6PD-deficient individual diagnosed during early childhood, who presented with a 3-day history of progressive generalized body weakness.
+
+This was preceded by a 5-day history of high-grade, intermittent fever associated with chills and rigors.
+
+Prior to presentation, he self-medicated with OTC Cotrimoxazole (Septrin) tablets 960 mg BD for 2 days for a suspected urinary tract infection.
+
+Two days prior to presentation, he noticed the sudden onset of deep yellowish discoloration of the eyes (scleral icterus) and passage of dark, tea-colored urine.
+
+There is no history of abdominal pain, vomiting or diarrhoea. No history of bleeding from any site, including epistaxis, hematuria or melena. No history of joint pain or swelling.
+
+He reports progressive dizziness and exertional dyspnoea but denies orthopnoea or paroxysmal nocturnal dyspnoea.
+
+PTP:
+Self-medicated with Cotrimoxazole (Septrin) 960 mg BD × 2 days for suspected urinary tract infection.
+Stopped Cotrimoxazole 1 day ago.
+Also took Paracetamol 1 g TDS × 3 days.
+
+PMH:
+Diagnosed with G6PD deficiency at age 5 during workup for severe neonatal/infantile jaundice.
+Has been largely asymptomatic since then.
+No prior history of blood transfusion.
+Genotype: AA.
+No known history of asthma, hypertension or diabetes mellitus.
+
+DH:
+Cotrimoxazole (Septrin) 960 mg BD × 2 days.
+Paracetamol 1 g TDS × 3 days.
+No history of herbal concoction (Agbo) ingestion or exposure to naphthalene balls (camphor).
+
+FHx:
+Maternal uncle reportedly had recurrent episodes of jaundice during childhood requiring blood transfusion.
+
+SHx:
+Lives in a university hostel in Ibadan.
+Non-smoker.
+Does not consume alcohol.
+
+ROS:
+
+General:
+Febrile.
+Fatigued.
+
+CVS:
+Palpitations.
+Exertional dyspnoea.
+No chest pain.
+
+RS:
+No cough.
+No hemoptysis.
+
+GIT:
+No nausea.
+No vomiting.
+Mild left upper quadrant fullness.
+
+CNS:
+Dizziness.
+Headache.
+No syncope or loss of consciousness.
+
+MSS:
+Generalized muscle aches.
+
+O/E:
+
+Acutely ill-looking young male, moderately pale, deeply icteric, febrile, with anicteric palms.
+No pedal edema.
+No peripheral lymphadenopathy.
+Clinically well hydrated.
+
+Vital Signs:
+T: 38.4°C
+PR: 114 bpm, tachycardic, full volume, bounding
+BP: 110/70 mmHg
+RR: 24 cpm
+SpO₂: 96% in room air
+
+CVS:
+Hyperdynamic precordium.
+Apex beat displaced to the 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+Grade 2/6 systolic murmur loudest at the apex.
+
+RS:
+Trachea central.
+Chest expansion symmetrical.
+Percussion note resonant bilaterally.
+Breath sounds vesicular.
+No adventitious sounds.
+
+ABD:
+Flat and moves with respiration.
+Mild left upper quadrant tenderness.
+Spleen palpable 3 cm below the left costal margin.
+Liver not enlarged.
+Kidneys not ballotable.
+
+CNS:
+Conscious, alert and oriented in time, place and person.
+No neck stiffness.
+Kernig's sign negative.
+No focal neurological deficits.
+
+ASS:
+Acute intravascular hemolytic crisis secondary to drug trigger (Cotrimoxazole) in a patient with known G6PD deficiency, complicated by moderate-to-severe anemia.
+
+DIFFERENTIALS:
+1. Severe malaria with hemolysis.
+2. Autoimmune hemolytic anemia (AIHA).
+3. Acute viral hepatitis.
+
+INVESTIGATIONS:
+
+Haematology:
+Full Blood Count (FBC) and reticulocyte count to assess severity of anemia and bone marrow response.
+
+Peripheral Blood Film:
+Look for bite cells, blister cells, Heinz bodies and polychromasia.
+
+Urinalysis:
+To confirm hemoglobinuria, typically showing positive blood/heme with few or no intact RBCs on microscopy.
+
+Serum Bilirubin:
+Total, conjugated and unconjugated bilirubin to assess the pattern of hyperbilirubinemia.
+
+Renal Function:
+Serum urea, electrolytes and creatinine to monitor renal function and rule out acute kidney injury from pigment nephropathy.
+
+Malaria:
+Malaria parasite test using thick and thin films to rule out malaria as a primary or co-trigger.
+
+G6PD Assay:
+G6PD enzyme assay may be falsely normal during an acute hemolytic episode because older deficient red cells have lysed while young reticulocytes may have relatively higher enzyme activity.
+
+Repeat quantitative G6PD assessment in 2–3 months for definitive assessment.
+
+PLAN:
+
+Immediate Discontinuation of Trigger:
+Ensure Cotrimoxazole is completely stopped.
+Avoid further exposure to Cotrimoxazole and other potential oxidative triggers.
+
+Aggressive Hydration:
+IV Normal Saline (0.9% NaCl) at 150–200 mL/hour to maintain high urine output (>1–2 mL/kg/hour).
+This is intended to reduce the risk of pigment nephropathy from free haemoglobin.
+
+Transfusion Therapy:
+Group and crossmatch 2 units of packed red blood cells.
+
+Transfuse if Hb drops below 7 g/dL or if there are signs of cardiovascular decompensation, including worsening dyspnoea, significant tachycardia or hypotension.
+
+Monitoring:
+Monitor vital signs (PR, BP, RR, Temp) hourly.
+Strict fluid intake and output chart.
+Monitor urine colour and volume.
+Serial PCV monitoring every 12 hours.
+
+Safe Medication Options:
+
+Antipyretic/Analgesic:
+Paracetamol is safe.
+Avoid high-dose Aspirin.
+
+Antimalarials:
+Artemether-Lumefantrine (Coartem) or Artesunate are safe.
+Avoid Primaquine and Pamaquine.
+
+Antibiotics:
+Penicillins such as Amoxicillin and Amoxiclav, Cephalosporins such as Ceftriaxone and Cefuroxime, and Macrolides such as Azithromycin are safe.
+Avoid Cotrimoxazole, Nitrofurantoin and Dapsone.
+
+HEALTH EDUCATION:
+
+Explain the nature of G6PD deficiency and the risk of oxidative drug-induced hemolysis.
+
+Provide a comprehensive list of contraindicated drugs and substances, including fava beans and naphthalene balls.
+
+Advise the patient to always inform healthcare providers of his G6PD status before receiving any medication.
+
+Advise against self-medication and use of unregulated herbal preparations.
+
+FOLLOW-UP:
+
+Close clinical and laboratory monitoring during the acute hemolytic episode.
+
+Repeat quantitative G6PD enzyme assessment in 2–3 months after recovery, as testing during an acute hemolytic episode may give a falsely normal result.
+
+Review for recurrence of jaundice, dark urine, worsening weakness, dyspnoea, dizziness or other symptoms suggestive of ongoing hemolysis.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-53',
+  title: 'Gastroesophageal Reflux Disease',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Gastroesophageal Reflux Disease (GERD)',
+  symptoms: [
+    'Retrosternal burning sensation',
+    'Heartburn',
+    'Sour taste in the mouth',
+    'Acid regurgitation',
+    'Water brash',
+    'Postprandial abdominal bloating'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-20',
+  summary: '34-year-old Yoruba female civil servant with a 3-month history of progressive retrosternal burning and a 2-month history of sour-tasting acid regurgitation, worse after meals and when lying supine, consistent with uncomplicated gastroesophageal reflux disease.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 34-year-old Yoruba female civil servant residing in Ibadan, Oyo State.
+
+PC:
+Retrosternal burning sensation × 3 months.
+Sour taste in the mouth × 2 months.
+
+HPC:
+Onset:
+Gradual, progressive over the last 3 months.
+
+Character:
+Retrosternal burning pain (heartburn), radiating upwards to the throat.
+
+It is typically worse after heavy, fatty or spicy meals and when lying supine, especially at night.
+
+Relieving Factors:
+Temporarily relieved by taking cold milk or over-the-counter (OTC) antacids.
+
+Associated Symptoms:
+Acid regurgitation (sour taste in the mouth) × 2 months.
+Occasional water brash.
+Postprandial abdominal bloating.
+
+Relevant Negatives:
+No dysphagia.
+No odynophagia.
+No haematemesis.
+No melaena.
+No significant weight loss.
+No chronic cough.
+No hoarseness of voice.
+No wheezing.
+
+Prior to Presentation:
+Patient has been self-medicating with OTC Magnesium Trisilicate suspension with transient relief, prompting presentation today due to worsening nocturnal symptoms disturbing sleep.
+
+PMH:
+No prior hospital admissions or surgeries.
+No history of Peptic Ulcer Disease (PUD).
+Not a known hypertensive or diabetic.
+Genotype: AA.
+
+DH:
+Frequent self-medication with OTC antacids.
+No history of chronic NSAID or steroid use.
+No use of calcium channel blockers or nitrates.
+
+FSH:
+No family history of upper gastrointestinal malignancies.
+Married with two children.
+Lives in a rented flat with access to clean water.
+Non-smoker.
+Occasional social consumer of red wine.
+High dietary intake of spicy foods, pastries and coffee due to a busy work schedule.
+
+ROS:
+
+CNS:
+No headache.
+No dizziness.
+Normal sleep pattern except when interrupted by heartburn.
+
+CVS:
+No exertional chest pain.
+No orthopnoea.
+No palpitations.
+
+RS:
+No cough.
+No dyspnoea.
+
+GIT:
+As in HPC.
+Normal bowel habits.
+No change in stool colour.
+
+GUT:
+No dysuria.
+Normal urine output.
+
+O/E:
+
+Conscious, alert and not acutely distressed.
+Not pale, anicteric, acyanosed and clinically hydrated.
+No peripheral lymphadenopathy.
+No pedal edema.
+
+Vital Signs:
+T: 36.6°C
+PR: 74 bpm, regular, normal volume
+BP: 115/75 mmHg
+RR: 16 cpm
+SpO₂: 98% in room air
+
+ABD:
+Flat, moves with respiration.
+Mild epigastric tenderness on deep palpation.
+No palpable organs or masses.
+Bowel sounds present and normal, 3–4/min.
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Lungs clear.
+Vesicular breath sounds bilaterally.
+
+CNS:
+Grossly intact.
+Oriented in time, place and person.
+
+ASS:
+Gastroesophageal Reflux Disease (GERD) – uncomplicated.
+
+DIFFERENTIALS:
+1. Peptic Ulcer Disease (PUD) / gastritis.
+2. Non-ulcer dyspepsia.
+3. Esophageal motility disorder.
+4. Atypical angina (cardiac origin).
+
+INVESTIGATIONS:
+
+Haematological:
+Full Blood Count (FBC) to rule out anaemia suggestive of occult gastrointestinal bleeding.
+
+Microbiology:
+H. pylori stool antigen test to screen for concurrent H. pylori infection, highly prevalent in the local environment.
+
+Cardiovascular:
+Electrocardiogram (ECG) to rule out atypical cardiac ischaemia presenting as retrosternal burning.
+
+Urinalysis:
+Routine screening.
+
+Upper GI Endoscopy:
+Not immediately indicated due to absence of red flag symptoms.
+
+Reserve upper GI endoscopy for failure to resolve after empirical therapy or development of alarm symptoms.
+
+PLAN:
+
+Non-Pharmacological / Lifestyle Modifications:
+
+Avoid trigger foods including fatty and spicy meals, chocolate, caffeine, carbonated drinks and alcohol.
+
+Avoid lying down within 3 hours of eating.
+
+Elevate the head of the bed by 6 inches using extra pillows or bed risers.
+
+Eat smaller, more frequent meals instead of large heavy dinners.
+
+Avoid tight-fitting clothing around the waist.
+
+Pharmacological:
+
+Option A – First-Line Standard Therapy:
+Tab Omeprazole 20 mg daily taken 30–60 minutes before breakfast for 4–8 weeks.
+
+OR
+
+Tab Esomeprazole 20 mg daily taken 30–60 minutes before breakfast for 4–8 weeks.
+
+Option B – Rapid Symptom Relief / Breakthrough Symptoms:
+Syr Magnesium Trisilicate / Aluminium Hydroxide 15 mL TDS or PRN between meals and at bedtime.
+
+OR
+
+Syr Sodium Alginate (Gaviscon) 10–20 mL after meals and at bedtime.
+
+Option C – Alternative Therapy:
+If PPIs are unavailable or not tolerated:
+
+Tab Famotidine 20 mg BD for 4–8 weeks.
+
+OR
+
+Tab Cimetidine 400 mg BD for 4–8 weeks.
+
+MONITORING AND FOLLOW-UP:
+
+Review patient in 2 weeks to assess symptomatic response and compliance.
+
+Educate patient on red flag symptoms including:
+Dysphagia.
+Odynophagia.
+Persistent vomiting.
+Haematemesis.
+Melaena.
+Unexplained weight loss.
+
+Advise immediate presentation if any red flag symptoms develop.
+
+REFERRAL:
+
+Refer to a gastroenterologist at a secondary or tertiary facility if there is no clinical improvement after 8 weeks of compliant PPI therapy or if any red flag symptoms manifest.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-52',
+  title: 'Gastroesophageal Reflux Disease',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Gastroesophageal Reflux Disease (GERD)',
+  symptoms: [
+    'Retrosternal burning sensation',
+    'Heartburn',
+    'Sour taste in the mouth',
+    'Acid regurgitation',
+    'Postprandial symptoms'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-20',
+  summary: '24-year-old Yoruba female graduate student with a 3-month history of postprandial retrosternal burning and a 2-month history of nocturnal sour-tasting regurgitation, consistent with gastroesophageal reflux disease.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old Yoruba female graduate student residing in Ikeja, Lagos State.
+
+PC:
+Retrosternal burning sensation × 3 months.
+Sour taste in the mouth × 2 months.
+
+HPC:
+She was apparently well until 3 months ago when she started experiencing a burning sensation behind the breastbone (heartburn).
+
+The pain is worse after heavy meals and specifically after consuming spicy Nigerian dishes or coffee.
+
+It is also aggravated by lying down immediately after meals or bending over.
+
+The symptoms are partially relieved by taking over-the-counter antacid suspensions.
+
+About 2 months ago, she started noticing the regurgitation of sour-tasting fluid into her throat, particularly at night.
+
+There is no associated difficulty in swallowing (dysphagia) or pain on swallowing (odynophagia).
+
+No history of chronic cough, wheezing or hoarseness of voice.
+
+No history of haematemesis, melaena or significant weight loss.
+
+Bowel habits have remained normal.
+
+PMH:
+No previous history of Peptic Ulcer Disease (PUD).
+No known chronic medical conditions such as asthma or hypertension.
+No previous surgeries.
+
+DH:
+Not on any chronic medications.
+Occasional use of Ibuprofen for menstrual cramps.
+Frequent use of Magnesium Trisilicate for current symptoms.
+No known drug allergies.
+
+FSH:
+Second of four children in a monogamous family setting.
+Non-smoker.
+Does not consume alcohol.
+Diet is rich in spices and fried foods.
+Frequently skips breakfast and eats late at night due to academic workload.
+
+ROS:
+
+CNS:
+No headaches.
+No loss of consciousness.
+
+CVS:
+No palpitations.
+No orthopnoea.
+No pedal edema.
+
+RS:
+No cough.
+No shortness of breath.
+
+GIT:
+No nausea.
+No vomiting.
+No abdominal bloating.
+
+MSS:
+No joint pains or swellings.
+
+O/E:
+
+Young woman in no obvious distress.
+Afebrile, not pale, anicteric, acyanosed and well hydrated.
+No peripheral lymphadenopathy.
+No pedal edema.
+
+Vital Signs:
+T: 36.6°C
+PR: 76 bpm, regular, normal volume
+BP: 110/70 mmHg
+RR: 16 cpm
+SpO₂: 98% on room air
+
+ABD:
+
+Inspection:
+Flat, moves with respiration.
+No visible scars or dilated veins.
+
+Palpation:
+Soft.
+Mild epigastric tenderness on deep palpation.
+No palpable masses.
+No hepatosplenomegaly.
+No kidney enlargement.
+
+Percussion:
+Normal tympanitic notes across all quadrants.
+
+Auscultation:
+Bowel sounds present and normal.
+
+RS:
+Trachea central.
+Normal vesicular breath sounds.
+No added sounds.
+
+CVS:
+Apex beat at the 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+
+ASS:
+Gastroesophageal Reflux Disease (GERD).
+
+DIFFERENTIALS:
+1. Peptic Ulcer Disease (PUD).
+2. Gastritis.
+3. Non-ulcer dyspepsia.
+4. Nutcracker esophagus.
+
+INVESTIGATIONS:
+
+Haematological:
+Full Blood Count (FBC) to check for anaemia/occult blood loss.
+
+Microbiology:
+H. pylori stool antigen test to rule out co-existing infection.
+
+Metabolic:
+Fasting Blood Sugar for routine screening.
+
+Upper GI Endoscopy:
+Indicated if there is no improvement after 4 weeks of therapy or if red flags develop.
+
+PLAN:
+
+Lifestyle Modifications:
+
+Avoid lying down for at least 3 hours after meals.
+
+Elevate the head of the bed using extra pillows.
+
+Dietary changes:
+Avoid fatty and spicy foods.
+Avoid caffeine.
+Avoid carbonated drinks.
+
+Eat smaller, more frequent meals.
+
+Avoid NSAIDs such as Ibuprofen.
+Use Paracetamol for pain instead.
+
+Pharmacological:
+
+Proton Pump Inhibitor:
+Tab Omeprazole 20 mg daily, 30 minutes before breakfast × 4 weeks.
+
+Antacid/Alginate:
+Liquid Gaviscon 10 mL TDS after meals and at bedtime PRN for breakthrough symptoms.
+
+FOLLOW-UP:
+
+Review in 4 weeks to assess symptom resolution.
+
+Educate patient on alarm symptoms requiring immediate presentation, including:
+Weight loss.
+Difficulty swallowing.
+Vomiting blood.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-51',
+  title: 'Right Plantar Fasciitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Musculoskeletal Clinic',
+  condition: 'Plantar Fasciitis',
+  symptoms: ['Right heel pain', 'First-step pain', 'Pain after prolonged standing', 'Plantar heel tenderness', 'Antalgic gait'],
+  contributor: 'Admin',
+  lastModified: '2026-08-19',
+  summary: '42-year-old Yoruba female trader presenting with 3 months of progressive right plantar heel pain, characteristically worse with the first steps after rest and prolonged standing, with localized plantar fascia tenderness and a positive Windlass test, consistent with plantar fasciitis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 42-year-old Yoruba female trader from Ibadan, Oyo State, married with 4 children, presenting with right heel pain.
+
+PC:
+
+Right heel pain × 3/12
+
+HPC:
+
+Patient presents with a 3-month history of right heel pain which was gradual in onset and has been progressively worsening.
+
+Pain is described as sharp and stabbing, localized to the plantar aspect of the right heel. It is characteristically worst with the first few steps in the morning ("first-step pain") or after periods of rest. The pain improves slightly after walking for a few minutes but worsens significantly towards the end of the day after prolonged standing at her market stall.
+
+No history of direct trauma to the foot or ankle. No associated swelling, redness or warmth of the foot. No radiating pain, numbness or paresthesia in the lower limbs.
+
+No history of morning stiffness in other joints, back pain or skin rashes.
+
+PTP:
+
+Self-medicated with Tab Paracetamol 1 g TDS and applied Ibuprofen gel with minimal, transient relief.
+
+PMHx:
+
+No known chronic medical conditions including hypertension, diabetes mellitus or gout.
+No previous foot or ankle surgeries.
+No history of similar joint or heel pain.
+
+Drug History:
+
+Self-medicated with OTC Paracetamol and Ibuprofen gel.
+No history of chronic corticosteroid or fluoroquinolone use.
+No known drug allergies.
+
+Family and Social History:
+
+Married with 4 children.
+Trader by occupation, stands for approximately 8–10 hours daily.
+Frequently wears flat, unsupportive footwear/slippers.
+Non-smoker.
+Does not consume alcohol.
+
+ROS:
+
+CNS: No headache, paresthesia or motor weakness.
+CVS: No chest pain, palpitations or orthopnoea.
+RS: No cough or dyspnoea.
+GIT: No abdominal pain or dyspepsia. Normal bowel habits.
+MSS: No other joint pain, swelling or stiffness.
+
+O/E:
+
+Acutely ill-looking middle-aged woman, not in obvious respiratory distress, afebrile, not pale, anicteric, acyanotic, no significant peripheral lymphadenopathy and no pedal oedema.
+
+Vitals:
+
+BP: 120/80 mmHg
+PR: 74 bpm, regular, normal volume
+RR: 16 cpm
+SpO₂: 98% RA
+Temp: 36.5°C
+
+LOCAL MUSCULOSKELETAL EXAM – RIGHT FOOT AND ANKLE:
+
+Inspection: No obvious deformity, localized swelling, erythema or bruising. Normal longitudinal arch bilaterally. No skin thickening or ulcers. Antalgic gait, favouring the left foot.
+
+Palpation: Exquisite localized tenderness over the anteromedial aspect of the right calcaneus at the plantar fascia insertion. Tenderness exacerbated by passive dorsiflexion of the hallux and remaining toes with positive Windlass test. No tenderness over the Achilles tendon, retrocalcaneal bursa or lateral malleolus. No sensory deficits along the medial or lateral plantar nerves. Dorsalis pedis and posterior tibial pulses warm and well palpable. Capillary refill time <2 seconds.
+
+ROM: Active and passive ROM of the ankle and subtalar joints preserved. Passive dorsiflexion of the ankle slightly restricted by tight gastrocnemius-soleus complex.
+
+ASS:
+
+1. Right plantar fasciitis.
+2. Calcaneal spur, a possible associated radiological finding.
+3. Achilles tendinopathy, less likely.
+4. Tarsal tunnel syndrome, less likely.
+5. Calcaneal stress fracture, less likely.
+
+INVESTIGATIONS:
+
+- Plain X-ray of the right foot, AP and lateral views, to assess for calcaneal stress fracture, bony lesions, osteomyelitis or calcaneal spur if clinically indicated.
+- Fasting blood glucose to screen for diabetes mellitus.
+- Serum uric acid if atypical symptoms suggestive of gout develop.
+
+PLAN:
+
+- Minimize prolonged standing where possible, including sitting on a stool at the market stall when feasible.
+- Roll the arch of the right foot over a frozen water bottle for 15–20 minutes, 3 times daily.
+- Perform plantar fascia and calf stretching exercises for about 10 minutes, 3 times daily, especially before the first steps in the morning.
+- Avoid walking barefoot.
+- Use supportive footwear with cushioned soles.
+- Consider silicone heel cups or orthotic inserts.
+- Tab Ibuprofen 400 mg TDS with food × 10/7 OR Tab Naproxen 250 mg BD × 10/7.
+- Cap Omeprazole 20 mg daily × 10/7 if oral NSAID is used and gastroprotection is clinically indicated.
+- Diclofenac 1.16% gel apply locally to the heel TDS.
+- Review in 2 weeks to assess pain control and adherence to stretching and footwear modification.
+- If no significant improvement after 6 weeks of conservative management, refer to Physiotherapy for structured physical therapy.
+- If symptoms remain refractory after 3–6 months, refer to Orthopaedics for consideration of advanced interventions such as corticosteroid injection, extracorporeal shockwave therapy or custom orthotics.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'gopd-50',
+  title: 'Plantar Fasciitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Musculoskeletal',
+  condition: 'Plantar Fasciitis',
+  symptoms: ['Heel pain', 'Morning heel pain', 'Pain after prolonged standing', 'Pain with walking', 'Plantar tenderness'],
+  contributor: 'Admin',
+  lastModified: '2026-08-19',
+  summary: '42-year-old woman with 3 months of gradually worsening right heel pain, characteristically worse with the first few steps in the morning and after prolonged rest, with tenderness over the medial calcaneal tubercle and proximal plantar fascia, consistent with plantar fasciitis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 42-year-old female primary school teacher, married. Informant: Patient, reliable.
+
+PC:
+
+Pain in the right heel × 3 months.
+
+HPC:
+
+The patient was apparently well until approximately 3 months prior to presentation when she developed gradually worsening pain in the right heel.
+
+The pain is described as sharp and stabbing, particularly over the underside of the heel and medial aspect of the foot.
+
+The pain is worst with the first few steps after waking in the morning or after sitting for a prolonged period. It initially improves after walking for several minutes but returns after prolonged standing or walking.
+
+She reports that the pain has become more frequent because her occupation requires prolonged standing during the day. She also recently increased her daily walking exercise.
+
+No history of direct trauma, fall or twisting injury to the foot.
+
+No history of numbness.
+No history of tingling.
+No history of weakness.
+No pain radiating up the leg.
+No history of fever.
+No redness or swelling of the foot.
+
+PTP, she has used paracetamol occasionally with partial relief.
+
+Past Medical History:
+
+No diabetes mellitus.
+No rheumatoid arthritis.
+No previous foot surgery.
+No previous significant foot injury.
+
+Drug History:
+
+Occasional paracetamol for pain.
+No known drug allergies.
+
+Family History:
+
+Non-contributory.
+
+Social and Occupational History:
+
+Primary school teacher with prolonged periods of standing.
+Recently increased walking exercise.
+Usually wears flat shoes with minimal arch support.
+No smoking.
+No recreational drug use.
+
+Review of Systems:
+
+Musculoskeletal:
+
+Right heel pain.
+Pain worse with first steps in the morning.
+Pain worse after prolonged standing and walking.
+No joint swelling.
+No muscle weakness.
+No preceding trauma.
+
+Neurological:
+
+No numbness.
+No paraesthesia.
+No weakness.
+
+General:
+
+No fever.
+No weight loss.
+No night sweats.
+
+O/E:
+
+Middle-aged woman, conscious and comfortable at rest, not pale, anicteric, acyanosed, with no peripheral oedema.
+
+Vitals:
+
+BP 126/78 mmHg.
+PR 82 bpm, regular.
+RR 18 cpm.
+Temp 36.6°C.
+SpO₂ 99% on room air.
+BMI 29 kg/m².
+
+Musculoskeletal Examination:
+
+Right Foot:
+
+No obvious deformity.
+No erythema or significant swelling.
+Point tenderness elicited over the medial calcaneal tubercle and proximal plantar fascia.
+Pain reproduced by passive dorsiflexion of the toes/foot.
+Pain particularly marked when taking the first few steps after rest.
+Ankle range of motion preserved.
+No Achilles tendon tenderness.
+No focal bony tenderness elsewhere.
+
+Neurovascular Examination:
+
+Peripheral pulses palpable and symmetrical.
+Capillary refill <2 seconds.
+Sensation intact.
+Motor power 5/5.
+
+Other Systems:
+
+Cardiovascular, respiratory and abdominal examinations are essentially normal.
+
+ASS:
+
+Right plantar fasciitis causing mechanical heel pain, likely related to prolonged standing, increased physical activity, inadequate footwear and increased mechanical load.
+
+Differentials:
+
+1. Plantar fasciitis.
+2. Calcaneal stress fracture.
+3. Achilles tendinopathy.
+4. Tarsal tunnel syndrome.
+5. Plantar fat-pad syndrome.
+6. Calcaneal spur.
+7. Inflammatory arthropathy.
+
+Investigations:
+
+Plantar fasciitis is primarily a clinical diagnosis and routine imaging is not required when the presentation is typical.
+
+If symptoms are atypical, severe, persistent or refractory to treatment:
+
+Plain X-ray of the foot to exclude fracture or other bony pathology.
+
+Musculoskeletal ultrasound may demonstrate plantar fascia thickening and can help exclude other soft-tissue pathology.
+
+MRI reserved for diagnostic uncertainty or suspected alternative pathology such as stress fracture.
+
+FBC, ESR/CRP or rheumatologic investigations only if systemic or inflammatory features are present.
+
+PLAN:
+
+Activity Modification:
+
+Advise temporary reduction of activities that aggravate the pain, particularly prolonged standing, running and high-impact exercise.
+
+Avoid complete immobilization.
+
+Gradually resume normal activity as pain improves.
+
+Stretching Exercises:
+
+Daily plantar fascia and calf stretching should be encouraged.
+
+Plantar fascia stretch: While seated, cross the affected leg over the other leg and gently pull the toes backward until a stretch is felt along the sole of the foot. Hold for approximately 30 seconds, repeat 3 times, several times daily, particularly before taking the first steps in the morning.
+
+Calf stretch: Stand facing a wall, place the affected leg behind, keep the heel on the floor and lean forward. Hold for 30 seconds and repeat 3 times, at least twice daily.
+
+Refer to a physiotherapist for supervised stretching and strengthening if available.
+
+Footwear:
+
+Advise use of well-fitting shoes with good cushioning and arch support.
+
+Avoid barefoot walking on hard floors, very flat footwear, hard-soled shoes and worn-out footwear.
+
+Consider a heel cup or prefabricated arch-support insole if symptoms persist.
+
+Ice Therapy:
+
+Apply a cold pack wrapped in a towel to the painful heel for 15–20 minutes, 3–4 times daily, particularly after prolonged activity.
+
+Alternatively, gently roll the sole of the foot over a frozen water bottle for 10–15 minutes.
+
+Analgesia:
+
+Tab Paracetamol 1 g PO 6–8-hourly PRN, maximum 4 g/day.
+
+If additional anti-inflammatory analgesia is required and there are no contraindications:
+
+Tab Ibuprofen 400 mg PO 8-hourly after meals × 5–7 days.
+
+Avoid NSAIDs in patients with significant renal disease, active peptic ulcer disease, NSAID allergy or other contraindications.
+
+Weight Management:
+
+Patient is overweight.
+
+Advise gradual weight reduction through appropriate diet and low-impact exercise such as swimming or cycling, as excessive mechanical loading may contribute to persistent symptoms.
+
+If Symptoms Persist:
+
+If symptoms remain troublesome despite 6–8 weeks of appropriate conservative management, consider referral to an orthopaedic surgeon, sports medicine physician or podiatry service.
+
+Further options may include formal physiotherapy, custom orthotics, night splint or extracorporeal shock-wave therapy in selected chronic cases.
+
+Corticosteroid injection should not be used routinely, given the potential risk of plantar fascia rupture and fat-pad atrophy.
+
+Surgery is rarely required and should only be considered for persistent, function-limiting symptoms after prolonged failure of conservative treatment and specialist assessment.
+
+Nursing Instructions:
+
+Assess pain severity and functional limitation.
+Reinforce stretching exercises.
+Encourage appropriate footwear.
+Monitor response to analgesics.
+Reinforce gradual rather than abrupt return to physical activity.
+
+Health Education:
+
+Explain that plantar fasciitis is an overuse-related disorder involving the plantar fascia, a strong band of tissue supporting the arch of the foot.
+
+It commonly causes pain around the heel, particularly with the first steps in the morning or after prolonged rest.
+
+Reassure the patient that the condition is usually self-limiting but may take several weeks to months to completely resolve.
+
+Consistent stretching, appropriate footwear, activity modification and weight management are important components of treatment.
+
+Advise her to return earlier if she develops significant swelling, redness, fever, inability to bear weight, numbness or rapidly worsening pain, as these features would be atypical for uncomplicated plantar fasciitis.
+
+Follow-up:
+
+Review in 4–6 weeks to assess pain, walking ability and adherence to stretching and footwear measures.
+
+Earlier review if symptoms worsen or new neurological or systemic symptoms develop.
+
+Prognosis:
+
+Good. Most patients improve with conservative treatment, although complete resolution may take several months. Recurrence can be reduced by maintaining appropriate footwear, stretching and gradual progression of physical activity.
+
+Final working diagnosis: Right plantar fasciitis causing mechanical heel pain.
+`,
+  documentation: `
+<div class="space-y-6">
+
+Not yet available
+
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-49',
+  title: 'Costochondritis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Costochondritis',
+  symptoms: [
+    'Left-sided chest pain',
+    'Sharp parasternal pain',
+    'Pain worsened by deep inspiration',
+    'Pain worsened by coughing or sneezing',
+    'Pain worsened by physical exertion',
+    'Reproducible chest wall tenderness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '24-year-old Yoruba female university student with a 5-day history of sharp, localized left parasternal chest pain reproducible over the 3rd and 4th costochondral junctions following recent high-intensity upper-body exercise, consistent with left-sided costochondritis secondary to physical strain.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old Yoruba female university student residing in Yaba, Lagos State.
+
+PC:
+Left-sided chest pain × 5 days.
+
+HPC:
+Patient presented with a 5-day history of left-sided chest pain.
+
+The pain is described as sharp and localized to the left parasternal area. It is exacerbated by deep inspiration, coughing, sneezing and physical exertion such as lifting heavy bags.
+
+Pain is relieved by rest and lying flat on her back.
+
+There is no radiation to the left arm, shoulder or jaw.
+
+There is no associated history of breathlessness, orthopnoea, paroxysmal nocturnal dyspnoea (PND), palpitations or cough.
+
+No history of fever, night sweats, weight loss or recent upper respiratory tract infections.
+
+No history of direct chest trauma, though she reports starting a high-intensity gym workout routine, including push-ups and chest presses, 2 days prior to the onset of symptoms.
+
+Prior to presentation, she took Tab Paracetamol 1 g TDS for 3 days with minimal relief.
+
+She has no history of similar chest pain.
+
+PMH:
+No known chronic medical conditions including hypertension, asthma, diabetes mellitus or peptic ulcer disease.
+Genotype: AA.
+No history of previous hospital admissions or surgeries.
+No history of blood transfusions.
+
+DH:
+Tab Paracetamol 1 g TDS for 3 days prior to presentation.
+No history of chronic NSAID use.
+Not on oral contraceptive pills or other hormonal medications.
+No known drug allergies.
+
+FSH:
+Single.
+Lives in a university hostel in Yaba.
+Non-smoker.
+Does not consume alcohol.
+No family history of early ischaemic heart disease, sudden cardiac death or connective tissue disorders.
+
+ROS:
+
+General:
+No fever.
+No fatigue.
+No weight loss.
+
+CVS:
+No palpitations.
+No orthopnoea.
+No ankle swelling.
+
+RS:
+No cough.
+No dyspnoea.
+No haemoptysis.
+
+GIT:
+No heartburn.
+No acid reflux.
+No epigastric pain.
+No dysphagia.
+
+MSS:
+Left-sided anterior chest wall pain as detailed in the HPC.
+No other joint pain or swelling.
+
+O/E:
+
+Young female, conscious and alert, in mild painful distress but not toxic-looking.
+Not pale, anicteric, acyanosed and clinically hydrated.
+No peripheral lymphadenopathy.
+No bilateral pedal edema.
+
+Vital Signs:
+T: 36.6°C
+PR: 76 bpm, regular, normal volume
+RR: 16 cpm
+BP: 110/70 mmHg
+SpO₂: 99% on room air
+
+RS:
+Chest symmetric and moves with respiration.
+Trachea central.
+Percussion note resonant bilaterally.
+Vesicular breath sounds heard bilaterally.
+No crepitations or rhonchi.
+
+CVS:
+Apex beat localized at the 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+JVP not elevated.
+
+ABD:
+Flat, soft and non-tender.
+No organomegaly.
+Bowel sounds active.
+
+CNS:
+Fully conscious, GCS 15/15.
+No focal neurological deficits.
+
+MSS:
+Exquisite, localized tenderness on palpation over the left 3rd and 4th costochondral junctions.
+Pain is reproducible upon palpation.
+No localized swelling, warmth, erythema or fluctuancy over the affected joints, ruling out Tietze's syndrome.
+
+ASS:
+Left-sided costochondritis secondary to physical strain.
+
+DIFFERENTIALS:
+1. Intercostal muscle strain.
+2. Gastroesophageal reflux disease (GERD) / gastritis.
+3. Atypical angina, less likely given age, risk profile and localized tenderness.
+4. Pleurisy, early viral or bacterial pleuritis.
+
+INVESTIGATIONS:
+
+Cardiovascular:
+12-lead ECG to rule out ischaemic changes, pericarditis or arrhythmias.
+
+Respiratory:
+Chest X-ray PA view to rule out pulmonary pathology such as pneumonia, pleurisy or pneumothorax, or rib fractures.
+
+Haematological / Inflammatory:
+Full Blood Count (FBC) and ESR to check for systemic infection or significant inflammatory processes.
+
+PLAN:
+
+Reassurance and Education:
+Counsel the patient on the benign, self-limiting nature of costochondritis.
+
+Explain that costochondritis is an inflammation of the cartilage connecting the ribs to the breastbone, likely triggered by her recent strenuous exercise.
+
+Pharmacological:
+
+Option A – First-line Non-Selective NSAID:
+Tab Ibuprofen 400 mg TDS PC × 5 days.
+
+OR
+
+Tab Diclofenac Potassium 50 mg BD/TDS PC × 5 days.
+
+Option B – Selective COX-2 Inhibitor:
+Tab Celecoxib 100 mg BD PC × 5 days, preferred if the patient develops gastric irritation.
+
+Gastric Protection:
+Tab Omeprazole 20 mg daily AC × 7 days.
+
+Topical Therapy:
+Diclofenac gel applied locally over the tender area TDS.
+
+Non-Pharmacological:
+
+Local warm compresses to the affected area for 15 minutes TDS.
+
+Strict avoidance of strenuous upper-body physical activities, heavy lifting or gym workouts for at least 2 weeks.
+
+FOLLOW-UP AND SAFETY NETTING:
+
+Review in the outpatient clinic in 1 week to assess response to therapy.
+
+Red Flag Education:
+Instruct the patient to present immediately to the Emergency Department if she experiences:
+Worsening chest pain.
+Radiation of pain to the neck, jaw or left arm.
+Shortness of breath.
+Sweating.
+Dizziness.
+Palpitations.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-48',
+  title: 'Anterior Blepharitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Blepharitis',
+  symptoms: [
+    'Bilateral eye itching',
+    'Gritty eye sensation',
+    'Eyelid swelling',
+    'Morning eye discharge',
+    'Eyelid margin redness',
+    'Eyelash crusting and scaling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '24-year-old Yoruba female student with a 5-day history of bilateral eyelid irritation, grittiness, crusting, scaling and mild conjunctival injection, consistent with bilateral anterior blepharitis of mixed seborrheic and staphylococcal etiology.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old Yoruba female student residing in Ibadan, Oyo State.
+
+PC:
+Bilateral eye itching, grittiness and eyelid swelling × 5 days.
+Mild morning eye discharge × 5 days.
+
+HPC:
+Patient presented with a 5-day history of bilateral eyelid irritation, described as a persistent "gritty" and burning sensation in both eyes.
+
+The symptoms are worse in the mornings upon waking, associated with mild crusting and scaling along the lash lines.
+
+She reports occasional watery discharge but denies thick purulent discharge.
+
+There is associated mild swelling and redness of the eyelid margins.
+
+No history of severe eye pain, photophobia or blurring of vision.
+
+No history of foreign body insertion or trauma.
+
+Prior to presentation, she self-medicated with over-the-counter "Visine" and "Neomycin" eye drops with no significant relief.
+
+She frequently uses eye cosmetics, including mascara and eyeliner, which she reports worsen the irritation.
+
+PMH:
+No prior history of similar eye symptoms.
+No history of atopy, asthma or allergic rhinitis.
+No history of chronic skin conditions such as seborrheic dermatitis, acne or rosacea.
+No known chronic medical illnesses including hypertension, diabetes mellitus or sickle cell disease.
+
+DH:
+OTC "Visine" eye drops (Tetrahydrozoline) used for 3 days prior to presentation.
+OTC Neomycin eye drops used for 3 days prior to presentation.
+No known drug allergies.
+
+FHx:
+No family history of glaucoma, atopy or early-onset blindness.
+
+SHx:
+Lives in a shared university hostel room in Ibadan.
+Non-smoker.
+Does not consume alcohol.
+Frequent user of facial cosmetics.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+No fatigue.
+
+CNS:
+No headache.
+No focal neurological deficits.
+
+RS:
+No cough.
+No dyspnoea.
+
+CVS:
+No chest pain.
+No palpitations.
+
+GIT:
+No abdominal pain.
+No diarrhoea.
+
+MSS:
+No joint pain or swelling.
+
+O/E:
+
+Conscious, alert and not acutely ill-looking.
+Afebrile, not pale, anicteric, acyanosed and clinically hydrated.
+No pedal edema.
+No significant peripheral lymphadenopathy.
+
+Vital Signs:
+T: 36.6°C
+PR: 76 bpm, regular, normal volume
+RR: 16 cpm
+BP: 110/70 mmHg
+SpO₂: 99% on room air
+
+Focused Ophthalmic Examination:
+
+Visual Acuity:
+6/6 bilaterally on Snellen chart without correction.
+
+Eyelids:
+Bilateral erythematous and mildly edematous eyelid margins.
+Prominent greasy scales (scurf) and collarettes surrounding the bases of the eyelashes.
+No focal swellings such as chalazion or hordeolum.
+No ectropion or entropion.
+Lash direction is normal with no trichiasis.
+
+Conjunctiva:
+Mild diffuse bulbar conjunctival injection bilaterally.
+No follicles.
+No papillae.
+No subconjunctival haemorrhage.
+
+Sclera:
+Anicteric.
+
+Cornea:
+Clear and lustrous bilaterally.
+No epithelial defects or opacities.
+Fluorescein staining negative.
+
+Anterior Chamber:
+Normal depth.
+Quiet.
+No hypopyon or hyphema.
+
+Pupils:
+Equal and round, 3 mm bilaterally.
+Briskly reactive to light.
+Direct and consensual responses intact.
+
+Extraocular Movements:
+Full and painless in all directions.
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Lungs clear.
+Vesicular breath sounds.
+No adventitious sounds.
+
+ABD:
+Soft and non-tender.
+No organomegaly.
+
+CNS:
+Grossly intact.
+No meningeal signs.
+
+ASS:
+Bilateral anterior blepharitis, mixed seborrheic and staphylococcal etiology.
+
+DIFFERENTIALS:
+1. Posterior blepharitis (Meibomian gland dysfunction).
+2. Allergic conjunctivitis.
+3. Contact dermatitis of the eyelids secondary to cosmetic use.
+
+INVESTIGATIONS:
+
+Ophthalmic:
+Diagnosis is primarily clinical.
+
+Fluorescein Staining:
+Fluorescein staining of the cornea to rule out secondary superficial punctate keratitis.
+
+Eyelash Microscopy:
+Eyelash epilation and microscopy if symptoms are refractory, to rule out Demodex folliculorum infestation.
+
+Urinalysis:
+Routine screening.
+
+PLAN:
+
+Non-Pharmacological / Lid Hygiene:
+
+Warm Compresses:
+Apply a clean washcloth soaked in warm water to closed eyelids for 5–10 minutes, 2–4 times daily to soften crusts and melt meibomian secretions.
+
+Lid Scrubbing:
+Gently clean the eyelid margins and lash bases twice daily using a cotton-tipped applicator dipped in a dilute solution of baby shampoo (1 part shampoo to 10 parts warm water) or commercial lid wipes.
+
+Cosmetic Cessation:
+Strictly avoid all eye makeup, including mascara and eyeliner, and contact lens use until symptoms completely resolve.
+
+Discard old eye makeup to prevent reinfection.
+
+Pharmacological:
+
+Topical Antibiotics:
+
+Option 1:
+Chloramphenicol 1% eye ointment applied to the eyelid margins twice daily for 14 days.
+
+OR
+
+Option 2:
+Erythromycin 0.5% ophthalmic ointment applied to the eyelid margins twice daily for 14 days.
+
+OR
+
+Option 3:
+Tetracycline 1% eye ointment applied to the eyelid margins twice daily for 14 days.
+
+Ocular Lubricants:
+Preservative-free artificial tears, such as Carboxymethylcellulose 0.5% or Hypromellose 0.3%, instilled 1 drop into both eyes 4 times daily as needed for symptomatic relief of grittiness.
+
+Systemic Therapy:
+Reserved for refractory cases or if associated with acne rosacea.
+
+Doxycycline 100 mg tablets orally daily for 4 weeks.
+
+Ensure the patient is not pregnant or lactating before use and counsel regarding phototoxicity.
+
+MONITORING AND SAFETY NETTING:
+
+Review in 2 weeks to assess treatment compliance and clinical response.
+
+Immediate referral to Ophthalmology if there is:
+Severe eye pain.
+Worsening visual acuity.
+Photophobia.
+Corneal clouding.
+Failure to improve after 2 weeks of compliant therapy.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-47',
+  title: 'Fingernail Onychomycosis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Onychomycosis',
+  symptoms: [
+    'Fingernail discoloration',
+    'Nail thickening',
+    'Brittle nails',
+    'Subungual hyperkeratosis',
+    'Distal onycholysis'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '24-year-old female civil servant residing in Ikeja, Lagos State, with a 6-month history of progressive yellowish-brown discoloration, thickening, brittleness, subungual hyperkeratosis and distal onycholysis of multiple fingernails, consistent with distal subungual onychomycosis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old female civil servant residing in Ikeja, Lagos State.
+No known drug allergies.
+
+PC:
+Discoloration and thickening of the fingernails × 6 months.
+
+HPC:
+Patient presents with a 6-month history of progressive changes in her fingernails.
+
+She reports that the nails have become yellowish-brown, thickened and brittle.
+
+She notes subungual hyperkeratosis and distal onycholysis.
+
+She denies associated pain, pruritus or discharge.
+
+She has attempted to treat this with various topical antifungal creams purchased over-the-counter (OTC) with minimal improvement.
+
+She denies any history of trauma to the nail beds or similar skin lesions elsewhere on her body.
+
+PMH:
+No known chronic illnesses, e.g. DM or HIV.
+No history of peripheral vascular disease or immunosuppression.
+
+DH:
+OTC topical clotrimazole cream used irregularly.
+
+FSH:
+Works in an office environment.
+Denies frequent exposure to water or harsh chemicals.
+No history of smoking or alcohol use.
+
+ROS:
+
+Dermatological:
+No rashes.
+No tinea pedis.
+No tinea corporis.
+
+Constitutional:
+No fever.
+No weight loss.
+No night sweats.
+
+O/E:
+
+General:
+Patient is in no acute distress.
+Not pale.
+Not jaundiced.
+No pedal edema.
+
+Local Examination – Nails:
+
+Multiple fingernails involved.
+
+Nails are thickened, opaque and yellowish-brown with distal onycholysis and subungual debris.
+
+No periungual erythema or tenderness.
+No signs of paronychia.
+
+ASS:
+Onychomycosis (Distal Subungual Onychomycosis).
+
+DIFFERENTIALS:
+1. Onychomycosis (Dermatophyte infection).
+2. Nail psoriasis.
+3. Lichen planus of the nail.
+4. Contact dermatitis.
+
+INVESTIGATIONS:
+
+Mycology:
+Nail clippings/subungual debris for Potassium Hydroxide (KOH) mount and fungal culture, if available.
+
+Metabolic:
+Fasting Blood Glucose to rule out underlying Diabetes Mellitus.
+
+PLAN:
+
+Education:
+Explain the chronic nature of the condition and the need for long-term adherence to therapy.
+
+Pharmacological:
+
+First-Line:
+Terbinafine 250mg PO daily for 6–12 weeks.
+Requires baseline LFTs if prolonged.
+
+Alternative:
+Itraconazole 200mg PO twice daily for 1 week per month (pulse therapy) for 3 months.
+
+Topical:
+Amorolfine 5% nail lacquer applied 1–2 times weekly.
+Can be used as monotherapy for mild cases or adjunct to oral therapy.
+
+Hygiene:
+Keep nails trimmed short.
+Keep hands dry.
+Avoid sharing nail clippers.
+
+FOLLOW-UP:
+
+Review in 6 weeks to assess adherence and monitor for adverse effects of oral antifungals.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-46',
+  title: 'Erectile Dysfunction',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Erectile Dysfunction',
+  symptoms: [
+    'Difficulty achieving penile erection',
+    'Difficulty maintaining penile erection',
+    'Reduced libido',
+    'Reduced early morning erections',
+    'Performance anxiety',
+    'Marital disharmony'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '45-year-old Yoruba male civil servant with a 6-month history of progressive erectile dysfunction, reduced libido and markedly reduced morning erections, with poorly controlled hypertension, overweight status, sedentary lifestyle and psychological distress, consistent with multifactorial erectile dysfunction with a likely vasculogenic and psychogenic component.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 45-year-old Yoruba male, Christian, civil servant residing in Surulere, Lagos State.
+
+PC:
+Inability to achieve and maintain penile erection satisfactory for sexual intercourse × 6 months.
+
+HPC:
+Mr. O. A., a 45-year-old civil servant, presented with a 6-month history of progressive difficulty in achieving and maintaining penile erection sufficient for vaginal penetration.
+
+The onset was gradual, initially noticed as occasional loss of rigidity mid-intercourse, but has now progressed to a consistent inability to initiate an erection.
+
+He reports a significant decline in libido over the same period.
+
+Early morning erections, which were previously regular, are now rare, occurring less than once a month.
+
+There is no history of penile pain, abnormal curvature of the penis during erection, or urethral discharge.
+
+No history of lower urinary tract symptoms (LUTS) such as urinary frequency, urgency, nocturia or poor stream.
+
+There is no history of lower limb weakness, numbness, paresthesia or visual changes.
+
+He reports significant psychological distress, performance anxiety and marital disharmony arising from this condition.
+
+Prior to Presentation:
+
+He has tried various over-the-counter herbal preparations ("agbo") and unregistered aphrodisiacs ("manpower") with no sustained improvement.
+
+PMH:
+Diagnosed with Essential Hypertension 5 years ago at a general hospital.
+Currently prescribed Tab Amlodipine 10mg daily, but admits to poor compliance due to fear of side effects and cost.
+No known history of Diabetes Mellitus, Dyslipidemia or Thyroid disease.
+No history of pelvic/perineal trauma, spinal cord injury or pelvic surgeries such as prostatectomy.
+No history of psychiatric illness.
+
+DH:
+Tab Amlodipine 10mg daily, poorly compliant.
+Frequent self-medication with herbal mixtures and OTC NSAIDs for chronic lower back pain.
+No history of beta-blockers, thiazide diuretics, SSRIs or anti-androgens.
+No known drug allergies.
+
+FSH:
+
+Family Hx:
+Father is hypertensive and diabetic.
+No family history of early cardiovascular disease.
+
+Social Hx:
+Married with 3 children.
+Non-smoker.
+Social drinker, taking approximately 2 bottles of beer weekly.
+Leads a sedentary lifestyle with high occupational stress.
+
+ROS:
+
+CNS:
+No headache.
+No dizziness.
+No focal weakness.
+
+CVS:
+No chest pain.
+No orthopnoea.
+No paroxysmal nocturnal dyspnoea (PND).
+
+RS:
+No cough.
+No dyspnoea.
+
+GIT:
+Normal appetite.
+Normal bowel habits.
+
+Endocrine:
+No polyuria.
+No polydipsia.
+No unexplained weight loss.
+
+O/E:
+
+Middle-aged man, comfortable, not acutely ill-looking, not pale, anicteric, acyanosed and clinically hydrated.
+No pedal edema.
+
+Vital Signs:
+
+BP: 148/92 mmHg
+PR: 76 bpm, regular, normal volume
+RR: 16 cpm
+T: 36.5°C
+SpO₂: 98% on room air
+Weight: 88 kg
+Height: 1.75 m
+BMI: 28.7 kg/m² (Overweight)
+
+CVS:
+Apex beat located at 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+Peripheral pulses, including femoral, popliteal and dorsalis pedis pulses, are palpable and equal bilaterally.
+
+ABD:
+Flat and soft.
+Non-tender.
+No organomegaly.
+No renal bruits.
+
+GENITOURINARY SYSTEM:
+
+External Genitalia:
+Normal circumcised male external genitalia.
+
+Testes:
+Bilateral testes are in the scrotum.
+Normal volume (~18 mL).
+Smooth and non-tender.
+
+Penis:
+No penile plaques.
+No scars.
+No abnormal curvature palpable.
+
+Secondary Sexual Characteristics:
+Pubic hair distribution is normal.
+
+DRE:
+Normal sphincter tone.
+Prostate is smooth, non-tender and firm.
+Median sulcus preserved.
+Estimated prostate size ~25 g.
+
+CNS:
+Conscious, alert and oriented in time, place and person.
+Cranial nerves I–XII intact.
+Normal motor and sensory function in lower limbs.
+Bulbocavernosus reflex intact.
+
+ASS:
+Erectile Dysfunction, likely multifactorial: vasculogenic secondary to poorly controlled hypertension/early atherosclerosis, with a psychogenic overlay.
+
+DIFFERENTIALS:
+1. Vasculogenic Erectile Dysfunction, supported by long-standing poorly controlled hypertension, sedentary lifestyle and overweight status.
+2. Endocrine-induced Erectile Dysfunction (Hypogonadism / Undiagnosed Diabetes Mellitus), suggested by decreased libido and absent morning erections.
+3. Psychogenic Erectile Dysfunction, secondary to performance anxiety and marital stress.
+4. Drug-induced Erectile Dysfunction, less likely, but poor compliance with Amlodipine and use of herbal mixtures must be evaluated.
+
+INVESTIGATIONS:
+
+Metabolic:
+Fasting Blood Glucose (FBG) / HbA1c to screen for undiagnosed Diabetes Mellitus.
+
+Fasting Lipid Profile:
+To assess cardiovascular risk, including Total Cholesterol, LDL, HDL and Triglycerides.
+
+Endocrine:
+Early Morning Serum Testosterone (Total), with sample drawn before 10:00 AM, to screen for hypogonadism.
+
+Renal:
+Serum Electrolytes, Urea and Creatinine (E/U/Cr) for baseline renal function assessment prior to optimizing antihypertensive therapy.
+
+Urinalysis:
+To screen for proteinuria or glucosuria.
+
+PLAN:
+
+Counseling & Lifestyle Modification:
+
+Provide detailed counseling on the pathophysiology of erectile dysfunction, emphasizing its strong link to cardiovascular health and hypertension.
+
+Advise on lifestyle changes including a low-salt, low-fat diet, weight reduction and regular aerobic exercise of at least 150 minutes per week.
+
+Advise reduction of alcohol intake.
+
+Encourage stress management techniques.
+
+Recommend partner-inclusive counseling to reduce performance anxiety and improve relationship dynamics.
+
+Pharmacological Therapy – Erectile Dysfunction:
+
+First-Line Therapy – Phosphodiesterase-5 Inhibitors (PDE5i):
+
+Option A:
+
+Tab Sildenafil 50mg PO taken 1 hour before anticipated sexual activity on an empty stomach.
+
+Dose can be titrated up to 100mg or down to 25mg based on efficacy and tolerability.
+
+Maximum frequency: once daily.
+
+OR
+
+Option B:
+
+Tab Tadalafil 10mg PO taken 30 minutes to 1 hour before anticipated sexual activity.
+
+Provides a longer window of efficacy up to 36 hours.
+
+Can be titrated to 20mg.
+
+Critical Safety Warning:
+
+Absolutely contraindicated if the patient is taking any form of nitrates, such as Isosorbide dinitrate or Glyceryl trinitrate, due to the risk of severe, life-threatening hypotension.
+
+Warn patient about common side effects including headache, facial flushing, dyspepsia, nasal congestion and transient visual disturbances.
+
+Cardiovascular Optimization:
+
+Optimize blood pressure control.
+
+Consider switching or adding an Angiotensin Receptor Blocker (ARB) such as Tab Losartan 50mg daily, as ARBs have a neutral or positive effect on erectile function compared to other antihypertensives.
+
+Discontinue all unregistered herbal preparations ("agbo").
+
+FOLLOW-UP:
+
+Review in 4 weeks with investigation results to assess treatment efficacy, BP control and medication side effects.
+
+REFERRAL CRITERIA:
+
+Refer to a Urologist/Endocrinologist if:
+
+There is no response to maximum-dose PDE5 inhibitors.
+
+Serum testosterone is low, requiring hormone replacement therapy.
+
+Suspected structural penile abnormalities, such as Peyronie's disease.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-45',
+  title: 'Chronic Insomnia Disorder',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Insomnia Disorder',
+  symptoms: [
+    'Difficulty falling asleep',
+    'Frequent nocturnal awakenings',
+    'Reduced total sleep duration',
+    'Daytime fatigue',
+    'Poor concentration',
+    'Tension-type headaches'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '45-year-old Yoruba male civil servant with a 3-month history of prolonged sleep latency, frequent nocturnal awakenings, reduced sleep duration, daytime fatigue, poor concentration and tension-type headaches, consistent with chronic insomnia disorder likely exacerbated by poor sleep hygiene and work-related stress.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 45-year-old Yoruba male, Christian, married, civil servant residing in Bodija, Ibadan, Oyo State.
+
+PC:
+Difficulty falling and maintaining sleep × 3 months.
+
+HPC:
+Patient is a 45-year-old male civil servant who presents with a 3-month history of progressively worsening sleep disturbance.
+
+The insomnia is characterized by prolonged sleep latency, taking >1.5 hours to fall asleep, and frequent nocturnal awakenings, 3–4 times per night, after which he struggles to fall back asleep.
+
+He estimates his total sleep duration to be approximately 3–4 hours per night.
+
+This has resulted in significant daytime fatigue, poor concentration at work, and recurrent tension-type headaches.
+
+There is a history of increased work-related stress over the past 4 months.
+
+Relevant Negatives:
+
+No history of loud snoring, witnessed apneas, or gasping for breath during sleep (unlikely Obstructive Sleep Apnea).
+
+No history of crawling sensations in the legs or urge to move limbs at night (unlikely Restless Legs Syndrome).
+
+No history of persistently low mood, anhedonia, feelings of worthlessness, or suicidal ideation (unlikely Major Depressive Disorder).
+
+No history of excessive worry, panic attacks, or palpitations.
+
+No history of heat intolerance, excessive sweating, or weight loss (unlikely hyperthyroidism).
+
+No history of nocturia, dysuria, or urinary frequency.
+
+Prior to Presentation:
+
+Self-medicated with OTC Tab Promethazine 25mg nocte × 1 week, which initially improved sleep but became ineffective due to tolerance.
+
+He currently takes Tab Paracetamol 1g PRN for daytime headaches.
+
+PMH:
+No known chronic medical illnesses, including hypertension, diabetes mellitus or asthma.
+No history of previous psychiatric illness or hospital admissions.
+No history of surgeries or blood transfusions.
+
+DH:
+No chronic use of prescription medications.
+No history of steroid or stimulant use.
+Abuse of OTC antihistamines (Promethazine) as detailed above.
+
+FSH:
+
+Family Hx:
+No family history of sleep disorders, depression or substance abuse.
+
+Social Hx:
+Married with three children.
+Non-smoker.
+Consumes 1–2 bottles of beer on weekends, none close to bedtime.
+Admits to high caffeine intake: 3 cups of strong black tea daily, with the last cup often consumed around 6:00 PM.
+No recreational drug use.
+
+ROS:
+
+CNS:
+Daytime somnolence.
+Mild tension-type headaches.
+No dizziness.
+No sensory or motor deficits.
+
+CVS:
+No chest pain.
+No palpitations.
+No orthopnoea.
+
+RS:
+No cough.
+No dyspnoea.
+
+GIT:
+Normal appetite.
+Normal bowel habits.
+
+UG:
+No nocturia.
+No dysuria.
+
+O/E:
+
+Middle-aged man, looks tired and exhausted but not acutely ill-looking.
+Conscious and alert.
+Cooperative.
+Afebrile (T: 36.6°C).
+Not pale, anicteric, acyanotic and clinically hydrated.
+No peripheral edema.
+No peripheral lymphadenopathy.
+
+Vital Signs:
+
+T: 36.6°C
+PR: 74 bpm, regular, normal volume and character
+BP: 120/80 mmHg
+RR: 16 cpm
+SpO₂: 98% on room air
+
+CVS:
+Apex beat at 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Trachea central.
+Chest expansion symmetrical.
+Percussion note resonant.
+Vesicular breath sounds bilaterally.
+No adventitious sounds.
+
+ABD:
+Flat and soft.
+Non-tender.
+No organomegaly.
+Liver, spleen and kidneys not palpable.
+Bowel sounds active.
+
+CNS:
+GCS 15/15.
+No neck stiffness.
+Cranial nerves I–XII intact.
+Motor: Normal muscle bulk, tone and power (5/5) in all four limbs.
+Reflexes normal.
+Sensory: Intact to pain, touch and temperature.
+
+ASS:
+Chronic Insomnia Disorder, likely psychophysiological, exacerbated by poor sleep hygiene and work-related stress.
+
+DIFFERENTIALS:
+1. Substance-Induced Sleep Disorder secondary to late-afternoon caffeine intake and rebound insomnia from promethazine withdrawal.
+2. Generalized Anxiety Disorder (GAD), mild, secondary to work stress.
+3. Obstructive Sleep Apnea (OSA), less likely, but to be ruled out if symptoms persist.
+4. Hyperthyroidism, subclinical or early presentation.
+
+INVESTIGATIONS:
+
+To rule out secondary medical causes of insomnia and daytime fatigue in a resource-limited setting:
+
+Haematological:
+Full Blood Count (FBC) to rule out anemia as a cause of daytime fatigue.
+
+Endocrine:
+Thyroid Function Tests (TFTs – TSH, Free T4) to rule out hyperthyroidism.
+
+Metabolic:
+Fasting Blood Glucose (FBG) and urinalysis to rule out Diabetes Mellitus, which can cause nocturia and sleep disruption.
+
+Sleep Assessment:
+Sleep diary for 2 weeks, tracking bedtime, sleep latency, awakenings, wake time, caffeine/alcohol intake and daytime alertness.
+
+PLAN:
+
+Non-Pharmacological Management:
+
+First-line and most critical management is based on Cognitive Behavioral Therapy for Insomnia (CBT-I) principles.
+
+Stimulus Control:
+Use the bed only for sleep and intimacy.
+If unable to sleep after 20 minutes, get out of bed, go to another room, engage in a quiet activity such as reading, and return only when sleepy.
+
+Sleep Restriction:
+Maintain a strict wake-up time daily, regardless of sleep duration the night before.
+Avoid daytime napping.
+
+Sleep Hygiene Education:
+Avoid caffeine (tea, coffee, cola) after 2:00 PM.
+Avoid alcohol and heavy meals within 4 hours of bedtime.
+Ensure the bedroom is dark, quiet and at a comfortable temperature.
+Avoid screens, including phones, television and laptops, at least 1 hour before bedtime.
+Establish a relaxing pre-sleep routine, such as a warm bath or light reading.
+
+Pharmacological Management:
+
+Short-term adjunct only.
+
+To avoid dependence and tolerance, pharmacotherapy should be limited to the shortest duration possible (maximum 2–4 weeks) and tapered off.
+
+Option A – Non-Benzodiazepine Receptor Agonist:
+
+Tab Zolpidem 5mg to 10mg PO nocte for a maximum of 2 weeks.
+
+Advise patient to take immediately before getting into bed due to rapid onset.
+
+Option B – Sedating Antidepressant:
+
+Tab Amitriptyline 10mg to 25mg PO nocte.
+
+Start at 10mg and titrate cautiously.
+
+Useful for long-term management if CBT-I is partially effective, as it has a lower risk of dependence than benzodiazepines.
+
+Option C – Benzodiazepine:
+
+Use with extreme caution, only if Z-drugs are unavailable or unaffordable.
+
+Tab Lorazepam 1mg PO nocte
+
+OR
+
+Tab Diazepam 2.5mg to 5mg PO nocte for a maximum of 1–2 weeks.
+
+MONITORING AND FOLLOW-UP:
+
+Review patient in 2 weeks with his completed sleep diary to assess treatment efficacy and compliance with sleep hygiene.
+
+Monitor for side effects of medications, including daytime hangover effect and anticholinergic effects of amitriptyline.
+
+REFERRAL CRITERIA:
+
+Refer to a neuropsychiatrist or clinical psychologist at a tertiary center, e.g., University College Hospital, Ibadan, if insomnia remains refractory to CBT-I and short-term pharmacotherapy, or if severe underlying anxiety/depression is identified.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-44',
+  title: 'Chronic Insomnia Disorder',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Outpatient Clinic',
+  condition: 'Insomnia Disorder',
+  symptoms: [
+    'Difficulty falling asleep',
+    'Frequent nocturnal awakenings',
+    'Difficulty returning to sleep',
+    'Non-refreshing sleep',
+    'Daytime fatigue',
+    'Poor concentration',
+    'Irritability'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '48-year-old Yoruba male civil servant with a 3-month history of difficulty initiating and maintaining sleep, associated with non-refreshing sleep, daytime fatigue, poor concentration and irritability, likely exacerbated by excessive caffeine intake, poor sleep hygiene and work-related stress.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 48-year-old Yoruba male, married, civil servant residing in Surulere, Lagos State.
+
+PC:
+Difficulty falling and staying asleep × 3 months.
+
+Daytime fatigue and irritability × 2 months.
+
+HPC:
+He was apparently well until about 3 months prior to presentation when he developed persistent difficulty initiating sleep.
+
+He reports taking up to 2 hours to fall asleep after getting into bed.
+
+He also experiences frequent nocturnal awakenings, often 3–4 times per night, with difficulty returning to sleep.
+
+Total sleep duration is estimated at approximately 4 hours per night.
+
+Symptoms occur at least 4 nights per week. Sleep is described as non-refreshing.
+
+The sleep disturbance has resulted in significant daytime impairment, including poor concentration at work, general malaise, fatigue and increased irritability over the past 2 months.
+
+There is no history of snoring, witnessed apnoeas or excessive daytime somnolence while driving.
+
+No history of orthopnoea or paroxysmal nocturnal dyspnoea.
+
+There is no history of persistent low mood, loss of interest in previously pleasurable activities or suicidal ideation.
+
+He denies excessive worry or panic attacks, although he reports increased work-related stress recently.
+
+No history of heat intolerance, palpitations or tremors.
+
+PMH:
+Known hypertensive for 5 years.
+Currently managed with Tab Amlodipine 10 mg daily.
+Reports good compliance.
+No known history of diabetes mellitus or asthma.
+No previous history of psychiatric illness.
+
+DH:
+Tab Amlodipine 10 mg daily.
+Consumes 3–4 cups of coffee daily, often late in the afternoon.
+Occasional use of over-the-counter paracetamol for headaches.
+No history of traditional herbal medication use.
+
+FSH:
+Married in a monogamous setting with 3 children.
+Civil servant.
+Non-smoker.
+Consumes approximately 2 bottles of stout weekly, usually at weekends.
+Lives in a 3-bedroom flat with adequate ventilation.
+
+ROS:
+
+CNS:
+Occasional tension-type headaches.
+No seizures.
+
+CVS:
+No chest pain.
+No palpitations.
+
+RS:
+No cough.
+No breathlessness.
+
+GIT:
+Normal appetite.
+No change in bowel habits.
+
+O/E:
+
+Middle-aged man, comfortable and not in obvious respiratory or painful distress.
+Afebrile.
+Not pale.
+Anicteric.
+No peripheral edema.
+No significant peripheral lymphadenopathy.
+Clinically well hydrated.
+
+Vital Signs:
+T: 36.7°C
+PR: 78 bpm, regular, normal volume
+RR: 16 cpm
+BP: 144/92 mmHg
+SpO₂: 98% in room air
+
+CNS:
+Conscious and alert.
+Well oriented in time, place and person.
+No focal neurological deficits.
+Normal gait.
+
+CVS:
+Apex beat located at the 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Trachea central.
+Vesicular breath sounds bilaterally.
+No adventitious sounds.
+
+ABD:
+Soft and non-tender.
+No organomegaly.
+Bowel sounds present.
+
+Neck:
+No goitre.
+Neck circumference approximately 40 cm.
+
+ASS:
+Chronic insomnia disorder, characterized by difficulty initiating and maintaining sleep for approximately 3 months with associated daytime impairment, likely exacerbated by excessive caffeine intake, poor sleep hygiene and work-related stress.
+
+DIFFERENTIALS:
+1. Generalized anxiety disorder.
+2. Obstructive sleep apnoea.
+3. Adjustment disorder.
+4. Insomnia secondary to an underlying medical or substance-related cause.
+
+INVESTIGATIONS:
+
+Sleep Assessment:
+14-day sleep diary to document sleep and wake patterns, sleep latency, nocturnal awakenings, total sleep time and daytime functioning.
+
+Metabolic:
+Fasting blood glucose or HbA1c to screen for diabetes mellitus.
+
+Thyroid:
+Thyroid function tests, particularly TSH with free T4, to exclude thyroid dysfunction as a contributor to sleep disturbance.
+
+Haematology:
+Full blood count if clinically indicated, particularly to assess for anaemia or other systemic contributors to fatigue.
+
+Renal:
+Serum electrolytes, urea and creatinine may be considered, particularly in view of his hypertension and ongoing antihypertensive therapy.
+
+Sleep Apnoea Assessment:
+Screen for obstructive sleep apnoea using a validated clinical tool such as STOP-BANG, particularly given his hypertension and neck circumference of approximately 40 cm.
+
+PLAN:
+
+Non-Pharmacological Management:
+
+Sleep Hygiene:
+Maintain a consistent sleep and wake schedule every day, including weekends.
+Avoid caffeine after midday, particularly afternoon and evening coffee.
+Avoid alcohol close to bedtime and do not use alcohol as a sleep aid.
+Keep the bedroom dark, quiet and comfortable.
+Avoid prolonged use of phones, computers and other stimulating devices immediately before bedtime.
+Avoid heavy meals immediately before sleep.
+
+Stimulus Control:
+Use the bed primarily for sleep and sexual activity.
+Go to bed only when sleepy.
+If unable to sleep after approximately 20 minutes, get out of bed and engage in a quiet activity until sleepy, then return to bed.
+
+Relaxation:
+Encourage deep breathing exercises, progressive muscle relaxation or other relaxation techniques before bedtime.
+
+Sleep Restriction/Compression:
+Consider structured sleep restriction or sleep compression as part of cognitive behavioural therapy for insomnia (CBT-I), preferably under appropriate clinical guidance.
+
+Caffeine Reduction:
+Gradually reduce caffeine intake and restrict consumption to the morning.
+Avoid late-afternoon and evening coffee.
+
+Stress Management:
+Identify and address work-related stressors.
+Encourage regular physical activity during the day, while avoiding vigorous exercise immediately before bedtime.
+
+Psychological:
+Consider formal CBT-I as first-line treatment for chronic insomnia.
+
+Pharmacological:
+
+If significant insomnia persists despite appropriate behavioural intervention, short-term pharmacological therapy may be considered following assessment of risks and benefits.
+
+Z-drug:
+Tab Zolpidem 5–10 mg PO nocte may be considered for short-term use in selected patients.
+Use the lowest effective dose and avoid prolonged or routine use because of risks including tolerance, dependence, complex sleep behaviours and next-day impairment.
+
+To be taken immediately before bed. 
+
+Melatonin:
+Melatonin may be considered in selected patients, particularly where a circadian rhythm disturbance is suspected.
+It should not replace CBT-I for chronic insomnia.
+
+Tab Melatonin 3mg to 5mg nocte, taken 1 to 2 hours before desired sleep time. Useful for circadian rhythm regulation.
+
+Avoid routine benzodiazepines:
+Diazepam and other benzodiazepines are generally not preferred for chronic insomnia because of risks of tolerance, dependence, cognitive impairment and daytime sedation.
+
+Tab Diazepam 2.5mg to 5mg nocte for short-term relief (not exceeding 1-2 weeks) due to risk of tolerance and daytime sedation.
+Avoid routine amitriptyline:
+Amitriptyline should not be routinely used solely for primary insomnia. It may be considered when another clear indication exists, such as neuropathic pain or a comorbid depressive disorder.
+
+Tab Amitriptyline 12.5mg to 25mg nocte. Low dose is effective for sedation with fewer side effects than higher doses.
+
+Hypertension:
+Repeat blood pressure measurements or arrange home blood pressure monitoring to assess control.
+Review adherence to antihypertensive therapy.
+Assess for factors that may worsen blood pressure, including excess dietary salt, NSAID use, alcohol intake and possible obstructive sleep apnoea.
+
+HEALTH EDUCATION:
+
+Explain that chronic insomnia is characterized by persistent difficulty initiating or maintaining sleep with associated daytime impairment.
+
+Explain that excessive caffeine, particularly late in the day, can significantly interfere with sleep initiation and maintenance.
+
+Advise against using alcohol, sedatives or over-the-counter medications as regular sleep aids.
+
+Explain that behavioural treatment, particularly CBT-I, is the preferred long-term treatment for chronic insomnia.
+
+Advise the patient not to drive or operate machinery if excessively sleepy, particularly if sedative medication has been taken.
+
+FOLLOW-UP:
+
+Review in 2–4 weeks with the completed sleep diary and blood pressure readings.
+
+Assess:
+Sleep latency.
+Number of nocturnal awakenings.
+Total sleep time.
+Sleep quality.
+Daytime fatigue and concentration.
+Caffeine and alcohol intake.
+Adherence to behavioural interventions.
+Medication use and adverse effects, if applicable.
+
+If symptoms persist despite appropriate management, reassess for obstructive sleep apnoea, anxiety/depression, circadian rhythm disorder, medication/substance effects or other underlying medical conditions.
+
+Consider referral to a physician, psychiatrist or sleep specialist if the diagnosis remains uncertain, symptoms are refractory, or a significant comorbid sleep or psychiatric disorder is suspected.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-43',
+  title: 'Interdigital Tinea Pedis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Tinea Pedis',
+  symptoms: [
+    'Interdigital itching',
+    'Peeling skin between the toes',
+    'Scaling',
+    'Foot redness',
+    'Painful skin fissuring'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '29-year-old Yoruba male security guard with a 3-week history of bilateral interdigital itching, scaling, maceration and fissuring, consistent with interdigital tinea pedis exacerbated by prolonged occlusive footwear and inappropriate topical steroid use.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 29-year-old Yoruba male, Christian, married, security guard residing in Ibadan, Oyo State.
+
+PC:
+Itchy, peeling skin between the toes of both feet × 3 weeks.
+
+HPC:
+He presented with a 3-week history of intense, progressive itching and peeling of the skin between the toes of both feet.
+
+The symptoms started in the 4th interdigital space of the left foot and subsequently spread to the right foot. This was associated with scaling, redness and painful cracking (fissuring) of the skin, making walking uncomfortable.
+
+Symptoms are worse towards the end of his 12-hour work shifts, during which he wears heavy, non-breathable leather combat boots.
+
+There is no history of fever, leg swelling or purulent discharge from the lesions. No similar lesions elsewhere on the body.
+
+Prior to presentation, he self-medicated with an over-the-counter "triple-action" cream containing clobetasol, neomycin and ketoconazole, which he applied for 10 days. He reports temporary relief of itching, but the lesions became more extensive and itchy after stopping the cream.
+
+PMH:
+No known chronic medical conditions.
+Not known diabetic or hypertensive.
+No history of asthma, atopic dermatitis or allergic rhinitis.
+No previous hospital admissions or surgeries.
+
+DH:
+Topical triple-action cream (Funbact-A) used intermittently for 10 days.
+No known drug allergies.
+
+FSH:
+Security guard who stands and walks for long hours in occlusive footwear.
+Lives in a shared apartment with shared bathroom facilities.
+Non-smoker.
+Does not consume alcohol.
+
+ROS:
+
+General:
+No fever.
+No weight loss.
+
+CVS:
+No orthopnoea.
+No pedal edema.
+
+RS:
+No cough.
+No dyspnoea.
+
+GIT:
+No abdominal pain.
+Normal bowel habits.
+
+CNS:
+No headache.
+Alert and oriented.
+
+MSS:
+No joint pain or swelling.
+
+O/E:
+
+Young man, comfortable, not acutely ill-looking, not pale, anicteric, acyanosed and clinically hydrated.
+No peripheral lymphadenopathy.
+No bilateral pedal edema.
+
+Vital Signs:
+T: 36.6°C
+PR: 74 bpm, regular, normal volume
+RR: 16 cpm
+BP: 115/75 mmHg
+SpO₂: 99% in room air
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Lungs clear.
+Vesicular breath sounds.
+No adventitious sounds.
+
+ABD:
+Soft and non-tender.
+No organomegaly.
+
+CNS:
+Grossly intact.
+No focal neurological deficits.
+
+Local Examination – Feet:
+
+Inspection:
+Erythematous, macerated and scaling plaques involving the 3rd and 4th interdigital webs of both feet.
+Linear fissure noted in the 4th interdigital space of the left foot.
+No active purulent discharge.
+No surrounding warmth or cellulitis.
+Toenails intact with no subungual hyperkeratosis, thickening or discoloration.
+
+Palpation:
+Mild tenderness over the left interdigital fissure.
+Dorsalis pedis and posterior tibial pulses palpable and equal bilaterally.
+
+ASS:
+Interdigital tinea pedis, exacerbated by prolonged occlusive footwear and inappropriate use of a potent topical steroid-containing combination cream, with features suggestive of tinea incognito.
+
+DIFFERENTIALS:
+1. Erythrasma.
+2. Contact dermatitis secondary to footwear.
+3. Cutaneous candidiasis.
+4. Dyshidrotic eczema.
+
+INVESTIGATIONS:
+
+Skin:
+Skin scraping from the active lesion for KOH microscopy to demonstrate fungal elements.
+
+Metabolic:
+Fasting blood glucose to screen for diabetes mellitus, particularly if infection is persistent or recurrent.
+
+Wood's Lamp:
+Consider Wood's lamp examination if erythrasma is suspected; erythrasma typically demonstrates coral-red fluorescence.
+
+PLAN:
+
+Pharmacological:
+
+Topical antifungal:
+Clotrimazole 1% cream applied thinly to affected areas twice daily for 2–4 weeks.
+
+OR
+
+Miconazole 2% cream applied twice daily for 2–4 weeks.
+
+Continue treatment for an appropriate period after clinical resolution.
+
+Steroid avoidance:
+Stop the triple-action/steroid-containing cream.
+Avoid topical corticosteroid-containing combination creams unless specifically indicated by a clinician, as potent steroids may suppress local inflammation while allowing dermatophyte infection to persist or spread.
+
+Analgesia:
+Tab Paracetamol 1 g PO 8-hourly PRN for pain from the interdigital fissure.
+
+Foot Hygiene:
+Keep feet clean and completely dry, particularly between the toes.
+Dry feet thoroughly after bathing using a clean, dedicated towel.
+Do not share towels.
+Wear clean, breathable cotton socks and change them daily.
+Allow work boots to dry and air out between uses.
+Alternate footwear where possible.
+Use open, breathable footwear when off-duty.
+Avoid prolonged use of occlusive footwear where possible.
+Wear slippers in shared bathrooms and avoid walking barefoot in communal areas.
+
+HEALTH EDUCATION:
+
+Explain that tinea pedis is a superficial fungal infection that thrives in warm, moist environments.
+
+Explain that prolonged use of heavy, non-breathable footwear and sweating can promote fungal growth.
+
+Advise against sharing towels, footwear or other personal items.
+
+Emphasize that steroid-containing combination creams can temporarily reduce itching and redness while allowing fungal infections to worsen or become less typical in appearance.
+
+Advise the patient to complete the antifungal treatment even if symptoms improve early.
+
+FOLLOW-UP:
+
+Review in 2 weeks to assess clinical response and treatment adherence.
+
+Earlier review if there is increasing pain, spreading redness, swelling, purulent discharge, fever or other features suggestive of bacterial superinfection.
+
+If there is poor response to appropriate topical antifungal therapy, reassess the diagnosis and consider KOH microscopy, fungal culture or alternative diagnoses.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-42',
+  title: 'Onychomycosis (Distal Subungual Type)',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dermatology',
+  condition: 'Onychomycosis',
+  symptoms: [
+    'Toenail discoloration',
+    'Nail thickening',
+    'Brittle and crumbling nails',
+    'Subungual hyperkeratosis',
+    'Distal onycholysis'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '24-year-old female student presenting with progressive yellowish-brown discoloration, thickening and brittleness of multiple toenails, with examination findings consistent with distal subungual onychomycosis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old female university student from Ogbomosho, Oyo State, Yoruba, presented with a reliable history.
+
+PC:
+Discoloration of toenails × 5 months
+Thickening and brittleness of nails × 3 months
+
+HPC:
+She was apparently well until about 5 months prior to presentation when she noticed yellowish-brown discoloration involving the distal edge of the right great toenail.
+
+This progressively spread to involve all the toenails of the right foot and the first and second toenails of the left foot over the subsequent 3 months.
+
+The affected nails have become thickened, brittle, opaque and difficult to trim.
+
+There is no associated pain, itching or foul-smelling discharge.
+
+There is no history of trauma to the feet or previous fungal skin infection such as tinea pedis.
+
+She frequently wears closed-toed shoes for prolonged periods and uses communal bathroom facilities in her university hostel.
+
+There is no history of diabetes mellitus, chronic medical illness or symptoms suggestive of immunosuppression.
+
+REVIEW OF SYSTEMS:
+
+CNS:
+No headache.
+No seizures.
+
+CVS:
+No palpitations.
+No chest pain.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+Gastrointestinal:
+No abdominal pain.
+No change in bowel habits.
+
+Musculoskeletal/Skin:
+No joint pains.
+No skin rashes elsewhere on the body.
+
+Past Medical History:
+No previous similar nail condition.
+
+No previous hospital admissions, surgeries or blood transfusions.
+
+Not known diabetic, asthmatic or hypertensive.
+
+Drug History:
+No previous use of oral or topical antifungal medication for the current complaint.
+
+Not on any long-term medications.
+
+No known drug allergies.
+
+Family History:
+No family history of similar nail conditions or autoimmune skin diseases.
+
+Social History:
+Second of four children in a monogamous family setting.
+
+University student residing in a hostel with shared bathroom facilities.
+
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+
+Young woman, comfortable and not acutely ill-looking.
+
+No respiratory or painful distress.
+
+Acyanotic.
+Anicteric.
+No significant peripheral lymphadenopathy.
+No pedal oedema.
+
+Weight: 58 kg
+Height: 1.62 m
+BMI: 22.1 kg/m²
+
+Vital Signs:
+PR: 76 bpm, regular, normal volume
+BP: 110/70 mmHg
+RR: 16 cpm
+Temperature: 36.5°C
+
+LOCAL EXAMINATION – TOENAILS:
+
+All toenails of the right foot and the first and second toenails of the left foot are involved.
+
+Subungual hyperkeratosis and distal onycholysis are present.
+
+The affected nails are opaque with yellowish-brown discoloration and loss of normal nail luster.
+
+There is significant thickening and crumbling of the nail plates.
+
+The surrounding paronychium is healthy with no erythema or swelling.
+
+Interdigital spaces are clear with no scaling or maceration.
+
+SYSTEMIC EXAMINATION:
+
+Respiratory:
+Trachea central.
+Chest moves with respiration.
+Vesicular breath sounds bilaterally.
+No adventitious sounds.
+
+Cardiovascular:
+Apex beat at the 5th left intercostal space, midclavicular line.
+
+S1 and S2 heard.
+No murmurs.
+
+Abdomen:
+Flat.
+Soft.
+Non-tender.
+No organomegaly.
+
+ASSESSMENT:
+Onychomycosis (distal subungual type) involving multiple toenails.
+
+DIFFERENTIAL DIAGNOSES:
+1. Nail psoriasis.
+2. Lichen planus of the nail.
+3. Chronic paronychia with nail dystrophy.
+4. Onychogryphosis.
+
+INVESTIGATIONS:
+
+1. Nail Clippings and Subungual Debris for KOH Microscopy:
+To demonstrate fungal elements.
+
+2. Fungal Culture:
+Culture of nail material, e.g. on Sabouraud dextrose agar, for fungal identification.
+
+3. Fasting Blood Sugar:
+To screen for diabetes mellitus, particularly with extensive or recurrent fungal infection.
+
+4. HIV Screening:
+Offer voluntary counselling and testing where clinically appropriate and with consent.
+
+5. Liver Function Tests:
+Baseline assessment before commencing systemic antifungal therapy.
+
+PLAN:
+
+1. Foot Hygiene:
+
+Keep feet clean and dry.
+
+Dry thoroughly between the toes after bathing.
+
+Wear clean cotton socks and change them regularly.
+
+Use well-aerated footwear and avoid prolonged use of damp or occlusive shoes.
+
+2. Prevention of Reinfection:
+
+Wear slippers in communal bathrooms and showers.
+
+Avoid sharing footwear, socks, nail clippers or other personal grooming equipment.
+
+Keep footwear clean and adequately ventilated.
+
+3. Nail Care:
+
+Keep affected nails trimmed.
+
+Avoid aggressive manipulation or trauma to the nail plate.
+
+Do not share nail clippers or other nail-care instruments.
+
+4. Topical Antifungal Therapy:
+
+Ciclopirox 8% nail lacquer may be considered for appropriate superficial/localized disease, applied according to product instructions and continued for several months.
+
+5. Systemic Antifungal Therapy:
+
+If fungal infection is confirmed and there are no contraindications:
+
+Tab Terbinafine 250 mg orally once daily for approximately 12 weeks for toenail onychomycosis.
+
+Review baseline LFT results before commencement and monitor for clinically significant adverse effects during therapy.
+
+6. Follow-Up:
+
+Review in 4 weeks to assess investigation results, confirm the diagnosis and determine the need for systemic therapy.
+
+Monitor for adverse effects if oral antifungal therapy is commenced.
+
+HEALTH EDUCATION:
+
+Patient was counselled that onychomycosis is a fungal infection of the nail that can cause discoloration, thickening, separation of the nail from the nail bed and crumbling of the nail plate.
+
+She was advised that toenail infections often require prolonged treatment because toenails grow slowly and visible normalization may take several months even after the fungus has been eradicated.
+
+The importance of keeping the feet dry, using breathable footwear and wearing slippers in communal bathrooms was emphasized.
+
+She was advised not to share nail clippers, footwear or socks and to avoid traumatic nail trimming.
+
+She was informed that treatment should ideally be guided by confirmation of fungal infection, particularly before committing to prolonged systemic antifungal therapy.
+
+She should report jaundice, dark urine, persistent nausea, unusual fatigue or other concerning symptoms if oral terbinafine is commenced.
+
+FOLLOW-UP:
+
+Review in 4 weeks with nail KOH/culture and laboratory investigation results.
+
+Assess clinical response and determine whether topical therapy alone is appropriate or systemic therapy should be commenced.
+
+If the diagnosis remains uncertain or there is poor response to appropriate treatment, consider Dermatology referral and reassessment for alternative causes of nail dystrophy.
+
+Prognosis:
+Good with appropriate antifungal therapy and adherence. Complete normalization of affected toenails may take many months because of slow toenail growth, and recurrence is possible if predisposing environmental factors persist.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-41',
+  title: 'Right Ureteric Colic Secondary to Urolithiasis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Urology',
+  condition: 'Urolithiasis',
+  symptoms: [
+    'Severe right loin pain',
+    'Colicky flank-to-groin pain',
+    'Nausea and vomiting',
+    'Gross hematuria',
+    'Right renal angle tenderness'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '26-year-old female fashion designer presenting with sudden severe right-sided loin-to-groin colicky pain associated with vomiting and an episode of gross hematuria, consistent with right ureteric colic secondary to urolithiasis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 26-year-old female fashion designer from Surulere, Lagos State, Yoruba, presented with a reliable history.
+
+PC:
+Right-sided loin pain × 8 hours
+Nausea and vomiting × 3 hours
+Reddish discoloration of urine × 1 episode
+
+HPC:
+She was apparently well until about 8 hours prior to presentation when she developed sudden-onset right-sided loin pain.
+
+The pain was severe, sharp and colicky in nature, radiating from the right flank down to the right iliac fossa and labia majora.
+
+There was no relieving factor and the pain was not related to posture or movement.
+
+The pain was associated with two episodes of non-bilious, non-bloody vomiting containing recently ingested meals.
+
+She also noticed an episode of reddish-coloured urine shortly after the onset of pain.
+
+There is no history of preceding trauma or similar episodes in the past.
+
+No history of fever, chills or rigors.
+
+No urinary frequency, urgency or dysuria.
+
+No history of weight loss or chronic cough.
+
+She reports poor daily water intake, often consuming less than 1 L of water per day.
+
+REVIEW OF SYSTEMS:
+
+CNS:
+No headache.
+No loss of consciousness.
+
+Respiratory:
+No cough.
+No chest pain.
+
+Cardiovascular:
+No palpitations.
+No orthopnoea.
+
+Gastrointestinal:
+Nausea and vomiting as above.
+No diarrhoea or constipation.
+
+Musculoskeletal:
+No joint pains or swellings.
+
+Past Medical History:
+No previous similar episodes.
+
+No history of hypertension, diabetes mellitus or sickle cell disease.
+
+No previous surgeries or hospitalizations.
+
+Drug History:
+Took two tablets of Paracetamol and a sachet of Ibuprofen at home without significant relief.
+
+No known drug allergies.
+
+Family History:
+No family history of urolithiasis or renal disease.
+
+Social History:
+First of four children in a monogamous family.
+
+Non-smoker.
+Does not consume alcohol.
+
+Reports poor daily water intake.
+
+O/E:
+
+Young woman in obvious painful distress, restless and unable to find a comfortable position.
+
+Acutely ill-looking.
+
+Afebrile.
+Not pale.
+Anicteric.
+Not dehydrated.
+No pedal oedema.
+
+Vital Signs:
+Temperature: 36.7°C
+PR: 98 bpm, regular, normal volume
+BP: 120/80 mmHg
+RR: 20 cpm
+SpO₂: 98% on room air
+
+Abdomen:
+Flat and moves with respiration.
+
+No surgical scars or visible masses.
+
+Soft.
+
+Deep tenderness in the right loin and right iliac fossa.
+
+No guarding or rebound tenderness.
+
+No palpable masses.
+
+Right renal angle tenderness/Murphy's kidney punch positive.
+
+Percussion reveals normal tympanic notes.
+
+No shifting dullness.
+
+Bowel sounds present and normal.
+
+Respiratory:
+Trachea central.
+
+Vesicular breath sounds bilaterally.
+
+No added sounds.
+
+CVS:
+Apex beat at the 5th left intercostal space, midclavicular line.
+
+S1 and S2 heard.
+
+No murmurs.
+
+CNS:
+Conscious and oriented.
+
+No focal neurological deficits.
+
+ASSESSMENT:
+Right ureteric colic secondary to suspected urolithiasis.
+
+DIFFERENTIAL DIAGNOSES:
+1. Acute pyelonephritis.
+2. Ruptured ectopic pregnancy.
+3. Acute appendicitis.
+4. Right ovarian torsion.
+
+INVESTIGATIONS:
+
+1. Urinalysis:
+- Assess for hematuria.
+- Check for nitrites and leucocytes suggesting urinary tract infection.
+
+2. Urine Pregnancy Test:
+- Exclude pregnancy/ectopic pregnancy.
+
+3. Full Blood Count:
+- Assess for leukocytosis and baseline haemoglobin.
+
+4. Serum Electrolytes, Urea and Creatinine:
+- Assess baseline renal function and electrolyte status.
+
+5. Abdominopelvic Ultrasound:
+- Assess for hydronephrosis.
+- Hydroureter.
+- Visible renal or ureteric calculi.
+
+6. Non-Contrast CT KUB:
+- Confirm stone location, size and density if ultrasound is inconclusive and resources permit.
+
+PLAN:
+
+1. Admission:
+Admit for observation, analgesia and further evaluation.
+
+2. Intravenous Access:
+Establish adequate IV access.
+
+3. Analgesia:
+
+Inj Diclofenac 75 mg IV/IM stat if renal function is normal and there are no contraindications.
+
+If pain remains severe or is refractory to NSAID therapy:
+
+Inj Pentazocine 30 mg IV stat.
+
+4. Fluid Therapy:
+
+0.9% Normal Saline 1 L IV over 8 hours, with reassessment of hydration status and clinical response.
+
+Avoid excessive fluid administration during acute ureteric colic.
+
+5. Antiemetic:
+
+Inj Metoclopramide 10 mg IV stat.
+
+6. Monitoring:
+
+- Monitor vital signs.
+- Monitor urine output.
+- Assess pain severity and response to analgesia.
+- Monitor for development of fever or other signs of urinary tract infection.
+- Strain urine where possible to retrieve any passed stone for analysis.
+
+7. Urology Review:
+
+Refer to Urology for definitive management based on imaging findings.
+
+Consider Medical Expulsive Therapy for an appropriately located and sized ureteric stone.
+
+Consider surgical/endourological intervention if there is significant obstruction, persistent/intractable pain, renal impairment, infected obstruction or failure of spontaneous stone passage.
+
+HEALTH EDUCATION:
+
+Patient was counselled on the likely diagnosis of ureteric stone causing obstruction and colicky pain.
+
+The importance of adequate fluid intake was emphasized, particularly given her history of low daily water consumption.
+
+She was advised to seek urgent medical attention if she develops fever, chills, worsening or persistent pain, persistent vomiting, reduced urine output or inability to pass urine, as these may indicate infected or significant urinary tract obstruction.
+
+FOLLOW-UP:
+
+Review after urinalysis, renal function and imaging results.
+
+Urology follow-up for confirmed urolithiasis and definitive management.
+
+Stone analysis should be considered if a stone is retrieved.
+
+Further metabolic evaluation may be considered if recurrent stone disease develops.
+
+Prognosis:
+Generally good if the stone is small and passes spontaneously. Prognosis depends on stone size and location, degree of obstruction, renal function and the presence or absence of urinary tract infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-40',
+  title: 'Left Ureteric Colic Secondary to Urolithiasis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Urology',
+  condition: 'Urolithiasis',
+  symptoms: [
+    'Severe left flank pain',
+    'Tea-colored urine (gross hematuria)',
+    'Dysuria',
+    'Urinary frequency and urgency',
+    'Nausea and vomiting'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '28-year-old female presenting with acute severe left flank pain radiating to the groin, associated with gross hematuria, dysuria, urinary frequency and vomiting, consistent with left ureteric colic secondary to suspected urolithiasis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 28-year-old married female Yoruba Christian, a fashion designer/trader from Bodija, Ibadan, Oyo State, presented with a reliable history.
+
+PC:
+Left flank pain × 2 days
+Tea-colored urine × 1 day
+
+HPC:
+She was apparently well until 2 days prior to presentation when she developed sudden-onset severe left flank (loin) pain.
+
+The pain is colicky in nature, rated 9/10 on the visual analogue scale, and radiates downwards to the left groin and labium majus.
+
+There are no relieving factors and the pain is not relieved by changes in posture.
+
+She took Tab Paracetamol 1 g three times daily for 1 day with no significant relief.
+
+The pain is associated with nausea and two episodes of non-bilious, non-projectile vomiting containing recently ingested meals.
+
+She also reports a 1-day history of passing tea-colored urine associated with dysuria, increased urinary frequency and urgency.
+
+There is no history of fever, chills, rigors or night sweats.
+
+No history of facial puffiness, pedal oedema or oliguria.
+
+No history of trauma to the abdomen or back.
+
+No previous similar episodes.
+
+LMP was 2 weeks ago and was normal in flow and duration.
+
+REVIEW OF SYSTEMS:
+
+CNS:
+No headache, dizziness or convulsions.
+
+CVS:
+No chest pain, palpitations or orthopnoea.
+
+Respiratory:
+No cough or dyspnoea.
+
+GIT:
+Nausea and vomiting as above.
+No diarrhoea or constipation.
+
+GUT:
+Dysuria, urinary frequency, urgency and hematuria as above.
+
+MSS:
+No joint pain or bone pain.
+
+Past Medical History:
+No known chronic medical condition.
+No history of hypertension, diabetes mellitus or asthma.
+No history of sickle cell disease. HbAA genotype was confirmed during antenatal care 3 years ago.
+No previous surgical intervention.
+No history of blood transfusion.
+
+Drug History:
+Self-medicated with Tab Paracetamol 1 g three times daily for 1 day.
+No history of chronic NSAID use, calcium supplementation or use of native herbal concoctions.
+No known drug allergies.
+Family History:
+No family history of renal calculi, gout or chronic kidney disease.
+
+Social History:
+Married with two children.
+Lives with her family in a rented two-bedroom flat with access to borehole water.
+Non-smoker.
+Does not consume alcohol.
+Reports low daily water intake, typically less than 1 L/day, due to the nature of her work.
+
+O/E:
+
+Young woman, acutely ill-looking and in painful distress, pacing around the examination room and unable to find a comfortable lying or sitting position.
+
+Mildly dehydrated.
+Mildly pale.
+Anicteric.
+No peripheral lymphadenopathy.
+No pedal oedema.
+
+Vital Signs:
+Temperature: 36.7°C
+PR: 98 bpm, regular, moderate volume
+RR: 22 cpm
+BP: 125/80 mmHg
+SpO₂: 98% on room air
+
+Abdomen:
+Flat and symmetrical, moves with respiration.
+No surgical scars or dilated veins.
+Soft.
+Mild tenderness in the left lumbar region and left iliac fossa.
+No guarding, rigidity or rebound tenderness.
+No palpable masses.
+Kidneys, liver and spleen not enlarged.
+Percussion reveals normal tympanitic note.
+No shifting dullness.
+Bowel sounds present and normoactive.
+Left renal angle (costovertebral angle) tenderness positive.
+
+CVS:
+Apex beat at the 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+
+Respiratory:
+Trachea central.
+Chest expansion symmetrical.
+Vesicular breath sounds heard bilaterally.
+No adventitious sounds.
+
+CNS:
+Conscious, alert and oriented in time, place and person.
+GCS: 15/15.
+No focal neurological deficits.
+
+ASSESSMENT:
+Left ureteric colic secondary to suspected left urolithiasis.
+
+DIFFERENTIAL DIAGNOSES:
+1. Acute pyelonephritis.
+2. Ruptured left ovarian cyst/ovarian torsion.
+3. Urinary tract infection.
+
+INVESTIGATIONS:
+
+1. Urinalysis:
+- Check for hematuria.
+- Leukocytes.
+- Nitrites.
+- Urine pH.
+
+2. Urine Pregnancy Test:
+- Urine β-hCG to exclude pregnancy-related causes of acute abdominal/pelvic pain.
+
+3. Full Blood Count:
+- Assess for leukocytosis and baseline haemoglobin/haematocrit.
+
+4. Serum Electrolytes, Urea and Creatinine:
+- Assess renal function and electrolyte status before NSAID administration.
+
+5. Abdominopelvic Ultrasound:
+- Assess for hydronephrosis.
+- Hydroureter.
+- Renal/ureteric calculi where visible.
+
+6. Non-Contrast CT KUB:
+- Consider if ultrasound is inconclusive and resources permit.
+
+PLAN:
+
+1. Analgesia:
+
+After assessment of renal function and contraindications:
+
+Inj Diclofenac 75 mg IM stat.
+
+If contraindicated or pain is refractory:
+
+Inj Pentazocine 30 mg IV stat.
+
+2. Antiemetic:
+
+Inj Metoclopramide 10 mg IV stat for nausea/vomiting.
+
+3. Fluid Therapy:
+
+0.9% Normal Saline 1 L IV over approximately 6 hours, with reassessment of hydration status.
+Avoid aggressive fluid loading during acute ureteric colic.
+Once vomiting resolves, encourage adequate oral fluid intake.
+
+4. Medical Expulsive Therapy:
+
+Tab Tamsulosin 0.4 mg orally once daily for up to 2 weeks, particularly if imaging confirms a suitable distal ureteric stone.
+
+5. Monitoring:
+
+- Monitor BP, pulse and temperature 4-hourly.
+- Monitor urine output.
+- Encourage urine straining using a clean sieve/strainer to retrieve any passed stone for analysis.
+- Keep NPO if vomiting persists; otherwise allow light oral diet as tolerated.
+
+6. Urology Referral/Escalation:
+
+Urgent referral to a urologist/tertiary facility if:
+- Intractable pain despite adequate analgesia.
+- Fever or other features of systemic infection/urosepsis.
+- Hypotension or clinical deterioration.
+- Rising serum creatinine/acute kidney injury.
+- Anuria.
+- Bilateral ureteric obstruction.
+- Obstruction in a solitary functioning kidney.
+
+HEALTH EDUCATION:
+
+Patient was counselled on the likely diagnosis of ureteric stone causing obstruction and colicky pain.
+
+The importance of adequate hydration after the acute vomiting and pain have settled was emphasized.
+
+She was advised to increase her daily fluid intake and avoid prolonged periods without drinking water.
+
+She was advised to return urgently if fever, chills, worsening pain, persistent vomiting, reduced urine output or inability to pass urine develops, as these may indicate infected or severe urinary tract obstruction.
+
+FOLLOW-UP:
+
+Review after investigation results, particularly urinalysis, renal function and imaging findings.
+
+Urology review if a significant ureteric stone or obstruction is confirmed.
+
+Stone analysis should be performed if a stone is retrieved.
+
+Further metabolic evaluation may be considered in recurrent stone disease.
+
+Prognosis:
+Generally good if the stone is small and passes spontaneously. Prognosis depends on stone size and location, degree of obstruction, renal function and the presence or absence of urinary tract infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-39',
+  title: 'Erectile Dysfunction',
+  specialty: 'General Outpatient',
+  subSpecialty: 'GOPD',
+  condition: 'Erectile Dysfunction',
+  symptoms: ['Difficulty achieving erection', 'Difficulty maintaining erection', 'Reduced erectile firmness', 'Performance anxiety', 'Hypertension'],
+  contributor: 'Admin',
+  lastModified: '2026-08-11',
+  summary: '40-year-old married man with an 8-month history of progressive difficulty achieving and maintaining erections, with preserved libido and occasional morning erections, in the setting of hypertension, overweight status, work-related stress and possible antihypertensive medication contribution.',
+  content: `GOPD
+  
+  Patient Seen
+  
+  A 40-year-old married male businessman from Ikeja, Lagos State, Christian, Yoruba, with HLE: Primary. Informant: Patient (Reliable).
+  
+  PC:
+  
+  Difficulty achieving and maintaining an erection × 8 months
+  
+  HPC:
+  
+  The patient was apparently well until about 8 months prior to presentation when he began experiencing difficulty achieving and maintaining a firm penile erection sufficient for satisfactory sexual intercourse.
+  The symptoms initially occurred occasionally but have progressively become more frequent.
+  He reports that he can achieve an erection with sexual stimulation, but the erection is often not firm enough for penetration or becomes less firm during intercourse.
+  He reports reduced confidence during sexual activity because of the recurrent difficulty.
+  He still experiences occasional spontaneous morning erections, although these have become less frequent.
+  He reports preserved sexual desire.
+  No penile pain, penile curvature or palpable penile plaques.
+  No history of penile trauma or previous penile surgery.
+  No history of difficulty initiating urination, poor urinary stream, urinary frequency, urgency or haematuria.
+  No history of urethral discharge.
+  No history of testicular pain or swelling.
+  No history of infertility.
+  Denies use of recreational drugs.
+  Drinks alcohol occasionally and does not smoke.
+  Reports increased work-related stress over the past year and admits to anxiety surrounding sexual performance since the symptoms began.
+  No history of major depressive symptoms or suicidal ideation.
+  
+  Sexual History:
+  
+  Married and sexually active with his wife.
+  Sexual desire is preserved.
+  Difficulty is mainly with erection rather than ejaculation.
+  No significant premature ejaculation.
+  No painful ejaculation.
+  No blood in semen.
+  No history of sexually transmitted infection.
+  No recent change in sexual partner.
+  Relationship with his partner is generally satisfactory, although the erectile problem has caused some degree of interpersonal stress.
+  
+  Review of Systems:
+  
+  Genitourinary:
+  
+  Difficulty achieving and maintaining erection.
+  Occasional morning erections.
+  No penile pain.
+  No penile curvature.
+  No penile discharge.
+  No haematuria.
+  No dysuria.
+  No urinary frequency.
+  No urinary urgency.
+  No poor urinary stream.
+  No testicular swelling or pain.
+  
+  Endocrine:
+  
+  No excessive thirst.
+  No excessive urination.
+  No heat or cold intolerance.
+  No significant change in body weight.
+  No loss of body hair.
+  
+  Cardiovascular:
+  
+  No chest pain.
+  No exertional dyspnoea.
+  No palpitations.
+  No previous myocardial infarction.
+  No history of peripheral vascular disease.
+  
+  Neurological:
+  
+  No lower limb weakness.
+  No lower limb numbness.
+  No perineal sensory loss.
+  No history of spinal injury.
+  No bowel or bladder dysfunction.
+  
+  Psychiatric:
+  
+  Increased performance anxiety.
+  No persistent depressed mood.
+  No anhedonia.
+  No suicidal ideation.
+  
+  Past Medical History:
+  
+  Known hypertensive patient for 5 years.
+  No known diabetes mellitus.
+  No known chronic kidney disease.
+  No known neurological disease.
+  No previous pelvic surgery.
+  No previous spinal cord injury.
+  No known endocrine disorder.
+  No known cardiovascular disease.
+  
+  Past Surgical History:
+  
+  No previous surgery.
+  
+  Drug History:
+  
+  Currently taking Amlodipine 10 mg orally once daily.
+  Reports occasional poor adherence.
+  No use of nitrates.
+  No use of recreational or illicit drugs.
+  No known drug allergies.
+  
+  Family History:
+  
+  Father is hypertensive and diabetic.
+  No known family history of erectile dysfunction.
+  No family history of premature cardiovascular disease.
+  
+  Social History:
+  
+  Businessman.
+  Reports significant work-related stress.
+  Occasional alcohol consumption.
+  Non-smoker.
+  No recreational drug use.
+  
+  O/E:
+  
+  Middle-aged man, conscious and alert, well-looking, not in obvious painful distress, not pale, not jaundiced, not cyanosed, well hydrated, with no peripheral oedema.
+  
+  CVS:
+  
+  PR 82 bpm, regular.
+  BP 146/92 mmHg.
+  Heart sounds I and II present.
+  No murmurs.
+  
+  Chest:
+  
+  RR 18 cpm.
+  SpO₂ 99% in room air.
+  Chest expansion symmetrical.
+  Breath sounds vesicular bilaterally.
+  No added sounds.
+  
+  ABD:
+  
+  Full, soft and non-tender.
+  No organomegaly.
+  No palpable masses.
+  
+  CNS:
+  
+  Conscious and oriented.
+  Power 5/5 in all limbs.
+  No sensory deficit.
+  No focal neurological deficit.
+  
+  Genital Examination:
+  
+  Penis normally developed.
+  No penile ulceration or discharge.
+  No obvious penile curvature.
+  No palpable Peyronie's plaque.
+  Prepuce retractable.
+  Glans normal.
+  Both testes descended and normal in size and consistency.
+  No testicular tenderness or masses.
+  No epididymal swelling.
+  No scrotal masses.
+  No inguinal lymphadenopathy.
+  
+  DRE:
+  
+  Performed with consent and appropriate privacy.
+  Anal sphincter tone normal.
+  Prostate mildly enlarged, smooth and non-tender.
+  No palpable nodules.
+  No rectal masses.
+  
+  ASS:
+  
+  Erectile dysfunction, likely multifactorial, in a 40-year-old man with hypertension, overweight status, psychosocial stress and possible antihypertensive medication contribution.
+  
+  The presence of preserved libido and occasional morning erections suggests that psychogenic factors may contribute; however, organic causes should be assessed because erectile dysfunction may be an early marker of cardiovascular and metabolic disease.
+  
+  Differentials/Contributing Factors:
+  
+  1. Vasculogenic erectile dysfunction.
+  2. Psychogenic/performance-related erectile dysfunction.
+  3. Medication-associated erectile dysfunction.
+  4. Diabetes mellitus.
+  5. Hypogonadism.
+  6. Dyslipidaemia/metabolic syndrome.
+  7. Neurological erectile dysfunction.
+  8. Peyronie's disease — currently unlikely based on examination.
+  9. Relationship/psychosexual factors.
+  
+  Investigations:
+  
+  Fasting blood glucose/HbA1c.
+  Fasting lipid profile.
+  Serum electrolytes, urea and creatinine.
+  Morning total testosterone.
+  Full blood count.
+  Thyroid function tests where clinically indicated.
+  Urinalysis.
+  Cardiovascular risk assessment including blood pressure, BMI/waist circumference, diabetes status, lipid profile, smoking status, physical activity and overall cardiovascular risk.
+  Penile Doppler ultrasound is not required routinely but may be considered if significant vasculogenic disease is suspected, the diagnosis remains uncertain, there is failure of first-line therapy or specialist vascular assessment is required.
+  
+  PLAN:
+  
+  Lifestyle modification with regular aerobic physical activity, weight reduction where appropriate, healthy balanced diet, adequate sleep, reduction of excessive alcohol intake, avoidance of smoking, management of psychological stress and optimization of blood pressure and metabolic risk factors.
+  Review adherence to antihypertensive therapy.
+  Assess whether the current antihypertensive regimen may be contributing to erectile dysfunction.
+  Do not discontinue antihypertensive medication abruptly.
+  If medication-related ED is suspected, review the regimen and consider an alternative antihypertensive strategy where clinically appropriate.
+  Psychosexual counselling; explain that anxiety and fear of sexual failure can worsen erectile dysfunction and create a self-perpetuating cycle.
+  Encourage open communication with his partner.
+  Consider referral for psychosexual counselling or cognitive behavioural therapy where performance anxiety or relationship factors are significant.
+  If there is no contraindication, offer a PDE-5 inhibitor as first-line pharmacological treatment.
+  Tab Sildenafil 50 mg orally approximately 1 hour before anticipated sexual activity.
+  May be adjusted to 25–100 mg depending on efficacy and tolerability.
+  Do not use more than once daily.
+  Sexual stimulation is required for effect.
+  Alternative: Tab Tadalafil 10 mg orally before anticipated sexual activity; dose may be adjusted according to response and tolerability.
+  Alternatively, Tadalafil 2.5–5 mg orally once daily may be considered for men requiring more frequent sexual activity.
+  PDE-5 inhibitors must not be used with nitrate medications because of the risk of potentially severe hypotension.
+  Use caution in patients with significant cardiovascular disease or those for whom sexual activity is medically unsafe.
+  Review concomitant alpha-blockers and other blood-pressure-lowering medications where relevant.
+  Do not commence testosterone empirically. Testosterone replacement should only be considered if the patient has consistently low morning testosterone levels and compatible clinical features of hypogonadism after appropriate endocrine/urological assessment.
+  If oral PDE-5 inhibitor therapy is ineffective or contraindicated, refer to Urology for consideration of vacuum erection device, intracavernosal injection therapy or other specialist-directed erectile dysfunction treatments.
+  Monitor blood pressure, medication adherence, treatment response and adverse effects.
+  Maintain privacy and confidentiality during sexual health assessment.
+  
+  Health Education:
+  
+  Explain that erectile dysfunction is common and is often treatable.
+  Emphasize that it can result from a combination of vascular, metabolic, hormonal, medication-related and psychological factors.
+  Advise the patient not to purchase unregulated sexual enhancement medications or herbal preparations.
+  Explain that persistent erectile dysfunction warrants cardiovascular and metabolic assessment.
+  Encourage discussion with his partner and avoidance of excessive performance pressure.
+  
+  Follow-up:
+  
+  Review in 4–6 weeks.
+  At follow-up, assess erectile response, medication adherence, adverse effects, blood pressure, glucose/HbA1c and lipid results, testosterone results where performed, and psychological and relationship factors.
+  If there is inadequate response to treatment, reassess the diagnosis and consider Urology referral.
+  
+  Prognosis:
+  
+  Generally good, particularly when reversible cardiovascular, metabolic, medication-related and psychological factors are identified and addressed.
+  
+  Final working diagnosis: Erectile dysfunction in a 40-year-old man, likely multifactorial with possible vasculogenic, medication-related and psychogenic contributions, requiring cardiovascular/metabolic risk assessment and appropriate first-line PDE-5 inhibitor therapy if no contraindication.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
 
 {
   id: 'gopd-38',
@@ -34612,6 +43552,2112 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
+  id: 'ob-39',
+  title: 'Threatened Miscarriage',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Emergency',
+  condition: 'Threatened Miscarriage',
+  symptoms: [
+    'Vaginal bleeding in early pregnancy',
+    'Lower abdominal pain',
+    'Suprapubic cramps',
+    'First-trimester bleeding',
+    'Rhesus-negative pregnancy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '28-year-old G2P1+0 at 8 weeks + 3 days gestation presenting with moderate vaginal bleeding and mild lower abdominal cramps, with a closed cervical os and no passage of products of conception, consistent with threatened miscarriage.',
+  content: `GYNAE EMERGENCY
+
+Patient Seen
+
+A 28-year-old G2P1+0 (1 alive) Yoruba, Christian, married fashion designer from Bodija, Ibadan, Oyo State, at an estimated gestational age of 8 weeks + 3 days, presenting with vaginal bleeding and mild lower abdominal pain.
+
+LMP: 8 weeks ago
+
+PC:
+Vaginal bleeding × 2 hours
+Mild lower abdominal pain × 2 hours
+
+HPC:
+She was apparently well until 2 hours prior to presentation when she developed sudden-onset vaginal bleeding.
+
+The bleeding was moderate in volume, bright red, and she estimated that approximately 2 sanitary pads had been soaked. There was no passage of blood clots or fleshy tissue/products of conception.
+
+The bleeding was associated with mild, dull, intermittent suprapubic pain/cramps with no radiation to the back or shoulder tips.
+
+There was no history of recent trauma, strenuous physical activity, or sexual intercourse. No history of fever, abnormal vaginal discharge, or urinary symptoms.
+
+She had not taken any medications or herbal remedies prior to presentation and came directly to the facility.
+
+Pregnancy was confirmed by a urine pregnancy test at a local pharmacy 3 weeks ago.
+
+PMH:
+No known history of hypertension, diabetes mellitus, or uterine fibroids.
+
+Blood group: O Rh-negative, documented from previous pregnancy.
+Husband's Rhesus status unknown.
+
+Obstetric History:
+G1 – 3 years ago, booked pregnancy, term live male infant delivered via SVD at a secondary health facility. Pregnancy and puerperium were uneventful.
+G2 – Index pregnancy.
+
+DH:
+Started routine prenatal medications 1 week ago:
+Folic acid 5 mg daily.
+Ferrous sulphate 200 mg daily.
+
+No history of traditional/herbal medicine use.
+
+No known drug allergies.
+
+FSH:
+Married and lives with her husband in a rented apartment.
+Non-smoker.
+Does not consume alcohol.
+
+ROS:
+
+General:
+No dizziness.
+No syncope.
+No fever.
+
+CVS:
+No palpitations.
+No orthopnoea.
+
+RS:
+No cough.
+No dyspnoea.
+
+GIT:
+No nausea.
+No vomiting.
+Normal bowel habits.
+
+CNS:
+No headache.
+No visual disturbances.
+
+O/E:
+
+Conscious, alert, in mild painful distress, not pale, anicteric, acyanotic, clinically hydrated, with no pedal edema.
+
+Vital Signs:
+T: 36.6°C
+PR: 82 bpm, regular, normal volume
+RR: 16 cpm
+BP: 110/70 mmHg
+SpO₂: 99% in room air
+
+ABD:
+Flat, moves with respiration.
+No surgical scars.
+Mild suprapubic tenderness.
+No guarding, rigidity or rebound tenderness.
+Liver, spleen and kidneys not palpable.
+
+Pelvic Examination:
+
+Speculum:
+Vulva and vagina stained with fresh blood.
+Cervix appears healthy.
+Cervical os closed.
+Moderate active bleeding trickling from the cervical os.
+No products of conception or blood clots seen in the vagina or cervical canal.
+
+Digital vaginal examination deferred to avoid unnecessary manipulation.
+
+ASS:
+Threatened miscarriage at 8 weeks + 3 days gestation in a Rhesus-negative woman.
+
+DIFFERENTIALS:
+1. Ectopic pregnancy.
+2. Hydatidiform mole.
+3. Cervical pathology, e.g. cervical polyp or cervical ectropion.
+
+INVESTIGATIONS:
+
+Pelvic ultrasound scan:
+Transvaginal ultrasound preferred to confirm location and viability of the pregnancy, assess fetal cardiac activity and identify any subchorionic haematoma.
+
+FBC:
+Assess haemoglobin level and baseline white cell count.
+
+Urinalysis:
+To assess for urinary tract infection.
+
+Blood grouping and Rhesus typing:
+Repeat/confirm documented Rh-negative status if required before administration of anti-D immunoglobulin.
+
+PLAN:
+
+Immediate/Supportive Care:
+Reassure the patient and explain the diagnosis and expected course.
+Advise pelvic rest and avoidance of sexual intercourse while actively bleeding.
+Avoid strenuous activity while symptomatic.
+Monitor vital signs and vaginal bleeding.
+
+Pharmacotherapy:
+
+Progesterone:
+Consider vaginal micronized progesterone 400 mg twice daily in women with early pregnancy bleeding and a previous miscarriage, particularly where indicated by current guidelines.
+
+Analgesia:
+Tab Paracetamol 1 g PO 8-hourly PRN for pain.
+Avoid unnecessary NSAID use during pregnancy.
+
+Rhesus Prophylaxis:
+As the patient is Rh-negative, assess eligibility for anti-D immunoglobulin according to gestational age, local protocol and current guideline recommendations. If indicated, administer within the recommended time window following the bleeding episode.
+
+Monitoring:
+Monitor BP and PR as clinically indicated.
+Monitor vaginal bleeding by pad count.
+Monitor severity of abdominal pain.
+
+Ultrasound:
+If ultrasound confirms a viable intrauterine pregnancy and bleeding settles, manage expectantly with appropriate follow-up.
+
+HEALTH EDUCATION:
+
+Explain that threatened miscarriage refers to vaginal bleeding in early pregnancy with a closed cervical os and no confirmed passage of products of conception.
+
+Reassure the patient that bleeding does not necessarily mean that pregnancy loss will occur, particularly if ultrasound demonstrates fetal cardiac activity.
+
+Advise her to return immediately if she develops heavy or increasing vaginal bleeding, passage of tissue, severe or worsening abdominal pain, shoulder-tip pain, dizziness, fainting, fever, or weakness.
+
+FOLLOW-UP:
+
+Review with ultrasound results to confirm pregnancy location and viability.
+
+If a viable intrauterine pregnancy is confirmed, arrange appropriate antenatal follow-up and repeat ultrasound where clinically indicated.
+
+Continue routine prenatal care and folic acid supplementation.
+
+Prognosis: Generally good if a viable intrauterine pregnancy is confirmed, although continued monitoring is required because some cases of threatened miscarriage progress to pregnancy loss.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-38',
+  title: 'Recurrent Pregnancy Loss',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Recurrent Pregnancy Loss',
+  symptoms: [
+    'Recurrent miscarriage',
+    'First-trimester pregnancy losses',
+    'Previous embryonic demise',
+    'Spontaneous pregnancy loss',
+    'Preconception counseling'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '32-year-old G4P0+3 with three consecutive spontaneous first-trimester pregnancy losses presenting for preconception evaluation and counseling, with possible antiphospholipid syndrome, uterine abnormality, endocrine dysfunction, or parental chromosomal abnormality.',
+  content: `GYNAE CLINIC
+
+Patient Seen
+
+A 32-year-old G4P0+3 (3 consecutive miscarriages), Yoruba, Christian, married secondary school teacher from Bodija, Ibadan, Oyo State, presenting for preconception evaluation and counseling on account of recurrent pregnancy losses.
+
+PC:
+Recurrent pregnancy losses × 3 consecutive times.
+
+HPC:
+She is a 32-year-old G4P0+3 who presented to the outpatient clinic for preconception evaluation and counseling following three consecutive spontaneous first-trimester pregnancy losses.
+
+Her first miscarriage occurred 3 years ago at approximately 9 weeks gestational age. It was preceded by sudden-onset painless vaginal spotting which progressed to severe lower abdominal cramps and passage of fleshy tissue. She presented to a local hospital where a diagnosis of complete miscarriage was made. She was managed conservatively with no blood transfusion required.
+
+Her second miscarriage occurred 18 months ago at approximately 8 weeks gestational age. She had booked for routine antenatal care, and an obstetric ultrasound scan performed for viability demonstrated embryonic demise. She subsequently underwent Manual Vacuum Aspiration (MVA) at a secondary health facility. Post-procedure recovery was uneventful, with no history of post-abortal fever or foul-smelling vaginal discharge.
+
+Her third miscarriage occurred 3 months ago at approximately 10 weeks gestational age. This was preceded by mild lower abdominal pain and moderate vaginal bleeding. She spontaneously expelled the products of conception at home. A subsequent pelvic ultrasound scan confirmed an empty uterine cavity, consistent with complete miscarriage.
+
+There is no history of chronic medical conditions such as pre-gestational diabetes mellitus, thyroid disease, or chronic hypertension during or prior to the pregnancies.
+
+There is no history of joint pains, skin rashes, photosensitivity, or recurrent deep vein thrombosis to suggest systemic lupus erythematosus or antiphospholipid syndrome.
+
+There is no history of high-grade fever, skin rashes, contact with cats, or consumption of undercooked meat during the pregnancies.
+
+There is no history of recurrent foul-smelling vaginal discharge or pelvic inflammatory disease.
+
+There is no history of ingestion of herbal concoctions, self-medication, radiation exposure, or known toxin exposure.
+
+LMP was 2 weeks ago. She has regular 28-day menstrual cycles, lasting 4 days, with no menorrhagia or dysmenorrhea.
+
+PMH:
+No known history of hypertension, diabetes mellitus, asthma, or epilepsy.
+
+No history of other major surgeries apart from MVA 18 months ago.
+
+Blood group: O positive.
+
+Genotype: AA.
+
+DH:
+Took routine prenatal vitamins including folic acid 400 mcg and iron during previous pregnancies.
+
+No history of chronic drug use or abuse.
+
+No known drug allergies.
+
+FSH:
+Married for 4 years in a non-consanguineous union.
+
+Husband is a 36-year-old civil servant, genotype AA, blood group B positive.
+
+No family history of recurrent miscarriages, infertility, or congenital malformations.
+
+Non-smoker and does not consume alcohol.
+
+Lives in a 3-bedroom apartment with good sanitary conditions and access to treated pipe-borne water.
+
+ROS:
+
+General:
+No significant weight loss or weight gain.
+No heat or cold intolerance.
+
+CNS:
+No headache.
+No visual disturbances.
+No seizures.
+
+CVS:
+No orthopnea.
+No paroxysmal nocturnal dyspnoea.
+No palpitations.
+
+RS:
+No cough.
+No chest pain.
+No dyspnoea.
+
+GIT:
+No nausea.
+No vomiting.
+Normal bowel habits.
+
+GUT:
+No dysuria.
+No urinary frequency.
+No abnormal vaginal discharge.
+
+MSS:
+No joint swelling.
+No joint stiffness.
+No muscle weakness.
+
+O/E:
+
+Young woman, comfortable, not acutely ill-looking, not pale, anicteric, acyanotic, well hydrated, no pedal edema, no peripheral lymphadenopathy.
+
+Vital Signs:
+Temp: 36.6°C
+PR: 76 bpm, regular, normal volume
+RR: 16 cpm
+SpO₂: 99% in room air
+BP: 110/70 mmHg
+
+Thyroid:
+Not enlarged.
+No nodules.
+No bruit.
+
+CVS:
+Apex beat at 5th left intercostal space, midclavicular line.
+S1 and S2 heard.
+No murmurs.
+
+RS:
+Trachea central.
+Chest expansion symmetrical.
+Tactile fremitus normal.
+Percussion note resonant bilaterally.
+Breath sounds vesicular.
+No adventitious sounds.
+
+ABD:
+Flat, moves with respiration.
+No surgical scars.
+Soft and non-tender.
+No palpable organomegaly.
+No ascites.
+
+Pelvic Examination:
+
+Speculum:
+Vulva and vagina normal.
+Cervix healthy-looking.
+External os closed.
+No active bleeding or abnormal vaginal discharge.
+
+Bimanual:
+Uterus normal size, anteverted, mobile and non-tender.
+Adnexa free and non-tender bilaterally.
+
+ASS:
+Recurrent Pregnancy Loss (three consecutive first-trimester miscarriages) in a 32-year-old G4P0+3, ?etiology.
+
+Differentials:
+1. Antiphospholipid Syndrome (APS).
+2. Uterine anatomical abnormality, including septate uterus or submucosal fibroid.
+3. Endocrine dysfunction, including thyroid dysfunction or diabetes mellitus.
+4. Parental chromosomal abnormality, including balanced reciprocal or Robertsonian translocation.
+
+INVESTIGATIONS:
+
+Hematological/Immunological:
+FBC with platelet count.
+Lupus anticoagulant.
+Anticardiolipin antibodies (IgG and IgM).
+Anti-beta-2-glycoprotein I antibodies.
+If antiphospholipid antibodies are positive, repeat testing after at least 12 weeks for confirmation.
+
+Endocrine/Metabolic:
+Thyroid function tests: TSH, free T4 ± free T3.
+Fasting blood glucose.
+HbA1c.
+Serum prolactin.
+
+Imaging/Anatomical:
+Pelvic ultrasound scan, preferably 3D transvaginal USS, to assess uterine morphology and exclude fibroids, adenomyosis, or congenital uterine anomalies.
+Hysterosalpingography or hysteroscopy if indicated and available.
+
+Infectious:
+High vaginal swab and endocervical swab for microscopy, culture and sensitivity if clinically indicated.
+
+Genetic:
+Parental karyotyping for both patient and husband, particularly if other investigations are unrevealing or if indicated by specialist assessment.
+
+PLAN:
+
+Counseling and Reassurance:
+Provide detailed counseling to the patient and her husband regarding recurrent pregnancy loss.
+Reassure them that recurrent miscarriage does not necessarily preclude a successful future pregnancy.
+
+Preconception Care:
+Commence folic acid 5 mg daily preconceptionally.
+Encourage routine preconception multivitamins.
+Advise balanced diet, regular moderate exercise and avoidance of smoking, alcohol and other potential toxins.
+
+Management According to Cause:
+If APS is confirmed, manage in consultation with a specialist obstetrician, with low-dose aspirin and prophylactic LMWH during pregnancy as indicated.
+Treat identified endocrine abnormalities appropriately.
+Structural uterine abnormalities should be managed according to the specific lesion and specialist assessment.
+If a parental chromosomal abnormality is identified, provide genetic counseling and discuss reproductive options.
+
+Early Pregnancy Plan:
+Advise the patient to present early once pregnancy is confirmed.
+Arrange early quantitative beta-hCG assessment where indicated.
+Arrange an early viability ultrasound scan at approximately 6–7 weeks gestation.
+Provide close antenatal surveillance in the subsequent pregnancy.
+
+Specialist Referral:
+Refer to a Consultant Obstetrician and Gynaecologist, preferably a specialist with expertise in recurrent pregnancy loss/reproductive medicine, for further evaluation and management.
+
+Follow-up:
+Review in the Gynae Clinic with results of the recurrent pregnancy loss workup.
+Provide ongoing preconception counseling and formulate an individualized plan before the next pregnancy.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-37',
+  title: 'Missed Miscarriage at 12 Weeks Gestation',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Missed Miscarriage',
+  symptoms: [
+    'Amenorrhea',
+    'Painless vaginal bleeding',
+    'Loss of pregnancy symptoms',
+    'Uterine size smaller than gestational age',
+    'Closed cervical os'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '28-year-old G2P0+1 at 12 weeks gestation presenting with scanty painless vaginal bleeding and loss of previously established pregnancy symptoms, with an 8-week-sized uterus and closed cervix, suggestive of missed miscarriage pending ultrasound confirmation.',
+  content: `GYNAE CLINIC
+
+Patient Seen
+
+A 28-year-old G2P0+1 married Yoruba Christian lady, a primary school teacher from Bodija, Ibadan, Oyo State.
+
+LMP: 01/08/2023
+
+Estimated Gestational Age: 12 weeks
+
+PC:
+Amenorrhea × 12 weeks
+Painless scanty vaginal bleeding × 3 days
+Loss of subjective pregnancy symptoms × 2 days
+
+HPC:
+She was apparently well until 3 days prior to presentation when she noticed the onset of scanty, dark-brown vaginal bleeding.
+
+The bleeding was painless and non-profuse, requiring approximately one panty liner per day. There was no passage of blood clots or fleshy tissue.
+
+There was no associated lower abdominal pain, backache or history of trauma.
+
+Two days prior to presentation, she noticed sudden regression of her early pregnancy symptoms, particularly resolution of morning sickness and breast tenderness, which had been prominent since approximately the 6th week of gestation.
+
+There was no history of fever, offensive vaginal discharge or urinary symptoms.
+
+She denies ingestion of herbal mixtures ("agbo"), over-the-counter abortifacients or other self-medication apart from routine antenatal medications.
+
+She has not had an obstetric ultrasound scan during the current pregnancy.
+
+The pregnancy was planned and desired.
+
+REVIEW OF SYSTEMS:
+
+General:
+No fever.
+No fatigue.
+No weight loss.
+
+CNS:
+No headache.
+No dizziness.
+No visual disturbances.
+
+CVS:
+No palpitations.
+No chest pain.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+Gastrointestinal:
+No nausea.
+No vomiting.
+Normal bowel habits.
+
+Genitourinary:
+Scanty vaginal bleeding.
+No dysuria.
+No urinary frequency.
+
+PAST MEDICAL HISTORY:
+No known hypertension, diabetes mellitus or thyroid disease.
+
+No history of chronic pelvic inflammatory disease.
+
+No previous pelvic or abdominal surgery.
+
+Blood group: O positive.
+
+Genotype: AA.
+
+OBSTETRIC HISTORY:
+
+G1:
+Spontaneous miscarriage at 8 weeks gestation, approximately 1 year ago, managed conservatively at a primary health centre without complications.
+
+G2:
+Index pregnancy.
+
+DRUG HISTORY:
+Folic acid 5 mg daily.
+
+Ferrous sulphate 200 mg daily.
+
+No known drug allergies.
+
+FAMILY HISTORY:
+No significant family history provided.
+
+SOCIAL HISTORY:
+Married for 2 years in a monogamous setting.
+
+Lives with her husband in a 2-bedroom apartment.
+
+Tap water is the primary source of water.
+
+Non-smoker.
+Does not consume alcohol.
+
+Husband is a civil servant.
+
+O/E:
+
+Conscious, alert and not in obvious respiratory or painful distress.
+
+Not pale.
+Anicteric.
+Acyanotic.
+Clinically hydrated.
+No pedal oedema.
+
+Vital Signs:
+Temperature: 36.6°C
+PR: 78 bpm, regular, normal volume
+BP: 110/70 mmHg
+RR: 16 cpm
+SpO₂: 99% on room air
+
+Abdomen:
+Flat and moves with respiration.
+
+No surgical scars.
+
+Soft and non-tender.
+
+Uterus not palpably gravid abdominally.
+
+No palpable organomegaly.
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+
+Respiratory:
+Chest clinically clear.
+Vesicular breath sounds bilaterally.
+
+PELVIC EXAMINATION:
+
+External Genitalia:
+Normal female external genitalia.
+
+Minimal dark-brown staining on the vulva.
+
+Speculum:
+Small amount of altered blood in the vagina.
+
+Cervix appears healthy.
+
+External os closed.
+
+No active bleeding.
+
+No tissue protruding through the cervical os.
+
+Bimanual Examination:
+Vagina warm.
+
+Cervix closed, firm and non-tender on movement.
+
+Uterus bulky, approximately 8-week size, smaller than expected for gestational age.
+
+Uterus non-tender and mobile.
+
+Adnexa free and non-tender bilaterally.
+
+ASSESSMENT:
+Suspected missed miscarriage at approximately 12 weeks gestational age, based on loss of pregnancy symptoms and significant size-date discrepancy.
+
+Diagnosis to be confirmed by ultrasound.
+
+DIFFERENTIAL DIAGNOSES:
+1. Threatened miscarriage.
+2. Anembryonic pregnancy.
+3. Early hydatidiform mole.
+
+INVESTIGATIONS:
+
+1. Pelvic Ultrasound Scan:
+Transvaginal ultrasound preferred where appropriate.
+
+Assess:
+- Fetal viability.
+- Crown-rump length.
+- Gestational sac.
+- Presence or absence of fetal cardiac activity.
+- Features of anembryonic pregnancy.
+- Evidence of retained products if pregnancy loss is confirmed.
+
+Ultrasound criteria should be interpreted according to accepted diagnostic standards before making a definitive diagnosis of early pregnancy loss.
+
+2. Full Blood Count:
+Assess baseline haemoglobin and white cell count.
+
+3. Blood Group and Rhesus Factor:
+Verify documented blood group if an official laboratory result is unavailable.
+
+4. Urinalysis:
+Assess for concurrent urinary tract infection and other abnormalities.
+
+PLAN:
+
+1. Counseling and Support:
+
+Provide compassionate counseling to the patient and her husband.
+
+Explain that pregnancy loss is common and is usually not caused by anything the patient did or failed to do.
+
+Provide psychological and emotional support.
+
+Discuss management options if ultrasound confirms a non-viable pregnancy.
+
+2. Definitive Management:
+
+Management should be individualized after confirmation of pregnancy loss and discussion with the patient.
+
+Options include:
+
+A. Expectant Management:
+Allow spontaneous passage of pregnancy tissue with appropriate counseling and follow-up if clinically suitable.
+
+B. Medical Management:
+If appropriate for the gestational age and clinical circumstances:
+
+Misoprostol 800 micrograms vaginally
+
+OR
+
+Misoprostol 600 micrograms sublingually as a single dose, according to the applicable miscarriage-management protocol.
+
+Provide adequate analgesia, e.g. Ibuprofen 400 mg orally every 8 hours as required, if there are no contraindications.
+
+Counsel regarding expected cramping, vaginal bleeding and passage of pregnancy tissue.
+
+C. Surgical Management:
+If preferred by the patient, if there is significant bleeding, infection, failed medical/expectant management or another clinical indication:
+
+Manual Vacuum Aspiration (MVA) under appropriate local anaesthesia/paracervical block.
+
+3. Supportive Care:
+
+Advise adequate oral hydration.
+
+Provide analgesia as required.
+
+Monitor vaginal bleeding and symptoms.
+
+4. Rh Status:
+
+Patient is documented as O positive; anti-D immunoglobulin is therefore not indicated.
+
+5. Follow-Up:
+
+Review after ultrasound and definitive management.
+
+If expectant or medical management is chosen, follow-up should assess resolution of bleeding and confirm complete evacuation where clinically indicated.
+
+Advise the patient to return urgently if she develops heavy vaginal bleeding, severe abdominal pain, fever, foul-smelling vaginal discharge, dizziness, fainting or significant weakness.
+
+6. Family Planning and Preconception Care:
+
+Discuss contraception following completion of the miscarriage.
+
+When planning another pregnancy, commence appropriate preconception folic acid supplementation and optimize general health.
+
+HEALTH EDUCATION:
+
+The patient was counseled that the loss of early pregnancy symptoms and uterine size smaller than expected raise suspicion for pregnancy loss, but that ultrasound confirmation is required before making a definitive diagnosis.
+
+She was reassured that an early miscarriage is usually not caused by routine activities, sexual intercourse or minor physical exertion and does not mean she cannot have a successful pregnancy in the future.
+
+The importance of follow-up after expectant, medical or surgical management was emphasized.
+
+FOLLOW-UP:
+
+Review with pelvic ultrasound result.
+
+If pregnancy loss is confirmed, discuss expectant, medical and surgical management and document the patient's preferred option.
+
+Follow up within approximately 1–2 weeks after treatment or earlier if clinically indicated.
+
+Prognosis:
+Generally good. Most women recover completely following an early pregnancy loss and can subsequently have a successful pregnancy.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-36',
+  title: 'Inevitable Miscarriage at 10 Weeks Gestation',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Emergency',
+  condition: 'Inevitable Miscarriage',
+  symptoms: [
+    'Vaginal bleeding in early pregnancy',
+    'Lower abdominal pain',
+    'Passage of blood clots',
+    'Dilated cervical os',
+    'Products of conception palpable in cervical canal'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '28-year-old G2P1+0 at 10 weeks gestation presenting with heavy vaginal bleeding, severe cramping lower abdominal pain and a dilated cervical os with products of conception palpable in the cervical canal, consistent with inevitable miscarriage.',
+  content: `GYNAE EMERGENCY
+
+Patient Seen
+
+A 28-year-old G2P1+0 (1 alive) married female trader, Yoruba, Christian, from Olorunsogo Area, Ibadan, Oyo State.
+
+LMP: 10 weeks prior to presentation
+Estimated Gestational Age: 10 weeks
+
+PC:
+Vaginal bleeding × 12 hours
+Lower abdominal pain × 12 hours
+
+HPC:
+She was apparently well until about 12 hours prior to presentation when she developed sudden-onset vaginal bleeding.
+
+The bleeding was initially light but progressively increased to moderate-to-heavy flow, soaking approximately 3 sanitary pads within the preceding 6 hours.
+
+There was associated passage of dark-red blood clots, but no fleshy mass or tissue had been noticed or passed.
+
+The bleeding was associated with severe, intermittent, cramping lower abdominal and pelvic pain radiating to the lower back.
+
+There was no history of trauma, recent sexual intercourse or ingestion of traditional herbal preparations ("agbo").
+
+No history of fever, chills, abnormal vaginal discharge, dizziness, fainting spells or palpitations.
+
+She took Paracetamol 1 g prior to presentation without significant relief of the pain.
+
+She presented because of worsening vaginal bleeding and abdominal pain.
+
+REVIEW OF SYSTEMS:
+
+General:
+No fever.
+No weight loss.
+
+CNS:
+No headache.
+No dizziness.
+No syncope.
+
+CVS:
+No palpitations.
+No chest pain.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+Gastrointestinal:
+No nausea.
+No vomiting.
+Normal bowel habits.
+
+Genitourinary:
+Vaginal bleeding and severe lower abdominal cramps as above.
+No dysuria.
+No urinary frequency.
+
+PAST MEDICAL HISTORY:
+No known hypertension, diabetes mellitus or thyroid disease.
+
+No previous surgeries.
+
+No previous blood transfusion.
+
+Blood group: O positive, documented from previous pregnancy.
+
+OBSTETRIC HISTORY:
+
+G1:
+2020 – Term spontaneous vaginal delivery of a male child, birth weight 3.2 kg, alive and healthy. No antenatal or postnatal complications.
+
+G2:
+Index pregnancy.
+
+DRUG HISTORY:
+Paracetamol 1 g taken prior to presentation.
+
+No history of traditional herbal preparations or abortifacients.
+
+No known drug allergies.
+
+FAMILY HISTORY:
+No significant family history provided.
+
+SOCIAL HISTORY:
+Married in a monogamous setting.
+
+Lives with husband and child in a 2-room apartment with access to borehole water.
+
+Non-smoker.
+Does not consume alcohol.
+
+Husband is a commercial driver.
+
+O/E:
+
+Conscious, alert woman in painful distress.
+
+Not pale.
+Anicteric.
+Afebrile.
+Clinically hydrated.
+
+Vital Signs:
+Temperature: 36.8°C
+PR: 92 bpm, regular, moderate volume
+BP: 110/70 mmHg
+RR: 18 cpm
+SpO₂: 98% on room air
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+Peripheral pulses full and synchronous.
+
+Respiratory:
+Chest clear.
+Vesicular breath sounds bilaterally.
+
+Abdomen:
+Flat and moves with respiration.
+
+No surgical scars.
+
+Soft.
+
+Mild suprapubic tenderness.
+
+No guarding or rigidity.
+
+Fundus not palpable abdominally, consistent with gestation less than 12 weeks.
+
+PELVIC EXAMINATION:
+
+Speculum:
+Moderate active bleeding from the cervical canal.
+
+No visible vaginal or cervical lacerations.
+
+No purulent or foul-smelling discharge.
+
+Digital Vaginal Examination:
+Vagina warm with moderate blood clots.
+
+Cervix soft.
+
+Cervical os dilated, admitting one finger.
+
+Products of conception palpable within the cervical canal but not completely expelled.
+
+No adnexal masses or tenderness.
+
+ASSESSMENT:
+Inevitable miscarriage at approximately 10 weeks gestation in a G2P1+0 woman.
+
+DIFFERENTIAL DIAGNOSES:
+1. Incomplete miscarriage.
+2. Threatened miscarriage.
+3. Ectopic pregnancy.
+
+INVESTIGATIONS:
+
+1. Urgent Pelvic Ultrasound Scan:
+- Assess viability and location of pregnancy.
+- Assess uterine cavity for retained products of conception.
+- Exclude ectopic pregnancy where clinically indicated.
+
+2. Full Blood Count:
+- Determine baseline haemoglobin.
+- Assess white cell count.
+
+3. Group and Crossmatch:
+Crossmatch blood and keep blood available if clinically indicated due to ongoing heavy bleeding.
+
+4. Urinalysis:
+Assess for concurrent urinary tract infection and other abnormalities.
+
+PLAN:
+
+1. Stabilization:
+
+Keep patient nil per oral initially in anticipation of possible uterine evacuation.
+
+Secure patent IV access with a large-bore cannula.
+
+Commence IV crystalloid fluid as clinically indicated and reassess according to haemodynamic status and ongoing blood loss.
+
+Monitor BP and pulse regularly.
+
+Monitor vaginal blood loss using pad count and clinical assessment.
+
+2. Analgesia:
+
+For severe cramping pain:
+
+Inj Pentazocine 30 mg IV slowly stat
+
+OR
+
+Inj Tramadol 50 mg IM stat.
+
+3. Definitive Management:
+
+Discuss treatment options with the patient based on clinical status, ultrasound findings, patient preference and available expertise.
+
+If heavy/persistent bleeding, haemodynamic instability or significant retained products are present:
+
+Manual Vacuum Aspiration (MVA) under appropriate local anaesthesia and strict aseptic technique.
+
+Send evacuated products for histopathological examination where indicated.
+
+If clinically stable and medical management is appropriate:
+
+Misoprostol may be used according to the applicable miscarriage-management protocol for gestational age and clinical circumstances.
+
+4. Antibiotic Prophylaxis:
+
+Administer prophylactic antibiotics according to the facility's current miscarriage/MVA protocol, particularly when surgical evacuation is performed.
+
+5. Rh Status:
+
+Patient is O positive; anti-D immunoglobulin is therefore not indicated.
+
+If an Rh-negative patient is identified, assess the indication for anti-D prophylaxis according to gestational age, type of pregnancy loss and local guideline.
+
+6. Counseling:
+
+Provide empathetic counseling regarding pregnancy loss.
+
+Explain the diagnosis, available management options, expected course and possible complications.
+
+Discuss post-miscarriage contraception and allow the patient to choose an appropriate method once clinically stable.
+
+Provide emotional and psychological support to the patient and her partner.
+
+HEALTH EDUCATION:
+
+The patient was counseled that miscarriage is the spontaneous loss of a pregnancy before fetal viability and is relatively common in early pregnancy.
+
+She was informed that vaginal bleeding with cramping and cervical dilatation indicates an inevitable miscarriage and that the pregnancy is unlikely to continue.
+
+The importance of follow-up after uterine evacuation or medical management was emphasized.
+
+She was advised to return immediately if she develops heavy or persistent vaginal bleeding, severe or worsening abdominal pain, fever, dizziness, fainting, foul-smelling vaginal discharge or reduced general wellbeing.
+
+FOLLOW-UP:
+
+Review after ultrasound and/or definitive management.
+
+Follow-up within approximately 1–2 weeks, or earlier depending on clinical course.
+
+Assess for resolution of bleeding and pain and ensure there are no features of infection or retained products.
+
+Discuss family planning and contraception before discharge or at follow-up.
+
+Prognosis:
+Generally good with appropriate management. Most women recover completely following early pregnancy loss and can subsequently have a successful pregnancy.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-35',
+  title: 'Threatened Miscarriage',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Early Pregnancy',
+  condition: 'Threatened Miscarriage',
+  symptoms: ['Vaginal bleeding', 'Lower abdominal pain', 'Early pregnancy'],
+  contributor: 'Admin',
+  lastModified: '2026-08-13',
+  summary: '28-year-old G2P1+0 woman at 8 weeks + 3 days gestation presenting with 2 hours of moderate vaginal bleeding and mild suprapubic cramps, with a closed cervical os and no passage of products, clinically consistent with threatened miscarriage in a Rhesus-negative pregnancy.',
+  content: `OBSTETRIC CLINIC
+
+Patient Seen
+
+A 28-year-old female Yoruba woman, a fashion designer from Bodija, Ibadan, Oyo State. Religion: Christian.
+
+G2P1+0 (1 alive), at an estimated gestational age of 8 weeks + 3 days. Informant: Patient.
+
+PC:
+
+Vaginal bleeding × 2 hours.
+Mild lower abdominal pain × 2 hours.
+
+HPC:
+
+The patient was apparently well until approximately 2 hours prior to presentation when she developed sudden-onset vaginal bleeding.
+
+The bleeding is moderate in volume, with approximately 2 soaked sanitary pads.
+
+No history of passage of blood clots.
+No history of passage of fleshy tissue or products of conception.
+
+The bleeding is associated with mild, dull, intermittent suprapubic pain/cramps.
+
+No radiation to the back.
+No radiation to the shoulder tips.
+
+No history of recent trauma.
+No history of strenuous physical activity.
+No history of recent sexual intercourse.
+No history of fever.
+No history of abnormal vaginal discharge.
+No urinary symptoms.
+
+PTP, no medications or herbal remedies ("agbo") were taken. She presented directly to the facility.
+
+Obstetric History:
+
+G2P1+0 (1 alive).
+
+Previous pregnancy 3 years ago was uneventful and resulted in delivery of a term live male infant via SVD at a secondary health facility.
+
+No previous history of miscarriage.
+
+Current pregnancy was confirmed by urine pregnancy test at a local pharmacy 3 weeks ago.
+
+LMP was approximately 8 weeks prior to presentation.
+
+Past Medical History:
+
+No known hypertension.
+No known diabetes mellitus.
+No known uterine fibroids.
+No other known chronic medical illness.
+
+Blood group: O Rhesus negative, documented from previous pregnancy.
+Husband's Rhesus status is unknown.
+
+Drug History:
+
+Started routine antenatal medications 1 week ago:
+
+Folic acid 5 mg daily.
+Ferrous sulphate 200 mg daily.
+
+No history of traditional or herbal medicine use.
+
+Family and Social History:
+
+Lives with her husband in a rented flat.
+
+Non-smoker.
+Does not drink alcohol.
+
+Review of Systems:
+
+General:
+
+No dizziness.
+No syncope.
+No fever.
+
+CVS:
+
+No palpitations.
+No orthopnoea.
+
+RS:
+
+No cough.
+No dyspnoea.
+
+GIT:
+
+No nausea.
+No vomiting.
+Normal bowel habits.
+
+CNS:
+
+No headache.
+No visual disturbances.
+
+O/E:
+
+Conscious, alert and in mild painful distress.
+
+Not pale.
+Anicteric.
+Acyanosed.
+Well hydrated.
+No pedal oedema.
+
+Vitals:
+
+Temp 36.6°C.
+PR 82 bpm, regular, normal volume.
+RR 16 cpm.
+BP 110/70 mmHg.
+SpO₂ 99% on room air.
+
+Abdominal Examination:
+
+Abdomen flat and moves with respiration.
+
+No surgical scars.
+
+Mild suprapubic tenderness.
+
+No guarding.
+No rigidity.
+No rebound tenderness.
+
+Liver, spleen and kidneys not palpable.
+
+Pelvic Examination:
+
+Sterile speculum examination:
+
+Vulva and vagina stained with fresh blood.
+
+Cervix appears healthy.
+Cervical os is closed.
+
+Moderate active bleeding noted trickling from the cervical os.
+
+No products of conception seen.
+No blood clots seen in the vagina or cervical canal.
+
+Digital vaginal examination deferred to avoid stimulating uterine contractions.
+
+ASS:
+
+Threatened miscarriage at 8 weeks + 3 days gestation in a Rhesus-negative woman.
+
+Differentials:
+
+1. Ectopic pregnancy.
+2. Molar pregnancy.
+3. Cervical pathology such as cervical polyp or cervical erosion.
+
+Investigations:
+
+Obstetric ultrasound scan, preferably transvaginal ultrasound, to confirm fetal viability and cardiac activity, establish the location of the gestational sac and exclude ectopic pregnancy or other intrauterine pathology such as subchorionic haematoma.
+
+Full Blood Count to assess baseline haemoglobin and white cell count.
+
+Urinalysis to assess for urinary tract infection and other urinary abnormalities.
+
+Repeat blood grouping and Rhesus typing to confirm the documented Rhesus-negative status before administration of anti-D immunoglobulin.
+
+PLAN:
+
+Immediate/Supportive Care:
+
+Pelvic rest.
+
+Avoid sexual intercourse and strenuous physical activity while bleeding persists.
+
+Reassure the patient and her husband regarding the diagnosis and explain that the cervix is closed, but close monitoring is required.
+
+Pharmacotherapy:
+
+Progesterone Support:
+
+Tab Dydrogesterone 40 mg PO stat, then 10 mg PO 8-hourly until bleeding stops.
+
+Alternatively, micronized progesterone vaginal pessary 400 mg daily may be considered.
+
+Analgesia:
+
+Tab Paracetamol 1 g PO 8-hourly PRN for pain.
+
+Avoid NSAIDs such as ibuprofen and diclofenac during pregnancy.
+
+Rhesus Prophylaxis:
+
+Administer Anti-D immunoglobulin 250 micrograms IM stat within 72 hours of the bleeding episode, given the patient's documented Rhesus-negative status.
+
+Monitoring:
+
+Monitor vital signs 4-hourly as clinically indicated.
+
+Monitor vaginal bleeding using pad count and assess the colour and amount of blood.
+
+Monitor severity and progression of abdominal pain.
+
+Assess ultrasound findings and fetal viability.
+
+Discharge and Safety-Netting:
+
+If bleeding subsides and ultrasound confirms a viable intrauterine pregnancy, the patient may be managed as an outpatient with close follow-up.
+
+Advise immediate return to the facility if she develops:
+
+Increased vaginal bleeding.
+Passage of fleshy tissue or products of conception.
+Worsening lower abdominal pain or severe cramping.
+Dizziness or fainting.
+Fever.
+Any other significant deterioration.
+
+Follow-up:
+
+Arrange follow-up obstetric ultrasound in 1–2 weeks to reassess fetal growth and viability as clinically indicated.
+
+Clinical Rationale:
+
+Threatened miscarriage is characterized by vaginal bleeding in early pregnancy with a closed cervical os and no passage of products of conception.
+
+The patient's presentation of moderate vaginal bleeding at 8 weeks + 3 days gestation, associated with mild lower abdominal cramps and a closed cervical os, is consistent with threatened miscarriage.
+
+Ectopic pregnancy remains an important differential diagnosis in any woman presenting with first-trimester bleeding and must be excluded by ultrasound, particularly by confirming an intrauterine pregnancy.
+
+Molar pregnancy is another differential diagnosis and can be assessed on ultrasound.
+
+The patient's O Rhesus-negative status is clinically important because fetomaternal haemorrhage during a bleeding episode may result in maternal alloimmunization. Anti-D immunoglobulin is therefore considered for Rhesus-negative women according to the clinical circumstances and applicable local guidance.
+
+Ultrasound is essential to establish pregnancy location, assess fetal viability and identify complications such as subchorionic haemorrhage.
+
+Full Blood Count provides a baseline haemoglobin level and may help assess the significance of ongoing blood loss.
+
+Urinalysis is useful for assessing possible urinary tract infection or other urinary abnormalities.
+
+Paracetamol is preferred for analgesia during pregnancy, while NSAIDs such as ibuprofen and diclofenac should be avoided unless specifically indicated by appropriate obstetric guidance.
+
+Progesterone supplementation may be considered in selected women with threatened miscarriage, particularly where there is a history of previous miscarriage.
+
+Clear safety-netting is important because increasing bleeding, severe abdominal pain, syncope, fever or passage of products of conception may indicate progression of the miscarriage or another urgent pregnancy complication.
+
+Final working diagnosis: Threatened miscarriage at 8 weeks + 3 days gestation in a Rhesus-negative woman.
+`,
+  documentation: `
+<div class="space-y-6">
+
+Not yet available
+
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-34',
+  title: 'Secondary Dysmenorrhoea with Heavy Menstrual Bleeding',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Secondary Dysmenorrhoea',
+  symptoms: ['Progressive dysmenorrhoea', 'Heavy menstrual bleeding', 'Deep dyspareunia', 'Lower abdominal pain', 'Lower back pain', 'Passage of blood clots'],
+  contributor: 'Admin',
+  lastModified: '2026-08-11',
+  summary: '24-year-old nulligravid woman with a 1-year history of progressively worsening dysmenorrhoea and an 8-month history of heavy menstrual bleeding, associated with occasional deep dyspareunia and a mildly enlarged irregular tender uterus, suspicious for uterine fibroids, endometriosis or adenomyosis.',
+  content: `GYNAE CLINIC
+  
+  Patient Seen
+  
+  A 24-year-old single female undergraduate from Ikeja, Lagos State, Christian, Yoruba, with HLE: Undergraduate. Informant: Patient (Reliable).
+  
+  PC:
+  
+  Progressively painful menstruation × 1 year.
+  Heavy menstrual bleeding × 8 months.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 1 year prior to presentation when she noticed a change in her usual menstrual pattern, with the development of progressively painful menstruation.
+  
+  She previously had relatively painless menstrual periods but began experiencing lower abdominal pain during menstruation approximately 1 year ago.
+  
+  The pain usually begins 1–2 days before the onset of menstrual flow, becomes progressively severe during the first 2 days of menstruation and gradually subsides thereafter.
+  
+  It is described as a deep, cramping lower abdominal pain, predominantly suprapubic, with occasional radiation to the lower back and thighs.
+  
+  The pain is currently rated 8/10 and has progressively increased in severity over the past year.
+  
+  She reports that the pain now interferes significantly with her daily activities and occasionally prevents her from attending lectures or carrying out routine activities.
+  
+  Over the past 8 months, she has also noticed an increase in menstrual flow.
+  
+  She now changes approximately 5–6 fully soaked sanitary pads on heavy days and occasionally passes blood clots.
+  
+  Her menstrual periods now last approximately 6–7 days compared with 4–5 days previously.
+  
+  She reports occasional deep pain during sexual intercourse.
+  
+  She also experiences lower back discomfort during menstruation.
+  
+  No history of fever or chills.
+  No history of foul-smelling vaginal discharge.
+  No history of dysuria or haematuria.
+  No history of persistent pelvic pain between menstrual periods.
+  No history of weight loss.
+  No known history of previous pelvic inflammatory disease.
+  
+  She has used Ibuprofen during painful episodes with only partial relief.
+  
+  Menstrual History:
+  
+  Age at menarche: 12 years.
+  Previous menstrual pattern: Previously regular and relatively painless.
+  Current cycle: Regular, approximately every 28–30 days.
+  Duration: 6–7 days.
+  Amount: Currently heavy, particularly during the first 2–3 days.
+  LMP: 03/08/2026.
+  Dysmenorrhoea: Progressive over the last year.
+  Clots: Occasionally passes small-to-moderate-sized clots.
+  No intermenstrual bleeding.
+  No postcoital bleeding.
+  
+  Gynaecological History:
+  
+  Occasional deep dyspareunia.
+  No abnormal vaginal discharge.
+  No vulval itching.
+  No genital ulcers.
+  No previous diagnosis of sexually transmitted infection.
+  No previous pelvic inflammatory disease.
+  No previous gynaecological surgery.
+  
+  Sexual History:
+  
+  Currently sexually active with one regular partner.
+  No recent change of sexual partner.
+  Uses condoms inconsistently.
+  No known history of sexually transmitted infection in her partner.
+  No history of sexual assault.
+  
+  Obstetric History:
+  
+  Nulligravida (G0P0).
+  No previous pregnancies.
+  No history of infertility evaluation.
+  
+  Review of Systems:
+  
+  Gastrointestinal:
+  
+  Occasional nausea during severe menstrual pain.
+  No persistent vomiting.
+  No constipation.
+  No diarrhoea.
+  No rectal bleeding.
+  No cyclical rectal pain.
+  
+  Urinary:
+  
+  No dysuria.
+  No urinary frequency.
+  No urgency.
+  No haematuria.
+  No cyclical urinary symptoms.
+  
+  General:
+  
+  No fever.
+  No night sweats.
+  No significant weight loss.
+  No chronic fatigue outside menstrual periods.
+  
+  Past Medical History:
+  
+  No known hypertension.
+  No diabetes mellitus.
+  No chronic kidney disease.
+  No known bleeding disorder.
+  No known chronic medical illness.
+  
+  Past Surgical History:
+  
+  No previous surgery.
+  
+  Drug History:
+  
+  Occasional use of Ibuprofen for menstrual pain with partial relief.
+  No regular medications.
+  No hormonal contraceptive use.
+  No known drug allergies.
+  
+  Family History:
+  
+  No known family history of endometriosis.
+  No family history of uterine fibroids.
+  No known family history of gynaecological malignancy.
+  
+  Social History:
+  
+  University student.
+  Lives with family.
+  Does not smoke.
+  Occasional alcohol consumption.
+  No recreational drug use.
+  Pain has affected her school attendance and social activities.
+  
+  O/E:
+  
+  Young woman, conscious and alert, not in obvious painful distress at rest, mildly pale, not jaundiced, not cyanosed, well hydrated, with no peripheral oedema and no significant peripheral lymphadenopathy.
+  
+  CVS:
+  
+  PR 84 bpm, regular.
+  BP 112/70 mmHg.
+  Heart sounds I and II present.
+  No murmurs.
+  
+  Chest:
+  
+  RR 18 cpm.
+  SpO₂ 99% in room air.
+  Normal vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  ABD:
+  
+  Flat and moves with respiration.
+  Soft.
+  Mild suprapubic tenderness.
+  No guarding.
+  No rebound tenderness.
+  A mildly tender, firm pelvic mass is palpable in the lower abdomen, approximately equivalent to a 10–12 week-sized uterus.
+  No hepatosplenomegaly.
+  No ascites.
+  
+  Pelvic Examination:
+  
+  Performed with informed consent and a chaperone present.
+  
+  External Genitalia:
+  
+  Normal.
+  No vulval lesions.
+  
+  Speculum Examination:
+  
+  Vaginal walls healthy.
+  No abnormal vaginal discharge.
+  Cervix appears healthy.
+  No obvious cervical lesion.
+  No active bleeding.
+  
+  Bimanual Examination:
+  
+  Uterus mildly enlarged and irregular in contour.
+  Mild uterine tenderness.
+  No obvious cervical motion tenderness.
+  No definite adnexal mass palpated.
+  No significant adnexal tenderness.
+  
+  Other Systemic Examination:
+  
+  CNS:
+  
+  Conscious and oriented.
+  No focal neurological deficit.
+  
+  ASS:
+  
+  Secondary dysmenorrhoea with heavy menstrual bleeding, likely due to underlying uterine pathology.
+  
+  The history of previously painless menstruation followed by progressively worsening dysmenorrhoea, increased menstrual bleeding, occasional deep dyspareunia and a mildly enlarged irregular uterus raises suspicion for uterine fibroids and/or endometriosis/adenomyosis.
+  
+  The clinical findings are not sufficient to establish the underlying cause; imaging and appropriate laboratory investigations are required.
+  
+  Differentials:
+  
+  1. Uterine fibroids (leiomyomas) — particularly given heavy menstrual bleeding and enlarged irregular uterus.
+  2. Endometriosis — particularly given progressive dysmenorrhoea and deep dyspareunia.
+  3. Adenomyosis — may cause progressive dysmenorrhoea and heavy menstrual bleeding.
+  4. Pelvic inflammatory disease.
+  5. Endometrial pathology.
+  6. Ovarian endometrioma or other adnexal pathology.
+  7. Cervical pathology.
+  8. Less likely, obstructive Müllerian tract anomaly depending on age and history.
+  
+  Investigations:
+  
+  Pelvic Ultrasound:
+  
+  Request transabdominal and/or transvaginal pelvic ultrasound, depending on sexual history and patient preference.
+  
+  Assess:
+  
+  * Uterine size and contour.
+  * Fibroids.
+  * Adenomyotic changes.
+  * Endometrial thickness.
+  * Ovaries.
+  * Adnexal masses.
+  * Endometriomas.
+  * Pelvic fluid.
+  
+  Full Blood Count:
+  
+  To assess for anaemia secondary to heavy menstrual bleeding and evidence of infection.
+  
+  Serum Ferritin:
+  
+  Assess iron stores, particularly if iron deficiency is suspected.
+  
+  Pregnancy Test:
+  
+  Urine or serum β-hCG should be performed where pregnancy is possible before certain investigations or treatments.
+  
+  Urinalysis:
+  
+  To exclude concurrent urinary tract pathology where clinically indicated.
+  
+  STI Screening:
+  
+  If clinically indicated, screen for Chlamydia, Gonorrhoea, Trichomoniasis, HIV and syphilis according to appropriate local protocols.
+  
+  Cervical Screening:
+  
+  Ensure cervical cancer screening is up to date according to age and applicable local screening recommendations.
+  
+  Thyroid Function Tests:
+  
+  Consider if there are clinical features suggestive of thyroid disease or unexplained abnormal uterine bleeding.
+  
+  MRI Pelvis:
+  
+  Consider if ultrasound is inconclusive or if there is strong suspicion of adenomyosis, deep infiltrating endometriosis or complex pelvic pathology.
+  
+  Diagnostic Laparoscopy:
+  
+  Not a routine first-line investigation.
+  
+  May be considered by Gynaecology if there is persistent significant pain despite appropriate treatment and suspicion of endometriosis remains high despite non-invasive investigations.
+  
+  PLAN:
+  
+  Analgesia:
+  
+  Tab Ibuprofen 400 mg orally every 6–8 hours as required, preferably commenced at the onset of pain or shortly before the expected onset of menstruation.
+  
+  Take with food.
+  
+  Avoid in patients with significant renal disease, active peptic ulcer disease, NSAID hypersensitivity or other contraindications.
+  
+  Alternative — Naproxen:
+  
+  Tab Naproxen 500 mg orally initially, followed by 250 mg every 6–8 hours as required, according to response and local prescribing guidance.
+  
+  Do not combine different NSAIDs.
+  
+  Paracetamol:
+  
+  Tab Paracetamol 1 g orally every 6–8 hours as required may be used for additional analgesia where appropriate.
+  
+  Do not exceed the recommended maximum daily dose.
+  
+  Management of Heavy Menstrual Bleeding:
+  
+  If there is no contraindication, consider Tab Tranexamic acid 1 g orally three times daily during heavy menstrual bleeding, generally for up to 4 days per menstrual cycle, according to clinical response and local protocol.
+  
+  Assess thromboembolic risk before prescribing.
+  
+  Hormonal Management:
+  
+  Depending on the underlying cause, fertility plans and contraindications, hormonal therapy may be considered.
+  
+  Options include:
+  
+  * Combined oral contraceptive pill.
+  * Progestogen-only therapy.
+  * Levonorgestrel-releasing intrauterine system where appropriate.
+  * Other specialist-directed hormonal suppression for endometriosis.
+  
+  Choice should be individualized after establishing the likely underlying pathology.
+  
+  Iron Replacement:
+  
+  If iron deficiency or iron-deficiency anaemia is confirmed, prescribe oral ferrous salt providing approximately 60–100 mg elemental iron once daily or on alternate days, depending on formulation, tolerance and local protocol.
+  
+  Continue treatment for an appropriate period after correction of haemoglobin to replenish iron stores.
+  
+  Management According to Underlying Cause:
+  
+  If uterine fibroids are confirmed:
+  
+  Discuss treatment according to size and location of fibroids, severity of symptoms, age, fertility wishes, degree of anaemia and patient preference.
+  
+  Options may include medical therapy, uterine artery embolization in selected patients, myomectomy or other specialist-directed treatment.
+  
+  If endometriosis is confirmed or strongly suspected:
+  
+  Consider hormonal suppression and specialist Gynaecology review.
+  
+  Surgical treatment may be considered for selected patients with persistent symptoms, significant endometriosis or infertility.
+  
+  If adenomyosis is diagnosed:
+  
+  Treatment may include NSAIDs, hormonal therapy or a levonorgestrel-releasing intrauterine system, depending on the patient's circumstances and fertility plans.
+  
+  If pelvic inflammatory disease is diagnosed:
+  
+  Treat promptly with an appropriate combination antibiotic regimen according to current local STI/PID guidelines and arrange partner management where indicated.
+  
+  Non-Pharmacological Management:
+  
+  Advise:
+  
+  * Application of local heat to the lower abdomen.
+  * Regular moderate physical activity.
+  * Adequate sleep.
+  * Adequate hydration.
+  * Stress reduction.
+  * Keeping a menstrual and symptom diary.
+  
+  Nursing/Clinic Instructions:
+  
+  Monitor pain score.
+  Monitor menstrual blood loss.
+  Monitor vital signs.
+  Administer prescribed analgesics.
+  Monitor for symptoms of anaemia.
+  Document menstrual pattern and response to treatment.
+  
+  Health Education:
+  
+  Explain that unlike primary dysmenorrhoea, secondary dysmenorrhoea is usually associated with an underlying pelvic condition, and identifying the cause is important.
+  
+  Advise the patient not to self-medicate repeatedly without evaluation.
+  
+  Encourage her to keep a menstrual diary documenting:
+  
+  * Date of menstruation.
+  * Duration.
+  * Amount of bleeding.
+  * Pain severity.
+  * Associated symptoms.
+  * Medication taken and response.
+  
+  Discuss fertility concerns and reassure her that appropriate treatment is available.
+  
+  Warning Signs Requiring Urgent Review:
+  
+  Return urgently if she develops:
+  
+  * Severe sudden-onset pelvic pain.
+  * Heavy vaginal bleeding with dizziness or fainting.
+  * Fever or rigors.
+  * Persistent vomiting.
+  * Foul-smelling vaginal discharge.
+  * Severe abdominal tenderness.
+  * Syncope.
+  * Positive pregnancy test associated with pelvic pain or bleeding.
+  
+  Follow-up:
+  
+  Review in 2–4 weeks with investigation results.
+  
+  At follow-up:
+  
+  * Review pelvic ultrasound findings.
+  * Review FBC and ferritin.
+  * Assess response to analgesia.
+  * Assess menstrual blood loss.
+  * Review impact on daily activities.
+  * Establish likely underlying cause.
+  * Initiate or modify cause-specific treatment.
+  
+  Refer to Gynaecology if there is significant structural pathology, suspected endometriosis/adenomyosis, severe refractory symptoms, significant anaemia or an adnexal mass.
+  
+  Prognosis:
+  
+  Generally good with identification and appropriate treatment of the underlying cause.
+  
+  The prognosis depends on the specific cause, severity of disease, response to treatment and fertility goals.
+  
+  Final working diagnosis: Secondary dysmenorrhoea with heavy menstrual bleeding, clinically suspicious for uterine fibroids versus endometriosis/adenomyosis, requiring pelvic imaging and further gynaecological evaluation.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
+  id: 'ob-33',
+  title: 'Primary Dysmenorrhoea',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Primary Dysmenorrhoea',
+  symptoms: ['Cyclical lower abdominal pain', 'Dysmenorrhoea', 'Nausea', 'Headache', 'Generalized weakness'],
+  contributor: 'Admin',
+  lastModified: '2026-08-11',
+  summary: '19-year-old nulligravid woman with a 2-year history of recurrent cyclical crampy lower abdominal pain occurring shortly before or at the onset of menstruation, lasting 1–2 days and occasionally interfering with school activities, with no significant features suggestive of secondary dysmenorrhoea.',
+  content: `GYNAE CLINIC
+  
+  Patient Seen
+  
+  A 19-year-old single female undergraduate from Surulere, Lagos State, Christian, Yoruba, with HLE: Undergraduate. Informant: Patient (Reliable).
+  
+  PC:
+  
+  Lower abdominal pain during menstruation × 2 years.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 2 years prior to presentation when she began experiencing recurrent lower abdominal pain occurring around the onset of her menstrual periods.
+  
+  The pain typically begins within several hours before or after the onset of menstrual flow and is most severe during the first 1–2 days of menstruation.
+  
+  It is described as crampy and colicky, mainly located in the suprapubic region, occasionally radiating to the lower back and thighs.
+  
+  The pain is rated approximately 7/10 in severity and is associated with nausea, headache and generalized weakness during some episodes.
+  
+  On occasions, the pain has been severe enough to interfere with her normal activities and attendance at school.
+  
+  The pain usually improves after the first two days of menstruation and resolves completely by the end of the menstrual period.
+  
+  She reports similar episodes with most menstrual cycles since the symptoms began.
+  
+  She obtains partial relief with simple analgesics when taken early during the onset of pain.
+  
+  No history of progressively worsening pelvic pain outside menstruation.
+  No history of chronic pelvic pain.
+  No history of dyspareunia.
+  No history of abnormal vaginal discharge.
+  No history of abnormal vaginal bleeding.
+  No history of intermenstrual bleeding.
+  No history of postcoital bleeding.
+  No history of fever or chills.
+  No history of dysuria, urinary frequency or haematuria.
+  No history of constipation, diarrhoea or rectal bleeding associated with menstruation.
+  No history of previous pelvic surgery.
+  
+  Menstrual History:
+  
+  Age at menarche: 13 years.
+  Cycle: Regular.
+  Cycle length: Approximately 28–30 days.
+  Duration of flow: 4–5 days.
+  Amount: Moderate.
+  LMP: 04/08/2026.
+  Pain: Begins shortly before or within the first few hours of menstrual flow, lasting approximately 1–2 days.
+  No intermenstrual bleeding.
+  No postcoital bleeding.
+  No passage of unusually large clots.
+  No history of progressively increasing menstrual pain.
+  
+  Review of Systems:
+  
+  Gynaecological:
+  
+  Recurrent cyclical lower abdominal cramps.
+  No abnormal vaginal discharge.
+  No vaginal itching.
+  No abnormal vaginal bleeding.
+  No dyspareunia.
+  No chronic pelvic pain.
+  
+  Gastrointestinal:
+  
+  Occasional nausea during painful episodes.
+  No persistent vomiting.
+  No diarrhoea.
+  No constipation.
+  No rectal bleeding.
+  
+  Urinary:
+  
+  No dysuria.
+  No frequency.
+  No urgency.
+  No haematuria.
+  
+  General:
+  
+  No fever.
+  No weight loss.
+  No night sweats.
+  No generalized weakness outside menstrual periods.
+  
+  Sexual History:
+  
+  Not currently sexually active.
+  No previous history suggestive of sexually transmitted infection.
+  No history of sexual trauma.
+  
+  Past Medical History:
+  
+  No known chronic medical illness.
+  No known hypertension.
+  No diabetes mellitus.
+  No sickle cell disease.
+  No known bleeding disorder.
+  No previous pelvic inflammatory disease.
+  
+  Past Surgical History:
+  
+  No previous surgery.
+  
+  Drug History:
+  
+  Occasional use of paracetamol for menstrual pain.
+  No regular prescription medications.
+  No hormonal contraceptive use.
+  No known drug allergies.
+  
+  Obstetric History:
+  
+  Nulligravida.
+  No previous pregnancy.
+  
+  Family History:
+  
+  No family history of endometriosis.
+  No family history of significant menstrual disorders.
+  No known family history of gynaecological malignancy.
+  
+  Social History:
+  
+  Undergraduate.
+  Lives with her parents.
+  Does not smoke.
+  Does not consume alcohol.
+  No recreational drug use.
+  Reports that menstrual pain occasionally interferes with lectures and academic activities.
+  
+  O/E:
+  
+  Young woman, conscious and alert, not in obvious painful distress at the time of examination, not pale, not jaundiced, not cyanosed, well hydrated, with no peripheral oedema and no significant peripheral lymphadenopathy.
+  
+  CVS:
+  
+  PR 78 bpm, regular.
+  BP 108/68 mmHg.
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Chest:
+  
+  RR 17 cpm.
+  SpO₂ 99% in room air.
+  Normal vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  ABD:
+  
+  Flat and moves with respiration.
+  Soft.
+  Mild suprapubic tenderness.
+  No guarding.
+  No rebound tenderness.
+  No palpable abdominal mass.
+  No hepatosplenomegaly.
+  No ascites.
+  
+  Pelvic Examination:
+  
+  Pelvic examination may not be routinely required in a young patient with a typical history of primary dysmenorrhoea, particularly if she is not sexually active.
+  
+  If clinically indicated and with appropriate consent/chaperone:
+  
+  External genitalia normal.
+  No vulval lesions.
+  No abnormal vaginal discharge.
+  Cervix appears healthy.
+  No cervical motion tenderness.
+  Uterus normal-sized and non-tender.
+  No adnexal tenderness or palpable adnexal mass.
+  
+  Other Systemic Examination:
+  
+  CNS:
+  
+  Conscious and oriented.
+  No focal neurological deficit.
+  
+  ASS:
+  
+  Primary dysmenorrhoea in a 19-year-old nulligravid woman.
+  
+  The clinical pattern of recurrent, crampy lower abdominal pain beginning shortly before or at the onset of menstruation, lasting approximately 1–2 days and occurring in the absence of symptoms suggestive of pelvic pathology is consistent with primary dysmenorrhoea.
+  
+  There are currently no significant features suggesting secondary dysmenorrhoea.
+  
+  Differentials:
+  
+  1. Primary dysmenorrhoea.
+  2. Endometriosis.
+  3. Adenomyosis — less likely at this age.
+  4. Uterine fibroids — less likely given age and clinical history.
+  5. Pelvic inflammatory disease.
+  6. Ovarian pathology.
+  7. Pregnancy-related pain in a sexually active patient.
+  
+  Investigations:
+  
+  Primary dysmenorrhoea is principally a clinical diagnosis, and extensive investigation is not routinely required when the history is typical and examination is normal.
+  
+  Pregnancy Test:
+  
+  Urine or serum β-hCG if there is any possibility of pregnancy.
+  
+  Full Blood Count:
+  
+  Consider if menstrual bleeding is heavy or there are symptoms/signs of anaemia.
+  
+  Pelvic Ultrasound:
+  
+  Not routinely required for typical primary dysmenorrhoea.
+  
+  Consider if:
+  
+  * Pain is atypical.
+  * Symptoms progressively worsen.
+  * There is abnormal uterine bleeding.
+  * There is a pelvic mass.
+  * There is significant pelvic tenderness.
+  * Symptoms fail to respond to appropriate treatment.
+  * Secondary dysmenorrhoea is suspected.
+  
+  STI Screening:
+  
+  Consider if sexually active and clinically indicated.
+  
+  PLAN:
+  
+  Patient Education and Reassurance:
+  
+  Explain that primary dysmenorrhoea is common among adolescents and young women and is usually caused by increased prostaglandin-mediated uterine contractions during menstruation.
+  
+  Reassure the patient that the condition is treatable and does not generally indicate underlying reproductive tract disease.
+  
+  NSAID Therapy:
+  
+  NSAIDs are first-line pharmacological treatment.
+  
+  Option 1 — Ibuprofen:
+  
+  Tab Ibuprofen 400 mg orally every 6–8 hours as required during painful episodes, preferably commenced at the onset of symptoms or, if cycles are predictable, shortly before the expected onset of menstruation.
+  
+  Take with food.
+  
+  Avoid if there is a history of significant peptic ulcer disease, NSAID hypersensitivity, significant renal disease or another contraindication.
+  
+  Option 2 — Naproxen:
+  
+  Tab Naproxen 500 mg orally initially, followed by 250 mg every 6–8 hours as required, according to clinical response and local prescribing guidance.
+  
+  Do not combine multiple NSAIDs.
+  
+  Paracetamol:
+  
+  If NSAIDs are contraindicated or inadequate:
+  
+  Tab Paracetamol 1 g orally every 6–8 hours as required.
+  
+  Do not exceed the recommended maximum daily dose.
+  
+  Hormonal Therapy:
+  
+  If symptoms remain troublesome despite adequate NSAID therapy, hormonal suppression may be considered.
+  
+  Combined oral contraceptive pills may reduce menstrual flow and dysmenorrhoea.
+  
+  An appropriate combined oral contraceptive regimen may be selected after assessment for contraindications to oestrogen-containing contraception.
+  
+  Progestogen-only options may also be considered.
+  
+  Non-Pharmacological Measures:
+  
+  Advise:
+  
+  * Application of a warm heating pad or hot-water bottle to the lower abdomen.
+  * Regular physical activity.
+  * Adequate sleep.
+  * Maintaining good hydration.
+  * Relaxation techniques.
+  * Avoidance of prolonged inactivity during symptomatic periods.
+  
+  Psychosocial Support:
+  
+  Assess the effect of dysmenorrhoea on:
+  
+  * School attendance.
+  * Academic performance.
+  * Social activities.
+  * Mood.
+  * Sleep.
+  
+  Provide supportive counselling where symptoms significantly interfere with daily activities.
+  
+  Nursing/Clinic Instructions:
+  
+  Record pain severity using a pain score.
+  Administer prescribed analgesia.
+  Monitor response to treatment.
+  Educate patient on correct NSAID use.
+  Document menstrual pattern and response to treatment at subsequent visits.
+  
+  Health Education:
+  
+  Explain the importance of taking NSAIDs early during the menstrual pain episode for maximum benefit.
+  
+  Advise the patient not to combine different NSAIDs.
+  
+  Encourage keeping a menstrual and symptom diary documenting:
+  
+  * Date of menstruation.
+  * Duration of flow.
+  * Pain severity.
+  * Medication taken.
+  * Response to treatment.
+  * Associated symptoms.
+  
+  Advise her to return for review if the pattern of pain changes.
+  
+  Features Suggesting Secondary Dysmenorrhoea:
+  
+  Advise the patient to seek reassessment if she develops:
+  
+  * Pain progressively worsening over time.
+  * Pain occurring outside menstruation.
+  * New-onset dysmenorrhoea after years of previously painless periods.
+  * Deep dyspareunia.
+  * Infertility.
+  * Abnormal uterine bleeding.
+  * Persistent pelvic pain.
+  * Abnormal vaginal discharge.
+  * Fever.
+  * Pelvic mass.
+  * Poor response to appropriate NSAID therapy.
+  
+  These features may suggest conditions such as endometriosis, adenomyosis, fibroids or pelvic inflammatory disease.
+  
+  Follow-up:
+  
+  Review after 2–3 menstrual cycles to assess:
+  
+  * Pain severity.
+  * Frequency of analgesic use.
+  * Effect on school and daily activities.
+  * Response to NSAIDs.
+  * Development of any features suggestive of secondary dysmenorrhoea.
+  
+  If symptoms remain severe despite appropriate first-line therapy, consider pelvic ultrasound and Gynaecology review.
+  
+  Prognosis:
+  
+  Good.
+  
+  Primary dysmenorrhoea usually improves with appropriate pharmacological and non-pharmacological treatment and may become less troublesome with age.
+  
+  Final working diagnosis: Primary dysmenorrhoea in a 19-year-old nulligravid woman, with cyclical lower abdominal cramping beginning around the onset of menstruation and no current clinical features suggestive of secondary pelvic pathology.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
   id: 'ob-32',
   title: 'Rhesus (RhD) Isoimmunization in Pregnancy',
   specialty: 'Obstetrics and Gynecology',
@@ -41168,6 +52214,875 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-38',
+  title: 'Infected Ingrowing Toenail of the Right Hallux',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Ingrowing Toenail (Onychocryptosis)',
+  symptoms: [
+    'Right great toe pain',
+    'Swelling of the lateral nail fold',
+    'Purulent discharge',
+    'Redness and warmth',
+    'Difficulty walking and wearing closed shoes'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-15',
+  summary: '24-year-old male university student presenting with a three-week history of painful swelling and purulent discharge from the lateral nail fold of the right great toe following repeated aggressive nail trimming and use of tight-fitting footwear, consistent with infected ingrowing toenail.',
+  content: `GENERAL SURGERY
+
+Patient Seen
+
+A 24-year-old single male university student, Yoruba, Christian, from Akure, Ondo State, presented with a reliable history.
+
+PC:
+Pain, swelling and discharge from the right big toe × 3 weeks.
+
+HPC:
+He was apparently well until about 3 weeks prior to presentation when he developed progressive pain and swelling involving the lateral aspect of the right great toe.
+
+The pain started gradually and is sharp and throbbing in nature. It has progressively worsened and now makes walking and wearing closed shoes extremely difficult.
+
+About 2 weeks prior to presentation, he noticed associated swelling and redness of the lateral nail fold.
+
+There has been purulent, non-foul-smelling discharge from the affected nail fold for the preceding 5 days.
+
+He admits to frequently performing "bathroom surgery", involving aggressive trimming of the lateral edges of his toenails, and regularly wears tight-fitting sneakers.
+
+There is no history of trauma to the foot, fever, chills or similar lesions involving other toes.
+
+No history of chronic ulcers or delayed wound healing.
+
+REVIEW OF SYSTEMS:
+
+General:
+No fever.
+No weight loss.
+No night sweats.
+
+CVS:
+No chest pain.
+No orthopnoea.
+No paroxysmal nocturnal dyspnoea.
+
+Respiratory:
+No cough.
+No dyspnoea.
+
+Gastrointestinal:
+No abdominal pain.
+No change in bowel habits.
+
+CNS:
+No headache.
+No loss of consciousness.
+
+Musculoskeletal:
+Pain and swelling localized to the right great toe.
+No other joint pain or swelling.
+
+Past Medical History:
+No known diabetes mellitus, hypertension or asthma.
+
+No previous surgical interventions.
+
+Genotype: AA.
+
+No history of blood transfusion.
+
+Drug History:
+Self-medicated with Tab Paracetamol 1 g three times daily and topical Ampiclox cream for 1 week without significant relief.
+
+No known drug allergies.
+
+Family History:
+No family history of diabetes mellitus or peripheral vascular disease.
+
+Social History:
+University student.
+
+Lives in a university hostel with shared facilities.
+
+Non-smoker.
+Does not consume alcohol.
+
+O/E:
+
+Young man, comfortable and not acutely ill-looking.
+
+Afebrile.
+Clinically well hydrated.
+Not pale.
+Anicteric.
+No peripheral lymphadenopathy.
+No bilateral pedal oedema.
+
+Vital Signs:
+Temperature: 36.6°C
+PR: 76 bpm, regular, normal volume
+BP: 115/75 mmHg
+RR: 14 cpm
+SpO₂: 99% on room air
+
+CVS:
+S1 and S2 heard.
+No murmurs.
+
+Respiratory:
+Chest clear.
+Vesicular breath sounds bilaterally.
+
+Abdomen:
+Soft.
+Non-tender.
+No organomegaly.
+
+CNS:
+Alert and oriented to time, place and person.
+GCS: 15/15.
+
+LOCAL EXAMINATION – RIGHT HALLUX:
+
+Inspection:
+Erythema, marked oedema and hypergranulation tissue involving the lateral nail fold of the right great toe.
+
+The lateral edge of the nail plate is visibly embedded into the lateral nail fold.
+
+Active purulent discharge noted on mild manipulation.
+
+Palpation:
+Exquisite localized tenderness and warmth over the lateral nail fold.
+
+No fluctuant abscess involving the pulp space.
+
+Vascular/Neurological:
+Dorsalis pedis and posterior tibial pulses strong and equal bilaterally.
+
+Capillary refill time <2 seconds.
+
+Sensation to light touch and pain intact over the entire foot.
+
+ASSESSMENT:
+Ingrowing toenail (onychocryptosis) of the right hallux with secondary bacterial infection, consistent with Heifetz Stage 2/3.
+
+DIFFERENTIAL DIAGNOSES:
+1. Acute paronychia of the right hallux.
+2. Foreign body granuloma.
+3. Herpetic whitlow (atypical presentation).
+
+INVESTIGATIONS:
+
+1. Random Blood Sugar:
+To screen for underlying diabetes mellitus.
+
+2. Wound Swab for Microscopy, Culture and Sensitivity:
+Consider if infection fails to respond to empirical antibiotic therapy or if there is significant/recurrent discharge.
+
+PLAN:
+
+1. Conservative/Medical Management:
+
+Warm saline foot soaks:
+Soak the affected foot in warm saline for 15–20 minutes three times daily.
+
+2. Antibiotic Therapy:
+
+Cap Co-amoxiclav 625 mg orally twice daily for 7 days.
+
+OR, according to local availability and antimicrobial guidelines:
+
+Cap Ampiclox 500 mg orally four times daily for 7 days.
+
+3. Analgesia:
+
+Tab Ibuprofen 400 mg orally three times daily for 3 days after meals, if no contraindication.
+
+PLUS
+
+Tab Paracetamol 1 g orally three times daily for 3 days as required.
+
+4. Tetanus Prophylaxis:
+
+Inj Tetanus Toxoid 0.5 mL IM stat if immunization history is unknown or incomplete, according to current tetanus prophylaxis guidance.
+
+5. Definitive Surgical Management:
+
+Schedule for partial nail avulsion with removal of the offending lateral nail edge.
+
+Consider wedge excision of the hypertrophied lateral nail fold where indicated.
+
+Procedure to be performed under local anaesthesia using a digital nerve block with plain lignocaine.
+
+6. Patient Education:
+
+Advise proper toenail trimming:
+- Cut nails straight across.
+- Avoid rounding or digging into the corners.
+- Avoid aggressive "bathroom surgery."
+
+Advise use of wide-toed, comfortable footwear and avoidance of tight-fitting shoes.
+
+Counsel on proper postoperative wound care and adherence to prescribed medications.
+
+HEALTH EDUCATION:
+
+Patient was counselled that ingrowing toenail occurs when the nail edge penetrates the surrounding nail fold, commonly due to improper nail trimming and tight footwear.
+
+He was advised to avoid cutting deeply into the lateral nail edges and to allow the nail to grow straight across.
+
+The importance of keeping the affected toe clean and following postoperative wound-care instructions was emphasized.
+
+He was advised to return if there is increasing pain, spreading redness, fever, worsening discharge or difficulty walking.
+
+FOLLOW-UP:
+
+Review for assessment of response to treatment and preparation for definitive partial nail avulsion.
+
+Post-procedure wound review as scheduled.
+
+Prognosis:
+Excellent with appropriate treatment and correction of precipitating factors. Recurrence is possible if improper nail trimming and tight-fitting footwear are continued.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-37',
+  title: 'L5 Lumbar Radiculopathy',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics',
+  condition: 'Lumbar Disc Herniation',
+  symptoms: ['Low back pain', 'Left lower limb pain', 'Left lower limb numbness', 'L5 radicular pain', 'Left EHL weakness'],
+  contributor: 'Admin',
+  lastModified: '2026-08-13',
+  summary: '45-year-old male civil servant with 6 months of progressive low back pain and 3 months of left L5 radicular pain, numbness and mild EHL weakness, clinically suggestive of L4/L5 lumbar disc herniation with L5 radiculopathy.',
+  content: `ORTHOPAEDIC CLINIC
+  
+  Patient Seen
+  
+  A 45-year-old married male civil servant from Ibadan, Oyo State, Christian, Yoruba, with HLE: Civil servant. Informant: Patient (Reliable).
+  
+  PC:
+  
+  Low back pain × 6 months.
+  Left lower limb pain and numbness × 3 months.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 6 months prior to presentation when he developed insidious-onset low back pain which has been progressive and aching in character.
+  
+  The pain is aggravated by bending forward, lifting heavy objects and prolonged sitting at his desk. It is partially relieved by lying supine on a firm surface.
+  
+  Over the last 3 months, the pain has begun to radiate down the posterolateral aspect of the left thigh and calf, extending to the dorsum of the left foot in an L5 dermatomal distribution.
+  
+  The radiation is associated with numbness and a pins-and-needles sensation along the same pathway.
+  
+  No history of urinary or faecal incontinence.
+  No history of urinary retention.
+  No history of saddle anaesthesia.
+  No history of trauma.
+  No history of fever.
+  No history of night sweats.
+  No history of unexplained weight loss.
+  No history of cough.
+  
+  The patient has been self-medicating with OTC oral Ibuprofen and Diclofenac tablets with only transient, minimal relief.
+  
+  Past Medical History:
+  
+  No known hypertension.
+  No known diabetes mellitus.
+  No known sickle cell disease.
+  No known chronic medical illness.
+  No previous spine surgery.
+  No history of major trauma.
+  
+  Drug History:
+  
+  Self-medicated with Tab Diclofenac 50 mg bd and Tab Paracetamol 1 g tds intermittently × 3 months.
+  No known drug allergies.
+  
+  Family History:
+  
+  No known relevant family history.
+  
+  Social History:
+  
+  Married with 3 children.
+  Civil servant whose job involves prolonged sitting for approximately 6–8 hours daily.
+  Non-smoker.
+  Occasional social alcohol consumption.
+  
+  Review of Systems:
+  
+  CNS:
+  
+  As detailed in HPC.
+  No headache.
+  No upper limb weakness.
+  
+  CVS:
+  
+  No chest pain.
+  No orthopnoea.
+  No paroxysmal nocturnal dyspnoea.
+  
+  RS:
+  
+  No cough.
+  No dyspnoea.
+  
+  GIT:
+  
+  No abdominal pain.
+  Normal bowel habits.
+  
+  MSS:
+  
+  As detailed in HPC.
+  
+  O/E:
+  
+  Conscious, alert, in painful distress, not pale, anicteric, well hydrated, afebrile at 36.6°C, with no peripheral lymphadenopathy and no pedal oedema.
+  
+  CVS:
+  
+  PR 78 bpm, regular, normal volume.
+  BP 120/80 mmHg.
+  S1 and S2 heard.
+  No murmurs.
+  
+  Chest:
+  
+  RR 16 cpm.
+  SpO₂ 98% in room air.
+  Lungs clear.
+  Vesicular breath sounds bilaterally.
+  
+  ABD:
+  
+  Flat.
+  Soft.
+  Non-tender.
+  No organomegaly.
+  
+  CNS/MSS:
+  
+  Spine and Lower Limbs:
+  
+  Inspection:
+  
+  Normal lumbar lordosis preserved.
+  No scoliosis.
+  No kyphosis.
+  No overlying skin changes.
+  Antalgic gait favouring the right lower limb.
+  
+  Palpation:
+  
+  Tenderness over the L4/L5 spinous processes and left paraspinal muscles.
+  No palpable step-off.
+  
+  Range of Motion:
+  
+  Lumbar flexion restricted and painful.
+  Extension mildly restricted.
+  
+  Special Tests:
+  
+  SLR positive on the left at 40°, reproducing radicular pain to the foot.
+  SLR negative on the right at 80°.
+  Lasegue's sign positive on the left.
+  
+  Neurological Examination of Lower Limbs:
+  
+  Tone normal bilaterally.
+  Left EHL 4/5.
+  Power in all other muscle groups L2–S1 5/5 bilaterally.
+  Knee jerk L3/L4 2+ bilaterally.
+  Ankle jerk S1 2+ bilaterally.
+  Plantar response flexor bilaterally.
+  Sensation reduced to fine touch and pinprick over the left lateral calf and dorsum of the foot in the L5 dermatome.
+  Perianal sensation intact.
+  
+  ASS:
+  
+  L5 lumbar radiculopathy secondary to suspected L4/L5 lumbar disc herniation with mild motor deficit.
+  
+  There are no current clinical features of cauda equina syndrome, spinal infection or malignancy.
+  
+  Differentials:
+  
+  1. Lumbar spondylosis with canal stenosis.
+  2. Spondylolisthesis at L4/L5.
+  3. Pott's disease (tuberculous spondylitis) — less likely in the absence of constitutional symptoms.
+  
+  Investigations:
+  
+  Lumbosacral Spine X-ray:
+  
+  AP and lateral views to assess for disc space narrowing, osteophytes, spondylolisthesis, fractures or lytic bone lesions.
+  
+  FBC, ESR and CRP:
+  
+  To assess for anaemia, infection or inflammatory pathology including Pott's disease.
+  
+  Urinalysis:
+  
+  To exclude urinary tract pathology or referred renal pain where clinically indicated.
+  
+  Lumbosacral Spine MRI:
+  
+  Recommended if conservative management fails after approximately 6 weeks, or earlier if neurological deficits progress, to assess for disc herniation, nerve root compression, spinal canal pathology and other structural abnormalities.
+  
+  PLAN:
+  
+  Pharmacotherapy:
+  
+  Tab Naproxen 500 mg bd × 2 weeks.
+  Tab Omeprazole 20 mg daily × 2 weeks.
+  Tab Amitriptyline 25 mg nocte × 2 weeks.
+  Tab Diazepam 5 mg nocte × 5 days for severe paraspinal muscle spasm.
+  
+  Avoid concurrent use of multiple NSAIDs.
+  
+  Non-Pharmacological and Supportive Care:
+  
+  Refer to Physiotherapy for pelvic tilts, core strengthening exercises and lumbar traction once acute pain subsides.
+  
+  Activity modification:
+  
+  * Avoid heavy lifting.
+  * Avoid repeated bending at the waist.
+  * Avoid prolonged sitting.
+  * Use an ergonomic chair with adequate lumbar support.
+  * Take regular breaks from prolonged sitting.
+  * Sleep on a firm mattress.
+  
+  Patient Education:
+  
+  Explain the likely cause of the radicular symptoms and the importance of adherence to treatment.
+  
+  Advise the patient to avoid self-medicating with multiple NSAIDs.
+  
+  Red Flags:
+  
+  Counsel the patient to seek immediate emergency care if he develops:
+  
+  * New urinary or faecal incontinence.
+  * Urinary retention.
+  * Numbness in the groin or saddle area.
+  * Progressive weakness of either lower limb.
+  * New foot drop.
+  * Severe bilateral lower limb symptoms.
+  
+  Follow-up:
+  
+  Review in 2 weeks to assess pain control and neurological status.
+  
+  If symptoms fail to improve after 6–12 weeks of appropriate conservative management, refer to Orthopaedic Surgery or Neurosurgery.
+  
+  Earlier referral is indicated if there is progression of neurological deficit, significant motor weakness or development of cauda equina syndrome.
+  
+  Clinical Rationale:
+  
+  The chronic low back pain with radiation down the posterolateral left lower limb to the dorsum of the foot, associated sensory loss in the L5 dermatome and weakness of great toe extension strongly suggests L5 radiculopathy, most likely secondary to an L4/L5 lumbar disc herniation.
+  
+  Red flags for cauda equina syndrome were assessed by documenting the absence of saddle anaesthesia and sphincter dysfunction.
+  
+  The absence of fever, night sweats, weight loss and other constitutional symptoms makes spinal infection or malignancy less likely.
+  
+  Lumbosacral X-ray is useful for assessing gross bony pathology including spondylolisthesis, degenerative changes and lytic lesions.
+  
+  MRI provides definitive assessment of disc pathology and nerve root compression and is particularly indicated if symptoms persist despite conservative treatment or neurological deficits progress.
+  
+  Final working diagnosis: L5 lumbar radiculopathy secondary to suspected L4/L5 lumbar disc herniation with mild motor deficit.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
+  id: 'surg-36',
+  title: 'Right Ureteric Colic',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Urolithiasis',
+  symptoms: ['Severe right loin pain', 'Nausea and vomiting', 'Haematuria', 'Increased urinary frequency', 'Right renal angle tenderness'],
+  contributor: 'Admin',
+  lastModified: '2026-08-11',
+  summary: '36-year-old man with acute severe right-sided colicky loin pain radiating to the groin and scrotum, associated with haematuria, nausea and vomiting, clinically suspicious for right ureteric calculus without current features of urinary sepsis or complete obstruction.',
+  content: `SURGERY CLINIC
+  
+  Patient Seen
+  
+  A 36-year-old married male accountant from Ikeja, Lagos State, Christian, Yoruba, with HLE: Accountant. Informant: Patient (Reliable).
+  
+  PC:
+  
+  Severe right-sided loin pain × 8 hours.
+  Nausea and vomiting × 6 hours.
+  
+  HPC:
+  
+  The patient was apparently well until approximately 8 hours prior to presentation when he developed sudden-onset severe pain in the right loin.
+  
+  The pain is colicky in nature, severe and occurs in waves. It radiates from the right loin towards the right lower abdomen, groin and scrotum.
+  
+  The pain is associated with restlessness, nausea and 2 episodes of vomiting.
+  
+  He reports increased urinary frequency since the onset of the pain but denies significant dysuria.
+  
+  He noticed a small amount of blood in his urine earlier today.
+  
+  No history of fever, chills or rigors.
+  No history of inability to pass urine.
+  No history of urethral discharge.
+  No history of recent urinary tract instrumentation.
+  No previous passage of a stone in the urine.
+  No history of recurrent urinary tract infections.
+  No previous history of renal or ureteric stones.
+  
+  He reports inadequate fluid intake during the day and frequently works for several hours without drinking water.
+  
+  Characterization of Pain:
+  
+  Site: Right loin.
+  Onset: Sudden.
+  Character: Colicky.
+  Severity: 9/10.
+  Radiation: Right lower abdomen, groin and scrotum.
+  Aggravating factors: No specific positional factor; patient is unable to keep still during painful episodes.
+  Relieving factors: None significant.
+  Associated symptoms: Nausea, vomiting and haematuria.
+  
+  Review of Systems:
+  
+  Urinary:
+  
+  Right loin pain.
+  Microscopic/gross haematuria.
+  Increased urinary frequency.
+  No significant dysuria.
+  No urgency.
+  No urinary retention.
+  No anuria.
+  No urethral discharge.
+  
+  Gastrointestinal:
+  
+  Nausea.
+  2 episodes of vomiting.
+  No diarrhoea.
+  No constipation.
+  No abdominal distension.
+  
+  General:
+  
+  No fever.
+  No chills.
+  No rigors.
+  No significant weight loss.
+  
+  Past Medical History:
+  
+  No known hypertension.
+  No known diabetes mellitus.
+  No chronic kidney disease.
+  No previous renal stones.
+  No recurrent urinary tract infection.
+  No known gout.
+  No known hyperparathyroidism.
+  
+  Past Surgical History:
+  
+  No previous urological surgery.
+  No previous urinary tract instrumentation.
+  
+  Drug History:
+  
+  Not on regular medication.
+  No recent diuretic use.
+  No known drug allergies.
+  
+  Family History:
+  
+  No known family history of recurrent renal stones.
+  No known family history of metabolic stone disease.
+  
+  Social History:
+  
+  Accountant.
+  Reports prolonged periods of inadequate water intake while at work.
+  No cigarette smoking.
+  Occasional alcohol consumption.
+  No recreational drug use.
+  
+  O/E:
+  
+  Young-to-middle-aged man, conscious and alert, restless and visibly uncomfortable during painful episodes, not pale, not jaundiced, not cyanosed, mildly dehydrated, with no peripheral oedema.
+  
+  CVS:
+  
+  PR 94 bpm, regular.
+  BP 138/84 mmHg.
+  Heart sounds I and II normal.
+  No murmurs.
+  
+  Chest:
+  
+  RR 20 cpm.
+  SpO₂ 99% in room air.
+  Normal vesicular breath sounds bilaterally.
+  No added sounds.
+  
+  ABD:
+  
+  Abdomen moves with respiration.
+  Soft.
+  Right loin and right flank tenderness present.
+  No guarding.
+  No rebound tenderness.
+  No palpable abdominal mass.
+  No hepatosplenomegaly.
+  No ascites.
+  
+  Renal Examination:
+  
+  Right renal angle tenderness present.
+  Left renal angle non-tender.
+  No palpable ballotable kidney.
+  No renal bruit.
+  
+  Genitourinary Examination:
+  
+  External genitalia normal.
+  Both testes descended.
+  No testicular tenderness or swelling.
+  No epididymal tenderness.
+  No urethral discharge.
+  
+  Other Systemic Examination:
+  
+  CNS:
+  
+  Conscious and oriented.
+  No focal neurological deficit.
+  
+  ASS:
+  
+  Acute right renal/ureteric colic, clinically suspicious for right-sided urolithiasis.
+  
+  The acute severe colicky loin pain radiating to the groin, associated haematuria, nausea and vomiting are highly suggestive of ureteric calculus.
+  
+  The patient is currently afebrile and haemodynamically stable, with no clinical evidence of infected obstructed urinary tract or complete urinary obstruction.
+  
+  Differentials:
+  
+  1. Right ureteric calculus/urolithiasis.
+  2. Acute pyelonephritis.
+  3. Urinary tract infection.
+  4. Renal papillary necrosis.
+  5. Musculoskeletal loin pain.
+  6. Acute appendicitis, particularly with distal ureteric/right lower abdominal pain.
+  7. Testicular torsion or epididymo-orchitis.
+  8. Renal infarction.
+  9. Abdominal aortic pathology in an appropriate age/risk group.
+  
+  Investigations:
+  
+  Urinalysis:
+  
+  Check for:
+  
+  * Blood.
+  * Protein.
+  * Leukocytes.
+  * Nitrites.
+  * Crystals.
+  * Specific gravity.
+  
+  Urine MCS:
+  
+  Send urine for microscopy, culture and sensitivity, particularly if there is pyuria, nitrites, fever or other suspicion of urinary tract infection.
+  
+  Full Blood Count:
+  
+  Assess for leukocytosis and anaemia.
+  
+  Serum Electrolytes, Urea and Creatinine:
+  
+  Assess renal function and electrolyte abnormalities, particularly if there is obstruction, vomiting, dehydration, solitary kidney or bilateral obstruction.
+  
+  Serum Calcium:
+  
+  Consider as part of metabolic assessment, particularly in recurrent stone disease.
+  
+  Uric Acid:
+  
+  Consider where uric acid stone disease or gout is suspected.
+  
+  Renal Tract Ultrasound:
+  
+  Assess for hydronephrosis, renal calculi, bladder abnormalities, renal size and gross urinary tract obstruction.
+  
+  Non-Contrast CT KUB:
+  
+  Where available and clinically appropriate, non-contrast CT KUB is useful for confirming the diagnosis and determining stone size, stone location, degree of obstruction, associated hydronephrosis and alternative causes of pain.
+  
+  Stone Analysis:
+  
+  If the patient passes the stone, retrieve it for analysis where available.
+  
+  PLAN:
+  
+  Analgesia:
+  
+  If there is no contraindication:
+  
+  Tab Diclofenac 50 mg orally three times daily as required, or an appropriate parenteral NSAID for severe acute pain according to local protocol.
+  
+  Alternatively:
+  
+  Tab Ketorolac 10 mg orally every 4–6 hours as required, with appropriate duration and renal/GI precautions.
+  
+  Avoid NSAIDs in significant renal impairment, active peptic ulcer disease, NSAID hypersensitivity or other contraindications.
+  
+  Rescue Analgesia:
+  
+  For severe pain not adequately controlled with NSAIDs, an opioid analgesic may be considered according to local protocol and monitoring requirements.
+  
+  Antiemetic:
+  
+  Inj/Tab Ondansetron 4 mg orally/IV as required, or another appropriate antiemetic according to clinical status.
+  
+  Hydration:
+  
+  Correct dehydration appropriately with oral fluids if tolerated or IV fluids if unable to maintain oral intake.
+  
+  Avoid excessive forced fluid administration during acute obstructive colic, as this may worsen pain without accelerating stone passage.
+  
+  Once vomiting settles, encourage adequate oral hydration to maintain good urine output.
+  
+  Medical Expulsive Therapy:
+  
+  If imaging confirms an appropriate distal ureteric stone, particularly a small stone likely to pass spontaneously, an alpha-blocker may be considered after assessment.
+  
+  Tab Tamsulosin 0.4 mg orally once daily, particularly for selected distal ureteric stones.
+  
+  Use should be individualized according to stone size/location, local protocol and contraindications.
+  
+  Antibiotics:
+  
+  Do not give antibiotics routinely for uncomplicated urolithiasis.
+  
+  Antibiotics are indicated if there is evidence of concurrent urinary tract infection.
+  
+  If there is infection associated with urinary tract obstruction, this is a urological emergency requiring urgent decompression in addition to appropriate IV antibiotics.
+  
+  Urological Intervention:
+  
+  Urgent Urology referral is required if there is:
+  
+  * Infected obstructed kidney.
+  * Sepsis.
+  * Persistent uncontrolled pain.
+  * Persistent vomiting/dehydration.
+  * Acute kidney injury.
+  * Anuria.
+  * Bilateral obstruction.
+  * Obstruction in a solitary functioning kidney.
+  * Stone unlikely to pass spontaneously.
+  * Significant or persistent obstruction.
+  
+  Possible interventions include:
+  
+  * Ureteric stenting.
+  * Percutaneous nephrostomy.
+  * Ureteroscopy with stone extraction/laser lithotripsy.
+  * Extracorporeal shock-wave lithotripsy where appropriate.
+  * Other specialist-directed stone procedures.
+  
+  Health Education:
+  
+  Explain that urinary stones may form from crystallization of substances present in urine.
+  
+  Advise the patient to:
+  
+  * Maintain adequate daily fluid intake.
+  * Avoid prolonged periods without drinking water.
+  * Reduce excessive dietary salt intake.
+  * Avoid unnecessary high intake of animal protein.
+  * Maintain a balanced diet.
+  * Retrieve any passed stone for analysis.
+  * Attend follow-up for metabolic evaluation if a stone is confirmed.
+  
+  Dietary recommendations should be individualized according to the stone composition where known.
+  
+  Warning Signs Requiring Immediate Review:
+  
+  The patient should seek urgent medical attention if he develops:
+  
+  * Fever or rigors.
+  * Severe persistent or worsening loin pain.
+  * Reduced or absent urine output.
+  * Persistent vomiting.
+  * Fainting or severe weakness.
+  * Increasing abdominal pain.
+  * Confusion.
+  * Difficulty passing urine.
+  
+  Fever with an obstructed urinary system is particularly concerning for an infected obstructed kidney and requires urgent urological assessment.
+  
+  Follow-up:
+  
+  Review within 24–72 hours, or earlier depending on symptoms and investigation results.
+  
+  Review:
+  
+  * Urinalysis/MCS.
+  * Renal function.
+  * Imaging findings.
+  * Stone size and location.
+  * Pain control.
+  * Urine output.
+  * Evidence of infection.
+  
+  If a small stone is being managed conservatively, arrange follow-up imaging as appropriate to confirm passage/resolution of obstruction.
+  
+  Refer to Urology for stones that are large, persistently obstructing, recurrent, complicated or unlikely to pass spontaneously.
+  
+  Prognosis:
+  
+  Generally good for a small uncomplicated ureteric calculus in a patient with preserved renal function and no infection, as many small stones pass spontaneously.
+  
+  Prognosis depends on stone size, location, degree of obstruction, renal function and presence or absence of infection.
+  
+  Final working diagnosis: Acute right ureteric colic secondary to suspected right ureteric calculus (urolithiasis), currently without clinical features of urinary sepsis or complete urinary obstruction.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  
+  Not yet available
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
 {
   id: 'surg-35',
   title: 'Spontaneously Ruptured Right Gluteal Skin Abscess',

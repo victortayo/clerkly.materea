@@ -16,7 +16,383 @@ export interface LearningModule {
 }
 
 export const clerklyLearnLibrary: LearningModule[] = [
-// HISTORY TAKING
+// HISTORY 
+{
+  id: 'history-taking-pediatrics',
+  title: 'History Taking in Pediatrics',
+  category: 'History Taking',
+  subCategory: 'Pediatrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>History Taking in Pediatrics</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">History Taking in Pediatrics</h1>
+  <p class="text-sm text-indigo-200">A paediatric history depends on someone other than the patient for most of childhood, and carries several sections an adult history doesn't need at all - the pregnancy and delivery that produced this child, how they've been fed, whether they're developing on schedule, and what's actually been injected into them so far. This guide walks through the full structure, biodata to summary, with the reasoning behind each section.</p>
+</div>
+</div>
+
+<!-- 1. Introduction -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A complete paediatric encounter runs through history taking, physical examination, investigation, treatment, and follow-up. In an emergency, resuscitation of the patient always comes before other aspects of management - stabilise first, and take a focused history in parallel with or immediately after.</p>
+</div>
+
+<!-- 2. Biodata -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Biodata
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Remember the acronym <span class="font-medium text-slate-800 dark:text-slate-200">NASRATI</span>:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">N</span> - Name</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">A</span> - Age</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">S</span> - Sex</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">R</span> - Religion (of the parents)</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">A</span> - Address (of the parent, or who the patient resides with)</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">T</span> - Tribe (of parents)</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">I</span> - Informant: is the information reliable? Give reasons.</li>
+</ul>
+<p class="text-sm">A child aged 6-7 years or older can also serve as an informant alongside the caregiver - do not assume the child contributes nothing simply because a parent is present.</p>
+</div>
+
+<!-- 3. Presenting Complaint -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Presenting Complaint
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>Arrange complaints in chronological order, from the first symptom to the most recent.</li>
+  <li>If the child is already on admission, state how long ago and on what account - e.g. "patient was admitted eight days ago on account of five days' history of fever." Symptoms that develop while the child was already on admission should also be included.</li>
+  <li>If the disease has already been diagnosed, this may be stated directly - e.g. "a known sickle cell disease patient admitted on account of...".</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Episodes vs duration:</span> some symptoms (convulsion, vomiting, passage of loose stool) are reported in terms of episodes rather than days - e.g. "five episodes of convulsion" - except when the symptom is chronic, in which case duration is used - e.g. "3 months' history of recurrent convulsion."</li>
+  <li>The presenting complaint should not exceed 5 items. Where there are more than 5, less pressing complaints can be deferred to the history of presenting complaint instead.</li>
+</ul>
+</div>
+
+<!-- 4. HPC -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+History of Presenting Complaint (The 5 Cs)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Characterise</span> each symptom.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Course</span> - the progression of the symptom.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cause</span> - ask questions to rule out differentials and identify likely cause(s).</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Complications</span> of the suspected disease process(es) obtained above.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Care</span> received so far - at home, at a referral centre, and since admission.</li>
+</ol>
+</div>
+
+<!-- 5. PMH -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Past Medical History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>History of similar illness in the past - where and how was it treated?</li>
+  <li>Relevant chronic illnesses - sickle cell disease, bronchial asthma, seizure disorder (particularly if the child has presented with convulsion).</li>
+  <li>History of previous hospital admission, blood transfusion, or surgery.</li>
+  <li>For chronic diseases, ask about the care currently being given.</li>
+</ul>
+</div>
+
+<!-- 6. Perinatal history -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Pre-Natal, Natal, and Post-Natal History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Antenatal</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Booking of pregnancy - when and where?</li>
+    <li>Tetanus toxoid - how many doses received, when and where?</li>
+    <li>Illnesses, especially fever and rash, in the first trimester.</li>
+    <li>Drugs used during pregnancy.</li>
+    <li>Radiation exposure, especially relevant in cases of congenital anomalies.</li>
+    <li>Was the mother a known sickle cell disease, diabetic, or hypertensive patient prior to or during pregnancy?</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Natal</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Gestational age at delivery, duration of labour, mode and place of delivery.</li>
+    <li>Crying after birth - spontaneous or induced? What measures were taken before the child achieved a vigorous cry?</li>
+    <li>Birth weight.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Post-Natal</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Number of days spent in hospital after delivery. After a normal SVD, this is usually within 48 hours for a first delivery and 24 hours for a multiparous mother; following a caesarean section, usually around 7 days. If longer than this, look for reasons.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 7. Dietary history -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Dietary History / Nutritional History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Exclusively breastfed?</span> Exclusive breastfeeding means feeding the baby only breast milk and prescribed drugs. State the duration of exclusive breastfeeding, and if the child was not exclusively breastfed, note and document why - e.g. paucity of information, or a previous bad experience.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Supplementary feeding?</span> Feeding the baby with feeds other than breast milk within the first 6 months of life.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Complementary feeding?</span> Additional feeds introduced when breast milk alone becomes insufficient, usually after 6 months.</li>
+  <li>Describe how the child has been fed since birth, inquiring about the <span class="font-medium text-slate-800 dark:text-slate-200">Frequency, Adequacy, Density, and Utilisation (FADU)</span> of whatever feeds the child has been receiving. This should be detailed especially in a malnourished child.</li>
+  <li>A <span class="font-medium text-slate-800 dark:text-slate-200">24-hour dietary recall</span> is necessary in some cases, such as malnutrition. This refers to what the child eats in a typical 24-hour period, not the 24 hours immediately prior to presentation.</li>
+</ul>
+</div>
+
+<!-- 8. Immunization -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Immunization History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>State which immunisation was received, and when.</li>
+  <li>Document any side effects after each immunisation.</li>
+  <li>If completed, state the evidence - e.g. immunisation certificate, or a BCG scar on the left upper arm.</li>
+  <li>If the patient failed to complete the schedule, state the reason(s) - e.g. side effects, lack of information.</li>
+</ul>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian Routine Immunization Schedule (NPHCDA)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Minimum target age</th>
+          <th class="py-2 pr-3 font-medium">Vaccine</th>
+          <th class="py-2 pr-3 font-medium">Dosage</th>
+          <th class="py-2 pr-3 font-medium">Route</th>
+          <th class="py-2 font-medium">Site</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">At birth</td><td class="py-2 pr-3">BCG*</td><td class="py-2 pr-3">0.05 mL</td><td class="py-2 pr-3">Intradermal</td><td class="py-2">Left upper arm</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">OPV0**</td><td class="py-2 pr-3">2 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Hepatitis B0 (birth dose)***</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of right thigh</td></tr>
+        <tr><td class="py-2 pr-3">6 weeks</td><td class="py-2 pr-3">Pentavalent (DPT, Hep B, Hib) 1</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of left thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Pneumococcal Conjugate Vaccine 1</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of right thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">OPV1</td><td class="py-2 pr-3">2 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">IPV1</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of right thigh (2.5 cm apart from PCV)</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Rotavirus vaccine 1</td><td class="py-2 pr-3">5 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3">10 weeks</td><td class="py-2 pr-3">Pentavalent 2</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of left thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">PCV 2</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of right thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">OPV2</td><td class="py-2 pr-3">2 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Rotavirus vaccine 2</td><td class="py-2 pr-3">5 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3">14 weeks</td><td class="py-2 pr-3">Pentavalent 3</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of left thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">PCV 3</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of right thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">OPV3</td><td class="py-2 pr-3">2 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Rotavirus vaccine 3</td><td class="py-2 pr-3">5 drops</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">IPV2</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of right thigh (2.5 cm apart from PCV)</td></tr>
+        <tr><td class="py-2 pr-3">6 months</td><td class="py-2 pr-3">Vitamin A, 1st dose</td><td class="py-2 pr-3">100,000 IU</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3">9 months</td><td class="py-2 pr-3">Measles, 1st dose (MCV1)</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Subcutaneous</td><td class="py-2">Left upper arm</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Yellow Fever</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Subcutaneous</td><td class="py-2">Right upper arm</td></tr>
+        <tr><td class="py-2 pr-3">12 months</td><td class="py-2 pr-3">Meningitis vaccine</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Anterolateral aspect of left thigh</td></tr>
+        <tr><td class="py-2 pr-3"></td><td class="py-2 pr-3">Vitamin A, 2nd dose</td><td class="py-2 pr-3">200,000 IU</td><td class="py-2 pr-3">Oral</td><td class="py-2">Mouth</td></tr>
+        <tr><td class="py-2 pr-3">15 months</td><td class="py-2 pr-3">Measles, 2nd dose (MCV2)</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Subcutaneous</td><td class="py-2">Left upper arm</td></tr>
+        <tr><td class="py-2 pr-3">9 years</td><td class="py-2 pr-3">HPV****</td><td class="py-2 pr-3">0.5 mL</td><td class="py-2 pr-3">Intramuscular</td><td class="py-2">Deltoid muscle (left upper arm)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul class="text-xs text-slate-500 dark:text-slate-400 mt-2 space-y-0.5">
+    <li>* BCG should be given at birth and can be given up until 11 months.</li>
+    <li>** OPV0 must be given before the age of two weeks.</li>
+    <li>*** Hepatitis B0 should be given at birth, or within 24 hours.</li>
+  </ul>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Abbreviations:</span> Pentavalent comprises hepatitis B, diphtheria, pertussis, tetanus toxoid, and <em>Haemophilus influenzae</em> type b antigens. PCV = pneumococcal conjugate vaccine. OPV = oral polio vaccine. IPV = inactivated polio vaccine.</p>
+</div>
+</div>
+
+<!-- Guideline Watch: immunization schedule -->
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<h3 class="font-brand flex items-center gap-2 text-sm font-semibold text-amber-800 dark:text-amber-200 mb-2">
+  <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#d97706"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg>
+  Guideline Watch - Immunization Schedule
+</h3>
+<ul class="list-disc pl-5 space-y-1 text-sm text-amber-900 dark:text-amber-300">
+  <li><span class="font-medium">HPV:</span> the NPHCDA chart lists HPV at 9 years but marks it "to be introduced soon," meaning rollout status can vary by state and by the date of the version you're working from - confirm local availability rather than assuming every 9-year-old presenting to you has had access to it yet.</li>
+  <li><span class="font-medium">Malaria vaccine:</span> not listed on this NPHCDA chart. Where the malaria vaccine (R21/Matrix-M) has been introduced, it is typically given alongside this schedule at 5, 6, and 7 months with a booster around 15-18 months - check local rollout status, since national introduction has been phased by state rather than simultaneous nationwide.</li>
+  <li><span class="font-medium">Chickenpox and MMR:</span> not part of this free, government-funded schedule. They are available privately, and MMR/varicella more often appear in catch-up schedules for older children than as a routine infant dose. Do not present them to a family as part of the standard schedule they are entitled to for free.</li>
+</ul>
+</div>
+
+<!-- 9. Developmental History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Developmental History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Know the important components of the developmental milestones across the four domains: gross motor, fine motor, verbal/language, and social.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Age</th>
+        <th class="py-2 pr-3 font-medium">Gross motor</th>
+        <th class="py-2 pr-3 font-medium">Fine motor</th>
+        <th class="py-2 pr-3 font-medium">Verbal</th>
+        <th class="py-2 font-medium">Social</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Birth</td><td class="py-2 pr-3">Sustained flexion</td><td class="py-2 pr-3">Perceives light</td><td class="py-2 pr-3">Good cry</td><td class="py-2">Non-social smile</td></tr>
+      <tr><td class="py-2 pr-3">4 weeks</td><td class="py-2 pr-3">Head lag</td><td class="py-2 pr-3">-</td><td class="py-2 pr-3">Throaty noise</td><td class="py-2">Social smile</td></tr>
+      <tr><td class="py-2 pr-3">2 months</td><td class="py-2 pr-3">-</td><td class="py-2 pr-3">-</td><td class="py-2 pr-3">Mixed vowel sounds</td><td class="py-2">Prefers known face</td></tr>
+      <tr><td class="py-2 pr-3">3 months</td><td class="py-2 pr-3">Good neck control</td><td class="py-2 pr-3">Starts reaching out for objects</td><td class="py-2 pr-3">Pronounces vowels with obvious pleasure/contact</td><td class="py-2">Regular pattern of eating and sleeping</td></tr>
+      <tr><td class="py-2 pr-3">4 months</td><td class="py-2 pr-3">Moves head side to side</td><td class="py-2 pr-3">Puts objects in mouth</td><td class="py-2 pr-3">Same as above</td><td class="py-2">Laughs out loud</td></tr>
+      <tr><td class="py-2 pr-3">5 months</td><td class="py-2 pr-3">Sits with support; turns supine to prone</td><td class="py-2 pr-3">Transfers object hand to hand</td><td class="py-2 pr-3">-</td><td class="py-2">-</td></tr>
+      <tr><td class="py-2 pr-3">6 months</td><td class="py-2 pr-3">Sits without support</td><td class="py-2 pr-3">Imitates you</td><td class="py-2 pr-3">Babbles; polysyllabic vowel sounds</td><td class="py-2">Prefers mother</td></tr>
+      <tr><td class="py-2 pr-3">7 months</td><td class="py-2 pr-3">Crawls</td><td class="py-2 pr-3">Raking movements</td><td class="py-2 pr-3">Makes repetitive vowel sounds</td><td class="py-2">Responds to voice tone inflections</td></tr>
+      <tr><td class="py-2 pr-3">9 months</td><td class="py-2 pr-3">Stands with support</td><td class="py-2 pr-3">Pincer grasp</td><td class="py-2 pr-3">Repetitive consonant sounds (mama, baba)</td><td class="py-2">Responds to name</td></tr>
+      <tr><td class="py-2 pr-3">12 months</td><td class="py-2 pr-3">Stands without support; starts walking</td><td class="py-2 pr-3">Plays with a toy; offers an object with a grasp</td><td class="py-2 pr-3">Some words besides mama/baba</td><td class="py-2">Makes postural adjustment to dressing</td></tr>
+      <tr><td class="py-2 pr-3">18 months</td><td class="py-2 pr-3">Runs stiffly; walks backward</td><td class="py-2 pr-3">Builds a tower of 3 blocks; linear stroke</td><td class="py-2 pr-3">Vocabulary of 10-15 words; 2-word sentences</td><td class="py-2">Pretend play with a doll</td></tr>
+      <tr><td class="py-2 pr-3">2 years</td><td class="py-2 pr-3">Runs briskly</td><td class="py-2 pr-3">Builds a tower of 6 blocks; circular stroke</td><td class="py-2 pr-3">3-word sentences</td><td class="py-2">Solitary play, later joins play</td></tr>
+      <tr><td class="py-2 pr-3">3 years</td><td class="py-2 pr-3">Rides a tricycle; stands on one foot</td><td class="py-2 pr-3">Alternates steps on stairs; draws a cross; tower of 9 cubes</td><td class="py-2 pr-3">Vocabulary improves</td><td class="py-2">Interacts well with the environment</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 10. Family and social history -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Family and Social History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>State the position of the patient in the family. Draw a family tree with age and sex of each child, and whether alive or dead.</li>
+  <li>History of similar illness in siblings; genotype of siblings, if relevant (e.g. in sickle cell disease).</li>
+  <li>Parents' age, educational status, and occupation (be specific).</li>
+  <li>Income of parents - especially relevant in malnourished patients and cases of chronic disease.</li>
+  <li>Haemoglobin genotype of parents, if relevant.</li>
+  <li>Type of apartment - child's room, number of windows, cross ventilation? How many people sleep in the room (overcrowding)?</li>
+  <li>Source of drinking water, sewage, and refuse disposal method.</li>
+  <li>History of ill health in parents, and sexual lifestyle where relevant, especially regarding HIV and other STIs.</li>
+  <li>Patient's performance in school - especially relevant in chronic illnesses such as sickle cell disease or seizure disorder.</li>
+</ul>
+</div>
+
+<!-- 11. Review of systems -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Review of Systems
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Ask relevant questions in each system and document symptoms for every system, except the one(s) already covered under the presenting complaint and history of presenting complaint.</p>
+</div>
+
+<!-- 12. Drug and allergy history -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Drug and Allergy History
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Chronic drug use.</li>
+  <li>Drug reactions.</li>
+  <li>Any known allergens - e.g. dust.</li>
+</ul>
+</div>
+
+<!-- 13. Summary -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Summary
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Should include:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Brief bio data - age, sex.</li>
+  <li>The presenting complaints.</li>
+  <li>Important positives and negatives.</li>
+  <li>Important interventions done since admission.</li>
+  <li>Any improvement since admission.</li>
+</ul>
+<p class="text-sm">Should not be more than 4 sentences.</p>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic mt-3">Example: "Patient is (name), a (age), who presented on account of 4 days' history of low, intermittent fever with chills and rigors; 3 days' history of insidious, progressively worsening cough and fast, noisy breathing; 2 days' history of recurrent leg pain; and 1 day's history of generalised tonic-clonic seizure. Since admission, he has been on oxygen, IV medications, and has received 1 pint of blood. He is improving - state evidence, e.g. as he is no longer requiring O&#8322;, SPO&#8322; was 80% on admission and is now 98% in room air, or fever has subsided (state temperature before and now), or convulsion has stopped, last episode was..."</p>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Report episodic symptoms (convulsion, vomiting, loose stool) as episode counts, not durations - unless the symptom itself is chronic.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The perinatal history is not optional background - antenatal illness, birth asphyxia, and neonatal course routinely explain a presenting problem years later.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Detail FADU (frequency, adequacy, density, utilisation) of feeds specifically in a malnourished child - a generic "he eats well" is not an adequate dietary history in this context.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Verify immunisation status with evidence (card, certificate, BCG scar) rather than accepting a verbal "yes, all of them."</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Keep the summary to 4 sentences or fewer - the discipline of compressing a case this tightly is itself a diagnostic-reasoning exercise, not just a formatting rule.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Primary Health Care Development Agency (NPHCDA) - Routine Immunization Schedule chart (dose, route, and site detail).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Paediatric Association of Nigeria - PAN Recommended Immunisation Schedule (updated June 2025).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Recommended Childhood Immunization Schedule; Vitamin A Supplementation Guidance.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nelson Textbook of Pediatrics - developmental milestones reference.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
 {
   id: 'history-taking-internal-medicine',
   title: 'History Taking in Internal Medicine',
@@ -275,7 +651,7 @@ Putting It Together: The Summary
 
 // SYMPTOM CLERKING
 
-  
+
   {
     id: 'symptom-clerking-fever',
     title: 'Fever',
@@ -8464,6 +8840,1963 @@ Findings That Must Not Be Missed
 
 // LABORATORY INTERPRETATIONS
 {
+  id: 'lab-female-hormonal-profile',
+  title: 'Female Hormonal Profile',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Endocrinology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting the Female Hormonal Profile</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Female Hormonal Profile</h1>
+  <p class="text-sm text-indigo-200">Hormonal profiles are requested for irregular menses, suspected PCOS, infertility workup, hirsutism, suspected menopause, and galactorrhoea. The single most common source of misinterpretation in this panel is not the values themselves but the timing of the sample relative to the menstrual cycle - a normal or abnormal-looking result can mean opposite things depending on cycle day, and this is frequently not documented or considered when the result is reviewed.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+The Panel and What Each Component Reflects
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">What it reflects</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">FSH (follicle-stimulating hormone)</td><td class="py-2">Pituitary drive for follicular development; rises when ovarian reserve is declining (less negative feedback from the ovary)</td></tr>
+      <tr><td class="py-2 pr-3">LH (luteinising hormone)</td><td class="py-2">Pituitary hormone triggering ovulation; the LH surge precedes ovulation by ~24-36 hours</td></tr>
+      <tr><td class="py-2 pr-3">Oestradiol</td><td class="py-2">Primary oestrogen, produced by the developing follicle; rises through the follicular phase, peaks just before ovulation</td></tr>
+      <tr><td class="py-2 pr-3">Progesterone</td><td class="py-2">Produced by the corpus luteum after ovulation; the key marker used to confirm that ovulation has occurred</td></tr>
+      <tr><td class="py-2 pr-3">Prolactin</td><td class="py-2">Pituitary hormone; pathological elevation suppresses GnRH pulsatility and can cause menstrual irregularity, galactorrhoea, and infertility</td></tr>
+      <tr><td class="py-2 pr-3">Testosterone (total/free)</td><td class="py-2">Assesses for hyperandrogenism - relevant in suspected PCOS or other virilising conditions</td></tr>
+      <tr><td class="py-2 pr-3">AMH (anti-Müllerian hormone)</td><td class="py-2">Produced by small ovarian follicles; used as a marker of ovarian reserve, and does not fluctuate significantly with the menstrual cycle (a practical advantage over FSH/oestradiol)</td></tr>
+      <tr><td class="py-2 pr-3">TSH</td><td class="py-2">Requested alongside this panel routinely, since both hypo- and hyperthyroidism can cause menstrual irregularity and hyperprolactinaemia (see TFT guide for detail)</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Why Cycle Timing Is the Central Interpretive Issue
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Unlike most other panels in this series, several of these hormones are only interpretable with reference to cycle day - the same oestradiol value can be entirely normal on day 12 and clearly abnormal on day 3.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 pr-3 font-medium">Correct timing</th>
+        <th class="py-2 font-medium">Why</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">FSH, LH, oestradiol (baseline/ovarian reserve)</td><td class="py-2 pr-3">Day 2-4 of the cycle (early follicular phase)</td><td class="py-2">Reflects baseline pituitary-ovarian axis activity before the dominant follicle has developed and begun suppressing FSH</td></tr>
+      <tr><td class="py-2 pr-3">Progesterone</td><td class="py-2 pr-3">Day 21 of a 28-day cycle, or 7 days before the expected next period</td><td class="py-2">Confirms whether ovulation has occurred - timed too early or late, a genuinely ovulatory cycle can appear anovulatory on the result</td></tr>
+      <tr><td class="py-2 pr-3">Prolactin</td><td class="py-2 pr-3">Any time, but ideally fasting, mid-morning, and after avoiding breast stimulation/examination and stress immediately beforehand</td><td class="py-2">Prolactin is highly sensitive to acute stressors and recent breast stimulation, producing transient elevation unrelated to any pathology</td></tr>
+      <tr><td class="py-2 pr-3">Testosterone</td><td class="py-2 pr-3">Morning sample preferred, given diurnal variation; timing relative to cycle is less critical</td><td class="py-2">-</td></tr>
+      <tr><td class="py-2 pr-3">AMH</td><td class="py-2 pr-3">Any day of the cycle</td><td class="py-2">One of the few hormones in this panel that does not require cycle-day timing</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">The single most common error in this panel across Nigerian practice is a day 2-4 hormone profile drawn on whatever day the patient happens to present, without documenting or controlling for cycle day - this can produce a result that looks like diminished ovarian reserve or an abnormal LH:FSH ratio purely as an artefact of timing, prompting unnecessary anxiety or incorrect diagnosis.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Interpreting FSH, LH, and Oestradiol Together
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Baseline (Day 2-4) Values and What They Suggest</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Pattern</th>
+          <th class="py-2 font-medium">Suggests</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">FSH normal, LH normal, oestradiol normal</td><td class="py-2">Reassuring baseline; does not by itself confirm normal ovulation - pair with mid-luteal progesterone</td></tr>
+        <tr><td class="py-2 pr-3">FSH elevated (particularly &gt;10-12 IU/L, assay-dependent)</td><td class="py-2">Diminished ovarian reserve; markedly elevated FSH (&gt;25-40 IU/L) with amenorrhoea suggests premature ovarian insufficiency</td></tr>
+        <tr><td class="py-2 pr-3">LH:FSH ratio elevated (classically &gt;2:1 or &gt;3:1)</td><td class="py-2">Historically associated with PCOS, though current PCOS diagnostic criteria (Section 5) do not require this ratio and it is not a reliable standalone diagnostic marker</td></tr>
+        <tr><td class="py-2 pr-3">Oestradiol elevated at baseline (day 2-4)</td><td class="py-2">Can falsely suppress FSH into the "normal" range, masking diminished ovarian reserve</td></tr>
+        <tr><td class="py-2 pr-3">FSH and LH both low, with low oestradiol</td><td class="py-2">Suggests hypothalamic-pituitary dysfunction (functional hypothalamic amenorrhoea, significant weight loss/low body weight, excessive exercise, or a pituitary/hypothalamic lesion) rather than primary ovarian failure</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Confirming Ovulation with Mid-Luteal Progesterone</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Progesterone (mid-luteal, nmol/L)</th>
+          <th class="py-2 font-medium">Interpretation</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">&gt; 30</td><td class="py-2">Consistent with ovulation having occurred</td></tr>
+        <tr><td class="py-2 pr-3">10-30</td><td class="py-2">Equivocal - repeat, ideally with better cycle-day timing</td></tr>
+        <tr><td class="py-2 pr-3">&lt; 10</td><td class="py-2">Suggests anovulation, but must be interpreted alongside correct timing before concluding this</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Prolactin
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Level</th>
+        <th class="py-2 font-medium">Interpretation</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Mildly elevated (roughly up to 2-3&times; upper limit)</td><td class="py-2">Consider physiological causes first - stress, recent breast examination/stimulation, recent intercourse, or medication effect - before extensive workup</td></tr>
+      <tr><td class="py-2 pr-3">Moderately elevated</td><td class="py-2">Consider hypothyroidism (check TFTs alongside), medication effect (many antipsychotics, metoclopramide, some antihypertensives), or a prolactinoma</td></tr>
+      <tr><td class="py-2 pr-3">Markedly elevated (often &gt;100 ng/mL / &gt;2000 mIU/L, assay-dependent)</td><td class="py-2">Strongly suggests a prolactinoma - proceed to pituitary imaging (MRI where accessible)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Practical approach:</span> repeat a mildly-to-moderately elevated prolactin before extensive workup, ensuring the repeat sample avoids recent breast stimulation/examination and acute stress, and check TSH concurrently. Ask specifically about medications and breastfeeding status, which physiologically elevates prolactin.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+PCOS - A Frequently Misapplied Diagnosis
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Polycystic ovary syndrome is commonly over-diagnosed on the basis of ultrasound findings alone, or under-recognised when the classic "cystic ovary" appearance is absent. The current diagnostic framework is the <span class="font-medium text-slate-800 dark:text-slate-200">2023 International Evidence-Based Guideline</span>, which builds on and refines the original consensus-based Rotterdam criteria rather than replacing them outright.</p>
+<p class="text-sm">For adults, diagnosis still requires <span class="font-medium text-slate-800 dark:text-slate-200">at least 2 of the following 3</span>, with other causes excluded:</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Clinical (hirsutism, acne) or biochemical (elevated free/total testosterone) hyperandrogenism</li>
+  <li>Ovulatory dysfunction (oligo-ovulation or anovulation, i.e. irregular or absent periods)</li>
+  <li>Polycystic ovarian morphology - and as of the 2023 update, this can now be established either by ultrasound <span class="font-medium text-slate-800 dark:text-slate-200">or by an elevated AMH level</span>, a genuine change from the original Rotterdam criteria, useful where ultrasound access or expertise is limited</li>
+</ol>
+<p class="text-sm">Where irregular cycles and clinical/biochemical hyperandrogenism are both already present - which covers roughly 70% of presentations - neither ultrasound nor AMH is required to confirm the diagnosis; the first two criteria alone are sufficient once other causes are excluded.</p>
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Adolescents are a specific exception:</span> ultrasound and AMH are <span class="font-medium">not recommended</span> for PCOS diagnosis in adolescents at all, due to poor specificity in this age group. In adolescents, diagnosis requires <span class="font-medium">both</span> hyperandrogenism and ovulatory dysfunction to be present, not 2 of 3, with other causes excluded. Where features are suggestive but full criteria aren't met, "increased risk of PCOS" is the more appropriate label, with reassessment by around 8 years post-menarche.</p>
+</div>
+<p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Common misapplications:</span></p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Diagnosing PCOS on ultrasound findings alone, without menstrual irregularity or hyperandrogenism.</li>
+  <li>Ordering an LH:FSH ratio and treating an elevated ratio as diagnostic - not part of current criteria.</li>
+  <li>Not excluding other causes (thyroid dysfunction, hyperprolactinaemia, non-classic congenital adrenal hyperplasia, androgen-secreting tumour with rapid virilisation) before settling on PCOS.</li>
+</ul>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-2">Note: some recent international consensus material has floated renaming PCOS to "Polyendocrine Metabolic Ovarian Syndrome" (PMOS), with a possible formal nomenclature change in a future guideline update. The diagnostic criteria above are unaffected; mentioned only so the two names aren't mistaken for different conditions if encountered in newer literature.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+AMH and Ovarian Reserve
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">AMH now serves two related but distinct purposes worth keeping separate in your reasoning:</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian reserve/fertility treatment planning</span> - AMH predicts likely response to ovarian stimulation but is <span class="font-medium">not a reliable predictor of natural fertility potential or time to conception</span> in an individual patient.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">PCOS diagnosis (adults only)</span> - an elevated AMH can now substitute for ultrasound as evidence of polycystic ovarian morphology, one of the three Rotterdam-derived criteria (Section 5). This is a diagnostic use, distinct from its reserve-prediction use, and does not apply in adolescents.</li>
+</ul>
+<p class="text-sm">Values fall with hormonal contraceptive use, and should ideally be measured off hormonal contraception. Reference ranges vary meaningfully by assay platform - trend within the same lab/assay for serial comparisons.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Common Clinical Scenarios in Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Infertility Workup</strong>
+  <p class="text-sm">Given the significant social and cultural weight placed on fertility and childbearing in many Nigerian communities, infertility investigation carries a psychological dimension deserving explicit acknowledgement. Ensure both partners are investigated - female-factor causes should not be assumed in isolation without a semen analysis, which is inexpensive relative to the female workup and frequently deprioritised due to stigma.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Herbal and Traditional Fertility Remedies</strong>
+  <p class="text-sm">Ask specifically and non-judgementally about herbal preparations taken for fertility or menstrual regulation - some have genuine hormonal activity (phytoestrogens and similar compounds) that can affect both symptoms and test interpretation.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Postpartum and Breastfeeding Patients</strong>
+  <p class="text-sm">Prolactin is physiologically elevated during breastfeeding, and this should not trigger a pituitary workup in an appropriately breastfeeding postpartum woman with otherwise unremarkable findings. Lactational amenorrhoea is expected, physiological, within the normal postpartum timeframe.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Perimenopause and Menopause</strong>
+  <p class="text-sm">An elevated FSH supports a diagnosis of menopause/perimenopause in a compatible clinical picture, but FSH fluctuates significantly during the transition - a single normal FSH does not exclude perimenopause in a symptomatic patient.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Common Pitfalls
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Interpreting FSH/LH/oestradiol without documenting or controlling for cycle day.</li>
+  <li>Diagnosing PCOS on ultrasound appearance alone, without menstrual irregularity or hyperandrogenism present.</li>
+  <li>Treating an isolated elevated LH:FSH ratio as diagnostic of PCOS.</li>
+  <li>Using ultrasound or AMH to diagnose PCOS in an adolescent - neither is recommended in this age group.</li>
+  <li>Not repeating a mildly elevated prolactin before extensive workup, or not accounting for recent breast stimulation, stress, or medication effect.</li>
+  <li>Missing hypothyroidism as a cause of menstrual irregularity and hyperprolactinaemia by not checking TSH.</li>
+  <li>Interpreting AMH as a fertility guarantee or prediction of natural conception timeline.</li>
+  <li>Investigating only the female partner in a couple presenting with infertility, without a concurrent semen analysis.</li>
+  <li>Mistaking physiological postpartum/lactational prolactin elevation and amenorrhoea for pathology.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Confirm and document cycle day at the time of sampling before interpreting FSH, LH, or oestradiol.</li>
+  <li>Use mid-luteal progesterone to confirm ovulation rather than relying on baseline hormones alone.</li>
+  <li>Check TSH and prolactin alongside the reproductive panel.</li>
+  <li>Apply the full current diagnostic criteria before diagnosing PCOS, using the adult or adolescent framework as appropriate (Section 5).</li>
+  <li>In an infertility workup, ensure male-factor investigation proceeds alongside the female hormonal workup, not after it.</li>
+  <li>Use AMH appropriately for its specific purpose - ovarian reserve/stimulation planning, or as an accepted PCOM substitute in adult PCOS diagnosis - not as a natural fertility predictor.</li>
+</ol>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always document cycle day before interpreting FSH, LH, or oestradiol.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>AMH can now substitute for ultrasound in adult PCOS diagnosis - but never in adolescents.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>PCOS in adolescents needs both hyperandrogenism and ovulatory dysfunction, not 2 of 3.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Repeat an unexpected prolactin before extensive workup, and check TSH alongside it every time.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never investigate infertility as a one-partner problem.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Teede HJ, et al. - Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Evidence-Based Guideline for PCOS 2023 - Adolescent-Specific Recommendations, BMC Medicine.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Infertility Definitions and Terminology.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'lab-male-hormonal-profile',
+  title: 'Male Hormonal Profile',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Endocrinology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting the Male Hormonal Profile</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Male Hormonal Profile</h1>
+  <p class="text-sm text-indigo-200">Male hormonal testing is requested for suspected hypogonadism (low libido, erectile dysfunction, fatigue, reduced muscle mass), infertility workup, and gynaecomastia. Unlike the female panel, there is no cycle to time against, but there is a different timing issue that is just as commonly missed - testosterone has a pronounced diurnal rhythm, and a large proportion of "low testosterone" results in practice reflect afternoon sampling rather than genuine hypogonadism.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+The Panel and What Each Component Reflects
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">What it reflects</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Total testosterone</td><td class="py-2">Overall testosterone production; the primary initial screening test</td></tr>
+      <tr><td class="py-2 pr-3">Free testosterone</td><td class="py-2">The biologically active, unbound fraction - more informative than total testosterone when SHBG is abnormal (obesity, ageing, thyroid disease, liver disease all alter SHBG and can make total testosterone misleading)</td></tr>
+      <tr><td class="py-2 pr-3">SHBG</td><td class="py-2">Binding protein for testosterone; needed to properly interpret total testosterone when clinical suspicion and total testosterone disagree</td></tr>
+      <tr><td class="py-2 pr-3">LH</td><td class="py-2">Pituitary drive for Leydig cell testosterone production; distinguishes primary (testicular) from secondary (pituitary/hypothalamic) hypogonadism</td></tr>
+      <tr><td class="py-2 pr-3">FSH</td><td class="py-2">Pituitary drive for spermatogenesis (Sertoli cell function); particularly relevant in the infertility workup</td></tr>
+      <tr><td class="py-2 pr-3">Prolactin</td><td class="py-2">Pathological elevation suppresses GnRH pulsatility, causing secondary hypogonadism</td></tr>
+      <tr><td class="py-2 pr-3">Oestradiol</td><td class="py-2">Produced by peripheral aromatisation of testosterone; relevant in gynaecomastia workup and in obesity</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Timing - The Central Interpretive Issue
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Testosterone should be measured in the morning, ideally 7-10 AM and fasting</span>, given a pronounced diurnal rhythm - levels can be meaningfully lower by afternoon, particularly in younger men where the diurnal variation is most pronounced. A borderline-low or low testosterone drawn in the afternoon, or non-fasting, should be repeated under correct conditions before concluding hypogonadism.</p>
+<p class="text-sm font-medium text-slate-800 dark:text-slate-200">Additional factors that transiently lower testosterone before diagnosing hypogonadism from a single result:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Acute illness of any kind (including febrile illness)</li>
+  <li>Recent significant physical or psychological stress</li>
+  <li>Recent significant alcohol intake</li>
+  <li>Poorly controlled diabetes or acute metabolic derangement</li>
+</ul>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic mt-3">Practical rule: a single low testosterone result, especially if drawn outside the morning window, non-fasting, or during acute illness, should be repeated under correct conditions before a diagnosis of hypogonadism is made or treatment is started.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Interpreting Testosterone
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Current major guidelines do not converge on one single cutoff, which is worth knowing so a result isn't read as more precise than the evidence actually is:</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Source</th>
+        <th class="py-2 font-medium">Threshold for low testosterone</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">American Urological Association (AUA)</td><td class="py-2">&lt; 300 ng/dL (&lt; 10.4 nmol/L)</td></tr>
+      <tr><td class="py-2 pr-3">Endocrine Society</td><td class="py-2">&lt; 264 ng/dL (&lt; 9.2 nmol/L) - the CDC-harmonized lower limit of normal in healthy, non-obese young men</td></tr>
+      <tr><td class="py-2 pr-3">Other societies (AACE, ISA, EAU/ISSM)</td><td class="py-2">Range from 200-350 ng/dL - reflects genuine ongoing disagreement, not a settled single number</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">In practice, a total testosterone consistently below roughly <span class="font-medium text-slate-800 dark:text-slate-200">264-300 ng/dL (9.2-10.4 nmol/L)</span> on properly timed, repeated morning samples, together with compatible symptoms, is a reasonable diagnostic threshold - use whichever specific cutoff your local guideline or laboratory's assay standardisation supports, and be consistent about it.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Diagnosis requires both a low testosterone level on at least two properly timed, fasting morning samples, and compatible clinical symptoms.</span></p>
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Severe secondary hypogonadism threshold:</span> a testosterone below roughly 150 ng/dL (5.2 nmol/L) with a low or inappropriately normal LH warrants pituitary MRI regardless of the prolactin result, since non-secreting pituitary adenomas can present this way without hyperprolactinaemia.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">When Free Testosterone Matters More Than Total</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Obesity (lowers SHBG, which can make total testosterone appear low despite normal free testosterone)</li>
+    <li>Older age (SHBG tends to rise with age)</li>
+    <li>Thyroid dysfunction and liver disease (both alter SHBG)</li>
+    <li>Where clinical suspicion is strong but total testosterone is borderline/normal, free testosterone adds useful information</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Distinguishing Primary from Secondary Hypogonadism
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Once a confirmed low testosterone is established, LH (and FSH, particularly relevant for the fertility dimension) localises the problem.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">LH</th>
+        <th class="py-2 pr-3 font-medium">Testosterone</th>
+        <th class="py-2 pr-3 font-medium">Pattern</th>
+        <th class="py-2 font-medium">Suggests</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Primary hypogonadism</td><td class="py-2">Testicular failure. Causes: mumps orchitis, testicular trauma, chemotherapy/radiation, Klinefelter syndrome, cryptorchidism history, varicocele in some cases</td></tr>
+      <tr><td class="py-2 pr-3">Low or inappropriately normal</td><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Secondary (hypogonadotropic) hypogonadism</td><td class="py-2">Pituitary/hypothalamic problem, or functional suppression - hyperprolactinaemia, significant obesity, chronic illness, opioid use, anabolic steroid use, pituitary lesion</td></tr>
+      <tr><td class="py-2 pr-3">Normal/borderline</td><td class="py-2 pr-3">Low-normal</td><td class="py-2 pr-3">Age-related/functional decline, or early/compensated primary hypogonadism</td><td class="py-2">Often multifactorial (obesity, metabolic syndrome, chronic illness combined)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Prolactin should be checked in any patient with confirmed low testosterone and low/inappropriately normal LH</span>, since hyperprolactinaemia is a treatable cause of secondary hypogonadism.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Common Clinical Scenarios in Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Anabolic-Androgenic Steroid Use</strong>
+  <p class="text-sm">Increasingly relevant given gym culture and unregulated access to injectable and oral anabolic agents. Exogenous androgen use suppresses endogenous LH/FSH, producing low LH, low FSH, and testosterone that can appear normal-to-high while on the substance but drops significantly after discontinuation - ask specifically about supplement and injectable use in any young man with unexplained low LH/FSH, testicular atrophy, or infertility.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Chronic Illness - TB, HIV</strong>
+  <p class="text-sm">Chronic infections and their treatment can suppress the hypothalamic-pituitary-gonadal axis and lower testosterone functionally. Treat the underlying chronic illness first, and repeat testing once the acute or poorly controlled phase has stabilised, before considering testosterone replacement.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Obesity-Related Hypogonadism</strong>
+  <p class="text-sm">Visceral adiposity increases peripheral aromatisation of testosterone to oestradiol and lowers SHBG, producing low total testosterone with relatively preserved or even elevated oestradiol. Weight loss is a legitimate first-line intervention and can meaningfully improve testosterone without pharmacological treatment.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Herbal and Traditional "Virility" Remedies</strong>
+  <p class="text-sm">Ask specifically and non-judgementally about herbal preparations, supplements, or traditional remedies taken for sexual performance - some contain undisclosed pharmacologically active compounds (including, in documented cases, undisclosed phosphodiesterase-5 inhibitors) that can affect both symptoms and the clinical picture.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Infertility Workup</strong>
+  <p class="text-sm">Male-factor infertility carries significant stigma in many Nigerian communities, and investigation is sometimes avoided or delayed. Semen analysis is the primary, inexpensive first-line test - hormonal testing is generally reserved for men with an abnormal semen analysis or specific indication.</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Parameter</th>
+          <th class="py-2 font-medium">WHO 6th edition (2021) lower reference limit</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Volume</td><td class="py-2">1.4 mL</td></tr>
+        <tr><td class="py-2 pr-3">Sperm concentration</td><td class="py-2">16 million/mL</td></tr>
+        <tr><td class="py-2 pr-3">Total sperm number</td><td class="py-2">39 million per ejaculate</td></tr>
+        <tr><td class="py-2 pr-3">Total motility</td><td class="py-2">42%</td></tr>
+        <tr><td class="py-2 pr-3">Progressive motility</td><td class="py-2">30%</td></tr>
+        <tr><td class="py-2 pr-3">Vitality</td><td class="py-2">54%</td></tr>
+        <tr><td class="py-2 pr-3">Normal morphology (strict/Kruger criteria)</td><td class="py-2">4%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">These are 5th percentile values from a large fertile-population reference cohort, not pass/fail thresholds - the WHO manual frames them as decision limits to interpret alongside the clinical picture, and a single below-threshold result should prompt a repeat (sperm production takes roughly 72 days) rather than an immediate infertility diagnosis.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Gynaecomastia Workup
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A brief note given its overlap with this panel: true glandular gynaecomastia in an adult male warrants assessment of the oestrogen:androgen balance - check testosterone, oestradiol, LH, and consider hepatic and renal function and a medication review (spironolactone, certain antiretrovirals, and other drugs are recognised causes). Rule out a testicular or, rarely, adrenal tumour in a patient with rapidly progressive gynaecomastia, particularly if unilateral or associated with a palpable testicular mass.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Common Pitfalls
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Diagnosing hypogonadism from a single, non-morning or non-fasting testosterone sample.</li>
+  <li>Not repeating a low result before starting testosterone replacement therapy.</li>
+  <li>Relying on total testosterone alone in an obese or older patient without considering SHBG or free testosterone.</li>
+  <li>Not checking prolactin in a patient with confirmed low testosterone and low/inappropriately normal LH.</li>
+  <li>Not asking about anabolic steroid or supplement use.</li>
+  <li>Ordering hormonal testing before semen analysis in a couple presenting with infertility.</li>
+  <li>Attributing all symptoms of fatigue, low libido, or erectile dysfunction to "low testosterone" without confirmed biochemical hypogonadism.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Confirm the testosterone sample was drawn in the morning (7-10 AM) and fasting; repeat under correct conditions if not.</li>
+  <li>Require a confirmed low result on at least two properly timed samples, alongside compatible symptoms, before diagnosing hypogonadism.</li>
+  <li>Use LH (and FSH where fertility is relevant) to localise the problem as primary versus secondary (Section 4).</li>
+  <li>Check prolactin in any confirmed secondary hypogonadism pattern, and obtain pituitary imaging regardless of prolactin if testosterone is below roughly 150 ng/dL with a low/inappropriately normal LH.</li>
+  <li>Actively screen for reversible/functional contributors before attributing findings purely to primary gonadal failure.</li>
+  <li>In an infertility context, start with semen analysis rather than the hormonal panel.</li>
+</ol>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always confirm morning, fasting timing before acting on a low testosterone result.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Major guidelines disagree on the exact cutoff (264-300 ng/dL) - be consistent with one framework.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Testosterone below ~150 ng/dL with a low/inappropriately normal LH needs pituitary MRI even if prolactin is normal.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Semen analysis comes before hormonal testing in an infertility workup.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask directly about anabolic steroid, supplement, and herbal "virility" remedy use.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Urological Association - Evaluation and Management of Testosterone Deficiency Guideline.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Bhasin S, et al. - Testosterone Therapy in Men with Hypogonadism: An Endocrine Society Clinical Practice Guideline. JCEM, 2018.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th edition, 2021.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'lab-electrolytes-urea-creatinine',
+  title: 'Electrolytes, Urea, and Creatinine',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Nephrology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting Electrolytes, Urea, and Creatinine (E/U/Cr)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting Electrolytes, Urea, and Creatinine (E/U/Cr)</h1>
+  <p class="text-sm text-indigo-200">E/U/Cr is requested constantly in Nigerian practice - for dehydration, sepsis, suspected AKI, herbal or traditional remedy toxicity, and as a baseline before starting nephrotoxic drugs - but is frequently read as a single "normal/abnormal" verdict rather than a set of individually interpretable values that, read together, usually tell a specific mechanistic story.</p>
+</div>
+</div>
+
+<!-- 1. Sodium -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Sodium (Na&#8314;)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 font-medium">Na&#8314; (mmol/L)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Hyponatraemia</td><td class="py-2">&lt; 135</td></tr>
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2">135-145</td></tr>
+      <tr><td class="py-2 pr-3">Hypernatraemia</td><td class="py-2">&gt; 145</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Sodium reflects water balance far more than total body sodium content in most clinical scenarios - a low sodium usually means relatively too much water, not too little salt, and correcting it by giving salt rather than addressing water balance is a common error.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hyponatraemia - Common Causes Here</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Gastroenteritis with free water replacement (oral rehydration or plain water without adequate electrolyte content).</li>
+    <li>Excessive antipyretic use with poor oral electrolyte intake in febrile illness.</li>
+    <li>SIADH - meningitis, cerebral malaria, and pneumonia are all recognised precipitants locally.</li>
+    <li>Diuretic use (thiazides particularly).</li>
+    <li>Heart failure and cirrhosis (dilutional, with total body sodium often actually increased).</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypernatraemia - Common Causes</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Inadequate free water intake relative to losses, particularly in infants, the elderly, or anyone unable to access water independently.</li>
+    <li>Diarrhoeal illness with hypotonic fluid loss.</li>
+    <li>Diabetes insipidus (uncommon, but consider with very dilute urine output despite hypernatraemia).</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to Do Next</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li>Correlate with clinical volume status (skin turgor, mucous membranes, JVP, blood pressure) before choosing a fluid strategy - the sodium number alone does not tell you whether the patient is volume-depleted, euvolaemic, or volume-overloaded, and each requires a different fluid approach.</li>
+    <li>Correct chronic hyponatraemia slowly - rapid correction (generally not exceeding 8-10 mmol/L in 24 hours) is essential to avoid osmotic demyelination syndrome; this matters particularly where a patient presents with a markedly low sodium of unknown duration and the temptation is to correct quickly.</li>
+    <li>In acute, symptomatic hyponatraemia (seizures, severe confusion), more urgent correction with hypertonic saline is warranted despite the general slow-correction rule - distinguish acute symptomatic hyponatraemia from chronic, incidentally discovered hyponatraemia before deciding on correction speed.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Common Pitfalls</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Treating hyponatraemia by restricting fluids in a volume-depleted patient - this worsens the underlying problem; volume depletion needs isotonic fluid replacement, not restriction.</li>
+    <li>Correcting sodium too rapidly in a patient with unknown duration of hyponatraemia, risking osmotic demyelination.</li>
+    <li>Missing SIADH as a cause in a febrile or neurologically unwell patient, and attributing hyponatraemia only to poor oral intake.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 2. Potassium -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Potassium (K&#8314;)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 font-medium">K&#8314; (mmol/L)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Hypokalaemia</td><td class="py-2">&lt; 3.5</td></tr>
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2">3.5-5.0</td></tr>
+      <tr><td class="py-2 pr-3">Hyperkalaemia</td><td class="py-2">&gt; 5.0</td></tr>
+      <tr><td class="py-2 pr-3">Severe hyperkalaemia</td><td class="py-2">&gt; 6.5, or any level with ECG changes</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypokalaemia - Common Causes</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Gastrointestinal losses (vomiting, diarrhoea - very common given the burden of diarrhoeal disease).</li>
+    <li>Diuretic use (loop and thiazide diuretics).</li>
+    <li>Poor dietary intake in malnourished patients.</li>
+    <li>Metabolic alkalosis (potassium shifts intracellularly).</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hyperkalaemia - Common Causes</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Acute kidney injury (reduced excretion) - this is the dominant cause to actively exclude in this setting.</li>
+    <li>Severe haemolysis, including from malaria itself in a severe case.</li>
+    <li>Tissue breakdown (rhabdomyolysis, tumour lysis, severe burns).</li>
+    <li>Metabolic acidosis (extracellular shift).</li>
+    <li>Certain herbal preparations and unregulated remedies with unclear potassium content or renal effects.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to Do Next</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Always obtain an ECG in significant hyperkalaemia</span> (&gt;6.0 mmol/L, or any level with clinical concern) - peaked T waves, widened QRS, and loss of P waves indicate a cardiac emergency requiring immediate treatment (calcium gluconate for cardiac membrane stabilisation, followed by measures to shift potassium intracellularly - insulin-dextrose, salbutamol nebulisation - and measures to remove potassium, including dialysis where accessible).</li>
+    <li>Treat hyperkalaemia on clinical urgency and ECG findings rather than waiting for a repeat sample to confirm, given how quickly this can become fatal.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Check for a haemolysed sample</span> before acting on an unexpectedly high potassium in an otherwise well patient - this is extremely common and discussed further below.</li>
+    <li>For hypokalaemia, correlate with magnesium where possible - hypomagnesaemia frequently coexists and potassium replacement will not correct fully until magnesium is also corrected.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Common Pitfalls</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acting on a falsely elevated potassium from a haemolysed sample.</span> Difficult venepuncture, prolonged tourniquet time, sample transport delays, and processing delays in a hot climate all promote in-vitro haemolysis and cellular potassium leakage into serum, producing a falsely high result. Where a hyperkalaemia result is discordant with the clinical picture (well patient, no ECG changes, no risk factors), request a fresh, promptly processed sample before treating.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Under-recognising hyperkalaemia risk in AKI</span> - potassium should be checked early and monitored serially in any patient with confirmed or suspected AKI, rather than only when clinical symptoms prompt testing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Over-aggressive correction of hypokalaemia via rapid IV potassium</span>, risking iatrogenic hyperkalaemia and cardiac arrhythmia - potassium replacement rate should be limited and, where significant IV correction is needed, ideally with cardiac monitoring.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 3. Urea and Creatinine -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Urea and Creatinine
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Marker</th>
+        <th class="py-2 font-medium">Typical adult reference range</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Urea</td><td class="py-2">2.5-7.5 mmol/L</td></tr>
+      <tr><td class="py-2 pr-3">Creatinine</td><td class="py-2">60-110 &micro;mol/L (varies by muscle mass, sex, and lab - confirm your local lab's reference range rather than assuming this applies universally)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Creatinine is a more specific marker of renal filtration than urea, since urea production and excretion are affected by many non-renal factors. Reading them together, rather than urea or creatinine in isolation, differentiates prerenal, renal, and postrenal causes of an elevated result.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Pattern</th>
+        <th class="py-2 pr-3 font-medium">Urea:creatinine ratio</th>
+        <th class="py-2 font-medium">Suggests</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Disproportionately raised urea relative to creatinine</td><td class="py-2 pr-3">Elevated ratio</td><td class="py-2">Prerenal - dehydration, GI bleeding (blood is a protein load, raising urea independent of renal function), high catabolic state, high-protein diet</td></tr>
+      <tr><td class="py-2 pr-3">Urea and creatinine raised proportionately</td><td class="py-2 pr-3">Ratio normal/unchanged</td><td class="py-2">Intrinsic renal disease</td></tr>
+      <tr><td class="py-2 pr-3">Creatinine raised more than expected from urea</td><td class="py-2 pr-3">Reduced ratio</td><td class="py-2">Consider rhabdomyolysis (creatinine rises disproportionately from muscle breakdown) or reduced urea production (severe liver disease, malnutrition - urea synthesis is hepatic)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Staging AKI (KDIGO)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Stage</th>
+          <th class="py-2 pr-3 font-medium">Creatinine criteria</th>
+          <th class="py-2 font-medium">Urine output criteria</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Stage 1</td><td class="py-2 pr-3">1.5-1.9&times; baseline, or rise &ge; 26.5 &micro;mol/L within 48 hours</td><td class="py-2">&lt; 0.5 mL/kg/hr for 6-12 hours</td></tr>
+        <tr><td class="py-2 pr-3">Stage 2</td><td class="py-2 pr-3">2.0-2.9&times; baseline</td><td class="py-2">&lt; 0.5 mL/kg/hr for &ge; 12 hours</td></tr>
+        <tr><td class="py-2 pr-3">Stage 3</td><td class="py-2 pr-3">&ge; 3&times; baseline, or creatinine &ge; 353.6 &micro;mol/L, or initiation of renal replacement therapy</td><td class="py-2">&lt; 0.3 mL/kg/hr for &ge; 24 hours, or anuria for &ge; 12 hours</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">This staging is unchanged from the 2012 KDIGO criteria, still the current global standard - confirmed accurate against the source guideline.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">What to Do Next</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li>Establish or estimate a baseline creatinine where possible - a "normal" creatinine in a young previously fit patient may still represent a significant acute rise from their individual baseline, and AKI staging depends on the trajectory, not a single value against a population reference range.</li>
+    <li>Actively ask about herbal or traditional remedy use in any patient with unexplained renal impairment - see the dedicated note below.</li>
+    <li>Correlate with the clinical context: malaria (both direct renal involvement in severe disease and dehydration-driven prerenal injury), sepsis, obstetric haemorrhage or eclampsia-related AKI, and NSAID use are all common precipitants worth actively screening for.</li>
+    <li>For chronic kidney disease staging, estimate GFR (via Cockcroft-Gault or CKD-EPI formulas) rather than relying on creatinine alone, since creatinine is affected by muscle mass and a "normal" creatinine can still reflect significantly reduced GFR in a patient with low muscle mass.</li>
+  </ul>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Herbal and Traditional Remedy Nephrotoxicity - A Major Local Cause</strong>
+  <p class="text-sm">This deserves more than a passing mention: herbal remedy-induced nephrotoxicity is estimated to account for roughly 30-35% of acute renal failure cases across Africa, and a University College Hospital, Ibadan case series found herbal nephrotoxicity was the leading identifiable precipitant of acute tubular necrosis in its cohort (37.5% of cases), ahead of sepsis. This is not a minor or exotic differential - it should be screened for routinely, not only when other causes have been excluded.</p>
+  <p class="text-sm mt-2">Preparations implicated in Nigerian case reports and studies include various "agbo" concoctions sold under names like Agbo Jedi-Jedi, Alomo Bitters, Opa Eyin, and various "bitters" or "cleanser" preparations marketed for stomach or system "washing"; so-called "holy water" or "green water" preparations; and preparations containing mango bark/leaf, cashew shoot, pawpaw leaf, neem ("dogon yaro"), or Solanum erianthum. The active nephrotoxic component is often unidentified, but some traditional preparations globally contain aristolochic acid, a well-documented and potent nephrotoxin, and locally-sourced products may also be adulterated with heavy metals or undeclared pharmaceutical agents that independently contribute to renal injury.</p>
+  <p class="text-sm mt-2">Ask specifically and non-judgmentally, using the actual local terms patients use (agbo, bitters, cleansers) rather than only "herbal medicine," since patients may not associate a locally familiar preparation with that broader category.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Common Pitfalls</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Treating a single creatinine value as sufficient for AKI diagnosis without trend or baseline context.</span> AKI is defined by change over time, not an absolute threshold alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Missing prerenal AKI from dehydration in febrile illness</span> (malaria, typhoid, gastroenteritis) - this is often reversible with prompt rehydration, and recognising the prerenal pattern (raised urea:creatinine ratio) versus established intrinsic renal injury changes both prognosis and fluid management urgency.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Not asking about herbal/traditional remedy use</span> in unexplained renal impairment - a major and probably still underrecognised contributor to AKI and CKD in Nigerian practice, as above.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Using creatinine alone to assess renal function in patients with very low or very high muscle mass</span> (severely malnourished patients, amputees, bodybuilders) without adjusting interpretation - creatinine production depends on muscle mass, so the same creatinine value represents different actual GFR in different patients.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Overlooking medication dose adjustment</span> once renal impairment is identified - many commonly used drugs (certain antibiotics, metformin, some antimalarials) require dose adjustment or avoidance in significant renal impairment, and this is easy to miss once the abnormal result itself has been noted and "actioned" on paper.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 4. Reading order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Check sodium and potassium first for any values requiring immediate action (severe hyper/hypokalaemia with ECG changes, severe hypo/hypernatraemia with neurological symptoms).</li>
+  <li>Assess urea and creatinine together, using the urea:creatinine ratio to distinguish a prerenal pattern from established intrinsic renal injury.</li>
+  <li>Compare against any available baseline to determine whether this represents an acute change (AKI) or a chronic, stable abnormality (CKD) - the distinction changes both urgency and the diagnostic approach.</li>
+  <li>Correlate all findings with the clinical picture - volume status, precipitating illness, medication history (including herbal/traditional remedies), and urine output.</li>
+  <li>Reassess trend with repeat testing rather than treating a single result as the final word, particularly in an unwell or deteriorating patient.</li>
+</ol>
+</div>
+
+<!-- 5. Findings not to be missed -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Potassium &gt; 6.0 mmol/L, or any level with ECG changes</span> - get an ECG and treat on clinical urgency; do not wait for a repeat sample.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Acute symptomatic hyponatraemia</span> (seizures, severe confusion) - this needs urgent correction with hypertonic saline, unlike chronic hyponatraemia which must be corrected slowly.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Unexplained renal impairment without a specific history of herbal or traditional remedy use having been asked about</span> - given this accounts for roughly a third of acute renal failure in African case series, this question should be routine, not an afterthought.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A raised urea:creatinine ratio in a febrile, dehydrated patient</span> - this is often reversible prerenal injury; prompt rehydration changes the trajectory significantly.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Correlate sodium with clinical volume status - the number alone doesn't tell you whether to give fluid or restrict it.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Rule out a haemolysed sample before treating an unexpected hyperkalaemia in a well patient.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the urea:creatinine ratio to separate prerenal from intrinsic renal causes - this changes both urgency and fluid strategy.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about herbal and traditional remedy use routinely in renal impairment, using the actual local terms - this is a leading, not incidental, cause locally.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>AKI is defined by trend, not a single value - always seek or estimate a baseline before staging.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kidney Disease: Improving Global Outcomes (KDIGO) - Clinical Practice Guideline for Acute Kidney Injury, 2012.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Akpan EE, Ekrikpo UE - Acute Renal Failure Induced by Chinese Herbal Medication in Nigeria. Case Reports in Medicine, 2015.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kadiri S, et al. - Causes of Acute Tubular Necrosis in Nigeria, University College Hospital, Ibadan.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'lab-liver-function-tests',
+  title: 'Liver Function Tests',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Hepatology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting Liver Function Tests (LFTs)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting Liver Function Tests (LFTs)</h1>
+  <p class="text-sm text-indigo-200">LFTs are requested constantly in Nigerian practice - for jaundice, suspected viral hepatitis, before and during anti-tuberculous therapy, in antenatal care, and in anyone with suspected herbal or traditional remedy toxicity. The panel is a set of markers reflecting different aspects of liver function and injury, not a single "liver is fine/not fine" verdict, and the pattern across markers usually points toward a specific mechanism before any imaging or further workup is needed.</p>
+</div>
+</div>
+
+<!-- 1. The Panel -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+The Panel and What Each Component Reflects
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">What it reflects</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">ALT (alanine aminotransferase)</td><td class="py-2">Hepatocellular injury - relatively liver-specific</td></tr>
+      <tr><td class="py-2 pr-3">AST (aspartate aminotransferase)</td><td class="py-2">Hepatocellular injury, but also present in muscle, heart, and red cells - less liver-specific than ALT</td></tr>
+      <tr><td class="py-2 pr-3">ALP (alkaline phosphatase)</td><td class="py-2">Biliary/cholestatic injury; also present in bone, placenta, and gut - needs clinical context or GGT to confirm hepatobiliary origin</td></tr>
+      <tr><td class="py-2 pr-3">GGT (gamma-glutamyl transferase)</td><td class="py-2">Confirms hepatobiliary origin of a raised ALP; also sensitive to alcohol use and enzyme induction by certain drugs</td></tr>
+      <tr><td class="py-2 pr-3">Total bilirubin</td><td class="py-2">Overall bilirubin load - split into direct (conjugated) and indirect (unconjugated) to localise the problem</td></tr>
+      <tr><td class="py-2 pr-3">Direct (conjugated) bilirubin</td><td class="py-2">Raised in hepatocellular and cholestatic disease - the liver has conjugated it but excretion is impaired</td></tr>
+      <tr><td class="py-2 pr-3">Indirect (unconjugated) bilirubin</td><td class="py-2">Raised in haemolysis or impaired hepatic conjugation (e.g. Gilbert syndrome) - the liver hasn't yet processed it</td></tr>
+      <tr><td class="py-2 pr-3">Albumin</td><td class="py-2">Synthetic liver function; also affected by nutritional status, inflammation, and nephrotic losses - a marker of chronic rather than acute liver function</td></tr>
+      <tr><td class="py-2 pr-3">Prothrombin time (PT/INR)</td><td class="py-2">Synthetic liver function, reflecting clotting factor production - more sensitive to acute hepatic synthetic failure than albumin, which has a longer half-life</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 2. Reference Ranges -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Reference Ranges
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">Typical adult reference range</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">ALT</td><td class="py-2">7-40 U/L</td></tr>
+      <tr><td class="py-2 pr-3">AST</td><td class="py-2">8-40 U/L</td></tr>
+      <tr><td class="py-2 pr-3">ALP</td><td class="py-2">40-130 U/L</td></tr>
+      <tr><td class="py-2 pr-3">GGT</td><td class="py-2">9-48 U/L (men), 9-32 U/L (women)</td></tr>
+      <tr><td class="py-2 pr-3">Total bilirubin</td><td class="py-2">3-17 &micro;mol/L</td></tr>
+      <tr><td class="py-2 pr-3">Direct bilirubin</td><td class="py-2">0-5 &micro;mol/L</td></tr>
+      <tr><td class="py-2 pr-3">Albumin</td><td class="py-2">35-50 g/L</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Ranges vary by lab and assay - interpret against the specific range printed on the result. Pregnancy physiologically alters some of these values (ALP rises from placental production; albumin falls from haemodilution), which matters when interpreting LFTs in antenatal patients (Section 5).</p>
+</div>
+
+<!-- 3. Pattern -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Recognising the Pattern
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Pattern</th>
+        <th class="py-2 pr-3 font-medium">ALT/AST</th>
+        <th class="py-2 pr-3 font-medium">ALP/GGT</th>
+        <th class="py-2 font-medium">Typical mechanism</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Hepatocellular</td><td class="py-2 pr-3">Markedly raised (often &gt;5-10&times; upper limit in acute injury)</td><td class="py-2 pr-3">Normal or mildly raised</td><td class="py-2">Viral hepatitis, drug-induced liver injury, ischaemic hepatitis, severe malaria-related hepatic involvement</td></tr>
+      <tr><td class="py-2 pr-3">Cholestatic</td><td class="py-2 pr-3">Normal or mildly raised</td><td class="py-2 pr-3">Markedly raised, GGT confirms hepatobiliary origin</td><td class="py-2">Biliary obstruction (gallstones, stricture, malignancy), some drug reactions, primary biliary/sclerosing cholangitis</td></tr>
+      <tr><td class="py-2 pr-3">Mixed</td><td class="py-2 pr-3">Both moderately raised</td><td class="py-2 pr-3">Both moderately raised</td><td class="py-2">Many drug-induced injuries, some viral hepatitis, infiltrative disease</td></tr>
+      <tr><td class="py-2 pr-3">Isolated hyperbilirubinaemia, indirect-predominant</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Normal</td><td class="py-2">Haemolysis, Gilbert syndrome - this is not primary liver disease</td></tr>
+      <tr><td class="py-2 pr-3">Isolated hyperbilirubinaemia, direct-predominant</td><td class="py-2 pr-3">Normal or mildly raised</td><td class="py-2 pr-3">Normal or mildly raised</td><td class="py-2">Early cholestasis, some inherited conjugation/excretion disorders (Dubin-Johnson, Rotor)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">The pattern, read together, usually narrows the differential more efficiently than any single value. A markedly raised ALT with normal ALP points strongly toward a hepatocellular process; a markedly raised ALP with GGT confirmation and near-normal transaminases points toward obstruction - these two categories have substantially different next steps (Section 6).</p>
+</div>
+
+<!-- 4. Magnitude -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Magnitude Matters
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">ALT/AST elevation</th>
+        <th class="py-2 font-medium">Typical causes to consider</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Mild (1-3&times; upper limit)</td><td class="py-2">Fatty liver, chronic viral hepatitis, alcohol, many drugs including some antituberculous agents at a subclinical level</td></tr>
+      <tr><td class="py-2 pr-3">Moderate (3-10&times; upper limit)</td><td class="py-2">Active viral hepatitis, more significant drug-induced injury, autoimmune hepatitis</td></tr>
+      <tr><td class="py-2 pr-3">Marked (&gt;10-15&times; upper limit, often into the thousands)</td><td class="py-2">Acute viral hepatitis, severe drug-induced liver injury, ischaemic/hypoxic hepatitis (shock liver), acute severe malaria with hepatic involvement</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A very high transaminase level (often described informally as "liver enzymes in the thousands") with a relatively preserved bilirubin and INR suggests the liver is injured but still functioning synthetically - the trend and synthetic function (Section 1, PT/INR and albumin) matter more for prognosis than the peak transaminase number itself.</p>
+</div>
+
+<!-- 5. Clinical Scenarios -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Common Clinical Scenarios in Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Viral Hepatitis (B and C)</strong>
+  <p class="text-sm">Given the endemic burden of chronic hepatitis B in Nigeria, LFTs in a patient with risk factors or incidental abnormal results should prompt hepatitis B and C serology rather than treating a hepatocellular pattern as idiopathic. A normal ALT does not exclude chronic hepatitis B - many patients with chronic infection have normal or near-normal transaminases despite ongoing viral replication, particularly in the immune-tolerant phase; serology and viral load assessment, not ALT alone, establish the diagnosis and phase.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Anti-Tuberculous Therapy</strong>
+  <p class="text-sm">Isoniazid, rifampicin, and pyrazinamide are all potentially hepatotoxic. Baseline LFTs before starting treatment, and monitoring during the first weeks (particularly in patients with pre-existing liver disease, viral hepatitis co-infection, alcohol use, low BMI, or older age - all independently associated with higher hepatotoxicity risk in African cohorts), are standard practice.</p>
+  <p class="text-sm mt-2">The widely used stopping criteria (American Thoracic Society, and reflected in national TB programme practice where a distinct local numeric threshold isn't separately specified): discontinue hepatotoxic agents if ALT rises to <span class="font-medium text-slate-800 dark:text-slate-200">3 times the upper limit of normal with symptoms</span> of hepatitis (nausea, vomiting, jaundice, abdominal pain) or a raised bilirubin, or if ALT rises to <span class="font-medium text-slate-800 dark:text-slate-200">5 times the upper limit of normal even without symptoms</span>.</p>
+  <p class="text-sm mt-2">Reintroduction is generally still pursued once LFTs normalise, even in patients who were asymptomatic, since rifampicin and isoniazid are the most bactericidal agents and non-hepatotoxic substitutes are less effective and require longer, more complex regimens. The standard approach (reflected in Nigerian paediatric and adult practice) is sequential reintroduction starting with rifampicin first, then isoniazid added a few days later if tolerated, with pyrazinamide reintroduced last or omitted from the regimen altogether if hepatotoxicity recurs - full-dose reintroduction of a pyrazinamide-containing regimen carries a meaningfully higher recurrence rate than gradual, sequential reintroduction. Confirm the specific protocol in use against current National Tuberculosis and Leprosy Control Programme (NTBLCP) guidance.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Herbal and Traditional Remedy Hepatotoxicity</strong>
+  <p class="text-sm">A significant and likely underrecognised cause of drug-induced liver injury in Nigerian practice. Ask specifically and non-judgementally about herbal preparations, concoctions, and traditional remedies in any patient with unexplained hepatocellular injury - this history is often not volunteered without direct, repeated questioning, in the same way discussed for nephrotoxicity in the E/U/Cr guide.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Severe Malaria</strong>
+  <p class="text-sm">Hepatic involvement (jaundice, moderately raised transaminases) occurs in severe malaria and can be difficult to distinguish from primary hepatitis on LFTs alone - the broader clinical picture (fever pattern, parasitaemia, other severity markers) should guide the diagnosis, and LFT abnormalities in this context often improve with antimalarial treatment rather than requiring separate hepatic workup, provided the pattern and trajectory fit.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Pregnancy-Related Liver Disease</strong>
+  <p class="text-sm">LFT abnormalities in pregnancy carry a specific differential that should not be forced into the standard non-pregnant framework.</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Condition</th>
+          <th class="py-2 pr-3 font-medium">Typical LFT pattern</th>
+          <th class="py-2 font-medium">Notes</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Intrahepatic cholestasis of pregnancy</td><td class="py-2 pr-3">Raised ALT, raised bile acids (where available), pruritus without rash</td><td class="py-2">Third trimester typically; itching, particularly palms/soles, is the key clinical clue</td></tr>
+        <tr><td class="py-2 pr-3">Pre-eclampsia/HELLP syndrome</td><td class="py-2 pr-3">Raised AST/ALT, low platelets, evidence of haemolysis (raised LDH, low haptoglobin, schistocytes)</td><td class="py-2">An obstetric emergency - LFT abnormality here is one component of a broader syndrome, not an isolated liver problem</td></tr>
+        <tr><td class="py-2 pr-3">Acute fatty liver of pregnancy</td><td class="py-2 pr-3">Markedly raised transaminases, low glucose, deranged clotting, raised ammonia</td><td class="py-2">Rare but life-threatening; requires urgent recognition and delivery</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">LFT abnormality discovered in the third trimester should prompt this specific differential rather than being worked up as if the patient were not pregnant.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Sickle Cell Disease</strong>
+  <p class="text-sm">Chronic haemolysis produces a raised indirect bilirubin as a baseline finding, not evidence of hepatic dysfunction - recognising this baseline pattern avoids unnecessary hepatic workup in a patient whose LFTs otherwise show no hepatocellular or cholestatic abnormality. Sickle hepatopathy (from vaso-occlusion within the liver itself) is a separate, less common entity that does produce genuine hepatocellular pattern changes and should be considered in a patient with SCD and new transaminase elevation beyond what chronic haemolysis alone would explain.</p>
+</div>
+</div>
+
+<!-- 6. What to do next -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+What to Do Next, by Pattern
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Hepatocellular pattern:</span> hepatitis B/C serology, history of alcohol/herbal/drug exposure, consider hepatitis A/E in the appropriate exposure context, correlate with malaria testing if febrile.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Cholestatic pattern:</span> abdominal ultrasound to assess for biliary obstruction/dilatation, review medication list for cholestatic drug reactions, consider malignancy in an older patient with a new obstructive pattern.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Isolated indirect hyperbilirubinaemia:</span> assess for haemolysis (reticulocyte count, blood film, haptoglobin/LDH where available) before assuming Gilbert syndrome; in a patient with known SCD, this is frequently the expected baseline.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Any marked elevation with synthetic dysfunction</span> (prolonged INR, falling albumin, encephalopathy): treat as acute liver failure until proven otherwise - this is a medical emergency requiring urgent escalation, not routine outpatient follow-up.</li>
+</ul>
+</div>
+
+<!-- 7. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Common Pitfalls
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Treating a raised ALP as liver disease without checking GGT or clinical context, when it may be bone- or pregnancy-related in origin.</li>
+  <li>Assuming a normal ALT excludes chronic hepatitis B - a substantial proportion of chronically infected patients have normal or near-normal transaminases; screen by risk factor and serology, not by ALT alone.</li>
+  <li>Not asking about herbal/traditional remedy use in unexplained hepatocellular injury, in the same way this is under-asked for renal impairment.</li>
+  <li>Forcing pregnancy-related LFT abnormalities into the standard non-pregnant differential rather than considering the pregnancy-specific conditions in Section 5.</li>
+  <li>Missing sickle cell disease as the explanation for a chronically raised indirect bilirubin, and pursuing an unnecessary hepatic workup rather than recognising the expected haemolytic pattern.</li>
+  <li>Not correlating anti-TB drug LFT monitoring with symptoms and trend, either stopping too early on a mild, asymptomatic, stable rise, or continuing too long through a significant symptomatic rise.</li>
+  <li>Treating peak transaminase level alone as the marker of severity, without weighing synthetic function (INR, albumin) - a patient with very high transaminases but preserved synthetic function has a different prognosis from one with more modest transaminase elevation but a prolonged INR.</li>
+</ul>
+</div>
+
+<!-- 8. Reading order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Classify the pattern: hepatocellular, cholestatic, mixed, or isolated hyperbilirubinaemia (Section 3).</li>
+  <li>Assess magnitude of transaminase elevation and correlate with the clinical timeline (Section 4).</li>
+  <li>Check synthetic function (INR, albumin) in any patient with significant abnormality - this determines urgency more than the transaminase level alone.</li>
+  <li>Apply the relevant clinical context: pregnancy, known SCD, TB treatment, malaria, and directed questioning about alcohol and herbal remedy use.</li>
+  <li>Direct further workup by pattern (Section 6) rather than a generic "repeat in some weeks" for every abnormal result.</li>
+  <li>Escalate urgently for any evidence of synthetic dysfunction or encephalopathy - this does not wait for outpatient follow-up.</li>
+</ol>
+</div>
+
+<!-- 9. Findings not to be missed -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Any marked LFT abnormality with a prolonged INR, falling albumin, or encephalopathy</span> - treat as acute liver failure until proven otherwise and escalate urgently.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">ALT &ge; 3&times; ULN with symptoms, or &ge; 5&times; ULN without symptoms, on anti-TB therapy</span> - stop the hepatotoxic agents; do not push through on the assumption it will settle.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">New LFT abnormality in the third trimester</span> - work up against the pregnancy-specific differential (ICP, HELLP, AFLP) rather than the standard non-pregnant framework.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Unexplained hepatocellular injury without a herbal/traditional remedy history having been asked about</span> - ask specifically before labelling the picture idiopathic.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Read the pattern across the whole panel, not any single marker - hepatocellular vs cholestatic vs isolated hyperbilirubinaemia points to different next steps.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Synthetic function (INR, albumin) determines urgency more reliably than the transaminase level alone.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>On anti-TB therapy, reintroduce sequentially - rifampicin first, then isoniazid, then pyrazinamide last or omitted - rather than restarting the full regimen at once.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A normal ALT does not exclude chronic hepatitis B - screen by risk factor and serology.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about herbal and traditional remedy use routinely in unexplained liver injury, not only after other causes are exhausted.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Thoracic Society/CDC/Infectious Diseases Society of America - Official Statement: Hepatotoxicity of Antituberculosis Therapy.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme, Nigeria - Diagnosis and Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Sanni FO, et al. (University of Ilorin Teaching Hospital) - Hepatotoxicity Due to Antituberculosis Therapy Among Paediatric Patients.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Prevention, Care and Treatment of Persons with Chronic Hepatitis B Infection.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'lab-thyroid-function-tests',
+  title: 'Thyroid Function Tests',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Endocrinology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting Thyroid Function Tests (TFTs)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting Thyroid Function Tests (TFTs)</h1>
+  <p class="text-sm text-indigo-200">TFTs are requested for a wide range of presentations - goitre, unexplained weight change, fatigue, palpitations, menstrual irregularity, infertility, and as part of antenatal or neonatal screening - but the results are frequently misread in isolation, without the pattern-recognition that TSH and free T4/T3 together are meant to provide. In Nigeria specifically, iodine status, cost-driven test selection, and pregnancy-specific reference ranges all shape how these results should be read.</p>
+</div>
+</div>
+
+<!-- 1. The Panel -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+The Basic Panel and What Each Component Measures
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">What it reflects</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">TSH (thyroid-stimulating hormone)</td><td class="py-2">Pituitary response to circulating thyroid hormone levels - the most sensitive single marker of thyroid status in a patient with an intact hypothalamic-pituitary axis</td></tr>
+      <tr><td class="py-2 pr-3">Free T4 (FT4)</td><td class="py-2">Circulating unbound thyroxine, the main hormone secreted by the thyroid</td></tr>
+      <tr><td class="py-2 pr-3">Free T3 (FT3)</td><td class="py-2">Circulating unbound triiodothyronine, the more metabolically active hormone, largely converted from T4 peripherally</td></tr>
+      <tr><td class="py-2 pr-3">Total T4/T3</td><td class="py-2">Bound plus unbound hormone - affected by binding protein levels (pregnancy, oestrogen use, liver disease, malnutrition all alter binding protein levels), making free hormone assays generally more reliable where available</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">TSH is the correct first-line screening test</span> in a patient with a normally functioning pituitary and hypothalamus. Requesting a full panel (TSH + FT4 + FT3) as the routine first test, rather than TSH alone with reflex testing if abnormal, is common in Nigerian practice partly due to how panels are packaged and priced by labs - but understanding the TSH-first logic still matters for interpretation, particularly when only partial results come back or when cost constraints limit what can be ordered.</p>
+</div>
+
+<!-- 2. Reference Ranges -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Reference Ranges
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">Typical adult reference range</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">TSH</td><td class="py-2">0.4-4.0 mIU/L (varies by assay/lab)</td></tr>
+      <tr><td class="py-2 pr-3">Free T4</td><td class="py-2">10-25 pmol/L (varies by assay/lab)</td></tr>
+      <tr><td class="py-2 pr-3">Free T3</td><td class="py-2">3.5-6.5 pmol/L (varies by assay/lab)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Reference ranges vary meaningfully between assay platforms and labs - always interpret against the specific range printed on the result, not a memorised figure, particularly when comparing serial results from different facilities.</p>
+</div>
+
+<!-- 3. Pattern -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Interpreting the Pattern
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">TSH</th>
+        <th class="py-2 pr-3 font-medium">FT4</th>
+        <th class="py-2 pr-3 font-medium">Pattern</th>
+        <th class="py-2 font-medium">Interpretation</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Classic</td><td class="py-2">Primary hypothyroidism</td></tr>
+      <tr><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Subclinical</td><td class="py-2">Subclinical hypothyroidism</td></tr>
+      <tr><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Classic</td><td class="py-2">Primary hyperthyroidism (thyrotoxicosis)</td></tr>
+      <tr><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Subclinical</td><td class="py-2">Subclinical hyperthyroidism</td></tr>
+      <tr><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Atypical</td><td class="py-2">Consider secondary (pituitary) hypothyroidism, or non-thyroidal illness (sick euthyroid syndrome) - see Section 5</td></tr>
+      <tr><td class="py-2 pr-3">High</td><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Atypical</td><td class="py-2">Consider TSH-secreting pituitary adenoma (rare), thyroid hormone resistance, or poor compliance with levothyroxine with a recent dose taken just before sampling (transient FT4 elevation)</td></tr>
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Euthyroid</td><td class="py-2">Thyroid function is not the explanation for the presenting complaint - look elsewhere, or reconsider timing/technical factors if the clinical suspicion remains strong</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Reading the pattern, not the single value, is the core skill. An isolated TSH result without a paired FT4 tells you direction but not always magnitude or category (overt vs subclinical) - this distinction changes management, particularly around whether to treat.</p>
+</div>
+
+<!-- 4. Clinical Scenarios -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Common Clinical Scenarios in Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Goitre with Normal TFTs (Euthyroid Goitre)</strong>
+  <p class="text-sm">Common where iodine deficiency remains present despite universal salt iodisation programmes, or from other causes of simple/colloid goitre. Normal TFTs with a goitre do not exclude a structural indication for further evaluation (ultrasound, and where relevant, fine-needle aspiration) - thyroid function and thyroid structure are separate questions, and a euthyroid patient can still have a nodule or mass requiring assessment.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Postpartum Thyroid Dysfunction</strong>
+  <p class="text-sm">Postpartum thyroiditis (a transient thyrotoxic phase, sometimes followed by a hypothyroid phase, in the months following delivery) is under-recognised in Nigerian practice, where postpartum fatigue, mood change, and palpitations are often attributed to normal postpartum adjustment rather than screened for thyroid dysfunction. Consider TFTs in a postpartum woman with persistent or atypical symptoms.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Pregnancy</strong>
+  <p class="text-sm">TSH reference ranges shift in pregnancy - largely due to the thyrotropic effect of hCG, which is highest in the first trimester - and trimester-specific, population-based reference ranges are recommended wherever available, since they are more accurate than any fixed cutoff.</p>
+  <p class="text-sm mt-2">Where local trimester-specific ranges are not available, current ATA guidance recommends a fixed working upper limit for TSH of <span class="font-medium text-slate-800 dark:text-slate-200">4.0 mIU/L</span> (roughly 0.5 mIU/L below the standard non-pregnant upper limit), applied from around weeks 7-12, with a gradual return toward the non-pregnant range through the second and third trimesters. This supersedes the older, frequently-cited 2011 figure of a fixed 0.1-2.5 mIU/L first-trimester range - that fixed lower cutoff was found in later studies to overdiagnose subclinical hypothyroidism and lead to unnecessary treatment, which is why the guidance was revised upward. Be aware that even the 4.0 mIU/L fallback is an imperfect substitute for a real local reference range - population data show a fixed cutoff correctly identifies less than half of true overt hypothyroidism cases in some cohorts, misclassifying the remainder as euthyroid or subclinical.</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Treatment thresholds for subclinical hypothyroidism in pregnancy</span> depend on thyroid peroxidase antibody (TPOAb) status, not TSH alone:</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">TPOAb status</th>
+          <th class="py-2 pr-3 font-medium">TSH</th>
+          <th class="py-2 font-medium">Recommendation</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Above the pregnancy-specific range (or &gt;4.0 mIU/L if using the fallback)</td><td class="py-2">Treat with levothyroxine (strong recommendation)</td></tr>
+        <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">2.5 mIU/L up to the upper limit</td><td class="py-2">Treatment may be considered (weak recommendation)</td></tr>
+        <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">&gt; 10.0 mIU/L</td><td class="py-2">Treat regardless of trimester (strong recommendation)</td></tr>
+        <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Above the pregnancy-specific range but &lt; 10.0 mIU/L</td><td class="py-2">Treatment may be considered, particularly if identified in the first trimester (weak recommendation)</td></tr>
+        <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Normal TSH</td><td class="py-2">Levothyroxine not recommended</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">TB and Rifampicin</strong>
+  <p class="text-sm">Rifampicin is a potent inducer of hepatic cytochrome P450 enzymes (particularly CYP3A4) and UGT conjugating enzymes, which increases the metabolic clearance and biliary excretion of thyroid hormone. In a patient with a normally functioning thyroid, this typically produces a mild fall in total/free T4 <span class="font-medium text-slate-800 dark:text-slate-200">without</span> a compensatory rise in TSH, because the thyroid gland increases output to compensate (thyroid volume has been shown to increase measurably during rifampicin treatment as part of this compensation) - a mildly low FT4 with a normal TSH on rifampicin is not, by itself, evidence of thyroid disease.</p>
+  <p class="text-sm mt-2">The clinically important exception is a patient with reduced thyroid reserve - established hypothyroidism on levothyroxine replacement, prior thyroidectomy, or underlying autoimmune thyroiditis - who cannot mount this compensatory increase. In this group, rifampicin can precipitate genuine, sometimes marked, hypothyroidism, with one study reporting roughly a quarter of patients on replacement levothyroxine needing a dose increase after starting rifampicin. Check TFTs before starting rifampicin in any patient with known thyroid disease or on levothyroxine, and recheck at around 3 and 6 months into treatment - spacing the two drugs apart during the day does not prevent this interaction, since it works through metabolism rather than absorption, so the fix is dose adjustment, not timing.</p>
+</div>
+</div>
+
+<!-- 5. Sick Euthyroid -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Sick Euthyroid Syndrome (Non-Thyroidal Illness)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Acute severe illness - sepsis, severe malaria, major trauma, prolonged starvation - commonly alters TFTs without true thyroid disease being present. This is a frequent source of misinterpretation in acutely unwell Nigerian inpatients where TFTs are checked as part of a broad workup.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Pattern</th>
+        <th class="py-2 font-medium">Typical finding in sick euthyroid syndrome</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Low T3</td><td class="py-2">Reduced peripheral conversion of T4 to T3 - often the earliest and most consistent change</td></tr>
+      <tr><td class="py-2 pr-3">Low or low-normal T4</td><td class="py-2">Seen with more severe or prolonged illness</td></tr>
+      <tr><td class="py-2 pr-3">TSH</td><td class="py-2">Usually normal or mildly low during acute illness, sometimes mildly elevated during the recovery phase</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Practical implication:</span> avoid diagnosing or treating thyroid dysfunction based on TFTs drawn during acute severe illness. Where thyroid function genuinely needs assessment, repeat testing after clinical recovery gives a much more interpretable result. Treating a sick euthyroid pattern as true hypothyroidism and starting levothyroxine in an acutely unwell patient is a recognised and avoidable error.</p>
+</div>
+
+<!-- 6. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Common Pitfalls
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Ordering and interpreting FT4/FT3 without TSH, or vice versa, and drawing a firm conclusion from a partial panel - cost constraints sometimes limit testing to what a patient can afford, but this should be explicit in the clinical reasoning ("TSH pending, working diagnosis based on FT4 alone") rather than treated as equivalent to a full panel result.</li>
+  <li>Interpreting TFTs drawn during acute illness as reflective of baseline thyroid status, without considering sick euthyroid syndrome (Section 5).</li>
+  <li>Applying non-pregnant TSH reference ranges to a pregnant patient, risking a missed diagnosis (using too high a cutoff) or overdiagnosis (using too low a cutoff) depending on direction.</li>
+  <li>Treating subclinical hypothyroidism the same as overt hypothyroidism without considering the specific indications for treatment at the subclinical stage (Section 4) - not every subclinical result requires immediate levothyroxine.</li>
+  <li>Missing a goitre's structural workup because TFTs are normal - euthyroid does not mean "nothing further to do" in a patient with a palpable thyroid abnormality.</li>
+  <li>Not accounting for timing relative to levothyroxine dosing when a treated hypothyroid patient's FT4 looks unexpectedly high with a still-elevated TSH - this combination can reflect poor adherence with a dose taken shortly before the blood draw ("white coat compliance"), rather than a need to increase the dose; ask specifically about the timing of the last dose relative to sampling.</li>
+  <li>Not repeating an unexpected or discordant result before acting on it - assay interference, sample handling issues, and biotin supplement use (biotin can interfere with some immunoassay platforms, producing falsely low TSH and falsely high FT4/FT3) are all recognised causes of a result that doesn't fit the clinical picture.</li>
+</ul>
+</div>
+
+<!-- 7. Reading order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Confirm which tests were actually done (TSH alone, or paired with FT4/FT3) and interpret within that limitation rather than assuming a complete picture.</li>
+  <li>Classify the pattern using Section 3 - high/low TSH against high/low/normal FT4 - before attaching a diagnosis.</li>
+  <li>Consider the clinical context specifically: is the patient acutely unwell (consider sick euthyroid), pregnant (use trimester-specific or the 4.0 mIU/L fallback range), postpartum (consider postpartum thyroiditis), or on rifampicin (consider the expected mild FT4 fall, and check for reduced thyroid reserve).</li>
+  <li>For a goitre with normal TFTs, proceed to structural assessment rather than closing the workup.</li>
+  <li>Where a result is unexpected or doesn't fit the clinical picture, repeat before treating, and specifically ask about biotin supplement use and, in a treated patient, the timing of the last levothyroxine dose relative to sampling.</li>
+</ol>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Read TSH and FT4 together as a pattern - a single value tells you direction but not the full clinical category.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In pregnancy, use a trimester-specific local range where available; where not, 4.0 mIU/L is the current fallback upper limit for TSH - not the older 2.5 mIU/L figure.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>TPOAb status, not TSH alone, determines whether subclinical hypothyroidism in pregnancy needs treatment.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check TFTs before starting rifampicin in anyone with known thyroid disease or on levothyroxine, and recheck at 3 and 6 months - dose adjustment, not timing separation, is the fix.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never diagnose thyroid disease from TFTs drawn during acute severe illness - repeat after recovery instead.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Thyroid Association - 2017 Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum (and subsequent update).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Ohnhaus EE, et al. - Influence of Rifampicin on Thyroid Gland Volume, Thyroid Hormones, and Antipyrine Metabolism. European Journal of Endocrinology.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Effect of Rifampin on Thyroid Function Test in Patients on Levothyroxine Medication. PLOS ONE.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Iodine Deficiency Disorders and Universal Salt Iodisation Guidance.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'lab-lipid-profile',
+  title: 'Lipid Profile',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Cardiometabolic',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting the Lipid Profile</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Lipid Profile</h1>
+  <p class="text-sm text-indigo-200">Lipid testing is increasingly requested in Nigerian practice as cardiovascular risk factors - obesity, hypertension, diabetes, urbanisation-linked dietary change - become more prevalent. The panel is frequently read as a single "cholesterol is high/normal" verdict, when in practice each component carries different implications, and the decision to treat rests on overall cardiovascular risk rather than any single number in isolation.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+The Panel and What Each Component Reflects
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Test</th>
+        <th class="py-2 font-medium">What it reflects</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Total cholesterol</td><td class="py-2">Sum of cholesterol carried in all lipoprotein particles (LDL, HDL, VLDL) - the least specific single number in the panel</td></tr>
+      <tr><td class="py-2 pr-3">LDL-cholesterol (LDL-C)</td><td class="py-2">The primary atherogenic particle and the main treatment target in most cardiovascular risk reduction guidance</td></tr>
+      <tr><td class="py-2 pr-3">HDL-cholesterol (HDL-C)</td><td class="py-2">Involved in reverse cholesterol transport; higher levels are generally associated with lower cardiovascular risk, though HDL-raising interventions have not reliably translated into outcome benefit in trials</td></tr>
+      <tr><td class="py-2 pr-3">Triglycerides</td><td class="py-2">Reflects dietary fat/carbohydrate load, hepatic VLDL production, and metabolic status; markedly elevated levels carry a distinct risk (pancreatitis) separate from atherosclerotic risk</td></tr>
+      <tr><td class="py-2 pr-3">Non-HDL cholesterol</td><td class="py-2">Total cholesterol minus HDL - captures all atherogenic particles (LDL plus VLDL/remnants) and does not require fasting, making it a practical alternative to LDL-C in many settings</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Reference Ranges and Categories
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Parameter</th>
+        <th class="py-2 pr-3 font-medium">Desirable</th>
+        <th class="py-2 pr-3 font-medium">Borderline</th>
+        <th class="py-2 font-medium">High</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Total cholesterol</td><td class="py-2 pr-3">&lt; 5.2 mmol/L (200 mg/dL)</td><td class="py-2 pr-3">5.2-6.2 mmol/L</td><td class="py-2">&ge; 6.2 mmol/L</td></tr>
+      <tr><td class="py-2 pr-3">LDL-C</td><td class="py-2 pr-3">&lt; 2.6 mmol/L (optimal)</td><td class="py-2 pr-3">2.6-4.1 mmol/L</td><td class="py-2">&ge; 4.1 mmol/L</td></tr>
+      <tr><td class="py-2 pr-3">HDL-C</td><td class="py-2 pr-3" colspan="2">&ge; 1.0 mmol/L (men), &ge; 1.3 mmol/L (women) - low if below this</td><td class="py-2">High HDL (&ge; 1.6 mmol/L) considered protective</td></tr>
+      <tr><td class="py-2 pr-3">Triglycerides</td><td class="py-2 pr-3">&lt; 1.7 mmol/L</td><td class="py-2 pr-3">1.7-2.3 mmol/L</td><td class="py-2">&ge; 2.3 mmol/L (&ge; 5.6 mmol/L = high; &ge; 11.3 mmol/L = severe, sharply increased pancreatitis risk)</td></tr>
+      <tr><td class="py-2 pr-3">Non-HDL-C</td><td class="py-2 pr-3">&lt; 3.4 mmol/L</td><td class="py-2 pr-3">3.4-4.9 mmol/L</td><td class="py-2">&ge; 4.9 mmol/L</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">These categories describe where a value sits descriptively, but current guidance frames LDL-C management around individualised treatment goals by risk category, rather than a single population-wide cutoff applied to everyone - see Section 4.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Fasting vs Non-Fasting
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>Traditional practice required a 9-12 hour fast before lipid testing, primarily because triglycerides rise significantly after a meal (and LDL-C, when calculated rather than directly measured, depends on the triglyceride value - see below).</li>
+  <li>Current guidance from major cardiology bodies accepts <span class="font-medium text-slate-800 dark:text-slate-200">non-fasting lipid panels for routine screening and cardiovascular risk assessment</span> in adults 20 years and older not already on lipid-lowering therapy, since non-fasting values predict cardiovascular risk comparably well and improve practical test uptake.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Fasting remains preferred when triglycerides are the primary focus</span> - assessing for severe hypertriglyceridaemia, or confirming a markedly elevated non-fasting triglyceride result (current guidance suggests repeating fasting if a non-fasting triglyceride is &ge; 4.5 mmol/L / 400 mg/dL or higher).</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">This matters directly for how LDL-C is often reported:</span> where LDL-C is calculated (Friedewald equation: LDL-C = Total cholesterol - HDL-C - Triglycerides/2.2 in mmol/L) rather than directly measured, a non-fasting triglyceride value can distort the calculated LDL-C - worth being aware of which method the local lab uses, since directly measured LDL-C avoids this issue entirely.</li>
+</ul>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic mt-3">"You do not necessarily need to fast for this test in most cases, but if we're specifically checking for a triglyceride problem, or if a previous non-fasting result showed a notably high triglyceride level, a fasting sample gives a clearer picture."</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Cardiovascular Risk Stratification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Treatment decisions, particularly around starting a statin, are driven by overall cardiovascular risk, not LDL-C alone. A patient with a moderately elevated LDL-C but multiple other risk factors may warrant treatment sooner than a patient with a higher LDL-C but no other risk factors.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Factors incorporated into risk assessment:</span> age, sex, blood pressure, diabetes status, smoking status, total cholesterol/HDL-C ratio or LDL-C, family history of premature cardiovascular disease, and existing cardiovascular disease or diabetic end-organ damage (which automatically places a patient in a high-risk category regardless of calculated score).</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Current Risk Categories and LDL-C Goals</strong>
+  <p class="text-sm">US guidance moved from the 2018 ACC/AHA framework to a newer risk calculator (PREVENT-ASCVD, replacing the older Pooled Cohort Equations, which had been found to overestimate 10-year risk by roughly 40-50%). Risk categories under this newer framework are lower-numbered than the 2018 categories, so a "high risk" label under one framework does not map directly onto the same numeric threshold under the other:</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">10-year ASCVD risk category</th>
+          <th class="py-2 font-medium">Approximate threshold</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Low</td><td class="py-2">&lt; 3%</td></tr>
+        <tr><td class="py-2 pr-3">Borderline</td><td class="py-2">3% to &lt; 5%</td></tr>
+        <tr><td class="py-2 pr-3">Intermediate</td><td class="py-2">5% to &lt; 10%</td></tr>
+        <tr><td class="py-2 pr-3">High</td><td class="py-2">&ge; 10%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">LDL-C treatment goals by clinical situation:</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-1">
+    <li>Established ASCVD, very high risk: LDL-C &lt; 1.4 mmol/L (55 mg/dL) and non-HDL-C &lt; 2.2 mmol/L (85 mg/dL)</li>
+    <li>High-risk primary prevention: LDL-C &lt; 1.8 mmol/L (70 mg/dL)</li>
+    <li>Borderline/intermediate risk: LDL-C &lt; 2.6 mmol/L (100 mg/dL)</li>
+    <li>Severe primary hypercholesterolaemia (LDL-C &ge; 4.9 mmol/L / 190 mg/dL): high-intensity statin recommended without needing a formal risk calculation</li>
+    <li>Diabetes, ages 40-75: moderate-intensity statin generally indicated without needing a formal risk calculation, escalating to high-intensity as additional risk factors accrue</li>
+  </ul>
+</div>
+
+<p class="text-sm mt-2">Where formal cardiovascular risk calculators are not readily used in routine Nigerian practice, the presence of diabetes, established vascular disease, LDL-C &ge; 4.9 mmol/L, or multiple concurrent risk factors (hypertension plus smoking plus strong family history, for example) should be treated as sufficient grounds to consider statin therapy without necessarily waiting for a formal risk score.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Secondary Causes of Dyslipidaemia
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A lipid abnormality is not always primary - screening for a secondary cause is worthwhile, particularly with a marked or atypical abnormality, or in a younger patient.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Secondary cause</th>
+        <th class="py-2 font-medium">Typical lipid effect</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Hypothyroidism</td><td class="py-2">Raised total cholesterol and LDL-C - check TSH in any new significant dyslipidaemia, particularly with other suggestive features</td></tr>
+      <tr><td class="py-2 pr-3">Uncontrolled diabetes</td><td class="py-2">Raised triglycerides, low HDL-C, small dense LDL particles (not always reflected simply in standard LDL-C)</td></tr>
+      <tr><td class="py-2 pr-3">Nephrotic syndrome</td><td class="py-2">Marked hypercholesterolaemia from increased hepatic lipoprotein synthesis</td></tr>
+      <tr><td class="py-2 pr-3">Chronic kidney disease</td><td class="py-2">Raised triglycerides, altered lipoprotein metabolism</td></tr>
+      <tr><td class="py-2 pr-3">Alcohol excess</td><td class="py-2">Raised triglycerides, sometimes markedly so</td></tr>
+      <tr><td class="py-2 pr-3">Liver disease (cholestatic)</td><td class="py-2">Raised total cholesterol</td></tr>
+      <tr><td class="py-2 pr-3">Certain medications</td><td class="py-2">Thiazides, non-selective beta-blockers, corticosteroids, and some older antiretrovirals can all worsen the lipid profile - review medication list, particularly in a patient on long-term HIV treatment</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Correcting the secondary cause where identified (treating hypothyroidism, improving glycaemic control, addressing alcohol use) often improves the lipid profile substantially, sometimes without requiring separate lipid-lowering therapy.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Common Clinical Scenarios in Nigerian Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Underdiagnosed Familial Hypercholesterolaemia</strong>
+  <p class="text-sm">A markedly elevated LDL-C (particularly with a family history of early cardiovascular events, or physical signs such as tendon xanthomas or corneal arcus in a younger patient) should raise suspicion for familial hypercholesterolaemia - a genetic condition that is likely underdiagnosed in Nigerian practice given limited routine lipid screening and cascade family testing. This warrants more assertive treatment and, where feasible, screening of first-degree relatives.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Dietary Pattern Considerations</strong>
+  <p class="text-sm">Traditional Nigerian diets vary widely, but heavy use of palm oil, fried foods, and, in some contexts, increasing intake of processed and refined foods with urbanisation all contribute to dyslipidaemia risk. Dietary counselling should be specific and practical rather than generic "eat healthy" advice.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Antiretroviral-Related Dyslipidaemia</strong>
+  <p class="text-sm">The lipid effect of antiretroviral therapy depends heavily on the specific regimen. Older, ritonavir-boosted protease inhibitor-based regimens are the most consistently associated with significant dyslipidaemia (raised triglycerides and LDL-C). Current first-line regimens built around dolutegravir and other integrase strand transfer inhibitors have a comparatively neutral lipid profile, though dolutegravir is independently associated with weight gain, which can indirectly worsen the lipid and metabolic profile over time. Check a baseline and periodic lipid profile in patients on long-term ART, particularly if the regimen includes an older protease inhibitor or if there has been substantial weight gain since starting treatment.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Access and Cost Considerations</strong>
+  <p class="text-sm">Statin availability and affordability vary across the country, and this legitimately affects treatment planning. Where cost limits options, prioritising treatment for the highest-risk patients (established cardiovascular disease, diabetes with additional risk factors) over borderline primary prevention cases is a reasonable, evidence-consistent approach when resources must be allocated.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Common Pitfalls
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Treating total cholesterol as the primary decision-making number - LDL-C (or non-HDL-C where LDL-C isn't directly available) is the more clinically meaningful target; total cholesterol alone can be misleading, particularly when HDL-C is very high or very low.</li>
+  <li>Requiring a fasting sample for every lipid test, creating an unnecessary barrier to testing when non-fasting is acceptable for most routine screening purposes.</li>
+  <li>Not checking for secondary causes in a new, marked, or atypical dyslipidaemia - particularly missing hypothyroidism or poorly controlled diabetes as the actual driver.</li>
+  <li>Applying a single fixed LDL-C threshold to every patient rather than considering overall cardiovascular risk, potentially undertreating a high-risk patient with a "borderline" LDL-C or overtreating a low-risk patient with a mildly elevated one.</li>
+  <li>Missing familial hypercholesterolaemia in a younger patient with a markedly elevated LDL-C, by attributing it to diet and lifestyle alone without considering a genetic cause and family screening.</li>
+  <li>Not treating markedly elevated triglycerides (&ge; 11.3 mmol/L) as an acute pancreatitis priority distinct from cardiovascular risk - this level warrants more urgent dietary and pharmacological intervention than routine dyslipidaemia management timelines would suggest.</li>
+  <li>Discontinuing statin therapy once lipid levels normalise, without explaining that ongoing therapy is what maintains the improved levels - the same "I feel fine, so I can stop" adherence pattern seen with hypertension and diabetes applies directly here, and deserves the same explicit counselling.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Confirm whether the sample was fasting or non-fasting, and whether this matters for the specific question being asked (Section 3).</li>
+  <li>Assess LDL-C (or non-HDL-C) as the primary treatment-relevant number, not total cholesterol alone.</li>
+  <li>Check triglycerides specifically for markedly elevated values requiring urgent attention (pancreatitis risk) separate from routine cardiovascular risk management.</li>
+  <li>Place the result in the context of overall cardiovascular risk (Section 4) rather than treating any single lipid value in isolation.</li>
+  <li>Screen for secondary causes, particularly with a marked, atypical, or early-onset abnormality.</li>
+  <li>Reinforce that ongoing treatment (medication and lifestyle) maintains improved levels - normalisation is not a treatment endpoint to stop at.</li>
+</ol>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>LDL-C, not total cholesterol, is the number that drives treatment decisions.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Non-fasting samples are acceptable for routine screening - fasting is only needed when triglycerides are specifically the focus.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treatment goals are now individualised by risk category (as low as &lt;1.4 mmol/L for very-high-risk secondary prevention), not a single fixed cutoff for everyone.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen for secondary causes (hypothyroidism especially) before committing a younger or atypical patient to lifelong primary dyslipidaemia treatment.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat triglycerides &ge; 11.3 mmol/L as a pancreatitis emergency in waiting, not just a cardiovascular risk number.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>ACC/AHA/Multisociety - 2026 Guideline on the Management of Dyslipidemia (superseding the 2018 Guideline on the Management of Blood Cholesterol).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Heart Association - PREVENT-ASCVD Risk Equations.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>DHHS/WHO Antiretroviral Guidelines - Lipid Effects by Regimen Class.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'lab-fbs-rbs-hba1c',
+  title: 'FBS, RBS, and HbA1c',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Endocrinology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting FBS, RBS, and HbA1c</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting FBS, RBS, and HbA1c</h1>
+  <p class="text-sm text-indigo-200">These three tests answer different questions - a point-in-time glucose level, a random snapshot, and an average over months - and are frequently misread as interchangeable. In Nigerian practice, sample-handling delays, endemic haemoglobinopathies, and chronic anaemia all distort these results in specific, predictable ways that are worth knowing before acting on a number.</p>
+</div>
+</div>
+
+<!-- 1. FBS -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Fasting Blood Sugar (FBS)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">FBS is measured after at least 8 hours without caloric intake, reflecting hepatic glucose output and basal insulin sensitivity in the absence of a recent meal.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 font-medium">FBS (mmol/L)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2">&lt; 5.6</td></tr>
+      <tr><td class="py-2 pr-3">Impaired fasting glucose (prediabetes)</td><td class="py-2">5.6-6.9</td></tr>
+      <tr><td class="py-2 pr-3">Diabetes</td><td class="py-2">&ge; 7.0</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">What to Do Next</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>A single elevated FBS is not sufficient for a diabetes diagnosis outside overt symptomatic hyperglycaemia - confirm with a repeat FBS, an OGTT, or HbA1c on a separate occasion.</li>
+    <li>In a patient with classic symptoms (polyuria, polydipsia, unexplained weight loss) plus an unambiguously elevated FBS, a single result is diagnostic and repeat testing before starting treatment is not necessary.</li>
+    <li>An FBS in the impaired range should prompt counselling on prediabetes and lifestyle intervention, not dismissal as a normal variant.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Common Pitfalls</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">"Fasting" not genuinely enforced.</span> Patients frequently report as fasting after a short overnight gap, or after consuming tea, pap, or other calorie-containing drinks they don't count as food. A falsely low or inconsistent FBS in a patient with a clinical picture suggestive of diabetes should prompt a more carefully supervised repeat test rather than acceptance at face value.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Delayed sample processing lowering the result.</span> Glucose continues to be metabolised by red and white cells in a whole blood sample sitting at room temperature awaiting analysis - a meaningful concern where samples travel between collection point and lab, or sit for extended periods before processing. Fluoride-oxalate collection tubes prevent this; plain tubes without prompt processing can produce a falsely low reading, occasionally enough to mask a diagnosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Missing the diagnosis in a patient who is unwell at the time of testing</span>, since acute illness (infection, particularly malaria) can transiently affect glucose in either direction - a single abnormal or borderline result during acute illness should be interpreted cautiously and, where diabetes is not already known, revisited once the patient has recovered.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 2. RBS -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Random Blood Sugar (RBS)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">RBS is taken without regard to time since the last meal, and is most useful as a rapid screening or emergency assessment tool rather than a definitive diagnostic test on its own.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 pr-3 font-medium">RBS (mmol/L)</th>
+        <th class="py-2 font-medium">Interpretation</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Unequivocally normal</td><td class="py-2 pr-3">&lt; 7.8</td><td class="py-2">Diabetes unlikely on this result alone</td></tr>
+      <tr><td class="py-2 pr-3">Equivocal</td><td class="py-2 pr-3">7.8-11.0</td><td class="py-2">Requires confirmatory testing (FBS, OGTT, or HbA1c)</td></tr>
+      <tr><td class="py-2 pr-3">Diagnostic (with classic symptoms)</td><td class="py-2 pr-3">&ge; 11.1</td><td class="py-2">Sufficient for diagnosis if accompanied by polyuria, polydipsia, or unexplained weight loss</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">What to Do Next</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>RBS &ge; 11.1 mmol/L without classic symptoms should be followed by confirmatory testing rather than an immediate diagnosis of diabetes.</li>
+    <li>In the emergency setting - an unconscious, confused, or critically unwell patient - RBS (via glucometer) is the appropriate immediate test, both to identify hypoglycaemia as a reversible cause of altered consciousness and to flag marked hyperglycaemia requiring urgent management (e.g. diabetic ketoacidosis, hyperosmolar state).</li>
+    <li>A very low RBS in a collapsed or unconscious patient should prompt immediate glucose correction before waiting for any confirmatory laboratory result - treat first in this specific scenario.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Common Pitfalls</strong>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Using RBS alone to rule out diabetes.</span> A normal RBS shortly after a meal does not exclude diabetes in a patient with a suggestive history - a normal RBS is reassuring only in the sense of excluding severe, acute hyperglycaemia at that moment, not diabetes as an underlying diagnosis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Glucometer accuracy at extremes.</span> Point-of-care glucometers, the primary tool for RBS in most Nigerian facilities, lose accuracy at very high and very low glucose values, and are also affected by severe anaemia, dehydration, and poor peripheral perfusion in a shocked patient - where the clinical picture and glucometer reading disagree markedly, treat the clinical picture as more reliable and send a formal laboratory sample where feasible.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Not accounting for time since last meal when interpreting a value in the equivocal range.</span> A value of 9 mmol/L taken 30 minutes after a heavy meal carries different weight than the same value taken 4 hours after eating - document timing where possible rather than treating RBS values as directly comparable across encounters.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 3. HbA1c -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+HbA1c
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">HbA1c reflects the proportion of haemoglobin that has become glycated over the lifespan of circulating red cells, giving an average glucose exposure over approximately the preceding 8-12 weeks (weighted more toward the most recent 30 days).</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 font-medium">HbA1c (%)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2">&lt; 5.7</td></tr>
+      <tr><td class="py-2 pr-3">Prediabetes</td><td class="py-2">5.7-6.4</td></tr>
+      <tr><td class="py-2 pr-3">Diabetes</td><td class="py-2">&ge; 6.5</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Target for known diabetes:</span> generally &lt; 7% for most adults, individualised higher for elderly or frail patients, and individualised lower in selected younger patients without significant hypoglycaemia risk.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">What to Do Next</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Use HbA1c for diagnosis where feasible and for monitoring long-term control every 3 months in patients on active treatment adjustment, or every 6 months once stable at target.</li>
+    <li>Where HbA1c and a same-day glucose value disagree substantially, consider the pitfalls below (haemoglobinopathy, anaemia, recent transfusion) before assuming laboratory error.</li>
+    <li>A rising HbA1c despite reported medication adherence should prompt review of the actual regimen, dietary pattern, and adherence in detail - before escalating therapy, confirm the input (adherence, diet) rather than assuming the current regimen has simply become inadequate.</li>
+  </ul>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Common Pitfalls - This Is Where Nigerian Context Matters Most</strong>
+  <p class="text-sm">Haemoglobinopathies invalidate standard HbA1c interpretation. Given the prevalence of sickle cell trait and disease, and HbC trait, in the Nigerian population, this is the single most important pitfall in this section.</p>
+  <div class="overflow-x-auto mt-3">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Condition</th>
+          <th class="py-2 font-medium">Effect on HbA1c</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Sickle cell trait (HbAS)</td><td class="py-2">Red cell lifespan is essentially normal, so the biological premise of the test holds - but this does not guarantee an accurate reading. A 2026 West African study (Korle Bu Teaching Hospital, Accra) directly comparing methods found that immunoturbidimetric assays - a common, lower-cost method used in many African labs - significantly underestimated HbA1c in HbAS patients compared with HPLC (mean 5.1% vs 5.9%). This under-reading was severe enough that immunoassay classified none of the HbAS patients with genotype-confirmed diabetes as diabetic, while HPLC correctly identified 4% as diabetic. If the method in use locally is not confirmed as validated for HbAS, treat a reassuring result with caution rather than certainty.</td></tr>
+        <tr><td class="py-2 pr-3">Sickle cell disease (HbSS)</td><td class="py-2">Reduced red cell lifespan falsely lowers HbA1c regardless of actual glycaemic control - a normal or low HbA1c in a patient with HbSS does not reliably rule out poor glycaemic control.</td></tr>
+        <tr><td class="py-2 pr-3">HbC trait (HbAC), also relevant in West Africa</td><td class="py-2">Mild, method-dependent interference reported; HbCC disease causes more significant haemolysis and a greater risk of spuriously low results, similar in principle to HbSS.</td></tr>
+        <tr><td class="py-2 pr-3">Any haemolytic process (including chronic malaria-related haemolysis)</td><td class="py-2">Shortened red cell survival lowers HbA1c independent of true glucose exposure.</td></tr>
+        <tr><td class="py-2 pr-3">Iron deficiency anaemia</td><td class="py-2">Tends to falsely raise HbA1c.</td></tr>
+        <tr><td class="py-2 pr-3">Recent blood transfusion</td><td class="py-2">Introduces donor red cells of a different age distribution and glycation history, invalidating the result for a period following transfusion.</td></tr>
+        <tr><td class="py-2 pr-3">Pregnancy</td><td class="py-2">Physiological changes in red cell turnover affect HbA1c; fasting/OGTT-based diagnosis is preferred in pregnancy rather than HbA1c.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-3"><span class="font-medium text-slate-800 dark:text-slate-200">Practical implication:</span> in a patient with known or suspected sickle cell trait or disease, HbC trait, or significant chronic anaemia from any cause, do not rely on HbA1c alone as the marker of glycaemic control - and where HbA1c is used, boronate affinity HPLC or enzymatic methods are the least affected by these variants if a choice of assay is available locally. Use fasting and random glucose monitoring, and where feasible, fructosamine (reflecting a shorter, 2-3 week window and unaffected by red cell lifespan - normal range roughly 200-285 &micro;mol/L, though the result becomes unreliable if serum albumin is below 3.0 g/dL, relevant in malnutrition, nephrotic syndrome, or chronic liver disease) as an alternative in these specific patients.</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Other pitfalls:</span> treating HbA1c as reflective of very recent (days) glucose changes - it cannot detect a change in control from the past few days and should not be used to assess the effect of a very recent intervention. Also, not accounting for the assay method's known interference profile - different HbA1c platforms have different vulnerabilities to haemoglobin variants, and what holds for one method does not automatically apply to another.</p>
+</div>
+</div>
+
+<!-- 4. Reconciling -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Reconciling Discordant Results
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Scenario</th>
+        <th class="py-2 pr-3 font-medium">Likely explanation</th>
+        <th class="py-2 font-medium">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">High FBS/RBS, unexpectedly normal/low HbA1c</td><td class="py-2 pr-3">Haemolysis, haemoglobinopathy (especially HbSS), recent significant blood loss, or very recent onset of hyperglycaemia (HbA1c hasn't caught up yet)</td><td class="py-2">Investigate for haemolytic/haemoglobinopathy causes; rely on direct glucose monitoring in the interim</td></tr>
+      <tr><td class="py-2 pr-3">Normal FBS/RBS, unexpectedly high HbA1c</td><td class="py-2 pr-3">Iron deficiency anaemia, or genuinely fluctuating glucose control not captured by a single point-in-time sample (e.g. marked post-meal spikes with normal fasting values)</td><td class="py-2">Check iron studies; consider post-prandial glucose testing to capture the pattern a single fasting value misses</td></tr>
+      <tr><td class="py-2 pr-3">FBS normal, RBS/OGTT elevated</td><td class="py-2 pr-3">Isolated post-prandial impairment - common in early type 2 diabetes, where fasting glucose is preserved longer than post-meal handling</td><td class="py-2">Do not exclude diabetes on a normal FBS alone if clinical suspicion is present; proceed to OGTT or HbA1c</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 5. Reading order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Reading Order in Practice
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Establish which question is being asked: is this a diagnostic test, a monitoring test, or an emergency assessment? This determines which of the three is appropriate, rather than defaulting to whichever is easiest to obtain.</li>
+  <li>For diagnosis, confirm any single abnormal result with a second test on a separate occasion, unless classic symptoms with unambiguous hyperglycaemia are present.</li>
+  <li>Before accepting an unexpected HbA1c result, actively consider haemoglobinopathy and haemolysis - particularly relevant given local prevalence - rather than treating the number at face value.</li>
+  <li>In the emergency setting, use RBS via glucometer immediately, treat hypoglycaemia on the spot if found, and send a formal laboratory sample where the glucometer reading and clinical picture disagree.</li>
+  <li>For ongoing monitoring in a patient with known diabetes and a coexisting haemoglobinopathy or chronic haemolytic condition, use direct glucose monitoring (and fructosamine where available) rather than relying on HbA1c as the primary control marker.</li>
+</ol>
+</div>
+
+<!-- 6. Findings not to be missed -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Findings That Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A very low RBS in a collapsed or unconscious patient</span> - correct immediately; do not wait for a confirmatory laboratory result.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A reassuringly normal HbA1c in a patient with sickle cell trait, sickle cell disease, or HbC trait</span> - do not accept this at face value without knowing whether the local assay method is validated for that variant; use direct glucose monitoring or fructosamine instead where there is doubt.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A normal FBS that doesn't fit the clinical picture</span> - consider a delayed, poorly handled sample or an inadequately enforced fast before ruling out diabetes.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Marked glucometer-clinical picture disagreement in a shocked or severely anaemic patient</span> - trust the clinical picture and send a formal laboratory sample.</span></li>
+</ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>FBS, RBS, and HbA1c answer different clinical questions - match the test to the question rather than treating them as interchangeable.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cell trait is common enough locally that a normal HbA1c should not be assumed accurate by default - the assay method matters as much as the number.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm any single abnormal diagnostic result on a separate occasion, unless classic symptoms with unambiguous hyperglycaemia are already present.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use fructosamine or direct glucose monitoring, not HbA1c, as the primary control marker in patients with a haemoglobinopathy or chronic haemolysis.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In an emergency, treat a very low glucometer reading immediately - do not wait for laboratory confirmation.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Diabetes Association - Standards of Care in Diabetes, 2025.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kumahor E, et al. (Korle Bu Teaching Hospital, Accra) - Immunoassay Underestimation of HbA1c in Sickle Cell Trait. Presented at ADLM 2026.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Glycohemoglobin Standardization Program (NGSP) - Factors that Interfere with HbA1c Test Results.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Sickle Cell Foundation Nigeria - Clinical Guidelines for the Management of Sickle Cell Disease.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
   id: 'lab-full-blood-count',
   title: 'Full Blood Count',
   category: 'Laboratory Interpretation',
@@ -9500,6 +11833,1107 @@ Patient Health Education Points
 
 // COUNSELLING
 {
+  id: 'counselling-peptic-ulcer-disease',
+  title: 'Peptic Ulcer Disease',
+  category: 'Counselling',
+  subCategory: 'Gastrointestinal',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Counselling Guide for a Patient with Peptic Ulcer Disease</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+.quote { border-left: 3px solid; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Peptic Ulcer Disease</h1>
+  <p class="text-sm text-indigo-200">Peptic ulcer counselling has to correct two things almost every patient believes: that spicy food or stress caused it, and that pain resolving means treatment is finished. Neither is true, and both drive the two most common reasons for recurrence - unrecognised NSAID use and early discontinuation. This guide gives a structured session adapted for a Nigerian setting, including where local H. pylori resistance patterns actually change the treatment regimen.</p>
+</div>
+</div>
+
+<!-- 1. Rapport -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction and Establishing Rapport
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Good morning/afternoon. My name is Dr. ____. I'd like to talk with you about the stomach/abdominal symptoms you've been having, what's likely causing them, and how we can treat and prevent them from coming back."</p>
+<p class="text-sm">Ensure privacy. Many patients have already self-medicated extensively before presenting - ask early and non-judgmentally what they have already tried, since this shapes both the explanation and the treatment plan.</p>
+</div>
+
+<!-- 2. Explaining -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Explaining Peptic Ulcer Disease
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What Is a Peptic Ulcer?</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"The lining of your stomach and the first part of your small intestine is normally protected from the acid your stomach produces. A peptic ulcer is a break in that protective lining, caused either by too much acid, a weakened protective lining, or both. It can happen in the stomach or in the duodenum, just after the stomach."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Explaining the Diagnosis</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Based on your symptoms [and test results, if done], this is consistent with a peptic ulcer. The good news is this is very treatable, and in most cases we can identify and remove the underlying cause so it doesn't come back."</p>
+</div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Correcting Common Misconceptions</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">What the patient says</th>
+        <th class="py-2 pr-3 font-medium">What it reflects</th>
+        <th class="py-2 font-medium">How to respond</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">"It's from eating spicy/pepper food"</td><td class="py-2 pr-3">Overattribution of symptom triggers to diet as the root cause</td><td class="py-2">Acknowledge that spicy food can worsen symptoms in someone who already has an ulcer, but explain that it does not itself cause the ulcer - the two main causes are a specific stomach infection (H. pylori) and certain pain medications.</td></tr>
+      <tr><td class="py-2 pr-3">"It's from too much stress/worry alone"</td><td class="py-2 pr-3">Partial truth taken as the whole explanation</td><td class="py-2">Explain that stress can worsen symptoms and slow healing, but is very rarely the sole cause - ask specifically about pain medication use and prior treatment for stomach infection before accepting stress as the explanation.</td></tr>
+      <tr><td class="py-2 pr-3">"I take paracetamol/aspirin/diclofenac for body pain, it has nothing to do with my stomach"</td><td class="py-2 pr-3">Common and consequential - NSAID use is a leading cause and often not volunteered unless asked directly</td><td class="py-2">Ask specifically about all pain medications, including those bought over the counter, and explain the mechanism directly: certain pain medications reduce the stomach's natural protection against its own acid.</td></tr>
+      <tr><td class="py-2 pr-3">"Ulcer is just 'hot stomach' from eating irregularly, not a real sickness"</td><td class="py-2 pr-3">Cultural framing that can delay presentation or reduce perceived seriousness</td><td class="py-2">Validate the lived experience (irregular eating and delayed meals can worsen symptoms) while clearly stating this is a recognised medical condition with an identifiable cause and effective treatment.</td></tr>
+      <tr><td class="py-2 pr-3">"Once the pain stops, I don't need to finish the medication"</td><td class="py-2 pr-3">The same adherence pattern seen in most chronic/subacute conditions</td><td class="py-2">Explain directly that pain relief occurs before the ulcer or infection is fully treated, and stopping early is the most common reason ulcers recur or fail to heal.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Causes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Causes and Risk Factors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Major Causes</strong>
+  <p class="text-sm"><em>Helicobacter pylori</em> infection - the leading cause of peptic ulcer disease worldwide and in Nigeria. NSAIDs (ibuprofen, diclofenac, aspirin, and other pain medications) - a major and frequently underreported cause, particularly with regular self-medication for chronic body pains, arthritis, or headache.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Contributing/Risk Factors</strong>
+  <p class="text-sm">Smoking (impairs healing and increases recurrence); alcohol use; irregular meal patterns and prolonged fasting; severe physiological stress (major illness, burns, trauma - a different mechanism from everyday psychological stress); family history.</p>
+</div>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Two things cause almost all peptic ulcers: a specific stomach infection called H. pylori, and certain pain medications taken regularly. Everything else - stress, diet, smoking - can make symptoms worse or slow healing, but rarely causes an ulcer on its own."</p>
+</div>
+
+<!-- 4. Symptoms -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Symptoms and When They Point to a Complication
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Typical symptoms:</span> burning or gnawing epigastric pain, often related to meals (classically worse with food in gastric ulcers, and relieved by food but recurring 2-3 hours later in duodenal ulcers - though this distinction is not always reliable in practice), bloating, early satiety, nausea.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="text-sm text-rose-900 dark:text-rose-300 mb-3">Alarm features requiring urgent evaluation - explain these clearly to every patient.</p>
+<p class="quote border-rose-300 dark:border-rose-600 pl-4 italic text-sm text-rose-900 dark:text-rose-300 mb-3">"There are certain warning signs that need urgent attention rather than waiting for routine treatment to work. Please come back immediately, or go to the nearest emergency unit, if you notice any of the following."</p>
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Vomiting blood, or vomit that looks like coffee grounds</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Black, tarry stool, or visible blood in stool</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Difficulty or pain swallowing</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Unintentional weight loss</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Persistent vomiting</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Severe, sudden abdominal pain (possible perforation)</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Symptoms in a patient over 55-60 years presenting for the first time, or with a family history of stomach cancer</span></li>
+</ul>
+</div>
+
+<!-- 5. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Investigations
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Where possible, we try to identify the specific cause before starting treatment, so we can treat it directly rather than just controlling symptoms."</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">H. pylori testing:</span> stool antigen test, urea breath test (where available), or biopsy-based testing (rapid urease test, histology) at endoscopy.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Endoscopy:</span> recommended for alarm features, patients over the typical age cutoff for this population, or symptoms not responding to initial treatment - directly visualises the ulcer and allows biopsy to exclude malignancy, particularly for gastric ulcers.</li>
+  <li><span class="font-medium text-slate-800 dark:text-slate-200">Full blood count:</span> to check for anaemia from occult chronic blood loss.</li>
+</ul>
+</div>
+
+<!-- 6. Medication -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Medication Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Treatment usually has two parts: medication to reduce stomach acid and allow the ulcer to heal, and - if the H. pylori infection is present - a course of antibiotics to clear it completely. Both parts matter; treating only the acid without clearing the infection means the ulcer is likely to come back."</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acid Suppression</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Drug class</th>
+          <th class="py-2 pr-3 font-medium">Examples</th>
+          <th class="py-2 font-medium">Counselling point</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Proton pump inhibitors (PPIs)</td><td class="py-2 pr-3">Omeprazole 20-40 mg, esomeprazole 20-40 mg, lansoprazole 30 mg, pantoprazole 40 mg - typically once daily</td><td class="py-2">First-line acid suppression; take 30-60 minutes before the first meal of the day for best effect - this timing is frequently done incorrectly and reduces effectiveness</td></tr>
+        <tr><td class="py-2 pr-3">H2-receptor antagonists</td><td class="py-2 pr-3">Ranitidine (where still available/used), famotidine</td><td class="py-2">Alternative or adjunct; generally less potent acid suppression than PPIs</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">H. pylori Eradication</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"If the infection is confirmed or strongly suspected, you'll be given a combination of antibiotics plus an acid-reducing medication, for 14 days. It is essential to complete the full course, exactly as prescribed, even if you start feeling better after a few days."</p>
+  <p class="text-sm mt-2">A 14-day course is the current standard, rather than the shorter 7-10 day courses used historically, because it achieves meaningfully higher eradication rates. Standard clarithromycin-based triple therapy (PPI plus amoxicillin plus clarithromycin) is increasingly unreliable across Africa: pooled data show clarithromycin resistance around 29% and amoxicillin resistance over 70% in some regional meta-analyses, both well above the threshold where triple therapy is expected to work reliably - though local studies vary considerably (a Kano-based study, for example, found the opposite pattern locally, with high amoxicillin resistance but full clarithromycin sensitivity). Current African-specific consensus guidance (the 2024 Lagos Consensus Statement) favours quadruple therapy - a PPI with three antimicrobial agents (commonly amoxicillin, clarithromycin, and metronidazole, or a bismuth-containing regimen where available) - as the more reliable first-line choice in this setting, rather than defaulting to standard triple therapy. Confirm the specific regimen against current local antibiogram data or national guidance where available, since resistance patterns vary meaningfully even within Nigeria.</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Counselling points specific to eradication therapy:</span></p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-1">
+    <li>Explain the multi-drug regimen clearly in writing where possible - this is a more complex regimen than most patients are used to, and confusion between tablets is common.</li>
+    <li>Warn about a possible metallic taste and alcohol interaction (marked nausea/flushing) with metronidazole.</li>
+    <li>Emphasise that stopping early is the single most common reason for treatment failure and ulcer recurrence, even more so than with single-drug chronic treatment.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">NSAID Counselling - A Frequently Missed Point</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"If you've been taking pain medications like diclofenac, ibuprofen, or regular aspirin for body pains, arthritis, or headaches, we need to talk about alternatives, because these medications are one of the two main causes of ulcers."</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>Ask specifically about chronic NSAID use for arthritis, back pain, or other chronic pain, since patients frequently do not connect this to their stomach symptoms.</li>
+    <li>Where an NSAID cannot be stopped (e.g. needed for another condition), discuss co-prescription of a PPI for gastroprotection and, where feasible, referral for alternative pain management.</li>
+    <li>Paracetamol is a reasonable substitute for many indications and does not carry the same ulcer risk - this substitution is often not offered proactively enough.</li>
+  </ul>
+</div>
+</div>
+
+<!-- 7. Lifestyle -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Lifestyle and Dietary Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Diet does not cause ulcers on its own, but a few changes can reduce symptoms and support healing."</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Reduce or avoid alcohol during active treatment.</li>
+  <li>Reduce or stop smoking - this measurably slows healing and increases recurrence risk.</li>
+  <li>Avoid known personal symptom triggers (spicy food, coffee, carbonated drinks) if they worsen symptoms, without implying these foods caused the ulcer.</li>
+  <li>Eat regular meals rather than prolonged fasting or skipping meals, where lifestyle permits.</li>
+  <li>Avoid lying down immediately after eating if reflux-type symptoms coexist.</li>
+</ul>
+</div>
+
+<!-- 8. Adherence -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Medication Adherence Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"What challenges do you think you might face in taking this medication as prescribed?"</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Barrier</th>
+        <th class="py-2 font-medium">Approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Stopping once pain resolves</td><td class="py-2">Explain directly that symptom relief happens before healing/eradication is complete - this is the single most common reason for treatment failure in this condition.</td></tr>
+      <tr><td class="py-2 pr-3">Cost of multi-drug eradication regimen</td><td class="py-2">Discuss generic options and complete-course affordability before starting, since a partially completed antibiotic course is often worse than not starting one at all (resistance, treatment failure).</td></tr>
+      <tr><td class="py-2 pr-3">Confusing multiple tablets in a combination regimen</td><td class="py-2">Provide a written or simple visual schedule; consider combination packs where available.</td></tr>
+      <tr><td class="py-2 pr-3">Continuing NSAID self-medication without disclosing it</td><td class="py-2">Ask specifically and repeatedly, since this is the most commonly unrecognised reason for poor response to treatment or recurrence.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 9. Herbal -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Herbal and Traditional Remedies
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Ask specifically and non-judgmentally.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Do you take any herbal preparations, bitters, or traditional remedies for your stomach? Some herbal preparations can irritate the stomach lining further or interact with your prescribed treatment. It's helpful for me to know everything you're taking so we can treat this safely and effectively."</p>
+<p class="text-sm">Avoid judgement - many patients have tried herbal remedies extensively before presenting, often for months, and disclosure is more useful than discouragement at this stage.</p>
+</div>
+
+<!-- 10. Follow-up -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Follow-Up Plan
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"We'll review your symptoms after you complete treatment to make sure things have settled, and in some cases confirm that the infection has cleared."</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>Symptom review at the end of the treatment course.</li>
+  <li>Where H. pylori eradication was given, confirmatory testing (stool antigen or breath test) at least 4 weeks after completing treatment and off PPI therapy for at least 2 weeks beforehand, to avoid a false negative result - if using the stool antigen test specifically, some laboratories prefer waiting 6-8 weeks to also avoid a false positive from residual antigen.</li>
+  <li>Gastric ulcers in particular may warrant repeat endoscopy to confirm healing and definitively exclude malignancy, given that gastric ulcers (unlike duodenal ulcers) carry a small but real malignant potential.</li>
+  <li>Explicit plan for what to do if alarm symptoms develop at any point during treatment (Section 4).</li>
+</ul>
+</div>
+
+<!-- 11. Closing -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Closing the Counselling Session
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Can you tell me in your own words what you understand is causing your ulcer, and what your treatment plan involves?"</p>
+<p class="text-sm">Correct any gaps revealed by the teach-back, particularly around the NSAID connection and the importance of completing the full course.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Peptic ulcers are very treatable, and in most cases we can find and remove the actual cause rather than just controlling the symptoms. Taking your medication exactly as prescribed, completing the full course, and letting me know about any pain medications you're using are the most important things you can do."</p>
+</div>
+
+<!-- Key Take-Home Points -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Take-Home Points for the Patient</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>An ulcer is usually caused by a specific stomach infection or by certain pain medications - not primarily by spicy food or stress.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Complete the full course of treatment, even after the pain stops.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tell your doctor about any pain medications you take regularly, including ones bought without a prescription.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Disclose any herbal or traditional remedies you are using.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Return immediately for vomiting blood, black stool, difficulty swallowing, or unexplained weight loss.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>African Helicobacter and Microbiota Study Group - First Lagos Consensus Statement on H. pylori Diagnosis and Treatment in Africa, 2024.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Gastroenterology Organisation - Global Guideline: Helicobacter pylori Management in Africa.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American College of Gastroenterology - ACG Clinical Guideline: Treatment of Helicobacter pylori Infection.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'counselling-diabetes-mellitus',
+  title: 'Diabetes Mellitus',
+  category: 'Counselling',
+  subCategory: 'Cardiometabolic',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Counselling Guide for a Patient with Diabetes Mellitus</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+.quote { border-left: 3px solid; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Diabetes Mellitus</h1>
+  <p class="text-sm text-indigo-200">Diabetes counselling has to work against two powerful fears at once - that the diagnosis itself is a death sentence, and that insulin means things have gotten worse. Both need direct, repeated correction. This guide gives a structured session with the actual language to use, adapted for a Nigerian clinical setting - from diagnostic classification and treatment initiation through to foot care, hypoglycaemia teaching, and insulin storage without reliable refrigeration.</p>
+</div>
+</div>
+
+<!-- 1. Rapport -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction and Establishing Rapport
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Good morning/afternoon. My name is Dr. ____. I'd like to talk with you about your blood sugar results, what diabetes means for your health, and how we can work together to keep it well controlled."</p>
+<p class="text-sm">Ensure privacy, and involve a family member with the patient's consent - diet preparation and medication reminders in Nigerian households are frequently managed by a spouse or another family member, so involving them directly improves the odds the plan is actually followed at home.</p>
+</div>
+
+<!-- 2. Explaining diabetes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Explaining Diabetes
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What Is Diabetes?</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Diabetes means the sugar (glucose) in your blood is higher than it should be, either because your body isn't making enough insulin, or because the insulin it makes isn't working as well as it should. Insulin is the hormone that moves sugar from your blood into your body's cells to be used for energy."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Explaining the Diagnosis</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Your blood sugar results confirm a diagnosis of diabetes. This is a lifelong condition, but it is very manageable - many people with diabetes live long, full, and healthy lives, especially when it's caught and controlled early, as we're doing now."</p>
+</div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Correcting Common Misconceptions</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">What the patient says</th>
+        <th class="py-2 pr-3 font-medium">What it reflects</th>
+        <th class="py-2 font-medium">How to respond</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">"Diabetes is a death sentence"</td><td class="py-2 pr-3">Fear driven by seeing poorly controlled cases with advanced complications</td><td class="py-2">Acknowledge the fear directly, and explain that most of the serious outcomes people have seen come from uncontrolled diabetes over many years, not from diabetes itself - good control changes the outlook substantially.</td></tr>
+      <tr><td class="py-2 pr-3">"I don't eat sugar, so I don't understand how my sugar is still high"</td><td class="py-2 pr-3">Conflating "sugar" as a food category with blood glucose as a physiological measure</td><td class="py-2">Explain that carbohydrates in general - rice, garri, pounded yam, bread, and other starches - are broken down into glucose in the body, not just foods that taste sweet.</td></tr>
+      <tr><td class="py-2 pr-3">"Once I start insulin, my diabetes has become very severe / I am about to die"</td><td class="py-2 pr-3">Widespread and consequential fear that delays appropriate insulin initiation</td><td class="py-2">Explain directly that insulin is a treatment matched to what the body needs at a given time, not a marker of severity or a last resort - some people need it from diagnosis, others later, and it reflects physiology, not prognosis.</td></tr>
+      <tr><td class="py-2 pr-3">"Herbal medications/bitter leaf can cure diabetes completely"</td><td class="py-2 pr-3">Common belief, often reinforced by anecdotal reports of normalised readings</td><td class="py-2">Address directly and without ridicule: some herbal preparations may lower blood sugar somewhat but do not cure the underlying condition, and unsupervised use alongside prescribed medication risks dangerous hypoglycaemia - ask about use specifically and regularly.</td></tr>
+      <tr><td class="py-2 pr-3">"I feel fine, so my sugar must be controlled"</td><td class="py-2 pr-3">The same asymptomatic-disease misunderstanding seen in hypertension</td><td class="py-2">Explain that diabetes often causes no symptoms even when blood sugar is significantly elevated, and that feeling well is not a reliable indicator of control - only testing tells us that.</td></tr>
+      <tr><td class="py-2 pr-3">"If I take my tablets/insulin, I can eat whatever I want"</td><td class="py-2 pr-3">Misunderstanding medication as a full substitute for dietary management</td><td class="py-2">Reframe: medication and diet work together, not as alternatives to each other; medication does not fully offset a heavy carbohydrate load.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Causes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Causes and Risk Factors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Type 2 Diabetes (the majority of adult cases)</strong>
+  <p class="text-sm">Overweight/obesity, particularly central/abdominal adiposity; physical inactivity; family history; increasing age; previous gestational diabetes.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Type 1 Diabetes</strong>
+  <p class="text-sm">Autoimmune destruction of insulin-producing cells; not related to weight, diet, or lifestyle - this distinction is worth making explicitly, since patients and families sometimes wrongly blame lifestyle in a newly diagnosed child or young adult with type 1 disease.</p>
+</div>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Type 2 diabetes develops from a combination of genetics and lifestyle factors over time. Type 1 diabetes, which is more common in children and young people, happens because the body's immune system affects the cells that make insulin - it is not caused by diet or being overweight."</p>
+</div>
+
+<!-- 4. Complications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Complications of Poorly Controlled Diabetes
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"The reason we take blood sugar control seriously is that consistently high sugar levels gradually damage blood vessels and nerves throughout the body. The encouraging part is that good control substantially reduces all of these risks."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">System</th>
+        <th class="py-2 font-medium">Complications</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Eyes</td><td class="py-2">Diabetic retinopathy, progressive vision loss, blindness</td></tr>
+      <tr><td class="py-2 pr-3">Kidneys</td><td class="py-2">Diabetic nephropathy, progressing to kidney failure</td></tr>
+      <tr><td class="py-2 pr-3">Nerves</td><td class="py-2">Peripheral neuropathy (numbness, tingling, pain - especially in the feet), autonomic neuropathy</td></tr>
+      <tr><td class="py-2 pr-3">Feet</td><td class="py-2">Reduced sensation and poor healing leading to ulcers, infection, and risk of amputation if unrecognised</td></tr>
+      <tr><td class="py-2 pr-3">Heart and blood vessels</td><td class="py-2">Heart attack, stroke, peripheral vascular disease</td></tr>
+      <tr><td class="py-2 pr-3">Immune function</td><td class="py-2">Increased susceptibility to infections, slower wound healing</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Frame complication risk alongside its modifiability, as with hypertension counselling - listing complications without pairing them with the fact that control meaningfully reduces risk tends to produce fatalism rather than motivation.</p>
+</div>
+
+<!-- 5. Diagnostic criteria -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Diagnostic Criteria and Classification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Worth walking the patient through where their result sits, since "diabetes" is often presented as a single cutoff rather than a spectrum - and prediabetes in particular is frequently either not explained at all or explained in a way that doesn't convey its significance.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 pr-3 font-medium">Fasting plasma glucose</th>
+        <th class="py-2 pr-3 font-medium">2-hour OGTT</th>
+        <th class="py-2 pr-3 font-medium">HbA1c</th>
+        <th class="py-2 font-medium">Random glucose</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">&lt; 5.6 mmol/L</td><td class="py-2 pr-3">&lt; 7.8 mmol/L</td><td class="py-2 pr-3">&lt; 5.7%</td><td class="py-2">-</td></tr>
+      <tr><td class="py-2 pr-3">Prediabetes (impaired fasting glucose / impaired glucose tolerance)</td><td class="py-2 pr-3">5.6-6.9 mmol/L</td><td class="py-2 pr-3">7.8-11.0 mmol/L</td><td class="py-2 pr-3">5.7-6.4%</td><td class="py-2">-</td></tr>
+      <tr><td class="py-2 pr-3">Diabetes</td><td class="py-2 pr-3">&ge; 7.0 mmol/L</td><td class="py-2 pr-3">&ge; 11.1 mmol/L</td><td class="py-2 pr-3">&ge; 6.5%</td><td class="py-2">&ge; 11.1 mmol/L with classic symptoms (polyuria, polydipsia, unexplained weight loss)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm mt-2">Diabetes is generally confirmed by two abnormal results (either the same test repeated, or two different tests) unless the patient has unequivocal hyperglycaemia with classic symptoms, in which case a single result is sufficient to diagnose. These thresholds match current ADA Standards of Care.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Explaining Prediabetes Specifically</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Your result falls into a range called prediabetes. This means your blood sugar is higher than normal but not yet in the diabetes range. It's actually a valuable warning - at this stage, changes to diet and activity can often bring your blood sugar back to normal and prevent or significantly delay full diabetes from developing. This is a stage where lifestyle change has the most power to change your outcome."</p>
+  <p class="text-sm mt-2">This framing matters because prediabetes is easy for a patient to dismiss as "not really having anything," when in practice it is the single best window for intervention.</p>
+</div>
+</div>
+
+<!-- 6. Treatment initiation -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+When Treatment Is Started, and With What
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"The starting point for treatment depends on how high your blood sugar is at diagnosis, and whether you're having any symptoms from it - not everyone starts in the same place."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Situation</th>
+        <th class="py-2 font-medium">Typical initial approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Prediabetes</td><td class="py-2">Lifestyle modification alone (diet, weight loss, activity) - medication is not usually started at this stage, though metformin may be considered in select higher-risk patients (e.g. obesity, prior gestational diabetes)</td></tr>
+      <tr><td class="py-2 pr-3">Newly diagnosed type 2, mild-to-moderate elevation, asymptomatic</td><td class="py-2">Lifestyle modification plus metformin, typically started together at diagnosis rather than trialling lifestyle alone first - this reflects current practice more than older teaching that reserved medication for lifestyle failure</td></tr>
+      <tr><td class="py-2 pr-3">Newly diagnosed type 2, marked hyperglycaemia or symptomatic</td><td class="py-2">Metformin plus a second agent, or insulin, started from diagnosis to bring glucose down more quickly</td></tr>
+      <tr><td class="py-2 pr-3">Symptomatic hyperglycaemia with ketosis, marked weight loss, or diagnostic uncertainty about type</td><td class="py-2">Insulin started immediately, regardless of apparent type, until the clinical picture is clearer</td></tr>
+      <tr><td class="py-2 pr-3">Type 1 diabetes</td><td class="py-2">Insulin from diagnosis - always; this is not a stepwise decision</td></tr>
+      <tr><td class="py-2 pr-3">Inadequate control on metformin alone after an adequate trial</td><td class="py-2">Add a second oral agent (sulfonylurea, DPP-4 inhibitor, or SGLT2 inhibitor depending on availability, cost, and patient factors) or consider insulin, rather than persisting on monotherapy indefinitely once targets are not being met</td></tr>
+      <tr><td class="py-2 pr-3">Pregnancy with diabetes (pre-existing or gestational)</td><td class="py-2">Insulin is generally the preferred agent where medication is needed, given the safety profile in pregnancy - a distinct pathway from standard type 2 stepwise care</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">A point worth making explicitly to patients:</span> starting on two medications at diagnosis, or starting on insulin early, does not mean the diabetes is more "severe" in a way that predicts a worse future - it reflects where the blood sugar is right now and the most effective way to bring it under control quickly. This connects directly back to the insulin-fear misconception addressed in Section 2.</p>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Our general goals are a fasting blood sugar between roughly 4.4-7.2 mmol/L, and an HbA1c - a test that reflects your average blood sugar over about 3 months - below 7%. These targets may be adjusted for you individually, especially if you're older, pregnant, or have other health conditions."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Measure</th>
+        <th class="py-2 font-medium">General target (individualise per patient)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Fasting / pre-meal glucose</td><td class="py-2">4.4-7.2 mmol/L</td></tr>
+      <tr><td class="py-2 pr-3">Post-meal glucose (1-2 hr)</td><td class="py-2">&lt; 10 mmol/L</td></tr>
+      <tr><td class="py-2 pr-3">HbA1c, most adults</td><td class="py-2">&lt; 7%</td></tr>
+      <tr><td class="py-2 pr-3">HbA1c, elderly/frail or high hypoglycaemia risk</td><td class="py-2">Individualised, often relaxed to 7.5-8% to reduce hypoglycaemia risk</td></tr>
+      <tr><td class="py-2 pr-3">Pregnancy (fasting)</td><td class="py-2">&lt; 5.3 mmol/L</td></tr>
+      <tr><td class="py-2 pr-3">Pregnancy (1-hour post-meal)</td><td class="py-2">&lt; 7.8 mmol/L</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Home glucose monitoring</span>, where the patient can afford strips: explain correct technique (clean hands, adequate drop size, correct strip storage - strips exposed to humidity give inaccurate readings, a common issue with poor storage conditions) and an appropriate testing schedule agreed with the clinic, rather than either no monitoring or excessive testing driven by anxiety.</p>
+</div>
+
+<!-- 7. Lifestyle -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Lifestyle Modification Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A. Dietary Counselling</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"You do not need to give up your traditional foods completely. The goal is portion control, choosing better carbohydrate options where possible, and balancing meals with protein and vegetables."</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>Favour smaller portions of rice, garri, pounded yam, and similar staples rather than complete elimination; where possible, choose less-refined options (brown rice over white, wholegrain where available).</li>
+    <li>Increase vegetables (ugu, ewedu, okra, spinach, garden egg leaves) and use them to bulk meals and slow glucose absorption.</li>
+    <li>Include lean protein (fish, beans, skinless chicken, eggs) at meals to reduce the glycaemic impact of accompanying carbohydrates.</li>
+    <li>Reduce sugary drinks, heavily sweetened zobo or kunu, and pastries.</li>
+    <li>Space meals regularly rather than skipping meals and then eating a large portion later, which produces larger glucose swings.</li>
+    <li>Beans and other legumes are a favourable option given their fibre and protein content relative to glycaemic load.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">B. Physical Activity</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Aim for at least 30 minutes of moderate activity most days of the week - brisk walking, cycling, or similar. Activity helps your body use insulin more effectively."</p>
+  <p class="text-sm mt-2">Start gradually in a previously inactive patient. For patients on insulin or sulfonylureas, counsel on hypoglycaemia risk with exercise (Section 9) and appropriate precautions - checking glucose before prolonged activity, carrying a fast-acting carbohydrate source.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">C. Weight Management</strong>
+  <p class="text-sm">A 5-10% reduction in body weight, where the patient is overweight, produces a meaningful improvement in glycaemic control, particularly early in type 2 diabetes.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">D. Smoking and Alcohol</strong>
+  <p class="text-sm">Smoking compounds cardiovascular risk substantially in a patient who already carries elevated vascular risk from diabetes - cessation counselling deserves particular emphasis here. Alcohol should be limited; it can cause unpredictable blood sugar swings and, in patients on insulin or sulfonylureas, can mask or worsen hypoglycaemia.</p>
+</div>
+</div>
+
+<!-- 8. Medication counselling -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Medication Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Diabetes treatment is usually long-term, and doses or medications may be adjusted over time - this is a normal part of managing the condition well, not a sign that anything has gone wrong."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Drug class</th>
+        <th class="py-2 pr-3 font-medium">Examples</th>
+        <th class="py-2 pr-3 font-medium">Common concern</th>
+        <th class="py-2 font-medium">Counselling point</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Biguanides</td><td class="py-2 pr-3">Metformin</td><td class="py-2 pr-3">GI upset, fear of "kidney damage"</td><td class="py-2">Explain GI effects are common initially and often improve; take with food. Metformin is generally protective rather than harmful to the kidney at appropriate doses - correct this belief directly. In practice: it should not be started if eGFR is below 45 mL/min, the dose is reviewed and typically halved if eGFR falls to 30-44 while already on treatment, and it is stopped below eGFR 30.</td></tr>
+      <tr><td class="py-2 pr-3">Sulfonylureas</td><td class="py-2 pr-3">Glibenclamide, gliclazide</td><td class="py-2 pr-3">Hypoglycaemia, weight gain</td><td class="py-2">Explain hypoglycaemia risk explicitly and how to recognise/treat it (Section 9); counsel on not skipping meals after taking this class.</td></tr>
+      <tr><td class="py-2 pr-3">DPP-4 inhibitors</td><td class="py-2 pr-3">Sitagliptin</td><td class="py-2 pr-3">Fewer patient-reported concerns; cost is often the main barrier</td><td class="py-2">Discuss cost/access directly given lower affordability relative to metformin/sulfonylureas.</td></tr>
+      <tr><td class="py-2 pr-3">Insulin</td><td class="py-2 pr-3">Regular, NPH, premixed, analogues</td><td class="py-2 pr-3">Fear of "severity," fear of injections, fear of dependency</td><td class="py-2">See dedicated section below.</td></tr>
+      <tr><td class="py-2 pr-3">SGLT2 inhibitors</td><td class="py-2 pr-3">Empagliflozin, dapagliflozin</td><td class="py-2 pr-3">Genital fungal infections, increased urination</td><td class="py-2">Explain the mechanism (glucose excreted via urine) and genital hygiene counselling to reduce infection risk; caution regarding volume depletion in older or dehydrated patients.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Insulin-Specific Counselling</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Insulin is not a punishment or a sign that things have gotten worse - it's simply what your body needs at this point to keep your sugar controlled. Many people start insulin from diagnosis, and others start later; it depends on your individual physiology, not how 'severe' your diabetes is."</p>
+  <ul class="list-disc pl-5 space-y-2 text-sm mt-2">
+    <li>Teach injection technique directly - site rotation (abdomen, thigh, upper arm) to prevent lipohypertrophy from repeated same-site injection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Storage without reliable refrigeration:</span> in-use insulin (once opened) tolerates room temperature reasonably well - kept below roughly 25-30&deg;C and out of direct sunlight, it generally retains potency for several weeks. Where refrigeration is unreliable, an evaporative clay-pot cooler (a small unglazed pot inside a larger one, with wet sand packed between them, covered with a damp cloth) has been directly studied and can bring insulin close to room temperature even in hot climates - this is a genuinely validated practical option, not just an informal workaround, and worth discussing explicitly for patients facing frequent power outages. Insulin should never be frozen or left in direct sun/a hot car.</li>
+    <li>Address needle disposal and reuse concerns pragmatically, given cost constraints - provide guidance on safe reuse limits and disposal rather than an unrealistic "never reuse" instruction that patients may not be able to follow anyway.</li>
+    <li>Explicitly teach hypoglycaemia recognition and treatment before the patient leaves with a new insulin prescription (Section 9).</li>
+  </ul>
+</div>
+</div>
+
+<!-- 9. Hypoglycaemia -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Hypoglycaemia: Recognition and Response
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">This deserves explicit, structured teaching for any patient on insulin or a sulfonylurea, ideally with a family member present.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Low blood sugar can happen if you take your medication but eat less than usual, delay a meal, or exercise more than planned. It's important you and someone close to you know how to recognise and treat this quickly."</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Symptoms to teach:</span> shakiness, sweating, palpitations, hunger, confusion, irritability, and - if untreated - loss of consciousness or seizures.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Immediate treatment (conscious patient):</span> a fast-acting carbohydrate source (glucose tablets, sugary drink, a few teaspoons of sugar or honey), followed by a longer-acting carbohydrate/meal once symptoms improve.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">If unconscious or unable to swallow safely:</span> this is an emergency - the patient should not be given anything by mouth; a family member should seek urgent medical help immediately.</p>
+<p class="text-sm">Advise the patient to always carry a fast-acting sugar source, and encourage a medical alert item (bracelet, card, or phone note) stating they have diabetes.</p>
+</div>
+
+<!-- 10. Adherence -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Medication Adherence Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"What difficulties do you think you might have in taking your medication regularly?"</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Barrier</th>
+        <th class="py-2 font-medium">Approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Cost of medication and monitoring strips</td><td class="py-2">Discuss generic options, NHIA/HMO coverage where available, and realistic testing frequency given cost constraints, rather than an ideal frequency the patient cannot sustain.</td></tr>
+      <tr><td class="py-2 pr-3">Fear of insulin</td><td class="py-2">Address directly per Section 8; correct the severity-equals-insulin misconception before it drives non-adherence or delay.</td></tr>
+      <tr><td class="py-2 pr-3">Forgetfulness</td><td class="py-2">Fixed timing linked to meals, phone reminders.</td></tr>
+      <tr><td class="py-2 pr-3">Religious fasting</td><td class="py-2">Discuss timing/dose adjustment in advance of extended fasting, and explicitly discuss when fasting should be interrupted for safety (e.g. hypoglycaemia symptoms, illness) rather than leaving the patient to navigate this alone.</td></tr>
+      <tr><td class="py-2 pr-3">Herbal remedy substitution</td><td class="py-2">Ask specifically and non-judgmentally at every visit, as with hypertension counselling.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 11. Foot care -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Foot Care
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Diabetes can reduce feeling in your feet over time, which means an injury can go unnoticed and become a serious problem before you feel any pain."</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Daily foot inspection (or by a family member if the patient cannot see the sole of the foot easily) for cuts, blisters, or areas of redness.</li>
+  <li>Avoid walking barefoot, a common practice worth addressing explicitly given local footwear habits.</li>
+  <li>Proper-fitting footwear, and prompt attention to any wound rather than waiting for it to resolve on its own.</li>
+  <li>Explain why a seemingly minor foot wound needs prompt review in a person with diabetes, when it might not in someone without the condition.</li>
+</ul>
+</div>
+
+<!-- 12. Warning symptoms -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Warning Symptoms Requiring Urgent Review
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Symptoms of severe hypoglycaemia not responding to initial treatment, or loss of consciousness</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Very high blood sugar with vomiting, abdominal pain, rapid breathing, or drowsiness (possible diabetic ketoacidosis, particularly relevant in type 1 diabetes, or hyperosmolar state in type 2)</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>A foot wound with spreading redness, discharge, or fever</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Sudden vision changes</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Chest pain, weakness on one side, or difficulty speaking</span></li>
+</ul>
+</div>
+
+<!-- 13. Follow-up -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Follow-Up Plan
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Regular visits let us check how well your treatment is working and catch any early changes before they become bigger problems."</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Blood sugar review and HbA1c at intervals agreed with the clinic.</li>
+  <li>Annual (or as indicated) eye examination for retinopathy screening.</li>
+  <li>Regular kidney function and urine albumin screening.</li>
+  <li>Foot examination at each visit, or a schedule agreed for this specifically.</li>
+  <li>Blood pressure and lipid review, given the combined cardiovascular risk.</li>
+</ul>
+</div>
+
+<!-- 14. Closing -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Closing the Counselling Session
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Can you tell me in your own words what you understand about your diabetes and the plan we've discussed today?"</p>
+<p class="text-sm">Correct any misunderstandings the teach-back reveals, particularly around insulin fears or the "no symptoms means controlled" belief.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Diabetes is very manageable with the right combination of medication, diet, activity, and regular follow-up. You're not alone in this - we'll work through it together at each visit."</p>
+</div>
+
+<!-- Key Take-Home Points -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Take-Home Points for the Patient</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Diabetes is manageable, not a death sentence - control is what determines the outcome.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>"Sugar" in the blood comes from all carbohydrates, not just sweet-tasting foods.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Starting insulin reflects what your body needs, not how severe your condition is.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Know the signs of low blood sugar and how to treat it if you're on insulin or certain tablets.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check your feet regularly, avoid walking barefoot, and seek urgent care for a worsening wound.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Diabetes Association - Standards of Care in Diabetes, 2025.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>FDA/EMA revised metformin renal dosing guidance (eGFR-based thresholds, 2016 update).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Ogle GD, et al. - Insulin Storage in Hot Climates Without Refrigeration: Temperature Reduction Efficacy of Clay Pots and Other Techniques. Diabetic Medicine, 2016.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Cochrane Review - Temperature and Storage Conditions for Human Insulin.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
+  id: 'counselling-chronic-low-back-pain',
+  title: 'Chronic Low Back Pain',
+  category: 'Counselling',
+  subCategory: 'Musculoskeletal',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Counselling Guide for a Patient with Chronic Low Back Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+.quote { border-left: 3px solid; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Chronic Low Back Pain</h1>
+  <p class="text-sm text-indigo-200">Chronic low back pain counselling succeeds mainly on two points: convincing the patient a scan usually isn't needed, and convincing them that rest is the wrong instinct. Everything else - occupational modification, medication, exercise - lands better once those two beliefs are addressed directly. This guide gives a structured session adapted for a Nigerian clinical setting, from market-trading and okada-riding occupational advice to spinal TB as a genuine red-flag consideration.</p>
+</div>
+</div>
+
+<!-- 1. Rapport -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Introduction and Establishing Rapport
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Good morning/afternoon. My name is Dr. ____. I'd like to talk with you about your back pain - what's likely causing it, what the results of any tests mean, and how we can manage it and help you get back to your normal activities."</p>
+<p class="text-sm">Chronic low back pain (pain persisting beyond 12 weeks) carries a significant psychological and functional burden that is easy to underestimate in a brief consultation - acknowledge this explicitly rather than moving straight to the physical explanation.</p>
+</div>
+
+<!-- 2. Explaining -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Explaining Chronic Low Back Pain
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What Is Happening?</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Most chronic back pain comes from the muscles, ligaments, joints, and discs of the spine working together, sometimes with one part more strained or irritated than others. In the large majority of cases, there is no single, serious structural problem to 'find' - the pain is real and the mechanism is understood, even when a scan doesn't show one clear cause."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A Key Reassurance Many Patients Need Explicitly</strong>
+  <p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Chronic back pain is very rarely a sign of something dangerous. Most people with chronic low back pain do not have a serious underlying disease, and the pain, while genuinely unpleasant, is not a sign your spine is being damaged with continued normal movement."</p>
+</div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Correcting Common Misconceptions</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">What the patient says</th>
+        <th class="py-2 pr-3 font-medium">What it reflects</th>
+        <th class="py-2 font-medium">How to respond</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">"I need a scan to know what's wrong"</td><td class="py-2 pr-3">Belief that imaging is necessary to validate or diagnose the pain</td><td class="py-2">Explain that imaging is not routinely needed for most chronic low back pain, and is reserved for specific warning signs (Section 4) - imaging findings in people without back pain are common (disc bulges, degenerative changes) and often don't correlate well with symptoms, so a scan can sometimes create worry without changing management.</td></tr>
+      <tr><td class="py-2 pr-3">"My disc has slipped and needs to go back into place"</td><td class="py-2 pr-3">Common lay framing of disc-related pain</td><td class="py-2">Clarify the actual mechanism (a disc bulge or herniation, not a bone or disc "slipping" out of position), and that most disc-related back pain improves with time and appropriate activity, without needing the disc to be manually "put back."</td></tr>
+      <tr><td class="py-2 pr-3">"I should rest completely and avoid all movement until the pain is gone"</td><td class="py-2 pr-3">The most common and most counterproductive misconception in chronic back pain management</td><td class="py-2">Explain directly that prolonged bed rest worsens outcomes and prolongs recovery - staying as active as possible within reasonable limits leads to better long-term results than rest.</td></tr>
+      <tr><td class="py-2 pr-3">"This is from carrying heavy loads at work, so I just have to live with it"</td><td class="py-2 pr-3">Partially accurate but incomplete - mechanical load matters, but the framing as unfixable is not</td><td class="py-2">Acknowledge the occupational contribution honestly, while discussing specific modifications (Section 7) rather than presenting the pain as an unavoidable cost of the patient's livelihood.</td></tr>
+      <tr><td class="py-2 pr-3">"It's a spiritual attack / someone is responsible for this pain"</td><td class="py-2 pr-3">A belief some patients hold, particularly with pain that has been persistent and poorly explained by prior care</td><td class="py-2">Address without ridicule or direct confrontation; acknowledge the patient's experience of a persistent, frustrating symptom, and continue to offer the medical explanation and plan alongside, rather than as a replacement for, whatever the patient believes.</td></tr>
+      <tr><td class="py-2 pr-3">"Painkillers are the whole treatment"</td><td class="py-2 pr-3">Overreliance on medication over activity/movement-based management</td><td class="py-2">Reframe medication as one supporting tool among several (activity, posture/ergonomic modification, targeted exercise), not the primary treatment on its own.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Classification -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Classification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 font-medium">Definition</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Acute low back pain</td><td class="py-2">&lt; 6 weeks duration</td></tr>
+      <tr><td class="py-2 pr-3">Subacute low back pain</td><td class="py-2">6-12 weeks duration</td></tr>
+      <tr><td class="py-2 pr-3">Chronic low back pain</td><td class="py-2">&gt; 12 weeks duration</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="overflow-x-auto mt-3">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Type</th>
+        <th class="py-2 font-medium">Description</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Non-specific (mechanical) back pain</td><td class="py-2">No specific identifiable structural cause on assessment - the large majority of chronic low back pain falls here</td></tr>
+      <tr><td class="py-2 pr-3">Radicular pain (sciatica)</td><td class="py-2">Pain radiating down the leg, typically following a nerve root distribution, from nerve root irritation or compression - usually disc-related</td></tr>
+      <tr><td class="py-2 pr-3">Pain with a specific identifiable cause</td><td class="py-2">Vertebral fracture, infection (discitis/vertebral osteomyelitis - including tuberculous spine, which remains clinically relevant in Nigeria), malignancy, inflammatory spondyloarthropathy, or significant spinal stenosis</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-3">"The type of back pain you have changes both how urgently we investigate and how we treat it - most chronic back pain falls into a category that responds well to activity-based management rather than needing extensive testing."</p>
+</div>
+
+<!-- 4. Red flags -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Red Flags Requiring Urgent Evaluation
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="text-sm text-rose-900 dark:text-rose-300 mb-3">Explain these clearly, since most patients won't otherwise know which of their symptoms matter most.</p>
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>New or worsening leg weakness</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Numbness in the saddle area (inner thighs, genitals, around the anus)</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>New difficulty controlling bladder or bowel function</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Unexplained weight loss</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Fever, or a history suggestive of infection</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Pain worse at night or unrelenting regardless of position, particularly with a history of cancer</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Significant trauma preceding the pain, particularly in an older patient or anyone with reduced bone density</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Age under 20 or over 50 with new-onset back pain, especially with other concerning features</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>History of TB, HIV, or unexplained immunosuppression, given the relevance of spinal TB in this population</span></li>
+</ul>
+<p class="text-sm text-rose-900 dark:text-rose-300 mt-3 quote border-rose-300 dark:border-rose-600 pl-4 italic">"Bladder or bowel control changes together with numbness in that saddle area is a medical emergency - if that happens, please come to hospital immediately, day or night, rather than waiting."</p>
+</div>
+
+<!-- 5. Causes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Causes and Contributing Factors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Common contributing factors in this population:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Manual labour and repetitive heavy lifting (market trading, construction, farming).</li>
+  <li>Prolonged awkward postures - including extended motorcycle (okada) riding, common among both riders and frequent passengers.</li>
+  <li>Prolonged sitting with poor ergonomic support (office work, long-distance driving/transport work).</li>
+  <li>Poor lifting technique (bending from the waist with a straight-legged stance, rather than lifting with the legs).</li>
+  <li>Obesity and physical deconditioning.</li>
+  <li>Psychological stress and, in some patients, coexisting low mood - both recognised to worsen the experience and persistence of chronic pain.</li>
+</ul>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-3">"A combination of factors usually contributes to chronic back pain rather than one single cause - this is actually helpful, because it means there are several different angles we can work on together."</p>
+</div>
+
+<!-- 6. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Investigations - What's Actually Needed
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"For most chronic back pain, especially without any of the warning signs we discussed, imaging is not the first step, and often isn't needed at all."</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>Imaging (X-ray, CT, or MRI) is reserved for red flag features, suspected specific pathology, or persistent pain not responding to an adequate trial of conservative management.</li>
+  <li>Where imaging is obtained, results should be interpreted alongside the clinical picture - degenerative changes and disc bulges are extremely common in people without any back pain at all, and an incidental finding does not automatically explain the patient's symptoms.</li>
+  <li>Where infection (particularly TB spine) or malignancy is suspected based on red flags, appropriate targeted investigation should proceed without delay.</li>
+</ul>
+</div>
+
+<!-- 7. Activity/Ergonomics -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Activity, Ergonomics, and Occupational Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Staying as active as you reasonably can, rather than resting completely, is one of the most effective things you can do for chronic back pain."</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Activity Advice</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Continue normal daily activities as much as pain allows, rather than stopping altogether.</li>
+    <li>Gradual return to or continuation of exercise - walking, swimming, and general conditioning are all reasonable starting points.</li>
+    <li>Avoid prolonged bed rest, which is specifically associated with worse outcomes and slower recovery.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Occupational and Practical Modifications</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Occupation/activity</th>
+          <th class="py-2 font-medium">Practical advice</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Market trading/carrying loads</td><td class="py-2">Distribute weight evenly where possible, avoid twisting while lifting, bend at the knees rather than the waist when lifting from the ground</td></tr>
+        <tr><td class="py-2 pr-3">Motorcycle (okada) riding - rider or frequent passenger</td><td class="py-2">Take regular breaks on longer journeys where feasible; posture and seat support matter, though options are often limited</td></tr>
+        <tr><td class="py-2 pr-3">Prolonged sitting (office, driving/transport work)</td><td class="py-2">Regular position changes and brief standing breaks; a rolled cloth or small cushion behind the lower back is a practical, low-cost lumbar support</td></tr>
+        <tr><td class="py-2 pr-3">Farming/manual labour</td><td class="py-2">Alternate tasks/postures where possible rather than sustained single-position work; proper lifting technique for repetitive loads</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"When lifting something heavy, bend at your knees and hips, keep the object close to your body, and lift using your legs rather than bending forward from your waist. This one change reduces strain on your back significantly."</p>
+</div>
+
+<!-- 8. Medication -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Medication Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Medication can help manage pain while we work on activity and other measures, but it works best as one part of the overall plan rather than the main treatment on its own."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Drug class</th>
+        <th class="py-2 pr-3 font-medium">Examples</th>
+        <th class="py-2 font-medium">Counselling point</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Paracetamol</td><td class="py-2 pr-3">Paracetamol</td><td class="py-2">Reasonable first-line option, generally well tolerated</td></tr>
+      <tr><td class="py-2 pr-3">NSAIDs</td><td class="py-2 pr-3">Ibuprofen, diclofenac, naproxen</td><td class="py-2">Effective for pain, but caution with prolonged use - gastrointestinal irritation and renal effects with extended or high-dose use; avoid in patients with a history of peptic ulcer disease without gastroprotection</td></tr>
+      <tr><td class="py-2 pr-3">Muscle relaxants</td><td class="py-2 pr-3">Methocarbamol, and similar</td><td class="py-2">Short-term use for the muscle spasm component; sedation is a common side effect worth mentioning, particularly if the patient drives or rides a motorcycle</td></tr>
+      <tr><td class="py-2 pr-3">Neuropathic agents</td><td class="py-2 pr-3">Amitriptyline (low dose), gabapentin</td><td class="py-2">Considered specifically for radicular/neuropathic-type pain rather than routine mechanical back pain</td></tr>
+      <tr><td class="py-2 pr-3">Opioids</td><td class="py-2 pr-3">Tramadol, and stronger agents</td><td class="py-2">Generally reserved for short-term use in severe pain; not recommended as routine or long-term management of chronic non-specific low back pain, given dependency risk and limited evidence of long-term benefit - opioid-containing combination analgesics are sometimes self-purchased and used long-term without this being disclosed</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Ask specifically about self-medication and combination analgesic use, including opioid-containing preparations purchased without prescription, which patients frequently do not think to mention as "medication" in the same way they would a prescribed drug.</p>
+</div>
+
+<!-- 9. Physio -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Physiotherapy, Exercise, and Non-Drug Management
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Targeted exercises and physical therapy have some of the strongest evidence for improving chronic back pain long-term - often more than medication alone."</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>Refer for physiotherapy where accessible; where formal physiotherapy access is limited, general guidance on core-strengthening and flexibility exercises, and encouragement of general physical activity, still provides meaningful benefit.</li>
+  <li>Heat application (a warm compress or hot water bottle) is a reasonable, low-cost, and widely already-practised measure for symptomatic relief.</li>
+  <li>Discuss any herbal liniments or topical preparations the patient is already using - most carry low risk when used topically, but ask specifically about any ingested herbal preparations taken for the same complaint.</li>
+  <li>Where available and appropriate, structured exercise programmes (e.g. McKenzie-method or general strengthening approaches) offer more targeted benefit than generic "stay active" advice alone.</li>
+</ul>
+</div>
+
+<!-- 10. Psychological -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Psychological and Functional Dimension
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Chronic pain and mood are closely connected - persistent pain can affect sleep, mood, and daily function, and stress or low mood can, in turn, make pain feel more intense. Addressing both sides genuinely helps."</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li>Screen for the functional and emotional impact of the pain (sleep disruption, withdrawal from work or social activity, mood change) rather than focusing on the physical complaint alone.</li>
+  <li>Avoid catastrophising language when explaining findings ("your spine is degenerating," "wear and tear") - this framing is associated with worse patient-reported outcomes and increased fear-avoidance behaviour; prefer neutral, non-alarming language even when describing genuine age-related changes.</li>
+  <li>Where sleep disruption or mood symptoms are significant and persistent, address them directly as part of the overall management plan.</li>
+</ul>
+</div>
+
+<!-- 11. Adherence -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Plan Adherence Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"What barriers do you think you might face in following through with the exercises and activity changes we've discussed?"</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Barrier</th>
+        <th class="py-2 font-medium">Approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Cannot stop physically demanding work</td><td class="py-2">Focus on modification rather than cessation (Section 7); set realistic, incremental goals rather than an all-or-nothing activity target</td></tr>
+      <tr><td class="py-2 pr-3">Fear that movement will worsen the pain or "damage" the spine</td><td class="py-2">Directly address this fear-avoidance belief - reinforce that most movement within reasonable limits is safe and beneficial, not harmful, even when it produces some discomfort</td></tr>
+      <tr><td class="py-2 pr-3">Cost of physiotherapy or ongoing medication</td><td class="py-2">Discuss realistic, sustainable options; emphasise that activity-based self-management costs nothing and is often the most effective single intervention</td></tr>
+      <tr><td class="py-2 pr-3">Expectation of a quick fix or single definitive treatment</td><td class="py-2">Set expectations early that chronic back pain management is typically gradual and multi-component, not resolved by a single medication or one physiotherapy session</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 12. Closing -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Closing the Counselling Session
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Can you tell me in your own words what you understand about what's causing your back pain, and what our plan is going forward?"</p>
+<p class="text-sm">Correct any gaps revealed by the teach-back - particularly the "need for a scan" and "must rest completely" misconceptions, since these are the two most likely to persist even after a good explanation.</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Chronic back pain is common, and while it can be frustrating, the large majority of people improve significantly with the right combination of staying active, appropriate exercise, and, where needed, medication for symptom control. We'll work through this together and adjust the plan as needed."</p>
+</div>
+
+<!-- Key Take-Home Points -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Take-Home Points for the Patient</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Most chronic back pain does not come from a dangerous or serious underlying condition.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Staying active is more helpful than resting completely.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A scan is not usually necessary unless there are specific warning signs.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Practise proper lifting technique - bend at the knees, not the waist.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seek urgent care immediately for saddle numbness with bladder or bowel changes, new leg weakness, or unexplained weight loss.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>NICE Guideline NG59 - Low Back Pain and Sciatica in Over 16s: Assessment and Management.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American College of Radiology - ACR Appropriateness Criteria: Low Back Pain.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Back and Radicular Pain Pathway - Cauda Equina Red Flag Criteria.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - National Tuberculosis and Leprosy Control Programme Guidelines (spinal TB relevance).</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+{
   id: 'counselling-hypertension',
   title: 'Hypertension',
   category: 'Counselling',
@@ -9533,7 +12967,7 @@ body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
 <div class="relative p-6 sm:p-8">
   <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
   <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Hypertension</h1>
-  <p class="text-sm text-indigo-200">Hypertension counselling succeeds or fails less on what is explained and more on whether specific, commonly held misconceptions are directly corrected. This guide gives a structured session with the actual language to use, adapted for a Nigerian clinical setting - from diet and salt substitution to herbal remedy disclosure and medication adherence barriers.</p>
+  <p class="text-sm text-indigo-200">Hypertension counselling succeeds or fails less on what is explained and more on whether specific, commonly held misconceptions are directly corrected. This guide gives a structured session with the actual language to use, adapted for a Nigerian clinical setting - from diagnostic classification and treatment initiation through to salt substitution, herbal remedy disclosure, and medication adherence barriers.</p>
 </div>
 </div>
 
@@ -9635,9 +13069,69 @@ Complications of Poorly Controlled Hypertension
 </div>
 </div>
 
-<!-- 5. BP targets -->
+<!-- 5. Diagnostic Criteria -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
 <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Diagnostic Criteria and Classification
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Worth explaining explicitly where a patient's reading sits, since "hypertension" is often communicated as a single line crossed rather than a graded category - and the category matters for how urgently treatment starts.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Category</th>
+        <th class="py-2 pr-3 font-medium">Systolic (mmHg)</th>
+        <th class="py-2 font-medium">Diastolic (mmHg)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">&lt; 120</td><td class="py-2">and &lt; 80</td></tr>
+      <tr><td class="py-2 pr-3">Elevated</td><td class="py-2 pr-3">120-129</td><td class="py-2">and &lt; 80</td></tr>
+      <tr><td class="py-2 pr-3">Stage 1 hypertension</td><td class="py-2 pr-3">130-139</td><td class="py-2">or 80-89</td></tr>
+      <tr><td class="py-2 pr-3">Stage 2 hypertension</td><td class="py-2 pr-3">&ge; 140</td><td class="py-2">or &ge; 90</td></tr>
+      <tr><td class="py-2 pr-3">Hypertensive urgency</td><td class="py-2 pr-3">&ge; 180</td><td class="py-2">and/or &ge; 120, without acute organ damage</td></tr>
+      <tr><td class="py-2 pr-3">Hypertensive emergency</td><td class="py-2 pr-3">&ge; 180</td><td class="py-2">and/or &ge; 120, with acute organ damage (chest pain, breathlessness, neurological deficit, visual changes)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">A note on terminology across guidelines:</span> the classification above (Normal/Elevated/Stage 1/Stage 2) follows the ACC/AHA 2017 thresholds, which lowered the diagnostic bar from the older convention. The Nigerian national guideline (FMOH, 2023-2028) uses the more traditional cutoff of <span class="font-medium text-slate-800 dark:text-slate-200">&ge;140/90 mmHg to diagnose hypertension</span>, but converges with the newer framework on treatment targets - it recommends a lower target of 130/80 mmHg specifically for patients with diabetes, chronic kidney disease, or established cardiovascular disease, which is functionally the ACC/AHA Stage 1 threshold applied as a treatment goal rather than a diagnostic one. Both frameworks agree on what constitutes Stage 2/definite hypertension (&ge;140/90) and on what constitutes a hypertensive emergency - the disagreement is only in how much diagnostic weight to give the 130-139/80-89 range. Be consistent with whichever framework your institution or the current national guideline uses, but be aware the two exist so a patient's chart isn't read as internally inconsistent.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Confirming the diagnosis:</span> a single elevated reading in clinic is not sufficient for diagnosis, given white-coat effect and situational variation - confirmation on at least two separate occasions (or via home/ambulatory monitoring where available) is the standard before formally diagnosing hypertension and starting long-term treatment, outside of an urgency/emergency presentation.</p>
+</div>
+
+<!-- 6. Treatment initiation -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+When Treatment Is Started, and With What
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm">"Whether we start with lifestyle changes alone or add medication straight away depends on how high your blood pressure is, and whether you have other risk factors like diabetes, kidney disease, or a history of heart problems."</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Situation</th>
+        <th class="py-2 font-medium">Typical initial approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Elevated / Stage 1, low overall cardiovascular risk</td><td class="py-2">Lifestyle modification alone for a trial period (often 3-6 months), with re-assessment before adding medication</td></tr>
+      <tr><td class="py-2 pr-3">Elevated / Stage 1, with additional risk factors (diabetes, established cardiovascular disease, chronic kidney disease, or high calculated cardiovascular risk)</td><td class="py-2">Medication started alongside lifestyle changes from the outset, rather than waiting through a lifestyle-only trial</td></tr>
+      <tr><td class="py-2 pr-3">Stage 2 (&ge;140/90)</td><td class="py-2">Medication started at diagnosis, alongside lifestyle changes - a lifestyle-only trial is not appropriate at this stage</td></tr>
+      <tr><td class="py-2 pr-3">Hypertensive urgency (&ge;180/120, no organ damage)</td><td class="py-2">Oral medication with close outpatient follow-up within 24-48 hours; not generally treated as an inpatient emergency, but not left untreated either</td></tr>
+      <tr><td class="py-2 pr-3">Hypertensive emergency (&ge;180/120, with organ damage)</td><td class="py-2">Immediate hospital admission for controlled, monitored blood pressure reduction - a distinct emergency pathway, not a step up from routine outpatient management</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">First-line agent selection:</span> the Nigerian national guideline specifically recommends calcium channel blockers as first-line monotherapy, used together with a diuretic or an ACE inhibitor/ARB in combination therapy where a single agent is not enough. This is grounded in decades of local evidence (originating with the Salako and Falase studies) showing Nigerian patients respond consistently well to thiazide diuretics and calcium channel blockers as monotherapy, while beta-blockers require high doses - with more side effects - to be similarly effective when used alone. ACE inhibitors/ARBs remain first-line where there is a compelling indication regardless of this general pattern - notably diabetes with proteinuria, or chronic kidney disease with albuminuria. Many patients require combination therapy (two or more classes) to reach target, rather than escalating a single agent indefinitely - this is worth pre-empting in counselling so combination treatment isn't misread as the first drug "failing."</p>
+<p class="quote border-indigo-300 dark:border-indigo-600 pl-4 italic text-sm mt-2">"It's common to need more than one medication working together to control blood pressure well. Needing a second medication doesn't mean the first one failed - it means your blood pressure needs more than one type of support to reach a healthy range, which is very normal."</p>
+</div>
+
+<!-- 7. BP targets -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
 Blood Pressure Targets
 </h2>
 
@@ -9660,12 +13154,12 @@ Blood Pressure Targets
     </tbody>
   </table>
 </div>
-<p class="text-sm">Encourage home monitoring where feasible (see Section 10).</p>
+<p class="text-sm">Encourage home monitoring where feasible (see Section 12).</p>
 </div>
 
-<!-- 6. Lifestyle -->
+<!-- 8. Lifestyle -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
 Lifestyle Modification Counselling
 </h2>
 
@@ -9725,9 +13219,9 @@ Lifestyle Modification Counselling
 </div>
 </div>
 
-<!-- 7. Medication counselling -->
+<!-- 9. Medication counselling -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
 Medication Counselling
 </h2>
 
@@ -9754,9 +13248,9 @@ Medication Counselling
 </div>
 </div>
 
-<!-- 8. Adherence -->
+<!-- 10. Adherence -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
 Medication Adherence Counselling
 </h2>
 
@@ -9781,9 +13275,9 @@ Medication Adherence Counselling
 </div>
 </div>
 
-<!-- 9. Herbal -->
+<!-- 11. Herbal -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
 Herbal Medication and Hypertension
 </h2>
 
@@ -9793,9 +13287,9 @@ Herbal Medication and Hypertension
 <p class="text-sm">Patients frequently do not volunteer herbal use unless asked in a way that does not feel like an accusation - repeated, routine, non-judgmental asking yields more accurate disclosure than a single question at the first visit.</p>
 </div>
 
-<!-- 10. Home BP monitoring -->
+<!-- 12. Home BP monitoring -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
 Home Blood Pressure Monitoring
 </h2>
 
@@ -9805,9 +13299,9 @@ Home Blood Pressure Monitoring
 <p class="text-sm">A poorly taken home reading (wrong posture, immediately after activity, wrong cuff size) can undermine confidence in either direction - falsely reassuring or falsely alarming - so technique should be checked, not assumed, at least once in person.</p>
 </div>
 
-<!-- 11. Warning symptoms -->
+<!-- 13. Warning symptoms -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
 Warning Symptoms Requiring Urgent Hospital Review
 </h2>
 
@@ -9823,9 +13317,9 @@ Warning Symptoms Requiring Urgent Hospital Review
 <p class="text-sm text-rose-900 dark:text-rose-300 mt-3 quote border-rose-300 dark:border-rose-600 pl-4 italic">"These may be signs of complications requiring urgent attention."</p>
 </div>
 
-<!-- 12. Follow-up -->
+<!-- 14. Follow-up -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
 Follow-Up Plan
 </h2>
 
@@ -9835,9 +13329,9 @@ Follow-Up Plan
 <p class="text-sm">Also establish, explicitly, what to do about a missed dose - take it as soon as remembered unless close to the next scheduled dose, and do not double up - since this specific scenario is rarely addressed proactively and is a common point of confusion between visits.</p>
 </div>
 
-<!-- 13. Closing -->
+<!-- 15. Closing -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
-<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
 Closing the Counselling Session
 </h2>
 
@@ -9871,8 +13365,10 @@ Closing the Counselling Session
   <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
     <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Guidelines for Prevention and Management of Hypertension in Nigeria, 2023-2028.</li>
     <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigerian Hypertension Society Guidelines, 2020.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>ACC/AHA 2017 Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Society of Hypertension in Blacks (ISHIB) - Consensus Statement on Management of High Blood Pressure in Blacks.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Salako LA, Falase AO - foundational Nigerian studies on antihypertensive drug response by class.</li>
     <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - HEARTS Technical Package for Cardiovascular Disease Management in Primary Health Care.</li>
-    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Society of Hypertension - Global Hypertension Practice Guidelines.</li>
   </ul>
 </div>
 </details>
@@ -9883,6 +13379,334 @@ Closing the Counselling Session
 },
 
 // PROCEDURES
+{
+  id: 'procedure-episiotomy-episiorrhaphy',
+  title: 'Episiotomy and Episiorrhaphy',
+  category: 'Procedures',
+  subCategory: 'Obstetrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Episiotomy and Episiorrhaphy (Repair)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+<!-- Top-right glow -->
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+<!-- Bottom-left glow -->
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+<!-- Content -->
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Procedures</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Episiotomy and Episiorrhaphy (Repair)</h1>
+  <p class="text-sm text-indigo-200">Episiotomy is far less routinely performed today than in past decades, following evidence that restrictive use produces better outcomes than routine use - less severe trauma overall, less pain, and faster healing. It remains an important skill for specific indications, and the repair is one every doctor conducting deliveries needs to perform confidently and correctly, since a poorly repaired episiotomy or perineal tear carries meaningful long-term consequences.</p>
+</div>
+</div>
+
+<!-- 1. Indications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Indications
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Episiotomy is not routine.</span> Current evidence and guidance support a restrictive approach - performed only when a specific indication is present, not as a default step in normal delivery.</p>
+<p class="text-sm font-medium text-slate-800 dark:text-slate-200">Recognised indications:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Impending severe perineal tear where the direction of tearing threatens the anal sphincter (a judgement call based on how the perineum is stretching and the trajectory of an impending tear).</li>
+  <li>Instrumental delivery (vacuum or forceps), where additional room is needed.</li>
+  <li>Shoulder dystocia, to gain additional space for delivery manoeuvres.</li>
+  <li>Fetal distress where expediting delivery is required and the perineum is the limiting factor.</li>
+  <li>Some cases of breech delivery.</li>
+</ul>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Not an indication on its own:</span> a large baby, primigravida status, or a slow second stage alone - none of these justify routine episiotomy without one of the specific indications above.</p>
+</div>
+
+<!-- 2. Types -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Types of Episiotomy
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Type</th>
+        <th class="py-2 pr-3 font-medium">Description</th>
+        <th class="py-2 font-medium">Notes</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Mediolateral</td><td class="py-2 pr-3">Incision angled away from the midline (typically 45-60&deg; from vertical) toward the ischial tuberosity</td><td class="py-2">Preferred in most current practice - lower risk of extension into the anal sphincter compared with midline, though slightly more painful during healing and a technically less intuitive repair</td></tr>
+      <tr><td class="py-2 pr-3">Midline</td><td class="py-2 pr-3">Incision directly along the midline toward the anus</td><td class="py-2">Easier to repair and less painful, but carries a higher risk of extension into the anal sphincter/rectum if the tear progresses beyond the incision - largely fallen out of favour for this reason</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 3. Classification -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Classification of Perineal Trauma
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Applies to both episiotomy extension and spontaneous tears. Correct classification determines the repair approach and the seniority of person who should perform it.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Degree</th>
+        <th class="py-2 font-medium">Extent</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">First degree</td><td class="py-2">Injury to perineal skin and vaginal mucosa only, muscle not involved</td></tr>
+      <tr><td class="py-2 pr-3">Second degree</td><td class="py-2">Injury to perineal muscles, but not the anal sphincter</td></tr>
+      <tr><td class="py-2 pr-3">Third degree</td><td class="py-2">Injury involving the anal sphincter complex - subdivided into 3a (&lt;50% external sphincter thickness torn), 3b (&gt;50% external sphincter thickness torn), 3c (internal sphincter also torn)</td></tr>
+      <tr><td class="py-2 pr-3">Fourth degree</td><td class="py-2">Injury involving the anal sphincter complex and the rectal mucosa</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="text-sm text-rose-900 dark:text-rose-300"><span class="font-medium">Third- and fourth-degree tears (obstetric anal sphincter injuries, OASIS) require repair by an appropriately experienced clinician</span> - typically a senior obstetrician - in an operating theatre setting with adequate anaesthesia and lighting, not at the bedside. Recognising when a tear exceeds a straightforward second-degree repair, and escalating rather than proceeding, is one of the most important judgement calls in this whole topic.</p>
+</div>
+
+<!-- 4. Pre-procedure counselling -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Pre-Procedure Counselling (Before Episiotomy, if Indicated)
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Where time and circumstances allow (i.e. not an immediate emergency such as shoulder dystocia), briefly explain to the patient before proceeding.</p>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">"I need to make a small cut to create more space to help deliver your baby safely. I'll give you an injection to numb the area first, and once your baby is delivered, I'll close it with stitches that will dissolve on their own."</p>
+<p class="text-sm">Even in urgent scenarios where full explanation isn't possible beforehand, explain what was done and why immediately afterward, as part of routine debrief following delivery - this matters for the woman's understanding of her own body and recovery, and reduces later distress or confusion about why an incision was made.</p>
+</div>
+
+<!-- 5. Equipment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Equipment
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Local anaesthetic (1% lidocaine) with syringe and needle.</li>
+  <li>Episiotomy scissors (blunt-tipped).</li>
+  <li>Needle holder, toothed forceps, suture scissors.</li>
+  <li>Absorbable suture material - polyglactin (Vicryl) is standard; rapid-absorbing versions are associated with less need for later suture removal and comparable outcomes.</li>
+  <li>Adequate lighting and positioning - this is frequently underrated and is one of the most common reasons for a technically poor repair.</li>
+  <li>Sterile gauze, antiseptic solution.</li>
+  <li>A means of adequate analgesia - regional anaesthesia (epidural/spinal) if already in place is often sufficient; otherwise local infiltration, ensuring adequate coverage before proceeding.</li>
+</ul>
+</div>
+
+<!-- 6. Performing the episiotomy -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Performing the Episiotomy
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li>Time the incision to when the presenting part is visibly distending the perineum (typically a 3-4 cm diameter of fetal head visible), not earlier - an episiotomy performed too early increases blood loss without benefit.</li>
+  <li>Infiltrate local anaesthetic along the planned incision line if regional anaesthesia is not already established, and allow adequate time for effect.</li>
+  <li>Insert two fingers between the fetal presenting part and the perineum to protect the fetus, and make a single, deliberate cut with scissors along the chosen line (mediolateral preferred) during a contraction, when the tissue is maximally stretched and thinned - this produces a cleaner cut requiring less force.</li>
+  <li>Proceed with delivery per standard technique.</li>
+</ol>
+</div>
+
+<!-- 7. Episiorrhaphy -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Episiorrhaphy (Repair) - Technique
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Repair should proceed as soon as possible after delivery of the placenta, once haemostasis of the uterus is confirmed and the patient is stable, using a systematic layered approach.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 1: Assessment Before Repair</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Ensure adequate lighting and positioning.</li>
+    <li>Identify the full extent of the injury before starting - follow the tear or incision to its apex; missing the true apex is a common cause of an incompletely repaired, bleeding wound.</li>
+    <li>Classify the degree of injury (Section 3) and escalate if third- or fourth-degree.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 2: Analgesia</strong>
+  <p class="text-sm">Confirm adequate anaesthesia before proceeding - top up local infiltration if the area is not fully numb, rather than proceeding through a painful repair.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 3: Layered Closure</strong>
+  <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Layer 1 - Vaginal mucosa:</span> close with a continuous (running) suture starting just above the apex of the vaginal tear, to secure any bleeding point at the highest extent of the injury, and continue down to the level of the hymenal remnants.</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Layer 2 - Perineal muscle:</span> close the deeper perineal muscle layer with interrupted or continuous sutures, approximating the muscle bulk to restore perineal body integrity - this layer matters significantly for long-term perineal support and should not be rushed or under-approximated.</p>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Layer 3 - Perineal skin:</span> close with a continuous subcuticular suture where possible, which is associated with less pain than interrupted skin sutures in trial evidence; interrupted sutures remain acceptable where subcuticular technique is unfamiliar or the wound edges do not lend themselves to it.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 4: Final Checks</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Perform a rectal examination after completing the repair to confirm no suture material has inadvertently passed through the rectal mucosa, and to confirm sphincter integrity - this is a standard, necessary step, not an optional add-on.</li>
+    <li>Confirm haemostasis along the full repair.</li>
+    <li>Count and confirm all swabs/gauze before finishing.</li>
+  </ul>
+</div>
+
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans space-y-2">
+  <p>📹 <span class="font-medium">Episiotomy and repair (layered technique demonstration):</span><br>
+  <a href="https://www.youtube.com/watch?v=cp5sNRWUaVg" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=cp5sNRWUaVg</a></p>
+  <p>📹 <span class="font-medium">Perineal laceration and episiotomy repair overview (MSD Manual Professional):</span><br>
+  <a href="https://www.msdmanuals.com/professional/multimedia/video/how-to-repair-an-episiotomy" class="text-indigo-600 dark:text-indigo-400 underline">msdmanuals.com/professional - How to Repair an Episiotomy</a></p>
+</div>
+</div>
+
+<!-- 8. Complications -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Complications
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Complication</th>
+        <th class="py-2 pr-3 font-medium">Recognition</th>
+        <th class="py-2 font-medium">Management</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Haematoma</td><td class="py-2 pr-3">Increasing perineal/vaginal pain out of proportion to the repair, a tense swelling</td><td class="py-2">Evacuate and re-explore for a bleeding point if significant; small, stable haematomas may be managed conservatively with close monitoring</td></tr>
+      <tr><td class="py-2 pr-3">Infection/wound breakdown</td><td class="py-2 pr-3">Increasing pain, discharge, fever, typically several days post-repair</td><td class="py-2">Wound swab where available, antibiotics, and consider partial resuturing only once infection is controlled - resuturing an actively infected wound is generally avoided</td></tr>
+      <tr><td class="py-2 pr-3">Incomplete healing/dehiscence</td><td class="py-2 pr-3">Separation of the repair, often from infection, haematoma, or excessive early strain on the wound</td><td class="py-2">Assess extent; may require formal re-repair once any infection is controlled</td></tr>
+      <tr><td class="py-2 pr-3">Missed rectal buttonhole/sphincter injury</td><td class="py-2 pr-3">Faecal incontinence, flatal incontinence, or rectovaginal fistula presenting later</td><td class="py-2">Underlines the importance of the post-repair rectal exam in Section 7; if identified late, requires specialist referral</td></tr>
+      <tr><td class="py-2 pr-3">Long-term dyspareunia</td><td class="py-2 pr-3">Pain with intercourse, often related to over-tightening of the repair or scarring</td><td class="py-2">Counsel proactively before this becomes a source of distress (Section 9); pelvic floor physiotherapy and, in persistent cases, specialist referral</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- 9. Post-procedure counselling -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Post-Procedure Patient Counselling
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">This is frequently under-delivered relative to its importance - a woman is often given minimal explanation of what to expect from a perineal repair during a period already dominated by newborn care.</p>
+<p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">"You had a [cut/tear] during delivery, which I've repaired with dissolvable stitches. These will dissolve on their own over the next few weeks and don't need to be removed. Some discomfort and swelling in the area is normal for the next 1-2 weeks."</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Antibiotic Prophylaxis</strong>
+  <p class="text-sm">Not routinely recommended for first- or second-degree tears, or for episiotomy alone. For third- and fourth-degree repairs (OASIS) specifically, RCOG guidance recommends broad-spectrum antibiotic prophylaxis at the time of repair, since this measurably reduces the risk of perineal wound infection and dehiscence - this is one of the clearer, evidence-backed differences in management between a straightforward second-degree repair and an OASIS repair, and worth applying explicitly rather than defaulting to the same antibiotic approach for every degree of tear.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Pain Management</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Regular paracetamol, with an NSAID added where not contraindicated, generally manages perineal pain adequately.</li>
+    <li>Ice packs in the first 24-48 hours can reduce swelling and discomfort.</li>
+    <li>Sitting on a soft cushion, and briefly avoiding prolonged sitting where possible, can improve comfort in the first days.</li>
+  </ul>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Wound Hygiene</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Keep the area clean; warm water rinses after using the toilet, rather than wiping directly, reduce irritation.</li>
+    <li>Change sanitary pads frequently.</li>
+    <li>Loose, breathable underwear.</li>
+  </ul>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="text-sm text-rose-900 dark:text-rose-300 mb-3 italic">"Mild pain, some swelling, and light spotting are expected as the area heals. Please come back or seek help urgently if you notice any of the following."</p>
+<ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Fever</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Increasing (rather than improving) pain after the first few days</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Foul-smelling or worsening vaginal discharge</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>The wound opening up or separating</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Difficulty controlling urine or stool, or a feeling of tissue bulging from the vagina</span></li>
+</ul>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Bowel Management</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Encourage adequate fluid intake and dietary fibre to avoid constipation and straining, which places direct strain on a fresh repair.</li>
+    <li>A stool softener/laxative is reasonable to offer proactively in the first week after any repair, and is specifically recommended following a third- or fourth-degree repair - RCOG guidance suggests a regular laxative (e.g. lactulose, roughly 10 mL twice daily) for around 10 days post-repair specifically for OASIS, to reduce the risk of wound dehiscence from straining.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Return to Activity and Intercourse</strong>
+  <p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">"Most women feel comfortable resuming sexual intercourse around 4-6 weeks after delivery, once bleeding has stopped and the area feels comfortable - but there's no fixed timeline, and it's entirely reasonable to wait longer. If you experience persistent pain with intercourse beyond this period, please come back and discuss it rather than assuming it's something you have to live with."</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Pelvic Floor Exercises</strong>
+  <p class="text-sm">Introduce pelvic floor (Kegel) exercises once comfortable, generally from the first days postpartum - these support healing and long-term pelvic floor function, and are worth teaching explicitly rather than assuming the patient already knows the technique.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Follow-Up</strong>
+  <p class="text-sm">A routine postnatal check (commonly around 6 weeks) should include specific assessment of perineal healing, not just a general wellbeing check. Following a third- or fourth-degree repair specifically, RCOG guidance recommends a dedicated follow-up appointment, usually at 6-12 weeks postpartum, ideally with a clinician who has a specific interest in perineal trauma - assessing continence and wound healing explicitly, given the higher stakes of these repairs, rather than folding this into a standard postnatal visit.</p>
+</div>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Episiotomy is restrictive, not routine - a specific indication should always be identifiable and documented.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Third- and fourth-degree tears need theatre-level repair by an experienced clinician - recognising when to escalate is the single most important judgement call in this topic.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Antibiotics and a scheduled laxative course are specifically indicated after OASIS repair, not after routine episiotomy or lower-degree tears.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never skip the post-repair rectal exam - it's the step that catches a missed buttonhole or sphincter injury before it becomes a delayed, harder-to-treat problem.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give the woman explicit post-repair counselling, including warning signs and realistic timelines - this is routinely under-delivered relative to its importance.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Third- and Fourth-Degree Perineal Tears, Management (Green-top Guideline No. 29).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Intrapartum Care Guideline (perineal trauma and repair).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Recommendations on Episiotomy Policies.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>MSD Manual Professional - How to Repair an Episiotomy.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
 {
   id: 'procedure-wound-suturing',
   title: 'Wound Suturing',

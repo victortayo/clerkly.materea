@@ -404,6 +404,52 @@ const wellsScorePeCalculation = (inputs: { 'Clinical signs of DVT': boolean; 'PE
     return { result: score, interpretation, color, recommendation };
 };
 
+const abcd2Calculation = (inputs: {
+    Age: number;
+    "Systolic BP": number;
+    "Diastolic BP": number;
+    "Clinical Features": string;
+    "Duration of TIA": string;
+    Diabetes: boolean;
+  }) => {
+    let score = 0;
+    if (inputs.Age >= 60) score++;
+    if (inputs["Systolic BP"] >= 140 || inputs["Diastolic BP"] >= 90) score++;
+    if (inputs["Clinical Features"] === "Unilateral Weakness") score += 2;
+    if (inputs["Clinical Features"] === "Speech disturbance without weakness")
+      score++;
+    if (inputs["Duration of TIA"] === ">= 60 minutes") score += 2;
+    if (inputs["Duration of TIA"] === "10-59 minutes") score++;
+    if (inputs.Diabetes) score++;
+  
+    let interpretation = "";
+    let recommendation = "";
+    let color = "text-green-500";
+  
+    if (score <= 1) {
+      interpretation = "Very low risk";
+      recommendation =
+        "2-day stroke risk: 0%. Consider outpatient management.";
+    } else if (score <= 3) {
+      interpretation = "Low risk";
+      recommendation =
+        "2-day stroke risk: 1.3%. Consider outpatient management.";
+      color = "text-yellow-500";
+    } else if (score <= 5) {
+      interpretation = "Moderate risk";
+      recommendation =
+        "2-day stroke risk: 4.1%. Hospital admission may be necessary.";
+      color = "text-orange-500";
+    } else {
+      interpretation = "High risk";
+      recommendation =
+        "2-day stroke risk: 8.1%. Hospital admission is recommended.";
+      color = "text-red-500";
+    }
+  
+    return { result: score, interpretation, recommendation, color };
+  };
+
 
 const mapCalculation = (inputs: { 'Systolic BP': number; 'Diastolic BP': number; }) => {
     const map = (1/3 * inputs['Systolic BP']) + (2/3 * inputs['Diastolic BP']);
@@ -1107,6 +1153,21 @@ export const calculators: Calculator[] = [
             { name: 'Malignancy', type: 'boolean' },
         ],
         calculation: wellsScorePeCalculation,
+    },
+    {
+        name: 'ABCD² Score',
+        category: 'Cardiology',
+        description: 'Stroke risk after TIA.',
+        explanation: 'The ABCD² score is a clinical prediction rule used to determine the risk of stroke in the days following a transient ischemic attack (TIA).',
+        inputs: [
+            { name: "Age", type: "number", unit: "years", min: 1, step: 1 },
+            { name: "Systolic BP", type: "number", unit: "mmHg", min: 1, step: 1 },
+            { name: "Diastolic BP", type: "number", unit: "mmHg", min: 1, step: 1 },
+            { name: "Clinical Features", type: "select", options: ["Unilateral Weakness", "Speech disturbance without weakness", "Other"] },
+            { name: "Duration of TIA", type: "select", options: [">= 60 minutes", "10-59 minutes", "< 10 minutes"] },
+            { name: "Diabetes", type: "boolean" },
+        ],
+        calculation: abcd2Calculation as any,
     },
     {
         name: 'Mean Arterial Pressure (MAP)',

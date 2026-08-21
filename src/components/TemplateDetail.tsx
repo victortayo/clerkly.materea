@@ -2,15 +2,18 @@ import { useState, useEffect, useMemo } from 'react';
 import { Template } from '../types';
 import { useToast } from '../context/ToastContext';
 import ScrollProgressBar from './ScrollProgressBar';
+import { INITIAL_TEMPLATES } from '../data';
+import { TemplateCard } from './TemplateCard';
 
 interface TemplateDetailProps {
   template: Template;
   onBack: () => void;
   isBookmarked: boolean;
-  onToggleBookmark: () => void;
+  onToggleBookmark: (template: Template) => void;
+  onView: (template: Template) => void;
 }
 
-export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmark }: TemplateDetailProps) {
+export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmark, onView }: TemplateDetailProps) {
   const [copied, setCopied] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editedContent, setEditedContent] = useState(template ? template.content : '');
@@ -30,6 +33,12 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
     }
   }, [mode]);
 
+  const relatedTemplates = useMemo(() => {
+    return INITIAL_TEMPLATES.filter(
+      (t) => t.id !== template.id && t.subSpecialty === template.subSpecialty
+    ).slice(0, 3);
+  }, [template.id, template.subSpecialty]);
+
   if (!template) {
     return <div>Loading...</div>;
   }
@@ -40,7 +49,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   }, [template.documentation]);
 
   const handleBookmarkClick = () => {
-    onToggleBookmark();
+    onToggleBookmark(template);
     if (!isBookmarked) {
       showToast('Saved', 'save', 2000);
     }
@@ -181,7 +190,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           </div>
 
           <button
-            onClick={handleBookmarkClick}
+            onClick={() => handleBookmarkClick(template)}
             className={`group flex items-center justify-center w-10 sm:w-12 py-3 sm:py-4 rounded-xl border transition-all duration-300 ${
               isBookmarked
                 ? 'bg-white border-white text-indigo-950 shadow-lg shadow-black/20'
@@ -317,42 +326,20 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
         ))}
       </div>
 
-      <div className="pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <button 
-          onClick={onBack}
-          className="text-xs font-bold text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors"
-        >
-          Back to templates
-        </button>
-
-        <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
-
-          <button
-            onClick={handleBookmarkClick}
-            className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs transition-all active:scale-95 flex items-center justify-center gap-2 border ${
-              isBookmarked
-                ? 'bg-indigo-50 border-indigo-200 text-indigo-700 dark:bg-indigo-900/20 dark:border-indigo-800 dark:text-indigo-300'
-                : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-700'
-            }`}
-          >
-            <i className={`${isBookmarked ? 'fa-solid' : 'fa-regular'} fa-bookmark`}></i>
-            <span>{isBookmarked ? 'Saved' : 'Save'}</span>
-          </button>
-
-          {mode === 'documentation' &&
-            <button
-              onClick={handleCopy}
-              className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2 ${
-                copied
-                  ? 'bg-emerald-600 text-white shadow-emerald-200 dark:shadow-none'
-                  : 'bg-indigo-950 text-white shadow-indigo-200 dark:shadow-none hover:bg-indigo-900'
-              }`}
-            >
-              {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
-              <span>{copied ? 'Copied' : 'Copy'}</span>
-            </button>
-          }
-        </div>
+      <div className="pt-8 mt-12 border-t border-slate-200 dark:border-slate-800">
+          <h2 className="text-xl font-bold text-slate-800 dark:text-slate-200 mb-6">Related Templates</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedTemplates.map(t => (
+                  <TemplateCard
+                      key={t.id}
+                      template={t}
+                      onView={onView}
+                      isBookmarked={isBookmarked}
+                      onToggleBookmark={() => onToggleBookmark(t)}
+                      viewMode="grid"
+                  />
+              ))}
+          </div>
       </div>
     </div>
   );

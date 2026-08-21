@@ -14,6 +14,10 @@ import { INITIAL_TEMPLATES } from './data';
 import { Template, Specialty } from './types';
 import StartingLoader from './components/StartingLoader';
 import ErrorBoundary from './components/ErrorBoundary';
+import { SpecialtyAccordion } from './components/SpecialtyAccordion';
+import { SymptomTagCloud } from './components/SymptomTagCloud';
+
+type NavigationMode = 'list' | 'accordion' | 'symptoms';
 
 export default function App() {
     const [isLoading, setIsLoading] = useState(true);
@@ -29,6 +33,7 @@ export default function App() {
     const [isLearnOpen, setIsLearnOpen] = useState(false);
     const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
     const [activeModal, setActiveModal] = useState<'none' | 'help' | 'contribute' | 'about' | 'disclaimer'>('none');
+    const [navigationMode, setNavigationMode] = useState<NavigationMode>('list');
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -112,11 +117,17 @@ export default function App() {
         setSelectedSpecialty('All');
         setShowBookmarks(false);
         setSelectedTemplate(null);
+        setNavigationMode('list');
     };
 
     const handleToggleBookmark = (template: Template) => {
         toggleBookmark(template);
     };
+
+    const handleSymptomSelect = (symptom: string) => {
+        setSearchQuery(symptom);
+        setNavigationMode('list');
+    }
 
     const searchTips = [
       { icon: 'fa-stethoscope', label: 'Conditions', ex: 'e.g. appendicitis' },
@@ -156,21 +167,77 @@ export default function App() {
                         }}
                         onBack={() => setSelectedTemplate(null)}
                         isBookmarked={bookmarkedTemplateIds.has(selectedTemplate.id)}
-                        onToggleBookmark={() => handleToggleBookmark(selectedTemplate)}
+                        onToggleBookmark={handleToggleBookmark}
+                        onView={setSelectedTemplate}
                     />
                 ) : (
-                    <TemplateList
-                        templates={filteredTemplates}
-                        onView={setSelectedTemplate}
-                        bookmarkedIds={bookmarkedTemplateIds}
-                        onToggleBookmark={handleToggleBookmark}
-                        viewMode={viewMode}
-                        setViewMode={setViewMode}
-                        searchQuery={searchQuery}
-                        selectedSpecialty={selectedSpecialty}
-                        onClearFilters={handleReset}
-                        showBookmarks={showBookmarks}
-                    />
+                    <>
+                        <div className="flex justify-center items-center gap-2 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl transition-colors mb-8 w-fit mx-auto">
+                            <button
+                                onClick={() => setNavigationMode('list')}
+                                className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-2 ${
+                                navigationMode === 'list'
+                                    ? 'bg-white dark:bg-slate-700 text-indigo-950 dark:text-indigo-100 shadow-sm'
+                                    : 'text-slate-500 dark:text-slate-400 hover:text-indigo-900 dark:hover:text-indigo-200'
+                                }`}
+                            >
+                                <i className="fa-solid fa-list"></i>
+                                <span>List / Grid</span>
+                            </button>
+                            <button
+                                onClick={() => setNavigationMode('accordion')}
+                                className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-2 ${
+                                navigationMode === 'accordion'
+                                    ? 'bg-white dark:bg-slate-700 text-indigo-950 dark:text-indigo-100 shadow-sm'
+                                    : 'text-slate-500 dark:text-slate-400 hover:text-indigo-900 dark:hover:text-indigo-200'
+                                }`}
+                            >
+                                <i className="fa-solid fa-bars-staggered"></i>
+                                <span>Specialty</span>
+                            </button>
+                            <button
+                                onClick={() => setNavigationMode('symptoms')}
+                                className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-2 ${
+                                navigationMode === 'symptoms'
+                                    ? 'bg-white dark:bg-slate-700 text-indigo-950 dark:text-indigo-100 shadow-sm'
+                                    : 'text-slate-500 dark:text-slate-400 hover:text-indigo-900 dark:hover:text-indigo-200'
+                                }`}
+                            >
+                                <i className="fa-solid fa-cloud"></i>
+                                <span>Symptoms</span>
+                            </button>
+                        </div>
+                        
+                        {navigationMode === 'list' && (
+                            <TemplateList
+                                templates={filteredTemplates}
+                                onView={setSelectedTemplate}
+                                bookmarkedIds={bookmarkedTemplateIds}
+                                onToggleBookmark={handleToggleBookmark}
+                                viewMode={viewMode}
+                                setViewMode={setViewMode}
+                                searchQuery={searchQuery}
+                                selectedSpecialty={selectedSpecialty}
+                                onClearFilters={handleReset}
+                                showBookmarks={showBookmarks}
+                            />
+                        )}
+                        {navigationMode === 'accordion' && (
+                            <SpecialtyAccordion
+                                templates={filteredTemplates}
+                                onView={setSelectedTemplate}
+                                bookmarkedIds={bookmarkedTemplateIds}
+                                onToggleBookmark={handleToggleBookmark}
+                                viewMode={viewMode}
+                            />
+                        )}
+                        {navigationMode === 'symptoms' && (
+                            <SymptomTagCloud
+                                templates={INITIAL_TEMPLATES} 
+                                onSymptomSelect={handleSymptomSelect} 
+                            />
+                        )}
+                    </>
                 )}
 
                 <GeminiClerking
@@ -415,7 +482,7 @@ export default function App() {
                                             This tool is not intended to replace clinical judgment, professional training, institutional protocols, or formal medical advice. Users are advised to independently verify all medical information with appropriate, up-to-date, and authoritative sources before applying it in any clinical setting.
                                         </p>
                                         <p>
-                                            The developers and contributors assume no responsibility or liability for any errors, omissions, or outcomes arising from the use or misuse of the information provided in this application.
+                                            The developers and contributors assume no responsibility or liability for any errors, omissions, or outcomes from the use or misuse of the information provided in this application.
                                         </p>
                                         <p>
                                             Use of this platform signifies acknowledgment that clinical decisions remain the sole responsibility of the healthcare professional.

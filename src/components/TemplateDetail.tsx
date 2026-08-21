@@ -9,11 +9,12 @@ interface TemplateDetailProps {
   template: Template;
   onBack: () => void;
   isBookmarked: boolean;
+  bookmarkedIds: Set<string>;
   onToggleBookmark: (template: Template) => void;
   onView: (template: Template) => void;
 }
 
-export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmark, onView }: TemplateDetailProps) {
+export function TemplateDetail({ template, onBack, isBookmarked, bookmarkedIds, onToggleBookmark, onView }: TemplateDetailProps) {
   const [copied, setCopied] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editedContent, setEditedContent] = useState(template ? template.content : '');
@@ -24,6 +25,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
   useEffect(() => {
     if (template) {
       setEditedContent(template.content);
+      window.scrollTo(0, 0);
     }
   }, [template]);
 
@@ -190,7 +192,7 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
           </div>
 
           <button
-            onClick={() => handleBookmarkClick(template)}
+            onClick={handleBookmarkClick}
             className={`group flex items-center justify-center w-10 sm:w-12 py-3 sm:py-4 rounded-xl border transition-all duration-300 ${
               isBookmarked
                 ? 'bg-white border-white text-indigo-950 shadow-lg shadow-black/20'
@@ -327,20 +329,30 @@ export function TemplateDetail({ template, onBack, isBookmarked, onToggleBookmar
       </div>
 
       <div className="pt-8 mt-12 border-t border-slate-200 dark:border-slate-800">
-          <h2 className="text-xl font-bold text-slate-800 dark:text-slate-200 mb-6">Related Templates</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {relatedTemplates.map(t => (
-                  <TemplateCard
-                      key={t.id}
-                      template={t}
-                      onView={onView}
-                      isBookmarked={isBookmarked}
-                      onToggleBookmark={() => onToggleBookmark(t)}
-                      viewMode="grid"
-                  />
-              ))}
-          </div>
-      </div>
+        <h2 className="text-xl font-bold text-slate-800 dark:text-slate-200 mb-6">Related Templates</h2>
+        {relatedTemplates.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {relatedTemplates.map(t => (
+                    <TemplateCard
+                        key={t.id}
+                        template={t}
+                        onView={onView}
+                        isBookmarked={bookmarkedIds.has(t.id)}
+                        onToggleBookmark={() => onToggleBookmark(t)}
+                        viewMode="grid"
+                    />
+                ))}
+            </div>
+        ) : (
+            <div className="text-center py-16 px-6 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border-2 border-dashed border-slate-100 dark:border-slate-800 transition-colors">
+                <div className="w-16 h-16 bg-white dark:bg-slate-700/60 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i className="fa-solid fa-box-open text-slate-300 dark:text-slate-500 text-2xl"></i>
+                </div>
+                <h4 className="text-sm font-semibold text-slate-600 dark:text-slate-300 mb-1">No related templates found</h4>
+                <p className="text-xs text-slate-400 dark:text-slate-500">We couldn't find other templates in the same sub-specialty.</p>
+            </div>
+        )}
+    </div>
     </div>
   );
 }

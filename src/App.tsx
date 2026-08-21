@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import { Layout } from './components/Layout';
 import { Hero } from './components/Hero';
 import { TemplateList } from './components/TemplateList';
@@ -8,7 +8,6 @@ import { ClinicalGame } from './components/game/ClinicalGame';
 import { ClerklyLearn } from './components/ClerklyLearn';
 import ClerklyCalculator from './components/ClerklyCalculator';
 import { Modal } from './components/Modal';
-import { Toast } from './components/Toast';
 import { useBookmarks } from './hooks/useBookmarks';
 import { INITIAL_TEMPLATES } from './data';
 import { Template, Specialty } from './types';
@@ -16,6 +15,8 @@ import StartingLoader from './components/StartingLoader';
 import ErrorBoundary from './components/ErrorBoundary';
 import { SpecialtyAccordion } from './components/SpecialtyAccordion';
 import { SymptomTagCloud } from './components/SymptomTagCloud';
+
+const TEMPLATES_PER_PAGE = 12;
 
 type NavigationMode = 'list' | 'accordion' | 'symptoms';
 
@@ -34,6 +35,8 @@ export default function App() {
     const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
     const [activeModal, setActiveModal] = useState<'none' | 'help' | 'contribute' | 'about' | 'disclaimer'>('none');
     const [navigationMode, setNavigationMode] = useState<NavigationMode>('list');
+    const [visibleCount, setVisibleCount] = useState(TEMPLATES_PER_PAGE);
+    const [isFetchingMore, setIsFetchingMore] = useState(false);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -76,17 +79,14 @@ export default function App() {
                 const aTitle = a.title.toLowerCase();
                 const bTitle = b.title.toLowerCase();
                 
-                // 1. Exact Title Match
                 if (aTitle === query && bTitle !== query) return -1;
                 if (bTitle === query && aTitle !== query) return 1;
                 
-                // 2. Title Starts With
                 const aStarts = aTitle.startsWith(query);
                 const bStarts = bTitle.startsWith(query);
                 if (aStarts && !bStarts) return -1;
                 if (bStarts && !aStarts) return 1;
                 
-                // 3. Title Includes (prioritize earlier index)
                 const aIndex = aTitle.indexOf(query);
                 const bIndex = bTitle.indexOf(query);
                 
@@ -96,7 +96,6 @@ export default function App() {
                     return aIndex - bIndex;
                 }
 
-                // 4. Condition Includes
                 const aCondition = a.condition.toLowerCase();
                 const bCondition = b.condition.toLowerCase();
                 const aCondHas = aCondition.includes(query);
@@ -104,13 +103,52 @@ export default function App() {
                 if (aCondHas && !bCondHas) return -1;
                 if (bCondHas && !aCondHas) return 1;
 
-                // 5. Default: Recency
                 return new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime();
             });
         }
 
         return matches;
     }, [searchQuery, selectedSpecialty, showBookmarks, bookmarkedTemplateIds, bookmarkCounts]);
+
+    const paginatedTemplates = useMemo(() => {
+        return filteredTemplates.slice(0, visibleCount);
+    }, [filteredTemplates, visibleCount]);
+
+    const hasMoreTemplates = visibleCount < filteredTemplates.length;
+
+    const handleScroll = useCallback(() => {
+        if (window.innerHeight + document.documentElement.scrollTop < document.documentElement.offsetHeight - 300 || isFetchingMore || !hasMoreTemplates) {
+            return;
+        }
+        setIsFetchingMore(true);
+    }, [isFetchingMore, hasMoreTemplates]);
+
+    useEffect(() => {
+        if (navigationMode === 'list' && !selectedTemplate) {
+            window.addEventListener('scroll', handleScroll);
+            return () => {
+                window.removeEventListener('scroll', handleScroll);
+            };
+        }
+    }, [navigationMode, selectedTemplate, handleScroll]);
+
+    useEffect(() => {
+        if (!isFetchingMore) return;
+
+        const timer = setTimeout(() => {
+            setVisibleCount(prevCount => Math.min(prevCount + TEMPLATES_PER_PAGE, filteredTemplates.length));
+            setIsFetchingMore(false);
+        }, 500); 
+
+        return () => clearTimeout(timer);
+    }, [isFetchingMore, filteredTemplates.length]);
+    
+    useEffect(() => {
+        if (!selectedTemplate) {
+            setVisibleCount(TEMPLATES_PER_PAGE);
+            window.scrollTo(0, 0);
+        }
+    }, [searchQuery, selectedSpecialty, showBookmarks, navigationMode, selectedTemplate]);
 
     const handleReset = () => {
         setSearchQuery('');
@@ -139,6 +177,9 @@ export default function App() {
         return <StartingLoader />;
     }
 
+    const hasFilters = searchQuery || selectedSpecialty !== 'All' || showBookmarks;
+    const noResults = filteredTemplates.length === 0 && hasFilters;
+
     return (
         <ErrorBoundary>
             <Layout 
@@ -146,7 +187,10 @@ export default function App() {
                 onOpenHelp={() => setActiveModal('help')}
                 onOpenAbout={() => setActiveModal('about')}
                 onOpenDisclaimer={() => setActiveModal('disclaimer')}
-                onShowBookmarks={() => setShowBookmarks(true)}
+                onShowBookmarks={() => {
+                  setShowBookmarks(true);
+                  setNavigationMode('list');
+                }}
                 hero={!selectedTemplate ? (
                     <Hero
                         searchQuery={searchQuery}
@@ -157,6 +201,7 @@ export default function App() {
                         setShowBookmarks={setShowBookmarks}
                     />
                 ) : undefined}
+                showBackToTop={!selectedTemplate}
             >
                 {selectedTemplate ? (
                     <TemplateDetail
@@ -167,6 +212,7 @@ export default function App() {
                         }}
                         onBack={() => setSelectedTemplate(null)}
                         isBookmarked={bookmarkedTemplateIds.has(selectedTemplate.id)}
+                        bookmarkedIds={bookmarkedTemplateIds}
                         onToggleBookmark={handleToggleBookmark}
                         onView={setSelectedTemplate}
                     />
@@ -209,22 +255,52 @@ export default function App() {
                         </div>
                         
                         {navigationMode === 'list' && (
-                            <TemplateList
-                                templates={filteredTemplates}
-                                onView={setSelectedTemplate}
-                                bookmarkedIds={bookmarkedTemplateIds}
-                                onToggleBookmark={handleToggleBookmark}
-                                viewMode={viewMode}
-                                setViewMode={setViewMode}
-                                searchQuery={searchQuery}
-                                selectedSpecialty={selectedSpecialty}
-                                onClearFilters={handleReset}
-                                showBookmarks={showBookmarks}
-                            />
+                          <>
+                            {noResults ? (
+                                showBookmarks ? (
+                                  <div key="empty-bookmarks" className="text-center py-24 px-6 sm:px-8 bg-white dark:bg-slate-800 rounded-3xl border-2 border-dashed border-slate-100 dark:border-slate-700 transition-colors">
+                                    <div className="w-20 h-20 bg-indigo-50 dark:bg-indigo-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                                      <i className="fa-regular fa-bookmark text-indigo-400 dark:text-indigo-500 text-3xl"></i>
+                                    </div>
+                                    <h4 className="text-xl font-bold font-brand text-slate-700 dark:text-slate-200 mb-2">No saved templates</h4>
+                                    <p className="text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
+                                      You have not bookmarked any templates yet. Browse the collection and save your favorites for quick access.
+                                    </p>
+                                  </div>
+                                ) : (
+                                  <div key="empty-search" className="text-center py-24 px-6 sm:px-8 bg-white dark:bg-slate-800 rounded-3xl border-2 border-dashed border-slate-100 dark:border-slate-700 transition-colors">
+                                    <div className="w-20 h-20 bg-slate-50 dark:bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-6">
+                                      <i className="fa-solid fa-clipboard-question text-slate-300 dark:text-slate-600 text-3xl"></i>
+                                    </div>
+                                    <h4 className="text-xl font-bold font-brand text-slate-700 dark:text-slate-200 mb-2">No templates found</h4>
+                                    <p className="text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
+                                      We couldn't find any templates matching your search criteria. Try a broader keyword or change the specialty.
+                                      Can't find what you're looking for? <a href="mailto:contactmaterea@gmail.com?subject=Template%20Request" className="text-indigo-500 hover:underline">Request a template</a>.
+                                    </p>
+                                  </div>
+                                )
+                            ) : (
+                              <TemplateList
+                                  templates={paginatedTemplates}
+                                  totalTemplates={filteredTemplates.length}
+                                  onView={setSelectedTemplate}
+                                  bookmarkedIds={bookmarkedTemplateIds}
+                                  onToggleBookmark={handleToggleBookmark}
+                                  viewMode={viewMode}
+                                  setViewMode={setViewMode}
+                                  searchQuery={searchQuery}
+                                  selectedSpecialty={selectedSpecialty}
+                                  onClearFilters={handleReset}
+                                  showBookmarks={showBookmarks}
+                              />
+                            )}
+                          </>
                         )}
+                        {isFetchingMore && navigationMode === 'list' && hasMoreTemplates && <div className="text-center py-4 text-sm text-slate-500">Loading more...</div>}
+                        
                         {navigationMode === 'accordion' && (
                             <SpecialtyAccordion
-                                templates={filteredTemplates}
+                                templates={filteredTemplates} 
                                 onView={setSelectedTemplate}
                                 bookmarkedIds={bookmarkedTemplateIds}
                                 onToggleBookmark={handleToggleBookmark}
@@ -261,14 +337,12 @@ export default function App() {
                     <ClerklyCalculator onClose={() => setIsCalculatorOpen(false)} />
                 )}
 
-                {/* Help Modal */}
                 <Modal
                     isOpen={activeModal === 'help'}
                     onClose={() => setActiveModal('none')}
                     title="Help"
                 >
                     <div className="space-y-6">
-                        {/* Section 1: Search Guide */}
                         <section>
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Find what you're looking for</h4>
                             <div className="grid gap-2">
@@ -286,7 +360,6 @@ export default function App() {
                             </div>
                         </section>
 
-                        {/* Section 2: Medical Disclaimer */}
                         <div className="bg-amber-50 dark:bg-amber-950/30 p-3 rounded-xl border border-amber-100/50 dark:border-amber-900/50">
                             <div className="flex gap-2">
                                 <i className="fa-solid fa-circle-info text-amber-500 text-xs mt-0.5"></i>
@@ -300,7 +373,6 @@ export default function App() {
                             </div>
                         </div>
 
-                        {/* Section 3: Contact & Support */}
                         <section className="pt-2 border-t border-slate-100 dark:border-slate-800">
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                             <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
@@ -321,19 +393,16 @@ export default function App() {
                     </div>
                 </Modal>
 
-                {/* Contribute Modal */}
                 <Modal
                     isOpen={activeModal === 'contribute'}
                     onClose={() => setActiveModal('none')}
                     title="Contribute"
                 >
                     <div className="space-y-6">
-                        {/* Header & Lead Text */}
                         <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                             Help us build a robust repository of relevant clinical templates.
                         </p>
 
-                        {/* Submission Guidelines Box */}
                         <div className="bg-gradient-to-br from-indigo-50 to-white dark:from-slate-800 dark:to-slate-900 p-4 rounded-2xl border border-indigo-100 dark:border-slate-700">
                             <div className="flex items-center gap-2 mb-3">
                                 <div className="w-5 h-5 rounded-full bg-indigo-100 dark:bg-indigo-900/40 flex items-center justify-center">
@@ -358,12 +427,10 @@ export default function App() {
                             </ul>
                         </div>
 
-                        {/* Humor Disclaimer */}
                         <p className="text-[10px] sm:text-xs italic text-slate-400 text-center mb-3 font-medium">
                             You already have those templates on your phone, chief 🤲
                         </p>
 
-                        {/* Primary Call-to-Action (Google Form Button) */}
                         <a
                             href="https://docs.google.com/forms/d/e/1FAIpQLSfZyY4QMv4KSiIBz9T3RXbIn3Cxt-qelDOf_TpdBL3N3aMhsg/viewform?usp=dialog"
                             target="_blank"
@@ -374,7 +441,6 @@ export default function App() {
                             <i className="fa-solid fa-arrow-up-right-from-square text-[10px] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
                         </a>
 
-                        {/* Section 3: Contact & Support (Copied from Help Modal) */}
                         <section className="pt-6 border-t border-slate-100 dark:border-slate-800">
                             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Contact & Support</h4>
                             <p className="text-[10px] sm:text-xs text-slate-500 mb-3 leading-relaxed">
@@ -395,36 +461,41 @@ export default function App() {
                     </div>
                 </Modal>
 
-                {/* About Modal */}
                 <Modal
                     isOpen={activeModal === 'about'}
                     onClose={() => setActiveModal('none')}
                     title="About This Platform"
                 >
                     <div className="space-y-6">
-                        <div className="bg-gradient-to-br from-indigo-50 to-white dark:from-slate-800 dark:to-slate-900 p-4 rounded-2xl border border-indigo-100 dark:border-slate-700">
-                            <div className="space-y-4 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                                <p>
-                                    Medicine has always been an apprenticeship. The best way to learn is by seeing - by observing real patients, patterns, and decision-making in context. But in reality, many doctors in training do not get enough exposure to the full range of clinical cases they are expected to understand.
-                                </p>
-                                <p>
-                                    The next best way to learn is through well-structured examples - to learn from what others have seen, documented, and reasoned through.
-                                </p>
-                                <p>
-                                    This platform was built on that idea.
-                                </p>
-                                <p>
-                                    Here, you will find curated clinical clerkings of common conditions encountered in Nigerian practice. While these cases are not real patients, they are carefully constructed from patterns seen across real-life cases and adapted specifically for learning. Each clerking reflects how these conditions typically present in our environment, with attention to the nuances that matter in day-to-day practice.
-                                </p>
-                                <p>
-                                    Beyond documentation, this resource is designed to bridge the gap between theory and reality. It provides practical, step-by-step approaches to patient management, taking into account the socioeconomic and infrastructural realities of healthcare in Nigeria.
-                                </p>
-                                <p>
-                                    This platform is intended for medical students in their clinical years, house officers, and early-career doctors - anyone looking to think more clearly, clerk more effectively, and manage patients with greater confidence.
-                                </p>
-                                <p>
-                                    Medical education is constantly evolving, and this project is built with that in mind. Your feedback, suggestions, and support are welcome. Every contribution will be taken seriously and used to improve the experience for everyone.
-                                </p>
+                        <div className="bg-gradient-to-br from-indigo-50 to-white dark:from-slate-800 dark:to-slate-900 p-4 rounded-xl border border-indigo-100 dark:border-slate-700">
+                            <div className="flex gap-3">
+                                <i className="fa-solid fa-book-open-reader text-indigo-500 text-sm mt-1"></i>
+                                <div className="space-y-3">
+                                    <p className="text-xs font-bold text-indigo-900 dark:text-indigo-200">Our Mission</p>
+                                    <div className="text-[11px] text-slate-600 dark:text-slate-300 leading-relaxed space-y-3">
+                                        <p>
+                                            Medicine has always been an apprenticeship. The best way to learn is by seeing - by observing real patients, patterns, and decision-making in context. But in reality, many doctors in training do not get enough exposure to the full range of clinical cases they are expected to understand.
+                                        </p>
+                                        <p>
+                                            The next best way to learn is through well-structured examples - to learn from what others have seen, documented, and reasoned through.
+                                        </p>
+                                        <p>
+                                            This platform was built on that idea.
+                                        </p>
+                                        <p>
+                                            Here, you will find curated clinical clerkings of common conditions encountered in Nigerian practice. While these cases are not real patients, they are carefully constructed from patterns seen across real-life cases and adapted specifically for learning. Each clerking reflects how these conditions typically present in our environment, with attention to the nuances that matter in day-to-day practice.
+                                        </p>
+                                        <p>
+                                            Beyond documentation, this resource is designed to bridge the gap between theory and reality. It provides practical, step-by-step approaches to patient management, taking into account the socioeconomic and infrastructural realities of healthcare in Nigeria.
+                                        </p>
+                                        <p>
+                                            This platform is intended for medical students in their clinical years, house officers, and early-career doctors - anyone looking to think more clearly, clerk more effectively, and manage patients with greater confidence.
+                                        </p>
+                                        <p>
+                                            Medical education is constantly evolving, and this project is built with that in mind. Your feedback, suggestions, and support are welcome. Every contribution will be taken seriously and used to improve the experience for everyone.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -459,7 +530,6 @@ export default function App() {
                     </div>
                 </Modal>
 
-                {/* Disclaimer Modal */}
                 <Modal
                     isOpen={activeModal === 'disclaimer'}
                     onClose={() => setActiveModal('none')}

@@ -29,7 +29,7 @@ function TemplateRow({
     e.stopPropagation();
     navigator.clipboard.writeText(template.content);
     setCopied(true);
-    showToast('Template copied to clipboard');
+    showToast('Copied', 'copy', 2000);
     setTimeout(() => setCopied(false), 2000);
   };
 

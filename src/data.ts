@@ -15309,6 +15309,293 @@ Not yet available
 
   // Internal Medicine
   {
+    id: 'im-60',
+    title: 'Disseminated Blastomycosis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Infectious Diseases Clinic',
+    condition: 'Disseminated Blastomycosis',
+    symptoms: ['Chronic cough', 'Fever', 'Progressive weight loss', 'Crusted skin lesions', 'Night sweats', 'Sputum production'],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '38-year-old Yoruba male software engineer presenting with chronic cough, fever, weight loss and verrucous cutaneous lesions following prolonged outdoor exposure in Wisconsin, consistent with pulmonary and cutaneous blastomycosis.',
+    content: `INFECTIOUS DISEASES CLINIC
+  
+  Patient Seen
+  
+  A 38-year-old Yoruba male software engineer residing in Lekki, Lagos State, married with two children, who recently returned from a 2-month software consultancy trip to Wisconsin, USA, presenting with chronic cough, fever, skin lesions and progressive weight loss.
+  
+  PC:
+  
+  Chronic cough × 6/12
+  Fever × 4/12
+  Skin lesions × 2/12
+  Progressive weight loss × 3/12
+  
+  HPC:
+  
+  Patient presented with a 6-month history of progressive cough, initially dry but becoming productive of purulent, occasionally blood-tinged sputum 2 months prior to presentation. Cough is worse in the mornings with no specific relieving factors.
+  
+  There is associated low-grade, intermittent fever of 4 months duration, worse at night and associated with drenching night sweats. Patient reports significant undocumented weight loss, estimated at approximately 8 kg over 3 months, with generalized body weakness.
+  
+  About 2 months prior to presentation, he noticed multiple painless skin bumps on his face and left forearm. These started as small papules and gradually enlarged to form raised, crusted and ulcerated plaques.
+  
+  PTP:
+  
+  He has taken several courses of OTC antibiotics, including Amoxiclav and Azithromycin, and local herbal cough mixtures with no clinical improvement.
+  
+  Travel/Exposure History:
+  
+  Patient spent 8 weeks hiking and camping in wooded areas near rivers in Wisconsin, USA, before returning to Nigeria 3 weeks ago. No history of contact with known pulmonary tuberculosis patients.
+  
+  PMHx:
+  
+  No known chronic medical conditions including hypertension, diabetes mellitus or asthma.
+  No previous blood transfusions or major surgeries.
+  HIV status known negative, last tested 3 months ago.
+  
+  Drug History:
+  
+  OTC Amoxiclav 625 mg BD × 7/7, completed 1 month ago.
+  OTC Azithromycin 500 mg daily × 3/7.
+  Paracetamol 1 g PRN for fever.
+  No known drug allergies.
+  
+  Family and Social History:
+  
+  Married with two children. Family members currently healthy.
+  Non-smoker.
+  Occasional social alcohol intake.
+  Resides in a well-ventilated apartment in Lekki, Lagos State.
+  
+  ROS:
+  
+  General: Significant weight loss, night sweats and easy fatigability.
+  RS: Cough, sputum production and mild dyspnoea on moderate exertion. No pleuritic chest pain.
+  CVS: No orthopnoea, PND or palpitations.
+  GIT: Decreased appetite. No abdominal pain, diarrhoea or vomiting.
+  CNS: No headache, neck stiffness, photophobia or focal weakness.
+  MSS: Mild generalized arthralgia. No joint swelling.
+  Dermatological: Crusted skin lesions involving the face and left arm.
+  
+  O/E:
+  
+  Acutely ill-looking, chronically wasted and febrile. Mildly pale, anicteric, no peripheral lymphadenopathy and no pedal oedema. Hydration status fair.
+  
+  Vitals:
+  
+  Temp: 38.1°C
+  PR: 94 bpm, regular, moderate volume
+  BP: 115/75 mmHg
+  RR: 22 cpm
+  SpO₂: 96% RA
+  
+  SKIN:
+  
+  Multiple well-demarcated, verrucous plaques with raised, violaceous, crusted borders on the right cheek measuring approximately 3 cm × 2 cm and extensor surface of the left forearm measuring approximately 4 cm × 3 cm. Microabscesses visible at the borders of the lesions. Mildly tender on palpation. No regional lymphadenopathy.
+  
+  RS:
+  
+  Tachypnoeic. Trachea central. Decreased chest expansion over the right hemithorax. Percussion note dull over the right mid and lower lung zones. Bronchial breath sounds and coarse crepitations heard over the right mid and lower lung zones.
+  
+  CVS:
+  
+  S1 and S2 heard. No murmurs. JVP not elevated.
+  
+  ABD:
+  
+  Flat, soft and non-tender. No hepatosplenomegaly. Bowel sounds normal.
+  
+  CNS:
+  
+  Conscious, alert and oriented in time, place and person. GCS 15/15. No signs of meningeal irritation. Kernig's and Brudzinski's signs negative. No focal neurological deficits.
+  
+  ASS:
+  
+  1. Disseminated blastomycosis with pulmonary and cutaneous involvement.
+  2. Pulmonary tuberculosis with cutaneous tuberculosis, to be excluded.
+  3. Disseminated African histoplasmosis, less likely.
+  4. Other deep fungal infection, including coccidioidomycosis or paracoccidioidomycosis.
+  5. Melioidosis, less likely.
+  
+  INVESTIGATIONS:
+  
+  - Sputum and skin lesion specimens for fungal microscopy, including KOH preparation.
+  - Skin lesion biopsy for histopathology with GMS/PAS staining.
+  - Fungal culture of sputum and skin biopsy specimens; inform the laboratory of suspected dimorphic fungal infection for appropriate biosafety precautions.
+  - Sputum GeneXpert MTB/RIF and AFB smear to exclude pulmonary tuberculosis.
+  - Chest X-ray PA view to assess the extent of pulmonary involvement and identify consolidation, nodules, masses or other complications.
+  - FBC to assess for anaemia and leukocytosis.
+  - ESR as a marker of inflammatory activity.
+  - U/E/Cr as baseline renal function before systemic antifungal therapy.
+  - LFTs as baseline before azole therapy and for subsequent monitoring.
+  - HIV screening to reassess for underlying immunosuppression.
+  
+  PLAN:
+  
+  - Admit if clinically indicated based on respiratory status and extent of disease.
+  - Consult Infectious Diseases/Medical team and Dermatology for co-management.
+  - If mild-to-moderate disseminated blastomycosis without CNS involvement is confirmed, commence oral Itraconazole according to specialist-directed dosing, typically with a loading phase followed by maintenance therapy for approximately 6–12 months.
+  - Itraconazole capsules should be taken with food and absorption/drug interactions should be reviewed before treatment.
+  - If disease is severe, progressive or life-threatening, initiate appropriate IV Amphotericin B therapy followed by oral Itraconazole under specialist supervision.
+  - Give Tab Paracetamol 1 g TDS PRN for fever/pain, within the recommended maximum daily dose.
+  - Clean cutaneous lesions gently with sterile Normal Saline and apply appropriate dry sterile dressings.
+  - Avoid aggressive debridement of the skin lesions.
+  - Provide high-protein, high-calorie nutritional support.
+  - Monitor clinical response, including cough, fever, respiratory symptoms, weight and healing of cutaneous lesions.
+  - Monitor U/E/Cr and LFTs during systemic antifungal therapy, with frequency determined by the antifungal regimen and clinical status.
+  - Counsel patient on strict adherence to the prolonged antifungal treatment course to reduce the risk of relapse.
+  - Advise patient to avoid further exposure to soil, decaying vegetation and potentially contaminated environments until diagnosis and treatment have been established.
+  - Urgently escalate care if respiratory distress, worsening hypoxaemia, haemodynamic instability or neurological symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-59',
+    title: 'Disseminated Histoplasmosis in HIV',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Infectious Diseases Clinic',
+    condition: 'Disseminated Histoplasmosis',
+    symptoms: ['Prolonged fever', 'Progressive weight loss', 'Disseminated skin lesions', 'Chronic cough', 'Night sweats', 'Generalized weakness'],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '38-year-old Yoruba male civil servant and part-time poultry farmer with poorly controlled HIV infection presenting with prolonged fever, weight loss, disseminated nodular skin lesions, cough, hepatosplenomegaly and a history of significant bat exposure, consistent with disseminated histoplasmosis.',
+    content: `INFECTIOUS DISEASES CLINIC
+  
+  Patient Seen
+  
+  A 38-year-old Yoruba male civil servant and part-time poultry farmer residing in Ibadan, Oyo State, Nigeria, Christian, married with two children, known retroviral disease patient presenting with prolonged fever, weight loss, disseminated skin lesions and cough.
+  
+  PC:
+  
+  Fever × 4/52
+  Progressive weight loss × 2/12
+  Skin lesions × 3/52
+  Cough × 3/52
+  
+  HPC:
+  
+  Patient presented with a 4-week history of low-grade, intermittent fever, worse at night and associated with drenching night sweats. There is associated progressive weight loss, unquantified but noticeable by loose-fitting clothes, and generalized body weakness over the last 2 months.
+  
+  He also developed skin lesions 3 weeks prior to presentation, initially as small, painless bumps on the face and neck which gradually increased in size and spread to the trunk and upper limbs. Some lesions subsequently ulcerated and discharged serosanguinous fluid.
+  
+  There is associated non-productive cough of 3 weeks duration with no haemoptysis, chest pain or orthopnoea, but mild dyspnoea on moderate exertion. No history of contact with any known tuberculosis patient.
+  
+  Of note, patient reports cleaning an abandoned, dusty poultry house and attic heavily infested with bats approximately 2 months prior to presentation.
+  
+  PMHx:
+  
+  Known retroviral disease diagnosed 6 months ago.
+  No history of pulmonary tuberculosis or previous hospital admissions.
+  No history of blood transfusions.
+  No known drug allergies.
+  
+  Drug History:
+  
+  Initiated on TLD (Tenofovir/Lamivudine/Dolutegravir) 6 months ago but defaulted 3 months ago due to personal reasons.
+  Self-medicating with OTC Amoxicillin capsules and Artemether-Lumefantrine without clinical improvement.
+  
+  Family and Social History:
+  
+  Married with two children.
+  Wife is retroviral negative.
+  Non-smoker.
+  Occasional social alcohol intake.
+  Resides in a poorly ventilated 2-bedroom apartment in a suburban area of Ibadan.
+  
+  ROS:
+  
+  General: Significant weight loss, drenching night sweats and fatigue.
+  RS: Cough and mild exertional dyspnoea. No pleuritic chest pain.
+  CVS: No palpitations, orthopnoea or pedal swelling.
+  GIT: Mild watery diarrhoea, 2–3 episodes/day for 1 week. No dysphagia or abdominal pain.
+  CNS: No headache, neck stiffness, photophobia or seizures.
+  MSS: Generalized myalgia and arthralgia.
+  
+  O/E:
+  
+  Acutely ill-looking, cachectic and febrile. Mildly pale, anicteric, acyanotic. No significant peripheral lymphadenopathy. No pedal oedema.
+  
+  Vitals:
+  
+  Temp: 38.6°C
+  PR: 102 bpm, regular, moderate volume
+  BP: 105/65 mmHg
+  RR: 24 cpm
+  SpO₂: 95% RA
+  
+  SKIN:
+  
+  Multiple disseminated, firm, umbilicated papules and nodules measuring approximately 0.5–2 cm in diameter involving the face, neck, trunk and upper limbs. Some nodules show central ulceration with overlying crusts.
+  
+  RS:
+  
+  Trachea central. Chest expansion symmetrical but reduced. Tactile fremitus normal. Percussion note resonant bilaterally. Vesicular breath sounds with fine crepitations at both lung bases.
+  
+  CVS:
+  
+  Apex beat at the 5th left intercostal space, midclavicular line. S1 and S2 heard. No murmurs.
+  
+  ABD:
+  
+  Flat, soft and non-tender. Hepatomegaly with liver span of 14 cm, smooth and non-tender edge. Splenomegaly with spleen palpable 3 cm below the left costal margin. Bowel sounds normal.
+  
+  CNS:
+  
+  Conscious and alert. GCS 15/15. No signs of meningeal irritation. Kernig's and Brudzinski's signs negative. Cranial nerves intact. Motor and sensory functions normal.
+  
+  ASS:
+  
+  1. Disseminated histoplasmosis in a patient with advanced HIV infection.
+  2. Retroviral disease with severe immunosuppression, currently off ART.
+  3. Disseminated tuberculosis, to be excluded.
+  4. Disseminated cryptococcosis, to be excluded.
+  5. Kaposi sarcoma, less likely.
+  
+  INVESTIGATIONS:
+  
+  - Skin biopsy of a representative nodule for histopathology with GMS/PAS staining and fungal culture.
+  - Sputum for GeneXpert MTB/RIF to exclude pulmonary tuberculosis.
+  - Serum Cryptococcal Antigen (CrAg) assay to assess for cryptococcosis.
+  - FBC with differential to assess for cytopenias and systemic infection.
+  - CD4+ T-lymphocyte count.
+  - HIV viral load.
+  - LFTs as baseline before systemic antifungal therapy and for subsequent monitoring.
+  - U/E/Cr to assess renal function and establish baseline before Amphotericin B.
+  - Chest X-ray PA view to assess for pulmonary infiltrates or miliary pattern.
+  - Abdominal ultrasound to assess hepatosplenomegaly and intra-abdominal lymphadenopathy.
+  
+  PLAN:
+  
+  - Admit to the medical ward for further evaluation and treatment.
+  - Maintain adequate hydration with appropriate IV fluids based on clinical volume status.
+  - Give Paracetamol 1 g IV/PO 8-hourly PRN for fever, within the recommended daily maximum.
+  - Provide high-protein, high-calorie nutritional support.
+  - If disseminated histoplasmosis is confirmed or strongly suspected and severe disease warrants empiric treatment, commence appropriate systemic antifungal therapy in consultation with an infectious diseases/medical specialist.
+  - Preferred induction therapy: Liposomal Amphotericin B 3 mg/kg IV daily for approximately 2 weeks.
+  - Where liposomal Amphotericin B is unavailable, Amphotericin B deoxycholate may be used with appropriate pre-hydration and close monitoring for nephrotoxicity and electrolyte disturbances.
+  - Follow induction therapy with oral Itraconazole 200 mg TDS for 3 days, then 200 mg BD as consolidation/maintenance therapy, with duration guided by clinical response, immune recovery and specialist protocol.
+  - Monitor fluid input/output, renal function and serum potassium/magnesium closely during Amphotericin B therapy.
+  - Monitor LFTs and clinically relevant drug interactions during Itraconazole therapy.
+  - Commence/continue appropriate opportunistic infection prophylaxis according to CD4 count and current HIV treatment guidelines.
+  - Re-engage patient with HIV care and assess CD4 count, viral load and ART adherence.
+  - Timing of ART re-initiation should be individualized with the HIV/ID team after assessment and stabilization of the acute opportunistic infection rather than automatically delaying ART.
+  - Counsel patient regarding adherence to ART and avoidance of unprescribed antibiotics, antimalarials and herbal medications.
+  - Counsel regarding avoidance of exposure to bat or bird droppings, particularly when cleaning enclosed or poorly ventilated environments.
+  - Review clinical response, investigation results and antifungal toxicity regularly.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'im-58',
     title: 'Neurocysticercosis Presenting with New-Onset Seizures',
     specialty: 'Internal Medicine',
@@ -30970,6 +31257,304 @@ Not yet available
 
 // General Outpatient
 {
+  id: 'gopd-59',
+  title: 'Ichthyosis Vulgaris with Painful Palmar and Plantar Fissures',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dermatology',
+  condition: 'Ichthyosis Vulgaris',
+  symptoms: ['Generalized dry scaly skin', 'Generalized pruritus', 'Polygonal scaling of extensor surfaces', 'Palmar and plantar fissures', 'Palmar and plantar hyperlinearity'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '22-year-old female university student with lifelong generalized dry, scaly skin, worsening pruritus and scaling, and painful palmar and plantar fissures, with clinical features and family history suggestive of ichthyosis vulgaris associated with atopic diathesis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 22-year-old Yoruba female university student residing in Yaba, Lagos State.
+
+PC:
+
+Generalized dry, scaly skin since early childhood, with worsening itching and scaling × 3 weeks.
+Painful cracks on the palms and soles × 1 week.
+
+HPC:
+
+Patient presents with a lifelong history of generalized dry, rough, and scaly skin, first noticed by her mother during early infancy around age 1. The scaling has been slowly progressive, characteristically worsening during the dry, dusty harmattan season and showing mild improvement during the rainy season.
+
+The current episode started about 3 weeks ago, characterized by severe generalized pruritus, worse at night, and a marked increase in the shedding of fine, fish-like scales. The scales are predominantly located on the extensor surfaces of her limbs, including the shins and forearms, and her trunk.
+
+She notes that the bends of her elbows and knees have always been spared.
+
+Over the past week, she developed deep, painful cracks (fissures) on her palms and soles, which have made walking and writing difficult.
+
+No history of skin blistering, redness of the skin at birth, or collodion membrane.
+No history of joint pain, hair loss, or nail abnormalities.
+No systemic symptoms such as fever, weight loss, or night sweats.
+
+Prior to Presentation:
+
+She has been self-medicating with various over-the-counter moisturizing creams, native herbal soaps (black soap), and intermittent application of topical hydrocortisone cream bought from a local chemist, with only transient relief.
+
+Worsening discomfort and pain from the plantar fissures prompted her presentation.
+
+Past Medical History:
+
+Known history of atopic dermatitis (eczema) diagnosed in childhood, managed intermittently with topical steroids.
+History of recurrent allergic rhinitis with frequent sneezing and runny nose triggered by dust.
+No history of asthma.
+No prior hospital admissions or surgical interventions.
+Genotype: AA.
+
+Drug History:
+
+OTC Hydrocortisone 1% cream, used intermittently for several months.
+Various commercial cosmetic moisturizers.
+No known drug allergies.
+
+Family History:
+
+Father and elder brother have a similar history of chronically dry, scaly skin.
+Mother has a history of bronchial asthma.
+No family history of early-onset skin malignancies.
+
+Social History:
+
+University undergraduate living in a shared hostel room in Yaba.
+Non-smoker and does not consume alcohol.
+Water source in the hostel is treated borehole water.
+
+Review of Systems:
+
+Integumentary: As detailed in HPC.
+Respiratory: Occasional morning sneezing, otherwise no abnormality detected.
+Cardiovascular: No orthopnea, no pedal edema.
+Gastrointestinal: Normal appetite, normal bowel habits.
+CNS: Sleep disturbed by pruritus, otherwise normal cognition.
+
+O/E:
+
+Conscious, alert, and oriented in time, place, and person.
+
+Not acutely ill-looking, not pale, anicteric, acyanotic, dehydrated, or febrile (36.6°C).
+
+No significant peripheral lymphadenopathy.
+No pedal edema.
+
+PR: 76 bpm, regular, normal volume.
+BP: 110/70 mmHg.
+RR: 16 cpm.
+SpO₂: 99% on room air.
+
+Dermatological Examination:
+
+Inspection: Generalized severe xerosis.
+Prominent, fine, polygonal, light-gray to light-brown scales closely adherent to the skin, most marked on the extensor aspects of the lower extremities and upper extremities.
+Strict sparing of the flexural creases, including the antecubital and popliteal fossae.
+Palms and soles show marked hyperlinearity with deep, painful, erythematous linear fissures on the heels and lateral borders of the soles.
+Nails and hair appear normal.
+
+Palpation: Skin feels rough, dry, and coarse with a sandpaper-like texture.
+No localized warmth or tenderness over the scaled areas.
+Mild tenderness elicited on palpation of the plantar fissures.
+No purulent discharge, fluctuance, or signs of secondary bacterial infection.
+
+Systemic Examination:
+
+CVS: S1 and S2 heard, no murmurs. Pulse character normal.
+RS: Lungs clear, vesicular breath sounds bilaterally.
+ABD: Soft, non-tender, no organomegaly. Liver and spleen not palpable.
+CNS: Cranial nerves I-XII intact. Motor and sensory functions normal.
+
+ASS:
+
+Ichthyosis vulgaris, likely autosomal dominant and associated with atopic diathesis, complicated by severe xerosis, pruritus, and painful palmar and plantar fissures.
+
+Differentials:
+
+1. X-linked recessive ichthyosis: Less likely due to female gender, sparing of the flexures, and absence of dirty-brown scales on the neck and trunk.
+2. Acquired ichthyosis: Less likely given the onset in early infancy and strong family history, but should be considered if systemic symptoms develop.
+3. Severe atopic dermatitis (xerotic phase): May co-exist with ichthyosis vulgaris, but the characteristic polygonal scaling with flexural sparing favors ichthyosis vulgaris.
+
+INVESTIGATION:
+
+1. Full Blood Count (FBC): To assess for eosinophilia associated with atopy and rule out leukocytosis suggestive of secondary infection.
+2. Skin biopsy for histopathology: To be scheduled upon specialist review; expected to show compact hyperkeratosis with a reduced or absent granular layer.
+3. Thyroid Function Tests (TFTs): To rule out hypothyroidism as a contributing cause of severe dry skin.
+4. Urinalysis: Baseline assessment.
+
+PLAN:
+
+1. Counsel the patient on the chronic, genetic nature of ichthyosis vulgaris and explain that although there is no permanent cure, the condition can be well controlled with consistent skin care.
+2. Advise bathing with lukewarm water, limiting baths to 5–10 minutes, and avoiding hot water and harsh, medicated, or native black soaps.
+3. Recommend mild, non-soap cleansers such as Cetaphil or simple baby soap.
+4. Advise the soak-and-smear technique, applying emollients immediately within 3 minutes after bathing while the skin is still damp.
+5. Apply thick, bland emollients such as white petrolatum (Vaseline) or a 50:50 liquid paraffin/white soft paraffin mixture generously at least 3–4 times daily.
+6. Urea cream 10% to scaled areas on the limbs and trunk twice daily; avoid application to open fissures as it may sting.
+7. Salicylic acid ointment 3% in Vaseline to thickened skin of the palms and soles to aid shedding of the thickened stratum corneum.
+8. For painful fissures, apply thick petrolatum ointment under occlusion using clean cotton socks or gloves at night.
+9. Tab Loratadine 10 mg daily OR Tab Cetirizine 10 mg nocte × 10 days for nocturnal pruritus.
+10. Hydrocortisone 1% ointment to areas of active eczematous inflammation or severe itching × 5 days; avoid prolonged use.
+11. Refer to Dermatology Clinic at the nearest tertiary centre for specialist evaluation, possible topical retinoid therapy such as tazarotene if refractory, and genetic counseling.
+12. Review in General Outpatient Clinic in 2 weeks to assess response to therapy and healing of fissures.
+`,
+  documentation: `<div class="space-y-6">
+
+Not yet available
+
+</div>`,
+  bookmarkCount: 0
+},
+{
+  id: 'gopd-58',
+  title: 'Halitosis Secondary to Chronic Gingivitis and Dental Calculus',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Clinic',
+  condition: 'Halitosis',
+  symptoms: ['Bad breath', 'Gingival bleeding', 'Coated tongue', 'Dental plaque and calculus', 'Gingival erythema and edema'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '24-year-old male student presenting with 6 months of persistent halitosis associated with occasional gingival bleeding, significant dental plaque and calculus, and clinical features of chronic gingivitis.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+
+A 24-year-old male student residing in Akure, Ondo State, Yoruba, with HLE: Not stated.
+
+PC:
+
+Bad breath (Halitosis) × 6 months
+
+HPC:
+
+The patient was apparently well until 6 months ago when he noticed persistent foul-smelling breath. The odor is most prominent in the morning but persists throughout the day despite routine brushing.
+
+He brushes his teeth once daily, every morning, using a medium-bristled toothbrush and fluoride toothpaste. He does not use dental floss or mouthwash.
+
+There is associated occasional bleeding from the gums, especially during brushing.
+
+No history of toothache, tooth mobility, or facial swelling.
+
+No history of chronic cough, post-nasal drip, or frequent sore throat.
+
+No history of retrosternal burning sensations, excessive belching, or epigastric pain.
+
+No systemic symptoms such as excessive thirst, polyuria, or unintended weight loss.
+
+Past Medical History:
+
+No history of similar complaints in the past.
+
+No history of hospitalizations or previous surgeries.
+
+Not a known diabetic or hypertensive patient.
+
+Drug History:
+
+Not on any routine medications.
+
+No known drug allergies.
+
+Family History:
+
+He is the second of four children in a monogamous family setting.
+
+No family history of chronic systemic diseases.
+
+Social History:
+
+Non-smoker and does not consume alcohol.
+
+Lives in a well-ventilated hostel apartment with access to borehole water.
+
+Review of Systems:
+
+CNS: No headaches, no seizures.
+
+RS: No cough, no shortness of breath.
+
+CVS: No palpitations, no pedal edema.
+
+GIT: No abdominal pain, no constipation or diarrhea.
+
+MSS: No joint pains or swelling.
+
+O/E:
+
+Young man, not acutely ill, not in any obvious distress.
+
+Afebrile (36.6°C), not pale, anicteric, not dehydrated, no significant lymphadenopathy.
+
+PR 76 bpm, regular, full volume.
+
+BP 110/70 mmHg.
+
+RR 16 cpm.
+
+SpO₂ 98% on room air.
+
+Focused Oral Examination:
+
+Visible halitosis noted during the interview.
+
+Tongue mildly coated with a whitish film.
+
+Gingivae erythematous and mildly edematous at the margins.
+
+Significant accumulation of dental plaque and calculus, particularly on the lingual surfaces of the mandibular incisors.
+
+No obvious dental caries or cavities.
+
+Oropharynx clear; tonsils not enlarged and show no cryptic debris.
+
+Systemic Examination:
+
+ABD: Flat, soft, non-tender. No organomegaly. Bowel sounds normal.
+
+Chest: Trachea central. Breath sounds vesicular.
+
+CVS: Heart sounds S1 and S2 heard; no murmurs.
+
+ASS:
+
+Halitosis secondary to chronic gingivitis and dental calculus.
+
+Differentials:
+
+1. Chronic periodontitis.
+2. Chronic tonsillitis (cryptic tonsils).
+3. Gastroesophageal reflux disease (GERD).
+4. Chronic sinusitis with post-nasal drip.
+
+INVESTIGATION:
+
+Dental referral for comprehensive oral health assessment and periodontal probing.
+
+Fasting Blood Sugar (FBS).
+
+Intra-oral periapical X-rays if deep periodontal pockets are suspected.
+
+PLAN:
+
+Counsel on improved oral hygiene: brushing twice daily, last thing at night and after breakfast, using a soft or medium toothbrush.
+
+Educate on the use of dental floss and tongue scraping.
+
+Schedule for professional Scaling and Polishing (S&P).
+
+Short-term use of 0.12% Chlorhexidine mouthwash twice daily for 2 weeks.
+
+Encourage increased water intake to prevent dry mouth.
+
+Review in 2 weeks following professional cleaning.
+`,
+  documentation: `<div class="space-y-6">
+
+Not yet available
+
+</div>`,
+  bookmarkCount: 0
+},
+{
   id: 'gopd-57',
   title: 'Pheochromocytoma',
   specialty: 'General Outpatient',
@@ -43552,6 +44137,132 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
+  id: 'ob-40',
+  title: 'Vulvar Varicosities in Pregnancy',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Vulvar Varicosities',
+  symptoms: ['Vulvar ache', 'Vulvar pressure', 'Dilated vulvar veins', 'Worsening discomfort on prolonged standing', 'Relief with lying down'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '29-year-old G2P1+0 at 30 weeks + 2 days gestation presenting with 2 days of vulvar aching and pressure associated with prominent dilated vulvar veins, consistent with vulvar varicosities of pregnancy.',
+  content: `ANTENATAL CLINIC
+
+Patient Seen
+
+29-year-old G2P1+0 teacher residing in Ogbomosho, Oyo State, Yoruba, Christian.
+
+Obstetric Dates:
+
+LMP: 24/05/2023
+EDD: 02/03/2024
+EGA: 30 weeks + 2 days
+
+PC:
+
+Vulva ache × 2 days
+
+HPC:
+
+She was apparently well until 2 days ago when she started experiencing a dull, heavy aching sensation in the vulva region. The ache is described as a feeling of pressure that worsens after standing for long periods in the classroom or walking. The discomfort is significantly relieved by lying down in a lateral position.
+
+She reports noticing some "swollen veins" in the private area which become more prominent towards the end of the day.
+
+No associated vaginal itching, burning sensation, or abnormal vaginal discharge.
+No history of fever, dysuria, or increased frequency of micturition.
+Fetal movements have been active and well-perceived.
+No history of drainage of liquor, vaginal bleeding, or regular uterine contractions.
+
+Past Obstetric History:
+
+G1: 2021, spontaneous vaginal delivery at term in a General Hospital. Male, 3.4 kg. No intranatal or postnatal complications. Child is alive and well.
+
+Index Pregnancy:
+
+Booked at 14 weeks EGA at this facility.
+Has attended 4 ANC visits so far.
+Routine medications (Iron, Folic acid, and IPTp-SP) are being taken.
+Routine booking investigations including PCV, Blood group, Genotype, HIV and HBsAg screening were all within normal limits.
+
+Gynaecological History:
+
+Menarche at 13 years.
+Regular 28-day cycle.
+No history of hormonal contraceptive use.
+
+Medical and Surgical History:
+
+Not a known hypertensive or diabetic patient.
+No history of sickle cell disease or asthma.
+No previous pelvic or abdominal surgeries.
+No history of blood transfusion.
+
+Family and Social History:
+
+Lives in a monogamous family setting.
+Husband is a civil servant.
+Does not smoke or consume alcohol.
+Family history is non-contributory for chronic illnesses or multiple gestations.
+
+Review of Systems:
+
+RS: No cough, no chest pain.
+CVS: No palpitations, no orthopnea.
+GIT: No constipation, no vomiting.
+CNS: No headaches, no visual disturbances.
+
+O/E:
+
+Young woman, not acutely distressed, afebrile (36.7°C), not pale, anicteric, no significant lymphadenopathy, no pedal edema.
+
+BP: 110/70 mmHg
+PR: 82 bpm
+RR: 18 cpm
+
+Abdominal (Obstetric) Examination:
+
+Inspection: Gravid enlargement, striae gravidarum present. No surgical scars.
+Palpation: SFH 30 cm, consistent with EGA. Longitudinal lie, cephalic presentation. FHR 142 bpm, regular.
+Auscultation: Fetal heart sounds heard and regular.
+
+Pelvic/Vulva Examination:
+
+Inspection: Dilated, tortuous, slightly bluish veins on the left labia majora. No redness, ulcers, or visible discharge. No Bartholin's gland enlargement.
+Palpation: Mild tenderness over the dilated veins. No fluctuant or solid masses.
+
+ASS:
+
+A 30-week pregnant woman (G2P1+0) with vulvar varicosities.
+
+Differentials:
+
+1. Vulvovaginal candidiasis.
+2. Bartholin's cyst.
+3. Pelvic congestion syndrome.
+
+INVESTIGATION:
+
+1. Packed Cell Volume (PCV).
+2. Urinalysis.
+3. High Vaginal Swab (HVS) for MCS.
+
+PLAN:
+
+1. Reassure and counsel that vulvar varicosities are common in the third trimester due to increased pelvic pressure and usually resolve spontaneously after delivery.
+2. Advise avoidance of prolonged standing and recommend frequent rest periods in the left lateral position to improve venous return.
+3. Advise use of supportive maternity undergarments or a sanitary pad worn inside snug underwear to provide upward pressure on the vulva.
+4. Recommend intermittent application of cold compresses or ice packs wrapped in cloth if the ache becomes distressing.
+5. Continue routine antenatal care and medications.
+6. Follow up in 2 weeks or earlier if new symptoms arise.
+`,
+  documentation: `<div class="space-y-6">
+
+Not yet available
+
+</div>`,
+  bookmarkCount: 0
+},
+{
   id: 'ob-39',
   title: 'Threatened Miscarriage',
   specialty: 'Obstetrics and Gynecology',
@@ -52214,6 +52925,489 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-42',
+  title: 'Hidradenitis Suppurativa',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Hidradenitis Suppurativa',
+  symptoms: ['Recurrent painful axillary swellings', 'Recurrent groin swellings', 'Purulent discharge', 'Sinus tract formation', 'Hypertrophic scarring'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '28-year-old Yoruba female fashion designer presenting with recurrent painful nodules and discharging swellings involving both axillae and groin for 18 months, with sinus tract formation and extensive scarring consistent with Hurley Stage II hidradenitis suppurativa.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 28-year-old Yoruba female fashion designer residing in Ikeja, Lagos State, Christian, presenting with recurrent painful swellings and discharging lumps in both axillae and groin.
+
+PC:
+
+Recurrent painful swellings and discharging lumps in both axillae and groin × 18/12
+
+HPC:
+
+Patient presented with an 18-month history of recurrent, painful, deep-seated lumps in both axillae and groin. The lesions began as small, firm, tender nodules that gradually enlarged over days, became fluctuant and ruptured to drain foul-smelling, purulent and serosanguinous discharge.
+
+Rupture is usually followed by temporary pain relief and healing with thick, unsightly scars.
+
+She experiences these flare-ups almost monthly, but reports a particularly severe episode of 5 days duration involving multiple active, exquisitely painful lumps in both axillae, which has severely restricted her ability to abduct her arms and perform her daily work as a fashion designer.
+
+PTP:
+
+She has self-medicated with various OTC oral antibiotics, including Amoxicillin and Ciprofloxacin, and applied several native herbal poultices, which offered only transient relief.
+
+Relevant Negatives:
+
+No history of chronic cough, drenching night sweats or significant weight loss.
+No history of joint pains, recurrent oral ulcers or similar lesions on other parts of the body.
+
+PMHx:
+
+No known history of diabetes mellitus, hypertension or bronchial asthma.
+No previous surgeries or blood transfusions.
+Genotype: HbAA.
+
+Drug History:
+
+Frequent use of OTC NSAIDs, mainly Ibuprofen 400 mg, for pain relief.
+No known drug allergies.
+
+Family and Social History:
+
+Maternal aunt reportedly had similar recurrent "boils" in her armpits.
+Non-smoker.
+Does not consume alcohol.
+Resides in a well-ventilated 2-bedroom apartment in Ikeja.
+Reports high levels of occupational stress.
+
+ROS:
+
+General: Warm to touch and distressed due to pain. No weight loss.
+CNS: Normal sleep pattern except when interrupted by pain. No headache or focal weakness.
+CVS: No orthopnoea, palpitations or pedal oedema.
+RS: No cough, chest pain or dyspnoea.
+GIT: Normal appetite. No abdominal pain or change in bowel habits.
+MSS: Severe pain on bilateral shoulder abduction due to axillary lesions.
+
+O/E:
+
+Acutely ill-looking young female in painful distress, febrile (37.8°C). Not pale, anicteric, acyanosed, dehydrated or dyspnoeic. No significant peripheral lymphadenopathy.
+
+Vitals:
+
+Temp: 37.8°C
+PR: 88 bpm, regular, normal volume
+BP: 110/70 mmHg
+RR: 18 cpm
+SpO₂: 99% RA
+
+LOCAL EXAMINATION – AXILLAE AND GROIN:
+
+Right Axilla: Multiple tender, erythematous, fluctuant nodules measuring approximately 2 cm × 2 cm to 3 cm × 4 cm. Double-ended comedones present with active sinus tracts draining purulent, non-offensive discharge and extensive hypertrophic bridging scars. Active shoulder abduction restricted to 45° due to pain.
+
+Left Axilla: Two tender, non-fluctuant nodules measuring approximately 1.5 cm × 1.5 cm with extensive old hypertrophic scars. No active discharge.
+
+Inguinal/Groin Region: Bilateral erythematous papules and a single tender, non-fluctuant nodule measuring approximately 1 cm × 1 cm on the right labium majus. No active sinus tracts in the groin.
+
+Hurley Staging: Stage II – recurrent abscesses with sinus tract formation and cicatrization, with widely separated lesions.
+
+SYSTEMIC EXAMINATION:
+
+CVS: S1 and S2 heard. No murmurs. Pulse character normal.
+RS: Trachea central. Chest expansion symmetrical. Vesicular breath sounds. No adventitious sounds.
+ABD: Soft, non-tender. No palpable organomegaly. Bowel sounds normal.
+CNS: Conscious, alert and oriented in time, place and person. No focal neurological deficits.
+
+ASS:
+
+1. Hidradenitis Suppurativa, Hurley Stage II, with secondary bacterial infection.
+2. Recurrent furunculosis/carbunculosis, less likely.
+3. Cutaneous tuberculosis/scrofuloderma, less likely.
+4. Folliculitis, less likely.
+
+INVESTIGATIONS:
+
+- Wound swab for MCS to identify secondary bacterial pathogens and guide targeted antibiotic therapy.
+- FBC to assess for leukocytosis and haemoglobin level.
+- Fasting blood glucose to screen for underlying diabetes mellitus.
+- Retroviral screening to assess for underlying immunosuppression.
+
+PLAN:
+
+- Counsel patient on the chronic, relapsing nature of hidradenitis suppurativa and the importance of long-term management.
+- Encourage gentle cleansing of affected areas with an appropriate antiseptic/antimicrobial wash such as Chlorhexidine or Benzoyl Peroxide 5% daily.
+- Wear loose-fitting cotton clothing and underwear to minimize friction and sweating.
+- Apply warm moist compresses to active painful nodules for 10–15 minutes TDS for symptomatic relief and to encourage spontaneous drainage.
+- Avoid shaving or harsh chemical depilatories over affected areas, particularly during active flares.
+- Tab Ibuprofen 400 mg TDS PC × 5/7 if no contraindication.
+- Tab Paracetamol 1 g TDS/QDS PRN for additional analgesia if required.
+- Apply Clindamycin 1% topical gel/solution to affected areas BD after washing.
+- Tab Doxycycline 100 mg BD PC × 12/52 as systemic anti-inflammatory/antibacterial therapy for Hurley Stage II disease, provided there are no contraindications.
+- If inadequate response to Doxycycline after 4–6 weeks, consider specialist-directed combination therapy with Clindamycin and Rifampicin, with appropriate monitoring.
+- Avoid routine incision and drainage of HS nodules because of the high risk of recurrence and poor healing.
+- Consider simple incision and drainage only for an acute, extremely painful fluctuant abscess that fails to drain spontaneously.
+- Refer to Dermatology/General Surgery for consideration of intralesional corticosteroid injection for selected acute nodules and deroofing or wide local excision for chronic sinus tracts.
+- Counsel patient to avoid self-medication with antibiotics and herbal poultices.
+- Review with investigation results and assess response to treatment.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'surg-41',
+  title: 'Infected Epidermoid Cyst of the Upper Back',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Infected Epidermoid Cyst',
+  symptoms: ['Painful upper back swelling', 'Purulent discharge', 'Fever', 'Erythema', 'Localized tenderness'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '34-year-old Yoruba male civil servant presenting with a painful, rapidly enlarging upper back swelling and purulent discharge arising from a longstanding nodule, with examination findings consistent with an infected epidermoid cyst.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 34-year-old Yoruba male civil servant residing in Ikeja, Lagos State, Christian, married with two children, presenting with a painful swelling on the upper back and purulent discharge.
+
+PC:
+
+Painful swelling on the upper back × 5/7
+Purulent discharge from the swelling × 2/7
+
+HPC:
+
+Patient noticed a painless, slow-growing nodule on his upper back about 2 years prior to presentation. It remained asymptomatic until 5 days prior to presentation when it suddenly became painful, swollen and red.
+
+The swelling rapidly increased in size over the last 5 days. The pain is throbbing, severe enough to disturb sleep and worsened by lying on his back or wearing tight clothing.
+
+There is associated subjective high-grade fever of 3 days duration, temporarily relieved by Paracetamol. No chills or rigors.
+
+He noticed yellowish, foul-smelling purulent discharge from the centre of the swelling 2 days prior to presentation after attempting to squeeze it.
+
+PTP:
+
+Self-medicated with OTC Paracetamol 1 g occasionally and topical Ampiclox cream with no significant relief.
+
+Reason for Presentation:
+
+Worsening pain, swelling and persistent discharge.
+
+PMHx:
+
+No known chronic medical illnesses including hypertension or diabetes mellitus.
+No history of similar swellings in the past.
+No previous surgeries or hospital admissions.
+Genotype: HbAA.
+
+Drug History:
+
+Indiscriminate use of OTC Paracetamol and topical Ampiclox.
+No known drug allergies.
+
+Family and Social History:
+
+Married with two children.
+Lives in a 3-bedroom flat with good sanitary conditions.
+Non-smoker.
+Social alcohol intake.
+
+ROS:
+
+General: Subjective fever. No weight loss or night sweats.
+CVS: No chest pain or palpitations.
+RS: No cough or dyspnoea.
+GIT: No nausea or vomiting. Normal bowel habits.
+CNS: No headache or neck stiffness.
+MSS: No joint pains or generalized body weakness.
+
+O/E:
+
+Acutely ill-looking young man in painful distress, warm to touch. Not pale, anicteric, acyanotic, no significant peripheral lymphadenopathy. Hydration status satisfactory.
+
+Vitals:
+
+Temp: 37.8°C
+PR: 88 bpm, regular, normal volume
+RR: 18 cpm
+BP: 120/80 mmHg
+SpO₂: 98% RA
+
+LOCAL EXAMINATION – UPPER BACK:
+
+Inspection: Solitary, hemispherical, well-circumscribed swelling measuring approximately 4 cm × 4 cm in the interscapular region of the upper back. Overlying skin erythematous, shiny and tense. Distinct central punctum visible with active yellowish-white purulent discharge.
+
+Palpation: Localized hyperthermia and exquisite tenderness over the swelling. Fluctuant centrally with firm-to-boggy peripheral consistency. Attached to the overlying skin at the punctum but freely mobile over underlying deep structures/muscles. No regional axillary lymphadenopathy.
+
+ASS:
+
+1. Infected epidermoid cyst of the upper back.
+2. Cutaneous abscess, less likely.
+3. Furuncle/carbuncle, less likely.
+4. Infected lipoma, less likely.
+
+INVESTIGATIONS:
+
+- FBC to assess for leukocytosis/neutrophilia.
+- Random blood sugar to screen for underlying diabetes mellitus.
+- Wound swab for MCS to identify the causative organism and guide antibiotic therapy if indicated.
+
+PLAN:
+
+- Arrange incision and drainage under local anaesthesia.
+- Clean and drape the area under aseptic conditions.
+- Infiltrate 1% Lidocaine around the base of the cyst, avoiding direct infiltration into the infected cavity.
+- Make an appropriate incision over the fluctuant area and evacuate purulent material.
+- Curette the cavity to remove loose cyst wall/capsule where feasible during the acute phase.
+- Irrigate the cavity with sterile Normal Saline.
+- Loosely pack the cavity with sterile ribbon gauze to facilitate continued drainage.
+- Consider systemic antibiotics if there is significant surrounding cellulitis or systemic features of infection, guided by local antimicrobial recommendations and clinical findings.
+- For analgesia, give Tab Ibuprofen 400 mg PO 8-hourly × 3/7 after meals if no contraindication, with or without Tab Paracetamol 1 g PO 8-hourly × 3/7.
+- Perform regular wound dressing with sterile Normal Saline and dry gauze/packing as clinically indicated.
+- Monitor vital signs, particularly temperature, during the acute period.
+- Counsel patient to maintain good personal hygiene and avoid squeezing or manipulating the wound.
+- Explain the risk of recurrence if the entire cyst wall/capsule is not removed.
+- After resolution of acute inflammation and infection, arrange elective formal excision of the residual cyst wall/capsule, typically after approximately 6–8 weeks.
+- Advise immediate return if there is worsening pain, spreading redness, increasing discharge or high-grade fever.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'surg-40',
+  title: 'Chronic Fissure-in-Ano',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Anal Fissure',
+  symptoms: ['Severe anal pain during and after defecation', 'Bright red blood per rectum', 'Chronic constipation', 'Painful defecation', 'Sentinel skin tag'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '34-year-old Yoruba female civil servant presenting with 3 weeks of severe tearing anal pain triggered by defecation and passage of bright red blood, with posterior midline anal fissure and sentinel skin tag on examination, consistent with chronic fissure-in-ano secondary to constipation.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 34-year-old Yoruba female civil servant residing in Ibadan, Oyo State, married with two children, presenting with severe anal pain during and after defecation and passage of bright red blood per rectum.
+
+PC:
+
+Severe anal pain during and after defecation × 3/52
+Passage of bright red blood per rectum × 3/52
+
+HPC:
+
+Patient presented with a 3-week history of severe, sharp, tearing anal pain initiated by defecation. The pain is excruciating, starts during passage of stool and persists for about 2–3 hours afterward, severely affecting her daily activities.
+
+She has a long-standing history of constipation and attributes the onset of the pain to passage of a particularly hard, bulky stool 3 weeks ago. Due to the severity of the pain, she admits to voluntarily withholding stool, which has further worsened her constipation.
+
+She also reports streaks of bright red blood on the toilet paper and coating the surface of the stool. The bleeding is not mixed with the stool. No history of massive bleeding, passage of clots or melena.
+
+No history of perianal swelling, discharge, fever, significant weight loss or change in bowel habits. No history of chronic diarrhoea or features suggestive of inflammatory bowel disease.
+
+PMHx:
+
+Chronic constipation of several years' duration, managed intermittently with self-medication.
+No previous abdominal or anorectal surgeries.
+No known chronic medical conditions including hypertension or diabetes mellitus.
+Genotype: AA.
+
+Drug History:
+
+Frequent self-medication with OTC laxatives, particularly Tab Bisacodyl, and local herbal mixtures ("Agbo") for constipation, with temporary relief.
+No history of chronic NSAID use.
+No known drug allergies.
+
+Family and Social History:
+
+Married with two children.
+Works a sedentary desk job as a civil servant.
+Diet predominantly low in fibre, consisting mostly of processed carbohydrates.
+Poor daily water intake, less than 1 L/day.
+Non-smoker.
+Does not drink alcohol.
+
+ROS:
+
+GIT: No abdominal pain, abdominal distension or vomiting.
+CVS: No chest pain, palpitations or orthopnoea.
+RS: No cough or dyspnoea.
+CNS: Normal sleep pattern. No headache or dizziness.
+
+O/E:
+
+Conscious, alert, not pale, anicteric, acyanotic, no significant peripheral lymphadenopathy, hydrated. No pedal oedema.
+
+Vitals:
+
+Temp: 36.8°C
+PR: 76 bpm, regular, normal volume
+RR: 16 cpm
+BP: 110/70 mmHg
+SpO₂: 99% RA
+
+ABD:
+
+Inspection: Flat, symmetrical, moves with respiration. No surgical scars or dilated veins.
+Palpation: Soft, non-tender. No organomegaly. Liver, spleen and kidneys not palpable.
+Percussion: Normal tympanitic note.
+Auscultation: Normal bowel sounds present.
+
+PERIANAL AND RECTAL EXAMINATION:
+
+Inspection: With gentle parting of the buttocks, a visible longitudinal tear/fissure is noted in the posterior midline of the anoderm. A small sentinel skin tag/sentinel pile is visible at the distal margin of the tear, indicating chronicity. No active purulent discharge, external haemorrhoids or fistulous openings seen.
+
+DRE: Deferred due to extreme pain and severe anal sphincter spasm.
+
+ASS:
+
+1. Chronic posterior midline fissure-in-ano secondary to chronic constipation.
+2. Haemorrhoids, less likely.
+3. Fistula-in-ano, less likely.
+4. Perianal Crohn's disease, less likely.
+5. Anal malignancy, less likely but to be considered if the fissure fails to heal.
+
+INVESTIGATIONS:
+
+- FBC to assess haemoglobin/PCV and exclude anaemia, and assess for evidence of infection.
+- Urinalysis as routine baseline investigation.
+- Anoscopy/sigmoidoscopy after acute pain and sphincter spasm have subsided, to assess for internal haemorrhoids, proctitis or other proximal anorectal pathology as clinically indicated.
+
+PLAN:
+
+- Encourage a high-fibre diet including oats, whole grains, vegetables and fruits.
+- Increase water intake to approximately 2.5–3 L daily, unless medically contraindicated.
+- Avoid straining during defecation.
+- Avoid voluntarily delaying the urge to defecate.
+- Warm sitz bath in plain warm water for 15–20 minutes, 2–3 times daily, especially after bowel movements.
+- Syrup Lactulose 15 mL BD × 2/52 to maintain soft, easily passable stools.
+- Apply 0.2% Glyceryl Trinitrate (GTN) ointment topically to the anal canal BD × 6/52.
+- Counsel regarding correct application of GTN and possible headache as a common adverse effect.
+- Tab Ibuprofen 400 mg TDS after meals × 5/7 for acute pain if no contraindication.
+- Tab Paracetamol 1 g TDS × 5/7 for additional analgesia.
+- Review in 2 weeks to assess pain reduction and compliance with treatment.
+- If fissure fails to heal after 6–8 weeks of optimal medical therapy, refer to General Surgery for consideration of lateral internal sphincterotomy or botulinum toxin injection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'surg-39',
+  title: 'Infected Pilonidal Sinus/Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Pilonidal Sinus/Abscess',
+  symptoms: ['Painful sacrococcygeal swelling', 'Purulent discharge', 'Throbbing pain', 'Pain aggravated by sitting', 'Tender fluctuant swelling'],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '28-year-old Yoruba male civil servant presenting with a 5-day history of painful sacrococcygeal swelling and 2-day history of spontaneous foul-smelling purulent discharge, with examination findings consistent with an infected pilonidal sinus/abscess.',
+  content: `GENERAL SURGERY CLINIC
+
+Patient Seen
+
+A 28-year-old Yoruba male civil servant residing in Ikeja, Lagos State, presenting with painful swelling in the intergluteal cleft and purulent discharge.
+
+PC:
+
+Painful swelling in the intergluteal cleft × 5/7
+Purulent discharge from the site × 2/7
+
+HPC:
+
+Patient reports a 5-day history of a painful, tender swelling in the sacrococcygeal region. The pain is throbbing in nature, exacerbated by sitting and prolonged standing.
+
+Two days prior to presentation, he noticed spontaneous drainage of foul-smelling, blood-stained pus, which provided partial relief of the pain.
+
+No associated fever or chills. No history of trauma to the area.
+
+He has been managing with warm compresses and OTC Paracetamol with minimal improvement.
+
+PMHx:
+
+No known chronic illnesses including diabetes mellitus or hypertension.
+No history of similar lesions in the past.
+No known drug allergies.
+
+Drug History:
+
+Paracetamol 1 g PRN.
+No recent antibiotic use.
+
+Social History:
+
+Sedentary occupation with prolonged sitting.
+Good personal hygiene.
+No history of excessive local hair growth.
+
+O/E:
+
+Patient in mild distress due to pain. Afebrile, not pale, not jaundiced. No pedal oedema.
+
+Vitals:
+
+BP: 120/80 mmHg
+PR: 82 bpm
+RR: 16 cpm
+Temp: 36.8°C
+
+LOCAL EXAMINATION – SACROCOCCYGEAL REGION:
+
+Site: Midline intergluteal cleft, approximately 4 cm superior to the anal verge.
+
+Inspection: 2 cm × 2 cm erythematous, tender swelling with a visible sinus opening discharging seropurulent fluid.
+
+Palpation: Warm to touch, tender and fluctuant. No surrounding cellulitis or induration extending to the buttocks.
+
+ASS:
+
+1. Infected pilonidal sinus/abscess.
+2. Perianal abscess, less likely.
+3. Fistula-in-ano, less likely.
+4. Hidradenitis suppurativa, less likely.
+
+INVESTIGATIONS:
+
+- FBC to assess for leukocytosis.
+- Random blood sugar to screen for undiagnosed diabetes mellitus.
+- Wound swab for MCS if discharge is persistent or clinically indicated.
+
+PLAN:
+
+- Warm sitz baths 2–3 times daily to promote drainage and maintain local hygiene.
+- Tab Ibuprofen 400 mg 8-hourly OR Tab Paracetamol 1 g 8-hourly for analgesia.
+- Antibiotics are not routinely indicated in an uncomplicated localized pilonidal abscess without cellulitis or systemic features.
+- If there is significant surrounding cellulitis or systemic infection, commence appropriate antibiotic therapy according to local guidelines.
+- Refer to General Surgery for definitive management.
+- Consider incision and drainage if a tense or inadequately drained abscess is present.
+- Following resolution of acute infection, consider elective treatment of the persistent pilonidal sinus tract as clinically indicated.
+- Counsel on local hair control/removal and maintenance of good intergluteal hygiene.
+- Encourage weight reduction if overweight.
+- Advise avoidance of prolonged sitting where possible.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
 {
   id: 'surg-38',
   title: 'Infected Ingrowing Toenail of the Right Hallux',

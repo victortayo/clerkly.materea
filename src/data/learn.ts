@@ -2254,6 +2254,326 @@ Putting It Together: The Summary
 </html>
     `
   },
+
+  {
+    id: 'symptom-clerking-breathlessness',
+    title: 'Breathlessness',
+    category: 'Symptom Clerking',
+    subCategory: 'Respiratory',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Breathlessness</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Breathlessness</h1>
+    <p class="text-sm text-indigo-200">Breathlessness sits at the crossroads of the heart, lungs, and blood, and locally that means anaemia deserves a place near the top of every differential - it is common, easy to check for, and easy to correct once found. Rheumatic and hypertensive heart disease, TB (including pleural and pericardial disease), sickle cell-related acute chest syndrome, and anaphylaxis all need active consideration too. This guide focuses on the history and examination that clarify what is driving the breathlessness, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Breathlessness Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and was the onset sudden (minutes) or gradual (days to months)?</li>
+      <li>How far can the patient walk, or how many stairs can they climb, before becoming breathless? Comparing this to their usual baseline gives a useful sense of severity and progression.</li>
+      <li>Is it worse lying flat (orthopnoea), and does the patient wake at night gasping for breath (paroxysmal nocturnal dyspnoea)? Both point strongly towards a cardiac cause.</li>
+      <li>Is there an associated wheeze, and does it come and go with specific triggers (exertion, cold air, dust, or an allergen)?</li>
+      <li>Has this happened before, and if so, what was found and what helped?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac:</span> chest pain, palpitations, leg or ankle swelling.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> cough (productive or dry), haemoptysis, or pleuritic chest pain.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia-related:</span> fatigue, pallor noticed by others, or dizziness.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever, night sweats, and weight loss - relevant to TB or another chronic infective/inflammatory process.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Allergic/anaphylactic (ask explicitly where onset was sudden):</span> a rash, facial or lip swelling, itching, or a known trigger such as a food, medication, or insect sting eaten or encountered shortly beforehand.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic:</span> excessive thirst, urination, vomiting, or confusion - raises diabetic ketoacidosis as a cause of deep, laboured breathing.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Musculoskeletal (in known sickle cell patients):</span> bone or joint pain elsewhere, which may accompany acute chest syndrome.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Psychological:</span> associated anxiety, a sense of panic, or tingling around the mouth and hands (raises hyperventilation, though only after more serious causes have been reasonably excluded).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known heart disease:</span> rheumatic fever as a child, a known murmur, or hypertensive heart disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia/sickle cell disease:</span> known genotype, previous transfusions, or recent malaria - given how commonly anaemia underlies breathlessness locally.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> relevant to pulmonary, pleural, or pericardial TB.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Smoking and biomass fuel exposure:</span> relevant to COPD, particularly in women who have never smoked but cook with firewood or charcoal in an enclosed space.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Allergy history:</span> any known allergy to food, medication, or insect stings, and previous severe allergic reactions.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Asthma/COPD history:</span> previous diagnosis, usual triggers, and current inhaler use.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent immobility or surgery:</span> raises DVT/PE risk.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy:</span> mild breathlessness is common in normal pregnancy, but new or severe breathlessness in pregnancy still needs pathology (including anaemia and PE, both more likely in pregnancy) actively excluded rather than assumed physiological.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> relevant to DKA as a cause of deep, laboured breathing.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First Impression and Vital Signs</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Does the patient look well, distressed, or exhausted? Look for accessory muscle use, an inability to complete full sentences, or a tripod position.</li>
+      <li>Oxygen saturation, respiratory rate, heart rate, blood pressure, and temperature - a full set of vitals is essential in every case.</li>
+      <li>Pattern of breathing - deep, sighing (Kussmaul) breathing raises a metabolic acidosis such as DKA.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pallor</span> - check conjunctivae and palms; never skip this given how common anaemia is as a cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cardiac examination</span> - murmurs (valvular disease), a gallop rhythm, raised JVP, and peripheral/sacral oedema - all point towards heart failure. Muffled heart sounds with raised JVP and hypotension (Beck's triad) raise cardiac tamponade.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest examination</span> - wheeze (asthma/COPD), crepitations (pulmonary oedema, pneumonia), reduced breath sounds with dullness (pleural effusion), or reduced breath sounds with hyperresonance (pneumothorax); tracheal deviation and haemodynamic instability raise tension pneumothorax, a time-critical emergency.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin/mucosal signs</span> - urticaria, angioedema, or facial/lip swelling support anaphylaxis, particularly with a sudden onset and a plausible trigger.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Stridor</span> - raises upper airway obstruction, which needs urgent action.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Calf examination</span> - swelling, warmth, or tenderness raises DVT, relevant if PE is being considered.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Level of consciousness</span> - any confusion or reduced consciousness changes the urgency of the case considerably.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected anaphylaxis</span> - sudden breathlessness with urticaria, angioedema, or hypotension following a plausible trigger; give IM adrenaline immediately - do not wait for senior review or further workup.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Acute chest syndrome in a known sickle cell patient</span> - fever, chest pain, and hypoxia; a leading cause of mortality in sickle cell disease and easy to under-triage as "just a crisis."</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Tension pneumothorax</span> - severe respiratory distress, tracheal deviation, hypotension; needs immediate decompression, not investigation first.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe symptomatic anaemia</span> - breathlessness at rest, tachycardia, or hypotension - needs urgent transfusion assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of impending respiratory failure</span> - exhaustion, a silent chest in known asthma, cyanosis, or persistently low saturations despite oxygen - needs escalation and airway/ventilatory support planning.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Stridor or other signs of upper airway obstruction</span> - needs urgent airway assessment and management.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pulse oximetry</span> - in every patient with breathlessness, regardless of apparent severity.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - given how common anaemia is as an underlying or contributing cause, this should be routine.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest radiograph</span> - looking for consolidation, effusion, pneumothorax, cardiomegaly, or pulmonary oedema.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">ECG</span> - where a cardiac cause is plausible.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where fever accompanies the breathlessness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose and ketones</span> - where DKA is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Echocardiography</span> - where valvular disease, heart failure, or a pericardial effusion is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sputum AFB/GeneXpert</span> - where TB is a realistic possibility.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Peak flow/spirometry</span> - where asthma or COPD is suspected and facilities allow.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">D-dimer/further imaging</span> - where PE is suspected and resources allow; clinical probability scoring should guide use where imaging is not readily available.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia</span> - a very common local cause, often underestimated.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure (rheumatic, hypertensive, or other)</span> - orthopnoea, PND, leg swelling.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute chest syndrome</span> - in a known sickle cell patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pneumonia</span> - fever, productive cough, focal chest signs.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis (pulmonary, pleural, or pericardial)</span> - chronic breathlessness with constitutional symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Asthma/COPD (including biomass-related)</span> - wheeze, exertional breathlessness, a relevant exposure history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pleural effusion</span> - reduced breath sounds and dullness, from TB, malignancy, heart failure, or infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pneumothorax</span> - sudden onset, reduced breath sounds, hyperresonance.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pulmonary embolism</span> - sudden onset, pleuritic pain, hypoxia, with a relevant risk factor.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaphylaxis</span> - sudden onset with skin/mucosal signs and a plausible trigger.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic ketoacidosis</span> - deep, laboured breathing with polyuria, polydipsia, and altered mentation in a diabetic patient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Upper airway obstruction</span> - stridor, often with a rapid onset.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety/hyperventilation syndrome</span> - a diagnosis of exclusion once serious causes have been reasonably ruled out.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Normal pregnancy-related breathlessness</span> - mild and gradual, but pathology should still be actively excluded, particularly anaemia and PE.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic/General Support</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oxygen</span> - for any patient who is hypoxic, titrated to a safe target saturation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sitting the patient upright</span> - often improves comfort and effort of breathing, particularly in cardiac or respiratory causes.</li>
+      <li>Symptomatic support should never delay definitive treatment where a specific danger sign is present, such as adrenaline for anaphylaxis or decompression for tension pneumothorax.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia</span> - iron/folate replacement, treatment of the underlying cause, and transfusion where severe or symptomatic.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Heart failure</span> - diuretics for congestion, alongside standard heart failure therapy and cardiology input for underlying valve disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Acute chest syndrome</span> - oxygen, analgesia, incentive spirometry, antibiotics, and transfusion or exchange transfusion per severity and local protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pneumonia</span> - antibiotics as per the cough guide.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tuberculosis</span> - standard six-month RHZE regimen under DOTS.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Asthma/COPD</span> - bronchodilators and corticosteroids for exacerbations, with long-term controller therapy and trigger/exposure avoidance.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pleural effusion</span> - drainage where large or symptomatic, alongside treatment of the underlying cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pneumothorax</span> - observation for a small, asymptomatic pneumothorax; chest tube for larger or symptomatic ones, and immediate decompression for tension pneumothorax.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pulmonary embolism</span> - anticoagulation per local protocol, with thrombolysis considered in massive PE with haemodynamic instability.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaphylaxis</span> - IM adrenaline immediately, followed by antihistamines, corticosteroids, and IV fluids as needed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic ketoacidosis</span> - IV fluid resuscitation, insulin infusion, and potassium replacement guided by levels.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Breathlessness, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, severity/exercise tolerance, orthopnoea/PND, wheeze, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Known heart disease, sickle cell disease, HIV/TB status, asthma/COPD, diabetes, allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Current medications, known drug/food/sting allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Smoking, biomass fuel exposure, recent immobility/travel.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Vital signs (SpO2 explicitly), pallor, cardiac and respiratory findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and monitoring parameters.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not checking pulse oximetry and an FBC as routine parts of the workup.</li>
+    <li>Missing anaemia as a major, correctable contributor to breathlessness.</li>
+    <li>Delaying adrenaline in suspected anaphylaxis while pursuing further assessment.</li>
+    <li>Attributing chest signs in a known sickle cell patient to a routine crisis without actively excluding acute chest syndrome.</li>
+    <li>Not distinguishing cardiac from respiratory causes through careful history (orthopnoea/PND versus wheeze/productive cough).</li>
+    <li>Pursuing imaging before clinical decompression when tension pneumothorax is the likely diagnosis.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check pulse oximetry and an FBC in every breathless patient - anaemia is a major, correctable local cause.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Suspected anaphylaxis needs immediate IM adrenaline - do not delay for senior review or further workup.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Acute chest syndrome is an emergency in sickle cell patients - actively exclude it rather than assuming "just a crisis."</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Distinguish cardiac from respiratory causes carefully - orthopnoea/PND point one way, wheeze/productive cough the other.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A tension pneumothorax needs immediate clinical decompression, not imaging first.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines on Haemoglobin Cutoffs to Define Anaemia and Its Severity.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Heart, Lung, and Blood Institute - Evidence-Based Management of Sickle Cell Disease (Acute Chest Syndrome).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Allergy Organization - Anaphylaxis Guidance.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Global Initiative for Asthma (GINA) - Global Strategy for Asthma Management and Prevention.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+ 
+
+</body>
+</html>
+    `
+  },
+
+
   {
     id: 'symptom-clerking-cough',
     title: 'Cough',
@@ -3543,6 +3863,328 @@ Putting It Together: The Summary
     </ul>
   </div>
 </details>
+
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-clerking-bad-breath',
+    title: 'Bad Breath',
+    category: 'Symptom Clerking',
+    subCategory: 'General Constitutional Symptoms',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Bad Breath</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Bad Breath (Halitosis)</h1>
+    <p class="text-sm text-indigo-200">Bad breath is usually a simple oral hygiene or dental problem, but in a malnourished or immunocompromised child, severe halitosis alongside gum ulceration is an early warning sign of noma (cancrum oris) - a rapidly progressive, disfiguring, and often fatal disease that is still seen in resource-limited settings including parts of Nigeria, and one where early recognition genuinely saves faces and lives. This guide focuses on the history and examination that identify the underlying cause, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Bad Breath Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>Is it worse at a particular time - first thing in the morning (a normal finding related to reduced saliva overnight), or constant throughout the day?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Has anyone else actually noticed it, or is this something only the patient perceives?</span> This distinction matters - persistent concern about an odour that others cannot detect may reflect significant anxiety or distress rather than a physical cause, and deserves a sensitive, non-dismissive conversation rather than repeated dental or medical workups.</li>
+      <li>Does it seem related to eating, fasting, or specific foods?</li>
+      <li>What has been tried already (mouthwash, brushing more often), and did it help?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral (ask explicitly, especially in a child who looks unwell or malnourished):</span> bleeding gums, mouth ulcers or sores, loose teeth, or any swelling of the face or gums. In a malnourished or otherwise vulnerable child, rapidly worsening gum ulceration with a strong odour needs same-day attention.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dental:</span> toothache, visible decay, or difficulty chewing.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nasal (particularly in a child):</span> one-sided foul-smelling nasal discharge, which raises a retained foreign body.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Throat:</span> sore throat, difficulty swallowing, or small foul-smelling stone-like debris coughed up from the tonsils.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gastrointestinal:</span> heartburn, regurgitation, or reflux symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic/systemic:</span> excessive thirst and urination (raises diabetes, particularly with a sweet, fruity breath odour suggesting ketosis), jaundice (liver disease), or reduced urine output (kidney disease).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Respiratory:</span> a chronic cough productive of foul-smelling sputum, raising a lung abscess or bronchiectasis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional (in children especially):</span> poor weight gain, recent severe illness (such as measles), or general debility - all relevant to noma risk.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional status (in children):</span> recent weight loss, poor appetite, or known malnutrition - noma occurs almost exclusively in malnourished or otherwise immunocompromised children, often following an illness such as measles or severe diarrhoea.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral hygiene practices:</span> frequency of tooth brushing or chewing stick use, and when the patient last saw a dentist.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Tobacco, kola nut, or alcohol use:</span> all recognized contributors to bad breath.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> known diagnosis and current control.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Known liver or kidney disease:</span> relevant to distinctive systemic breath odours.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV status:</span> relevant given more aggressive periodontal disease and oral candidiasis seen with immunosuppression.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> any causing dry mouth as a side effect.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Recent measles or another severe childhood illness:</span> a recognized precipitant for noma in a vulnerable child.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Thorough Oral Examination (The First and Most Important Step)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Teeth</span> - visible decay, broken teeth, or poor dental hygiene.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Gums</span> - redness, swelling, bleeding on gentle touch, recession, or - critically - any area of ulceration or blackened/necrotic tissue, which in a malnourished child must raise noma immediately.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Tongue</span> - coating, which is a common and usually benign contributor.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral mucosa</span> - ulcers, or white plaques suggesting candidiasis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Tonsils</span> - stones, exudate, or enlargement.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Dryness of the mouth</span> - relevant to xerostomia.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nutritional Assessment (Especially in Children)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Weight, growth parameters, and signs of malnutrition (wasting, oedema) - essential context for assessing noma risk in any child with concerning oral findings.</li>
+      <li>Any facial swelling or asymmetry, which in the context of gum necrosis suggests rapidly progressing disease requiring urgent action.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nasal examination</span> - particularly in a child, looking for a foreign body if discharge is one-sided.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Neck</span> - lymphadenopathy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Systemic signs</span> - jaundice (liver disease), signs of uraemia, or a fruity breath odour with other diabetic features.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest</span> - where a lung abscess or bronchiectasis is suspected based on the history.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Gum ulceration or necrosis with severe halitosis in a malnourished or immunocompromised child</span> - noma (cancrum oris) until excluded; this can progress from gum disease to devastating facial tissue destruction within days, and carries high mortality if untreated. Same-day referral for urgent nutritional support and IV antibiotics is essential.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A sweet, fruity breath odour with excessive thirst, urination, or altered mentation in a diabetic patient</span> - raises diabetic ketoacidosis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A musty breath odour with jaundice and confusion</span> - raises hepatic encephalopathy in advanced liver disease.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A significant dental/facial abscess with spreading facial swelling, difficulty swallowing, or difficulty breathing</span> - raises a deep space infection with airway risk (Ludwig's angina), needing urgent surgical assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Suspected nasal foreign body in a child</span> - needs prompt removal rather than being dismissed as a simple infection.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Clinical oral examination</span> - the most important "investigation," and often sufficient to identify the cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose and ketones</span> - where diabetic ketoacidosis is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">LFTs</span> - where liver disease is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal function</span> - where uraemia is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nutritional assessment</span> - essential in any child with concerning oral findings, to establish noma risk.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent, where relevant.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dental radiographs</span> - where a dental cause needs further characterization.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">ENT assessment</span> - where a nasal foreign body or chronic sinus disease is suspected.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Poor oral hygiene/dental plaque</span> - the commonest cause overall.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dental caries or periodontal disease/gingivitis</span> - visible decay or gum inflammation and bleeding.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tongue coating</span> - a common, benign contributor.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dry mouth (xerostomia)</span> - from dehydration or medication side effects.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral candidiasis</span> - white plaques, particularly in immunosuppressed patients.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tonsillar stones/tonsillitis</span> - small, foul-smelling debris from the tonsillar crypts, or acute infection.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Chronic sinusitis/postnasal drip</span> - nasal congestion with a dripping sensation at the back of the throat.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nasal foreign body</span> - particularly in a young child, with one-sided foul discharge.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD</span> - reflux-related odour.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic ketosis</span> - a sweet, fruity breath odour.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Liver disease (fetor hepaticus)</span> - a musty, sweetish odour in advanced disease.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Kidney disease (uraemic breath)</span> - an ammonia-like odour in advanced renal failure.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lung abscess/bronchiectasis</span> - chronic foul-smelling sputum.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tobacco, kola nut, or alcohol use</span> - a direct contributor.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Noma (cancrum oris)</span> - in a malnourished or immunocompromised child with gum ulceration; a critical diagnosis not to miss.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Perceived (but not actual) halitosis</span> - where the patient is convinced of an odour others cannot detect; needs a sensitive, supportive approach.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Oral Hygiene Measures</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Regular brushing (twice daily) and tongue cleaning</span> - addresses the majority of simple cases.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Adequate hydration</span> - helps with dry-mouth-related odour.</li>
+      <li>General measures should never delay urgent action where noma or a systemic cause is suspected.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Dental caries/periodontal disease</span> - referral for dental treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Oral candidiasis</span> - oral or topical antifungal therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Tonsillar stones/tonsillitis</span> - conservative measures for stones; antibiotics for confirmed bacterial tonsillitis; ENT referral for recurrent, troublesome cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Sinusitis</span> - standard treatment per severity and cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nasal foreign body</span> - prompt removal.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD</span> - proton pump inhibitor and lifestyle measures.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetic ketoacidosis</span> - IV fluids, insulin, and potassium replacement per standard protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Liver/kidney disease</span> - management of the underlying disease with appropriate specialist input.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Noma</span> - urgent nutritional rehabilitation, IV antibiotics, and referral to a specialist maxillofacial/surgical service; this is a genuine emergency and should never be managed with oral hygiene advice alone.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Perceived halitosis</span> - reassurance, and where distress is significant, referral for appropriate psychological support rather than repeated dental/medical investigation.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Bad breath, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, whether noticed by others or only the patient, associated oral/nasal/systemic symptoms, directed risk history, treatment already tried, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">Diabetes, HIV status, known liver/kidney disease, nutritional status (especially in children).</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Substance History</dt>
+      <dd class="mt-0.5">Tobacco/kola nut/alcohol use, current medications.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Oral hygiene practices, dental care access, recent severe illness in a child.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Thorough oral examination, nutritional assessment (in children), nasal/systemic findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not performing a thorough oral examination as the first step.</li>
+    <li>Missing noma in a malnourished child with gum changes and severe halitosis - a potentially fatal oversight.</li>
+    <li>Not considering systemic causes (diabetes, liver disease, kidney disease) when the oral exam is unremarkable.</li>
+    <li>Not distinguishing genuine from perceived halitosis sensitively.</li>
+    <li>Missing a unilateral nasal foreign body in a child.</li>
+    <li>Not addressing tobacco or kola nut use as a contributing factor.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always perform a thorough oral examination first - it identifies the cause in most cases.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In a malnourished or immunocompromised child, gum ulceration with severe halitosis is noma until excluded - act urgently, since it can progress within days.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider systemic causes (diabetes, liver disease, kidney disease) when the oral exam is unremarkable.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Unilateral foul nasal discharge in a child suggests a foreign body.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Approach perceived-but-not-actual halitosis sensitively - it can reflect real psychological distress.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Noma (Cancrum Oris): Key Facts and Management Guidance.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>FDI World Dental Federation - Guidelines on the Diagnosis and Management of Halitosis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for Managing Advanced HIV Disease and Opportunistic Infections (Oral Manifestations).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+ 
 
 </body>
 </html>

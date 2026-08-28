@@ -204,8 +204,8 @@ export function TemplateDetail({ template, onBack, isBookmarked, bookmarkedIds, 
         </div>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 rounded-2xl sm:rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 overflow-hidden mb-8">
-        <div className="flex flex-wrap sm:flex-nowrap items-center justify-between gap-x-4 gap-y-3 px-4 py-3 sm:px-6 sm:py-4 bg-slate-50/50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl sm:rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800 mb-8 overflow-hidden">
+        <div className="sticky top-0 z-20 rounded-t-2xl sm:rounded-t-3xl flex flex-wrap sm:flex-nowrap items-center justify-between gap-x-4 gap-y-3 px-4 py-3 sm:px-6 sm:py-4 bg-slate-50/50 dark:bg-slate-800/50 border-b border-slate-100 dark:border-slate-800 backdrop-blur-sm">
           
           <div className="flex-shrink-0">
             <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400">
@@ -265,31 +265,33 @@ export function TemplateDetail({ template, onBack, isBookmarked, bookmarkedIds, 
                 Reset
               </button>
             )}
-
-            <button
-              onClick={handleCopy}
-              disabled={mode === 'teach'}
-              className={`flex items-center justify-center w-10 h-8 rounded-lg transition-colors ${ 
-                mode === 'teach' ? 'invisible' : ''
-              } ${
-                copied 
-                  ? 'text-emerald-600 bg-emerald-50 dark:text-emerald-400 dark:bg-emerald-900/20' 
-                  : 'text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:text-indigo-400 dark:hover:bg-slate-800 dark:border-slate-700'
-              }`}
-              title="Copy content"
-            >
-              {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
-            </button>
           </div>
         </div>
 
         <div className="p-4 sm:p-8 bg-white dark:bg-slate-900">
-          <div className={`rounded-xl transition-all border ${
-            mode === 'documentation' ? 'shadow-inner overflow-hidden ' + (isEditing 
+          <div className={`relative rounded-xl transition-all border ${
+            mode === 'documentation' ? 'shadow-inner ' + (isEditing 
               ? 'bg-white dark:bg-slate-950 border-indigo-200 dark:border-indigo-900 ring-2 ring-indigo-500/20' 
               : 'bg-slate-50 dark:bg-slate-950/50 border-slate-100 dark:border-slate-800') 
               : 'border-transparent'
           }`}>
+            <div className="absolute top-4 right-4 z-10">
+                <button
+                  onClick={handleCopy}
+                  disabled={mode === 'teach'}
+                  className={`p-3 rounded-xl transition-colors shadow-sm border ${ 
+                    mode === 'teach' ? 'invisible' : ''
+                  } ${
+                    copied 
+                      ? 'bg-emerald-50 border-emerald-200 text-emerald-600 dark:bg-emerald-900/30 dark:border-emerald-800 dark:text-emerald-400' 
+                      : 'bg-slate-100 dark:bg-slate-700 text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 border-slate-200 dark:border-slate-600'
+                  }`}
+                  title={copied ? "Copied" : "Copy content"}
+                >
+                  {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
+                </button>
+            </div>
+
             {mode === 'teach' ? (
               <div
                 className="max-w-none text-[11px] sm:text-xs prose prose-slate dark:prose-invert prose-sm prose-headings:border-t prose-headings:border-b prose-headings:py-4 prose-headings:mt-8 prose-headings:mb-2"

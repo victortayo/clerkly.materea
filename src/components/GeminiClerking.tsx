@@ -93,11 +93,46 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
     }
   };
 
+  const fallbackCopy = (text: string) => {
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    
+    // Avoid scrolling to bottom
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.position = "fixed";
+  
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+  
+    try {
+      const successful = document.execCommand('copy');
+      if (successful) {
+        setCopied(true);
+        showToast('Copied', 'copy', 2000);
+        setTimeout(() => setCopied(false), 2000);
+      }
+    } catch (err) {
+      console.error('Fallback: Oops, unable to copy', err);
+    }
+  
+    document.body.removeChild(textArea);
+  };
+
   const handleCopy = () => {
-    navigator.clipboard.writeText(output);
-    setCopied(true);
-    showToast('Copied', 'copy', 2000);
-    setTimeout(() => setCopied(false), 2000);
+    if (!navigator.clipboard) {
+      fallbackCopy(output);
+      return;
+    }
+    navigator.clipboard.writeText(output).then(() => {
+      setCopied(true);
+      showToast('Copied', 'copy', 2000);
+      setTimeout(() => setCopied(false), 2000);
+    }, (err) => {
+      console.error('Async: Could not copy text: ', err);
+      fallbackCopy(output); // fallback to execCommand
+    });
   };
 
   const toggleTask = (taskId: string) => {
@@ -295,18 +330,22 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                     <p className="text-sm text-slate-500 h-4">{loadingMessage}</p>
                   </div>
                 ) : output ? (
-                  <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto relative custom-scrollbar">
-                    <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm pr-12">
-                      {output}
-                    </p>
-                    <button 
-                      onClick={handleCopy}
-                      className="absolute top-4 right-4 p-3 rounded-xl bg-slate-100 dark:bg-slate-700 text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors shadow-sm border border-slate-200 dark:border-slate-600"
-                      title={copied ? "Copied" : "Copy Result"}
-                    >
-                      {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
-                    </button>
-                  </div>
+                  <>
+                    <div className="absolute top-10 right-10 z-10">
+                        <button 
+                        onClick={handleCopy}
+                        className="p-3 rounded-xl bg-slate-100 dark:bg-slate-700 text-slate-600 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 transition-colors shadow-sm border border-slate-200 dark:border-slate-600"
+                        title={copied ? "Copied" : "Copy Result"}
+                        >
+                        {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
+                        </button>
+                    </div>
+                    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto custom-scrollbar">
+                        <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm">
+                        {output}
+                        </p>
+                    </div>
+                  </>
                 ) : (
                   <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto opacity-50 py-12">
                      <div className="w-20 h-20 bg-slate-200 dark:bg-slate-800 rounded-full flex items-center justify-center mb-6 shrink-0">

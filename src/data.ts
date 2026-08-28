@@ -2479,6 +2479,2494 @@ Not yet available
 
   // Pediatrics
   {
+    id: 'peds-72',
+    title: 'Papular Urticaria',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology',
+    condition: 'Insect Bite Hypersensitivity',
+    symptoms: [
+      'Recurrent itchy skin rash',
+      'Pruritic erythematous papules',
+      'Central puncta',
+      'Excoriation marks',
+      'Nocturnal pruritus'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '18-month-old boy with a 3-week history of recurrent intensely pruritic erythematous papules with central puncta and excoriation, predominantly affecting the lower limbs and trunk, without systemic symptoms, consistent with papular urticaria likely secondary to insect bites.',
+    content: `PATIENT IDENTIFICATION
+  
+  Age: 18 months
+  Sex: Male
+  Residence: Surulere, Lagos State
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINT
+  
+  Recurrent itchy skin rashes × 3/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  Mother reports a 3-week history of multiple, pruritic, erythematous papules distributed primarily on the lower limbs and trunk.
+  
+  The lesions initially appeared as small red bumps, some of which have developed central crusting due to excoriation from scratching.
+  
+  No history of fever, respiratory distress, or systemic symptoms. No known contact with new soaps, detergents, or pets.
+  
+  Symptoms appear to worsen at night. No history of similar rashes in other family members.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic illnesses.
+  No history of atopy, including asthma, eczema, or allergic rhinitis.
+  No history of blood transfusions.
+  
+  DRUG HISTORY
+  
+  Used topical calamine lotion with minimal relief.
+  No history of recent antibiotic use.
+  
+  SOCIAL HISTORY
+  
+  Lives in a well-ventilated apartment.
+  No pets at home.
+  Plays in a garden area during the day.
+  
+  REVIEW OF SYSTEMS
+  
+  GIT: Normal bowel habits.
+  CNS: Normal activity levels.
+  CVS/RS: No significant symptoms.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Child is alert, not pale, not febrile (Temperature: 36.7 °C).
+  No jaundice or pedal edema.
+  
+  DERMATOLOGICAL EXAMINATION
+  
+  Multiple discrete, erythematous, firm papules (2–5 mm) scattered on the lower extremities and trunk.
+  
+  Some lesions show central puncta and excoriation marks.
+  
+  No secondary signs of bacterial infection, with no pus or honey-coloured crusts.
+  
+  SYSTEMIC EXAMINATION
+  
+  CARDIOVASCULAR SYSTEM
+  
+  S1 and S2 regular. No murmurs.
+  
+  RESPIRATORY SYSTEM
+  
+  Chest is clear with normal breath sounds.
+  
+  ABDOMEN
+  
+  Soft, non-tender, no organomegaly.
+  
+  ASSESSMENT
+  
+  Papular Urticaria, likely secondary to insect bites.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Scabies
+  2. Atopic Dermatitis
+  3. Varicella (Chickenpox) – less likely due to duration and absence of systemic symptoms.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  Clinical diagnosis.
+  
+  1. Skin scraping: If scabies is suspected.
+  2. FBC: If secondary bacterial infection is suspected.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. PATIENT EDUCATION AND ENVIRONMENTAL CONTROL
+  
+  - Explain the nature of the condition as a hypersensitivity reaction to insect bites.
+  - Advise on environmental control measures, including clearing bushes and vegetation around the home.
+  - Use bed nets, particularly during sleeping hours.
+  - Consider appropriate insect repellents where suitable for the child's age.
+  
+  2. PHARMACOTHERAPY
+  
+  Antihistamine:
+  - Oral Cetirizine syrup: 0.25 mg/kg/dose once daily for 7 days to control pruritus.
+  
+  Topical Therapy:
+  - Calamine lotion may be applied for symptomatic relief.
+  - If inflammation is significant, Hydrocortisone 1% cream may be applied sparingly to affected lesions twice daily for 5–7 days.
+  
+  3. PREVENTION OF SECONDARY INFECTION
+  
+  - Keep fingernails short to minimize excoriation and skin trauma.
+  - If secondary bacterial infection develops, consider topical Mupirocin or Fusidic acid as appropriate.
+  
+  FOLLOW-UP
+  
+  Review in 2 weeks if there is no improvement or earlier if symptoms worsen or signs of secondary infection develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-71',
+    title: 'Amoxicillin-Induced Exanthematous Drug Eruption',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology',
+    condition: 'Drug-Induced Exanthematous Eruption',
+    symptoms: [
+      'Generalized skin rash',
+      'Fever',
+      'Pruritus',
+      'Irritability',
+      'Poor sleep'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '14-month-old boy with a 3-day history of generalized pruritic blanching maculopapular rash and fever occurring shortly after completing a 5-day course of amoxicillin, without mucosal involvement, blistering, skin peeling, or respiratory compromise, consistent with a probable amoxicillin-induced exanthematous drug eruption.',
+    content: `PATIENT IDENTIFICATION
+  
+  Age: 14 months
+  Sex: Male
+  Address: Mushin, Lagos State
+  Caregiver/Informant: Mother
+  
+  PRESENTING COMPLAINTS
+  
+  1. Generalized skin rash × 3/7
+  2. Fever × 3/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  Mother reports onset of symptoms 3 days ago, shortly after the child completed a 5-day course of oral Amoxicillin prescribed for a suspected upper respiratory tract infection.
+  
+  The rash started as erythematous macules on the trunk and rapidly spread to involve the face, limbs, and palms. The rash is associated with pruritus, causing significant irritability and poor sleep.
+  
+  Fever was documented at home (38.5 °C) and was temporarily relieved by paracetamol.
+  
+  There is no history of mucosal involvement, including conjunctival, oral, or genital involvement. No history of respiratory distress and no history of recent change in soaps or detergents.
+  
+  Child is tolerating oral feeds.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic illnesses.
+  No history of previous drug reactions.
+  Immunization is up to date for age.
+  
+  DRUG HISTORY
+  
+  - Recent completion of Amoxicillin (5-day course).
+  - Paracetamol syrup as needed.
+  - No herbal preparations noted.
+  
+  SOCIAL HISTORY
+  
+  Lives with parents in a well-ventilated apartment.
+  No known environmental triggers or new exposures.
+  
+  REVIEW OF SYSTEMS
+  
+  GIT: No vomiting or diarrhea.
+  CNS: No seizures or altered consciousness.
+  RS: No cough or tachypnea.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking, febrile (Temperature: 38.2 °C), not pale, not jaundiced, no peripheral edema. Capillary refill <2 seconds.
+  
+  VITAL SIGNS
+  
+  PR: 128 bpm
+  RR: 32 cpm
+  SpO₂: 98% on room air
+  
+  SKIN
+  
+  Generalized maculopapular rash, blanching on pressure, involving the trunk and extremities.
+  
+  No target lesions, bullae, or skin peeling.
+  Nikolsky sign negative.
+  
+  MUCOSA
+  
+  Oral mucosa moist with no ulcerations.
+  Conjunctivae clear.
+  
+  SYSTEMIC EXAMINATION
+  
+  CARDIOVASCULAR SYSTEM
+  
+  S1 and S2 heard. No murmurs.
+  
+  RESPIRATORY SYSTEM
+  
+  Chest is clear with vesicular breath sounds bilaterally.
+  
+  ABDOMEN
+  
+  Soft, non-tender, no organomegaly.
+  
+  ASSESSMENT
+  
+  Probable Drug-Induced Exanthematous Eruption, likely secondary to Amoxicillin.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Viral Exanthem (e.g., Roseola, Measles)
+  2. Erythema Multiforme (minor)
+  3. Scarlet Fever
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. FBC: To check for eosinophilia and other hematological abnormalities.
+  2. Malaria Parasite Test: To rule out concurrent febrile illness.
+  3. Urinalysis: To assess for evidence of systemic involvement.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. DRUG WITHDRAWAL
+  
+  - Discontinue Amoxicillin immediately.
+  - Advise mother to avoid Amoxicillin in the future and inform healthcare providers of the suspected drug reaction.
+  
+  2. ANTIHISTAMINE
+  
+  - Oral Chlorpheniramine: 0.35 mg/kg/day in 3 divided doses, or
+  - Cetirizine: 2.5 mg orally once daily for pruritus.
+  
+  3. TOPICAL THERAPY
+  
+  - Calamine lotion may be applied to affected areas for symptomatic relief of pruritus.
+  
+  4. ANTIPYRETIC
+  
+  - Paracetamol: 15 mg/kg/dose orally every 6 hours as required for fever.
+  
+  5. HYDRATION
+  
+  - Encourage adequate oral fluid intake.
+  
+  6. EDUCATION AND SAFETY NETTING
+  
+  Counsel mother to return immediately if the child develops features suggestive of a severe cutaneous or systemic drug reaction, including:
+  
+  - Blistering or bullous skin lesions.
+  - Skin peeling or a positive Nikolsky sign.
+  - Mucosal involvement involving the mouth, eyes, or genitalia.
+  - Facial or tongue swelling.
+  - Difficulty breathing or wheezing.
+  - Marked lethargy or altered consciousness.
+  - Persistent vomiting or inability to tolerate oral feeds.
+  
+  FOLLOW-UP
+  
+  Review in 48 hours to assess clinical response and ensure resolution of the rash and fever.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-70',
+    title: 'Acute Urticaria',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Dermatology',
+    condition: 'Acute Urticaria',
+    symptoms: [
+      'Generalized itchy skin rash',
+      'Erythematous wheals',
+      'Transient migrating skin lesions',
+      'Dermatographism',
+      'Pruritus'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '10-month-old boy with a 2-day history of sudden-onset generalized intensely pruritic, transient, migrating erythematous wheals involving the trunk and limbs, without angioedema, respiratory symptoms, or gastrointestinal symptoms, consistent with acute urticaria.',
+    content: `PATIENT IDENTIFICATION
+  
+  A 10-month-old Yoruba male infant, brought by his mother, a fashion designer residing in Yaba, Lagos State.
+  
+  PRESENTING COMPLAINT
+  
+  Generalized itchy skin rashes × 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  Complaints started 2 days prior to presentation (PTP) with the sudden onset of raised, intensely itchy, erythematous skin lesions (wheals) involving the trunk, upper limbs, and lower limbs.
+  
+  The lesions are transient, appearing and disappearing within hours from one site and reappearing at another, leaving no residual hyperpigmentation or scarring.
+  
+  There is no history of preceding upper respiratory tract infection, fever, rhinorrhea, or cough. No history of introduction of new weaning foods. The infant is on breastmilk and family cereal, with no recent introduction of eggs, fish, or cow's milk.
+  
+  No history of insect bites, exposure to new soaps, detergents, or topical applications.
+  
+  There is no history of facial swelling, lip or tongue swelling, difficulty breathing, wheezing, stridor, hoarseness of cry, or vomiting.
+  
+  PTP INTERVENTION
+  
+  Mother applied calamine lotion topically with only mild, transient relief of pruritus.
+  
+  PAST MEDICAL HISTORY
+  
+  Birth History:
+  Term, delivered via SVD at a secondary health facility. No neonatal ICU admission.
+  
+  Immunization History:
+  Up-to-date for age according to the National Programme on Immunization (NPI) schedule.
+  
+  Allergy History:
+  No known food or drug allergies.
+  
+  Previous Episodes:
+  No prior history of similar skin rashes.
+  
+  DRUG HISTORY
+  
+  No history of recent antibiotic, analgesic, or herbal medication use.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Mother has a history of atopic dermatitis and allergic rhinitis. Father has no history of atopy.
+  
+  Family lives in a 2-bedroom apartment with good ventilation. No household pets.
+  
+  REVIEW OF SYSTEMS
+  
+  Respiratory:
+  No cough, no fast breathing, no noisy breathing.
+  
+  Gastrointestinal:
+  No vomiting, no diarrhea, feeding well.
+  
+  Central Nervous System:
+  Active, alert, no convulsions.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Active, alert, in no obvious respiratory distress.
+  Acyanosed, anicteric, not pale, hydrated, no peripheral lymphadenopathy.
+  
+  Vitals:
+  Temperature: 36.6 °C
+  Pulse Rate: 115 bpm, regular, good volume
+  Respiratory Rate: 26 cpm
+  SpO₂: 99% in room air
+  
+  SYSTEMIC EXAMINATION
+  
+  DERMATOLOGICAL EXAMINATION
+  
+  Multiple, generalized, erythematous, circumscribed, raised wheals of varying sizes (5 mm–3 cm) distributed over the trunk and limbs.
+  
+  Mild excoriation marks present.
+  
+  Dermatographism is positive.
+  
+  No targetoid lesions, vesicles, pustules, or scaling noted.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central. Good bilateral air entry. Chest is clear; no wheeze, rhonchi, or crepitations.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  S1 and S2 heard. No murmurs.
+  
+  ABDOMEN
+  
+  Soft, non-tender, no organomegaly.
+  
+  ASSESSMENT
+  
+  Acute Urticaria (likely idiopathic or food-induced, mild-to-moderate, without angioedema or anaphylaxis).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Papular Urticaria – Usually presents with persistent, grouped papules at insect bite sites rather than transient migrating wheals.
+  2. Atopic Dermatitis (Acute Flare) – Typically presents with dry, scaly, pruritic plaques localized to flexural surfaces rather than transient wheals.
+  3. Erythema Multiforme – Characterized by fixed, targetoid lesions, often associated with infections or drugs.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  Acute urticaria is primarily a clinical diagnosis. No extensive investigations are indicated for a first episode of acute urticaria in the absence of systemic symptoms.
+  
+  1. Full Blood Count (FBC): To check for eosinophilia and rule out leukocytosis suggestive of an infectious trigger.
+  2. Urinalysis: To rule out subclinical urinary tract infection as a potential trigger.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. NON-PHARMACOLOGICAL MEASURES
+  
+  - Reassure the mother regarding the benign and self-limiting nature of acute urticaria.
+  - Advise keeping a food and symptom diary to identify potential triggers.
+  - Avoid hot baths, tight clothing, and vigorous scratching.
+  - Keep the child's fingernails short.
+  
+  2. PHARMACOLOGICAL THERAPY
+  
+  Option A: Second-Generation H1 Antihistamine (Preferred/First-Line)
+  
+  - Syrup Cetirizine: 2.5 mg (2.5 mL of 5 mg/5 mL syrup) orally once daily × 5/7.
+  
+  Option B: First-Generation H1 Antihistamine (Alternative/Second-Line)
+  
+  - Syrup Chlorpheniramine (Piriton): 1 mg (1 mL of 2 mg/5 mL syrup) orally twice daily × 3–5/7.
+  - Use with caution in infants, particularly because of its sedative effects.
+  
+  Option C: Topical Soothing Agent (Adjuvant)
+  
+  - Calamine Lotion: Apply topically to affected areas twice daily to soothe pruritus.
+  
+  Option D: Systemic Corticosteroid (Reserved for Severe/Refractory Cases)
+  
+  - Syrup Prednisolone: 1 mg/kg/day orally for 3/7.
+  - Not routinely indicated for mild acute urticaria and reserved for severe, distressing symptoms that are unresponsive to antihistamines.
+  
+  3. MONITORING AND SAFETY NETTING
+  
+  Educate the mother on red-flag symptoms of anaphylaxis.
+  
+  Return immediately to the Emergency Room if the child develops:
+  
+  - Swelling of the lips, tongue, or face.
+  - Difficulty breathing, fast breathing, or chest recessions.
+  - Noisy breathing (stridor or wheezing).
+  - Extreme lethargy or floppiness.
+  - Vomiting.
+  
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-69',
+    title: 'Hand-Foot-and-Mouth Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Infectious Diseases',
+    condition: 'Hand-Foot-and-Mouth Disease (HFMD)',
+    symptoms: [
+      'Fever',
+      'Palmar and plantar rash',
+      'Vesicular skin lesions',
+      'Painful oral ulcers',
+      'Poor oral intake'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '18-month-old boy with a 3-day history of low-grade fever followed by vesicular lesions on the palms, soles, and buttocks, painful oral ulcers, and reduced oral intake, with similar illness reported among children at his crèche, consistent with hand-foot-and-mouth disease.',
+    content: `PATIENT IDENTIFICATION
+  
+  Age: 18 months
+  Sex: Male
+  Religion: Christian
+  Address: Gbagada, Lagos State
+  Tribe: Yoruba
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever × 3/7
+  2. Rash on hands and feet × 2/7
+  3. Painful mouth sores × 2/7
+  4. Poor oral intake × 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 3 days ago when he developed a low-grade fever. The fever was intermittent, relieved by paracetamol but would recur after a few hours. There were no associated chills or rigors.
+  
+  Two days ago, the mother noticed a rash involving the palms of both hands and the soles of both feet. The rash started as small red spots which progressed to tiny blisters. On the same day, the child began to cry during feeding and the mother noticed sores on his tongue and the inside of his cheeks.
+  
+  Since yesterday, there has been a significant decline in oral intake. He refuses solid foods and only takes small amounts of water or milk. There is no history of vomiting, diarrhea, cough, or ear discharge.
+  
+  He attends a local crèche where a few other children reportedly have similar symptoms.
+  
+  PAST MEDICAL HISTORY
+  
+  Birth History:
+  Delivered at term via SVD in a General Hospital. Birth weight was 3.2 kg. No history of neonatal jaundice or respiratory distress.
+  
+  Immunization History:
+  Up to date for age according to the National Programme on Immunization (NPI). BCG scar is visible on the left deltoid.
+  
+  Sickle Cell Disease Status:
+  HbAA (from newborn screening).
+  
+  No previous history of hospitalizations or blood transfusions.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Currently on family diet (pap, rice, tubers). Intake was adequate until the onset of current illness.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all age-appropriate milestones. He walks independently and can speak about 5–10 clear words.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Second child in a monogamous family setting. Parents are both teachers. They live in a well-ventilated 2-bedroom apartment with a functional water system and waste disposal.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  The patient is a toddler, conscious and alert but appears mildly irritable. He is not in any obvious respiratory distress. He is not pale, anicteric, and has no pedal edema or significant peripheral lymphadenopathy.
+  
+  Hydration status appears fair; mucous membranes are slightly dry, but skin turgor is normal.
+  
+  ANTHROPOMETRY
+  
+  Weight: 11.2 kg (Appropriate for age)
+  
+  VITAL SIGNS
+  
+  Temperature: 37.9 °C
+  Pulse Rate: 112 bpm (Normal volume and rhythm)
+  Respiratory Rate: 28 cpm
+  SpO₂: 98% on room air
+  
+  SKIN AND MUCOSA
+  
+  Skin:
+  Multiple erythematous maculopapular and vesicular lesions noted on the palms and soles. Some lesions are also seen on the buttocks. The vesicles are small (2–4 mm), with some having an elliptical or "football" shape.
+  
+  Oropharynx:
+  Multiple small, shallow ulcers (aphthae) with erythematous halos noted on the tongue and buccal mucosa.
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea is central. Chest is clear with normal vesicular breath sounds bilaterally. No adventitious sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  S1 and S2 heard. No murmurs.
+  
+  ABDOMINAL SYSTEM
+  
+  Abdomen is flat and moves with respiration. Soft, no organomegaly (liver and spleen not palpable). Bowel sounds are normal.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  No signs of meningeal irritation. Tone and reflexes are normal for age.
+  
+  ASSESSMENT
+  
+  Hand-Foot-and-Mouth Disease (HFMD)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Herpangina (lesions usually confined to the posterior oropharynx)
+  2. Varicella (Chickenpox – rash usually starts on the trunk and is more pruritic)
+  3. Aphthous stomatitis (limited to the mouth)
+  4. Erythema multiforme
+  
+  INITIAL INVESTIGATION PLAN
+  
+  Diagnosis is primarily clinical based on the characteristic distribution of the rash and oral ulcers.
+  
+  1. Full Blood Count (FBC): To check for lymphocytosis.
+  2. Urinalysis: To check specific gravity as a marker of hydration status.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  The condition is self-limiting, usually resolving within 7–10 days. Management is supportive.
+  
+  1. HYDRATION
+  
+  Encourage frequent small sips of cool fluids (water, diluted fruit juice, or cold milk).
+  
+  Avoid acidic, spicy, or salty foods that may irritate the mouth sores.
+  
+  2. MEDICATIONS
+  
+  - Syrup Paracetamol: 15 mg/kg (approximately 165 mg or 7 mL of 120 mg/5 mL suspension) every 6–8 hours for fever and pain.
+  
+  - Syrup Ibuprofen: 10 mg/kg (approximately 110 mg or 5.5 mL of 100 mg/5 mL suspension) every 8 hours if pain is not adequately controlled by paracetamol, provided the child is well hydrated.
+  
+  - Topical Treatment: Apply Pediatric Bonjela or a thin layer of 2% Lidocaine gel to the mouth ulcers 10–15 minutes before meals to facilitate feeding.
+  
+  3. HYGIENE AND ISOLATION
+  
+  - The child should be kept home from the crèche until the fever has resolved and the mouth sores have healed to prevent spread.
+  - Strict handwashing for all caregivers, especially after diaper changes or handling respiratory secretions, as the virus is shed in stool and saliva.
+  
+  4. SAFETY NETTING/FOLLOW-UP
+  
+  Counsel the mother to return to the emergency room if the child:
+  
+  - Develops signs of severe dehydration (no urine for >8 hours, sunken eyes).
+  - Becomes excessively lethargic or confused.
+  - Develops a persistent high fever or neck stiffness.
+  - Shows signs of difficulty breathing.
+  
+  Follow-up in the outpatient clinic in 3 days to review hydration and progress.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-68',
+    title: 'Viral Exanthem – Suspected Measles',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Infectious Diseases',
+    condition: 'Viral Exanthem',
+    symptoms: [
+      'Fever',
+      'Maculopapular skin rash',
+      'Dry cough',
+      'Catarrh',
+      'Chills'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '14-month-old boy with a 3-day history of fever, dry cough and catarrh, followed by a non-pruritic generalized erythematous maculopapular rash beginning on the face and spreading to the trunk and limbs, clinically suggestive of a viral exanthem with measles considered.',
+    content: `PATIENT IDENTIFICATION
+  
+  Name: Baby A.O.
+  Age: 14 months
+  Sex: Male
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  Religion: Christian
+  Caregiver/Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever × 3/7
+  2. Skin rash × 1/7
+  3. Cough and catarrh × 3/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The child was apparently well until 3 days ago when he developed a high-grade fever. Fever was intermittent, relieved by paracetamol, and associated with chills but no rigors.
+  
+  There was a concurrent onset of dry cough and catarrh. No history of fast breathing, noisy breathing, or difficulty in breathing. No history of ear discharge or redness of the eyes.
+  
+  1 day ago, mother noticed a reddish rash that started behind the ears and on the face, which has now spread to the neck, trunk, and upper limbs. The rash is not itchy and does not peel.
+  
+  No history of vomiting or diarrhea. No history of convulsion or loss of consciousness. No history of recent medication use before the onset of the rash.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous similar illness. No known history of asthma or sickle cell disease. No previous hospitalizations or blood transfusions.
+  
+  BIRTH HISTORY
+  
+  Pregnancy was supervised at a General Hospital. Mother took routine ANC drugs. Delivered at term via Spontaneous Vaginal Delivery (SVD). Birth weight was 3.1 kg. Cried immediately at birth. No history of neonatal jaundice or sepsis.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Complementary feeding started at 6 months with pap and mashed family staples. Currently on family diet. Frequency of feeding is 4–5 times a day.
+  
+  IMMUNIZATION HISTORY
+  
+  Fully immunized for age according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid. Received Measles 1 vaccine at 9 months.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all milestones appropriately. Sat at 6 months, crawled at 9 months, and started walking at 13 months. Currently says 2–3 clear words.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Child is the 2nd of 2 children in a monogamous family. Parents are both teachers. They reside in a well-ventilated 3-room apartment. Source of water is a borehole. Refuse is disposed of via a central collection system.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures, no neck stiffness.
+  RS: As in HPC.
+  CVS: No cyanosis, no pedal edema.
+  GIT: Normal bowel habits, no abdominal distension.
+  MSS: No joint swelling or pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An acutely ill-looking child, febrile (Temperature: 38.4 °C), not pale, anicteric, not dehydrated, no significant peripheral lymphadenopathy. No pedal edema.
+  
+  ANTHROPOMETRY
+  
+  Weight: 10.2 kg
+  Length: 76 cm
+  MUAC: 14.2 cm (Normal)
+  
+  SKIN
+  
+  Generalized erythematous maculopapular rashes, blanching on pressure, most prominent on the face and trunk. No Koplik spots seen on the buccal mucosa.
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  RR: 34 cpm. No intercostal or subcostal recessions. Trachea is central. Percussion note is resonant bilaterally. Breath sounds are vesicular. No added sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  PR: 108 bpm, regular, normal volume. Apex beat at 4th left intercostal space, midclavicular line. S1 and S2 only heard. No murmurs.
+  
+  ABDOMINAL EXAMINATION
+  
+  Flat, moves with respiration. Soft, non-tender. No hepatosplenomegaly. Bowel sounds present and normal.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Conscious and alert. GCS 15/15. Normal muscle tone and reflexes in all limbs. No signs of meningeal irritation.
+  
+  ASSESSMENT
+  
+  Viral Exanthem (likely Measles vs. Roseola Infantum) in a child with good nutritional status.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Measles (Modified, given immunization history)
+  2. Roseola Infantum (Exanthem Subitum)
+  3. Rubella
+  4. Drug-induced eruption (though no drug history provided)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. FBC: To check for leukopenia or lymphocytosis.
+  2. MPS: To rule out concomitant malaria.
+  3. Measles IgM: If symptoms persist or for epidemiological surveillance (where available).
+  4. Urinalysis: To screen for associated UTI.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL CARE
+  
+  - Increase fluid intake (water, breast milk, or oral rehydration solution).
+  - Tepid sponging to help reduce fever.
+  - Isolation from other children for at least 5 days from the onset of the rash.
+  
+  MEDICATIONS
+  
+  1. Antipyretics:
+  - Syrup Paracetamol 15 mg/kg per dose. Give 5 mL (of 250 mg/5 mL strength) or 7.5 mL (of 120 mg/5 mL strength) every 6–8 hours until fever subsides.
+  
+  2. Supplements:
+  - Vitamin A: 200,000 IU orally stat (essential if measles is suspected to prevent ocular complications).
+  - Syrup Zinc: 20 mg daily for 10 days to support immune recovery.
+  
+  3. Skin Care:
+  - Calamine lotion may be applied if there is any associated itching, though usually not required for viral exanthems.
+  
+  4. Antibiotics:
+  - Not indicated unless there is evidence of secondary bacterial infection (e.g., otitis media or pneumonia).
+  
+  MONITORING AND FOLLOW-UP
+  
+  - Review in 48 hours.
+  - Advise mother to return immediately if child develops fast breathing, persistent vomiting, inability to feed, or convulsions.
+  - Rash is expected to fade in 3–5 days, often with fine desquamation or brownish staining.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+{
+  id: 'peds-67',
+  title: 'Tinea Corporis (Ringworm of the Body)',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Pediatric Dermatology',
+  condition: 'Superficial Fungal Skin Infection',
+  symptoms: [
+    'Itchy skin rash',
+    'Annular skin lesions',
+    'Erythematous plaques',
+    'Scaly raised borders',
+    'Central clearing'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '18-month-old boy with a 2-week history of intensely pruritic, progressive annular scaly plaques with central clearing over the trunk, clinically consistent with tinea corporis.',
+  content: `PATIENT IDENTIFICATION
+
+Name: Master Chimaobi Okoro
+Age: 18 months
+Sex: Male
+Address: Owerri, Imo State
+Tribe: Igbo
+Religion: Christian
+Caregiver/Informant: Mother (Reliable)
+
+PRESENTING COMPLAINT
+
+Itchy skin rash on the trunk × 2/52
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 2 weeks ago when the mother noticed a small, reddish, circular rash on the abdomen. The rash gradually increased in size and similar lesions appeared on the chest and back. The lesions are intensely itchy, especially when the baby sweats, leading to frequent scratching.
+
+There is no history of fever, cough, or runny nose. No history of contact with pets (cats or dogs) or other children with similar skin lesions.
+
+Mother has been applying Shea butter and an over-the-counter steroid cream (Nixoderm) for 5 days without significant improvement.
+
+PAST MEDICAL HISTORY
+
+No history of similar skin lesions in the past. No known history of asthma, allergic rhinitis, or food allergies. No previous hospitalizations or blood transfusions.
+
+BIRTH HISTORY
+
+The patient is a product of a term, spontaneous vaginal delivery in a private hospital. No neonatal complications. Birth weight was 3.2 kg.
+
+DIETARY HISTORY
+
+Exclusively breastfed for the first 6 months of life. Complementary feeding was started at 6 months with fortified pap and family diet. Currently eats 3–4 times daily. Diet is adequate for age.
+
+IMMUNIZATION HISTORY
+
+Immunization is up to date according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+
+DEVELOPMENTAL HISTORY
+
+Attained age-appropriate milestones. He is currently walking steadily and can say 3–4 meaningful words.
+
+FAMILY AND SOCIAL HISTORY
+
+Second child in a monogamous family setting. Lives in a well-ventilated 2-bedroom flat with parents and one sibling. Father is a civil servant and mother is a primary school teacher. Source of water is a borehole. Refuse is disposed of via a local waste management service.
+
+REVIEW OF SYSTEMS
+
+CNS: No convulsions, no loss of consciousness.
+RS: No cough, no fast breathing.
+CVS: No cyanosis.
+GIT: No vomiting, no diarrhea.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+A stable-looking toddler, not in any obvious distress.
+Afebrile (Temp: 36.7 °C).
+Not pale, not icteric, not dehydrated.
+No significant peripheral lymphadenopathy.
+
+ANTHROPOMETRY
+
+Weight: 11.5 kg (Expected for age).
+Height: 82 cm.
+
+DERMATOLOGICAL EXAMINATION
+
+Multiple erythematous, annular (ring-shaped) plaques of varying sizes (2–4 cm) located on the abdomen, chest, and upper back.
+
+The lesions have well-demarcated, raised, scaly borders with central clearing.
+
+No vesicles or pustules noted.
+
+Scalp, hair, and nails appear normal.
+
+SYSTEMIC EXAMINATION
+
+Respiratory System:
+RR 28 cpm. Trachea central. Breath sounds are vesicular.
+
+Cardiovascular System:
+PR 105 bpm, regular, normal volume. S1 S2 heard. No murmurs.
+
+Abdomen:
+Flat, soft, non-tender. No organomegaly. Bowel sounds present.
+
+Neurological:
+Conscious and alert. Normal muscle tone and reflexes in all limbs.
+
+ASSESSMENT
+
+Tinea corporis (Ringworm of the body)
+
+DIFFERENTIAL DIAGNOSES
+
+1. Nummular eczema
+2. Pityriasis rosea
+3. Granuloma annulare
+
+INITIAL INVESTIGATION PLAN
+
+1. Clinical diagnosis is usually sufficient in this setting.
+2. Skin scraping for Potassium Hydroxide (KOH) microscopy: To look for fungal hyphae and spores if diagnosis is in doubt or refractory to treatment.
+
+INITIAL MANAGEMENT PLAN
+
+General Measures:
+1. Educate mother on the fungal nature of the infection.
+2. Advise on strict hygiene: Do not share towels, sponges, or clothing with other children.
+3. Keep the affected areas clean and dry.
+4. Cut the child's fingernails short to prevent secondary bacterial infection from scratching.
+5. Discontinue the use of steroid creams (Nixoderm), as they can worsen fungal infections and cause tinea incognito.
+
+Pharmacotherapy:
+
+1. Topical Antifungals (First-line for localized infection):
+- Clotrimazole 1% cream or Terbinafine 1% cream applied twice daily to the lesions and 2 cm beyond the margin for 2–4 weeks. Treatment should continue for 1 week after the lesions have cleared.
+
+2. Systemic Antifungals (Indicated if lesions are extensive or refractory):
+- Oral Griseofulvin (microsize): 10–20 mg/kg/day in a single dose or two divided doses for 2–4 weeks. Best taken with fatty meals (e.g., milk or avocado) for better absorption.
+- Alternative: Oral Fluconazole 3–6 mg/kg once weekly for 2–4 weeks.
+
+3. Antipruritics:
+- Syrup Chlorpheniramine 2 mg (2.5 mL) at night × 1/52 to reduce itching and improve sleep.
+
+FOLLOW-UP
+
+Review in 2 weeks to assess clinical response.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  {
+    id: 'peds-66',
+    title: 'Non-bullous Impetigo',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Impetigo',
+    symptoms: [
+      'Perioral skin rash',
+      'Perinasal skin lesions',
+      'Pruritus',
+      'Vesiculopustular lesions',
+      'Honey-colored crusts'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '18-month-old male presenting with a 5-day history of pruritic perioral and perinasal vesiculopustular lesions that ruptured and developed characteristic honey-colored crusts, with similar lesions in siblings, consistent with contagious non-bullous impetigo.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Master Chidi Okafor
+  Age: 18 months
+  Sex: Male
+  Address: Achara Layout, Enugu, Enugu State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Skin rashes around the mouth and nose × 5/7
+  2. Itching × 5/7
+  
+  History of Presenting Complaint
+  The patient was apparently well until 5 days ago when the mother noticed small red spots around the corners of the mouth and nostrils. These spots quickly progressed to form small fluid-filled blisters (vesicles) which ruptured within 24 hours. Following rupture, the areas developed a characteristic thick, golden-yellow or honey-colored crust.
+  
+  The lesions are associated with significant itching, leading to frequent scratching by the child. The mother notes that new lesions have appeared on the chin and near the right ear over the last 48 hours.
+  
+  There is no history of fever, body swelling, or similar lesions on the trunk or extremities. No history of prior skin conditions like eczema or recent insect bites.
+  
+  Two older siblings are reported to have similar but milder skin lesions. No history of use of herbal concoctions or new soaps.
+  
+  Past Medical History
+  No previous hospitalizations or similar skin eruptions.
+  No known drug allergies.
+  No history suggestive of sickle cell disease or bronchial asthma.
+  
+  Birth History
+  Prenatal: Mother booked ANC at a General Hospital at 14 weeks EGA. Pregnancy was uneventful. Tetanus toxoid doses were completed.
+  Natal: Delivered at term via Spontaneous Vaginal Delivery (SVD) in a hospital. Cried immediately at birth. Birth weight: 3.2 kg.
+  Post-natal: No neonatal jaundice or sepsis.
+  
+  Dietary History
+  Patient was exclusively breastfed for 6 months. Currently on family diet consisting of pap, tubers, and cereals. Meal frequency is 3–4 times daily. Intake is adequate for age.
+  
+  Immunization History
+  Received all vaccines according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  Attained all milestones at appropriate ages. Currently walks steadily and speaks a few clear words.
+  
+  Family and Social History
+  Patient is the 3rd child in a monogamous family of five. Parents are traders. They live in a 2-bedroom apartment with adequate ventilation but share a bathroom with other tenants. Water source is a protected well. Refuse is disposed of via a central collection point.
+  
+  Review of Systems
+  RS: No cough or fast breathing.
+  CVS: No cyanosis or easy fatigability.
+  GIT: No vomiting or diarrhea.
+  CNS: No seizures or altered consciousness.
+  MSS: No joint swelling or limb pain.
+  
+  Physical Examination
+  
+  General Examination
+  A toddler in no obvious respiratory or painful distress. Afebrile (36.7°C), not pale, anicteric, no significant peripheral lymphadenopathy. No pedal edema.
+  
+  Anthropometry
+  Weight: 11.5 kg (within normal range for age)
+  MUAC: 14.5 cm
+  
+  Skin Examination
+  Multiple discrete and confluent erythematous macules and papules located periorally and perinasally. Characteristic thick, adherent, honey-colored (golden) crusts are seen overlying shallow erosions.
+  
+  There is minimal surrounding erythema. No bullae, scales, or burrows noted. No lesions on the palms, soles, or scalp.
+  
+  Systemic Examination
+  Respiratory: RR 28 cpm, chest moves with respiration, lungs are clear.
+  Cardiovascular: PR 108 bpm, regular, good volume. S1 and S2 only.
+  Abdomen: Full, soft, moves with respiration. Liver and spleen not palpable.
+  Neurologic: Conscious and alert. No focal deficits.
+  
+  Summary
+  Master Chidi, an 18-month-old male, presents with a 5-day history of itchy, vesiculopustular skin lesions around the mouth and nose that have formed honey-colored crusts. Similar lesions in siblings and crowded living conditions suggest a contagious etiology. Physical examination confirms classic non-bullous impetigo lesions.
+  
+  Assessment
+  Impetigo (Non-bullous Type).
+  
+  Differential Diagnoses
+  1. Infected Eczema (Atopic Dermatitis with Secondary Bacterial Infection)
+  2. Herpes Simplex Virus Infection (Secondary Impetiginization)
+  3. Insect Bite Hypersensitivity
+  
+  Investigation Plan
+  The diagnosis is primarily clinical.
+  
+  If there is poor response to treatment, the following may be considered:
+  1. Wound Swab for Microscopy, Culture and Sensitivity (M/C/S): To identify the causative organism and determine antibiotic susceptibility.
+  2. Fasting Blood Sugar/Urinalysis: To assess for underlying conditions if lesions become recurrent or chronic.
+  
+  Management Plan
+  
+  General/Non-pharmacological
+  1. Education: Explain the contagious nature of the condition to the mother.
+  2. Hygiene: Advise daily bathing with mild soap. Crusts should be gently softened with warm saline-soaked compresses and removed to allow topical antibiotics to penetrate.
+  3. Prevention of spread: Keep the child's fingernails short to minimize scratching. Advise against sharing towels, bedsheets, or clothing with siblings.
+  4. The child should stay away from daycare or school until lesions have crusted over or for at least 24 hours after starting appropriate antibiotic therapy.
+  
+  Pharmacological
+  
+  Option A: Topical Therapy (Preferred for Localized Lesions)
+  1. Mupirocin 2% ointment: Apply thinly to affected areas 3 times daily for 5–7 days.
+  2. Alternative: Fusidic Acid 2% cream/ointment, according to local susceptibility patterns.
+  
+  Option B: Oral Antibiotics
+  Consider oral therapy if lesions are extensive, involve multiple sites, are rapidly spreading, or if there is significant household transmission.
+  1. Syrup Cloxacillin: 125 mg four times daily for 5–7 days.
+  2. Alternative: Syrup Amoxicillin/Clavulanic Acid, dosed according to the child's weight and the amoxicillin component.
+  
+  Symptomatic Treatment
+  1. Syrup Chlorpheniramine 2 mg at night for 3–5 days may be considered if pruritus significantly interferes with sleep.
+  
+  Follow-up
+  Review in 1 week to ensure resolution and assess for complications.
+  Advise the caregiver to return earlier if fever, rapidly spreading lesions, facial swelling, pain, or systemic symptoms develop.
+  Monitor for features suggestive of post-streptococcal glomerulonephritis, including smoky/cola-colored urine, facial puffiness, or reduced urine output.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-65',
+    title: 'Non-bullous Impetigo',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Impetigo',
+    symptoms: [
+      'Pruritic facial skin lesions',
+      'Fluid-filled blisters',
+      'Honey-colored crusts',
+      'Perioral erythematous plaques',
+      'Facial excoriations'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '4-year-old male child presenting with a 5-day history of pruritic perioral vesicles that ruptured to form characteristic honey-colored crusts, without fever or systemic toxicity, consistent with localized non-bullous impetigo.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  A 4-year-old male child, resident of Mushin, Lagos State, brought by his mother.
+  
+  Presenting Complaints
+  1. Multiple itchy skin lesions × 5/7
+  2. Presence of honey-colored crusts on the face
+  
+  History of Presenting Complaint
+  Mother reports a 5-day history of small fluid-filled blisters appearing around the child's nose and mouth. These subsequently ruptured, leaving behind yellowish, "honey-colored" crusts.
+  
+  The lesions are pruritic, leading to excoriation by the child.
+  
+  There is no history of fever, systemic malaise, or recent contact with similar lesions in school. No history of recent insect bites or trauma to the area.
+  
+  Mother has applied local herbal concoctions with no significant improvement.
+  
+  Past Medical History
+  No known chronic illnesses.
+  No history of atopic dermatitis or recurrent skin infections.
+  Immunization status: Up to date for age.
+  
+  Drug History
+  No regular medications.
+  Used topical herbal application (unspecified).
+  
+  Social History
+  Lives in a crowded household; shares towels and beddings with siblings.
+  
+  Review of Systems
+  Constitutional: No fever, no weight loss.
+  Skin: Pruritus present; no other rashes on the body.
+  
+  Physical Examination
+  
+  General Examination
+  Child is alert, not pale, not febrile (Temp: 36.8°C). No peripheral lymphadenopathy.
+  
+  Vital Signs
+  PR: 98 bpm.
+  RR: 22 cpm.
+  SpO₂: 99% on room air.
+  
+  Dermatological Examination
+  Multiple erythematous plaques with characteristic honey-colored crusts located periorally and on the chin.
+  No surrounding cellulitis or signs of systemic toxicity.
+  No satellite lesions.
+  
+  Assessment
+  Impetigo (Non-bullous).
+  
+  Differential Diagnoses
+  1. Atopic Dermatitis with Secondary Bacterial Infection
+  2. Herpes Simplex Virus (HSV) Infection
+  3. Tinea Faciei
+  
+  Initial Investigation Plan
+  Clinical diagnosis is usually sufficient.
+  
+  Swab for Microscopy, Culture, and Sensitivity (MCS) if lesions are recalcitrant to initial therapy or if resistant organisms, including MRSA, are suspected.
+  
+  Initial Management Plan
+  
+  Hygiene Education
+  1. Advise regular handwashing, particularly after touching affected areas.
+  2. Keep the child's fingernails short to reduce scratching and autoinoculation.
+  3. Avoid sharing towels, clothing, bed linens, or other personal items with siblings.
+  4. Keep lesions covered where practical to reduce transmission.
+  
+  Topical Therapy
+  1. Mupirocin 2% ointment: Apply to affected areas 3 times daily for 5–7 days.
+  2. If Mupirocin is unavailable, Fusidic Acid cream may be used as an alternative, according to local availability and susceptibility patterns.
+  
+  Wound Care
+  1. Gently soften and remove crusts with warm water before application of the topical antibiotic.
+  2. Avoid vigorous scrubbing of the affected skin.
+  
+  Systemic Therapy
+  Systemic antibiotics should be considered if lesions are extensive, rapidly spreading, associated with systemic symptoms, or unresponsive to appropriate topical therapy.
+  1. Oral Flucloxacillin 12.5–25 mg/kg/dose 6-hourly for 7 days may be considered.
+  2. Amoxicillin-Clavulanate is an alternative where clinically indicated.
+  
+  Follow-up
+  Review in 7 days to assess resolution.
+  Return earlier if the lesions rapidly spread, significant swelling or pain develops, fever occurs, or there are features of systemic illness.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-64',
+    title: 'Scabies in an Infant',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Scabies',
+    symptoms: [
+      'Generalized pruritic rash',
+      'Nocturnal itching',
+      'Erythematous papules',
+      'Interdigital burrows',
+      'Sleep disturbance and irritability'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '4-month-old male infant presenting with a 2-week history of intensely pruritic generalized rash involving the interdigital spaces, axillae, and periumbilical region, with nocturnal worsening and characteristic burrows, consistent with scabies.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  A 4-month-old male infant, brought by mother, resident of Mushin, Lagos State.
+  
+  Presenting Complaints
+  1. Generalized pruritic rash × 2/52
+  2. Poor sleep and irritability
+  
+  History of Presenting Complaint
+  Mother reports a 2-week history of a generalized rash starting on the interdigital spaces and spreading to the trunk and axillae.
+  
+  The rash is intensely pruritic, notably worsening at night, leading to significant sleep disturbance and irritability.
+  
+  There is no history of fever, cough, or diarrhea. No known contact with similar rashes in the household, though mother reports the infant shares a bed with siblings.
+  
+  No prior topical treatments applied.
+  
+  Past Medical History
+  Birth History: Term, SVD, no complications.
+  Immunization: Up to date for age.
+  Known allergies: None.
+  
+  Drug History
+  No prior medications or OTC creams used.
+  
+  Social History
+  Lives in a crowded household. Shared bedding with siblings.
+  
+  Review of Systems
+  GIT: Normal stooling, good appetite.
+  CNS: Irritable, otherwise alert.
+  RS/CVS: NAD.
+  
+  Physical Examination
+  
+  General Examination
+  Not pale, not febrile (Temp: 36.7°C), well-hydrated. Irritable on examination.
+  
+  Vital Signs
+  PR: 120 bpm.
+  RR: 34 cpm.
+  SpO₂: 98% on room air.
+  
+  Skin Examination
+  Multiple erythematous papules and linear burrows noted in the interdigital spaces of the hands, axillae, and periumbilical region.
+  
+  No signs of secondary bacterial infection, including honey-colored crusts or purulent discharge.
+  
+  Assessment
+  Scabies (Infestation).
+  
+  Differential Diagnoses
+  1. Atopic Dermatitis
+  2. Impetigo (Secondary to scratching)
+  3. Insect Bite Reaction
+  
+  Initial Investigation Plan
+  Diagnosis is primarily clinical.
+  Microscopy for mites is rarely available or necessary in primary care settings.
+  
+  Initial Management Plan
+  
+  Pharmacotherapy
+  1. Permethrin 5% cream: Apply to the affected areas as directed, leave on for 8–12 hours before washing off, and repeat application after 7 days.
+  2. If Permethrin is unavailable: Benzyl Benzoate emulsion 25% may be considered, with appropriate dilution in infants because of the increased risk of skin irritation.
+  3. Calamine lotion may be used for symptomatic relief of pruritus.
+  4. An age-appropriate oral antihistamine may be considered if itching significantly interferes with sleep.
+  
+  Public Health Measures
+  1. Treat all household contacts simultaneously, including asymptomatic contacts, to prevent reinfestation.
+  2. Wash bedding, clothing, and towels used by the infant and household contacts thoroughly and dry them appropriately.
+  3. Items that cannot be washed should be isolated from contact for an appropriate period.
+  
+  Follow-up
+  Review in 1 week to assess response to treatment and monitor for secondary bacterial infection.
+  Advise caregiver to return earlier if the infant develops fever, purulent discharge, spreading redness, or worsening symptoms.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-63',
+    title: 'Transient Neonatal Pustular Melanosis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Transient Neonatal Pustular Melanosis',
+    symptoms: [
+      'Fragile neonatal vesicles',
+      'Hyperpigmented macules',
+      'Scaly collarette',
+      'Chin and neck skin lesions',
+      'Upper chest skin lesions'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '4-day-old male neonate presenting with a 2-day history of fragile vesicles that ruptured to leave hyperpigmented macules with a fine scaly collarette on the chin, neck, and upper chest, without systemic symptoms, consistent with transient neonatal pustular melanosis.',
+    content: `PAEDIATRIC/NEONATOLOGY CLINIC
+  
+  Patient Identification
+  A 4-day-old male neonate, born to a 28-year-old G2P2 mother, residing in Ikeja, Lagos State.
+  
+  Presenting Complaint
+  Multiple skin lesions × 2/7.
+  
+  History of Presenting Complaint
+  Mother noticed the appearance of small, fragile vesicles on the infant's chin and neck approximately 48 hours after birth. These lesions subsequently ruptured, leaving behind small, hyperpigmented macules with a surrounding collarette of scale.
+  
+  There is no history of fever, poor suckling, lethargy, or respiratory distress. The infant is currently breastfeeding well and passing urine and stool appropriately.
+  
+  No history of maternal illness during pregnancy or prolonged rupture of membranes.
+  
+  Past Medical History
+  Unremarkable. Born via spontaneous vaginal delivery at term. No history of NICU admission.
+  
+  Drug History
+  None. No topical applications used on the skin.
+  
+  Family History
+  Non-contributory. No history of similar skin conditions in siblings.
+  
+  Social History
+  Lives with parents in a clean, well-ventilated home. Exclusive breastfeeding.
+  
+  Review of Systems
+  CNS: Alert, active, good cry.
+  CVS/RS: No distress, good air entry.
+  GIT: Normal bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  Neonate is pink, well-hydrated, and not in distress.
+  Temp: 36.8°C.
+  PR: 132 bpm.
+  RR: 42 cpm.
+  SpO₂: 98% on room air.
+  
+  Skin Examination
+  Multiple 1–3 mm hyperpigmented macules with a fine, white, scaly collarette noted on the chin, neck, and upper chest.
+  No pustules currently intact.
+  No erythema or induration of surrounding skin.
+  No lesions on the palms or soles.
+  
+  Systemic Examination
+  CVS: S1 and S2 normal, no murmurs.
+  RS: Clear, equal air entry.
+  Abdomen: Soft, non-tender, no organomegaly.
+  
+  Assessment
+  Transient Neonatal Pustular Melanosis (TNPM).
+  
+  Differential Diagnoses
+  1. Erythema Toxicum Neonatorum (ETN)
+  2. Neonatal Herpes Simplex Virus (HSV) Infection
+  3. Staphylococcal Pustulosis
+  4. Congenital Cutaneous Candidiasis
+  
+  Initial Investigation Plan
+  Clinical diagnosis is usually sufficient given the classic appearance.
+  
+  If diagnostic uncertainty exists:
+  1. Gram stain and culture of vesicle fluid, if any lesions remain intact.
+  2. Tzanck smear to help exclude HSV infection if clinically indicated.
+  
+  Initial Management Plan
+  
+  Reassurance
+  1. Counsel parents that this is a benign, self-limiting neonatal skin condition that requires no specific treatment.
+  
+  Skin Care
+  1. Maintain good skin hygiene.
+  2. Keep affected areas clean and dry.
+  3. Avoid harsh soaps and topical medicated creams.
+  
+  Monitoring
+  1. Observe for signs of secondary infection, including increasing erythema, warmth, swelling, purulent discharge, or systemic symptoms such as fever or lethargy.
+  
+  Follow-up
+  Review in 1/52 to confirm clinical progression and resolution of the lesions.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-62',
+    title: 'Neonatal Cephalic Pustulosis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Cephalic Pustulosis',
+    symptoms: [
+      'Facial skin rash',
+      'Erythematous papules',
+      'Facial pustules',
+      'Closed comedones',
+      'Localized cheek and forehead rash'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '4-week-old male infant presenting with a 2-week history of localized erythematous papules and pustules on the cheeks and forehead, without systemic symptoms, consistent with benign neonatal cephalic pustulosis.',
+    content: `PAEDIATRIC/NEONATOLOGY CLINIC
+  
+  Patient Identification
+  A 4-week-old male infant, brought by his mother, a resident of Ikeja, Lagos State.
+  
+  Presenting Complaint
+  Facial rash × 2/52.
+  
+  History of Presenting Complaint
+  Mother reports the onset of small, erythematous papules and pustules on the infant's cheeks and forehead approximately 2 weeks ago. The lesions have remained localized to the face.
+  
+  There is no associated fever, irritability, or poor feeding. No history of recent change in detergents, soaps, or clothing. The mother has not applied any topical creams or oils to the area.
+  
+  The infant is exclusively breastfed and is otherwise thriving.
+  
+  Past Medical History
+  Unremarkable. Born via SVD at term. No neonatal complications.
+  
+  Drug History
+  Nil. No OTC medications or herbal preparations used.
+  
+  Family History
+  No family history of atopic dermatitis or significant skin conditions.
+  
+  Social History
+  Lives with parents in a clean, well-ventilated environment. No pets.
+  
+  Review of Systems
+  Systemic review unremarkable. Normal weight gain and developmental milestones for age.
+  
+  Physical Examination
+  
+  General Examination
+  Well-appearing, alert, and non-toxic infant. Not dehydrated.
+  
+  Vital Signs
+  Temp: 36.8°C.
+  PR: 130 bpm.
+  RR: 38 cpm.
+  
+  Dermatological Examination
+  Multiple 1–2 mm erythematous papules and closed comedones noted on the cheeks and forehead.
+  No crusting, scaling, or excoriations.
+  No involvement of the trunk or extremities.
+  
+  Systemic Examination
+  CVS: NAD.
+  RS: NAD.
+  GIT: NAD.
+  CNS: NAD.
+  
+  Assessment
+  Neonatal Cephalic Pustulosis (Infantile Acne).
+  
+  Differential Diagnoses
+  1. Neonatal Cephalic Pustulosis (Infantile Acne)
+  2. Infantile Seborrhoeic Dermatitis
+  3. Atopic Dermatitis (Eczema)
+  4. Miliaria Rubra
+  
+  Initial Investigation Plan
+  Clinical diagnosis; no investigations required.
+  
+  Initial Management Plan
+  
+  Education/Reassurance
+  1. Explain to the mother that this is a self-limiting, benign condition associated with the developing infant skin and sebaceous glands.
+  
+  Conservative Care
+  1. Advise gentle cleansing of the face with plain water or a mild, soap-free, pH-neutral cleanser once daily.
+  2. Avoid scrubbing or excessive manipulation of the lesions.
+  
+  Avoidance
+  1. Avoid application of oils, lotions, or OTC acne medications such as Benzoyl Peroxide or Salicylic Acid, as these may irritate the infant's skin.
+  
+  Follow-up
+  Review in 4/52 to monitor for resolution.
+  If lesions worsen, spread to the body, or if the infant develops systemic symptoms such as fever or lethargy, return immediately.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-61',
+    title: 'Irritant Diaper Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Irritant Diaper Dermatitis',
+    symptoms: [
+      'Diaper-area erythematous rash',
+      'Confluent buttock and perineal rash',
+      'Lower abdominal rash',
+      'Irritability during diaper changes',
+      'Crying during micturition'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '7-month-old male infant presenting with a 5-day history of confluent bright erythematous diaper-area plaques involving the buttocks, perineum, scrotum, and lower abdomen, with relative sparing of the inguinal folds and no satellite lesions or secondary infection, consistent with irritant diaper dermatitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Age: 7 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Igbo
+  Religion: Christian
+  Caregiver: Mother (Informant), Reliable
+  
+  Presenting Complaints
+  1. Rash in the diaper area × 5/7
+  2. Excessive crying during diaper changes × 3/7
+  
+  History of Presenting Complaint
+  He was apparently well until 5 days ago when the mother noticed redness around the diaper area. The rash started as small red spots which gradually increased in size and merged to involve the buttocks, scrotum, and lower abdomen.
+  
+  There is associated restlessness and crying, particularly when the baby passes urine or during cleaning of the diaper area.
+  
+  There is no history of diarrhea or frequent loose stools. No history of fever, cough, or runny nose. No history of similar rashes on the scalp, face, or skin folds.
+  
+  Mother has been using a combination of local balms and dusting powder with no significant improvement.
+  
+  Past Medical History
+  No previous history of similar skin eruptions.
+  No known drug or environmental allergies.
+  No history of recurrent infections.
+  Not a known patient with Sickle Cell Disease.
+  
+  Birth History
+  Prenatal: Booked ANC at a General Hospital. Pregnancy was uneventful.
+  Natal: Delivered at term via Spontaneous Vaginal Delivery (SVD).
+  Post-natal: Cried immediately at birth. No history of neonatal jaundice or admissions. Birth weight was 3.4 kg.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Currently on complementary feeds (pap and mashed tubers) with continued breastfeeding.
+  
+  Immunization History
+  Up to date according to the National Programme on Immunization (NPI) schedule. BCG scar is visible on the right deltoid.
+  
+  Developmental History
+  Attained age-appropriate milestones. Currently sitting without support and transfers objects from hand to hand.
+  
+  Family and Social History
+  Second child in a monogamous family setting. Parents are both primary school teachers. They live in a well-ventilated 2-bedroom flat with access to borehole water. Refuse is disposed of via a designated community dump site.
+  
+  Review of Systems
+  GIT: No diarrhea, no vomiting.
+  RS: No cough, no fast breathing.
+  CNS: No seizures, no altered consciousness.
+  MSS: No joint swellings.
+  
+  Physical Examination
+  
+  General Examination
+  An infant in no obvious respiratory distress but appears irritable during examination of the perineum. Afebrile (T: 36.7°C). Not pale, anicteric, well hydrated. No significant peripheral lymphadenopathy.
+  
+  Anthropometry
+  Weight: 7.8 kg
+  Length: 68 cm
+  MUAC: 13.8 cm
+  
+  Skin Examination (Diaper Area)
+  There are confluent, bright erythematous plaques involving the convex surfaces of the buttocks, perineum, and lower abdomen.
+  The inguinal folds are relatively spared.
+  No satellite lesions (pustules or papules) noted beyond the border of the main rash.
+  No evidence of honey-colored crusting or oozing.
+  
+  Systemic Examination
+  Respiratory System: RR 34 cpm. Trachea central. Breath sounds are vesicular.
+  
+  Cardiovascular System: PR 124 bpm, regular, normal volume. S1 S2 heard. No murmurs.
+  
+  Abdomen: Full, moves with respiration. Soft, non-tender. Liver and spleen are not enlarged. Bowel sounds are normal.
+  
+  Neurologic: Conscious and alert. Normal muscle tone and reflexes in all limbs.
+  
+  Assessment
+  Irritant Diaper Dermatitis.
+  
+  Differential Diagnoses
+  1. Candidal Diaper Dermatitis
+  2. Seborrhoeic Dermatitis
+  3. Impetigo (Secondary bacterial infection)
+  
+  Initial Investigation Plan
+  Diagnosis is primarily clinical.
+  
+  1. Skin scraping for KOH mount (to rule out Candida if fold involvement or satellite lesions develop).
+  2. Swab for M/C/S (only if pustules or purulent discharge appear, suggesting secondary infection).
+  
+  Initial Management Plan
+  The goal is to keep the area dry, reduce irritation, and treat inflammation/infection.
+  
+  General Skin Care and Hygiene (ABCDE Approach)
+  1. Air: Frequent diaper-free periods (at least 30 minutes, 3–4 times daily).
+  2. Barrier: Apply a thick layer of barrier cream at every diaper change.
+  3. Cleansing: Clean gently with warm water and soft cotton wool. Avoid scented wipes or scrubbing.
+  4. Diapers: Increase frequency of diaper changes (every 2–3 hours).
+  5. Education: Counsel mother on avoiding tight-fitting diapers and plastic over-pants.
+  
+  Pharmacological Options
+  1. Barrier Agents: Zinc Oxide paste or White Petrolatum Jelly (Vaseline) to be applied at every diaper change.
+  2. Anti-inflammatory: Low-potency topical steroid (e.g., 1% Hydrocortisone cream) applied twice daily for a short course of 3 days if inflammation is severe.
+  3. Antifungal (if Candida is suspected): Topical Clotrimazole or Nystatin cream applied 3 times daily for 7–10 days. Antifungals should be applied before the barrier cream.
+  
+  Follow-up
+  Review in 5–7 days to monitor progress.
+  Advise caregiver to return immediately if the rash develops blisters, pus, or if the child develops a fever.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-60',
+    title: 'Irritant Diaper Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Irritant Diaper Dermatitis',
+    symptoms: [
+      'Perianal erythematous rash',
+      'Buttock and perineal rash',
+      'Irritability during diaper changes',
+      'Diaper-area irritation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '6-month-old male infant presenting with a 4-day history of erythematous confluent rash involving the buttocks, perineum, and diaper area, with relative sparing of the skin folds and no satellite lesions or pustules, consistent with irritant diaper dermatitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  A 6-month-old male infant, brought by his mother, a resident of Ikeja, Lagos State.
+  
+  Presenting Complaints
+  1. Perianal rash × 4/7
+  2. Irritability during diaper changes
+  
+  History of Presenting Complaint
+  Mother reports a 4-day history of a red, patchy rash localized to the diaper area. The rash started as mild redness and has progressed to involve the convex surfaces of the buttocks and inguinal folds.
+  
+  Mother notes the infant is increasingly irritable, particularly during cleaning and diaper changes.
+  
+  There is no history of fever, diarrhea, or vomiting. No recent change in diaper brand or detergents. Mother has been applying local herbal concoctions with no significant improvement.
+  
+  Past Medical History
+  Unremarkable birth history.
+  No known allergies.
+  Immunizations: Up to date for age.
+  
+  Drug History
+  No regular medications.
+  Recent use of topical herbal preparations (unspecified).
+  
+  Social History
+  Lives with parents in a well-ventilated apartment.
+  Diapers changed 4–5 times daily.
+  
+  Physical Examination
+  
+  General Examination
+  Alert, not pale, not febrile (Temp: 36.8°C). Well-hydrated.
+  
+  Local Examination
+  Erythematous, confluent maculopapular rash involving the buttocks, perineum, and inguinal folds. Skin folds are relatively spared.
+  No satellite lesions or pustules noted.
+  No signs of secondary bacterial infection (no crusting or purulent discharge).
+  
+  Assessment
+  Irritant Diaper Dermatitis.
+  
+  Differential Diagnoses
+  1. Candidal Diaper Dermatitis (usually involves skin folds with satellite lesions)
+  2. Seborrhoeic Dermatitis
+  3. Bacterial Superinfection (e.g., Impetigo)
+  
+  Initial Management Plan
+  
+  Education
+  1. Emphasize the 'ABCDE' approach:
+     - Air: Frequent diaper-free time.
+     - Barrier: Use Zinc Oxide-based barrier creams.
+     - Cleanliness: Gentle cleansing of the diaper area.
+     - Disposable diapers: Change diapers frequently.
+     - Education: Counsel the caregiver on appropriate diaper care and avoidance of irritants.
+  
+  Topical Therapy
+  1. Apply Zinc Oxide 10–40% ointment or Petroleum Jelly at every diaper change to act as a physical barrier.
+  
+  Hygiene
+  1. Use warm water and soft cloth for cleaning.
+  2. Avoid scented wipes or harsh soaps.
+  3. Avoid further application of local herbal preparations.
+  
+  Follow-up
+  Review in 1/52 if no improvement.
+  If signs of infection (pus, spreading redness, or fever) develop, return immediately.
+  
+  Referral
+  Refer to a pediatrician if the rash persists beyond 2 weeks despite conservative management or if it appears infected.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-59',
+    title: 'Candidal Diaper Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Candidal Diaper Dermatitis',
+    symptoms: [
+      'Perianal erythematous rash',
+      'Inguinal fold rash',
+      'Satellite papules and pustules',
+      'Irritability during diaper changes',
+      'Diaper-area pruritus and irritation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '8-month-old male infant presenting with a 5-day history of erythematous diaper-area rash involving the inguinal folds and perineum, with characteristic satellite papules and pustules and associated irritability during diaper changes, consistent with candidal diaper dermatitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  An 8-month-old male infant, residing in Mushin, Lagos State. Informant is the mother (reliable).
+  
+  Presenting Complaints
+  1. Perianal rash × 5/7
+  2. Irritability and crying during diaper changes × 5/7
+  
+  History of Presenting Complaint
+  Mother reports a 5-day history of a red, patchy rash in the diaper area. The rash initially started as mild erythema in the inguinal folds but has progressed to involve the convex surfaces of the buttocks and perineum.
+  
+  The rash is associated with significant irritability, particularly during cleaning and diaper changes.
+  
+  There is no history of fever, diarrhea, or recent antibiotic use. Mother has been applying talcum powder and changing diapers more frequently, with minimal improvement.
+  
+  Past Medical History
+  No known chronic illnesses.
+  Birth history: Term, SVD, no NICU admission.
+  Immunization: Up to date for age.
+  
+  Drug History
+  No regular medications.
+  No recent systemic antibiotics.
+  
+  Social History
+  Lives with parents in a well-ventilated apartment.
+  Uses disposable diapers; changed 4–5 times daily.
+  
+  Physical Examination
+  
+  General Examination
+  Alert, irritable infant. Not pale, not febrile (Temp: 36.8°C). Hydration status: Good.
+  
+  Local Examination (Diaper Area)
+  Bright erythematous plaques noted over the perianal region and inguinal folds.
+  Presence of 'satellite' papules and pustules extending beyond the primary erythematous area.
+  Skin integrity intact, with no frank ulceration or secondary bacterial infection (no honey-colored crusts).
+  
+  Assessment
+  Candidal Diaper Dermatitis.
+  
+  Differential Diagnoses
+  1. Irritant Contact Dermatitis (usually spares the skin folds)
+  2. Seborrhoeic Dermatitis
+  3. Bacterial (Staphylococcal) Superinfection
+  
+  Initial Management Plan
+  
+  General Measures – The 'ABCDE' of Diaper Rash
+  1. Air: Encourage 'nappy-free' time for 15–20 minutes several times a day.
+  2. Barrier: Apply a thick layer of Zinc Oxide-based barrier cream at every diaper change.
+  3. Clean: Use warm water and soft cloth/cotton wool; avoid scented wipes.
+  4. Disposable: Ensure frequent diaper changes (every 2–3 hours or immediately after soiling).
+  5. Education: Counsel mother on proper hygiene.
+  
+  Pharmacotherapy
+  1. Topical Clotrimazole 1% cream: Apply thinly to affected areas twice daily for 7 days.
+  2. Alternative: Nystatin ointment if Clotrimazole is unavailable.
+  3. Avoid potent topical corticosteroids (e.g., Betamethasone), as they can worsen fungal infections and cause skin atrophy.
+  
+  Follow-up
+  Review in 1/52. If no improvement or if signs of bacterial infection (pus, spreading redness, fever) develop, return immediately.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-58',
+    title: 'Irritant Contact Diaper Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Irritant Contact Diaper Dermatitis',
+    symptoms: [
+      'Diaper-area erythematous rash',
+      'Confluent buttock and perineal rash',
+      'Excessive crying during diaper changes',
+      'Pain during micturition',
+      'Sparing of inguinal folds'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '10-month-old male infant presenting with a 4-day history of progressively worsening confluent erythematous plaques over the buttocks, perineum, and lower abdomen, associated with crying during diaper changes and micturition following a recent change in diaper brand, with sparing of the inguinal folds and no satellite lesions, consistent with irritant contact diaper dermatitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Age: 10 months
+  Sex: Male
+  Address: Garki, Abuja
+  Tribe: Yoruba/Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Redness in the diaper area × 4/7
+  2. Excessive crying during diaper changes and micturition × 2/7
+  
+  History of Presenting Complaint
+  The infant was apparently well until 4 days ago when the mother noticed redness involving the buttocks and the lower part of the abdomen. The rash has progressively become more intense and confluent over the last 48 hours.
+  
+  There is no history of rash in the skin folds (inguinal creases). No history of satellite lesions (small red spots away from the main rash). There is no history of fever, diarrhea, or use of recent antibiotics.
+  
+  The mother reported switching to a different brand of disposable diapers a week ago. No history of similar rashes on the face, trunk, or limbs. No history of associated cough or fast breathing.
+  
+  Past Medical History
+  No previous history of hospital admissions or blood transfusions. No known history of atopy (asthma, allergic rhinitis).
+  
+  Birth History
+  Antenatal, natal, and postnatal periods were uneventful. Delivered via SVD at term in a General Hospital. Birth weight was 3.4 kg.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Currently on family mashed foods and continued breastfeeding.
+  
+  Immunization History
+  Up to date for age according to the National Programme on Immunization (NPI). BCG scar is present on the left deltoid.
+  
+  Developmental History
+  Attained age-appropriate milestones. Currently pulling to stand and says "mama/dada" non-specifically.
+  
+  Family and Social History
+  The child is the second of two children in a monogamous family setting. Parents are both civil servants. They live in a 3-bedroom flat with a functional water system and proper refuse disposal.
+  
+  Physical Examination
+  
+  General Examination
+  The infant is active, not acutely ill, and not in any obvious respiratory or painful distress.
+  Acyanotic, anicteric, no digital clubbing.
+  Hydration is fair. No significant peripheral lymphadenopathy.
+  
+  Anthropometry
+  Weight: 9.2 kg
+  Length: 74 cm
+  MUAC: 14.8 cm
+  OFC: 45.5 cm
+  
+  Skin Examination
+  There are confluent, shiny, erythematous plaques on the convex surfaces of the buttocks, perineum, and lower abdomen.
+  The inguinal creases and skin folds are notably spared.
+  There are no satellite papules, pustules, or vesicles.
+  No evidence of maceration or secondary bacterial infection (no honey-colored crusting).
+  
+  Systemic Examination
+  RS: RR 32 cpm. Trachea central. Breath sounds are vesicular. No added sounds.
+  
+  CVS: PR 110 bpm, regular, good volume. S1 S2 heard. No murmurs.
+  
+  Abdomen: Flat, soft. No organomegaly. Bowel sounds present.
+  
+  CNS: Conscious and alert. Normal muscle tone and reflexes in all limbs.
+  
+  Assessment
+  Irritant Contact Dermatitis (Diaper Dermatitis).
+  
+  Differential Diagnoses
+  1. Candidal Diaper Dermatitis (Less likely due to sparing of skin folds and absence of satellite lesions)
+  2. Seborrhoeic Dermatitis (Less likely as no involvement of scalp/cradle cap or axilla)
+  3. Atopic Dermatitis
+  
+  Initial Investigation Plan
+  Diagnosis is primarily clinical.
+  1. Skin scraping for microscopy and culture (if candidiasis is suspected or if unresponsive to initial therapy).
+  2. FBC (to rule out systemic infection if child becomes febrile).
+  
+  Initial Management Plan
+  
+  A. Non-Pharmacological (Hygiene and Prevention)
+  1. Education on frequent diaper changes (every 2–3 hours or immediately after soiling).
+  2. Diaper-free periods: Allow the skin to air-dry for at least 15–30 minutes several times a day.
+  3. Cleansing: Use lukewarm water and soft cotton wool/cloth. Avoid scented baby wipes or those containing alcohol.
+  4. Use of super-absorbent disposable diapers.
+  
+  B. Pharmacological (Topical Therapy)
+  1. Barrier Creams: Apply a thick layer of Zinc Oxide paste or White Petrolatum Jelly (Vaseline) at every diaper change to prevent contact between skin and excreta. Do not vigorously rub off the paste during every change.
+  2. Anti-inflammatory: Low-potency topical corticosteroid (e.g., 1% Hydrocortisone cream) applied twice daily for a short duration (3–5 days) if inflammation is severe.
+  3. If secondary fungal infection is suspected later: Topical antifungal (e.g., Clotrimazole or Nystatin cream) applied three times daily.
+  
+  C. Follow-up
+  Review in 1 week to assess response to treatment. Advise mother to return sooner if there is fever, pus, or if the rash spreads despite treatment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-57',
+    title: 'Irritant Contact Diaper Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Irritant Contact Diaper Dermatitis',
+    symptoms: [
+      'Diaper-area erythematous rash',
+      'Buttock and genital rash',
+      'Excessive crying during diaper changes',
+      'Diaper-area irritation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '6-month-old male infant with a 4-day history of erythematous confluent rash over the convex surfaces of the buttocks and genitalia following a recent change in diaper brand, with relative sparing of the inguinal folds and no satellite lesions, consistent with mild irritant contact diaper dermatitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  A 6-month-old male infant, residing in Mushin, Lagos State. Brought by mother.
+  
+  Presenting Complaints
+  1. Redness and rashes in the diaper area × 4/7
+  2. Excessive crying during diaper changes
+  
+  History of Presenting Complaint
+  Mother reports a 4-day history of erythematous rash localized to the convex surfaces of the buttocks, inguinal folds, and genitalia. The rash is associated with increased irritability, particularly during cleaning and diaper changes.
+  
+  No history of fever, diarrhea, or vomiting. No known food allergies. Mother recently switched to a new brand of disposable diapers 5 days ago. No prior topical treatments applied.
+  
+  Past Medical History
+  No known chronic illnesses.
+  Birth history: Term, SVD, no complications.
+  Immunization: Up to date for age.
+  
+  Drug History
+  No regular medications.
+  No history of recent antibiotic use.
+  
+  Family History
+  No family history of atopic dermatitis or psoriasis.
+  
+  Social History
+  Lives with parents in a well-ventilated apartment.
+  Uses disposable diapers; changed 4–6 times daily.
+  
+  Review of Systems
+  GIT: Normal stooling pattern, no diarrhea.
+  CNS: Irritable, but consolable.
+  Skin: Rash limited to diaper area.
+  
+  Physical Examination
+  
+  General Examination
+  Alert, mildly irritable, not pale, not febrile (Temp: 36.8°C). Hydration status: Good.
+  
+  Vital Signs
+  PR: 120 bpm.
+  RR: 32 cpm.
+  SpO₂: 99% on room air.
+  
+  Skin Examination
+  Erythematous, confluent macules and patches involving the convex surfaces of the buttocks and genitalia. The inguinal folds are relatively spared.
+  No satellite lesions or pustules noted.
+  
+  Assessment
+  Irritant Contact Diaper Dermatitis (Mild).
+  
+  Differential Diagnoses
+  1. Candidal Diaper Dermatitis (usually involves skin folds)
+  2. Seborrhoeic Dermatitis
+  3. Atopic Dermatitis
+  
+  Initial Management Plan
+  
+  Education/Counseling
+  1. Advise on 'diaper-free' time (air exposure) for 15–20 minutes several times daily.
+  
+  Hygiene
+  1. Frequent diaper changes (every 2–3 hours or immediately after soiling).
+  2. Use warm water and soft cloth for cleaning.
+  3. Avoid scented wipes.
+  
+  Barrier Protection
+  1. Apply a thick layer of Zinc Oxide-based barrier cream (e.g., Sudocrem or generic Zinc Oxide ointment) at every diaper change.
+  
+  Pharmacotherapy
+  1. If inflammation is significant, apply Hydrocortisone 1% cream (low potency) sparingly twice daily for no more than 5–7 days. Avoid high-potency steroids.
+  
+  Follow-up
+  Review in 1 week. If no improvement or if satellite lesions appear (suggesting secondary Candidal infection), consider topical Clotrimazole cream.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-56',
+    title: 'Atopic Dermatitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Atopic Dermatitis',
+    symptoms: [
+      'Recurrent pruritic skin rash',
+      'Erythematous dry scaly patches',
+      'Facial rash',
+      'Flexural rash',
+      'Excoriations from scratching'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '14-month-old male infant with a 6-month history of recurrent intensely pruritic erythematous dry scaly lesions initially involving the cheeks and extensor limbs, later involving the antecubital and popliteal fossae, with heat-related exacerbation and excoriations, consistent with mild to moderate atopic dermatitis.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  A 14-month-old male infant, residing in Ikeja, Lagos State, brought by his mother.
+  
+  Presenting Complaint
+  Recurrent pruritic skin rashes × 6/12.
+  
+  History of Presenting Complaint
+  Mother reports a 6-month history of recurrent, intensely pruritic, erythematous skin lesions. The rash initially appeared on the cheeks and extensor surfaces of the limbs, later spreading to the flexural areas (antecubital and popliteal fossae).
+  
+  The lesions are exacerbated by heat and sweating. Mother notes the child frequently rubs against surfaces to relieve itching, leading to excoriations and occasional secondary crusting.
+  
+  No history of wheezing or sneezing. No known food triggers identified by the mother. Previous use of topical Hydrocortisone 1% provided transient relief.
+  
+  Past Medical History
+  No known chronic illnesses.
+  No history of hospital admissions.
+  Immunization: Up to date for age.
+  
+  Drug History
+  Topical Hydrocortisone 1% (intermittent use).
+  No known drug allergies.
+  
+  Family History
+  Mother has a history of allergic rhinitis.
+  No family history of asthma or eczema.
+  
+  Social History
+  Lives in a well-ventilated home. Uses mild, fragrance-free soap.
+  
+  Review of Systems
+  GIT: Normal bowel habits.
+  Respiratory: No cough or difficulty breathing.
+  CNS: Irritable due to pruritus, otherwise normal.
+  
+  Physical Examination
+  
+  General Examination
+  Child is alert, not pale, not febrile. Well-hydrated.
+  
+  Vital Signs
+  Temp: 36.7°C.
+  PR: 110 bpm.
+  RR: 26 cpm.
+  
+  Skin Examination
+  Erythematous, dry, scaly patches noted on the cheeks, antecubital fossae, and popliteal fossae.
+  Excoriation marks present.
+  No signs of secondary bacterial infection (no pus or honey-colored crusts).
+  
+  Systemic Examination
+  CVS: NAD.
+  RS: NAD.
+  Abdomen: NAD.
+  
+  Assessment
+  Atopic Dermatitis (Mild to Moderate).
+  
+  Differential Diagnoses
+  1. Seborrhoeic Dermatitis
+  2. Scabies
+  3. Contact Dermatitis
+  
+  Initial Investigation Plan
+  Clinical diagnosis. No routine investigations required unless secondary infection is suspected (skin swab for M/C/S).
+  
+  Initial Management Plan
+  
+  Education
+  1. Explain the chronic, relapsing nature of the condition to the caregiver.
+  
+  Skin Care (Emollients)
+  1. Apply bland, fragrance-free emollients (e.g., white soft paraffin or aqueous cream) at least 3–4 times daily, especially immediately after bathing.
+  
+  Topical Corticosteroids
+  1. For active flares: Hydrocortisone 1% cream applied thinly to affected areas twice daily for 5–7 days. Avoid prolonged use on the face.
+  
+  Pruritus Control
+  1. Oral Chlorpheniramine syrup (2 mg) at night if itching interferes with sleep.
+  
+  Avoidance
+  1. Identify and avoid triggers such as excessive heat, harsh soaps, and synthetic fabrics.
+  
+  Follow-up
+  Review in 2 weeks to assess response.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-55',
+    title: 'Seborrhoeic Dermatitis (Cradle Cap)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Infantile Seborrhoeic Dermatitis',
+    symptoms: [
+      'Scaly scalp rash',
+      'Greasy yellowish scalp scales',
+      'Mild scalp pruritus',
+      'Adherent scalp scales'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '4-month-old male infant presenting with 3 weeks of yellowish, greasy, adherent scalp scales with mild pruritus and no systemic symptoms, consistent with mild infantile seborrhoeic dermatitis (cradle cap).',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  A 4-month-old male infant, brought by his mother, a resident of Ikeja, Lagos State.
+  
+  Presenting Complaints
+  1. Scaly, greasy patches on the scalp × 3/52
+  2. Associated with mild pruritus
+  
+  History of Presenting Complaint
+  Mother reports the onset of yellowish, greasy, adherent scales on the infant's scalp approximately 3 weeks ago. The lesions initially started at the vertex and have gradually spread to involve the frontal and parietal regions.
+  
+  There is no history of fever, poor feeding, or failure to thrive. The infant is otherwise active and meeting developmental milestones.
+  
+  No history of similar rashes elsewhere, though mother notes occasional mild redness in the flexural areas. No prior topical treatments applied.
+  
+  Past Medical History
+  Unremarkable. No history of atopic dermatitis or recurrent infections.
+  Birth history: Term, SVD, no neonatal complications.
+  
+  Drug History
+  Nil. No OTC creams or oils applied to the scalp.
+  
+  Family History
+  No family history of psoriasis or severe atopic disease.
+  
+  Social History
+  Lives with parents in a clean environment. Exclusively breastfed.
+  
+  Review of Systems
+  CNS: Alert, active, no irritability.
+  GIT: Normal bowel habits.
+  Skin: No other rashes noted on the trunk or extremities.
+  
+  Physical Examination
+  
+  General Examination
+  Well-nourished, non-toxic infant. Not pale, not jaundiced, no peripheral lymphadenopathy.
+  
+  Vital Signs
+  Temp: 36.8°C.
+  PR: 120 bpm.
+  RR: 32 cpm.
+  SpO₂: 99% on room air.
+  
+  Dermatological Examination
+  Yellowish, greasy, adherent scales (cradle cap) noted over the scalp.
+  No evidence of secondary bacterial infection (no crusting, pus, or erythema).
+  No involvement of the eyebrows or nasolabial folds.
+  
+  Assessment
+  Seborrhoeic Dermatitis (Cradle Cap), mild.
+  
+  Differential Diagnoses
+  1. Atopic Dermatitis
+  2. Tinea Capitis (less likely given age and appearance)
+  3. Psoriasis (infantile)
+  
+  Initial Investigation Plan
+  Clinical diagnosis. No investigations required unless lesions become refractory or secondary infection is suspected.
+  
+  Initial Management Plan
+  
+  Education
+  1. Reassure mother that this is a benign, self-limiting condition.
+  
+  Conservative Management
+  1. Apply warm mineral oil or baby oil to the scalp to soften scales for 15–20 minutes before bathing.
+  2. Gently brush the scalp with a soft-bristled brush to remove loosened scales.
+  3. Wash the scalp with a mild, fragrance-free baby shampoo.
+  
+  Pharmacological Management (if conservative measures fail)
+  1. Ketoconazole 2% shampoo: Apply twice weekly, leave for 3–5 minutes, then rinse thoroughly. Avoid contact with eyes.
+  2. Hydrocortisone 1% cream: Apply sparingly to inflamed areas once daily for a maximum of 5–7 days if significant inflammation persists.
+  
+  Follow-up
+  Review in 2/52 to assess response. Refer to a dermatologist if the rash spreads to the body or fails to respond to treatment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-54',
+    title: 'Miliaria Rubra (Heat Rash)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatrics',
+    condition: 'Miliaria Rubra',
+    symptoms: [
+      'Pruritic skin rash',
+      'Erythematous papules',
+      'Small vesicles',
+      'Neck fold rash',
+      'Heat- and sweating-related skin eruption'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '8-month-old male infant presenting with a 5-day history of itchy erythematous papules and vesicles over the neck folds, upper chest, and back following increased ambient temperature and excessive sweating, consistent with miliaria rubra.',
+    content: `PAEDIATRIC CLINIC
+  
+  Patient Identification
+  An 8-month-old male infant residing in Surulere, Lagos State. Informant is the mother, who is reliable.
+  
+  Presenting Complaint
+  Skin rash × 5/7.
+  
+  History of Presenting Complaint
+  Mother reports a 5-day history of multiple small, itchy, erythematous papules over the neck, upper chest, and back.
+  
+  The rash appeared following a period of increased ambient temperature and excessive sweating.
+  
+  There is no history of fever, cough, or diarrhea. No associated lethargy or poor feeding.
+  
+  Mother has been applying local herbal concoctions, which she reports has caused some irritation. No prior use of topical steroids or antihistamines.
+  
+  Past Medical History
+  No known chronic illnesses.
+  No history of atopic dermatitis or asthma.
+  Immunization: Up to date for age.
+  
+  Drug History
+  No regular medications.
+  No known drug allergies.
+  
+  Social History
+  Lives in a well-ventilated apartment.
+  Uses cotton clothing for the infant.
+  
+  Review of Systems
+  Systemic review unremarkable. No constitutional symptoms.
+  
+  Physical Examination
+  
+  General Examination
+  Alert, active, and well-hydrated infant. Not pale, not jaundiced, no pedal edema.
+  
+  Vital Signs
+  Temp: 36.8°C.
+  PR: 120 bpm.
+  RR: 32 cpm.
+  SpO₂: 99% on room air.
+  
+  Skin Examination
+  Multiple 1–2 mm erythematous papules and vesicles localized to the neck folds, upper chest, and interscapular region.
+  
+  No signs of secondary bacterial infection (no pus, crusting, or cellulitis).
+  
+  Systemic Examination
+  CVS: S1 + S2 normal.
+  RS: Clear.
+  Abdomen: Soft, non-tender, no organomegaly.
+  
+  Assessment
+  Miliaria Rubra (Heat Rash).
+  
+  Differential Diagnoses
+  1. Atopic Dermatitis
+  2. Folliculitis
+  3. Contact Dermatitis
+  
+  Initial Management Plan
+  
+  Education/Non-pharmacological
+  1. Keep the infant in a cool, well-ventilated environment.
+  2. Use lightweight, loose-fitting cotton clothing.
+  3. Frequent tepid sponge baths to keep the skin cool and dry.
+  4. Avoid heavy creams, oils, or local herbal concoctions that occlude sweat ducts.
+  
+  Pharmacological
+  1. Calamine lotion (topical) applied thinly to affected areas twice daily for symptomatic relief of pruritus.
+  2. If pruritus is severe and interfering with sleep: Oral Chlorpheniramine (syrup) 0.1 mg/kg/dose 8-hourly (as per NSTG for symptomatic relief).
+  
+  Follow-up
+  Return if rash spreads, develops pus, or if the infant develops a fever.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-53',
+    title: 'Erythema Toxicum Neonatorum',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Erythema Toxicum Neonatorum',
+    symptoms: [
+      'Neonatal skin rash',
+      'Erythematous macules',
+      'Yellowish-white papules and pustules',
+      'Truncal and facial rash',
+      'Proximal limb rash'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '3-day-old term male neonate presenting with a generalized erythematous maculopapular and pustular rash involving the trunk, face and proximal limbs with sparing of the palms and soles, consistent with erythema toxicum neonatorum.',
+    content: `PAEDIATRIC/NEONATOLOGY CLINIC
+  
+  Patient Identification
+  Name: Baby Ibrahim
+  Age: 3 days old
+  Sex: Male
+  Religion: Islam
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Informant: Mother (Reliable)
+  
+  Presenting Complaint
+  Skin rash × 1/7
+  
+  History of Presenting Complaint
+  The patient is a 3-day-old neonate who was apparently well until about 24 hours prior to presentation when the mother noticed a rash on the chest and back. The rash appeared as small, yellowish-white bumps on a reddish base. It subsequently spread to the face and the proximal parts of the arms and thighs but spared the palms and soles of the feet.
+  
+  There is no associated fever, excessive crying, or irritability. The baby has been breastfeeding well and is active. No history of similar rashes in the mother or history of maternal vaginal discharge or prolonged rupture of membranes.
+  
+  Past Medical and Birth History
+  Antenatal: Mother is a 26-year-old G2 P1+0. Booked at 14 weeks gestation. Pregnancy was supervised, with no history of febrile illness or skin eruptions during pregnancy. Routine ANC medications taken.
+  
+  Natal: Delivered at term (estimated 39 weeks) via spontaneous vaginal delivery at a Primary Healthcare Centre. Cried immediately at birth. Birth weight was 3.3 kg. No history of neonatal jaundice or respiratory distress.
+  
+  Post-natal: No history of admissions.
+  
+  Dietary History
+  Exclusively breastfed since birth. Feeding is frequent and adequate.
+  
+  Immunization History
+  Received BCG, OPV0, and HBV0 at birth as per NPI schedule. BCG scar not yet visible.
+  
+  Family and Social History
+  Parents live in a well-ventilated room. Second child of a monogamous marriage. No history of atopy in the family.
+  
+  Review of Systems
+  CNS: No convulsions, no high-pitched cry.
+  RS: No cough, no fast breathing.
+  GIT: No vomiting, stools are normal mustard-yellow.
+  
+  Physical Examination
+  
+  General Examination
+  A term neonate, active, pink, not pale, not jaundiced, no signs of dehydration, not in respiratory distress.
+  Afebrile (Temp: 36.8°C).
+  Weight: 3.25 kg.
+  Length: 50 cm.
+  OFC: 34.5 cm.
+  
+  Skin Examination
+  Generalized erythematous macules, 2–3 cm in diameter, with central 1–3 mm pale yellow/white papules and pustules.
+  Lesions are prominent on the trunk, face, and proximal limbs.
+  The palms and soles are completely spared.
+  No honey-colored crusts or signs of secondary infection.
+  
+  Systemic Examination
+  Respiratory: RR 42 cpm. Trachea central. Breath sounds are vesicular and equal bilaterally.
+  
+  Cardiovascular: PR 140 bpm. S1 and S2 heard. No murmurs.
+  
+  Abdomen: Soft, non-tender. Liver and spleen not palpable. Bowel sounds present.
+  
+  Neurologic: Normal neonatal reflexes (Moro, Grasp, Sucking all present). Normal tone.
+  
+  Assessment
+  Erythema Toxicum Neonatorum (ETN) in a 3-day-old term neonate.
+  
+  Differential Diagnoses
+  1. Transient Neonatal Pustular Melanosis (TNPM): Usually present at birth, often involves palms and soles, and leaves hyperpigmented macules.
+  2. Miliaria Rubra (Heat Rash): Usually associated with overheating; lesions are typically smaller and concentrated in skin folds or areas of friction.
+  3. Neonatal Candidiasis: Usually presents with satellite lesions and involves the diaper area or oral mucosa.
+  4. Neonatal Herpes Simplex: Usually presents with grouped vesicles on an erythematous base; infant often appears systemically unwell or "toxic."
+  
+  Initial Investigation Plan
+  Erythema Toxicum Neonatorum is a clinical diagnosis. No specific investigations are usually required unless the diagnosis is in doubt.
+  
+  1. Tzanck smear or pustule scraping (if available): Would show numerous eosinophils and occasional neutrophils. Lack of bacteria on Gram stain or fungal elements on KOH mount.
+  2. Full Blood Count (FBC): May show peripheral eosinophilia in some cases (up to 15%).
+  
+  Initial Management Plan
+  1. Reassurance: Counsel the mother that this is a common, benign, and self-limiting condition. It is not contagious and will resolve spontaneously without scarring.
+  2. Observation: Advise the mother to monitor for signs of systemic illness (fever, poor feeding, or lethargy) or if the rash becomes honey-crusted (suggesting secondary infection).
+  3. Skin Care: Advise against the use of harsh soaps, herbal concoctions, or "spiritual" lotions. Use mild baby soap and lukewarm water for bathing. Avoid over-dressing the baby to prevent heat-related skin irritation.
+  4. Medications:
+  - No specific topical or systemic medications are required for ETN as it resolves within 5–7 days.
+  - Do not use topical steroids or antifungal creams.
+  - If secondary bacterial infection is suspected (rare), a topical antibiotic like Mupirocin or Fusidic acid cream may be applied to affected areas twice daily for 5 days.
+  - For itching (rarely needed in neonates), a mild calamine lotion could be considered, though generally avoided in very young infants.
+  
+  Follow-up
+  Routine postnatal clinic visit. No urgent follow-up needed unless systemic symptoms develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'peds-52',
     title: 'Acute Hemolytic Crisis in G6PD Deficiency',
     specialty: 'Pediatrics',
@@ -15308,6 +17796,344 @@ Not yet available
 
 
   // Internal Medicine
+  
+  {
+    id: 'im-63',
+    title: 'Enterobiasis (Pinworm Infestation)',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Gastroenterology',
+    condition: 'Enterobiasis',
+    symptoms: [
+      'Perianal itching',
+      'Nocturnal pruritus',
+      'Sleep disturbance',
+      'Perianal erythema',
+      'Perianal excoriations'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '24-year-old male student presenting with a 2-week history of intense nocturnal perianal itching, associated with perianal excoriations and reported observation of tiny white thread-like structures in the stool, consistent with suspected Enterobius vermicularis infestation.',
+    content: `INTERNAL MEDICINE CLINIC
+  
+  Patient Identification
+  A 24-year-old male student who resides in Ogbomosho, Oyo State. Yoruba.
+  
+  Presenting Complaint
+  Perianal itching × 2/52.
+  
+  History of Presenting Complaint
+  The patient was apparently well until 2 weeks ago when he developed perianal itching. The itching is described as intense and distressing, significantly worse at night and often interfering with his sleep.
+  
+  There is no associated history of rectal bleeding, protrusion of masses per anum, or perianal discharge. He denies any history of constipation, diarrhea, or tenesmus.
+  
+  He reports noticing tiny, white, thread-like structures in his stool 3 days ago.
+  
+  No history of similar symptoms among his roommates, though they have not been formally screened.
+  
+  Past Medical History
+  Not a known hypertensive or diabetic.
+  No history of chronic skin conditions or allergies.
+  No previous history of similar symptoms.
+  
+  Drug History
+  No recent use of antibiotics or chronic medications.
+  No known drug allergies.
+  
+  Family and Social History
+  He lives in a university hostel with four other students. They share a communal bathroom and toilet.
+  Diet consists mostly of canteen-prepared meals.
+  He denies cigarette smoking or alcohol consumption.
+  
+  Review of Systems
+  GIT: No abdominal pain, no bloating.
+  Respiratory: No cough, no dyspnea.
+  CVS: No palpitations, no chest pain.
+  CNS: No headaches, no seizures.
+  
+  Physical Examination
+  
+  General Examination
+  A young man, not acutely ill, afebrile (36.7°C), not pale, not icteric, not dehydrated. No significant peripheral lymphadenopathy. No pedal edema.
+  
+  Vital Signs
+  Pulse Rate: 78 bpm, regular, normal volume.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 16 cpm.
+  SpO₂: 98% on room air.
+  
+  Abdominal Examination
+  Abdomen is flat, moves with respiration. No areas of tenderness. No significant organomegaly (liver and spleen not palpable). Bowel sounds are present and normal.
+  
+  Perianal Examination
+  Inspection: Mild perianal erythema and linear excoriations (scratch marks) noted. No external hemorrhoids, skin tags, or anal fissures seen. No visible worms or eggs on initial inspection.
+  
+  Digital Rectal Examination (DRE): Normal sphincter tone. Rectal mucosa is smooth. No masses or fluctuance palpated. No blood or mucus on the gloved finger.
+  
+  Assessment
+  Pruritus Ani secondary to suspected Enterobiasis (Pinworm Infestation).
+  
+  Differential Diagnoses
+  1. Enterobius vermicularis infestation
+  2. Perianal candidiasis
+  3. Grade 1 Internal Hemorrhoids
+  4. Contact Dermatitis
+  
+  Initial Investigation Plan
+  1. Scotch Tape Test (Cellophane Tape Test): To be done first thing in the morning before bathing or defecation to identify Enterobius eggs.
+  2. Stool Microscopy: To rule out other helminthic infestations, although sensitivity is low for pinworm infection.
+  3. Full Blood Count (FBC): May be considered if clinically indicated; eosinophilia is not a reliable finding in enterobiasis.
+  
+  Initial Management Plan
+  
+  Pharmacological Options
+  1. Mebendazole 100 mg orally as a single dose, repeated after 2 weeks.
+  2. Alternative: Albendazole 400 mg orally as a single dose, repeated after 2 weeks.
+  3. Alternative: Pyrantel Pamoate 11 mg/kg (maximum 1 g) orally as a single dose, repeated after 2 weeks.
+  4. Symptomatic relief: Topical Zinc Oxide ointment may be applied to the perianal area for symptomatic relief. A short course of low-potency Hydrocortisone 1% cream may be considered for significant inflammatory pruritus.
+  
+  Non-Pharmacological/Hygiene Measures
+  1. Treat household members and other close contacts simultaneously when indicated to reduce reinfection and ongoing transmission.
+  2. Educate on strict hand hygiene, especially after using the toilet and before eating or handling food.
+  3. Trim fingernails short and clean underneath the nails regularly.
+  4. Encourage morning bathing to remove eggs deposited around the perianal area overnight.
+  5. Launder bed linens, towels, and underwear regularly using hot water where feasible.
+  6. Avoid scratching the perianal area to reduce excoriation and secondary bacterial infection.
+  
+  Follow-up
+  Review after 2 weeks to assess response and ensure the second dose of anthelmintic therapy is taken.
+  Return earlier if symptoms worsen or if perianal discharge, significant pain, bleeding, or signs of secondary infection develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-62',
+    title: 'Seborrheic Dermatitis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Dermatology',
+    condition: 'Seborrheic Dermatitis',
+    symptoms: [
+      'Scalp itching',
+      'Greasy scalp scaling and dandruff',
+      'Facial redness and scaling',
+      'Nasolabial fold involvement',
+      'Stress-related flares'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '32-year-old male commercial driver with 3 months of pruritic greasy scalp scaling and 1 month of erythematous, greasy scaly facial lesions involving the glabella, eyebrows, nasolabial folds and presternal area, consistent with seborrheic dermatitis.',
+    content: `DERMATOLOGY CLINIC
+  
+  Patient Identification
+  A 32-year-old male commercial driver who resides in Surulere, Lagos State. He is of the Igbo ethnic group.
+  
+  Presenting Complaints
+  1. Scalp itching and dandruff × 3/12
+  2. Redness and scaling on the face × 1/12
+  
+  History of Presenting Complaint
+  He was apparently well until 3 months ago when he noticed progressively worsening scaling of the scalp associated with intense itching, especially when sweating. He initially managed this as "severe dandruff" using various over-the-counter medicated soaps with no relief.
+  
+  One month prior to presentation, he developed similar reddish, scaly patches on his forehead, eyebrows, and the creases around his nose. The lesions are occasionally greasy to touch.
+  
+  There is no history of similar rashes on the elbows, knees, or lower back. No history of hair loss, joint pains, or nail changes. He reports that the condition seems to flare up during periods of high stress.
+  
+  Past Medical History
+  No known history of asthma, hay fever, or chronic skin conditions. No history of HIV or other immunosuppressive illnesses. No history of tremors or neurological disorders.
+  
+  Drug History
+  No recent use of systemic medications. No known drug allergies.
+  
+  Family History
+  No family history of psoriasis or atopy.
+  
+  Social History
+  He is a non-smoker. Consumes alcohol occasionally. Occupational history involves long hours of driving in a hot, humid environment.
+  
+  Review of Systems
+  CNS: No tremors, no loss of sensation.
+  RS: No cough or breathlessness.
+  GIT: No abdominal pain, normal bowel habits.
+  MSS: No joint swelling or morning stiffness.
+  
+  Physical Examination
+  
+  General Examination
+  An adult male, not in any obvious distress.
+  Afebrile (T: 36.7°C).
+  Not pale, anicteric, acyanosed. No peripheral lymphadenopathy. No pedal edema.
+  
+  Vital Signs
+  PR: 72 bpm, regular, normal volume.
+  BP: 124/82 mmHg.
+  RR: 16 cpm.
+  SpO₂: 98% on room air.
+  
+  Skin Examination (Local)
+  Scalp: Diffuse, greasy, yellowish scales on an erythematous base. Hair distribution is normal; no cicatricial alopecia.
+  
+  Face: Erythematous plaques with fine, yellowish, "oily" scales involving the glabella, eyebrows, and bilateral nasolabial folds.
+  
+  Chest: Mildly erythematous patches over the pre-sternal area.
+  
+  Nails: Normal appearance; no pitting, onycholysis, or oil spots.
+  
+  Joints: No swelling or tenderness noted.
+  
+  Assessment
+  Seborrheic Dermatitis.
+  
+  Differential Diagnoses
+  1. Plaque Psoriasis (Scalp Psoriasis)
+  2. Atopic Dermatitis (Adult phase)
+  3. Tinea Capitis/Corporis
+  4. Rosacea (Erythematotelangiectatic type)
+  
+  Initial Investigation Plan
+  1. Clinical diagnosis (usually sufficient).
+  2. KOH mount of skin scrapings to rule out Tinea.
+  3. HIV screening (Retroviral Screening) - Recommended due to the extensive nature of the presentation.
+  4. Fasting Blood Sugar (to rule out underlying DM if skin infections are recurrent).
+  
+  Initial Management Plan
+  
+  General Measures
+  1. Reassure the patient and explain the chronic, relapsing nature of the condition.
+  2. Counsel on hygiene; advise regular washing of the scalp and face.
+  3. Advise avoidance of thick, oil-based hair pomades which may worsen the condition.
+  
+  Pharmacological Management (Scalp)
+  1. Antifungal Shampoo: Ketoconazole 2% shampoo. Apply to scalp, lather, and leave for 5–10 minutes before rinsing. Use 2–3 times weekly for 4 weeks, then once weekly for maintenance.
+  2. Alternative: Selenium sulfide (Selsun Blue) or Zinc pyrithione shampoos.
+  
+  Pharmacological Management (Face and Body)
+  1. Topical Antifungal: Ketoconazole 2% cream applied twice daily to affected facial and chest areas for 2–4 weeks.
+  2. Mild Topical Steroid: Hydrocortisone 1% cream applied twice daily for a maximum of 7 days to reduce acute inflammation/erythema.
+  3. Topical Calcineurin Inhibitors (Second-line): Pimecrolimus 1% cream or Tacrolimus 0.03% ointment for sensitive areas if steroid-sparing agents are needed for longer durations.
+  
+  Follow-up
+  Review in 2 weeks to monitor progress and adjust therapy if necessary.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-61',
+    title: 'Plaque Psoriasis with Psoriatic Arthritis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Rheumatology',
+    condition: 'Psoriasis and Psoriatic Arthritis',
+    symptoms: [
+      'Recurrent scaly skin rashes',
+      'Generalized skin itching',
+      'Pain and swelling of finger joints',
+      'Morning joint stiffness',
+      'Nail pitting and onycholysis'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-08-27',
+    summary: '24-year-old woman with recurrent erythematous scaly plaques involving the extensor surfaces, scalp and lumbosacral region, associated with pruritus, nail pitting and onycholysis, and inflammatory DIP joint arthritis, consistent with plaque psoriasis with psoriatic arthritis.',
+    content: `DERMATOLOGY/RHEUMATOLOGY CLINIC
+  
+  Patient Identification
+  A 24-year-old female fashion designer apprentice who resides in Ikeja, Lagos State. She is of the Yoruba ethnic group and is a Christian.
+  
+  Presenting Complaints
+  1. Recurrent scaly skin rashes × 5/12
+  2. Generalized skin itching × 5/12
+  3. Pain and swelling of the finger joints × 1/12
+  
+  History of Presenting Complaint
+  She was apparently well until 5 months ago when she noticed small, red, elevated spots on her elbows and knees. These spots gradually increased in size and merged to form larger patches. The patches are covered with thick, silvery-white scales that flake off easily. She reports that when the scales are forcefully removed, there is pinpoint bleeding from the underlying skin. The rashes are associated with intense itching, which is worse at night and during hot weather.
+  
+  Over the last 2 months, she noticed similar rashes appearing on her scalp and lower back. There are no fluid-filled blisters or mouth sores. She has tried several over-the-counter herbal creams and topical triple-action creams with minimal relief.
+  
+  About 1 month ago, she started experiencing pain and stiffness in the small joints of her hands, particularly the distal fingers. The stiffness is most severe in the morning, lasting about 45 minutes, and improves with activity. There is no history of preceding sore throat, urogenital infections, or prolonged fever.
+  
+  Past Medical History
+  Known to have similar skin flares since late adolescence, often triggered by periods of emotional stress. No known history of Hypertension, Diabetes Mellitus, or Asthma. No previous hospital admissions or blood transfusions.
+  
+  Drug History
+  Currently uses various over-the-counter corticosteroid creams (names not known). Uses Ibuprofen occasionally for joint pain. No known drug allergies.
+  
+  Family and Social History
+  Mother has a history of chronic scaly skin lesions on the shins. Patient is the second of four children in a monogamous setting. She does not smoke or drink alcohol. She reports significant distress and social withdrawal due to the cosmetic appearance of the skin lesions.
+  
+  Review of Systems
+  CNS: No headaches, no seizures.
+  RS: No cough, no chest pain.
+  CVS: No palpitations, no orthopnea.
+  GIT: No abdominal pain, no change in bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  A young lady, not acutely ill, in no obvious respiratory or painful distress.
+  Acyanotic, anicteric, not pale, no significant lymphadenopathy. No pedal edema.
+  
+  Vital Signs
+  Pulse Rate: 82 bpm, regular, normal volume.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 18 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  Skin Examination
+  Multiple, well-demarcated erythematous plaques of varying sizes (3 cm to 8 cm) located on the extensor surfaces of the elbows, knees, and the lumbosacral region.
+  Plaques are covered with thick, silvery-white micaceous scales.
+  Positive Auspitz sign (pinpoint bleeding on scraping of scales).
+  The scalp shows confluent scaling along the hairline.
+  
+  Nail Examination
+  Presence of fine pitting on the fingernail plates.
+  Onycholysis (separation of the nail from the nail bed) noted on the right index finger.
+  
+  Musculoskeletal System
+  Swelling and tenderness over the distal interphalangeal (DIP) joints of both hands.
+  Reduced grip strength bilaterally.
+  No spinal tenderness or reduced range of motion in the large joints.
+  
+  Assessment
+  Plaque Psoriasis with Psoriatic Arthritis.
+  
+  Differential Diagnoses
+  1. Seborrheic Dermatitis (especially for scalp involvement)
+  2. Discoid Lupus Erythematosus
+  3. Nummular Eczema
+  4. Chronic Plaque Pityriasis Rosea
+  
+  Initial Investigation Plan
+  1. Skin biopsy for histopathology (to confirm diagnosis if clinical doubt persists).
+  2. Full Blood Count (FBC) and ESR/CRP (markers of systemic inflammation).
+  3. Rheumatoid Factor (to rule out Rheumatoid Arthritis; usually negative in psoriasis).
+  4. X-ray of both hands (to check for joint erosions or "pencil-in-cup" deformity).
+  5. Fasting Blood Sugar (to screen for metabolic syndrome, often associated with psoriasis).
+  
+  Initial Management Plan
+  1. Patient education on the chronic nature of the condition and identification of triggers (stress, skin trauma).
+  2. Apply liberal emollients (e.g., white soft paraffin or liquid paraffin) to the skin twice daily to maintain hydration.
+  3. Topical corticosteroids (e.g., Mometasone or Betamethasone ointment) to be applied to plaques once daily for 2 weeks, then tapered.
+  4. Salicylic acid 5% ointment for the scalp to help de-scale.
+  5. Tab. Naproxen 250 mg or 500 mg twice daily for joint pain.
+  6. Referral to a Dermatologist for consideration of phototherapy or systemic therapy (e.g., Methotrexate) if symptoms do not improve.
+  7. Referral to a Rheumatologist for further evaluation of the inflammatory arthritis.
+  8. Follow up in 2 weeks to review response to therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'im-60',
     title: 'Disseminated Blastomycosis',
@@ -31257,6 +34083,169 @@ Not yet available
 
 // General Outpatient
 {
+  id: 'gopd-60',
+  title: 'Chronic Generalized Gingivitis with Dental Caries',
+  specialty: 'General Outpatient',
+  subSpecialty: 'Dental / Oral Health',
+  condition: 'Chronic Generalized Gingivitis with Dental Caries',
+  symptoms: [
+    'Halitosis',
+    'Bleeding gums',
+    'Toothache',
+    'Dental plaque and calculus',
+    'Tenderness of tooth #47',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '24-year-old man with 6-month history of persistent halitosis and 3-month history of bleeding gums, with poor oral hygiene, generalized plaque and calculus, gingival inflammation, and a carious right lower second molar with acute apical periodontitis.',
+  content: `
+GENERAL OUTPATIENT DEPARTMENT
+
+Patient Seen
+
+A 24-year-old Yoruba male student, resident of Yaba, Lagos State.
+
+PC:
+Foul-smelling breath (halitosis) × 6 months
+Bleeding gums × 3 months
+
+HPC:
+Patient presents with a 6-month history of persistent bad breath (halitosis), which was first pointed out by his roommates. The bad breath is worse in the mornings but persists throughout the day despite frequent use of commercial mouthwashes.
+
+There is an associated history of bleeding gums of 3 months' duration, which occurs primarily during toothbrushing.
+
+He also reports a localized, dull, aching pain in the right lower back tooth of 1 month's duration, aggravated by cold drinks and sweet foods, but relieved by over-the-counter analgesics.
+
+No history of chronic cough, purulent nasal discharge, post-nasal drip, or facial pain.
+
+No history of heartburn, acid regurgitation, or abdominal bloating.
+
+No history of excessive thirst, frequent urination, or unexplained weight loss.
+
+No history of spontaneous bleeding from the gums or other systemic bleeding tendencies.
+
+Prior to Presentation:
+Patient has been self-medicating with various commercial cosmetic mouthwashes and herbal preparations with no significant improvement.
+
+He also took a 5-day course of oral Amoxicillin purchased from a local chemist last month, with no relief.
+
+Past Medical History:
+No known chronic medical conditions (Hypertension, Diabetes Mellitus, Asthma).
+No history of bleeding disorders or prolonged bleeding after minor cuts.
+No previous hospital admissions, surgeries, or blood transfusions.
+No known drug allergies.
+
+Drug History:
+Self-medicated with Tab Amoxicillin 500 mg TDS × 5 days one month ago.
+Occasional Tab Paracetamol 1 g PRN for toothache.
+
+Family and Social History:
+Single, lives in a shared student hostel in Yaba.
+Non-smoker.
+Occasional social consumer of alcohol (1–2 bottles of beer per week).
+
+Poor oral hygiene habits:
+- Brushes once daily, mornings only, with a medium-bristle toothbrush.
+- Does not use dental floss.
+- Last dental visit was over 5 years ago.
+- Diet is high in refined carbohydrates, including fast foods and soft drinks.
+
+Review of Systems:
+
+CNS:
+No headache, no fever, no sensory or motor deficits.
+
+ENT/RS:
+No nasal blockage, no epistaxis, no chronic cough.
+
+CVS:
+No chest pain, no palpitations, no orthopnoea.
+
+GIT:
+No dysphagia, no dyspepsia, no altered bowel habits.
+
+MSS:
+No joint pain or swelling.
+
+O/E:
+Young man, comfortable, not acutely ill, not pale, anicteric, acyanosed, hydrated, no significant peripheral lymphadenopathy, no pedal oedema.
+
+Vitals:
+Temp: 36.6°C
+PR: 74 bpm, regular, normal volume
+RR: 16 cpm
+BP: 115/75 mmHg
+SpO₂: 99% on room air
+
+Local/Oral Examination:
+Obvious fetor oris (halitosis) detected during examination.
+
+Generalized heavy accumulation of dental plaque and supragingival calculus, particularly on the lingual surfaces of the lower anterior teeth.
+
+Marginal gingivae are erythematous, oedematous, and bleed easily on gentle probing.
+
+Deep carious lesion noted on the occlusal surface of the right lower second molar (#47). The tooth is tender to vertical percussion.
+
+No associated fluctuant swelling, sinus tract, or facial asymmetry.
+
+Systemic Examination:
+
+RS:
+Trachea central.
+Chest clear.
+Vesicular breath sounds bilaterally.
+
+CVS:
+S1 S2 heard.
+No murmurs.
+
+GIT:
+Abdomen soft, non-tender.
+No organomegaly.
+
+CNS:
+Alert and oriented.
+No focal neurological deficits.
+
+ASSESSMENT:
+Chronic generalized marginal gingivitis secondary to poor oral hygiene, complicated by dental caries (#47) with acute apical periodontitis.
+
+DIFFERENTIAL DIAGNOSES:
+1. Chronic periodontitis (mild to moderate).
+2. Gastroesophageal reflux disease (GERD) with extra-oesophageal manifestations.
+3. Chronic rhinosinusitis with post-nasal drip.
+
+INITIAL INVESTIGATION PLAN:
+1. Intraoral Periapical Radiograph (IOPA) of #47 to assess the depth of the carious lesion, involvement of the pulp chamber, and state of the periapical tissues.
+2. Random Blood Sugar (RBS) to screen for underlying Diabetes Mellitus, which can predispose to severe periodontal disease.
+3. Full Blood Count (FBC) to rule out systemic haematological abnormalities, e.g. leukaemia or severe anaemia, if bleeding gums worsen.
+
+INITIAL MANAGEMENT PLAN:
+
+Patient Education & Counselling:
+- Counsel on proper oral hygiene techniques.
+- Brush twice daily, morning and night before bed, using a soft-bristled toothbrush and fluoridated toothpaste.
+- Demonstrate the modified Bass brushing technique.
+- Advise on the use of dental floss to clean interdental spaces.
+- Counsel on dietary modification, particularly reducing intake of refined sugars and carbonated drinks.
+
+Pharmacotherapy:
+- Sol. Chlorhexidine gluconate 0.2%; rinse with 10 mL for 1 minute twice daily × 2 weeks.
+- Tab Ibuprofen 400 mg TDS × 3 days PRN for toothache.
+- Systemic antibiotics are not indicated at this stage as there is no evidence of systemic infection or spreading fascial space infection.
+
+Referral:
+- Refer the patient to the Dental Department (Dental Surgeon/Periodontist) for professional Scaling and Polishing (S&P).
+- Further evaluation of #47 for either root canal therapy (RCT) or extraction depending on radiographic findings.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'gopd-59',
   title: 'Ichthyosis Vulgaris with Painful Palmar and Plantar Fissures',
   specialty: 'General Outpatient',
@@ -44136,6 +47125,816 @@ Not yet available
 
 
 // Obstetrics and Gynecology
+
+{
+  id: 'ob-46',
+  title: 'Missed Abortion',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Missed Abortion',
+  symptoms: ['Minimal vaginal spotting', 'Regression of pregnancy symptoms', 'Absent fetal cardiac activity', 'Fetal demise at 10 weeks + 4 days'],
+  contributor: 'Admin',
+  lastModified: '2026-08-28',
+  summary: '31-year-old G3P1+1 at 12 weeks + 2 days gestation presenting with minimal vaginal spotting and regression of pregnancy symptoms, with ultrasound confirmation of fetal demise at 10 weeks + 4 days.',
+  content: `GYNAE CLINIC
+
+Patient Seen
+
+Mrs. Ngozi Okeke, a 31-year-old G3P1+1 trader residing in Surulere, Lagos State, Igbo, currently in a monogamous marriage.
+
+Obstetric Status:
+
+G3P1+1
+
+LMP: 12/05/2023
+
+EGA: 12 weeks + 2 days
+
+PC:
+
+Routine ultrasound finding of absent fetal heart activity × 1 day
+Minimal vaginal spotting × 2 days
+
+HPC:
+
+The patient was apparently well and had a positive pregnancy test 8 weeks ago. She started experiencing morning sickness and breast tenderness shortly after. However, about 2 weeks ago, she noticed a gradual regression of these pregnancy symptoms.
+
+Two days ago, she noticed scant, dark brownish vaginal spotting, which was non-foul smelling and not associated with significant abdominal pain or passage of fleshy masses.
+
+No history of trauma, fever, or use of herbal concoctions (agbo).
+
+She presented at a private facility yesterday where an obstetric ultrasound scan was performed. The scan revealed a gestational sac containing a fetus with a Crown-Rump Length (CRL) corresponding to 10 weeks + 4 days, but with no cardiac activity. She was subsequently referred here for further management.
+
+Past Obstetric and Gynaecological History:
+
+G1: 2018, spontaneous vaginal delivery at term, live birth, male, 3.2 kg. No complications.
+G2: 2021, spontaneous miscarriage at 8 weeks EGA, managed conservatively at home.
+
+Menarche at 13 years.
+
+Cycle is regular, 28-day cycle with 4-day flow.
+
+No history of pelvic inflammatory disease or previous uterine surgeries.
+
+Medical and Social History:
+
+Not a known hypertensive or diabetic patient.
+
+No history of sickle cell disease. Genotype: AA.
+
+No known drug allergies.
+
+Does not smoke or drink alcohol.
+
+Husband is a civil servant.
+
+Review of Systems:
+
+CNS: No headache, no blurring of vision.
+RS: No cough, no chest pain.
+GIT: No nausea, no vomiting.
+MSS: No joint pains.
+
+O/E:
+
+Young woman, comfortable, not in any obvious respiratory or painful distress.
+
+Not acutely ill-looking, not pale, anicteric, not dehydrated, no pedal edema.
+
+PR: 84 bpm, regular, normal volume.
+BP: 110/70 mmHg.
+RR: 18 cpm.
+Temp: 36.6°C.
+SpO₂: 98% on room air.
+
+Abdominal Examination:
+
+Inspection: Abdomen flat, moves with respiration. No previous surgical scars.
+
+Palpation: Uterus barely palpable per abdomen, consistent with early pregnancy. No areas of tenderness. No guarding or rebound tenderness.
+
+Pelvic Examination:
+
+Speculum: Minimal dark altered blood in the vaginal vault. Cervix appears healthy. No active bleeding from the cervical os.
+
+Vaginal Examination: Cervix firm, posterior, and os closed. No adnexal masses or tenderness in the fornices. Uterus approximately 10-week size and non-tender.
+
+ASS:
+
+Missed abortion at 12 weeks + 2 days EGA with fetal demise at 10 weeks + 4 days.
+
+Differentials:
+
+1. Threatened abortion, though unlikely given ultrasound findings of fetal demise.
+2. Early hydatidiform mole, less likely based on ultrasound findings.
+3. Blighted ovum.
+
+INVESTIGATION:
+
+1. Repeat obstetric ultrasound to confirm fetal demise and CRL by a senior radiologist/sonologist.
+2. Full Blood Count (FBC) to assess PCV and baseline white cell count.
+3. Blood group and Rh typing for consideration of Anti-D immunoglobulin if Rh-negative.
+4. Clotting profile (PT/APTT/INR), particularly if there is prolonged retention of the dead fetus.
+5. Urinalysis to rule out UTI.
+
+PLAN:
+
+1. Counsel the patient and her husband regarding the diagnosis of missed abortion and available management options, including the risks and benefits of each.
+2. Expectant management: Allow spontaneous expulsion of the products of conception. Success rate is lower for missed abortion compared with incomplete abortion. Advise to return if heavy bleeding, severe pain, or fever develops. Review in 7–14 days if expulsion does not occur.
+3. Medical management: Misoprostol 800 mcg vaginally OR 600 mcg sublingually. A second dose may be given after 3 hours if there is no response, up to 3 doses. Provide adequate analgesia, such as Ibuprofen 400 mg 8-hourly or Paracetamol/Codeine. Monitor for shivering, fever, nausea, and diarrhea.
+4. Surgical management: Manual Vacuum Aspiration (MVA) or Dilatation and Curettage (D&C) if there is heavy bleeding, signs of infection, failure of medical management, or if medical management is declined. May be performed under local anesthesia with paracervical block or conscious sedation.
+5. Administer Anti-D immunoglobulin if the patient is Rhesus negative, according to local protocol.
+6. Provide emotional support and bereavement counseling.
+7. Discuss future contraception and preconception care.
+8. Advise the patient to return immediately if she develops foul-smelling vaginal discharge, excessive bleeding (soaking more than 2 pads per hour), or severe abdominal pain.
+`,
+  documentation: `<div class="space-y-6">
+
+Not yet available
+
+</div>`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-45',
+  title: 'Missed Abortion with Onset of Evacuation',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Emergency',
+  condition: 'Missed Abortion',
+  symptoms: [
+    'Vaginal bleeding',
+    'Lower abdominal pain',
+    'Passage of blood clots',
+    'Abdominal cramping',
+    'Early pregnancy loss'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-28',
+  summary: '28-year-old woman with a previously ultrasound-confirmed missed abortion at approximately 10 weeks gestation, now presenting with 3 days of moderate vaginal bleeding, passage of clots, and lower abdominal cramping, with stable vital signs and a closed cervical os.',
+  content: `PATIENT IDENTIFICATION
+
+A 28-year-old female Yoruba trader residing in Mushin, Lagos State.
+
+PRESENTING COMPLAINTS
+
+1. Vaginal bleeding × 3/7
+2. Lower abdominal pain × 3/7
+
+HISTORY OF PRESENTING COMPLAINT
+
+Patient is a known case of missed abortion, diagnosed via ultrasound 1 week ago.
+
+She presents with a 3-day history of moderate vaginal bleeding, associated with passage of clots and lower abdominal cramping pain.
+
+There is no history of fever, chills, or foul-smelling vaginal discharge. No history of syncope or dizziness.
+
+She has not received any formal medical intervention for the missed abortion prior to this presentation.
+
+PAST MEDICAL HISTORY
+
+No known chronic illnesses, including hypertension or diabetes mellitus.
+No history of previous surgeries or blood transfusions.
+Known genotype: AA.
+
+DRUG HISTORY
+
+No current medications.
+No known drug allergies.
+
+SOCIAL HISTORY
+
+Non-smoker and non-alcoholic.
+Lives in a well-ventilated apartment with her husband.
+
+REVIEW OF SYSTEMS
+
+CVS: No palpitations or orthopnea.
+RS: No cough or dyspnea.
+GIT: No nausea, vomiting, or diarrhea.
+CNS: No headache or visual disturbances.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Patient is conscious and alert, not pale, anicteric, and afebrile (Temperature: 36.8 °C).
+No pedal edema.
+
+VITAL SIGNS
+
+BP: 110/70 mmHg
+PR: 84 bpm, regular, good volume
+RR: 18 cpm
+SpO₂: 98% on room air
+
+ABDOMINAL EXAMINATION
+
+Abdomen is soft and non-tender.
+No organomegaly.
+Fundal height corresponds to approximately 10 weeks gestation.
+
+PELVIC EXAMINATION
+
+Speculum Examination:
+Cervical os is closed.
+Minimal blood noted in the posterior fornix.
+No active heavy bleeding.
+
+ASSESSMENT
+
+Missed abortion at approximately 10 weeks gestation with vaginal bleeding and abdominal cramping, suggesting onset of spontaneous evacuation.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Incomplete abortion
+2. Threatened abortion
+3. Ectopic pregnancy – less likely given the previous ultrasound findings and current clinical stability.
+
+INITIAL INVESTIGATION PLAN
+
+1. FBC: To assess haemoglobin level and white cell count.
+2. Blood Group and Rhesus Factor: To determine the need for Anti-D prophylaxis.
+3. Pelvic Ultrasound Scan: To assess the current status of the products of conception and determine whether there are retained products.
+4. Urinalysis: To screen for urinary tract infection.
+
+INITIAL MANAGEMENT PLAN
+
+1. COUNSELLING
+
+- Discuss the diagnosis and provide emotional support.
+- Explain available management options, including expectant, medical, and surgical management.
+- Discuss the benefits, risks, and expected course of each option.
+- Management should be individualized according to the patient's clinical status and preference.
+
+2. MEDICAL MANAGEMENT
+
+If the patient opts for medical management and remains haemodynamically stable:
+
+- Misoprostol 800 mcg administered vaginally or sublingually as a single dose, according to the applicable clinical protocol.
+- Monitor for expulsion of products of conception and reduction in bleeding.
+- Further dosing should follow the selected evidence-based protocol rather than being given routinely.
+
+3. ANALGESIA
+
+- Paracetamol 1 g orally 8-hourly as required for pain.
+- Ibuprofen 400 mg orally 8-hourly as required, if not contraindicated.
+
+4. ANTI-D IMMUNOGLOBULIN
+
+- Determine Rhesus status.
+- If the patient is RhD negative, administer Anti-D immunoglobulin according to gestational age and the applicable local protocol.
+
+5. SURGICAL MANAGEMENT
+
+- If medical or expectant management fails, or if significant retained products, heavy bleeding, or infection develops, arrange appropriate uterine evacuation, such as Manual Vacuum Aspiration (MVA), where indicated.
+
+6. ANTIBIOTICS
+
+- Routine antibiotic therapy is not indicated in the absence of infection.
+- If surgical evacuation is performed, administer appropriate peri-procedural antibiotic prophylaxis according to local protocol.
+
+7. REFERRAL/ESCALATION
+
+Refer to a secondary-level facility/General Hospital urgently if:
+
+- Heavy or persistent vaginal bleeding develops.
+- The patient becomes haemodynamically unstable.
+- Features of pelvic infection develop, including fever, uterine tenderness, or foul-smelling vaginal discharge.
+- Medical management fails or significant retained products of conception persist.
+
+FOLLOW-UP
+
+- Review after medical management according to the selected protocol and clinical response.
+- Confirm complete evacuation clinically and/or with ultrasound where indicated.
+- Provide counselling regarding the pregnancy loss and discuss future pregnancy planning and contraception according to the patient's preference.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-44',
+  title: 'Incomplete Abortion at 10 Weeks',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Emergency',
+  condition: 'Incomplete Abortion',
+  symptoms: [
+    'Heavy vaginal bleeding',
+    'Lower abdominal pain',
+    'Passage of fleshy masses per vaginam',
+    'Dizziness',
+    'Palpitations'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-28',
+  summary: '28-year-old G3 P1+1 at 10 weeks gestation presenting with acute heavy vaginal bleeding, crampy lower abdominal pain, and passage of fleshy masses, with an open cervical os and products of conception visible at the external os, consistent with incomplete abortion.',
+  content: `PATIENT IDENTIFICATION
+
+A 28-year-old female teacher who resides in Ogbomosho, Oyo State. She is a Yoruba woman, married in a monogamous setting. G3 P1+1.
+
+PRESENTING COMPLAINTS
+
+1. Vaginal bleeding × 6h
+2. Lower abdominal pain × 6h
+3. Passage of fleshy masses per vaginam × 4h
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until 6 hours ago when she developed sudden onset of heavy vaginal bleeding, soaking about 3 sanitary pads within 2 hours.
+
+Bleeding was associated with crampy lower abdominal pain which was localized to the suprapubic region. There was no history of trauma or prior spotting in this pregnancy.
+
+About 4 hours ago, she noticed the passage of fleshy, clot-like masses per vaginam, after which the severity of the pain reduced slightly, though vaginal bleeding persists.
+
+She complains of mild dizziness and palpitation but denies any loss of consciousness.
+
+There is no history of fever, vaginal discharge, or urinary symptoms.
+
+INDEX PREGNANCY/OBSTETRIC DATES
+
+LMP: 12/03/25
+EGA: 10 weeks
+
+Pregnancy was confirmed 4 weeks ago via a urine pregnancy test at a private clinic. She had not yet commenced ANC booking for this pregnancy.
+
+PAST OBSTETRIC HISTORY
+
+G1: 3 years ago, spontaneous vaginal delivery at term, male infant, 3.2 kg, alive and well.
+
+G2: 1 year ago, spontaneous miscarriage at 8 weeks gestation, managed conservatively at a secondary facility.
+
+GYNAECOLOGICAL HISTORY
+
+Menarche at 13 years.
+Regular 28-day cycle, 4-day flow.
+No history of contraceptive use.
+Last Pap smear: Never done.
+
+PAST MEDICAL AND SURGICAL HISTORY
+
+No known history of hypertension, diabetes mellitus, or sickle cell disease.
+No previous pelvic or abdominal surgeries.
+
+FAMILY AND SOCIAL HISTORY
+
+She lives with her husband and child in a 2-bedroom apartment with adequate ventilation.
+
+Non-smoker and does not consume alcohol.
+
+Husband is a civil servant.
+
+REVIEW OF SYSTEMS
+
+CNS: Mild dizziness, no headache, no seizures.
+RS: No cough, no chest pain.
+CVS: Occasional palpitations, no orthopnea.
+GIT: No nausea, no vomiting, no change in bowel habits.
+MSS: No joint pains.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Acutely ill-looking young woman, conscious and alert, moderately pale, not jaundiced, no pedal edema. No significant peripheral lymphadenopathy.
+
+VITAL SIGNS
+
+Pulse Rate: 106 bpm, tachycardic, regular, moderate volume
+Blood Pressure: 100/60 mmHg
+Respiratory Rate: 22 cpm
+Temperature: 36.7 °C
+SpO₂: 98% on room air
+
+ABDOMINAL EXAMINATION
+
+Inspection:
+Flat, moves with respiration, no surgical scars.
+
+Palpation:
+Soft, suprapubic tenderness present. No rebound tenderness or guarding. No palpable masses. No organomegaly.
+
+PELVIC EXAMINATION
+
+Speculum Examination:
+Moderate amount of fresh blood and clots in the vaginal vault. Cervical os appears dilated with visible products of conception trapped at the external os.
+
+Digital Examination:
+Cervical os is open, admitting one finger. Uterus is bulky, approximately 8–10 weeks size, and tender. No adnexal masses or cervical motion tenderness.
+
+ASSESSMENT
+
+Incomplete Abortion at 10 weeks gestation.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Inevitable abortion
+2. Ectopic pregnancy
+3. Molar pregnancy
+4. Threatened abortion – less likely given the open cervical os and passage of tissue.
+
+INITIAL INVESTIGATION PLAN
+
+1. Pack Cell Volume (PCV) / Full Blood Count (FBC): To assess the degree of blood loss and baseline haemoglobin.
+2. Blood Group and Rh Typing.
+3. Cross-match 2 units of blood.
+4. Urgent Pelvic Ultrasound Scan (USS): To assess for retained products of conception and evaluate for ectopic or molar pregnancy.
+5. Urinalysis.
+
+INITIAL MANAGEMENT PLAN
+
+EMERGENCY CARE
+
+1. Admit to the emergency gynaecology ward.
+2. Secure two wide-bore intravenous cannulae (16G or 18G).
+3. Commence IV Normal Saline 1 L stat, then titrate according to clinical response and vital signs.
+4. Monitor vital signs, including BP and PR, every 30 minutes initially.
+5. Assess ongoing blood loss and clinical response to resuscitation.
+
+SPECIFIC MANAGEMENT
+
+The goal is to evacuate retained products of conception, control bleeding, and prevent complications.
+
+OPTION A: SURGICAL MANAGEMENT
+
+Preferred if bleeding is heavy, there are significant retained products, or the patient is clinically unstable.
+
+- Manual Vacuum Aspiration (MVA): Appropriate method of uterine evacuation for first-trimester incomplete abortion. It may be performed under appropriate analgesia, sedation, or local paracervical block depending on the clinical setting.
+
+OPTION B: MEDICAL MANAGEMENT
+
+May be considered in a clinically stable patient with appropriate follow-up and no contraindication.
+
+- Misoprostol: 600 mcg orally as a single dose or 400 mcg sublingually as a single dose according to the applicable clinical protocol.
+- Monitor for complete expulsion and adverse effects including abdominal cramps, shivering, nausea, and vomiting.
+
+MEDICATIONS AND SUPPORTIVE CARE
+
+1. IV Oxytocin: 20 units in 1 L of Normal Saline, administered according to clinical response and local protocol to aid uterine contraction and reduce bleeding.
+
+2. Ergometrine: 0.5 mg IM may be considered where appropriate; avoid in patients with hypertension.
+
+3. Antibiotics: Administer prophylactic antibiotics according to local uterine evacuation protocol, particularly where surgical evacuation is performed.
+
+4. Anti-D Immunoglobulin: If the patient is RhD negative, administer the appropriate dose of Anti-D immunoglobulin within the recommended time window according to local protocol.
+
+5. Analgesia:
+- Paracetamol 1 g orally up to 6-hourly as required, or
+- Ibuprofen 400 mg orally 8-hourly as required, if not contraindicated.
+
+FOLLOW-UP
+
+1. Provide counselling regarding the nature of the pregnancy loss and offer appropriate emotional support.
+2. Discuss contraceptive options, including IUCD or oral contraceptive methods, if pregnancy is not immediately desired.
+3. Review in approximately 2 weeks to assess clinical recovery and confirm complete resolution where indicated.
+4. Counsel regarding early antenatal booking in subsequent pregnancies.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-42',
+  title: 'Recurrent Pregnancy Loss',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Recurrent Pregnancy Loss',
+  symptoms: [
+    'Recurrent spontaneous miscarriages',
+    'First-trimester pregnancy losses',
+    'Crampy lower abdominal pain',
+    'Vaginal bleeding in pregnancy',
+    'Desire for future pregnancy'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '32-year-old G4 P0+3 woman with three consecutive first-trimester spontaneous pregnancy losses between 8 and 11 weeks of gestation, presenting for evaluation and preconception management of recurrent pregnancy loss.',
+  content: `PATIENT IDENTIFICATION
+
+A 32-year-old female trader who resides in Surulere, Lagos State. She is of the Yoruba ethnic group and is in a monogamous marriage.
+
+PRESENTING COMPLAINT
+
+Recurrent pregnancy losses × 3 (consecutive)
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was in her usual state of health until two years ago when she started experiencing recurrent pregnancy losses.
+
+She has had a total of three consecutive spontaneous miscarriages, all occurring in the first trimester between 8 and 11 weeks of gestation.
+
+The first loss occurred 2 years ago at 10 weeks EGA. It was preceded by mild vaginal spotting which progressed to heavy bleeding and passage of fleshy masses. She had a Manual Vacuum Aspiration (MVA) at a private facility.
+
+The second loss was 14 months ago at 9 weeks EGA, following a similar pattern.
+
+The most recent loss occurred 6 months ago at 8 weeks EGA.
+
+All losses were associated with crampy lower abdominal pain but no history of fever, vaginal discharge, or preceding trauma.
+
+There is no history of second-trimester losses or painless cervical dilatation.
+
+She currently wishes to conceive and is seeking evaluation and management to prevent a recurrence.
+
+PAST MEDICAL AND SURGICAL HISTORY
+
+Not a known hypertensive or diabetic.
+No history of autoimmune disorders or chronic joint pains.
+No history of thyroid disease or excessive weight gain/loss.
+No previous pelvic surgeries other than the MVAs mentioned.
+Genotype: HbAA.
+
+OBSTETRIC AND GYNAECOLOGICAL HISTORY
+
+G4 P0+3 (3 spontaneous miscarriages, 0 children alive).
+
+LMP: 2 weeks ago.
+
+Menarche: 13 years.
+
+Menstrual cycle: Regular 28-day cycle, flows for 4–5 days.
+No history of dysmenorrhea.
+No history of use of intrauterine contraceptive devices (IUCD).
+
+FAMILY AND SOCIAL HISTORY
+
+Married for 4 years.
+
+Husband is a 38-year-old civil servant with no history of smoking or chronic medical conditions.
+
+No history of consanguinity.
+No family history of recurrent miscarriages or venous thromboembolism.
+
+Patient does not smoke or consume alcohol.
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches, no history of seizures.
+Respiratory: No cough, no chest pain.
+CVS: No palpitations, no orthopnea.
+GIT: No nausea, no change in bowel habits.
+Endocrine: No heat or cold intolerance.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Acutely stable, not pale, not jaundiced, not dehydrated.
+No peripheral lymphadenopathy. No pedal edema.
+
+Thyroid gland: Not enlarged.
+
+Breast Examination:
+Breasts symmetrical, no masses, no nipple discharge.
+
+VITAL SIGNS
+
+Pulse Rate: 76 bpm, regular, normal volume
+Blood Pressure: 110/70 mmHg
+Respiratory Rate: 16 cpm
+Temperature: 36.5 °C
+SpO₂: 98% on room air
+
+ABDOMINAL EXAMINATION
+
+Flat, moves with respiration.
+No surgical scars.
+No areas of tenderness.
+No palpable masses or organomegaly; liver, spleen, and kidneys not palpable.
+Bowel sounds present and normal.
+
+PELVIC EXAMINATION
+
+External genitalia: Normal.
+
+Speculum Examination:
+Normal-looking cervix, no discharge, no erosions.
+
+Bimanual Examination:
+Uterus normal in size, anteverted, mobile, and non-tender.
+Adnexa are free and non-tender.
+
+ASSESSMENT
+
+Recurrent Pregnancy Loss (RPL) in a G4 P0+3 woman.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Antiphospholipid Syndrome (APS)
+2. Uterine Anatomical Abnormality (e.g., septate uterus or synechiae)
+3. Endocrine Dysfunction (e.g., thyroid dysfunction)
+4. Parental Chromosomal Abnormality
+
+INITIAL INVESTIGATION PLAN
+
+1. Pelvic Ultrasound Scan (Transvaginal preferred): To assess uterine morphology and rule out structural abnormalities such as fibroids or polyps.
+2. Hysterosalpingography (HSG) or Saline Infusion Sonography: To evaluate the uterine cavity for septa or intrauterine adhesions.
+3. Hormonal Assays: Serum TSH, prolactin, and mid-luteal progesterone where clinically indicated.
+4. Glycated Haemoglobin (HbA1c) or Fasting Blood Sugar: To screen for diabetes mellitus.
+5. Antiphospholipid Antibody Testing: Lupus anticoagulant and anticardiolipin antibodies, with other APS testing as available and indicated.
+6. High Vaginal Swab (HVS) and Endocervical Swab: Microscopy, culture, and sensitivity where clinically indicated.
+7. Semen Analysis for the husband.
+
+INITIAL MANAGEMENT PLAN
+
+1. PRECONCEPTION COUNSELLING
+
+- Discuss the causes and prognosis of recurrent pregnancy loss.
+- Explain that prognosis may remain favorable even when no specific cause is identified.
+- Encourage early antenatal booking in the next pregnancy.
+- Discuss the importance of early pregnancy assessment and ultrasound.
+
+2. LIFESTYLE MODIFICATION
+
+- Encourage a healthy, balanced diet.
+- Folic acid supplementation: 5 mg daily preconception and during early pregnancy as indicated.
+- Avoid herbal concoctions and potentially harmful medications.
+- Encourage avoidance of smoking and alcohol.
+
+3. PHARMACOLOGICAL OPTIONS FOR THE NEXT PREGNANCY
+
+- Low-dose Aspirin: 75–81 mg daily may be indicated if antiphospholipid syndrome is confirmed or based on specialist assessment.
+- Progesterone Support: Consider micronized progesterone or dydrogesterone in selected patients, particularly where clinically indicated.
+- Low Molecular Weight Heparin (LMWH): Consider if antiphospholipid syndrome is confirmed and treatment is indicated; e.g., Enoxaparin 40 mg SC daily, with dose individualized according to clinical circumstances.
+- Antibiotics: Only if a specific infection is identified and treatment is indicated.
+
+FOLLOW-UP
+
+Review all investigation results in 2 weeks.
+
+Advise the patient to report as soon as she misses her period or has a positive pregnancy test for early pregnancy assessment and appropriate management.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'ob-41',
+  title: 'Ptyalism Gravidarum with Emesis Gravidarum',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Ptyalism Gravidarum with Emesis Gravidarum',
+  symptoms: [
+    'Excessive salivation',
+    'Morning vomiting',
+    'Reduced appetite',
+    'Food and smell sensitivity',
+    'Early pregnancy',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '32-year-old G2P1+0 at 6 weeks gestation presenting with 2 weeks of troublesome ptyalism and mild morning vomiting, while remaining able to tolerate oral fluids and small meals without clinical dehydration.',
+  content: `
+ANTENATAL CLINIC
+
+Patient Seen
+
+Mrs. O.A., a 32-year-old Yoruba school teacher, G2P1+0 (1 alive), resident of Bodija, Ibadan, Oyo State, at 6 weeks estimated gestational age.
+
+LNMP: 13/04/24
+EGA: 6 weeks
+
+PC:
+Excessive salivation × 2 weeks
+Occasional vomiting × 2 weeks
+
+HPC:
+Mrs. O.A. presented with a 2-week history of excessive salivation (ptyalism). The salivation is constant, worse in the mornings, and severely aggravated by the thought, sight, or smell of food.
+
+She has to spit frequently into a cup or tissue, which she finds socially embarrassing and distressing.
+
+This is associated with occasional vomiting (1–2 episodes per day), occurring mostly in the morning immediately after waking up. The vomitus contains recently ingested food particles, is non-bilious, non-bloody, and averages about half a cup in volume per episode.
+
+There is no associated abdominal pain, fever, diarrhoea, or chest pain.
+
+She is still able to tolerate oral fluids and small portions of solid meals, although her appetite is significantly reduced.
+
+There is no history of significant weight loss, dizziness, syncopal attacks, or extreme weakness.
+
+No history of heat intolerance, tremors, or palpitations to suggest thyroid disease.
+
+Prior to Presentation:
+She has tried taking warm water and ginger tea with minimal relief.
+She has not taken any antiemetics.
+
+Past Medical History:
+
+Obstetric History:
+G2P1+0.
+Previous pregnancy was 3 years ago, uneventful, and ended in spontaneous vaginal delivery (SVD) of a healthy male infant at term.
+No history of ptyalism or severe vomiting in the previous pregnancy.
+
+Medical History:
+No history of hypertension, diabetes mellitus, asthma, or thyroid disorders.
+No history of previous surgeries or blood transfusions.
+
+Drug History:
+Currently taking routine Folic Acid 5 mg daily, started 1 week ago.
+No history of herbal medication (agbo) or over-the-counter self-medication.
+No known drug allergies.
+
+Family and Social History:
+Married in a monogamous setting.
+Lives with her husband and son in a rented flat with access to clean municipal tap water.
+Non-smoker.
+Does not drink alcohol.
+Supportive family environment.
+
+Review of Systems:
+
+General:
+No fever, no chills, no significant weight loss.
+
+GIT:
+No heartburn, no dysphagia, no constipation, no abdominal distension.
+
+CVS/RS:
+No palpitations, no chest pain, no cough, no dyspnoea.
+
+CNS:
+No headache, no visual disturbances, no dizziness.
+
+Genitourinary:
+No dysuria, no frequency, no abnormal vaginal discharge or bleeding.
+
+O/E:
+Conscious, alert, not acutely ill-looking, not pale, anicteric, acyanotic, no peripheral oedema, no peripheral lymphadenopathy.
+Hydration status is fair with moist mucous membranes and normal skin turgor.
+
+Vitals:
+Temp: 36.6°C
+PR: 80 bpm, regular, normal volume
+BP: 110/70 mmHg
+RR: 16 cpm
+SpO₂: 99% on room air
+
+ABD:
+Flat, moves with respiration.
+No surgical scars.
+Soft, non-tender.
+No palpable organomegaly.
+
+CVS:
+S1 S2 heard.
+No murmurs.
+
+RS:
+Lungs clear.
+Vesicular breath sounds bilaterally.
+
+CNS:
+Patient oriented in time, place, and person.
+No obvious neurological deficit.
+
+ASSESSMENT:
+Emesis gravidarum co-existing with ptyalism gravidarum in a G2P1+0 at 6 weeks EGA.
+
+DIFFERENTIAL DIAGNOSES:
+1. Mild hyperemesis gravidarum.
+2. Gastroesophageal reflux disease (GERD) in pregnancy.
+3. Gestational trophoblastic disease (molar pregnancy).
+
+INITIAL INVESTIGATION PLAN:
+1. Obstetric ultrasound scan (USS) to confirm intrauterine pregnancy, viability, and gestational age, and to rule out multiple gestation or molar pregnancy.
+2. Urinalysis to check for ketones, glucose, and protein.
+3. Full Blood Count (FBC) for baseline assessment.
+4. Serum Electrolytes, Urea and Creatinine (E/U/Cr) for baseline assessment, particularly if vomiting frequency increases.
+
+INITIAL MANAGEMENT PLAN:
+
+Non-Pharmacological & Supportive Care:
+- Reassure patient that ptyalism and emesis are common symptoms of early pregnancy and generally improve by 12–16 weeks.
+- Encourage small, frequent meals every 2–3 hours rather than three large meals.
+- Recommend dry, carbohydrate-rich foods such as crackers or toast in the morning before rising.
+- Avoid greasy, highly spiced, or strong-smelling foods.
+- For ptyalism, suggest chewing sugarless gum or sucking on hard candy to encourage swallowing and help mask unpleasant taste.
+- Advise frequent spitting into a disposable cup if swallowing saliva worsens nausea.
+- Maintain good oral hygiene with frequent brushing and alcohol-free mouthwash.
+- Encourage adequate hydration with frequent sips of cold water, clear broths, or ginger tea.
+
+Pharmacological Care:
+- Pyridoxine (Vitamin B6) 10–25 mg orally TDS.
+- Promethazine 25 mg orally nocte if vomiting becomes more persistent or interferes with sleep.
+- Continue Folic Acid 5 mg daily.
+
+Monitoring & Follow-up:
+- Review in 2 weeks with USS and urinalysis results.
+- Counsel on danger signs and advise immediate return to the clinic/emergency room if she develops persistent vomiting with inability to retain fluids for >12–24 hours, extreme weakness, postural dizziness, dark-coloured urine, significant weight loss, or vaginal bleeding.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'ob-40',
   title: 'Vulvar Varicosities in Pregnancy',
@@ -52925,6 +56724,1184 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-49',
+  title: 'Superficial Right Palmar Laceration',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Superficial Hand Laceration',
+  symptoms: [
+    'Right palmar laceration',
+    'Right hand pain',
+    'Bleeding from wound',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '68-year-old hypertensive woman with an acute superficial 3 cm right palmar laceration sustained accidentally while slicing vegetables, with intact tendon, nerve, and vascular function and no evidence of gross contamination or deeper structural injury.',
+  content: `
+SURGICAL CLINIC
+
+Patient Seen
+
+A 68-year-old Yoruba female retired teacher, resident of Ibadan, Oyo State.
+
+PC:
+Laceration on the right palm × 2 hours
+
+HPC:
+The patient was apparently well until approximately 2 hours prior to presentation when she sustained a knife cut to her right palm while slicing vegetables at home. The injury was accidental.
+
+There was associated sharp pain at the site and moderate bleeding, which was controlled by applying firm pressure with a clean towel.
+
+There is no history of the knife being rusty or contaminated with soil.
+No history of application of any native herbs or other substances to the wound.
+
+She reports being able to move all her fingers and has not noticed any numbness or tingling distal to the injury site.
+No history of fainting or dizziness following the incident.
+
+Past Medical History:
+Known hypertensive, diagnosed 10 years ago, currently managed on Tab Amlodipine 5 mg daily with fair compliance.
+No known history of Diabetes Mellitus, Asthma, or Peptic Ulcer Disease.
+No previous history of surgeries or blood transfusions.
+Last Tetanus toxoid booster was over 15 years ago.
+
+Drug History:
+Currently on Tab Amlodipine 5 mg daily.
+No known drug allergies.
+
+Family and Social History:
+Married in a monogamous setting with four adult children.
+Does not smoke or consume alcohol.
+Lives in a well-ventilated apartment with access to potable water.
+
+Review of Systems:
+
+CNS:
+No headache, no loss of consciousness.
+
+CVS:
+No palpitations, no chest pain.
+
+RS:
+No cough, no shortness of breath.
+
+GIT:
+No abdominal pain, no vomiting.
+
+MSS:
+No joint pains or swelling other than at the injury site.
+
+O/E:
+
+General Examination:
+Elderly woman, calm, in no obvious respiratory or painful distress.
+Not pale, anicteric, non-cyanosed.
+No significant lymphadenopathy.
+No pedal oedema.
+
+Vitals:
+PR: 82 bpm, regular, normal volume
+BP: 150/90 mmHg
+RR: 18 cpm
+Temp: 36.7°C
+SpO₂: 97% on room air
+
+Local Examination — Right Hand:
+
+Inspection:
+Linear laceration measuring approximately 3 cm across the thenar eminence of the right palm.
+
+The wound is superficial, involving the skin and subcutaneous fat, without extension to the underlying fascia or muscle.
+Wound edges are clean and regular.
+No active bleeding or haematoma formation.
+No visible foreign bodies or gross contamination.
+
+Nerve Assessment:
+Sensation to fine touch and pinprick is intact over the median, ulnar, and radial nerve distributions.
+
+Tendon Assessment:
+Full range of active and passive motion at the wrist, metacarpophalangeal, and interphalangeal joints of all fingers, including thumb opposition.
+
+Vascular Assessment:
+Radial and ulnar pulses are palpable and full.
+Capillary refill time is <2 seconds.
+
+ASSESSMENT:
+Superficial laceration of the right palm in a known hypertensive.
+
+DIFFERENTIAL DIAGNOSES:
+1. Simple skin laceration.
+2. Laceration with occult digital nerve injury — less likely.
+3. Laceration with occult tendon injury — less likely.
+
+INITIAL INVESTIGATION PLAN:
+1. Packed Cell Volume (PCV) as baseline assessment.
+2. Random Blood Sugar (RBS) to screen for occult Diabetes Mellitus, particularly because of age and potential implications for wound healing.
+3. Urinalysis as part of baseline assessment.
+
+INITIAL MANAGEMENT PLAN:
+
+Wound Care:
+- Achieve haemostasis and thoroughly irrigate the wound with copious normal saline.
+- Clean the surrounding skin with an appropriate antiseptic preparation.
+- Carefully inspect the wound for retained foreign bodies and deeper structural injury.
+
+Wound Closure:
+- Primary closure with simple interrupted 4-0 Nylon sutures if the wound is adequately explored, clean, and suitable for closure.
+- Sterile adhesive strips may be considered for a superficial, well-apposed wound under minimal tension.
+
+Tetanus Prophylaxis:
+- Assess vaccination history and classify the wound according to tetanus exposure risk.
+- Given the remote last booster (>15 years ago), administer Tetanus Toxoid 0.5 mL IM.
+- Tetanus Immune Globulin (TIG) 250 IU IM may be considered if the wound is judged to be contaminated/high-risk and vaccination history is incomplete or uncertain.
+
+Analgesia:
+- Tab Paracetamol 1 g TDS × 3 days as required for pain.
+
+Antibiotics:
+- Routine systemic antibiotic prophylaxis is generally not required for a clean, uncomplicated superficial laceration without contamination, bite, crush injury, or deeper tissue involvement.
+- Consider antibiotics if subsequent assessment identifies significant contamination, infection, deeper tissue involvement, or other specific risk factors.
+
+Wound/Dressing Care:
+- Keep the dressing clean and dry.
+- Elevate the affected hand where practical to reduce swelling.
+- Return immediately if there is increasing pain, redness, warmth, swelling, purulent discharge, fever, reduced finger movement, or new numbness.
+
+Follow-up:
+- Review for wound assessment within 48–72 hours where appropriate.
+- If sutured, arrange suture removal after approximately 7–10 days, depending on wound healing and location.
+
+Hypertension:
+- Continue routine Tab Amlodipine 5 mg daily.
+- Encourage adherence to antihypertensive therapy and routine blood pressure monitoring.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-48',
+  title: 'Lumbar Radiculopathy',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics',
+  condition: 'Lumbar Radiculopathy',
+  symptoms: [
+    'Low back pain',
+    'Right leg pain',
+    'Right foot numbness',
+    'Paresthesia',
+    'Right hallux weakness',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '48-year-old male commercial driver with acute low back pain radiating down the right leg to the dorsum of the foot, associated with sensory disturbance, reduced right ankle jerk, and mild right EHL weakness, consistent with L5/S1 lumbar radiculopathy likely secondary to intervertebral disc prolapse or degenerative lumbar disease.',
+  content: `
+SURGICAL CLINIC
+
+Patient Seen
+
+A 48-year-old Yoruba male commercial driver, resident of Ogbomosho, Oyo State.
+
+PC:
+Low back pain × 2 weeks
+Right leg pain × 1 week
+Numbness in the right foot × 3 days
+
+HPC:
+The patient was apparently well until 2 weeks prior to presentation when he developed low back pain following a long-distance driving trip involving several hours of sitting.
+
+The pain is located in the lower lumbar region, sharp and stabbing in character, and has progressively worsened.
+
+About 1 week prior to presentation, the pain began radiating down the posterolateral aspect of the right thigh and leg, extending to the dorsum of the foot.
+
+The pain is aggravated by bending forward, lifting heavy objects, and coughing. It is partially relieved by lying supine on a firm surface.
+
+He reports associated numbness and a tingling sensation (pins and needles) over the lateral aspect of the right leg and foot of 3 days duration.
+
+There is no history of trauma to the spine, weight loss, night sweats, or chronic cough.
+No history of urinary or faecal incontinence.
+No weakness in the lower limbs reported by the patient.
+
+Past Medical History:
+No previous history of similar back pain or spinal surgery.
+Not a known diabetic or hypertensive.
+No history of chronic steroid use.
+
+Drug History:
+Self-medicating with OTC Tab Ibuprofen 400 mg and Tab Paracetamol 1 g with minimal relief.
+No known drug allergies.
+
+Social History:
+Commercial driver with frequent long-distance travels.
+Smokes 5–10 sticks of cigarettes daily for 15 years.
+Occasionally consumes alcohol.
+Married in a monogamous setting with four children.
+
+Review of Systems:
+
+CNS:
+No headache, no loss of consciousness.
+
+RS:
+No cough, no dyspnoea.
+
+CVS:
+No palpitations, no pedal oedema.
+
+GIT:
+Normal bowel habits, no abdominal pain.
+
+MSS:
+As detailed in HPC.
+
+O/E:
+
+General Examination:
+Adult male in painful distress, conscious and oriented.
+Not pale, anicteric, afebrile, not dehydrated.
+No significant peripheral lymphadenopathy.
+
+Vitals:
+PR: 84 bpm, regular, normal volume
+BP: 130/85 mmHg
+RR: 18 cpm
+Temp: 36.7°C
+SpO₂: 98% on room air
+
+Spine Examination:
+
+Inspection:
+Loss of normal lumbar lordosis.
+No tufts of hair, swelling, or surgical scars.
+Gait is antalgic.
+
+Palpation:
+Tenderness over the L4/L5 and L5/S1 spinous processes.
+No palpable step-off.
+
+Range of Motion:
+Lumbar flexion is significantly restricted and painful.
+
+Special Tests:
+Positive Straight Leg Raise (SLR) test on the right at 35°, reproducing radicular pain.
+Negative SLR on the left.
+Negative Slump test.
+
+Neurological Examination — Lower Limbs:
+
+Tone:
+Normal bilaterally.
+
+Power:
+Right hallux extension (EHL): 4/5.
+All other muscle groups: 5/5 bilaterally.
+
+Reflexes:
+Right ankle jerk: diminished (+).
+Left ankle jerk and both knee jerks: normal (++).
+
+Sensation:
+Reduced fine touch and pinprick sensation over the right lateral leg and first dorsal webspace, in an L5/S1 distribution.
+
+ASSESSMENT:
+Lumbar radiculopathy, likely L5/S1, secondary to lumbar spondylosis or intervertebral disc prolapse.
+
+DIFFERENTIAL DIAGNOSES:
+1. Lumbar intervertebral disc herniation/prolapse.
+2. Degenerative lumbar spondylosis.
+3. Lumbar spinal stenosis.
+4. Spondylolisthesis.
+
+INITIAL INVESTIGATION PLAN:
+1. X-ray of the lumbosacral spine (AP and lateral views) to assess for disc space narrowing, osteophytes, vertebral alignment, and listhesis.
+2. FBC and ESR to screen for inflammatory or infective causes, including spinal tuberculosis, particularly if red flags develop.
+3. Urinalysis to assess for possible renal causes of referred back pain.
+4. MRI of the lumbar spine, particularly if neurological deficits progress, symptoms persist despite conservative management, or significant nerve root compression is suspected.
+
+INITIAL MANAGEMENT PLAN:
+
+General Measures:
+- Activity modification; avoid heavy lifting and prolonged sitting.
+- Encourage continued gentle activity as tolerated rather than prolonged bed rest.
+- If rest is required, use a short period of relative rest, preferably not exceeding 48 hours.
+- Educate on back hygiene, posture, and proper lifting techniques.
+- Smoking cessation counselling.
+
+Pharmacotherapy:
+
+Analgesia/Anti-inflammatory:
+- Tab Naproxen 500 mg BD for up to 2 weeks OR
+- Tab Diclofenac 50 mg TDS, provided there are no contraindications.
+- Cap Omeprazole 20 mg daily while using NSAIDs where indicated for gastrointestinal protection.
+
+Neuropathic Pain:
+- Cap Pregabalin 75 mg nocte, with dose titration according to response and tolerability OR
+- Tab Amitriptyline 10–25 mg nocte.
+
+Muscle Relaxant:
+- Tab Methocarbamol 500 mg TDS × 5 days if significant muscle spasm is present.
+
+Vitamin Supplementation:
+- Vitamin B complex, one tablet daily.
+
+Physiotherapy:
+- Refer for physiotherapy after the acute pain settles, including appropriate core-strengthening, pelvic tilt, flexibility, posture, and graded exercise programmes.
+
+Follow-up:
+- Review in approximately 2 weeks to assess pain, neurological status, and functional improvement.
+- Reassess power, reflexes, and sensory deficits at each review.
+- Consider early specialist orthopaedic/neurosurgical review and MRI if weakness progresses or significant neurological deficit develops.
+
+Red Flag Counselling:
+Advise the patient to present immediately to the Emergency Department if he develops:
+- New or progressive weakness of either lower limb.
+- Foot drop.
+- Saddle/perineal numbness or anaesthesia.
+- New urinary retention or urinary/faecal incontinence.
+- Severe rapidly progressive neurological symptoms.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-47',
+  title: 'Right Spermatocele',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Spermatocele',
+  symptoms: [
+    'Painless right scrotal swelling',
+    'Right scrotal lump',
+    'Cystic scrotal mass',
+    'Scrotal fullness',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '42-year-old man with a 6-month history of a gradually enlarging painless right scrotal mass, clinically distinct from the testis, arising from the epididymal head and demonstrating brilliant transillumination, consistent with a right spermatocele.',
+  content: `
+
+Patient Seen
+
+A 42-year-old Yoruba male civil servant, resident of Ibadan, Oyo State.
+
+PC:
+Painless swelling in the right scrotum × 6 months
+
+HPC:
+He was apparently well until 6 months prior to presentation when he incidentally noticed a small lump in the upper part of his right scrotum while bathing.
+
+The swelling has been gradually increasing in size but remains entirely painless.
+
+There is no history of associated scrotal trauma, fever, or urethral discharge.
+No change in the size of the swelling with coughing, straining, or changes in posture.
+No history of urinary frequency, urgency, or nocturia.
+
+He is concerned about the nature of the lump and its potential effect on his health, though he has completed his family.
+
+Past Medical History:
+No previous history of scrotal swellings, infections, or inguinal hernias.
+Not a known hypertensive or diabetic.
+No history of previous scrotal or inguinal surgeries.
+
+Drug History:
+Not on any chronic medications.
+No known drug allergies.
+
+Family and Social History:
+Married in a monogamous setting with four children.
+Does not smoke cigarettes or consume alcohol.
+No family history of urogenital malignancies or similar swellings.
+
+Review of Systems:
+
+CNS:
+No headaches, no loss of consciousness.
+
+RS:
+No cough, no shortness of breath.
+
+CVS:
+No palpitations, no pedal oedema.
+
+GIT:
+No constipation, no abdominal distension.
+
+MSS:
+No bone pain or joint swellings.
+
+O/E:
+
+General Examination:
+Middle-aged man, comfortable, not in any obvious respiratory or painful distress.
+Not pale, anicteric, acyanosed, and not dehydrated.
+No significant peripheral lymphadenopathy.
+No pedal oedema.
+
+Vitals:
+PR: 76 bpm, regular, normal volume
+BP: 126/82 mmHg
+RR: 18 cpm
+Temp: 36.7°C
+
+Scrotal/Inguinal Examination:
+
+Inspection:
+Right hemiscrotum appears slightly fuller than the left.
+Overlying skin is normal with no scars, sinuses, or dilated veins.
+No visible cough impulse.
+
+Palpation:
+There is a 3 cm × 3 cm globular, cystic, non-tender mass palpable at the superior pole of the right testis, likely arising from the head of the epididymis.
+The mass is smooth-surfaced and fluctuant.
+It is possible to "get above" the swelling.
+The mass is distinct from the testis, which is normal in size, shape, and consistency.
+
+Transillumination:
+Mass transilluminates brilliantly.
+
+Auscultation:
+No bowel sounds heard over the scrotum.
+
+Left testis and epididymis are clinically normal.
+No inguinal lymphadenopathy.
+
+ASSESSMENT:
+Right spermatocele.
+
+DIFFERENTIAL DIAGNOSES:
+1. Epididymal cyst.
+2. Hydrocele.
+3. Varicocele.
+4. Chronic epididymitis.
+
+INITIAL INVESTIGATION PLAN:
+1. Scrotal Ultrasound Scan to confirm the cystic nature of the mass, determine its exact origin, assess its relationship to the epididymal head, and ensure the underlying testis is normal.
+2. Urinalysis to rule out associated urinary tract infection.
+3. Fine Needle Aspiration — generally not required; if performed, aspirate may contain milky fluid with spermatozoa.
+
+INITIAL MANAGEMENT PLAN:
+
+Counselling and Reassurance:
+- Reassure the patient that a spermatocele is a benign, non-cancerous cystic lesion and usually does not require treatment when asymptomatic.
+- Explain that it does not usually affect general health or fertility, particularly in a patient who has completed his family.
+
+Conservative Management:
+- Watchful waiting is appropriate as the patient is asymptomatic and the swelling is relatively small.
+- Review periodically for significant increase in size, onset of pain, or other concerning features.
+
+Medical Management:
+- There is no specific medication that will shrink or eliminate a spermatocele.
+- For mild discomfort, Tab Ibuprofen 400 mg TDS for 3–5 days or Naproxen 250–500 mg BD may be used where there are no contraindications.
+- Scrotal support with firm underwear or a scrotal suspensory may provide symptomatic relief.
+
+Surgical Management:
+- Spermatocelectomy may be considered if the cyst becomes significantly enlarged, causes persistent discomfort, becomes cosmetically bothersome, or the patient requests definitive removal.
+- Counsel regarding possible complications, including recurrence, infection, haematoma, and injury to the epididymis or vas deferens, which may affect fertility on the affected side.
+
+Minimally Invasive Management:
+- Aspiration with sclerotherapy is less commonly used because of the high risk of recurrence and potential chemical epididymitis.
+- It may be considered in selected patients who are poor surgical candidates.
+
+Follow-up:
+- Review in the outpatient clinic with the scrotal ultrasound result to confirm the diagnosis and determine the need for further management.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-46',
+  title: 'Acute Epididymitis',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Acute Epididymitis',
+  symptoms: [
+    'Right scrotal pain',
+    'Right scrotal swelling',
+    'Dysuria',
+    'Urinary frequency',
+    'Tender epididymis',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '28-year-old man with acute right-sided scrotal pain and swelling associated with dysuria and urinary frequency, with marked epididymal tenderness and preserved cremasteric reflex, consistent with acute epididymitis likely related to a sexually transmitted infection.',
+  content: `
+
+Patient Seen
+
+A 28-year-old Yoruba male tailor, resident of Ogbomosho, Oyo State.
+
+PC:
+Right scrotal pain × 3 days
+Right scrotal swelling × 3 days
+Painful urination × 2 days
+
+HPC:
+He was apparently well until 3 days prior to presentation when he developed sudden-onset right-sided scrotal pain.
+
+The pain was dull in nature, radiating to the right inguinal region, and has progressively worsened in intensity. The pain is exacerbated by movement and walking, but he notices slight relief when the scrotum is manually elevated.
+
+Two days prior to presentation, he noticed associated swelling of the right side of the scrotum, which is tender to touch.
+
+He also reports dysuria and increased frequency of micturition which started yesterday.
+
+There is no history of urethral discharge, fever, chills, or night sweats.
+
+He denies any history of trauma to the groin or scrotum.
+No history of lower back pain or haematuria.
+
+Past Medical History:
+No history of similar episodes in the past.
+No known history of congenital urogenital anomalies or childhood mumps.
+No history of chronic medical conditions such as Diabetes Mellitus or Hypertension.
+No previous surgeries.
+
+Drug History:
+Not on any routine medications.
+No known drug allergies.
+
+Family and Social History:
+Tailor by profession.
+Sexually active with a single female partner; however, reports inconsistent condom use.
+Does not smoke cigarettes or consume alcohol.
+No family history of similar urogenital complaints.
+
+Review of Systems:
+
+GIT:
+No abdominal pain, no nausea or vomiting.
+Bowel habits are normal.
+
+CNS:
+No headaches, no seizures.
+
+RS:
+No cough, no difficulty breathing.
+
+CVS:
+No palpitations, no chest pain.
+
+O/E:
+
+General Examination:
+Young man in painful distress, conscious and alert, afebrile, not pale, not jaundiced, not dehydrated.
+No significant peripheral lymphadenopathy.
+
+Vitals:
+Temp: 36.7°C
+PR: 84 bpm, regular, normal volume
+BP: 120/70 mmHg
+RR: 18 cpm
+SpO₂: 98% on room air
+
+Abdomen:
+Flat, moves with respiration.
+No areas of tenderness or palpable masses.
+Liver, spleen, and kidneys not palpable.
+No clinical evidence of ascites.
+Both inguinal regions free of visible hernias or significant lymphadenopathy.
+
+Scrotal Examination:
+
+Inspection:
+Right hemiscrotum appears enlarged and erythematous.
+Scrotal skin is tense, with no visible ulcers, sinuses, or discharge.
+Left hemiscrotum appears normal.
+
+Palpation:
+Marked tenderness localized to the right epididymis.
+Right testis is also mildly tender.
+Prehn's sign is positive, with relief of pain upon elevation of the scrotum.
+Cremasteric reflex is present and brisk bilaterally.
+No fluctuance or cough impulse.
+
+Left Scrotum:
+Testis and epididymis are normal in size, shape, and consistency and are non-tender.
+
+ASSESSMENT:
+Acute epididymitis, likely secondary to a sexually transmitted infection.
+
+DIFFERENTIAL DIAGNOSES:
+1. Testicular torsion — less likely given preserved cremasteric reflex and positive Prehn's sign, but must be excluded where clinically suspected.
+2. Acute epididymo-orchitis.
+3. Scrotal abscess.
+4. Incarcerated inguinal hernia.
+
+INITIAL INVESTIGATION PLAN:
+1. Urinalysis (dipstick and microscopy) to assess for pyuria and nitrites.
+2. Mid-stream urine (MSU) for Microscopy, Culture and Sensitivity (M/C/S).
+3. Urethral swab, if discharge is expressed, for Gram stain and Microscopy, Culture and Sensitivity.
+4. Full Blood Count (FBC) to assess for leukocytosis.
+5. Scrotal Ultrasound with Doppler to assess testicular blood flow and exclude testicular torsion if the diagnosis remains uncertain.
+
+INITIAL MANAGEMENT PLAN:
+
+Non-Pharmacological:
+- Bed rest during the acute phase.
+- Scrotal support using tight-fitting underwear or a scrotal bridge to reduce tension and discomfort.
+- Apply ice packs intermittently to the affected area to reduce swelling and pain.
+
+Pharmacological:
+
+Analgesia:
+- Tab Ibuprofen 400 mg TDS × 5 days OR
+- Tab Diclofenac 50 mg BD × 5 days.
+
+Empirical Antibiotic Therapy:
+Given the patient's age and sexual history, empiric therapy should cover Neisseria gonorrhoeae and Chlamydia trachomatis.
+
+- Inj Ceftriaxone 250 mg IM stat.
+- PLUS Tab Doxycycline 100 mg BD × 14 days.
+- Alternative: Tab Azithromycin 1 g PO stat may be used in place of doxycycline where appropriate.
+
+Where enteric organisms are suspected based on subsequent clinical or microbiological findings, antibiotic therapy should be adjusted according to culture and sensitivity results and current local guidelines.
+
+Follow-up and Counselling:
+- Counsel patient on the importance of completing the prescribed antibiotic course.
+- Partner notification, testing, and treatment are essential if an STI is confirmed or strongly suspected.
+- Advise abstinence from sexual intercourse until treatment is completed and symptoms have resolved.
+- Review in 48–72 hours to assess clinical response.
+- If symptoms worsen, including development of high-grade fever, increasing pain, marked scrotal swelling, or systemic toxicity, reassess for abscess formation, testicular torsion, or treatment failure.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-45',
+  title: 'Acute Epididymo-orchitis',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Acute Epididymo-orchitis',
+  symptoms: [
+    'Left scrotal pain',
+    'Left scrotal swelling',
+    'Fever',
+    'Dysuria',
+    'Urethral discharge',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '28-year-old man with acute left scrotal pain and swelling associated with fever, dysuria, and recent mucoid urethral discharge, with an inflamed and indurated epididymis and positive Prehn’s sign, suggestive of acute epididymo-orchitis likely secondary to an STI.',
+  content: `
+SURGICAL CLINIC
+
+Patient Seen
+
+A 28-year-old Hausa Muslim male civil servant, resident of Kano, Kano State.
+
+PC:
+Left scrotal pain × 3 days
+Left scrotal swelling × 3 days
+Fever × 2 days
+
+HPC:
+The patient was apparently well until 3 days prior to presentation when he developed sudden-onset left-sided scrotal pain.
+
+The pain was initially a dull ache but rapidly became severe and throbbing in nature. It is localized to the left scrotum but radiates to the left groin and lower abdomen. The pain is partially relieved by scrotal elevation and significantly aggravated by walking or movement.
+
+Associated with the pain is swelling of the left scrotum, which has progressively increased in size over the last 3 days. He also noted associated redness and increased warmth of the overlying skin.
+
+Two days prior to presentation, he developed high-grade fever associated with chills and rigors.
+
+There is associated dysuria and occasional mucoid urethral discharge noted over the preceding week.
+
+No history of trauma to the perineum or scrotum.
+No history of similar episodes in the past.
+No history of lower urinary tract symptoms such as frequency, urgency, or poor urinary stream.
+
+Past Medical and Surgical History:
+No known history of chronic medical conditions such as Diabetes Mellitus or Hypertension.
+No history of previous urogenital surgeries, mumps, or recent urethral catheterization.
+No known drug allergies.
+
+Social and Sexual History:
+Sexually active.
+Reports two new sexual partners in the last 3 months.
+Inconsistent use of barrier contraception (condoms).
+Does not smoke or drink alcohol.
+
+Review of Systems:
+
+CNS:
+No headache, no seizures.
+
+RS:
+No cough, no chest pain.
+
+CVS:
+No palpitations, no pedal oedema.
+
+GIT:
+No nausea, no vomiting, no change in bowel habits.
+
+O/E:
+
+General Examination:
+Acutely ill-looking, febrile, not pale, not icteric, not dehydrated.
+No significant peripheral lymphadenopathy.
+
+Vitals:
+Temp: 38.4°C
+PR: 98 bpm, regular, full volume
+BP: 120/80 mmHg
+RR: 20 cpm
+SpO₂: 98% on room air
+
+Abdomen:
+Flat, moves with respiration.
+No areas of tenderness.
+Liver and spleen not enlarged.
+No palpable renal masses.
+
+CNS:
+No obvious neurological abnormality.
+
+RS:
+No significant abnormality.
+
+CVS:
+No significant abnormality.
+
+Urogenital Examination:
+
+Inspection:
+Left hemiscrotum appears enlarged, erythematous, and oedematous.
+Left testis appears to be in a normal vertical lie.
+No visible discharge from the urethral meatus at the time of examination.
+
+Palpation:
+Marked tenderness over the left epididymis and testis.
+Epididymis is palpably thickened and indurated.
+Prehn's sign is positive, with significant relief of pain on elevation of the scrotum.
+Left cremasteric reflex is present.
+Right testis and epididymis appear normal.
+No inguinal hernias or significant inguinal lymphadenopathy.
+
+ASSESSMENT:
+Acute epididymo-orchitis, likely secondary to a sexually transmitted infection.
+
+DIFFERENTIAL DIAGNOSES:
+1. Testicular torsion — urological emergency to be ruled out.
+2. Scrotal abscess.
+3. Incarcerated inguinal hernia.
+4. Tuberculous epididymitis.
+
+INITIAL INVESTIGATION PLAN:
+1. Urinalysis to assess for pyuria, nitrites, and haematuria.
+2. Urine Microscopy, Culture and Sensitivity (M/C/S).
+3. Urethral swab for Gram stain and Microscopy, Culture and Sensitivity, including testing for Neisseria gonorrhoeae where available.
+4. Full Blood Count (FBC) to assess for leucocytosis.
+5. Scrotal Ultrasound with Colour Doppler to assess testicular blood flow, support the diagnosis of epididymo-orchitis, and rule out testicular torsion, abscess formation, or testicular infarction.
+
+INITIAL MANAGEMENT PLAN:
+
+General Measures:
+- Bed rest.
+- Scrotal support using a scrotal bandage or tight-fitting underwear.
+- Cold packs to the scrotum for symptomatic relief.
+- Encourage adequate oral fluid intake.
+
+Analgesia:
+- IV Paracetamol 1 g 8-hourly × 24 hours, then transition to oral Paracetamol 1 g 8-hourly.
+- Oral Ibuprofen 400 mg 8-hourly with food for anti-inflammatory effect, provided there are no contraindications.
+
+Antibiotic Therapy:
+Given the patient's age and significant STI risk, empiric treatment should cover both Neisseria gonorrhoeae and Chlamydia trachomatis.
+
+- Ceftriaxone 250 mg IM stat.
+- PLUS Doxycycline 100 mg orally 12-hourly for 10–14 days.
+
+Alternative where doxycycline is contraindicated:
+- Azithromycin 1 g orally as a single dose.
+
+If enteric organisms are subsequently suspected based on clinical or microbiological findings, antibiotic therapy should be adjusted according to local guidelines and culture/sensitivity results.
+
+Follow-up and Counselling:
+- Review within 48–72 hours to assess clinical response.
+- Counsel regarding partner notification, testing, and treatment where an STI is confirmed or strongly suspected.
+- Counsel on safer sexual practices and consistent condom use.
+- Advise completion of the prescribed antibiotic course.
+- Escalate urgently if pain worsens, systemic toxicity develops, there is increasing scrotal swelling, or Doppler ultrasound raises concern for testicular torsion or abscess.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-44',
+  title: 'Right Primary Vaginal Hydrocele',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Right Primary Vaginal Hydrocele',
+  symptoms: [
+    'Painless right scrotal swelling',
+    'Progressive scrotal enlargement',
+    'Right groin dragging sensation',
+    'Scrotal heaviness',
+    'Positive transillumination',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '45-year-old man with a 6-month history of progressive painless right scrotal swelling, with a fluctuant, transilluminant scrotal mass and preserved ability to get above the swelling, consistent with a right primary vaginal hydrocele.',
+  content: `
+SURGICAL CLINIC
+
+Patient Seen
+
+A 45-year-old Yoruba male trader, resident of Ibadan, Oyo State, who presented with painless right scrotal swelling.
+
+PC:
+Painless right scrotal swelling × 6 months
+
+HPC:
+Patient presented with a 6-month history of right scrotal swelling. The swelling was insidious in onset, gradually progressive in size, and is currently about the size of a fist.
+
+It is associated with a dull, dragging sensation in the right groin, which worsens towards the evening after long hours of standing at his shop.
+
+There is no history of trauma to the groin or scrotum.
+
+No history of fever, urethral discharge, dysuria, or frequency.
+
+No history of chronic cough, weight loss, or drenching night sweats.
+
+The swelling does not disappear or reduce in size when lying down, and there is no history of a cough impulse.
+
+No similar swelling on the contralateral side.
+No history of lower limb swelling or skin changes.
+
+Past Medical History:
+No known chronic medical illnesses (Hypertension, Diabetes Mellitus, Asthma).
+No history of previous inguinal or scrotal surgeries.
+No history of sickle cell disease.
+
+Drug History:
+Patient has been self-medicating with OTC Ibuprofen 400 mg PRN for the dragging discomfort.
+No history of herbal concoction ingestion.
+No known drug allergies.
+
+Family and Social History:
+Married with three children.
+Trader by occupation, involving prolonged standing.
+Non-smoker.
+Social drinker, with occasional beer consumption.
+Resides in a suburban area with poor drainage systems, an area considered endemic for lymphatic filariasis.
+
+Review of Systems:
+
+CNS:
+No headache, no convulsions, no focal weakness.
+
+CVS:
+No chest pain, no palpitations, no orthopnoea.
+
+RS:
+No cough, no dyspnoea.
+
+GIT:
+Normal appetite.
+No abdominal pain, no constipation, or change in bowel habits.
+
+GUT:
+Normal urinary stream.
+No haematuria or dysuria.
+
+O/E:
+
+General Examination:
+Patient is conscious, alert, and in no obvious respiratory or painful distress.
+Not pale, anicteric, acyanotic, hydrated.
+No significant peripheral lymphadenopathy.
+No pedal oedema.
+
+Vitals:
+Temp: 36.5°C
+PR: 72 bpm, regular, normal volume
+RR: 14 cpm
+BP: 120/80 mmHg
+SpO₂: 99% on room air
+
+Abdomen:
+Flat, moves with respiration.
+No areas of tenderness.
+No organomegaly; liver and spleen not palpable.
+Kidneys not ballotable.
+No ascites.
+
+CVS:
+S1 S2 heard.
+No murmurs.
+
+RS:
+Lungs clear.
+Vesicular breath sounds.
+
+Surgical/Local Examination:
+
+Inspection:
+Right hemiscrotum is significantly enlarged, pyriform in shape, measuring approximately 12 cm × 8 cm.
+Scrotal skin is stretched but normal in colour, with loss of normal rugae.
+No visible scars, sinuses, or active ulceration.
+Left hemiscrotum and testis appear normal.
+No visible cough impulse in the groin or scrotum.
+
+Palpation:
+Right scrotal swelling is non-tender, fluctuant, and smooth-surfaced.
+
+Getting above the swelling is possible, with the spermatic cord clearly palpable above the mass at the pubic tubercle.
+
+The right testis and epididymis are difficult to palpate separately and are felt posteriorly within the fluid mass.
+
+No cough impulse palpable.
+
+Left testis and epididymis are normal in size, shape, and consistency.
+
+Transillumination:
+Strongly positive on the right side with a brilliant red glow.
+Negative on the left.
+
+Auscultation:
+No bowel sounds heard over the swelling.
+
+ASSESSMENT:
+Right primary vaginal hydrocele.
+
+DIFFERENTIAL DIAGNOSES:
+1. Indirect inguinal hernia (irreducible).
+2. Spermatocele / epididymal cyst.
+3. Varicocele.
+4. Testicular tumour with reactive hydrocele.
+
+INITIAL INVESTIGATION PLAN:
+1. Scrotal Ultrasound Scan (USS) to confirm fluid accumulation within the tunica vaginalis and evaluate the underlying testicular parenchyma, including exclusion of testicular malignancy or epididymo-orchitis.
+2. Urinalysis and Urine Microscopy, Culture & Sensitivity (M/C/S) to rule out urinary tract infection or subclinical epididymo-orchitis.
+3. Full Blood Count (FBC) as part of baseline pre-operative assessment.
+4. Nocturnal blood film for microfilariae to assess for lymphatic filariasis (Wuchereria bancrofti) where clinically indicated.
+
+INITIAL MANAGEMENT PLAN:
+
+Counselling & Education:
+- Counsel patient regarding the generally benign nature of primary hydrocele.
+- Explain that definitive resolution usually requires surgical treatment.
+
+Conservative / Supportive Care:
+- Advise use of scrotal support, such as a jockstrap or supportive/tight-fitting underwear, to reduce the dragging sensation.
+- Tab Ibuprofen 400 mg TDS × 5 days after meals OR Tab Paracetamol 1 g TDS PRN for mild discomfort.
+
+Medical Management:
+- Explain that there is no established primary medical cure for idiopathic vaginal hydrocele.
+- If a specific secondary cause such as lymphatic filariasis or epididymo-orchitis is identified, treat according to the confirmed aetiology.
+
+Surgical Management:
+- Refer to a General Surgeon or Urologist at a secondary or tertiary facility for elective hydrocelectomy.
+- Surgical options include Lord's plication or Jaboulay's eversion of the hydrocele sac, depending on the size and characteristics of the hydrocele and surgeon preference.
+- Complete pre-operative assessment, including FBC, urinalysis and other investigations as indicated.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-43',
+  title: 'Left Grade III Varicocele with Male Factor Subfertility',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Left Grade III Varicocele',
+  symptoms: [
+    'Left scrotal swelling',
+    'Scrotal heaviness',
+    'Chronic left scrotal pain',
+    'Bag-of-worms scrotal swelling',
+    'Subfertility',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-27',
+  summary: '28-year-old man with a 6-month history of progressive left scrotal swelling and 3-month history of dull dragging pain, with a clinically palpable Grade III varicocele, mild left testicular volume reduction, and a 2-year history of infertility.',
+  content: `
+SURGICAL CLINIC
+
+Patient Seen
+
+A 28-year-old Yoruba Christian man, civil servant, resident of Ibadan, Oyo State, who presented with left-sided scrotal swelling, heaviness, and chronic scrotal pain.
+
+PC:
+Left-sided scrotal swelling and heaviness × 6 months
+Dull, aching left scrotal pain × 3 months
+
+HPC:
+Patient presented with a 6-month history of left-sided scrotal swelling. The swelling was of gradual onset, slowly progressive, and described as a feeling of a "bag of worms" in his scrotum.
+
+It is more prominent and uncomfortable after prolonged standing or physical exertion at work and is significantly relieved when lying supine.
+
+He also reports a 3-month history of left scrotal pain, described as a dull, dragging ache. The pain is non-radiating, worse towards the end of the day, and partially relieved by resting in a recumbent position.
+
+There is no history of scrotal trauma, previous groin swelling, urethral discharge, dysuria, frequency, or fever.
+
+He has been married for 2 years with regular, unprotected sexual intercourse, but no conception has occurred. He reports normal libido and erectile function.
+
+He has been self-medicating with OTC Tab Ibuprofen 400 mg PRN, which provides only temporary pain relief.
+
+Past Medical History:
+No history of mumps orchitis, testicular torsion, or inguinal hernia.
+No history of previous scrotal or groin surgeries.
+No chronic medical conditions (HTN, DM, Asthma).
+Genotype: AA.
+No history of blood transfusions.
+
+Drug History:
+OTC Ibuprofen 400 mg PRN.
+No history of herbal medication use or chronic drug use.
+No known drug allergies.
+
+Family and Social History:
+Married for 2 years.
+Wife is 25 years old with regular menstrual cycles and no known gynaecological issues.
+Non-smoker.
+Occasional social alcohol consumer.
+No history of occupational exposure to excessive heat or toxins.
+
+Review of Systems:
+
+CNS:
+No headache, no dizziness, no sensory or motor deficits.
+
+CVS:
+No chest pain, no palpitations, no orthopnoea.
+
+RS:
+No cough, no dyspnoea.
+
+GIT:
+No abdominal pain, no change in bowel habits.
+
+GUT:
+No dysuria, no haematuria, no urethral discharge.
+
+MSS:
+No bone or joint pain.
+
+O/E:
+
+General Examination:
+Young man, comfortable, not in obvious respiratory distress, not pale, anicteric, acyanosed, hydrated, no significant peripheral lymphadenopathy, no pedal oedema.
+
+Vitals:
+Temp: 36.6°C
+PR: 74 bpm, regular, normal volume
+RR: 14 cpm
+BP: 110/70 mmHg
+SpO₂: 99% on room air
+
+Abdomen:
+Flat, moves with respiration.
+No areas of tenderness.
+No palpable masses or organomegaly.
+Liver, spleen, and kidneys not palpable.
+Inguinal rings free bilaterally.
+
+CVS:
+S1 S2 heard.
+No murmurs.
+
+RS:
+Lungs clear bilaterally.
+Vesicular breath sounds.
+
+CNS:
+Conscious, alert, oriented in time, place, and person.
+No focal neurological deficits.
+
+Urogenital/Surgical Examination:
+
+Inspection:
+Scrotum is asymmetrical, with the left hemiscrotum hanging lower than the right.
+Visible tortuous, engorged venous channels are noted on the left hemiscrotum when the patient stands, resembling a "bag of worms".
+No skin erythema, sinuses, ulcers, or scars.
+
+Palpation:
+Left Testis:
+Slightly smaller and softer compared to the right.
+Estimated volume approximately 12 mL versus 15 mL on the right.
+
+Right Testis:
+Normal size, firm, non-tender.
+
+Left Spermatic Cord:
+Soft, non-tender, compressible, tortuous mass superior to the left testis.
+The mass increases in size and turgidity on performing the Valsalva manoeuvre while standing, consistent with a Grade III varicocele.
+
+Cough Impulse:
+Negative at both inguinal canals.
+
+Transillumination:
+Negative bilaterally.
+
+ASSESSMENT:
+Left Grade III varicocele with associated male factor subfertility and chronic scrotal pain.
+
+DIFFERENTIAL DIAGNOSES:
+1. Left inguinoscrotal hernia.
+2. Left hydrocele.
+3. Chronic epididymitis.
+4. Spermatocele.
+
+INITIAL INVESTIGATION PLAN:
+1. Scrotal Duplex Ultrasound to confirm retrograde venous flow/reflux in the pampiniform plexus, assess venous diameter, and objectively assess testicular volumes.
+2. Seminal Fluid Analysis (SFA): Two separate samples collected 2–3 weeks apart after 3–5 days of sexual abstinence, to assess sperm count, motility, and morphology.
+3. Serum hormone profile: FSH, LH, Total Testosterone, and Prolactin, given testicular volume asymmetry and fertility concerns.
+4. Urinalysis to rule out subclinical urinary tract infection or epididymitis.
+
+INITIAL MANAGEMENT PLAN:
+
+Supportive & Conservative Care:
+- Advise use of scrotal support, such as a scrotal suspensory bandage or supportive briefs, to reduce venous congestion and alleviate dragging pain.
+- Advise avoidance of prolonged standing and heavy lifting where possible.
+- Tab Paracetamol 1 g TDS × 5 days, then PRN for pain control.
+
+Medical/Antioxidant Support:
+- Tab Vitamin E 400 IU daily × 3 months.
+- Tab Vitamin C 1000 mg daily × 3 months.
+- Zinc/Selenium combination supplement daily.
+
+Definitive Surgical Plan & Referral:
+- Refer to a Urologist at a secondary or tertiary facility for definitive surgical evaluation.
+- Surgical options to be discussed include:
+  - Microsurgical subinguinal varicocelectomy.
+  - Laparoscopic varicocelectomy.
+  - Open inguinal (Ivanissevich) varicocelectomy.
+  - Retroperitoneal (Palomo) varicocelectomy.
+
+Counselling:
+- Counsel patient and spouse regarding the relationship between varicocele and male factor subfertility.
+- Explain that varicocelectomy may improve semen parameters, although subsequent conception rates vary.
+- Recommend appropriate fertility evaluation of both partners.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-42',
   title: 'Hidradenitis Suppurativa',

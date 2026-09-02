@@ -19,4 +19,5 @@ export interface Template {
   content: string;
   documentation?: string;
   bookmarkCount: number;
+  imageUrls?: string[];
 }

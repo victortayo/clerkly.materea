@@ -4766,6 +4766,10 @@ Not yet available
     ],
     contributor: 'Admin',
     lastModified: '2026-08-27',
+    imageUrls: [
+      '/images/milia1.jpg',
+      '/images/milia2.jpg'
+    ],  
     summary: '8-month-old male infant presenting with a 5-day history of itchy erythematous papules and vesicles over the neck folds, upper chest, and back following increased ambient temperature and excessive sweating, consistent with miliaria rubra.',
     content: `PAEDIATRIC CLINIC
   
@@ -17796,7 +17800,170 @@ Not yet available
 
 
   // Internal Medicine
+  {
+    id: 'im-64',
+    title: 'Cushing Syndrome',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology',
+    condition: 'Cushing Syndrome',
+    symptoms: ['Progressive central weight gain', 'Moon facies', 'Purple striae', 'Proximal muscle weakness', 'Hirsutism', 'Irregular menses', 'Easy bruising'],
+    contributor: 'Admin',
+    lastModified: '2026-08-30',
+    summary: '38-year-old female civil servant presenting with progressive central weight gain, moon facies, wide purple striae, proximal muscle weakness, hirsutism, menstrual irregularity, easy bruising, and hypertension, clinically suggestive of endogenous Cushing syndrome.',
+    content: `ENDOCRINOLOGY CLINIC
   
+  Patient Seen
+  
+  A 38-year-old female civil servant residing in Surulere, Lagos State, Yoruba, Christian.
+  
+  PC:
+  
+  Progressive weight gain × 9 months
+  Facial puffiness × 6 months
+  Irregular menses × 5 months
+  Excessive hair growth on the face × 4 months
+  
+  HPC:
+  
+  She was apparently well until 9 months ago when she noticed a steady increase in her body weight. The weight gain is predominantly around her trunk and abdomen, while her arms and legs appear to have become thinner.
+  
+  About 6 months ago, she noticed her face becoming progressively rounded and puffy, described as "moon-like." This was followed by the appearance of dark purple, wide streaks on her abdomen and thighs.
+  
+  She also complains of significant physical weakness, particularly difficulty standing up from a sitting position or climbing stairs without support.
+  
+  Over the last 5 months, her menstrual cycle has become irregular, with infrequent periods and reduced flow. She also noted increased hair growth on her chin and upper lip.
+  
+  She reports easy bruising even with minor trauma and poor wound healing.
+  
+  There is associated back pain and occasional headaches.
+  
+  No history of chronic use of oral, injectable, or topical steroid-containing creams.
+  No history of using traditional herbal concoctions (agbo).
+  No known history of alcohol abuse or symptoms of depression.
+  
+  Past Medical and Surgical History:
+  
+  Diagnosed with hypertension 3 months ago at a private facility and currently on Amlodipine 10 mg daily.
+  No history of diabetes mellitus.
+  No previous surgeries or hospitalizations.
+  
+  Drug and Allergy History:
+  
+  Amlodipine 10 mg daily.
+  No known drug allergies.
+  
+  Family and Social History:
+  
+  Married in a monogamous setting with 3 children.
+  Does not smoke or drink alcohol.
+  Family history of hypertension in her mother.
+  
+  Review of Systems:
+  
+  CNS: Occasional headaches, no seizures, no visual field defects.
+  CVS: No palpitations, no orthopnea, no paroxysmal nocturnal dyspnea.
+  RS: No cough, no chest pain.
+  GIT: No abdominal pain, no change in bowel habits.
+  MSS: Proximal muscle weakness with difficulty climbing stairs.
+  
+  O/E:
+  
+  Acutely ill-looking middle-aged woman, conscious and alert.
+  
+  Not pale, anicteric, no pedal edema.
+  
+  Obese with central/truncal distribution and wasted extremities.
+  
+  Prominent supraclavicular and dorsocervical fat pads (buffalo hump).
+  
+  Facial plethora and moon facies.
+  
+  Hirsutism noted on the chin.
+  
+  Multiple purple striae greater than 1 cm wide on the abdomen and proximal thighs.
+  
+  Multiple ecchymoses on the shins.
+  
+  PR: 88 bpm, regular, full volume.
+  BP: 155/100 mmHg.
+  RR: 18 cpm.
+  Temp: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  Anthropometry:
+  
+  Weight: 92 kg.
+  Height: 1.62 m.
+  BMI: 35.1 kg/m² (obese).
+  
+  Systemic Examination:
+  
+  ABD: Centrally obese, soft, non-tender. No organomegaly.
+  
+  CVS: Apex beat at 5th LICS, MCL. S1 and S2 heard, no murmurs.
+  
+  RS: Trachea central. Breath sounds vesicular. No added sounds.
+  
+  CNS: Cranial nerves intact. Motor examination shows normal bulk with reduced power (4/5) in proximal muscle groups of the lower limbs. Reflexes normal.
+  
+  MSS: No joint swelling or deformities.
+  
+  ASS:
+  
+  Cushing syndrome, likely endogenous.
+  
+  Etiology to be determined:
+  1. Pituitary adenoma (Cushing disease).
+  2. Adrenal tumour.
+  3. Ectopic ACTH production.
+  
+  Differentials:
+  
+  1. Polycystic ovarian syndrome (PCOS).
+  2. Metabolic syndrome.
+  3. Pseudo-Cushing syndrome, less likely given absence of significant alcohol use or depression.
+  
+  INVESTIGATION:
+  
+  1. Confirm hypercortisolism:
+  - 24-hour urinary free cortisol (UFC).
+  - Overnight 1 mg dexamethasone suppression test.
+  - Late-night salivary cortisol, if available.
+  
+  2. Localize the aetiology:
+  - Serum ACTH level to differentiate ACTH-dependent from ACTH-independent disease.
+  - High-dose dexamethasone suppression test where clinically appropriate.
+  - MRI of the pituitary if ACTH-dependent disease is suspected.
+  - CT scan of the adrenals if ACTH is suppressed.
+  
+  3. General and supportive investigations:
+  - Full Blood Count (FBC).
+  - Serum electrolytes, Urea and Creatinine, with attention to hypokalaemia and metabolic alkalosis.
+  - Fasting Blood Glucose (FBG) and/or HbA1c to screen for diabetes mellitus.
+  - Pelvic ultrasound to assess for PCOS where clinically indicated.
+  - Baseline ECG.
+  
+  PLAN:
+  
+  1. Counsel the patient regarding the suspected diagnosis and the need for staged biochemical investigations to confirm hypercortisolism and determine the underlying cause.
+  2. Advise a low-salt, calorie-controlled diet.
+  3. Monitor blood pressure and blood glucose regularly.
+  4. Continue Amlodipine 10 mg daily for blood pressure control.
+  5. Consider addition of an ACE inhibitor or ARB if blood pressure remains uncontrolled, based on renal function, electrolytes, and clinical assessment.
+  6. If significant hypercortisolism is confirmed, consider medical therapy while awaiting definitive treatment or where surgery is unsuitable, using an appropriate steroidogenesis inhibitor such as Ketoconazole or Metyrapone under specialist supervision.
+  7. Monitor Liver Function Tests closely if Ketoconazole is commenced.
+  8. Assess bone health and consider Calcium/Vitamin D supplementation and anti-resorptive therapy where indicated.
+  9. Definitive treatment will depend on the identified cause: transsphenoidal surgery for a localized pituitary adenoma or adrenalectomy for an adrenal tumour.
+  10. Refer to Endocrinology for further evaluation and definitive management.
+  11. Refer to Neurosurgery or Urology as appropriate based on localization and imaging findings.
+  `,
+    documentation: `<div class="space-y-6">
+  
+  Not yet available
+  
+  </div>`,
+    bookmarkCount: 0
+  },
   {
     id: 'im-63',
     title: 'Enterobiasis (Pinworm Infestation)',
@@ -17925,6 +18092,10 @@ Not yet available
     ],
     contributor: 'Admin',
     lastModified: '2026-08-27',
+    imageUrls: [
+      '/images/seborrheic-dermatitis-1.jpeg',
+      '/images/seborrheic-dermatitis-2.jpeg',
+    ],  
     summary: '32-year-old male commercial driver with 3 months of pruritic greasy scalp scaling and 1 month of erythematous, greasy scaly facial lesions involving the glabella, eyebrows, nasolabial folds and presternal area, consistent with seborrheic dermatitis.',
     content: `DERMATOLOGY CLINIC
   
@@ -47125,6 +47296,279 @@ Not yet available
 
 
 // Obstetrics and Gynecology
+{
+  id: 'ob-47',
+  title: 'Vulvar Varicosities in Pregnancy',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Antenatal Clinic',
+  condition: 'Vulvar Varicosities',
+  symptoms: [
+  'Vulvar swelling',
+  'Vulvar heaviness',
+  'Perineal discomfort',
+  'Pain worsened by prolonged standing',
+  'Compressible vulvar mass'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-29',
+  summary: '28-year-old G3P2+0 woman at 38 weeks gestation with a 4-week history of progressive left-sided vulvar swelling associated with heaviness and perineal discomfort worsened by prolonged standing, with examination findings consistent with vulvar varicosities.',
+  content: `ANTENATAL CLINIC
+  
+  PATIENT SEEN
+  
+  A 28-year-old Yoruba female trader, G3P2+0 (2 alive), who resides in Bodija, Ibadan, Oyo State.
+  
+  EGA: 38 weeks by date.
+  LMP: 31/01/2023.
+  EDD: 07/11/2023.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Swelling and heaviness in the vulva × 4/52
+  2. Perineal discomfort worsening with standing × 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 4 weeks prior to presentation when she noticed a gradual onset of mild fullness and swelling in the vulva.
+  
+  The swelling has progressively become more prominent and is mainly located on the left side of the vulva. She describes the swelling as having a “bag of worms” sensation.
+  
+  There is associated dull, aching pain and a feeling of heaviness in the perineum.
+  
+  The discomfort worsens significantly after prolonged standing at her market stall or walking and is partially relieved by lying supine with her hips elevated.
+  
+  There is no history of trauma to the perineum.
+  
+  There is no history of bleeding, ulceration, or discharge from the swelling.
+  
+  There is no history of fever, leg swelling, or varicose veins elsewhere on the lower limbs.
+  
+  There is no history of urinary frequency, dysuria, or constipation.
+  
+  The index pregnancy has otherwise been uneventful.
+  
+  Fetal movements have been active and adequate.
+  
+  There is no history of drainage of liquor, vaginal bleeding, or painful uterine contractions.
+  
+  PAST OBSTETRIC HISTORY
+  
+  G1 – 2018, spontaneous vaginal delivery at term, male infant, birth weight 3.2 kg, alive and well. No intrapartum or postpartum complications.
+  
+  G2 – 2020, spontaneous vaginal delivery at term, female infant, birth weight 3.4 kg, alive and well. She noticed mild, transient vulvar itching and fullness during the third trimester, which resolved spontaneously postpartum.
+  
+  G3 – Index pregnancy.
+  
+  PAST MEDICAL HISTORY
+  
+  Not a known hypertensive or diabetic.
+  
+  No known history of chronic venous insufficiency.
+  
+  Genotype: HbAA.
+  
+  DRUG HISTORY
+  
+  She is on routine antenatal supplements:
+  
+  Tab Ferrous Sulphate 200 mg daily.
+  Tab Folic Acid 5 mg daily.
+  Tab Calcium Carbonate 500 mg daily.
+  
+  No history of herbal mixture (Agbo) ingestion.
+  
+  No history of self-medication with over-the-counter analgesics.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Married in a monogamous setting.
+  
+  She works as a trader and stands for approximately 8–10 hours daily.
+  
+  She does not smoke or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, visual disturbances, or dizziness.
+  
+  CVS: No palpitations or orthopnoea. No varicose veins noted in the lower limbs.
+  
+  RS: No cough or dyspnoea.
+  
+  GIT: No constipation or haemorrhoids.
+  
+  UROGENITAL: No dysuria or abnormal vaginal discharge.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A clinically stable pregnant woman, conscious and alert, not in any obvious painful or respiratory distress.
+  
+  Afebrile (Temperature: 36.6 °C).
+  
+  Not pale, anicteric, and acyanosed.
+  
+  No significant peripheral lymphadenopathy.
+  
+  No bilateral pedal oedema.
+  
+  VITAL SIGNS
+  
+  BP: 110/70 mmHg, sitting.
+  PR: 84 bpm, regular, normal volume.
+  RR: 18 cpm.
+  SpO₂: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Gravid abdomen.
+  
+  SFH: 38 cm, consistent with gestational age.
+  
+  Longitudinal lie.
+  
+  Cephalic presentation.
+  
+  Head: 5/5 palpable above the pelvic brim.
+  
+  FHR: 144 bpm, regular and rhythmic.
+  
+  No palpable uterine contractions.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  S1 and S2 heard.
+  
+  No murmurs.
+  
+  Peripheral pulses are present and equal.
+  
+  RESPIRATORY SYSTEM
+  
+  Chest is clear bilaterally.
+  
+  Breath sounds are vesicular.
+  
+  FOCUSED VULVAR EXAMINATION
+  
+  Inspection:
+  
+  Examination of the vulva in the standing position reveals prominent, tortuous, dilated bluish-purple veins localized primarily to the left labium majus, extending slightly towards the perineum.
+  
+  No active bleeding, ulceration, skin changes, or overlying erythema.
+  
+  No visible cough impulse at the inguinal rings.
+  
+  Palpation:
+  
+  The swelling is soft, highly compressible, and non-tender.
+  
+  It has a “bag of worms” consistency.
+  
+  No localized warmth or induration to suggest superficial thrombophlebitis.
+  
+  The swelling reduces significantly in size when the patient assumes a supine position.
+  
+  No regional inguinal lymphadenopathy.
+  
+  ASSESSMENT
+  
+  Vulvar Varicosities in a G3P2+0 at 38 weeks gestation.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Bartholin’s gland cyst
+  2. Inguinal hernia presenting as a labial swelling
+  3. Vulvar haematoma
+  
+  INITIAL INVESTIGATION PLAN
+  
+  Diagnosis is primarily clinical based on the characteristic appearance and positional reduction of the swelling.
+  
+  The following investigations are planned for routine term pregnancy assessment and delivery preparation:
+  
+  1. Obstetric Ultrasound Scan
+  
+  To assess fetal biometry, amniotic fluid volume, placental localization, and evaluate for associated pelvic pathology where indicated.
+  
+  2. Full Blood Count
+  
+  To assess baseline haemoglobin/PCV and platelet count.
+  
+  3. Urinalysis
+  
+  To screen for proteinuria, glycosuria, and features of urinary tract infection.
+  
+  4. Blood Group and Cross-match
+  
+  Arrange blood grouping and cross-matching according to anticipated obstetric risk and local delivery protocol.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. CONSERVATIVE AND SUPPORTIVE CARE
+  
+  Reassure the patient regarding the benign nature of vulvar varicosities.
+  
+  Counsel that the condition is related to increased pelvic blood flow, venous pressure, and mechanical compression during pregnancy and commonly resolves spontaneously after delivery.
+  
+  Advise avoidance of prolonged standing or sitting.
+  
+  Encourage frequent rest periods in the lateral recumbent position and elevation of the pelvis when resting.
+  
+  Recommend supportive undergarments or appropriately designed vulvar support garments to provide gentle compression.
+  
+  Apply clean cold compresses to the vulva for approximately 10–15 minutes at a time for symptomatic relief.
+  
+  Advise a high-fibre diet and adequate oral fluid intake to prevent constipation and straining.
+  
+  2. DELIVERY PLANNING
+  
+  Vulvar varicosities alone are not an indication for Caesarean section.
+  
+  Plan for spontaneous vaginal delivery if there is no other obstetric contraindication.
+  
+  Document the extent and location of the varicosities clearly and communicate the findings to the delivery team.
+  
+  Avoid unnecessary trauma to the vulvar veins.
+  
+  Episiotomy should not be performed routinely and should be avoided where possible if prominent varices are present at the intended incision site.
+  
+  The decision on episiotomy and mode of delivery should be individualized according to the extent of the varices and intrapartum findings.
+  
+  3. MONITORING AND SAFETY NETTING
+  
+  Advise the patient to present immediately if she develops:
+  
+  * Sudden severe vulvar pain or rapidly increasing swelling.
+  * Bleeding from the vulvar swelling.
+  * Significant change in the appearance of the swelling.
+  * Regular painful uterine contractions.
+  * Drainage of liquor.
+  * Vaginal bleeding.
+  * Reduced fetal movements.
+  
+  4. REFERRAL AND FOLLOW-UP
+  
+  Refer to the supervising Obstetrician for co-management and individualized delivery planning.
+  
+  Continue routine antenatal follow-up.
+  
+  Review postpartum to ensure regression of the vulvar varicosities.
+  
+  If the varicosities persist or remain symptomatic beyond the postpartum period, arrange further vascular or specialist assessment as appropriate.
+  `,
+    documentation: `
+  
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
 
 {
   id: 'ob-46',
@@ -56724,6 +57168,527 @@ Not yet available
 },
 
 // Surgery
+{
+  id: 'surg-52',
+  title: 'Traumatic Scalp Laceration Following Physical Assault',
+  specialty: 'Surgery',
+  subSpecialty: 'Emergency Surgery',
+  condition: 'Scalp Laceration',
+  symptoms: ['Scalp laceration', 'Scalp bleeding', 'Head pain', 'Painful scalp wound'],
+  contributor: 'Admin',
+  lastModified: '2026-08-30',
+  summary: '28-year-old male artisan presenting 2 hours after sustaining a 6 cm left parietal scalp laceration from a wooden plank during a physical altercation, with profuse initial bleeding but no loss of consciousness or focal neurological deficit.',
+  content: `EMERGENCY SURGERY
+
+Patient Seen
+
+A 28-year-old male artisan residing in Mushin, Lagos State, Yoruba.
+
+PC:
+
+Scalp laceration × 2 hours
+Bleeding from the scalp × 2 hours
+Pain in the head × 2 hours
+
+HPC:
+
+The patient was apparently well until about 2 hours prior to presentation when he was involved in a physical altercation with a coworker. During the fight, he was struck on the head with a wooden plank.
+
+There was immediate onset of pain and profuse bleeding from a wound on his scalp.
+
+No history of loss of consciousness, seizures, or vomiting following the injury.
+No history of blurring of vision or weakness in any part of the body.
+
+He applied a clean cloth to the site to achieve haemostasis before presenting to the emergency department.
+
+Past Medical History:
+
+Not a known hypertensive or diabetic patient.
+No previous history of hospital admissions or surgeries.
+Tetanus toxoid (TT) status: Last dose received in childhood; immunization status not up to date.
+
+Drug and Allergy History:
+
+No known drug allergies.
+Not currently on any chronic medications.
+
+Social History:
+
+He is a plumber by trade.
+Does not smoke.
+Drinks alcohol socially.
+Lives in a room-and-parlour apartment with adequate ventilation.
+
+Review of Systems:
+
+CNS: No headache, no dizziness, no loss of consciousness.
+RS: No cough, no chest pain, no breathlessness.
+CVS: No palpitations, no orthopnea.
+GIT: No abdominal pain, no change in bowel habits.
+
+O/E:
+
+Young man in painful distress but not in respiratory distress.
+
+Not pale, anicteric, acyanosed, not dehydrated.
+No significant peripheral lymphadenopathy.
+No pedal edema.
+
+PR: 88 bpm, regular, full volume.
+BP: 120/80 mmHg.
+RR: 18 cpm.
+Temp: 36.7°C.
+SpO₂: 98% on room air.
+
+Local Examination (Scalp):
+
+A 6 cm linear laceration over the left parietal region.
+
+Edges ragged and mildly contused.
+Depth involves the skin and subcutaneous tissue; galea aponeurosis appears intact.
+Presence of wood splinters and mild debris.
+No active bleeding at the time of examination; bleeding controlled by pressure.
+No palpable step-off or depressed skull deformity.
+
+Neurological Examination:
+
+GCS: 15/15 (E4 V5 M6).
+Pupils: 3 mm bilaterally, equal and reactive to light.
+Motor: Power 5/5 in all four limbs. Normal tone and reflexes.
+Sensory: Intact to primary modalities.
+No signs of meningeal irritation.
+
+ASS:
+
+Scalp laceration secondary to physical assault.
+
+Differentials:
+
+1. Traumatic brain injury (mild concussion).
+2. Underlying linear skull fracture.
+3. Subgaleal haematoma.
+
+INVESTIGATION:
+
+1. Full Blood Count (FBC) to assess baseline PCV and WBC count.
+2. Skull X-ray (AP and lateral views) to assess for underlying fracture.
+3. Random Blood Sugar (RBS).
+
+PLAN:
+
+1. Wound Care:
+- Shave surrounding hair to allow better visualization.
+- Irrigate wound thoroughly with normal saline and povidone-iodine.
+- Debride devitalized tissue and remove foreign bodies.
+- Suture laceration using Nylon 2-0 or 3-0 with simple interrupted sutures.
+- Apply sterile dressing.
+
+2. Medications:
+- Tetanus Toxoid 0.5 mL IM stat.
+- Tetanus Human Immunoglobulin (TIG) 250 IU IM given uncertain immunization history and contaminated wound.
+- Tab Amoxicillin/Clavulanate (Augmentin) 625 mg BD × 5 days.
+- Tab Ibuprofen 400 mg TDS × 3 days after meals.
+- Tab Paracetamol 1 g TDS × 3 days.
+
+3. Monitoring and Follow-up:
+- Observe for signs of increased intracranial pressure, including vomiting, persistent headache, or altered consciousness.
+- Wound review in 48 hours for dressing change.
+- Suture removal in 7–10 days.
+- Counsel on conflict resolution and avoidance of physical altercations.
+`,
+  documentation: `<div class="space-y-6">
+
+Not yet available
+
+</div>`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-51',
+  title: 'Pilonidal Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Pilonidal Abscess',
+  symptoms: [
+  'Painful sacrococcygeal swelling',
+  'Lower back pain',
+  'Fever',
+  'Foul-smelling purulent discharge',
+  'Pain worsened by prolonged sitting'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-29',
+  summary: '24-year-old male tailor with a 4-day history of a painful swelling in the sacrococcygeal region, associated with fever and spontaneous drainage of foul-smelling purulent fluid, with examination findings consistent with a pilonidal abscess.',
+  content: `PATIENT IDENTIFICATION
+  
+  A 24-year-old male tailor who resides in Ogbomosho, Oyo State.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Pain and swelling at the lower back × 4/7
+  2. Fever × 2/7
+  3. Foul-smelling discharge from the site × 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until 4 days ago when he noticed a small, painful swelling at the base of his spine within the intergluteal cleft.
+  
+  The pain is throbbing in nature, localized, and significantly worse when sitting for long periods at work. The pain is partially relieved by lying in a prone position.
+  
+  Two days prior to presentation, he developed a low-grade fever associated with general malaise and loss of appetite.
+  
+  One day prior to presentation, he noticed a spontaneous rupture of the swelling with drainage of yellowish, foul-smelling fluid, which provided a slight reduction in the intensity of the pain.
+  
+  There is no history of trauma to the site. No history of similar swellings in the past.
+  
+  There is no history of perianal pain during defecation, bleeding per rectum, or change in bowel habits.
+  
+  PAST MEDICAL HISTORY
+  
+  No known history of diabetes mellitus, hypertension, or sickle cell disease.
+  
+  No previous history of surgeries or hospitalizations.
+  
+  DRUG HISTORY
+  
+  He has been taking Tab Paracetamol 1 g PRN.
+  
+  He also applied an unidentified topical herbal ointment with no significant relief.
+  
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is the second of four children in a monogamous family setting.
+  
+  He works as a tailor and sits for approximately 10 hours daily.
+  
+  He does not smoke or drink alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no seizures.
+  RS: No cough, no chest pain.
+  CVS: No palpitations, no orthopnoea.
+  GIT: No abdominal pain, no constipation.
+  MSS: No joint pains.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young man in painful distress but otherwise stable.
+  
+  Febrile (Temperature: 37.9 °C).
+  
+  Not pale, not jaundiced, not dehydrated.
+  
+  No significant peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  VITAL SIGNS
+  
+  PR: 92 bpm, regular, full volume.
+  BP: 110/70 mmHg.
+  RR: 20 cpm.
+  SpO₂: 99% on room air.
+  
+  LOCAL EXAMINATION – SACROCOCCYGEAL REGION
+  
+  Inspection:
+  
+  A 4 cm × 3 cm erythematous swelling is noted over the sacrococcygeal region in the midline natal cleft.
+  
+  There is a visible midline pit, suggestive of a sinus, approximately 2 cm superior to the anus.
+  
+  Active purulent and serosanguineous discharge is noted from a small punctum.
+  
+  No multiple sinus tracks or extensive scarring noted.
+  
+  Palpation:
+  
+  Localized warmth and exquisite tenderness are present around the swelling.
+  
+  The mass is fluctuant.
+  
+  No significant inguinal lymphadenopathy.
+  
+  SYSTEMIC EXAMINATION
+  
+  Abdomen:
+  
+  Soft and non-tender.
+  No organomegaly.
+  Bowel sounds are present and normal.
+  
+  Respiratory System:
+  
+  Chest is clear.
+  Breath sounds are vesicular.
+  
+  Cardiovascular System:
+  
+  S1 and S2 heard.
+  No murmurs.
+  
+  ASSESSMENT
+  
+  Pilonidal Abscess.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Perianal abscess
+  2. Hidradenitis suppurativa
+  3. Infected sebaceous cyst
+  4. Sacrococcygeal furuncle
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To assess for leukocytosis.
+  2. Fasting Blood Glucose (FBG): To screen for diabetes mellitus as a predisposing factor.
+  3. Pus microscopy, culture and sensitivity (M/C/S): To identify the causative organism and guide antibiotic therapy, particularly in recurrent, severe, or non-resolving infection.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. SURGICAL MANAGEMENT
+  
+  Incision and drainage (I&D) is the primary treatment.
+  
+  * Perform adequate incision and drainage under local anaesthesia using 1% lignocaine where appropriate.
+  * Break up loculations and evacuate pus.
+  * Remove loose hair and debris from the abscess cavity.
+  * The wound may be packed loosely with an appropriate dressing where indicated.
+  * Arrange regular wound review and dressing changes.
+  
+  2. ANTIBIOTICS
+  
+  Antibiotics are not a substitute for adequate drainage and should be used selectively based on cellulitis, systemic features, immunocompromise, or other clinical indications.
+  
+  Where antibiotics are clinically indicated:
+  
+  * Cap Co-amoxiclav 625 mg BD × 7/7.
+  
+  Further antibiotic selection should be guided by clinical response and culture results where available.
+  
+  3. ANALGESIA
+  
+  * Tab Ibuprofen 400 mg TDS × 3/7, to be taken after meals, if not contraindicated.
+  * Tab Paracetamol 1 g TDS PRN × 3/7.
+  
+  4. SUPPORTIVE CARE AND PATIENT EDUCATION
+  
+  * Maintain good hygiene and keep the natal cleft clean and dry.
+  * Avoid applying unidentified herbal or irritant topical preparations.
+  * Avoid prolonged sitting during the acute painful period and use a cushion where necessary.
+  * Keep the surrounding hair controlled once the acute wound has healed, using an appropriate hair-removal method where suitable.
+  * Discuss weight control if overweight, as this may reduce recurrence risk.
+  
+  5. WOUND CARE
+  
+  * Regular dressing changes until adequate healing.
+  * Warm sitz baths may be used after the procedure if comfortable and appropriate to local wound-care practice.
+  
+  6. FOLLOW-UP
+  
+  * Review in the surgical outpatient clinic within 1 week for wound assessment.
+  * Following resolution of the acute abscess, assess for persistent or recurrent pilonidal sinus disease.
+  * Consider definitive surgical management for recurrent or chronic pilonidal sinus disease.
+  
+  RETURN IMMEDIATELY IF
+  
+  * Fever worsens or persists.
+  * Increasing pain, redness, or swelling develops.
+  * There is increasing or persistent purulent discharge.
+  * New areas of swelling or sinus formation occur.
+  * There are features of systemic illness.
+    `,
+    documentation: `
+  
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
+  id: 'surg-50',
+  title: 'Ganglion Cyst of the Right Wrist',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Ganglion Cyst',
+  symptoms: [
+    'Dorsal right wrist swelling',
+    'Gradually enlarging swelling',
+    'Occasional dull wrist pain',
+    'Pain with typing',
+    'Pain with lifting heavy objects'
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-08-29',
+  imageUrls: [
+    '/images/ganglion-cyst-1.jpg',
+  ], 
+  summary: '22-year-old male student with a 4-month history of a gradually enlarging dorsal right wrist swelling and a 3-week history of occasional dull aching pain worsened by prolonged typing and lifting heavy objects, with examination findings consistent with a ganglion cyst.',
+  content: `PATIENT IDENTIFICATION
+
+A 22-year-old male student who resides in Ogbomosho, Oyo State. He is of the Yoruba ethnic group.
+
+PRESENTING COMPLAINTS
+
+1. Swelling on the right wrist × 4/12
+2. Occasional dull ache × 3/52
+
+HISTORY OF PRESENTING COMPLAINT
+
+He was apparently well until 4 months ago when he noticed a small, painless swelling on the back of his right wrist. The onset was gradual, and the swelling has slowly increased in size over time.
+
+In the last 3 weeks, he started noticing a dull, aching pain around the swelling, particularly after long hours of typing or lifting heavy objects.
+
+There is no history of trauma to the wrist.
+
+There are no associated symptoms such as fever, weight loss, or similar swellings elsewhere on the body.
+
+He reports no numbness, tingling, or weakness in the hand or fingers.
+
+There is no morning stiffness or involvement of other joints.
+
+PAST MEDICAL HISTORY
+
+Not a known hypertensive or diabetic.
+No known history of sickle cell disease.
+No previous history of surgeries or similar swellings.
+
+DRUG HISTORY
+
+He has been using Tab Paracetamol 1 g PRN for the ache.
+No history of herbal medication use.
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+He is a final-year university student.
+He does not smoke or drink alcohol.
+There is no family history of similar swellings or connective tissue disorders.
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches, no loss of consciousness.
+RS: No cough, no shortness of breath.
+CVS: No palpitations, no chest pain.
+GIT: No abdominal pain, no change in bowel habits.
+MSS: As documented in HPC.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Young man, not in any obvious distress, not pale, not icteric.
+
+VITAL SIGNS
+
+PR: 78 bpm, regular, full volume
+BP: 110/70 mmHg
+RR: 18 cpm
+Temperature: 36.6 °C
+SpO₂: 98% on room air
+
+LOCAL EXAMINATION – RIGHT WRIST
+
+Inspection:
+
+A single, well-circumscribed, hemispherical swelling on the dorsal aspect of the right wrist, measuring approximately 2.5 cm × 2 cm.
+
+The overlying skin is normal with no redness, scars, or sinuses.
+
+The swelling becomes more prominent when the wrist is flexed.
+
+Palpation:
+
+The swelling is non-tender, smooth-surfaced, and has a firm, cystic feel.
+
+It is not attached to the overlying skin but is fixed to the underlying structures.
+
+It transilluminates brilliantly upon testing with a torchlight.
+
+MOVEMENT AND NEUROVASCULAR EXAMINATION
+
+Full range of motion at the wrist joint, including flexion, extension, radial deviation, and ulnar deviation.
+
+Radial and ulnar pulses are palpable and equal to the contralateral side.
+
+Sensation and motor power are intact in the distribution of the median, ulnar, and radial nerves.
+
+ASSESSMENT
+
+Ganglion Cyst of the Right Wrist.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Sebaceous cyst
+2. Lipoma
+3. Tenosynovitis
+4. Giant cell tumor of the tendon sheath
+
+INITIAL INVESTIGATION PLAN
+
+1. Clinical diagnosis is usually sufficient.
+2. Plain X-ray of the right wrist (AP and lateral views) to rule out carpal bossing or other bony abnormalities.
+3. Ultrasound scan of the swelling to confirm its cystic nature and relationship to the joint capsule if the diagnosis is unclear.
+
+INITIAL MANAGEMENT PLAN
+
+1. REASSURANCE
+
+Inform the patient that the condition is benign and may occasionally resolve spontaneously.
+
+2. ACTIVITY MODIFICATION
+
+Advise the use of a wrist splint and reduction of activities that precipitate or worsen the pain.
+
+3. PHARMACOLOGICAL MANAGEMENT
+
+For pain and inflammation:
+
+- Tab Ibuprofen 400 mg TDS × 5/7, to be taken after meals.
+
+Alternative:
+
+- Tab Naproxen 250 mg BD × 5/7.
+
+Topical:
+
+- Diclofenac gel applied to the affected area TDS for symptomatic relief.
+
+4. ASPIRATION
+
+Aspiration may be performed under aseptic conditions if the patient desires treatment.
+
+Counsel the patient that recurrence following aspiration is relatively common.
+
+5. SURGICAL MANAGEMENT
+
+Refer to a surgeon for formal excision if:
+
+- Pain persists despite conservative treatment.
+- There is significant functional impairment.
+- The patient has significant cosmetic concerns.
+- The cyst recurs repeatedly after aspiration.
+
+Surgical excision generally has a lower recurrence rate than aspiration.
+
+FOLLOW-UP
+
+Review as required to assess symptom progression and response to conservative management.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
 {
   id: 'surg-49',
   title: 'Superficial Right Palmar Laceration',

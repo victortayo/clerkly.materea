@@ -10061,7 +10061,7 @@ Summary
   id: 'examination-general-physical',
   title: 'General Physical Examination',
   category: 'Physical Examination',
-  subCategory: 'General',
+  subCategory: 'Internal Medicine',
   content: `
 <!DOCTYPE html>
 <html lang="en">

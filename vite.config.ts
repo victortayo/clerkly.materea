@@ -47,7 +47,7 @@ export default defineConfig(({mode}) => {
               },
             },
           ],
-          maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5 MB
+          maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // 6 MB
         },
       })
     ],

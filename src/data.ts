@@ -2701,6 +2701,851 @@ Not yet available
   
 
   // Pediatrics
+
+{
+  id: 'peds-85',
+  title: 'Pediculosis Capitis in an 8-Year-Old Girl',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Paediatric Dermatology',
+  condition: 'Pediculosis Capitis (Head Lice)',
+  symptoms: [
+    'Scalp itching × 1/52',
+    'Visualization of insects in the hair × 2/7',
+    'Scalp excoriations',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'An 8-year-old girl presenting with a 1-week history of intense scalp itching and a 2-day history of visible crawling insects and firmly adherent nits. Examination confirms live lice and nits, consistent with pediculosis capitis.',
+  content: `
+PAEDIATRIC CLINIC
+
+PATIENT SEEN
+
+An 8-year-old female residing in Dutse, Jigawa State. She is Hausa and Muslim. History was obtained from her mother, who is a reliable informant.
+
+PRESENTING COMPLAINTS
+
+Scalp itching × 1/52
+
+Visualization of insects in the hair × 2/7
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until 1 week ago when she started complaining of intense itching of the scalp. The itching is persistent throughout the day but reportedly worse at night.
+
+Two days ago, while combing the child's hair, the mother noticed small crawling insects and several tiny white specks firmly attached to the hair shafts.
+
+There is no history of scalp sores, pus discharge, or bleeding.
+
+No history of fever, body rashes, or similar itching on other parts of the body.
+
+A few of her playmates in the neighbourhood are reported to have similar symptoms.
+
+No previous medications or home remedies have been used for this complaint.
+
+PAST MEDICAL HISTORY
+
+No similar previous episodes.
+
+No known drug allergies.
+
+No history of asthma or atopic dermatitis.
+
+BIRTH HISTORY
+
+Term delivery via spontaneous vaginal delivery at a General Hospital.
+
+No neonatal period complications.
+
+DIETARY HISTORY
+
+Takes family diet.
+
+Adequate frequency and quality for age.
+
+IMMUNIZATION HISTORY
+
+Immunization is up to date according to the National Programme on Immunization (NPI) schedule.
+
+BCG scar present on the left deltoid.
+
+DEVELOPMENTAL HISTORY
+
+Attained all developmental milestones at appropriate ages.
+
+Currently in Primary 3 and performing well.
+
+FAMILY AND SOCIAL HISTORY
+
+Second of three children in a monogamous family setting.
+
+They live in a bungalow with six occupants.
+
+She shares a bed and hair accessories with her younger sister.
+
+Water source is a protected borehole.
+
+REVIEW OF SYSTEMS
+
+CNS: No headache, no seizures.
+
+RS: No cough, no chest pain.
+
+CVS: No easy fatigability.
+
+GIT: No abdominal pain, no change in bowel habits.
+
+MSS: No joint pains.
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+A young girl, conscious and alert, not in any obvious distress.
+
+Not pale, anicteric, acyanosed, and well hydrated.
+
+No significant peripheral lymphadenopathy.
+
+ANTHROPOMETRY
+
+Weight: 24 kg
+
+Height: 125 cm
+
+SCALP EXAMINATION
+
+Hair is dark and moderately long.
+
+Multiple pearly-white, oval-shaped nits (eggs) firmly attached to the hair shafts, primarily in the retroauricular and occipital regions.
+
+Live, motile lice, approximately 2 mm in length, visualized upon parting the hair.
+
+Mild linear excoriations on the scalp and posterior neck.
+
+No evidence of pustules, honey-coloured crusting, or boggy swelling suggestive of kerion.
+
+Occipital lymph nodes are palpable, mobile, and non-tender, approximately 0.5 cm.
+
+SYSTEMIC EXAMINATION
+
+RESPIRATORY SYSTEM
+
+RR: 20 cpm.
+
+Trachea central.
+
+Breath sounds vesicular.
+
+CARDIOVASCULAR SYSTEM
+
+PR: 88 bpm, regular and normal volume.
+
+S1 and S2 heard only.
+
+ABDOMEN
+
+Flat and moves with respiration.
+
+No organomegaly.
+
+Bowel sounds present.
+
+CENTRAL NERVOUS SYSTEM
+
+Grossly stable.
+
+ASSESSMENT
+
+Pediculosis capitis (head lice).
+
+DIFFERENTIAL DIAGNOSES
+
+1. Seborrhoeic dermatitis (dandruff)
+2. Scalp psoriasis
+3. Hair casts (pseudonits)
+4. Secondary impetigo
+
+INVESTIGATIONS
+
+Diagnosis is primarily clinical.
+
+1. Comb-runnings examination: Place hair combings on white paper to aid visualization of motile lice.
+2. Microscopic examination of the hair shaft to confirm nits if the diagnosis is uncertain.
+
+PLAN
+
+NON-PHARMACOLOGICAL MANAGEMENT
+
+1. Wet combing: Use a fine-toothed nit comb on wet hair lubricated with hair conditioner every 3 days for 2 weeks to mechanically remove lice and nymphs.
+2. Wash all bedding, towels, and recently worn clothing in hot water at a temperature of at least 60°C.
+3. Soak combs and hair brushes in hot water for 10 minutes.
+4. Screen all household members and close school contacts. Treat all infested individuals simultaneously to prevent re-infestation.
+
+PHARMACOLOGICAL MANAGEMENT
+
+1. First-line: Permethrin 1% lotion. Apply to towel-dried hair after washing with a non-conditioned shampoo. Leave for 10 minutes, then rinse. Repeat after 7–10 days to target newly hatched nymphs.
+2. Alternative: Malathion 0.5% lotion. Apply to dry hair and leave for 8–12 hours (overnight) before washing off. Repeat after 7 days if live lice are still seen. Avoid heat sources during application because the preparation is flammable.
+3. For heavy infestations or suspected resistance: Oral ivermectin 200 micrograms/kg as a single dose, repeated after 7 days. Use only if topical treatments fail and the child weighs more than 15 kg.
+4. Symptomatic relief: Cetirizine 5 mg orally once daily for itching.
+
+FOLLOW-UP
+
+Review in 14 days to confirm successful eradication.
+
+Advise the child to stay away from school until the first treatment has been completed.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'peds-84',
+  title: 'Functional Constipation in a 4-Year-Old Girl',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Paediatric Gastroenterology',
+  condition: 'Functional Constipation',
+  symptoms: [
+    'Difficulty passing stool × 2/12',
+    'Painful defecation × 1/12',
+    'Abdominal bloating × 2/52',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 4-year-old girl with a 2-month history of infrequent, hard stools associated with painful defecation, stool withholding behaviour, occasional blood streaking, abdominal bloating, and overflow faecal soiling. Findings are consistent with functional constipation with faecal impaction.',
+  content: `
+PAEDIATRIC CLINIC
+
+PATIENT SEEN
+
+A 4-year-old female residing in Ogbomosho, Oyo State. She is Yoruba and Muslim. History was obtained from her mother, who is a reliable informant.
+
+PRESENTING COMPLAINTS
+
+Difficulty passing stool × 2/12
+
+Painful defecation × 1/12
+
+Abdominal bloating × 2/52
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 2 months ago when her mother noticed that she started having infrequent bowel movements, occurring approximately once or twice a week.
+
+Stools are described as hard, lumpy, and difficult to pass, often requiring significant straining.
+
+About 1 month ago, she started experiencing pain during defecation, which led to active avoidance of the toilet.
+
+Her mother observed withholding manoeuvres, where the child crosses her legs or stands on her toes to prevent stool passage.
+
+There have been occasional streaks of bright red blood on the surface of the stool, but no heavy bleeding.
+
+In the last 2 weeks, there has been associated abdominal bloating and occasional episodes of faecal soiling (encopresis) in her underwear, which the mother initially mistook for diarrhoea.
+
+There is no history of recurrent vomiting, significant weight loss, or chronic cough.
+
+No history of delayed meconium passage, as she passed meconium within 24 hours of birth.
+
+No history of previous surgeries.
+
+PAST MEDICAL HISTORY
+
+No history of similar illness in infancy.
+
+No known chronic medical conditions such as hypothyroidism or sickle cell disease.
+
+No previous hospitalizations.
+
+BIRTH HISTORY
+
+Term delivery via spontaneous vaginal delivery at a General Hospital.
+
+No neonatal complications.
+
+Passed meconium within 18 hours of life.
+
+DIETARY HISTORY
+
+Exclusively breastfed for 6 months.
+
+Currently on family diet, which is predominantly carbohydrate-based, including Eba and rice.
+
+Poor intake of vegetables and fruits.
+
+Water intake is reported to be suboptimal.
+
+IMMUNIZATION HISTORY
+
+Immunization is up to date according to the National Programme on Immunization (NPI) schedule.
+
+BCG scar is present on the left deltoid.
+
+DEVELOPMENTAL HISTORY
+
+Attained all developmental milestones, including gross motor, fine motor, language, and social milestones, at appropriate ages.
+
+Currently in nursery school and performing well.
+
+FAMILY AND SOCIAL HISTORY
+
+First child in a monogamous family setting.
+
+Father is a tailor and mother is a petty trader.
+
+They live in a room-and-parlour apartment with adequate ventilation.
+
+Pit latrine is used for sewage disposal.
+
+REVIEW OF SYSTEMS
+
+CNS: No seizures or motor deficits.
+
+RS: No cough or fast breathing.
+
+CVS: No easy fatigability or pedal oedema.
+
+MSS: No joint swellings or bone pain.
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+A young girl, stable, not in any obvious respiratory or painful distress.
+
+Not pale, anicteric, acyanosed, and not dehydrated.
+
+No significant peripheral lymphadenopathy.
+
+No pedal oedema.
+
+ANTHROPOMETRY
+
+Weight: 16 kg
+
+Height: 102 cm
+
+ABDOMINAL EXAMINATION
+
+Inspection: Abdomen slightly full and moves with respiration. No visible peristalsis, dilated veins, or scars.
+
+Palpation: Abdomen soft with mild non-specific tenderness in the left iliac fossa. Palpable faecal masses noted in the left iliac fossa and suprapubic region. No hepatosplenomegaly.
+
+Percussion: Generally tympanitic.
+
+Auscultation: Normal bowel sounds heard.
+
+PERIANAL EXAMINATION
+
+No anal fissures or skin tags seen.
+
+Normal anal wink present.
+
+No patulous anus.
+
+SYSTEMIC EXAMINATION
+
+RESPIRATORY SYSTEM
+
+RR: 24 cpm.
+
+Lungs clear bilaterally with vesicular breath sounds.
+
+CARDIOVASCULAR SYSTEM
+
+PR: 96 bpm, regular and normal volume.
+
+S1 and S2 heard only.
+
+CENTRAL NERVOUS SYSTEM
+
+GCS: 15/15.
+
+Tone and reflexes normal in all limbs.
+
+ASSESSMENT
+
+Functional constipation with faecal loading/impaction and overflow faecal soiling.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Hirschsprung's disease (short-segment disease)
+2. Chronic anal fissure
+3. Hypothyroidism
+
+INVESTIGATIONS
+
+1. Abdominal X-ray (erect/supine) to assess faecal load and rule out intestinal obstruction.
+2. Thyroid Function Tests (T3, T4, TSH) to rule out hypothyroidism as a secondary cause.
+3. Urinalysis to screen for associated urinary tract infection.
+4. Barium enema to be considered if there is poor response to therapy or if Hirschsprung's disease is strongly suspected.
+
+PLAN
+
+EDUCATION AND COUNSELLING
+
+Counsel parents on the nature of functional constipation, emphasizing that management is often long-term and requires patience and adherence.
+
+Explain the mechanism of faecal soiling as overflow incontinence secondary to faecal impaction.
+
+DISIMPACTION PHASE
+
+Macrogol (Polyethylene Glycol) 3350: 1.0–1.5 g/kg/day for 3–6 days.
+
+Alternatively, if macrogol is unavailable, Liquid Paraffin 15–30 mL daily. Avoid in children with swallowing difficulties because of the risk of aspiration.
+
+MAINTENANCE THERAPY
+
+Preferred osmotic laxatives:
+
+Lactulose 5–10 mL twice daily OR Macrogol 3350 paediatric sachet 1 sachet daily.
+
+Titrate the dose to achieve 1–2 soft stools per day.
+
+If osmotic laxatives are insufficient:
+
+Bisacodyl 5 mg at night OR Senna syrup 5–10 mL at night.
+
+DIETARY AND LIFESTYLE MODIFICATION
+
+Increase dietary fibre by encouraging consumption of green leafy vegetables, fruits such as watermelon, pawpaw, and oranges with pulp, and whole grains.
+
+Increase fluid intake and ensure the child drinks adequate water throughout the day.
+
+TOILET TRAINING
+
+Implement scheduled toilet sitting for 5–10 minutes after meals to utilize the gastrocolic reflex.
+
+Provide a footstool so that the child's knees are positioned above the hips to facilitate easier passage of stool.
+
+FOLLOW-UP
+
+Review in 2 weeks to monitor stool frequency and consistency and adjust medication dosage as necessary.
+
+Continue maintenance medication for at least 2 months and taper gradually once regular, painless stooling has been established.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'peds-83',
+  title: 'Generalized Pruritus in an 11-Year-Old Boy',
+  specialty: 'Pediatrics',
+  subSpecialty: 'General Paediatric Clinic',
+  condition: 'Generalized Pruritus',
+  symptoms: [
+    'Generalized body itching × 1/52',
+    'Nocturnal worsening of itching',
+    'Excoriation marks over the trunk and limbs',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'An 11-year-old boy presenting with a 1-week history of generalized pruritus, worse at night, with generalized excoriation marks but no primary skin rash. Differentials include incipient scabies, papular urticaria, hookworm infestation, and atopic dermatitis.',
+  content: `
+GENERAL PAEDIATRIC CLINIC
+
+PATIENT SEEN
+
+Master Chidi Okechukwu, an 11-year-old male residing in Surulere, Lagos State. He is Igbo and Christian. History was obtained from his mother, who is a reliable informant.
+
+PRESENTING COMPLAINT
+
+Generalized body itching × 1/52
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 1 week ago when he developed generalized body itching. The itching is reported to be more severe at night and primarily involves the trunk and limbs.
+
+There is no history of associated skin rashes, blisters, or skin discoloration. No history of fever, sore throat, or recent upper respiratory tract infection.
+
+There is no history of use of new soaps, detergents, or body creams. No history of similar symptoms among schoolmates or household members.
+
+There is no history of recent drug ingestion or known allergies to food or the environment.
+
+PAST MEDICAL HISTORY
+
+Not a known patient with Sickle Cell Disease; genotype AA.
+
+No previous history of atopy, childhood eczema, or bronchial asthma.
+
+No history of previous hospitalizations or blood transfusions.
+
+Immunization history is complete according to the National Programme on Immunization (NPI) schedule.
+
+DIETARY HISTORY
+
+Takes 3 adequate meals per day. Diet is mainly carbohydrate-based with occasional protein.
+
+FAMILY AND SOCIAL HISTORY
+
+Patient is the second of three children in a monogamous family setting.
+
+Parents are petty traders.
+
+They reside in a 2-bedroom apartment with adequate ventilation.
+
+Source of water is a borehole, and waste disposal is via the state waste management agency.
+
+REVIEW OF SYSTEMS
+
+CNS: No headache, no seizures, no loss of consciousness.
+
+RS: No cough, no difficulty in breathing.
+
+CVS: No palpitations, no chest pain.
+
+GIT: No abdominal pain, no vomiting, no change in bowel habits.
+
+GU: No frequency, no dysuria.
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+An 11-year-old male, not acutely ill, not in respiratory or painful distress.
+
+Afebrile with a temperature of 36.6°C.
+
+Not pale, anicteric, not dehydrated, with no peripheral lymphadenopathy and no pedal oedema.
+
+ANTHROPOMETRY
+
+Weight: 34 kg
+
+Height: 142 cm
+
+SKIN EXAMINATION
+
+Generalized excoriation marks noted on the trunk and limbs due to scratching.
+
+No macules, papules, or vesicular rashes seen.
+
+No burrows noted in the finger webs or flexures.
+
+Skin is not excessively dry.
+
+SYSTEMIC EXAMINATION
+
+RESPIRATORY SYSTEM
+
+RR: 20 cpm.
+
+Trachea central.
+
+Chest moves symmetrically with respiration.
+
+Breath sounds are vesicular.
+
+CARDIOVASCULAR SYSTEM
+
+PR: 84 bpm, regular and full volume.
+
+BP: 100/70 mmHg.
+
+S1 and S2 heard, no murmurs.
+
+ABDOMEN
+
+Flat, soft, non-tender.
+
+Liver and spleen not palpable.
+
+Bowel sounds present and normal.
+
+CENTRAL NERVOUS SYSTEM
+
+Conscious and alert.
+
+No focal neurological deficits.
+
+ASSESSMENT
+
+Generalized pruritus in an 11-year-old boy.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Scabies (incipient stage)
+2. Papular urticaria
+3. Hookworm infestation (ancylostomiasis)
+4. Atopic dermatitis (prurigo variant)
+
+INVESTIGATIONS
+
+1. Full Blood Count (FBC) to check for eosinophilia.
+2. Stool microscopy for ova and parasites.
+3. Skin scraping for microscopy if any lesions appear on follow-up.
+
+PLAN
+
+1. Reassure the patient and mother.
+2. Maintain a high level of personal hygiene.
+3. Wash all beddings and clothes in hot water and sun-dry.
+4. Tab. Cetirizine 10 mg orally once daily for 7 days to relieve itching.
+5. Apply calamine lotion to affected areas twice daily.
+6. Empirical treatment with topical permethrin 5% cream: apply from the neck down, leave for 8–12 hours before washing off, and repeat in 1 week to cover for scabies given the nocturnal itching.
+7. De-worm with Tab. Albendazole 400 mg stat.
+8. Review in 1 week or earlier if a rash develops.
+
+HEALTH EDUCATION
+
+The mother was advised on good personal hygiene, regular washing and sun-drying of clothes and beddings, and avoidance of potential skin irritants.
+
+She was advised to return earlier if the patient develops a rash, fever, worsening itching, skin lesions, or other new symptoms.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+  
+{
+  id: 'peds-82',
+  title: 'Pubertal Gynecomastia with Galactorrhea',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Paediatric Endocrinology',
+  condition: 'Pubertal Gynecomastia with Galactorrhea',
+  symptoms: [
+    'Bilateral breast swelling',
+    'Breast pain',
+    'Bilateral nipple discharge',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: 'A 15-year-old male presenting with bilateral symmetrical breast enlargement, breast tenderness, and bilateral milky nipple discharge during puberty. Examination reveals bilateral sub-areolar glandular tissue with no suspicious breast or testicular masses, consistent with pubertal gynecomastia with galactorrhea.',
+  content: `
+PAEDIATRIC CLINIC
+
+PATIENT SEEN
+
+Master Chinedu Okafor, a 15-year-old male secondary school student residing in Achara Layout, Enugu, Enugu State.
+
+Tribe: Igbo
+
+Religion: Christian
+
+Informant: Patient and mother, both reliable.
+
+
+PRESENTING COMPLAINTS
+
+Bilateral breast swelling × 3/12
+
+Breast pain × 2/12
+
+Nipple discharge × 2/52
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+He was apparently well until 3 months ago when he noticed a gradual, symmetrical increase in the size of both breasts. The swelling started behind the nipples and has slowly progressed.
+
+There is associated dull, aching pain in both breasts, which is worse on touch or friction with clothing.
+
+Two weeks ago, he noticed a scanty, milky discharge from both nipples, occurring spontaneously and occasionally when the breasts are squeezed.
+
+There is no history of trauma to the chest, localized redness, skin warmth, or fever.
+
+He reports no headaches, visual disturbances, excessive thirst, or frequent urination.
+
+There is no history of weight gain, voice changes, or unusual hair growth.
+
+He has no history of chronic cough, abdominal swelling, or yellowish discoloration of the eyes.
+
+He denies the use of any chronic medications, herbal supplements, or recreational drugs, including cannabis.
+
+
+PAST MEDICAL HISTORY
+
+No history of similar illness in childhood.
+
+He is not a known patient with Sickle Cell Disease, Asthma, or Epilepsy.
+
+No previous hospitalizations or surgeries.
+
+No history of mumps orchitis.
+
+
+DRUG HISTORY
+
+No current use of medications.
+
+Denies use of antipsychotics, anti-emetics such as metoclopramide, or anabolic steroids.
+
+
+FAMILY AND SOCIAL HISTORY
+
+He is the second of four children in a monogamous family setting.
+
+Both parents are civil servants.
+
+There is no family history of similar breast enlargement in male relatives or early-onset breast cancer.
+
+He does not smoke or drink alcohol.
+
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches, seizures, or fainting spells.
+
+RS: No cough, chest pain, or breathlessness.
+
+CVS: No palpitations or pedal edema.
+
+GIT: No abdominal pain, constipation, or change in bowel habits.
+
+MSS: No joint pains or bone pain.
+
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+An adolescent male, comfortable and not acutely ill-looking.
+
+Acyanotic, anicteric, with no digital clubbing.
+
+No significant peripheral lymphadenopathy.
+
+No pedal edema.
+
+Hydration status is adequate.
+
+
+VITAL SIGNS
+
+PR: 78 bpm, regular, normal volume
+
+BP: 110/70 mmHg
+
+RR: 18 cpm
+
+Temperature: 36.6 °C
+
+SpO₂: 98% on room air
+
+
+LOCAL EXAMINATION OF THE BREASTS
+
+Inspection:
+
+Symmetrical enlargement of both breasts, approximately 4 cm in diameter.
+
+Nipple-areolar complexes appear normal.
+
+No skin tethering, peau d'orange, or ulceration.
+
+Palpation:
+
+A firm, mobile, sub-areolar disc of tissue is palpable bilaterally.
+
+Mild tenderness is elicited on palpation.
+
+No discrete hard masses or fluctuant swellings.
+
+Expression:
+
+Milky discharge noted from both nipples on gentle manual expression.
+
+Axillae:
+
+No palpable axillary lymph nodes.
+
+
+SYSTEMIC EXAMINATION
+
+Abdomen:
+
+Flat, soft, and non-tender.
+
+Liver and spleen are not palpable.
+
+No ascites.
+
+Kidneys are not ballottable.
+
+Genitalia:
+
+Normal male external genitalia.
+
+Testes are bilaterally descended in the scrotum, with an approximate volume of 12 mL, consistent with Tanner Stage 3–4.
+
+No testicular masses or varicoceles.
+
+CNS:
+
+Conscious and alert.
+
+No focal neurological deficits.
+
+Cranial nerves I–XII are intact.
+
+Rough visual field testing is normal.
+
+
+ASSESSMENT
+
+Pubertal gynecomastia with galactorrhea in a 15-year-old male.
+
+
+DIFFERENTIAL DIAGNOSES
+
+Drug-induced gynecomastia
+
+Prolactinoma (pituitary adenoma)
+
+Idiopathic galactorrhea
+
+Pseudogynecomastia (lipomastia)
+
+
+INVESTIGATIONS
+
+Serum prolactin level to assess for hyperprolactinemia/prolactinoma
+
+Thyroid Function Tests (TSH, T3, T4)
+
+Liver Function Tests and Serum Creatinine to assess for systemic organ dysfunction
+
+Hormonal profile: Serum Testosterone, LH, FSH, and Estradiol
+
+Breast Ultrasound Scan to differentiate glandular breast tissue from adipose tissue
+
+Scrotal Ultrasound Scan if the hormonal profile suggests a possible germ cell tumour
+
+
+PLAN
+
+Reassure the patient and his mother that pubertal gynecomastia is often a physiological and self-limiting condition.
+
+Counsel the patient to avoid manipulating or squeezing the nipples, as this may worsen the discharge.
+
+Review investigation results to exclude pathological causes.
+
+If prolactin is significantly elevated, arrange cranial CT or MRI to assess the pituitary gland.
+
+Refer to the Paediatric Endocrinology Unit for specialized follow-up.
+
+Surgical intervention with reduction mammoplasty is not indicated at this stage unless the swelling persists beyond 2 years or causes severe psychological distress.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
   {
     id: 'peds-81',
     title: 'Eruption of First Permanent Molars',
@@ -19313,6 +20158,2679 @@ Not yet available
 
 
   // Internal Medicine
+  {
+    id: 'im-04',
+    title: 'Acute Gastroenteritis with Moderate Dehydration',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Gastroenterology',
+    condition: 'Acute Gastroenteritis',
+    symptoms: [
+      'Vomiting',
+      'Frequent watery stools',
+      'Generalized abdominal cramps',
+      'Dehydration',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-09-26',
+    summary: 'A 26-year-old male with acute-onset vomiting, profuse watery diarrhoea, and generalized colicky abdominal cramps following consumption of food from a local vendor, with clinical features of moderate dehydration.',
+    content: `GENERAL OUTPATIENT CLINIC
+  
+  Patient Seen
+  A 26-year-old male student residing in Akoka, Lagos State, Yoruba.
+  
+  PC:
+  Vomiting × 8 h
+  Frequent watery stools × 6 h
+  Abdominal cramps × 8 h
+  
+  HPC:
+  The patient was apparently well until about 8 hours ago when he developed sudden-onset vomiting. The vomitus contained recently ingested food particles, was non-bilious and non-bloody, with approximately 5 episodes noted so far.
+  
+  About 2 hours later, he started passing frequent, profuse, watery stools. The stools are non-mucoid and non-bloody, with about 7 episodes since onset.
+  
+  He describes the abdominal pain as generalized, colicky, and intermittently relieved by defecation. There is no history of fever, chills, or rigors. He reports feeling progressively weak and thirsty.
+  
+  His last meal was a plate of rice and beans purchased from a local food vendor approximately 3 hours before the onset of symptoms. No other household members are currently symptomatic.
+  
+  PMH:
+  No known history of peptic ulcer disease or chronic gastrointestinal disorders.
+  No history of similar episodes in the recent past.
+  Not a known hypertensive or diabetic.
+  
+  DH:
+  He took two tablets of Metronidazole 400 mg and a sachet of Paracetamol about 4 hours ago with no significant relief.
+  No known drug allergies.
+  
+  Social History:
+  Lives in a student hostel with shared bathroom facilities.
+  Primary water source is treated sachet water.
+  Occasional alcohol consumption.
+  Non-smoker.
+  
+  ROS:
+  CNS: No headache or blurring of vision.
+  
+  CVS: No palpitations or chest pain.
+  
+  RS: No cough or difficulty breathing.
+  
+  MSS: Generalized body weakness and myalgia.
+  
+  O/E:
+  Young man, conscious and alert but acutely ill-looking and exhausted.
+  Moderately dehydrated with dry buccal mucosa, slightly sunken eyes, and skin turgor taking about 2 seconds to return.
+  Not pale, anicteric, acyanosed.
+  No significant peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  PR 106 bpm, tachycardic, regular, moderate volume
+  BP 100/60 mmHg supine
+  RR 22 cpm
+  Temp 36.8°C
+  SpO₂ 98% on room air
+  
+  ABD:
+  Flat, moves with respiration.
+  No visible scars or dilated veins.
+  Soft, mild generalized tenderness.
+  No guarding or rebound tenderness.
+  No palpable organomegaly.
+  Percussion note tympanic.
+  Hyperactive bowel sounds.
+  
+  CVS:
+  S1 and S2 heard.
+  No murmurs.
+  
+  RS:
+  Trachea central.
+  Breath sounds vesicular.
+  
+  CNS:
+  Grossly stable.
+  
+  ASS:
+  Acute gastroenteritis with moderate dehydration, secondary to suspected food poisoning, likely toxin-mediated.
+  
+  DIFFERENTIALS:
+  Staphylococcal food poisoning
+  Salmonellosis
+  Bacillary dysentery
+  Chemical food poisoning
+  
+  INVESTIGATIONS:
+  Stool microscopy, culture and sensitivity to identify causative pathogens.
+  FBC to assess for leukocytosis.
+  S/E/U/C to assess for electrolyte derangement and renal function.
+  Urinalysis to assess urine concentration as a marker of dehydration.
+  
+  PLAN:
+  Urgent Rehydration:
+  Admit for observation and rehydration.
+  Secure intravenous access with a wide-bore cannula.
+  Commence 1 L IV Normal Saline or Ringer's Lactate rapidly over 1 hour, then reassess hydration status.
+  Encourage oral intake of ORS as tolerated, 5–10 mL/kg for every loose stool.
+  
+  Symptomatic Treatment:
+  Injection Promethazine 25 mg IM or IV slowly to control vomiting OR Injection Ondansetron 4 mg IV stat.
+  Injection Hyoscine Butylbromide (Buscopan) 20 mg IV for severe colicky abdominal pain.
+  Zinc Sulphate 20 mg daily × 10–14/7.
+  
+  Antibiotic Therapy:
+  Most cases of food poisoning are self-limiting or toxin-mediated and do not require antibiotics. If symptoms persist, or if fever or bloody stools develop:
+  Tab Ciprofloxacin 500 mg BD × 3–5/7 OR
+  Tab Azithromycin 500 mg daily × 3/7.
+  
+  MONITORING:
+  Strict input-output charting.
+  Monitor vital signs, including BP and PR, 4-hourly.
+  Review after 6 hours of aggressive rehydration.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-93',
+    title: 'Migraine with Aura',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Migraine with Aura',
+    symptoms: [
+      'Unilateral throbbing headache',
+      'Visual aura',
+      'Photophobia and phonophobia',
+      'Nausea and vomiting',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-09-26',
+    summary: 'A 28-year-old female with a 3-month history of recurrent severe unilateral throbbing headaches preceded by visual aura and associated with photophobia, phonophobia, nausea, and vomiting, with emotional stress and sleep deprivation identified as triggers.',
+    content: `GENERAL OUTPATIENT CLINIC
+  
+  Patient Seen
+  A 28-year-old female teacher residing in Ogbomosho, Oyo State, Yoruba, married with two children.
+  
+  PC:
+  Recurrent headaches × 3/12
+  Nausea and vomiting × 1/7
+  
+  HPC:
+  The patient was apparently well until 3 months ago when she began experiencing recurrent episodes of severe headaches. The current episode started yesterday morning. The headache is typically unilateral, affecting the right side of the head, and is described as throbbing or pulsating in nature. Each episode lasts approximately 6–24 hours if untreated.
+  
+  The headache is preceded by visual disturbances described as seeing flickering lights and blurred vision lasting about 15–20 minutes before the pain sets in. The pain is aggravated by physical activity, bright light (photophobia), and loud noises (phonophobia). It is associated with significant nausea and three episodes of non-bilious vomiting since yesterday. She finds some relief by lying down in a dark, quiet room.
+  
+  She identifies emotional stress at work and lack of sleep as major triggers. There is no history of fever, neck stiffness, loss of consciousness, or weakness in any part of the body. There is no history of trauma to the head or use of oral contraceptive pills.
+  
+  PMH:
+  Not a known hypertensive or diabetic.
+  No previous history of head injury or ear discharge.
+  No history of asthma or peptic ulcer disease.
+  
+  DH:
+  She has been using over-the-counter Paracetamol and Ibuprofen with poor relief.
+  No known drug allergies.
+  
+  Social History:
+  She is a teacher in a primary school.
+  Non-smoker and does not consume alcohol.
+  
+  Family History:
+  Mother is said to suffer from similar recurrent headaches.
+  
+  ROS:
+  CNS: As described in HPC. No seizures or tremors.
+  
+  CVS: No palpitations or pedal oedema.
+  
+  RS: No cough or chest pain.
+  
+  GIT: Nausea and vomiting as described. No abdominal pain.
+  
+  MSS: No joint pains or swellings.
+  
+  O/E:
+  Young woman in painful distress, holding her head.
+  Not pale, anicteric, acyanosed, and not dehydrated.
+  No significant peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  PR 84 bpm, regular, normal volume
+  BP 110/70 mmHg
+  RR 18 cpm
+  Temp 36.7°C
+  SpO₂ 98% on room air
+  
+  CNS:
+  Conscious and alert. GCS 15/15.
+  No signs of meningeal irritation; no neck stiffness, Kernig's sign negative.
+  Cranial nerves I–XII intact.
+  Normal muscle bulk and tone.
+  Power 5/5 in all muscle groups.
+  Reflexes normal and symmetrical.
+  Sensation intact to touch and pain.
+  Fundoscopy normal with no papilloedema.
+  
+  CVS:
+  Apex beat located at 5th left intercostal space, mid-clavicular line.
+  S1 and S2 heard. No murmurs.
+  
+  ABD:
+  Flat, moves with respiration.
+  Soft, non-tender.
+  No organomegaly; liver and spleen not palpable.
+  Bowel sounds present.
+  
+  RS:
+  Trachea central.
+  Chest expansion symmetrical.
+  Breath sounds vesicular.
+  No added sounds.
+  
+  ASS:
+  Migraine with aura.
+  
+  DIFFERENTIALS:
+  Tension-type headache
+  Cluster headache
+  Secondary headache, including space-occupying lesion
+  
+  INVESTIGATIONS:
+  Diagnosis of migraine is primarily clinical. The following may be done to rule out other causes:
+  FBC and ESR
+  FBS
+  Urinalysis
+  CT brain if red flags such as focal neurological deficits or papilloedema are present, or if symptoms change pattern.
+  
+  PLAN:
+  Acute Treatment:
+  Admit to a quiet, dark, and well-ventilated room.
+  Maintain hydration with IV Normal Saline 1 L 8-hourly if vomiting persists.
+  IM Diclofenac 75 mg stat OR Tab Naproxen 500 mg BD × 3/7.
+  For severe attacks, Tab Sumatriptan 50 mg at the onset of headache; not during aura.
+  IV or Tab Metoclopramide 10 mg 8-hourly for nausea and to enhance analgesic absorption.
+  
+  Prophylaxis:
+  Tab Amitriptyline 10–25 mg nocte OR Tab Propranolol 40 mg BD. Avoid Propranolol if there is a history of asthma.
+  
+  HEALTH EDUCATION:
+  Educate on identifying and avoiding triggers such as stress, specific foods, and sleep deprivation.
+  Encourage use of a headache diary to track frequency and triggers.
+  Review in 2 weeks at the General Outpatient Clinic.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-92',
+    title: 'Episodic Tension-Type Headache',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Episodic Tension-Type Headache',
+    symptoms: [
+      'Recurrent bilateral headache',
+      'Tightness around the head',
+      'Pericranial muscle tenderness',
+      'Work-related headache exacerbation',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-09-26',
+    summary: 'A 32-year-old female with a 3-month history of recurrent mild to moderate bilateral frontal and occipital headaches described as a tight band around the head, worsened by work-related stress and prolonged desk work, with associated pericranial muscle tension and no migrainous features.',
+    content: `INTERNAL MEDICINE CLINIC
+  
+  Patient Seen
+  A 32-year-old female civil servant residing in Garki, Abuja, Igbo.
+  
+  PC:
+  Recurrent headache × 3/12
+  Feeling of tightness around the head × 2/7
+  
+  HPC:
+  The patient was apparently well until about 3 months ago when she started experiencing recurrent episodes of headache. The headache is described as a dull, aching sensation, often likened to a tight band squeezing around her head. It is bilateral, involving the frontal and occipital regions.
+  
+  The pain is usually mild to moderate in intensity and does not typically interfere with her daily work activities. Each episode lasts several hours, occasionally persisting throughout the day. There is no associated nausea, vomiting, photophobia, or phonophobia. She denies any preceding aura, visual disturbances, or focal weakness.
+  
+  The current episode started 2 days ago following a period of increased work-related stress. The pain is exacerbated by long hours of sitting at a desk and mental exhaustion. She finds some relief with sleep and over-the-counter analgesics.
+  
+  There is no history of head trauma, fever, or neck stiffness. No history of snoring or early morning headaches.
+  
+  PMH:
+  Not a known hypertensive or diabetic.
+  No history of chronic sinusitis or refractive errors.
+  No history of previous hospitalizations or surgeries.
+  
+  DH:
+  Uses Tab Paracetamol 1 g or Tab Ibuprofen 400 mg occasionally for pain relief with moderate effect.
+  Not on any long-term medications.
+  No known drug allergies.
+  
+  Social History:
+  Married with two children.
+  Works as a desk officer in a government ministry.
+  Does not smoke or consume alcohol.
+  
+  Family History:
+  Mother has a history of similar recurrent headaches.
+  
+  ROS:
+  CNS: No seizures, fainting spells, or sensory loss.
+  
+  CVS: No palpitations, chest pain, or orthopnoea.
+  
+  RS: No cough or dyspnoea.
+  
+  GIT: No abdominal pain or change in bowel habits.
+  
+  O/E:
+  Adult female, conscious and alert, not in any obvious respiratory or painful distress.
+  Not pale, anicteric, acyanotic, not dehydrated.
+  No significant lymphadenopathy.
+  No pedal oedema.
+  
+  PR 76 bpm, regular, normal volume
+  BP 110/70 mmHg
+  RR 16 cpm
+  Temp 36.6°C
+  SpO₂ 98% on room air
+  
+  CNS:
+  GCS 15/15.
+  Higher mental functions intact.
+  No signs of meningeal irritation; no neck stiffness, Kernig's sign negative.
+  Cranial nerves I–XII grossly intact.
+  Motor and sensory systems normal.
+  No cerebellar signs.
+  
+  Musculoskeletal:
+  Increased tension and mild tenderness over the pericranial muscles, specifically the trapezius and cervical paraspinal muscles.
+  Normal range of motion of the neck.
+  
+  ABD:
+  Full, soft, non-tender.
+  No organomegaly.
+  Bowel sounds present and normal.
+  
+  CVS/RS:
+  Heart sounds S1 and S2 only.
+  Lungs clear with vesicular breath sounds.
+  
+  ASS:
+  Episodic tension-type headache.
+  
+  DIFFERENTIALS:
+  Migraine without aura
+  Medication-overuse headache
+  Cervicogenic headache
+  
+  INVESTIGATIONS:
+  Diagnosis is primarily clinical. Baseline investigations to rule out secondary causes:
+  FBC to rule out anaemia or chronic infection.
+  FBS.
+  Urinalysis.
+  Serial BP monitoring to rule out hypertension.
+  Eye check (refraction) to rule out eye strain.
+  
+  PLAN:
+  Non-Pharmacological:
+  Reassurance and patient education on the nature of the condition.
+  Stress management techniques and relaxation exercises.
+  Postural correction during work hours and frequent breaks.
+  Identification and avoidance of triggers such as lack of sleep and skipping meals.
+  
+  Pharmacological – Acute Treatment:
+  Tab Paracetamol 1 g TDS × 3/7 OR
+  Tab Ibuprofen 400 mg BD or TDS × 3–5/7, to be taken after meals.
+  Tab Naproxen 250–500 mg BD as an alternative.
+  
+  Prophylactic Treatment:
+  Consider Tab Amitriptyline 10–25 mg ON, starting at a low dose and titrating slowly, if episodes become more frequent, e.g. >15 days per month.
+  
+  FOLLOW-UP:
+  Review in 4 weeks with a headache diary to monitor frequency and response to treatment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-91',
+    title: 'Cluster Headache',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Neurology',
+    condition: 'Cluster Headache',
+    symptoms: [
+      'Severe unilateral headache',
+      'Redness and tearing of the eye',
+      'Ipsilateral nasal blockage',
+      'Ptosis and miosis',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-09-26',
+    summary: 'A 32-year-old male with a 2-week history of recurrent severe right-sided orbital and temporal headaches lasting 30–90 minutes, occurring 2–3 times daily and associated with right-sided conjunctival injection, lacrimation, nasal blockage, ptosis, and miosis, consistent with cluster headache.',
+    content: `INTERNAL MEDICINE CLINIC
+  
+  Patient Seen
+  A 32-year-old male civil servant residing in Ibadan, Oyo State, Yoruba.
+  
+  PC:
+  Recurrent severe right-sided headache × 2/52
+  Redness and tearing of the right eye × 2/52
+  
+  HPC:
+  He was apparently well until 2 weeks ago when he started experiencing episodes of excruciating, sharp, stabbing pain localized around the right eye and temple. Each episode lasts between 30–90 minutes and occurs 2–3 times daily, frequently waking him from sleep in the middle of the night.
+  
+  The pain is associated with redness of the right eye, profuse tearing, and blocked nose on the same side. He describes the pain as a boring sensation, causing him to pace around the room restlessly during attacks.
+  
+  There is no associated nausea, vomiting, photophobia, or visual aura. He denies any history of head trauma, jaw claudication, or blurring of vision.
+  
+  No history of similar symptoms in the past.
+  
+  PMH:
+  Not a known hypertensive or diabetic.
+  No history of peptic ulcer disease or asthma.
+  
+  DH:
+  Has used Tab Paracetamol and Tab Ibuprofen with no significant relief.
+  No known drug allergies.
+  
+  Social History:
+  Current smoker with approximately 5 pack-years.
+  Drinks alcohol socially but noted increased frequency of attacks following alcohol ingestion.
+  Married in a monogamous setting with two children.
+  
+  Family History:
+  No family history of migraines or similar headache disorders.
+  
+  ROS:
+  CNS: As in HPC. No history of seizures, weakness, or loss of consciousness.
+  
+  CVS: No palpitations or orthopnoea.
+  
+  RS: No cough or chest pain.
+  
+  GIT: No abdominal pain or change in bowel habits.
+  
+  O/E:
+  Acutely ill-looking during an episode, restless and distressed. Interictally, he is comfortable and in no distress.
+  Not pale, anicteric, no peripheral oedema, no significant lymphadenopathy.
+  
+  PR 82 bpm, regular
+  BP 130/80 mmHg
+  RR 18 cpm
+  Temp 36.6°C
+  SpO₂ 98% on room air
+  
+  CNS:
+  Conscious and alert.
+  Right-sided conjunctival injection and mild ptosis noted during the visit.
+  Pupils slightly miotic on the right (2 mm) compared to the left (3 mm), both reactive to light.
+  Other cranial nerves I–XII intact.
+  Normal bulk and tone.
+  Power 5/5 in all muscle groups.
+  Sensation intact to primary modalities.
+  Reflexes normal and symmetrical.
+  No signs of meningeal irritation.
+  
+  CVS:
+  Pulse normal volume.
+  Apex beat at 5th left intercostal space, mid-clavicular line.
+  S1 and S2 heard; no murmurs.
+  
+  RS:
+  Trachea central.
+  Chest expansion symmetrical.
+  Percussion notes resonant.
+  Breath sounds vesicular.
+  
+  ABD:
+  Flat, moves with respiration.
+  No areas of tenderness.
+  No organomegaly.
+  Bowel sounds present and normal.
+  
+  ASS:
+  Cluster headache, likely in a cluster period.
+  
+  DIFFERENTIALS:
+  Migraine with prominent autonomic features
+  Paroxysmal hemicrania
+  Trigeminal neuralgia
+  Acute angle-closure glaucoma
+  
+  INVESTIGATIONS:
+  Clinical diagnosis is primary for cluster headache.
+  Brain MRI or CT scan to rule out structural intracranial lesions or pituitary abnormalities if symptoms become atypical or refractory.
+  Intraocular pressure (IOP) measurement to rule out glaucoma.
+  ESR to assess for temporal arteritis, although this is less likely given his age.
+  
+  PLAN:
+  Acute/Abortive Treatment:
+  High-flow 100% oxygen via non-rebreather mask at 12–15 L/min for 15–20 minutes at the onset of an attack.
+  Sumatriptan 6 mg SC injection or Sumatriptan 20 mg nasal spray if available; use with caution in patients with ischaemic heart disease.
+  
+  Prophylactic/Preventive Treatment:
+  Tab Verapamil 80 mg TDS. First-line preventive agent; dose may be titrated upwards with ECG monitoring for bradycardia or heart block.
+  Tab Prednisolone 60 mg daily for 5 days, then taper by 10 mg every 2 days as short-course bridge therapy while awaiting effect of Verapamil.
+  
+  HEALTH EDUCATION:
+  Strict avoidance of alcohol and tobacco during the cluster period, as these are known triggers.
+  Maintain a headache diary documenting frequency, duration, and triggers.
+  Review in 1 week to assess response to prophylaxis and monitor for medication side effects.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+{
+  id: 'im-90',
+  title: 'Irritable Bowel Syndrome – Mixed Type (IBS-M)',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology',
+  condition: 'Irritable Bowel Syndrome – Mixed Type',
+  symptoms: [
+    'Recurrent abdominal pain',
+    'Alternating constipation and diarrhoea',
+    'Abdominal bloating',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'Irritable bowel syndrome, mixed type, presenting with recurrent crampy lower abdominal pain relieved by defecation, alternating diarrhoea and constipation, bloating, and symptoms associated with dietary triggers and psychological stress.',
+  content: `
+GASTROENTEROLOGY CLINIC
+
+PATIENT SEEN
+
+A 28-year-old female teacher who resides in Ogbomosho, Oyo State. She is Yoruba by tribe and a Christian.
+
+PRESENTING COMPLAINTS
+
+Recurrent abdominal pain × 6/12
+
+Alternating constipation and diarrhoea × 6/12
+
+Abdominal bloating × 4/12
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 6 months ago when she began experiencing recurrent lower abdominal pain. The pain is described as crampy and of moderate intensity, occurring about 3–4 times a week. It is typically relieved following defecation.
+
+She reports a significant change in her bowel habits. During symptomatic periods, she may have up to 5 bowel movements a day with loose or watery stools. These episodes alternate with periods of constipation, during which she passes hard, lumpy stools accompanied by straining.
+
+She frequently experiences a sensation of incomplete evacuation and abdominal bloating, which is worse in the evenings.
+
+There is no history of passage of blood or mucus in stool.
+
+No history of fever, nausea, or vomiting.
+
+She has not noticed any significant weight loss or loss of appetite.
+
+Symptoms seem to worsen during periods of high work-related stress and after ingestion of certain foods such as beans and dairy products.
+
+
+PAST MEDICAL HISTORY
+
+No history of similar symptoms in the past.
+
+Not a known hypertensive or diabetic.
+
+No history of previous abdominal surgeries.
+
+No history of chronic NSAID use.
+
+
+DRUG HISTORY
+
+Not on any regular medications.
+
+Occasionally takes Paracetamol for abdominal cramps with minimal relief.
+
+No known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY
+
+She is the second of four children in a monogamous family setting.
+
+No family history of colorectal cancer or inflammatory bowel disease.
+
+She does not smoke or consume alcohol.
+
+She works as a primary school teacher, an occupation associated with significant daily stress.
+
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches or dizziness.
+
+CVS: No palpitations or pedal oedema.
+
+RS: No cough or shortness of breath.
+
+GIT: As in the history of presenting complaint.
+
+MSS: No joint pains or swelling.
+
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+A young woman, comfortably seated and not acutely ill.
+
+Not in respiratory or painful distress.
+
+Afebrile.
+
+Not pale, anicteric, adequately hydrated, with no peripheral oedema or significant lymphadenopathy.
+
+
+VITAL SIGNS
+
+Pulse Rate: 76 bpm, regular, normal volume.
+
+Blood Pressure: 110/70 mmHg.
+
+Respiratory Rate: 16 cpm.
+
+Temperature: 36.6 °C.
+
+SpO₂: 98% on room air.
+
+
+ABDOMINAL EXAMINATION
+
+INSPECTION
+
+Abdomen is flat and moves with respiration.
+
+No surgical scars, visible peristalsis, or dilated veins.
+
+
+PALPATION
+
+Abdomen is soft with mild generalized tenderness, more pronounced in the left iliac fossa.
+
+No palpable masses.
+
+Liver, spleen, and kidneys are not palpable.
+
+
+PERCUSSION
+
+Normal tympanitic note.
+
+No evidence of ascites; shifting dullness is negative.
+
+
+AUSCULTATION
+
+Bowel sounds are present and normal.
+
+
+DIGITAL RECTAL EXAMINATION
+
+Perianal area is normal.
+
+Sphincter tone is normal.
+
+Rectal vault is empty.
+
+No masses or tenderness.
+
+Gloved finger stained with normal-coloured stool.
+
+No blood or mucus.
+
+
+ASSESSMENT
+
+Irritable Bowel Syndrome, Mixed Type (IBS-M).
+
+
+DIFFERENTIAL DIAGNOSES
+
+Intestinal parasitosis, e.g. Giardiasis
+
+Lactose Intolerance
+
+Inflammatory Bowel Disease, particularly early presentation
+
+Chronic Pelvic Inflammatory Disease, to be ruled out
+
+
+INVESTIGATIONS
+
+Full Blood Count (FBC): To assess for anaemia or leukocytosis.
+
+Erythrocyte Sedimentation Rate (ESR): To screen for an inflammatory process.
+
+Stool Microscopy, Culture and Sensitivity: To assess for parasitic or bacterial infections.
+
+Stool for Occult Blood: To screen for gastrointestinal bleeding.
+
+Abdominal/Pelvic Ultrasound Scan: To assess for intra-abdominal or gynaecological pathology.
+
+
+PLAN
+
+NON-PHARMACOLOGICAL MANAGEMENT
+
+PATIENT EDUCATION AND REASSURANCE
+
+Explain the chronic, functional nature of IBS and the role of the brain–gut axis.
+
+Advise the patient regarding the generally benign nature of the condition while emphasizing the importance of returning if red-flag symptoms develop.
+
+
+DIETARY MODIFICATION
+
+Encourage keeping a food diary to identify individual dietary triggers.
+
+Consider a trial of a low-FODMAP diet.
+
+Increase intake of soluble fibre.
+
+Reduce or avoid known triggers such as beans, cabbage, carbonated drinks, and other foods that consistently worsen symptoms.
+
+
+LIFESTYLE MODIFICATION
+
+Encourage stress-management techniques.
+
+Encourage regular physical exercise.
+
+Promote adequate sleep and a regular meal pattern.
+
+
+PHARMACOLOGICAL MANAGEMENT
+
+FOR ABDOMINAL PAIN/SPASMS
+
+Hyoscine Butylbromide 10 mg PO TDS as required.
+
+OR
+
+Mebeverine 135 mg PO TDS, taken approximately 20 minutes before meals.
+
+
+FOR DIARRHOEA PREDOMINANCE
+
+Loperamide 2 mg PO as required after loose stools, up to a maximum of 16 mg/day.
+
+
+FOR CONSTIPATION PREDOMINANCE
+
+Bulk-forming laxative such as Psyllium/Ispaghula husk, with adequate fluid intake.
+
+
+FOR VISCERAL HYPERSENSITIVITY AND STRESS-RELATED SYMPTOMS
+
+Low-dose tricyclic antidepressant, e.g. Amitriptyline 10 mg PO nocte, may be considered.
+
+
+FOLLOW-UP
+
+Review in 2 weeks with investigation results and to assess response to dietary and initial pharmacological interventions.
+
+Monitor for the development of red-flag symptoms such as significant weight loss, nocturnal diarrhoea, rectal bleeding, persistent fever, or progressive symptoms.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'im-89',
+  title: 'Ascariasis',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology',
+  condition: 'Intestinal Ascariasis',
+  symptoms: [
+    'Abdominal pain',
+    'Passage of a worm in stool',
+    'Abdominal bloating and flatulence',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'Intestinal ascariasis presenting with recurrent periumbilical abdominal pain, abdominal bloating, excessive flatulence, and passage of a long, cylindrical, creamy-white worm in the stool.',
+  content: `
+GASTROENTEROLOGY CLINIC
+
+PATIENT SEEN
+
+A 24-year-old male student who resides in Ogbomosho, Oyo State. Yoruba.
+
+PRESENTING COMPLAINTS
+
+Abdominal pain × 2/52
+
+Passage of a worm in stool × 4/7
+
+Abdominal bloating and flatulence × 1/52
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+He was apparently well until 2 weeks ago when he developed recurrent, dull, periumbilical abdominal pain. The pain is non-radiating, has no specific relieving or aggravating factors, and is not associated with meals.
+
+One week prior to presentation, he started experiencing abdominal bloating and excessive flatulence.
+
+Four days ago, he reportedly passed a single, long, cylindrical, creamy-white worm in his stool.
+
+There is no history of passage of bloody or mucoid stools.
+
+No history of fever, nausea, or vomiting.
+
+No history of perianal itching or skin rashes.
+
+No history of chronic cough or haemoptysis.
+
+
+PAST MEDICAL HISTORY
+
+Not a known hypertensive or diabetic.
+
+No history of similar symptoms in the past.
+
+No previous hospitalizations or surgeries.
+
+No known history of sickle cell disease.
+
+
+DRUG HISTORY
+
+No history of recent antibiotic or anthelmintic use.
+
+No known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY
+
+He resides in a student hostel in Ogbomosho with shared toilet facilities using pit latrines.
+
+His primary water source is a communal borehole.
+
+He occasionally consumes street-vended food.
+
+He is the third of five children in a monogamous family setting.
+
+He does not smoke or consume alcohol.
+
+
+REVIEW OF SYSTEMS
+
+CNS: No headache or seizures.
+
+RS: No cough or shortness of breath.
+
+CVS: No palpitations or pedal oedema.
+
+MSS: No joint pains or muscle aches.
+
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+A young man, comfortable at rest and not in any obvious respiratory or painful distress.
+
+Afebrile, not pale, anicteric, not dehydrated, with no significant peripheral lymphadenopathy or pedal oedema.
+
+
+VITAL SIGNS
+
+Pulse Rate: 78 bpm, regular, normal volume.
+
+Blood Pressure: 110/70 mmHg.
+
+Respiratory Rate: 18 cpm.
+
+Temperature: 36.7 °C.
+
+SpO₂: 98% on room air.
+
+
+ABDOMINAL EXAMINATION
+
+INSPECTION
+
+Abdomen is full and moves with respiration.
+
+No visible dilated veins or surgical scars.
+
+
+PALPATION
+
+Abdomen is soft with mild periumbilical tenderness on deep palpation.
+
+No palpable masses.
+
+Liver and spleen are not enlarged.
+
+Kidneys are not ballotable.
+
+
+PERCUSSION
+
+Tympanitic percussion note.
+
+No clinical evidence of ascites.
+
+
+AUSCULTATION
+
+Bowel sounds are present and normal.
+
+
+SYSTEMIC EXAMINATION
+
+RESPIRATORY SYSTEM
+
+Trachea is central.
+
+Chest expansion is symmetrical.
+
+Breath sounds are vesicular.
+
+
+CARDIOVASCULAR SYSTEM
+
+Apex beat is at the 5th left intercostal space, midclavicular line.
+
+S1 and S2 heard.
+
+No murmurs.
+
+
+CENTRAL NERVOUS SYSTEM
+
+Conscious and oriented.
+
+No focal neurological deficits.
+
+
+ASSESSMENT
+
+Intestinal parasitosis, strongly suggestive of Ascariasis.
+
+
+DIFFERENTIAL DIAGNOSES
+
+Hookworm infestation
+
+Enterobiasis
+
+Amoebiasis
+
+Giardiasis
+
+
+INVESTIGATIONS
+
+Stool microscopy for Ova, Cysts and Parasites (OCP), preferably using a concentration technique.
+
+Full Blood Count (FBC): To assess for eosinophilia and anaemia.
+
+Urinalysis: To screen for concurrent urinary tract infection or incidental findings.
+
+
+PLAN
+
+PATIENT EDUCATION
+
+Educate on personal hygiene, including regular handwashing after using the toilet and before meals.
+
+Advise thorough washing of fruits and vegetables before consumption.
+
+Advise drinking boiled or appropriately treated water.
+
+Advise appropriate use and maintenance of sanitary toilet facilities.
+
+
+PHARMACOLOGICAL MANAGEMENT
+
+Albendazole 400 mg PO stat.
+
+OR
+
+Mebendazole 100 mg PO BD × 3/7 or 500 mg PO stat.
+
+OR
+
+Pyrantel pamoate 11 mg/kg PO stat, up to a maximum of 1 g.
+
+
+CONTACT MANAGEMENT
+
+Advise household contacts or roommates with similar symptoms to seek assessment and treatment.
+
+
+FOLLOW-UP
+
+Review in 2–3 weeks if symptoms persist.
+
+Repeat stool microscopy to assess for persistent parasitic infestation where clinically indicated.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'im-88',
+  title: 'Lactose Intolerance (Primary Lactase Deficiency)',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology',
+  condition: 'Lactose Intolerance',
+  symptoms: [
+    'Recurrent abdominal bloating',
+    'Excessive flatulence',
+    'Intermittent watery diarrhoea',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'Primary lactose intolerance presenting with post-dairy abdominal bloating, flatulence, borborygmi, crampy abdominal pain, and watery diarrhoea that resolves with lactose avoidance.',
+  content: `
+GASTROENTEROLOGY CLINIC
+
+PATIENT SEEN
+
+A 24-year-old female student who resides in Dutse, Jigawa State. She is of the Hausa ethnic group.
+
+PRESENTING COMPLAINTS
+
+Recurrent abdominal bloating × 6/12
+
+Excessive flatulence × 6/12
+
+Intermittent watery diarrhoea × 6/12
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about 6 months ago when she started noticing recurrent abdominal discomfort. She describes the symptoms as a sensation of fullness and bloating associated with significant flatulence and borborygmi.
+
+Symptoms typically occur 30 minutes to 2 hours following the ingestion of milk, ice cream, or milk-based cereals. She reports associated crampy abdominal pain which is relieved by the passage of flatus or stool.
+
+The diarrhoea is watery, non-bloody, non-mucoid, and has a notably foul or acidic smell.
+
+There is no history of fever, vomiting, or significant weight loss.
+
+No history of recent antibiotic use or travel.
+
+Symptoms resolve completely when she avoids dairy products for several days.
+
+
+PAST MEDICAL AND SURGICAL HISTORY
+
+No known chronic medical conditions such as Diabetes Mellitus or Hypertension.
+
+No previous abdominal surgeries.
+
+No history of recurrent childhood infections or diagnosed food allergies.
+
+
+DRUG HISTORY
+
+She occasionally uses over-the-counter antacids and paracetamol with minimal relief of gastrointestinal symptoms.
+
+No known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY
+
+She is the second of four children in a monogamous family setting.
+
+No family history of similar symptoms or Coeliac disease.
+
+She lives in a university hostel and primarily eats from the school cafeteria.
+
+She does not smoke or drink alcohol.
+
+
+REVIEW OF SYSTEMS
+
+CNS: No headache or loss of consciousness.
+
+CVS: No palpitations or orthopnoea.
+
+RS: No cough or chest pain.
+
+MSS: No joint pains or swelling.
+
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+An adult female, comfortable at rest and not in any obvious respiratory or painful distress.
+
+Not acutely ill.
+
+Not pale, anicteric, not dehydrated, with no pedal oedema or peripheral lymphadenopathy.
+
+
+VITAL SIGNS
+
+Pulse Rate: 76 bpm, regular, normal volume.
+
+Blood Pressure: 110/70 mmHg.
+
+Respiratory Rate: 18 cpm.
+
+Temperature: 36.7 °C.
+
+SpO₂: 98% on room air.
+
+
+ABDOMINAL EXAMINATION
+
+INSPECTION
+
+Abdomen is flat and moves with respiration.
+
+No visible peristalsis or surgical scars.
+
+
+PALPATION
+
+Abdomen is soft and non-tender.
+
+No palpable masses.
+
+No hepatosplenomegaly.
+
+
+PERCUSSION
+
+Normal tympanitic note throughout.
+
+
+AUSCULTATION
+
+Bowel sounds are present and normoactive.
+
+
+ASSESSMENT
+
+Lactose Intolerance, likely Primary Lactase Deficiency.
+
+
+DIFFERENTIAL DIAGNOSES
+
+Irritable Bowel Syndrome (IBS)
+
+Small Intestinal Bacterial Overgrowth (SIBO)
+
+Giardiasis
+
+Coeliac Disease
+
+
+INVESTIGATIONS
+
+Clinical Lactose Challenge: A 2-week trial of a strictly lactose-free diet followed by reintroduction of lactose to observe for symptom recurrence.
+
+Stool Microscopy: To rule out parasitic infestations such as Giardia.
+
+Stool pH: May demonstrate acidic stool due to fermentation of unabsorbed lactose.
+
+Hydrogen Breath Test: If available, to objectively assess lactose malabsorption.
+
+Full Blood Count (FBC): To assess for anaemia or evidence of an infective/inflammatory process.
+
+
+PLAN
+
+NON-PHARMACOLOGICAL MANAGEMENT
+
+Reduce or avoid high-lactose foods such as milk, soft cheeses, and ice cream.
+
+Encourage gradual reintroduction of small amounts of lactose to determine individual tolerance.
+
+Substitute with lactose-free milk or fortified plant-based alternatives such as soy or almond milk.
+
+Encourage fermented dairy products such as yoghurt and aged cheeses, which may be better tolerated.
+
+
+PHARMACOLOGICAL MANAGEMENT
+
+Lactase enzyme supplements: 3,000–9,000 units PO with the first bite or sip of dairy-containing meals, according to product preparation.
+
+Probiotics containing Lactobacillus or Bifidobacterium may be considered, although response varies between individuals.
+
+Calcium and Vitamin D supplementation may be considered if dairy intake is significantly restricted.
+
+Calcium carbonate 500 mg PO daily may be used where dietary calcium intake is inadequate.
+
+Loperamide 2 mg PO may be used for short-term symptomatic relief if diarrhoea is severe and interferes with daily activities, provided there are no contraindications.
+
+
+FOLLOW-UP
+
+Review in 4 weeks to assess symptom control, dietary tolerance, and nutritional status.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'im-87',
+  title: 'Small Intestinal Bacterial Overgrowth (SIBO)',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology',
+  condition: 'Small Intestinal Bacterial Overgrowth',
+  symptoms: [
+    'Recurrent abdominal bloating',
+    'Excessive flatulence',
+    'Intermittent watery diarrhoea',
+    'Weight loss',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'Small intestinal bacterial overgrowth presenting with post-prandial bloating, excessive foul-smelling flatulence, intermittent watery diarrhoea, steatorrhoea, and weight loss in a patient with poorly controlled Type 2 Diabetes Mellitus.',
+  content: `
+GASTROENTEROLOGY CLINIC
+
+PATIENT SEEN
+
+A 42-year-old female teacher who resides in Ogbomosho, Oyo State. Yoruba.
+
+PRESENTING COMPLAINTS
+
+Recurrent abdominal bloating × 6/12
+
+Excessive flatulence × 6/12
+
+Intermittent watery diarrhoea × 4/12
+
+Weight loss × 3/12
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until 6 months ago when she started noticing progressive abdominal bloating and distension. Symptoms are typically post-prandial, often occurring 30–60 minutes after meals. She reports excessive passage of foul-smelling flatus which provides temporary relief. There is associated vague abdominal discomfort, but no frank colicky pain.
+
+About 4 months ago, she developed intermittent watery diarrhoea, occurring 3–4 times daily. The stools are non-bloody, but sometimes appear greasy, pale, and are difficult to flush. She has noted a significant reduction in her weight, estimated at 5 kg, despite maintaining a normal appetite.
+
+There is no history of recurrent vomiting, haematemesis, or melaena.
+
+No history of chronic cough, drenching night sweats, or contact with persons with chronic cough.
+
+
+PAST MEDICAL HISTORY
+
+She is a known patient with Type 2 Diabetes Mellitus, diagnosed 8 years ago.
+
+She is currently on Metformin 1 g BD and Glibenclamide 5 mg daily, though she admits to poor compliance and suboptimal glycaemic control.
+
+She had an open cholecystectomy 5 years ago for symptomatic gallstones.
+
+No history of asthma or known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY
+
+She is married in a monogamous setting with three children.
+
+She is a secondary school teacher.
+
+She does not smoke cigarettes or consume alcohol.
+
+No family history of Coeliac disease or Inflammatory Bowel Disease.
+
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches, seizures, or blurring of vision.
+
+RS: No cough.
+
+CVS: No palpitations or orthopnoea.
+
+GIT: As above. No jaundice.
+
+MSS: No joint swelling or muscle weakness.
+
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+A middle-aged woman, comfortable at rest, not in any obvious respiratory or painful distress.
+
+Not pale, anicteric, not dehydrated, with no peripheral lymphadenopathy or pedal oedema.
+
+
+VITAL SIGNS
+
+Pulse Rate: 78 bpm, regular, normal volume.
+
+Blood Pressure: 130/80 mmHg.
+
+Respiratory Rate: 18 cpm.
+
+Temperature: 36.7 °C.
+
+SpO₂: 98% on room air.
+
+
+ABDOMINAL EXAMINATION
+
+INSPECTION
+
+Abdomen is slightly distended and moves with respiration.
+
+Healed right subcostal scar (Kocher's scar) noted.
+
+No visible peristalsis or dilated veins.
+
+Umbilicus is centrally located and inverted.
+
+
+PALPATION
+
+Abdomen is soft with generalized mild tenderness on deep palpation.
+
+No organomegaly; liver, spleen, and kidneys are not palpable.
+
+No palpable abdominal masses.
+
+
+PERCUSSION
+
+Generalized tympanitic note.
+
+No shifting dullness or fluid thrill.
+
+
+AUSCULTATION
+
+Bowel sounds present and normal, approximately 8 cpm.
+
+
+ASSESSMENT
+
+Small Intestinal Bacterial Overgrowth (SIBO), likely secondary to diabetic autonomic neuropathy and post-surgical stasis.
+
+
+DIFFERENTIAL DIAGNOSES
+
+Irritable Bowel Syndrome (IBS)
+
+Tropical Sprue
+
+Chronic Giardiasis
+
+Lactose Intolerance
+
+
+INVESTIGATIONS
+
+Full Blood Count (FBC): To assess for macrocytic anaemia suggestive of Vitamin B12 deficiency or microcytic anaemia suggestive of iron deficiency.
+
+Fasting Blood Sugar and HbA1c: To assess current glycaemic control.
+
+Stool Microscopy, Culture and Sensitivity: To evaluate for parasitic infestations such as Giardia and chronic bacterial infections.
+
+Hydrogen Breath Test using lactulose or glucose: For non-invasive diagnosis of SIBO, if available at a tertiary centre.
+
+Serum Vitamin B12 and Folate levels: To assess for malabsorption-related deficiencies.
+
+Abdominal Ultrasound: To evaluate for structural abnormalities, although it may be normal in SIBO.
+
+
+PLAN
+
+NUTRITIONAL SUPPORT
+
+Advise on a low-FODMAP diet, avoiding fermentable carbohydrates to reduce bacterial fermentation.
+
+Encourage small, frequent meals.
+
+
+ANTIBIOTIC THERAPY
+
+Rifaximin 550 mg PO TDS × 14/7.
+
+If Rifaximin is unavailable or unaffordable, consider Metronidazole 400 mg PO TDS × 10/7 or Ciprofloxacin 500 mg PO BD × 10/7.
+
+
+PROKINETIC THERAPY
+
+Low-dose Erythromycin 50–100 mg PO nocte or Metoclopramide 10 mg PO TDS to improve gastrointestinal motility and reduce stasis.
+
+
+GLYCAEMIC CONTROL
+
+Optimize diabetes management.
+
+Consider intensification of diabetic therapy, including a basal-bolus insulin regimen if oral hypoglycaemic agents are insufficient to achieve adequate glycaemic control.
+
+
+SUPPLEMENTATION
+
+Administer intramuscular Vitamin B12 if deficiency is confirmed.
+
+Consider multivitamin supplementation, including fat-soluble vitamins A, D, E and K, particularly if evidence of malabsorption is present.
+
+
+FOLLOW-UP
+
+Review in 2 weeks to assess resolution of abdominal bloating and diarrhoea.
+
+If symptoms persist, reassess the diagnosis and underlying cause before considering further or alternative antibiotic therapy.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'im-86',
+  title: 'Opioid-Induced Constipation Secondary to Tramadol',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology',
+  condition: 'Medication-Induced Constipation',
+  symptoms: [
+    'Inability to pass stool × 5/7',
+    'Abdominal bloating and discomfort × 3/7',
+    'Hard, lumpy stools prior to cessation',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 48-year-old hypertensive man with acute constipation and faecal impaction following initiation of tramadol for chronic low back pain. He remains able to pass flatus and has no vomiting or peritoneal signs, making opioid-induced constipation the leading diagnosis.',
+  content: `
+INTERNAL MEDICINE CLINIC
+
+PATIENT SEEN
+
+A 48-year-old male civil servant residing in Garki, Abuja. He is Igbo.
+
+PRESENTING COMPLAINTS
+
+Inability to pass stool × 5/7
+
+Abdominal bloating and discomfort × 3/7
+
+HISTORY OF PRESENTING COMPLAINT
+
+He was apparently well until 10 days ago when he started taking oral tramadol 50 mg three times daily, prescribed at a private facility for chronic low back pain.
+
+About 5 days ago, he noticed that he could no longer pass stool despite several attempts and significant straining.
+
+Stools passed prior to total cessation were described as hard, lumpy, and difficult to expel.
+
+There is associated abdominal bloating and mild generalized colicky pain, which started 3 days ago.
+
+He denies nausea, vomiting, or absolute constipation, as he is still passing flatus.
+
+There is no history of haematochezia, weight loss, or change in appetite.
+
+No history of similar episodes prior to commencement of the new medication.
+
+PAST MEDICAL AND SURGICAL HISTORY
+
+Known hypertensive for 5 years, currently managed on Tab. Amlodipine 10 mg daily.
+
+Chronic low back pain secondary to suspected degenerative disc disease.
+
+No history of previous abdominal surgeries.
+
+DRUG HISTORY
+
+Tab. Tramadol 50 mg three times daily × 10/7.
+
+Tab. Amlodipine 10 mg once daily.
+
+Tab. Paracetamol 1 g three times daily.
+
+No use of herbal remedies or over-the-counter laxatives in the recent past.
+
+FAMILY AND SOCIAL HISTORY
+
+Married in a monogamous setting with three children.
+
+Non-smoker.
+
+Occasional alcohol consumption.
+
+Diet is predominantly carbohydrate-based with relatively low fibre intake.
+
+REVIEW OF SYSTEMS
+
+GIT: As in history of presenting complaint.
+
+CVS: No orthopnoea or paroxysmal nocturnal dyspnoea.
+
+RESPIRATORY: No cough or breathlessness.
+
+CNS: No headaches or blurred vision.
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+An adult male, middle-aged, not in any obvious respiratory or painful distress.
+
+Afebrile with a temperature of 36.7°C.
+
+Not pale, anicteric, no pedal oedema, and no significant peripheral lymphadenopathy.
+
+Hydration status appears fair.
+
+VITAL SIGNS
+
+PR: 82 bpm, regular and normal volume.
+
+BP: 130/80 mmHg.
+
+RR: 18 cpm.
+
+SpO₂: 98% on room air.
+
+ABDOMINAL EXAMINATION
+
+Inspection: Abdomen mildly distended and moves with respiration. No visible peristalsis or dilated veins. Umbilicus is central and inverted. No surgical scars.
+
+Palpation: Abdomen soft with mild generalized tenderness. No guarding or rebound tenderness. No palpable masses or organomegaly.
+
+Percussion: Generalized tympany. No shifting dullness.
+
+Auscultation: Bowel sounds present but sluggish (hypoactive).
+
+DIGITAL RECTAL EXAMINATION
+
+Perianal skin normal.
+
+Average sphincter tone.
+
+Hard, impacted faeces palpable in the rectal vault.
+
+No masses palpable.
+
+Glove stained with hard stool; no blood.
+
+ASSESSMENT
+
+Medication-induced constipation secondary to opioid use (tramadol), likely compounded by calcium channel blocker use (amlodipine), with rectal faecal impaction.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Functional constipation secondary to low fibre intake
+2. Partial intestinal obstruction secondary to faecaloma
+3. Hypokalaemia-induced ileus
+
+INVESTIGATIONS
+
+1. Full Blood Count (FBC) to assess for inflammatory or infectious processes.
+2. Serum electrolytes, urea, and creatinine to assess for hypokalaemia and renal impairment.
+3. Abdominal X-ray (erect and supine) to assess faecal loading and rule out dilated bowel loops or air-fluid levels.
+4. Fasting Blood Sugar (FBS) to screen for diabetes mellitus-related dysmotility.
+
+PLAN
+
+MEDICATION REVIEW
+
+Discontinue tramadol and substitute with a non-constipating analgesic, e.g. Tab. Celecoxib 100 mg twice daily or Tab. Ibuprofen 400 mg three times daily, provided there are no contraindications.
+
+RECTAL INTERVENTION
+
+Use a glycerin suppository or small-volume enema to soften and facilitate passage of the impacted stool in the rectal vault.
+
+LAXATIVE THERAPY
+
+Tab. Bisacodyl 10 mg nocte for 3 days.
+
+Syrup Lactulose 15–30 mL twice daily.
+
+PATIENT EDUCATION
+
+Counsel on increased oral fluid intake, approximately 2.5–3 litres daily, where not contraindicated.
+
+Advise a high-fibre diet with increased intake of fruits such as pawpaw, vegetables, and whole grains.
+
+LONG-TERM MEDICATION REVIEW
+
+If constipation persists after resolution of the acute episode, consider reviewing antihypertensive therapy and switching amlodipine to an ACE inhibitor such as lisinopril or an ARB such as losartan, where clinically appropriate.
+
+FOLLOW-UP
+
+Review after resolution of the acute constipation to assess bowel habit, response to treatment, medication tolerance, and need for further evaluation.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'im-85',
+  title: 'Primary Hypothyroidism',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Endocrinology',
+  condition: 'Primary Hypothyroidism',
+  symptoms: [
+    'Generalized weakness and easy fatigability × 4/12',
+    'Weight gain × 3/12',
+    'Excessive sleepiness × 2/12',
+    'Constipation × 2/12',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 42-year-old woman presenting with progressive fatigue, weight gain, cold intolerance, dry coarse skin, hair thinning, constipation, cognitive slowing, hoarseness, menorrhagia, bradycardia, periorbital puffiness, and delayed relaxation of the Achilles reflex, suggestive of primary hypothyroidism.',
+  content: `
+INTERNAL MEDICINE CLINIC
+
+PATIENT SEEN
+
+A 42-year-old female civil servant residing in Garki, Abuja. She is Igbo.
+
+PRESENTING COMPLAINTS
+
+Generalized weakness and easy fatigability × 4/12
+
+Weight gain × 3/12
+
+Excessive sleepiness × 2/12
+
+Constipation × 2/12
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 4 months ago when she noticed an insidious onset of generalized body weakness and easy fatigability, even with minimal exertion. This has progressively worsened and significantly affected her productivity at work.
+
+About 3 months ago, she noticed a steady increase in weight despite a decrease in appetite.
+
+She also reports a preference for warm environments even during hot afternoons, suggestive of cold intolerance.
+
+She has noticed that her skin has become increasingly dry and coarse, and her hair appears thinner.
+
+There is a history of excessive daytime sleepiness and a feeling of mental fog or forgetfulness.
+
+She reports a change in her bowel habits with infrequent, hard stools requiring occasional use of laxatives.
+
+She also noticed that her voice has become somewhat hoarse over the past month.
+
+She reports heavy and prolonged menstrual bleeding (menorrhagia) over the last 3 cycles.
+
+There is no history of neck swelling, tremors, heat intolerance, or palpitations.
+
+No history of previous neck surgery or irradiation.
+
+PAST MEDICAL HISTORY
+
+No known history of diabetes mellitus or hypertension.
+
+No previous diagnosis of thyroid disease.
+
+No history of autoimmune conditions such as vitiligo or type 1 diabetes mellitus.
+
+DRUG HISTORY
+
+Not currently on any long-term medications.
+
+No history of use of lithium or amiodarone.
+
+FAMILY HISTORY
+
+No family history of goitre or thyroid disorders.
+
+No history of sudden unexplained deaths in the family.
+
+SOCIAL HISTORY
+
+She is married in a monogamous setting with three children.
+
+She uses iodized salt for cooking.
+
+She does not smoke or consume alcohol.
+
+REVIEW OF SYSTEMS
+
+CNS: Forgetfulness and lethargy. No seizures or focal weakness.
+
+CVS: No chest pain, no orthopnoea or PND.
+
+RS: No cough or breathlessness.
+
+GIT: Constipation as noted above.
+
+MSS: Generalized muscle aches and joint pains.
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+Patient is a middle-aged woman, obese with a BMI of 31 kg/m², conscious and alert.
+
+Appears lethargic with a puffy face and periorbital puffiness.
+
+No significant pallor, no jaundice, no cyanosis, and no peripheral oedema.
+
+Skin is dry, coarse, and cool to touch.
+
+Hair is brittle and sparse at the lateral third of the eyebrows.
+
+VITAL SIGNS
+
+PR: 56 bpm, regular, normal volume.
+
+BP: 110/70 mmHg.
+
+RR: 14 cpm.
+
+Temperature: 36.2°C.
+
+SpO₂: 98% on room air.
+
+NECK EXAMINATION
+
+No visible or palpable thyroid enlargement.
+
+No cervical lymphadenopathy.
+
+No carotid bruits.
+
+SYSTEMIC EXAMINATION
+
+CENTRAL NERVOUS SYSTEM
+
+Orientation is intact, but responses are slow.
+
+Motor: Normal bulk and tone. Power 5/5 globally.
+
+Reflexes: Delayed relaxation phase of the Achilles tendon reflex (hung-up reflex).
+
+CARDIOVASCULAR SYSTEM
+
+Apex beat not displaced, localized at the 5th left intercostal space, mid-clavicular line.
+
+S1 and S2 heard, no murmurs.
+
+ABDOMEN
+
+Full and moves with respiration.
+
+Non-tender.
+
+No organomegaly.
+
+Bowel sounds present but sluggish.
+
+RESPIRATORY SYSTEM
+
+Trachea central.
+
+Lungs are clear.
+
+Vesicular breath sounds heard bilaterally.
+
+ASSESSMENT
+
+Hypothyroidism, most likely primary, with Hashimoto's thyroiditis or iodine deficiency as possible causes.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Nephrotic syndrome, given the periorbital puffiness and weight gain.
+2. Iron deficiency anaemia secondary to menorrhagia, presenting with fatigue.
+3. Major depressive disorder, presenting with lethargy and psychomotor retardation.
+
+INVESTIGATIONS
+
+1. Serum TSH — expected to be elevated in primary hypothyroidism.
+2. Free T4 — expected to be low.
+3. Full Blood Count (FBC) — to assess for normocytic or macrocytic anaemia.
+4. Serum lipid profile — to assess for associated hypercholesterolaemia.
+5. ECG — to assess for bradycardia, low-voltage complexes, or prolonged QT interval.
+6. Serum electrolytes, urea, and creatinine — to assess renal function and rule out renal involvement.
+7. Anti-TPO antibodies — if Hashimoto's thyroiditis is suspected and resources permit.
+
+PLAN
+
+PATIENT EDUCATION
+
+Explain the chronic nature of the condition and the importance of adherence to treatment.
+
+PHARMACOLOGICAL THERAPY
+
+Levothyroxine (T4) is the treatment of choice.
+
+For a young/middle-aged healthy adult, start at approximately 1.6 micrograms/kg/day, e.g. 100 micrograms once daily.
+
+In elderly patients or those with known ischaemic heart disease, start at a lower dose, e.g. 12.5–25 micrograms once daily, and titrate slowly every 4–6 weeks to avoid precipitating cardiac events.
+
+Advise the patient to take levothyroxine on an empty stomach, 30–60 minutes before breakfast, with water only, to ensure optimal absorption.
+
+MONITORING
+
+Recheck serum TSH 6–8 weeks after commencing therapy or following any dose adjustment.
+
+Target: Maintain TSH within the lower half of the reference range, approximately 0.5–2.5 mIU/L.
+
+SUPPORTIVE CARE
+
+Advise a high-fibre diet and adequate hydration for constipation.
+
+Commence iron supplementation if anaemia is confirmed.
+
+Maintain at least a 4-hour interval between levothyroxine and iron or calcium supplements, as these can interfere with levothyroxine absorption.
+
+FOLLOW-UP
+
+Schedule follow-up in 2 months for clinical and biochemical review.
+
+Once stable, continue regular 6–12 monthly reviews.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'im-84',
+  title: 'Oropharyngeal and Esophageal Candidiasis',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Infectious Diseases',
+  condition: 'Oropharyngeal and Esophageal Candidiasis',
+  symptoms: [
+    'Painful white oral patches × 2/52',
+    'Difficulty swallowing × 1/52',
+    'Recurrent low-grade fever × 3/52',
+    'Progressive weight loss × 2/12',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 32-year-old man presenting with extensive removable creamy-white oral plaques, odynophagia, recurrent low-grade fever, and progressive weight loss. The clinical findings are consistent with oropharyngeal candidiasis with suspected oesophageal involvement, raising concern for underlying immunosuppression.',
+  content: `
+MEDICAL CLINIC
+
+PATIENT SEEN
+
+A 32-year-old male artisan residing in Ogbomosho, Oyo State. He is Yoruba by tribe.
+
+PRESENTING COMPLAINTS
+
+Painful white patches in the mouth × 2/52
+Difficulty swallowing × 1/52
+Recurrent low-grade fever × 3/52
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 3 weeks ago when he developed a low-grade fever which was intermittent and worse in the evenings, with no chills or rigors.
+
+Two weeks ago, he noticed creamy white patches on his tongue and the inner surfaces of his cheeks. These patches are associated with a burning sensation and soreness, particularly when consuming spicy or hot foods.
+
+One week prior to presentation, he started experiencing pain during swallowing (odynophagia), which he describes as a feeling of food getting stuck in his mid-chest area. This has led to a significant reduction in his oral intake.
+
+He also reports a history of progressive weight loss over the last 2 months, although he cannot quantify the amount.
+
+There is no history of chronic cough, night sweats, or chronic diarrhoea.
+
+No history of prolonged use of steroids or recent broad-spectrum antibiotics.
+
+No history of similar complaints in the past.
+
+PAST MEDICAL HISTORY
+
+Not a known diabetic or hypertensive.
+
+No history of previous blood transfusions or major surgeries.
+
+No known drug allergies.
+
+DRUG HISTORY
+
+He has been using over-the-counter Paracetamol and various herbal mixtures (agbo) for the fever with no significant relief.
+
+FAMILY AND SOCIAL HISTORY
+
+Married in a monogamous setting with two children.
+
+He does not smoke cigarettes or consume alcohol.
+
+His wife is currently healthy.
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches, no neck stiffness, no seizures.
+
+RS: No cough, no shortness of breath.
+
+CVS: No palpitations, no chest pain, no pedal oedema.
+
+GIT: As in HPC. No history of vomiting or change in bowel habits.
+
+MSS: No joint pains or swelling.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+An ill-looking young man, febrile (37.9 °C), mildly pale, not jaundiced, and not dehydrated.
+
+No significant peripheral lymphadenopathy.
+
+Weight: 58 kg.
+
+VITAL SIGNS
+
+PR: 92 bpm, regular, normal volume.
+
+BP: 100/60 mmHg.
+
+RR: 18 cpm.
+
+SpO₂: 98% on room air.
+
+OROPHARYNGEAL EXAMINATION
+
+Extensive creamy-white, curd-like plaques on the dorsum of the tongue, buccal mucosa, and soft palate.
+
+The plaques are easily scraped off with a tongue depressor, revealing an underlying erythematous and friable base.
+
+Poor oral hygiene noted.
+
+SYSTEMIC EXAMINATION
+
+ABDOMEN
+
+Flat and moves with respiration.
+
+Soft and non-tender.
+
+Liver and spleen are not palpable.
+
+Bowel sounds are present and normal.
+
+RESPIRATORY SYSTEM
+
+Trachea is central.
+
+Chest expansion is symmetrical.
+
+Percussion notes are resonant bilaterally.
+
+Breath sounds are vesicular with no added sounds.
+
+CARDIOVASCULAR SYSTEM
+
+Apex beat at the 5th left intercostal space, mid-clavicular line.
+
+S1 and S2 heart sounds heard; no murmurs.
+
+NEUROLOGICAL SYSTEM
+
+Conscious and alert.
+
+Oriented in time, place, and person.
+
+No focal neurological deficits.
+
+GCS: 15/15.
+
+ASSESSMENT
+
+Oropharyngeal Candidiasis with suspected Oesophageal Candidiasis, secondary to suspected immunosuppression; rule out Retroviral Disease.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Oral Hairy Leukoplakia.
+2. Oral Lichen Planus.
+3. Aphthous Stomatitis.
+
+INVESTIGATIONS
+
+1. Retroviral Screening (RVS): Rapid test following appropriate pre-test counselling and informed consent.
+
+2. Fasting Blood Sugar (FBS): To screen for Diabetes Mellitus.
+
+3. Full Blood Count (FBC): To assess for lymphopenia, anaemia, and other haematological abnormalities.
+
+4. Sputum for GeneXpert: Given the history of weight loss and fever, to screen for pulmonary tuberculosis where clinically indicated.
+
+5. CD4 Count: If RVS is positive.
+
+PLAN
+
+1. COUNSELLING
+
+Counsel the patient on the need for HIV screening and obtain informed consent.
+
+2. ANTIFUNGAL THERAPY
+
+Fluconazole 200 mg stat, then 100 mg daily for 14 days.
+
+Nystatin oral suspension 5 mL (500,000 units) QDS for 10 days. Instruct patient to hold the suspension in the mouth for several minutes before swallowing.
+
+3. ANALGESIA
+
+Paracetamol 1 g TDS for 3 days for pain relief.
+
+4. NUTRITIONAL SUPPORT
+
+Encourage a high-protein, high-calorie soft diet.
+
+Advise avoidance of spicy or very hot foods.
+
+5. FOLLOW-UP
+
+Re-evaluate based on RVS and FBS results and determine the need for long-term care or ART initiation.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'im-83',
+  title: 'Benign Prostatic Hyperplasia with Lower Urinary Tract Symptoms',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Urology Clinic',
+  condition: 'Benign Prostatic Hyperplasia with Lower Urinary Tract Symptoms',
+  symptoms: [
+    'Increased urinary frequency',
+    'Nocturia',
+    'Poor urinary stream',
+    'Feeling of incomplete bladder emptying',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: 'A 68-year-old man presenting with progressive storage and voiding lower urinary tract symptoms, including increased urinary frequency, nocturia, hesitancy, straining, weak urinary stream, terminal dribbling, and incomplete bladder emptying, with an enlarged smooth prostate on DRE, consistent with benign prostatic hyperplasia.',
+  content: `
+UROLOGY CLINIC
+
+PATIENT SEEN
+
+A 68-year-old male retired teacher residing in Ibadan, Oyo State.
+
+Tribe: Yoruba
+
+
+PRESENTING COMPLAINTS
+
+Increased urinary frequency × 6/12
+Nocturia × 6/12
+Poor urinary stream × 4/12
+Feeling of incomplete bladder emptying × 4/12
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until about 6 months ago when he noticed increased frequency of micturition, voiding about 8–10 times during the day.
+
+This was associated with nocturia, requiring him to wake up 4–5 times at night to urinate.
+
+Over the last 4 months, he developed obstructive symptoms, including hesitancy and straining to initiate micturition.
+
+He reports a weak urinary stream and terminal dribbling.
+
+He frequently experiences a sensation of incomplete bladder emptying after voiding.
+
+There is no history of haematuria, loin pain, or fever.
+
+No history of weight loss, night sweats, or persistent bone pain.
+
+No history of previous urethral discharge, trauma to the perineum, or catheterization.
+
+
+PAST MEDICAL HISTORY
+
+Known hypertensive × 10 years, currently managed on Tab. Amlodipine 10 mg daily.
+
+Blood pressure has been relatively stable.
+
+Not a known diabetic.
+
+No history of previous surgeries or hospitalizations.
+
+
+DRUG HISTORY
+
+Regular on Tab. Amlodipine 10 mg daily.
+
+No history of use of over-the-counter cold medications or antihistamines.
+
+
+FAMILY AND SOCIAL HISTORY
+
+Married in a monogamous setting with four adult children.
+
+Non-smoker and does not consume alcohol.
+
+Occasional coffee intake, approximately 1–2 cups daily.
+
+
+REVIEW OF SYSTEMS
+
+CNS: No headache or dizziness.
+RS: No cough or chest pain.
+CVS: No palpitations or pedal edema.
+GIT: Normal bowel habits, no constipation.
+MSS: No lower back pain or hip pain.
+
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+An elderly man, comfortable at rest and not in any obvious respiratory or painful distress.
+
+Afebrile, temperature 36.7 °C.
+
+Not pale, anicteric, and not dehydrated.
+
+No significant peripheral lymphadenopathy.
+
+No pedal edema.
+
+
+VITAL SIGNS
+
+PR: 82 bpm, regular, normal volume.
+BP: 145/90 mmHg.
+RR: 18 cpm.
+SpO₂: 98% on room air.
+
+
+ABDOMINAL EXAMINATION
+
+Abdomen is flat and moves with respiration.
+
+No surgical scars.
+
+Abdomen is soft and non-tender.
+
+Liver and spleen are not palpable.
+
+Kidneys are not ballotable.
+
+Bladder is not palpably enlarged.
+
+No cough impulse.
+
+
+DIGITAL RECTAL EXAMINATION
+
+Perianal area appears normal.
+
+Sphincter tone is adequate.
+
+Prostate is enlarged, estimated at approximately 40–50 g.
+
+It is firm, smooth, and non-tender.
+
+The median sulcus is obliterated.
+
+No palpable nodules or stony-hard areas.
+
+Glove finger stained with normal-looking stool, with no blood.
+
+
+ASSESSMENT
+
+Benign Prostatic Hyperplasia (BPH) with moderate Lower Urinary Tract Symptoms (LUTS).
+
+
+DIFFERENTIAL DIAGNOSES
+
+Carcinoma of the prostate
+Urethral stricture
+Urinary Tract Infection (UTI)
+Chronic prostatitis
+
+
+INVESTIGATIONS
+
+Urinalysis: To assess for nitrites, leucocytes, or haematuria.
+
+Serum Prostate-Specific Antigen (PSA): To assess for prostate malignancy. Ideally obtained before DRE or after an appropriate interval following prostate manipulation.
+
+Serum Electrolytes, Urea, and Creatinine: To assess renal function and exclude obstructive uropathy.
+
+Abdomino-pelvic Ultrasound: To determine prostate volume and measure post-void residual (PVR) urine volume.
+
+Mid-stream urine for microscopy, culture, and sensitivity (M/C/S) if urinalysis is suggestive of infection.
+
+
+PLAN
+
+LIFESTYLE MODIFICATIONS
+
+Limit fluid intake after 7:00 PM.
+Reduce caffeine and alcohol consumption.
+Practise double voiding techniques and bladder retraining.
+Review and avoid medications that may worsen LUTS, such as evening diuretics and decongestants.
+
+
+MEDICAL MANAGEMENT
+
+Alpha-1-Adrenergic Blocker:
+
+Tab. Tamsulosin 0.4 mg daily, orally, to be taken after the same meal each day. This helps relax smooth muscle in the prostate and bladder neck to improve urinary flow.
+
+5-Alpha-Reductase Inhibitor:
+
+Tab. Finasteride 5 mg daily, orally. This helps reduce prostate size over 3–6 months.
+
+Combination therapy with Tamsulosin and Finasteride is indicated given the significant symptoms and enlarged prostate on DRE.
+
+
+FOLLOW-UP
+
+Review in 2–4 weeks with investigation results and to assess symptomatic improvement using the International Prostate Symptom Score (IPSS).
+
+Counsel regarding red flags, including acute urinary retention and gross haematuria.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'im-82',
+  title: 'Right Ureteric Colic Secondary to Nephrolithiasis',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'General Medical Clinic',
+  condition: 'Ureteric Colic Secondary to Nephrolithiasis',
+  symptoms: [
+    'Right-sided loin pain',
+    'Vomiting',
+    'Tea-coloured urine',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: 'A 34-year-old male presenting with sudden-onset severe right-sided colicky loin pain radiating to the ipsilateral groin and scrotum, associated with vomiting and gross haematuria, consistent with right ureteric colic secondary to nephrolithiasis.',
+  content: `
+GENERAL MEDICAL CLINIC
+
+PATIENT SEEN
+
+A 34-year-old male civil servant residing in Garki, Abuja.
+
+Tribe: Gbagyi
+
+
+PRESENTING COMPLAINTS
+
+Right-sided loin pain × 2/7
+Vomiting × 3 episodes in 1/7
+Tea-coloured urine × 1/7
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+He was apparently well until 2 days ago when he developed sudden-onset right-sided loin pain.
+
+The pain is described as colicky, sharp, and excruciating, radiating from the right loin to the ipsilateral groin and scrotum.
+
+Pain severity is 9/10 and is worse during episodes of colic. There are no known aggravating or relieving factors.
+
+Since yesterday, the pain has been associated with three episodes of non-projectile, non-bilious vomiting containing recently ingested meals.
+
+He also noticed that his urine was tea-coloured, suggestive of gross haematuria, but reports no history of passage of gravel or stones in the urine.
+
+There is no history of fever, chills, or rigors.
+
+No history of urinary frequency, urgency, or dysuria.
+
+No history of weight loss or bone pain.
+
+No history of trauma to the back or abdomen.
+
+
+PAST MEDICAL HISTORY
+
+No history of similar episodes in the past.
+
+Not a known hypertensive or diabetic.
+
+No history of gout or chronic use of calcium supplements.
+
+No history of prolonged immobilization.
+
+
+DRUG HISTORY
+
+Occasional use of paracetamol for headaches.
+
+No history of herbal concoctions.
+
+No known drug allergies.
+
+
+FAMILY AND SOCIAL HISTORY
+
+He is married in a monogamous setting with two children.
+
+Nonsmoker and does not drink alcohol.
+
+No family history of renal calculi or cystic kidney disease.
+
+Fluid intake is relatively poor, with an estimated intake of about 1 litre of water daily.
+
+
+REVIEW OF SYSTEMS
+
+RS: No cough or dyspnoea.
+CVS: No palpitations or orthopnoea.
+GIT: No constipation or diarrhoea.
+CNS: No headache or seizures.
+
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Acutely ill-looking young man in obvious painful distress, tossing about on the couch and appearing restless.
+
+Afebrile, temperature 36.8 °C.
+
+Not pale, anicteric, and not dehydrated.
+
+No pedal oedema.
+
+No significant lymphadenopathy.
+
+
+VITAL SIGNS
+
+PR: 104 bpm, regular, full volume.
+BP: 140/90 mmHg, likely reactive to pain.
+RR: 24 cpm.
+SpO₂: 98% on room air.
+
+
+ABDOMINAL EXAMINATION
+
+Abdomen is flat and moves with respiration.
+
+No surgical scars.
+
+Abdomen is soft, with deep tenderness at the right lumbar region.
+
+No palpable masses.
+
+Kidneys are not ballottable.
+
+Liver and spleen are not palpable.
+
+Right costovertebral angle tenderness (renal angle tenderness) is present.
+
+Bowel sounds are present and normal.
+
+
+GENITOURINARY EXAMINATION
+
+Normal male external genitalia.
+
+No urethral discharge.
+
+
+ASSESSMENT
+
+Right ureteric colic secondary to nephrolithiasis.
+
+
+DIFFERENTIAL DIAGNOSES
+
+Acute pyelonephritis
+Biliary colic
+Acute appendicitis
+
+
+INVESTIGATIONS
+
+Urinalysis: To assess for haematuria and evidence of urinary tract infection, including nitrites and leucocytes.
+
+Full Blood Count (FBC): To assess for leucocytosis suggesting infection.
+
+Electrolytes, Urea, and Creatinine (E/U/Cr): To assess baseline renal function.
+
+Abdominal Ultrasound (KUB): To assess for hydronephrosis and determine the location and size of the stone.
+
+Non-contrast CT Abdomen/Pelvis (Stone Protocol): If available, for definitive assessment of urinary calculi.
+
+
+PLAN
+
+EMERGENCY/ACUTE CARE
+
+Stabilize the patient and provide adequate pain control.
+
+Keep NPO if vomiting persists.
+
+IV 0.9% Normal Saline 1 L 8-hourly to maintain hydration, while avoiding overhydration.
+
+
+ANALGESIA
+
+NSAIDs as first-line analgesia:
+
+IV Diclofenac 75 mg stat, then 75 mg twice daily for 3/7.
+
+If NSAIDs are insufficient:
+
+IM Tramadol 100 mg or IV Morphine 5 mg stat.
+
+Antiemetic:
+
+IV Promethazine 25 mg or IV Metoclopramide 10 mg stat for control of vomiting.
+
+
+MEDICAL EXPULSIVE THERAPY
+
+If the stone is small, typically less than 10 mm, with no evidence of sepsis or renal failure:
+
+Tab. Tamsulosin 0.4 mg daily for up to 4 weeks to facilitate stone passage.
+
+
+GENERAL MEASURES
+
+Encourage increased fluid intake of at least 2.5–3 L daily once vomiting is controlled.
+
+Strain urine to capture the stone for chemical analysis if it is passed.
+
+If there are signs of fever or urinary tract infection, commence empirical antibiotics, e.g. IV Ceftriaxone 1 g daily.
+
+
+UROLOGY REVIEW
+
+Request Urology review for possible intervention, including ESWL, ureteroscopy, or PCNL, if any of the following are present:
+
+Pain refractory to analgesia.
+
+Evidence of urinary tract infection or sepsis.
+
+Stone size greater than 10 mm.
+
+Impaired renal function or solitary kidney.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'im-81',
+  title: 'Unstable Angina in a Patient with Hypertension and Type 2 Diabetes Mellitus',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Cardiology Clinic',
+  condition: 'Unstable Angina',
+  symptoms: [
+    'Retrosternal chest pain',
+    'Easy fatigability',
+    'Diaphoresis and nausea',
+    'Occasional palpitations',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: 'A 56-year-old man with hypertension and type 2 diabetes mellitus presenting with worsening exertional retrosternal chest pain that has progressed to occurring with minimal exertion, with prolonged episodes, diaphoresis, nausea, and easy fatigability, consistent with unstable angina.',
+  content: `
+CARDIOLOGY CLINIC
+
+PATIENT SEEN
+
+A 56-year-old male civil servant residing in Garki, Abuja.
+Tribe: Yoruba
+Known hypertensive and diabetic.
+
+PRESENTING COMPLAINTS
+
+Retrosternal chest pain × 2/52
+Easy fatigability × 2/52
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 2 weeks ago when he started experiencing retrosternal chest pain.
+
+The pain is described as a heavy, squeezing sensation, primarily triggered by physical exertion such as climbing stairs or walking long distances.
+
+Each episode initially lasted about 5–10 minutes and was relieved by rest. There was no initial radiation to the jaw or left arm.
+
+However, over the last 3 days, the frequency of the episodes has increased, with the pain now occurring with minimal exertion such as bathing.
+
+The pain now lasts up to 20 minutes and is associated with significant diaphoresis and mild nausea.
+
+He also reports associated easy fatigability and occasional palpitations.
+
+There is no history of cough, paroxysmal nocturnal dyspnoea, orthopnoea, or pedal swelling.
+No history of calf pain, leg swelling, or prolonged immobilization.
+No history of fever or excessive heartburn.
+
+PAST MEDICAL HISTORY
+
+He is a known hypertensive, diagnosed 10 years ago, currently on Tab. Amlodipine 10 mg daily and Tab. Lisinopril 10 mg daily.
+Adherence to medication has been inconsistent due to work schedules.
+He is a known Type 2 Diabetic, diagnosed 5 years ago, on Tab. Metformin 500 mg twice daily.
+No history of previous surgeries or hospitalizations for similar chest pain.
+
+DRUG HISTORY
+
+Tab. Amlodipine 10 mg OD
+Tab. Lisinopril 10 mg OD
+Tab. Metformin 500 mg BD
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+He is married in a monogamous setting with four children.
+He is a non-smoker and takes alcohol only occasionally.
+His father died of a sudden cardiac event at age 62.
+His mother is alive and is being managed for hypertension.
+His job is mostly sedentary.
+
+REVIEW OF SYSTEMS
+
+CNS: No headache, dizziness, or history of syncope.
+RS: No cough, haemoptysis, or shortness of breath at rest.
+GIT: No abdominal pain, vomiting, or change in bowel habits.
+MSS: No joint pains or swellings.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+A middle-aged man, comfortable at rest and not in obvious respiratory or painful distress.
+Afebrile, not pale, anicteric, and acyanotic.
+No peripheral oedema.
+No significant peripheral lymphadenopathy.
+
+VITAL SIGNS
+
+Pulse Rate: 92 bpm, regular, full volume, synchronous with apex.
+Blood Pressure: 155/95 mmHg, sitting, right arm.
+Respiratory Rate: 18 cpm.
+SpO₂: 97% on room air.
+Temperature: 36.6 °C.
+
+CARDIOVASCULAR SYSTEM
+
+Apex beat is palpable at the 5th left intercostal space in the midclavicular line.
+S1 and S2 are heard.
+No murmurs or added heart sounds.
+No precordial heaves or thrills.
+Jugular venous pressure is not elevated.
+
+RESPIRATORY SYSTEM
+
+Trachea is central.
+Chest expansion is symmetrical.
+Percussion notes are resonant bilaterally.
+Breath sounds are vesicular.
+No crepitations or wheeze.
+
+ABDOMINAL EXAMINATION
+
+Abdomen is soft and non-tender.
+No hepatosplenomegaly.
+Bowel sounds are present and normal.
+
+NEUROLOGICAL SYSTEM
+
+Conscious and alert.
+No focal neurological deficits.
+
+ASSESSMENT
+
+Unstable angina in a patient with hypertension and Type 2 Diabetes Mellitus.
+
+DIFFERENTIAL DIAGNOSES
+
+Non-ST Elevation Myocardial Infarction (NSTEMI)
+Gastroesophageal Reflux Disease (GERD)
+Musculoskeletal chest pain (costochondritis)
+Aortic dissection, less likely
+
+INVESTIGATIONS
+
+12-lead Electrocardiogram (ECG): To assess for ST-segment depression, T-wave inversion, or transient ST elevation.
+Cardiac biomarkers: Serial Troponin I or T and CK-MB.
+Fasting Blood Sugar (FBS) and HbA1c: To assess current glycaemic control.
+Fasting lipid profile: To assess for dyslipidaemia.
+Serum Urea, Electrolytes, and Creatinine: To assess baseline renal function.
+Full Blood Count (FBC): To assess for anaemia as a possible precipitating factor for angina.
+Chest X-ray (PA view): To assess the cardiothoracic ratio and exclude pulmonary pathology.
+
+PLAN
+
+Admit for observation and cardiac monitoring.
+Maintain bed rest in a semi-Fowler's position.
+Administer supplemental oxygen only if SpO₂ falls below 94%.
+
+Antiplatelet therapy:
+Tab. Aspirin 300 mg stat, crushed/chewed, then 75 mg daily.
+Tab. Clopidogrel 300 mg stat, then 75 mg daily.
+
+Anticoagulation:
+Consider S/C Enoxaparin 1 mg/kg 12-hourly, subject to renal function.
+
+Pain relief/nitrates:
+Sublingual Glyceryl Trinitrate (GTN) 0.5 mg PRN for chest pain.
+Tab. Isosorbide Dinitrate 10 mg 8-hourly.
+
+Statin therapy:
+Tab. Atorvastatin 40 mg nocte.
+
+Beta-blocker:
+Tab. Atenolol 25 mg daily, with monitoring of heart rate and blood pressure.
+
+Continue Metformin and optimize blood pressure control.
+Strict monitoring of vital signs.
+Repeat ECG if chest pain recurs.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
   {
     id: 'im-80',
     title: 'Right Ear Cerumen Impaction',
@@ -38314,6 +41832,172 @@ Not yet available
 
 // General Outpatient
 {
+  id: 'gopd-63',
+  title: 'Angular Cheilitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Angular Cheilitis Secondary to Suspected Nutritional Deficiency',
+  symptoms: [
+    'Painful sores at the corners of the mouth',
+    'Oral fissuring',
+    'Burning and stinging sensation',
+    'Angular erythema and maceration',
+    'Glossitis',
+    'Fatigue',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: '28-year-old Yoruba female tailor presenting with a 2-week history of painful bilateral fissuring, erythema, and maceration at the angles of the mouth, associated with burning, stinging, and occasional bleeding. Examination also revealed mild conjunctival pallor and glossitis. Findings are consistent with angular cheilitis, with suspected nutritional deficiency in the setting of a diet low in animal protein and green vegetables.',
+  content: `GENERAL OUTPATIENT CLINIC
+
+Patient Seen
+A 28-year-old Yoruba female tailor residing in Ogbomosho, Oyo State.
+
+PC:
+Painful sores at the corners of the mouth × 2/52
+
+HPC:
+The patient was apparently well until 2 weeks ago when she noticed redness and cracking at both corners of her mouth. The lesions are associated with a stinging and burning sensation, worsened by eating spicy or salty foods and by opening the mouth wide to speak or yawn.
+
+She reports occasional bleeding from the fissures.
+
+There is no history of associated fever, skin rashes on other parts of the body, or genital sores. She denies excessive drooling or use of new lip cosmetics or toothpastes.
+
+She reports feeling easily fatigued over the last month but denies pica, dizziness, or history of heavy menstrual flow.
+
+Her diet consists mainly of maize-based meals with minimal intake of animal protein or green vegetables.
+
+PMH:
+Not a known patient with diabetes mellitus or HIV.
+
+Genotype AA.
+
+No history of recurrent skin infections or chronic diarrhoea.
+
+DH:
+No recent use of antibiotics, corticosteroids, or herbal medications.
+
+No known drug allergies.
+
+FH:
+No significant family history provided.
+
+SH:
+Lives in a room-and-parlour apartment with her husband and two children.
+
+She is a tailor by trade.
+
+Does not smoke or consume alcohol.
+
+ROS:
+GIT: No dysphagia, abdominal pain, or change in bowel habits.
+
+CVS: No palpitations or orthopnoea.
+
+CNS: No headaches, numbness, or tingling in the limbs.
+
+MSS: No joint pains.
+
+O/E:
+Young woman, not acutely ill, not in any obvious respiratory or painful distress.
+
+Afebrile, T 36.6°C.
+
+Mild conjunctival pallor.
+
+No jaundice, peripheral lymphadenopathy, or pedal oedema.
+
+PR: 84 bpm, regular, normal volume
+BP: 110/70 mmHg
+RR: 18 cpm
+SpO₂: 99% on room air
+
+ORAL EXAMINATION:
+Bilateral erythema, maceration, and linear fissuring at the labial commissures.
+
+Mild yellowish crusting present at the edges of the fissures.
+
+Tongue appears slightly smooth and beefy red, consistent with glossitis.
+
+No white curdy plaques suggestive of oral candidiasis.
+
+Good oral hygiene.
+
+No dental caries or ill-fitting dentures.
+
+SYSTEMIC EXAMINATION:
+
+Abdomen:
+Flat, moves with respiration.
+
+No organomegaly.
+
+Bowel sounds present and normal.
+
+Respiratory:
+Trachea central.
+
+Percussion notes resonant.
+
+Vesicular breath sounds heard bilaterally.
+
+CVS:
+Apex beat at the 5th left intercostal space, mid-clavicular line.
+
+S1 and S2 heard.
+
+No murmurs.
+
+ASS:
+Angular cheilitis, likely secondary to nutritional deficiency, particularly iron or B-complex deficiency.
+
+DIFFERENTIALS:
+Oral candidiasis.
+
+Perioral contact dermatitis.
+
+Herpes simplex labialis with atypical presentation.
+
+INVESTIGATIONS:
+FBC and PBF to assess for anaemia, including microcytic hypochromic anaemia.
+
+FBS to screen for underlying diabetes mellitus.
+
+Retroviral Screening (RVS) after appropriate pre-test counselling and consent.
+
+Swab for microscopy, culture, and sensitivity if lesions are refractory to initial treatment or become clinically infected.
+
+PLAN:
+
+Patient Education:
+Educate patient on the condition and the importance of maintaining good oral hygiene.
+
+Nutritional Counseling:
+Advise increased intake of green leafy vegetables, eggs, milk, and other protein-rich foods.
+
+Topical Treatment:
+Apply Miconazole 2% + Hydrocortisone 1% cream to the angles of the mouth twice daily × 14 days.
+
+Vitamin Supplementation:
+Tab Vitamin B-complex 1 tablet twice daily × 2/52.
+
+Iron Supplementation:
+Tab Ferrous sulphate 200 mg three times daily if FBC/PBF confirms iron deficiency.
+
+Barrier Protection:
+Apply petroleum jelly to the angles of the mouth regularly to prevent maceration from saliva.
+
+FOLLOW-UP:
+Review in the outpatient clinic in 2 weeks to assess healing and review investigation results.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'gopd-62',
   title: 'Impacted Cerumen with Conductive Hearing Loss',
   specialty: 'General Outpatient',
@@ -51570,6 +55254,172 @@ Not yet available
 
 // Obstetrics and Gynecology
 {
+  id: 'ob-53',
+  title: 'Abnormal Uterine Bleeding Following Depo-Provera Use',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Abnormal Uterine Bleeding',
+  symptoms: [
+    'Heavy menstrual bleeding',
+    'Prolonged menstrual bleeding',
+    'Fresh vaginal bleeding',
+    'Recent Depo-Provera use',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: '35-year-old G4P4 Yoruba woman presenting with 7 days of persistent heavy menstrual bleeding following commencement of Depo-Provera contraception one month earlier. Examination revealed moderate fresh vaginal bleeding with an otherwise normal pelvic examination. Assessment is abnormal uterine bleeding likely related to progestogen-only injectable contraception.',
+  content: `GYNAE CLINIC
+
+Patient Seen
+A 35-year-old Yoruba female tailor residing in Surulere, Lagos State, married in a monogamous setting.
+
+PC:
+Heavy menstrual bleeding × 7/7
+
+HPC:
+The patient was apparently well until 7 days prior to presentation when she started her menses. She reports that the flow has remained consistently heavy and has failed to taper off, unlike her previous periods which typically lasted 4–5 days.
+
+She currently changes about 3 sanitary pads per day, which are moderately soaked. There is no history of passage of large clots, flooding, or use of adult diapers.
+
+She received her first dose of intramuscular Depo-Provera 150 mg for contraception about 1 month ago.
+
+There is no history of associated lower abdominal pain, fever, or foul-smelling vaginal discharge.
+
+She does not report easy bruising, epistaxis, or bleeding from other mucosal sites.
+
+No history of dizziness, palpitations, or easy fatigability.
+
+OBSTETRIC AND GYNAECOLOGICAL HISTORY:
+G4P4+0, with all 4 children alive. Last childbirth was 4 years ago.
+
+LMP: 7 days ago.
+
+Previously regular 28-day menstrual cycle with flow lasting 4–5 days.
+
+Contraceptive History:
+Recently commenced Depo-Provera as above.
+
+Previously used copper T-IUCD, which was removed 6 months ago.
+
+No history of intermenstrual or post-coital bleeding.
+
+Last Pap smear was 2 years ago and was reportedly normal.
+
+PMH:
+Not a known hypertensive or diabetic.
+
+No history of bleeding disorders.
+
+No previous pelvic surgeries or blood transfusions.
+
+DH:
+Not on any chronic medications or herbal supplements.
+
+FH:
+No significant family history provided.
+
+SH:
+Married in a monogamous setting and resides with her husband and four children in a 2-bedroom apartment with adequate ventilation.
+
+Does not smoke or consume alcohol.
+
+ROS:
+CNS: No headache or loss of consciousness.
+
+RS: No cough or chest pain.
+
+CVS: No palpitations or orthopnoea.
+
+GIT: No nausea, vomiting, or change in bowel habits.
+
+MSS: No joint pains or swellings.
+
+O/E:
+Middle-aged woman, not acutely distressed.
+
+Afebrile, not pale, anicteric, not dehydrated.
+
+No pedal oedema or peripheral lymphadenopathy.
+
+PR: 78 bpm, regular, normal volume
+BP: 120/70 mmHg
+RR: 16 cpm
+T: 36.7°C
+SpO₂: 99% on room air
+
+ABD:
+Flat, moves with respiration.
+
+No surgical scars.
+
+No areas of tenderness.
+
+No organomegaly or palpable masses.
+
+Bowel sounds present and normal.
+
+PELVIC EXAMINATION:
+
+External Genitalia:
+Normal female external genitalia.
+
+Speculum:
+Moderate amount of fresh blood seen in the vaginal vault.
+
+Cervix appears healthy with no visible polyps or erosions.
+
+Digital Examination:
+Uterus bulky/normal in size, anteverted, and non-tender.
+
+Adnexa free.
+
+No cervical motion tenderness.
+
+ASS:
+Abnormal uterine bleeding, likely secondary to progestogen-only injectable contraception (Depo-Provera) use.
+
+DIFFERENTIALS:
+Uterine fibroids.
+
+Endometrial hyperplasia.
+
+Pregnancy-related bleeding, including early pregnancy loss.
+
+INVESTIGATIONS:
+FBC to assess PCV and platelet count.
+
+Urine pregnancy test to exclude pregnancy-related complications.
+
+Pelvic ultrasound scan to assess endometrial thickness and exclude uterine fibroids or endometrial polyps.
+
+Coagulation profile if bleeding persists, to assess for an underlying coagulopathy.
+
+PLAN:
+
+REASSURANCE AND COUNSELLING:
+Explain that irregular and prolonged bleeding can occur during the initial months of Depo-Provera use.
+
+MEDICAL MANAGEMENT:
+Tab Tranexamic acid 500 mg three times daily × 3/7.
+
+Tab Ibuprofen 400 mg three times daily × 3/7.
+
+SUPPORTIVE CARE:
+Tab Ferrous sulphate 200 mg twice daily × 1/12 to prevent iron deficiency and anaemia.
+
+FOLLOW-UP:
+Review in 2 weeks with investigation results.
+
+Advise patient to return immediately if she develops severe abdominal pain, excessive flooding, dizziness, or fainting spells.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
   id: 'ob-52',
   title: 'Acute Cystitis in Pregnancy',
   specialty: 'Obstetrics and Gynecology',
@@ -62344,6 +66194,1774 @@ Not yet available
 },
 
 // Surgery
+
+{
+  id: 'surg-68',
+  title: 'Right Breast Cancer',
+  specialty: 'Surgery',
+  subSpecialty: 'Breast Surgery',
+  condition: 'Right Breast Cancer',
+  symptoms: [
+    'Right breast lump',
+    'Skin dimpling over the right breast',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 45-year-old premenopausal woman presenting with a progressively enlarging hard, irregular right breast mass with overlying skin dimpling and a mobile ipsilateral axillary lymph node, clinically suspicious for breast carcinoma.',
+  content: `
+BREAST SURGERY CLINIC
+
+PATIENT SEEN
+
+A 45-year-old female civil servant who resides in Ogbomosho, Oyo State. She is Yoruba by tribe and a mother of four.
+
+PRESENTING COMPLAINTS
+
+Right breast lump × 3/12
+
+Skin dimpling over the right breast × 2/52
+
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until 3 months ago when she noticed a small, painless lump in her right breast while performing a self-breast examination.
+
+The lump has gradually increased in size since it was first noticed.
+
+There is no associated nipple discharge, skin redness, or ulceration.
+
+She noticed a slight dimpling of the skin over the lump about 2 weeks ago.
+
+She has not experienced any bone pain, chronic cough, or abdominal swelling.
+
+There is no history of significant weight loss or loss of appetite.
+
+No history of previous breast trauma or infections.
+
+
+PAST MEDICAL HISTORY
+
+No previous history of breast lumps or breast biopsies.
+
+She is not a known hypertensive or diabetic.
+
+No history of previous radiation to the chest.
+
+No history of prolonged use of oral contraceptive pills.
+
+
+OBSTETRIC AND GYNAECOLOGICAL HISTORY
+
+Menarche at 13 years.
+
+Regular 28-day menstrual cycle.
+
+P4+0, all alive.
+
+Age at first childbirth was 22 years.
+
+She breastfed all her children for at least 12 months each.
+
+Currently premenopausal.
+
+
+FAMILY AND SOCIAL HISTORY
+
+No family history of breast, ovarian, or colonic cancer in first-degree relatives.
+
+She does not smoke or consume alcohol.
+
+She lives in a bungalow with her husband and children, with good access to potable water and waste disposal.
+
+
+REVIEW OF SYSTEMS
+
+RS: No cough, haemoptysis, or chest pain.
+
+CVS: No palpitations, orthopnoea, or pedal oedema.
+
+GIT: No abdominal pain, jaundice, or change in bowel habits.
+
+CNS: No headaches, seizures, or focal weakness.
+
+MSS: No back pain or pathological fractures.
+
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+Middle-aged woman, comfortable at rest and not in any obvious respiratory or painful distress.
+
+Not pale, anicteric, acyanosed, and not dehydrated.
+
+No significant peripheral lymphadenopathy, including cervical or supraclavicular lymphadenopathy.
+
+
+VITAL SIGNS
+
+Blood Pressure: 130/80 mmHg.
+
+Pulse Rate: 76 bpm, regular, normal volume.
+
+Respiratory Rate: 16 cpm.
+
+Temperature: 36.5 °C.
+
+
+LOCAL EXAMINATION OF THE RIGHT BREAST
+
+INSPECTION
+
+Right breast appears slightly fuller than the left.
+
+Nipple is at the same level as the contralateral side, with no retraction or discharge.
+
+Visible skin dimpling in the upper outer quadrant.
+
+No peau d'orange, skin redness, or ulceration.
+
+
+PALPATION
+
+A 3 × 4 cm mass is palpable in the upper outer quadrant.
+
+The mass is hard, irregular, and non-tender.
+
+It is fixed to the overlying skin but mobile over the underlying pectoralis major muscle.
+
+The mass is not fixed to the chest wall.
+
+
+RIGHT AXILLA
+
+A single approximately 1 cm mobile, non-tender lymph node is palpable in the right axilla.
+
+
+LOCAL EXAMINATION OF THE LEFT BREAST
+
+Normal on inspection and palpation.
+
+No palpable masses or axillary lymphadenopathy.
+
+
+SYSTEMIC EXAMINATION
+
+ABDOMEN
+
+Abdomen is flat and moves with respiration.
+
+Soft and non-tender.
+
+Liver and spleen are not palpable.
+
+No clinical evidence of ascites.
+
+
+CHEST
+
+Trachea is central.
+
+Vesicular breath sounds bilaterally.
+
+No adventitious sounds.
+
+
+CENTRAL NERVOUS SYSTEM
+
+Conscious and oriented.
+
+No focal neurological deficits.
+
+
+ASSESSMENT
+
+Right breast carcinoma, clinically suspicious for cT2N1M0 breast cancer.
+
+
+DIFFERENTIAL DIAGNOSES
+
+Fibroadenoma, less likely given the patient's age and the hard, irregular nature of the mass.
+
+Breast cyst with inflammatory changes.
+
+Fat necrosis, although there is no history of trauma.
+
+
+INVESTIGATIONS
+
+Bilateral mammography and breast ultrasound scan: To characterize the breast lesion and assess the contralateral breast.
+
+Core needle biopsy of the right breast mass for histopathological diagnosis.
+
+Immunohistochemistry for ER, PR, HER2, and Ki-67 status to guide systemic therapy.
+
+Ultrasound-guided core biopsy of the right axillary lymph node, where feasible, for pathological confirmation of nodal involvement.
+
+Full Blood Count (FBC).
+
+Electrolytes, Urea and Creatinine (E/U/Cr).
+
+Liver Function Tests (LFTs).
+
+Serum Calcium.
+
+Chest X-ray and abdominal imaging as clinically indicated for staging and assessment for metastatic disease.
+
+
+PLAN
+
+COUNSELLING
+
+Discuss with the patient and her spouse the clinical suspicion of breast malignancy and the need for definitive tissue diagnosis.
+
+Explain that definitive treatment will depend on histology, tumour biology, stage, and multidisciplinary team assessment.
+
+
+MULTIDISCIPLINARY MANAGEMENT
+
+Refer to the breast multidisciplinary team for definitive staging and treatment planning following tissue diagnosis.
+
+
+SURGERY
+
+Depending on tumour characteristics, breast size, stage, patient preference, and multidisciplinary assessment, surgical options may include Breast-Conserving Surgery with appropriate axillary staging or Modified Radical Mastectomy.
+
+
+SYSTEMIC THERAPY
+
+Chemotherapy may be administered as neoadjuvant or adjuvant treatment depending on tumour stage and biological characteristics.
+
+Anthracycline- and taxane-based regimens may be considered where chemotherapy is indicated.
+
+
+ENDOCRINE THERAPY
+
+If the tumour is hormone-receptor positive, endocrine therapy should be considered.
+
+For a premenopausal patient, Tamoxifen 20 mg PO daily may be used, with duration determined by the oncology team.
+
+Aromatase inhibitors may be considered in appropriate patients, generally with ovarian function suppression in premenopausal women.
+
+
+TARGETED THERAPY
+
+If HER2-positive, Trastuzumab may be considered, with treatment duration and cardiac monitoring according to oncology protocols and patient-specific factors.
+
+
+RADIOTHERAPY
+
+Radiotherapy is generally indicated following breast-conserving surgery and may also be indicated after mastectomy depending on tumour and nodal characteristics.
+
+
+SUPPORTIVE CARE
+
+Offer psychosocial support.
+
+Consider referral to a social worker and/or breast cancer support group.
+
+Provide information regarding treatment options, expected investigations, and follow-up.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'surg-67',
+  title: 'Injection-Related Right Sciatic Nerve Palsy',
+  specialty: 'Surgery',
+  subSpecialty: 'Orthopaedics',
+  condition: 'Right Sciatic Nerve Palsy Secondary to Gluteal Intramuscular Injection',
+  symptoms: [
+    'Weakness of the right foot × 3/7',
+    'Severe pain in the right lower limb × 3/7',
+    'Numbness of the right leg and foot × 3/7',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 32-year-old male mechanic presenting with acute right foot drop, severe neuropathic pain, and sensory loss following an intramuscular injection into the right gluteal region. Findings are consistent with right sciatic nerve palsy following injection injury.',
+  content: `
+SURGERY CLINIC
+
+PATIENT SEEN
+
+A 32-year-old male mechanic residing in Ogbomosho, Oyo State. He is Yoruba.
+
+PRESENTING COMPLAINTS
+
+Weakness of the right foot × 3/7
+
+Severe pain in the right lower limb × 3/7
+
+Numbness of the right leg and foot × 3/7
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was apparently well until 3 days ago when he received an intramuscular injection in the right gluteal region at a local pharmacy for a febrile illness.
+
+Immediately following the injection, he felt an intense, sharp, electric-shock-like pain radiating from the injection site down the back of his thigh to his foot.
+
+A few hours later, he noticed that he could no longer lift the front part of his right foot (foot drop), which caused him to stumble while walking.
+
+He also reports loss of sensation over the outer part of his leg and the top of his foot.
+
+There is no history of trauma to the back or hips prior to this incident.
+
+No history of urinary or faecal incontinence.
+
+No weakness in the left lower limb or upper limbs.
+
+PAST MEDICAL HISTORY
+
+No previous history of similar weakness or chronic back pain.
+
+Not a known diabetic or hypertensive.
+
+No history of sickle cell disease.
+
+DRUG HISTORY
+
+Received an unknown injection 3 days ago, likely an analgesic or antimalarial.
+
+No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+Married with two children.
+
+Occupation involves heavy lifting and standing for long periods.
+
+Non-smoker and occasional consumer of alcohol.
+
+REVIEW OF SYSTEMS
+
+CNS: No headache, no loss of consciousness, no seizures.
+
+CVS: No palpitations, no chest pain.
+
+RESPIRATORY: No cough, no difficulty breathing.
+
+GIT: No abdominal pain, no change in bowel habits.
+
+GUS: No dysuria, no haematuria.
+
+ON EXAMINATION
+
+GENERAL EXAMINATION
+
+Patient is conscious and alert, in no obvious respiratory distress but appears to be in painful distress.
+
+Not pale, not icteric, not dehydrated.
+
+No significant peripheral lymphadenopathy.
+
+No pedal oedema.
+
+VITAL SIGNS
+
+Pulse Rate: 82 bpm, regular
+
+Blood Pressure: 120/80 mmHg
+
+Respiratory Rate: 18 cpm
+
+Temperature: 36.7°C
+
+MUSCULOSKELETAL AND NEUROLOGICAL EXAMINATION OF THE RIGHT LOWER LIMB
+
+GAIT
+
+High-steppage gait on the right side.
+
+INSPECTION
+
+No obvious muscle wasting, given the acute presentation.
+
+No scars or sinuses over the gluteal region.
+
+A small puncture mark is visible on the inferomedial aspect of the right buttock.
+
+PALPATION
+
+Significant tenderness over the right gluteal region, particularly around the sciatic notch.
+
+MOTOR SYSTEM
+
+Tone: Hypotonia noted at the right ankle.
+
+Power:
+
+Hip flexion: 5/5
+
+Hip extension: 5/5
+
+Knee flexion: 4/5
+
+Knee extension: 5/5
+
+Ankle dorsiflexion: 0/5
+
+Ankle plantarflexion: 2/5
+
+Ankle inversion: 0/5
+
+Ankle eversion: 0/5
+
+REFLEXES
+
+Knee jerk: Present and equal bilaterally (++).
+
+Ankle jerk: Absent on the right, present on the left (++).
+
+Plantar response: Mute on the right.
+
+SENSORY SYSTEM
+
+Diminished sensation to fine touch and pinprick over the lateral aspect of the right leg and the entire foot.
+
+ASSESSMENT
+
+Right sciatic nerve palsy secondary to traumatic gluteal intramuscular injection.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Common peroneal nerve palsy
+2. Lumbar radiculopathy (L4/L5 or L5/S1 disc prolapse)
+3. Lumbosacral plexopathy
+
+INVESTIGATIONS
+
+1. Nerve conduction studies (NCS) and electromyography (EMG), ideally performed 2–3 weeks post-injury for better prognostic assessment.
+2. X-ray of the lumbosacral spine to assess for vertebral or degenerative/disc disease as a possible cause of radiculopathy.
+3. Random Blood Sugar (RBS) to screen for diabetes mellitus.
+4. Full Blood Count (FBC) and ESR to screen for infection or inflammatory processes.
+
+PLAN
+
+EDUCATION AND COUNSELLING
+
+Explain the nature of the nerve injury to the patient.
+
+Counsel that peripheral nerve recovery is generally slow and may take several months.
+
+PAIN MANAGEMENT
+
+Tab. Pregabalin 75 mg nocte, with gradual increase to 75 mg twice daily if tolerated, for neuropathic pain.
+
+Alternatively, Tab. Amitriptyline 10–25 mg nocte if pregabalin is unavailable or unaffordable.
+
+Tab. Ibuprofen 400 mg three times daily for 5 days for acute inflammatory pain at the injection site.
+
+Tab. Vitamin B-complex (Neurobion) 1 tablet daily for neurotrophic support.
+
+PHYSIOTHERAPY
+
+Urgent referral for physiotherapy.
+
+Passive range-of-motion exercises to prevent contracture of the Achilles tendon and development of equinus deformity.
+
+Electrical stimulation of affected muscles if available and appropriate.
+
+ORTHOTICS
+
+Prescription of an ankle-foot orthosis (AFO) or foot-drop splint to maintain the foot in a neutral position, prevent falls, and assist with ambulation.
+
+FOLLOW-UP
+
+Monthly review to monitor motor and sensory recovery.
+
+Reassess for possible surgical exploration if there is no clinical improvement after 3–6 months, although surgical intervention is rarely required for injection-related nerve injuries.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'surg-66',
+  title: 'Recurrent Furunculosis',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Recurrent Furunculosis',
+  symptoms: [
+    'Recurrent painful skin swellings × 6/12',
+    'Low-grade fever',
+    'Malaise',
+    'Multiple recurrent skin lesions',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 24-year-old man with a 6-month history of recurrent painful, erythematous skin swellings affecting multiple sites, including the axillae, groin, buttocks, neck, back, and thigh. Examination reveals multiple tender nodules with a fluctuant, pointing lesion and hyperpigmented scars from previous episodes, consistent with recurrent furunculosis.',
+  content: `
+SURGERY CLINIC
+
+PATIENT SEEN
+
+A 24-year-old male student residing in Ibadan, Oyo State. He is of the Yoruba ethnic group.
+
+PRESENTING COMPLAINT
+
+Recurrent painful skin swellings × 6/12
+
+HISTORY OF PRESENTING COMPLAINT
+
+He was apparently well until 6 months ago when he noticed a painful, red swelling in his right axilla. This gradually increased in size, became fluctuant, and eventually ruptured, discharging yellowish pus, after which it healed with a scar.
+
+Since then, he has had multiple similar episodes occurring at different sites, including the groin, buttocks, and neck.
+
+The lesions usually start as small, itchy bumps that rapidly become painful and swollen.
+
+He currently has three active lesions: two on the back and one on the left thigh, which started 4 days ago. He reports associated low-grade fever and malaise during the current episode.
+
+There is no history of excessive thirst, frequent urination, or unexplained weight loss.
+
+No history of chronic cough, prolonged fever, or night sweats.
+
+He denies use of shared clippers, towels, or bedsheets, although he lives in a crowded university hostel.
+
+No known history of similar skin conditions in the family.
+
+PAST MEDICAL HISTORY
+
+No history of Diabetes Mellitus or asthma.
+
+Not a known patient with Sickle Cell Disease.
+
+No previous hospitalizations or surgeries.
+
+HIV status unknown.
+
+DRUG HISTORY
+
+Has used various over-the-counter antibiotics, including Amoxicillin and Ciprofloxacin, and herbal topical applications with only temporary relief.
+
+No known drug allergies.
+
+SOCIAL HISTORY
+
+Lives in a hostel with four other students.
+
+Uses a shared bathroom facility.
+
+Does not smoke or drink alcohol.
+
+REVIEW OF SYSTEMS
+
+CNS: No headaches, no seizures.
+
+RS: No cough, no chest pain.
+
+CVS: No palpitations, no pedal oedema.
+
+GIT: No abdominal pain, normal bowel habits.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Young man, comfortable and not in any obvious respiratory or painful distress.
+
+Afebrile (37.2 °C).
+
+Not pale, not icteric, no significant peripheral lymphadenopathy.
+
+No pedal oedema.
+
+VITAL SIGNS
+
+PR: 82 bpm, regular, full volume.
+
+BP: 110/70 mmHg.
+
+RR: 18 cpm.
+
+SpO₂: 98% on room air.
+
+LOCAL SKIN EXAMINATION
+
+Multiple erythematous, tender, dome-shaped nodules on the back and left thigh.
+
+The largest lesion on the back measures 3 × 3 cm, is fluctuant, and shows central pointing.
+
+There are multiple hyperpigmented scars on the axillae and buttocks from previous lesions.
+
+No features of Hidradenitis Suppurativa, including sinus tracts or double-headed comedones.
+
+SYSTEMIC EXAMINATION
+
+ABDOMEN: Soft and non-tender. Liver and spleen are not palpable.
+
+RESPIRATORY: Lungs clear, vesicular breath sounds.
+
+CVS: S1 and S2 only, no murmurs.
+
+ASSESSMENT
+
+Recurrent Furunculosis.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Hidradenitis Suppurativa.
+2. Infected Sebaceous Cysts.
+3. Folliculitis.
+
+INVESTIGATIONS
+
+1. Fasting Blood Sugar (FBS): To screen for Diabetes Mellitus.
+
+2. HIV screening: Provider-Initiated Testing and Counseling.
+
+3. Full Blood Count (FBC): To assess for leukocytosis and other haematological abnormalities.
+
+4. Pus swab for Microscopy, Culture and Sensitivity (MCS): From the fluctuant lesion.
+
+5. Nasal swab for Staphylococcus aureus carriage: If recurrence continues despite treatment.
+
+PLAN
+
+1. URGENT/SURGICAL MANAGEMENT
+
+Incision and Drainage (I&D) of the fluctuant lesion on the back under aseptic conditions.
+
+Warm compresses to the non-fluctuant lesions to promote spontaneous drainage.
+
+2. SYSTEMIC ANTIBIOTIC THERAPY
+
+Flucloxacillin 500 mg 6-hourly for 7 days.
+
+Alternative: Clindamycin 300 mg 8-hourly for 7 days if MRSA is suspected.
+
+3. TOPICAL ANTIBIOTIC THERAPY
+
+Mupirocin 2% ointment applied to the nares twice daily for 5 days and to active lesions to reduce bacterial carriage.
+
+4. ANALGESIA
+
+Paracetamol 1 g 8-hourly for 3 days.
+
+5. DECOLONIZATION AND HYGIENE
+
+Chlorhexidine 4% body wash (Hibiscrub) daily for 5 days.
+
+Counsel on personal hygiene and avoidance of sharing towels, razors, or sponges.
+
+Advise frequent laundering of bedsheets, towels, and undergarments in hot water.
+
+6. FOLLOW-UP
+
+Review in 1 week to discuss culture results and assess response to treatment.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'surg-65',
+  title: 'Furunculosis',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Furunculosis',
+  symptoms: [
+    'Painful, erythematous skin nodules × 5/7',
+    'Fever and malaise × 3/7',
+    'Localized pain and swelling',
+    'Purulent discharge',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 28-year-old man presenting with multiple painful, tender, erythematous nodules on the posterior neck and left axilla, with a fluctuant neck lesion having a central necrotic core and surrounding cellulitis, clinically consistent with furunculosis.',
+  content: `
+SURGERY CLINIC
+
+PATIENT SEEN
+
+A 28-year-old male civil servant residing in Ikeja, Lagos State.
+
+PRESENTING COMPLAINTS
+
+Painful, erythematous skin nodules × 5/7
+Associated fever and malaise × 3/7
+
+HISTORY OF PRESENTING COMPLAINT
+
+Patient reports a 5-day history of multiple painful, tender nodules on the posterior neck and left axilla. The lesions started as small, itchy papules which progressed to become firm, painful, and erythematous.
+
+He reports associated low-grade fever and malaise.
+
+He denies any history of Diabetes Mellitus or recent immunosuppressive therapy.
+
+He has been applying topical mentholated balms with no significant improvement.
+
+He presents today due to increasing pain and the development of a central 'head' on the neck lesion.
+
+PAST MEDICAL HISTORY
+
+No known chronic illnesses, including Diabetes Mellitus or HIV.
+
+No history of recurrent skin infections.
+
+No known drug allergies.
+
+DRUG HISTORY
+
+Self-medication with Paracetamol 1 g PRN with minimal relief.
+
+No recent antibiotic use.
+
+SOCIAL HISTORY
+
+Lives in a shared apartment and denies overcrowding.
+
+Reports good personal hygiene practices.
+
+REVIEW OF SYSTEMS
+
+Constitutional: Fever (+), malaise (+).
+
+Integumentary: Localized pain, swelling, and purulent discharge from the neck lesion.
+
+Other systems: NAD.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Patient is in mild distress due to pain.
+
+Not pale, not jaundiced, afebrile (37.6 °C).
+
+VITAL SIGNS
+
+BP: 120/80 mmHg.
+
+PR: 88 bpm, regular.
+
+RR: 18 cpm.
+
+SpO₂: 98% on room air.
+
+LOCAL EXAMINATION — NECK AND AXILLA
+
+Neck: A 2 × 2 cm erythematous, tender, fluctuant nodule with a central necrotic core (furuncle) is present on the nape of the neck. Surrounding cellulitis is noted, extending approximately 1 cm in radius.
+
+Axilla: Two smaller, tender, erythematous nodules, approximately 0.5 cm each, without fluctuance.
+
+Regional lymph nodes: No significant cervical or axillary lymphadenopathy.
+
+ASSESSMENT
+
+Furunculosis (Staphylococcal skin infection).
+
+DIFFERENTIAL DIAGNOSES
+
+1. Carbuncle, if lesions coalesce.
+2. Hidradenitis Suppurativa.
+3. Infected Sebaceous Cyst.
+
+INVESTIGATIONS
+
+Random Blood Sugar (RBS): To screen for undiagnosed Diabetes Mellitus.
+
+Wound swab for Microscopy, Culture and Sensitivity (M/C/S): If lesions fail to respond to initial therapy or if systemic symptoms worsen.
+
+PLAN
+
+1. LOCAL CARE
+
+Warm compresses 3–4 times daily to promote spontaneous drainage.
+
+2. HYGIENE
+
+Advise on daily washing with antiseptic soap, e.g. Chlorhexidine-based preparations.
+
+Advise against sharing towels or razors.
+
+3. ANALGESIA
+
+Paracetamol 1 g 8-hourly.
+
+Ibuprofen 400 mg 8-hourly with food.
+
+4. ANTIBIOTIC THERAPY
+
+Flucloxacillin 500 mg 6-hourly for 7 days.
+
+Erythromycin 500 mg 6-hourly if penicillin-allergic.
+
+5. INCISION AND DRAINAGE
+
+Incision and drainage is indicated if the lesion becomes significantly fluctuant and painful, indicating abscess formation.
+
+6. FOLLOW-UP
+
+Review in 48 hours if there is no improvement or if fever spikes.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'surg-64',
+  title: 'Recurrent Gluteal Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery',
+  condition: 'Recurrent Gluteal Abscess',
+  symptoms: [
+    'Painful swelling of the left buttock × 3/12',
+    'Purulent discharge',
+    'Localized warmth',
+    'Low-grade fever and chills',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-25',
+  summary: 'A 32-year-old man with recurrent gluteal abscesses presenting with a 4-day history of a progressively enlarging, painful left gluteal swelling associated with warmth, purulent discharge, and systemic symptoms. Examination reveals a 5 × 4 cm fluctuant, tender, erythematous and warm swelling with surrounding induration.',
+  content: `
+SURGERY CLINIC
+
+PATIENT SEEN
+
+A 32-year-old Yoruba male civil servant residing in Ikeja, Lagos State.
+
+PRESENTING COMPLAINTS
+
+Recurrent painful swelling of the left buttock × 3/12
+Associated localized warmth and purulent discharge
+
+HISTORY OF PRESENTING COMPLAINT
+
+Patient is a known recurrent sufferer of gluteal abscesses, with the current episode starting 4 days PTP. It began as a small, tender nodule which progressively increased in size, becoming throbbing in nature and limiting mobility.
+
+He reports associated low-grade fever and chills.
+
+He denies any history of Diabetes Mellitus or recent trauma to the area.
+
+He attempted self-medication with oral Amoxicillin-Clavulanate 625 mg for 2 days with minimal relief.
+
+He presents today for definitive management.
+
+PAST MEDICAL HISTORY
+
+Recurrent skin and soft tissue infections (SSTIs) × 2 years.
+
+No known chronic illnesses, including Diabetes Mellitus or Hypertension.
+
+No history of blood transfusions or surgeries.
+
+DRUG HISTORY
+
+Recent use of Amoxicillin-Clavulanate 625 mg, self-medicated.
+
+No known drug allergies.
+
+SOCIAL HISTORY
+
+Non-smoker.
+
+Occasional alcohol intake.
+
+Lives in a well-ventilated apartment with good hygiene practices.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Patient is in painful distress.
+
+Not pale, not febrile, anicteric, and has no pedal oedema.
+
+VITAL SIGNS
+
+BP: 120/80 mmHg.
+
+PR: 88 bpm, regular.
+
+RR: 18 cpm.
+
+SpO₂: 98% on room air.
+
+Temperature: 37.6 °C.
+
+LOCAL EXAMINATION — LEFT GLUTEAL REGION
+
+Site: Left gluteal fold.
+
+Size: 5 × 4 cm.
+
+Characteristics: Fluctuant, tender, erythematous, and warm to touch.
+
+Surrounding area: Indurated area measuring approximately 2 cm in radius.
+
+No regional lymphadenopathy.
+
+ASSESSMENT
+
+Recurrent Gluteal Abscess, likely secondary to chronic folliculitis or Hidradenitis Suppurativa.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Recurrent Gluteal Abscess, possibly Staphylococcal in aetiology.
+2. Hidradenitis Suppurativa.
+3. Infected Sebaceous Cyst.
+
+INVESTIGATIONS
+
+Fasting Blood Sugar (FBS): To screen for undiagnosed Diabetes Mellitus.
+
+Full Blood Count (FBC) and ESR.
+
+Pus swab for Microscopy, Culture and Sensitivity (M, C & S).
+
+PLAN
+
+1. SURGICAL MANAGEMENT
+
+Incision and Drainage (I&D) under local anaesthesia using Lignocaine 2%.
+
+2. WOUND CARE
+
+Saline irrigation and packing with sterile gauze.
+
+3. ANTIBIOTIC THERAPY
+
+Empirical Cloxacillin 500 mg 6-hourly for 7 days, pending M, C & S results.
+
+Erythromycin may be used if penicillin-allergic.
+
+4. ANALGESIA
+
+Paracetamol 1 g 8-hourly.
+
+Ibuprofen 400 mg 8-hourly after meals.
+
+5. HEALTH EDUCATION
+
+Advise on personal hygiene.
+
+Advise on weight reduction if applicable.
+
+Screen for and address possible glycaemic abnormalities.
+
+6. FOLLOW-UP
+
+Review in 48 hours for dressing change and wound assessment.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+
+{
+  id: 'surg-63',
+  title: 'Metastatic Prostate Adenocarcinoma',
+  specialty: 'Surgery',
+  subSpecialty: 'Urology',
+  condition: 'Metastatic Prostate Adenocarcinoma',
+  symptoms: [
+    'Lower back pain × 3/12',
+    'Difficulty passing urine × 6/12',
+    'Weight loss × 4/12',
+    'Weak urinary stream',
+    'Nocturia',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: 'A 72-year-old man presenting with progressive lower urinary tract symptoms, persistent lower back and pelvic pain, significant unintentional weight loss, and a markedly enlarged, stony-hard, nodular, irregular prostate on digital rectal examination, clinically suggestive of metastatic prostate adenocarcinoma with possible bony metastases.',
+  content: `
+SURGERY CLINIC
+
+PATIENT SEEN
+
+A 72-year-old retired civil servant, Yoruba by tribe, residing in Ogbomosho, Oyo State.
+
+PRESENTING COMPLAINTS
+
+Lower back pain × 3/12
+Difficulty passing urine × 6/12
+Weight loss × 4/12
+
+HISTORY OF PRESENTING COMPLAINT
+
+The patient was relatively well until about 6 months prior to presentation when he started experiencing lower urinary tract symptoms (LUTS) characterized by a weak urinary stream, hesitancy, and a feeling of incomplete voiding. There was associated nocturia, occurring 4–5 times per night. The symptoms were progressively worsening.
+
+About 3 months ago, he developed deep, aching pain in the lower back and pelvic region. The pain is persistent, worse at night, and poorly relieved by over-the-counter analgesics. There is no history of trauma to the spine or lower limbs. There is no associated weakness of the lower limbs or urinary/fecal incontinence.
+
+He also reports significant unintentional weight loss over the last 4 months, despite a fairly preserved appetite. He has noticed increasing generalized weakness and easy fatigability. There is no history of chronic cough, hemoptysis, or abdominal swelling.
+
+PAST MEDICAL HISTORY
+
+Known hypertensive × 10 years, compliant with Amlodipine 10 mg daily.
+
+No previous surgeries.
+
+No known history of Diabetes Mellitus or Sickle Cell Disease.
+
+DRUG HISTORY
+
+Amlodipine 10 mg daily.
+
+Intermittent use of Ibuprofen for back pain.
+
+FAMILY AND SOCIAL HISTORY
+
+Married in a monogamous setting with five children.
+
+Former smoker, quit 15 years ago.
+
+Occasionally takes alcohol.
+
+Lives in a bungalow with good access to potable water.
+
+REVIEW OF SYSTEMS
+
+CNS: No headache, no loss of consciousness.
+
+RS: No cough, no chest pain.
+
+CVS: No palpitations, no orthopnea.
+
+GIT: Normal bowel habits, no hematemesis.
+
+MSS: As noted in the HPC.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+Elderly man, cachectic and chronically ill-looking.
+
+Moderately pale, anicteric, not dehydrated.
+
+No significant peripheral lymphadenopathy.
+
+No pedal edema.
+
+VITAL SIGNS
+
+Pulse Rate: 84 bpm, regular, normal volume.
+
+Blood Pressure: 150/90 mmHg.
+
+Respiratory Rate: 20 cpm.
+
+Temperature: 36.6 °C.
+
+SpO₂: 97% on room air.
+
+ABDOMINAL EXAMINATION
+
+Abdomen is flat and moves with respiration.
+
+No areas of tenderness.
+
+Liver and spleen are not palpable.
+
+Kidneys are not ballottable.
+
+Urinary bladder is palpable, approximately 2 fingerbreadths above the pubic symphysis.
+
+DIGITAL RECTAL EXAMINATION
+
+Sphincter tone is normal.
+
+Prostate is significantly enlarged, stony hard, nodular, and irregular in contour.
+
+The median sulcus is obliterated.
+
+The rectal mucosa is mobile over the mass.
+
+Glove finger stained with normal-looking stool.
+
+MUSCULOSKELETAL EXAMINATION
+
+Point tenderness over the L3–L5 vertebrae.
+
+No obvious spinal deformity.
+
+Power is 5/5 in all muscle groups of the lower limbs.
+
+Sensory system is intact.
+
+ASSESSMENT
+
+Metastatic Prostate Adenocarcinoma.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Benign Prostatic Hyperplasia (BPH) with co-existing Lumbar Spondylosis.
+2. Multiple Myeloma.
+3. Secondary deposits from an unknown primary, e.g. bronchogenic carcinoma.
+
+INVESTIGATIONS
+
+1. PSA (Prostate-Specific Antigen): Expected to be significantly elevated.
+
+2. Full Blood Count (FBC): To assess for anaemia of chronic disease.
+
+3. Serum Electrolytes, Urea, and Creatinine (EUCr): To assess renal function and possible obstructive uropathy.
+
+4. Transrectal Ultrasound (TRUS)-guided prostate biopsy: For histological confirmation.
+
+5. X-ray lumbosacral spine, AP and lateral views: To assess for osteoblastic lesions.
+
+6. Abdominopelvic ultrasound: To assess for hydronephrosis and determine prostate volume.
+
+PLAN
+
+1. COUNSELLING
+
+Detailed discussion with the patient and family regarding the suspected diagnosis and the need for histological confirmation.
+
+2. PAIN MANAGEMENT
+
+Paracetamol 1 g TDS.
+
+Dihydrocodeine 30 mg BD or Tramadol 50–100 mg BD (WHO Pain Ladder Step 2).
+
+Consider bisphosphonates, e.g. Zoledronic acid 4 mg IV monthly, for bone pain and prevention of skeletal-related events.
+
+3. HORMONAL THERAPY — ANDROGEN DEPRIVATION THERAPY (ADT)
+
+LHRH agonists: Goserelin (Zoladex) 3.6 mg or 10.8 mg SC, or Leuprorelin.
+
+Anti-androgen: Bicalutamide 50 mg daily, started 2 weeks before LHRH agonist therapy to prevent tumour flare.
+
+Alternative: Bilateral orchidectomy (surgical castration) if the patient prefers a one-time, cost-effective procedure.
+
+4. URINARY SYMPTOMS
+
+Urethral catheterization if there is significant urinary retention.
+
+Tamsulosin 0.4 mg daily to improve voiding.
+
+5. REFERRAL
+
+Formal referral to the Urology and Oncology teams for definitive grading, staging, and consideration of further treatment such as Radiotherapy or Chemotherapy, e.g. Docetaxel.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+{
+  id: 'surg-62',
+  title: 'Post-Injection Gluteal Abscess',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Gluteal Injection Abscess with Suspected Sciatic Nerve Injury',
+  symptoms: [
+    'Fever',
+    'Headache and chills',
+    'Right gluteal pain',
+    'Right posterior thigh and calf pain',
+    'Right gluteal swelling',
+    'Difficulty with weight-bearing',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: '21-year-old Yoruba female university student presenting with 4 days of fever, headache and chills and 3 days of severe right gluteal pain radiating down the posterior thigh following an intramuscular injection administered by an unregistered healthcare provider. Examination revealed a 6 × 5 cm warm, tender, indurated right gluteal swelling with associated sciatic notch and posterior thigh tenderness, raising concern for an early post-injection abscess/cellulitis and possible iatrogenic sciatic nerve injury.',
+  content: `SURGERY CLINIC
+
+Patient Identification
+A 21-year-old Yoruba female university student residing in Yaba, Lagos State, Christian.
+
+PC:
+Fever × 4/7
+
+Headache and chills × 4/7
+
+Right leg pain × 3/7
+
+HPC:
+The patient was apparently well until 4 days prior to presentation when she developed high-grade intermittent fever, worse at night and associated with chills and rigors. The fever was temporarily relieved by self-medicated oral Paracetamol.
+
+She also developed a generalized, throbbing, severe headache which was worse during febrile spikes. There was no associated photophobia or neck stiffness.
+
+Three days prior to presentation, she developed sharp, severe, throbbing pain localized to the right gluteal region and radiating down the posterior aspect of the right thigh to the calf. The pain started immediately following an intramuscular injection administered at home by an unregistered local healthcare provider ("chemist") for suspected malaria.
+
+The injection site subsequently became progressively swollen, warm, and extremely tender, making weight-bearing and ambulation difficult.
+
+She reports associated general malaise, loss of appetite, and mild nausea. No vomiting, cough, sore throat, abdominal pain, or urinary symptoms.
+
+PTP, she received one dose of an unknown IM injection, suspected to be Chloroquine, Artemether, or Novalgin, administered 3 days prior to presentation by the local healthcare provider. There was no clinical improvement in the fever or headache; instead, right lower limb symptoms developed and progressively worsened.
+
+PMH:
+No known chronic medical conditions including hypertension, diabetes mellitus, asthma, or sickle cell disease.
+
+Genotype AA.
+
+No history of similar admissions or previous surgeries.
+
+No history of blood transfusion.
+
+DH:
+Self-medicated with Tab Paracetamol 1 g PRN prior to presentation.
+
+Received an unknown IM injection × 3/7 ago.
+
+No known drug allergies.
+
+FH:
+No significant family history provided.
+
+SH:
+Lives in a student hostel in Yaba with roommates.
+
+No history of similar illness among roommates.
+
+Non-smoker.
+
+Does not consume alcohol.
+
+ROS:
+CNS: Headache. No convulsions, neck stiffness, or loss of consciousness.
+
+CVS: Palpitations. No chest pain or orthopnoea.
+
+RS: No cough, dyspnoea, or haemoptysis.
+
+GIT: Mild nausea. No vomiting, diarrhoea, or abdominal pain.
+
+GUT: No dysuria or urinary frequency. Urine colour normal.
+
+MSS: Severe right gluteal and posterior thigh pain with limping and antalgic gait.
+
+O/E:
+Acutely ill-looking young woman in painful distress, holding the right hip/buttock.
+
+Febrile, moderately dehydrated.
+
+Not pale, anicteric.
+
+No peripheral lymphadenopathy or pedal oedema.
+
+PR: 104 bpm, regular, moderate volume
+BP: 110/70 mmHg
+RR: 22 cpm
+T: 38.2°C
+SpO₂: 98% on room air
+
+MUSCULOSKELETAL AND LOCAL EXAMINATION – RIGHT GLUTEAL REGION/LOWER LIMB:
+
+Inspection:
+Patient walks with an antalgic gait, favouring the left leg.
+
+Localized swelling and mild erythema over the upper outer quadrant of the right gluteal region.
+
+No obvious discharging sinus, skin necrosis, or visible fluctuance.
+
+Palpation:
+Localized hyperthermia over the right gluteal swelling.
+
+Exquisite tenderness over the upper outer quadrant of the right buttock.
+
+An indurated, firm mass measuring approximately 6 cm × 5 cm is palpable.
+
+No obvious fluctuance elicited.
+
+Tenderness elicited along the course of the sciatic nerve from the sciatic notch to the mid-thigh.
+
+ROM:
+Pain-restricted active and passive movement of the right hip joint, particularly flexion and internal rotation.
+
+Neurological Examination – Right Lower Limb:
+Motor: Power 5/5 in all muscle groups of the left lower limb. Power in the right lower limb is 4/5, limited by pain during hip extension and knee flexion.
+
+Sensory: Sensation to light touch and pinprick intact across L2–S1 dermatomes.
+
+Reflexes: Knee and ankle jerks normal and symmetrical.
+
+ABDOMEN:
+Flat, soft, non-tender.
+
+No hepatosplenomegaly.
+
+Bowel sounds present and normal.
+
+CVS:
+S1 and S2 heard.
+
+No murmurs.
+
+RS:
+Trachea central.
+
+Chest expansion symmetrical.
+
+Lungs clear.
+
+Vesicular breath sounds heard bilaterally.
+
+CNS:
+Conscious, alert, and oriented in time, place, and person.
+
+No signs of meningeal irritation.
+
+ASS:
+Right gluteal injection abscess in the early indurated stage, secondary to unsafe injection practice.
+
+Rule out iatrogenic right sciatic nerve injury.
+
+Malaria to rule out, with concern for possible early sepsis secondary to the injection-site infection.
+
+DIFFERENTIALS:
+Right gluteal cellulitis/injection-site infection.
+
+Iatrogenic right sciatic nerve injury.
+
+Severe or persistent malaria.
+
+Enteric fever.
+
+INVESTIGATIONS:
+FBC to assess for leukocytosis and anaemia.
+
+Malaria Parasite (MP) test with thick and thin blood films to confirm and quantify parasitaemia.
+
+Pelvic/gluteal ultrasound scan to assess the right gluteal swelling for a drainable fluid collection.
+
+Urinalysis to exclude urinary tract infection as a source of fever.
+
+Blood culture if sepsis is suspected, particularly in the presence of persistent febrile spikes.
+
+PLAN:
+
+ADMISSION AND SUPPORTIVE CARE:
+Admit to the observation ward.
+
+Secure wide-bore IV access.
+
+IV Normal Saline 1 L 8-hourly for correction of moderate dehydration, with fluid therapy adjusted according to clinical status.
+
+Pain Management:
+IV Paracetamol 1 g 8-hourly.
+
+IV Pentazocine 30 mg stat, administered slowly, for severe pain, then transition to oral analgesia once pain is controlled.
+
+Consider Tab Tramadol 50 mg twice daily or Tab Ibuprofen 400 mg three times daily with meals, as clinically appropriate.
+
+ANTIBIOTIC THERAPY:
+Commence empiric IV antibiotics targeting common skin and soft-tissue pathogens.
+
+IV Ceftriaxone 1 g 12-hourly + IV Metronidazole 500 mg 8-hourly.
+
+Alternatively, IV Amoxicillin/Clavulanate 1.2 g 12-hourly may be considered according to local protocol and clinical assessment.
+
+ANTIMALARIAL THERAPY:
+If MP is positive and the patient is clinically stable and able to tolerate oral medication, commence Oral Artemether-Lumefantrine 80/480 mg twice daily × 3 days.
+
+If severe malaria is confirmed or strongly suspected, administer IV Artesunate 2.4 mg/kg at 0, 12, and 24 hours, followed by appropriate subsequent dosing.
+
+LOCAL WOUND CARE AND SURGICAL MANAGEMENT:
+Apply warm compresses to the right gluteal region as appropriate.
+
+Request General Surgery review.
+
+Perform incision and drainage if ultrasound demonstrates a drainable abscess cavity.
+
+Send any drained pus for microscopy, culture, and sensitivity.
+
+MONITORING:
+Monitor vital signs 4-hourly.
+
+Monitor the size, warmth, tenderness, erythema, and fluctuance of the right gluteal swelling.
+
+Monitor neurological status of the right lower limb, including motor power, sensation, and development of foot drop.
+
+Refer to Physiotherapy and Neurology if neurological deficits worsen or fail to resolve.
+
+HEALTH EDUCATION:
+Counsel patient on the risks associated with receiving injections from unregistered healthcare providers.
+
+Advise patient to seek medical care promptly for worsening pain, swelling, fever, weakness, numbness, or difficulty walking.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-61',
+  title: 'Category III Dog Bite',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Dog Bite with Suspected Rabies Exposure',
+  symptoms: [
+    'Painful bleeding wound',
+    'Right calf puncture wounds',
+    'Local wound tenderness',
+    'Active wound bleeding',
+    'Dog bite',
+  ],
+  contributor: 'Admin',
+  lastModified: '2023-10-24',
+  summary: '28-year-old Yoruba male civil servant presenting with a 6-hour history of painful bleeding wounds on the right calf following an unprovoked attack by an escaped stray dog described as agitated and foaming at the mouth. Examination revealed two deep puncture wounds with active oozing, local erythema and oedema, with intact distal neurovascular function. Assessed as a Category III dog bite requiring rabies and tetanus post-exposure prophylaxis, wound care, and antibiotic prophylaxis.',
+  content: `SURGERY CLINIC
+
+Patient Identification
+A 28-year-old Yoruba male civil servant residing in Gwagwalada, FCT, Abuja.
+
+Date of Presentation: 24/10/2023
+
+PC:
+Painful bleeding wound on the right calf × 6 hours PTP
+
+HPC:
+Patient presented with a 6-hour history of a painful, bleeding wound on the right calf following an unprovoked attack by a dog while he was walking home from work. The dog was described as a stray, appearing agitated and foaming at the mouth. It escaped immediately after the attack; hence, its vaccination status is unknown and it cannot be quarantined for observation.
+
+There was immediate sharp pain at the site, followed by active bleeding. PTP, the patient washed the wound with salt and palm oil at home before presenting to the facility.
+
+There is no history of fever, headache, sensory changes including paraesthesia, tingling, or numbness at the bite site, muscle spasms, hydrophobia, or aerophobia.
+
+No history of prior rabies vaccination.
+
+PMH:
+No known chronic medical illnesses including hypertension, diabetes mellitus, asthma, or sickle cell disease. Genotype AA.
+
+No history of previous surgical interventions or blood transfusions.
+
+DH:
+No regular medications.
+
+No known drug allergies.
+
+Self-medicated with Tab Paracetamol 1 g stat PTP.
+
+Immunization History:
+Last tetanus toxoid immunization was over 10 years ago during secondary school.
+
+FH:
+No family history of chronic hereditary illnesses.
+
+SH:
+Lives in a rented apartment in a suburb of Gwagwalada.
+
+Non-smoker.
+
+Social alcohol use.
+
+ROS:
+CNS: No headache, neck stiffness, photophobia, or convulsions.
+
+RS: No cough, dyspnoea, or chest pain.
+
+CVS: No palpitations or orthopnoea.
+
+GIT: No nausea, vomiting, or difficulty swallowing.
+
+MSS: No generalized muscle aches or spasms.
+
+O/E:
+Conscious, alert, and in obvious painful distress.
+
+Not pale, anicteric, not dehydrated, not cyanosed.
+
+No peripheral lymphadenopathy.
+
+PR: 92 bpm, regular, normal volume
+BP: 124/82 mmHg
+RR: 18 cpm
+T: 36.7°C
+SpO₂: 98% on room air
+
+REGIONAL EXAMINATION – RIGHT LOWER LIMB:
+
+Inspection:
+Two deep puncture wounds/lacerations on the posterior aspect of the right calf, measuring approximately 3.0 cm × 1.5 cm and 2.0 cm × 1.0 cm.
+
+Active oozing of dark blood noted.
+
+Surrounding skin mildly erythematous and oedematous.
+
+No gross contamination with soil, but traces of palm oil are visible.
+
+Palpation:
+Localized tenderness around the wound margins.
+
+No crepitus.
+
+Dorsalis pedis and posterior tibial pulses palpable, warm, and of good volume.
+
+Capillary refill time <2 seconds.
+
+Neurological:
+Sensation to fine touch and pain intact in the dermatomes of the right foot and ankle.
+
+Motor function including plantarflexion and dorsiflexion fully preserved.
+
+SYSTEMIC EXAMINATION:
+
+CNS:
+GCS 15/15.
+
+No signs of meningeal irritation.
+
+Cranial nerves I–XII intact.
+
+CVS:
+S1 and S2 heard.
+
+No murmurs.
+
+RS:
+Lungs clear bilaterally.
+
+Vesicular breath sounds.
+
+Abdomen:
+Soft, non-tender.
+
+No organomegaly.
+
+ASS:
+Category III dog bite to the right calf following exposure to a suspected rabid dog, with high risk for rabies and tetanus.
+
+DIFFERENTIALS:
+Category III dog bite with suspected rabies exposure.
+
+Secondary bacterial wound infection/cellulitis.
+
+INVESTIGATIONS:
+Wound swab for microscopy, culture, and sensitivity if signs of secondary infection develop.
+
+FBC for baseline assessment, including white cell count.
+
+RBG.
+
+PLAN:
+
+Wound Care:
+Thoroughly irrigate the wound immediately and vigorously with soap and running water for at least 15 minutes.
+
+Apply 70% alcohol (surgical spirit) or povidone-iodine to the wound after washing.
+
+Do not primarily suture the wound. Leave open to heal by secondary intention or consider delayed primary closure after 48–72 hours if clinically indicated.
+
+Rabies Post-Exposure Prophylaxis:
+Administer Human Rabies Immunoglobulin (HRIG) 20 IU/kg, infiltrated deeply into and around the wound margins. Any remaining volume should be administered IM at an anatomical site distant from the vaccine administration site.
+
+Alternatively, Equine Rabies Immunoglobulin may be administered at 40 IU/kg according to local protocol.
+
+Administer Purified Chick Embryo Cell Vaccine (PCECV) or Purified Vero Cell Rabies Vaccine (PVRV) 0.5 mL or 1 mL depending on the vaccine brand, IM in the deltoid region on Days 0, 3, 7, 14, and 28 (Essen regimen). Do not administer rabies vaccine in the gluteal region.
+
+Tetanus Prophylaxis:
+Tetanus Toxoid (TT) 0.5 mL IM stat.
+
+Human Tetanus Immunoglobulin (TIG) 250 IU IM stat at a site separate from TT.
+
+Antibiotic Prophylaxis:
+Tab Co-amoxiclav 625 mg PO 12-hourly × 5/7.
+
+Analgesia:
+Tab Ibuprofen 400 mg PO 8-hourly × 3/7.
+
+Tab Paracetamol 1 g PO 8-hourly × 3/7.
+
+Wound Care and Follow-up:
+Daily wound dressing with sterile saline and povidone-iodine.
+
+Review in clinic in 3 days for wound inspection and administration of the second rabies vaccine dose.
+
+HEALTH EDUCATION:
+Counsel patient on the importance of completing the rabies vaccination schedule.
+
+Educate patient on warning symptoms including fever, headache, hydrophobia, aerophobia, and abnormal tingling or paraesthesia at the wound site.
+
+Advise patient to return immediately if any concerning symptoms or signs of wound infection develop.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+{
+  id: 'surg-60',
+  title: 'Category III Dog Bite',
+  specialty: 'Surgery',
+  subSpecialty: 'General Surgery Clinic',
+  condition: 'Dog Bite with Rabies Exposure Risk',
+  symptoms: [
+    'Dog bite',
+    'Right leg laceration',
+    'Wound pain',
+    'Bleeding',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-09-20',
+  summary: '32-year-old male mechanic presenting 3 hours after an unprovoked bite from a neighbour’s dog, with a 4 cm ragged laceration on the lateral right calf and unknown dog vaccination status. The dog is available for observation. Assessed as a Category III dog bite requiring wound care, rabies post-exposure prophylaxis, tetanus prophylaxis, and antibiotic coverage.',
+  content: `SURGERY CLINIC
+
+Patient Identification
+A 32-year-old Hausa male mechanic residing in Dutse, Jigawa State.
+
+PC:
+Dog bite to the right leg × 3 hours
+
+HPC:
+He was apparently well until 3 hours prior to presentation when he was bitten by a neighbour’s dog while walking home from work. The attack was unprovoked, and the dog bit him on the lateral aspect of the right lower leg. There was associated sharp pain and moderate bleeding from the site.
+
+The dog is a local breed owned by a neighbour, but its vaccination status is unknown. There was no history of the dog acting strangely, unprovoked aggression prior to this incident, or excessive salivation. However, the dog’s current whereabouts are known and it is available for observation.
+
+Immediately after the bite, the patient washed the wound with only plain water at home. He has not received any medical intervention prior to presentation.
+
+There is no history of fever, headache, muscle spasms, hydrophobia, or aerophobia.
+
+PMH:
+No known chronic medical conditions such as diabetes mellitus or hypertension.
+
+No history of similar injury in the past.
+
+Surgical history: Nil.
+
+DH:
+Not currently on any chronic medications.
+
+No known drug allergies.
+
+Immunization History:
+Tetanus toxoid immunization status is not up to date; last dose was over 10 years ago.
+
+FH:
+He is the first of four children in a monogamous family setting.
+
+SH:
+He works as a mechanic and lives in a room-and-parlour apartment with adequate ventilation.
+
+No history of cigarette smoking or alcohol consumption.
+
+ROS:
+CNS: No headache, seizures, or loss of consciousness.
+
+RS: No cough, chest pain, or dyspnoea.
+
+CVS: No palpitations or orthopnoea.
+
+GIT: No abdominal pain, vomiting, or change in bowel habits.
+
+MSS: No joint pains or swelling.
+
+O/E:
+Young man in painful distress but otherwise clinically stable.
+
+Not pale, anicteric, not dehydrated, no pedal oedema.
+
+No peripheral lymphadenopathy.
+
+PR: 88 bpm, full volume, regular
+BP: 120/70 mmHg
+RR: 20 cpm
+T: 36.8°C
+SpO₂: 98% on room air
+
+LOCAL EXAMINATION – RIGHT LOWER LIMB:
+
+Inspection:
+A 4 cm ragged laceration on the lateral aspect of the right calf.
+
+Presence of tooth marks/punctures around the wound edges.
+
+Moderate oozing of blood noted.
+
+No gross contamination with soil or debris.
+
+No significant swelling or surrounding erythema.
+
+Palpation:
+Tenderness noted at the wound site.
+
+Dorsalis pedis and posterior tibial pulses are present and full.
+
+Capillary refill time <2 seconds.
+
+Sensation and motor function distal to the injury are intact.
+
+ASS:
+Category III dog bite to the right leg with high risk of rabies exposure and tetanus.
+
+DIFFERENTIALS:
+Rabies virus exposure
+
+Risk of tetanus
+
+Secondary wound infection, including Pasteurella multocida or Staphylococcus aureus infection
+
+INVESTIGATIONS:
+Wound swab for microscopy, culture, and sensitivity if signs of infection develop.
+
+PCV
+
+RBS
+
+Veterinary review of the dog for 10-day observation.
+
+PLAN:
+
+Wound Care:
+Thorough irrigation of the wound with soap and pressurized running water for at least 15 minutes.
+
+Debridement of devitalized tissue and cleaning with povidone-iodine.
+
+Rabies Post-Exposure Prophylaxis:
+IM Anti-Rabies Vaccine (ARV) 0.5 mL on days 0, 3, 7, 14, and 28 (Essen protocol).
+
+Human Rabies Immunoglobulin (HRIG) 20 IU/kg, with as much as possible infiltrated around the wound site.
+
+Tetanus Prophylaxis:
+Tetanus Toxoid (TT) 0.5 mL IM stat.
+
+Human Tetanus Immunoglobulin (HTIG) 250 IU IM stat at a different site from TT.
+
+Antibiotics:
+Tab Amoxicillin/Clavulanate 625 mg twice daily × 5/7.
+
+Analgesia:
+Tab Paracetamol 1 g three times daily × 3/7.
+
+Wound Closure:
+Leave wound open to reduce the risk of trapping pathogens. Consider delayed primary closure where appropriate, unless wound closure is required for haemostasis.
+
+HEALTH EDUCATION:
+Counsel patient on the importance of completing the rabies vaccination schedule.
+
+Advise patient to report any change in the dog’s behaviour or health during the observation period.
+
+Advise patient to return if there is increasing pain, swelling, redness, discharge, fever, or other signs of wound infection.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
 {
   id: 'surg-59',
   title: 'Subacute Appendicitis',

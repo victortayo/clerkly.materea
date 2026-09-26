@@ -54,6 +54,10 @@ body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
 </div>
 </div>
 
+<!-- Table of Contents Placeholder -->
+<div id="toc-container" class="mb-6"></div>
+
+
 <!-- 1. Introduction -->
 <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
 <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
@@ -388,6 +392,8 @@ Summary
   </ul>
 </div>
 </details>
+
+<script src="/reusable_toc.js"></script>
 
 </body>
 </html>
@@ -5997,6 +6003,622 @@ Summary
     `
   },
 
+  {
+    id: 'symptom-menstrual-cramps',
+    title: 'Menstrual Cramps',
+    category: 'Symptom Clerking',
+    subCategory: 'Gynecological',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Menstrual Cramps</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Menstrual Cramps</h1>
+    <p class="text-sm text-indigo-200">Menstrual pain is common, but pain severe enough to limit daily activities is not something a patient should simply be told to manage - it deserves proper evaluation, since normalizing it can delay diagnosis of genuinely treatable conditions like fibroids, which are especially common in African women, and endometriosis, which is often diagnosed late for exactly this reason. This guide focuses on the history and examination that distinguish primary dysmenorrhoea from a secondary cause, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did period pain first start - within a year or two of the first period (typical of primary dysmenorrhoea), or did it begin later in life, or change in character recently? New or changing pain later in reproductive life points more towards a secondary cause.</li>
+      <li>When during the cycle does the pain occur - starting with or just before bleeding and easing within a few days (typical primary pattern), or present for longer, extending well beyond the first few days of the period?</li>
+      <li>What is the character - a cramping, spasmodic pain, or more of a constant, dull ache?</li>
+      <li>How severe is it, in practical terms - does it stop the patient from going to school, work, or usual activities? This is often a better gauge of true severity than the pain score alone, especially where severe pain has been normalized as "just how periods are."</li>
+      <li>Does it respond to simple pain relief such as ibuprofen or paracetamol? A poor response to properly used NSAIDs raises the possibility of a secondary cause.</li>
+      <li>Has this pattern changed or worsened over time?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Bleeding pattern:</span> heavy periods, passing clots, or bleeding between periods - all raise fibroids or adenomyosis as a contributing cause.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pain with intercourse (dyspareunia), pain with bowel movements, or pain with urination during periods:</span> these raise endometriosis, particularly if the pain is deep rather than superficial.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Fertility:</span> any difficulty conceiving, if relevant and desired - endometriosis, fibroids, and prior PID can all affect fertility.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Infective:</span> fever, abnormal or foul-smelling vaginal discharge - raises pelvic inflammatory disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Abdominal:</span> bloating, distension, or a sense of pelvic pressure - can occur with larger fibroids or an ovarian cyst.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary:</span> increased frequency or a sense of bladder pressure, which can occur with a large fibroid compressing the bladder.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia-related:</span> fatigue, breathlessness, or noticeable pallor, particularly where periods are heavy.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cycle regularity and length.</span></li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Contraceptive method:</span> a copper IUD can worsen cramps, while hormonal methods often improve primary dysmenorrhoea.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history and any previous STI/PID episodes:</span> asked privately and without judgement, as with any sexual history - relevant to pelvic inflammatory disease as a cause of secondary dysmenorrhoea.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Obstetric history:</span> primary dysmenorrhoea often improves after childbirth.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history of fibroids or endometriosis:</span> both have a recognized genetic component.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous pelvic surgery or IUD placement.</span></li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">What has been tried already for the pain, and how it was used</span> - many patients underuse NSAIDs (too low a dose, started too late, or only "as needed" rather than regularly through the first days of bleeding), which can make primary dysmenorrhoea look falsely treatment-resistant.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General and Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Vital signs, and pallor if heavy bleeding has been reported.</li>
+      <li>Abdominal examination - a palpable mass or generalized distension can suggest a large fibroid; note the site and size of any mass found.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pelvic Examination (With Consent, Privacy, and a Chaperone)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Uterine size, shape, and mobility</span> - an enlarged, irregularly shaped uterus supports fibroids; a tender, uniformly enlarged, "boggy" uterus supports adenomyosis; a fixed, retroverted uterus with tender nodularity behind it can support endometriosis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Cervical motion tenderness and adnexal tenderness</span> - support pelvic inflammatory disease.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">An adnexal mass</span> - raises an ovarian cyst.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Speculum examination</span> - where abnormal discharge or infection is suspected.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Severe pain with a missed or abnormal period and a positive or uncertain pregnancy status</span> - actively exclude ectopic pregnancy before attributing the pain to menstruation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever, purulent discharge, and severe pelvic tenderness</span> - raises pelvic inflammatory disease, which needs prompt antibiotic treatment to reduce the risk of long-term fertility damage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Sudden, severe pain with a palpable adnexal mass</span> - raises ovarian torsion or cyst rupture, a surgical emergency.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Heavy menstrual bleeding with signs of significant anaemia</span> (breathlessness, tachycardia) - needs urgent assessment and possible transfusion.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A rapidly enlarging pelvic mass</span> - needs prompt imaging rather than routine follow-up.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic ultrasound</span> - the first-line imaging investigation; identifies fibroids, adenomyosis, and ovarian cysts effectively.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC</span> - to screen for anaemia where periods are heavy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy test</span> - to exclude a pregnancy-related cause wherever there is any uncertainty.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">STI screening</span> - where pelvic inflammatory disease is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">HIV screening</span> - with appropriate pre-test discussion and consent, where relevant.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diagnostic laparoscopy</span> - the definitive investigation for endometriosis where clinical suspicion remains high despite normal imaging; arranged through gynaecology referral.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Primary dysmenorrhoea</span> - onset near menarche, pain confined mainly to the first days of bleeding, and a good response to properly used NSAIDs; the commonest cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Uterine fibroids</span> - heavy bleeding, an enlarged or irregular uterus on examination; especially common in this population and worth actively considering.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adenomyosis</span> - a tender, uniformly enlarged uterus with heavy, painful periods.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Endometriosis</span> - pain extending beyond the first days of the period, deep dyspareunia, and pain with bowel/bladder function around menstruation; often diagnosed late due to normalization of severe pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease/chronic pelvic infection</span> - fever, abnormal discharge, cervical motion tenderness.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian cyst</span> - an adnexal mass, sometimes with cyclical or acute pain.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">IUD-related dysmenorrhoea</span> - worsened cramping following copper IUD insertion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cervical stenosis</span> - a less common structural cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ectopic pregnancy</span> - where the pain pattern doesn't fit typical menstruation, or bleeding/period timing is abnormal.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Measures for Primary Dysmenorrhoea</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">NSAIDs, taken regularly</span> starting just before or at the onset of bleeding and continued through the first few days, rather than only when pain becomes severe - this is more effective than "as needed" dosing and is the first-line treatment.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Heat applied to the lower abdomen</span> - a simple, useful adjunct.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hormonal contraception</span> - a good option where pregnancy is not desired and pain is not adequately controlled with NSAIDs alone.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fibroids</span> - management depends on size, symptoms, and fertility plans, ranging from medical management of heavy bleeding to myomectomy or hysterectomy; refer to gynaecology for individualized planning.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Adenomyosis</span> - hormonal management as first-line, with gynaecology referral for more severe or refractory cases.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Endometriosis</span> - hormonal suppression of the cycle as initial management, with gynaecology referral for consideration of laparoscopy, ongoing pain management, and fertility counselling where relevant.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic inflammatory disease</span> - antibiotic combination per WHO/local STI treatment guidelines, with partner treatment where appropriate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ovarian cyst</span> - observation for small, simple, asymptomatic cysts; surgical referral for large, symptomatic, or complex cysts.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anaemia from heavy bleeding</span> - iron replacement, treatment of the underlying cause of the bleeding, and transfusion where severe.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">IUD-related dysmenorrhoea</span> - trial of NSAIDs first; consider switching to a different contraceptive method if symptoms remain troublesome.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Menstrual cramps, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset relative to menarche, timing within the cycle, character, functional impact, response to analgesia, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Previous STIs/PID, pelvic surgery, IUD use.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Current contraceptive method, analgesics tried, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Family history of fibroids/endometriosis, obstetric history, sexual history where relevant.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Abdominal and pelvic examination findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Normalizing severe menstrual pain as "just part of having periods" without proper evaluation.</li>
+    <li>Not asking specifically about functional impact, which is often a more honest indicator of severity than a pain score.</li>
+    <li>Assuming all dysmenorrhoea is primary without actively considering secondary causes, particularly fibroids.</li>
+    <li>Not screening for anaemia in a patient with heavy menstrual bleeding.</li>
+    <li>Not considering pelvic inflammatory disease in a sexually active woman with pelvic pain.</li>
+    <li>Delaying endometriosis diagnosis by attributing pain that extends beyond the first days of the period to "normal" cramps.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pain severe enough to limit daily activities deserves proper evaluation, not just reassurance that it's normal.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New or worsening dysmenorrhoea later in reproductive life raises a secondary cause and warrants a pelvic ultrasound.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fibroids are especially common in this population and should be actively considered, not treated as an afterthought.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen for anaemia in anyone with heavy menstrual bleeding.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>NSAIDs taken regularly through the first days of bleeding - not just "as needed" - are the most effective first-line treatment for primary dysmenorrhoea.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Obstetricians and Gynecologists - Guidance on the Management of Dysmenorrhoea.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Heavy Menstrual Bleeding: Assessment and Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Green-top Guideline on the Investigation and Management of Endometriosis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+ 
+</body>
+</html>
+    `
+  },
+
+  {
+    id: 'symptom-breast-pain',
+    title: 'Breast Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Gynecological',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Breast Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Breast Pain</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .font-brand { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-base text-slate-700 dark:text-slate-300 max-w-3xl mx-auto px-4 sm:px-6 py-10 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Breast Pain</h1>
+    <p class="text-sm text-indigo-200">Breast pain alone, without a lump, is rarely a sign of cancer, but a thorough examination is still essential every time - both to reassure appropriately and to catch the small number of presentations that need urgent attention. Locally, breast symptoms are often under-reported or presented late due to stigma or a preference for other remedies first, so how the conversation is approached matters as much as the clinical findings. This guide focuses on the history and examination that clarify the cause, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Pain Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>When did it start, and how long has it lasted?</li>
+      <li>Is it in one breast or both? (Bilateral, diffuse pain is more typical of a hormonal/cyclical cause; a localized, one-sided pain is more likely to reflect focal pathology.)</li>
+      <li>Does it follow the menstrual cycle - worse in the days before a period and easing once it starts? This pattern (cyclical mastalgia) is very common and usually benign.</li>
+      <li>What is the character - a dull, heavy ache, or a sharp, localized pain?</li>
+      <li>Does anything make it better or worse - a supportive bra, a particular position, or pressing on the chest wall (which would suggest a musculoskeletal cause rather than a breast one)?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Lump (ask specifically):</span> has the patient noticed any lump or thickened area, and if so, has it changed in size?</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nipple changes (ask specifically):</span> any discharge (and its colour - clear, milky, bloody, or pus-like), new inversion or retraction of the nipple, or a persistent scaly/eczema-like change around the nipple.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Skin changes:</span> redness, warmth, dimpling, or a texture resembling orange peel.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever (raises infection), or unintentional weight loss.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Axillary:</span> any lump or swelling under the arm.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Breastfeeding-related (where relevant):</span> cracked nipples, difficulty with latch, or a blocked feeling in part of the breast.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Family history of breast (or ovarian) cancer:</span> essential in every case, regardless of how benign the presentation seems.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Age:</span> new breast symptoms in an older or postmenopausal woman carry more weight than the same symptoms in a younger woman.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Breastfeeding status:</span> current breastfeeding raises the possibility of lactational mastitis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous breast lumps, biopsies, or breast surgery.</span></li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hormonal medication use:</span> contraceptives or hormone replacement therapy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menstrual/menopausal status:</span> relevant to interpreting cyclical symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trauma:</span> any recent injury to the chest.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Prior use of traditional or herbal remedies for this symptom:</span> ask gently and without judgement, and use the opportunity to encourage timely medical evaluation going forward, particularly for any lump or skin/nipple change.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Approach</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Explain the examination clearly, obtain consent, and ensure a chaperone is present.</li>
+      <li>Check temperature and general appearance - fever with localized breast findings raises infection.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Breast Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Inspection</span> - symmetry, skin changes (dimpling, peau d'orange, erythema), and nipple changes (retraction, inversion, discharge, or an eczema-like change, which raises Paget's disease of the nipple).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Palpation</span> - systematically examine all quadrants of both breasts; note whether findings are a discrete lump or a more diffuse area of nodularity/tenderness (the latter is more typical of fibrocystic change).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Nipple discharge</span> - if present, note whether it is spontaneous or only expressed, from one duct or several, and its colour.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Signs of infection</span> - localized warmth, erythema, and fluctuance suggest mastitis or an abscess.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Chest wall palpation</span> - reproducing the pain by pressing on the costochondral junctions supports a musculoskeletal cause rather than a breast one.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Lymph Node Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Always examine the axillary and supraclavicular lymph nodes alongside the breast itself.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A new, discrete, hard, or irregular lump</span> - particularly in an older or postmenopausal woman - needs urgent breast clinic referral for imaging and biopsy, not reassurance or a "wait and see" approach.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bloody nipple discharge, new nipple retraction, skin dimpling, or peau d'orange</span> - all need urgent referral for further assessment.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A persistent, eczema-like change around the nipple</span> - raises Paget's disease of the nipple, which can indicate an underlying malignancy.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">"Mastitis" that fails to improve with an appropriate course of antibiotics</span> - reconsider inflammatory breast cancer, which can closely mimic infection with redness, warmth, and swelling.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A fluctuant, tender breast mass with fever</span> - raises a breast abscess needing prompt drainage.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Axillary or supraclavicular lymphadenopathy alongside a breast change</span> - needs prompt further assessment.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Clinical breast examination</span> - the first and most important step in every case.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Breast ultrasound</span> - a good first-line imaging choice, particularly in younger women or where breast tissue is dense.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mammography</span> - particularly useful in older women, or where ultrasound findings are inconclusive.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC/CRP</span> - where infection is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fine needle aspiration or core biopsy</span> - for any suspicious lump identified clinically or on imaging.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Nipple discharge cytology</span> - where the discharge is concerning (bloody, spontaneous, or from a single duct).</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy test</span> - where relevant, in a woman of reproductive age.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cyclical mastalgia</span> - bilateral, diffuse pain related to the menstrual cycle; the commonest cause and usually benign.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fibrocystic breast changes</span> - lumpy, tender breast tissue, often bilateral.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mastitis (lactational or non-lactational)</span> - localized redness, warmth, and tenderness, sometimes with fever.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Breast abscess</span> - a fluctuant, tender mass, often following inadequately treated mastitis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fibroadenoma</span> - typically a smooth, mobile, non-tender lump, though can occasionally cause discomfort.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Breast cyst</span> - a discrete, sometimes tender, fluid-filled lump.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Mondor's disease</span> - a tender, cord-like superficial vein, usually self-limiting.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Costochondritis/musculoskeletal referred pain</span> - reproducible on chest wall palpation, unrelated to the breast tissue itself.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-related</span> - hormonal contraceptives or hormone replacement therapy.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Breast cancer (including inflammatory breast cancer and Paget's disease of the nipple)</span> - always kept in mind, particularly with any red flag feature.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy-related breast changes</span> - generalized tenderness and enlargement.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Ill-fitting bra/mechanical cause</span> - a simple, easily corrected contributor.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic Relief</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">A well-fitted, supportive bra</span> - can meaningfully reduce discomfort, particularly for cyclical mastalgia.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Simple analgesia</span> - paracetamol or a topical/oral NSAID, where not contraindicated.</li>
+      <li>Symptomatic relief should never delay referral where a red flag feature is present.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cyclical mastalgia</span> - reassurance, a supportive bra, and simple analgesia; further options can be discussed with a specialist if symptoms are severe and persistent.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Lactational mastitis</span> - continued breastfeeding or expressing from the affected side where possible, warm compresses, analgesia, and antibiotics if there is no improvement within 24 hours or the presentation is more severe.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Breast abscess</span> - drainage (needle aspiration or incision, depending on size) alongside antibiotics.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fibroadenoma</span> - observation where imaging is reassuring and the diagnosis is typical; excision where large, growing, or by patient preference.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Suspicious lump or other red flag feature</span> - urgent referral to a breast surgical/oncology service for biopsy and staging; this should not be delayed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Costochondritis</span> - NSAIDs and reassurance.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-related</span> - review with the prescribing team and consider an alternative where clinically appropriate.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Breast pain, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, laterality, cyclical relationship, associated lump/discharge/skin changes, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical/Surgical History</dt>
+      <dd class="mt-0.5">Previous breast lumps/biopsies/surgery, family history of breast/ovarian cancer.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Hormonal contraceptives/HRT, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Breastfeeding status, family history of breast/ovarian cancer.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Breast inspection and palpation findings, nipple/skin changes, axillary/supraclavicular nodes, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment/referral given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not examining the axilla and supraclavicular nodes alongside the breast.</li>
+    <li>Not asking specifically about a lump or nipple discharge.</li>
+    <li>Dismissing breast pain without a palpable lump as never needing further evaluation, without a proper examination first.</li>
+    <li>Delaying referral for a suspicious finding due to the patient's reluctance or embarrassment, rather than addressing this sensitively and encouraging timely follow-through.</li>
+    <li>Missing inflammatory breast cancer masquerading as mastitis that isn't responding to antibiotics.</li>
+    <li>Not encouraging timely presentation for breast changes given the local tendency to delay.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Breast pain without a lump is rarely cancer, but a thorough examination is still essential in every case.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New nipple discharge (especially bloody), skin dimpling, or nipple retraction need urgent referral.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If suspected "mastitis" isn't responding to antibiotics as expected, reconsider inflammatory breast cancer.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Approach the conversation sensitively but proactively, given how often breast symptoms are under-reported or presented late locally.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Breast ultrasound is a good first-line imaging choice, particularly in younger women.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Suspected Cancer: Recognition and Referral (Breast).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guide to Early Detection of Breast Cancer.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Obstetricians and Gynecologists - Guidance on the Management of Mastalgia.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Academy of Breastfeeding Medicine - Clinical Protocol on Mastitis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+ 
+</body>
+</html>
+    `
+  },
   {
     id: 'symptom-clerking-recurrent-fever',
     title: 'Recurrent Fever',
@@ -17668,8 +18290,709 @@ Closing the Counselling Session
 </html>
   `
 },
+{
+  id: 'counselling-breast-cancer',
+  title: 'Breast Cancer',
+  category: 'Counselling',
+  subCategory: 'Oncology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Counselling Guide for a Patient with Breast Cancer</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+.quote { border-left: 3px solid; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Breast Cancer</h1>
+  <p class="text-sm text-indigo-200">Breast cancer counselling begins before any explanation of pathology or treatment - with how the diagnosis itself is delivered. How the news lands shapes whether a patient stays engaged with treatment or disengages, sometimes permanently, toward denial or unproven alternatives. This guide covers disclosure, the specific misconceptions worth addressing directly, staging, treatment, and the psychosocial and cost realities that drive treatment abandonment in Nigerian practice.</p>
+</div>
+</div>
+
+<!-- 1. Breaking the diagnosis -->
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li>
+    <a href="#breaking-the-diagnosis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
+      <span>Breaking the Diagnosis</span>
+    </a>
+  </li>
+  <li>
+    <a href="#explaining-the-diagnosis-in-plain-terms" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
+      <span>Explaining the Diagnosis in Plain Terms</span>
+    </a>
+  </li>
+  <li>
+    <a href="#causes-and-risk-factors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
+      <span>Causes and Risk Factors</span>
+    </a>
+  </li>
+  <li>
+    <a href="#staging-and-what-it-means-for-the-patient" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
+      <span>Staging and What It Means for the Patient</span>
+    </a>
+  </li>
+  <li>
+    <a href="#investigations-the-patient-will-encounter" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
+      <span>Investigations the Patient Will Encounter</span>
+    </a>
+  </li>
+  <li>
+    <a href="#treatment-overview" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
+      <span>Treatment Overview</span>
+    </a>
+  </li>
+  <li>
+    <a href="#counselling-on-specific-treatment-effects" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
+      <span>Counselling on Specific Treatment Effects</span>
+    </a>
+  </li>
+  <li>
+    <a href="#cost-access-and-treatment-abandonment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
+      <span>Cost, Access, and Treatment Abandonment</span>
+    </a>
+  </li>
+  <li>
+    <a href="#psychosocial-and-family-considerations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span>
+      <span>Psychosocial and Family Considerations</span>
+    </a>
+  </li>
+  <li>
+    <a href="#follow-up-and-surveillance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span>
+      <span>Follow-Up and Surveillance</span>
+    </a>
+  </li>
+  <li>
+    <a href="#closing-and-confirming-understanding" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span>
+      <span>Closing and Confirming Understanding</span>
+    </a>
+  </li>
+</ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="breaking-the-diagnosis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Breaking the Diagnosis
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A structured approach matters here more than in almost any other condition in this series. Find a private space, sit rather than stand, and ask what the patient already understands and expects before disclosing the result - this establishes their starting point and avoids either over-explaining what they already grasp or under-explaining what they don't. Give the diagnosis clearly and without excessive euphemism once you've gauged their readiness, then pause. Silence immediately after delivering the diagnosis is appropriate and necessary; resist the urge to fill it with information the patient is not yet ready to absorb. Where the patient wishes it, and family involvement in health decisions is often substantial here, invite a trusted family member into the conversation, though the disclosure itself should still be made directly and honestly to the patient rather than routed around her.</p>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"I have your biopsy results, and I want to talk you through them directly. Before I do, can you tell me what you were expecting, or what you already understand about why we did this test?"</p>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"The biopsy confirms that this is breast cancer. I know this is difficult to hear. I want you to know that we have a clear plan for how we approach this, and I'm going to walk through it with you at whatever pace you need."</p>
+<p class="text-sm">Avoid the instinct to immediately reassure with statistics or move straight into treatment planning before the patient has had a moment to absorb the word itself. The rest of this guide's content is delivered over this and subsequent visits, not all at once in the moment of diagnosis.</p>
+</div>
+
+<!-- 2. Explaining diagnosis / misconceptions -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="explaining-the-diagnosis-in-plain-terms" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Explaining the Diagnosis in Plain Terms
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Breast cancer means some cells in your breast tissue have started growing in an abnormal, uncontrolled way. The good news is that breast cancer, especially when caught at an earlier stage, is very treatable, and many women go on to live long, full lives after treatment."</p>
+
+<p class="text-sm font-medium text-slate-800 dark:text-slate-200">Correcting common misconceptions - each needs a direct, specific response rather than a general reassurance:</p>
+
+<p class="text-sm">A patient who says cancer is automatically a death sentence needs to hear plainly that outcomes depend heavily on the stage at diagnosis and on completing treatment, and that many women treated for breast cancer survive long-term - the fatalism many patients carry into this diagnosis often comes from having only seen advanced, late-presenting cases in their own community, which are not representative of all breast cancer.</p>
+
+<p class="text-sm">A patient who attributes the cancer to a spiritual attack, a curse, or punishment for wrongdoing should be met without ridicule or direct confrontation of the belief. Acknowledge that this is a frightening and disorienting diagnosis, and that the medical explanation and any spiritual framework the patient holds do not have to compete - continue to offer the medical plan clearly and consistently alongside whatever the patient believes, rather than insisting she abandon one for the other.</p>
+
+<p class="text-sm">A patient who believes the cancer was caused by an injury to the breast, breastfeeding, or breast size needs correction with the actual risk factors below, since these specific folk beliefs are common and can otherwise distract from real modifiable and non-modifiable risk discussion, and in some cases delay presentation because the woman waits for a suspected precipitating injury to heal instead of seeking care.</p>
+
+<p class="text-sm">A patient who believes surgery will cause the cancer to spread - a belief sometimes reinforced by the observation that patients who have surgery are sometimes those already found to have advanced disease - needs the actual relationship explained directly: surgery does not cause spread; it is recommended because of the disease already present, and delaying surgery out of this fear generally worsens rather than improves the outcome.</p>
+
+<p class="text-sm">A patient who believes herbal or traditional remedies can cure the cancer, or who wishes to try these before or instead of conventional treatment, deserves a careful, non-judgemental conversation rather than outright dismissal - acknowledge why she might be drawn to this option (cost, mistrust of the health system, prior experience, family pressure), explain clearly that no herbal preparation has been shown to cure breast cancer, and that delaying effective treatment while trying an unproven alternative allows the disease to advance. Ask her to keep you informed of anything she is taking or considering, framing this as collaboration rather than confrontation, since an adversarial response often just drives the herbal use underground rather than stopping it.</p>
+
+<p class="text-sm">A patient who believes a mastectomy will make her less of a woman, less desirable to her husband, or unable to remain married deserves this fear taken seriously rather than brushed aside - this is a real and, in some communities, a well-founded social concern, not an irrational one, and is addressed further in Section 7 rather than dismissed here.</p>
+</div>
+
+<!-- 3. Causes -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="causes-and-risk-factors" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Causes and Risk Factors
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Non-modifiable factors include increasing age, a family history of breast or ovarian cancer, inherited genetic mutations (BRCA1/BRCA2, though genetic testing access remains limited in most Nigerian settings), early menarche, late menopause, and a personal history of prior breast disease. Modifiable and lifestyle-associated factors include nulliparity or late first pregnancy, prolonged use of combined hormonal contraception or hormone replacement therapy, obesity - particularly after menopause - alcohol use, and physical inactivity. Breastfeeding is protective rather than causative, worth stating explicitly given how often breastfeeding is wrongly blamed by patients as a cause.</p>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"In most cases, there is no single identifiable cause, and no single decision the patient made that led to this. A combination of genetic and lifestyle factors, most of them outside anyone's direct control, is the more accurate way to understand it."</p>
+</div>
+
+<!-- 4. Staging -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="staging-and-what-it-means-for-the-patient" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Staging and What It Means for the Patient
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Staging determines both prognosis and treatment approach, and explaining it in accessible terms helps the patient understand why her specific treatment plan looks the way it does.</p>
+<p class="text-sm">Stage 0 refers to non-invasive disease confined within the ducts, not yet capable of spreading. Stages I and II describe invasive cancer confined to the breast and, at most, nearby lymph nodes, generally treated with curative intent through a combination of surgery, and often radiotherapy and systemic therapy. Stage III describes locally advanced disease, with more extensive lymph node involvement or larger tumour size, still generally treated with curative intent but usually requiring a more intensive combination of treatments, often starting with chemotherapy before surgery. Stage IV describes metastatic disease, spread beyond the breast and regional nodes to distant sites such as bone, liver, lungs, or brain - treatment here shifts in emphasis toward controlling the disease, extending life, and maintaining quality of life, rather than cure, though meaningful periods of good quality of life are achievable and should be communicated honestly alongside this shift in goal.</p>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"The stage tells us how far the cancer has progressed at the time we found it, and it's the main thing that guides which combination of treatments will help you most. I'll explain exactly what stage yours is and what that means specifically for your plan."</p>
+
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Worth knowing for how you explain this:</span> the current AJCC staging framework (in use since 2018 and still the standard) doesn't assign a stage from tumour size and lymph node status alone. Hormone receptor (ER/PR) status, HER2 status, and tumour grade are formally folded into the final stage number itself, not just used afterward to pick a drug. In practice, this means two women with an identical tumour size and node involvement can be given different overall stage numbers depending on their receptor status and grade - a receptor-favourable tumour can be assigned a lower stage than the anatomical extent alone would suggest, and vice versa. This is worth mentioning briefly if a patient (or a relative who has looked something up) compares her stage number to someone else's based on tumour size or node count alone and finds them confusing or inconsistent - the difference is not an error.</p>
+</div>
+
+<p class="text-sm mt-2">A point worth making explicitly, given how often patients present late: even at a more advanced stage, there is almost always a meaningful treatment plan to offer, and this should be communicated clearly rather than allowing the patient to conclude that a late-stage diagnosis means nothing further can be done.</p>
+</div>
+
+<!-- 5. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="investigations-the-patient-will-encounter" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Investigations the Patient Will Encounter
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Diagnosis is confirmed through tissue biopsy - core needle biopsy is preferred over fine-needle aspiration where available, since it provides more tissue for full pathological assessment, including hormone receptor status (oestrogen and progesterone receptors) and HER2 status, both of which directly determine which systemic treatments will be effective for her specific tumour. Staging investigations, once the diagnosis is confirmed, typically include imaging of the chest, abdomen, and skeletal system to check for distant spread, and further breast and axillary imaging to define local extent.</p>
+<p class="text-sm">Explain the purpose of receptor testing specifically, since it directly affects which drugs are used and patients often don't understand why treatment differs so much between individuals with the same diagnosis:</p>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"We test the cancer cells themselves to see what's helping them grow. If they're sensitive to hormones, we can use hormone-blocking treatment. If they have a particular marker called HER2, there are specific targeted treatments for that. This is why your treatment plan may look different from another woman's, even with the same diagnosis."</p>
+</div>
+
+<!-- 6. Treatment overview -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="treatment-overview" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Treatment Overview
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Surgery, chemotherapy, radiotherapy, hormonal therapy, and targeted therapy are used in different combinations depending on stage and receptor status, and most patients will encounter more than one of these across their treatment course.</p>
+<p class="text-sm">Surgical options range from breast-conserving surgery (removing the tumour with a margin of surrounding tissue, generally followed by radiotherapy to the remaining breast) to mastectomy (removal of the entire breast), with the choice depending on tumour size relative to breast size, location, multifocality, and patient preference where both options are oncologically appropriate. Where mastectomy is needed or chosen, breast reconstruction - either immediate or delayed - should be discussed as an available option where feasible, even though access to reconstructive surgery remains limited in much of the country; raising it as a possibility, even if ultimately not pursued for practical reasons, matters to how a woman experiences this decision.</p>
+<p class="text-sm">Chemotherapy may be given before surgery (neoadjuvant, to shrink the tumour and allow more options, or in locally advanced disease to make surgery possible at all) or after surgery (adjuvant, to reduce the risk of recurrence). Radiotherapy is commonly used after breast-conserving surgery, and sometimes after mastectomy depending on staging, to reduce local recurrence risk. Hormonal therapy (tamoxifen, or aromatase inhibitors in postmenopausal women) is used for hormone-receptor-positive disease, typically continued for five to ten years, with the longer duration generally reserved for higher-risk disease - the long duration of this specific treatment deserves early, explicit counselling, since adherence tends to fall over such an extended course once the patient feels well and treatment fatigue sets in. Targeted therapy against HER2 is used where the tumour is HER2-positive, where access allows, given that cost and availability remain genuine barriers in the Nigerian context and should be discussed honestly as part of treatment planning rather than assumed.</p>
+</div>
+
+<!-- 7. Treatment effects -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="counselling-on-specific-treatment-effects" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Counselling on Specific Treatment Effects
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Surgery and Body Image</strong>
+  <p class="text-sm">A mastectomy represents a loss that deserves acknowledgement as genuine grief, not simply a medical procedure with a good outcome. Address the marriage and desirability fears raised earlier directly and honestly - some women do face difficulty from partners or in-laws after mastectomy, and pretending this concern is baseless does the patient a disservice; instead, discuss practical options (external breast prostheses, reconstruction where accessible, clothing adaptation) and, where appropriate and the patient consents, involve her partner in counselling directly, since a partner's understanding and support materially affects how she copes with this change.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Chemotherapy Side Effects</strong>
+  <p class="text-sm">Explain hair loss as an expected, temporary effect that reverses after treatment ends, and discuss head covering options (scarves, wigs where affordable) proactively rather than waiting for distress to prompt the conversation. Explain nausea, fatigue, and increased infection risk from lowered blood counts, with clear instruction on when to seek urgent care.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-3">
+<p class="text-sm text-rose-900 dark:text-rose-300"><span class="font-medium">Fever during a period of expected neutropenia (from chemotherapy) is a medical emergency</span> requiring immediate presentation, not a symptom to wait out. Make sure the patient knows this explicitly before her first cycle, along with what number to call and where to present.</p>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Address fertility concerns explicitly and early, before treatment starts, in any woman of reproductive age, since chemotherapy can affect fertility and this conversation is easy to skip under time pressure but matters enormously to many patients.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Radiotherapy</strong>
+  <p class="text-sm">Explain the treatment course length (typically delivered daily over several weeks), skin changes in the treated area, and fatigue, and manage expectations about the travel and time commitment this requires - radiotherapy access is concentrated in relatively few centres nationally, and the practical burden of daily travel or relocation for weeks of treatment is a genuine barrier worth planning for explicitly rather than only after treatment has begun.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Hormonal Therapy</strong>
+  <p class="text-sm">Explain hot flashes, mood changes, and joint aches as recognised effects, and specifically reinforce the importance of the multi-year duration of this treatment - stopping early once she feels well significantly increases recurrence risk, using the same "you feel well because treatment is working, not because it's no longer needed" framing used elsewhere in this series for chronic disease.</p>
+</div>
+</div>
+
+<!-- 8. Cost -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cost-access-and-treatment-abandonment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Cost, Access, and Treatment Abandonment
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Treatment abandonment partway through - often after surgery but before completing chemotherapy or radiotherapy, or after starting hormonal therapy but stopping within months - is a recognised and significant problem in Nigerian oncology practice, driven by cost, distance to treatment centres, loss of income during treatment, and, in some cases, a return to herbal alternatives once initial treatment produces visible improvement. Address this directly and early rather than waiting for it to happen: discuss the full anticipated course and its cost at the outset as far as possible, discuss health insurance or subsidised treatment programmes where available, and explicitly ask at each visit whether cost or access is becoming a barrier, since patients often do not volunteer this until they have already missed appointments.</p>
+</div>
+
+<!-- 9. Psychosocial -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="psychosocial-and-family-considerations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Psychosocial and Family Considerations
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Depression and anxiety are common and under-recognised across the course of breast cancer treatment, and deserve active screening rather than being assumed to be an inevitable, untreatable part of the diagnosis. Support groups, where available, and connection with other women who have been through treatment can meaningfully help, particularly given the isolation and stigma some women experience. Where children are involved, offer guidance on age-appropriate disclosure rather than leaving the mother to navigate this alone. Involve family members in education about the disease specifically to counter misinformation circulating within the family or community, since a well-meaning relative repeating a herbal-cure claim or a fatalistic belief can undo careful counselling delivered in the clinic.</p>
+</div>
+
+<!-- 10. Follow-up -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="follow-up-and-surveillance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Follow-Up and Surveillance
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Completing treatment doesn't mean your care ends - we'll continue seeing you regularly afterward to monitor for recurrence and manage any ongoing effects of treatment."</p>
+<p class="text-sm">Explain the follow-up schedule clearly, including clinical examination at regular intervals and any imaging surveillance planned, and explain what new symptoms should prompt her to seek review between scheduled visits - a new lump, bone pain, persistent cough, or unexplained weight loss - without over-medicalising every minor symptom into a source of ongoing anxiety.</p>
+</div>
+
+<!-- 11. Closing -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="closing-and-confirming-understanding" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Closing and Confirming Understanding
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Can you tell me, in your own words, what you understand about your diagnosis and the plan we've discussed?"</p>
+<p class="text-sm">Correct any gaps the teach-back reveals, and confirm specifically that she understands the treatment sequence, its expected duration, and who to contact between visits.</p>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"This is a lot to take in, and you don't have to hold all of it after one conversation. We'll go through this together, one step at a time, and you can ask me anything again at any point."</p>
+</div>
+
+<!-- Key Take-Home Points -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Take-Home Points for the Patient</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Breast cancer is treatable, and outcome depends heavily on completing the full recommended treatment course, not stopping once symptoms or the visible tumour improve.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>No herbal or traditional remedy has been shown to cure it, and delaying effective treatment to try one allows the disease to advance.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Surgery does not cause the cancer to spread, and hair loss from chemotherapy is temporary.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Hormonal therapy needs to continue for years, even once she feels completely well.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cost or distance concerns should be raised early rather than leading to silently missed appointments.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Joint Committee on Cancer - AJCC Cancer Staging Manual, 8th Edition, Breast Cancer (effective 2018, current standard).</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Comprehensive Cancer Network - NCCN Clinical Practice Guidelines in Oncology: Breast Cancer.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Society of Clinical Oncology - Adjuvant Endocrine Therapy Duration Guideline Update.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Breast Cancer: Prevention and Control.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
 
 // PROCEDURES
+{
+  id: 'procedure-suturing-techniques',
+  title: 'Suturing Techniques for Beginners',
+  category: 'Procedures',
+  subCategory: 'General',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Suturing Techniques for Beginners</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Procedures</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Suturing Techniques for Beginners</h1>
+  <p class="text-sm text-indigo-200">A single technique cannot handle every wound. Choosing correctly between the interrupted, mattress, continuous, and subcuticular approaches - and pairing that choice with the right suture material - is as much a part of the skill as the hand movements themselves. This guide covers suture material selection, the major technique types, and where each is genuinely the right tool, with reference videos for each.</p>
+</div>
+</div>
+
+<!-- 1. Suture materials -->
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li>
+    <a href="#suture-materials---what-youre-actually-choosing-between" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
+      <span>Suture Materials - What You're Actually Choosing Between</span>
+    </a>
+  </li>
+  <li>
+    <a href="#simple-interrupted-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
+      <span>Simple Interrupted Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#vertical-mattress-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
+      <span>Vertical Mattress Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#horizontal-mattress-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
+      <span>Horizontal Mattress Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#simple-continuous-running-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
+      <span>Simple Continuous (Running) Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#subcuticular-continuous-intradermal-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
+      <span>Subcuticular (Continuous Intradermal) Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#deep-dermal-buried-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
+      <span>Deep Dermal (Buried) Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#figure-of-eight-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
+      <span>Figure-of-Eight Suture</span>
+    </a>
+  </li>
+  <li>
+    <a href="#choosing-a-technique---summary-decision-table" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span>
+      <span>Choosing a Technique - Summary Decision Table</span>
+    </a>
+  </li>
+  <li>
+    <a href="#general-reference-videos-covering-multiple-techniques" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span>
+      <span>General Reference Videos Covering Multiple Techniques</span>
+    </a>
+  </li>
+</ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suture-materials---what-youre-actually-choosing-between" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Suture Materials - What You're Actually Choosing Between
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Every suture is classified along three independent axes: absorbable vs non-absorbable, natural vs synthetic, and monofilament vs multifilament (braided). Understanding these axes, rather than memorising brand names, lets you reason about any suture you're handed.</p>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Absorbable vs Non-Absorbable</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Property</th>
+          <th class="py-2 pr-3 font-medium">Absorbable</th>
+          <th class="py-2 font-medium">Non-absorbable</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Fate in tissue</td><td class="py-2 pr-3">Broken down by hydrolysis or enzymatic action over weeks to months</td><td class="py-2">Remains in tissue indefinitely, or removed manually</td></tr>
+        <tr><td class="py-2 pr-3">Typical use</td><td class="py-2 pr-3">Deep/buried layers (dermis, muscle, fascia), mucosa, paediatric skin closure where removal would be distressing</td><td class="py-2">Skin closure requiring later removal, high-tension areas, situations needing prolonged tensile strength</td></tr>
+        <tr><td class="py-2 pr-3">Common examples</td><td class="py-2 pr-3">Polyglactin 910 (Vicryl), poliglecaprone 25 (Monocryl), polydioxanone (PDS), catgut</td><td class="py-2">Nylon (Ethilon), polypropylene (Prolene), silk, polyester</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Monofilament vs Multifilament (Braided)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Property</th>
+          <th class="py-2 pr-3 font-medium">Monofilament</th>
+          <th class="py-2 font-medium">Multifilament (braided)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Handling</td><td class="py-2 pr-3">Stiffer, more "memory" (tends to spring back), but passes through tissue smoothly with less drag</td><td class="py-2">Softer, more pliable, easier to knot securely, but higher surface area</td></tr>
+        <tr><td class="py-2 pr-3">Infection risk</td><td class="py-2 pr-3">Lower - smooth surface resists bacterial colonisation and doesn't wick fluid along its length</td><td class="py-2">Higher - braided structure can harbour bacteria and wick fluid (capillary action) into the wound, a real concern in contaminated wounds</td></tr>
+        <tr><td class="py-2 pr-3">Examples</td><td class="py-2 pr-3">Nylon, polypropylene, PDS, Monocryl</td><td class="py-2">Silk, Vicryl, polyester</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Practical rule:</span> avoid multifilament sutures in contaminated or heavily colonised wounds given the infection risk above; monofilament is the safer default in that scenario even where a multifilament option is otherwise convenient.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Natural vs Synthetic</strong>
+  <p class="text-sm">Natural materials (silk, catgut, cotton) provoke a greater tissue inflammatory reaction than their synthetic equivalents and are gradually being phased out in most settings in favour of synthetic alternatives with more predictable absorption profiles and lower reactivity - silk remains in some use for its handling characteristics and low cost, but is not the first choice by tissue-reactivity standards alone.</p>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Suture Size (USP Scale)</strong>
+  <p class="text-sm">Sizing runs in the opposite direction to what the numbers suggest - a higher number of zeroes means a finer (thinner) suture.</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Size</th>
+          <th class="py-2 font-medium">Typical use</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">2-0 to 3-0</td><td class="py-2">High-tension areas: abdomen, fascia, some orthopaedic closures</td></tr>
+        <tr><td class="py-2 pr-3">3-0 to 4-0</td><td class="py-2">Trunk, extremities, scalp</td></tr>
+        <tr><td class="py-2 pr-3">4-0 to 5-0</td><td class="py-2">Most general skin closure</td></tr>
+        <tr><td class="py-2 pr-3">5-0 to 6-0</td><td class="py-2">Face and other cosmetically sensitive areas, needing the finest suture that still holds</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Suture Removal Timing by Body Site (Non-Absorbable Skin Sutures)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Site</th>
+          <th class="py-2 font-medium">Typical removal timing</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Face</td><td class="py-2">3-5 days</td></tr>
+        <tr><td class="py-2 pr-3">Scalp, arms</td><td class="py-2">7-10 days</td></tr>
+        <tr><td class="py-2 pr-3">Trunk, back</td><td class="py-2">10-14 days</td></tr>
+        <tr><td class="py-2 pr-3">Legs, and over joints/high-tension areas</td><td class="py-2">10-14 days, occasionally up to 21 days given the strain of movement and lower-extremity blood flow</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">A deep dermal (buried) layer that adequately relieves tension on the skin surface (Section 7) reduces how long skin sutures need to stay in even at a high-tension site - timing is ultimately a judgement on the individual wound, not a fixed number, and the closing clinician's follow-up plan governs.</p>
+</div>
+</div>
+
+<!-- 2. Simple interrupted -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="simple-interrupted-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Simple Interrupted Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> each stitch is placed and tied individually, as a separate, self-contained knot.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> the default, workhorse technique for the majority of straightforward lacerations and surgical incisions. Its main advantage is that each suture is independent - if one fails or the wound shows early signs of infection at one point, that single suture can be removed without compromising the rest of the closure. This makes it a safe first technique to learn and a safe default when in doubt about which technique to use.</p>
+<p class="text-sm font-medium text-slate-800 dark:text-slate-200 mt-2">Technique summary:</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Enter the skin perpendicular to the surface, with the needle bite width roughly equal to the wound depth, to promote edge eversion rather than inversion.</li>
+  <li>Pass through both wound edges symmetrically.</li>
+  <li>Tie a surgeon's knot (two throws in one direction, then alternating single throws, typically 3-4 throws total).</li>
+  <li>Space sutures evenly along the wound, with inter-suture spacing roughly equal to the bite width.</li>
+</ol>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Reference video - Simple Interrupted Suture (Geeky Medics OSCE guide):</span><br>
+  <a href="https://www.youtube.com/watch?v=z8oWv-nVO6g" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=z8oWv-nVO6g</a></p>
+</div>
+</div>
+
+<!-- 3. Vertical mattress -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="vertical-mattress-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Vertical Mattress Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> a technique combining a deep, wide bite with a second, more superficial, narrower bite on the return pass, in the same vertical line - effectively closing the deep and superficial layers in one suture.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> wounds under tension, or where additional eversion of the wound edges is specifically needed (mattress sutures excel at eversion, correcting a tendency for edges to invert). Useful where a single-layer closure needs to do the work of both a deep and superficial suture, e.g. where formal layered closure with buried sutures isn't practical.</p>
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Trade-off to know:</span> produces more visible cross-hatched scarring than a simple interrupted suture if left in too long, so timely removal matters more here than with simple interrupted sutures.</p>
+</div>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Reference video - Vertical Mattress Suture (Geeky Medics OSCE guide):</span><br>
+  <a href="https://www.youtube.com/watch?v=-Sa7VMcMCJA" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=-Sa7VMcMCJA</a></p>
+</div>
+</div>
+
+<!-- 4. Horizontal mattress -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="horizontal-mattress-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Horizontal Mattress Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> two bites placed side-by-side, parallel to the wound edge, rather than stacked vertically - distributing tension across a wider area of tissue on either side of the wound.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> wounds under significant tension along a linear axis, and particularly useful in friable or fragile tissue (elderly, thin skin) where a simple interrupted suture risks cutting through the tissue before it heals. Also useful for securing corners of a flap or a stellate (star-shaped) laceration.</p>
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Trade-off to know:</span> mismatched bite depth or width on the two sides can misalign the wound edges, and because it spreads more suture material across the wound, it carries a slightly higher infection risk if the sutures aren't removed promptly.</p>
+</div>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Reference video - Horizontal Mattress Suture (Geeky Medics OSCE guide):</span><br>
+  <a href="https://www.youtube.com/watch?v=6qF4mxB7KzM" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=6qF4mxB7KzM</a></p>
+</div>
+</div>
+
+<!-- 5. Simple continuous -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="simple-continuous-running-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Simple Continuous (Running) Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> a single length of suture run along the wound in a continuous spiral, tied off only at the beginning and end, rather than knotted at every stitch.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> long, straightforward, low-tension wounds where speed matters - this technique closes a wound considerably faster than placing individual interrupted sutures, and distributes tension evenly along its length. Common in theatre for longer incisions.</p>
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Trade-off to know:</span> if the suture breaks or one point of the wound becomes infected, the entire line can loosen or need to be taken down, unlike the independent-suture safety of the interrupted technique - this is the central trade-off between speed and fault-tolerance that should guide the choice between continuous and interrupted technique.</p>
+</div>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Reference:</span> search "simple continuous suture technique" alongside the Geeky Medics suturing guide collection (Section 10) for a demonstrated comparison against interrupted technique.</p>
+</div>
+</div>
+
+<!-- 6. Subcuticular -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="subcuticular-continuous-intradermal-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Subcuticular (Continuous Intradermal) Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> a continuous suture placed entirely within the dermis, just beneath the epidermis, with no suture material crossing the skin surface - the stitch is buried and invisible externally, usually with only the two ends exiting the skin (or fully buried with absorbable material and no visible ends at all).</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> cosmetically sensitive areas where minimising visible suture marks and cross-hatch scarring matters - facial and other exposed-area closures where appearance is a priority, and any closure where a patient particularly wants to minimise scarring. Typically follows a deep dermal layer as the final, superficial-approximating step in a layered closure, rather than standing alone on a deep wound.</p>
+<div class="mt-2 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-700">
+  <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Trade-off to know:</span> technically more demanding than interrupted or mattress techniques, and provides less mechanical strength across the wound than a well-placed interrupted or mattress suture - appropriate for a well-approximated, low-tension wound rather than one needing significant tension-bearing support from the skin sutures themselves (tension should already be relieved by a deep dermal layer beneath it).</p>
+</div>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Reference video - Subcuticular Suture (Geeky Medics OSCE guide):</span><br>
+  <a href="https://geekymedics.com/subcuticular-suture-osce-guide/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/subcuticular-suture-osce-guide</a></p>
+</div>
+</div>
+
+<!-- 7. Deep dermal -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="deep-dermal-buried-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Deep Dermal (Buried) Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> an interrupted suture placed within the dermis or subcutaneous tissue, tied with the knot buried beneath the surface, using absorbable material - never intended to be seen or removed.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> deeper wounds requiring layered closure - this is the layer that actually relieves tension on the skin surface and closes dead space, allowing the more cosmetically-focused subcuticular or simple interrupted skin layer above it to do less mechanical work. Any wound deep enough to have a distinguishable dermal or subcutaneous layer benefits from this step rather than relying on skin sutures alone to bear the full tension of the wound.</p>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Reference video - Deep Dermal Suture (Geeky Medics OSCE guide):</span><br>
+  <a href="https://geekymedics.com/deep-dermal-suture-osce-guide/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/deep-dermal-suture-osce-guide</a></p>
+</div>
+</div>
+
+<!-- 8. Figure of eight -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="figure-of-eight-suture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Figure-of-Eight Suture
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">What it is:</span> a suture crossing itself in a figure-eight pattern across the wound, providing a stronger single-point closure than a simple interrupted stitch.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Where it's appropriate:</span> actively bleeding points needing a haemostatic stitch, and situations needing extra strength at a single point - for example, securing a chest tube or drain site, or a bleeding vessel that needs to be controlled with a suture rather than cautery.</p>
+</div>
+
+<!-- 9. Decision table -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-a-technique---summary-decision-table" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Choosing a Technique - Summary Decision Table
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3 font-medium">Clinical situation</th>
+        <th class="py-2 font-medium">Preferred technique</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Straightforward, low-tension laceration</td><td class="py-2">Simple interrupted</td></tr>
+      <tr><td class="py-2 pr-3">Wound under tension, needing extra eversion</td><td class="py-2">Vertical mattress</td></tr>
+      <tr><td class="py-2 pr-3">Fragile/thin skin, or a wound needing tension distributed over a wider area</td><td class="py-2">Horizontal mattress</td></tr>
+      <tr><td class="py-2 pr-3">Long, low-tension incision, speed a priority</td><td class="py-2">Simple continuous</td></tr>
+      <tr><td class="py-2 pr-3">Cosmetically sensitive area (face), after deep layer already placed</td><td class="py-2">Subcuticular</td></tr>
+      <tr><td class="py-2 pr-3">Any wound with a distinct deep dermal/subcutaneous layer</td><td class="py-2">Deep dermal (buried), before the skin layer</td></tr>
+      <tr><td class="py-2 pr-3">Actively bleeding point needing a haemostatic stitch</td><td class="py-2">Figure-of-eight</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm mt-2">Most real wounds needing more than a trivial closure are not treated with a single technique in isolation - a typical layered closure combines a deep dermal (buried) layer to relieve tension, followed by either a subcuticular closure (cosmetic priority) or simple interrupted/mattress sutures (straightforward or higher-tension wounds) at the skin surface.</p>
+</div>
+
+<!-- 10. General videos -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="general-reference-videos-covering-multiple-techniques" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+General Reference Videos Covering Multiple Techniques
+</h2>
+
+<div class="space-y-3 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Geeky Medics Suturing Guides collection</span> (interrupted, continuous, mattress, subcuticular, and deep dermal technique, each with step-by-step images alongside video):<br>
+  <a href="https://geekymedics.com/category/surgery/suturing/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/category/surgery/suturing</a></p>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">NEJM Videos in Clinical Medicine - Basic Laceration Repair</span> (assessment through closure, general technique overview):<br>
+  <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm064238" class="text-indigo-600 dark:text-indigo-400 underline">nejm.org/doi/full/10.1056/NEJMvcm064238</a></p>
+</div>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Reach for simple interrupted as the safe default when in doubt - its independence between stitches is what makes it forgiving to learn on.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Avoid multifilament (braided) suture in a contaminated wound - the braided structure itself raises infection risk regardless of technique.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A deep dermal layer is what actually relieves tension in a layered closure - the skin layer on top of it should be doing cosmetic work, not load-bearing work.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Remove mattress sutures on time - they cross-hatch scar more readily than simple interrupted sutures if left in past the appropriate window.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Removal timing is a judgement on the individual wound's tension and blood supply, not a fixed number to apply uniformly - use the site-based ranges as a starting point, not a rule.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Geeky Medics - Suturing Guides Collection.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>New England Journal of Medicine - Videos in Clinical Medicine: Basic Laceration Repair.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Trott AT - Wounds and Lacerations: Emergency Care and Closure.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
 {
   id: 'procedure-episiotomy-episiorrhaphy',
   title: 'Episiotomy and Episiorrhaphy',
@@ -17862,9 +19185,9 @@ Episiorrhaphy (Repair) - Technique
 </div>
 
 <div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans space-y-2">
-  <p>📹 <span class="font-medium">Episiotomy and repair (layered technique demonstration):</span><br>
+  <p>🔗 <span class="font-medium">Episiotomy and repair (layered technique demonstration):</span><br>
   <a href="https://www.youtube.com/watch?v=cp5sNRWUaVg" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=cp5sNRWUaVg</a></p>
-  <p>📹 <span class="font-medium">Perineal laceration and episiotomy repair overview (MSD Manual Professional):</span><br>
+  <p>🔗 <span class="font-medium">Perineal laceration and episiotomy repair overview (MSD Manual Professional):</span><br>
   <a href="https://www.msdmanuals.com/professional/multimedia/video/how-to-repair-an-episiotomy" class="text-indigo-600 dark:text-indigo-400 underline">msdmanuals.com/professional - How to Repair an Episiotomy</a></p>
 </div>
 </div>
@@ -18171,7 +19494,7 @@ Technique
     <li>Space subsequent sutures evenly along the wound, with inter-suture spacing approximately equal to the bite width, leaving no gaps along the wound edge.</li>
   </ol>
   <div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
-    <p>📹 <span class="font-medium">Simple Interrupted Suture - OSCE Guide (Geeky Medics):</span> step-by-step written guide with images and embedded video demonstration.<br>
+    <p>🔗 <span class="font-medium">Simple Interrupted Suture - OSCE Guide (Geeky Medics):</span> step-by-step written guide with images and embedded video demonstration.<br>
     <a href="https://geekymedics.com/simple-interrupted-suture-osce-guide/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/simple-interrupted-suture-osce-guide</a></p>
   </div>
 </div>
@@ -18194,7 +19517,7 @@ Technique
     </table>
   </div>
   <div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
-    <p>📹 <span class="font-medium">Suturing Guides collection (Geeky Medics):</span> covers vertical mattress, horizontal mattress, and subcuticular suturing with a written guide and video for each.<br>
+    <p>🔗 <span class="font-medium">Suturing Guides collection (Geeky Medics):</span> covers vertical mattress, horizontal mattress, and subcuticular suturing with a written guide and video for each.<br>
     <a href="https://geekymedics.com/category/surgery/suturing/" class="text-indigo-600 dark:text-indigo-400 underline">geekymedics.com/category/surgery/suturing</a></p>
   </div>
 </div>

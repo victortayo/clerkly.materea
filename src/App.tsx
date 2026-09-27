@@ -9,7 +9,6 @@ import { ClerklyLearn } from './components/ClerklyLearn';
 import ClerklyCalculator from './components/ClerklyCalculator';
 import { Modal } from './components/Modal';
 import { useBookmarks } from './hooks/useBookmarks';
-import { INITIAL_TEMPLATES } from './data';
 import { Template, Specialty } from './types';
 import StartingLoader from './components/StartingLoader';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -21,6 +20,7 @@ const TEMPLATES_PER_PAGE = 12;
 type NavigationMode = 'list' | 'accordion' | 'symptoms';
 
 export default function App() {
+    const [templates, setTemplates] = useState<Template[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const { bookmarkedTemplateIds, bookmarkCounts, toggleBookmark } = useBookmarks();
     
@@ -39,17 +39,21 @@ export default function App() {
     const [isFetchingMore, setIsFetchingMore] = useState(false);
 
     useEffect(() => {
-        const timer = setTimeout(() => {
+        const fetchTemplates = async () => {
+            const { INITIAL_TEMPLATES } = await import('./data');
+            setTemplates(INITIAL_TEMPLATES);
             setIsLoading(false);
-        }, 1500);
+        };
 
-        return () => clearTimeout(timer);
+        fetchTemplates();
     }, []);
 
     const filteredTemplates = useMemo(() => {
+        if (!templates.length) return [];
+
         const query = searchQuery.toLowerCase().trim();
         
-        const baseTemplates = INITIAL_TEMPLATES.map(template => ({
+        const baseTemplates = templates.map(template => ({
             ...template,
             bookmarkCount: bookmarkCounts[template.id] !== undefined ? bookmarkCounts[template.id] : template.bookmarkCount
         })).sort((a, b) => new Date(b.lastModified).getTime() - new Date(a.lastModified).getTime());
@@ -108,7 +112,7 @@ export default function App() {
         }
 
         return matches;
-    }, [searchQuery, selectedSpecialty, showBookmarks, bookmarkedTemplateIds, bookmarkCounts]);
+    }, [searchQuery, selectedSpecialty, showBookmarks, bookmarkedTemplateIds, bookmarkCounts, templates]);
 
     const paginatedTemplates = useMemo(() => {
         return filteredTemplates.slice(0, visibleCount);
@@ -309,7 +313,7 @@ export default function App() {
                         )}
                         {navigationMode === 'symptoms' && (
                             <SymptomTagCloud
-                                templates={INITIAL_TEMPLATES} 
+                                templates={templates} 
                                 onSymptomSelect={handleSymptomSelect} 
                             />
                         )}

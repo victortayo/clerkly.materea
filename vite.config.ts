@@ -7,6 +7,38 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return 'vendor';
+            }
+            if (id.includes('src/data/templates/behavioral.ts')) {
+              return 'data-behavioral';
+            }
+            if (id.includes('src/data/templates/pediatrics.ts')) {
+              return 'data-pediatrics';
+            }
+            if (id.includes('src/data/templates/internal-medicine.ts')) {
+              return 'data-internal-medicine';
+            }
+            if (id.includes('src/data/templates/surgery.ts')) {
+              return 'data-surgery';
+            }
+            if (id.includes('src/data/templates/general-outpatient.ts')) {
+              return 'data-general-outpatient';
+            }
+            if (id.includes('src/data/templates/ob-gyn.ts')) {
+              return 'data-ob-gyn';
+            }
+            if (id.includes('src/data/learn.ts')) {
+              return 'learn';
+            }
+          }
+        }
+      }
+    },
     plugins: [
       react(), 
       tailwindcss(),
@@ -61,7 +93,7 @@ export default defineConfig(({mode}) => {
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };

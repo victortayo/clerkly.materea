@@ -18992,7 +18992,282 @@ General Reference Videos Covering Multiple Techniques
 </html>
   `
 },
+{
+  id: 'procedure-normal-vaginal-delivery',
+  title: 'Conducting a Normal Vaginal Delivery',
+  category: 'Procedures',
+  subCategory: 'Obstetrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Conducting a Normal Vaginal Delivery</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+.sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
 
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Procedures</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Conducting a Normal Vaginal Delivery</h1>
+  <p class="text-sm text-indigo-200">Normal vaginal delivery is the single procedure every doctor and midwife in Nigeria performs most often, and yet it remains one of the areas where small technical lapses translate directly into the leading causes of maternal death in this country - postpartum haemorrhage above all. This guide walks through the second, third, and fourth stages of labour as they are actually conducted at the bedside, with the specific steps that prevent perineal trauma and postpartum haemorrhage, and video references at each stage.</p>
+</div>
+</div>
+
+<!-- 1. Confirming second stage -->
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li>
+    <a href="#confirming-the-second-stage-and-preparing" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
+      <span>Confirming the Second Stage and Preparing</span>
+    </a>
+  </li>
+  <li>
+    <a href="#protecting-the-perineum-during-delivery-of-the-head" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
+      <span>Protecting the Perineum During Delivery of the Head</span>
+    </a>
+  </li>
+  <li>
+    <a href="#episiotomy---a-restrictive-not-routine-decision" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
+      <span>Episiotomy - A Restrictive, Not Routine, Decision</span>
+    </a>
+  </li>
+  <li>
+    <a href="#immediate-care-of-the-baby" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
+      <span>Immediate Care of the Baby</span>
+    </a>
+  </li>
+  <li>
+    <a href="#active-management-of-the-third-stage" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
+      <span>Active Management of the Third Stage</span>
+    </a>
+  </li>
+  <li>
+    <a href="#the-fourth-stage---the-first-two-hours-after-delivery" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
+      <span>The Fourth Stage - The First Two Hours After Delivery</span>
+    </a>
+  </li>
+  <li>
+    <a href="#recognising-when-this-is-no-longer-a-normal-delivery" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
+      <span>Recognising When This Is No Longer a Normal Delivery</span>
+    </a>
+  </li>
+  <li>
+    <a href="#general-reference-videos-and-resources-covering-this-guide" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
+      <span>General Reference Videos and Resources Covering This Guide</span>
+    </a>
+  </li>
+</ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="confirming-the-second-stage-and-preparing" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Confirming the Second Stage and Preparing
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The second stage begins with full cervical dilatation and ends with delivery of the baby. Before the mother begins active pushing, confirm full dilatation on vaginal examination, assess the fetal head station and position, and confirm reassuring fetal heart rate. Have delivery equipment ready and checked: a clean delivery set, cord clamps or ties, suction and basic neonatal resuscitation equipment within reach, oxytocin drawn up and ready, and a clock or watch visible for timing.</p>
+<p class="text-sm">Position the mother in whichever position she finds most comfortable and effective for pushing - semi-recumbent, lateral, or supported squatting are all reasonable, and forcing a single standard position purely for the convenience of the attendant is not good practice. Encourage pushing with contractions once the urge to push is present and the head is visibly descending, rather than starting directed pushing the moment full dilatation is confirmed if the head has not yet descended - allowing passive descent first, where the clinical picture permits, reduces maternal exhaustion and the duration of active pushing.</p>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Overview of the second stage and delivery mechanism (University of Toronto):</span><br>
+  <a href="https://pie.med.utoronto.ca/TVASurg/project/vaginal-birth/" class="text-indigo-600 dark:text-indigo-400 underline">pie.med.utoronto.ca/TVASurg/project/vaginal-birth</a></p>
+</div>
+</div>
+
+<!-- 2. Protecting perineum -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="protecting-the-perineum-during-delivery-of-the-head" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Protecting the Perineum During Delivery of the Head
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">This is the single most technique-dependent part of the whole delivery, and the part most responsible for whether the mother ends up with an intact perineum, a minor tear, or a significant laceration.</p>
+<p class="text-sm">As the head crowns, control the speed of delivery rather than allowing it to deliver suddenly. Two internationally described techniques achieve this, both built around the same underlying principle of steady counter-pressure: in the Finnish approach, one hand supports the perineum with a folded cloth while the other hand applies gentle, controlled pressure to the fetal head to guide gradual extension; in the Viennese approach, both hands work across the perineum without a specific counter-pressure hand on the head, relying on broad perineal support alone. In practice, most experienced attendants adapt elements of both: firm midline support across the entire perineum with the dominant hand, and a guiding rather than restraining touch on the advancing head, asking the mother to pant or push gently rather than bear down forcefully at the exact moment the head is crowning.</p>
+<p class="text-sm">Warm compresses applied to the perineum in the period just before crowning, and gentle perineal massage during the late first stage or early second stage, have both been shown to reduce the rate of significant perineal trauma, and are simple, low-cost measures worth incorporating routinely rather than reserving for a "difficult" delivery.</p>
+<p class="text-sm">Once the head is delivered, check for a nuchal cord by sweeping a finger around the neck. A loose nuchal cord can usually be slipped over the head; a tight cord that cannot be reduced this way may need to be clamped and cut before the shoulders deliver, though this should not be done reflexively - a nuchal cord is common and usually well tolerated, and unnecessary early clamping removes placental blood volume the baby would otherwise receive.</p>
+<p class="text-sm">Deliver the shoulders with gentle downward traction for the anterior shoulder, followed by upward traction for the posterior shoulder, applying only as much force as is needed to follow the natural mechanism of delivery - excessive traction, particularly lateral traction on the head and neck, risks brachial plexus injury and should never be used to force a shoulder that is not advancing (Section 7).</p>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Perineal protection technique demonstration (Finnish and Viennese methods):</span><br>
+  <a href="https://pie.med.utoronto.ca/TVASurg/project/vaginal-birth/" class="text-indigo-600 dark:text-indigo-400 underline">pie.med.utoronto.ca/TVASurg/project/vaginal-birth</a></p>
+</div>
+</div>
+
+<!-- 3. Episiotomy -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="episiotomy---a-restrictive-not-routine-decision" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Episiotomy - A Restrictive, Not Routine, Decision
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Episiotomy is not performed routinely in a normal delivery. It is reserved for specific situations: an anticipated severe tear threatening the anal sphincter based on how the perineum is stretching, instrumental delivery, shoulder dystocia requiring more room, or a need to expedite delivery for fetal distress. A full discussion of technique, classification of perineal trauma, repair, and post-repair counselling is covered in the companion episiotomy and episiorrhaphy guide in this series - the point worth restating here is that routine episiotomy for every primigravida, or for a simply slow second stage without one of the specific indications above, is not supported by current evidence and should not be the default.</p>
+</div>
+
+<!-- 4. Immediate care of baby -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="immediate-care-of-the-baby" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Immediate Care of the Baby
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">As soon as the baby is delivered, place them directly on the mother's abdomen or chest in skin-to-skin contact and dry them promptly, replacing the wet cloth with a dry one to prevent heat loss - this alone is one of the most effective and lowest-cost interventions for preventing neonatal hypothermia. Assess breathing, tone, and colour in the first seconds; a vigorous, crying baby needs no further intervention beyond drying, warmth, and this initial assessment. A baby who is not breathing adequately needs immediate stimulation and, if there is no response, standard neonatal resuscitation - covered in detail in a separate guide in this series and worth having the steps rehearsed before every delivery rather than reviewed for the first time during one.</p>
+<p class="text-sm">Delay cord clamping for at least one to three minutes in a vigorous baby who does not require resuscitation, rather than clamping immediately. This is now the standard recommendation from WHO, FIGO, and other major bodies - WHO's floor is "not earlier than 1 minute," with the physiological rationale being that cord traction for placental delivery normally takes around 3 minutes in any case, and this window aligns naturally with allowing full placental transfusion. This is a meaningful and now well-established change from older practice that clamped immediately as a matter of routine. Clamp the cord at two points and cut between them once the decision to clamp has been made.</p>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans space-y-2">
+  <p>🔗 <span class="font-medium">Helping Babies Breathe at Birth (Global Health Media Project - live footage, basic steps of newborn resuscitation aligned with WHO/AAP Helping Babies Breathe guidelines):</span><br>
+  <a href="https://globalhealthmedia.org/video/helping-babies-breathe-at-birth/" class="text-indigo-600 dark:text-indigo-400 underline">globalhealthmedia.org/video/helping-babies-breathe-at-birth</a></p>
+  <p>🔗 <span class="font-medium">Helping Babies Breathe with a Training Doll (Global Health Media Project, step-by-step skills demonstration):</span><br>
+  <a href="https://www.youtube.com/watch?v=r7SXyNQ1OBM" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=r7SXyNQ1OBM</a></p>
+</div>
+</div>
+
+<!-- 5. Third stage -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="active-management-of-the-third-stage" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Active Management of the Third Stage
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The third stage runs from delivery of the baby to delivery of the placenta, and this is where most preventable maternal deaths in this specific window occur, through postpartum haemorrhage from uterine atony. Active management of the third stage is the single intervention shown most clearly to reduce this risk, and should be offered as routine practice to every woman delivering vaginally, not reserved for those already showing signs of heavy bleeding.</p>
+<p class="text-sm">Active management has three components, given in sequence.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">First</span>, give a uterotonic - oxytocin 10 IU intramuscularly is the standard choice recommended by WHO, FIGO, and the International Confederation of Midwives, given within a minute of the baby's delivery, after checking there is no undiagnosed second twin. Oxytocin should be given intramuscularly rather than as an intravenous bolus, since a rapid IV bolus carries a risk of significant hypotension and arrhythmia; if IV administration is needed (as is more common at caesarean section) it should be given as a slow infusion rather than a push.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Second</span>, once a contraction is felt and there are signs of placental separation - a gush of blood, lengthening of the cord, or the uterus rising and becoming globular on abdominal palpation - apply controlled cord traction: one hand guards the uterus by applying counter-pressure just above the pubic symphysis in the opposite direction to the traction, while the other hand applies steady, gentle traction on the cord, only during a contraction, stopping immediately if there is resistance rather than pulling harder.</p>
+<p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Third</span>, once the placenta is delivered, massage the uterine fundus until it is firm, and repeat this massage every fifteen minutes for the first two hours after delivery - this is the window in which delayed postpartum haemorrhage from uterine atony most often develops, and this is worth teaching the mother or a relative to do as well, not only the attending clinician.</p>
+<p class="text-sm">Inspect the placenta and membranes for completeness once delivered. Retained products increase the risk of both immediate haemorrhage and delayed infection, and a placenta that appears incomplete warrants uterine exploration rather than being assumed to have separated fully.</p>
+<div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans space-y-2">
+  <p>🔗 <span class="font-medium">Active management of the third stage, full technique:</span><br>
+  <a href="https://zerotofinals.com/obgyn/labouranddelivery/thirdstage/" class="text-indigo-600 dark:text-indigo-400 underline">zerotofinals.com/obgyn/labouranddelivery/thirdstage</a></p>
+  <p>🔗 <span class="font-medium">WHO/training module on active management of the third stage, written walkthrough with figures for each step:</span><br>
+  <a href="https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=274&printable=1" class="text-indigo-600 dark:text-indigo-400 underline">open.edu/openlearncreate (module 274)</a></p>
+</div>
+</div>
+
+<!-- 6. Fourth stage -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-fourth-stage---the-first-two-hours-after-delivery" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+The Fourth Stage - The First Two Hours After Delivery
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The fourth stage, the first one to two hours after delivery of the placenta, is a period of genuine ongoing risk that is easy to under-monitor once the visible drama of delivery is over and attention shifts to the baby. Check the mother's pulse, blood pressure, uterine tone, and vaginal blood loss every fifteen minutes for the first hour, then every thirty minutes for the second hour. A uterus that is not staying firm and contracted after massage, or bleeding that continues despite an apparently well-contracted uterus, should prompt immediate assessment for the specific cause of postpartum haemorrhage - atony, retained tissue, trauma, or a clotting problem - rather than repeated reassurance and rechecking without escalation.</p>
+<p class="text-sm">Inspect the perineum, vagina, and cervix for any tears requiring repair once the immediate excitement of the delivery has settled, since a bleeding laceration can be mistaken for atonic bleeding if it is not specifically looked for. Encourage early breastfeeding within the first hour where the baby is stable - this supports maternal-infant bonding and also assists uterine contraction through the physiological oxytocin release that suckling stimulates.</p>
+</div>
+
+<!-- 7. Recognising abnormal -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="recognising-when-this-is-no-longer-a-normal-delivery" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Recognising When This Is No Longer a Normal Delivery
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A delivery being conducted as "normal" can change status at any point, and recognising the shift promptly matters more than any single technique described above.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-3">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Shoulder dystocia</span> - the anterior shoulder failing to deliver with gentle traction after the head is delivered - requires an immediate, structured response (McRoberts positioning, suprapubic pressure, and further manoeuvres as needed) rather than increasing traction force on the head, which risks brachial plexus injury.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>A second stage that is prolonged well beyond expected limits for the mother's parity, a non-reassuring fetal heart rate pattern, or a delivery requiring more assistance than gentle guidance of the natural mechanism should prompt escalation to instrumental delivery or caesarean section as appropriate, rather than persisting with a vaginal delivery attempt indefinitely.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Postpartum haemorrhage, once recognised, is a structured emergency with its own management sequence (uterotonics, bimanual compression, examination for the cause, and escalation) - covered as its own topic in this series given how much detail the emergency management genuinely requires.</span></li>
+</ul>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans space-y-2">
+  <p>🔗 <span class="font-medium">Shoulder Dystocia - McRoberts Manoeuvre Animation (Cal Shipley, M.D.):</span><br>
+  <a href="https://www.youtube.com/watch?v=LvzyPlo8XEM" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=LvzyPlo8XEM</a></p>
+  <p>📖 <span class="font-medium">Shoulder Dystocia - written overview with figures, risk factors, and manoeuvre sequence (TeachMeObGyn):</span><br>
+  <a href="https://teachmeobgyn.com/labour/emergencies/shoulder-dystocia/" class="text-indigo-600 dark:text-indigo-400 underline">teachmeobgyn.com/labour/emergencies/shoulder-dystocia</a></p>
+  <p>📖 <span class="font-medium">Shoulder Dystocia, Green-top Guideline No. 42 (Royal College of Obstetricians and Gynaecologists) - full guideline:</span><br>
+  <a href="https://www.rcog.org.uk/media/ewgpnmio/gtg_42.pdf" class="text-indigo-600 dark:text-indigo-400 underline">rcog.org.uk/media/ewgpnmio/gtg_42.pdf</a></p>
+</div>
+</div>
+
+<!-- 8. General multimedia resources -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="general-reference-videos-and-resources-covering-this-guide" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+General Reference Videos and Resources Covering This Guide
+</h2>
+
+<div class="space-y-3 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Second stage, delivery mechanism, and perineal protection technique (University of Toronto):</span><br>
+  <a href="https://pie.med.utoronto.ca/TVASurg/project/vaginal-birth/" class="text-indigo-600 dark:text-indigo-400 underline">pie.med.utoronto.ca/TVASurg/project/vaginal-birth</a></p>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Active management of the third stage of labour (Zero to Finals):</span><br>
+  <a href="https://zerotofinals.com/obgyn/labouranddelivery/thirdstage/" class="text-indigo-600 dark:text-indigo-400 underline">zerotofinals.com/obgyn/labouranddelivery/thirdstage</a></p>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>📖 <span class="font-medium">Active management of the third stage, step-by-step written module with figures (OpenLearn):</span><br>
+  <a href="https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=274&printable=1" class="text-indigo-600 dark:text-indigo-400 underline">open.edu/openlearncreate (module 274)</a></p>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Helping Babies Breathe at Birth - live-footage newborn resuscitation (Global Health Media Project):</span><br>
+  <a href="https://globalhealthmedia.org/video/helping-babies-breathe-at-birth/" class="text-indigo-600 dark:text-indigo-400 underline">globalhealthmedia.org/video/helping-babies-breathe-at-birth</a></p>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>🔗 <span class="font-medium">Shoulder Dystocia - McRoberts Manoeuvre Animation (Cal Shipley, M.D.):</span><br>
+  <a href="https://www.youtube.com/watch?v=LvzyPlo8XEM" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=LvzyPlo8XEM</a></p>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <p>📖 <span class="font-medium">Shoulder Dystocia, Green-top Guideline No. 42 (RCOG) - full guideline for reference:</span><br>
+  <a href="https://www.rcog.org.uk/media/ewgpnmio/gtg_42.pdf" class="text-indigo-600 dark:text-indigo-400 underline">rcog.org.uk/media/ewgpnmio/gtg_42.pdf</a></p>
+</div>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+<ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Active management of the third stage - oxytocin, controlled cord traction, fundal massage - is the single most effective intervention against the leading cause of maternal death in this setting, and belongs in every vaginal delivery, not just ones already bleeding.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give oxytocin IM, not as an IV bolus - the bolus route carries a real risk of hypotension and arrhythmia.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Delay cord clamping by at least 1-3 minutes in a vigorous baby - this is now standard practice, not an optional preference.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never use increasing traction force on the head to manage a shoulder that isn't advancing - that's exactly the reflex that causes brachial plexus injury.</span></li>
+  <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Don't let fourth-stage monitoring lapse once attention shifts to the baby - this is exactly the window delayed postpartum haemorrhage from atony tends to appear.</span></li>
+</ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+  <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+  <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+  </svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+  <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guideline: Delayed Umbilical Cord Clamping for Improved Maternal and Infant Health and Nutrition Outcomes, 2014.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>FIGO - Good Practice Recommendations on Delayed Umbilical Cord Clamping, 2021.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization / International Confederation of Midwives / FIGO - Joint Statement on Active Management of the Third Stage of Labour.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Shoulder Dystocia, Green-top Guideline No. 42.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Academy of Pediatrics / Global Health Media Project - Helping Babies Breathe Programme.</li>
+    <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+  </ul>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
 {
   id: 'procedure-episiotomy-episiorrhaphy',
   title: 'Episiotomy and Episiorrhaphy',

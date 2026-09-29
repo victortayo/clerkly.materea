@@ -1,6 +1,25 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { clerklyLearnLibrary, LearningModule, LearningModuleCategory } from '../data/learn';
+import { LearningModule, LearningModuleCategory } from '../types/learn';
+import { CLINICAL_SCORING_SYSTEMS_CONTENT } from '../data/learn/clinical-scoring-systems';
+import { COUNSELLING_CONTENT } from '../data/learn/counselling';
+import { HISTORY_TAKING_CONTENT } from '../data/learn/history-taking';
+import { LABORATORY_INTERPRETATION_CONTENT } from '../data/learn/laboratory-interpretation';
+import { PHYSICAL_EXAMINATION_CONTENT } from '../data/learn/physical-examination';
+import { PROCEDURES_CONTENT } from '../data/learn/procedures';
+import { SYMPTOM_CLERKING_CONTENT } from '../data/learn/symptom-clerking';
+import { TREATMENT_CONTENT } from '../data/learn/treatment';
+
+const clerklyLearnLibrary: LearningModule[] = [
+  ...CLINICAL_SCORING_SYSTEMS_CONTENT,
+  ...COUNSELLING_CONTENT,
+  ...HISTORY_TAKING_CONTENT,
+  ...LABORATORY_INTERPRETATION_CONTENT,
+  ...PHYSICAL_EXAMINATION_CONTENT,
+  ...PROCEDURES_CONTENT,
+  ...SYMPTOM_CLERKING_CONTENT,
+  ...TREATMENT_CONTENT,
+];
 
 interface ClerklyLearnProps {
   onClose: () => void;

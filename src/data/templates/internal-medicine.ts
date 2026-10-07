@@ -1,10 +1,1993 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
-
-
+  
+  {
+    id: 'im-104',
+    title: 'Erectile Dysfunction',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Clinic',
+    condition: 'Erectile Dysfunction',
+    symptoms: [
+      'Erectile dysfunction',
+      'Reduced morning erections',
+      'Performance anxiety',
+      'Marital strain',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '45-year-old obese hypertensive man presenting with a 6-month history of difficulty achieving and maintaining firm erections, with reduced morning erections and significant performance anxiety. The presentation is likely multifactorial, with possible vasculogenic, psychogenic, and metabolic contributors.',
+    content: `GENERAL MEDICAL CLINIC
+  
+  Patient Identification
+  
+  A 45-year-old male civil servant who resides in Ikeja, Lagos State. He is Yoruba and married.
+  
+  Presenting Complaint
+  
+  Inability to achieve or maintain firm erections x 6/12.
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 6 months ago when he noticed a gradual decline in the quality of his erections. He reports that his erections are no longer firm enough for successful penetration and often subside during intercourse. He also reports a significant decrease in the frequency and rigidity of early morning erections.
+  
+  There is no associated penile pain, curvature during erection, or history of urethral discharge. His libido remains relatively intact, although he reports significant performance anxiety and marital strain since the onset of these symptoms.
+  
+  He denies any history of pelvic or spinal trauma or previous pelvic surgery. He has no symptoms suggestive of bladder outlet obstruction, such as poor urinary stream or hesitancy. He is a known hypertensive but denies symptoms suggestive of diabetes mellitus, including polyuria, polydipsia, or unexplained weight loss.
+  
+  Past Medical History
+  
+  He is a known hypertensive, diagnosed 5 years ago. No known history of diabetes mellitus, sickle cell disease, or asthma. No previous hospitalizations or surgeries.
+  
+  Drug History
+  
+  Currently on Tab. Amlodipine 10 mg daily for blood pressure control. He admits to occasional use of over-the-counter herbal concoctions (agbo) for sexual enhancement, with no significant improvement.
+  
+  He does not use antidepressants, antipsychotics, or beta-blockers.
+  
+  Family and Social History
+  
+  He is in a monogamous marriage with three children. He is a chronic smoker, averaging 5 sticks per day for the last 10 years, approximately 2.5 pack-years. He consumes alcohol socially, mostly beer, approximately 4–6 bottles per week. He leads a sedentary lifestyle with minimal physical exercise.
+  
+  His father was hypertensive and died of a stroke.
+  
+  Review of Systems
+  
+  CNS: No history of tremors, limb weakness, or sensory loss.
+  
+  CVS: No chest pain, palpitations, or orthopnoea.
+  
+  Resp: No chronic cough or breathlessness.
+  
+  GIT: No change in bowel habits or abdominal pain.
+  
+  MSS: No joint pains or bone pain.
+  
+  Physical Examination
+  
+  General Examination
+  
+  An overweight middle-aged man, not in any obvious respiratory or painful distress.
+  
+  Acutely ill: No.
+  Pallor: Absent.
+  Jaundice: Absent.
+  Pedal oedema: Absent.
+  Dehydration: Absent.
+  
+  Vital Signs
+  
+  BP: 146/92 mmHg (sitting).
+  PR: 76 bpm, regular, normal volume.
+  RR: 16 cpm.
+  Temperature: 36.5°C.
+  SpO₂: 98% on room air.
+  
+  Anthropometry
+  
+  Weight: 94 kg.
+  Height: 1.72 m.
+  BMI: 31.8 kg/m² (Obesity Class I).
+  
+  Systemic Examination
+  
+  Cardiovascular System
+  
+  Apex beat at the 5th left intercostal space, mid-clavicular line. Heart sounds S1 and S2 only. Peripheral pulses are palpable bilaterally, although the distal pulses appear diminished in volume.
+  
+  Abdominal/Genitourinary Examination
+  
+  Abdomen is full and moves with respiration. No organomegaly or palpable masses.
+  
+  Genital Examination
+  
+  Normal male phallus without scars or palpable plaques. Both testes are descended into the scrotum, normal in size (approximately 20 mL each) and firm in consistency. No varicocele or hydrocele. Normal distribution of pubic hair.
+  
+  Digital Rectal Examination
+  
+  Normal anal sphincter tone. Prostate is approximately 20 g, smooth, firm, non-tender, with a palpable median sulcus.
+  
+  Neurological System
+  
+  Patient is conscious and oriented in time, place, and person. Sensation is intact in the perineum and lower limbs. Bulbocavernosus reflex is present.
+  
+  ASSESSMENT
+  
+  Erectile dysfunction, likely multifactorial with possible vasculogenic and psychogenic contributors, in a patient with hypertension, obesity, smoking history, and sedentary lifestyle.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Vasculogenic erectile dysfunction secondary to cardiovascular risk factors, including hypertension, obesity, and smoking.
+  
+  2. Psychogenic erectile dysfunction, exacerbated by performance anxiety and marital strain.
+  
+  3. Endocrine/metabolic causes, including hypogonadism and occult diabetes mellitus.
+  
+  4. Medication-related erectile dysfunction, although amlodipine is a less likely contributor.
+  
+  INVESTIGATIONS
+  
+  1. Fasting Blood Sugar (FBS) and/or HbA1c to screen for diabetes mellitus.
+  
+  2. Fasting Lipid Profile (Total Cholesterol, LDL, HDL, Triglycerides) to assess cardiovascular risk.
+  
+  3. Serum Total Testosterone: early morning sample, preferably between 7 am and 10 am.
+  
+  4. Serum Prolactin, particularly if testosterone is low or clinical features suggest hyperprolactinaemia.
+  
+  5. Urinalysis to assess for glucosuria and proteinuria.
+  
+  6. Serum Electrolytes, Urea, and Creatinine.
+  
+  7. PSA: consider based on age, risk factors, clinical context, and whether testosterone therapy is being contemplated; a normal DRE alone is not an indication for PSA testing.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Lifestyle Modification:
+  - Strongly advise smoking cessation.
+  - Recommend weight reduction through dietary modification and regular aerobic exercise, e.g. at least 30 minutes of brisk walking on most days of the week.
+  - Reduce alcohol consumption.
+  - Encourage increased physical activity and management of cardiovascular risk factors.
+  
+  2. Counseling:
+  - Explain the likely multifactorial nature of the erectile dysfunction and address performance anxiety.
+  - Encourage appropriate partner involvement where acceptable to the patient.
+  - Consider referral for psychosexual counselling if psychogenic factors are prominent or symptoms persist despite treatment of medical risk factors.
+  
+  3. Pharmacotherapy:
+  - First-line treatment: Phosphodiesterase-5 (PDE5) inhibitor, provided there are no contraindications.
+  
+  A. Sildenafil:
+  - Start 50 mg orally approximately 1 hour before planned sexual activity.
+  - May be increased to 100 mg or reduced to 25 mg according to efficacy and tolerability.
+  - Sexual stimulation is required for effect.
+  - A high-fat meal may delay absorption; it does not have to be taken strictly on an empty stomach.
+  - Common adverse effects include headache, flushing, dyspepsia, nasal congestion, and visual disturbance.
+  
+  B. Tadalafil:
+  - 10 mg orally on demand, taken at least 30 minutes before sexual activity.
+  - May be increased to 20 mg or reduced to 5 mg according to response and tolerability.
+  - Alternatively, 5 mg once daily may be considered for patients who prefer greater spontaneity or have frequent sexual activity.
+  - Has a longer duration of action, up to approximately 36 hours.
+  - Absorption is not significantly affected by food.
+  
+  C. Vardenafil:
+  - 10 mg orally approximately 25–60 minutes before sexual activity.
+  - May be adjusted to 5–20 mg according to efficacy and tolerability.
+  
+  IMPORTANT CONTRAINDICATION:
+  - PDE5 inhibitors must not be used with nitrates, including isosorbide dinitrate, isosorbide mononitrate, or glyceryl trinitrate, because of the risk of profound hypotension.
+  - Avoid or seek specialist advice in patients with unstable cardiovascular disease or other conditions in which sexual activity is inadvisable.
+  
+  4. Hormonal Evaluation and Replacement:
+  - If the initial morning total testosterone is low, repeat an early-morning total testosterone measurement on a separate occasion to confirm biochemical hypogonadism.
+  - If consistently low, investigate the cause with appropriate additional tests, including LH and FSH, and consider prolactin where indicated.
+  - Testosterone replacement therapy should only be considered in a symptomatic patient with consistently confirmed low testosterone after appropriate evaluation of contraindications and risks.
+  - PSA assessment and prostate evaluation should be considered before testosterone therapy in appropriate patients, with ongoing monitoring according to the chosen treatment protocol.
+  
+  5. Follow-up:
+  - Review in approximately 4 weeks to assess response to treatment, adherence, adverse effects, blood pressure control, lifestyle modification, and psychological factors.
+  - Reassess cardiovascular risk factors and modify treatment as indicated.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-103',
+    title: 'Erectile Dysfunction',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Clinic',
+    condition: 'Erectile Dysfunction',
+    symptoms: [
+      'Erectile dysfunction',
+      'Reduced morning erections',
+      'Performance anxiety',
+      'Marital strain',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '45-year-old obese hypertensive man presenting with a 6-month history of difficulty achieving and maintaining firm erections, with reduced morning erections and significant performance anxiety. The presentation is likely multifactorial, with possible vasculogenic, psychogenic, and metabolic contributors.',
+    content: `GENERAL MEDICAL CLINIC
+  
+  Patient Identification
+  
+  A 45-year-old male civil servant who resides in Ikeja, Lagos State. He is Yoruba and married.
+  
+  Presenting Complaint
+  
+  Inability to achieve or maintain firm erections x 6/12.
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 6 months ago when he noticed a gradual decline in the quality of his erections. He reports that his erections are no longer firm enough for successful penetration and often subside during intercourse. He also reports a significant decrease in the frequency and rigidity of early morning erections.
+  
+  There is no associated penile pain, curvature during erection, or history of urethral discharge. His libido remains relatively intact, although he reports significant performance anxiety and marital strain since the onset of these symptoms.
+  
+  He denies any history of pelvic or spinal trauma or previous pelvic surgery. He has no symptoms suggestive of bladder outlet obstruction, such as poor urinary stream or hesitancy. He is a known hypertensive but denies symptoms suggestive of diabetes mellitus, including polyuria, polydipsia, or unexplained weight loss.
+  
+  Past Medical History
+  
+  He is a known hypertensive, diagnosed 5 years ago. No known history of diabetes mellitus, sickle cell disease, or asthma. No previous hospitalizations or surgeries.
+  
+  Drug History
+  
+  Currently on Tab. Amlodipine 10 mg daily for blood pressure control. He admits to occasional use of over-the-counter herbal concoctions (agbo) for sexual enhancement, with no significant improvement.
+  
+  He does not use antidepressants, antipsychotics, or beta-blockers.
+  
+  Family and Social History
+  
+  He is in a monogamous marriage with three children. He is a chronic smoker, averaging 5 sticks per day for the last 10 years, approximately 2.5 pack-years. He consumes alcohol socially, mostly beer, approximately 4–6 bottles per week. He leads a sedentary lifestyle with minimal physical exercise.
+  
+  His father was hypertensive and died of a stroke.
+  
+  Review of Systems
+  
+  CNS: No history of tremors, limb weakness, or sensory loss.
+  
+  CVS: No chest pain, palpitations, or orthopnoea.
+  
+  Resp: No chronic cough or breathlessness.
+  
+  GIT: No change in bowel habits or abdominal pain.
+  
+  MSS: No joint pains or bone pain.
+  
+  Physical Examination
+  
+  General Examination
+  
+  An overweight middle-aged man, not in any obvious respiratory or painful distress.
+  
+  Acutely ill: No.
+  Pallor: Absent.
+  Jaundice: Absent.
+  Pedal oedema: Absent.
+  Dehydration: Absent.
+  
+  Vital Signs
+  
+  BP: 146/92 mmHg (sitting).
+  PR: 76 bpm, regular, normal volume.
+  RR: 16 cpm.
+  Temperature: 36.5°C.
+  SpO₂: 98% on room air.
+  
+  Anthropometry
+  
+  Weight: 94 kg.
+  Height: 1.72 m.
+  BMI: 31.8 kg/m² (Obesity Class I).
+  
+  Systemic Examination
+  
+  Cardiovascular System
+  
+  Apex beat at the 5th left intercostal space, mid-clavicular line. Heart sounds S1 and S2 only. Peripheral pulses are palpable bilaterally, although the distal pulses appear diminished in volume.
+  
+  Abdominal/Genitourinary Examination
+  
+  Abdomen is full and moves with respiration. No organomegaly or palpable masses.
+  
+  Genital Examination
+  
+  Normal male phallus without scars or palpable plaques. Both testes are descended into the scrotum, normal in size (approximately 20 mL each) and firm in consistency. No varicocele or hydrocele. Normal distribution of pubic hair.
+  
+  Digital Rectal Examination
+  
+  Normal anal sphincter tone. Prostate is approximately 20 g, smooth, firm, non-tender, with a palpable median sulcus.
+  
+  Neurological System
+  
+  Patient is conscious and oriented in time, place, and person. Sensation is intact in the perineum and lower limbs. Bulbocavernosus reflex is present.
+  
+  ASSESSMENT
+  
+  Erectile dysfunction, likely multifactorial with possible vasculogenic and psychogenic contributors, in a patient with hypertension, obesity, smoking history, and sedentary lifestyle.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Vasculogenic erectile dysfunction secondary to cardiovascular risk factors, including hypertension, obesity, and smoking.
+  
+  2. Psychogenic erectile dysfunction, exacerbated by performance anxiety and marital strain.
+  
+  3. Endocrine/metabolic causes, including hypogonadism and occult diabetes mellitus.
+  
+  4. Medication-related erectile dysfunction, although amlodipine is a less likely contributor.
+  
+  INVESTIGATIONS
+  
+  1. Fasting Blood Sugar (FBS) and/or HbA1c to screen for diabetes mellitus.
+  
+  2. Fasting Lipid Profile (Total Cholesterol, LDL, HDL, Triglycerides) to assess cardiovascular risk.
+  
+  3. Serum Total Testosterone: early morning sample, preferably between 7 am and 10 am.
+  
+  4. Serum Prolactin, particularly if testosterone is low or clinical features suggest hyperprolactinaemia.
+  
+  5. Urinalysis to assess for glucosuria and proteinuria.
+  
+  6. Serum Electrolytes, Urea, and Creatinine.
+  
+  7. PSA: consider based on age, risk factors, clinical context, and whether testosterone therapy is being contemplated; a normal DRE alone is not an indication for PSA testing.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Lifestyle Modification:
+  - Strongly advise smoking cessation.
+  - Recommend weight reduction through dietary modification and regular aerobic exercise, e.g. at least 30 minutes of brisk walking on most days of the week.
+  - Reduce alcohol consumption.
+  - Encourage increased physical activity and management of cardiovascular risk factors.
+  
+  2. Counseling:
+  - Explain the likely multifactorial nature of the erectile dysfunction and address performance anxiety.
+  - Encourage appropriate partner involvement where acceptable to the patient.
+  - Consider referral for psychosexual counselling if psychogenic factors are prominent or symptoms persist despite treatment of medical risk factors.
+  
+  3. Pharmacotherapy:
+  - First-line treatment: Phosphodiesterase-5 (PDE5) inhibitor, provided there are no contraindications.
+  
+  A. Sildenafil:
+  - Start 50 mg orally approximately 1 hour before planned sexual activity.
+  - May be increased to 100 mg or reduced to 25 mg according to efficacy and tolerability.
+  - Sexual stimulation is required for effect.
+  - A high-fat meal may delay absorption; it does not have to be taken strictly on an empty stomach.
+  - Common adverse effects include headache, flushing, dyspepsia, nasal congestion, and visual disturbance.
+  
+  B. Tadalafil:
+  - 10 mg orally on demand, taken at least 30 minutes before sexual activity.
+  - May be increased to 20 mg or reduced to 5 mg according to response and tolerability.
+  - Alternatively, 5 mg once daily may be considered for patients who prefer greater spontaneity or have frequent sexual activity.
+  - Has a longer duration of action, up to approximately 36 hours.
+  - Absorption is not significantly affected by food.
+  
+  C. Vardenafil:
+  - 10 mg orally approximately 25–60 minutes before sexual activity.
+  - May be adjusted to 5–20 mg according to efficacy and tolerability.
+  
+  IMPORTANT CONTRAINDICATION:
+  - PDE5 inhibitors must not be used with nitrates, including isosorbide dinitrate, isosorbide mononitrate, or glyceryl trinitrate, because of the risk of profound hypotension.
+  - Avoid or seek specialist advice in patients with unstable cardiovascular disease or other conditions in which sexual activity is inadvisable.
+  
+  4. Hormonal Evaluation and Replacement:
+  - If the initial morning total testosterone is low, repeat an early-morning total testosterone measurement on a separate occasion to confirm biochemical hypogonadism.
+  - If consistently low, investigate the cause with appropriate additional tests, including LH and FSH, and consider prolactin where indicated.
+  - Testosterone replacement therapy should only be considered in a symptomatic patient with consistently confirmed low testosterone after appropriate evaluation of contraindications and risks.
+  - PSA assessment and prostate evaluation should be considered before testosterone therapy in appropriate patients, with ongoing monitoring according to the chosen treatment protocol.
+  
+  5. Follow-up:
+  - Review in approximately 4 weeks to assess response to treatment, adherence, adverse effects, blood pressure control, lifestyle modification, and psychological factors.
+  - Reassess cardiovascular risk factors and modify treatment as indicated.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-102',
+    title: 'Low Libido and Erectile Dysfunction',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Clinic',
+    condition: 'Male Sexual Dysfunction',
+    symptoms: [
+      'Low libido',
+      'Erectile dysfunction',
+      'Reduced spontaneous erections',
+      'Work-related stress',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '45-year-old obese hypertensive man presenting with a 6-month history of reduced libido and erectile dysfunction, with possible medication-related, metabolic, and psychogenic contributors, particularly recent propranolol use, obesity, smoking, alcohol intake, and work-related stress.',
+    content: `GENERAL MEDICAL CLINIC
+  
+  PATIENT IDENTIFICATION
+  
+  A 45-year-old male civil servant who resides in Garki, Abuja. He is of the Igbo ethnic group.
+  
+  PRESENTING COMPLAINT
+  
+  1. Low libido x 6/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until about 6 months ago when he noticed a gradual decline in his interest in sexual activity. This has led to infrequent sexual encounters with his partner compared to his previous baseline of 3 times per week. He reports associated occasional difficulty achieving and maintaining erections sufficient for penetration, which further discourages his attempts.
+  
+  There is no history of morning erections or spontaneous nocturnal erections. He reports significant work-related stress and financial pressures over the past year but denies persistent low mood, anhedonia, or suicidal ideation. He denies headaches, visual disturbances, or nipple discharge. There is no history of trauma to the perineum, previous pelvic surgeries, or mumps orchitis in childhood.
+  
+  PAST MEDICAL HISTORY
+  
+  Known hypertensive for 3 years.
+  
+  No known history of Diabetes Mellitus or Sickle Cell Disease.
+  
+  No previous surgeries.
+  
+  DRUG HISTORY
+  
+  1. Tab Amlodipine 5 mg daily.
+  2. Tab Propranolol 40 mg twice daily, started 8 months ago.
+  3. Frequent use of herbal concoctions (Agbo) for "body pain."
+  
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Married in a monogamous setting with 4 children. He smokes 5 sticks of cigarettes daily (approximately 10 pack-years) and drinks about 4 bottles of beer every weekend. No history of recreational drug use.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No tremors, no loss of sensation.
+  
+  CVS: No chest pain or palpitations.
+  
+  RS: No cough or breathlessness.
+  
+  GIT: No change in bowel habits.
+  
+  MSS: No bone pains or muscle weakness.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  
+  Middle-aged man, comfortable, not acutely ill.
+  
+  Not pale, anicteric, no pedal oedema.
+  
+  Apyrexial, T: 36.6°C.
+  
+  Vitals
+  
+  BP: 145/92 mmHg.
+  
+  PR: 68 bpm, regular, normal volume.
+  
+  RR: 16 cpm.
+  
+  SpO2: 98% on room air.
+  
+  Weight: 94 kg.
+  
+  Height: 1.72 m.
+  
+  BMI: 31.8 kg/m² (Class 1 obesity).
+  
+  Specific Findings
+  
+  Secondary Sexual Characteristics: Male-pattern hair distribution over the pubic and axillary regions is preserved. No gynaecomastia.
+  
+  Genitourinary: Normal male phallus and urethral meatus. Bilateral testes descended into the scrotum, firm, and of normal volume (approximately 20 mL by orchidometer). No palpable varicocele or hydrocele. Prostate is normal on digital rectal examination.
+  
+  Systemic Examination
+  
+  Respiratory: Lungs clear, vesicular breath sounds.
+  
+  Cardiovascular: S1 and S2 only, no murmurs.
+  
+  Abdomen: Soft, non-tender, no organomegaly.
+  
+  CNS: Grossly intact, normal power and reflexes in all limbs.
+  
+  ASSESSMENT
+  
+  Low libido with erectile dysfunction, likely multifactorial, with possible medication-related sexual dysfunction secondary to Propranolol, alongside obesity, cardiovascular risk factors, and psychosocial stress.
+  
+  Possible hypogonadism to be confirmed biochemically.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Medication-induced sexual dysfunction, particularly secondary to Propranolol.
+  2. Psychogenic sexual dysfunction related to chronic stress and performance anxiety.
+  3. Hypogonadism.
+  4. Hyperprolactinaemia.
+  5. Diabetes mellitus/metabolic syndrome.
+  6. Vasculogenic erectile dysfunction related to cardiovascular risk factors.
+  
+  INVESTIGATIONS
+  
+  1. Serum Total Testosterone: Obtain an early morning sample (approximately 7–10 AM). If low, repeat on a separate morning before diagnosing hypogonadism.
+  2. Serum Prolactin: Particularly given reduced libido and to assess for hyperprolactinaemia.
+  3. Fasting Blood Sugar (FBS) and HbA1c: To screen for diabetes mellitus.
+  4. Fasting Lipid Profile: To assess cardiovascular risk.
+  5. Serum Electrolytes, Urea, and Creatinine: To assess renal function and baseline status before antihypertensive adjustment.
+  6. Urinalysis: To screen for glycosuria, proteinuria, and other abnormalities.
+  7. Consider LH and FSH if testosterone is repeatedly low, to distinguish primary from secondary hypogonadism.
+  8. PSA and PCV/FBC if testosterone replacement therapy is being considered, together with appropriate prostate assessment.
+  
+  PLAN
+  
+  1. Counseling and Education:
+  
+  - Provide reassurance and explain the multifactorial nature of low libido and erectile dysfunction.
+  - Discuss the potential contribution of medication, obesity, smoking, alcohol intake, relationship factors, and psychological stress.
+  - Encourage open communication with his partner and consider partner involvement where appropriate.
+  - Screen for clinically significant depression, anxiety, and relationship difficulties if indicated.
+  
+  2. Lifestyle Modification:
+  
+  - Encourage complete smoking cessation.
+  - Advise significant reduction in alcohol intake.
+  - Institute a structured weight-management programme with appropriate dietary calorie restriction and regular physical activity, such as brisk walking for at least 30 minutes on most days of the week.
+  - Encourage adequate sleep and stress-management strategies.
+  
+  3. Medication Review:
+  
+  - Review the indication for Propranolol and consider gradual withdrawal rather than abrupt discontinuation if clinically appropriate.
+  - If a beta-blocker is not specifically indicated, consider an alternative antihypertensive such as an ACE inhibitor or ARB based on the patient's overall cardiovascular and renal profile.
+  - Continue Amlodipine 5 mg daily pending blood pressure review.
+  - Advise cessation of unregulated herbal preparations because of uncertain composition and potential drug interactions.
+  
+  4. Pharmacotherapy (Pending Investigation Results):
+  
+  A. Testosterone Replacement Therapy:
+  
+  - Do not commence testosterone replacement solely on the basis of symptoms.
+  - Consider testosterone replacement only if there are compatible symptoms and consistently low early-morning testosterone levels confirmed on two separate occasions, after evaluation for the underlying cause.
+  - If treatment is indicated, select an appropriate testosterone preparation and regimen according to specialist guidance and local availability.
+  - Assess baseline PCV/FBC and prostate risk before treatment and monitor testosterone, PCV, symptoms, and prostate-related parameters during therapy.
+  - Testosterone therapy is not indicated in men with normal testosterone levels.
+  
+  B. Management of Erectile Dysfunction:
+  
+  - If erectile dysfunction persists after addressing reversible causes, a PDE5 inhibitor such as Sildenafil may be considered if there are no contraindications.
+  - Sildenafil: 50 mg approximately 1 hour before sexual activity; adjust according to response and tolerability.
+  - Tadalafil may be used as an alternative, either as needed or at an appropriate low daily dose.
+  - Strictly avoid PDE5 inhibitors with nitrates because of the risk of profound hypotension.
+  - Assess cardiovascular fitness and cardiovascular risk before prescribing treatment for erectile dysfunction.
+  
+  5. Follow-up:
+  
+  - Review in 4 weeks with investigation results.
+  - Reassess libido, erectile function, blood pressure, medication adherence, lifestyle changes, and psychosocial factors.
+  - Further endocrine/urology referral should be considered if testosterone is persistently low, prolactin is elevated, erectile dysfunction is refractory to initial management, or other concerning findings emerge.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-101',
+    title: 'Benign Paroxysmal Positional Vertigo',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Clinic',
+    condition: 'Benign Paroxysmal Positional Vertigo (BPPV)',
+    symptoms: [
+      'Recurrent vertigo',
+      'Positional dizziness',
+      'Nausea',
+      'Transient nystagmus',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '58-year-old hypertensive woman with a 6-month history of brief, recurrent, positionally triggered episodes of vertigo associated with nausea and a positive right Dix-Hallpike manoeuvre, consistent with right-sided benign paroxysmal positional vertigo, with suboptimally controlled hypertension.',
+    content: `GENERAL MEDICAL CLINIC
+  
+  Patient Identification
+  
+  A 58-year-old female civil servant who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is a known hypertensive.
+  
+  Presenting Complaint
+  
+  1. Recurrent dizziness x 6/12
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until about 6 months ago when she started experiencing recurrent episodes of dizziness. She describes the sensation as the room spinning around her (vertigo), which typically lasts for less than a minute per episode. These episodes are frequently triggered by sudden changes in head position, such as tilting the head upwards, bending down, or rolling over in bed.
+  
+  The episodes are sometimes associated with mild nausea but no vomiting. There is no associated history of tinnitus, hearing loss, or ear discharge. She denies any history of loss of consciousness, seizures, palpitations, or transient limb weakness. There is no history of preceding viral prodrome or head trauma.
+  
+  Symptoms have been progressively bothersome, affecting her activities of daily living, although she remains stable between episodes.
+  
+  Past Medical History
+  
+  She is a known hypertensive, diagnosed 5 years ago. She is currently on Tab Amlodipine 5 mg daily and Tab Lisinopril 5 mg daily. Her medication adherence has been inconsistent over the last 3 months due to work schedules. She is not a known diabetic or asthmatic. No history of previous surgeries or blood transfusions.
+  
+  Drug History
+  
+  1. Tab Amlodipine 5 mg daily.
+  2. Tab Lisinopril 5 mg daily.
+  3. Occasional use of Tab Paracetamol for tension-type headaches.
+  
+  No known drug allergies.
+  
+  Family and Social History
+  
+  She lives in a monogamous family setting with her husband and three children. She does not smoke or consume alcohol. Her diet is regular but occasionally high in salt. Family history is significant for hypertension in her late mother.
+  
+  Review of Systems
+  
+  CNS: No focal weakness, numbness, or vision changes.
+  
+  CVS: No chest pain, paroxysmal nocturnal dyspnoea, or orthopnoea.
+  
+  RS: No cough or shortness of breath.
+  
+  GIT: No abdominal pain or change in bowel habits.
+  
+  MSS: No joint pains or swellings.
+  
+  Physical Examination
+  
+  General Examination
+  
+  An elderly woman, comfortable at rest, not in any obvious respiratory or painful distress.
+  
+  Acutely ill-looking: No.
+  
+  Pallor: Absent.
+  
+  Jaundice: Absent.
+  
+  Cyanosis: Absent.
+  
+  Dehydration: Absent.
+  
+  Pedal oedema: Absent.
+  
+  Significant lymphadenopathy: None.
+  
+  Vital Signs
+  
+  Pulse Rate: 82 bpm, regular, normal volume, synchronous with other peripheral pulses.
+  
+  Blood Pressure: 156/96 mmHg (sitting, right arm).
+  
+  Respiratory Rate: 18 cpm.
+  
+  Temperature: 36.6°C.
+  
+  SpO2: 98% on room air.
+  
+  Systemic Examination
+  
+  Central Nervous System
+  
+  Conscious, alert, and oriented in time, place, and person. GCS 15/15.
+  
+  Cranial Nerves: Pupils 3 mm and briskly reactive to light. No facial asymmetry. No nystagmus at rest.
+  
+  Motor: Normal bulk and tone in all limbs. Power 5/5 globally. Reflexes are normal and symmetrical.
+  
+  Sensory: Intact to fine touch and pain.
+  
+  Cerebellar Signs: No dysmetria or dysdiadochokinesia. Romberg's test negative.
+  
+  Gait: Normal, with no broad-based gait.
+  
+  Special Test: Positive Dix-Hallpike manoeuvre, eliciting transient positional nystagmus and vertigo when the head is turned to the right.
+  
+  Cardiovascular System
+  
+  Apex beat at the 5th left intercostal space, mid-clavicular line.
+  
+  Heart sounds: S1 and S2 only, no murmurs.
+  
+  Abdomen
+  
+  Flat, moves with respiration.
+  
+  Soft and non-tender.
+  
+  No organomegaly.
+  
+  Bowel sounds present and normal.
+  
+  ASSESSMENT
+  
+  Right-sided Benign Paroxysmal Positional Vertigo (BPPV).
+  
+  Secondary Assessment: Suboptimally controlled Hypertension.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ménière's disease — less likely due to absence of hearing loss and tinnitus.
+  2. Vertebrobasilar insufficiency — consider given age and vascular risk factors.
+  3. Vestibular migraine.
+  4. Medication-related dizziness, including postural hypotension secondary to antihypertensive therapy.
+  
+  INVESTIGATIONS
+  
+  1. Full Blood Count (FBC): To assess for anaemia as a potential contributor to dizziness.
+  2. Fasting Blood Sugar (FBS): To screen for diabetes and hypoglycaemia.
+  3. Serum Electrolytes, Urea, and Creatinine (E/U/Cr): To assess renal function and baseline electrolytes, particularly before adjustment of ACE inhibitor therapy.
+  4. Fasting Lipid Profile: To assess cardiovascular risk.
+  5. Electrocardiogram (ECG): To screen for arrhythmias and hypertensive heart disease.
+  6. Urinalysis: To screen for proteinuria and glycosuria.
+  7. Orthostatic blood pressure measurements: To assess for postural hypotension if clinically indicated.
+  
+  PLAN
+  
+  Non-Pharmacological
+  
+  1. Patient Education:
+  
+  - Explain the benign and generally self-limiting nature of BPPV.
+  - Advise the patient to rise and change positions slowly during symptomatic periods and take precautions against falls.
+  
+  2. Canalith Repositioning:
+  
+  - Perform the Epley manoeuvre for the affected right posterior semicircular canal.
+  - Reassess symptoms and repeat the manoeuvre if required.
+  
+  3. Vestibular Rehabilitation:
+  
+  - Consider vestibular rehabilitation exercises, including appropriate home exercises, if symptoms persist or recur.
+  
+  4. Hypertension and Lifestyle Modification:
+  
+  - Advise salt restriction and other lifestyle measures for blood pressure control.
+  - Counsel on the importance of consistent daily adherence to antihypertensive medication.
+  
+  Pharmacological Management
+  
+  1. Vestibular Suppressants/Antiemetics:
+  
+  - Vestibular suppressants are not routinely required for BPPV because they do not correct the underlying cause and may impair vestibular compensation.
+  - If severe nausea or acute vertigo prevents repositioning or significantly limits function, consider a short course of an appropriate antiemetic/vestibular suppressant.
+  - Avoid prolonged use of vestibular suppressants.
+  
+  2. Betahistine:
+  
+  - Routine long-term use of Betahistine is not recommended for typical BPPV, particularly when symptoms are clearly positional and respond to canalith repositioning.
+  
+  Antihypertensive Management
+  
+  - Continue Tab Amlodipine 5 mg daily.
+  - Review home blood pressure readings and adherence before intensifying therapy.
+  - Consider increasing Tab Lisinopril to 10 mg daily after reviewing renal function and serum potassium.
+  - Stress the importance of daily medication compliance.
+  
+  Follow-up
+  
+  - Review in approximately 2 weeks to assess response to the Epley manoeuvre and blood pressure control.
+  - Monitor BP using a home BP diary.
+  - Refer to ENT or an appropriate specialist if vertigo persists despite appropriate repositioning, the diagnosis becomes uncertain, or hearing loss, tinnitus, neurological symptoms, or other atypical features develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-100',
+    title: 'Diabetic Ketoacidosis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Medical Emergency',
+    condition: 'Diabetic Ketoacidosis',
+    symptoms: [
+      'Altered level of consciousness',
+      'Persistent vomiting',
+      'Excessive thirst',
+      'Frequent urination',
+      'Weight loss',
+      'Abdominal pain',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '45-year-old male with poorly controlled Type 2 Diabetes Mellitus presenting with altered consciousness, vomiting, polyuria, polydipsia, significant dehydration, Kussmaul breathing, and fruity breath, consistent with a hyperglycemic emergency, likely diabetic ketoacidosis, precipitated by poor medication compliance.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Identification
+  
+  A 45-year-old male civil servant who resides in Dutse, Jigawa State. He is Hausa by tribe.
+  
+  Presenting Complaints
+  
+  1. Altered level of consciousness x 6h
+  2. Persistent vomiting x 1/7
+  3. Excessive thirst and frequent urination x 2/52
+  
+  History of Presenting Complaint
+  
+  The patient was relatively well until 2 weeks prior to presentation when he started experiencing progressively worsening thirst and frequent urination, including waking up several times at night to void. He also noted significant weight loss despite a normal appetite.
+  
+  About 1/7 prior to presentation, he developed generalized abdominal pain and recurrent vomiting of recently ingested meals. There was no associated diarrhea or yellowish discoloration of the eyes.
+  
+  Six hours prior to presentation, the wife noticed he became increasingly drowsy, was talking out of point, and eventually became difficult to rouse, necessitating presentation at the Emergency Department.
+  
+  There is no history of head injury, convulsions, or ear discharge. No history of cough or chest pain.
+  
+  Past Medical History
+  
+  Patient was diagnosed with Type 2 Diabetes Mellitus 5 years ago. He has been on Metformin 500 mg bd and Glibenclamide 5 mg daily but has been poorly compliant with medications and clinic appointments for the past 4 months. He is also a known hypertensive on Amlodipine 10 mg daily. No previous history of similar hospitalization.
+  
+  Drug History
+  
+  Non-compliant with oral hypoglycemics and antihypertensives. No history of herbal concoction use.
+  
+  Family and Social History
+  
+  He is married in a monogamous setting with four children. He does not smoke or drink alcohol. No family history of sickle cell disease.
+  
+  Review of Systems
+  
+  CNS: As per HPC. No focal weakness.
+  
+  RS: No cough, no pleuritic chest pain.
+  
+  CVS: No palpitations or orthopnea.
+  
+  GIT: As per HPC. No hematemesis.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking middle-aged man, unconscious.
+  
+  Deep, sighing respirations (Kussmaul breathing) with a fruity odor of the breath.
+  
+  Significant dehydration with dry mucous membranes, sunken eyes, and slowly retracting skin pinch.
+  
+  No significant pallor, no jaundice, no peripheral edema.
+  
+  No peripheral lymphadenopathy.
+  
+  Vital Signs
+  
+  Pulse Rate: 124 bpm, small volume, regular.
+  
+  Blood Pressure: 90/60 mmHg (supine).
+  
+  Respiratory Rate: 32 cpm.
+  
+  Temperature: 37.2°C.
+  
+  SpO2: 96% on room air.
+  
+  Systemic Examination
+  
+  Central Nervous System:
+  
+  Level of consciousness: GCS 9/15 (E2, V3, M4).
+  
+  Pupils: 3 mm, bilaterally symmetrical and reactive to light.
+  
+  Neck stiffness: Absent.
+  
+  Kernig's sign: Negative.
+  
+  Motor: Normal muscle bulk, generalized hypotonia, sluggish deep tendon reflexes. Plantars are downgoing bilaterally.
+  
+  Abdomen:
+  
+  Full, moves with respiration.
+  
+  Generalized tenderness on palpation, with no rebound tenderness or guarding.
+  
+  Liver and spleen: Not palpable.
+  
+  Bowel sounds: Hypoactive.
+  
+  Cardiovascular System:
+  
+  Apex beat: 5th left intercostal space, mid-clavicular line.
+  
+  Heart sounds: S1 and S2 only.
+  
+  ASSESSMENT
+  
+  Hyperglycemic emergency, likely Diabetic Ketoacidosis, precipitated by poor medication compliance.
+  
+  Background Type 2 Diabetes Mellitus and Hypertension.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Hyperglycemic Hyperosmolar State (HHS)
+  2. Septicemia with metabolic acidosis
+  3. Uremic encephalopathy secondary to diabetic nephropathy
+  4. Cerebral malaria
+  
+  INVESTIGATIONS
+  
+  1. Random Blood Glucose (RBG): Immediate bedside check.
+  2. Urinalysis: To check for glucose and ketones.
+  3. Serum Electrolytes, Urea, and Creatinine (E/U/Cr): To assess for electrolyte imbalance and renal function.
+  4. Full Blood Count (FBC): To check for leukocytosis and possible infection.
+  5. Malaria Parasite (MPS): To rule out malaria.
+  6. Arterial Blood Gas (ABG): To confirm acidosis and assess bicarbonate level, if available.
+  7. Electrocardiogram (ECG): To assess for hyperkalemia and other electrolyte-related changes.
+  8. Chest X-ray: To rule out pneumonia as a possible precipitant.
+  
+  PLAN
+  
+  1. Emergency Stabilization:
+  
+  - Airway: Ensure patency and place in the recovery position to reduce aspiration risk.
+  - Breathing: Administer supplemental oxygen via nasal cannulae at 4–6 L/min, particularly given the altered level of consciousness.
+  - Circulation: Secure two large-bore IV cannulae.
+  
+  2. Fluid Resuscitation:
+  
+  - Initial bolus of 1 L of 0.9% Normal Saline over 1 hour.
+  - Follow with 1 L over 2 hours, then 1 L over 4 hours, adjusting according to haemodynamic status and electrolyte results.
+  - Monitor urine output with Foley catheterization, targeting at least 0.5 mL/kg/hr.
+  - Add dextrose-containing fluid when blood glucose falls to approximately 250 mg/dL (13.9 mmol/L) while continuing insulin, rather than stopping insulin solely because the glucose has fallen.
+  
+  3. Insulin Therapy:
+  
+  - Start IV soluble insulin (Regular/Actrapid insulin) infusion at 0.1 units/kg/hour after initial fluid resuscitation and confirmation that serum potassium is safe for insulin therapy.
+  - If IV infusion pump is unavailable, use an appropriate locally approved alternative rather than routine intermittent IM insulin.
+  - Aim for a steady decline in RBG of approximately 50–70 mg/dL per hour.
+  
+  4. Potassium Replacement:
+  
+  - Do not give potassium if the patient is anuric or has significant hyperkalemia.
+  - If serum potassium is within the replacement range, add appropriate potassium chloride to the IV fluid according to serial serum potassium measurements and local protocol.
+  - If potassium is <3.5 mmol/L, hold insulin and give potassium replacement until potassium is >3.5 mmol/L, with close monitoring.
+  
+  5. Monitoring:
+  
+  - Hourly bedside RBG.
+  - Vital signs (BP, PR, RR) every 30–60 minutes initially.
+  - Strict input/output charting.
+  - Repeat serum electrolytes every 4–6 hours, or more frequently if clinically indicated.
+  - Serial assessment of level of consciousness, hydration status, respiratory pattern, and resolution of ketoacidosis.
+  
+  6. Address Precipitants:
+  
+  - Start empirical IV Ceftriaxone 1 g 12-hourly pending investigation results if infection is suspected.
+  - Investigate and treat other potential precipitants based on clinical findings and investigation results.
+  
+  7. Patient Education:
+  
+  - Once stable and conscious, counsel on the importance of medication adherence and regular clinic follow-up.
+  - Address barriers to medication access and reinforce sick-day diabetes management and early presentation when symptoms of hyperglycemia occur.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-99',
+    title: 'Diabetic Ketoacidosis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Medical Emergency',
+    condition: 'Diabetic Ketoacidosis',
+    symptoms: [
+      'Vomiting',
+      'Abdominal pain',
+      'Drowsiness',
+      'Polyuria',
+      'Polydipsia',
+      'Generalized weakness',
+      'Weight loss',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '24-year-old known Type 1 diabetic with poor insulin adherence presenting with vomiting, abdominal pain, drowsiness, dehydration, Kussmaul breathing, and ketotic breath, consistent with diabetic ketoacidosis precipitated by insulin non-compliance.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Identification
+  
+  A 24-year-old female student who resides in Ogbomosho, Oyo State, of Yoruba ethnicity, known Type 1 diabetic.
+  
+  Presenting Complaints
+  
+  1. Vomiting × 1/7
+  2. Abdominal pain × 1/7
+  3. Drowsiness × 6 hours
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until about 1 week prior to presentation when she started experiencing increased thirst (polydipsia) and frequent urination (polyuria), particularly at night.
+  
+  She also noted progressive generalized weakness and subjective weight loss despite increased appetite.
+  
+  Her symptoms acutely worsened 1 week prior to presentation with the onset of persistent, non-bilious vomiting of recently ingested meals. This was associated with generalized, dull, aching abdominal pain. There was no associated diarrhoea or history of ingestion of contaminated food.
+  
+  Six hours prior to presentation, her roommates noticed that she became increasingly drowsy and difficult to rouse.
+  
+  There is no history of fever, cough, neck stiffness, or convulsions.
+  
+  She has been non-compliant with her insulin for the past 2 weeks due to financial constraints.
+  
+  Past Medical History
+  
+  Known Type 1 Diabetes Mellitus diagnosed 3 years ago.
+  
+  Previous admission for a similar episode 1 year ago.
+  
+  No known history of hypertension, asthma, or sickle cell disease.
+  
+  No history of previous blood transfusions or surgeries.
+  
+  Drug History
+  
+  Currently on subcutaneous Soluble Insulin (Actrapid) and Isophane Insulin (Insulatard).
+  
+  Last dose taken 14 days ago.
+  
+  No history of herbal concoction use.
+  
+  No known drug allergies.
+  
+  Social History
+  
+  She is a final-year university student and is single, living in a hostel.
+  
+  She does not smoke cigarettes or consume alcohol.
+  
+  Her parents are civil servants who support her medical bills.
+  
+  Review of Systems
+  
+  CNS:
+  As above. No headache.
+  
+  Respiratory:
+  No cough or chest pain.
+  
+  CVS:
+  No palpitations or orthopnoea.
+  
+  GIT:
+  As above. No haematemesis or melaena.
+  
+  GUS:
+  Polyuria as above. No dysuria.
+  
+  O/E
+  
+  General Examination:
+  Acutely ill-looking young lady, drowsy and in respiratory distress.
+  
+  Moderately dehydrated, with dry mucous membranes and reduced skin turgor.
+  
+  Afebrile, temperature 36.7°C.
+  
+  Not pale, anicteric, not cyanosed. No significant peripheral lymphadenopathy or pedal oedema.
+  
+  Fruity (ketotic) breath odour noted.
+  
+  Vital Signs:
+  PR: 124 bpm, regular, low volume
+  BP: 90/60 mmHg, supine
+  RR: 34 cpm, deep and sighing (Kussmaul breathing)
+  SpO₂: 97% on room air
+  
+  CNS:
+  GCS 12/15 (E3, V4, M5).
+  Pupils 3 mm bilaterally and briskly reactive to light.
+  No neck stiffness. Kernig's sign negative.
+  Tone and reflexes globally diminished.
+  
+  Abdomen:
+  Slightly distended and moves with respiration.
+  Generalized tenderness, maximal at the epigastrium.
+  No rebound tenderness or guarding.
+  Liver and spleen not palpable.
+  Bowel sounds present but sluggish.
+  
+  Respiratory System:
+  Trachea central.
+  Percussion note resonant bilaterally.
+  Vesicular breath sounds heard.
+  No added sounds.
+  
+  Cardiovascular System:
+  Apex beat at the 5th left intercostal space, mid-clavicular line.
+  S1 and S2 heard.
+  No murmurs.
+  
+  ASSESSMENT
+  
+  Diabetic Ketoacidosis (DKA), precipitated by insulin non-compliance in a known Type 1 Diabetes Mellitus patient.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Hyperglycaemic Hyperosmolar State (HHS) – less likely given the clinical picture and presence of ketotic breath.
+  
+  2. Acute abdomen secondary to acute pancreatitis or peptic ulcer disease.
+  
+  3. Sepsis secondary to urinary tract infection or another infection as a precipitant for DKA.
+  
+  4. Uraemic encephalopathy.
+  
+  INVESTIGATIONS
+  
+  1. Random Blood Sugar (RBS) – immediate bedside test to assess the degree of hyperglycaemia.
+  
+  2. Urinalysis – to assess for glucosuria and ketonuria.
+  
+  3. Serum Electrolytes, Urea and Creatinine (EUCr) – to assess potassium and other electrolyte abnormalities and renal function.
+  
+  4. Full Blood Count (FBC) – to assess for possible infection and other haematological abnormalities.
+  
+  5. Arterial Blood Gas (ABG) or Venous Blood Gas (VBG) – to assess pH, bicarbonate and the severity of metabolic acidosis.
+  
+  6. ECG – to assess for hyperkalaemic or hypokalaemic changes.
+  
+  7. Serum or capillary blood ketones – where available, to quantify ketonaemia.
+  
+  8. Serum amylase/lipase – if acute pancreatitis is suspected.
+  
+  9. Blood and urine cultures – if there are clinical features suggestive of infection.
+  
+  PLAN
+  
+  1. ADMISSION AND MONITORING
+  
+  - Admit to the Emergency Room or ICU depending on severity and available resources.
+  - Strict input-output monitoring; insert a Foley catheter if clinically indicated.
+  - Monitor RBS hourly initially.
+  - Monitor vital signs and level of consciousness closely.
+  - Repeat serum electrolytes and renal function at regular intervals, initially approximately every 2–4 hours depending on severity and clinical response.
+  - Monitor serum potassium closely during insulin therapy.
+  
+  2. FLUID RESUSCITATION
+  
+  - Start IV 0.9% Normal Saline, 1 litre over the first 30–60 minutes, with adjustment according to haemodynamic response and comorbidities.
+  - Give the second litre over the next 2 hours.
+  - Give subsequent IV fluids according to hydration status, serum sodium, urine output and clinical response.
+  - Once plasma glucose falls to approximately 14 mmol/L (250 mg/dL), add IV 5–10% dextrose while continuing insulin to allow continued clearance of ketones without causing hypoglycaemia.
+  - Avoid overly rapid correction of hyperglycaemia and serum osmolality.
+  
+  3. INSULIN THERAPY
+  
+  - Start IV Soluble Insulin (Actrapid) infusion at 0.1 units/kg/hour once initial fluid resuscitation has commenced and potassium is at a safe level.
+  - If an infusion pump is unavailable, use an appropriate locally approved alternative insulin administration protocol rather than relying on intermittent IM dosing.
+  - Aim for a gradual reduction in plasma glucose, while continuing insulin until ketoacidosis has resolved.
+  - Do not discontinue insulin solely because the blood glucose has normalized; continue with dextrose-containing fluids as required until ketoacidosis resolves.
+  
+  4. POTASSIUM REPLACEMENT (VERY IMPORTANT)
+  
+  - If serum K⁺ is <3.3 mmol/L: Hold insulin and commence potassium replacement until K⁺ is above 3.3 mmol/L.
+  - If serum K⁺ is 3.3–5.3 mmol/L: Add approximately 20–30 mmol KCl to each litre of IV fluid, with adjustment according to serial potassium measurements and local protocol.
+  - If serum K⁺ is >5.3 mmol/L: Do not give potassium initially, but monitor serum potassium closely.
+  - Monitor ECG and serum potassium during treatment.
+  
+  5. ADDRESS PRECIPITANT
+  
+  - Identify and treat potential precipitating factors including infection, myocardial infarction, pancreatitis, medication non-compliance, and other acute illnesses.
+  - If infection is clinically suspected, obtain appropriate cultures and commence empirical IV antibiotics, such as Ceftriaxone 1 g 12-hourly, according to the suspected source and local antimicrobial guidelines.
+  
+  6. Bicarbonate Therapy
+  
+  - Not routinely recommended.
+  - Consider bicarbonate therapy only in severe metabolic acidosis, particularly if arterial or venous pH is <6.9, with close monitoring and specialist input.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  
+  {
+    id: 'im-98',
+    title: 'Hyperglycaemic Hyperosmolar State',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Medical Emergency',
+    condition: 'Hyperglycaemic Hyperosmolar State',
+    symptoms: [
+      'Altered level of consciousness',
+      'Polyuria',
+      'Polydipsia',
+      'Generalized weakness',
+      'Loss of appetite',
+      'Severe dehydration',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '65-year-old known type 2 diabetic with poor medication adherence presenting with polyuria, polydipsia, progressive generalized weakness, severe dehydration, hypotension, and altered level of consciousness, consistent with hyperglycaemic hyperosmolar state.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Identification
+  
+  A 65-year-old male retired civil servant who resides in Ibadan, Oyo State, of Yoruba ethnicity.
+  
+  Presenting Complaints
+  
+  1. Altered level of consciousness × 2/7
+  2. Excessive thirst and frequent urination × 1/52
+  3. Progressive generalized weakness × 1/52
+  
+  History of Presenting Complaint
+  
+  The patient was relatively stable until 1 week prior to presentation when he developed marked polyuria, passing large volumes of urine frequently throughout the day and night. This was associated with polydipsia and a significant increase in water intake.
+  
+  He also complained of progressive generalized body weakness and loss of appetite.
+  
+  Two days prior to presentation, he was noted to be talking inappropriately and appeared confused. This progressed to a state of drowsiness on the morning of presentation.
+  
+  There is no history of fever, cough, or chest pain. No history of abdominal pain, vomiting, or diarrhoea. No history of seizures or focal limb weakness.
+  
+  He is a known patient with Type 2 Diabetes Mellitus diagnosed 6 years ago. He has been non-compliant with his oral hypoglycaemic agents, Glibenclamide and Metformin, for the past 2 months due to financial constraints.
+  
+  Past Medical History
+  
+  Known Type 2 Diabetes Mellitus × 6 years.
+  
+  Known hypertensive × 4 years, currently on Lisinopril 10 mg daily.
+  
+  No previous history of DKA or HHS.
+  
+  No history of recent surgery or trauma.
+  
+  Drug History
+  
+  Glibenclamide 5 mg daily – non-compliant.
+  Metformin 500 mg bd – non-compliant.
+  Lisinopril 10 mg daily.
+  
+  No known drug allergies.
+  
+  Family and Social History
+  
+  Married in a monogamous setting with four children.
+  
+  Retired civil servant.
+  
+  Non-smoker and does not consume alcohol.
+  
+  Review of Systems
+  
+  CNS:
+  As above. No history of headaches.
+  
+  CVS:
+  No orthopnoea or paroxysmal nocturnal dyspnoea.
+  
+  Respiratory:
+  No cough or shortness of breath.
+  
+  GIT:
+  No abdominal distension or constipation.
+  
+  Renal:
+  No dysuria or haematuria.
+  
+  O/E
+  
+  General Examination:
+  Acutely ill-looking man in a state of altered consciousness.
+  
+  Profoundly dehydrated, with dry tongue and oral mucosa, sunken eyeballs, and reduced skin turgor with slow pinch return.
+  
+  Not pale, anicteric, not cyanosed. No peripheral oedema. No significant peripheral lymphadenopathy.
+  
+  Vital Signs:
+  PR: 124 bpm, feeble, regular
+  BP: 90/50 mmHg, supine
+  RR: 22 cpm, regular
+  Temperature: 36.8°C
+  SpO₂: 95% on room air
+  
+  Systemic Examination
+  
+  Central Nervous System:
+  GCS 11/15 (E3, V3, M5).
+  Pupils 3 mm bilaterally and reactive to light.
+  No neck stiffness or Kernig's sign.
+  Muscle tone and reflexes globally diminished.
+  Plantar responses flexor bilaterally.
+  
+  Cardiovascular System:
+  Pulse as above.
+  Apex beat at the 5th left intercostal space, mid-clavicular line.
+  S1 and S2 heard.
+  No murmurs.
+  
+  Respiratory System:
+  Trachea central.
+  Chest moves symmetrically with respiration.
+  Breath sounds vesicular.
+  No added sounds.
+  
+  Abdomen:
+  Flat, moves with respiration.
+  Soft and non-tender.
+  Liver and spleen not palpable.
+  Bowel sounds present and normal.
+  
+  ASSESSMENT
+  
+  Hyperglycaemic Hyperosmolar State (HHS), probably precipitated by medication non-compliance in a known Type 2 Diabetes Mellitus patient.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Diabetic Ketoacidosis (DKA)
+  2. Uraemic encephalopathy
+  3. Sepsis with multi-organ dysfunction
+  4. Ischaemic stroke
+  
+  INVESTIGATIONS
+  
+  1. Random Blood Sugar (RBS) – to confirm marked hyperglycaemia.
+  2. Urinalysis – to assess for glucosuria, ketonuria, and other abnormalities.
+  3. Serum Electrolytes, Urea and Creatinine (EUCr) – to assess hydration status, renal function, electrolyte abnormalities, and calculate effective serum osmolality.
+  4. Full Blood Count (FBC) – to assess for anaemia and possible infection as a precipitant.
+  5. Serum or capillary ketones – if available, to assess for significant ketonaemia and differentiate HHS from DKA.
+  6. Chest X-ray and ECG – to identify possible pneumonia, myocardial ischaemia, or other precipitating factors.
+  7. Blood and urine cultures – if there are clinical features suggestive of infection.
+  8. Venous or arterial blood gas – to assess pH, bicarbonate, and acid-base status.
+  9. Serum osmolality – where available, to assess the degree of hyperosmolality.
+  10. HbA1c – to assess longer-term glycaemic control once the patient is stabilized.
+  
+  PLAN
+  
+  The primary goals are fluid resuscitation, correction of hyperglycaemia and hyperosmolality, correction of electrolyte abnormalities, prevention of complications, and identification and treatment of the precipitating factor.
+  
+  1. Fluid Resuscitation (Priority):
+  
+  Start IV 0.9% Normal Saline.
+  - Give 1 litre over the 1st hour, with adjustment according to haemodynamic response and comorbidities.
+  - Give subsequent IV fluids according to hydration status, serum sodium, urine output, cardiac/renal status, and ongoing losses.
+  - Aim to gradually replace the estimated fluid deficit over approximately 24–48 hours.
+  - Consider switching to 0.45% saline if osmolality is not falling appropriately despite adequate fluid replacement and there is no significant hypovolaemia.
+  
+  2. Potassium Replacement:
+  
+  Despite a normal or elevated serum potassium level, there is usually a total body potassium deficit.
+  - If K⁺ is 3.5–5.5 mmol/L, add appropriate potassium replacement to the IV fluids according to the serum potassium level and local protocol.
+  - If K⁺ is less than 3.5 mmol/L, delay insulin and replace potassium until the serum potassium is above 3.5 mmol/L.
+  - If K⁺ is more than 5.5 mmol/L, withhold potassium replacement and monitor serum potassium closely.
+  
+  3. Insulin Therapy:
+  
+  Do not start insulin immediately in HHS unless there is significant ketonaemia or inadequate reduction in blood glucose with adequate fluid replacement.
+  - If RBS remains high after initial fluid replacement, or is falling by less than approximately 3 mmol/L/hour, commence low-dose IV soluble insulin (e.g., Actrapid) at 0.05 units/kg/hour.
+  - Target a gradual decline in blood glucose and avoid rapid changes in serum osmolality.
+  - Once RBS reaches approximately 14–15 mmol/L, add IV 5–10% dextrose while continuing insulin as required to allow continued correction of hyperglycaemia and hyperosmolality.
+  
+  4. Anticoagulation:
+  
+  HHS is associated with an increased risk of thrombosis.
+  - Give SC Enoxaparin 40 mg daily or SC Unfractionated Heparin 5,000 units 12-hourly for thromboprophylaxis, provided there are no contraindications.
+  
+  5. Monitoring:
+  
+  - Monitor RBS hourly initially and adjust insulin therapy according to response.
+  - Monitor GCS and neurological status regularly.
+  - Monitor vital signs frequently, including PR, BP, RR, SpO₂, and temperature.
+  - Maintain a strict input-output chart.
+  - Insert a urinary catheter if clinically indicated for accurate urine output monitoring.
+  - Repeat serum electrolytes, urea, creatinine, and osmolality at regular intervals, initially every 2–4 hours depending on severity and clinical response.
+  - Monitor serum potassium closely during insulin therapy.
+  
+  6. Address Precipitant:
+  
+  - Search actively for precipitating factors including infection, myocardial infarction, stroke, medication non-compliance, and other acute illnesses.
+  - If there are clinical features suggestive of infection, obtain appropriate cultures and commence empirical IV antibiotics according to the suspected source and local antimicrobial guidelines.
+  
+  7. Long-term Care:
+  
+  - Review and optimize the patient's long-term diabetic and antihypertensive therapy after stabilization.
+  - Educate the patient and family on the importance of medication adherence.
+  - Address financial and other barriers to medication access.
+  - Educate on recognition of early symptoms of hyperglycaemia and dehydration.
+  - Arrange appropriate follow-up for diabetes and hypertension management.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-97',
+    title: 'Hypertensive Emergency',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Medical Emergency',
+    condition: 'Hypertensive Emergency',
+    symptoms: [
+      'Severe headache',
+      'Blurred vision',
+      'Chest pain',
+      'Nausea and vomiting',
+      'Severe hypertension',
+      'Pedal oedema',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '55-year-old known hypertensive with poor medication adherence presenting with severe headache, acute bilateral blurred vision, chest pain, vomiting, BP of 230/140 mmHg, grade IV hypertensive retinopathy, and clinical features of acute pulmonary congestion.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Identification
+  
+  A 55-year-old male civil servant who resides in Dutse, Jigawa State, of Hausa ethnicity, known hypertensive.
+  
+  Presenting Complaints
+  
+  1. Severe headache × 2/7
+  
+  2. Blurred vision × 6 hours
+  
+  3. Chest pain × 4 hours
+  
+  4. Nausea and vomiting × 2 episodes
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 2 days prior to presentation when he developed a global, throbbing headache, which was severe and poorly relieved by over-the-counter analgesics.
+  
+  Six hours prior to presentation, he noticed sudden-onset blurred vision involving both eyes.
+  
+  This was followed 4 hours prior to presentation by retrosternal chest pain described as a heavy weight. The pain was non-radiating, with no associated diaphoresis or palpitations.
+  
+  There were two episodes of non-projectile, non-bilious vomiting containing recently ingested meals.
+  
+  There is no history of limb weakness, facial asymmetry, or loss of consciousness. No history of oliguria or frothy urine.
+  
+  Past Medical History
+  
+  He is a known hypertensive, diagnosed 10 years ago at a General Hospital.
+  
+  He has no known history of diabetes mellitus, asthma, or sickle cell disease. No previous history of stroke or myocardial infarction.
+  
+  No previous surgeries or blood transfusions.
+  
+  Drug History
+  
+  He was previously prescribed Tab Amlodipine 10 mg daily and Tab Lisinopril 10 mg daily. However, he has been poorly compliant with his medications for the past 3 months due to financial constraints and the absence of symptoms.
+  
+  He occasionally uses Ibuprofen for knee pains.
+  
+  No known drug allergies.
+  
+  Family and Social History
+  
+  He is married in a monogamous family with four children.
+  
+  He does not smoke cigarettes or consume alcohol.
+  
+  There is a family history of hypertension in his late father.
+  
+  Review of Systems
+  
+  CNS:
+  As above. No seizures or tremors.
+  
+  CVS:
+  As above. No paroxysmal nocturnal dyspnoea or orthopnoea.
+  
+  Respiratory:
+  No cough or haemoptysis.
+  
+  GIT:
+  As above. No abdominal pain or change in bowel habits.
+  
+  Renal:
+  No polyuria or dysuria.
+  
+  O/E
+  
+  General Examination:
+  Middle-aged man, acutely ill-looking, in respiratory distress, conscious but agitated. Not pale, anicteric, not dehydrated. No digital clubbing or significant peripheral lymphadenopathy. Grade 2 bilateral pitting pedal oedema.
+  
+  Vital Signs:
+  
+  PR: 104 bpm, tachycardic, full volume, regular
+  BP: 230/140 mmHg, sitting, right arm
+  RR: 28 cpm
+  Temperature: 36.8°C
+  SpO₂: 95% on room air
+  
+  Systemic Examination
+  
+  Cardiovascular System:
+  Pulse as above.
+  Apex beat displaced to the 6th left intercostal space at the anterior axillary line and heaving in character.
+  S1 and S2 heard with an added S4.
+  No murmurs.
+  
+  Central Nervous System:
+  GCS 14/15 (E4, V4, M6).
+  Pupils equal and reactive to light.
+  Fundoscopy reveals flame-shaped retinal haemorrhages and papilloedema, consistent with Grade IV hypertensive retinopathy.
+  No focal neurological deficits.
+  No signs of meningeal irritation.
+  
+  Respiratory System:
+  Trachea central.
+  Bilateral fine basal crepitations.
+  
+  Abdomen:
+  Full, moves with respiration.
+  Soft and non-tender.
+  Liver and spleen not enlarged.
+  Bowel sounds present and normal.
+  
+  ASS:
+  Hypertensive emergency with suspected hypertensive encephalopathy, acute coronary syndrome, and early congestive cardiac failure.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Acute ischaemic or haemorrhagic stroke
+  
+  2. Uraemic encephalopathy
+  
+  3. Phaeochromocytoma crisis
+  
+  INVESTIGATIONS
+  
+  1. Urinalysis – to assess for proteinuria and haematuria.
+  
+  2. Electrolytes, Urea and Creatinine (EUCr) – to assess renal function and electrolyte abnormalities.
+  
+  3. Full Blood Count (FBC) – to assess for anaemia and infection.
+  
+  4. Electrocardiogram (ECG) – to assess for LVH with strain pattern, ST-segment changes, or T-wave inversion.
+  
+  5. Cardiac biomarkers (Troponin I/T) – to assess for myocardial injury/infarction.
+  
+  6. Fundoscopy – to assess the degree of hypertensive retinopathy.
+  
+  7. Chest X-ray (CXR) – to assess for cardiomegaly and pulmonary congestion.
+  
+  8. Plain CT Brain – to exclude intracranial haemorrhage, particularly if neurological status worsens or there is increased suspicion of acute stroke.
+  
+  PLAN
+  
+  General Measures:
+  
+  1. Admit to the Intensive Care Unit (ICU) or High Dependency Unit (HDU) for close monitoring.
+  
+  2. Bed rest in a semi-Fowler's position.
+  
+  3. Maintain NPO (nothing by mouth) for the first few hours.
+  
+  4. Insert a Foley catheter for hourly urine output monitoring.
+  
+  5. Continuous cardiac and BP monitoring.
+  
+  Pharmacological Management:
+  
+  The goal is to reduce the Mean Arterial Pressure (MAP) by no more than 20–25% within the first hour, then gradually towards approximately 160/100 mmHg over the next 2–6 hours, depending on the specific hypertensive emergency and clinical response.
+  
+  Option 1: IV Labetalol (Preferred first-line)
+  
+  - Give 20 mg IV bolus over 2 minutes.
+  
+  - Repeat 40–80 mg at 10-minute intervals until the target BP is reached or a total dose of 300 mg is given.
+  
+  - Alternatively, start an infusion at 0.5–2 mg/min.
+  
+  - Contraindicated in patients with asthma, bradycardia, heart block, or decompensated heart failure.
+  
+  Option 2: IV Nitroglycerin (Glyceryl Trinitrate - GTN)
+  
+  - Indicated due to the patient's chest pain and pulmonary congestion.
+  
+  - Start infusion at 5–10 micrograms/min.
+  
+  - Titrate upwards every 5 minutes based on BP response and relief of chest pain.
+  
+  Option 3: IV Hydralazine
+  
+  - Often available in Nigerian centres.
+  
+  - Give 5–10 mg IV bolus slowly.
+  
+  - Repeat every 20–30 minutes if necessary.
+  
+  - Note: Can cause reflex tachycardia and may worsen myocardial ischaemia.
+  
+  Option 4: IV Nicardipine
+  
+  - If available, start at 5 mg/h infusion.
+  
+  - Increase by 2.5 mg/h every 5–15 minutes to a maximum of 15 mg/h.
+  
+  Additional Medications:
+  
+  1. Low-dose IV Furosemide 20–40 mg to address pulmonary congestion and pedal oedema.
+  
+  2. Analgesia: Intravenous morphine or nitrates for chest pain, as clinically indicated.
+  
+  3. Oxygen therapy: Via nasal cannulae at 3–5 L/min if hypoxaemic or clinically indicated.
+  
+  Follow-up:
+  
+  Once the patient is stable and BP is controlled for 12–24 hours, transition to appropriate oral antihypertensive agents such as calcium-channel blockers, ACE inhibitors/ARBs, or thiazide-type diuretics.
+  
+  Address the cause of medication non-compliance through counselling, including discussion of financial barriers and the importance of continued antihypertensive therapy even in the absence of symptoms.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-96',
+    title: 'Severe Uncontrolled Hypertension',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Medical Clinic',
+    condition: 'Severe Asymptomatic Hypertension',
+    symptoms: [
+      'Headache',
+      'Palpitations',
+      'Dizziness and lightheadedness',
+      'Poor antihypertensive medication adherence',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 52-year-old known hypertensive with poor medication adherence, presenting with headache, palpitations and dizziness, with a blood pressure of 210/120 mmHg and no clinical evidence of acute target-organ damage, consistent with severe uncontrolled hypertension.',
+    content: `MEDICAL CLINIC
+  
+  Patient Seen
+  A 52-year-old male civil servant, Yoruba, residing in Surulere, Lagos State.
+  
+  PC:
+  Headache × 2/7
+  Palpitations × 1/7
+  Dizziness × 1/7
+  
+  HPC:
+  The patient was apparently well until 2 days prior to presentation when he developed a global, throbbing headache. The headache was moderately severe, worse in the mornings, and only partially relieved by over-the-counter analgesics.
+  
+  There was no associated nausea, vomiting, or blurring of vision.
+  
+  One day prior to presentation, he developed palpitations, described as a fast heartbeat occurring even at rest. This was associated with lightheadedness and dizziness, particularly when moving from a sitting to a standing position.
+  
+  There is no history of chest pain, shortness of breath, orthopnoea, or paroxysmal nocturnal dyspnoea.
+  
+  He denies any history of limb weakness, facial deviation, or speech difficulties.
+  
+  PMH:
+  Known hypertensive × 5 years.
+  Poor adherence to antihypertensive medications, as he reports taking them only when symptomatic.
+  Not a known diabetic.
+  No history of bronchial asthma or sickle cell disease.
+  No previous hospitalisations or surgeries.
+  
+  DH:
+  Prescribed amlodipine 10 mg daily and lisinopril 10 mg daily.
+  Has been off his antihypertensive medications for the past 3 weeks.
+  No known drug allergies.
+  
+  Family and Social History:
+  First of four children.
+  Married with three children.
+  Father died from stroke at 60 years.
+  Does not smoke cigarettes.
+  Takes alcohol socially.
+  
+  ROS:
+  CNS: No seizures or loss of consciousness.
+  
+  RS: No cough or haemoptysis.
+  
+  GIT: No abdominal pain or change in bowel habits.
+  
+  MSS: No joint swellings or bone pain.
+  
+  UG: No polyuria or nocturia.
+  
+  O/E:
+  Anxious-looking middle-aged man, not in respiratory or painful distress.
+  Acutely ill-looking but clinically stable.
+  No peripheral oedema, jaundice, pallor, or cyanosis.
+  No significant peripheral lymphadenopathy.
+  
+  PR 96 bpm, regular, full volume, synchronous with other peripheral pulses
+  BP 210/120 mmHg, sitting, right arm
+  RR 18 cpm
+  Temp 36.7°C
+  SpO₂ 98% on room air
+  
+  CVS:
+  Apex beat at the 5th left intercostal space in the anterior axillary line and displaced laterally.
+  No heaves or thrills.
+  S1 and S2 heard.
+  No murmurs or S3.
+  
+  RS:
+  Trachea central.
+  Chest symmetrical and moves with respiration.
+  Percussion note resonant bilaterally.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  ABD:
+  Soft and non-tender.
+  No palpable hepatosplenomegaly or renal enlargement.
+  Bowel sounds present and normal.
+  
+  CNS:
+  Conscious and alert.
+  GCS 15/15.
+  No focal neurological deficits.
+  Pupils 3 mm bilaterally and reactive to light.
+  
+  Fundoscopy:
+  Grade 1 hypertensive retinopathy changes with silver wiring.
+  No papilloedema.
+  
+  ASS:
+  Severe uncontrolled hypertension in a known hypertensive patient with poor medication adherence, without clinical evidence of acute target-organ damage.
+  
+  DIFFERENTIALS:
+  Hypertensive emergency
+  Secondary hypertension, including renovascular hypertension and pheochromocytoma
+  Anxiety-related elevation of blood pressure
+  
+  INVESTIGATIONS:
+  Full Blood Count and PCV: To assess for anaemia or polycythaemia.
+  
+  Urinalysis: To assess for proteinuria or haematuria.
+  
+  Serum electrolytes, urea and creatinine: To assess renal function and establish baseline renal status.
+  
+  Fasting blood glucose: To screen for diabetes mellitus.
+  
+  Electrocardiogram: To assess for left ventricular hypertrophy and ischaemic changes.
+  
+  Fasting lipid profile: To assess cardiovascular risk.
+  
+  PLAN:
+  Admission/Observation:
+  Observe in a quiet environment and reassess blood pressure after an appropriate period of rest.
+  
+  Assess repeatedly for symptoms or signs of acute target-organ damage.
+  
+  Pharmacological Management:
+  Resume amlodipine 10 mg once daily orally.
+  
+  Resume lisinopril 10 mg once daily orally, provided renal function and serum potassium are acceptable.
+  
+  If blood pressure remains markedly elevated despite adherence to the above regimen, consider addition of another oral antihypertensive such as labetalol according to clinical assessment.
+  
+  Avoid sublingual nifedipine because of the risk of an unpredictable and precipitous fall in blood pressure.
+  
+  Blood Pressure Monitoring:
+  Monitor BP regularly during observation and assess response to treatment.
+  
+  The aim is gradual rather than rapid reduction of blood pressure in the absence of acute target-organ damage.
+  
+  Lifestyle and Adherence:
+  Counsel regarding strict adherence to prescribed antihypertensive medications.
+  
+  Advise reduced dietary salt intake and a DASH-style diet.
+  
+  Encourage appropriate physical activity, weight control and moderation of alcohol intake.
+  
+  FOLLOW-UP:
+  Reassess after initiation/resumption of antihypertensive therapy and review investigation results.
+  
+  Arrange follow-up at the Medical Outpatient Clinic within 1 week, with earlier review if symptoms worsen or features suggestive of acute target-organ damage develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-95',
+    title: 'Urosepsis with Septic Shock',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Medical Emergency',
+    condition: 'Septic Shock Secondary to Urosepsis',
+    symptoms: [
+      'Fever with chills and rigors',
+      'Dysuria and urinary frequency',
+      'Reduced urine output',
+      'Altered sensorium',
+      'Lower abdominal and renal angle pain',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 48-year-old hypertensive man presenting with fever, urinary symptoms, oliguria and altered sensorium, with hypotension, tachycardia, tachypnoea and clinical dehydration, consistent with urosepsis complicated by septic shock and acute kidney injury.',
+    content: `MEDICAL EMERGENCY
+  
+  Patient Seen
+  A 48-year-old male civil servant, residing in Garki, Abuja, Hausa by tribe.
+  
+  PC:
+  Fever × 3/7
+  Altered sensorium × 6 hours
+  Reduced urine output × 1/7
+  
+  HPC:
+  The patient was apparently well until 4 days prior to presentation when he developed dysuria, characterized by a burning sensation during micturition, associated with increased urinary frequency.
+  
+  Three days prior to presentation, he developed high-grade intermittent fever associated with chills and rigors. There was associated dull, aching lower abdominal pain.
+  
+  On the day of presentation, his family noticed that he became increasingly drowsy, unable to communicate effectively, and appeared confused. There was also a significant reduction in the volume of urine passed over the preceding 24 hours.
+  
+  There is no history of cough, chest pain, or breathlessness. No history of projectile vomiting, neck stiffness, or seizures. No history of jaundice or abdominal swelling.
+  
+  PMH:
+  Known hypertensive × 5 years, currently on amlodipine 10 mg daily with moderate compliance.
+  Not a known diabetic.
+  No previous history of similar episodes.
+  No history of recent surgery or hospitalisation.
+  
+  DH:
+  Tab. Amlodipine 10 mg daily.
+  No history of herbal medication use or over-the-counter NSAID use.
+  No known drug allergies.
+  
+  Family and Social History:
+  Married in a monogamous setting with four children.
+  Non-smoker.
+  Does not consume alcohol.
+  Resides in a well-ventilated three-bedroom apartment with treated pipe-borne water supply.
+  
+  ROS:
+  CNS: Altered consciousness. No focal weakness.
+  
+  CVS: Palpitations. No orthopnoea.
+  
+  RS: No cough or haemoptysis.
+  
+  GIT: No diarrhoea or constipation.
+  
+  MSS: Generalised body weakness and malaise.
+  
+  O/E:
+  Acutely ill-looking middle-aged man in respiratory distress.
+  Febrile, mildly dehydrated.
+  No significant peripheral lymphadenopathy.
+  No pedal oedema.
+  Not jaundiced or pale.
+  
+  PR 122 bpm, weak, thready, regular
+  BP 85/50 mmHg
+  RR 32 cpm
+  Temp 39.2°C
+  SpO₂ 92% on room air
+  
+  CNS:
+  GCS 12/15 (E4 V3 M5).
+  Pupils 3 mm bilaterally and briskly reactive to light.
+  No signs of meningeal irritation.
+  
+  ABD:
+  Flat, moves with respiration.
+  Suprapubic tenderness present.
+  Bilateral renal angle tenderness present.
+  No hepatosplenomegaly.
+  Bowel sounds present and normal.
+  
+  CVS:
+  Pulse as above.
+  S1 and S2 only.
+  No murmurs.
+  JVP not significantly elevated.
+  
+  RS:
+  Trachea central.
+  Percussion notes resonant bilaterally.
+  Vesicular breath sounds with bibasal fine crepitations.
+  
+  ASS:
+  Septic shock secondary to urosepsis.
+  Background systemic hypertension.
+  
+  DIFFERENTIALS:
+  Severe malaria
+  Meningoencephalitis
+  Typhoid fever with septicaemia
+  
+  INVESTIGATIONS:
+  Full Blood Count: To assess for leucocytosis, neutrophilia and anaemia.
+  
+  Malaria Parasite film: To exclude malaria, particularly severe malaria.
+  
+  Urinalysis: To assess for nitrites, leucocytes, blood and protein.
+  
+  Urine microscopy, culture and sensitivity.
+  
+  Blood culture and sensitivity: Obtain blood cultures before commencing antibiotics where this does not delay treatment.
+  
+  Serum electrolytes, urea and creatinine: To assess renal function and electrolyte abnormalities.
+  
+  Random Blood Sugar: To exclude hypoglycaemia and hyperglycaemic emergencies.
+  
+  Serum lactate, if available, for assessment of tissue hypoperfusion and response to resuscitation.
+  
+  Chest X-ray: To assess for pulmonary infection or other pulmonary involvement.
+  
+  PLAN:
+  Emergency Management:
+  Manage as a medical emergency with close monitoring and urgent senior review.
+  
+  Oxygen therapy via nasal cannulae at 4–6 L/min, titrated to maintain adequate oxygen saturation.
+  
+  Secure at least two large-bore IV accesses.
+  
+  Commence IV crystalloid resuscitation with an initial bolus of approximately 1 L and reassess blood pressure, peripheral perfusion, urine output and lung findings. Further fluids should be guided by clinical response and risk of fluid overload.
+  
+  Obtain blood cultures and urine samples for culture before antibiotics where feasible without delaying treatment.
+  
+  Commence empiric broad-spectrum IV antibiotics promptly after cultures have been obtained.
+  
+  IV Ceftriaxone 2 g daily or 12-hourly as clinically indicated.
+  
+  IV Metronidazole 500 mg 8-hourly where anaerobic cover is indicated.
+  
+  If hypotension persists despite adequate fluid resuscitation, commence vasopressor support, preferably noradrenaline, and manage in a setting capable of close haemodynamic monitoring.
+  
+  Insert urethral catheter, size 14–16 F, to monitor hourly urine output.
+  Target urine output >0.5 mL/kg/hour.
+  
+  Symptomatic Treatment:
+  IV Paracetamol 1 g 8-hourly for fever, subject to maximum daily dose and clinical status.
+  
+  IV Omeprazole 40 mg daily where stress-ulcer prophylaxis is indicated.
+  
+  Hypertension Management:
+  Withhold amlodipine during the acute shock phase.
+  Restart antihypertensive therapy after haemodynamic stabilisation.
+  
+  Monitoring:
+  Monitor BP, PR, RR, SpO₂ and temperature frequently, initially every 15–30 minutes until haemodynamically stable.
+  
+  Monitor GCS and mental status.
+  
+  Maintain strict input/output chart.
+  
+  Monitor hourly urine output.
+  
+  Monitor serial serum electrolytes, urea and creatinine.
+  
+  Monitor Hb/PCV and serum lactate where available.
+  
+  Monitor for fluid overload, particularly given the presence of bibasal fine crepitations.
+  
+  Review antibiotic therapy when culture and sensitivity results become available and de-escalate where appropriate.
+  
+  Assess for urinary tract obstruction or other source-control problem if there is inadequate clinical response or persistent oliguria.
+  
+  FOLLOW-UP:
+  Continue close monitoring until haemodynamic and neurological status stabilise.
+  Review microbiology results and renal function to guide definitive antimicrobial therapy and further management.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
     {
-        id: 'im-04',
+        id: 'im-94',
         title: 'Acute Gastroenteritis with Moderate Dehydration',
         specialty: 'Internal Medicine',
         subSpecialty: 'Gastroenterology',

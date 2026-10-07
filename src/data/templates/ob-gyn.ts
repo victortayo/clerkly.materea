@@ -1,9 +1,2249 @@
 import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
-
-
-
+  {
+    id: 'ob-76',
+    title: 'Placenta Praevia with Antepartum Haemorrhage at 34 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Obstetric Emergency',
+    condition: 'Placenta Praevia',
+    symptoms: [
+      'Painless vaginal bleeding',
+      'Antepartum haemorrhage',
+      'High floating fetal head',
+      'Third-trimester pregnancy',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 32-year-old G4P3+0 at 34 weeks gestation presenting with painless bright-red vaginal bleeding, a soft non-tender uterus, high floating fetal head, and reassuring fetal heart rate, consistent with suspected placenta praevia pending ultrasound confirmation.',
+    content: `
+  Patient Identification
+  
+  A 32-year-old female teacher who resides in Ogbomosho, Oyo State. She is G4P3+0 (3 alive) at an estimated gestational age of 34 weeks.
+  
+  Presenting Complaint
+  
+  Painless vaginal bleeding x 4 hours.
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 4 hours prior to presentation when she noticed sudden-onset bright-red vaginal bleeding while resting. The bleeding was spontaneous and was not preceded by trauma, falls, or recent sexual intercourse. It was not associated with abdominal pain, uterine contractions, or draining of liquor. She has soaked approximately two sanitary pads since the onset. Fetal movements have been well perceived since the episode started.
+  
+  History of Index Pregnancy
+  
+  She is booked for ANC at a secondary health facility. The pregnancy has been largely uneventful. She is compliant with routine medications, including ferrous sulphate and folic acid. Tetanus toxoid doses are up to date. A second-trimester ultrasound was performed, but she does not have the report currently; however, she was told the baby was doing well.
+  
+  Past Obstetric History
+  
+  2016: SVD, male, 3.1 kg, at a General Hospital. No complications.
+  
+  2019: Emergency caesarean section for obstructed labour, female, 3.4 kg. Healthy child.
+  
+  2022: Elective caesarean section, male, 3.3 kg. Healthy child.
+  
+  All children are alive and well.
+  
+  Past Medical History
+  
+  No known history of hypertension, diabetes mellitus, or sickle cell disease. No previous blood transfusions. No known drug allergies.
+  
+  Social History
+  
+  Married in a monogamous setting. She does not smoke or drink alcohol.
+  
+  Review of Systems
+  
+  RS: No cough or dyspnoea.
+  
+  CVS: No palpitations or orthopnoea.
+  
+  GIT: No nausea or vomiting.
+  
+  CNS: No headache, visual disturbances, or dizziness.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking but conscious and alert. Not icteric, mildly pale, with no pedal oedema. Not in respiratory distress.
+  
+  Vital Signs
+  
+  BP: 110/70 mmHg
+  
+  PR: 98 bpm, regular, moderate volume
+  
+  RR: 20 cpm
+  
+  Temp: 36.5 °C
+  
+  SpO2: 98% on room air
+  
+  Abdominal Obstetric Examination
+  
+  Inspection: Gravid abdomen moving with respiration. Pfannenstiel scar from previous caesarean section noted. No visible pulsations.
+  
+  Palpation: SFH is 34 cm, consistent with EGA. Abdomen is soft and non-tender. Fetus is in longitudinal lie with cephalic presentation. Head is high and floating.
+  
+  Auscultation: Fetal heart rate is 146 bpm, regular.
+  
+  Pelvic Examination
+  
+  Inspection: Fresh bright-red blood seen at the vulva.
+  
+  Digital Vaginal Examination: NOT PERFORMED. Digital vaginal examination is contraindicated until placenta praevia has been excluded by ultrasound.
+  
+  ASSESSMENT
+  
+  G4P3+0 at 34 weeks gestation with antepartum haemorrhage, clinically suspicious of placenta praevia, with currently stable maternal and fetal status.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Placental abruption, less likely given the absence of abdominal pain and uterine tenderness.
+  2. Vasa praevia.
+  3. Local cervical or vaginal lesions, such as cervical polyp.
+  
+  INVESTIGATIONS
+  
+  1. Full Blood Count (FBC): To assess haemoglobin/PCV and platelet count.
+  
+  2. Blood Grouping and Crossmatching: Arrange compatible blood and keep adequate units available according to the severity of bleeding and institutional protocol.
+  
+  3. Coagulation Profile/Bedside Clotting Assessment: To assess for coagulopathy if clinically indicated, particularly with significant bleeding.
+  
+  4. Urgent Obstetric Ultrasound:
+  - Transabdominal ultrasound for placental localisation, fetal viability, presentation, and assessment of amniotic fluid.
+  - Transvaginal ultrasound may be required for accurate localisation of a low-lying placenta and is safe when performed appropriately by trained personnel.
+  - Colour Doppler should be considered if vasa praevia is suspected.
+  
+  5. Urinalysis: If clinically indicated, including assessment for proteinuria or urinary tract pathology.
+  
+  PLAN
+  
+  Initial Management
+  
+  1. Urgent admission to a facility with blood transfusion, emergency caesarean section, and neonatal care capabilities.
+  - Bed rest may be individualized according to bleeding and clinical status; routine prolonged strict bed rest has not been shown to prevent adverse outcomes.
+  
+  2. Secure two wide-bore IV cannulae, preferably 14G–16G where available.
+  
+  3. Fluid resuscitation:
+  - If haemodynamically stable with limited bleeding, avoid routine fixed-volume IV fluids.
+  - If ongoing significant blood loss or haemodynamic compromise occurs, administer warmed isotonic crystalloid while arranging blood transfusion.
+  
+  4. Continuous maternal and fetal assessment:
+  - Monitor maternal vital signs and ongoing blood loss according to clinical severity.
+  - Continue fetal surveillance with cardiotocography where available in the setting of active bleeding or suspected fetal compromise.
+  
+  5. Pad count: Monitor and document ongoing vaginal blood loss.
+  
+  6. Catheterization: Insert a Foley catheter if there is significant bleeding, haemodynamic instability, or need for accurate urine-output monitoring.
+  
+  Medication Plan
+  
+  1. Corticosteroids:
+  - At 34 weeks, antenatal corticosteroids may be offered if preterm delivery is likely, particularly if delivery is anticipated within 7 days.
+  - Dexamethasone 6 mg IM 12-hourly for 4 doses OR betamethasone 12 mg IM 24-hourly for 2 doses, according to local protocol.
+  - Corticosteroids must not delay emergency delivery when maternal or fetal indications for immediate delivery are present.
+  
+  2. Tocolytics:
+  - Consider only in selected stable patients with uterine contractions and no significant ongoing bleeding or maternal/fetal compromise, primarily to allow completion of corticosteroids where appropriate.
+  - Nifedipine may be used according to local protocol, with close monitoring for maternal hypotension.
+  - Tocolysis is contraindicated when there is significant active bleeding, maternal instability, fetal compromise, or another indication for immediate delivery.
+  
+  3. Anti-D Immunoglobulin:
+  - If the mother is RhD-negative, administer anti-D immunoglobulin according to current local/national protocol following an antepartum bleeding episode.
+  - The dose should follow the gestational age and severity of bleeding and the available preparation rather than relying on a single fixed dose.
+  
+  4. Routine Medications:
+  - Continue iron and folic acid supplementation if clinically stable and tolerating oral medication.
+  
+  Definitive Plan
+  
+  1. Emergency Caesarean Section:
+  - Immediate delivery is indicated if bleeding is severe or ongoing with maternal haemodynamic instability, or if there is fetal compromise.
+  - The presence of a previous caesarean scar also requires assessment of placental location and, if placenta praevia is confirmed, consideration of placenta accreta spectrum.
+  
+  2. Conservative/Expectant Management:
+  - If bleeding settles and both mother and fetus remain stable, expectant management may be considered.
+  - Management should be individualized based on gestational age, placental location, amount and recurrence of bleeding, fetal status, and distance from an appropriate obstetric facility.
+  - The patient should remain in a facility or location where emergency blood transfusion and caesarean delivery can be provided promptly.
+  - Planned delivery for confirmed placenta praevia is generally by caesarean section around 36–37 weeks if there are no earlier indications for delivery, according to the clinical circumstances and local protocol.
+  
+  3. Mode of Delivery According to Placental Location:
+  - A trial of vaginal delivery may be considered when the placenta is low-lying but does not cover the internal cervical os and the placental edge is sufficiently distant from the os, based on ultrasound assessment and local protocol.
+  - Caesarean delivery is required for placenta praevia covering the internal cervical os.
+  - Avoid relying on the older Type I–IV classification alone; modern management is based primarily on the relationship between the placental edge and internal cervical os.
+  
+  4. Previous Caesarean Section:
+  - If ultrasound demonstrates placenta praevia over or near the previous caesarean scar, assess carefully for placenta accreta spectrum and plan delivery in an appropriately equipped referral centre if suspected.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-75',
+    title: 'Severe Placental Abruption with Fetal Bradycardia at 35 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Obstetric Emergency',
+    condition: 'Placental Abruption',
+    symptoms: [
+      'Abdominal pain',
+      'Vaginal bleeding',
+      'Reduced fetal movements',
+      'Fetal bradycardia',
+      'Maternal hypovolaemia',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 32-year-old G4P3+0 at 35 weeks + 4 days with acute painful vaginal bleeding, a woody tender uterus, reduced fetal movements, fetal bradycardia, and maternal haemodynamic compromise, consistent with significant placental abruption with concealed and revealed haemorrhage.',
+    content: `
+  Patient Identification
+  
+  A 32-year-old G4P3+0 woman, a civil servant who resides in Dutse, Jigawa State. She is of the Hausa ethnic group and is currently at an estimated gestational age of 35 weeks + 4 days.
+  
+  Presenting Complaints
+  
+  1. Abdominal pain x 4h
+  2. Vaginal bleeding x 4h
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 4 hours prior to presentation when she developed sudden-onset, sharp, continuous abdominal pain. The pain started spontaneously while she was at rest and was localized to the entire abdomen, particularly the uterine area. There was no history of trauma or falls.
+  
+  Shortly after the onset of pain, she noticed dark-red vaginal bleeding. She has soaked approximately three sanitary pads since the onset. She also reported a significant reduction in fetal movements following the onset of the pain. She is not a known hypertensive and has had no previous episodes of bleeding in the current pregnancy. Her booking was at a primary healthcare centre and was reportedly uneventful until the current presentation.
+  
+  Past Obstetric History
+  
+  G1: 2014, SVD, term, alive.
+  
+  G2: 2017, SVD, term, alive.
+  
+  G3: 2020, SVD, term, alive.
+  
+  No history of previous antepartum or postpartum haemorrhage.
+  
+  Medical and Surgical History
+  
+  Not a known hypertensive or diabetic.
+  
+  No previous history of uterine surgery or myomectomy.
+  
+  No known drug allergies.
+  
+  Social History
+  
+  Monogamous marriage. Does not smoke or consume alcohol.
+  
+  Review of Systems
+  
+  CNS: No headache, visual blurring, or fits.
+  
+  CVS: History of palpitations and lightheadedness since onset of bleeding.
+  
+  RS: No cough or chest pain.
+  
+  GIT: No vomiting or diarrhoea.
+  
+  MSS: No joint pains.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking woman in significant painful distress.
+  
+  Moderately pale.
+  
+  No jaundice or pedal oedema.
+  
+  Weight: 72 kg
+  
+  Height: 1.62 m
+  
+  Vital Signs
+  
+  Pulse Rate: 118 bpm, rapid and thready.
+  
+  Blood Pressure: 95/60 mmHg.
+  
+  Respiratory Rate: 26 cpm.
+  
+  Temperature: 36.6 °C.
+  
+  SpO2: 96% on room air.
+  
+  Abdominal Examination
+  
+  Inspection: Gravid abdomen with striae gravidarum. No surgical scars.
+  
+  Palpation: SFH is 38 cm, which is large for gestational age. The uterus is woody hard and globally tender. Fetal parts are difficult to palpate because of uterine rigidity and tenderness.
+  
+  Auscultation: FHR is 105 bpm, consistent with fetal bradycardia.
+  
+  Pelvic Examination
+  
+  The vulva and vagina are stained with dark-red blood.
+  
+  Cervix is 3 cm dilated and 50% effaced.
+  
+  Membranes are intact and tense.
+  
+  ASSESSMENT
+  
+  Significant placental abruption at 35 weeks + 4 days with revealed and possible concealed haemorrhage, maternal hypovolaemia, and fetal bradycardia.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Placenta praevia, less likely given the painful bleeding and woody, tender uterus.
+  2. Ruptured uterus.
+  3. Marginal sinus bleeding.
+  
+  INVESTIGATIONS
+  
+  1. Full Blood Count (FBC): To assess haemoglobin/PCV and platelet count.
+  
+  2. Blood Grouping and Crossmatching: Arrange adequate compatible blood and blood products urgently, with the quantity guided by the severity of haemorrhage and institutional protocol.
+  
+  3. Coagulation Profile/Bedside Clotting Assessment: To assess for coagulopathy/DIC, particularly in significant or concealed abruption.
+  
+  4. Urinalysis: To assess for proteinuria if clinically indicated as part of the assessment for hypertensive disease.
+  
+  5. Obstetric Ultrasound Scan: To assess fetal viability, placental location, and other causes of antepartum haemorrhage. Abruption remains primarily a clinical diagnosis, and a normal ultrasound does not exclude it. Ultrasound must not delay indicated delivery.
+  
+  6. Serum Electrolytes, Urea, and Creatinine: To assess renal function and guide fluid management.
+  
+  7. Consider fibrinogen level where available, particularly in major abruption or suspected DIC.
+  
+  PLAN
+  
+  Urgent Resuscitation
+  
+  1. Admit to the labour ward/obstetric theatre area immediately and activate the emergency obstetric team.
+  
+  2. Place in the left lateral position while preparing for resuscitation and delivery.
+  
+  3. Administer supplemental oxygen if clinically indicated, particularly in the presence of significant maternal hypoxaemia or shock.
+  
+  4. Establish two large-bore intravenous lines, preferably 14G–16G where available.
+  
+  5. Begin rapid resuscitation with warmed isotonic crystalloid, such as Ringer's lactate or 0.9% sodium chloride, while arranging urgent blood transfusion. Avoid relying on a fixed fluid volume or target BP alone in major obstetric haemorrhage.
+  
+  6. Insert a Foley's catheter and monitor hourly urine output.
+  
+  7. Continuously monitor maternal pulse, blood pressure, respiratory rate, oxygen saturation, mental status, urine output, and ongoing vaginal blood loss.
+  
+  Medications and Blood Products
+  
+  1. Transfuse compatible red cells/blood products promptly according to the degree of haemorrhage and haemodynamic status. Do not delay transfusion while waiting for a target PCV.
+  
+  2. If there is evidence of coagulopathy or DIC, replace fibrinogen and coagulation factors with appropriate blood products, such as fresh frozen plasma and cryoprecipitate/fibrinogen concentrate where available, guided by laboratory results and clinical status.
+  
+  3. Antenatal corticosteroids:
+  - At 35 weeks + 4 days, routine antenatal corticosteroids are not automatically indicated solely because the pregnancy is preterm.
+  - If delivery is imminent because of fetal compromise and maternal haemorrhage, corticosteroids must not delay delivery.
+  
+  4. Tetanus toxoid is not routinely required for placental abruption unless otherwise indicated based on the patient's antenatal immunization status.
+  
+  Delivery Plan
+  
+  1. Emergency Caesarean Section:
+  - Given the persistent fetal bradycardia, significant antepartum haemorrhage, painful woody uterus, and maternal haemodynamic compromise, emergency caesarean delivery is indicated if the fetus is alive and vaginal delivery is not imminent.
+  - Do not delay delivery for ultrasound, completion of corticosteroids, or other non-essential investigations.
+  
+  2. If fetal death is confirmed:
+  - Route of delivery should be individualized according to maternal condition, cervical dilatation, parity, and likelihood of rapid vaginal delivery.
+  - Vaginal delivery is generally preferred when feasible because caesarean delivery does not benefit a dead fetus and may increase maternal morbidity.
+  - Amniotomy and oxytocin augmentation may be considered where appropriate, with close maternal monitoring.
+  - Caesarean delivery may still be required for maternal indications, such as uncontrolled haemorrhage or uterine rupture.
+  
+  3. Active management of the third stage of labour should be undertaken to reduce the risk of postpartum haemorrhage.
+  
+  4. Prepare for potential postpartum haemorrhage:
+  - Oxytocin should be administered according to the institutional postpartum haemorrhage/third-stage protocol.
+  - Misoprostol may be used where indicated, particularly when oxytocin is unavailable or as part of treatment for uterine atony.
+  - Ergometrine should be avoided in women with hypertension or pre-eclampsia.
+  - Tranexamic acid 1 g IV over approximately 10 minutes should be administered promptly when postpartum haemorrhage is diagnosed, ideally within 3 hours of birth, with a second 1 g dose considered if bleeding continues after 30 minutes or restarts within 24 hours.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-74',
+    title: 'Vasa Previa with Fetal Bradycardia at 34 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Obstetric Emergency',
+    condition: 'Vasa Previa',
+    symptoms: [
+      'Painless vaginal bleeding',
+      'Spontaneous rupture of membranes',
+      'Reduced fetal movements',
+      'Fetal bradycardia',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 32-year-old G4P3+0 at 34 weeks gestation with painless bright-red vaginal bleeding immediately following spontaneous rupture of membranes, fetal bradycardia, and maternal features of early hypovolaemia, highly suspicious for ruptured vasa previa. This is an obstetric emergency requiring immediate preparation for emergency caesarean delivery without digital vaginal examination.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 32-year-old G4P3+0 woman, a teacher who resides in Surulere, Lagos State. She is of the Yoruba ethnic group and is currently at 34 weeks gestation.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Sudden-onset vaginal bleeding x 2h
+  2. Spontaneous rupture of membranes x 2h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 2 hours prior to presentation when she experienced sudden, spontaneous rupture of membranes while at rest. This was immediately followed by the passage of a moderate amount of bright-red vaginal bleeding. The bleeding was painless, and there was no history of prior trauma, coitus, or abdominal pain. She reported normal fetal movements until the onset of bleeding, after which she noticed a perceived decline in fetal activity.
+  
+  Index Pregnancy:
+  
+  She is booked at a secondary health facility. LMP was approximately 34 weeks ago, with an EDD in 6 weeks. She has had 4 ANC visits. Routine antenatal medications, including iron/folate supplements, were taken. An ultrasound scan at 20 weeks suggested a low-lying placenta, with follow-up advised. There is no history of hypertension or diabetes in the current pregnancy.
+  
+  PAST OBSTETRIC HISTORY
+  
+  2016: G1, spontaneous vaginal delivery at term, female, 3.2 kg, alive and well.
+  
+  2018: G2, spontaneous vaginal delivery at term, male, 3.4 kg, alive and well.
+  
+  2021: G3, emergency caesarean section for obstructed labour, male, 3.8 kg, alive and well.
+  
+  GYNAECOLOGICAL AND MEDICAL HISTORY
+  
+  Menarche at 13 years. Regular 28-day menstrual cycle. No history of uterine fibroids or previous myomectomy. No known history of hypertension, diabetes mellitus, or sickle cell disease. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  In a monogamous marriage. Husband is a civil servant. Non-smoker and does not consume alcohol.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking woman in respiratory distress, moderately pale, anicteric, with no pedal oedema.
+  
+  Vital Signs:
+  
+  BP: 100/60 mmHg
+  
+  Pulse Rate: 112 bpm, rapid and low volume
+  
+  Respiratory Rate: 26 cpm
+  
+  Temperature: 36.6 °C
+  
+  SpO2: 96% on room air
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Gravid abdomen with a midline subumbilical scar from previous caesarean section.
+  
+  Palpation: SFH is 33 cm. Uterus is soft and non-tender. Fetal parts are easily palpable. Longitudinal lie, cephalic presentation. Head is high and mobile.
+  
+  Auscultation: FHR is 100 bpm, consistent with fetal bradycardia.
+  
+  PELVIC EXAMINATION
+  
+  Inspection: Bright-red blood seen at the vulva.
+  
+  Digital Vaginal Examination: NOT PERFORMED due to the possibility of placenta previa/vasa previa and the risk of provoking further bleeding.
+  
+  ASSESSMENT
+  
+  Suspected ruptured vasa previa at 34 weeks gestation following spontaneous rupture of membranes, with fetal bradycardia and maternal features of acute blood loss/hypovolaemia.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Placenta previa
+  2. Placental abruption
+  3. Marginal sinus rupture
+  4. Cervical lesions, such as cervical polyp or malignancy
+  
+  INVESTIGATIONS
+  
+  1. Urgent FBC/PCV: To assess haemoglobin/haematocrit and platelet count.
+  
+  2. Blood Grouping and Crossmatching: Arrange adequate compatible blood, with additional units prepared according to the severity of bleeding and institutional protocol.
+  
+  3. Coagulation Profile/Bedside Clotting Assessment: To assess for coagulopathy, particularly if significant haemorrhage is suspected.
+  
+  4. Emergency Obstetric Ultrasound with Colour Doppler: If it can be performed immediately without delaying delivery, assess placental location, fetal vessels, fetal viability, and other possible causes of bleeding. A diagnostic scan must not delay emergency delivery in the presence of persistent fetal bradycardia and ongoing bleeding.
+  
+  5. Urinalysis: If clinically indicated, particularly if there is concern for pre-eclampsia or urinary tract pathology.
+  
+  PLAN
+  
+  Emergency Stabilisation:
+  
+  1. Immediate admission to the labour ward/obstetric theatre area and activate the emergency obstetric team.
+  
+  2. Large-bore IV access: Insert two 14G–16G IV cannulas where possible.
+  
+  3. Resuscitation: Begin warmed isotonic crystalloid, such as Ringer's lactate or 0.9% sodium chloride, while arranging urgent blood transfusion if indicated. Avoid excessive crystalloid administration when blood is available.
+  
+  4. Keep Nil Per Os (NPO) in anticipation of emergency caesarean section.
+  
+  5. Insert Foley catheter and monitor hourly urine output.
+  
+  6. Continuous maternal monitoring and continuous electronic fetal heart-rate monitoring while preparing for delivery.
+  
+  7. Alert the blood bank and ensure readily available compatible blood and blood products.
+  
+  Medication Options:
+  
+  1. Corticosteroids for Fetal Lung Maturity:
+  - Because delivery is anticipated at 34 weeks, antenatal corticosteroids may be considered if they can be administered without delaying emergency delivery.
+  - Betamethasone 12 mg IM 24-hourly for 2 doses OR dexamethasone 6 mg IM 12-hourly for 4 doses, according to local protocol.
+  - Steroid administration must not delay emergency caesarean delivery in the presence of persistent fetal bradycardia or significant bleeding.
+  
+  2. Tocolytics:
+  - NOT indicated in this patient because there is active vaginal bleeding and fetal bradycardia.
+  - Tocolysis should not be used to delay indicated emergency delivery.
+  
+  3. Antibiotic Prophylaxis:
+  - Administer standard pre-operative antibiotic prophylaxis for caesarean section according to institutional protocol.
+  - Avoid delaying emergency delivery while awaiting antibiotic administration.
+  
+  Definitive Management:
+  
+  1. Emergency Caesarean Section:
+  - Immediate caesarean delivery is indicated because of suspected ruptured vasa previa with active bleeding and persistent fetal bradycardia.
+  - Do not perform digital vaginal examination.
+  - Delivery should not be delayed for completion of corticosteroids or further diagnostic imaging.
+  
+  2. Neonatal Resuscitation:
+  - Notify the paediatric/neonatal team immediately and ensure neonatal resuscitation equipment is available.
+  - Anticipate acute neonatal blood loss and have appropriately crossmatched neonatal blood available where possible.
+  - Neonatal transfusion should be based on the neonate's clinical condition and neonatal transfusion protocol rather than routinely administering O-negative blood.
+  
+  3. Post-operative Care:
+  - Monitor closely for postpartum haemorrhage, maternal anaemia, haemodynamic instability, and other post-caesarean complications.
+  - Continue appropriate fluid/blood replacement based on clinical status and laboratory results.
+  - Monitor maternal vital signs, urine output, vaginal blood loss, and postoperative recovery.
+  - Provide appropriate postpartum counselling and neonatal follow-up.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-73',
+    title: 'Threatened Miscarriage at 10 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Early Pregnancy Unit',
+    condition: 'Threatened Miscarriage',
+    symptoms: [
+      'Vaginal bleeding',
+      'Lower abdominal pain',
+      'First-trimester pregnancy',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 28-year-old G2P1+0 at 10 weeks + 4 days with minimal vaginal bleeding and mild intermittent lower abdominal pain, with a closed cervix and stable haemodynamic status, consistent with threatened miscarriage pending ultrasound confirmation of an intrauterine viable pregnancy.',
+    content: `
+  Patient Identification
+  
+  A 28-year-old female teacher who resides in Surulere, Lagos State. She is a Yoruba woman, G2P1+0 (1 child alive).
+  
+  Obstetric Dates
+  
+  LMP: 12/05/2024
+  
+  EDD: 16/02/2025
+  
+  EGA: 10 weeks + 4 days
+  
+  Presenting Complaints
+  
+  1. Vaginal bleeding x 6/24
+  2. Lower abdominal pain x 4/24
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 6 hours prior to presentation when she noticed bright red vaginal spotting. The bleeding was spontaneous, minimal, and did not contain clots or fleshy masses. It was not preceded by trauma or sexual intercourse.
+  
+  About 2 hours after the onset of bleeding, she developed dull, aching lower abdominal pain. The pain was mild, non-radiating, and intermittent in nature. There was no associated history of fever, vaginal discharge, or urinary symptoms. She had not experienced any dizziness, syncopal attacks, or shoulder-tip pain.
+  
+  The index pregnancy was booked at 8 weeks EGA in a secondary facility. Routine booking investigations were done, and she has been compliant with her folic acid and prenatal vitamins.
+  
+  Past Obstetric History
+  
+  2021: Spontaneous vaginal delivery at term in a General Hospital. It was a male infant with a birth weight of 3.2 kg. There were no complications, and the child is alive and well.
+  
+  Gynaecological History
+  
+  Menarche at 13 years. Regular 28-day menstrual cycle. No history of contraceptive use. Last Pap smear was 2 years ago and was reportedly normal.
+  
+  Medical and Surgical History
+  
+  No known history of hypertension, diabetes mellitus, or sickle cell disease. No previous pelvic or abdominal surgeries.
+  
+  Social and Family History
+  
+  Married in a monogamous setting. Non-smoker and does not consume alcohol. Family history is non-contributory.
+  
+  Review of Systems
+  
+  CNS: No headaches or visual blurring.
+  
+  RS: No cough or shortness of breath.
+  
+  CVS: No palpitations.
+  
+  GIT: No nausea or vomiting.
+  
+  Physical Examination
+  
+  General Examination:
+  
+  Patient is a young woman, not in obvious respiratory or painful distress. She is not pale, anicteric, not dehydrated, and has no pedal oedema.
+  
+  Vital Signs:
+  
+  BP: 110/70 mmHg
+  
+  PR: 84 bpm, regular, normal volume
+  
+  RR: 18 cpm
+  
+  Temp: 36.7 °C
+  
+  Abdominal Examination:
+  
+  Abdomen is full and moves with respiration. No surgical scars. Uterus is not palpable per abdomen, consistent with the gestational age. No areas of tenderness, guarding, or rebound tenderness.
+  
+  Pelvic Examination:
+  
+  Speculum examination: Minimal bright-red blood in the vaginal vault. No active brisk bleeding. Cervix appears healthy with a closed external os.
+  
+  Digital Vaginal Examination (VE): Cervical os is closed. No adnexal masses or cervical motion tenderness.
+  
+  ASSESSMENT
+  
+  Threatened miscarriage at 10 weeks + 4 days EGA in a G2P1+0 woman, pending ultrasound confirmation of an intrauterine viable pregnancy.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ectopic pregnancy, particularly if an intrauterine pregnancy has not previously been confirmed.
+  2. Molar pregnancy.
+  3. Cervical causes of bleeding, such as cervicitis or cervical polyp.
+  
+  INVESTIGATIONS
+  
+  1. Urgent Ultrasound Scan (USS): Transvaginal or transabdominal ultrasound to confirm intrauterine location, fetal viability, and assess for subchorionic haematoma or other pelvic pathology.
+  
+  2. Full Blood Count (FBC): To assess haemoglobin/PCV and establish baseline haematological parameters.
+  
+  3. Blood Group and Rh Typing: To determine Rh status and guide consideration of anti-D immunoglobulin according to current local protocol.
+  
+  4. Urinalysis: If clinically indicated, particularly to assess for urinary tract infection.
+  
+  5. Serum quantitative beta-hCG: Not routinely required if ultrasound confirms a viable intrauterine pregnancy; may be considered if ultrasound is inconclusive or pregnancy location remains uncertain.
+  
+  PLAN
+  
+  1. Counseling:
+  - Explain the likely diagnosis of threatened miscarriage and the generally favourable prognosis when fetal cardiac activity is demonstrated.
+  - Reassure the patient while explaining the possibility of progression to miscarriage and the need for follow-up.
+  
+  2. General Measures:
+  - Routine bed rest is not recommended as it has not been shown to prevent miscarriage.
+  - Activity modification: Avoid activities that worsen bleeding or cause significant discomfort; routine restriction of normal daily activity is not necessary if the patient feels well.
+  - Pelvic rest: Avoid sexual intercourse while active bleeding is ongoing and until symptoms have settled.
+  
+  3. Medications:
+  - Progestogens: Consider vaginal micronized progesterone in women with threatened miscarriage who have vaginal bleeding and a previous miscarriage, in accordance with current evidence and local protocol. Routine progesterone is not necessary for every woman with threatened miscarriage without a history of miscarriage.
+  - Analgesia: Paracetamol 1 g every 8 hours as required for pain, within the recommended maximum daily dose.
+  - Continue routine antenatal supplements, including folic acid and iron as prescribed.
+  
+  4. Rh Isoimmunization:
+  - If the patient is Rh-negative, assess the need for anti-D immunoglobulin according to current gestational-age-specific local or national protocol. Administration should not be made dependent on the partner's Rh status.
+  
+  5. Follow-up and Monitoring:
+  - Review ultrasound findings to confirm pregnancy location and viability.
+  - If ultrasound is inconclusive, arrange repeat ultrasound at an appropriate interval, commonly 7–14 days depending on the findings.
+  - If fetal cardiac activity is absent and diagnostic criteria for pregnancy loss are fulfilled, reclassify and manage accordingly.
+  - Review earlier if bleeding or pain persists or worsens.
+  
+  6. Danger Signs:
+  - Instruct the patient to return immediately if she develops heavy vaginal bleeding, passage of tissue or large clots, severe or worsening abdominal pain, dizziness, syncope, shoulder-tip pain, fever, or other features suggestive of significant haemorrhage, infection, or ectopic pregnancy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-72',
+    title: 'Incomplete Miscarriage at 10 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Emergency',
+    condition: 'Incomplete Miscarriage',
+    symptoms: [
+      'Vaginal bleeding',
+      'Lower abdominal pain',
+      'Passage of products of conception',
+      'Dizziness',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '28-year-old G2P1+0 woman at 10 weeks + 4 days gestation presenting with heavy vaginal bleeding, cramping lower abdominal pain, passage of a fleshy mass, and dizziness. Examination reveals tachycardia, mild pallor, active cervical bleeding, an open cervical os with products of conception at the os, and a tender bulky uterus, consistent with incomplete miscarriage with ongoing blood loss.',
+    content: `GYNAE EMERGENCY
+  
+  Patient Identification
+  
+  A 28-year-old female tailor who resides in Ogbomosho, Oyo State. She is Yoruba and married in a monogamous setting. G2P1+0.
+  
+  Obstetric Dates
+  
+  LMP: 10 weeks ago.
+  EDD: 7 months from now.
+  EGA: 10 weeks + 4 days.
+  
+  Presenting Complaints
+  
+  1. Vaginal bleeding x 6h
+  2. Lower abdominal pain x 4h
+  3. Passage of fleshy mass per vaginam x 2h
+  
+  History of Presenting Complaint
+  
+  She was apparently well until 6 hours prior to presentation when she noticed the sudden onset of vaginal bleeding. The bleeding was initially a trickle but became heavy, soaking approximately three sanitary pads within 4 hours. It was associated with passage of large blood clots.
+  
+  About 2 hours after the bleeding started, she developed dull, cramping lower abdominal pain which was intermittent and progressively increased in intensity. There was no history of trauma, prior vaginal spotting in this pregnancy, or ingestion of herbal concoctions or medications to terminate the pregnancy.
+  
+  Two hours prior to presentation, she reported passing a "fleshy mass" while using the toilet, after which the abdominal pain reduced slightly in intensity; however, vaginal bleeding persisted.
+  
+  She feels slightly dizzy but has not lost consciousness. There is no history of fever, abnormal vaginal discharge, or urinary symptoms.
+  
+  Past Obstetric and Gynaecological History
+  
+  G1: 3 years ago, spontaneous vaginal delivery at term of a live male infant. No complications.
+  
+  Menarche: 13 years.
+  
+  Menstrual cycle: Regular 28-day cycle with 4 days of flow.
+  
+  No previous history of miscarriage or gynaecological surgery.
+  
+  No current use of contraception.
+  
+  Medical and Surgical History
+  
+  No known history of hypertension, diabetes mellitus, or sickle cell disease.
+  
+  No previous blood transfusions or abdominal surgeries.
+  
+  Family and Social History
+  
+  Married for 4 years. Husband is a commercial driver.
+  
+  Non-smoker. Does not consume alcohol.
+  
+  Review of Systems
+  
+  CNS: Occasional dizziness. No headache or seizures.
+  
+  RS: No cough or chest pain.
+  
+  CVS: No palpitations or orthopnoea.
+  
+  GIT: No nausea or vomiting.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Patient is acutely ill-looking and in some painful distress.
+  
+  Anicteric, mildly pale, not dehydrated. No pedal oedema.
+  
+  Vital Signs
+  
+  PR: 104 bpm, regular, moderate volume.
+  BP: 100/60 mmHg.
+  RR: 22 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  Abdominal Examination
+  
+  Abdomen is full and moves with respiration. No previous Pfannenstiel scar.
+  
+  Suprapubic tenderness is present.
+  
+  Uterus is palpable at approximately 8 weeks size, soft and bulky.
+  
+  Pelvic Examination
+  
+  Speculum Examination
+  
+  Active bleeding from the cervical os. Moderate blood clots seen in the vaginal vault. Products of conception are visible at the cervical os.
+  
+  Digital Examination
+  
+  Cervical os is open, admitting one finger. Uterus is approximately 8 weeks in size, bulky and tender. No adnexal masses or tenderness.
+  
+  ASSESSMENT
+  
+  Incomplete miscarriage at 10 weeks + 4 days gestation with ongoing vaginal bleeding and early features of volume depletion.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Inevitable miscarriage — less likely given passage of products of conception.
+  
+  2. Threatened miscarriage — unlikely because the cervical os is open and products of conception have been passed.
+  
+  3. Ectopic pregnancy — less likely given the enlarged uterus and clinical picture, but pregnancy location should be confirmed if it was not previously established.
+  
+  INVESTIGATIONS
+  
+  1. Urgent Full Blood Count (FBC)/PCV:
+  - Assess the degree of blood loss and baseline haemoglobin.
+  
+  2. Blood Group and Rhesus Typing:
+  - Determine ABO/Rh status.
+  - Facilitate blood preparation if transfusion becomes necessary.
+  - Assess need for anti-D immunoglobulin according to current protocol.
+  
+  3. Group and Crossmatch:
+  - Obtain crossmatched blood if bleeding is significant, ongoing, or there is concern for haemodynamic deterioration.
+  
+  4. Pelvic Ultrasound Scan:
+  - Assess for retained products of conception.
+  - Confirm intrauterine pregnancy where pregnancy location was not previously established.
+  - Assess the adnexa where clinically indicated.
+  
+  5. Urinalysis:
+  - Perform if urinary symptoms or other clinical indications are present; it is not routinely required to identify a cause of miscarriage.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  Emergency Care
+  
+  1. Admit to the emergency gynaecology ward and urgently assess haemodynamic status.
+  
+  2. Establish two wide-bore intravenous accesses, preferably 16G or 18G.
+  
+  3. Commence rapid IV crystalloid resuscitation with 0.9% Normal Saline or Ringer's Lactate according to the patient's haemodynamic status and ongoing blood loss. Reassess response frequently rather than using a fixed infusion rate.
+  
+  4. Keep NPO in anticipation of possible surgical intervention.
+  
+  5. Monitor pulse, blood pressure, respiratory rate, SpO₂, level of consciousness, vaginal blood loss, and urine output.
+  
+  6. Arrange blood grouping and crossmatching and prepare blood for transfusion if clinically indicated.
+  
+  Definitive Management
+  
+  The patient should be counseled regarding expectant, medical, and surgical options where clinically appropriate. Given her ongoing bleeding, open cervical os, visible products of conception, tachycardia, and borderline blood pressure, prompt uterine evacuation should be considered if bleeding does not settle rapidly or haemodynamic instability develops.
+  
+  Option A: Surgical Management — Manual Vacuum Aspiration (MVA)
+  
+  1. MVA is an appropriate surgical method for early pregnancy loss at this gestational age.
+  
+  2. Perform MVA under appropriate analgesia and anaesthesia, such as a paracervical block with additional sedation where required.
+  
+  3. Confirm uterine evacuation and monitor for ongoing bleeding or other complications.
+  
+  4. Send products of conception for histopathology when clinically indicated, particularly if there are atypical features or other reasons to suspect gestational trophoblastic disease.
+  
+  Option B: Medical Management
+  
+  1. Misoprostol may be used where the patient is haemodynamically stable and medical management is appropriate. Use the locally recommended evidence-based regimen for incomplete miscarriage at this gestational age.
+  
+  2. Monitor for completion of expulsion and assess ongoing blood loss.
+  
+  3. Surgical evacuation should be performed promptly if there is heavy or persistent bleeding, haemodynamic instability, infection, or failed medical management.
+  
+  Additional Medications and Follow-up
+  
+  1. Analgesia:
+  - Tab. Ibuprofen 400 mg orally 8-hourly as required for pain, if not contraindicated.
+  - Alternatively, Tab. Paracetamol 1 g orally 8-hourly as required.
+  
+  2. Antibiotics:
+  - Routine prophylactic antibiotics are not required for uncomplicated medical management of miscarriage.
+  - Give antibiotics if there is suspected or confirmed pelvic infection/sepsis or when indicated for the surgical procedure according to local protocol.
+  
+  3. Anti-D Immunoglobulin:
+  - Determine the patient's Rh status.
+  - If Rh-negative, administer anti-D immunoglobulin according to current local/national protocol, taking gestational age and the method of management into consideration. Do not make administration dependent on the father's Rh status.
+  
+  4. Counseling:
+  - Provide emotional support and explain the nature of the pregnancy loss.
+  - Counsel regarding expected bleeding and cramping and advise urgent return for heavy bleeding, severe abdominal pain, dizziness/syncope, fever, or foul-smelling vaginal discharge.
+  - Avoid intercourse while significant vaginal bleeding is ongoing.
+  
+  5. Contraception:
+  - Discuss contraception and initiate the patient's preferred method if she wishes to delay the next pregnancy.
+  
+  6. Follow-up:
+  - Review according to the management method and clinical course to confirm completion and assess recovery.
+  - Further ultrasound is not routinely required after an uncomplicated complete evacuation if symptoms have resolved, but should be performed if bleeding or pain persists or there is concern for retained products.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-71',
+    title: 'Complete Miscarriage at 10 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Emergency',
+    condition: 'Complete Miscarriage',
+    symptoms: [
+      'Vaginal bleeding',
+      'Lower abdominal pain',
+      'Passage of products of conception',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '26-year-old G2P1+0 woman at 10 weeks gestation presenting with lower abdominal cramps, vaginal bleeding, and subsequent passage of a bulky fleshy mass, followed by significant reduction in pain and bleeding. Examination shows a closed cervix with minimal vaginal bleeding and a small, non-tender bulky uterus, consistent with a clinically complete miscarriage.',
+    content: `GYNAE EMERGENCY
+  
+  Patient Identification
+  
+  A 26-year-old female teacher who resides in Surulere, Lagos State. She is Yoruba and married in a monogamous setting. G2P1+0.
+  
+  Obstetric Dates
+  
+  LMP: 10 weeks ago.
+  EDD: 32 weeks from now.
+  EGA: 10 weeks.
+  
+  Presenting Complaints
+  
+  1. Vaginal bleeding x 6h
+  2. Lower abdominal pain x 8h
+  3. Passage of fleshy mass per vaginam x 2h
+  
+  History of Presenting Complaint
+  
+  She was apparently well until 8 hours prior to presentation when she developed dull, aching lower abdominal pain which later became crampy in nature. The pain was localized to the suprapubic region, with no radiation to the back or thighs.
+  
+  Two hours after the onset of pain, she developed vaginal bleeding. The bleeding was initially heavy, soaking approximately two sanitary pads within 3 hours, and contained dark-red clots. There was no history of trauma, recent sexual intercourse, or ingestion of herbal concoctions (agbo).
+  
+  About 2 hours prior to presentation, she passed a bulky, fleshy mass per vaginam, following which the abdominal pain significantly subsided and the vaginal bleeding reduced to a minimal trickle.
+  
+  She denies dizziness, fainting spells, or palpitations. There is no history of fever, abnormal vaginal discharge, or urinary symptoms.
+  
+  This index pregnancy was spontaneous and was confirmed with a urine pregnancy test at 6 weeks gestation.
+  
+  Past Obstetric and Gynaecological History
+  
+  G1: Delivered a live male infant 3 years ago at term via spontaneous vaginal delivery. No complications.
+  
+  Menarche: 13 years.
+  
+  Menstrual cycle: Regular 28-day cycle, with 4 days of flow.
+  
+  No previous history of miscarriage or gynaecological surgery.
+  
+  Past Medical History
+  
+  Not a known hypertensive or diabetic.
+  
+  No known history of sickle cell disease; genotype AA.
+  
+  No previous blood transfusions.
+  
+  Social History
+  
+  Does not smoke or drink alcohol. Resides in a 2-bedroom apartment with her husband and child.
+  
+  Review of Systems
+  
+  RS: No cough or chest pain.
+  
+  CVS: No pedal oedema or orthopnoea.
+  
+  GIT: No nausea or vomiting.
+  
+  CNS: No headache or blurred vision.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Patient is young, conscious, and alert. Not in any obvious respiratory or painful distress.
+  
+  Not pale, anicteric, acyanotic, or dehydrated. No significant lymphadenopathy. No pedal oedema.
+  
+  Vital Signs
+  
+  BP: 110/70 mmHg.
+  PR: 84 bpm, regular, normal volume.
+  RR: 18 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  Abdominal Examination
+  
+  Abdomen is flat and moves with respiration. No surgical scars.
+  
+  Slight suprapubic tenderness is present. No palpable masses. Uterus is not clinically palpable abdominally.
+  
+  Pelvic Examination
+  
+  Speculum Examination
+  
+  Minimal blood seen in the vaginal vault. Cervix appears healthy and the cervical os is closed. No active bleeding from the cervical os.
+  
+  Digital Examination
+  
+  Cervix is closed and firm. Uterus is bulky, approximately 6–8 weeks in size, and non-tender. Adnexa are free, with no cervical motion tenderness.
+  
+  ASSESSMENT
+  
+  Clinically complete miscarriage at 10 weeks gestation, pending confirmation of an empty uterine cavity.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Incomplete miscarriage — if retained products of conception are demonstrated.
+  
+  2. Ectopic pregnancy — less likely given the clinical history, although an ectopic pregnancy should not be considered excluded solely because tissue was passed vaginally if an intrauterine pregnancy had not previously been confirmed.
+  
+  3. Heterotopic pregnancy — very unlikely in a spontaneous conception but should be considered if there are persistent or significant adnexal symptoms.
+  
+  INVESTIGATIONS
+  
+  1. Pelvic Ultrasound Scan:
+  - Confirm an empty uterine cavity and assess for retained products of conception.
+  - Assess the adnexa if the location of the pregnancy had not previously been confirmed.
+  
+  2. Full Blood Count (FBC):
+  - Assess haemoglobin/PCV and establish baseline white cell count.
+  
+  3. Blood Group and Rh Typing:
+  - Determine ABO and Rh status and assess the need for anti-D immunoglobulin according to current local/national protocol.
+  
+  4. Serum β-hCG:
+  - Not routinely required if the ultrasound confirms a complete intrauterine miscarriage and the clinical course is uncomplicated.
+  - May be useful when the diagnosis or pregnancy location remains uncertain or ectopic pregnancy has not been excluded.
+  
+  5. Urinalysis:
+  - Perform if urinary symptoms or other clinical indications are present.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Observation:
+  - Monitor vital signs and vaginal bleeding.
+  - Assess for ongoing haemorrhage, infection, or significant abdominal pain.
+  - Ensure haemodynamic stability before discharge.
+  
+  2. Counseling and Support:
+  - Explain the nature of a complete miscarriage and provide appropriate emotional and psychological support.
+  - Reassure the patient that early miscarriage is common and is usually not caused by routine activities or anything she did.
+  - Explain the expected course of bleeding and when to return for urgent assessment.
+  
+  3. Medications:
+  
+  - Analgesia: Tab. Ibuprofen 400 mg orally 8-hourly as required, if not contraindicated, or Tab. Paracetamol 1 g orally 8-hourly as required for residual cramping.
+  
+  - Antibiotics: Routine prophylactic antibiotics are not indicated following an uncomplicated complete miscarriage. Antibiotics should be given if there is clinical or microbiological evidence of infection or when otherwise indicated.
+  
+  - Rh Prophylaxis: Determine the patient's Rh status and administer anti-D immunoglobulin when indicated according to current local/national protocol. The dose should be based on the gestational age, clinical circumstances, and available anti-D preparation rather than routinely prescribing 50 micrograms for every case.
+  
+  - Misoprostol: Not required if ultrasound confirms complete miscarriage with an empty uterine cavity. If retained products are identified, management should be based on the amount of retained tissue, bleeding, clinical status, and patient preference.
+  
+  4. Follow-up:
+  - Arrange follow-up where clinically indicated to confirm resolution, particularly if symptoms persist or the diagnosis remains uncertain.
+  - Advise avoidance of intercourse while bleeding is ongoing; routine prolonged pelvic rest is not necessary once bleeding has stopped and the patient feels comfortable.
+  - Discuss future contraception if pregnancy is not immediately desired.
+  - Provide preconception counseling for a future pregnancy, including folic acid supplementation.
+  - Advise immediate return if she develops heavy vaginal bleeding, severe or worsening abdominal pain, dizziness/syncope, fever, or foul-smelling vaginal discharge.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-70',
+    title: 'Missed Miscarriage at 14 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Missed Miscarriage',
+    symptoms: [
+      'Fetal demise on ultrasound',
+      'Regression of pregnancy symptoms',
+      'Uterine size-date discrepancy',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '28-year-old G2P1+0 woman at 14 weeks gestation by LMP with regression of early pregnancy symptoms for 2 weeks. Ultrasound demonstrates an intrauterine fetus measuring approximately 10 weeks + 2 days by CRL with absent fetal cardiac activity, consistent with missed miscarriage.',
+    content: `GYNAE CLINIC
+  
+  Patient Identification
+  
+  A 28-year-old female trader, Mrs. A.B., who resides in Surulere, Lagos State. She is Yoruba and Christian. She is G2P1+0 (one child alive).
+  
+  Presenting Complaints
+  
+  1. Routine ultrasound finding of fetal demise x 1/52
+  2. Loss of pregnancy symptoms x 2/52
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well and was being followed up for her index pregnancy, which was confirmed by a positive urine pregnancy test at 5 weeks gestation. Her Last Menstrual Period (LMP) was 14 weeks ago, making her Estimated Gestational Age (EGA) 14 weeks.
+  
+  She experienced early pregnancy symptoms including nausea and breast tenderness, which spontaneously subsided about 2 weeks ago.
+  
+  There has been no history of vaginal bleeding, lower abdominal pain, drainage of liquor, or passage of fleshy masses per vaginam.
+  
+  She presented for a routine antenatal ultrasound yesterday, which showed findings consistent with a missed miscarriage. The scan reported an intrauterine gestational sac containing a fetus with a Crown-Rump Length (CRL) corresponding to 10 weeks + 2 days, with no visible fetal cardiac activity.
+  
+  Past Obstetric and Gynaecological History
+  
+  G2P1+0. Her first pregnancy was 3 years ago and resulted in a full-term spontaneous vaginal delivery of a healthy male infant weighing 3.2 kg at a General Hospital. There was no history of postpartum haemorrhage.
+  
+  Menarche was at 13 years. She has regular 28-day menstrual cycles. No history of pelvic inflammatory disease or previous use of intrauterine contraceptive devices.
+  
+  Past Medical History
+  
+  Not a known hypertensive or diabetic. No history of sickle cell disease; genotype AA.
+  
+  No previous pelvic or abdominal surgeries. No known drug allergies.
+  
+  Social History
+  
+  Monogamous marriage. Does not smoke or consume alcohol. Resides in a 2-bedroom apartment with good ventilation and access to treated pipe-borne water.
+  
+  Review of Systems
+  
+  RS: No cough or chest pain.
+  
+  CVS: No palpitations or orthopnoea.
+  
+  GIT: No constipation or diarrhoea.
+  
+  CNS: No headaches or blurred vision.
+  
+  MSS: No joint pains.
+  
+  Physical Examination
+  
+  General Examination
+  
+  A young woman in no obvious respiratory or painful distress.
+  
+  Acutely ill-looking: No.
+  Pallor: No.
+  Jaundice: No.
+  Dehydration: No.
+  Pedal oedema: No.
+  Febrile to touch: No.
+  
+  Vital Signs
+  
+  Pulse Rate: 82 bpm, regular, normal volume.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 18 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  Abdominal Examination
+  
+  Inspection: Gravid abdominal enlargement consistent with early second-trimester pregnancy. No previous surgical scars.
+  
+  Palpation: Symphysio-fundal height measures approximately 10 weeks, which is smaller than the dates of 14 weeks. Uterus is non-tender.
+  
+  Auscultation: Fetal heart sounds not heard with a handheld Doppler.
+  
+  Pelvic Examination
+  
+  Speculum Examination: Cervix appears healthy. No active bleeding. No products of conception seen in the vaginal vault.
+  
+  Digital Examination: Cervical os is closed. No adnexal tenderness or palpable masses.
+  
+  ASSESSMENT
+  
+  Missed miscarriage at 14 weeks EGA by LMP, with fetal size corresponding to approximately 10 weeks + 2 days.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Anembryonic pregnancy — unlikely because a fetal pole is visualized.
+  
+  2. Threatened miscarriage — unlikely in the absence of vaginal bleeding and with a closed cervical os.
+  
+  3. Hydatidiform mole — unlikely given the ultrasound finding of a recognizable fetus.
+  
+  INVESTIGATIONS
+  
+  1. Repeat Obstetric Ultrasound:
+  - Confirm absence of fetal cardiac activity if the initial scan did not definitively establish fetal demise.
+  - A repeat scan should be performed according to appropriate diagnostic criteria rather than relying solely on the absence of fetal heart activity on a single potentially uncertain scan.
+  
+  2. Full Blood Count (FBC):
+  - Assess haemoglobin/PCV and establish baseline white cell count.
+  
+  3. Blood Group and Rh Typing:
+  - Determine ABO and Rh status and assess the need for anti-D immunoglobulin according to current protocol.
+  
+  4. Urinalysis:
+  - Assess for urinary abnormalities or infection where clinically indicated.
+  
+  5. Clotting Profile:
+  - PT/INR and APTT are not routinely required in an early missed miscarriage but may be considered if there has been prolonged retention of a non-viable pregnancy, significant bleeding, or clinical suspicion of coagulopathy.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  The patient should be counseled sensitively regarding the diagnosis of missed miscarriage and the available management options, including expectant, medical, and surgical management. The choice should take into account her clinical condition, gestational age, preferences, and local expertise/resources.
+  
+  1. Expectant Management:
+  - Await spontaneous expulsion of the products of conception.
+  - May be offered to a clinically stable patient without heavy bleeding, infection, or other contraindications who is comfortable with waiting.
+  - Explain that the timing of spontaneous expulsion is unpredictable and may take several weeks.
+  - Arrange appropriate follow-up and provide clear instructions regarding warning signs.
+  
+  2. Medical Management:
+  - Misoprostol may be used to induce cervical ripening and uterine contractions.
+  - At this gestational age, the appropriate misoprostol regimen should follow the locally approved protocol for second-trimester/late first-trimester pregnancy loss rather than automatically applying a <12-week regimen.
+  - Provide appropriate analgesia, e.g. Ibuprofen 400 mg orally 8-hourly as required, if not contraindicated, or Paracetamol 1 g orally 8-hourly as required.
+  - Counsel regarding expected abdominal cramps, vaginal bleeding, nausea, vomiting, diarrhoea, shivering, and transient fever.
+  - Clinical assessment and/or ultrasound may be used to confirm completion according to symptoms and local protocol.
+  
+  3. Surgical Management:
+  - Consider surgical evacuation if the patient prefers immediate completion, if medical/expectant management is unsuccessful, or if there is heavy or persistent bleeding, infection, or other clinical indication.
+  - Manual Vacuum Aspiration (MVA) is generally appropriate for early pregnancy loss when the uterine size and local expertise/equipment permit.
+  - At approximately 14 weeks by dates, the choice of evacuation technique should take into account the actual uterine/fetal size, local expertise, and available equipment. Where MVA is unsuitable, an appropriate suction evacuation or other method should be used according to local protocol.
+  - Provide appropriate analgesia/anaesthesia and monitoring.
+  
+  4. Post-procedure Care:
+  - Assess Rh status and administer anti-D immunoglobulin when indicated according to current local/national protocol. The dose should be based on the available preparation and gestational age; avoid specifying a fixed 50 microgram/250 IU dose without confirming the appropriate local product and protocol.
+  - Provide bereavement counseling and psychological support.
+  - Discuss future pregnancy plans and reassure the patient that an isolated early pregnancy loss does not usually imply infertility.
+  - Offer contraception if she wishes to delay another pregnancy.
+  - Advise immediate return for heavy vaginal bleeding, severe or worsening abdominal pain, dizziness/syncope, fever, or foul-smelling vaginal discharge.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-59',
+    title: 'Missed Miscarriage at 10 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Missed Miscarriage',
+    symptoms: [
+      'Regression of pregnancy symptoms',
+      'Non-viable intrauterine pregnancy',
+      'Previous miscarriage',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '28-year-old G2P0+1 woman at 10 weeks gestation by LMP with regression of early pregnancy symptoms for 1 week. Ultrasound demonstrates an intrauterine fetal pole with CRL 18 mm and absent fetal cardiac activity, consistent with early pregnancy loss/missed miscarriage.',
+    content: `GYNAE CLINIC
+  
+  Patient Identification
+  
+  A 28-year-old female trader who resides in Mushin, Lagos State. She is Yoruba. G2P0+1, with one previous spontaneous miscarriage.
+  
+  Presenting Complaints
+  
+  1. Routine ultrasound scan finding of a non-viable fetus today.
+  2. Regression of pregnancy symptoms x 1/52.
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well and was 10 weeks pregnant by her Last Menstrual Period (LMP). She had previously confirmed the pregnancy with a urine pregnancy test.
+  
+  About 1 week ago, she noticed a gradual disappearance of early pregnancy symptoms, particularly morning sickness and breast tenderness. There was no history of vaginal bleeding, lower abdominal pain, drainage of liquor, or passage of fleshy masses per vaginam.
+  
+  There was no history of fever, trauma, use of herbal concoctions, or use of unprescribed medications.
+  
+  She presented for a routine antenatal ultrasound today, which showed an intrauterine gestational sac containing a fetal pole with a Crown-Rump Length (CRL) of 18 mm, corresponding to approximately 8 weeks + 2 days, with no visible fetal cardiac activity.
+  
+  Past Medical and Surgical History
+  
+  She is not a known hypertensive, diabetic, or asthmatic.
+  
+  Genotype: AA.
+  
+  She had a previous spontaneous miscarriage 2 years ago at 9 weeks gestation, which was managed expectantly at a private facility.
+  
+  No history of previous pelvic or abdominal surgery.
+  
+  Drug and Allergy History
+  
+  Currently on routine antenatal medications, including folic acid and iron supplements.
+  
+  No known drug allergies.
+  
+  Family and Social History
+  
+  Married in a monogamous setting.
+  
+  Does not smoke or consume alcohol.
+  
+  Resides in a room-and-parlour apartment with good ventilation.
+  
+  Review of Systems
+  
+  CNS: No headache or dizziness.
+  
+  RS: No cough or dyspnoea.
+  
+  CVS: No palpitations or chest pain.
+  
+  GIT: No nausea or vomiting.
+  
+  Gynae: LMP was 10 weeks ago. Menstrual cycles are regular, occurring every 28 days. No history of vaginal discharge.
+  
+  Physical Examination
+  
+  General Examination
+  
+  A young woman, conscious and alert, not in any obvious respiratory or painful distress.
+  
+  Afebrile, temperature 36.7°C.
+  
+  Not pale, anicteric, well hydrated, with no pedal oedema.
+  
+  Vital Signs
+  
+  PR: 82 bpm, regular, normal volume.
+  BP: 110/70 mmHg.
+  RR: 18 cpm.
+  SpO₂: 98% on room air.
+  
+  Abdominal Examination
+  
+  Abdomen is flat and moves with respiration. No surgical scars.
+  
+  Symphysio-fundal height is not palpable, appropriate for early pregnancy.
+  
+  No areas of tenderness or palpable masses.
+  
+  Pelvic Examination
+  
+  Speculum Examination
+  
+  Cervix appears healthy and the cervical os is closed. No blood or abnormal discharge is seen in the vaginal vault.
+  
+  Digital Examination
+  
+  Cervix is firm and the os is closed. No cervical motion tenderness. Uterus is bulky, approximately 8-week size.
+  
+  ASSESSMENT
+  
+  Missed miscarriage/early pregnancy loss at approximately 10 weeks gestation by LMP.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Anembryonic pregnancy — unlikely because a fetal pole is visualized.
+  
+  2. Hydatidiform mole — unlikely given the ultrasound findings.
+  
+  3. Ectopic pregnancy — unlikely given the documented intrauterine pregnancy.
+  
+  INVESTIGATIONS
+  
+  1. Full Blood Count (FBC):
+  - Assess haemoglobin/PCV and establish a baseline.
+  
+  2. Blood Group and Rh Typing:
+  - Determine ABO and Rh status and assess the need for anti-D immunoglobulin according to current local protocol.
+  
+  3. Urinalysis:
+  - Assess for urinary abnormalities or infection where clinically indicated.
+  
+  4. Formal Obstetric Ultrasound:
+  - Repeat if the initial scan was not performed using appropriate diagnostic criteria or if there is any uncertainty regarding fetal viability.
+  - Confirm absence of fetal cardiac activity and assess for other intrauterine or adnexal pathology.
+  
+  5. Serum β-hCG:
+  - Not routinely required when ultrasound criteria definitively establish a non-viable intrauterine pregnancy.
+  - May be considered when ultrasound findings are inconclusive.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Counseling:
+  - Explain the diagnosis sensitively to the patient and her partner, where appropriate.
+  - Reassure the patient that early pregnancy loss is common and is usually not caused by routine physical activity, sexual intercourse, or something she did.
+  - Discuss expectant, medical, and surgical management options, including their benefits, limitations, expected duration, and potential complications.
+  - Allow the patient to participate in choosing the management option where clinically appropriate.
+  
+  2. Anti-D Immunoglobulin:
+  - Determine the patient's Rh status.
+  - If Rh-negative, administer anti-D immunoglobulin according to the current local/national protocol and the method of management, particularly if surgical evacuation is performed.
+  
+  MANAGEMENT OPTIONS
+  
+  A. MEDICAL MANAGEMENT
+  
+  - Medication: Misoprostol.
+  - For missed miscarriage before 14 weeks, use the locally recommended evidence-based misoprostol regimen. Where mifepristone is available, pretreatment with mifepristone followed by misoprostol may improve treatment effectiveness.
+  - Where misoprostol is used alone, an appropriate regimen is 800 micrograms administered vaginally, sublingually, or buccally according to local protocol.
+  - Provide appropriate analgesia and clear instructions regarding expected bleeding, cramping, and when to seek urgent medical attention.
+  - Follow-up should confirm completion clinically and/or with ultrasound according to symptoms and local protocol.
+  
+  - Advantages: Avoids an operative procedure and anaesthesia and can allow the patient greater privacy and control.
+  
+  B. SURGICAL MANAGEMENT
+  
+  - Procedure: Manual Vacuum Aspiration (MVA) or suction evacuation.
+  - Indications include heavy or persistent bleeding, haemodynamic instability, infection/sepsis, failed medical or expectant management, or patient preference.
+  - MVA is an appropriate method of uterine evacuation for early pregnancy loss where trained personnel and appropriate equipment are available.
+  - May be performed under local anaesthesia with a paracervical block, with additional analgesia or sedation where appropriate.
+  - Send products of conception for histopathological examination when clinically indicated, particularly where there are atypical features, recurrent pregnancy loss, or suspicion of gestational trophoblastic disease.
+  
+  C. EXPECTANT MANAGEMENT
+  
+  - Allow spontaneous expulsion of the pregnancy tissue with appropriate clinical support and follow-up.
+  - The timing of spontaneous completion is variable and may take several weeks.
+  - Discuss the possibility of prolonged bleeding and the potential need for subsequent medical or surgical management.
+  - Appropriate only when the patient is clinically stable, has no evidence of infection or significant haemorrhage, and is comfortable with waiting.
+  
+  FOLLOW-UP AND REHABILITATION
+  
+  - Prescribe appropriate analgesia, e.g. Ibuprofen 400 mg orally 8-hourly as required, if not contraindicated.
+  - Counsel regarding expected vaginal bleeding and abdominal cramps following medical or expectant management.
+  - Advise urgent presentation for heavy bleeding, severe or worsening abdominal pain, dizziness/syncope, fever, or foul-smelling vaginal discharge.
+  - Provide emotional and psychological support and acknowledge the impact of pregnancy loss.
+  - Offer contraceptive counselling if desired.
+  - Fertility generally returns rapidly following early pregnancy loss, and there is usually no medical requirement to delay attempting another pregnancy once the patient is physically and emotionally ready.
+  - Arrange follow-up based on the selected management method to confirm resolution/completion and assess the patient's recovery.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-58',
+    title: 'Inevitable Miscarriage at 10 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Emergency',
+    condition: 'Inevitable Miscarriage',
+    symptoms: [
+      'Vaginal bleeding',
+      'Lower abdominal pain',
+      'Early pregnancy',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '29-year-old G2P1+0 woman at 10 weeks + 4 days gestation presenting with 6 hours of increasing bright-red vaginal bleeding and 4 hours of worsening cramping lower abdominal pain. Examination reveals active bleeding and a dilated cervical os with products of conception palpable at the internal os, consistent with an inevitable miscarriage.',
+    content: `GYNae EMERGENCY
+  
+  Patient Identification
+  
+  Mrs. A.B., a 29-year-old tailor who resides in Gbagada, Lagos State. She is Yoruba and in a monogamous marriage. G2P1+0 (1 alive).
+  
+  Obstetric Dates
+  
+  LMP: 10 weeks ago
+  EDD: 30 weeks from now
+  EGA: 10 weeks + 4 days
+  
+  Presenting Complaints
+  
+  1. Vaginal bleeding x 6h
+  2. Lower abdominal pain x 4h
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 6 hours prior to presentation when she noticed the sudden onset of bright-red vaginal bleeding. The bleeding was initially a trickle but increased in volume, soaking two sanitary pads within 4 hours. There is no history of passage of fleshy masses or clots.
+  
+  Two hours after the onset of bleeding, she developed a dull, cramping lower abdominal pain which has progressively worsened. The pain is suprapubic and radiates to the lower back.
+  
+  There is no history of trauma, recent sexual intercourse, or use of herbal concoctions (agbo). She reports symptoms of early pregnancy, including morning sickness and breast tenderness, over the last month.
+  
+  Past Obstetric History
+  
+  G1: 2021, spontaneous vaginal delivery at a General Hospital, male infant weighing 3.2 kg, currently alive and well.
+  
+  No history of previous miscarriages or terminations of pregnancy.
+  
+  Past Medical/Surgical History
+  
+  No known history of hypertension or diabetes mellitus. No previous pelvic surgeries or uterine curettage.
+  
+  Social History
+  
+  Does not smoke or drink alcohol. Resides in a 2-bedroom apartment with good ventilation.
+  
+  Review of Systems
+  
+  CNS: No dizziness or loss of consciousness.
+  
+  RS: No cough or chest pain.
+  
+  CVS: No palpitations.
+  
+  GIT: No nausea or vomiting.
+  
+  Physical Examination
+  
+  General Examination
+  
+  A young woman in painful distress, not pale, anicteric, not dehydrated, with no pedal oedema.
+  
+  Vital Signs
+  
+  BP: 110/70 mmHg
+  PR: 94 bpm, regular, normal volume
+  RR: 20 cpm
+  Temperature: 36.6°C
+  SpO₂: 98% on room air
+  
+  Abdominal Examination
+  
+  Abdomen is full and moves with respiration. Suprapubic tenderness is present.
+  
+  Symphysio-fundal height is not easily palpable, consistent with early first-trimester gestation.
+  
+  Pelvic Examination
+  
+  Speculum Examination
+  
+  Moderate active bleeding noted through the cervical os. No visible vaginal or cervical lacerations.
+  
+  Digital Vaginal Examination
+  
+  Cervix is soft and the cervical os is dilated to approximately 2 cm. Products of conception are palpable at the internal os. No adnexal masses or tenderness.
+  
+  ASSESSMENT
+  
+  Inevitable miscarriage at 10 weeks + 4 days gestation.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Incomplete miscarriage.
+  
+  2. Threatened miscarriage — less likely given the dilated cervical os.
+  
+  3. Ectopic pregnancy — less likely but should be excluded if the pregnancy location has not previously been confirmed, particularly with an atypical clinical course or ultrasound findings.
+  
+  4. Molar pregnancy.
+  
+  INVESTIGATIONS
+  
+  1. Urgent Packed Cell Volume (PCV) or Full Blood Count:
+  - Assess degree of blood loss and baseline haemoglobin.
+  
+  2. Blood Group and Rh Typing:
+  - Determine ABO/Rh status and facilitate blood preparation if required.
+  
+  3. Urinalysis:
+  - Assess for urinary infection and other abnormalities.
+  
+  4. Pelvic Ultrasound Scan:
+  - Confirm intrauterine pregnancy/location where necessary.
+  - Assess fetal viability and determine the extent of retained products of conception.
+  - Assess for features suggestive of molar pregnancy or other pelvic pathology where indicated.
+  
+  5. Group and Crossmatch:
+  - If bleeding is significant or ongoing and blood transfusion may become necessary.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  General Measures
+  
+  - Admit for observation, assessment, and stabilization.
+  - Assess airway, breathing, circulation and monitor vital signs regularly.
+  - Keep NPO if surgical evacuation is anticipated.
+  - Secure intravenous access with a large-bore cannula.
+  - Commence appropriate IV crystalloid resuscitation if clinically indicated by ongoing bleeding or haemodynamic compromise. Avoid routine fixed-volume maintenance such as 1 L 8-hourly without assessing the patient's clinical status.
+  
+  Medical Management
+  
+  - Analgesia: Give appropriate analgesia according to severity of pain and planned intervention. NSAIDs such as ibuprofen may be used when not contraindicated; parenteral analgesia may be used when oral medication is unsuitable.
+  - Discuss available options for uterine evacuation, including expectant, medical, and surgical management where clinically appropriate and depending on bleeding, ultrasound findings, patient preference, and local protocol.
+  - If medical management with misoprostol is selected for an early pregnancy loss, use the locally recommended evidence-based regimen.
+  - Routine prophylactic antibiotics are not required for uncomplicated medical management of miscarriage. Antibiotics should be given when there is suspected or confirmed infection or when indicated according to the surgical procedure and local protocol.
+  - Rh(D) immunoglobulin: assess the need according to the patient's Rh status, gestational age, management method, and current local/national protocol.
+  
+  Surgical Management
+  
+  - Manual Vacuum Aspiration (MVA) may be offered where appropriate, particularly if there is heavy or persistent bleeding, haemodynamic instability, suspected infection, significant retained products, failed medical/expectant management, or patient preference.
+  - MVA is an appropriate uterine evacuation method for early pregnancy loss where trained personnel and appropriate equipment are available.
+  - Provide appropriate analgesia, aseptic precautions, and monitoring during the procedure.
+  
+  Follow-up
+  
+  - Counsel the patient and her partner, where appropriate, regarding the nature and likely course of the pregnancy loss.
+  - Provide emotional and psychological support and discuss warning symptoms requiring urgent return, including heavy bleeding, severe abdominal pain, fever, dizziness, or syncope.
+  - Offer contraceptive counselling before discharge if desired.
+  - Arrange follow-up according to the management method and clinical course, with assessment for resolution of symptoms and confirmation of complete evacuation where clinically indicated.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'ob-57',
+    title: 'Primary Postpartum Haemorrhage',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Obstetric Emergency',
+    condition: 'Primary Postpartum Haemorrhage Secondary to Uterine Atony',
+    symptoms: [
+      'Heavy vaginal bleeding',
+      'Passage of large blood clots',
+      'Lightheadedness',
+      'Extreme weakness',
+      'Palpitations',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '28-year-old G3P2+0 woman with severe primary postpartum haemorrhage following spontaneous vaginal delivery, most likely secondary to uterine atony, presenting with significant blood loss and hypovolaemic shock.',
+    content: `OBSTETRIC EMERGENCY
+  
+  Patient Identification
+  
+  A 28-year-old G3 P2+0 woman, a tailor residing in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is a Muslim.
+  
+  Presenting Complaint
+  
+  1. Heavy vaginal bleeding x 2h following delivery of a live male infant.
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until about 2 hours ago when she had a spontaneous vaginal delivery of a term male infant at a local maternity centre. The delivery of the baby was reportedly unremarkable. However, approximately 20 minutes after the delivery of the placenta, the patient started bleeding profusely per vaginam. The blood was described as bright red with large clots. Estimated blood loss was about 3–4 stainless steel kidney dishes (approximately 1.5 litres).
+  
+  There is no history of preceding abdominal trauma or use of native herbs to augment labour. No history of dizziness or fainting prior to the onset of bleeding, but she currently complains of lightheadedness and extreme weakness. No history of bleeding from other sites such as the gums or needle-prick sites.
+  
+  Past Obstetric History
+  
+  G1: 2018, SVD, term, male, alive and well. No complications.
+  
+  G2: 2021, SVD, term, female, alive and well. No complications.
+  
+  Index Pregnancy (G3): Booked at a primary health centre. Attended 3 ANC visits. Received iron/folic acid and Tetanus Toxoid. Last PCV done 1 month ago was 34%.
+  
+  Past Medical History
+  
+  No known history of hypertension, diabetes mellitus, or sickle cell disease. No previous history of blood transfusion or bleeding disorders. No history of previous uterine surgery or myomectomy.
+  
+  Family and Social History
+  
+  In a monogamous marriage. Husband is a commercial driver. No family history of twinning or bleeding diathesis. Nonsmoker and does not consume alcohol.
+  
+  Review of Systems
+  
+  CNS: Lightheadedness, no loss of consciousness.
+  
+  CVS: Palpitations, no chest pain.
+  
+  RS: No shortness of breath.
+  
+  GIT: No nausea or vomiting.
+  
+  MSS: Generalized body weakness.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking young woman, in respiratory distress, severely pale, not jaundiced, with no pedal oedema. Skin is cold and clammy to touch.
+  
+  Vital Signs
+  
+  PR: 128 bpm, low volume, thready.
+  
+  BP: 80/50 mmHg.
+  
+  RR: 28 cpm.
+  
+  Temp: 36.4°C.
+  
+  SpO2: 94% on room air.
+  
+  Abdominal Examination
+  
+  Inspection: Gravid-sized abdomen, no visible scars or dilated veins.
+  
+  Palpation: Fundus is palpable at the level of the umbilicus and feels soft and boggy. No other masses felt.
+  
+  Auscultation: Bowel sounds are present and normal.
+  
+  Pelvic Examination
+  
+  Inspection: Brisk active bleeding from the introitus with visible clots. No obvious perineal or labial lacerations.
+  
+  Speculum Examination: Cervix is dilated. No active bleeding from cervical or vaginal wall lacerations seen initially; assessment is limited by brisk bleeding.
+  
+  Digital Examination: Uterus is soft and boggy. No obvious retained placental fragments felt in the lower uterine segment, but the placenta should be re-examined for completeness.
+  
+  ASSESSMENT
+  
+  Primary postpartum haemorrhage secondary to uterine atony in a G3 P2+0 woman, complicated by hypovolaemic shock.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Uterine atony — most likely.
+  2. Retained products of conception.
+  3. Genital tract lacerations, including cervical or vaginal lacerations.
+  4. Uterine inversion.
+  
+  INVESTIGATIONS
+  
+  1. PCV (stat) and Full Blood Count (FBC).
+  2. Blood grouping and cross-matching of at least 4 units of compatible blood.
+  3. Clotting profile (PT, PTTK, INR).
+  4. Bedside clotting time (Lee-White).
+  5. Urinalysis and monitoring of urine output via catheterization.
+  
+  PLAN
+  
+  1. Call for Help
+  
+  - Immediately call the senior registrar, consultant, anaesthetist, nursing staff, and blood bank/laboratory personnel.
+  
+  2. Airway and Breathing
+  
+  - Secure and maintain airway.
+  - Administer high-flow oxygen via face mask, particularly given the hypovolaemic shock and respiratory distress.
+  
+  3. Circulation
+  
+  - Secure two large-bore (14G or 16G) intravenous cannulas.
+  - Commence rapid warmed IV crystalloid resuscitation with Normal Saline or Ringer's Lactate while arranging urgent blood transfusion.
+  - Run the initial 1 L rapidly according to the patient's haemodynamic response.
+  - Send blood for urgent grouping and cross-matching and activate the local massive obstetric haemorrhage/blood transfusion protocol where available.
+  - Catheterize with a Foley catheter to monitor hourly urine output, targeting at least 30 mL/hour.
+  
+  4. Arrest Bleeding (Mechanical)
+  
+  - Perform immediate bimanual uterine compression.
+  - Perform continuous external uterine massage (rub up the fundus).
+  - Inspect the placenta to confirm that it is complete.
+  - Continue assessment for genital tract trauma and uterine inversion.
+  
+  5. Pharmacological Management (Uterotonics)
+  
+  - Oxytocin: 20–40 units in 1 L of Normal Saline or Ringer's Lactate, administered by IV infusion according to response and local protocol. Avoid rapid IV bolus administration because of the risk of severe hypotension.
+  - Ergometrine: 0.2 mg IM or slow IV if not contraindicated. Avoid in patients with hypertension or significant cardiovascular disease.
+  - Misoprostol: 800 micrograms sublingually or rectally according to local protocol.
+  - Tranexamic Acid: 1 g IV over 10 minutes as soon as possible and within 3 hours of birth. A second 1 g dose may be given if bleeding continues after 30 minutes or restarts within 24 hours.
+  
+  6. Surgical/Advanced Interventions (if Bleeding Persists)
+  
+  - Proceed to examination under anaesthesia (EUA) to identify and repair deep genital tract lacerations and assess for retained products.
+  - Perform uterine balloon tamponade where indicated and available.
+  - If bleeding persists despite medical and mechanical measures, proceed to appropriate surgical intervention, which may include uterine artery ligation, compression sutures such as B-Lynch sutures, or emergency hysterectomy as a life-saving measure.
+  
+  7. Post-Stabilization
+  
+  - Continue close monitoring of vital signs, initially every 15 minutes or more frequently according to clinical status.
+  - Continue strict input/output monitoring and serial assessment of bleeding.
+  - Administer prophylactic antibiotics according to the procedure performed and local protocol.
+  - Correct acute blood loss anaemia with appropriate blood products guided by clinical status, ongoing bleeding, and repeat PCV/FBC.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'ob-56',
+    title: 'Uterine Leiomyoma with Symptomatic Anaemia',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Abnormal Uterine Bleeding due to Uterine Leiomyoma',
+    symptoms: [
+      'Heavy and prolonged menstrual bleeding',
+      'Passage of large blood clots and menstrual flooding',
+      'Lower abdominal pain during menses',
+      'Dizziness and lightheadedness',
+      'Easy fatigability',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 38-year-old G4P4 woman with 3 months of heavy and prolonged menstrual bleeding, passage of large clots, menstrual flooding, and a 14-week-sized irregular firm uterus, with clinical features of secondary symptomatic anaemia, consistent with abnormal uterine bleeding due to uterine leiomyoma.',
+    content: `GYNAE CLINIC
+  
+  Patient Seen
+  A 38-year-old G4P4 woman, civil servant, residing in Ibadan, Oyo State, Yoruba by tribe.
+  
+  PC:
+  Heavy menstrual bleeding × 3/12
+  Dizziness and easy fatigability × 1/52
+  
+  HPC:
+  The patient was apparently well until 3 months ago when she noticed that her menstrual periods became significantly heavier and prolonged.
+  
+  Her menstrual cycles were previously regular, occurring every 28 days with 4 days of flow, but the duration of bleeding subsequently increased to 10–12 days. She reports passage of large blood clots and menstrual flooding, requiring the use of up to 8 heavily soaked sanitary pads per day compared with her usual 3 pads.
+  
+  The bleeding is associated with dull, aching lower abdominal pain during menstruation.
+  
+  There is no history of intermenstrual bleeding, post-coital bleeding, or abnormal vaginal discharge.
+  
+  There is no history of easy bruising, epistaxis, or bleeding from other orifices.
+  
+  About 1 week ago, she developed lightheadedness and dizziness, particularly when standing up from a sitting position. She also reports easy fatigability, even while performing routine household chores.
+  
+  There is no history of palpitations, neck swelling, or heat intolerance.
+  
+  Obstetric and Gynaecological History:
+  G4P4+0, all four children alive and delivered via spontaneous vaginal delivery.
+  Last child is 5 years old.
+  LMP: 6 days ago; currently on day 6 of menses.
+  
+  Contraceptive History:
+  No current use of hormonal contraceptives.
+  Previously used Copper T IUCD, which was removed 2 years ago due to similar but milder symptoms.
+  
+  PMH:
+  Not a known hypertensive or diabetic.
+  No history of previous surgeries or blood transfusions.
+  No known drug allergies.
+  
+  DH:
+  Currently takes over-the-counter paracetamol for pelvic pain.
+  No history of herbal concoction use or anticoagulant use.
+  
+  Family and Social History:
+  Married in a monogamous setting.
+  Non-smoker.
+  Does not consume alcohol.
+  No family history of uterine or breast malignancies.
+  
+  ROS:
+  CNS: Occasional headaches. No loss of consciousness.
+  
+  CVS: No orthopnoea or PND.
+  
+  RS: No cough or chest pain.
+  
+  GIT: No change in bowel habits.
+  
+  MSS: No bone pain or joint swellings.
+  
+  O/E:
+  Middle-aged woman, not in obvious respiratory distress.
+  Significantly pale, not icteric, no pedal oedema.
+  No peripheral lymphadenopathy.
+  
+  Weight: 72 kg
+  Height: 1.62 m
+  BMI: 27.4 kg/m²
+  
+  PR 106 bpm, regular, full volume
+  BP 100/60 mmHg, supine
+  RR 20 cpm
+  Temp 36.7°C
+  SpO₂ 98% on room air
+  
+  ABD:
+  Flat, moves with respiration.
+  No superficial dilated veins or scars.
+  Firm, irregular, non-tender suprapubic mass palpable, approximately 14-week gestational size.
+  Mass is mobile from side to side; lower limit cannot be reached.
+  No hepatosplenomegaly.
+  
+  Pelvic Examination:
+  Speculum: Normal-looking cervix with no cervical motion tenderness. Mild active bleeding noted from the external os.
+  
+  Bimanual: Uterus enlarged to approximately 14-week size, irregular and firm. Adnexa free and non-tender.
+  
+  ASS:
+  Abnormal uterine bleeding (AUB-L) secondary to uterine leiomyoma with secondary symptomatic anaemia.
+  
+  DIFFERENTIALS:
+  Adenomyosis
+  Endometrial hyperplasia
+  Endometrial polyp
+  
+  INVESTIGATIONS:
+  Full Blood Count: To assess haemoglobin/PCV level and platelet count.
+  
+  Pelvic ultrasound, preferably transvaginal: To confirm uterine fibroids, determine their location and assess the endometrium.
+  
+  Urine pregnancy test: To exclude pregnancy-related bleeding.
+  
+  Serum ferritin: To assess iron stores.
+  
+  Endometrial biopsy: To assess the endometrium where indicated, particularly if there is endometrial thickening or other risk factors for endometrial pathology.
+  
+  PLAN:
+  Acute Care:
+  Assess haemodynamic status and severity of anaemia.
+  
+  Admit for observation if severely anaemic or haemodynamically unstable.
+  
+  Secure IV access and commence appropriate IV fluid resuscitation as clinically indicated.
+  
+  Group and cross-match 2 units of blood.
+  
+  Consider blood transfusion if there is severe symptomatic anaemia or haemodynamic compromise.
+  
+  Medical Management:
+  Tranexamic acid 1 g TDS for 3–5 days during heavy bleeding to reduce menstrual blood loss.
+  
+  Mefenamic acid 500 mg TDS during menses for reduction of menstrual blood loss and analgesia.
+  
+  Hormonal therapy may be considered for control of bleeding, including combined oral contraceptive pills or oral progestogens such as norethisterone.
+  
+  Norethisterone 5 mg TDS from day 5–25 of the cycle may be used where appropriate for control of heavy menstrual bleeding.
+  
+  DMPA or a levonorgestrel-releasing intrauterine system may be considered for longer-term control where appropriate.
+  
+  GnRH agonists such as goserelin may be considered for short-term fibroid shrinkage, particularly prior to surgery.
+  
+  Supportive Care:
+  Ferrous sulphate 200 mg TDS and folic acid 5 mg daily for at least 3 months to treat iron-deficiency anaemia, with adjustment according to investigation results and tolerance.
+  
+  Definitive Management:
+  Discuss treatment options after stabilization and confirmation of fibroid characteristics.
+  
+  Myomectomy if she desires uterine preservation.
+  
+  Total abdominal hysterectomy if family size is completed and definitive treatment is desired.
+  
+  Uterine artery embolization may be considered where available and appropriate, particularly if she prefers a minimally invasive option.
+  
+  FOLLOW-UP:
+  Review with FBC, ferritin and pelvic ultrasound results to assess severity of anaemia, fibroid characteristics and guide definitive management.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-55',
+    title: 'Primary Ovarian Insufficiency',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Primary Ovarian Insufficiency',
+    symptoms: [
+      'Secondary amenorrhoea',
+      'Hot flashes and night sweats',
+      'Vaginal dryness and dyspareunia',
+      'Infertility',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 29-year-old G0P0 woman with 8 months of amenorrhoea, vasomotor symptoms, vaginal dryness, and 2 years of infertility, with a family history of early menopause, consistent with primary ovarian insufficiency.',
+    content: `GYNAE CLINIC
+  
+  Patient Seen
+  A 29-year-old G0P0 woman, teacher, residing in Ogbomosho, Oyo State, Yoruba, currently in a monogamous marriage.
+  
+  PC:
+  Cessation of menses × 8/12
+  Hot flashes and night sweats × 5/12
+  Inability to conceive × 2/52
+  
+  HPC:
+  The patient was apparently well with regular menstrual cycles, 28-day cycle with 4 days flow, until about 12 months ago when she noticed her cycles became infrequent and scanty. This eventually progressed to total cessation of menses 8 months ago.
+  
+  She has since experienced recurrent, sudden sensations of heat involving the chest, neck, and face, often followed by profuse sweating, occurring about 4–5 times daily. These symptoms are more pronounced at night and occasionally disrupt sleep.
+  
+  She also reports vaginal dryness and associated pain during sexual intercourse (dyspareunia).
+  
+  She and her husband have been cohabiting and having regular unprotected intercourse for the past 2 years without conception. There is no history of galactorrhoea, visual disturbances, or headaches.
+  
+  No history of chronic cough, night sweats other than the vasomotor symptoms, or significant weight loss. No history of previous pelvic surgeries, mumps, or exposure to pelvic radiation or chemotherapy.
+  
+  PMH:
+  No known history of hypertension, diabetes mellitus, or asthma.
+  No history of autoimmune disorders such as systemic lupus erythematosus or thyroid disease.
+  
+  Gynaecological History:
+  G0P0+0.
+  Menarche at 13 years.
+  No previous use of hormonal contraceptives or intrauterine devices.
+  
+  Social History:
+  Does not smoke or consume alcohol.
+  
+  Family History:
+  Second of four children.
+  Elder sister reportedly stopped seeing her menses at 34 years.
+  No family history of Turner syndrome or other genetic disorders.
+  
+  ROS:
+  CNS: No headaches, mood swings, or irritability.
+  
+  CVS: No palpitations or chest pain.
+  
+  RS: No cough or dyspnoea.
+  
+  GIT: No abdominal pain or change in bowel habits.
+  
+  MSS: Occasional joint pains.
+  
+  O/E:
+  Young woman, not in apparent clinical distress.
+  Not pale, anicteric, not dehydrated.
+  No peripheral oedema.
+  No stigmata of Turner syndrome; no webbed neck or cubitus valgus. Height 1.62 m.
+  No vitiligo or skin hyperpigmentation.
+  
+  PR 76 bpm, regular, normal volume
+  BP 110/70 mmHg
+  RR 18 cpm
+  Temp 36.5°C
+  
+  Breast:
+  Symmetrical breasts, Tanner stage 5 development.
+  No masses or nipple discharge.
+  
+  ABD:
+  Flat, moves with respiration.
+  No areas of tenderness.
+  No palpable organs or masses.
+  
+  Pelvic Examination:
+  Normal female external genitalia.
+  Speculum: Vaginal mucosa appears thin and pale. Cervix is small and healthy-looking.
+  Bimanual: Small, firm, anteverted uterus. No adnexal masses or tenderness.
+  
+  ASS:
+  Primary ovarian insufficiency (POI) in a nulliparous woman.
+  
+  DIFFERENTIALS:
+  Hyperprolactinaemia
+  Hypogonadotropic hypogonadism
+  Polycystic ovary syndrome, less likely given the vasomotor symptoms and atrophic changes
+  Premature menopause secondary to occult autoimmune or genetic factors
+  
+  INVESTIGATIONS:
+  Serum FSH and LH to confirm hypergonadotropic hypogonadism; FSH typically >40 IU/L on two occasions at least 4 weeks apart.
+  Serum estradiol; expected to be low.
+  Serum prolactin and TSH to exclude other causes of secondary amenorrhoea.
+  Transvaginal ultrasound to assess ovarian volume, antral follicle count, and endometrial thickness.
+  Karyotyping, given age <30 years, to assess for chromosomal abnormalities including mosaic Turner syndrome.
+  Fasting blood glucose and anti-TPO antibodies to screen for associated autoimmune disorders.
+  
+  PLAN:
+  Counseling and Support:
+  Explain the diagnosis and its implications for fertility and long-term health.
+  Offer psychological support or referral to a counselor.
+  
+  Hormone Replacement Therapy:
+  The goal is to replace physiological oestrogen levels until the natural age of menopause to reduce the risk of osteoporosis and cardiovascular disease.
+  Combined HRT is required as she has an intact uterus.
+  
+  Option A:
+  Conjugated Equine Oestrogen 0.625–1.25 mg daily OR Micronized Estradiol 1–2 mg daily.
+  Plus Medroxyprogesterone Acetate 5–10 mg for the last 12–14 days of each cycle (cyclic) OR 2.5 mg daily (continuous).
+  
+  Cyclic therapy may be preferred in young women to allow withdrawal bleeding.
+  
+  Transdermal oestrogen, e.g. 100 microgram patches changed twice weekly, may be considered where there is increased risk of venous thromboembolism or liver disease.
+  
+  Bone Health:
+  Ensure adequate calcium intake, approximately 1000–1200 mg elemental calcium daily.
+  Vitamin D3 800–1000 IU daily.
+  Encourage regular weight-bearing exercise and avoidance of smoking and excessive caffeine.
+  
+  Infertility Management:
+  Counsel that spontaneous pregnancy is uncommon but can occur.
+  Discuss oocyte donation with IVF as the most viable option for achieving pregnancy.
+  Discuss adoption as an alternative family-building option.
+  
+  Vaginal Health:
+  If dyspareunia persists despite systemic HRT, consider topical vaginal oestrogen cream, e.g. Premarin cream 0.5 g applied 2–3 times weekly.
+  
+  FOLLOW-UP:
+  Review in 4 weeks with investigation results to formalize the HRT regimen.
+  Annual screening for thyroid dysfunction and blood pressure monitoring.
+  Periodic bone mineral density assessment with DEXA as clinically indicated.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-54',
+    title: 'Menopausal Syndrome',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Menopausal Syndrome',
+    symptoms: [
+      'Hot flushes and night sweats',
+      'Vaginal dryness',
+      'Dyspareunia',
+      'Poor sleep and irritability',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: 'A 52-year-old P4+0 woman with natural menopause presenting with frequent hot flushes, night sweats, vaginal dryness, dyspareunia, poor sleep, irritability, and examination findings consistent with genitourinary syndrome of menopause.',
+    content: `GYNAE CLINIC
+  
+  Patient Seen
+  A 52-year-old P4+0 civil servant residing in Ogbomosho, Oyo State, Yoruba.
+  
+  PC:
+  Hot flushes and night sweats × 6/12
+  Vaginal dryness and painful intercourse × 4/12
+  Poor sleep and irritability × 3/12
+  
+  HPC:
+  The patient was apparently well until about 18 months ago when she had her last menstrual period. Six months prior to presentation, she began experiencing recurrent episodes of sudden, intense warmth over her chest, neck, and face, lasting about 3 minutes. These episodes are often followed by profuse sweating and occur about 6–8 times a day.
+  
+  She also reports significant night sweats that often necessitate a change of nightwear and disrupt her sleep.
+  
+  Four months ago, she started noticing vaginal dryness which has made sexual intercourse increasingly painful and less frequent. There is associated mild vulvar itching but no abnormal vaginal discharge or odour.
+  
+  In the last 3 months, she has become easily irritable and complains of frequent mood swings and difficulty concentrating at work. She describes her sleep as unrefreshing due to frequent awakenings.
+  
+  There is no history of postmenopausal bleeding, breast lumps, or nipple discharge. There is no history of chronic bone pain, fragility fractures, or significant height loss. She denies palpitations, tremors, or heat intolerance.
+  
+  PMH:
+  Known hypertensive diagnosed 5 years ago, currently well controlled on Tab Amlodipine 5 mg daily.
+  No history of diabetes, asthma, or sickle cell disease.
+  No previous surgeries or history of DVT.
+  
+  Gynaecological and Obstetric History:
+  Menarche was at 13 years.
+  Previous menstrual cycles were regular until the perimenopausal transition began 2 years ago.
+  
+  P4+0 (4 surviving children), all delivered via SVD at term.
+  Last childbirth was 12 years ago.
+  
+  Contraceptive History:
+  Previously used an IUCD, which was removed 5 years ago.
+  
+  Social History:
+  Monogamous marriage.
+  Does not smoke or consume alcohol.
+  
+  Family History:
+  Mother had a similar age of onset for menopause.
+  No family history of breast, ovarian, or endometrial cancer.
+  
+  ROS:
+  CNS: Occasional tension-type headaches; no seizures.
+  
+  CVS: No chest pain or palpitations.
+  
+  RS: No cough or shortness of breath.
+  
+  GIT: Normal appetite; no change in bowel habits.
+  
+  MSS: No joint swellings or significant back pain.
+  
+  O/E:
+  Middle-aged woman, not acutely distressed.
+  Not pale, anicteric.
+  No pedal oedema.
+  No significant peripheral lymphadenopathy.
+  
+  BP 130/80 mmHg
+  PR 76 bpm, regular, normal volume
+  RR 18 cpm
+  Temp 36.6°C
+  SpO₂ 98% on room air
+  
+  Breast:
+  Breasts symmetrical.
+  No masses, skin puckering, or nipple discharge.
+  Axillary lymph nodes not palpable.
+  
+  ABD:
+  Flat, moves with respiration.
+  No areas of tenderness.
+  No organomegaly or palpable masses.
+  
+  Pelvic Examination:
+  Speculum: Vaginal mucosa appears pale and thinned with loss of rugae. No abnormal discharge or cervical lesions seen.
+  
+  Bimanual: Uterus atrophic, small, firm, non-tender, and mobile. Adnexa clear.
+  
+  RS:
+  Trachea central.
+  Chest expansion equal.
+  Lungs clear on auscultation.
+  
+  CVS:
+  S1 and S2 heard.
+  No murmurs.
+  
+  CNS:
+  Conscious and oriented in TPP.
+  No focal neurological deficits.
+  
+  ASS:
+  Menopausal syndrome (natural menopause) in a 52-year-old P4+0 woman.
+  
+  DIFFERENTIALS:
+  Hyperthyroidism
+  Anxiety disorder
+  Carcinoid syndrome
+  
+  INVESTIGATIONS:
+  Serum FSH and LH; expected FSH >40 IU/L.
+  Serum estradiol; expected to be low.
+  Pelvic ultrasound to assess endometrial thickness.
+  Thyroid function tests (TSH, T3, T4) to rule out hyperthyroidism.
+  Fasting blood glucose and lipid profile for metabolic risk assessment.
+  Mammography for routine breast cancer screening.
+  Urinalysis.
+  
+  PLAN:
+  Counseling and Lifestyle Modification:
+  Explain the physiological basis of menopause.
+  Advise wearing layered cotton clothing and maintaining a cool room temperature.
+  Encourage regular weight-bearing exercises such as brisk walking to maintain bone density.
+  Advise dietary modification with increased calcium-rich foods such as dairy products and green vegetables.
+  Avoid triggers such as caffeine and spicy foods.
+  
+  Hormonal Management:
+  As the patient has an intact uterus, combined oestrogen-progestogen HRT is required when systemic HRT is used to prevent endometrial hyperplasia.
+  Tab Prempak-C or similar continuous combined oestrogen-progestogen preparation, e.g. Conjugated Equine Oestrogen 0.625 mg + Medroxyprogesterone Acetate 2.5 mg daily.
+  For atrophic vaginitis, apply oestrogen vaginal cream, e.g. Premarin cream, twice weekly at night.
+  
+  Non-Hormonal Management:
+  If HRT is contraindicated or the patient prefers to avoid hormones:
+  Tab Venlafaxine 37.5 mg daily OR Tab Paroxetine 10 mg daily for vasomotor symptoms.
+  Tab Gabapentin 300 mg nocte to help with night flushes and sleep.
+  
+  Bone Health:
+  Tab Calcium Carbonate 600 mg BD.
+  Vitamin D3 1000 IU daily.
+  
+  FOLLOW-UP:
+  Review in 4 weeks to assess response to treatment and monitor for side effects such as breast tenderness or breakthrough spotting.
+  Annual blood pressure check and clinical breast examination.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
 
     {
         id: 'ob-53',

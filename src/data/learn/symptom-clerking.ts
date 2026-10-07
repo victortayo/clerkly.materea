@@ -9782,5 +9782,603 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
         `
       },
 
+      {
+        id: 'symptom-urinary-frequency',
+        title: 'Urinary Frequency',
+        category: 'Symptom Clerking',
+        subCategory: 'Renal',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Approach to Clerking a Patient with Urinary Frequency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+    </head>
+    <body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+    
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Approach to Clerking a Patient with Urinary Frequency</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .font-brand { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-base text-slate-700 dark:text-slate-300 max-w-3xl mx-auto px-4 sm:px-6 py-10 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Urinary Frequency</h1>
+    <p class="text-sm text-indigo-200">Urinary frequency is usually a straightforward UTI, but a freshwater contact history changes the picture considerably here - urinary schistosomiasis is endemic and needs praziquantel rather than routine antibiotics, and untreated over years carries a genuine bladder cancer risk. Genitourinary TB and new-onset diabetes are also worth active consideration rather than reflexively reaching for a UTI diagnosis. This guide focuses on the history and examination that separate these possibilities, before closing with investigations, differentials, and treatment.</p>
+  </div>
+</div>
+
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Characterizing the Frequency Itself</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>How many times a day, and how many times at night (nocturia)? Quantifying this helps gauge severity and track response to treatment.</li>
+      <li>Is a small amount passed each time despite the urge (suggests an irritated or inflamed bladder), or is a large volume passed each time (suggests true polyuria - more fluid being produced, as with diabetes or high fluid intake)?</li>
+      <li>Is there an accompanying urgency - a sudden, hard-to-delay need to urinate?</li>
+      <li>When did it start, and has it been getting worse?</li>
+      <li>How much fluid, caffeine, or alcohol is the patient taking in a typical day?</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Associated Symptoms - A System-by-System Sweep</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pain and discomfort:</span> burning on urination, suprapubic discomfort, or flank pain (the latter raising an upper urinary tract source).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood in the urine (ask directly and specifically):</span> has any blood been seen, and if so, at what point during urination - at the very end of the stream (terminal haematuria, a classic feature of urinary schistosomiasis), or throughout? This single question can point strongly towards a specific diagnosis.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Stream changes (particularly in men):</span> hesitancy, a weak stream, straining, dribbling, or a feeling of incomplete emptying - raises benign prostatic enlargement.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Discharge:</span> any urethral or vaginal discharge accompanying the urinary symptoms.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Metabolic:</span> excessive thirst, unexplained weight loss, or increased appetite - raises diabetes.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Constitutional:</span> fever (upper UTI), or night sweats and weight loss (raises TB).</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">In women:</span> last menstrual period and any possibility of pregnancy, which itself commonly causes increased frequency.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Directed Risk History - What to Specifically Ask, and Why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Freshwater contact:</span> ask specifically about swimming, fishing, farming, or washing in local rivers, lakes, ponds, or irrigation water, particularly in an area where this is common - this is an essential question given how common urinary schistosomiasis is locally, and it is easy to miss if not asked about directly.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes:</span> known diagnosis, family history, or risk factors.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">TB contact and HIV status:</span> relevant to genitourinary TB, which can present with chronic urinary symptoms and sterile-appearing urine on routine culture.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Sexual history:</span> asked privately, where a urethritis/STI cause is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous UTIs:</span> frequency and pattern of recurrence.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous kidney stones.</span></li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medications:</span> diuretic use.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Smoking history:</span> a recognized risk factor for bladder cancer, relevant alongside chronic schistosomiasis exposure.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Previous schistosomiasis diagnosis or treatment:</span> relevant to assessing ongoing risk and whether re-treatment or further workup is needed.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General and Abdominal Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Vital signs, including temperature.</li>
+      <li>Suprapubic tenderness or a palpable, distended bladder - the latter can support urinary retention.</li>
+      <li>Flank/costovertebral angle tenderness - supports an upper urinary tract source.</li>
+      <li>Blood pressure - relevant where renal involvement is a concern.</li>
+      <li>Pallor - relevant with chronic haematuria from any cause.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targeted Examination</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Digital rectal examination (in older men with stream symptoms)</span> - assesses prostate size and consistency; an enlarged, smooth prostate supports benign enlargement, while a hard, irregular prostate raises malignancy.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Genital examination</span> - where discharge or a lesion is suspected, conducted with consent.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic examination (in women)</span> - where a gynaecological contributor (such as prolapse) is suspected.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General signs of diabetes</span> - as covered in the relevant guide, where suggested by the history.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Painless, visible haematuria</span> - needs active workup for malignancy or advanced schistosomiasis, particularly with a long-standing untreated infection history; this should never be assumed to be "just" an infection without further evaluation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Fever with flank pain and systemic illness</span> - suggests upper UTI/pyelonephritis, needing prompt treatment to prevent renal damage or sepsis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Inability to void with a painful, distended bladder</span> - acute urinary retention, needing prompt catheterization.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">New-onset frequency with excessive thirst and weight loss</span> - screen actively for diabetes rather than treating as a routine urinary complaint.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Chronic urinary symptoms with "sterile" urine on routine culture, especially with constitutional symptoms</span> - raises genitourinary TB, needing specific further testing rather than repeated courses of standard antibiotics.</span></li>
+  </ul>
+</div>
+
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis</span> - the first-line investigation in every case; look for leukocytes, nitrites, blood, and glucose.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine microscopy for schistosome ova</span> - ideally on a terminal urine sample collected around midday, where a freshwater contact history is present; an important and easily overlooked test locally.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine culture and sensitivity</span> - to confirm and guide treatment of a bacterial UTI.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Blood glucose/HbA1c</span> - to screen for diabetes.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal function tests</span> - where upper tract involvement or chronic disease is a concern.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urine AFB/GeneXpert</span> - where genitourinary TB is suspected, particularly with a pattern of chronic symptoms and sterile pyuria.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Renal/bladder ultrasound</span> - assesses for stones, bladder wall thickening (seen with chronic schistosomiasis), hydronephrosis, and prostate size in men.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Cystoscopy</span> - where malignancy is suspected or haematuria remains unexplained after initial workup.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">STI screening</span> - where a relevant sexual history is present.</li>
+  </ul>
+</div>
+
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary tract infection/cystitis</span> - dysuria, urgency, and frequency, often with a positive urinalysis.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary schistosomiasis</span> - terminal haematuria, frequency, and dysuria with a compatible freshwater contact history; an important local diagnosis in its own right, not simply a mimic of UTI.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary tuberculosis</span> - chronic symptoms with sterile pyuria on routine culture and constitutional symptoms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urethritis/STI-related</span> - accompanied by discharge and a relevant sexual history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes mellitus</span> - true polyuria with large-volume, frequent urination and associated thirst.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Benign prostatic enlargement (in men)</span> - accompanying stream changes and a palpably enlarged prostate.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pregnancy</span> - a very common and usually benign cause of increased frequency.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bladder or kidney stones</span> - sometimes with associated pain or haematuria.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bladder cancer</span> - particularly relevant with a long-standing untreated schistosomiasis history or significant smoking history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Overactive bladder syndrome</span> - urgency and frequency without an infective or structural cause found.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Excessive fluid, caffeine, or alcohol intake, or diuretic use</span> - a simple and easily identified contributor.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Pelvic organ prolapse (in women)</span> - accompanying a sensation of pelvic pressure.</li>
+  </ul>
+</div>
+
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary tract infection</span> - an appropriate antibiotic per local sensitivity patterns and current guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary schistosomiasis</span> - praziquantel per WHO dosing recommendations; this is the specific treatment needed and is distinct from standard antibiotic therapy for a bacterial UTI.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Genitourinary TB</span> - standard anti-TB therapy per national guidelines.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urethritis/STI</span> - appropriate antibiotic per WHO/local STI treatment guidelines, with partner treatment.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Diabetes</span> - optimize glycaemic control per standard protocol.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Benign prostatic enlargement</span> - alpha-blockers and/or 5-alpha reductase inhibitors as first-line medical therapy, with urology referral for surgical options where symptoms are severe or refractory.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Bladder/kidney stones</span> - urology referral for removal, guided by size and location.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Overactive bladder</span> - bladder training as first-line, with anticholinergic or other medication considered where this is insufficient.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Suspected malignancy</span> - urgent urology/oncology referral for further workup and staging.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Urinary frequency, duration.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Onset, volume pattern, associated haematuria/dysuria/stream symptoms, directed risk history (including water contact), progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">Diabetes, previous UTIs/stones/schistosomiasis, TB contact, HIV status.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Diuretic use, current medications, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Freshwater contact/occupation, smoking, sexual history where relevant.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Abdominal/suprapubic/flank findings, DRE where relevant, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Not asking about freshwater contact in an area where schistosomiasis is a possibility.</li>
+    <li>Not asking specifically about haematuria and its timing.</li>
+    <li>Treating repeatedly for "UTI" without considering schistosomiasis or TB in a patient with chronic symptoms and negative routine cultures.</li>
+    <li>Missing new-onset diabetes presenting as urinary frequency.</li>
+    <li>Not performing a digital rectal examination in an older man with stream symptoms.</li>
+    <li>Underestimating the bladder cancer risk of long-standing, untreated schistosomiasis.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask specifically about freshwater contact - urinary schistosomiasis needs praziquantel, not routine antibiotics.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask directly about haematuria and its timing - terminal haematuria is a classic schistosomiasis sign.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider genitourinary TB in chronic urinary symptoms with sterile pyuria.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen for diabetes in new-onset frequency, especially with thirst or weight loss.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Long-standing untreated schistosomiasis carries a genuine bladder cancer risk and deserves proper treatment and follow-up.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Control and Elimination of Schistosomiasis.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme (Nigeria) - National Guidelines for TB Diagnosis and Treatment.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Urological Association - Guideline on the Management of Benign Prostatic Hyperplasia.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+
+
+     
+    </body>
+    </html>
+        `
+      },
+
+      {
+        id: 'symptom-internal-heat',
+        title: 'Internal Heat',
+        category: 'Symptom Clerking',
+        subCategory: 'General Constitutional Symptoms',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Approach to Clerking a Patient with Internal Heat </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+    </head>
+    <body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+    
+ 
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+ 
+  <!-- Top-right glow -->
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+ 
+  <!-- Bottom-left glow -->
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+ 
+  <!-- Content -->
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Symptoms</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Approach to Clerking a Patient with Internal Heat</h1>
+    <p class="text-sm text-indigo-200">"Internal heat" is a lay descriptor that carries several genuinely different clinical meanings locally, and the single most important step is finding out what the patient actually means before going any further. For some, it is simply how they describe a febrile illness such as malaria. For others - particularly men reluctant to say "burning when I urinate" directly - it is the phrase used to bring up a genital or urinary symptom they find harder to name outright. Treating this as one fixed complaint rather than exploring it openly is the most common way to miss what is actually going on. This guide focuses on the history that clarifies the true nature of the complaint, before closing with examination, investigations, differentials, and treatment.</p>
+  </div>
+</div>
+ 
+<!-- 1. History -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  History - Questions to Ask
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Essential First Step: What Does "Internal Heat" Actually Mean Here?</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Ask an open question first, without suggesting an answer - "Can you describe what you're feeling and whereabouts you feel it?" - and let the patient answer in their own words before narrowing down.</li>
+      <li>Where in the body is it felt - all over the body (suggesting a febrile or generalized sensation), in the chest or upper abdomen (suggesting reflux/heartburn), or specifically around the genitals or when passing urine?</li>
+      <li>Is it there all the time, or does it come in waves or episodes?</li>
+      <li>Approach this without assuming any one meaning in advance - the same words can describe a straightforward febrile illness, a menopausal hot flash, reflux, anxiety, or a genital/urinary symptom the patient finds easier to describe indirectly. The clinician's job is to create enough space and comfort for the patient to clarify, not to guess.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If It Sounds Like a Generalized, Febrile Sensation</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Has an actual temperature been measured, or is this a subjective feeling of warmth?</li>
+      <li>Any associated chills, sweating, headache, or body aches - a pattern consistent with malaria or another febrile illness?</li>
+      <li>How long has it been going on, and has it been getting worse?</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If It Sounds Like It May Be Genital or Urinary in Origin</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Gently and directly ask whether there is any burning or discomfort specifically when passing urine, or any unusual discharge - many patients who open with "internal heat" are, in fact, describing exactly this, and a direct, non-judgemental follow-up question usually gets a clear answer.</li>
+      <li>Ask about a recent new sexual partner or unprotected intercourse, in the same private, matter-of-fact way used for any sexual history.</li>
+      <li>Ask whether a partner has similar symptoms.</li>
+    </ul>
+  </div>
+</div>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other Directed Questions Depending on the Pattern Described</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Reflux-related:</span> a burning sensation rising from the upper abdomen towards the chest, worse after meals or lying down.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopausal (in a woman of the relevant age):</span> sudden waves of heat, often with flushing and sweating, alongside menstrual irregularity or cessation.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroid-related:</span> heat intolerance, weight loss despite a normal or increased appetite, palpitations, or tremor.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety-related:</span> a sensation of internal warmth or flushing accompanying episodes of worry, racing thoughts, or a pounding heart.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-related:</span> any new medication started around the time the sensation began.</li>
+      <li>In every case: has the patient tried anything already (including herbal remedies), and did it help?</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 2. Examination -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Examination - What to Look Out For
+</h2>
+ 
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General Examination (Directed by What the History Suggests)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Measured temperature</span> - confirms or excludes an actual fever, regardless of what the subjective description suggested.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid examination</span> - goitre, tremor, or a fast resting heart rate, where hyperthyroidism is suggested by the history.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">General signs of a febrile illness</span> - pallor, jaundice, or splenomegaly, relevant to malaria.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Genital/Urinary Examination (Only Where the History Points This Way, and With Consent)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>In men, examine for urethral discharge, and inspect for any sores or lesions.</li>
+      <li>In women, a genital/pelvic examination where symptoms and history warrant it, conducted with privacy and a chaperone as for any such examination.</li>
+      <li>This examination is only appropriate once the history has clearly pointed in this direction - it is not a default step for every patient using this phrase.</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- 3. Danger Signs -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Danger Signs - What Must Not Be Missed
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A confirmed high fever with red-flag features</span> (drowsiness, neck stiffness, seizures, or repeated vomiting) - needs urgent evaluation for severe malaria or another serious febrile illness, rather than being treated as a vague complaint.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Genital ulceration alongside urinary/discharge symptoms</span> - needs the same active STI workup as any other STI presentation, since ulcerative and discharge-causing infections can coexist.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Symptoms strongly suggesting untreated hyperthyroidism</span> (marked weight loss, persistent tachycardia, tremor) - needs prompt thyroid function testing and appropriate referral.</span></li>
+  </ul>
+</div>
+ 
+<!-- 4. Investigations -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Important Investigations
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria RDT/microscopy</span> - where the history suggests a generalized febrile pattern; per the national Test, Treat, Track policy, confirm before treating.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinalysis and urethral/vaginal swab</span> - where a urinary or genital symptom is suspected.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">STI screening (including HIV, with appropriate pre-test discussion and consent)</span> - where a sexually transmitted cause is suggested by the history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thyroid function tests</span> - where hyperthyroidism is suggested by the history or examination.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">FBC and blood culture</span> - where a persistent fever needs broader infective workup, such as typhoid.</li>
+  </ul>
+</div>
+ 
+<!-- 5. Differentials -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Differential Diagnoses to Consider
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria or another febrile illness</span> - a genuine fever that the patient is describing in lay terms.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urethritis/STI-related urinary or genital symptoms</span> - "internal heat" is a recognized indirect way some patients, particularly men, first raise a burning or discharge symptom they find harder to name directly.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary tract infection</span> - burning on urination without a sexual cause.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD/reflux</span> - a rising burning sensation from the upper abdomen towards the chest.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopausal hot flashes</span> - in a woman of the relevant age, with a compatible menstrual history.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - heat intolerance alongside other thyroid features.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety</span> - a sensation of internal warmth or flushing during episodes of worry or panic.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication side effect</span> - related temporally to a new drug.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">A normal, nonspecific bodily sensation with no significant underlying pathology</span> - a reasonable conclusion once the above have been genuinely considered and excluded, not a default assumption from the outset.</li>
+  </ul>
+</div>
+ 
+<!-- 6. Treatment -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Common Treatment Options
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment by Underlying Cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Confirmed malaria</span> - artemisinin-based combination therapy per national policy, only after confirmatory testing.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">STI-related urethritis/discharge</span> - syndromic or specific antibiotic treatment per WHO/local STI treatment guidelines, with partner treatment and counselling on safer sex.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Urinary tract infection</span> - appropriate antibiotic per local sensitivity patterns.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">GERD</span> - a proton pump inhibitor and lifestyle measures.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Menopausal hot flashes</span> - hormone replacement therapy where appropriate and not contraindicated, or non-hormonal options where preferred.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Hyperthyroidism</span> - referral to endocrinology for confirmation and management.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Anxiety</span> - reassurance, breathing techniques, and referral for further support where needed.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Medication-related</span> - review with the prescribing team and consider an alternative where clinically appropriate.</li>
+  </ul>
+  <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">This is a general overview only - always confirm current dosing, resistance patterns, and contraindications against local/national treatment guidelines before prescribing.</p>
+</div>
+ 
+<!-- 7. Documentation Format -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Putting It Together - Documentation Format
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <dl class="divide-y divide-slate-200 dark:divide-slate-700 text-sm">
+    <div class="py-2 first:pt-0 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Presenting Complaint</dt>
+      <dd class="mt-0.5">Internal heat, duration (record in the patient's own words before reclassifying).</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">History of Presenting Complaint</dt>
+      <dd class="mt-0.5">Clarification of what the sensation actually represents, location, pattern, associated symptoms, directed risk history, progression.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Review of Systems</dt>
+      <dd class="mt-0.5">Brief systematic sweep of symptoms not already captured.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Past Medical History</dt>
+      <dd class="mt-0.5">Previous STIs, thyroid disease, GERD, menopausal status.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Drug and Allergy History</dt>
+      <dd class="mt-0.5">Current medications, herbal remedies tried, known allergies.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Family and Social History</dt>
+      <dd class="mt-0.5">Sexual history where relevant, obtained privately.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Examination Findings</dt>
+      <dd class="mt-0.5">Measured temperature, directed examination findings, explicitly documenting danger signs.</dd>
+    </div>
+    <div class="py-2">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Impression/Differential Diagnosis</dt>
+      <dd class="mt-0.5">Ranked list of likely diagnoses with supporting reasoning.</dd>
+    </div>
+    <div class="py-2 last:pb-0">
+      <dt class="font-semibold text-slate-800 dark:text-slate-200">Plan</dt>
+      <dd class="mt-0.5">Investigations requested, treatment given, and follow-up plan.</dd>
+    </div>
+  </dl>
+</div>
+ 
+<!-- 8. Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Common Pitfalls
+</h2>
+ 
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Assuming the complaint means fever/malaria without exploring what the patient actually means.</li>
+    <li>Assuming the complaint must be an STI euphemism and asking leading questions before the patient has described the sensation in their own words.</li>
+    <li>Treating empirically for malaria without confirmatory testing.</li>
+    <li>Missing a genital/urinary cause because the direct follow-up question was never asked.</li>
+    <li>Performing a genital examination without a clear indication from the history.</li>
+    <li>Not considering menopause, hyperthyroidism, or reflux when the pattern doesn't fit an infective cause.</li>
+  </ul>
+</div>
+ 
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always clarify what "internal heat" actually means to this patient before proceeding - it is a phrase with several genuinely different underlying meanings.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider that this may be an indirect way of raising a burning or discharge symptom, and ask the direct follow-up question gently once it seems relevant.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm fever objectively and test for malaria before treating, rather than treating on the subjective description alone.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Keep menopause, hyperthyroidism, reflux, and anxiety on the list rather than defaulting to an infective explanation.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A genital examination is only appropriate once the history has clearly pointed that way, and always with consent.</span></li>
+  </ul>
+</div>
+ 
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Malaria Elimination Programme - Guidelines for Diagnosis and Treatment of Malaria (Test, Treat, Track).</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Sexually Transmitted Infections.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Menopause: Diagnosis and Management.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health - Standard Treatment Guidelines, Nigeria.</li>
+    </ul>
+  </div>
+</details>
+ 
+     
+    </body>
+    </html>
+        `
+      },
+
 
 ];

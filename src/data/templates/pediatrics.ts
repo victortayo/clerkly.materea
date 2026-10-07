@@ -1,7 +1,341 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
-
+  {
+    id: 'peds-87',
+    title: 'Partially Controlled Bronchial Asthma',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Outpatient Clinic',
+    condition: 'Bronchial Asthma',
+    symptoms: [
+      'Dry cough',
+      'Chest tightness',
+      'Wheezing',
+      'Exertional breathlessness',
+      'Increased reliever use',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '24-year-old woman with known bronchial asthma and allergic rhinitis presenting with increased daytime symptoms, nocturnal symptoms, increased Salbutamol use, and reduced exercise tolerance, consistent with partially controlled asthma in the setting of poor inhaled corticosteroid adherence.',
+    content: `RESPIRATORY CLINIC
+  
+  Patient Identification
+  
+  A 24-year-old female student who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group.
+  
+  Presenting Complaints
+  
+  1. Routine follow-up for bronchial asthma
+  2. Recurrent dry cough x 3/7
+  3. Occasional chest tightness x 2/7
+  
+  History of Presenting Complaint
+  
+  The patient is a known asthmatic, diagnosed 10 years ago at a secondary health facility. She has been on regular follow-up but reports a recent increase in the frequency of her symptoms over the last 2 weeks. She currently experiences daytime symptoms about 4 times a week, necessitating the use of her Salbutamol inhaler. She reports waking up once in the past week due to cough and chest tightness.
+  
+  Symptoms are often triggered by exposure to dust and strong perfumes. There is no history of associated fever, drenching night sweats, or weight loss. No history of orthopnoea or paroxysmal nocturnal dyspnoea. She notes that her exercise tolerance is slightly reduced compared to a month ago, as she now feels breathless after walking short distances to her lecture halls.
+  
+  Past Medical History
+  
+  Known atopic with a history of allergic rhinitis, characterized by recurrent sneezing and rhinorrhoea. Last acute exacerbation requiring an Emergency Room visit was 18 months ago. No history of ICU admission or mechanical ventilation. No known hypertension or diabetes mellitus.
+  
+  Drug History
+  
+  1. Salbutamol MDI 200 mcg PRN; currently using it almost daily.
+  2. Beclomethasone MDI 100 mcg twice daily; admits to poor compliance, often forgetting doses when asymptomatic.
+  3. No known drug allergies.
+  4. No use of herbal concoctions or traditional medicines.
+  
+  Family and Social History
+  
+  She is the second of four children in a monogamous family. Her younger brother is also a known asthmatic. She lives in a school hostel with three other roommates and reports that the room is often dusty. She does not smoke cigarettes or consume alcohol. No history of exposure to biomass fuel; she uses a gas cooker.
+  
+  Review of Systems
+  
+  CNS: No headache, no seizures.
+  
+  CVS: No palpitations, no pedal oedema.
+  
+  GIT: No heartburn or acid reflux symptoms.
+  
+  MSS: No bone or joint pains.
+  
+  Physical Examination
+  
+  General Examination
+  
+  A young lady, comfortable at rest, not in respiratory or painful distress. Not pale, anicteric, acyanosed, with no digital clubbing, significant lymphadenopathy, or pedal oedema.
+  
+  Vital Signs
+  
+  Pulse Rate: 78 bpm, regular, normal volume.
+  
+  Blood Pressure: 110/70 mmHg.
+  
+  Respiratory Rate: 18 cpm, no use of accessory muscles.
+  
+  Temperature: 36.6°C.
+  
+  SpO2: 98% on room air.
+  
+  Systemic Examination
+  
+  Respiratory System:
+  
+  Trachea central. Chest is clinically clear with normal and symmetrical chest excursion. Percussion notes are resonant bilaterally. Vesicular breath sounds heard, with occasional fine end-expiratory wheezes in both lung fields. No crepitations heard.
+  
+  Cardiovascular System:
+  
+  Apex beat at 5th left intercostal space, mid-clavicular line. S1 and S2 heard. No murmurs.
+  
+  Abdomen:
+  
+  Full, moves with respiration. No areas of tenderness. No organomegaly. Bowel sounds present and normal.
+  
+  ASSESSMENT
+  
+  Bronchial Asthma — partially controlled, with poor adherence to inhaled corticosteroid therapy.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Bronchial asthma with possible upper respiratory tract infection.
+  2. Allergic rhinitis with post-nasal drip.
+  3. Gastroesophageal reflux disease (GERD) with micro-aspiration.
+  
+  INVESTIGATIONS
+  
+  1. Peak Expiratory Flow Rate (PEFR): To assess current lung function and compare with personal best.
+  2. Full Blood Count (FBC): To assess for eosinophilia or other evidence of infection if clinically indicated.
+  3. Chest X-ray (PA view): Not routinely indicated in uncomplicated asthma; consider if there is suspicion of pneumonia or another pathology.
+  4. Spirometry: For objective assessment of airflow limitation and reversibility, particularly if the diagnosis is uncertain or for baseline lung function.
+  
+  PLAN
+  
+  1. Patient Education:
+  
+  - Counsel on the chronic nature of asthma and the importance of regular controller therapy even when asymptomatic.
+  - Emphasize the distinction between controller and reliever medications.
+  - Identify and avoid triggers, including dust, perfumes, and aerosol sprays used by roommates.
+  - Review inhaler technique and perform a return demonstration.
+  - Address adherence barriers and establish a routine to improve regular use of controller medication.
+  
+  2. Pharmacotherapy:
+  
+  - Step up treatment after assessing adherence, inhaler technique, exposure to triggers, and comorbidities.
+  - Preferred option: Switch to an appropriate low-dose ICS-formoterol regimen used as maintenance-and-reliever therapy (MART), where available and suitable.
+  - Alternative: Continue/increase inhaled corticosteroid therapy according to the appropriate step and inhaler strength, with an appropriate reliever strategy.
+  - Oral Prednisolone 30–40 mg daily for 5 days is not routinely indicated for stable partially controlled asthma; consider a short course only if there is evidence of an acute exacerbation requiring systemic corticosteroids.
+  - Treat associated allergic rhinitis with an intranasal corticosteroid such as Fluticasone or an appropriate oral antihistamine such as Loratadine 10 mg daily.
+  
+  3. Follow-up:
+  
+  - Provide a written Asthma Action Plan.
+  - Review in 2–4 weeks to reassess symptom control, adherence, inhaler technique, lung function, and response to treatment.
+  - Adjust treatment step according to subsequent asthma control.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-86',
+    title: 'Well-Controlled Bronchial Asthma',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Outpatient Clinic',
+    condition: 'Bronchial Asthma',
+    symptoms: [
+      'Cough',
+      'Wheezing',
+      'Exertional symptoms',
+      'Morning sneezing',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-07',
+    summary: '8-year-old boy with known bronchial asthma presenting for follow-up, with infrequent daytime symptoms, no nocturnal symptoms or activity limitation, and no recent severe exacerbation, consistent with well-controlled asthma.',
+    content: `PAEDIATRIC OUTPATIENT CLINIC
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Musa Ibrahim
+  
+  Age: 8 years
+  
+  Sex: Male
+  
+  Address: Dutse, Jigawa State
+  
+  Tribe: Hausa
+  
+  Religion: Islam
+  
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINT
+  
+  Follow-up visit for bronchial asthma.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a known asthmatic, diagnosed at age 4. He is currently being managed at the paediatric outpatient clinic.
+  
+  In the last 4/52, he has experienced daytime symptoms of mild cough and wheezing less than twice per week. He reports no nocturnal awakenings due to cough or breathlessness.
+  
+  He uses his Salbutamol rescue inhaler approximately once every 2/52, typically following physical activity during school recess. There is no reported limitation of daily activities, and he is able to keep up with his peers during play.
+  
+  His last acute exacerbation was 6/12 ago, which was managed at a local pharmacy with nebulization; he did not require hospital admission. He has no history of ICU admission or mechanical ventilation.
+  
+  Triggers include dust, cold harmattan winds, and strong cleaning agents. The mother reports strict adherence to trigger avoidance in the home. There is no exposure to second-hand cigarette smoke.
+  
+  Currently, there is no history of fever, rhinorrhoea, night sweats, or recent contact with an adult with a chronic cough.
+  
+  PAST MEDICAL HISTORY
+  
+  Known asthmatic (details above).
+  
+  Genotype is HbAA (confirmed at birth).
+  
+  No history of previous blood transfusions or surgeries.
+  
+  No known drug allergies.
+  
+  DRUG HISTORY
+  
+  1. Salbutamol inhaler 100 mcg: 2 puffs as needed for symptoms.
+  2. Fluticasone propionate inhaler 50 mcg: 1 puff twice daily.
+  3. Occasional Tab Prednisolone used during previous crises.
+  
+  BIRTH HISTORY
+  
+  Term delivery via spontaneous vaginal delivery (SVD) at a General Hospital. No history of birth asphyxia or neonatal jaundice. Birth weight was 3.2 kg.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6/12. Weaned onto family diet comprising tuwo, rice, and beans. Currently takes three meals a day with adequate protein and caloric intake.
+  
+  IMMUNIZATION HISTORY
+  
+  Completed as per National Programme on Immunization (NPI) schedule. BCG scar is visible on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all major developmental milestones, including sitting, walking, and talking, at appropriate ages. Currently in Primary 3 and performing well academically.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Second child in a monogamous family of four children. Father is a civil servant, and mother is a teacher. They reside in a well-ventilated 3-bedroom bungalow. Water source is a protected borehole. Refuse is disposed of via a municipal waste system. Mother has a history of allergic rhinitis (hay fever).
+  
+  REVIEW OF SYSTEMS
+  
+  ENT: Occasional morning sneezing, no itchy eyes.
+  
+  GIT: No history of epigastric pain or nocturnal reflux symptoms.
+  
+  CNS: No history of seizures or headaches.
+  
+  MSS: No joint pains or swellings.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  
+  A young boy, comfortable in room air, not in any respiratory or painful distress. Not pale, anicteric, acyanosed, and not dehydrated. No digital clubbing or peripheral lymphadenopathy. No pedal oedema.
+  
+  Vitals
+  
+  Temperature: 36.5°C
+  
+  Pulse Rate: 84 bpm, regular, normal volume
+  
+  Respiratory Rate: 20 cpm, regular, no distress
+  
+  SpO2: 99% on room air
+  
+  Anthropometry
+  
+  Weight: 25 kg
+  
+  Height: 126 cm
+  
+  Parameters are within normal limits for age.
+  
+  Systemic Examination
+  
+  Respiratory System:
+  
+  Chest is symmetrical and moves with respiration. No intercostal or subcostal recessions. Trachea is central.
+  
+  Percussion: Resonant in all lung zones.
+  
+  Auscultation: Vesicular breath sounds. No rhonchi or crepitations heard.
+  
+  Cardiovascular System:
+  
+  Apex beat at 5th left intercostal space, mid-clavicular line. S1 and S2 heart sounds heard. No murmurs.
+  
+  Abdomen:
+  
+  Flat, moves with respiration. Soft and non-tender. No organomegaly; liver and spleen not palpable. Bowel sounds present.
+  
+  Neurological System:
+  
+  Conscious and alert. No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Bronchial Asthma — well controlled.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Allergic rhinitis (co-morbidity).
+  2. Gastroesophageal reflux disease (GERD).
+  3. Post-nasal drip syndrome.
+  
+  INVESTIGATIONS
+  
+  1. Peak Expiratory Flow Rate (PEFR): To be performed in clinic to establish current lung function.
+  2. Full Blood Count (FBC): To assess for eosinophilia if clinically indicated.
+  3. Chest X-ray (PA view): Not indicated at this visit as the patient is clinically stable and has a clear chest.
+  4. Lung Function Tests/Spirometry: If available and feasible, to assess for reversible airflow limitation.
+  
+  PLAN
+  
+  Education and Counseling:
+  
+  1. Reinforce the importance of avoiding known triggers, including dust, smoke, cold air, and strong cleaning agents.
+  2. Review inhaler technique and ensure the child uses an appropriate spacer device with the Metered-Dose Inhaler (MDI) to improve drug delivery.
+  3. Provide a written Asthma Action Plan with Green, Yellow, and Red zones.
+  
+  Pharmacotherapy:
+  
+  1. Maintenance Therapy:
+  
+  - Continue low-dose Inhaled Corticosteroid (ICS): Fluticasone Propionate 50 mcg/puff, 1 puff twice daily.
+  - Ensure mouth rinsing after ICS use to reduce the risk of oropharyngeal candidiasis.
+  
+  2. Reliever Therapy:
+  
+  - Continue Salbutamol Inhaler 100 mcg/puff, 2 puffs as needed for symptoms.
+  - Review frequency of reliever use at subsequent visits.
+  
+  3. Adjunct for Allergy:
+  
+  - Consider Montelukast 5 mg once daily at night if clinically significant allergic rhinitis symptoms persist, after discussing potential neuropsychiatric adverse effects.
+  
+  Follow-up:
+  
+  Review in 3–6 months. If good asthma control is maintained for at least 3 months, consider stepping down therapy based on clinical assessment. Advise immediate presentation if there is increasing use of rescue medication, nocturnal symptoms, difficulty breathing, reduced activity tolerance, or other features of an acute exacerbation.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
     {
         id: 'peds-85',
         title: 'Pediculosis Capitis in an 8-Year-Old Girl',

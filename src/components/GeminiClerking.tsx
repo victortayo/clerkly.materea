@@ -117,11 +117,9 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
     setFollowUpLoading(true);
 
     try {
-      // We need to create `continueConversation` in `gemini.ts`
-      // It should take the original input, the generated output, and the conversation history
       const fullContext = `Initial Request: ${input}\n\nInitial Response: ${output}\n\n${newConversation.map(c => `${c.sender === 'user' ? 'Follow-up Question' : 'Follow-up Response'}: ${c.message}`).join('\n\n')}`;
 
-      const result = await assistClerking(fullContext, ['follow-up']); // Using assistClerking for now with a special task
+      const result = await assistClerking(fullContext, ['follow-up']);
       if (result) {
         setConversation(prev => [...prev, { sender: 'ai' as const, message: result }]);
       }
@@ -137,7 +135,6 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
     const textArea = document.createElement('textarea');
     textArea.value = text;
     
-    // Avoid scrolling to bottom
     textArea.style.top = "0";
     textArea.style.left = "0";
     textArea.style.position = "fixed";
@@ -171,7 +168,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
       setTimeout(() => setCopied(false), 2000);
     }, (err) => {
       console.error('Async: Could not copy text: ', err);
-      fallbackCopy(output); // fallback to execCommand
+      fallbackCopy(output);
     });
   };
 
@@ -360,7 +357,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
               </div>
 
               {/* Output Display (Right Column) */}
-              <div ref={outputRef} className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 overflow-hidden md:overflow-y-auto custom-scrollbar flex flex-col min-h-[50vh] md:min-h-0 relative">
+              <div ref={outputRef} className="flex-1 p-6 md:p-8 bg-slate-50 dark:bg-slate-900 flex flex-col min-h-[50vh] md:min-h-0 relative">
                 {loading ? (
                   <div className="flex-1 flex flex-col items-center justify-center text-center max-w-md mx-auto py-12">
                     <div className="w-20 h-20 rounded-full flex items-center justify-center mb-6 shrink-0 animate-pulse overflow-hidden">

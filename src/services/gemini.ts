@@ -2,8 +2,6 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { Template } from "../types";
 
 // Initialize Gemini AI
-// Note: In a real production app, we should probably proxy this through a backend to keep the key secret,
-// but for this preview environment, we use the client-side key as per instructions.
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 export async function generateClinicalInsight(template: Template) {
@@ -53,6 +51,22 @@ export async function assistClerking(notes: string, task: string | string[]) {
   try {
     const model = "gemini-3-flash-preview";
     
+    const tasks = Array.isArray(task) ? task : [task];
+
+    // Handle follow-up chat
+    if (tasks.includes('follow-up')) {
+      const chatPrompt = `You are a helpful clinical assistant. A user has a follow-up question regarding a previously generated response. Please provide a concise and helpful answer to the follow-up question based on the provided context.
+
+${notes}`; // 'notes' in this context is the full conversation history
+      
+      const response = await ai.models.generateContent({
+        model: model,
+        contents: chatPrompt,
+      });
+      return response.text;
+    }
+
+    // Existing functionality for initial note generation
     const basePrompt = `You are a Clinical Documentation and Decision-Support Assistant with the knowledge of clinicians with many years of experience designed to help healthcare professionals transform rough clinical notes into structured, high-quality medical documentation and clinical reasoning outputs.
 Your users are medical students, interns, residents, and clinicians, primarily working in resource-variable healthcare settings such as hospitals and clinics in low- and middle-income countries.
 Your outputs must resemble real clinician documentation, matching the language, style, and structure familiar to practicing doctors.
@@ -146,7 +160,6 @@ Obstetric Clerking Guidelines (Use when the patient is pregnant or presenting fo
   - Pelvic Exam: Vaginal Examination (VE) for cervical dilatation, effacement, fetal station, membrane status (routine in labor, not always required at booking). Speculum if indicated.
 - Obstetric Summary: Age, G/P, EGA, major complaint, key clinical findings (e.g., "A 28-year-old G3 P2+0 woman at 32 weeks gestation who presented with lower abdominal pain of 6 hours duration associated with vaginal bleeding.").`;
 
-    const tasks = Array.isArray(task) ? task : [task];
     let taskInstructions = "";
 
     if (tasks.includes('complete')) {

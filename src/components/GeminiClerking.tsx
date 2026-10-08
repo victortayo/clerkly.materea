@@ -25,6 +25,12 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
   const outputRef = useRef<HTMLDivElement>(null);
   const { showToast } = useToast();
 
+  // New state for follow-up chat
+  const [followUpInput, setFollowUpInput] = useState('');
+  const [conversation, setConversation] = useState<{ sender: 'user' | 'ai'; message: string }[]>([]);
+  const [followUpLoading, setFollowUpLoading] = useState(false);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
+
   const loadingMessages = [
     'Analyzing clinical notes...',
     'Identifying key patterns...',
@@ -32,6 +38,13 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
     'Structuring the management plan...',
     'Finalizing the summary...'
   ];
+
+  // Effect to scroll to the bottom of the chat
+  useEffect(() => {
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+    }
+  }, [conversation]);
 
   // Handle scroll visibility for FAB
   useEffect(() => {
@@ -69,6 +82,8 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
 
     setLoading(true);
     setOutput(''); // Clear previous output
+    setConversation([]); // Clear previous conversation
+    setFollowUpInput(''); // Clear follow-up input
 
     let messageIndex = 0;
     setLoadingMessage(loadingMessages[messageIndex]);
@@ -90,6 +105,31 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
       if (loadingIntervalRef.current) {
         clearInterval(loadingIntervalRef.current);
       }
+    }
+  };
+
+  const handleSendFollowUp = async () => {
+    if (!followUpInput.trim()) return;
+
+    const newConversation = [...conversation, { sender: 'user' as const, message: followUpInput }];
+    setConversation(newConversation);
+    setFollowUpInput('');
+    setFollowUpLoading(true);
+
+    try {
+      // We need to create `continueConversation` in `gemini.ts`
+      // It should take the original input, the generated output, and the conversation history
+      const fullContext = `Initial Request: ${input}\n\nInitial Response: ${output}\n\n${newConversation.map(c => `${c.sender === 'user' ? 'Follow-up Question' : 'Follow-up Response'}: ${c.message}`).join('\n\n')}`;
+
+      const result = await assistClerking(fullContext, ['follow-up']); // Using assistClerking for now with a special task
+      if (result) {
+        setConversation(prev => [...prev, { sender: 'ai' as const, message: result }]);
+      }
+    } catch (error) {
+        console.error("Error in follow-up:", error);
+        setConversation(prev => [...prev, { sender: 'ai' as const, message: "Sorry, I encountered an error. Please try again." }]);
+    } finally {
+        setFollowUpLoading(false);
     }
   };
 
@@ -340,10 +380,49 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                         {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
                         </button>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto custom-scrollbar">
+                    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto custom-scrollbar min-h-0">
                         <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm">
                         {output}
                         </p>
+                    </div>
+                    {/* Follow-up Chat UI */}
+                    <div className="flex flex-col mt-4 flex-shrink-0">
+                        <div ref={chatContainerRef} className="overflow-y-auto space-y-4 p-4 custom-scrollbar max-h-48">
+                            {conversation.map((entry, index) => (
+                                <div key={index} className={`flex ${entry.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
+                                    <div className={`rounded-lg px-4 py-2 max-w-lg ${entry.sender === 'user' ? 'bg-indigo-100 dark:bg-indigo-900/40 text-slate-800 dark:text-slate-200' : 'bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200'}`}>
+                                        <p className="text-sm whitespace-pre-wrap break-words">{entry.message}</p>
+                                    </div>
+                                </div>
+                            ))}
+                            {followUpLoading && (
+                                <div className="flex justify-start">
+                                    <div className="rounded-lg px-4 py-2 max-w-lg bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200">
+                                      <div className="flex items-center justify-center">
+                                        <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-slate-500"></div>
+                                      </div>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                        <div className="mt-2 flex items-center gap-2">
+                            <input
+                                type="text"
+                                value={followUpInput}
+                                onChange={(e) => setFollowUpInput(e.target.value)}
+                                onKeyPress={(e) => e.key === 'Enter' && !followUpLoading && handleSendFollowUp()}
+                                placeholder="Ask a follow-up question..."
+                                className="flex-grow p-3 text-sm bg-white dark:bg-slate-800 rounded-xl border border-slate-300 dark:border-slate-600 focus:border-indigo-500 focus:ring-0 focus:outline-none transition-colors"
+                                disabled={followUpLoading}
+                            />
+                            <button
+                                onClick={handleSendFollowUp}
+                                disabled={followUpLoading || !followUpInput.trim()}
+                                className="p-3 bg-indigo-950 hover:bg-black text-white rounded-xl font-bold transition-all active:scale-95 flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                <i className="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
                     </div>
                   </>
                 ) : (

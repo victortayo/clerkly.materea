@@ -55,9 +55,9 @@ export async function assistClerking(notes: string, task: string | string[]) {
 
     // Handle follow-up chat
     if (tasks.includes('follow-up')) {
-      const chatPrompt = `You are a helpful clinical assistant. A user has a follow-up question regarding a previously generated response. Please provide a concise and helpful answer to the follow-up question based on the provided context.
+      const chatPrompt = `You are a helpful clinical assistant. A user has a follow-up question regarding a previously generated response. Please provide a concise and helpful answer to the follow-up question based on the provided context. IMPORTANT: Do NOT use markdown formatting like asterisks for bolding. You MAY use simple structures like numbered or bulleted lists for readability if it enhances clarity. Use plain text only.
 
-${notes}`; // 'notes' in this context is the full conversation history
+${notes}`;
       
       const response = await ai.models.generateContent({
         model: model,

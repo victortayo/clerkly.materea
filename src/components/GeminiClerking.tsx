@@ -391,7 +391,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                             {conversation.map((entry, index) => (
                                 <div key={index} className={`flex ${entry.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
                                     <div className={`rounded-lg px-4 py-2 max-w-lg ${entry.sender === 'user' ? 'bg-indigo-100 dark:bg-indigo-900/40 text-slate-800 dark:text-slate-200' : 'bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200'}`}>
-                                        <p className="text-sm whitespace-pre-wrap break-words">{entry.message}</p>
+                                        <p className="text-xs whitespace-pre-wrap break-words">{entry.message}</p>
                                     </div>
                                 </div>
                             ))}

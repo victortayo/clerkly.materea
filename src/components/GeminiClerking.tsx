@@ -44,7 +44,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
     }
-  }, [conversation]);
+  }, [conversation, output]);
 
   // Handle scroll visibility for FAB
   useEffect(() => {
@@ -377,32 +377,35 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                         {copied ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-copy"></i>}
                         </button>
                     </div>
-                    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto custom-scrollbar min-h-0">
+                    <div ref={chatContainerRef} className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm flex-1 overflow-y-auto custom-scrollbar min-h-0">
                         <p className="text-slate-800 dark:text-slate-200 whitespace-pre-wrap break-words leading-relaxed font-mono text-sm">
                         {output}
                         </p>
+                        
+                        {(conversation.length > 0 || followUpLoading) && (
+                            <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700 space-y-4">
+                                {conversation.map((entry, index) => (
+                                    <div key={index} className={`flex ${entry.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
+                                        <div className={`rounded-lg px-4 py-2 max-w-lg ${entry.sender === 'user' ? 'bg-indigo-100 dark:bg-indigo-900/40 text-slate-800 dark:text-slate-200' : 'bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200'}`}>
+                                            <p className="text-xs whitespace-pre-wrap break-words">{entry.message}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                                {followUpLoading && (
+                                    <div className="flex justify-start">
+                                        <div className="rounded-lg px-4 py-2 max-w-lg bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200">
+                                        <div className="flex items-center justify-center">
+                                            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-slate-500"></div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
                     {/* Follow-up Chat UI */}
-                    <div className="flex flex-col mt-4 flex-shrink-0">
-                        <div ref={chatContainerRef} className="overflow-y-auto space-y-4 p-4 custom-scrollbar max-h-48">
-                            {conversation.map((entry, index) => (
-                                <div key={index} className={`flex ${entry.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
-                                    <div className={`rounded-lg px-4 py-2 max-w-lg ${entry.sender === 'user' ? 'bg-indigo-100 dark:bg-indigo-900/40 text-slate-800 dark:text-slate-200' : 'bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200'}`}>
-                                        <p className="text-xs whitespace-pre-wrap break-words">{entry.message}</p>
-                                    </div>
-                                </div>
-                            ))}
-                            {followUpLoading && (
-                                <div className="flex justify-start">
-                                    <div className="rounded-lg px-4 py-2 max-w-lg bg-slate-200 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200">
-                                      <div className="flex items-center justify-center">
-                                        <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-slate-500"></div>
-                                      </div>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                        <div className="mt-2 flex items-center gap-2">
+                    <div className="mt-4 flex-shrink-0">
+                        <div className="flex items-center gap-2">
                             <input
                                 type="text"
                                 value={followUpInput}
@@ -410,7 +413,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                                 onKeyPress={(e) => e.key === 'Enter' && !followUpLoading && handleSendFollowUp()}
                                 placeholder="Ask a follow-up question..."
                                 className="flex-grow p-3 text-sm bg-white dark:bg-slate-800 rounded-xl border border-slate-300 dark:border-slate-600 focus:border-indigo-500 focus:ring-0 focus:outline-none transition-colors"
-                                disabled={followUpLoading}
+                                disabled={followUpLoading || !output}
                             />
                             <button
                                 onClick={handleSendFollowUp}

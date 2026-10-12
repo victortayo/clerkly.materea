@@ -4,6 +4,117 @@ export const SURGERY_TEMPLATES: Template[] = [
 
 
 
+  {
+    id: 'surg-69',
+    title: 'Bilateral Nasal Polyposis with Chronic Rhinosinusitis',
+    specialty: 'Surgery',
+    subSpecialty: 'Otorhinolaryngology (ENT)',
+    condition: 'Bilateral Nasal Polyposis with Chronic Rhinosinusitis',
+    symptoms: [
+      'Bilateral nasal blockage',
+      'Recurrent sneezing',
+      'Clear watery rhinorrhoea',
+      'Sensation of a lump in the throat',
+      'Mouth breathing',
+      'Snoring'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-12',
+    summary: 'A 28-year-old female tailor with 6 months of progressive bilateral nasal obstruction, recurrent sneezing and watery rhinorrhoea triggered by dust and strong perfumes, and 3 months of globus sensation. Examination reveals bilateral pale, greyish-white, pedunculated nasal masses in the middle meatus, mildly congested inferior turbinates, grade 2 bilateral tonsillar enlargement and posterior pharyngeal cobblestoning. She has a history of asthma and childhood eczema, with prolonged use of topical nasal decongestants.',
+    content: `
+  ENT CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 28-year-old female tailor who resides in Ikeja, Lagos State. Tribe: Yoruba.
+  
+  PRESENTING COMPLAINTS
+  1. Nasal blockage x 6/12
+  2. Sensation of throat swelling x 3/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 6 months ago when she developed progressive bilateral nasal blockage. The blockage is persistent, worse at night, and associated with recurrent paroxysms of sneezing and clear watery rhinorrhoea, often triggered by dust and strong perfumes. There is no history of epistaxis, facial pain or anosmia.
+  
+  About 3 months ago, she started noticing a sensation of a lump in her throat. This sensation is more pronounced during dry swallowing but does not interfere with the ingestion of solids or liquids. There is no associated odynophagia, hoarseness of voice or chronic cough. She also reports occasional mouth breathing and snoring at night.
+  
+  PAST MEDICAL HISTORY
+  Known asthmatic, diagnosed at age 12, currently controlled with occasional salbutamol inhaler use. History of childhood eczema. No previous history of blood transfusion or surgery.
+  
+  DRUG HISTORY
+  Regular use of over-the-counter xylometazoline nasal drops for the past 4 months, with transient relief. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  The patient's mother has a history of hay fever. She lives in a one-bedroom apartment with adequate ventilation. She does not smoke or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headaches or history of loss of consciousness.
+  RS: No current cough or wheezing.
+  CVS: No palpitations or pedal oedema.
+  GIT: Normal appetite and bowel habits.
+  MSS: No joint pains or swellings.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young woman in no obvious respiratory or painful distress. Not pale, anicteric, with no peripheral lymphadenopathy or pedal oedema.
+  
+  VITAL SIGNS
+  Pulse rate: 82 bpm, regular, full volume.
+  Blood pressure: 110/70 mmHg.
+  Respiratory rate: 16 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 99% on room air.
+  
+  SPECIFIC ENT EXAMINATION
+  
+  NOSE
+  Anterior rhinoscopy shows bilateral, pale, greyish-white, pedunculated masses in the middle meatus. The masses are insensitive to touch and do not bleed on probing. The inferior turbinates appear mildly congested.
+  
+  THROAT
+  Grade 2 bilateral tonsillar enlargement. The oropharynx shows a cobblestone appearance of the posterior pharyngeal wall. No visible masses in the oropharynx.
+  
+  NECK
+  No palpable cervical lymph nodes. Thyroid gland is not enlarged.
+  
+  SYSTEMIC EXAMINATION
+  
+  CHEST
+  Trachea is central. Breath sounds are vesicular. No rhonchi or crepitations.
+  
+  ABDOMEN
+  Soft and non-tender. No organomegaly.
+  
+  ASSESSMENT
+  Bilateral nasal polyposis with chronic rhinosinusitis in a known asthmatic.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Allergic rhinitis with hypertrophied turbinates.
+  2. Antrochoanal polyps.
+  3. Rhinitis medicamentosa secondary to chronic topical nasal decongestant use.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC): To assess for eosinophilia.
+  2. X-ray of the paranasal sinuses (Water's view): To assess for mucosal thickening or opacification.
+  3. CT scan of the paranasal sinuses (coronal and axial views): If indicated following ENT assessment, particularly if symptoms persist despite medical management or surgery is being considered.
+  4. Skin prick testing for common allergens, if available.
+  
+  INITIAL MANAGEMENT PLAN
+  1. Educate the patient on avoiding triggers, including dust, smoke and strong scents.
+  2. Discontinue over-the-counter xylometazoline nasal drops to address possible rhinitis medicamentosa.
+  3. Alkaline or normal saline nasal douching twice daily.
+  4. Intranasal corticosteroid spray, such as fluticasone or mometasone, at the appropriate product-specific dose and technique, with regular use and reassessment.
+  5. Oral antihistamine, such as loratadine 10 mg daily, for associated allergic rhinitis symptoms, if appropriate.
+  6. A short course of oral prednisolone may be considered by the treating clinician for significant nasal polyposis after assessment of contraindications and risks.
+  7. Schedule follow-up in the ENT clinic in 2–4 weeks to assess symptomatic improvement and treatment response.
+  8. Consider referral for Functional Endoscopic Sinus Surgery (FESS) if symptoms remain inadequately controlled despite appropriate medical therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
 
     {
         id: 'surg-68',

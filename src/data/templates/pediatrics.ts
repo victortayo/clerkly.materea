@@ -1,6 +1,502 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
+
+  {
+    id: 'peds-91',
+    title: 'Simple Febrile Convulsion',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Emergency Unit',
+    condition: 'Febrile Convulsion',
+    symptoms: [
+      'Fever',
+      'Generalized tonic-clonic seizure',
+      'Generalized body weakness',
+      'Poor appetite',
+      'Post-ictal sleepiness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-12',
+    summary: 'A 2-year-4-month-old male presenting with 2 days of high-grade fever and a single generalized tonic-clonic seizure lasting approximately 3–5 minutes, followed by brief post-ictal sleepiness and complete recovery of consciousness. Examination revealed fever without focal neurological deficits or signs of meningeal irritation.',
+    content: `
+  PAEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  Name: Master Adebayo Okoro
+  Age: 2 years 4 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Fever x 2/7
+  2. Convulsion x 1 episode (approximately 30 minutes prior to presentation)
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 2 days ago when he developed a high-grade, intermittent fever associated with generalised body weakness and poor appetite. The mother administered over-the-counter paracetamol syrup with minimal relief.
+  
+  Approximately 30 minutes prior to presentation, the patient had a convulsion while febrile. The seizure was described as generalised, involving stiffening and jerking of all four limbs, with associated upward rolling of the eyes and foaming at the mouth. There was no associated urinary or faecal incontinence. The episode lasted approximately 3–5 minutes and stopped spontaneously. There was a post-ictal period of sleepiness lasting about 10 minutes, after which the patient regained full consciousness.
+  
+  There is no history of preceding head injury, ear discharge, projectile vomiting or neck stiffness. No history of cough, fast breathing or diarrhoea. This is the first episode of convulsion.
+  
+  PAST MEDICAL HISTORY
+  The patient is not a known seizure disorder patient. No history of previous hospitalisations or blood transfusions. Genotype: AA (known).
+  
+  BIRTH HISTORY
+  Antenatal: Booked at a General Hospital. The mother took routine antenatal medications. No history of febrile illness or rashes during pregnancy.
+  Natal: Delivered at term via spontaneous vaginal delivery (SVD) in a hospital. Cried immediately at birth.
+  Postnatal: No history of neonatal jaundice or seizures.
+  
+  DIETARY HISTORY
+  Exclusively breastfed for 6 months. Currently on a family diet, predominantly cereals and tubers. Diet is adequate for age.
+  
+  IMMUNIZATION HISTORY
+  Immunizations are up to date according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Global developmental milestones are appropriate for age. The patient currently walks well, speaks in short sentences and is toilet trained.
+  
+  FAMILY AND SOCIAL HISTORY
+  The patient is the second of three children in a monogamous family. Both parents are teachers. They live in a two-bedroom apartment with adequate ventilation and potable water. There is no family history of epilepsy, but a maternal cousin had a similar history of febrile convulsions during childhood.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headache or photophobia.
+  RS: No cough, rhinorrhoea or chest pain.
+  CVS: No palpitations or cyanosis.
+  GIT: No vomiting, diarrhoea or constipation.
+  MSS: No joint swellings.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking child, febrile (temperature 39.4°C), not pale, anicteric, not dehydrated, with no pedal oedema or significant peripheral lymphadenopathy.
+  
+  ANTHROPOMETRY
+  Weight: 12.5 kg (expected for age)
+  MUAC: 15.0 cm (normal)
+  
+  VITAL SIGNS
+  Pulse rate: 118 bpm (normal volume, regular rhythm)
+  Respiratory rate: 28 cpm
+  SpO₂: 98% on room air
+  
+  SYSTEMIC EXAMINATION
+  
+  CENTRAL NERVOUS SYSTEM
+  Conscious and alert. GCS 15/15.
+  Pupils: 2 mm bilaterally, reactive to light.
+  No signs of meningeal irritation: no neck stiffness; Kernig's and Brudzinski's signs are negative.
+  Muscle bulk: Normal and symmetrical.
+  Tone: Normal in all four limbs.
+  Power: 5/5 in all four limbs.
+  Reflexes: Normal and symmetrical.
+  
+  RESPIRATORY SYSTEM
+  Trachea is central. Normal chest excursions. Breath sounds are vesicular. No added sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  Apex beat at the 4th left intercostal space, midclavicular line. S1 and S2 are heard. No murmurs.
+  
+  ABDOMINAL EXAMINATION
+  Abdomen is full and moves with respiration. Soft and non-tender. Liver and spleen are not palpable. Bowel sounds are present and normal.
+  
+  SUMMARY
+  A 2-year-4-month-old male child with a 2-day history of high-grade fever and a single episode of generalised tonic-clonic seizure lasting 3–5 minutes, followed by brief post-ictal sleepiness and rapid return to full consciousness. There are no focal neurological deficits or signs of meningeal irritation on examination.
+  
+  ASSESSMENT
+  Simple febrile convulsion.
+  Rule out:
+  1. Cerebral malaria
+  2. Bacterial meningitis
+  3. Septicaemia
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Cerebral malaria
+  2. Bacterial meningitis
+  3. Viral encephalitis
+  4. Hypoglycaemia-induced seizure, possibly secondary to sepsis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Malaria Parasite (MP) smear or Rapid Diagnostic Test (RDT).
+  2. Full Blood Count (FBC) with differential.
+  3. Random Blood Sugar (RBS) — urgent.
+  4. Urinalysis and urine microscopy.
+  5. Blood Culture — if sepsis is strongly suspected.
+  6. Lumbar Puncture — if clinically indicated following assessment for meningitis or if recovery is prolonged.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  EMERGENCY CARE
+  1. Ensure airway patency and place the patient in the recovery position if still post-ictal.
+  2. Administer oxygen if SpO₂ drops below 94%.
+  3. Check RBS urgently and correct hypoglycaemia if present, using an appropriate paediatric dextrose regimen.
+  
+  FEVER AND SEIZURE CONTROL
+  1. Use appropriate cooling measures and avoid excessive wrapping.
+  2. Administer paracetamol (syrup or suppository) 15 mg/kg every 6–8 hours, observing the recommended maximum daily dose.
+  3. If seizure recurs and lasts 5 minutes or longer, administer an appropriate rescue benzodiazepine according to the paediatric emergency protocol. Options include IV diazepam, rectal diazepam or IV/IM/buccal/intranasal midazolam, using the appropriate route-specific dose and monitoring respiratory status.
+  
+  SPECIFIC TREATMENT (PENDING INVESTIGATIONS)
+  1. Encourage oral fluids once fully awake and able to swallow safely. If oral intake is inadequate, assess hydration and administer appropriate fluids according to clinical status and paediatric fluid guidelines.
+  2. If malaria is confirmed or severe malaria is strongly suspected, initiate appropriate antimalarial treatment. For severe malaria, administer IV artesunate according to the recommended weight-based regimen at 0, 12 and 24 hours, then daily until oral treatment can be tolerated.
+  3. Initiate empiric antibiotics, such as IV ceftriaxone, if bacterial sepsis or meningitis is suspected, using the appropriate dose and regimen for the suspected infection and local guidelines.
+  
+  MONITORING
+  1. Monitor vital signs (temperature, pulse rate, respiratory rate and GCS) at least every 4 hours, or more frequently if clinically indicated.
+  2. Monitor for further seizure activity and any change in consciousness.
+  3. Encourage oral fluids once fully awake, clinically stable and able to swallow safely.
+  
+  COUNSELLING
+  1. Educate the mother about febrile convulsions, their usual course and the importance of assessing the cause of the fever.
+  2. Explain home fever care, including appropriate antipyretic use, adequate fluids and avoiding excessive wrapping or unsafe cooling methods.
+  3. Advise prompt return to the hospital if a seizure lasts 5 minutes or longer, seizures recur, focal features develop, the child has difficulty breathing, remains unusually drowsy, develops neck stiffness or shows other signs of serious illness.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-90',
+    title: 'Sepsis of Unknown Source with Moderate Dehydration',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Emergency Unit',
+    condition: 'Sepsis with Moderate Dehydration',
+    symptoms: [
+      'Fever',
+      'Refusal of feeds',
+      'Excessive crying',
+      'Irritability',
+      'Poor fluid intake'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-12',
+    summary: 'A 2-year-old male presenting with 3 days of high-grade fever, 1 day of refusal of feeds and excessive crying, with examination findings of acute illness and moderate dehydration. Initial assessment is sepsis of unknown source with moderate dehydration.',
+    content: `
+  PAEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  Name: Master T.O.
+  Age: 2 years
+  Sex: Male
+  Religion: Christian
+  Address: Surulere, Lagos State
+  Tribe: Yoruba
+  Informant: Mother (reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Fever x 3/7
+  2. Refusal of feeds x 1/7
+  3. Excessive crying x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 3 days ago when he developed a high-grade, continuous fever. There were no associated chills or rigors. The mother administered oral paracetamol syrup, which provided only temporary relief.
+  
+  One day prior to presentation, the fever worsened, and he began refusing all solid feeds, with poor fluid intake. This was associated with excessive crying and irritability. There is no history of cough, fast breathing or chest indrawing. No history of vomiting or diarrhoea. No history of ear discharge or abnormal body movements. No history of skin rashes or yellowish discolouration of the eyes. No history of reduced urinary output or foul-smelling urine.
+  
+  PAST MEDICAL HISTORY
+  No previous history of similar illness. No known chronic medical conditions. No previous hospital admissions or blood transfusions. No known drug allergies. Genotype is AA.
+  
+  BIRTH HISTORY
+  The patient is the second child of the family. The pregnancy was planned and supervised. The mother attended regular antenatal care at a primary health centre. There was no history of pregnancy-induced hypertension or gestational diabetes. He was delivered at term via spontaneous vaginal delivery (SVD) in a hospital and cried immediately at birth. Birth weight was 3.2 kg. No neonatal jaundice or seizures.
+  
+  DIETARY HISTORY
+  He was exclusively breastfed for 6 months. Complementary feeding started at 6 months with fortified pap and family diet. He currently takes a three-course family diet. Intake was adequate until the onset of the current illness.
+  
+  IMMUNIZATION HISTORY
+  Immunizations are up to date with the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  He attained all developmental milestones at the appropriate ages. He currently walks well, speaks in short sentences and socialises with peers.
+  
+  FAMILY AND SOCIAL HISTORY
+  The parents are in a monogamous marriage. The father is a civil servant, and the mother is a trader. They live in a two-bedroom apartment with good ventilation and a potable water source. Proper refuse disposal is practised.
+  
+  REVIEW OF SYSTEMS
+  CNS: Irritable, but no seizures or neck stiffness.
+  Respiratory: No cough or dyspnoea.
+  CVS: No cyanosis or peripheral oedema.
+  GIT: No diarrhoea or vomiting.
+  MSS: No swelling or joint pains.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking child, febrile (temperature 39.4°C), irritable and moderately dehydrated. Not pale, anicteric, with no significant lymphadenopathy or pedal oedema.
+  
+  ANTHROPOMETRY
+  Weight: 11.5 kg
+  Length: 86 cm
+  MUAC: 14.5 cm
+  
+  VITAL SIGNS
+  Pulse rate: 138 bpm (tachycardic, regular, normal volume)
+  Respiratory rate: 34 cpm
+  SpO₂: 97% on room air
+  
+  SYSTEMIC EXAMINATION
+  
+  CENTRAL NERVOUS SYSTEM
+  Conscious and alert. Pupils are 2 mm and briskly reactive to light. No neck stiffness. Kernig's and Brudzinski's signs are negative. Normal muscle tone in all limbs.
+  
+  RESPIRATORY SYSTEM
+  Trachea is central. Respiratory rate is normal. Percussion notes are resonant bilaterally. Breath sounds are vesicular. No added sounds, including crepitations or rhonchi.
+  
+  CARDIOVASCULAR SYSTEM
+  Apex beat is at the 4th left intercostal space, midclavicular line. S1 and S2 only are heard. No murmurs.
+  
+  ABDOMEN
+  The abdomen is flat and moves with respiration. It is soft, with no areas of tenderness. No hepatosplenomegaly. Bowel sounds are present and normal.
+  
+  ASSESSMENT
+  Sepsis of unknown source with moderate dehydration.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Severe malaria
+  2. Septicaemia (primary consideration)
+  3. Occult urinary tract infection
+  4. Early meningitis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC): To assess for leukocytosis or neutropenia.
+  2. Malaria Parasite Screen (MPS): To assess for malaria.
+  3. Blood Culture and Sensitivity: To identify causative organisms and guide antibiotic therapy.
+  4. Urinalysis and Urine Culture: To investigate for urinary tract infection.
+  5. Random Blood Sugar (RBS): To assess for hypoglycaemia.
+  6. C-Reactive Protein (CRP): If available, as an inflammatory marker.
+  7. Lumbar Puncture: To be considered if clinically indicated following reassessment.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  EMERGENCY/URGENT CARE
+  1. Secure peripheral IV access.
+  2. Rehydration: Reassess hydration status and circulation promptly. If IV fluid bolus therapy is indicated, administer an appropriate isotonic crystalloid with close monitoring and reassessment. Further fluids should be guided by perfusion, hydration status, urine output and response to treatment.
+  3. Antipyretic: Administer paracetamol 15 mg/kg, using an appropriate route and formulation. Use tepid sponging for high fever if appropriate.
+  
+  EMPIRIC ANTIBIOTICS (PENDING CULTURE RESULTS)
+  4. IV ceftriaxone 100 mg/kg once daily, as prescribed following assessment and local paediatric sepsis guidance.
+  5. If severe malaria is suspected, commence IV artesunate according to the recommended weight-based regimen at 0, 12 and 24 hours, then continue as indicated by clinical response and treatment guidelines.
+  
+  MONITORING AND NURSING CARE
+  6. Monitor vital signs (temperature, pulse rate, respiratory rate and blood pressure) every 2–4 hours, or more frequently if clinically indicated.
+  7. Monitor input and output using a strict fluid chart.
+  8. Maintain a neutral thermal environment.
+  9. Review investigation results as soon as they are available and adjust or de-escalate antibiotics according to the results and clinical response.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-89',
+    title: 'Well-Controlled Bronchial Asthma – Clinic Follow-Up',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Respiratory Clinic',
+    condition: 'Bronchial Asthma',
+    symptoms: [
+      'Known bronchial asthma on maintenance therapy',
+      'Routine asthma follow-up',
+      'No current respiratory symptoms',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-12',
+    summary: '4-year-old male with known bronchial asthma presenting for routine follow-up, currently asymptomatic with normal respiratory examination, satisfactory activity and sleep, and no recent exacerbations, suggesting well-controlled asthma.',
+    content: `PAEDIATRIC ASTHMA CLINIC FOLLOW-UP
+  
+  Patient Seen
+  A 4-year-old male, known asthmatic patient on regular follow-up, brought by his mother for routine review.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  No fresh complaints. No history of cough, wheezing, difficulty breathing, or chest tightness since the last clinic visit. No nocturnal cough, sleep disturbance, or limitation of play activities. No recent asthma exacerbation, emergency department visit, hospital admission, or nebulization. No history of oral steroid use since the last review.
+  
+  The mother reports good compliance with prescribed inhalers and no known adverse drug reactions. Appetite, activity, and sleep are satisfactory.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination:
+  Young boy, conscious, alert, active, and comfortable at rest. Afebrile, not pale, anicteric, acyanosed, and not dehydrated. No respiratory distress.
+  
+  Weight: 16 kg
+  
+  Vital Signs:
+  PR: 100 bpm, regular, full volume.
+  BP: 90/55 mmHg.
+  RR: 24 cpm.
+  Temperature: 36.7°C.
+  SpO₂: 99% on room air.
+  
+  Cardiovascular System:
+  Pulse as above.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  Chest:
+  Chest clinically clear.
+  Vesicular breath sounds bilaterally.
+  No wheezes or crepitations.
+  No intercostal recession or use of accessory muscles.
+  
+  Abdomen:
+  Full, moves with respiration.
+  Soft and non-tender.
+  No palpable organomegaly.
+  
+  Central Nervous System:
+  Conscious and alert.
+  Active, with normal tone and age-appropriate interaction.
+  No focal neurological deficit.
+  
+  ASSESSMENT
+  Known bronchial asthma, currently well controlled.
+  No clinical evidence of acute exacerbation.
+  
+  PLAN
+  1. Continue Beclometasone dipropionate inhaler 50 micrograms/puff, 1 puff twice daily via spacer as maintenance therapy; use a face mask if needed. Review symptom control and inhaler technique before confirming or adjusting the dose.
+  2. Rinse the mouth after beclometasone use; if a face mask is used, wash the face after treatment.
+  3. Continue Salbutamol inhaler 100 micrograms, 2 puffs via spacer as needed for breakthrough symptoms, according to the asthma action plan.
+  4. Reinforce correct inhaler and spacer technique; use a face mask if the child cannot seal the lips around the mouthpiece.
+  5. Encourage regular use of controller medication and advise against discontinuing it without clinical review.
+  6. Identify and avoid triggers such as dust, cigarette smoke, strong perfumes, and respiratory irritants.
+  7. Provide or review a written asthma action plan with the mother, including when to seek urgent medical attention.
+  8. Monitor symptom frequency, night-time cough, reliever use, activity limitation, and exacerbations at each visit.
+  9. Review growth and inhaled corticosteroid adverse effects.
+  10. Review in Paediatric/Chest Clinic in 2–3 months or earlier if symptoms recur.
+  
+  CLINICAL NOTE
+  Beclometasone 50 micrograms, 1 puff twice daily, is a low-dose option, but the appropriate regimen depends on the child's current treatment, symptom frequency, and local paediatric asthma protocol. Confirm the prescribed dose and device with the treating clinician.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+{
+  id: 'peds-88',
+  title: 'Natal Tooth in a Term Neonate',
+  specialty: 'Pediatrics',
+  subSpecialty: 'Neonatology',
+  condition: 'Natal Tooth',
+  symptoms: [
+    'Tooth present at birth',
+    'Maternal nipple pain during breastfeeding',
+    'Mobile mandibular incisor',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-10-12',
+  summary: 'A 1-day-old term male neonate presenting with a mobile natal tooth in the lower central incisor region, associated with maternal nipple soreness during breastfeeding, but no respiratory symptoms or tongue ulceration.',
+  content: `PAEDIATRIC CLINIC
+
+Patient Seen
+Master Chidi Okechukwu, a 1-day-old male neonate from Ogbomosho, Oyo State. He is Igbo and Christian. Informant is the mother, who is reliable.
+
+PRESENTING COMPLAINT
+Presence of a tooth in the mouth since birth.
+
+HISTORY OF PRESENTING COMPLAINT
+The mother noticed a small, white, hard structure on the baby's lower gum immediately after delivery. There is no history of bleeding or swelling at the site. The baby has been breastfeeding; however, the mother reports some discomfort and nipple soreness during feeding. There is no history of difficulty breathing, choking episodes, or excessive crying. No other congenital abnormalities were noted by the parents.
+
+PAST MEDICAL HISTORY
+This is the first child of the family. No previous history of congenital anomalies in the family. No history of similar occurrences in either parent's lineage.
+
+BIRTH HISTORY
+
+Pre-natal:
+Mother is a 26-year-old P1+0. Pregnancy was booked at 14 weeks' gestation. She attended regular ANC and took routine haematinics (Fersolate and folic acid) and IPTp for malaria. No history of febrile illness, rash, or exposure to radiation or teratogens during the first trimester.
+
+Natal:
+Delivered at 39 weeks via spontaneous vaginal delivery (SVD) at a General Hospital. Cried immediately at birth. No resuscitation was required. Birth weight was 3.4 kg.
+
+Post-natal:
+No history of neonatal jaundice or fever.
+
+DIETARY HISTORY
+Currently on exclusive breastfeeding. Feeding is frequent, although the mother notes nipple pain.
+
+IMMUNIZATION HISTORY
+Received BCG and OPV 0 at birth. BCG scar is not yet visible.
+
+DEVELOPMENTAL HISTORY
+Attaining age-appropriate neonatal milestones. Strong sucking and Moro reflexes are present.
+
+FAMILY AND SOCIAL HISTORY
+Parents live in a 2-bedroom apartment with good ventilation. Father is a secondary school teacher, and mother is a tailor. Both parents are non-smokers. Water source is a protected borehole.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+A term neonate, pink, not pale, not jaundiced, and not dehydrated. No peripheral lymphadenopathy. No obvious dysmorphic features.
+
+Weight: 3.4 kg
+Length: 51 cm
+OFC: 35 cm
+
+Local Examination (Oral Cavity):
+A single, small, yellowish-white conical tooth is seen on the lower mandibular ridge in the midline, at the lower central incisor position.
+The tooth shows Grade 2 mobility (moves approximately 1–2 mm in any direction).
+The surrounding gingiva appears healthy, with mild hyperaemia.
+No ulceration is noted on the ventral surface of the tongue (no Riga-Fede disease).
+
+SYSTEMIC EXAMINATION
+
+Respiratory System:
+RR: 42 cpm.
+No subcostal or intercostal recessions.
+Breath sounds are vesicular.
+
+Cardiovascular System:
+PR: 138 bpm, regular, good volume.
+S1 and S2 heard.
+No murmurs.
+
+Abdomen:
+Full and moves with respiration.
+Soft, with no organomegaly.
+Umbilical stump is clean.
+
+Central Nervous System:
+Level of consciousness is normal; neonate is active.
+Anterior fontanelle is flat and pulsatile.
+Normal neonatal reflexes (Moro, grasp, sucking, and rooting).
+
+ASSESSMENT
+Natal tooth, likely a lower central incisor, in a 1-day-old neonate.
+
+DIFFERENTIAL DIAGNOSES
+1. Neonatal tooth (if eruption occurs within the first 30 days of life).
+2. Dental lamina cyst (Bohn's nodules).
+3. Gingival cyst of the newborn.
+
+INITIAL INVESTIGATION PLAN
+1. Clinical diagnosis is primary.
+2. Dental X-ray (periapical) of the mandibular anterior region to determine whether the tooth is part of the primary dentition or a supernumerary tooth, if resources permit.
+
+INITIAL MANAGEMENT PLAN
+1. Paediatric dental consultation for evaluation and possible extraction.
+2. Monitor for risk of aspiration due to tooth mobility.
+3. Counsel the mother on the nature of the condition. Explain that natal teeth are often part of the normal primary dentition but may require removal if very loose or causing trauma.
+4. If the tooth is to be retained, advise cleaning with a soft, damp cloth.
+5. If extraction is planned, confirm that vitamin K prophylaxis has been administered as part of standard neonatal care to reduce bleeding risk.
+6. Review breastfeeding technique to minimize maternal nipple trauma.`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  
   {
     id: 'peds-87',
     title: 'Partially Controlled Bronchial Asthma',

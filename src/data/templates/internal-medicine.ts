@@ -2,6 +2,316 @@ import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
   
+{
+  id: 'im-105',
+  title: 'Decompensated Chronic Liver Disease Secondary to Hepatitis B',
+  specialty: 'Internal Medicine',
+  subSpecialty: 'Gastroenterology and Hepatology',
+  condition: 'Decompensated Chronic Liver Disease',
+  symptoms: [
+    'Progressive abdominal swelling',
+    'Jaundice',
+    'Bilateral pedal oedema',
+    'Easy fatigability',
+    'Early satiety',
+    'Generalized weakness',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-10-12',
+  summary: '52-year-old male commercial driver with chronic Hepatitis B infection presenting with progressive abdominal distension, jaundice, bilateral pedal oedema, and easy fatigability, with clinical features suggestive of decompensated chronic liver disease and portal hypertension.',
+  content: `INTERNAL MEDICINE
+
+Patient Seen
+A 52-year-old male commercial driver who resides in Abeokuta, Ogun State. He is Muslim, Yoruba, and lives with his wife and children. Informants are the patient and his wife, both reliable.
+
+PRESENTING COMPLAINTS
+Progressive abdominal swelling × 3 months
+Yellowish discoloration of eyes × 2 months
+Bilateral leg swelling × 2 months
+Easy fatigability × 3 months
+
+HISTORY OF PRESENTING ILLNESS
+The patient was apparently well until about 3 months prior to presentation when he noticed progressive abdominal swelling. The swelling was insidious in onset and gradually progressive. It is not associated with abdominal pain but is associated with early satiety and occasional shortness of breath when lying flat.
+
+About 2 months prior to presentation, he noticed yellowish discoloration of the sclera and dark urine. There is no history of pale stools or pruritus.
+
+He also reports bilateral leg swelling, which is pitting and worse in the evenings.
+
+There is associated easy fatigability and generalized weakness. No history of haematemesis, melaena, or rectal bleeding. No prior confusion, abnormal sleep pattern, or flapping tremors.
+
+No history of fever, chronic cough, or weight loss. No prior episodes of massive gastrointestinal bleeding.
+
+RISK FACTOR ASSESSMENT
+No history of intravenous drug use or tattoos.
+No multiple sexual partners, according to the patient.
+No history of blood transfusion.
+No long-term herbal medication use, although he occasionally uses local remedies.
+No chronic alcohol use; drinks occasionally, less than 2 units per week.
+
+He was diagnosed with Hepatitis B infection 5 years ago but defaulted follow-up and was not on antiviral therapy.
+
+PAST MEDICAL HISTORY
+Known Hepatitis B infection × 5 years.
+No history of diabetes mellitus or hypertension.
+No previous surgeries.
+
+DRUG HISTORY
+Not on antiviral therapy.
+No known drug allergies.
+
+FAMILY HISTORY
+No known family history of chronic liver disease.
+
+SOCIAL HISTORY
+Lives with his wife and children.
+Primary breadwinner.
+No smoking history.
+Minimal alcohol intake.
+
+REVIEW OF SYSTEMS
+CNS: No confusion or seizures.
+CVS: No chest pain or orthopnoea.
+Respiratory: Mild dyspnoea when the abdomen is tense.
+GI: Early satiety; no vomiting.
+GU: Reduced libido.
+
+EXAMINATION
+
+General Examination:
+Chronically ill-looking middle-aged man, conscious and oriented, icteric, mildly pale, not cyanosed, and not dehydrated. Bilateral pitting pedal oedema is present.
+
+Vital Signs:
+BP: 110/70 mmHg
+Pulse: 96 bpm, regular
+RR: 20 cpm
+Temp: 36.8°C
+SpO₂: 97% on room air
+
+Stigmata of Chronic Liver Disease:
+Spider naevi present.
+Palmar erythema present.
+Testicular atrophy present.
+Mild gynaecomastia present.
+No asterixis.
+
+Abdominal Examination:
+Distended abdomen with full flanks.
+Positive fluid thrill.
+Shifting dullness present.
+No abdominal tenderness.
+Liver not easily palpable.
+Splenomegaly present, 3 cm below the costal margin.
+Umbilical hernia noted.
+
+Cardiovascular Examination:
+S1 and S2 heard.
+No murmurs.
+
+Respiratory Examination:
+Reduced air entry at the lung bases, likely secondary to ascites.
+No crepitations.
+
+Central Nervous System:
+Fully conscious.
+No focal neurological deficit.
+No flapping tremor.
+
+ASSESSMENT
+Decompensated chronic liver disease, likely secondary to chronic Hepatitis B infection, with:
+Ascites.
+Portal hypertension (splenomegaly).
+Mild anaemia.
+Peripheral oedema.
+Child–Pugh class to be calculated after laboratory investigations.
+
+Differentials:
+Chronic Hepatitis C.
+Alcohol-related liver disease.
+Hepatocellular carcinoma (to be ruled out).
+
+MANAGEMENT PLAN (Nigerian Context, Dose-Specific)
+
+1. INVESTIGATIONS
+
+Laboratory:
+Full blood count.
+Liver function tests.
+Serum albumin.
+PT/INR.
+Serum electrolytes, urea, and creatinine.
+HBsAg and HBeAg.
+HBV DNA (if affordable).
+Anti-HCV.
+Alpha-fetoprotein.
+Fasting blood glucose.
+
+Imaging:
+Abdominal ultrasound with Doppler.
+Upper GI endoscopy to assess for varices.
+
+Ascitic Fluid Analysis:
+Cell count.
+Protein.
+Culture and sensitivity.
+Gram stain.
+Albumin (to calculate SAAG).
+
+2. MANAGEMENT OF ASCITES
+
+Salt Restriction:
+Less than 2 g/day sodium.
+
+Diuretics:
+Start:
+Spironolactone 100 mg daily.
+Furosemide 40 mg daily.
+Maintain a 100:40 ratio.
+Titrate every 3–5 days if needed.
+
+Monitor:
+Potassium.
+Creatinine.
+Weight.
+
+Target weight loss: 0.5–1 kg/day.
+
+If tense ascites or respiratory compromise:
+Therapeutic paracentesis (remove 4–6 L).
+Give albumin 6–8 g per litre removed if more than 5 L is drained.
+
+3. ANTIVIRAL THERAPY (HBV)
+
+If HBV DNA is elevated:
+Start:
+Tenofovir disoproxil fumarate 300 mg daily.
+Tenofovir is first-line and available in Nigeria.
+Monitor renal function every 3–6 months.
+
+Alternative (if Tenofovir is contraindicated):
+Entecavir 0.5 mg daily (1 mg if lamivudine-resistant).
+
+4. VARICEAL BLEED PROPHYLAXIS
+
+Upper GI endoscopy to assess for varices.
+
+If varices are present:
+
+Primary Prophylaxis:
+Start:
+Propranolol 20 mg twice daily.
+Titrate to a resting pulse of 55–60 bpm.
+OR
+Carvedilol 6.25 mg daily (if available).
+
+Alternative:
+Endoscopic variceal ligation.
+
+5. HEPATIC ENCEPHALOPATHY PREVENTION/MANAGEMENT
+
+If hepatic encephalopathy develops:
+
+Lactulose:
+25–30 mL orally 8 hourly.
+Adjust to achieve 2–3 soft stools daily.
+
+If severe or recurrent:
+Add:
+Rifaximin 550 mg BD (if affordable).
+
+Protein restriction is NO LONGER recommended unless in acute severe encephalopathy.
+
+6. SPONTANEOUS BACTERIAL PERITONITIS (SBP)
+
+If suspected (fever, abdominal pain, worsening encephalopathy, or renal dysfunction):
+
+Diagnostic Tap:
+Ascitic fluid PMN >250 cells/mm³.
+
+Treatment:
+Ceftriaxone 1 g IV daily for 5–7 days.
+OR
+Cefotaxime 2 g IV 8 hourly.
+
+Albumin Infusion:
+1.5 g/kg on day 1.
+1 g/kg on day 3.
+Reduces the risk of hepatorenal syndrome.
+
+Secondary Prophylaxis (after the first episode):
+Norfloxacin 400 mg daily (if affordable).
+OR
+Ciprofloxacin 500 mg once weekly.
+
+7. NUTRITION
+High-protein diet unless active encephalopathy.
+Target: 1.2–1.5 g/kg/day protein.
+Avoid prolonged protein restriction.
+Frequent small meals (4–6 per day).
+Multivitamin supplementation.
+
+8. HCC SURVEILLANCE
+Abdominal ultrasound every 6 months.
+Serum AFP monitoring every 6 months.
+If a suspicious lesion is detected, perform CT/MRI with contrast.
+
+9. AVOID
+NSAIDs (risk of renal failure and GI bleeding).
+Herbal medications (hepatotoxic).
+Alcohol (strictly).
+Sedatives (may precipitate encephalopathy).
+Aminoglycosides (nephrotoxic).
+
+10. LIVER TRANSPLANT EVALUATION
+
+Consider referral if:
+Recurrent ascites despite maximum diuretics.
+Recurrent variceal bleeding.
+Hepatic encephalopathy.
+Hepatorenal syndrome.
+MELD score >15.
+Child–Pugh class C.
+
+Transplant-capable Centres in Nigeria:
+Lagos University Teaching Hospital (LUTH).
+University College Hospital, Ibadan.
+Availability is limited and costs are high.
+
+11. MONITORING
+
+Weekly Initially:
+Weight.
+Electrolytes.
+Creatinine.
+Clinical assessment for encephalopathy.
+
+Monthly:
+Liver function tests.
+FBC.
+INR.
+
+Every 3–6 Months:
+HBV DNA (if on antivirals).
+AFP.
+Ultrasound.
+
+PROGNOSIS
+Chronic progressive disease. Prognosis depends on:
+Viral suppression with antiviral therapy.
+Degree of decompensation.
+Child–Pugh and MELD scores.
+Access to antiviral therapy.
+Ability to afford long-term care.
+Development of complications (HCC, variceal bleeding, SBP).
+
+In Nigeria, late presentation and financial limitations significantly affect outcome. Early initiation of antiviral therapy and close monitoring are crucial for improving prognosis.`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
   {
     id: 'im-104',
     title: 'Erectile Dysfunction',

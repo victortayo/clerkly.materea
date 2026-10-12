@@ -1,6 +1,230 @@
 import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
+
+  {
+    id: 'ob-78',
+    title: 'Abnormal Uterine Bleeding with Suspected Secondary Anaemia',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology Clinic',
+    condition: 'Abnormal Uterine Bleeding (AUB)',
+    symptoms: [
+      'Heavy vaginal bleeding',
+      'Passage of large blood clots',
+      'Lower abdominal pain',
+      'Weakness',
+      'Postural dizziness',
+      'Palpitations'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-12',
+    summary: 'A 31-year-old nulligravid woman presenting with 11 days of heavy vaginal bleeding associated with passage of large clots, suprapubic pain, weakness and postural dizziness. Examination reveals pallor, tachycardia, borderline-low blood pressure, active bleeding through a closed cervical os and a bulky, firm uterus approximately 8–10 weeks in size. Pregnancy-related bleeding must be excluded, and anaemia requires laboratory confirmation.',
+    content: `
+  Gynaecology Clinic
+  
+  PATIENT IDENTIFICATION
+  A 31-year-old female civil servant who resides in Garki, Abuja. She is Yoruba by tribe and currently in a monogamous marriage. G0 P0.
+  
+  PRESENTING COMPLAINTS
+  1. Heavy vaginal bleeding x 11/7
+  2. Lower abdominal pain x 11/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was in her usual state of health until 11 days ago when she started her regular menstrual period. However, she noted that the flow was significantly heavier than her usual 4-day menses. She reports soaking 5–6 large sanitary pads daily, which are often completely drenched. The bleeding is associated with the passage of large blood clots, some described as larger than a coin.
+  
+  She also complains of a dull, aching lower abdominal pain that started on the first day of bleeding. The pain is persistent but occasionally colicky, localised to the suprapubic region, with no radiation to the back or thighs. There is no history of fever, chills or abnormal vaginal discharge.
+  
+  She reports feeling increasingly weak and dizzy, especially when standing up from a seated position. There is no history of easy bruising, epistaxis or bleeding from other orifices. Her last sexual intercourse was 3 weeks ago; she does not use any form of contraception.
+  
+  PAST MEDICAL AND GYNAECOLOGICAL HISTORY
+  Menarche was at age 12. Her usual menstrual cycle is 28 days, lasting 4 days with moderate flow. No previous history of heavy menstrual bleeding or intermenstrual bleeding. No known history of uterine fibroids or pelvic inflammatory disease.
+  
+  Genotype: AA. No history of chronic medical conditions such as hypertension or diabetes mellitus. No previous surgeries.
+  
+  SOCIAL AND FAMILY HISTORY
+  She does not smoke or drink alcohol. She lives in a two-bedroom apartment with good sanitation. No family history of bleeding disorders or gynaecological malignancies.
+  
+  REVIEW OF SYSTEMS
+  CNS: Occasional dizziness, no loss of consciousness.
+  RS: No cough or chest pain.
+  CVS: Occasional palpitations.
+  GIT: No nausea, vomiting or change in bowel habits.
+  Gynaecological: As above. No dyspareunia.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young woman in painful distress. Acutely pale, not jaundiced and not dehydrated. No pedal oedema or significant peripheral lymphadenopathy.
+  
+  VITAL SIGNS
+  Pulse rate: 102 bpm (tachycardic, regular, moderate volume).
+  Blood pressure: 100/60 mmHg (borderline low).
+  Respiratory rate: 20 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  ABDOMINAL EXAMINATION
+  Abdomen is flat and moves with respiration. No surgical scars or striae. Mild suprapubic tenderness on deep palpation. No organomegaly; liver, spleen and kidneys are not palpable. No palpable masses. Bowel sounds are present and normal.
+  
+  PELVIC EXAMINATION
+  
+  SPECULUM EXAMINATION
+  Active bleeding through the cervical os, with some clots in the vaginal vault. No cervical friability or visible masses.
+  
+  VAGINAL EXAMINATION (VE)
+  Cervix is closed. Uterus is bulky, approximately 8–10 weeks in size, firm and anteverted. No adnexal tenderness or masses.
+  
+  ASSESSMENT
+  Abnormal uterine bleeding (AUB) with suspected secondary anaemia.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Uterine leiomyoma (fibroids).
+  2. Adenomyosis.
+  3. Complications of early pregnancy, such as threatened or incomplete miscarriage.
+  4. Ovulatory dysfunction (AUB-O).
+  
+  INITIAL INVESTIGATION PLAN
+  1. Urine pregnancy test (PT): To exclude pregnancy-related bleeding.
+  2. Full Blood Count (FBC): To assess haemoglobin level and platelet count.
+  3. Pelvic ultrasound scan (USS): To assess uterine size, endometrial thickness and the presence of fibroids or adnexal masses.
+  4. Blood grouping and cross-matching: Cross-match blood and arrange availability according to clinical assessment and haemoglobin level, given the tachycardia and pallor.
+  5. Clotting profile: If the history or initial findings suggest a systemic bleeding tendency.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. RESUSCITATION
+  Assess haemodynamic stability urgently. Establish IV access and commence appropriate isotonic crystalloid resuscitation if indicated, guided by vital signs, ongoing blood loss and response to treatment. The proposed IV fluid volume and rate should be individualised to the patient's clinical status.
+  
+  2. MONITORING
+  Monitor vital signs, including blood pressure and pulse rate, frequently according to clinical stability. Monitor ongoing vaginal blood loss, symptoms and urine output where indicated.
+  
+  3. ANTIFIBRINOLYTICS
+  Consider tranexamic acid for control of heavy bleeding after assessing contraindications, pregnancy status and the likely cause. Select the route, dose and frequency according to the clinical setting and applicable protocol.
+  
+  4. ANALGESIA
+  Provide appropriate analgesia after assessing contraindications and pregnancy status. Avoid NSAIDs where contraindicated or where there is concern about significant bleeding, renal impairment or other relevant risks.
+  
+  5. HAEMATINICS
+  Commence oral iron supplementation once appropriate, guided by the FBC and assessment of iron deficiency.
+  
+  6. DEFINITIVE MANAGEMENT
+  Review pregnancy test, FBC and pelvic ultrasound results to determine the cause of bleeding and guide further treatment. Management may be medical, including appropriate hormonal therapy, or surgical depending on the diagnosis, severity of bleeding and clinical response.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },  
+{
+  id: 'ob-77',
+  title: 'Condyloma Acuminata (Anogenital Warts)',
+  specialty: 'Obstetrics and Gynecology',
+  subSpecialty: 'Gynae Clinic',
+  condition: 'Anogenital Warts',
+  symptoms: [
+    'Vulvar growths',
+    'Progressive increase in size and number of genital lesions',
+    'Occasional vulvar itching',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-10-12',
+  summary: '29-year-old P2+0 woman presenting with a 5-month history of progressively increasing, painless, cauliflower-like lesions involving the labia and perineum, clinically suggestive of condyloma acuminata.',
+  content: `GYNAE CLINIC
+
+Patient Seen
+A 29-year-old female trader who resides in Ogbomosho, Oyo State. She is Yoruba, Christian, and married in a monogamous setting.
+
+PRESENTING COMPLAINT
+Growth around the vaginal opening × 5 months.
+
+HISTORY OF PRESENTING COMPLAINT
+The patient was apparently well until 5 months ago when she noticed a small, painless growth around her vaginal opening. The lesion was initially solitary but has since increased in size and number, spreading to involve the labia majora and perineal region.
+
+The growths are associated with occasional itching but no pain. There is no history of ulceration, bleeding from the site, or foul-smelling vaginal discharge. She reports no associated fever, weight loss, or groin swellings. She has been sexually active with her husband and is unaware of any similar lesions on his genitalia. She has not used any over-the-counter medications or herbal remedies on the lesions.
+
+REVIEW OF SYSTEMS
+CNS: No headaches or seizures.
+RS: No cough or chest pain.
+CVS: No palpitations or pedal oedema.
+GIT: No abdominal pain or change in bowel habits.
+GUS: No dysuria or urinary frequency.
+
+PAST MEDICAL HISTORY
+Not a known patient with any chronic medical condition such as hypertension, diabetes mellitus, or asthma.
+No known history of retroviral disease (HIV).
+No previous history of similar skin lesions or treated sexually transmitted infections.
+
+GYNAECOLOGICAL AND OBSTETRIC HISTORY
+Parity: P2+0 (2 children alive, both delivered via SVD).
+LMP: 12 days ago.
+Menarche: 13 years.
+Menstrual cycle: 28 days, regular.
+No history of modern contraceptive use.
+Last Pap smear: Never.
+
+SOCIAL HISTORY
+Married.
+Does not smoke cigarettes or consume alcohol.
+
+PHYSICAL EXAMINATION
+
+General Examination:
+Conscious and alert, not in any obvious respiratory or painful distress. Afebrile (36.7°C), not pale, and anicteric. No significant peripheral lymphadenopathy. No pedal oedema.
+
+Vital Signs:
+PR: 82 bpm, regular, normal volume.
+BP: 110/70 mmHg.
+RR: 18 cpm.
+SpO₂: 98% on room air.
+
+Abdominal Examination:
+Flat abdomen, moves with respiration.
+No areas of tenderness.
+No palpable organs or masses.
+Bowel sounds present and normal.
+
+Pelvic/Genital Examination:
+
+Inspection:
+Multiple, flesh-coloured, cauliflower-like (verrucous) papules and plaques of varying sizes (2 mm to 1 cm) noted on the labia majora, labia minora, and extending to the perineum. No active bleeding, ulceration, or discharge noted.
+
+Palpation:
+Lesions are firm and non-tender. No inguinal lymphadenopathy.
+
+Speculum Examination:
+Vagina and cervix appear healthy. No abnormal discharge.
+
+ASSESSMENT
+Condyloma acuminata (anogenital warts).
+
+DIFFERENTIAL DIAGNOSES
+1. Condyloma lata (secondary syphilis).
+2. Molluscum contagiosum.
+3. Vulvar intraepithelial neoplasia (VIN).
+
+INITIAL INVESTIGATION PLAN
+1. HIV screening (provider-initiated testing and counselling).
+2. VDRL or RPR to screen for syphilis.
+3. Pap smear, given the association between HPV infection and cervical dysplasia.
+4. Biopsy of the lesion if the diagnosis is uncertain or if lesions become pigmented or indurated.
+
+INITIAL MANAGEMENT PLAN
+1. Counsel the patient on the nature of the condition (human papillomavirus infection) and the need for partner notification and screening.
+2. Discuss safe sex practices and condom use.
+3. Medical Treatment: Consider topical application of 0.5% podophyllotoxin or 80–90% trichloroacetic acid (TCA) to the lesions. TCA should be applied by a clinician; treatment frequency should follow the selected regimen.
+4. Surgical Option: Consider cryotherapy or electrosurgery if medical management fails or for larger lesions.
+5. Schedule follow-up in 2 weeks to monitor response to treatment.`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  
   {
     id: 'ob-76',
     title: 'Placenta Praevia with Antepartum Haemorrhage at 34 Weeks',

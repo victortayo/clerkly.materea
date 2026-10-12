@@ -1855,7 +1855,269 @@ export const COUNSELLING_CONTENT: LearningModule[] = [
       </html>
         `
       },
-
+      {
+        id: 'counselling-prostate-cancer',
+        title: 'Prostate Cancer',
+        category: 'Counselling',
+        subCategory: 'Oncology',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Counselling Guide for a Patient with Prostate Cancer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .quote { border-left: 3px solid; }
+    </style>
+    </head>
+    <body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+    
+    
+    <!-- Hero -->
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Prostate Cancer</h1>
+        <p class="text-sm text-indigo-200">Prostate cancer counselling carries a difficulty most other cancer conversations don't: the diagnosis and its treatment touch directly on sexual function and masculinity, topics many Nigerian men find harder to raise than almost any other. This guide covers disclosure, the misconceptions worth correcting directly, why active surveillance is often the right answer and how to explain it, and the honest discussion of treatment side effects that men need before they consent.</p>
+      </div>
+    </div>
+    
+    <!-- 1. Breaking the diagnosis -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      Breaking the Diagnosis
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">As with any cancer diagnosis, how this news is delivered shapes whether the patient engages with treatment or withdraws into denial or silence. Find a private space, ask what he already understands about why the tests were done before disclosing the result, and give the diagnosis clearly without excessive euphemism. Allow silence afterward rather than filling it immediately with treatment detail he isn't yet ready to absorb.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"I have your biopsy results, and before I go through them, can you tell me what you were expecting or what you understand so far about why we did this test?"</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"The biopsy confirms prostate cancer. I know this isn't easy to hear. I want you to know this is one of the more treatable cancers, especially in men diagnosed early, and we have a clear plan to talk through together at your pace."</p>
+      <p class="text-sm">Many Nigerian men present for prostate assessment reluctantly, having delayed for months or years over discomfort with the digital rectal examination or fear of what a diagnosis might mean for their sexual function. Acknowledge this reluctance without judgement rather than treating it as an oversight - it builds more trust than moving straight into clinical explanation.</p>
+    </div>
+    
+    <!-- 2. Explaining the diagnosis -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Explaining the Diagnosis in Plain Terms
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"The prostate is a small gland below the bladder in men, involved in producing part of the fluid in semen. Prostate cancer means some cells in this gland have started growing abnormally. Many prostate cancers grow very slowly, and a good number of men live for many years, sometimes without ever needing aggressive treatment, depending on how the specific cancer behaves."</p>
+    
+      <p class="text-sm font-medium text-slate-800 dark:text-slate-200">Correcting common misconceptions - each needs a direct response rather than general reassurance:</p>
+    
+      <p class="text-sm">A man who believes any cancer diagnosis is an automatic death sentence needs to hear specifically that prostate cancer is often slow-growing, that many cases are detected at a stage where cure or long-term control is realistic, and that even advanced disease can often be controlled for years. The fatalism many patients bring to this diagnosis usually comes from only having seen the most advanced, symptomatic cases in their own community.</p>
+    
+      <p class="text-sm">A man who believes the digital rectal examination or a prostate biopsy will affect his sexual function or manhood on its own needs this corrected directly and specifically. The examination and biopsy themselves do not cause impotence - much of the anxiety here comes from confusing the diagnostic procedure with the potential effects of treatment, which is a separate and much later conversation. Be equally honest that a biopsy has its own short-lived effects, such as blood in the urine or semen for a few weeks and a small risk of infection, so these don't come as a surprise or cause unnecessary alarm.</p>
+    
+      <p class="text-sm">A man who believes treatment will inevitably leave him impotent or incontinent, and who may be inclined to refuse or delay treatment because of this fear, deserves an honest rather than falsely reassuring answer. Some treatments do carry real risks to erectile function and continence, addressed specifically in Section 7, but the degree of risk varies significantly by treatment approach and is not a universal, unavoidable outcome.</p>
+    
+      <p class="text-sm">A man who believes prostate cancer is caused by frequent sexual activity, lack of sexual activity, or a specific past sexual encounter needs correction with the actual risk factors in Section 3. These folk explanations are common and can otherwise generate significant unwarranted guilt or shame that has nothing to do with the actual disease process.</p>
+    
+      <p class="text-sm">A man who wants to pursue herbal or traditional remedies instead of, or before, conventional treatment deserves the same non-judgemental but honest conversation described in the breast cancer guide in this series. Acknowledge the reasons he might be drawn to this option, state clearly that no herbal preparation has been shown to cure prostate cancer, and ask him to keep you informed of what he is taking rather than responding in a way that drives the practice underground.</p>
+    
+      <p class="text-sm">A man who insists on aggressive treatment despite being told his specific cancer is low-risk and suitable for active surveillance may be responding to the frightening word "cancer" itself rather than to the actual behaviour of his specific tumour. This deserves careful, repeated explanation rather than simply acceding to a request for treatment that may cause more harm than the observed disease itself.</p>
+    </div>
+    
+    <!-- 3. Causes and risk factors -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Causes and Risk Factors
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Increasing age is the single strongest risk factor, with prostate cancer rare before the age of 50 and increasingly common thereafter. Family history of prostate cancer, particularly in a father or brother, and African ancestry are both recognised as independent risk factors - men of African descent, including Nigerian men, carry a higher lifetime risk and tend to present with more aggressive disease at a younger age than men of other ancestries. Diet and other lifestyle factors appear to play some role, though less definitively established than age, family history, and ancestry.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Age and family history are the two strongest factors, and men of African ancestry specifically carry a higher risk and sometimes develop more aggressive disease. This isn't about anything you did - it's a combination of factors mostly outside your control."</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+      <div class="flex gap-2.5 items-start">
+        <svg class="w-4 h-4 mt-0.5 shrink-0 text-amber-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="text-sm text-amber-900 dark:text-amber-300 space-y-2">
+          <p class="font-medium">Guideline Watch: when to start the PSA conversation</p>
+          <p>Older general-population guidance starts the screening discussion at 50 to 55. The Prostate Cancer Foundation's 2024 guideline for Black men recommends that men who elect screening have a baseline PSA between ages 40 and 45, with regular testing afterward (annual testing strongly considered depending on the PSA value and general health) until around 70. The reasoning is that modelling data suggest prostate cancer develops three to nine years earlier in Black men than in other groups. Men with a strong family history, or known high-risk genetic variants, should consider starting annual testing as early as 40.</p>
+          <p>Two cautions when using this in Nigerian practice. First, the evidence base is mostly observational and modelling work in Black men in the United States, not Nigerian cohorts, so treat it as the best available guide rather than a settled national standard. Second, screening is a shared decision, not an automatic test: the man should hear that PSA can be raised by benign causes and that a raised result leads to further assessment, not straight to a cancer diagnosis, before he decides.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 4. Investigations -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Investigations the Patient Will Encounter
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Diagnosis typically follows an elevated PSA (prostate-specific antigen) blood test, an abnormal digital rectal examination finding, or both, confirmed by prostate biopsy - usually obtained under ultrasound guidance. Explain PSA in plain terms, since patients frequently misunderstand what an elevated result means. PSA can be raised by cancer, but also by benign prostate enlargement, prostatitis, urinary tract infection, a recent catheter, and sometimes recent ejaculation or vigorous exercise. Certain medicines for benign enlargement (5-alpha reductase inhibitors such as finasteride and dutasteride) roughly halve the PSA over time, so a man on one of these needs his result interpreted accordingly. An elevated PSA prompts further assessment; it does not itself confirm cancer.</p>
+      <p class="text-sm">The biopsy result includes a Gleason score (or the newer Grade Group system, from 1 to 5), which describes how abnormal the cancer cells look under the microscope and correlates with how aggressively the cancer is likely to behave. Explain this as the main factor, alongside PSA level and how much of the gland is involved, that determines whether active surveillance or active treatment is the right approach for him specifically. Staging investigations, particularly for higher-risk disease, typically include bone imaging given prostate cancer's tendency to spread to bone, and cross-sectional imaging of the pelvis and abdomen where indicated.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"The biopsy doesn't just confirm whether it's cancer - it tells us how the cancer cells look and behave, which is one of the most important things in deciding whether we should treat actively now or simply monitor closely for now."</p>
+    </div>
+    
+    <!-- 5. Active surveillance -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Active Surveillance - A Concept That Needs Careful Explanation
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">This is arguably the most counterintuitive part of prostate cancer management to explain, and deserves particular care in how it's framed. For low-risk, localised disease, watching the cancer closely with regular PSA testing, examination, and repeat biopsy - rather than immediately operating, irradiating, or medicating - is often the most appropriate approach, since many low-risk prostate cancers never progress to cause symptoms or shorten life, and the side effects of active treatment can outweigh its benefit in this specific group.</p>
+      <p class="text-sm">Many men, understandably, find it deeply unsettling to be told they have cancer and are not being treated for it immediately, and may seek treatment elsewhere or lose trust in the plan if this isn't explained clearly and repeatedly.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"For your specific type of prostate cancer, closely watching it with regular tests is actually considered the safest approach, rather than operating or treating it right away. This isn't the same as doing nothing - it means testing regularly, and if anything changes, moving to active treatment promptly. Many men are surprised by this recommendation, and I want you to understand exactly why it's the right approach for your situation before we go further."</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-3">
+      <div class="flex gap-2.5 items-start">
+        <svg class="w-4 h-4 mt-0.5 shrink-0 text-amber-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="text-sm text-amber-900 dark:text-amber-300 space-y-2">
+          <p class="font-medium">Guideline Watch: who actually qualifies</p>
+          <p>Under current AUA and NCCN guidance, low-risk disease means a PSA below 10 ng/mL, Grade Group 1 (Gleason 3+3), and clinical stage T1 to T2a - active surveillance is the preferred approach for this group. Selected men with favourable intermediate-risk disease (for example Grade Group 2 with PSA below 10, with low volume on biopsy) may also be offered it, but this is a more individual decision. Active surveillance is not recommended for high-risk disease. It is generally considered for men with a life expectancy beyond about ten years, because the aim is still cure if the cancer declares itself.</p>
+          <p>Most of the evidence supporting surveillance comes from cohorts that were not predominantly African. Given that men of African ancestry tend to present with more aggressive disease, it is reasonable to select candidates carefully, keep to the surveillance schedule strictly, and have a low threshold for repeat biopsy or moving to treatment if anything changes.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">For older men with significant competing health problems and lower-risk disease, watchful waiting - a less intensive form of monitoring with treatment given only if symptoms develop, with palliative rather than curative intent - may be more appropriate still. Typically this suits men with a life expectancy under about ten years. The distinction from active surveillance is worth explaining if relevant to the specific patient, since the two are easily confused by patients and families.</p>
+    </div>
+    
+    <!-- 6. Treatment overview -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Treatment Overview for Localised Disease
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Where active treatment is appropriate, the main options are surgery (radical prostatectomy, removing the entire prostate gland) and radiotherapy (external beam radiotherapy or brachytherapy, where available), both offered with curative intent for localised disease and generally producing comparable long-term cancer control. The choice between them often comes down to patient preference, access, age, and the specific side-effect profile each carries, rather than one being clearly superior to the other in most cases.</p>
+      <p class="text-sm">Hormonal therapy (androgen deprivation therapy) is used for more advanced or higher-risk disease, sometimes combined with radiotherapy, and is the primary treatment for metastatic disease, aiming to suppress the testosterone that drives prostate cancer growth.</p>
+    </div>
+    
+    <!-- 7. Specific treatment effects -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      Counselling on Specific Treatment Effects
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Surgery</strong>
+        <p class="text-sm">Radical prostatectomy carries a real risk of erectile dysfunction and urinary incontinence, both of which can improve over months following surgery but do not always fully resolve. This needs to be discussed honestly and specifically before surgery, not glossed over. Nerve-sparing surgical technique, where the cancer's extent allows it, reduces but does not eliminate the risk to erectile function, and pelvic floor exercises started early after surgery meaningfully help with continence recovery and should be taught proactively rather than only offered once incontinence has already become a source of distress.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Radiotherapy</strong>
+        <p class="text-sm">Carries its own, generally somewhat different, risk profile for erectile dysfunction (often developing more gradually over time after treatment rather than immediately, unlike surgery), along with bowel and urinary irritation during and shortly after the treatment course. As with the breast cancer radiotherapy discussion in this series, the practical burden of daily treatment over several weeks, and the limited number of centres offering radiotherapy nationally, deserves explicit discussion at the planning stage.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Hormonal Therapy (Androgen Deprivation Therapy)</strong>
+        <p class="text-sm">This deserves particularly careful counselling, since its effects go directly to the core of the masculinity and virility fears many men bring into this diagnosis. Suppressing testosterone causes loss of libido, erectile dysfunction, hot flashes, fatigue, loss of muscle mass, weight gain, and sometimes breast tissue enlargement (gynaecomastia). Longer-term, it also carries a risk of bone thinning, and attention to weight, blood sugar, and cardiovascular risk is worthwhile. These are expected, direct effects of the treatment mechanism, not signs of something going wrong, and need to be explained before starting rather than left for the patient to discover and interpret alone.</p>
+        <p class="text-sm mt-2">Where the cost of ongoing injectable hormonal therapy is a barrier, surgical removal of the testes (bilateral orchidectomy) achieves the same hormonal suppression as a one-off procedure and is a legitimate, widely used option in resource-limited settings. It is also permanent and, for many men, carries a heavy psychological weight, so it should be offered as a genuine choice with the same careful discussion of what it means for his body and his self-image, not as a purely technical cost-saving step.</p>
+        <p class="text-sm mt-2">Address the psychological impact of these changes directly and without minimising them; some men experience significant distress and loss of self-image from this treatment specifically, and screening for depression and involving a partner in counselling, where the patient consents, can meaningfully help.</p>
+        <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic mt-2">"This treatment works by lowering testosterone, which is what drives this cancer to grow. Because testosterone is also involved in sex drive, energy, and muscle, you will likely notice changes in these areas. This is the treatment working as expected, not a separate problem, and I want you to know about this before you start rather than being caught off guard."</p>
+      </div>
+    </div>
+    
+    <!-- 8. Metastatic disease -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      Metastatic Disease
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Where prostate cancer has spread - most often to bone - treatment shifts toward long-term disease control rather than cure, primarily through hormonal therapy, sometimes combined with chemotherapy or newer agents depending on access. Bone pain from metastatic disease is common and treatable; explicitly reassure the patient that pain control is achievable and will be actively managed, since fear of uncontrolled pain is a significant, often unspoken source of distress in advanced disease. As with any advanced cancer, honest communication about the shift in treatment goal, paired with clear communication about what remains achievable - symptom control, meaningful quality time, and disease control often measured in years rather than months - serves the patient better than either false optimism or excessive bluntness.</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <p class="text-sm text-rose-900 dark:text-rose-300 mb-3 font-medium">Make sure any man with bone spread knows to come in urgently, the same day, for:</p>
+      <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>New or worsening back pain together with weakness, heaviness, or numbness in the legs - spinal cord compression is a treatable emergency, and outcome depends heavily on how quickly he is seen.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Loss of control of urine or stool, or being unable to pass urine at all.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>A sudden, severe bone pain after a minor fall or movement, which may mean a fracture through an area of weakened bone.</span></li>
+      </ul>
+    </div>
+    
+    <!-- 9. Cost -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Cost, Access, and Treatment Continuation
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">As with breast cancer, treatment abandonment partway through - particularly stopping hormonal therapy once symptoms improve, or after the initial cost of surgery or radiotherapy proves difficult to sustain for follow-up care - is a recognised problem. Discuss the anticipated course and cost honestly at the outset, ask directly and repeatedly about cost or access barriers rather than waiting for missed appointments to reveal them, and discuss insurance or subsidised treatment programme options where available.</p>
+    </div>
+    
+    <!-- 10. Family and psychosocial -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Family and Psychosocial Considerations
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Many men are reluctant to discuss this diagnosis, and particularly its sexual side effects, even with a spouse, due to the same stigma and discomfort that often delayed presentation in the first place. Gently encourage disclosure to a spouse or trusted family member where appropriate, since partner understanding and support meaningfully affects both psychological coping and practical treatment adherence, particularly around the sexual and urinary side effects discussed above. Screen actively for depression and anxiety across the treatment course, rather than assuming stoicism reflects genuine coping - this is a diagnosis where men in particular may present distress as withdrawal or irritability rather than openly discussed sadness or fear.</p>
+    </div>
+    
+    <!-- 11. Follow-up -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Follow-Up and Surveillance
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Whether you're on active surveillance, have completed treatment, or are on ongoing hormonal therapy, regular follow-up - including PSA testing - is how we track how things are going and catch any change early."</p>
+      <p class="text-sm">Explain the specific follow-up schedule relevant to his situation, and what symptoms should prompt earlier review - new or worsening bone pain, urinary symptoms, or any new symptom he's uncertain about - without creating excessive anxiety over every minor symptom.</p>
+    </div>
+    
+    <!-- 12. Closing -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Closing and Confirming Understanding
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Can you tell me, in your own words, what you understand about your diagnosis and what we've discussed as the plan?"</p>
+      <p class="text-sm">Correct any gaps revealed, paying particular attention to whether he has understood an active surveillance recommendation correctly if that's the plan, since this is the point most likely to be misunderstood or quietly rejected without saying so directly.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"This is a lot to take in, and it touches on things that aren't always easy to talk about. We'll go through this together, and you can ask me anything again, at any point, including anything about how this might affect you personally that you might feel hesitant to bring up."</p>
+    </div>
+    
+    <!-- Key Take-Home Points -->
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Take-Home Points for the Patient</h3>
+      <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Prostate cancer is often slow-growing, and many men live long, full lives after diagnosis, including some who need no immediate active treatment at all.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>An elevated PSA does not by itself confirm cancer.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>No herbal or traditional remedy has been shown to cure this condition, and delaying effective treatment to try one allows the disease to advance.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Active surveillance, where recommended, is a deliberate and safe strategy for the right type of prostate cancer, not a lack of treatment.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sexual and urinary side effects from treatment are real and should be discussed honestly rather than hidden - help and support are available for these.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cost or access concerns should be raised early rather than leading to silently missed treatment. Family and partner support genuinely helps with coping.</span></li>
+      </ul>
+    </div>
+    
+    <!-- References -->
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Prostate Cancer Foundation - Screening Guidelines for Prostate Cancer in Black Men in the United States (NEJM Evidence, 2024).</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Urological Association / Society of Urologic Oncology - Clinically Localized Prostate Cancer Guideline.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Comprehensive Cancer Network - NCCN Clinical Practice Guidelines in Oncology: Prostate Cancer.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>European Association of Urology - Guidelines on Prostate Cancer.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+        </ul>
+      </div>
+    </details>
+    
+    </body>
+    </html>
+        `
+      },
 
 
 ];

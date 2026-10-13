@@ -1,5 +1,7 @@
 import { useTheme } from '../hooks/useTheme';
 import { useBookmarks } from '../hooks/useBookmarks';
+import { signOut } from 'firebase/auth';
+import { auth } from '../firebase';
 
 interface HeaderProps {
   onReset: () => void;
@@ -9,6 +11,15 @@ interface HeaderProps {
 export function Header({ onReset, onShowBookmarks }: HeaderProps) {
   const { theme, toggleTheme } = useTheme();
   const { bookmarkedTemplateIds } = useBookmarks();
+
+  const handleSignOut = async () => {
+    try {
+      await signOut(auth);
+      // The onAuthStateChanged listener in App.tsx will handle the redirect to the sign-in page
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
+  };
 
   return (
     <header className="sticky top-0 z-40 w-full glass-morphism transition-colors duration-300 border-b border-slate-200 dark:border-slate-800">
@@ -52,6 +63,16 @@ export function Header({ onReset, onShowBookmarks }: HeaderProps) {
                 </span>
               )}
             </button>
+            
+            {/* Sign Out Button */}
+            <button
+              onClick={handleSignOut}
+              className="flex items-center gap-2 px-3 py-2 rounded-xl text-slate-600 hover:text-red-900 hover:bg-red-100 dark:text-slate-300 dark:hover:text-red-400 dark:hover:bg-red-800 transition-all"
+              title="Sign Out"
+            >
+              <i className="fa-solid fa-right-from-bracket"></i>
+            </button>
+
           </div>
         </div>
       </div>

@@ -7,14 +7,24 @@ import { BackToTopButton } from './BackToTopButton';
 interface LayoutProps {
   children: ReactNode;
   onReset: () => void;
+  onShowBookmarks: () => void;
   onOpenHelp: () => void;
   onOpenAbout: () => void;
   onOpenDisclaimer: () => void;
-  onShowBookmarks: () => void;
+  hero?: ReactNode;
   showBackToTop?: boolean;
 }
 
-export function Layout({ children, hero, onReset, onOpenHelp, onOpenAbout, onOpenDisclaimer, onShowBookmarks, showBackToTop }: LayoutProps & { hero?: ReactNode }) {
+export function Layout({ 
+  children, 
+  hero, 
+  showBackToTop, 
+  onReset, 
+  onShowBookmarks, 
+  onOpenHelp, 
+  onOpenAbout, 
+  onOpenDisclaimer 
+}: LayoutProps) {
   return (
     <ToastProvider>
       <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 transition-colors duration-300 font-sans">

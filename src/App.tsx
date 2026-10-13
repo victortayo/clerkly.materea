@@ -1,4 +1,6 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
+import { User, onAuthStateChanged } from 'firebase/auth';
+import { auth } from './firebase';
 import { Layout } from './components/Layout';
 import { Hero } from './components/Hero';
 import { TemplateList } from './components/TemplateList';
@@ -14,12 +16,20 @@ import StartingLoader from './components/StartingLoader';
 import ErrorBoundary from './components/ErrorBoundary';
 import { SpecialtyAccordion } from './components/SpecialtyAccordion';
 import { SymptomTagCloud } from './components/SymptomTagCloud';
+import { SignIn } from './components/SignIn';
+import { SignUp } from './components/SignUp';
 
 const TEMPLATES_PER_PAGE = 12;
 
 type NavigationMode = 'list' | 'accordion' | 'symptoms';
 
 export default function App() {
+    // New Auth State
+    const [user, setUser] = useState<User | null>(null);
+    const [isAuthLoading, setIsAuthLoading] = useState(true);
+    const [authView, setAuthView] = useState<'signIn' | 'signUp'>('signIn');
+
+    // Existing State
     const [templates, setTemplates] = useState<Template[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const { bookmarkedTemplateIds, bookmarkCounts, toggleBookmark } = useBookmarks();
@@ -38,15 +48,34 @@ export default function App() {
     const [visibleCount, setVisibleCount] = useState(TEMPLATES_PER_PAGE);
     const [isFetchingMore, setIsFetchingMore] = useState(false);
 
+    // Auth listener
     useEffect(() => {
-        const fetchTemplates = async () => {
-            const { INITIAL_TEMPLATES } = await import('./data');
-            setTemplates(INITIAL_TEMPLATES);
-            setIsLoading(false);
-        };
+        const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+            setUser(currentUser);
+            setIsAuthLoading(false);
+        });
 
-        fetchTemplates();
+        // Cleanup subscription on unmount
+        return () => unsubscribe();
     }, []);
+
+    // Fetch templates only when a user is logged in
+    useEffect(() => {
+        if (user) {
+            setIsLoading(true);
+            const fetchTemplates = async () => {
+                const { INITIAL_TEMPLATES } = await import('./data');
+                setTemplates(INITIAL_TEMPLATES);
+                setIsLoading(false);
+            };
+
+            fetchTemplates();
+        } else {
+            // If user logs out, clear data
+            setTemplates([]);
+            setIsLoading(true);
+        }
+    }, [user]);
 
     const filteredTemplates = useMemo(() => {
         if (!templates.length) return [];
@@ -177,10 +206,28 @@ export default function App() {
       { icon: 'fa-user-doctor', label: 'Specialty Clinics', ex: 'e.g. cardiology' },
     ];
 
+    // --- Render Logic ---
+
+    // 1. While Firebase is checking auth state, show a global loader
+    if (isAuthLoading) {
+        return <StartingLoader />;
+    }
+
+    // 2. If no user, show Sign In or Sign Up pages
+    if (!user) {
+        return authView === 'signIn' ? (
+            <SignIn onGoToSignUp={() => setAuthView('signUp')} />
+        ) : (
+            <SignUp onGoToSignIn={() => setAuthView('signIn')} />
+        );
+    }
+    
+    // 3. If a user is logged in, but templates are loading, show loader
     if (isLoading) {
         return <StartingLoader />;
     }
 
+    // 4. If a user is logged in and templates are loaded, show the app
     const hasFilters = searchQuery || selectedSpecialty !== 'All' || showBookmarks;
     const noResults = filteredTemplates.length === 0 && hasFilters;
 

@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { auth } from '../firebase';
 
 interface SignUpProps {
@@ -28,8 +28,9 @@ export const SignUp = ({ onGoToSignIn }: SignUpProps) => {
     setIsLoading(true);
 
     try {
-      await createUserWithEmailAndPassword(auth, email, password);
-      // The onAuthStateChanged listener in App.tsx will handle the redirect
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      await sendEmailVerification(userCredential.user);
+      // The onAuthStateChanged listener in App.tsx will handle the redirect to the verification page
     } catch (err: any) {
       switch (err.code) {
         case 'auth/email-already-in-use':

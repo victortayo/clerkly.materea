@@ -1,3 +1,4 @@
+
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { User, onAuthStateChanged } from 'firebase/auth';
 import { auth } from './firebase';
@@ -18,6 +19,7 @@ import { SpecialtyAccordion } from './components/SpecialtyAccordion';
 import { SymptomTagCloud } from './components/SymptomTagCloud';
 import { SignIn } from './components/SignIn';
 import { SignUp } from './components/SignUp';
+import { VerifyEmail } from './components/VerifyEmail';
 
 const TEMPLATES_PER_PAGE = 12;
 
@@ -59,9 +61,9 @@ export default function App() {
         return () => unsubscribe();
     }, []);
 
-    // Fetch templates only when a user is logged in
+    // Fetch templates only when a user is logged in and verified
     useEffect(() => {
-        if (user) {
+        if (user && user.emailVerified) {
             setIsLoading(true);
             const fetchTemplates = async () => {
                 const { INITIAL_TEMPLATES } = await import('./data');
@@ -71,7 +73,7 @@ export default function App() {
 
             fetchTemplates();
         } else {
-            // If user logs out, clear data
+            // If user logs out or is not verified, clear data
             setTemplates([]);
             setIsLoading(true);
         }
@@ -221,13 +223,18 @@ export default function App() {
             <SignUp onGoToSignIn={() => setAuthView('signIn')} />
         );
     }
+
+    // 3. If user exists but email is not verified, show the verification page
+    if (!user.emailVerified) {
+        return <VerifyEmail />;
+    }
     
-    // 3. If a user is logged in, but templates are loading, show loader
+    // 4. If a user is logged in and verified, but templates are loading, show loader
     if (isLoading) {
         return <StartingLoader />;
     }
 
-    // 4. If a user is logged in and templates are loaded, show the app
+    // 5. If a user is logged in, verified, and templates are loaded, show the app
     const hasFilters = searchQuery || selectedSpecialty !== 'All' || showBookmarks;
     const noResults = filteredTemplates.length === 0 && hasFilters;
 

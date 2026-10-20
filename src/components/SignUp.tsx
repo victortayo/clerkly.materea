@@ -58,13 +58,18 @@ export const SignUp = ({ onGoToSignIn }: SignUpProps) => {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col justify-center items-center p-4">
       <div className="w-full max-w-sm">
-        <div className="flex items-center justify-center gap-2 mb-8">
-          <div className="w-10 h-10 rounded-lg flex items-center justify-center shadow-inner bg-indigo-950 dark:bg-white">
-            <i className="fa-solid fa-file-medical text-white dark:text-indigo-950 text-lg leading-none"></i>
+        <div className="mb-8">
+          <span className="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2 py-0.5 rounded-full">
+            beta
+          </span>
+          <div className="flex items-center gap-2 mt-2">
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center shadow-inner bg-indigo-950 dark:bg-white">
+              <i className="fa-solid fa-file-medical text-white dark:text-indigo-950 text-lg leading-none"></i>
+            </div>
+            <h1 className="text-3xl font-brand font-bold text-slate-800 dark:text-slate-200">
+              Clerkly
+            </h1>
           </div>
-          <h1 className="text-3xl font-brand font-bold text-slate-800 dark:text-slate-200">
-            Clerkly
-          </h1>
         </div>
 
         <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-lg border border-slate-100 dark:border-slate-700">

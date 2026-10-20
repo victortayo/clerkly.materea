@@ -47,9 +47,14 @@ export function Hero({
     <section className="w-full bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 transition-colors duration-300">
       <div className="py-20 sm:py-32 flex flex-col items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="font-brand text-6xl sm:text-8xl font-bold text-indigo-950 dark:text-indigo-100 mb-4 tracking-tighter">
-            clerkly
-          </h1>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <h1 className="font-brand text-6xl sm:text-8xl font-bold text-indigo-950 dark:text-indigo-100 tracking-tighter">
+              clerkly
+            </h1>
+            <span className="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2 py-1 rounded-full">
+              beta
+            </span>
+          </div>
           <p className="text-slate-400 dark:text-slate-500 text-sm sm:text-base font-medium tracking-[0.2em] uppercase">
             clinical notes
           </p>

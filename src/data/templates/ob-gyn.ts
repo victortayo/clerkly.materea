@@ -3,6 +3,356 @@ import { Template } from '../../types';
 export const OB_GYN_TEMPLATES: Template[] = [
 
   {
+    id: 'ob-81',
+    title: 'Vaso-Occlusive Crisis in Pregnancy with Fever',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Sickle Cell Disease in Pregnancy',
+    symptoms: [
+      'Generalized bone pain',
+      'Lower back pain',
+      'Hip pain',
+      'Bilateral femoral pain',
+      'Fever',
+      'Chills',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '26-year-old G2P1+0 woman at 28 weeks and 4 days of gestation with known HbSS presenting with a 2-day history of severe generalized bone pain and a 1-day history of fever, consistent with a vaso-occlusive crisis with possible underlying infection.',
+    content: `ANTENATAL CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 26-year-old female tailor who resides in Surulere, Lagos State. She is Yoruba, married in a monogamous setting.
+  
+  OBSTETRIC DATES
+  G2P1+0
+  LMP: 15/10/2023
+  EDD: 22/07/2024
+  EGA: 28 weeks + 4 days
+  
+  PRESENTING COMPLAINTS
+  1. Generalized bone pain × 2 days
+  2. Fever × 1 day
+  
+  HISTORY OF PRESENTING COMPLAINT
+  She was apparently well until 2 days ago when she developed generalized bone pain, most severe in the lower back, hips, and both femurs. The pain is described as throbbing and constant, 8/10 in severity, and worsened by movement. There was no preceding trauma. She took tablet paracetamol at home with minimal relief.
+  
+  She also developed a low-grade fever 1 day ago, which is intermittent and associated with chills but no rigors.
+  
+  There is no history of cough, chest pain, or breathlessness. No history of urinary frequency, urgency, or dysuria. She reports normal fetal movements. No history of vaginal bleeding or drainage of liquor.
+  
+  PAST MEDICAL AND OBSTETRIC HISTORY
+  Known sickle cell anaemia (HbSS) diagnosed in childhood. Usually has 1–2 crises per year. Last crisis was 6 months ago and required a 3-day admission. No history of blood transfusion in the last year.
+  
+  G1: Term delivery via spontaneous vaginal delivery at a general hospital; male infant weighing 3.2 kg, alive and well. No complications.
+  
+  Index Pregnancy: Booked at 14 weeks' estimated gestational age. Has been compliant with antenatal medications and routine sickle cell disease prophylaxis.
+  
+  DRUG HISTORY
+  1. Tablet folic acid 5 mg daily.
+  2. Tablet Paludrine 100 mg daily.
+  3. Tablet ferrous sulphate 200 mg daily.
+  4. Routine antenatal multivitamins.
+  
+  FAMILY AND SOCIAL HISTORY
+  First of four children; only one with sickle cell disease. Married to a civil servant with HbAS genotype. Resides in a 2-bedroom apartment with good ventilation. Non-smoker and does not consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  RS: No cough or pleuritic chest pain.
+  CVS: No palpitations or orthopnoea.
+  GIT: No nausea or vomiting.
+  CNS: No headaches or visual disturbances.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking young woman in painful distress. Febrile (temperature 38.4°C), mildly pale, icteric, and not cyanosed. No significant lymphadenopathy. Mild bilateral non-pitting pedal oedema.
+  
+  VITAL SIGNS
+  PR: 104 bpm (regular, full volume).
+  BP: 110/70 mmHg.
+  RR: 24 cpm.
+  SpO₂: 96% on room air.
+  
+  OBSTETRIC EXAMINATION
+  Abdomen: Gravid enlargement, moves with respiration. No scars from previous sickle cell disease-related complications.
+  SFH: 28 cm, consistent with EGA.
+  Palpation: Longitudinal lie, cephalic presentation. Fetal heart sounds heard and regular (FHR 148 bpm).
+  No uterine contractions felt. No adnexal tenderness.
+  
+  SYSTEMIC EXAMINATION
+  RS: Trachea central, chest expansion symmetrical, breath sounds vesicular with no added sounds.
+  CVS: Apex beat at the 5th left intercostal space, midclavicular line. S1 and S2 only.
+  MSS: Tenderness over the lumbar spine and both femurs. No joint swelling or redness.
+  CNS: Conscious and oriented. No focal neurological deficits.
+  
+  ASSESSMENT
+  Vaso-occlusive crisis in a G2P1+0 woman at 28 weeks' estimated gestational age with known HbSS.
+  Rule out malaria or urinary tract infection as a precipitating factor.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Malaria in pregnancy in a patient with HbSS.
+  2. Urinary tract infection (UTI).
+  3. Osteomyelitis (less likely).
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full blood count (FBC): Check PCV and white blood cell count to assess anaemia and possible infection.
+  2. Malaria parasite test (MPS) and rapid diagnostic test (RDT) for malaria.
+  3. Urinalysis and urine microscopy, culture, and sensitivity.
+  4. Reticulocyte count and peripheral blood film (PBF).
+  5. Serum electrolytes, urea, and creatinine (EUCr).
+  6. Obstetric ultrasound scan to assess fetal wellbeing and placental site.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  URGENT INTERVENTIONS
+  1. Admit for close monitoring and management.
+  2. Hydration: IV normal saline 1 L 8-hourly, with close monitoring for fluid overload and pulmonary oedema. Encourage oral fluids as tolerated and guided by fluid balance.
+  3. Analgesia:
+     - IV paracetamol 1 g 8-hourly.
+     - IV pentazocine 30 mg 6–8-hourly, titrated according to pain severity and clinical response.
+     - Avoid NSAIDs such as ibuprofen and diclofenac at this gestational age unless specifically indicated following specialist review, owing to potential fetal renal effects and premature closure of the ductus arteriosus.
+  4. Oxygen therapy via nasal cannulae if hypoxaemia develops, guided by oxygen saturation and clinical assessment.
+  
+  SUPPORTIVE CARE
+  5. Empirical antibiotics: IV ceftriaxone 1 g daily, pending culture results and review of the indication based on the suspected source of infection and local protocols.
+  6. Malaria treatment: If malaria is confirmed, initiate appropriate pregnancy-safe antimalarial treatment according to disease severity and local guidelines. For severe malaria, IV artesunate 2.4 mg/kg at 0, 12, and 24 hours, followed by daily dosing as indicated.
+  7. Thromboprophylaxis: Assess venous thromboembolism risk and bleeding risk. Consider subcutaneous enoxaparin 40 mg daily if indicated, with appropriate review of renal function, weight, platelet count, and obstetric considerations.
+  8. Fetal monitoring: Check fetal heart rate 4-hourly as clinically indicated and monitor for signs of fetal compromise.
+  9. Continue routine antenatal medications, including folic acid.
+  10. Request joint review by the haematology and obstetrics teams.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'ob-80',
+    title: 'Vaso-Occlusive Crisis in Pregnancy',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Sickle Cell Disease in Pregnancy',
+    symptoms: [
+      'Generalized bone pain',
+      'Joint pain',
+      'Lower limb pain',
+      'Hip pain',
+      'Lower back pain',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '26-year-old G2P1+0 woman at 24 weeks of gestation with known HbSS presenting with a 2-day history of generalized bone and joint pains, consistent with a vaso-occlusive crisis likely precipitated by cold weather.',
+    content: `ANTENATAL CLINIC
+  
+  Patient Identification
+  A 26-year-old G2P1+0 female trader who resides in Gbagada, Lagos State. She is of the Yoruba ethnic group and is a known HbSS patient.
+  
+  Presenting Complaints
+  1. Generalized bone and joint pains × 2 days
+  
+  History of Presenting Complaint
+  The patient was apparently well until 2 days ago when she developed generalized bone and joint pains, most severe in the lower limbs, hips, and lower back. She describes the pain as deep-seated and aching, currently 7/10 in severity. She notes that the pain is significantly worsened by the current cold, rainy weather and is more intense in the early hours of the morning. There is no history of trauma, joint swelling, or redness.
+  
+  She is currently at an estimated gestational age of 24 weeks. Fetal movements have been present and are of normal frequency. She has not experienced any fever, chills, cough, or urinary symptoms. There is no history of vaginal bleeding or drainage of liquor. She has been compliant with her routine antenatal medications.
+  
+  Past Medical History
+  Known sickle cell anaemia (HbSS) diagnosed at age 3. Usually has about 2 crises per year, often precipitated by cold or infections. Last crisis was 8 months ago. History of 2 previous blood transfusions, the last being 2 years ago. No known history of asthma, hypertension, or diabetes mellitus.
+  
+  Past Obstetric History
+  G1P1 (alive). Previous pregnancy 3 years ago was uneventful; delivered a male infant (3.2 kg) via spontaneous vaginal delivery at term. No history of postpartum haemorrhage or pre-eclampsia.
+  
+  Drug History
+  Fefol (ferrous sulphate/folic acid) 1 tablet daily.
+  Proguanil 200 mg daily.
+  Vitamin C 100 mg daily.
+  She took tablet paracetamol 1 g at home 6 hours ago with minimal relief.
+  No known drug allergies.
+  
+  Family and Social History
+  In a monogamous marriage. Lives in a well-ventilated room with her husband and child. Non-smoker and does not consume alcohol.
+  
+  Review of Systems
+  CNS: No headaches or dizziness.
+  RS: No cough or chest pain.
+  CVS: No palpitations or orthopnoea.
+  GIT: No nausea or vomiting; normal bowel habits.
+  GUS: No dysuria or urinary frequency.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking, in painful distress, conscious and alert. Afebrile (36.8°C), mildly pale, and icteric. No dehydration, pedal oedema, or significant lymphadenopathy.
+  Weight: 64 kg.
+  Height: 1.62 m.
+  
+  Vital Signs
+  PR: 96 bpm (regular, full volume).
+  BP: 110/70 mmHg.
+  RR: 20 cpm.
+  SpO₂: 98% on room air.
+  
+  Abdominal Examination
+  Gravid enlargement, symphysio-fundal height (SFH) of 24 cm, consistent with dates. Fetal heart rate (FHR) is 144 bpm, regular. Uterus is non-tender and relaxed. No hepatosplenomegaly.
+  
+  Musculoskeletal Examination
+  Generalized bone tenderness noted over the shins and lumbar vertebrae. No joint swelling, warmth, or overlying erythema. Full range of motion in all major joints, limited only by pain.
+  
+  Assessment
+  G2P1+0 woman at 24 weeks' estimated gestational age in vaso-occlusive crisis (VOC), likely precipitated by cold weather, in a known HbSS patient.
+  
+  Differential Diagnoses
+  1. Malaria in pregnancy as a potential trigger for VOC.
+  2. Rheumatic heart disease with arthralgia.
+  3. Rheumatoid arthritis (less likely).
+  
+  Initial Investigation Plan
+  1. Full blood count (FBC): To check PCV and white blood cell count (WBC).
+  2. Reticulocyte count: To assess bone marrow response.
+  3. Malaria parasite test (MPS): To rule out malaria as a trigger.
+  4. Urinalysis: To assess for urinary tract infection or other urinary abnormalities that may trigger VOC.
+  5. Serum electrolytes, urea, and creatinine (EUCr): To assess baseline renal function.
+  6. Obstetric ultrasound: To assess fetal wellbeing and placental position.
+  
+  Initial Management Plan
+  1. Admit for hydration and pain management.
+  2. Fluid therapy: IV normal saline 1 L 8-hourly for the first 24 hours, followed by liberal oral fluid intake (3–4 L per day), guided by clinical assessment and fluid balance.
+  3. Analgesia:
+     - Tablet paracetamol 1 g 8-hourly.
+     - Tablet dihydrocodeine (DHC) 30 mg 8-hourly for moderate to severe pain, with appropriate maternal and fetal monitoring.
+     - Avoid NSAIDs such as ibuprofen and diclofenac where possible, particularly from 20 weeks of gestation onward and especially in the third trimester, because of potential fetal renal effects, oligohydramnios, and premature closure of the ductus arteriosus.
+  4. Keep the patient warm using blankets and appropriate clothing, and avoid exposure to cold drafts.
+  5. Continue routine antenatal medications. Ensure adequate folic acid supplementation; folic acid 5 mg daily is commonly used in pregnancy complicated by HbSS.
+  6. Continue malaria prophylaxis with proguanil 200 mg daily, subject to review of the antenatal regimen and local guidelines.
+  7. Monitor fetal heart rate at least twice daily and maternal vital signs (BP, pulse, and temperature) 4-hourly.
+  8. Review pain scores and hydration status daily, with ongoing assessment of fluid balance and clinical response.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'ob-79',
+    title: 'Atrophic Vaginitis (Genitourinary Syndrome of Menopause)',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Atrophic Vaginitis',
+    symptoms: [
+      'Vulvovaginal itching',
+      'Vaginal dryness',
+      'Urinary urgency',
+      'Increased urinary frequency',
+      'Vulvovaginal irritation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '71-year-old postmenopausal Yoruba woman, G5P5+0, presenting with 3 months of persistent vulvovaginal itching and vaginal dryness, associated with occasional urinary urgency and frequency. Pelvic examination reveals vulvovaginal atrophy, pale and dry vulvar skin with excoriations, thinning of the vaginal mucosa, and loss of normal vaginal rugae, consistent with genitourinary syndrome of menopause.',
+    content: `GYNAE CLINIC
+  
+  Patient Identification
+  A 71-year-old Yoruba woman, G5P5+0 (all alive), retired civil servant residing in Ibadan, Oyo State.
+  
+  Presenting Complaints
+  1. Vaginal itching × 3/12
+  2. Vaginal dryness × 3/12
+  
+  History of Presenting Complaint
+  The patient was apparently well until about 3 months ago when she started noticing persistent itching in the vulvovaginal area. The itching is described as irritating but is not associated with pain or a burning sensation during micturition. She also reports significant vaginal dryness, which has become increasingly uncomfortable.
+  
+  There is no history of foul-smelling or coloured vaginal discharge. No history of postmenopausal bleeding, contact bleeding, or spotting. She denies any history of fever, weight loss, or night sweats. There has been no recent change in the types of soaps or detergents used for laundry or personal hygiene. She is about 20 years postmenopausal and is not currently sexually active.
+  
+  Past Medical History
+  Known hypertensive × 15 years, currently managed on Tab. Amlodipine 5 mg daily with good blood pressure control.
+  Not a known diabetic.
+  No previous history of gynaecological surgeries or pelvic radiation.
+  No known history of asthma or drug allergies.
+  
+  Drug History
+  Tab. Amlodipine 5 mg daily.
+  No recent use of antibiotics, steroids, or herbal medications.
+  
+  Family and Social History
+  Married in a monogamous setting. Husband is 76 years old.
+  She has five children, all of whom are adults.
+  She does not smoke or consume alcohol.
+  
+  Review of Systems
+  GUT: Reports occasional urinary urgency and increased frequency of micturition. No dysuria or haematuria.
+  CNS: No headaches or blurred vision.
+  CVS: No palpitations or chest pain.
+  RS: No cough or breathlessness.
+  GIT: Normal appetite and bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  An elderly woman, comfortable and not in any obvious respiratory or painful distress.
+  Acyanotic, not pale, anicteric, and not dehydrated. No significant peripheral lymphadenopathy. No pedal oedema.
+  
+  Vital Signs
+  Pulse rate: 76 bpm, regular, normal volume.
+  Blood pressure: 135/85 mmHg.
+  Respiratory rate: 16 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 97% on room air.
+  
+  Abdominal Examination
+  Flat and moves with respiration. No surgical scars.
+  Soft and non-tender. No palpable organomegaly or masses.
+  Bowel sounds present and normal.
+  
+  Pelvic Examination
+  
+  Inspection
+  Scanty pubic hair. Evidence of thinning of the labia majora and minora. Vulvar skin appears pale and dry, with some excoriation marks from scratching. No visible ulcers, vesicles, or masses.
+  
+  Speculum Examination
+  Vaginal mucosa appears thin, pale, and erythematous in patches. There is a loss of the normal vaginal rugae. The cervix is small (atrophic) but appears healthy. No discharge seen in the fornices.
+  
+  Digital Examination
+  Narrowed vaginal vault. No adnexal tenderness or masses felt.
+  
+  Assessment
+  Atrophic vaginitis (genitourinary syndrome of menopause).
+  
+  Differential Diagnoses
+  1. Vulvovaginal candidiasis.
+  2. Lichen sclerosus.
+  3. Contact dermatitis (vulvar).
+  4. Vulvar intraepithelial neoplasia (less likely).
+  
+  Investigations
+  1. Urinalysis: To assess for urinary tract infection and glycosuria.
+  2. Fasting blood sugar: To screen for diabetes mellitus.
+  3. High vaginal swab (HVS) for microscopy, culture, and sensitivity (MCS): To investigate possible fungal or bacterial superinfection.
+  4. Pap smear: If not done recently, to screen for cervical pathology.
+  
+  Management Plan
+  1. Patient education: Reassure the patient that the symptoms may be due to age-related oestrogen deficiency.
+  2. General hygiene: Advise avoidance of scented soaps, douching, and tight synthetic underwear. Recommend mild, unscented soap or plain water for washing.
+  3. Non-hormonal therapy:
+     - Vaginal moisturizers (e.g., Replens) 2–3 times weekly for ongoing hydration.
+     - Water-based lubricants (e.g., KY Jelly) as needed for comfort.
+  4. Hormonal therapy:
+     - Low-dose topical oestrogen cream (e.g., Premarin or estradiol cream).
+     - Proposed dose: 0.5–1 g intravaginally nightly for 2 weeks, then reduce to a maintenance dose of twice weekly, subject to product-specific dosing and clinical review.
+  5. Follow-up: Review in 4 weeks to assess symptomatic improvement and response to therapy.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
     id: 'ob-78',
     title: 'Abnormal Uterine Bleeding with Suspected Secondary Anaemia',
     specialty: 'Obstetrics and Gynecology',

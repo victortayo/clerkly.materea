@@ -1,7 +1,719 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
-
+  {
+    id: 'peds-96',
+    title: 'Acute Gastroenteritis with Moderate Dehydration',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Emergency Unit',
+    condition: 'Acute Gastroenteritis with Moderate Dehydration',
+    symptoms: [
+      'Vomiting',
+      'Inability to tolerate feeds',
+      'Fever',
+      'Sunken eyes',
+      'Dry mucous membranes',
+      'Delayed skin recoil',
+      'Tachycardia',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '12-month-old male presenting with one day of recurrent non-bilious, non-bloody vomiting, inability to tolerate oral intake, and intermittent high-grade fever. Examination reveals moderate dehydration and tachycardia, with leukocytosis and neutrophilia. Assessed as acute gastroenteritis with moderate dehydration, with possible systemic infection requiring further evaluation.',
+    content: `
+  PAEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Name: Master A.B.
+  Age: 12 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (reliable)
+  
+  Presenting Complaints
+  1. Vomiting x 1/7
+  2. Inability to tolerate feeds x 1/7
+  
+  History of Presenting Complaint
+  He was apparently well until 1 day ago when he developed multiple episodes of vomiting. The vomitus consists of recently ingested feeds, is non-bilious and non-bloody. He has vomited about 8 times since the onset. He is currently unable to keep down any oral intake, including water and breast milk.
+  
+  There is an associated history of high-grade fever, which is intermittent and momentarily relieved by paracetamol syrup.
+  
+  No history of diarrhoea or change in stool consistency or frequency.
+  
+  No history of cough, fast breathing, or difficulty breathing.
+  
+  No history of ear discharge, neck stiffness, or abnormal body movements.
+  
+  No history of excessive crying during micturition or change in urine colour or odour.
+  
+  Care So Far
+  He was seen at a local pharmacy, where he was given a dose of paracetamol and an antimalarial, but he vomited the medications.
+  
+  Past Medical History
+  No history of similar illness in the past.
+  
+  Not a known patient with sickle cell disease (genotype is AA).
+  
+  No previous hospital admissions or blood transfusions.
+  
+  Birth History
+  Antenatal: Mother booked at 4 months' gestation. Pregnancy was supervised at a General Hospital. No history of pregnancy-induced hypertension or gestational diabetes.
+  
+  Natal: Delivered at term via spontaneous vaginal delivery at a hospital.
+  
+  Postnatal: Cried immediately at birth. No history of neonatal jaundice or cord sepsis. Birth weight was 3.4 kg.
+  
+  Dietary History
+  Exclusively breastfed for 6 months.
+  
+  Complementary feeds (pap and family diet) were introduced at 6 months.
+  
+  Currently eats 3 main meals daily, with breast milk on demand.
+  
+  Immunisation History
+  Up to date for age according to the National Programme on Immunisation (NPI) schedule. BCG scar is present.
+  
+  Developmental History
+  Attained all age-appropriate milestones. He can stand and walk with support. He can say a few words, such as "Mama" and "Baba".
+  
+  Family and Social History
+  Second child in a monogamous family. Father is a civil servant, and mother is a teacher. They live in a three-bedroom bungalow with a functional water system and proper refuse disposal.
+  
+  Review of Systems
+  CNS: No convulsions or loss of consciousness.
+  RS: No cough or rhinorrhoea.
+  CVS: No cyanosis.
+  GIT: As in HPC.
+  MSS: No joint swelling.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking child, febrile (temperature 38.5°C), moderately dehydrated (sunken eyes, dry mucous membranes, skin pinch goes back slowly).
+  
+  Not pale, anicteric, no peripheral lymphadenopathy, no pedal oedema.
+  
+  Anthropometry
+  Weight: 10 kg
+  Length: 75 cm
+  Weight-for-length: Within normal limits (Z-score 0 to -1)
+  MUAC: 14.2 cm
+  
+  Vital Signs
+  Pulse rate: 136 bpm (tachycardic, regular, fair volume)
+  Respiratory rate: 32 cpm
+  SpO₂: 97% on room air
+  
+  Systemic Examination
+  
+  Abdomen
+  Flat, moves with respiration. Soft, with no areas of tenderness.
+  
+  Liver and spleen are not palpable.
+  
+  Bowel sounds are present and hyperactive.
+  
+  Respiratory System
+  Trachea central. Good air entry bilaterally.
+  
+  Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System
+  Heart sounds S1 and S2 only. No murmurs.
+  
+  Capillary refill time: < 3 seconds.
+  
+  Neurological System
+  Conscious and alert. Pupils are 2 mm and briskly reactive to light.
+  
+  No signs of meningeal irritation (no neck stiffness; Kernig's and Brudzinski's signs negative).
+  
+  Assessment
+  Acute gastroenteritis with moderate dehydration.
+  
+  Possible systemic infection (septicemia); rule out urinary tract infection.
+  
+  Differential Diagnoses
+  1. Bacterial gastroenteritis
+  2. Septicemia secondary to urinary tract infection
+  3. Early meningitis
+  4. Acute gastritis
+  
+  Investigations
+  1. FBC: Done (WBC 16,000/mm³, neutrophils 85%) — leukocytosis with neutrophilia, suggestive of bacterial infection.
+  2. MPS: Done (negative).
+  3. Serum electrolytes, urea, and creatinine (EUCr): To assess hydration status and renal function.
+  4. Urinalysis and urine microscopy, culture, and sensitivity (M/C/S): To assess for urinary tract infection.
+  5. Stool M/C/S: To identify enteric pathogens.
+  6. Blood culture: To investigate possible bloodstream infection.
+  
+  Initial Management Plan
+  
+  1. Admission
+  Admit for rehydration, further evaluation, and monitoring.
+  
+  2. Fluid Therapy
+  Patient is unable to tolerate oral rehydration therapy (ORT).
+  
+  Proposed initial IV fluids: 0.9% normal saline or 5% dextrose in 0.45% saline.
+  
+  - Deficit replacement: 50 mL/kg over 4 hours = 500 mL over 4 hours.
+  - Maintenance: 100 mL/kg/24 hours = 1,000 mL over 24 hours (approximately 42 mL/hour).
+  
+  3. Empirical Antibiotics
+  IV Ceftriaxone 50 mg/kg/day = 500 mg IV once daily.
+  
+  4. Antipyretic/Analgesic
+  IV Paracetamol 15 mg/kg/dose = 150 mg IV 8-hourly.
+  
+  5. Antiemetic
+  IV Ondansetron 0.15 mg/kg/dose = 1.5 mg IV 8-hourly if vomiting persists.
+  
+  6. Nursing Care
+  - Keep NPO for the first 4 hours of rehydration.
+  - Monitor vital signs 4-hourly.
+  - Monitor intake and output using a fluid chart.
+  - Reassess hydration status after 4 hours.
+  - If vomiting stops, commence graded oral intake with small, frequent sips of ORS.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-95',
+    title: 'Posterior Urethral Valve with Suspected Obstructive Uropathy',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Nephrology',
+    condition: 'Posterior Urethral Valve',
+    symptoms: [
+      'Poor urinary stream',
+      'Straining during micturition',
+      'Lower abdominal swelling',
+      'Palpable distended bladder',
+      'Bilateral ballotable kidneys',
+      'Suspected hydronephrosis',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'Two-week-old male neonate presenting with a weak, dribbling urinary stream and straining during micturition since birth, with progressive lower abdominal distension and a palpable bladder and bilateral ballotable kidneys, suggestive of posterior urethral valve with obstructive uropathy.',
+    content: `
+  PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Master Chidi Okoro
+  Age: 2 weeks
+  Sex: Male
+  Religion: Christian
+  Address: Owerri, Imo State
+  Tribe: Igbo
+  Informant: Mother (reliable)
+  
+  Presenting Complaints
+  1. Poor urinary stream x 2/52
+  2. Straining while voiding x 2/52
+  3. Lower abdominal swelling x 1/52
+  
+  History of Presenting Complaint
+  The patient was noted to have a weak, dribbling urinary stream since birth. The mother observes that he strains significantly, often turning red in the face and crying during micturition. There is no history of a continuous or forceful stream.
+  
+  The mother noticed the lower abdomen becoming increasingly full over the last week, which does not disappear after voiding. There is no history of fever, vomiting, or diarrhoea. No history of convulsions, yellowness of the eyes, or bluish discolouration. Antenatal ultrasound was not done during the pregnancy.
+  
+  Past Medical History
+  This is the first hospital presentation. No previous history of admissions or blood transfusions. No known drug allergies.
+  
+  Birth History
+  Prenatal: Mother was booked at a Primary Health Care centre. Pregnancy was at term. No history of febrile illness or rash. No history of hypertension or diabetes in pregnancy.
+  
+  Natal: Delivered via spontaneous vaginal delivery (SVD) at a private maternity home. Cried immediately at birth. Birth weight was 3.4 kg.
+  
+  Postnatal: No history of neonatal jaundice or respiratory distress.
+  
+  Dietary History
+  Patient is currently on exclusive breastfeeding. Feeding is frequent and adequate.
+  
+  Immunisation History
+  Received BCG and OPV0 at birth, as evidenced by the immunisation card and a BCG scar on the right deltoid.
+  
+  Developmental History
+  Appropriate for age. Regards mother and follows bright objects briefly.
+  
+  Family and Social History
+  Patient is the second child in a monogamous family of two children. Father is a trader, and mother is a tailor. They live in a two-bedroom apartment with good ventilation. Source of water is a borehole.
+  
+  Review of Systems
+  CNS: No seizures or irritability.
+  RS: No cough or fast breathing.
+  CVS: No cyanosis.
+  GIT: No vomiting; stools are normal.
+  
+  Physical Examination
+  
+  General Examination
+  A neonate in no obvious respiratory or painful distress. Not pale, not jaundiced, not cyanosed. Well hydrated. No pedal oedema. No significant lymphadenopathy.
+  
+  Anthropometry
+  Weight: 3.5 kg
+  Length: 51 cm
+  OFC: 35 cm
+  
+  Vital Signs
+  Pulse rate: 138 bpm
+  Respiratory rate: 44 cpm
+  Temperature: 36.7°C
+  SpO₂: 98% on room air
+  
+  Systemic Examination
+  
+  Abdomen
+  Full, moves with respiration. Umbilicus is clean.
+  
+  Palpation: Firm, globular mass in the suprapubic region, reaching up to the umbilicus, dull to percussion, consistent with a distended bladder. Bladder remains palpable after attempts at voiding. Bilateral ballotable kidneys, suggestive of hydronephrosis.
+  
+  Bowel sounds: Present and normal.
+  
+  Respiratory System
+  Trachea central. Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System
+  Apex beat at the 4th left intercostal space, lateral to the midclavicular line. S1 and S2 only heard. No murmurs.
+  
+  Neurological System
+  Alert and active. Normal neonatal reflexes (Moro, suck, and grasp present). No gross motor deficit.
+  
+  Assessment
+  Posterior urethral valve (PUV) with suspected obstructive uropathy.
+  
+  Differential Diagnoses
+  1. Urethral atresia
+  2. Prune Belly syndrome
+  3. Neurogenic bladder
+  
+  Initial Investigation Plan
+  1. Urinalysis: To check for proteinuria, haematuria, or signs of infection.
+  2. Urine culture and sensitivity: To assess for urinary tract infection.
+  3. Serum electrolytes, urea, and creatinine (EUCr): To assess renal function.
+  4. Abdominal/pelvic ultrasound scan: To assess bladder wall thickness, hydronephrosis, and corticomedullary differentiation.
+  5. Voiding cystourethrogram (VCUG): To confirm the presence of the valve and assess for vesicoureteral reflux.
+  6. Full blood count (FBC): To check for elevated white cell count suggesting infection.
+  
+  Initial Management Plan
+  
+  1. Immediate Bladder Drainage
+  Insert a small feeding tube (size 6 Fr or 8 Fr) or a neonatal Foley catheter to relieve the obstruction and drain the bladder. This is the most urgent step.
+  
+  2. Fluid Management
+  Monitor input and output strictly. Correct any electrolyte imbalances, especially hyperkalaemia or acidosis, based on laboratory results.
+  
+  3. Prophylactic Antibiotics
+  - Syrup Amoxicillin/Clavulanic acid 12.5 mg/kg/dose 12-hourly OR
+  - Syrup Cefuroxime 10 mg/kg/dose 12-hourly.
+  
+  4. Pain Management
+  Paracetamol drops 10–15 mg/kg/dose if the child appears distressed.
+  
+  5. Surgical Consultation
+  Urgent referral to a paediatric urologist for definitive management (cystoscopic valve ablation).
+  
+  6. Alternative Urinary Diversion
+  If valve ablation is not immediately available due to equipment limitations or the size of the child, a temporary vesicostomy may be considered by the surgical team.
+  
+  7. Parental Counselling
+  Counsel parents on the nature of the condition and the need for long-term follow-up of renal function.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-94',
+    title: 'Measles with Complications',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Paediatric Clinic',
+    condition: 'Measles with Pneumonia and Mild Dehydration',
+    symptoms: ['Fever', 'Cough', 'Coryza', 'Sneezing', 'Conjunctival injection', 'Photophobia', 'Generalized maculopapular rash', 'Diarrhea'],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 3-year-old boy presents with a 5-day history of fever, followed by cough, coryza, bilateral conjunctival injection, and a generalized maculopapular rash that began behind the ears and along the hairline before spreading downwards. Koplik spots are present, and he missed the scheduled measles vaccinations. Examination reveals tachypnea, mild subcostal recession, bilateral basal coarse crepitations, and mild dehydration. The working diagnosis is measles complicated by pneumonia and mild dehydration.',
+    content: `
+  GENERAL PAEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  Name: Master Chidi Okoro
+  Age: 3 years
+  Sex: Male
+  Address: Emene, Enugu State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Fever x 5/7
+  2. Cough and runny nose x 4/7
+  3. Redness of eyes x 3/7
+  4. Body rash x 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 5 days prior to presentation, when he developed fever. The fever was high-grade, intermittent, and relieved by paracetamol.
+  Four days prior to presentation, he developed a dry, non-productive cough associated with profuse rhinorrhea (coryza) and sneezing. Three days prior to presentation, his mother noticed redness of both eyes, associated with tearing and photophobia.
+  Two days prior to presentation, a reddish, non-itchy rash appeared. The rash started behind the ears and along the hairline before spreading downwards to involve the face, neck, and trunk.
+  There is a history of two episodes of watery, non-mucoid, non-bloody stools since the previous day. There is no history of ear discharge, convulsions, or loss of consciousness.
+  
+  PAST MEDICAL HISTORY
+  No previous history of a similar illness.
+  No known history of sickle cell disease or asthma.
+  No known contact with a person with pulmonary tuberculosis.
+  
+  BIRTH HISTORY
+  Full-term spontaneous vaginal delivery at a primary health centre. Birth weight was 3.2 kg. There was no history of neonatal jaundice or sepsis.
+  
+  DIETARY HISTORY
+  Exclusively breastfed for 6 months. Weaned onto pap and the family diet. Current oral intake is poor due to the illness.
+  
+  IMMUNIZATION HISTORY
+  Received BCG, OPV 0–3, pentavalent vaccines 1–3, and PCV 1–3. However, the child missed the 9-month and 15-month measles-containing vaccine doses. BCG scar is present on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Attained all developmental milestones at age-appropriate times. Currently walks and speaks in short sentences.
+  
+  FAMILY AND SOCIAL HISTORY
+  Second of three children in a monogamous family. Both parents are traders. They live in a one-bedroom apartment with poor ventilation. Several children in the neighbourhood reportedly have a similar rash and fever.
+  
+  REVIEW OF SYSTEMS
+  CNS: No neck stiffness or seizures.
+  RS: As in the history of presenting complaint. No history of fast breathing at the onset of illness.
+  GIT: As in the history of presenting complaint. No vomiting.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking child, febrile (temperature 38.9°C), not pale, not jaundiced, with no significant lymphadenopathy. Mildly dehydrated, with dry mucous membranes and immediate skin-pinch return.
+  
+  ANTHROPOMETRY
+  Weight: 12.5 kg (reported as expected for age).
+  MUAC: 14.5 cm (normal).
+  
+  SKIN
+  Generalized erythematous maculopapular rash, confluent on the face and neck and discrete on the limbs.
+  
+  EYES
+  Bilateral conjunctival injection. No corneal opacities or ulcers. Clear discharge present.
+  
+  ORAL CAVITY
+  Koplik spots seen on the buccal mucosa opposite the lower molars, appearing as small bluish-white specks on a red base. Pharynx is mildly congested.
+  
+  RESPIRATORY SYSTEM
+  RR: 46 cycles per minute (tachypnea).
+  Mild subcostal recessions.
+  Trachea is central.
+  Percussion note is resonant bilaterally.
+  Auscultation reveals vesicular breath sounds with coarse crepitations in both lung bases.
+  
+  CARDIOVASCULAR SYSTEM
+  PR: 110 beats per minute, regular, normal volume.
+  Heart sounds: S1 and S2 only, with no murmurs.
+  
+  ABDOMINAL EXAMINATION
+  Abdomen is flat and moves with respiration.
+  Soft and non-tender.
+  Liver and spleen are not palpable.
+  Bowel sounds are hyperactive.
+  
+  NEUROLOGICAL EXAMINATION
+  Conscious and alert.
+  No signs of meningeal irritation.
+  
+  ASSESSMENT
+  Measles with complications, including suspected pneumonia and mild dehydration.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Rubella (German measles)
+  2. Roseola infantum
+  3. Drug eruption
+  4. Kawasaki disease
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC): May show leukopenia and relative lymphocytosis.
+  2. Measles IgM serology: To confirm the diagnosis, if available.
+  3. Pulse oximetry: To assess oxygen saturation (SpO2).
+  4. Chest X-ray (PA view): To assess for features of pneumonia.
+  5. Urinalysis: Routine assessment.
+  6. Consider respiratory investigations and further evaluation according to clinical findings and local protocols.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. General Measures:
+  - Institute appropriate airborne precautions and isolate the patient to prevent transmission.
+  - Provide bed rest and adequate hydration.
+  - Use tepid sponging for comfort if febrile.
+  - Assess airway, breathing, circulation, oxygen saturation, and nutritional status.
+  - Arrange urgent paediatric review because of tachypnea, subcostal recession, and suspected pneumonia.
+  
+  2. Medications and Supportive Care:
+  - Vitamin A: For a child aged 12 months or older with measles, administer 200,000 IU orally immediately and repeat the second dose after 24 hours, according to local protocol.
+  - Syrup paracetamol: 15 mg/kg orally every 6 hours as needed for fever or pain, ensuring the total daily dose remains within the recommended limit.
+  - Antibiotics: Assess for bacterial pneumonia and treat according to severity and local paediatric guidelines. Oral amoxicillin may be appropriate for selected children with non-severe pneumonia who can tolerate oral medication; the dose and duration should follow the applicable guideline. Severe pneumonia or clinical deterioration requires urgent reassessment and appropriate escalation of treatment.
+  - Zinc sulfate: 20 mg elemental zinc orally daily for 10–14 days for acute diarrhoea in a child older than 6 months, in accordance with local guidance.
+  - Oral rehydration solution (ORS): If dehydration is mild and the child can drink safely, give ORS according to the applicable paediatric rehydration protocol, with frequent reassessment and replacement of ongoing stool losses. A commonly used Plan B regimen is 75 mL/kg over 4 hours; reassess hydration and adjust treatment accordingly.
+  - Eye care: Gently clean eye discharge with clean water or saline. Use topical antibiotics only if bacterial conjunctivitis is suspected and treatment is clinically indicated.
+  - Oxygen: Administer if oxygen saturation is below the recommended target or if clinically indicated by respiratory distress.
+  
+  3. Monitoring and Follow-up:
+  - Monitor respiratory rate, work of breathing, and oxygen saturation.
+  - Monitor hydration status, oral intake, and urine output.
+  - Monitor temperature, level of consciousness, and general clinical status.
+  - Review the skin rash and eye findings daily.
+  - Reassess promptly if respiratory distress worsens, oral intake becomes inadequate, urine output falls, or consciousness changes.
+  - Arrange follow-up for missed routine immunizations after recovery, in accordance with the national immunization schedule.
+  - Notify the appropriate public health authority and follow local measles surveillance and reporting procedures.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-93',
+    title: 'Acute Mastoiditis Complicating Chronic Suppurative Otitis Media',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Paediatric Clinic',
+    condition: 'Acute Mastoiditis',
+    symptoms: [
+      'Right post-auricular pain',
+      'Right post-auricular swelling',
+      'Fever',
+      'Recurrent purulent right ear discharge',
+      'Anterior and inferior displacement of the right pinna'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '7-year-old male presenting with a 4-day history of progressively worsening right post-auricular pain, a 3-day history of increasing post-auricular swelling, and fever, against a background of recurrent foul-smelling right ear discharge since age 3. Examination reveals a tender, fluctuant post-auricular swelling, anterior and inferior displacement of the right pinna, and purulent ear discharge, consistent with acute mastoiditis complicating chronic suppurative otitis media.',
+    content: `GENERAL PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Master Chidi Okafor, a 7-year-old Igbo Christian male residing in Owerri, Imo State. Informant: Mother (reliable).
+  
+  Presenting Complaints
+  1. Pain behind the right ear × 4/7
+  2. Swelling behind the right ear × 3/7
+  3. Fever × 3/7
+  
+  History of Presenting Complaint
+  The patient was apparently well until 4 days ago when he developed severe pain behind the right ear. The pain was throbbing, progressively worsening, and often kept him awake at night. Three days ago, his mother noticed a swelling in the same region, which has since increased in size.
+  
+  The onset of symptoms was associated with high-grade, intermittent fever and chills. There is a positive history of recurrent, foul-smelling, yellowish discharge from the right ear since the age of 3 years, which usually responds to self-medicated eardrops. There is no history of trauma to the ear, headache, neck stiffness, or facial asymmetry. No hearing loss was reported by the mother.
+  
+  Review of Systems
+  CNS: No convulsions or loss of consciousness.
+  CVS: No palpitations.
+  RS: No cough or difficulty in breathing.
+  GIT: No vomiting or change in bowel habits.
+  MSS: No joint pains.
+  
+  Past Medical History
+  History of recurrent ear infections (chronic suppurative otitis media). No previous surgeries or hospitalizations. Not a known sickle cell disease patient. No known drug allergies.
+  
+  Birth, Dietary, and Immunization History
+  Delivered at term via spontaneous vaginal delivery in a General Hospital. No neonatal complications. Exclusively breastfed for 6 months. Immunization status is up to date according to the National Programme on Immunization (NPI) schedule. BCG scar is visible.
+  
+  Developmental History
+  Attained all major developmental milestones, including sitting, standing, walking, and speech, at the appropriate ages. Currently in Primary 2 and performing well academically.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking child, febrile (temperature 38.6°C), not pale, not jaundiced, with no significant peripheral lymphadenopathy. No signs of dehydration.
+  
+  Vital Signs
+  PR: 112 bpm, regular, full volume.
+  RR: 24 cpm.
+  SpO₂: 97% on room air.
+  
+  Anthropometry
+  Weight: 22 kg.
+  Height: 120 cm.
+  
+  Local Examination (Right Ear)
+  There is an erythematous, exquisitely tender, fluctuant swelling in the right post-auricular region.
+  The right pinna is displaced anteriorly and downwards (proptosed pinna).
+  Otoscopy reveals profuse purulent discharge in the external auditory canal. The tympanic membrane is partially obscured but appears perforated.
+  Tenderness is elicited upon pressure over the mastoid antrum.
+  
+  Respiratory System
+  Trachea is central. Chest is clear on auscultation, with vesicular breath sounds. No added sounds.
+  
+  Cardiovascular System
+  Apex beat at the 5th left intercostal space, mid-clavicular line. S1 and S2 only heard. No murmurs.
+  
+  Abdomen
+  Soft and non-tender. Liver and spleen are not palpable. Bowel sounds are present and normal.
+  
+  Central Nervous System
+  Conscious and alert. GCS 15/15. No neck stiffness. Kernig's sign is negative. No facial nerve palsy noted.
+  
+  Assessment
+  Acute mastoiditis complicating chronic suppurative otitis media (CSOM), with suspected post-auricular abscess.
+  
+  Differential Diagnoses
+  1. Acute post-auricular lymphadenitis.
+  2. Infected sebaceous cyst.
+  3. Furunculosis of the external auditory canal with cellulitis.
+  
+  Investigations
+  1. Full blood count (FBC): To assess for leukocytosis and evaluate the haematocrit.
+  2. Ear swab for microscopy, culture, and sensitivity (MCS) of the discharge.
+  3. X-ray of the mastoid (Schuller's view): To look for clouding or breakdown of the mastoid air cells.
+  4. Blood culture: To investigate possible septicaemia if fever persists.
+  
+  Management Plan
+  1. Admit for inpatient care and close monitoring.
+  2. Secure intravenous access and commence IV fluids (5% Dextrose in 0.45% Normal Saline) to maintain hydration and serve as a vehicle for medications.
+  3. IV antibiotics: Commence empirical broad-spectrum antibiotics, e.g., IV Ceftriaxone 1 g daily and IV Metronidazole 150 mg 8-hourly, to cover common aerobic and anaerobic pathogens.
+  4. Analgesics/antipyretics: IV Paracetamol 15 mg/kg 8-hourly to manage pain and fever.
+  5. Aural toileting: Gently clean the external auditory canal.
+  6. Urgent ENT consultation for possible incision and drainage of the mastoid abscess or mastoidectomy if there is no clinical improvement within 24–48 hours.
+  7. Monitor for complications: Perform regular neurological checks to assess for intracranial extension, such as meningitis or brain abscess.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-92',
+    title: 'Bullous Impetigo',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Paediatric Clinic',
+    condition: 'Bullous Impetigo',
+    symptoms: [
+      'Fluid-filled skin lesions',
+      'Fever',
+      'Mild itching',
+      'Ruptured blisters with raw skin areas'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '4-year-old male presenting with a 3-day history of rapidly spreading fluid-filled skin lesions involving the trunk and limbs, associated with mild itching and a 1-day history of intermittent low-grade fever. Clinical findings are consistent with bullous impetigo.',
+    content: `GENERAL PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Master Musa Ibrahim, a 4-year-old Hausa Muslim male residing in Dutse, Jigawa State. Informant: Mother (reliable).
+  
+  Presenting Complaints
+  1. Fluid-filled skin lesions × 3/7
+  2. Fever × 1/7
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 days ago when his mother noticed small, clear, fluid-filled blisters (bullae) on the abdomen and periumbilical area. These lesions rapidly increased in size and spread to the upper and lower limbs. Some of the blisters ruptured easily, leaving behind moist, red, circular raw areas. There is associated mild itching but no significant pain.
+  
+  A low-grade fever was noted 24 hours prior to presentation. It was intermittent and relieved by paracetamol. There is no history of preceding skin trauma, insect bites, or contact with similar lesions at school. There is no history of cough, rhinorrhea, or ear discharge. No history of diarrhoea or vomiting.
+  
+  Past Medical History
+  No previous history of chronic skin conditions such as eczema or atopy.
+  No history of previous hospitalizations or blood transfusions.
+  No known drug allergies.
+  
+  Birth History
+  Prenatal: Mother attended antenatal care at a Primary Health Centre. No history of febrile illness or rashes during pregnancy.
+  Natal: Delivered at term via spontaneous vaginal delivery at a Primary Health Centre. Cried immediately after birth.
+  Postnatal: No history of neonatal jaundice or seizures.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Complementary feeding was introduced at 6 months with pap and family diet. Currently eats 3 meals daily, consisting mostly of cereals and legumes.
+  
+  Immunization History
+  Immunized according to the National Programme on Immunization (NPI) schedule. BCG scar present on the left deltoid.
+  
+  Developmental History
+  Attained all major developmental milestones (gross motor, fine motor, language, and social) at appropriate ages. Currently in nursery school.
+  
+  Family and Social History
+  Second child in a monogamous family setting. Lives in a 2-bedroom bungalow with 4 other family members. Water source is a communal borehole. Refuse is disposed of by burning.
+  
+  Review of Systems
+  CNS: No seizures or loss of consciousness.
+  RS: No cough or fast breathing.
+  CVS: No easy fatigability or bluish discoloration of the lips.
+  GIT: No abdominal pain or change in bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  An active child, febrile (37.9°C), not pale, anicteric, and not dehydrated. No significant peripheral lymphadenopathy. No pedal oedema.
+  
+  Anthropometry
+  Weight: 16 kg (within the normal range for age).
+  Height: 102 cm.
+  
+  Skin Examination
+  Multiple flaccid, clear-to-cloudy fluid-filled bullae measuring 1–3 cm in diameter, located on the trunk, forearms, and thighs. Some lesions have ruptured, leaving erythematous, moist bases with thin, varnish-like, light-brown crusts at the edges (collarette of scales). Nikolsky sign is negative. No oral mucosal involvement.
+  
+  Respiratory System
+  RR: 26 cpm.
+  Trachea central. Breath sounds vesicular. Lungs are clear.
+  
+  Cardiovascular System
+  PR: 104 bpm, regular, normal volume.
+  S1 and S2 heard. No murmurs.
+  
+  Abdomen
+  Flat and moves with respiration. Soft, with no organomegaly. Bowel sounds active.
+  
+  Neurological Examination
+  Alert and conscious. No focal neurological deficits.
+  
+  Assessment
+  Bullous impetigo, likely of staphylococcal origin.
+  
+  Differential Diagnoses
+  1. Staphylococcal scalded skin syndrome (early or localized).
+  2. Bullous insect bite reaction.
+  3. Infected scabies.
+  4. Linear IgA bullous dermatosis (less likely).
+  
+  Investigations
+  1. Clinical diagnosis (primary approach).
+  2. Swab of bullae fluid for microscopy, culture, and sensitivity (MCS) if lesions persist or fail to respond to initial treatment.
+  3. Full blood count (FBC): May show mild leukocytosis; usually not mandatory for localized cases.
+  
+  Management Plan
+  
+  General Measures
+  1. Advise the mother on strict hand hygiene and regular bathing with mild soap.
+  2. Ensure the child's fingernails are kept short to prevent further inoculation.
+  3. Use separate towels and bed linens for the child to prevent spread to siblings.
+  4. Gently clean ruptured lesions with normal saline.
+  
+  Pharmacological Management (Topical)
+  1. Mupirocin 2% ointment or fusidic acid cream applied to affected areas TDS for 7 days.
+  
+  Pharmacological Management (Systemic — indicated for multiple lesions)
+  1. Syrup Cloxacillin (12.5–25 mg/kg/dose): 250 mg QID for 7 days.
+  2. Alternatively, syrup Cephalexin 25 mg/kg/day in 3 divided doses for 7 days.
+  3. Syrup Paracetamol 15 mg/kg (250 mg) TDS for 48 hours for fever.
+  
+  Follow-up
+  Review in 72 hours to assess response to treatment and check for new lesions. Advise the mother to return if the child develops high-grade fever, refuses feeds, or develops extensive skin peeling.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
   {
     id: 'peds-91',
     title: 'Simple Febrile Convulsion',

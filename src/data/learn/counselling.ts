@@ -2119,5 +2119,359 @@ export const COUNSELLING_CONTENT: LearningModule[] = [
         `
       },
 
+{
+    id: 'lab-peripheral-blood-film',
+    title: 'Peripheral Blood Film',
+    category: 'Laboratory Interpretation',
+    subCategory: 'Hematology',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interpreting the Peripheral Blood Film</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+
+<!-- Hero -->
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Peripheral Blood Film</h1>
+    <p class="text-sm text-indigo-200">The film is the cheapest test in the haematology laboratory and the most underrequested. It takes a stained slide and a trained pair of eyes, needs no analyser, and answers questions the FBC cannot: which malaria species and how many parasites, whether the red cells are sickled, targeted, fragmented or bitten, whether the white cells are reactive or leukaemic, and whether a low platelet count is real. Where CRP, flow cytometry and haemoglobin electrophoresis are out of reach, the film is often the only morphological investigation available at the point of decision.</p>
+  </div>
+</div>
+
+<!-- 1. When a film changes management -->
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+  <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+  <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+    <li>
+      <a href="#when-a-film-changes-management" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
+        <span>When a Film Changes Management</span>
+      </a>
+    </li>
+    <li>
+      <a href="#making-and-reading-a-good-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
+        <span>Making and Reading a Good Film</span>
+      </a>
+    </li>
+    <li>
+      <a href="#red-cells-size-colour-shape-inclusions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
+        <span>Red Cells: Size, Colour, Shape, Inclusions</span>
+      </a>
+    </li>
+    <li>
+      <a href="#sickle-cell-disease-and-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
+        <span>Sickle Cell Disease and the Film</span>
+      </a>
+    </li>
+    <li>
+      <a href="#white-cells-reactive-malignant-or-just-busy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
+        <span>White Cells: Reactive, Malignant, or Just Busy</span>
+      </a>
+    </li>
+    <li>
+      <a href="#platelets-on-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
+        <span>Platelets on the Film</span>
+      </a>
+    </li>
+    <li>
+      <a href="#parasites-and-organisms-on-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
+        <span>Parasites and Organisms on the Film</span>
+      </a>
+    </li>
+    <li>
+      <a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
+        <span>Reading Order</span>
+      </a>
+    </li>
+    <li>
+      <a href="#common-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span>
+        <span>Common Pitfalls</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-a-film-changes-management" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  When a Film Changes Management
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">An automated FBC gives numbers; the film gives the reason for them. Request a film, with a one-line clinical question on the form, in any of these situations:</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Fever in a patient from a malaria-endemic area, especially with anaemia, jaundice, low platelets, or any feature of severity.</li>
+    <li>Anaemia that is unexplained, severe, or does not fit the MCV - and every known or suspected sickle cell disease patient who presents unwell.</li>
+    <li>Suspected haemolysis: jaundice with pallor, dark urine, a rising reticulocyte count, or anaemia after starting a new drug.</li>
+    <li>Pancytopenia, bicytopenia, or any unexplained leucocytosis or leucopenia.</li>
+    <li>Thrombocytopenia, to confirm the count is real before anyone treats it.</li>
+    <li>A child with pallor, bruising or bone pain; an adult with massive splenomegaly or generalised lymphadenopathy - to look for blasts or a leukaemic picture.</li>
+    <li>Any analyser flag: blasts, immature granulocytes, atypical lymphocytes, nucleated red cells, platelet clumps, a high RDW with a normal MCV, or counts that contradict the clinical picture.</li>
+  </ul>
+  <p class="text-sm">In practice, the film is requested most often after an abnormal count has already been reported. Asking for it alongside the FBC from the start changes management more often than the haemoglobin value alone.</p>
+</div>
+
+<!-- 2. Making and reading a good film -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="making-and-reading-a-good-film" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Making and Reading a Good Film
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">A poor film produces confident-sounding wrong answers, so the first interpretive step is judging the slide itself.</p>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fresh sample.</span> Make the film from EDTA blood within about two to three hours, or from a finger-prick drop. Blood left standing in EDTA, particularly in a hot room, produces crenated red cells, vacuolated neutrophils, distorted platelets, and malaria parasites that no longer look like themselves.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spread and stain.</span> A good thin film has a smooth, feathered tail and is read in the monolayer, where red cells lie side by side without overlapping and without being so thinly spread that they flatten. Giemsa, Leishman or May-Grünwald-Giemsa are all acceptable; buffered Giemsa at the right pH is what brings out Schüffner's dots and Maurer's clefts. Stain deposit, dust and debris are common mimics of parasites in rural and primary-care laboratories.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Where to look.</span> Scan at low power to check cell distribution and spot clumps, then read the monolayer under the oil-immersion lens. Never judge red cell morphology from the thick head of the film, where cells pile up and appear sickled, crenated or rouleaux when they are not.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thick and thin for malaria.</span> The thick film concentrates parasites and is more sensitive for finding them; the thin film is used for species identification, staging, counting high densities and judging pigment in white cells.</li>
+  </ul>
+</div>
+
+<!-- 3. Red cells -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="red-cells-size-colour-shape-inclusions" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Red Cells: Size, Colour, Shape, Inclusions
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Read the red cells in a fixed order: size (anisocytosis, macro- or microcytes), haemoglobinisation (hypochromia, polychromasia), shape (poikilocytes), then inclusions. Look for one population or two - a dimorphic film, with a population of normal cells alongside hypochromic microcytes, points to mixed deficiency (iron plus folate is common in pregnancy and malnutrition) or a recent transfusion.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Finding</th>
+          <th class="py-2 pr-3 font-medium">What it points to</th>
+          <th class="py-2 font-medium">In Nigerian practice</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Hypochromic microcytes, pencil cells</td><td class="py-2 pr-3">Iron deficiency</td><td class="py-2">Hookworm, pregnancy, poor diet. Thalassaemia trait gives small cells with target cells and stippling but a normal or high red cell count (see the Mentzer Index in the FBC guide)</td></tr>
+        <tr><td class="py-2 pr-3">Target cells</td><td class="py-2 pr-3">HbSS, HbSC, HbC disease, thalassaemia, liver disease, hyposplenism, iron deficiency</td><td class="py-2">Many target cells with few or no sickle cells in a haemolysing child should raise HbSC; genotype confirms</td></tr>
+        <tr><td class="py-2 pr-3">Sickle cells</td><td class="py-2 pr-3">HbSS, HbSC, HbS-beta thalassaemia</td><td class="py-2">Absent in sickle cell trait, whose film is normal. See Section 4</td></tr>
+        <tr><td class="py-2 pr-3">Howell-Jolly bodies</td><td class="py-2 pr-3">Hyposplenism or asplenia (also megaloblastic anaemia)</td><td class="py-2">Functional asplenia is the rule in HbSS from early childhood; infection risk is high and prophylaxis matters</td></tr>
+        <tr><td class="py-2 pr-3">Polychromasia, nucleated red cells</td><td class="py-2 pr-3">Active marrow response: haemolysis, haemorrhage, recovery</td><td class="py-2">Common in SCD crisis and severe malaria. With immature white cells too (leukoerythroblastic) think marrow infiltration, TB, myelofibrosis, metastases</td></tr>
+        <tr><td class="py-2 pr-3">Spherocytes</td><td class="py-2 pr-3">Autoimmune haemolytic anaemia, hereditary spherocytosis, ABO incompatibility in the newborn</td><td class="py-2">Spherocytes with a positive direct antiglobulin test settle AIHA; HIV and lymphoproliferative disease are recognised triggers</td></tr>
+        <tr><td class="py-2 pr-3">Bite cells, blister cells (Heinz bodies need a supravital stain)</td><td class="py-2 pr-3">G6PD deficiency in acute haemolysis</td><td class="py-2">Roughly one in five Nigerian males is G6PD deficient. Triggers: infection, fava beans, naphthalene, and drugs such as sulfonamides, dapsone, primaquine, nitrofurantoin. Between attacks the film may be normal</td></tr>
+        <tr><td class="py-2 pr-3">Schistocytes (fragments, helmet cells) with low platelets</td><td class="py-2 pr-3">Microangiopathic haemolysis: DIC, TTP or HUS, HELLP and severe pre-eclampsia, malignant hypertension</td><td class="py-2">Severe malaria and sepsis can cause DIC. About 1% or more schistocytes in the right clinical setting supports a thrombotic microangiopathy (ICSH)</td></tr>
+        <tr><td class="py-2 pr-3">Teardrop cells</td><td class="py-2 pr-3">Myelofibrosis, marrow infiltration, thalassaemia</td><td class="py-2">Read with the white cells and splenic size</td></tr>
+        <tr><td class="py-2 pr-3">Oval macrocytes</td><td class="py-2 pr-3">Megaloblastic anaemia, with hypersegmented neutrophils</td><td class="py-2">Folate deficiency is the usual cause; chronic haemolysis (SCD) and pregnancy consume folate</td></tr>
+        <tr><td class="py-2 pr-3">Rouleaux</td><td class="py-2 pr-3">Raised globulins or fibrinogen</td><td class="py-2">Chronic infection (TB, HIV, malaria), myeloma. Look in the thin area; rouleaux in the thick head is artefact</td></tr>
+        <tr><td class="py-2 pr-3">Basophilic stippling</td><td class="py-2 pr-3">Lead poisoning, thalassaemia, megaloblastic anaemia</td><td class="py-2">Lead exposure from informal battery recycling and artisanal mining is a documented cause of poisoning in Nigeria</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- 4. SCD and the film -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sickle-cell-disease-and-the-film" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Sickle Cell Disease and the Film
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">With a sickle trait carrier frequency near a quarter of the population and HbSS affecting a few percent of births, a doctor in Nigeria meets the sickle film constantly, and it repays careful reading.</p>
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">What the film can and cannot do.</span> Sickle cells on a film in a patient with haemolytic anaemia strongly suggest sickle cell disease, but the film does not give the genotype. HbSS, HbSC and HbS-beta thalassaemia differ in severity and in management, and electrophoresis or HPLC settles which. A film with no sickle cells does not exclude disease: HbSC can show few sickle cells and many target cells.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Steady state versus crisis.</span> A patient's baseline film shows sickle cells, target cells, polychromasia, nucleated red cells and Howell-Jolly bodies. During a crisis, look for what has changed. A sharp fall in haemoglobin with a high reticulocyte count and many nucleated cells fits a haemolytic or sequestration crisis. A fall in haemoglobin with polychromasia disappearing and reticulocytes near zero fits an aplastic crisis, classically after parvovirus infection, and these patients need urgent transfusion.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Howell-Jolly bodies are a treatment signal, not just a finding.</span> They tell you the spleen is no longer functioning, which is why a febrile child with HbSS needs urgent assessment for bacteraemia, and why penicillin prophylaxis and pneumococcal immunisation matter.</li>
+    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria in SCD.</span> A sickle patient with fever should have a malaria film every time. Malaria triggers crisis and drives profound anaemia, and parasite density can be underestimated if the film is only glanced at.</li>
+  </ul>
+</div>
+
+<!-- 5. White cells -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="white-cells-reactive-malignant-or-just-busy" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  White Cells: Reactive, Malignant, or Just Busy
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">A manual differential on a good film is more reliable than the analyser whenever the count is abnormal or flagged, and it is the only way to see blasts, toxic change and abnormal lymphocytes. Remember the age-appropriate pattern first: young children are physiologically lymphocyte-predominant (see the FBC guide), so a lymphocyte-rich film in a well two-year-old is normal.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3 font-medium">Finding</th>
+          <th class="py-2 font-medium">What it points to</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Toxic granulation, Döhle bodies, vacuolated neutrophils, left shift</td><td class="py-2">Bacterial sepsis or severe inflammation. A neutrophilia without these changes in a febrile patient should still prompt a malaria film, since malaria alone raises the neutrophil count</td></tr>
+        <tr><td class="py-2 pr-3">Hypersegmented neutrophils (five or more lobes in at least 5% of neutrophils, or any with six)</td><td class="py-2">Megaloblastic anaemia, often before the anaemia is obvious</td></tr>
+        <tr><td class="py-2 pr-3">Reactive (atypical) lymphocytes</td><td class="py-2">Viral infection including EBV, CMV and HIV seroconversion. Variable cell sizes with abundant cytoplasm are typical; a monotonous population of similar cells is not</td></tr>
+        <tr><td class="py-2 pr-3">Eosinophilia</td><td class="py-2">Helminths first (hookworm, ascaris, strongyloides, schistosomiasis, filariasis), then drug reaction and atopy. Check the thick film for microfilariae</td></tr>
+        <tr><td class="py-2 pr-3">Left shift with myelocytes and promyelocytes, basophilia, often eosinophilia, with splenomegaly</td><td class="py-2">Chronic myeloid leukaemia - a leading cause of massive splenomegaly in adults, alongside tropical splenomegaly. A leukaemoid reaction to infection shows toxic change without basophilia</td></tr>
+        <tr><td class="py-2 pr-3">Mature lymphocytosis with smudge cells in an older adult</td><td class="py-2">Chronic lymphocytic leukaemia</td></tr>
+        <tr><td class="py-2 pr-3">Blasts, with or without Auer rods</td><td class="py-2">Acute leukaemia until proven otherwise (see below)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Blast Cells</strong>
+    <p class="text-sm">Blasts are large cells with a high nuclear-to-cytoplasmic ratio, fine open chromatin, visible nucleoli and little or no granulation. Auer rods, which are needle-like red-pink inclusions, confirm a myeloid origin. Classically, acute leukaemia is diagnosed at 20% or more blasts in blood or marrow, although newer classifications accept lower counts for some genetically defined subtypes, and the film is a screening tool, not a final diagnosis: confirmation needs marrow examination, flow cytometry and cytogenetics, which means early referral.</p>
+    <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with paediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
+    <p class="text-sm mt-2">Burkitt lymphoma is common in Nigerian children. Leukaemic spill into the blood is uncommon, but lymphoma cells with deeply basophilic, vacuolated cytoplasm on the film of a child with a jaw or abdominal mass should be reported and acted on the same day.</p>
+  </div>
+</div>
+
+<!-- 6. Platelets -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="platelets-on-the-film" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Platelets on the Film
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Scan the feathered edge and the body of the film for clumps before accepting any low platelet count. EDTA can make platelets clump or stick around neutrophils (satellitism), so the analyser reports a falsely low count. If clumps are present, the count is unreliable; repeat in a citrate tube before anyone worries about bleeding or withholds a procedure.</p>
+  <p class="text-sm">Platelet size is informative too. Giant platelets alongside a low count suggest peripheral destruction (immune thrombocytopenia) or a marrow disorder; small platelets are seen in some inherited conditions. In febrile patients, a truly low count with malaria parasites on the film fits malaria thrombocytopenia, which usually recovers with treatment. A platelet lying on top of a red cell can look like a parasite ring, so confirm parasites by their nucleus and cytoplasm, not by position alone.</p>
+</div>
+
+<!-- 7. Parasites -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="parasites-and-organisms-on-the-film" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Parasites and Organisms on the Film
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Malaria: Species</strong>
+    <ul class="list-disc pl-5 space-y-2 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Plasmodium falciparum</span> causes most malaria in Nigeria. Small delicate ring forms, often several rings in one red cell and accolé forms at the cell edge, with normal-sized red cells. Banana-shaped gametocytes are diagnostic. In an ordinary infection only rings and gametocytes appear in the blood, because the older stages sequester in the microvasculature.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">P. malariae</span> shows compact trophozoites, band forms across the cell, and rosette-shaped schizonts. It causes quartan fever and is the species linked to nephrotic syndrome in children.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">P. ovale</span> has oval, fimbriated infected cells with Schüffner's dots. <span class="font-medium text-slate-800 dark:text-slate-200">P. vivax</span> is uncommon in West Africa because most people are Duffy-negative, so a vivax-like parasite in a Nigerian patient should be re-examined carefully and considered ovale first.</li>
+      <li>Mixed infections are common, particularly falciparum with malariae. Report every species seen, not only the commonest.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Malaria: Density</strong>
+    <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Thick film.</span> Count asexual parasites against white cells (200 white cells; count against 500 if there are fewer than 10 parasites). Where the patient's own white cell count is not available, the WHO convention is to assume 8,000 per microlitre.</p>
+    <p class="text-sm bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 p-3 sans mt-2">Parasites per &micro;L = (parasites counted &divide; white cells counted) &times; 8,000</p>
+    <p class="text-sm mt-2">Worked example: 150 parasites against 200 white cells gives (150 &divide; 200) &times; 8,000 = 6,000 parasites per microlitre. If the patient's measured white count is 12,000, using it instead of 8,000 gives 9,000, and the difference matters in anaemic or leucocytotic patients.</p>
+    <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Thin film.</span> Once the thick film becomes too dense to count, use the thin film and report the percentage of red cells parasitised. As a rough conversion at a normal red count of about 5 million per microlitre, 1% parasitaemia is about 50,000 per microlitre.</p>
+    <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">A negative film.</span> Examine at least 100 high-power fields of a well-stained thick film before reporting no parasites seen. If malaria is still suspected, repeat at 6 to 12 hourly intervals over 24 to 48 hours rather than accepting a single negative result.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Malaria: Severity Markers on the Film</strong>
+    <p class="text-sm">Parasite density is a risk indicator, not a definition of severe malaria. In high-transmission settings, semi-immune children can carry high counts and look well, and others die at lower counts, so the clinical features decide severity. The thresholds also depend on the era and the transmission setting: the 2010 WHO definition used more than 5% (250,000 per microlitre) in high-transmission areas, while the formal criterion in current WHO severe malaria definitions is hyperparasitaemia above 10%, with 4 to 10% regarded as uncomplicated hyperparasitaemia that warrants close observation.</p>
+    <p class="text-sm mt-2">The film adds markers that density alone misses, and these are worth stating on the report:</p>
+    <ul class="list-disc pl-5 space-y-1 text-sm mt-1">
+      <li>Mature trophozoites or schizonts in the peripheral blood, which should be sequestered. Their presence signals a large hidden parasite burden.</li>
+      <li>Malaria pigment (haemozoin) in at least 5% of neutrophils. In African children the proportion of pigment-containing neutrophils helps separate severe malaria from other life-threatening febrile illness, and adds prognostic information beyond the parasite count.</li>
+      <li>Parasite density rising on repeat films despite treatment, or parasites still present at 72 hours. Check adherence, vomiting and dosing first, and discuss with the treating team.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Other Organisms</strong>
+    <ul class="list-disc pl-5 space-y-2 text-sm">
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Microfilariae.</span> Mansonella perstans is widespread in Nigeria and is a common incidental finding on thick films, often with eosinophilia and usually of little clinical consequence. Loa loa, found in some southern forest areas, is sheathed and appears by day, and a high loa microfilarial load matters because it raises the risk of serious reactions to ivermectin; refer rather than treat blindly. Wuchereria bancrofti circulates at night, so a daytime sample can miss it.</li>
+      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trypanosomes.</span> Rarely seen, and most likely in patients from known endemic foci with chronic fever, lymphadenopathy and neurological change. They are easy to miss unless looked for.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 8. Reading order -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Reading Order
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ol class="list-decimal pl-5 space-y-1 text-sm">
+    <li>Judge the film first: fresh sample, even spread, correct stain, and reading in the monolayer. Reject a poor film instead of interpreting it.</li>
+    <li>Read it against the clinical question and the FBC numbers - age, sex, pregnancy, known genotype, drugs, fever.</li>
+    <li>Look for parasites and organisms first (thick film for sensitivity, thin film for species, stage and density), because they are the most urgent and the most treatable finding.</li>
+    <li>Red cells: size, colour, shape, inclusions, and whether there are one or two populations.</li>
+    <li>White cells: a manual differential, toxic change, abnormal lymphocytes, and above all any blasts.</li>
+    <li>Platelets: confirm the count, look for clumps and giant forms.</li>
+    <li>Write a short synthesis, not a list of adjectives: for example "hypochromic microcytic anaemia with pencil cells, consistent with iron deficiency; no parasites seen." State the species, stage and density in every positive malaria report.</li>
+  </ol>
+</div>
+
+<!-- Must not miss -->
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-rose-800 dark:text-rose-300 mb-3 pb-2 border-b border-rose-200 dark:border-rose-700">Findings That Must Not Be Missed</h3>
+  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Blast cells</span> in the blood of a pale, bruising or febrile patient: acute leukaemia until proven otherwise. Refer urgently and avoid steroids first.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Schizonts or mature trophozoites, or pigment in 5% or more of neutrophils</span>, on a malaria film: treat as severe malaria regardless of how the patient looks in the first hour.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Schistocytes with thrombocytopenia</span> and a falling haemoglobin: microangiopathic haemolysis. Consider DIC, TTP, HELLP and malignant hypertension and act the same day.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Howell-Jolly bodies in a febrile child with sickle cell disease</span>: functional asplenia, with a real risk of pneumococcal sepsis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bite cells and blister cells after a new drug</span>: stop the suspected oxidant and manage for G6PD-related haemolysis.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Platelet clumps</span> behind a "critical" low platelet count: do not treat the number before repeating it in citrate.</span></li>
+  </ul>
+</div>
+
+<!-- Pitfalls -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-pitfalls" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+  Common Pitfalls
+</h2>
+
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Requesting a film with no clinical question. A report that says "normocytic anaemia" helps no one; "fever, anaemia, known HbSS" tells the reader where to look.</li>
+    <li>Interpreting a poor or old film: crenated cells, over-thick areas, stain deposit and distorted parasites generate false positives and false negatives.</li>
+    <li>Relying on a rapid test alone for malaria. HRP2 antigen can remain positive for weeks after parasites have cleared, and the film is what shows the species, density and stage.</li>
+    <li>Reporting "malaria parasites seen" with no species, stage or density, which strips the report of its prognostic value.</li>
+    <li>Calling sickle trait or sickle disease from a film alone, without a genotype.</li>
+    <li>Assuming a normal film excludes G6PD deficiency or a haemoglobinopathy. Between haemolytic episodes the film can look normal.</li>
+    <li>Treating a "low platelet count" without looking at the film for clumps.</li>
+    <li>Missing a second pathology because the first was found: malaria on a film does not exclude sepsis, iron deficiency, or a haemoglobinopathy, and the film often shows several of these at once.</li>
+  </ul>
+</div>
+
+<!-- Key Clinical Takeaways -->
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Request the film with the FBC, not after it, and write the clinical question on the form.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A malaria report is incomplete without species, stage and density. Schizonts or heavy pigment in neutrophils matter more than the count itself.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cells suggest sickle cell disease but do not give the genotype; Howell-Jolly bodies in a sickle patient mean the spleen has stopped working.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Blasts mean urgent referral; the film screens, and marrow and flow cytometry confirm.</span></li>
+    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm any critical platelet count on the film before treating it.</span></li>
+  </ul>
+</div>
+
+<!-- References -->
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for Malaria, including the severe malaria case definition.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Malaria Microscopy Quality Assurance Manual.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Classification of Haematolymphoid Tumours, 5th Edition.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Council for Standardization in Haematology - Recommendations on the Identification of Schistocytes and on Peripheral Blood Cell Morphology.</li>
+      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines and National Malaria Treatment Guidelines.</li>
+    </ul>
+  </div>
+</details>
+
+</body>
+</html>
+    `
+  },
+
 
 ];

@@ -2335,4 +2335,766 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
       },
 
 
+      {
+        id: 'lab-coagulation-profile',
+        title: 'Coagulation Profile (PT, aPTT, INR)',
+        category: 'Laboratory Interpretation',
+        subCategory: 'Hematology',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Interpreting the Coagulation Profile (PT, aPTT, INR)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+    </head>
+    <body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+    
+    <!-- Hero -->
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Coagulation Profile (PT, aPTT, INR)</h1>
+        <p class="text-sm text-indigo-200">Clotting tests are requested for a handful of recurring reasons in Nigerian practice: monitoring warfarin in rheumatic heart disease and after valve surgery, assessing a jaundiced or bleeding patient with liver disease, working up a bleeding newborn, and recognising DIC in obstetric and septic patients. Read as a pattern rather than as separate numbers, PT and aPTT usually tell you which part of the clotting cascade is failing, and that points to the cause. This guide covers the pattern, the sample problems that produce false results, and the common clinical scenarios, including snakebite coagulopathy and the bedside test that works when no laboratory is available.</p>
+      </div>
+    </div>
+    
+    <!-- 1. What each test measures -->
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li>
+          <a href="#what-each-test-measures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
+            <span>What Each Test Measures</span>
+          </a>
+        </li>
+        <li>
+          <a href="#the-sample-decides-whether-the-result-means-anything" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
+            <span>The Sample Decides Whether the Result Means Anything</span>
+          </a>
+        </li>
+        <li>
+          <a href="#reading-the-pattern" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
+            <span>Reading the Pattern</span>
+          </a>
+        </li>
+        <li>
+          <a href="#warfarin-and-the-inr-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
+            <span>Warfarin and the INR in Nigerian Practice</span>
+          </a>
+        </li>
+        <li>
+          <a href="#liver-disease-and-vitamin-k-deficiency" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
+            <span>Liver Disease and Vitamin K Deficiency</span>
+          </a>
+        </li>
+        <li>
+          <a href="#the-bleeding-newborn" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
+            <span>The Bleeding Newborn</span>
+          </a>
+        </li>
+        <li>
+          <a href="#dic-and-obstetric-coagulopathy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
+            <span>DIC and Obstetric Coagulopathy</span>
+          </a>
+        </li>
+        <li>
+          <a href="#snakebite-coagulopathy-and-the-20-minute-whole-blood-clotting-test" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
+            <span>Snakebite Coagulopathy and the 20-Minute Whole Blood Clotting Test</span>
+          </a>
+        </li>
+        <li>
+          <a href="#inherited-bleeding-disorders-lupus-anticoagulant-and-heparin" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span>
+            <span>Inherited Bleeding Disorders, Lupus Anticoagulant and Heparin</span>
+          </a>
+        </li>
+        <li>
+          <a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span>
+            <span>Reading Order</span>
+          </a>
+        </li>
+        <li>
+          <a href="#common-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span>
+            <span>Common Pitfalls</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-each-test-measures" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      What Each Test Measures
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Prothrombin time (PT)</span> tests the extrinsic and common pathways: factor VII, then X, V, II (prothrombin) and fibrinogen. Factor VII has the shortest half-life of the clotting factors, so PT is the first test to lengthen when vitamin K is lacking, when warfarin starts working, and when the liver begins to fail.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">INR</span> is the PT converted to a standard scale: INR = (patient PT &divide; mean normal PT) raised to the power of the reagent's ISI (international sensitivity index). It was designed and validated for monitoring vitamin K antagonists such as warfarin. It is not a general measure of bleeding risk in liver disease, DIC or any other condition.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Activated partial thromboplastin time (aPTT, often written PTT)</span> tests the intrinsic and common pathways: factors XII, XI, IX and VIII, then X, V, II and fibrinogen. It lengthens with haemophilia A and B, factor XI deficiency, unfractionated heparin, lupus anticoagulant, and in significant von Willebrand disease when factor VIII is low.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Thrombin time (TT)</span> tests fibrinogen conversion to fibrin. It lengthens with heparin, low or abnormal fibrinogen, high fibrin degradation products (DIC), and direct thrombin inhibitors.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Fibrinogen</span> is a clotting factor and an acute-phase protein, so it rises with inflammation and in pregnancy. A "normal" fibrinogen can therefore be inappropriately low in the right setting (Section 6).</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">D-dimer</span> reflects fibrin breakdown. It is raised in DIC, venous thromboembolism, sepsis, malignancy, recent surgery, and normal pregnancy, so a raised level is sensitive but not specific.</li>
+      </ul>
+    </div>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm font-medium text-slate-800 dark:text-slate-200">Typical adult reference values (reagent- and analyser-dependent; always use the range printed on the report):</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3 font-medium">Test</th>
+              <th class="py-2 font-medium">Usual range</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">PT</td><td class="py-2">About 11-14 seconds</td></tr>
+            <tr><td class="py-2 pr-3">INR (not on anticoagulant)</td><td class="py-2">About 0.9-1.2</td></tr>
+            <tr><td class="py-2 pr-3">aPTT</td><td class="py-2">About 25-40 seconds</td></tr>
+            <tr><td class="py-2 pr-3">Thrombin time</td><td class="py-2">About 14-19 seconds</td></tr>
+            <tr><td class="py-2 pr-3">Fibrinogen</td><td class="py-2">About 2-4 g/L (higher in late pregnancy)</td></tr>
+            <tr><td class="py-2 pr-3">D-dimer</td><td class="py-2">Below about 0.5 mg/L FEU</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">The aPTT range varies more between reagents than the PT does, so a result is only meaningful against the laboratory's own normal range or control. Newborns have physiologically longer PT and aPTT than adults, so use the paediatric ranges the laboratory provides rather than the adult figures above.</p>
+    </div>
+    
+    <!-- 2. Sample matters -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-sample-decides-whether-the-result-means-anything" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      The Sample Decides Whether the Result Means Anything
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Clotting tests are among the most sample-sensitive in the laboratory, and a large share of unexpected prolonged results are artefacts. Before acting on an unexplained result, ask whether the sample was sound.</p>
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Fill volume.</span> The tube (3.2% sodium citrate) must be filled to the mark, giving a nine-to-one blood-to-citrate ratio. An underfilled tube contains relatively too much citrate and falsely prolongs both PT and aPTT. This is the commonest cause of an unexplained prolonged result, particularly with difficult draws in children.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">High haematocrit.</span> In polycythaemia, or in a newborn with a PCV above about 55%, there is less plasma in the tube for the same volume of citrate, and the result is falsely prolonged unless the laboratory adjusts the citrate volume.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Clotted, haemolysed or traumatic draws</span> activate or consume clotting factors. A clotted citrate sample should be rejected, not run.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Heparin contamination.</span> Blood drawn through a line or cannula that has been flushed with heparin gives a prolonged aPTT, sometimes a prolonged PT, and an unmeasurably prolonged thrombin time. If the aPTT is dramatically prolonged in a patient who is not on heparin, ask how the sample was taken.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Order of draw and EDTA.</span> Citrate tubes are filled before EDTA tubes. Carry-over of EDTA chelates calcium and prolongs the clotting times.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Delay.</span> The PT is stable for many hours, but the aPTT should be processed within about four hours of collection, and within an hour if the patient is on unfractionated heparin. Samples that wait in a hot ward or travel between facilities before spinning give unreliable aPTT values.</li>
+      </ul>
+    </div>
+    
+    <!-- 3. Reading the pattern -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-the-pattern" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Reading the Pattern
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3 font-medium">PT / INR</th>
+              <th class="py-2 pr-3 font-medium">aPTT</th>
+              <th class="py-2 font-medium">Usual explanation</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Prolonged</td><td class="py-2 pr-3">Normal</td><td class="py-2">Factor VII problem: early warfarin effect, early vitamin K deficiency, early liver disease. Congenital factor VII deficiency is rare</td></tr>
+            <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Prolonged</td><td class="py-2">Intrinsic pathway: haemophilia A or B, factor XI deficiency, von Willebrand disease with low factor VIII, unfractionated heparin, lupus anticoagulant (which does not cause bleeding on its own)</td></tr>
+            <tr><td class="py-2 pr-3">Prolonged</td><td class="py-2 pr-3">Prolonged</td><td class="py-2">Common pathway or multiple factors: established warfarin effect, vitamin K deficiency, liver disease, DIC, venom-induced consumption coagulopathy, high-dose heparin, dilution after massive transfusion, DOACs</td></tr>
+            <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Normal</td><td class="py-2">Clotting factors are not the problem. In a bleeding patient think platelets (count and function), von Willebrand disease, factor XIII deficiency, mild factor deficiency, hyperfibrinolysis, or a local or vascular cause</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">A prolonged thrombin time with prolonged PT and aPTT points to low fibrinogen, DIC or heparin. A normal thrombin time with both prolonged tests points away from these and toward factor deficiency or warfarin.</p>
+    
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Mixing Study</strong>
+        <p class="text-sm">When the PT or aPTT is prolonged and the cause is unclear, the laboratory mixes the patient's plasma 50:50 with normal plasma and repeats the test. If the prolongation corrects, the patient lacks a factor (haemophilia, vitamin K deficiency, liver disease). If it does not correct, something in the patient's plasma is inhibiting clotting: lupus anticoagulant, heparin, or an acquired factor inhibitor such as acquired haemophilia, which can appear postpartum, in autoimmune disease, or in older adults. The aPTT in a lupus anticoagulant is prolonged, but the patient clots abnormally rather than bleeds, so giving plasma to "correct the number" is wrong.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Pre-operative Screening</strong>
+        <p class="text-sm">Routine PT and aPTT before surgery in a patient with no bleeding history and no relevant drugs or liver disease rarely finds anything useful. A structured bleeding history (bleeding after tooth extraction, circumcision or childbirth, easy bruising, heavy periods, a family history of bleeding) predicts surgical bleeding better than the tests do. Order the tests when the history, examination or drug list gives a reason.</p>
+      </div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+      <p class="text-sm text-amber-900 dark:text-amber-300"><span class="font-medium">Direct oral anticoagulants.</span> Where rivaroxaban, apixaban or dabigatran are used, PT and aPTT are poor tools for monitoring them and a normal result does not exclude a drug effect. Rivaroxaban and apixaban prolong the PT variably; dabigatran prolongs the aPTT and the thrombin time, and a normal thrombin time argues against significant dabigatran effect. Drug-calibrated anti-Xa assays are the proper measure, and are seldom available locally. A patient on a DOAC who is bleeding should be treated on the clinical picture and drug history, not on the PT.</p>
+    </div>
+    
+    <!-- 4. Warfarin -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="warfarin-and-the-inr-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Warfarin and the INR in Nigerian Practice
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Warfarin remains the anticoagulant of choice for most patients who need long-term anticoagulation in this setting, because the commonest indications are rheumatic mitral valve disease with atrial fibrillation and mechanical heart valves, and for both of these warfarin has proved better than the newer drugs. In patients with rheumatic heart disease and atrial fibrillation, a large randomised trial found a vitamin K antagonist gave better outcomes, including lower mortality, than rivaroxaban. Current AHA/ACC and ESC guidance does not recommend DOACs for mechanical valves or for atrial fibrillation with moderate to severe mitral stenosis.</p>
+      <p class="text-sm font-medium text-slate-800 dark:text-slate-200">Usual INR targets (individualise, and follow the cardiology plan):</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Atrial fibrillation (including rheumatic), venous thromboembolism: INR 2.0-3.0.</li>
+        <li>Mechanical aortic valve without extra thrombotic risk: target 2.5 (range 2.0-3.0). With additional risk factors, or with a mechanical mitral valve: target about 3.0 (range 2.5-3.5).</li>
+      </ul>
+      <p class="text-sm">Access is the practical problem. Patients may live far from a laboratory, results may take days, and cost leads to missed checks. Check the INR weekly when starting warfarin or after any dose change or interacting drug, and at least every four weeks once stable. Point-of-care INR meters are acceptable for routine monitoring but are less reliable at high INR values, where a laboratory confirmation is worth obtaining before acting.</p>
+    
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Why the INR Moves</strong>
+        <ul class="list-disc pl-5 space-y-2 text-sm">
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Rifampicin</span> strongly induces warfarin metabolism and can drop the INR well below target, leaving a mechanical valve patient unprotected. The dose often needs to be substantially higher during TB treatment, with weekly INR checks, and when rifampicin is stopped the INR climbs over the following one to two weeks as the induction wears off, which is when bleeding occurs.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Antimicrobials</span> that commonly raise the INR include metronidazole, cotrimoxazole, fluconazole and ciprofloxacin. Regular paracetamol (about 2 g a day or more) can raise it too. NSAIDs and aspirin do not change the INR but add to bleeding risk.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Herbal preparations and "agbo"</span> have unknown contents and unpredictable effects. Ask directly at every visit, in the same non-judgemental way as in the counselling guides, since patients often do not volunteer them.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Diet.</span> Leafy vegetables (ugu, efo, ewedu and similar) contain vitamin K. The advice is consistency, not avoidance: eating them regularly in similar amounts keeps the INR stable, whereas stopping or binge-eating them causes swings. Poor intake, diarrhoea and vomiting lower vitamin K availability and raise the INR.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Illness.</span> Hepatic congestion in decompensated heart failure, fever, liver disease and acute illness raise the INR. Heavy alcohol use alters it unpredictably.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Adherence.</span> A sudden fall in INR in a previously stable patient is a missed-doses question first.</li>
+        </ul>
+      </div>
+    
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">When the INR Is Too High</strong>
+        <ul class="list-disc pl-5 space-y-2 text-sm">
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Above range but below 4.5, no bleeding:</span> reduce or omit a dose, find the cause, and recheck.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">4.5 to 10, no bleeding:</span> hold warfarin and look for the cause. CHEST guidance advises against routine vitamin K here, since trials show no reduction in major bleeding. Low-dose oral vitamin K (1 to 2.5 mg) is sometimes used locally in higher-risk patients, so follow your unit's protocol.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Above 10, no bleeding:</span> hold warfarin and give oral vitamin K (2.5 to 5 mg), then recheck within 24 to 48 hours.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Major or life-threatening bleeding at any INR:</span> stop warfarin, give vitamin K 5 to 10 mg by slow intravenous infusion, and replace clotting factors with four-factor prothrombin complex concentrate where it is available. Fresh frozen plasma is a slower, bulkier alternative that can overload a patient with heart disease, and may be all that is available, in which case use it early and without waiting for the repeat INR.</li>
+        </ul>
+        <p class="text-sm mt-2">In patients with mechanical valves, avoid over-correcting a high INR to subtherapeutic levels, since valve thrombosis is the opposite risk.</p>
+      </div>
+    
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Warfarin and Pregnancy</strong>
+        <p class="text-sm">Many young Nigerian women with rheumatic valve disease or mechanical valves take warfarin. It crosses the placenta, can cause embryopathy when taken in the first trimester (particularly between about the sixth and twelfth weeks, with the risk rising at higher doses), and carries fetal bleeding risk later. Counsel every woman of childbearing age on contraception and on planning pregnancy with her cardiologist before conception. A pregnant woman with a mechanical valve needs specialist management and a deliberate plan for how she is anticoagulated at each stage of pregnancy; stopping warfarin abruptly risks valve thrombosis, so she should not be left to decide on her own. Warfarin is compatible with breastfeeding.</p>
+      </div>
+    </div>
+    
+    <!-- 5. Liver disease and vitamin K -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="liver-disease-and-vitamin-k-deficiency" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Liver Disease and Vitamin K Deficiency
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Most clotting factors are made in the liver, so a prolonged PT or INR is one of the markers of synthetic liver failure, and, with albumin, is more informative about severity than the transaminases (see the liver function guide). Chronic hepatitis B, cirrhosis, hepatocellular carcinoma and drug-induced liver injury all produce it.</p>
+      <p class="text-sm">Vitamin K deficiency produces the same pattern and is common in this setting: obstructive jaundice or cholestasis (bile is needed to absorb vitamin K), poor nutrition, prolonged diarrhoea, and broad-spectrum antibiotics. To separate the two, give vitamin K (10 mg slow intravenously or subcutaneously) and repeat the PT after 24 to 48 hours. Substantial correction means vitamin K deficiency was a large part of the problem; little or no correction suggests hepatocellular failure, where the liver cannot make the factors regardless of vitamin K supply. Vitamin K is cheap, safe, and worth giving to a jaundiced patient with a prolonged PT.</p>
+      <p class="text-sm">In cirrhosis the INR does not predict procedural bleeding well, because the loss of procoagulant factors is balanced by loss of natural anticoagulants. Routine fresh frozen plasma to bring the INR down before paracentesis, a liver biopsy or an endoscopy is not recommended, carries a risk of volume overload, and delays the procedure. Reserve blood products for active bleeding or a high-risk procedure, guided by your haematology or hepatology team.</p>
+    </div>
+    
+    <!-- 6. Newborn VKDB -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-bleeding-newborn" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      The Bleeding Newborn
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Newborns are born relatively deficient in vitamin K, and breast milk contains little. Vitamin K deficiency bleeding presents as umbilical stump, skin, gastrointestinal or, most feared, intracranial bleeding. The late form occurs in the first few weeks to months, particularly in exclusively breastfed infants who did not receive vitamin K at birth, in babies with cholestasis (for example biliary atresia), and in babies of mothers on phenytoin, phenobarbitone or rifampicin. Babies born at home or in facilities that do not give routine vitamin K are at higher risk.</p>
+      <p class="text-sm">The laboratory pattern is a markedly prolonged PT, often with a prolonged aPTT, with a normal platelet count and fibrinogen. A bleeding newborn should be given vitamin K (1 mg slowly intravenously) immediately without waiting for the result, and then investigated. Prevention is a single intramuscular dose at birth, as recommended by WHO for all newborns.</p>
+    </div>
+    
+    <!-- 7. DIC and obstetric -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="dic-and-obstetric-coagulopathy" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      DIC and Obstetric Coagulopathy
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Disseminated intravascular coagulation is always a consequence of something else. The usual causes here are sepsis, severe malaria, obstetric catastrophes (placental abruption, amniotic fluid embolism, retained dead fetus, severe pre-eclampsia and HELLP, septic abortion, postpartum haemorrhage), snakebite, burns, malignancy, and a haemolytic transfusion reaction.</p>
+      <p class="text-sm">The laboratory picture is prolonged PT and aPTT, a falling platelet count, low fibrinogen, and a markedly raised D-dimer, with fragmented red cells (schistocytes) on the film. The ISTH DIC score combines the platelet count, D-dimer, PT prolongation and fibrinogen into a single score, with 5 or more supporting overt DIC. Treatment is the cause first. Blood products follow the bleeding and the numbers rather than being given to correct results in a patient who is not bleeding: platelets for counts below about 50 &times; 10&sup9;/L with active bleeding, cryoprecipitate or fibrinogen concentrate for low fibrinogen, and fresh frozen plasma for prolonged clotting times with bleeding.</p>
+      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Fibrinogen in pregnancy needs different thinking.</span> It rises to roughly 4 to 6 g/L near term, so a value that would be normal in a non-pregnant woman, such as 2 to 3 g/L, is already low in a bleeding mother. In postpartum haemorrhage, a fibrinogen below about 2 g/L predicts progression to severe haemorrhage, and early replacement with cryoprecipitate or fibrinogen concentrate matters. Where a laboratory result will take too long, a bedside clot observation test (blood in a clean dry tube that fails to clot within about 7 to 10 minutes) is a recognised warning sign of low fibrinogen. Do not hold treatment for a result in a woman who is bleeding heavily.</p>
+    </div>
+    
+    <!-- 8. Snakebite -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="snakebite-coagulopathy-and-the-20-minute-whole-blood-clotting-test" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      Snakebite Coagulopathy and the 20-Minute Whole Blood Clotting Test
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">The carpet viper (<em>Echis</em> species) is the leading cause of venomous snakebite in the savannah regions of northern Nigeria. Its venom consumes fibrinogen and clotting factors, producing venom-induced consumption coagulopathy: the blood becomes incoagulable, and the patient bleeds from gums, wounds, the gut and the brain. PT and aPTT are grossly prolonged or unrecordable, fibrinogen is very low and D-dimer is high, but in many centres where these patients present, none of these tests is available in time.</p>
+      <p class="text-sm font-medium text-slate-800 dark:text-slate-200">The 20-minute whole blood clotting test (20WBCT) is a bedside test recommended by WHO precisely for this situation:</p>
+      <ol class="list-decimal pl-5 space-y-1 text-sm">
+        <li>Draw about 2 mL of venous blood and place it in a new, clean, dry, <span class="font-medium">glass</span> tube. Plastic tubes and tubes washed in detergent give false results.</li>
+        <li>Leave the tube undisturbed, at room temperature, for 20 minutes.</li>
+        <li>Tilt the tube once. If the blood has not clotted and still flows as a liquid, the test is positive and the blood is incoagulable.</li>
+      </ol>
+      <p class="text-sm">An incoagulable result in a patient bitten by a snake, with local swelling or any sign of systemic envenoming, indicates venom coagulopathy and is an indication for antivenom. A clotted result does not exclude envenoming, since the test is poor at detecting mild coagulopathy, so assess the patient clinically and repeat. After antivenom, repeat the test at 6 hours and again at around 12 hours to check that blood has become coagulable, and repeat antivenom if it has not. Coagulopathy can take hours to correct fully, so monitor for 24 to 48 hours. If a result does not fit the clinical picture, repeat it with a fresh tube alongside blood from a healthy person as a control, since contaminated tubes are the commonest cause of false results.</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <p class="text-sm text-rose-900 dark:text-rose-300"><span class="font-medium">Do not give intramuscular injections, and avoid unnecessary arterial or deep venepuncture,</span> in a snakebite patient with an incoagulable result, as these cause large haematomas. Do not apply a tight tourniquet or cut the bite site, and do not delay the journey to hospital for traditional measures.</p>
+    </div>
+    
+    <!-- 9. Haemophilia, vWD, heparin -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="inherited-bleeding-disorders-lupus-anticoagulant-and-heparin" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Inherited Bleeding Disorders, Lupus Anticoagulant and Heparin
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Haemophilia</span> is under-diagnosed. A boy with prolonged bleeding after circumcision, a swollen joint or muscle bleed after minor trauma, or bleeding after tooth extraction needs a PT and aPTT, and an isolated prolonged aPTT that corrects on mixing is the classic result. Factor VIII and IX assays confirm which type. About a third of cases have no family history because the mutation arose new. Mild haemophilia can have a normal or only slightly prolonged aPTT, so a normal screening test does not close the question when the history is strong. Meanwhile, avoid intramuscular injections and aspirin or NSAIDs, and refer for factor replacement planning.</p>
+      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Von Willebrand disease</span> causes mucosal bleeding (nosebleeds, heavy menstrual bleeding, gum bleeding) in both sexes. The aPTT can be normal, because factor VIII is only moderately reduced, so the screening tests do not exclude it. Diagnosis needs von Willebrand factor antigen and activity assays.</p>
+      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Lupus anticoagulant and antiphospholipid syndrome</span> produce a prolonged aPTT that does not correct on mixing, in a patient who is clotting (venous or arterial thrombosis, stroke) or losing pregnancies, not bleeding. This is not a reason to withhold anticoagulation or to give plasma. Refer.</p>
+      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Unfractionated heparin</span> is monitored with the aPTT, usually aiming for about 1.5 to 2.5 times the control value or the laboratory's own therapeutic range, checked 6 hours after starting and after each dose change. Draw the sample from the arm opposite the infusion. Low molecular weight heparin does not usually need routine monitoring and barely changes the aPTT.</p>
+    </div>
+    
+    <!-- 10. Reading order -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Reading Order
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ol class="list-decimal pl-5 space-y-1 text-sm">
+        <li>Is the patient bleeding, thrombosing, or neither? The same numbers mean different things in each.</li>
+        <li>Was the sample sound: filled tube, no heparin contamination, no clot, processed on time? If not, repeat before acting.</li>
+        <li>Check the drug history first: warfarin, heparin, DOACs, rifampicin and other interacting drugs, herbal preparations.</li>
+        <li>Place the result in the pattern table: isolated PT, isolated aPTT, both, or neither.</li>
+        <li>Add the platelet count, fibrinogen, D-dimer and the blood film when the picture suggests DIC or a consumptive process.</li>
+        <li>Run a mixing study if an isolated prolongation has no obvious cause, and consider a vitamin K challenge when liver disease and vitamin K deficiency overlap.</li>
+        <li>Treat the patient and the cause, not the number: no blood products for a prolonged result in a patient who is not bleeding and is not about to have a high-risk procedure.</li>
+      </ol>
+    </div>
+    
+    <!-- Must not miss -->
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <h3 class="font-brand text-lg font-semibold text-rose-800 dark:text-rose-300 mb-3 pb-2 border-b border-rose-200 dark:border-rose-700">Findings That Must Not Be Missed</h3>
+      <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Major bleeding on warfarin:</span> stop the drug, give vitamin K 5 to 10 mg IV, and replace factors with prothrombin complex concentrate, or plasma if that is all that exists. Do not wait for a repeat INR.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A snakebite patient with blood that has not clotted at 20 minutes:</span> incoagulable blood is an indication for antivenom and a reason to avoid injections and needle-sticks.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A bleeding mother with a fibrinogen below about 2 g/L,</span> or a failed bedside clot test: this is established coagulopathy in pregnancy. Replace fibrinogen early and treat the cause (abruption, atony, sepsis, retained dead fetus).</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A bleeding or encephalopathic newborn, or an infant with a bulging fontanelle:</span> give vitamin K now and think of vitamin K deficiency bleeding.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">An isolated prolonged aPTT in a boy who bleeds:</span> haemophilia until proven otherwise. No intramuscular injections, and no aspirin or NSAIDs.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A subtherapeutic INR in a patient with a mechanical valve,</span> often from rifampicin or missed doses: valve thrombosis and stroke risk. Act on it the same week.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A woman of childbearing age on warfarin:</span> pregnancy planning and contraception counselling are part of her care, not an afterthought.</span></li>
+      </ul>
+    </div>
+    
+    <!-- Pitfalls -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-pitfalls" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Common Pitfalls
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Acting on a prolonged result from an underfilled tube, a clotted sample or a heparinised line draw, instead of repeating it.</li>
+        <li>Using the INR to judge bleeding risk in liver disease, DIC, or any non-warfarin setting.</li>
+        <li>Giving fresh frozen plasma to "correct the INR" in a non-bleeding patient, particularly one with heart disease or cirrhosis, who is at risk of volume overload.</li>
+        <li>Giving vitamin K for a prolonged INR in a patient with a mechanical valve without considering over-correction.</li>
+        <li>Starting rifampicin in a patient on warfarin without a plan for dose change and close INR monitoring, and forgetting that the INR rises again when rifampicin stops.</li>
+        <li>Assuming a normal aPTT excludes haemophilia or von Willebrand disease.</li>
+        <li>Treating a fibrinogen of 3 g/L as reassuring in a mother who is actively bleeding.</li>
+        <li>Using a plastic or detergent-washed tube for the 20-minute clotting test.</li>
+        <li>Using PT or aPTT to monitor DOAC therapy, or relying on them to exclude a DOAC effect.</li>
+        <li>Treating the PT and aPTT as the whole story in a bleeding patient with normal clotting tests, without checking the platelet count and platelet function.</li>
+      </ul>
+    </div>
+    
+    <!-- Key Clinical Takeaways -->
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+      <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Read PT and aPTT together: the pattern (isolated PT, isolated aPTT, both, neither) points to the cause before any further test.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>An unexplained prolonged result is a sample question first: check fill volume, line contamination and delay before you treat.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>For rheumatic mitral disease with atrial fibrillation and for mechanical valves, warfarin is still the drug, and rifampicin, antibiotics, herbs and diet explain most INR swings.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In a bleeding mother, a fibrinogen that looks normal can already be low; replace early rather than waiting for a worse number.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The 20-minute whole blood clotting test needs only a glass tube and a clock, and it is the right test for a snakebite patient when no laboratory is available.</span></li>
+      </ul>
+    </div>
+    
+    <!-- References -->
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American College of Chest Physicians - Antithrombotic Therapy and Prevention of Thrombosis Guidelines (management of vitamin K antagonist therapy and supratherapeutic INR).</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Heart Association / American College of Cardiology - Guideline for the Management of Valvular Heart Disease.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>European Society of Cardiology - Guidelines on Valvular Heart Disease and on Atrial Fibrillation.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Management of Snakebite, including the 20-minute whole blood clotting test.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Recommendations on vitamin K prophylaxis for newborns.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Society on Thrombosis and Haemostasis - Scoring System for Disseminated Intravascular Coagulation.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Prevention and Management of Postpartum Haemorrhage, Green-top Guideline.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>British Society for Haematology - Guidelines on oral anticoagulation with warfarin.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
+        </ul>
+      </div>
+    </details>
+    
+    </body>
+    </html>
+        `
+      },
+
+      {
+        id: 'lab-peripheral-blood-film',
+        title: 'Peripheral Blood Film',
+        category: 'Laboratory Interpretation',
+        subCategory: 'Hematology',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Interpreting the Peripheral Blood Film</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+    </head>
+    <body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+    
+    <!-- Hero -->
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Peripheral Blood Film</h1>
+        <p class="text-sm text-indigo-200">The film is the cheapest test in the haematology laboratory and the most underrequested. It takes a stained slide and a trained pair of eyes, needs no analyser, and answers questions the FBC cannot: which malaria species and how many parasites, whether the red cells are sickled, targeted, fragmented or bitten, whether the white cells are reactive or leukaemic, and whether a low platelet count is real. Where CRP, flow cytometry and haemoglobin electrophoresis are out of reach, the film is often the only morphological investigation available at the point of decision.</p>
+      </div>
+    </div>
+    
+    <!-- 1. When a film changes management -->
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li>
+          <a href="#when-a-film-changes-management" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
+            <span>When a Film Changes Management</span>
+          </a>
+        </li>
+        <li>
+          <a href="#making-and-reading-a-good-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
+            <span>Making and Reading a Good Film</span>
+          </a>
+        </li>
+        <li>
+          <a href="#red-cells-size-colour-shape-inclusions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
+            <span>Red Cells: Size, Colour, Shape, Inclusions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#sickle-cell-disease-and-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
+            <span>Sickle Cell Disease and the Film</span>
+          </a>
+        </li>
+        <li>
+          <a href="#white-cells-reactive-malignant-or-just-busy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
+            <span>White Cells: Reactive, Malignant, or Just Busy</span>
+          </a>
+        </li>
+        <li>
+          <a href="#platelets-on-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
+            <span>Platelets on the Film</span>
+          </a>
+        </li>
+        <li>
+          <a href="#parasites-and-organisms-on-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
+            <span>Parasites and Organisms on the Film</span>
+          </a>
+        </li>
+        <li>
+          <a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
+            <span>Reading Order</span>
+          </a>
+        </li>
+        <li>
+          <a href="#common-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+            <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span>
+            <span>Common Pitfalls</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-a-film-changes-management" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      When a Film Changes Management
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">An automated FBC gives numbers; the film gives the reason for them. Request a film, with a one-line clinical question on the form, in any of these situations:</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Fever in a patient from a malaria-endemic area, especially with anaemia, jaundice, low platelets, or any feature of severity.</li>
+        <li>Anaemia that is unexplained, severe, or does not fit the MCV - and every known or suspected sickle cell disease patient who presents unwell.</li>
+        <li>Suspected haemolysis: jaundice with pallor, dark urine, a rising reticulocyte count, or anaemia after starting a new drug.</li>
+        <li>Pancytopenia, bicytopenia, or any unexplained leucocytosis or leucopenia.</li>
+        <li>Thrombocytopenia, to confirm the count is real before anyone treats it.</li>
+        <li>A child with pallor, bruising or bone pain; an adult with massive splenomegaly or generalised lymphadenopathy - to look for blasts or a leukaemic picture.</li>
+        <li>Any analyser flag: blasts, immature granulocytes, atypical lymphocytes, nucleated red cells, platelet clumps, a high RDW with a normal MCV, or counts that contradict the clinical picture.</li>
+      </ul>
+      <p class="text-sm">In practice, the film is requested most often after an abnormal count has already been reported. Asking for it alongside the FBC from the start changes management more often than the haemoglobin value alone.</p>
+    </div>
+    
+    <!-- 2. Making and reading a good film -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="making-and-reading-a-good-film" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Making and Reading a Good Film
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">A poor film produces confident-sounding wrong answers, so the first interpretive step is judging the slide itself.</p>
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Fresh sample.</span> Make the film from EDTA blood within about two to three hours, or from a finger-prick drop. Blood left standing in EDTA, particularly in a hot room, produces crenated red cells, vacuolated neutrophils, distorted platelets, and malaria parasites that no longer look like themselves.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Spread and stain.</span> A good thin film has a smooth, feathered tail and is read in the monolayer, where red cells lie side by side without overlapping and without being so thinly spread that they flatten. Giemsa, Leishman or May-Grünwald-Giemsa are all acceptable; buffered Giemsa at the right pH is what brings out Schüffner's dots and Maurer's clefts. Stain deposit, dust and debris are common mimics of parasites in rural and primary-care laboratories.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Where to look.</span> Scan at low power to check cell distribution and spot clumps, then read the monolayer under the oil-immersion lens. Never judge red cell morphology from the thick head of the film, where cells pile up and appear sickled, crenated or rouleaux when they are not.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Thick and thin for malaria.</span> The thick film concentrates parasites and is more sensitive for finding them; the thin film is used for species identification, staging, counting high densities and judging pigment in white cells.</li>
+      </ul>
+    </div>
+    
+    <!-- 3. Red cells -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="red-cells-size-colour-shape-inclusions" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Red Cells: Size, Colour, Shape, Inclusions
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Read the red cells in a fixed order: size (anisocytosis, macro- or microcytes), haemoglobinisation (hypochromia, polychromasia), shape (poikilocytes), then inclusions. Look for one population or two - a dimorphic film, with a population of normal cells alongside hypochromic microcytes, points to mixed deficiency (iron plus folate is common in pregnancy and malnutrition) or a recent transfusion.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3 font-medium">Finding</th>
+              <th class="py-2 pr-3 font-medium">What it points to</th>
+              <th class="py-2 font-medium">In Nigerian practice</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Hypochromic microcytes, pencil cells</td><td class="py-2 pr-3">Iron deficiency</td><td class="py-2">Hookworm, pregnancy, poor diet. Thalassaemia trait gives small cells with target cells and stippling but a normal or high red cell count (see the Mentzer Index in the FBC guide)</td></tr>
+            <tr><td class="py-2 pr-3">Target cells</td><td class="py-2 pr-3">HbSS, HbSC, HbC disease, thalassaemia, liver disease, hyposplenism, iron deficiency</td><td class="py-2">Many target cells with few or no sickle cells in a haemolysing child should raise HbSC; genotype confirms</td></tr>
+            <tr><td class="py-2 pr-3">Sickle cells</td><td class="py-2 pr-3">HbSS, HbSC, HbS-beta thalassaemia</td><td class="py-2">Absent in sickle cell trait, whose film is normal. See Section 4</td></tr>
+            <tr><td class="py-2 pr-3">Howell-Jolly bodies</td><td class="py-2 pr-3">Hyposplenism or asplenia (also megaloblastic anaemia)</td><td class="py-2">Functional asplenia is the rule in HbSS from early childhood; infection risk is high and prophylaxis matters</td></tr>
+            <tr><td class="py-2 pr-3">Polychromasia, nucleated red cells</td><td class="py-2 pr-3">Active marrow response: haemolysis, haemorrhage, recovery</td><td class="py-2">Common in SCD crisis and severe malaria. With immature white cells too (leukoerythroblastic) think marrow infiltration, TB, myelofibrosis, metastases</td></tr>
+            <tr><td class="py-2 pr-3">Spherocytes</td><td class="py-2 pr-3">Autoimmune haemolytic anaemia, hereditary spherocytosis, ABO incompatibility in the newborn</td><td class="py-2">Spherocytes with a positive direct antiglobulin test settle AIHA; HIV and lymphoproliferative disease are recognised triggers</td></tr>
+            <tr><td class="py-2 pr-3">Bite cells, blister cells (Heinz bodies need a supravital stain)</td><td class="py-2 pr-3">G6PD deficiency in acute haemolysis</td><td class="py-2">Roughly one in five Nigerian males is G6PD deficient. Triggers: infection, fava beans, naphthalene, and drugs such as sulfonamides, dapsone, primaquine, nitrofurantoin. Between attacks the film may be normal</td></tr>
+            <tr><td class="py-2 pr-3">Schistocytes (fragments, helmet cells) with low platelets</td><td class="py-2 pr-3">Microangiopathic haemolysis: DIC, TTP or HUS, HELLP and severe pre-eclampsia, malignant hypertension</td><td class="py-2">Severe malaria and sepsis can cause DIC. About 1% or more schistocytes in the right clinical setting supports a thrombotic microangiopathy (ICSH)</td></tr>
+            <tr><td class="py-2 pr-3">Teardrop cells</td><td class="py-2 pr-3">Myelofibrosis, marrow infiltration, thalassaemia</td><td class="py-2">Read with the white cells and splenic size</td></tr>
+            <tr><td class="py-2 pr-3">Oval macrocytes</td><td class="py-2 pr-3">Megaloblastic anaemia, with hypersegmented neutrophils</td><td class="py-2">Folate deficiency is the usual cause; chronic haemolysis (SCD) and pregnancy consume folate</td></tr>
+            <tr><td class="py-2 pr-3">Rouleaux</td><td class="py-2 pr-3">Raised globulins or fibrinogen</td><td class="py-2">Chronic infection (TB, HIV, malaria), myeloma. Look in the thin area; rouleaux in the thick head is artefact</td></tr>
+            <tr><td class="py-2 pr-3">Basophilic stippling</td><td class="py-2 pr-3">Lead poisoning, thalassaemia, megaloblastic anaemia</td><td class="py-2">Lead exposure from informal battery recycling and artisanal mining is a documented cause of poisoning in Nigeria</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- 4. SCD and the film -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sickle-cell-disease-and-the-film" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Sickle Cell Disease and the Film
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">With a sickle trait carrier frequency near a quarter of the population and HbSS affecting a few percent of births, a doctor in Nigeria meets the sickle film constantly, and it repays careful reading.</p>
+      <ul class="list-disc pl-5 space-y-2 text-sm">
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">What the film can and cannot do.</span> Sickle cells on a film in a patient with haemolytic anaemia strongly suggest sickle cell disease, but the film does not give the genotype. HbSS, HbSC and HbS-beta thalassaemia differ in severity and in management, and electrophoresis or HPLC settles which. A film with no sickle cells does not exclude disease: HbSC can show few sickle cells and many target cells.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Steady state versus crisis.</span> A patient's baseline film shows sickle cells, target cells, polychromasia, nucleated red cells and Howell-Jolly bodies. During a crisis, look for what has changed. A sharp fall in haemoglobin with a high reticulocyte count and many nucleated cells fits a haemolytic or sequestration crisis. A fall in haemoglobin with polychromasia disappearing and reticulocytes near zero fits an aplastic crisis, classically after parvovirus infection, and these patients need urgent transfusion.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Howell-Jolly bodies are a treatment signal, not just a finding.</span> They tell you the spleen is no longer functioning, which is why a febrile child with HbSS needs urgent assessment for bacteraemia, and why penicillin prophylaxis and pneumococcal immunisation matter.</li>
+        <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria in SCD.</span> A sickle patient with fever should have a malaria film every time. Malaria triggers crisis and drives profound anaemia, and parasite density can be underestimated if the film is only glanced at.</li>
+      </ul>
+    </div>
+    
+    <!-- 5. White cells -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="white-cells-reactive-malignant-or-just-busy" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      White Cells: Reactive, Malignant, or Just Busy
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">A manual differential on a good film is more reliable than the analyser whenever the count is abnormal or flagged, and it is the only way to see blasts, toxic change and abnormal lymphocytes. Remember the age-appropriate pattern first: young children are physiologically lymphocyte-predominant (see the FBC guide), so a lymphocyte-rich film in a well two-year-old is normal.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3 font-medium">Finding</th>
+              <th class="py-2 font-medium">What it points to</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Toxic granulation, Döhle bodies, vacuolated neutrophils, left shift</td><td class="py-2">Bacterial sepsis or severe inflammation. A neutrophilia without these changes in a febrile patient should still prompt a malaria film, since malaria alone raises the neutrophil count</td></tr>
+            <tr><td class="py-2 pr-3">Hypersegmented neutrophils (five or more lobes in at least 5% of neutrophils, or any with six)</td><td class="py-2">Megaloblastic anaemia, often before the anaemia is obvious</td></tr>
+            <tr><td class="py-2 pr-3">Reactive (atypical) lymphocytes</td><td class="py-2">Viral infection including EBV, CMV and HIV seroconversion. Variable cell sizes with abundant cytoplasm are typical; a monotonous population of similar cells is not</td></tr>
+            <tr><td class="py-2 pr-3">Eosinophilia</td><td class="py-2">Helminths first (hookworm, ascaris, strongyloides, schistosomiasis, filariasis), then drug reaction and atopy. Check the thick film for microfilariae</td></tr>
+            <tr><td class="py-2 pr-3">Left shift with myelocytes and promyelocytes, basophilia, often eosinophilia, with splenomegaly</td><td class="py-2">Chronic myeloid leukaemia - a leading cause of massive splenomegaly in adults, alongside tropical splenomegaly. A leukaemoid reaction to infection shows toxic change without basophilia</td></tr>
+            <tr><td class="py-2 pr-3">Mature lymphocytosis with smudge cells in an older adult</td><td class="py-2">Chronic lymphocytic leukaemia</td></tr>
+            <tr><td class="py-2 pr-3">Blasts, with or without Auer rods</td><td class="py-2">Acute leukaemia until proven otherwise (see below)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Blast Cells</strong>
+        <p class="text-sm">Blasts are large cells with a high nuclear-to-cytoplasmic ratio, fine open chromatin, visible nucleoli and little or no granulation. Auer rods, which are needle-like red-pink inclusions, confirm a myeloid origin. Classically, acute leukaemia is diagnosed at 20% or more blasts in blood or marrow, although newer classifications accept lower counts for some genetically defined subtypes, and the film is a screening tool, not a final diagnosis: confirmation needs marrow examination, flow cytometry and cytogenetics, which means early referral.</p>
+        <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with paediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
+        <p class="text-sm mt-2">Burkitt lymphoma is common in Nigerian children. Leukaemic spill into the blood is uncommon, but lymphoma cells with deeply basophilic, vacuolated cytoplasm on the film of a child with a jaw or abdominal mass should be reported and acted on the same day.</p>
+      </div>
+    </div>
+    
+    <!-- 6. Platelets -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="platelets-on-the-film" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Platelets on the Film
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Scan the feathered edge and the body of the film for clumps before accepting any low platelet count. EDTA can make platelets clump or stick around neutrophils (satellitism), so the analyser reports a falsely low count. If clumps are present, the count is unreliable; repeat in a citrate tube before anyone worries about bleeding or withholds a procedure.</p>
+      <p class="text-sm">Platelet size is informative too. Giant platelets alongside a low count suggest peripheral destruction (immune thrombocytopenia) or a marrow disorder; small platelets are seen in some inherited conditions. In febrile patients, a truly low count with malaria parasites on the film fits malaria thrombocytopenia, which usually recovers with treatment. A platelet lying on top of a red cell can look like a parasite ring, so confirm parasites by their nucleus and cytoplasm, not by position alone.</p>
+    </div>
+    
+    <!-- 7. Parasites -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="parasites-and-organisms-on-the-film" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      Parasites and Organisms on the Film
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Malaria: Species</strong>
+        <ul class="list-disc pl-5 space-y-2 text-sm">
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Plasmodium falciparum</span> causes most malaria in Nigeria. Small delicate ring forms, often several rings in one red cell and accolé forms at the cell edge, with normal-sized red cells. Banana-shaped gametocytes are diagnostic. In an ordinary infection only rings and gametocytes appear in the blood, because the older stages sequester in the microvasculature.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">P. malariae</span> shows compact trophozoites, band forms across the cell, and rosette-shaped schizonts. It causes quartan fever and is the species linked to nephrotic syndrome in children.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">P. ovale</span> has oval, fimbriated infected cells with Schüffner's dots. <span class="font-medium text-slate-800 dark:text-slate-200">P. vivax</span> is uncommon in West Africa because most people are Duffy-negative, so a vivax-like parasite in a Nigerian patient should be re-examined carefully and considered ovale first.</li>
+          <li>Mixed infections are common, particularly falciparum with malariae. Report every species seen, not only the commonest.</li>
+        </ul>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Malaria: Density</strong>
+        <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Thick film.</span> Count asexual parasites against white cells (200 white cells; count against 500 if there are fewer than 10 parasites). Where the patient's own white cell count is not available, the WHO convention is to assume 8,000 per microlitre.</p>
+        <p class="text-sm bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 p-3 sans mt-2">Parasites per &micro;L = (parasites counted &divide; white cells counted) &times; 8,000</p>
+        <p class="text-sm mt-2">Worked example: 150 parasites against 200 white cells gives (150 &divide; 200) &times; 8,000 = 6,000 parasites per microlitre. If the patient's measured white count is 12,000, using it instead of 8,000 gives 9,000, and the difference matters in anaemic or leucocytotic patients.</p>
+        <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Thin film.</span> Once the thick film becomes too dense to count, use the thin film and report the percentage of red cells parasitised. As a rough conversion at a normal red count of about 5 million per microlitre, 1% parasitaemia is about 50,000 per microlitre.</p>
+        <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">A negative film.</span> Examine at least 100 high-power fields of a well-stained thick film before reporting no parasites seen. If malaria is still suspected, repeat at 6 to 12 hourly intervals over 24 to 48 hours rather than accepting a single negative result.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Malaria: Severity Markers on the Film</strong>
+        <p class="text-sm">Parasite density is a risk indicator, not a definition of severe malaria. In high-transmission settings, semi-immune children can carry high counts and look well, and others die at lower counts, so the clinical features decide severity. The thresholds also depend on the era and the transmission setting: the 2010 WHO definition used more than 5% (250,000 per microlitre) in high-transmission areas, while the formal criterion in current WHO severe malaria definitions is hyperparasitaemia above 10%, with 4 to 10% regarded as uncomplicated hyperparasitaemia that warrants close observation.</p>
+        <p class="text-sm mt-2">The film adds markers that density alone misses, and these are worth stating on the report:</p>
+        <ul class="list-disc pl-5 space-y-1 text-sm mt-1">
+          <li>Mature trophozoites or schizonts in the peripheral blood, which should be sequestered. Their presence signals a large hidden parasite burden.</li>
+          <li>Malaria pigment (haemozoin) in at least 5% of neutrophils. In African children the proportion of pigment-containing neutrophils helps separate severe malaria from other life-threatening febrile illness, and adds prognostic information beyond the parasite count.</li>
+          <li>Parasite density rising on repeat films despite treatment, or parasites still present at 72 hours. Check adherence, vomiting and dosing first, and discuss with the treating team.</li>
+        </ul>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Other Organisms</strong>
+        <ul class="list-disc pl-5 space-y-2 text-sm">
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Microfilariae.</span> Mansonella perstans is widespread in Nigeria and is a common incidental finding on thick films, often with eosinophilia and usually of little clinical consequence. Loa loa, found in some southern forest areas, is sheathed and appears by day, and a high loa microfilarial load matters because it raises the risk of serious reactions to ivermectin; refer rather than treat blindly. Wuchereria bancrofti circulates at night, so a daytime sample can miss it.</li>
+          <li><span class="font-medium text-slate-800 dark:text-slate-200">Trypanosomes.</span> Rarely seen, and most likely in patients from known endemic foci with chronic fever, lymphadenopathy and neurological change. They are easy to miss unless looked for.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- 8. Reading order -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      Reading Order
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ol class="list-decimal pl-5 space-y-1 text-sm">
+        <li>Judge the film first: fresh sample, even spread, correct stain, and reading in the monolayer. Reject a poor film instead of interpreting it.</li>
+        <li>Read it against the clinical question and the FBC numbers - age, sex, pregnancy, known genotype, drugs, fever.</li>
+        <li>Look for parasites and organisms first (thick film for sensitivity, thin film for species, stage and density), because they are the most urgent and the most treatable finding.</li>
+        <li>Red cells: size, colour, shape, inclusions, and whether there are one or two populations.</li>
+        <li>White cells: a manual differential, toxic change, abnormal lymphocytes, and above all any blasts.</li>
+        <li>Platelets: confirm the count, look for clumps and giant forms.</li>
+        <li>Write a short synthesis, not a list of adjectives: for example "hypochromic microcytic anaemia with pencil cells, consistent with iron deficiency; no parasites seen." State the species, stage and density in every positive malaria report.</li>
+      </ol>
+    </div>
+    
+    <!-- Must not miss -->
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <h3 class="font-brand text-lg font-semibold text-rose-800 dark:text-rose-300 mb-3 pb-2 border-b border-rose-200 dark:border-rose-700">Findings That Must Not Be Missed</h3>
+      <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Blast cells</span> in the blood of a pale, bruising or febrile patient: acute leukaemia until proven otherwise. Refer urgently and avoid steroids first.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Schizonts or mature trophozoites, or pigment in 5% or more of neutrophils</span>, on a malaria film: treat as severe malaria regardless of how the patient looks in the first hour.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Schistocytes with thrombocytopenia</span> and a falling haemoglobin: microangiopathic haemolysis. Consider DIC, TTP, HELLP and malignant hypertension and act the same day.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Howell-Jolly bodies in a febrile child with sickle cell disease</span>: functional asplenia, with a real risk of pneumococcal sepsis.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bite cells and blister cells after a new drug</span>: stop the suspected oxidant and manage for G6PD-related haemolysis.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Platelet clumps</span> behind a "critical" low platelet count: do not treat the number before repeating it in citrate.</span></li>
+      </ul>
+    </div>
+    
+    <!-- Pitfalls -->
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-pitfalls" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Common Pitfalls
+    </h2>
+    
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Requesting a film with no clinical question. A report that says "normocytic anaemia" helps no one; "fever, anaemia, known HbSS" tells the reader where to look.</li>
+        <li>Interpreting a poor or old film: crenated cells, over-thick areas, stain deposit and distorted parasites generate false positives and false negatives.</li>
+        <li>Relying on a rapid test alone for malaria. HRP2 antigen can remain positive for weeks after parasites have cleared, and the film is what shows the species, density and stage.</li>
+        <li>Reporting "malaria parasites seen" with no species, stage or density, which strips the report of its prognostic value.</li>
+        <li>Calling sickle trait or sickle disease from a film alone, without a genotype.</li>
+        <li>Assuming a normal film excludes G6PD deficiency or a haemoglobinopathy. Between haemolytic episodes the film can look normal.</li>
+        <li>Treating a "low platelet count" without looking at the film for clumps.</li>
+        <li>Missing a second pathology because the first was found: malaria on a film does not exclude sepsis, iron deficiency, or a haemoglobinopathy, and the film often shows several of these at once.</li>
+      </ul>
+    </div>
+    
+    <!-- Key Clinical Takeaways -->
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
+      <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Request the film with the FBC, not after it, and write the clinical question on the form.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A malaria report is incomplete without species, stage and density. Schizonts or heavy pigment in neutrophils matter more than the count itself.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cells suggest sickle cell disease but do not give the genotype; Howell-Jolly bodies in a sickle patient mean the spleen has stopped working.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Blasts mean urgent referral; the film screens, and marrow and flow cytometry confirm.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm any critical platelet count on the film before treating it.</span></li>
+      </ul>
+    </div>
+    
+    <!-- References -->
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for Malaria, including the severe malaria case definition.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Malaria Microscopy Quality Assurance Manual.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Classification of Haematolymphoid Tumours, 5th Edition.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Council for Standardization in Haematology - Recommendations on the Identification of Schistocytes and on Peripheral Blood Cell Morphology.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines and National Malaria Treatment Guidelines.</li>
+        </ul>
+      </div>
+    </details>
+    
+    </body>
+    </html>
+        `
+      },
+
+
 ];

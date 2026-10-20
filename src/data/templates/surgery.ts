@@ -1,8 +1,1839 @@
 import { Template } from '../../types';
 
 export const SURGERY_TEMPLATES: Template[] = [
+  {
+    id: 'surg-85',
+    title: 'Chronic Leg Ulcer in Sickle Cell Disease',
+    specialty: 'Surgery',
+    subSpecialty: 'Surgical Outpatient Clinic',
+    condition: 'Chronic Leg Ulcer',
+    symptoms: [
+      'Non-healing left ankle ulcer',
+      'Chronic wound discharge',
+      'Left ankle pain',
+      'Sickle cell disease',
+      'Delayed wound healing',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '22-year-old male with HbSS presenting with a 6-month history of a non-healing ulcer over the left medial malleolus following minor trauma, associated with intermittent seropurulent discharge and dull aching pain relieved by leg elevation.',
+    content: `
+  SURGICAL OUTPATIENT CLINIC
+  
+  Patient Identification
+  A 22-year-old male student who resides in Enugu, Enugu State. Tribe: Igbo.
+  
+  Presenting Complaints
+  1. Non-healing sore on the left ankle x 6/12
+  
+  History of Presenting Complaint
+  He was apparently well until 6 months ago when he sustained a minor abrasion on the medial aspect of the left ankle while playing football. The wound failed to heal despite various over-the-counter topical applications. It has gradually increased in size and occasionally yields seropurulent discharge, especially after prolonged standing or walking. There is associated dull, aching pain, which is worse at the end of the day and relieved by leg elevation. He reports no history of preceding leg swelling, visible varicose veins, or significant weight loss. There is no history of similar ulcers in the past.
+  
+  Past Medical History
+  Known sickle cell disease (HbSS) patient, diagnosed at age 2. History of multiple vaso-occlusive crises (VOC), with the last episode occurring 4/12 ago. No previous history of blood transfusion. No known history of diabetes mellitus or hypertension. No previous surgeries.
+  
+  Drug History
+  Currently on routine SCD medications: Tab. Folic acid 5 mg daily and Tab. Paludrine 100 mg daily. Uses Tab. Ibuprofen 400 mg as needed for pain. No known drug allergies.
+  
+  Family and Social History
+  Second of four children in a monogamous setting. One sibling also has SCD. Parents are both HbAS. He is a non-smoker and does not consume alcohol. Lives in a university hostel with moderate overcrowding.
+  
+  Review of Systems
+  RS: No cough or chest pain.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal pain or change in bowel habits.
+  CNS: No headaches or history of seizures.
+  MSS: No joint swellings or bone pain currently.
+  
+  Physical Examination
+  
+  General Examination
+  Young male, not acutely distressed, afebrile (T 36.8°C). He is mildly pale and icteric. No pedal oedema. No significant peripheral lymphadenopathy.
+  
+  Vitals
+  PR: 88 bpm, regular, full volume
+  BP: 110/70 mmHg
+  RR: 18 cpm
+  SpO₂: 98% on room air
+  
+  Local Examination (Left Lower Limb)
+  Inspection: A single, oval-shaped ulcer over the left medial malleolus measuring approximately 5 cm × 3 cm. The floor is covered with pale granulation tissue and minimal slough. The edges are sloping, and the margins are well-defined. The surrounding skin shows hyperpigmentation and mild induration. No visible varicose veins or calf muscle wasting.
+  
+  Palpation: The ulcer is mildly tender. No local warmth. Peripheral pulses (dorsalis pedis and posterior tibial) are palpable and of good volume.
+  
+  Systemic Examination
+  
+  Abdomen
+  Soft, non-tender. Liver palpable 2 cm below the right costal margin, smooth, firm, and non-tender. Spleen is not palpable.
+  
+  Respiratory
+  Trachea central. Percussion notes are resonant. Vesicular breath sounds heard bilaterally.
+  
+  Cardiovascular
+  Apex beat is located at the 5th left intercostal space, mid-clavicular line. S1 and S2 heart sounds heard; no murmurs.
+  
+  Assessment
+  Chronic leg ulcer secondary to sickle cell disease (HbSS).
+  
+  Differential Diagnoses
+  1. Venous (stasis) ulcer
+  2. Post-traumatic ulcer
+  3. Tropical phagedenic ulcer
+  4. Buruli ulcer
+  
+  Initial Investigation Plan
+  1. FBC with reticulocyte count: To assess baseline haemoglobin and bone marrow response.
+  2. Wound swab for microscopy, culture, and sensitivity (M/C/S): To assess for secondary infection and guide antibiotic therapy.
+  3. Haemoglobin electrophoresis: To confirm phenotype if not recently documented.
+  4. Plain X-ray of the left ankle (AP/lateral): To assess for underlying chronic osteomyelitis.
+  5. Fasting blood sugar: To assess for diabetes mellitus as a potential factor in poor wound healing.
+  
+  Initial Management Plan
+  
+  1. Wound Care
+  - Thorough cleaning of the ulcer with normal saline.
+  - Conservative debridement of slough.
+  - Daily dressing with Jelonet (paraffin gauze) or honey-impregnated dressings to promote granulation.
+  - Compression bandaging if a venous component is suspected and arterial patency has been confirmed.
+  
+  2. Medications
+  - Analgesia: Tab. Paracetamol 1 g TDS and Tab. Ibuprofen 400 mg TDS for 5/7 (to be taken with food).
+  - Empirical antibiotics: Tab. Ciprofloxacin 500 mg BD and Tab. Metronidazole 400 mg TDS for 7/7 (adjust according to M/C/S results).
+  - Routine medication: Continue Tab. Folic acid 5 mg daily.
+  - Consider starting Tab. Hydroxyurea 15 mg/kg/day to improve sickle cell disease control and reduce complications, following haematology consultation.
+  
+  3. General Measures
+  - Leg elevation while sitting or sleeping to reduce venous congestion.
+  - High-protein diet (beans, eggs, fish) and Vitamin C 100 mg daily to support wound healing.
+  - Patient education on wound hygiene and avoidance of further trauma.
+  - Referral to the Haematology unit for optimised SCD management.
+  - Referral to the Plastic Surgery unit if the ulcer remains recalcitrant, for consideration of skin grafting.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'surg-84',
+    title: 'Chronic Osteomyelitis of the Right Tibia',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedic Surgery Clinic',
+    condition: 'Chronic Osteomyelitis',
+    symptoms: [
+      'Recurrent right leg pain',
+      'Discharging sinus on the right leg',
+      'Intermittent fever',
+      'Right leg swelling and deformity',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 19-year-old male student presents with a 6-month history of progressive right tibial pain following minor blunt trauma, a 4-month history of a persistent discharging sinus, and 2 weeks of intermittent fever. Examination reveals thickening and deformity of the mid-third of the right tibia, an anteromedial sinus discharging seropurulent material, surrounding induration, and bony thickening suggestive of involucrum. The findings are consistent with chronic osteomyelitis of the right tibia.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 19-year-old male student who resides in Ogbomosho, Oyo State. Yoruba by tribe.
+  
+  PRESENTING COMPLAINTS
+  1. Recurrent right leg pain x 6/12
+  2. Discharging sinus on the right leg x 4/12
+  3. Intermittent fever x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 6 months ago, when he developed a dull, aching pain in the midshaft of the right leg following minor blunt trauma during a football match. The pain was initially manageable but progressively worsened in intensity and became associated with localized swelling, redness, and warmth. He initially visited a traditional bone setter, where local herbal applications and tight splinting were performed.
+  
+  About 4 months ago, the swelling became more prominent and fluctuant, eventually rupturing spontaneously and discharging a large amount of foul-smelling purulent material. Following this, the pain significantly subsided, but the site failed to heal, persisting as an open sinus that intermittently discharges pus and occasionally small, gritty, white bone fragments (sequestra). The discharge worsens with activity.
+  
+  He reports intermittent low-grade fever over the last 2 weeks, which usually subsides with paracetamol. There is no history of night sweats, significant weight loss, or similar swelling in other parts of the body. He can bear weight on the limb, although with a slight limp during flare-ups.
+  
+  PAST MEDICAL HISTORY
+  No known history of sickle cell disease (Hb genotype is AA). No history of diabetes mellitus or prolonged steroid use. No previous history of fractures or orthopaedic surgeries.
+  
+  DRUG HISTORY
+  Has been using various over-the-counter analgesics, including ibuprofen and paracetamol, and unknown herbal preparations. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  He is the second of five children in a monogamous family setting. His parents are traders. He does not smoke or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headache or history of seizures.
+  RS: No cough or shortness of breath.
+  CVS: No palpitations or pedal oedema.
+  GIT: Normal appetite. No abdominal pain or change in bowel habits.
+  MSS: As documented in the history of presenting complaint.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young man, comfortable at rest and not acutely distressed, afebrile to touch (36.8°C). Not pale, anicteric, not dehydrated, with no significant peripheral lymphadenopathy.
+  
+  VITAL SIGNS
+  Pulse rate: 78 bpm, regular and full volume.
+  Blood pressure: 110/70 mmHg.
+  Respiratory rate: 18 cpm.
+  SpO2: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  Abdomen: Soft and non-tender, with no organomegaly.
+  Chest: Clear breath sounds bilaterally.
+  Cardiovascular system: Heart sounds S1 and S2 only.
+  
+  LOCAL EXAMINATION (RIGHT LOWER LIMB)
+  Inspection:
+  Visible thickening and deformity of the mid-third of the right leg.
+  A single sinus tract is noted on the anteromedial aspect of the right tibia.
+  Active seropurulent discharge is noted from the sinus.
+  The surrounding skin is hyperpigmented and indurated.
+  No active bleeding or fungal masses.
+  
+  Palpation:
+  Local warmth is present.
+  Significant bony thickening (involucrum) is felt along the tibial shaft.
+  Tenderness is noted on deep palpation of the tibia.
+  The sinus is fixed to the underlying bone.
+  
+  Range of Motion:
+  Knee and ankle joint movements are active and within normal limits.
+  
+  NEUROVASCULAR STATUS
+  Distal pulses (dorsalis pedis and posterior tibial) are palpable and synchronous with those of the contralateral limb.
+  Sensation and motor function in the foot are intact.
+  
+  ASSESSMENT
+  Chronic osteomyelitis of the right tibia.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Brodie's abscess (subacute osteomyelitis).
+  2. Infected non-union, less likely given the absence of an overt fracture.
+  3. Squamous cell carcinoma (Marjolin's ulcer) secondary to a chronic sinus tract.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full blood count (FBC), erythrocyte sedimentation rate (ESR), and C-reactive protein (CRP) to assess inflammatory activity.
+  2. Deep tissue or sinus tract specimen for microscopy, culture, and sensitivity (M/C/S), preferably obtained during surgery.
+  3. Plain X-ray of the right tibia and fibula (AP and lateral views) to assess for sequestrum, involucrum, and cloaca.
+  4. Hb genotype to assess for an underlying haemoglobinopathy; the patient is reported to have genotype AA.
+  5. Serum electrolytes, urea, and creatinine (E/U/Cr).
+  6. Consider blood cultures if febrile or systemically unwell.
+  7. Consider histopathological examination of suspicious tissue, particularly if the sinus has longstanding changes or appears atypical.
+  
+  INITIAL MANAGEMENT PLAN
+  1. Admit for orthopaedic assessment, limb elevation, and initial treatment.
+  2. Analgesia: Tab. ibuprofen 400 mg orally 8-hourly with food, if renal function and gastrointestinal risk permit, and tab. paracetamol 1 g orally 8-hourly, ensuring the total daily dose remains within safe limits.
+  3. Antibiotics: Obtain appropriate cultures before initiating antibiotics where feasible without delaying treatment. Start empirical antibiotics based on local guidelines, severity, and likely organisms, then tailor treatment to culture and sensitivity results. The proposed regimen of IV ceftriaxone 1 g daily and IV metronidazole 500 mg 8-hourly should be reviewed for adequacy against likely bone pathogens. Plan for prolonged, culture-directed antimicrobial therapy, often around 4–6 weeks or longer depending on the extent of infection, surgical findings, and clinical response. Oral ciprofloxacin and clindamycin should only be considered if culture results, susceptibility, and clinical circumstances support their use.
+  4. Wound care: Regular dressing of the sinus with sterile normal saline and sterile gauze. Monitor the amount, character, and odour of the discharge.
+  5. Surgery: Orthopaedic review for surgical debridement, sequestrectomy, and saucerization when indicated by imaging and operative assessment. Obtain deep tissue and bone specimens for culture and histopathology during surgery where appropriate.
+  6. Physiotherapy: Maintain joint range of motion and muscle strength, with weight-bearing advice guided by the extent of bone involvement and the orthopaedic team's assessment.
+  7. Follow-up: Monitor temperature, wound healing, pain, limb function, and inflammatory markers to assess response to treatment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-83',
+    title: 'Hidradenitis Suppurativa',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Hidradenitis Suppurativa (Hurley Stage I)',
+    symptoms: [
+      'Recurrent painful swellings in both axillae',
+      'Tender inflammatory nodules',
+      'Intermittent foul-smelling purulent discharge',
+      'Axillary itching',
+      'Hyperpigmentation of affected skin',
+      'Recurrent lesions with hypertrophic and rope-like scarring',
+      'Premenstrual exacerbation of pain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 26-year-old female fashion designer presenting with a 6-month history of recurrent painful bilateral axillary nodules, occasional foul-smelling purulent discharge, hyperpigmentation, and scarring, with premenstrual exacerbation. Examination reveals multiple tender nodules, hypertrophic scars, and double-headed comedones without active abscesses or draining sinus tracts, favouring Hurley Stage I hidradenitis suppurativa.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 26-year-old female fashion designer who resides in Ogbomosho, Oyo State. Yoruba by tribe.
+  
+  PRESENTING COMPLAINT
+  1. Recurrent painful swellings in both armpits x 6/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was in her usual state of health until 6 months ago when she noticed painful, pea-sized lumps in both axillae. The swellings initially start as firm, tender nodules which gradually enlarge over several days and occasionally discharge foul-smelling purulent material. There is associated itching and skin discoloration in the affected areas. She reports that the lesions often heal with thick scarring, but new nodules recur every few weeks, often in the same vicinity.
+  She notes that the pain is worse just before her menstrual periods. No history of similar swellings in the groin, inframammary regions, or perineum. No history of chronic cough, significant weight loss, or drenching night sweats. She frequently uses manual shaving sticks for axillary hair removal and applies various roll-on deodorants daily.
+  
+  PAST MEDICAL HISTORY
+  No known history of Diabetes Mellitus or chronic skin conditions.
+  No history of prolonged steroid use.
+  Not a known retroviral disease patient.
+  
+  DRUG HISTORY
+  Has used various over-the-counter antibiotic creams (Gentamicin) and local herbal preparations with minimal relief.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  Single, lives in a well-ventilated apartment.
+  Non-smoker.
+  No family history of similar recurrent skin boils.
+  
+  REVIEW OF SYSTEMS
+  GIT: No abdominal pain, normal bowel habits.
+  CVS: No palpitations or chest pain.
+  RS: No cough or breathlessness.
+  CNS: No headaches or seizures.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young woman, not acutely distressed, afebrile (temperature 36.7°C), not pale, not icteric, with no peripheral lymphadenopathy. No pedal oedema.
+  
+  VITAL SIGNS
+  BP: 110/70 mmHg.
+  PR: 78 bpm, regular, normal volume.
+  RR: 18 cpm.
+  SpO₂: 99% on room air.
+  
+  LOCAL EXAMINATION (AXILLAE)
+  Right axilla: Multiple erythematous, tender nodules noted. Presence of hypertrophic scars and a few double-headed comedones. No active fluctuant abscess or draining sinus tract seen at present.
+  Left axilla: Similar findings with hyperpigmented patches and old rope-like scars. No active discharge.
+  
+  ASSESSMENT
+  1. Hidradenitis Suppurativa (Hurley Stage I).
+  2. Recurrent axillary furunculosis associated with shaving to be considered as a differential diagnosis.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Recurrent furunculosis (staphylococcal infection).
+  2. Axillary lymphadenitis.
+  3. Infected epidermoid cysts.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Fasting Blood Sugar (FBS) or HbA1c to assess for underlying Diabetes Mellitus.
+  2. Wound swab for microscopy, culture, and sensitivity (M/C/S) if active purulent discharge is present.
+  3. HIV screening after appropriate counselling and informed consent, in accordance with local testing protocols.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL AND LIFESTYLE MEASURES
+  1. Patient education on the chronic, relapsing nature of the condition and the need for follow-up.
+  2. Advice on weight maintenance and avoidance of tight-fitting synthetic clothing that may increase friction.
+  3. Hygiene: Consider antiseptic washes such as chlorhexidine or benzoyl peroxide 5% wash, as tolerated.
+  4. Hair management: Advise avoiding razor shaving of the axillae, particularly during active flares. Trimming with scissors or electric clippers may reduce skin trauma. Chemical depilatories may be considered if tolerated after a patch test.
+  
+  MEDICAL MANAGEMENT
+  1. Topical treatment:
+  - Clindamycin 1% solution or gel applied to the affected area BD for 4–12 weeks may be considered for mild localised disease, taking account of local guidance and the risk of antimicrobial resistance.
+  
+  2. Oral antibiotics:
+  - Cap Doxycycline 100 mg orally BD may be considered for more persistent inflammatory disease, with duration guided by clinical response and specialist or local guidelines.
+  - Tab Erythromycin 500 mg orally BD may be considered when doxycycline is contraindicated, depending on the clinical context and local guidance.
+  - A short course should not be prescribed automatically for every flare; assess for secondary bacterial infection and the need for systemic treatment.
+  
+  3. Pain management:
+  - Tab Ibuprofen 400 mg orally TDS, if appropriate after assessing contraindications.
+  - Alternatively, Tab Paracetamol 1 g orally TDS as required for pain, within recommended daily dose limits.
+  
+  SURGICAL/FOLLOW-UP
+  1. Incision and drainage (I&D) is generally not indicated for inflammatory nodules in hidradenitis suppurativa. It may be performed for a clearly fluctuant, painful abscess when clinically necessary, with counselling that recurrence is common.
+  2. Refer to a dermatologist for consideration of longer-term treatment, including an appropriate tetracycline course, hormonal therapy where indicated, or intralesional corticosteroids for selected inflammatory nodules, particularly if symptoms persist or the disease progresses to Hurley Stage II.
+  3. Review the patient to assess response, frequency of flares, scarring, and development of sinus tracts.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-82',
+    title: 'Recurrent Axillary Furunculosis',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Recurrent Axillary Furunculosis',
+    symptoms: [
+      'Painful swelling in the right axilla',
+      'Recurrent axillary swellings following shaving',
+      'Localised throbbing pain',
+      'Hyperpigmented scars from previous episodes',
+      'Tender, fluctuant skin swelling'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 24-year-old female student presenting with a 3-day history of a painful, erythematous, fluctuant right axillary swelling and a 6-month history of recurrent similar episodes, often following shaving. Examination reveals a tender, warm, 2 cm × 2 cm swelling with central fluctuance and hyperpigmented scars from previous episodes, consistent with recurrent axillary furunculosis. Hidradenitis suppurativa remains a differential diagnosis.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 24-year-old female student who resides in Yaba, Lagos State.
+  Tribe: Yoruba.
+  
+  PRESENTING COMPLAINTS
+  1. Painful swelling in the right armpit x 3/7
+  2. Recurrent similar swellings x 6/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  She was apparently well until 3 days ago when she noticed a painful, reddish swelling in her right axilla. The onset was preceded by shaving her underarms with a disposable razor 2 days prior. The swelling has progressively increased in size and is associated with localised throbbing pain which interferes with her arm movement and daily activities. There is no associated fever, chills, or night sweats.
+  She reports having had 4 similar episodes over the last 6 months, usually occurring within a week of shaving. Previous episodes resolved after taking over-the-counter antibiotics and applying local warm compresses, though they often left hyperpigmented scars. She has not noticed similar swellings in the groin or under the breasts.
+  
+  PAST MEDICAL HISTORY
+  No known history of Diabetes Mellitus.
+  No history of recurrent infections in other parts of the body.
+  Not a known retroviral patient.
+  No history of asthma or chronic skin conditions.
+  
+  DRUG HISTORY
+  Occasional use of Amoxicillin capsules for previous episodes.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  Resides in a well-ventilated university hostel.
+  Does not share personal items like towels or razors.
+  Family history is non-contributory for chronic skin diseases.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headache or loss of consciousness.
+  RS: No cough or chest pain.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: No joint pains.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Young lady in no obvious respiratory or painful distress. Not pale, anicteric, acyanosed, or dehydrated. No significant peripheral lymphadenopathy.
+  
+  VITAL SIGNS
+  Pulse Rate: 84 bpm.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 18 cpm.
+  Temperature: 36.7°C.
+  SpO₂: 98% on room air.
+  
+  LOCAL EXAMINATION (RIGHT AXILLA)
+  Inspection: A solitary, erythematous, dome-shaped swelling measuring approximately 2 cm × 2 cm. The overlying skin appears tense and shiny. Multiple hyperpigmented macules (scars) are noted from previous episodes.
+  Palpation: Markedly tender and warm to touch. The mass is firm with central fluctuance. No significant regional (axillary) lymphadenopathy.
+  
+  ASSESSMENT
+  Recurrent axillary furunculosis, possibly associated with shaving-related skin trauma.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Hidradenitis suppurativa (Hurley Stage I).
+  2. Axillary lymphadenitis.
+  3. Infected epidermoid cyst.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC): To check for leucocytosis if clinically indicated.
+  2. Fasting Blood Sugar (FBS) or HbA1c: To assess for underlying Diabetes Mellitus given the recurrence.
+  3. Swab or pus specimen for microscopy, culture, and sensitivity (M/C/S): To be obtained if there is spontaneous drainage or during incision and drainage, particularly given the recurrent episodes and previous antibiotic exposure.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  NON-PHARMACOLOGICAL
+  1. Apply warm compresses to the affected area 3–4 times daily for symptomatic relief and to encourage localisation.
+  2. Counselling on shaving hygiene: Advise avoiding shaving with manual razors while the lesion heals. Electric clippers may reduce skin trauma. Chemical depilatory creams may be considered after a patch test if suitable.
+  3. Advise against squeezing or picking the lesion to reduce the risk of further inflammation and infection.
+  4. Consider gentle cleansing and an antiseptic wash, such as a chlorhexidine-based product, if tolerated.
+  
+  PHARMACOLOGICAL
+  1. Antibiotics:
+  - Caps Flucloxacillin 500 mg orally 6-hourly x 7/7 may be considered if antibiotics are clinically indicated, according to local guidelines.
+  - Alternatively, Caps Clindamycin 300 mg orally 8-hourly x 7/7 may be considered in selected cases, guided by allergy history and local susceptibility patterns.
+  - Antibiotics are not routinely necessary for every uncomplicated furuncle; assess for surrounding cellulitis, systemic symptoms, and other indications. Recurrent lesions may warrant culture-guided treatment.
+  
+  2. Analgesics:
+  - Tabs Ibuprofen 400 mg orally 8-hourly x 3/7, if appropriate after assessing contraindications.
+  - Alternatively, Tabs Paracetamol 1 g orally 8-hourly x 3/7, within recommended daily dose limits.
+  
+  3. Topical treatment:
+  - Topical Mupirocin ointment may be considered for a limited superficial bacterial infection where indicated. It should not replace drainage of an established abscess.
+  
+  SURGICAL
+  1. Incision and Drainage (I&D): If the lesion is fluctuant, arrange drainage by a trained clinician under local anaesthesia. Send pus for M/C/S, particularly because the episodes are recurrent.
+  
+  FOLLOW-UP
+  1. Review in 1/52 to assess healing and identify any recurrence or complications.
+  2. Discuss alternatives to manual shaving, including electric clippers and laser hair removal if accessible and affordable.
+  3. If episodes continue, reassess for hidradenitis suppurativa, consider culture-directed management, and evaluate for contributing factors such as diabetes mellitus.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },  
+  {
+    id: 'surg-81',
+    title: 'Carbuncle in a Patient with Type 2 Diabetes Mellitus',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Carbuncle in Type 2 Diabetes Mellitus',
+    symptoms: [
+      'Painful swelling at the back of the neck',
+      'Fever',
+      'Malaise and generalized body weakness',
+      'Chills and rigors',
+      'Purulent, foul-smelling discharge from multiple skin openings',
+      'Polyuria',
+      'Polydipsia'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 48-year-old man with type 2 diabetes mellitus and suspected poor glycaemic control presenting with an acute, painful, discharging swelling on the nape of the neck, fever, and malaise. Examination reveals a large, indurated, tender lesion with multiple draining sinuses, surrounding cellulitis, and posterior cervical lymphadenopathy, consistent with a carbuncle.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 48-year-old male civil servant who resides in Dutse, Jigawa State. He is of the Hausa ethnic group.
+  
+  PRESENTING COMPLAINTS
+  1. Painful swelling at the back of the neck x 5/7
+  2. Fever and malaise x 3/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  He was apparently well until 5 days ago when he noticed a small, painful, itchy red bump on the nape of his neck. The swelling rapidly increased in size over the next 48 hours, becoming exquisitely tender and throbbing in nature. Three days ago, he developed high-grade fever associated with chills, rigors, and generalized body weakness. He also noticed multiple small openings on the surface of the swelling through which yellowish, foul-smelling pus was discharging. There is no history of prior trauma, insect bite, or similar swellings in the past. He is a known diabetic but admits to poor glycaemic control in the last month.
+  
+  PAST MEDICAL HISTORY
+  Known Type 2 Diabetes Mellitus diagnosed 5 years ago. Not known to be hypertensive or a sickle cell carrier. No history of previous surgeries or blood transfusions.
+  
+  DRUG HISTORY
+  Currently on Tab Metformin 500 mg BD and Tab Glibenclamide 5 mg daily. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  He is married in a monogamous setting with four children. He does not smoke cigarettes or drink alcohol. No family history of similar skin conditions.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headache or seizures.
+  RS: No cough or chest pain.
+  CVS: No palpitations or pedal oedema.
+  GIT: Normal appetite, no abdominal pain.
+  GU: History of polyuria and increased thirst in the last 2 weeks.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A middle-aged man in obvious painful distress. He is febrile (temperature 38.4°C) but not pale, not icteric, not dehydrated, and has no significant peripheral lymphadenopathy except as noted locally.
+  
+  VITAL SIGNS
+  PR: 98 bpm, regular, full volume.
+  BP: 130/85 mmHg.
+  RR: 22 cpm.
+  SpO₂: 98% on room air.
+  
+  LOCAL EXAMINATION (POSTERIOR NECK)
+  Inspection: A large, solitary, ill-defined inflammatory mass on the nape of the neck, measuring approximately 6 cm × 5 cm. The overlying skin is dusky red and shiny. There are multiple discharging sinuses present (cribriform appearance) with purulent discharge.
+  Palpation: The mass is firm, indurated, and exquisitely tender. It is warm to touch. There is significant surrounding oedema and erythema extending about 3 cm from the margin of the mass.
+  Regional lymph nodes: Tender, mobile posterior cervical lymphadenopathy noted.
+  
+  SUMMARY
+  A 48-year-old man with known diabetes mellitus presenting with a 5-day history of a painful, discharging neck swelling and systemic symptoms of fever. Examination reveals a carbuncle on the nape with associated regional lymphadenopathy and suspected poor glycaemic control.
+  
+  ASSESSMENT
+  Carbuncle in a patient with Type 2 Diabetes Mellitus.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Infected epidermoid cyst.
+  2. Cutaneous anthrax.
+  3. Multiple furuncles.
+  4. Deep tissue abscess.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Random Blood Sugar (RBS) and Fasting Blood Sugar (FBS), with immediate bedside glucose measurement and serial monitoring as clinically indicated.
+  2. Full Blood Count (FBC) to check for leukocytosis.
+  3. Pus specimen for microscopy, culture, and sensitivity (M/C/S).
+  4. Urinalysis to check for glucose and ketones.
+  5. HbA1c to assess long-term glycaemic control.
+  6. Urea, electrolytes, and creatinine to assess renal function and guide fluid and medication management.
+  7. If systemic infection or metabolic decompensation is suspected, consider blood cultures, serum ketones, and acid-base assessment as clinically indicated.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL MEASURES
+  1. Wound care: Apply warm compresses for symptomatic relief, but do not delay urgent surgical assessment and drainage.
+  2. Provide adequate hydration and nutritional support, guided by clinical status and renal function.
+  3. Glycaemic control: Optimise diabetes management with frequent blood glucose monitoring. Assess for diabetic ketoacidosis or hyperosmolar hyperglycaemic state if indicated. Insulin therapy should be guided by the severity of hyperglycaemia, clinical condition, and local inpatient protocols rather than by a single RBS threshold or ketonuria alone.
+  
+  MEDICATIONS
+  1. Analgesics:
+  - Tab Paracetamol 1 g orally TDS, subject to appropriate total daily dose limits and assessment of contraindications.
+  - Tab Ibuprofen 400 mg orally TDS only if appropriate after assessing renal function, hydration status, and gastrointestinal risks.
+  
+  2. Empirical antibiotics targeting Staphylococcus aureus and streptococci:
+  - Option A: Cap Cloxacillin 500 mg orally 6-hourly x 7–10 days, for selected clinically stable patients with uncomplicated infection and according to local guidelines.
+  - Option B: Tab Augmentin (amoxicillin/clavulanic acid) 625 mg orally at an appropriate locally recommended frequency or 1 g BD x 7–10 days, depending on the formulation and local guidance.
+  - Option C: Tab Clindamycin 300 mg orally 6-hourly x 7–10 days may be considered in selected patients with penicillin allergy, guided by local susceptibility patterns.
+  - Given the fever, extensive lesion, surrounding cellulitis, and diabetes, urgently assess the need for admission and intravenous antibiotics. Do not rely on oral antibiotics alone if systemic infection or severe disease is suspected.
+  
+  SURGICAL INTERVENTION
+  1. Formal incision and drainage (I&D): Urgent surgical assessment is required, as drainage is usually necessary for a carbuncle. Under an appropriate anaesthetic technique, the sinuses may be connected and devitalised tissue excised where indicated to allow adequate drainage.
+  2. Regular wound dressing with normal saline or another suitable wound-cleansing solution. Use povidone-iodine cautiously to avoid tissue irritation.
+  3. Obtain pus or tissue specimens for culture where indicated and adjust antibiotic therapy according to the results.
+  
+  FOLLOW-UP
+  1. Monitor for signs of spreading cellulitis or systemic sepsis.
+  2. Review culture results and adjust antibiotic therapy accordingly.
+  3. Monitor blood glucose and assess response to diabetes treatment.
+  4. Provide patient education on diabetic foot and skin care, early presentation for skin infections, and prevention of recurrent complications.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },  
+  {
+    id: 'surg-80',
+    title: 'Hidradenitis Suppurativa',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Hidradenitis Suppurativa (Hurley Stage II)',
+    symptoms: [
+      'Recurrent painful swellings in both axillae and groin',
+      'Recurrent foul-smelling discharge from skin lesions',
+      'Multiple inflammatory nodules and abscesses',
+      'Draining sinuses and subcutaneous tunnels',
+      'Hypertrophic and bridge scarring',
+      'Pain limiting arm movements and walking',
+      'Joint pains associated with skin flares'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 26-year-old obese woman presenting with recurrent painful inflammatory nodules, abscesses, draining sinuses, and scarring involving both axillae and the inguinal and perineal regions. The chronic relapsing course, malodorous discharge, interconnected sinus tracts, and characteristic scarring are consistent with Hurley Stage II hidradenitis suppurativa.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 26-year-old female tailor who resides in Surulere, Lagos State. She is of Yoruba ethnicity.
+  
+  PRESENTING COMPLAINTS
+  1. Painful swellings in both armpits and the groin x 2/52
+  2. Recurrent discharge of foul-smelling fluid from the swellings x 3/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until about 3 months ago when she noticed multiple, painful, pea-sized lumps in both axillae and the inguinal regions. These lumps were initially firm but progressively became fluctuant and ruptured spontaneously, discharging purulent and foul-smelling fluid. Following rupture, the pain would temporarily subside, but new lumps would emerge shortly afterwards in the same or adjacent areas.
+  Two weeks prior to presentation, there was a significant flare-up with an increase in the number of swellings and the intensity of the pain, which she describes as throbbing and severe enough to limit her arm movements and walking. She also noticed the formation of thick, rope-like scars and narrow tracks under the skin that continue to leak fluid.
+  She has used various over-the-counter herbal concoctions and topical ointments with no significant relief. There is no history of similar lesions on the scalp or back. No history of fever, weight loss, or excessive night sweats.
+  
+  PAST MEDICAL HISTORY
+  Not a known diabetic or hypertensive.
+  No history of asthma or sickle cell disease.
+  Similar, less severe episodes occurred in her late teens but were managed as recurrent boils.
+  
+  DRUG HISTORY
+  Regular use of over-the-counter NSAIDs (ibuprofen) for pain.
+  No known drug allergies.
+  
+  FAMILY HISTORY
+  History of similar skin conditions in her elder sister.
+  No family history of chronic debilitating illnesses.
+  
+  SOCIAL HISTORY
+  Does not smoke cigarettes or consume alcohol.
+  Resides in a well-ventilated apartment.
+  Her occupation as a tailor involves long hours of sitting, which she notes aggravates the groin lesions.
+  
+  REVIEW OF SYSTEMS
+  RS: No cough, chest pain, or dyspnoea.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal pain or change in bowel habits.
+  CNS: No headaches or seizures.
+  MSS: Joint pains associated with the skin flares, but no joint swelling.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young woman in painful distress.
+  Afebrile (36.7°C).
+  Not pale, anicteric, not dehydrated, with no significant peripheral lymphadenopathy.
+  Pedal oedema absent.
+  Weight: 88 kg.
+  Height: 1.62 m.
+  BMI: 33.5 kg/m² (Class I obesity).
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  Trachea central. Breath sounds are vesicular. No adventitious sounds.
+  RR: 18 cpm.
+  
+  CARDIOVASCULAR SYSTEM
+  Pulse: 84 bpm, regular, normal volume.
+  BP: 120/80 mmHg.
+  S1 and S2 only.
+  
+  ABDOMEN
+  Soft, non-tender. No organomegaly. Bowel sounds present and normal.
+  
+  DERMATOLOGICAL/LOCAL EXAMINATION
+  Axillary regions: Bilateral multiple inflammatory nodules, abscesses, and several draining sinuses. There is evidence of interconnected tracts (tunnelling) and significant hypertrophic scarring (bridge scars).
+  Inguinal/perineal regions: Similar lesions involving the labia majora and inguinal folds. The discharge is serosanguinous and malodorous.
+  Skin elsewhere: No comedones or cysts on the face or back.
+  
+  ASSESSMENT
+  Hidradenitis Suppurativa (Hurley Stage II).
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Furunculosis (recurrent boils).
+  2. Lymphogranuloma venereum (LGV).
+  3. Scrofuloderma (cutaneous tuberculosis).
+  4. Actinomycosis.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC): To check for leukocytosis.
+  2. Fasting Blood Sugar (FBS) or HbA1c: To assess for diabetes mellitus as a possible predisposing factor.
+  3. Wound swab for microscopy, culture, and sensitivity (M/C/S): If secondary bacterial infection is suspected or the discharge is purulent.
+  4. HIV screening: With informed consent, according to local testing protocols.
+  5. Biopsy of atypical, persistent, or suspicious chronic lesions to exclude alternative diagnoses and, where indicated, squamous cell carcinoma.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL MEASURES
+  1. Patient education on the chronic, relapsing nature of the disease and the need for long-term follow-up.
+  2. Weight-management counselling, as BMI is 33.5 kg/m².
+  3. Advice on wearing loose-fitting clothing and reducing friction in affected areas.
+  4. Warm compresses for symptomatic relief of acute nodules.
+  5. Consider antiseptic washes, such as chlorhexidine or benzoyl peroxide 5% wash, if tolerated.
+  
+  PHARMACOLOGICAL MANAGEMENT
+  
+  1. Pain management:
+  - Tab Ibuprofen 400 mg orally TDS x 5/7, if appropriate after assessing gastrointestinal, renal, and other contraindications. Avoid prolonged unsupervised NSAID use.
+  
+  2. Acute flare or suspected secondary bacterial infection:
+  - Antibiotics should be guided by clinical evidence of secondary infection and, where appropriate, culture results. Flucloxacillin 500 mg orally QDS x 1/52 or amoxicillin/clavulanate 625 mg orally at an appropriate locally recommended frequency may be considered according to clinical assessment and local guidelines. Antibiotics are not routinely required for every inflammatory flare of hidradenitis suppurativa.
+  
+  3. First-line systemic antibiotic therapy for Hurley Stage II disease:
+  - Cap Doxycycline 100 mg orally BD, or an appropriate tetracycline regimen, for an initial course of approximately 3 months, with review of response and tolerability. Consider pregnancy status, contraindications, and local guidelines before prescribing tetracyclines.
+  
+  4. If non-responsive to tetracyclines (specialist-level management):
+  - Tab Clindamycin 300 mg orally BD plus Tab Rifampicin 300 mg orally BD for approximately 10 weeks may be considered under specialist supervision, after reviewing interactions, contraindications, and relevant monitoring requirements.
+  
+  5. Odour control:
+  - Optimise wound cleansing and dressings. Topical metronidazole may be considered for malodour where appropriate. Oral metronidazole should not be used routinely for hidradenitis suppurativa without a specific indication.
+  
+  SURGICAL/PROCEDURAL PLAN
+  1. Incision and drainage (I&D) may be performed for an acute, very painful abscess when indicated, with counselling that recurrence is common and the procedure does not treat the underlying disease.
+  2. Plan for unroofing or deroofing of persistent sinus tracts under local anaesthesia or an appropriate anaesthetic technique, depending on extent, once clinically suitable.
+  3. Refer to Dermatology for assessment of disease severity and optimisation of treatment, including consideration of intralesional triamcinolone for selected early inflammatory nodules or biologic therapy (e.g., adalimumab) for refractory disease after appropriate screening and specialist evaluation.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },  
+  {
+    id: 'surg-79',
+    title: 'Recurrent Furunculosis',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Recurrent Furunculosis',
+    symptoms: [
+      'Recurrent painful skin swellings',
+      'Left axillary swelling',
+      'Right medial thigh swelling',
+      'Fever',
+      'Malaise',
+      'Purulent skin discharge',
+      'Scarring from previous skin lesions',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '24-year-old Yoruba male student presenting with recurrent painful skin swellings over 6 months and fever and malaise for 3 days, with a fluctuant left axillary lesion, a tender right thigh nodule, and scars from previous episodes, consistent with recurrent furunculosis.',
+    content: `GENERAL SURGERY CLINIC
+  
+  Patient Identification
+  A 24-year-old male student who resides in Ogbomosho, Oyo State. He is of the Yoruba ethnic group.
+  
+  Presenting Complaints
+  1. Recurrent painful skin swellings × 6 months
+  2. Fever and malaise × 3 days
+  
+  History of Presenting Complaint
+  The patient was apparently well until 6 months ago when he started noticing recurrent painful skin swellings (boils) on various parts of his body, including the neck, axilla, and thighs. These swellings typically start as small, red, itchy bumps that rapidly increase in size, become very painful, and eventually discharge pus before healing with scarring. He reports having had about four distinct episodes in the last 6 months, with new lesions appearing just as old ones are healing.
+  
+  The current episode started 3 days ago with a painful swelling in the left axilla and another on the right medial thigh. Both swellings are associated with localized warmth and significant pain, which limits his movement. He also reports a low-grade fever and general body malaise since the onset of these current swellings.
+  
+  He has been using various over-the-counter antibiotics, including Ampiclox capsules, and some unidentified herbal creams, with only temporary relief. He denies any history of excessive thirst, excessive urination, or unexplained weight loss. There is no history of chronic cough or contact with anyone with similar skin lesions.
+  
+  Past Medical History
+  Not a known diabetic or hypertensive. No history of asthma or known drug allergies. No history of prolonged hospitalizations or blood transfusions. No history of retroviral disease or chronic steroid use.
+  
+  Drug History
+  Frequent use of unprescribed Ampiclox capsules.
+  Occasional use of paracetamol and ibuprofen for pain.
+  
+  Family and Social History
+  He lives in a crowded university hostel. Admits to sharing towels and personal hygiene items such as sponges with roommates. No family history of similar recurrent skin infections or diabetes mellitus. Non-smoker and does not consume alcohol.
+  
+  Review of Systems
+  CNS: No headache or seizures.
+  RS: No cough or chest pain.
+  CVS: No palpitations or pedal oedema.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: Severe pain in the left axilla and right thigh associated with the current lesions.
+  
+  Physical Examination
+  
+  General Examination
+  A young man, not acutely distressed, febrile (temperature 37.9°C), not pale, not icteric, and not dehydrated. No significant peripheral lymphadenopathy.
+  
+  Vital Signs
+  Pulse rate: 92 bpm, regular, full volume.
+  Blood pressure: 110/70 mmHg.
+  Respiratory rate: 20 cpm.
+  SpO₂: 98% on room air.
+  
+  Local Examination (Skin)
+  Left Axilla: A 3 cm × 3 cm erythematous, exquisitely tender, fluctuant mass with a central necrotic point. Localized warmth is present.
+  
+  Right Medial Thigh: A 2 cm × 2 cm firm, red, tender nodule. No fluctuation noted yet.
+  
+  Multiple hyperpigmented scars are observed on the neck and back from previous episodes.
+  
+  Systemic Examination
+  Abdomen: Soft, non-tender, with no organomegaly.
+  Respiratory: Lungs clear, vesicular breath sounds.
+  Cardiovascular: Heart sounds S1 and S2 heard, with no murmurs.
+  
+  Assessment
+  Recurrent furunculosis, likely due to staphylococcal infection.
+  Rule out underlying immunosuppression, particularly diabetes mellitus.
+  
+  Differential Diagnoses
+  1. Infected epidermoid cysts.
+  2. Hidradenitis suppurativa.
+  3. Carbuncle.
+  
+  Initial Investigation Plan
+  1. Fasting blood glucose (FBG): To screen for diabetes mellitus.
+  2. Swab for microscopy, culture, and sensitivity (MCS) from discharging pus.
+  3. Full blood count (FBC): To assess for leucocytosis.
+  4. Retroviral screening (RVS) after appropriate counselling and consent.
+  
+  Initial Management Plan
+  1. Incision and drainage (I&D) of the fluctuant left axillary lesion under aseptic conditions.
+  2. Wound dressing with normal saline and sterile gauze.
+  3. Analgesia:
+     - Tablet ibuprofen 400 mg three times daily for 3 days.
+     - Tablet paracetamol 1 g three times daily for 3 days.
+  4. Empirical antibiotics:
+     - Capsule flucloxacillin 500 mg four times daily for 7 days, subject to clinical assessment and local antimicrobial guidance.
+     - If penicillin-allergic, consider capsule clindamycin 300 mg three times daily for 7 days or capsule erythromycin 500 mg four times daily for 7 days, guided by allergy history, local resistance patterns, and culture results.
+  5. Decolonization measures to help prevent recurrence:
+     - Consider mupirocin 2% ointment applied to the anterior nares twice daily for 5 days, particularly if staphylococcal colonization or recurrent infection is established.
+     - Consider daily bathing with an antiseptic wash, such as a chlorhexidine-based preparation, where appropriate.
+  6. Patient Education and Hygiene:
+     - Advise him to stop sharing towels, bedsheets, clothing, or personal hygiene items.
+     - Ensure regular laundering of beddings, towels, and clothing.
+     - Practise strict hand hygiene to reduce the risk of autoinoculation and transmission.
+  7. Review in 3 days with FBG and MCS results to assess treatment response and adjust management as necessary.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-78',
+    title: 'Acute Suppurative Axillary Lymphadenitis',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Suppurative Axillary Lymphadenitis',
+    symptoms: [
+      'Right axillary swelling',
+      'Right axillary pain',
+      'Fever',
+      'Chills',
+      'Rigors',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '26-year-old female tailor presenting with a 4-day history of a progressively enlarging, painful right axillary swelling and a 3-day history of fever, chills, and rigors following a right forearm skin infection, consistent with acute suppurative axillary lymphadenitis.',
+    content: `GENERAL SURGERY CLINIC
+  
+  Patient Identification
+  A 26-year-old female tailor who resides in Ogbomosho, Oyo State.
+  
+  Presenting Complaints
+  1. Painful right axillary swelling × 4 days
+  2. Fever × 3 days
+  
+  History of Presenting Complaint
+  She was apparently well until 4 days ago when she noticed a small, painful swelling in her right axilla. The swelling has progressively increased in size, and the pain is now throbbing in nature, worsened by arm movements, and interfering with sleep. There is no history of similar swellings in other parts of the body, such as the neck or groin.
+  
+  Three days prior to presentation, she developed a high-grade fever associated with chills and rigors, but no night sweats or significant weight loss. She recalls having a small infected boil on her right forearm about a week ago, which she self-medicated and squeezed. There is no history of cough, chest pain, or breast lumps. No history of contact with cats or recent travel.
+  
+  Past Medical History
+  No history of chronic medical conditions such as diabetes mellitus or hypertension. Not a known patient with sickle cell disease. No known history of tuberculosis or contact with anyone with a chronic cough.
+  
+  Drug History
+  Has taken paracetamol and some over-the-counter amoxicillin capsules with no significant relief. No known drug allergies.
+  
+  Family and Social History
+  Single, lives in a room-and-parlour apartment with good ventilation. Non-smoker and does not consume alcohol. Her occupation involves repetitive arm movements, which have been limited by the current pain.
+  
+  Review of Systems
+  CNS: No headache or seizures.
+  CVS: No palpitations or orthopnoea.
+  RS: No cough or dyspnoea.
+  GIT: No abdominal pain or change in bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  A young woman in painful distress. Febrile (temperature 38.4°C), not pale, anicteric, with no pedal oedema or generalized lymphadenopathy.
+  
+  Vital Signs
+  PR: 102 bpm.
+  RR: 20 cpm.
+  BP: 110/70 mmHg.
+  SpO₂: 98% on room air.
+  
+  Local Examination (Right Axilla)
+  Inspection: A solitary swelling in the right axilla, approximately 4 cm × 3 cm. The overlying skin is erythematous and tense. No discharging sinus or visible punctum.
+  
+  Palpation: Exquisitely tender, firm with central fluctuation, and warm to touch. It is not fixed to the underlying structures.
+  
+  Regional Examination: A healing, crusted lesion is noted on the medial aspect of the right forearm. No lymphangitic streaks are seen.
+  
+  Breast Examination: Both breasts are symmetrical, with no palpable masses, nipple discharge, or peau d'orange.
+  
+  Systemic Examination
+  Respiratory: Trachea central, breath sounds vesicular, with no added sounds.
+  Abdomen: Flat and soft, with no hepatosplenomegaly.
+  
+  Assessment
+  Acute suppurative right axillary lymphadenitis, likely secondary to a right forearm skin infection.
+  
+  Differential Diagnoses
+  1. Axillary abscess.
+  2. Cat-scratch disease.
+  3. Tuberculous lymphadenitis.
+  4. Hidradenitis suppurativa.
+  
+  Initial Investigation Plan
+  1. Full blood count (FBC) with differential: To check for neutrophilic leucocytosis.
+  2. Erythrocyte sedimentation rate (ESR): To assess for an inflammatory process.
+  3. Ultrasound scan of the right axilla: To assess the lymph nodes and confirm liquefaction or abscess formation.
+  4. HIV screening: To assess for possible immunosuppression, with appropriate counselling and consent.
+  5. Pus microscopy, culture, and sensitivity (MCS): If drainage is performed.
+  
+  Initial Management Plan
+  
+  1. Analgesia
+  - Tablet ibuprofen 400 mg three times daily for 3 days.
+  - Tablet paracetamol 1 g three times daily for 3 days.
+  
+  2. Antibiotics
+  - Capsule flucloxacillin 500 mg four times daily for 7 days, OR
+  - Tablet amoxicillin/clavulanic acid 625 mg twice daily for 7 days, OR
+  - Capsule clindamycin 300 mg four times daily for 7 days if penicillin-allergic, subject to assessment of likely pathogens and local antimicrobial guidance.
+  
+  3. Surgical Management
+  - If fluctuation is confirmed on examination or ultrasound, perform incision and drainage (I&D) under local anaesthesia where appropriate.
+  - Send pus for microscopy, culture, and sensitivity (MCS).
+  - Daily wound dressing with normal saline, following the local wound-care protocol.
+  
+  4. General Measures and Follow-up
+  - Apply warm compresses to the affected area.
+  - Support the affected upper limb and avoid movements that worsen the pain.
+  - Review within 48–72 hours to assess response to treatment, resolution of fever, and need for further intervention.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-77',
+    title: 'Infected Epidermoid Cyst of the Upper Back',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Infected Epidermoid Cyst',
+    symptoms: [
+      'Upper back swelling',
+      'Pain at the swelling site',
+      'Redness of the overlying skin',
+      'Local warmth',
+      'Foul-smelling discharge',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '24-year-old Yoruba female student presenting with a 2-week history of an upper back swelling that became painful, enlarged, and erythematous 3 days before presentation, with foul-smelling sebaceous discharge, consistent with an infected epidermoid cyst.',
+    content: `GENERAL SURGERY CLINIC
+  
+  Patient Identification
+  A 24-year-old female student who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group.
+  
+  Presenting Complaints
+  1. Swelling on the upper back × 2 weeks
+  2. Pain and redness at the site × 3 days
+  
+  History of Presenting Complaint
+  The patient was apparently well until 2 weeks ago when she noticed a small, painless lump on her upper back, just below the neck. It was initially about the size of a pea, firm, and moved slightly under the skin.
+  
+  However, 3 days prior to presentation, the lump became progressively painful and increased in size. She noticed that the surrounding skin became red and warm to the touch. She attempted to squeeze the lesion yesterday, which resulted in the drainage of a small amount of thick, yellowish, foul-smelling, cheesy material. There is no associated fever, chills, or malaise. No history of similar swellings in the past or in other parts of the body. No history of trauma to the site.
+  
+  Past Medical History
+  No history of chronic medical conditions such as diabetes mellitus or HIV. No previous surgeries.
+  
+  Drug History
+  She has been taking paracetamol 1 g as needed for the pain. No known drug allergies.
+  
+  Family and Social History
+  She is a final-year university student living in a school hostel. She is the second of four children. No family history of recurrent skin infections or similar swellings. She does not smoke or consume alcohol.
+  
+  Review of Systems
+  CNS: No headache or loss of consciousness.
+  RS: No cough or chest pain.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: No joint pains or bone pain.
+  
+  Physical Examination
+  
+  General Examination
+  A young lady, comfortable, and not in any obvious respiratory or painful distress. Afebrile (36.8°C), not pale, anicteric, and not dehydrated. No significant peripheral lymphadenopathy.
+  
+  Vital Signs
+  Pulse rate: 78 bpm, regular, normal volume.
+  Blood pressure: 110/70 mmHg.
+  Respiratory rate: 16 cpm.
+  SpO₂: 98% on room air.
+  
+  Local Examination (Upper Back)
+  A solitary, dome-shaped swelling measuring approximately 3 cm × 3 cm, located in the interscapular region. The overlying skin is erythematous and shiny.
+  
+  On palpation, the mass is exquisitely tender, warm, and fluctuant. A central punctum is visible at the apex of the swelling. Thick, foul-smelling sebaceous material can be expressed from the punctum. The swelling is not attached to the underlying bone but is fixed to the skin at the punctum. No regional (axillary) lymphadenopathy noted.
+  
+  Assessment
+  Infected epidermoid cyst of the upper back.
+  
+  Differential Diagnoses
+  1. Cutaneous abscess.
+  2. Infected epidermoid cyst.
+  3. Carbuncle.
+  4. Suppurative lymphadenitis.
+  
+  Initial Investigation Plan
+  1. Clinical diagnosis is usually sufficient.
+  2. Full blood count (FBC): To check for leucocytosis if systemic symptoms develop.
+  3. Wound swab for microscopy, culture, and sensitivity (M/C/S): Indicated if the infection is recurrent or fails to respond to initial antibiotics.
+  4. Fasting blood glucose: To rule out underlying diabetes mellitus if infections become recurrent.
+  
+  Initial Management Plan
+  
+  Emergency/Immediate Care
+  1. Incision and drainage (I&D): Since the cyst is fluctuant and infected, formal I&D or incision and expression is required. The cyst wall (capsule) should ideally be removed to prevent recurrence, but this is often difficult during the acute inflammatory phase. Delayed formal excision of the cyst wall may be planned 4–6 weeks after the infection resolves.
+  
+  Pharmacological Management
+  1. Antibiotics:
+     - Capsule flucloxacillin 500 mg 6-hourly for 7 days, OR
+     - Tablet amoxicillin/clavulanic acid 625 mg 12-hourly for 7 days.
+  2. Analgesics:
+     - Tablet ibuprofen 400 mg 8-hourly for 3 days, to be taken after meals.
+     - Tablet paracetamol 1 g 8-hourly for 3 days.
+  
+  General/Follow-up Care
+  1. Daily dressing of the wound with normal saline and povidone-iodine, according to wound-care protocol.
+  2. Advise on personal hygiene.
+  3. Instruct the patient not to squeeze or manipulate the lesion.
+  4. Review in 1 week to monitor healing and discuss elective excision of the cyst sac to prevent recurrence.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-76',
+    title: 'Bicipital Tendinopathy of the Right Shoulder',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedic Clinic',
+    condition: 'Bicipital Tendinopathy of the Right Shoulder',
+    symptoms: [
+      'Right anterior shoulder pain',
+      'Difficulty lifting heavy objects',
+      'Pain during overhead activities',
+      'Tenderness over the bicipital groove'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 34-year-old male construction worker presenting with a 2-week history of progressive anterior right shoulder pain aggravated by heavy lifting and overhead activities. Examination reveals bicipital groove tenderness, full but mildly painful terminal shoulder movements, and positive Speed’s and Yergason’s tests. The working diagnosis is right long head of biceps tendinopathy.',
+    content: `
+  Patient Identification
+  A 34-year-old male construction worker who resides in Mushin, Lagos State. He is of the Yoruba ethnic group and is a Christian.
+  
+  Presenting Complaints
+  1. Right shoulder pain x 2/52
+  2. Difficulty lifting heavy objects x 2/52
+  
+  History of Presenting Complaint
+  The patient was apparently well until 2 weeks ago when he developed pain in the anterior aspect of the right shoulder. The onset was gradual, but the pain has been progressively worsening. He describes it as a dull ache that becomes sharp during activity, particularly when lifting heavy loads or performing overhead reaching at work.
+  The pain is localized to the front of the shoulder but occasionally radiates down the anterior aspect of the arm towards the elbow. It is aggravated by lifting, pulling, and reaching behind his back. It is relieved by resting the arm and applying local heat. There is no history of direct trauma, falls, or a sudden "pop" sensation. No history of shoulder instability, neck pain, or numbness in the hand. No systemic symptoms such as fever, weight loss, or night sweats.
+  
+  Past Medical History
+  No history of similar shoulder pain in the past. Not a known hypertensive or diabetic. No history of chronic joint pains or previous surgeries.
+  
+  Drug History
+  He has been taking over-the-counter paracetamol 1 g TDS and a rub-over liniment for the past week with minimal relief. No known drug allergies.
+  
+  Family and Social History
+  He is a manual labourer involved in heavy lifting. He is married with three children. Non-smoker and occasional consumer of alcohol.
+  
+  Review of Systems
+  CVS: No chest pain or palpitations.
+  RS: No cough or difficulty breathing.
+  GIT: No abdominal pain; normal bowel habits.
+  CNS: No headaches or limb weakness.
+  MSS: No swelling or redness in other joints.
+  
+  Physical Examination
+  
+  General Examination
+  An adult male, not acutely distressed, afebrile, not pale, anicteric, with no significant peripheral lymphadenopathy or pedal oedema.
+  
+  Vital Signs
+  BP: 124/78 mmHg.
+  PR: 76 bpm, regular, normal volume.
+  RR: 18 cpm.
+  Temperature: 36.6°C.
+  SpO2: 98% on room air.
+  
+  Local Examination (Right Shoulder)
+  Inspection: No obvious deformity, deltoid or biceps muscle wasting, or swelling. No skin discoloration or scars. Normal shoulder contour preserved.
+  Palpation: Point tenderness over the bicipital groove in the anterior shoulder. No warmth or fluctuant swelling. No tenderness over the acromioclavicular joint or cervical spine.
+  Range of Motion: Active and passive range of motion of the shoulder, including abduction and internal and external rotation, is full, but terminal movements are mildly painful.
+  Special Tests:
+  Speed’s Test: Positive, with pain in the bicipital groove during resisted shoulder flexion with the elbow extended and forearm supinated.
+  Yergason’s Test: Positive, with pain in the bicipital groove during resisted forearm supination with the elbow flexed at 90 degrees.
+  Neer and Hawkins tests: Negative.
+  
+  Assessment
+  Bicipital Tendinopathy (Right Shoulder).
+  
+  Differential Diagnoses
+  1. Rotator Cuff Tendinopathy (Supraspinatus Tendinopathy)
+  2. Subacromial Bursitis
+  3. Labral Tear (SLAP Lesion)
+  4. Acromioclavicular Joint Osteoarthritis
+  
+  Initial Investigation Plan
+  1. Plain X-ray of the Right Shoulder (AP and Lateral Views): To assess for bony abnormalities, calcific tendinopathy, or glenohumeral arthritis. Findings are usually normal in isolated bicipital tendinopathy.
+  2. Musculoskeletal Ultrasound of the Right Shoulder: To visualize the long head of the biceps tendon and assess for thickening, fluid in the tendon sheath, or partial tears.
+  3. FBC and ESR: Only if an inflammatory or infective cause is suspected, although this is unlikely based on the current presentation.
+  
+  Initial Management Plan
+  
+  1. Conservative Management
+  Activity Modification: Avoid heavy lifting and overhead activities for 2–3 weeks.
+  Cryotherapy: Apply ice packs to the anterior shoulder for 15–20 minutes, 3–4 times daily, with a cloth barrier to protect the skin.
+  Physical Therapy: Gentle stretching followed by progressive strengthening exercises for the biceps and rotator cuff muscles as pain permits.
+  
+  2. Pharmacotherapy
+  Oral NSAID: Tab. Naproxen 500 mg orally BD or Tab. Ibuprofen 400 mg orally TDS for 7–10 days, taken after meals, provided there are no contraindications. Do not use both NSAIDs together.
+  Topical NSAID: Diclofenac gel applied to the tender area TDS according to the product instructions. Avoid applying to broken skin.
+  Gastric Protection: Tab. Omeprazole 20 mg orally daily if indicated, particularly if gastrointestinal risk factors are present or prolonged NSAID use is required.
+  Review the patient's current paracetamol use to ensure the total daily dose remains within the recommended limit.
+  
+  3. Follow-up
+  Review in 2 weeks to assess response to conservative management.
+  If pain persists despite appropriate conservative management, consider an ultrasound-guided corticosteroid injection into the biceps tendon sheath, not into the tendon itself.
+  Refer to Orthopaedics if there is no improvement after 6–12 weeks of conservative care or earlier if symptoms worsen or significant weakness develops.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-75',
+    title: 'Calcific Tendinopathy of the Right Shoulder',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedic Clinic',
+    condition: 'Calcific Tendinopathy of the Right Shoulder',
+    symptoms: [
+      'Right shoulder pain',
+      'Restriction of shoulder movement',
+      'Pain aggravated by overhead activities',
+      'Night pain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 45-year-old female teacher presenting with a 2-week history of right shoulder pain and a 1-week history of restricted movement. Examination reveals subacromial and greater tuberosity tenderness, a painful arc, restricted shoulder movement, and positive Neer’s and Hawkins-Kennedy tests. The working diagnosis is calcific tendinopathy of the right shoulder.',
+    content: `
+  Patient Identification
+  A 45-year-old female teacher who resides in Gbagada, Lagos State. Tribe: Yoruba.
+  
+  Presenting Complaints
+  1. Right shoulder pain x 2/52
+  2. Restriction of shoulder movement x 1/52
+  
+  History of Presenting Complaint
+  She was apparently well until 2 weeks ago when she developed pain in the right shoulder. The pain was gradual in onset, initially dull and aching, but progressed to a sharp, severe, stabbing sensation over the last 3 days. The pain is localized to the lateral aspect of the right shoulder, radiating down to the mid-deltoid region. There is no history of direct trauma, falls, or sudden jerky movements of the arm.
+  The pain is significantly aggravated by lifting the arm overhead, combing her hair, and reaching behind her back to fasten her dress. It is also worsened by lying on the affected side at night, which often disturbs her sleep. It is partially relieved by resting the arm in an adducted position and occasional use of over-the-counter paracetamol. She denies any associated neck pain, fever, weight loss, or numbness or weakness in the right hand.
+  
+  Past Medical History
+  No previous history of similar shoulder pain or chronic joint symptoms. She is not a known diabetic or hypertensive. No history of thyroid disorders or renal disease.
+  
+  Drug History
+  Used paracetamol 1 g occasionally for the pain with minimal relief. No known drug allergies. Not on any long-term medications.
+  
+  Family and Social History
+  She is married in a monogamous setting with three children. She works as a secondary school teacher. Non-smoker and does not consume alcohol.
+  
+  Review of Systems
+  CNS: No headache, focal weakness, or sensory loss.
+  CVS: No palpitations or chest pain.
+  RS: No cough or shortness of breath.
+  GIT: No abdominal pain or dyspepsia.
+  MSS: No other joint involvement.
+  
+  Physical Examination
+  
+  General Examination
+  An adult female in painful distress but otherwise stable. Afebrile, not pale, not jaundiced, with no peripheral lymphadenopathy or pedal oedema.
+  
+  Vital Signs
+  Pulse Rate: 82 bpm, regular, full volume.
+  Blood Pressure: 130/80 mmHg.
+  Respiratory Rate: 18 cpm.
+  SpO2: 97% on room air.
+  
+  Systemic Examination
+  
+  Musculoskeletal (Right Shoulder)
+  Inspection: No obvious swelling, muscle wasting, or skin discoloration. No deformity noted. Normal cervical spine posture.
+  Palpation: Significant point tenderness over the subacromial space and greater tuberosity of the humerus. No local warmth or fluctuant swelling. No tenderness over the acromioclavicular joint or bicipital groove.
+  Range of Motion (Active): Markedly reduced. Abduction limited to 60 degrees due to pain. Painful arc noted between 70 and 110 degrees. Internal rotation is limited to the level of the buttock.
+  Range of Motion (Passive): Abduction and external rotation are restricted at the end range by severe pain.
+  Special Tests: Positive Neer’s impingement sign and Hawkins-Kennedy test. Empty can test was negative for significant weakness, although limited by pain.
+  
+  Assessment
+  Calcific Tendinopathy of the Right Shoulder.
+  
+  Differential Diagnoses
+  1. Subacromial Bursitis
+  2. Rotator Cuff Tendinopathy/Tear
+  3. Adhesive Capsulitis (Freezing Stage)
+  
+  Initial Investigation Plan
+  1. X-ray of the Right Shoulder (AP, Axillary, and Outlet Views): To look for radiopaque calcium deposits within the rotator cuff tendons, usually the supraspinatus.
+  2. Ultrasound of the Right Shoulder: To localize the calcification, assess its phase (formative or resorptive), and evaluate the integrity of the rotator cuff tendons.
+  3. Fasting Blood Sugar: To screen for underlying diabetes mellitus.
+  
+  Initial Management Plan
+  
+  1. Conservative Measures
+  Patient education on the nature of the condition, emphasizing that the resorptive phase can be particularly painful and may occur as the deposit is being broken down.
+  Activity modification: Avoid overhead activities and heavy lifting for 2/52.
+  
+  2. Pharmacotherapy
+  Tab. Naproxen 500 mg orally BD x 2/52, to be taken after meals, provided there are no contraindications.
+  Tab. Omeprazole 20 mg orally daily x 2/52 for gastric protection, if indicated.
+  Tab. Paracetamol 1 g orally TDS x 5/7 for breakthrough pain, ensuring the total daily dose remains within the recommended limit.
+  
+  3. Physical Therapy
+  Referral to Physiotherapy for gentle range-of-motion exercises, such as pendulum (Codman’s) exercises, as pain permits.
+  Application of cold packs to the shoulder for 15 minutes, 3–4 times daily, with a cloth barrier to protect the skin.
+  
+  4. Follow-up
+  Review in 2 weeks with investigation results to assess response to analgesia.
+  If symptoms persist, consider a subacromial corticosteroid injection or referral for extracorporeal shock wave therapy (ESWT), depending on the investigation findings and clinical response.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-74',
+    title: 'Adhesive Capsulitis of the Right Shoulder',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedic Clinic',
+    condition: 'Adhesive Capsulitis of the Right Shoulder',
+    symptoms: ['Right shoulder pain', 'Progressive shoulder stiffness', 'Restricted active and passive shoulder movements', 'Night shoulder pain', 'Difficulty with activities of daily living'],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 54-year-old hypertensive woman presents with a 4-month history of progressive right shoulder pain and 3 months of worsening stiffness, now interfering with daily activities such as combing her hair and reaching behind her back. Examination reveals diffuse glenohumeral tenderness and global restriction of both active and passive shoulder movements, particularly external rotation, with preserved muscle power and distal neurovascular function. The findings are consistent with adhesive capsulitis of the right shoulder.',
+    content: `
+  ORTHOPAEDIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 54-year-old female teacher who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is a known hypertensive on regular medications.
+  
+  PRESENTING COMPLAINTS
+  1. Right shoulder pain x 4/12
+  2. Progressive stiffness of the right shoulder x 3/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 4 months prior to presentation, when she developed insidious-onset dull, aching pain in the right shoulder. The pain was initially mild and intermittent but has progressively worsened, becoming constant and severe, especially at night. The pain is exacerbated by sudden movements and lying on the affected side.
+  About 3 months prior to presentation, she noticed progressive stiffness in the same shoulder. She currently experiences significant difficulty with activities of daily living, specifically combing her hair, reaching behind her back to fasten her brassiere, and reaching for objects on high shelves. There is no history of preceding trauma, falls, or sudden heavy lifting. There is no history of neck pain, numbness, or weakness in the right upper limb. There is no history of weight loss, night sweats, or cough.
+  
+  PAST MEDICAL HISTORY
+  Known hypertensive, diagnosed 8 years ago, currently managed with tab. amlodipine 10 mg daily and tab. lisinopril 5 mg daily. Blood pressure is usually well controlled.
+  No history of diabetes mellitus.
+  No history of previous shoulder surgeries or similar illness.
+  
+  DRUG HISTORY
+  Currently on antihypertensive medications as stated.
+  She has been taking over-the-counter ibuprofen and various herbal liniments with minimal relief.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  Married in a monogamous setting with four children. She is a primary school teacher. No history of similar illness in the family. Non-smoker and does not consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headaches or seizures.
+  CVS: No palpitations or orthopnoea.
+  RS: No cough or chest pain.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: No other joint pains or swelling.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A middle-aged woman, comfortable at rest, not in obvious respiratory or painful distress. Not pale, anicteric, acyanotic, and not dehydrated. No significant peripheral lymphadenopathy. No pedal oedema.
+  
+  VITAL SIGNS
+  Pulse rate: 78 beats per minute, regular, normal volume.
+  Blood pressure: 130/80 mmHg.
+  Respiratory rate: 16 cycles per minute.
+  Temperature: 36.6°C.
+  
+  LOCAL EXAMINATION (RIGHT SHOULDER)
+  
+  Inspection:
+  The right shoulder appears normal in contour. No obvious muscle wasting, swelling, or skin changes. No scars or sinuses. The patient holds the arm in a guarded position close to the trunk.
+  
+  Palpation:
+  Mild diffuse tenderness over the glenohumeral joint line. No warmth or fluctuant swelling. Bony landmarks, including the acromion and coracoid process, are in normal anatomical relationship.
+  
+  RANGE OF MOTION
+  Significant global restriction of both active and passive movements at the glenohumeral joint.
+  External rotation: Restricted to 10 degrees, compared with 60 degrees on the left.
+  Abduction: Restricted to 80 degrees, with early scapular substitution.
+  Internal rotation: Restricted; the patient can only reach the buttock.
+  Power: 5/5 across all muscle groups in the right upper limb, although testing is limited by pain.
+  
+  NEUROVASCULAR EXAMINATION
+  Distal pulses (brachial and radial) are palpable and of good volume.
+  Sensation is intact in the C5–T1 dermatomes.
+  
+  ASSESSMENT
+  Adhesive capsulitis of the right shoulder, with marked restriction of movement, consistent with the freezing or frozen phase.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Rotator cuff tendinopathy or tear
+  2. Glenohumeral osteoarthritis
+  3. Calcific tendinopathy
+  4. Referred pain from cervical spondylosis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Plain X-ray of the right shoulder (AP and axillary views): To assess for osteoarthritis, fracture, or other bony pathology. Radiographs are often normal in adhesive capsulitis.
+  2. Fasting blood sugar (FBS) or HbA1c: To screen for undiagnosed diabetes mellitus, a recognised predisposing factor.
+  3. Full Blood Count (FBC) and ESR: If the clinical picture suggests an inflammatory or infective process.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Patient Education:
+  - Explain the natural history of adhesive capsulitis, including its potentially prolonged course and gradual improvement in many patients.
+  - Reassure the patient that symptoms and function often improve over time, although recovery may take months or longer.
+  - Discuss the importance of pain control and regular, appropriately graded exercises.
+  
+  2. Pharmacotherapy:
+  - NSAID: Tab. naproxen 500 mg orally twice daily OR tab. diclofenac 50 mg orally three times daily for a short course, if appropriate after assessment of renal function, gastrointestinal risk, blood pressure, and other contraindications. Do not use both NSAIDs together. Given the patient's hypertension and existing lisinopril use, monitor blood pressure and renal function if an oral NSAID is prescribed.
+  - Gastric protection: Tab. omeprazole 20 mg orally daily if gastroprotection is indicated during NSAID treatment.
+  - Analgesia: Tab. paracetamol 1 g orally up to three times daily as needed for breakthrough pain, ensuring the total daily dose remains within the recommended maximum and accounting for other paracetamol-containing products.
+  
+  3. PHYSIOTHERAPY:
+  - Refer for a structured physiotherapy programme tailored to the phase and severity of symptoms.
+  - Begin with gentle pendulum (Codman) exercises, finger ladder climbing, and passive or assisted stretching within tolerable pain limits.
+  - Avoid forceful stretching that significantly exacerbates pain, particularly during the painful phase.
+  - Apply warm packs before exercises if helpful for comfort and movement.
+  - Progress gradually to improve range of motion and function.
+  
+  4. CORTICOSTEROID THERAPY:
+  - Consider an intra-articular corticosteroid injection, such as triamcinolone, if pain remains significant despite initial treatment and limits participation in physiotherapy. The dose, injection approach, and suitability should be determined by the treating clinician.
+  - Discuss the potential benefits and risks before proceeding.
+  
+  5. FOLLOW-UP:
+  - Review in 4 weeks to assess pain control, range of motion, function, and response to treatment.
+  - If symptoms and functional limitation persist despite an adequate course of conservative management, consider specialist reassessment and options such as hydrodilatation or manipulation under anaesthesia, depending on the clinical findings and local expertise.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'surg-73',
+    title: 'Partial Rotator Cuff Tear of the Right Shoulder',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedic Clinic',
+    condition: 'Suspected Partial-Thickness Tear of the Right Supraspinatus Tendon',
+    symptoms: ['Right shoulder pain', 'Difficulty lifting the right arm', 'Painful and restricted active abduction', 'Night shoulder pain', 'Shoulder weakness during abduction'],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 48-year-old male civil servant with hypertension presents with a 3-week history of right shoulder pain and difficulty lifting the arm following sudden pain while lifting a heavy suitcase. The pain is aggravated by overhead activities and lying on the affected side. Examination reveals tenderness over the greater tuberosity and subacromial space, active abduction limited to 80 degrees, a painful arc, positive Neer, Hawkins-Kennedy, and Jobe tests, and a negative Drop Arm test. A partial-thickness supraspinatus tendon tear is suspected.',
+    content: `
+  ORTHOPAEDIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 48-year-old male civil servant who resides in Bodija, Ibadan, Oyo State. He is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINTS
+  1. Right shoulder pain x 3/52
+  2. Difficulty lifting the right arm x 3/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 3 weeks prior to presentation, when he experienced sudden, sharp pain in his right shoulder while attempting to lift a heavy suitcase. Since the initial injury, the pain has persisted as a dull ache, primarily localized to the lateral aspect of the shoulder and radiating to the mid-deltoid region. The pain is significantly aggravated by overhead activities, such as reaching for objects on high shelves or dressing, and is worse at night, occasionally interfering with sleep when lying on the affected side.
+  He reports weakness and a catching sensation when attempting to abduct the arm. There is no history of neck pain, numbness, or tingling in the hand or fingers. He denies any history of fever, weight loss, or similar pain in other joints.
+  
+  PAST MEDICAL HISTORY
+  Known hypertensive, diagnosed 5 years ago, currently adherent to amlodipine 5 mg daily with good blood pressure control.
+  No previous history of shoulder trauma, dislocation, or surgery.
+  No history of diabetes mellitus or sickle cell disease.
+  
+  DRUG HISTORY
+  He has been using over-the-counter tab. ibuprofen 400 mg and tab. paracetamol 1 g as needed, with only transient relief.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  He is married in a monogamous setting with three children. He is a non-smoker and takes alcohol occasionally. His job involves significant desk work but requires occasional lifting of heavy office files.
+  
+  REVIEW OF SYSTEMS
+  RS: No cough or shortness of breath.
+  CVS: No chest pain or palpitations.
+  GIT: No dyspepsia or change in bowel habits.
+  CNS: No sensory loss or motor deficits in the distal upper limb.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  An adult male in no obvious respiratory distress but with mild painful distress during movement of the right arm. Afebrile, not pale, anicteric, and not dehydrated. No peripheral lymphadenopathy or pedal oedema.
+  
+  VITAL SIGNS
+  Blood pressure: 130/84 mmHg.
+  Pulse rate: 78 beats per minute.
+  Respiratory rate: 16 cycles per minute.
+  SpO2: 98% on room air.
+  
+  MUSCULOSKELETAL EXAMINATION (RIGHT SHOULDER)
+  Inspection: No obvious muscle wasting of the supraspinatus or infraspinatus. No swelling, scars, or redness around the shoulder joint.
+  Palpation: Localized tenderness over the greater tuberosity and subacromial space. No warmth or crepitus.
+  
+  RANGE OF MOTION (ROM)
+  Active abduction is limited to 80 degrees due to pain. Passive abduction is full but painful between 60 and 120 degrees (painful arc). Internal and external rotations are preserved but painful at terminal ranges.
+  
+  SPECIAL TESTS
+  Neer's impingement test: Positive.
+  Hawkins-Kennedy test: Positive.
+  Jobe's (empty can) test: Positive for pain and mild weakness.
+  Drop Arm test: Negative.
+  Speed's test: Negative.
+  
+  SYSTEMIC EXAMINATION
+  CVS: S1 and S2 heard, with no murmurs.
+  RS: Trachea central. Lungs clear, with vesicular breath sounds.
+  Abdomen: Soft and non-tender, with no organomegaly.
+  
+  ASSESSMENT
+  Suspected partial-thickness tear of the right rotator cuff, likely involving the supraspinatus tendon.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Subacromial impingement syndrome
+  2. Bicipital tendinopathy
+  3. Adhesive capsulitis (early freezing stage)
+  4. Calcific tendinopathy
+  
+  INITIAL INVESTIGATION PLAN
+  1. Plain X-ray of the right shoulder (AP and axillary views, with additional views as indicated): To assess for bony pathology, fracture, and significant subacromial crowding.
+  2. Ultrasound of the right shoulder: To assess the rotator cuff tendons and evaluate for a partial-thickness tear.
+  3. MRI of the shoulder: Consider if symptoms fail to improve after an appropriate period of conservative management, if the diagnosis remains uncertain, or if the findings may alter surgical planning.
+  4. Full Blood Count (FBC) and ESR: If clinical findings suggest an inflammatory or infectious process.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Activity Modification:
+  - Advise avoidance of overhead lifting, reaching, and heavy pushing or pulling for the next 4–6 weeks, with modification according to symptoms.
+  - Encourage gentle, pain-limited shoulder movement to reduce the risk of stiffness.
+  
+  2. Pharmacological Therapy:
+  - Oral NSAID: Tab. naproxen 500 mg orally twice daily with meals for the shortest necessary duration, if appropriate after assessing renal function, gastrointestinal risk, blood pressure, and other contraindications. Use cautiously because the patient is hypertensive, and monitor blood pressure. Avoid combining naproxen with ibuprofen or other oral NSAIDs.
+  - Gastric protection: Tab. omeprazole 20 mg orally daily while taking naproxen if gastroprotection is indicated.
+  - Muscle relaxant: Baclofen 5 mg orally twice daily for up to 1 week only if significant muscle spasm or guarding is present and treatment is clinically appropriate. Counsel about dizziness and sedation.
+  - Topical therapy: Diclofenac gel applied to the affected shoulder according to the product instructions. Review the need for concurrent oral NSAID use.
+  
+  3. Physiotherapy:
+  - Refer for a structured physiotherapy programme focusing on:
+    - Pendulum exercises and gentle, pain-limited range-of-motion exercises to reduce stiffness.
+    - Progressive strengthening of the rotator cuff and scapular stabilizers as pain permits.
+  - Avoid exercises that substantially aggravate the pain during the early recovery phase.
+  
+  4. Corticosteroid Injection:
+  - Consider a subacromial corticosteroid injection if pain persists despite appropriate conservative management and after reassessment of the diagnosis. Discuss the potential benefits and risks. Use appropriate technique and avoid injection when infection is suspected.
+  
+  5. Review and Follow-up:
+  - Review in the outpatient clinic in 4 weeks to assess pain, shoulder function, range of motion, and response to treatment.
+  - Reassess earlier if pain worsens or significant weakness develops.
+  - If there is persistent functional limitation despite an adequate course of conservative treatment, or imaging confirms a clinically significant tear, refer for orthopaedic specialist assessment. Surgical treatment depends on tear characteristics, functional impairment, patient factors, and response to conservative management.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'surg-72',
+    title: 'Right Shoulder Impingement Syndrome',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedic Clinic',
+    condition: 'Right Shoulder Impingement Syndrome Likely Secondary to Rotator Cuff Tendinopathy',
+    symptoms: ['Right shoulder pain', 'Painful arc of abduction', 'Pain during overhead activities', 'Painful internal rotation'],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 45-year-old male teacher presents with a 2-week history of insidious-onset right shoulder pain, localized to the lateral aspect of the shoulder and aggravated by movement, particularly overhead activities. Examination reveals mild subacromial tenderness, a painful arc between 60 and 120 degrees of abduction, mildly restricted internal rotation due to pain, positive Neer and Hawkins-Kennedy tests, and a negative Drop Arm test. Distal neurovascular function is intact. The working diagnosis is right shoulder impingement syndrome, likely secondary to rotator cuff tendinopathy.',
+    content: `
+  ORTHOPAEDIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 45-year-old male teacher who resides in Ibadan, Oyo State. He is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINT
+  1. Right shoulder pain x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 2 weeks prior to presentation, when he developed right shoulder pain. The pain was insidious in onset, dull-aching in character, and localized to the lateral aspect of the right shoulder. It is significantly worsened by movement, especially during overhead activities such as reaching for objects on high shelves or combing his hair. The pain disappears or significantly subsides at rest.
+  There is no history of preceding trauma, falls, or sudden heavy lifting. He reports no associated neck pain, numbness, or weakness in the right hand. There is no history of fever, weight loss, night sweats, or other joint pains.
+  
+  PAST MEDICAL HISTORY
+  No previous history of similar shoulder pain.
+  Not a known diabetic or hypertensive.
+  No history of sickle cell disease or previous surgeries.
+  
+  DRUG HISTORY
+  He has used over-the-counter paracetamol with minimal relief.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  He is a teacher and is right-hand dominant. He does not smoke or drink alcohol. He is married with three children. Family history is unremarkable for rheumatologic or chronic bone conditions.
+  
+  REVIEW OF SYSTEMS
+  CVS: No chest pain or palpitations.
+  RS: No cough or breathlessness.
+  GIT: No abdominal pain or dyspepsia.
+  CNS: No headaches, seizures, or sensory deficits.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Middle-aged man, not in obvious respiratory or painful distress at rest. Afebrile, not pale, anicteric. No peripheral lymphadenopathy or pedal oedema.
+  
+  VITAL SIGNS
+  Blood pressure: 125/82 mmHg.
+  Pulse rate: 76 beats per minute.
+  Respiratory rate: 18 cycles per minute.
+  SpO2: 98% on room air.
+  
+  LOCAL EXAMINATION (RIGHT SHOULDER)
+  Inspection: No obvious swelling, muscle wasting of the deltoid or supraspinatus fossa, or skin discoloration. Shoulder levels appear symmetrical.
+  Palpation: Mild tenderness over the subacromial space. No warmth or fluctuant swelling. No tenderness over the acromioclavicular joint or bicipital groove.
+  
+  RANGE OF MOTION (ROM)
+  Active ROM: Painful arc between 60 and 120 degrees of abduction. Internal rotation is mildly limited by pain.
+  Passive ROM: Full but painful at terminal ranges.
+  
+  SPECIAL TESTS
+  Neer impingement test: Positive.
+  Hawkins-Kennedy test: Positive.
+  Drop Arm test: Negative.
+  
+  NEUROVASCULAR EXAMINATION
+  Distal pulses (radial and brachial) are full and synchronous. Sensation and motor power in the right hand and forearm are intact.
+  
+  ASSESSMENT
+  Right shoulder impingement syndrome, likely secondary to rotator cuff tendinopathy.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Subacromial bursitis
+  2. Partial rotator cuff tear
+  3. Adhesive capsulitis (early stage)
+  4. Bicipital tendinitis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Plain X-ray of the right shoulder (anteroposterior and axillary views): To assess for calcific tendinopathy, bony spurs, or glenohumeral osteoarthritis, if imaging is clinically indicated.
+  2. Musculoskeletal ultrasound of the right shoulder: To assess the integrity of the rotator cuff tendons, particularly if symptoms persist or a tear is suspected.
+  3. Random Blood Sugar (RBS): To screen for diabetes mellitus, a risk factor for adhesive capsulitis.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Activity Modification:
+  - Advise temporary avoidance or modification of overhead activities and heavy lifting that exacerbate the pain.
+  - Encourage gentle shoulder movement within tolerable limits and avoid prolonged immobilization.
+  
+  2. Pharmacotherapy:
+  - Oral NSAID: Tab. naproxen 500 mg orally twice daily OR tab. ibuprofen 400 mg orally three times daily for up to 7 days, if appropriate after assessing renal function, gastrointestinal risk, blood pressure, and other contraindications. Do not use both NSAIDs together. Take with food.
+  - Proton pump inhibitor: Tab. omeprazole 20 mg orally daily for 7 days if gastroprotection is indicated based on gastrointestinal risk.
+  - Topical therapy: Diclofenac gel applied to the affected shoulder according to the product instructions, taking care when combining it with an oral NSAID.
+  
+  3. Physiotherapy:
+  - Refer for a structured programme including pendulum exercises and gentle stretching, followed by progressive strengthening of the rotator cuff and scapular stabilizers as pain improves.
+  
+  4. Patient Education:
+  - Reassure the patient about the generally favourable course of the condition with appropriate conservative management.
+  - Emphasize adherence to the prescribed exercise regimen and gradual return to usual activities.
+  - Advise reassessment if pain worsens or new weakness, numbness, or significant restriction of movement develops.
+  
+  5. Follow-up:
+  - Review in 2 weeks to assess symptomatic improvement, range of motion, and response to treatment.
+  - Consider further assessment or imaging if symptoms persist or the clinical findings change.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'surg-71',
+    title: 'Cervical Radiculopathy Secondary to Cervical Spondylosis',
+    specialty: 'Surgery',
+    subSpecialty: 'Neurosurgery',
+    condition: 'Cervical Radiculopathy Secondary to Cervical Spondylosis',
+    symptoms: ['Neck pain', 'Bilateral upper limb pain radiating to the fingers', 'Paresthesia of both hands', 'Reduced sensation in the C6 and C7 dermatomal distributions', 'Restricted cervical range of motion'],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 33-year-old male civil servant presents with a 2-week history of insidious-onset posterior neck pain, aggravated by prolonged desk work and head movements, followed by bilateral upper limb radiating pain, tingling, and numbness. Examination reveals loss of normal cervical lordosis, C5–C7 tenderness, restricted neck movement, a positive Spurling test, and subjective sensory reduction in the C6–C7 dermatomes, with preserved muscle power and reflexes. The working diagnosis is cervical radiculopathy secondary to cervical spondylosis.',
+    content: `
+  GENERAL MEDICAL CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 33-year-old male civil servant who resides in Garki, Abuja. He is of the Gbagyi ethnic group and is married in a monogamous setting.
+  
+  PRESENTING COMPLAINTS
+  1. Neck pain x 2/52
+  2. Tingling and numbness in both upper limbs x 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 2 weeks prior to presentation, when he started experiencing neck pain. The pain was insidious in onset, dull-aching in character, and localized to the posterior aspect of the neck. It is aggravated by prolonged sitting at his office desk and sudden head movements. There is some relief with rest and over-the-counter paracetamol.
+  One week prior to presentation, he noticed that the pain had started radiating down both arms to the fingers. This was accompanied by pins-and-needles sensations (paraesthesia) in the hands. There is no associated weakness in the hands or difficulty with fine motor tasks, such as buttoning his shirt. He denies any history of neck trauma, weight loss, night sweats, or chronic cough. There are no symptoms suggestive of lower limb involvement, such as gait instability or urinary or faecal incontinence.
+  
+  PAST MEDICAL HISTORY
+  Not a known hypertensive or diabetic.
+  No previous history of similar neck pain.
+  No history of hospitalizations or surgeries.
+  
+  DRUG HISTORY
+  Used tablet paracetamol 1 g as needed and occasional ibuprofen 400 mg, with minimal relief.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  He is a civil servant whose job involves significant desk work and computer use. He does not smoke cigarettes or drink alcohol. Family history is non-contributory.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headache, loss of consciousness, or seizures.
+  CVS: No palpitations or orthopnoea.
+  RS: No cough or chest pain.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: No lower back pain or joint swellings.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young man in no obvious respiratory or painful distress.
+  Acyanotic, not pale, anicteric, with no significant lymphadenopathy or pedal oedema.
+  
+  VITAL SIGNS
+  Pulse rate: 76 beats per minute, regular, normal volume.
+  Blood pressure: 124/82 mmHg.
+  Respiratory rate: 18 cycles per minute.
+  Temperature: 36.6°C.
+  
+  MUSCULOSKELETAL EXAMINATION
+  Cervical spine: Loss of normal cervical lordosis. Tenderness elicited over the C5–C7 spinous processes and paravertebral muscles. Restricted range of motion on neck extension and lateral rotation. Positive Spurling test, with reproduction of radicular pain on neck compression.
+  
+  NEUROLOGICAL EXAMINATION (UPPER LIMBS)
+  Inspection: No muscle wasting or fasciculations.
+  Tone: Normal bilaterally.
+  Power: 5/5 across all muscle groups (C5–T1) bilaterally.
+  Reflexes: Biceps, brachioradialis, and triceps reflexes are 2+ (normal) bilaterally.
+  Sensation: Subjective reduction in sensation to light touch over the C6 and C7 dermatomal distributions bilaterally.
+  
+  NEUROLOGICAL EXAMINATION (LOWER LIMBS)
+  Normal gait.
+  Normal tone, power, and reflexes.
+  Plantar response is flexor bilaterally.
+  No sensory level.
+  
+  ASSESSMENT
+  Cervical radiculopathy, likely secondary to cervical spondylosis.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Cervical disc herniation
+  2. Myofascial pain syndrome
+  3. Thoracic outlet syndrome
+  
+  INITIAL INVESTIGATION PLAN
+  1. Plain X-ray of the cervical spine (anteroposterior and lateral views; oblique views if indicated) to assess for osteophytes and disc space narrowing.
+  2. MRI of the cervical spine if symptoms persist, progress, or neurological deficits emerge, to evaluate disc protrusion and nerve root compression. Consider earlier MRI or specialist assessment if features suggest cervical myelopathy or another serious cause.
+  3. Full Blood Count (FBC) and ESR if clinical assessment raises suspicion of an inflammatory or infectious process.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Pharmacotherapy:
+  - Tab. Naproxen 500 mg orally twice daily with food for up to 2 weeks, if appropriate after assessment of renal function, gastrointestinal risk, blood pressure, and other contraindications. Use the lowest effective dose for the shortest necessary duration.
+  - Tab. Omeprazole 20 mg orally daily while taking naproxen, if gastroprotection is indicated.
+  - Tab. Cyclobenzaprine 5 mg orally at night for up to 1 week, if muscle spasm is present and the medication is appropriate. Counsel about sedation and avoid driving if affected.
+  - Consider neuropathic pain treatment if symptoms are persistent and significant. Pregabalin 75 mg orally at night may be considered after assessment of renal function, sedation risk, and suitability; review its benefit and adverse effects.
+  
+  2. Non-Pharmacological Management:
+  - Encourage gentle neck movement and avoidance of prolonged immobilization. A soft cervical collar should not be used routinely; if prescribed for short-term symptom relief, limit its duration and reassess.
+  - Refer for physiotherapy, including appropriate neck exercises, posture correction, and ergonomic counselling.
+  - Adjust computer monitor height and workstation position to maintain a neutral neck posture.
+  - Avoid heavy lifting, sudden neck movements, and prolonged neck flexion while symptoms are active.
+  - Provide advice on regular breaks from desk work and gradual return to usual activities as tolerated.
+  
+  3. Monitoring and Follow-up:
+  - Review in 2 weeks to reassess pain, sensory symptoms, functional status, and investigation results.
+  - Document neurological findings at follow-up, including muscle power, reflexes, sensation, gait, and any new symptoms.
+  - Advise immediate reassessment if there is new or progressive limb weakness, hand clumsiness, gait disturbance, urinary retention, bowel or bladder incontinence, or other features suggestive of spinal cord compression.
+  - Consider earlier imaging or specialist referral if symptoms progress or neurological deficits develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
 
-
+  {
+    id: 'surg-70',
+    title: 'Acute Post-auricular Lymphadenitis',
+    specialty: 'Surgery',
+    subSpecialty: 'General Surgery Clinic',
+    condition: 'Acute Post-auricular Lymphadenitis',
+    symptoms: [
+      'Right post-auricular swelling',
+      'Right post-auricular pain',
+      'Fever',
+      'Tender erythematous swelling',
+      'Crusted occipital scalp lesion'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '26-year-old Yoruba male commercial driver presenting with a 3-day history of progressively enlarging, painful right post-auricular swelling and a 2-day history of intermittent fever with chills. Examination reveals a tender, erythematous, mobile 2 × 2 cm swelling behind the right pinna and a crusted occipital scalp lesion, with normal otoscopy and no mastoid tenderness. Findings are consistent with acute post-auricular lymphadenitis, likely secondary to scalp pyoderma.',
+    content: `GENERAL SURGERY CLINIC
+  
+  Patient Identification
+  A 26-year-old Yoruba Christian male commercial driver residing in Ogbomosho, Oyo State.
+  
+  Presenting Complaints
+  1. Swelling behind the right ear × 3/7
+  2. Pain behind the right ear × 3/7
+  3. Fever × 2/7
+  
+  History of Presenting Complaint
+  He was apparently well until 3 days ago when he noticed a small, painful swelling behind his right ear. The swelling has gradually increased in size over the last 72 hours. The pain is described as throbbing, localized to the site of the swelling, and worsens with touch or head movement.
+  
+  Two days prior to presentation, he developed a low-grade fever, which is intermittent and associated with chills but no rigors. There is no history of ear discharge (otorrhoea), ear itching, or reduced hearing. He denies any history of toothache, sore throat, or facial swelling.
+  
+  He recalls having a small, itchy pimple on the back of his scalp about a week ago, which he scratched repeatedly. He has not used any medications other than paracetamol for the pain.
+  
+  Past Medical History
+  No history of similar swelling in the past.
+  Not a known hypertensive or diabetic.
+  No history of chronic cough or contact with a person with chronic cough.
+  Retroviral status unknown.
+  
+  Drug History
+  No known drug allergies.
+  Not on any routine medications.
+  
+  Family and Social History
+  He lives in a room-and-parlour apartment with adequate ventilation.
+  Non-smoker and does not consume alcohol.
+  No family history of similar illnesses or malignancies.
+  
+  Review of Systems
+  CNS: No headache, neck stiffness, or convulsions.
+  RS: No cough, chest pain, or dyspnoea.
+  CVS: No palpitations or pedal oedema.
+  GIT: No abdominal pain or change in bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  A young man in painful distress, febrile (temperature 37.9°C), not pale, anicteric, and not dehydrated. No generalized lymphadenopathy. No pedal oedema.
+  
+  Vital Signs
+  PR: 88 bpm, regular, full volume.
+  BP: 120/80 mmHg.
+  RR: 18 cpm.
+  SpO₂: 98% on room air.
+  
+  Local Examination (Right Post-auricular Region)
+  A solitary, oval-shaped swelling measuring approximately 2 × 2 cm is located behind the pinna.
+  The skin over the swelling is erythematous and warm to the touch.
+  The swelling is exquisitely tender on palpation.
+  It is firm in consistency and mobile over the underlying bone.
+  No fluctuation or punctum noted.
+  There is no tenderness over the mastoid process.
+  The external auditory canal appears normal. The tympanic membrane is pearly white and intact on otoscopy.
+  
+  Scalp Examination
+  There is a small, crusted, erythematous lesion on the posterior scalp (occipital region), approximately 3 cm from the swelling.
+  
+  Assessment
+  Acute post-auricular lymphadenitis, likely secondary to scalp pyoderma.
+  
+  Differential Diagnoses
+  1. Acute mastoiditis (less likely due to the absence of mastoid tenderness and normal otoscopy).
+  2. Infected sebaceous cyst.
+  3. Post-auricular abscess.
+  
+  Investigations
+  1. Full blood count (FBC): To assess for leukocytosis.
+  2. Erythrocyte sedimentation rate (ESR).
+  3. Random blood sugar (RBS): To assess for underlying hyperglycaemia.
+  4. Fine needle aspiration (FNA) if fluctuation develops, to investigate a possible abscess.
+  
+  Management Plan
+  1. Analgesics: Tab. Ibuprofen 400 mg TDS for 5 days and Tab. Paracetamol 1 g TDS for 3 days.
+  2. Antibiotics: Tab. Co-amoxiclav 625 mg BD for 7 days.
+  3. Local care: Apply warm compresses to the affected area.
+  4. Wound care: Clean the scalp lesion with normal saline and apply mupirocin ointment.
+  5. Review in 3 days to monitor for signs of abscess formation or resolution.
+  6. Counsel on hand hygiene and avoiding scratching scalp lesions.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
 
   {
     id: 'surg-69',

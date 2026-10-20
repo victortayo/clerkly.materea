@@ -1,7 +1,632 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
+
+  {
+    id: 'im-110',
+    title: 'Infected Diabetic Foot Ulcer in Type 1 Diabetes Mellitus',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology Clinic',
+    condition: 'Infected Diabetic Foot Ulcer',
+    symptoms: [
+      'Non-healing ulcer of the left foot',
+      'Swelling and redness of the left foot',
+      'Fever and chills',
+      'Bilateral foot numbness and tingling',
+      'Polyuria and polydipsia',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 29-year-old man with a 6-year history of type 1 diabetes mellitus and poor insulin adherence presents with a 3-week history of a non-healing plantar ulcer of the left hallux, complicated by purulent discharge, progressive foot swelling, erythema, fever, and chills. Examination reveals a deep, necrotic, foul-smelling ulcer with surrounding cellulitis, bilateral peripheral sensory neuropathy, and reduced left pedal pulses. The presentation is concerning for a severe diabetic foot infection, with possible underlying osteomyelitis and peripheral arterial disease.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 29-year-old male tailor who resides in Ogbomosho, Oyo State.
   
+  PRESENTING COMPLAINTS
+  1. Non-healing sore on the left foot x 3/52
+  2. Swelling and redness of the left foot x 1/52
+  3. Fever and chills x 4/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient is a known diabetic who was apparently well until 3 weeks ago, when he noticed a small, painless blister on the plantar surface of his left big toe. This followed a day of wearing tight-fitting leather shoes. The blister subsequently ruptured, leaving a shallow wound that has failed to heal despite various herbal applications and self-medication with topical ointments purchased from a local chemist.
+  
+  One week prior to presentation, the wound became deeper and started producing foul-smelling, purulent discharge. He also noticed progressive swelling, warmth, and redness extending from the toe to the midfoot. Four days ago, he developed a high-grade fever associated with chills and rigors. There is no history of preceding trauma to the foot or intermittent claudication. He admits to poor compliance with his insulin injections and has not monitored his blood glucose levels in the last 3 months. He reports recent polyuria and increased thirst.
+  
+  PAST MEDICAL HISTORY
+  Known type 1 diabetes mellitus diagnosed 6 years ago. No known history of hypertension or bronchial asthma. No previous history of foot ulcers or hospitalizations for diabetic ketoacidosis. No history of tobacco use or alcohol consumption.
+  
+  DRUG HISTORY
+  Currently on Mixtard insulin (30/70), 28 units in the morning and 14 units at night, but reports frequently missing doses. Uses paracetamol and ibuprofen for pain. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  Second of four children in a monogamous setting. No family history of similar chronic illnesses. Works as a tailor, which involves significant standing. Lives in a well-ventilated apartment with access to borehole water.
+  
+  REVIEW OF SYSTEMS
+  CNS: Occasional numbness and tingling sensations in both feet in a stocking distribution. No history of syncope or seizures.
+  CVS: No pedal oedema of the right foot. No orthopnoea or palpitations.
+  RS: No cough or dyspnoea.
+  GIT: Normal bowel habits. No abdominal pain.
+  MSS: No joint pains or stiffness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  An ill-looking young man, febrile (38.5°C), not pale, not icteric, with no significant lymphadenopathy. No dehydration noted.
+  
+  VITAL SIGNS
+  Pulse rate: 106 bpm, regular and synchronous with heart sounds.
+  Blood pressure: 115/75 mmHg.
+  Respiratory rate: 22 cpm.
+  SpO2: 97% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMINAL EXAMINATION
+  Abdomen is flat and moves with respiration. No organomegaly or areas of tenderness. Bowel sounds are present and normal.
+  
+  NEUROLOGICAL EXAMINATION (LOWER LIMBS)
+  Reduced sensation to 10-g monofilament bilaterally up to the mid-calf. Loss of vibration sense at the hallux. Downgoing plantar responses.
+  
+  LOCAL EXAMINATION (LEFT FOOT)
+  Inspection: An ulcer on the plantar surface of the left hallux measuring approximately 3.5 cm × 2.5 cm. The base is deep, involving subcutaneous tissue, and covered with yellowish slough and necrotic debris. The margins are irregular and undermined. Profuse, foul-smelling purulent discharge is present. The surrounding skin is erythematous, shiny, and oedematous up to the ankle joint.
+  Palpation: Increased local temperature. Marked tenderness around the ulcer and the dorsum of the foot. No crepitus felt on palpation.
+  Pulses: Left dorsalis pedis and posterior tibial pulses are weak compared with the right side. Capillary refill time is 4 seconds.
+  
+  ASSESSMENT
+  Infected diabetic foot ulcer (Wagner grade 3) in a patient with type 1 diabetes mellitus, peripheral neuropathy, and poor glycaemic control.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Chronic osteomyelitis of the hallux.
+  2. Necrotising fasciitis of the left foot.
+  3. Peripheral arterial disease with secondary infection.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Random blood sugar (RBS) and fasting blood sugar (FBS).
+  2. Glycated haemoglobin (HbA1c).
+  3. Full blood count (FBC) and differential count.
+  4. Electrolytes, urea, and creatinine (E/U/Cr).
+  5. Urinalysis and urine for ketones.
+  6. Deep tissue or wound specimen for microscopy, culture, and sensitivity (M/C/S), preferably obtained during debridement.
+  7. Plain X-ray of the left foot (AP and lateral views) to assess for bone involvement or soft-tissue gas.
+  8. Baseline ECG.
+  9. Consider blood cultures before antibiotics if this does not delay treatment, given the fever and systemic features.
+  10. Assess peripheral perfusion using an ankle-brachial index, toe pressure, or Doppler ultrasound as appropriate.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  URGENT INTERVENTIONS
+  1. Admit urgently for multidisciplinary management, involving the surgical team and medical/diabetes team.
+  2. Fluid resuscitation: Assess hydration status, renal function, and haemodynamic state. Administer IV 0.9% sodium chloride according to clinical need and reassess frequently rather than prescribing a fixed volume without monitoring.
+  3. Glycaemic control: Review the current Mixtard regimen and institute an appropriate insulin regimen under close supervision. If intravenous insulin is indicated, use a monitored protocol. Do not use an unmonitored sliding-scale regimen as the sole insulin treatment in a patient with type 1 diabetes. Monitor blood glucose frequently and assess for diabetic ketoacidosis, including blood or urine ketones, electrolytes, and acid-base status where indicated.
+  
+  MEDICATIONS
+  1. Empirical IV antibiotics: Initiate promptly according to infection severity, local antimicrobial guidelines, renal function, and risk factors. The proposed regimen of IV ceftriaxone 1 g 12-hourly and IV metronidazole 500 mg 8-hourly may require modification to ensure adequate coverage for severe diabetic foot infection, including staphylococci and streptococci, with broader coverage where indicated. Review and tailor antibiotics to culture results and clinical response.
+  2. Analgesia: IV paracetamol 1 g 8-hourly if appropriate for the patient's weight and liver function. Tramadol 50 mg 8-hourly may be considered for severe pain after reviewing contraindications and monitoring requirements.
+  3. Tetanus prophylaxis: Review immunisation history and wound classification. Give tetanus toxoid-containing vaccine and tetanus immunoglobulin when indicated by immunisation status and wound risk.
+  
+  SURGICAL AND SUPPORTIVE CARE
+  1. Urgent surgical assessment for drainage and debridement of infected and necrotic tissue. Do not delay emergency surgical exploration if necrotising infection is suspected.
+  2. Daily wound assessment and dressing with an appropriate wound-care solution, such as sterile normal saline, according to the surgical team's plan. Avoid routine use of cytotoxic antiseptics unless specifically indicated.
+  3. Strict off-loading of the affected foot; avoid weight-bearing and elevate the limb as clinically appropriate while monitoring perfusion.
+  4. Nutritional support with adequate calories and protein, tailored to glycaemic control and renal function.
+  5. Patient education on diabetic foot care, daily foot inspection, appropriate footwear, glucose monitoring, and the importance of insulin adherence.
+  6. Consult vascular surgery urgently because of weak pedal pulses and prolonged capillary refill. Consider podiatry or a specialist diabetic foot service if available.
+  7. Monitor vital signs, blood glucose, fluid balance, urine output, wound progression, and laboratory results closely.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-109',
+    title: 'Chronic Insomnia in an Elderly Patient',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Geriatric Medicine Clinic',
+    condition: 'Chronic Insomnia Associated with Poor Sleep Hygiene and Osteoarthritis',
+    symptoms: [
+      'Difficulty initiating sleep',
+      'Frequent nocturnal awakenings',
+      'Difficulty returning to sleep after awakening',
+      'Unrefreshing sleep',
+      'Daytime fatigue',
+      'Occasional daytime somnolence',
+      'Nocturia',
+      'Chronic bilateral knee pain',
+      'Occasional forgetfulness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'An 89-year-old woman with long-standing hypertension and bilateral knee osteoarthritis presenting with a 6-month history of difficulty initiating and maintaining sleep, unrefreshing sleep, and daytime fatigue. Contributing factors include late-evening caffeine intake, mobile phone use in bed, nocturia, and chronic knee pain. Assessment should also consider medication effects, mood disorders, cognitive impairment, and other sleep disorders.',
+    content: `
+  PATIENT IDENTIFICATION
+  An 89-year-old female retired teacher who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINTS
+  1. Difficulty falling and maintaining sleep x 6/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was in her usual state of health until about 6 months ago when she started experiencing difficulty initiating sleep. She reports that it often takes her over 2 hours to fall asleep after getting into bed. She also complains of frequent nocturnal awakenings, typically 3 to 4 times per night, after which she finds it difficult to return to sleep.
+  She reports feeling unrefreshed upon waking in the morning and experiences significant daytime fatigue and occasional somnolence. There is no history of snoring, witnessed apnoeas, or gasping for air during sleep. No history of restless legs or crawling sensations in the lower limbs at night.
+  She denies features suggestive of depression, such as persistent low mood, loss of interest in previously enjoyed activities, or feelings of worthlessness. There is no history of excessive worry or palpitations. She notes that she often drinks tea in the late evening and frequently uses her mobile phone to read news while in bed. She also reports waking up at least twice a night to void urine but denies dysuria or increased daytime frequency.
+  
+  PAST MEDICAL HISTORY
+  Known hypertensive x 20 years, currently managed on Tab Amlodipine 5 mg daily. BP has been largely stable.
+  Diagnosed with osteoarthritis of both knees x 10 years. She reports chronic, dull, aching pain that is often worse in the evenings and sometimes interferes with her ability to find a comfortable sleeping position.
+  No history of Diabetes Mellitus, asthma, or previous psychiatric illness.
+  
+  DRUG HISTORY
+  1. Tab Amlodipine 5 mg daily.
+  2. Tab Paracetamol 1 g PRN for knee pain.
+  3. No history of herbal medication use or over-the-counter sedatives.
+  
+  FAMILY AND SOCIAL HISTORY
+  She is a widow and lives with her daughter and three grandchildren in a well-ventilated apartment.
+  She does not smoke or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  CNS: Occasional forgetfulness, no history of tremors or focal weakness.
+  CVS: No orthopnoea or paroxysmal nocturnal dyspnoea.
+  GIT: Normal bowel habits, no dyspepsia.
+  MSS: Chronic knee pain as noted above.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  An elderly woman, conscious and alert. Not in any obvious respiratory or painful distress.
+  Acutely ill-looking: No.
+  Pallor: Absent.
+  Jaundice: Absent.
+  Pedal oedema: Absent.
+  Dehydration: Absent.
+  
+  VITAL SIGNS
+  Pulse Rate: 72 bpm, regular, normal volume.
+  Blood Pressure: 130/80 mmHg (sitting).
+  Respiratory Rate: 16 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  Cardiovascular System: Heart sounds S1 and S2 only. No murmurs.
+  Respiratory System: Trachea central. Lungs clear, vesicular breath sounds bilaterally.
+  Abdomen: Soft, non-tender. No organomegaly. Bowel sounds present.
+  Central Nervous System: Oriented to person, place, and time. No gross motor or sensory deficits. Cranial nerves I–XII intact. Mental state stable.
+  
+  ASSESSMENT
+  Chronic insomnia with difficulty initiating and maintaining sleep, likely multifactorial, with contributing factors including poor sleep hygiene, nocturia, and chronic pain from osteoarthritis.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Sleep-maintenance insomnia associated with nocturia.
+  2. Depressive illness with sleep disturbance.
+  3. Obstructive sleep apnoea (less strongly suggested by the available history, but not excluded).
+  4. Sleep disturbance associated with chronic pain or medication effects.
+  5. Other causes of nocturia, including urinary tract pathology, diabetes mellitus, or renal dysfunction.
+  
+  INITIAL INVESTIGATION PLAN
+  1. Urinalysis: To assess for urinary abnormalities and possible urinary tract infection if clinically suspected.
+  2. Fasting Blood Sugar (FBS) or HbA1c: To screen for diabetes mellitus as a possible contributor to nocturia.
+  3. Serum electrolytes, urea, and creatinine: To assess baseline renal function and electrolyte status.
+  4. Sleep diary: Request the patient or caregiver to record sleep and wake times, nocturnal awakenings, daytime naps, caffeine intake, and nocturia for 2 weeks.
+  5. Consider further assessment of mood, cognition, pain control, and urinary symptoms based on clinical review.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  NON-PHARMACOLOGICAL MANAGEMENT
+  1. Sleep hygiene education:
+  - Limit caffeine and tea intake to the morning or early afternoon.
+  - Establish a consistent sleep and wake-up time.
+  - Use the bed primarily for sleep; avoid mobile phone use and watching television in bed.
+  - Ensure the bedroom environment is quiet, dark, and comfortably cool.
+  - Reduce excessive evening fluid intake while maintaining adequate hydration during the day.
+  - Encourage daytime activity and exposure to natural light, as tolerated.
+  
+  2. Cognitive Behavioural Therapy for Insomnia (CBT-I):
+  - Consider referral for CBT-I or a suitable structured behavioural intervention if available.
+  - Avoid relying on sleep hygiene alone if insomnia persists.
+  
+  3. Address contributing factors:
+  - Review nocturia and assess for potentially treatable causes.
+  - Optimise osteoarthritis pain management and consider appropriate non-pharmacological measures, such as gentle activity and physiotherapy, according to mobility and tolerance.
+  
+  PHARMACOLOGICAL MANAGEMENT
+  Note: Use medications cautiously in this age group because of the increased risk of falls, confusion, drug interactions, and oversedation.
+  
+  1. Optimise pain management:
+  - Review current paracetamol use and consider an appropriate evening dose if needed for osteoarthritis pain, ensuring that the total daily dose is safe for her age, body weight, liver function, and other risk factors.
+  - Avoid routine NSAID use without assessing renal, gastrointestinal, and cardiovascular risks.
+  
+  2. Melatonin:
+  - Tab Melatonin 2 mg nocte may be considered after reviewing the patient's medication list, sleep pattern, and local availability. Discuss the uncertain benefit and monitor for adverse effects such as dizziness or daytime drowsiness.
+  
+  3. Amitriptyline:
+  - Avoid routine use for insomnia in this patient because of its anticholinergic effects and potential to cause confusion, constipation, urinary retention, orthostatic hypotension, and falls. If there is a separate indication, such as neuropathic pain or depression, consider alternatives and seek appropriate clinical review.
+  
+  4. Sedative-hypnotics:
+  - Avoid long-acting benzodiazepines, such as diazepam, because of the risk of falls, confusion, and prolonged sedation.
+  - Avoid routine use of sedating antihistamines and other medicines with strong anticholinergic effects.
+  
+  FOLLOW-UP
+  1. Review in 2 weeks with the completed sleep diary to assess response to sleep hygiene measures and pain optimisation.
+  2. Review nocturia, daytime somnolence, cognition, mood, and medication effects.
+  3. Reassess the need for further investigations or specialist referral if symptoms persist or worsen.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },  
+  {
+    id: 'im-108',
+    title: 'Vaso-Occlusive Crisis in Sickle Cell Anaemia (HbSS)',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Clinic',
+    condition: 'Vaso-Occlusive Crisis in Sickle Cell Anaemia',
+    symptoms: [
+      'Generalized bone pain',
+      'Generalized joint pain',
+      'Lower back pain',
+      'Severe pain limiting movement'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: 'A 22-year-old male student with known HbSS presenting with sudden-onset severe generalized bone and joint pains involving the knees, shoulders, femurs, and lower back. Examination reveals painful distress, mild icterus, tachycardia, and bony tenderness without joint swelling or warmth. The working diagnosis is an acute vaso-occlusive crisis, with infection and other complications requiring assessment.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 22-year-old male student who resides in Ogbomosho, Oyo State. Tribe: Yoruba.
+  
+  PRESENTING COMPLAINTS
+  1. Generalized bone and joint pains x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until yesterday when he developed sudden-onset generalized bone and joint pains involving the knees, shoulders, and lower back. The pain is described as sharp and deep-seated, rated 8/10 on the pain scale. He attributes the onset to a heavy rain shower he was caught in two nights ago and subsequent exposure to cold weather. There is no associated fever, cough, or urinary symptoms. No history of trauma or recent physical overexertion. He has not experienced a crisis of similar severity in the last 6 months.
+  
+  PAST MEDICAL HISTORY
+  Known sickle cell anaemia (HbSS) patient, diagnosed at age 3.
+  Average of 2 hospitalizations per year for vaso-occlusive crises.
+  Last blood transfusion was 14 months ago.
+  No known history of asthma, hypertension, or diabetes mellitus.
+  No history of chronic leg ulcers or priapism.
+  
+  DRUG HISTORY
+  Tab. Folic acid 5 mg daily.
+  Tab. Proguanil 100 mg daily.
+  Tab. Ibuprofen 400 mg TDS, started at home yesterday with minimal relief.
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  Second child in a monogamous family of 4 children.
+  Only child with SCD in the family.
+  Parents are civil servants.
+  Non-smoker and does not consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headaches or seizures.
+  RS: No chest pain or cough.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal pain or constipation.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  Acutely ill-looking young man in obvious painful distress.
+  Conscious and oriented in time, place, and person.
+  Afebrile (T: 36.8°C).
+  Not pale, mildly icteric.
+  No peripheral lymphadenopathy.
+  No pedal oedema.
+  Hydration status is fair.
+  
+  Vital Signs
+  PR: 104 bpm, regular, normal volume.
+  BP: 110/70 mmHg.
+  RR: 22 cpm.
+  SpO2: 96% on room air.
+  
+  Systemic Examination
+  Musculoskeletal: Tenderness on palpation of the shafts of both femurs and the lower lumbar spine. No joint swelling, redness, or increased warmth. Range of motion is limited by pain.
+  Abdomen: Soft, non-tender. Liver is palpable 2 cm below the right costal margin, smooth and firm. Spleen is not palpable.
+  Respiratory: Trachea central, chest clear with vesicular breath sounds.
+  Cardiovascular: S1 and S2 only. No murmurs.
+  
+  ASSESSMENT
+  Acute Vaso-Occlusive Crisis (VOC) in a known Sickle Cell Anaemia (HbSS) patient, possibly precipitated by cold exposure.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Acute Osteomyelitis
+  2. Malaria in a Patient with Sickle Cell Disease
+  3. Septic Arthritis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC) and Peripheral Blood Film Comment: Assess haemoglobin level, white cell count, platelet count, and red cell morphology; compare with baseline where available.
+  2. Malaria Parasite Test (MPS): Assess for malaria infection.
+  3. Reticulocyte Count: Assess bone marrow response and help identify an aplastic crisis or increased haemolysis.
+  4. Serum Electrolytes, Urea, and Creatinine: Assess renal function and guide fluid management.
+  5. Urinalysis: Assess for haematuria, proteinuria, and other urinary abnormalities.
+  6. Group and Save/Crossmatch if clinically indicated by the haemoglobin level or anticipated transfusion requirement.
+  7. Blood cultures and targeted imaging if fever, focal bony findings, or other features raise suspicion of infection.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Admission and Monitoring
+  Admit for assessment, pain control, and monitoring of vital signs, oxygen saturation, hydration, urine output, and pain scores. Assess promptly for complications, including acute chest syndrome, severe anaemia, and infection.
+  
+  2. Hydration
+  Encourage oral fluids if tolerated.
+  If oral intake is inadequate or there is clinical dehydration, commence appropriate IV fluids, guided by the patient's hydration status, renal function, urine output, and ongoing losses. Avoid routine overhydration. The proposed 3 L in 24 hours should be reassessed against the patient's weight and clinical status before prescribing.
+  
+  3. Analgesia
+  Use a stepwise pain-management approach, guided by pain severity and response to treatment.
+  - Inj. Pentazocine 30 mg IM every 6–8 hours as prescribed, with reassessment of pain relief and adverse effects. Severe pain may require a protocol-based opioid regimen with appropriate monitoring.
+  - Tab. Paracetamol 1 g orally every 8 hours, if appropriate, ensuring the total daily dose remains within the recommended limit.
+  - Review the ibuprofen already taken at home before continuing an NSAID. Assess renal function, hydration status, and gastrointestinal risk. Avoid combining ibuprofen with other NSAIDs.
+  
+  4. Non-Pharmacological Measures
+  Keep the patient warm with blankets and avoid cold drafts.
+  Encourage comfortable positioning and gentle mobilization as pain permits.
+  
+  5. Routine Sickle Cell Medication
+  Continue Tab. Folic acid 5 mg orally daily.
+  Review the indication and ongoing suitability of proguanil prophylaxis in line with local malaria-prevention guidance.
+  
+  6. Malaria Management
+  If malaria testing is positive, assess severity and commence an appropriate artemisinin-based combination therapy (ACT) according to current local guidelines. Severe malaria requires urgent protocol-based management.
+  
+  7. Assessment for Infection
+  If fever develops or there is a high clinical suspicion of infection, obtain appropriate cultures where feasible and commence empiric antibiotics according to the suspected source, severity, and local antimicrobial guidelines. IV ceftriaxone should be selected and dosed according to the clinical indication and applicable protocol rather than used routinely for an uncomplicated VOC.
+  
+  8. Ongoing Monitoring and Reassessment
+  Monitor vital signs, oxygen saturation, pain scores, fluid balance, and urine output regularly.
+  Reassess pain response after analgesia and investigate any new fever, focal bone or joint findings, chest pain, cough, dyspnoea, falling oxygen saturation, or neurological symptoms promptly.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-107',
+    title: 'Community-Acquired Pneumonia',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Pulmonology',
+    condition: 'Community-Acquired Pneumonia',
+    symptoms: [
+      'Fever with chills and rigors',
+      'Productive cough with rusty-coloured sputum',
+      'Progressive shortness of breath',
+      'Tachypnoea',
+      'Right lower lung zone dullness and bronchial breath sounds'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '70-year-old Yoruba male with a 10-year history of hypertension and an 8-year history of type 2 diabetes mellitus, presenting with 3 days of high-grade fever and cough that progressed from dry to productive of rusty-coloured sputum, followed by 1 day of progressive shortness of breath. Examination reveals fever, tachycardia, tachypnoea, oxygen saturation of 90% on room air, and right lower lung zone signs consistent with pneumonia. He requires urgent inpatient assessment and management for community-acquired pneumonia with hypoxaemia.',
+    content: `GENERAL MEDICAL CLINIC
+  
+  Patient Identification
+  A 70-year-old Yoruba Christian male, retired civil servant, residing in Ogbomosho, Oyo State.
+  
+  Presenting Complaints
+  1. Fever × 3/7
+  2. Cough × 3/7
+  3. Shortness of breath × 1/7
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 days prior to presentation when he developed fever. The fever was sudden in onset, high-grade, and associated with chills and rigors but no night sweats. It was temporarily relieved by paracetamol.
+  
+  Co-existent with the fever was a cough, which was initially dry but became productive of rusty-coloured sputum. There was no associated haemoptysis or chest pain.
+  
+  One day prior to presentation, he developed shortness of breath, which was initially on exertion but progressed to occur at rest. There was no associated orthopnoea, paroxysmal nocturnal dyspnoea, or pedal swelling.
+  
+  He is a known hypertensive and type 2 diabetic, diagnosed 10 years and 8 years ago, respectively. He is currently on Amlodipine 10 mg daily, Lisinopril 5 mg daily, and Metformin 500 mg BD. He reports fair compliance with his medications but has not attended a follow-up clinic visit in the last 6 months.
+  
+  Past Medical History
+  Known hypertensive and diabetic as stated above.
+  No previous history of similar illness or hospitalizations for respiratory conditions.
+  No known drug allergies.
+  
+  Family and Social History
+  Married in a monogamous setting with four children, all of whom are adults.
+  Non-smoker and does not consume alcohol.
+  Lives in a well-ventilated three-bedroom bungalow.
+  
+  Review of Systems
+  CNS: No headache, loss of consciousness, or seizures.
+  GIT: No abdominal pain, vomiting, or change in bowel habits.
+  MSS: No joint pains or swellings.
+  
+  Physical Examination
+  
+  General Examination
+  An elderly man, acutely ill-looking, febrile (temperature 38.8°C), moderately dehydrated, not pale, anicteric, with no significant peripheral lymphadenopathy or pedal oedema.
+  
+  Vital Signs
+  Pulse rate: 106 bpm, regular, normal volume.
+  Blood pressure: 150/90 mmHg.
+  Respiratory rate: 32 cpm, with respiratory distress and use of accessory muscles of respiration.
+  SpO₂: 90% on room air.
+  
+  Respiratory System
+  Trachea is central.
+  Decreased chest expansion over the right lower lung zone.
+  Percussion note is stony dull over the right lower lung zone.
+  Auscultation reveals bronchial breath sounds and coarse crepitations over the right lower lung zone.
+  
+  Cardiovascular System
+  Apex beat at the 5th left intercostal space, mid-clavicular line. S1 and S2 heard. No murmurs.
+  
+  Abdomen
+  Full and moves with respiration. Soft and non-tender. No hepatosplenomegaly. Bowel sounds are present and normal.
+  
+  Neurological System
+  Conscious and alert. GCS 15/15. No focal neurological deficits.
+  
+  Assessment
+  Community-acquired pneumonia with hypoxaemia in a patient with hypertension and type 2 diabetes mellitus. Documented CURB-65 score: 3; verify the score using the actual blood urea result and other criteria.
+  
+  Differential Diagnoses
+  1. Pulmonary tuberculosis.
+  2. Congestive cardiac failure (right-sided or biventricular).
+  3. Pulmonary embolism.
+  
+  Investigations
+  1. Full blood count (FBC): To assess for leukocytosis and neutrophilia.
+  2. Chest X-ray (PA view): To assess for lobar consolidation or pleural effusion.
+  3. Random blood sugar (RBS): To assess current glycaemic status.
+  4. Sputum microscopy, culture, and sensitivity (MCS): To identify the causative organism.
+  5. Sputum GeneXpert: To investigate for Mycobacterium tuberculosis where clinically indicated.
+  6. Serum electrolytes, urea, and creatinine (E/U/Cr): To assess renal function and obtain the blood urea value for CURB-65 scoring.
+  7. Electrocardiogram (ECG): To assess for cardiac strain or ischaemia.
+  
+  Management Plan
+  1. Admit for inpatient care and close monitoring.
+  2. Oxygen therapy: Commence supplemental oxygen and titrate to the appropriate target saturation, with urgent reassessment because of respiratory distress and SpO₂ of 90% on room air.
+  3. Intravenous fluids: Administer 0.9% Normal Saline to correct dehydration, guided by clinical assessment, renal function, urine output, and haemodynamic status. Use additional fluids cautiously because of the risk of fluid overload in an elderly patient with hypertension.
+  4. Empirical antibiotics:
+     - IV Ceftriaxone 1 g 12-hourly.
+     - IV Azithromycin 500 mg daily.
+     Review antibiotic choice and doses against local guidelines, illness severity, renal and hepatic function, and microbiology results.
+  5. Antipyretics: IV Paracetamol 1 g 8-hourly for fever, ensuring the total daily dose remains within the appropriate limit.
+  6. Chronic medications: Review Amlodipine 10 mg daily and Lisinopril 5 mg daily in light of the acute illness, blood pressure, renal function, potassium level, and hydration status. Consider temporarily withholding Lisinopril if acute kidney injury or significant volume depletion is present.
+  7. Glycaemic control: Monitor blood glucose regularly. Consider insulin-based management during acute illness if oral intake is poor or glycaemic control is inadequate; adjust or withhold Metformin if hypoxaemia, significant dehydration, or acute kidney injury makes its use unsafe.
+  8. Nursing care: Maintain a propped-up position, institute input-output charting, and monitor vital signs at least 4-hourly or more frequently according to clinical severity.
+  9. Escalation: Arrange urgent senior medical review and assess the need for higher-level respiratory support if hypoxaemia or respiratory distress persists despite initial treatment.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-106',
+    title: 'Cellulitis of the Left Leg and Ankle',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Clinic',
+    condition: 'Cellulitis',
+    symptoms: [
+      'Left leg and ankle pain',
+      'Left leg and ankle swelling',
+      'Erythema and local warmth',
+      'Fever with chills and rigors',
+      'Tenderness of the left lower limb'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-20',
+    summary: '50-year-old Yoruba male civil servant with hypertension presenting with a 3-day history of progressive left ankle pain, swelling, redness, and local warmth extending to the mid-calf, associated with fever, chills, and rigors. Clinical findings are consistent with cellulitis of the left lower limb. Deep vein thrombosis and other causes of an acutely swollen leg require exclusion.',
+    content: `GENERAL MEDICAL CLINIC
+  
+  Patient Identification
+  A 50-year-old Yoruba male civil servant residing in Ogbomosho, Oyo State.
+  
+  Presenting Complaints
+  1. Pain in the left leg and ankle × 3/7
+  2. Redness and swelling of the left leg and ankle × 3/7
+  
+  History of Presenting Complaint
+  He was apparently well until 3 days prior to presentation when he developed pain in his left ankle, which rapidly spread to involve the left lower leg. The pain is described as a constant, dull ache, worsened by movement and weight-bearing, with no preceding history of trauma, falls, or other injury.
+  
+  Associated with the pain, he noticed progressive swelling and redness of the affected areas. The skin over the left leg feels hot to the touch. He also reports associated high-grade fever, chills, and rigors, which started a day after the leg symptoms began. There is no history of similar swelling in the right leg, chest pain, or shortness of breath. No history of prolonged immobilization or recent long-distance travel.
+  
+  Past Medical History
+  Known hypertensive diagnosed 5 years ago, currently on Amlodipine 10 mg daily with fair compliance.
+  Not a known diabetic.
+  No history of previous similar episodes.
+  No history of chronic leg ulcers or varicose veins.
+  
+  Drug and Allergy History
+  On Amlodipine 10 mg daily.
+  No known drug allergies.
+  Has taken Tab. Paracetamol and some herbal liniment for the leg pain without significant relief.
+  
+  Family and Social History
+  Married in a monogamous family setting with 4 children.
+  Non-smoker and does not consume alcohol.
+  Resides in a well-ventilated 3-bedroom apartment.
+  
+  Review of Systems
+  CNS: No headache or loss of consciousness.
+  RS: No cough or dyspnoea.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: As noted in the history of presenting complaint.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking, febrile (temperature 38.4°C), not pale, not icteric, with no significant peripheral lymphadenopathy. No pedal oedema of the right lower limb.
+  
+  Vital Signs
+  PR: 98 bpm, regular, full volume.
+  BP: 140/90 mmHg.
+  RR: 20 cpm.
+  SpO₂: 98% on room air.
+  
+  Local Examination (Left Lower Limb)
+  
+  Inspection
+  Diffuse swelling of the left leg and ankle extending to the mid-calf.
+  Overlying skin is erythematous and shiny.
+  No obvious skin breaks, ulcers, or interdigital fungal infections noted.
+  No visible varicose veins.
+  
+  Palpation
+  Local hyperthermia over the left leg and ankle.
+  Marked tenderness on palpation of the erythematous area.
+  Pitting oedema noted up to the mid-calf.
+  Dorsalis pedis and posterior tibial pulses are palpable and comparable to those of the contralateral limb.
+  Calf circumference is 3 cm greater on the left compared with the right.
+  Homan's sign is negative.
+  
+  Respiratory System
+  Trachea central. Breath sounds are vesicular. No adventitious sounds.
+  
+  Cardiovascular System
+  Apex beat at the 5th left intercostal space, mid-clavicular line. S1 and S2 only heard.
+  
+  Abdomen
+  Flat, soft, and non-tender. No organomegaly. Bowel sounds are present and normal.
+  
+  Assessment
+  Cellulitis of the left leg and ankle in a known hypertensive patient.
+  
+  Differential Diagnoses
+  1. Deep vein thrombosis (DVT).
+  2. Necrotizing fasciitis (less likely based on the absence of crepitus or rapid skin necrosis).
+  3. Acute gouty arthritis.
+  
+  Investigations
+  1. Full blood count (FBC): To assess for leukocytosis.
+  2. Erythrocyte sedimentation rate (ESR) and/or C-reactive protein (CRP).
+  3. Fasting blood glucose (FBG): To screen for underlying diabetes mellitus.
+  4. Serum electrolytes, urea, and creatinine (E/U/Cr).
+  5. Venous Doppler ultrasound of the left lower limb: To rule out DVT.
+  6. Wound swab for microscopy, culture, and sensitivity (MCS) if bullae or discharge develops.
+  
+  Management Plan
+  1. Admit for inpatient care.
+  2. Limb elevation: Elevate the left leg above the level of the heart to reduce oedema.
+  3. Fluid resuscitation: IV Normal Saline 1 L 8-hourly, with close monitoring of blood pressure and fluid status.
+  4. Analgesics: IV Paracetamol 1 g 8-hourly.
+  5. Antibiotics: IV Ceftriaxone 1 g 12-hourly and IV Flucloxacillin 500 mg 6-hourly for empirical coverage of Streptococcus and Staphylococcus.
+  6. Monitor vital signs, especially temperature and blood pressure.
+  7. Mark the boundaries of the erythema with a surgical marker to monitor progression or regression.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+   
 {
   id: 'im-105',
   title: 'Decompensated Chronic Liver Disease Secondary to Hepatitis B',

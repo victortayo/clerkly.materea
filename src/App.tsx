@@ -573,7 +573,7 @@ export default function App() {
                                     Join our WhatsApp Group
                                 </a>
                                 <a
-                                    href="https://x.com/your_handle_here"
+                                    href="https://x.com/victort_io"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="inline-flex w-full justify-center items-center gap-2 text-xs font-bold text-slate-700 bg-slate-50 dark:text-slate-400 dark:bg-slate-900/20 px-4 py-2.5 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-900/40 transition-colors border border-slate-100 dark:border-slate-800"

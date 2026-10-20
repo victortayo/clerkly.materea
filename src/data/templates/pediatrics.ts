@@ -5,7 +5,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-96',
     title: 'Acute Gastroenteritis with Moderate Dehydration',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Emergency Unit',
+    subSpecialty: 'Pediatric Emergency',
     condition: 'Acute Gastroenteritis with Moderate Dehydration',
     symptoms: [
       'Vomiting',
@@ -20,7 +20,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-20',
     summary: '12-month-old male presenting with one day of recurrent non-bilious, non-bloody vomiting, inability to tolerate oral intake, and intermittent high-grade fever. Examination reveals moderate dehydration and tachycardia, with leukocytosis and neutrophilia. Assessed as acute gastroenteritis with moderate dehydration, with possible systemic infection requiring further evaluation.',
     content: `
-  PAEDIATRIC EMERGENCY UNIT
+  PEDIATRIC EMERGENCY UNIT
   
   Patient Identification
   Name: Master A.B.
@@ -189,7 +189,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-95',
     title: 'Posterior Urethral Valve with Suspected Obstructive Uropathy',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Nephrology',
+    subSpecialty: 'Pediatric Nephrology',
     condition: 'Posterior Urethral Valve',
     symptoms: [
       'Poor urinary stream',
@@ -203,7 +203,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-20',
     summary: 'Two-week-old male neonate presenting with a weak, dribbling urinary stream and straining during micturition since birth, with progressive lower abdominal distension and a palpable bladder and bilateral ballotable kidneys, suggestive of posterior urethral valve with obstructive uropathy.',
     content: `
-  PAEDIATRIC CLINIC
+  Pediatric CLINIC
   
   Patient Identification
   Name: Master Chidi Okoro
@@ -318,7 +318,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   Paracetamol drops 10–15 mg/kg/dose if the child appears distressed.
   
   5. Surgical Consultation
-  Urgent referral to a paediatric urologist for definitive management (cystoscopic valve ablation).
+  Urgent referral to a Pediatric urologist for definitive management (cystoscopic valve ablation).
   
   6. Alternative Urinary Diversion
   If valve ablation is not immediately available due to equipment limitations or the size of the child, a temporary vesicostomy may be considered by the surgical team.
@@ -337,14 +337,14 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-94',
     title: 'Measles with Complications',
     specialty: 'Pediatrics',
-    subSpecialty: 'General Paediatric Clinic',
+    subSpecialty: 'Pediatric Outpatient Clinic',
     condition: 'Measles with Pneumonia and Mild Dehydration',
     symptoms: ['Fever', 'Cough', 'Coryza', 'Sneezing', 'Conjunctival injection', 'Photophobia', 'Generalized maculopapular rash', 'Diarrhea'],
     contributor: 'Admin',
     lastModified: '2026-10-20',
     summary: 'A 3-year-old boy presents with a 5-day history of fever, followed by cough, coryza, bilateral conjunctival injection, and a generalized maculopapular rash that began behind the ears and along the hairline before spreading downwards. Koplik spots are present, and he missed the scheduled measles vaccinations. Examination reveals tachypnea, mild subcostal recession, bilateral basal coarse crepitations, and mild dehydration. The working diagnosis is measles complicated by pneumonia and mild dehydration.',
     content: `
-  GENERAL PAEDIATRIC CLINIC
+  Pediatric Outpatient Clinic
   
   PATIENT IDENTIFICATION
   Name: Master Chidi Okoro
@@ -455,14 +455,14 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   - Provide bed rest and adequate hydration.
   - Use tepid sponging for comfort if febrile.
   - Assess airway, breathing, circulation, oxygen saturation, and nutritional status.
-  - Arrange urgent paediatric review because of tachypnea, subcostal recession, and suspected pneumonia.
+  - Arrange urgent Pediatric review because of tachypnea, subcostal recession, and suspected pneumonia.
   
   2. Medications and Supportive Care:
   - Vitamin A: For a child aged 12 months or older with measles, administer 200,000 IU orally immediately and repeat the second dose after 24 hours, according to local protocol.
   - Syrup paracetamol: 15 mg/kg orally every 6 hours as needed for fever or pain, ensuring the total daily dose remains within the recommended limit.
-  - Antibiotics: Assess for bacterial pneumonia and treat according to severity and local paediatric guidelines. Oral amoxicillin may be appropriate for selected children with non-severe pneumonia who can tolerate oral medication; the dose and duration should follow the applicable guideline. Severe pneumonia or clinical deterioration requires urgent reassessment and appropriate escalation of treatment.
+  - Antibiotics: Assess for bacterial pneumonia and treat according to severity and local Pediatric guidelines. Oral amoxicillin may be appropriate for selected children with non-severe pneumonia who can tolerate oral medication; the dose and duration should follow the applicable guideline. Severe pneumonia or clinical deterioration requires urgent reassessment and appropriate escalation of treatment.
   - Zinc sulfate: 20 mg elemental zinc orally daily for 10–14 days for acute diarrhoea in a child older than 6 months, in accordance with local guidance.
-  - Oral rehydration solution (ORS): If dehydration is mild and the child can drink safely, give ORS according to the applicable paediatric rehydration protocol, with frequent reassessment and replacement of ongoing stool losses. A commonly used Plan B regimen is 75 mL/kg over 4 hours; reassess hydration and adjust treatment accordingly.
+  - Oral rehydration solution (ORS): If dehydration is mild and the child can drink safely, give ORS according to the applicable Pediatric rehydration protocol, with frequent reassessment and replacement of ongoing stool losses. A commonly used Plan B regimen is 75 mL/kg over 4 hours; reassess hydration and adjust treatment accordingly.
   - Eye care: Gently clean eye discharge with clean water or saline. Use topical antibiotics only if bacterial conjunctivitis is suspected and treatment is clinically indicated.
   - Oxygen: Administer if oxygen saturation is below the recommended target or if clinically indicated by respiratory distress.
   
@@ -486,7 +486,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-93',
     title: 'Acute Mastoiditis Complicating Chronic Suppurative Otitis Media',
     specialty: 'Pediatrics',
-    subSpecialty: 'General Paediatric Clinic',
+    subSpecialty: 'Pediatric Outpatient Clinic',
     condition: 'Acute Mastoiditis',
     symptoms: [
       'Right post-auricular pain',
@@ -498,7 +498,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     contributor: 'Admin',
     lastModified: '2026-10-20',
     summary: '7-year-old male presenting with a 4-day history of progressively worsening right post-auricular pain, a 3-day history of increasing post-auricular swelling, and fever, against a background of recurrent foul-smelling right ear discharge since age 3. Examination reveals a tender, fluctuant post-auricular swelling, anterior and inferior displacement of the right pinna, and purulent ear discharge, consistent with acute mastoiditis complicating chronic suppurative otitis media.',
-    content: `GENERAL PAEDIATRIC CLINIC
+    content: `Pediatric Outpatient Clinic
   
   Patient Identification
   Master Chidi Okafor, a 7-year-old Igbo Christian male residing in Owerri, Imo State. Informant: Mother (reliable).
@@ -595,7 +595,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-92',
     title: 'Bullous Impetigo',
     specialty: 'Pediatrics',
-    subSpecialty: 'General Paediatric Clinic',
+    subSpecialty: 'Pediatric Outpatient Clinic',
     condition: 'Bullous Impetigo',
     symptoms: [
       'Fluid-filled skin lesions',
@@ -606,7 +606,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     contributor: 'Admin',
     lastModified: '2026-10-20',
     summary: '4-year-old male presenting with a 3-day history of rapidly spreading fluid-filled skin lesions involving the trunk and limbs, associated with mild itching and a 1-day history of intermittent low-grade fever. Clinical findings are consistent with bullous impetigo.',
-    content: `GENERAL PAEDIATRIC CLINIC
+    content: `Pediatric Outpatient Clinic
   
   Patient Identification
   Master Musa Ibrahim, a 4-year-old Hausa Muslim male residing in Dutse, Jigawa State. Informant: Mother (reliable).
@@ -718,7 +718,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-91',
     title: 'Simple Febrile Convulsion',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Emergency Unit',
+    subSpecialty: 'Pediatric Emergency',
     condition: 'Febrile Convulsion',
     symptoms: [
       'Fever',
@@ -731,7 +731,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-12',
     summary: 'A 2-year-4-month-old male presenting with 2 days of high-grade fever and a single generalized tonic-clonic seizure lasting approximately 3–5 minutes, followed by brief post-ictal sleepiness and complete recovery of consciousness. Examination revealed fever without focal neurological deficits or signs of meningeal irritation.',
     content: `
-  PAEDIATRIC EMERGENCY UNIT
+  PEDIATRIC EMERGENCY UNIT
   
   PATIENT IDENTIFICATION
   Name: Master Adebayo Okoro
@@ -843,15 +843,15 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   EMERGENCY CARE
   1. Ensure airway patency and place the patient in the recovery position if still post-ictal.
   2. Administer oxygen if SpO₂ drops below 94%.
-  3. Check RBS urgently and correct hypoglycaemia if present, using an appropriate paediatric dextrose regimen.
+  3. Check RBS urgently and correct hypoglycaemia if present, using an appropriate Pediatric dextrose regimen.
   
   FEVER AND SEIZURE CONTROL
   1. Use appropriate cooling measures and avoid excessive wrapping.
   2. Administer paracetamol (syrup or suppository) 15 mg/kg every 6–8 hours, observing the recommended maximum daily dose.
-  3. If seizure recurs and lasts 5 minutes or longer, administer an appropriate rescue benzodiazepine according to the paediatric emergency protocol. Options include IV diazepam, rectal diazepam or IV/IM/buccal/intranasal midazolam, using the appropriate route-specific dose and monitoring respiratory status.
+  3. If seizure recurs and lasts 5 minutes or longer, administer an appropriate rescue benzodiazepine according to the Pediatric emergency protocol. Options include IV diazepam, rectal diazepam or IV/IM/buccal/intranasal midazolam, using the appropriate route-specific dose and monitoring respiratory status.
   
   SPECIFIC TREATMENT (PENDING INVESTIGATIONS)
-  1. Encourage oral fluids once fully awake and able to swallow safely. If oral intake is inadequate, assess hydration and administer appropriate fluids according to clinical status and paediatric fluid guidelines.
+  1. Encourage oral fluids once fully awake and able to swallow safely. If oral intake is inadequate, assess hydration and administer appropriate fluids according to clinical status and Pediatric fluid guidelines.
   2. If malaria is confirmed or severe malaria is strongly suspected, initiate appropriate antimalarial treatment. For severe malaria, administer IV artesunate according to the recommended weight-based regimen at 0, 12 and 24 hours, then daily until oral treatment can be tolerated.
   3. Initiate empiric antibiotics, such as IV ceftriaxone, if bacterial sepsis or meningitis is suspected, using the appropriate dose and regimen for the suspected infection and local guidelines.
   
@@ -877,7 +877,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-90',
     title: 'Sepsis of Unknown Source with Moderate Dehydration',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Emergency Unit',
+    subSpecialty: 'Pediatric Emergency',
     condition: 'Sepsis with Moderate Dehydration',
     symptoms: [
       'Fever',
@@ -890,7 +890,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-12',
     summary: 'A 2-year-old male presenting with 3 days of high-grade fever, 1 day of refusal of feeds and excessive crying, with examination findings of acute illness and moderate dehydration. Initial assessment is sepsis of unknown source with moderate dehydration.',
     content: `
-  PAEDIATRIC EMERGENCY UNIT
+  PEDIATRIC EMERGENCY UNIT
   
   PATIENT IDENTIFICATION
   Name: Master T.O.
@@ -991,7 +991,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   3. Antipyretic: Administer paracetamol 15 mg/kg, using an appropriate route and formulation. Use tepid sponging for high fever if appropriate.
   
   EMPIRIC ANTIBIOTICS (PENDING CULTURE RESULTS)
-  4. IV ceftriaxone 100 mg/kg once daily, as prescribed following assessment and local paediatric sepsis guidance.
+  4. IV ceftriaxone 100 mg/kg once daily, as prescribed following assessment and local Pediatric sepsis guidance.
   5. If severe malaria is suspected, commence IV artesunate according to the recommended weight-based regimen at 0, 12 and 24 hours, then continue as indicated by clinical response and treatment guidelines.
   
   MONITORING AND NURSING CARE
@@ -1012,7 +1012,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-89',
     title: 'Well-Controlled Bronchial Asthma – Clinic Follow-Up',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Respiratory Clinic',
+    subSpecialty: 'Pediatric Respiratory Clinic',
     condition: 'Bronchial Asthma',
     symptoms: [
       'Known bronchial asthma on maintenance therapy',
@@ -1022,7 +1022,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     contributor: 'Admin',
     lastModified: '2026-10-12',
     summary: '4-year-old male with known bronchial asthma presenting for routine follow-up, currently asymptomatic with normal respiratory examination, satisfactory activity and sleep, and no recent exacerbations, suggesting well-controlled asthma.',
-    content: `PAEDIATRIC ASTHMA CLINIC FOLLOW-UP
+    content: `Pediatric ASTHMA CLINIC FOLLOW-UP
   
   Patient Seen
   A 4-year-old male, known asthmatic patient on regular follow-up, brought by his mother for routine review.
@@ -1081,10 +1081,10 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   7. Provide or review a written asthma action plan with the mother, including when to seek urgent medical attention.
   8. Monitor symptom frequency, night-time cough, reliever use, activity limitation, and exacerbations at each visit.
   9. Review growth and inhaled corticosteroid adverse effects.
-  10. Review in Paediatric/Chest Clinic in 2–3 months or earlier if symptoms recur.
+  10. Review in Pediatric/Chest Clinic in 2–3 months or earlier if symptoms recur.
   
   CLINICAL NOTE
-  Beclometasone 50 micrograms, 1 puff twice daily, is a low-dose option, but the appropriate regimen depends on the child's current treatment, symptom frequency, and local paediatric asthma protocol. Confirm the prescribed dose and device with the treating clinician.`,
+  Beclometasone 50 micrograms, 1 puff twice daily, is a low-dose option, but the appropriate regimen depends on the child's current treatment, symptom frequency, and local Pediatric asthma protocol. Confirm the prescribed dose and device with the treating clinician.`,
     documentation: `
   <div class="space-y-6">
   Not yet available
@@ -1107,7 +1107,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   contributor: 'Admin',
   lastModified: '2026-10-12',
   summary: 'A 1-day-old term male neonate presenting with a mobile natal tooth in the lower central incisor region, associated with maternal nipple soreness during breastfeeding, but no respiratory symptoms or tongue ulceration.',
-  content: `PAEDIATRIC CLINIC
+  content: `Pediatric CLINIC
 
 Patient Seen
 Master Chidi Okechukwu, a 1-day-old male neonate from Ogbomosho, Oyo State. He is Igbo and Christian. Informant is the mother, who is reliable.
@@ -1194,7 +1194,7 @@ INITIAL INVESTIGATION PLAN
 2. Dental X-ray (periapical) of the mandibular anterior region to determine whether the tooth is part of the primary dentition or a supernumerary tooth, if resources permit.
 
 INITIAL MANAGEMENT PLAN
-1. Paediatric dental consultation for evaluation and possible extraction.
+1. Pediatric dental consultation for evaluation and possible extraction.
 2. Monitor for risk of aspiration due to tooth mobility.
 3. Counsel the mother on the nature of the condition. Explain that natal teeth are often part of the normal primary dentition but may require removal if very loose or causing trauma.
 4. If the tooth is to be retained, advise cleaning with a soft, damp cloth.
@@ -1213,7 +1213,7 @@ Not yet available
     id: 'peds-87',
     title: 'Partially Controlled Bronchial Asthma',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Outpatient Clinic',
+    subSpecialty: 'Pediatric Outpatient Clinic',
     condition: 'Bronchial Asthma',
     symptoms: [
       'Dry cough',
@@ -1353,7 +1353,7 @@ Not yet available
     id: 'peds-86',
     title: 'Well-Controlled Bronchial Asthma',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Outpatient Clinic',
+    subSpecialty: 'Pediatric Outpatient Clinic',
     condition: 'Bronchial Asthma',
     symptoms: [
       'Cough',
@@ -1364,7 +1364,7 @@ Not yet available
     contributor: 'Admin',
     lastModified: '2026-10-07',
     summary: '8-year-old boy with known bronchial asthma presenting for follow-up, with infrequent daytime symptoms, no nocturnal symptoms or activity limitation, and no recent severe exacerbation, consistent with well-controlled asthma.',
-    content: `PAEDIATRIC OUTPATIENT CLINIC
+    content: `Pediatric Outpatient Clinic
   
   PATIENT IDENTIFICATION
   
@@ -1388,7 +1388,7 @@ Not yet available
   
   HISTORY OF PRESENTING COMPLAINT
   
-  The patient is a known asthmatic, diagnosed at age 4. He is currently being managed at the paediatric outpatient clinic.
+  The patient is a known asthmatic, diagnosed at age 4. He is currently being managed at the Pediatric Outpatient Clinic.
   
   In the last 4/52, he has experienced daytime symptoms of mild cough and wheezing less than twice per week. He reports no nocturnal awakenings due to cough or breathlessness.
   
@@ -1548,7 +1548,7 @@ Not yet available
         id: 'peds-85',
         title: 'Pediculosis Capitis in an 8-Year-Old Girl',
         specialty: 'Pediatrics',
-        subSpecialty: 'Paediatric Dermatology',
+        subSpecialty: 'Pediatric Dermatology',
         condition: 'Pediculosis Capitis (Head Lice)',
         symptoms: [
           'Scalp itching × 1/52',
@@ -1559,7 +1559,7 @@ Not yet available
         lastModified: '2026-09-25',
         summary: 'An 8-year-old girl presenting with a 1-week history of intense scalp itching and a 2-day history of visible crawling insects and firmly adherent nits. Examination confirms live lice and nits, consistent with pediculosis capitis.',
         content: `
-      PAEDIATRIC CLINIC
+      Pediatric CLINIC
       
       PATIENT SEEN
       
@@ -1749,7 +1749,7 @@ Not yet available
         id: 'peds-84',
         title: 'Functional Constipation in a 4-Year-Old Girl',
         specialty: 'Pediatrics',
-        subSpecialty: 'Paediatric Gastroenterology',
+        subSpecialty: 'Pediatric Gastroenterology',
         condition: 'Functional Constipation',
         symptoms: [
           'Difficulty passing stool × 2/12',
@@ -1760,7 +1760,7 @@ Not yet available
         lastModified: '2026-09-25',
         summary: 'A 4-year-old girl with a 2-month history of infrequent, hard stools associated with painful defecation, stool withholding behaviour, occasional blood streaking, abdominal bloating, and overflow faecal soiling. Findings are consistent with functional constipation with faecal impaction.',
         content: `
-      PAEDIATRIC CLINIC
+      Pediatric CLINIC
       
       PATIENT SEEN
       
@@ -1943,7 +1943,7 @@ Not yet available
       
       Preferred osmotic laxatives:
       
-      Lactulose 5–10 mL twice daily OR Macrogol 3350 paediatric sachet 1 sachet daily.
+      Lactulose 5–10 mL twice daily OR Macrogol 3350 Pediatric sachet 1 sachet daily.
       
       Titrate the dose to achieve 1–2 soft stools per day.
       
@@ -1981,7 +1981,7 @@ Not yet available
         id: 'peds-83',
         title: 'Generalized Pruritus in an 11-Year-Old Boy',
         specialty: 'Pediatrics',
-        subSpecialty: 'General Paediatric Clinic',
+        subSpecialty: 'Pediatric Outpatient Clinic',
         condition: 'Generalized Pruritus',
         symptoms: [
           'Generalized body itching × 1/52',
@@ -1992,7 +1992,7 @@ Not yet available
         lastModified: '2026-09-25',
         summary: 'An 11-year-old boy presenting with a 1-week history of generalized pruritus, worse at night, with generalized excoriation marks but no primary skin rash. Differentials include incipient scabies, papular urticaria, hookworm infestation, and atopic dermatitis.',
         content: `
-      GENERAL PAEDIATRIC CLINIC
+      Pediatric Outpatient Clinic
       
       PATIENT SEEN
       
@@ -2154,7 +2154,7 @@ Not yet available
         id: 'peds-82',
         title: 'Pubertal Gynecomastia with Galactorrhea',
         specialty: 'Pediatrics',
-        subSpecialty: 'Paediatric Endocrinology',
+        subSpecialty: 'Pediatric Endocrinology',
         condition: 'Pubertal Gynecomastia with Galactorrhea',
         symptoms: [
           'Bilateral breast swelling',
@@ -2165,7 +2165,7 @@ Not yet available
         lastModified: '2026-09-20',
         summary: 'A 15-year-old male presenting with bilateral symmetrical breast enlargement, breast tenderness, and bilateral milky nipple discharge during puberty. Examination reveals bilateral sub-areolar glandular tissue with no suspicious breast or testicular masses, consistent with pubertal gynecomastia with galactorrhea.',
         content: `
-      PAEDIATRIC CLINIC
+      Pediatric CLINIC
       
       PATIENT SEEN
       
@@ -2375,7 +2375,7 @@ Not yet available
       
       If prolactin is significantly elevated, arrange cranial CT or MRI to assess the pituitary gland.
       
-      Refer to the Paediatric Endocrinology Unit for specialized follow-up.
+      Refer to the Pediatric Endocrinology Unit for specialized follow-up.
       
       Surgical intervention with reduction mammoplasty is not indicated at this stage unless the swelling persists beyond 2 years or causes severe psychological distress.
       `,
@@ -2392,7 +2392,7 @@ Not yet available
           id: 'peds-81',
           title: 'Eruption of First Permanent Molars',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Dentistry',
+          subSpecialty: 'Pediatric Dentistry',
           condition: 'Dental Eruption of First Permanent Molars',
           symptoms: [
             'Gum pain',
@@ -2406,7 +2406,7 @@ Not yet available
           lastModified: '2026-09-12',
           summary: '5-year-old boy presenting with a 3-day history of gum pain over the posterior lower jaw, with gingival erythema and swelling and visible eruption of a first permanent molar, consistent with physiological dental eruption.',
           content: `
-        PAEDIATRIC CLINIC
+        Pediatric CLINIC
         
         Patient Seen
         Tobi Adeyemi is a 5-year-old male Christian, Yoruba, residing in Surulere, Lagos State. Informant is the mother, who is reliable.
@@ -2537,7 +2537,7 @@ Not yet available
         Use warm saline mouth rinses to keep the area clean and reduce inflammation.
         
         6. Referral:
-        Refer to a paediatric dentist for a routine dental check-up and monitoring of eruption of the permanent teeth.
+        Refer to a Pediatric dentist for a routine dental check-up and monitoring of eruption of the permanent teeth.
         `,
           documentation: `
         <div class="space-y-6">
@@ -3294,7 +3294,7 @@ Not yet available
           id: 'peds-75',
           title: 'Acute Follicular Tonsillitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Infectious Diseases',
+          subSpecialty: 'Pediatric Infectious Diseases',
           condition: 'Acute Follicular Tonsillitis',
           symptoms: [
             'Sore throat',
@@ -3409,7 +3409,7 @@ Not yet available
           id: 'peds-74',
           title: 'Acute Dentoalveolar Abscess Secondary to Dental Caries',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Dentistry',
+          subSpecialty: 'Pediatric Dentistry',
           condition: 'Acute Dentoalveolar Abscess',
           symptoms: [
             'Painful swelling of the upper gum',
@@ -4653,7 +4653,7 @@ Not yet available
           id: 'peds-66',
           title: 'Non-bullous Impetigo',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Impetigo',
           symptoms: [
             'Perioral skin rash',
@@ -4665,7 +4665,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '18-month-old male presenting with a 5-day history of pruritic perioral and perinasal vesiculopustular lesions that ruptured and developed characteristic honey-colored crusts, with similar lesions in siblings, consistent with contagious non-bullous impetigo.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         Name: Master Chidi Okafor
@@ -4794,7 +4794,7 @@ Not yet available
           id: 'peds-65',
           title: 'Non-bullous Impetigo',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Impetigo',
           symptoms: [
             'Pruritic facial skin lesions',
@@ -4806,7 +4806,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '4-year-old male child presenting with a 5-day history of pruritic perioral vesicles that ruptured to form characteristic honey-colored crusts, without fever or systemic toxicity, consistent with localized non-bullous impetigo.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         A 4-year-old male child, resident of Mushin, Lagos State, brought by his mother.
@@ -4904,7 +4904,7 @@ Not yet available
           id: 'peds-64',
           title: 'Scabies in an Infant',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Scabies',
           symptoms: [
             'Generalized pruritic rash',
@@ -4916,7 +4916,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '4-month-old male infant presenting with a 2-week history of intensely pruritic generalized rash involving the interdigital spaces, axillae, and periumbilical region, with nocturnal worsening and characteristic burrows, consistent with scabies.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         A 4-month-old male infant, brought by mother, resident of Mushin, Lagos State.
@@ -5017,7 +5017,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '4-day-old male neonate presenting with a 2-day history of fragile vesicles that ruptured to leave hyperpigmented macules with a fine scaly collarette on the chin, neck, and upper chest, without systemic symptoms, consistent with transient neonatal pustular melanosis.',
-          content: `PAEDIATRIC/NEONATOLOGY CLINIC
+          content: `Pediatric/NEONATOLOGY CLINIC
         
         Patient Identification
         A 4-day-old male neonate, born to a 28-year-old G2P2 mother, residing in Ikeja, Lagos State.
@@ -5124,7 +5124,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '4-week-old male infant presenting with a 2-week history of localized erythematous papules and pustules on the cheeks and forehead, without systemic symptoms, consistent with benign neonatal cephalic pustulosis.',
-          content: `PAEDIATRIC/NEONATOLOGY CLINIC
+          content: `Pediatric/NEONATOLOGY CLINIC
         
         Patient Identification
         A 4-week-old male infant, brought by his mother, a resident of Ikeja, Lagos State.
@@ -5214,7 +5214,7 @@ Not yet available
           id: 'peds-61',
           title: 'Irritant Diaper Dermatitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Irritant Diaper Dermatitis',
           symptoms: [
             'Diaper-area erythematous rash',
@@ -5226,7 +5226,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '7-month-old male infant presenting with a 5-day history of confluent bright erythematous diaper-area plaques involving the buttocks, perineum, scrotum, and lower abdomen, with relative sparing of the inguinal folds and no satellite lesions or secondary infection, consistent with irritant diaper dermatitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         Age: 7 months
@@ -5347,7 +5347,7 @@ Not yet available
           id: 'peds-60',
           title: 'Irritant Diaper Dermatitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Irritant Diaper Dermatitis',
           symptoms: [
             'Perianal erythematous rash',
@@ -5358,7 +5358,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '6-month-old male infant presenting with a 4-day history of erythematous confluent rash involving the buttocks, perineum, and diaper area, with relative sparing of the skin folds and no satellite lesions or pustules, consistent with irritant diaper dermatitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         A 6-month-old male infant, brought by his mother, a resident of Ikeja, Lagos State.
@@ -5441,7 +5441,7 @@ Not yet available
           id: 'peds-59',
           title: 'Candidal Diaper Dermatitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Candidal Diaper Dermatitis',
           symptoms: [
             'Perianal erythematous rash',
@@ -5453,7 +5453,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '8-month-old male infant presenting with a 5-day history of erythematous diaper-area rash involving the inguinal folds and perineum, with characteristic satellite papules and pustules and associated irritability during diaper changes, consistent with candidal diaper dermatitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         An 8-month-old male infant, residing in Mushin, Lagos State. Informant is the mother (reliable).
@@ -5528,7 +5528,7 @@ Not yet available
           id: 'peds-58',
           title: 'Irritant Contact Diaper Dermatitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Irritant Contact Diaper Dermatitis',
           symptoms: [
             'Diaper-area erythematous rash',
@@ -5540,7 +5540,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '10-month-old male infant presenting with a 4-day history of progressively worsening confluent erythematous plaques over the buttocks, perineum, and lower abdomen, associated with crying during diaper changes and micturition following a recent change in diaper brand, with sparing of the inguinal folds and no satellite lesions, consistent with irritant contact diaper dermatitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         Age: 10 months
@@ -5647,7 +5647,7 @@ Not yet available
           id: 'peds-57',
           title: 'Irritant Contact Diaper Dermatitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Irritant Contact Diaper Dermatitis',
           symptoms: [
             'Diaper-area erythematous rash',
@@ -5658,7 +5658,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '6-month-old male infant with a 4-day history of erythematous confluent rash over the convex surfaces of the buttocks and genitalia following a recent change in diaper brand, with relative sparing of the inguinal folds and no satellite lesions, consistent with mild irritant contact diaper dermatitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         A 6-month-old male infant, residing in Mushin, Lagos State. Brought by mother.
@@ -5745,7 +5745,7 @@ Not yet available
           id: 'peds-56',
           title: 'Atopic Dermatitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Atopic Dermatitis',
           symptoms: [
             'Recurrent pruritic skin rash',
@@ -5757,7 +5757,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '14-month-old male infant with a 6-month history of recurrent intensely pruritic erythematous dry scaly lesions initially involving the cheeks and extensor limbs, later involving the antecubital and popliteal fossae, with heat-related exacerbation and excoriations, consistent with mild to moderate atopic dermatitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         A 14-month-old male infant, residing in Ikeja, Lagos State, brought by his mother.
@@ -5855,7 +5855,7 @@ Not yet available
           id: 'peds-55',
           title: 'Seborrhoeic Dermatitis (Cradle Cap)',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Infantile Seborrhoeic Dermatitis',
           symptoms: [
             'Scaly scalp rash',
@@ -5866,7 +5866,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '4-month-old male infant presenting with 3 weeks of yellowish, greasy, adherent scalp scales with mild pruritus and no systemic symptoms, consistent with mild infantile seborrhoeic dermatitis (cradle cap).',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         A 4-month-old male infant, brought by his mother, a resident of Ikeja, Lagos State.
@@ -5955,7 +5955,7 @@ Not yet available
           id: 'peds-54',
           title: 'Miliaria Rubra (Heat Rash)',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Pediatrics',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Miliaria Rubra',
           symptoms: [
             'Pruritic skin rash',
@@ -5971,7 +5971,7 @@ Not yet available
             '/images/milia2.jpg'
           ],  
           summary: '8-month-old male infant presenting with a 5-day history of itchy erythematous papules and vesicles over the neck folds, upper chest, and back following increased ambient temperature and excessive sweating, consistent with miliaria rubra.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Identification
         An 8-month-old male infant residing in Surulere, Lagos State. Informant is the mother, who is reliable.
@@ -6071,7 +6071,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-27',
           summary: '3-day-old term male neonate presenting with a generalized erythematous maculopapular and pustular rash involving the trunk, face and proximal limbs with sparing of the palms and soles, consistent with erythema toxicum neonatorum.',
-          content: `PAEDIATRIC/NEONATOLOGY CLINIC
+          content: `Pediatric/NEONATOLOGY CLINIC
         
         Patient Identification
         Name: Baby Ibrahim
@@ -6174,7 +6174,7 @@ Not yet available
           id: 'peds-52',
           title: 'Acute Hemolytic Crisis in G6PD Deficiency',
           specialty: 'Pediatrics',
-          subSpecialty: 'General Paediatric Clinic',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'G6PD Deficiency with Acute Intravascular Hemolysis',
           symptoms: [
             'Yellowish discoloration of the eyes',
@@ -6187,7 +6187,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-20',
           summary: '4-year-old Yoruba male from Ogbomoso presenting with acute intravascular hemolysis characterized by fever, jaundice, dark-colored urine, pallor and lethargy following exposure to naphthalene balls and Co-trimoxazole, consistent with G6PD deficiency-related hemolytic crisis.',
-          content: `GENERAL PAEDIATRIC CLINIC
+          content: `Pediatric Outpatient Clinic
         
         Patient Seen
         
@@ -6326,7 +6326,7 @@ Not yet available
         1. STABILIZATION & SUPPORTIVE CARE
         
         Admission:
-        Admit to the paediatric ward for close monitoring.
+        Admit to the Pediatric ward for close monitoring.
         
         Hydration:
         Commence IV fluids (0.45% Saline in 5% Dextrose) at maintenance rate to maintain high urine output and prevent renal tubular blockage by free haemoglobin.
@@ -6628,7 +6628,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-19',
           summary: '2-year-old preterm female toddler with recurrent episodes of respiratory symptoms presenting with 4 days of coryza, 1 week of cough and progressive respiratory distress with intercostal recession and widespread bilateral rhonchi, clinically consistent with acute exacerbation of probable asthma, likely triggered by a viral upper respiratory tract infection.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -6891,7 +6891,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-16',
           summary: '8-day-old female neonate with 2 days of bilateral conjunctival redness, thick purulent eye discharge and eyelid oedema, clinically consistent with bilateral ophthalmia neonatorum requiring urgent evaluation for gonococcal and chlamydial infection.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -7230,7 +7230,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-13',
           summary: '6-hour-old term male neonate with jitteriness, poor suckling, lethargy, mild dehydration and hypothermia following ineffective breastfeeding due to maternal lactation failure, clinically consistent with symptomatic neonatal hypoglycemia.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -7257,7 +7257,7 @@ Not yet available
         No history of prolonged rupture of membranes.
         No history of peripartum pyrexia.
         
-        The baby was brought to the Emergency Paediatric Unit due to worsening lethargy and jitteriness.
+        The baby was brought to the Pediatric Emergency due to worsening lethargy and jitteriness.
         
         Pregnancy and Antenatal History:
         
@@ -7517,7 +7517,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-13',
           summary: '6-hour-old term LGA male neonate presenting with poor suck and jitteriness, with tremulous movements that stop on passive holding, clinically consistent with symptomatic neonatal hypoglycemia likely related to hyperinsulinism in an LGA infant.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -7747,7 +7747,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-13',
           summary: '3-hour-old term LGA male neonate, born to a mother with poorly controlled gestational diabetes mellitus, presenting with jitteriness, poor suckling and mild lethargy, clinically suspicious of neonatal hypoglycemia in an infant of a diabetic mother.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -7992,7 +7992,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-13',
           summary: '18-hour-old early-term male neonate with 4 hours of poor feeding and jitteriness, with bedside blood glucose of 1.9 mmol/L, clinically consistent with symptomatic neonatal hypoglycaemia requiring immediate glucose correction and evaluation for an underlying cause.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -8301,7 +8301,7 @@ Not yet available
         
         If feeding difficulty is present, provide lactation support and supplemental expressed breast milk where necessary.
         
-        If hypoglycaemia persists despite adequate glucose infusion, escalate to Neonatology/Paediatric Endocrinology for assessment of hyperinsulinism, endocrine disorders and metabolic disease.
+        If hypoglycaemia persists despite adequate glucose infusion, escalate to Neonatology/Pediatric Endocrinology for assessment of hyperinsulinism, endocrine disorders and metabolic disease.
         
         Refractory Hypoglycaemia:
         
@@ -8367,7 +8367,7 @@ Not yet available
         
         Monitor weight and hydration.
         
-        If hypoglycaemia is recurrent or persistent, arrange Neonatology/Paediatric Endocrinology review and complete appropriate metabolic/endocrine evaluation.
+        If hypoglycaemia is recurrent or persistent, arrange Neonatology/Pediatric Endocrinology review and complete appropriate metabolic/endocrine evaluation.
         
         Prognosis:
         
@@ -8630,7 +8630,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-13',
           summary: '6-year-old boy with 2 weeks of intensely pruritic annular erythematous plaques with raised scaly active borders and central clearing on the trunk and left arm, with recent hydrocortisone use causing worsening lesions and a possible zoonotic source from a puppy with patchy hair loss, clinically consistent with tinea corporis with probable tinea incognito.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -8860,7 +8860,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-13',
           summary: '7-year-old boy with 3 weeks of pruritic, scaly patches of alopecia with broken hair shafts and grey-patch/black-dot appearance, with mild occipital lymphadenopathy and similar cases among schoolmates, clinically consistent with non-inflammatory tinea capitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -9047,7 +9047,7 @@ Not yet available
         
         Systemic antifungal therapy is required because topical antifungals alone do not adequately penetrate the infected hair shafts and follicles.
         
-        Griseofulvin is selected as systemic therapy because of its effectiveness against dermatophytes and suitability for paediatric tinea capitis.
+        Griseofulvin is selected as systemic therapy because of its effectiveness against dermatophytes and suitability for Pediatric tinea capitis.
         
         Administration with a fatty meal improves griseofulvin absorption and should be emphasized during counselling.
         
@@ -9293,7 +9293,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-03',
           summary: 'A 15-year-old female with recurrent childhood eczema presented with a one-month history of pruritic facial and cervical eczema associated with post-inflammatory hyperpigmentation and lichenification, without evidence of secondary bacterial infection.',
-          content: `PAEDIATRIC DERMATOLOGY CLINIC
+          content: `Pediatric Dermatology CLINIC
         
         Patient Seen
         
@@ -9530,7 +9530,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-08-03',
           summary: 'A 6-year-old girl with recurrent eczema since infancy presented with a 3-week history of pruritic dry scaly rash involving the face and neck, consistent with mild-to-moderate atopic dermatitis without secondary bacterial infection.',
-          content: `PAEDIATRIC DERMATOLOGY CLINIC
+          content: `Pediatric Dermatology CLINIC
         
         Patient Seen
         
@@ -9734,9 +9734,9 @@ Not yet available
         Advise caregivers to return immediately if the rash becomes painful, develops pus, extensive crusting, fever or spreads rapidly.
         
         Follow-up:
-        Review in the Paediatric Clinic in 2 weeks.
+        Review in the Pediatric Clinic in 2 weeks.
         Continue long-term daily emollient therapy.
-        Refer to a Paediatric Dermatologist if eczema becomes recurrent, severe or poorly controlled despite appropriate treatment.
+        Refer to a Pediatric Dermatologist if eczema becomes recurrent, severe or poorly controlled despite appropriate treatment.
         
         Prognosis:
         Good. Most children with mild-to-moderate atopic dermatitis achieve good symptom control with consistent skin hydration, trigger avoidance and appropriate use of low-potency topical corticosteroids during flares. Relapses are common but many children improve with age.
@@ -9752,7 +9752,7 @@ Not yet available
           id: 'peds-38',
           title: 'Idiopathic Nephrotic Syndrome',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Nephrology',
+          subSpecialty: 'Pediatric Nephrology',
           condition: 'Nephrotic Syndrome',
           symptoms: [
             'Periorbital swelling',
@@ -9764,7 +9764,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-26',
           summary: '5-year-old boy presenting with first-episode idiopathic nephrotic syndrome, characterized by progressive periorbital and generalized oedema, ascites, scrotal swelling and frothy urine, with likely Minimal Change Disease.',
-          content: `PAEDIATRICS / PAEDIATRIC NEPHROLOGY
+          content: `PediatricS / Pediatric NEPHROLOGY
         
         Patient Seen
         
@@ -9972,7 +9972,7 @@ Not yet available
         MANAGEMENT
         
         Admission:
-        Admit to the paediatric ward for monitoring of oedema, urine protein, blood pressure and response to corticosteroid therapy.
+        Admit to the Pediatric ward for monitoring of oedema, urine protein, blood pressure and response to corticosteroid therapy.
         
         Dietary Management:
         No added salt diet. Avoid salty snacks, processed foods and added table salt.
@@ -9987,7 +9987,7 @@ Not yet available
         Prednisolone 40 mg orally once daily after breakfast for 6 weeks.
         
         Then:
-        Prednisolone 1.5 mg/kg (30 mg) orally on alternate days for another 6 weeks, followed by gradual discontinuation according to response and local paediatric nephrology protocol.
+        Prednisolone 1.5 mg/kg (30 mg) orally on alternate days for another 6 weeks, followed by gradual discontinuation according to response and local Pediatric nephrology protocol.
         
         Monitor urine protein daily to assess remission.
         
@@ -10083,7 +10083,7 @@ Not yet available
         Serum albumin weekly until improving.
         
         Following discharge:
-        Weekly Paediatric Nephrology Clinic review until remission.
+        Weekly Pediatric Nephrology Clinic review until remission.
         Then monthly for 6 months, with ongoing monitoring for relapse, steroid adverse effects, growth parameters and blood pressure.
         
         Prognosis:
@@ -10112,7 +10112,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-25',
           summary: 'A 3-year-old incompletely immunized male presented with fever, cough, coryza, conjunctivitis, Koplik spots and a generalized cephalocaudal maculopapular rash, consistent with uncomplicated acute measles.',
-          content: `PAEDIATRIC EMERGENCY
+          content: `Pediatric EMERGENCY
         
         Patient Seen
         
@@ -10347,7 +10347,7 @@ Not yet available
         Advise immediate return if difficulty breathing, persistent vomiting, inability to drink, convulsions, persistent fever, excessive drowsiness, worsening eye symptoms, ear discharge or reduced urine output develops.
         
         Follow-up:
-        Review in the Paediatric Clinic in 3–5 days or earlier if symptoms worsen.
+        Review in the Pediatric Clinic in 3–5 days or earlier if symptoms worsen.
         Monitor for pneumonia, otitis media, diarrhoea, keratitis, encephalitis and secondary bacterial skin infection.
         Arrange catch-up measles vaccination after complete recovery.
         
@@ -10365,7 +10365,7 @@ Not yet available
           id: 'peds-36',
           title: 'Aplastic Crisis in a Child with Sickle Cell Anaemia',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Haematology',
+          subSpecialty: 'Pediatric Haematology',
           condition: 'Aplastic Crisis',
           symptoms: [
             'Progressive weakness',
@@ -10378,7 +10378,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-21',
           summary: '7-year-old male child with HbSS presenting with fever, progressive weakness, severe pallor and symptomatic anaemia, with markedly reduced reticulocyte count consistent with acute aplastic crisis, likely secondary to Parvovirus B19 infection.',
-          content: `PAEDIATRIC HAEMATOLOGY CLINIC
+          content: `Pediatric HAEMATOLOGY CLINIC
         
         Patient Seen
         
@@ -10393,7 +10393,7 @@ Not yet available
         Easy fatigability × 3 days.
         
         HPC:
-        The child is a known patient with sickle cell anaemia (HbSS), diagnosed in infancy and on regular follow-up at the Paediatric Haematology Clinic.
+        The child is a known patient with sickle cell anaemia (HbSS), diagnosed in infancy and on regular follow-up at the Pediatric Haematology Clinic.
         
         He was apparently well until five days prior to presentation when he developed a low-grade fever associated with malaise and reduced appetite. There was no associated cough, catarrh or diarrhoea.
         
@@ -10541,7 +10541,7 @@ Not yet available
         Management:
         
         Admission:
-        - Admit to the Paediatric Haematology Unit.
+        - Admit to the Pediatric Haematology Unit.
         - Continuous monitoring of vital signs.
         
         Oxygen Therapy:
@@ -10605,7 +10605,7 @@ Not yet available
         Follow-up:
         - Repeat Full Blood Count and reticulocyte count after 48–72 hours to document marrow recovery.
         - Repeat haemoglobin after transfusion and again before discharge.
-        - Daily review by the Paediatric Haematology team.
+        - Daily review by the Pediatric Haematology team.
         - Follow-up in the Sickle Cell Clinic 1 week after discharge, then continue routine follow-up.
         - If aplastic crisis recurs or reticulocytopenia persists, evaluate for other causes of bone marrow failure.
         
@@ -10623,17 +10623,17 @@ Not yet available
           id: 'peds-35',
           title: 'Acute Splenic Sequestration Crisis in a Child with HbSS Disease',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Haematology',
+          subSpecialty: 'Pediatric Haematology',
           condition: 'Acute Splenic Sequestration Crisis',
           symptoms: ['Sudden abdominal swelling', 'Generalized weakness', 'Progressive pallor', 'Massive splenomegaly', 'Poor feeding', 'Hypovolaemic shock'],
           contributor: 'Admin',
           lastModified: '2026-07-21',
           summary: '2-year-8-month-old boy with known HbSS disease presenting with sudden massive splenomegaly, progressive pallor, generalized weakness, poor feeding and features of hypovolaemic shock, consistent with acute splenic sequestration crisis.',
-          content: `PAEDIATRIC HAEMATOLOGY
+          content: `Pediatric HAEMATOLOGY
           
           Patient Seen
           
-          A 2-year-8-month-old male child, weighing 12 kg, a known HbSS patient diagnosed on newborn screening and on routine follow-up at the Paediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
+          A 2-year-8-month-old male child, weighing 12 kg, a known HbSS patient diagnosed on newborn screening and on routine follow-up at the Pediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
           
           CHIEF COMPLAINT
           
@@ -10808,8 +10808,8 @@ Not yet available
           
           EMERGENCY RESUSCITATION:
           
-          Admit to the Paediatric Emergency Unit.
-          Inform the Paediatric Haematologist immediately.
+          Admit to the Pediatric Emergency Unit.
+          Inform the Pediatric Haematologist immediately.
           Maintain airway.
           Administer oxygen via face mask at 5 L/min to maintain SpO₂ >95%.
           Insert two peripheral IV cannulae.
@@ -10887,7 +10887,7 @@ Not yet available
           FOLLOW-UP:
           
           Repeat Full Blood Count and reticulocyte count 6–12 hours after transfusion, then daily until clinically stable.
-          Daily review by the Paediatric Haematology team.
+          Daily review by the Pediatric Haematology team.
           Follow-up at the Sickle Cell Clinic 1 week after discharge.
           Counsel parents regarding splenic palpation at each clinic visit.
           Consider elective splenectomy after recurrent sequestration episodes, typically after two or more episodes, with appropriate pre-operative vaccination and long-term specialist follow-up.
@@ -10914,11 +10914,11 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-21',
           summary: '6-year-old boy with known HbSS disease presenting with progressive jaundice, marked pallor, generalized weakness, fever and dark-coloured urine, consistent with acute haemolytic crisis likely precipitated by severe malaria, resulting in symptomatic severe anaemia.',
-          content: `PAEDIATRIC HAEMATOLOGY
+          content: `Pediatric HAEMATOLOGY
           
           Patient Seen
           
-          A 6-year-old male child, weighing 20 kg, a known HbSS patient diagnosed in infancy and on regular follow-up at the Paediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
+          A 6-year-old male child, weighing 20 kg, a known HbSS patient diagnosed in infancy and on regular follow-up at the Pediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
           
           CHIEF COMPLAINT
           
@@ -11091,7 +11091,7 @@ Not yet available
           
           ADMISSION:
           
-          Admit to the Paediatric Haematology Unit.
+          Admit to the Pediatric Haematology Unit.
           Continuous monitoring of vital signs.
           
           INTRAVENOUS FLUIDS:
@@ -11166,7 +11166,7 @@ Not yet available
           
           Repeat Full Blood Count and reticulocyte count 24 hours after transfusion, then as clinically indicated.
           Repeat malaria parasite testing after completion of treatment if symptoms persist.
-          Daily review by the Paediatric Haematology team.
+          Daily review by the Pediatric Haematology team.
           Follow-up at the Sickle Cell Clinic 1 week after discharge, then resume routine follow-up.
           
           PROGNOSIS:
@@ -11186,17 +11186,17 @@ Not yet available
           id: 'peds-33',
           title: 'Acute Chest Syndrome in a Child with HbSS Disease',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Haematology',
+          subSpecialty: 'Pediatric Haematology',
           condition: 'Acute Chest Syndrome',
           symptoms: ['Fever', 'Chest pain', 'Difficulty breathing', 'Cough', 'Hypoxaemia', 'Vaso-occlusive bone pain'],
           contributor: 'Admin',
           lastModified: '2026-07-21',
           summary: '8-year-old boy with known HbSS disease presenting with fever, cough, pleuritic chest pain, respiratory distress and hypoxaemia, consistent with acute chest syndrome likely precipitated by pulmonary infection, with associated vaso-occlusive crisis.',
-          content: `PAEDIATRIC HAEMATOLOGY
+          content: `Pediatric HAEMATOLOGY
           
           Patient Seen
           
-          An 8-year-old male child, weighing 24 kg, a known HbSS patient diagnosed in infancy and followed up regularly at the Paediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
+          An 8-year-old male child, weighing 24 kg, a known HbSS patient diagnosed in infancy and followed up regularly at the Pediatric Haematology Clinic. History was obtained from the mother, who is a reliable informant. The child resides in Abeokuta, Ogun State.
           
           CHIEF COMPLAINT
           
@@ -11374,8 +11374,8 @@ Not yet available
           
           ADMISSION:
           
-          Admit to the Paediatric High Dependency Unit or Paediatric Ward.
-          Urgent review by the Paediatric Haematology team.
+          Admit to the Pediatric High Dependency Unit or Pediatric Ward.
+          Urgent review by the Pediatric Haematology team.
           
           OXYGEN THERAPY:
           
@@ -11435,7 +11435,7 @@ Not yet available
           For this child:
           240 mL packed red blood cells over approximately 4 hours.
           
-          If severe disease, progressive hypoxaemia or extensive pulmonary infiltrates develop, consider exchange transfusion in consultation with the Paediatric Haematologist.
+          If severe disease, progressive hypoxaemia or extensive pulmonary infiltrates develop, consider exchange transfusion in consultation with the Pediatric Haematologist.
           
           INCENTIVE SPIROMETRY:
           
@@ -11468,7 +11468,7 @@ Not yet available
           
           Repeat Chest X-ray in 48–72 hours if clinical improvement is inadequate.
           Repeat Full Blood Count after transfusion and thereafter as clinically indicated.
-          Daily review by the Paediatric Haematology team.
+          Daily review by the Pediatric Haematology team.
           Physiotherapy review for chest exercises.
           Follow-up at the Sickle Cell Clinic 1 week after discharge.
           Consider initiation or optimization of Hydroxyurea therapy at 15–20 mg/kg/day orally after recovery if not already prescribed, with regular Full Blood Count monitoring.
@@ -11756,7 +11756,7 @@ Not yet available
           id: 'peds-29',
           title: 'HbSS Disease Presenting with Dactylitis (Hand-Foot Syndrome)',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Haematology',
+          subSpecialty: 'Pediatric Haematology',
           condition: 'Homozygous Sickle Cell Disease (HbSS) - Dactylitis',
           symptoms: [
             'Painful swelling of both hands',
@@ -11769,7 +11769,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-11',
           summary: 'A 10-month-old male infant with newly diagnosed HbSS disease presented with his first vaso-occlusive crisis manifesting as dactylitis (hand-foot syndrome), characterized by painful swelling of both hands and feet, excessive crying and reduced limb use.',
-          content: `PAEDIATRIC HAEMATOLOGY
+          content: `Pediatric HAEMATOLOGY
         
         Patient Seen
         
@@ -11956,7 +11956,7 @@ Not yet available
         Management:
         
         Admission:
-        Admit to the Paediatric Ward under the Paediatric Haematology team.
+        Admit to the Pediatric Ward under the Pediatric Haematology team.
         
         Hydration:
         Encourage breastfeeding and oral fluids.
@@ -12010,7 +12010,7 @@ Not yet available
         
         Review immunization status and arrange completion of pneumococcal, meningococcal, Haemophilus influenzae type b and annual influenza vaccination according to national recommendations.
         
-        Discuss initiation of hydroxyurea with the Paediatric Haematology team after recovery, based on current guidelines and disease severity.
+        Discuss initiation of hydroxyurea with the Pediatric Haematology team after recovery, based on current guidelines and disease severity.
         
         Nursing Instructions:
         Monitor vital signs every 4 hours.
@@ -12030,7 +12030,7 @@ Not yet available
         
         Follow-up:
         Daily review while admitted.
-        Review in the Paediatric Haematology Clinic 2 weeks after discharge.
+        Review in the Pediatric Haematology Clinic 2 weeks after discharge.
         
         Thereafter, routine follow-up every 2–3 months with growth monitoring, counselling, prophylactic care and screening for sickle cell disease complications.
         
@@ -12049,7 +12049,7 @@ Not yet available
           id: 'peds-28',
           title: 'Acute Dentoalveolar Abscess Secondary to Dental Caries',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Dentistry',
+          subSpecialty: 'Pediatric Dentistry',
           condition: 'Acute Dentoalveolar Abscess',
           symptoms: [
             'Lower left jaw pain',
@@ -12062,7 +12062,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-11',
           summary: 'A 7-year-old boy presented with a 4-day history of severe toothache and a 2-day history of painful left mandibular swelling secondary to untreated dental caries, consistent with an acute dentoalveolar abscess.',
-          content: `PAEDIATRIC DENTISTRY
+          content: `Pediatric DENTISTRY
         
         Patient Seen
         
@@ -12225,7 +12225,7 @@ Not yet available
         Management:
         
         Immediate Measures:
-        Refer urgently to the Paediatric Dental Unit.
+        Refer urgently to the Pediatric Dental Unit.
         Encourage adequate oral fluid intake.
         Advise a soft diet and chewing on the unaffected side.
         
@@ -12282,7 +12282,7 @@ Not yet available
         
         Definitive Dental Management:
         
-        Under the Paediatric Dental Team:
+        Under the Pediatric Dental Team:
         Incision and drainage if the abscess is fluctuant.
         Extraction of the affected primary tooth if non-restorable.
         If the tooth is restorable and appropriate, perform pulpectomy or other pulp therapy after infection control.
@@ -12306,7 +12306,7 @@ Not yet available
         Advise immediate hospital presentation if facial swelling rapidly worsens, the child develops difficulty swallowing, difficulty breathing, inability to open the mouth, persistent high fever or lethargy.
         
         Follow-up:
-        Review in the Paediatric Dental Clinic within 24–48 hours for definitive treatment.
+        Review in the Pediatric Dental Clinic within 24–48 hours for definitive treatment.
         
         Earlier review if swelling increases, fever persists after 48 hours of antibiotics or airway symptoms develop.
         
@@ -12338,7 +12338,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-07',
           summary: 'An 8-year-old boy presented with a five-week history of pruritic scaly scalp lesions associated with patchy hair loss. Examination revealed multiple areas of non-scarring alopecia with black dots and occipital lymphadenopathy, consistent with non-inflammatory tinea capitis.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -12606,7 +12606,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-07',
           summary: 'A 10-year-old boy presented two hours after falling onto an outstretched hand while playing football, resulting in severe right forearm pain, swelling, deformity and inability to use the limb. Examination was consistent with a closed displaced mid-shaft fracture of the radius and ulna with intact distal neurovascular status.',
-          content: `PAEDIATRIC EMERGENCY / ORTHOPAEDIC CLINIC
+          content: `Pediatric EMERGENCY / ORTHOPAEDIC CLINIC
         
         Patient Seen
         
@@ -12872,7 +12872,7 @@ Not yet available
         Cast removal is anticipated after approximately 6 weeks, followed by progressive rehabilitation and range-of-motion exercises.
         
         Prognosis:
-        Excellent. Paediatric both-bone forearm fractures generally heal well because of the child's high bone-remodelling potential. Early immobilization, maintenance of reduction and careful neurovascular monitoring are essential to prevent complications such as malunion, compartment syndrome and limitation of forearm rotation.
+        Excellent. Pediatric both-bone forearm fractures generally heal well because of the child's high bone-remodelling potential. Early immobilization, maintenance of reduction and careful neurovascular monitoring are essential to prevent complications such as malunion, compartment syndrome and limitation of forearm rotation.
         `,
           documentation: `
         <div class="space-y-6">
@@ -12885,7 +12885,7 @@ Not yet available
           id: 'peds-25',
           title: 'Acute Left Otitis Media',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Emergency / ENT',
+          subSpecialty: 'Pediatric Emergency / ENT',
           condition: 'Acute Otitis Media',
           symptoms: [
             'Left ear pain',
@@ -12897,7 +12897,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-07',
           summary: 'A 3-year-old boy presented with acute onset left ear pain, fever and excessive crying following an upper respiratory tract infection. Examination revealed a bulging erythematous left tympanic membrane, consistent with acute left otitis media.',
-          content: `PAEDIATRIC CLINIC
+          content: `Pediatric CLINIC
         
         Patient Seen
         
@@ -13165,7 +13165,7 @@ Not yet available
           id: 'peds-24',
           title: 'Vaso-Occlusive Crisis Secondary to Malaria or Upper Respiratory Tract Infection',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Haematology',
+          subSpecialty: 'Pediatric Haematology',
           condition: 'Sickle Cell Disease (HbSS)',
           symptoms: [
             'Generalized bone pain',
@@ -13178,7 +13178,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-05',
           summary: '16-year-old girl with HbSS disease presenting with an acute vaso-occlusive crisis likely precipitated by malaria or an upper respiratory tract infection.',
-          content: `PAEDIATRIC EMERGENCY UNIT / PAEDIATRIC HAEMATOLOGY
+          content: `PEDIATRIC EMERGENCY UNIT / PEDIATRIC HAEMATOLOGY
         
         Patient Seen
         
@@ -13371,7 +13371,7 @@ Not yet available
           id: 'peds-23',
           title: 'Vaso-Occlusive Crisis Secondary to Uncomplicated Malaria',
           specialty: 'Pediatrics',
-          subSpecialty: 'Paediatric Haematology',
+          subSpecialty: 'Pediatric Haematology',
           condition: 'Sickle Cell Disease (HbSS)',
           symptoms: [
             'Generalized body pains',
@@ -13384,7 +13384,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-05',
           summary: '6-year-old boy with HbSS disease presenting with acute vaso-occlusive crisis precipitated by uncomplicated Plasmodium falciparum malaria.',
-          content: `PAEDIATRIC EMERGENCY UNIT / PAEDIATRIC HAEMATOLOGY
+          content: `PEDIATRIC EMERGENCY UNIT / PEDIATRIC HAEMATOLOGY
         
         Patient Seen
         
@@ -13398,7 +13398,7 @@ Not yet available
         Refusal to walk due to pain × 1 day
         
         HPC:
-        The patient is a known HbSS patient diagnosed during infancy and is being followed up at the Paediatric Haematology Clinic.
+        The patient is a known HbSS patient diagnosed during infancy and is being followed up at the Pediatric Haematology Clinic.
         
         He was apparently well until two days prior to presentation when he developed high-grade intermittent fever associated with chills, excessive sweating, weakness and poor appetite.
         
@@ -13568,7 +13568,7 @@ Not yet available
         Management:
         
         Admission:
-        Admit to the Paediatric Ward.
+        Admit to the Pediatric Ward.
         Commence regular pain assessment using an age-appropriate pain scale.
         Monitor vital signs every 4 hours.
         Maintain strict input and output chart.
@@ -13600,7 +13600,7 @@ Not yet available
         
         Continue:
         Tab Folic Acid 5 mg PO daily.
-        Continue Hydroxyurea after review by the Paediatric Haematology Team provided there are no contraindications.
+        Continue Hydroxyurea after review by the Pediatric Haematology Team provided there are no contraindications.
         
         Antibiotics:
         Not routinely indicated.
@@ -13623,8 +13623,8 @@ Not yet available
         Follow-up:
         Daily review while on admission.
         Repeat malaria parasite assessment if clinically indicated.
-        Review by the Paediatric Haematology Team during admission.
-        Following discharge, follow up in the Paediatric Haematology Clinic within 1–2 weeks to reinforce malaria prevention, assess Hydroxyurea adherence and optimize long-term sickle cell disease care.
+        Review by the Pediatric Haematology Team during admission.
+        Following discharge, follow up in the Pediatric Haematology Clinic within 1–2 weeks to reinforce malaria prevention, assess Hydroxyurea adherence and optimize long-term sickle cell disease care.
         
         Prognosis:
         Good with prompt treatment of malaria, adequate analgesia, hydration and close monitoring for complications such as acute chest syndrome, severe anaemia and sepsis.
@@ -13902,7 +13902,7 @@ Not yet available
           id: 'peds-21',
           title: 'Acute Watery Diarrhoea with Suspected Cholera',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Emergencies',
+          subSpecialty: 'Pediatric  Emergency',
           condition: 'Acute Gastroenteritis',
           symptoms: [
             'Loose stools',
@@ -13915,7 +13915,7 @@ Not yet available
           contributor: 'Admin',
           lastModified: '2026-07-01',
           summary: 'A 1-year-8-month-old female child with acute watery diarrhoea and some dehydration, presenting with profuse non-bloody loose stools, vomiting, low-grade fever, and reduced urine output following exposure to untreated well water in a rural community. The clinical picture raised suspicion for cholera or another toxigenic bacterial cause. Antibiotics were withheld per WHO guidance, which restricts cholera-specific antibiotic treatment to children with severe dehydration; management focused on WHO Plan B oral rehydration, zinc supplementation, and close monitoring with a clear plan for escalation if dehydration worsens.',
-          content: `Miss T.E., a 1-year-8-month-old female child, Igbo, resident in Enugu, Enugu State, brought to the Children Emergency Room by her mother. She is the first child in a monogamous family setting.
+          content: `Miss T.E., a 1-year-8-month-old female child, Igbo, resident in Enugu, Enugu State, brought to the Pediatric Emergency Room by her mother. She is the first child in a monogamous family setting.
       
       Informant: Mother (reliable)
       
@@ -14224,7 +14224,7 @@ Not yet available
           </summary>
           <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
             <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Lo Vecchio A, et al. Guidelines for the Management of Paediatric Cholera Infection: A Systematic Review of the Evidence. Paediatrics and International Child Health, 2018.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Lo Vecchio A, et al. Guidelines for the Management of Pediatric Cholera Infection: A Systematic Review of the Evidence. Pediatrics and International Child Health, 2018.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Khan WA, et al. Single Dose Azithromycin Versus Ciprofloxacin for Cholera in Children: A Randomized Controlled Trial. Indian Pediatrics, 2010.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Global Task Force on Cholera Control (GTFCC). Treatment for Patients with Severe Dehydration: Plan C.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. The Treatment of Diarrhoea: A Manual for Physicians and Other Senior Health Workers, 4th revision.</li>
@@ -14232,7 +14232,7 @@ Not yet available
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Houpt ER, Ferdous T, Ahmed T, et al. Rapid Intravenous Rehydration of Children with Acute Gastroenteritis and Dehydration: A Systematic Review and Meta-Analysis. PMC.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>International Zinc Nutrition Consultative Group (IZiNCG). Zinc as Part of the Treatment of Diarrhea.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM), Standard Treatment Guidelines, and Cholera Outbreak Response Guidelines.</li>
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) / Nigeria Centre for Disease Control and Prevention (NCDC) clinical guidance on cholera and acute watery diarrhoea management, where locally available.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) / Nigeria Centre for Disease Control and Prevention (NCDC) clinical guidance on cholera and acute watery diarrhoea management, where locally available.</li>
             </ul>
           </div>
         </details>
@@ -14245,7 +14245,7 @@ Not yet available
           id: 'peds-20',
           title: 'Acute Gastroenteritis',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Emergencies',
+          subSpecialty: 'Pediatric  Emergency',
           condition: 'Acute Gastroenteritis',
           symptoms: ['Cough', 'Fever', 'Vomiting', 'Loose stools', 'Dehydration'],
           contributor: 'Admin',
@@ -14528,7 +14528,7 @@ Not yet available
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Pediatrics, Subcommittee on Acute Gastroenteritis. Practice Parameter: The Management of Acute Gastroenteritis in Young Children.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Treatment of Malaria — "test, treat, track" principle.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for Diagnosis and Treatment of Malaria, and National Essential Medicines List (NLEM).</li>
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on acute gastroenteritis and malnutrition management, where locally available.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) clinical practice guidance on acute gastroenteritis and malnutrition management, where locally available.</li>
             </ul>
           </div>
         </details>
@@ -14541,7 +14541,7 @@ Not yet available
           id: 'peds-19',
           title: 'Severe Malaria with Hyperglycemia',
           specialty: 'Pediatrics',
-          subSpecialty: 'Emergency Pediatrics',
+          subSpecialty: 'Pediatric Emergency',
           condition: 'Severe Malaria',
           symptoms: ['Fever', 'Pale eyes and feet', 'Respiratory distress', 'Severe pallor', 'Bounding pulse', 'Hepatomegaly', 'Hyperglycemia'],
           contributor: 'Admin',
@@ -14672,7 +14672,7 @@ Not yet available
       IV Furosemide 1 mg/kg = 16 mg with the transfusion, given clear signs of decompensated heart failure
       Monitor temperature, pulse rate, respiratory rate, SpO₂, and clinical signs of fluid overload continuously during transfusion, then 4-hourly
       Monitor RBS hourly until 3 consecutive normal values, then 4-hourly
-      Invite the paediatric surgical team for assessment of bilateral cryptorchidism once acutely stabilised
+      Invite the Pediatric surgical team for assessment of bilateral cryptorchidism once acutely stabilised
       `,
           documentation: `
       <div class="space-y-6">
@@ -14718,7 +14718,7 @@ Not yet available
             <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Furosemide and Oxygen Were Both Used</h3>
             <div>
               <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Furosemide Is Targeted, Not Routine, and Strongly Indicated Here</strong>
-              <p>As with less severe presentations, diuretic use alongside transfusion is specifically reserved for children showing signs of pulmonary oedema or biventricular heart failure — criteria this child clearly meets, given the combination of severe respiratory distress, oxygen saturation below 90% despite supplemental oxygen, bounding pulse, and significant hepatomegaly. At 1 mg/kg, this gives 16 mg for this 16 kg child, consistent with standard paediatric dosing.</p>
+              <p>As with less severe presentations, diuretic use alongside transfusion is specifically reserved for children showing signs of pulmonary oedema or biventricular heart failure — criteria this child clearly meets, given the combination of severe respiratory distress, oxygen saturation below 90% despite supplemental oxygen, bounding pulse, and significant hepatomegaly. At 1 mg/kg, this gives 16 mg for this 16 kg child, consistent with standard Pediatric dosing.</p>
             </div>
             <div>
               <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Oxygen Saturation Targets Need Active Pursuit, Not Just Documentation</strong>
@@ -14750,7 +14750,7 @@ Not yet available
             <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Cryptorchidism Was Identified but Not Urgently Managed</h3>
             <div>
               <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">An Incidental Finding That Still Deserves Follow-Through</strong>
-              <p>Bilateral undescended testes found on examination during an unrelated acute illness is a genuine finding that needs paediatric surgical input, but it is not an emergency in the context of life-threatening severe malaria — referral should be made for assessment once the child is acutely stabilised, rather than during the acute resuscitation phase. This is also a useful prompt to ask whether this had been noted before by caregivers, since earlier identification (ideally well before age 5) generally allows for more straightforward surgical correction and reduces the long-term risks associated with undescended testes, including infertility and malignancy.</p>
+              <p>Bilateral undescended testes found on examination during an unrelated acute illness is a genuine finding that needs Pediatric surgical input, but it is not an emergency in the context of life-threatening severe malaria — referral should be made for assessment once the child is acutely stabilised, rather than during the acute resuscitation phase. This is also a useful prompt to ask whether this had been noted before by caregivers, since earlier identification (ideally well before age 5) generally allows for more straightforward surgical correction and reduces the long-term risks associated with undescended testes, including infertility and malignancy.</p>
             </div>
           </div>
       
@@ -14804,7 +14804,7 @@ Not yet available
                 <circle cx="12" cy="12" r="9" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
               </svg>
-              <span>Delayed presentation after treatment by unqualified informal providers is a recurring and important pattern in Nigerian paediatric emergencies — use every such admission as an opportunity to counsel families on recognising danger signs and seeking care early.</span>
+              <span>Delayed presentation after treatment by unqualified informal providers is a recurring and important pattern in Nigerian Pediatric emergencies — use every such admission as an opportunity to counsel families on recognising danger signs and seeking care early.</span>
             </li>
             <li class="flex gap-2">
               <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -14833,7 +14833,7 @@ Not yet available
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cheng A, et al. Whole Blood Versus Red Cell Concentrates for Children with Severe Anaemia: Secondary Analysis of the TRACT Trial. PMC.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Urological Association / European Association of Urology guidance on management of undescended testes (cryptorchidism) in children.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for Diagnosis and Treatment of Malaria, and National Essential Medicines List (NLEM).</li>
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on severe malaria management, where locally available.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) clinical practice guidance on severe malaria management, where locally available.</li>
             </ul>
           </div>
         </details>
@@ -14846,7 +14846,7 @@ Not yet available
           id: 'peds-18',
           title: 'Severe Malaria with Severe Anemia',
           specialty: 'Pediatrics',
-          subSpecialty: 'Emergency Pediatrics',
+          subSpecialty: 'Pediatric Emergency',
           condition: 'Severe Malaria',
           symptoms: ['Fever', 'Difficulty in breathing', 'Fast breathing', 'Pallor', 'Gallop rhythm', 'Hepatomegaly'],
           contributor: 'Admin',
@@ -14969,7 +14969,7 @@ Not yet available
             </div>
             <div>
               <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why a Smaller, Slower Transfusion Plus Possible Top-Up Is Safer Here</strong>
-              <p>Standard paediatric transfusion practice for severe chronic or severe anaemia is generally 10–15 mL/kg over 3–4 hours, but this should be slowed and the volume reduced specifically in children with congestive features, since transfusion can be administered faster in straightforward acute blood loss but must be slower or given in smaller aliquots in the presence of heart failure. If the haemoglobin remains markedly low after this initial transfusion, a further small top-up 24–48 hours later — once the child has had time to redistribute the additional volume and cardiac status has been reassessed — is safer than attempting to correct the full deficit in one sitting.</p>
+              <p>Standard Pediatric transfusion practice for severe chronic or severe anaemia is generally 10–15 mL/kg over 3–4 hours, but this should be slowed and the volume reduced specifically in children with congestive features, since transfusion can be administered faster in straightforward acute blood loss but must be slower or given in smaller aliquots in the presence of heart failure. If the haemoglobin remains markedly low after this initial transfusion, a further small top-up 24–48 hours later — once the child has had time to redistribute the additional volume and cardiac status has been reassessed — is safer than attempting to correct the full deficit in one sitting.</p>
             </div>
             <div>
               <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Continuous Monitoring During Transfusion Matters</strong>
@@ -14989,7 +14989,7 @@ Not yet available
             </div>
             <div>
               <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Dosing</strong>
-              <p>1 mg/kg is a standard paediatric furosemide dose, giving 10 mg for this 10 kg child, consistent with WHO case management guidance for malaria-associated heart failure.</p>
+              <p>1 mg/kg is a standard Pediatric furosemide dose, giving 10 mg for this 10 kg child, consistent with WHO case management guidance for malaria-associated heart failure.</p>
             </div>
           </div>
       
@@ -15095,7 +15095,7 @@ Not yet available
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Maitland K, Kiguli S, Olupot-Olupot P, et al. Transfusion Volume for Children with Severe Anemia in Africa (TRACT trial). New England Journal of Medicine, 2019.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Hassall O, et al. Transfusion Management of Severe Anaemia in African Children: A Consensus Algorithm. PMC.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for Diagnosis and Treatment of Malaria, and National Essential Medicines List (NLEM).</li>
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on severe malaria management, where locally available.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) clinical practice guidance on severe malaria management, where locally available.</li>
             </ul>
           </div>
         </details>
@@ -15200,7 +15200,7 @@ Not yet available
       - Difficulty breathing or swallowing, drooling, or muffled voice
       - Persistent high-grade fever despite treatment
       - Reduced oral intake or signs of dehydration
-      Review in ENT or paediatric clinic in 48–72 hours, or earlier if symptoms worsen
+      Review in ENT or Pediatric clinic in 48–72 hours, or earlier if symptoms worsen
       `,
           documentation: `
       <div class="space-y-6">
@@ -15364,7 +15364,7 @@ Not yet available
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Altamimi S, Khalil A, Khalaiwi KA, et al. Short Versus Standard Duration Antibiotic Therapy for Acute Streptococcal Pharyngitis in Children. Cochrane Database of Systematic Reviews, 2009.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>South Africa National Department of Health. Primary Healthcare Standard Treatment Guidelines, Chapter 19: Ear, Nose and Throat Conditions, 2025 (regional reference for antihistamine age cautions).</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) / Otorhinolaryngological Society of Nigeria clinical practice guidance, where locally available.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) / Otorhinolaryngological Society of Nigeria clinical practice guidance, where locally available.</li>
             </ul>
           </div>
         </details>
@@ -15668,7 +15668,7 @@ Not yet available
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Iskander I, Gamaleldin R. Acute Bilirubin Encephalopathy and Kernicterus Risk in Low-Resource Settings — relevant discussion of discharge timing and bilirubin peak.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Olusanya BO, et al. Neonatal Jaundice: Knowledge and Practices of Healthcare Providers and Trainees in Southwest Nigeria. PMC, 2022.</li>
               <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NLEM) and Standard Treatment Guidelines.</li>
-              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) clinical practice guidance on neonatal jaundice, where locally available.</li>
+              <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) clinical practice guidance on neonatal jaundice, where locally available.</li>
             </ul>
           </div>
         </details>
@@ -15681,7 +15681,7 @@ Not yet available
           id: 'ped-01',
           title: 'Uncomplicated Malaria in a School-Age Child',
           specialty: 'Pediatrics',
-          subSpecialty: 'Infectious Disease / General Paediatrics',
+          subSpecialty: 'Infectious Disease / Pediatric Outpatient Clinic',
           condition: 'Acute uncomplicated Plasmodium falciparum malaria in a previously well 6-year-old male with high-grade intermittent fever, headache, and anorexia',
           symptoms: [
             'High-grade intermittent fever with chills and rigors',
@@ -15885,7 +15885,7 @@ Not yet available
               </div>
               <div>
                 <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Paracetamol Dosing — The Correction</strong>
-                <p>The correct paracetamol dose for a child is 15 mg/kg per dose. For this child weighing 21 kg, that gives 315 mg per dose — rounded to 300 mg in practice (one and a half 200 mg tablets, or three 100 mg paediatric tablets). The source note prescribed 250 mg, which is underdosed for this weight. Underdosing paracetamol in a febrile child results in inadequate antipyresis, prolonged discomfort, and a risk of further febrile convulsions if the child has a predisposition. The dose is given three times daily and can be continued for 3 days alongside the AL course.</p>
+                <p>The correct paracetamol dose for a child is 15 mg/kg per dose. For this child weighing 21 kg, that gives 315 mg per dose — rounded to 300 mg in practice (one and a half 200 mg tablets, or three 100 mg Pediatric tablets). The source note prescribed 250 mg, which is underdosed for this weight. Underdosing paracetamol in a febrile child results in inadequate antipyresis, prolonged discomfort, and a risk of further febrile convulsions if the child has a predisposition. The dose is given three times daily and can be continued for 3 days alongside the AL course.</p>
               </div>
             </div>
           </div>
@@ -15944,7 +15944,7 @@ Not yet available
                   <circle cx="12" cy="12" r="9" />
                   <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
                 </svg>
-                <span>Paracetamol dosing in children is weight-based at 15 mg/kg per dose — not a fixed paediatric dose. For a 21 kg child, the correct dose is 300 mg, not 250 mg. Underdosing results in inadequate antipyresis and risks further febrile convulsions in susceptible children.</span>
+                <span>Paracetamol dosing in children is weight-based at 15 mg/kg per dose — not a fixed Pediatric dose. For a 21 kg child, the correct dose is 300 mg, not 250 mg. Underdosing results in inadequate antipyresis and risks further febrile convulsions in susceptible children.</span>
               </li>
               <li class="flex gap-2">
                 <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -15982,11 +15982,11 @@ Not yet available
                 <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Malaria Strategic Plan and National Guidelines for Diagnosis and Treatment of Malaria. Abuja: FMOH / NMEP Nigeria.</li>
                 <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Treatment of Malaria, 3rd edition. Geneva: WHO Press.</li>
                 <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Management of Severe Malaria: A Practical Handbook. Geneva: WHO Press.</li>
-                <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) — clinical guidance on malaria diagnosis and management in Nigerian children, where locally available.</li>
+                <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Pediatric Association of Nigeria (PAN) — clinical guidance on malaria diagnosis and management in Nigerian children, where locally available.</li>
                 <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on malaria in children, artemisinin-based combination therapy, and severe malaria management.</li>
-                <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Plasmodium falciparum malaria, cerebral malaria, and malaria in paediatric patients.</li>
+                <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Plasmodium falciparum malaria, cerebral malaria, and malaria in Pediatric patients.</li>
                 <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — artemisinin-based combination therapies for uncomplicated Plasmodium falciparum malaria; insecticide-treated nets for malaria prevention.</li>
-                <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — infectious diseases and paediatrics chapters.</li>
+                <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — infectious diseases and Pediatrics chapters.</li>
               </ul>
             </div>
           </details>
@@ -16000,7 +16000,7 @@ Not yet available
         id: 'peds-15',
         title: 'Allergic Rhinitis',
         specialty: 'Pediatrics',
-        subSpecialty: 'Children Outpatient Clinic',
+        subSpecialty: 'Pediatric Outpatient Clinic',
         condition: 'Allergic Rhinitis',
         symptoms: [
           'Recurrent sneezing',
@@ -16013,7 +16013,7 @@ Not yet available
         lastModified: '2026-06-26',
         summary: 'A 2-year-old male presenting with recurrent sneezing, watery rhinorrhea, nasal obstruction, and allergic symptoms triggered by dust, perfumes, and cold weather, consistent with intermittent moderate-severe allergic rhinitis.',
         content: `
-      CHILDREN OUTPATIENT CLINIC
+      Pediatric Outpatient Clinic
       
       Patient Seen
       
@@ -16182,7 +16182,7 @@ Not yet available
           id: 'peds-14',
           title: 'Acute Bacterial Conjunctivitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Outpatient',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Acute Bacterial Conjunctivitis',
           symptoms: [
             'Redness of both eyes',
@@ -16195,7 +16195,7 @@ Not yet available
           lastModified: '2026-06-26',
           summary: 'An 8-year-old boy presented with a 3-day history of bilateral eye redness, purulent discharge, and difficulty opening the eyes in the morning, consistent with acute bacterial conjunctivitis.',
           content: `
-        CHILDREN OUTPATIENT CLINIC
+        Pediatric Outpatient Clinic
         
         Patient Seen
         
@@ -16346,7 +16346,7 @@ Not yet available
           id: 'peds-13',
           title: 'Acute Gastroenteritis with Some Dehydration',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Emergency',
+          subSpecialty: 'Pediatric Emergency',
           condition: 'Acute Gastroenteritis',
           symptoms: [
             'Frequent loose stools',
@@ -16360,7 +16360,7 @@ Not yet available
           lastModified: '2026-06-26',
           summary: 'A 2-year-old girl presented with a 3-day history of profuse watery diarrhoea, fever, vomiting, and clinical features of some dehydration following consumption of contaminated food, consistent with acute gastroenteritis likely of bacterial origin.',
           content: `
-        CHILDREN EMERGENCY
+        Pediatric Emergency
         
         Patient Seen
         
@@ -16629,7 +16629,7 @@ Not yet available
           id: 'peds-12',
           title: 'Acute Gastroenteritis with Some Dehydration (Infant)',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Emergency',
+          subSpecialty: 'Pediatric Emergency',
           condition: 'Acute Gastroenteritis',
           symptoms: [
             'Frequent loose stools',
@@ -16643,7 +16643,7 @@ Not yet available
           lastModified: '2026-06-26',
           summary: 'An 8-month-old female infant presented with a 2-day history of profuse watery diarrhoea, fever, vomiting, poor feeding and clinical features of some dehydration, consistent with acute gastroenteritis likely of bacterial origin.',
           content: `
-        CHILDREN EMERGENCY
+        Pediatric Emergency
         
         Patient Seen
         
@@ -16912,7 +16912,7 @@ Not yet available
           id: 'peds-11',
           title: 'Acute Gastroenteritis with Some Dehydration and Dysentery',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Emergency',
+          subSpecialty: 'Pediatric Emergency',
           condition: 'Acute Gastroenteritis',
           symptoms: [
             'Frequent loose stools',
@@ -16927,7 +16927,7 @@ Not yet available
           lastModified: '2026-06-26',
           summary: 'A 3-year-old boy presented with a 3-day history of profuse watery diarrhoea with occasional blood-stained stools, fever, vomiting, abdominal pain and clinical features of some dehydration, suggestive of acute bacterial gastroenteritis, likely Shigella or non-typhoidal Salmonella infection.',
           content: `
-        CHILDREN EMERGENCY
+        Pediatric Emergency
         
         Patient Seen
         
@@ -17206,7 +17206,7 @@ Not yet available
           id: 'peds-10',
           title: 'Acute Bacterial Rhinosinusitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Outpatient',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Acute Bacterial Rhinosinusitis',
           symptoms: [
             'Fever',
@@ -17220,7 +17220,7 @@ Not yet available
           lastModified: '2026-06-26',
           summary: 'A 3-year-old boy presented with an 8-day history of persistent purulent nasal discharge, cough, fever, facial discomfort and poor appetite, consistent with acute bacterial rhinosinusitis.',
           content: `
-        CHILDREN OUTPATIENT CLINIC
+        Pediatric Outpatient Clinic
         
         Patient Seen
         
@@ -17492,7 +17492,7 @@ Not yet available
           id: 'peds-09',
           title: 'Acute Group A Streptococcal Pharyngotonsillitis',
           specialty: 'Pediatrics',
-          subSpecialty: 'Children Outpatient',
+          subSpecialty: 'Pediatric Outpatient Clinic',
           condition: 'Acute Pharyngotonsillitis',
           symptoms: [
             'Sore throat',
@@ -17506,7 +17506,7 @@ Not yet available
           lastModified: '2026-06-26',
           summary: 'A 10-year-old boy presented with a 3-day history of severe sore throat, fever, odynophagia and tender cervical lymphadenopathy with bilateral tonsillar exudates, consistent with acute Group A Streptococcal pharyngotonsillitis.',
           content: `
-        CHILDREN OUTPATIENT CLINIC
+        Pediatric Outpatient Clinic
         
         Patient Seen
         
@@ -17787,7 +17787,7 @@ Not yet available
         id: 'peds-08',
         title: 'Acute Bacterial Tonsillopharyngitis',
         specialty: 'Pediatrics',
-        subSpecialty: 'Children Emergency',
+        subSpecialty: 'Pediatric Emergency',
         condition: 'Acute Tonsillopharyngitis',
         symptoms: [
           'Fever',
@@ -17800,7 +17800,7 @@ Not yet available
         lastModified: '2026-06-28',
         summary: '3-year-old female presenting with high-grade fever, sore throat, odynophagia, drooling of saliva, and refusal to feed, consistent with acute bacterial tonsillopharyngitis.',
         content: `
-      CHILDREN EMERGENCY
+      Pediatric Emergency
       
       Patient Seen
       A 3-year-old female, Christian, Yoruba, residing in Surulere, Lagos State.
@@ -17965,7 +17965,7 @@ Not yet available
         id: 'peds-07',
         title: 'Uncomplicated Malaria with Mild Upper Respiratory Tract Infection',
         specialty: 'Pediatrics',
-        subSpecialty: 'Children Outpatient Clinic',
+        subSpecialty: 'Pediatric Outpatient Clinic',
         condition: 'Uncomplicated Malaria',
         symptoms: [
           'Fever',
@@ -17978,7 +17978,7 @@ Not yet available
         lastModified: '2026-06-27',
         summary: '3-year-old boy presenting with a two-day history of fever and catarrh with a single episode of vomiting, assessed as uncomplicated malaria with a mild upper respiratory tract infection.',
         content: `
-      CHILDREN OUTPATIENT CLINIC
+      Pediatric Outpatient Clinic
       
       Patient Seen
       A 3-year-old male, Yoruba, resident in Bodija, Ibadan, Oyo State. Informant: Mother (Trader), reliable.
@@ -18133,7 +18133,7 @@ Not yet available
         id: 'peds-06',
         title: 'Acute Gastroenteritis with Mild Febrile Illness',
         specialty: 'Pediatrics',
-        subSpecialty: 'Children Outpatient Clinic',
+        subSpecialty: 'Pediatric Outpatient Clinic',
         condition: 'Acute Gastroenteritis',
         symptoms: [
           'Loose stools',
@@ -18146,7 +18146,7 @@ Not yet available
         lastModified: '2026-06-27',
         summary: '7-year-old boy presenting with a two-day history of loose watery stools, catarrh, headache, and mild abdominal pain, consistent with acute gastroenteritis, likely of viral etiology.',
         content: `
-      CHILDREN OUTPATIENT CLINIC
+      Pediatric Outpatient Clinic
       
       Patient Seen
       A 7-year-old male residing in Surulere, Lagos State.
@@ -18258,7 +18258,7 @@ Not yet available
       
       Advise immediate return to hospital if persistent vomiting, bloody stools, high-grade fever, inability to tolerate oral fluids, or signs of severe dehydration develop.
       
-      Review in the Children Outpatient Clinic if symptoms persist or worsen.
+      Review in the Pediatric Outpatient Clinic if symptoms persist or worsen.
       `,
         documentation: `
       <div class="space-y-6">
@@ -18272,7 +18272,7 @@ Not yet available
         id: 'peds-05',
         title: 'Post-Viral Exanthem with Co-existing Irritant Diaper Dermatitis',
         specialty: 'Pediatrics',
-        subSpecialty: 'Children Outpatient Clinic',
+        subSpecialty: 'Pediatric Outpatient Clinic',
         condition: 'Post-Viral Exanthem',
         symptoms: [
           'Facial rash',
@@ -18286,7 +18286,7 @@ Not yet available
         lastModified: '2026-06-27',
         summary: '11-month-old male presenting with a self-limiting maculopapular rash involving the cheeks and buttocks following a recent upper respiratory tract infection and antibiotic use, with associated mild irritant diaper dermatitis.',
         content: `
-      CHILDREN OUTPATIENT CLINIC
+      Pediatric Outpatient Clinic
       
       Patient Seen
       An 11-month-old male, Igbo, Christian, resident in Emene, Enugu State. Informant: Mother (Trader), reliable.
@@ -18405,7 +18405,7 @@ Not yet available
       Proper diaper hygiene including frequent diaper changes and keeping the diaper area dry.
       
       Follow-up:
-      Review in the Children Outpatient Clinic after 5 days.
+      Review in the Pediatric Outpatient Clinic after 5 days.
       
       Advise immediate return if the child develops high-grade fever, poor feeding, lethargy, vesicular or pustular rash, or any worsening symptoms.
       `,
@@ -18421,7 +18421,7 @@ Not yet available
         id: 'peds-04',
         title: 'Acute Exudative Tonsillopharyngitis with Mild Upper Airway Obstruction',
         specialty: 'Pediatrics',
-        subSpecialty: 'Emergency Pediatric Unit',
+        subSpecialty: 'Pediatric Emergency',
         condition: 'Acute Exudative Tonsillopharyngitis',
         symptoms: [
           'Fever',
@@ -18435,7 +18435,7 @@ Not yet available
         lastModified: '2026-06-27',
         summary: '5-year-old girl presenting with fever, exudative tonsillopharyngitis, inspiratory stridor, and mild upper airway obstruction requiring admission for airway monitoring and intravenous therapy.',
         content: `
-      EMERGENCY PEDIATRIC UNIT
+      Pediatric Emergency
       
       Patient Seen
       A 5-year-old female, Yoruba, resident in Ogbomoso, Oyo State. Informant: Mother (Trader), reliable.
@@ -18537,7 +18537,7 @@ Not yet available
       Peritonsillar abscess (Quinsy).
       
       PLAN:
-      Admit into Emergency Pediatric Unit.
+      Admit into Pediatric Emergency.
       
       Investigations:
       Full blood count.
@@ -18779,7 +18779,7 @@ Not yet available
         id: 'peds-02',
         title: 'Moderate Viral Croup',
         specialty: 'Pediatrics',
-        subSpecialty: 'Emergency Paediatrics',
+        subSpecialty: 'Pediatric Emergency',
         condition: 'Acute Laryngotracheobronchitis (Viral Croup)',
         symptoms: [
           'Barking cough',
@@ -18793,7 +18793,7 @@ Not yet available
         lastModified: '2026-06-28',
         summary: 'A 5-year-old girl presented with a 2-day history of barking cough, inspiratory stridor and mild respiratory distress following an upper respiratory tract infection. Clinical findings were consistent with moderate viral croup, likely secondary to Parainfluenza virus infection.',
         content: `
-      PAEDIATRIC EMERGENCY
+      Pediatric EMERGENCY
       
       Patient Seen
       
@@ -18988,7 +18988,7 @@ Not yet available
       Admit if repeated nebulized adrenaline is required, respiratory distress worsens, oxygen is required, oral intake remains poor or home observation is unsafe.
       
       Follow-up:
-      Review in the Paediatric Outpatient Clinic within 48–72 hours or earlier if symptoms worsen.
+      Review in the Pediatric Outpatient Clinic within 48–72 hours or earlier if symptoms worsen.
       `,
         documentation: `
       <div class="space-y-6">

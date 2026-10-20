@@ -145,10 +145,10 @@ export const CLINICAL_SCORING_SYSTEMS_CONTENT: LearningModule[] = [
       </div>
       </div>
       
-      <!-- 5. Paediatric GCS -->
+      <!-- 5. Pediatric GCS -->
       <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
-      Paediatric GCS (Under Approximately 2 Years)
+      Pediatric GCS (Under Approximately 2 Years)
       </h2>
       
       <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
@@ -206,7 +206,7 @@ export const CLINICAL_SCORING_SYSTEMS_CONTENT: LearningModule[] = [
       </h2>
       
       <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <p class="text-sm">The Blantyre Coma Scale is a distinct tool, not simply a shortcut version of the paediatric GCS - it was developed specifically to assess consciousness in preverbal children with cerebral malaria and is the standard scale used in malaria-endemic paediatric settings. It scores three components from 0-2 each (eye movement scored 0-1), for a total range of 0-5, with lower scores indicating worse consciousness. All scores below 5 are considered abnormal.</p>
+      <p class="text-sm">The Blantyre Coma Scale is a distinct tool, not simply a shortcut version of the Pediatric GCS - it was developed specifically to assess consciousness in preverbal children with cerebral malaria and is the standard scale used in malaria-endemic Pediatric settings. It scores three components from 0-2 each (eye movement scored 0-1), for a total range of 0-5, with lower scores indicating worse consciousness. All scores below 5 are considered abnormal.</p>
       <div class="overflow-x-auto">
         <table class="w-full text-xs sans border-collapse">
           <thead>
@@ -313,7 +313,7 @@ export const CLINICAL_SCORING_SYSTEMS_CONTENT: LearningModule[] = [
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Teasdale G, Jennett B - Assessment of Coma and Impaired Consciousness: A Practical Scale. Lancet, 1974.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Molyneux ME, Taylor TE - Blantyre Coma Scale for Young Children with Cerebral Malaria.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Treatment of Malaria (severe/cerebral malaria criteria).</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kirkham FJ, Newton CR, Whitehouse W - Paediatric Coma Scales. Developmental Medicine and Child Neurology, 2008.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Kirkham FJ, Newton CR, Whitehouse W - Pediatric Coma Scales. Developmental Medicine and Child Neurology, 2008.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nigeria Centre for Disease Control - Meningitis Surveillance and Response Guidelines.</li>
         </ul>
       </div>

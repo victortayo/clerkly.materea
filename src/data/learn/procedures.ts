@@ -122,7 +122,7 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
             </thead>
             <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
               <tr><td class="py-2 pr-3">Fate in tissue</td><td class="py-2 pr-3">Broken down by hydrolysis or enzymatic action over weeks to months</td><td class="py-2">Remains in tissue indefinitely, or removed manually</td></tr>
-              <tr><td class="py-2 pr-3">Typical use</td><td class="py-2 pr-3">Deep/buried layers (dermis, muscle, fascia), mucosa, paediatric skin closure where removal would be distressing</td><td class="py-2">Skin closure requiring later removal, high-tension areas, situations needing prolonged tensile strength</td></tr>
+              <tr><td class="py-2 pr-3">Typical use</td><td class="py-2 pr-3">Deep/buried layers (dermis, muscle, fascia), mucosa, Pediatric skin closure where removal would be distressing</td><td class="py-2">Skin closure requiring later removal, high-tension areas, situations needing prolonged tensile strength</td></tr>
               <tr><td class="py-2 pr-3">Common examples</td><td class="py-2 pr-3">Polyglactin 910 (Vicryl), poliglecaprone 25 (Monocryl), polydioxanone (PDS), catgut</td><td class="py-2">Nylon (Ethilon), polypropylene (Prolene), silk, polyester</td></tr>
             </tbody>
           </table>
@@ -1159,7 +1159,7 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
         <ul class="list-disc pl-5 space-y-1 text-sm">
           <li>Infiltrate 1% or 2% lidocaine directly into the wound edges using a small-gauge needle, injecting slowly to reduce the pain of infiltration.</li>
           <li>Wait 2-3 minutes for full effect before testing with a needle or forceps pinch at the wound edge.</li>
-          <li>Maximum safe dose: 4.5 mg/kg (up to 300 mg total) for plain lidocaine, or 7 mg/kg (up to 500 mg total) with adrenaline - calculate the ceiling in mg before starting in larger wounds or paediatric patients, where the total volume needed can approach the limit.</li>
+          <li>Maximum safe dose: 4.5 mg/kg (up to 300 mg total) for plain lidocaine, or 7 mg/kg (up to 500 mg total) with adrenaline - calculate the ceiling in mg before starting in larger wounds or Pediatric patients, where the total volume needed can approach the limit.</li>
         </ul>
       </div>
       <div>
@@ -1293,7 +1293,7 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Reduced distal sensation, weakness, or absent tendon function</span> before anaesthetic infiltration - test and document this first, since infiltration will mask it afterward.</span></li>
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">A suspected retained foreign body</span> - explore and remove before any closure; do not suture over an unexplored wound.</span></li>
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Signs of established infection at presentation</span> - do not close primarily; manage as an infected wound instead.</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Approaching the lidocaine dose ceiling</span> in a large wound or paediatric patient - calculate the maximum allowable dose in mg before starting, not after.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Approaching the lidocaine dose ceiling</span> in a large wound or Pediatric patient - calculate the maximum allowable dose in mg before starting, not after.</span></li>
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">An unimmunised or inadequately immunised patient with a tetanus-prone wound</span> - this needs both vaccine and TIG, not vaccine alone.</span></li>
       </ul>
       </div>

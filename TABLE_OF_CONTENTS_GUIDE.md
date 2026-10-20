@@ -35,7 +35,7 @@ You would edit the `content` string for the `history-taking-pediatrics` entry in
     <div class="relative p-6 sm:p-8">
       <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking</span>
       <h1 class="font-brand text-3xl font-bold mb-3 text-white">History Taking in Pediatrics</h1>
-      <p class="text-sm text-indigo-200">A paediatric history depends on someone other than the patient...</p>
+      <p class="text-sm text-indigo-200">A Pediatric history depends on someone other than the patient...</p>
     </div>
     </div>
 

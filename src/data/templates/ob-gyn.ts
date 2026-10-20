@@ -1095,7 +1095,7 @@ Not yet available
   - Delivery should not be delayed for completion of corticosteroids or further diagnostic imaging.
   
   2. Neonatal Resuscitation:
-  - Notify the paediatric/neonatal team immediately and ensure neonatal resuscitation equipment is available.
+  - Notify the Pediatric/neonatal team immediately and ensure neonatal resuscitation equipment is available.
   - Anticipate acute neonatal blood loss and have appropriately crossmatched neonatal blood available where possible.
   - Neonatal transfusion should be based on the neonate's clinical condition and neonatal transfusion protocol rather than routinely administering O-negative blood.
   
@@ -3590,7 +3590,7 @@ Not yet available
       
       6. Obtain urgent informed consent for Emergency Caesarean Section (EMCS).
       
-      7. Notify the Paediatric team for neonatal resuscitation.
+      7. Notify the Pediatric team for neonatal resuscitation.
       
       8. Notify the Anaesthetic team for urgent review.
       

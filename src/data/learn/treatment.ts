@@ -336,9 +336,9 @@ export const TREATMENT_CONTENT: LearningModule[] = [
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-              <tr><td class="py-2 pr-3">11-20 kg</td><td class="py-2 pr-3">62.5/25 mg</td><td class="py-2">1 paediatric tablet daily</td></tr>
-              <tr><td class="py-2 pr-3">21-30 kg</td><td class="py-2 pr-3">125/50 mg</td><td class="py-2">2 paediatric tablets daily</td></tr>
-              <tr><td class="py-2 pr-3">31-40 kg</td><td class="py-2 pr-3">187.5/75 mg</td><td class="py-2">3 paediatric tablets daily</td></tr>
+              <tr><td class="py-2 pr-3">11-20 kg</td><td class="py-2 pr-3">62.5/25 mg</td><td class="py-2">1 Pediatric tablet daily</td></tr>
+              <tr><td class="py-2 pr-3">21-30 kg</td><td class="py-2 pr-3">125/50 mg</td><td class="py-2">2 Pediatric tablets daily</td></tr>
+              <tr><td class="py-2 pr-3">31-40 kg</td><td class="py-2 pr-3">187.5/75 mg</td><td class="py-2">3 Pediatric tablets daily</td></tr>
               <tr><td class="py-2 pr-3">&gt;40 kg</td><td class="py-2 pr-3">250/100 mg</td><td class="py-2">1 adult tablet daily</td></tr>
             </tbody>
           </table>

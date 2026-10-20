@@ -37,7 +37,7 @@ export const HISTORY_TAKING_CONTENT: LearningModule[] = [
       <div class="relative p-6 sm:p-8">
         <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking</span>
         <h1 class="font-brand text-3xl font-bold mb-3 text-white">History Taking in Pediatrics</h1>
-        <p class="text-sm text-indigo-200">A paediatric history depends on someone other than the patient for most of childhood, and carries several sections an adult history doesn't need at all - the pregnancy and delivery that produced this child, how they've been fed, whether they're developing on schedule, and what's actually been injected into them so far. This guide walks through the full structure, biodata to summary, with the reasoning behind each section.</p>
+        <p class="text-sm text-indigo-200">A Pediatric history depends on someone other than the patient for most of childhood, and carries several sections an adult history doesn't need at all - the pregnancy and delivery that produced this child, how they've been fed, whether they're developing on schedule, and what's actually been injected into them so far. This guide walks through the full structure, biodata to summary, with the reasoning behind each section.</p>
       </div>
       </div>
       
@@ -48,7 +48,7 @@ export const HISTORY_TAKING_CONTENT: LearningModule[] = [
       </h2>
       
       <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <p class="text-sm">A complete paediatric encounter runs through history taking, physical examination, investigation, treatment, and follow-up. In an emergency, resuscitation of the patient always comes before other aspects of management - stabilise first, and take a focused history in parallel with or immediately after.</p>
+      <p class="text-sm">A complete Pediatric encounter runs through history taking, physical examination, investigation, treatment, and follow-up. In an emergency, resuscitation of the patient always comes before other aspects of management - stabilise first, and take a focused history in parallel with or immediately after.</p>
       </div>
       
       <!-- 2. Biodata -->
@@ -369,7 +369,7 @@ export const HISTORY_TAKING_CONTENT: LearningModule[] = [
       <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
         <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Primary Health Care Development Agency (NPHCDA) - Routine Immunization Schedule chart (dose, route, and site detail).</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Paediatric Association of Nigeria - PAN Recommended Immunisation Schedule (updated June 2025).</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Pediatric Association of Nigeria - PAN Recommended Immunisation Schedule (updated June 2025).</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Recommended Childhood Immunization Schedule; Vitamin A Supplementation Guidance.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Nelson Textbook of Pediatrics - developmental milestones reference.</li>
         </ul>
@@ -687,7 +687,7 @@ export const HISTORY_TAKING_CONTENT: LearningModule[] = [
       <ul class="list-disc pl-5 space-y-1 text-sm">
         <li>Name, age, sex, occupation, religion, tribe.</li>
         <li>Right- or left-handed - relevant in patients with neurological pathology.</li>
-        <li>Informant - especially when clerking an unconscious patient or a paediatric patient.</li>
+        <li>Informant - especially when clerking an unconscious patient or a Pediatric patient.</li>
         <li>State whether the history is reliable or not.</li>
       </ul>
       </div>
@@ -839,7 +839,7 @@ export const HISTORY_TAKING_CONTENT: LearningModule[] = [
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Keep to 3-5 presenting complaints, and expect more than that number to actually be related, not separate problems.</span></li>
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Characterise the migration and evolution of a symptom explicitly (e.g. peri-umbilical pain localising to the right iliac fossa) - this pattern is often more diagnostic than any single descriptor.</span></li>
         <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>For any previous surgery, always ask what it was for, what the presentation was at the time, and whether there was a complication - not just that surgery happened.</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In a paediatric surgical patient, the pregnancy history is not routine background - ask specifically whether it relates to the cause of the presenting complaint.</span></li>
+        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In a Pediatric surgical patient, the pregnancy history is not routine background - ask specifically whether it relates to the cause of the presenting complaint.</span></li>
       </ul>
       </div>
       

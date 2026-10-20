@@ -18851,7 +18851,7 @@ Not yet available
         id: 'peds-01',
         title: 'Cow’s Milk Protein Allergy with Allergic Proctocolitis and Atopic Dermatitis',
         specialty: 'Pediatrics',
-        subSpecialty: 'Paediatric Gastroenterology Clinic',
+        subSpecialty: 'Pediatric Gastroenterology Clinic',
         condition: 'Food Allergy',
         symptoms: [
           'Loose mucoid stools',
@@ -18864,7 +18864,7 @@ Not yet available
         contributor: 'Admin',
         lastModified: '2026-07-15',
         summary: '3-month-old female infant presenting with chronic mucoid diarrhoea, post-feed vomiting, eczema and poor weight gain secondary to suspected non-IgE-mediated cow’s milk protein allergy.',
-        content: `PAEDIATRICS CLINIC
+        content: `PediatricS CLINIC
       
       Patient Seen
       
@@ -19223,7 +19223,7 @@ Not yet available
       
       Consider supervised oral cow’s milk challenge after 6–12 months of elimination depending on clinical progress and specialist advice.
       
-      Refer to Paediatric Gastroenterologist or Allergist if:
+      Refer to Pediatric Gastroenterologist or Allergist if:
       - Symptoms persist despite appropriate elimination
       - There is faltering growth
       - Severe IgE-mediated reactions occur

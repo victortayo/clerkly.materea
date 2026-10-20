@@ -4,7 +4,7 @@ export type SymptomSubCategory =
   | 'General Constitutional Symptoms' | 'Pain' | 'Respiratory' | 'Cardiovascular' 
   | 'Gastrointestinal' | 'Urinary' | 'Male Genitourinary' | 'Gynaecological' 
   | 'Obstetric' | 'Neurological' | 'Musculoskeletal' | 'Dermatological' 
-  | 'Eye' | 'Ear' | 'Nose' | 'Throat' | 'Psychiatric' | 'Paediatric' 
+  | 'Eye' | 'Ear' | 'Nose' | 'Throat' | 'Psychiatric' | 'Pediatric' 
   | 'Surgical' | 'Endocrine' | 'Hematological' | 'Infectious Disease' | 'Emergency';
 
 export interface LearningModule {

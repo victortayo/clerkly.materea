@@ -1500,7 +1500,7 @@ export const PHYSICAL_EXAMINATION_CONTENT: LearningModule[] = [
       <div class="relative p-6 sm:p-8">
         <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Physical Examination</span>
         <h1 class="font-brand text-3xl font-bold mb-3 text-white">Physical Examination in Pediatrics</h1>
-        <p class="text-sm text-indigo-200">Paediatric examination adds two things a general medicine clerking doesn't need - anthropometry benchmarked against age, and vital sign ranges that shift meaningfully across the paediatric age spectrum. This guide covers general principles, general examination, anthropometry, and full systemic examination, with the age-related reference tables that make the numbers usable at the bedside.</p>
+        <p class="text-sm text-indigo-200">Pediatric examination adds two things a general medicine clerking doesn't need - anthropometry benchmarked against age, and vital sign ranges that shift meaningfully across the Pediatric age spectrum. This guide covers general principles, general examination, anthropometry, and full systemic examination, with the age-related reference tables that make the numbers usable at the bedside.</p>
       </div>
       </div>
       

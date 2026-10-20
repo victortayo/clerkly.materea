@@ -1027,7 +1027,7 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Anti-Tuberculous Therapy</strong>
         <p class="text-sm">Isoniazid, rifampicin, and pyrazinamide are all potentially hepatotoxic. Baseline LFTs before starting treatment, and monitoring during the first weeks (particularly in patients with pre-existing liver disease, viral hepatitis co-infection, alcohol use, low BMI, or older age - all independently associated with higher hepatotoxicity risk in African cohorts), are standard practice.</p>
         <p class="text-sm mt-2">The widely used stopping criteria (American Thoracic Society, and reflected in national TB programme practice where a distinct local numeric threshold isn't separately specified): discontinue hepatotoxic agents if ALT rises to <span class="font-medium text-slate-800 dark:text-slate-200">3 times the upper limit of normal with symptoms</span> of hepatitis (nausea, vomiting, jaundice, abdominal pain) or a raised bilirubin, or if ALT rises to <span class="font-medium text-slate-800 dark:text-slate-200">5 times the upper limit of normal even without symptoms</span>.</p>
-        <p class="text-sm mt-2">Reintroduction is generally still pursued once LFTs normalise, even in patients who were asymptomatic, since rifampicin and isoniazid are the most bactericidal agents and non-hepatotoxic substitutes are less effective and require longer, more complex regimens. The standard approach (reflected in Nigerian paediatric and adult practice) is sequential reintroduction starting with rifampicin first, then isoniazid added a few days later if tolerated, with pyrazinamide reintroduced last or omitted from the regimen altogether if hepatotoxicity recurs - full-dose reintroduction of a pyrazinamide-containing regimen carries a meaningfully higher recurrence rate than gradual, sequential reintroduction. Confirm the specific protocol in use against current National Tuberculosis and Leprosy Control Programme (NTBLCP) guidance.</p>
+        <p class="text-sm mt-2">Reintroduction is generally still pursued once LFTs normalise, even in patients who were asymptomatic, since rifampicin and isoniazid are the most bactericidal agents and non-hepatotoxic substitutes are less effective and require longer, more complex regimens. The standard approach (reflected in Nigerian Pediatric and adult practice) is sequential reintroduction starting with rifampicin first, then isoniazid added a few days later if tolerated, with pyrazinamide reintroduced last or omitted from the regimen altogether if hepatotoxicity recurs - full-dose reintroduction of a pyrazinamide-containing regimen carries a meaningfully higher recurrence rate than gradual, sequential reintroduction. Confirm the specific protocol in use against current National Tuberculosis and Leprosy Control Programme (NTBLCP) guidance.</p>
       </div>
       
       <div>
@@ -1157,7 +1157,7 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
         <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>American Thoracic Society/CDC/Infectious Diseases Society of America - Official Statement: Hepatotoxicity of Antituberculosis Therapy.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Tuberculosis and Leprosy Control Programme, Nigeria - Diagnosis and Treatment Guidelines.</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Sanni FO, et al. (University of Ilorin Teaching Hospital) - Hepatotoxicity Due to Antituberculosis Therapy Among Paediatric Patients.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Sanni FO, et al. (University of Ilorin Teaching Hospital) - Hepatotoxicity Due to Antituberculosis Therapy Among Pediatric Patients.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for the Prevention, Care and Treatment of Persons with Chronic Hepatitis B Infection.</li>
           <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
         </ul>
@@ -1985,7 +1985,7 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
       <div class="relative p-6 sm:p-8">
         <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
         <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Full Blood Count (FBC)</h1>
-        <p class="text-sm text-indigo-200">The FBC is frequently the only investigation available at the point of decision - CRP and procalcitonin are not routinely accessible outside tertiary centres, and blood culture, where run at all, takes days. Every parameter has to be read for its underlying mechanism, and reference ranges shift substantially with age - a value alarming in an adult can be entirely normal in a neonate, and vice versa. This is a common source of misinterpretation in paediatric FBCs specifically.</p>
+        <p class="text-sm text-indigo-200">The FBC is frequently the only investigation available at the point of decision - CRP and procalcitonin are not routinely accessible outside tertiary centres, and blood culture, where run at all, takes days. Every parameter has to be read for its underlying mechanism, and reference ranges shift substantially with age - a value alarming in an adult can be entirely normal in a neonate, and vice versa. This is a common source of misinterpretation in Pediatric FBCs specifically.</p>
       </div>
       </div>
       
@@ -2475,7 +2475,7 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
           </tbody>
         </table>
       </div>
-      <p class="text-sm">The aPTT range varies more between reagents than the PT does, so a result is only meaningful against the laboratory's own normal range or control. Newborns have physiologically longer PT and aPTT than adults, so use the paediatric ranges the laboratory provides rather than the adult figures above.</p>
+      <p class="text-sm">The aPTT range varies more between reagents than the PT does, so a result is only meaningful against the laboratory's own normal range or control. Newborns have physiologically longer PT and aPTT than adults, so use the Pediatric ranges the laboratory provides rather than the adult figures above.</p>
     </div>
     
     <!-- 2. Sample matters -->
@@ -2951,7 +2951,7 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
       <div>
         <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Blast Cells</strong>
         <p class="text-sm">Blasts are large cells with a high nuclear-to-cytoplasmic ratio, fine open chromatin, visible nucleoli and little or no granulation. Auer rods, which are needle-like red-pink inclusions, confirm a myeloid origin. Classically, acute leukaemia is diagnosed at 20% or more blasts in blood or marrow, although newer classifications accept lower counts for some genetically defined subtypes, and the film is a screening tool, not a final diagnosis: confirmation needs marrow examination, flow cytometry and cytogenetics, which means early referral.</p>
-        <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with paediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
+        <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with Pediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
         <p class="text-sm mt-2">Burkitt lymphoma is common in Nigerian children. Leukaemic spill into the blood is uncommon, but lymphoma cells with deeply basophilic, vacuolated cytoplasm on the film of a child with a jaw or abdominal mass should be reported and acted on the same day.</p>
       </div>
     </div>

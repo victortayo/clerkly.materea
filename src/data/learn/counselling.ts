@@ -2328,7 +2328,7 @@ export const COUNSELLING_CONTENT: LearningModule[] = [
   <div>
     <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Blast Cells</strong>
     <p class="text-sm">Blasts are large cells with a high nuclear-to-cytoplasmic ratio, fine open chromatin, visible nucleoli and little or no granulation. Auer rods, which are needle-like red-pink inclusions, confirm a myeloid origin. Classically, acute leukaemia is diagnosed at 20% or more blasts in blood or marrow, although newer classifications accept lower counts for some genetically defined subtypes, and the film is a screening tool, not a final diagnosis: confirmation needs marrow examination, flow cytometry and cytogenetics, which means early referral.</p>
-    <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with paediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
+    <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with Pediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
     <p class="text-sm mt-2">Burkitt lymphoma is common in Nigerian children. Leukaemic spill into the blood is uncommon, but lymphoma cells with deeply basophilic, vacuolated cytoplasm on the film of a child with a jaw or abdominal mass should be reported and acted on the same day.</p>
   </div>
 </div>

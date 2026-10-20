@@ -143,7 +143,7 @@ Pediatric Physical Examination Documentation:
   - Respiratory: RR (compare to age norms), chest symmetry, expansion, tracheal position, percussion notes, breath sounds.
   - Cardiovascular: pulse (rate, rhythm, volume), BP, precordial findings (apex beat, heaves, thrills, heart sounds S1, S2, S3).
   - Abdominal: shape (full, flat, scaphoid, distended), palpation (tenderness, masses), organomegaly (liver/spleen size below costal margin), percussion (ascites), bowel sounds.
-  - Neurologic: mental state (COSMI: Consciousness, Orientation, Speech, Memory, Intellect), consciousness (Paediatric GCS or Blantyre Coma Scale), motor system (PATRIC-G: Inspection, Bulk, Asymmetry, Power, Reflexes, Coordination, Gait).
+  - Neurologic: mental state (COSMI: Consciousness, Orientation, Speech, Memory, Intellect), consciousness (Pediatric GCS or Blantyre Coma Scale), motor system (PATRIC-G: Inspection, Bulk, Asymmetry, Power, Reflexes, Coordination, Gait).
 
 Obstetric Clerking Guidelines (Use when the patient is pregnant or presenting for obstetric care):
 - IMPORTANT: Apply these structures only when clinically appropriate. Avoid forcing irrelevant sections. Adapt documentation based on the specific scenario (e.g., ANC booking, routine ANC, Labour ward). Incorporate current obstetric best practices and evidence-based guidelines.

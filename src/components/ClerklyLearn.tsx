@@ -270,7 +270,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
             <div className="flex items-center gap-4">
               <h1 className="font-brand text-lg sm:text-xl font-bold text-slate-900 dark:text-amber-100 flex items-center gap-2">
                 <i className="fa-solid fa-book-medical text-amber-500"></i>
-                Clerkly Learn
+                Learn
               </h1>
             </div>
             <button onClick={onClose} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors text-slate-400 hover:text-slate-600 dark:text-indigo-200 dark:hover:text-white">

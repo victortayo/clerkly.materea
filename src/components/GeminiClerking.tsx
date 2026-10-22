@@ -283,7 +283,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                   <div className="flex flex-col">
                     <h1 className="font-brand text-lg sm:text-xl font-bold text-indigo-950 dark:text-indigo-100 flex items-center gap-2">
                       <i className="fa-solid fa-circle-plus text-indigo-500"></i>
-                      Clerking Assistant
+                      Assistant
                     </h1>
                     <p className="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">
                       AI-powered clinical documentation and reasoning

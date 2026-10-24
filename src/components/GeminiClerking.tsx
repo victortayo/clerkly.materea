@@ -97,9 +97,13 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
       if (result) {
         setOutput(result);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
-      setOutput("Error generating response. Please check your internet connection and try again.");
+      if (error.message === 'No response from AI.') {
+        setOutput("Please try again later, chief. Today has been busy for me");
+      } else {
+        setOutput("Error generating response. Please check your internet connection and try again.");
+      }
     } finally {
       setLoading(false);
       if (loadingIntervalRef.current) {

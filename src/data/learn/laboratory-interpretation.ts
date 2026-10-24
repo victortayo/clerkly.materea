@@ -5458,7 +5458,7 @@ Key Clinical Takeaways
 
 {
   id: 'lab-malaria-parasite-test',
-  title: 'Malaria Parasite Test: Microscopy and RDT',
+  title: 'Malaria Parasite Test',
   category: 'Laboratory Interpretation',
   subCategory: 'Parasitology',
   content: `
@@ -6014,7 +6014,7 @@ Key Clinical Takeaways
 
 {
   id: 'lab-widal-test',
-  title: 'Widal Test: Why It Fails and What to Do Instead',
+  title: 'Widal Test',
   category: 'Laboratory Interpretation',
   subCategory: 'Microbiology',
   content: `
@@ -6975,5 +6975,942 @@ Key Clinical Takeaways
 </html>
   `
 },
+
+
+{
+  id: 'lab-stool-microscopy',
+  title: 'Stool Microscopy',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Parasitology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; PARASITOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Stool Microscopy: Ova, Cysts and Parasites</h1>
+  <p class="text-sm text-indigo-200">Stool microscopy is cheap, available in almost every laboratory, and mostly misread in two directions. Parasites that matter are missed because the sample was wrong, the method was too limited or only one specimen was sent. Organisms that do not matter are reported and treated, above all &ldquo;Entamoeba histolytica&rdquo; cysts that are really harmless. This guide covers how to collect a usable specimen, what each method finds, how to read helminth eggs and protozoan cysts, the reporting problem with amoebae, the parasite you must not miss (Strongyloides), the artefacts that fool readers, and how to connect the result to the patient so that the right people, and only those people, are treated.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-stool-microscopy-detects-and-what-it-misses" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What Stool Microscopy Detects and What It Misses</span></a></li>
+  <li><a href="#getting-a-usable-specimen" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Getting a Usable Specimen</span></a></li>
+  <li><a href="#the-laboratory-methods-and-what-each-finds" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>The Laboratory Methods and What Each Finds</span></a></li>
+  <li><a href="#reading-helminths-eggs-larvae-and-how-much" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Reading Helminths: Eggs, Larvae and How Much</span></a></li>
+  <li><a href="#reading-protozoa-and-the-amoeba-reporting-problem" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Reading Protozoa, and the Amoeba Reporting Problem</span></a></li>
+  <li><a href="#strongyloides-the-one-you-must-not-miss" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Strongyloides: The One You Must Not Miss</span></a></li>
+  <li><a href="#artefacts-and-look-alikes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Artefacts and Look-alikes</span></a></li>
+  <li><a href="#clinical-correlation-who-has-what" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Clinical Correlation: Who Has What</span></a></li>
+  <li><a href="#the-overdiagnosis-and-overtreatment-culture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>The Overdiagnosis and Overtreatment Culture</span></a></li>
+  <li><a href="#what-follows-a-positive-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>What Follows a Positive Result</span></a></li>
+  <li><a href="#technique-pitfalls-in-the-laboratory" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Technique Pitfalls in the Laboratory</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-stool-microscopy-detects-and-what-it-misses" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What Stool Microscopy Detects and What It Misses
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The test looks for parasites or their products in a stool sample: helminth eggs and larvae, protozoan cysts and trophozoites, and oocysts. It answers one narrow question: is a parasite stage present in this stool, now? It does not tell you how much damage the parasite is doing, whether the symptoms are caused by it, or whether a parasite that is not seen is absent.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why a negative result is weak</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Shedding is erratic.</strong> Many parasites are passed intermittently, so one stool can be negative in a patient who is infected. Guidelines advise three specimens collected on alternate days within about 10 days (up to six in 14 days when amoebiasis is suspected).</li>
+    <li><strong>Some stages are fragile or scarce.</strong> Trophozoites die within an hour of passage, and <em>Strongyloides</em> larvae are few and irregular (section 6).</li>
+    <li><strong>Some parasites need special methods.</strong> <em>Cryptosporidium</em> and <em>Cyclospora</em> are missed on a routine wet mount and need an acid-fast stain. Pinworm eggs are rarely in stool and need a perianal tape test.</li>
+    <li><strong>The parasite may not have reached egg-laying age.</strong> Migrating larvae in the lung or liver (the early weeks after infection) do not yet produce eggs, so a patient with early infection and eosinophilia can have a negative stool.</li>
+    <li><strong>Recent treatment, barium or oils</strong> reduce the yield (section 2).</li>
+  </ul>
+</div>
+<p class="text-sm">The test is also limited in what it can say about species. Several organisms that look identical under the microscope differ completely in importance, the most famous example being the <em>Entamoeba histolytica</em> group (section 5).</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="getting-a-usable-specimen" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Getting a Usable Specimen
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Item</th>
+        <th class="py-2 pr-3">What to do</th>
+        <th class="py-2 pr-3">Why</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Container</strong></td><td class="py-2 pr-3">A clean, dry, wide-mouthed, leak-proof container, filled with about a thumb-sized amount (or 5&ndash;10 mL if liquid). Label with name, date and time of passage.</td><td class="py-2 pr-3">Urine, water, soil and disinfectant destroy or mask parasites. Toilet paper obscures the slide.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Freshness</strong></td><td class="py-2 pr-3">Examine liquid stool within 30 minutes of passage and semi-formed stool within about 1 hour. Formed stool is less urgent because it contains cysts and eggs, not trophozoites.</td><td class="py-2 pr-3">Trophozoites lose motility and shape quickly. Delay turns an <em>Entamoeba</em> or <em>Giardia</em> trophozoite into something unrecognisable.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>If it cannot be examined fresh</strong></td><td class="py-2 pr-3">Fix in 10% formalin (one part stool to three parts fixative, mixed well and with formed stool broken up). Where available, also use a PVA or one-vial fixative for permanent stains.</td><td class="py-2 pr-3">Formalin is suitable for concentration methods. PVA preserves protozoan morphology for trichrome staining but is not suitable for concentration. Each has complementary strengths.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Number of specimens</strong></td><td class="py-2 pr-3">Three, on alternate days (over up to 10 days). Up to six in 14 days if amoebiasis is suspected.</td><td class="py-2 pr-3">Parasites are shed erratically. A single specimen can be negative.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Drugs and contrast</strong></td><td class="py-2 pr-3">Delay collection after barium, bismuth, kaolin, antacids or oily laxatives (about 7&ndash;10 days) and after antibiotics or antimalarials (about 2&ndash;3 weeks).</td><td class="py-2 pr-3">They obscure or destroy protozoa and make the slide unreadable.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Request details</strong></td><td class="py-2 pr-3">Write the symptoms, duration, HIV status, recent drugs and any pallor or eosinophilia on the form. Tick the actual question (for example &ldquo;Cryptosporidium&rdquo; or &ldquo;Strongyloides&rdquo;), not just &ldquo;stool R/E&rdquo;.</td><td class="py-2 pr-3">The laboratory chooses the staining and concentration methods from the question asked.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Specimens that have stood for hours in a hot room, were collected from a toilet bowl or the ground, or contain urine are unsuitable. Ask for a fresh sample instead of reporting from a poor one.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-laboratory-methods-and-what-each-finds" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+The Laboratory Methods and What Each Finds
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Method</th>
+        <th class="py-2 pr-3">Best for</th>
+        <th class="py-2 pr-3">Limits</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Direct wet mount (saline and iodine)</strong></td><td class="py-2 pr-3">Motile trophozoites (saline), cyst nuclei (iodine), larvae, and heavy infections. Quick, done on fresh stool.</td><td class="py-2 pr-3">Insensitive for light infections. Only a tiny amount of stool is examined.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Concentration: formalin&ndash;ether or formalin&ndash;ethyl acetate sedimentation</strong></td><td class="py-2 pr-3">Helminth eggs and larvae and protozoan cysts. The routine method in most Nigerian laboratories. Ethyl acetate is safer than ether.</td><td class="py-2 pr-3">Does not reveal trophozoites. Can lose some delicate eggs and cysts. Poor for acid-fast oocysts unless stained.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Flotation (zinc sulphate or saturated salt)</strong></td><td class="py-2 pr-3">Light eggs (hookworm, Ascaris, Trichuris) and protozoan cysts.</td><td class="py-2 pr-3">Heavy eggs (some tapeworm, fluke, schistosome eggs) may not float and are missed.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Kato&ndash;Katz thick smear</strong></td><td class="py-2 pr-3">Counting helminth eggs per gram (epg) for soil-transmitted helminths and <em>Schistosoma mansoni</em>. The WHO method for intensity.</td><td class="py-2 pr-3">Helminth eggs only, not protozoa. Hookworm eggs fade as the slide clears, so read promptly.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Modified Ziehl&ndash;Neelsen (acid-fast) stain</strong></td><td class="py-2 pr-3"><em>Cryptosporidium</em>, <em>Cyclospora</em> and <em>Cystoisospora</em> oocysts.</td><td class="py-2 pr-3">Not routine in many laboratories, so these parasites are often never looked for. Yeast and fungal elements can mimic oocysts.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Permanent stains (trichrome or iron haematoxylin)</strong></td><td class="py-2 pr-3">Fine nuclear detail of amoebae and flagellates, on PVA-fixed stool.</td><td class="py-2 pr-3">Needs fixative, reagents and a skilled reader. Rarely available.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Baermann funnel or agar plate culture</strong></td><td class="py-2 pr-3"><em>Strongyloides</em> larvae.</td><td class="py-2 pr-3">Needs fresh stool and a laboratory that knows the method.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Cellophane (Scotch) tape on the perianal skin</strong></td><td class="py-2 pr-3"><em>Enterobius</em> (pinworm) eggs.</td><td class="py-2 pr-3">Best done first thing in the morning before washing. Stool is usually negative for pinworm.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Antigen tests and PCR</strong></td><td class="py-2 pr-3"><em>Giardia</em>, <em>Cryptosporidium</em> and <em>E. histolytica</em> (separating it from the harmless amoebae).</td><td class="py-2 pr-3">Limited availability and cost. Useful as a second step for key questions.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">In most Nigerian facilities, stool microscopy means a direct wet mount and a formalin&ndash;ether concentration. That finds the big helminth eggs and protozoan cysts, and it will miss <em>Cryptosporidium</em>, <em>Cyclospora</em>, most <em>Strongyloides</em> and all of the pinworm. If those are the clinical question, say so and ask for the right method.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-helminths-eggs-larvae-and-how-much" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Reading Helminths: Eggs, Larvae and How Much
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Parasite</th>
+        <th class="py-2 pr-3">What is seen (approximate)</th>
+        <th class="py-2 pr-3">Clinical point</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><em>Ascaris lumbricoides</em></td><td class="py-2 pr-3">Round to oval eggs, about 45&ndash;75 &micro;m, with a thick, knobbly outer coat (fertilised) or a more elongated, irregular form (unfertilised). Sometimes decorticated eggs with no coat.</td><td class="py-2 pr-3">Often asymptomatic. Heavy burdens in children cause malnutrition, and worms can cause intestinal or biliary obstruction.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Trichuris trichiura</em></td><td class="py-2 pr-3">Barrel-shaped eggs, about 50 &micro;m long, with a clear plug at each pole.</td><td class="py-2 pr-3">Heavy infection causes chronic diarrhoea, dysentery and rectal prolapse in children.</td></tr>
+      <tr><td class="py-2 pr-3">Hookworm (<em>Necator</em>, <em>Ancylostoma</em>)</td><td class="py-2 pr-3">Oval, thin-shelled eggs, about 60&ndash;75 &micro;m, with a clear space around an early cell cluster. In stool that has stood, eggs hatch into larvae.</td><td class="py-2 pr-3">The cause of iron-deficiency anaemia in many children and women. Eggs cannot be told apart by species.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Strongyloides stercoralis</em></td><td class="py-2 pr-3">Larvae (rhabditiform), not eggs, with a short buccal cavity. See section 6.</td><td class="py-2 pr-3">Can cause fatal hyperinfection under steroids.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Schistosoma mansoni</em></td><td class="py-2 pr-3">Large eggs, about 115&ndash;180 &micro;m, with a prominent lateral spine.</td><td class="py-2 pr-3">Intestinal schistosomiasis: abdominal pain, bloody stool, hepatosplenomegaly. Present in parts of Nigeria.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Hymenolepis nana</em></td><td class="py-2 pr-3">Small, round eggs, about 30&ndash;47 &micro;m, with polar filaments between the inner and outer shells.</td><td class="py-2 pr-3">Often symptomless. Spreads within households.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Taenia</em> species</td><td class="py-2 pr-3">Round eggs, about 31&ndash;43 &micro;m, with a thick, radially striated shell.</td><td class="py-2 pr-3">The eggs cannot separate <em>T. saginata</em> from <em>T. solium</em>. Proglottid structure does. <em>T. solium</em> carries a risk of cysticercosis.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Enterobius vermicularis</em></td><td class="py-2 pr-3">Flattened, asymmetric eggs, about 50&ndash;60 &micro;m, with a larva inside. Mostly seen on tape, not in stool.</td><td class="py-2 pr-3">Nocturnal perianal itching, mainly in children. Treat the household.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How much: eggs per gram</strong>
+  <p class="text-sm">On a Kato&ndash;Katz slide, the 41.7 mg template means that eggs counted &times; 24 = eggs per gram of stool (epg). WHO classes of intensity by Kato&ndash;Katz are:</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Parasite</th>
+          <th class="py-2 pr-3">Light (epg)</th>
+          <th class="py-2 pr-3">Moderate (epg)</th>
+          <th class="py-2 pr-3">Heavy (epg)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3"><em>Ascaris</em></td><td class="py-2 pr-3">1&ndash;4,999</td><td class="py-2 pr-3">5,000&ndash;49,999</td><td class="py-2 pr-3">50,000 or more</td></tr>
+        <tr><td class="py-2 pr-3"><em>Trichuris</em></td><td class="py-2 pr-3">1&ndash;999</td><td class="py-2 pr-3">1,000&ndash;9,999</td><td class="py-2 pr-3">10,000 or more</td></tr>
+        <tr><td class="py-2 pr-3">Hookworm</td><td class="py-2 pr-3">1&ndash;1,999</td><td class="py-2 pr-3">2,000&ndash;3,999</td><td class="py-2 pr-3">4,000 or more</td></tr>
+        <tr><td class="py-2 pr-3"><em>S. mansoni</em></td><td class="py-2 pr-3">1&ndash;99</td><td class="py-2 pr-3">100&ndash;399</td><td class="py-2 pr-3">400 or more</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">Light infections cause little harm. Most morbidity comes from moderate and heavy infections, which is why WHO defines a public health problem when at least 1% of school-aged children have moderate-to-heavy soil-transmitted helminth infection. A formalin&ndash;ether concentrate does not give epg, so report it semi-quantitatively (for example, a count per coverslip or +, ++, +++) and do not apply the WHO classes to it.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-protozoa-and-the-amoeba-reporting-problem" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Reading Protozoa, and the Amoeba Reporting Problem
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Organism</th>
+        <th class="py-2 pr-3">What is seen (approximate)</th>
+        <th class="py-2 pr-3">Meaning</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><em>Giardia lamblia</em></td><td class="py-2 pr-3">Oval cysts, about 8&ndash;19 &micro;m, with up to four nuclei and internal fibres. Pear-shaped trophozoites with a &ldquo;falling leaf&rdquo; motion in fresh liquid stool.</td><td class="py-2 pr-3">A pathogen. Causes watery, greasy, foul diarrhoea with bloating and malabsorption. Shed intermittently, so repeat samples help.</td></tr>
+      <tr><td class="py-2 pr-3"><em>E. histolytica</em> / <em>E. dispar</em> / <em>E. moshkovskii</em></td><td class="py-2 pr-3">Cysts, about 10&ndash;20 &micro;m, with one to four nuclei and rod-like chromatoid bodies. Trophozoites in fresh stool.</td><td class="py-2 pr-3">Identical under the microscope, but only <em>E. histolytica</em> is a pathogen. See below.</td></tr>
+      <tr><td class="py-2 pr-3"><em>E. coli</em>, <em>E. hartmanni</em>, <em>Endolimax nana</em>, <em>Iodamoeba bütschlii</em></td><td class="py-2 pr-3">Cysts of different sizes and nuclear numbers (<em>E. coli</em> cysts have up to eight nuclei).</td><td class="py-2 pr-3">Harmless commensals. They show faecal-oral exposure and are not treated.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Cryptosporidium</em> species</td><td class="py-2 pr-3">Small oocysts, about 4&ndash;6 &micro;m, seen only with an acid-fast stain.</td><td class="py-2 pr-3">Protracted watery diarrhoea in HIV and malnutrition.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Cyclospora</em> and <em>Cystoisospora</em></td><td class="py-2 pr-3">Acid-fast oocysts: <em>Cyclospora</em> about 8&ndash;10 &micro;m, <em>Cystoisospora</em> larger and oval.</td><td class="py-2 pr-3">Persistent diarrhoea, especially with HIV. Easily missed on routine microscopy.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Blastocystis</em></td><td class="py-2 pr-3">Round forms with a large central vacuole.</td><td class="py-2 pr-3">Common. Its role as a cause of disease remains uncertain. Look for other causes before attributing symptoms to it.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The <em>E. histolytica</em> problem</strong>
+  <p class="text-sm"><em>E. histolytica</em>, <em>E. dispar</em> and <em>E. moshkovskii</em> cannot be told apart by their cysts or trophozoites. The exception is a trophozoite that contains ingested red blood cells, which points to <em>E. histolytica</em> but is rarely seen. <em>E. dispar</em> is very common and harmless, and <em>E. histolytica</em> is a minority of the infections. When microscopy-positive stools were checked by PCR, only about 4.5% in one study and 56% in another were truly <em>E. histolytica</em>, so the rest were non-pathogenic species. Overdiagnosis of amoebiasis from stool microscopy is widely reported in resource-limited settings, including in Nigerian work. Nigerian school surveys that report <em>E. histolytica</em> in 4% to 30% of children probably include many harmless amoebae.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How to report and act</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Report honestly:</strong> &ldquo;<em>Entamoeba histolytica/dispar/moshkovskii</em> complex, cysts (or trophozoites) seen&rdquo;, or &ldquo;trophozoites with ingested red cells&rdquo; when present. Do not write &ldquo;<em>E. histolytica</em> positive&rdquo; from cysts alone.</li>
+    <li><strong>Patient well, cysts only:</strong> usually <em>E. dispar</em>. Do not treat.</li>
+    <li><strong>Patient with bloody, mucoid diarrhoea or abdominal pain, and cysts or trophozoites of the complex:</strong> where only microscopy is available, treat as amoebiasis, because the risk of missing invasive disease outweighs the risk of an unneeded course. Consider bacterial dysentery and other causes too.</li>
+    <li><strong>If an antigen test or PCR is available,</strong> use it to confirm <em>E. histolytica</em>, especially before prolonged treatment or in a patient who is not dysenteric.</li>
+    <li><strong>Liver abscess</strong> is diagnosed by imaging and serology, not stool. Stool is often negative.</li>
+  </ul>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Sources differ on how to handle amoebae when only microscopy is available. Molecular reviews argue that cysts alone should never be reported or treated as <em>E. histolytica</em>. Clinical guidance for settings without antigen or PCR testing advises treating a symptomatic patient with blood or mucus in the stool whenever the complex is found. These are compatible: report the complex honestly and let the clinical picture, not the laboratory label, decide treatment. Similarly, WHO intensity thresholds apply to Kato&ndash;Katz egg counts, not to concentration-method counts, and some published tables in the literature use different cut-offs, so always confirm the method before comparing results.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="strongyloides-the-one-you-must-not-miss" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Strongyloides: The One You Must Not Miss
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><em>Strongyloides stercoralis</em> is the worm that can multiply inside the host. It can persist for decades, and under corticosteroids or other immunosuppression it can cause a fulminant hyperinfection with gram-negative sepsis and a high mortality, even with treatment. It is also the parasite that routine stool microscopy detects least reliably.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>The diagnostic stage is the larva, not the egg.</strong> Eggs hatch in the gut, so the stool contains rhabditiform larvae. Report &ldquo;<em>Strongyloides</em> larvae&rdquo;.</li>
+  <li><strong>One stool misses most cases.</strong> A single routine stool detects larvae in only about a quarter of uncomplicated infections. At least three, and up to seven, concentrated specimens are recommended.</li>
+  <li><strong>Special methods help.</strong> Agar plate culture and the Baermann funnel raise the yield, but they need fresh stool and a laboratory that does them. Serology (IgG) is more sensitive but can cross-react with other helminths and may be negative early.</li>
+  <li><strong>Do not confuse it with hookworm.</strong> In stool that has stood for hours, hookworm eggs hatch into larvae. Hookworm larvae have a long buccal cavity, and <em>Strongyloides</em> larvae are smaller with a short one. Always examine fresh stool.</li>
+  <li><strong>Treatment is ivermectin,</strong> typically 200 &micro;g/kg for one to two days in uncomplicated disease, with longer courses for hyperinfection. Albendazole is less effective.</li>
+</ul>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before steroids or other immunosuppression</strong>
+  <p class="text-sm">Anyone from an endemic area who is about to start high-dose corticosteroids, chemotherapy, a biologic or a transplant regimen should be screened, at least with serology and serial stool examination, and treated if positive. Corticosteroids are the single most important trigger of hyperinfection, and HTLV-1 co-infection is another. Where screening is unavailable and treatment cannot wait, ask an infectious disease or senior colleague whether empirical ivermectin is appropriate. Eosinophilia, particularly with abdominal symptoms or a rash, should raise the question.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="artefacts-and-look-alikes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Artefacts and Look-alikes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Stool is full of things that are not parasites. Misreading them produces false reports, unnecessary treatment and a loss of trust in the laboratory.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Artefact</th>
+        <th class="py-2 pr-3">Mistaken for</th>
+        <th class="py-2 pr-3">How to tell</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Pollen grains</td><td class="py-2 pr-3">Helminth eggs, including <em>Taenia</em> and trematodes</td><td class="py-2 pr-3">Often have a different wall and internal structure, and usually smaller than trematode eggs. Very common in stool.</td></tr>
+      <tr><td class="py-2 pr-3">Plant cells, vegetable fibres and hairs, vegetable spirals</td><td class="py-2 pr-3">Helminth eggs and larvae, including hookworm and <em>Strongyloides</em></td><td class="py-2 pr-3">Plant cells are polygonal and larger than eggs. Fibres and spirals do not have a larval mouth or internal organs.</td></tr>
+      <tr><td class="py-2 pr-3">Yeast and fungal spores</td><td class="py-2 pr-3"><em>Entamoeba</em> cysts, hookworm eggs, and (in acid-fast stains) <em>Cryptosporidium</em> and <em>Cyclospora</em> oocysts</td><td class="py-2 pr-3">Refractile, no internal structure or nucleus, often budding. Numbers rise as stool stands, so ask for fresh stool.</td></tr>
+      <tr><td class="py-2 pr-3">Starch granules</td><td class="py-2 pr-3">Protozoan cysts</td><td class="py-2 pr-3">Lack nuclei. Stain with iodine differently from a cyst.</td></tr>
+      <tr><td class="py-2 pr-3">Fat globules and oil droplets</td><td class="py-2 pr-3">Cysts</td><td class="py-2 pr-3">Round and refractile. Many large droplets suggest fat malabsorption.</td></tr>
+      <tr><td class="py-2 pr-3">White cells (especially neutrophils) and epithelial cells</td><td class="py-2 pr-3">Amoebic cysts and trophozoites</td><td class="py-2 pr-3">Check nuclear morphology and size. Neutrophils have lobed nuclei.</td></tr>
+      <tr><td class="py-2 pr-3">Charcot&ndash;Leyden crystals</td><td class="py-2 pr-3">Not a parasite</td><td class="py-2 pr-3">Slender, pointed, diamond-shaped crystals from eosinophil breakdown. They point to an allergic reaction or helminth infection, so report them.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">If you are not sure, do not report. Ask a colleague to confirm, repeat the preparation and examine a fresh sample.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-correlation-who-has-what" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Clinical Correlation: Who Has What
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The Nigerian picture is of widespread soil-transmitted helminth infection with pockets of schistosomiasis and a heavy load of protozoa in children and in people with HIV. Published school surveys across several states found any intestinal parasite in roughly a quarter to well over half of children, with <em>Ascaris</em> and hookworm usually leading, <em>S. mansoni</em> in about 1&ndash;8% in endemic communities, and wide variation by place and method. A study of children with diarrhoea in the north found <em>Giardia</em> the commonest finding, followed by <em>Ascaris</em>, hookworm, <em>Hymenolepis nana</em> and <em>Strongyloides</em>.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Presentation</th>
+        <th class="py-2 pr-3">Think of</th>
+        <th class="py-2 pr-3">Ask the laboratory for</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Pallor, fatigue, microcytic anaemia, school-aged child or woman, abdominal discomfort</td><td class="py-2 pr-3">Hookworm (also iron deficiency and malaria)</td><td class="py-2 pr-3">Concentration or Kato&ndash;Katz, ideally fresh stool, with FBC and film</td></tr>
+      <tr><td class="py-2 pr-3">Poor growth, distended abdomen, passing worms</td><td class="py-2 pr-3"><em>Ascaris</em>, <em>Trichuris</em></td><td class="py-2 pr-3">Concentration with egg count</td></tr>
+      <tr><td class="py-2 pr-3">Blood and mucus in stool, abdominal pain, fever</td><td class="py-2 pr-3">Bacterial dysentery (shigellosis), amoebiasis, <em>S. mansoni</em>, <em>Trichuris</em></td><td class="py-2 pr-3">Fresh stool for wet mount (red cells, pus cells, trophozoites), culture, concentration</td></tr>
+      <tr><td class="py-2 pr-3">Watery, greasy, foul diarrhoea with bloating, lasting more than a week</td><td class="py-2 pr-3"><em>Giardia</em></td><td class="py-2 pr-3">Up to three specimens, or <em>Giardia</em> antigen</td></tr>
+      <tr><td class="py-2 pr-3">Protracted watery diarrhoea in HIV or malnutrition</td><td class="py-2 pr-3"><em>Cryptosporidium</em>, <em>Cyclospora</em>, <em>Cystoisospora</em></td><td class="py-2 pr-3">Modified acid-fast stain</td></tr>
+      <tr><td class="py-2 pr-3">Eosinophilia, cough or wheeze, skin tracks, abdominal symptoms</td><td class="py-2 pr-3">Larval migration, <em>Strongyloides</em>, <em>Ascaris</em>, hookworm</td><td class="py-2 pr-3">Serial stools, agar plate or Baermann, serology; stool may be negative early</td></tr>
+      <tr><td class="py-2 pr-3">Bloody stool or hepatosplenomegaly in a child with freshwater exposure</td><td class="py-2 pr-3"><em>S. mansoni</em></td><td class="py-2 pr-3">Kato&ndash;Katz or concentration</td></tr>
+      <tr><td class="py-2 pr-3">Nocturnal anal itching</td><td class="py-2 pr-3"><em>Enterobius</em></td><td class="py-2 pr-3">Perianal tape test</td></tr>
+      <tr><td class="py-2 pr-3">Passing flat segments in stool or on the bed</td><td class="py-2 pr-3"><em>Taenia</em></td><td class="py-2 pr-3">Bring the proglottid for identification</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><strong>HIV is a special case.</strong> In a south-west Nigerian study of patients with diarrhoea, <em>Cryptosporidium</em> was found by modified Ziehl&ndash;Neelsen staining in 52.7% of all patients, only in those with HIV. Parasites were found in 97% of HIV-positive and 44% of HIV-negative patients, and the difference was entirely due to <em>Cryptosporidium</em>. A routine wet mount would have missed it. Antiretroviral therapy and rehydration are the main treatment.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-overdiagnosis-and-overtreatment-culture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+The Overdiagnosis and Overtreatment Culture
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">&ldquo;Worms&rdquo;, &ldquo;amoeba&rdquo; and &ldquo;giardia&rdquo; are a favourite explanation for abdominal pain, diarrhoea and poor appetite in Nigeria, and a stool test is often ordered to prove it. Two opposite errors follow.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Treating what does not matter.</strong> Harmless amoebae (and <em>E. dispar</em> mislabelled <em>E. histolytica</em>), light helminth infections in a well person, yeast and artefacts all attract metronidazole, albendazole or other drugs. This adds side effects, cost and resistance pressure and leaves the real cause untouched.</li>
+  <li><strong>Missing what matters.</strong> Cryptosporidiosis in HIV, strongyloidiasis before steroids, heavy hookworm in an anaemic child and schistosomiasis are not found by a single routine wet mount.</li>
+</ul>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What helps</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Treat the patient, not the slide.</strong> A pathogenic parasite in a symptomatic patient, or a moderate-to-heavy helminth infection, deserves treatment. A commensal never does.</li>
+    <li><strong>Distinguish treatment from mass deworming.</strong> School-based and community preventive chemotherapy with albendazole or mebendazole (and praziquantel where schistosomiasis is endemic) is a public health measure and does not need individual stool testing. Do not use an individual&rsquo;s negative stool to argue against national deworming, and do not use a positive one to give repeated courses.</li>
+    <li><strong>Ask the right question.</strong> A request form that says &ldquo;stool R/E&rdquo; gets a routine wet mount. A form that says &ldquo;HIV, chronic diarrhoea, Cryptosporidium?&rdquo; gets the right stain.</li>
+    <li><strong>Report honestly.</strong> &ldquo;<em>E. histolytica/dispar</em> complex&rdquo;, &ldquo;<em>E. coli</em> cysts (non-pathogenic)&rdquo;, and &ldquo;yeast, plant material (not significant)&rdquo; stop a harmless finding from becoming a diagnosis.</li>
+    <li><strong>Counsel about prevention.</strong> Safe water, sanitation, hand washing, footwear and washing vegetables prevent reinfection. Treatment without these brings the worms back within months.</li>
+  </ul>
+</div>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">What patients say</th>
+        <th class="py-2 pr-3">A helpful reply</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">&ldquo;The lab said I have amoeba, so I must take the drugs.&rdquo;</td><td class="py-2 pr-3">&ldquo;Some amoebae live harmlessly in the gut and need no treatment. We treat only when they match your symptoms.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;Please test my stool again, I know I have worms.&rdquo;</td><td class="py-2 pr-3">&ldquo;One negative result does not rule them out, so we will collect a proper sample and look for what fits your symptoms.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;My child had deworming at school, why is the stool positive again?&rdquo;</td><td class="py-2 pr-3">&ldquo;Worms come back unless the water, toilets and hygiene change. Treatment clears the worms, and prevention keeps them away.&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-follows-a-positive-result" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+What Follows a Positive Result
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Treatment follows the national guideline and WHO recommendations. In outline:</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Finding</th>
+        <th class="py-2 pr-3">Usual approach</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><em>Ascaris</em>, <em>Trichuris</em>, hookworm</td><td class="py-2 pr-3">Albendazole (single 400 mg dose in WHO preventive chemotherapy) or mebendazole (500 mg). In hookworm anaemia, treat the anaemia with iron as well.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Strongyloides</em></td><td class="py-2 pr-3">Ivermectin (200 &micro;g/kg, one to two days), longer in hyperinfection, with specialist input.</td></tr>
+      <tr><td class="py-2 pr-3"><em>S. mansoni</em></td><td class="py-2 pr-3">Praziquantel, 40 mg/kg as a single dose, which gave cure rates of about 90% in a school study.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Hymenolepis nana</em>, <em>Taenia</em></td><td class="py-2 pr-3">Praziquantel. For <em>T. solium</em>, take specialist advice because of the risk of cysticercosis.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Enterobius</em></td><td class="py-2 pr-3">Albendazole or mebendazole, usually repeated after two weeks, with treatment of household contacts and hygiene advice.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Giardia</em></td><td class="py-2 pr-3">Tinidazole, metronidazole or nitazoxanide, per the national guideline.</td></tr>
+      <tr><td class="py-2 pr-3"><em>E. histolytica</em> (symptomatic)</td><td class="py-2 pr-3">Metronidazole or tinidazole, followed by a luminal agent to clear the cysts.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Cryptosporidium</em> in HIV</td><td class="py-2 pr-3">Rehydration and antiretroviral therapy. Nitazoxanide has limited benefit.</td></tr>
+      <tr><td class="py-2 pr-3">Non-pathogenic protozoa, yeast, artefacts</td><td class="py-2 pr-3">No treatment.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Doses for children and in pregnancy follow national tables. Check for contraindications and drug interactions, and counsel the family about hygiene and household treatment where relevant.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-pitfalls-in-the-laboratory" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Technique Pitfalls in the Laboratory
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Looking at only a small part of the coverslip, or only one field</td><td class="py-2 pr-3">Light infections missed.</td><td class="py-2 pr-3">Scan the whole coverslip systematically at low power, using high power to confirm.</td></tr>
+      <tr><td class="py-2 pr-3">Examining a stale specimen as if fresh</td><td class="py-2 pr-3">Trophozoites reported as cysts or missed. Hookworm hatches into larvae that mimic <em>Strongyloides</em>.</td><td class="py-2 pr-3">Note the time of passage and refuse or flag old specimens.</td></tr>
+      <tr><td class="py-2 pr-3">Using only direct wet mount</td><td class="py-2 pr-3">Low sensitivity for helminth eggs and cysts.</td><td class="py-2 pr-3">Add concentration, and stains where indicated.</td></tr>
+      <tr><td class="py-2 pr-3">No acid-fast stain in a patient with HIV and chronic diarrhoea</td><td class="py-2 pr-3"><em>Cryptosporidium</em>, <em>Cyclospora</em> and <em>Cystoisospora</em> go unreported.</td><td class="py-2 pr-3">Make the stain available or send out for it.</td></tr>
+      <tr><td class="py-2 pr-3">Reading Kato&ndash;Katz slides late</td><td class="py-2 pr-3">Hookworm eggs have faded and are missed.</td><td class="py-2 pr-3">Read promptly. <em>Ascaris</em>, <em>Trichuris</em> and <em>Schistosoma</em> eggs stay readable for longer.</td></tr>
+      <tr><td class="py-2 pr-3">Reporting artefacts as parasites</td><td class="py-2 pr-3">Pollen, plant cells and yeast become &ldquo;eggs&rdquo; and &ldquo;cysts&rdquo;.</td><td class="py-2 pr-3">Compare with reference images. Get a second reader.</td></tr>
+      <tr><td class="py-2 pr-3">Labelling every amoeba cyst as <em>E. histolytica</em></td><td class="py-2 pr-3">Overdiagnosis and overtreatment.</td><td class="py-2 pr-3">Report the complex, or the non-pathogenic species by name.</td></tr>
+      <tr><td class="py-2 pr-3">One specimen for a negative report</td><td class="py-2 pr-3">False reassurance.</td><td class="py-2 pr-3">Add a comment: &ldquo;Single specimen. A negative result does not exclude infection. Send two further specimens.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">Expired reagents, uncalibrated micrometer, no controls</td><td class="py-2 pr-3">Unreliable staining and sizing.</td><td class="py-2 pr-3">Check reagents, calibrate the eyepiece micrometer, and keep reference slides and a positive control.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child of 8 with pallor, tiredness, Hb 7 g/dL and a microcytic film</strong>
+  <p class="text-sm">Think hookworm, iron deficiency and malaria together. Send a concentrated stool (and an egg count if you can), test for malaria, treat the hookworm if present with albendazole, and treat the anaemia with iron. Fix the sanitation and footwear. A positive hookworm does not remove the need to look for another cause of the anaemia.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Well adult, stool shows &ldquo;<em>E. histolytica</em> cysts&rdquo; on a routine check</strong>
+  <p class="text-sm">Most likely <em>E. dispar</em>. Do not treat. Explain that the finding is a harmless amoeba in most people, and advise a repeat or an antigen test if symptoms develop.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult with bloody mucoid diarrhoea, fever and abdominal pain; stool microscopy shows <em>E. histolytica/dispar</em> trophozoites and many pus cells</strong>
+  <p class="text-sm">Treat as dysentery, covering both amoebiasis and bacterial causes (send a stool culture where possible). Rehydrate. Ask for an antigen or PCR confirmation if available, and review the response at 48&ndash;72 hours.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">HIV-positive adult with 3 weeks of watery diarrhoea and weight loss; routine stool negative</strong>
+  <p class="text-sm">The routine test has not looked for the likely cause. Request a modified acid-fast stain for <em>Cryptosporidium</em>, <em>Cyclospora</em> and <em>Cystoisospora</em>, rehydrate, check electrolytes and the CD4 count and viral load where available, and start or optimise antiretroviral therapy.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient about to start high-dose prednisolone, eosinophilia on the FBC, previously living in a rural area</strong>
+  <p class="text-sm">Screen for <em>Strongyloides</em> before steroids: serial concentrated stools or agar plate culture, and serology where available. If screening cannot be done and steroids cannot wait, discuss empirical ivermectin with an infectious disease colleague. Hyperinfection under steroids can be fatal.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child of 5 scratching the anus at night</strong>
+  <p class="text-sm">Pinworm. Do a cellophane tape test first thing in the morning (stool is usually negative). Treat the child and household with albendazole or mebendazole, repeated after two weeks, and advise washing of bedding and hands.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man who has passed flat white segments in his stool</strong>
+  <p class="text-sm">Taenia. Stool eggs cannot tell <em>T. saginata</em> from <em>T. solium</em>, so ask the patient to bring a segment for identification. Treat per the national guideline, and if <em>T. solium</em> is possible, ask about seizures, headache and lumps and take specialist advice, as cysticercosis is the real danger.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Routine stool report: &ldquo;yeast cells and plant cells seen&rdquo;, patient well</strong>
+  <p class="text-sm">A normal finding. Do not treat. If the yeast is abundant in a stool that stood for hours, ask for a fresh sample before reading anything into it.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Start with the patient.</strong> Symptoms, anaemia, eosinophilia, HIV, malnutrition, immunosuppression, travel or water exposure.</li>
+  <li><strong>Check the specimen.</strong> How fresh, how preserved, how many, any drugs or barium beforehand.</li>
+  <li><strong>Check the method.</strong> Wet mount only, concentration, Kato&ndash;Katz, acid-fast, culture. Did the method fit the question?</li>
+  <li><strong>Name the stage.</strong> Egg, larva, cyst, trophozoite or oocyst, and rule out artefacts.</li>
+  <li><strong>Classify the organism:</strong> pathogen, commensal or uncertain. For amoebae, use the complex, not the species.</li>
+  <li><strong>Quantify where the method allows.</strong> Use Kato&ndash;Katz epg and the WHO classes only for helminths counted that way.</li>
+  <li><strong>Match to the clinical picture,</strong> and decide whether to treat, to repeat, to extend the test or to look elsewhere.</li>
+  <li><strong>If negative with a strong suspicion,</strong> send two more specimens, add the right stain, or use antigen, PCR or serology.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong><em>Strongyloides</em> larvae, or a risk of it, before steroids.</strong> Screen and treat before immunosuppression. Hyperinfection can kill.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Hyperinfection signs:</strong> fever, gram-negative sepsis, meningitis, respiratory failure or larvae in sputum in a patient on steroids from an endemic area.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Bloody diarrhoea with amoebae or no cause found.</strong> Do not dismiss. Treat as dysentery, and consider invasive amoebiasis, shigellosis and schistosomiasis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Chronic diarrhoea in HIV with a negative routine stool.</strong> Ask for an acid-fast stain. Cryptosporidiosis is common and is missed by the usual method.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Heavy hookworm or <em>Ascaris</em> with severe anaemia or malnutrition.</strong> Treat the worms and the anaemia, and consider transfusion in severe anaemia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Abdominal colic or vomiting of worms, or jaundice with a worm burden.</strong> <em>Ascaris</em> obstruction of the bowel or bile duct. Needs surgical or specialist review.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong><em>Taenia</em> in a patient with seizures or new headaches.</strong> Possible neurocysticercosis. Get imaging and specialist advice before treating.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A negative single stool treated as final.</strong> A single specimen misses many infections. Repeat, or use the specific method for the suspected parasite.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Parasites are shed erratically. Send three specimens on alternate days, examine liquid stool within 30 minutes, and avoid barium, oils and recent antibiotics.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Routine wet mount and formalin&ndash;ether concentration find the common helminths and cysts. They miss <em>Cryptosporidium</em>, <em>Cyclospora</em>, most <em>Strongyloides</em> and pinworm, which each need a specific method.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><em>E. histolytica</em>, <em>E. dispar</em> and <em>E. moshkovskii</em> look identical, and most microscopy-positive amoebae are harmless. Report the complex, treat only if the patient is symptomatic with blood or mucus, and confirm with antigen or PCR where possible.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Intensity matters for helminths: use Kato&ndash;Katz epg and the WHO classes (for example <em>Ascaris</em> heavy at 50,000 epg or more, hookworm heavy at 4,000 or more), and treat moderate and heavy infections and symptomatic patients.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><em>Strongyloides</em> is found as larvae, and one stool detects only about a quarter of cases. Screen at-risk patients before steroids with serial stools, agar plate or Baermann, and serology, and treat with ivermectin.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In HIV with chronic diarrhoea, ask for an acid-fast stain. In a Nigerian study <em>Cryptosporidium</em> accounted for the whole excess of parasites in HIV-positive patients.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pollen, plant cells, yeast, starch and white cells mimic eggs, cysts and larvae. Do not treat artefacts or commensals, and treat the patient rather than the slide.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. DPDx: diagnostic procedures for stool specimens (collection, fixatives, concentration, stains) and the DPDx catalogue of artefacts and pseudoparasites.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Soil-transmitted helminthiases: prevention and control, including Kato&ndash;Katz and the classes of infection intensity.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Schistosomiasis: preventive chemotherapy and treatment with praziquantel.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published laboratory collection guides and specimen requirements for ova and parasite examination, including interfering substances and the three-specimen protocol.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published reviews and PCR-confirmed studies of the Entamoeba histolytica, E. dispar and E. moshkovskii complex and the overdiagnosis of amoebiasis by microscopy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published clinical reviews of Strongyloides stercoralis: stool sensitivity, agar plate and Baermann methods, serology, hyperinfection and ivermectin treatment.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian school and community surveys of intestinal helminths and protozoa, including Kato&ndash;Katz studies of Schistosoma mansoni and soil-transmitted helminths.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published south-west Nigerian study of cryptosporidiosis in HIV-infected patients with diarrhoea, and a northern Nigerian study of intestinal parasites in children with diarrhoea.</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'lab-hiv-testing',
+  title: 'HIV Testing',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Serology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; SEROLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">HIV Testing: Screening, Confirmation and the Nigerian Algorithm</h1>
+  <p class="text-sm text-indigo-200">An HIV result changes a life, either way. In Nigeria, where about 1.4% of adults are infected, a single reactive rapid test is more often wrong than most clinicians expect, and a negative test can be wrong in the weeks after exposure. This guide covers what each test detects (Determine, Unigold, Stat-Pak, ELISA, NAT), the national serial algorithm and how to read each combination, why one reactive test is never a diagnosis, how to deal with discordant results, false negatives and false positives, the infant algorithm, the retest that must precede ART, and the counselling that goes with every result.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What HIV Tests Detect
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Three things can be measured. Which one a test measures determines how early it turns positive and what can fool it.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Antibodies to HIV-1 and HIV-2.</strong> The body makes them over the first weeks. Most rapid tests, and early ELISAs, detect antibody only.</li>
+  <li><strong>p24 antigen with antibody.</strong> A fourth-generation antigen/antibody assay also detects the viral p24 protein, which appears before antibodies, so it shortens the window.</li>
+  <li><strong>Viral nucleic acid (RNA or DNA).</strong> Nucleic acid tests (NAT, PCR) find the virus itself and are the earliest tests. They are also the only reliable tests in infants under 18 months.</li>
+</ul>
+<p class="text-sm">A positive result in a screening test means &ldquo;reactive&rdquo;, not &ldquo;infected&rdquo;. A diagnosis is made by an algorithm of tests, never by one.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+The Platforms You Will Meet
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">What it is</th>
+        <th class="py-2 pr-3">Role and limits</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Determine HIV-1/2</strong></td><td class="py-2 pr-3">A lateral-flow rapid antibody test. A separate Determine combination product also detects p24 antigen, so check which one is in your store.</td><td class="py-2 pr-3">Test 1 (screening) in the Nigerian algorithm. Chosen for sensitivity, so it picks up most infections but also gives false reactives.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Unigold HIV-1/2</strong></td><td class="py-2 pr-3">A rapid antibody test using recombinant antigens.</td><td class="py-2 pr-3">Test 2 (confirmation of a reactive Test 1) in the Nigerian algorithm. Chosen for specificity.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Stat-Pak HIV-1/2</strong></td><td class="py-2 pr-3">A rapid antibody test.</td><td class="py-2 pr-3">Tie-breaker (Test 3) when Test 1 and Test 2 disagree.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>ELISA (3rd generation, antibody)</strong></td><td class="py-2 pr-3">A laboratory plate assay detecting antibodies.</td><td class="py-2 pr-3">Screening. Not part of the national rapid algorithm. A reactive ELISA still needs the algorithm to confirm it.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>ELISA (4th generation, antigen and antibody)</strong></td><td class="py-2 pr-3">Detects p24 antigen and antibody together.</td><td class="py-2 pr-3">Earlier detection. Typically 18&ndash;45 days after exposure. Used in blood banks and reference laboratories.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>NAT, PCR, viral load</strong></td><td class="py-2 pr-3">Detects viral RNA or proviral DNA.</td><td class="py-2 pr-3">Infant diagnosis, suspected acute infection, resolving discordant results and monitoring treatment. Costly and not available everywhere.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Western blot and line immunoassays</strong></td><td class="py-2 pr-3">Older confirmatory antibody assays.</td><td class="py-2 pr-3">WHO recommends moving away from them in national algorithms, because they give indeterminate results and delay diagnosis. They are not the route to confirm a rapid-test result.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HIV self-test (oral fluid or finger-stick)</strong></td><td class="py-2 pr-3">A rapid antibody test done by the person.</td><td class="py-2 pr-3">WHO recommends offering it as an approach to testing. A reactive self-test is not a diagnosis. The person goes on to a facility test.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Test 1 is chosen for high sensitivity so that few infections are missed, and Test 2 for high specificity so that false reactives are filtered. The pairing is the point. Using the same kit twice, or swapping kits when stock runs out, defeats it.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+The Nigerian Serial Algorithm and How to Read It
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Since 2007, Nigeria&rsquo;s national algorithm has been serial: Determine HIV-1/2 as Test 1, Unigold as Test 2, and Stat-Pak as the tie-breaker (Test 3) used only when Tests 1 and 2 disagree. A positive diagnosis needs two reactive tests, either Test 1 with Test 2, or Test 1 with Test 3.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test 1 (Determine)</th>
+        <th class="py-2 pr-3">Test 2 (Unigold)</th>
+        <th class="py-2 pr-3">Test 3 (Stat-Pak)</th>
+        <th class="py-2 pr-3">Result and action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">Not done</td><td class="py-2 pr-3">Not done</td><td class="py-2 pr-3"><strong>HIV negative.</strong> Testing stops. If there was a possible exposure in the last few weeks, advise a repeat test after the window period (section 6).</td></tr>
+      <tr><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Not done</td><td class="py-2 pr-3"><strong>HIV positive.</strong> Counsel and link to care. Retest on a fresh sample before starting ART (section 5).</td></tr>
+      <tr><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3"><strong>HIV positive</strong> by the national algorithm (Test 1 with Test 3). Treat as a result that needs verification before ART, because this is the pattern where false positives cluster.</td></tr>
+      <tr><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3"><strong>Not positive.</strong> Word it as the current national guideline directs. In WHO-based algorithms it is reported as inconclusive, with a repeat test in 14 days, and a viral load or NAT if the person is unwell.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What the Nigerian evaluations found</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>In the 2018 national household survey (NAIIS) of 204,930 people aged 18 months and over, 5,103 (2.5%) were reactive on Test 1. The algorithm called 2,958 (1.44%) positive. That means about four in ten Test 1-reactive people were not confirmed by Test 2 or the tie-breaker.</li>
+    <li>When the algorithm-positive results were checked with supplemental testing (Geenius, then Western blot), 95% were confirmed. HIV-1 accounted for 98.8%, HIV-2 alone 0.2% and dual infection 0.8%. The positive predictive value of the national algorithm was 94.5%, so about 5.5% of algorithm-positive results were false positives. Test 1 and Test 2 agreed in only 56.6% of cases.</li>
+    <li>A later national evaluation across states with different prevalence concluded that the serial algorithm performed very well. A prospective study in 2020 found the algorithm was more accurate at the National Reference Laboratory under controlled conditions than in the field.</li>
+    <li>An earlier clinic-based study reported a positive predictive value of 99.4%.</li>
+  </ul>
+  <p class="text-sm mt-2">The numbers differ because accuracy depends on prevalence, on the kit lots and on how carefully the tests are run. The consistent finding is that field performance is lower than laboratory performance, and that a minority of algorithm-positive results do not hold up. That is the reason for retesting before treatment.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">WHO now recommends that all countries use a three-test strategy, requiring three consecutive reactive tests for an HIV-positive diagnosis, so as to reach a positive predictive value of at least 99% as prevalence falls. Earlier WHO guidance allowed two tests where prevalence was above 5%. Nigeria&rsquo;s published algorithm is a two-test serial algorithm with a tie-breaker. National guidance may have been updated since the sources used here, so confirm the current Federal Ministry of Health and NASCP algorithm at your facility and follow it exactly. Whatever the national version, retesting before ART initiation remains in WHO guidance and is a necessary safeguard.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Why One Reactive Test Is Never a Diagnosis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Predictive value depends on how common HIV is among the people being tested. When prevalence is low, even an excellent test produces many false reactives. Take a test with perfect sensitivity and 99% specificity, used in a population with Nigeria&rsquo;s adult prevalence of about 1.4%. Test 10,000 people:</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3"></th>
+        <th class="py-2 pr-3">Reactive</th>
+        <th class="py-2 pr-3">Non-reactive</th>
+        <th class="py-2 pr-3">Total</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Infected (140)</td><td class="py-2 pr-3">140</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">140</td></tr>
+      <tr><td class="py-2 pr-3">Not infected (9,860)</td><td class="py-2 pr-3">about 99</td><td class="py-2 pr-3">about 9,761</td><td class="py-2 pr-3">9,860</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Total reactive</strong></td><td class="py-2 pr-3"><strong>about 239</strong></td><td class="py-2 pr-3"></td><td class="py-2 pr-3"></td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Positive predictive value of the single test:</strong> 140 &divide; 239 = about 59%. Four in ten reactive people are not infected.</li>
+  <li><strong>With two independent tests,</strong> each 99% specific, the false positives fall to about 1 in 10,000 and the positive predictive value rises to about 99%. This is why serial testing works.</li>
+  <li><strong>Real tests are not independent.</strong> The same cross-reacting antibodies (autoimmune disease, multiple pregnancies, recent vaccination, liver disease) can make two different kits react together. That is why the national algorithm in the field delivered a positive predictive value of about 94.5% rather than the 99% the arithmetic suggests, and why WHO has moved to three tests and retesting.</li>
+</ul>
+<p class="text-sm">So tell the person the truth at each step. A reactive first test is a reason to test again. It is not a result. Only the full algorithm gives one.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Verification: The Retest Before ART
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Antiretroviral therapy is lifelong. Starting it in someone who is not infected means years of unnecessary drugs, side effects, cost and stigma, and a diagnosis that is almost impossible to undo. WHO has kept the recommendation to verify a positive diagnosis before starting treatment, and Nigerian evaluations support it.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>When:</strong> after a positive algorithm result and before the first ART dose. In practice this means the same day or at the next contact, so that same-day initiation is not lost.</li>
+  <li><strong>How:</strong> take a fresh sample, ideally tested by a different provider, and run the full national algorithm again. Record both results.</li>
+  <li><strong>If the verification is non-reactive or discordant:</strong> do not start ART. Treat the person as having an unresolved result, collect another sample for a viral load or NAT where available, and recheck after a short interval. Offer counselling in the meantime.</li>
+  <li><strong>A person who is already on ART</strong> will usually remain antibody-reactive on retesting. A reactive test in someone on treatment is not a false positive and must not trigger stopping treatment.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+False Negatives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">What happens</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Window period</strong></td><td class="py-2 pr-3">Infection has occurred but the test cannot yet detect it. Approximate windows after exposure: NAT 10&ndash;33 days; laboratory antigen/antibody test 18&ndash;45 days; rapid antigen/antibody test (finger-stick) 18&ndash;90 days; rapid or self-test antibody test 23&ndash;90 days (about 3&ndash;12 weeks).</td><td class="py-2 pr-3">If there was an exposure in the last 3 months, advise repeating after the window. For earlier detection use a fourth-generation assay or NAT.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Acute HIV infection</strong></td><td class="py-2 pr-3">High viral load, few or no antibodies. Fever, rash, sore throat, mouth ulcers, lymphadenopathy and malaise 2&ndash;4 weeks after exposure.</td><td class="py-2 pr-3">If the story and symptoms fit, do not accept a negative rapid test. Use NAT or viral load, and repeat serology in 2&ndash;4 weeks. The person is highly infectious.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>PrEP or early ART</strong></td><td class="py-2 pr-3">Treatment started in very early infection, and PrEP taken during an infection, can delay or suppress the antibody response and leave serology non-reactive.</td><td class="py-2 pr-3">In a person on PrEP or after PEP with symptoms or a missed-dose exposure, use NAT or viral load, not antibody alone.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Kit failure</strong></td><td class="py-2 pr-3">Kits stored hot, past expiry, or from a defective lot lose sensitivity.</td><td class="py-2 pr-3">Store as the insert directs, check expiry, use controls and report suspect lots.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Technique errors</strong></td><td class="py-2 pr-3">Too little blood or buffer, reading too early, or reading a faint line as negative.</td><td class="py-2 pr-3">Follow the insert exactly, read in good light within the stated window, and treat any visible test line as reactive.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HIV-2 or atypical infection</strong></td><td class="py-2 pr-3">HIV-2 is uncommon in Nigeria (0.2% alone and 0.8% dual in the national survey) but the assays vary in how well they detect it.</td><td class="py-2 pr-3">If the clinical picture is strongly suggestive despite a negative result, refer for further testing.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Very advanced immunosuppression</strong></td><td class="py-2 pr-3">A seronegative result is uncommon even then, but the antibody response can fade very late in disease.</td><td class="py-2 pr-3">Repeat with a different lot, add a laboratory assay, and consider viral load in a very ill patient.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+False Positives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">What happens</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Cross-reactive antibodies</strong></td><td class="py-2 pr-3">Autoimmune disease, multiple pregnancies, blood transfusions, liver disease, haemodialysis and recent vaccinations (for example hepatitis B, rabies or influenza) can produce a reactive result. Chronic infections and malaria are also sometimes suspected as contributors.</td><td class="py-2 pr-3">Always complete the algorithm. A reactive Test 1 with a non-reactive Test 2 is the typical pattern. Do not issue a result on Test 1 alone.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Maternal antibodies in infants</strong></td><td class="py-2 pr-3">Antibodies cross the placenta and persist, so a baby of an infected mother tests reactive on antibody tests without being infected.</td><td class="py-2 pr-3">Use NAT in all infants under 18 months (section 9). Never diagnose an infant on a rapid test.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Correlated false reactivity</strong></td><td class="py-2 pr-3">The same interfering antibody can react on both Test 1 and Test 2, so an algorithm of two kits still produces a minority of false positives in the field.</td><td class="py-2 pr-3">This is why verification testing before ART is needed.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Misreading</strong></td><td class="py-2 pr-3">Reading a smudge or shadow as a line, reading after the window, or using a damaged device.</td><td class="py-2 pr-3">Have a second person read doubtful strips and use the insert&rsquo;s time limit.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Contamination and mix-ups</strong></td><td class="py-2 pr-3">Shared lancets, un-changed gloves, wrong labels, transposed results.</td><td class="py-2 pr-3">Use a new lancet and gloves each time, label cassettes with the client&rsquo;s identifiers, and record results at once.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>A &ldquo;positive&rdquo; that is real</strong></td><td class="py-2 pr-3">A person who has been on ART for years will still test reactive.</td><td class="py-2 pr-3">Do not call it a false positive. Check records, continue treatment and consider a viral load.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+ELISA and Laboratory Tests: Where They Fit
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>ELISA is a screening method.</strong> In the national rapid algorithm it has no confirmatory role. A reactive ELISA (antibody or antigen/antibody) is sent through the algorithm, or to a reference laboratory, and is not reported to the patient as &ldquo;HIV positive&rdquo; on its own.</li>
+  <li><strong>Fourth-generation assays detect p24</strong> as well as antibody, which shortens the window. They are used in blood banks and some reference laboratories, and they are the better choice for a recent exposure.</li>
+  <li><strong>Blood bank screening</strong> is a separate purpose with its own rules: a reactive donation is discarded and the donor referred for counselling and confirmatory testing, without being told that he or she is positive on the screening result alone.</li>
+  <li><strong>Confirmation of an unresolved result</strong> is best done with NAT or viral load, not Western blot. WHO recommends moving away from Western blot and line immunoassays because of indeterminate results.</li>
+  <li><strong>Viral load</strong> measures how much virus is present. It confirms active infection, resolves a discordant rapid-test result, and monitors treatment. It is not a routine first test.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Special Groups
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Infants and children under 18 months</strong>
+  <p class="text-sm">Maternal antibodies make rapid tests and ELISA unreliable under 18 months. HIV-exposed infants are diagnosed by nucleic acid testing, usually on a dried blood spot (DBS). The WHO early infant diagnosis schedule is:</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>A nucleic acid test at 4&ndash;6 weeks, or at the first contact after that. A test at birth can be added for high-risk infants.</li>
+    <li>A nucleic acid test again at 9 months for exposed infants, even if the earlier result was negative.</li>
+    <li>Any exposed infant who becomes unwell outside the schedule is tested with NAT.</li>
+    <li>A final antibody test at 18 months, or at least 3 months after breastfeeding has stopped, whichever is later. Retest 6 weeks or more after weaning if a negative result was obtained during breastfeeding.</li>
+    <li>A positive nucleic acid result is acted on at once: start ART and send a confirmatory sample.</li>
+    <li>In a child older than 18 months, the adult algorithm applies.</li>
+  </ul>
+  <p class="text-sm mt-2">Turnaround for DBS results in some programmes can be weeks, so track every sample. Use cotrimoxazole prophylaxis for exposed infants from 6 weeks while waiting.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnancy</strong>
+  <p class="text-sm">Test every pregnant woman at the first antenatal visit. WHO advises retesting later in pregnancy and postpartum in higher-burden settings, so follow national PMTCT guidance. Dual HIV/syphilis rapid tests can be used as the first test in antenatal clinics. A woman who tests positive starts ART at once after verification, and her infant enters the early infant diagnosis pathway.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">People on PrEP, after PEP, or reporting a previous positive</strong>
+  <p class="text-sm">On PrEP, use the national schedule of testing, and use NAT or viral load if symptoms suggest acute infection. After post-exposure prophylaxis, test at baseline and follow up at the intervals in the national protocol. A person who reports a previous positive result or current ART should be treated as on treatment until proved otherwise: look for records, continue therapy, and use a viral load if there is doubt.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Counselling, Consent and Linkage
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">WHO describes five essentials for every HIV testing encounter: consent, confidentiality, counselling, correct results and connection to care and prevention. Testing is voluntary, and the person can decline.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Before the test:</strong> explain what will be done, what the possible results are, and that results are confidential. Ask what the person already knows and what they expect.</li>
+  <li><strong>Negative result:</strong> explain the window period and when to retest, and offer prevention (condoms, PrEP where available, partner testing).</li>
+  <li><strong>Positive result:</strong> tell the person in plain words, in private, after the algorithm is complete. Allow silence, address fear, explain that HIV is treatable and that treatment prevents transmission, and arrange the verification test and same-day linkage to a treatment site. Offer support for disclosure and partner testing.</li>
+  <li><strong>Inconclusive result:</strong> explain that the tests disagree, that this does not mean infection or its absence, and that a repeat test (and viral load if available) will settle it. Do not say &ldquo;you are positive&rdquo; or &ldquo;you are negative&rdquo;.</li>
+  <li><strong>Do not give results to anyone else</strong> without the person&rsquo;s consent, including relatives, employers and partners. Premarital and pre-employment tests are a common source of coercion, so check that consent is real.</li>
+</ul>
+<p class="text-sm"><strong>After a confirmed positive,</strong> national guidelines offer ART to everyone, with baseline tests (CD4 count or an advanced-disease assessment, viral load, TB screening, hepatitis B, pregnancy, and cryptococcal antigen when the CD4 count is low), without delaying the start of treatment for them. Follow the current national guidelines for the regimen and monitoring.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Quality Assurance and Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Using the kits out of order, or replacing a missing kit with another</td><td class="py-2 pr-3">The algorithm is no longer validated. False positives or negatives rise.</td><td class="py-2 pr-3">Use Determine, then Unigold, then Stat-Pak, in that order. If a kit is out of stock, hold testing or refer. Do not improvise.</td></tr>
+      <tr><td class="py-2 pr-3">Poor storage (heat, humidity, direct sun, expired stock)</td><td class="py-2 pr-3">Reduced sensitivity and invalid tests.</td><td class="py-2 pr-3">Store as the insert directs, log the temperature, use first-expiry first-out, and discard expired kits.</td></tr>
+      <tr><td class="py-2 pr-3">Wrong blood or buffer volume, wrong timing</td><td class="py-2 pr-3">False negatives, faint lines, invalid results.</td><td class="py-2 pr-3">Use the stated sample volume, apply buffer correctly, set a timer, and read within the window.</td></tr>
+      <tr><td class="py-2 pr-3">Reading a faint line as negative</td><td class="py-2 pr-3">Missed infection.</td><td class="py-2 pr-3">Any visible test line, however faint, is reactive. Have a second reader confirm.</td></tr>
+      <tr><td class="py-2 pr-3">No internal controls and no external quality assessment</td><td class="py-2 pr-3">Errors undetected.</td><td class="py-2 pr-3">Run positive and negative controls as scheduled, take part in proficiency testing, and check every new lot.</td></tr>
+      <tr><td class="py-2 pr-3">Untrained or uncertified testers</td><td class="py-2 pr-3">Performance in the field falls below laboratory performance.</td><td class="py-2 pr-3">Certify and supervise every tester, and re-train on a schedule.</td></tr>
+      <tr><td class="py-2 pr-3">Poor record-keeping</td><td class="py-2 pr-3">Results cannot be traced, and the verification test is skipped.</td><td class="py-2 pr-3">Record Test 1, 2 and 3 separately, with lot numbers and tester identity.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Couple at premarital counselling: she is Test 1 reactive, Test 2 and Test 3 non-reactive</strong>
+  <p class="text-sm">She is not positive. Tell her exactly that: one test reacted and the others did not, so the result is not confirmed. Report according to the national wording, arrange a repeat test in about 14 days (and a viral load or NAT if available), and counsel on what the repeat will show. Make sure neither partner is pressured into a decision on the first result.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman at booking: Test 1 reactive and Test 2 reactive</strong>
+  <p class="text-sm">Positive by the algorithm. Counsel her privately. Retest on a fresh sample, start ART the same day if the retest confirms, and offer partner and child testing. Enrol the infant for early infant diagnosis, and follow the PMTCT protocol for delivery and infant prophylaxis.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man with a new partner two weeks ago, fever, sore throat and a rash; Test 1 non-reactive</strong>
+  <p class="text-sm">Acute HIV is possible, and a negative antibody test at two weeks does not exclude it. Send a viral load or NAT and a fourth-generation assay if available, and repeat serology in 2&ndash;4 weeks. Advise condoms in the meantime. Do not reassure him on the rapid test.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient who says he has taken ART for 5 years and is retesting at a new clinic; Test 1 and Test 2 reactive</strong>
+  <p class="text-sm">Not a new diagnosis. He is likely on treatment and should remain reactive. Look for his records, continue ART without interruption, refer him to a treatment site, and check a viral load if there is doubt. Do not start him as new or stop his drugs because the result is &ldquo;unclear&rdquo;.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Baby of 3 months, mother HIV positive, rapid test reactive</strong>
+  <p class="text-sm">Maternal antibodies. Do not diagnose HIV. Send a DBS for nucleic acid testing, make sure the baby is on cotrimoxazole and prophylaxis, and plan the 9-month and 18-month tests. If the infant is unwell, request NAT at once.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Newly positive adult who says &ldquo;test me again, I do not believe it&rdquo;</strong>
+  <p class="text-sm">Welcome the request. A verification test on a fresh sample is part of the pathway before treatment and protects the person if the first result was wrong. Explain this, repeat the test carefully, and give the result in the same private, supportive way.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Very ill young adult with weight loss, oral thrush and chronic diarrhoea; Test 1 non-reactive</strong>
+  <p class="text-sm">The picture is strongly suggestive. Check the kit lot, expiry, storage and technique, repeat with another lot or send a laboratory assay, and consider a viral load. Look for other immunosuppression too. Do not close the diagnosis on a single negative rapid test in a clinically convincing case.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Health worker with a needlestick from a source of unknown status</strong>
+  <p class="text-sm">Act at once: wash the site, take a baseline test, and start post-exposure prophylaxis within the time limit set by the national protocol without waiting for source testing. Test the source with consent, and follow up the health worker at the intervals the protocol sets. Report the incident.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Check age.</strong> Under 18 months, use nucleic acid testing, not antibody tests.</li>
+  <li><strong>Ask about treatment and prevention.</strong> ART, PrEP, PEP, and any earlier positive result.</li>
+  <li><strong>Ask about timing.</strong> Any exposure or symptoms in the last 3 months, and whether the person might be in the window period.</li>
+  <li><strong>Check the testing.</strong> Right kits, in the right order, within expiry, correct technique, read in the window.</li>
+  <li><strong>Apply the algorithm.</strong> Negative on Test 1 stops. Two reactive tests are positive. Discordance goes to the tie-breaker. If the tie-breaker is non-reactive, the result is not positive.</li>
+  <li><strong>Verify before ART.</strong> Retest on a fresh sample, and do not start treatment on an unverified result.</li>
+  <li><strong>Resolve what is unresolved</strong> with a repeat in about 14 days, viral load or NAT, and a clinical review.</li>
+  <li><strong>Counsel and link.</strong> Give the result in private, answer questions, and connect the person to care or prevention before they leave.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive result given on a single reactive test.</strong> Never. Complete the algorithm and verify before treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>An infant under 18 months diagnosed on an antibody test.</strong> Maternal antibody. Use a nucleic acid test.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A negative rapid test in someone with recent exposure and an acute illness.</strong> Acute HIV. Use NAT or viral load, and repeat serology.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Starting lifelong ART without a verification test.</strong> A minority of algorithm-positive results are false positives.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Stopping ART in someone because a retest reads &ldquo;positive again&rdquo; or &ldquo;unclear&rdquo;.</strong> People on treatment stay antibody-reactive.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Kits used out of sequence or substituted during a stock-out.</strong> The validated algorithm is lost. Hold testing and refer.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive given without counselling or linkage.</strong> The result is only useful if the person reaches care.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A result disclosed to a partner, relative or employer without consent.</strong> A breach of confidentiality and a source of real harm.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The Nigerian algorithm is serial: Determine, then Unigold, with Stat-Pak as tie-breaker. Two reactive tests give a positive. A non-reactive Test 1 ends testing. A reactive Test 1 with two non-reactive tests is not positive.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>At a prevalence of about 1.4%, a single reactive test with 99% specificity is wrong about four times in ten. In the national survey, about four in ten Test 1-reactive people were not confirmed, and the algorithm&rsquo;s positive predictive value was 94.5%.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WHO recommends three consecutive reactive tests in all settings (positive predictive value of at least 99%) and a verification retest before ART. Check the current national algorithm, and always retest before treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Window periods are about 10&ndash;33 days for NAT, 18&ndash;45 days for a laboratory antigen/antibody test, and 23&ndash;90 days for rapid antibody tests. Acute HIV, PrEP and early ART all cause false negatives, so use NAT or viral load when the story fits.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never diagnose an infant under 18 months on an antibody test. Use nucleic acid testing at 4&ndash;6 weeks and 9 months, and an antibody test at 18 months or 3 months after breastfeeding stops, whichever is later.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>ELISA is a screening test, not a confirmatory one. Western blot is no longer recommended. A person on ART will remain reactive, which is not a false positive.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Every encounter needs consent, confidentiality, counselling, correct results and connection to care. Store kits properly, run them in the right order, read faint lines as reactive, and keep the field accuracy as high as the laboratory&rsquo;s.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Consolidated guidelines on HIV testing services for a changing epidemic (2019), and the 2023 update and information note on HIV testing strategies, retesting before ART initiation and HIV self-testing.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Recommendations on infant diagnosis and the early infant diagnosis algorithm, including nucleic acid testing at 4&ndash;6 weeks and 9 months and antibody testing at 18 months.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria, and National AIDS and STIs Control Programme. National HIV testing services guidance and national guidelines for HIV prevention, treatment and care (current edition).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published evaluations of the Nigerian national HIV rapid testing algorithm: analysis of the 2018 Nigeria AIDS Indicator and Impact Survey, a multi-state evaluation across prevalence levels, and a 2020 prospective field and National Reference Laboratory evaluation.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published clinic-based evaluation of false-positive results using the Nigerian rapid testing algorithm.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Window periods for HIV nucleic acid, antigen/antibody and antibody tests.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published modelling of two-test and three-test strategies and the cost of verification testing before ART in sub-Saharan Africa.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published guidance on HIV testing in the era of PrEP, including the effect of early treatment and PrEP on serology.</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
 
 ];

@@ -1,7 +1,950 @@
 import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
+  {
+    id: 'obg-84',
+    title: 'Pelvic Inflammatory Disease in a Young Nulliparous Woman',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology / Infectious Disease',
+    condition: 'Pelvic inflammatory disease (PID) with cervicitis and bilateral salpingitis in a sexually active nulliparous young woman, likely gonococcal and/or chlamydial aetiology',
+    symptoms: [
+      'Bilateral lower abdominal pain, progressive over 5 days',
+      'Yellowish purulent vaginal discharge with offensive odour',
+      'Fever (38.2°C)',
+      'Deep dyspareunia',
+      'Burning dysuria',
+      'Cervical motion tenderness on bimanual examination',
+      'Mucopurulent discharge at the cervical os on speculum',
+      'Bilateral adnexal tenderness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'Miss C.O., a 24-year-old nulliparous student, presents with 5-day bilateral lower abdominal pain, offensive vaginal discharge, fever, deep dyspareunia, and dysuria. She reports multiple sexual partners and inconsistent condom use. Temperature is 38.2°C. Examination reveals mucopurulent cervical discharge, marked cervical motion, uterine, and bilateral adnexal tenderness, without palpable masses.',
+    content: `
+  Miss C.O., a 24-year-old single student, resident in Ibadan, Oyo State, Yoruba. Tertiary level education.
+  
+  Informant: Patient (reliable)
+  
+  PRESENTING COMPLAINTS
+  Lower abdominal pain × 5 days
+  Abnormal vaginal discharge × 4 days
+  Fever × 3 days
+  
+  HISTORY OF PRESENTING COMPLAINT
+  She was apparently well until 5 days prior to presentation when she developed bilateral lower abdominal pain, initially mild and progressive. The pain is dull and aching, occasionally sharper, worsened by movement and intercourse, and partially relieved by rest.
+  
+  About a day later she noticed an abnormal vaginal discharge — yellowish, moderate amount, with an unpleasant smell, soiling her underwear.
+  
+  Three days before presentation she developed low-to-moderate grade intermittent fever with general malaise.
+  
+  She also reports deep dyspareunia and burning dysuria with no urinary frequency or urgency.
+  
+  No missed period, no abnormal vaginal bleeding, no shoulder tip pain, no fainting.
+  
+  Sexually active with multiple partners, inconsistent condom use. Previous untreated vaginal discharge — no formal diagnosis made.
+  
+  MENSTRUAL HISTORY
+  Menarche at 13 years. Regular 28-day cycle, 5-day flow, moderate, not painful. LMP: 2 weeks ago.
+  
+  OBSTETRIC HISTORY
+  Nulliparous.
+  
+  CONTRACEPTIVE HISTORY
+  Not currently using any contraceptive.
+  
+  SEXUAL HISTORY
+  Multiple sexual partners. Inconsistent condom use.
+  
+  PAST GYNAECOLOGICAL HISTORY
+  Previous untreated vaginal discharge — no formal diagnosis. No prior STI diagnosis. No pelvic surgery.
+  
+  PAST MEDICAL HISTORY
+  Not a known hypertensive or diabetic.
+  
+  DRUG HISTORY
+  No prior treatment for current illness. No known drug allergies.
+  
+  FAMILY HISTORY
+  Non-contributory.
+  
+  SOCIAL HISTORY
+  Student, lives in a shared apartment. Does not smoke or take alcohol.
+  
+  REVIEW OF SYSTEMS
+  General: fever and malaise present. GIT: no vomiting, no change in bowel habits.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  Young woman, mildly ill-looking. Febrile (38.2°C). Not pale, not icteric, not dehydrated.
+  
+  Vital Signs
+  Temperature: 38.2°C
+  Pulse: 96 bpm
+  BP: 110/68 mmHg
+  RR: 20 cpm
+  
+  Abdomen
+  Moves with respiration. Suprapubic tenderness present. No guarding or rebound tenderness. No palpable masses.
+  
+  Pelvic Examination
+  External genitalia: normal; no ulcers, warts, or lesions.
+  Speculum: yellowish purulent discharge in the vaginal vault. Cervix inflamed (oedematous, hyperaemic). Mucopurulent discharge visible at the cervical os.
+  Bimanual: marked cervical motion tenderness. Uterus normal size, tender on palpation. Bilateral adnexal tenderness. No adnexal masses palpated.
+  
+  ASSESSMENT
+  
+  Pelvic inflammatory disease — mild to moderate, most likely gonococcal and/or chlamydial ascending infection with secondary anaerobic involvement.
+  
+  Differentials
+  Ectopic pregnancy (excluded — beta-hCG negative; must be confirmed before treatment)
+  Acute appendicitis (excluded clinically — bilateral pain, no guarding, no right-predominant localisation)
+  Ovarian torsion (excluded clinically — bilateral gradual-onset pain, fever, and discharge)
+  Complicated ovarian cyst
+  Urinary tract infection / pyelonephritis (dysuria present — exclude on urinalysis)
+  
+  PLAN
+  
+  Exclude ectopic pregnancy first — confirm beta-hCG negative before any antibiotic is given.
+  
+  Investigations
+  Urine beta-hCG (immediate, mandatory) — if positive: urgent pelvic ultrasound, do not start antibiotics, refer to gynaecology immediately
+  Full blood count
+  ESR and CRP
+  High vaginal swab and endocervical swab for Gram stain and MCS — collect before antibiotics
+  NAAT for Neisseria gonorrhoeae and Chlamydia trachomatis (endocervical swab or first-void urine)
+  Pelvic ultrasound — exclude tubo-ovarian abscess, assess for free pelvic fluid, confirm no adnexal mass
+  HIV rapid test with pre-test counselling
+  VDRL/RPR for syphilis
+  Urinalysis
+  
+  Treatment (commence after beta-hCG confirmed negative)
+  
+  IM Ceftriaxone 500 mg single dose (given in the clinic today — dilute in 1 ml of 1% Lignocaine)
+  PLUS Oral Doxycycline 100 mg every 12 hours × 14 days
+  PLUS Oral Metronidazole 400 mg every 8 hours × 14 days
+  
+  Take Doxycycline with food and a full glass of water; remain upright for 30 minutes after each dose.
+  Avoid alcohol throughout the Metronidazole course.
+  Avoid prolonged sun exposure while taking Doxycycline.
+  
+  Alternative if Doxycycline unavailable or not tolerated:
+  IM Ceftriaxone 500 mg stat PLUS Oral Azithromycin 1 g once weekly × 2 weeks PLUS Oral Metronidazole 400 mg every 8 hours × 14 days.
+  
+  Inpatient IV regimen (if admission required):
+  IV Ceftriaxone 1 g once daily PLUS IV Metronidazole 500 mg every 8 hours PLUS Oral Doxycycline 100 mg every 12 hours; switch to oral Doxycycline to complete 14 days total once afebrile for 48 hours.
+  
+  Admit if: tubo-ovarian abscess confirmed on ultrasound, temperature above 39°C or haemodynamic instability, peritonism develops, unable to tolerate oral antibiotics, or no improvement at 72 hours.
+  
+  Analgesia
+  Oral Paracetamol 1000 mg every 6–8 hours as needed.
+  Oral Ibuprofen 400 mg every 8 hours with food if no contraindication.
+  
+  Partner Management
+  All sexual partners in the preceding 60 days must be notified, assessed, and treated.
+  Male partner treatment: IM Ceftriaxone 500 mg single dose PLUS Oral Azithromycin 1 g single dose.
+  Provide written contact referral letters.
+  Patient must not resume sexual intercourse until the full 14-day course is complete, partners are treated, and symptoms have resolved.
+  
+  Counselling
+  Explain diagnosis, the ascending infection mechanism, and why the tubes are at risk.
+  Complete the full 14-day course — stopping early allows bacteria to persist in the tubes and cause ongoing silent damage.
+  Explain partner treatment as essential for preventing reinfection.
+  Future fertility risk: approximately 10–12% tubal infertility risk after one episode treated promptly; this risk rises significantly with each recurrence.
+  Consistent condom use and regular STI screening are the most effective ways to prevent recurrence.
+  Return immediately if: fever worsens, pain becomes constant or severe, or she feels significantly worse on treatment.
+  
+  FOLLOW-UP
+  72-hour review (mandatory): reassess pain, fever, and discharge; recheck vital signs; review WBC and CRP trends; confirm beta-hCG and HVS results; confirm partner notification status. If not improving at 72 hours: admit for IV antibiotics and urgent pelvic ultrasound. At completion of 14-day course: confirm full symptom resolution; ensure partners treated; review HIV and VDRL results; reinforce safe sex counselling; discuss contraception. Repeat NAAT at 3 months to confirm cure and exclude reinfection.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding PID — Definition, Diagnosis, and Why Ectopic Pregnancy Must Be Excluded First</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What PID Is and Why the Diagnosis Is Clinical</strong>
+          <p>Pelvic inflammatory disease is an ascending infection of the upper female genital tract — involving the endometrium (endometritis), fallopian tubes (salpingitis), ovaries (oophoritis), and, in more severe cases, the pelvic peritoneum. It is caused by microorganisms ascending from the lower genital tract through the cervix, and it is the most important preventable cause of tubal factor infertility, ectopic pregnancy, and chronic pelvic pain in Nigerian women of reproductive age. The diagnosis of PID is clinical — no single investigation confirms it. The CDC and WHO minimum diagnostic criteria require all three of: lower abdominal or pelvic pain; cervical motion tenderness; and uterine tenderness or adnexal tenderness. This patient satisfies all three. The addition of fever, mucopurulent cervical discharge, leucocytosis, and elevated inflammatory markers increases diagnostic confidence further. Laparoscopy (direct visualisation of inflamed fallopian tubes) is the gold standard for confirmation but is not routinely performed — it is reserved for cases where the diagnosis is uncertain or where surgical pathology must be excluded. In clinical practice, the threshold for treating PID should be low: undertreating carries irreversible reproductive consequences; treating empirically in a woman who turns out not to have PID is a far smaller harm.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Beta-hCG Before Antibiotics Is Non-Negotiable</strong>
+          <p>Ectopic pregnancy is the most immediately dangerous diagnosis in any woman of reproductive age presenting with lower abdominal pain and pelvic tenderness, and it can be clinically indistinguishable from PID. Both conditions produce lower abdominal pain, cervical motion tenderness, and adnexal tenderness. The difference is that a ruptured ectopic pregnancy causes catastrophic intraperitoneal haemorrhage that kills within minutes, while PID — though serious — does not. The absence of a missed period does not exclude ectopic pregnancy: implantation bleeding from an ectopic can be mistaken for a normal period, and the LMP two weeks ago does not mean the patient is not pregnant. A urine beta-hCG takes five minutes and is available at every Nigerian hospital. The rule is absolute: confirm beta-hCG negative before initiating any antibiotic or invasive treatment for presumed PID. A positive beta-hCG with pelvic pain is an ectopic pregnancy until excluded by urgent pelvic ultrasound.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Pathophysiology — How Cervicitis Becomes Salpingitis</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Ascending Infection Sequence</strong>
+          <p>PID develops in stages from an initial lower genital tract infection. Stage 1 is cervicitis: Neisseria gonorrhoeae and Chlamydia trachomatis infect the endocervical columnar epithelium, often asymptomatically — this was almost certainly the stage represented by this patient's earlier untreated vaginal discharge. Stage 2 is ascending infection: organisms ascend through the cervical canal to the endometrium. Several conditions facilitate this ascent — menstruation reduces the cervical mucus barrier and retrograde menstrual flow can carry organisms into the uterine cavity; sexual intercourse can propel organisms upward through uterine contractions during orgasm; and intrauterine procedures (IUCD insertion, uterine instrumentation) create a direct pathway. Stage 3 is endometritis and salpingitis: infection reaches the fallopian tubes and the mucosal epithelium mounts a vigorous inflammatory response. The ciliated cells lining the tubal mucosa are particularly vulnerable — these cilia are responsible for propelling the fertilised egg toward the uterus, and their destruction impairs both fertilisation and implantation, directly producing tubal factor infertility and ectopic pregnancy. Stage 4 is peritonitis and tubo-ovarian abscess: infection spreads through the fimbriated ends of the tubes to the pelvic peritoneum and ovaries, and if the tube and ovary adhere and seal a collection of pus, a tubo-ovarian abscess forms. Stage 5 is Fitz-Hugh–Curtis syndrome: ascending peritoneal infection travels via the right paracolic gutter to the liver capsule, producing perihepatic inflammation with violin-string adhesions between the liver and the anterior abdominal wall, presenting as right upper quadrant pain — a diagnosis easily mistaken for gallbladder or pleural disease in a young woman without an obvious connection to PID.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Polymicrobial Nature of PID — Why Three Antibiotics Are Required</strong>
+          <p>PID is not a single-organism infection. The initial trigger is typically gonorrhoea or chlamydia ascending from the cervix, but the inflamed upper genital tract is then invaded by endogenous vaginal flora — anaerobes (Bacteroides fragilis, Prevotella, Peptostreptococcus), facultative gram-negative rods (E. coli), and organisms associated with bacterial vaginosis (Gardnerella vaginalis, Mycoplasma hominis). This polymicrobial colonisation is the reason that a single antibiotic covering only gonorrhoea is insufficient. The treatment regimen must simultaneously cover gonorrhoea (ceftriaxone), chlamydia (doxycycline), and anaerobes (metronidazole) — removing any one component risks undertreating the polymicrobial infection and allowing ongoing anaerobic salpingitis even after the gonorrhoeal and chlamydial components are cleared.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Antibiotic Rationale — Why This Regimen, Why 14 Days</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Ceftriaxone — Covering Gonorrhoea at the Outset</strong>
+          <p>Intramuscular ceftriaxone 500 mg as a single injection administered in the clinic ensures immediate systemic coverage of Neisseria gonorrhoeae, including quinolone-resistant and penicillin-resistant strains that now predominate in Nigeria. The IM route is used for this first dose because it guarantees drug delivery regardless of oral absorption — a patient who takes her first oral dose at home, develops nausea, and vomits may have no meaningful antibiotic coverage in the first critical hours of treatment. Reconstitution in 1% lignocaine significantly reduces injection pain. The clinic injection is not a formality — it is the pharmacokinetically most important dose of the regimen.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Doxycycline — Why 14 Days and Not 7</strong>
+          <p>Doxycycline is the first-line agent for Chlamydia trachomatis and achieves excellent tissue penetration into the endometrium and fallopian tubes. The treatment duration for PID is 14 days — substantially longer than the 7-day course used for uncomplicated genital chlamydia or the single-dose regimen used for uncomplicated urethral discharge. The reason is the anatomical depth of the infection: organisms embedded in the tubal mucosa are in a less vascularised, inflammation-rich environment that reduces antibiotic penetration and requires a longer exposure to achieve bacteriological cure. Stopping at 7 days — even when symptoms have largely resolved — leaves viable organisms in the tubal mucosa, which will multiply and cause ongoing silent tubal damage. The patient must understand this clearly: feeling better at day 5 does not mean the infection is cured; it means the superficial inflammatory component is resolving. The full 14 days is non-negotiable. Doxycycline's photosensitivity side effect is clinically relevant in Nigeria — a patient who develops a painful sunburn after two days and stops the tablets because she feels better has not completed a therapeutic course.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Metronidazole — The Anaerobic Cover That Is Often Omitted</strong>
+          <p>Metronidazole is the most commonly omitted component of the PID regimen in Nigerian outpatient settings, where patients are often discharged with only ceftriaxone and doxycycline. This is an error. Anaerobes — particularly Bacteroides fragilis and the organisms associated with bacterial vaginosis — are consistent co-pathogens in PID and are responsible for a significant proportion of tubal damage, particularly in more severe disease and in women with co-existing bacterial vaginosis. Metronidazole also treats any concurrent bacterial vaginosis, which may have facilitated the ascending infection in the first place. Its avoidance instruction — no alcohol for the duration of the 14-day course — must be explained clearly, because the disulfiram-like reaction (flushing, nausea, vomiting, tachycardia) is severe enough to cause emergency presentations.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The 72-Hour Review — Why It Is Mandatory, Not Optional</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What You Are Looking For</strong>
+          <p>The 72-hour review is not a routine follow-up appointment — it is a safety checkpoint that determines whether outpatient treatment is working or whether escalation to inpatient IV therapy is required. The expected clinical trajectory with effective oral antibiotics is: fever should be resolving or resolved by 48 to 72 hours; pelvic pain should be decreasing; discharge should be less purulent. A patient who is no better or worse at 72 hours has treatment failure until proven otherwise. The most important question at 72 hours is whether a tubo-ovarian abscess has formed or is forming — this will not respond to oral antibiotics and requires inpatient IV therapy and possible surgical drainage. A new or enlarging adnexal mass at 72 hours, or failure to defervesce despite oral antibiotics, mandates urgent pelvic ultrasound and admission. Sending a patient home with a repeat prescription at 72 hours without a clinical examination is not an acceptable alternative to the review.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Tubo-Ovarian Abscess — Recognising the Escalation Point</strong>
+          <p>A tubo-ovarian abscess (TOA) forms when the infected tube and ovary adhere to surrounding structures and seal a collection of pus into a complex adnexal mass. Clinical features suggesting TOA at any point during management are: a palpable adnexal mass, temperature that fails to settle or rises further despite 48 to 72 hours of appropriate antibiotics, and severe bilateral pelvic pain disproportionate to what would be expected with improving salpingitis. Ultrasound confirms the diagnosis — a TOA appears as a complex, thick-walled adnexal mass with internal echoes and debris, often with free fluid in the pouch of Douglas. Management requires inpatient IV antibiotics; if the abscess does not resolve with IV treatment within 48 to 72 hours, surgical drainage is required. Rupture of a TOA is a surgical emergency with peritonitis and septic shock — the mortality is significant if not managed with immediate laparotomy and peritoneal lavage.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Reproductive Consequences — What This Patient Needs to Understand</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Cumulative Risk of Tubal Damage</strong>
+          <p>The risk of tubal factor infertility after PID follows a dose-response relationship with the number of episodes. After one treated episode of mild-to-moderate PID, the risk of tubal factor infertility is approximately 10 to 12%. After two episodes, it rises to 25 to 30%. After three or more episodes, it exceeds 50%. The chlamydial organism is particularly responsible for this cumulative tubal damage — C. trachomatis causes a more insidious, immunologically mediated form of tubal injury than gonorrhoea, generating a chronic inflammatory response that progressively destroys the delicate tubal mucosal architecture even after the acute infection is cleared. This patient is 24 years old, nulliparous, and currently presenting with what is likely her second episode of ascending genital infection (the first being her untreated vaginal discharge). She is at a critical juncture: complete treatment of this episode followed by behavioural modification (consistent condom use) and early presentation in future episodes can preserve her fertility. Continued high-risk sexual behaviour with recurrent PID episodes will not.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Ectopic Pregnancy Risk</strong>
+          <p>Beyond infertility, tubal scarring from PID increases the risk of ectopic pregnancy 6 to 10-fold compared with women without a PID history. Partial tubal obstruction allows sperm to ascend and fertilise an egg in the damaged tube, but the scarred tubal lumen is too narrow and its ciliary transport too impaired to allow the fertilised egg to reach the uterus. The result is tubal ectopic implantation — with all its associated risks. This is not a remote or theoretical concern: ectopic pregnancy is a leading cause of maternal mortality in Nigeria, and PID is its most important modifiable risk factor. Counselling this patient about ectopic risk in future pregnancies — the importance of early confirmation that any future pregnancy is intrauterine — is a clinical obligation.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Partner Management — A Clinical Obligation, Not an Optional Extra</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Treating Partners Is Part of Treating This Patient</strong>
+          <p>The male sexual partner of a woman with PID from gonorrhoea or chlamydia almost certainly has gonococcal or chlamydial urethritis — frequently asymptomatic, but infectious. If the partner is not treated before the patient resumes intercourse, she will be reinfected at the first sexual contact after completing her 14-day course, negating the entire treatment. The management of her partners is not a public health task added onto the clinical management — it is part of her clinical management. She must receive written contact referral letters for each partner in the preceding 60 days, with a clear explanation of why the partner needs to attend an STI clinic and what treatment he will receive. Male partners are treated with the same dual STI regimen used for urethral discharge syndrome: IM ceftriaxone 500 mg single dose plus oral azithromycin 1 g single dose, covering both gonorrhoea and chlamydia simultaneously at the same clinic visit.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+      <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Confirm beta-hCG negative before starting antibiotics — every single time, without exception. Ectopic pregnancy and PID are clinically indistinguishable on examination. A five-minute urine test is all that stands between treating PID and missing a ruptured ectopic pregnancy.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>The 14-day antibiotic course is not negotiable. Stopping at 7 days because symptoms have improved leaves viable organisms in the tubal mucosa causing ongoing silent ciliary destruction. The patient feeling better at day 5 is not evidence of cure — it is evidence that the superficial inflammatory component is resolving.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Metronidazole is not optional in the PID regimen. Anaerobic organisms are consistent co-pathogens in PID and are responsible for a significant proportion of tubal damage. A patient discharged with only ceftriaxone and doxycycline has received incomplete treatment — the anaerobic cover is missing.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>The 72-hour review is a safety checkpoint, not a routine appointment. A patient who is no better or worse at 72 hours has treatment failure until proven otherwise — urgent pelvic ultrasound to exclude tubo-ovarian abscess and admission for IV antibiotics is the correct response, not a repeat prescription.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>PID is the most common preventable cause of tubal factor infertility in Nigerian women. This 24-year-old nulliparous patient is at a critical juncture — this is likely her second ascending infection episode (the first being her untreated vaginal discharge). One more inadequately treated episode doubles her tubal infertility risk. The fertility counselling at this visit is as important as the antibiotics.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Right upper quadrant pain in a young woman with PID is Fitz-Hugh–Curtis syndrome — perihepatic inflammation from ascending peritoneal infection — not gallbladder disease. It occurs in 10 to 30% of PID cases, resolves with effective PID antibiotic treatment, and requires no separate biliary investigation unless pain persists after PID treatment is complete.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>An untreated vaginal discharge in a young Nigerian woman is a missed opportunity to prevent PID. Cervicitis from gonorrhoea or chlamydia is asymptomatic or mildly symptomatic and is frequently not treated — but it is the direct precursor to ascending salpingitis. Every vaginal discharge presentation in a sexually active young woman is a PID-prevention opportunity.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Centers for Disease Control and Prevention (CDC). Sexually Transmitted Infections Treatment Guidelines, 2021 — Pelvic Inflammatory Disease.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists (RCOG). Management of Acute Pelvic Inflammatory Disease — Green-top Guideline No. 32.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Guidelines for the Management of Symptomatic Sexually Transmitted Infections, 2021 — lower abdominal pain in women (PID) flowchart and syndromic management.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for the Management of Sexually Transmitted Infections — Syndromic Management Approach, lower abdominal pain syndrome. Abuja: FMOH Nigeria.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society of Obstetricians and Gynaecologists of Nigeria (SOGON) — clinical practice guidance on pelvic inflammatory disease and STI management in Nigerian women, where locally available.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on pelvic inflammatory disease — clinical features, diagnosis, and treatment.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Pelvic inflammatory disease, tubo-ovarian abscess, and Fitz-Hugh–Curtis syndrome.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — antibiotics for pelvic inflammatory disease; inpatient versus outpatient treatment of pelvic inflammatory disease.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — infectious diseases and gynaecology chapters.</li>
+        </ul>
+      </div>
+    </details>
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'ob-84',
+    title: 'Preterm Labor at 34 Weeks + 3 Days Gestation',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Obstetric Clinic',
+    condition: 'Preterm Labor',
+    symptoms: [
+      'Lower abdominal pains',
+      'Bloody vaginal discharge',
+      'Intermittent uterine contractions',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 28-year-old G2 P1+0 woman at 34 weeks + 3 days gestation presenting with 8 hours of progressively increasing intermittent lower abdominal pains and 2 hours of bloody vaginal discharge. Examination reveals regular uterine contractions and cervical dilatation of 3 cm with intact membranes, consistent with preterm labor.',
+    content: `
+  Patient Identification
+  A 28-year-old G2 P1+0 female trader who resides in Surulere, Lagos State. She is of the Yoruba ethnic group and is a Christian in a monogamous marriage.
+  
+  Obstetric Dates
+  LMP: 14th March 2024
+  EDD: 21st December 2024
+  EGA: 34 weeks + 3 days
+  
+  Presenting Complaints
+  1. Lower abdominal pains x 8h
+  2. Bloody vaginal discharge x 2h
+  
+  History of Presenting Complaint
+  The patient was apparently well until 8 hours prior to presentation when she developed intermittent lower abdominal pains. The pains started as a dull ache but have progressively increased in intensity and frequency. They are currently occurring every 10 minutes and radiate to the lower back.
+  Two hours prior to presentation, she noticed a mucoid, blood-stained vaginal discharge (show).
+  She denies any sudden gush of fluid per vaginam or constant leaking of fluid. Fetal movements have been well-perceived since the onset of pain. 
+  There is no history of fever, chills, or urinary symptoms such as dysuria or frequency. She denies any history of recent falls, abdominal trauma, or sexual intercourse in the last 48 hours.
+  
+  History of Index Pregnancy
+  She booked for ANC at 18 weeks EGA in a secondary health facility. She has had five ANC visits to date. Her pregnancy has been largely uneventful. She takes her routine antenatal supplements (fetal tabs and iron) regularly. She received two doses of Tetanus Toxoid earlier in the pregnancy. Most recent PCV was 33 percent.
+  
+  Past Obstetric History
+  2021: SVD at term in a public hospital. Male infant, birth weight 3.4kg. No neonatal complications. Child is alive and well.
+  
+  Past Medical and Surgical History
+  Not a known hypertensive or diabetic. No known history of sickle cell disease (Genotype is AA). No history of previous uterine surgery or cervical cerclage.
+  
+  Social and Family History
+  She lives with her husband in a room-and-parlour apartment with piped water and a flush toilet. She does not smoke or drink alcohol. No family history of multiple gestations or recurrent preterm births.
+  
+  Review of Systems
+  RS: No cough, no chest pain.
+  CVS: No palpitations, no orthopnea.
+  GIT: No nausea or vomiting. Normal bowel habits.
+  CNS: No headaches, no visual blurring or epigastric pain.
+  
+  Physical Examination
+  
+  General Examination
+  A young woman in painful distress during contractions but otherwise stable. 
+  Not pale, not icteric, not dehydrated. No significant peripheral lymphadenopathy. No pedal edema.
+  
+  Vital Signs
+  Pulse Rate: 88 bpm, regular, normal volume.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 18 cpm.
+  Temperature: 36.6 degrees Celsius.
+  
+  Abdominal Examination
+  Inspection: Gravid enlargement consistent with EGA. No surgical scars. Linea nigra and striae gravidarum present.
+  Palpation:
+  SFH: 33 cm.
+  Lie: Longitudinal.
+  Presentation: Cephalic.
+  Engagement: 4/5 palpable per abdomen.
+  Contractions: 3 contractions in 10 minutes, each lasting 30-35 seconds, moderate intensity.
+  Auscultation: Fetal Heart Rate (FHR) is 144 bpm, regular.
+  
+  Pelvic Examination
+  Sterile Speculum Exam: No pooling of liquor in the posterior fornix. Cervix appears closed on visualization.
+  Digital Vaginal Examination: Cervix is 3cm dilated, 50 percent effaced, soft, and medially positioned. Membranes are intact and felt bulging during contractions. Station is -2.
+  
+  Assessment
+  Preterm labor in a G2 P1+0 woman at 34 weeks + 3 days gestation.
+  
+  Differential Diagnoses
+  1. Threatened preterm labor
+  2. Urinary tract infection (as a trigger)
+  3. Malaria in pregnancy (as a trigger)
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC) to check for elevated WBC or low PCV.
+  2. Urinalysis and Urine Microscopy, Culture and Sensitivity (MCS).
+  3. Malaria Parasite (MPS) by rapid diagnostic test or microscopy.
+  4. Bedside Obstetric Ultrasound to confirm fetal biometry, liquor volume, and placental position.
+  5. High Vaginal Swab (HVS) for MCS to rule out vaginal infections.
+  
+  Initial Management Plan
+  1. Admission to the labor ward for close monitoring.
+  2. Bed rest in the left lateral position.
+  3. Hydration: IV Ringer's Lactate 1L 8 hourly.
+  4. Tocolysis: Oral Nifedipine 20mg stat, then 10mg 8 hourly for 48 hours to delay delivery for steroid effect.
+  5. Fetal Lung Maturation: IM Dexamethasone 6mg 12 hourly for 4 doses.
+  6. Monitor FHR every 30 minutes to 1 hour.
+  7. Monitor maternal vitals and contraction pattern.
+  8. If labor progresses despite tocolysis, prepare for preterm delivery and notify the neonatal unit for potential NICU care.
+  9. Prophylactic antibiotics: IV Ceftriaxone 1g daily if infection is suspected.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
 
+  {
+    id: 'ob-83',
+    title: 'Preterm Labour at 34 Weeks with Intact Membranes',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Maternal-Fetal Medicine / Obstetrics',
+    condition: 'Established preterm labour at 34 weeks + 1 day with intact membranes in a multiparous woman, managed with tocolysis and antenatal corticosteroids',
+    symptoms: [
+      'Regular uterine contractions 3–4 in 10 minutes, lasting 40–50 seconds',
+      'Lower abdominal pain radiating to lower back',
+      'Passage of blood-stained mucus (show)',
+      'Pelvic pressure and urge to bear down',
+      'Cervix 4 cm dilated, 70% effaced, presenting part at station -1',
+      'Intact and bulging membranes',
+      'Reassuring fetal heart rate 146 bpm'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'Mrs T.O., a 29-year-old G3P1+1 at 34+1 weeks, presents with 12-hour progressive lower abdominal pain radiating to the back, blood-stained mucus, and pelvic pressure. Contractions occur 3–4/10 minutes, lasting 40–50 seconds. Cervix is 4 cm dilated, 70% effaced, with intact bulging membranes. FHR is 146 bpm; she is afebrile, with no uterine tenderness or haemorrhage. Booking PCV 31%, blood group O+, genotype AS.',
+    content: `
+  Mrs T.O., a 29-year-old booked G3P1+1 (1 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, secondary level education.
+  
+  Informant: Patient (reliable)
+  
+  OBSTETRIC DATA
+  Gravidity: G3
+  Parity: P1+1 (one term delivery, one first trimester miscarriage)
+  Living children: 1 alive
+  LMP: 10/11/2025
+  EDD: 17/08/2026
+  EGA: 34 weeks + 1 day
+  
+  PRESENTING COMPLAINTS
+  Lower abdominal pain × 12 hours
+  Low back pain × 12 hours
+  
+  HISTORY OF PRESENTING COMPLAINT
+  She was apparently well until 12 hours prior to presentation when she developed lower abdominal pains, initially mild and irregular at approximately once every 20 minutes, progressing to 3–4 contractions in 10 minutes each lasting 40–50 seconds. The pains are colicky, located in the lower abdomen, and radiate to the lower back.
+  
+  She reports increasing pelvic pressure and an urge to bear down.
+  
+  Blood-stained mucus (show) was passed approximately 4 hours prior to presentation.
+  
+  No history of leakage of fluid per vaginam, no vaginal bleeding, no fever, no dysuria, no offensive discharge, no trauma, no recent intercourse. Fetal movements present and normal.
+  
+  ANTENATAL HISTORY
+  Pregnancy planned and spontaneously conceived. Booked at 15 weeks, attended regularly. Compliant with haematinics, received two doses of tetanus toxoid and intermittent preventive therapy for malaria.
+  
+  Booking investigations:
+  PCV: 31%
+  Blood group: O positive
+  Genotype: AS
+  HIV: Negative
+  
+  Pregnancy uneventful prior to this episode.
+  
+  PAST OBSTETRIC HISTORY
+  2018: Term SVD, live male infant (3.2 kg) — no complications; child alive and well
+  2021: First trimester spontaneous miscarriage at 10 weeks — managed with MVA; no complications
+  
+  GYNAECOLOGICAL HISTORY
+  Menarche at 13 years. Regular menstrual cycles prior to pregnancy.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  No known chronic illness. No previous surgeries.
+  
+  DRUG AND ALLERGY HISTORY
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  No family history of preterm delivery. Monogamous marriage. Does not smoke or take alcohol. No herbal medications.
+  
+  REVIEW OF SYSTEMS
+  No cough, no headache, no visual disturbance, no epigastric pain, no swelling of the legs beyond physiological, no dysuria.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  Pregnant woman, conscious and alert, in moderate painful distress. Not pale, not icteric. Afebrile (36.8°C). Not dehydrated.
+  
+  Vital Signs
+  BP: 112/70 mmHg
+  PR: 94 bpm
+  RR: 20 cpm
+  Temperature: 36.8°C
+  SpO₂: not yet documented — measure immediately
+  
+  Abdominal (Obstetric) Examination
+  Inspection: abdomen uniformly enlarged by gravid uterus.
+  Symphysiofundal height: 33 cm (consistent with gestation).
+  Lie: longitudinal. Presentation: cephalic.
+  Contractions: 3–4 in 10 minutes, lasting 40–50 seconds, moderate intensity.
+  No uterine tenderness. FHR: 146 bpm, regular.
+  
+  Pelvic Examination
+  Vulva and vagina: normal. Cervix: soft, anterior, 70% effaced, 4 cm dilated.
+  Presenting part: cephalic at station -1. Membranes: intact and bulging. No liquor drainage.
+  Pelvis: clinically adequate.
+  
+  ASSESSMENT
+  
+  Established preterm labour with intact membranes at 34 weeks + 1 day gestation in a multiparous woman with a live, reassuring fetus.
+  
+  Differentials
+  False preterm labour / Braxton Hicks (excluded — cervix 4 cm dilated)
+  Chorioamnionitis-precipitated preterm labour (excluded clinically — afebrile, no uterine tenderness; monitor closely)
+  Placental abruption (excluded — no uterine tenderness, no constant pain, uterus relaxes between contractions)
+  UTI precipitating preterm labour (exclude on urinalysis)
+  
+  PLAN
+  
+  Admit immediately to the high-risk labour ward. Alert senior obstetrician and neonatal team.
+  
+  Monitoring
+  Maternal vital signs every 30–60 minutes. Temperature every 2–4 hours — stop tocolysis immediately if temperature exceeds 38°C.
+  Uterine contractions: frequency, duration, intensity every 30 minutes.
+  Continuous CTG on admission — confirm reassuring pattern before initiating tocolysis; continue throughout tocolytic course.
+  Urine output every hour when Foley catheter is in situ.
+  Blood glucose as clinically indicated.
+  
+  Investigations
+  Full blood count
+  Urinalysis and urine MCS
+  High vaginal swab (MCS) — GBS and bacterial vaginosis screen
+  CRP
+  Group and save (confirm O positive); crossmatch given baseline PCV 31%
+  Obstetric ultrasound: confirm presentation, estimate fetal weight, assess amniotic fluid index, confirm placental site
+  
+  Antenatal Corticosteroids — ADMINISTER FIRST DOSE IMMEDIATELY
+  IM Dexamethasone 6 mg every 12 hours × 4 doses (48-hour course)
+  OR IM Betamethasone 12 mg every 24 hours × 2 doses (48-hour course) — if available
+  
+  Tocolysis
+  Goal: delay delivery by 48 hours to allow corticosteroid benefit.
+  
+  First-line: Oral Nifedipine immediate release 20 mg (bite and swallow — not sublingual)
+  If contractions persist at 30 minutes: repeat 20 mg. May give a third dose of 20 mg after a further 30 minutes (maximum loading dose 60 mg over 1.5 hours).
+  Maintenance: Oral Nifedipine modified-release 20 mg every 6–8 hours for 48 hours.
+  Monitor BP every 30 minutes for first 2 hours, then hourly. Stop if systolic BP falls below 90 mmHg.
+  
+  Second-line (if Nifedipine fails or is unavailable): IV Atosiban
+  Loading: 6.75 mg IV bolus over 1 minute.
+  Infusion: 18 mg/hour for 3 hours, then 6 mg/hour for up to 45 hours.
+  
+  Do not use betamimetics (Salbutamol, Ritodrine) as first-line.
+  
+  Discontinue tocolysis at 48 hours; do not continue beyond 48 hours at this gestation.
+  Stop tocolysis immediately if: fever develops, non-reassuring CTG, cervix progresses beyond 6–7 cm, or delivery becomes inevitable.
+  
+  Magnesium Sulphate for Fetal Neuroprotection
+  Administer when delivery is anticipated within 24 hours (discuss with senior — borderline 34+1 weeks; most units treat up to 34+6 weeks).
+  Loading: IV Magnesium sulphate 4 g in 100 ml Normal Saline over 20–30 minutes.
+  Maintenance: 1 g/hour continuous infusion until delivery or maximum 24 hours.
+  Monitor every 30 minutes: respiratory rate (must remain above 12 cpm), patellar reflex (stop if absent), urine output (must remain above 25 ml/hour via Foley catheter).
+  Antidote at bedside: IV Calcium gluconate 10 ml of 10% solution drawn up and labelled — administer over 10 minutes if toxicity develops.
+  
+  Intrapartum GBS Prophylaxis (when delivery is established)
+  IV Benzylpenicillin G 3 g loading dose, then 1.5 g every 4 hours until delivery.
+  
+  Supportive Care
+  IV Paracetamol 1 g over 15 minutes for pain; oral Paracetamol 1 g every 6 hours for maintenance.
+  If inadequate: IM Tramadol 50–100 mg with IV Metoclopramide 10 mg — alert neonatal team if given within 4 hours of delivery.
+  Avoid NSAIDs at ≥32 weeks.
+  IV Normal Saline or Ringer's Lactate at 125 ml/hour; monitor fluid balance closely.
+  Insert Foley catheter when magnesium sulphate is commenced.
+  Do not perform amniotomy during the tocolytic phase.
+  
+  Delivery Management (if tocolysis fails)
+  Vaginal delivery planned — multiparous, cephalic presentation, adequate pelvis.
+  Continuous CTG throughout labour.
+  Active third stage: IM/slow IV Oxytocin 10 units after delivery of anterior shoulder.
+  Delayed cord clamping 30–60 seconds if neonate is vigorous; clamp immediately if resuscitation required.
+  Quantify blood loss carefully. Oxytocin infusion 20 units in 1 litre Normal Saline at 125 ml/hour for 4–6 hours post-delivery.
+  Caesarean section if: fetal compromise, cord prolapse, failed labour progress, or malpresentation.
+  
+  Neonatal Team Preparation
+  Alert neonatology team on admission: GA 34+1 weeks, expected weight approximately 2.0–2.2 kg, corticosteroid timing, magnesium sulphate status, GBS status unknown.
+  Prepare: radiant warmer, bag-mask ventilation, nasal CPAP equipment, surfactant on standby.
+  Immediate postnatal steps: Apgar at 1 and 5 minutes; delayed cord clamping; early nasal CPAP; IV Dextrose 10% if hypoglycaemic; blood glucose within 30 minutes of birth.
+  
+  Postpartum Care
+  Vital signs and uterine tone monitoring every 15–30 minutes for 2 hours post-delivery.
+  Haemoglobin at 6–12 hours post-delivery.
+  Iron supplementation: oral Ferrous sulphate 200 mg twice daily; IV Ferric carboxymaltose 1 g if Hb below 7 g/dL and slow recovery.
+  VTE prophylaxis: Enoxaparin 40 mg SC daily from 12 hours post-delivery; TED stockings throughout admission.
+  Breastfeeding support: encourage early breast milk expression every 2–3 hours for the NICU neonate.
+  
+  Counselling
+  Explain preterm labour, the 48-hour delay strategy, and why the corticosteroid injection is the priority.
+  Explain what to expect in the NICU: feeding support, breathing support, warmth — planned and prepared for.
+  Sickle cell trait (AS): stay well hydrated throughout labour; baby's genotype should be checked after birth — arrange neonatal newborn screening.
+  Return immediately if: fever, fluid leaking, constant abdominal pain different from contractions, reduced fetal movements, feeling very unwell.
+  Future pregnancy: early booking, first-trimester infection screen, cervical length monitoring from 16–24 weeks, progesterone if cervix is short.
+  
+  FOLLOW-UP
+  Reassess at 4 hours: speculum examination, CTG, maternal temperature and pulse. Serial temperature every 4 hours during tocolytic course. HVS result at 48–72 hours. If tocolysis successful and corticosteroids complete: plan delivery at 36–37 weeks. Postnatal maternal review at day 3 and 6 weeks: haemoglobin, wound healing, psychological wellbeing. NICU daily updates while neonate is inpatient. Neonatal neurodevelopmental follow-up at 3, 6, 12, and 24 months corrected age. Hearing screening before NICU discharge.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding Preterm Labour — Definition, Diagnosis, and Why 34 Weeks Matters</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Defining Established Preterm Labour</strong>
+          <p>Preterm labour is defined as regular uterine contractions — at least 3 in 10 minutes, each lasting at least 30 seconds — with progressive cervical change before 37 completed weeks of gestation. The word "established" is clinically significant: it distinguishes true preterm labour from threatened preterm labour (contractions with minimal or no cervical change) and from false labour (Braxton Hicks contractions — irregular, non-progressive, unassociated with cervical change). This patient has contractions 3 to 4 in 10 minutes lasting 40 to 50 seconds, a cervix 4 cm dilated and 70% effaced in a multiparous woman — this is established preterm labour by every definition. There is no diagnostic ambiguity. The clinical task is not to diagnose but to manage.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why 34 Weeks Is the Critical Threshold</strong>
+          <p>Late preterm birth (34+0 to 36+6 weeks) carries substantially higher neonatal morbidity than term birth, despite the common perception that these babies are "nearly term." At 34 weeks, the survival rate with appropriate neonatal intensive care exceeds 98%, but 50 to 70% of these neonates require NICU admission. The most common problems are respiratory — the alveolar and surfactant maturation that enables the transition from fetal to air-breathing is not complete, and late preterm neonates are vulnerable to respiratory distress syndrome (RDS) and transient tachypnoea of the newborn (TTN). They also face hypothermia (less subcutaneous fat), hypoglycaemia (reduced hepatic glycogen stores), poor feeding (immature suck-swallow coordination), jaundice (less efficient bilirubin conjugation), apnoea, and higher rates of sepsis. Beyond the immediate neonatal period, late preterm neonates have slightly higher rates of attention deficit disorder, learning difficulties, and behavioural problems at school age compared with term-born peers — a consequence of the rapid brain growth and myelination that occurs in the final weeks of gestation. The goal at 34 weeks is not necessarily to stop labour permanently, but to buy 48 hours for corticosteroids to act.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Antenatal Corticosteroids — Why the First Injection Is the Priority</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Mechanism and Evidence</strong>
+          <p>Antenatal corticosteroids are the single most important intervention in preterm birth and should be administered immediately on admission — before tocolysis, before a full investigation workup, and regardless of whether delivery ultimately occurs within 48 hours. Dexamethasone and betamethasone cross the placenta and bind to glucocorticoid receptors in fetal lung cells (type II pneumocytes), accelerating the transcription of genes responsible for surfactant protein synthesis and the structural maturation of alveolar architecture. The resulting increase in surfactant production reduces surface tension in the alveoli, preventing alveolar collapse at end-expiration and significantly reducing the severity of RDS. The landmark original meta-analysis of corticosteroid use before 34 weeks demonstrated a 40 to 50% reduction in neonatal RDS, a 40% reduction in intraventricular haemorrhage (IVH), and a significant reduction in necrotising enterocolitis (NEC) and neonatal mortality. Partial benefit is achieved even if only one dose is administered before delivery — any number of doses is better than none.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The ALPS Trial — Evidence Specifically for 34 Weeks</strong>
+          <p>Before the ALPS trial (Antenatal Late Preterm Steroids, published in the New England Journal of Medicine in 2016), corticosteroids were recommended only up to 34+0 weeks, on the assumption that late preterm neonates had sufficient lung maturity. The ALPS trial enrolled women at 34+0 to 36+6 weeks in active or imminent preterm labour and compared betamethasone with placebo. The treated group showed a significant reduction in the primary composite outcome of respiratory support in the first 72 hours of life, including reduced need for CPAP, surfactant, and supplemental oxygen. This trial established that late preterm corticosteroids are clinically beneficial and changed international guidelines to extend the recommendation to 36+6 weeks. This patient at 34+1 weeks sits at the bottom end of this range — the benefit of a completed corticosteroid course before delivery is well-evidenced and the administration of the first dose must not be delayed.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Dexamethasone vs Betamethasone in Nigerian Practice</strong>
+          <p>Both regimens achieve equivalent neonatal lung maturation outcomes. Betamethasone 12 mg intramuscularly every 24 hours for two doses (the regimen used in the ALPS trial and most international trials) is the international gold standard. Dexamethasone 6 mg intramuscularly every 12 hours for four doses achieves the same 48-hour exposure and is the more commonly available agent in Nigerian teaching hospital pharmacies — it should be used when betamethasone is not available. The critical practical point is not which agent is used but that the first dose is given immediately and documented with the exact time, so that the neonatal team knows the corticosteroid status at delivery.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Tocolysis — Goal, Drug Choice, and the 48-Hour Principle</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Sole Goal of Tocolysis</strong>
+          <p>The purpose of tocolysis in established preterm labour is not to prevent preterm birth — it is to delay delivery by 48 hours to allow the corticosteroid course to complete. This distinction is fundamental to the clinical approach: tocolysis is a bridge, not a destination. No tocolytic agent has been demonstrated to improve neonatal outcomes by prolonging pregnancy beyond 48 hours at 34 weeks or later. Prolonged tocolysis beyond the corticosteroid window exposes the mother to drug side effects without neonatal benefit, and at late preterm gestations it may mask the development of chorioamnionitis by suppressing the uterine response to infection. The decision to continue tocolysis beyond 48 hours should never be made without explicit clinical justification and senior obstetrician input.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Nifedipine Is First-Line</strong>
+          <p>Nifedipine is a dihydropyridine calcium channel blocker that inhibits uterine smooth muscle contractions by blocking L-type voltage-gated calcium channels, reducing the intracellular calcium concentration required for actin-myosin crosslinking and contraction. Its evidence base for tocolysis is extensive: multiple randomised trials and meta-analyses confirm it is as effective as atosiban in delaying delivery by 48 hours, with a superior safety profile compared with betamimetics and equivalent safety compared with atosiban. It is inexpensive, orally administered, and available at all Nigerian tertiary hospitals. The loading regimen — oral immediate-release Nifedipine 20 mg bite-and-swallow, repeated at 30-minute intervals up to three doses — achieves rapid myometrial relaxation. The bite-and-swallow route (not sublingual) is important: sublingual Nifedipine produces an unpredictable and sometimes severe hypotensive response from rapid absorption directly into the systemic circulation; oral administration produces a smoother and more controlled pharmacokinetic profile. Maintenance with modified-release Nifedipine sustains tocolysis without the peaks and troughs of the immediate-release formulation.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Not Betamimetics First-Line</strong>
+          <p>Intravenous betamimetics (salbutamol, ritodrine) were the standard tocolytic in Nigerian obstetric practice for decades and are still used in some settings when other agents are unavailable. Their mechanism — beta-2 adrenoceptor stimulation causing smooth muscle relaxation — is pharmacologically sound, but the cardiovascular side effect profile is significant and dose-limiting: maternal tachycardia (up to 140 to 160 beats per minute), palpitations, tremor, chest tightness, hypokalaemia, and — most seriously — pulmonary oedema, particularly when betamimetics are used concurrently with corticosteroids and IV fluids in a fluid-loaded patient. This combination is precisely what occurs in preterm labour management. For this reason, current FIGO, RCOG, and WHO guidelines recommend calcium channel blockers or atosiban over betamimetics as first-line agents wherever they are available. Betamimetics remain a reasonable third-line option when Nifedipine and atosiban are both unavailable — they are effective — but require closer maternal cardiovascular monitoring and meticulous fluid balance management.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Contraindications to Tocolysis — The Pre-Checklist</strong>
+          <p>Tocolysis is absolutely contraindicated in: chorioamnionitis (would promote systemic spread of infection by suppressing the uterine expulsion response); significant haemorrhage or evidence of placental abruption (uterine contractions are the mechanism limiting haemorrhage from the placental bed); fetal compromise on CTG (delivery is preferable to prolonging an unfavourable intrauterine environment); and ruptured membranes with established infection. In this patient, all absolute contraindications have been excluded: she is afebrile, there is no uterine tenderness, the CTG is reassuring, there is no haemorrhage, and the membranes are intact. The pre-tocolysis checklist — confirm afebrile, confirm no uterine tenderness, confirm reassuring CTG — must be performed and documented before every tocolytic course.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Magnesium Sulphate for Fetal Neuroprotection</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Mechanism and Evidence</strong>
+          <p>Magnesium sulphate for fetal neuroprotection is one of the most important advances in preterm birth management of the last 30 years. The mechanism is incompletely understood but likely involves calcium channel antagonism in developing neurons, reduction in NMDA receptor-mediated excitotoxicity, anti-inflammatory and antioxidant effects in the fetal brain, and improved cerebral blood flow autoregulation. Large randomised controlled trials (ACTOMgSO4, BEAM, PREMAG) demonstrated a significant reduction in moderate-to-severe cerebral palsy and a trend toward reduced mortality in neonates whose mothers received magnesium sulphate before preterm birth. The benefit is greatest at the earliest gestational ages. WHO and RCOG guidelines recommend magnesium sulphate for neuroprotection for preterm birth before 34 weeks; many units including those following the ACOG and SMFM recommendations extend this to 34+6 weeks given the marginal benefit at this borderline gestation. The senior obstetrician should make this decision for this patient at 34+1 weeks.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Toxicity Monitoring — The Non-Negotiable Checklist</strong>
+          <p>Magnesium sulphate has a narrow therapeutic index and requires systematic, documented monitoring throughout the infusion. Therapeutic serum magnesium for neuroprotection is 2.0 to 3.5 mmol per litre; toxicity develops progressively above this range. The clinical signs of toxicity appear in a predictable sequence: loss of the patellar deep tendon reflex is the earliest and most reliable sign (appearing at approximately 4 to 5 mmol per litre) and is the indication to stop the infusion before more serious toxicity develops. Respiratory depression (respiratory rate below 12 per minute) follows at approximately 5 to 6 mmol per litre. Cardiac arrest occurs above 7.5 mmol per litre. Three monitoring parameters must therefore be checked every 30 minutes throughout the infusion: respiratory rate (must remain above 12 cpm), patellar reflex (must be present), and urine output via Foley catheter (must remain above 25 ml per hour, as magnesium is cleared exclusively by the kidneys and accumulates in oliguria). The antidote — 10 ml of 10% calcium gluconate (1 g) given intravenously over 10 minutes — reverses magnesium toxicity immediately by competitively displacing magnesium at the calcium channel. It must be drawn up, labelled, and at the bedside before the infusion begins, not retrieved from a storeroom when toxicity is already occurring.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Chorioamnionitis Surveillance — The Most Important Clinical Vigilance During Tocolysis</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Infection Must Be Actively Excluded Throughout the Admission</strong>
+          <p>Chorioamnionitis — infection of the membranes and amniotic fluid — is both a cause and a complication of preterm labour. Ascending genital tract infection (from organisms including Group B Streptococcus, Ureaplasma urealyticum, Mycoplasma hominis, and Gardnerella vaginalis) triggers prostaglandin and cytokine release that initiates uterine contractions. In some cases, therefore, preterm labour is the body's mechanism for expelling an infected intrauterine environment — and tocolysis in this context would delay the appropriate physiological response. The Gibbs clinical criteria for chorioamnionitis require at least two of: maternal fever (temperature above 38°C), maternal tachycardia (pulse above 100 bpm), fetal tachycardia (FHR above 160 bpm), uterine tenderness, and offensive or purulent amniotic fluid. At this presentation, none of these criteria are met. The concern is that subclinical chorioamnionitis may develop during the tocolytic period — the 48-hour window of membrane and uterine integrity provides a relatively narrow surveillance window, but temperature elevation during tocolysis must be treated as chorioamnionitis until proven otherwise. If the temperature exceeds 38°C at any monitoring point: stop tocolysis, draw blood cultures, alert the senior obstetrician, administer IV broad-spectrum antibiotics, and prepare for immediate delivery.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Group B Streptococcus — Why the HVS Matters</strong>
+          <p>Group B Streptococcus (GBS) is the leading cause of early-onset neonatal sepsis in Nigeria and globally, responsible for meningitis, pneumonia, and septicaemia in the first 7 days of life. Approximately 10 to 30% of pregnant Nigerian women are GBS carriers. Intrapartum antibiotic prophylaxis (IAP) with intravenous benzylpenicillin G, given at least 4 hours before delivery, reduces neonatal early-onset GBS disease by approximately 80%. At 34 weeks in preterm labour, the GBS culture result is rarely available before delivery occurs — but sending the high vaginal swab on admission establishes the GBS status for neonatal team guidance and for future care if delivery is delayed. In the absence of a known GBS-negative result from a recent culture, empirical intrapartum prophylaxis should be given at the onset of active established labour at this preterm gestation, as recommended by FMOH Nigeria, ACOG, and RCOG.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Delivery Planning, Delayed Cord Clamping, and PPH Preparedness</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Mode of Delivery — Why Vaginal Delivery Is the Plan</strong>
+          <p>This patient is multiparous, with a previous uncomplicated vaginal delivery, a cephalic presentation, clinically adequate pelvis, and a reassuring CTG. There is no obstetric indication for caesarean section. Preterm birth is not by itself an indication for caesarean section — the mode of delivery should be determined by the usual obstetric indications. Caesarean section carries higher maternal morbidity (haemorrhage, infection, anaesthetic risk, future uterine scar complications) than vaginal delivery and does not improve outcomes for late preterm neonates without a complicating indication. The active management of the second stage is particularly important for a preterm fetus — the preterm skull, while compressible, is vulnerable to the compressive forces of prolonged second stage, and if the second stage extends beyond one hour in this multiparous woman, operative vaginal delivery (vacuum or forceps) should be considered to reduce fetal head trauma.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Delayed Cord Clamping — A Low-Cost High-Impact Intervention</strong>
+          <p>Delayed cord clamping — waiting 30 to 60 seconds after delivery before clamping and cutting the umbilical cord in a vigorous neonate — allows continued placental-to-neonatal blood transfusion during the transition period. For a preterm neonate, this additional blood volume (approximately 30 to 35 ml per kg) significantly reduces the incidence of intraventricular haemorrhage (IVH), necrotising enterocolitis (NEC), and the need for blood transfusion in the neonatal period. The physiological basis is straightforward: the placental blood volume represents approximately a quarter of the total neonatal blood volume at birth; premature clamping deprives the neonate of this reserve at a time when it needs maximum circulating volume to support the cardiovascular transition to air-breathing. Delayed cord clamping should only be skipped if the neonate is not vigorous and requires immediate resuscitation — in that case, immediate clamping and transfer to the resuscitation warmer takes priority.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">PPH Risk and Preparedness</strong>
+          <p>This patient has a booking PCV of 31% — she enters labour already anaemic. Even physiologically normal blood loss at delivery (less than 500 ml) will have a proportionally greater impact on a woman who is already anaemic. Her multiparous uterus is at risk of uterine atony (the most common cause of postpartum haemorrhage), and crossmatched blood must be confirmed as available before delivery. Active management of the third stage — oxytocin 10 units intramuscularly or as a slow intravenous bolus immediately after delivery of the anterior shoulder, followed by controlled cord traction after signs of placental separation — reduces the incidence of PPH by 60% compared with expectant management. The postpartum haemoglobin result at 6 to 12 hours after delivery will guide whether oral iron suffices or whether intravenous iron or transfusion is needed before discharge.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Sickle Cell Trait (Genotype AS) in Pregnancy</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Clinical Implications for This Admission</strong>
+          <p>Sickle cell trait (HbAS) is generally a benign carrier state — the HbA allele produces sufficient normal haemoglobin to maintain physiological function under normal conditions. Unlike sickle cell disease (HbSS), trait carriers do not typically develop vaso-occlusive crises, organomegaly, or chronic haemolytic anaemia. In pregnancy, sickle cell trait is not associated with increased maternal mortality, preeclampsia, or placental insufficiency at the population level. However, under conditions of extreme physiological stress — severe haemorrhage, profound hypoxia, sepsis, marked dehydration, or hypothermia — the proportion of sickle haemoglobin can be sufficient to trigger sickling in microvascular beds, precipitating a crisis. In this patient's context, the relevant precautions during labour and delivery are: maintain adequate intravenous hydration throughout (sickling is promoted by dehydration and increased blood viscosity); ensure SpO₂ remains above 95% (supplemental oxygen if it falls below this level); avoid hypothermia during and after delivery; and treat any fever or infection promptly. These are straightforward nursing and anaesthetic precautions that should be documented in the labour ward notes.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Neonatal Genotyping</strong>
+          <p>The neonatal genotype depends on the father's genotype, which has not been documented in this case. If the father is HbAS (trait) or HbSS (disease), the neonate has a significant probability of inheriting HbSS (full sickle cell disease) — a condition that carries major morbidity and mortality in childhood without early diagnosis and prophylactic penicillin, hydroxyurea, and pneumococcal vaccination. The father should be counselled and tested for genotype before or immediately after delivery. Neonatal haemoglobin electrophoresis (newborn screening) should be arranged at the time of neonatal blood sampling in the NICU — this is standard practice at Nigerian teaching hospital neonatal units but should be explicitly requested and documented. Confirming HbSS in the neonatal period allows prophylactic penicillin to be started by 3 months of age, dramatically reducing the risk of overwhelming sepsis from encapsulated organisms.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+      <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Administer the first dose of antenatal corticosteroid immediately on admission — before investigations are complete, before tocolysis is started, and before any other intervention. Every hour's delay reduces the probability of completing the course before delivery. Partial benefit from even one dose is clinically meaningful.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Tocolysis at 34 weeks is a 48-hour bridge for corticosteroids — not a strategy to prevent preterm birth permanently. Do not continue tocolysis beyond 48 hours at this gestation. Prolonged tocolysis masks chorioamnionitis development and provides no neonatal benefit once the corticosteroid window has passed.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Fever during tocolysis is chorioamnionitis until proven otherwise — stop the tocolytic immediately, draw blood cultures, alert the senior obstetrician, and prepare for expedited delivery. Continuing tocolysis in the presence of chorioamnionitis risks maternal septicaemia, fetal sepsis, and death.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Never give sublingual Nifedipine for tocolysis. The sublingual route produces a rapid and sometimes severe hypotensive response from uncontrolled systemic absorption. The bite-and-swallow oral route is the correct administration method and produces a predictable, safer pharmacokinetic profile.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>IV calcium gluconate for magnesium sulphate toxicity must be drawn up, labelled, and at the bedside before the infusion begins — not in a storeroom. Loss of the patellar reflex is the earliest sign of toxicity; respiratory rate below 12 cpm is the emergency sign. React to the reflex loss, not the respiratory arrest.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Delayed cord clamping for 30 to 60 seconds in a vigorous preterm neonate reduces IVH, NEC, and transfusion requirements — it costs nothing and takes one minute. It should be the default for every preterm delivery unless immediate resuscitation is required. Document the cord clamping time in the delivery notes.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>A booking PCV of 31% in a patient going into preterm labour means crossmatched blood must be available before delivery, not arranged after haemorrhage begins. The anaemic patient has no haematological reserve to absorb obstetric blood loss — preparedness is the margin of safety.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists (RCOG). Tocolysis for Women in Preterm Labour — Green-top Guideline No. 1b.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists (RCOG). Antenatal Corticosteroids to Reduce Neonatal Morbidity and Mortality — Green-top Guideline No. 7.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Obstetricians and Gynecologists (ACOG). Practice Bulletin — Management of Preterm Labor.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society for Maternal-Fetal Medicine (SMFM). Magnesium Sulfate Before Anticipated Preterm Birth for Neuroprotection — Consult Series.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Gyamfi-Bannerman C, et al. Antenatal Betamethasone for Women at Risk for Late Preterm Delivery (ALPS Trial). New England Journal of Medicine, 2016 — cited generically per skill citation rules.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for the Management of Obstetric Complications and Preterm Birth. Abuja: FMOH Nigeria.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society of Obstetricians and Gynaecologists of Nigeria (SOGON) — clinical practice guidance on preterm labour, tocolysis, and neonatal resuscitation in Nigerian settings, where locally available.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on preterm labour, tocolytic therapy, antenatal corticosteroids, magnesium sulphate for fetal neuroprotection, and GBS intrapartum prophylaxis.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — calcium channel blockers for inhibiting preterm labour; magnesium sulphate for preventing neurological injury in preterm infants; delayed cord clamping versus early clamping for preterm infants.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — obstetrics and neonatology chapters.</li>
+        </ul>
+      </div>
+    </details>
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'ob-82',
+    title: 'Galactorrhea Secondary to Suspected Hyperprolactinemia',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynae Clinic',
+    condition: 'Galactorrhea',
+    symptoms: [
+      'Bilateral milky nipple discharge',
+      'Spontaneous nipple discharge',
+      'Expressible nipple discharge',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 24-year-old female student who resides in Ikeja, Lagos State, presenting with a 3-week history of spontaneous bilateral milky nipple discharge.',
+    content: `
+  PATIENT IDENTIFICATION
+  A 24-year-old female student who resides in Ikeja, Lagos State. Yoruba.
+  
+  PRESENTING COMPLAINT
+  1. Nipple discharge x 3/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  She was apparently well until 3 weeks ago when she noticed a milky discharge from both nipples. The discharge is spontaneous, occurring without any manipulation, and is also expressible. It is bilateral and milky in color. There is no associated blood staining or purulent material.
+  
+  She reports no associated breast pain or swelling. There are no palpable breast lumps or skin changes noted. She has no history of trauma to the chest.
+  
+  There is no history of recurrent headaches, blurring of vision, or double vision. No history of heat or cold intolerance, excessive weight gain, or change in bowel habits.
+  
+  She is not currently pregnant and is not breastfeeding. Her last menstrual period was 2 weeks ago and her cycles are regular. She is not on any regular medications, specifically denying use of metoclopramide, domperidone, or antipsychotic medications.
+  
+  PAST MEDICAL HISTORY
+  No previous history of similar complaints.
+  No known history of chronic medical conditions like hypothyroidism or chronic kidney disease.
+  Not a known hypertensive or diabetic.
+  No history of previous breast surgeries.
+  
+  GYNAECOLOGICAL HISTORY
+  Menarche: 13 years
+  LMP: 14 days ago
+  Menstrual Cycle: 28 days, regular.
+  Parity: G0 P0+0
+  Contraceptive Hx: Nil
+  
+  DRUG HISTORY
+  No history of herbal concoction use.
+  No history of oral contraceptive pill use.
+  
+  SOCIAL HISTORY
+  Single. Does not smoke cigarettes or consume alcohol. 
+  
+  REVIEW OF SYSTEMS
+  CNS: No headache, no visual disturbances.
+  RS: No cough, no chest pain.
+  CVS: No palpitations, no pedal edema.
+  GIT: No abdominal pain, no change in bowel habits.
+  
+  PHYSICAL EXAMINATION
+  General Examination:
+  Young lady, not in any obvious respiratory or painful distress. Not pale, anicteric, acyanotic, afebrile, not dehydrated. No significant peripheral lymphadenopathy.
+  
+  Vital Signs:
+  PR: 78 bpm, regular, full volume.
+  BP: 110/70 mmHg.
+  RR: 18 cpm.
+  T: 36.6 degrees Celsius.
+  SpO2: 98 percent on room air.
+  
+  Breast Examination:
+  Inspection: Bilateral breasts are symmetrical. No skin puckering, peau d orange, or nipple retraction. No visible lumps.
+  Palpation: No palpable masses in any of the quadrants of either breast. No axillary or supraclavicular lymphadenopathy.
+  Nipple Expression: Milky discharge expressed from both nipples via multiple ducts.
+  
+  Systemic Examination:
+  Abdomen: Flat, moves with respiration. No organomegaly. No masses.
+  CNS: Conscious and alert. Cranial nerves I-XII intact. No visual field defects noted on confrontation test.
+  Other systems: NAD.
+  
+  ASSESSMENT
+  Galactorrhea secondary to suspected Hyperprolactinemia.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Idiopathic Hyperprolactinemia.
+  2. Pituitary Microadenoma (Prolactinoma).
+  3. Primary Hypothyroidism.
+  4. Medication-induced Galactorrhea (Unlikely given history, but to be excluded).
+  
+  INITIAL INVESTIGATION PLAN
+  1. Serum Prolactin Level (Fasting, 8:00 AM sample preferred, avoid breast stimulation 48h prior).
+  2. Serum TSH, T3, and T4 (To rule out primary hypothyroidism).
+  3. Urine Pregnancy Test (uHCG) (To rule out occult pregnancy).
+  4. Serum Electrolytes, Urea, and Creatinine (To rule out renal failure).
+  5. Breast Ultrasound Scan (To confirm absence of occult masses despite negative physical exam).
+  6. Cranial MRI (Indicated if serum prolactin is significantly elevated, e.g., >100-200 ng/mL, to rule out pituitary adenoma).
+  
+  INITIAL MANAGEMENT PLAN
+  1. Counsel the patient on the findings and the need for investigations.
+  2. Advise avoidance of nipple stimulation or frequent expression as this can worsen the discharge.
+  3. Review results of Serum Prolactin:
+  - If Prolactin is mildly elevated and no symptoms: Observation may be sufficient.
+  - If Prolactin is significantly elevated or patient is symptomatic (distressing discharge): Commencing Dopamine Agonists.
+  4. Pharmacotherapy options:
+  - Tab Bromocriptine 2.5mg nocte (Start low and escalate slowly to minimize side effects like nausea and dizziness).
+  - Tab Cabergoline 0.5mg weekly (Better tolerated but more expensive).
+  5. Refer to an Endocrinologist if a pituitary mass is suspected or if prolactin levels are refractory to initial treatment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'ob-81',
     title: 'Vaso-Occlusive Crisis in Pregnancy with Fever',

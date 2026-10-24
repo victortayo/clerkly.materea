@@ -2334,6 +2334,400 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
         `
       },
 
+      {
+        id: 'lab-esr',
+        title: 'Erythrocyte Sedimentation Rate (ESR)',
+        category: 'Laboratory Interpretation',
+        subCategory: 'Hematology',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+      .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .quote { border-left-width: 3px; }
+    </style>
+    </head>
+    <body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+    
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; HEMATOLOGY</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Erythrocyte Sedimentation Rate (ESR)</h1>
+        <p class="text-sm text-indigo-200">ESR is one of the cheapest tests in the laboratory and one of the most misused. It is often sent to &ldquo;confirm infection&rdquo; in febrile, anaemic and malaria-endemic patients, where it cannot do that job. This guide covers what ESR measures, the ranges for age, sex and pregnancy, what moves it up and down, the few situations where it still helps, and how to read it in Nigerian practice without letting it drive the diagnosis.</p>
+      </div>
+    </div>
+    
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li><a href="#what-esr-reflects" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What ESR Reflects</span></a></li>
+        <li><a href="#why-esr-is-overused" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Why ESR Is Overused</span></a></li>
+        <li><a href="#reference-ranges" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Reference Ranges</span></a></li>
+        <li><a href="#what-raises-and-lowers-esr" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>What Raises and Lowers ESR</span></a></li>
+        <li><a href="#where-esr-still-adds-value" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Where ESR Still Adds Value</span></a></li>
+        <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+        <li><a href="#esr-and-crp-together" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>ESR and CRP Together</span></a></li>
+        <li><a href="#what-to-do-next-with-a-raised-esr" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>What to Do Next With a Raised ESR</span></a></li>
+        <li><a href="#sample-handling-and-technical-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Sample Handling and Technical Pitfalls</span></a></li>
+        <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Reading Order</span></a></li>
+        <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Findings That Must Not Be Missed</span></a></li>
+        <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-esr-reflects" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      What ESR Reflects
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">ESR is the distance, in millimetres, that red cells fall in one hour in a vertical tube of anticoagulated blood. Red cells carry a negative surface charge and normally repel each other. When fibrinogen, immunoglobulins and other acute-phase proteins rise, the cells stack into rouleaux. Stacks are heavier and settle faster. ESR is therefore an indirect measure of plasma proteins. It is not a measure of infection.</p>
+      <p class="text-sm">Red cell number and shape matter as much as the proteins. Fewer red cells (anaemia) let the remaining cells fall faster, so ESR climbs as PCV drops. Sickle cells, spherocytes and a high PCV resist stacking and slow the fall.</p>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Timing</strong>
+        <p class="text-sm">ESR begins to rise 24 to 48 hours after inflammation starts and takes weeks to return to baseline after it settles. CRP begins to rise within 4 to 6 hours, peaks at 36 to 50 hours and has a half-life of about 19 hours. A normal ESR on the first day or two of an illness tells you nothing, and a raised ESR a few weeks after a resolved illness may only be the tail of it.</p>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-esr-is-overused" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Why ESR Is Overused
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">ESR needs only a tube, a stand and a clock. It needs no analyser and no steady power, so almost every laboratory can run it and it is easy to tick on a request form. Cheap and available is not the same as useful. It fails as a general infection test for four reasons.</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Nonspecific.</strong> Infection, malignancy, autoimmune disease, kidney disease, anaemia, pregnancy, older age and female sex all raise it.</li>
+        <li><strong>Insensitive.</strong> A normal ESR does not exclude infection, cancer or giant cell arteritis, and it is unreliable in sickle cell disease.</li>
+        <li><strong>Slow.</strong> It lags behind the illness at the start and lingers after recovery.</li>
+        <li><strong>Rarely changes management.</strong> No ESR value tells you which antibiotic to use, whether to treat malaria or TB, or whether to stop treatment.</li>
+      </ul>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cost and consequences</strong>
+        <p class="text-sm">Most patients in Nigeria pay for each test out of pocket. An ESR that cannot change management uses money that could have bought the test that can: a malaria RDT, an Xpert cartridge, a chest X-ray or a CRP. A raised ESR also tends to be read as support for whatever the clinician already suspects, and antibiotics or anti-TB drugs follow. A normal ESR gets read as reassurance when it is not, for example in sickle cell disease, early illness or giant cell arteritis.</p>
+      </div>
+      <p class="text-sm">Before sending it, ask what you will do differently if it is high and what you will do if it is normal. If the answer to both is nothing, do not send it. When you do send it, tell the patient and relatives in plain words that a high ESR does not name a disease and a normal one does not clear them.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reference-ranges" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Reference Ranges
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Values below are for the Westergren method, read at one hour. Use the range printed on your laboratory&rsquo;s report, because method and anticoagulant change the numbers.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Group</th>
+              <th class="py-2 pr-3">Usual upper limit or range (mm/h)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Newborn</td><td class="py-2 pr-3">0&ndash;2</td></tr>
+            <tr><td class="py-2 pr-3">Newborn to puberty</td><td class="py-2 pr-3">3&ndash;13 (many laboratories quote &le;10)</td></tr>
+            <tr><td class="py-2 pr-3">Men under 50 years</td><td class="py-2 pr-3">&le;15</td></tr>
+            <tr><td class="py-2 pr-3">Men 50 years and over</td><td class="py-2 pr-3">&le;20</td></tr>
+            <tr><td class="py-2 pr-3">Women under 50 years</td><td class="py-2 pr-3">&le;20</td></tr>
+            <tr><td class="py-2 pr-3">Women 50 years and over</td><td class="py-2 pr-3">&le;30</td></tr>
+            <tr><td class="py-2 pr-3">Pregnancy, non-anaemic</td><td class="py-2 pr-3">About 18&ndash;48 in the first half; about 30&ndash;70 in the second half</td></tr>
+            <tr><td class="py-2 pr-3">Pregnancy, anaemic</td><td class="py-2 pr-3">Higher still: up to about 95 in the second half</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Age-adjusted upper limit</strong>
+        <p class="text-sm">ESR rises steadily with age, so a fixed cut-off over-calls the elderly. A simple bedside rule gives the upper limit: <strong>men = age &divide; 2; women = (age + 10) &divide; 2</strong>. A 75-year-old man has an upper limit of about 37 mm/h. A 70-year-old woman has about 40 mm/h. An ESR of 35 in a 75-year-old man is normal.</p>
+      </div>
+      <p class="text-sm">Most published ranges were derived in settings with less malaria, chronic anaemia and HIV than ours. A laboratory serving a high-burden population should check its own interval, and clinicians should read borderline values with that in mind.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-raises-and-lowers-esr" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      What Raises and Lowers ESR
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Pattern</th>
+              <th class="py-2 pr-3">Common causes</th>
+              <th class="py-2 pr-3">Comment</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Mild to moderate rise</td><td class="py-2 pr-3">Anaemia (iron deficiency, malaria, hookworm, sickle cell), pregnancy, age, female sex, UTI, pneumonia, malaria, HIV, PID, tissue injury</td><td class="py-2 pr-3">Many of these are physiological or common. A value in this band rarely points to one diagnosis.</td></tr>
+            <tr><td class="py-2 pr-3">Marked rise</td><td class="py-2 pr-3">TB (pulmonary, spinal, abdominal), osteomyelitis, infective endocarditis, acute rheumatic fever, rheumatoid arthritis, SLE, nephrotic syndrome, lymphoma</td><td class="py-2 pr-3">Look for a specific disease with the clinical picture and targeted tests.</td></tr>
+            <tr><td class="py-2 pr-3">Very high (&gt;100 mm/h)</td><td class="py-2 pr-3">Infection (TB, endocarditis, bone infection), malignancy (myeloma, lymphoma, metastases), arteritis, kidney disease</td><td class="py-2 pr-3">Seldom incidental. It needs a structured work-up (section 8).</td></tr>
+            <tr><td class="py-2 pr-3">Low or falsely normal</td><td class="py-2 pr-3">Sickle cell disease, polycythaemia, spherocytosis, poikilocytosis, hypofibrinogenaemia, congestive heart failure, very early inflammation</td><td class="py-2 pr-3">A normal value does not exclude disease in these patients.</td></tr>
+            <tr><td class="py-2 pr-3">Technical</td><td class="py-2 pr-3">Tilted tube, warm bench, wrong citrate ratio, delayed sample, clotted or haemolysed blood</td><td class="py-2 pr-3">See section 9.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">HIV infection itself commonly raises ESR through hypergammaglobulinaemia, and so does TB. In a patient with both, a persistently high ESR on treatment does not mean TB treatment is failing. Judge response by symptoms, weight, sputum results and the programme&rsquo;s own monitoring.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="where-esr-still-adds-value" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Where ESR Still Adds Value
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acute rheumatic fever</strong>
+        <p class="text-sm">In the 2015 revised Jones criteria (AHA), raised acute-phase reactants are a minor criterion. For moderate- and high-risk populations the threshold is a peak ESR of 30 mm/h or more and/or CRP of 3.0 mg/dL or more. For low-risk populations it is ESR of 60 mm/h or more. Nigerian children are not clearly from a low-risk population, so the lower threshold applies. Use the peak value, because ESR changes during the illness. It supports the diagnosis only alongside the major criteria and evidence of preceding group A streptococcal infection.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Giant cell arteritis and polymyalgia rheumatica</strong>
+        <p class="text-sm">Both are uncommon in Nigerian practice. When they are suspected in a patient over 50, ESR and CRP are the starting tests. The 2022 ACR/EULAR GCA classification criteria score an ESR of 50 mm/h or more or a CRP of 10 mg/L or more, and PMR classification requires an abnormal CRP or ESR. A normal ESR does not exclude GCA. In a large temporal artery biopsy cohort about 4% of patients with positive biopsies had both ESR and CRP normal, and CRP was slightly more sensitive than ESR. Request both, and act on the clinical picture.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Bone, joint and spinal infection</strong>
+        <p class="text-sm">ESR is usually raised in osteomyelitis, septic arthritis and spinal infection, including spinal TB, and it is useful for following response over weeks. It does not make or exclude the diagnosis. Imaging, aspiration, culture and histology do that.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pelvic inflammatory disease</strong>
+        <p class="text-sm">The CDC lists raised ESR or CRP among the additional criteria that increase the specificity of a PID diagnosis. Empirical treatment starts on the minimum clinical criteria (pelvic or lower abdominal pain with uterine, adnexal or cervical motion tenderness). Do not delay antibiotics to wait for an ESR.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Trending known inflammatory disease</strong>
+        <p class="text-sm">In rheumatoid arthritis, PMR, GCA and chronic bone infection, a falling ESR over weeks supports response. Compare each result with the patient&rsquo;s own earlier values.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A pointer in haematology, not a screening test</strong>
+        <p class="text-sm">A very high ESR with rouleaux on the film, anaemia, renal impairment, bone pain or hypercalcaemia raises the question of myeloma. ESR cannot screen for it, and it may be normal in light-chain disease. Order serum protein electrophoresis where available, and use total protein minus albumin as a cheap pointer to a raised globulin fraction.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Where ESR does not belong</strong>
+        <ul class="list-disc pl-5 space-y-1 text-sm">
+          <li>Confirming or excluding infection in a febrile patient.</li>
+          <li>Diagnosing or monitoring TB. WHO&rsquo;s screening recommendation for adults and adolescents living with HIV names CRP (&gt;5 mg/L), not ESR, and diagnosis rests on molecular tests, smear, culture and imaging.</li>
+          <li>Deciding on malaria treatment. National and WHO policy is parasitological confirmation before treatment.</li>
+          <li>Screening well people or adding it to a routine check-up.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+      <strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+      <p class="text-sm text-amber-900 dark:text-amber-300">ESR thresholds in classification criteria (30 or 60 mm/h in rheumatic fever, 50 mm/h in GCA) are scoring rules for diagnosis in a defined clinical setting. They are not cut-offs for calling a test abnormal in general. Apply the rheumatic fever threshold that matches the population risk, and do not carry the numbers into unrelated presentations.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Clinical Scenarios in Nigerian Practice
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Febrile adult, ESR 55 mm/h, request says &ldquo;confirm infection&rdquo;</strong>
+        <p class="text-sm">The ESR has not told you which infection, or whether it is infection at all. Do the tests that decide management: malaria RDT or film, urinalysis, FBC, and a chest X-ray or blood cultures if the picture calls for them. Treat what you find. Malaria, UTI, enteric fever and viral illness can all give the same ESR.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cough for three weeks, weight loss, night sweats, ESR 90 mm/h</strong>
+        <p class="text-sm">A high ESR does not diagnose TB and a normal one does not exclude it. Send sputum for a WHO-recommended molecular test, request a chest X-ray and offer an HIV test. Do not start anti-TB drugs on ESR alone.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with fever, joint pain and a new murmur</strong>
+        <p class="text-sm">Think acute rheumatic fever. A peak ESR of 30 mm/h or more meets the acute-phase minor criterion for a moderate- or high-risk population. Look for the major criteria, document preceding streptococcal infection (ASO titre, anti-DNase B or throat culture) and arrange an echocardiogram. Remember that rheumatic heart disease is the long-term cost of missing this.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with sickle cell anaemia, fever and a painful, swollen limb</strong>
+        <p class="text-sm">Painful crisis and osteomyelitis look alike. Steady-state ESR is low in HbSS because sickle cells do not stack, although anaemia pulls it the other way. A rise above the child&rsquo;s own baseline favours infection, but a normal-looking value does not exclude it. Decide on imaging, blood culture and, where possible, aspiration. Early orthopaedic and paediatric review matters.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young woman with lower abdominal pain and cervical motion tenderness</strong>
+        <p class="text-sm">PID is a clinical diagnosis. Start treatment on the minimum criteria, test for gonorrhoea and chlamydia where you can, and consider pregnancy including ectopic. A raised ESR adds specificity but a normal one never withholds treatment.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman at 32 weeks, ESR 60 mm/h, Hb 10 g/dL, no symptoms</strong>
+        <p class="text-sm">This can be physiological. The second-half range in non-anaemic women reaches about 70 mm/h and anaemia pushes it higher. Do not chase infection on this result alone. If she has fever, flank pain or other symptoms, investigate for those, not for the ESR.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 75 with ESR 35 mm/h and no symptoms</strong>
+        <p class="text-sm">His age-adjusted upper limit is about 37 mm/h. This is a normal result. No investigation follows.</p>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="esr-and-crp-together" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      ESR and CRP Together
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Pattern</th>
+              <th class="py-2 pr-3">Think of</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">CRP high, ESR normal</td><td class="py-2 pr-3">Early acute infection or inflammation (first 24&ndash;48 hours); sickle cell disease; polycythaemia; low fibrinogen</td></tr>
+            <tr><td class="py-2 pr-3">ESR high, CRP normal</td><td class="py-2 pr-3">Anaemia, pregnancy, older age, raised immunoglobulins or myeloma, kidney disease, SLE without infection, resolving inflammation (CRP falls first)</td></tr>
+            <tr><td class="py-2 pr-3">Both high</td><td class="py-2 pr-3">Active inflammation: infection, rheumatic fever, vasculitis, malignancy. Match to the clinical picture</td></tr>
+            <tr><td class="py-2 pr-3">Both normal</td><td class="py-2 pr-3">Makes significant systemic inflammation unlikely. It does not exclude GCA, localised infection or some cancers</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">For an acute question (is this infection, is it responding to treatment) CRP is the better single test, because it moves within hours and falls within days. Where CRP is unavailable or unaffordable, ESR with careful clinical judgement is acceptable for rheumatic fever and for following bone infection. Where only one test can be bought and the question is acute, buy the CRP.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-next-with-a-raised-esr" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      What to Do Next With a Raised ESR
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Mildly raised, patient well</strong>
+        <p class="text-sm">Take a history and examine. Check the FBC and film for anaemia. Confirm the value against the age-adjusted limit and the pregnancy range where relevant. If nothing points anywhere, do not investigate further. If the concern persists, repeat once after some weeks rather than adding tests.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Raised, with symptoms</strong>
+        <p class="text-sm">Follow the symptom, not the number. Fever: malaria test, urinalysis, cultures. Chronic cough or weight loss: molecular TB test, chest X-ray, HIV. Bone or back pain with fever: imaging. Joint pain in a child: rheumatic fever work-up. Headache and jaw pain after 50: urgent GCA pathway.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">ESR above 100 mm/h</strong>
+        <p class="text-sm">Treat it as a finding that needs an explanation. A structured first pass, as far as resources allow:</p>
+        <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+          <li>Full history and examination, including a cardiac murmur, lymph nodes, spine tenderness and temporal arteries.</li>
+          <li>FBC with a film (rouleaux, blasts, parasites), CRP, urinalysis for protein and blood, urea and creatinine.</li>
+          <li>Total protein and albumin to estimate the globulin gap, and calcium.</li>
+          <li>Chest X-ray, HIV test, hepatitis B and C, and a molecular TB test or other site-specific TB sampling guided by symptoms.</li>
+          <li>Blood cultures if febrile or a murmur is present.</li>
+          <li>Serum protein electrophoresis if the globulin gap is raised, or with unexplained anaemia, renal impairment or bone pain.</li>
+        </ul>
+      </div>
+      <p class="text-sm">Do not repeat ESR as a way of watching an unexplained result, do not treat the number, and do not start antibiotics or anti-TB drugs on ESR alone.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sample-handling-and-technical-pitfalls" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Sample Handling and Technical Pitfalls
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">ESR is a physical test and small technical errors change the result. The Westergren method with a 200 mm tube is the reference. The Wintrobe method uses a shorter tube and is less informative at high values, so the two are not interchangeable.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Pitfall</th>
+              <th class="py-2 pr-3">Effect</th>
+              <th class="py-2 pr-3">Fix</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Wrong blood-to-anticoagulant ratio (citrate method: 4 parts blood to 1 part 3.8% sodium citrate); underfilled or overfilled tube</td><td class="py-2 pr-3">Excess citrate dilutes the sample and lowers ESR; ratio errors alter the result</td><td class="py-2 pr-3">Fill to the line; use the correct tube</td></tr>
+            <tr><td class="py-2 pr-3">Clotted or partly clotted sample</td><td class="py-2 pr-3">Unusable</td><td class="py-2 pr-3">Reject and recollect</td></tr>
+            <tr><td class="py-2 pr-3">Poor mixing or air bubbles</td><td class="py-2 pr-3">Uneven settling</td><td class="py-2 pr-3">Mix gently by inversion just before filling; avoid foam</td></tr>
+            <tr><td class="py-2 pr-3">Delay before testing</td><td class="py-2 pr-3">Cell shape changes and the result becomes unreliable, usually falsely low</td><td class="py-2 pr-3">Run within a few hours at room temperature; refrigerate if delayed and let the sample return to room temperature</td></tr>
+            <tr><td class="py-2 pr-3">Tube not vertical; vibration</td><td class="py-2 pr-3">Even a small tilt speeds settling</td><td class="py-2 pr-3">Use a levelled rack; keep it away from centrifuges, fridges and generators</td></tr>
+            <tr><td class="py-2 pr-3">Bench temperature outside about 18&ndash;25 &deg;C</td><td class="py-2 pr-3">Warm benches speed settling and read falsely high; a very cold bench reads low</td><td class="py-2 pr-3">Keep the rack out of direct sun and away from heat sources; use an air-conditioned room where available</td></tr>
+            <tr><td class="py-2 pr-3">Reading at the wrong time</td><td class="py-2 pr-3">Result is not an hour value</td><td class="py-2 pr-3">Use a timer; read at exactly 60 minutes at the top of the red cell column</td></tr>
+            <tr><td class="py-2 pr-3">Patient factors: anaemia, polycythaemia, sickle cells, haemolysis, lipaemia, icterus, cold agglutinins, high paraprotein</td><td class="py-2 pr-3">Result no longer tracks inflammation alone</td><td class="py-2 pr-3">Read with PCV and the film; do not apply a correction formula</td></tr>
+            <tr><td class="py-2 pr-3">Switching between methods or anticoagulants (citrate versus EDTA, manual versus automated)</td><td class="py-2 pr-3">Results differ and are not interchangeable</td><td class="py-2 pr-3">Use the method-specific range; do not compare across laboratories</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+      <strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+      <p class="text-sm text-amber-900 dark:text-amber-300">Published limits for how long an EDTA sample may wait differ between ICSH and CLSI texts, roughly 2 to 4 hours at room temperature, with longer limits if refrigerated. Run samples as early as possible and follow the procedure for your analyser or tubes. ICSH accepts both EDTA and citrate samples for ESR, but results from the two are not interchangeable, so interpret against the range validated for the method in use.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Reading Order
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ol class="list-decimal pl-5 space-y-2 text-sm">
+        <li><strong>Check the sample and method.</strong> Right tube, right volume, no clot, time to analysis, and the range printed on the report.</li>
+        <li><strong>Compare with the right range.</strong> Use age, sex and pregnancy. For older adults use the age-adjusted limit.</li>
+        <li><strong>Look at the Hb or PCV and the film.</strong> Anaemia raises ESR. Sickle cells and polycythaemia lower it. Rouleaux point to a protein excess.</li>
+        <li><strong>Place it in time.</strong> A normal value in the first day or two means little. A high value weeks after recovery may be residual.</li>
+        <li><strong>Pair it with CRP</strong> where available, and read the pattern (section 7).</li>
+        <li><strong>Match it to the clinical picture.</strong> Decide whether to ignore it, trend it or investigate a specific disease. Above 100 mm/h, follow section 8.</li>
+        <li><strong>Never let ESR alone confirm or exclude</strong> TB, malaria, osteomyelitis, rheumatic fever or GCA.</li>
+      </ol>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Findings That Must Not Be Missed
+    </h2>
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>ESR above 100 mm/h.</strong> Needs a structured work-up for infection (TB, endocarditis, bone infection), malignancy (myeloma, lymphoma), arteritis and kidney disease. Do not file it as incidental.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>New headache, jaw claudication or visual symptoms after age 50.</strong> Suspect giant cell arteritis. Sight is at risk, so escalate the same day. A normal ESR does not exclude it.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Child with fever, joint pain and a new murmur.</strong> Treat as acute rheumatic fever until excluded, and get an echocardiogram.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Sickle cell disease with fever and focal bone pain.</strong> A normal-looking ESR does not exclude osteomyelitis. Image and culture.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Back pain with fever or any new leg weakness.</strong> Think spinal infection (pyogenic or TB) or cord compression. This is an emergency for imaging, whatever the ESR.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Chronic cough, weight loss and night sweats with any ESR.</strong> A normal ESR does not rule out TB. Send a molecular test and offer HIV testing.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Pregnant woman with a high ESR and fever or flank pain.</strong> Do not dismiss the result as physiological. Investigate the symptoms.</span></li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Key Clinical Takeaways
+    </h2>
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>ESR measures plasma protein and red cell effects, not infection. It rises with age, female sex, pregnancy and anaemia.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>It cannot confirm or exclude infection, TB or malaria. Order the specific test (RDT, molecular TB test, imaging, cultures) and treat on those results.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use the age-adjusted limit (men age &divide; 2, women (age + 10) &divide; 2) and the pregnancy range before calling a value high.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>It still helps in rheumatic fever (peak 30 mm/h or more in high-risk populations), GCA and PMR, bone and spinal infection, and for trending known inflammatory disease.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cell disease lowers ESR. A normal value there does not exclude infection.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>CRP is the better test for acute infection and response. An ESR above 100 mm/h needs a structured work-up.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Before sending it, ask what you will do differently if it is high and if it is normal. If the answer is nothing, save the patient the cost.</span></li>
+      </ul>
+    </div>
+    
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+        References
+        <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+      </summary>
+      <ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+        <li class="text-[10px] leading-snug text-stone-500">International Council for Standardization in Haematology (ICSH). Recommendations for measurement of the erythrocyte sedimentation rate (1993).</li>
+        <li class="text-[10px] leading-snug text-stone-500">ICSH. Recommendations for modified and alternate methods measuring the erythrocyte sedimentation rate (2011).</li>
+        <li class="text-[10px] leading-snug text-stone-500">Clinical and Laboratory Standards Institute (CLSI). Procedures for the erythrocyte sedimentation rate test (H02).</li>
+        <li class="text-[10px] leading-snug text-stone-500">American Heart Association scientific statement. Revision of the Jones criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography (2015).</li>
+        <li class="text-[10px] leading-snug text-stone-500">American College of Rheumatology and European Alliance of Associations for Rheumatology. 2022 classification criteria for giant cell arteritis.</li>
+        <li class="text-[10px] leading-snug text-stone-500">ACR and Vasculitis Foundation. 2021 guideline for the management of giant cell arteritis and Takayasu arteritis.</li>
+        <li class="text-[10px] leading-snug text-stone-500">EULAR and ACR. 2012 provisional classification criteria for polymyalgia rheumatica.</li>
+        <li class="text-[10px] leading-snug text-stone-500">World Health Organization. WHO consolidated guidelines on tuberculosis, Module 2: screening, and Module 6: tuberculosis and comorbidities.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Sexually transmitted infections treatment guidelines, 2021: pelvic inflammatory disease.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Age- and sex-adjusted upper limits of normal for ESR. BMJ, 1983.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Gestation-specific ESR reference intervals in healthy pregnancy. BJOG, 2001; reference table for laboratory values in pregnancy, Obstetrics &amp; Gynecology, 2009.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Published temporal artery biopsy cohorts on the sensitivity of ESR and CRP in giant cell arteritis.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Published case series on ESR in sickle cell disease at steady state, in crisis and in infection or osteomyelitis.</li>
+      </ul>
+    </details>
+    
+    </body>
+    </html>
+        `
+    },
+
 
       {
         id: 'lab-coagulation-profile',
@@ -3096,5 +3490,3490 @@ export const LABORATORY_INTERPRETATION_CONTENT: LearningModule[] = [
         `
       },
 
+      {
+        id: 'lab-genotype-hb-electrophoresis',
+        title: 'Genotype (Hb Electrophoresis)',
+        category: 'Laboratory Interpretation',
+        subCategory: 'Hematology',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+      .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .quote { border-left-width: 3px; }
+    </style>
+    </head>
+    <body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+    
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; HEMATOLOGY</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Genotype (Hb Electrophoresis): SS, SC and AS</h1>
+        <p class="text-sm text-indigo-200">Genotype is one of the most requested tests in Nigerian practice, often for premarital counselling, and one of the easiest to misread. A transfused child reported as AS, an adult with AS labelled a &ldquo;crisis patient&rdquo;, a couple told they are compatible when one partner has HbSC: each starts with a misread band. This guide covers what the methods show and miss, the expected patterns, what each genotype means for the patient, how to read a crisis against the baseline, and the pitfalls that change a result.</p>
+      </div>
+    </div>
+    
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li><a href="#what-genotype-means-in-the-laboratory" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What &ldquo;Genotype&rdquo; Means in the Laboratory</span></a></li>
+        <li><a href="#methods-what-each-can-and-cannot-tell-you" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Methods: What Each Can and Cannot Tell You</span></a></li>
+        <li><a href="#reference-patterns" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Reference Patterns</span></a></li>
+        <li><a href="#reading-each-genotype" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Reading Each Genotype</span></a></li>
+        <li><a href="#pitfalls-and-sample-handling-errors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Pitfalls and Sample Handling Errors</span></a></li>
+        <li><a href="#crisis-implications-by-genotype" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Crisis Implications by Genotype</span></a></li>
+        <li><a href="#reading-a-crisis-against-the-baseline" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Reading a Crisis Against the Baseline</span></a></li>
+        <li><a href="#what-the-genotype-changes-in-care" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>What the Genotype Changes in Care</span></a></li>
+        <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+        <li><a href="#inheritance-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Inheritance and Counselling</span></a></li>
+        <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Reading Order</span></a></li>
+        <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Findings That Must Not Be Missed</span></a></li>
+        <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Key Clinical Takeaways</span></a></li></ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-genotype-means-in-the-laboratory" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      What &ldquo;Genotype&rdquo; Means in the Laboratory
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Haemoglobin electrophoresis separates haemoglobins by electrical charge. HPLC, capillary electrophoresis and isoelectric focusing do the same job and also give percentages. Strictly, these tests report the haemoglobin <em>phenotype</em>. HbAA, HbAS, HbSS and HbSC are the genotypes we infer from it. The inference is usually right. It fails in a few settings: S-&beta; thalassaemia and HbS with raised HbF can look like SS, alpha-thalassaemia changes the HbS percentage in AS, and a recent transfusion hides the true pattern.</p>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Nigerian picture</strong>
+        <p class="text-sm">About one in five Nigerian children carries HbAS (pooled estimate about 22%, higher in the north-west and lower in the south-west). About 2 to 3% of babies are born with sickle cell anaemia, which is on the order of 150,000 births a year, and under-five mortality from the disease remains high. HbC is less common than HbS, but HbSC is seen regularly in clinics. Alpha-gene deletions are common in Nigerian populations (about 45% of both patients and controls in one Ibadan study), which matters when reading HbS and HbA2 percentages.</p>
+      </div>
+      <p class="text-sm">Normal adult values are HbA about 95&ndash;98%, HbA2 about 2&ndash;3.5% and HbF under 1&ndash;2%. HbF is high at birth and falls over the first months of life.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="methods-what-each-can-and-cannot-tell-you" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Methods: What Each Can and Cannot Tell You
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Method</th>
+              <th class="py-2 pr-3">What it shows</th>
+              <th class="py-2 pr-3">Limits</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Sickling or solubility test</td><td class="py-2 pr-3">Presence of HbS</td><td class="py-2 pr-3">Cannot tell AS from SS. Can be falsely negative in young infants, with very low HbS and after transfusion. It is not a genotype.</td></tr>
+            <tr><td class="py-2 pr-3">Cellulose acetate, alkaline (pH 8.4&ndash;8.6)</td><td class="py-2 pr-3">Separates A, F, S and the C group</td><td class="py-2 pr-3">HbS runs with HbD and HbG. HbC runs with HbE, HbO-Arab and HbA2. Needs a confirmatory step. In one Nigerian validation against DNA it was less accurate than HPLC, with errors for AS and AC.</td></tr>
+            <tr><td class="py-2 pr-3">Citrate agar, acid (pH about 6.2)</td><td class="py-2 pr-3">Separates S from D and G, and C from E and O</td><td class="py-2 pr-3">A second step to resolve alkaline look-alikes. It does not quantify well.</td></tr>
+            <tr><td class="py-2 pr-3">HPLC, capillary electrophoresis, isoelectric focusing</td><td class="py-2 pr-3">Identifies and quantifies A, A2, F, S and C</td><td class="py-2 pr-3">Best routine tests. Access and cost limit use outside larger centres. Some variants still co-elute.</td></tr>
+            <tr><td class="py-2 pr-3">Point-of-care lateral-flow tests (HemoTypeSC, SickleSCAN)</td><td class="py-2 pr-3">Detects A, S and C bands</td><td class="py-2 pr-3">Validated in Nigerian primary care and in newborns, with HemoTypeSC matching DNA for AA, AS, AC, SS and SC in one field study. They give no HbF or HbA2, cannot separate SS from S-&beta;0, and do not detect other variants. Confirm unexpected results.</td></tr>
+            <tr><td class="py-2 pr-3">DNA testing</td><td class="py-2 pr-3">Reference method</td><td class="py-2 pr-3">Rarely needed. Useful for S-&beta; thalassaemia, HbS with raised HbF, and prenatal diagnosis.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">The practical rule: a sickling test says &ldquo;HbS present&rdquo;. Electrophoresis or HPLC says which genotype. When a band sits where HbS or HbC should be, treat it as presumptive until it is confirmed by a second method.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reference-patterns" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Reference Patterns
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Approximate adult percentages of total haemoglobin. Method, age, treatment and co-inherited thalassaemia all shift them. Use the range printed on your laboratory&rsquo;s report.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Genotype</th>
+              <th class="py-2 pr-3">HbA</th>
+              <th class="py-2 pr-3">HbS</th>
+              <th class="py-2 pr-3">HbC</th>
+              <th class="py-2 pr-3">HbA2</th>
+              <th class="py-2 pr-3">HbF</th>
+              <th class="py-2 pr-3">Hb and MCV</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">AA</td><td class="py-2 pr-3">95&ndash;98%</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">2&ndash;3.5%</td><td class="py-2 pr-3">&lt;2%</td><td class="py-2 pr-3">Normal</td></tr>
+            <tr><td class="py-2 pr-3">AS (trait)</td><td class="py-2 pr-3">About 55&ndash;65%</td><td class="py-2 pr-3">Usually 35&ndash;45%; about 25&ndash;35% with alpha-thalassaemia</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">2&ndash;3.5%</td><td class="py-2 pr-3">&lt;2%</td><td class="py-2 pr-3">Normal Hb; MCV normal or slightly low</td></tr>
+            <tr><td class="py-2 pr-3">SS (sickle cell anaemia)</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">80&ndash;95%</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">2&ndash;3.5%, can be higher with alpha-thalassaemia</td><td class="py-2 pr-3">Often under 10%; higher on hydroxyurea</td><td class="py-2 pr-3">Hb usually 6&ndash;9 g/dL; MCV normal</td></tr>
+            <tr><td class="py-2 pr-3">SC</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">About 40&ndash;50%</td><td class="py-2 pr-3">About 40&ndash;50%</td><td class="py-2 pr-3">Not separable from C on alkaline gel</td><td class="py-2 pr-3">0&ndash;7%</td><td class="py-2 pr-3">Hb about 10&ndash;13 g/dL; target cells</td></tr>
+            <tr><td class="py-2 pr-3">S-&beta;0 thalassaemia</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">80&ndash;95%</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">Raised (above 3.5%)</td><td class="py-2 pr-3">5&ndash;20%</td><td class="py-2 pr-3">Hb 5&ndash;10 g/dL; MCV low</td></tr>
+            <tr><td class="py-2 pr-3">S-&beta;+ thalassaemia</td><td class="py-2 pr-3">5&ndash;30%</td><td class="py-2 pr-3">55&ndash;75% (HbS above HbA)</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">5&ndash;20%</td><td class="py-2 pr-3">MCV low; milder anaemia</td></tr>
+            <tr><td class="py-2 pr-3">AC (HbC trait)</td><td class="py-2 pr-3">About 60&ndash;70%</td><td class="py-2 pr-3">0</td><td class="py-2 pr-3">About 30&ndash;40%</td><td class="py-2 pr-3">Co-migrates with C</td><td class="py-2 pr-3">&lt;2%</td><td class="py-2 pr-3">Normal; target cells</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm"><strong>A useful check:</strong> HbA, HbS and HbC all present in one sample means a recent transfusion or a mixed-up specimen. It is not a real genotype.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-each-genotype" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Reading Each Genotype
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">AA</strong>
+        <p class="text-sm">HbA only, with normal HbA2 and HbF. The person carries neither S nor C. The test does not exclude alpha-thalassaemia or iron deficiency, so it says nothing about anaemia.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">AS: the carrier</strong>
+        <p class="text-sm">Two bands, with HbA larger than HbS. Haemoglobin and red cell indices are normal, and the film is usually normal. A person with AS does not have sickle cell disease and will not develop it. Life expectancy is similar to the general population, and AS gives some protection against severe malaria. AS does not cause the ordinary painful vaso-occlusive crisis. Pain, jaundice or anaemia in a person reported as AS needs another explanation (see section 9).</p>
+        <p class="text-sm mt-2">AS is not entirely silent. Established associations are exertional rhabdomyolysis and heat illness, splenic infarction at altitude or under hypoxia, haematuria from renal papillary necrosis, reduced urine concentrating ability, and pulmonary embolism and venous thromboembolism. Chronic kidney disease and proteinuria are also linked to AS. Renal medullary carcinoma is rare and occurs almost only in AS. These are precautions, not reasons to exclude anyone from school, sport or work. Advise adequate fluids, gradual build-up of training in hot weather, and early attention to severe muscle pain or dark urine. Make sure surgical and anaesthetic teams know the result so that hypoxia and dehydration are avoided.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">SS: sickle cell anaemia</strong>
+        <p class="text-sm">HbS makes up 80&ndash;95% with no HbA. Baseline haemoglobin is usually 6&ndash;9 g/dL, with raised reticulocytes, a neutrophilic leucocytosis, thrombocytosis, raised LDH and unconjugated bilirubin. The film shows sickled cells and target cells, often with Howell-Jolly bodies from hyposplenism. HbF modifies severity: more HbF means less sickling. Hydroxyurea raises HbF. This is the most severe common genotype and the one behind most crises, strokes, acute chest syndrome and early deaths in Nigerian children. Write the patient&rsquo;s own steady-state Hb, reticulocyte count and WBC on the clinic card. Every crisis is read against it.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">SC: milder anaemia, real disease</strong>
+        <p class="text-sm">HbS and HbC in roughly equal amounts and no HbA. Baseline Hb is higher (about 10&ndash;13 g/dL), the MCV is normal and target cells are prominent. HbSC is not benign. Painful crises and acute chest syndrome are somewhat less frequent than in SS, but proliferative retinopathy, avascular necrosis, persistent splenomegaly with later sequestration or infarction, haematuria and complications in pregnancy are common. A large registry of adults found acute chest syndrome, avascular necrosis and pulmonary embolism frequent in HbSC. Hydroxyurea is not routinely recommended for HbSC. A specialist may consider it for recurrent pain or acute chest syndrome.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other patterns you will meet</strong>
+        <ul class="list-disc pl-5 space-y-1 text-sm">
+          <li><strong>S-&beta;0 thalassaemia</strong> looks like SS but with a low MCV and a raised HbA2. It behaves like SS. HbA2 up to about 5% also occurs in SS with alpha-thalassaemia, so a modest rise does not prove S-&beta;0. Use the MCV, parental results or DNA.</li>
+          <li><strong>S-&beta;+ thalassaemia</strong> shows some HbA with HbS above HbA and a low MCV. It is usually milder than SS.</li>
+          <li><strong>AC</strong> is a carrier state with target cells. It matters mainly for counselling, because AC with AS can produce a child with SC.</li>
+          <li><strong>Newborn patterns.</strong> FS suggests SS, S-&beta;0 or HbS with raised HbF. FAS suggests AS. FA is normal. HbF is still high, so confirm by 6 months.</li>
+        </ul>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-and-sample-handling-errors" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Pitfalls and Sample Handling Errors
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Pitfall</th>
+              <th class="py-2 pr-3">Effect</th>
+              <th class="py-2 pr-3">Fix</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Recent blood transfusion</td><td class="py-2 pr-3">Donor HbA masks the patient&rsquo;s pattern. SS can read as AS or AA. The sickling test can also turn negative.</td><td class="py-2 pr-3">Record transfusion history on the request form. Test a pre-transfusion sample if one was kept. Otherwise wait until donor cells clear (red cells live up to 120 days), or use parental results or DNA.</td></tr>
+            <tr><td class="py-2 pr-3">Age under 6 months</td><td class="py-2 pr-3">High HbF; adult pattern not yet established. Solubility testing is unreliable in newborns.</td><td class="py-2 pr-3">Use newborn screening for early diagnosis, then confirm after 6 months.</td></tr>
+            <tr><td class="py-2 pr-3">Hydroxyurea or high HbF</td><td class="py-2 pr-3">HbF rises and HbS percentage falls.</td><td class="py-2 pr-3">State treatment on the request. Do not downgrade SS to a milder genotype on a treated result.</td></tr>
+            <tr><td class="py-2 pr-3">Co-inherited alpha-thalassaemia</td><td class="py-2 pr-3">Lowers HbS in AS. Can raise HbA2 in SS.</td><td class="py-2 pr-3">Read percentages with the MCV. Do not call S-&beta;0 on a small HbA2 rise alone.</td></tr>
+            <tr><td class="py-2 pr-3">Iron deficiency</td><td class="py-2 pr-3">Lowers HbA2 and can hide &beta;-thalassaemia trait.</td><td class="py-2 pr-3">Check iron status before reading HbA2.</td></tr>
+            <tr><td class="py-2 pr-3">Co-migrating variants (D, G, E, O-Arab, Lepore)</td><td class="py-2 pr-3">A band in the S or C position may be something else.</td><td class="py-2 pr-3">Confirm with acid citrate agar, HPLC or DNA before reporting S or C.</td></tr>
+            <tr><td class="py-2 pr-3">Mislabelled or mixed samples</td><td class="py-2 pr-3">A result that belongs to someone else, or an impossible pattern (A, S and C together).</td><td class="py-2 pr-3">Check identifiers against the request. Recollect and repeat any result that does not fit the patient.</td></tr>
+            <tr><td class="py-2 pr-3">Old, haemolysed or poorly stored sample</td><td class="py-2 pr-3">Extra or smeared bands and unreliable percentages.</td><td class="py-2 pr-3">Use a fresh EDTA sample and follow the laboratory&rsquo;s stability limits.</td></tr>
+            <tr><td class="py-2 pr-3">Reporting a sickling test as a genotype</td><td class="py-2 pr-3">AS and SS are not distinguished.</td><td class="py-2 pr-3">Report &ldquo;HbS present&rdquo; and send for electrophoresis or HPLC.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="crisis-implications-by-genotype" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Crisis Implications by Genotype
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Genotype</th>
+              <th class="py-2 pr-3">Acute events</th>
+              <th class="py-2 pr-3">Chronic and organ problems</th>
+              <th class="py-2 pr-3">Take-home</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">AS</td><td class="py-2 pr-3">No ordinary vaso-occlusive crisis. Rare: exertional rhabdomyolysis, heat illness, splenic infarction at altitude or hypoxia, haematuria, venous thromboembolism.</td><td class="py-2 pr-3">Reduced urine concentration, proteinuria and CKD risk, rare renal medullary carcinoma.</td><td class="py-2 pr-3">Not a crisis genotype. Look for another cause of pain or anaemia.</td></tr>
+            <tr><td class="py-2 pr-3">SS</td><td class="py-2 pr-3">Vaso-occlusive pain, acute chest syndrome, splenic sequestration (young children), aplastic crisis, stroke, sepsis from functional asplenia, dactylitis, priapism.</td><td class="py-2 pr-3">Proteinuria and CKD, retinopathy, avascular necrosis, leg ulcers, pulmonary hypertension, gallstones, silent cerebral infarcts.</td><td class="py-2 pr-3">Highest risk. Fever and chest symptoms are emergencies. Needs prophylaxis and structured follow-up.</td></tr>
+            <tr><td class="py-2 pr-3">SC</td><td class="py-2 pr-3">Pain and acute chest syndrome (somewhat less often than SS), splenic sequestration or infarction that can persist into adulthood, complications in pregnancy.</td><td class="py-2 pr-3">Proliferative retinopathy, avascular necrosis, haematuria, persistent splenomegaly.</td><td class="py-2 pr-3">&ldquo;Milder&rdquo; refers to the anaemia, not the risk. Eye and bone surveillance matter.</td></tr>
+            <tr><td class="py-2 pr-3">S-&beta;0 thalassaemia</td><td class="py-2 pr-3">As for SS.</td><td class="py-2 pr-3">As for SS.</td><td class="py-2 pr-3">Manage as SS.</td></tr>
+            <tr><td class="py-2 pr-3">S-&beta;+ thalassaemia</td><td class="py-2 pr-3">Fewer events than SS, but the same list applies.</td><td class="py-2 pr-3">Variable.</td><td class="py-2 pr-3">Severity follows the amount of HbA.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-a-crisis-against-the-baseline" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      Reading a Crisis Against the Baseline
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">The genotype tells you what to expect. The patient&rsquo;s own baseline tells you what has changed. Compare the Hb and reticulocyte count in the crisis with the steady-state values, not with a textbook range.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Event</th>
+              <th class="py-2 pr-3">Hb against baseline</th>
+              <th class="py-2 pr-3">Reticulocytes</th>
+              <th class="py-2 pr-3">Other clues</th>
+              <th class="py-2 pr-3">First actions</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Vaso-occlusive pain</td><td class="py-2 pr-3">At or slightly below baseline</td><td class="py-2 pr-3">Normal or raised</td><td class="py-2 pr-3">Diagnosis is clinical. No test confirms pain. WBC often up.</td><td class="py-2 pr-3">Analgesia without delay. Look for a trigger (malaria, infection, dehydration).</td></tr>
+            <tr><td class="py-2 pr-3">Acute chest syndrome</td><td class="py-2 pr-3">May fall</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">New infiltrate on chest X-ray with fever or respiratory symptoms; low SpO<sub>2</sub>.</td><td class="py-2 pr-3">Oxygen, antibiotics, analgesia, incentive spirometry, avoid fluid overload. Transfuse for severe or progressive disease.</td></tr>
+            <tr><td class="py-2 pr-3">Splenic sequestration</td><td class="py-2 pr-3">&ge;2 g/dL below baseline</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Enlarging, tender spleen; platelets often fall; shock in infants.</td><td class="py-2 pr-3">Emergency. Resuscitate and transfuse in small aliquots (about 5&ndash;10 mL/kg) because the spleen releases blood back when it recovers.</td></tr>
+            <tr><td class="py-2 pr-3">Aplastic crisis</td><td class="py-2 pr-3">Sharp fall, often to 3&ndash;6 g/dL</td><td class="py-2 pr-3">Very low (below about 1&ndash;2%)</td><td class="py-2 pr-3">Parvovirus B19 is the usual cause. No splenomegaly.</td><td class="py-2 pr-3">Transfuse if symptomatic. Expect recovery with a reticulocyte surge.</td></tr>
+            <tr><td class="py-2 pr-3">Sepsis or severe infection</td><td class="py-2 pr-3">Often falls</td><td class="py-2 pr-3">Variable</td><td class="py-2 pr-3">Fever &ge;38.5 &deg;C. Functional asplenia means pneumococcal and Gram-negative sepsis can progress fast.</td><td class="py-2 pr-3">CBC, reticulocytes, blood culture and malaria test, then parenteral antibiotics without waiting.</td></tr>
+            <tr><td class="py-2 pr-3">Post-transfusion hyperhaemolysis</td><td class="py-2 pr-3">Falls after transfusion, sometimes below the pre-transfusion level</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">New pain and dark urine days after a transfusion.</td><td class="py-2 pr-3">Further transfusion can worsen it. Get specialist advice.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">When transfusing, avoid pushing Hb above about 10 g/dL with simple transfusion. Higher viscosity can provoke vaso-occlusion and stroke.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-genotype-changes-in-care" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      What the Genotype Changes in Care
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Measure</th>
+              <th class="py-2 pr-3">SS and S-&beta;0</th>
+              <th class="py-2 pr-3">SC</th>
+              <th class="py-2 pr-3">AS</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">Penicillin V and malaria prophylaxis in young children</td><td class="py-2 pr-3">Recommended in the Nigerian national guideline (penicillin V, proguanil)</td><td class="py-2 pr-3">Follow local protocol</td><td class="py-2 pr-3">No</td></tr>
+            <tr><td class="py-2 pr-3">Folic acid</td><td class="py-2 pr-3">Routine in Nigerian sickle cell clinics</td><td class="py-2 pr-3">Per clinic practice</td><td class="py-2 pr-3">No</td></tr>
+            <tr><td class="py-2 pr-3">Hydroxyurea</td><td class="py-2 pr-3">NHLBI: offer from 9 months, whatever the severity</td><td class="py-2 pr-3">Specialist decision for recurrent pain or acute chest syndrome</td><td class="py-2 pr-3">No</td></tr>
+            <tr><td class="py-2 pr-3">Transcranial Doppler</td><td class="py-2 pr-3">NHLBI: yearly from 2 to 16 years where available</td><td class="py-2 pr-3">Not routine</td><td class="py-2 pr-3">No</td></tr>
+            <tr><td class="py-2 pr-3">Dilated eye examination</td><td class="py-2 pr-3">Yearly from 10 years (NHLBI)</td><td class="py-2 pr-3">Yearly from 10 years; retinopathy is the leading concern</td><td class="py-2 pr-3">Not routine</td></tr>
+            <tr><td class="py-2 pr-3">Urine protein screening</td><td class="py-2 pr-3">Yearly from 10 years (NHLBI)</td><td class="py-2 pr-3">Yearly from 10 years</td><td class="py-2 pr-3">Consider with renal symptoms or family history of kidney disease</td></tr>
+            <tr><td class="py-2 pr-3">Fever &ge;38.5 &deg;C</td><td class="py-2 pr-3">Emergency</td><td class="py-2 pr-3">Treat with equal urgency if unwell</td><td class="py-2 pr-3">Ordinary assessment</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pain in the emergency room</strong>
+        <p class="text-sm">Painful crisis is a medical emergency. NHLBI advises the first analgesic dose within 30 minutes of triage or 60 minutes of registration, and ASH advises assessment and analgesia within 1 hour of arrival, with reassessment every 30 to 60 minutes. Avoid pethidine (meperidine) unless it is the only effective opioid for that patient. Encourage incentive spirometry, avoid giving fluids above maintenance in a euvolaemic patient, and do not transfuse for uncomplicated pain. ASH suggests a short course of an NSAID alongside opioids where there is no contraindication. In Nigeria the obstacles are usually access and cost, not knowledge. Where parenteral opioids are scarce, use what is available and treat the pain early.</p>
+      </div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+      <strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+      <p class="text-sm text-amber-900 dark:text-amber-300">The Nigerian national guideline names proguanil for malaria chemoprophylaxis in sickle cell anaemia. A Cochrane review concluded that routine chemoprophylaxis is beneficial in endemic areas, but later Nigerian reviews question how well proguanil performs and point to intermittent preventive treatment as an alternative. Follow the current national and facility policy, confirm malaria parasitologically in any febrile patient, and do not stop prophylaxis on your own judgement. NHLBI and ASH guidance comes from high-income settings. Apply it with local drug and blood availability in mind.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Clinical Scenarios in Nigerian Practice
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with SS, fever of 39 &deg;C and no obvious source</strong>
+        <p class="text-sm">Treat as a medical emergency. Do the malaria RDT or film, FBC with reticulocytes and a blood culture where possible, then give parenteral antibiotics without waiting for results. Check for acute chest syndrome and look for a swollen spleen. Do not attribute the fever to malaria alone. A positive malaria test does not exclude bacterial sepsis in an asplenic child.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult reported as AS with Hb 7 g/dL and recurrent bone pain</strong>
+        <p class="text-sm">AS does not explain this picture. Check whether the sample was taken after a transfusion, then repeat with HPLC or electrophoresis plus acid agar. Look for S-&beta; thalassaemia (low MCV, raised HbA2), HbS with a co-migrating variant, or another cause of anaemia. Check iron, malaria and chronic disease before calling it a crisis.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Transfused SS child whose new result reads AS or AA</strong>
+        <p class="text-sm">The donor cells have diluted the pattern. Do not change the diagnosis or stop prophylaxis. Retrieve the pre-transfusion result, repeat after the donor cells have cleared, or test the parents. Record the true genotype in the case file.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman with HbSC</strong>
+        <p class="text-sm">Refer for joint obstetric and haematology care. The anaemia is mild, but pain crises, acute chest syndrome and pre-eclampsia can appear at any point from the second trimester to the puerperium. Check the eyes if not done recently, screen for bacteriuria, and keep a low threshold for admission with pain or chest symptoms.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Infant with FS on newborn screening</strong>
+        <p class="text-sm">Treat as presumptive SS or S-&beta;0 and enrol in care at once: parental counselling, prophylaxis, immunisation and early follow-up. Confirm with HPLC or electrophoresis after 6 months, with a clear plan to reach the family again. Newborn screening in Nigeria is still limited, so many diagnoses arrive late, after a first serious illness.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young man with AS, severe muscle pain and dark urine after a drill or a football match in the heat</strong>
+        <p class="text-sm">Think exertional rhabdomyolysis. Check CK, creatinine and urine, rehydrate and monitor renal function. Explain that AS did not cause a sickle crisis, but exertion, heat and dehydration raised his risk. He does not need to give up sport. He needs gradual conditioning and fluids.</p>
+      </div>
+      <div>
+        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Couple at premarital counselling: one AS, one AS</strong>
+        <p class="text-sm">Explain the risk in plain terms: with each pregnancy, a one in four chance of a child with SS. Describe what life with SS involves, and what is available (early diagnosis, prophylaxis, hydroxyurea), then leave the decision to the couple. Do not label people as &ldquo;carriers to avoid&rdquo; or tell them what to do. Local stigma around genotype is real, and an AS result should never lead to shame or to being barred from school or work.</p>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="inheritance-and-counselling" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Inheritance and Counselling
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Risks apply to every pregnancy and do not change with earlier children.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-xs sans border-collapse">
+          <thead>
+            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+              <th class="py-2 pr-3">Parents</th>
+              <th class="py-2 pr-3">Children of each pregnancy</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+            <tr><td class="py-2 pr-3">AA &times; AS</td><td class="py-2 pr-3">50% AA, 50% AS. No child with disease.</td></tr>
+            <tr><td class="py-2 pr-3">AS &times; AS</td><td class="py-2 pr-3">25% AA, 50% AS, 25% SS</td></tr>
+            <tr><td class="py-2 pr-3">AS &times; AC</td><td class="py-2 pr-3">25% AA, 25% AS, 25% AC, 25% SC</td></tr>
+            <tr><td class="py-2 pr-3">AS &times; SC</td><td class="py-2 pr-3">25% AS, 25% AC, 25% SS, 25% SC</td></tr>
+            <tr><td class="py-2 pr-3">AS &times; SS</td><td class="py-2 pr-3">50% AS, 50% SS</td></tr>
+            <tr><td class="py-2 pr-3">AA &times; SS</td><td class="py-2 pr-3">100% AS</td></tr>
+            <tr><td class="py-2 pr-3">AC &times; AC</td><td class="py-2 pr-3">25% AA, 50% AC, 25% CC</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm">Counsel both partners together where possible. Test before pregnancy rather than at booking, because options narrow once a pregnancy is established. Prenatal diagnosis exists, but access and the choices open to a couple depend on local services, law and their own values, so describe them without steering. Offer the same service to couples whose results are AA, as relatives with SS are not always known. Note that &ldquo;compatible&rdquo; and &ldquo;incompatible&rdquo; are lay terms. Give actual risks.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Reading Order
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ol class="list-decimal pl-5 space-y-2 text-sm">
+        <li><strong>Check identity and history.</strong> Right patient, age, recent transfusion, hydroxyurea, and the method used.</li>
+        <li><strong>Name the bands.</strong> Which haemoglobins are present, in what order of size, and is HbA present?</li>
+        <li><strong>Test the pattern against the table in section 3.</strong> Does HbA exceed HbS (AS), are S and C equal (SC), is there no HbA with HbS above 80% (SS or S-&beta;0)?</li>
+        <li><strong>Use the MCV and HbA2.</strong> A low MCV or raised HbA2 points to a &beta;-thalassaemia component. Check iron before trusting HbA2.</li>
+        <li><strong>Confirm any band in the S or C position</strong> with a second method if the result drives counselling or treatment.</li>
+        <li><strong>Match to the patient.</strong> Does the genotype explain the Hb, the film and the symptoms? If not, suspect transfusion, a sample error or another diagnosis.</li>
+        <li><strong>In a crisis, compare with the patient&rsquo;s own baseline,</strong> not with a normal range.</li>
+      </ol>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Findings That Must Not Be Missed
+    </h2>
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Fever of 38.5 &deg;C or more in SS or S-&beta;0.</strong> Blood culture, malaria test and parenteral antibiotics at once. Functional asplenia makes sepsis fast and fatal.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Chest pain, cough, fever or hypoxia.</strong> Acute chest syndrome. Chest X-ray, oxygen, antibiotics and early senior review.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Enlarging spleen with Hb 2 g/dL or more below baseline.</strong> Splenic sequestration. Resuscitate and transfuse in small aliquots. It can kill within hours.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Falling Hb with a very low reticulocyte count.</strong> Aplastic crisis, usually parvovirus B19. Look for siblings with the same illness.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Sudden weakness, speech or vision change, seizure or severe headache.</strong> Stroke until proven otherwise. Urgent imaging and transfusion decisions with a specialist.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Priapism lasting more than 4 hours.</strong> Urgent review to prevent permanent damage.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A genotype that does not fit the patient.</strong> Severe anaemia in &ldquo;AS&rdquo; or a transfused patient reported as AA. Suspect transfusion, sample error or S-&beta; thalassaemia before accepting the label.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>AS with dark urine or severe muscle pain after exertion or heat.</strong> Exertional rhabdomyolysis. Check CK and creatinine and rehydrate.</span></li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+      Key Clinical Takeaways
+    </h2>
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Electrophoresis reports a phenotype. AS, SS and SC are inferred from it. Confirm any band in the S or C position with a second method when the result matters.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A positive sickling test means HbS is present. It does not separate AS from SS.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>AS is a carrier state, not a crisis genotype. Look for another cause of pain or anaemia, and counsel about exertion, heat and dehydration.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>SS (HbS 80&ndash;95%, no HbA, Hb 6&ndash;9 g/dL) is the severe genotype. HbSC has milder anaemia but carries retinopathy, bone, spleen and pregnancy risk.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Transfusion, a young age and hydroxyurea change the pattern. HbA, HbS and HbC together mean a transfusion or a sample mix-up.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Read every crisis against the patient&rsquo;s own baseline Hb and reticulocytes. A fall of 2 g/dL or more, with the reticulocyte count, separates sequestration from aplastic crisis.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fever of 38.5 &deg;C or more in SS is an emergency. Analgesia for painful crisis is also urgent, within 30 to 60 minutes. Avoid raising Hb above about 10 g/dL.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Counsel with actual risks (AS &times; AS gives a one in four chance of SS in each pregnancy), without stigma and without telling couples what to decide.</span></li>
+      </ul>
+    </div>
+    
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+        References
+        <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+      </summary>
+      <ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+        <li class="text-[10px] leading-snug text-stone-500">National Heart, Lung, and Blood Institute (NHLBI). Evidence-Based Management of Sickle Cell Disease: Expert Panel Report, 2014.</li>
+        <li class="text-[10px] leading-snug text-stone-500">American Society of Hematology (ASH). 2020 guidelines for sickle cell disease: management of acute and chronic pain.</li>
+        <li class="text-[10px] leading-snug text-stone-500">ASH. Position on sickle cell trait (2021).</li>
+        <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria. National guideline for the control and management of sickle cell disease.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Cochrane Collaboration. Malaria chemoprophylaxis in sickle cell disease.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Published Nigerian validation studies of point-of-care tests (HemoTypeSC, SickleSCAN) against HPLC, isoelectric focusing and PCR, in children and newborns.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Systematic review and meta-analysis of the prevalence of sickle cell disease and sickle cell trait in Nigerian children and adolescents.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Published Nigerian cohort studies on alpha-thalassaemia, HbF and HbA2 in sickle cell disease.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Published laboratory procedures for alkaline cellulose acetate and acid citrate agar haemoglobin electrophoresis, and HPLC and capillary reference intervals.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Registry and review literature on HbSC disease and on complications associated with sickle cell trait.</li>
+      </ul>
+    </details>
+    
+    </body>
+    </html>
+        `
+    },
+
+    {
+      id: 'lab-g6pd-status',
+      title: 'G6PD Status',
+      category: 'Laboratory Interpretation',
+      subCategory: 'Hematology',
+      content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+    .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+    .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+    .quote { border-left-width: 3px; }
+  </style>
+  </head>
+  <body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+  
+  <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+    <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+    <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+    <div class="relative p-6 sm:p-8">
+      <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; HEMATOLOGY</span>
+      <h1 class="font-brand text-3xl font-bold mb-3 text-white">G6PD Status Before Antimalarials and Antibiotics</h1>
+      <p class="text-sm text-indigo-200">G6PD deficiency is common in Nigeria, silent until an oxidant arrives, and easy to miss on a qualitative test. Most drugs used here do not need a G6PD result first, a few do, and the thresholds differ between them. This guide covers what the test measures, how to read the result in males and females, which antimalarials and antibiotics need testing, how to recognise acute haemolysis, and the pitfalls that make a deficient patient look normal.</p>
+    </div>
+  </div>
+  
+  
+  <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+    <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+      <li><a href="#what-the-test-measures-and-why-it-matters-here" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What the Test Measures and Why It Matters Here</span></a></li>
+      <li><a href="#methods-and-what-they-can-miss" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Methods and What They Can Miss</span></a></li>
+      <li><a href="#interpreting-the-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Interpreting the Result</span></a></li>
+      <li><a href="#antimalarials-which-ones-need-a-g6pd-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Antimalarials: Which Ones Need a G6PD Result</span></a></li>
+      <li><a href="#antibiotics-and-other-drugs" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Antibiotics and Other Drugs</span></a></li>
+      <li><a href="#recognising-acute-haemolysis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Recognising Acute Haemolysis</span></a></li>
+      <li><a href="#newborns-household-triggers-and-family-testing" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Newborns, Household Triggers and Family Testing</span></a></li>
+      <li><a href="#pitfalls-when-a-deficient-patient-looks-normal" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Pitfalls: When a Deficient Patient Looks Normal</span></a></li>
+      <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+      <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Reading Order</span></a></li>
+      <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Findings That Must Not Be Missed</span></a></li>
+      <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+  </nav>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-test-measures-and-why-it-matters-here" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+    What the Test Measures and Why It Matters Here
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">G6PD is the first enzyme of the pentose phosphate pathway and the red cell&rsquo;s only source of NADPH. NADPH keeps glutathione reduced, and reduced glutathione protects haemoglobin from oxidant damage. When an oxidant arrives (certain drugs, infection, fava beans, naphthalene), haemoglobin in a deficient cell denatures into Heinz bodies. The spleen removes these cells as bite and blister cells, and some cells lyse inside the vessels. The result is acute haemolysis. Older red cells have the least enzyme, so they go first.</p>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Inheritance</strong>
+      <p class="text-sm">The gene is on the X chromosome. A male has one copy, so he is either deficient or normal. A female with two normal copies is normal and one with two deficient copies is deficient. A female with one of each is a mosaic. Her red cells are a mix of normal and deficient populations, and her average enzyme activity can fall anywhere from deficient to normal. This is why females are the hardest group to classify and the group most often missed by qualitative tests.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Variants and the 2022 WHO classes</strong>
+      <p class="text-sm">The common African variant (G6PD A-) belongs to the moderate group, with episodic haemolysis triggered by infection or drugs. The anaemia is usually self-limited because the new red cells made afterwards carry more enzyme. The Mediterranean-type variants are more severe. In 2022 WHO replaced the old classes I to V with class A (chronic haemolysis), class B (median activity below 45%, with acute triggered haemolysis, merging the old classes II and III), class C (60&ndash;150%, no haemolysis) and class U (uncertain). The panel stressed that severe, even life-threatening haemolysis can occur with any class B variant.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Nigerian picture</strong>
+      <p class="text-sm">Reported prevalence runs from about 4% to 26%, depending on the population and the test. A multi-ethnic survey of Nigerian children using the fluorescent spot test found 15.3% overall, with 24.1% of boys and 6.6% of girls affected, and differences between ethnic groups (16.9% in Yoruba children against 5.0% in Tiv children). Among jaundiced neonates the figures are much higher, with a pooled Nigerian estimate near 50% in one meta-analysis and wide variation between studies. WHO recommends population screening where prevalence is 3&ndash;5% or more, which has yet to become routine in many parts of the country.</p>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="methods-and-what-they-can-miss" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+    Methods and What They Can Miss
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Method</th>
+            <th class="py-2 pr-3">What it reports</th>
+            <th class="py-2 pr-3">Limits</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">Fluorescent spot test (FST)</td><td class="py-2 pr-3">Qualitative: deficient or not deficient</td><td class="py-2 pr-3">Reliably detects activity below about 30%. Misses most heterozygous females with intermediate activity. Needs working UV light and normal and deficient controls.</td></tr>
+          <tr><td class="py-2 pr-3">Methaemoglobin reduction and dye decolourisation tests</td><td class="py-2 pr-3">Qualitative</td><td class="py-2 pr-3">Used in some laboratories. Same limits as the FST, with a more subjective end-point.</td></tr>
+          <tr><td class="py-2 pr-3">Quantitative spectrophotometry</td><td class="py-2 pr-3">Activity in U/g Hb, expressed as % of a normal median</td><td class="py-2 pr-3">The reference method. Separates deficient, intermediate and normal. Needs an analyser, a Hb measurement and reference values for the population and age group.</td></tr>
+          <tr><td class="py-2 pr-3">Near-patient quantitative or semi-quantitative devices</td><td class="py-2 pr-3">Activity against fixed cut-offs (30% and 70%)</td><td class="py-2 pr-3">WHO describes them as highly accurate at the 30% threshold. They are needed for tafenoquine and high-dose primaquine. Cost and supply are the barriers.</td></tr>
+          <tr><td class="py-2 pr-3">G6PD genotyping</td><td class="py-2 pr-3">The variant, not the activity</td><td class="py-2 pr-3">Helps in females and family studies. It does not give an activity level, and access is limited.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm">The practical rule: a qualitative test is enough to rule out severe deficiency in a male and to decide most standard-dose questions. It is not enough for a female, and it is not enough for tafenoquine or high-dose primaquine.</p>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="interpreting-the-result" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+    Interpreting the Result
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Activity (% of normal)</th>
+            <th class="py-2 pr-3">Category</th>
+            <th class="py-2 pr-3">Who it usually is</th>
+            <th class="py-2 pr-3">What it means for drugs</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">Below 30%</td><td class="py-2 pr-3">Deficient</td><td class="py-2 pr-3">Hemizygous males, homozygous females, some heterozygous females</td><td class="py-2 pr-3">High risk of haemolysis with oxidant drugs. Avoid the high-risk drugs.</td></tr>
+          <tr><td class="py-2 pr-3">30% to below 70%</td><td class="py-2 pr-3">Intermediate</td><td class="py-2 pr-3">Mostly heterozygous females</td><td class="py-2 pr-3">Lower but real risk. Clinically relevant haemolysis can still occur with primaquine and tafenoquine.</td></tr>
+          <tr><td class="py-2 pr-3">70% and above</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Normal males and most normal females</td><td class="py-2 pr-3">No restriction. This is the level required for tafenoquine and high-dose primaquine.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm">The percentages refer to the median of normal males for the method and population, so use the cut-offs in the assay or kit instructions. Quantitative results are normalised to haemoglobin, and some laboratories use age-specific reference values for infants.</p>
+    <p class="text-sm"><strong>Why quantitative testing matters in females.</strong> One analysis of enzyme data from over 5,000 people estimated that about 8&ndash;19% of heterozygous women fall below the 30% threshold, while 50&ndash;70% of heterozygous women and about 5% of G6PD-normal people fall below 70%. A qualitative test picks up few of these women, and a 70% cut-off will exclude a sizeable group who would have been treated if tested only qualitatively.</p>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="antimalarials-which-ones-need-a-g6pd-result" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+    Antimalarials: Which Ones Need a G6PD Result
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Drug or regimen</th>
+            <th class="py-2 pr-3">Test first?</th>
+            <th class="py-2 pr-3">Notes</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">Artemisinin combinations (artemether-lumefantrine, artesunate-amodiaquine, DHA-piperaquine), chloroquine, hydroxychloroquine</td><td class="py-2 pr-3">No</td><td class="py-2 pr-3">Used routinely without G6PD testing. CPIC classes chloroquine and hydroxychloroquine as low-to-no risk. Malaria itself causes haemolysis, which complicates attribution if Hb falls.</td></tr>
+          <tr><td class="py-2 pr-3">Quinine</td><td class="py-2 pr-3">No</td><td class="py-2 pr-3">Appears on older avoid lists. A systematic review found no good evidence to prohibit it at therapeutic doses.</td></tr>
+          <tr><td class="py-2 pr-3">Single low-dose primaquine (0.25 mg/kg) added to an ACT</td><td class="py-2 pr-3">No</td><td class="py-2 pr-3">WHO recommends it without G6PD testing, to block transmission in low-transmission and elimination settings and to counter artemisinin resistance. It is not part of routine ACT treatment in Nigeria.</td></tr>
+          <tr><td class="py-2 pr-3">Primaquine, 14 days (0.25&ndash;0.5 mg/kg/day) for relapse prevention in <em>P. vivax</em> and <em>P. ovale</em></td><td class="py-2 pr-3">Yes</td><td class="py-2 pr-3">WHO allows 0.5 mg/kg/day for 14 days when activity is above 30%, so a qualitative test is sufficient. Do not give it daily if activity is below 30%. WHO notes a weekly 8-week regimen as an option under supervision. If no test is available, use the 14-day regimen rather than the 7-day high-dose one, and counsel on the signs of haemolysis.</td></tr>
+          <tr><td class="py-2 pr-3">Primaquine, 7 days at 1 mg/kg/day</td><td class="py-2 pr-3">Yes, quantitative</td><td class="py-2 pr-3">Only for activity above 70%. A semi-quantitative or quantitative test is required. Do not use it on a qualitative result.</td></tr>
+          <tr><td class="py-2 pr-3">Tafenoquine (single dose)</td><td class="py-2 pr-3">Yes, quantitative</td><td class="py-2 pr-3">Only for activity above 70%. WHO says it should not be deployed where accurate quantitative or semi-quantitative testing is unavailable. A female with a normal qualitative result still needs a quantitative test.</td></tr>
+          <tr><td class="py-2 pr-3">Chlorproguanil-dapsone (with or without artesunate)</td><td class="py-2 pr-3">Not applicable</td><td class="py-2 pr-3">No longer used. It caused severe haemolysis in G6PD-deficient patients, and the dapsone was the cause.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm"><em>P. vivax</em> is uncommon in West Africa, so primaquine radical cure matters mainly for travellers returning from other regions, for <em>P. ovale</em> relapse, and for Nigerians who have lived or worked abroad. Most febrile patients in Nigeria will never need a G6PD result for their antimalarial. Do not delay an ACT for one.</p>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="antibiotics-and-other-drugs" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+    Antibiotics and Other Drugs
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Drug</th>
+            <th class="py-2 pr-3">Common use</th>
+            <th class="py-2 pr-3">Risk (CPIC 2022 unless stated)</th>
+            <th class="py-2 pr-3">What to do</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">Dapsone</td><td class="py-2 pr-3">Leprosy treatment, PJP prophylaxis when co-trimoxazole cannot be used, skin disease</td><td class="py-2 pr-3">High risk. Avoid.</td><td class="py-2 pr-3">Test before starting. If deficient, choose another agent. If dapsone is the only option, take specialist advice and monitor Hb closely.</td></tr>
+          <tr><td class="py-2 pr-3">Nitrofurantoin</td><td class="py-2 pr-3">Lower urinary tract infection, including in pregnancy</td><td class="py-2 pr-3">Medium risk. Use with caution.</td><td class="py-2 pr-3">Prefer an alternative guided by culture when deficiency is known. If used, give a short course and warn about dark urine.</td></tr>
+          <tr><td class="py-2 pr-3">Co-trimoxazole and other sulfonamides</td><td class="py-2 pr-3">HIV prophylaxis, urinary and chest infection</td><td class="py-2 pr-3">Older lists say avoid. An evidence review found no good evidence to prohibit at standard doses.</td><td class="py-2 pr-3">Not usually withheld. Counsel patients to report dark urine or jaundice, and stop the drug if haemolysis appears.</td></tr>
+          <tr><td class="py-2 pr-3">Ciprofloxacin and related quinolones</td><td class="py-2 pr-3">Typhoid, urinary and other infections</td><td class="py-2 pr-3">Ciprofloxacin: low-to-no risk.</td><td class="py-2 pr-3">No G6PD restriction at standard doses.</td></tr>
+          <tr><td class="py-2 pr-3">Chloramphenicol</td><td class="py-2 pr-3">Occasionally used for severe infection</td><td class="py-2 pr-3">Low-to-no risk.</td><td class="py-2 pr-3">No G6PD restriction. Other cautions, such as in neonates, still apply.</td></tr>
+          <tr><td class="py-2 pr-3">Methylene blue</td><td class="py-2 pr-3">Methaemoglobinaemia</td><td class="py-2 pr-3">High risk. Avoid.</td><td class="py-2 pr-3">Contraindicated in known deficiency. It can haemolyse and it depends on the pathway that is defective. If it is urgently needed and status is unknown, get a rapid test and senior or toxicology advice.</td></tr>
+          <tr><td class="py-2 pr-3">Rasburicase, pegloticase</td><td class="py-2 pr-3">Tumour lysis syndrome, gout</td><td class="py-2 pr-3">High risk. Avoid.</td><td class="py-2 pr-3">Test before use. Use another urate-lowering strategy with oncology advice if deficient.</td></tr>
+          <tr><td class="py-2 pr-3">Phenazopyridine</td><td class="py-2 pr-3">Symptom relief in urinary tract infection</td><td class="py-2 pr-3">Avoid (evidence review).</td><td class="py-2 pr-3">Do not use in known deficiency.</td></tr>
+          <tr><td class="py-2 pr-3">Toluidine blue</td><td class="py-2 pr-3">Rare</td><td class="py-2 pr-3">High risk. Avoid.</td><td class="py-2 pr-3">Do not use in known deficiency.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm">Outside medicines, the classic triggers are fava beans, naphthalene (mothballs), and menthol-containing products used on infants. Fava beans are uncommon in Nigerian diets, so do not extend a dietary ban to other legumes without a reason. Many herbal and traditional preparations have no ingredient list. Ask about them, and advise caution in a known deficient patient.</p>
+  </div>
+  
+  <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+    <strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+    <p class="text-sm text-amber-900 dark:text-amber-300">Drug lists differ between sources. Older pharmacy and country lists name many drugs as unsafe (ciprofloxacin, chloramphenicol, co-trimoxazole, quinine) that a systematic review and the CPIC 2022 guideline do not support restricting at standard doses. CPIC classes only dapsone, methylene blue, pegloticase, standard-dose primaquine, rasburicase, tafenoquine and toluidine blue as high risk, and nitrofurantoin and low-dose primaquine for <em>P. vivax</em> as medium risk. Use the current guideline, but treat the evidence as thinner for severe deficiency, high doses and acute infection. When a safe alternative of equal quality exists, take it. Do not withhold a needed antibiotic on the basis of an old list.</p>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="recognising-acute-haemolysis" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+    Recognising Acute Haemolysis
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Haemolysis and jaundice start 24 to 72 hours after the trigger, with dark urine from haemoglobinuria. Anaemia worsens for about a week and begins to recover around 10 days after the trigger stops. In the African A- type the episode is often self-limited because the new red cells carry more enzyme. Severe cases, especially in young children, can still need transfusion.</p>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to send</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>FBC and reticulocyte count. Hb falls, and reticulocytes rise after a few days.</li>
+        <li>Blood film for bite cells, blister cells and polychromasia. Request a supravital stain for Heinz bodies.</li>
+        <li>Bilirubin (unconjugated rise), LDH and haptoglobin where available.</li>
+        <li>Urine dipstick positive for blood with no red cells on microscopy points to haemoglobinuria.</li>
+        <li>Direct antiglobulin test to exclude an immune cause, and malaria test, because malaria and sepsis also cause haemolysis.</li>
+        <li>G6PD, interpreted with the caution in section 8.</li>
+      </ul>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to do</strong>
+      <p class="text-sm">Stop the suspected trigger. Keep the patient well hydrated and watch urine output and creatinine, because haemoglobinuria can injure the kidney. Monitor Hb. Transfuse for severe or symptomatic anaemia. Treat the underlying infection. In a patient with sickle cell disease, remember that haemolysis from G6PD deficiency adds to an already low baseline.</p>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="newborns-household-triggers-and-family-testing" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+    Newborns, Household Triggers and Family Testing
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neonatal jaundice</strong>
+      <p class="text-sm">G6PD deficiency is a major cause of early and severe neonatal jaundice in Nigeria. In one series of 100 jaundiced neonates in the north, 46% were deficient, jaundice appeared earlier in the deficient babies (about day 2 against day 2.7), and kernicterus and death were more frequent among them. Girls can be affected too. Test any neonate with early, rapidly rising or severe jaundice, and treat bilirubin by the usual thresholds. G6PD deficiency is a recognised risk factor for a fast rise and neurological injury, so monitor closely and act early.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Household triggers</strong>
+      <p class="text-sm">Ask about naphthalene mothballs in clothes and baby bedding, menthol-containing balms and powders on the infant, and traditional preparations given to the mother or baby. Surveys in African communities found a large share of households using naphthalene mothballs. Advise removal, and advise caution with menthol products on newborns.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Family testing and records</strong>
+      <p class="text-sm">A deficient male passes the gene to all his daughters and none of his sons. A carrier mother passes it to half of her sons, who are deficient, and half of her daughters, who are carriers. The mother of an affected boy is therefore a likely carrier even if her spot test is normal. Give the family the result in writing, record it prominently in the patient&rsquo;s file, and tell the pharmacist. A wallet card listing the agents to avoid helps, particularly where the patient moves between clinics and chemists.</p>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-when-a-deficient-patient-looks-normal" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+    Pitfalls: When a Deficient Patient Looks Normal
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Pitfall</th>
+            <th class="py-2 pr-3">Effect</th>
+            <th class="py-2 pr-3">Fix</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">Sample taken during or just after haemolysis</td><td class="py-2 pr-3">Young red cells and reticulocytes carry more enzyme, and the most deficient cells have already gone. The result can be falsely normal for weeks. This matters most in Black patients of both sexes.</td><td class="py-2 pr-3">If deficiency is suspected and the result is normal, repeat at least 2&ndash;3 months after the episode, once the red cell mass has recovered.</td></tr>
+          <tr><td class="py-2 pr-3">Transfusion in the last 3 months</td><td class="py-2 pr-3">Donor red cells mask deficiency.</td><td class="py-2 pr-3">Retest after 3 months, or test a pre-transfusion sample if one was kept. In an exchange-transfused neonate this applies too.</td></tr>
+          <tr><td class="py-2 pr-3">Sickle cell disease or other chronic haemolysis</td><td class="py-2 pr-3">High reticulocytes and frequent transfusion can hide deficiency. Both conditions are common here, and a patient can have both.</td><td class="py-2 pr-3">Interpret with caution, and repeat when the patient has been steady and untransfused for at least 3 months.</td></tr>
+          <tr><td class="py-2 pr-3">Qualitative test in a female</td><td class="py-2 pr-3">Misses heterozygotes with intermediate activity.</td><td class="py-2 pr-3">Use a quantitative or semi-quantitative test when the drug requires it.</td></tr>
+          <tr><td class="py-2 pr-3">Wrong cut-off for the drug</td><td class="py-2 pr-3">A result adequate for a 14-day primaquine course is not adequate for tafenoquine.</td><td class="py-2 pr-3">Match the threshold to the drug (30% or 70%).</td></tr>
+          <tr><td class="py-2 pr-3">Poor sample handling</td><td class="py-2 pr-3">The enzyme is labile. Heat, delay, haemolysed or clotted samples and expired reagents give false results.</td><td class="py-2 pr-3">Keep samples cool, follow the kit&rsquo;s stability limits and run controls with every batch.</td></tr>
+          <tr><td class="py-2 pr-3">Age-specific values</td><td class="py-2 pr-3">Infant reference values differ from adult values.</td><td class="py-2 pr-3">Use the laboratory&rsquo;s age-specific limits.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+    Clinical Scenarios in Nigerian Practice
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with uncomplicated falciparum malaria, artemether-lumefantrine prescribed</strong>
+      <p class="text-sm">No G6PD test is needed and the ACT should not be delayed. If the child becomes pale with dark urine two or three days later, look at what else was taken: a sulfonamide, a herbal preparation, menthol or mothball exposure at home, and the malaria itself. Check Hb and send a film for bite cells and Heinz bodies.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man returning from work overseas with <em>P. ovale</em> or <em>P. vivax</em>, primaquine planned</strong>
+      <p class="text-sm">Test first. A qualitative result showing activity above 30% allows the 14-day regimen. If the result shows deficiency, do not give daily primaquine. Seek advice on whether a supervised weekly regimen is appropriate. Tafenoquine and the 7-day high-dose regimen need a quantitative result of 70% or more.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman, mother of a G6PD-deficient boy, needing primaquine or tafenoquine</strong>
+      <p class="text-sm">Her own qualitative result may read normal. She is a probable carrier, so request a quantitative test. If none is available, use the 14-day primaquine regimen rather than a higher-dose or single-dose regimen, avoid tafenoquine, and counsel her about dark urine, pallor and breathlessness.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Person living with HIV, intolerant of co-trimoxazole, dapsone considered for PJP prophylaxis</strong>
+      <p class="text-sm">Test G6PD before starting. If the result is deficient, ask the specialist team for another agent. If dapsone is used, check Hb early and teach the patient to report dark urine or yellow eyes.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Jaundice on day 2 in a term baby</strong>
+      <p class="text-sm">Send bilirubin, blood group and Coombs test, FBC and a G6PD test. Ask about mothballs, menthol balms and traditional preparations. Start phototherapy by threshold, and watch for a rapid rise.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman with a urinary tract infection and a known G6PD-deficient son</strong>
+      <p class="text-sm">Choose an agent from the culture result. Nitrofurantoin is a medium-risk drug and she may be a carrier, so use an alternative if one fits. Avoid phenazopyridine. Counsel her about household triggers for the new baby.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adolescent with Burkitt lymphoma and a high tumour burden</strong>
+      <p class="text-sm">Rasburicase is contraindicated in G6PD deficiency. Send the G6PD test before chemotherapy starts, because it can be falsely normal later if he is transfused. If he is deficient, plan another urate-lowering strategy with the oncology team.</p>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+    Reading Order
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ol class="list-decimal pl-5 space-y-2 text-sm">
+      <li><strong>Decide whether the drug needs a result at all.</strong> ACTs, chloroquine and most antibiotics do not. Primaquine (beyond the single low dose), tafenoquine, dapsone, rasburicase and methylene blue do.</li>
+      <li><strong>Check the sample history.</strong> Recent haemolysis, transfusion in the last 3 months, sickle cell disease, and the age of the sample.</li>
+      <li><strong>Check the method.</strong> Qualitative, quantitative or near-patient device, and what threshold it reports.</li>
+      <li><strong>Check the sex.</strong> A normal qualitative result in a female does not exclude intermediate activity.</li>
+      <li><strong>Match the threshold to the drug.</strong> 30% for the 14-day primaquine regimen, 70% for tafenoquine and high-dose primaquine.</li>
+      <li><strong>If the result is normal but the story is of haemolysis,</strong> repeat after 2&ndash;3 months.</li>
+      <li><strong>Record and communicate the result.</strong> In the file, to the family and to the pharmacist.</li>
+    </ol>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+    Findings That Must Not Be Missed
+  </h2>
+  <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+    <ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Dark urine, jaundice or pallor 1 to 3 days after a new drug or exposure.</strong> Stop the trigger and check Hb the same day. Think primaquine, dapsone, nitrofurantoin, methylene blue, rasburicase, mothballs and menthol.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Jaundice in the first 2 to 3 days of life.</strong> Measure bilirubin and test G6PD. Kernicterus is the cost of delay.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A normal qualitative test in a female before tafenoquine or high-dose primaquine.</strong> It is not enough. A quantitative result of 70% or more is required.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A normal G6PD during or just after haemolysis, or within 3 months of a transfusion.</strong> It does not exclude deficiency. Repeat later.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Haemoglobinuria with a falling urine output.</strong> Risk of acute kidney injury. Hydrate, monitor creatinine and review early.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Rasburicase or methylene blue in a patient with unknown G6PD status.</strong> Both are contraindicated in deficiency. Get a rapid test and senior advice before giving them.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A patient with sickle cell disease who becomes more anaemic after a new drug.</strong> Two causes of haemolysis can coexist. Check the film and G6PD, and do not assume a sickle crisis.</span></li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+    Key Clinical Takeaways
+  </h2>
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+    <ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>G6PD deficiency is X-linked and common in Nigeria. Males are deficient or normal. Females can be anywhere in between.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not delay an ACT, chloroquine or most antibiotics for a G6PD result. Test before primaquine beyond the single low dose, tafenoquine, dapsone, rasburicase and methylene blue.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Thresholds follow the drug: above 30% for 14-day primaquine, 70% or more for tafenoquine and 7-day high-dose primaquine, which need a quantitative or semi-quantitative test.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A qualitative test detects deficiency below about 30% and misses most heterozygous females.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A result taken during haemolysis, after transfusion, or in sickle cell disease can be falsely normal. Repeat after 2&ndash;3 months.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Many drugs on older avoid lists lack evidence of harm at standard doses. Follow CPIC 2022 and WHO, and prefer an equal alternative where one exists.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Test neonates with early or severe jaundice, ask about mothballs and menthol, and record and share the result with the family and pharmacist.</span></li>
+    </ul>
+  </div>
+  
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+      References
+      <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+    </summary>
+    <ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+      <li class="text-[10px] leading-snug text-stone-500">World Health Organization. WHO guidelines for malaria (2024 and 2025 updates): primaquine and tafenoquine, G6PD testing thresholds.</li>
+      <li class="text-[10px] leading-snug text-stone-500">WHO Malaria Policy Advisory Group. Revised classification of G6PD variants (2022): classes A, B, C and U.</li>
+      <li class="text-[10px] leading-snug text-stone-500">WHO. Recommendation on single low-dose primaquine with artemisinin-based combination therapy without prior G6PD testing.</li>
+      <li class="text-[10px] leading-snug text-stone-500">Clinical Pharmacogenetics Implementation Consortium (CPIC). Expanded guideline for medication use in the context of G6PD genotype (2022).</li>
+      <li class="text-[10px] leading-snug text-stone-500">Published evidence-based review of medications and G6PD deficiency (systematic review of the literature on drug-induced haemolysis).</li>
+      <li class="text-[10px] leading-snug text-stone-500">Published laboratory procedures for the G6PD fluorescent spot test and quantitative assays, including limits after haemolysis and transfusion.</li>
+      <li class="text-[10px] leading-snug text-stone-500">Published Nigerian prevalence surveys of G6PD deficiency in children and in jaundiced neonates, and the African neonatal meta-analysis.</li>
+      <li class="text-[10px] leading-snug text-stone-500">Published analyses of G6PD activity in heterozygous females and eligibility for primaquine and tafenoquine.</li>
+      <li class="text-[10px] leading-snug text-stone-500">Published surveys of naphthalene mothball and menthol product use and neonatal jaundice in African communities.</li>
+    </ul>
+  </details>
+  
+  </body>
+  </html>
+      `
+  },
+
+  {
+    id: 'lab-reticulocyte-count',
+    title: 'Reticulocyte Count',
+    category: 'Laboratory Interpretation',
+    subCategory: 'Hematology',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+  .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+  .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+  .quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; HEMATOLOGY</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Reticulocyte Count</h1>
+    <p class="text-sm text-indigo-200">The reticulocyte count is rarely on the request form in Nigerian laboratories, but it is the single best way to think about anaemia. It asks one question: is the marrow responding? That question splits every anaemia into two groups, those where the marrow is making red cells and the body is losing them, and those where the marrow is not making enough. This guide teaches the concept, the arithmetic of correction, the reference values, the pairing with MCV, the counting pitfalls, and what to use at the bedside when there is no count.</p>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  What a Reticulocyte Is and What the Count Tells You
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">A reticulocyte is a young red cell that has lost its nucleus but still carries remnants of ribosomal RNA. A supravital dye such as new methylene blue precipitates that RNA into a blue network, and that network is what you count. A reticulocyte matures into a normal red cell in about a day in the circulation.</p>
+  <p class="text-sm">So the count is a snapshot of recent marrow output. It reflects how many new red cells have entered the blood in roughly the past day, which makes it the cheapest functional test of the marrow. Haemoglobin and MCV describe the cells that are already there. The reticulocyte count describes the cells that have just arrived.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The central idea</strong>
+    <p class="text-sm">When a patient is anaemic, a healthy marrow responds to erythropoietin by raising output several-fold. The reticulocyte count therefore separates two questions that look the same on a Hb result:</p>
+    <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+      <li><strong>Reticulocytes raised for the degree of anaemia:</strong> the marrow is working and red cells are being lost or destroyed faster than they are made. Think haemolysis, bleeding, sequestration, or recovery after treatment.</li>
+      <li><strong>Reticulocytes low or inappropriately normal:</strong> the marrow is not keeping up. Think deficiency of iron, B12 or folate, marrow suppression or infiltration, kidney disease, chronic inflammation, or an acute infection such as malaria or parvovirus.</li>
+    </ul>
+  </div>
+  <p class="text-sm">A caution that anchors the rest of this guide: a &ldquo;normal&rdquo; or mildly raised reticulocyte percentage in an anaemic patient can still be an inadequate response. The raw percentage must be corrected for the degree of anaemia before it means anything.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  How It Is Counted, and Why It Is Rarely Available
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Method</th>
+          <th class="py-2 pr-3">How it works</th>
+          <th class="py-2 pr-3">Strengths and limits</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Manual supravital count (new methylene blue or brilliant cresyl blue)</td><td class="py-2 pr-3">Mix equal volumes of well-mixed EDTA blood and stain. Incubate about 10&ndash;15 minutes. Make a thin smear, air-dry it, and count reticulocytes among 1000 red cells under the oil objective, optionally with a Miller disc.</td><td class="py-2 pr-3">Needs only a microscope, stain and a patient technologist. Slow and operator-dependent. At 1000 cells a count of 10% has a 95% range of roughly 8&ndash;12%, so small differences are not meaningful.</td></tr>
+        <tr><td class="py-2 pr-3">Automated flow cytometry with RNA-binding fluorescent dyes</td><td class="py-2 pr-3">Counts thousands of cells and reports percentage, absolute count, immature reticulocyte fraction (IRF) and, on some analysers, reticulocyte haemoglobin content (Ret-He).</td><td class="py-2 pr-3">Precise and fast, and the extra indices are useful. Needs an analyser, reagents and quality control, which is why it is mostly found in larger centres.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm">The test is simple, but it demands a fresh EDTA sample (mix it with stain within 24 hours, ideally much sooner), a careful technologist and a request that is clear about why it is wanted. In practice it is rarely sent, partly because it is unavailable and partly because clinicians have not learned to use the answer. That is the gap this guide addresses.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Reference Values
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Group</th>
+          <th class="py-2 pr-3">Reticulocytes (% of red cells)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Newborn</td><td class="py-2 pr-3">About 3&ndash;6%, falling quickly in the first weeks</td></tr>
+        <tr><td class="py-2 pr-3">Infant</td><td class="py-2 pr-3">About 0.4&ndash;2.8%</td></tr>
+        <tr><td class="py-2 pr-3">Child</td><td class="py-2 pr-3">About 0.8&ndash;2.1%</td></tr>
+        <tr><td class="py-2 pr-3">Adult</td><td class="py-2 pr-3">About 0.5&ndash;2.5%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm"><strong>Absolute count.</strong> Absolute reticulocytes = reticulocyte % &times; red cell count. Adult ranges are roughly 30&ndash;110 &times; 10<sup>9</sup>/L on many analysers, and some laboratories quote higher upper limits. The absolute count is more informative than the percentage in an anaemic patient, because the percentage is a fraction of a shrunken red cell pool.</p>
+  <p class="text-sm"><strong>Other indices.</strong> Ret-He is typically about 30&ndash;35 pg in adults. Low values point to iron-restricted erythropoiesis and rise earlier than haemoglobin after iron treatment, within about 48 hours in children with severe iron deficiency. A raised immature reticulocyte fraction rises before the count itself in early recovery.</p>
+  <p class="text-sm">Use your laboratory&rsquo;s own range. Reference values differ by method and analyser.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Correcting the Count: the Index and the RPI
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Two corrections turn a raw percentage into an answer to &ldquo;is this response adequate?&rdquo;</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 1: correct for the anaemia</strong>
+    <p class="text-sm">Corrected reticulocyte count = reticulocyte % &times; (patient Hct &divide; 45). This restates the count as if the patient had a normal red cell mass. (A version using Hb &divide; 15 is also used.)</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 2: correct for early release (shift reticulocytes)</strong>
+    <p class="text-sm">In moderate or severe anaemia the marrow releases reticulocytes early, and they take longer than a day to mature in the blood. That inflates the count. The reticulocyte production index (RPI) divides the corrected count by a maturation time that depends on the Hct:</p>
+    <div class="overflow-x-auto mt-2">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Hct</th>
+            <th class="py-2 pr-3">Maturation time (days)</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">40% or more</td><td class="py-2 pr-3">1.0</td></tr>
+          <tr><td class="py-2 pr-3">30&ndash;39%</td><td class="py-2 pr-3">1.5</td></tr>
+          <tr><td class="py-2 pr-3">20&ndash;29%</td><td class="py-2 pr-3">2.0</td></tr>
+          <tr><td class="py-2 pr-3">Below 20%</td><td class="py-2 pr-3">2.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm mt-2"><strong>RPI = corrected reticulocyte count &divide; maturation time.</strong> A normal person has an RPI of about 1.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How to read the RPI</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Below 2:</strong> an inadequate, hypoproliferative response. The marrow is not responding to the anaemia.</li>
+      <li><strong>2 to 3:</strong> borderline. Interpret with the clinical picture.</li>
+      <li><strong>Above 3:</strong> an adequate response. The marrow is working hard, and the anaemia is from loss or destruction.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Four worked examples for teaching</strong>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th class="py-2 pr-3">Case</th>
+            <th class="py-2 pr-3">Hct, retic %</th>
+            <th class="py-2 pr-3">Corrected count</th>
+            <th class="py-2 pr-3">RPI</th>
+            <th class="py-2 pr-3">Meaning</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">A. Pale child after severe malaria</td><td class="py-2 pr-3">20%, 6%</td><td class="py-2 pr-3">6 &times; 20/45 = 2.7%</td><td class="py-2 pr-3">2.7 &divide; 2.0 = 1.3</td><td class="py-2 pr-3">Raw 6% looks high, but the response is inadequate. The marrow is suppressed.</td></tr>
+          <tr><td class="py-2 pr-3">B. Adult with haemolysis</td><td class="py-2 pr-3">25%, 15%</td><td class="py-2 pr-3">15 &times; 25/45 = 8.3%</td><td class="py-2 pr-3">8.3 &divide; 2.0 = 4.2</td><td class="py-2 pr-3">Adequate. The marrow is compensating for red cell destruction.</td></tr>
+          <tr><td class="py-2 pr-3">C. Steady-state sickle cell anaemia</td><td class="py-2 pr-3">24%, 12%</td><td class="py-2 pr-3">12 &times; 24/45 = 6.4%</td><td class="py-2 pr-3">6.4 &divide; 2.0 = 3.2</td><td class="py-2 pr-3">A compensated haemolytic state. The patient&rsquo;s normal.</td></tr>
+          <tr><td class="py-2 pr-3">D. Sickle cell child with aplastic crisis</td><td class="py-2 pr-3">14%, 0.5%</td><td class="py-2 pr-3">0.5 &times; 14/45 = 0.16%</td><td class="py-2 pr-3">0.16 &divide; 2.5 = 0.06</td><td class="py-2 pr-3">Marrow output has stopped. An emergency.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+  <strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+  <p class="text-sm text-amber-900 dark:text-amber-300">Textbooks differ on the cut-offs and the maturation table. Some state that an RPI of 2 or more is adequate, others use 3, and some use haemoglobin bands in place of Hct. The index is a screening calculation, not a diagnosis. Use your institution&rsquo;s convention consistently, and treat the 2 to 3 band as unresolved until the clinical picture and repeat counts decide it. Counting methods are described in the CLSI standard for reticulocyte counting (H44).</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Pairing the Count With MCV
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">The RPI sorts the anaemia into two families. MCV then narrows each family. This two-step approach is the most useful way to teach anaemia.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">RPI</th>
+          <th class="py-2 pr-3">MCV</th>
+          <th class="py-2 pr-3">Common causes in Nigerian practice</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3" rowspan="3">Low (below 2)</td><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Iron deficiency (poor intake, hookworm, heavy menstrual loss, chronic bleeding), anaemia of chronic inflammation, sideroblastic anaemia.</td></tr>
+        <tr><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Anaemia of chronic disease and infection (including HIV and TB), chronic kidney disease, aplastic anaemia, marrow infiltration (leukaemia, lymphoma, metastases), pure red cell aplasia, parvovirus B19 in sickle cell disease, falciparum malaria, early or mixed deficiency.</td></tr>
+        <tr><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Megaloblastic anaemia (B12 or folate deficiency), myelodysplasia, drug effect (hydroxyurea, some antiretrovirals, methotrexate, chemotherapy), liver disease, hypothyroidism.</td></tr>
+        <tr><td class="py-2 pr-3" rowspan="2">High (above 3, or above 2 with the right picture)</td><td class="py-2 pr-3">Normal or slightly raised (reticulocytes are larger than mature cells and push the MCV up)</td><td class="py-2 pr-3">Haemolysis (sickle cell disease, G6PD deficiency, autoimmune, hereditary spherocytosis, malaria), acute blood loss after a few days, splenic sequestration, and the recovery phase after treatment.</td></tr>
+        <tr><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Thalassaemia syndromes with active haemolysis (variable), and iron deficiency early in recovery.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm">The commonest trap is the &ldquo;raised&rdquo; raw count in a severely anaemic patient who in fact has a hypoproliferative marrow (case A above). Always correct before concluding.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Using the Count to Check a Treatment Response
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">The reticulocyte count is also the earliest check that a diagnosis was right. If a deficiency is treated correctly, the marrow responds before the haemoglobin has moved much.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>B12, folate or iron started:</strong> a rise in reticulocytes and haemoglobin within about 7&ndash;10 days suggests a positive response. MCV may rise briefly during the first days because reticulocytes are large, then fall to normal over about 8 weeks as normocytic cells replace macrocytes.</li>
+    <li><strong>No response:</strong> suspect a second cause, such as mixed iron and B12 deficiency, ongoing blood loss, inflammation, or non-adherence. Do not simply increase the dose.</li>
+    <li><strong>After malaria:</strong> in falciparum malaria the reticulocyte count is often too low for the degree of anaemia, because the marrow is suppressed and erythropoiesis is ineffective. It tends to recover once the parasites are cleared. A single low count in acute malaria is not evidence of marrow failure.</li>
+    <li><strong>Early indices:</strong> where available, Ret-He and the immature reticulocyte fraction move earlier than the count itself and the Hb.</li>
+  </ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Pitfalls and Counting Errors
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Pitfall</th>
+          <th class="py-2 pr-3">Effect</th>
+          <th class="py-2 pr-3">Fix</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Reporting the raw percentage in an anaemic patient</td><td class="py-2 pr-3">Looks like an adequate response when it is not (the commonest error).</td><td class="py-2 pr-3">Report absolute count, corrected count and RPI.</td></tr>
+        <tr><td class="py-2 pr-3">Inclusions that take up new methylene blue (Howell-Jolly bodies, Heinz bodies, Pappenheimer or siderotic granules, basophilic stippling)</td><td class="py-2 pr-3">Counted as reticulocytes, giving a falsely high count.</td><td class="py-2 pr-3">Count only cells with a blue-black network or several granules. Howell-Jolly bodies are one or two round deep-purple dots, and Heinz bodies are pale blue-green and sit at the edge. Compare with a Romanowsky film. Use a Prussian blue stain if iron granules are suspected.</td></tr>
+        <tr><td class="py-2 pr-3">Precipitated stain or refractile artefact</td><td class="py-2 pr-3">Black, shiny debris is mistaken for network.</td><td class="py-2 pr-3">Filter the stain. Ignore refractile or glassy particles.</td></tr>
+        <tr><td class="py-2 pr-3">Malaria parasites</td><td class="py-2 pr-3">Parasites can take up the dye and may be miscounted in malaria-endemic samples.</td><td class="py-2 pr-3">Look carefully at morphology, and correlate with the malaria film.</td></tr>
+        <tr><td class="py-2 pr-3">Too few cells counted</td><td class="py-2 pr-3">Wide error. At 1000 cells a count of 10% could be 8&ndash;12%.</td><td class="py-2 pr-3">Count 1000 red cells in a thin area, and have a second person count if the result is critical.</td></tr>
+        <tr><td class="py-2 pr-3">Old sample</td><td class="py-2 pr-3">Reticulocytes keep maturing in vitro and lose RNA, so counts fall.</td><td class="py-2 pr-3">Use fresh EDTA blood, stained within 24 hours at most and preferably within hours.</td></tr>
+        <tr><td class="py-2 pr-3">Poor staining technique</td><td class="py-2 pr-3">Weak, uneven or crowded staining.</td><td class="py-2 pr-3">Use equal volumes, incubate 10&ndash;15 minutes, spread a thin smear and let it dry fully.</td></tr>
+        <tr><td class="py-2 pr-3">Using adult ranges in newborns and infants</td><td class="py-2 pr-3">A normal neonatal count looks high.</td><td class="py-2 pr-3">Use age-specific ranges.</td></tr>
+        <tr><td class="py-2 pr-3">Recent transfusion</td><td class="py-2 pr-3">Transfused cells dilute the count and suppress the marrow&rsquo;s drive.</td><td class="py-2 pr-3">Interpret with the transfusion history.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with severe falciparum malaria, Hb 4.5 g/dL, reticulocytes 1.2%</strong>
+    <p class="text-sm">The RPI is low, but this does not mean aplastic anaemia. In falciparum malaria the marrow response is blunted and ineffective. Treat the malaria, transfuse according to your severe anaemia criteria, and expect the reticulocyte count to rise once the parasites are cleared. Repeat the count after one to two weeks. If it stays low, look for a second cause such as iron or folate deficiency or a marrow problem.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with SS, Hb 3.8 g/dL (usual 7.5), reticulocytes 0.4%</strong>
+    <p class="text-sm">Aplastic crisis, usually from parvovirus B19. The usual high reticulocyte count has vanished and no spleen is felt. Compare with the baseline card, transfuse if symptomatic, and expect recovery with a surge of reticulocytes over the next week or so.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with SS, Hb 4.2 g/dL (usual 7.5), painful enlarged spleen, reticulocytes 18%</strong>
+    <p class="text-sm">Splenic sequestration: Hb at least 2 g/dL below baseline, a spleen that has grown, and a raised reticulocyte count. This is an emergency. Resuscitate and transfuse in small aliquots, because blood trapped in the spleen can return to the circulation.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman with Hb 7 g/dL, MCV 68 fL and reticulocytes 0.8%</strong>
+    <p class="text-sm">Low RPI and low MCV point to iron deficiency. Look for the cause (diet, hookworm, menstrual or gastrointestinal loss) as well as treating it. Start iron and check for a rise in reticulocytes and Hb at about 7 to 10 days. A good early response confirms the diagnosis. A poor one suggests ongoing loss, mixed deficiency or adherence problems.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man living with HIV, Hb 6.5 g/dL, MCV 112 fL, low reticulocytes</strong>
+    <p class="text-sm">Macrocytic with a hypoproliferative marrow. Consider B12 or folate deficiency and drug effect (some antiretroviral agents and co-medication can suppress the marrow). Send B12 and folate levels where available, review the drug list and look at the blood film for hypersegmented neutrophils and macro-ovalocytes.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Term neonate, jaundiced on day 2, Hb 11 g/dL, reticulocytes 12%</strong>
+    <p class="text-sm">Newborn counts are normally about 3&ndash;6%, so 12% is raised and points to haemolysis. Think blood group incompatibility (ABO or Rh) and G6PD deficiency. Send the blood group, Coombs test, G6PD and bilirubin, and treat the jaundice by thresholds.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient with G6PD haemolysis on day 5, reticulocytes rising</strong>
+    <p class="text-sm">The rising count shows marrow recovery. It also explains why a G6PD test taken now can read falsely normal: young cells and reticulocytes carry more enzyme and the most deficient cells have already gone. Repeat the test a couple of months later.</p>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+  When There Is No Reticulocyte Count
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Most clinicians in Nigeria will make these decisions without a count. The concept still applies. These bedside substitutes approximate the answer.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Substitute</th>
+          <th class="py-2 pr-3">What it suggests</th>
+          <th class="py-2 pr-3">Limits</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Polychromasia and macro-ovalocytes on a Romanowsky film (Leishman or Giemsa)</td><td class="py-2 pr-3">Reticulocytes are raised: the marrow is responding. Absent polychromasia in a clearly anaemic patient suggests a hypoproliferative marrow.</td><td class="py-2 pr-3">Qualitative. It cannot be corrected into an RPI.</td></tr>
+        <tr><td class="py-2 pr-3">Raised RDW and a slightly raised MCV</td><td class="py-2 pr-3">Large young cells in the mix, as in haemolysis or recovery.</td><td class="py-2 pr-3">Also seen in deficiency states, so it is only a pointer.</td></tr>
+        <tr><td class="py-2 pr-3">Unconjugated bilirubin, LDH, haptoglobin, dark urine</td><td class="py-2 pr-3">Haemolysis. This is the reason a count is raised.</td><td class="py-2 pr-3">Not specific to one cause, and normal results do not exclude mild haemolysis.</td></tr>
+        <tr><td class="py-2 pr-3">Clinical clues: jaundice, splenomegaly, a family history, a known sickle cell or G6PD diagnosis, recent bleeding</td><td class="py-2 pr-3">A high-turnover anaemia.</td><td class="py-2 pr-3">Needs the examination to be done and recorded.</td></tr>
+        <tr><td class="py-2 pr-3">Patient&rsquo;s baseline Hb (for example the clinic card in sickle cell disease)</td><td class="py-2 pr-3">A fall of 2 g/dL or more is a crisis, whatever the count.</td><td class="py-2 pr-3">Only works if a baseline was recorded.</td></tr>
+        <tr><td class="py-2 pr-3">A treatment trial and the Hb at 2&ndash;4 weeks</td><td class="py-2 pr-3">A clear Hb rise on iron, folate or B12 supports the diagnosis.</td><td class="py-2 pr-3">Slower than a reticulocyte response, and a poor result is hard to interpret.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm">Where a count can be done, request it in the situations that change management: unexplained anaemia, suspected haemolysis, a sickle cell patient with a falling Hb, and monitoring after chemotherapy or marrow suppression. Ask for the absolute count and the RPI, and give the Hct on the request so the laboratory can calculate it.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+  Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ol class="list-decimal pl-5 space-y-2 text-sm">
+    <li><strong>Confirm the patient is anaemic</strong> and note the Hb and Hct. The count means nothing without them.</li>
+    <li><strong>Check the sample and method.</strong> Fresh EDTA blood, manual or automated, and the age-appropriate range.</li>
+    <li><strong>Correct the count.</strong> Calculate the corrected count and the RPI. Never interpret the raw percentage in an anaemic patient.</li>
+    <li><strong>Classify the response:</strong> RPI below 2 hypoproliferative, above 3 adequate, in between borderline.</li>
+    <li><strong>Add the MCV and the film</strong> to narrow the cause within each family.</li>
+    <li><strong>Add the clinical context:</strong> malaria, HIV, sickle cell disease, pregnancy, drugs, bleeding, diet.</li>
+    <li><strong>Plan the re-check.</strong> A repeat count 7&ndash;10 days after treatment is the test of whether the diagnosis was right.</li>
+  </ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+  Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Sudden fall in Hb with a very low reticulocyte count in sickle cell disease.</strong> Aplastic crisis. Transfuse if symptomatic and look at the baseline card.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Hb 2 g/dL or more below baseline with an enlarging spleen and a high reticulocyte count.</strong> Splenic sequestration. This can kill within hours.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A raw reticulocyte count that looks &ldquo;high&rdquo; in a severely anaemic patient.</strong> Correct it first. An RPI below 2 means the marrow is not responding.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Persistent low RPI with other cytopenias.</strong> Consider marrow failure, infiltration or myelodysplasia. Check the film for blasts and refer for marrow examination.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Raised reticulocytes with jaundice in the first days of life.</strong> Haemolysis. Think ABO or Rh incompatibility and G6PD deficiency, and watch the bilirubin.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>No reticulocyte response after treatment of a presumed deficiency.</strong> The diagnosis may be wrong or incomplete. Look for blood loss, mixed deficiency, inflammation or a marrow disorder.</span></li>
+  </ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+  Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The reticulocyte count measures recent marrow output. It splits anaemia into a marrow that is responding (loss or destruction) and a marrow that is not (production failure).</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never read the raw percentage in an anaemic patient. Correct it: reticulocyte % &times; Hct/45, then divide by the maturation time (1.0, 1.5, 2.0 or 2.5) to get the RPI.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>RPI below 2 is hypoproliferative. RPI above 3 is an adequate response. Normal adult reticulocytes are about 0.5&ndash;2.5%, and newborns about 3&ndash;6%.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pair the RPI with the MCV and the film. Low RPI plus low MCV is usually iron deficiency, and low RPI plus high MCV is usually B12, folate or drug effect.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In sickle cell disease a high count is the patient&rsquo;s normal. A fall to near zero is an aplastic crisis, and a rise with a drop in Hb and a big spleen is sequestration.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Falciparum malaria blunts the marrow response. A low count in acute malaria is not marrow failure. Recheck after the parasites are cleared.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Without a count, use polychromasia on the film, bilirubin and LDH, the baseline Hb and the response to treatment as substitutes. A reticulocyte and Hb rise by 7&ndash;10 days confirms a treatable deficiency.</span></li>
+  </ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+    References
+    <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+  </summary>
+  <ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+    <li class="text-[10px] leading-snug text-stone-500">Clinical and Laboratory Standards Institute (CLSI). Methods for reticulocyte counting by automated blood cell counters, flow cytometry and supravital dyes (H44).</li>
+    <li class="text-[10px] leading-snug text-stone-500">National Heart, Lung, and Blood Institute (NHLBI). Evidence-Based Management of Sickle Cell Disease: Expert Panel Report, 2014 (definitions of splenic sequestration and aplastic crisis).</li>
+    <li class="text-[10px] leading-snug text-stone-500">Published laboratory procedures for manual reticulocyte counting with new methylene blue and the Miller disc, including confidence limits and sources of error.</li>
+    <li class="text-[10px] leading-snug text-stone-500">Published reference intervals for reticulocyte count, absolute count, immature reticulocyte fraction and reticulocyte haemoglobin content by age.</li>
+    <li class="text-[10px] leading-snug text-stone-500">Published reviews on interpreting the reticulocyte count, corrected count and reticulocyte production index, including shift reticulocytes.</li>
+    <li class="text-[10px] leading-snug text-stone-500">Published reviews of erythropoiesis and reticulocyte response in malaria, including studies of Nigerian children.</li>
+    <li class="text-[10px] leading-snug text-stone-500">Standard clinical monitoring guidance on reticulocyte and haemoglobin response within 7&ndash;10 days of treating B12 and folate deficiency.</li>
+  </ul>
+</details>
+
+</body>
+</html>
+    `
+},
+
+{
+  id: 'lab-amylase-lipase',
+  title: 'Serum Amylase and Lipase',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Clinical Chemistry',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; CLINICAL CHEMISTRY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Serum Amylase and Lipase</h1>
+  <p class="text-sm text-indigo-200">In many Nigerian facilities lipase is not offered, amylase is intermittent, and the result may take a day. The diagnosis of acute pancreatitis cannot wait for either. This guide covers what the enzymes measure, when they rise and fall, what else raises them, when a normal result misleads, and how to reach a safe working diagnosis, judge severity and find the cause using history, examination, basic bloods and ultrasound when the enzymes are unavailable.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-the-enzymes-measure" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What the Enzymes Measure</span></a></li>
+  <li><a href="#timing-when-they-rise-and-when-they-fall" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Timing: When They Rise and When They Fall</span></a></li>
+  <li><a href="#making-the-diagnosis-with-and-without-the-enzymes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Making the Diagnosis With and Without the Enzymes</span></a></li>
+  <li><a href="#reading-a-raised-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Reading a Raised Result</span></a></li>
+  <li><a href="#when-a-normal-result-misleads" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>When a Normal Result Misleads</span></a></li>
+  <li><a href="#sample-and-method-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Sample and Method Pitfalls</span></a></li>
+  <li><a href="#working-without-the-enzymes-bedside-and-basic-laboratory-correlation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Working Without the Enzymes: Bedside and Basic-Laboratory Correlation</span></a></li>
+  <li><a href="#severity-and-cause-without-the-enzymes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Severity and Cause Without the Enzymes</span></a></li>
+  <li><a href="#management-that-does-not-depend-on-the-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Management That Does Not Depend on the Result</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-enzymes-measure" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What the Enzymes Measure
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Amylase splits starch. Lipase splits triglycerides. Both are made in pancreatic acinar cells, and both leak into the blood when those cells are injured or the duct is obstructed.</p>
+<p class="text-sm"><strong>Amylase</strong> comes from many tissues. Up to 60% of the total serum amylase can be non-pancreatic, from the salivary glands and, in smaller amounts, the small bowel, ovaries and fallopian tubes. Most laboratories report total amylase, so salivary disease and several non-pancreatic abdominal conditions can raise it. It is cleared by the kidney.</p>
+<p class="text-sm"><strong>Lipase</strong> is made mainly in the pancreas, so a raised level is more specific. The kidney filters it but reabsorbs it in the tubules, which prolongs its half-life and keeps the level up for longer.</p>
+<p class="text-sm">ACG 2024 prefers lipase because it stays raised longer and is more specific than amylase. Where only amylase is available, it can still support the diagnosis if you apply the same 3&times; rule and know its limits (sections 4 and 5).</p>
+<p class="text-sm">Ranges vary by assay. As an example from one reference, amylase is about 30&ndash;110 U/L and lipase about 10&ndash;140 U/L. Always use your laboratory&rsquo;s own upper limit of normal (ULN). If amylase ULN is 110 U/L, the diagnostic threshold of 3&times; ULN is above 330 U/L.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="timing-when-they-rise-and-when-they-fall" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Timing: When They Rise and When They Fall
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3"></th>
+        <th class="py-2 pr-3">Amylase</th>
+        <th class="py-2 pr-3">Lipase</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Starts to rise</td><td class="py-2 pr-3">Within hours of onset (published figures range from about 3 to 24 hours)</td><td class="py-2 pr-3">About 4&ndash;8 hours</td></tr>
+      <tr><td class="py-2 pr-3">Peaks</td><td class="py-2 pr-3">About 24&ndash;48 hours</td><td class="py-2 pr-3">About 24 hours</td></tr>
+      <tr><td class="py-2 pr-3">Returns to normal</td><td class="py-2 pr-3">About 3&ndash;5 days, sometimes sooner</td><td class="py-2 pr-3">About 8&ndash;14 days</td></tr>
+      <tr><td class="py-2 pr-3">Raised in acute pancreatitis</td><td class="py-2 pr-3">About 80% within 24 hours</td><td class="py-2 pr-3">Sensitivity reported at 82&ndash;100%</td></tr>
+      <tr><td class="py-2 pr-3">Useful when the patient presents late</td><td class="py-2 pr-3">Poor. It may already have normalised.</td><td class="py-2 pr-3">Better. It stays high for longer.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Sources differ on exact times, so treat these as ranges. The practical lesson is that a patient who presents on the third or fourth day of pain may have a normal amylase and still have pancreatitis.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="making-the-diagnosis-with-and-without-the-enzymes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Making the Diagnosis With and Without the Enzymes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">ACG 2024 requires <strong>two of three</strong> criteria for acute pancreatitis:</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Characteristic abdominal pain: epigastric or left upper quadrant, typically constant, often radiating to the back, chest or flank.</li>
+  <li>Serum lipase or amylase more than three times the ULN.</li>
+  <li>Characteristic findings on abdominal imaging.</li>
+</ol>
+<p class="text-sm">Two points follow. First, the enzymes are one criterion of three. They are not the diagnosis. A raised enzyme without characteristic pain does not predict pancreatitis. Second, when typical pain and an enzyme result agree, the guideline advises starting treatment and not delaying for imaging unless the patient does not improve.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When the enzymes are not available</strong>
+  <p class="text-sm">Pain plus characteristic imaging also satisfies the criteria. Where neither enzymes nor CT are available, the diagnosis is presumptive, and it rests on four things done together:</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>A typical pain story: abrupt, severe, constant epigastric pain radiating to the back, with vomiting, and relief on leaning forward in some patients.</li>
+    <li>A recognised cause or risk: gallstones or biliary colic, heavy alcohol, hypertriglyceridaemia, a new drug, recent trauma, hypercalcaemia.</li>
+    <li>Exclusion of the surgical mimics that cannot wait (section 7).</li>
+    <li>Supporting findings: epigastric tenderness, ultrasound evidence of gallstones, a dilated bile duct, a swollen pancreas or free fluid, and a response to initial treatment.</li>
+  </ul>
+  <p class="text-sm mt-2">Start treatment on the working diagnosis, admit, and reassess at 24 and 48 hours. If the picture does not fit by then, widen the search.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-a-raised-result" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Reading a Raised Result
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">Amylase</th>
+        <th class="py-2 pr-3">Lipase</th>
+        <th class="py-2 pr-3">Clue</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Acute pancreatitis, pseudocyst, pancreatic ascites, duct stones, trauma</td><td class="py-2 pr-3">Raised, often above 3&times; ULN</td><td class="py-2 pr-3">Raised, often above 3&times; ULN</td><td class="py-2 pr-3">Typical pain. Both enzymes move together.</td></tr>
+      <tr><td class="py-2 pr-3">Mumps and other salivary gland disease (stones, inflammation, trauma)</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Parotid swelling. A normal lipase separates it.</td></tr>
+      <tr><td class="py-2 pr-3">Renal failure</td><td class="py-2 pr-3">Raised, usually 1&ndash;2&times; ULN</td><td class="py-2 pr-3">Can be raised</td><td class="py-2 pr-3">Raised creatinine. The rise is rarely above 3&times; ULN and has no diagnostic value.</td></tr>
+      <tr><td class="py-2 pr-3">Perforated peptic ulcer, bowel obstruction or infarction, peritonitis</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Can be raised</td><td class="py-2 pr-3">Signs of peritonitis, free air or obstruction. A mimic that needs surgery.</td></tr>
+      <tr><td class="py-2 pr-3">Ruptured ectopic pregnancy, tubo-ovarian abscess</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Usually normal</td><td class="py-2 pr-3">Positive pregnancy test, shock, adnexal findings.</td></tr>
+      <tr><td class="py-2 pr-3">Diabetic ketoacidosis</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Can be raised</td><td class="py-2 pr-3">Glycosuria, ketones, acidosis. The enzyme rise may not mean pancreatitis.</td></tr>
+      <tr><td class="py-2 pr-3">Macroamylasaemia</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">High serum amylase with low or normal urine amylase. The enzyme is bound to a large protein and cleared slowly.</td></tr>
+      <tr><td class="py-2 pr-3">Other: acute cholecystitis, appendicitis, abdominal aortic aneurysm, burns, ectopic production by some tumours, several drugs</td><td class="py-2 pr-3">Raised</td><td class="py-2 pr-3">Variable</td><td class="py-2 pr-3">The history and examination decide.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Size does not equal severity</strong>
+  <p class="text-sm">The height of the amylase or lipase does not predict how severe the pancreatitis will be, and it should not be repeated daily to track progress. Judge severity by organ function and clinical course (section 8).</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-a-normal-result-misleads" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+When a Normal Result Misleads
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Late presentation.</strong> Amylase may have fallen back to normal after 3 to 5 days. Lipase usually stays up longer.</li>
+  <li><strong>Hypertriglyceridaemia.</strong> Lipaemic serum can contain inhibitors that falsely lower amylase. Amylase can be normal in up to half of patients with hypertriglyceridaemia-induced pancreatitis. Milky or creamy serum is a bedside clue. Check triglycerides, particularly if above about 11 mmol/L (1000 mg/dL), which is the threshold ACG flags.</li>
+  <li><strong>Chronic or relapsing pancreatitis.</strong> The damaged gland has less enzyme to release, so levels may be normal or only mildly raised during an attack.</li>
+  <li><strong>Alcohol-related pancreatitis.</strong> Amylase may be less elevated than in other causes, while lipase can still be raised.</li>
+</ul>
+<p class="text-sm">A normal enzyme with typical pain, a recognised cause and supporting imaging should not stop you treating for pancreatitis.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sample-and-method-pitfalls" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Sample and Method Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">EDTA, oxalate or citrate plasma</td><td class="py-2 pr-3">Amylase needs calcium. These anticoagulants chelate it and give falsely low results.</td><td class="py-2 pr-3">Use serum (preferred) or heparinised plasma.</td></tr>
+      <tr><td class="py-2 pr-3">Lipaemic serum</td><td class="py-2 pr-3">Amylase can be falsely depressed.</td><td class="py-2 pr-3">Note the appearance, check triglycerides, and ask the laboratory about dilution or a repeat.</td></tr>
+      <tr><td class="py-2 pr-3">Sample taken late in the illness</td><td class="py-2 pr-3">Amylase already back to normal.</td><td class="py-2 pr-3">Record the time of onset on the request. Ask for lipase if available.</td></tr>
+      <tr><td class="py-2 pr-3">Using a general reference range without the ULN</td><td class="py-2 pr-3">The 3&times; rule cannot be applied.</td><td class="py-2 pr-3">Read the ULN printed on the report, and multiply by 3.</td></tr>
+      <tr><td class="py-2 pr-3">Salivary contamination of the sample</td><td class="py-2 pr-3">Saliva is rich in amylase.</td><td class="py-2 pr-3">Avoid contact with saliva when handling samples and tubes.</td></tr>
+      <tr><td class="py-2 pr-3">Interfering drugs</td><td class="py-2 pr-3">Several drugs (including opioids such as morphine) can raise serum amylase.</td><td class="py-2 pr-3">Read the result with the drug list.</td></tr>
+      <tr><td class="py-2 pr-3">Long storage</td><td class="py-2 pr-3">Results become unreliable.</td><td class="py-2 pr-3">Follow the laboratory&rsquo;s stability limits. Serum is stable for days at room temperature and longer when refrigerated.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="working-without-the-enzymes-bedside-and-basic-laboratory-correlation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Working Without the Enzymes: Bedside and Basic-Laboratory Correlation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Pancreatitis is a diagnosis you make by excluding what cannot wait. In Nigeria it is easy to miss. An older single-centre Nigerian series reported that most cases were diagnosed only at laparotomy for an acute abdomen, which is what happens when the condition is not considered. Use these steps when the enzymes cannot be had in time.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Tool</th>
+        <th class="py-2 pr-3">What it adds</th>
+        <th class="py-2 pr-3">Limits</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">History and examination</td><td class="py-2 pr-3">Typical pain pattern, vomiting, cause (stones, alcohol, drugs, trauma), fever or jaundice, epigastric tenderness, signs of shock or peritonitis.</td><td class="py-2 pr-3">Pain can be atypical in the elderly, in alcohol-related disease and in the critically ill.</td></tr>
+      <tr><td class="py-2 pr-3">Erect chest X-ray (or lateral decubitus film)</td><td class="py-2 pr-3">Free air under the diaphragm points to a perforated viscus, which needs surgery. Left pleural effusion or basal changes can accompany pancreatitis.</td><td class="py-2 pr-3">A normal film does not exclude perforation.</td></tr>
+      <tr><td class="py-2 pr-3">Abdominal ultrasound</td><td class="py-2 pr-3">Gallstones and sludge, a dilated common bile duct, free fluid, a swollen or hypoechoic pancreas, a pseudocyst, and alternative diagnoses such as cholecystitis or ruptured ectopic pregnancy.</td><td class="py-2 pr-3">The pancreas is often obscured by bowel gas. A normal early scan does not exclude pancreatitis. It is not sensitive for bile duct stones.</td></tr>
+      <tr><td class="py-2 pr-3">CT with contrast</td><td class="py-2 pr-3">Confirms the diagnosis and shows necrosis and collections.</td><td class="py-2 pr-3">Not needed to start treatment. For severity it is best done at least 72 hours, ideally 5&ndash;7 days, after onset.</td></tr>
+      <tr><td class="py-2 pr-3">ECG and troponin</td><td class="py-2 pr-3">Excludes inferior myocardial infarction, which can mimic epigastric pain.</td><td class="py-2 pr-3">ECG changes can also occur in pancreatitis.</td></tr>
+      <tr><td class="py-2 pr-3">Urine pregnancy test</td><td class="py-2 pr-3">Excludes ectopic pregnancy in any woman of childbearing age with abdominal pain and shock.</td><td class="py-2 pr-3">&nbsp;</td></tr>
+      <tr><td class="py-2 pr-3">Blood glucose, urine ketones</td><td class="py-2 pr-3">Diabetic ketoacidosis causes abdominal pain and raised enzymes. Pancreatitis can precipitate DKA.</td><td class="py-2 pr-3">&nbsp;</td></tr>
+      <tr><td class="py-2 pr-3">FBC, urea and creatinine, calcium, liver tests, serum appearance</td><td class="py-2 pr-3">Leucocytosis, rising urea and haematocrit (severity), hypercalcaemia (a cause), ALT (biliary cause), milky serum (hypertriglyceridaemia).</td><td class="py-2 pr-3">Nonspecific. They support, but do not make, the diagnosis.</td></tr>
+      <tr><td class="py-2 pr-3">Ascitic or pleural fluid amylase</td><td class="py-2 pr-3">If a tap is done, pancreatic ascites typically has amylase at least 5-fold higher than serum. Non-pancreatic ascites is usually at or below serum. Pleural fluid amylase normally gives a ratio to serum below 1.</td><td class="py-2 pr-3">Needs the laboratory to measure amylase in body fluids, and needs a simultaneous serum value.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Mimics that cannot wait</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Perforated peptic ulcer (rigid abdomen, free air).</li>
+    <li>Acute mesenteric ischaemia and bowel obstruction or strangulation.</li>
+    <li>Ruptured ectopic pregnancy (shock, amenorrhoea).</li>
+    <li>Ruptured aortic aneurysm.</li>
+    <li>Acute cholangitis or cholecystitis (fever, jaundice, right upper quadrant tenderness).</li>
+    <li>Inferior myocardial infarction and diabetic ketoacidosis.</li>
+  </ul>
+</div>
+<p class="text-sm">If a surgical emergency cannot be excluded, treat it as one, with early senior surgical review. Treating a patient with pancreatitis as an acute abdomen costs little. Missing a perforation costs a life.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">ACG 2024 prefers lipase, and advises holding off on imaging when the pain and enzymes agree. Those assumptions come from settings where lipase is routine and CT is easy to get. In Nigeria, where amylase may be the only enzyme and ultrasound the only imaging, an early ultrasound is useful for finding gallstones and excluding mimics. It is not a delay. Likewise the 3&times; ULN rule was set for lipase and amylase interchangeably, but amylase misses late presenters and hypertriglyceridaemic cases, so a normal amylase should not close the question.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="severity-and-cause-without-the-enzymes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Severity and Cause Without the Enzymes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Severity (revised Atlanta classification)</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Mild:</strong> no organ failure and no local or systemic complications. Usually settles within the first week.</li>
+    <li><strong>Moderately severe:</strong> transient organ failure (under 48 hours) and/or local complications.</li>
+    <li><strong>Severe:</strong> organ failure that persists beyond 48 hours.</li>
+  </ul>
+  <p class="text-sm mt-2">Organ failure means a modified Marshall score of 2 or more in the respiratory, cardiovascular or renal system. At the bedside that translates into hypoxia, hypotension that does not respond to fluids, and rising creatinine or falling urine output.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Early bedside severity markers</strong>
+  <p class="text-sm">Several simple measures predict a bad course. A rising urea or haematocrit in the first 24 hours suggests inadequate resuscitation and more severe disease. SIRS (temperature above 38 or below 36 &deg;C, heart rate above 90, respiratory rate above 20, WBC above 12 or below 4 &times; 10<sup>9</sup>/L) that persists is worrying. A CRP of 150 mg/L or more at 48&ndash;72 hours is associated with greater severity and necrosis.</p>
+  <p class="text-sm mt-2"><strong>BISAP</strong> gives one point each for urea above about 9 mmol/L (BUN above 25 mg/dL), impaired mental status, SIRS, age over 60, and a pleural effusion. Higher scores carry a higher risk of persistent organ failure. None of the components needs an enzyme. Ranson and Glasgow scores take 48 hours to complete.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Finding the cause</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Gallstones</strong> are among the two commonest causes worldwide, with alcohol. An ALT above 150 U/L (about three times the upper limit) has a high positive predictive value, 88&ndash;100% in studies, for a biliary cause in the absence of heavy alcohol use. The specificity is about 96% but the sensitivity is only about 48%, so a normal ALT does not exclude gallstones. A negative ultrasound with a raised ALT does not exclude them either.</li>
+    <li><strong>Alcohol:</strong> ask directly about quantity and recent binges.</li>
+    <li><strong>Hypertriglyceridaemia:</strong> milky serum, a history of diabetes or obesity, and triglycerides above about 11 mmol/L.</li>
+    <li><strong>Drugs:</strong> review the full list, including traditional preparations. In a high-HIV-prevalence setting a drug cause was markedly more common in patients with HIV, and some older antiretrovirals (for example didanosine) are recognised causes. Discuss any suspected drug with the HIV team before stopping it.</li>
+    <li><strong>Others:</strong> hypercalcaemia, blunt abdominal trauma, mumps and other infections, and in endemic areas Ascaris migrating into the bile duct. Many cases remain idiopathic.</li>
+    <li><strong>Sickle cell disease:</strong> epigastric pain with vomiting that does not behave like the patient&rsquo;s usual crisis should prompt a search for gallstones and biliary disease.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="management-that-does-not-depend-on-the-result" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Management That Does Not Depend on the Result
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Fluids.</strong> ACG 2024 advises moderately aggressive isotonic crystalloid, preferring lactated Ringer&rsquo;s over normal saline. Reassess at frequent intervals in the first hours and avoid both under-resuscitation and overload. Use urine output, heart rate, blood pressure, and urea and haematocrit to guide, not a fixed volume. Take particular care in patients with heart or kidney disease. Where Ringer&rsquo;s lactate is unavailable, another isotonic crystalloid with the same reassessment is the practical alternative.</li>
+  <li><strong>Pain.</strong> Treat pain early and adequately. Do not withhold analgesia because the abdomen is still being assessed.</li>
+  <li><strong>Feeding.</strong> Start oral feeding early, within 24&ndash;48 hours as tolerated in mild disease. Enteral feeding is preferred over parenteral. Fasting until the pain or enzymes settle is not required.</li>
+  <li><strong>Antibiotics.</strong> ACG advises against prophylactic antibiotics, whatever the severity. Give antibiotics for a proven or strongly suspected infection, including cholangitis.</li>
+  <li><strong>Biliary disease.</strong> Cholangitis (fever, jaundice, right upper quadrant pain) needs urgent biliary drainage, usually by ERCP, together with antibiotics. In biliary pancreatitis without cholangitis, early ERCP is not routinely indicated. After recovery, gallstone disease needs definitive treatment by cholecystectomy, with ACG favouring the same admission for mild biliary pancreatitis. Where ERCP is not available, arrange early transfer or discuss surgical options.</li>
+  <li><strong>Monitoring and escalation.</strong> Record vital signs, urine output and oxygen saturation at least 4-hourly in the first 48 hours. Persistent organ failure beyond 48 hours defines severe disease and calls for critical care or transfer.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 45, severe epigastric pain radiating to the back and vomiting after a drinking binge; no enzyme tests available</strong>
+  <p class="text-sm">Treat as a working diagnosis of acute pancreatitis while excluding mimics. Get an erect chest film for free air, an ECG, a blood glucose and urinalysis, and an abdominal ultrasound. Resuscitate with isotonic crystalloid, give analgesia, and admit. Reassess at 24 and 48 hours. If he develops a rigid abdomen or shock, treat as an acute abdomen and call the surgeon.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman of 38 with epigastric pain, vomiting, fever and jaundice</strong>
+  <p class="text-sm">Pancreatitis with cholangitis. Start antibiotics for cholangitis, resuscitate, send liver tests and an ultrasound for a dilated bile duct, and arrange urgent biliary drainage. If ERCP is not available locally, refer early rather than waiting for the enzymes to come back.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient on day 4 of upper abdominal pain, amylase normal</strong>
+  <p class="text-sm">Amylase may have normalised. A lipase would still be raised if available. Examine for a mass or distension, and do an ultrasound for a pseudocyst, free fluid or gallstones. Do not use the normal amylase to dismiss the diagnosis.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Severe pain, normal amylase and milky serum</strong>
+  <p class="text-sm">Think hypertriglyceridaemia-induced pancreatitis. The lipaemia can falsely lower amylase. Send triglycerides (above about 11 mmol/L supports the cause), check glucose, and review for a recent drug or alcohol trigger. Treat as pancreatitis and ask for specialist advice on lowering the triglycerides.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Person living with HIV on antiretroviral therapy, epigastric pain and vomiting</strong>
+  <p class="text-sm">Consider drug-induced pancreatitis as well as gallstones, alcohol and hypertriglyceridaemia. Review the regimen and any other medicines, check triglycerides and calcium, and discuss any suspected drug with the HIV team before changing therapy.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with a swollen parotid and abdominal discomfort, amylase raised</strong>
+  <p class="text-sm">Mumps can raise amylase from the salivary glands without pancreatitis. A normal lipase points to the salivary source. If the abdominal pain is severe or persistent, look for true pancreatitis, which can occur with mumps.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young woman with abdominal pain, dizziness and a raised amylase</strong>
+  <p class="text-sm">Do not stop at pancreatitis. Ruptured ectopic pregnancy raises amylase too. Do a urine pregnancy test, check the blood pressure and look for free fluid on ultrasound.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Start with the pain story and the timing.</strong> When did it begin, is it typical, and how many days ago?</li>
+  <li><strong>Exclude the surgical mimics</strong> that cannot wait: perforation, obstruction, mesenteric ischaemia, ectopic pregnancy, aortic aneurysm, myocardial infarction and DKA.</li>
+  <li><strong>Check the sample and the assay.</strong> Serum, not EDTA plasma. Note the ULN, the serum appearance and the time since onset.</li>
+  <li><strong>Apply the 3&times; ULN rule</strong> to whichever enzyme you have, remembering that amylase misses late presenters and hypertriglyceridaemia.</li>
+  <li><strong>Count the criteria.</strong> Pain, enzyme and imaging. Two of three make the diagnosis. If you have only one and a convincing story, treat presumptively and reassess.</li>
+  <li><strong>Find the cause:</strong> ALT, ultrasound, alcohol history, triglycerides, calcium, drugs.</li>
+  <li><strong>Grade the severity</strong> by organ function, urea, haematocrit, SIRS and BISAP, not by the enzyme height.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Rigid abdomen, free air or shock.</strong> Perforation or mesenteric infarction can raise amylase. Operate first, do not wait for an enzyme result.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Pancreatitis with fever and jaundice.</strong> Cholangitis. This needs antibiotics and urgent biliary drainage.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A woman of childbearing age with abdominal pain and a raised amylase.</strong> Exclude ruptured ectopic pregnancy before settling on pancreatitis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Hypotension, hypoxia or falling urine output during pancreatitis.</strong> Organ failure. Persistence beyond 48 hours defines severe disease and needs critical care.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Epigastric pain with typical features but a normal amylase.</strong> Do not dismiss it. Late presentation and hypertriglyceridaemia can both give a falsely normal result.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Persistent fever, rising WBC or worsening pain after the first week.</strong> Think infected necrosis or a collection. Get cross-sectional imaging and surgical or specialist advice.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Recurrent attacks without a cause.</strong> Look again for gallstones, hypertriglyceridaemia, hypercalcaemia and drug causes. After biliary pancreatitis, plan definitive treatment of the gallstones.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Acute pancreatitis is diagnosed on two of three: characteristic pain, amylase or lipase above 3&times; ULN, and characteristic imaging. The enzyme is one criterion, not the diagnosis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Lipase is more specific and stays raised longer. Amylase rises early, falls in 3&ndash;5 days, has non-pancreatic sources, and can be falsely normal in late presentation and hypertriglyceridaemia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The height of the enzyme does not show severity, and daily repeats add nothing. Grade severity by organ failure, urea, haematocrit, SIRS and BISAP.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Without enzymes, make a presumptive diagnosis from the pain, the cause and an ultrasound, exclude the surgical mimics, treat, and reassess at 24 and 48 hours.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use ALT above 150 U/L and ultrasound to point to a biliary cause, but remember that a normal ALT or scan does not exclude gallstones.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat with moderate isotonic fluids (lactated Ringer&rsquo;s preferred), early analgesia, early feeding and no prophylactic antibiotics. Cholangitis needs drainage, and gallstones need definitive treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A raised amylase alone is not pancreatitis. Salivary disease, renal failure, perforation, ectopic pregnancy and DKA all raise it.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">American College of Gastroenterology (ACG). Guidelines for the management of acute pancreatitis (2024).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Acute Pancreatitis Classification Working Group. Classification of acute pancreatitis, 2012: revision of the Atlanta classification and definitions by international consensus (revised Atlanta classification).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published guidance on the Bedside Index of Severity in Acute Pancreatitis (BISAP), SIRS and early severity markers.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Reference laboratory test catalogues for serum amylase, lipase and body fluid amylase: kinetics, specimen requirements, interferences and interpretation of ascitic and pleural fluid values.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published reviews of hyperamylasaemia, macroamylasaemia and non-pancreatic causes of raised amylase and lipase.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published studies and reviews on ALT and ultrasound in the diagnosis of biliary acute pancreatitis, and on ERCP and cholecystectomy in biliary pancreatitis.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published African series on acute pancreatitis, including a Nigerian surgical series and a South African study in a high-HIV-prevalence setting.</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'lab-calcium-phosphate-magnesium',
+  title: 'Calcium, Phosphate and Magnesium',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Clinical Chemistry',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; CLINICAL CHEMISTRY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Calcium, Phosphate and Magnesium</h1>
+  <p class="text-sm text-indigo-200">Total calcium is sometimes available, phosphate and magnesium rarely, and ionised calcium almost never. Yet tetany, rickets, tumour lysis, refeeding and magnesium toxicity in eclampsia are all everyday Nigerian problems. This guide covers what each ion does, the reference values and corrections, what a result means when you do have one, and, because many times you will not, the bedside signs, ECG findings and basic tests that stand in for the missing number.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-these-three-matter-and-how-they-interact" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why These Three Matter, and How They Interact</span></a></li>
+  <li><a href="#reference-values-and-corrections" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Reference Values and Corrections</span></a></li>
+  <li><a href="#calcium-reading-it-and-reading-the-patient-without-it" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Calcium: Reading It, and Reading the Patient Without It</span></a></li>
+  <li><a href="#phosphate-reading-it-and-reading-the-patient-without-it" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Phosphate: Reading It, and Reading the Patient Without It</span></a></li>
+  <li><a href="#magnesium-reading-it-and-reading-the-patient-without-it" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Magnesium: Reading It, and Reading the Patient Without It</span></a></li>
+  <li><a href="#clinical-proxies-at-a-glance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Clinical Proxies at a Glance</span></a></li>
+  <li><a href="#rickets-in-nigerian-children-a-calcium-problem" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Rickets in Nigerian Children: a Calcium Problem</span></a></li>
+  <li><a href="#sample-and-method-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Sample and Method Pitfalls</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-these-three-matter-and-how-they-interact" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why These Three Matter, and How They Interact
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Calcium, phosphate and magnesium keep nerves, muscles and the heart stable, and they build bone. About 40% of serum calcium is bound to albumin, about 15% to anions such as phosphate and citrate, and about 45% is free. Only the free (ionised) fraction is active, and it is regulated by parathyroid hormone (PTH) and vitamin D. Phosphate moves into cells with glucose and insulin. Magnesium is mostly intracellular, with only about 1% in the blood, so a serum level says little about body stores.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The links that explain most clinical puzzles</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Low magnesium blocks calcium repair.</strong> Magnesium deficiency causes PTH resistance and, when severe, reduces PTH release. Hypocalcaemia then fails to respond until magnesium is replaced. Low magnesium also causes refractory hypokalaemia.</li>
+    <li><strong>High phosphate lowers calcium.</strong> A phosphate load (tumour lysis, rhabdomyolysis, renal failure) pulls calcium out of the circulation and can precipitate calcium phosphate in tissue.</li>
+    <li><strong>Feeding and insulin lower phosphate, potassium and magnesium together.</strong> This is the mechanism of refeeding syndrome and of the phosphate drop after treating diabetic ketoacidosis.</li>
+    <li><strong>Low albumin lowers total calcium</strong> without lowering the free fraction, so a low total calcium in a hypoalbuminaemic patient is often not hypocalcaemia.</li>
+  </ul>
+</div>
+<p class="text-sm">The working principle for this guide: when a patient has tetany, stridor, a seizure, an arrhythmia or a prolonged QT with a compatible cause, treat on the clinical picture. Do not wait for a number that may not arrive.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reference-values-and-corrections" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Reference Values and Corrections
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Analyte</th>
+        <th class="py-2 pr-3">Adult reference (typical)</th>
+        <th class="py-2 pr-3">Unit conversion</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Total calcium (albumin-adjusted)</td><td class="py-2 pr-3">2.2&ndash;2.6 mmol/L (some laboratories use 2.1&ndash;2.6)</td><td class="py-2 pr-3">mmol/L &times; 4 = mg/dL (2.2 is about 8.8 mg/dL)</td></tr>
+      <tr><td class="py-2 pr-3">Ionised calcium</td><td class="py-2 pr-3">About 1.1&ndash;1.3 mmol/L</td><td class="py-2 pr-3">Requires an anaerobic heparinised sample</td></tr>
+      <tr><td class="py-2 pr-3">Phosphate</td><td class="py-2 pr-3">About 0.8&ndash;1.5 mmol/L</td><td class="py-2 pr-3">mmol/L &times; 3.1 = mg/dL. Children have higher values, so use age ranges.</td></tr>
+      <tr><td class="py-2 pr-3">Magnesium</td><td class="py-2 pr-3">About 0.7&ndash;1.0 mmol/L (some laboratories quote up to 1.1)</td><td class="py-2 pr-3">mmol/L &times; 2.43 = mg/dL</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Albumin correction</strong>
+  <p class="text-sm">Corrected calcium (mmol/L) = measured calcium + 0.02 &times; (40 &minus; albumin in g/L). In mg/dL and g/dL the equivalent is measured calcium + 0.8 &times; (4.0 &minus; albumin). Use the corrected value when interpreting a total calcium.</p>
+  <p class="text-sm mt-2">The formula has limits. It is unreliable in critical illness, when albumin is very low or very high, and in severe calcium depletion. A case report describes emergency calcium being delayed because the corrected value looked normal in a patient whose ionised calcium was low and whose QTc was 551 ms. Ionised calcium is preferred where available, and the ECG and clinical signs outrank a reassuring corrected value.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Grades</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Hypocalcaemia:</strong> corrected calcium below 2.2 mmol/L. Mild above 1.9 mmol/L if asymptomatic. Severe below 1.9 mmol/L, or symptomatic at any level below the reference range (Society for Endocrinology).</li>
+    <li><strong>Hypercalcaemia:</strong> corrected calcium above 2.6 mmol/L. Mild 2.6&ndash;3.0, moderate 3.0&ndash;3.5, severe above 3.5 mmol/L.</li>
+    <li><strong>Hypophosphataemia:</strong> below 0.8 mmol/L. Severe below 0.32 mmol/L (1.0 mg/dL), where weakness, respiratory failure, haemolysis and rhabdomyolysis appear.</li>
+    <li><strong>Hypomagnesaemia:</strong> below 0.7 mmol/L. Severity depends on symptoms and ECG changes as well as the number.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="calcium-reading-it-and-reading-the-patient-without-it" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Calcium: Reading It, and Reading the Patient Without It
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypocalcaemia: the clinical picture</strong>
+  <p class="text-sm">Think of it as neuromuscular irritability. Early: tingling around the mouth and in the fingertips, muscle cramps and irritability. Later: carpopedal spasm, tetany, laryngospasm with stridor, seizures, hypotension and heart failure. Many patients with severe depletion have no symptoms and a normal examination, so absent signs do not exclude it.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li><strong>Trousseau&rsquo;s sign:</strong> inflate a blood pressure cuff above systolic for 3 minutes. Carpal spasm (wrist and finger flexion with thumb adduction) is positive. It is the more specific sign.</li>
+    <li><strong>Chvostek&rsquo;s sign:</strong> tap over the facial nerve in front of the ear. An ipsilateral facial twitch is positive. It is sensitive but not specific, and can occur in up to about 15% of healthy people.</li>
+    <li><strong>ECG:</strong> a prolonged QT interval, from lengthening of the ST segment. Calculate the QTc (Bazett: QT divided by the square root of the RR interval). Only hypothermia and hypocalcaemia prolong QT in this way, but the finding is not specific. Severe prolongation risks torsades de pointes.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Causes to match to the history</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Hypoparathyroidism after thyroid or neck surgery</strong> is the commonest cause of acute symptomatic hypocalcaemia in hospital practice. Onset is usually in the first days after surgery.</li>
+    <li><strong>Calcium or vitamin D deficiency</strong> (rickets in children, osteomalacia in adults), chronic kidney disease, and hypomagnesaemia.</li>
+    <li><strong>Acute illness:</strong> pancreatitis, sepsis, rhabdomyolysis, tumour lysis syndrome, and massive transfusion, where citrate in the blood products binds calcium.</li>
+    <li><strong>Drugs:</strong> loop diuretics, phenytoin, cimetidine and some cytotoxic agents.</li>
+    <li><strong>Neonates:</strong> early hypocalcaemia in the first days and late hypocalcaemia towards the end of the first week, with jitteriness and seizures.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treating it</strong>
+  <p class="text-sm">Severe or symptomatic hypocalcaemia is an emergency. In an adult, the Society for Endocrinology advises 10&ndash;20 mL of 10% calcium gluconate in 50&ndash;100 mL of 5% dextrose over 10 minutes with ECG monitoring, followed by an infusion (for example 100 mL of 10% calcium gluconate in 1 litre of 5% dextrose or normal saline at 50&ndash;100 mL/hour) until oral treatment takes effect. Calcium gluconate is the preferred salt because it is kinder to veins. Calcium chloride delivers far more elemental calcium per mL and belongs in a central line. Do not mix calcium with bicarbonate or phosphate. Take extra care in patients on digoxin. Check and correct magnesium at the same time, because the hypocalcaemia will not respond until it is replaced. For children and neonates, use a weight-based dose from your paediatric protocol, give it slowly, and monitor the heart rate.</p>
+  <p class="text-sm mt-2">When the patient has tetany, laryngospasm or a seizure with a compatible cause (for example a neck operation a day or two ago), give calcium first and send the sample at the same time. Check blood glucose in any seizure.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypercalcaemia: the clinical picture</strong>
+  <p class="text-sm">Thirst, polyuria and dehydration come first, because calcium impairs the kidney&rsquo;s concentrating ability and vomiting reduces intake, which worsens the hypercalcaemia. Add nausea, vomiting, constipation, abdominal pain, confusion, drowsiness and, above 3.5 mmol/L, coma and arrhythmia. Renal stones and bone pain suggest chronic disease. The ECG shows a shortened QT interval.</p>
+  <p class="text-sm mt-2">About 90% of cases are primary hyperparathyroidism or malignancy. Hyperparathyroidism usually causes mild, chronic elevation in outpatients, and malignancy causes more severe, acute elevation in hospitalised patients. In Nigerian practice, think of myeloma (bone pain, anaemia, renal impairment, a very high ESR), bone metastases from breast or prostate cancer, and granulomatous disease such as TB. Also ask about calcium, vitamin D or vitamin A supplements and thiazide diuretics.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treating it</strong>
+  <p class="text-sm">The first step is isotonic saline. The Society for Endocrinology advises aggressive 0.9% saline, about 3&ndash;4 litres in 24 hours, and some protocols use more, adjusted to the heart and kidneys. Loop diuretics are not effective in lowering calcium. After rehydration, give an intravenous bisphosphonate, such as zoledronic acid 4 mg over 15 minutes, when corrected calcium is above 3.0 mmol/L or the patient is symptomatic. The effect starts in about 48 hours and the nadir is at 2&ndash;4 days. Stop calcium and vitamin D supplements. Steroids help in vitamin D&ndash;mediated and granulomatous causes. Rehydration can provoke hypokalaemia and hypomagnesaemia, so check potassium and magnesium. If you cannot measure calcium and the picture is typical (a cancer patient who is confused, constipated, polyuric and dry), start rehydration while you arrange a calcium. Hold the bisphosphonate until the diagnosis is confirmed.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Published protocols differ on details. The first IV calcium gluconate dose is 10 mL in some sources and 10&ndash;20 mL in others. The saline volume for hypercalcaemia is 3&ndash;4 litres in 24 hours in some guidance and 4&ndash;6 litres in others. Doses and volumes here come from adult guidance and assume normal heart and kidney function. Follow your institution&rsquo;s protocol, monitor the ECG and urine output, and treat the trend, not a single volume.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="phosphate-reading-it-and-reading-the-patient-without-it" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Phosphate: Reading It, and Reading the Patient Without It
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Low phosphate</strong>
+  <p class="text-sm">Phosphate is the substrate for ATP, so deficiency shows up in the tissues that need the most energy: muscle, the diaphragm, the heart, red cells and the brain. Symptoms appear below about 0.3 mmol/L: generalised weakness, myopathy and rhabdomyolysis, respiratory muscle failure (slow weaning from a ventilator, or breathlessness), haemolysis, confusion, seizures and arrhythmia. Mild hypophosphataemia is usually asymptomatic.</p>
+  <p class="text-sm mt-2"><strong>The clue is the setting, not the number.</strong> The commonest causes are alcohol misuse, recovery from diabetic ketoacidosis, refeeding after starvation or malnutrition, respiratory alkalosis (hyperventilation), sepsis, and rapid cell turnover in leukaemia or lymphoma. If a patient who has just started feeding, insulin or treatment for DKA develops weakness, breathlessness or dark urine, suspect low phosphate and low potassium and magnesium with it.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Refeeding syndrome</strong>
+  <p class="text-sm">After a prolonged period of poor intake, a sudden supply of carbohydrate drives insulin up and pulls phosphate, potassium and magnesium into cells. Patients at risk include those who have eaten little for several days, with low body weight or recent weight loss, those with chronic alcohol use, and malnourished children and adults. Give thiamine before feeding starts, reintroduce feeding slowly and increase it in steps, and check phosphate, potassium and magnesium early and often where you can. Where you cannot, watch for weakness, oedema, breathlessness, arrhythmia and falling urine output over the first days, and replace potassium and magnesium empirically within renal limits. Children with severe acute malnutrition should be managed on the national or WHO protocol for therapeutic feeds, which already allows for these shifts, and not on improvised feeds.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">High phosphate</strong>
+  <p class="text-sm">The causes are chronic kidney disease (reduced excretion), tumour lysis syndrome, rhabdomyolysis, and hypoparathyroidism. The danger is the calcium drop and calcium phosphate precipitation in tissue and kidney tubules.</p>
+  <p class="text-sm mt-2"><strong>Tumour lysis syndrome (TLS)</strong> matters because lymphoproliferative cancers, including Burkitt lymphoma and acute lymphoblastic leukaemia, are seen in Nigerian paediatric oncology. It typically appears within about 3 days before to 7 days after starting treatment. The standard (Cairo&ndash;Bishop) laboratory definition needs two or more of: uric acid 476 &micro;mol/L or above, potassium 6.0 mmol/L or above, phosphate 1.45 mmol/L or above in adults (2.1 mmol/L or above in children), and calcium 1.75 mmol/L or below, or a 25% change from baseline. Clinical TLS adds renal impairment, arrhythmia or sudden death, or seizures.</p>
+  <p class="text-sm mt-2"><strong>Without the chemistry,</strong> recognise the setting (a large tumour burden, a high LDH, a bulky abdomen, a very high white count, renal impairment before treatment) and monitor what you can: strict fluid balance and hourly urine output, daily weight, an ECG for peaked T waves and arrhythmia, and early signs such as tetany, cramps, nausea or seizures. Start vigorous hydration and a urate-lowering agent before chemotherapy. Rasburicase is contraindicated in G6PD deficiency, so check G6PD first where possible (see the G6PD guide). If urine output falls despite fluids, or arrhythmia or seizures appear, the patient needs dialysis-capable care, so arrange transfer early.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Phosphate in rickets</strong>
+  <p class="text-sm">The classic textbook teaches low phosphate in rickets. Nigerian children with nutritional rickets typically have low or low-normal calcium, raised alkaline phosphatase and normal phosphate, because the cause is dietary calcium deficiency. Do not use a normal phosphate to exclude rickets here (section 7).</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="magnesium-reading-it-and-reading-the-patient-without-it" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Magnesium: Reading It, and Reading the Patient Without It
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypomagnesaemia</strong>
+  <p class="text-sm">Serum magnesium reflects only about 1% of body stores. A low level means a real deficit, but a normal level does not exclude one. The clinical picture is nonspecific: tremor, cramps, tetany, hyperreflexia, and arrhythmia. It is often found only because something else fails to correct: <strong>hypokalaemia that will not respond to potassium</strong> (hypokalaemia occurs in about 40&ndash;60% of patients with hypomagnesaemia) and <strong>hypocalcaemia that will not respond to calcium</strong>.</p>
+  <p class="text-sm mt-2">Causes to match to the history: loop and thiazide diuretics (for example in heart failure), proton pump inhibitors taken for long periods, alcohol, chronic diarrhoea or malabsorption, malnutrition, diabetic ketoacidosis, and drugs such as aminoglycosides, amphotericin B and cisplatin. Any patient with a diarrhoeal illness, malnutrition or alcohol excess is a candidate.</p>
+  <p class="text-sm mt-2"><strong>ECG:</strong> prolonged QT (the commonest change), and sometimes a prolonged PR interval or wide QRS, with a risk of polymorphic ventricular tachycardia (torsades de pointes), especially with low potassium.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Replacing it</strong>
+  <p class="text-sm">For a symptomatic patient or arrhythmia with normal renal function, give 2 g (8 mmol) of magnesium sulfate intravenously over 15 minutes, up to 60 minutes in a stable patient. Severe depletion needs repeated doses or an infusion over 24 hours. Halve the dose when the eGFR is below 30 mL/min. Oral magnesium is poorly absorbed and causes diarrhoea. A trial of magnesium is cheap and relatively safe when kidney function is normal, and it is reasonable in a patient with refractory hypokalaemia or hypocalcaemia and a compatible cause, even if no level is available.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypermagnesaemia and magnesium sulfate in eclampsia</strong>
+  <p class="text-sm">Toxicity is almost always iatrogenic or from renal failure. In Nigeria the setting is magnesium sulfate for pre-eclampsia and eclampsia, usually given without serum levels. Safe practice relies on clinical monitoring. Magnesium effects progress in a predictable order: the patellar reflex is lost first (about 3.5&ndash;5 mmol/L), then respiratory depression (about 5&ndash;6.5 mmol/L), then cardiac arrest at higher levels.</p>
+  <p class="text-sm mt-2">WHO-based guidance for the commonly used regimen is a loading dose of 4 g IV over 15&ndash;20 minutes plus 10 g IM (5 g in each buttock), followed by 5 g IM every 4 hours, or an IV maintenance of 1 g/hour, according to your national protocol. Before each maintenance dose, check that:</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>The respiratory rate is at least 16 per minute.</li>
+    <li>The patellar reflexes are present.</li>
+    <li>Urine output is at least 30 mL per hour over the preceding 4 hours.</li>
+  </ul>
+  <p class="text-sm mt-2">If any of these fails, withhold the next dose. If there are signs of toxicity, stop the magnesium and give <strong>calcium gluconate 1 g (10 mL of 10%) IV slowly over about 3 minutes</strong> as the antidote, and support the airway. Keep calcium gluconate and bag-and-mask ventilation at the bedside. Take particular care in renal impairment, where doses accumulate. Seizures can recur after the antidote, because calcium temporarily reverses the anticonvulsant effect.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-proxies-at-a-glance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Clinical Proxies at a Glance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Proxy</th>
+        <th class="py-2 pr-3">What it points to</th>
+        <th class="py-2 pr-3">Limits</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Perioral and fingertip tingling, cramps, tetany, stridor, seizure</td><td class="py-2 pr-3">Low ionised calcium (or low magnesium)</td><td class="py-2 pr-3">Seizures also come from low glucose, sepsis and eclampsia. Check glucose.</td></tr>
+      <tr><td class="py-2 pr-3">Trousseau&rsquo;s sign</td><td class="py-2 pr-3">Hypocalcaemia or hypomagnesaemia</td><td class="py-2 pr-3">Uncomfortable for 3 minutes. Absent in many severe cases.</td></tr>
+      <tr><td class="py-2 pr-3">Chvostek&rsquo;s sign</td><td class="py-2 pr-3">Neuromuscular irritability</td><td class="py-2 pr-3">Seen in up to about 15% of healthy people.</td></tr>
+      <tr><td class="py-2 pr-3">ECG: prolonged QTc</td><td class="py-2 pr-3">Low calcium, low magnesium, low potassium, or a QT-prolonging drug</td><td class="py-2 pr-3">Not specific. Check the drug list.</td></tr>
+      <tr><td class="py-2 pr-3">ECG: short QT</td><td class="py-2 pr-3">Hypercalcaemia</td><td class="py-2 pr-3">Subtle. Compare with a previous tracing if you have one.</td></tr>
+      <tr><td class="py-2 pr-3">Polyuria, dehydration, constipation, confusion in a cancer patient</td><td class="py-2 pr-3">Hypercalcaemia</td><td class="py-2 pr-3">Other causes of dehydration and confusion are common.</td></tr>
+      <tr><td class="py-2 pr-3">New weakness, breathlessness or dark urine after feeding or insulin starts</td><td class="py-2 pr-3">Hypophosphataemia with low potassium and magnesium (refeeding)</td><td class="py-2 pr-3">Check glucose and potassium, and consider other causes of respiratory failure.</td></tr>
+      <tr><td class="py-2 pr-3">Potassium or calcium that will not correct</td><td class="py-2 pr-3">Magnesium deficiency</td><td class="py-2 pr-3">A trial of magnesium confirms it. Needs normal renal function.</td></tr>
+      <tr><td class="py-2 pr-3">Lost patellar reflex, slow breathing, low urine output on magnesium sulfate</td><td class="py-2 pr-3">Magnesium toxicity</td><td class="py-2 pr-3">Stop the infusion and give calcium gluconate.</td></tr>
+      <tr><td class="py-2 pr-3">Oliguria, arrhythmia, seizures after cancer treatment starts</td><td class="py-2 pr-3">Tumour lysis syndrome (high phosphate, potassium, uric acid; low calcium)</td><td class="py-2 pr-3">Needs urgent hydration and renal-capable care.</td></tr>
+      <tr><td class="py-2 pr-3">Alkaline phosphatase, albumin, urea and creatinine</td><td class="py-2 pr-3">ALP for bone disease and rickets, albumin for calcium correction, renal function for phosphate, calcium and magnesium handling</td><td class="py-2 pr-3">Indirect, but often available when the ions are not.</td></tr>
+      <tr><td class="py-2 pr-3">Wrist X-ray in a child</td><td class="py-2 pr-3">Rickets (cupping, fraying and widening of the metaphyses)</td><td class="py-2 pr-3">Needs a radiograph and an interpreter.</td></tr>
+      <tr><td class="py-2 pr-3">Response to a trial of treatment</td><td class="py-2 pr-3">Supports the diagnosis if tetany or an arrhythmia resolves</td><td class="py-2 pr-3">A response does not prove the cause.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="rickets-in-nigerian-children-a-calcium-problem" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Rickets in Nigerian Children: a Calcium Problem
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Nutritional rickets in most Nigerian children results from inadequate dietary calcium, not vitamin D deficiency. Studies in northern Nigerian children found typical calcium intakes of about 200 mg a day, which is a fraction of recommended intakes. Affected children had low or low-normal calcium, raised alkaline phosphatase and normal phosphate, and healed with calcium alone.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Clinical diagnosis:</strong> delayed walking, bowed legs or knock knees, widened wrists and ankles, rachitic rosary, frontal bossing, bone pain, and an irritable, listless child who is often on a mainly cereal diet with little dairy. Look at the diet in detail.</li>
+  <li><strong>Alkaline phosphatase:</strong> in calcium-deprived Nigerian children, ALP above 350 U/L identified rickets with a sensitivity of about 93% and a specificity of about 92%. It needs validating in other populations, but where calcium and phosphate are unavailable, ALP and a wrist X-ray are the practical tests.</li>
+  <li><strong>Treatment:</strong> calcium. In a trial in Nigerian children, daily calcium of 1000 mg or 2000 mg healed rickets faster than 500 mg, and 2000 mg gave no extra benefit over 1000 mg. Some children took longer than 24 weeks. Other Nigerian trials found calcium alone, or calcium with vitamin D, worked better than vitamin D alone, and that adding vitamin D to calcium speeds healing. Follow your national or specialist protocol for doses, and deal with the diet.</li>
+  <li><strong>Prevention:</strong> dietary calcium, from dairy where available or from calcium-rich local foods such as ground fish, and calcium supplements in at-risk children.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sample-and-method-pitfalls" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Sample and Method Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">EDTA contamination (EDTA tube drawn before the serum tube, or EDTA blood used for chemistry)</td><td class="py-2 pr-3">Falsely low calcium, magnesium and alkaline phosphatase, with falsely high potassium. A grossly abnormal pattern with a well patient is the clue.</td><td class="py-2 pr-3">Draw serum or heparin tubes before EDTA. Repeat the sample. Do not treat on the strange result alone.</td></tr>
+      <tr><td class="py-2 pr-3">Haemolysis</td><td class="py-2 pr-3">Falsely raises magnesium and phosphate (and potassium). It can hide true hypomagnesaemia and hypophosphataemia.</td><td class="py-2 pr-3">Avoid small needles, forceful aspiration and shaking. Recollect if serum is pink.</td></tr>
+      <tr><td class="py-2 pr-3">Delayed separation of serum</td><td class="py-2 pr-3">Phosphate and potassium leak from cells and rise.</td><td class="py-2 pr-3">Separate promptly (within about 2 hours). Do not refrigerate unseparated blood.</td></tr>
+      <tr><td class="py-2 pr-3">Prolonged tourniquet or fist clenching</td><td class="py-2 pr-3">Haemoconcentration raises protein-bound calcium, albumin and potassium.</td><td class="py-2 pr-3">Keep tourniquet time under one minute and release before drawing if possible.</td></tr>
+      <tr><td class="py-2 pr-3">Hypoalbuminaemia</td><td class="py-2 pr-3">Low total calcium without low free calcium.</td><td class="py-2 pr-3">Always request albumin and correct. Prefer ionised calcium where available.</td></tr>
+      <tr><td class="py-2 pr-3">Ionised calcium sample</td><td class="py-2 pr-3">Air exposure and delay change pH and the result. Haemolysis can lower it.</td><td class="py-2 pr-3">Collect anaerobically in a heparinised syringe, transport promptly and follow the analyser&rsquo;s instructions.</td></tr>
+      <tr><td class="py-2 pr-3">Drip-arm contamination</td><td class="py-2 pr-3">Dilution lowers all ions.</td><td class="py-2 pr-3">Draw from the opposite arm.</td></tr>
+      <tr><td class="py-2 pr-3">Unit confusion (mmol/L against mg/dL)</td><td class="py-2 pr-3">A calcium of 2.2 read as 8.8, or a magnesium misjudged.</td><td class="py-2 pr-3">Check units and ranges on the report before acting.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Day 2 after thyroidectomy: tingling around the mouth, cramping hands, Trousseau&rsquo;s sign positive</strong>
+  <p class="text-sm">Hypocalcaemia from hypoparathyroidism. Do not wait for the result. Put on an ECG monitor, give IV calcium gluconate, send calcium, albumin and magnesium, and correct magnesium. Then start oral calcium and, where available, a vitamin D analogue (alfacalcidol or calcitriol), and follow the calcium. Warn the surgical team, because it may be temporary or permanent.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neonate on day 5, jittery with a seizure</strong>
+  <p class="text-sm">Check blood glucose first. Treat for sepsis and meningitis if there are signs. Hypocalcaemia is a common cause at this age. Give a slow, weight-based IV calcium gluconate dose from your neonatal protocol with heart rate monitoring, and stop if bradycardia develops. Send the sample, and ask about maternal diabetes, prematurity and birth asphyxia.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Toddler with bowed legs, widened wrists and delayed walking</strong>
+  <p class="text-sm">Rickets until proved otherwise. Take a diet history (cereal, little milk or fish), get a wrist X-ray and an alkaline phosphatase if you can. A normal phosphate does not argue against it here. Treat with calcium, with vitamin D added per protocol, and fix the diet. Follow the child for healing and bone pain.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman with eclampsia on magnesium sulfate, no levels available</strong>
+  <p class="text-sm">Use the bedside checks before every maintenance dose: respiratory rate 16 or more, patellar reflex present, urine output at least 30 mL/hour over 4 hours. Keep calcium gluconate and a bag-and-mask at the bedside. If the reflex goes or breathing slows, stop the infusion and give calcium gluconate 1 g slowly. Reduce or hold doses if urine output is falling.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with Burkitt lymphoma about to start chemotherapy</strong>
+  <p class="text-sm">High risk for tumour lysis. Hydrate vigorously, start a urate-lowering agent, monitor urine output hourly, and check potassium, creatinine, uric acid, phosphate, calcium and LDH where available. Without the chemistry, watch the urine output, the ECG and for tetany or seizures. Check G6PD first if rasburicase is planned, because it is contraindicated in deficiency. If urine output falls or arrhythmia appears, arrange renal support early.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Older man with prostate cancer: confused, constipated, vomiting and passing a lot of urine</strong>
+  <p class="text-sm">Think hypercalcaemia of malignancy. Rehydrate with isotonic saline, check urea, creatinine and calcium with albumin, and look for a short QT on the ECG. Stop any calcium or vitamin D supplements. If corrected calcium is above 3.0 mmol/L or he is symptomatic after fluids, give a bisphosphonate where available, with the renal dose adjustment. Review the painkillers and other drugs that add to confusion.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Malnourished adult or child on day 3 of refeeding, now weak and breathless</strong>
+  <p class="text-sm">Suspect refeeding hypophosphataemia, with low potassium and magnesium. Slow the feeding rate, make sure thiamine has been given, check glucose, replace potassium and magnesium within renal limits, and replace phosphate by the oral or IV route per protocol if you can measure it. Consider other causes of breathlessness, such as pneumonia and heart failure.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient on furosemide with hypokalaemia that will not correct</strong>
+  <p class="text-sm">Think magnesium deficiency. Give magnesium (2 g IV magnesium sulfate if renal function is normal) alongside potassium, review the diuretic dose, and check the ECG for a long QT. Potassium will not stay in cells while magnesium is low.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Look at the patient first.</strong> Tetany, stridor, seizure, arrhythmia, reflexes, breathing, urine output and mental state.</li>
+  <li><strong>Check the ECG and the QTc</strong> if you can. Long points to low calcium, magnesium or potassium. Short points to high calcium.</li>
+  <li><strong>Check the sample.</strong> Serum or heparin, not EDTA. Unhaemolysed, separated promptly, and drawn from the arm without a drip.</li>
+  <li><strong>Correct the calcium for albumin,</strong> or use ionised calcium if you have it. Do not let a normal corrected value override a clear clinical picture.</li>
+  <li><strong>Read each ion in context:</strong> hypoparathyroidism, malnutrition and refeeding, tumour lysis, renal failure, magnesium sulfate therapy, drugs.</li>
+  <li><strong>Remember the links.</strong> Replace magnesium when calcium or potassium will not correct. Expect low calcium when phosphate is high.</li>
+  <li><strong>Treat and reassess.</strong> Calcium gluconate for tetany or a seizure, saline for hypercalcaemia, thiamine and slow feeding in refeeding, calcium gluconate for magnesium toxicity. Re-check the signs and, where possible, the numbers.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Stridor, tetany or a seizure after neck surgery.</strong> Hypocalcaemia with laryngospasm. Give IV calcium gluconate at once with ECG monitoring.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Absent patellar reflex, slow breathing or little urine on magnesium sulfate.</strong> Magnesium toxicity. Stop the infusion, give calcium gluconate 1 g slowly and support breathing.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Oliguria, arrhythmia or seizures after starting chemotherapy for lymphoma or leukaemia.</strong> Tumour lysis syndrome. Hydrate, protect the kidney, get an ECG and arrange renal-capable care early.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Confusion, vomiting and polyuria in a patient with cancer.</strong> Hypercalcaemia, which can progress to coma and arrhythmia. Rehydrate and measure calcium.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A long QTc with palpitations or syncope.</strong> Risk of torsades de pointes. Correct potassium, magnesium and calcium, and stop QT-prolonging drugs.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Weakness and breathlessness within days of refeeding or DKA treatment.</strong> Hypophosphataemia with low potassium and magnesium. Slow the feeding and replace.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A very abnormal electrolyte result in a well patient.</strong> Suspect EDTA contamination (low calcium, magnesium and ALP with high potassium) before treating. Repeat the sample.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A normal corrected calcium in a patient with tetany or a long QT.</strong> Do not rely on it. Ionised calcium may be low, so treat on the clinical picture.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat tetany, stridor, seizures and arrhythmia with a compatible cause on the clinical picture. Do not wait for the number. Check glucose in any seizure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Correct total calcium for albumin (add 0.02 &times; (40 &minus; albumin g/L) mmol/L), and do not trust a normal corrected value against a clear picture. Ionised calcium is better.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Trousseau is more specific than Chvostek. A long QTc suggests low calcium, magnesium or potassium, and a short QT suggests hypercalcaemia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Hypercalcaemia: about 90% is hyperparathyroidism or malignancy. Rehydrate with saline first, then a bisphosphonate if above 3.0 mmol/L or symptomatic, and stop calcium and vitamin D.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Low magnesium causes refractory hypokalaemia and hypocalcaemia. Replace it when they will not correct. In eclampsia, monitor reflexes, respiratory rate (16 or more) and urine output (30 mL/h or more) instead of levels, and keep calcium gluconate ready.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Suspect hypophosphataemia after refeeding or DKA treatment, and tumour lysis (high phosphate, low calcium) after chemotherapy for lymphoma or leukaemia. Prevent both with slow feeding, thiamine, hydration and monitoring.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Rickets in Nigerian children is mostly calcium deficiency with a normal phosphate. ALP above 350 U/L and a wrist X-ray are the practical tests, and the treatment is calcium.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">Society for Endocrinology. Endocrine emergency guidance: emergency management of acute hypocalcaemia in adult patients.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Society for Endocrinology. Endocrine emergency guidance: emergency management of acute hypercalcaemia in adult patients.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Recommendations for the prevention and treatment of pre-eclampsia and eclampsia, including magnesium sulfate regimens and clinical monitoring.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Standard (Cairo&ndash;Bishop) laboratory and clinical definitions of tumour lysis syndrome.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published institutional guidelines on hypomagnesaemia, hypophosphataemia and malignant hypercalcaemia (adult), and reviews of refeeding syndrome.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies and randomised trials of calcium and vitamin D in nutritional rickets, including the validity of alkaline phosphatase and the dose of calcium.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published guidance on pre-analytical interference in clinical chemistry (EDTA contamination, haemolysis, delayed separation, tourniquet time and ionised calcium collection).</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'lab-malaria-parasite-test',
+  title: 'Malaria Parasite Test: Microscopy and RDT',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Parasitology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; PARASITOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Malaria Parasite Test: Microscopy and RDT</h1>
+  <p class="text-sm text-indigo-200">&ldquo;MP&rdquo; is the most requested test in Nigeria and the most over-trusted. A positive result shows that parasites are in the blood. It does not show that they are the cause of the fever. A negative result is good news that should redirect the search, not trigger a repeat until it turns positive. This guide covers how each method works, the large and practical problem of false positives and false negatives, the difference between parasitaemia and disease, severe malaria, and the habit of labelling every fever as &ldquo;malaria&rdquo; or &ldquo;malaria and typhoid&rdquo; that harms patients here every day.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-the-test-asks-and-the-question-it-cannot-answer" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What the Test Asks, and the Question It Cannot Answer</span></a></li>
+  <li><a href="#microscopy-how-it-is-done-and-how-to-read-the-report" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Microscopy: How It Is Done and How to Read the Report</span></a></li>
+  <li><a href="#rdts-what-they-detect-and-where-they-fail" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>RDTs: What They Detect and Where They Fail</span></a></li>
+  <li><a href="#microscopy-and-rdt-compared" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Microscopy and RDT Compared</span></a></li>
+  <li><a href="#false-positives" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>False Positives</span></a></li>
+  <li><a href="#false-negatives" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>False Negatives</span></a></li>
+  <li><a href="#parasitaemia-is-not-the-same-as-disease" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Parasitaemia Is Not the Same as Disease</span></a></li>
+  <li><a href="#when-parasitaemia-and-disease-coincide-severe-malaria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>When Parasitaemia and Disease Coincide: Severe Malaria</span></a></li>
+  <li><a href="#the-overdiagnosis-culture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>The Overdiagnosis Culture</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Special Situations</span></a></li>
+  <li><a href="#quality-sample-and-technique-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Quality, Sample and Technique Pitfalls</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-test-asks-and-the-question-it-cannot-answer" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What the Test Asks, and the Question It Cannot Answer
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The malaria parasite test asks one question: are <em>Plasmodium</em> parasites (or their antigens) in this blood sample? That is a question about the blood. The clinician&rsquo;s question is different: is malaria the reason this patient is ill? The test cannot answer the second question on its own, and in Nigeria the gap between the two is wide.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why the gap is wide here</strong>
+  <p class="text-sm"><em>P. falciparum</em> causes about 95% of malaria infections in Nigeria, and transmission is intense across most of the country. In the 2021 national survey, 38.5% of children aged 6&ndash;59 months had a positive RDT, down from 44.3% in 2015 and 51.2% in 2010. Many of those children were not unwell on the day. In people who have been exposed to malaria repeatedly, immunity develops and infections can persist without symptoms, so parasites are often found in blood films regardless of the clinical context.</p>
+</div>
+<p class="text-sm">Three terms are used in this guide and must stay separate:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Parasitaemia:</strong> parasites are present in the blood. This is what the test detects.</li>
+  <li><strong>Clinical (uncomplicated) malaria:</strong> parasitaemia that is causing fever and illness.</li>
+  <li><strong>Severe malaria:</strong> parasitaemia with organ dysfunction or one of the WHO severity features, in the absence of another explanation (section 8).</li>
+</ul>
+<p class="text-sm">National policy, in line with WHO, is to confirm malaria with microscopy or an RDT before treating. That policy depends on understanding what a positive and a negative result actually mean.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="microscopy-how-it-is-done-and-how-to-read-the-report" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Microscopy: How It Is Done and How to Read the Report
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Thick and thin films</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Thick film:</strong> a drop of blood spread over a small circle, dried, and stained unfixed so the red cells lyse. It concentrates a large volume of blood and is used to detect parasites. It is far more sensitive than the thin film, but harder to read, and it does not allow reliable species identification.</li>
+    <li><strong>Thin film:</strong> a single layer of cells, air-dried and fixed in methanol before staining. It is used to identify the species and to count the percentage of infected red cells when parasitaemia is high.</li>
+    <li><strong>Stain:</strong> Giemsa (or Field&rsquo;s or Leishman&rsquo;s in some settings). Wright stain alone does not reliably show the parasites.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How long to look before calling it negative</strong>
+  <p class="text-sm">The WHO standard procedure asks for a minimum of 100 oil-immersion fields on the thick film before a slide is reported negative. Some guidance asks for two trained readers, each viewing 200 fields. Detection is density-dependent. In a field study, experts reached 100% sensitivity above 200 parasites/&micro;L and qualified readers above 500 parasites/&micro;L. In practice the lower limit of detection is about 10&ndash;90 parasites/&micro;L, depending on reader skill and film quality.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Calculating parasite density</strong>
+  <p class="text-sm">On the thick film, count asexual parasites against white blood cells in the same fields until you have counted 200 white cells (continue to 500 white cells if there are fewer than 10 parasites per 200). Then:</p>
+  <p class="text-sm mt-2"><strong>Parasites per &micro;L = parasites counted &times; WBC count per &micro;L &divide; WBCs counted.</strong></p>
+  <p class="text-sm mt-2">Example: 120 parasites against 200 WBC with an assumed WBC of 8,000/&micro;L gives 120 &divide; 200 &times; 8,000 = 4,800 parasites/&micro;L. If the patient&rsquo;s WBC count is known, use it. The 8,000 assumption is biased. Across a large multi-country analysis it underestimated density by a median of about 26% in infants under 1 year and overestimated it by about 50% in adults, so measure the WBC count where you can.</p>
+  <p class="text-sm mt-2">For high densities, use the thin film and count the percentage of infected red cells. At a normal red cell count of about 4&ndash;5 &times; 10<sup>6</sup>/&micro;L, 1% parasitaemia corresponds to roughly 40,000&ndash;50,000 parasites/&micro;L. In severe anaemia the same percentage represents fewer parasites per &micro;L, because there are fewer red cells.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reading the report</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Report says</th>
+          <th class="py-2 pr-3">What it means</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">&ldquo;<em>P. falciparum</em>, 4,800 parasites/&micro;L&rdquo;</td><td class="py-2 pr-3">Species and a calculated density. The most useful format. Ask for it.</td></tr>
+        <tr><td class="py-2 pr-3">&ldquo;MP +&rdquo;, &ldquo;++&rdquo;, &ldquo;+++&rdquo;, &ldquo;++++&rdquo;</td><td class="py-2 pr-3">A semi-quantitative field grade, classically +: 1&ndash;10 parasites per 100 high-power fields, ++: 11&ndash;100 per 100 fields, +++: 1&ndash;10 per field, ++++: more than 10 per field. It is approximate, varies between laboratories, and is not a density.</td></tr>
+        <tr><td class="py-2 pr-3">&ldquo;Scanty&rdquo; or &ldquo;few&rdquo;</td><td class="py-2 pr-3">Vague. It could be a handful of parasites or an artefact. Ask for the count and the species.</td></tr>
+        <tr><td class="py-2 pr-3">&ldquo;Gametocytes seen&rdquo;</td><td class="py-2 pr-3">Sexual forms. They do not cause the acute illness but show that the person carries the infection.</td></tr>
+        <tr><td class="py-2 pr-3">&ldquo;No parasites seen&rdquo;</td><td class="py-2 pr-3">Negative on that film, after the stated number of fields. It does not exclude a very low-density infection.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="rdts-what-they-detect-and-where-they-fail" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+RDTs: What They Detect and Where They Fail
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A malaria RDT is a lateral-flow strip that uses antibodies to capture parasite antigen in a drop of blood. It needs no electricity, no microscope and little training, which is why RDTs have extended testing to primary care. The antigens targeted are:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>PfHRP2</strong> (histidine-rich protein 2): specific to <em>P. falciparum</em>, abundant and heat-stable. It remains in the blood for weeks after the parasites have gone (section 5).</li>
+  <li><strong>pLDH</strong> (parasite lactate dehydrogenase): produced only by living parasites, so it clears quickly after treatment. Some lines are specific to <em>P. falciparum</em> and others are pan-species.</li>
+  <li><strong>Aldolase:</strong> a pan-species antigen used in some combination kits.</li>
+</ul>
+<p class="text-sm">Commonly used kits detect HRP2, with or without a pan-species line. A kit with only an HRP2 line will miss other species such as <em>P. malariae</em> and <em>P. ovale</em>.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Performance limits</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>The detection threshold of a standard RDT is about 100 parasites/&micro;L (roughly 0.002% parasitaemia). Densities below this can be missed.</li>
+    <li>Heat and humidity degrade the antibodies and reagents on the strip. A kit that has sat in a hot store room or vehicle may fail.</li>
+    <li>Results depend on the user: the volume of blood and buffer, the reading time, and the interpretation of faint lines.</li>
+    <li>WHO runs lot-testing and product-testing programmes. Use kits that have passed them, and do not use expired stock.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="microscopy-and-rdt-compared" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Microscopy and RDT Compared
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Feature</th>
+        <th class="py-2 pr-3">Microscopy</th>
+        <th class="py-2 pr-3">RDT</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Needs</td><td class="py-2 pr-3">Microscope, light, stain, trained reader, time</td><td class="py-2 pr-3">The kit, a lancet, a clock</td></tr>
+      <tr><td class="py-2 pr-3">Time to result</td><td class="py-2 pr-3">About 30&ndash;60 minutes, depending on queues</td><td class="py-2 pr-3">About 15&ndash;20 minutes</td></tr>
+      <tr><td class="py-2 pr-3">Lower limit of detection</td><td class="py-2 pr-3">About 10&ndash;90 parasites/&micro;L in practice, better in expert hands</td><td class="py-2 pr-3">About 100 parasites/&micro;L</td></tr>
+      <tr><td class="py-2 pr-3">Species</td><td class="py-2 pr-3">Yes, on the thin film</td><td class="py-2 pr-3">Falciparum only, or falciparum versus pan-species, depending on the kit</td></tr>
+      <tr><td class="py-2 pr-3">Parasite density</td><td class="py-2 pr-3">Yes</td><td class="py-2 pr-3">No (present or absent)</td></tr>
+      <tr><td class="py-2 pr-3">Response to treatment</td><td class="py-2 pr-3">Yes: parasites clear</td><td class="py-2 pr-3">HRP2 kits stay positive for weeks and are unsuitable</td></tr>
+      <tr><td class="py-2 pr-3">Main false-positive risk</td><td class="py-2 pr-3">Artefacts mistaken for parasites</td><td class="py-2 pr-3">Persistent HRP2 antigen after cure</td></tr>
+      <tr><td class="py-2 pr-3">Main false-negative risk</td><td class="py-2 pr-3">Low density, poor film, tired or untrained reader</td><td class="py-2 pr-3">Low density, pfhrp2/3 deletions, heat-damaged kits, prozone, non-falciparum species</td></tr>
+      <tr><td class="py-2 pr-3">Quality dependence</td><td class="py-2 pr-3">Reader and stain quality</td><td class="py-2 pr-3">Storage, lot and user technique</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Neither is the better test in all settings. Use the RDT where there is no reliable microscopy. Use microscopy to confirm unexpected RDT results, to identify species, to count severe cases, and to check treatment failure. In a Nigerian study of febrile children in a tertiary clinic, one RDT missed 80 of 134 children with positive films, a reminder that kit quality, storage and technique decide real-world accuracy. In another northern study, an RDT performed well even at low prevalence. Local quality control matters more than the brand.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="false-positives" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+False Positives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Two kinds of &ldquo;false positive&rdquo; matter. The first is a test that is wrong (no parasites, but the test says positive). The second is a test that is right but irrelevant (parasites are present, but not causing this illness). The second kind is far commoner in Nigeria and is covered in section 7. This section deals with the first kind.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">How it happens</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Persistent HRP2 antigen after treatment</strong></td><td class="py-2 pr-3">HRP2 RDT</td><td class="py-2 pr-3">The antigen stays in the blood for weeks after parasites are cleared, commonly up to about 4 weeks and sometimes longer. The duration depends on the density and duration of the previous infection.</td><td class="py-2 pr-3">Always ask about antimalarial treatment, including self-medication, in the last month. Do not repeat an HRP2 RDT to test for cure or recurrence within about 4 weeks. Use microscopy.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Other conditions reacting with the kit</strong></td><td class="py-2 pr-3">RDT</td><td class="py-2 pr-3">Cross-reactivity has been reported with rheumatoid factor and similar antibodies. It is uncommon.</td><td class="py-2 pr-3">If an RDT is positive in a patient with no fever, no risk and a clear alternative diagnosis, confirm with microscopy.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Misreading the strip</strong></td><td class="py-2 pr-3">RDT</td><td class="py-2 pr-3">Faint lines, reading outside the time stated in the kit insert, or a contaminated cassette.</td><td class="py-2 pr-3">Read at the stated time and treat an invalid control line as an invalid test. Have a second person check faint lines.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Platelets on red cells</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">A platelet lying over a red cell looks like a ring form. This is one of the commonest reading errors.</td><td class="py-2 pr-3">Look for the real picture: blue cytoplasm with a red chromatin dot, inside the red cell. Platelets are usually in clumps and lack the ring shape.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Stain precipitate, debris, bacteria, yeast</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">Unfiltered or old stain, dirty slides, contaminated buffer or dust.</td><td class="py-2 pr-3">Filter stain, use clean slides and stain fresh. Parasites are always inside red cells on the thin film.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Reader pressure</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">Fear of missing a positive slide leads to over-reading. Clinicians who ask &ldquo;please look again&rdquo; add to it.</td><td class="py-2 pr-3">Have a second reader confirm a first positive. Report what you see, with a count.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Wrong species</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">Confusing species on the thin film, or ignoring a mixed infection.</td><td class="py-2 pr-3">Species matter for treatment and follow-up. Review difficult films with a more experienced reader or confirm by PCR where it is available.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Sample or report mix-up</strong></td><td class="py-2 pr-3">Both</td><td class="py-2 pr-3">Mislabelled slides, transposed results, a wrong name on the register.</td><td class="py-2 pr-3">Check identifiers at every step. Recollect if a result does not fit the patient.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="false-negatives" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+False Negatives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A false negative in a very sick patient can be fatal. In a mildly ill patient it usually means the infection was below the detection limit, which is rarely the cause of a serious illness. Know the causes so that you can judge which situation you are in.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">How it happens</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Low density</strong></td><td class="py-2 pr-3">Both</td><td class="py-2 pr-3">Early infection, partial immunity, or recent treatment. RDTs miss densities below about 100 parasites/&micro;L, and microscopy has its own limit.</td><td class="py-2 pr-3">If the patient is ill and suspicion is real, repeat or switch methods. Look for other causes in parallel.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>pfhrp2/pfhrp3 gene deletions</strong></td><td class="py-2 pr-3">HRP2 RDT</td><td class="py-2 pr-3">Parasites that do not make HRP2 (and HRP3) cannot be detected by HRP2 kits. Deletions have been reported in Nigeria, with one Nigerian study finding about 17% of isolates lacking pfhrp2 and about 6% lacking pfhrp3. Other settings show wide variation.</td><td class="py-2 pr-3">In a patient who looks like malaria but has a negative RDT, check a film. Report RDT-negative, microscopy-positive pairs to your supervisor and the malaria programme.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Prozone effect</strong></td><td class="py-2 pr-3">HRP2 RDT</td><td class="py-2 pr-3">Very high antigen levels can overwhelm the test and produce a weak or absent line. It can be confirmed by diluting the sample, which brings back the band.</td><td class="py-2 pr-3">In a very ill patient with a negative or faint RDT, get microscopy. A very high density on film with a negative RDT points to this.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Non-falciparum species</strong></td><td class="py-2 pr-3">HRP2-only RDT</td><td class="py-2 pr-3"><em>P. malariae</em> and <em>P. ovale</em> do not make PfHRP2.</td><td class="py-2 pr-3">Use a kit with a pan-species line, or microscopy, in chronic or relapsing fever.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Damaged or expired kit</strong></td><td class="py-2 pr-3">RDT</td><td class="py-2 pr-3">Heat, humidity, or expiry degrade the antibodies. The control line may still look fine.</td><td class="py-2 pr-3">Store as instructed. Check expiry and use new stock. Run known positive controls where possible.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>User error</strong></td><td class="py-2 pr-3">RDT</td><td class="py-2 pr-3">Too little blood, too little buffer, or reading too early.</td><td class="py-2 pr-3">Follow the insert exactly. Train and re-train staff.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Poor film or stain</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">A thick film that is too thin, too thick, washed off, or badly stained hides parasites.</td><td class="py-2 pr-3">Make good films, stain properly, and reject a poor slide. Make fresh slides.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Too few fields</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">Declaring a slide negative after a quick look.</td><td class="py-2 pr-3">Read at least 100 fields before reporting negative.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Sequestration</strong></td><td class="py-2 pr-3">Microscopy</td><td class="py-2 pr-3">Mature forms of <em>P. falciparum</em> attach to small vessels and leave the peripheral blood, so a film can understate the true burden, especially in severe disease.</td><td class="py-2 pr-3">A low count does not rule out severe illness. Base severity on the clinical features.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Placental malaria</strong></td><td class="py-2 pr-3">Both</td><td class="py-2 pr-3">In pregnancy, parasites can accumulate in the placenta while peripheral tests are negative or low.</td><td class="py-2 pr-3">Do not rely on a negative test in a pregnant woman with fever or anaemia and no other cause. Use clinical judgement and the antenatal protocol.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Partial treatment before the test</strong></td><td class="py-2 pr-3">Both</td><td class="py-2 pr-3">Self-medication with antimalarials, or some antibiotics with antimalarial activity, lowers the density. Self-medication before testing is common.</td><td class="py-2 pr-3">Ask what the patient took and when. A low or negative result after partial treatment is less reassuring.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Negative test, ill patient: what to do</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Examine the patient. Treat the clinical picture, not the test.</li>
+    <li>If the first test was an RDT and the patient is ill, ask for microscopy. If microscopy was negative and suspicion persists, repeat the film.</li>
+    <li>Guidance written for non-endemic settings advises repeating films every 12&ndash;24 hours for three days before calling malaria unlikely. In a high-transmission area this must be balanced against incidental positives, so use repeat testing for patients who are getting worse, not for routine reassurance.</li>
+    <li>PCR is a useful complement where available, for confirming a negative film or identifying species.</li>
+    <li>Search for other causes at the same time: pneumonia, urinary tract infection, bacterial sepsis, meningitis, typhoid, viral illness.</li>
+  </ul>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Several figures in the literature come from non-endemic settings and need adapting. Repeating negative films three times is advice for travellers returning from endemic areas. Hyperparasitaemia cut-offs differ: a few guidelines use 2% for non-immune patients and WHO uses above 10% in <em>P. falciparum</em> infections for the severity criterion. Pre-2015 teaching assumed a WBC of 8,000/&micro;L when calculating density, and newer WHO guidance has moved towards counting against measured WBC or a fixed volume of blood. Use your national guideline, state the method on the report, and avoid comparing densities that were calculated differently.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="parasitaemia-is-not-the-same-as-disease" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Parasitaemia Is Not the Same as Disease
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">This is the most important idea in the guide. In a high-transmission country, a positive malaria test in a person with fever does not prove that malaria is causing the fever.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Semi-immunity.</strong> After repeated infections, people tolerate parasites without fever. Asymptomatic carriage is common in older children and adults. In one Kenyan highland cohort over 60% of people could have asymptomatic parasitaemia at any time. Children acquire this tolerance as they grow.</li>
+    <li><strong>The pyrogenic threshold.</strong> The density of parasites needed to cause fever varies with age and with transmission intensity. It is much higher in older children and adults than in young children, and the gap is largest where transmission is intense and year-round. No single threshold works everywhere. Cut-offs in published studies range from about 1,000 parasites/&micro;L in school-age children in one highland study to 5,000/&micro;L in vaccine trial case definitions, and no Nigerian threshold is validated for routine use.</li>
+    <li><strong>Coincidence.</strong> A person who carries parasites and develops pneumonia, a urinary tract infection or typhoid will test positive for malaria. Their parasites are real, but not the cause.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How much of the fever is malaria?</strong>
+  <p class="text-sm">The malaria attributable fraction is the proportion of febrile, parasite-positive patients whose fever is due to the parasites. In a Ugandan cohort followed with quantitative PCR, it was about 72% in children under 5, 56% in children aged 5&ndash;15, and 45% in adults. Put plainly, in a febrile young child a positive test is usually right, while in a febrile adult a positive test is wrong about as often as it is right. These are Ugandan figures and Nigeria will differ by region and season, but the pattern (strong in small children, weak in adults) holds widely.</p>
+  <p class="text-sm mt-2">The same cohort found that nearly half of fevers with low parasite densities (10&ndash;100/&micro;L) were still attributed to malaria. Do not conclude that a low density means an incidental finding. The lesson is that density informs the judgement but never settles it.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interpreting a positive test in a febrile patient</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Situation</th>
+          <th class="py-2 pr-3">What a positive test means</th>
+          <th class="py-2 pr-3">What to do</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Child under 5, fever, no other source</td><td class="py-2 pr-3">Malaria is very likely the cause.</td><td class="py-2 pr-3">Treat with the national first-line ACT. Still examine for pneumonia, UTI and ear infection. Review in 24&ndash;48 hours.</td></tr>
+      <tr><td class="py-2 pr-3">Child under 5, positive test, fast breathing or chest indrawing</td><td class="py-2 pr-3">Malaria may coexist with pneumonia.</td><td class="py-2 pr-3">Treat both, and refer if there are danger signs.</td></tr>
+      <tr><td class="py-2 pr-3">Adult or older child, positive test, but a dominant alternative source (productive cough, dysuria, cellulitis, abscess)</td><td class="py-2 pr-3">The parasites may be incidental or coexisting.</td><td class="py-2 pr-3">Treat the alternative cause and the malaria. Do not stop at malaria.</td></tr>
+      <tr><td class="py-2 pr-3">Positive test, no fever, well (screening, survey, pre-employment)</td><td class="py-2 pr-3">Asymptomatic parasitaemia, not clinical malaria.</td><td class="py-2 pr-3">Manage according to national policy. Do not record or report it as a clinical case.</td></tr>
+      <tr><td class="py-2 pr-3">Very high density, or any severity feature</td><td class="py-2 pr-3">Possible severe malaria (section 8).</td><td class="py-2 pr-3">Assess and treat as an emergency.</td></tr>
+      <tr><td class="py-2 pr-3">Low density with a clear alternative cause</td><td class="py-2 pr-3">May be incidental, but may not be.</td><td class="py-2 pr-3">Treat per national policy, look for and treat the other cause, and review.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="text-sm"><strong>What follows for the laboratory:</strong> report the species and the density (or a clear grade), and write &ldquo;parasites present&rdquo; on the report, not &ldquo;malaria confirmed&rdquo;. The clinician decides whether the parasites explain the illness.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-parasitaemia-and-disease-coincide-severe-malaria" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+When Parasitaemia and Disease Coincide: Severe Malaria
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The WHO definition of severe falciparum malaria needs parasitaemia plus one or more severity features, occurring in the absence of another identified cause. Look for:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Impaired consciousness or coma, prostration (unable to sit or stand unaided), failure to feed, and repeated convulsions (more than two in 24 hours).</li>
+  <li>Respiratory distress, pulmonary oedema or acidosis (bicarbonate below 15 mmol/L or pH below 7.25).</li>
+  <li>Circulatory collapse (shock).</li>
+  <li>Hypoglycaemia (blood glucose below 2.2 mmol/L).</li>
+  <li>Severe anaemia: haemoglobin of 5 g/dL or less in a child with parasitaemia above 10,000/&micro;L.</li>
+  <li>Renal failure, jaundice, abnormal bleeding, and macroscopic haemoglobinuria.</li>
+  <li>Hyperparasitaemia: <em>P. falciparum</em> parasitaemia above 10%, with lower cut-offs used in non-immune patients.</li>
+</ul>
+<p class="text-sm">Severe malaria needs prompt parenteral artesunate (in children under 20 kg 3 mg/kg per dose, and 2.4 mg/kg in those 20 kg and over, given at 0, 12 and 24 hours and then daily), for at least 24 hours until the patient can take an oral ACT to complete the course. Check and correct blood glucose repeatedly, because hypoglycaemia is common and often silent. Use national dosing tables.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Three rules for severe illness</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>The density does not set the severity.</strong> A child with a modest density who is convulsing, with a glucose of 1.5 mmol/L, has severe malaria. A child with a high density who is alert, feeding and has no organ dysfunction is managed on clinical grounds, as the presence of a severity feature is what matters. In an endemic area, parasitaemia plus coma does not prove malaria is the cause, so look for meningitis and sepsis as well.</li>
+    <li><strong>Bacterial infection can coexist.</strong> Severe malaria is associated with a high rate of concurrent bacteraemia, and broad-spectrum antibiotics are given alongside antimalarials until it is excluded.</li>
+    <li><strong>Do not wait for a missing test.</strong> A very sick patient with fever in a malaria-endemic area should not wait for a test that cannot be had in time. Give treatment on suspicion, and confirm when you can. A negative RDT in a very sick patient needs microscopy and a hard look for other causes, not reassurance.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-overdiagnosis-culture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+The Overdiagnosis Culture
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">&ldquo;It is malaria&rdquo; has become the default explanation for fever, headache, weakness and body pain in Nigeria, and &ldquo;malaria and typhoid&rdquo; the default combination. The habit is old and it persists even where testing is available. It has costs.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What the evidence shows</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Treatment ignores the test.</strong> In the national surveys, among febrile children, 30.6% of those with a positive survey RDT and 36.1% of those with a negative RDT had received an antimalarial. Treatment was no more likely in the children with malaria.</li>
+    <li><strong>Providers treat negatives.</strong> A qualitative study of primary health workers in one state found that many still relied on presumptive diagnosis, and prescribed antimalarials after a negative RDT. Reasons given included limited confidence in the test and income.</li>
+    <li><strong>Pharmacies and patients.</strong> Patients commonly walk into a pharmacy and ask for &ldquo;malaria and typhoid drugs&rdquo;. Self-medication before testing is widespread.</li>
+    <li><strong>The Widal trap.</strong> A single Widal test is unreliable for typhoid in an endemic area. In a Nigerian study of 271 febrile adults, a single Widal had a sensitivity of 35%, a specificity of 51% and a positive predictive value of 17% against blood culture. In another study in the south-east, concurrent malaria and typhoid was diagnosed in 57% by serology but 14% by bacteriological methods, so roughly 43% were likely wrongly told they had both. Malaria parasitaemia itself is associated with positive Widal titres. A review calls the &ldquo;malaria-typhoid co-infection&rdquo; a myth sustained by the test.</li>
+    <li><strong>Negatives are not zero risk.</strong> A south-west Nigerian study followed RDT-negative febrile children who were not given antimalarials. Some developed microscopy-positive malaria by day 28. This is why a negative test calls for review if the child does not recover, not for a repeat test the same day.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The costs</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Missed diagnoses.</strong> The child with pneumonia, a urinary infection, sepsis or meningitis who gets an ACT and goes home. The adult with a perforated viscus, a heart problem, or HIV, labelled malaria.</li>
+    <li><strong>Antimicrobial resistance.</strong> Unnecessary antibiotics for &ldquo;typhoid&rdquo; add to a growing resistance problem.</li>
+    <li><strong>Pressure on ACTs.</strong> Artemisinin partial resistance has been confirmed in Eritrea, Rwanda, Uganda and Tanzania. Studies in Nigeria have so far not found the WHO-validated markers, but protecting the drug means using it only where it is needed. Check the latest national and WHO surveillance.</li>
+    <li><strong>Cost and harm to patients.</strong> Money spent on unnecessary drugs and delayed correct treatment, and loss of trust in a negative test.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A better culture, by role</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Clinicians:</strong> test before you treat. Treat positives per the national guideline. For negatives, assess for other causes, treat what you find, and arrange review. Do not order a Widal to &ldquo;go with&rdquo; a positive MP.</li>
+    <li><strong>Laboratories:</strong> report species and density, not &ldquo;malaria confirmed&rdquo;. Keep quality control. Resist repeating a negative film on request without a clinical reason.</li>
+    <li><strong>Pharmacists and patent medicine dealers:</strong> do not sell antimalarials or antibiotics for fever without a test result or a prescriber.</li>
+    <li><strong>Patients and families:</strong> explain what the result means (see the scripts below).</li>
+  </ul>
+</div>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">What patients say</th>
+        <th class="py-2 pr-3">A helpful reply</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">&ldquo;The test is negative but I know it is malaria.&rdquo;</td><td class="py-2 pr-3">&ldquo;A negative test is good news. It means your fever probably has another cause, and we need to find it. If you are not better, come back and we will look again.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;Please give me malaria and typhoid drugs.&rdquo;</td><td class="py-2 pr-3">&ldquo;Taking drugs for illnesses you do not have does not help and can harm you. Let us test, treat what is found, and keep the antibiotic for when it is truly needed.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;The lab said MP plus three, so it must be serious.&rdquo;</td><td class="py-2 pr-3">&ldquo;That is a count of parasites. What matters is how sick you are and what we find on examination.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;I always get malaria every month.&rdquo;</td><td class="py-2 pr-3">&ldquo;Many fevers are not malaria, and you may carry parasites without being ill. We should test each time and look for other causes.&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnancy</strong>
+  <p class="text-sm">Pregnant women lose some of their immunity, and malaria raises the risk of maternal anaemia, low birth weight and stillbirth. Parasites can sit in the placenta with a negative peripheral test. Test every pregnant woman with fever, treat confirmed malaria promptly with a regimen that is safe in pregnancy, and follow the national antenatal malaria prevention policy. Do not use a negative peripheral test to rule out malaria in a pregnant woman who is anaemic or febrile without another cause.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Sickle cell disease</strong>
+  <p class="text-sm">Malaria is a common trigger of crises and anaemia in sickle cell disease, and a fever in a child with SS is an emergency for other reasons too (section 8 of the genotype guide). Test for malaria and treat it if positive, but do not stop there. Check for bacterial sepsis, give antibiotics and compare the Hb with the baseline. Malaria prophylaxis is part of routine care in young children with SS, according to the national guideline.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Non-falciparum and mixed infections</strong>
+  <p class="text-sm"><em>P. malariae</em> and <em>P. ovale</em> occur in Nigeria in small numbers, often mixed with <em>P. falciparum</em>. <em>P. malariae</em> can persist at low density for years and is a recognised cause of nephrotic syndrome in children. An HRP2-only RDT will miss these species, so use microscopy, or a kit with a pan-species line, when the picture suggests them.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">After treatment</strong>
+  <p class="text-sm">Persistent HRP2 can keep an RDT positive for weeks. To check for treatment failure or recurrence, use microscopy and consider the history: did the patient complete the course, vomit the dose, or get a poor-quality drug? Fever within a month of treatment with a positive film should prompt a review of adherence and drug quality, and referral if it persists.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="quality-sample-and-technique-pitfalls" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Quality, Sample and Technique Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Films not made from fresh blood, or delayed from EDTA samples</td><td class="py-2 pr-3">Parasite shape distorts and staining changes. A capillary (fingerprick) sample gives the best films.</td><td class="py-2 pr-3">Make films from fresh capillary blood. If EDTA is used, make films within a few hours (one study used four).</td></tr>
+      <tr><td class="py-2 pr-3">Thick film too thick or too thin, or not dry</td><td class="py-2 pr-3">It washes off or obscures the parasites.</td><td class="py-2 pr-3">Spread to a small circle through which print is just legible, and dry completely before staining. Slides left too long unstained can fix and fail to lyse.</td></tr>
+      <tr><td class="py-2 pr-3">Wrong stain or fixation</td><td class="py-2 pr-3">Poor parasite staining.</td><td class="py-2 pr-3">Use Giemsa (or a validated Field&rsquo;s or Leishman&rsquo;s). Fix thin films in methanol, and do not fix thick films.</td></tr>
+      <tr><td class="py-2 pr-3">Dirty, old or unfiltered stain</td><td class="py-2 pr-3">Precipitate that mimics parasites.</td><td class="py-2 pr-3">Filter and renew stain. Keep slides clean.</td></tr>
+      <tr><td class="py-2 pr-3">Single reader and no review</td><td class="py-2 pr-3">Errors go undetected.</td><td class="py-2 pr-3">Have a second reader check positives and a sample of negatives. Keep a slide bank for training and external quality assurance.</td></tr>
+      <tr><td class="py-2 pr-3">RDT storage and expiry</td><td class="py-2 pr-3">Heat degrades the kit, producing false negatives.</td><td class="py-2 pr-3">Keep kits cool and dry as the insert states, protect them from sun in transit, and check the expiry date.</td></tr>
+      <tr><td class="py-2 pr-3">RDT technique</td><td class="py-2 pr-3">Wrong volumes or reading time.</td><td class="py-2 pr-3">Follow the kit&rsquo;s steps exactly, using the correct buffer and timer, and read within the stated window.</td></tr>
+      <tr><td class="py-2 pr-3">Poor documentation</td><td class="py-2 pr-3">Results cannot be traced or compared.</td><td class="py-2 pr-3">Record patient, time, method, species and density in a register.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Toddler with 2 days of fever, RDT positive, breathing fast with chest indrawing</strong>
+  <p class="text-sm">Treat the malaria with the first-line ACT, and treat pneumonia as well, because fast breathing with indrawing is not explained by uncomplicated malaria alone. Check for danger signs, glucose and Hb. Refer if any severity feature is present.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Alert child with fever, RDT negative, no source found</strong>
+  <p class="text-sm">Good news, not a problem to fix with a repeat test. Look for other causes: ears, throat, chest, urine, skin and bones. Treat what you find, give antipyretics, advise on warning signs, and review in 24&ndash;48 hours. If the child worsens, get microscopy and reassess, because a minority of RDT-negative children develop positive films within weeks.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult with fever, loin pain and dysuria, MP &ldquo;+&rdquo; (low density)</strong>
+  <p class="text-sm">Treat the urinary tract infection (urine microscopy and culture where available) and treat the malaria per policy. The parasites may be incidental, but low density does not prove that. Do not stop at malaria.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child febrile 3 weeks after a full ACT course, RDT positive</strong>
+  <p class="text-sm">Persistent HRP2 can explain this. Do not give another ACT on the RDT alone. Get microscopy. If the film is negative, search for another cause. If positive, check adherence, vomiting, drug quality and give the second-line regimen per policy.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ill child, RDT negative, but film shows <em>P. falciparum</em></strong>
+  <p class="text-sm">Believe the film and treat. Think of a low-density infection below the RDT threshold, a pfhrp2/3 deletion, or a heat-damaged kit. Report the discordant result to your supervisor so the kit lot and local deletion status can be checked.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with SS, fever and pallor, MP positive</strong>
+  <p class="text-sm">Treat the malaria and also treat as possible bacterial sepsis (blood culture where available, antibiotics without waiting). Compare Hb with baseline, check for splenic sequestration and aplastic crisis, and monitor glucose. A positive malaria test does not exclude bacterial infection in an asplenic child.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman with fever and Hb 7 g/dL, peripheral test negative</strong>
+  <p class="text-sm">Do not stop at the negative result. Placental malaria can be missed on a peripheral film. Repeat the test with microscopy, look for other causes of fever and anaemia (urinary tract infection, hookworm, iron deficiency) and use clinical judgement and the antenatal protocol.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient with fever, MP positive, and a Widal of 1 in 160 (O), asking for &ldquo;malaria and typhoid treatment&rdquo;</strong>
+  <p class="text-sm">A single Widal is unreliable here. Treat the malaria first, and if the fever persists or the patient looks like enteric fever, take blood cultures where available and treat typhoid on that basis. Explain why you are not giving both.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child unrousable, convulsing, glucose 1.8 mmol/L, Hb 4 g/dL, RDT unavailable</strong>
+  <p class="text-sm">Treat as severe malaria without waiting: correct the glucose, give parenteral artesunate, treat for sepsis and meningitis with antibiotics, manage seizures, and transfuse for severe anaemia per protocol. Take a film when you can and confirm. Refer to a centre that can offer intensive care if there is one.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Look at the patient first.</strong> Danger signs, severity features, an obvious alternative source, age, and pregnancy.</li>
+  <li><strong>Ask about recent treatment.</strong> Any antimalarial or antibiotic in the last month, including self-medication.</li>
+  <li><strong>Check the method and quality.</strong> RDT or film, kit storage and expiry, number of fields read, species and density reported.</li>
+  <li><strong>Read the result as parasitaemia,</strong> not yet as disease. Which species? What density?</li>
+  <li><strong>Match the result to the patient.</strong> A positive test in a febrile small child usually explains the fever. In an adult, or with an alternative source, it may not.</li>
+  <li><strong>If negative, look elsewhere.</strong> Do not repeat for reassurance. Repeat or switch method only if the patient is sick, worsening, or the history is strongly suggestive.</li>
+  <li><strong>If severe, treat first,</strong> with parenteral artesunate and antibiotics, and confirm in parallel.</li>
+  <li><strong>Plan the review.</strong> Persistent or recurrent fever needs a new look, not a new drug.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Any severity feature with fever:</strong> impaired consciousness, convulsions, prostration, respiratory distress, shock, hypoglycaemia, severe anaemia, jaundice, dark urine or bleeding. Treat as severe malaria and sepsis, without waiting for a test.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A negative RDT in a very ill patient.</strong> It does not exclude severe malaria. Get microscopy, treat on suspicion and look hard for other causes.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive test with fast breathing, chest indrawing, stiff neck or a focal source.</strong> Treat the malaria and the coexisting infection.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Fever in a child with sickle cell disease.</strong> Test for malaria, but treat as possible bacterial sepsis as well. Compare Hb with baseline.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Fever and anaemia in pregnancy with a negative peripheral test.</strong> Do not exclude malaria. Placental infection can be missed.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>RDT negative, film positive.</strong> Treat on the film. Report it, because it may signal a pfhrp2/3 deletion or a faulty kit lot.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A febrile child or adult labelled &ldquo;malaria&rdquo; who is not improving.</strong> Re-examine. The fever has another cause until proven otherwise.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>An RDT used to check for cure within about 4 weeks.</strong> HRP2 persists. Use microscopy.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The test finds parasites. It does not show that they are causing the illness. In Nigeria, many well people have parasitaemia, so a positive result in a febrile adult is right about as often as it is wrong.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Microscopy gives species and density and detects roughly 10&ndash;90 parasites/&micro;L. RDTs detect about 100/&micro;L, give no density and no species beyond falciparum, and are quick and widely available.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>HRP2 RDTs stay positive for weeks after cure, so do not use them to check treatment. Use microscopy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>RDT false negatives come from low density, pfhrp2/3 deletions (reported in Nigeria), prozone, non-falciparum species and heat-damaged kits. Microscopy false positives come from platelets and artefacts.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Severe malaria needs a severity feature, not a particular density, and bacterial infection can coexist. Treat a very sick patient without waiting for a test, and use parenteral artesunate.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A negative test is good news. Look for another cause, treat what you find and review. Do not repeat the test for reassurance, and do not give an ACT to a negative child without a reason.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>&ldquo;Malaria and typhoid&rdquo; is largely a product of an unreliable single Widal test, with a sensitivity of 35% and a specificity of 51% in one Nigerian study. Treat malaria first and confirm typhoid by culture.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guidelines for malaria, including the case definition and criteria for severe malaria and parenteral artesunate.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Malaria microscopy standard operating procedures (MM-SOP series), including examination of thick and thin films.</li>
+  <li class="text-[10px] leading-snug text-stone-500">British Society for Haematology. Guidelines for the laboratory diagnosis of malaria.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Microscopic procedures for diagnosing malaria, including common reading errors and repeat films.</li>
+  <li class="text-[10px] leading-snug text-stone-500">WWARN individual patient data analysis of white blood cell count variability and parasite density estimation.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria, National Malaria Elimination Programme. National guidelines for malaria diagnosis and treatment, and the Nigeria Malaria Indicator Surveys (2010, 2015, 2021).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published analyses of antimalarial receipt among febrile children in the Nigeria Malaria Indicator Surveys, and qualitative work on prescribing after negative RDTs among primary health workers.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published reviews and studies of RDT performance: HRP2 persistence, prozone effect, pfhrp2/pfhrp3 deletions (including Nigerian data), heat stability, and WHO product and lot testing.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published studies of the malaria attributable fraction of fever, the pyrogenic threshold and asymptomatic parasitaemia in high-transmission settings in Africa.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies of Widal test accuracy against blood culture, and of malaria and typhoid co-diagnosis, including a literature review of the co-infection myth.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published evidence on artemisinin partial resistance in Africa and WHO surveillance statements, with Nigerian kelch13 marker studies.</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Heart, Lung, and Blood Institute (NHLBI). Evidence-Based Management of Sickle Cell Disease: Expert Panel Report, 2014 (fever in sickle cell disease).</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'lab-widal-test',
+  title: 'Widal Test: Why It Fails and What to Do Instead',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Microbiology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; MICROBIOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Widal Test: Why It Fails and What to Do Instead</h1>
+  <p class="text-sm text-indigo-200">The Widal test is cheap, fast and available everywhere, and it is wrong more often than it is right in the way it is used in Nigeria. A single positive result in a febrile patient is a false alarm about nine times in ten, a negative result does not clear the patient, and the number of people treated for &ldquo;typhoid&rdquo; because of it far exceeds the number who have it. This guide explains how the test works, why it fails in an endemic country, what the Nigerian evidence shows, the narrow circumstances in which a result can still help, and what to do instead: clinical reasoning, a malaria test, blood culture, and a rational empirical plan.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-the-widal-test-measures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What the Widal Test Measures</span></a></li>
+  <li><a href="#why-the-test-fails" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Why the Test Fails</span></a></li>
+  <li><a href="#what-the-nigerian-evidence-shows" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>What the Nigerian Evidence Shows</span></a></li>
+  <li><a href="#the-arithmetic-of-a-false-alarm" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>The Arithmetic of a False Alarm</span></a></li>
+  <li><a href="#what-a-widal-result-can-still-tell-you" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>What a Widal Result Can Still Tell You</span></a></li>
+  <li><a href="#what-to-do-instead-step-one-think" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>What to Do Instead: Step One, Think</span></a></li>
+  <li><a href="#what-to-do-instead-step-two-culture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>What to Do Instead: Step Two, Culture</span></a></li>
+  <li><a href="#rapid-typhoid-tests-better-but-not-the-answer" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Rapid Typhoid Tests: Better, but Not the Answer</span></a></li>
+  <li><a href="#what-to-do-instead-step-three-a-rational-plan-without-culture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>What to Do Instead: Step Three, a Rational Plan Without Culture</span></a></li>
+  <li><a href="#why-the-widal-persists-and-why-that-matters" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Why the Widal Persists, and Why That Matters</span></a></li>
+  <li><a href="#for-the-laboratory-doing-and-reporting-it-honestly" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>For the Laboratory: Doing and Reporting It Honestly</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-widal-test-measures" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What the Widal Test Measures
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The Widal test, described in 1896, measures antibodies. The patient&rsquo;s serum is mixed in serial dilutions with killed, stained suspensions of <em>Salmonella</em> antigens, and the titre is the highest dilution at which clumping (agglutination) is still visible. It is done as a slide test for screening or as a tube test for a titre.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>O (somatic) antigen:</strong> antibodies appear earlier and tend to fall sooner. O titres are the more useful of the two.</li>
+  <li><strong>H (flagellar) antigen:</strong> antibodies appear later and persist for months. In a comparison of four commercial kits, H agglutinins were less sensitive and less specific than O agglutinins.</li>
+  <li><strong>A and B antigens</strong> (paratyphoid A and B) are included in some kits.</li>
+</ul>
+<p class="text-sm">The test does not detect the organism. It detects the immune system&rsquo;s reaction to Salmonella antigens, from any exposure, at any time. Antibodies begin to appear towards the end of the first week and rise over the second and third weeks. The classical standard for a positive result is a four-fold or greater rise in titre between two samples taken about 7&ndash;10 days apart.</p>
+<p class="text-sm">Because the test measures antibodies and not bacteria, it can only ever be indirect evidence. In a country where most people have met Salmonella antigens one way or another, that indirect evidence is weak.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-the-test-fails" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Why the Test Fails
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Problem</th>
+        <th class="py-2 pr-3">What happens</th>
+        <th class="py-2 pr-3">Result</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Timing</strong></td><td class="py-2 pr-3">Antibodies appear from the end of the first week. The test can be negative in the first days of illness. In one study of patients in their first week of fever, sensitivity against culture was only about 37%.</td><td class="py-2 pr-3">False negatives early, when the patient is most often seen.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>High background antibodies</strong></td><td class="py-2 pr-3">In an endemic area many healthy people carry O and H antibodies from past infection, subclinical exposure or vaccination. Baseline titres vary by place and over time, and there is no universal cut-off.</td><td class="py-2 pr-3">False positives, because a titre that looks high may simply be the local normal.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Cross-reactions</strong></td><td class="py-2 pr-3">Other <em>Salmonella</em> serotypes, malaria, dengue, chronic liver disease and autoimmune conditions can all raise Widal titres. Old typhoid or an anamnestic reaction to another fever can raise titres too.</td><td class="py-2 pr-3">False positives, especially in malaria-endemic areas.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Kit and technique variation</strong></td><td class="py-2 pr-3">Four commercial kits gave markedly different sensitivity and specificity at the same cut-offs. Antigen quality, storage, incubation and reading end-points all vary.</td><td class="py-2 pr-3">The same serum can be reported differently by different laboratories.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Paired sera are rarely done, and often fail anyway</strong></td><td class="py-2 pr-3">The classical four-fold rise is hard to obtain in practice. In a study of clinically diagnosed typhoid patients, none showed a four-fold rise in titre.</td><td class="py-2 pr-3">The one standard that would give the test meaning is usually not met, so a single titre is used instead.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Recent treatment</strong></td><td class="py-2 pr-3">Antibiotics may blunt the antibody response, and titres from an earlier treated episode can persist for months.</td><td class="py-2 pr-3">Unpredictable results in patients who have been treated.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Poor sensitivity even in true cases</strong></td><td class="py-2 pr-3">Roughly 30% of culture-confirmed cases are Widal-negative, according to WHO typhoid guidance.</td><td class="py-2 pr-3">A negative Widal does not exclude typhoid.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">These problems stack on top of one another. A test that is negative early, positive in healthy people, positive in malaria and different by kit cannot reliably tell a patient with enteric fever from one without it. That is what the Nigerian data show.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-nigerian-evidence-shows" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+What the Nigerian Evidence Shows
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Study</th>
+        <th class="py-2 pr-3">Finding</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">271 febrile adults in a tertiary clinic, Widal against blood culture</td><td class="py-2 pr-3">45.8% had a positive Widal, and only 22.1% grew <em>Salmonella</em>. Widal sensitivity was 35%, specificity 51%, positive predictive value 17% and negative predictive value 73%. Malaria co-infection was the commonest microbiological finding in culture-positive patients, and severity of parasitaemia was associated with positive Widal titres.</td></tr>
+      <tr><td class="py-2 pr-3">810 febrile patients suspected of typhoid and 288 healthy controls in the south-east</td><td class="py-2 pr-3">14.1% had positive cultures for typhoid organisms (72 of the 114 isolates were paratyphoid <em>Salmonella</em>). Malaria parasites were found in 22.2% of the febrile patients, and 63.9% of those had a positive Widal. The rate of false-positive Widal titres was 48%. The authors concluded that the Widal performed poorly and that multidrug resistance was a heavy burden.</td></tr>
+      <tr><td class="py-2 pr-3">Patients with suspected typhoid in the south-west</td><td class="py-2 pr-3">35.8% had a positive Widal at 1:160 or above, and 34% had malaria parasites. Blood culture grew a bacterial pathogen from only 1.9% of the Widal-positive patients. Over half had taken antimicrobials by self-medication before testing.</td></tr>
+      <tr><td class="py-2 pr-3">256 patients clinically diagnosed with malaria, typhoid or both in the south-east</td><td class="py-2 pr-3">Concurrent malaria and typhoid was diagnosed in 57% by serology and in 14% by bacteriology, so about 43% were likely falsely told they had both.</td></tr>
+      <tr><td class="py-2 pr-3">Healthy blood donors and volunteers in northern and western states</td><td class="py-2 pr-3">Baseline titres in healthy people were commonly 1:20 to 1:80, and the local cut-off was set at 1:80 in one northern study, 1:160 in others. Titres considered diagnostic in one place were normal in another.</td></tr>
+      <tr><td class="py-2 pr-3">Point-of-care typhoid antibody test against Widal and culture</td><td class="py-2 pr-3">Seropositivity was 19.2% with the rapid test and 22.9% with Widal. The authors noted that in Nigeria seroprevalence in normal people can be high and other pathogens besides <em>S.</em> Typhi may cross-react.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Three messages run through these studies. Most Widal-positive patients do not have typhoid. Malaria itself drives positive Widal titres, so a positive malaria test plus a positive Widal does not mean two diseases. And culture-confirmed typhoid is a minority of the fevers that are labelled typhoid.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-arithmetic-of-a-false-alarm" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+The Arithmetic of a False Alarm
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Sensitivity and specificity do not tell you what a result means. Predictive value depends on how common the disease is among the patients being tested. Take the Nigerian figures above as an illustration: a sensitivity of 35%, a specificity of 51%, and a culture-confirmed typhoid prevalence of 14% among febrile patients. Test 1,000 such patients.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3"></th>
+        <th class="py-2 pr-3">Widal positive</th>
+        <th class="py-2 pr-3">Widal negative</th>
+        <th class="py-2 pr-3">Total</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Typhoid present (140)</td><td class="py-2 pr-3">49</td><td class="py-2 pr-3">91</td><td class="py-2 pr-3">140</td></tr>
+      <tr><td class="py-2 pr-3">Typhoid absent (860)</td><td class="py-2 pr-3">421</td><td class="py-2 pr-3">439</td><td class="py-2 pr-3">860</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Total</strong></td><td class="py-2 pr-3"><strong>470</strong></td><td class="py-2 pr-3"><strong>530</strong></td><td class="py-2 pr-3">1,000</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Positive predictive value:</strong> 49 &divide; 470 = about 10%. Nine in ten positive results are false.</li>
+  <li><strong>Negative predictive value:</strong> 439 &divide; 530 = about 83%. One in six negative results is a missed case.</li>
+  <li>The test turned 470 people into &ldquo;typhoid patients&rdquo; to find 49, and it missed 91.</li>
+</ul>
+<p class="text-sm">The numbers will vary by place, season and referral pattern, but the shape does not. A test that is 35% sensitive and 51% specific is not far from a coin toss.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-a-widal-result-can-still-tell-you" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+What a Widal Result Can Still Tell You
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Do not order it as the test for typhoid. If a result is already in front of you, here is how to use it with discipline.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Result</th>
+        <th class="py-2 pr-3">What it means</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Negative in the first 5&ndash;7 days of fever</td><td class="py-2 pr-3">Nothing. The antibodies have not yet risen.</td></tr>
+      <tr><td class="py-2 pr-3">Negative after 10 days or more</td><td class="py-2 pr-3">Makes typhoid somewhat less likely, but about 30% of culture-confirmed cases are Widal-negative. It does not exclude it.</td></tr>
+      <tr><td class="py-2 pr-3">Single positive titre at or near the local healthy baseline</td><td class="py-2 pr-3">Nothing. It reflects background exposure.</td></tr>
+      <tr><td class="py-2 pr-3">Single positive titre in a patient with malaria</td><td class="py-2 pr-3">Likely cross-reaction. It adds almost nothing.</td></tr>
+      <tr><td class="py-2 pr-3">Single titre well above the local baseline, with a typical picture, malaria excluded, and no recent typhoid, vaccination or treatment</td><td class="py-2 pr-3">Raises suspicion modestly. It is not diagnostic.</td></tr>
+      <tr><td class="py-2 pr-3">Four-fold or greater rise between two samples a week or so apart</td><td class="py-2 pr-3">The strongest form of the Widal. It supports recent infection with <em>Salmonella</em> and still does not prove typhoid. Rarely achieved in practice.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><strong>A rule used in Nigerian studies when culture is unavailable:</strong> where a patient is positive for both malaria and Widal, treat the malaria first. Only treat for typhoid if malaria has been ruled out or the fever persists despite proper antimalarial treatment. This puts the likelier diagnosis first and spares the second antibiotic course.</p>
+<p class="text-sm"><strong>Healthy people:</strong> a &ldquo;routine&rdquo; Widal in a well person (pre-employment, food handling, check-up) has no diagnostic value. A positive result reflects past exposure and is not evidence of carriage. Chronic carriage is investigated by stool culture, not by Widal.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Positions differ on what to do about the Widal. Reviews of its accuracy, including Nigerian studies, conclude that a single titre is not a valid diagnostic option and that culture remains the standard. Some local studies accept a single titre at or above a locally set cut-off (1:80 in some northern data, 1:160 elsewhere) as supportive in a patient with a compatible illness, because paired sera are rarely done and culture is often not available. Both positions agree on two things: a cut-off must be tied to the baseline of healthy people in the area and updated, and a single Widal must never be the sole basis for starting treatment. Reference intervals set in one state do not transfer to another.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-instead-step-one-think" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+What to Do Instead: Step One, Think
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Enteric fever (typhoid and paratyphoid) is a clinical diagnosis first. It is a sustained fever with a systemic illness, and its features build over weeks.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Stage</th>
+        <th class="py-2 pr-3">Typical features</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">First week</td><td class="py-2 pr-3">Rising fever, headache, malaise, anorexia, abdominal discomfort, constipation or diarrhoea, dry cough. Often indistinguishable from malaria or a viral illness.</td></tr>
+      <tr><td class="py-2 pr-3">Second week</td><td class="py-2 pr-3">Sustained fever, relative bradycardia (a pulse rate lower than expected for the temperature), hepatosplenomegaly, abdominal distension and tenderness, and sometimes a blanching rash of rose spots on the trunk. Mental dullness (the &ldquo;typhoid state&rdquo;) in severe cases.</td></tr>
+      <tr><td class="py-2 pr-3">Third week and later</td><td class="py-2 pr-3">Complications: intestinal haemorrhage and perforation, encephalopathy, shock, and relapse. Most deaths occur here.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">The classic step-ladder fever pattern is rarely seen now, because patients take antibiotics early. Leucopenia, a mildly raised ALT and a relative bradycardia support the diagnosis, but none of them is reliable alone.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before you think &ldquo;typhoid&rdquo;</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Test for malaria</strong> (RDT or film) and interpret it in context (see the malaria guide). Many &ldquo;typhoid&rdquo; fevers are malaria.</li>
+    <li><strong>Look for the commoner causes:</strong> urinary tract infection, pneumonia, tonsillitis, otitis, a skin or soft-tissue source, viral illness.</li>
+    <li><strong>Think of the dangerous ones:</strong> meningitis, sepsis, TB, HIV-associated infection, endocarditis, Lassa fever and other viral haemorrhagic fevers if the exposure fits, and, in sickle cell disease, bone infection.</li>
+    <li><strong>Ask how long the fever has lasted and what has been taken.</strong> Typhoid is unlikely in a fever of one or two days. Antibiotics taken before testing lower the culture yield.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-instead-step-two-culture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+What to Do Instead: Step Two, Culture
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Culture is the reference test: isolating <em>S.</em> Typhi or paratyphi from blood, marrow, stool or urine proves the diagnosis and gives the susceptibility pattern that decides treatment. It is not perfect, but a positive culture is specific.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">Performance</th>
+        <th class="py-2 pr-3">Practical points</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Blood culture</strong></td><td class="py-2 pr-3">Highly specific. Sensitivity is about 40&ndash;60% (about 66% against bone marrow in one review), because bacteria are few and transient in blood and antibiotics reduce the yield. Results take 2&ndash;4 days.</td><td class="py-2 pr-3">Draw before the first antibiotic dose. Larger volumes increase yield (5&ndash;10 mL in adults, with weight-based volumes in children). Best in the first week. Record any antibiotics taken beforehand.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Bone marrow culture</strong></td><td class="py-2 pr-3">Most sensitive, about 80&ndash;95%, and less affected by prior antibiotics.</td><td class="py-2 pr-3">Invasive and rarely available. Consider in a prolonged unexplained fever after antibiotics.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Stool and urine culture</strong></td><td class="py-2 pr-3">Add yield later in the illness and help detect carriers.</td><td class="py-2 pr-3">Positive stool can reflect carriage, so read it in context.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">In practice, culture is limited by access, cost and delay. If your facility cannot culture, find the nearest laboratory that can and send the sample. Cases that matter most (the very sick, immunocompromised patients, those with a poor response) should be cultured. A negative culture does not exclude typhoid, especially after antibiotics.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="rapid-typhoid-tests-better-but-not-the-answer" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Rapid Typhoid Tests: Better, but Not the Answer
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Point-of-care antibody tests (Typhidot, TUBEX and Test-It Typhoid) give a result within an hour and need no culture laboratory. A Cochrane review found average sensitivity and specificity of about 78% and 87% for TUBEX, 84% and 79% for Typhidot (78% and 77% in studies that reported indeterminate results clearly), and 69% and 90% for Test-It Typhoid. These are better than the Widal, and the review concluded that they are not accurate enough to replace blood culture.</p>
+<p class="text-sm">They are still antibody tests, so they share the Widal&rsquo;s weakness in endemic areas: antibodies to conserved antigens are common in healthy people. Use a rapid test, if you use one at all, as one piece of evidence beside the clinical picture. Do not treat on a rapid test alone in a patient who looks well, and do not repeat it every time the fever returns.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-instead-step-three-a-rational-plan-without-culture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+What to Do Instead: Step Three, a Rational Plan Without Culture
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most patients in Nigeria will be managed without a culture result. That is acceptable if the decision rests on the clinical picture and not on a Widal.</p>
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Treat malaria first</strong> if the test is positive, per the national guideline, and reassess in 48&ndash;72 hours. If the fever settles, stop there.</li>
+  <li><strong>Treat enteric fever empirically</strong> only if the picture fits: fever that has lasted several days, features such as abdominal symptoms, relative bradycardia and hepatosplenomegaly, and no other cause found. A positive Widal does not add enough to change this.</li>
+  <li><strong>Choose the drug by local susceptibility.</strong> Older first-line drugs (chloramphenicol, ampicillin, co-trimoxazole) face widespread multidrug resistance in Nigerian <em>S.</em> Typhi isolates. Fluoroquinolone susceptibility has been falling, and published Nigerian data vary widely by site. International guidance favours oral azithromycin for uncomplicated enteric fever and intravenous ceftriaxone for severe or complicated disease, with fluoroquinolones only where isolates are known to be susceptible. Follow your national guideline and local antibiogram.</li>
+  <li><strong>Be patient with the response.</strong> Fever takes several days to settle even on effective treatment. Do not change the antibiotic in the first 48&ndash;72 hours without a reason, such as clinical deterioration.</li>
+  <li><strong>Watch for complications</strong> in the second and third weeks: severe abdominal pain, rigidity, gastrointestinal bleeding, confusion and shock need urgent surgical and medical review.</li>
+  <li><strong>Culture the patient who is not responding</strong> to an adequate course, and review the diagnosis.</li>
+</ol>
+<p class="text-sm">Typhoid conjugate vaccines (TCVs) are WHO-recommended and supported by Gavi for countries with a high burden or high rates of drug resistance, and they protect against <em>S.</em> Typhi but not paratyphoid. Check whether your state or the national programme has introduced one. Record vaccination history, particularly with older whole-cell vaccines, which can raise Widal titres.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-the-widal-persists-and-why-that-matters" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Why the Widal Persists, and Why That Matters
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>It is cheap, quick and everywhere.</strong> It needs a tube and a reagent, and gives a result the same day. Culture is slower, dearer and often unavailable.</li>
+  <li><strong>It confirms what the clinician already thinks.</strong> A fever is called &ldquo;typhoid&rdquo;, a Widal is ordered, a titre is found (it nearly always is), and the diagnosis feels confirmed.</li>
+  <li><strong>Patients expect it.</strong> Many patients ask for &ldquo;the typhoid test&rdquo; and accept the result as proof.</li>
+  <li><strong>Request forms bundle it.</strong> &ldquo;MP and Widal&rdquo; are often ordered together, and a positive pair produces the &ldquo;malaria and typhoid&rdquo; diagnosis.</li>
+  <li><strong>Titres persist.</strong> A person treated for &ldquo;typhoid&rdquo; last year will often have a positive Widal this year, and will be treated again.</li>
+  <li><strong>Pharmacies sell the drugs without a test.</strong> Self-medication with antibiotics for &ldquo;typhoid&rdquo; is common, and it lowers the yield of any later culture.</li>
+</ul>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The costs</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Missed diagnoses.</strong> The real cause of the fever (malaria, urinary infection, HIV, TB, a viral illness, bone infection) goes untreated while the patient finishes an antibiotic course.</li>
+    <li><strong>Antimicrobial resistance.</strong> Overuse of antibiotics for presumed typhoid feeds the multidrug resistance that already limits options for the patients who really have it.</li>
+    <li><strong>Harm and cost to patients.</strong> Drug side effects, money spent on unnecessary treatment, and a lifelong label of &ldquo;recurrent typhoid&rdquo;.</li>
+    <li><strong>Distorted statistics.</strong> Typhoid burden estimates built on Widal results overstate the problem and hide the true pattern of disease.</li>
+  </ul>
+</div>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">What patients say</th>
+        <th class="py-2 pr-3">A helpful reply</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">&ldquo;I have had typhoid three times this year.&rdquo;</td><td class="py-2 pr-3">&ldquo;The Widal can stay positive after past infections or other illnesses. Many fevers that get called typhoid are something else. Let us look for the real cause this time.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;Please do Widal and give me typhoid drugs.&rdquo;</td><td class="py-2 pr-3">&ldquo;The Widal is not reliable for deciding that. I will examine you, test for malaria, and if we need to treat typhoid I will tell you why.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;The lab said Widal 1 in 160, so it is typhoid.&rdquo;</td><td class="py-2 pr-3">&ldquo;That number shows your body has met the germ at some time, even long ago. It does not tell us you are sick with it now.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">&ldquo;The test is negative but I still feel it is typhoid.&rdquo;</td><td class="py-2 pr-3">&ldquo;A negative Widal does not rule it out either. We will go by how you are and what we find on examination, and arrange a culture if needed.&rdquo;</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="for-the-laboratory-doing-and-reporting-it-honestly" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+For the Laboratory: Doing and Reporting It Honestly
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Reporting &ldquo;Widal positive&rdquo; or &ldquo;typhoid positive&rdquo;</td><td class="py-2 pr-3">Turns a weak antibody finding into a diagnosis.</td><td class="py-2 pr-3">Report the O and H titres, the kit used and the local reference. Add a comment such as: &ldquo;Not diagnostic on its own. Interpret with the clinical picture. Blood culture is recommended.&rdquo;</td></tr>
+      <tr><td class="py-2 pr-3">Using a published cut-off from elsewhere</td><td class="py-2 pr-3">Many false positives or negatives.</td><td class="py-2 pr-3">Set the cut-off from the titres of healthy local people, and update it periodically.</td></tr>
+      <tr><td class="py-2 pr-3">Old, poorly stored or shaken-out antigen suspensions</td><td class="py-2 pr-3">Weak or non-specific agglutination.</td><td class="py-2 pr-3">Store as instructed, check expiry and clarity, and run known positive and negative controls with every batch.</td></tr>
+      <tr><td class="py-2 pr-3">Different kits or brands over time</td><td class="py-2 pr-3">Titres are not comparable.</td><td class="py-2 pr-3">Record the kit and lot. Do not compare titres across kits or laboratories.</td></tr>
+      <tr><td class="py-2 pr-3">Deviating from the stated incubation and reading end-point</td><td class="py-2 pr-3">Over- or under-reading the titre.</td><td class="py-2 pr-3">Follow the manufacturer&rsquo;s time, temperature and end-point exactly. Have a second person read borderline tubes.</td></tr>
+      <tr><td class="py-2 pr-3">Slide test reported as a titre</td><td class="py-2 pr-3">A screening test is mistaken for a quantitative one.</td><td class="py-2 pr-3">Use the tube test for titres, and say which test was done.</td></tr>
+      <tr><td class="py-2 pr-3">Haemolysed, lipaemic or contaminated serum</td><td class="py-2 pr-3">Interferes with reading.</td><td class="py-2 pr-3">Use clear, fresh serum and recollect if in doubt.</td></tr>
+      <tr><td class="py-2 pr-3">Single sample accepted as final</td><td class="py-2 pr-3">The paired-sera standard is skipped.</td><td class="py-2 pr-3">Where the clinician wants a Widal, offer a second sample about a week later and report the change.</td></tr>
+      <tr><td class="py-2 pr-3">Bundled requests (&ldquo;MP and Widal&rdquo;)</td><td class="py-2 pr-3">Encourages the double diagnosis.</td><td class="py-2 pr-3">Report each test separately, and add a comment on the cross-reaction with malaria when both are positive.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult with 3 days of fever, malaria RDT positive, Widal O 1:160 and H 1:160</strong>
+  <p class="text-sm">Treat the malaria. The Widal is most likely a cross-reaction or a background titre, and typhoid is unlikely in a fever of 3 days. Do not start an antibiotic for typhoid on this result. Reassess in 48&ndash;72 hours. If still febrile and the picture fits, take a blood culture before any antibiotic.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult with 8 days of fever, two negative malaria tests, constipation, abdominal tenderness, relative bradycardia and an enlarged spleen; no culture available; Widal O 1:80</strong>
+  <p class="text-sm">This is enteric fever until proven otherwise, whatever the Widal says. Treat empirically with an agent chosen by local susceptibility (international guidance favours azithromycin for uncomplicated disease and ceftriaxone for severe), watch for perforation and bleeding, and give supportive care. If a culture can be arranged, take it before the first dose.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient &ldquo;treated for typhoid&rdquo; four times this year, Widal always positive</strong>
+  <p class="text-sm">The Widal is positive because of persistent or background antibodies. Look for the real cause of the recurrent fevers: malaria, urinary infection, HIV, TB, chronic infection, a missed focus such as a hidden abscess or bone infection. Take a blood culture before any further antibiotics, and stop treating the Widal.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with 5 days of fever, Widal negative</strong>
+  <p class="text-sm">A negative result does not exclude typhoid, which is common in children under 15. Examine for the clinical features, test for malaria, look for other sources, and culture if the child remains unwell. Do not be reassured by the negative Widal, and do not be pushed into antibiotics by it either.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with sickle cell anaemia, persistent fever and a painful, swollen limb</strong>
+  <p class="text-sm">Think bone infection, with <em>Salmonella</em> and <em>Staphylococcus aureus</em> as the classic causes in sickle cell disease. Take blood cultures, image the limb, and involve the orthopaedic and paediatric teams early. Do not rely on a Widal.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Day 12 of &ldquo;typhoid&rdquo; treatment: sudden severe abdominal pain, a rigid abdomen and shock</strong>
+  <p class="text-sm">Intestinal perforation, a recognised complication in the second and third weeks. This is a surgical emergency. Resuscitate, give broad-spectrum antibiotics, and get an urgent surgical review and an erect chest film.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman with 6 days of fever</strong>
+  <p class="text-sm">Test for malaria, send a blood culture, look for urinary infection, and seek specialist advice. Choose any antibiotic with pregnancy safety in mind, because fluoroquinolones are avoided. Do not treat on a Widal.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Healthy applicant sent for a pre-employment &ldquo;typhoid test&rdquo; with Widal 1:160</strong>
+  <p class="text-sm">This is not evidence of illness or carriage. Reassure the applicant, and advise the employer that the Widal has no role in screening. If carriage is a genuine concern for a food handler, use stool culture.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Start with the patient.</strong> How many days of fever, what features, what has already been taken?</li>
+  <li><strong>Test and treat malaria first,</strong> and look for other, commoner sources of fever.</li>
+  <li><strong>Ask what the Widal can add.</strong> If the answer is nothing, do not order it. If it is already done, read it using section 5.</li>
+  <li><strong>Check the baseline.</strong> Is the titre above the healthy local baseline for that kit? Has the patient been vaccinated or treated before?</li>
+  <li><strong>Consider a culture</strong> before antibiotics, especially in the sick, the immunocompromised, those with a prolonged fever or a poor response.</li>
+  <li><strong>If treating empirically,</strong> do it on the clinical picture, choose the drug by local susceptibility, and plan to reassess at 48&ndash;72 hours.</li>
+  <li><strong>Watch for complications</strong> in weeks 2 and 3, and escalate early.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Sudden severe abdominal pain, rigidity or shock in a patient with enteric fever.</strong> Perforation. A surgical emergency.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Black stools, haematemesis or falling Hb during a prolonged fever.</strong> Intestinal haemorrhage.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Confusion, delirium or stupor with a prolonged fever.</strong> Severe enteric fever, meningitis or sepsis. Culture and treat as severe.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A &ldquo;Widal-positive&rdquo; child or adult with a danger sign (convulsions, shock, respiratory distress).</strong> Do not anchor on typhoid. Assess for severe malaria, sepsis and meningitis, and treat for them.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Fever that persists despite &ldquo;typhoid&rdquo; treatment.</strong> The diagnosis is probably wrong, or the organism is resistant. Take cultures and re-examine.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Sickle cell disease with persistent fever and bone pain.</strong> Think Salmonella osteomyelitis. Culture and image.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive malaria test plus a positive Widal.</strong> Not two diseases. Treat the malaria first and reassess before adding an antibiotic.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A pregnant woman with a prolonged fever.</strong> Culture, avoid fluoroquinolones, and seek specialist advice.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The Widal measures antibodies, not bacteria. It is negative early, positive in many healthy people and in malaria, and varies by kit and by place. It cannot reliably separate enteric fever from other fevers.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In a Nigerian study of 271 febrile adults, Widal sensitivity was 35% and specificity 51%, with a positive predictive value of 17%. In a south-east series, 48% of Widal results were false positives, and 64% of malaria-positive patients had a positive Widal.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>At a typhoid prevalence of about 14% among febrile patients, a positive Widal is a false alarm about nine times in ten, and a negative one misses one case in six. About 30% of culture-confirmed cases are Widal-negative.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never treat on a single Widal. A cut-off must come from the healthy local baseline, and only a four-fold rise in paired sera carries real weight, which is rarely obtained.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Instead: think clinically, test and treat malaria first, take a blood culture before antibiotics (sensitivity about 40&ndash;60%), and treat empirically on the clinical picture with a drug chosen by local susceptibility.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Rapid typhoid tests (TUBEX, Typhidot, Test-It) have moderate accuracy and are not good enough to replace culture. They share the Widal&rsquo;s cross-reaction problem in endemic areas.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>&ldquo;Malaria and typhoid&rdquo; and &ldquo;recurrent typhoid&rdquo; are mostly artefacts of the test. Counsel patients, report titres with a cautionary comment, and watch for perforation and bleeding in true enteric fever.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Background document: the diagnosis, treatment and prevention of typhoid fever, including the limitations of the Widal test.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Typhoid vaccines: WHO position paper (2018), recommending typhoid conjugate vaccines.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Cochrane Collaboration. Rapid diagnostic tests for typhoid and paratyphoid (enteric) fever: diagnostic test accuracy review (TUBEX, Typhidot, Test-It Typhoid).</li>
+  <li class="text-[10px] leading-snug text-stone-500">UK Health Security Agency. Management of enteric fever guidance (treatment choice by susceptibility).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies of Widal test accuracy against blood culture in febrile adults, including a large south-east series with healthy controls and malaria co-infection data.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies of baseline Widal titres in healthy blood donors and volunteers, and of malaria-typhoid co-diagnosis by serology and bacteriology, including a literature review of the co-infection myth.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published comparisons of commercial Widal kits, studies of Widal timing and paired sera, and reviews of the limitations of the Widal test.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published reviews of blood and bone marrow culture sensitivity in typhoid, and of diagnostic test accuracy in children.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian surveillance and susceptibility studies of Salmonella Typhi, including multidrug resistance and reduced fluoroquinolone susceptibility.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Typhoid conjugate vaccine briefing materials from Gavi-supported typhoid control partners.</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'lab-blood-culture',
+  title: 'Blood Culture',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Microbiology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; MICROBIOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Blood Culture: Access, Turnaround and Empirical Treatment</h1>
+  <p class="text-sm text-indigo-200">Blood culture is the one test that can name the organism and its drug resistance in a patient with sepsis. It is also the test least likely to be done in Nigeria, the slowest to report, and the easiest to spoil at the bedside. A patient with sepsis cannot wait two to four days for a result, so treatment starts blind and the culture arrives later, if it arrives at all. This guide covers who to culture, how to collect a sample that works, what happens in the laboratory and how long it takes, how to read positive and negative results, and how to make empirical treatment decisions responsibly when the local resistance picture is poor and the culture is missing.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-blood-culture-is-for-and-the-nigerian-reality" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What Blood Culture Is For, and the Nigerian Reality</span></a></li>
+  <li><a href="#who-to-culture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Who to Culture</span></a></li>
+  <li><a href="#collecting-a-sample-that-works" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Collecting a Sample That Works</span></a></li>
+  <li><a href="#from-the-bedside-to-the-incubator" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>From the Bedside to the Incubator</span></a></li>
+  <li><a href="#in-the-laboratory-what-happens-and-how-long-it-takes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>In the Laboratory: What Happens and How Long It Takes</span></a></li>
+  <li><a href="#reading-a-positive-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Reading a Positive Result</span></a></li>
+  <li><a href="#reading-a-negative-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Reading a Negative Result</span></a></li>
+  <li><a href="#empirical-treatment-the-realities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Empirical Treatment: the Realities</span></a></li>
+  <li><a href="#using-the-susceptibility-report" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Using the Susceptibility Report</span></a></li>
+  <li><a href="#when-culture-is-not-available-substitutes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>When Culture Is Not Available: Substitutes</span></a></li>
+  <li><a href="#getting-more-from-a-limited-service" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Getting More From a Limited Service</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Clinical Scenarios in Nigerian Practice</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-blood-culture-is-for-and-the-nigerian-reality" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What Blood Culture Is For, and the Nigerian Reality
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A blood culture grows bacteria or fungi from a blood sample in a bottle of nutrient broth. A positive result proves bloodstream infection, identifies the organism, and, with susceptibility testing, shows which drugs will work. Its three jobs are to confirm the diagnosis, to allow narrow, targeted treatment in place of broad guesses, and to generate the local resistance data that guide everyone else&rsquo;s empirical choices.</p>
+<p class="text-sm">It has three built-in limits. It is not 100% sensitive (about 40&ndash;60% in typhoid, for example), and antibiotics given beforehand lower the yield. It is slow, taking at least a day to flag growth and usually two to four days to give the organism and susceptibilities. And it cannot guide the first dose of antibiotic in a seriously ill patient, because that dose cannot wait.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What the Nigerian and West African evidence shows</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Cultures are rarely sent.</strong> In a five-year review of suspected neonatal sepsis at a tertiary hospital in north-central Nigeria, only 10 of 227 babies (4.4%) had a blood culture done, and one grew an organism. The authors called the rate unacceptably low.</li>
+    <li><strong>When sent, cultures often find something.</strong> Culture-proven sepsis was found in about 22&ndash;43% of neonates in several Nigerian tertiary-hospital series, and pathogens in about 19% of paediatric samples in one large two-year review.</li>
+    <li><strong>Resource limits shape practice.</strong> A West African tertiary hospital reported that only one pair of blood cultures could be drawn because of financial constraints, and that blood agar was made from expired donor blood. Its 40% positivity rate suggested that testing was restricted to the very sick.</li>
+    <li><strong>Older technique is still around.</strong> A Nigerian neonatal series cultured about 2 mL of blood in thioglycollate or tryptone soya broth, a low volume that lowers yield.</li>
+  </ul>
+</div>
+<p class="text-sm">The implication is not to give up. It is to concentrate scarce cultures where they change management, collect them properly so the money is not wasted, and pair every empirical decision with a plan for what happens when the result comes back.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="who-to-culture" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Who to Culture
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Priority</th>
+        <th class="py-2 pr-3">Situation</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Always, before the first antibiotic dose</strong></td><td class="py-2 pr-3">Suspected sepsis or septic shock; suspected neonatal sepsis; suspected bacterial meningitis (with CSF); suspected infective endocarditis; febrile neutropenia (for example after chemotherapy); fever in a patient with a central line, shunt or prosthesis.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Strongly consider</strong></td><td class="py-2 pr-3">Severe febrile illness in a child or adult; fever without a source in an immunocompromised patient (advanced HIV, sickle cell disease, malnutrition, diabetes); persistent fever of 5&ndash;7 days or more with malaria excluded (typhoid is the usual question); fever with a suspected bone, joint, or deep-seated focus; a patient who is deteriorating on empirical treatment.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Usually not worth it</strong></td><td class="py-2 pr-3">Uncomplicated fever with a clear viral upper respiratory illness; uncomplicated malaria in an otherwise well patient; well patients with a localised infection that can be diagnosed by other means (for example uncomplicated cystitis with a urine culture).</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">The test is not a screening tool, and ordering it for every fever drains the same few bottles that the dying baby needs. Blood culture requests are better when they follow a rule, such as: every neonate, every shocked patient, every immunocompromised febrile patient, every patient with a suspected endovascular infection.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="collecting-a-sample-that-works" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Collecting a Sample That Works
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most failed blood cultures fail at the bedside. The three levers are volume, number of sets and skin preparation.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Item</th>
+        <th class="py-2 pr-3">Adults</th>
+        <th class="py-2 pr-3">Children and neonates</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Volume</strong></td><td class="py-2 pr-3">8&ndash;10 mL per bottle, giving 20&ndash;30 mL per set (one aerobic and one anaerobic bottle). Volume is the most important variable for finding bacteria, and adult bacteraemia is often low-grade.</td><td class="py-2 pr-3">Weight-based. Published tables allow about 1&ndash;3 mL per paediatric bottle in infants, rising with weight. Use your facility&rsquo;s weight chart and never draw more than the safe limit. In one review, positives rose from 5.6% with 1 mL to 7.9% with 3 mL.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Number of sets</strong></td><td class="py-2 pr-3">At least two sets from separate venepunctures within 24 hours (CDC), commonly two to three. One study found yields of about 80%, 90% and 99% after the first, second and third 20 mL sets.</td><td class="py-2 pr-3">Two sets are advised where volume allows. In a neonate one well-filled set is often all that is practical.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Timing</strong></td><td class="py-2 pr-3">Before the first antibiotic dose. Volume matters more than the timing of draws, so in an emergency two sets can be taken in quick succession from two sites.</td><td class="py-2 pr-3">Same. Do not delay antibiotics in a shocked or very sick child to collect a sample.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Site</strong></td><td class="py-2 pr-3">Peripheral venepuncture. Catheter-drawn cultures have a higher contamination rate and are interpreted with a paired peripheral set.</td><td class="py-2 pr-3">Peripheral vein. Avoid cord stump or umbilical samples as a routine.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Skin preparation</strong></td><td class="py-2 pr-3">Alcoholic chlorhexidine (about 2% in 70% alcohol) with at least 30 seconds of contact and full drying, or an iodine/alcohol protocol. Do not re-palpate the site with a non-sterile finger. Wipe the bottle top with alcohol.</td><td class="py-2 pr-3">Same principles. Some protocols avoid chlorhexidine in very young infants, so follow your neonatal protocol.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Bottle type</strong></td><td class="py-2 pr-3">Aerobic plus anaerobic pair. Resin-containing bottles bind some antibiotics and help if treatment has started, but they do not rescue a short fill.</td><td class="py-2 pr-3">Paediatric bottles are made for small volumes. Match the volume to the bottle and never put a neonate&rsquo;s few millilitres into an adult bottle.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Practical tips for a busy ward</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Mark the fill line on the bottle label before drawing. Under-filled bottles are the commonest silent failure. Laboratories can check by weighing each bottle before and after (blood weighs about 1 g per mL).</li>
+    <li>Label every bottle with the patient identifiers, the time, the site and whether the patient is on antibiotics. Record what was taken before arrival, including self-medication.</li>
+    <li>If you can afford only one set, fill it properly. One well-filled set is worth more than two starved ones, though a single positive for a skin organism will then be uninterpretable.</li>
+    <li>Keep the contamination rate in view. The accepted benchmark is substantially below 3%. If most positive cultures in your unit grow skin organisms, the problem is collection.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="from-the-bedside-to-the-incubator" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+From the Bedside to the Incubator
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Never refrigerate blood culture bottles.</strong> Cold kills fastidious organisms.</li>
+  <li><strong>Protect them from heat.</strong> A bottle left in a hot car or ward store for hours may overgrow or degrade, which is a real hazard in Nigerian conditions.</li>
+  <li><strong>Get them to the laboratory fast.</strong> CLSI prefers delivery within 2 hours. Written laboratory protocols commonly accept up to about 12 hours and flag anything longer. Count needle-to-incubator time, not just time to the laboratory door.</li>
+  <li><strong>If the laboratory is far away,</strong> arrange a defined transport route and a rider or courier, keep bottles at ambient temperature, and record the time of collection and of receipt.</li>
+  <li><strong>Send the clinical details.</strong> Age, source suspected, antibiotics taken, malaria status and relevant exposures help the technologist choose subculture media and interpret a positive.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="in-the-laboratory-what-happens-and-how-long-it-takes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+In the Laboratory: What Happens and How Long It Takes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Turnaround times are the commonest frustration, so it helps to know what is behind them. Two kinds of system exist.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Stage</th>
+        <th class="py-2 pr-3">Automated system</th>
+        <th class="py-2 pr-3">Manual bottles (common in Nigeria)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Detecting growth</strong></td><td class="py-2 pr-3">The instrument flags a bottle as soon as growth is detected. Almost all positives flag within the first day in laboratory testing.</td><td class="py-2 pr-3">Staff inspect bottles daily for turbidity, colour change or growth on a slant, and may subculture blindly. Manual bottles in one study showed growth on day 1 in about 75&ndash;91% of positives and in nearly all by day 2.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>First report</strong></td><td class="py-2 pr-3">A Gram stain from the positive bottle is read and phoned to the clinician immediately.</td><td class="py-2 pr-3">The same, once a bottle looks positive. Blind subculture earlier (day 1 rather than day 2 or 3) shortens the time to a useful result.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Organism and susceptibility</strong></td><td class="py-2 pr-3">Subculture, identification and susceptibility testing take a further 1&ndash;2 days.</td><td class="py-2 pr-3">Subculture on blood agar and MacConkey, then identification and susceptibility. This often takes at least 48 hours after the first sign of growth, so 3&ndash;4 days in total.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Final negative</strong></td><td class="py-2 pr-3">Often a preliminary no-growth report at about day 3, and a final report at day 5. Incubating beyond 5 days is rarely needed with modern systems.</td><td class="py-2 pr-3">Many manual protocols hold bottles for 5&ndash;7 days with subculture at defined points.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">In practice, the clinician should expect a same-day Gram stain if a bottle turns positive, an organism name in about two days, and a susceptibility pattern by about three to four days on a manual system. A report of &ldquo;no growth&rdquo; at 24 or 48 hours is only preliminary.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What stretches the delay</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Long needle-to-incubator times and bottles that arrive in the evening or weekend.</li>
+    <li>Shortages of bottles, media, Gram stain reagents or antibiotic discs, and unreliable electricity for incubators.</li>
+    <li>No system for phoning results, so a positive Gram stain sits in a register while the patient deteriorates or goes home.</li>
+    <li>Patients who are discharged or transferred before the result, with no way to trace them.</li>
+  </ul>
+</div>
+<p class="text-sm"><strong>Make the Gram stain call a rule:</strong> a positive bottle is a critical result. The laboratory should phone the ward or the doctor with the Gram stain result at once, and the ward should record who took the call.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-a-positive-result" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Reading a Positive Result
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Every positive bottle must be classified as a pathogen or a contaminant. Skin organisms are the commonest false positives, and treating them wastes antibiotics and hides the real problem.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Organism in a single positive culture</th>
+        <th class="py-2 pr-3">Chance it is a contaminant</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><em>Staphylococcus aureus</em>, <em>E. coli</em> and other Enterobacterales, <em>Pseudomonas</em>, <em>S. pneumoniae</em>, group A streptococcus, <em>Candida</em>, <em>Listeria</em></td><td class="py-2 pr-3">Under 1%</td><td class="py-2 pr-3">Treat as real bacteraemia (or fungaemia), find the source, and act on it.</td></tr>
+      <tr><td class="py-2 pr-3">Viridans streptococci</td><td class="py-2 pr-3">About half</td><td class="py-2 pr-3">Consider endocarditis if repeated, or in a patient with a damaged valve.</td></tr>
+      <tr><td class="py-2 pr-3">Coagulase-negative staphylococci</td><td class="py-2 pr-3">About 78% (only a minority are true)</td><td class="py-2 pr-3">Usually a contaminant if only one set is positive. Take it seriously in a neonate, with a central line, prosthesis or shunt, or in an immunocompromised patient, and when more than one set grows the same organism.</td></tr>
+      <tr><td class="py-2 pr-3">Diphtheroids (<em>Corynebacterium</em>), <em>Micrococcus</em></td><td class="py-2 pr-3">About 79%</td><td class="py-2 pr-3">Usually contaminants.</td></tr>
+      <tr><td class="py-2 pr-3"><em>Bacillus</em> species (not anthracis), <em>Cutibacterium</em> (<em>Propionibacterium</em>)</td><td class="py-2 pr-3">About 94&ndash;99%</td><td class="py-2 pr-3">Almost always contaminants.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Clues that a positive is true</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>More than one set grows the same organism with the same susceptibility pattern.</li>
+    <li>The same organism is present at another site (pneumonia, urine, wound, abscess).</li>
+    <li>Growth is fast (time to positivity under about three days). Faster growth favours true infection.</li>
+    <li>A clinical setting that fits: sepsis, a line, a prosthesis, immunosuppression, a neonate.</li>
+  </ul>
+  <p class="text-sm mt-2">The number of positive bottles within one set does not reliably separate true from false. Do not use it alone.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Gram stain gives early direction</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Gram stain from the bottle</th>
+          <th class="py-2 pr-3">Think of</th>
+          <th class="py-2 pr-3">Action while waiting for identification</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Gram-positive cocci in clusters</td><td class="py-2 pr-3"><em>S. aureus</em> or coagulase-negative staphylococci</td><td class="py-2 pr-3">If the patient is ill, treat as <em>S. aureus</em> until identified. Where MRSA is common, ensure cover.</td></tr>
+        <tr><td class="py-2 pr-3">Gram-positive cocci in chains or pairs</td><td class="py-2 pr-3">Streptococci, pneumococcus, enterococci</td><td class="py-2 pr-3">Review source and drug choice. Look for endocarditis if viridans or enterococci.</td></tr>
+        <tr><td class="py-2 pr-3">Gram-negative bacilli</td><td class="py-2 pr-3">Enterobacterales (<em>E. coli</em>, <em>Klebsiella</em>), <em>Pseudomonas</em>, <em>Salmonella</em></td><td class="py-2 pr-3">Check that the empirical drug is active against likely local resistance (ESBL). Look for the urinary, biliary, abdominal or pelvic source.</td></tr>
+        <tr><td class="py-2 pr-3">Yeasts</td><td class="py-2 pr-3"><em>Candida</em></td><td class="py-2 pr-3">Never a contaminant. Needs antifungal treatment and a search for a line or other source.</td></tr>
+        <tr><td class="py-2 pr-3">Organisms seen, but no growth on subculture</td><td class="py-2 pr-3">Fastidious or non-viable organism</td><td class="py-2 pr-3">Repeat the Gram stain, resubculture, and report that identification was not possible. Treat on the stain and the clinical picture.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="text-sm"><strong>After a positive <em>S. aureus</em> culture:</strong> do not treat it as a skin contaminant. Look for a deep focus (bone, joint, endocarditis, abscess), repeat cultures to document clearance, and use a prolonged course guided by an infectious disease or senior review.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-a-negative-result" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Reading a Negative Result
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A negative blood culture means that no organism grew from the blood that was cultured. It does not mean that the patient is not septic.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Prior antibiotics</strong> lower the yield or delay growth. Self-medication before presentation is common in Nigeria.</li>
+  <li><strong>Low volume or a single set</strong> misses low-level bacteraemia.</li>
+  <li><strong>Transient or intermittent bacteraemia</strong> means a sample taken between showers is negative. Typhoid is a good example (sensitivity around 40&ndash;60%).</li>
+  <li><strong>Organisms that routine bottles do not grow well:</strong> <em>Brucella</em>, <em>Bartonella</em>, <em>Coxiella</em>, mycobacteria and some fungi (including <em>Cryptococcus</em> and <em>Histoplasma</em>) need special methods or other tests.</li>
+  <li><strong>The infection is not in the blood.</strong> Pneumonia, meningitis, urinary infection and abscess may be proven at their own site and not in blood.</li>
+  <li><strong>The illness is not bacterial.</strong> Malaria, viral haemorrhagic fevers and other viral illness give negative blood cultures by definition.</li>
+  <li><strong>Pre-analytic failure:</strong> overheated, refrigerated or delayed bottles, expired media.</li>
+</ul>
+<p class="text-sm"><strong>If the patient is still sick and the culture is negative,</strong> do not stop looking. Treat on the clinical picture, culture the other sites, reconsider the diagnosis (malaria, TB, cryptococcal disease, viral infection), and review the antibiotic choice against local resistance.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="empirical-treatment-the-realities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Empirical Treatment: the Realities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Timing: how fast, and how sure you must be</strong>
+  <p class="text-sm">The Surviving Sepsis Campaign 2026 guidance for adults is: collect blood cultures as soon as possible and ideally before antimicrobials, but without delaying treatment (the 2021 edition defined a substantial delay as 45 minutes). Give antimicrobials immediately, ideally within 1 hour, for septic shock and for probable or definite sepsis. For possible sepsis without shock, do a time-limited rapid assessment and give antimicrobials within 3 hours if concern for infection persists. It suggests using clinical evaluation, not procalcitonin, to decide whether to start, and suggests against empirical antifungal therapy. For children, the paediatric guideline supports antibiotics as soon as possible and ideally within 3 hours in probable sepsis without shock, with a faster pathway for shock. In septic shock, each hour of delay has been associated with higher mortality.</p>
+  <p class="text-sm mt-2">Two corollaries follow. A patient in shock gets antibiotics now and the culture is collected in the same minutes, not after. And the clinician who is less sure (possible sepsis, stable) has a few hours to look for another cause, test malaria, get a urinalysis and examine for a source before committing.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What drives the choice of drug</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>The likely source:</strong> urinary, abdominal, biliary, chest, skin and soft tissue, bone, line, central nervous system, or a neonate with no source.</li>
+    <li><strong>Community or hospital onset,</strong> and recent antibiotics or admission, which raise the odds of resistant organisms.</li>
+    <li><strong>The host:</strong> age, pregnancy, HIV, sickle cell disease, neutropenia, malnutrition, diabetes.</li>
+    <li><strong>Severity:</strong> how much a wrong first choice would cost.</li>
+    <li><strong>Local resistance:</strong> the most important and the hardest to know. Use your own unit&rsquo;s antibiogram if you have one.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What local data show about resistance</strong>
+  <p class="text-sm">Published Nigerian data, mostly from neonatal and paediatric units, are consistent in one respect: the older first-line choices are failing.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>In a south-east tertiary hospital in 2023&ndash;24, resistance among neonatal isolates was about 91% to ampicillin, 84% to ceftriaxone and 80% to cefotaxime. Ciprofloxacin, gentamicin and amikacin had the most activity. The authors concluded that current empirical regimens may be ineffective.</li>
+    <li>In a south-west series, Gram-negative bacilli were about 81% resistant to ampicillin and 75% to ceftriaxone, with some resistance to meropenem and none to amikacin (small numbers). Many isolates were <em>S. aureus</em>.</li>
+    <li>In a north-central series, <em>Klebsiella</em> and <em>S. aureus</em> were the commonest isolates, <em>E. coli</em> and <em>Enterobacter</em> were fully susceptible to meropenem, and the authors recommended cefotaxime plus gentamicin. Older Abuja data found <em>Klebsiella</em> with an ESBL pattern but fully susceptible to imipenem.</li>
+    <li>Across LMICs, the WHO-recommended ampicillin plus gentamicin regimen has been shown to be ineffective against a large proportion of neonatal Gram-negative isolates, with ESBL and carbapenemase genes detected. A review of African neonatal sepsis found multidrug-resistant organisms in about 59% of cases.</li>
+    <li>In a West African bloodstream study, 59% of <em>S. aureus</em> tested were MRSA and 90% of <em>Klebsiella</em> were ESBL producers.</li>
+  </ul>
+  <p class="text-sm mt-2">These are single-centre data, and every unit differs. What they show is that a regimen that was reasonable ten years ago may no longer be adequate, that Gram-negative resistance to third-generation cephalosporins is common, and that carbapenems and amikacin often retain activity but are not guaranteed.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A working approach</strong>
+  <ol class="list-decimal pl-5 space-y-2 text-sm">
+    <li><strong>Draw cultures, then treat without waiting.</strong> If a delay is likely, treat first in shock.</li>
+    <li><strong>Choose from your national guideline and local antibiogram.</strong> Where none exists, take advice from the microbiologist or senior colleague, and favour regimens that cover both Gram-positive cocci (<em>S. aureus</em>) and Gram-negative bacilli (<em>Klebsiella</em>, <em>E. coli</em>) in neonates and the critically ill.</li>
+    <li><strong>Use the WHO AWaRe grouping as a stewardship guide:</strong> Access antibiotics first when they are likely to work, Watch antibiotics when needed, and Reserve agents last. In high-resistance settings a severely ill patient may justify a broader agent. Document why.</li>
+    <li><strong>Control the source.</strong> Drain an abscess, remove an infected line, relieve an obstruction. Antibiotics alone fail without source control.</li>
+    <li><strong>Resuscitate.</strong> Fluids, oxygen and monitoring matter as much as the first dose.</li>
+    <li><strong>Reassess at 48&ndash;72 hours.</strong> If a culture is positive, narrow to the least broad effective drug. If cultures are negative and the patient is improving, consider stopping or shortening. If the patient is not improving, look at the diagnosis, the source and resistance before escalating.</li>
+    <li><strong>Write a stop date or review date</strong> with the first prescription. Antimicrobial delay can be lethal in shock, but indiscriminate continuation harms patients too.</li>
+  </ol>
+</div>
+<p class="text-sm"><strong>What not to do:</strong> delay antibiotics in shock to wait for a culture; add a third or fourth drug &ldquo;to cover everything&rdquo; without a source; escalate blindly each day without reviewing the diagnosis; treat a coagulase-negative staphylococcus from a single set; or continue an antibiotic for days after a negative culture and clinical recovery without a plan.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">The Surviving Sepsis Campaign 2026 update changed the timing advice: antimicrobials within 1 hour now apply to probable or definite sepsis without shock as well as to shock, with the 3-hour pathway for possible sepsis only. Its recommendations were written for settings with continuous laboratory and critical-care support. In Nigerian facilities, apply the principle (treat fast when sick, investigate in parallel) and adapt the detail. WHO still advocates ampicillin plus gentamicin for neonatal sepsis, but local data show high resistance, so follow your facility protocol and local antibiogram, with senior advice for alternatives. CLSI and CDC advise two or more sets of 20&ndash;30 mL in adults. Where cost limits you to one set, fill it fully.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-the-susceptibility-report" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Using the Susceptibility Report
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>S, I, R</strong> mean susceptible, intermediate (or susceptible at increased exposure) and resistant. Read the breakpoint standard the laboratory used (CLSI or EUCAST) and the date.</li>
+  <li><strong>Choose by site, not only by result.</strong> A drug that is active in vitro may reach the site poorly (for example, some drugs in meningitis or bone).</li>
+  <li><strong>Resistance flags to look for:</strong> ESBL in Enterobacterales (third-generation cephalosporins will fail), MRSA in <em>S. aureus</em> (beta-lactams will fail), and carbapenem resistance (very few options, take specialist advice).</li>
+  <li><strong>Narrow wherever safe.</strong> If a narrow drug is susceptible and the patient is improving, move to it.</li>
+  <li><strong>Watch for susceptibility reports based on discs from poorly stored supplies,</strong> or without quality-control strains. Ask the laboratory how its testing is controlled.</li>
+  <li><strong>Feed the results back.</strong> A cumulative antibiogram, compiled yearly from the unit&rsquo;s own isolates, is the single most useful document for local empirical prescribing. Even a small laboratory can build one.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-culture-is-not-available-substitutes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+When Culture Is Not Available: Substitutes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most patients with suspected sepsis will be treated without a blood culture. These substitutes narrow the diagnosis and improve the empirical choice. None of them replaces a culture.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Substitute</th>
+        <th class="py-2 pr-3">What it adds</th>
+        <th class="py-2 pr-3">Limits</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Bedside severity assessment (recognised sepsis or early-warning tools; for children, danger signs)</td><td class="py-2 pr-3">Identifies who needs antibiotics now and who can be observed.</td><td class="py-2 pr-3">Does not name the organism.</td></tr>
+      <tr><td class="py-2 pr-3">Malaria test</td><td class="py-2 pr-3">Finds the commonest alternative cause of fever, and shows when malaria may coexist with bacteraemia.</td><td class="py-2 pr-3">A positive result does not exclude bacterial sepsis (see the malaria guide).</td></tr>
+      <tr><td class="py-2 pr-3">Urine microscopy and culture</td><td class="py-2 pr-3">A common source of Gram-negative sepsis.</td><td class="py-2 pr-3">A positive urine does not prove bacteraemia.</td></tr>
+      <tr><td class="py-2 pr-3">CSF cell count, glucose, protein, Gram stain and culture</td><td class="py-2 pr-3">Identifies meningitis, which blood culture may miss.</td><td class="py-2 pr-3">Requires a safe lumbar puncture.</td></tr>
+      <tr><td class="py-2 pr-3">Sputum Gram stain, chest X-ray</td><td class="py-2 pr-3">Pneumonia as a source.</td><td class="py-2 pr-3">Sputum quality varies.</td></tr>
+      <tr><td class="py-2 pr-3">Wound, pus or aspirate Gram stain and culture</td><td class="py-2 pr-3">Direct evidence at the source, often easier to obtain than blood.</td><td class="py-2 pr-3">Contaminants and colonisation complicate reading.</td></tr>
+      <tr><td class="py-2 pr-3">HIV test, serum cryptococcal antigen, urine TB LAM and molecular TB tests in advanced HIV</td><td class="py-2 pr-3">Identify the infections that routine blood culture may not grow.</td><td class="py-2 pr-3">Availability varies. Follow the national HIV and TB programme guidance.</td></tr>
+      <tr><td class="py-2 pr-3">Full blood count, urea, creatinine, glucose, lactate where available</td><td class="py-2 pr-3">Show organ dysfunction and guide resuscitation.</td><td class="py-2 pr-3">Nonspecific for the cause.</td></tr>
+      <tr><td class="py-2 pr-3">Referral of bottles or isolates to a reference laboratory</td><td class="py-2 pr-3">Gives access to culture when the local laboratory cannot.</td><td class="py-2 pr-3">Transport and cost. Needs a defined route and a way to return results.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Pair these with a clear local protocol: for example, every neonate with suspected sepsis gets a culture and a defined first-line regimen, and every adult in shock gets two sets and a broad regimen with a review at 48&ndash;72 hours.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="getting-more-from-a-limited-service" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Getting More From a Limited Service
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Prioritise.</strong> Send cultures for the patients in section 2, and do not waste bottles on those who do not need them.</li>
+  <li><strong>Spend on volume first.</strong> A properly filled bottle is better than two half-filled ones. Check fill by weight or by a marked line.</li>
+  <li><strong>Make the call rule work.</strong> The laboratory phones every positive Gram stain and the ward logs who took the message.</li>
+  <li><strong>Use blind subculture on day 1</strong> in manual systems. It shortens the time to a useful result without needing new equipment.</li>
+  <li><strong>Watch the contamination rate</strong> (target substantially below 3%) and the proportion of positive cultures. Almost all positive in a unit suggests restrictive testing. Mostly skin organisms suggests poor collection.</li>
+  <li><strong>Build the antibiogram.</strong> Compile first isolates per patient yearly and share them with every prescriber.</li>
+  <li><strong>Teach collection.</strong> Skin preparation, volume and timing training for doctors and nurses is cheap and repays itself.</li>
+  <li><strong>Keep results traceable.</strong> Record the patient&rsquo;s ward and a contact number so that a late positive can find the patient.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult in shock, hot and tachycardic, a urinary source suspected</strong>
+  <p class="text-sm">Take two sets of cultures (or at least one full set) and a urine sample, and start antibiotics within the hour without waiting for the results. Choose a broad agent that fits local Gram-negative resistance, resuscitate, relieve any obstruction, and review at 48&ndash;72 hours against the culture.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neonate on day 5 with fever, poor feeding and lethargy</strong>
+  <p class="text-sm">Treat as sepsis. Draw a blood culture (as much volume as the weight chart allows, in a paediatric bottle) and a glucose, and start the unit&rsquo;s empirical regimen at once. Know your unit&rsquo;s antibiogram: published Nigerian data show high resistance to ampicillin and to third-generation cephalosporins in neonatal Gram-negative isolates, and a mix of <em>S. aureus</em> and <em>Klebsiella</em>. Review at 48&ndash;72 hours with the culture.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Gram stain from a positive bottle reports Gram-positive cocci in clusters, one of two sets</strong>
+  <p class="text-sm">Do not decide from the Gram stain alone. If the identification is <em>S. aureus</em>, treat it as true, even from one set. If it is coagulase-negative, look for a line, prosthesis, neonate or immunosuppression. Without those, it is probably a contaminant and a repeat set is the way to settle it.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient on day 3 of antibiotics, still febrile, blood culture negative at 48 hours</strong>
+  <p class="text-sm">A preliminary negative at 48 hours is not final. Check whether antibiotics preceded the culture, examine for a missed source or abscess, test malaria and consider TB or cryptococcal disease if there is HIV. Review the drug against local resistance before escalating.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with sickle cell anaemia and fever of 39 &deg;C</strong>
+  <p class="text-sm">Draw a blood culture and give parenteral antibiotics without waiting, as this is an emergency (see the genotype and malaria guides). Test malaria, compare Hb with baseline, and review at 48&ndash;72 hours.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Fever of 8 days, malaria negative, typical enteric features, no laboratory culture locally</strong>
+  <p class="text-sm">Send a blood culture to the nearest laboratory that can run one, drawn before antibiotics, with 5&ndash;10 mL in an adult. Treat empirically on the clinical picture if the patient is ill (see the Widal guide), and review once the result arrives.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Report says <em>Candida</em> in the bottle</strong>
+  <p class="text-sm">Never a contaminant. Look for a central line, a gut or urinary source, and take specialist advice for antifungal treatment and line removal. The 2026 sepsis guidance advises against empirical antifungals in general, but a positive yeast culture is a different situation and is treated.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Discharged patient, positive Gram stain phoned the next day</strong>
+  <p class="text-sm">Trace the patient using the recorded contact details. A positive blood culture in a discharged patient is an emergency recall. If the patient cannot be found, notify the next facility and the referring clinician.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Start with the patient.</strong> How sick, what source, what has already been taken?</li>
+  <li><strong>Check the sample.</strong> Volume per bottle, number of sets, time to incubation, antibiotics before sampling, and collection quality.</li>
+  <li><strong>Check the stage.</strong> Is this a Gram stain, a preliminary no-growth, or a final report?</li>
+  <li><strong>Classify a positive.</strong> Pathogen or contaminant, using the organism, the number of sets, the source and the clinical context.</li>
+  <li><strong>Match the empirical drug.</strong> Does it cover the Gram stain and the likely local resistance?</li>
+  <li><strong>Read the susceptibilities.</strong> Narrow to the least broad effective drug, and check for ESBL, MRSA and carbapenem resistance.</li>
+  <li><strong>For a negative,</strong> remember what it does not exclude, and keep looking if the patient is still ill.</li>
+  <li><strong>Set a review and stop date,</strong> and record the result for the local antibiogram.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Shock or probable sepsis.</strong> Antibiotics within the hour. Do not wait for a culture or any other test.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Suspected neonatal sepsis.</strong> Culture and treat at once. The delay between onset and treatment costs lives.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong><em>S. aureus</em>, <em>Candida</em> or a Gram-negative bacillus in a bottle.</strong> Real until proven otherwise. Find the source, document clearance of <em>S. aureus</em>, and act on the susceptibilities.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive Gram stain that was not phoned.</strong> A critical result. Make sure the clinician knows, and that the patient can be found if discharged.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>An ESBL, MRSA or carbapenem-resistant organism on the report.</strong> The empirical drug may be inactive. Change treatment now, and take specialist advice.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A &ldquo;no growth&rdquo; report in a patient who is deteriorating.</strong> It does not exclude sepsis. Re-examine, culture other sites, and review the drug.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Persistent bacteraemia or a new murmur.</strong> Think endocarditis. Repeat cultures (three sets before treatment where possible) and get a senior opinion.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Antibiotics continued with no review.</strong> A patient who is better with a negative culture may not need a long course. Record a stop date.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Blood culture names the organism and its resistance but cannot guide the first dose. In sepsis, collect the culture and treat within the hour, in the same minutes.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Volume is the most important variable: 8&ndash;10 mL per adult bottle (20&ndash;30 mL per set), two or more sets, before antibiotics, with alcoholic chlorhexidine skin preparation. Use paediatric bottles and weight-based volumes in children.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never refrigerate bottles, protect them from heat, and get them to the incubator quickly. Expect a Gram stain on day 1 to 2, an organism at about day 2 to 3, and susceptibilities by day 3 to 4 on a manual system.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Classify every positive: <em>S. aureus</em>, <em>Candida</em>, Enterobacterales, <em>Pseudomonas</em> and pneumococcus are real. Coagulase-negative staphylococci, diphtheroids, <em>Bacillus</em> and <em>Cutibacterium</em> from one set are usually contaminants, unless a line, prosthesis, neonate or immunosuppression is present.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A negative culture does not exclude sepsis. Prior antibiotics, low volume, transient bacteraemia, fastidious organisms and non-bacterial illness all give negatives.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Local data show high resistance to ampicillin and third-generation cephalosporins in neonatal Gram-negative isolates, with variable activity of other drugs. Choose empirical drugs from your national guideline and your own antibiogram, and ask for senior advice when in doubt.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Review at 48&ndash;72 hours: narrow to the least broad effective drug, or stop if cultures are negative and the patient is better. Set a stop date, control the source, and feed every result back into a local antibiogram.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">Society of Critical Care Medicine and European Society of Intensive Care Medicine. Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock (2026 update, and the 2021 edition).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Clinical and Laboratory Standards Institute (CLSI). Principles and procedures for blood cultures (M47), including volume, number of sets and contamination benchmark.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Preventing adult blood culture contamination: a quality tool for clinical laboratory professionals.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. AWaRe classification of antibiotics (2022) and WHO recommendations for the management of neonatal sepsis.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published guidance on interpretation of blood cultures, including the probability of contamination by organism and clinical clues to true bacteraemia.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian tertiary-hospital series on neonatal and paediatric bloodstream infection, culture utilisation, organisms and antimicrobial susceptibility (north-central, south-west, south-east and Abuja).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published multi-country neonatal sepsis studies in low- and middle-income countries (including Nigerian sites) on ampicillin&ndash;gentamicin resistance and ESBL and carbapenemase carriage, and an African systematic review of neonatal sepsis management.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published West African bloodstream infection study (resource constraints, MRSA and ESBL proportions).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published studies of manual blood culture methods in low-resource settings, including biphasic bottles and the timing of blind subculture, and written laboratory standard operating procedures for manual and automated blood culture.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published reviews of paediatric blood culture volumes and of blood culture sensitivity in typhoid.</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
 
 ];

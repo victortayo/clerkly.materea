@@ -1,7 +1,1038 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
-
+  {
+    id: 'im-117',
+    title: 'Chronic Hepatitis B Infection – Follow-Up on Antiviral Therapy',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Gastroenterology / Hepatitis B Clinic',
+    condition: 'Chronic Hepatitis B Infection',
+    symptoms: [
+      'Routine follow-up',
+      'Chronic hepatitis B on antiviral therapy',
+      'Monitoring for hepatic decompensation',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 38-year-old male with chronic hepatitis B infection on tenofovir therapy presenting for routine follow-up. He reports good clinic attendance and medication compliance, with no fresh complaints or clinical features of hepatic decompensation.',
+    content: `
+  GASTROENTEROLOGY / HEPATITIS B CLINIC FOLLOW-UP
+  
+  38 years/Male, known chronic hepatitis B patient on regular follow-up.
+  
+  No fresh complaints. No history of jaundice, right upper quadrant pain, abdominal swelling, leg swelling, pruritus, dark urine, pale stools, easy bruising, haematemesis, melaena, confusion or significant weight loss. No fever or anorexia. No history suggestive of hepatic decompensation. Reports good clinic attendance and compliance with prescribed medication.
+  
+  Current medication:
+  
+  Tab Tenofovir disoproxil fumarate (TDF) 300 mg daily.
+  
+  O/E:
+  
+  Adult male, conscious and alert, comfortable at rest, not pale, anicteric, acyanosed, not dehydrated. No pedal oedema.
+  
+  Wt: 74 kg
+  PR: 78 bpm, regular, full volume
+  BP: 120/80 mmHg
+  RR: 18 cpm
+  Temp: 36.8°C
+  SpO₂: 98% RA
+  
+  CVS:
+  
+  S1 and S2 only.
+  No murmurs.
+  
+  CHEST:
+  
+  Chest clinically clear.
+  Vesicular breath sounds.
+  
+  ABD:
+  
+  Full, moves with respiration.
+  Soft, non-tender.
+  No palpable hepatomegaly or splenomegaly.
+  No ascites.
+  
+  CNS:
+  
+  Conscious and alert.
+  Oriented in time, place and person.
+  No asterixis or focal neurological deficit.
+  
+  INVESTIGATIONS:
+  
+  HBsAg: Previously positive.
+  
+  HBV DNA viral load: Review result.
+  
+  LFTs: Review ALT, AST, bilirubin, albumin.
+  
+  FBC/platelet count.
+  
+  Serum electrolytes, urea and creatinine/eGFR.
+  
+  HBeAg/anti-HBe if not previously documented.
+  
+  Abdominal ultrasound and liver fibrosis assessment as indicated.
+  
+  Screen for HIV, HCV and HDV as appropriate.
+  
+  ASS:
+  
+  Chronic hepatitis B infection, clinically stable on antiviral therapy.
+  
+  No clinical evidence of hepatic decompensation.
+  
+  PLAN:
+  
+  Continue current antiviral therapy:
+  
+  Tab Tenofovir disoproxil fumarate 300 mg PO daily, provided renal function remains satisfactory and the regimen is appropriate.
+  
+  Reinforce strict adherence; do not interrupt therapy without specialist review.
+  
+  Alternative antiviral options if clinically indicated:
+  
+  Tab Entecavir 0.5 mg PO daily on an empty stomach for treatment-naïve adults with compensated liver disease; 1 mg daily may be indicated in decompensated disease or lamivudine resistance/experience. Adjust dose for renal impairment.
+  
+  Tab Tenofovir alafenamide (TAF) 25 mg PO daily with food, where available, may be considered in selected patients with renal impairment or osteoporosis; assess renal function and suitability before switching.
+  
+  Select or switch treatment according to renal function, previous antiviral exposure, resistance history and liver disease severity. Do not combine or change antivirals routinely without a clear indication.
+  
+  Monitoring:
+  
+  Repeat/review HBV DNA viral load and LFTs.
+  
+  Monitor serum creatinine/eGFR; check serum phosphate and urinalysis when indicated during tenofovir therapy.
+  
+  Assess liver fibrosis and arrange abdominal ultrasound for hepatocellular carcinoma surveillance every 6 months when indicated by the patient's risk profile.
+  
+  Counsel on alcohol avoidance, avoidance of unregulated herbal medications and maintenance of a healthy weight.
+  
+  Advise screening and hepatitis B vaccination of susceptible household and sexual contacts. Counsel on condom use and avoidance of sharing razors, toothbrushes or needles.
+  
+  Review in Hepatitis B Clinic in 3–6 months with investigation results, or earlier if symptoms develop.
+  
+  Advise urgent presentation for jaundice, increasing abdominal swelling, gastrointestinal bleeding, confusion or worsening general condition.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-116',
+    title: 'Newly Diagnosed Hepatitis B Infection – Initial Assessment and Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Hepatology Clinic',
+    condition: 'Hepatitis B Infection',
+    symptoms: [
+      'Newly diagnosed hepatitis B infection',
+      'Assessment of disease activity',
+      'Evaluation for antiviral treatment eligibility',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 32-year-old male with newly diagnosed hepatitis B infection presenting for evaluation and follow-up. He is clinically stable, without symptoms or signs of hepatic decompensation, and has not commenced antiviral treatment pending assessment of disease activity and treatment eligibility.',
+    content: `
+  HEPATITIS B CLINIC – NEWLY DIAGNOSED PATIENT FOLLOW-UP
+  
+  32 years/Male, newly diagnosed with hepatitis B infection, presenting for follow-up and evaluation.
+  
+  C/O: No fresh complaints.
+  
+  Patient was recently diagnosed with hepatitis B following a positive HBsAg test. Currently clinically stable. No history of jaundice, dark urine, pale stools, right upper quadrant pain, abdominal swelling, leg swelling, pruritus, easy bruising, haematemesis, melaena, confusion or significant weight loss. No known history of chronic liver disease. Antiviral treatment has not yet been commenced pending further assessment.
+  
+  O/E:
+  
+  Adult male, conscious and alert, comfortable at rest, not pale, anicteric, acyanosed and not dehydrated. No pedal oedema.
+  
+  Wt: 70 kg
+  PR: 78 bpm, regular
+  BP: 120/80 mmHg
+  RR: 18 cpm
+  Temp: 36.7°C
+  SpO₂: 98% RA
+  
+  CVS: S1 and S2 only. No murmurs.
+  
+  CHEST: Clinically clear. Vesicular breath sounds.
+  
+  ABD: Soft, non-tender, no palpable hepatomegaly or splenomegaly. No ascites.
+  
+  CNS: Conscious and oriented. No asterixis or focal neurological deficit.
+  
+  INVESTIGATIONS:
+  
+  Repeat HBsAg/confirmatory testing as appropriate; establish duration of infection. HBsAg positivity for at least 6 months supports chronic infection.
+  
+  HBeAg and anti-HBe.
+  
+  Quantitative HBV DNA viral load.
+  
+  LFTs: ALT, AST, bilirubin, albumin.
+  
+  FBC and platelet count.
+  
+  Serum electrolytes, urea, creatinine/eGFR; urinalysis as indicated.
+  
+  Assess liver fibrosis using available non-invasive assessment, e.g. APRI or elastography.
+  
+  Screen for HIV, HCV and HDV as appropriate.
+  
+  Abdominal ultrasound if indicated by clinical findings, fibrosis/cirrhosis status or hepatocellular carcinoma risk.
+  
+  Pregnancy test if applicable, before selecting treatment where relevant.
+  
+  ASS:
+  
+  Newly diagnosed hepatitis B infection, clinically stable.
+  
+  Chronicity and disease activity yet to be established.
+  
+  No clinical evidence of hepatic decompensation.
+  
+  PLAN:
+  
+  Assess eligibility for antiviral treatment based on HBV DNA, ALT, liver fibrosis/cirrhosis, comorbidities, family history of liver cancer/cirrhosis and other relevant risk factors. A positive HBsAg alone does not automatically mean that every patient requires immediate antiviral treatment.
+  
+  If treatment is indicated, first-line options include:
+  
+  Tab Tenofovir disoproxil fumarate (TDF) 300 mg PO daily, after checking renal function and suitability.
+  
+  Tab Entecavir 0.5 mg PO daily on an empty stomach for treatment-naïve adults with compensated liver disease; adjust for renal impairment.
+  
+  Tab Tenofovir alafenamide (TAF) 25 mg PO daily with food, where available and appropriate.
+  
+  Select one appropriate agent according to renal function, liver disease severity, previous antiviral exposure, pregnancy status where relevant, and local protocol. Do not commence or switch treatment without assessing the indication and contraindications.
+  
+  If treatment is not currently indicated, arrange regular monitoring of ALT, HBV DNA and liver disease progression; do not discharge from follow-up.
+  
+  Counsel on strict alcohol avoidance, avoiding unregulated herbal preparations and maintaining a healthy weight.
+  
+  Advise screening of household and sexual contacts and hepatitis B vaccination of susceptible contacts. Counsel on condom use and not sharing razors, toothbrushes, needles or other items contaminated with blood. Do not donate blood.
+  
+  Discuss the importance of long-term follow-up and adherence if antiviral treatment is commenced. Treatment is often prolonged and should not be stopped without specialist advice.
+  
+  Arrange hepatocellular carcinoma surveillance with liver ultrasound every 6 months when indicated by cirrhosis or the patient's risk profile.
+  
+  Review in Hepatitis B Clinic in 2–4 weeks with investigation results to determine treatment eligibility and formulate a management plan, or earlier if symptoms develop.
+  
+  Advise urgent presentation if jaundice, increasing abdominal swelling, vomiting blood, black stools, confusion or marked deterioration occurs.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-115',
+    title: 'Newly Diagnosed HIV Infection – Initial Assessment and Treatment',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'HIV Clinic',
+    condition: 'Human Immunodeficiency Virus (HIV) Infection',
+    symptoms: [
+      'Newly diagnosed HIV infection',
+      'Linkage to care',
+      'Baseline assessment and ART initiation',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 32-year-old male newly diagnosed with HIV infection presenting for linkage to care, baseline assessment, counselling and initiation of antiretroviral therapy. He has no fresh complaints or obvious clinical features of opportunistic infection.',
+    content: `
+  HIV CLINIC – NEWLY DIAGNOSED PATIENT FOLLOW-UP
+  
+  32 years/Male, newly diagnosed with HIV infection, presenting for linkage to care, baseline assessment and initiation of treatment.
+  
+  C/O: No fresh complaints.
+  
+  Patient was recently diagnosed with HIV following testing and presents for counselling and further management. No history of prolonged fever, chronic cough, night sweats, significant weight loss, chronic diarrhoea, oral thrush, skin rashes, headache, neck stiffness, visual disturbance or other symptoms suggestive of opportunistic infection. No known previous ART use. Willing to commence treatment following counselling.
+  
+  O/E:
+  
+  Adult male, conscious and alert, comfortable at rest, not pale, anicteric, acyanosed and not dehydrated.
+  
+  Wt: 68 kg
+  PR: 80 bpm, regular
+  BP: 120/80 mmHg
+  RR: 18 cpm
+  Temp: 36.8°C
+  SpO₂: 98% RA
+  
+  MSS: No significant peripheral lymphadenopathy.
+  
+  CVS: S1 and S2 only. No murmurs.
+  
+  CHEST: Clinically clear. Vesicular breath sounds.
+  
+  ABD: Soft, non-tender. No palpable organomegaly or ascites.
+  
+  CNS: Conscious and oriented. No focal neurological deficit or neck stiffness.
+  
+  INVESTIGATIONS:
+  
+  Confirm HIV diagnosis according to the national testing algorithm, including verification on a new specimen before ART initiation.
+  
+  CD4 cell count.
+  
+  HIV viral load.
+  
+  FBC.
+  
+  Serum electrolytes, urea, creatinine/eGFR.
+  
+  LFTs.
+  
+  HBsAg and hepatitis C screening.
+  
+  Screen for TB: symptoms, examination and further testing as indicated.
+  
+  Urinalysis and urine pregnancy test where applicable.
+  
+  Screen for syphilis and other STIs as indicated.
+  
+  Additional opportunistic infection investigations guided by CD4 count and symptoms.
+  
+  ASS:
+  
+  Newly diagnosed HIV infection, clinically stable.
+  
+  Baseline immune status and viral load yet to be established.
+  
+  No obvious clinical evidence of opportunistic infection on current assessment.
+  
+  PLAN:
+  
+  Counselling and linkage to care
+  
+  Provide post-test counselling, explain HIV infection and the benefits of lifelong antiretroviral therapy (ART).
+  
+  Discuss confidentiality, adherence, prevention of transmission and the importance of regular clinic attendance.
+  
+  Assess readiness for treatment and potential barriers to adherence.
+  
+  Commence ART promptly once diagnosis is confirmed and clinical assessment is completed. For an eligible treatment-naïve adult, the usual first-line regimen under Nigeria's HIV treatment programme is:
+  
+  Tab Tenofovir disoproxil fumarate 300 mg + Lamivudine 300 mg + Dolutegravir 50 mg (TDF/3TC/DTG), one tablet PO once daily, subject to renal function, drug interactions, hepatitis B status and other clinical considerations.
+  
+  Check for relevant interactions, particularly rifampicin-containing TB treatment, which requires adjustment of dolutegravir dosing under the applicable protocol.
+  
+  If hepatitis B coinfection is present, ensure the ART regimen contains two HBV-active agents, usually TDF plus 3TC or FTC, unless contraindicated.
+  
+  Do not delay ART solely while awaiting routine baseline results if rapid initiation is appropriate. Suspected TB meningitis or cryptococcal meningitis requires specific assessment before starting ART.
+  
+  Opportunistic infection prevention
+  
+  Use CD4 results and clinical assessment to determine eligibility for cotrimoxazole prophylaxis and other indicated preventive measures.
+  
+  If CD4 is very low or advanced HIV disease is suspected, assess for opportunistic infections and follow the national advanced HIV disease protocol.
+  
+  Evaluate and manage suspected TB or other infections as indicated.
+  
+  Health education
+  
+  Encourage consistent condom use until viral suppression is achieved, and discuss partner testing and prevention services.
+  
+  Explain that sustained undetectable viral load on effective ART prevents sexual transmission of HIV (U=U).
+  
+  Advise against sharing needles, razors or other blood-contaminated items.
+  
+  Encourage a balanced diet, avoidance of harmful alcohol use and appropriate vaccination after reviewing immune status.
+  
+  Follow-up
+  
+  Review within 1–2 weeks after ART initiation, or sooner if clinically indicated, to assess tolerance, adherence, adverse effects and baseline results.
+  
+  Monitor HIV viral load according to the national protocol, commonly around 3–6 months after initiation and subsequently as recommended.
+  
+  Provide adherence support and arrange ongoing HIV clinic follow-up.
+  
+  Advise urgent review for persistent fever, worsening cough or breathlessness, severe headache, neck stiffness, confusion, visual changes, severe diarrhoea or marked clinical deterioration.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-114',
+    title: 'HIV Infection – Long-Term Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'HIV Clinic',
+    condition: 'Human Immunodeficiency Virus (HIV) Infection',
+    symptoms: [
+      'Routine follow-up',
+      'HIV infection on long-term antiretroviral therapy',
+      'Assessment of viral suppression and treatment adherence',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 38-year-old male with known HIV infection on long-term antiretroviral therapy presenting for routine follow-up, with good reported adherence, regular clinic attendance and no current symptoms suggestive of opportunistic infection.',
+    content: `
+  HIV CLINIC – LONG-TERM FOLLOW-UP
+  
+  38 years/Male, known HIV-positive patient on regular ART follow-up.
+  
+  C/O: No fresh complaints.
+  
+  Patient has been living with HIV for several years and is on regular antiretroviral therapy. Reports good adherence to medication and regular clinic attendance. No history of persistent fever, chronic cough, night sweats, significant weight loss, chronic diarrhoea, oral thrush, skin rashes or other symptoms suggestive of opportunistic infection. No recent hospital admission. No reported adverse effects from current medication.
+  
+  Current medication:
+  
+  Tab Tenofovir disoproxil fumarate 300 mg/Lamivudine 300 mg/Dolutegravir 50 mg (TDF/3TC/DTG), 1 tablet PO daily, if this is the patient's confirmed regimen.
+  
+  O/E:
+  
+  Adult male, conscious and alert, comfortable at rest, not pale, anicteric, acyanosed and not dehydrated. No pedal oedema.
+  
+  Wt: 68 kg
+  PR: 78 bpm, regular
+  BP: 120/80 mmHg
+  RR: 18 cpm
+  Temp: 36.7°C
+  SpO₂: 98% RA
+  
+  CVS: S1 and S2 only. No murmurs.
+  
+  CHEST: Clinically clear. Vesicular breath sounds.
+  
+  ABD: Soft, non-tender. No palpable organomegaly or ascites.
+  
+  CNS: Conscious and oriented. No focal neurological deficit.
+  
+  INVESTIGATIONS:
+  
+  HIV viral load – review latest result to assess treatment response.
+  
+  CD4 count – as indicated by clinical status and treatment protocol.
+  
+  FBC.
+  
+  Serum electrolytes, urea and creatinine/eGFR.
+  
+  LFTs.
+  
+  Screen for TB and other opportunistic infections if symptomatic.
+  
+  HBsAg and HCV screening if not previously documented or when indicated.
+  
+  Screen for other comorbidities and STIs as appropriate.
+  
+  ASS:
+  
+  Known HIV infection on long-term ART.
+  
+  Clinically stable at present.
+  
+  Assess for sustained viral suppression and treatment adherence.
+  
+  PLAN:
+  
+  Continue current ART regimen if well tolerated and virologically effective:
+  
+  Tab TDF/3TC/DTG, 1 tablet PO daily, provided this is the patient's established regimen and there is no contraindication.
+  
+  Reinforce strict adherence and discourage interruption of medication.
+  
+  If viral load is elevated, assess adherence, treatment interruptions, drug interactions and possible treatment failure; follow the national protocol for repeat viral load testing and enhanced adherence support before considering a regimen change.
+  
+  Monitoring:
+  
+  Review the latest viral load and document whether the patient is virally suppressed.
+  
+  Monitor renal function, FBC and LFTs as clinically indicated and according to the ART protocol.
+  
+  Assess weight trend, nutritional status, mental health and possible long-term medication adverse effects.
+  
+  Screen for TB and other opportunistic infections when indicated. Provide cotrimoxazole prophylaxis or other preventive treatment only when indicated by the patient's clinical status and current guidelines.
+  
+  Counsel on adherence, safe sexual practices, partner testing and prevention of STIs. Explain that sustained viral suppression prevents sexual transmission of HIV (U=U).
+  
+  Encourage a balanced diet, regular exercise, avoidance of harmful alcohol use and appropriate vaccination.
+  
+  Review in HIV clinic according to the differentiated service delivery schedule, commonly within 1–3 months or as determined by the patient's stability and local protocol.
+  
+  Advise early presentation for persistent fever, chronic cough, unexplained weight loss, persistent diarrhoea, severe headache, breathlessness or other new symptoms.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  
+  {
+    id: 'im-113',
+    title: 'Newly Diagnosed Pulmonary Tuberculosis – Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Pulmonology Clinic',
+    condition: 'Pulmonary Tuberculosis',
+    symptoms: [
+      'Cough',
+      'Fever',
+      'Night sweats',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 35-year-old male with newly diagnosed pulmonary tuberculosis presenting for follow-up after commencing anti-TB treatment, with improving cough, fever, night sweats, appetite and general well-being.',
+    content: `
+  TB CLINIC – NEWLY DIAGNOSED PATIENT FOLLOW-UP
+  
+  35 years/Male, newly diagnosed case of pulmonary tuberculosis, presenting for follow-up after commencement of anti-TB treatment.
+  
+  C/O: Cough, fever and night sweats improving.
+  
+  Patient was diagnosed with pulmonary TB following a positive sputum molecular test and commenced on anti-TB treatment. Reports good adherence to medication, with improvement in cough, fever, appetite and general well-being. No haemoptysis, worsening breathlessness, chest pain, persistent vomiting, jaundice, dark urine or visual disturbance. No missed doses reported.
+  
+  Current medication:
+  
+  Fixed-dose combination of Rifampicin, Isoniazid, Pyrazinamide and Ethambutol (RHZE), daily during the intensive phase, according to the prescribed weight band and National TB Programme protocol.
+  
+  Pyridoxine (vitamin B6), if indicated.
+  
+  O/E:
+  
+  Adult male, conscious and alert, comfortable at rest, not pale, anicteric, acyanosed and not dehydrated.
+  
+  Wt: 60 kg
+  PR: 84 bpm, regular
+  BP: 120/80 mmHg
+  RR: 20 cpm
+  Temp: 37.0°C
+  SpO₂: 97% RA
+  
+  CHEST:
+  
+  Chest moves with respiration.
+  Breath sounds vesicular.
+  No significant added sounds.
+  
+  CVS: S1 and S2 only. No murmurs.
+  
+  ABD: Soft, non-tender. No palpable hepatomegaly.
+  
+  CNS: Conscious and oriented. No focal neurological deficit.
+  
+  INVESTIGATIONS:
+  
+  Review baseline sputum Xpert MTB/RIF or other molecular test and rifampicin-resistance result.
+  
+  Repeat sputum smear or molecular testing according to the national TB monitoring schedule.
+  
+  Review baseline chest X-ray, where available.
+  
+  HIV testing, if status is unknown, with linkage to HIV care if positive.
+  
+  Review baseline FBC, LFTs and renal function where indicated.
+  
+  Monitor weight at each visit to assess response and adjust weight-band dosing when necessary.
+  
+  ASS:
+  
+  Newly diagnosed pulmonary tuberculosis, on anti-TB treatment.
+  
+  Clinical response to treatment to be assessed at each visit.
+  
+  Adherence and drug tolerance require ongoing monitoring.
+  
+  PLAN:
+  
+  Continue anti-TB treatment according to the National TB Programme regimen and prescribed weight band.
+  
+  For drug-susceptible pulmonary TB, the standard regimen is commonly 2 months of RHZE followed by 4 months of RH (2HRZE/4HR), subject to the patient's eligibility and national protocol.
+  
+  Do not stop, extend or change treatment without clinical review and consideration of bacteriological results and drug susceptibility.
+  
+  Reinforce strict adherence and attendance at scheduled TB clinic appointments. Address any barriers to medication access or adherence.
+  
+  Monitor clinical response, weight, cough, fever, night sweats and appetite. Obtain follow-up sputum testing at the recommended treatment milestones.
+  
+  Counsel on adverse drug effects and advise urgent review for jaundice, dark urine, persistent vomiting, severe abdominal pain, visual changes, severe rash or marked weakness.
+  
+  Counsel on cough hygiene, good ventilation, appropriate mask use while potentially infectious, and screening of household contacts. Follow local guidance on infection control and return to work or school.
+  
+  If HIV-positive, link to HIV care and coordinate ART timing and drug interactions with rifampicin. Provide cotrimoxazole or other preventive treatment when indicated.
+  
+  Review in 2–4 weeks, or according to the TB clinic schedule, with adherence assessment, weight measurement and relevant investigation results.
+  
+  If symptoms worsen, sputum remains positive when expected to convert, or treatment response is poor, reassess adherence, drug resistance, alternative diagnoses and possible complications.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+ 
+  {
+    id: 'im-112',
+    title: 'Pulmonary Tuberculosis on Treatment – Routine Follow-Up',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Pulmonology Clinic',
+    condition: 'Pulmonary Tuberculosis',
+    symptoms: [
+      'Routine follow-up',
+      'Pulmonary tuberculosis on anti-TB treatment',
+      'Assessment of treatment response',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-22',
+    summary: 'A 40-year-old male with pulmonary tuberculosis on anti-TB treatment presenting for routine follow-up, reporting good medication adherence and improvement in previous symptoms, with no current complaints suggestive of active disease progression or drug toxicity.',
+    content: `
+  40 years/Male, known case of pulmonary tuberculosis on anti-TB treatment, presenting for routine follow-up.
+  
+  C/O: No fresh complaints.
+  
+  Patient has been on anti-TB treatment with regular TB clinic follow-up. Reports good adherence to medication and improvement in previous symptoms. No current fever, night sweats, significant weight loss, haemoptysis, chest pain or worsening breathlessness. No persistent vomiting, jaundice, dark urine, visual disturbance or other symptoms suggestive of drug toxicity. Treatment duration and completion status to be confirmed.
+  
+  Current medication:
+  
+  If still in the intensive phase: RHZE (Rifampicin, Isoniazid, Pyrazinamide and Ethambutol), daily according to prescribed weight band.
+  
+  If in the continuation phase: RH (Rifampicin and Isoniazid), daily according to prescribed weight band.
+  
+  Pyridoxine (vitamin B6), where indicated.
+  
+  O/E:
+  
+  Adult male, conscious and alert, comfortable at rest, not pale, anicteric, acyanosed and not dehydrated.
+  
+  Wt: 62 kg
+  PR: 78 bpm, regular
+  BP: 120/80 mmHg
+  RR: 18 cpm
+  Temp: 36.7°C
+  SpO₂: 98% RA
+  
+  CHEST:
+  
+  Chest moves with respiration.
+  Breath sounds vesicular.
+  No significant added sounds.
+  
+  CVS: S1 and S2 only. No murmurs.
+  
+  ABD: Soft, non-tender. No palpable hepatomegaly.
+  
+  CNS: Conscious and oriented. No focal neurological deficit.
+  
+  INVESTIGATIONS:
+  
+  Review baseline TB diagnostic test and rifampicin-resistance result.
+  
+  Review follow-up sputum smear or molecular test results according to the national TB monitoring schedule.
+  
+  Review chest X-ray if clinically indicated.
+  
+  HIV status and linkage to care if positive.
+  
+  LFTs and renal function if indicated by symptoms, comorbidities or suspected drug toxicity.
+  
+  Document treatment phase, duration, adherence, weight trend and expected completion date.
+  
+  ASS:
+  
+  Pulmonary tuberculosis on treatment, clinically stable.
+  
+  Assess for treatment response and bacteriological conversion.
+  
+  No obvious clinical evidence of anti-TB drug toxicity at present.
+  
+  PLAN:
+  
+  Continue the prescribed anti-TB regimen according to the treatment phase, weight band, drug susceptibility results and National TB Programme protocol.
+  
+  Reinforce strict adherence and completion of the full prescribed course. Do not stop or extend treatment without appropriate clinical review.
+  
+  Monitor weight, symptoms, medication tolerance and sputum results at recommended treatment milestones.
+  
+  If cough, fever, weight loss or sputum positivity persists or recurs, assess for poor adherence, drug resistance, treatment failure, reinfection or an alternative diagnosis; arrange further testing and TB specialist review as indicated.
+  
+  Counsel on adequate nutrition, cough hygiene and household contact screening as appropriate.
+  
+  Advise urgent review for jaundice, persistent vomiting, severe abdominal pain, visual changes, severe rash or worsening breathlessness.
+  
+  Review at the next scheduled TB clinic appointment with treatment records and relevant investigation results.
+  
+  If treatment has been completed, document the final outcome based on the programme's criteria and arrange further review if symptoms recur.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-111',
+    title: 'Acute Variceal Haemorrhage in Alcoholic Liver Cirrhosis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Gastroenterology / Hepatology',
+    condition: 'Acute upper gastrointestinal haemorrhage from ruptured oesophageal varices in a patient with alcohol-related liver cirrhosis and portal hypertension',
+    symptoms: [
+      'Haematemesis',
+      'Melaena × 2 days',
+      'Progressive abdominal distension',
+      'Jaundice × 3 months',
+      'Haemodynamic instability — BP 90/60 mmHg, PR 112 bpm thready',
+      'Splenomegaly 4 cm below left costal margin',
+      'Ascites with shifting dullness',
+      'Stigmata of chronic liver disease — palmar erythema, spider naevi, caput medusae',
+      'Chronic alcohol use × 15 years'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-06-24',
+    summary: 'Mr A.O., a 48-year-old married trader, presents with 12-hour haematemesis (400–500 mL, two episodes), 2-day melaena, 6-month progressive abdominal distension, and 3-month jaundice. He has a 15-year history of chronic alcohol use. He is haemodynamically unstable (BP 90/60 mmHg, PR 112 bpm). Examination reveals pallor, mild icterus, pedal oedema, ascites, splenomegaly, palmar erythema, spider naevi, and caput medusae.',
+    content: `
+  Mr A.O., a 48-year-old married male trader, resident in Abeokuta, Ogun State, Muslim, Yoruba.
+  
+  Informant: Patient and wife (reliable)
+  
+  PRESENTING COMPLAINTS
+  Abdominal swelling × 6 months
+  Yellowish discoloration of the eyes × 3 months
+  Passage of black tarry stool × 2 days
+  Vomiting of blood × 12 hours
+  
+  HISTORY OF PRESENTING COMPLAINTS
+  The patient was apparently well until 6 months prior to presentation when he noticed progressive abdominal swelling, initially mild and gradually increasing in size, not associated with pain. Associated early satiety and occasional bilateral leg swelling.
+  
+  Three months prior to presentation, he noticed progressive yellowish discoloration of the eyes with dark-coloured urine and occasional generalised body itching. No history of pale stools.
+  
+  Two days prior to presentation, he began passing black tarry offensive stool 2–3 times daily with associated generalised weakness and dizziness on standing.
+  
+  Twelve hours prior to presentation, he had sudden onset vomiting of fresh blood, estimated at approximately 400–500 ml, occurring twice, not preceded by retching, with no food particles in the vomitus.
+  
+  Associated easy fatigability, palpitations, and dizziness. No loss of consciousness.
+  
+  No haematochezia, bleeding from gums, epistaxis, haematuria, or easy bruising.
+  No prior similar episode of haematemesis. No chronic epigastric pain, NSAID use, or dyspeptic symptoms.
+  No history of IV drug use or blood transfusion.
+  
+  History of chronic alcohol intake for approximately 15 years (3–4 bottles of beer daily).
+  
+  PAST MEDICAL HISTORY
+  No known hypertension, diabetes mellitus, or peptic ulcer disease.
+  No prior abdominal surgery.
+  
+  DRUG HISTORY
+  No chronic NSAID use. No anticoagulant use. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  No family history of liver disease. Does not smoke.
+  
+  REVIEW OF SYSTEMS
+  CVS: Palpitations present. No chest pain or orthopnoea.
+  Respiratory: No cough, haemoptysis, or dyspnoea.
+  CNS: No confusion, altered consciousness, or seizures.
+  GUS: No haematuria or reduced urine output.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  Acutely ill-looking. Pale and mildly icteric. Not cyanosed, not dehydrated. Afebrile (36.8°C).
+  Bilateral pitting pedal oedema to the ankles.
+  Stigmata of chronic liver disease: palmar erythema, spider naevi.
+  
+  Vital Signs
+  Temperature: 36.8°C
+  PR: 112 bpm, thready
+  BP: 90/60 mmHg
+  RR: 24 cpm
+  SpO₂: 97% on room air
+  
+  Abdomen
+  Distended, moves with respiration. Dilated abdominal wall veins with caput medusae pattern. Umbilicus everted. No localised tenderness. Liver not easily palpable. Spleen palpable 4 cm below the left costal margin. Shifting dullness present, consistent with ascites. Bowel sounds present.
+  
+  Digital Rectal Examination
+  Finger stained with black tarry stool (melaena confirmed).
+  
+  CVS
+  S1 and S2 present, no murmurs.
+  
+  Respiratory System
+  Breath sounds vesicular, no added sounds.
+  
+  CNS
+  Conscious and orientated to time, place, and person. No focal neurological deficit.
+  
+  ASSESSMENT
+  
+  Acute upper gastrointestinal haemorrhage secondary to ruptured oesophageal varices in a patient with alcohol-related liver cirrhosis and portal hypertension. Haemodynamically unstable.
+  
+  Differentials
+  Bleeding peptic ulcer (less likely — no dyspepsia, no NSAID use)
+  Erosive gastritis
+  Portal hypertensive gastropathy
+  Mallory-Weiss tear (less likely — no preceding forceful retching)
+  
+  PLAN
+  
+  EMERGENCY — Admit to HDU/ICU. Alert gastroenterologist, senior physician, and anaesthetist immediately.
+  
+  Resuscitation (ABC)
+  
+  Airway
+  Lateral or semi-upright position. High risk of aspiration with ongoing haematemesis. Prepare for intubation if: massive or uncontrolled haematemesis, deteriorating consciousness, or requirement for endoscopy in an unstable patient.
+  
+  Breathing
+  Oxygen via face mask. Target SpO₂ above 94% (currently 97% — maintain). Monitor respiratory rate.
+  
+  Circulation
+  Establish two wide-bore IV cannulae (14G or 16G). Send blood immediately:
+  — Full blood count
+  — Blood grouping and cross-match (4–6 units packed red cells)
+  — Liver function tests
+  — Serum electrolytes, urea, and creatinine
+  — Coagulation profile (PT/INR)
+  — Viral markers (HBsAg, anti-HCV) if not previously done
+  
+  IV fluid resuscitation: 0.9% Normal Saline, 500 ml over 15–30 minutes; reassess haemodynamic response. Continue cautiously. Target systolic BP above 100 mmHg. Avoid over-resuscitation.
+  
+  Insert Foley catheter immediately. Target urine output above 0.5 ml/kg/hour. Strict input-output monitoring.
+  
+  Blood transfusion: Transfuse packed red blood cells. Target haemoglobin 7–8 g/dL (restrictive strategy). Consider FFP if INR above 2.5 with ongoing bleeding. Platelet transfusion if platelet count below 50,000/μL with ongoing bleeding.
+  
+  Monitoring: Continuous or hourly vital signs. Serial haemoglobin/PCV every 4–6 hours. Daily electrolytes, creatinine, and LFTs. Repeat coagulation profile as needed. Monitor mental status for hepatic encephalopathy.
+  
+  Specific Management
+  
+  Vasoactive therapy — START IMMEDIATELY:
+  Terlipressin 2 mg IV every 4 hours (continue for 2–5 days)
+  If unavailable: Octreotide 50 mcg IV bolus, then 50 mcg/hour continuous infusion (continue for 2–5 days)
+  
+  Prophylactic antibiotics — ESSENTIAL, START IMMEDIATELY:
+  IV Ceftriaxone 1 g every 12–24 hours for 5–7 days
+  
+  Hepatic encephalopathy prophylaxis:
+  Lactulose 30 ml every 8 hours orally or via nasogastric tube. Adjust dose to achieve 2–3 soft stools daily.
+  
+  Proton pump inhibitor:
+  IV Omeprazole 40 mg every 12 hours or IV Pantoprazole 40 mg every 12 hours.
+  
+  Nasogastric tube: Consider insertion for monitoring of ongoing bleeding, pre-endoscopic gastric lavage, and medication administration. Insert judiciously.
+  
+  Definitive Management — Endoscopy
+  
+  Urgent upper GI endoscopy within 12 hours (after haemodynamic stabilisation). Do not delay beyond 12 hours.
+  
+  Pre-endoscopy preparation:
+  Adequate resuscitation (systolic BP above 90–100 mmHg)
+  Correct coagulopathy: FFP if INR above 2.5; platelets if below 50,000/μL
+  IV Erythromycin 250 mg, 30–60 minutes before endoscopy (prokinetic — improves gastric visualisation)
+  Informed consent
+  Anaesthesia/ICU backup available
+  
+  Endoscopic treatment (first-line): Endoscopic Variceal Ligation (EVL) — apply bands starting distally, 4–6 bands per session.
+  If EVL unavailable: sclerotherapy.
+  Gastric varices (if found): cyanoacrylate injection if available, otherwise EVL.
+  
+  Balloon tamponade (rescue only — if endoscopy unavailable and bleeding uncontrolled):
+  Sengstaken-Blakemore or Minnesota tube. Inflate gastric balloon first (250–300 ml), apply traction, inflate oesophageal balloon only if still bleeding (30–40 mmHg). Maximum 24 hours. Monitor closely for complications. Bridge to definitive endoscopy only.
+  
+  TIPS (if 2 failed endoscopic attempts or refractory bleeding): Transjugular intrahepatic portosystemic shunt — interventional radiology referral.
+  
+  Management of Chronic Liver Disease
+  
+  Severity scoring: Calculate Child-Pugh Score and MELD Score using today's bilirubin, albumin, INR, creatinine, and ascites/encephalopathy assessment.
+  
+  Ascites:
+  Sodium restriction below 2 g/day.
+  Spironolactone 100 mg daily plus Furosemide 40 mg daily — titrate to achieve weight loss of 0.5 kg/day maximum.
+  Therapeutic paracentesis if tense ascites, with IV albumin (8 g per litre of ascites drained) if more than 5 litres removed.
+  Fluid restriction only if serum sodium below 125 mmol/L.
+  
+  Hepatic encephalopathy: Lactulose as above. Add Rifaximin 550 mg twice daily if recurrent encephalopathy.
+  
+  Nutrition: High-protein diet 1.2–1.5 g/kg/day unless encephalopathy. Frequent small meals. Multivitamin supplementation. Thiamine 100 mg IV/IM daily for first 3 days (alcohol-related liver disease).
+  
+  Alcohol cessation: Counsel firmly on complete and permanent abstinence. Refer to addiction services at discharge.
+  
+  Secondary Prophylaxis (after acute episode controlled)
+  
+  Non-selective beta-blocker: Propranolol 20 mg twice daily (or Carvedilol 6.25 mg daily). Titrate to reduce resting heart rate by 25% or to 55–60 bpm. Continue indefinitely.
+  
+  Repeat EVL: Every 2–4 weeks until varices eradicated. Then surveillance endoscopy every 6–12 months.
+  
+  HCC surveillance: Abdominal ultrasound and serum AFP every 6 months.
+  
+  Liver transplant evaluation: Refer if Child-Pugh B/C or MELD above 15.
+  
+  FOLLOW-UP
+  Gastroenterology/hepatology clinic 1 week post-discharge. Repeat EVL every 2–4 weeks until varices eradicated. Liver transplant evaluation if Child-Pugh B/C or MELD above 15. Alcohol cessation support and addiction services referral.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Diagnosis — Variceal Haemorrhage in Portal Hypertension</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">How Varices Form — Portal Hypertension and Portosystemic Collaterals</strong>
+          <p>The portal vein drains blood from the gastrointestinal tract, spleen, and pancreas into the liver. Normal portal venous pressure is 5 to 10 mmHg. In liver cirrhosis, the fibrous replacement of hepatic parenchyma distorts the hepatic sinusoidal architecture and increases intrahepatic vascular resistance, raising portal venous pressure above 10 mmHg — defined as portal hypertension, and clinically significant above 12 mmHg. When portal pressure exceeds 10 to 12 mmHg, the portal venous system decompresses itself by opening portosystemic collateral channels at anatomical sites where portal and systemic venous beds communicate. At the gastro-oesophageal junction, left gastric (coronary) vein flow reverses and dilates the submucosal venous plexus of the lower oesophagus, producing oesophageal varices. At the umbilicus, recanalization of the umbilical vein dilates the superficial abdominal veins radiating from the umbilicus — the caput medusae pattern seen in this patient. At the rectum, superior and inferior rectal vein anastomoses produce anorectal varices. The spleen enlarges as splenic venous drainage is impaired. Ascites forms through a combination of sinusoidal hypertension forcing fluid into the peritoneal cavity and hypoalbuminaemia (from reduced hepatic synthesis) reducing oncotic pressure. All of these findings are present in this patient and together constitute the classic syndrome of decompensated portal hypertension.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Varices Rupture</strong>
+          <p>Oesophageal varices rupture when the wall tension of the varix exceeds the tensile strength of the overlying mucosa. Wall tension is determined by the varix radius and the transmural pressure gradient (the difference between intravariceal pressure and intraluminal oesophageal pressure). Portal pressure above 12 mmHg is necessary for variceal formation; rupture risk increases substantially above 20 mmHg. Varices with high-risk endoscopic features — large size (grade 3 or above), red wale markings (longitudinal red streaks on the varix surface indicating areas of impending rupture), and cherry red spots — carry a higher bleeding risk. The six-week mortality after an index variceal bleed is 15 to 20%; without secondary prophylaxis, 60 to 70% of patients re-bleed within one year. These numbers underscore why acute variceal bleeding is an emergency with a significant mortality and why every hour before definitive endoscopic therapy matters.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Why Each Management Step Was Chosen</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Vasoactive Therapy — The Pharmacological Bridge to Endoscopy</strong>
+          <p>Terlipressin and octreotide reduce portal venous pressure by causing splanchnic vasoconstriction — decreasing blood flow into the portal system and thereby reducing the intravariceal pressure that drives bleeding. Terlipressin is a synthetic vasopressin analogue that acts on V1 receptors in splanchnic arterioles; it is the only vasoactive agent with demonstrated mortality reduction in randomised trials and is the international first-line choice. Octreotide, a somatostatin analogue, inhibits glucagon and other vasodilatory peptides that normally maintain splanchnic vasodilation — it reduces splanchnic inflow with fewer systemic cardiovascular side effects than terlipressin. Both agents should be started immediately on clinical diagnosis of variceal bleeding, before endoscopy, and continued for 2 to 5 days to prevent early re-bleeding. Importantly, vasoactive therapy does not replace endoscopic treatment — it buys time, controls active bleeding to allow safe resuscitation and endoscopy, and reduces the technical difficulty of the procedure by slowing the bleeding rate.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Prophylactic Antibiotics — A Mortality-Reducing Intervention</strong>
+          <p>Systemic bacterial infections complicate acute variceal bleeding in 35 to 66% of patients with cirrhosis, and infection both precipitates re-bleeding and independently worsens survival. The mechanism involves bacterial translocation from the gut — the portal hypertensive state increases intestinal permeability and reduces gut-associated lymphoid tissue immunity, allowing gut bacteria to cross into the mesenteric lymph nodes, portal blood, and systemic circulation. Blood in the gut (from the variceal bleed itself) acts as an additional growth medium. The most important infectious complication is spontaneous bacterial peritonitis (SBP), but bacteraemia, urinary tract infections, and pneumonia are also common. Multiple meta-analyses confirm that prophylactic antibiotics in acute variceal bleeding significantly reduce bacterial infection rates, early re-bleeding rates, and short-term mortality. Intravenous ceftriaxone is the current preferred agent in hospitalised patients, including those with ascites where gram-negative organisms and enteric pathogens are the dominant concern. The 5 to 7-day course should be given regardless of whether the patient has clinical signs of infection at admission.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Restrictive Transfusion Strategy — Why 7 to 8 g/dL, Not 10</strong>
+          <p>The transfusion target in variceal bleeding is haemoglobin 7 to 8 g/dL — not the 10 g/dL target that might be intuitive in a bleeding patient. The reason is that over-transfusion increases portal venous pressure, potentially worsening the hydrostatic forces driving bleeding. A landmark randomised controlled trial demonstrated lower mortality, lower re-bleeding rates, and better overall survival with a restrictive transfusion strategy (haemoglobin target 7 to 8 g/dL) compared with a liberal strategy (haemoglobin target 9 to 10 g/dL) in acute variceal bleeding. The principle is counterintuitive but well-evidenced: give enough blood to maintain organ perfusion and reasonable haemodynamic stability, but no more — each unit of blood transfused above that target increases the risk of re-bleeding.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Endoscopic Variceal Ligation — The Definitive Treatment</strong>
+          <p>Endoscopic variceal ligation (EVL) is the gold standard endoscopic therapy for oesophageal variceal haemorrhage. Elastic bands are applied to the varices starting at the most distal ones (just above the gastro-oesophageal junction), strangulating each varix and causing it to thrombose, slough, and fibrose. Four to six bands per session are typically applied. EVL has superseded injection sclerotherapy as the first-line technique because it achieves similar haemostasis with fewer complications — sclerotherapy carries risks of oesophageal ulceration, stricture, perforation, and mediastinitis from the sclerosing agent. The 12-hour time window for endoscopy after resuscitation is evidence-based: earlier endoscopy (within 6 to 12 hours) in haemodynamically stable patients is associated with better outcomes than later endoscopy, but immediate endoscopy in an actively haemorrhaging, haemodynamically unstable patient before adequate resuscitation carries the risk of hypoxic cardiac events, aspiration, and suboptimal visualisation. The goal is adequate resuscitation first, then endoscopy within 12 hours.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Lactulose and Hepatic Encephalopathy Prophylaxis</strong>
+          <p>The large volume of blood in the gastrointestinal tract from variceal haemorrhage provides a substrate for gut bacterial metabolism, generating ammonia that the damaged liver cannot adequately detoxify. This precipitates or worsens hepatic encephalopathy — a neuropsychiatric syndrome ranging from subtle cognitive impairment (grade 1) through confusion and drowsiness (grade 2 to 3) to coma (grade 4). Lactulose is an osmotic laxative that acidifies the colonic contents (preventing ammonia absorption), promotes faecal nitrogen excretion, and changes the colonic flora to favour non-ammonia-producing organisms. The dosing target is 2 to 3 soft stools per day — insufficient lactulose fails to clear the blood-derived nitrogen load; excessive lactulose causes dehydration, electrolyte disturbances, and paradoxical worsening of encephalopathy. Monitoring mental status (orientation, asterixis — the flapping tremor of extended hands that is the hallmark of hepatic encephalopathy) at every nursing assessment is essential throughout the admission.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Reading the Examination — Stigmata of Chronic Liver Disease</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What Each Sign Tells You</strong>
+          <p>The physical examination in chronic liver disease is a textbook of pathophysiology. Palmar erythema — blanchable redness of the thenar and hypothenar eminences — results from peripheral vasodilation driven by elevated oestrogen levels that the damaged liver fails to metabolise. Spider naevi — central arterioles with radiating venous branches visible on the chest, face, and upper arms — share the same mechanism; they are called spiders because compressing the central arteriole causes the entire lesion to blanch, only to refill centrifugally on release. More than five spider naevi above the diaphragm is clinically significant. Caput medusae — dilated superficial abdominal veins radiating from the umbilicus — occurs when the paraumbilical portosystemic collaterals open under portal hypertension; the flow direction (away from the umbilicus in caput medusae, as opposed to superior vena cava obstruction where flow is upward throughout) distinguishes it from other causes of dilated abdominal veins. Splenomegaly reflects the splenic congestion of portal hypertension and is an indirect measure of portal pressure. Ascites at this stage means portal pressure is above 12 mmHg and hepatic synthetic function is significantly impaired. Jaundice with icterus and dark urine indicates conjugated hyperbilirubinaemia from hepatocellular failure to excrete bilirubin — the dark urine is bilirubin in the urine (bilirubinuria); pale stools, which are absent in this patient, would indicate complete biliary obstruction. The absence of pale stools here is consistent with hepatocellular jaundice rather than obstructive jaundice — an important distinction that influences the differential diagnosis of the liver disease itself.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Severity Scoring — Child-Pugh and MELD</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why These Scores Matter Clinically</strong>
+          <p>The Child-Pugh score was developed to predict surgical mortality in patients with cirrhosis and is now used to classify disease severity across five parameters: bilirubin, albumin, prothrombin time (INR), ascites (absent/mild/severe), and encephalopathy (absent/grade 1–2/grade 3–4). Each parameter is scored 1 to 3 and the total (5 to 15) places the patient in class A (5 to 6, best prognosis), B (7 to 9), or C (10 to 15, worst prognosis). Class C patients have a 1-year mortality exceeding 85% without transplantation. The MELD score (Model for End-Stage Liver Disease) uses serum bilirubin, creatinine, and INR to generate a numerical score predicting 90-day transplant-free mortality — a MELD above 15 is the threshold where the benefit of liver transplantation outweighs the surgical risk. For this patient, ascites (significant), jaundice, and likely coagulopathy (given the cirrhotic state) will place him in Child-Pugh class B or C, and his MELD score will determine urgency of transplant referral. Calculating both scores on the first set of results is not optional — they determine the prognosis conversation, the monitoring intensity, and the urgency of specialist referral.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Alcohol-Related Liver Disease and the Role of Abstinence</strong>
+          <p>Alcohol-related liver disease follows a spectrum: steatosis (fatty liver, reversible with abstinence) → alcoholic hepatitis → fibrosis → cirrhosis. At the cirrhotic stage, the architectural distortion is irreversible, but further progression can be halted and significant hepatic function recovery is possible with complete alcohol abstinence. Histological studies confirm that cirrhotic livers continue to improve in architecture for months to years after abstinence — fibrosis can partially regress, portal pressure falls, and the risk of hepatic decompensation decreases. For this patient, alcohol abstinence is not merely counselling for lifestyle improvement; it is the single most important disease-modifying intervention available. Every episode of acute-on-chronic liver injury from ongoing alcohol use further depletes the hepatic reserve. The acute variceal bleed is a near-fatal warning; the next episode may not be survivable. Alcohol cessation services and structured support — including pharmacological agents such as acamprosate or naltrexone for relapse prevention — should be arranged before discharge, not mentioned as an afterthought in the clinic letter.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Secondary Prophylaxis — Preventing the Next Bleed</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Non-Selective Beta-Blockers</strong>
+          <p>Non-selective beta-blockers (propranolol, nadolol, carvedilol) reduce portal venous pressure through two mechanisms: beta-1 blockade reduces cardiac output (reducing flow into the portal system); beta-2 blockade causes splanchnic vasoconstriction (reducing portosystemic collateral flow). The combination reduces hepatic venous pressure gradient (HVPG) by 10 to 25%. A reduction in HVPG below 12 mmHg essentially eliminates the risk of variceal haemorrhage; a reduction of 20% from baseline significantly reduces re-bleeding risk even if the threshold is not reached. Propranolol is the most widely available agent in Nigeria; carvedilol (which also has alpha-1 blocking activity producing additional portal vasodilation) achieves greater portal pressure reduction per dose. The dosing target is a resting heart rate reduction of 25% from baseline or an absolute heart rate of 55 to 60 beats per minute. Beta-blockers should be initiated after the acute bleeding episode has been controlled and haemodynamics have stabilised — they are not appropriate in the acute haemorrhage phase where they may blunt the tachycardic compensatory response.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Repeat EVL and HCC Surveillance</strong>
+          <p>Repeat endoscopic variceal ligation every 2 to 4 weeks until all varices are eradicated (typically 2 to 4 sessions) reduces the re-bleeding rate from approximately 60% to 20 to 30% per year. After eradication, surveillance endoscopy every 6 to 12 months monitors for variceal recurrence, as portal hypertension persists and new varices form over time. Hepatocellular carcinoma (HCC) surveillance — abdominal ultrasound and serum AFP every 6 months — is mandated in all patients with cirrhosis regardless of aetiology. The risk of HCC in alcoholic cirrhosis is 2 to 4% per year, and early detection (tumour less than 2 cm) allows curative resection, ablation, or transplantation — options that are no longer available at advanced stages. In Nigerian practice, AFP surveillance is widely available and inexpensive; ultrasound is available at all tertiary hospitals. These are not specialist investigations — any clinician managing a cirrhotic patient should be scheduling them.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+      <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Start vasoactive therapy (terlipressin or octreotide) and prophylactic antibiotics simultaneously on clinical diagnosis of variceal haemorrhage — do not wait for endoscopy. Both significantly reduce mortality independently of endoscopic therapy and must be given as early as possible.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>The transfusion target in variceal bleeding is haemoglobin 7 to 8 g/dL — not 10. Over-transfusion increases portal pressure and worsens re-bleeding risk. Transfusing to a "safe" level of 10 g/dL in variceal bleeding has been shown to increase mortality compared with the restrictive strategy.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Prophylactic antibiotics in variceal bleeding are not optional — they reduce bacterial infection rates, early re-bleeding, and short-term mortality. Every cirrhotic patient with acute GI bleeding should receive IV ceftriaxone from admission, regardless of whether there are clinical signs of infection at that moment.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Balloon tamponade (Sengstaken-Blakemore or Minnesota tube) is a rescue bridge — not a definitive treatment. It should only be used in life-threatening haemorrhage when endoscopy is unavailable and the patient is actively dying. It carries a significant risk of oesophageal rupture, aspiration, and pressure necrosis and must not be left inflated beyond 24 hours.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.7-5" />
+          </svg>
+          <span>Asterixis — the flapping tremor of extended hands at the wrists — is the bedside sign of hepatic encephalopathy. Assess it at every nursing interaction in any cirrhotic patient with GI bleeding. Worsening confusion after a variceal bleed is encephalopathy from gut nitrogen load until proven otherwise — increase lactulose dose, not the sedation.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>In Nigeria, alcoholic liver disease is an underdiagnosed cause of cirrhosis — alcohol-related chronic liver disease is commonly attributed to viral hepatitis without adequate alcohol history being taken. A thorough alcohol history (quantity, frequency, duration, and type) is mandatory in every patient with cirrhosis. A precise alcohol history is as important as a viral serology result in establishing aetiology and prognosis.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Alcohol abstinence is the most important disease-modifying intervention in alcohol-related cirrhosis — more impactful than any medication. Hepatic fibrosis can partially regress, portal pressure falls, and hepatic decompensation events decrease with sustained abstinence. Arranging addiction support before discharge is a clinical obligation, not an optional social referral.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>European Association for the Study of the Liver (EASL). Clinical Practice Guidelines on the Management of Hepatic Encephalopathy, and Guidelines on Decompensated Cirrhosis.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>British Society of Gastroenterology (BSG). UK Guidelines for the Management of Upper Gastrointestinal Bleeding — variceal section.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Association for the Study of Liver Diseases (AASLD). Practice Guidance on Portal Hypertensive Bleeding in Cirrhosis — Prevention and Management.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Baveno VII Consensus Workshop — Renewing Consensus in Portal Hypertension: Recommendations and Future Directions.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for the Management of Gastrointestinal Conditions — hepatology chapter. Abuja: FMOH Nigeria.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on acute variceal haemorrhage — management, endoscopic therapy, vasoactive drug therapy, and secondary prophylaxis.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Portal hypertension, oesophageal varices, Child-Pugh score, and MELD score.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — antibiotics for spontaneous bacterial peritonitis in cirrhosis; beta-blockers for prevention of variceal rebleeding; terlipressin for acute variceal haemorrhage.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — gastroenterology chapter.</li>
+        </ul>
+      </div>
+    </details>
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'im-110',
     title: 'Infected Diabetic Foot Ulcer in Type 1 Diabetes Mellitus',

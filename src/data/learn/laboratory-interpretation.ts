@@ -7912,5 +7912,414 @@ Key Clinical Takeaways
   `
 },
 
+{
+  id: 'lab-hepatitis-b-c-screening',
+  title: 'Hepatitis B and C Screening',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Serology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; SEROLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Hepatitis B and C Screening: HBsAg and Anti-HCV</h1>
+  <p class="text-sm text-indigo-200">About one Nigerian adult in twelve is HBsAg-positive, most do not know it, and a single rapid test is often the only investigation they ever get. Hepatitis B and C are silent for decades and then present as cirrhosis or liver cancer. Both can now be controlled, and hepatitis C can be cured. This guide covers what each marker means, how to read the hepatitis B panel, why a negative rapid HBsAg does not close the question, why anti-HCV alone is not a diagnosis, who needs treatment under the WHO 2024 criteria, and the situations where a missed result can kill: pregnancy, HIV, and chemotherapy.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What the Tests Detect and the Nigerian Burden
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Marker</th>
+        <th class="py-2 pr-3">What it shows</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>HBsAg</strong> (hepatitis B surface antigen)</td><td class="py-2 pr-3">The virus is present: acute or chronic infection. Persistence for more than 6 months defines chronic hepatitis B.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Anti-HBs</strong> (surface antibody)</td><td class="py-2 pr-3">Immunity, from recovery or from vaccination. Vaccination produces anti-HBs only.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Total anti-HBc</strong> (core antibody)</td><td class="py-2 pr-3">Past or present infection. It is never produced by vaccination. It stays positive for life after infection.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>IgM anti-HBc</strong></td><td class="py-2 pr-3">Recent infection (within about 6 months), or a flare of chronic infection.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HBeAg / anti-HBe</strong></td><td class="py-2 pr-3">Markers of viral replication and infectivity. HBeAg-positive usually means a high viral load.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HBV DNA</strong></td><td class="py-2 pr-3">The viral load. It decides treatment eligibility and monitors response.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Anti-HCV</strong></td><td class="py-2 pr-3">Exposure to hepatitis C. It does not distinguish current infection from past, resolved infection.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HCV RNA (NAT) or HCV core antigen</strong></td><td class="py-2 pr-3">Current infection. Confirms the diagnosis and is needed before treatment. RNA also gives the test of cure.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>ALT, AST, platelets, ultrasound</strong></td><td class="py-2 pr-3">Liver injury and fibrosis. Used with the virological markers to decide who needs treatment.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Nigerian picture</strong>
+  <p class="text-sm">The 2018 national household survey (NAIIS) estimated HBsAg prevalence at 8.1% and anti-HCV prevalence at 1.1%. Older estimates were higher (12.2% for hepatitis B and 2.3% for hepatitis C), and local surveys range widely. A rapid-test survey in a central state found 5% HBsAg and 1% anti-HCV, with HBsAg from 2% to 8% between local government areas. Blood donors in the north-east had HBsAg in 8.6% and anti-HCV in 1.5%. Hepatitis B is mostly acquired from the mother at birth or in early childhood, which is why chronic infection is so common. Hepatitis C is acquired through blood: unsafe injections, transfusion before screening and unsterile procedures.</p>
+</div>
+<p class="text-sm">Both infections are usually silent until the liver is badly damaged. Screening is therefore the only way most people will find out, and testing has to be matched to follow-up: a result that nobody acts on does no good.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Reading the Hepatitis B Panel
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The full panel is HBsAg, total anti-HBc and anti-HBs, with IgM anti-HBc when acute infection is suspected. Read them together.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">HBsAg</th>
+        <th class="py-2 pr-3">Total anti-HBc</th>
+        <th class="py-2 pr-3">IgM anti-HBc</th>
+        <th class="py-2 pr-3">Anti-HBs</th>
+        <th class="py-2 pr-3">Interpretation and action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">&ndash;</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3"><strong>Susceptible.</strong> Never infected, not immune. Offer vaccination.</td></tr>
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">&ndash;</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3"><strong>Immune by vaccination.</strong> No infection. Anti-HBs of 10 mIU/mL or more is the usual protective level.</td></tr>
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">&ndash;</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3"><strong>Immune by past infection (resolved).</strong> Not infectious. Remains at risk of reactivation under strong immunosuppression (section 7).</td></tr>
+      <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3"><strong>Acute infection</strong> (onset within about 6 months), or a flare of chronic infection. Check ALT and INR, and repeat HBsAg at 6 months.</td></tr>
+      <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3"><strong>Chronic infection.</strong> Assess for treatment (section 5).</td></tr>
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Negative or positive</td><td class="py-2 pr-3"><strong>Recent acute infection with HBsAg already cleared.</strong> Anti-HBs usually appears in weeks to months. HBsAg may be negative while IgM anti-HBc is positive.</td></tr>
+      <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3"><strong>Very early infection</strong> before the core antibody appears, or a transient positive after a recent vaccine dose (up to about 18 days). Repeat in a few weeks.</td></tr>
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">&ndash;</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3"><strong>Isolated anti-HBc.</strong> Four possibilities: past infection with waned anti-HBs, a false-positive anti-HBc (so susceptible), low-level chronic (occult) infection, or resolving acute infection. Test HBV DNA, and give a vaccine dose and retest in 1&ndash;2 months if unexplained.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A positive HBsAg with a negative IgM anti-HBc and a positive total anti-HBc means the infection is at least 6 months old, which is probable chronic hepatitis B. Isolated anti-HBc is the most common false-positive hepatitis B marker, so do not over-read it in someone with no risk, but treat it as important in someone about to receive chemotherapy, in people with HIV, and in transfusion screening.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+The Rapid HBsAg Test: What a Negative Does Not Tell You
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most HBsAg testing in Nigeria is done with a lateral-flow strip. Manufacturers claim sensitivities near 99%. Nigerian comparisons against laboratory methods tell a different story:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>In one hospital study of 204 patients, the strip found HBsAg in 10.8%, while PCR found HBV DNA in 33.8%. About 26% of the whole group were false negatives on the strip.</li>
+  <li>In a study of 451 people aged 1&ndash;50 years, 5.8% were positive by rapid test and 18.2% by PCR. The rapid kit&rsquo;s sensitivity against PCR was very low, with a false-negative rate of about 17%.</li>
+  <li>A comparison of five commercial rapid kits against enzyme immunoassays in Ibadan found that sensitivity varied widely between kits, and the authors warned that rapid kits may not be adequate alone.</li>
+  <li>In blood donors in the north-east, HBsAg screening alone was shown to miss recent infections that isolated IgM anti-HBc would have detected.</li>
+</ul>
+<p class="text-sm">These are small single-site studies using different kits and different reference methods. They do not mean every rapid test is poor. They mean that kit quality, storage and the population matter, and that a negative strip does not exclude hepatitis B, especially when:</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>The antigen level is low (early or late infection, or after immune control).</li>
+  <li>The virus is a surface-antigen mutant or has low-level replication (occult infection), which HBsAg tests can miss.</li>
+  <li>The kit is heat-damaged, expired or read outside the time limit.</li>
+  <li>The patient has liver disease, jaundice or a risk exposure and the picture fits.</li>
+</ul>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to do</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Use quality-assured kits that have passed national or WHO evaluation, and keep them as the insert directs.</li>
+    <li>A positive HBsAg strip is probably real but should be confirmed by a laboratory immunoassay when the result will change management (for example in a pregnant woman, before a transplant or chemotherapy, or for a donor).</li>
+    <li>In a patient with hepatitis, jaundice or cirrhosis and a negative strip, ask for a laboratory HBsAg, total and IgM anti-HBc, and HBV DNA where available.</li>
+    <li>Reflex HBV DNA testing after a positive HBsAg is recommended by WHO to speed linkage to care. Point-of-care HBV DNA assays are now an option.</li>
+  </ul>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Figures differ between sources. Nigerian prevalence is 8.1% for hepatitis B and 1.1% for hepatitis C in the 2018 survey but higher in older estimates. Rapid-test sensitivity is near 99% in manufacturer claims and far lower against PCR in several Nigerian field studies, so do not assume either number applies to your kit. The WHO 2024 hepatitis B guidelines expanded treatment eligibility (HBV DNA above 2,000 IU/mL, previously 20,000) and are more permissive than older national or textbook thresholds. Apply the current national guideline and your laboratory&rsquo;s own validated results.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Hepatitis C: Antibody First, RNA Second
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Anti-HCV shows that a person has met the virus. Many people who were infected clear it spontaneously, and they stay antibody-positive for life. Others have a false-positive antibody, particularly when prevalence is low and a single rapid strip is used. A positive anti-HCV is therefore a reason to test for the virus, not a diagnosis.</p>
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Screen with anti-HCV</strong> (rapid or laboratory test).</li>
+  <li><strong>If positive, confirm current infection</strong> with HCV RNA (NAT) or HCV core antigen. WHO recommends reflex RNA testing on the same sample where possible, so that the person does not have to return.</li>
+  <li><strong>RNA detected:</strong> chronic hepatitis C. Assess the liver (ALT, platelets, APRI or elastography) and arrange treatment.</li>
+  <li><strong>RNA not detected:</strong> past, resolved infection or a false-positive antibody. If the patient is immunosuppressed or there is recent exposure, repeat RNA later, because antibody may not yet have appeared and RNA can fluctuate.</li>
+</ol>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hepatitis C is curable</strong>
+  <p class="text-sm">Direct-acting antivirals (DAAs) cure more than 95% of people with pangenotypic regimens such as sofosbuvir/velpatasvir, with short courses (commonly 12 weeks) and few side effects. Cure is defined as an undetectable HCV RNA 12 weeks after treatment (SVR12), and WHO recommends a NAT test of cure at that point. In a West and Central African trial using earlier sofosbuvir-based regimens, 89% reached SVR12 and all retreated patients were cured.</p>
+  <p class="text-sm mt-2"><strong>Access in Nigeria</strong> has been limited by the cost and availability of HCV RNA testing (an earlier price fall to about US$55 per viral load was reported), by the supply of DAAs and by the lack of decentralised care. Generic sofosbuvir-based regimens are the route to affordable treatment. Check what your state and national programme provide, and refer to a centre that can test RNA and prescribe DAAs rather than leaving the patient with an antibody result.</p>
+</div>
+<p class="text-sm"><strong>Hepatitis C and HIV:</strong> antibody responses can be blunted in advanced HIV, so use RNA in a person with HIV and unexplained liver disease or recent exposure. People with HIV and HCV need treatment, and WHO treats co-infection as an indication.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+After a Positive HBsAg: Who Needs Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A positive HBsAg is the start of an assessment, not a prescription. Many people do not need drugs now, but all need a baseline and a plan.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Baseline assessment</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>ALT</strong> (and AST), FBC with platelets, bilirubin and albumin.</li>
+    <li><strong>HBV DNA</strong> where available, and HBeAg.</li>
+    <li><strong>Fibrosis assessment:</strong> the APRI score = (AST &divide; its upper limit of normal) &divide; platelets (&times;10<sup>9</sup>/L) &times; 100, or transient elastography where available. Abdominal ultrasound looks for cirrhosis, portal hypertension and focal lesions.</li>
+    <li><strong>Co-infections:</strong> HIV, hepatitis C, and hepatitis D (WHO 2024 advises reflex hepatitis D testing in HBsAg-positive people).</li>
+    <li><strong>Family and household:</strong> test and vaccinate susceptible contacts.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">WHO 2024: treat if any one of these applies</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Criterion</th>
+          <th class="py-2 pr-3">Detail</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Significant fibrosis or cirrhosis</td><td class="py-2 pr-3">APRI above 0.5, or elastography above 7 kPa, or clinical signs of cirrhosis. Cirrhosis qualifies regardless of HBV DNA or ALT.</td></tr>
+        <tr><td class="py-2 pr-3">Active replication with liver inflammation</td><td class="py-2 pr-3">HBV DNA above 2,000 IU/mL <em>and</em> ALT above the upper limit of normal (30 U/L for men, 19 U/L for women, in the WHO guideline). For adolescents, the ALT elevation should be confirmed on at least two results over 6&ndash;12 months.</td></tr>
+        <tr><td class="py-2 pr-3">Special groups, regardless of DNA or ALT</td><td class="py-2 pr-3">Co-infection (HIV, hepatitis C or D), family history of liver cancer or cirrhosis, immune suppression, comorbidities such as diabetes, or extrahepatic manifestations.</td></tr>
+        <tr><td class="py-2 pr-3">No access to HBV DNA</td><td class="py-2 pr-3">Persistently abnormal ALT alone (two values above the upper limit over 6&ndash;12 months), regardless of APRI. A conditional recommendation.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="text-sm">First-line treatment is tenofovir or entecavir, long term and often lifelong, with dose adjustment for kidney disease. People who do not meet the criteria still need follow-up: ALT and, where possible, HBV DNA at regular intervals (at least yearly), because ALT fluctuates and eligibility can change. Where cirrhosis or a high risk of liver cancer exists, ultrasound surveillance for hepatocellular carcinoma is advised, usually every 6 months.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Pregnancy, Newborns and HIV Co-infection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnancy and the newborn</strong>
+  <p class="text-sm">Most chronic hepatitis B comes from infection at or just after birth, so preventing mother-to-child transmission prevents most of the burden. WHO advises that every pregnant woman be tested for HIV, syphilis and HBsAg at least once, as early as possible.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li><strong>HBsAg-positive woman:</strong> check HBV DNA (or HBeAg where DNA is not available). WHO recommends tenofovir prophylaxis for HBsAg-positive pregnant women with HBV DNA of 200,000 IU/mL or more, or a positive HBeAg, preferably from the second trimester until at least delivery or completion of the infant vaccination series. Assess her own eligibility for long-term treatment as well.</li>
+    <li><strong>Infant:</strong> the hepatitis B birth dose vaccine, given as soon as possible after delivery and ideally within 24 hours, is the key intervention, followed by the full vaccine series. Where available, hepatitis B immune globulin is added for high-risk infants.</li>
+    <li><strong>Check the outcome:</strong> test the infant for HBsAg and anti-HBs after the series, at about 9&ndash;18 months. Anti-HBs of 10 mIU/mL or more with a negative HBsAg means protection. A positive HBsAg means the infant is infected and needs follow-up.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">HIV co-infection</strong>
+  <p class="text-sm">WHO recommends treatment for everyone with HBV and HIV co-infection, whatever the HBV DNA or ALT. Tenofovir-containing antiretroviral regimens are active against hepatitis B, so the standard first-line regimen treats both. Do not stop or switch away from tenofovir in a co-infected person without a plan for the hepatitis B, because stopping can cause a severe flare. Test everyone with HIV for HBsAg and total anti-HBc. In a Nigerian series of HBsAg-negative HIV samples, 29% of those screened were anti-HBc-positive, many with probable occult infection.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Before Chemotherapy or Immunosuppression: Prevent Reactivation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hepatitis B can reactivate when the immune system is suppressed, causing a hepatitis flare, liver failure and interruption of life-saving cancer treatment. It is potentially fatal and almost entirely preventable. Both chronically infected people (HBsAg-positive) and previously exposed people (HBsAg-negative, anti-HBc-positive) are at risk, and the risk rises with the potency of the immunosuppression. Reactivation can occur up to 6 months, or after rituximab up to 12 months or more, after treatment stops.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Screen everyone before treatment</strong> with HBsAg, total anti-HBc and anti-HBs (the ASCO 2020 update advises this for all patients starting chemotherapy). If any is positive, add HBV DNA.</li>
+  <li><strong>HBsAg-positive:</strong> start entecavir or tenofovir before the immunosuppression, and continue for at least 6 months after chemotherapy ends (12 months or more after B-cell-depleting agents such as rituximab, and commonly 12&ndash;18 months).</li>
+  <li><strong>HBsAg-negative, anti-HBc-positive:</strong> prophylaxis is advised for high-risk treatment (rituximab and other B-cell-depleting drugs, stem cell transplant), and close monitoring (ALT and HBV DNA every 1&ndash;3 months) for lower-risk regimens.</li>
+  <li><strong>High-risk steroids:</strong> prolonged high-dose corticosteroids (for example 20 mg of prednisone or more for 4 weeks or longer) also warrant screening and prophylaxis decisions.</li>
+  <li><strong>Do not delay urgent chemotherapy</strong> to wait for results, but start antiviral cover at the same time.</li>
+</ul>
+<p class="text-sm">In Nigerian oncology units that treat lymphoma, including Burkitt lymphoma, and other malignancies, the triple panel before the first cycle is as basic as a blood count.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Who to Screen
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Group</th>
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">Why</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Every pregnant woman</td><td class="py-2 pr-3">HBsAg (and HIV, syphilis)</td><td class="py-2 pr-3">Prevent perinatal transmission.</td></tr>
+      <tr><td class="py-2 pr-3">Infants born to HBsAg-positive women</td><td class="py-2 pr-3">Birth-dose vaccine; HBsAg and anti-HBs at 9&ndash;18 months</td><td class="py-2 pr-3">Confirm protection or detect infection.</td></tr>
+      <tr><td class="py-2 pr-3">People living with HIV</td><td class="py-2 pr-3">HBsAg and total anti-HBc; anti-HCV (RNA if doubt)</td><td class="py-2 pr-3">Co-infection changes treatment.</td></tr>
+      <tr><td class="py-2 pr-3">Before chemotherapy, biologics, transplant or prolonged high-dose steroids</td><td class="py-2 pr-3">HBsAg, total anti-HBc, anti-HBs</td><td class="py-2 pr-3">Prevent reactivation (section 7).</td></tr>
+      <tr><td class="py-2 pr-3">Household and sexual contacts of HBsAg-positive people</td><td class="py-2 pr-3">HBsAg, anti-HBc, anti-HBs</td><td class="py-2 pr-3">Vaccinate those susceptible and find the infected.</td></tr>
+      <tr><td class="py-2 pr-3">Healthcare workers and others exposed to blood</td><td class="py-2 pr-3">Anti-HBs after vaccination; baseline anti-HCV after exposure</td><td class="py-2 pr-3">Occupational risk.</td></tr>
+      <tr><td class="py-2 pr-3">Patients with raised ALT, jaundice, chronic liver disease, cirrhosis or liver cancer</td><td class="py-2 pr-3">Full panel, anti-HCV with RNA, and HBV DNA</td><td class="py-2 pr-3">Find the cause and the treatable disease.</td></tr>
+      <tr><td class="py-2 pr-3">Blood, organ and tissue donors</td><td class="py-2 pr-3">HBsAg, anti-HCV, and where available anti-HBc and NAT</td><td class="py-2 pr-3">Transfusion safety. HBsAg alone misses some infections.</td></tr>
+      <tr><td class="py-2 pr-3">People with prior transfusion, dialysis or unsafe injections or procedures</td><td class="py-2 pr-3">Anti-HCV with RNA, HBsAg</td><td class="py-2 pr-3">Bloodborne exposure.</td></tr>
+      <tr><td class="py-2 pr-3">Premarital and pre-employment requests</td><td class="py-2 pr-3">Only with informed consent and with linkage to care</td><td class="py-2 pr-3">A result without follow-up or with discrimination does harm.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+False Positives, False Negatives and Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Problem</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Low-sensitivity rapid HBsAg kit</strong></td><td class="py-2 pr-3">False negatives, with many DNA-positive people missed.</td><td class="py-2 pr-3">Use quality-assured kits, confirm important results by immunoassay, and test HBV DNA when suspicion is high.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HBsAg-negative occult infection</strong></td><td class="py-2 pr-3">HBV DNA present, HBsAg negative, often with anti-HBc. Common in HIV and some donors.</td><td class="py-2 pr-3">Use anti-HBc and HBV DNA where the stakes are high (chemotherapy, HIV, transplant, donors).</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Window period</strong></td><td class="py-2 pr-3">HBsAg and anti-HBc are not yet detectable, or HBsAg has gone while IgM anti-HBc remains.</td><td class="py-2 pr-3">In suspected acute hepatitis use HBsAg plus IgM anti-HBc, and repeat if suspicion persists.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Recent hepatitis B vaccine</strong></td><td class="py-2 pr-3">Transient positive HBsAg for up to about 18 days.</td><td class="py-2 pr-3">Ask about vaccination, and repeat HBsAg after a few weeks.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>False-positive anti-HBc</strong></td><td class="py-2 pr-3">The commonest false-positive marker.</td><td class="py-2 pr-3">If isolated, test HBV DNA, then give a vaccine dose and retest.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Anti-HCV alone</strong></td><td class="py-2 pr-3">Cannot show current infection. Spontaneous clearance and false positives both occur.</td><td class="py-2 pr-3">Always follow with HCV RNA or core antigen before labelling or treating.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Negative anti-HCV in HIV or recent exposure</strong></td><td class="py-2 pr-3">Antibody may be absent or delayed.</td><td class="py-2 pr-3">Use HCV RNA when the clinical picture or exposure fits.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Poor kit storage, expiry or timing</strong></td><td class="py-2 pr-3">Unreliable strips, invalid results or faint lines misread.</td><td class="py-2 pr-3">Store as the insert directs, read at the stated time, and treat a visible test line as reactive.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>No internal control or external assessment</strong></td><td class="py-2 pr-3">Errors undetected.</td><td class="py-2 pr-3">Run controls, check each new lot, and take part in proficiency testing.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Counselling, Prevention and Linkage
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Explain what the result means.</strong> HBsAg positive means a chronic infection that can be monitored and treated. It does not mean cirrhosis or cancer today. Anti-HCV positive means exposure, and an RNA test will show whether the virus is still there. Hepatitis C is curable.</li>
+  <li><strong>Transmission.</strong> Hepatitis B spreads from mother to baby, through blood, and through sex. It does not spread through shared meals, handshakes or hugging. Children with chronic hepatitis B should attend school, and adults should keep working.</li>
+  <li><strong>Protect others.</strong> Test and vaccinate household and sexual contacts, vaccinate every newborn at birth, and use safe injection practices. People with hepatitis B should not share razors or toothbrushes.</li>
+  <li><strong>Protect the liver.</strong> Advise avoiding alcohol. Ask about herbal and traditional remedies and unprescribed medicines, because many are not safe in liver disease, and avoid unnecessary paracetamol overdose.</li>
+  <li><strong>Plan the follow-up.</strong> A person who is not yet eligible for treatment needs a date for the next ALT and DNA, and a clear place to return. Link everyone with a positive result to a clinic that can measure HBV DNA or HCV RNA.</li>
+  <li><strong>Confidentiality and consent.</strong> Do not disclose a result to an employer, a partner or a family member without consent. Premarital and pre-employment testing are common sources of coercion and discrimination.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman at booking with a positive HBsAg strip and no access to HBV DNA</strong>
+  <p class="text-sm">Confirm if you can, check ALT, and use HBeAg if available as the marker of high viral load. If HBeAg is positive (or DNA is 200,000 IU/mL or more), tenofovir prophylaxis from the second trimester is recommended. Plan the birth dose of vaccine within 24 hours, arrange full infant vaccination, and test the infant at 9&ndash;18 months. Test and vaccinate her household, and assess her own eligibility for treatment.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Well adult of 30, HBsAg positive on a pre-employment test, ALT normal</strong>
+  <p class="text-sm">Confirm, then complete the baseline: HBV DNA, HBeAg, platelets, AST and APRI, HIV and hepatitis C tests, and an ultrasound. If APRI is 0.5 or below, DNA is under 2,000 IU/mL and there are no special criteria, monitor ALT and DNA at least yearly. Counsel about transmission and vaccinate contacts. Do not allow the result to cost him the job, and do not disclose it to the employer.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Blood donor with a positive anti-HCV strip, no symptoms</strong>
+  <p class="text-sm">Antibody alone does not show current infection. Arrange HCV RNA (or core antigen). If RNA is detected, assess the liver and refer for DAA treatment. If it is not detected, explain that this is probably past or resolved infection or a false positive, and give appropriate donor counselling.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Person with HIV, HBsAg negative, total anti-HBc positive, on a tenofovir-based regimen</strong>
+  <p class="text-sm">Probable resolved or occult hepatitis B. Check HBV DNA if available. Do not stop or change tenofovir without a hepatitis B plan. If the antiretroviral regimen ever needs to change, or if cytotoxic therapy is planned, involve a hepatologist because of the reactivation risk.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with Burkitt lymphoma about to start chemotherapy, hepatitis B status unknown</strong>
+  <p class="text-sm">Send HBsAg, total anti-HBc and anti-HBs before the first cycle. If HBsAg or anti-HBc is positive, check HBV DNA and start entecavir or tenofovir with the chemotherapy. Do not delay urgent chemotherapy for the result, and continue antiviral cover for at least 6 months after treatment, longer if rituximab is used.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nurse, vaccinated last week, HBsAg positive on a routine strip</strong>
+  <p class="text-sm">A transient positive after vaccination is possible for up to about 18 days. Take a history of the vaccine dose, repeat HBsAg after a few weeks and complete the panel. Do not label her chronically infected on one strip.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adult with jaundice for one week, HBsAg strip negative</strong>
+  <p class="text-sm">A negative HBsAg strip does not exclude acute hepatitis B, because HBsAg may be low or already cleared. Send an acute hepatitis panel: anti-HAV IgM, HBsAg with IgM anti-HBc, and anti-HCV with RNA. Test for malaria and look at drug and herbal exposure. Check INR and watch for encephalopathy.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 50 with ascites, a low platelet count and a positive HBsAg</strong>
+  <p class="text-sm">Probable cirrhosis from hepatitis B. Treat as eligible for antiviral therapy regardless of DNA or ALT, check HBV DNA, HIV and hepatitis D, and refer for management of ascites and varices. Start ultrasound surveillance for liver cancer every 6 months, and screen and vaccinate his household.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Ask why the test was done.</strong> Screening, jaundice, pregnancy, HIV, or before chemotherapy. The setting decides how far you must go.</li>
+  <li><strong>Check the test.</strong> Which kit, was it in date, read in the window, and is it the right test for the question?</li>
+  <li><strong>For hepatitis B, read the whole panel,</strong> not HBsAg alone. Add total anti-HBc, anti-HBs and IgM anti-HBc as needed.</li>
+  <li><strong>For hepatitis C, never stop at the antibody.</strong> Go on to RNA or core antigen.</li>
+  <li><strong>Look for vaccination, window period and occult infection</strong> as the reasons for odd patterns.</li>
+  <li><strong>If positive, assess the liver and the virus:</strong> ALT, platelets, APRI, HBV DNA or HCV RNA, ultrasound, and HIV and hepatitis D or C co-infection.</li>
+  <li><strong>Apply the treatment criteria,</strong> and protect the vulnerable: pregnant women, infants, people with HIV and anyone about to be immunosuppressed.</li>
+  <li><strong>Counsel and link.</strong> Explain the result, plan the follow-up, vaccinate and test contacts, and protect confidentiality.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Chemotherapy, rituximab, transplant or prolonged high-dose steroids without a hepatitis B screen.</strong> Reactivation can cause liver failure. Screen first and give antiviral cover.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>HBsAg-positive pregnancy.</strong> A birth dose within 24 hours, and tenofovir prophylaxis when HBeAg or DNA criteria are met. Missing this creates a new chronic carrier.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Jaundice, coagulopathy or confusion in a patient with hepatitis B.</strong> Acute liver failure or a flare. Urgent hospital care, INR, and a hepatology opinion.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Stopping tenofovir in a person with HBV/HIV co-infection.</strong> Risk of a severe hepatitis flare. Keep an HBV-active drug in the regimen.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Cirrhosis, ascites or low platelets with HBsAg or anti-HCV.</strong> Treatment is indicated whatever the DNA or ALT, and the patient needs variceal and liver cancer surveillance.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A negative rapid HBsAg in a patient who looks like hepatitis B.</strong> The strip may be missing it. Use a laboratory assay, IgM anti-HBc and HBV DNA.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive anti-HCV left as a diagnosis.</strong> Without RNA, the patient is neither confirmed nor cured. Arrange RNA and referral for DAAs.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A result disclosed without consent, or used for exclusion from school or work.</strong> There is no medical case for exclusion, and the harm is real.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>About 8.1% of Nigerian adults are HBsAg-positive and about 1.1% are anti-HCV-positive in the 2018 survey. Both are silent until late, and both can be controlled.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Read the hepatitis B panel as a whole: HBsAg positive for more than 6 months is chronic. Anti-HBs alone is vaccine immunity. Anti-HBc positive is past or present infection. Isolated anti-HBc needs HBV DNA and thought.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A negative rapid HBsAg does not exclude hepatitis B. Nigerian comparisons with PCR found a large share of DNA-positive people missed by strips, especially with occult or mutant infection.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Anti-HCV shows exposure, not current infection. Confirm with HCV RNA or core antigen. Pangenotypic DAAs cure more than 95%, and cure is proven by RNA 12 weeks after treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WHO 2024 hepatitis B treatment: APRI above 0.5 or cirrhosis; HBV DNA above 2,000 IU/mL with ALT above normal; co-infection, family history of liver cancer, immune suppression or comorbidity; or persistently abnormal ALT where DNA is unavailable.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen every pregnant woman. Give the birth dose within 24 hours, and tenofovir from the second trimester if HBV DNA is 200,000 IU/mL or more, or HBeAg is positive. Test HIV-positive people and keep an HBV-active drug in their regimen.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen with HBsAg, total anti-HBc and anti-HBs before chemotherapy or immunosuppression, and give entecavir or tenofovir before and for months after treatment. Reactivation is preventable, and fatal when missed.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection (2024), including treatment eligibility, HBV DNA and reflex testing, and tenofovir prophylaxis in pregnancy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guidelines on hepatitis B and C testing (2017) and updated guidelines for the care and treatment of persons with chronic hepatitis C infection, including the HCV core antigen and the test of cure.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Interpretation of hepatitis B serologic test results, and the STI treatment guidelines table on serologic markers.</li>
+  <li class="text-[10px] leading-snug text-stone-500">American Society of Clinical Oncology (2020 update), American Association for the Study of Liver Diseases, European Association for the Study of the Liver and American Gastroenterological Association. Guidance on screening for and preventing hepatitis B virus reactivation during chemotherapy and immunosuppression.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Nigeria AIDS Indicator and Impact Survey (NAIIS 2018), viral hepatitis prevalence, and Federal Ministry of Health, Nigeria. National guidelines for the prevention, care and treatment of viral hepatitis.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies of HBsAg rapid diagnostic kit performance against enzyme immunoassay and PCR, of isolated anti-HBc in blood donors, and of occult hepatitis B in people with HIV.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian and West African studies of hepatitis C viral load access, sofosbuvir-based treatment outcomes and the cost of testing.</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
 
 ];

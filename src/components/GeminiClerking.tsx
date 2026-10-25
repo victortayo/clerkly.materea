@@ -188,7 +188,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
     { id: 'complete', label: 'Complete Note' },
     { id: 'diagnosis', label: 'Suggest Diagnosis' },
     { id: 'summary', label: 'Generate Summary' },
-    { id: 'plan', label: 'Create Plan' },
+    { id: 'plan', 'label': 'Create Plan' },
   ];
 
   return (
@@ -341,7 +341,13 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                     className="font-brand w-full py-4 bg-indigo-950 hover:bg-black text-white rounded-xl font-bold shadow-lg shadow-indigo-200 dark:shadow-none transition-all active:scale-95 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {loading ? (
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                      <>
+                        <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        <span>Generating...</span>
+                      </>
                     ) : (
                       <>
                         <i className="fa-solid fa-circle-plus"></i>

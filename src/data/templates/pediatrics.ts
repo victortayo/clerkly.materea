@@ -1,6 +1,156 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
+
+  {
+    id: 'peds-97',
+    title: 'Recurrent Pneumonia in a 2-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Respiratory Medicine',
+    condition: 'Recurrent Pneumonia',
+    symptoms: ['Cough', 'Fast breathing', 'Fever', 'Chest indrawing', 'Nasal flaring', 'Recurrent respiratory infections'],
+    contributor: 'Admin',
+    lastModified: '2026-10-25',
+    summary: '2-year-old male presenting with a 5-day history of cough and fever and a 3-day history of fast breathing, chest indrawing, and nasal flaring, with recurrent episodes of pneumonia requiring hospitalization since infancy.',
+    content: `PEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Chinedu Okoro
+  Age: 2 years
+  Sex: Male
+  Address: Surulere, Lagos State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Cough x 5/7
+  2. Fast breathing x 3/7
+  3. Fever x 5/7
+  4. Recurrent episodes of similar illness since age of 6 months
+  
+  History of Presenting Complaint
+  The patient was apparently well until 5 days ago when he developed a cough which was initially dry but became productive of yellowish sputum. There was no associated hemoptysis. Fever started the same day, high-grade and intermittent, relieved by paracetamol.
+  
+  Three days prior to presentation, the mother noticed he was breathing faster than usual with associated chest indrawing and flaring of the nostrils. There is no history of wheezing, bluish discoloration of the lips or fingernails, or episodes of choking.
+  
+  This is the 4th episode of similar respiratory symptoms in the last 12 months. Each previous episode was treated at a private facility with various courses of antibiotics (oral and injectable), with temporary relief.
+  
+  There is no history of contact with any adult with a chronic cough or confirmed tuberculosis. No history of persistent ear discharge or chronic diarrhea.
+  
+  Past Medical History
+  Four previous hospitalizations for pneumonia since infancy.
+  No history of blood transfusions.
+  No known drug allergies.
+  Genotype: AA.
+  
+  Birth History
+  Prenatal: Mother attended regular ANC at a General Hospital. No history of pregnancy-induced hypertension or diabetes.
+  Natal: Delivered at term via Spontaneous Vaginal Delivery at a private hospital. Cried immediately at birth. Birth weight was 3.2kg.
+  Post-natal: No history of neonatal jaundice or admissions in the neonatal period.
+  
+  Dietary History
+  Exclusively breastfed for 6 months.
+  Complementary feeding started at 6 months with maize pap and mashed family staples.
+  Frequency: Currently eats 3 times a day.
+  Adequacy: Appears adequate for age; no history of pica.
+  
+  Immunization History
+  Received vaccines according to the National Programme on Immunization (NPI) schedule up to age. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  Attained all major milestones (sitting, crawling, walking, and first words) at the expected ages. Currently running and speaking short sentences.
+  
+  Family and Social History
+  Second child in a monogamous family setting.
+  Parents are both university graduates; Father is a civil servant, Mother is a teacher.
+  They live in a well-ventilated 2-bedroom apartment.
+  No history of indoor smoking or use of firewood for cooking.
+  Source of water is a borehole; refuse disposal is via the state waste management agency.
+  
+  Review of Systems
+  CNS: No history of seizures or loss of consciousness.
+  GIT: No vomiting or diarrhea.
+  MSS: No bone or joint pains.
+  
+  Physical Examination
+  
+  General Examination:
+  Acutely ill-looking child in respiratory distress.
+  Febrile (Temp 38.4 C).
+  No significant pallor, not jaundiced, no peripheral lymphadenopathy.
+  No pedal edema, not cyanosed, well hydrated.
+  
+  Anthropometry:
+  Weight: 11.5 kg (Expected for age).
+  Height: 86 cm.
+  OFC: 48 cm.
+  
+  Systemic Examination:
+  
+  Respiratory System:
+  RR: 54 cpm (Tachypnea for age).
+  Flaring of alae nasi and subcostal recessions present.
+  Trachea central.
+  Percussion note: Dullness over the right middle and lower zones.
+  Auscultation: Bronchial breath sounds and coarse crepitations over the right middle and lower lung zones.
+  
+  Cardiovascular System:
+  PR: 124 bpm, regular, normal volume.
+  BP: 90/60 mmHg.
+  Apex beat at 4th left intercostal space, midclavicular line.
+  S1 S2 heard, no murmurs.
+  
+  Abdomen:
+  Full, moves with respiration.
+  Liver: 3cm below the right costal margin, smooth, firm, non-tender.
+  Spleen: Not palpable.
+  Bowel sounds: Present and normal.
+  
+  Neurologic System:
+  Conscious and alert.
+  No signs of meningeal irritation.
+  Power and tone normal in all limbs.
+  
+  Assessment
+  Recurrent Pneumonia (likely Community Acquired) in a 2-year-old. Rule out underlying predisposing factors.
+  
+  Differential Diagnoses
+  1. Cystic Fibrosis
+  2. Gastroesophageal Reflux Disease (GERD) with chronic micro-aspiration
+  3. HIV/AIDS (with opportunistic respiratory infection)
+  4. Congenital Heart Disease (Left-to-right shunt with pulmonary plethora)
+  5. Immunodeficiency syndrome (e.g., Hypogammaglobulinemia)
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): Check for leukocytosis (neutrophilia) or anemia.
+  2. Chest X-ray (Anteroposterior and Lateral views): To confirm site of consolidation and look for bronchiectasis or anatomical abnormalities.
+  3. HIV Screening (Rapid test): To rule out immunosuppression.
+  4. Sputum or Gastric Aspirate for GeneXpert/AFB: To rule out Pulmonary Tuberculosis.
+  5. Pulse Oximetry: To monitor oxygen saturation.
+  6. Electrolytes, Urea, and Creatinine: To assess hydration and renal function.
+  7. Sweat Chloride Test or Barium Swallow: Consider based on initial findings to rule out CF or GERD.
+  
+  Initial Management Plan
+  1. Admission for close monitoring.
+  2. Oxygen Therapy: Administer via nasal cannulae at 1-2 L/min to maintain SpO2 above 94%.
+  3. IV Fluids: 5% Dextrose in 0.45% Saline at maintenance rate if oral intake is poor.
+  4. Antibiotics:
+  - IV Ceftriaxone 50-75mg/kg once daily.
+  - Consider adding IV Gentamicin 5-7.5mg/kg once daily for Gram-negative coverage if no improvement in 48 hours.
+  5. Antipyretics: Syrup Paracetamol 15mg/kg 6-8 hourly for fever.
+  6. Nutritional Support: Continue age-appropriate oral feeds as tolerated.
+  7. Physiotherapy: Chest physiotherapy and postural drainage once the acute phase stabilizes.
+  8. Specialist Referral: Consult Pediatric Pulmonologist for further workup of recurrent respiratory tract infections.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+
   {
     id: 'peds-96',
     title: 'Acute Gastroenteritis with Moderate Dehydration',

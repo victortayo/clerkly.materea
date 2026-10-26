@@ -1,6 +1,233 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
+
+  {
+    id: 'im-119',
+    title: 'Chronic Rhinosinusitis in a 34-Year-Old Male',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'ENT Clinic',
+    condition: 'Chronic Rhinosinusitis',
+    symptoms: [
+      'Persistent nasal blockage',
+      'Facial pain and heaviness',
+      'Thick yellowish-green nasal discharge',
+      'Reduced sense of smell',
+      'Post-nasal drip'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 34-year-old male teacher presents with a 4-month history of persistent bilateral nasal blockage and facial pressure, a 3-month history of thick mucopurulent nasal discharge and post-nasal drip, and a 2-month history of reduced smell and taste. Examination reveals oedematous, hyperaemic nasal mucosa, bilateral mucopurulent discharge in the middle meatus, maxillary and frontal sinus tenderness, and a granular posterior pharyngeal wall. The initial assessment is chronic rhinosinusitis, with investigations planned to assess disease extent and exclude alternative diagnoses.',
+    content: `
+  ENT CLINIC
+  
+  Patient Identification
+  A 34-year-old male teacher who resides in Ogbomosho, Oyo State. He is of Yoruba ethnicity.
+  
+  Presenting Complaints
+  1. Nasal blockage x 4/12
+  2. Facial pain and heaviness x 4/12
+  3. Thick nasal discharge x 3/12
+  4. Reduced sense of smell x 2/12
+  
+  History of Presenting Complaint
+  He was apparently well until 4 months ago when he developed insidious onset of bilateral nasal blockage. The blockage is persistent, worse in the early mornings and during cold weather. It is associated with a sensation of pressure and fullness over the cheeks and forehead, which worsens when bending forward.
+  
+  He also reports thick, yellowish-green nasal discharge for the past 3 months. He frequently experiences a sensation of mucus dripping into his throat, necessitating constant throat clearing. Over the last 2 months, he noticed a significant decline in his ability to smell and taste food. There is no history of recurrent sneezing, watery rhinorrhea, or itchy eyes. No history of epistaxis, dental pain, or previous facial trauma. He has been using various over-the-counter nasal drops with only transient relief.
+  
+  Past Medical History
+  History of recurrent episodes of acute sinusitis over the last 3 years, usually treated with short courses of antibiotics. No known history of bronchial asthma or aspirin sensitivity. No history of hypertension or diabetes mellitus.
+  
+  Drug History
+  Frequent use of Xylometazoline nasal drops for the past month. No known drug allergies.
+  
+  Family and Social History
+  He is a non-smoker and does not consume alcohol. He lives in a well-ventilated apartment. No family history of chronic respiratory conditions or atopy.
+  
+  Review of Systems
+  CNS: Occasional frontal headaches. No history of seizures or loss of consciousness.
+  RS: No cough, no wheezing, no shortness of breath.
+  CVS: No palpitations, no orthopnea or pedal oedema.
+  GIT: Normal appetite, no abdominal pain, normal bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  An adult male, not in any obvious respiratory or painful distress. He is afebrile (36.8 degrees Celsius). Not pale, anicteric, no significant peripheral lymphadenopathy, no pedal oedema.
+  
+  Vital Signs
+  Pulse Rate: 76 bpm, regular, normal volume.
+  Blood Pressure: 110/70 mmHg.
+  Respiratory Rate: 16 cpm.
+  SpO2: 98 percent on room air.
+  
+  ENT Examination
+  Nose: External nasal bridge appears normal. Anterior rhinoscopy reveals hyperaemic and oedematous nasal mucosa. There is mucopurulent discharge noted in the middle meatus bilaterally. No obvious nasal polyps or marked septal deviation.
+  Sinuses: Significant tenderness on palpation over the maxillary and frontal sinuses.
+  Throat: Posterior pharyngeal wall appears granular with visible mucoid post-nasal drip.
+  
+  Systemic Examination
+  Respiratory System: Trachea central. Chest expansion is symmetrical. Percussion notes are resonant. Breath sounds are vesicular.
+  Cardiovascular System: Apex beat at 5th left intercostal space, mid-clavicular line. S1 S2 heart sounds heard. No murmurs.
+  Abdomen: Soft, non-tender. No organomegaly.
+  
+  Assessment
+  Chronic Rhinosinusitis
+  
+  Differential Diagnoses
+  1. Allergic Rhinitis with secondary infection
+  2. Nasal Polyposis
+  3. Sinonasal Malignancy
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): To check for eosinophilia or leukocytosis.
+  2. Plain X-ray Paranasal Sinuses (Water's view): To check for mucosal thickening or air-fluid levels.
+  3. Diagnostic Nasal Endoscopy: To visualize the osteomeatal complex and rule out polyps.
+  4. CT Scan of Paranasal Sinuses (Coronal, Axial, and Sagittal views): The gold standard for assessing the extent of disease and anatomical variations.
+  
+  Initial Management Plan
+  
+  Medical Management
+  1. Nasal Saline Irrigation: Use isotonic saline (Normal Saline). 200 ml per nostril twice daily. This helps to liquefy secretions and improve mucociliary clearance.
+  2. Intranasal Corticosteroid: Fluticasone propionate nasal spray. 2 sprays (50 mcg per spray) per nostril once daily for 4 to 6 weeks. Instruct patient on correct head-down technique to ensure delivery to the middle meatus.
+  3. Antibiotics (Extended course): Tab Co-amoxiclav (Augmentin) 625 mg BD x 3/52. Chronic cases often require longer courses than acute episodes.
+  4. Analgesics: Tab Paracetamol 1 g TDS PRN for facial pain.
+  5. Oral Decongestant: Tab Loratadine 10 mg daily x 1/52 to reduce mucosal oedema.
+  
+  Patient Education and Follow-up
+  1. Advise the patient to avoid potential allergens and irritants like dust and smoke.
+  2. Demonstrate the proper use of nasal sprays to avoid septal perforation (aim away from the septum).
+  3. Explain that medical therapy for chronic sinusitis takes time and compliance is essential.
+  4. Review in 4 weeks to assess response to treatment. If no improvement, consider referral to an ENT specialist for possible Functional Endoscopic Sinus Surgery (FESS).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-118',
+    title: 'Recurrent Hiccups Secondary to Gastroesophageal Reflux Disease',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Gastroenterology Clinic',
+    condition: 'Gastroesophageal Reflux Disease (GORD)',
+    symptoms: ['Recurrent hiccups', 'Burning epigastric pain', 'Acid reflux', 'Abdominal bloating', 'Early satiety', 'Sleep disturbance'],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: '56-year-old male civil servant and known hypertensive presenting with a 2-week history of recurrent hiccups associated with burning epigastric pain, acid reflux, bloating, and early satiety. Examination revealed mild epigastric tenderness without abdominal masses, organomegaly, or neurological deficits. Assessment is recurrent intractable hiccups likely secondary to gastroesophageal reflux disease.',
+    content: `MEDICAL OUTPATIENT CLINIC
+  
+  PATIENT IDENTIFICATION
+  A 56-year-old male civil servant who resides in Ogbomosho, Oyo State. Yoruba.
+  
+  PRESENTING COMPLAINTS
+  1. Recurrent hiccups x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 2 weeks ago when he started experiencing recurrent episodes of hiccups. Each episode lasts several hours and occurs about 3 to 4 times a day. The hiccups are more frequent after meals and occasionally occur at night, interfering with his sleep.
+  
+  He reports associated epigastric pain which is burning in nature, worse when lying flat, and occasionally associated with a sour taste in the mouth (acid reflux). He also mentions occasional bloating and early satiety.
+  
+  There is no history of significant weight loss, chronic cough, or difficulty in swallowing. No history of chest pain, palpitations, or shortness of breath. There are no focal neurological symptoms such as limb weakness, seizures, or personality changes. No history of recent head or neck trauma.
+  
+  PAST MEDICAL HISTORY
+  He is a known hypertensive, diagnosed 5 years ago, currently managed on Tab Amlodipine 5mg daily. Compliance is reportedly good.
+  Not a known diabetic.
+  No previous history of similar complaints or peptic ulcer disease.
+  No history of previous surgeries or blood transfusions.
+  
+  DRUG HISTORY
+  Tab Amlodipine 5mg daily.
+  Occasional use of NSAIDs (Ibuprofen) for back pain.
+  No history of herbal concoction use.
+  
+  FAMILY AND SOCIAL HISTORY
+  He is married in a monogamous setting with four children.
+  He does not smoke cigarettes but takes alcohol socially (approx 2 units/week).
+  No family history of gastrointestinal malignancies.
+  
+  REVIEW OF SYSTEMS
+  CNS: No headaches, no dizziness.
+  Respiratory: No cough, no hemoptysis.
+  CVS: No orthopnea or PND.
+  GIT: As in HPC. No hematemesis or melena.
+  Urogenital: No frequency or nocturia.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  He is an elderly man, middle-aged, in no obvious respiratory or painful distress. Not pale, anicteric, not dehydrated, no significant peripheral lymphadenopathy, no pedal edema.
+  
+  VITAL SIGNS
+  Pulse rate: 78 bpm, regular, normal volume.
+  Blood pressure: 145/92 mmHg.
+  Respiratory rate: 16 cpm.
+  Temperature: 36.6 degrees Celsius.
+  SpO2: 98 percent on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  Flat, moves with respiration. No surgical scars.
+  Soft, mild tenderness in the epigastrium.
+  No hepatosplenomegaly or palpable masses.
+  Kidneys are not ballottable.
+  Bowel sounds are present and normal.
+  
+  RESPIRATORY SYSTEM
+  Trachea is central.
+  Chest expansion is symmetrical.
+  Percussion notes are resonant bilaterally.
+  Breath sounds are vesicular; no adventitious sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  Apex beat is at the 5th left intercostal space, mid-clavicular line.
+  S1 and S2 only heard. No murmurs.
+  
+  NEUROLOGICAL SYSTEM
+  GCS 15/15.
+  Cranial nerves I - XII are intact.
+  No motor or sensory deficits.
+  Gait is normal.
+  
+  ASSESSMENT
+  Recurrent Hiccups (Intractable) secondary to Gastroesophageal Reflux Disease (GORD).
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Peptic Ulcer Disease (PUD)
+  2. Uremia secondary to Chronic Kidney Disease
+  3. Diaphragmatic irritation (possibly from hiatal hernia)
+  4. Early Gastric Malignancy
+  
+  INITIAL INVESTIGATION PLAN
+  1. Full Blood Count (FBC): To rule out anemia or signs of infection.
+  2. Serum Urea, Electrolytes, and Creatinine: To rule out uremia as a metabolic cause.
+  3. Fasting Blood Sugar: To screen for DM.
+  4. Upper Gastrointestinal Endoscopy: To visualize the esophagus and stomach for GORD, PUD, or masses.
+  5. Abdominal Ultrasound: To rule out subphrenic collections or hepatobiliary pathology.
+  6. Chest X-ray: To rule out phrenic nerve irritation from thoracic lesions.
+  
+  INITIAL MANAGEMENT PLAN
+  1. Lifestyle modification: Advise smaller, more frequent meals; avoid lying flat for 3 hours after meals; elevate the head of the bed; avoid NSAIDs and alcohol.
+  2. Tab Omeprazole 20mg twice daily x 2/52 (30 minutes before meals).
+  3. Tab Metoclopramide 10mg three times daily x 5/7 (as a prokinetic to help reduce hiccups).
+  4. Liquid Antacid (Gaviscon or Magnesium Trisilicate) 10ml three times daily.
+  5. Review with investigation results in one week.
+  
+  CLINICAL SUMMARY
+  I have presented Mr O.A, a 56-year-old male civil servant and known hypertensive, who presented with a 2-week history of recurrent intractable hiccups associated with burning epigastric pain and symptoms of acid reflux. Physical examination was significant only for mild epigastric tenderness with no evidence of uremia, neurological deficits, or abdominal masses. He is being managed for GORD with empirical proton pump inhibitors and prokinetics, with plans for an upper GI endoscopy and metabolic screening.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+
   {
     id: 'im-117',
     title: 'Chronic Hepatitis B Infection – Follow-Up on Antiviral Therapy',

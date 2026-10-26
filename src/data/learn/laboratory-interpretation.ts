@@ -8321,5 +8321,1297 @@ Key Clinical Takeaways
   `
 },
 
+{
+  id: 'lab-vdrl-rpr-syphilis',
+  title: 'VDRL, RPR and Syphilis Serology',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Serology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; SEROLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">VDRL, RPR and Syphilis Serology</h1>
+  <p class="text-sm text-indigo-200">VDRL and RPR are cheap, quick and everywhere, and a reactive result is most often <em>not</em> syphilis in a low-prevalence setting like antenatal clinics in Nigeria. The test that excludes the false positives is a treponemal test, and the test that guides treatment and follow-up is the titre. This guide covers what the two kinds of syphilis test detect, how to read each combination, why prozone and biological false positives fool us, what the Nigerian data show, how titres are used to monitor treatment, and the points in pregnancy, HIV and genital ulcers where a wrong reading harms a mother, a baby or a patient.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Two Families of Tests
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Syphilis serology uses two kinds of antibody test, and they answer different questions. A diagnosis needs both.</p>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Nontreponemal tests (VDRL, RPR)</strong> detect antibodies to a lipid (cardiolipin) antigen that is released from damaged host cells and from the organism. They are not specific for <em>Treponema pallidum</em>. They rise with active infection, fall with treatment, and give a titre, so they are used to screen and to monitor.</li>
+  <li><strong>Treponemal tests (TPHA, TPPA, FTA-ABS, EIA, CLIA and rapid treponemal tests)</strong> detect antibodies to the organism itself. They are specific for treponemal infection, usually stay reactive for life even after cure, and cannot tell active from past infection. They are not used to follow response to treatment.</li>
+</ul>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">VDRL and RPR are not interchangeable</strong>
+  <p class="text-sm">VDRL is read microscopically on heat-inactivated serum and can also be done on CSF. RPR uses a charcoal-containing antigen read with the naked eye on a card, and can use serum or plasma. Both are valid, but RPR titres are frequently a little higher than VDRL titres. Always follow one patient with the same method, preferably in the same laboratory.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What the tests do in each stage</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Primary syphilis</strong> (a painless chancre, 3 weeks or so after exposure): nontreponemal tests are reactive in only about 78% (range 74&ndash;87%). A negative serology does not exclude a chancre. Treponemal tests may be slightly more sensitive and become reactive sooner.</li>
+    <li><strong>Secondary syphilis</strong> (rash, including palms and soles, mucosal patches, condylomata lata, generalised lymphadenopathy): serology is reactive in essentially 100% of cases, usually at a high titre.</li>
+    <li><strong>Latent syphilis</strong> (reactive serology, no symptoms): nontreponemal tests lose sensitivity, and the traditional algorithm can miss a large share of untreated late latent infection.</li>
+    <li><strong>Tertiary and neurosyphilis:</strong> nontreponemal titres may be low or negative, and treponemal tests are the dependable ones in serum.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+The Tests Side by Side
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">Type</th>
+        <th class="py-2 pr-3">Used for</th>
+        <th class="py-2 pr-3">Limits</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>VDRL</strong></td><td class="py-2 pr-3">Nontreponemal, microscopic</td><td class="py-2 pr-3">Screening, titre, CSF testing</td><td class="py-2 pr-3">Needs heated serum and microscope. Biological false positives and prozone.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>RPR</strong></td><td class="py-2 pr-3">Nontreponemal, card test</td><td class="py-2 pr-3">Screening, titre, monitoring</td><td class="py-2 pr-3">Not valid on CSF. Same biological false positives and prozone. Subjective reading.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>TPHA / TPPA</strong></td><td class="py-2 pr-3">Treponemal, agglutination</td><td class="py-2 pr-3">Confirmation of a reactive VDRL or RPR</td><td class="py-2 pr-3">Remains reactive for life. Not for monitoring. Needs reagent and trained reader.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>FTA-ABS</strong></td><td class="py-2 pr-3">Treponemal, fluorescent</td><td class="py-2 pr-3">Confirmation; also used on CSF</td><td class="py-2 pr-3">Needs a fluorescence microscope. Rarely available.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>EIA / CLIA</strong></td><td class="py-2 pr-3">Treponemal, automated</td><td class="py-2 pr-3">Screening in the reverse algorithm</td><td class="py-2 pr-3">Cost and analyser. A reactive result with a negative RPR needs a second treponemal test.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Rapid treponemal test (RST)</strong></td><td class="py-2 pr-3">Treponemal, lateral flow</td><td class="py-2 pr-3">Point-of-care screening, especially antenatal clinics</td><td class="py-2 pr-3">Cannot tell active from past infection. A reactive result needs an RPR or VDRL titre.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Dual HIV/syphilis rapid test</strong></td><td class="py-2 pr-3">HIV antibody plus treponemal antibody</td><td class="py-2 pr-3">Antenatal screening for both infections</td><td class="py-2 pr-3">The syphilis line is treponemal. The HIV line follows the national HIV algorithm.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Darkfield microscopy, PCR</strong></td><td class="py-2 pr-3">Direct detection of the organism</td><td class="py-2 pr-3">Genital or oral lesions when serology is still negative</td><td class="py-2 pr-3">Rarely available. A negative result does not exclude infection.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Reading the Combination
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">VDRL or RPR</th>
+        <th class="py-2 pr-3">Treponemal test</th>
+        <th class="py-2 pr-3">Interpretation</th>
+        <th class="py-2 pr-3">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Syphilis, current or recently treated. Stage by history, examination and titre.</td><td class="py-2 pr-3">Treat if not already treated. Test for HIV. Record the titre. Treat partners.</td></tr>
+      <tr><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">Biological false positive, or a very early infection before the treponemal test is reactive.</td><td class="py-2 pr-3">Do not treat if low titre and no signs. Repeat both tests in 2&ndash;4 weeks if a recent exposure or ulcer. Look for the cause of a false positive.</td></tr>
+      <tr><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">Reactive</td><td class="py-2 pr-3">Past syphilis that was treated (titre has reverted), very early primary syphilis, late latent or treated late syphilis, or a false-positive treponemal test (including yaws, pinta or bejel).</td><td class="py-2 pr-3">Take a history of treatment. If untreated and signs or exposure fit, treat. If previously treated, no treatment. A second treponemal test helps in a low-risk person.</td></tr>
+      <tr><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">Non-reactive</td><td class="py-2 pr-3">No syphilis, or too early (incubation). Prozone is possible.</td><td class="py-2 pr-3">If a chancre or rash is present, ask for a diluted RPR, and repeat in 2&ndash;4 weeks. Consider presumptive treatment of recent contacts.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A single type of test is never enough to diagnose syphilis. A reactive RPR is a screening result, and a reactive treponemal test alone cannot say whether the infection is current. The pair, with the history, the examination and the titre, makes the diagnosis.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+What the Nigerian Data Show
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Study</th>
+        <th class="py-2 pr-3">Finding</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">505 newly registered pregnant women screened by RPR with TPHA confirmation (two south-west hospitals)</td><td class="py-2 pr-3">RPR was positive in 9.9% (50 women) and TPHA in 2.97% (15 women). About 70% of RPR-positive women were biological false positives. By titre: of 32 women at 1:2, only 2 (6%) were TPHA positive. Of 7 at 1:4, 2 (29%). All 11 at 1:8 or higher (100%) were TPHA positive.</td></tr>
+      <tr><td class="py-2 pr-3">A 10-year review of VDRL in 18,101 antenatal women at a teaching hospital in the north-east</td><td class="py-2 pr-3">Only 12 were VDRL-seropositive. Nine were TPHA-confirmed (seroprevalence 0.05%), and three (25%) were biological false positives. No congenital syphilis was recorded.</td></tr>
+      <tr><td class="py-2 pr-3">4,550 pregnant women in a clinic evaluation of a dual HIV/syphilis rapid test</td><td class="py-2 pr-3">With TPHA as the reference, syphilis prevalence was 0.09% (4 of 4,550), and the four TPHA-positive specimens all had low-titre RPR (1:1), indicating non-active infection. The authors noted that syphilis testing coverage in Nigerian antenatal care is very low, and that Nigeria is among the countries prioritised for dual elimination of mother-to-child transmission of HIV and congenital syphilis.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Three points follow. First, syphilis prevalence in pregnancy varies by place and year, from very low (under 0.1%) to a few per cent. Second, because prevalence is often low, most reactive nontreponemal results in some settings are false positives, and low titres are the least reliable. Third, screening coverage is poor, so women who need testing are often not tested while women with false-positive results risk being treated or labelled.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why low prevalence produces false alarms</strong>
+  <p class="text-sm">Using the 505-woman study as an illustration: 50 women were RPR-positive and 15 were truly infected, so the positive predictive value of a reactive RPR was 30%. At titres of 1:2 it was about 6%, at 1:4 about 29% and at 1:8 or higher 100%. A single reactive RPR is not a diagnosis, and the titre and a treponemal test are what turn it into one. The same arithmetic applies to every screening test in a low-prevalence population.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+False Positives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A biological false positive (BFP) is a reactive VDRL or RPR with a non-reactive treponemal test, caused by something other than syphilis. It occurs in about 1&ndash;2% of tests in general and far more often in some groups. It is usually low-titre (1:8 or less), but not always.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">Pattern</th>
+        <th class="py-2 pr-3">Relevance in Nigeria</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Acute infections:</strong> malaria, tuberculosis, viral hepatitis, infectious mononucleosis, filariasis</td><td class="py-2 pr-3">Usually transient, resolving in weeks to months</td><td class="py-2 pr-3">Malaria is common and a well-recognised cause. Repeat the test after recovery.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HIV infection</strong></td><td class="py-2 pr-3">Can cause false-positive and sometimes false-negative reactions</td><td class="py-2 pr-3">Interpret with care and test every syphilis patient for HIV.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Pregnancy</strong></td><td class="py-2 pr-3">Often low titre, transient</td><td class="py-2 pr-3">The main population screened. Always confirm with a treponemal test.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Chronic conditions:</strong> leprosy, lupus, antiphospholipid syndrome, rheumatoid arthritis, other autoimmune and collagen disease, chronic liver disease, malignancy, injection drug use</td><td class="py-2 pr-3">Persistent, may last months or years</td><td class="py-2 pr-3">Look for the underlying condition.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Recent vaccination, older age</strong></td><td class="py-2 pr-3">Usually low titre</td><td class="py-2 pr-3">Take a vaccine history.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Technical:</strong> unheated serum with VDRL, old reagents, wrong rotation or timing, lipaemic serum</td><td class="py-2 pr-3">Random</td><td class="py-2 pr-3">Check the method and the controls.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Endemic treponematoses (yaws, pinta, bejel)</strong></td><td class="py-2 pr-3">The treponemal test is reactive and the RPR may be too. They are indistinguishable from syphilis by serology.</td><td class="py-2 pr-3">Historical yaws in West Africa. Take a history of skin disease in childhood and local exposure.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm"><strong>What to do:</strong> a reactive nontreponemal test with a negative treponemal test, a low titre and no signs or exposure is a probable BFP. Do not treat, explain the result, repeat serology in a few weeks, and look for the underlying cause. A reactive nontreponemal test must never be confirmed by repeating the same nontreponemal test.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+False Negatives and the Prozone Phenomenon
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Cause</th>
+        <th class="py-2 pr-3">What happens</th>
+        <th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Prozone (hook) effect</strong></td><td class="py-2 pr-3">Very high antibody concentrations block the flocculation reaction, so a neat sample reads weakly reactive or non-reactive while the diluted sample is strongly reactive. It occurs in about 1&ndash;2% of cases, mostly in secondary syphilis, and more often in pregnancy and HIV.</td><td class="py-2 pr-3">When secondary syphilis is likely (rash, lymphadenopathy, mucosal lesions) and the RPR or VDRL is non-reactive or weak, ask the laboratory to repeat on a diluted sample (for example 1:8 and higher), or run a treponemal test. Never accept a negative RPR in a patient with a classic rash without a dilution or a treponemal test.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Early primary syphilis</strong></td><td class="py-2 pr-3">Antibodies have not yet appeared. Nontreponemal sensitivity is only about 78% in primary disease.</td><td class="py-2 pr-3">Repeat serology in 2&ndash;4 weeks if a chancre is present. Treat presumptively when the ulcer and exposure fit and the patient may not return.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Late latent and treated late syphilis</strong></td><td class="py-2 pr-3">Nontreponemal titres decline over time, and the traditional algorithm may miss a large share of untreated late latent cases.</td><td class="py-2 pr-3">Use a treponemal test first when late disease is suspected, for example in neurological or cardiovascular disease, or in a pregnant woman with a stillbirth history.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Incubation period</strong></td><td class="py-2 pr-3">Recent exposure before serology can become reactive.</td><td class="py-2 pr-3">Retest in 2&ndash;4 weeks and consider presumptive treatment of contacts within about 3 months.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HIV co-infection</strong></td><td class="py-2 pr-3">Rarely a delayed or atypical serological response.</td><td class="py-2 pr-3">If the picture fits and serology is negative, use a treponemal test, a diluted RPR, and lesion testing where available.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Technical errors</strong></td><td class="py-2 pr-3">Expired reagent, wrong sample volume, or a missed reading.</td><td class="py-2 pr-3">Run known reactive and non-reactive controls with every batch.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Algorithms: Traditional, Reverse and the Rapid-Test Approach
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Approach</th>
+        <th class="py-2 pr-3">Steps</th>
+        <th class="py-2 pr-3">Strengths and weaknesses</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>Traditional</strong></td><td class="py-2 pr-3">Nontreponemal test (RPR or VDRL), then a treponemal test for reactive results.</td><td class="py-2 pr-3">Cheap, quantitative and workable without an analyser. Can miss early primary and latent syphilis, and a reactive result with a negative treponemal test is a probable false positive.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Reverse</strong></td><td class="py-2 pr-3">Automated treponemal test (EIA or CLIA) first. If reactive, a nontreponemal test with titre. If that is non-reactive, a second, different treponemal test decides.</td><td class="py-2 pr-3">Finds more early and latent syphilis. Can give false-reactive screens at low prevalence (about 0.6%). Needs an analyser.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Rapid-test approach (for antenatal and low-resource settings)</strong></td><td class="py-2 pr-3">A rapid treponemal test (or dual HIV/syphilis test). A reactive result triggers treatment, and an RPR or VDRL titre is then done to assess activity and set a baseline for follow-up.</td><td class="py-2 pr-3">Fast, point-of-care, and does not require the woman to return. The test cannot separate active from past infection, so some women with past, treated infection are treated again. WHO accepts this in pregnancy because the penalty for missing syphilis is a stillbirth or a congenital infection.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Either the traditional or the reverse algorithm is acceptable. The choice depends on what the laboratory can run and the population tested. In most Nigerian facilities the practical pairing is RPR or VDRL with TPHA or a rapid treponemal test. Whatever the algorithm, a reactive result is always followed by the second type of test, and a titre is always recorded before treatment.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Two reasonable positions look opposed. Laboratory guidance says a diagnosis needs both a nontreponemal and a treponemal test, and warns that low-prevalence screening produces false positives. WHO antenatal guidance says that a woman with a reactive rapid treponemal test should receive the first dose of benzathine penicillin straight away and proceed to an RPR. They fit together as follows: in pregnancy, accept some overtreatment to avoid missing syphilis, and elsewhere confirm before treating. Follow-up schedules also differ between guidelines (for example tests at 3, 6 and 12 months in some, and at 6 and 12 months in others, with closer follow-up in HIV). Use your national guideline and apply the same schedule for every patient.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Titres: Staging, Monitoring and Treatment Failure
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A titre is the highest dilution that remains reactive (for example 1:2, 1:4, 1:8, 1:16, 1:32). A change of two dilutions, a fourfold change, is the smallest difference that is clinically meaningful. A one-dilution change (for example 1:8 to 1:16) is within the test&rsquo;s own variation.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Baseline:</strong> record the titre on the day of treatment. A later titre is only meaningful against it.</li>
+  <li><strong>Response:</strong> after treatment of early syphilis, a fourfold fall (two dilutions) is expected within 6&ndash;12 months. Titres should keep falling and may become non-reactive. Late syphilis falls more slowly, and treated late disease may keep a low titre for years.</li>
+  <li><strong>Failure or reinfection:</strong> a fourfold rise, a persistent high titre, or a failure to fall fourfold by 12 months (in early syphilis) suggests treatment failure or reinfection. Check for new exposure, check HIV, look for neurological, ocular or ear symptoms, and retreat as appropriate.</li>
+  <li><strong>Serofast state:</strong> a stable, low titre (for example 1:2 to 1:4) that does not fall fourfold 6&ndash;12 months after adequate treatment, without signs of reinfection. It is common and is not an indication to retreat on its own. Confirm that it is stable on repeated testing.</li>
+  <li><strong>Method:</strong> use the same test (VDRL or RPR), the same laboratory, and compare titres only with titres from that method.</li>
+  <li><strong>Follow-up schedule:</strong> commonly at 3, 6 and 12 months after treatment for early syphilis, and at 12 and 24 months for late or latent disease. People with HIV and pregnant women need closer follow-up (for example 3, 6, 9, 12 and 24 months for HIV and monthly or at delivery in pregnancy).</li>
+</ul>
+<p class="text-sm"><strong>Example:</strong> a titre of 1:32 before treatment that falls to 1:8 by 12 months is a fourfold fall and a good response. A titre that stays at 1:32 at 12 months, or rises to 1:64, is not.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Treatment and What the Result Triggers
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Stage</th>
+        <th class="py-2 pr-3">Usual regimen</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Primary, secondary or early latent (under about 1 year)</td><td class="py-2 pr-3">Benzathine penicillin G 2.4 million units IM, single dose.</td></tr>
+      <tr><td class="py-2 pr-3">Late latent, latent of unknown duration, or tertiary (not neurosyphilis)</td><td class="py-2 pr-3">Benzathine penicillin G 2.4 million units IM once a week for 3 weeks (7.2 million units in total).</td></tr>
+      <tr><td class="py-2 pr-3">Neurosyphilis, ocular or otic syphilis</td><td class="py-2 pr-3">Intravenous aqueous benzylpenicillin (about 18&ndash;24 million units a day for 10&ndash;14 days), with specialist input.</td></tr>
+      <tr><td class="py-2 pr-3">Pregnancy</td><td class="py-2 pr-3">Penicillin only, in the same stage-based regimens. Benzathine penicillin G is the only therapy with documented efficacy to prevent congenital syphilis. A woman with a true penicillin allergy should be desensitised and treated with penicillin. Where a second dose a week after the first is feasible in early syphilis it is sometimes advised. In late disease, an interval of more than about 9 days between weekly doses means the course should be restarted.</td></tr>
+      <tr><td class="py-2 pr-3">Penicillin allergy, not pregnant</td><td class="py-2 pr-3">Alternative regimens exist under the national guideline, with closer follow-up. Pregnancy and neurosyphilis are not suitable for alternatives.</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Jarisch&ndash;Herxheimer reaction:</strong> fever, rigors and malaise within hours of the first dose, from the release of treponemal products. Warn every patient. In the second half of pregnancy it can provoke contractions and reduced fetal movement, so tell the woman to seek care.</li>
+  <li><strong>Test for HIV</strong> in everyone with syphilis, and for syphilis in everyone with HIV. Also test for other sexually transmitted infections.</li>
+  <li><strong>Treat partners.</strong> Partners exposed in the preceding 3 months or so should be tested and treated presumptively, even if their serology is non-reactive.</li>
+  <li><strong>Supply:</strong> benzathine penicillin is not always in stock. Check supplies and refer rather than substituting a short-acting penicillin that does not achieve the sustained levels needed. Where a stock-out exists, report it.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Pregnancy and Congenital Syphilis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Test every pregnant woman at the first antenatal visit,</strong> with a treponemal rapid test or a nontreponemal test with confirmation. Where risk is high, repeat in the third trimester and at delivery. Any woman who delivers a stillborn infant should be tested.</li>
+  <li><strong>A reactive rapid treponemal test means treat first.</strong> Give the first dose of benzathine penicillin the same day, then do a titre to see whether the infection is active, and test for HIV.</li>
+  <li><strong>A reactive RPR with a negative treponemal test</strong> is a probable false positive. Do not treat, explain, and repeat later.</li>
+  <li><strong>Untreated or inadequately treated maternal syphilis</strong> (treated less than about 4 weeks before delivery, a delay of more than the permitted interval between doses, or a non-penicillin drug) puts the infant at risk.</li>
+  <li><strong>The infant:</strong> take an RPR or VDRL on the infant&rsquo;s serum (not cord blood) and compare with the mother&rsquo;s titre at delivery. An infant titre at least fourfold higher than the mother&rsquo;s suggests congenital infection. Treponemal IgG in the infant is passively transferred and does not help. Examine for signs (rhinitis, rash, hepatosplenomegaly, bone changes, anaemia, jaundice), and treat according to the stage of maternal treatment and the infant&rsquo;s findings.</li>
+  <li><strong>Follow-up:</strong> infant titres should fall and become non-reactive by about 6 months if not infected, and rising or persistent titres need work-up. Maternal titre should be checked at delivery.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Neurosyphilis, HIV and the Genital Ulcer
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neurosyphilis and ocular syphilis</strong>
+  <p class="text-sm">Syphilis can involve the brain, meninges, eyes and ears at any stage. Look for headache, cranial nerve palsies, meningism, confusion, personality change, stroke in a young person, tabes (lightning pains, ataxia, Argyll Robertson pupils), visual loss, uveitis and hearing loss. In a patient with such symptoms and reactive serology, examine the CSF: cell count, protein, VDRL and, where available, FTA-ABS. A reactive CSF-VDRL (without blood contamination) in a patient with neurological signs is diagnostic of neurosyphilis, because it is highly specific. It is insensitive, so a negative CSF-VDRL with a high cell count or protein and compatible symptoms still counts. A negative CSF FTA-ABS makes neurosyphilis unlikely. Do not use RPR on CSF. Refer ocular and otic symptoms urgently.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">HIV co-infection</strong>
+  <p class="text-sm">HIV and syphilis travel together. Titres in HIV can be unusually high, unusually low, or slow to fall, and neurological involvement can occur earlier. Test every person with syphilis for HIV. Follow people with both infections more closely. A CSF examination may be indicated if titres do not respond as expected after treatment.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The genital ulcer</strong>
+  <p class="text-sm">A painless indurated ulcer suggests a primary chancre, but herpes, chancroid, lymphogranuloma venereum and donovanosis also cause genital ulcers, and coinfection is common. Serology can be negative in early primary syphilis, and darkfield microscopy and PCR are rarely available. The national syndromic approach to genital ulcer disease is built for this situation: treat for the likely causes at the first visit, then test for HIV and repeat the syphilis serology in 2&ndash;4 weeks. Do not wait for serology before treating a typical chancre in a patient who may not return.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Technique and Quality Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Effect</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Reporting a qualitative reactive RPR with no titre</td><td class="py-2 pr-3">No baseline for monitoring, and no way to separate low-titre false positives.</td><td class="py-2 pr-3">Quantitate every reactive sample and report the end-point titre.</td></tr>
+      <tr><td class="py-2 pr-3">Switching between VDRL and RPR for follow-up</td><td class="py-2 pr-3">Titres are not comparable, and a fall or rise may be artefactual.</td><td class="py-2 pr-3">Use one method in one laboratory, and write the method on the report.</td></tr>
+      <tr><td class="py-2 pr-3">Not diluting a weak or negative result in a patient with a rash</td><td class="py-2 pr-3">Prozone false negative.</td><td class="py-2 pr-3">Dilute and repeat, and add a treponemal test.</td></tr>
+      <tr><td class="py-2 pr-3">Expired or badly stored reagents, wrong rotation speed or time</td><td class="py-2 pr-3">Weak or false reactions.</td><td class="py-2 pr-3">Check expiry, store at 2&ndash;8 &deg;C as instructed, use the rotator at the stated speed and time, and run controls.</td></tr>
+      <tr><td class="py-2 pr-3">Heat-inactivation errors with VDRL</td><td class="py-2 pr-3">Unreliable result.</td><td class="py-2 pr-3">Follow the method for heating, and re-heat old samples as directed.</td></tr>
+      <tr><td class="py-2 pr-3">Haemolysed, lipaemic or contaminated serum</td><td class="py-2 pr-3">Interferes with reading.</td><td class="py-2 pr-3">Use clear fresh serum and recollect if in doubt.</td></tr>
+      <tr><td class="py-2 pr-3">Reading RPR cards in poor light, or by a single tired reader</td><td class="py-2 pr-3">Misread weak reactions.</td><td class="py-2 pr-3">Use good light, a standard control card and a second reader for borderline tests.</td></tr>
+      <tr><td class="py-2 pr-3">Reporting &ldquo;syphilis positive&rdquo; on RPR alone</td><td class="py-2 pr-3">Turns a screen into a diagnosis, with stigma and unnecessary treatment.</td><td class="py-2 pr-3">Report &ldquo;reactive&rdquo; with a comment that confirmation with a treponemal test is needed.</td></tr>
+      <tr><td class="py-2 pr-3">Rapid treponemal kits stored hot, past expiry or read late</td><td class="py-2 pr-3">False negatives or invalid results.</td><td class="py-2 pr-3">Follow the insert exactly and keep the stock under review.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman at booking: RPR reactive at 1:2, TPHA non-reactive, no symptoms</strong>
+  <p class="text-sm">A probable biological false positive, as in the Nigerian series where only about 6% of RPR 1:2 results were TPHA-positive. Do not treat. Explain that the result is most likely not syphilis, repeat serology later in pregnancy, look for malaria or another cause, and test for HIV.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman at booking: rapid treponemal test reactive, no ulcer</strong>
+  <p class="text-sm">Give benzathine penicillin G 2.4 million units IM now, then do an RPR or VDRL titre to see whether the infection is active, test for HIV, and treat her partner. If the titre is high, complete the course for the stage. If the titre is non-reactive and she has a past treated infection, document it. Plan the infant evaluation at delivery.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man with a painless genital ulcer for one week, RPR non-reactive</strong>
+  <p class="text-sm">Serology is negative in many early primary cases. Treat according to the national syndromic guideline for genital ulcer disease, which covers syphilis, and offer an HIV test. Repeat RPR and a treponemal test in 2&ndash;4 weeks and treat his partners.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young adult with a rash on the palms and soles, generalised lymphadenopathy and a non-reactive RPR</strong>
+  <p class="text-sm">Think of secondary syphilis with a prozone effect. Ask the laboratory to dilute the sample and repeat, and send a treponemal test. Test for HIV. If the clinical picture is classic, treat without waiting for the repeat.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 60, treated for syphilis 10 years ago, now TPHA reactive and RPR non-reactive</strong>
+  <p class="text-sm">Past treated syphilis. Treponemal tests stay reactive for life and the RPR has reverted. No treatment is needed. Do not retreat on the TPHA alone. Examine for late complications if there is any neurological, cardiovascular or ocular symptom, and test for HIV.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Early syphilis treated with a single dose: RPR 1:32 before treatment, 1:16 at 6 months, 1:8 at 12 months</strong>
+  <p class="text-sm">A good response. A fourfold fall (two dilutions) from 1:32 to 1:8 by 12 months. Continue to follow if the schedule calls for it, and counsel about reinfection.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Person with HIV, RPR 1:64, new headache and blurred vision</strong>
+  <p class="text-sm">Possible neurosyphilis or ocular syphilis. Arrange an urgent ophthalmology review and a lumbar puncture with CSF cells, protein, VDRL and FTA-ABS where available. If neurological or ocular syphilis is likely, begin intravenous penicillin without delay.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Newborn of a mother treated late in pregnancy, mother&rsquo;s RPR 1:16, infant RPR 1:64</strong>
+  <p class="text-sm">The infant&rsquo;s titre is fourfold higher than the mother&rsquo;s, which supports congenital syphilis. Examine for signs, send CSF, long-bone X-rays and a blood count where possible, treat for congenital syphilis, and follow the titre until it is non-reactive.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Start with the person.</strong> Pregnancy, genital ulcer, rash, neurological or eye symptoms, HIV status, past treatment, partners.</li>
+  <li><strong>Check which tests were done.</strong> Both a nontreponemal and a treponemal test are needed for a diagnosis. Is a titre reported?</li>
+  <li><strong>Read the pair</strong> using the table in section 3. Reactive and reactive: syphilis. Reactive and non-reactive: probable false positive. Non-reactive and reactive: past or very early or late disease. Non-reactive and non-reactive: no syphilis, or too early, or prozone.</li>
+  <li><strong>Check for the traps.</strong> Prozone in a rash, early primary, late latent, and biological false positive causes such as malaria, pregnancy, autoimmune disease and HIV.</li>
+  <li><strong>Use the titre.</strong> Treat the stage, record the baseline, and expect a fourfold fall within 6&ndash;12 months.</li>
+  <li><strong>In pregnancy, act on a reactive treponemal rapid test</strong> the same day, with penicillin only.</li>
+  <li><strong>Test for HIV, treat partners, and plan the follow-up.</strong></li>
+  <li><strong>In neurological or ocular disease, examine the CSF</strong> and treat as neurosyphilis.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Syphilis in pregnancy.</strong> Untreated, it causes stillbirth, preterm birth and congenital infection. Treat with penicillin the same day, and no other drug will do.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A negative RPR in a patient with a classic rash.</strong> Prozone or very early disease. Dilute, add a treponemal test, and treat if the picture is typical.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Visual loss, hearing loss, new headache or cranial nerve palsy with reactive serology.</strong> Ocular, otic or neurosyphilis. Urgent specialist care and intravenous penicillin.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>An infant with a titre fourfold higher than the mother&rsquo;s, or signs of congenital syphilis.</strong> Treat and investigate the infant.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A rising titre or no fourfold fall by 12 months after treatment.</strong> Failure, reinfection, or HIV effect. Re-examine, test HIV, consider CSF and retreat.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A reactive RPR with a negative treponemal test, labelled and treated as syphilis.</strong> A probable biological false positive. The woman or man is stigmatised and treated for nothing. Confirm before labelling outside pregnancy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Syphilis diagnosed without an HIV test, or partners left untreated.</strong> Co-infection and reinfection undermine the treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A pregnant woman who is tested late or never.</strong> Syphilis testing coverage is low. Every missed screen risks a congenital infection.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>VDRL and RPR are nontreponemal screens and monitors. TPHA, FTA-ABS, EIA and rapid treponemal tests are specific and stay reactive for life. A diagnosis needs both.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In Nigerian antenatal data, about 70% of reactive RPRs were biological false positives in one series, and only about 6% of RPR 1:2 results were TPHA-positive, against 100% at 1:8 or higher. Low prevalence and low titre mean false alarms.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Reactive RPR with a negative treponemal test is a probable false positive (malaria, pregnancy, autoimmune disease, HIV, TB, leprosy). Non-reactive RPR with a reactive treponemal test is usually past, treated syphilis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>False negatives come from prozone (dilute the sample, especially with a rash), early primary syphilis (about 78% sensitivity) and late latent disease.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use titres to stage and monitor, always the same method in the same laboratory. A fourfold (two-dilution) fall within 6&ndash;12 months is a response, and a fourfold rise is failure or reinfection.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat with benzathine penicillin G (2.4 million units once for early syphilis, weekly for 3 weeks for late or unknown duration). Penicillin is the only treatment in pregnancy. A reactive rapid treponemal test in pregnancy is treated at once.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Test everyone with syphilis for HIV, treat partners, warn about the Jarisch&ndash;Herxheimer reaction, and examine the CSF in neurological, ocular or ear disease. Compare an infant&rsquo;s titre with the mother&rsquo;s.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Sexually transmitted infections treatment guidelines, 2021: syphilis, including treatment regimens, follow-up and pregnancy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Centers for Disease Control and Prevention. Laboratory recommendations for syphilis testing, United States (2024): traditional and reverse algorithms, prozone and serofast definitions.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guidelines for the treatment of Treponema pallidum (syphilis) (2016), and antenatal care recommendations on rapid syphilis tests, treatment of reactive results and dual HIV/syphilis testing.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies of syphilis seroprevalence in pregnancy: an RPR with TPHA confirmation study of 505 women, a 10-year VDRL review in a north-east teaching hospital, and a clinic-based evaluation of a dual HIV/syphilis rapid test in 4,550 women.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published reviews of biological false-positive nontreponemal tests, the prozone phenomenon and CSF testing for neurosyphilis.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Regional public health syphilis laboratory interpretation and treatment quick-reference guides (treatment follow-up schedules, causes of false positives).</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'lab-sputum-afb-genexpert',
+  title: 'Sputum AFB Smear and GeneXpert (TB)',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Microbiology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sputum AFB Smear and GeneXpert (TB)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.font-brand { font-family: Georgia, 'Times New Roman', serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation &middot; Microbiology</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Sputum AFB Smear and GeneXpert (TB)</h1>
+  <p class="text-sm text-indigo-200">Nigeria is one of the 30 high-burden TB countries, and many patients arrive late, after antibiotics or herbal remedies have failed to clear a long cough. Two tests carry most of the diagnostic weight: the sputum acid-fast bacilli (AFB) smear and the GeneXpert (Xpert MTB/RIF Ultra) molecular test. This guide explains what each one tells you, how to read the grades and categories, how to handle trace and rifampicin-resistant results, how to use smear follow-up during treatment, and which errors in sample collection and interpretation cause the most harm.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-each-test-reflects" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What Each Test Reflects</span></a></li>
+  <li><a href="#getting-a-good-specimen" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Getting a Good Specimen</span></a></li>
+  <li><a href="#reading-the-results" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Reading the Results</span></a></li>
+  <li><a href="#pattern-recognition-smear-and-xpert-together" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Pattern Recognition: Smear and Xpert Together</span></a></li>
+  <li><a href="#trace-results-who-gets-treated" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Trace Results: Who Gets Treated</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigeria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Clinical Scenarios in Nigeria</span></a></li>
+  <li><a href="#what-to-do-next" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>What to Do Next</span></a></li>
+  <li><a href="#smear-follow-up-during-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Smear Follow-up During Treatment</span></a></li>
+  <li><a href="#pitfalls-and-sample-handling-errors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Pitfalls and Sample Handling Errors</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-each-test-reflects" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What Each Test Reflects
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Sputum AFB smear microscopy</strong>
+  <p class="text-sm">The smear stains the waxy cell wall of mycobacteria (Ziehl-Neelsen, or auramine under a fluorescence microscope). It shows that acid-fast bacilli are present and roughly how many. It cannot separate <em>Mycobacterium tuberculosis</em> from non-tuberculous mycobacteria (NTM), and it cannot tell living bacilli from dead ones. It needs a fairly high bacillary load to turn positive, so it misses much of the TB seen in people living with HIV and in children. Its strengths are speed, low cost, the bacillary grade (a rough guide to infectiousness) and its use for following treatment response.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">GeneXpert (Xpert MTB/RIF Ultra)</strong>
+  <p class="text-sm">A cartridge-based nucleic acid amplification test (NAAT). It detects <em>M. tuberculosis</em> DNA and, in the same run, the <em>rpoB</em> mutations that cause rifampicin resistance. Results are available in under two hours. It detects far fewer bacilli than smear, which is why it finds more smear-negative TB, but DNA persists after the bacilli are dead, so it can stay positive in someone who has recently completed treatment. It says nothing about isoniazid resistance.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other tests you will meet</strong>
+  <p class="text-sm">Liquid culture and phenotypic drug susceptibility testing (DST) remain the reference standard and are needed for follow-up of drug-resistant TB, but they take weeks and are available only at reference laboratories. Urine lateral flow lipoarabinomannan (LF-LAM) is a point-of-care test used alongside sputum NAAT in people living with HIV who are seriously ill or have advanced HIV disease. Low-complexity automated NAATs on other specimens (stool, nasopharyngeal aspirate, CSF) matter mainly in children and in TB meningitis.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="getting-a-good-specimen" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Getting a Good Specimen
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most false-negative results begin at the bedside, not in the laboratory. Ask who should be tested: anyone with cough (any duration in people living with HIV, otherwise cough of about two weeks or more), fever, night sweats, weight loss or haemoptysis, and every contact of a drug-resistant case with symptoms.</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>Collect sputum, not saliva. Ask the patient to rinse the mouth with water, breathe deeply two or three times and cough from the chest into a wide-mouthed, screw-capped container. Mucopurulent or blood-stained material is best.</li>
+  <li>Collect in the open air or a well-ventilated space away from other patients, never in a closed toilet or waiting room. Coughing patients are infectious.</li>
+  <li>An early morning sample usually has the highest yield. If the patient may not return, take a supervised spot sample on the spot, then give a container for the next morning.</li>
+  <li>For smear, the number of samples (two is common) follows the local procedure. For Xpert, one good-quality sample is the test; do not send three samples for Xpert.</li>
+  <li>If the patient cannot produce sputum, say so on the request form rather than sending saliva. Children and some adults need induced sputum, gastric aspirate, nasopharyngeal aspirate or stool, depending on local capacity.</li>
+  <li>Label the container on the body, not only the lid. Send it to the laboratory the same day. If there is a delay, keep it cool and out of direct sunlight, and follow the storage limits printed in the cartridge insert for Xpert.</li>
+  <li>Ask about antibiotics and herbal ("agbo") preparations without judgement. A fluoroquinolone course given for a persistent cough can partly treat TB, blur the picture and select resistance, so avoid it as an empirical trial in presumptive TB.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-the-results" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Reading the Results
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300 space-y-5">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Smear grading (Ziehl-Neelsen, 1000&times; oil immersion; WHO/IUATLD scale)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Grade</th><th class="py-2 pr-3">AFB seen</th><th class="py-2 pr-3">What to do</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3 font-semibold">Negative</td><td class="py-2 pr-3">No AFB in 100 fields</td><td class="py-2 pr-3">Does not exclude TB. Use Xpert and clinical findings.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Scanty (report the count)</td><td class="py-2 pr-3">1&ndash;9 AFB in 100 fields</td><td class="py-2 pr-3">Counts as positive. Confirm with Xpert, which also gives the rifampicin result.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">1+</td><td class="py-2 pr-3">10&ndash;99 AFB in 100 fields</td><td class="py-2 pr-3">Positive.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">2+</td><td class="py-2 pr-3">1&ndash;10 AFB per field (examine 50 fields)</td><td class="py-2 pr-3">Positive, more infectious.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">3+</td><td class="py-2 pr-3">&gt;10 AFB per field (examine 20 fields)</td><td class="py-2 pr-3">Positive, highly infectious.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs mt-2">"Scanty 3" means 3 bacilli in 100 fields. It is not the same as "3+". Fluorescence microscopy is read at lower magnification, so counts per field differ; use the grading chart in your laboratory's own procedure. Fluorescent stains fade, so read them within the time the procedure allows.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Xpert MTB/RIF Ultra output</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Result</th><th class="py-2 pr-3">Meaning</th><th class="py-2 pr-3">Next step</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3 font-semibold">MTB detected (high, medium, low, very low), RIF not detected</td><td class="py-2 pr-3">TB, no rifampicin resistance found. Isoniazid status unknown.</td><td class="py-2 pr-3">Start first-line treatment per national guidance.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">MTB detected, RIF detected</td><td class="py-2 pr-3">Presumptive rifampicin-resistant TB (RR-TB).</td><td class="py-2 pr-3">Refer to a DR-TB centre. See section 7.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">MTB detected, RIF indeterminate</td><td class="py-2 pr-3">TB present; resistance could not be called. Seen with low bacillary loads and more often with Ultra.</td><td class="py-2 pr-3">Repeat on a new sample if resistance is suspected. Do not guess.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">MTB detected, trace</td><td class="py-2 pr-3">Very few bacilli, no RIF result.</td><td class="py-2 pr-3">Interpretation depends on the patient. See section 5.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">MTB not detected</td><td class="py-2 pr-3">No TB DNA in this sample.</td><td class="py-2 pr-3">Does not rule out TB. See section 4.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Invalid, error or no result</td><td class="py-2 pr-3">Test failed.</td><td class="py-2 pr-3">Repeat on a new specimen.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <strong>Performance in adults (Cochrane, against culture):</strong> Xpert Ultra sensitivity about 91% and specificity about 95% overall; sensitivity about 81% in smear-negative, culture-positive TB, about 88% in people living with HIV, and about 85% with specificity about 86% in people with a past history of TB. For rifampicin resistance, sensitivity about 96% and specificity about 98%. Use these figures to remember where the test is weakest: smear-negative disease, HIV and previous TB.
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pattern-recognition-smear-and-xpert-together" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Pattern Recognition: Smear and Xpert Together
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Smear</th><th class="py-2 pr-3">Xpert</th><th class="py-2 pr-3">Likely meaning and action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">MTB detected</td><td class="py-2 pr-3">Bacteriologically confirmed TB. Read the RIF result and start treatment.</td></tr>
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">MTB detected</td><td class="py-2 pr-3">Paucibacillary TB, typical in HIV, children and early disease. Treat as TB.</td></tr>
+      <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">MTB not detected</td><td class="py-2 pr-3">Think NTM, especially with chronic lung disease or advanced HIV, or a technical problem. Repeat Xpert on a new sample, send for culture and species identification, and review the chest X-ray. Do not dismiss the smear.</td></tr>
+      <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">MTB not detected</td><td class="py-2 pr-3">TB is less likely but not excluded. Where the chance of TB is high (above about 5%), a negative result does not rule it out. Check the chest X-ray, repeat on a fresh sample, and in advanced HIV add urine LF-LAM.</td></tr>
+      <tr><td class="py-2 pr-3">Any</td><td class="py-2 pr-3">Trace</td><td class="py-2 pr-3">Section 5.</td></tr>
+      <tr><td class="py-2 pr-3">Any</td><td class="py-2 pr-3">MTB detected, RIF detected</td><td class="py-2 pr-3">Presumptive RR-TB. Section 7.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="trace-results-who-gets-treated" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Trace Results: Who Gets Treated
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Trace is the lowest positive category on Ultra. It means a very small amount of <em>M. tuberculosis</em> DNA was found. It is common, and what it means depends on who the patient is.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Patient</th><th class="py-2 pr-3">How to read a trace result</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Person living with HIV, child, or extrapulmonary specimen</td><td class="py-2 pr-3">Treat as positive.</td></tr>
+      <tr><td class="py-2 pr-3">Adult not living with HIV, no TB treatment in the last 5 years</td><td class="py-2 pr-3">Treat as positive, with clinical review.</td></tr>
+      <tr><td class="py-2 pr-3">Adult whose TB treatment ended within the last 5 years</td><td class="py-2 pr-3">The result alone cannot be interpreted; dead bacilli can give a trace. Decide using symptoms, chest X-ray, culture where available and clinical judgement.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">A trace result carries no rifampicin result. If resistance is suspected (a contact of a DR-TB case, previous treatment failure), repeat on a new sample and send for culture and DST rather than assuming susceptibility. Do not run the same trace specimen on Xpert MTB/XDR, which has a higher detection limit and is expected to be negative.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: smear versus molecular test as the first test</strong>
+<p class="text-sm">WHO recommends a rapid molecular test, such as Xpert Ultra, as the initial test for TB rather than smear microscopy or culture, and its 2025 guidance adds concurrent testing of two specimen types in children and sputum NAAT plus urine LF-LAM in people living with HIV who are seriously ill or have advanced HIV disease. In Nigeria, GeneXpert access is uneven, and in many facilities smear microscopy is still what is on hand. If your facility has no Xpert, send the sample to the nearest GeneXpert site through the programme's sample transport network rather than settling for smear alone, especially in HIV, children and anyone with a negative smear but a convincing story. Follow the current NTBLCP algorithm where it differs from the summary above.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigeria" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Clinical Scenarios in Nigeria
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 38, cough for two months, tried antibiotics and agbo, smear negative twice</strong>
+  <p class="text-sm">Two negative smears do not close the question. Send a fresh sputum for Xpert, ask for a chest X-ray, and offer an HIV test. If Xpert detects MTB with no rifampicin resistance, start first-line treatment; the smear-negative, Xpert-positive result is typical of early or paucibacillary disease.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman living with HIV, CD4 below 200, febrile and wasted, Xpert not detected</strong>
+  <p class="text-sm">She is in the group in which sputum tests miss the most TB. Add urine LF-LAM where available, repeat Xpert on a new sample, and look for extrapulmonary disease. A positive on either test is enough to diagnose TB. Do not let a single negative sputum delay treatment if she is seriously ill and the clinical picture fits; discuss empirical treatment with the TB clinician.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child of 4 with weight loss and a TB contact at home</strong>
+  <p class="text-sm">Children rarely produce sputum and have few bacilli. Where possible, test two different specimen types (for example respiratory sample plus stool) on the molecular test at the same time. A negative first test in a high-risk child should be repeated on a new specimen, and the diagnosis is often clinical.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man treated for TB three years ago, cough again, Xpert trace</strong>
+  <p class="text-sm">Dead bacilli from the old episode may be giving the signal. Do not start treatment on the trace alone. Take a careful history and examine, request a chest X-ray, send sputum for culture, and if he is unwell or deteriorating, treat on clinical grounds while culture is pending.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient with neck stiffness and headache for weeks</strong>
+  <p class="text-sm">For suspected TB meningitis, CSF should go for Xpert rather than smear or culture alone. A negative CSF Xpert does not exclude TB meningitis; clinical suspicion and CSF chemistry guide treatment.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient of 52 with diabetes, on anti-TB drugs, smear still positive at month 2</strong>
+  <p class="text-sm">This is common and is not by itself failure. Check adherence, whether rifampicin resistance was excluded at baseline (if not, test now), diabetes control and HIV status. WHO no longer advises extending the intensive phase on the basis of a positive 2-month smear. Section 8 covers what to do at month 5.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-next" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+What to Do Next
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300 space-y-4">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Result</th><th class="py-2 pr-3">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">TB detected, rifampicin not detected</td><td class="py-2 pr-3">Start first-line treatment (the standard regimen is 2 months of isoniazid, rifampicin, pyrazinamide and ethambutol, then 4 months of isoniazid and rifampicin). Offer HIV testing, and check for diabetes, nutritional status and contacts.</td></tr>
+      <tr><td class="py-2 pr-3">TB detected, rifampicin detected</td><td class="py-2 pr-3">Treat as presumptive RR-TB. Refer to a DR-TB centre, collect a sputum sample for culture and DST, and arrange follow-on testing for isoniazid and fluoroquinolone resistance. Isolate the patient until reviewed. Where rifampicin resistance is very uncommon and the patient has no risk factors, repeat the test on a new sample before labelling resistance.</td></tr>
+      <tr><td class="py-2 pr-3">Trace</td><td class="py-2 pr-3">Act according to the patient group in section 5.</td></tr>
+      <tr><td class="py-2 pr-3">Not detected, low suspicion</td><td class="py-2 pr-3">Look for other causes, including pneumonia, bronchiectasis, lung cancer and NTM disease. Review in a week or two if symptoms persist.</td></tr>
+      <tr><td class="py-2 pr-3">Not detected, high suspicion</td><td class="py-2 pr-3">Repeat on a new sample, chest X-ray, culture if available, LF-LAM in advanced HIV, and clinical decision on empirical treatment.</td></tr>
+      <tr><td class="py-2 pr-3">Smear positive, Xpert not detected</td><td class="py-2 pr-3">Repeat Xpert, culture and identification to separate NTM from TB.</td></tr>
+      <tr><td class="py-2 pr-3">Invalid, error, no result</td><td class="py-2 pr-3">New sample. Do not report as negative.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: when to start treatment for rifampicin resistance</strong>
+<p class="text-sm">Some national laboratory material describes collecting a sputum sample for culture and first-line DST after a positive resistance result and before starting treatment. WHO's position is that the rapid rifampicin result is enough to begin an RR-TB regimen, with culture and further DST sent in parallel and not waited for. Follow the current NTBLCP guideline on the management of drug-resistant TB (all-oral regimens) and the instructions of your DR-TB centre.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="smear-follow-up-during-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Smear Follow-up During Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">For adults with pulmonary TB who were smear positive at diagnosis, smear is the tool for monitoring because it is cheap and available at the DOTS centre. Xpert is not used to monitor treatment, because it stays positive on dead bacilli.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">When</th><th class="py-2 pr-3">If smear is negative</th><th class="py-2 pr-3">If smear is positive</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">End of 2 months (intensive phase)</td><td class="py-2 pr-3">Move to the continuation phase.</td><td class="py-2 pr-3">Check adherence, HIV, diabetes and whether rifampicin resistance was excluded. Do not extend the intensive phase. Continue treatment.</td></tr>
+      <tr><td class="py-2 pr-3">Month 5</td><td class="py-2 pr-3">Continue to complete treatment.</td><td class="py-2 pr-3">Treatment failure. Test for rifampicin resistance with Xpert, send culture and DST, and refer.</td></tr>
+      <tr><td class="py-2 pr-3">End of treatment (month 6)</td><td class="py-2 pr-3">If also negative on at least one earlier occasion, the outcome is cured.</td><td class="py-2 pr-3">Failure if positive at month 5 or later.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Sample collection for these follow-up smears is a place where programmes lose patients. Remind the patient of the date, collect the sample while they are at the clinic for refills, and record the result in the register on the same day.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-and-sample-handling-errors" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Pitfalls and Sample Handling Errors
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before the laboratory</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Saliva, nasal secretions or a very small volume of sputum: false negatives for both smear and Xpert. Ask the laboratory to record the appearance of the sample.</li>
+    <li>Hot, slow transport: bacilli die, other organisms overgrow, and the result is unreliable. Keep samples cool and send them the same day.</li>
+    <li>Leaking or unlabelled containers, or the wrong name on a request form: a mislabelled positive sample can start the wrong patient on TB treatment.</li>
+    <li>Collecting sputum after the first doses of anti-TB drugs: smear and Xpert may be positive or negative for reasons unrelated to the original disease.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In the laboratory</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Smears prepared from saliva-rich portions instead of the purulent or blood-stained part; smears too thick to read through or too thin to be representative.</li>
+    <li>Staff preparing smears without a respirator (FFP2 or N95). Smear preparation produces infectious aerosols.</li>
+    <li>Fluorescence stains made with chlorinated water, or read after the stain has faded, produce false results.</li>
+    <li>Counting fewer fields than the grade requires, or confusing "scanty 3" with "3+".</li>
+    <li>Expired or badly stored Xpert cartridges, wrong sample-to-reagent ratio, short mixing time, or power interruptions: these cause errors, invalid results and false negatives. Follow the manufacturer's insert and the quality control programme.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In interpretation</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Treating a negative smear or a single "not detected" as proof of no TB in HIV, children or advanced disease.</li>
+    <li>Calling an Xpert-positive result in a patient treated within the past five years "relapse" without other evidence.</li>
+    <li>Using Xpert to monitor treatment response.</li>
+    <li>Assuming that "RIF not detected" means fully drug-susceptible. Isoniazid resistance is not tested by Ultra.</li>
+    <li>Repeating a test until it becomes negative so the diagnosis can be dropped.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Reading Order
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+  <li>Is this the right patient and a real sputum sample, handled properly?</li>
+  <li>Why was it sent: first diagnosis, or follow-up on treatment? (If follow-up, only smear or culture counts.)</li>
+  <li>MTB detected or not detected, and the smear grade or Xpert category.</li>
+  <li>Rifampicin result: not detected, detected or indeterminate.</li>
+  <li>Who is the patient: living with HIV, child, previous TB treatment in the last five years, contact of a DR-TB case?</li>
+  <li>Does the chest X-ray and clinical picture agree with the result?</li>
+  <li>Decide: treat first-line, treat as RR-TB, repeat, culture or investigate further.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-sm text-rose-900 dark:text-rose-200">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Rifampicin resistance detected.</strong> Standard first-line treatment alone will fail and can amplify resistance. Refer to a DR-TB centre.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Smear positive at month 5 or later.</strong> This defines treatment failure. Test for resistance and refer.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Negative test in a seriously ill person living with HIV.</strong> Sputum tests miss much of the TB in this group. Add LF-LAM and consider empirical treatment.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Trace in a person living with HIV or in a child.</strong> Treat. Do not wait for repeat testing.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Smear positive but Xpert not detected.</strong> NTM or a technical failure. Repeat and culture before accepting either answer.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Child with a single negative test and a known contact.</strong> Repeat on a new specimen and rely on the clinical assessment.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infectious patient in a shared space.</strong> A positive smear or Xpert means the patient should cough into a cloth or tissue, sit in an open area and begin treatment without delay.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-sm text-indigo-950 dark:text-indigo-100">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Xpert is the first-line test; smear is for follow-up and where Xpert is out of reach. A negative smear never closes the question.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A good sputum sample, collected properly and delivered quickly, matters more than the machine.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ultra is more sensitive than the older Xpert MTB/RIF but less specific, especially in people treated for TB in the last five years. Read trace results by patient group.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Rifampicin resistance on Xpert means presumptive RR-TB: refer and do not use first-line drugs alone. "RIF not detected" does not mean the strain is fully susceptible.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Monitor treatment with smear at 2 months, 5 months and the end of treatment; a positive smear at 5 months or later is failure. Do not use Xpert for monitoring.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In HIV and in children, sputum tests miss disease. Use LF-LAM, test a second specimen type, or treat on clinical grounds when the picture fits.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-8">
+<summary class="cursor-pointer list-none flex items-center justify-between p-4 font-brand text-sm font-semibold text-stone-700 dark:text-stone-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization. WHO consolidated guidelines on tuberculosis. Module 3: diagnosis. Geneva: WHO; 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. WHO operational handbook on tuberculosis. Module 3: diagnosis, fourth edition. Geneva: WHO; 2025 (Xpert result interpretation, trace results, concurrent testing, LF-LAM).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. World Health Organization and International Union Against Tuberculosis and Lung Disease. Sputum smear grading scale for Ziehl-Neelsen and fluorescence microscopy, as set out in WHO-aligned laboratory procedures.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Cochrane Collaboration. Xpert Ultra versus Xpert MTB/RIF for pulmonary tuberculosis and rifampicin resistance in adults with presumptive pulmonary tuberculosis (updated systematic review).</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. World Health Organization. Updated guidance on interpretation of Xpert MTB/RIF Ultra trace results, 2020, as carried forward in the 2025 operational handbook.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. World Health Organization. WHO consolidated guidelines on tuberculosis. Module 4: treatment (drug-susceptible TB), including the recommendation against extending the intensive phase for a positive 2-month smear.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. World Health Organization. Definitions and reporting framework for tuberculosis (cure, treatment completed, treatment failure).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Federal Ministry of Health, National Tuberculosis and Leprosy Control Programme (NTBLCP), Nigeria. National SOPs for TB laboratory diagnosis; National guidelines for culture and drug susceptibility testing; National guidelines for clinical and programmatic management of drug-resistant tuberculosis in Nigeria.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'lab-urinalysis-dipstick',
+  title: 'Urinalysis Dipstick',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Nephrology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urinalysis Dipstick: Proteinuria, Glycosuria and UTI Markers</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.font-brand { font-family: Georgia, 'Times New Roman', serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation &middot; Nephrology</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Urinalysis Dipstick: Proteinuria, Glycosuria and UTI Markers</h1>
+  <p class="text-sm text-indigo-200">In most Nigerian primary care and antenatal clinics, the urine dipstick is the only urine test available, and it is read at every visit. It is quick and cheap, but it is a screening tool with real blind spots. This guide shows how to read each pad, how to use proteinuria in suspected pre-eclampsia (and when a negative strip must not reassure you), what glycosuria does and does not mean, why leukocyte esterase and nitrite miss and mislead, and which sample and strip errors cause the most wrong decisions.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-the-dipstick-reflects" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What the Dipstick Reflects</span></a></li>
+  <li><a href="#getting-a-good-sample-and-strip-reading" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Getting a Good Sample and Strip Reading</span></a></li>
+  <li><a href="#reading-each-pad" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Reading Each Pad</span></a></li>
+  <li><a href="#proteinuria-in-pre-eclampsia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Proteinuria in Pre-eclampsia</span></a></li>
+  <li><a href="#glycosuria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Glycosuria</span></a></li>
+  <li><a href="#blood-in-the-urine-common-local-causes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Blood in the Urine: Common Local Causes</span></a></li>
+  <li><a href="#leukocyte-esterase-and-nitrite-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Leukocyte Esterase and Nitrite: Pitfalls</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigeria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Clinical Scenarios in Nigeria</span></a></li>
+  <li><a href="#what-to-do-next" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>What to Do Next</span></a></li>
+  <li><a href="#pitfalls-and-sample-handling-errors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Pitfalls and Sample Handling Errors</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-the-dipstick-reflects" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What the Dipstick Reflects
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A reagent strip is a row of small chemical pads. Each pad changes colour when urine contains its target, and you compare the colour with the chart on the bottle at a set time. The result is semi-quantitative (negative, trace, 1+, 2+ and so on). It shows chemistry, not cells or bacteria, and it is affected by how concentrated the urine is.</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Protein</strong> pad: reacts mainly to albumin. It can miss other proteins such as Bence-Jones protein.</li>
+  <li><strong>Glucose</strong> pad: specific for glucose (glucose oxidase). It tells you the blood glucose went above the kidney threshold, not what the blood glucose is now.</li>
+  <li><strong>Blood</strong> pad: reacts to haemoglobin, so it is positive for red cells, free haemoglobin and myoglobin.</li>
+  <li><strong>Leukocyte esterase (LE)</strong> pad: detects an enzyme from white cells, so it points to pyuria, including lysed white cells that microscopy would not show.</li>
+  <li><strong>Nitrite</strong> pad: positive only when bacteria have converted urinary nitrate to nitrite.</li>
+  <li><strong>Ketone, bilirubin, urobilinogen, pH and specific gravity</strong> pads: supporting information on metabolic state, liver or haemolysis, and how dilute the urine is.</li>
+</ul>
+<p class="text-sm">The dipstick never diagnoses by itself. It tells you what to do next: quantify protein, check a blood glucose, send a culture, or look for another cause.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="getting-a-good-sample-and-strip-reading" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Getting a Good Sample and Strip Reading
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>Use a clean, dry, wide-mouthed container, never a reused bottle that may hold traces of disinfectant, bleach or soap.</li>
+  <li>Ask for a clean-catch midstream sample. For women, separate the labia, wipe front to back with water, and pass the first part of the stream into the toilet. In pregnancy and after delivery, vaginal discharge, menstrual blood and lochia are the commonest contaminants, and they cause false protein, blood and LE results.</li>
+  <li>Test fresh urine, within about an hour if possible. If it must wait, keep it cool and covered. Old urine grows bacteria, turns alkaline, loses glucose and ketones, and can give a false nitrite.</li>
+  <li>Dip the strip fully and briefly, run the edge along the container rim, and blot the edge on absorbent paper so urine does not run from one pad to the next.</li>
+  <li>Read each pad at the time printed on the bottle. Reading too early gives false negatives, especially for LE. Reading too late lets colours drift.</li>
+  <li>Keep the strip bottle tightly closed, dry and within its expiry date, and never touch the pads. Strips left exposed to air deteriorate and give false results.</li>
+  <li>Record the specific gravity. Very concentrated urine (early morning, dehydration) can give a trace of protein that means little, and very dilute urine can hide a real positive.</li>
+  <li>Ask about vitamin C or multivitamin tablets, antibiotics, and any drug that colours the urine (such as phenazopyridine). Also ask about herbal ("agbo") preparations, which can colour urine and, in some cases, injure the kidney.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-each-pad" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Reading Each Pad
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300 space-y-3">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pad</th><th class="py-2 pr-3">Normal</th><th class="py-2 pr-3">A positive suggests</th><th class="py-2 pr-3">Common false results</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-semibold">Protein</td><td class="py-2 pr-3">Negative (a trace can be normal in concentrated urine)</td><td class="py-2 pr-3">Pre-eclampsia, glomerular or other kidney disease, infection, fever, exertion</td><td class="py-2 pr-3">False positive: alkaline urine (pH above 9), contaminating disinfectants (quaternary ammonium, chlorhexidine), coloured drugs, blood or vaginal contamination. False negative: dilute urine, non-albumin proteins.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Glucose</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Blood glucose above the renal threshold, lowered threshold in pregnancy, SGLT2 inhibitor drugs, renal glycosuria</td><td class="py-2 pr-3">False positive: bleach or other oxidising agents in the container. False negative: vitamin C, high ketones, high specific gravity, urine left standing.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Blood</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Haematuria, haemoglobinuria (haemolysis), myoglobinuria</td><td class="py-2 pr-3">False positive: oxidising agents, microbial peroxidases, menstrual or lochial blood. False negative: vitamin C, high specific gravity, high nitrite.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Leukocyte esterase</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Pyuria from UTI or other inflammation</td><td class="py-2 pr-3">See section 7.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Nitrite</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Nitrate-reducing bacteria, usually coliforms</td><td class="py-2 pr-3">See section 7.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Ketones</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Starvation, vomiting, diabetic ketoacidosis, prolonged labour</td><td class="py-2 pr-3">False negative: urine left standing (ketones are lost). The pad responds mainly to acetoacetate, so it can understate ketosis. False positive: some sulfhydryl drugs and strongly pigmented urine.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Bilirubin</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Conjugated hyperbilirubinaemia: hepatitis, biliary obstruction</td><td class="py-2 pr-3">False negative: vitamin C, light exposure, old urine. Coloured urine can mask the result.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Urobilinogen</td><td class="py-2 pr-3">Normal trace</td><td class="py-2 pr-3">Haemolysis or liver disease (increased); the pad cannot reliably show absence</td><td class="py-2 pr-3">Oxidises on standing; affected by nitrite and other Ehrlich-reactive substances.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">pH</td><td class="py-2 pr-3">Roughly 5 to 8</td><td class="py-2 pr-3">Alkaline after standing or urea-splitting bacteria (above 8)</td><td class="py-2 pr-3">Old, bacterially overgrown samples drift alkaline.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Specific gravity</td><td class="py-2 pr-3">Roughly 1.003 to 1.030</td><td class="py-2 pr-3">Concentrated or dilute urine</td><td class="py-2 pr-3">Raised by proteinuria and some contrast agents; low reading in alkaline urine.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs">Normal ranges are typical; use the chart on your strip brand and your laboratory's own limits. Strips differ in the concentration each grade represents, so a 2+ on one brand is not identical to a 2+ on another.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="proteinuria-in-pre-eclampsia" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Proteinuria in Pre-eclampsia
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Pre-eclampsia is new hypertension (140/90 mmHg or above) from 20 weeks of pregnancy, together with proteinuria or with other signs of organ dysfunction. Urine protein is the most common supporting finding, but the dipstick is a weak way to measure it.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What counts as significant proteinuria</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Method</th><th class="py-2 pr-3">Threshold</th><th class="py-2 pr-3">Comment</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3 font-semibold">Spot urine protein:creatinine ratio (PCR)</td><td class="py-2 pr-3">30 mg/mmol or above (ISSHP, NICE); 0.30 or above in mg/mg (ACOG)</td><td class="py-2 pr-3">The preferred test. Same cut-off in different units. A single spot sample is enough.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Albumin:creatinine ratio (ACR)</td><td class="py-2 pr-3">8 mg/mmol or above</td><td class="py-2 pr-3">Accepted alternative (ISSHP, NICE).</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">24-hour urine</td><td class="py-2 pr-3">300 mg (0.3 g) or more per day</td><td class="py-2 pr-3">No advantage over PCR in routine use, slow, and often incomplete. Keep for special questions.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Dipstick</td><td class="py-2 pr-3">2+ (about 1 g/L) or more</td><td class="py-2 pr-3">Use as the diagnostic result only when PCR, ACR or 24-hour testing is not available.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How good is the dipstick?</strong>
+  <p class="text-sm">Poor. A pooled analysis of protein-only dipsticks in hypertensive pregnant women found sensitivity of about 68% and specificity of about 85% at the 1+ threshold, and the authors concluded that the strip performs badly at excluding pre-eclampsia. ACOG reports that a 1+ reading was falsely positive in about 71% of cases compared with a 24-hour collection, with about 9% false negatives. ISSHP states that dipstick testing is neither sensitive nor specific at 1+. A PCR can also read falsely low when protein loss is small (below about 400 mg a day).</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Four points that change practice</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>Proteinuria is not required for the diagnosis.</strong> It is present in up to about 75% of women with pre-eclampsia. New hypertension at 20 weeks or more plus another organ problem is enough: a severe headache, visual disturbance or clonus, pulmonary oedema, platelets below 150,000/&micro;L, raised creatinine or liver enzymes, epigastric or right upper quadrant pain, placental abruption, or fetal growth restriction.</li>
+    <li><strong>The amount of protein does not grade severity.</strong> ISSHP and ACOG both say that proteinuria is not independently predictive of maternal outcome and that a rising reading should not on its own drive delivery decisions. Do not repeat quantification once pre-eclampsia is diagnosed.</li>
+    <li><strong>Trigger for quantification.</strong> A reading of 1+ or more with a rising blood pressure, or a normal blood pressure with symptoms or signs, should lead to a PCR or ACR if one is available. In gestational hypertension, repeat the urine protein test at each antenatal visit.</li>
+    <li><strong>Proteinuria without hypertension</strong> usually does not become pre-eclampsia (at least two-thirds do not), so look for urine infection, contamination, and kidney disease before labelling it.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A practical approach where only dipsticks exist</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Finding (20 weeks or later)</th><th class="py-2 pr-3">Action</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">BP 140/90 or above, dipstick 2+ or more, no sign of infection or contamination</td><td class="py-2 pr-3">Treat as pre-eclampsia. Refer to a facility that can give magnesium sulfate, control blood pressure and deliver if needed. Do not wait for a 24-hour collection.</td></tr>
+        <tr><td class="py-2 pr-3">BP 140/90 or above, dipstick trace or 1+</td><td class="py-2 pr-3">Repeat on a clean midstream sample and recheck the BP after rest. Ask about headache, visual symptoms, epigastric pain and fetal movements. Quantify (PCR or ACR) if possible. Low threshold to refer.</td></tr>
+        <tr><td class="py-2 pr-3">BP 140/90 or above, dipstick negative</td><td class="py-2 pr-3">Do not reassure. Look for other organ involvement and refer for blood tests (platelets, creatinine, liver enzymes) if any symptom or sign is present. Repeat the BP and urine at the next visit, sooner if unwell.</td></tr>
+        <tr><td class="py-2 pr-3">Normal BP, dipstick 1+ or more</td><td class="py-2 pr-3">Repeat on a clean sample. Look for urine infection. Recheck BP at every visit. Advise to report headache, visual change or swelling of the face and hands.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<p class="text-sm">Remember the false-positive causes that mimic pre-eclampsia: a urine infection, blood or vaginal discharge in the sample, highly alkaline urine, and disinfectant in the container. Check the LE and nitrite pads and the sample quality before you act on the protein pad alone, but do not use a clean-looking infection screen as a reason to ignore a raised blood pressure.</p>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: dipstick thresholds and severity labels</strong>
+<p class="text-sm">ISSHP and ACOG accept a dipstick of 2+ as diagnostic only where quantitative testing is unavailable, while NICE uses 1+ or more as the trigger to measure PCR or ACR. Guidelines also differ on labels: ACOG separates pre-eclampsia with and without severe features, whereas ISSHP advises against calling a pregnancy "mild" or "severe" while it is ongoing. Check which framework your facility or the Federal Ministry of Health protocol follows, and follow it for referral criteria.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="glycosuria" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Glycosuria
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Glucose appears in the urine when blood glucose is above the renal threshold, normally around 10 mmol/L. So a positive glucose pad tells you glucose was high at some point since the bladder last emptied. It does not give today's blood glucose, and a negative pad does not rule out diabetes, because a person can have a raised glucose below the threshold.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Causes of a positive glucose pad</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Diabetes or impaired glucose tolerance (the usual cause), including undiagnosed diabetes in adults who come with another complaint.</li>
+    <li>Pregnancy: increased kidney blood flow lowers the renal threshold, so small amounts of glucose in the urine can be normal. It should still not be dismissed.</li>
+    <li>A large sugary meal, acute illness and stress, and corticosteroids (or steroid-containing herbal or over-the-counter preparations), thyrotoxicosis, Cushing's syndrome.</li>
+    <li>SGLT2 inhibitor drugs, which cause glycosuria by design, with a normal or lower blood glucose.</li>
+    <li>Renal glycosuria (a rare inherited tubular defect) and other tubular disorders, where blood glucose is normal.</li>
+    <li>False positives from bleach or other oxidising agents in the container.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Glycosuria in pregnancy</strong>
+  <p class="text-sm">The urine strip is a poor screening test for gestational diabetes. In studies reviewed, sensitivity ranged from about 7% to 36% depending on the threshold and timing, so most women who go on to have gestational diabetes have a negative strip. The same studies found no evidence that finding glycosuria earlier improved outcomes. A positive result is worth acting on, but it does not replace a blood glucose test. Diagnosis rests on blood glucose testing following the national or facility protocol. A negative strip must never be used to skip that test in a woman who has risk factors (previous large baby, family history, obesity, previous gestational diabetes, unexplained stillbirth).</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Glycosuria with ketonuria</strong>
+  <p class="text-sm">Together they mean uncontrolled diabetes until proven otherwise, particularly with thirst, polyuria, weight loss, vomiting or drowsiness. Check a blood glucose and blood or serum ketones straight away. In pregnancy, isolated ketonuria also follows vomiting, fasting or prolonged labour, so read it with the history.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="blood-in-the-urine-common-local-causes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Blood in the Urine: Common Local Causes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Urogenital schistosomiasis (<em>Schistosoma haematobium</em>):</strong> think of it in a school-age child or young adult who has bathed or fished in rivers, ponds or dams, with visible or microscopic haematuria, often at the end of the stream. Reagent-strip haematuria is the usual field screen. A Nigerian diagnostic study found microhaematuria the most sensitive strip marker (about 71%) and visible haematuria highly specific. Confirm by finding eggs in urine collected around midday after exercise.</li>
+  <li><strong>Haemoglobinuria:</strong> a positive blood pad with no red cells on microscopy and dark, tea-coloured urine means haemolysis (G6PD deficiency after a trigger drug or fava beans, sickle cell crisis, severe malaria, transfusion reaction). This needs an urgent haemoglobin, film and malaria test.</li>
+  <li><strong>Urinary tract infection and stones</strong> cause haematuria along with LE or pain.</li>
+  <li><strong>Contamination:</strong> menstrual blood, lochia and vaginal bleeding give a false blood positive.</li>
+  <li><strong>Persistent unexplained haematuria in an adult</strong> needs proper evaluation (microscopy, kidney function, imaging); it should not be explained away as "infection".</li>
+  <li><strong>Vitamin C</strong> can hide a real positive.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="leukocyte-esterase-and-nitrite-pitfalls" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Leukocyte Esterase and Nitrite: Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why nitrite misses infection</strong>
+  <p class="text-sm">Nitrite is only made by bacteria that reduce nitrate, mainly <em>E. coli</em>, <em>Klebsiella</em> and <em>Proteus</em>. Organisms that do not, such as <em>Enterococcus</em>, <em>Pseudomonas</em> and <em>Acinetobacter</em>, give a negative strip. The urine also has to stay in the bladder long enough, around 4 to 6 hours, so a person who passes urine every hour or two (pregnant women, young children, people on diuretics, and anyone with severe frequency) can be nitrite-negative with real infection. Other causes of a false negative: a low-nitrate diet, urine that is very concentrated or acidic (pH below 6), vitamin C, and antibiotics. Nitrite is highly specific (above 91% in the source reviewed) but insensitive (below about 49%).</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why LE misleads</strong>
+  <p class="text-sm">LE shows white cells, not bacteria. It is falsely negative if read too early, in very concentrated urine, with glucose, protein, ketones or vitamin C in the urine, after some antibiotics (cefalexin, nitrofurantoin, tetracycline, gentamicin), and with some organisms such as <em>Enterococcus</em>. It is positive without a positive culture (sterile pyuria) with vaginal contamination, chlamydia and other sexually transmitted infections, urinary tuberculosis, stones, a catheter or foreign body, glomerulonephritis, bladder tumours and some drugs. In Nigeria, remember tuberculosis of the urinary tract when LE is positive on repeated samples, culture is negative and the patient is unwell.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Combinations</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">LE</th><th class="py-2 pr-3">Nitrite</th><th class="py-2 pr-3">Interpretation</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">UTI very likely if there are symptoms. Send culture before antibiotics if possible.</td></tr>
+        <tr><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">UTI with a non-nitrite-forming organism, or sterile pyuria. Symptoms, microscopy and culture decide.</td></tr>
+        <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Positive</td><td class="py-2 pr-3">Bacteria present with few white cells (early infection) or an old or contaminated sample. Repeat on a fresh midstream sample.</td></tr>
+        <tr><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Negative</td><td class="py-2 pr-3">Lowers the chance of UTI but does not exclude it, especially in pregnancy and with strong symptoms.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  <strong>In pregnant women (asymptomatic bacteriuria):</strong> one study that compared strips with culture reported LE sensitivity of 50% (specificity 89%) and nitrite sensitivity of 36% (specificity 98%). Counting either pad as positive raised sensitivity to about 71%, and requiring both fell to about 23%. Many infections are missed, and many positives are not bacteriuria.
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnancy and screening</strong>
+  <p class="text-sm">Bacteria in the urine without symptoms still matter in pregnancy, because untreated they can lead to pyelonephritis and preterm birth. Guidance recommends a midstream urine culture at the first antenatal visit rather than a dipstick, and states that LE and nitrite are not sensitive enough for screening. A positive culture is treated with a short course of an antibiotic chosen from the sensitivity result and judged safe in pregnancy, and a repeat culture is done after treatment. Where culture is unavailable, use the dipstick as a backup, but do not let a negative strip reassure you.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Outside pregnancy</strong>
+  <p class="text-sm">A positive strip in a person without urinary symptoms, such as an older adult or a catheterised patient, usually means asymptomatic bacteriuria. Screening and treating it in non-pregnant adults is generally not recommended. Treat the symptoms and the clinical picture, not the strip.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: dipstick for bacteriuria in pregnancy</strong>
+<p class="text-sm">WHO's 2016 antenatal care recommendations favour a midstream urine culture, put on-site Gram stain ahead of the dipstick where culture is unavailable, and accept that dipstick may be used in low-resource settings where Gram staining is impractical. Scottish national guidance goes further and says dipstick LE or nitrite should not be used as a screening test. In Nigeria, access to culture is limited, so use the strip as a fallback and send a culture whenever the woman is symptomatic, has fever, or the strip is positive and a laboratory is within reach.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigeria" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Clinical Scenarios in Nigeria
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First pregnancy, 30 weeks, booked late, BP 150/100, dipstick 2+</strong>
+  <p class="text-sm">Confirm the BP after rest with the right cuff size, make sure the sample is clean, and check LE and nitrite. If there is no infection, this is pre-eclampsia. Refer to a facility able to give magnesium sulfate and deliver. Do not hold her for a 24-hour collection and do not use the amount of protein to judge urgency.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">BP 150/100, dipstick negative, but severe headache and blurred vision</strong>
+  <p class="text-sm">A negative strip does not exclude pre-eclampsia. Headache and visual symptoms are organ involvement. Treat as pre-eclampsia and refer urgently.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Normal BP at 34 weeks, dipstick 1+ protein and positive LE</strong>
+  <p class="text-sm">Probably infection or contamination. Repeat on a clean midstream sample, culture if possible, treat any proven infection, and recheck the BP and urine at each visit. Teach her to report headache, visual change and swelling.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Glycosuria 1+ at 20 weeks, no symptoms</strong>
+  <p class="text-sm">Common and often physiological in pregnancy, because the renal threshold is lower. Do not diagnose diabetes from the strip, and do not dismiss it. Arrange a blood glucose test according to your protocol, sooner if she has risk factors.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnant woman with dysuria and frequency, LE positive, nitrite negative</strong>
+  <p class="text-sm">She probably has a UTI. The nitrite is often negative in frequency and with non-coliform organisms. Send a culture, start an antibiotic that is safe in pregnancy, and review. Fever, loin pain or vomiting suggests pyelonephritis and needs referral.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Boy of 11 from a riverside community with terminal haematuria</strong>
+  <p class="text-sm">Blood pad positive (or visible blood), usually little protein. Think of <em>S. haematobium</em>. Send urine for egg microscopy and refer for praziquantel through the programme.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 52 with weight loss, thirst, glycosuria 3+ and ketones</strong>
+  <p class="text-sm">Check a blood glucose and ketones now. Do not wait for outpatient review.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with dark urine and pallor after a fever and antimalarial</strong>
+  <p class="text-sm">Blood pad positive but no red cells on microscopy suggests haemoglobinuria. Look for haemolysis (G6PD deficiency, severe malaria), check Hb, malaria test and film, and refer if unwell.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-next" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+What to Do Next
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Dipstick result</th><th class="py-2 pr-3">Confirm with</th><th class="py-2 pr-3">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Protein 1+ or more with high BP in pregnancy</td><td class="py-2 pr-3">PCR or ACR; clean repeat</td><td class="py-2 pr-3">Section 4 table. Refer.</td></tr>
+      <tr><td class="py-2 pr-3">Protein positive, non-pregnant, persistent</td><td class="py-2 pr-3">PCR or ACR, creatinine, BP, blood glucose, HIV and hepatitis tests where indicated</td><td class="py-2 pr-3">Look for kidney disease; refer if heavy, with swelling, or with raised creatinine.</td></tr>
+      <tr><td class="py-2 pr-3">Glucose positive</td><td class="py-2 pr-3">Blood glucose (fasting or random per protocol)</td><td class="py-2 pr-3">Treat or refer by the result. In pregnancy, follow the gestational diabetes pathway.</td></tr>
+      <tr><td class="py-2 pr-3">Glucose and ketones positive</td><td class="py-2 pr-3">Blood glucose and ketones</td><td class="py-2 pr-3">Treat as possible ketoacidosis. Refer.</td></tr>
+      <tr><td class="py-2 pr-3">LE and nitrite positive with symptoms</td><td class="py-2 pr-3">Midstream culture</td><td class="py-2 pr-3">Treat; review with culture result.</td></tr>
+      <tr><td class="py-2 pr-3">LE or nitrite positive, pregnant</td><td class="py-2 pr-3">Midstream culture</td><td class="py-2 pr-3">Treat bacteriuria with a pregnancy-safe course guided by culture; repeat culture after treatment.</td></tr>
+      <tr><td class="py-2 pr-3">LE positive, nitrite negative, culture negative</td><td class="py-2 pr-3">Microscopy, STI screen, urine for AFB where TB is suspected</td><td class="py-2 pr-3">Look for sterile pyuria causes.</td></tr>
+      <tr><td class="py-2 pr-3">Blood positive</td><td class="py-2 pr-3">Microscopy; Hb, film and malaria test if dark urine; egg microscopy in endemic area</td><td class="py-2 pr-3">Treat the cause; refer persistent unexplained haematuria.</td></tr>
+      <tr><td class="py-2 pr-3">Bilirubin positive</td><td class="py-2 pr-3">Liver function tests, hepatitis B and C tests</td><td class="py-2 pr-3">Assess for hepatitis or biliary obstruction.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-and-sample-handling-errors" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Pitfalls and Sample Handling Errors
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before the strip</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Urine left standing for hours: bacteria multiply, pH rises above 8, glucose and ketones fall, bilirubin and urobilinogen degrade, and nitrite can turn falsely positive.</li>
+    <li>Containers washed with bleach, disinfectant or soap: oxidising agents cause false glucose and blood positives, and quaternary ammonium or chlorhexidine can give a false protein reading.</li>
+    <li>Contaminated samples (vaginal discharge, menstrual blood, lochia): false protein, blood and LE.</li>
+    <li>Vitamin C tablets, or a diet rich in vitamin C: false-negative glucose, blood, LE and nitrite.</li>
+    <li>Antibiotics already taken: lower LE and nitrite, so a negative strip can follow a partial treatment.</li>
+    <li>Coloured urine (phenazopyridine, beetroot, some herbal products): false positives, or colours that cannot be read correctly.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">At the strip</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Strips that are expired, damp, or kept with the cap off.</li>
+    <li>Reading pads too early or too late, or in poor light.</li>
+    <li>Urine running from pad to pad because the edge was not blotted.</li>
+    <li>Judging one grade as if it were a number: grades differ between brands and are not interchangeable with PCR.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In interpretation</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Relying on a negative protein strip to exclude pre-eclampsia, or using protein grade to say how severe it is.</li>
+    <li>Diagnosing diabetes or gestational diabetes from glycosuria, or using a negative strip to skip a blood glucose test.</li>
+    <li>Treating a positive strip in a symptom-free adult who is not pregnant.</li>
+    <li>Reassuring a pregnant woman on a negative LE and nitrite.</li>
+    <li>Calling dark urine "infection" without checking the blood pad, microscopy and the history of haemolysis.</li>
+    <li>Reading urine protein at the same time as a UTI and forgetting to repeat after treatment.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Reading Order
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+  <li>Is the sample clean, fresh and in a clean container, and is the strip in date and read on time?</li>
+  <li>Check specific gravity and pH: is the urine very dilute, very concentrated, or alkaline from standing?</li>
+  <li>Ask about vitamin C, antibiotics and coloured drugs or herbs, which change several pads at once.</li>
+  <li>Protein: read it with the blood pressure and gestation, not on its own.</li>
+  <li>Blood, LE and nitrite together: infection, haemolysis, bleeding or contamination.</li>
+  <li>Glucose and ketones: diabetes, pregnancy threshold, vomiting or fasting.</li>
+  <li>Bilirubin and urobilinogen: liver disease or haemolysis.</li>
+  <li>Decide, then confirm with the right test (PCR or ACR, blood glucose, culture, microscopy).</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-sm text-rose-900 dark:text-rose-200">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Raised BP after 20 weeks with a negative strip.</strong> Up to a quarter of pre-eclampsia has no proteinuria. Headache, visual symptoms, epigastric pain or reduced fetal movements mean refer.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hypertension in pregnancy with protein 2+ or more.</strong> Treat as pre-eclampsia and refer without waiting for a 24-hour collection.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Glycosuria with ketonuria in an unwell person.</strong> Possible ketoacidosis. Check blood glucose and ketones at once.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Positive blood pad with dark urine and no red cells.</strong> Haemolysis (G6PD deficiency, malaria, sickle crisis). Check Hb, film and malaria test.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pregnant woman with LE or nitrite positive, fever, loin pain or vomiting.</strong> Possible pyelonephritis. Culture and refer.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Negative dipstick in a pregnant woman at the first visit.</strong> It does not exclude asymptomatic bacteriuria. Culture where possible.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Persistent LE with sterile cultures.</strong> Think of urinary tuberculosis and sexually transmitted infection.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Haematuria in a child from an endemic area, or persistent unexplained haematuria in an adult.</strong> Test for schistosomiasis and investigate further.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-sm text-indigo-950 dark:text-indigo-100">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The dipstick is a screening tool. Sample quality, strip handling and timing decide whether a result can be trusted.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Significant proteinuria in pregnancy is a PCR of 30 mg/mmol (0.30 mg/mg) or more, ACR of 8 mg/mmol or more, or 300 mg a day. Use dipstick 2+ only when nothing better exists, and quantify any 1+ with a raised or rising BP when you can.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pre-eclampsia can occur without proteinuria, and the amount of protein does not grade severity. A negative strip with symptoms must not reassure.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Glycosuria reflects blood glucose above a threshold that falls in pregnancy. It neither diagnoses nor excludes diabetes. Use blood glucose.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Nitrite is specific but insensitive and LE is non-specific. A negative pair does not exclude UTI, and in pregnancy culture is the preferred screen.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Think locally: schistosomiasis, haemolysis from G6PD deficiency or malaria, and urinary TB can all show up first on a strip.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-8">
+<summary class="cursor-pointer list-none flex items-center justify-between p-4 font-brand text-sm font-semibold text-stone-700 dark:text-stone-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. International Society for the Study of Hypertension in Pregnancy (ISSHP). The hypertensive disorders of pregnancy: 2021 classification, diagnosis and management recommendations for international practice.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. American College of Obstetricians and Gynecologists. Gestational hypertension and preeclampsia. ACOG Practice Bulletin No. 222.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. National Institute for Health and Care Excellence (NICE). Hypertension in pregnancy: diagnosis and management. NG133, 2019.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Systematic review and meta-analysis of the diagnostic accuracy of protein-only urine dipsticks for proteinuria in hypertensive pregnancy.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. World Health Organization. Recommendations on antenatal care for a positive pregnancy experience. Geneva: WHO; 2016 (asymptomatic bacteriuria).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. NHS Scotland. Bacteriuria in pregnancy, 2023 (screening, treatment and test of cure).</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Cross-sectional study of urine leukocyte esterase and nitrite strips against culture for asymptomatic bacteriuria in pregnancy (BMC Research Notes, 2014).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Evidence review of routine urine glucose and protein screening in pregnancy (Journal of Family Practice).</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Clinical reference summaries on glycosuria, the renal threshold, and the mechanisms and interferences of urine nitrite and leukocyte esterase tests; laboratory tables of causes of false-positive and false-negative dipstick results.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Diagnostic accuracy study of urine test strips for urogenital schistosomiasis, Kwara State, Nigeria.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
 
 ];

@@ -3,6 +3,3198 @@ import { Template } from '../../types';
 export const PEDIATRICS_TEMPLATES: Template[] = [
 
   {
+    id: 'peds-117',
+    title: 'Nutritional Rickets with Suspected Iron Deficiency Anaemia and Moderate Acute Malnutrition in a 24-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Nutritional Rickets with Suspected Iron Deficiency Anaemia and Moderate Acute Malnutrition',
+    symptoms: [
+      'Progressive bowing of the lower limbs',
+      'Delayed standing and walking',
+      'Widening of the wrists and ankles',
+      'Generalized weakness',
+      'Pallor and reduced activity'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 24-month-old boy presents with 6 months of progressive bowing of the lower limbs, delayed attainment of standing and walking, and 2 months of increasing pallor and reduced activity. His diet is predominantly carbohydrate-based, with minimal intake of protein and micronutrient-rich foods and limited sunlight exposure. Examination reveals significant pallor, frontal bossing, a widened anterior fontanelle, rachitic rosary, Harrison’s sulcus, a pot-bellied appearance, widened wrists and ankles, genu varum, and generalized hypotonia. The assessment is nutritional rickets, suspected iron deficiency anaemia, and moderate acute malnutrition.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Master O.A.
+  Age: 24 months
+  Sex: Male
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Abnormal shape of the legs x 6/12
+  2. Delay in walking x 6/12
+  3. Body weakness and paleness x 2/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 6 months ago when the mother noticed an outward bowing of the lower limbs. This has been progressively worsening over the months. Mother also observed associated swellings at the wrists and ankles. There is no history of bone pain, fractures, or trauma to the limbs. The child achieved sitting at 8 months and crawling at 11 months but currently cannot stand or walk without support.
+  
+  He was also noted to be increasingly pale and less active over the last 2 months. There is no history of pica, jaundice, or bleeding from any site. No history of chronic cough, evening pyrexia, or contact with a person with chronic cough.
+  
+  Nutritional history reveals the child is predominantly fed on maize pap (akamu) and tubers with very minimal intake of animal protein, milk, or green leafy vegetables. Sunlight exposure is poor as the child stays indoors most of the day with the mother at her shop.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous hospitalizations or blood transfusions.
+  No known drug allergies.
+  
+  BIRTH HISTORY
+  
+  Term delivery via SVD at a private facility. Birth weight was 2.9 kg. No neonatal jaundice or respiratory distress.
+  Exclusively breastfed for 3 months, thereafter started on watery pap.
+  
+  DIETARY HISTORY
+  
+  Current diet is mainly carbohydrate-based (yam, cassava, maize). Frequency of feeding is 3 times a day but quantity is small. Lacks adequate protein and micronutrient sources.
+  
+  IMMUNIZATION HISTORY
+  
+  Completed up to 9 months per NPI schedule. BCG scar is present.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Gross Motor: Can crawl but cannot stand or walk. Significant delay for age.
+  Fine Motor: Can pincer grasp.
+  Language: Speaks few words (Mama, Papa).
+  Social: Plays with siblings, recognizes familiar faces.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  3rd child in a monogamous family of 5.
+  Father: Artisan (Mechanic).
+  Mother: Petty trader.
+  Living conditions: A room in a face-me-face-you apartment with poor ventilation and lighting.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures, no loss of consciousness.
+  RS: No cough, no fast breathing.
+  CVS: No easy fatigability (other than that related to anaemia), no cyanosis.
+  GIT: No diarrhoea, no vomiting.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A 2-year-old male child, small for age, conscious, not in respiratory distress.
+  Significant pallor (+), not jaundiced, no cyanosis, no pedal oedema, no significant lymphadenopathy.
+  Not dehydrated.
+  
+  ANTHROPOMETRY
+  
+  Weight: 8.4 kg (Expected: ~12 kg)
+  Length: 79 cm
+  Weight-for-Height Z-score: Between -2 and -3 SD (Consistent with Moderate Acute Malnutrition)
+  MUAC: 12.1 cm (MAM range)
+  
+  HEAD/NECK
+  
+  Frontal bossing present.
+  Widened anterior fontanelle for age.
+  
+  CHEST
+  
+  Rachitic rosary (prominent costochondral junctions).
+  Harrison's sulcus (indentation of lower ribs).
+  RR: 28 cpm, breath sounds vesicular.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Pulse rate: 110 bpm, regular, normal volume.
+  Heart sounds: S1, S2 only. No murmurs.
+  
+  ABDOMEN
+  
+  Pot-bellied appearance.
+  Soft, non-tender, no organomegaly.
+  Bowel sounds present.
+  
+  MUSCULOSKELETAL SYSTEM
+  
+  Widened wrists and ankles.
+  Genu varum (bow legs).
+  Generalized hypotonia.
+  
+  ASSESSMENT
+  
+  1. Nutritional Rickets
+  2. Iron Deficiency Anaemia secondary to poor dietary intake
+  3. Moderate Acute Malnutrition (MAM)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Vitamin D Dependent Rickets (Type I or II)
+  2. Sickle Cell Anaemia (to rule out HbSS)
+  3. Chronic Kidney Disease (Renal Rickets) - less likely given absence of other features.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. FBC and PCV: To assess degree of anaemia.
+  2. Peripheral Blood Film: To check for microcytic hypochromic features.
+  3. Serum Calcium, Phosphate, and Alkaline Phosphatase (ALP).
+  4. Serum Creatinine and Urea: To check renal function.
+  5. Hb Genotype: To rule out Sickle Cell Disease.
+  6. X-ray of the wrists (AP view): To look for cupping, fraying, and splaying of the metaphyses.
+  7. Urinalysis: Routine screening.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  A. NUTRITIONAL REHABILITATION
+  
+  1. Enroll in Outpatient Therapeutic Program (OTP) if available for MAM.
+  2. Nutritional counseling: Encourage intake of protein-rich foods (eggs, crayfish, fish) and dairy. Use of locally available nutrient-dense foods (e.g., enriching pap with groundnut paste and oil).
+  3. Increase sunlight exposure: 20-30 minutes daily (early morning or late afternoon).
+  
+  B. PHARMACOTHERAPY
+  
+  1. VITAMIN D SUPPLEMENTATION (Cholecalciferol)
+  - High dose (Stoss therapy): 300,000 IU as a single oral dose (preferred if compliance is an issue).
+  - OR Daily dose: 5,000 IU daily for 8-12 weeks, then maintain at 600 IU daily.
+  
+  2. CALCIUM SUPPLEMENTATION
+  - Elemental Calcium: 50 mg/kg/day in 2-3 divided doses.
+  - For this child (8.4 kg): Approx 400 mg elemental calcium daily.
+  - Use Calcium Gluconate or Calcium Carbonate syrup based on concentration (e.g., 5 ml of standard calcium syrup often contains 100-150 mg elemental calcium; give 5 ml TID).
+  
+  3. IRON SUPPLEMENTATION
+  - Ferrous Sulfate syrup: 3-6 mg/kg/day of elemental iron in 2 divided doses.
+  - For this child (8.4 kg): Approx 25 mg - 50 mg elemental iron daily.
+  - Continue for 3 months to replenish stores.
+  - Advise mother that stools may turn black and to give iron between meals for better absorption.
+  
+  4. MULTIVITAMIN SUPPLEMENTATION
+  - Standard pediatric multivitamin syrup 5 ml daily.
+  
+  FOLLOW UP
+  
+  - Review in 2 weeks to check for clinical improvement and adherence.
+  - Repeat ALP and X-ray in 4-6 weeks to document radiological healing.
+  - Monitor weight and MUAC at every visit.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-116',
+    title: 'Chronic Liver Disease with Suspected Chronic Viral Hepatitis B and C Coinfection in a 12-Year-Old Boy',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Chronic Liver Disease with Suspected Chronic Viral Hepatitis B and C Coinfection',
+    symptoms: [
+      'Progressive abdominal swelling',
+      'Yellowish discoloration of the eyes',
+      'Generalized body weakness',
+      'Easy fatigability',
+      'Poor appetite and weight loss'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 12-year-old boy presents with 3 months of progressive generalized abdominal swelling, 1 month of jaundice, and 2 weeks of generalized weakness and easy fatigability, with poor appetite and weight loss. Examination reveals wasting, jaundice, caput medusae, hepatomegaly with a firm nodular liver, splenomegaly, and shifting dullness suggestive of ascites. Traditional scarification with shared instruments is a potential risk factor for blood-borne viral infections. The initial assessment is chronic liver disease secondary to suspected chronic hepatitis B and C coinfection, with investigations planned to assess liver function, viral activity, portal hypertension, and possible hepatocellular carcinoma.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Ibrahim Musa
+  Age: 12 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Abdominal swelling x 3/12
+  2. Yellowish discoloration of the eyes x 1/12
+  3. Generalized body weakness x 2/52
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 months ago when the mother noticed gradual onset of abdominal swelling. The swelling is generalized, progressively increasing in size, and associated with occasional dull-aching right upper quadrant pain. There is no history of hematemesis, melena, or hematochezia.
+  
+  One month prior to presentation, the mother noticed yellowish discoloration of the eyes. This was not associated with dark-colored urine or pale stools. There is no history of pruritus.
+  
+  Two weeks ago, he developed significant body weakness and easy fatigability. Appetite has been poor, with associated weight loss. There is no history of fever, cough, or night sweats. No history of leg swelling or facial puffiness.
+  
+  Past Medical History
+  No history of blood transfusion. No previous hospitalizations for similar illness. No known history of sickle cell disease or asthma.
+  
+  Birth History
+  Antenatal period was supervised at a primary health center. Delivered at term via Spontaneous Vaginal Delivery at home. No history of neonatal jaundice or prolonged ruptured membranes. Mother's HBV/HCV status during pregnancy was unknown.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Weaned onto pap and family diet. Current diet is predominantly carbohydrate-based (maize and millet), lacking adequate protein.
+  
+  Immunization History
+  Received BCG and OPV 0 at birth. Completed other routine NPI vaccines, including 3 doses of Hepatitis B vaccine. BCG scar is present.
+  
+  Developmental History
+  Attained all milestones at appropriate ages. Currently in Primary 6, but performance has declined recently due to ill health.
+  
+  Family and Social History
+  Third of five children in a monogamous setting. Father is a subsistence farmer, mother is a petty trader. They live in a mud house with poor ventilation. Source of water is a communal well. Refuse disposal is by open dumping. There is a history of traditional uvulectomy and multiple tribal marks on the abdomen and face performed with shared instruments during infancy.
+  
+  Review of Systems
+  CNS: No headache, no seizures, no altered consciousness.
+  RS: No cough, no orthopnea.
+  CVS: No palpitations, no chest pain.
+  GIT: As in HPC.
+  
+  Physical Examination
+  
+  General Examination
+  The patient is a young adolescent, chronically ill-looking, wasted, and in no obvious respiratory distress.
+  Acutely icteric, mildly pale, not dehydrated.
+  No significant peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  Anthropometry
+  Weight: 28 kg (Below 5th percentile for age)
+  Height: 135 cm (10th-25th percentile for age)
+  MUAC: 12.5 cm (Indicates wasting)
+  
+  Systemic Examination
+  
+  Abdomen:
+  Inspection: Uniformly distended, moves with respiration. Everted umbilicus. Dilated superficial veins (caput medusae) noted around the umbilicus. Multiple traditional scarification marks in the right hypochondrium.
+  Palpation: Liver is palpable 6 cm below the right costal margin, firm in consistency, nodular surface, non-tender. Spleen is palpable 4 cm below the left costal margin (Hackett Grade 2).
+  Percussion: Shifting dullness is positive.
+  Auscultation: Bowel sounds are present and normal.
+  
+  Respiratory System:
+  RR: 22 cpm. Trachea is central. Percussion note is resonant bilaterally. Vesicular breath sounds heard. No added sounds.
+  
+  Cardiovascular System:
+  PR: 94 bpm, full volume, regular. BP: 100/60 mmHg. Apex beat is at 5th LICS, MCL. S1 and S2 only.
+  
+  Neurological System:
+  Patient is conscious and oriented. GCS 15/15. No focal neurological deficits. No asterixis (liver flap).
+  
+  Assessment
+  Chronic Liver Disease secondary to Chronic Viral Hepatitis (HBV and HCV Coinfection).
+  
+  Differential Diagnoses
+  1. Hepatocellular Carcinoma (complicating chronic viral hepatitis)
+  2. Autoimmune Hepatitis
+  3. Schistosomiasis (Hepatosplenic form)
+  
+  Initial Investigation Plan
+  1. Hematology: FBC (check for cytopenias indicating hypersplenism), ESR.
+  2. Biochemistry: Liver Function Tests (ALT, AST, ALP, Bilirubin fractions, Total protein, Albumin).
+  3. Clotting Profile: PT, PTTK, INR (to assess liver synthetic function).
+  4. Viral Serology: HBeAg, Anti-HBe, HBV DNA viral load, HCV RNA quantification.
+  5. Imaging: Abdominal Ultrasound (to assess liver texture, portal vein diameter, and presence of ascites or masses).
+  6. Tumor Marker: Alpha-fetoprotein (AFP).
+  7. Microbiology: Urinalysis and stool microscopy (rule out Schistosomiasis).
+  
+  Initial Management Plan
+  
+  General Management:
+  1. Admit to the pediatric ward.
+  2. High-calorie, low-salt diet. Protein restriction only if signs of encephalopathy develop (currently not indicated).
+  3. Daily weight and abdominal girth monitoring.
+  4. Input-output charting.
+  
+  Specific Management (Pharmacotherapy):
+  
+  For Ascites:
+  1. Spironolactone: Start at 25 mg (approx. 1 mg/kg) orally daily. May increase to 100 mg daily if response is inadequate.
+  2. Furosemide: Add 20 mg (approx. 0.5-1 mg/kg) orally daily if spironolactone alone is insufficient.
+  
+  For Chronic Hepatitis B (Targeted Therapy):
+  Note: Treatment depends on HBV DNA levels and ALT.
+  1. Tenofovir Disoproxil Fumarate (TDF): 300 mg orally once daily (Patient is >35 kg and >12 years).
+  
+  For Chronic Hepatitis C (Direct-Acting Antivirals):
+  Note: WHO recommends pangenotypic DAA regimens for children aged 3-17 years.
+  1. Sofosbuvir 400 mg + Daclatasvir 600 mg: One tablet daily for 12 weeks.
+  
+  Supportive Care:
+  1. Multivitamin supplements (B-complex).
+  2. Vitamin K: 10 mg IV/IM daily for 3 days if PT/INR is prolonged.
+  
+  Follow-up:
+  1. Monthly review of LFTs and clinical status.
+  2. Screening of all family members for HBV and HCV.
+  3. Vaccination of seronegative family members.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-115',
+    title: 'Adenoid Hypertrophy with Suspected Obstructive Sleep Apnea and Bilateral Otitis Media with Effusion in a 5-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Adenoid Hypertrophy with Suspected Obstructive Sleep Apnea and Bilateral Otitis Media with Effusion',
+    symptoms: [
+      'Mouth breathing',
+      'Snoring and noisy breathing during sleep',
+      'Recurrent nasal discharge',
+      'Suspected hearing impairment',
+      'Restless sleep with possible apneic spells'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 5-year-old boy presents with a 6-month history of persistent mouth breathing, loud snoring, restless sleep, and suspected apneic spells, alongside a 4-month history of recurrent nasal discharge and concerns about reduced hearing. Examination reveals adenoid facies, bilateral narrowing of nasal patency, dull and retracted tympanic membranes suggestive of middle ear effusion, and grade 2 tonsillar enlargement. The initial assessment is adenoid hypertrophy with suspected obstructive sleep apnea and bilateral otitis media with effusion.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  Name: Master O.A.
+  Age: 5 years
+  Sex: Male
+  Address: Surulere, Lagos State
+  Tribe: Yoruba
+  Religion: Christianity
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Mouth breathing x 6/12
+  2. Snoring and noisy breathing during sleep x 6/12
+  3. Recurrent nasal discharge x 4/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 6 months ago when the mother noticed he started breathing through the mouth almost constantly, both during the day and while asleep. This was associated with loud snoring at night and occasional episodes of gasping or perceived cessation of breath during sleep (apneic spells). The mother reports he is often restless at night and wakes up feeling unrefreshed.
+  
+  There has been associated recurrent nasal discharge for the past 4 months, which is usually mucoid and clear but occasionally becomes yellowish. No history of epistaxis, facial pain, or persistent fever.
+  
+  Mother also observed that the patient often asks for questions to be repeated and increased the volume of the television, suggesting a decrease in hearing acuity. No history of ear discharge or ear pain. There is no history of foreign body insertion into the nostrils or known history of atopy/allergies.
+  
+  PAST MEDICAL HISTORY
+  He has had several episodes of upper respiratory tract infections treated with over-the-counter cough syrups and antibiotics. No history of asthma or food allergies. No previous hospital admissions or surgeries. Not a known sickle cell disease patient.
+  
+  BIRTH AND NEONATAL HISTORY
+  Term delivery via SVD at a private hospital. Birth weight was 3.2 kg. No history of neonatal jaundice or respiratory distress.
+  
+  DIETARY HISTORY
+  Exclusively breastfed for 6 months. Weaned onto family cereals. Currently eats three adequate meals a day consisting of local staples.
+  
+  IMMUNIZATION HISTORY
+  Received all vaccines according to the National Programme on Immunization (NPI) schedule. BCG scar is visible on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Attained all major milestones (sitting, crawling, walking, and speech) at appropriate ages. Currently in Nursery 3 and is noted to be average in class performance despite recent hearing concerns.
+  
+  FAMILY AND SOCIAL HISTORY
+  Parents are traders. He is the second of three children. They live in a 3-bedroom apartment with good ventilation. No household smokers. Water source is a treated borehole.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  A young boy, not in any obvious respiratory distress at rest. He has a characteristic "adenoid facies" (constantly open mouth, elongated face, crowded upper teeth, and a dull facial expression). Not pale, anicteric, acyanosed, and not dehydrated. No significant peripheral lymphadenopathy.
+  Weight: 18.5 kg
+  Height: 112 cm
+  Temp: 36.8 degrees Celsius
+  
+  SYSTEMIC EXAMINATION
+  
+  Respiratory System:
+  Upper Airway: Narrowed nasal patency bilaterally. Clear mucoid discharge seen in the nasal vestibule. No visible nasal polyps or septal deviation on anterior rhinoscopy.
+  Lower Airway: RR is 22 cpm. Trachea central. Good air entry bilaterally. Lungs are clear; no added sounds.
+  
+  Cardiovascular System:
+  PR: 94 bpm, regular, normal volume. BP: 90/60 mmHg. S1 and S2 heard, no murmurs.
+  
+  Abdomen:
+  Flat, moves with respiration. No tenderness or organomegaly. Bowel sounds present.
+  
+  Neurological System/Ear, Nose, and Throat:
+  Alert and conscious.
+  Ear: Both tympanic membranes appear dull and retracted, suggesting middle ear effusion (serous otitis media).
+  Throat: Grade 2 tonsillar enlargement, non-inflamed.
+  
+  ASSESSMENT
+  Adenoid Hypertrophy with suspected Obstructive Sleep Apnea and Bilateral Otitis Media with Effusion.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Chronic Rhinosinusitis
+  2. Allergic Rhinitis
+  3. Deviated Nasal Septum
+  4. Nasal Polyposis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Lateral Neck X-ray (Soft Tissue): To evaluate the thickness of the adenoid tissue and the degree of nasopharyngeal airway narrowing.
+  2. Full Blood Count (FBC): To rule out chronic infection and check for eosinophilia.
+  3. Tympanometry: To confirm the presence of middle ear effusion.
+  4. Flexible Nasopharyngoscopy: If available, for direct visualization of the adenoid mass.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  Medical Management (Trial for 4 to 12 weeks):
+  1. Intranasal Corticosteroids:
+  Mometasone furoate nasal spray (50 mcg per spray).
+  Dosage: 1 spray in each nostril once daily (Total 100 mcg daily).
+  Duration: Use for 6 to 12 weeks to reduce lymphoid tissue inflammation.
+  Instruction: Clear the nose before use; tilt head slightly forward.
+  
+  2. Saline Nasal Spray/Drops:
+  Isotonic saline (e.g., Normal Saline drops).
+  Dosage: 2 drops in each nostril TDS (three times daily).
+  Purpose: To clear mucoid secretions and improve ciliary function.
+  
+  3. Oral Antihistamines (If allergic rhinitis is suspected):
+  Syrup Loratadine (5 mg/5 ml).
+  Dosage: 5 ml once daily for 14 days.
+  
+  4. Antibiotics (Only if there is evidence of acute secondary infection):
+  Syrup Amoxicillin/Clavulanate (457 mg/5 ml).
+  Dosage: 10 ml BD (twice daily) for 7 days (based on approx 40-50 mg/kg/day of Amoxicillin component).
+  
+  Surgical Management:
+  If there is no improvement after 3 months of medical therapy, or if the child has severe Obstructive Sleep Apnea (OSA) or persistent hearing loss, refer for:
+  1. Adenoidectomy.
+  2. Myringotomy and Gromet insertion (if otitis media with effusion persists).
+  
+  FOLLOW-UP
+  Review in 4 weeks to assess response to intranasal steroids and monitor for any improvement in snoring or hearing. Advice mother on the importance of drug compliance.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-114',
+    title: 'Persistent Rhinitis with Suspected Non-Allergic Rhinitis with Eosinophilia Syndrome (NARES) in a 10-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Non-Allergic Rhinitis with Eosinophilia Syndrome (NARES)',
+    symptoms: [
+      'Recurrent sneezing',
+      'Watery nasal discharge',
+      'Nasal blockage',
+      'Nasal itching',
+      'Occasional lacrimation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 10-year-old boy presents with an 8-month history of recurrent paroxysmal sneezing and watery rhinorrhea, with a 5-month history of nasal congestion, nasal itching, and occasional lacrimation. Examination reveals a transverse nasal crease, pale boggy nasal mucosa, bilateral inferior turbinate hypertrophy, and clear mucoid secretions. The initial assessment is non-allergic rhinitis with eosinophilia syndrome (NARES), with investigations planned to assess nasal eosinophilia and exclude allergic rhinitis and other differentials.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  Patient Identification
+
+  Age: 10 years
+  Sex: Male
+  Address: Gbagada, Lagos State
+  Tribe: Yoruba
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Recurrent sneezing x 8/12
+  2. Watery nasal discharge x 8/12
+  3. Nasal blockage x 5/12
+  
+  History of Presenting Complaint
+  The patient was apparently well until 8 months ago when he started experiencing paroxysmal sneezing, usually worse in the mornings. This is associated with profuse, watery rhinorrhea. The mother reports that symptoms occur almost daily and do not seem to be triggered by specific allergens such as dust, poultry, or perfumes. There is no seasonal variation noted.
+  
+  Five months ago, he developed associated nasal congestion which occasionally interferes with sleep and causes mouth breathing at night. He complains of frequent nasal itching and occasional lacrimation. There is no history of facial pain, epistaxis, or reduced sense of smell. No history of chronic cough, wheezing, or itchy skin rashes. He has used several brands of over-the-counter antihistamine syrups with only transient, minimal relief.
+  
+  Past Medical History
+  No previous hospitalizations or surgeries. No history of asthma or atopic dermatitis. No known drug allergies. No history of frequent antibiotic use.
+  
+  Birth, Developmental, and Immunization History
+  Term delivery via SVD at a General Hospital. Birth weight was 3.2 kg. No neonatal jaundice or respiratory distress. Developmental milestones are appropriate for age. Immunization is up to date according to the National Programme on Immunization (NPI) schedule; BCG scar is present.
+  
+  Dietary History
+  Mainly family diet. No known food allergies.
+  
+  Family and Social History
+  The child is the second of three children in a monogamous family. Both parents are teachers. No family history of asthma, hay fever, or similar nasal symptoms. They live in a 2-bedroom flat with adequate ventilation. No pets kept. No cigarette smokers in the household.
+  
+  Review of Systems
+  CNS: No headaches, no seizures.
+  CVS: No easy fatigability, no palpitations.
+  RS: No cough, no chest pain.
+  GIT: No abdominal pain, no change in bowel habits.
+  
+  Physical Examination
+  
+  General Examination
+  A young boy, comfortable at rest, afebrile (36.6°C), not pale, anicteric, not dehydrated, no pedal oedema. No peripheral lymphadenopathy.
+  
+  Anthropometry
+  Weight: 31 kg (on the 50th percentile for age)
+  Height: 138 cm
+  
+  Nasal Examination
+  External: Transverse nasal crease noted.
+  Anterior Rhinoscopy: Nasal mucosa appears pale and boggy. Hypertrophy of the inferior turbinates bilaterally. Moderate clear mucoid secretions in the nasal cavity. No nasal polyps or septal deviation visualized. No tenderness over the paranasal sinuses.
+  
+  Oropharyngeal Examination
+  No cobblestoning of the posterior pharyngeal wall. Tonsils are not enlarged.
+  
+  Systemic Examination
+  Respiratory: RR 22 cpm. Trachea central. Chest expansion symmetrical. Percussion notes resonant. Breath sounds are vesicular; no rhonchi or crepitations.
+  Cardiovascular: PR 84 bpm, full volume, regular. BP 100/60 mmHg. S1 S2 only heard.
+  Abdomen: Flat, soft, non-tender. No organomegaly.
+  Neurological: Conscious and alert. No focal deficits.
+  
+  Assessment
+  Non-allergic rhinitis with eosinophilia syndrome (NARES).
+  
+  Differential Diagnoses
+  1. Perennial Allergic Rhinitis
+  2. Vasomotor Rhinitis
+  3. Chronic Rhinosinusitis
+  
+  Initial Investigation Plan
+  1. Nasal Smear for Cytology: To check for eosinophilia (characteristically >20 percent of the total cell count in NARES).
+  2. Skin Prick Test or Serum Total/Specific IgE: To rule out Type 1 hypersensitivity (expected to be negative in NARES).
+  3. Full Blood Count: To check for peripheral eosinophilia.
+  4. Plain X-ray Paranasal Sinuses (Occipitomental view): To rule out sinusitis or polyposis if symptoms persist.
+  
+  Initial Management Plan
+  
+  1. Patient/Caregiver Education:
+  Explain that the condition mimics allergy but is an inflammatory process of unknown cause. Emphasize that long-term control is necessary.
+  
+  2. Intranasal Corticosteroids (First-line treatment):
+  - Fluticasone propionate nasal spray: 50 mcg per nostril once daily (Total dose 100 mcg daily).
+  - Technique: Demonstrate the "staying away from the septum" technique (using the right hand for the left nostril and vice versa).
+  
+  3. Intranasal Antihistamines:
+  - Azelastine 0.1 percent nasal spray: 1 spray per nostril twice daily. This helps with pruritus and sneezing.
+  
+  4. Oral Leukotriene Receptor Antagonist:
+  - Montelukast 5 mg tablets: 1 tablet to be chewed daily at night. Useful for patients with significant nasal congestion.
+  
+  5. Nasal Hygiene:
+  - Normal Saline Nasal Drops/Spray: 2 drops into each nostril 3 times daily to liquefy secretions and clear inflammatory mediators.
+  
+  6. Oral Antihistamines (For symptomatic flares):
+  - Loratadine 10 mg daily or Cetirizine 10 mg daily. Note that these are often less effective in NARES than in allergic rhinitis.
+  
+  7. Follow-up:
+  Review in 4 weeks to monitor symptom control and check for side effects like nasal dryness or epistaxis.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-113',
+    title: 'Acute Gastroenteritis with Moderate Dehydration in a 4-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Unit',
+    condition: 'Acute Gastroenteritis with Moderate Dehydration',
+    symptoms: [
+      'Vomiting',
+      'Loose stools',
+      'Abdominal pain',
+      'Excessive thirst',
+      'Reduced urine output'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 4-year-old male presenting with acute-onset vomiting, watery diarrhoea, and colicky abdominal pain following consumption of leftover rice and stew from a street vendor. Examination reveals lethargy, dry mucous membranes, sunken eyeballs, delayed skin pinch recoil, and tachycardia, consistent with acute gastroenteritis and moderate dehydration.',
+    content: `
+  PAEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  
+  Age: 4 years
+  Sex: Male
+  Religion: Christian
+  Address: Owerri, Imo State
+  Tribe: Igbo
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Vomiting x 6h
+  2. Loose stools x 4h
+  3. Abdominal pain x 6h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until 6 hours prior to presentation when he developed sudden onset of vomiting. The vomiting was non-bilious, non-projectile, and contained recently ingested food particles. There have been 5 episodes so far, totalling a moderate volume.
+  
+  About 2 hours after the vomiting started, he developed colicky, generalized abdominal pain. This was followed by the onset of loose, watery stools. He has had 4 episodes of stools which are large in volume, non-bloody, and non-mucoid.
+  
+  There is no history of fever, cough, or skin rashes. The mother noted he has been very thirsty but has not passed urine since the symptoms began. He had a meal of leftover rice and stew from a street vendor approximately 2 hours before the symptoms started. No other family members are currently symptomatic.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous history of similar illness.
+  No known chronic medical conditions (SCD, Asthma).
+  Genotype: AA.
+  No known drug allergies.
+  
+  BIRTH HISTORY
+  
+  Term delivery via Spontaneous Vaginal Delivery at a General Hospital. Birth weight was 3.2 kg. No history of neonatal jaundice or delayed cry.
+  
+  DIETARY HISTORY
+  
+  He is on a family diet. Recent intake of suspected contaminated street food noted. No history of pica.
+  
+  IMMUNIZATION HISTORY
+  
+  Up to date for age according to the National Programme on Immunization (NPI) schedule. BCG scar is present.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all milestones at appropriate ages. Currently in nursery school and performing well.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Monogamous family setting. Parents are traders. They live in a 2-bedroom flat with a functional water closet and borehole water source.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures, no loss of consciousness.
+  RS: No cough, no difficulty in breathing.
+  CVS: No history of bluish discoloration of lips or nails.
+  GUS: No history of dysuria.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An acutely ill-looking child, lethargic but arousable. He appears moderately dehydrated with dry mucous membranes, sunken eyeballs, and a skin pinch that retracts slowly (>2 seconds).
+  No pallor, no jaundice, no cyanosis, no peripheral oedema, no significant lymphadenopathy.
+  
+  ANTHROPOMETRY
+  
+  Weight: 16 kg
+  Height: 102 cm
+  MUAC: 15.5 cm
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 128 bpm (Tachycardia, regular, normal volume)
+  Respiratory Rate: 30 cpm
+  Temperature: 37.1 degrees Celsius
+  SpO2: 97 percent on room air
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Flat, moves with respiration. No surgical scars.
+  Mild generalized tenderness on palpation. No hepatosplenomegaly or palpable masses.
+  Bowel sounds are hyperactive.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea is central. Percussion notes are resonant bilaterally.
+  Breath sounds are vesicular. No added sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat at 4th left intercostal space, mid-clavicular line.
+  S1 and S2 heart sounds heard. No murmurs.
+  
+  NEUROLOGICAL SYSTEM
+  
+  GCS 15/15. Pupils are 3 mm bilaterally and reactive to light.
+  No neck stiffness. Normal muscle tone in all limbs.
+  
+  ASSESSMENT
+  
+  Acute Gastroenteritis with Moderate Dehydration secondary to suspected Food Poisoning (likely Staphylococcal enterotoxin or Bacillus cereus).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Staphylococcal Food Poisoning
+  2. Early Bacillary Dysentery (Shigellosis)
+  3. Non-typhoidal Salmonellosis
+  4. Amoebic Dysentery
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check for leukocytosis.
+  2. Serum Electrolytes, Urea, and Creatinine (E/U/Cr): To assess for electrolyte derangement (hypokalemia, metabolic acidosis) and renal function.
+  3. Stool Microscopy, Culture, and Sensitivity (m/c/s): To identify causative bacterial or parasitic agents.
+  4. Random Blood Sugar (RBS): To rule out hypoglycemia.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Rehydration (Plan B for Moderate Dehydration):
+  Give Oral Rehydration Solution (ORS) 75 ml/kg over 4 hours.
+  For 16 kg child: 16 x 75 = 1200 ml over 4 hours.
+  Administer frequently in small sips. If he vomits, wait 10 minutes and continue more slowly.
+  
+  2. Intravenous Fluids (If oral intake is not tolerated or vomiting is persistent):
+  Start IV Ringer's Lactate or 0.9 percent Normal Saline.
+  Initial bolus: 20 ml/kg over 30–60 minutes (16 kg x 20 ml = 320 ml).
+  Reassess hydration status. If improved, switch to maintenance fluids or ORS.
+  
+  3. Maintenance IV Fluids (using 4-2-1 rule):
+  Total 24-hour requirement: (10 kg x 100 ml) + (6 kg x 50 ml) = 1300 ml.
+  Use 4.3 percent Dextrose in 0.18 percent Saline.
+  Rate: 54 ml/hour.
+  
+  4. Zinc Supplementation:
+  Tab Zinc Sulfate 20 mg daily for 10–14 days (to reduce duration and severity).
+  
+  5. Antiemetics (If vomiting is severe and prevents rehydration):
+  IV Ondansetron 0.15 mg/kg per dose.
+  For 16 kg child: 2.4 mg IV stat.
+  
+  6. Antibiotics:
+  Generally not indicated for toxin-mediated food poisoning. If stool m/c/s or clinical course suggests invasive bacterial infection (e.g., fever, bloody stools), consider IV Ceftriaxone 50–75 mg/kg/day.
+  
+  7. Monitoring:
+  Strict Input/Output (I/O) charting.
+  Repeat assessment of hydration status every 1–2 hours.
+  Monitor vital signs (PR, RR, BP) 4 hourly.
+  
+  8. Nutritional Support:
+  Continue age-appropriate feeding as soon as the child can tolerate oral intake. Avoid restrictive diets. Encourage mashed bananas, rice, or pap.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-112',
+    title: 'Persistent Moderate-to-Severe Allergic Rhinitis in an 8-Year-Old Child (Chinedu Okoro)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Allergic Rhinitis',
+    symptoms: [
+      'Recurrent sneezing',
+      'Clear nasal discharge',
+      'Nasal blockage',
+      'Itchy, watery eyes'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'An 8-year-old male presenting with persistent paroxysmal sneezing, clear rhinorrhoea, nasal congestion, and itchy, watery eyes. Examination reveals bilateral pale, boggy inferior turbinates, clear nasal discharge, conjunctival injection, allergic shiners, and Dennie-Morgan lines. The assessment is persistent moderate-to-severe allergic rhinitis.',
+    content: `
+  PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Chinedu Okoro
+  Age: 8 years
+  Sex: Male
+  Religion: Christian
+  Address: Ogui Road, Enugu, Enugu State
+  Tribe: Igbo
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Recurrent sneezing x 1/12
+  2. Clear nasal discharge x 1/12
+  3. Nasal blockage x 1/12
+  4. Itchy, watery eyes x 2/52
+  
+  History of Presenting Complaint
+  The child was apparently well until 1/12 ago when he started experiencing frequent, paroxysmal bouts of sneezing, often occurring more than 4 days a week. This is associated with profuse, clear, watery nasal discharge and significant nasal congestion that alternates between nostrils. Symptoms are most severe in the early mornings and late at night. The mother notes he frequently rubs his nose in an upward fashion (allergic salute).
+  
+  Over the last 2/52, he developed bilateral itchy and watery eyes with occasional redness. There is no history of fever, facial pain, or foul-smelling/purulent nasal discharge. There is no associated chronic cough, wheezing, or breathlessness. The symptoms are currently severe enough to interfere with his sleep and have led to reduced concentration and occasional absence from school.
+  
+  Past Medical History
+  Known history of infantile eczema which resolved by age 3. No history of asthma. No previous hospitalizations or surgeries. No known drug allergies.
+  
+  Birth History
+  Term delivery via Spontaneous Vaginal Delivery (SVD) in a General Hospital. Birth weight was 3.3 kg. No neonatal complications.
+  
+  Dietary History
+  Exclusively breastfed for 6/12. Weaned onto pap and family diet. Currently eats 3 meals a day; diet is adequate for age.
+  
+  Immunization History
+  Completed all vaccinations according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  Attained all milestones at the appropriate ages. Currently in Primary 3 and was performing well academically prior to the onset of current symptoms.
+  
+  Family and Social History
+  He is the second of three children in a monogamous family setting. Father is a civil servant, and mother is a primary school teacher. They live in a well-ventilated 2-bedroom apartment. They use gas for cooking. No indoor pets. No history of cigarette smoking in the household. His elder brother has a history of bronchial asthma.
+  
+  Review of Systems
+  CNS: No headaches, no seizures.
+  RS: As per HPC. No cough or chest pain.
+  CVS: No easy fatigability or palpitations.
+  GIT: Normal appetite, no abdominal pain or change in bowel habits.
+  MSS: No joint pains or swelling.
+  
+  Physical Examination
+  
+  General Examination:
+  A young male child, not acutely distressed, afebrile (36.7 degrees Celsius), not pale, not icteric, no pedal oedema, no significant peripheral lymphadenopathy.
+  
+  Anthropometry:
+  Weight: 26 kg (within 50th centile for age)
+  Height: 128 cm
+  
+  HEENT:
+  Eyes: Bilateral conjunctival injection with infraorbital skin creases (Dennie-Morgan lines) and periorbital puffiness (allergic shiners).
+  Nose: Transverse crease across the lower third of the nasal bridge.
+  Intranasal: Bilateral pale, boggy, and oedematous inferior turbinates with clear mucoid discharge. No nasal polyps or septal deviation noted.
+  Ear/Throat: Tympanic membranes intact and pearly. No cobbling of the posterior pharyngeal wall.
+  
+  Systemic Examination:
+  Respiratory System: RR 22 cpm, trachea central, chest expansion symmetrical. Percussion note resonant. Breath sounds are vesicular; no rhonchi or crepitations.
+  Cardiovascular System: PR 84 bpm, regular, normal volume. BP 100/60 mmHg. S1 S2 only.
+  Abdomen: Flat, soft, non-tender. No hepatosplenomegaly. Bowel sounds present and normal.
+  Neurologic System: Conscious and alert. No focal deficits.
+  
+  Assessment
+  Allergic Rhinitis (Persistent, Moderate-Severe)
+  
+  Differential Diagnoses
+  1. Non-allergic rhinitis with eosinophilia syndrome (NARES)
+  2. Chronic Rhinosinusitis
+  3. Hypertrophied Adenoids
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): To check for peripheral eosinophilia.
+  2. Skin Prick Test: To identify specific aero-allergens (if available and affordable).
+  3. Total Serum IgE: May be elevated (supportive of atopy).
+  4. Plain X-ray Postnasal Space (Lateral view): Only if adenoid hypertrophy is strongly suspected due to persistent snoring.
+  
+  Initial Management Plan
+  1. Non-Pharmacological (Allergen Avoidance):
+  - Advise mother to identify and avoid triggers (dust, pollen, strong perfumes).
+  - Regular washing of bedsheets in hot water and sun-drying.
+  - Remove heavy carpets or curtains from the child's bedroom if possible.
+  
+  2. Pharmacotherapy:
+  - Intranasal Corticosteroid (First-line): Fluticasone furoate (e.g., Avamys) nasal spray. Use 1 spray (27.5 mcg per spray) in each nostril once daily for 4/52. Instruct on proper technique (pointing away from the septum).
+  - Second-Generation Antihistamine: Cetirizine syrup 5 mg (5 ml) or half a 10 mg tablet once daily at night for 2/52 to control itching and sneezing.
+  - Leukotriene Receptor Antagonist: Montelukast 5 mg chewable tablet once daily at night for 4/52 (indicated due to the severity and persistent nature).
+  - Nasal Saline Irrigation: 0.9% Normal Saline drops or spray, 2 drops in each nostril 3 times daily to clear mucus and allergens.
+  
+  3. Follow-up:
+  - Review in 2/52 to assess for improvement in sleep and school performance. If symptoms are well-controlled, continue intranasal steroids for at least 3/12 before attempting to step down.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-111',
+    title: 'Intestinal Helminthiasis (Suspected Ascariasis and Enterobiasis) in a 6-Year-Old Child (Musa Abdullahi)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Intestinal Helminthiasis',
+    symptoms: [
+      'Passage of worms in stool',
+      'Perianal itching',
+      'Recurrent abdominal pain'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 6-year-old male presenting with passage of a visible worm in stool, nocturnal perianal itching, and recurrent periumbilical abdominal pain. Relevant history includes pica and playing barefoot outdoors. Clinical assessment suggests intestinal helminthiasis, likely involving ascariasis and enterobiasis.',
+    content: `
+  PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Musa Abdullahi
+  Age: 6 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Passage of worms in stool x 2/52
+  2. Perianal itching x 1/52
+  3. Recurrent abdominal pain x 3/52
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 weeks ago when he began experiencing recurrent, dull, periumbilical abdominal pain. The pain is non-radiating, not associated with meals, and occasionally relieved by defecation. There is no associated vomiting, diarrhoea, or fever.
+  
+  Two weeks prior to presentation, the mother noticed a long, cylindrical, cream-coloured worm (approximately 15 cm) in the patient's stool, which was moving. There was no associated haematochezia or melaena.
+  
+  One week ago, the child started complaining of intense itching around the anal region. This is noted to be worse at night, often interfering with his sleep. The mother also noticed the child frequently picking his nose and scratching his bottom.
+  
+  There is a positive history of pica (eating soil) while playing outdoors. He often plays barefoot in the compound. No history of cough or wheezing (Loeffler's syndrome).
+  
+  Past Medical History
+  No previous history of similar complaints. No history of chronic cough or asthma. Not a known patient with Sickle Cell Disease. No previous hospitalizations or blood transfusions.
+  
+  Birth History
+  Antenatal: Mother attended ANC at a Primary Health Care (PHC) centre. Pregnancy was supervised, and she took routine haematinics and IPTp for malaria.
+  Natal: Delivered at term via Spontaneous Vaginal Delivery (SVD) at a General Hospital.
+  Post-natal: Cried immediately at birth. No history of neonatal jaundice or convulsions.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Weaned onto pap (akamu) and subsequently family diet. Current diet consists mainly of cereals and tubers. Poor intake of animal protein.
+  
+  Immunization History
+  Received all vaccines according to the National Programme on Immunization (NPI) schedule. BCG scar is visible on the right deltoid.
+  
+  Developmental History
+  Attained all major milestones (gross motor, fine motor, language, social) at age-appropriate times. Currently in Primary 1 and performs average in school.
+  
+  Family and Social History
+  Third of five children in a monogamous setting. Father is a subsistence farmer, and mother is a petty trader. They live in a three-room bungalow with a pit latrine. Water is sourced from a communal borehole.
+  
+  Review of Systems
+  CNS: No headache, no seizures.
+  RS: No cough, no difficulty in breathing.
+  CVS: No palpitations, no pedal oedema.
+  MSS: No joint pains or swelling.
+  
+  Physical Examination
+  
+  General Examination:
+  A young boy, comfortable at rest, not in any obvious respiratory or painful distress. Not pale, anicteric, acyanotic, not dehydrated. No significant peripheral lymphadenopathy. No pedal oedema.
+  
+  Anthropometry:
+  Weight: 18 kg (Expected for age)
+  Height: 110 cm
+  MUAC: 14.5 cm (Normal)
+  
+  Systemic Examination:
+  
+  Abdomen:
+  Full, moves with respiration. No surgical scars or visible dilated veins.
+  Soft, mild generalized tenderness, most marked at the periumbilical region.
+  No hepatomegaly or splenomegaly. No palpable masses.
+  Bowel sounds are present and normoactive.
+  Percussion note is resonant.
+  
+  Perianal Region:
+  Mild excoriations around the anus due to scratching. No visible threadworms or fissures on inspection.
+  
+  Respiratory System:
+  RR: 24 cpm. Trachea is central. Percussion notes are resonant bilaterally. Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System:
+  PR: 94 bpm, regular, full volume. BP: 90/60 mmHg. Apex beat at 4th Left Intercostal Space, Mid-clavicular line. S1 and S2 only.
+  
+  Neurological System:
+  Conscious and alert. No focal neurological deficits. Normal muscle tone and power in all limbs.
+  
+  Assessment
+  Intestinal Helminthiasis (Likely Mixed Infection: Ascariasis and Enterobiasis)
+  
+  Differential Diagnoses
+  1. Ascariasis
+  2. Enterobiasis (Pinworm infection)
+  3. Trichuriasis (Whipworm)
+  4. Giardiasis
+  
+  Initial Investigation Plan
+  1. Stool Microscopy: For Ova, Cysts, and Parasites (specifically looking for Ascaris lumbricoides eggs or Enterobius eggs).
+  2. Scotch Tape Test: To be done early in the morning to identify Enterobius vermicularis eggs.
+  3. Full Blood Count (FBC): To check for eosinophilia and rule out anaemia.
+  
+  Initial Management Plan
+  
+  Medical Management:
+  1. Albendazole: 400 mg PO as a single dose.
+  Note: For suspected Enterobiasis, the 400 mg dose should be repeated in 2 weeks to ensure any larvae hatched from eggs present at the time of initial treatment are eradicated.
+  2. Alternative: Mebendazole 100 mg PO twice daily for 3 days.
+  3. For perianal itching: Apply Zinc Oxide cream or Petroleum jelly to the perianal area at night to soothe the skin.
+  
+  Counseling and Health Education:
+  1. Advise the mother on the importance of handwashing with soap and water after using the toilet and before meals.
+  2. Ensure the child's fingernails are kept short and clean.
+  3. Discourage pica (eating soil) and encourage the use of footwear while playing outdoors.
+  4. Wash all fruits and vegetables thoroughly before consumption.
+  5. All family members should be treated simultaneously with a single dose of Albendazole 400 mg (for those >2 years) to prevent reinfection.
+  6. Bed linens and undergarments should be washed in hot water and sun-dried.
+  
+  Follow-up:
+  Review in 2 weeks to assess for resolution of symptoms and to administer the second dose of Albendazole.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-110',
+    title: 'Recurrent Febrile Illness with Suspected Recurrent Malaria in a 4-Year-Old Child (Chidi Okafor)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Unit',
+    condition: 'Recurrent Malaria',
+    symptoms: [
+      'Fever',
+      'Vomiting',
+      'Poor oral intake',
+      'Hepatosplenomegaly'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 4-year-old male presenting with recurrent febrile illness, vomiting, and poor oral intake following recent artemether-lumefantrine treatment. Examination reveals fever, hepatomegaly, and splenomegaly. The assessment is recurrent malaria, with recrudescence or reinfection to be considered, and sepsis to be ruled out.',
+    content: `
+  PAEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Chidi Okafor
+  Age: 4 years
+  Sex: Male
+  Address: Mushin, Lagos State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever x 3/7
+  2. Vomiting x 1/7
+  3. Poor oral intake x 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 3 days ago when he developed fever. The fever is high-grade, intermittent, associated with chills and rigors, but no night sweats. It is temporarily relieved by administration of paracetamol syrup.
+  
+  The mother reports this is the third episode of similar illness in the last 3 months. The most recent episode was 3 weeks ago, for which he was given a 3-day course of Artemether-Lumefantrine (ACT) purchased from a local chemist. The mother claims she completed the dosage, after which the child improved for about 10 days before the current symptoms recurred.
+  
+  One day prior to presentation, he started vomiting. The vomiting is non-bilious, non-bloody, contains recently ingested meals, and occurred about 4 times. He has also had significantly reduced appetite and is less active than usual.
+  
+  There is no history of cough, fast breathing, ear discharge, or neck stiffness. There is no history of diarrhoea or passage of bloody stools. No history of skin rashes. Urinary frequency and colour are reportedly normal.
+  
+  PAST MEDICAL HISTORY
+  
+  Not a known sickle cell disease patient (Genotype AA).
+  No previous hospitalizations apart from these recent febrile episodes.
+  No history of blood transfusion.
+  No known drug allergies.
+  
+  BIRTH, DIETARY, AND IMMUNIZATION HISTORY
+  
+  Birth History: Term, spontaneous vaginal delivery at a General Hospital. Cried immediately at birth. Birth weight was 3.2 kg. No neonatal jaundice or seizures.
+  Dietary History: Exclusively breastfed for 6 months. Weaned onto family diet. Currently eats 3 times a day, though intake is poor since current illness started.
+  Immunization History: Up to date with National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  Developmental History: Attained all milestones at appropriate ages. Currently in nursery school.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  The patient is the second of three children in a monogamous setting.
+  Parents are petty traders.
+  They live in a one-bedroom apartment in a crowded area.
+  Environmental History: There is a stagnant gutter in front of the house. Window nets are torn. The family does not consistently use insecticide-treated nets (ITNs). One sibling is currently recovering from a similar febrile illness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, febrile (Temperature 38.8 degrees Celsius), mildly pale, anicteric, not dehydrated, no significant lymphadenopathy, no pedal oedema.
+  
+  ANTHROPOMETRY
+  
+  Weight: 16 kg (Expected weight for age: 16 kg)
+  Height: 102 cm
+  MUAC: 14.5 cm (Normal)
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  RR: 32 cpm. No respiratory distress. Trachea is central. Percussion notes are resonant. Breath sounds are vesicular. No added sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  PR: 118 bpm, regular, normal volume. BP: 90/60 mmHg. Apex beat at 4th left intercostal space, mid-clavicular line. S1 S2 only heard.
+  
+  ABDOMINAL EXAMINATION
+  
+  Full, moves with respiration. Soft, non-tender.
+  Liver: 3 cm below costal margin, smooth, firm, non-tender.
+  Spleen: 2 cm below costal margin (Hackett Stage 2).
+  Bowel sounds present and normal.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Conscious and alert. GCS 15/15. No signs of meningeal irritation. Pupils 2 mm, briskly reactive to light. Tone and reflexes are normal for age.
+  
+  SUMMARY
+  
+  A 4-year-old male with recurrent febrile illness despite recent ACT treatment, currently presenting with fever, vomiting, and hepatosplenomegaly. Significant social history of poor malaria prophylaxis. Clinical features suggest malaria with possible treatment failure or frequent re-infection.
+  
+  ASSESSMENT
+  
+  1. Recurrent Malaria (Rule out Recrudescence due to possible drug resistance or sub-therapeutic dosing vs. Re-infection due to poor environmental control)
+  2. Sepsis (Rule out Enteric Fever)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Severe Malaria (Uncomplicated malaria progressing due to vomiting and poor intake)
+  2. Septicemia
+  3. Urinary Tract Infection (UTI)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Malaria Parasite (MPS) - Thick and thin films for parasite density and species.
+  2. Rapid Diagnostic Test (RDT) for Malaria.
+  3. Full Blood Count (FBC) - Check PCV and White Cell Count (WBC) differentials.
+  4. Urinalysis - Check for nitrites and leucocyte esterase.
+  5. Blood Culture - To rule out bacteremia/enteric fever.
+  6. Random Blood Sugar (RBS) - To rule out hypoglycemia.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  Aims: Clear parasitemia, manage symptoms, and ensure hydration.
+  
+  1. ADMISSION: Admit to the pediatric ward for observation due to persistent vomiting and inability to tolerate oral medications.
+  
+  2. FLUID MANAGEMENT:
+  Fluid choice: 4.3% Dextrose in 0.18% Saline (Darrow's solution can be an alternative).
+  Volume: 1300 ml over 24 hours (Maintenance for 16 kg child).
+  Rate: 54 ml/hour.
+  
+  3. ANTIMALARIAL THERAPY:
+  Since treatment failure with oral ACT is suspected and the patient is vomiting, start IV Artesunate.
+  Dosage: 2.4 mg/kg at 0, 12, and 24 hours, then daily.
+  Calculation for 16 kg: 16 x 2.4 = 38.4 mg per dose.
+  Plan: Give IV Artesunate 38.4 mg at 0h, 12h, 24h, then daily until the child can tolerate orals.
+  Follow-up: Complete with a full 3-day course of a second-line ACT (e.g., Dihydroartemisinin-Piperaquine) once vomiting stops.
+  
+  4. ANTIPYRETIC:
+  IV Paracetamol 15 mg/kg every 8 hours if temp >38.5 C.
+  Calculation: 16 x 15 = 240 mg per dose.
+  
+  5. NURSING CARE:
+  Tepid sponging for high fever.
+  Monitor vital signs (PR, RR, Temp) 4-hourly.
+  Strict input-output monitoring.
+  
+  6. COUNSELING AND PREVENTION:
+  Counsel parents on the importance of completing antimalarial doses.
+  Discuss environmental sanitation (clearing stagnant water).
+  Provide and encourage the use of long-lasting insecticide-treated nets (LLINs).
+  Advise on repairing window nettings.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-109',
+    title: 'Chronic Malabsorption Syndrome with Severe Acute Malnutrition (Marasmus) in an 18-Month-Old Child (Master Chukwudi Obi)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Clinic',
+    condition: 'Chronic Malabsorption Syndrome',
+    symptoms: [
+      'Recurrent loose stools',
+      'Failure to gain weight',
+      'Abdominal distension',
+      'Severe wasting'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'An 18-month-old male presenting with recurrent bulky, pale, greasy, offensive-smelling stools, failure to gain weight, and progressive abdominal distension, with examination findings of severe wasting and mild dehydration. The assessment is chronic malabsorption syndrome, possibly secondary to coeliac disease or tropical sprue, with severe acute malnutrition (marasmus).',
+    content: `
+  PAEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Master Chukwudi Obi
+  Age: 18 months
+  Sex: Male
+  Religion: Christian
+  Address: Owerri, Imo State
+  Tribe: Igbo
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Recurrent loose stools x 4/12
+  2. Failure to gain weight x 6/12
+  3. Abdominal distension x 3/12
+  
+  History of Presenting Complaint
+  The patient was apparently well until 6 months ago when the mother noticed he was not growing as well as his peers and his clothes were becoming loose despite a voracious appetite.
+  
+  About 4 months ago, he started having recurrent episodes of loose, bulky, and offensive-smelling stools. The stools are described as pale, greasy, and difficult to wash off the potty. There is no associated blood or mucus in the stools. The episodes occur about 3 to 5 times daily and are sometimes preceded by abdominal cramps.
+  
+  The mother also noted progressive abdominal distension over the last 3 months. There is no history of recurrent fever, chronic cough, or contact with any person with chronic cough. There is no history of skin rashes or hair colour changes. No history of persistent vomiting or urinary symptoms.
+  
+  Past Medical History
+  No previous hospital admissions. No history of blood transfusions. No known allergies. No history of chronic childhood illnesses.
+  
+  Birth History
+  The patient is a product of a full-term elective Caesarean section (secondary to repeat CS) at a secondary health facility. Birth weight was 3.2 kg. Cried immediately at birth. No neonatal jaundice or seizures.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Weaning was started at 6 months with maize pap and mashed family tubers. Currently feeds on family meals, mainly carbohydrates (garri, yam). Protein intake is infrequent.
+  
+  Immunization History
+  Immunized up to date according to the National Programme on Immunization (NPI) schedule. BCG scar is visible on the left deltoid.
+  
+  Developmental History
+  Gross motor: Started walking at 13 months.
+  Fine motor: Can scribble and build a tower of three blocks.
+  Language: Speaks about 5–10 clear words.
+  Social: Waves bye-bye and plays with peers.
+  Development appears appropriate for age.
+  
+  Family and Social History
+  Patient is the 3rd child in a monogamous family of 3 children. Father is a primary school teacher, mother is a petty trader. They live in a two-bedroom apartment with an indoor water closet. Source of water is a commercial borehole.
+  
+  Review of Systems
+  CNS: No seizures, no loss of consciousness.
+  RS: No cough, no fast breathing.
+  CVS: No easy fatigability, no cyanosis.
+  MSS: No swelling of joints.
+  
+  Physical Examination
+  
+  General Examination:
+  The patient is chronically ill-looking, wasted with a baggy pants appearance (loss of gluteal fat).
+  Acutely distressed only during abdominal palpation.
+  Pale, not jaundiced, not cyanosed, not febrile (Temp: 36.7 degrees Celsius).
+  No significant lymphadenopathy.
+  Mild dehydration (depressed fontanelle, dry mucous membranes).
+  No pedal oedema.
+  
+  Anthropometry:
+  Weight: 7.2 kg (Expected for age: approx. 11 kg).
+  Length: 78 cm.
+  Weight-for-Length: Below -3 Z-score (Severe wasting).
+  MUAC: 11.0 cm.
+  OFC: 47 cm.
+  
+  Systemic Examination:
+  
+  Abdomen:
+  Uniformly distended, moves with respiration. Visible bowel loops and peristalsis seen.
+  Soft, generalized mild tenderness.
+  Liver: 2 cm palpable below the costal margin, smooth, firm.
+  Spleen: Not palpable.
+  Kidneys: Not ballottable.
+  Bowel sounds: Hyperactive.
+  
+  Respiratory System:
+  RR: 28 cpm.
+  Trachea central.
+  Percussion note resonant bilaterally.
+  Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System:
+  PR: 115 bpm, regular, normal volume.
+  Heart sounds: S1 and S2 only. No murmurs.
+  
+  Neurological System:
+  Conscious and alert.
+  Normal muscle tone in all limbs.
+  Reflexes are normal and symmetrical.
+  
+  Assessment
+  Chronic Malabsorption Syndrome likely secondary to Celiac Disease or Tropical Sprue.
+  Severe Acute Malnutrition (Non-edematous - Marasmus).
+  
+  Differential Diagnoses
+  1. Celiac Disease
+  2. Giardiasis with secondary lactose intolerance
+  3. Tropical Sprue
+  4. Abdominal Tuberculosis
+  
+  Initial Investigation Plan
+  1. FBC: To check for microcytic or macrocytic anaemia and features of infection.
+  2. Stool Microscopy, Culture, and Sensitivity: To rule out parasites (Giardia) and bacterial overgrowth.
+  3. Stool for fat globules (Sudan III stain): To confirm steatorrhoea.
+  4. Serum Electrolytes, Urea, and Creatinine: To assess hydration and electrolyte status.
+  5. HIV Screening: To rule out HIV-associated enteropathy.
+  6. Chest X-ray and Mantoux test: To screen for TB.
+  7. Serum Albumin and Total Protein: To assess nutritional status.
+  8. Small bowel biopsy/Serology (Anti-tissue transglutaminase): If Celiac disease is strongly suspected (referral may be needed).
+  
+  Initial Management Plan
+  
+  1. Stabilization and Rehydration:
+  - Use ReSoMal (Rehydration Solution for Malnutrition).
+  - Give 5 ml/kg every 30 minutes for the first 2 hours orally or via NGT.
+  - Then 5–10 ml/kg/hr for the next 4–10 hours.
+  - Monitor for signs of overhydration (increasing RR, neck vein engorgement).
+  
+  2. Nutritional Rehabilitation:
+  - Start F-75 therapeutic milk (75 kcal/100 ml) for the stabilization phase.
+  - Volume: 130 ml/kg/day divided into 2-hourly or 3-hourly feeds.
+  - Transition to F-100 or RUTF (Ready-to-Use Therapeutic Food) once appetite returns and diarrhoea reduces.
+  
+  3. Pharmacotherapy:
+  - Antibiotics: Give Tab Amoxicillin 25 mg/kg 8-hourly x 7/7 to treat occult infections.
+  - Metronidazole: Give 7.5 mg/kg 8-hourly x 7/7 (To cover for Giardia and small bowel bacterial overgrowth).
+  - Zinc Sulfate: 20 mg daily x 14/7.
+  - Vitamin A: 200,000 IU orally stat (single dose).
+  - Folic acid: 5 mg stat, then 1 mg daily.
+  - Multivitamin syrup: 5 ml daily.
+  - Iron supplements: Delay until the child is in the rehabilitation phase and has gained weight (usually after 2 weeks).
+  
+  4. Specific Dietary Modification:
+  - Trial of a Gluten-free diet (Avoid wheat, rye, and barley; use rice, maize, or tubers instead).
+  - Monitor stool consistency and frequency on a gluten-free regimen.
+  
+  5. Monitoring:
+  - Daily weight.
+  - Strict input and output charting.
+  - Monitor stool frequency and character.
+  - Monitor for hypoglycaemia (check 2-hourly blood glucose if possible or feed frequently).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-108',
+    title: 'Suspected Non-Hodgkin Lymphoma (Likely Burkitt Lymphoma) in a 4-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Oncology',
+    condition: 'Suspected Non-Hodgkin Lymphoma',
+    symptoms: [
+      'Progressive neck swelling',
+      'Low-grade fever',
+      'Abdominal distension',
+      'Weight loss',
+      'Night sweats',
+      'Loss of appetite'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 4-year-old boy presenting with rapidly progressive cervical lymphadenopathy, intermittent fever, drenching night sweats, weight loss, and abdominal distension. Examination reveals matted cervical and submandibular lymph nodes, pallor, emaciation, hepatomegaly, and splenomegaly, raising suspicion of Non-Hodgkin lymphoma, particularly Burkitt lymphoma.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Yusuf Abubakar
+  Age: 4 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Progressive neck swelling x 4/52
+  2. Low-grade fever x 3/52
+  3. Abdominal distension x 2/52
+  4. Weight loss x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 4 weeks ago when the mother noticed a small swelling on the left side of the neck. It was initially painless, about the size of a marble, but has rapidly increased in size to involve the entire left submandibular and cervical region. There is no associated skin redness, warmth, or discharge from the site.
+  
+  Three weeks prior to presentation, he developed a low-grade fever which is intermittent, worse at night, and associated with drenching night sweats. There was no associated cough, ear discharge, or sore throat.
+  
+  Two weeks ago, the mother noticed his abdomen was becoming progressively full and firm. This was associated with a significant loss of appetite and noticeable weight loss (clothes becoming loose). There is no history of yellowish discoloration of the eyes, change in bowel habits, or leg swelling.
+  
+  No history of easy bruising, epistaxis, or bone pain. No history of contact with anyone with chronic cough. He has been taken to a chemist where he was given unknown syrups and a course of Amoxicillin without improvement.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous hospitalizations or blood transfusions. No known chronic illnesses (SCD or Asthma).
+  
+  BIRTH HISTORY
+  
+  Pre-natal: Mother booked at 4 months EGA in a General Hospital. Received IPTp and iron/folic acid. No history of febrile illness during pregnancy.
+  
+  Natal: Delivered at term via SVD in a hospital. Cried immediately at birth. Birth weight was 3.2 kg.
+  
+  Post-natal: No neonatal jaundice or convulsions.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Weaned onto pap and family diet. Currently eats 2 meals per day with poor appetite.
+  
+  IMMUNIZATION HISTORY
+  
+  Up to date according to NPI schedule. BCG scar is present on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all milestones at appropriate ages. Currently in Nursery 1 and was performing well before the illness.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  4th child in a monogamous family of 5 children. Father is a subsistence farmer, mother is a petty trader. They live in a 2-room mud house with adequate ventilation. Source of water is a communal borehole.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no seizures.
+  RS: No cough, no fast breathing.
+  CVS: No palpitations, no orthopnea.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, emaciated, febrile (Temp 38.2 C).
+  Acutely distressed with visible neck masses.
+  Presence of significant pallor. No jaundice, no cyanosis, no pedal oedema.
+  Significant peripheral lymphadenopathy: Left cervical and submandibular lymph nodes matted, firm, non-tender, largest measuring 5 cm x 4 cm. Fixed to underlying structures but not to overlying skin.
+  
+  ANTHROPOMETRY
+  
+  Weight: 14 kg (Expected for age: 16 kg, approx 87% of expected)
+  Height: 102 cm
+  MUAC: 12.5 cm (Indicates moderate acute malnutrition)
+  
+  VITAL SIGNS
+  
+  PR: 110 bpm (regular, normal volume)
+  RR: 28 cpm
+  BP: 90/60 mmHg
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Full, moves with respiration.
+  Liver: Palpable 4 cm below the right costal margin, firm, smooth edges, non-tender. Total liver span 10 cm.
+  Spleen: Palpable 6 cm below the left costal margin (Hackett Grade 3).
+  Kidneys: Not ballottable.
+  No clinical evidence of ascites. Bowel sounds are present and normal.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central. Good air entry bilaterally. Lungs are clear.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat at 4th LICS, MCL. S1 S2 only. No murmurs.
+  
+  SUMMARY
+  
+  Yusuf is a 4-year-old male with a 4-week history of rapidly progressive cervical lymphadenopathy, night sweats, significant weight loss, and massive hepatosplenomegaly. Examination reveals an emaciated, pale, and febrile child with matted cervical nodes and significant organomegaly.
+  
+  ASSESSMENT
+  
+  Non-Hodgkin Lymphoma (likely Burkitt Lymphoma given the rapid progression)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Hodgkin Lymphoma
+  2. Tuberculous Lymphadenitis (Scrofula)
+  3. Acute Lymphoblastic Leukemia (Aleukemic phase)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. FBC/Blood film: To check for cytopenias or blast cells.
+  2. ESR: Usually elevated in malignancies/chronic infections.
+  3. Lymph node biopsy (Incisional or Tru-cut): For histology and immunohistochemistry.
+  4. Abdominal Ultrasound: To characterize organomegaly and check for retroperitoneal nodes.
+  5. Chest X-ray: To rule out mediastinal widening/lymphadenopathy.
+  6. Serum Electrolytes, Urea, Creatinine, Uric Acid, Calcium, and LDH: Critical for baseline and monitoring for Tumor Lysis Syndrome (TLS).
+  7. HIV Screening: To rule out HIV-associated lymphoma.
+  8. Bone marrow aspiration: To rule out marrow involvement.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. ADMISSION AND HYDRATION:
+  
+  Admit to the pediatric ward.
+  Start aggressive IV hydration to prevent Tumor Lysis Syndrome (TLS).
+  Fluid choice: 0.9 percent Normal Saline or 5 percent Dextrose in 0.45 percent Saline.
+  Volume: 3,000 ml/m2/day.
+  (Calculated BSA for 14kg/102cm is approx 0.6 m2).
+  Total fluid: 1,800 ml/24h (approx 75 ml/hour).
+  Maintain urine output at greater than 3 ml/kg/hour.
+  
+  2. PREVENT TUMOR LYSIS SYNDROME:
+  
+  Tab Allopurinol 100mg three times daily (10mg/kg/day).
+  Avoid potassium or phosphate in IV fluids initially.
+  Strict Input/Output charting.
+  
+  3. HEMATOLOGICAL SUPPORT:
+  
+  Group and cross-match 1 unit of sedimented Erc (packed cells) for correction of anemia (aim for PCV greater than 30 percent before starting chemo).
+  
+  4. CHEMOTHERAPY (To be started after histological confirmation and stabilization):
+  
+  Typical Nigerian pediatric oncology protocol (modified COP/CHOP):
+  - Inj Cyclophosphamide: 500 mg/m2 IV on Day 1. (Dose for 0.6 m2 = 300 mg).
+  - Inj Vincristine: 1.5 mg/m2 IV on Day 1 (Max 2mg). (Dose for 0.6 m2 = 0.9 mg).
+  - Tab Prednisolone: 40 mg/m2/day in divided doses for 5 days. (Dose for 0.6 m2 = 24 mg daily, e.g., 10mg morning, 10mg afternoon, 5mg night).
+  - Inj Methotrexate (Intrathecal): 12.5 mg (Age-based for CNS prophylaxis).
+  
+  5. NUTRITIONAL SUPPORT:
+  
+  High-protein, high-calorie diet.
+  Nutritional counseling for the mother.
+  
+  6. ANALGESIA:
+  
+  Syr Paracetamol 15mg/kg (200mg) every 8 hours for fever/pain.
+  
+  7. COUNSELING:
+  
+  Counsel parents on the nature of the disease, the need for a long-term treatment plan, and the importance of follow-up. Provide information on the side effects of chemotherapy (nausea, hair loss, immunosuppression).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-107',
+    title: 'Severe Acute Malnutrition (Marasmus) with Severe Bronchopneumonia and Severe Symptomatic Anaemia in an 18-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Unit',
+    condition: 'Severe Acute Malnutrition (Marasmus) with Complications',
+    symptoms: [
+      'Progressive weight loss',
+      'Cough and fast breathing',
+      'Fever',
+      'Generalized body weakness',
+      'Poor appetite',
+      'Occasional watery stools'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'An 18-month-old boy presenting with progressive weight loss, severe wasting, developmental regression, fever, cough, tachypnoea, and respiratory distress, with suspected severe acute malnutrition (marasmus), severe bronchopneumonia, severe symptomatic anaemia, and possible retroviral infection.',
+    content: `
+  PEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Musa Ibrahim
+  Age: 18 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Progressive weight loss x 4/12
+  2. Cough and fast breathing x 3/7
+  3. Fever x 3/7
+  4. Generalized body weakness x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The mother reports that the child was apparently well until about 4 months ago when she noticed he was not gaining weight and was progressively becoming thinner. This was despite efforts to feed him. There has been associated poor appetite and occasional watery stools.
+  
+  Three days prior to presentation, he developed a cough which was initially dry but became productive of yellowish sputum. This was followed by fast breathing and chest indrawing. There is an associated high-grade fever, intermittent, with no chills or rigors, but partially relieved by paracetamol syrup.
+  
+  In the last 2 weeks, the child has become excessively weak, unable to sit or play as he used to. There is no history of contact with any adult with a chronic cough. No history of skin rashes or ear discharge.
+  
+  PAST MEDICAL HISTORY
+  
+  Frequent episodes of catarrh and cough since age 6 months. No previous blood transfusion or surgeries.
+  
+  BIRTH HISTORY
+  
+  Product of a full-term pregnancy, spontaneous vaginal delivery at a Traditional Birth Attendant's home. Birth weight not known but said to be "small". No neonatal jaundice or convulsions.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 3 months, then started on diluted maize pap. He currently eats mainly family staples (Tuwo) but in small quantities. Frequency is 2 times a day. Diet is inadequate in protein, calories, and micronutrients.
+  
+  IMMUNIZATION HISTORY
+  
+  Incomplete. Only received BCG and OPV0 at birth. No BCG scar visible.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Gross motor: Attained sitting at 9 months but can no longer sit without support. Cannot stand or walk.
+  Language: Only makes cooing sounds.
+  Global developmental delay noted.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Parents are subsistence farmers. 4th child in a monogamous setting. Live in a mud house with poor ventilation. Source of water is a communal well.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No convulsions, no loss of consciousness.
+  GIT: No vomiting, occasional diarrhoea.
+  MSS: Severe wasting of muscles.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, severely wasted with "old man facies" and baggy pants appearance (loss of gluteal fat).
+  Conscious but irritable.
+  Febrile (Temp: 38.2 C).
+  Severely pale, anicteric, not cyanosed.
+  No pedal oedema (consistent with marasmus).
+  Significant dehydration (sunken eyes, dry mucous membranes).
+  No significant lymphadenopathy.
+  
+  ANTHROPOMETRY
+  
+  Weight: 5.2 kg (Very low for age).
+  Length: 72 cm.
+  Weight-for-Length: < -3 SD.
+  MUAC: 10.5 cm.
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  RR: 62 cpm (Tachypneic).
+  Distress: Subcostal and intercostal recessions, alar flaring.
+  Trachea central.
+  Percussion note: Resonant bilaterally.
+  Auscultation: Fine crepitations in the right mid and lower zones.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  PR: 148 bpm, low volume.
+  Heart sounds: S1, S2 only. No murmurs.
+  
+  ABDOMEN
+  
+  Scaphoid, moves with respiration.
+  Liver: 3 cm below the costal margin, smooth, non-tender.
+  Spleen: Not palpable.
+  Bowel sounds: Present and normal.
+  
+  NEUROLOGICAL SYSTEM
+  
+  GCS: 15/15.
+  Generalized muscle wasting and hypotonia.
+  Reflexes: Brisk.
+  
+  ASSESSMENT
+  
+  1. Severe Acute Malnutrition (Marasmus) with Complications.
+  2. Severe Bronchopneumonia.
+  3. Severe Symptomatic Anemia.
+  4. Possible Retroviral Infection (RVI).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Pulmonary Tuberculosis (PTB) in a child with SAM.
+  2. Disseminated BCGosis.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. FBC: To check Hb level (suspected severe anemia) and WBC count.
+  2. Blood film for malaria parasites (MPS).
+  3. Random Blood Sugar (RBS): To rule out hypoglycemia.
+  4. Chest X-ray: To confirm pneumonia or check for features of PTB (miliary shadows, hilar lymphadenopathy).
+  5. HIV Rapid Test (Provider-Initiated Testing and Counseling).
+  6. Gastric aspirate for GeneXpert (to rule out PTB).
+  7. Urinalysis and Urine culture.
+  8. Serum electrolytes, urea, and creatinine.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  Emergency/Stabilization Phase (WHO 10 Steps)
+  
+  1. Hypoglycemia:
+  Bolus of 10 percent Dextrose 5ml/kg (26ml) IV immediately, then include in feeds.
+  
+  2. Hypothermia:
+  Keep the child warm using the Kangaroo Mother Care method or wrap in warm blankets.
+  
+  3. Dehydration:
+  Use ReSoMal (Rehydration Solution for Malnutrition). 5ml/kg every 30 mins for the first 2 hours, then 5-10ml/kg/hr for the next 4-10 hours. Monitor for signs of overhydration (increasing RR/PR).
+  
+  4. Infection (Pneumonia):
+  - IV Ceftriaxone 80mg/kg daily (416mg IV OD).
+  - If no improvement, consider adding IV Gentamicin 7.5mg/kg OD.
+  
+  5. Severe Anemia:
+  - Transfuse Packed Red Blood Cells 10ml/kg (52ml) slowly over 4 hours.
+  - Give IV Furosemide 1mg/kg (5mg) at the start of the transfusion to prevent fluid overload.
+  
+  6. Nutritional Rehabilitation:
+  - Start F-75 formula (75 kcal/100ml).
+  - Volume: 130ml/kg/day divided into 2-hourly feeds (approx 30ml every 2 hours).
+  - Do not use high-protein/high-calorie feeds (F-100) in the stabilization phase.
+  
+  7. Micronutrients:
+  - Vitamin A: 200,000 IU stat (due to age >12 months).
+  - Folic acid: 5mg stat then 1mg daily.
+  - Multivitamin syrup: 5ml daily.
+  - Do NOT give Iron in the first week (stabilization phase).
+  
+  8. HIV Care:
+  - If HIV test is positive, initiate Counseling and link to ART clinic for DNA PCR/Viral load and commencement of Cotrimoxazole prophylaxis (Septrin).
+  
+  9. Monitoring:
+  - Strict Input/Output charting.
+  - 4-hourly Vital signs (PR, RR, Temp).
+  - Daily weight monitoring.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-106',
+    title: 'Severe Localized Allergic Reaction Following Suspected Insect Sting in a 4-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Unit',
+    condition: 'Severe Localized Allergic Reaction',
+    symptoms: [
+      'Swelling and redness of the right leg',
+      'Severe itching',
+      'Pain at the sting site',
+      'Localized erythematous swelling'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 4-year-old boy presenting with sudden-onset, extensive erythematous swelling, intense itching, and pain of the right lower limb following a suspected insect or arthropod sting, without associated respiratory or systemic symptoms.',
+    content: `
+  PEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Chidi Okechukwu
+  Age: 4 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Swelling and redness of the right leg x 3h
+  2. Severe itching and pain at the site x 3h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was playing outdoors approximately 3 hours ago when he suddenly started crying and complaining of a sting on his right calf. The mother noted a small red puncture mark which rapidly progressed to involve the entire lower leg.
+  
+  There is associated intense itching, and the child describes a burning sensation.
+  There is no history of facial or lip swelling.
+  No history of difficulty in breathing, wheezing, or change in voice.
+  No history of generalized body rashes or itchy welts (urticaria) elsewhere.
+  No history of vomiting, abdominal pain, or loss of consciousness.
+  This is the first time he is experiencing such a reaction.
+  Mother applied some herbal liniment to the site shortly after the incident, but there was no improvement.
+  
+  PAST MEDICAL HISTORY
+  
+  No known drug or food allergies.
+  No previous history of asthma or atopy.
+  No previous hospitalizations or surgeries.
+  
+  BIRTH HISTORY
+  
+  Term delivery via SVD at a General Hospital. No neonatal complications.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Currently on family diet. No history of reaction to new foods.
+  
+  IMMUNIZATION HISTORY
+  
+  Up to date according to the National Programme on Immunization (NPI). BCG scar is present.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all milestones at appropriate ages. Currently in nursery school.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, in painful distress but not in respiratory distress.
+  Afebrile (37.1 degrees C).
+  No pallor, no jaundice, no cyanosis.
+  No generalized lymphadenopathy.
+  No pedal oedema.
+  
+  ANTHROPOMETRY
+  
+  Weight: 16 kg
+  Height: 102 cm
+  
+  LOCAL EXAMINATION (RIGHT LOWER LIMB)
+  
+  Inspection: Significant erythematous swelling of the right leg extending from just below the knee to the ankle. There is a visible central puncture mark on the mid-calf. No necrotic changes or bullae noted.
+  
+  Palpation: The area is warm and exquisitely tender. Non-pitting oedema present. Popliteal and dorsalis pedis pulses are palpable and of good volume. Capillary refill time is less than 2 seconds.
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  RR 26 cpm. Trachea central. Breath sounds are vesicular; no wheeze or rhonchi.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  PR 110 bpm, regular, good volume. BP 95/60 mmHg. S1 and S2 only.
+  
+  ABDOMEN
+  
+  Soft, non-tender. No organomegaly. Bowel sounds present and normal.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious and alert. No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Severe localized allergic reaction (suspected insect/arthropod sting).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Early Cellulitis
+  2. Localized Angioedema
+  3. Contact Dermatitis
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check for eosinophilia or elevated white cell count.
+  2. Random Blood Sugar (RBS).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Immediate Measures:
+  - Elevate the affected limb.
+  - Apply cold compresses to the site for 10-15 minutes every few hours to reduce swelling and pain.
+  - Closely monitor vital signs (Pulse, RR, BP) and airway patency every 30 minutes for the next 4 hours to ensure no progression to anaphylaxis.
+  
+  2. Pharmacotherapy:
+  - Antihistamines: Syp Cetirizine 5mg (5ml) once daily for 3-5 days. Alternatively, Syp Chlorpheniramine 2mg (5ml) three times daily.
+  - Corticosteroids (due to the severity of local swelling): Tab Prednisolone 16mg (1mg/kg) orally once daily for 3 days.
+  - Analgesics: Syp Paracetamol 250mg (approx 15mg/kg) every 8 hours for pain.
+  - Topical: Calamine lotion applied to the affected area three times daily for soothing effect.
+  
+  3. Fluids (if child is not taking orally well or requires observation):
+  - Maintenance IVF: 5 percent Dextrose in 0.45 percent Normal Saline (or 4.3 percent Dextrose in 0.18 percent Saline).
+  - Volume for 16kg child: 1300ml over 24 hours (approx 54ml/hr).
+  - Current status: Encourage oral intake as the child is stable.
+  
+  4. Wound Care:
+  - Clean the puncture site with mild soap and water.
+  - Avoid tight dressings.
+  
+  5. Follow-up and Education:
+  - Counsel the mother on the signs of anaphylaxis (difficulty breathing, swelling of the throat/tongue, fainting).
+  - Advise to avoid the use of unidentified herbal applications on skin reactions.
+  - Patient can be managed as an outpatient if swelling stabilizes and no systemic signs appear after 4 hours of observation.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-105',
+    title: 'Acute Angioedema with Impending Airway Obstruction in an 8-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Unit',
+    condition: 'Acute Angioedema',
+    symptoms: [
+      'Swelling of the face and lips',
+      'Difficulty breathing',
+      'Inspiratory stridor',
+      'Hoarseness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'An 8-year-old boy presenting with acute, rapidly progressive facial and lip swelling followed by respiratory distress, inspiratory stridor, and hoarseness after ibuprofen administration, suggestive of drug-induced angioedema with impending airway obstruction.',
+    content: `
+  PEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  
+  Name: Master Chidi Okoro
+  Age: 8 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Swelling of the face and lips x 4h
+  2. Difficulty breathing x 1h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until 4 hours ago when he developed sudden onset, rapidly progressive swelling of the lips and the skin around both eyes. Swelling is described as painless and non-itchy. There is no associated redness or skin rash (urticaria).
+  
+  Two hours prior to the onset of swelling, he was given a tablet of Ibuprofen (dose unknown) by his mother for a mild headache. There is no history of insect stings, ingestion of new foods, or exposure to new soaps/detergents.
+  
+  About 1 hour ago, he developed difficulty breathing characterized by a high-pitched sound during inspiration and a change in his voice (hoarseness). No history of fever, rhinorrhea, or cough. No history of similar episodes in the past.
+  
+  PAST MEDICAL HISTORY
+  
+  Not a known asthmatic or sickle cell anaemic. No history of chronic kidney or heart disease. No previous history of allergies to drugs or food. No previous hospitalizations or surgeries.
+  
+  BIRTH AND NEONATAL HISTORY
+  
+  Term delivery via SVD at a General Hospital. Birth weight 3.2 kg. Cried immediately at birth. No neonatal jaundice or seizures.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Currently feeds on family menu. Diet is adequate for age.
+  
+  IMMUNIZATION HISTORY
+  
+  Up to date with NPI schedule. BCG scar is present.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all milestones at appropriate ages. Currently in Primary 3 and performing well.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  First child in a monogamous family of three children. Parents are traders. Reside in a 2-bedroom apartment with good ventilation. Source of water is a borehole.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures, no loss of consciousness.
+  GIT: No abdominal pain, no vomiting or diarrhoea.
+  MSS: No joint swellings or pains.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child in obvious respiratory distress (nasal flaring, intercostal recessions).
+  Conscious and alert.
+  Marked non-pitting oedema of the upper and lower lips, and bilateral periorbital oedema.
+  No urticarial rashes or wheals.
+  Not pale, anicteric, not dehydrated. No peripheral oedema.
+  No peripheral lymphadenopathy.
+  
+  ANTHROPOMETRY
+  
+  Weight: 25 kg (Expected for age)
+  Height: 125 cm
+  
+  VITAL SIGNS
+  
+  PR: 118 bpm (Tachycardia)
+  RR: 36 cpm (Tachypnoea)
+  Temp: 36.7 degrees Celsius
+  SpO2: 91 percent on room air
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  Audible inspiratory stridor.
+  Trachea central.
+  Chest expansion symmetrical.
+  Percussion note resonant bilaterally.
+  Breath sounds are vesicular, but transmitted upper airway sounds are heard. No wheeze or crepitations.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat at 5th LICS, MCL.
+  Heart sounds S1 and S2 heard. No murmurs.
+  
+  ABDOMINAL EXAMINATION
+  
+  Full, moves with respiration.
+  Soft, non-tender.
+  Liver and spleen not enlarged.
+  Bowel sounds present and normal.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  GCS 15/15.
+  No signs of meningeal irritation.
+  Tone, power, and reflexes normal in all limbs.
+  
+  ASSESSMENT
+  
+  Acute Angioedema with impending airway obstruction (likely drug-induced by NSAIDs).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Anaphylaxis (though absence of hypotension and urticaria makes this less likely, must be considered).
+  2. Hereditary Angioedema (Type I or II) - less likely given no family history and first episode.
+  3. C1-esterase inhibitor deficiency (acquired).
+  4. Acute Nephrotic Syndrome (ruled out by sudden onset and absence of proteinuria).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Clinical diagnosis (Primary).
+  2. Pulse Oximetry (Continuous monitoring).
+  3. FBC with differentials (Look for eosinophilia).
+  4. Urinalysis (To rule out proteinuria/renal causes).
+  5. Serum Electrolytes, Urea, and Creatinine.
+  6. Serum C4 levels (If Hereditary Angioedema is suspected; levels are usually low during attacks).
+  7. C1-esterase inhibitor quantitative and functional assay (if available).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  EMERGENCY STABILIZATION
+  
+  1. Maintain airway: Keep child in a comfortable upright position.
+  2. Oxygen therapy: 5-8 L/min via face mask to maintain SpO2 above 94 percent.
+  3. Prepare for emergency endotracheal intubation or tracheostomy if airway obstruction worsens.
+  4. Secure IV access with a wide-bore cannula.
+  
+  PHARMACOLOGY
+  
+  For Drug-Induced/Histaminergic Angioedema:
+  
+  1. Adrenaline (1:1000): 0.01 mg/kg IM (0.25 ml) into the anterolateral thigh. May repeat every 5-15 minutes if no improvement.
+  2. IV Hydrocortisone: 4 mg/kg (100 mg) stat, then 6 hourly.
+  3. IV Chlorpheniramine: 0.1 mg/kg (2.5 mg) stat.
+  4. IV Fluids: 0.9 percent Normal Saline at 20 ml/kg bolus if there are signs of shock.
+  
+  For Suspected Hereditary Angioedema (If not responding to Adrenaline/Steroids):
+  
+  1. Fresh Frozen Plasma (FFP): 10-15 ml/kg (approx 2 units for this child) as a source of C1-esterase inhibitor if purified concentrate is unavailable.
+  2. Purified C1-esterase inhibitor concentrate (if available): 20 Units/kg IV.
+  
+  MONITORING AND FOLLOW-UP
+  
+  1. Close monitoring of vital signs (PR, RR, BP, SpO2) every 15 minutes.
+  2. Watch for increased work of breathing, cyanosis, or exhaustion.
+  3. Strict avoidance of NSAIDs (Ibuprofen, Diclofenac, Aspirin) and ACE inhibitors in the future.
+  4. Patient education on carrying a medical alert card or bracelet.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-104',
+    title: 'Acute Anaphylaxis Secondary to Bee Sting in a 7-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Medicine and Allergy',
+    condition: 'Anaphylaxis Secondary to Bee Sting',
+    symptoms: [
+      'Generalized urticarial rash',
+      'Facial swelling',
+      'Lip and tongue swelling',
+      'Difficulty breathing',
+      'Wheezing',
+      'Tachycardia',
+      'Hypotension',
+      'Dizziness and restlessness'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'Master Chidi Okafor, a 7-year-old male from Enugu State, presents with rapidly progressive generalized urticaria, angioedema, and respiratory distress following a bee sting. Examination reveals lip and tongue swelling, bilateral wheeze with reduced air entry, tachycardia, hypotension, delayed capillary refill, and oxygen saturation of 89% on room air. The assessment is acute anaphylaxis secondary to a bee sting, with respiratory and cardiovascular compromise.',
+    content: `
+  PEDIATRIC EMERGENCY UNIT
+  
+  PATIENT IDENTIFICATION
+  Name: Master Chidi Okafor
+  Age: 7 years
+  Sex: Male
+  Address: Achara Layout, Enugu, Enugu State
+  Tribe: Igbo
+  Religion: Christian
+  Caregiver: Mother (Informant), Reliable
+  
+  PRESENTING COMPLAINTS
+  1. Generalized body rash x 30 mins
+  2. Swelling of the face x 20 mins
+  3. Difficulty breathing x 20 mins
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until about 30 minutes prior to presentation while playing in a garden where he was stung by a bee on the right forearm.
+  
+  Character: Within 5 minutes of the sting, he developed an intensely itchy, red, raised rash (hives) that started from the right arm and rapidly spread to the trunk, limbs, and face. This was followed 10 minutes later by swelling of the lips and eyelids.
+  
+  Course: The symptoms were rapidly progressive. Approximately 20 minutes prior to presentation, he started having difficulty breathing characterized by a choking sensation and an audible whistling sound (wheezing).
+  
+  Cause: Symptoms were triggered immediately following a bee sting. No history of ingestion of new foods or medications. No previous history of similar allergic reactions.
+  
+  Complications: He became very restless and complained of feeling faint. No history of seizures or loss of consciousness.
+  
+  Care so far: Mother applied palm oil to the sting site and gave a dose of paracetamol syrup before rushing him to the emergency room.
+  
+  PAST MEDICAL HISTORY
+  No known history of asthma or previous allergies to food or drugs. No previous hospital admissions or blood transfusions.
+  
+  BIRTH HISTORY
+  Delivery was via Spontaneous Vaginal Delivery at term in a private hospital. No history of neonatal jaundice or respiratory distress at birth. Birth weight was 3.2 kg.
+  
+  DIETARY HISTORY
+  Exclusively breastfed for 6 months. Currently eats family diet which is adequate for age.
+  
+  IMMUNIZATION HISTORY
+  Up to date with the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Attained all milestones at appropriate ages. Currently in Primary 2 and performing well academically.
+  
+  FAMILY AND SOCIAL HISTORY
+  Last child in a monogamous family of 3 children. Father is a trader, mother is a secondary school teacher. They live in a 2-bedroom flat with good ventilation.
+  
+  REVIEW OF SYSTEMS
+  Central Nervous System: Restless, no focal weakness.
+  Gastrointestinal: No abdominal pain, no vomiting.
+  Genitourinary: Noted to have passed urine once today.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking child in obvious respiratory and itchy distress. Restless and anxious.
+  No pallor, no jaundice, no cyanosis.
+  Significant angioedema (swelling) of the lips, tongue, and periorbital regions.
+  Generalized urticarial wheals over the trunk and extremities.
+  A stinger is visible on the right forearm with surrounding erythema and oedema.
+  
+  ANTHROPOMETRY
+  Weight: 24 kg
+  Height: 122 cm
+  
+  VITAL SIGNS
+  Pulse Rate: 140 bpm (Tachycardic, low volume)
+  Respiratory Rate: 44 cpm (Tachypneic, use of accessory muscles of respiration)
+  Temperature: 36.6 degrees Celsius
+  SpO2: 89 percent on room air
+  Blood Pressure: 85/55 mmHg (Hypotensive for age)
+  Capillary Refill Time: 3 seconds
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  Trachea central.
+  Bilateral chest expansion is symmetrical but decreased.
+  Percussion note is resonant bilaterally.
+  Auscultation reveals bilateral polyphonic wheeze and reduced air entry.
+  
+  CARDIOVASCULAR SYSTEM
+  Apex beat at 5th left intercostal space, midclavicular line.
+  S1 and S2 only. No murmurs.
+  
+  ABDOMEN
+  Full, moves with respiration.
+  Soft, no organomegaly.
+  Bowel sounds present and normal.
+  
+  NEUROLOGICAL SYSTEM
+  Conscious (GCS 15/15).
+  No signs of meningeal irritation.
+  Normal muscle tone and reflexes in all limbs.
+  
+  ASSESSMENT
+  Anaphylaxis secondary to Bee Sting.
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Acute Asthma Exacerbation (triggered by environmental factors)
+  2. Hereditary Angioedema (less likely given acute sting)
+  3. Foreign Body Aspiration (less likely given skin findings)
+  
+  INITIAL INVESTIGATION PLAN
+  1. Clinical diagnosis (primary) - Do not delay treatment for investigations.
+  2. Pulse Oximetry (continuous monitoring).
+  3. Full Blood Count (check for eosinophilia/baseline).
+  4. Serum Tryptase (if available, though often not feasible in acute setting).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  EMERGENCY/URGENT INTERVENTIONS
+  1. Secure Airway, Breathing, and Circulation (ABC).
+  2. Administer Oxygen via face mask at 5-10 L/min to maintain SpO2 above 94 percent.
+  3. First-line: Intramuscular (IM) Adrenaline (1:1000).
+     Dose: 0.01 mg/kg. For 24 kg child, give 0.24 mg (0.24 ml) IM into the anterolateral mid-thigh. Repeat every 5-15 minutes if no clinical improvement.
+  4. Positioning: Lay patient flat with legs elevated to maintain venous return. Do not allow him to sit or stand suddenly.
+  5. IV Access: Secure two large-bore peripheral cannulae.
+  6. Fluid Resuscitation: IV Normal Saline bolus (20 ml/kg).
+     Volume: 480 ml (approx 500 ml) given rapidly over 10-20 minutes to treat hypotension.
+  7. Remove the stinger: Scrape it off horizontally using a flat edge (e.g., a plastic card). Do not use tweezers to avoid squeezing more venom.
+  
+  SECONDARY MEDICATIONS
+  1. Nebulized Salbutamol: 2.5 mg to relieve bronchospasm/wheeze.
+  2. IV Hydrocortisone: 4 mg/kg (approx 100 mg) to prevent late-phase reactions.
+  3. IV Chlorpheniramine: 2.5 mg to help with itching and urticaria (only after patient is stable).
+  
+  MONITORING AND DISPOSITION
+  1. Continuous monitoring of vitals (PR, RR, BP, SpO2) every 15 minutes.
+  2. Admit for observation for at least 12-24 hours due to risk of biphasic reaction.
+  3. Educate parents on future avoidance and use of emergency kits (EpiPen if available).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-103',
+    title: 'Severe Acute Malnutrition (Marasmic-Kwashiorkor) with Sepsis and Severe Dehydration in an 18-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Nutrition and Emergency Medicine',
+    condition: 'Severe Acute Malnutrition (Marasmic-Kwashiorkor) with Sepsis and Severe Dehydration',
+    symptoms: [
+      'Generalized body swelling',
+      'Poor weight gain',
+      'Fever',
+      'Loose stools',
+      'Vomiting',
+      'Cough',
+      'Fast breathing',
+      'Reduced urine output',
+      'Lethargy',
+      'Bilateral pitting pedal oedema'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'Musa Abubakar, an 18-month-old male from Dutse, Jigawa State, presents with a 2-week history of generalized swelling and poor weight gain, followed by fever, vomiting, diarrhoea, cough, and fast breathing. Examination reveals severe wasting with bilateral pitting oedema, marked dehydration, pallor, hepatomegaly, right basal crepitations, tachypnoea, tachycardia, and oxygen saturation of 91% on room air. The assessment is severe acute malnutrition (marasmic-kwashiorkor) complicated by suspected sepsis, severe dehydration, respiratory distress, and moderate anaemia.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  Name: Musa Abubakar
+  Age: 18 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Body swelling and poor weight gain x 2/52
+  2. Fever x 3/7
+  3. Loose stools and vomiting x 2/7
+  4. Cough and fast breathing x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was reportedly well until 2 weeks ago when the mother noticed swelling of the feet which progressively involved the legs and the face. She also noted that the child appeared significantly thinner than his peers and had lost weight. There was associated irritability and loss of appetite.
+  
+  Three days prior to presentation, he developed a high-grade, intermittent fever, not associated with chills or rigors. This was followed 2 days ago by the onset of frequent loose, watery stools (about 5-6 episodes per day) and non-projectile, non-bilious vomiting of recently ingested meals.
+  
+  Yesterday, the mother noticed he started coughing, which was non-productive, and had associated fast breathing and chest indrawing. There was no history of wheezing or bluish discoloration of the lips. Urine output has been significantly reduced since the onset of diarrhoea.
+  
+  PAST MEDICAL HISTORY
+  No previous hospitalizations or blood transfusions. No known history of sickle cell disease or asthma.
+  
+  DIETARY HISTORY
+  He was exclusively breastfed for only 3 months. He was started on a complementary diet consisting primarily of watery maize pap (akamu) without milk or protein fortification. Currently eats about twice a day, mostly family cereal-based meals. History suggests inadequate caloric and protein intake.
+  
+  IMMUNIZATION HISTORY
+  Received BCG and OPV0 at birth. Defaulted after the 6-week visit (Penta 1). No BCG scar visible on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Gross motor: Sat at 9 months, not yet standing without support.
+  Language: Only makes occasional monosyllables.
+  Social: Smiles but appears very lethargic and irritable.
+  Suggestive of global developmental delay secondary to chronic malnutrition.
+  
+  FAMILY AND SOCIAL HISTORY
+  4th child in a monogamous family of 5 children. Father is a subsistence farmer, mother is a housewife. They live in a mud house with poor ventilation. Source of water is a communal well. Refuse is disposed of in an open dump near the house.
+  
+  REVIEW OF SYSTEMS
+  CNS: Lethargic, no convulsions.
+  CVS: No history of cyanosis.
+  MSS: No bone pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking child, lethargic and irritable.
+  Obvious features of Marasmic-Kwashiorkor: Flag sign (thin, reddish hair), moon face, baggy pants appearance (wasted buttocks), and bilateral pitting pedal oedema up to the knees.
+  Pallor: Moderate
+  Jaundice: Absent
+  Cyanosis: Absent
+  Dehydration: Severe (depressed fontanelle, sunken eyes, skin pinch retracts very slowly > 2 seconds, dry mucous membranes).
+  Lymphadenopathy: None.
+  
+  ANTHROPOMETRY
+  Weight: 6.5 kg (Expected for age is ~11 kg)
+  Length: 74 cm
+  Weight-for-Length: < -3 SD (WHO Growth Charts)
+  MUAC: 10.5 cm (Indicates severe wasting)
+  
+  VITAL SIGNS
+  Temp: 38.5 C
+  RR: 52 cpm (Tachypneic, with subcostal and intercostal recessions)
+  PR: 145 bpm (Tachycardic, low volume)
+  SpO2: 91% in room air
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  Trachea central. Tachypnea with increased work of breathing. Percussion note is resonant bilaterally. Auscultation reveals coarse crepitations in the right lower lung zone.
+  
+  CARDIOVASCULAR SYSTEM
+  Pulse is rapid and thready. Heart sounds S1, S2 only. No murmurs. Apex beat at 4th Left ICS, MCL.
+  
+  ABDOMEN
+  Distended. Moves with respiration. Liver palpable 4 cm below the costal margin, smooth, firm, and non-tender (likely fatty infiltration). Spleen not palpable. Bowel sounds are hyperactive.
+  
+  NEUROLOGICAL SYSTEM
+  Lethargic but responds to painful stimuli. Muscle tone is generally reduced. DTRs are normal. No signs of meningeal irritation.
+  
+  ASSESSMENT
+  Severe Acute Malnutrition (Marasmic-Kwashiorkor) with Complications:
+  1. Sepsis (Focus: Right Basal Pneumonia vs Acute Gastroenteritis)
+  2. Severe Dehydration
+  3. Moderate Anemia
+  
+  DIFFERENTIAL DIAGNOSES
+  1. HIV infection with opportunistic infections
+  2. Disseminated Tuberculosis
+  3. Congestive Cardiac Failure secondary to severe anemia and sepsis
+  
+  INITIAL INVESTIGATION PLAN
+  1. Random Blood Sugar (RBS): To rule out hypoglycemia (Urgent)
+  2. FBC/Film Comment: Check PCV, WBC (leukocytosis/leukopenia), and morphology
+  3. MPS: Rule out malaria
+  4. Serum Electrolytes, Urea, and Creatinine: Assess renal function and electrolyte imbalance
+  5. Blood Culture: Identify causative organism for sepsis
+  6. Urinalysis and Urine Microscopy: Check for UTI
+  7. Chest X-ray (AP view): Confirm pneumonia
+  8. Stool Microscopy, Culture, and Sensitivity
+  9. HIV Screening (DBS/DNA PCR if available)
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. EMERGENCY PHASE (STABILIZATION)
+  - Keep child warm (prevent hypothermia).
+  - Manage Hypoglycemia: Give 50 ml of 10% Dextrose (bolus) or 50 ml of 10% Sucrose solution orally/NG tube if conscious.
+  - Oxygen Therapy: Start 1-2 L/min via nasal prongs to maintain SpO2 > 94%.
+  
+  2. FLUID MANAGEMENT (SEVERE DEHYDRATION IN SAM)
+  Note: Standard IV rehydration is dangerous in SAM.
+  - If in Shock (Lethargic/Unconscious with weak pulse): Give IV 15 ml/kg of 5% Dextrose in 0.45% Saline (or Ringer's Lactate with 5% Dextrose) over 1 hour. Monitor RR and PR every 10 minutes for signs of overhydration/heart failure.
+  - If not in shock but severely dehydrated: Use ReSoMal (Rehydration Solution for Malnutrition).
+  - Dosage: 5 ml/kg every 30 minutes for the first 2 hours (via NG tube or orally), then 5-10 ml/kg/hr for the next 4-10 hours.
+  
+  3. ANTIBIOTICS (BROAD-SPECTRUM COVERAGE)
+  - Inj. Ceftriaxone 100 mg/kg IV once daily (650 mg OD).
+  - AND Inj. Gentamicin 7.5 mg/kg IV once daily (approx. 48 mg OD).
+  - If pneumonia is severe, consider adding Cloxacillin or changing to Ampicillin/Gentamicin.
+  
+  4. NUTRITION
+  - Start F-75 formula once stabilized.
+  - Volume: 130 ml/kg/day (approx. 105 ml every 3 hours or 70 ml every 2 hours).
+  - Do not use high-protein formulas (F-100) or RUTF in the initial stabilization phase.
+  
+  5. VITAMIN/MICRONUTRIENT SUPPLEMENTATION
+  - Vitamin A: 200,000 IU stat (oral) unless already received in the last month.
+  - Folic acid: 5 mg stat then 1 mg daily.
+  - Multivitamin syrup: 5 ml daily.
+  - Zinc: 20 mg daily for 10-14 days (for diarrhoea).
+  - Do not give Iron in the initial phase.
+  
+  6. ANAEMIA
+  - If PCV < 12% or clinically indicated by heart failure: Transfuse 10 ml/kg of Packed Red Blood Cells (PRBC) over 3-4 hours. Give IV Furosemide 1 mg/kg at the start of transfusion.
+  
+  7. NURSING CARE
+  - Maintain a strict input/output chart.
+  - Monitor vitals 2-hourly.
+  - Daily weight monitoring.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-102',
+    title: 'Severe Acute Malnutrition (Marasmus) with Suspected Pulmonary Tuberculosis in an 18-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Nutrition and Respiratory Medicine',
+    condition: 'Severe Acute Malnutrition (Marasmus) with Suspected Pulmonary Tuberculosis',
+    symptoms: [
+      'Progressive weight loss',
+      'Chronic cough',
+      'Recurrent loose, foul-smelling stools',
+      'Loss of appetite',
+      'Evening fever',
+      'Drenching night sweats',
+      'Generalized muscle wasting',
+      'Developmental delay'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'Master A. B., an 18-month-old male from Dutse, Jigawa State, presents with a 4-month history of progressive weight loss, a 3-week history of persistent cough, and a 2-week history of frequent, bulky, foul-smelling stools suggestive of malabsorption. Examination reveals severe wasting, marked loss of subcutaneous fat, MUAC of 10.2 cm, dehydration, pallor, matted cervical lymphadenopathy, tachypnoea, and right upper-zone signs of pulmonary consolidation. The assessment is severe acute malnutrition (marasmus) with suspected pulmonary tuberculosis and secondary malabsorption.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  Name: Master A. B.
+  Age: 18 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Progressive weight loss x 4/12
+  2. Chronic cough x 3/52
+  3. Recurrent loose, foul-smelling stools x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 4 months ago when the mother noticed progressive weight loss despite her efforts to feed him. Weight loss was associated with a gradual loss of subcutaneous fat and a prominent appearance of the ribs and facial bones. There was associated loss of appetite.
+  
+  Three weeks prior to presentation, he developed a cough which has been persistent. The cough is non-paroxysmal, non-productive, and worse at night. There were associated low-grade evening fevers and excessive drenching night sweats. No history of contact with an adult with a chronic cough.
+  
+  Two weeks ago, he started passing frequent, loose, bulky, and foul-smelling stools. The stools are oily in consistency and difficult to flush/wash off. No blood in stool. No associated vomiting or abdominal distension.
+  
+  PAST MEDICAL HISTORY
+  He has had recurrent episodes of respiratory tract infections and diarrhoeal diseases since the age of 6 months. No previous history of blood transfusion or surgical interventions. Not a known retroviral patient; mother's HIV status was negative at booking.
+  
+  DIETARY HISTORY
+  He was exclusively breastfed for 3 months. He was weaned early onto diluted maize pap (kunu) which is the mainstay of his diet. He rarely takes animal protein or vegetables. Frequency of feeding is twice daily.
+  Current intake is inadequate in frequency, density, and utilization.
+  
+  IMMUNIZATION HISTORY
+  Received BCG, OPV0, and HBV0 at birth. Received pentavalent vaccines and OPV at 6, 10, and 14 weeks. Missed measles and yellow fever vaccines at 9 months. BCG scar is not visible.
+  
+  DEVELOPMENTAL HISTORY
+  He can sit without support but cannot stand or walk. He can speak a few single words (mama, dada). There is an apparent delay in gross motor milestones.
+  
+  FAMILY AND SOCIAL HISTORY
+  Patient is the 4th child in a monogamous family setting. Father is a subsistence farmer, mother is a petty trader. They live in a poorly ventilated single room in a compound house. Source of water is a communal well. Refuse is disposed of in an open dump.
+  
+  REVIEW OF SYSTEMS
+  CNS: Irritable, no seizures.
+  CVS: No history of orthopnoea or cyanosis.
+  MSS: Generalized muscle wasting.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  An acutely ill-looking child, irritable, severely wasted with a "wizened" or "old man" facies. There is a total loss of subcutaneous fat and severe muscle wasting, most prominent in the gluteal region (baggy pants appearance).
+  No pedal oedema (Non-oedematous malnutrition).
+  Pallor: Present (+)
+  Jaundice: Absent
+  Cyanosis: Absent
+  Dehydration: Present (skin pinch goes back slowly, dry mucous membranes)
+  Lymphadenopathy: Significant matted cervical lymph nodes present.
+  
+  ANTHROPOMETRY
+  Weight: 5.2 kg (Expected for age: ~11 kg)
+  Length: 72 cm
+  Weight-for-Length: < -3SD (WHO Z-score)
+  MUAC: 10.2 cm (Indicates Severe Acute Malnutrition)
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  RR: 48 cpm (Tachypneic). Mild subcostal recessions. Trachea is central.
+  Percussion: Dull notes over the right upper lung zone.
+  Auscultation: Bronchial breath sounds and fine crepitations over the right upper zone.
+  
+  CARDIOVASCULAR SYSTEM
+  PR: 132 bpm, low volume, regular.
+  Heart sounds: S1, S2 heard; no murmurs.
+  
+  ABDOMEN
+  Shape: Scaphoid.
+  Liver: 2 cm below the costal margin, smooth edges, non-tender.
+  Spleen: Not palpable.
+  Bowel sounds: Hyperactive.
+  
+  NEUROLOGICAL SYSTEM
+  Conscious but irritable.
+  Normal muscle tone in all limbs but severely reduced muscle bulk.
+  Reflexes: Brisk.
+  
+  ASSESSMENT
+  Severe Acute Malnutrition (Marasmus) with suspected Pulmonary Tuberculosis and secondary Malabsorption (likely due to villous atrophy or secondary lactose intolerance).
+  
+  DIFFERENTIAL DIAGNOSES
+  1. HIV/AIDS with opportunistic infections (PTB and Chronic Diarrhoea)
+  2. Cystic Fibrosis (less common in this setting but fits malabsorption/respiratory symptoms)
+  3. Chronic Giardiasis
+  
+  INITIAL INVESTIGATION PLAN
+  1. FBC: Check for anaemia (PCV) and leucocytosis.
+  2. Sputum/Gastric aspirate for GeneXpert MTB/RIF: To confirm PTB.
+  3. Chest X-ray: Look for hilar lymphadenopathy or upper lobe opacities.
+  4. Mantoux test: Though often false negative in SAM.
+  5. HIV Screening: Mandatory for all SAM/TB cases.
+  6. Stool Microscopy, Culture, and Sensitivity: Check for parasites/steatorrhoea.
+  7. Serum electrolytes, urea, and creatinine: To check for imbalances.
+  8. Blood glucose: Rule out hypoglycaemia.
+  
+  INITIAL MANAGEMENT PLAN
+  Patient requires inpatient stabilization following the WHO 10-step protocol for SAM.
+  
+  1. TREAT/PREVENT HYPOGLYCAEMIA
+  Give 10 percent Dextrose 5 ml/kg bolus if symptomatic, or feed with F-75 immediately.
+  
+  2. TREAT/PREVENT HYPOTHERMIA
+  Keep warm with clothing and blankets; use Kangaroo Mother Care.
+  
+  3. TREAT/PREVENT DEHYDRATION
+  Avoid standard ORS. Use ReSoMal (Rehydration Solution for Malnutrition).
+  Dose: 5 ml/kg every 30 mins for the first 2 hours, then 5-10 ml/kg every hour for the next 4-10 hours.
+  
+  4. CORRECT ELECTROLYTE IMBALANCE
+  Supplied via feeds (F-75/F-100). Do not give extra Potassium as ReSoMal contains it.
+  
+  5. TREAT INFECTION
+  Broad-spectrum antibiotics:
+  IV Ampicillin 50 mg/kg 6 hourly for 7 days.
+  IV Gentamicin 7.5 mg/kg once daily for 7 days.
+  
+  6. CORRECT MICRONUTRIENT DEFICIENCIES
+  Vitamin A: 200,000 IU stat on Day 1 (age >12 months).
+  Folic acid: 5 mg on Day 1, then 1 mg daily.
+  Multivitamin syrup: 5 ml daily.
+  Iron: Do NOT give iron in the stabilization phase; start only in the rehabilitation phase.
+  
+  7. START CAUTIOUS FEEDING (STABILIZATION PHASE)
+  Use F-75 (75 kcal/100 ml).
+  Volume: 130 ml/kg/day divided into 2-hourly feeds (approx. 56 ml every 2 hours for this 5.2 kg child).
+  
+  8. ADDRESS PULMONARY TB
+  Initiate Anti-TB therapy (intensive phase) once stabilized:
+  Rifampicin (R) 15 mg/kg
+  Isoniazid (H) 10 mg/kg
+  Pyrazinamide (Z) 35 mg/kg
+  Ethambutol (E) 20 mg/kg
+  Note: Use pediatric fixed-dose combinations (FDCs).
+  
+  9. MANAGE MALABSORPTION
+  If stools persist on F-75, consider lactose-free or cereal-based F-75.
+  If Giardiasis suspected: Oral Metronidazole 7.5 mg/kg 8 hourly for 5-7 days.
+  
+  10. SENSORY STIMULATION AND DISCHARGE PLANNING
+  Provide a cheerful environment. Train mother on hygiene and proper complementary feeding using locally available foods (soybeans, groundnuts, crayfish in pap). Follow up at the Outpatient Therapeutic Program (OTP) for RUTF (Ready-to-Use Therapeutic Food) during the rehabilitation phase.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-101',
+    title: 'Chronic Diarrhoea with Moderate Acute Malnutrition in an 18-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Gastroenterology and Nutrition',
+    condition: 'Chronic Diarrhoea with Moderate Acute Malnutrition (MAM)',
+    symptoms: [
+      'Frequent loose stools',
+      'Poor weight gain',
+      'Recurrent low-grade fever',
+      'Poor appetite',
+      'Irritability',
+      'Mild dehydration'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'Musa Ibrahim, an 18-month-old male from Dutse, Jigawa State, presents with a 3-week history of frequent watery diarrhoea, a 2-week history of poor weight gain, and a 1-week history of intermittent low-grade fever. Examination reveals mild dehydration, poor weight for age, and a MUAC of 12.0 cm, suggestive of moderate acute malnutrition. The assessment is chronic diarrhoea with dehydration and moderate acute malnutrition. Differential diagnoses include environmental enteric dysfunction, post-infectious malabsorption, giardiasis, and HIV-associated enteropathy.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  Name: Musa Ibrahim
+  Age: 18 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Frequent loose stools x 3/52
+  2. Poor weight gain x 2/52
+  3. Recurrent low-grade fever x 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  Musa was apparently well until 3 weeks ago when he began passing loose, non-bloody, non-mucoid stools, about 4 to 6 episodes per day. Stools are described as watery, yellowish, and occasionally foul-smelling. There is no associated projectile vomiting, though he has occasional post-prandial spitting up.
+  
+  The mother noticed he has become progressively thinner over the last 2 weeks despite a fair appetite initially. He is now increasingly irritable and has started refusing most solid foods. There was a history of low-grade fever which was intermittent, partially relieved by paracetamol but recurs. There is no history of cough, fast breathing, or convulsions.
+  
+  Care so far: Mother has been giving ORS and some herbal concoctions at home with no significant improvement.
+  
+  PAST MEDICAL HISTORY
+  No previous hospitalizations. No known history of asthma. Genotype is AA.
+  
+  BIRTH HISTORY
+  Prenatal: Mother registered at a PHC, attended 4 ANC visits. Took routine Iron and Folic acid. Pregnancy was term.
+  Natal: Spontaneous vaginal delivery at a maternity center. Cried immediately at birth.
+  Post-natal: No neonatal jaundice, fever, or breathing difficulties.
+  
+  DIETARY HISTORY
+  Exclusively breastfed for 4 months. Commenced on dilute maize pap thereafter. Currently eats family diet (mostly cereals) but intake is poor. History suggests inadequate protein and caloric intake for age.
+  
+  IMMUNIZATION HISTORY
+  Up to date as per NPI schedule. BCG scar is present on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Sat at 7 months, crawled at 9 months, started walking at 13 months. Currently says 2-3 word sentences. Development is appropriate for age.
+  
+  FAMILY AND SOCIAL HISTORY
+  3rd child in a monogamous family. Father is a subsistence farmer, mother is a petty trader. Live in a two-room mud house with poor ventilation. Source of water is a community well. Use pit latrine for waste disposal.
+  
+  REVIEW OF SYSTEMS
+  RS: No cough, no chest indrawing.
+  CVS: No cyanosis or pedal oedema.
+  CNS: Conscious, no seizures.
+  GIT: As in HPC.
+  
+  PHYSICAL EXAMINATION
+  General: An ill-looking child, irritable but conscious. Not pale, not jaundiced. Mildly dehydrated (sunken eyes, skin pinch goes back slowly). No pedal oedema. No significant peripheral lymphadenopathy.
+  
+  ANTHROPOMETRY
+  Weight: 8.5 kg (Expected for age is approx 11.5 kg)
+  MUAC: 12.0 cm (Suggests moderate acute malnutrition)
+  OFC: 47 cm
+  
+  SYSTEMIC EXAMINATION
+  Respiratory: RR 32 cpm. Trachea central. Breath sounds are vesicular. No adventitious sounds.
+  Cardiovascular: PR 112 bpm, regular, normal volume. S1 S2 heard. No murmurs.
+  Abdominal: Slightly distended. Soft, non-tender. Liver 2 cm below RCM, smooth edge. Spleen not palpable. Bowel sounds are hyperactive.
+  CNS: No focal neurological deficit. Normal muscle tone in all limbs.
+  
+  ASSESSMENT
+  Chronic Diarrhoea with Moderate Dehydration and Moderate Acute Malnutrition (MAM).
+  
+  DIFFERENTIAL DIAGNOSES
+  1. Environmental Enteric Dysfunction (EED)
+  2. Post-infectious Malabsorption (Secondary Lactose Intolerance)
+  3. Giardiasis
+  4. HIV-associated Enteropathy
+  
+  INITIAL INVESTIGATION PLAN
+  1. FBC: To check for anaemia or leucocytosis.
+  2. Stool Microscopy, Culture, and Sensitivity: To look for cysts (Giardia), ova, or trophozoites.
+  3. Stool for Reducing Substances: To rule out secondary lactose intolerance.
+  4. Electrolytes, Urea, and Creatinine: To assess hydration status and renal function.
+  5. HIV Screening (Rapid test): Given the chronic nature of the diarrhoea.
+  6. Random Blood Sugar: To rule out hypoglycaemia.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. REHYDRATION (Plan B for Moderate Dehydration)
+  - Give ORS 75 ml/kg over 4 hours.
+  - Calculation: 8.5 kg x 75 ml = 637.5 ml (approx. 640 ml) over 4 hours.
+  - Administer via cup and spoon. If vomiting occurs, wait 10 mins and resume more slowly.
+  
+  2. NUTRITIONAL REHABILITATION
+  - Encourage frequent breastfeeding.
+  - If stool reducing substances are positive, transition to a lactose-free formula or fermented pap.
+  - Increase caloric density by adding 1 teaspoon of vegetable oil to each serving of pap.
+  - Small, frequent feeds (6-8 times a day).
+  
+  3. SUPPLEMENTS
+  - Zinc Sulphate: 20 mg PO daily x 14 days (To reduce severity and duration).
+  - Vitamin A: 200,000 IU orally stat (For mucosal integrity and immune support).
+  - Multivitamin drops: 1 ml daily.
+  
+  4. EMPIRICAL TREATMENT
+  - Suspension Metronidazole: 7.5 mg/kg TID x 7 days (Suspected Giardia).
+  - Dose: 8.5 kg x 7.5 mg = 63.75 mg per dose. Using 100 mg/5 ml suspension, give 3.2 ml TID x 7/7.
+  
+  5. MONITORING AND FOLLOW-UP
+  - Reassess hydration status every hour.
+  - Daily weight monitoring.
+  - Document frequency and consistency of stools.
+  - Health education for mother on hygiene, water boiling, and proper weaning practices.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-100',
+    title: 'Severe Acute Malnutrition (Marasmic-Kwashiorkor) in an 18-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Nutrition and Gastroenterology',
+    condition: 'Severe Acute Malnutrition (Marasmic-Kwashiorkor)',
+    symptoms: [
+      'Progressive weight loss',
+      'Bilateral leg swelling',
+      'Poor appetite',
+      'Irritability',
+      'Developmental delay',
+      'Bilateral pitting pedal edema'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'Amina Musa, an 18-month-old female from Kano State, presents with a 4-month history of progressive weight loss, a 2-week history of bilateral leg swelling, and a 1-week history of poor appetite following inadequate complementary feeding. Examination reveals severe wasting, bilateral pitting pedal edema, sparse and discoloured hair, flaky-paint dermatosis, pallor, hypothermia, dehydration, and hepatomegaly. Anthropometry shows a weight of 6.8 kg and MUAC of 11.0 cm. The assessment is severe acute malnutrition (marasmic-kwashiorkor) with complications.',
+    content: `
+  PEDIATRIC CLINIC
+  
+  PATIENT IDENTIFICATION
+  Name: Amina Musa
+  Age: 18 months
+  Sex: Female
+  Address: Nassarawa, Kano State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  1. Progressive weight loss x 4/12
+  2. Bilateral leg swelling x 2/52
+  3. Poor appetite x 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  The patient was apparently well until 4 months ago when the mother noticed progressive weight loss, initially evidenced by her clothes becoming loose. There was associated loss of subcutaneous fat, most prominent around the buttocks and limbs.
+  
+  Two weeks ago, the mother noticed swelling of both feet which has since progressed to involve the legs. The swelling is non-tender and worse in the evenings.
+  
+  The mother also reports a decrease in the child's appetite over the last week. There is no history of chronic cough, contact with a person with chronic cough, or drenching night sweats. No history of recurrent diarrhoea or vomiting. No history of fever or ear discharge. The mother reports the child has been increasingly irritable and less playful.
+  
+  DIETARY HISTORY
+  The child was exclusively breastfed for 4 months, after which watery millet pap (akamu) was introduced. Breastfeeding was stopped at 12 months. Current diet consists primarily of millet pap and small amounts of family cereal. There is minimal intake of animal protein (eggs, meat, or milk) or legumes.
+  Frequency: 3 times a day.
+  Adequacy: Inadequate in both caloric density and protein content.
+  
+  PAST MEDICAL HISTORY
+  No previous hospital admissions. No history of blood transfusion. No known drug allergies.
+  
+  BIRTH HISTORY
+  Spontaneous vaginal delivery at a Primary Health Center at term. Birth weight was not recorded but mother says she was "normal size". No neonatal complications.
+  
+  IMMUNIZATION HISTORY
+  Received BCG, OPV0, and HepB0 at birth. Defaulted after the 6-week visit (Pentavalent 1, OPV 1, PCV 1). BCG scar is visible on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  Gross Motor: Sat without support at 9 months. Currently stands with support but cannot walk independently. (Delayed)
+  Social: Smiles responsively. Recognizes mother. (Appropriate)
+  
+  FAMILY AND SOCIAL HISTORY
+  Mother is a housewife with no formal education. Father is a daily wage labourer (Artisan). They live in a single-room apartment with poor ventilation. Source of water is a communal well. Refuse is disposed of in an open dump nearby. She is the 4th of 5 children; others are alive and well.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  Acutely ill-looking child, irritable and lethargic.
+  Presence of bilateral pitting pedal oedema up to the mid-shin.
+  Marked wasting of the upper arms and chest (baggy pants appearance of the buttocks).
+  Hair is sparse, thin, and easily pluckable with a reddish-brown discolouration.
+  Skin is dry with "flaky paint" dermatosis on the thighs.
+  Pallor: Present (+).
+  Jaundice: Absent.
+  Cyanosis: Absent.
+  Dehydration: Present (Skin pinch goes back slowly, sunken eyes).
+  
+  ANTHROPOMETRY
+  Weight: 6.8 kg (Expected for age: ~11 kg)
+  Length: 76 cm
+  Weight-for-Length: < -3 Z-score
+  MUAC: 11.0 cm (Indicates Severe Acute Malnutrition)
+  
+  VITAL SIGNS
+  Temp: 35.8 C (Hypothermic)
+  PR: 110 bpm (Low volume)
+  RR: 32 cpm
+  SpO2: 96% in room air
+  
+  SYSTEMIC EXAMINATION
+  Respiratory System: Trachea central. Normal vesicular breath sounds. No added sounds.
+  Cardiovascular System: S1, S2 heard. No murmurs.
+  Abdominal System: Distended, moves with respiration. Liver palpable 3 cm below the right costal margin, smooth, firm (suggestive of fatty liver). Spleen not palpable. Bowel sounds present.
+  Neurologic System: Conscious but irritable. Normal muscle tone. Brisk reflexes.
+  
+  SUMMARY
+  Amina Musa, an 18-month-old female from Kano, presents with a 4-month history of progressive weight loss and a 2-week history of bilateral leg swelling following poor weaning practices and inadequate dietary intake. Examination reveals a wasted, oedematous, and hypothermic child with MUAC of 11.0 cm, sparse hair, and skin changes consistent with severe malnutrition.
+  
+  ASSESSMENT
+  Severe Acute Malnutrition (Marasmic-Kwashiorkor) with Complications (Hypothermia, Mild Dehydration, and Anaemia).
+  
+  DIFFERENTIAL DIAGNOSES
+  1. HIV/AIDS with wasting syndrome
+  2. Disseminated Tuberculosis
+  3. Congestive Cardiac Failure (secondary to severe anaemia)
+  
+  INITIAL INVESTIGATION PLAN
+  1. Packed Cell Volume (PCV): To assess degree of anaemia.
+  2. Random Blood Sugar (RBS): To check for hypoglycaemia.
+  3. Rapid Diagnostic Test (RDT) for Malaria and Blood Film for Parasites.
+  4. Urinalysis and Urine Microscopy: To rule out UTI.
+  5. Stool Microscopy: To look for ova and parasites.
+  6. Chest X-ray and Mantoux test: To rule out TB.
+  7. HIV Screening (after counselling).
+  8. Serum Electrolytes, Urea, and Creatinine.
+  
+  INITIAL MANAGEMENT PLAN (BASED ON WHO 10-STEP APPROACH)
+  
+  STABILIZATION PHASE (Days 1-7)
+  
+  1. TREAT/PREVENT HYPOGLYCAEMIA
+  - Give 50 ml of 10% Dextrose/Glucose or sucrose solution (1 teaspoon sugar in 3.5 tablespoons water) orally or via NGT immediately.
+  - Start 2-hourly feeds of F-75.
+  
+  2. TREAT/PREVENT HYPOTHERMIA
+  - Use the "Kangaroo method" (skin-to-skin contact with mother).
+  - Keep the child covered, especially at night. Change wet nappies immediately.
+  
+  3. TREAT/PREVENT DEHYDRATION
+  - Use ReSoMal (Rehydration Solution for Malnutrition).
+  - Dose: 5 ml/kg every 30 minutes for the first 2 hours, then 5-10 ml/kg every hour for the next 4-10 hours.
+  - Monitor for signs of fluid overload (increased RR, increased PR, increasing oedema).
+  
+  4. CORRECT ELECTROLYTE IMBALANCE
+  - Give Potassium 3-4 mmol/kg/day (already present in F-75).
+  - Give Magnesium 0.4-0.6 mmol/kg/day.
+  
+  5. TREAT INFECTION
+  - Start broad-spectrum antibiotics even if no signs of infection are present.
+  - Syringe Amoxicillin 15 mg/kg 8 hourly x 5 days.
+  - If child is lethargic or septic: IV Ampicillin 50 mg/kg 6 hourly AND IV Gentamicin 7.5 mg/kg once daily x 7 days.
+  
+  6. CORRECT MICRONUTRIENT DEFICIENCIES
+  - Vitamin A: 200,000 IU orally on Day 1.
+  - Folic acid: 5 mg on Day 1, then 1 mg daily.
+  - Zinc: 2 mg/kg/day.
+  - Iron: DO NOT give in the stabilization phase; start only when the child begins to gain weight (rehabilitation phase).
+  
+  7. INITIAL FEEDING (F-75)
+  - 100 ml/kg/day divided into 2-hourly feeds (12 feeds/day).
+  - For Amina (6.8 kg): ~55 ml every 2 hours.
+  
+  REHABILITATION PHASE
+  
+  8. CATCH-UP GROWTH
+  - Transition from F-75 to F-100 or Ready-to-Use Therapeutic Food (RUTF) once appetite returns and oedema starts to resolve.
+  - Increase frequency and volume of feeds to achieve 150-220 kcal/kg/day.
+  
+  9. SENSORY STIMULATION
+  - Encourage the mother to play with the child.
+  - Provide a cheerful, stimulating environment.
+  
+  10. PREPARE FOR FOLLOW-UP
+  - Educate mother on balanced diet using locally available foods (e.g., adding groundnut paste, eggs, or crayfish to pap).
+  - Complete immunization schedule.
+  - Schedule follow-up at the outpatient therapeutic program (OTP) center.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-99',
+    title: 'Large Ventricular Septal Defect with Congestive Heart Failure',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Cardiology',
+    condition: 'Congenital Heart Disease with Heart Failure',
+    symptoms: ['Fast breathing', 'Recurrent cough', 'Poor weight gain', 'Difficulty breastfeeding', 'Sweating during feeds', 'Exercise intolerance', 'Pedal edema', 'Hepatomegaly'],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: '4-year-old male presenting with a 6-month history of progressive fast breathing, a 2-year history of recurrent cough and chest infections, and poor weight gain since infancy. Examination revealed tachycardia, tachypnea, a displaced apex beat, left parasternal heave, loud P2, a grade 4/6 pansystolic murmur at the lower left sternal border, basal crepitations, hepatomegaly, and mild pedal edema, suggestive of congenital heart disease with heart failure, likely due to a large ventricular septal defect.',
+    content: `PEDIATRIC CLINIC
+  
+  Patient Identification
+  Name: Musa Ibrahim
+  Age: 4 years
+  Sex: Male
+  Religion: Islam
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Fast breathing x 6/12
+  2. Recurrent cough x 2 years
+  3. Poor weight gain since infancy
+  
+  History of Presenting Complaint
+  The patient was apparently well until about 3 months of age when the mother noticed he had difficulty breastfeeding. He would suck for short periods, stop to catch his breath (suck-rest-suck cycles), and sweat profusely on the forehead during feeds.
+  
+  Over the last 2 years, he has had recurrent episodes of cough and fever, necessitating multiple visits to local chemists and several admissions at a general hospital for "recurrent pneumonia."
+  
+  In the last 6 months, the mother noticed he has become progressively more breathless, even at rest. There is no history of bluish discoloration of the lips or fingernails. No history of squatting episodes or sudden loss of consciousness. No history of periorbital or pedal swelling until recently. He has remained smaller than his age mates.
+  
+  Past Medical History
+  Known for recurrent chest infections. No known allergies. No previous blood transfusions or surgeries.
+  
+  Birth History
+  Antenatal: Booked at a Primary Health Centre. Pregnancy was full term. No history of maternal febrile illness or rash in the first trimester.
+  Natal: Delivered via Spontaneous Vaginal Delivery at a maternity home. Birth weight was said to be "small" but not measured. Cried immediately at birth.
+  Post-natal: No neonatal jaundice or seizures.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Currently on family diet (mostly pap and tuwo). Appetite is poor. He eats small frequent meals.
+  
+  Immunization History
+  Up to date according to the National Programme on Immunization (NPI). BCG scar is present on the right deltoid.
+  
+  Developmental History
+  Gross motor: Sat at 9 months, crawled at 12 months, walked at 18 months. (Delayed).
+  Language: Speaks simple sentences. (Appropriate).
+  Social: Interacts well with peers but tires easily during play.
+  
+  Family and Social History
+  Third child in a monogamous family of four children. Other siblings are healthy. Father is a subsistence farmer, mother is a petty trader. They live in a 2-room mud house with adequate ventilation. Source of water is a borehole.
+  
+  Review of Systems
+  CNS: No seizures, no focal weakness.
+  GIT: No vomiting, no diarrhea.
+  MSS: No joint pains or swelling.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking child, small for age.
+  Not pale, anicteric, acyanotic.
+  Mild pitting pedal edema.
+  No significant lymphadenopathy.
+  Weight: 11 kg (expected for age: 16 kg).
+  Height: 92 cm.
+  MUAC: 12.5 cm.
+  
+  Vital Signs
+  PR: 142 bpm (Tachycardia, regular, normal volume).
+  RR: 52 cpm (Tachypnea, subcostal and intercostal recessions).
+  SpO2: 94 percent on room air.
+  Temperature: 36.8 degrees Celsius.
+  
+  Cardiovascular System
+  Precordium: Visible pulsations.
+  Apex beat: Displaced to the 6th left intercostal space, anterior axillary line.
+  Heaves: Left parasternal heave present.
+  Thrills: Palpable systolic thrill at the lower left sternal border.
+  Heart sounds: S1 and S2 heard. Loud S2.
+  Murmur: Grade 4/6 pansystolic murmur heard loudest at the lower left sternal border, radiating to the whole precordium.
+  
+  Respiratory System
+  Trachea central.
+  Symmetrical chest expansion.
+  Resonant percussion note bilaterally.
+  Breath sounds: Vesicular with fine basal crepitations.
+  
+  Abdomen
+  Full, soft, moves with respiration.
+  Liver: 4 cm below the right costal margin, firm, smooth, non-tender.
+  Spleen: Not palpable.
+  Bowel sounds present and normal.
+  
+  Central Nervous System
+  Conscious and alert.
+  No signs of meningeal irritation.
+  Grossly normal power and reflexes in all limbs.
+  
+  Assessment
+  Late presenting Congenital Heart Disease (Likely Large Ventricular Septal Defect) in Heart Failure (Ross Class III).
+  
+  Differential Diagnoses
+  1. Atrioventricular Septal Defect (AVSD).
+  2. Large Patent Ductus Arteriosus (PDA) with pulmonary hypertension.
+  3. Dilated Cardiomyopathy.
+  
+  Initial Investigation Plan
+  1. FBC: To check for anemia (which worsens heart failure) and leucocytosis (if concurrent infection).
+  2. Chest X-ray: Expected to show cardiomegaly (LV and RV enlargement) and increased pulmonary vascular markings.
+  3. ECG: To check for biventricular hypertrophy or arrhythmias.
+  4. Echocardiography: Confirmatory test to identify the defect size, location, and shunt direction.
+  5. Serum Electrolytes, Urea, and Creatinine: Baseline before starting diuretics.
+  
+  Initial Management Plan
+  1. Admission and Nursing in cardiac position (propped up at 45 degrees).
+  2. Oxygen therapy via nasal cannulae at 1-2 L/min if SpO2 drops below 92 percent.
+  3. Fluid restriction: Limit total fluid intake to 80 percent of maintenance (approx 880 ml/day).
+  4. Diuretics:
+  - IV Furosemide 1mg/kg/dose (11mg) 12 hourly. Transition to oral (1-2mg/kg/dose) once stable.
+  - Oral Spironolactone 1.5mg/kg/day (12.5mg OD) to counteract potassium loss and for its anti-remodeling effect.
+  5. ACE Inhibitor:
+  - Oral Captopril. Start at 0.1 mg/kg/dose (1.1mg) 8 hourly. Monitor blood pressure and titrate upwards cautiously to 0.5-1mg/kg/dose if tolerated.
+  6. Inotropic Support (if needed):
+  - Digoxin: Maintenance dose of 8-10 mcg/kg/day divided 12 hourly. (Note: Avoid if there are signs of myocarditis or significant renal impairment). For an 11kg child, this is approx 45mcg BD.
+  7. Nutritional Support: High-calorie, small frequent feeds. Consider F-75/F-100 if malnutrition is severe.
+  8. Antibiotics: IV Ceftriaxone 50mg/kg OD if there is high suspicion of concurrent bronchopneumonia.
+  9. Referral: Consult Pediatric Cardiology for definitive surgical closure or device occlusion of the defect.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-98',
+    title: 'Symptomatic Neonatal Hypoglycemia in an Infant of a Diabetic Mother',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Hypoglycemia',
+    symptoms: ['Jitteriness', 'Poor feeding', 'Weak cry', 'Lethargy', 'Generalized hypotonia', 'Weak Moro reflex', 'Weak sucking reflex', 'Tachypnea'],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: '4-hour-old term male neonate, large for gestational age at 4.2 kg, born to a mother with gestational diabetes mellitus, presenting with jitteriness, poor feeding, weak cry, and lethargy. Examination revealed generalized hypotonia, weak neonatal reflexes, and tachypnea. Bedside RBS was 1.6 mmol/L, consistent with symptomatic neonatal hypoglycemia.',
+    content: `NEONATAL UNIT
+  
+  Patient Identification
+  Name: Baby of A.O.
+  Age: 4 hours old
+  Sex: Male
+  Address: Surulere, Lagos State
+  Tribe: Yoruba
+  Religion: Christian
+  Caregiver: Mother (Informant: Mother, Reliability: Good)
+  
+  Presenting Complaints
+  1. Jitteriness x 1h
+  2. Poor feeding x 1h
+  3. Weak cry x 30 mins
+  
+  History of Presenting Complaint
+  The patient is a term male neonate, born via elective Caesarean Section (indication: Two previous CS) at 38 weeks gestation to a 34-year-old mother. He was apparently well at birth with a birth weight of 4.2kg. He cried immediately at birth with APGAR scores of 8 at 1 minute and 9 at 5 minutes.
+  
+  At approximately 3 hours of life, the mother noticed he was excessively jittery, involving all four limbs. This was followed by a refusal to breastfeed and a noticeably weak cry. There was no history of fever, yellowish discoloration of the eyes, or abnormal body movements suggestive of seizures. No history of vomiting or abdominal distension. Mother is a known gestational diabetic (GDM) managed on insulin during the index pregnancy.
+  
+  Past Medical and Birth History
+  Antenatal: Mother registered at 14/52. GDM diagnosed at 26/40. Managed with subcutaneous insulin and dietary modifications. Last fasting blood glucose before delivery was 6.2 mmol/L. Mother is Retro-negative, HBsAg negative.
+  Natal: Delivered at a tertiary center. Birth weight 4.2kg (Large for Gestational Age).
+  Post-natal: No resuscitation required. Received Vitamin K and HBV-0 at birth.
+  
+  Dietary History
+  Initiated on breastfeeding at 1 hour of life but had poor suck. Currently not feeding.
+  
+  Family and Social History
+  Mother is a 34-year-old civil servant. Father is a 38-year-old businessman. Monogamous setting. Reside in a 3-bedroom flat with good ventilation.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking neonate, moderately distressed, in respiratory distress (mild subcostal recessions).
+  Weight: 4.2kg (LGA)
+  OFC: 35.5cm
+  Length: 51cm
+  Not pale, anicteric, acyanosed, no peripheral edema.
+  Temperature: 36.4 degrees C
+  Hydration: Fair
+  
+  Systemic Examination
+  
+  Central Nervous System:
+  Level of consciousness: Lethargic but rousable.
+  Tone: Generalized hypotonia.
+  Reflexes: Weak Moro and Sucking reflexes.
+  Pupils: 2mm, briskly reactive to light.
+  Anterior Fontanelle: Flat and normotensive.
+  
+  Respiratory System:
+  RR: 64 cpm (Tachypneic).
+  Air entry: Bilaterally equal.
+  Breath sounds: Vesicular.
+  
+  Cardiovascular System:
+  PR: 148 bpm (Regular, normal volume).
+  Heart sounds: S1 and S2 only. No murmurs.
+  Capillary refill time: < 3 seconds.
+  
+  Abdomen:
+  Full, moves with respiration.
+  Liver: 2cm below right costal margin, soft, smooth edges.
+  Spleen: Not palpable.
+  Bowel sounds: Present.
+  
+  Bedside Investigation
+  Random Blood Sugar (RBS): 1.6 mmol/L (Hypoglycemia).
+  
+  Summary
+  A 4-hour-old term male neonate, LGA (4.2kg), born to a mother with GDM. Presented with jitteriness, poor feeding, and lethargy. Examination revealed hypotonia, weak reflexes, and tachypnea. Bedside RBS confirmed hypoglycemia at 1.6 mmol/L.
+  
+  Assessment
+  Neonatal Hypoglycemia (Symptomatic) secondary to Hyperinsulinism (Infant of Diabetic Mother).
+  
+  Differential Diagnoses
+  1. Neonatal Sepsis
+  2. Polycythemia
+  3. Hypocalcemia
+  4. Hypoxic-Ischemic Encephalopathy (Less likely given high APGARs)
+  
+  Initial Investigation Plan
+  1. Repeat RBS (to confirm bedside glucometer reading).
+  2. Full Blood Count (FBC) with White Cell Differentials.
+  3. Packed Cell Volume (PCV) to rule out polycythemia.
+  4. Serum Electrolytes, Urea, and Creatinine (specifically checking Calcium and Magnesium).
+  5. Blood Culture (to rule out sepsis).
+  6. C-Reactive Protein (CRP).
+  
+  Management Plan
+  
+  Urgent Interventions:
+  1. Admit to Neonatal Intensive Care Unit (NICU).
+  2. Keep in a warm environment (incubator or radiant warmer) to prevent cold stress.
+  3. Secure intravenous (IV) access immediately.
+  
+  Fluid and Medication Management:
+  1. Initial Bolus: Give 10 percent Dextrose (D10W) at 2 ml/kg IV bolus over 5-10 minutes.
+  (For 4.2kg, dose = 8.4 ml of D10W).
+  2. Maintenance (Continuous Glucose Infusion): Start IV D10W at a Glucose Infusion Rate (GIR) of 6 mg/kg/min.
+  Calculation for IV fluid rate:
+  GIR (mg/kg/min) = [Rate (ml/hr) x Dextrose conc (10) x 0.166] / Weight (kg).
+  For 6 mg/kg/min in a 4.2kg baby using D10W:
+  Rate = (6 x 4.2) / (10 x 0.166) = 15.2 ml/hr.
+  Total daily fluid volume = 15.2 ml x 24h = 365 ml/day (approx 87 ml/kg/day).
+  
+  Monitoring:
+  1. Re-check RBS 30 minutes after bolus and then every 1-2 hours until stable (> 2.6 mmol/L).
+  2. If RBS remains low (< 2.2 mmol/L) despite 6 mg/kg/min, increase GIR by 2 mg/kg/min increments every 15-30 mins (max 12-15 mg/kg/min).
+  3. Monitor Vital Signs (HR, RR, Temp, SpO2) every hour.
+  4. Assess for resolution of symptoms (jitteriness, tone).
+  
+  Step-down Plan:
+  1. Once RBS is stable (> 2.6 mmol/L) for two consecutive readings, initiate trophic feeds (expressed breast milk) via orogastric tube or breastfeeding if tolerated.
+  2. Gradually taper IV fluids as oral intake increases. Do not stop IV glucose abruptly to avoid rebound hypoglycemia.
+  
+  Further Pharmacotherapy (If refractory to high GIR > 12 mg/kg/min):
+  1. Hydrocortisone: 5 mg/kg/day IV divided into 2 doses.
+  2. Glucagon (if IV access is difficult): 0.1 to 0.2 mg/kg IM (max 1 mg).`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
     id: 'peds-97',
     title: 'Recurrent Pneumonia in a 2-Year-Old Child',
     specialty: 'Pediatrics',

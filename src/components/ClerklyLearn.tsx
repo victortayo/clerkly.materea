@@ -9,6 +9,7 @@ import { PHYSICAL_EXAMINATION_CONTENT } from '../data/learn/physical-examination
 import { PROCEDURES_CONTENT } from '../data/learn/procedures';
 import { SYMPTOM_CLERKING_CONTENT } from '../data/learn/symptom-clerking';
 import { TREATMENT_CONTENT } from '../data/learn/treatment';
+import { EXTERNAL_RESOURCES_CONTENT } from '../data/learn/external-resources';
 
 const clerklyLearnLibrary: LearningModule[] = [
   ...CLINICAL_SCORING_SYSTEMS_CONTENT,
@@ -19,6 +20,7 @@ const clerklyLearnLibrary: LearningModule[] = [
   ...PROCEDURES_CONTENT,
   ...SYMPTOM_CLERKING_CONTENT,
   ...TREATMENT_CONTENT,
+  ...EXTERNAL_RESOURCES_CONTENT,
 ];
 
 interface ClerklyLearnProps {
@@ -31,7 +33,7 @@ export function ClerklyLearn({ onClose }: ClerklyLearnProps) {
   const [isMobileContentVisible, setIsMobileContentVisible] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   
-  const categories: LearningModuleCategory[] = ['History Taking', 'Symptom Clerking', 'Physical Examination', 'Procedures', 'Laboratory Interpretation', 'Clinical Scoring Systems', 'Treatment', 'Counselling'];
+  const categories: LearningModuleCategory[] = ['History Taking', 'Symptom Clerking', 'Physical Examination', 'Procedures', 'Laboratory Interpretation', 'Clinical Scoring Systems', 'Treatment', 'Counselling', 'External Resources'];
 
   // Auto-select first category and module on desktop for a better initial view.
   useEffect(() => {

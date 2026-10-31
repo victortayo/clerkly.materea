@@ -1,11 +1,142 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
+
+  {
+    id: 'peds-141',
+    title: 'Acute Viral Parotitis (Suspected Mumps)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Infectious Diseases',
+    condition: 'Acute Viral Parotitis (Mumps)',
+    symptoms: [
+      'Bilateral parotid swelling',
+      'Fever',
+      'Pain on chewing',
+      'Malaise',
+      'Headache',
+      'Reduced appetite',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'An 8-year-old boy who presented with a 3-day history of bilateral painful parotid swelling, preceded by fever, malaise and headache. The swellings are tender and firm, with bilateral upward and outward displacement of the ear lobes and erythema at the openings of Stensen’s ducts. There is no purulent discharge, testicular involvement or evidence of meningeal irritation. He has not received the MMR vaccine. Assessment is acute viral parotitis, likely mumps.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master Aminu Bello
+  Age: 8 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Caregiver: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Swelling in front of both ears x 3/7
+  2. Fever x 4/7
+  3. Pain on chewing x 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 4 days ago when he developed a low-grade fever associated with malaise and headache. The fever was intermittent and partially relieved by paracetamol.
+  
+  3 days ago, the mother noticed a swelling in front of the left ear, which spread to involve the right side within 24 hours. The swellings are painful, especially when chewing or eating sour foods. There is no history of ear discharge, earache or toothache. There is no associated skin redness or warmth over the swellings.
+  
+  No history of scrotal pain or swelling. No history of neck stiffness, persistent vomiting or abdominal pain. No history of contact with individuals having similar swellings in the household, although the mother notes that a few children in his school have recently been absent for similar reasons.
+  
+  PAST MEDICAL HISTORY
+  
+  No history of similar illness in the past. No history of chronic medical conditions or recent hospitalizations.
+  
+  IMMUNIZATION HISTORY
+  
+  Received vaccines at birth, 6/52, 10/52 and 14/52 as per the National Programme on Immunization (NPI) schedule. However, he did not receive the MMR (Measles, Mumps and Rubella) vaccine as it was not available at the local health centre during the scheduled window. BCG scar is present on the left deltoid.
+  
+  DIETARY HISTORY
+  
+  Takes family diet, mostly carbohydrate-based (tuwo and soup). Appetite is currently reduced due to pain while chewing.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Third child in a monogamous family of five children. Father is a farmer, and mother is a petty trader. They live in a 2-bedroom apartment with adequate ventilation.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures or loss of consciousness.
+  RS: No cough or difficulty breathing.
+  CVS: No easy fatigability or palpitations.
+  GIT: No abdominal pain, vomiting or diarrhoea.
+  MSS: No joint pains or swelling.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young boy, febrile (Temp: 38.2°C), not pale, not icteric and not dehydrated. No significant peripheral lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  PR: 96 bpm, regular, full volume.
+  RR: 22 cpm.
+  
+  ANTHROPOMETRY
+  
+  Weight: 24 kg.
+  Height: 125 cm.
+  
+  LOCAL EXAMINATION (HEAD AND NECK)
+  
+  Bilateral parotid swelling, slightly more prominent on the left side. The swellings are poorly defined, tender and firm in consistency.
+  
+  The ear lobes on both sides are displaced upwards and outwards.
+  
+  The skin over the swellings is not warm or erythematous.
+  
+  Intra-oral examination: Redness noted at the openings of Stensen's ducts on both sides. No purulent discharge expressed on massaging the parotid glands. Good orodental hygiene.
+  
+  SYSTEMIC EXAMINATION
+  
+  Abdomen: Soft, non-tender, no organomegaly.
+  CNS: Conscious and alert. No signs of meningeal irritation.
+  Genitalia: Normal male external genitalia. No testicular swelling or tenderness.
+  
+  ASSESSMENT
+  
+  Acute Viral Parotitis (likely Mumps) in an 8-year-old male.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Acute Suppurative Parotitis (less likely given bilateral involvement and lack of pus).
+  2. Parotid Duct Sialolithiasis.
+  3. Recurrent Parotitis of Childhood.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check for lymphocytosis.
+  2. Serum Amylase: Expecting elevation due to parotid involvement.
+  3. Urinalysis: Routine screening.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Outpatient management as the patient is stable and has no evidence of complications like orchitis or meningitis.
+  2. Isolation at home for at least 5 days from the onset of parotid swelling to prevent transmission.
+  3. Encourage adequate fluid intake and a soft diet (e.g., pap, custard) to minimize pain during mastication. Avoid citrus or sour foods that stimulate saliva production.
+  4. Analgesics/Antipyretics: Syrup Paracetamol 15 mg/kg 8 hourly x 3/7.
+  5. Apply warm or cold compresses to the parotid area for symptomatic relief.
+  6. Counsel parents on signs of complications: persistent vomiting, severe headache or scrotal pain/swelling. Advise immediate return to the clinic if these occur.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'peds-140',
     title: 'Recurrent Furunculosis of the Left Cheek',
     specialty: 'Pediatrics',
-    subSpecialty: 'aediatric Infectious Diseases',
+    subSpecialty: 'Pediatric Infectious Diseases',
     condition: 'Recurrent Furunculosis (Left Cheek)',
     symptoms: [
       'Recurrent left cheek swelling',
@@ -543,7 +674,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-137',
     title: 'Pertussis (Whooping Cough) in a Young Infant',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Respiratory Medicine',
+    subSpecialty: 'Pediatric Respiratory Medicine',
     condition: 'Pertussis (Whooping Cough)',
     symptoms: [
       'Paroxysmal cough',
@@ -735,7 +866,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     contributor: 'Admin',
     lastModified: '2026-10-31',
     summary: '8-month-old male infant presenting with a 3-day history of high-grade fever and cough, with a 1-day history of fast breathing and respiratory distress. Examination reveals tachypnoea, chest recessions, hypoxaemia and bilateral basal fine crepitations, consistent with severe bronchopneumonia.',
-    content: `PAEDIATRIC EMERGENCY UNIT
+    content: `Pediatric EMERGENCY UNIT
   
   Patient Identification
   Name: Master O.A.
@@ -908,7 +1039,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     contributor: 'Admin',
     lastModified: '2026-10-31',
     summary: '2-year-old male with incomplete immunization presenting with a 2-week history of cough, progressing to paroxysmal coughing episodes associated with inspiratory whoop and post-tussive vomiting. Examination reveals transient oxygen desaturation during coughing episodes, suggestive of pertussis in the paroxysmal stage.',
-    content: `PAEDIATRIC EMERGENCY UNIT
+    content: `Pediatric EMERGENCY UNIT
   
   Patient Identification
   Name: Master Musa Abdullahi
@@ -1025,7 +1156,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   1. Admission for monitoring of paroxysms and oxygen saturation.
   2. Maintain airway; suctioning of secretions as needed.
   3. Oxygen therapy via nasal cannulae if SpO₂ drops below 92% between or during bouts.
-  4. Isolation from other paediatric patients (droplet precautions) for 5 days after starting antibiotics.
+  4. Isolation from other Pediatric patients (droplet precautions) for 5 days after starting antibiotics.
   5. Small, frequent feeds to minimize post-tussive vomiting.
   
   Fluid Management:
@@ -1701,7 +1832,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   
   IV ceftriaxone 1 g daily (approximately 50 mg/kg/day for this 19 kg child), as initially proposed, pending culture results and further clinical assessment.
   
-  Review antibiotic choice and duration according to the suspected source of infection, culture results and local paediatric sepsis protocol.
+  Review antibiotic choice and duration according to the suspected source of infection, culture results and local Pediatric sepsis protocol.
   
   5. ANTIPYRETICS
   
@@ -2072,7 +2203,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   
   EMERGENCY CARE
   
-  1. Admit to the paediatric ward for close monitoring and further evaluation.
+  1. Admit to the Pediatric ward for close monitoring and further evaluation.
   2. Maintain a strict fluid balance chart, documenting intake and output.
   3. Administer oxygen if SpO2 falls below 94%, or as clinically indicated.
   4. Promptly assess the respiratory distress, cardiovascular status and degree of anaemia.
@@ -2464,7 +2595,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   
   URGENT INTERVENTIONS
   
-  1. Admit to the paediatric ward for close monitoring and management.
+  1. Admit to the Pediatric ward for close monitoring and management.
   2. Ensure strict fluid intake and output charting.
   3. Discontinue co-trimoxazole (Septrin) immediately and document the suspected drug-induced haemolytic reaction.
   
@@ -2530,7 +2661,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-30',
     summary: 'A 5-year-old male presented with a 3-week history of persistent fever, 2-week history of generalised body pain predominantly involving the lower limb long bones and back, and 1-week history of progressive pallor and weakness. Examination revealed moderate pallor, multiple cervical and axillary lymphadenopathy, petechiae, hepatomegaly, and significant splenomegaly. Assessed as acute lymphoblastic leukaemia (ALL). Differentials include Burkitt lymphoma in leukemic phase, severe malaria with tropical splenomegaly syndrome, and aplastic anaemia.',
     content: `
-  PAEDIATRIC HAEMATOLOGY AND ONCOLOGY
+  Pediatric HAEMATOLOGY AND ONCOLOGY
   
   Patient Identification
   
@@ -2683,7 +2814,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   
   General Care
   
-  1. Admit to the paediatric oncology ward or a private side room.
+  1. Admit to the Pediatric oncology ward or a private side room.
   2. Maintain strict hygiene to prevent healthcare-associated infections.
   3. Transfuse with 10 mL/kg of packed red blood cells over 4 hours (given pallor and tachycardia).
   
@@ -2695,7 +2826,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   
   Induction Chemotherapy (Standard VPL Regimen)
   
-  Note: Dosages must be verified by a paediatric oncologist.
+  Note: Dosages must be verified by a Pediatric oncologist.
   
   Duration: Usually 4–6 weeks.
   
@@ -2738,7 +2869,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-30',
     summary: 'A 7-year-old male presented with a 3-week history of progressive weakness and pallor, a 1-week history of petechial skin rashes and mucosal bleeding, and a 4-day history of fever. Examination revealed marked pallor, petechiae, ecchymoses, fever, tachycardia, mild respiratory distress, and a soft systolic murmur. Assessed as aplastic anaemia, likely idiopathic, with acute lymphoblastic leukaemia to be ruled out. Other differentials include hypoplastic myelodysplastic syndrome and hypoplastic phase of sickle cell anaemia.',
     content: `
-  PAEDIATRIC HAEMATOLOGY
+  Pediatric HAEMATOLOGY
   
   Patient Identification
   
@@ -2942,7 +3073,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-30',
     summary: 'A 7-year-old male presented with a 3-day history of facial puffiness and reduced urine output, followed by 2 days of dark, tea-coloured urine. This occurred approximately 2 weeks after an episode of sore throat and fever. Examination revealed periorbital and mild bilateral pedal oedema, with hypertension (BP 130/90 mmHg). Assessed as acute glomerulonephritis, most likely post-streptococcal glomerulonephritis (PSGN). Differentials include nephrotic syndrome, lupus nephritis, and IgA nephropathy.',
     content: `
-  PAEDIATRIC NEPHROLOGY
+  Pediatric NEPHROLOGY
   
   Patient Identification
   
@@ -3138,7 +3269,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-30',
     summary: 'A 4-year-old uncircumcised male presented with a 2-day history of penile pain, swelling, redness, and painful micturition, with a 1-day history of purulent preputial discharge. Examination revealed distal penile oedema and erythema, a non-retractile foreskin, scanty purulent discharge, and tenderness over the glans and prepuce. Assessed as balanoposthitis. Differentials include urinary tract infection, irritant dermatitis, balanitis xerotica obliterans, and foreign body entrapment.',
     content: `
-  PAEDIATRIC OUTPATIENT CLINIC
+  Pediatric OUTPATIENT CLINIC
   
   Patient Identification
   
@@ -3358,7 +3489,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-30',
     summary: 'A 4-year-old male presented with a 3-day history of fever, 2-day history of dysuria and increased urinary frequency, and 1-day history of lower abdominal pain. Examination revealed a febrile, acutely ill-looking child with mild suprapubic tenderness. Assessed as urinary tract infection, likely cystitis. Differentials include acute pyelonephritis, urethritis, and balanoposthitis.',
     content: `
-  PAEDIATRIC OUTPATIENT CLINIC
+  Pediatric OUTPATIENT CLINIC
   
   Patient Identification
   
@@ -3516,13 +3647,13 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-121',
     title: 'Acute Cystitis',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Outpatient Clinic',
+    subSpecialty: 'Pediatric Outpatient Clinic',
     condition: 'Urinary Tract Infection',
     symptoms: ['Painful urination (Dysuria)', 'Increased urinary frequency', 'Urinary urgency', 'Lower abdominal pain', 'Low-grade fever'],
     contributor: 'Admin',
     lastModified: '2026-10-30',
     summary: '6-year-old female presenting with a 3-day history of dysuria, increased urinary frequency, and urinary urgency, with a 2-day history of suprapubic pain. Clinical assessment is suggestive of acute cystitis, with vulvovaginitis, urethritis, early acute pyelonephritis, and urinary schistosomiasis as differential diagnoses.',
-    content: `PAEDIATRIC OUTPATIENT CLINIC
+    content: `Pediatric OUTPATIENT CLINIC
   
   Patient Identification
   Olayinka Adeniyi, a 6-year-old Yoruba Christian female from Dutse, Jigawa State. Informant: Mother (reliable).
@@ -3667,13 +3798,13 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     id: 'peds-120',
     title: 'Cerebral Malaria',
     specialty: 'Pediatrics',
-    subSpecialty: 'Paediatric Emergency Unit',
+    subSpecialty: 'Pediatric Emergency Unit',
     condition: 'Cerebral Malaria',
     symptoms: ['High-grade fever', 'Generalized tonic-clonic convulsions', 'Loss of consciousness', 'Vomiting', 'Loss of appetite'],
     contributor: 'Admin',
     lastModified: '2026-10-30',
     summary: '5-year-old male presenting with a 3-day history of high-grade fever, two episodes of generalized tonic-clonic convulsions, and persistent loss of consciousness, with a Blantyre Coma Scale score of 2/5. Assessed as cerebral malaria, with acute bacterial meningitis, viral encephalitis, and hypoglycaemic coma as differentials.',
-    content: `PAEDIATRIC EMERGENCY UNIT
+    content: `Pediatric EMERGENCY UNIT
   
   Patient Identification
   Master Musa Ibrahim, a 5-year-old Hausa Muslim male from Dutse, Jigawa State. Informant: Mother (reliable).
@@ -3975,7 +4106,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-26',
     summary: 'A 2-year-4-month-old boy with a history of severe birth asphyxia and neonatal seizures presents with global developmental delay, inability to walk, absent meaningful speech, limb hypertonia, lower-limb scissoring, brisk deep tendon reflexes, bilateral extensor plantar responses, and microcephaly. The clinical assessment is global developmental delay secondary to birth asphyxia, likely spastic diplegic cerebral palsy.',
     content: `
-  PAEDIATRIC NEUROLOGY CLINIC
+  Pediatric NEUROLOGY CLINIC
   
   Patient Identification
   Name: Master Chinedu Okoro
@@ -4107,7 +4238,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
   3. Occupational Therapy: To assist with activities of daily living and specialized seating/braces (e.g., Ankle-Foot Orthoses - AFOs).
   
   Follow-up
-  Monthly review in the Paediatric Neurology Clinic to monitor progress and adjust medication.
+  Monthly review in the Pediatric Neurology Clinic to monitor progress and adjust medication.
   `,
     documentation: `
   <div class="space-y-6">
@@ -4733,7 +4864,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-26',
     summary: 'A 4-year-old male presenting with acute-onset vomiting, watery diarrhoea, and colicky abdominal pain following consumption of leftover rice and stew from a street vendor. Examination reveals lethargy, dry mucous membranes, sunken eyeballs, delayed skin pinch recoil, and tachycardia, consistent with acute gastroenteritis and moderate dehydration.',
     content: `
-  PAEDIATRIC EMERGENCY UNIT
+  Pediatric EMERGENCY UNIT
   
   PATIENT IDENTIFICATION
   
@@ -4912,7 +5043,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-26',
     summary: 'An 8-year-old male presenting with persistent paroxysmal sneezing, clear rhinorrhoea, nasal congestion, and itchy, watery eyes. Examination reveals bilateral pale, boggy inferior turbinates, clear nasal discharge, conjunctival injection, allergic shiners, and Dennie-Morgan lines. The assessment is persistent moderate-to-severe allergic rhinitis.',
     content: `
-  PAEDIATRIC CLINIC
+  Pediatric CLINIC
   
   Patient Identification
   Name: Chinedu Okoro
@@ -5032,7 +5163,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-26',
     summary: 'A 6-year-old male presenting with passage of a visible worm in stool, nocturnal perianal itching, and recurrent periumbilical abdominal pain. Relevant history includes pica and playing barefoot outdoors. Clinical assessment suggests intestinal helminthiasis, likely involving ascariasis and enterobiasis.',
     content: `
-  PAEDIATRIC CLINIC
+  Pediatric CLINIC
   
   Patient Identification
   Name: Musa Abdullahi
@@ -5171,7 +5302,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-26',
     summary: 'A 4-year-old male presenting with recurrent febrile illness, vomiting, and poor oral intake following recent artemether-lumefantrine treatment. Examination reveals fever, hepatomegaly, and splenomegaly. The assessment is recurrent malaria, with recrudescence or reinfection to be considered, and sepsis to be ruled out.',
     content: `
-  PAEDIATRIC EMERGENCY UNIT
+  Pediatric EMERGENCY UNIT
   
   PATIENT IDENTIFICATION
   
@@ -5334,7 +5465,7 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
     lastModified: '2026-10-26',
     summary: 'An 18-month-old male presenting with recurrent bulky, pale, greasy, offensive-smelling stools, failure to gain weight, and progressive abdominal distension, with examination findings of severe wasting and mild dehydration. The assessment is chronic malabsorption syndrome, possibly secondary to coeliac disease or tropical sprue, with severe acute malnutrition (marasmus).',
     content: `
-  PAEDIATRIC CLINIC
+  Pediatric CLINIC
   
   Patient Identification
   Name: Master Chukwudi Obi

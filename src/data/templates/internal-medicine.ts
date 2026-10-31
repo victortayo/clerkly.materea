@@ -2,6 +2,305 @@ import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
   {
+    id: 'im-126',
+    title: 'Left Pre-auricular Lymphadenitis Secondary to Conjunctivitis (Parinaud Oculoglandular Syndrome)',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Infectious Diseases',
+    condition: 'Left Pre-auricular Lymphadenitis (Parinaud Oculoglandular Syndrome)',
+    symptoms: [
+      'Left pre-auricular swelling',
+      'Left pre-auricular pain',
+      'Fever',
+      'Left eye redness',
+      'Gritty sensation in the left eye',
+      'Mucoid discharge from the left eye',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'A 24-year-old female student from Ogbomosho, Oyo State, who presented with a 3-day history of progressively increasing painful left pre-auricular swelling and a 2-day history of low-grade fever. This was preceded by left eye redness and a gritty sensation. Examination revealed a 2 × 2 cm firm, exquisitely tender, mobile left pre-auricular swelling with overlying warmth and mild erythema, alongside marked left conjunctival hyperaemia and mild mucoid discharge. Assessment is left pre-auricular lymphadenitis, most likely reactive to conjunctivitis (Parinaud oculoglandular syndrome).',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 24-year-old female student who resides in Ogbomosho, Oyo State. She is Yoruba by tribe.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Swelling in front of the left ear x 3/7
+  2. Pain in the left pre-auricular region x 3/7
+  3. Fever x 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 3 days ago when she noticed a small, painful swelling in the region immediately in front of her left ear. The swelling was initially the size of a pea but has progressively increased to its current size. The pain is described as sharp and throbbing, aggravated by touch and movements of the jaw during mastication. There is no history of ear discharge, earache or hearing loss. She does not report any recent dental pain or extractions. However, she mentions having redness and a gritty sensation in her left eye, which preceded the swelling by 2 days.
+  
+  Fever started 2 days ago; it was low-grade, intermittent and associated with chills but no rigors. The fever usually subsides following the use of paracetamol. There is no history of night sweats, significant weight loss or chronic cough. She denies any recent cat scratches or trauma to the face or scalp.
+  
+  PAST MEDICAL HISTORY
+  
+  No history of similar swelling in the past. No known history of tuberculosis or contact with a person with chronic cough. She is not a known hypertensive or diabetic.
+  
+  DRUG HISTORY
+  
+  She has been taking Tab. Paracetamol 1 g PRN and an over-the-counter eye drop (name unknown) for the eye redness. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She lives in a student hostel with three other roommates. She does not smoke or consume alcohol. No history of similar symptoms among her close contacts.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, neck stiffness or seizures.
+  RS: No cough, chest pain or breathlessness.
+  CVS: No palpitations, orthopnoea or pedal oedema.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: No joint pains or generalized bone pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young female in painful distress, not acutely ill-looking.
+  
+  Febrile to touch (Temp: 37.9°C).
+  
+  Not pale, not icteric, not dehydrated and no cyanosis.
+  
+  No significant generalized lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 92 bpm, regular, normal volume.
+  Respiratory Rate: 18 cpm.
+  Blood Pressure: 110/70 mmHg.
+  SpO2: 98% on room air.
+  
+  LOCAL EXAMINATION
+  
+  LEFT PRE-AURICULAR REGION
+  
+  A solitary, oval-shaped swelling measuring approximately 2 cm × 2 cm.
+  
+  The swelling is firm, exquisitely tender and mobile over the underlying structures.
+  
+  The overlying skin is warm to touch and mildly erythematous.
+  
+  No fluctuance, discharging sinus or scars from previous surgery.
+  
+  OPHTHALMIC EXAMINATION
+  
+  Left eye shows marked conjunctival hyperaemia and mild mucoid discharge.
+  
+  The right eye appears normal.
+  
+  EAR, NOSE AND THROAT (ENT)
+  
+  Left external auditory canal is clear; the tympanic membrane is intact with a normal light reflex.
+  
+  No dental caries, gingivitis or oropharyngeal inflammation.
+  
+  SYSTEMIC EXAMINATION
+  
+  Abdomen: Soft, non-tender, no hepatosplenomegaly noted.
+  Respiratory System: Trachea is central, chest is clinically clear with vesicular breath sounds.
+  Cardiovascular System: S1 and S2 heard, no murmurs.
+  Central Nervous System: Conscious and alert. No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Left Pre-auricular Lymphadenitis, most likely reactive to left-sided Conjunctivitis (Parinaud Oculoglandular Syndrome).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Infected Pre-auricular Cyst.
+  2. Left Acute Parotitis.
+  3. Cat Scratch Disease.
+  4. Bacterial Conjunctivitis with reactive lymphadenopathy.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check for leukocytosis and predominant cell type.
+  2. Erythrocyte Sedimentation Rate (ESR): To assess for inflammatory response.
+  3. Eye swab for Microscopy, Culture and Sensitivity (M/C/S): To identify the causative agent of the conjunctivitis.
+  4. Fasting Blood Sugar (FBS): To rule out underlying immunosuppression if indicated by poor response.
+  5. Ultrasound scan of the left pre-auricular swelling: To rule out abscess formation or parotid involvement.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Outpatient management.
+  2. Analgesics: Tab. Ibuprofen 400 mg TDS x 5/7 for pain and inflammation.
+  3. Antibiotics: Cap. Amoxicillin/Clavulanate 625 mg BD x 7/7 (if secondary bacterial infection is suspected).
+  4. Topical Therapy: Ophthalmic Gentamicin drops, 1 drop 4 hourly to the left eye.
+  5. Local Care: Warm compresses to the left pre-auricular region for pain relief.
+  6. Patient Education: Advise on hand hygiene and avoiding sharing towels to prevent spread of conjunctivitis.
+  7. Follow-up: To review in 5 days or sooner if there is an increase in swelling, fluctuance or worsening eye symptoms.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-125',
+    title: 'Acute Suppurative Sialadenitis of the Right Parotid Gland',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Infectious Diseases',
+    condition: 'Acute Suppurative Sialadenitis (Right Parotid Gland)',
+    symptoms: [
+      'Painful right-sided facial swelling',
+      'Fever',
+      'Difficulty opening the mouth (trismus)',
+      'Foul taste in the mouth',
+      'Dry mouth',
+      'Malaise',
+      'Headache',
+      'Loss of appetite',
+      'Generalized body aches',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'A 52-year-old male civil servant from Mushin, Lagos State, with a 5-year history of hypertension on amlodipine, presented with a 3-day history of rapidly progressive, painful right-sided facial swelling and fever, with a 2-day history of trismus and foul taste in the mouth. Examination revealed a 6 × 5 cm tender, warm swelling over the right parotid region, erythema and oedema of the right Stensen’s duct orifice, and frank purulent discharge on gland massage. He was febrile and moderately dehydrated. Assessed as acute suppurative sialadenitis of the right parotid gland.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 52-year-old male civil servant who resides in Mushin, Lagos State. He is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Painful right-sided facial swelling x 3/7
+  2. Fever x 3/7
+  3. Difficulty opening the mouth x 2/7
+  4. Foul taste in the mouth x 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was in his usual state of health until 3 days ago when he developed sudden onset swelling involving the right pre-auricular and submandibular region. The swelling was initially small but rapidly increased in size over the last 48 hours. It is associated with severe, throbbing pain that is aggravated by attempts to chew or swallow.
+  
+  He developed a high-grade fever 3 days ago, which is intermittent, associated with chills and rigors, but no night sweats. There is associated malaise and headache.
+  
+  Two days prior to presentation, he noticed difficulty in opening his mouth (trismus) and a persistent salty, foul taste in his mouth, particularly when pressing on the swelling. He also reports significant dryness of the mouth prior to the onset of the swelling.
+  
+  There is no history of similar swelling in the past. No history of weight loss or chronic cough. No history of dental pain or recent dental extractions. No history of trauma to the face.
+  
+  PAST MEDICAL HISTORY
+  
+  He is a known hypertensive, diagnosed 5 years ago, currently managed on Tab Amlodipine 10mg daily with fair compliance. He is not a known diabetic. No previous history of salivary gland stones or mumps. No history of recent surgery or prolonged fasting.
+  
+  DRUG HISTORY
+  
+  Regular on antihypertensives. He recently took over-the-counter antihistamines for a common cold about a week ago. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He lives with his wife and three children in a room-and-parlour apartment. He does not smoke cigarettes or consume alcohol. Social history is not significant for high-risk behaviors.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No convulsions, no loss of consciousness.
+  
+  RS: No cough, no chest pain.
+  
+  CVS: No palpitations, no pedal edema.
+  
+  GIT: Loss of appetite, but no nausea or vomiting.
+  
+  MSS: Generalized body aches.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An acutely ill-looking middle-aged man, febrile (temp 38.8 degrees C), moderately dehydrated. No digital clubbing, no peripheral lymphadenopathy, no pedal edema. Not pale, not icteric.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 104 bpm (regular, normal volume)
+  
+  Blood Pressure: 140/90 mmHg
+  
+  Respiratory Rate: 22 cpm
+  
+  SpO2: 98 percent on room air
+  
+  LOCAL EXAMINATION (MAXILLOFACIAL/NECK)
+  
+  Inspection:
+  
+  There is an ill-defined swelling over the right parotid region extending to the angle of the mandible, measuring approximately 6cm x 5cm. Overlying skin appears erythematous and tense. The earlobe on the right side is slightly displaced upwards and outwards.
+  
+  Palpation:
+  
+  The swelling is firm, exquisitely tender, and warm to touch. There is no obvious fluctuance at present.
+  
+  Intra-oral examination:
+  
+  Limited mouth opening (inter-incisor distance approx 2cm). The buccal mucosa is dry. There is significant erythema and edema at the orifice of the right Stensen’s duct. On gentle massage of the right parotid gland, frank purulent discharge (pus) was expressed from the duct orifice. Poor oral hygiene with significant dental plaque.
+  
+  SYSTEMIC EXAMINATION
+  
+  Abdomen: Full, soft, non-tender. Liver and spleen not enlarged. Bowel sounds normal.
+  
+  Respiratory: Trachea central, percussion notes resonant, breath sounds vesicular.
+  
+  CVS: Apex beat at 5th left intercostal space, midclavicular line. S1 and S2 only.
+  
+  CNS: Conscious and oriented. No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Acute Suppurative Sialadenitis (Right Parotid Gland)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Parotid Abscess
+  2. Sialolithiasis with secondary infection
+  3. Parotid space cellulitis
+  4. Acute Viral Parotitis (less likely given purulent discharge)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): Expecting leucocytosis with neutrophil predominance.
+  2. Electrolytes, Urea, and Creatinine: To assess hydration status and baseline renal function.
+  3. Fasting Blood Sugar: To screen for underlying Diabetes Mellitus.
+  4. Swab of expressed pus for Gram stain, Culture, and Sensitivity.
+  5. Ultrasound scan of the right parotid region: To rule out an abscess collection or sialolithiasis.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Admit for observation and parenteral therapy.
+  
+  2. Rehydration with IV Normal Saline 1L 8-hourly.
+  
+  3. Empiric Antibiotics:
+  
+  - IV Ceftriaxone 1g 12-hourly.
+  - IV Metronidazole 500mg 8-hourly.
+  
+  (Plan to adjust based on culture results).
+  
+  4. Analgesia/Antipyretic:
+  
+  - IV Paracetamol 1g 8-hourly.
+  
+  5. Sialogogues: Encourage the patient to suck on lemon slices or sugarless sour candies to stimulate salivary flow once pain is slightly controlled.
+  
+  6. Local Care: Warm compresses to the affected area.
+  
+  7. Oral Hygiene: Chlorhexidine mouthwash 12-hourly and gentle saline rinses.
+  
+  8. Monitor vital signs and the size/consistency of the swelling.
+  
+  9. Surgical Review: If symptoms do not improve within 48 hours or if ultrasound confirms abscess formation, consider Incision and Drainage (Hilton’s method).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'im-124',
     title: 'Hypovolemic Shock Secondary to Severe Dehydration from Suspected Cholera',
     specialty: 'Internal Medicine',

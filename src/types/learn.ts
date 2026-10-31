@@ -1,4 +1,4 @@
-export type LearningModuleCategory = 'Symptom Clerking' | 'Physical Examination' | 'Laboratory Interpretation' | 'Clinical Scoring Systems' | 'Counselling' | 'Treatment' | 'Procedures' | 'History Taking';
+export type LearningModuleCategory = 'Symptom Clerking' | 'Physical Examination' | 'Laboratory Interpretation' | 'Clinical Scoring Systems' | 'Counselling' | 'Treatment' | 'Procedures' | 'History Taking' | 'External Resources';
 
 export type SymptomSubCategory = 
   | 'General Constitutional Symptoms' | 'Pain' | 'Respiratory' | 'Cardiovascular' 

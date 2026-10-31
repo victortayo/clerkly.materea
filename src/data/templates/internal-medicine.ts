@@ -2,6 +2,378 @@ import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
 
+ 
+  {
+    id: 'im-121',
+    title: 'Anaphylactic Shock Secondary to Amoxicillin Allergy',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Emergency Medicine / Clinical Immunology',
+    condition: 'Anaphylaxis (Anaphylactic Shock)',
+    symptoms: [
+      'Sudden-onset difficulty breathing',
+      'Facial and lip swelling',
+      'Generalized itchy skin rash',
+      'Urticaria',
+      'Tongue and eyelid swelling',
+      'Dizziness',
+      'Lightheadedness',
+      'Feeling of impending doom',
+      'Palpitations',
+      'Nausea',
+      'Vomiting',
+      'Syncope'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '28-year-old woman presenting with an acute onset of generalized urticaria, angioedema and progressive respiratory distress shortly after taking amoxicillin 500 mg. Examination reveals widespread urticaria, facial and lip swelling, stridor, wheezing, hypoxaemia, tachycardia and severe hypotension. The presentation is consistent with anaphylactic shock secondary to suspected amoxicillin allergy.',
+    content: `Patient Identification
+  
+  Age: 28 years
+  Sex: Female
+  Occupation: Tailor
+  Address: Ibadan, Oyo State
+  Tribe: Yoruba
+  
+  Presenting Complaints
+  
+  1. Sudden-onset difficulty breathing × 20 minutes
+  2. Swelling of the face and lips × 20 minutes
+  3. Generalized itchy skin rash × 30 minutes
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until about 30 minutes prior to presentation when she developed a generalized itchy, reddish skin rash (urticaria) shortly after ingesting a dose of Amoxicillin capsules for a suspected throat infection. This was rapidly followed by swelling of the lips, tongue and eyelids.
+  
+  About 10 minutes later, she developed progressively worsening difficulty in breathing, characterized by a choking sensation and noisy breathing. There is associated dizziness, lightheadedness and a feeling of impending doom.
+  
+  No history of previous similar episodes. No history of known asthma or prior drug allergies.
+  
+  Past Medical History
+  
+  No chronic medical conditions such as hypertension or diabetes mellitus. No previous surgeries or blood transfusions. No history of atopy or asthma.
+  
+  Drug History
+  
+  Not on any routine medications. Took Amoxicillin 500 mg (prescribed by a chemist) about 30 minutes before symptoms started. No known drug allergies prior to this event.
+  
+  Family and Social History
+  
+  She resides in a monogamous family setting. Non-smoker and does not consume alcohol.
+  
+  Review of Systems
+  
+  CNS: Dizziness and syncopal attack just before arrival. No seizures.
+  
+  CVS: Palpitations. No chest pain.
+  
+  GIT: Nausea and one episode of vomiting. No abdominal cramps.
+  
+  Respiratory: As per HPC.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking young lady in obvious respiratory and haemodynamic distress. She is conscious but restless and anxious.
+  
+  Visible angioedema involving the lips and periorbital regions. Extensive urticarial rashes (wheals) noted on the trunk and all limbs. No pedal oedema.
+  
+  Vital Signs
+  
+  Pulse rate: 136 bpm (tachycardic, thready volume).
+  
+  Blood Pressure: 80/50 mmHg (hypotensive).
+  
+  Respiratory Rate: 34 cpm (tachypnoeic, using accessory muscles).
+  
+  SpO₂: 87% on room air.
+  
+  Temperature: 36.4°C.
+  
+  Systemic Examination
+  
+  Respiratory System
+  
+  Trachea central.
+  
+  Tachypnoea with intercostal and suprasternal recessions.
+  
+  Percussion note is resonant bilaterally.
+  
+  Auscultation reveals widespread inspiratory stridor and expiratory wheeze.
+  
+  Cardiovascular System
+  
+  Pulse is rapid and thready.
+  
+  First and second heart sounds only. No murmurs.
+  
+  Abdomen
+  
+  Full, moves with respiration.
+  
+  Soft, non-tender. No hepatosplenomegaly.
+  
+  Bowel sounds are present and normal.
+  
+  Central Nervous System
+  
+  Restless.
+  
+  GCS: 15/15.
+  
+  No focal neurological deficits.
+  
+  Assessment
+  
+  Anaphylactic Shock secondary to suspected Penicillin (Amoxicillin) allergy.
+  
+  Differential Diagnoses
+  
+  1. Acute Severe Asthma
+  2. Hereditary Angioedema
+  3. Vasovagal Syncope
+  4. Foreign Body Aspiration
+  
+  Initial Investigation Plan
+  
+  1. Pulse oximetry and continuous cardiac monitoring.
+  2. Random Blood Sugar (RBS): To rule out hypoglycaemia during collapse.
+  3. Full Blood Count (FBC).
+  4. Serum Tryptase: If available, to be taken within 1–2 hours of onset for retrospective confirmation.
+  5. Urea, Electrolytes and Creatinine (E/U/Cr).
+  
+  Initial Management Plan
+  
+  Immediate Emergency Interventions
+  
+  1. Airway and Breathing
+  Secure airway. Administer high-flow oxygen via non-rebreather face mask at 10–15 L/min.
+  
+  2. Positioning
+  Lie the patient flat with legs elevated to improve venous return, unless contraindicated by severe airway swelling or vomiting.
+  
+  3. First-line Medication
+  Administer Intramuscular (IM) Adrenaline 0.5 mg (0.5 mL of 1:1000) immediately into the anterolateral mid-thigh.
+  
+  Note: Do not give Adrenaline IV unless in cardiac arrest or by an expert under monitoring.
+  
+  4. Repeat Adrenaline
+  If no clinical improvement, repeat IM Adrenaline 0.5 mg every 5–15 minutes.
+  
+  5. Fluid Resuscitation
+  Establish two wide-bore IV lines (14G or 16G). Rapidly infuse 1–2 litres of isotonic crystalloids (0.9% Normal Saline or Hartmann's Solution) to treat hypotension.
+  
+  Secondary Medications (After Initial Stabilization)
+  
+  6. Antihistamines
+  Administer IV Chlorpheniramine 10 mg as a slow bolus.
+  
+  7. Corticosteroids
+  Administer IV Hydrocortisone 200 mg bolus (to prevent late-phase/biphasic reactions).
+  
+  8. Bronchodilators
+  If wheezing persists, give Salbutamol 5 mg via nebulizer.
+  
+  Monitoring and Follow-up
+  
+  9. Observation
+  Admit for at least 12–24 hours of observation to monitor for biphasic anaphylaxis.
+  
+  10. Education
+  Counsel the patient on strict avoidance of Penicillins and the need to wear a medical alert bracelet. Provide a referral to an allergist if possible.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-120',
+    title: 'Adrenal Crisis (Acute Adrenal Insufficiency)',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Endocrinology',
+    condition: 'Adrenal Crisis',
+    symptoms: [
+      'Recurrent vomiting',
+      'Generalized abdominal pain',
+      'Extreme weakness',
+      'Dizziness',
+      'Loss of consciousness',
+      'Chronic fatigue',
+      'Weight loss',
+      'Progressive skin and mucosal hyperpigmentation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '42-year-old woman presenting with a 2-day history of recurrent vomiting and generalized abdominal pain, followed by progressive weakness, dizziness and loss of consciousness. She has a 6-month history of chronic fatigue, weight loss and progressive skin and mucosal hyperpigmentation. Examination reveals altered consciousness, dehydration, hypotension and tachycardia, with findings suggestive of adrenal crisis, likely secondary to primary adrenal insufficiency.',
+    content: `Patient Identification
+  
+  Age: 42 years
+  Sex: Female
+  Occupation: Civil servant
+  Address: Gwagwalada, Abuja
+  Tribe: Gbagyi
+  Marital Status: Married
+  
+  Presenting Complaints
+  
+  1. Recurrent vomiting × 2/7
+  2. Abdominal pain × 2/7
+  3. Extreme weakness and dizziness × 1/7
+  4. Loss of consciousness × 2 hours
+  
+  History of Presenting Complaint
+  
+  The patient was relatively well until 2 days ago when she developed generalized abdominal pain, dull in character and moderate in intensity. This was associated with about 4 episodes of non-projectile, non-bloody vomiting containing recently ingested meals.
+  
+  One day prior to presentation, she began feeling extremely weak and dizzy, especially when attempting to stand. There was no associated fever, cough or urinary symptoms. This morning, she was found slumped in her room and was poorly responsive, necessitating her being rushed to the Emergency Room.
+  
+  Further history from her husband reveals she has had chronic fatigue, weight loss and darkening of her skin and gums over the past 6 months. There is no history of chronic cough or night sweats. She has no known history of hypertension or diabetes mellitus.
+  
+  Past Medical History
+  
+  No previous hospitalizations for similar symptoms. No history of asthma or known allergies. No previous blood transfusions or surgeries.
+  
+  Drug History
+  
+  She occasionally takes over-the-counter analgesics for body pains. No history of long-term steroid use or use of traditional herbal concoctions.
+  
+  Family and Social History
+  
+  She is in a monogamous marriage with three children. She does not smoke or drink alcohol. No family history of similar illnesses or sudden deaths.
+  
+  Review of Systems
+  
+  CNS: No headaches, no seizures.
+  
+  RS: No cough, no chest pain.
+  
+  CVS: No palpitations, no orthopnoea.
+  
+  GIT: As in HPC. No diarrhoea or constipation.
+  
+  Gynaecological: LMP was 2 weeks ago, with normal flow.
+  
+  Physical Examination
+  
+  General Examination
+  
+  An acutely ill-looking middle-aged woman, in a state of altered consciousness.
+  
+  Obvious hyperpigmentation of the buccal mucosa, palmar creases and surgical scars.
+  
+  Moderately dehydrated.
+  
+  No pedal oedema, no significant lymphadenopathy.
+  
+  Not pale, not icteric, not cyanosed.
+  
+  Vital Signs
+  
+  PR: 124 bpm, thready, low volume.
+  
+  BP: 75/40 mmHg (supine).
+  
+  RR: 26 cpm, regular.
+  
+  Temperature: 36.4°C.
+  
+  SpO₂: 95% on room air.
+  
+  Systemic Examination
+  
+  Abdomen
+  
+  Flat, moves with respiration.
+  
+  Generalized tenderness, but no guarding or rebound tenderness.
+  
+  Liver and spleen not palpable.
+  
+  Bowel sounds present but sluggish.
+  
+  Neurological Examination
+  
+  GCS: 10/15 (E3 V2 M5).
+  
+  Pupils: 3 mm, bilaterally symmetrical and reactive to light.
+  
+  Neck: Supple, no signs of meningeal irritation.
+  
+  Tone: Generalized hypotonia.
+  
+  Respiratory System
+  
+  Trachea central.
+  
+  Breath sounds are vesicular.
+  
+  No added sounds.
+  
+  Cardiovascular System
+  
+  Apex beat not displaced.
+  
+  S1 and S2 only. No murmurs.
+  
+  Assessment
+  
+  Adrenal Crisis (Acute Adrenal Insufficiency), precipitated by likely gastroenteritis.
+  
+  Differential Diagnoses
+  
+  1. Septic Shock
+  2. Hypovolaemic Shock (secondary to severe dehydration)
+  3. Acute Abdomen
+  
+  Initial Investigation Plan
+  
+  1. Random Blood Sugar (RBS): Immediate bedside test.
+  2. Serum Electrolytes, Urea and Creatinine (E/U/Cr): Expecting hyponatraemia and hyperkalaemia.
+  3. Full Blood Count (FBC): To check for eosinophilia or signs of infection.
+  4. Serum Cortisol and ACTH levels: Draw blood before steroid administration if possible, but do not delay treatment.
+  5. Urinalysis and Urine Culture: To screen for UTI as a trigger.
+  6. ECG: To check for signs of hyperkalaemia (tall, peaked T-waves).
+  
+  Initial Management Plan
+  
+  A. URGENT RESUSCITATION
+  
+  1. Airway/Breathing
+  Ensure airway patency; administer oxygen via nasal cannulae at 4–6 L/min.
+  
+  2. Circulation (Fluid Resuscitation)
+  
+  - Secure two wide-bore (16G or 18G) IV cannulae.
+  - Bolus 1 litre of 0.9% Normal Saline over 30–60 minutes.
+  - If RBS is low (hypoglycaemia), use 5% Dextrose in Normal Saline (DNS).
+  - Monitor BP and urine output (target >0.5 ml/kg/hr).
+  - Continue aggressive hydration with 2–3 litres of 0.9% Saline or DNS over the first 24 hours, depending on clinical response.
+  
+  B. STEROID REPLACEMENT
+  
+  1. Hydrocortisone: 100 mg IV stat, then 50–100 mg IV every 6–8 hours for the first 24 hours.
+  2. Transition to oral prednisolone or hydrocortisone once the patient is stable and tolerating oral intake.
+  
+  C. MONITORING AND SUPPORTIVE CARE
+  
+  1. Hourly vital signs (BP, PR, RR, SpO₂).
+  2. Monitor input-output chart (insert Foley catheter).
+  3. Repeat E/U/Cr in 6–12 hours to monitor electrolyte correction.
+  4. Correct any identified precipitating factors (e.g., start empirical antibiotics if infection is suspected).
+  5. Avoid potassium-sparing diuretics or potassium supplements in the acute phase.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
   {
     id: 'im-119',
     title: 'Chronic Rhinosinusitis in a 34-Year-Old Male',

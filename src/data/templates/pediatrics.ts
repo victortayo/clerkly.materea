@@ -3,6 +3,3407 @@ import { Template } from '../../types';
 export const PEDIATRICS_TEMPLATES: Template[] = [
 
   {
+    id: 'peds-136',
+    title: 'Severe Bronchopneumonia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Respiratory Medicine',
+    condition: 'Severe Bronchopneumonia',
+    symptoms: [
+      'Fever',
+      'Cough',
+      'Fast breathing',
+      'Grunting',
+      'Chest indrawing',
+      'Nasal flaring',
+      'Reduced breastfeeding',
+      'Irritability'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '8-month-old male infant presenting with a 3-day history of high-grade fever and cough, with a 1-day history of fast breathing and respiratory distress. Examination reveals tachypnoea, chest recessions, hypoxaemia and bilateral basal fine crepitations, consistent with severe bronchopneumonia.',
+    content: `PAEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Name: Master O.A.
+  Age: 8 months
+  Sex: Male
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Fever × 3/7
+  2. Cough × 3/7
+  3. Fast breathing × 1/7
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 days ago when he developed fever which was high-grade, continuous, and associated with chills. There was temporary relief with paracetamol syrup, but the fever recurred.
+  
+  There was an associated non-productive cough which was worse at night. No history of contact with an adult with a chronic cough.
+  
+  One day prior to presentation, the mother noticed he was breathing faster than usual and making grunting sounds. There were also noticeable inward movements of the lower chest during inspiration.
+  
+  There is a history of reduced breastfeeding intake and irritability. No history of bluish discoloration of the lips or tongue, no seizures, and no history of vomiting everything. No history of ear discharge or skin rashes.
+  
+  Past Medical History
+  No previous history of similar illness. No known allergies. No previous hospitalizations or blood transfusions. Not a known sickle cell disease patient (Genotype AA).
+  
+  Birth History
+  
+  Prenatal:
+  Mother was booked at a Primary Health Care centre. Pregnancy was supervised. She took routine ANC drugs and received two doses of Tetanus Toxoid. No history of pregnancy-induced hypertension or gestational diabetes.
+  
+  Natal:
+  Delivered at term via Spontaneous Vaginal Delivery at a maternity home. Cried immediately at birth. Birth weight was 3.1 kg.
+  
+  Postnatal:
+  No history of neonatal jaundice or fever.
+  
+  Dietary History
+  He was exclusively breastfed for 6 months. Complementary feeding was started at 6 months with maize pap (ogi) fortified with milk and mashed family meals. Current feeding frequency is 5 times a day.
+  
+  Immunization History
+  Up to date according to the National Programme on Immunization (NPI) schedule. He received BCG, OPV0, and HepB0 at birth; Pentavalent, OPV, PCV, and Rotavirus vaccines at 6, 10, and 14 weeks. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  Gross motor: Sits without support, currently attempting to crawl.
+  Fine motor: Transfers objects from hand to hand.
+  Social: Waves bye-bye, enjoys playing with siblings.
+  Language: Polysyllabic babbling (e.g., mamama, dadada).
+  
+  Development is appropriate for age.
+  
+  Family and Social History
+  The patient is the second of two children in a monogamous setting. Father is a tailor and mother is a petty trader. They live in a one-bedroom apartment with two windows. Use of charcoal stove for cooking occurs in a shared corridor.
+  
+  Review of Systems
+  CNS: No seizures, no loss of consciousness.
+  GIT: No diarrhoea, no constipation.
+  MSS: No swelling of joints.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking infant, in respiratory distress (nasal flaring, subcostal and intercostal recessions), febrile (Temp: 38.4°C), not pale, not jaundiced, no peripheral lymphadenopathy, no pedal oedema.
+  
+  Anthropometry
+  Weight: 8.5 kg
+  Length: 70 cm
+  MUAC: 13.5 cm (Normal)
+  
+  Respiratory System
+  RR: 64 cpm (Tachypnoea).
+  SpO₂: 91% on room air.
+  
+  Trachea is central.
+  
+  Percussion note: Resonant bilaterally.
+  
+  Auscultation: Vesicular breath sounds with fine crepitations heard over the lung bases bilaterally.
+  
+  Cardiovascular System
+  PR: 146 bpm (Regular, normal volume).
+  
+  Heart sounds: S1 and S2 only. No murmurs.
+  
+  Apex beat: 4th left intercostal space, lateral to the mid-clavicular line.
+  
+  Abdomen
+  Full, moves with respiration.
+  
+  Liver: 2 cm below the costal margin, smooth, non-tender.
+  
+  Spleen: Not palpable.
+  
+  Bowel sounds: Present and normal.
+  
+  Central Nervous System
+  Conscious and alert.
+  
+  Anterior fontanelle: Flat and pulsatile.
+  
+  Muscle tone and reflexes: Normal for age.
+  
+  Assessment
+  Severe Bronchopneumonia.
+  
+  Differential Diagnoses
+  1. Acute Bronchiolitis
+  2. Congestive Heart Failure secondary to Congenital Heart Disease (e.g., VSD)
+  3. Pulmonary Tuberculosis
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): To check for leukocytosis (neutrophilia).
+  2. Chest X-ray (AP and Lateral views): To check for patchy opacities or consolidation.
+  3. Pulse Oximetry: To monitor oxygen saturation.
+  4. Blood Culture: To identify causative bacterial organism.
+  5. Malaria Parasite (MPS): To rule out co-existing malaria.
+  6. Electrolytes, Urea, and Creatinine: To assess hydration and renal function.
+  
+  Initial Management Plan
+  
+  Aims: To improve oxygenation, treat infection, and maintain hydration.
+  
+  1. Positioning and Oxygenation
+  - Propped-up position at 30 to 45 degrees.
+  - Commence humidified Oxygen via nasal prongs at 1–2 litres per minute to maintain SpO₂ above 94%.
+  
+  2. Fluid Therapy
+  - If the child can still breastfeed/swallow, encourage frequent small feeds.
+  - If in severe distress, start IV fluids (4.3% Dextrose in 0.18% Normal Saline) at maintenance rate.
+  - Calculation: 100 ml/kg for 8.5 kg = 850 ml over 24 hours (approx. 35 ml per hour).
+  
+  3. Antibiotics (Empiric Therapy)
+  - IV Ceftriaxone 80 mg/kg OD. Dose: 680 mg IV daily.
+  
+  OR
+  
+  - IV Ampicillin 50 mg/kg 6-hourly (425 mg 6-hourly) AND IV Gentamicin 7.5 mg/kg OD (63.75 mg, approximately 64 mg IV daily).
+  
+  4. Antipyretics
+  - IV Paracetamol 15 mg/kg (127.5 mg, approx. 128 mg) every 6–8 hours if febrile.
+  
+  5. Monitoring
+  - Vital signs (RR, PR, Temp, SpO₂) every 2–4 hours.
+  - Monitor for danger signs: grunting, inability to feed, cyanosis, or depressed level of consciousness.
+  - Repeat clinical examination of the chest daily to assess response to therapy.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-135',
+    title: 'Pertussis (Whooping Cough)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Respiratory / Infectious Diseases',
+    condition: 'Pertussis',
+    symptoms: [
+      'Paroxysmal cough',
+      'Inspiratory whoop',
+      'Post-tussive vomiting',
+      'Low-grade fever',
+      'Rhinorrhoea',
+      'Transient cyanosis during coughing episodes',
+      'Transient oxygen desaturation'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '2-year-old male with incomplete immunization presenting with a 2-week history of cough, progressing to paroxysmal coughing episodes associated with inspiratory whoop and post-tussive vomiting. Examination reveals transient oxygen desaturation during coughing episodes, suggestive of pertussis in the paroxysmal stage.',
+    content: `PAEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Name: Master Musa Abdullahi
+  Age: 2 years
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Caregiver: Mother (Informant), Reliable
+  
+  Presenting Complaints
+  1. Recurrent bouts of coughing × 2/52
+  2. Post-tussive vomiting × 1/52
+  3. Low-grade fever × 2/52
+  
+  History of Presenting Complaint
+  The patient was apparently well until 2 weeks ago when he developed a mild, non-productive cough associated with rhinorrhoea and low-grade fever. Symptoms were initially managed as a common cold with paracetamol syrup.
+  
+  However, 1 week prior to presentation, the cough became paroxysmal, characterized by sudden, repetitive bursts of coughing in a single expiration followed by a high-pitched inspiratory sound (whoop). During these episodes, the child's face becomes dusky/red, and his eyes appear prominent. The episodes are more frequent at night and often terminate in the vomiting of clear, mucoid exhaustion-like phlegm. There is no history of choking on a foreign body, no contact with a known TB patient, and no history of wheezing.
+  
+  Review of Systems
+  CNS: No convulsions, no loss of consciousness.
+  GIT: No diarrhoea, no abdominal distension.
+  MSS: No joint swellings.
+  
+  Past Medical History
+  No previous hospitalizations or blood transfusions. No known drug allergies. No history of reactive airway disease.
+  
+  Birth History
+  Spontaneous vaginal delivery at term in a Primary Health Care (PHC) centre. Birth weight was 3.2 kg. No neonatal jaundice or respiratory distress at birth.
+  
+  Immunization History
+  Incomplete. Received BCG and OPV0 at birth. Missed subsequent Pentavalent (DPT-HepB-Hib) doses at 6, 10, and 14 weeks due to distance from the clinic. BCG scar is present.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Currently on family diet (mostly pap, tuwo, and vegetables). Frequency is 3 times daily. Utilization is currently poor due to coughing bouts and vomiting.
+  
+  Family and Social History
+  Third child in a monogamous family of five. Resides in a 2-room ventilated apartment. Water source is a communal borehole. Father is a subsistence farmer, mother is a petty trader.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking child, in respiratory distress during coughing paroxysms but appears comfortable between episodes.
+  
+  Not pale, anicteric, acyanosed (at rest), no pedal oedema, no significant lymphadenopathy.
+  
+  Hydration is fair.
+  
+  Vital Signs
+  Temp: 37.4°C
+  PR: 110 bpm (regular, normal volume)
+  RR: 32 cpm (no tachypnoea at rest)
+  SpO₂: 96% in room air (drops to 88% during paroxysms)
+  
+  Anthropometry
+  Weight: 11.5 kg (Expected for age: approx. 12 kg)
+  Height: 86 cm
+  MUAC: 13.5 cm (Normal)
+  
+  Systemic Examination
+  
+  Respiratory System
+  Trachea is central.
+  
+  Chest is symmetrical, moves with respiration.
+  
+  Mild subcostal and intercostal recessions noted during coughing bouts.
+  
+  Percussion note: Resonant bilaterally.
+  
+  Auscultation: Vesicular breath sounds. Occasional coarse crepitations bilaterally. No rhonchi.
+  
+  Cardiovascular System
+  Apex beat at 4th left intercostal space, mid-clavicular line.
+  
+  S1 and S2 only heard. No murmurs.
+  
+  Abdomen
+  Full, soft, moves with respiration.
+  
+  No organomegaly.
+  
+  Bowel sounds present and normal.
+  
+  Neurological System
+  Conscious and alert.
+  
+  No signs of meningeal irritation.
+  
+  Normal muscle tone and reflexes in all limbs.
+  
+  Summary
+  A 2-year-old male with incomplete immunization presenting with a 2-week history of paroxysmal cough, inspiratory whoop, and post-tussive vomiting. Examination shows a child in paroxysmal distress with transient desaturation but otherwise stable between bouts.
+  
+  Assessment
+  Pertussis (Whooping Cough) in the paroxysmal stage.
+  
+  Differential Diagnoses
+  1. Chlamydial pneumonia
+  2. Mycoplasma pneumoniae infection
+  3. Foreign body aspiration
+  4. Adenovirus infection (Pertussis-like syndrome)
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): Look for absolute lymphocytosis (common in pertussis).
+  2. Chest X-ray (CXR): Rule out secondary pneumonia or "shaggy heart" appearance.
+  3. Nasopharyngeal swab for PCR (if available): For Bordetella pertussis.
+  4. Sputum/Swab Culture (Regan-Lowe medium): Gold standard, though difficult to grow.
+  
+  Initial Management Plan
+  
+  General/Supportive:
+  1. Admission for monitoring of paroxysms and oxygen saturation.
+  2. Maintain airway; suctioning of secretions as needed.
+  3. Oxygen therapy via nasal cannulae if SpO₂ drops below 92% between or during bouts.
+  4. Isolation from other paediatric patients (droplet precautions) for 5 days after starting antibiotics.
+  5. Small, frequent feeds to minimize post-tussive vomiting.
+  
+  Fluid Management:
+  Maintenance fluids for 11.5 kg child (using 4:2:1 rule):
+  - 10 kg = 40 ml/hr
+  - 1.5 kg = 3 ml/hr
+  Total = 43 ml/hr.
+  
+  Choice: 4.3% Dextrose in 0.18% Normal Saline (1/5th saline) if the child is not tolerating oral intake.
+  
+  Medications:
+  
+  1. Antibiotics (Macrolide):
+  - Azithromycin: 10 mg/kg (115 mg) PO OD on Day 1, then 5 mg/kg (57.5 mg) PO OD on Days 2 to 5.
+  - (Alternatively, Clarithromycin: 7.5 mg/kg BD for 7 days).
+  
+  2. Antipyretics:
+  - Syrup Paracetamol 15 mg/kg (170 mg) every 6 to 8 hours if febrile.
+  
+  3. Post-exposure Prophylaxis:
+  - Azithromycin for all household contacts regardless of immunization status.
+  
+  Follow-up:
+  - Update immunization schedule once the child is stable and has completed the antibiotic course.
+  - Health education for parents on the importance of the NPI (National Programme on Immunization) schedule.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-134',
+    title: 'Neonatal Tetanus',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Neonatal Tetanus',
+    symptoms: [
+      'Inability to suck',
+      'Generalized body stiffness',
+      'Trismus (lockjaw)',
+      'Excessive crying and irritability',
+      'Opisthotonic posturing',
+      'Stimulus-induced muscle spasms',
+      'Respiratory distress',
+      'Umbilical discharge'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '10-day-old male neonate presenting with inability to suck, generalized body stiffness, lockjaw and stimulus-induced spasms, with a history of unsafe umbilical cord care and absent maternal tetanus immunization, consistent with neonatal tetanus.',
+    content: `NEONATAL UNIT
+  
+  Patient Identification
+  Name: Baby Musa
+  Age: 10 days
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Caregiver: Mother (Informant, Reliable)
+  
+  Presenting Complaints
+  1. Inability to suck × 2/7
+  2. Body stiffness × 1/7
+  3. Excessive crying and irritability × 1/7
+  
+  History of Presenting Complaint
+  The patient was apparently well at birth and had been breastfeeding effectively until 2 days ago when the mother noticed he was struggling to latch and suckle. This was followed yesterday by the onset of generalized body stiffness and clenching of the teeth (lockjaw). The mother reports that the baby arches his back and stiffens his limbs, especially when touched or when there is a loud noise in the room. There is no history of fever, yellowish skin discoloration, or excessive sleepiness. No history of abnormal jerky movements or upward rolling of the eyes.
+  
+  Past Medical and Birth History
+  The patient is the 4th child in a monogamous family setting. He was delivered at term via spontaneous vaginal delivery at home, attended by a traditional birth attendant. No history of birth asphyxia. The umbilical cord was cut with a repurposed razor blade and has been dressed with cow dung and warm water since birth.
+  
+  Mother is a 28-year-old trader. She did not attend antenatal care during the index pregnancy and did not receive any Tetanus Toxoid (TT) vaccinations.
+  
+  Immunization and Nutrition
+  The child has not received any vaccinations since birth (BCG, OPV0, HepB0 are outstanding). No BCG scar noted.
+  
+  He was being exclusively breastfed until the onset of the current illness.
+  
+  Physical Examination
+  
+  General Examination:
+  Acutely ill-looking neonate, irritable, in respiratory distress.
+  Not pale, not icteric, cyanosis absent.
+  Hydration is fair.
+  Temperature: 37.2°C.
+  Weight: 3.1 kg.
+  
+  Umbilicus: Foul-smelling, erythematous base with purulent discharge noted.
+  
+  Systemic Examination
+  
+  Central Nervous System:
+  Level of consciousness: Conscious but highly irritable.
+  Presence of trismus (lockjaw) and risus sardonicus (facial grimacing).
+  Generalized hypertonia with opisthotonic posturing (arching of the back).
+  Frequent spasms triggered by tactile and auditory stimuli.
+  Fontanelle is flat and pulsatile.
+  
+  Respiratory System:
+  RR: 64 cpm, shallow.
+  Intercostal and subcostal recessions present.
+  Lungs are clear on auscultation; vesicular breath sounds bilaterally.
+  
+  Cardiovascular System:
+  PR: 154 bpm, regular, fair volume.
+  S1 and S2 heard; no murmurs.
+  
+  Abdominal System:
+  Abdomen is board-like (rigid) during spasms.
+  Bowel sounds are present and normal.
+  
+  Assessment
+  Neonatal Tetanus secondary to unsafe cord care in a child of an unimmunized mother.
+  
+  Differential Diagnoses
+  1. Neonatal Sepsis with meningitis and seizures
+  2. Hypocalcaemic tetany
+  3. Kernicterus (Acute Bilirubin Encephalopathy)
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): To check for leukocytosis suggestive of sepsis.
+  2. Blood Glucose: To rule out hypoglycaemia.
+  3. Serum Electrolytes, Urea, and Creatinine (E/U/Cr) with Serum Calcium: To rule out hypocalcaemia.
+  4. Umbilical Swab for Microscopy, Culture, and Sensitivity (MCS).
+  5. Lumbar puncture for CSF analysis (if stable enough to rule out meningitis).
+  
+  Initial Management Plan
+  
+  General Measures:
+  1. Admit to a quiet, darkened room to minimize stimuli.
+  2. Minimal handling: Group all nursing and medical tasks together.
+  3. Maintain airway patency; keep suctioning machine and oxygen at bedside.
+  4. Pass a Nasogastric Tube (NGT) for feeding and decompression, but only after adequate sedation.
+  5. Wound care: Clean the umbilical stump with 70% methylated spirit or Hydrogen Peroxide to create an aerobic environment.
+  
+  Pharmacotherapy:
+  
+  1. Neutralization of Toxin:
+  - Human Tetanus Immunoglobulin (HTIG): 3,000 to 6,000 units IM (preferred if available).
+  - OR Tetanus Antitoxin (ATS): 10,000 to 20,000 units. Give half IV and half IM. Perform a sensitivity test before administration.
+  
+  2. Antibiotics (To kill vegetative cells):
+  - Injection Metronidazole: Loading dose of 15 mg/kg, then 7.5 mg/kg every 8 hours. For this 3.1 kg child: 46.5 mg loading, then 23 mg 8-hourly IV. (Metronidazole is preferred over Penicillin G as the latter may worsen spasms).
+  
+  3. Control of Spasms and Sedation:
+  - Injection Diazepam: Use a range of 0.1 to 0.3 mg/kg IV every 3 to 6 hours.
+  - For a 3.1 kg child, start with 0.5 mg to 1 mg IV/NGT.
+  - Severe cases may require a continuous infusion of 10 to 40 mg/kg/24 hours, titrated to effect (monitor for respiratory depression).
+  - Injection Phenobarbital: Loading dose 20 mg/kg IV (62 mg for this child) may be added if diazepam alone is insufficient.
+  
+  4. Fluid Management:
+  - IV Fluids: 10% Dextrose in 0.225% Normal Saline (1/4 strength).
+  - Volume: 120 ml/kg/day (Total 370 ml over 24 hours at 15 ml/hour).
+  
+  5. Immunization:
+  - Administer the first dose of Pentavalent vaccine (which includes Tetanus toxoid) as the disease does not confer natural immunity.
+  - Ensure the mother receives her first dose of TT before discharge.
+  
+  Prognosis
+  The prognosis for neonatal tetanus is guarded and depends on the incubation period (time from birth to first symptom) and the period of onset (time from first symptom to first spasm). Short periods (under 6 days) carry a higher mortality rate. Ensure close monitoring of respiratory status.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-133',
+    title: 'Abdominal Vaso-Occlusive Crisis in Sickle Cell Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency / Hematology',
+    condition: 'Sickle Cell Disease (HbSS)',
+    symptoms: [
+      'Generalized abdominal pain',
+      'Severe abdominal pain',
+      'Restlessness',
+      'Hepatomegaly',
+      'Recurrent vaso-occlusive crises'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '7-year-old boy with known sickle cell disease (HbSS), presenting with a 6-hour history of sudden-onset severe generalized abdominal pain, with significant painful distress and tenderness on examination.',
+    content: `PEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Name: Master Chidi Okoro
+  Age: 7 years
+  Sex: Male
+  Address: Surulere, Lagos State
+  Tribe: Igbo
+  Religion: Christian
+  Caregiver: Mother (Reliable informant)
+  
+  Presenting Complaint
+  1. Abdominal pain × 6 hours
+  
+  History of Presenting Complaint
+  The patient was apparently well until 6 hours prior to presentation when he developed sudden-onset generalized abdominal pain. The pain is described as sharp and constant, rated 8/10 in severity, and prevents him from lying still. There is no history of preceding trauma to the abdomen. There is no associated fever, vomiting, diarrhoea, or constipation. No history of urinary frequency or dysuria. Mother administered a dose of Paracetamol syrup at home about 3 hours ago with no significant relief. This is the first time he is experiencing pain specifically in the abdomen, though he has frequent bone pain crises.
+  
+  Past Medical History
+  Known HbSS patient, diagnosed at age 2 via Haemoglobin Electrophoresis.
+  
+  Frequent bone pain crises (average 3 episodes per year).
+  
+  History of two previous blood transfusions (last was 12 months ago).
+  
+  No known history of asthma or drug allergies.
+  
+  Drug History
+  Folic acid 5 mg daily.
+  Proguanil 100 mg daily.
+  Last dose taken yesterday.
+  
+  Family and Social History
+  2nd child in a monogamous family of 3 children.
+  
+  Both parents are HbAS.
+  
+  Siblings: 1st child is HbAA, 3rd child is HbAS.
+  
+  Father is a secondary school teacher, mother is a trader.
+  
+  Reside in a 2-bedroom apartment with adequate ventilation and potable water source.
+  
+  Review of Systems
+  CNS: No headache, no seizures.
+  CVS: No palpitations, no easy fatigability.
+  RS: No cough, no chest pain.
+  MSS: No current joint or limb pain.
+  
+  Physical Examination
+  
+  General Examination:
+  Acutely ill-looking child, in significant painful distress, restless.
+  Afebrile (36.8°C).
+  Not pale, not icteric, not dehydrated.
+  No peripheral lymphadenopathy or pedal oedema.
+  
+  Anthropometry:
+  Weight: 24 kg (within 50th percentile for age).
+  
+  Vitals:
+  PR: 110 bpm (tachycardia, likely secondary to pain).
+  RR: 24 cpm.
+  SpO₂: 98% in room air.
+  BP: 105/70 mmHg.
+  
+  Abdominal Examination:
+  Inspection: Flat, moves with respiration. No surgical scars, no visible peristalsis.
+  
+  Palpation: Generalized abdominal tenderness, more marked in the epigastric and umbilical regions. No guarding, no rebound tenderness.
+  
+  Liver: 3 cm below the costal margin (BCM), smooth, firm, non-tender.
+  Spleen: Not palpable.
+  
+  Percussion: Normal tympanic note. No shifting dullness.
+  
+  Auscultation: Bowel sounds present and normal.
+  
+  Respiratory System:
+  Trachea central. Breath sounds vesicular. No adventitious sounds.
+  
+  Cardiovascular System:
+  Apex beat at 4th left intercostal space, mid-clavicular line. S1 and S2 only. No murmurs.
+  
+  Assessment
+  Abdominal Crisis in a known HbSS child.
+  
+  Differential Diagnoses
+  1. Acute Appendicitis
+  2. Mesenteric Adenitis
+  3. Cholecystitis
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): To check PCV and rule out leukocytosis.
+  2. Reticulocyte Count: To assess bone marrow activity.
+  3. Urinalysis: To rule out UTI as a trigger or differential.
+  4. Abdominal Ultrasound: To rule out cholelithiasis/cholecystitis or features of appendicitis.
+  5. Serum Electrolytes, Urea, and Creatinine (E/U/Cr): For baseline before intensive fluid therapy.
+  
+  Initial Management Plan
+  1. Admission for monitoring and intensive pain management.
+  
+  2. Fluid Therapy:
+  - Goal: Hyperhydration (1.5 times maintenance).
+  - Maintenance for 24 kg = 1580 ml/day.
+  - Target volume (1.5×) = 2370 ml per 24 hours.
+  - Fluid choice: 5% Dextrose in 0.45% Saline (Dextrose Saline).
+  - Rate: 98 ml/hour IV.
+  
+  3. Analgesia (WHO Ladder approach):
+  - Step 1: IV Paracetamol 15 mg/kg (360 mg) 8 hourly.
+  - Step 2: IV Ibuprofen 10 mg/kg (240 mg) 8 hourly (Ensure adequate hydration to protect kidneys).
+  - Step 3 (Severe pain): IV Pentazocine 0.5 mg/kg (12 mg) 6–8 hourly OR IV Morphine 0.1 mg/kg (2.4 mg) 4 hourly if pain persists.
+  
+  4. Other Medications:
+  - Maintain routine medications (Folic acid).
+  - Empirical antibiotics if fever develops or WBC is significantly elevated (e.g., IV Ceftriaxone 50 mg/kg/day).
+  
+  5. Monitoring:
+  - Frequent vital signs checks (Q4h).
+  - Strict fluid intake and output (I/O) charting.
+  - Abdominal girth monitoring.
+  - Serial abdominal examinations to ensure no surgical signs (guarding/rebound) develop.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-132',
+    title: 'Abdominal and Haemolytic Crisis in Sickle Cell Disease',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency / Hematology',
+    condition: 'Sickle Cell Disease (HBSS)',
+    symptoms: [
+      'Generalized abdominal pain',
+      'Jaundice',
+      'Dark-coloured urine',
+      'Fever',
+      'Pallor',
+      'Hepatosplenomegaly',
+      'Poor appetite'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '8-year-old boy with known sickle cell anaemia (HBSS), presenting with acute generalized abdominal pain, worsening jaundice, dark-coloured urine and fever, with clinical features suggestive of vaso-occlusive and haemolytic crises.',
+    content: `PEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Name: Chinedu Okoro
+  Age: 8 years
+  Sex: Male
+  Address: Achara Layout, Enugu, Enugu State
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Abdominal pain × 1/7
+  2. Yellowish discoloration of the eyes × 1/7
+  3. Dark-coloured urine × 1/7
+  
+  History of Presenting Complaint
+  Child is a known Sickle Cell Anaemia (HBSS) patient, diagnosed at 18 months via haemoglobin electrophoresis. He was in his usual state of health until 24 hours prior to presentation when he developed sudden-onset generalized abdominal pain. The pain is described as colicky, severe enough to interfere with sleep and activity, with no specific relieving or aggravating factors.
+  
+  Earlier today, the mother noticed a significant deepening of the yellowish discoloration of his sclera, which was previously at a baseline mild level. This was accompanied by the passage of dark, tea-coloured urine. There is no history of vomiting, diarrhoea, or constipation. No history of cough, breathlessness, or chest pain. No history of recent trauma to the abdomen. Mother reports he has felt warm to touch since yesterday, though no thermometer readings were taken. He has been unable to tolerate his usual meals due to the pain.
+  
+  Past Medical History
+  Known HBSS patient. He has had 3 previous hospitalizations for vaso-occlusive crises (bone pain). Last crisis was 6 months ago. He received a blood transfusion 2 years ago during a similar episode of worsening anaemia. No history of surgery. No known drug allergies.
+  
+  Drug History
+  Daily Folic acid 5 mg.
+  Daily Proguanil (Paludrine) 100 mg.
+  Cloxacillin used occasionally for minor skin infections.
+  
+  Birth History
+  Term delivery via spontaneous vaginal delivery at a private hospital in Enugu. Birth weight was 3.2 kg. No neonatal jaundice or respiratory distress reported.
+  
+  Immunization and Nutrition
+  Fully immunized for age according to the National Programme on Immunization (NPI) schedule, including BCG scar present.
+  
+  Dietary history reveals an adequate intake of carbohydrates and proteins, though appetite is currently poor.
+  
+  Developmental History
+  Attained all major milestones (sitting, standing, walking, and first words) at age-appropriate times. Currently in Primary 3 and performing well academically.
+  
+  Family and Social History
+  3rd of 4 children in a monogamous family setting. One older sibling also has SCD. Father is a civil servant and mother is a petty trader. They live in a well-ventilated 3-bedroom apartment. Source of water is a borehole.
+  
+  Review of Systems
+  CNS: No headache, no seizures, no loss of consciousness.
+  RS: No cough, no fast breathing.
+  CVS: No palpitations, no orthopnoea.
+  GIT: As in HPC.
+  MSS: No bone pain, no joint swelling.
+  
+  Physical Examination
+  
+  General Examination
+  A young male child in obvious painful distress.
+  Markedly pale, deeply icteric.
+  Febrile (Temperature: 38.4°C).
+  Mildly dehydrated (dry buccal mucosa, normal skin turgor).
+  No significant peripheral lymphadenopathy.
+  No pedal oedema.
+  
+  Anthropometry
+  Weight: 22 kg (Expected for age ~24–26 kg).
+  Height: 122 cm.
+  MUAC: 14.5 cm.
+  
+  Systemic Examination
+  
+  Cardiovascular System:
+  Pulse rate: 124 bpm (tachycardia), regular, full volume.
+  BP: 95/60 mmHg.
+  Apex beat: 5th left intercostal space, lateral to the mid-clavicular line.
+  Heart sounds: S1, S2 only. A Grade 2/6 functional systolic murmur is heard over the precordium.
+  
+  Respiratory System:
+  Respiratory rate: 30 cpm.
+  Trachea central.
+  Percussion note: Resonant bilaterally.
+  Breath sounds: Vesicular, no adventitious sounds.
+  
+  Abdomen:
+  Full, moves with respiration.
+  Generalized abdominal tenderness, most marked in the epigastric and right hypochondriac regions.
+  No guarding or rebound tenderness.
+  Liver: 4 cm below the right costal margin (RCM), smooth, firm, and tender.
+  Spleen: 3 cm below the left costal margin (LCM), firm and tender.
+  Bowel sounds: Present and normal.
+  
+  Neurological System:
+  Conscious and alert (GCS 15/15).
+  No signs of meningeal irritation.
+  Power and reflexes are normal in all limbs.
+  
+  Assessment
+  1. Abdominal (Vaso-occlusive) Crisis
+  2. Haemolytic Crisis
+  3. Known Sickle Cell Anaemia (HBSS)
+  4. Query Malaria as a trigger
+  
+  Differential Diagnoses
+  1. Acute Cholecystitis/Cholelithiasis
+  2. Mesenteric Adenitis
+  3. Malaria in a child with SCD
+  
+  Initial Investigation Plan
+  1. Full Blood Count (FBC): To check PCV level and look for leukocytosis.
+  2. Reticulocyte Count: To differentiate from aplastic crisis (expectedly high in haemolytic crisis).
+  3. Peripheral Blood Film: To assess for sickled cells, target cells, and features of haemolysis.
+  4. Serum Bilirubin (Total/Conjugated): To confirm unconjugated hyperbilirubinaemia.
+  5. Malaria Parasite (MPS): To rule out malaria as a trigger.
+  6. Urinalysis: To check for urobilinogen and rule out UTI.
+  7. Abdominal Ultrasound: To evaluate for gallstones or evidence of mesenteric lymphadenopathy.
+  8. Blood Culture: If fever persists, to rule out septicaemia.
+  
+  Initial Management Plan
+  1. Admission for close monitoring and parenteral therapy.
+  
+  2. Fluid Therapy (Rehydration and Hyperhydration):
+  Use IV 4.3% Dextrose in 0.18% Saline.
+  
+  Calculate at 1.5 times maintenance for 22 kg.
+  
+  Maintenance: (10 kg × 100 ml) + (10 kg × 50 ml) + (2 kg × 20 ml) = 1540 ml/24 h.
+  
+  1.5× Maintenance: 1540 × 1.5 = 2310 ml per 24 hours.
+  
+  Regimen: Approximately 96 ml per hour (or 32 drops per minute using a standard giving set of 20 drops/ml).
+  
+  3. Analgesia:
+  - IV Paracetamol 330 mg (15 mg/kg) every 8 hours.
+  - IV Pentazocine 11 mg (0.5 mg/kg) every 6–8 hours for severe pain. Monitor for respiratory depression.
+  - If pain is refractory, consider IV Morphine 2.2 mg (0.1 mg/kg) slowly, with close monitoring.
+  
+  4. Antibiotics (Empirical):
+  - IV Ceftriaxone 1.1 g (50 mg/kg) once daily to cover common encapsulated organisms like Streptococcus pneumoniae and Salmonella.
+  
+  5. Antimalarials:
+  - IV Artesunate 52.8 mg (2.4 mg/kg) at 0, 12, and 24 hours, then daily until child can tolerate oral medications (e.g., Artemether-Lumefantrine).
+  
+  6. Monitoring and Nursing Care:
+  - Monitor vital signs (Pulse, RR, BP, Temp) every 4 hours.
+  - Strict Input and Output charting.
+  - Serial PCV monitoring (every 12 hours) to detect rapid drops requiring urgent transfusion.
+  - Keep child warm and comfortable.
+  
+  7. Blood Transfusion:
+  - Cross-match 1 unit of sedimented Red Blood Cells.
+  - Indication for transfusion: If PCV drops below 15%, or a sudden drop of more than 5% from the patient's steady-state PCV (usually ~20–22% in this patient), or if there are signs of cardiovascular decompensation.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-131',
+    title: 'Acute Thrombocytopenia with Mucocutaneous Bleeding in a Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Suspected Acute Thrombocytopenia',
+    symptoms: [
+      'Fever x 5 days',
+      'Bleeding from the gums x 2 days',
+      'Petechial skin rashes x 2 days',
+      'Generalised body weakness',
+      'Reduced appetite',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 5-year-old male presented with a 5-day history of high-grade fever, followed by gum bleeding and non-blanching petechial rashes over the trunk and abdomen. Examination revealed fever, multiple petechiae, a few ecchymoses and mild hepatosplenomegaly, with no pallor or active bleeding at the time of examination. The working diagnosis is suspected acute thrombocytopenia in the setting of an acute febrile illness. Differentials include severe malaria, bacterial sepsis with possible disseminated intravascular coagulation, viral haemorrhagic fever and immune thrombocytopenia (ITP).',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master O.A.
+  Age: 5 years
+  Sex: Male
+  Religion: Christianity
+  Address: Surulere, Lagos State
+  Tribe: Yoruba
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever x 5 days
+  2. Bleeding from the gums x 2 days
+  3. Skin rashes x 2 days
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 5 days prior to presentation when he developed high-grade, intermittent fever associated with chills and rigors. There was no associated cough, ear discharge or fast breathing.
+  
+  Two days prior to presentation, his mother noticed bleeding from the gums while brushing his teeth. There was no history of epistaxis, haematemesis or melaena. Around the same time, his mother noticed multiple tiny, non-itchy red spots on his chest and abdomen, which did not disappear on pressure.
+  
+  There is no history of recent trauma, joint pains or joint swelling. He has had reduced appetite and generalised body weakness since the onset of the illness. No history of yellowish discolouration of the eyes or change in urine colour. No history of recent travel to an area with a known outbreak. No history of drug ingestion prior to the onset of symptoms.
+  
+  PAST MEDICAL HISTORY
+  
+  No similar previous episodes.
+  No history of recurrent infections.
+  Not a known patient with sickle cell disease (Hb genotype AA).
+  No history of blood transfusion.
+  No known drug allergies.
+  
+  BIRTH HISTORY
+  
+  Antenatal: Mother booked at a Primary Health Centre. Pregnancy was carried to term and was uneventful.
+  
+  Natal: Delivered via spontaneous vaginal delivery (SVD) at a general hospital.
+  
+  Postnatal: Cried immediately after birth. Birth weight was 3.4 kg. No history of neonatal jaundice or seizures.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Complementary feeding commenced at 6 months with fortified pap and the family diet.
+  
+  Currently eats the family diet 3–4 times daily, consisting mainly of carbohydrates and proteins. Diet is adequate for age.
+  
+  IMMUNIZATION HISTORY
+  
+  Immunization is up to date according to the National Programme on Immunization (NPI) schedule. BCG scar visible on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all developmental milestones at the appropriate ages. Currently in Nursery 3 and performs well in school.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Second of three children in a monogamous setting. Father is a civil servant, while the mother is a teacher. They reside in a three-bedroom flat with good cross-ventilation and treated pipe-borne water. Refuse is disposed of through the state waste management service.
+  
+  REVIEW OF SYSTEMS
+  
+  Central Nervous System: No seizures or loss of consciousness.
+  Respiratory System: No cough or difficulty in breathing.
+  Cardiovascular System: No palpitations or pedal oedema.
+  Gastrointestinal System: No abdominal pain, vomiting or diarrhoea.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, febrile (temperature 38.6°C), not pale, anicteric and not dehydrated.
+  No significant peripheral lymphadenopathy.
+  Multiple petechial haemorrhages and a few ecchymoses noted over the trunk and upper limbs.
+  No active gum bleeding at the time of examination.
+  
+  ANTHROPOMETRY
+  
+  Weight: 19 kg (expected for age).
+  Height: 112 cm.
+  MUAC: 15 cm.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Full and moves with respiration.
+  Soft and non-tender.
+  Liver: Palpable 2 cm below the right costal margin, smooth and firm.
+  Spleen: Palpable 3 cm below the left costal margin (splenomegaly).
+  Bowel sounds present.
+  
+  RESPIRATORY SYSTEM
+  
+  Respiratory rate: 26 cpm.
+  Trachea central.
+  Good air entry bilaterally.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Pulse rate: 110 bpm, regular and normal volume.
+  Blood pressure: 90/60 mmHg.
+  Heart sounds S1 and S2 only.
+  No murmurs.
+  
+  NEUROLOGICAL SYSTEM
+  
+  Conscious and alert.
+  GCS: 15/15.
+  No signs of meningeal irritation.
+  Normal muscle tone and power in all limbs.
+  
+  ASSESSMENT
+  
+  Suspected acute thrombocytopenia associated with an acute febrile illness, with mucocutaneous bleeding.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Severe malaria with thrombocytopenia.
+  2. Bacterial sepsis, possibly with disseminated intravascular coagulation (DIC).
+  3. Viral haemorrhagic fever (e.g. Lassa fever or dengue fever), depending on epidemiological risk and exposure history.
+  4. Immune thrombocytopenia (ITP), possibly triggered by a recent viral infection.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): Assess haemoglobin/haematocrit, total and differential white blood cell counts, and platelet count. Repeat platelet count if the result is unexpected or inconsistent with the clinical picture.
+  2. Peripheral Blood Film (PBF): Assess blood cell morphology, platelet size and distribution, and look for giant platelets, platelet clumping, blasts or other abnormal cells.
+  3. Malaria Parasite Test: Perform a rapid diagnostic test (RDT) and thick/thin blood films to assess for malaria parasitaemia and parasite density.
+  4. Blood Culture and Sensitivity: Obtain blood culture before antibiotics where this will not delay treatment, to investigate possible bacterial sepsis.
+  5. Urinalysis: Assess for haematuria and proteinuria.
+  6. Coagulation Profile (PT, APTT and INR): Evaluate for coagulation abnormalities and possible DIC.
+  7. Serum Electrolytes, Urea and Creatinine: Assess renal function.
+  8. Additional tests guided by clinical findings: Consider fibrinogen, D-dimer, liver function tests and appropriate viral haemorrhagic fever investigations where epidemiological or clinical suspicion exists.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. ADMISSION AND GENERAL CARE
+  
+  - Admit for close monitoring and further evaluation.
+  - Institute appropriate bleeding precautions and minimise unnecessary invasive procedures.
+  - Avoid intramuscular injections, NSAIDs (e.g. ibuprofen) and other medications that may impair platelet function.
+  - Avoid unnecessary venepuncture and apply firm pressure after blood sampling.
+  
+  2. FLUID MANAGEMENT
+  
+  - IV fluids: 0.45% Saline in 5% Dextrose or Darrow's solution, as initially proposed.
+  - Maintenance fluid calculation using the Holiday-Segar method:
+  
+  For a 19 kg child:
+  (10 kg x 100 mL) + (9 kg x 50 mL) = 1,450 mL/24 hours.
+  
+  Approximately 60 mL/hour.
+  
+  Fluid type and rate should be individualised according to hydration status, oral intake, urine output, electrolyte results and haemodynamic status.
+  
+  3. ANTIMALARIALS
+  
+  If severe malaria is suspected or confirmed, administer IV artesunate at 2.4 mg/kg at 0, 12 and 24 hours, then daily according to the recommended severe malaria regimen.
+  
+  Dose for a 19 kg child:
+  19 kg x 2.4 mg/kg = 45.6 mg per dose.
+  
+  Once the child can tolerate oral medication, complete a full course of an appropriate artemisinin-based combination therapy (ACT).
+  
+  4. ANTIBIOTICS
+  
+  IV ceftriaxone 1 g daily (approximately 50 mg/kg/day for this 19 kg child), as initially proposed, pending culture results and further clinical assessment.
+  
+  Review antibiotic choice and duration according to the suspected source of infection, culture results and local paediatric sepsis protocol.
+  
+  5. ANTIPYRETICS
+  
+  IV paracetamol 15 mg/kg every 8 hours for fever.
+  
+  Dose for a 19 kg child:
+  19 kg x 15 mg/kg = 285 mg per dose.
+  
+  6. BLEEDING PRECAUTIONS
+  
+  - Avoid intramuscular injections and NSAIDs such as ibuprofen.
+  - Avoid unnecessary invasive procedures.
+  - Monitor for new or worsening mucocutaneous bleeding.
+  - Platelet transfusion should be considered in life-threatening bleeding or serious bleeding at a critical site, with specialist input. Prophylactic platelet transfusion should not be based on the platelet count alone, particularly if ITP is suspected.
+  
+  7. MONITORING
+  
+  - Monitor vital signs (pulse rate, respiratory rate, blood pressure and temperature) every 4 hours or more frequently if clinically unstable.
+  - Monitor for signs of internal bleeding, including persistent tachycardia, falling blood pressure, abdominal pain, altered consciousness and blood in urine or stool.
+  - Monitor for progression of petechiae, ecchymoses or mucosal bleeding.
+  - Repeat FBC and platelet count according to clinical severity and initial results.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-130',
+    title: 'Severe Malaria with Suspected Blackwater Fever',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Infectious Diseases',
+    condition: 'Severe Malaria with Haemoglobinuria (Blackwater Fever)',
+    symptoms: [
+      'Fever x 5 days',
+      'Body weakness and prostration x 2 days',
+      'Passage of dark, Coca-Cola-coloured urine x 1 day',
+      'Headache and loss of appetite',
+      'Vomiting x 3 days',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 6-year-old male with documented HbAA presented with a 5-day history of high-grade fever, chills and rigors, followed by vomiting, progressive weakness and passage of dark Coca-Cola-coloured urine. He had received an unspecified antimalarial syrup before the onset of dark urine. Examination revealed fever, moderate pallor, deep jaundice, tachycardia and mild hepatosplenomegaly. The working diagnosis is suspected severe malaria with haemoglobinuria (blackwater fever). Differentials include G6PD deficiency with oxidative haemolysis, other causes of acute intravascular haemolysis and leptospirosis.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master Chinedu Okafor
+  Age: 6 years
+  Sex: Male
+  Address: Gwagwalada, FCT
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever x 5 days
+  2. Body weakness x 2 days
+  3. Passage of dark-coloured urine x 1 day
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 5 days prior to presentation when he developed high-grade, intermittent fever associated with chills and rigors. There was associated headache and loss of appetite.
+  
+  Three days prior to presentation, he started vomiting. The vomitus was non-projectile and contained recently ingested meals. There was no history of diarrhoea.
+  
+  Two days prior to presentation, his mother noticed significant body weakness (prostration), as the child could no longer stand or walk without support.
+  
+  One day prior to presentation, he started passing dark, Coca-Cola-coloured urine. There was no associated history of dysuria or urinary frequency. No history of trauma to the loins or bleeding from other sites.
+  
+  There is no previous history of similar episodes or known sensitivity to antimalarial drugs. He had been treated at a local chemist with oral paracetamol and an unspecified antimalarial syrup 2 days before the onset of dark urine.
+  
+  PAST MEDICAL HISTORY
+  
+  Not a known sickle cell disease patient (HbAA confirmed at 1 year).
+  No previous blood transfusions.
+  No history of chronic kidney disease.
+  
+  BIRTH HISTORY
+  
+  Term delivery via spontaneous vaginal delivery at a private hospital. Birth weight was 3.2 kg. No history of neonatal jaundice.
+  
+  IMMUNIZATION HISTORY
+  
+  Received all routine National Programme on Immunization (NPI) vaccines up to date. BCG scar present.
+  
+  NUTRITIONAL HISTORY
+  
+  Complementary feeding started at 6 months. Currently eats the family diet. No history of fava bean ingestion.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Last child in a family of four. Father is a trader, while the mother is a primary school teacher. They live in a two-bedroom apartment with window screens, but the child occasionally plays outdoors in the evenings.
+  
+  REVIEW OF SYSTEMS
+  
+  Central Nervous System: No convulsions or loss of consciousness.
+  Respiratory System: No cough or fast breathing.
+  Cardiovascular System: No palpitations or orthopnoea.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, febrile (temperature 38.8°C), moderately pale and deeply jaundiced.
+  No pedal oedema or peripheral lymphadenopathy.
+  
+  Weight: 20 kg.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 124 bpm (tachycardic, regular, full volume).
+  Respiratory Rate: 32 cpm.
+  Blood Pressure: 95/60 mmHg.
+  SpO2: 96% in room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Full and moves with respiration.
+  Liver: Palpable 4 cm below the right costal margin, smooth, firm and mildly tender.
+  Spleen: Palpable 3 cm below the left costal margin.
+  Bowel sounds present and normal.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat at the 4th left intercostal space, midclavicular line.
+  Heart sounds S1 and S2 heard.
+  No murmurs.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central.
+  Good air entry bilaterally.
+  Vesicular breath sounds.
+  No adventitious sounds.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious and alert.
+  Blantyre Coma Scale: 5/5.
+  No neck stiffness.
+  Kernig's sign negative.
+  Normal muscle tone and reflexes.
+  
+  ASSESSMENT
+  
+  Suspected severe malaria with haemoglobinuria (blackwater fever).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. G6PD deficiency with oxidative haemolysis, possibly triggered by infection or medication.
+  2. Sickle cell anaemia with acute haemolytic crisis (less likely given the documented HbAA genotype).
+  3. Leptospirosis.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC)/PCV: Assess the degree of anaemia, white blood cell count and platelet count.
+  2. Blood Film for Malaria Parasites (MPS): Confirm malaria parasitaemia and assess parasite density.
+  3. Urinalysis: Assess for haemoglobinuria (dipstick positive for blood with absent or few red blood cells on microscopy) and proteinuria.
+  4. Serum Electrolytes, Urea and Creatinine: Assess renal function and evaluate for acute kidney injury (AKI).
+  5. Serum Bilirubin (Total and Conjugated): Assess the degree and pattern of hyperbilirubinaemia associated with haemolysis.
+  6. G6PD Screening: Assess for G6PD deficiency. Testing during acute haemolysis may be falsely normal; repeat after recovery if necessary.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. RESUSCITATION AND FLUID MANAGEMENT
+  
+  - Establish immediate intravenous access.
+  - IV 0.9% Normal Saline 20 mL/kg bolus over 30 minutes if there are signs of shock. The patient is currently described as haemodynamically stable.
+  - Maintenance fluids: IV 5% Dextrose in 0.45% Saline or 4:1 saline-dextrose, as initially proposed.
+  - Ensure adequate hydration and monitor urine output, with a proposed target of greater than 1.5 mL/kg/hour to reduce the risk of renal complications associated with haemoglobinuria.
+  - Total maintenance fluid volume for a 20 kg child: 1,500 mL/24 hours, with additional replacement of documented ongoing losses as clinically indicated.
+  
+  2. ANTIMALARIAL THERAPY
+  
+  IV artesunate 2.4 mg/kg (48 mg for this 20 kg child).
+  
+  Dosing schedule: At 0, 12 and 24 hours, then daily for at least 3 days or until the child can tolerate oral medication.
+  
+  Once able to tolerate oral medication, complete a full course of an artemisinin-based combination therapy (ACT), e.g. artemether-lumefantrine.
+  
+  3. MANAGEMENT OF ANAEMIA
+  
+  - Group and cross-match blood.
+  - Prepare one unit of compatible packed red blood cells or whole blood, depending on availability and clinical indication.
+  - Transfuse if PCV falls below 15% or if there is cardiovascular compromise, following assessment of haemoglobin level and clinical status.
+  - Proposed transfusion volumes:
+    - Whole blood: 20 mL/kg.
+    - Packed red blood cells: 10 mL/kg.
+  
+  4. SYMPTOMATIC TREATMENT
+  
+  - IV paracetamol 15 mg/kg (300 mg for this 20 kg child) 8-hourly for fever.
+  - Maintain strict intake and output charting.
+  - Monitor urine colour and volume at every void.
+  
+  5. SUPPORTIVE CARE
+  
+  - Monitor for signs of acute kidney injury, including oliguria and facial puffiness.
+  - Discontinue any potentially implicated oxidant medication, such as quinine, primaquine or sulfonamides, if being used.
+  - Obtain the name and formulation of the antimalarial syrup administered before presentation and document the exposure.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+ 
+  {
+    id: 'peds-129',
+    title: 'Suspected Autoimmune Haemolytic Anaemia in a Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Suspected Autoimmune Haemolytic Anaemia',
+    symptoms: [
+      'Generalised weakness x 5 days',
+      'Yellowish discolouration of the eyes x 4 days',
+      'Passage of dark-coloured urine x 3 days',
+      'Body swelling x 2 days',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 6-year-old male presented with progressive generalised weakness, jaundice, dark-coloured urine and facial and pedal swelling. Examination revealed conjunctival pallor, icteric sclera, mild pedal oedema, tachycardia, tachypnoea, hepatosplenomegaly and a precordial systolic murmur. The working diagnosis is suspected autoimmune haemolytic anaemia, pending confirmation of haemolysis and a positive direct antiglobulin test. Differentials include G6PD deficiency with acute haemolysis, sickle cell disease and malaria-associated haemolysis. The associated oedema and dark urine also warrant evaluation for renal disease.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Chinedu Okeke
+  Age: 6 years
+  Sex: Male
+  Address: Gwagwalada, Abuja
+  Tribe: Igbo
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Generalised weakness x 5 days
+  2. Yellowish discolouration of the eyes x 4 days
+  3. Passage of dark-coloured urine x 3 days
+  4. Body swelling x 2 days
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 5 days prior to presentation when he developed progressive generalised body weakness and easy fatigability, which limited his ability to play with his peers.
+  
+  Four days prior to presentation, his mother noticed yellowish discolouration of his sclera, which was sudden in onset and progressively deepened. There was no associated history of abdominal pain, fever or vomiting.
+  
+  Three days prior to presentation, he started passing dark-coloured urine, described as tea-coloured or Coca-Cola-coloured. There is no history of dysuria, urinary frequency or visible haematuria.
+  
+  Two days prior to presentation, his mother noticed puffiness of the face and swelling of the feet. There is no history of preceding sore throat or skin infections. No history of bleeding from any site. No history of recent ingestion of fava beans or use of new medications. No history of joint pains or rashes.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous similar episodes.
+  No history of blood transfusions.
+  Not a known patient with sickle cell disease (Hb genotype AA documented at birth).
+  No known history of asthma or allergies.
+  
+  BIRTH HISTORY
+  
+  Antenatal period was uneventful. Delivered at term via spontaneous vaginal delivery at a general hospital. Birth weight was 3.2 kg. No history of neonatal jaundice or delayed cry.
+  
+  DIETARY HISTORY
+  
+  Takes a family diet consisting mainly of cereals, tubers and legumes. No history of pica.
+  
+  IMMUNIZATION HISTORY
+  
+  Immunization is up to date according to the National Programme on Immunization (NPI) schedule. BCG scar present on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all developmental milestones at appropriate ages. Currently in Primary 1 and performing well.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Second of three children in a monogamous setting. Father is a civil servant, while the mother is a petty trader. They live in a two-bedroom apartment with good ventilation. Source of water is a borehole.
+  
+  REVIEW OF SYSTEMS
+  
+  Central Nervous System: No headaches or seizures.
+  Respiratory System: No cough or difficulty breathing reported.
+  Gastrointestinal System: No constipation or diarrhoea.
+  Musculoskeletal System: No bone pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, in respiratory distress and febrile (temperature 37.8°C).
+  Significant conjunctival pallor and icteric sclera.
+  Mild bilateral pitting pedal oedema.
+  No significant lymphadenopathy.
+  
+  ANTHROPOMETRY
+  
+  Weight: 20 kg (expected for age).
+  Height: 115 cm.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 124 bpm (tachycardic, regular, full volume).
+  Respiratory Rate: 36 cpm (tachypnoeic).
+  SpO2: 95% in room air.
+  Blood Pressure: 95/60 mmHg.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Full and moves with respiration.
+  Soft and non-tender.
+  Liver: Palpable 4 cm below the right costal margin, smooth and firm.
+  Spleen: Palpable 6 cm below the left costal margin (splenomegaly).
+  Bowel sounds present and normal.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat at the 5th left intercostal space, lateral to the midclavicular line.
+  Grade 3/6 systolic murmur heard over the precordium.
+  Heart sounds S1 and S2 present.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central.
+  Good air entry bilaterally.
+  Vesicular breath sounds.
+  No added sounds.
+  
+  NEUROLOGICAL SYSTEM
+  
+  Conscious and alert.
+  No focal neurological deficits.
+  GCS: 15/15.
+  
+  ASSESSMENT
+  
+  Suspected autoimmune haemolytic anaemia (AIHA), possibly secondary to an unspecified trigger.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Sickle cell disease presenting with a haemolytic crisis (less likely given the documented Hb genotype AA).
+  2. G6PD deficiency with acute haemolysis.
+  3. Hyperreactive malarial splenomegaly (HMS).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): Assess haemoglobin/PCV, white blood cell count, platelet count and red cell indices. Anaemia may be present, with reticulocytosis and increased MCHC in some cases.
+  2. Reticulocyte Count: Assess marrow response; expected to be elevated in haemolysis, although it may be low in certain forms of AIHA or if there is associated marrow suppression.
+  3. Peripheral Blood Film: Look for spherocytes, polychromasia and nucleated red blood cells.
+  4. Direct Antiglobulin Test (DAT/Direct Coombs Test): Assess for IgG and/or complement (C3) coating of red blood cells to support the diagnosis of AIHA.
+  5. Urinalysis: Assess for haemoglobinuria, bilirubin and urobilinogen. Also evaluate for proteinuria and haematuria given the associated oedema and dark urine.
+  6. Serum Bilirubin (Total and Conjugated): Assess for predominantly unconjugated hyperbilirubinaemia associated with haemolysis.
+  7. Serum Lactate Dehydrogenase (LDH): Expected to be elevated in active haemolysis.
+  8. Hb Genotype/Haemoglobin Electrophoresis or HPLC: Verify the documented genotype if there is clinical uncertainty regarding the previous result.
+  9. Malaria Parasite (MP) Film: Assess for malaria as a possible trigger or differential diagnosis.
+  10. Serum Urea, Electrolytes and Creatinine: Assess renal function, particularly in view of dark urine and oedema.
+  11. Serum Albumin and Total Protein: Assess for hypoalbuminaemia as a possible contributor to oedema.
+  12. Complement levels (C3 and C4), where indicated, as part of the evaluation for immune-mediated haemolysis or associated renal disease.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  EMERGENCY CARE
+  
+  1. Admit to the paediatric ward for close monitoring and further evaluation.
+  2. Maintain a strict fluid balance chart, documenting intake and output.
+  3. Administer oxygen if SpO2 falls below 94%, or as clinically indicated.
+  4. Promptly assess the respiratory distress, cardiovascular status and degree of anaemia.
+  
+  FLUID MANAGEMENT
+  
+  1. IV Fluids: 0.9% Normal Saline or 5% Dextrose in 0.9% Saline, as initially proposed.
+  2. Rate: Maintenance fluids using the Holiday-Segar method.
+  
+  Maintenance fluid calculation for a 20 kg child:
+  (10 kg x 100 mL) + (10 kg x 50 mL) = 1,500 mL/24 hours (approximately 62.5 mL/hour).
+  
+  Hydration should be individualised according to clinical volume status, urine output, renal function and electrolyte results.
+  
+  MEDICATIONS
+  
+  1. CORTICOSTEROIDS (FIRST-LINE)
+  
+  Prednisolone 2 mg/kg/day orally in divided doses.
+  
+  Dose for a 20 kg child: 40 mg daily, equivalent to 20 mg twice daily.
+  
+  Monitor blood glucose and blood pressure while on steroids.
+  
+  2. FOLIC ACID
+  
+  Folic Acid 5 mg orally daily to support increased erythropoiesis.
+  
+  3. TRANSFUSION THERAPY
+  
+  Consider transfusion in life-threatening or severe symptomatic anaemia, particularly with cardiovascular compromise or evidence of heart failure.
+  
+  The proposed threshold is Hb less than 5 g/dL or severe symptomatic anaemia.
+  
+  Use appropriately antigen-matched packed red blood cells, with urgent input from the haematologist and transfusion laboratory. If compatibility testing is difficult because of autoantibodies, transfusion should not be unnecessarily delayed when clinically essential.
+  
+  Dose: 5–10 mL/kg of packed red blood cells, administered cautiously with close monitoring.
+  
+  For a 20 kg child: 100–200 mL, with the final volume and rate determined by clinical status and specialist advice.
+  
+  Administer IV furosemide 1 mg/kg (20 mg) midway through transfusion, as initially proposed, if clinically indicated by fluid status or risk of volume overload.
+  
+  4. MALARIA TREATMENT
+  
+  If malaria is confirmed, treat with an appropriate artemisinin-based combination therapy (ACT), such as artemether/lumefantrine, according to the child's weight and current treatment guidelines.
+  
+  MONITORING
+  
+  1. Monitor haemoglobin/PCV daily or more frequently depending on clinical severity.
+  2. Monitor urine colour and volume.
+  3. Monitor vital signs every 4 hours or more frequently if unstable.
+  4. Monitor for signs of fluid overload and cardiac failure.
+  5. Monitor blood glucose and blood pressure during corticosteroid therapy.
+  
+  REFERRAL
+  
+  Consult a consultant haematologist for further evaluation and management.
+  
+  Consider additional immunosuppressive therapy, such as rituximab or IVIG, if there is inadequate response to corticosteroids, guided by the haematologist.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+ 
+  {
+    id: 'peds-128',
+    title: 'Acute Haemolytic Crisis in a Child with Sickle Cell Anaemia (HbSS)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Acute Haemolytic Crisis in Sickle Cell Anaemia',
+    symptoms: [
+      'Fever x 3 days',
+      'Body weakness x 2 days',
+      'Yellowish discolouration of the eyes x 2 days',
+      'Passage of dark-coloured urine x 1 day',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'An 8-year-old male with known HbSS presented with a 3-day history of fever, progressive weakness, jaundice and dark-coloured urine. Examination revealed severe pallor, deep jaundice, respiratory distress, tachycardia, low-volume pulse, hepatomegaly and significant splenomegaly. The working diagnosis is an acute haemolytic crisis in a child with sickle cell anaemia, possibly triggered by malaria. Important differentials include acute splenic sequestration, severe malarial anaemia and aplastic crisis.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Chinedu Okoro
+  Age: 8 years
+  Sex: Male
+  Religion: Christian
+  Address: Independence Layout, Enugu State
+  Tribe: Igbo
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever x 3 days
+  2. Body weakness x 2 days
+  3. Yellowish discolouration of the eyes x 2 days
+  4. Passage of dark-coloured urine x 1 day
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 3 days prior to presentation when he developed a high-grade, intermittent fever, which was relieved by paracetamol.
+  
+  Two days prior to presentation, his mother noticed significant body weakness and reduced activity, with inability to play as usual. This was followed by progressive yellowish discolouration of the sclera.
+  
+  There is no history of bone pain, abdominal pain or dactylitis. One day prior to presentation, his mother noticed that he was passing dark, tea-coloured urine. There is no history of bleeding from any site. There is no history of recent ingestion of fava beans or use of new medications.
+  
+  PAST MEDICAL HISTORY
+  
+  Known sickle cell anaemia (HbSS) patient, diagnosed at the age of 2 years.
+  Last crisis was a vaso-occlusive crisis 6 months ago.
+  History of two previous blood transfusions, with the last transfusion a year ago.
+  Not currently on regular hydroxyurea.
+  
+  BIRTH HISTORY
+  
+  Term delivery via spontaneous vaginal delivery at a private hospital. No history of neonatal jaundice or prolonged hospital admission.
+  
+  DIETARY HISTORY
+  
+  Takes the family diet, which is adequate for age.
+  
+  IMMUNIZATION HISTORY
+  
+  Immunization is up to date with the National Programme on Immunization (NPI) schedule. BCG scar present.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all developmental milestones at appropriate ages. Currently in Primary 3.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Third child in a monogamous family of four children. Both parents are teachers. They live in a three-bedroom flat with good ventilation. Water source is a borehole.
+  
+  REVIEW OF SYSTEMS
+  
+  Central Nervous System: No headache or seizures.
+  Gastrointestinal System: No vomiting or diarrhoea.
+  Musculoskeletal System: No joint swelling or pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, in respiratory distress and febrile (temperature 38.5°C).
+  Severely pale and deeply icteric.
+  Not dehydrated.
+  No significant lymphadenopathy or pedal oedema.
+  
+  ANTHROPOMETRY
+  
+  Weight: 22 kg.
+  Height: 125 cm.
+  
+  SYSTEMIC EXAMINATION
+  
+  RESPIRATORY SYSTEM
+  
+  Respiratory rate: 36 cpm.
+  Use of accessory muscles of respiration.
+  Lungs clear on auscultation, with vesicular breath sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Pulse rate: 124 bpm, rapid and low volume.
+  Blood pressure: 90/60 mmHg.
+  Apex beat displaced to the 5th left intercostal space, lateral to the midclavicular line.
+  Heart sounds: S1 and S2 heard. No murmurs.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen full and moves with respiration.
+  Liver: Palpable 4 cm below the right costal margin, smooth and non-tender.
+  Spleen: Palpable 6 cm below the left costal margin, firm.
+  Bowel sounds present.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Conscious and oriented.
+  No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Acute haemolytic crisis in a known HbSS patient, possibly triggered by malaria.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Severe malarial anaemia.
+  2. Acute splenic sequestration crisis.
+  3. Aplastic crisis.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): Assess haemoglobin/PCV, white blood cell count and platelet count. Reticulocyte count is essential to distinguish haemolysis or sequestration from aplastic crisis.
+  2. Peripheral Blood Film: Assess for malarial parasites and morphological features of haemolysis.
+  3. Malaria Parasite Smear (MPS): Assess for malaria parasites and parasite density.
+  4. Serum Bilirubin (Total and Unconjugated): Assess for predominantly unconjugated hyperbilirubinaemia associated with haemolysis.
+  5. Urinalysis: Assess for haemoglobinuria and urobilinogen.
+  6. Blood Grouping and Cross-matching: Prepare compatible packed red blood cells if transfusion is indicated.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. URGENT BLOOD TRANSFUSION
+  
+  Give packed red blood cells at 10 mL/kg (22 kg x 10 mL = 220 mL), slowly over 4 hours, as initially proposed.
+  
+  Monitor closely for transfusion reactions and signs of fluid overload, including basal crepitations and raised jugular venous pressure.
+  
+  2. OXYGEN THERAPY
+  
+  Administer intranasal oxygen at 2–3 L/min to improve tissue oxygenation.
+  
+  3. INTRAVENOUS FLUIDS
+  
+  5% Dextrose in 0.45% Saline at the maintenance rate (approximately 60 mL/hour) to maintain hydration and renal perfusion and reduce the risk of pigment nephropathy associated with haemoglobinuria.
+  
+  4. ANTIMALARIALS
+  
+  IV artesunate 2.4 mg/kg (52.8 mg) at 0, 12 and 24 hours, then daily until the child can tolerate oral medication.
+  
+  5. ANTIBIOTICS
+  
+  IV ceftriaxone 1 g daily (approximately 50 mg/kg) to cover for potential secondary bacterial infection until culture results are available.
+  
+  6. SUPPLEMENTS
+  
+  Folic Acid 5 mg orally daily to support increased erythropoiesis.
+  
+  7. MONITORING
+  
+  - Monitor vital signs (pulse rate, respiratory rate, blood pressure and temperature) every 1–2 hours.
+  - Monitor urine output and colour using a strict input/output chart.
+  - Repeat PCV 6 hours post-transfusion to assess response.
+  - Monitor for signs of heart failure, including persistent tachycardia, gallop rhythm and hepatomegaly.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-127',
+    title: 'Acute Haemolytic Crisis (Suspected G6PD Deficiency)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Acute Haemolytic Crisis',
+    symptoms: [
+      'Yellowish discolouration of the eyes x 2 days',
+      'Passage of dark, tea-coloured urine x 2 days',
+      'Excessive weakness x 1 day',
+      'Recent exposure to co-trimoxazole (Septrin)',
+      'Cough and runny nose x 3 days',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 4-year-old male with documented Hb genotype AA presented with acute jaundice, dark tea-coloured urine and progressive weakness following co-trimoxazole ingestion. Examination revealed significant pallor, deep jaundice, tachycardia, tachypnoea, mild hepatosplenomegaly and a precordial systolic murmur. The working diagnosis is acute haemolytic crisis, most likely secondary to suspected G6PD deficiency triggered by sulfonamide exposure. Differentials include severe malaria with haemoglobinuria, autoimmune haemolytic anaemia and other causes of acute intravascular haemolysis.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master Chinedu Okafor
+  Age: 4 years
+  Sex: Male
+  Address: Owerri, Imo State
+  Tribe: Igbo
+  Religion: Christian
+  Caregiver: Mother (Informant, reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Yellowish discolouration of the eyes x 2 days
+  2. Passage of dark, tea-coloured urine x 2 days
+  3. Excessive weakness x 1 day
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until 3 days prior to presentation when he developed a mild cough and runny nose. He was given a dose of co-trimoxazole (Septrin) syrup purchased from a local pharmacy.
+  
+  Approximately 24 hours after taking the medication, his mother noticed yellowish discolouration of his eyes. This was followed by the passage of dark, tea-coloured urine, with no visible blood clots. There is no history of fever, abdominal pain or vomiting.
+  
+  A day prior to presentation, he became progressively weak, refusing to play and preferring to lie down. There is no history of similar episodes in the past or known history of neonatal jaundice. There is no history of ingestion of fava beans or exposure to mothballs (naphthalene).
+  
+  PAST MEDICAL HISTORY
+  
+  Hb genotype: AA (documented).
+  No previous hospital admissions or blood transfusions.
+  No known drug allergies, apart from the suspected reaction to sulfonamides.
+  
+  BIRTH HISTORY
+  
+  Full-term delivery via spontaneous vaginal delivery at a private hospital. No history of neonatal jaundice or prolonged hospital admission. Birth weight was 3.2 kg.
+  
+  DIETARY HISTORY
+  
+  Weaned at 6 months. Currently eats the family diet. No history of pica.
+  
+  IMMUNIZATION HISTORY
+  
+  Immunization is up to date with the National Programme on Immunization (NPI) schedule. BCG scar present on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all developmental milestones at appropriate ages. Currently in nursery school and performing well.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Second of three children in a monogamous setting. Father is a trader, while the mother is a primary school teacher. They live in a two-bedroom flat with good ventilation and treated pipe-borne water. No family history of similar blood disorders.
+  
+  REVIEW OF SYSTEMS
+  
+  Respiratory System: Cough x 3 days. No fast breathing or chest indrawing reported.
+  Cardiovascular System: No history of orthopnoea or bluish discolouration.
+  Gastrointestinal System: No abdominal swelling or change in bowel habits.
+  Central Nervous System: No seizures or loss of consciousness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, in respiratory distress and febrile (temperature 37.8°C).
+  Significant pallor (+++) and deep jaundice.
+  No pedal oedema or significant lymphadenopathy.
+  
+  Weight: 16 kg (expected for age).
+  Height: 102 cm.
+  MUAC: 15.5 cm.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 140 bpm (tachycardic, regular, full volume).
+  Respiratory Rate: 38 cpm (tachypnoeic, no recession).
+  Blood Pressure: 90/60 mmHg.
+  SpO2: 94% in room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Full, moves with respiration.
+  Soft and non-tender.
+  Liver: Palpable 3 cm below the right costal margin, smooth, firm and non-tender.
+  Spleen: Palpable 2 cm below the left costal margin.
+  Bowel sounds: Normal.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat at the 4th left intercostal space, midclavicular line.
+  Heart sounds: S1 and S2 only.
+  Grade 2/6 systolic murmur heard over the precordium.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central.
+  Resonant percussion note bilaterally.
+  Vesicular breath sounds with no added sounds.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious and alert.
+  GCS: 15/15.
+  No focal neurological deficits.
+  Meningeal signs negative.
+  
+  ASSESSMENT
+  
+  Acute haemolytic crisis, most likely secondary to suspected G6PD deficiency triggered by co-trimoxazole (Septrin) ingestion.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Severe malaria with haemoglobinuria (blackwater fever).
+  2. Autoimmune haemolytic anaemia.
+  3. Sickle cell anaemia presenting with a hyperhaemolytic crisis (less likely given the documented Hb genotype AA).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): Assess PCV/haemoglobin level, WBC count and platelet count. Reticulocyte count is expected to be elevated in an appropriate marrow response.
+  2. Peripheral Blood Film: Look for bite cells, blister cells and other features of oxidative haemolysis. Heinz bodies may require supravital staining.
+  3. Urinalysis: Assess for haemoglobinuria (dipstick positive for blood with absent or few red blood cells on microscopy).
+  4. Serum Bilirubin: Assess total and direct bilirubin, with predominantly unconjugated hyperbilirubinaemia expected.
+  5. G6PD Enzyme Assay: May be falsely normal during an acute haemolytic episode because of the increased proportion of young red blood cells. Repeat testing after recovery, approximately 6–8 weeks later.
+  6. Malaria Parasite (MP) Film: To assess for malaria as a possible trigger or differential diagnosis.
+  7. Blood Culture: If fever persists or there is clinical suspicion of bacterial infection.
+  8. Serum Urea, Electrolytes and Creatinine: To assess and monitor renal function.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  URGENT INTERVENTIONS
+  
+  1. Admit to the paediatric ward for close monitoring and management.
+  2. Ensure strict fluid intake and output charting.
+  3. Discontinue co-trimoxazole (Septrin) immediately and document the suspected drug-induced haemolytic reaction.
+  
+  FLUID MANAGEMENT
+  
+  Maintain adequate hydration and renal perfusion while monitoring urine output to reduce the risk of acute kidney injury associated with haemoglobinuria.
+  
+  Fluid Choice: 4.3% Dextrose in 0.18% Normal Saline (or 0.45% saline if available).
+  
+  Rate: 1.5 times the maintenance requirement.
+  
+  Maintenance fluid calculation for a 16 kg child:
+  (10 kg x 100 mL) + (6 kg x 50 mL) = 1,300 mL/24 hours.
+  
+  1.5 x Maintenance = 1,950 mL/24 hours (approximately 80 mL/hour).
+  
+  BLOOD TRANSFUSION
+  
+  Indicated if PCV is less than 15% or if the child is significantly symptomatic (e.g. tachycardia and respiratory distress).
+  
+  Choice: Fresh packed red blood cells (PRBC).
+  
+  Volume: 10 mL/kg (16 kg x 10 mL = 160 mL).
+  
+  Rate: Transfuse over 4 hours.
+  
+  Give IV furosemide 1 mg/kg (16 mg) at the start of transfusion to prevent fluid overload.
+  
+  MEDICATIONS
+  
+  1. Folic Acid 5 mg orally daily to support erythropoiesis.
+  2. If malaria is suspected or confirmed: IV artesunate 2.4 mg/kg at 0, 12 and 24 hours, then daily.
+  3. Alkalinisation of urine: To reduce the risk of haemoglobin precipitation in the renal tubules. Give oral sodium bicarbonate 1–2 mEq/kg/day in divided doses.
+  
+  MONITORING AND EDUCATION
+  
+  1. Monitor vital signs 4-hourly.
+  2. Monitor urine colour and volume.
+  3. Check PCV every 6–12 hours until stable.
+  4. Discharge counselling: Provide the family with a list of drugs and substances to avoid, including sulfonamides, primaquine, nitrofurantoin, naphthalene (mothballs) and fava beans.
+  5. Follow-up in 8 weeks for repeat G6PD assay and haematology clinic review.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  }, 
+  {
+    id: 'peds-126',
+    title: 'Acute Lymphoblastic Leukaemia (ALL)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology and Oncology',
+    condition: 'Acute Lymphoblastic Leukaemia',
+    symptoms: [
+      'Fever x 3 weeks',
+      'Generalised body pain x 2 weeks',
+      'Progressive body weakness and pallor x 1 week',
+      'Epistaxis and petechial skin rashes',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 5-year-old male presented with a 3-week history of persistent fever, 2-week history of generalised body pain predominantly involving the lower limb long bones and back, and 1-week history of progressive pallor and weakness. Examination revealed moderate pallor, multiple cervical and axillary lymphadenopathy, petechiae, hepatomegaly, and significant splenomegaly. Assessed as acute lymphoblastic leukaemia (ALL). Differentials include Burkitt lymphoma in leukemic phase, severe malaria with tropical splenomegaly syndrome, and aplastic anaemia.',
+    content: `
+  PAEDIATRIC HAEMATOLOGY AND ONCOLOGY
+  
+  Patient Identification
+  
+  Name: Master Chibuike Azubuike
+  Age: 5 years
+  Sex: Male
+  Address: Owerri, Imo State
+  Tribe: Igbo
+  Religion: Christian
+  Caregiver: Mother (Trader, reliable informant)
+  
+  Presenting Complaints
+  
+  1. Fever x 3/52
+  2. Generalised body pain x 2/52
+  3. Progressive body weakness and pallor x 1/52
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 3 weeks prior to presentation when he developed fever, which was high-grade, intermittent, and initially responded to paracetamol but has since become persistent. There were no associated chills or rigors. He was treated for malaria at a local pharmacy with a course of artemisinin-based combination therapy (ACT) without significant improvement.
+  
+  Two weeks prior to presentation, he started complaining of generalised body pain, particularly involving the long bones of the lower limbs and the back. The pain was dull and aching and made walking difficult. There was no history of trauma or joint swelling.
+  
+  One week prior to presentation, the mother noticed progressive pallor of the face and palms. He also became easily fatigued and preferred lying in bed. The mother noted occasional epistaxis and small purple spots on his shins. There was no history of weight loss, night sweats, or cough. No history of headache, vomiting, or seizures.
+  
+  Past Medical History
+  
+  No previous hospitalisations or blood transfusions. No known sickle cell disease (genotype AA). No known drug allergies.
+  
+  Birth History
+  
+  Antenatal: Booked at a General Hospital. Mother took routine haematinics. No history of febrile illness or radiation exposure during pregnancy.
+  
+  Natal: Delivered at term via spontaneous vaginal delivery at a private hospital. He cried immediately at birth. Birth weight was 3.2 kg.
+  
+  Postnatal: No history of neonatal jaundice or sepsis.
+  
+  Dietary History
+  
+  Exclusively breastfed for 6 months. Currently on a family diet consisting mainly of carbohydrates (garri and rice). Protein intake (meat/fish) is occasional. No history of pica.
+  
+  Immunisation History
+  
+  Up to date according to the National Programme on Immunization (NPI) schedule. BCG scar seen on the left deltoid.
+  
+  Developmental History
+  
+  Attained all developmental milestones at appropriate ages. Currently in Nursery 3 but has been absent from school for 2 weeks due to illness.
+  
+  Family and Social History
+  
+  Third child in a monogamous family of four children. Father is a tailor, while the mother is a petty trader. They live in a two-bedroom apartment with adequate ventilation. Source of water is a borehole. A pit latrine is used for sewage disposal.
+  
+  Review of Systems
+  
+  CNS: No history of neck stiffness or loss of consciousness.
+  
+  RS: No cough or fast breathing.
+  
+  GIT: No abdominal swelling noted by the mother. No constipation.
+  
+  CVS: Occasional palpitations noticed during activity.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking child, febrile (temperature: 38.4°C), moderately pale, anicteric, and acyanosed.
+  
+  No pedal oedema.
+  
+  Multiple non-tender, discrete cervical and axillary lymphadenopathy (largest approximately 1.5 cm x 1.5 cm).
+  
+  Multiple petechiae on both shins.
+  
+  Anthropometry
+  
+  Weight: 18 kg (expected for age: 18–19 kg).
+  Height: 108 cm.
+  MUAC: 14.5 cm.
+  
+  Vital Signs
+  
+  Pulse rate: 120 beats per minute (tachycardic), regular, and full volume.
+  
+  Respiratory rate: 32 cycles per minute, with no signs of respiratory distress.
+  
+  Blood pressure: 95/60 mmHg.
+  
+  Systemic Examination
+  
+  Abdomen
+  
+  Full and moves with respiration.
+  
+  Liver: Palpable 4 cm below the right costal margin, smooth, firm, and non-tender.
+  
+  Spleen: Palpable 6 cm below the left costal margin (Hackett Stage 3), firm, and non-tender.
+  
+  Kidneys: Not ballottable.
+  
+  Bowel sounds present and normal.
+  
+  Cardiovascular System
+  
+  Apex beat at the 4th left intercostal space, midclavicular line.
+  
+  S1 and S2 only heard. Grade 2/6 systolic murmur at the apex.
+  
+  Respiratory System
+  
+  Trachea central.
+  
+  Percussion note resonant bilaterally.
+  
+  Vesicular breath sounds heard. No adventitious sounds.
+  
+  Neurological System
+  
+  Conscious and alert. GCS 15/15.
+  
+  No signs of meningeal irritation.
+  
+  Cranial nerves I–XII intact.
+  
+  Normal muscle tone and power in all limbs.
+  
+  Assessment
+  
+  Acute Lymphoblastic Leukaemia (ALL).
+  
+  Differential Diagnoses
+  
+  1. Burkitt Lymphoma (Leukaemic Phase).
+  2. Severe Malaria with Tropical Splenomegaly Syndrome.
+  3. Aplastic Anaemia.
+  
+  Initial Investigation Plan
+  
+  1. Full Blood Count (FBC): To assess for anaemia, thrombocytopenia, and markedly elevated or reduced white blood cell count.
+  2. Peripheral Blood Film: To check for the presence of lymphoblasts.
+  3. Bone Marrow Aspiration and Biopsy: For morphology, cytochemistry, and immunophenotyping (definitive diagnosis).
+  4. Malaria Parasite (MPS): To rule out co-existing malaria.
+  5. Serum Uric Acid, Urea, Electrolytes, and Creatinine: Baseline renal function assessment and monitoring for Tumour Lysis Syndrome (TLS).
+  6. Chest X-ray: To check for an anterior mediastinal mass (common in T-cell ALL).
+  7. Abdominal Ultrasound: To assess organ size and check for intra-abdominal lymphadenopathy.
+  8. Lumbar Puncture: For CSF cytology to assess for CNS involvement, when clinically safe.
+  
+  Initial Management Plan
+  
+  General Care
+  
+  1. Admit to the paediatric oncology ward or a private side room.
+  2. Maintain strict hygiene to prevent healthcare-associated infections.
+  3. Transfuse with 10 mL/kg of packed red blood cells over 4 hours (given pallor and tachycardia).
+  
+  Prevention of Tumour Lysis Syndrome (Crucial Before Starting Chemotherapy)
+  
+  1. Hyperhydration: 3,000 mL/m²/24 hours. For this child (BSA approximately 0.72 m²), give 2,160 mL of IV fluids per 24 hours. Use 5% Dextrose in 0.45% Normal Saline.
+  2. Allopurinol: 10 mg/kg/day PO divided into 8-hourly doses (approximately 60 mg TDS).
+  3. Ensure adequate urine output (>2 mL/kg/hour).
+  
+  Induction Chemotherapy (Standard VPL Regimen)
+  
+  Note: Dosages must be verified by a paediatric oncologist.
+  
+  Duration: Usually 4–6 weeks.
+  
+  1. Vincristine: 1.5 mg/m² IV weekly (Days 0, 7, 14, and 21). Maximum dose 2 mg. Dose for this child: 1.1 mg IV.
+  2. Prednisolone: 40 mg/m²/day PO in divided doses for 28 days, then tapered. Dose for this child: 28 mg daily (15 mg in the morning and 10 mg in the evening).
+  3. L-Asparaginase: 6,000–10,000 units/m² IM or IV 3 times weekly for 6–9 doses.
+  4. Intrathecal Methotrexate: For CNS prophylaxis. Dose for a 5-year-old is typically 12 mg. Given on Day 0 and then periodically.
+  
+  Supportive Care
+  
+  1. Co-trimoxazole: 5 mg/kg (of TMP component) PO twice daily, 3 days a week (e.g., Saturday, Sunday, and Monday) for Pneumocystis jirovecii prophylaxis.
+  2. Broad-spectrum IV antibiotics (e.g., Ceftriaxone 50–100 mg/kg/day) if febrile neutropenia develops.
+  3. Nutritional support with a high-protein, high-calorie diet.
+  
+  Follow-up
+  
+  - Monitor FBC, electrolytes, and clinical status daily during the first week of induction.
+  - Re-evaluate bone marrow on Day 28 for remission status.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
+    id: 'peds-125',
+    title: 'Aplastic Anaemia',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Haematology',
+    condition: 'Aplastic Anaemia',
+    symptoms: [
+      'Body weakness and progressively increasing pallor x 3 weeks',
+      'Skin rashes and gum bleeding x 1 week',
+      'Fever x 4 days',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 7-year-old male presented with a 3-week history of progressive weakness and pallor, a 1-week history of petechial skin rashes and mucosal bleeding, and a 4-day history of fever. Examination revealed marked pallor, petechiae, ecchymoses, fever, tachycardia, mild respiratory distress, and a soft systolic murmur. Assessed as aplastic anaemia, likely idiopathic, with acute lymphoblastic leukaemia to be ruled out. Other differentials include hypoplastic myelodysplastic syndrome and hypoplastic phase of sickle cell anaemia.',
+    content: `
+  PAEDIATRIC HAEMATOLOGY
+  
+  Patient Identification
+  
+  Name: Master Chidi Okechukwu
+  Age: 7 years
+  Sex: Male
+  Religion: Christian
+  Address: Surulere, Lagos State
+  Tribe: Igbo
+  Caregiver: Mother (Trader, reliable historian)
+  
+  Presenting Complaints
+  
+  1. Body weakness and progressively increasing pallor x 3/52
+  2. Skin rashes and gum bleeding x 1/52
+  3. Fever x 4/7
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 3 weeks prior to presentation when the mother noticed that he was becoming unusually tired during play and often requested to sleep. This was followed by a noticeable loss of colour in his palms and conjunctiva, which has progressively worsened. There was no history of yellowish discolouration of the eyes, dark-coloured urine, or bone pain.
+  
+  One week prior to presentation, the mother noticed multiple tiny, non-itchy red spots on his trunk and lower limbs. He also had an episode of bleeding from the gums while brushing and one episode of epistaxis, which stopped after applying pressure. There was no history of haematemesis, melaena, or haematuria.
+  
+  Four days prior to presentation, he developed a high-grade, intermittent fever associated with chills and rigors, but no drenching night sweats. There was no associated cough, ear discharge, or diarrhoea.
+  
+  Past Medical History
+  
+  No known history of sickle cell disease (HbAA from birth records).
+  
+  No previous blood transfusions or major hospitalisations.
+  
+  No history of recent viral illnesses such as hepatitis or infectious mononucleosis.
+  
+  No known drug allergies.
+  
+  Drug and Toxicological History
+  
+  No history of use of chloramphenicol, sulphonamides, or recent exposure to pesticides or organic solvents such as benzene.
+  
+  No history of herbal concoction ingestion.
+  
+  Dietary History
+  
+  He is fed on a family diet consisting mainly of cereals, tubers, and occasional protein. No history of pica. Dietary intake has been poor since the onset of fever.
+  
+  Immunisation History
+  
+  Completed all routine immunisations according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  
+  Attained all developmental milestones at appropriate ages. Currently in Primary 2 and was performing well academically prior to this illness.
+  
+  Family and Social History
+  
+  Second of three children in a monogamous family setting. Father is a tailor, while the mother is a petty trader. They live in a 2-bedroom apartment with good ventilation. Water source is a borehole.
+  
+  Review of Systems
+  
+  CNS: No headaches, seizures, or loss of consciousness.
+  
+  RS: No cough or fast breathing.
+  
+  CVS: Occasional palpitations. No orthopnoea.
+  
+  GIT: No abdominal swelling or constipation.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking child, febrile (temperature: 38.8°C), and in mild respiratory distress.
+  
+  Marked pallor of the conjunctiva, nail beds, and palms.
+  
+  No jaundice, cyanosis, or significant peripheral lymphadenopathy.
+  
+  No pedal oedema.
+  
+  Multiple petechiae and ecchymoses present on the trunk and pretibial areas.
+  
+  Anthropometry
+  
+  Weight: 22 kg (expected for age).
+  Height: 120 cm.
+  
+  Systemic Examination
+  
+  Cardiovascular System
+  
+  Pulse rate: 124 beats per minute (tachycardic), regular, and full volume.
+  
+  Blood pressure: 95/60 mmHg.
+  
+  Apex beat at the 5th left intercostal space, midclavicular line.
+  
+  Heart sounds S1 and S2 only. A soft systolic murmur is heard over the precordium.
+  
+  Respiratory System
+  
+  Respiratory rate: 32 cycles per minute.
+  
+  Trachea central.
+  
+  Chest expansion symmetrical.
+  
+  Resonant percussion note bilaterally.
+  
+  Vesicular breath sounds. No adventitious sounds.
+  
+  Abdomen
+  
+  Flat and moves with respiration.
+  
+  Soft and non-tender.
+  
+  No hepatomegaly or splenomegaly (liver and spleen not palpable).
+  
+  Bowel sounds present and normal.
+  
+  Central Nervous System
+  
+  Conscious and alert.
+  
+  No signs of meningeal irritation.
+  
+  Power and tone are normal in all limbs.
+  
+  Assessment
+  
+  Aplastic Anaemia (likely idiopathic), to rule out Acute Lymphoblastic Leukaemia.
+  
+  Differential Diagnoses
+  
+  1. Acute Lymphoblastic Leukaemia (less likely due to the absence of organomegaly and lymphadenopathy).
+  2. Hypoplastic Myelodysplastic Syndrome.
+  3. Hypoplastic Phase of Sickle Cell Anaemia (unlikely with HbAA).
+  
+  Investigation Plan
+  
+  1. Full Blood Count (FBC): To check for pancytopenia (expected low Hb, low WBC/neutrophils, and low platelets).
+  2. Peripheral Blood Film: To look for blast cells and assess red cell morphology.
+  3. Reticulocyte Count: To assess bone marrow response (expected to be very low).
+  4. Bone Marrow Aspiration and Trephine Biopsy: Gold standard to confirm hypocellularity and rule out infiltrative disorders.
+  5. Viral Screen: Hepatitis B, hepatitis C, HIV, and CMV screen.
+  6. Urinalysis and MPS (Malaria Parasite Sight): To rule out common co-existing infections in this environment.
+  7. Blood Culture: Due to fever and suspected neutropenia.
+  
+  Initial Management Plan
+  
+  Emergency/Supportive Care
+  
+  1. Admit to a side room (protective isolation), if possible, to reduce infection risk.
+  2. Maintain strict hygiene and handwashing for caregivers.
+  3. Transfusion Support:
+     - Transfuse Packed Red Blood Cells (PRBC) at 10 mL/kg (220 mL) slowly over 4 hours under Lasix cover (1 mg/kg) to correct symptomatic anaemia.
+     - Platelet transfusion (if available): 1 unit per 10 kg body weight (approximately 2 units) to control bleeding.
+  4. Infection Management:
+     - Start IV Ceftriaxone 1 g daily (approximately 50 mg/kg/day) pending culture results.
+     - IV Paracetamol 330 mg (15 mg/kg) 8-hourly for fever.
+  5. Hydration: Maintain oral hydration. If intake is poor, IV 4.3% Dextrose in 0.18% Saline at 65 mL/hour (maintenance for 22 kg).
+  
+  Specific Management (Upon Confirmation of Aplastic Anaemia)
+  
+  1. Immunosuppressive Therapy (IST):
+     - Ciclosporin A: Start at 5 mg/kg/day in two divided doses (55 mg twice daily). Dose to be adjusted based on trough serum levels (target 200–400 ng/mL) and renal function.
+     - Anti-Thymocyte Globulin (ATG): If available, this is the mainstay of IST and is usually administered over 4–5 days in a tertiary centre.
+  
+  2. Growth Factors:
+     - Consider Granulocyte Colony-Stimulating Factor (G-CSF) 5 mcg/kg/day SC if the neutrophil count is critically low (<0.5 x 10^9/L) and infection is present.
+  
+  3. Definitive Care:
+     - Discuss the option of Haematopoietic Stem Cell Transplantation (HSCT) with the family, which is the treatment of choice for children if a matched sibling donor is available and resources permit.
+  
+  Follow-up
+  
+  - Daily monitoring of vital signs and checking for new bleeding points.
+  - Serial FBC to monitor response to transfusions and immunosuppressive therapy.
+  - Renal and liver function tests weekly while on ciclosporin.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-124',
+    title: 'Acute Glomerulonephritis (Likely Post-Streptococcal)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Nephrology',
+    condition: 'Acute Glomerulonephritis',
+    symptoms: [
+      'Facial puffiness x 3 days',
+      'Reduced urine output x 3 days',
+      'Dark-coloured urine x 2 days',
+      'Sore throat x 2 weeks',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 7-year-old male presented with a 3-day history of facial puffiness and reduced urine output, followed by 2 days of dark, tea-coloured urine. This occurred approximately 2 weeks after an episode of sore throat and fever. Examination revealed periorbital and mild bilateral pedal oedema, with hypertension (BP 130/90 mmHg). Assessed as acute glomerulonephritis, most likely post-streptococcal glomerulonephritis (PSGN). Differentials include nephrotic syndrome, lupus nephritis, and IgA nephropathy.',
+    content: `
+  PAEDIATRIC NEPHROLOGY
+  
+  Patient Identification
+  
+  Name: Master O.A.
+  Age: 7 years
+  Sex: Male
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  
+  1. Facial puffiness x 3/7
+  2. Reduced urine output x 3/7
+  3. Dark-coloured urine x 2/7
+  4. Sore throat x 2/52
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 2 weeks prior to presentation when he developed a sore throat associated with fever and painful swallowing. The fever was high-grade, intermittent, and relieved by paracetamol. These symptoms resolved after 4 days of herbal medications and over-the-counter lozenges.
+  
+  Three days prior to presentation, the mother noticed puffiness of the face, most prominent in the mornings and involving the eyelids. This was followed by a progressive reduction in the frequency and volume of urine passed. There was no associated facial pain or redness of the eyes.
+  
+  Two days prior to presentation, the mother noticed that the child had started passing dark, tea-coloured (coca-cola-coloured) urine. There was no history of urinary frequency, urgency, or dysuria. There was no history of skin rashes, joint pains, or excessive hair loss. No history of easy bruisability or bleeding from any site. No history of cough, breathlessness, or orthopnoea.
+  
+  Past Medical History
+  
+  No previous history of similar illness. No known history of sickle cell disease (HbAA). No previous hospitalisations or blood transfusions. No history of chronic drug use.
+  
+  Birth History
+  
+  Mother booked and attended antenatal clinic at a Primary Health Centre. Pregnancy was uneventful. He was delivered at term via spontaneous vaginal delivery at a General Hospital. Birth weight was 3.2 kg. He cried immediately at birth. No history of neonatal jaundice or convulsions.
+  
+  Dietary History
+  
+  Exclusively breastfed for 6 months and subsequently weaned onto the family diet. Currently eats 3 meals a day, consisting mainly of carbohydrates (yam, rice, and cassava), with occasional protein.
+  
+  Immunisation History
+  
+  Received all routine NPI vaccines, including BCG, OPV, Pentavalent, and Measles. BCG scar is present on the right deltoid.
+  
+  Developmental History
+  
+  Attained all major developmental milestones at age-appropriate times. Currently in Primary 2 and performing well academically.
+  
+  Family and Social History
+  
+  Third child in a monogamous family setting. Father is a tailor, while the mother is a petty trader. They live in a 2-bedroom apartment with 5 occupants. Source of water is a protected well. They use a pit latrine for sewage disposal.
+  
+  Review of Systems
+  
+  CNS: No headache, convulsions, or loss of consciousness.
+  
+  RS: No cough or chest pain.
+  
+  GIT: No abdominal pain, vomiting, or constipation.
+  
+  MSS: No joint swelling or limb pain.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking child, in no obvious respiratory or painful distress.
+  
+  Afebrile (temperature: 36.8°C).
+  
+  Not pale, anicteric, not cyanosed, and not dehydrated.
+  
+  Presence of periorbital oedema and mild pitting pedal oedema.
+  
+  No significant peripheral lymphadenopathy.
+  
+  Anthropometry
+  
+  Weight: 22 kg (expected for age: 23 kg).
+  Height: 120 cm.
+  MUAC: 16.5 cm.
+  
+  Vital Signs
+  
+  Pulse rate: 92 beats per minute (full volume and regular).
+  Blood pressure: 130/90 mmHg (elevated for age and height centile).
+  Respiratory rate: 24 cycles per minute.
+  SpO2: 98% in room air.
+  
+  Systemic Examination
+  
+  Abdomen
+  
+  Full and moves with respiration.
+  
+  Soft and non-tender.
+  
+  Liver and spleen not palpable.
+  
+  Kidneys not ballottable.
+  
+  No evidence of ascites (shifting dullness negative).
+  
+  Bowel sounds present and normal.
+  
+  Cardiovascular System
+  
+  Apex beat at the 5th left intercostal space, midclavicular line.
+  
+  Heart sounds S1 and S2 only. No murmurs.
+  
+  Respiratory System
+  
+  Trachea central.
+  
+  Chest expansion symmetrical.
+  
+  Resonant on percussion.
+  
+  Vesicular breath sounds. No added sounds.
+  
+  Neurological System
+  
+  Conscious and alert. GCS 15/15.
+  
+  No gross motor or sensory deficit.
+  
+  Meningeal signs negative.
+  
+  Assessment
+  
+  Acute Glomerulonephritis, most likely Post-Streptococcal Glomerulonephritis (PSGN).
+  
+  Differential Diagnoses
+  
+  1. Nephrotic Syndrome (Nephritic-Nephrotic Variant).
+  2. Lupus Nephritis.
+  3. IgA Nephropathy.
+  
+  Initial Investigation Plan
+  
+  1. Urinalysis: To check for haematuria (RBC casts), proteinuria, and specific gravity.
+  2. Full Blood Count (FBC): To check for anaemia (dilutional) or signs of infection.
+  3. Serum Electrolytes, Urea, and Creatinine (E/U/Cr): To assess renal function and check for hyperkalaemia.
+  4. Antistreptolysin O (ASO) Titre: To provide evidence of recent streptococcal infection.
+  5. C3 Complement Levels: Typically low in PSGN.
+  6. Erythrocyte Sedimentation Rate (ESR).
+  7. Chest X-ray: To rule out pulmonary congestion/oedema if symptoms worsen.
+  
+  Initial Management Plan
+  
+  General Measures
+  
+  1. Admit for monitoring of blood pressure and urine output.
+  2. Daily weight monitoring.
+  3. Strict input-output (fluid) charting.
+  4. Salt-restricted diet.
+  5. Fluid restriction: Calculate as insensible fluid loss (400 mL/m²/day) plus the previous day's urine output.
+  
+  Medications
+  
+  1. Diuretics:
+     - Tab. Furosemide 20 mg twice daily (1–2 mg/kg/day).
+  
+  2. Antihypertensives (if BP remains elevated despite diuresis):
+     - Tab. Nifedipine 5 mg (short-acting) or Hydralazine if hypertensive crisis occurs (0.1–0.2 mg/kg IM/IV).
+  
+  3. Antibiotics (to eradicate residual nephritogenic streptococci):
+     - Tab. Phenoxymethylpenicillin 250 mg 6-hourly for 10 days.
+     - If penicillin-allergic: Tab. Erythromycin 250 mg 6-hourly for 10 days.
+  
+  4. Monitor for Complications:
+     - Encourage bed rest during the acute phase of hypertension/gross haematuria.
+     - Repeat E/U/Cr and BP checks every 12–24 hours initially.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-123',
+    title: 'Balanoposthitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Outpatient Clinic',
+    condition: 'Balanoposthitis',
+    symptoms: [
+      'Penile pain and swelling x 2 days',
+      'Painful micturition x 2 days',
+      'Penile discharge x 1 day',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 4-year-old uncircumcised male presented with a 2-day history of penile pain, swelling, redness, and painful micturition, with a 1-day history of purulent preputial discharge. Examination revealed distal penile oedema and erythema, a non-retractile foreskin, scanty purulent discharge, and tenderness over the glans and prepuce. Assessed as balanoposthitis. Differentials include urinary tract infection, irritant dermatitis, balanitis xerotica obliterans, and foreign body entrapment.',
+    content: `
+  PAEDIATRIC OUTPATIENT CLINIC
+  
+  Patient Identification
+  
+  Name: Musa Ibrahim
+  Age: 4 years
+  Sex: Male
+  Religion: Islam
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  
+  1. Penile pain and swelling x 2/7
+  2. Crying during micturition x 2/7
+  3. Penile discharge x 1/7
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 2 days prior to presentation when the mother noticed that he was frequently touching his genital area and crying, especially during micturition. There was associated progressive swelling and redness of the tip of the penis (glans and foreskin).
+  
+  One day prior to presentation, she noticed a yellowish, non-foul-smelling discharge from beneath the foreskin. There was no history of trauma to the perineum, insertion of foreign bodies into the urethra, or recent insect bites. There has been no documented fever, haematuria, or groin swelling.
+  
+  Care So Far
+  
+  The mother has been cleaning the area with warm water and gave him one dose of paracetamol syrup (dosage unknown), with mild relief of pain.
+  
+  Past Medical History
+  
+  No previous history of similar episodes.
+  
+  No known history of sickle cell disease (genotype AA).
+  
+  No history of chronic skin conditions or allergies.
+  
+  Not known to be diabetic.
+  
+  No history of previous hospitalisations or blood transfusions.
+  
+  Birth History
+  
+  Prenatal: Booked at a General Hospital. Mother took routine antenatal medications. No history of febrile illness or rashes during pregnancy.
+  
+  Natal: Delivered at term via spontaneous vaginal delivery in a hospital. No complications.
+  
+  Postnatal: Cried immediately after birth. No neonatal jaundice or seizures. Birth weight was 3.2 kg.
+  
+  Dietary History (FADU)
+  
+  Exclusive breastfeeding was done for 6 months.
+  
+  Complementary feeding started at 6 months with pap (akamu) fortified with milk and crayfish.
+  
+  Frequency: Currently feeds 4–5 times a day from the family menu.
+  
+  Adequacy/Density: Meals include carbohydrates (rice and maize), proteins (beans and meat), and vegetables.
+  
+  Utilisation: Good appetite, with no history of food intolerance.
+  
+  Immunisation History
+  
+  Up to date according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  
+  Gross Motor: Sat at 6 months and walked at 13 months.
+  
+  Fine Motor: Transfers objects and scribbles spontaneously.
+  
+  Language: Speaks in short sentences.
+  
+  Social: Plays with peers and feeds himself.
+  
+  All milestones appear age-appropriate.
+  
+  Family and Social History
+  
+  Second child in a monogamous family setting.
+  
+  Father is a tailor, while the mother is a petty trader.
+  
+  They live in a two-bedroom apartment with good ventilation.
+  
+  Source of water is a borehole.
+  
+  Refuse is disposed of via a central collection point.
+  
+  Review of Systems
+  
+  RS: No cough or fast breathing.
+  
+  CVS: No easy fatigability or bluish discolouration of the lips.
+  
+  GIT: No vomiting, diarrhoea, or abdominal pain.
+  
+  CNS: No seizures or loss of consciousness.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking child, in painful distress during micturition.
+  
+  Afebrile (temperature: 36.8°C).
+  
+  Not pale, anicteric, and not dehydrated.
+  
+  No significant peripheral lymphadenopathy.
+  
+  Anthropometry
+  
+  Weight: 16 kg (within normal range for age).
+  Height: 102 cm.
+  
+  Systemic Examination
+  
+  Genitourinary Examination
+  
+  Inspection: The penis appears oedematous and erythematous at the distal end. The foreskin is tight and cannot be easily retracted (non-retractile foreskin). There is scanty purulent discharge from the preputial orifice. No ulcers or vesicles noted.
+  
+  Palpation: Tenderness noted over the glans and prepuce. No inguinal lymphadenopathy. No scrotal swelling or tenderness.
+  
+  Respiratory System
+  
+  Respiratory rate: 24 cycles per minute.
+  
+  Trachea central. Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System
+  
+  Pulse rate: 98 beats per minute, regular, and normal volume.
+  
+  Heart sounds S1 and S2 only. No murmurs.
+  
+  Abdomen
+  
+  Flat and moves with respiration.
+  
+  Soft and non-tender.
+  
+  No organomegaly. Bowel sounds present and normal.
+  
+  Central Nervous System
+  
+  Conscious and alert. No focal neurological deficits.
+  
+  Assessment
+  
+  Balanoposthitis in an uncircumcised 4-year-old male.
+  
+  Differential Diagnoses
+  
+  1. Urinary Tract Infection (UTI).
+  2. Irritant Dermatitis (e.g., from harsh soaps).
+  3. Balanitis Xerotica Obliterans (BXO).
+  4. Foreign body entrapment.
+  
+  Investigation Plan
+  
+  1. Urinalysis: To check for nitrites, leucocyte esterase, or haematuria.
+  2. Swab for Microscopy, Culture, and Sensitivity (M/C/S) of the preputial discharge.
+  3. Fasting Blood Glucose: To rule out underlying Diabetes Mellitus (though less likely at this age).
+  4. Full Blood Count (FBC): To check for elevated white blood cell count.
+  
+  Management Plan
+  
+  1. General Measures
+  
+  - Encourage adequate oral fluid intake to dilute urine and reduce dysuria.
+  - Warm saline soaks: Soak the penis in a bowl of warm salt water for 10–15 minutes, 3 times daily, to help clean the preputial sac.
+  - Hygiene education: Counsel the mother to avoid forceful retraction of the foreskin, which can cause trauma and scarring and may result in paraphimosis.
+  
+  2. Pharmacotherapy
+  
+  Analgesia:
+  
+  - Syrup Paracetamol: 15 mg/kg per dose.
+  - Calculation: 15 mg x 16 kg = 240 mg.
+  - Prescription: Give 240 mg (7.5 mL of 160 mg/5 mL suspension) 8-hourly for 3 days.
+  
+  Topical Treatment (Empiric):
+  
+  - Mupirocin 2% ointment: Apply thinly to the affected area 8-hourly after saline soaks for 7 days.
+  - If fungal aetiology is suspected (e.g., satellite lesions): Clotrimazole 1% cream applied 12-hourly for 7–14 days.
+  
+  Oral Antibiotics (indicated if there is spreading cellulitis or systemic symptoms):
+  
+  - Syrup Amoxicillin/Clavulanate: 30 mg/kg/day in 2 divided doses.
+  - Calculation: 30 mg x 16 kg = 480 mg total daily.
+  - Prescription: Give 240 mg (approximately 5 mL of 228 mg/5 mL suspension) 12-hourly for 7 days.
+  
+  3. Follow-up
+  
+  - Review in 48–72 hours to assess response to treatment.
+  - Discuss elective circumcision with the parents after the acute inflammation has resolved to prevent recurrence.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-122',
+    title: 'Urinary Tract Infection (Likely Cystitis)',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Outpatient Clinic',
+    condition: 'Urinary Tract Infection',
+    symptoms: [
+      'Fever x 3 days',
+      'Dysuria x 2 days',
+      'Increased urinary frequency x 2 days',
+      'Lower abdominal pain x 1 day',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: 'A 4-year-old male presented with a 3-day history of fever, 2-day history of dysuria and increased urinary frequency, and 1-day history of lower abdominal pain. Examination revealed a febrile, acutely ill-looking child with mild suprapubic tenderness. Assessed as urinary tract infection, likely cystitis. Differentials include acute pyelonephritis, urethritis, and balanoposthitis.',
+    content: `
+  PAEDIATRIC OUTPATIENT CLINIC
+  
+  Patient Identification
+  
+  Name: Master A.B.
+  Age: 4 years
+  Sex: Male
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  Religion: Christianity
+  Caregiver: Mother (Trader, reliable informant)
+  
+  Presenting Complaints
+  
+  1. Fever x 3/7
+  2. Pain on micturition x 2/7
+  3. Increased urinary frequency x 2/7
+  4. Lower abdominal pain x 1/7
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 3 days prior to presentation when he developed fever. The fever was high-grade, continuous, and relieved by paracetamol. There were no associated chills or rigors.
+  
+  Two days prior to presentation, the mother noticed that he cried whenever he passed urine (dysuria). There was also increased urinary frequency, although the volume of urine passed each time appeared small. There was no history of haematuria, cloudy urine, foul-smelling urine, or urethral discharge.
+  
+  One day prior to presentation, he started complaining of lower abdominal pain, which was dull and non-radiating. There was no history of vomiting, diarrhoea, or constipation. No history of skin rashes or joint pains. There was no history of previous similar episodes or recent instrumentation of the urinary tract.
+  
+  Past Medical History
+  
+  No known chronic medical conditions such as Sickle Cell Disease or asthma. No history of previous hospitalisations or blood transfusions. No known congenital anomalies of the renal system.
+  
+  Birth History
+  
+  The antenatal period was uneventful, and the mother attended regular antenatal clinic visits. He was delivered at term via spontaneous vaginal delivery in a General Hospital. Birth weight was 3.2 kg. He cried immediately after birth. There was no history of neonatal jaundice or seizures.
+  
+  Dietary History
+  
+  He was exclusively breastfed for 6 months. He currently eats the family diet, consisting of staples such as amala, rice, and beans. His appetite has been slightly reduced since the onset of the illness.
+  
+  Immunisation History
+  
+  He received all vaccines according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  
+  He attained all age-appropriate developmental milestones. He is currently in nursery school and performing well.
+  
+  Family and Social History
+  
+  The patient is the second of three children in a monogamous setting. His father is a civil servant, while his mother is a trader. They live in a 2-bedroom apartment with a water closet system and borehole water supply.
+  
+  Review of Systems
+  
+  CNS: No headache, convulsions, or loss of consciousness.
+  
+  RS: No cough, fast breathing, or chest pain.
+  
+  CVS: No palpitations or easy fatigability.
+  
+  GIT: As in HPC. No nausea or vomiting.
+  
+  Physical Examination
+  
+  General Examination
+  
+  A young child, acutely ill-looking and febrile (temperature: 38.4°C).
+  
+  Not pale, anicteric, and not dehydrated.
+  
+  No significant peripheral lymphadenopathy.
+  
+  No pedal oedema.
+  
+  Anthropometry
+  
+  Weight: 16 kg (expected for age)
+  Height: 102 cm
+  
+  Systemic Examination
+  
+  Abdomen
+  
+  Full and moves with respiration.
+  
+  Soft, with mild suprapubic tenderness.
+  
+  No kidneys or spleen palpable. Liver not enlarged (2 cm below the right costal margin, soft, and non-tender).
+  
+  Bowel sounds present and normal.
+  
+  External Genitalia
+  
+  Normal male phenotype, uncircumcised. Prepuce is retractable, with no signs of balanitis.
+  
+  Respiratory System
+  
+  Respiratory rate: 24 cycles per minute.
+  
+  Trachea central.
+  
+  Lungs are clear, with vesicular breath sounds bilaterally.
+  
+  Cardiovascular System
+  
+  Pulse rate: 110 beats per minute, regular, and full volume.
+  
+  Blood pressure: 90/60 mmHg.
+  
+  Apex beat at the 4th left intercostal space, midclavicular line.
+  
+  Heart sounds S1 and S2 only.
+  
+  Summary
+  
+  Master A.B. is a 4-year-old male who presented with a 3-day history of fever, dysuria, and increased urinary frequency. Examination revealed a febrile child with suprapubic tenderness.
+  
+  Assessment
+  
+  Urinary Tract Infection (likely Cystitis).
+  
+  Differential Diagnoses
+  
+  1. Acute Pyelonephritis (less likely given the absence of renal angle tenderness and vomiting).
+  2. Urethritis.
+  3. Balanoposthitis.
+  
+  Initial Investigation Plan
+  
+  1. Urinalysis (Dipstick): Check for nitrites, leukocyte esterase, and protein.
+  2. Urine Microscopy, Culture, and Sensitivity (M/C/S): To identify the causative organism and antibiotic profile.
+  3. Full Blood Count (FBC): To check for leukocytosis and anaemia.
+  4. Malaria Parasite (MP) film: To rule out co-existing malaria given the fever.
+  5. Renal Ultrasound Scan: If symptoms persist or if a structural anomaly is suspected.
+  
+  Initial Management Plan
+  
+  1. Admit for observation and hydration if vomiting or unable to take oral fluids; otherwise, manage as an outpatient.
+  2. Encourage increased oral fluid intake.
+  3. Analgesic/Antipyretic: Syrup Paracetamol 240 mg (15 mg/kg) every 6–8 hours as needed for fever/pain.
+  4. Empiric Antibiotics (Oral options for stable patients):
+     - Syrup Cefuroxime 20 mg/kg/day in 2 divided doses for 7–10 days.
+     - OR Syrup Amoxicillin/Clavulanate 30–45 mg/kg/day in 2 divided doses for 7–10 days.
+     - If severe/toxic appearance (IV options): Inj. Ceftriaxone 50–75 mg/kg once daily OR Inj. Gentamicin 5–7.5 mg/kg once daily.
+  5. Adjust antibiotics based on culture and sensitivity results once available.
+  6. Counsel parents on hygiene and the importance of completing the antibiotic course.
+  7. Follow up in 48–72 hours to review clinical response and culture results.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-121',
+    title: 'Acute Cystitis',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Outpatient Clinic',
+    condition: 'Urinary Tract Infection',
+    symptoms: ['Painful urination (Dysuria)', 'Increased urinary frequency', 'Urinary urgency', 'Lower abdominal pain', 'Low-grade fever'],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: '6-year-old female presenting with a 3-day history of dysuria, increased urinary frequency, and urinary urgency, with a 2-day history of suprapubic pain. Clinical assessment is suggestive of acute cystitis, with vulvovaginitis, urethritis, early acute pyelonephritis, and urinary schistosomiasis as differential diagnoses.',
+    content: `PAEDIATRIC OUTPATIENT CLINIC
+  
+  Patient Identification
+  Olayinka Adeniyi, a 6-year-old Yoruba Christian female from Dutse, Jigawa State. Informant: Mother (reliable).
+  
+  Presenting Complaints
+  Painful urination × 3 days
+  Increased urinary frequency × 3 days
+  Lower abdominal pain × 2 days
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 days prior to presentation when she started complaining of pain and a burning sensation while passing urine. The mother noted that the child cried during micturition and frequently visited the toilet to pass small volumes of urine. There was associated urinary urgency, but no history of urinary incontinence or bedwetting in this previously toilet-trained child.
+  
+  Two days prior to presentation, she developed a dull, aching pain in the lower abdomen (suprapubic region). There is no history of high-grade fever, chills, or rigors. No history of loin pain, vomiting, or diarrhoea. No history of haematuria, cloudy or foul-smelling urine. No history of similar episodes in the past. No history of recent skin infections or sore throat.
+  
+  Past Medical History
+  No known chronic medical conditions such as sickle cell disease or asthma.
+  No history of previous hospitalizations or blood transfusions.
+  No history of known congenital anomalies of the urinary tract.
+  
+  Birth History
+  Antenatal: Mother attended regular ANC at a general hospital. No pregnancy-induced hypertension or diabetes.
+  
+  Natal: Delivered at term via spontaneous vaginal delivery in a hospital. Cried immediately at birth. Birth weight was 3.2 kg.
+  
+  Postnatal: No neonatal jaundice or sepsis.
+  
+  Dietary History
+  Exclusively breastfed for 6 months.
+  Weaned onto family meals.
+  Currently eats an adequate diet consisting of cereals, tubers, and proteins.
+  
+  Immunization History
+  Immunization up to date according to the National Programme on Immunization (NPI) schedule.
+  BCG scar present on the left deltoid.
+  
+  Developmental History
+  Attained all major developmental milestones at appropriate ages.
+  Currently in Primary One and performing well academically.
+  
+  Family and Social History
+  Second of three children in a monogamous family setting.
+  Parents are civil servants living in a 3-bedroom apartment with good ventilation.
+  Water source is a protected borehole.
+  Waste disposal is via a water closet system.
+  No history of similar symptoms in other family members.
+  
+  Review of Systems
+  CNS: No headache, seizures, or loss of consciousness.
+  RS: No cough, chest pain, or fast breathing.
+  CVS: No easy fatigability or palpitations.
+  GIT: No nausea or vomiting. Normal bowel habits.
+  MSS: No joint swelling or bone pain.
+  
+  O/E:
+  Child is conscious and alert, not in any obvious respiratory or painful distress.
+  Febrile to touch (Temperature: 37.8°C).
+  Not pale, anicteric, not dehydrated.
+  No peripheral oedema or significant peripheral lymphadenopathy.
+  
+  Anthropometry:
+  Weight: 20 kg (expected for age).
+  Height: 115 cm.
+  
+  Abdomen:
+  Flat, moves with respiration.
+  Soft, with mild tenderness elicited on suprapubic palpation.
+  No palpable masses.
+  Liver and spleen are not enlarged.
+  Kidneys are not ballottable.
+  No renal angle tenderness.
+  Bowel sounds present and normal.
+  
+  Respiratory System:
+  RR: 24 cpm.
+  Trachea central.
+  Chest symmetrical, moves equally with respiration.
+  Percussion note resonant bilaterally.
+  Breath sounds vesicular, with no adventitious sounds.
+  
+  Cardiovascular System:
+  PR: 98 bpm, full volume, regular.
+  BP: 100/60 mmHg.
+  Apex beat at the 4th left intercostal space, mid-clavicular line.
+  Heart sounds S1 and S2 only, no murmurs.
+  
+  Neurological System:
+  GCS: 15/15.
+  No signs of meningeal irritation.
+  Normal muscle tone, power, and reflexes in all four limbs.
+  
+  Assessment
+  Acute cystitis (Urinary Tract Infection).
+  
+  Differential Diagnoses
+  1. Vulvovaginitis (possibly due to poor perineal hygiene).
+  2. Urethritis.
+  3. Early acute pyelonephritis.
+  4. Urinary schistosomiasis.
+  
+  Investigations
+  1. Urinalysis (Dipstick): To check for nitrites and leukocyte esterase.
+  2. Urine Microscopy: To check for pyuria (WBC >5/hpf), RBCs, or organisms.
+  3. Urine Culture and Sensitivity (M/C/S): To identify the causative organism and determine antibiotic sensitivity.
+  4. Full Blood Count (FBC): To check for leukocytosis.
+  5. Renal Ultrasound Scan: To rule out structural abnormalities if symptoms persist or recur.
+  
+  Management Plan
+  
+  General Measures
+  1. Encourage increased oral fluid intake to promote urinary flushing.
+  2. Proper perineal hygiene: Educate the mother and child on wiping from front to back after defecation.
+  
+  Pharmacological Management
+  
+  Antibiotics (Empirical):
+  - Cefuroxime suspension (125 mg/5 ml): Give 250 mg (10 ml) BD for 7 days.
+  
+  OR
+  
+  - Amoxicillin/Clavulanate suspension (312.5 mg/5 ml): Give 375 mg (6 ml) BD for 7 days.
+  
+  OR
+  
+  - Nitrofurantoin (if cystitis is confirmed and child is older than 1 month): 25–35 mg QDS for 7 days.
+  
+  Analgesia/Antipyretic:
+  - Syrup Paracetamol (125 mg/5 ml or 250 mg/5 ml): Give 300 mg (e.g., 6 ml of 250 mg/5 ml) TDS for 3 days or as needed for pain and fever.
+  
+  Follow-Up
+  Review with urine culture results in 48–72 hours to adjust antibiotics if necessary.
+  Advise return if there is persistent fever, vomiting, or loin pain, which may suggest progression to pyelonephritis.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  }, 
+  
+  {
+    id: 'peds-120',
+    title: 'Cerebral Malaria',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Emergency Unit',
+    condition: 'Cerebral Malaria',
+    symptoms: ['High-grade fever', 'Generalized tonic-clonic convulsions', 'Loss of consciousness', 'Vomiting', 'Loss of appetite'],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: '5-year-old male presenting with a 3-day history of high-grade fever, two episodes of generalized tonic-clonic convulsions, and persistent loss of consciousness, with a Blantyre Coma Scale score of 2/5. Assessed as cerebral malaria, with acute bacterial meningitis, viral encephalitis, and hypoglycaemic coma as differentials.',
+    content: `PAEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Master Musa Ibrahim, a 5-year-old Hausa Muslim male from Dutse, Jigawa State. Informant: Mother (reliable).
+  
+  Presenting Complaints
+  Fever × 3 days
+  Convulsions × 2 episodes (today)
+  Loss of consciousness × 4 hours
+  
+  History of Presenting Complaint
+  The patient was apparently well until 3 days prior to presentation when he developed high-grade fever, which was continuous, associated with chills and rigors, and briefly relieved by paracetamol syrup. There was associated loss of appetite and three episodes of non-bilious, non-projectile vomiting containing recently ingested meals.
+  
+  On the day of presentation, he had two episodes of generalized tonic-clonic convulsions, each lasting approximately 5 minutes, characterized by upward rolling of the eyes, foaming at the mouth, and stiffening of the limbs. There was no associated ear discharge or history of head trauma. Following the second episode, the patient failed to regain consciousness and has remained unresponsive to verbal commands and painful stimuli for approximately 4 hours.
+  
+  No history of cough, breathlessness, diarrhoea, or neck stiffness. No previous history of similar illness or seizures.
+  
+  Past Medical History
+  No known chronic medical conditions such as sickle cell disease or asthma.
+  No previous hospital admissions or blood transfusions.
+  No known drug allergies.
+  
+  Birth History
+  Delivered at term via spontaneous vaginal delivery at a general hospital.
+  Cried immediately after birth.
+  Birth weight was 3.2 kg.
+  Neonatal period was uneventful.
+  
+  Immunization History
+  Immunization completed for age according to the National Programme on Immunization (NPI) schedule.
+  BCG scar present on the left deltoid region.
+  
+  Dietary History
+  Exclusively breastfed for 6 months.
+  Currently on family diet consisting mainly of cereals, tubers, and legumes.
+  Last meal was 8 hours prior to presentation.
+  
+  Developmental History
+  Attained all major developmental milestones, including sitting, standing, walking, and first words, at appropriate ages.
+  Currently in nursery school and performing well.
+  
+  Family and Social History
+  Parents are in a monogamous marriage.
+  Father is a secondary school teacher, while the mother is a petty trader.
+  Lives in a well-ventilated 2-bedroom bungalow.
+  Uses insecticide-treated nets (ITNs), but not consistently.
+  
+  Review of Systems
+  CNS: As stated in the HPC.
+  RS: No cough or fast breathing.
+  CVS: No palpitations or easy fatigability.
+  GIT: No diarrhoea or constipation.
+  MSS: No joint pains or swelling.
+  
+  O/E:
+  Acutely ill-looking child, unconscious, febrile (Temp 39.4°C), moderately pale, anicteric, not dehydrated.
+  No significant peripheral lymphadenopathy or pedal oedema.
+  
+  Anthropometry:
+  Weight: 18 kg (expected for age).
+  MUAC: 14.5 cm.
+  
+  CNS:
+  Blantyre Coma Scale: 2/5 (Motor 1, Verbal 0, Eyes 1).
+  Pupils: 3 mm bilaterally, sluggishly reactive to light.
+  Muscle tone: Increased in all limbs.
+  Reflexes: Brisk knee jerks; bilateral extensor plantar responses.
+  Meningeal signs: Neck stiffness and Kernig's sign absent.
+  
+  CVS:
+  PR: 124 bpm, regular, good volume.
+  BP: 95/60 mmHg.
+  Heart sounds: S1 and S2 only.
+  
+  Respiratory System:
+  RR: 36 cpm, regular.
+  Trachea central.
+  Breath sounds vesicular, with no added sounds.
+  
+  Abdomen:
+  Full, moves with respiration.
+  Liver: 3 cm palpable below the right costal margin, smooth and firm.
+  Spleen: 2 cm palpable below the left costal margin.
+  Bowel sounds present and normal.
+  
+  Assessment
+  Cerebral malaria (WHO severe malaria criteria).
+  
+  Differential Diagnoses
+  1. Acute bacterial meningitis.
+  2. Viral encephalitis.
+  3. Hypoglycaemic coma.
+  
+  Investigations
+  1. Random Blood Sugar (RBS): Immediate bedside test.
+  2. Malaria Parasite (MP) Test: Thick and thin blood films for parasite density.
+  3. Full Blood Count (FBC): To assess PCV and WBC count/differential.
+  4. Lumbar Puncture: To be performed once the patient is stable and signs of raised intracranial pressure have been ruled out.
+  5. Serum Electrolytes, Urea, and Creatinine (EUCr).
+  6. Blood Culture: To rule out septicaemia.
+  
+  Initial Management Plan
+  
+  1. Emergency Resuscitation and Nursing Care:
+  - Maintain airway by placing the patient in the lateral recumbent position.
+  - Oxygen therapy via nasal prongs at 2 L/min.
+  - Suction oropharyngeal secretions as needed.
+  - Insert a wide-bore IV cannula.
+  - Insert a nasogastric tube (NGT) for subsequent feeding and to reduce aspiration risk.
+  - Insert a urethral catheter to monitor urine output.
+  
+  2. Fluid Management:
+  - IV 5% Dextrose in 0.45% Normal Saline (Dextrose-Saline).
+  - Maintenance fluid requirement for 18 kg: 100 ml/kg for the first 10 kg (1,000 ml) + 50 ml/kg for the remaining 8 kg (400 ml) = 1,400 ml over 24 hours.
+  - Infusion rate: 58 ml/hour.
+  
+  3. Specific Antimalarial Therapy:
+  - IV Artesunate: 2.4 mg/kg per dose.
+  - Dose: 43.2 mg (approximately 44 mg) IV at 0, 12, and 24 hours, then daily for a minimum of 24 hours until the patient can tolerate oral medications.
+  - Follow with a full course of Artemisinin-based Combination Therapy (ACT), such as Artemether-Lumefantrine, once conscious.
+  
+  4. Anticonvulsants (for active seizures):
+  - IV Diazepam: 0.3 mg/kg.
+  - Dose: 5.4 mg (approximately 5.5 mg) as a slow IV bolus.
+  
+  5. Empiric Antibiotics:
+  - IV Ceftriaxone: 100 mg/kg/day.
+  - Dose: 1.8 g IV daily (divided 12-hourly) to cover possible bacterial meningitis pending CSF results.
+  
+  6. Fever and Supportive Management:
+  - IV Paracetamol: 15 mg/kg.
+  - Dose: 270 mg every 8 hours.
+  - Tepid sponging.
+  - If RBS is <3.0 mmol/L (hypoglycaemia), administer 10% Dextrose at 5 ml/kg (90 ml) as an IV bolus.
+  
+  7. Monitoring:
+  - Monitor vital signs (PR, RR, BP, and temperature) every 1–2 hours.
+  - Monitor Blantyre Coma Scale every 4 hours.
+  - Monitor blood glucose 4-hourly.
+  - Strict input and output charting.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-119',
+    title: 'Post-Meningitic Hydrocephalus in a 14-Month-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Unit',
+    condition: 'Post-Meningitic Hydrocephalus (Suspected Communicating Type)',
+    symptoms: [
+      'Progressive head enlargement',
+      'Inability to sit without support',
+      'Recurrent projectile vomiting',
+      'Increased irritability and high-pitched cry',
+      'Poor head control and impaired visual tracking'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 14-month-old boy with a history of bacterial meningitis at 7 months presents with progressive head enlargement, regression of gross motor milestones, recurrent projectile vomiting, irritability, and impaired visual tracking. Examination reveals marked macrocephaly, a bulging anterior fontanelle, prominent scalp veins, Macewen’s sign, bilateral setting-sun eyes, and lower-limb spasticity with brisk reflexes and bilateral extensor plantar responses. The initial assessment is post-meningitic hydrocephalus, suspected to be communicating, requiring urgent neuroimaging and neurosurgical assessment.',
+    content: `
+  PEDIATRIC EMERGENCY UNIT
+  
+  Patient Identification
+  Name: Musa Ibrahim
+  Age: 14 months
+  Sex: Male
+  Address: Ungogo, Kano State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  1. Progressive head enlargement x 6/12
+  2. Inability to sit without support x 4/12
+  3. Recurrent projectile vomiting x 1/52
+  
+  History of Presenting Complaint
+  The patient was apparently well until 7 months ago when he was managed for an episode of acute bacterial meningitis (details of treatment at a primary health center were sketchy). Following discharge, the mother noticed a steady and disproportionate increase in the size of his head compared to his body.
+  
+  The head enlargement has been progressive and is associated with thinning of the scalp skin and prominent scalp veins. Over the last 4 months, there has been a noticeable regression in motor milestones; the child was previously able to sit without support but now requires significant assistance and has poor head control.
+  
+  In the last 1 week, the patient began having recurrent, non-bilious, projectile vomiting, usually occurring early in the morning and not necessarily related to feeds. There is associated increased irritability and a high-pitched cry. There is no history of fever, seizures, or trauma to the head. Vision appears impaired as he does not follow light as well as before. Bowel and bladder habits remain normal for age.
+  
+  Past Medical History
+  History of hospitalization at 7 months of age for fever, neck stiffness, and seizures, managed as bacterial meningitis. No known history of Sickle Cell Disease or Asthma. No previous blood transfusions.
+  
+  Birth History
+  Antenatal: Mother booked at a General Hospital. Pregnancy was term. No history of maternal febrile illness or rashes.
+  Natal: Delivered via Spontaneous Vaginal Delivery (SVD) at a hospital. Cried immediately at birth. Birth weight was 3.2 kg.
+  Post-Natal: No neonatal jaundice or respiratory distress.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Currently on family diet (pap, mashed rice, and beans). Appetite has been poor since the onset of frequent vomiting.
+  
+  Immunization History
+  Received vaccines up to 9 months as per NPI schedule (including BCG, OPV, Pentavalent, and Measles). BCG scar is present.
+  
+  Developmental History
+  Gross Motor: Currently has poor head control. Cannot sit or crawl. (Delayed)
+  Fine Motor: Can pick up small objects with a pincer grasp. (Appropriate for age)
+  Language: Makes "mama/dada" sounds. (Appropriate for age)
+  Social: Recognizes mother and smiles. (Appropriate for age)
+  
+  Family and Social History
+  3rd child in a monogamous family setting. Father is a tailor and mother is a petty trader. They live in a 2-room apartment with adequate ventilation. Source of water is a borehole.
+  
+  Review of Systems
+  RS: No cough or fast breathing.
+  CVS: No cyanosis or pedal oedema.
+  GIT: As above in HPC.
+  MSS: Noted stiffness in both lower limbs.
+  
+  Physical Examination
+  
+  General Examination
+  Acutely ill-looking child, conscious but irritable. Not pale, anicteric, acyanotic, not dehydrated. No significant lymphadenopathy.
+  Weight: 9.5 kg
+  OFC (Occipital Frontal Circumference): 56 cm (well above the 97th percentile for age).
+  
+  CNS Examination
+  Head: Globally enlarged head with a "bossing" forehead. Scalp skin is thin with prominent, non-pulsatile dilated veins. Anterior fontanelle is wide (4 cm x 4 cm), bulging, and non-pulsatile. Positive Macewen's sign (cracked-pot sound on percussion).
+  Eyes: Bilateral "setting-sun" sign (sclera visible above the iris). Sluggish pupillary response to light.
+  Motor: Hypertonia in both lower limbs (spasticity). Brisk knee and ankle jerks. Bilateral extensor plantar responses.
+  
+  Respiratory System
+  RR: 28 cpm. Chest moves symmetrically with respiration. Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System
+  PR: 110 bpm, regular, normal volume. BP: 90/60 mmHg. S1 S2 only.
+  
+  Abdomen
+  Full, soft, moves with respiration. No organomegaly. Bowel sounds are normal.
+  
+  Assessment
+  Post-meningitic Hydrocephalus (Communicating type).
+  
+  Differential Diagnoses
+  1. Chronic Subdural Hematoma
+  2. Intracranial Space Occupying Lesion (e.g., Posterior fossa tumor)
+  3. Dandy-Walker Malformation
+  
+  Initial Investigation Plan
+  1. Cranial CT Scan: To confirm ventricular enlargement, determine the site of obstruction (all four ventricles likely dilated in communicating type), and rule out masses.
+  2. Transfontanellar Ultrasound: A quick bedside alternative since the fontanelle is still open.
+  3. CSF Analysis (via ventricular tap if indicated by neurosurgery): To check for residual infection, protein, and glucose levels.
+  4. Full Blood Count (FBC): To rule out ongoing infection.
+  5. Serum Electrolytes, Urea, and Creatinine: To baseline renal function before starting diuretics.
+  
+  Initial Management Plan
+  
+  General/Supportive:
+  1. Admit to the pediatric ward.
+  2. Elevate head of the bed to 30 degrees to improve venous drainage.
+  3. Maintain hydration: Since he is vomiting, start IV fluids (5% Dextrose in 0.45% Saline) at maintenance rate.
+     - Maintenance for 9.5 kg: 950 ml over 24 hours (approx. 40 ml/hr).
+  4. Monitor vital signs and neurological status (AVPU scale) 4-hourly.
+  
+  Medical Management (To temporize and reduce CSF production):
+  1. Acetazolamide: 25 mg/kg/day in 3 divided doses.
+     - Dosage: 80 mg TDS (Total 240 mg/day).
+  2. Furosemide: 1 mg/kg/day.
+     - Dosage: 10 mg IV/PO daily.
+  Note: Medical management is usually a temporary measure while awaiting surgery.
+  
+  Surgical Management (Definitive):
+  1. Consult Neurosurgery for Ventriculoperitoneal (VP) Shunt insertion.
+  2. Alternative: Endoscopic Third Ventriculostomy (ETV), though success rates vary in post-meningitic cases due to potential scarring of the subarachnoid space.
+  
+  Follow-up:
+  - Neurodevelopmental assessment and physiotherapy for motor delays.
+  - Measurement of OFC daily to monitor progress.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-118',
+    title: 'Global Developmental Delay with Suspected Spastic Diplegic Cerebral Palsy Following Birth Asphyxia in a 2-Year-Old Child',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Neurology Clinic',
+    condition: 'Global Developmental Delay with Suspected Spastic Diplegic Cerebral Palsy',
+    symptoms: [
+      'Inability to walk since birth',
+      'Delayed speech and language development',
+      'Progressive stiffness of the limbs',
+      'Occasional jerky movements',
+      'Occasional coughing during feeding'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-26',
+    summary: 'A 2-year-4-month-old boy with a history of severe birth asphyxia and neonatal seizures presents with global developmental delay, inability to walk, absent meaningful speech, limb hypertonia, lower-limb scissoring, brisk deep tendon reflexes, bilateral extensor plantar responses, and microcephaly. The clinical assessment is global developmental delay secondary to birth asphyxia, likely spastic diplegic cerebral palsy.',
+    content: `
+  PAEDIATRIC NEUROLOGY CLINIC
+  
+  Patient Identification
+  Name: Master Chinedu Okoro
+  Age: 2 years 4 months
+  Sex: Male
+  Address: Ogbomosho, Oyo State
+  Tribe: Igbo
+  Religion: Christian
+  Caregiver: Mother (Informant, reliable)
+  
+  Presenting Complaints
+  1. Inability to walk x 2 years 4 months (since birth)
+  2. Delay in speech x 2 years 4 months
+  3. Occasional stiffness of the limbs x 1 year
+  
+  History of Presenting Complaint
+  The patient is a 2-year-old male who was noted to have delayed attainment of motor and language milestones since birth. He was born via emergency Caesarean section on account of prolonged obstructed labour. He did not cry at birth and required resuscitation with bag and mask for about 10 minutes before the first gasp. He was subsequently admitted to the Special Care Baby Unit (SCBU) for 10 days on account of severe birth asphyxia and neonatal seizures.
+  
+  The mother noticed he could not achieve neck control until about 9 months of age. He only started sitting with support at 18 months and is currently unable to stand or walk independently. He does not say any recognizable words, only making guttural sounds. There is no history of hearing impairment or visual deficits.
+  
+  The mother also reports progressive stiffness of both lower limbs, often making it difficult to put on his trousers or diapers. There is no history of recurrent fevers, ear discharge, or recent head trauma.
+  
+  Past Medical History
+  No history of blood transfusion.
+  One previous admission for bronchopneumonia at 6 months of age.
+  No known drug allergies.
+  
+  Birth History
+  Antenatal: Booked at a Primary Health Centre (PHC). Pregnancy was supervised. No history of maternal hypertension or diabetes. Tetanus toxoid doses were completed.
+  Natal: Delivered at term via emergency Caesarean section following 24 hours of labour. Birth weight was 3.2 kg. Significant history of birth asphyxia as noted above.
+  Post-natal: Managed for neonatal encephalopathy in the SCBU. Received oxygen and phenobarbital.
+  
+  Dietary History
+  Exclusively breastfed for 6 months. Currently on a family diet (pap, rice, yam). Appetite is fair, though he has occasional cough while feeding (suggestive of oromotor incoordination).
+  
+  Immunization History
+  Completed age-appropriate vaccines according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History
+  Gross Motor: Neck control at 9/12, sitting with support at 18/12. Cannot crawl or stand.
+  Fine Motor: Can reach for objects but has a crude pincer grasp.
+  Language: No meaningful words. Follows simple one-step commands occasionally.
+  Social: Social smile achieved at 4/12. Recognizes mother.
+  
+  Family and Social History
+  Third child in a monogamous family setting. Parents are petty traders. Live in a two-room apartment with adequate ventilation. Source of water is a protected well.
+  
+  Review of Systems
+  CNS: Occasional jerky movements (noted as spasms), no recent seizures.
+  RS: No cough, no fast breathing.
+  GIT: Occasional constipation. No diarrhoea.
+  
+  Physical Examination
+  
+  General Examination
+  A fully conscious child, not in any respiratory or painful distress.
+  Acutely ill-looking: No.
+  Pallor: Absent.
+  Jaundice: Absent.
+  Dehydration: Absent.
+  Pedal oedema: Absent.
+  Lymphadenopathy: None significant.
+  
+  Anthropometry
+  Weight: 10 kg (Expected for age: ~12–13 kg, suggests mild underweight)
+  Length: 84 cm
+  OFC: 46 cm (Microcephaly; below 3rd percentile for age)
+  
+  Systemic Examination
+  
+  Central Nervous System
+  Mental State: Appears alert but with limited interaction.
+  
+  Motor System:
+  - Inspection: Reduced muscle bulk in both lower limbs.
+  - Tone: Increased in all limbs, more marked in the lower limbs (hypertonia). Scissoring of the lower limbs noted when held upright.
+  - Power: Difficult to assess accurately, but moves all limbs against gravity.
+  - Reflexes: Brisk knee and ankle jerks (3+). Extensor plantar responses bilaterally.
+  - Coordination/Gait: Not applicable as the child cannot walk.
+  
+  Respiratory System
+  RR: 28 cpm. Chest is clinically clear. Trachea central.
+  
+  Cardiovascular System
+  PR: 110 bpm, regular, normal volume.
+  Heart sounds: S1 and S2 only. No murmurs.
+  
+  Abdomen
+  Full, soft, moves with respiration. No organomegaly. Bowel sounds present.
+  
+  Assessment
+  Global Developmental Delay (Predominantly Motor and Language) secondary to Birth Asphyxia (likely Spastic Diplegic Cerebral Palsy).
+  
+  Differential Diagnoses
+  1. Bilateral post-meningitic sequelae
+  2. Congenital hypothyroidism (less likely given age and history)
+  3. Neurodegenerative disorder (unlikely due to non-progressive nature of initial insult)
+  
+  Initial Investigation Plan
+  1. Brain MRI or CT scan: To assess for periventricular leukomalacia or multicystic encephalomalacia.
+  2. EEG: To screen for subclinical seizure activity given the history of neonatal seizures.
+  3. FBC and Electrolytes/Urea/Creatinine: Routine baseline.
+  4. Thyroid Function Tests (T3, T4, TSH): To rule out hypothyroidism as a contributor to delay.
+  5. Hearing assessment (OAE/BERA): To rule out associated sensorineural hearing loss.
+  
+  Initial Management Plan
+  
+  General Measures:
+  - Multidisciplinary approach involving Paediatrician, Physiotherapist, Speech Therapist, and Occupational Therapist.
+  - Counselling of parents on the nature of the condition (static encephalopathy) and long-term care goals.
+  - Nutritional support: High-calorie diet, small frequent feeds to prevent aspiration.
+  
+  Pharmacological Management (Focus on Spasticity):
+  1. Baclofen:
+  - Start with 2.5 mg (half of a 5 mg tablet) twice daily.
+  - Gradually increase every 3 days to a maintenance dose of 5 mg three times daily. Maximum dose for this age/weight is approximately 20–30 mg/day in divided doses, but must be titrated slowly to avoid over-sedation.
+  
+  2. Diazepam (for nocturnal spasms or severe rigidity):
+  - 1.25 mg to 2.5 mg at night (0.125 mg/kg dose).
+  - Use with caution due to risk of respiratory depression and excessive drooling.
+  
+  3. Multivitamin supplementation:
+  - Multivitamin syrup 5 mL daily.
+  - Calcium and Vitamin D supplements to support bone health in a non-ambulatory child.
+  
+  Non-Pharmacological/Rehabilitative:
+  1. Intensive Physiotherapy: Range of motion exercises, stretching to prevent contractures, and gait training.
+  2. Speech Therapy: Oromotor exercises and alternative communication strategies.
+  3. Occupational Therapy: To assist with activities of daily living and specialized seating/braces (e.g., Ankle-Foot Orthoses - AFOs).
+  
+  Follow-up
+  Monthly review in the Paediatric Neurology Clinic to monitor progress and adjust medication.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
     id: 'peds-117',
     title: 'Nutritional Rickets with Suspected Iron Deficiency Anaemia and Moderate Acute Malnutrition in a 24-Month-Old Child',
     specialty: 'Pediatrics',

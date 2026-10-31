@@ -9613,5 +9613,1328 @@ Key Clinical Takeaways
   `
 },
 
+{
+  id: 'lab-ultrasound-obstetric-abdominal',
+  title: 'Ultrasound: Obstetric and Abdominal',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Imaging',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultrasound: Obstetric and Abdominal</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.font-brand { font-family: Georgia, 'Times New Roman', serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation &middot; Imaging</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Ultrasound: Obstetric and Abdominal</h1>
+  <p class="text-sm text-indigo-200">For many Nigerian patients, ultrasound is the only imaging within reach: CT and MRI may be days of travel away, and even a plain X-ray can be out of order. That makes the scan report one of the most-read documents in the folder, and one of the most over-trusted. This guide explains what ultrasound reliably shows in pregnancy and in the abdomen, how to read a report, which numbers matter, when a scan can stand in for another test and when it cannot, and which errors cost patients the most.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-ultrasound-does-and-does-not-show" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What Ultrasound Does and Does Not Show</span></a></li>
+  <li><a href="#preparing-the-patient-and-getting-a-good-scan" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Preparing the Patient and Getting a Good Scan</span></a></li>
+  <li><a href="#obstetric-ultrasound-first-trimester-and-dating" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Obstetric Ultrasound: First Trimester and Dating</span></a></li>
+  <li><a href="#obstetric-ultrasound-second-and-third-trimester" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Obstetric Ultrasound: Second and Third Trimester</span></a></li>
+  <li><a href="#abdominal-ultrasound" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Abdominal Ultrasound</span></a></li>
+  <li><a href="#when-ultrasound-substitutes-for-other-tests" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>When Ultrasound Substitutes for Other Tests</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigeria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Clinical Scenarios in Nigeria</span></a></li>
+  <li><a href="#what-to-do-next" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>What to Do Next</span></a></li>
+  <li><a href="#pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Pitfalls</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-ultrasound-does-and-does-not-show" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What Ultrasound Does and Does Not Show
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">A probe sends sound into the body and builds an image from the echoes. Fluid-filled structures (bladder, gallbladder, cysts, amniotic fluid, ascites) show clearly. Solid organs show their size, outline and texture. Air and bone block the beam, so bowel gas, the lungs and the skull hide what is behind them.</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Strengths:</strong> no radiation, done at the bedside, repeatable, cheap, and excellent for fluid, stones, cysts, masses versus cysts, obstruction, and for the fetus.</li>
+  <li><strong>Weaknesses:</strong> it depends heavily on the operator, the machine and the patient (obesity, bowel gas, a bladder that is too empty or too full). A normal scan does not exclude disease. A report is an opinion on a moving image, so a poor-quality or rushed scan can be wrong in either direction.</li>
+  <li><strong>Safety:</strong> diagnostic ultrasound has no proven harm in pregnancy, but it should still be used for a reason and for no longer than needed. Avoid scans done only for souvenir pictures or for sex selection.</li>
+  <li><strong>The scan answers a question.</strong> A good request says why it is needed (for example "bleeding at 28 weeks, placental site?"). A request that says only "abdominopelvic scan" tends to get a vague answer.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparing-the-patient-and-getting-a-good-scan" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Preparing the Patient and Getting a Good Scan
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Early pregnancy and pelvic scans (transabdominal):</strong> a moderately full bladder lifts the bowel out of the way and acts as a window. Ask the patient to drink water and not to pass urine for the hour before. An over-full bladder is uncomfortable and can distort the pelvic organs, so empty it partly if needed.</li>
+  <li><strong>Upper abdomen (liver, gallbladder, pancreas, aorta):</strong> fasting for about 6 to 8 hours lets the gallbladder fill and reduces bowel gas. Do not fast a patient who is in shock, vomiting with dehydration, or diabetic on insulin without a plan.</li>
+  <li><strong>Kidneys:</strong> a full bladder shows hydronephrosis better. A scan before and after passing urine helps with bladder outflow problems.</li>
+  <li><strong>Later pregnancy:</strong> no special preparation. Record the date of the last period, the number of previous caesareans and any bleeding on the request form.</li>
+  <li><strong>Transvaginal scan:</strong> gives better views of early pregnancy, the cervix and a low placenta, with consent and a chaperone. It is safe when the placenta is low, but it should not be done with the membranes ruptured and infection suspected without senior advice. If the equipment or skill is not available, the transabdominal scan still answers most questions.</li>
+  <li><strong>Counselling before the scan:</strong> explain that the scan may find unexpected things, that the fetus cannot be shown to be perfectly normal, and what the unit's policy is on telling parents the fetal sex. Use the patient's language and involve her partner if she wishes.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="obstetric-ultrasound-first-trimester-and-dating" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Obstetric Ultrasound: First Trimester and Dating
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">WHO recommends one routine ultrasound scan before 24 weeks of gestation, mainly to estimate gestational age, find multiple pregnancy and detect some fetal anomalies earlier. WHO notes that the evidence is of low certainty and that operators need proper training. In practice many women book late and have no early scan, so the scan you can get is often the second-trimester one.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Questions the early scan answers</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>Where is the pregnancy?</strong> A gestational sac inside the uterine cavity (ideally with a yolk sac) confirms an intrauterine pregnancy. An empty uterus with a positive pregnancy test and pain or bleeding is an ectopic pregnancy until proved otherwise.</li>
+    <li><strong>Is it alive?</strong> Cardiac activity is seen from about 6 weeks. A first scan that is unclear in a woman with a threatened miscarriage is repeated after a week rather than judged on one image.</li>
+    <li><strong>How many?</strong> Number of fetuses, and in twins the chorionicity (best judged in the first trimester).</li>
+    <li><strong>How old?</strong> The crown-rump length (CRL) gives the most reliable gestational age.</li>
+    <li><strong>Anything else?</strong> Molar pregnancy (a "snowstorm" or cluster of cysts with a very high hCG), fibroids, and ovarian cysts.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to change the due date (ACOG Committee Opinion 700)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Gestational age on the scan</th><th class="py-2 pr-3">Measurement</th><th class="py-2 pr-3">Change the due date if the scan differs from the last period by more than</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Up to 8 weeks 6 days</td><td class="py-2 pr-3">CRL</td><td class="py-2 pr-3">5 days</td></tr>
+        <tr><td class="py-2 pr-3">9 weeks 0 days to 13 weeks 6 days</td><td class="py-2 pr-3">CRL</td><td class="py-2 pr-3">7 days</td></tr>
+        <tr><td class="py-2 pr-3">14 weeks 0 days to 15 weeks 6 days</td><td class="py-2 pr-3">BPD, HC, AC, FL</td><td class="py-2 pr-3">7 days</td></tr>
+        <tr><td class="py-2 pr-3">16 weeks 0 days to 21 weeks 6 days</td><td class="py-2 pr-3">BPD, HC, AC, FL</td><td class="py-2 pr-3">10 days</td></tr>
+        <tr><td class="py-2 pr-3">22 weeks 0 days to 27 weeks 6 days</td><td class="py-2 pr-3">BPD, HC, AC, FL</td><td class="py-2 pr-3">14 days</td></tr>
+        <tr><td class="py-2 pr-3">28 weeks 0 days and beyond</td><td class="py-2 pr-3">BPD, HC, AC, FL</td><td class="py-2 pr-3">21 days</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs mt-2">BPD biparietal diameter, HC head circumference, AC abdominal circumference, FL femur length. If the last period is uncertain (common), base the due date on the earliest good scan, ideally before 14 weeks. A third-trimester scan is the least reliable for dating: a small baby in the third trimester may be growth-restricted, not younger, so do not simply redate it. Pregnancies not confirmed or revised by a scan before 22 weeks are considered suboptimally dated, which matters when you decide on induction for "post-dates".</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ectopic pregnancy</strong>
+  <p class="text-sm">Think of it in any woman of reproductive age with abdominal pain or vaginal bleeding and a positive pregnancy test, particularly with previous pelvic inflammatory disease, tubal surgery or an intrauterine device. An empty uterus with free fluid in the pouch of Douglas and a positive test, in a woman who is faint or has a falling blood pressure, means ruptured ectopic pregnancy: resuscitate and arrange theatre without waiting for further tests. In a stable woman with an empty uterus (pregnancy of unknown location), repeat the scan and a quantitative hCG after 48 hours, and arrange early review. The older "discriminatory zone" (an hCG above about 1,500 mIU/mL for transvaginal and about 6,000 for transabdominal scans, above which a pregnancy should be seen in the uterus) is poorly supported and should not be used to exclude an ectopic pregnancy. Ectopic pregnancy has been found at almost any hCG level.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: routine scans and access</strong>
+<p class="text-sm">WHO recommends one routine scan before 24 weeks, but it rates the evidence as low certainty, stresses trained operators, and warns about misuse (including sex selection and scans replacing proper antenatal visits). Nigerian national antenatal guidance and the reality of access differ by state and facility, so follow your own protocol and prioritise high-risk women (previous caesarean, hypertension, bleeding, uncertain dates, twins, diabetes, sickle cell disease) when scans are limited.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="obstetric-ultrasound-second-and-third-trimester" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Obstetric Ultrasound: Second and Third Trimester
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Placenta site</strong>
+  <p class="text-sm">After 16 weeks, a placenta whose edge is less than 20 mm from the internal os is called low-lying, and one lying over the os is called placenta praevia (RCOG). Many low placentas at the 20-week scan move away as the lower segment grows, so they are re-scanned, with a transvaginal scan if possible, at about 32 weeks, and again at about 36 weeks if still low, to plan the delivery. A transvaginal scan is safe in placenta praevia. Never do a digital vaginal examination in a woman with painless bleeding in late pregnancy until the placental site is known. Previous caesarean scars matter: a low anterior placenta over a scar raises the risk of a morbidly adherent placenta (accreta), and the risk rises with each caesarean. Refer such women early to a centre with blood and surgical backup.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Liquor (amniotic fluid)</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Finding</th><th class="py-2 pr-3">Single deepest pocket (SDP)</th><th class="py-2 pr-3">Amniotic fluid index (AFI)</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Oligohydramnios</td><td class="py-2 pr-3">Less than 2 cm (the preferred method)</td><td class="py-2 pr-3">Less than 5 cm</td></tr>
+        <tr><td class="py-2 pr-3">Polyhydramnios</td><td class="py-2 pr-3">More than 8 cm</td><td class="py-2 pr-3">More than 24 cm (some use 25)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs mt-2">Reduced fluid suggests ruptured membranes, fetal growth restriction, post-term pregnancy or a fetal kidney or urinary tract problem. Excess fluid suggests maternal diabetes, a fetus that cannot swallow, or multiple pregnancy, and it increases the chance of preterm labour and cord prolapse. Check the glucose in every woman with polyhydramnios.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Fetal growth: small baby or growth-restricted baby?</strong>
+  <p class="text-sm">A fetus with a weight below the 10th centile is small for gestational age (SGA). Many SGA babies are simply constitutionally small. Fetal growth restriction (FGR) means the baby is failing to reach its potential, and it carries a risk of stillbirth. The international Delphi consensus defines FGR before 32 weeks as an abdominal circumference or estimated fetal weight below the 3rd centile, or absent end-diastolic flow in the umbilical artery, or both a weight or AC below the 10th centile and an abnormal uterine or umbilical artery Doppler. After 32 weeks it is a weight or AC below the 3rd centile, or two of: weight or AC below the 10th centile, a fall across more than two quartiles on the growth chart, or an abnormal Doppler ratio (cerebroplacental ratio below the 5th centile or raised umbilical artery pulsatility index). Reliable centile charts need an accurate gestational age, so growth cannot be judged from a single late scan with unknown dates. Serial scans two to three weeks apart show the trend.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other third-trimester questions</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>Presentation and lie:</strong> breech, transverse or oblique lie, and the position of the placenta and cord, particularly before external cephalic version or when the head is hard to feel.</li>
+    <li><strong>Number and chorionicity</strong> of fetuses, and discordant growth in twins.</li>
+    <li><strong>Fetal heart activity</strong> when the Pinard cannot find it. A fetus with no cardiac activity confirms intrauterine death. Tell the mother clearly and kindly, and arrange care.</li>
+    <li><strong>Estimated fetal weight:</strong> ultrasound estimates near term can be wrong by 10 to 20% either way, especially in big or small babies and in women with diabetes. They are no substitute for clinical judgement when judging whether a woman can deliver vaginally, and a scan cannot measure the pelvis or predict obstructed labour.</li>
+    <li><strong>Post-dates:</strong> use the earliest scan for dating and check liquor, rather than inducing on a late scan alone.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="abdominal-ultrasound" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Abdominal Ultrasound
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300 space-y-3">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Organ or question</th><th class="py-2 pr-3">What ultrasound shows</th><th class="py-2 pr-3">Caution</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-semibold">Liver, chronic hepatitis B and C</td><td class="py-2 pr-3">Coarse echotexture, nodular surface, small liver, splenomegaly, ascites and a dilated portal vein (cirrhosis and portal hypertension); focal lesions</td><td class="py-2 pr-3">Cannot grade early fibrosis. A normal liver on scan does not exclude significant disease.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Liver mass or HCC surveillance</td><td class="py-2 pr-3">Focal lesion, size, number, vessel invasion</td><td class="py-2 pr-3">A suspicious lesion or raised AFP needs contrast CT or MRI where available, and referral. Section 6 and the amber box below.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Liver abscess</td><td class="py-2 pr-3">Round or oval hypoechoic collection, often in the right lobe</td><td class="py-2 pr-3">Cannot reliably separate amoebic from pyogenic abscess. Use the clinical picture, serology and aspiration where needed.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Schistosomiasis</td><td class="py-2 pr-3">Periportal fibrosis and splenomegaly in <em>S. mansoni</em>, and bladder wall thickening and hydronephrosis in <em>S. haematobium</em></td><td class="py-2 pr-3">WHO has a standardised ultrasound protocol for field use. Ultrasound shows disease burden. It does not replace finding eggs for diagnosis.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Gallbladder and bile ducts</td><td class="py-2 pr-3">Gallstones, a positive sonographic Murphy sign, wall thickening, pericholecystic fluid, and duct dilatation</td><td class="py-2 pr-3">Gallstones and a positive Murphy sign are the most sensitive findings in acute cholecystitis. Stones in the common bile duct are often missed. Sickle cell disease causes pigment stones, so gallstones are common and not always the cause of the pain.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Spleen</td><td class="py-2 pr-3">Size, focal lesions, infarcts</td><td class="py-2 pr-3">Splenomegaly is common with malaria, tropical splenomegaly, schistosomiasis, portal hypertension and sickle cell disease in childhood. A shrunken, echogenic spleen in an adult with sickle cell disease suggests autosplenectomy.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Kidneys, ureters, bladder</td><td class="py-2 pr-3">Hydronephrosis, stones, cysts, mass, kidney size and cortical thickness, bladder wall, residual urine</td><td class="py-2 pr-3">Small, bright kidneys with thin cortex suggest chronic kidney disease. Ureteric stones are often not seen directly, so look for hydronephrosis.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Prostate and bladder outflow</td><td class="py-2 pr-3">Prostate size, bladder wall thickening, post-void residual urine, hydronephrosis from retention</td><td class="py-2 pr-3">Ultrasound shows size, not cancer. A hard or irregular prostate or a raised PSA needs further assessment.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Appendix</td><td class="py-2 pr-3">A non-compressible appendix, with a diameter above about 6 mm, fat stranding and sometimes an appendicolith</td><td class="py-2 pr-3">A normal appendix is often not seen, particularly in obese patients and in a retrocaecal position. A scan that does not show the appendix does not exclude appendicitis.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Ascites</td><td class="py-2 pr-3">Free fluid, loculation, thickened peritoneum and omental caking</td><td class="py-2 pr-3">Find the cause with fluid analysis: serum-ascites albumin gradient, cells, and protein. Think of tuberculosis, liver disease, heart failure, nephrotic syndrome and malignancy.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Aorta and abdominal masses</td><td class="py-2 pr-3">An aorta of 3.0 cm or more is an aneurysm. A mass can be solid or cystic, and which organ it arises from</td><td class="py-2 pr-3">Ruptured aneurysm is a clinical emergency, not a scan indication. A scan is not needed to decide on theatre in an unstable patient.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Trauma (FAST)</td><td class="py-2 pr-3">Free fluid around the liver, spleen and in the pelvis, and around the heart</td><td class="py-2 pr-3">Sensitivity for free fluid is about 90%, but it takes roughly 500 mL to see it. Solid organ, hollow viscus, diaphragmatic and retroperitoneal injuries can be missed. A negative FAST in an unstable patient does not rule out bleeding. Repeat it.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Pelvic organs in non-pregnant women</td><td class="py-2 pr-3">Fibroids, ovarian cysts and masses, endometrial thickness, hydrosalpinx, free fluid</td><td class="py-2 pr-3">A cyst in a woman with pain and a positive pregnancy test is an ectopic pregnancy until proved otherwise. Complex or solid ovarian masses need tumour markers and gynaecology review.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: surveillance for liver cancer in hepatitis B</strong>
+<p class="text-sm">Hepatitis B is common in Nigeria, and hepatocellular carcinoma often presents late. Surveillance is liver ultrasound every 6 months for people with cirrhosis. For people with hepatitis B who do not have cirrhosis, an older consensus document lists African carriers aged 20 years and above (and anyone with a family history of liver cancer) for six-monthly ultrasound together with serum AFP. Guideline bodies differ on whether AFP should be added and on when to start in non-cirrhotic carriers. Where ultrasound is the only tool, six-monthly scans in high-risk patients are better than none. Follow the current Nigerian or facility protocol, and refer any suspicious lesion or rising AFP for contrast imaging.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-ultrasound-substitutes-for-other-tests" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+When Ultrasound Substitutes for Other Tests
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Where CT, MRI, IVU, contrast studies, a laboratory or even an X-ray are not available, a scan can often answer the practical question. It rarely answers the whole question. Use the table to decide what a scan can replace, what it only supports, and what you must still arrange or refer.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Question</th><th class="py-2 pr-3">Test the scan stands in for</th><th class="py-2 pr-3">How good a substitute</th><th class="py-2 pr-3">What it cannot replace</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-semibold">How old is the pregnancy?</td><td class="py-2 pr-3">The last menstrual period, which is often unknown or irregular</td><td class="py-2 pr-3"><strong>Good</strong> when done early (CRL before about 14 weeks)</td><td class="py-2 pr-3">A late scan, which is poor at dating, particularly in a small baby</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Where is the placenta in antepartum bleeding?</td><td class="py-2 pr-3">A vaginal examination, which can provoke a catastrophic bleed</td><td class="py-2 pr-3"><strong>Good</strong> and safer</td><td class="py-2 pr-3">Clinical assessment of blood loss and the mother's condition. Resuscitate first.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Is the fetal heart present?</td><td class="py-2 pr-3">Pinard or Doppler listening when the heart cannot be found</td><td class="py-2 pr-3"><strong>Good</strong></td><td class="py-2 pr-3">Assessment of fetal wellbeing in labour (needs the CTG or regular auscultation)</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Is this pregnancy ectopic?</td><td class="py-2 pr-3">Laparoscopy or serial hCG</td><td class="py-2 pr-3"><strong>Partial.</strong> Free fluid with an empty uterus and a positive test is strong enough to act on in an unstable woman.</td><td class="py-2 pr-3">A quantitative hCG and the follow-up of a pregnancy of unknown location. A normal-looking scan does not exclude an early ectopic.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Is the baby growing well?</td><td class="py-2 pr-3">Fundal height alone, which misses many small babies</td><td class="py-2 pr-3"><strong>Partial.</strong> Serial scans and Doppler are better than one scan.</td><td class="py-2 pr-3">Maternal tests for the cause (blood pressure, urine protein, infection, haemoglobin)</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Is the pelvis adequate for vaginal birth?</td><td class="py-2 pr-3">X-ray pelvimetry</td><td class="py-2 pr-3"><strong>Poor</strong></td><td class="py-2 pr-3">Clinical pelvic assessment and a trial of labour with a partograph</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Is the kidney obstructed?</td><td class="py-2 pr-3">Intravenous urography (IVU)</td><td class="py-2 pr-3"><strong>Good for hydronephrosis.</strong> In one study of CT-proven stones, bedside ultrasound showed hydronephrosis in about 78%, and a stone or hydronephrosis in about 82%. It did better with stones of 6 mm or more (about 90%) than with smaller stones (about 75%).</td><td class="py-2 pr-3">A CT or plain film for the exact stone size and position, and creatinine and urine tests</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Does this man have bladder outflow obstruction?</td><td class="py-2 pr-3">A catheter to measure residual urine, and IVU</td><td class="py-2 pr-3"><strong>Good</strong></td><td class="py-2 pr-3">Creatinine, PSA and digital rectal examination</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Gallstones or cholecystitis?</td><td class="py-2 pr-3">Oral cholecystography, and CT</td><td class="py-2 pr-3"><strong>Good, first choice</strong></td><td class="py-2 pr-3">Liver tests, bilirubin and white cell count. Common bile duct stones may need other imaging.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Appendicitis?</td><td class="py-2 pr-3">CT</td><td class="py-2 pr-3"><strong>Partial.</strong> A positive scan helps. A normal or non-diagnostic scan does not exclude it.</td><td class="py-2 pr-3">Clinical review and repeat examination. Operate on the clinical picture when the appendix is not seen.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Free fluid after abdominal trauma?</td><td class="py-2 pr-3">Diagnostic peritoneal lavage and CT</td><td class="py-2 pr-3"><strong>Good for free fluid</strong> (about 90% sensitive)</td><td class="py-2 pr-3">CT for solid organ injury, retroperitoneal bleeding and bowel injury. Repeat the scan if the patient changes.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Is there a liver abscess, mass or cirrhosis?</td><td class="py-2 pr-3">CT</td><td class="py-2 pr-3"><strong>Good for detecting and sizing</strong></td><td class="py-2 pr-3">A tissue or aspirate result, viral markers and contrast imaging when cancer is suspected</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Ascites or pleural effusion?</td><td class="py-2 pr-3">Shifting dullness and a chest X-ray</td><td class="py-2 pr-3"><strong>Good.</strong> Ultrasound sees small fluid collections and marks a safe site for a tap.</td><td class="py-2 pr-3">Fluid analysis: protein, albumin gradient, cells, AFB or Xpert, and cytology</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Schistosomiasis</td><td class="py-2 pr-3">Not a substitute</td><td class="py-2 pr-3"><strong>Supports.</strong></td><td class="py-2 pr-3">Egg microscopy of urine or stool remains the diagnostic test.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Pre-eclampsia, anaemia, infection</td><td class="py-2 pr-3">Not a substitute</td><td class="py-2 pr-3"><strong>No.</strong></td><td class="py-2 pr-3">Blood pressure, urine protein, haemoglobin, platelets, liver and kidney tests</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">The test is a good substitute when the question is about fluid, size, position, obstruction or a mass. It is a poor substitute when the question is about tissue type, function, an infection with no collection, the bowel, the retroperitoneum, or the mother's blood and urine tests. When you use a scan in place of another test, write down why, and note what would change your plan or prompt referral.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigeria" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Clinical Scenarios in Nigeria
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman of 29, sudden severe lower abdominal pain, dizzy, missed period, positive urine test</strong>
+  <p class="text-sm">Pulse high, blood pressure low. A transabdominal scan shows an empty uterus and fluid around the liver and in the pelvis. This is a ruptured ectopic pregnancy. Start fluids, cross-match blood, and get her to theatre. Do not wait for an hCG.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman at 33 weeks with painless fresh vaginal bleeding, one previous caesarean</strong>
+  <p class="text-sm">Resuscitate, check the fetal heart, and arrange a scan for the placental site before any vaginal examination. A placenta lying anteriorly over the scar raises the possibility of a morbidly adherent placenta. Arrange delivery at a centre with blood and an experienced surgeon.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman who booked at about 30 weeks and does not know her dates</strong>
+  <p class="text-sm">A scan at this stage dates the pregnancy only within weeks, and a small measurement may mean growth restriction and not an earlier date. Use it with the fundal height, and repeat the growth measurements in two to three weeks. Do not induce for "post-dates" on this one scan.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypertensive woman at 34 weeks, urine protein 2+, scan shows AC below the 3rd centile and oligohydramnios</strong>
+  <p class="text-sm">The scan supports growth restriction with reduced liquor. It does not change the first priority: treat the blood pressure, give magnesium sulfate if indicated, and arrange delivery at a facility with a newborn unit. See the urinalysis guide for the protein result.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 45 with chronic hepatitis B, six-monthly scan finds a 3 cm solid lesion</strong>
+  <p class="text-sm">Treat as suspected hepatocellular carcinoma. Check AFP, liver function and clotting, and refer for contrast CT or MRI and a liver or oncology opinion. Counsel him and the family honestly, using plain words, on the options and on what is available locally.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Child with sickle cell disease, fever, right upper abdominal pain, gallstones on scan</strong>
+  <p class="text-sm">Gallstones are common in sickle cell disease and may be incidental. Think of the other causes of right upper quadrant pain in a sickle cell crisis (hepatic sequestration, liver crisis, hepatitis, pneumonia) before attributing the pain to the stones. Review with the haematology team.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young man after a road crash, tender abdomen, FAST negative</strong>
+  <p class="text-sm">A negative first FAST does not make him safe. Re-scan after a short interval, watch the pulse and blood pressure, examine repeatedly, and operate on the clinical signs.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Elderly man with poor stream, hydronephrosis and a big bladder with residual urine</strong>
+  <p class="text-sm">Bladder outflow obstruction until proved otherwise. Pass a catheter, check urea and creatinine, watch for post-obstructive diuresis, and refer for assessment of the cause. Do not label the hydronephrosis "renal disease" before the bladder is emptied and the scan repeated.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-next" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+What to Do Next
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Scan result</th><th class="py-2 pr-3">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">No intrauterine pregnancy, positive test, free fluid, unstable</td><td class="py-2 pr-3">Resuscitate, blood, theatre. Do not delay for hCG.</td></tr>
+      <tr><td class="py-2 pr-3">No intrauterine pregnancy, stable, no free fluid</td><td class="py-2 pr-3">Repeat scan and quantitative hCG in 48 hours. Give clear return advice. Early review.</td></tr>
+      <tr><td class="py-2 pr-3">Sac with no heartbeat, or a heart not seen early</td><td class="py-2 pr-3">Repeat after a week before declaring a missed miscarriage. Counsel and offer options.</td></tr>
+      <tr><td class="py-2 pr-3">Placenta low or over the os</td><td class="py-2 pr-3">Plan rescans at 32 and 36 weeks, advise on bleeding, and arrange delivery where blood and surgery are available. Check for previous scar involvement.</td></tr>
+      <tr><td class="py-2 pr-3">Oligohydramnios</td><td class="py-2 pr-3">Check membranes, fetal growth, and gestation. Arrange senior review and fetal assessment.</td></tr>
+      <tr><td class="py-2 pr-3">Polyhydramnios</td><td class="py-2 pr-3">Test the mother's glucose, look for a fetal anomaly, and plan delivery in a unit that can manage preterm labour and cord prolapse.</td></tr>
+      <tr><td class="py-2 pr-3">Fetal weight or AC below the 3rd centile, or abnormal Doppler</td><td class="py-2 pr-3">Treat as FGR. Look for maternal causes (hypertension, malaria, infection, anaemia, sickle cell disease). Serial scans and early referral.</td></tr>
+      <tr><td class="py-2 pr-3">Absent fetal heart activity</td><td class="py-2 pr-3">Confirm, then break the news gently and plan care. Check clotting if the baby has been dead for weeks.</td></tr>
+      <tr><td class="py-2 pr-3">Hydronephrosis</td><td class="py-2 pr-3">Find the level and cause (stone, prostate, pelvic mass, tumour, schistosomiasis). Check creatinine and urine. Refer if infected or there is anuria.</td></tr>
+      <tr><td class="py-2 pr-3">Focal liver lesion in a person with hepatitis B or cirrhosis</td><td class="py-2 pr-3">AFP, clotting, liver function. Contrast CT or MRI where available, and specialist referral.</td></tr>
+      <tr><td class="py-2 pr-3">Free fluid on FAST in an unstable patient</td><td class="py-2 pr-3">Resuscitate and go to theatre. Do not go for CT.</td></tr>
+      <tr><td class="py-2 pr-3">Normal scan, symptoms persist</td><td class="py-2 pr-3">Do not stop looking. Repeat the examination, repeat the scan if things change, and use other tests.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before and during the scan</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>No clinical information on the request form, so the scan answers the wrong question or misses the point.</li>
+    <li>A bladder that is too empty (poor early pregnancy and pelvic views) or too full (distorted pelvis, possible false findings).</li>
+    <li>Bowel gas, obesity and a patient who cannot lie still or hold her breath limit the views. A limited scan should say so.</li>
+    <li>Scans done by untrained persons, or at unregulated centres, with the report written by someone who did not do the scan. Know who scanned your patient.</li>
+    <li>Scanning a woman with a possible ruptured ectopic pregnancy for a long time before resuscitating her.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In the report</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Gestational age from a late scan used to redate a small baby.</li>
+    <li>"Normal scan" taken to mean "no disease". Appendix not seen, kidneys not fully seen, and bowel not assessed are common limits.</li>
+    <li>"Low-lying placenta" in the second trimester treated as final. Rescan at 32 weeks.</li>
+    <li>Estimated fetal weight treated as exact, and used to decide on caesarean or induction.</li>
+    <li>An "incidental" gallstone or kidney cyst blamed for symptoms it did not cause, so the real cause is missed.</li>
+    <li>"Fatty liver" or "hepatomegaly" in the report with no follow-up of the cause (viral hepatitis, alcohol, diabetes, drugs, herbal products).</li>
+    <li>"Impression: PID" or "tubo-ovarian mass" given in a pregnant woman with pain, without a pregnancy test.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In the consultation</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Telling a woman the baby is "fine" because the scan looks normal. Say that no scan can exclude all problems.</li>
+    <li>Disclosing fetal sex without a unit policy, or in a family where the sex is a source of pressure.</li>
+    <li>Delay in referral because "the scan is normal" when the clinical picture is worsening.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Reading Order
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+  <li>Right patient, right date, and the question that was asked.</li>
+  <li>Who did the scan, with what machine, and was it complete or limited? Read the technical remarks first.</li>
+  <li>In pregnancy: location, number, heart activity, gestational age by the earliest measurement.</li>
+  <li>Then the placenta, liquor, presentation, and growth with the centile and the gestational age used.</li>
+  <li>In the abdomen: the organ the question was about first, then the rest. Look for fluid, obstruction and masses.</li>
+  <li>Compare the report with the examination. If they disagree, trust the problem in front of you and repeat one of them.</li>
+  <li>Decide: act now, rescan on a date, order another test, or refer.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-sm text-rose-900 dark:text-rose-200">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Empty uterus with free fluid and a positive pregnancy test.</strong> Ruptured ectopic pregnancy. Resuscitate and go to theatre.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Placenta praevia or a low anterior placenta over a caesarean scar.</strong> Major haemorrhage and accreta risk. No vaginal examination. Deliver at a centre with blood and a senior surgeon.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Absent fetal heart activity.</strong> Intrauterine death. Confirm with a second operator if unsure, then counsel and plan.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Growth restriction, absent or reversed umbilical artery flow, or oligohydramnios in a hypertensive woman.</strong> The baby is at risk. Refer for fetal assessment and delivery planning.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Free fluid in the abdomen of an unstable trauma patient.</strong> Go to theatre. A negative FAST does not exclude bleeding, so repeat it.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hydronephrosis with fever, a solitary kidney, anuria or a rising creatinine.</strong> Obstructed and possibly infected kidney. Decompress urgently.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Focal liver lesion in chronic hepatitis B or cirrhosis.</strong> Assume hepatocellular carcinoma until proved otherwise. Refer.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Aorta 3.0 cm or more, or an abdominal aneurysm with pain or shock.</strong> Vascular emergency. Do not delay for further imaging.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A "normal" scan in a patient who is getting worse.</strong> Appendix not seen, early ectopic pregnancy, and early obstruction are all missed. Repeat the assessment and do not reassure.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-sm text-indigo-950 dark:text-indigo-100">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ultrasound is best for fluid, size, position, obstruction and masses. It is operator dependent, so a normal scan never excludes disease.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Date pregnancies by the earliest scan (CRL before about 14 weeks) when the last period is uncertain, using the ACOG thresholds. Never redate a small third-trimester baby.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Locate the placenta by scan, not by vaginal examination, in late-pregnancy bleeding. Rescan a low placenta at 32 weeks, and think of accreta after previous caesareans.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not use the old hCG discriminatory zone to exclude ectopic pregnancy. An empty uterus with free fluid in a shocked woman means theatre.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ultrasound can stand in for IVU, residual urine measurement, peritoneal lavage, vaginal placental localisation, and dating by last period. It cannot stand in for blood and urine tests, fluid analysis, egg microscopy, tissue diagnosis, or clinical review.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>FAST finds about 90% of free fluid but needs about half a litre to see it. A negative scan in a bleeding patient is a reason to repeat it, not to relax.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Hepatitis B carriers need regular liver ultrasound. A focal lesion needs contrast imaging and referral, not reassurance.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-8">
+<summary class="cursor-pointer list-none flex items-center justify-between p-4 font-brand text-sm font-semibold text-stone-700 dark:text-stone-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. American College of Obstetricians and Gynecologists. Methods for estimating the due date. Committee Opinion No. 700.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. WHO recommendations on antenatal care for a positive pregnancy experience (2016), and the updated recommendation on one routine ultrasound scan before 24 weeks of gestation.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Royal College of Obstetricians and Gynaecologists. Placenta praevia and placenta accreta: diagnosis and management. Green-top Guideline No. 27a; and NHS Scotland national guidance on placenta praevia.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. International consensus (Delphi procedure) definition of fetal growth restriction, Ultrasound in Obstetrics and Gynecology, 2016.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Global Library of Women's Medicine. Amniotic fluid volume in fetal health and disease (definitions of oligohydramnios and polyhydramnios).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. American College of Emergency Physicians (2012) clinical policy on early pregnancy, and emergency medicine reviews of the hCG discriminatory zone and pregnancy of unknown location.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Consensus guidelines on surveillance for hepatocellular carcinoma (ultrasound with or without AFP at 6-month intervals); AASLD and EASL guidance should be consulted for the current position.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. World Health Organization. Ultrasound in schistosomiasis: a practical guide to the standardised use of ultrasonography for the assessment of schistosomiasis-related morbidity.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Emergency medicine references on focused assessment with sonography for trauma (FAST), sensitivity for free fluid, and bedside ultrasound for hydronephrosis in renal colic compared with CT.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Radiology references on sonographic signs of acute cholecystitis and acute appendicitis (non-compressible appendix, diameter above 6 mm).</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'lab-troponin',
+  title: 'Troponin',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Cardiometabolic',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Troponin and Chest Pain Without a Troponin</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.font-brand { font-family: Georgia, 'Times New Roman', serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation &middot; Cardiometabolic</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Troponin and Chest Pain Without a Troponin</h1>
+  <p class="text-sm text-indigo-200">Troponin is the best blood test for heart muscle injury, but outside tertiary centres in Nigeria it is often unavailable, slow to come back, or run on a point-of-care device of uncertain quality. Many patients with a heart attack present late, with hypertension and diabetes already established, and the first clinician who sees them is often a house officer or a primary care doctor with an ECG machine and nothing else. This guide explains what troponin measures and how to read it, and then teaches what to do when the result is not there: how to decide on the ECG and the history, who to treat as an acute coronary syndrome, when to give clot-busting therapy, and what not to wait for.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#what-troponin-reflects" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What Troponin Reflects</span></a></li>
+  <li><a href="#requesting-and-sampling-troponin" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Requesting and Sampling Troponin</span></a></li>
+  <li><a href="#reading-a-troponin-result" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Reading a Troponin Result</span></a></li>
+  <li><a href="#when-troponin-is-not-available-decide-on-the-ecg-and-the-patient" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>When Troponin Is Not Available: Decide on the ECG and the Patient</span></a></li>
+  <li><a href="#reperfusion-in-stemi-when-there-is-no-cath-lab" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Reperfusion in STEMI When There Is No Cath Lab</span></a></li>
+  <li><a href="#clinical-scenarios-in-nigeria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Clinical Scenarios in Nigeria</span></a></li>
+  <li><a href="#what-to-do-next" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>What to Do Next</span></a></li>
+  <li><a href="#pitfalls-and-sample-handling-errors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Pitfalls and Sample Handling Errors</span></a></li>
+  <li><a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Reading Order</span></a></li>
+  <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Findings That Must Not Be Missed</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-troponin-reflects" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+What Troponin Reflects
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Troponin I and troponin T are proteins of heart muscle. When heart muscle cells are damaged they leak into the blood, so a raised level means <strong>myocardial injury</strong>. It does not by itself say what caused the injury.</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Myocardial injury</strong> is a troponin above the 99th percentile upper reference limit of the assay. It is called acute when the values rise and/or fall.</li>
+  <li><strong>Myocardial infarction</strong> (Fourth Universal Definition) needs acute myocardial injury (a rise and/or fall of troponin with at least one value above the 99th percentile) <em>and</em> clinical evidence of acute ischaemia: symptoms, new ischaemic ECG changes, new pathological Q waves, imaging evidence of new loss of heart muscle or a new wall motion abnormality, or a coronary thrombus.</li>
+  <li><strong>Type 1 infarction</strong> is the plaque rupture and clot kind. <strong>Type 2 infarction</strong> is an oxygen supply and demand mismatch without a clot (severe anaemia, sustained tachyarrhythmia, hypotension, hypoxia). Both raise troponin, and they are treated differently.</li>
+  <li><strong>Conventional and high-sensitivity assays.</strong> High-sensitivity (hs) assays detect much lower levels and allow shorter rule-out pathways. Conventional assays and many point-of-care cartridges are less sensitive, so an early negative result can be falsely reassuring and needs a repeat sample after several hours. Know which assay your laboratory runs and use its own 99th percentile cut-off. Values from different assays cannot be compared.</li>
+  <li><strong>Timing.</strong> Troponin does not rise at the moment of pain. It takes a few hours to appear, and then it stays raised for days, which is helpful for a late presenter and misleading for a recurrent episode.</li>
+  <li><strong>Point-of-care troponin</strong> gives a result at the bedside within minutes. Reviews describe point-of-care devices as generally less sensitive than laboratory assays, and performance varies between devices. They have been used safely in rural pathways only with serial testing at presentation and again after a couple of hours, together with the ECG and a risk score.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="requesting-and-sampling-troponin" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Requesting and Sampling Troponin
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Send it on suspicion, not as a replacement for the ECG.</strong> Take the 12-lead ECG first, as soon as the patient arrives (ideally within about 10 minutes), and repeat it if the pain changes. The troponin result must never delay a decision that the ECG already makes.</li>
+  <li><strong>Record the time</strong> of onset of the pain and the time of each sample on the request form. Interpretation depends on the interval.</li>
+  <li><strong>Serial samples.</strong> One early value cannot exclude infarction. Guidelines use serial testing: with an hs assay, a second sample at 1 to 3 hours depending on the pathway, and with a conventional or point-of-care assay, a second sample several hours after the first. The change between samples matters more than a single number.</li>
+  <li><strong>Sample handling.</strong> Use the tube the laboratory specifies. Haemolysed samples, fibrin clots, and interference from antibodies in the blood can give falsely high or falsely low results. If the result does not fit the patient, repeat it and tell the laboratory.</li>
+  <li><strong>Do not use other enzymes as a substitute.</strong> AST, LDH and total CK are not specific to the heart and should not be used to diagnose infarction. CK-MB, if it is the only marker you have, is less sensitive than troponin and is read together with the ECG and the history.</li>
+  <li><strong>Kidney function.</strong> Request creatinine with the troponin, because chronic kidney disease raises troponin without infarction.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-a-troponin-result" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Reading a Troponin Result
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Pattern</th><th class="py-2 pr-3">Most likely meaning</th><th class="py-2 pr-3">What to do</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-semibold">Normal, taken early (within a few hours of pain)</td><td class="py-2 pr-3">Does not exclude infarction</td><td class="py-2 pr-3">Repeat at the interval your assay requires. Keep the patient monitored. Act on the ECG and the history in the meantime.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Normal on a properly timed repeat, with a normal ECG</td><td class="py-2 pr-3">Infarction unlikely</td><td class="py-2 pr-3">Look for other causes of chest pain. Arrange outpatient assessment for stable angina if the history suggests it.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Rising and/or falling, above the 99th percentile</td><td class="py-2 pr-3">Acute myocardial injury. Infarction if there is evidence of ischaemia.</td><td class="py-2 pr-3">Treat as acute coronary syndrome, and look for non-coronary causes at the same time.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Raised, flat on repeat</td><td class="py-2 pr-3">Chronic myocardial injury: kidney disease, heart failure, hypertensive heart disease, cardiomyopathy</td><td class="py-2 pr-3">Not an acute event on its own. Compare with a baseline and the clinical picture.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Very high</td><td class="py-2 pr-3">Large infarction or other major injury (myocarditis, severe sepsis, pulmonary embolism)</td><td class="py-2 pr-3">Do the ECG and echo, if available, and look at the whole picture.</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">Raised with chest pain but no ECG change</td><td class="py-2 pr-3">NSTEMI, or a non-coronary cause</td><td class="py-2 pr-3">Treat as NSTE-ACS while you look for the other causes below.</td></tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Causes of a raised troponin that are not a heart attack</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Cardiac</th><th class="py-2 pr-3">Non-cardiac</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3 align-top">Heart failure (including hypertensive heart disease and peripartum cardiomyopathy), myocarditis, endocarditis, pericarditis, tachyarrhythmia, hypotension, aortic dissection, takotsubo syndrome, blunt chest trauma, cardiotoxic drugs, left ventricular hypertrophy</td><td class="py-2 pr-3 align-top">Chronic kidney disease, sepsis, pulmonary embolism and pulmonary hypertension, stroke (ischaemic or haemorrhagic) and head injury, severe anaemia or gastrointestinal bleeding, rhabdomyolysis, burns, diabetes and hypothyroidism, snake and scorpion envenomation, strenuous exercise</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs mt-2">In Nigeria, remember hypertensive heart disease, peripartum cardiomyopathy, tuberculous pericarditis, rheumatic heart disease, severe malaria and sickle cell crisis with anaemia, pulmonary embolism after delivery or surgery, and kidney disease, which is often unrecognised.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-troponin-is-not-available-decide-on-the-ecg-and-the-patient" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+When Troponin Is Not Available: Decide on the ECG and the Patient
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The first decision in acute chest pain is made on the ECG. Troponin is needed to separate NSTEMI from unstable angina and to rule out infarction, but it is <strong>not needed</strong> to diagnose a STEMI, and a STEMI should never wait for a blood result. In a facility with no troponin, the pathway is: history, a good ECG, repeated ECGs, and a decision to treat, observe, or refer.</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 1. Think about the history</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Chest pressure, tightness or heaviness, often with spread to the arm, jaw or back, lasting more than 20 minutes, with sweating, breathlessness, nausea or vomiting.</li>
+    <li>Atypical presentations are common in women, older people and people with diabetes: breathlessness alone, epigastric pain or "gas", fatigue, or collapse.</li>
+    <li>Risk factors: hypertension (the commonest), diabetes, smoking, high cholesterol, older age, family history, and previous heart disease.</li>
+    <li>Features that point elsewhere: pain that is pleuritic or positional, pain reproduced by pressing on the chest wall, tearing pain radiating to the back, a history of recent surgery or long travel, cough and fever, or burning pain related to food.</li>
+  </ul>
+  <p class="text-sm mt-2">No single feature excludes or confirms infarction. Use the history to set the probability, not to decide alone.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 2. Read the ECG for STEMI</strong>
+  <p class="text-sm">Measure ST elevation at the J point in two contiguous leads.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Patient</th><th class="py-2 pr-3">Leads V2 and V3</th><th class="py-2 pr-3">All other leads</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Man under 40</td><td class="py-2 pr-3">2.5 mm or more</td><td class="py-2 pr-3">1 mm or more</td></tr>
+        <tr><td class="py-2 pr-3">Man 40 or older</td><td class="py-2 pr-3">2 mm or more</td><td class="py-2 pr-3">1 mm or more</td></tr>
+        <tr><td class="py-2 pr-3">Woman (any age)</td><td class="py-2 pr-3">1.5 mm or more</td><td class="py-2 pr-3">1 mm or more</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs mt-2">One millimetre is one small square on the standard calibration (10 mm per mV). Check the calibration and the paper speed before you measure.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 3. Look for STEMI equivalents and traps</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>Posterior infarction:</strong> horizontal ST depression in V1 to V3, a tall broad R wave in V2 and upright T waves. Record V7 to V9 (back leads). ST elevation of 0.5 mm or more in one of them confirms it.</li>
+    <li><strong>Right ventricular involvement:</strong> in inferior ST elevation, record right-sided leads (V4R). It matters because these patients are preload-dependent. Avoid nitrates and diuretics and give fluid if hypotensive.</li>
+    <li><strong>Left bundle branch block or paced rhythm:</strong> a new left bundle branch block alone is no longer treated as a STEMI equivalent. Use the Sgarbossa criteria as modified by Smith: concordant ST elevation of 1 mm or more in leads with a positive QRS, concordant ST depression of 1 mm or more in V1 to V3, or ST elevation of 1 mm or more with an ST to S wave ratio of at least 25%.</li>
+    <li><strong>De Winter pattern:</strong> tall symmetric T waves with up-sloping ST depression in the chest leads and ST elevation in aVR. It indicates proximal left anterior descending artery occlusion and is treated as a STEMI.</li>
+    <li><strong>Wellens pattern and ST elevation in aVR with widespread ST depression:</strong> high-risk ischaemic patterns that should be treated as NSTEMI equivalents and referred.</li>
+    <li><strong>Hyperacute T waves:</strong> broad, asymmetric tall T waves very early in an occlusion. Repeat the ECG every 10 to 15 minutes, because it may evolve into a STEMI.</li>
+    <li><strong>Mimics of ST elevation:</strong> early repolarisation (common in young Black men), pericarditis (widespread concave elevation with PR depression), left ventricular hypertrophy from long-standing hypertension, left ventricular aneurysm, hyperkalaemia, Brugada pattern, and takotsubo syndrome. Compare with an old ECG and with the history.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 4. Decide</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Picture</th><th class="py-2 pr-3">Decision without troponin</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3 font-semibold">STEMI or equivalent on ECG with a suitable history</td><td class="py-2 pr-3">Diagnosis is made. Start treatment now and decide on reperfusion. Do not wait for any blood test.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Ongoing typical pain with ST depression or deep T wave inversion</td><td class="py-2 pr-3">Treat as NSTE-ACS (NSTEMI or unstable angina). Give antiplatelet and anticoagulant treatment per protocol and refer to a cardiac centre. A troponin would only tell you which of the two it is.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Typical pain, normal or non-diagnostic ECG</td><td class="py-2 pr-3">Not safe to discharge yet. Keep the patient on a monitor. Repeat the ECG every 15 to 30 minutes while pain persists and after any change, and at about 3 to 6 hours. If troponin can be reached at a nearby laboratory, send it.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Pain gone, typical history, normal ECG on serial recordings, and no troponin available</td><td class="py-2 pr-3">The risk cannot be defined without a troponin. A history that sounds like unstable angina needs same-day or next-day assessment by a doctor who can arrange a troponin, a stress test, or an echo. Give aspirin and review plan, and give clear return advice.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Atypical pain, normal ECG, a clear alternative cause</td><td class="py-2 pr-3">Treat the other cause. Document why you think it is not cardiac, and give return advice.</td></tr>
+        <tr><td class="py-2 pr-3 font-semibold">Haemodynamic instability, heart failure, or a dangerous arrhythmia with chest pain</td><td class="py-2 pr-3">Treat as high-risk ACS regardless of the ECG, resuscitate, and refer urgently.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-xs mt-2">Chest pain risk scores such as the HEART score include a troponin value. Without it the score cannot be completed, and a low partial score does not make the patient low-risk. Use the elements you do have (history, ECG, age, risk factors) as a rough guide only.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 5. First treatment for suspected ACS</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Aspirin chewed as a loading dose (guidelines use roughly 150 to 325 mg depending on the body), unless there is a true allergy or active bleeding.</li>
+    <li>Sit the patient up, give oxygen only if oxygen saturation is low, and obtain IV access. Treat pain with a nitrate or an opioid in small doses, avoiding nitrates in hypotension and in right ventricular infarction.</li>
+    <li>Add further antiplatelet and anticoagulant treatment according to your facility's protocol, with caution before fibrinolysis.</li>
+    <li>Continuous ECG monitoring and a defibrillator at the bedside. Ventricular fibrillation in the first hours is the commonest cause of death in a STEMI.</li>
+    <li>Check the blood pressure in both arms and ask about tearing pain before giving anticoagulants or fibrinolytics, in case this is an aortic dissection.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reperfusion-in-stemi-when-there-is-no-cath-lab" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Reperfusion in STEMI When There Is No Cath Lab
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Primary PCI is preferred if it can be done within about 120 minutes of first medical contact. Across most of Nigeria it cannot. In a Nigerian registry of acute coronary events from tertiary hospitals, only about 17% of STEMI patients received thrombolysis, and in-hospital mortality was about 8%. A review of sub-Saharan Africa found that patients often reach hospital days after onset, that few arrive by ambulance, and that fibrinolysis, with streptokinase the commonest agent, is the reperfusion option within reach. If PCI is not possible within 120 minutes, fibrinolysis is the treatment and should be given early.</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Who:</strong> STEMI or equivalent, symptom onset under 12 hours, no contraindication, and no PCI within 120 minutes of first medical contact. Fibrinolysis can still be considered when symptoms started 12 to 24 hours ago, if PCI is unavailable and the patient has ongoing ischaemia. It is not recommended routinely after 12 hours without ongoing ischaemia.</li>
+  <li><strong>When:</strong> as early as possible. The time from diagnosis to needle is a quality target, and the benefit falls with every hour.</li>
+  <li><strong>Absolute contraindications:</strong> any previous intracranial haemorrhage; ischaemic stroke within 3 months; known brain tumour or structural vascular lesion; active bleeding or a bleeding disorder (menstruation excluded); brain or spinal surgery within 2 months; significant head or facial trauma within 3 months; suspected aortic dissection; severe uncontrolled hypertension not responding to treatment; and, for streptokinase, previous streptokinase within the last 6 months.</li>
+  <li><strong>Hypertension is the commonest local obstacle.</strong> Check the blood pressure, lower it while treating the pain, and recheck before fibrinolysis. A patient with severe uncontrolled hypertension is at high risk of intracranial bleeding.</li>
+  <li><strong>After fibrinolysis:</strong> repeat the ECG at 60 to 90 minutes. If ST elevation has fallen by less than 50%, or pain continues, or the patient becomes unstable, treat it as failed reperfusion and arrange rescue PCI if you can transfer. If fibrinolysis worked, early angiography within 2 to 24 hours is the standard where it is available. Monitor for bleeding, hypotension (especially with streptokinase), reperfusion arrhythmias and allergic reactions.</li>
+  <li><strong>Transfer early.</strong> Start the referral process as you start the fibrinolytic. Hospitals with a cath lab accept transfers after fibrinolysis, and the earlier angiography is done, the better.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block text-sm font-semibold mb-1">Guideline Watch: how fast, and how sure</strong>
+<p class="text-sm">Guidelines differ on reperfusion timing. American-style guidance and the Australian guideline set the fibrinolysis target at about 30 minutes from first medical contact, whereas ESC teaching sets a door-to-needle goal under 10 minutes from the diagnosis. In practice, aim for the shortest time your facility can achieve, and do not hold treatment to complete a form or wait for a blood test. Guidelines also differ on point-of-care troponin: it is acceptable in remote settings only within a pathway that uses serial testing and the ECG, and a single negative point-of-care result is not a rule-out. Follow the national and facility protocol where one exists.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="clinical-scenarios-in-nigeria" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Clinical Scenarios in Nigeria
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 58, hypertensive for years, crushing chest pain for 3 hours, sweating, ST elevation of 3 mm in V2 to V5</strong>
+  <p class="text-sm">Anterior STEMI. The ECG is the diagnosis. Give aspirin, monitor, check for contraindications, and give a fibrinolytic if there is no PCI within about 120 minutes. Do not wait for troponin. Arrange transfer to a cardiac centre as you treat.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Diabetic woman of 64 with epigastric discomfort and sweating, ST elevation in leads II, III and aVF, blood pressure 80/50</strong>
+  <p class="text-sm">Inferior STEMI, and she may have right ventricular involvement. Record V4R. Avoid nitrates, give a fluid bolus if the lungs are clear, and reperfuse. Do not treat this as indigestion.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 50 with severe chest pain, ST depression in V1 to V3 and tall R waves in V2</strong>
+  <p class="text-sm">Think of posterior infarction. Record V7 to V9. If ST elevation of 0.5 mm or more is present, treat as STEMI.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 62 who has had chest pain for 2 days, now pain-free, with deep T wave inversion in V2 to V4, no troponin available</strong>
+  <p class="text-sm">A Wellens pattern after the pain has settled. He is at high risk of a large anterior infarction. Admit, give antiplatelet treatment and anticoagulation as your protocol advises, avoid exercise, and refer for angiography.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young man of 24 with sharp central chest pain after flu, widespread concave ST elevation and PR depression, point-of-care troponin mildly raised</strong>
+  <p class="text-sm">Pericarditis or myopericarditis fits better than STEMI. Look for a pericardial effusion on echo, treat with anti-inflammatory drugs per protocol, and avoid fibrinolysis. In an area where tuberculosis is common, remember tuberculous pericarditis if there is fever and a large effusion.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman of 30 who delivered 6 weeks ago, breathless, orthopnoea, troponin mildly raised, ECG shows non-specific changes</strong>
+  <p class="text-sm">Peripartum cardiomyopathy is more likely than coronary disease. Request echocardiography and treat the heart failure. Also consider pulmonary embolism and, rarely, spontaneous coronary artery dissection.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 70 with chronic kidney disease, chest tightness, troponin raised and flat on two measurements, ECG with LVH and strain</strong>
+  <p class="text-sm">Chronic myocardial injury from kidney disease and hypertensive heart disease is likely. This is not enough to call infarction. Compare with an old ECG, watch the symptoms, and refer for further assessment. Do not give fibrinolysis on this picture.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Man of 55 with sudden tearing chest pain to the back and ST elevation in the inferior leads, blood pressure differs between the arms</strong>
+  <p class="text-sm">Suspect aortic dissection that has involved a coronary artery. Fibrinolytics and anticoagulants can be fatal. Control the blood pressure and heart rate, and urgently arrange imaging and surgical referral.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Chest pain, normal ECG, no troponin, no cardiac risk factors, pain reproduced by pressing the chest wall</strong>
+  <p class="text-sm">Probably musculoskeletal. Repeat the ECG once, give simple analgesia, document your reasoning and give return advice. If risk factors or a typical history emerge, treat differently.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-to-do-next" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+What to Do Next
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Finding</th><th class="py-2 pr-3">Action</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">STEMI on ECG</td><td class="py-2 pr-3">Aspirin, monitor, reperfusion decision, transfer. Do not wait for troponin.</td></tr>
+      <tr><td class="py-2 pr-3">Possible STEMI equivalent (posterior, LBBB, de Winter, hyperacute T waves)</td><td class="py-2 pr-3">Extra leads, repeat ECG at short intervals, senior advice. Treat as STEMI if criteria are met.</td></tr>
+      <tr><td class="py-2 pr-3">ST depression or T inversion with ongoing pain</td><td class="py-2 pr-3">Treat as NSTE-ACS, monitor, and refer.</td></tr>
+      <tr><td class="py-2 pr-3">Troponin raised and rising or falling, symptoms of ischaemia</td><td class="py-2 pr-3">Treat as infarction. Look for the type and the underlying cause.</td></tr>
+      <tr><td class="py-2 pr-3">Troponin raised, flat, no ischaemia</td><td class="py-2 pr-3">Look for chronic causes: kidney disease, heart failure, hypertensive heart disease, myocarditis, pulmonary embolism.</td></tr>
+      <tr><td class="py-2 pr-3">Troponin normal, taken early</td><td class="py-2 pr-3">Repeat. Do not discharge on a single early value.</td></tr>
+      <tr><td class="py-2 pr-3">No troponin and a non-diagnostic ECG</td><td class="py-2 pr-3">Serial ECGs, observe, treat the history that fits, refer for a troponin or stress testing where available.</td></tr>
+      <tr><td class="py-2 pr-3">Heart failure or shock with ACS</td><td class="py-2 pr-3">Resuscitate, treat as high-risk ACS, and refer without delay. Consider mechanical complications if there is a new murmur.</td></tr>
+      <tr><td class="py-2 pr-3">After discharge</td><td class="py-2 pr-3">Aspirin, a statin, blood pressure and glucose control, smoking cessation, cardiac rehabilitation advice, and an early review. Ask about herbal products and unreliable supply of drugs.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-and-sample-handling-errors" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Pitfalls and Sample Handling Errors
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before the laboratory</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Taking one early troponin and sending the patient home on a normal value.</li>
+    <li>Not recording the time of onset or the time of sampling.</li>
+    <li>Delay in transporting the sample, or using the wrong tube, so the sample is haemolysed or clotted.</li>
+    <li>Using a point-of-care cartridge that is out of date, stored in the heat, or run at the wrong temperature.</li>
+    <li>No ECG, or an ECG with a wrong lead placement, wrong calibration or wandering baseline.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In the ECG</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Missing a posterior or right ventricular infarct because only 12 standard leads were read.</li>
+    <li>Calling early repolarisation or pericarditis a STEMI, and giving fibrinolytics wrongly. Look at the pattern in all leads and compare with an old ECG.</li>
+    <li>Calling a new LBBB a STEMI without the modified Sgarbossa criteria, or ignoring a paced rhythm.</li>
+    <li>Reading a single ECG and stopping, when the pain continues. Repeat the ECG.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In interpretation and treatment</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Waiting for troponin before treating an obvious STEMI.</li>
+    <li>Calling every raised troponin a heart attack, and starting anticoagulation in sepsis, pulmonary embolism, or kidney disease without thinking.</li>
+    <li>Missing aortic dissection and giving fibrinolytics.</li>
+    <li>Giving fibrinolysis to a patient with severe uncontrolled hypertension or a recent stroke.</li>
+    <li>Giving nitrates to a hypotensive patient with inferior infarction.</li>
+    <li>Treating epigastric pain in a diabetic or elderly patient as gastritis without an ECG.</li>
+    <li>Using AST, LDH or total CK to diagnose infarction.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Reading Order
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+  <li>Is the patient stable? Airway, breathing, pulse, blood pressure, rhythm. Resuscitate first.</li>
+  <li>Read the ECG now and record the time. Repeat it if pain continues.</li>
+  <li>Does it meet STEMI or equivalent criteria? If yes, treat, and do not wait for any blood result.</li>
+  <li>If not, is the history typical, and is the ECG ischaemic? Then treat as ACS and refer.</li>
+  <li>Troponin, if available: which assay, what time since onset, what is the 99th percentile, and what is the change between samples?</li>
+  <li>Does anything else fit better: dissection, pulmonary embolism, pericarditis, heart failure, sepsis, kidney disease, a gastrointestinal cause?</li>
+  <li>Decide: reperfuse, treat as ACS and refer, observe with serial ECGs, or treat the other cause.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-sm text-rose-900 dark:text-rose-200">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>ST elevation meeting the criteria in two contiguous leads.</strong> STEMI. Treat now and arrange reperfusion. Do not wait for troponin.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Posterior or right ventricular infarction hidden on the standard ECG.</strong> ST depression in V1 to V3 with a tall R wave, or inferior ST elevation with hypotension. Record V7 to V9 and V4R.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Wellens pattern, de Winter pattern, or ST elevation in aVR with widespread ST depression.</strong> High-risk ischaemia that may be an occluded left main or proximal left anterior descending artery. Refer urgently.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Ongoing typical pain with a normal first ECG.</strong> Repeat the ECG every 15 to 30 minutes. An occluded circumflex or right coronary artery can be silent on the first tracing.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Tearing pain, unequal arm pressures or a widened mediastinum.</strong> Aortic dissection. Do not give fibrinolytics or anticoagulants.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Chest pain with sudden breathlessness, a swollen leg or recent surgery or childbirth.</strong> Pulmonary embolism can raise troponin and change the ECG.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hypotension, pulmonary oedema or a new murmur after infarction.</strong> Cardiogenic shock or a mechanical complication. Resuscitate and refer.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Ventricular tachycardia or fibrillation in a patient with chest pain.</strong> Defibrillate and treat as ACS.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Discharge on one normal early troponin, or on a normal ECG with no troponin, in a patient with typical pain.</strong> Observe, repeat, and arrange early review.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-sm text-indigo-950 dark:text-indigo-100">
+<ul class="space-y-3">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Troponin shows heart muscle injury, not its cause. Infarction needs a rise and/or fall above the 99th percentile plus evidence of ischaemia.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>One early troponin cannot exclude infarction. Repeat at the interval your assay needs, and read the change.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>STEMI is an ECG diagnosis. In men under 40 use 2.5 mm, in men 40 and over 2 mm, and in women 1.5 mm in V2 to V3, and 1 mm elsewhere. Do not wait for a blood test.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Without troponin, use the history and serial ECGs, record the back and right-sided leads, and treat typical pain with ischaemic changes as ACS. A normal ECG does not make it safe to send home.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If PCI is not within about 120 minutes, give fibrinolysis early to eligible patients within 12 hours, after checking for contraindications, severe hypertension and dissection, then transfer and reassess the ECG at 60 to 90 minutes.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Many conditions raise troponin without a coronary event. In Nigeria think of kidney disease, hypertensive and peripartum heart failure, pulmonary embolism, sepsis and pericarditis, and treat the cause.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-8">
+<summary class="cursor-pointer list-none flex items-center justify-between p-4 font-brand text-sm font-semibold text-stone-700 dark:text-stone-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. European Society of Cardiology, American College of Cardiology, American Heart Association and World Heart Federation. Fourth Universal Definition of Myocardial Infarction, 2018.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. European Society of Cardiology. 2023 Guidelines for the management of acute coronary syndromes (reperfusion strategies, pharmaco-invasive strategy, rescue PCI, high-sensitivity troponin pathways).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. American College of Cardiology and American Heart Association. Guidance on STEMI management, fibrinolysis indications and contraindications, and ECG criteria for ST-elevation myocardial infarction and its equivalents.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Heart Foundation and Cardiac Society of Australia and New Zealand. Australian clinical guideline for diagnosing and managing acute coronary syndrome (time targets, ECG after fibrinolysis, high-sensitivity troponin).</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Health technology assessment on point-of-care troponin testing in rural and remote settings (accelerated chest pain pathways and limitations of point-of-care devices).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Registry for Acute Coronary Events in Nigeria (RACE-Nigeria): clinical characterisation, management and outcome (tertiary hospitals, 2013 to 2018).</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Systematic review of acute coronary syndromes in sub-Saharan Africa, 2010 to 2020 (presentation delay, reperfusion options, mortality).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. American College of Cardiology. Causes of non-ACS related troponin elevations.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Chest pain risk stratification: the HEART score and its validation studies, including its reliance on troponin and conventional-assay cut-offs.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'lab-antenatal-panel',
+  title: 'Antenatal Laboratory Tests',
+  category: 'Laboratory Interpretation',
+  subCategory: 'Obstetric',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; }
+</style>
+</head>
+<body class="p-4 sm:p-6 max-w-3xl mx-auto text-slate-700 dark:text-slate-300">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">LABORATORY INTERPRETATION &middot; OBSTETRIC</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Antenatal Laboratory Tests</h1>
+  <p class="text-sm text-indigo-200">Four groups of tests carry most of the antenatal laboratory workload in Nigeria: the PCV, the blood group and genotype, the HIV, hepatitis B and syphilis screens, and the urine protein. Each one is easy to do and easy to misread, and each answers a question about the mother and her baby that no examination can. This guide covers what the PCV trend means when haemodilution lowers it by design, how to use blood group and Rhesus status, how to counsel on genotype without a &ldquo;compatibility&rdquo; label, how to handle the infection panel as one package, and why a dipstick urine protein cannot diagnose or exclude pre-eclampsia.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+The Antenatal Package at a Glance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">When</th>
+        <th class="py-2 pr-3">Why</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>PCV or haemoglobin</strong></td><td class="py-2 pr-3">At booking, again at about 28&ndash;32 weeks, and again near term. More often if anaemic.</td><td class="py-2 pr-3">Detect and treat anaemia before delivery, and plan blood for delivery.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>ABO and Rhesus D group, and antibody screen in Rh-negative women</strong></td><td class="py-2 pr-3">At booking. Repeat the antibody screen at about 28 weeks in Rh-negative women.</td><td class="py-2 pr-3">Prevent Rhesus sensitisation and prepare for transfusion.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Genotype</strong></td><td class="py-2 pr-3">At booking if not known. Test the partner when the woman has a variant.</td><td class="py-2 pr-3">Identify high-risk SS or SC pregnancies and counsel on the risk to the baby.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HIV, syphilis and HBsAg</strong></td><td class="py-2 pr-3">Once, as early as possible. Repeat HIV later in pregnancy per national policy.</td><td class="py-2 pr-3">Prevent mother-to-child transmission of all three.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Urine protein (and a look for infection)</strong></td><td class="py-2 pr-3">At every visit from 20 weeks, with the blood pressure, and at booking.</td><td class="py-2 pr-3">Detect pre-eclampsia, and bacteriuria that needs treatment.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Malaria test, urinalysis, and blood pressure</strong></td><td class="py-2 pr-3">Every visit if febrile or symptomatic, and the blood pressure at every contact.</td><td class="py-2 pr-3">Malaria and hypertension drive maternal death and anaemia.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">WHO recommends eight antenatal contacts, and Nigerian women often book late, so the booking visit may be the only one with time to act. Do the whole package at the first visit if you can, and make a plan for each result before the woman leaves.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+PCV and Haematocrit: Reading the Trend
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A dip is expected</strong>
+  <p class="text-sm">Plasma volume expands more than the red cell mass during pregnancy, so haemoglobin and PCV fall even when the woman has plenty of iron. The lowest point is usually in the second trimester, and values rise a little towards term. This physiological haemodilution is the reason WHO&rsquo;s 2024 haemoglobin cut-off is lower in the second trimester. A fall that stays within the expected range is not anaemia.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The cut-offs</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Trimester</th>
+          <th class="py-2 pr-3">Anaemia (Hb, g/dL)</th>
+          <th class="py-2 pr-3">Approximate PCV</th>
+          <th class="py-2 pr-3">Mild</th>
+          <th class="py-2 pr-3">Moderate</th>
+          <th class="py-2 pr-3">Severe</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">First and third</td><td class="py-2 pr-3">Below 11.0</td><td class="py-2 pr-3">Below about 33%</td><td class="py-2 pr-3">10.0&ndash;10.9</td><td class="py-2 pr-3">7.0&ndash;9.9</td><td class="py-2 pr-3">Below 7.0</td></tr>
+        <tr><td class="py-2 pr-3">Second</td><td class="py-2 pr-3">Below 10.5</td><td class="py-2 pr-3">Below about 31&ndash;32%</td><td class="py-2 pr-3">9.5&ndash;10.4</td><td class="py-2 pr-3">7.0&ndash;9.4</td><td class="py-2 pr-3">Below 7.0</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-2">When only a PCV is available, a quick conversion is haemoglobin (g/dL) &asymp; PCV (%) &divide; 3. The PCV is approximate, so judge borderline results against the clinical picture (pallor, symptoms, a repeat).</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The burden and the causes</strong>
+  <p class="text-sm">Anaemia affects about 58% of pregnant women in Nigeria. The causes usually overlap: iron deficiency (poor intake and closely spaced pregnancies), malaria, hookworm, folate deficiency, HIV, chronic infection, and sickle cell disease and trait. The PCV tells you that she is anaemic, not why, and the cause decides the treatment.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What the trend tells you</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Pattern</th>
+          <th class="py-2 pr-3">Think of</th>
+          <th class="py-2 pr-3">Action</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">PCV 34&ndash;36% at booking, a few points lower at 28&ndash;32 weeks, still above the cut-off</td><td class="py-2 pr-3">Normal physiology</td><td class="py-2 pr-3">Routine iron and folic acid. No work-up.</td></tr>
+        <tr><td class="py-2 pr-3">Below the cut-off at booking</td><td class="py-2 pr-3">Pre-existing anaemia: iron deficiency, malaria, hookworm, haemoglobinopathy, folate deficiency</td><td class="py-2 pr-3">Test for malaria, stool for parasites, check genotype and treat the cause plus higher-dose iron (below).</td></tr>
+        <tr><td class="py-2 pr-3">Falling steadily despite supplements</td><td class="py-2 pr-3">Poor adherence, ongoing blood loss, malaria, hookworm, or a haemoglobinopathy</td><td class="py-2 pr-3">Ask about adherence and side effects, test for malaria, and look for another cause.</td></tr>
+        <tr><td class="py-2 pr-3">Severe anaemia (Hb under 7, PCV under about 21%) or symptoms</td><td class="py-2 pr-3">Heart failure risk, especially near term</td><td class="py-2 pr-3">Admit, treat the cause, and plan transfusion (below).</td></tr>
+        <tr><td class="py-2 pr-3">Unexpectedly high or rising PCV late in pregnancy, with hypertension</td><td class="py-2 pr-3">A contracted plasma volume (haemoconcentration), which can accompany pre-eclampsia</td><td class="py-2 pr-3">Look at the blood pressure and urine, and ask about symptoms.</td></tr>
+        <tr><td class="py-2 pr-3">Low from the start and stays low with a known SS genotype</td><td class="py-2 pr-3">The woman&rsquo;s baseline, not a new anaemia</td><td class="py-2 pr-3">Compare with her steady-state value and watch for a fall of 2 g/dL or more.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Prevention:</strong> daily oral iron (30&ndash;60 mg elemental iron) with 400 &micro;g of folic acid for all pregnant women, with 60 mg preferred where at least 40% of pregnant women are anaemic, as in Nigeria.</li>
+    <li><strong>When anaemia is found:</strong> WHO advises increasing elemental iron to 120 mg daily until the Hb reaches 11 g/dL or more, and then returning to the standard preventive dose.</li>
+    <li><strong>Treat the cause:</strong> antimalarial treatment and malaria prevention per national policy, and deworming after the first trimester where hookworm is common (national guidance applies).</li>
+    <li><strong>If oral iron fails or is not tolerated,</strong> intravenous iron is an option in the second and third trimesters where it is available. A trial in Malawi found it reduced anaemia at delivery compared with oral iron.</li>
+    <li><strong>Transfusion</strong> is for severe anaemia, particularly near term, with heart failure, or with active bleeding. Follow your national protocol, and arrange blood in advance for women who deliver anaemic.</li>
+  </ul>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6">
+<strong class="block text-sm font-semibold text-amber-900 dark:text-amber-300 mb-2">Guideline Watch</strong>
+<p class="text-sm text-amber-900 dark:text-amber-300">Older teaching and many local protocols still use a single cut-off of Hb 11 g/dL (PCV 33%) throughout pregnancy, and some use the WHO 2001 second-trimester value of 10.5. The 2024 WHO update uses 11.0 in the first and third trimesters and 10.5 (105 g/L) in the second, with severity bands (mild, moderate, severe below 7.0 g/dL). The PCV equivalents are approximate. Whichever your facility uses, apply it consistently and record the haemoglobin or PCV with the gestational age, so that the trend and not a single value guides care.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Blood Group and Rhesus Status
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why it is done</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Rhesus status.</strong> An Rh D-negative woman carrying an Rh D-positive baby can become sensitised after fetal blood enters her circulation, and her antibodies can then attack the red cells of later Rh-positive babies (haemolytic disease of the fetus and newborn). Anti-D immunoglobulin prevents this.</li>
+    <li><strong>Transfusion readiness.</strong> A woman who might need blood, whether for anaemia or a postpartum haemorrhage, needs a known group, and Rh-negative women should receive Rh-negative blood.</li>
+    <li><strong>ABO.</strong> An O mother with an A or B baby can have mild ABO haemolytic disease, usually causing early jaundice with a milder course than Rh disease.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The Nigerian numbers</strong>
+  <p class="text-sm">In Nigerian series of pregnant women, about 8&ndash;9% were Rh D-negative (7.8% in one south-west series, 8.6% in another in the south-south, 9.5% in a traditional birth home survey). ABO groups in one series of 500 pregnant women were O 48%, A 41%, B 7.6% and AB 3.2%, so most women are group O, which is the ABO-incompatibility risk when the baby is A or B. Rh-negative women are therefore not rare in antenatal clinics.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to do with the result</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Result</th>
+          <th class="py-2 pr-3">Action</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Rh D-positive</td><td class="py-2 pr-3">No Rhesus prophylaxis is needed. Record the ABO group for transfusion planning.</td></tr>
+        <tr><td class="py-2 pr-3">Rh D-negative, antibody screen (indirect Coombs test) negative</td><td class="py-2 pr-3">Repeat the antibody screen at about 28 weeks. Give anti-D immunoglobulin at 28 weeks if the screen is still negative, and again within 72 hours of delivery if the baby is Rh D-positive (cord blood group and direct Coombs test). Dose regimens differ between guidelines, so follow your national protocol.</td></tr>
+        <tr><td class="py-2 pr-3">Any sensitising event in an Rh-negative woman</td><td class="py-2 pr-3">Give anti-D as soon as possible and always within 72 hours of the event: miscarriage, abortion, ectopic pregnancy, antepartum bleeding, abdominal trauma, amniocentesis, external version or stillbirth. Do not forget it after early pregnancy loss.</td></tr>
+        <tr><td class="py-2 pr-3">Rh D-negative with a positive antibody screen (anti-D present)</td><td class="py-2 pr-3">Sensitised. Anti-D prophylaxis no longer helps. Refer for specialist monitoring of antibody titres and fetal wellbeing, with early delivery planning and neonatal readiness.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The gap between guidance and practice</strong>
+  <p class="text-sm">A review of Rh-negative pregnancies in a northern teaching hospital found that antibody screening was done in only 57%, and that only 25% of the women received anti-D after delivery. Of the women with earlier pregnancies, just 12.5% had received anti-D before. A traditional birth home survey found most Rh-negative first-time mothers delivered without postnatal anti-D. Cost and availability limit use. More recent small studies in south-west and south-south Nigeria found no anti-D alloantibodies in Rh-negative women, which suggests a low rate of alloimmunisation in those samples, but this does not remove the case for prophylaxis, because the studied women were mostly unsensitised and prophylaxis coverage was incomplete. Know your stock, and refer an Rh-negative woman early to a centre that holds anti-D.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Genotype in Pregnancy and Compatibility Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Read the genotype guide for the lab details. In the antenatal clinic, the genotype answers two questions: how risky is this pregnancy for the mother, and what is the chance that this baby has sickle cell disease?</p>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Risk to the mother, by genotype</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>AA:</strong> usual antenatal care.</li>
+    <li><strong>AS (trait):</strong> normally an uncomplicated pregnancy. It is a carrier state. Check urine for infection routinely, as for every woman, and counsel about the chance that the baby has SS if her partner is a carrier (below).</li>
+    <li><strong>SC:</strong> a moderate-risk pregnancy, with crises, anaemia and complications. Refer to a unit that can follow her closely.</li>
+    <li><strong>SS (and S-&beta; thalassaemia):</strong> a high-risk pregnancy. Nigerian series report maternal death rates of about 5&ndash;6% (and 53 per 1,000 live births in another), against none in the AA comparison group in one, with anaemia in 63&ndash;79%, vaso-occlusive crises in 56&ndash;58%, intrauterine growth restriction in 46%, hypertension in pregnancy in about a quarter, and a high perinatal mortality. Booking before 20 weeks and attending antenatal care were associated with better outcomes.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Standard care in an SS pregnancy</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li>Refer early to the unit with obstetric, haematology and neonatal support, and plan delivery where blood is available.</li>
+    <li>Folic acid in a high dose (5 mg daily is the usual dose in published protocols), continued through pregnancy. Prophylactic penicillin and malaria prophylaxis as the national guideline and local protocols direct.</li>
+    <li>Low-dose aspirin (75 mg daily from about 12 weeks) to reduce pre-eclampsia in published guidelines.</li>
+    <li>Screen for red cell antibodies, and assess for chronic complications (eye, kidney, heart and lung) where possible.</li>
+    <li>Prevent triggers: dehydration, infection and cold. Treat fever, urinary infection and malaria promptly, and treat persistent vomiting early.</li>
+    <li>Consider transfusion for complications, according to the specialist team. Hydroxyurea is stopped before conception or when pregnancy is discovered.</li>
+    <li>Exclude a sickle crisis as the cause whenever an SS woman becomes unwell, and exclude pre-eclampsia in any SS woman with a rise in blood pressure.</li>
+  </ul>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Risk to the baby: the couple</strong>
+  <p class="text-sm">Test the partner when the woman has AS, SS, SC or any variant, and ideally before pregnancy. The risks apply to each pregnancy:</p>
+  <div class="overflow-x-auto mt-2">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Parents</th>
+          <th class="py-2 pr-3">Children of each pregnancy</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">AA &times; AS</td><td class="py-2 pr-3">50% AA, 50% AS. No child with disease.</td></tr>
+        <tr><td class="py-2 pr-3">AS &times; AS</td><td class="py-2 pr-3">25% AA, 50% AS, 25% SS</td></tr>
+        <tr><td class="py-2 pr-3">AS &times; AC</td><td class="py-2 pr-3">25% AA, 25% AS, 25% AC, 25% SC</td></tr>
+        <tr><td class="py-2 pr-3">AS &times; SC</td><td class="py-2 pr-3">25% AS, 25% AC, 25% SS, 25% SC</td></tr>
+        <tr><td class="py-2 pr-3">AS &times; SS</td><td class="py-2 pr-3">50% AS, 50% SS</td></tr>
+        <tr><td class="py-2 pr-3">AA &times; SS</td><td class="py-2 pr-3">100% AS</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Counselling without the label</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Give the actual risk,</strong> not a verdict. &ldquo;A one in four chance of SS with each pregnancy&rdquo; says more than &ldquo;you are incompatible&rdquo;. The woman is already pregnant, so the question is what to do now, not who should have married whom.</li>
+    <li><strong>Describe what life with SS involves,</strong> and the care available: newborn or early testing, prophylaxis, hydroxyurea and follow-up.</li>
+    <li><strong>Prenatal diagnosis exists</strong> (chorionic villus sampling in the late first trimester or amniocentesis later), but access in Nigeria is limited, and the choices open to a couple depend on local services, law and their values. Describe the options without steering.</li>
+    <li><strong>Plan for the baby.</strong> Arrange early testing of the newborn or infant (with the caveats on HbF in the genotype guide) and enrol a baby with SS in care early.</li>
+    <li><strong>Protect the woman.</strong> A positive result must not be used to blame her or end the relationship. Counsel both partners together and keep the result confidential.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+The HIV, Hepatitis B and Syphilis Panel
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">WHO recommends that every pregnant woman be tested for HIV, syphilis and HBsAg at least once, as early as possible, as one package. All three infections can pass from mother to baby, and all three can be prevented. A dual HIV/syphilis rapid test can be used as the first test in antenatal clinics, with an HBsAg test alongside it. The details are in the separate guides on HIV testing, hepatitis B and C, and syphilis serology. In outline:</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">How to read it</th>
+        <th class="py-2 pr-3">Action for the mother</th>
+        <th class="py-2 pr-3">Action for the baby</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>HIV</strong></td><td class="py-2 pr-3">National serial algorithm (Determine, Unigold, Stat-Pak tie-breaker). One reactive test is not a diagnosis. Retest before treatment.</td><td class="py-2 pr-3">Verify, start ART the same day if confirmed, offer partner testing, and counsel on infant feeding.</td><td class="py-2 pr-3">Prophylaxis and cotrimoxazole, then nucleic acid testing at 4&ndash;6 weeks and 9 months, with an antibody test at 18 months.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Hepatitis B (HBsAg)</strong></td><td class="py-2 pr-3">A negative rapid strip does not exclude infection. Confirm important results, and check HBeAg or HBV DNA where possible.</td><td class="py-2 pr-3">If HBeAg-positive or HBV DNA is 200,000 IU/mL or more, tenofovir from the second trimester per WHO. Assess her for long-term treatment.</td><td class="py-2 pr-3">Hepatitis B birth-dose vaccine, ideally within 24 hours, then the full series. Immune globulin where available. Test at 9&ndash;18 months.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Syphilis</strong></td><td class="py-2 pr-3">A reactive rapid treponemal test means treat, then do an RPR titre. A reactive RPR with a negative treponemal test is probably a false positive.</td><td class="py-2 pr-3">Benzathine penicillin G the same day for a reactive treponemal test. Test for HIV, and treat the partner.</td><td class="py-2 pr-3">Compare the infant&rsquo;s RPR titre with the mother&rsquo;s. A titre fourfold higher suggests congenital syphilis.</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>One consent, one visit, one plan.</strong> Counsel before the tests and again with the results. Make sure each woman has a linkage plan for a positive result before she leaves.</li>
+  <li><strong>Local reality.</strong> Syphilis prevalence in antenatal clinics has been reported at very low levels in some Nigerian series (0.05&ndash;0.09% confirmed) and higher in others, with many reactive RPRs being biological false positives. Test coverage for syphilis in antenatal care is low. Do not skip the test because prevalence is low, and do not treat a low-titre RPR with a negative treponemal test.</li>
+  <li><strong>Partners.</strong> Offer partner testing for all three infections.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Urine Protein and Pre-eclampsia
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What pre-eclampsia is</strong>
+  <p class="text-sm">Pre-eclampsia is hypertension arising after 20 weeks of pregnancy (blood pressure 140/90 mmHg or more on two occasions at least 4 hours apart) together with proteinuria <em>or</em> evidence of other organ involvement. Proteinuria is no longer required. Other features that make the diagnosis are platelets below 100 &times; 10<sup>9</sup>/L, creatinine above 1.1 mg/dL (about 97 &micro;mol/L), liver enzymes at least twice normal, pulmonary oedema, and new headache or visual disturbance. A blood pressure of 160/110 or more is severe-range. Eclampsia is the addition of seizures.</p>
+  <p class="text-sm mt-2">This means that a negative urine protein does not exclude pre-eclampsia, and that a woman with severe-range blood pressure or symptoms is managed as severe disease whatever her urine shows.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The dipstick: what it can and cannot do</strong>
+  <p class="text-sm">A dipstick mostly detects albumin, and a reading of 1+ corresponds to about 30 mg/dL. The reference for significant proteinuria is a 24-hour collection of 300 mg or more, or a spot urine protein-to-creatinine ratio (UPCR) of 30 mg/mmol (0.3 mg/mg) or more. Against those standards the dipstick is a poor test:</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm mt-2">
+    <li>A systematic review of dipsticks in women suspected of pre-eclampsia concluded that accuracy is limited, and an extra albumin-creatinine dipstick did not improve it.</li>
+    <li>In one series, 71% of dipstick results at 1+ were false positives, against 7% at 3+, and false negatives were 9% overall, with ketonuria making false positives worse. Another found that a 2+ reading was highly specific (99%) but only about 21% sensitive, while 1+ was 39% sensitive for 300 mg/day. A third found that 212 of 301 women with a negative dipstick still had more than 300 mg/day.</li>
+    <li>A spot UPCR cut-off of 30 mg/mmol had a sensitivity of 89% and specificity of 100% in a comparison study, and correlates well with the 24-hour result.</li>
+  </ul>
+  <p class="text-sm mt-2">The consequence is that the dipstick is a screening test. A positive dipstick needs confirmation, and a negative dipstick does not clear a hypertensive woman.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why a dipstick misleads</strong>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Problem</th>
+          <th class="py-2 pr-3">Effect</th>
+          <th class="py-2 pr-3">Fix</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="py-2 pr-3">Contamination with vaginal discharge, blood or amniotic fluid</td><td class="py-2 pr-3">False positive.</td><td class="py-2 pr-3">Collect a clean-catch midstream sample after cleaning the vulva.</td></tr>
+        <tr><td class="py-2 pr-3">Urinary tract infection, pyuria</td><td class="py-2 pr-3">False positive or true but non-renal protein.</td><td class="py-2 pr-3">Read leucocytes and nitrite on the same strip, culture if available, and treat infection.</td></tr>
+        <tr><td class="py-2 pr-3">Concentrated or alkaline urine, ketonuria</td><td class="py-2 pr-3">False positive.</td><td class="py-2 pr-3">Repeat on a fresh sample after fluids, and note the pH and ketones.</td></tr>
+        <tr><td class="py-2 pr-3">Dilute urine</td><td class="py-2 pr-3">False negative.</td><td class="py-2 pr-3">Test a concentrated (first morning or later) sample, or measure the protein-to-creatinine ratio, which corrects for dilution.</td></tr>
+        <tr><td class="py-2 pr-3">Disinfectant on the pot or hands (for example chlorhexidine)</td><td class="py-2 pr-3">False positive.</td><td class="py-2 pr-3">Use a clean, rinsed container.</td></tr>
+        <tr><td class="py-2 pr-3">Wrong reading time, expired strips, or poor light</td><td class="py-2 pr-3">Misread colour blocks.</td><td class="py-2 pr-3">Time it, check expiry and use good light.</td></tr>
+        <tr><td class="py-2 pr-3">Subjective grading (trace, 1+, 2+)</td><td class="py-2 pr-3">Variation between readers.</td><td class="py-2 pr-3">Have a second reader for borderline strips.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">A practical approach</strong>
+  <ol class="list-decimal pl-5 space-y-1 text-sm">
+    <li><strong>Measure the blood pressure properly at every visit:</strong> the right cuff size, the woman seated and rested, the arm at heart level, and a repeat if raised.</li>
+    <li><strong>Ask about symptoms:</strong> severe headache, visual disturbance, epigastric or right upper quadrant pain, vomiting, breathlessness, and reduced fetal movements.</li>
+    <li><strong>Test a clean midstream sample by dipstick</strong> (protein, leucocytes, nitrite, blood, ketones, pH).</li>
+    <li><strong>If the dipstick is positive, or the woman is hypertensive, confirm</strong> with a spot UPCR (30 mg/mmol or 0.3 mg/mg or more) or a 24-hour collection (300 mg or more). Where neither exists, a repeat dipstick of 1+ or more with high blood pressure is accepted in some guidelines, and should be treated as a working diagnosis.</li>
+    <li><strong>Check the other organs where you can:</strong> FBC with platelets, creatinine, ALT or AST.</li>
+    <li><strong>Never wait for a urine result to act</strong> in a woman with severe-range blood pressure or severe features.</li>
+  </ol>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When the laboratory is not there</strong>
+  <p class="text-sm">Clinical findings are enough to act on. A woman with new hypertension after 20 weeks and severe headache, visual symptoms, epigastric pain, hyperreflexia with clonus, oliguria or breathlessness has severe features. She needs urgent antihypertensive treatment if the blood pressure is severe, magnesium sulfate with the bedside monitoring described in the calcium and magnesium guide, and delivery planning at a facility that can deliver the baby and manage a seizure. Oedema alone is not diagnostic, because it is common in normal pregnancy.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Prevention</strong>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Low-dose aspirin</strong> for women at high risk, from before 20 weeks. WHO recommends 75 mg daily. High-risk women include those with previous pre-eclampsia, chronic hypertension, diabetes, renal disease, autoimmune disease, multiple pregnancy and sickle cell disease. Other guidelines use 81&ndash;150 mg and a start between 12 and 28 weeks, so follow the national protocol.</li>
+    <li><strong>Calcium supplementation</strong> in populations with low dietary calcium intake (under about 900 mg a day). WHO&rsquo;s recommendation is 1.5&ndash;2 g of elemental calcium daily, and some later guidance uses lower doses of about 1.2 g. Dietary calcium intakes in children in northern Nigeria have been measured at very low levels, so this may be relevant, and national guidance decides.</li>
+  </ul>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Technique and Sample Pitfalls
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead>
+      <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+        <th class="py-2 pr-3">Test</th>
+        <th class="py-2 pr-3">Pitfall</th>
+        <th class="py-2 pr-3">Fix</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3"><strong>PCV</strong></td><td class="py-2 pr-3">Sample from the drip arm, clotted or haemolysed blood, a long tourniquet time, or a centrifuge run for the wrong time or speed. Reading the haematocrit scale incorrectly (including the buffy coat).</td><td class="py-2 pr-3">Draw from the other arm, mix well, centrifuge as the instructions say and read at the red cell&ndash;plasma interface.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>PCV</strong></td><td class="py-2 pr-3">Comparing values taken at different gestations without the physiological dip in mind.</td><td class="py-2 pr-3">Record gestational age with every result and read the trend.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Blood group</strong></td><td class="py-2 pr-3">Mislabelled sample, a single reagent lot error, and weak or missed D typing.</td><td class="py-2 pr-3">Confirm identity, use controls, check any discrepancy between cell and serum grouping, and repeat a surprising result on a fresh sample.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Antibody screen</strong></td><td class="py-2 pr-3">Not done, or done once and never repeated.</td><td class="py-2 pr-3">Repeat in Rh-negative women at about 28 weeks, before anti-D.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Genotype</strong></td><td class="py-2 pr-3">A sickling test mistaken for a genotype, or a transfused woman&rsquo;s result masked by donor cells (see the genotype guide).</td><td class="py-2 pr-3">Use electrophoresis or HPLC, record transfusion history, and confirm a surprising pattern.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>HIV, HBsAg, syphilis</strong></td><td class="py-2 pr-3">Kits out of sequence, expired or stored hot, or a single reactive test reported as final.</td><td class="py-2 pr-3">Follow each test&rsquo;s algorithm and the storage instructions (see the dedicated guides).</td></tr>
+      <tr><td class="py-2 pr-3"><strong>Urine protein</strong></td><td class="py-2 pr-3">Contaminated or dilute sample, subjective reading, and relying on the dipstick alone.</td><td class="py-2 pr-3">Clean-catch midstream sample, protein-to-creatinine ratio where possible, and a clinical decision for severe features.</td></tr>
+      <tr><td class="py-2 pr-3"><strong>All of them</strong></td><td class="py-2 pr-3">Results not written in the antenatal card, or not reaching the woman or the delivery team.</td><td class="py-2 pr-3">Record each result and its follow-up action on the card she carries, with her consent.</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Clinical Scenarios in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman at 14 weeks, PCV 29% (Hb about 9.7 g/dL), tired and pale</strong>
+  <p class="text-sm">Moderate anaemia. Test for malaria and examine a stool sample for hookworm, check the genotype, and treat the cause. Increase iron to 120 mg of elemental iron daily with folic acid, and recheck in about 4 weeks. If the PCV is not rising, review adherence and look for another cause.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman with PCV 36% at booking and 33% at 30 weeks, well</strong>
+  <p class="text-sm">This is the expected physiological fall, and 33% is at the cut-off for the third trimester. Continue iron and folic acid, check adherence, and recheck near term. No work-up is needed.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Primigravida, group O Rh D-negative, antibody screen negative at booking</strong>
+  <p class="text-sm">Counsel her about Rhesus. Repeat the antibody screen at about 28 weeks, give anti-D at 28 weeks if still negative, and again within 72 hours of delivery if the baby is Rh-positive. Make sure she knows to report any bleeding or loss, because each event needs anti-D within 72 hours. Tell the delivery team and arrange cord blood testing.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman with AS, partner not yet tested</strong>
+  <p class="text-sm">Offer partner testing now, with consent, and counsel her without alarm that AS alone is not a problem for her pregnancy. If he is AA, there is no risk of SS. If he is AS, there is a 25% chance of SS in each pregnancy, and the choice of options (prenatal diagnosis counselling, early testing of the baby) is hers and her partner&rsquo;s. Do not describe them as incompatible.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman with SS booking at 12 weeks</strong>
+  <p class="text-sm">A high-risk pregnancy. Refer early to a unit with haematology, obstetric and neonatal support, and give folic acid 5 mg daily, malaria prophylaxis and penicillin according to the protocol. Start low-dose aspirin (75 mg from 12 weeks), test her partner, check the baseline PCV and monitor it. Plan delivery where blood is available, and exclude a sickle crisis whenever she is unwell.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Booking panel: HIV negative, HBsAg strip positive, rapid syphilis test non-reactive</strong>
+  <p class="text-sm">She has hepatitis B. Confirm if possible, and check HBeAg or HBV DNA to decide on tenofovir prophylaxis (DNA 200,000 IU/mL or more, or HBeAg-positive). Plan the infant&rsquo;s birth-dose vaccine within 24 hours, test and vaccinate her household, and assess her for long-term treatment. Repeat the HIV test later in pregnancy per national policy.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman at 34 weeks, BP 150/100, headache and epigastric pain, dipstick negative</strong>
+  <p class="text-sm">A negative dipstick does not exclude pre-eclampsia, and her symptoms are severe features. Repeat the pressure, admit, check platelets, creatinine and liver enzymes, and start antihypertensive and magnesium treatment as the blood pressure and symptoms indicate, with the bedside monitoring in the calcium and magnesium guide. Plan delivery in a facility with neonatal care.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman at 32 weeks, BP 142/92 and 1+ on the dipstick, with vaginal discharge</strong>
+  <p class="text-sm">The urine may be contaminated. Repeat a clean midstream sample, check leucocytes and nitrite, and measure UPCR if possible. Repeat the blood pressure after rest and again within 4 hours, and ask about symptoms. If the pressure stays raised and the protein is confirmed, treat as pre-eclampsia. If the protein is not confirmed and she is well, treat the infection and review in a few days.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Woman booking at 11 weeks with pre-eclampsia in her last pregnancy</strong>
+  <p class="text-sm">High risk. Start low-dose aspirin before 20 weeks (75 mg daily per WHO), consider calcium supplementation if dietary intake is low, and check the blood pressure and urine at every visit. Educate her on warning symptoms and plan delivery at a facility that can manage severe pre-eclampsia.</p>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Reading Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-2 text-sm">
+  <li><strong>Start with gestational age and the woman.</strong> Booking date, symptoms, blood pressure, previous pregnancies and what she has already taken.</li>
+  <li><strong>Read the PCV against gestation,</strong> using the trimester cut-off and the trend, and find the cause of any anaemia.</li>
+  <li><strong>Read the group.</strong> Rh-negative: antibody screen, anti-D at 28 weeks and within 72 hours of delivery or any sensitising event. Everyone: a known group for transfusion.</li>
+  <li><strong>Read the genotype.</strong> SS or SC: high-risk pathway. AS or any variant: test the partner and counsel on the risk to the baby.</li>
+  <li><strong>Read the infection panel as one package.</strong> HIV by the national algorithm, HBsAg with a plan for e-antigen or DNA, syphilis with the treponemal test and titre. Link each positive result to action for the mother and the baby.</li>
+  <li><strong>Read the urine with the blood pressure.</strong> Dipstick positive or hypertensive: confirm with UPCR or 24-hour protein. Dipstick negative with symptoms or severe hypertension: do not be reassured.</li>
+  <li><strong>Act on severe features without waiting for tests.</strong> Treat the blood pressure, give magnesium sulfate and arrange delivery.</li>
+  <li><strong>Write every result and plan on the card,</strong> and tell the delivery team.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Findings That Must Not Be Missed
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Severe-range blood pressure (160/110 or more), headache, visual symptoms or epigastric pain.</strong> Severe pre-eclampsia. Treat the pressure, give magnesium sulfate and plan delivery, whatever the urine shows.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>Hb below 7 g/dL (PCV below about 21%), or any anaemic woman near term or in heart failure.</strong> Severe anaemia is a cause of maternal death. Admit, treat the cause and plan transfusion.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>An SS or SC woman who becomes unwell.</strong> Exclude a sickle crisis, infection, malaria and pre-eclampsia together. Maternal mortality in SS is high in Nigerian series.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>An Rh-negative woman with any bleeding, loss or trauma.</strong> Anti-D within 72 hours. This is the commonest missed opportunity.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A positive HIV, HBsAg or syphilis result with no plan.</strong> Each is preventable in the baby only if the mother is linked to treatment and the infant to prophylaxis before delivery.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A woman who first books after 20 weeks, or never has a PCV, group or urine test.</strong> Do the whole package at the first visit you have.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A woman with a rising PCV late in pregnancy, hypertension and a negative dipstick.</strong> Contracted plasma volume with pre-eclampsia is possible. Check symptoms and organ function.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="white" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="white"/></svg><span><strong>A genotype result used to blame the woman, or disclosed without consent.</strong> Counsel both partners together and keep results confidential.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<ul class="space-y-3 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Haemodilution lowers the PCV normally. WHO anaemia thresholds are Hb below 11.0 g/dL in the first and third trimesters and below 10.5 in the second, with severe anaemia below 7.0. Read the trend against gestation, and treat anaemia with 120 mg of elemental iron daily plus the cause (malaria, hookworm, haemoglobinopathy).</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>About 58% of Nigerian pregnant women are anaemic. A high PCV late in pregnancy with hypertension may signal haemoconcentration in pre-eclampsia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>About 8&ndash;9% of Nigerian pregnant women are Rh D-negative. Give anti-D at 28 weeks and within 72 hours of delivery of an Rh-positive baby, and after every sensitising event. In practice coverage and antibody screening are low, so do not let an Rh-negative woman go unmanaged.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>SS pregnancy is high-risk (maternal death rates of about 5&ndash;6% in Nigerian series). Give folic acid 5 mg, malaria prophylaxis, penicillin and low-dose aspirin per protocol, refer early, and exclude crisis and pre-eclampsia when she is unwell.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Counsel genotype risk as numbers (for example a one in four chance of SS per pregnancy when both parents have AS), test the partner, and describe the options without labels or blame.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Test every pregnant woman for HIV, HBsAg and syphilis as one package, and link each positive result to treatment for her and prophylaxis for the baby: ART and early infant diagnosis, tenofovir and the birth-dose vaccine, and penicillin.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pre-eclampsia is hypertension after 20 weeks (140/90 on two occasions 4 hours apart) with proteinuria or other organ involvement. A dipstick is a weak test, with many false positives at 1+ and many false negatives. Confirm with the protein-to-creatinine ratio (30 mg/mmol or 0.3 mg/mg) or 24-hour protein, and never use a negative dipstick to reassure a hypertensive woman with symptoms.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Prevent pre-eclampsia in high-risk women with low-dose aspirin (75 mg daily in WHO guidance, from before 20 weeks) and calcium where dietary intake is low, and treat severe features with antihypertensives, magnesium sulfate and delivery planning without waiting for a urine result.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<ul class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-2">
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. WHO recommendations on antenatal care for a positive pregnancy experience (2016): iron and folic acid supplementation, anaemia, and the antenatal contact schedule.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guideline on haemoglobin cutoffs to define anaemia in individuals and populations (2024), including trimester-specific thresholds in pregnancy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Recommendations for prevention and treatment of pre-eclampsia and eclampsia, including low-dose aspirin, calcium supplementation and magnesium sulfate.</li>
+  <li class="text-[10px] leading-snug text-stone-500">International Society for the Study of Hypertension in Pregnancy and American College of Obstetricians and Gynecologists. Diagnostic criteria for pre-eclampsia, including organ-dysfunction criteria and severe-range blood pressure.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published systematic review and comparison studies of the diagnostic accuracy of urine dipsticks and the protein-to-creatinine ratio for proteinuria in pregnancy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian studies of Rhesus D-negative prevalence, antibody screening, anti-D coverage and alloimmunisation in pregnant women, and of ABO distribution.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published Nigerian series on pregnancy outcomes in women with sickle cell disease, and clinical guidance on antenatal care in sickle cell disease (folic acid, penicillin, aspirin, partner testing and prenatal diagnosis).</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Recommendations on HIV, syphilis and hepatitis B testing in pregnancy and the prevention of mother-to-child transmission (see the HIV, hepatitis B and C, and syphilis guides in this library).</li>
+</ul>
+</details>
+
+</body>
+</html>
+  `
+},
 
 ];

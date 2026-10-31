@@ -1334,4 +1334,480 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
         `
       },
 
+      {
+        id: 'procedure-incision-drainage-abscess',
+        title: 'Incision and Drainage of Abscess',
+        category: 'Procedures',
+        subCategory: 'General',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Incision and Drainage of Abscess</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+      .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .quote { border-left-width: 3px; border-left-style: solid; }
+      details > summary::-webkit-details-marker { display: none; }
+    </style>
+    </head>
+    <body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+    <div class="max-w-3xl mx-auto p-4 sm:p-6">
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; GENERAL</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Incision and Drainage of Abscess</h1>
+        <p class="text-sm text-indigo-200">Boils, post-injection buttock abscesses, infected cysts and scabies-related abscesses in children are among the commonest reasons for a minor operation in Nigerian clinics and district hospitals. This guide covers when to drain, safe local anaesthesia, the technique stage by stage, loop drainage, when antibiotics add value, and when a case is too deep or too dangerous for the clinic room.</p>
+      </div>
+    </div>
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li><a href="#what-an-abscess-is-and-why-it-is-common-here" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What an Abscess Is and Why It Is Common Here</span></a></li>
+        <li><a href="#deciding-whether-to-drain" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Deciding Whether to Drain</span></a></li>
+        <li><a href="#before-you-start-assessment-consent-and-safety" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Before You Start: Assessment, Consent and Safety</span></a></li>
+        <li><a href="#equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Equipment</span></a></li>
+        <li><a href="#anaesthesia-and-analgesia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Anaesthesia and Analgesia</span></a></li>
+        <li><a href="#step-by-step-technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Step-by-Step Technique</span></a></li>
+        <li><a href="#loop-drainage-a-smaller-incision-alternative" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Loop Drainage: A Smaller-Incision Alternative</span></a></li>
+        <li><a href="#special-sites-and-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Special Sites and Situations</span></a></li>
+        <li><a href="#antibiotics-cultures-and-local-resistance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Antibiotics, Cultures and Local Resistance</span></a></li>
+        <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Complications and When to Escalate</span></a></li>
+        <li><a href="#aftercare-and-patient-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Aftercare and Patient Counselling</span></a></li>
+        <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Videos and Learning Resources</span></a></li>
+        <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Key Clinical Takeaways</span></a></li></ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-an-abscess-is-and-why-it-is-common-here" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      What an Abscess Is and Why It Is Common Here
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">A skin abscess is a pocket of pus in the dermis or subcutaneous tissue, walled off by inflamed tissue. Antibiotics penetrate the pus poorly, so the collection has to be opened. The Infectious Diseases Society of America (IDSA) recommends incision and drainage (I&amp;D) as the primary treatment for abscesses, carbuncles, large furuncles and inflamed epidermoid cysts (strong recommendation, high-quality evidence).</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Terms you will meet</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Furuncle (boil):</strong> infection of a single hair follicle. Small ones often discharge on their own.</li>
+      <li><strong>Carbuncle:</strong> several adjacent follicles infected together, usually with more than one drainage point.</li>
+      <li><strong>Abscess:</strong> a deeper, larger collection with a fluctuant centre.</li>
+      <li><strong>Inflamed epidermoid (sebaceous) cyst:</strong> a cyst with a sac that has become infected or has leaked into the surrounding tissue.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Common presentations in Nigerian practice</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Boils on the neck, axilla, buttocks and groin, often recurrent within a household.</li>
+      <li>Buttock or thigh abscess after an intramuscular injection, especially where injections were given outside a clinic or with unsafe equipment.</li>
+      <li>Scabies or eczema lesions in children that have become infected and then collected pus.</li>
+      <li>Abscess after shaving, barbing, cuts, scarification or local incisions made by a non-clinician.</li>
+      <li>Recurrent or large abscesses in people with diabetes, HIV infection or malnutrition.</li>
+      <li>Breast abscess in breastfeeding women, perianal abscess, and pilonidal abscess in young men (these need special handling; see Section 8).</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The organism and local resistance</strong>
+    <p class="text-sm"><em>Staphylococcus aureus</em> causes most skin abscesses. Nigerian laboratory studies show the picture varies by centre and over time. One south-west study of <em>S. aureus</em> from skin and soft tissue infections found nearly all isolates were methicillin-susceptible but resistant to penicillin, and most carried the Panton-Valentine leukocidin (PVL) gene, a toxin linked to recurrent boils and spread within families. A later south-south study found methicillin resistance (MRSA) in roughly six of every ten <em>S. aureus</em> isolates from soft tissue infections. Use your own laboratory&rsquo;s antibiogram when one exists.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Late presentation</strong>
+    <p class="text-sm">Many patients arrive after days of antibiotics from a patent medicine store, herbal (<em>agbo</em>) preparations or poultices, or an attempt to squeeze or cut the lump at home. The abscess is then often larger, deeper and more painful, and the swelling may feel firm rather than soft. Ask about all of this without judgement; it changes what you find and what you must do.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="deciding-whether-to-drain" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Deciding Whether to Drain
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drain when</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>The swelling is tender, warm and <strong>fluctuant</strong> (two fingers on either side of the swelling see-saw against each other), or is pointing.</li>
+      <li>Ultrasound shows a collection, or a needle aspirate returns pus.</li>
+      <li>The lesion is a large furuncle, a carbuncle or an inflamed cyst with a collection.</li>
+      <li>The patient has been on antibiotics for 48 hours or more and the lump has not settled. Pus does not respond to antibiotics alone.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not incise</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Cellulitis without a collection.</strong> Incision does nothing and creates a wound. Treat as non-purulent soft tissue infection and re-examine in 24 to 48 hours.</li>
+      <li><strong>A pulsatile mass.</strong> It may be a vascular lesion. Get ultrasound with Doppler first.</li>
+      <li><strong>A painless, non-inflamed (&ldquo;cold&rdquo;) swelling</strong>, especially in the neck, groin, chest wall or over the spine. Think tuberculosis. These are usually aspirated or referred, because incision tends to leave a chronic discharging sinus.</li>
+      <li><strong>Deep or dangerous sites</strong> (see Section 8).</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When the diagnosis is uncertain</strong>
+    <p class="text-sm">Bedside ultrasound with a linear probe separates abscess from cellulitis. Cellulitis shows a cobblestone pattern of fluid between fat lobules without a defined collection. An abscess is a defined collection that may show posterior acoustic enhancement and a &ldquo;squish&rdquo; sign when pressed. Colour Doppler helps tell an abscess from a lymph node or a vessel. Where there is no ultrasound, a diagnostic needle aspiration (large-bore needle on a syringe) at the point of maximum tenderness confirms pus before you commit to a blade.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-start-assessment-consent-and-safety" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Before You Start: Assessment, Consent and Safety
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">History</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Duration, fever, rigors, spreading redness, and what has already been tried (antibiotics, herbs, squeezing, cutting).</li>
+      <li>Previous abscesses, and other family members with boils.</li>
+      <li>Diabetes, HIV status, sickle cell disease, steroid or other immunosuppressant use, malnutrition.</li>
+      <li>A recent injection at the site, an ingrown hair, a foreign body, a puncture wound, or a known pilonidal sinus.</li>
+      <li>Drug allergies, especially penicillin. Tetanus immunisation status.</li>
+      <li>Prosthetic heart valve or previous endocarditis (discuss antibiotic cover with a physician).</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Examination</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Temperature, pulse, respiratory rate and blood pressure. Fever above 38&deg;C or below 36&deg;C, pulse above 90 or respiratory rate above 24 per minute are the IDSA markers of a systemic inflammatory response.</li>
+      <li>Measure the abscess in centimetres and mark the edge of the redness with a pen, so progress can be judged at review.</li>
+      <li>Look for lymphangitic streaking, enlarged regional nodes, and nearby structures at risk (vessels, nerves, tendons, joints, the orbit, the rectum).</li>
+      <li>Press gently over adjacent bone. Tenderness over bone in a child or in a patient with sickle cell disease raises the possibility of osteomyelitis rather than a simple soft tissue abscess.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tests that change management</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Random blood glucose</strong> in every adult with a large, recurrent or multiple abscesses, and in anyone with risk factors. Note that HbA1c can be misleading in sickle cell trait; use plasma glucose.</li>
+      <li><strong>HIV test with counselling and consent</strong> in recurrent or severe abscesses, following national testing guidance.</li>
+      <li><strong>Full blood count</strong> if the patient looks unwell.</li>
+      <li><strong>Pus for Gram stain and culture</strong> when antibiotics are being given, the abscess is recurrent, the patient is immunocompromised, or the patient has not responded (see Section 9). Collect it before irrigating.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Consent: what to tell the patient</strong>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;I will numb the skin with an injection. That stings for a short while. Then I will make a cut over the lump to let the pus out, and clean the inside. The wound stays open on purpose, so it heals from the bottom up. You will need dressings and a return visit, and there will be a scar. Sometimes the lump comes back.&rdquo;</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Safety for you and your team</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Wear gloves, a mask and eye protection. Pus can spurt out under pressure when the abscess is opened or irrigated.</li>
+      <li>Hepatitis B and HIV are present in our patients. Handle blades and needles yourself, never pass an open blade by hand, and dispose of sharps at the point of use. Know your own hepatitis B vaccination status.</li>
+      <li>Lay the patient flat. Fainting during local anaesthetic injection and incision is common.</li>
+      <li>Check and give tetanus toxoid according to the national schedule if immunisation is uncertain, or if the wound is dirty or injection-related.</li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Equipment
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">Sterile gloves, mask, eye protection</td><td class="py-2 pr-3">Use sterile technique whenever possible.</td><td class="py-2 pr-3">Never skip eye protection.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Antiseptic</td><td class="py-2 pr-3">Povidone-iodine or chlorhexidine for the skin.</td><td class="py-2 pr-3">Either is acceptable. Let it dry.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">Lidocaine 1% (10 mg per mL), 5 to 10 mL syringe, 23 to 25 G needle.</td><td class="py-2 pr-3">Check the concentration on the vial. Lidocaine 2% is 20 mg per mL and halves the safe volume.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Scalpel</td><td class="py-2 pr-3">No. 11 (pointed) or No. 15 blade.</td><td class="py-2 pr-3">Do not incise with scissors.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Artery forceps (haemostat)</td><td class="py-2 pr-3">To break up loculations inside the cavity.</td><td class="py-2 pr-3">Sinus forceps or a similar blunt instrument.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Irrigation</td><td class="py-2 pr-3">Normal saline, 20 mL or larger syringe, with an 18 G cannula or catheter tip.</td><td class="py-2 pr-3">Sterile water. Wear the eye shield.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Specimen</td><td class="py-2 pr-3">Sterile container, or aspirate pus into a syringe.</td><td class="py-2 pr-3">A swab is acceptable but inferior to an aspirate.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Wick or packing (if used)</td><td class="py-2 pr-3">Plain or iodoform ribbon gauze, 1 to 2 cm wide.</td><td class="py-2 pr-3">Strip of sterile gauze.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Loop drain (if used)</td><td class="py-2 pr-3">Vessel loop or small Penrose drain.</td><td class="py-2 pr-3">Cuff of a sterile glove, or a thin strip cut from a sterile tourniquet.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Dressing</td><td class="py-2 pr-3">Absorbent pad and tape. Not airtight.</td><td class="py-2 pr-3">Several layers of clean gauze held with tape or a bandage.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Resuscitation readiness</td><td class="py-2 pr-3">Oxygen, suction, IV access kit; lipid emulsion if the unit stocks it.</td><td class="py-2 pr-3">Know the nearest source of help before you start.</td></tr>
+    </tbody></table></div>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="anaesthesia-and-analgesia" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Anaesthesia and Analgesia
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Know your maximum dose before you draw up</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Lidocaine <strong>without</strong> adrenaline: 4.5 mg per kg, not more than 300 mg in total.</li>
+      <li>Lidocaine <strong>with</strong> adrenaline: 7 mg per kg, not more than 500 mg in total.</li>
+      <li>1% lidocaine is 10 mg per mL; 2% is 20 mg per mL.</li>
+      <li>Worked examples with 1% plain lidocaine: a 70 kg adult can have up to 300 mg (30 mL); a 20 kg child can have up to 90 mg (9 mL). A simple abscess normally needs 3 to 10 mL.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique</strong>
+    <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+      <li>Weigh the patient (children especially) and calculate the maximum before starting.</li>
+      <li>Raise a skin wheal along the planned incision line, then infiltrate the subcutaneous tissue along that line and in a ring around the abscess (a field block). Draw back before each injection to avoid an intravascular dose. Inject slowly.</li>
+      <li><strong>Do not inject into the abscess cavity.</strong> It increases pain from tissue distension and can spread bacteria into healthy tissue.</li>
+      <li>Wait two to five minutes. Infected, acidic tissue blunts the effect of lidocaine, so top up around the edges if the patient still feels sharp pain.</li>
+      <li>Avoid adrenaline-containing solutions on fingers, toes, penis, nose and ear, as is traditional practice at end-arterial sites.</li>
+      <li>Give oral paracetamol with or without an NSAID 30 to 60 minutes beforehand when time allows.</li>
+    </ol>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When local anaesthesia is not enough</strong>
+    <p class="text-sm">Large or very painful abscesses, abscesses in children who cannot cooperate, and abscesses where infiltration does not work are best done in theatre or with procedural sedation. Use sedation such as ketamine only where a trained person can monitor the airway and breathing throughout. Never drain a large abscess in a frightened child with restraint and inadequate anaesthesia.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Local anaesthetic toxicity</strong>
+    <p class="text-sm">Early warning signs are numbness around the mouth, tingling of the tongue, dizziness and ringing in the ears. Stop injecting, call for help, give oxygen, and support airway and breathing. Treat seizures with a benzodiazepine. Give intravenous lipid emulsion according to local protocol where it is available.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="step-by-step-technique" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Step-by-Step Technique
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 1: Position, mark and prepare</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Lay the patient flat with the site accessible and well lit. Use ultrasound to find the largest part of the cavity when the abscess is not clearly fluctuant.</li>
+      <li>Mark the point of maximum fluctuance and the planned incision. Plan a straight line that follows the natural skin creases (relaxed skin tension lines) wherever the site allows.</li>
+      <li>Many patients are prone to keloid and hypertrophic scars. Avoid the chest, shoulders, upper back, jawline and earlobes if another approach is possible, and warn the patient about scarring before you start.</li>
+      <li>Clean the skin widely with antiseptic and allow it to dry. Drape the area. Put on gloves, mask and eye protection.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 2: Anaesthetise</strong>
+    <p class="text-sm">Follow Section 5. Test with the back of the scalpel or the tip of forceps before cutting.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 3: Incise</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Make one linear incision over the centre of the abscess, long enough to span the cavity but no longer. Hold the blade vertically and cut quickly through the roof into the pocket. Do not cut deeper than the floor of the cavity.</li>
+      <li>Let pus escape. If pus is being sent for culture, collect it now with a syringe or sterile container before you irrigate.</li>
+      <li>A single generous incision drains better than a small stab. A small incision closes early and leaves the abscess behind.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 4: Break up loculations</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Insert an artery forceps and open the jaws in every direction to break septa and empty hidden pockets. Feel for the walls of the cavity as you go.</li>
+      <li>Avoid probing with a finger, scalpel or scissors. A blunt instrument reduces the risk of needle-stick and cut injuries to you and of vessel injury to the patient.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 5: Irrigate</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Wash the cavity with normal saline until the return is clear. The evidence for irrigation is limited, but it removes debris and loose pus and is standard practice.</li>
+      <li>Wear eye protection, and expect splash.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 6: Decide on a wick, packing or nothing</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Abscess smaller than 5 cm:</strong> routine packing is not supported by the evidence. Randomised trials found no better healing or recurrence, and packing hurts more.</li>
+      <li><strong>Abscess 5 cm or larger, and pilonidal abscesses:</strong> fill the cavity loosely with ribbon gauze (iodoform gauze if available) and leave a short tail outside to act as a wick and to make removal easy. Packing that is too tight causes pressure necrosis and pain.</li>
+      <li>Alternatively, use loop drainage (Section 7).</li>
+      <li>Do not close the wound with sutures.</li>
+    </ul>
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+    <p class="font-brand text-sm font-semibold">Guideline Watch: packing</p>
+    <p class="text-sm">Older surgical teaching, including many district-level habits, packs every cavity. Randomised trials in simple abscesses under 5 cm and a later meta-analysis found packing did not reduce recurrence or repeat procedures and caused more pain. Large cavities, pilonidal abscesses and cavities that bleed are the situations in which packing is still used.</p>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage 7: Dress</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Cover with a thick absorbent dressing and secure it. Do not seal with an airtight film, because the abscess continues to drain for 24 to 48 hours.</li>
+      <li>Give clear dressing instructions, a review date, and written return advice (Section 11).</li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="loop-drainage-a-smaller-incision-alternative" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      Loop Drainage: A Smaller-Incision Alternative
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">In loop drainage, two small incisions are made across the cavity and a loop is threaded through both and left in place. The tract stays open, pus keeps draining, and no repeated packing is needed. It is used mainly for larger abscesses and where a long scar would be unwelcome. Evidence comes from retrospective studies and small trials in children and adults, so it is a reasonable option, not a replacement for standard I&amp;D.</p>
+    <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+      <li>Anaesthetise as in Section 5.</li>
+      <li>Make a small incision of about 4 to 5 mm at one edge of the abscess, at the point of maximum fluctuance.</li>
+      <li>Insert a small haemostat and break up all loculations. Find the opposite edge of the cavity.</li>
+      <li>Make a second 4 to 5 mm incision over the tip of the instrument, ideally within about 4 cm of the first.</li>
+      <li>Irrigate through both openings.</li>
+      <li>Pull a vessel loop, Penrose drain, glove strip or trimmed sterile tourniquet strip through both incisions and tie the ends loosely, with no tension on the skin.</li>
+      <li>The patient washes and moves the loop gently. Remove it once drainage has stopped and the redness has settled, usually in about 7 to 10 days.</li>
+    </ol>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-sites-and-situations" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      Special Sites and Situations
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Site or situation</th><th class="py-2 pr-3 font-semibold">Why it differs</th><th class="py-2 pr-3 font-semibold">What to do</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">Face (especially nose and upper lip), scalp, neck</td><td class="py-2 pr-3">Close to the orbit, airway and deep neck spaces; cosmetic concern. IDSA counts the face as a difficult-to-drain area.</td><td class="py-2 pr-3">Do not squeeze. Refer when the abscess is near the eye, nose or upper lip, or may be deep. Give antibiotics.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Hand and fingers</td><td class="py-2 pr-3">Tendon sheaths, deep spaces and nerves lie close to the skin. IDSA counts the hand as difficult to drain.</td><td class="py-2 pr-3">Refer tenderness along the flexor tendon, a swollen finger held bent, or a deep palmar swelling. Small paronychia and pulp collections may be drained by an experienced clinician.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Axilla and groin</td><td class="py-2 pr-3">Large vessels, nodes and hernias lie close by.</td><td class="py-2 pr-3">Confirm with ultrasound. Exclude hernia and suppurating lymph node. Drain in theatre if deep.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Buttock and thigh after injection</td><td class="py-2 pr-3">Cavities are often deep and large. Sciatic nerve injury is a risk with buttock injections.</td><td class="py-2 pr-3">Ultrasound first. Drain deep or large collections in theatre. Send pus for culture, and consider TB if the wound is chronic or does not heal.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Deep muscle abscess (pyomyositis)</td><td class="py-2 pr-3">Occurs in tropical settings, in children and young adults and in HIV. Fever, a woody swelling and pain, with little skin change at first.</td><td class="py-2 pr-3">Image with ultrasound or CT. Drain surgically and give anti-staphylococcal antibiotics. Admit.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Breast (lactating)</td><td class="py-2 pr-3">Needle aspiration is an alternative to I&amp;D and may keep breastfeeding going, but the Cochrane review found the evidence insufficient to call either better.</td><td class="py-2 pr-3">Aspirate small abscesses (under 5 cm) where ultrasound is available. Use I&amp;D for large, multiloculated abscesses or where the skin is compromised. A non-lactating breast abscess needs follow-up to look for diabetes, TB or malignancy.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Perianal and ischiorectal</td><td class="py-2 pr-3">Risk of fistula-in-ano and deep extension.</td><td class="py-2 pr-3">Do not manage as a simple skin abscess. Refer to a surgeon for drainage, usually under anaesthesia.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Pilonidal</td><td class="py-2 pr-3">Sacrococcygeal sinus with hair; recurrence is common.</td><td class="py-2 pr-3">Drain, pack loosely, and refer for definitive treatment.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Bartholin abscess</td><td class="py-2 pr-3">Gland abscess at the vaginal introitus.</td><td class="py-2 pr-3">Refer to gynaecology for drainage with catheter placement or marsupialisation.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Neonates and young infants</td><td class="py-2 pr-3">Immature immunity; risk of rapid spread.</td><td class="py-2 pr-3">Refer.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Diabetes, HIV, sickle cell disease, malnutrition</td><td class="py-2 pr-3">Poor healing, faster spread. In sickle cell disease, swelling near bone may be osteomyelitis.</td><td class="py-2 pr-3">Low threshold for antibiotics, culture and admission. Image the bone when suspected.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Cold abscess</td><td class="py-2 pr-3">Usually TB.</td><td class="py-2 pr-3">Aspirate and refer. Do not incise.</td></tr>
+    </tbody></table></div>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="antibiotics-cultures-and-local-resistance" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Antibiotics, Cultures and Local Resistance
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">IDSA position</strong>
+    <p class="text-sm">For a simple, drained abscess in a healthy person, IDSA says drainage is the treatment and antibiotics are not routinely needed. Add an antibiotic active against <em>S. aureus</em> when there is:</p>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>A systemic inflammatory response: temperature above 38&deg;C or below 36&deg;C, pulse above 90, respiratory rate above 24.</li>
+      <li>Severe or extensive disease, multiple sites, or rapidly spreading cellulitis around the abscess.</li>
+      <li>Immunosuppression or significant comorbidity (diabetes, HIV, sickle cell disease, malnutrition).</li>
+      <li>The extremes of age.</li>
+      <li>A site that is difficult to drain completely (face, hand, genitalia) or an associated septic thrombophlebitis.</li>
+      <li>No improvement after drainage alone.</li>
+    </ul>
+    </div>
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+    <p class="font-brand text-sm font-semibold">Guideline Watch: antibiotics after drainage of a simple abscess</p>
+    <p class="text-sm">IDSA 2014 reserves antibiotics for the groups above. Later large placebo-controlled trials in adults and children with a single abscess of 5 cm or less found higher cure rates when clindamycin or trimethoprim-sulfamethoxazole (TMP-SMX) was added after drainage: about 82 to 83 per cent cured at 7 to 10 days, against about 69 per cent with placebo, with more side effects on antibiotics, particularly diarrhoea with clindamycin. Guideline bodies have not uniformly changed their advice. In practice, weigh cost, adverse effects, resistance and what the patient can actually obtain, and be generous with antibiotics in any patient from the groups listed above.</p>
+    </div>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Choosing the drug in Nigeria</strong>
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">Oral options for adults</th><th class="py-2 pr-3 font-semibold">Cautions</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">Likely MSSA, no MRSA risk</td><td class="py-2 pr-3">Flucloxacillin or cloxacillin 500 mg four times daily, or cephalexin 500 mg four times daily.</td><td class="py-2 pr-3">Flucloxacillin on an empty stomach. Avoid in penicillin allergy. Amoxicillin alone is not reliable because <em>S. aureus</em> isolates are almost universally penicillin-resistant in local series.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">MRSA suspected or common locally; penicillin allergy</td><td class="py-2 pr-3">Doxycycline 100 mg twice daily, or clindamycin 300 to 450 mg three to four times daily, or TMP-SMX 1 to 2 double-strength tablets twice daily.</td><td class="py-2 pr-3">Doxycycline: not in pregnancy or young children. Clindamycin: diarrhoea and <em>C. difficile</em>; use when the isolate is susceptible. TMP-SMX: one south-west series found about 84 per cent resistance in skin and soft tissue isolates.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Systemic illness, rapid spread, or failure of oral therapy</td><td class="py-2 pr-3">Admit. Give intravenous anti-staphylococcal treatment per local protocol, with MRSA cover where MRSA is likely and the drug is available. Take blood cultures.</td><td class="py-2 pr-3">Treat as severe infection.</td></tr>
+    </tbody></table></div>
+    <p class="text-sm">Duration is 5 to 10 days (IDSA), reassessed at 48 hours. Dose children by weight from the national formulary, not by estimation. Doses above are standard adult doses for normal renal function.</p>
+    </div>
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+    <p class="font-brand text-sm font-semibold">Guideline Watch: TMP-SMX and G6PD deficiency</p>
+    <p class="text-sm">G6PD deficiency is common in West Africa. Many older drug lists and product labels advise avoiding sulfamethoxazole in G6PD deficiency. The 2022 Clinical Pharmacogenetics Implementation Consortium guideline found little evidence that TMP-SMX causes haemolysis in these patients. Follow your national formulary, and where G6PD status is unknown or there has been previous haemolysis, choose another agent that fits the situation.</p>
+    </div>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to send pus for culture</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>IDSA does not require culture for a simple abscess in a healthy person. Send pus when antibiotics are being given, in recurrent abscesses, in immunocompromised patients, in severe or systemic infection, and when there is no response to treatment.</li>
+      <li>Collect before irrigation, and ideally before the first antibiotic dose.</li>
+      <li>Where a laboratory exists, every culture also builds the local antibiogram that guides the next patient&rsquo;s antibiotic choice.</li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Complications and When to Escalate
+    </h2>
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+    <p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+    <ul class="space-y-2">
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Sepsis:</strong> fever with rigors, fast pulse, low blood pressure, confusion. Admit, take blood cultures, give intravenous antibiotics and fluids.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Necrotising infection:</strong> pain out of proportion to the signs, dusky or blistered skin, crepitus, rapid spread, toxic appearance. This is a surgical emergency needing urgent debridement. Risk is highest in diabetes and in perineal infection.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bleeding:</strong> apply direct pressure. If it does not stop, pack, do not clamp blindly, and call for senior surgical help.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Nerve, tendon or vessel injury</strong> in the hand, neck, axilla, groin and thigh: stop and refer.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Local anaesthetic toxicity:</strong> recognise early (Section 5).</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No improvement at 48 hours:</strong> think of a loculation you missed, deeper extension, a foreign body, osteomyelitis, resistant organisms or a wrong diagnosis (cold abscess, tumour). Re-examine, re-explore or image, and take cultures.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Recurrence:</strong> look for diabetes, HIV, a pilonidal sinus, hidradenitis, a fistula and household transmission (Section 11).</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bacteraemia after drainage</strong> can occur briefly. In patients with a prosthetic heart valve or previous endocarditis, discuss antibiotic cover with a physician.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Scarring:</strong> keloid or hypertrophic scars are common. Tell the patient beforehand, and refer early if a scar becomes raised or itchy.</span></li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="aftercare-and-patient-counselling" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Aftercare and Patient Counselling
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Wound care</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Review at 24 to 48 hours to inspect the cavity, and remove or change any wick. Loops come out at about 7 to 10 days.</li>
+      <li>Change the dressing daily or whenever it is soaked. Wash hands before and after. After the first 48 hours, gently clean the wound with clean running water and mild soap.</li>
+      <li>Agree a dressing plan the patient can afford and obtain, and tell them where to go if you cannot see them.</li>
+      <li>Healing is from the base upwards. A large cavity takes weeks, not days.</li>
+      <li>Paracetamol, with or without ibuprofen if there is no contraindication, for pain.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teaching and ask about home practices</strong>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;Have you put anything on it, such as herbs, palm oil, ointment, or has someone cut or pressed it? I am only asking so I know what the wound has been through.&rdquo;</p>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Do not squeeze lumps, particularly on the face. Do not apply herbal poultices, hot compresses that burn, or cream over an open wound.</li>
+      <li>Do not share towels, razors, clippers, sponges or clothing. Wash clothes and bedding in hot water and dry them in the sun.</li>
+      <li>Cover any draining wound.</li>
+      <li>Wash hands with soap and water before touching the wound and after.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Return urgently if</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Fever, rigors, or feeling very unwell.</li>
+      <li>Redness spreading, red streaks up the limb, or more swelling.</li>
+      <li>Pain getting worse instead of better, or pus building up again.</li>
+      <li>The wound is bleeding that does not stop with pressure.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Recurrent abscesses</strong>
+    <p class="text-sm">Check glucose, offer an HIV test with counselling, treat scabies and eczema, and screen the household. IDSA suggests a decolonisation regimen (intranasal mupirocin and chlorhexidine washes with attention to personal items) for patients who keep getting abscesses despite good hygiene; it is a weak recommendation with low-quality evidence.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Videos and Learning Resources
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://doi.org/10.1056/NEJMvcm071319" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Abscess Incision and Drainage</a> &ndash; the standard teaching video (about 10 minutes) with indications, contraindications and technique. May need institutional access.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=7tt-KZTUH4A" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">CoreEM: Incision and Drainage of Cutaneous Abscesses</a> &ndash; a short, clear demonstration.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://jomi.com/article/268.11/drainage-of-cystic-mass-on-first-left-toe" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Journal of Medical Insight: Drainage of Cystic Mass on First Left Toe</a> &ndash; a peer-reviewed surgical video with local block, incision and drainage as separate steps. May need a subscription.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=5lqtonfXDPw" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to do Incision and Drainage of an Abscess</a> &ndash; step-by-step demonstration for clinicians in primary and urgent care.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=B80QcWMxXas" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Abscess Incision and Drainage: Technique</a> &ndash; finding the best drainage site and making a controlled incision.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=X5CdooZHux8" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Abscess Incision and Drainage: Step-by-Step Surgical Guide</a> &ndash; full stepwise demonstration.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=eLWXULnzQeE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Incision and Drainage of Abscess (wound care surgeon demonstration)</a> &ndash; an older demonstration by a surgical wound care physician.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/shorts/rU_OllKeI2s" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Incision and drainage of a large abscess in the emergency department</a> &ndash; short clip of a large abscess being opened.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=u1Iysff7StM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pilonidal Abscess Emergency Incision and Drainage</a> &ndash; drainage of a large pilonidal abscess, with a discussion of pilonidal disease.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=WsvcjYu9hYo" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Puncture Wound Abscess Drainage Tutorial</a> &ndash; abscess after a puncture wound.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Loop drainage</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=hkEidzzs0JY" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Loop drainage demonstration (linked from Sinai Emergency Medicine)</a> &ndash; how the two-incision loop technique is done.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pemcincinnati.com/blog/loop-abscess" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PEM Cincinnati: Incision and loop drainage, what is the evidence?</a> &ndash; the technique and the evidence summarised.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.medmastery.com/guide/emergency-procedures-clinical-guide/how-loop-drain-large-skin-abscess" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Medmastery: How to loop drain a large skin abscess</a> &ndash; equipment list and steps.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aliem.com/trick-of-trade-incision-and-loop-2/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ALiEM: Incision and loop drainage using a sterile tourniquet</a> &ndash; a useful improvisation when no vessel loop is available.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pedemmorsels.com/incision-loop-drainage-abscess/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PedEM Morsels: Incision and loop drainage of abscess</a> &ndash; step-by-step technique, home care and removal.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ultrasound for abscess</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://medicine.yale.edu/media-player/pocus-sst" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Yale: Point-of-care ultrasound for skin and soft tissue</a> &ndash; abscess versus cellulitis, cobblestoning, scanning technique.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.acep.org/sonoguide/procedures/abscess-evaluation" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ACEP SonoGuide: Abscess Evaluation</a> &ndash; indications, scanning and image examples.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Written guides, guidelines and simulation</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://coreem.net/procedures/i-and-d/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">CoreEM: Incision and Drainage (procedure page)</a> &ndash; written steps that accompany the CoreEM video.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/publications/i/item/9241545755" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: Surgical Care at the District Hospital</a> &ndash; see section 5.5, Cellulitis and abscess, written for district-level practice.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://academic.oup.com/cid/article-lookup/59/2/e10" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IDSA 2014 guideline for skin and soft tissue infections</a> &ndash; the reference guideline for purulent infections.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fpnotebook.com/Derm/Procedure/IncsnAndDrng.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Family Practice Notebook: Incision and drainage</a> &ndash; summary of technique, packing and loop drainage.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.chop.edu/node/140836" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Children&rsquo;s Hospital of Philadelphia clinical pathway: Incision and drainage procedure</a> &ndash; supplies, ultrasound, culture, probing, packing criteria.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2453116/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Building a low-cost abscess model for teaching I&amp;D</a> &ndash; how to make a simulated abscess so trainees can practise before they operate on a patient.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Related collections to be drained by a specialist</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/mastitis-and-breast-abscess/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Mastitis and breast abscess</a> &ndash; aspiration versus open drainage in the breast.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/anal-fistula/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Anal fistula and perianal abscess</a> &ndash; perianal abscess and fistula.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/bartholins-cyst/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Bartholin&rsquo;s cyst and abscess</a> &ndash; recognition and referral.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/peritonsillar-abscess-quinsy/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Peritonsillar abscess (quinsy)</a> &ndash; ENT-managed.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.cochrane.org/evidence/CD010490_treatments-breast-abscesses-breastfeeding-women" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Cochrane review: Treatments for breast abscesses in breastfeeding women</a> &ndash; needle aspiration versus incision and drainage.</div>
+    </div>
+    <p class="text-sm">Video quality varies. Start with the NEJM and CoreEM demonstrations, then use the others to see different sites and techniques.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+      Key Clinical Takeaways
+    </h2>
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+    <p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+    <ul class="space-y-2">
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Drainage cures a collection of pus; antibiotics alone do not. Do not incise cellulitis without a collection.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm pus with fluctuance, ultrasound or needle aspiration. Do not incise a pulsatile or painless cold swelling.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Calculate the lidocaine ceiling before you inject: 4.5 mg/kg plain (maximum 300 mg), 7 mg/kg with adrenaline (maximum 500 mg). Never inject into the cavity.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>One generous linear incision, loculations broken with an artery forceps, saline irrigation, and the wound left open.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pack only large (5 cm or more) and pilonidal cavities, loosely, with a tail. Routine packing of small abscesses causes pain without benefit.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Loop drainage is a good alternative for larger abscesses and sites where scarring matters.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Add antibiotics for systemic signs, extensive cellulitis, immunosuppression, extremes of age, difficult sites and treatment failure. Pick the drug by local resistance, not habit.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Face, hand, perianal, breast, deep buttock and thigh collections, neonates and necrotising infection need escalation.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check glucose in every adult with a large or recurrent abscess, and offer HIV testing with counselling.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Counsel about the open wound, scarring and keloid risk, home practices, household hygiene and return warning signs.</span></li>
+    </ul>
+    </div>
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+      <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+        <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+        <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+        <p class="text-[10px] leading-snug text-stone-500">1. Infectious Diseases Society of America. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update. Clin Infect Dis 2014;59(2):e10-e52.</p>
+        <p class="text-[10px] leading-snug text-stone-500">2. Infectious Diseases Society of America. Clinical practice guidelines for the treatment of methicillin-resistant Staphylococcus aureus infections in adults and children. Clin Infect Dis 2011;52(3):e18-e55.</p>
+        <p class="text-[10px] leading-snug text-stone-500">3. World Health Organization. Surgical care at the district hospital. Geneva: WHO; 2003 (section 5.5, Cellulitis and abscess).</p>
+        <p class="text-[10px] leading-snug text-stone-500">4. New England Journal of Medicine, Videos in Clinical Medicine. Abscess incision and drainage. N Engl J Med 2007;357(19):e20.</p>
+        <p class="text-[10px] leading-snug text-stone-500">5. Randomised placebo-controlled trials of clindamycin and trimethoprim-sulfamethoxazole after drainage of simple skin abscesses. N Engl J Med 2016 and 2017.</p>
+        <p class="text-[10px] leading-snug text-stone-500">6. Randomised trials of packing versus no packing after drainage of simple cutaneous abscesses. Acad Emerg Med 2009;16(5):470-473 and Pediatr Emerg Care 2012;28(6):514-517.</p>
+        <p class="text-[10px] leading-snug text-stone-500">7. Systematic review and meta-analysis of randomised trials of incision and drainage of cutaneous abscess with or without cavity packing. Langenbecks Arch Surg 2021;406(4):981-991.</p>
+        <p class="text-[10px] leading-snug text-stone-500">8. Clinical Pharmacogenetics Implementation Consortium. Guideline for rasburicase and other drugs in G6PD deficiency, 2022 update.</p>
+        <p class="text-[10px] leading-snug text-stone-500">9. Cochrane Database of Systematic Reviews. Treatments for breast abscesses in breastfeeding women. 2015;(8):CD010490.</p>
+        <p class="text-[10px] leading-snug text-stone-500">10. Cross-sectional studies of Staphylococcus aureus from skin and soft tissue infections and wounds in south-west Nigeria (F1000Research 2018) and soft tissue infections in south-south Nigeria (Ther Adv Infect Dis 2025).</p>
+        <p class="text-[10px] leading-snug text-stone-500">11. American College of Emergency Physicians. Abscess evaluation, ultrasound guide.</p>
+        <p class="text-[10px] leading-snug text-stone-500">12. US Food and Drug Administration labelling for lidocaine hydrochloride injection (maximum dose guidance).</p>
+      </div>
+    </details>
+    </div>
+    </body>
+    </html>
+        `
+    },
+
 ];

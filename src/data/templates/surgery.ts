@@ -2,6 +2,199 @@ import { Template } from '../../types';
 
 export const SURGERY_TEMPLATES: Template[] = [
   {
+    id: 'surg-86',
+    title: 'Acute Traumatic Cervical Spinal Cord Injury with Neurogenic Shock',
+    specialty: 'Surgery',
+    subSpecialty: 'Neurosurgery / Trauma',
+    condition: 'Neurogenic Shock Secondary to Acute Traumatic Cervical Spinal Cord Injury',
+    symptoms: [
+      'Sudden inability to move all four limbs',
+      'Loss of sensation from the neck down',
+      'Dizziness',
+      'Difficulty breathing',
+      'Lightheadedness',
+      'Urinary retention'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '32-year-old male commercial driver presenting 4 hours after a head-on road traffic accident with immediate quadriplegia and loss of sensation below the neck. Examination reveals flaccid paralysis, areflexia and loss of all sensory modalities below the C5 dermatome, with associated bradycardia, severe hypotension and shallow breathing. Findings are consistent with acute traumatic cervical spinal cord injury complicated by neurogenic shock.',
+    content: `Patient Identification
+  
+  Age: 32 years
+  Sex: Male
+  Occupation: Commercial driver
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  
+  Presenting Complaints
+  
+  1. Inability to move all four limbs × 4 hours
+  2. Loss of sensation from the neck down × 4 hours
+  3. Dizziness and difficulty breathing × 4 hours
+  
+  History of Presenting Complaint
+  
+  The patient was a driver in a head-on road traffic accident involving his minibus and a heavy-duty truck 4 hours prior to presentation. He reportedly hit his head and neck against the steering wheel and windshield. There was immediate loss of movement and sensation in both upper and lower limbs following the impact.
+  
+  There was no associated loss of consciousness, no seizures and no bleeding from the ears, nose or throat.
+  
+  He started feeling lightheaded and dizzy shortly after the accident. Bystanders noted he was breathing shallowly. He was extricated and brought to the emergency department with his neck supported by a makeshift wrap. He has not received any medications or fluids prior to presentation.
+  
+  Past Medical History
+  
+  No known history of hypertension or diabetes mellitus. No previous spinal surgeries or chronic back pain. No history of bleeding diathesis.
+  
+  Drug History
+  
+  Not on any routine medications. No known drug allergies.
+  
+  Family and Social History
+  
+  Married in a monogamous setting with three children. Non-smoker. Occasional alcohol consumption.
+  
+  Review of Systems
+  
+  CNS: As stated in HPC.
+  
+  RS: Difficulty taking deep breaths. No cough.
+  
+  CVS: Dizziness. No chest pain or palpitations.
+  
+  GIT: No abdominal pain or vomiting.
+  
+  GUT: Has not voided since the accident.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking young man, lying supine, in respiratory distress. He is conscious but appears lethargic.
+  
+  Pallor: Absent.
+  
+  Jaundice: Absent.
+  
+  Cyanosis: Absent.
+  
+  Dehydration: Absent.
+  
+  Pedal oedema: Absent.
+  
+  Neck: Tenderness over the cervical spine, with no visible step-off. Neck immobilized with a rigid collar upon arrival.
+  
+  Vital Signs
+  
+  Pulse Rate: 50 bpm (bradycardia), regular, low volume.
+  
+  Blood Pressure: 80/45 mmHg (hypotension).
+  
+  Respiratory Rate: 26 cpm, shallow, with diaphragmatic breathing noted.
+  
+  Temperature: 35.8°C (mild hypothermia).
+  
+  SpO₂: 91% on room air.
+  
+  Systemic Examination
+  
+  Central Nervous System
+  
+  Mental State: GCS 15/15.
+  
+  Cranial Nerves: Intact.
+  
+  Motor System:
+  
+  - Tone: Flaccid in all four limbs.
+  - Power: 0/5 in all muscle groups (upper and lower limbs).
+  - Reflexes: Areflexia in all limbs. Plantar responses are mute.
+  
+  Sensory System: Loss of all modalities of sensation below the level of the clavicles (C5 dermatome).
+  
+  Cardiovascular System
+  
+  Pulse: 50 bpm.
+  
+  Precordium: Apex beat not displaced. S1 and S2 heard, no murmurs. Warm peripheries with capillary refill time of 2 seconds.
+  
+  Respiratory System
+  
+  Trachea: Central.
+  
+  Chest: Symmetrical expansion, reduced excursion.
+  
+  Auscultation: Breath sounds are vesicular but diminished at the bases. No adventitious sounds.
+  
+  Abdomen
+  
+  Flat, moves with respiration (diaphragmatic breathing).
+  
+  Palpation: Soft, non-tender. No organomegaly.
+  
+  Bowel sounds: Hypoactive.
+  
+  Bladder: Distended and palpable.
+  
+  Assessment
+  
+  Neurogenic Shock secondary to Acute Traumatic Cervical Spinal Cord Injury (suspected C5 level).
+  
+  Differential Diagnoses
+  
+  1. Spinal Shock (often co-exists, though neurogenic shock refers specifically to the haemodynamic instability).
+  2. Hypovolaemic Shock (due to internal haemorrhage, though bradycardia makes this less likely than neurogenic shock).
+  3. Cardiogenic Shock (less likely given age and trauma history).
+  
+  Initial Investigation Plan
+  
+  1. Cervical Spine X-ray (lateral, AP and odontoid views) or CT scan of the cervical spine.
+  2. Full Blood Count (FBC) to rule out occult haemorrhage.
+  3. Urea, Electrolytes and Creatinine (E/U/Cr).
+  4. Baseline ECG (to document bradycardia).
+  5. FAST Scan (Focused Assessment with Sonography for Trauma) to rule out intra-abdominal bleeding.
+  6. Pulse oximetry and ABG if available.
+  
+  Initial Management Plan
+  
+  1. Resuscitation and Stabilization
+  
+  - Maintain strict spinal immobilization using a rigid cervical collar and log-rolling for any movement.
+  - Supplemental oxygen via non-rebreather mask at 10–15 L/min to maintain SpO₂ >94%.
+  - Large-bore IV access (two 16G cannulae).
+  
+  2. Fluid Resuscitation
+  
+  - Normal Saline (0.9% NaCl) 500–1,000 mL bolus over 15–30 minutes.
+  - Goal: Mean Arterial Pressure (MAP) of 85–90 mmHg. Avoid over-hydration to prevent pulmonary oedema or spinal cord swelling.
+  
+  3. Vasopressors (If Hypotension Persists After Fluid Bolus)
+  
+  - Norepinephrine infusion: Start at 0.05 mcg/kg/min and titrate upward to maintain MAP 85–90 mmHg.
+  - Alternatively: Dopamine infusion at 5–10 mcg/kg/min (inotrope and vasopressor).
+  
+  4. Management of Bradycardia
+  
+  - Atropine 0.5 mg IV bolus. May repeat every 3–5 minutes to a maximum dose of 3 mg if heart rate remains <50 bpm and the patient is symptomatic.
+  
+  5. Supportive Care
+  
+  - Urinary catheterization (Foley's) to monitor urine output and relieve retention.
+  - Nasogastric tube insertion for gastric decompression (prevents aspiration in the setting of paralytic ileus).
+  - Thermal regulation: Use warm blankets to manage hypothermia resulting from loss of vasomotor tone.
+  - Methylprednisolone (optional/institutional protocol): 30 mg/kg IV bolus over 1 hour, then 5.4 mg/kg/hr for 23 hours. Note: Only if within 8 hours of injury; use is controversial and depends on consultant preference.
+  
+  6. Disposition
+  
+  - Urgent Neurosurgical/Orthopaedic Spine consultation.
+  - Admission to the Intensive Care Unit (ICU) for continuous haemodynamic monitoring.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'surg-85',
     title: 'Chronic Leg Ulcer in Sickle Cell Disease',
     specialty: 'Surgery',

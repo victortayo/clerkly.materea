@@ -3,6 +3,327 @@ import { Template } from '../../types';
 export const BEHAVIORAL_TEMPLATES: Template[] = [
   // Behavioral Sciences
   {
+    id: 'bs-15',
+    title: 'Generalized Anxiety Disorder',
+    specialty: 'Behavioral Sciences',
+    subSpecialty: 'Psychiatry Clinic',
+    condition: 'Generalized Anxiety Disorder (GAD)',
+    symptoms: ['Excessive worry', 'Restlessness', 'Palpitations', 'Hand tremors', 'Poor sleep', 'Difficulty concentrating', 'Fatigue'],
+    contributor: 'Admin',
+    lastModified: '2026-10-30',
+    summary: '24-year-old female university student presenting with a 6-month history of persistent excessive worry about academic performance and future career prospects, associated with restlessness, palpitations, tremors, impaired concentration, and sleep disturbance. Assessed as Generalized Anxiety Disorder (GAD), with panic disorder, hyperthyroidism, social anxiety disorder, and substance-induced anxiety disorder as differentials.',
+    content: `PSYCHIATRY CLINIC
+  
+  Patient Identification
+  A 24-year-old Yoruba female student residing in Yaba, Lagos State, currently a final-year undergraduate at a federal university.
+  
+  Presenting Complaints
+  Excessive worry and restlessness × 6 months
+  Palpitations and tremors × 3 months
+  Poor sleep × 2 months
+  
+  History of Presenting Complaint
+  She was apparently well until 6 months prior to presentation when she began experiencing persistent and excessive worry regarding her academic performance and future career prospects. She describes the worry as difficult to control, pervasive, and often shifting from one concern to another. This is associated with feelings of restlessness, easy fatigability, and difficulty concentrating on her studies.
+  
+  Three months prior to presentation, she started having episodic palpitations, fine hand tremors, and occasional diaphoresis, particularly when thinking about upcoming final-year projects or examinations. There are no associated chest pains, shortness of breath, or syncopal episodes.
+  
+  For the past 2 months, she has reported difficulty falling asleep and staying asleep, leading to daytime somnolence and irritability. She denies any history of persistently depressed mood, loss of interest in previously pleasurable activities, or suicidal ideations. There is no history of auditory or visual hallucinations.
+  
+  She denies excessive caffeine intake, use of energy drinks, or use of psychoactive substances. There is no history of heat intolerance, weight loss, or neck swelling.
+  
+  Past Medical History
+  No known history of chronic medical conditions such as hypertension, diabetes, or asthma.
+  No previous history of thyroid disease.
+  No prior psychiatric hospitalizations or similar episodes.
+  
+  Drug History
+  Not on any chronic medications.
+  No history of use of herbal concoctions or over-the-counter stimulant medications.
+  
+  Family History
+  Second of four children in a monogamous family setting.
+  Mother is currently being managed for a similar "nervous condition" at a secondary health facility.
+  No family history of sudden unexplained deaths or epilepsy.
+  
+  Social History
+  Final-year university student living in a school hostel with three roommates.
+  She describes her academic workload as overwhelming.
+  Denies cigarette smoking or alcohol consumption.
+  
+  Review of Systems
+  CNS: No headaches, seizures, or blurring of vision.
+  GIT: Occasional epigastric discomfort and butterflies in the stomach. No vomiting or diarrhoea.
+  CVS: Palpitations as noted in the HPC. No pedal oedema.
+  Respiratory: No cough or dyspnoea.
+  MSS: No joint pains or swelling.
+  
+  O/E:
+  Young lady in no obvious respiratory or painful distress.
+  Not pale, anicteric, not dehydrated.
+  No significant peripheral lymphadenopathy or pedal oedema.
+  No fine tremors at rest, but tremors noted during the interview.
+  No thyroid enlargement or signs of thyrotoxicosis (no exophthalmos or lid lag).
+  
+  Vital Signs:
+  PR: 98 bpm, regular, normal volume.
+  BP: 115/75 mmHg.
+  RR: 20 cpm.
+  SpO₂: 99% in room air.
+  Temperature: 36.7°C.
+  
+  CVS:
+  Apex beat at the 5th left intercostal space, mid-clavicular line.
+  S1 and S2 only.
+  No murmurs.
+  
+  Respiratory System:
+  Trachea central.
+  Chest symmetrical and moves with respiration.
+  Breath sounds vesicular.
+  No adventitious sounds.
+  
+  Abdomen:
+  Flat, moves with respiration.
+  Soft, non-tender.
+  No organomegaly.
+  Bowel sounds present and normal.
+  
+  Mental State Examination (MSE)
+  
+  Appearance: Neatly dressed in a blouse and jeans, looks anxious and hypervigilant, maintains fair eye contact.
+  
+  Behaviour: Fidgety, with frequent tapping of feet and wringing of hands during the interview.
+  
+  Speech: Normal rate, volume, and tone. No pressure of speech.
+  
+  Mood:
+  Subjective: "I feel very tense and worried."
+  Objective: Anxious.
+  
+  Affect: Restricted, congruent with mood.
+  
+  Thought Process: Coherent and goal-directed. No loosening of associations.
+  
+  Thought Content: Preoccupied with academic worries and fear of failure. No delusions, obsessions, or suicidal or homicidal ideations.
+  
+  Perception: No hallucinations or illusions.
+  
+  Cognition: Alert and oriented to time, place, and person. Concentration slightly impaired during serial subtraction. Good immediate and recent memory.
+  
+  Insight: Good.
+  
+  Assessment
+  Generalized Anxiety Disorder (GAD).
+  
+  Differential Diagnoses
+  1. Panic Disorder (less likely due to the absence of discrete panic attacks).
+  2. Hyperthyroidism.
+  3. Social Anxiety Disorder.
+  4. Substance-induced Anxiety Disorder.
+  
+  Investigations
+  1. Full Blood Count (FBC): To rule out anaemia as a cause of palpitations and fatigue.
+  2. Thyroid Function Tests (T3, T4, TSH): To rule out hyperthyroidism.
+  3. Fasting Blood Sugar (FBS): To rule out hypoglycaemia-associated anxiety symptoms.
+  4. Urinalysis and Toxicology Screen: To assess for substance use (e.g., amphetamines).
+  5. ECG: To rule out underlying arrhythmia if palpitations persist despite treatment.
+  
+  Management Plan
+  
+  1. Reassurance and Psychoeducation:
+  Explain the diagnosis to the patient, emphasizing that anxiety is a treatable medical condition.
+  
+  2. Psychological Intervention:
+  - Referral for Cognitive Behavioural Therapy (CBT).
+  - Relaxation techniques, including deep breathing exercises and progressive muscle relaxation.
+  - Sleep hygiene education.
+  
+  3. Pharmacotherapy:
+  - Selective Serotonin Reuptake Inhibitor (SSRI): Tab Escitalopram 10 mg daily. Advise that the full therapeutic effect may take 2–4 weeks.
+  - Beta-blocker: Tab Propranolol 20 mg BD for 2 weeks to manage somatic symptoms such as palpitations and tremors.
+  - Short-term Anxiolytic: Tab Diazepam 5 mg at night for 5 days only to address severe insomnia and initial agitation. Advise against alcohol use while taking this medication.
+  
+  4. Lifestyle Modification:
+  - Advise reduction or cessation of caffeine intake, including coffee, kola nut, and energy drinks.
+  - Encourage regular physical exercise.
+  
+  5. Follow-Up:
+  Review in 2 weeks to monitor for medication side effects, such as nausea and initial increase in anxiety, and assess clinical response.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+{
+  id: 'bs-14',
+  title: 'Attention Deficit Hyperactivity Disorder (ADHD)',
+  specialty: 'Behavioral Sciences',
+  subSpecialty: 'Child and Adolescent Psychiatry',
+  condition: 'Attention Deficit Hyperactivity Disorder (Combined Type)',
+  symptoms: ['Excessive hyperactivity', 'Poor concentration', 'Easy distractibility', 'Impulsivity', 'Difficulty with reading', 'Difficulty with basic arithmetic'],
+  contributor: 'Admin',
+  lastModified: '2026-10-30',
+  summary: '7-year-old male presenting with a 2-year history of excessive hyperactivity, poor concentration, and easy distractibility across home and school settings, with a 1-year history of academic difficulties involving reading, spelling, and basic arithmetic. Assessed as ADHD, combined type, with suspected specific learning disorder.',
+  content: `CHILD AND ADOLESCENT PSYCHIATRY CLINIC
+
+Patient Identification
+Master A.B., a 7-year-old Igbo Christian male from Garki, Abuja. Informant: Mother (reliable).
+
+Presenting Complaints
+Excessive restlessness and inability to sit still × 2 years
+Poor concentration and easy distractibility × 2 years
+Difficulty with reading and basic arithmetic × 1 year
+
+History of Presenting Complaint
+The patient was apparently well until about 2 years prior to presentation when his mother noticed that he was significantly more active than his peers. He is described as being constantly on the go, as if driven by a motor. He frequently leaves his seat in the classroom and at the dining table. He is unable to play quietly and often talks excessively, frequently blurting out answers before questions are completed.
+
+At school, teachers report that he is easily distracted by external stimuli and fails to give close attention to details, leading to many careless mistakes in his assignments. He has significant difficulty organizing tasks and often loses his schoolbooks, pencils, and personal belongings. These symptoms are present both at home and in school.
+
+In the last year, there has been a noticeable lag in his academic performance despite having an average intellectual appearance. He struggles significantly with word recognition, slow and dysfluent reading, and poor spelling. He also finds it difficult to grasp basic mathematical concepts such as addition and subtraction.
+
+There is no history of recurrent seizures, previous head injury, or loss of consciousness. No history of hearing impairment or visual challenges. No history suggestive of thyroid dysfunction, such as heat intolerance or excessive sweating.
+
+Past Medical History
+No history of chronic medical illness.
+No previous hospitalizations or blood transfusions.
+No known drug allergies.
+
+Birth History
+Prenatal: Pregnancy was booked at a secondary health facility. Mother took routine ANC medications. No history of febrile illness or hypertension during pregnancy.
+
+Natal: Delivered at term via spontaneous vaginal delivery (SVD). Cried immediately after birth. Birth weight was 3.2 kg.
+
+Postnatal: No history of neonatal jaundice or sepsis.
+
+Dietary History
+Exclusively breastfed for 6 months.
+Weaned onto family diet.
+Currently eats 3 adequate meals daily.
+
+Immunization History
+Immunization up to date according to the National Programme on Immunization (NPI) schedule.
+BCG scar present on the left deltoid.
+
+Developmental History
+Attained all major developmental milestones at age-appropriate times.
+
+Gross Motor: Sat at 6 months and walked at 13 months.
+Language: Spoke first words at 12 months.
+Social: Smiles responsively and plays with other children but often struggles with turn-taking.
+
+Family and Social History
+Second child in a monogamous family setting.
+Father is a civil servant, while the mother is a secondary school teacher.
+No family history of similar behavioural or learning challenges.
+They live in a well-ventilated 3-bedroom flat with treated pipe-borne water.
+
+Review of Systems
+CNS: As per HPC. No headaches or visual changes.
+CVS: No history of easy fatigability or cyanosis.
+Respiratory: No chronic cough or fast breathing.
+GIT: Normal bowel habits, no abdominal pain.
+
+O/E:
+A young boy, not acutely ill, hyperactive in the consulting room, moving from one chair to another and fiddling with office stationery.
+Not pale, anicteric, acyanotic, not dehydrated.
+No significant lymphadenopathy or pedal oedema.
+
+Anthropometry:
+Weight: 22 kg (50th percentile for age).
+Height: 121 cm (50th percentile for age).
+OFC: 51 cm.
+
+Vital Signs:
+PR: 92 bpm, regular, normal volume.
+RR: 22 cpm.
+Temperature: 36.6°C.
+BP: 100/60 mmHg.
+
+Neurological Examination:
+Mental State: Hyperactive and easily distracted, but oriented to time, place, and person. Speech is fluent but rapid.
+Cranial Nerves: I–XII intact.
+Motor System: Normal muscle bulk and tone. Power is 5/5 in all muscle groups. Deep tendon reflexes are normal (2+).
+Sensory: Intact to touch and pain.
+Gait: Normal.
+
+Respiratory System:
+Trachea central.
+Good chest expansion.
+Percussion notes resonant.
+Breath sounds vesicular, with no added sounds.
+
+Cardiovascular System:
+Apex beat at the 5th left intercostal space, mid-clavicular line.
+S1 and S2 heard, no murmurs.
+
+Abdomen:
+Flat, moves with respiration.
+Non-tender.
+No organomegaly.
+Bowel sounds present.
+
+Assessment
+Attention Deficit Hyperactivity Disorder (ADHD), combined type.
+
+Differential Diagnoses
+1. Specific Learning Disorder (Dyslexia and Dyscalculia).
+2. Conduct Disorder.
+3. Oppositional Defiant Disorder.
+4. Absence Seizures (considered less likely based on history).
+
+Investigations
+1. Vanderbilt ADHD Diagnostic Parent/Teacher Rating Scales: To assess symptom severity and subtype.
+2. Formal Neuropsychological Testing: To assess IQ and specific learning disabilities (Dyslexia/Dyscalculia).
+3. Full Blood Count (FBC): To rule out anaemia as a possible contributor to poor concentration.
+4. Thyroid Function Tests (T3, T4, TSH): To rule out hyperthyroidism.
+5. EEG: If there is a high suspicion of subclinical seizure activity.
+6. Audiometry and Visual Acuity Test: To rule out sensory deficits.
+
+Management Plan
+
+General Principles
+1. Multimodal approach involving the child, parents, and school.
+2. Counsel parents on the nature of ADHD as a neurodevelopmental disorder.
+
+Non-Pharmacological Management (Behavioural Therapy)
+1. Behavioural Modification: Use of a reward system (token economy) for positive behaviours.
+2. Classroom Interventions: Seat the child at the front of the class, break tasks into smaller manageable units, and allow frequent short breaks.
+3. Remedial Teaching: Specialized tutoring to address reading and mathematical difficulties.
+
+Pharmacological Interventions
+Pharmacotherapy is indicated as symptoms significantly impair academic and social functioning.
+
+Option 1: Psychostimulants (First-line)
+Drug: Methylphenidate (Ritalin).
+Dosage: Start at 5 mg orally once or twice daily (before breakfast and lunch).
+Regimen: Increase by 5–10 mg weekly based on response and tolerability.
+Maximum dose: 60 mg per day.
+Note: Monitor heart rate, blood pressure, and growth (weight/height) at every visit. Avoid late afternoon doses to prevent insomnia.
+
+Option 2: Non-Stimulants (If stimulants are not tolerated or contraindicated)
+Drug: Atomoxetine (Strattera).
+Dosage: Start at 0.5 mg/kg/day (approximately 10 mg for this child).
+Regimen: Increase after 7 days to a target dose of 1.2 mg/kg/day (approximately 25 mg daily).
+Maximum dose: 1.4 mg/kg/day.
+Note: Can be given as a single daily dose or divided into two equal doses. Monitor for sedation and liver function.
+
+Follow-Up
+Monthly reviews to monitor medication efficacy using the Vanderbilt scales and to assess for side effects such as decreased appetite or sleep disturbances.
+Maintain regular communication with the school to track academic progress.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  
+  {
     id: 'bs-13',
     title: 'Bipolar I Disorder, Current Episode Manic with Psychotic Features',
     specialty: 'Behavioral Sciences',

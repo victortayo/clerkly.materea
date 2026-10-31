@@ -1,7 +1,577 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
+  {
+    id: 'im-124',
+    title: 'Hypovolemic Shock Secondary to Severe Dehydration from Suspected Cholera',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Infectious Diseases / Critical Care Medicine',
+    condition: 'Severe Acute Gastroenteritis (Suspected Cholera) with Hypovolemic Shock',
+    symptoms: [
+      'Profuse watery diarrhoea',
+      'Repeated vomiting',
+      'Altered consciousness',
+      'Intense thirst',
+      'Anuria',
+      'Generalized body weakness',
+      'Lethargy',
+      'Lightheadedness',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'A 34-year-old male commercial driver presented with an 18-hour history of profuse, voluminous rice-water stools and repeated vomiting, followed by intense thirst, anuria and altered consciousness. Examination revealed severe dehydration, hypothermia, tachycardia, profound hypotension, delayed capillary refill and acidotic breathing. GCS was 12/15. Assessed as hypovolemic shock secondary to severe dehydration from severe acute gastroenteritis, with suspected cholera.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 34-year-old male commercial driver who resides in Ogbomosho, Oyo State.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Profuse watery stools x 1/7
+  2. Repeated vomiting x 1/7
+  3. Altered consciousness x 2h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 18 hours prior to presentation when he developed sudden onset of frequent, voluminous, watery stools. The stools are non-bloody and non-mucoid, described as having a rice-water appearance. He has had over 10 episodes since onset. This was accompanied by 6 episodes of non-bilious, non-projectile vomiting of recently ingested meals.
+  
+  He reports intense thirst and has not passed urine since the symptoms began. Two hours prior to presentation, he became increasingly lethargic and stopped responding appropriately to questions. There is no history of fever, abdominal pain, or similar symptoms in other family members. He has no known history of peptic ulcer disease or recent trauma.
+  
+  PAST MEDICAL HISTORY
+  
+  No known history of hypertension or diabetes mellitus.
+  
+  No history of previous blood transfusions or surgeries.
+  
+  No known allergies.
+  
+  DRUG HISTORY
+  
+  He is not on any routine medications.
+  
+  He took some unidentified herbal concoction for the diarrhea shortly before becoming lethargic.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is the first of five children in a monogamous setting.
+  
+  He drinks alcohol socially but does not smoke.
+  
+  Living conditions involve a shared compound with a communal pit latrine.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Lethargy and lightheadedness as noted in HPC. No seizures.
+  
+  CVS: No chest pain or palpitations prior to onset of illness.
+  
+  RS: No cough or breathlessness.
+  
+  GIT: As noted in HPC.
+  
+  MSS: Generalized body weakness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking young man, lethargic, in significant respiratory distress (air hunger).
+  
+  Severely dehydrated: Sunken eyeballs, dry buccal mucosa, skin pinch retracts very slowly (> 2 seconds).
+  
+  Cold and clammy extremities with a thready peripheral pulse.
+  
+  No pedal edema, no jaundice, no significant lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 138 bpm (thready, low volume)
+  
+  Blood Pressure: 70/40 mmHg
+  
+  Respiratory Rate: 32 cpm (acidotic breathing)
+  
+  Temperature: 35.9 degrees Celsius
+  
+  SpO2: 92 percent on room air
+  
+  SYSTEMIC EXAMINATION
+  
+  Cardiovascular System:
+  
+  Pulse as above. Apex beat not easily palpable. S1, S2 only heard. No murmurs.
+  
+  Capillary Refill Time: 5 seconds.
+  
+  Respiratory System:
+  
+  Trachea central. Tachypneic with deep respirations. Lungs are clear clinically with vesicular breath sounds.
+  
+  Abdomen:
+  
+  Scaphoid, moves with respiration. Soft, non-tender. No organomegaly. Bowel sounds are hyperactive.
+  
+  Neurological System:
+  
+  GCS 12/15 (E3, V4, M5). Sluggish pupillary response to light bilaterally. No focal neurological deficits.
+  
+  ASSESSMENT
+  
+  Hypovolemic Shock (Stage IV) secondary to Severe Dehydration from Severe Acute Gastroenteritis (Suspected Cholera).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Septic Shock secondary to Acute Gastroenteritis.
+  2. Food poisoning (Chemical or Bacterial).
+  3. Ruptured Ectopic Pregnancy (if patient were female).
+  
+  INVESTIGATION PLAN
+  
+  1. Urgent PCV/Full Blood Count: To check for hemoconcentration.
+  2. Serum Electrolytes, Urea, and Creatinine: To assess for electrolyte imbalance (hypokalemia) and AKI.
+  3. Random Blood Sugar: To rule out hypoglycemia.
+  4. Stool Microscopy, Culture, and Sensitivity: To identify causative organism.
+  5. Urinalysis: To check for specific gravity and ketones once urine is obtained.
+  
+  MANAGEMENT PLAN
+  
+  URGENT RESUSCITATION
+  
+  1. Secure airway and provide supplemental oxygen via nasal cannulae at 5L/min.
+  
+  2. Establish two large-bore (14G or 16G) intravenous access lines immediately.
+  
+  3. Aggressive Fluid Resuscitation:
+  
+  - Administer 1 Litre (20ml/kg) of Ringer's Lactate or Normal Saline (0.9 percent NaCl) as a rapid IV bolus over 15 to 20 minutes.
+  - Reassess vitals (Pulse, BP, Mental status).
+  - If BP remains < 90mmHg systolic, repeat a second 1 Litre bolus of Crystalloid immediately.
+  - Continue rapid fluid administration until a palpable radial pulse is restored and mental status improves.
+  
+  4. Maintenance and Replacement:
+  
+  - Once hemodynamically stable, continue IV Ringer's Lactate at 200ml/kg over the first 24 hours, adjusting based on ongoing stool/vomitus losses.
+  
+  MEDICATIONS
+  
+  1. Antibiotics (Suspected Cholera):
+  
+  - Azithromycin 1g PO stat (once patient is conscious and vomiting stops) OR
+  - IV Ciprofloxacin 400mg 12 hourly if oral route is not feasible.
+  
+  2. Zinc Supplementation:
+  
+  - Zinc Sulfate 20mg PO daily for 10-14 days.
+  
+  3. Anti-emetic:
+  
+  - IV Ondansetron 4mg 8 hourly.
+  
+  4. Potassium Replacement:
+  
+  - Add 20mEq of KCl to each litre of IV fluid once urine output is established (Do not give KCl if patient is anuric).
+  
+  MONITORING
+  
+  1. Insert a Foley catheter to monitor hourly urine output (Target: > 0.5ml/kg/hr).
+  
+  2. Continuous monitoring of Pulse, BP, and Respiratory rate every 15 minutes until stable.
+  
+  3. Strict Input/Output charting.
+  
+  4. Serial electrolyte monitoring 12 hourly.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-123',
+    title: 'Cardiogenic Shock Secondary to Acute Myocardial Infarction',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Cardiogenic Shock Secondary to Acute Myocardial Infarction',
+    symptoms: [
+      'Severe retrosternal chest pain',
+      'Shortness of breath',
+      'Orthopnoea',
+      'Profuse sweating',
+      'Nausea',
+      'Dizziness',
+      'Lightheadedness',
+      'Cold extremities',
+      'Oliguria',
+      'Dry cough'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '58-year-old male civil servant with a 10-year history of hypertension and 5-year history of type 2 diabetes mellitus, presenting with 6 hours of sudden-onset severe crushing retrosternal chest pain radiating to the left shoulder and jaw, followed by progressive dyspnoea, orthopnoea, dizziness and cold extremities. Examination reveals hypotension, tachycardia, raised JVP, displaced apex beat, S3 gallop, bilateral basal-to-mid-zone crepitations and tender hepatomegaly. Findings are suggestive of cardiogenic shock secondary to acute myocardial infarction.',
+    content: `PATIENT IDENTIFICATION
+  
+  A 58-year-old male civil servant who resides in Ogbomosho, Oyo State. Yoruba by tribe.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Severe chest pain × 6h
+  2. Shortness of breath × 4h
+  3. Cold extremities and dizziness × 2h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until 6 hours ago when he developed sudden-onset retrosternal chest pain. The pain is described as heavy and crushing, radiating to the left shoulder and jaw. It is not relieved by rest or changes in posture. There is associated profuse sweating and nausea.
+  
+  Four hours prior to presentation, he developed progressive shortness of breath, which is worse on lying flat (orthopnoea) and associated with a dry cough.
+  
+  Two hours ago, he started feeling lightheaded and dizzy, with his family noticing that his hands and feet were cold to the touch. He has not passed urine since the onset of the chest pain. No history of fever, calf pain or previous episodes of similar chest pain.
+  
+  PAST MEDICAL HISTORY
+  
+  Known hypertensive × 10 years, poorly compliant with medications (Amlodipine).
+  
+  Known Type 2 Diabetic × 5 years on Metformin.
+  
+  No history of previous heart failure or asthma.
+  
+  No known drug allergies.
+  
+  DRUG HISTORY
+  
+  Occasional use of NSAIDs for back pain.
+  
+  Amlodipine 10 mg daily (last dose taken 3/7 ago).
+  
+  Metformin 500 mg BD.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Married in a monogamous setting with four children.
+  
+  Non-smoker and does not consume alcohol.
+  
+  Father died suddenly at age 60 from suspected heart disease.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Dizziness and lightheadedness. No loss of consciousness or seizures.
+  
+  RS: Tachypnoea and orthopnoea as above. No haemoptysis.
+  
+  GIT: Nausea and one episode of vomiting. No abdominal pain.
+  
+  GUS: Oliguria since onset.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking middle-aged man, in respiratory distress, anxious, with cold and clammy peripheries.
+  
+  No significant peripheral lymphadenopathy.
+  
+  No pedal oedema.
+  
+  Not pale, not anicteric, no cyanosis.
+  
+  VITAL SIGNS
+  
+  Pulse rate: 118 bpm (weak, thready, regular).
+  
+  Blood Pressure: 82/54 mmHg.
+  
+  Respiratory Rate: 34 cpm (laboured).
+  
+  SpO₂: 86% on room air.
+  
+  Temperature: 36.2°C.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  JVP raised to the angle of the jaw.
+  
+  Apex beat displaced to 6th LICS, 2 cm lateral to MCL, heaving.
+  
+  S1 and S2 present, S3 gallop heard at the apex.
+  
+  No murmurs.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central.
+  
+  Percussion note resonant bilaterally.
+  
+  Auscultation: Fine basal crepitations bilaterally, extending to mid-zones.
+  
+  ABDOMEN
+  
+  Soft, non-distended.
+  
+  Liver: 4 cm below RCM, smooth, firm and tender (congestive hepatomegaly).
+  
+  Spleen not palpable.
+  
+  Bowel sounds present and normal.
+  
+  ASSESSMENT
+  
+  Cardiogenic Shock secondary to Acute Myocardial Infarction in a known hypertensive and diabetic patient.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Massive Pulmonary Embolism
+  2. Acute Decompensated Heart Failure with hypotension
+  3. Cardiac Tamponade
+  4. Aortic Dissection
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. 12-lead ECG: Urgent to look for ST-segment elevation (STEMI) or depression.
+  2. Cardiac Biomarkers: Troponin I or T, CK-MB.
+  3. Random Blood Sugar (RBS): To rule out diabetic emergencies.
+  4. Serum Urea, Electrolytes and Creatinine (E/U/Cr): To assess renal perfusion and baseline electrolytes.
+  5. Full Blood Count (FBC): To check for anaemia or infection.
+  6. Bedside Echocardiography: To assess LV function and rule out mechanical complications or tamponade.
+  7. Chest X-ray (AP view): To assess heart size and pulmonary congestion.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  URGENT STABILIZATION
+  
+  1. Nursing
+  Keep patient propped up at 45 degrees (if tolerated) or flat with leg elevation if BP is critically low, though pulmonary oedema usually requires propping up.
+  
+  2. Oxygen
+  High-flow oxygen via non-rebreather mask at 10–15 L/min to maintain SpO₂ >94%.
+  
+  3. Access
+  Secure two large-bore IV lines (16G or 18G).
+  
+  4. Monitoring
+  Continuous ECG monitoring, pulse oximetry and BP checks every 15 minutes.
+  
+  5. Catheterization
+  Insert Foley's catheter for hourly urine output monitoring (target >0.5 ml/kg/hr).
+  
+  PHARMACOTHERAPY
+  
+  1. Vasopressors/Inotropes
+  
+  - Norepinephrine: First-line to maintain MAP >65 mmHg. Start infusion at 0.05–0.5 mcg/kg/min and titrate.
+  - Dobutamine: If BP stabilizes but low cardiac output persists. Start at 2.5–10 mcg/kg/min IV infusion.
+  - Dopamine: Alternative if Norepinephrine is unavailable. Start at 5–15 mcg/kg/min IV infusion.
+  
+  2. Antiplatelets (Suspicion of MI)
+  
+  - Tab Aspirin 300 mg stat (chewed).
+  - Tab Clopidogrel 300 mg stat.
+  
+  3. Anticoagulation
+  
+  - Inj. Heparin 5,000 units IV bolus.
+  
+  4. Pain Relief
+  
+  - Inj. Morphine 2.5 mg IV slowly (monitor for further respiratory depression or hypotension).
+  
+  5. Fluid Management
+  
+  - Use extreme caution due to pulmonary oedema. Small bolus of 250 ml Normal Saline only if there is evidence of hypovolaemia without worsening lung sounds.
+  
+  DISPOSITION
+  
+  - Urgent Cardiology consult for possible PCI (Percutaneous Coronary Intervention) or thrombolysis (if PCI is unavailable and within window).
+  - Transfer to ICU or Cardiac Care Unit (CCU) for intensive monitoring.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
 
+  {
+    id: 'im-122',
+    title: 'Septic Shock Secondary to Urosepsis',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Infectious Diseases / Critical Care Medicine',
+    condition: 'Septic Shock Secondary to Urosepsis',
+    symptoms: [
+      'Fever',
+      'Altered sensorium',
+      'Reduced urine output',
+      'Dysuria',
+      'Increased urinary frequency',
+      'Chills and rigors',
+      'Palpitations'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '48-year-old male presenting with a 7-day history of dysuria and increased urinary frequency, followed by 3 days of high-grade fever with chills and rigors, and 8 hours of altered sensorium. Examination reveals fever, dehydration, peripheral cyanosis, cold clammy extremities, prolonged capillary refill, hypotension, tachycardia, tachypnoea and reduced oxygen saturation. Mild suprapubic tenderness is also present. Findings are consistent with septic shock secondary to suspected urosepsis, with possible acute kidney injury.',
+    content: `Patient Identification
+  
+  Age: 48 years
+  Sex: Male
+  Occupation: Civil servant
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  
+  Presenting Complaints
+  
+  1. Fever × 3/7
+  2. Altered sensorium × 8 hours
+  3. Reduced urine output × 1/7
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 7 days ago when he developed dysuria and increased urinary frequency. There was no associated loin pain or haematuria.
+  
+  Three days prior to presentation, he developed high-grade intermittent fever associated with chills and rigors. There was no cough, chest pain or diarrhoea.
+  
+  Eight hours prior to presentation, he became increasingly confused and was not responding appropriately to questions. The relatives also noticed he had not passed urine since the previous night. No history of convulsions or head injury.
+  
+  Past Medical History
+  
+  Not a known hypertensive or diabetic patient. No history of similar illness in the past. No history of recent surgeries or hospitalizations.
+  
+  Drug History
+  
+  He took some unidentified green and yellow capsules (suspected antibiotics) and paracetamol tablets obtained from a local chemist 2 days ago, with no significant relief. No known drug allergies.
+  
+  Family and Social History
+  
+  He is married in a monogamous setting with four children. He does not smoke cigarettes or drink alcohol.
+  
+  Review of Systems
+  
+  CNS: As in HPC. No focal weakness.
+  
+  RS: No cough or shortness of breath.
+  
+  CVS: History of palpitations. No orthopnoea.
+  
+  GIT: No abdominal pain, vomiting or diarrhoea.
+  
+  MSS: No joint pains or swelling.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking, febrile (temperature: 39.2°C), moderately dehydrated.
+  
+  Presence of peripheral cyanosis and cold, clammy extremities.
+  
+  Capillary refill time is prolonged at 4 seconds.
+  
+  No significant lymphadenopathy, no pedal oedema.
+  
+  Vital Signs
+  
+  Pulse Rate: 128 bpm, low volume, thready.
+  
+  Blood Pressure: 82/50 mmHg.
+  
+  Respiratory Rate: 34 cpm, shallow.
+  
+  SpO₂: 90% on room air.
+  
+  Systemic Examination
+  
+  Central Nervous System
+  
+  Level of consciousness: GCS 11/15 (E3, V3, M5).
+  
+  Pupils: 3 mm, bilaterally symmetrical and reactive to light.
+  
+  No signs of meningeal irritation.
+  
+  Respiratory System
+  
+  Trachea is central.
+  
+  Percussion notes are resonant bilaterally.
+  
+  Breath sounds are vesicular; no added sounds.
+  
+  Cardiovascular System
+  
+  Apex beat is at the 5th left intercostal space, mid-clavicular line.
+  
+  S1 and S2 heart sounds only. No murmurs.
+  
+  Abdomen
+  
+  Flat, moves with respiration.
+  
+  Mild suprapubic tenderness.
+  
+  No hepatosplenomegaly or palpable masses.
+  
+  Bowel sounds are present and normal.
+  
+  Assessment
+  
+  Septic Shock secondary to Urosepsis.
+  
+  Differential Diagnoses
+  
+  1. Severe Malaria with cerebral involvement and shock.
+  2. Bacterial Meningitis.
+  3. Hypovolaemic Shock (less likely given the absence of a fluid loss history).
+  
+  Initial Investigation Plan
+  
+  1. Full Blood Count (FBC): To check for leukocytosis or leucopenia and platelet count.
+  2. Malaria Parasite Film (MPS): To rule out severe malaria.
+  3. Urinalysis and Urine Culture/Sensitivity: To confirm the source of infection.
+  4. Blood Culture and Sensitivity: To identify the causative organism.
+  5. Serum Electrolytes, Urea and Creatinine (E/U/Cr): To assess renal function and electrolyte balance.
+  6. Random Blood Sugar (RBS): To rule out hypoglycaemia.
+  7. Arterial Blood Gas (ABG) and Serum Lactate: If available, to assess the severity of tissue hypoxia.
+  
+  Initial Management Plan
+  
+  1. Resuscitation and Stabilization
+  
+  - Ensure airway patency.
+  - Administer oxygen via face mask at 5–10 L/min to maintain SpO₂ >94%.
+  - Secure two wide-bore (16G or 18G) intravenous lines.
+  
+  2. Fluid Resuscitation (Surviving Sepsis Campaign Guidelines)
+  
+  - Immediate IV fluid bolus: Give 30 ml/kg of isotonic crystalloid (0.9% Normal Saline or Ringer's Lactate). For a 70 kg adult, this is approximately 2,100 ml.
+  - Administer the first 2 litres rapidly over 30–60 minutes and reassess haemodynamic status (BP, PR and urine output).
+  
+  3. Empirical Antibiotic Therapy
+  
+  - Start IV Ceftriaxone 2 g stat, then 2 g daily.
+  - Add IV Metronidazole 500 mg 8-hourly to cover anaerobes.
+  - Adjust based on culture results once available.
+  
+  4. Vasoactive Medications
+  
+  - If blood pressure remains low (MAP <65 mmHg) after adequate fluid resuscitation, start IV Norepinephrine infusion.
+  - Dosage: 0.05–0.5 mcg/kg/min, titrated to maintain MAP >65 mmHg. This requires close monitoring in an ICU or HDU setting.
+  
+  5. Monitoring and Supportive Care
+  
+  - Insert a Foley catheter to monitor hourly urine output (target >0.5 ml/kg/hr).
+  - Monitor vital signs (BP, PR, RR, SpO₂, temperature) every 15 minutes until stable, then hourly.
+  - Check RBS and correct if <70 mg/dL (give 50 ml of 50% Dextrose IV).
+  - IV Paracetamol 1 g 8-hourly for pyrexia.
+  - Strict input-output charting.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
  
   {
     id: 'im-121',

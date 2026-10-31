@@ -1810,4 +1810,846 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
         `
     },
 
+    {
+      id: 'procedure-lumbar-puncture',
+      title: 'Lumbar Puncture',
+      category: 'Procedures',
+      subCategory: 'Neurology',
+      content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumbar Puncture</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+    .font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+    .quote { border-left-width: 3px; border-left-style: solid; }
+    details > summary::-webkit-details-marker { display: none; }
+  </style>
+  </head>
+  <body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+  <div class="max-w-3xl mx-auto p-4 sm:p-6">
+  <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+    <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+    <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+    <div class="relative p-6 sm:p-8">
+      <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; NEUROLOGY</span>
+      <h1 class="font-brand text-3xl font-bold mb-3 text-white">Lumbar Puncture</h1>
+      <p class="text-sm text-indigo-200">Northern Nigeria sits inside the African meningitis belt, advanced HIV disease brings cryptococcal and tuberculous meningitis, and most clinicians here have no CT scanner within reach. This guide covers who should and should not have a lumbar puncture when CT is unavailable, the technique stage by stage, the pitfalls that cause failed and traumatic taps, opening pressure with improvised equipment, CSF handling and interpretation, and the antibiotic rule that overrides everything: treatment never waits for the needle.</p>
+    </div>
+  </div>
+  
+  <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+    <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+      <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+      <li><a href="#indications-and-the-test-menu" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and the Test Menu</span></a></li>
+      <li><a href="#can-i-do-this-lp-contraindication-checks-without-ct" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Can I Do This LP? Contraindication Checks Without CT</span></a></li>
+      <li><a href="#other-contraindications-and-bleeding-risk" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Other Contraindications and Bleeding Risk</span></a></li>
+      <li><a href="#preparation-and-equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Preparation and Equipment</span></a></li>
+      <li><a href="#positioning-landmarks-and-anaesthesia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Positioning, Landmarks and Anaesthesia</span></a></li>
+      <li><a href="#step-by-step-technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Step-by-Step Technique</span></a></li>
+      <li><a href="#technique-pitfalls-and-how-to-fix-them" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique Pitfalls and How to Fix Them</span></a></li>
+      <li><a href="#opening-pressure-and-therapeutic-lp" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Opening Pressure and Therapeutic LP</span></a></li>
+      <li><a href="#csf-handling-and-interpretation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>CSF Handling and Interpretation</span></a></li>
+      <li><a href="#treatment-does-not-wait-for-the-lp" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Treatment Does Not Wait for the LP</span></a></li>
+      <li><a href="#complications-aftercare-and-consent" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications, Aftercare and Consent</span></a></li>
+      <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Special Situations</span></a></li>
+      <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+      <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+  </nav>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+    Why This Procedure Matters in Nigerian Practice
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>The meningitis belt.</strong> Almost the whole northern half of Nigeria lies in the African meningitis belt, and cerebrospinal meningitis (CSM) outbreaks recur in the dry, dusty months, roughly December to April. The NCDC reports that <em>Neisseria meningitidis</em> serogroup C now drives most outbreaks and that available vaccines do not fully match it. NCDC also warns that fever and headache in the dry season should not automatically be labelled malaria.</li>
+    <li><strong>Throughout the year.</strong> Pneumococcal meningitis (more likely in sickle cell disease and HIV), <em>H. influenzae</em> type b in incompletely vaccinated children, tuberculous meningitis and cryptococcal meningitis in advanced HIV disease, and neonatal sepsis all arrive in our wards. Cerebral malaria can mimic or accompany meningitis.</li>
+    <li><strong>The diagnostic gap.</strong> NCDC outbreak reports have repeatedly named the absence of trained staff for CSF collection as a reason laboratory confirmation fails. A 2025 Sokoto outbreak report recorded low CSF sample collection and recommended LP training for clinicians. Every correct tap adds the organism, the serogroup and the resistance data that guide the whole response.</li>
+    <li><strong>Partially treated disease.</strong> Many patients have already taken antibiotics from a patent medicine store. This lowers the yield of Gram stain and culture but does not make the CSF useless. Cell count, protein, glucose, CrAg and PCR still help. WHO advises LP as soon as possible after admission even when antibiotics were given earlier.</li>
+  </ul>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-the-test-menu" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+    Indications and the Test Menu
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to consider an LP</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Fever with headache, neck stiffness, photophobia, vomiting, confusion or reduced consciousness (suspected meningitis or encephalitis).</li>
+    <li>Febrile infants and children who are drowsy, irritable, refusing feeds, or have a bulging fontanelle or a prolonged or focal seizure.</li>
+    <li>Coma with fever where malaria alone does not explain the picture, or malaria is confirmed but the child is not improving.</li>
+    <li>Headache in a person with advanced HIV disease (cryptococcal meningitis), or subacute headache with fever, weight loss and cranial nerve signs (tuberculous meningitis).</li>
+    <li>Therapeutic drainage in cryptococcal meningitis with raised pressure (Section 9).</li>
+    <li>A brief febrile seizure in a child who has recovered, is alert and looks well does not by itself need an LP. Check Hib and pneumococcal vaccination status and examine carefully for meningism.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to ask the laboratory for</strong>
+  <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+  <th class="py-2 pr-3 font-semibold">Test</th><th class="py-2 pr-3 font-semibold">Why it matters</th><th class="py-2 pr-3 font-semibold">Notes</th>
+  </tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+  <tr class="align-top"><td class="py-2 pr-3">Opening pressure</td><td class="py-2 pr-3">Raised in many bacterial and most severe cryptococcal cases.</td><td class="py-2 pr-3">See Section 9.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Cell count and differential</td><td class="py-2 pr-3">Neutrophils suggest bacterial; lymphocytes suggest viral, TB or fungal.</td><td class="py-2 pr-3">Strong WHO recommendation. Process promptly.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Protein and glucose, with a paired blood glucose</td><td class="py-2 pr-3">CSF glucose should be about 60% of blood glucose.</td><td class="py-2 pr-3">Strong WHO recommendation. Send the blood glucose from the same time.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Gram stain</td><td class="py-2 pr-3">Quick pointer to the organism.</td><td class="py-2 pr-3">Strong WHO recommendation. Yield falls after antibiotics.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Culture and susceptibility</td><td class="py-2 pr-3">Gold standard for bacterial identification and resistance.</td><td class="py-2 pr-3">Not replaced by PCR. Add blood cultures where available.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">PCR for bacterial pathogens</td><td class="py-2 pr-3">Useful when antibiotics were given first.</td><td class="py-2 pr-3">In outbreaks NCDC routes CSF to the state public health laboratory and onward to its national reference laboratory.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Cryptococcal antigen (CrAg) lateral flow</td><td class="py-2 pr-3">Fast and sensitive in HIV-associated cryptococcal meningitis.</td><td class="py-2 pr-3">Test CSF; serum CrAg is useful when LP cannot be done.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Xpert MTB/RIF Ultra</td><td class="py-2 pr-3">WHO 2025 recommends a low-complexity automated NAAT such as Xpert Ultra on CSF as the first test for TB meningitis.</td><td class="py-2 pr-3">Needs adequate volume. A negative result does not exclude TB meningitis.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">CSF lactate (if available)</td><td class="py-2 pr-3">WHO conditional recommendation, before antibiotics.</td><td class="py-2 pr-3">Helps separate bacterial from viral.</td></tr>
+  </tbody></table></div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="can-i-do-this-lp-contraindication-checks-without-ct" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+    Can I Do This LP? Contraindication Checks Without CT
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">WHO&rsquo;s 2025 meningitis guideline gives a clear framework for children over 1 month, adolescents and adults. Cranial imaging should not be done routinely. LP should be done as soon as possible, preferably before antibiotics, unless a contraindication or reason for deferral is present. Where CT is not readily accessible, <strong>defer the LP if any of the following is present, until it has resolved</strong>:</p>
+  <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+  <th class="py-2 pr-3 font-semibold">Criterion</th><th class="py-2 pr-3 font-semibold">Bedside check</th><th class="py-2 pr-3 font-semibold">Practical notes</th>
+  </tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+  <tr class="align-top"><td class="py-2 pr-3">Glasgow Coma Score below 10</td><td class="py-2 pr-3">Score eye, verbal and motor responses yourself, and record them. Use the paediatric GCS or Blantyre scale for children according to your unit&rsquo;s practice.</td><td class="py-2 pr-3">If you need painful stimulation to assess consciousness, treat the patient as below the threshold. Re-score before every decision.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Focal neurological signs</td><td class="py-2 pr-3">Look for weakness or drift of an arm or leg, unequal tone or reflexes, speech disturbance, gaze preference, visual field loss.</td><td class="py-2 pr-3">These suggest a mass lesion such as abscess or empyema, which meningitis can accompany.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Cranial nerve deficits</td><td class="py-2 pr-3">Pupil size and reaction, eye movements (lateral gaze failure from a sixth nerve palsy), ptosis, facial asymmetry.</td><td class="py-2 pr-3">Neck stiffness is not a cranial nerve sign. Unequal or fixed pupils are an urgent warning.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Papilloedema</td><td class="py-2 pr-3">Fundoscopy in a darkened room, with dilation if no contraindication.</td><td class="py-2 pr-3">Absence does not exclude raised pressure, especially early. If you cannot examine the fundus, record that it was not seen; do not record it as normal.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">New-onset seizures (adults)</td><td class="py-2 pr-3">Ask about any seizure during this illness.</td><td class="py-2 pr-3">In children, a new isolated seizure with no other at-risk feature does not by itself require imaging or deferral.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Severe immunocompromise</td><td class="py-2 pr-3">Organ transplant, heavy immunosuppressive treatment.</td><td class="py-2 pr-3"><strong>Exception:</strong> a person with HIV and suspected first-episode cryptococcal meningitis should have a prompt LP with opening pressure and rapid CrAg.</td></tr>
+  </tbody></table></div>
+  </div>
+  <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+  <p class="font-brand text-sm font-semibold mb-3">Stop Signs Before the Needle</p>
+  <ul class="space-y-2">
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Signs of impending herniation:</strong> low pulse with high blood pressure and irregular breathing, abnormal posturing, a rapidly falling GCS, unequal or poorly reactive pupils. Do not do an LP. Give antibiotics and call for senior or neurosurgical help.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Shock or severe sepsis, respiratory failure, or a spreading purpuric rash:</strong> resuscitate and treat as meningococcal septicaemia. The LP can wait.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Skin or soft tissue infection at the puncture site.</strong></span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uncorrected coagulopathy</strong> (Section 4).</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Suspected spinal cord compression or major spinal deformity,</strong> and patient refusal after explanation.</span></li>
+  </ul>
+  </div>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If you defer the LP</strong>
+  <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+    <li>Draw blood cultures if available, plus malaria test, blood glucose and full blood count. These take minutes and must not delay treatment.</li>
+    <li>Start intravenous ceftriaxone (or cefotaxime) at once. If there is no IV access, give intramuscular ceftriaxone and keep trying for a line. Aim to treat within an hour of suspecting bacterial meningitis.</li>
+    <li>Give dexamethasone with the first antibiotic dose where WHO advises it (Section 11).</li>
+    <li>Recheck GCS, pupils and vital signs often. If the deferral criteria resolve, do the LP. If CT or neurosurgical care exists elsewhere, arrange transfer without stopping treatment.</li>
+    <li>A late LP still helps: cell count, glucose, protein, CrAg and Xpert Ultra remain informative after antibiotics, even if culture is less likely to grow.</li>
+  </ol>
+  </div>
+  <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+  <p class="font-brand text-sm font-semibold">Guideline Watch: which pre-LP criteria?</p>
+  <p class="text-sm">Older guidance, including the IDSA 2004 approach built on a 2001 trial, listed more triggers than WHO: age 60 or over, a history of CNS disease, seizure within a week, and inability to follow commands or answer questions. WHO 2025 uses six criteria, written for settings that cannot scan. If your hospital protocol differs, follow the stricter one and remember two limits that apply to all of them. A normal CT does not exclude raised intracranial pressure or herniation, and delay while arranging a scan costs lives in bacterial meningitis.</p>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-contraindications-and-bleeding-risk" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+    Other Contraindications and Bleeding Risk
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>Platelets and clotting.</strong> The 2026 Association of British Neurologists guidance suggests platelets above 40 &times; 10<sup>9</sup>/L and an INR below 1.5 (below 2.0 in an urgent case) as the usual thresholds for LP. It advises against routine blood tests in people with no bleeding risk.</li>
+    <li><strong>When there is no laboratory in time.</strong> Do not hold an urgent LP for a result you cannot get. Look instead for clues: petechiae or purpura, bruising, bleeding gums or nose, known liver disease or heavy alcohol use, warfarin or other anticoagulants, severe malnutrition with oedema. If any are present, weigh the risk, give antibiotics and defer the LP until clotting is known.</li>
+    <li><strong>Aspirin or other antiplatelet drugs</strong> alone should not delay an urgent LP.</li>
+    <li><strong>Warfarin:</strong> check the INR. Heparins and direct oral anticoagulants need timing that follows your hospital protocol.</li>
+    <li><strong>Infection at the site, back deformity</strong> that makes the interspace inaccessible, and <strong>patient refusal</strong> are further reasons not to proceed. WHO&rsquo;s cryptococcal guideline lists major spinal deformity and refusal as the contraindications that remain even when pressure is raised.</li>
+  </ul>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation-and-equipment" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+    Preparation and Equipment
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before you start</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Confirm the indication and run through the Section 3 checklist. Write down the GCS, pupils and any focal signs.</li>
+    <li>Check a bedside blood glucose and draw blood cultures. Take blood for glucose in a fluoride tube if your laboratory needs one, to pair with the CSF.</li>
+    <li>Have the first dose of antibiotic (and dexamethasone, if indicated) drawn up and cannulated <strong>before</strong> the LP, so that it goes in the minute the needle is out. If the procedure is not underway within minutes, give the antibiotic first.</li>
+    <li>Explain, obtain consent from the patient or relative, and use the script in Section 12.</li>
+    <li>You need a competent assistant to hold the patient in position and watch breathing, and a second person if the patient is a child or restless.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment</strong>
+  <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+  <th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+  </tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+  <tr class="align-top"><td class="py-2 pr-3">Spinal needle (adult)</td><td class="py-2 pr-3">22 G, about 9 cm. An atraumatic (pencil-point) needle is preferred.</td><td class="py-2 pr-3">A cutting needle (Quincke) works. Use the finest gauge available and align the bevel with the dural fibres.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Spinal needle (child)</td><td class="py-2 pr-3">Length by height: 2 cm if under 50 cm (preterm); 3 cm for 50 to 80 cm (under 2 years); 4 cm for 80 to 120 cm (2 to 5 years); 5 cm for 120 to 150 cm (5 to 12 years); 6 cm for 150 to 180 cm (over 12 years).</td><td class="py-2 pr-3">Choose the shortest needle that reaches. Do not use an adult needle in an infant.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Antiseptic and drapes</td><td class="py-2 pr-3">Chlorhexidine or povidone-iodine, sterile drape or towels.</td><td class="py-2 pr-3">Let the antiseptic dry fully.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine, 5 mL syringe, 25 to 30 G needle.</td><td class="py-2 pr-3">Check the concentration. Maximum 4.5 mg per kg of plain lidocaine.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Manometer</td><td class="py-2 pr-3">Spinal manometer with three-way tap.</td><td class="py-2 pr-3">Sterile IV extension set or giving-set tubing held vertically against a ruler (Section 9).</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Collection tubes</td><td class="py-2 pr-3">3 or 4 sterile, leak-proof, screw-cap tubes, numbered in order.</td><td class="py-2 pr-3">Sterile universal bottles.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Rapid tests</td><td class="py-2 pr-3">Glucometer, malaria RDT, CrAg lateral flow if available.</td><td class="py-2 pr-3">Laboratory-based equivalents.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Safety</td><td class="py-2 pr-3">Sterile gloves, mask, eye protection, sharps box.</td><td class="py-2 pr-3">Never skip sterile gloves or a mask.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Resuscitation</td><td class="py-2 pr-3">Oxygen, suction, bag-valve-mask, IV access, hypertonic saline or mannitol if stocked.</td><td class="py-2 pr-3">Know where help is before you begin.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Ultrasound (optional)</td><td class="py-2 pr-3">Low-frequency curvilinear probe, or linear probe in thin patients and children.</td><td class="py-2 pr-3">Landmark technique (Section 6).</td></tr>
+  </tbody></table></div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="positioning-landmarks-and-anaesthesia" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+    Positioning, Landmarks and Anaesthesia
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Position</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li><strong>Lateral decubitus</strong> with the back at the edge of the bed, perpendicular to it, and the hips and shoulders stacked vertically. Flex the spine fully by curling the knees to the chest and the chin down. Place the back at the edge of the bed and the operator&rsquo;s dominant hand at the caudal end. This is the position for measuring opening pressure.</li>
+    <li><strong>Sitting</strong>, leaning forward over a pillow or table, widens the spaces between the spinous processes and is easier in obese adults. In term infants, sitting with hips flexed is the best tolerated position.</li>
+    <li><strong>Infants:</strong> do not flex the neck. It can obstruct the airway. Keep the infant warm and monitored with a pulse oximeter.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Landmarks</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Draw an imaginary line between the top of the iliac crests (Tuffier&rsquo;s line). It crosses the spine at about the L3&ndash;L4 interspace or the L4 spinous process. Aim for L3&ndash;L4 or L4&ndash;L5.</li>
+    <li>The spinal cord ends around L1&ndash;L2 in adults and about L3 at birth. Never go above L3&ndash;L4 in an adult, and use the lowest accessible interspace in a young infant.</li>
+    <li>Palpation alone is unreliable. In one review of studies, landmark-only LP failed or was traumatic in roughly 28% of cases. Obese patients benefit most from ultrasound: it more than doubles success compared with palpation alone. A bedside ultrasound marks the midline and the interspace; mark with the patient already in the final position and do not let them move afterwards.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Local anaesthesia</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Infiltrate skin and the tissue along the needle track with 1% lidocaine using a 25 to 30 G needle. Wait one to two minutes.</li>
+    <li>Infants: oral sucrose helps. Older children: nitrous oxide may be available, but it can alter pressure readings if you are measuring opening pressure.</li>
+    <li>Do not sedate a patient with reduced consciousness or raised pressure to make the procedure easier. A calm, well-held patient and a good explanation work better than sedation.</li>
+  </ul>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="step-by-step-technique" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+    Step-by-Step Technique
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+    <li><strong>Re-check and position.</strong> Final look at pupils, GCS and the checklist. Position the patient and mark the interspace.</li>
+    <li><strong>Scrub, glove and drape.</strong> Mask, sterile gloves. Clean a wide area of skin with antiseptic, allow it to dry, and drape.</li>
+    <li><strong>Anaesthetise</strong> as in Section 6.</li>
+    <li><strong>Insert the needle</strong> with the stylet in, in the midline, perpendicular to the skin in both planes, with a slight tilt toward the umbilicus. If the needle has a cutting bevel, point the bevel to the side when the patient is sitting, or toward the ceiling when the patient is lying, so it separates the dural fibres instead of cutting them. Atraumatic needles are used through an introducer and need no bevel alignment.</li>
+    <li><strong>Advance slowly.</strong> Expect the skin, then the ligaments, then a firmer resistance, then a give or &ldquo;pop&rdquo; through the dura. In children and slim adults the space is shallow, so advance in small steps and remove the stylet to check for flow when you are near the expected depth.</li>
+    <li><strong>Remove the stylet.</strong> CSF should drip or flow. If it does not, replace the stylet and advance 1 to 2 mm, or rotate the needle in quarter turns with the stylet out.</li>
+    <li><strong>Measure the opening pressure</strong> if indicated (Section 9), with the patient lying on their side, relaxed and breathing normally.</li>
+    <li><strong>Collect CSF</strong> by letting it drip into the numbered tubes. Do not pull on a syringe unless you must, as aspiration raises the risk of headache. Typical order: tube 1 for chemistry (protein and glucose), tube 2 for microbiology (Gram stain, culture, PCR, Xpert Ultra, CrAg), tube 3 for cell count, tube 4 spare. Collect a larger volume (about 6 mL or more in an adult) when TB meningitis is suspected and Xpert Ultra will be used.</li>
+    <li><strong>Replace the stylet before you withdraw the needle.</strong> This reduces the risk of post-LP headache. Withdraw needle and stylet together.</li>
+    <li><strong>Apply pressure and a dressing.</strong> Send all samples to the laboratory at once. Give the antibiotic immediately if it has not already been given.</li>
+  </ol>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-pitfalls-and-how-to-fix-them" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+    Technique Pitfalls and How to Fix Them
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+  <th class="py-2 pr-3 font-semibold">Problem</th><th class="py-2 pr-3 font-semibold">Likely cause</th><th class="py-2 pr-3 font-semibold">What to do</th>
+  </tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+  <tr class="align-top"><td class="py-2 pr-3">Needle hits bone at shallow depth</td><td class="py-2 pr-3">Off the midline, or the angle is too steep or too far cephalad (the spinous process or lamina).</td><td class="py-2 pr-3">Withdraw to the subcutaneous tissue, re-find the midline and the angle, and redirect. Do not push.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Needle hits bone deeper</td><td class="py-2 pr-3">Contact with the lamina or vertebral body, often because the needle is too lateral.</td><td class="py-2 pr-3">Withdraw and redirect, a little more cephalad.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">No CSF at the expected depth</td><td class="py-2 pr-3">Needle tip not yet through the dura, tip against a nerve root, stylet not fully out, or poor flexion.</td><td class="py-2 pr-3">Replace the stylet and advance 1 to 2 mm, or rotate the needle. If that fails, reposition the patient and try again.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Shooting pain or tingling down a leg</td><td class="py-2 pr-3">Needle touching a nerve root.</td><td class="py-2 pr-3">Stop and withdraw slightly. Redirect to the opposite side. Never inject or push through.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Slow flow</td><td class="py-2 pr-3">Needle partly against a nerve root, low CSF pressure, or poor positioning.</td><td class="py-2 pr-3">Rotate the needle, relax and straighten the legs, check position. Slow aspiration of a small volume is an option but raises headache risk.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Blood-stained CSF</td><td class="py-2 pr-3">Traumatic tap, or true subarachnoid haemorrhage.</td><td class="py-2 pr-3">Compare tubes: a traumatic tap clears from tube 1 to the last tube. Count red cells in the first and last tubes. Correct the white cell count and interpret with the differential.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Repeated failure</td><td class="py-2 pr-3">Poor landmarks, obesity, degenerative spine, restless child.</td><td class="py-2 pr-3">Change to sitting, try a different interspace, use ultrasound, or hand over to a more experienced operator. Each extra attempt increases trauma, and antibiotics must not wait.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Post-LP headache later</td><td class="py-2 pr-3">Large or cutting needle, or multiple punctures.</td><td class="py-2 pr-3">Use the thinnest or an atraumatic needle (Section 12).</td></tr>
+  </tbody></table></div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="opening-pressure-and-therapeutic-lp" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+    Opening Pressure and Therapeutic LP
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Measuring it</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Normal opening pressure in adults and children over 8 years is roughly 6 to 25 cmH<sub>2</sub>O (60 to 250 mmH<sub>2</sub>O). In HIV-associated cryptococcal meningitis, WHO defines raised pressure as 25 cmH<sub>2</sub>O or above.</li>
+    <li>Measure with the patient on their side, legs extended and relaxed, neck neutral, breathing normally. Let the column rise, then settle and swing with breathing. Read the top of the stable column in cmH<sub>2</sub>O (1 cmH<sub>2</sub>O is about 10 mmH<sub>2</sub>O). A crying child or a straining adult gives a falsely high reading.</li>
+    <li><strong>Improvised manometer:</strong> attach a sterile IV extension set or giving set, hold it vertical, and read the height of the column above the needle on a ruler. Agreement between improvised measurements and standard spinal manometers has varied between studies, and a 2026 review calls for wider access to proper spinal manometers. An approximate reading is still better than none in cryptococcal meningitis.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cryptococcal meningitis in advanced HIV</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>WHO&rsquo;s 2022 cryptococcal guideline holds that raised intracranial pressure does not contraindicate LP when cryptococcal meningitis is suspected. Measure pressure, send CSF CrAg, and use serum CrAg when LP cannot be done.</li>
+    <li>If the pressure is 25 cmH<sub>2</sub>O or above, or there are symptoms of raised pressure (headache, vomiting, visual loss, drowsiness), drain CSF with the same needle. A common target is to halve the opening pressure or bring it below 20 cmH<sub>2</sub>O. Southern African guidance, where no manometer is available, advises removing about 20 to 30 mL of CSF in a patient with signs of raised pressure. Repeat if symptoms or pressure return. Follow your national or hospital protocol for the exact limits.</li>
+    <li>Antifungal regimens are in the HIV and cryptococcal guides; this section covers the needle only.</li>
+  </ul>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="csf-handling-and-interpretation" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+    CSF Handling and Interpretation
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Handling</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Deliver the samples to the laboratory immediately. Cell counts fall if the sample stands, because cells lyse or stick to the tube.</li>
+    <li>Label each tube in order, with the patient&rsquo;s name, time and site. Send the paired blood glucose.</li>
+    <li>For TB meningitis, a larger volume improves yield on Xpert Ultra: detection was higher with 6 mL or more in one study of HIV-positive adults. A negative Xpert does not exclude TB meningitis, and strongly suspected cases are treated without waiting.</li>
+    <li>In an outbreak, follow NCDC&rsquo;s CSF collection and sample transport annexes and send CSF to the state public health laboratory.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interpretation (use together with the clinical picture)</strong>
+  <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+  <th class="py-2 pr-3 font-semibold">Condition</th><th class="py-2 pr-3 font-semibold">Typical CSF findings</th><th class="py-2 pr-3 font-semibold">Key tests and notes</th>
+  </tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+  <tr class="align-top"><td class="py-2 pr-3">Normal</td><td class="py-2 pr-3">Clear. 0 to 5 cells per &micro;L in adults (higher in infants). Protein 20 to 45 mg/dL (0.2 to 0.45 g/L). Glucose about 45 to 80 mg/dL (2.5 to 4.4 mmol/L), around 60% of blood glucose.</td><td class="py-2 pr-3">Use age-appropriate ranges in infants and young children.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Bacterial</td><td class="py-2 pr-3">Often cloudy. Neutrophils, often thousands. Protein usually above 100 mg/dL (above 1 g/L). Glucose low, below 40 mg/dL (2.2 mmol/L), or CSF-to-blood ratio below about 0.4.</td><td class="py-2 pr-3">Gram-positive diplococci: pneumococcus. Gram-negative diplococci: meningococcus. Gram-negative coccobacilli: <em>H. influenzae</em>. Gram-positive bacilli: <em>Listeria</em>. Glucose is normal in about half of cases, so do not rely on it alone.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Viral</td><td class="py-2 pr-3">Usually 100 to 1000 cells per &micro;L, lymphocytes (neutrophils early). Protein mildly raised. Glucose normal.</td><td class="py-2 pr-3">PCR where available. Can mimic partly treated bacterial disease early on.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Tuberculous</td><td class="py-2 pr-3">Clear to cloudy. Lymphocytes or a mixed picture. Protein 100 to 200 mg/dL or higher. Glucose low, below about 40 to 50 mg/dL.</td><td class="py-2 pr-3">Xpert Ultra on a large volume. AFB smear is insensitive. Treat on suspicion.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Cryptococcal</td><td class="py-2 pr-3">Few or no cells (may be normal in advanced HIV). Protein normal to mildly raised. Glucose normal or low.</td><td class="py-2 pr-3">CrAg on CSF and serum. Opening pressure is often high.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Partly treated bacterial</td><td class="py-2 pr-3">May look lymphocytic, glucose and protein still abnormal.</td><td class="py-2 pr-3">Gram stain and culture yield fall. PCR, cell count, protein and glucose still help.</td></tr>
+  </tbody></table></div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Traumatic tap</strong>
+  <p class="text-sm">Blood in the CSF raises the white cell count. A common correction is to subtract about 1 white cell for every 700 to 1000 red cells, though different laboratories use different factors. Interpret the count with the differential and the clinical picture, and compare red cell counts between the first and last tubes.</p>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="treatment-does-not-wait-for-the-lp" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+    Treatment Does Not Wait for the LP
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>WHO&rsquo;s principle is to collect blood cultures and do the LP before antibiotics where this is possible without delay. <strong>Any delay in diagnostic tests must not delay treatment.</strong> The first hour after suspecting bacterial meningitis is the target window.</li>
+    <li>Empiric first-line treatment is intravenous ceftriaxone or cefotaxime. During meningococcal or pneumococcal epidemics ceftriaxone is preferred, intramuscularly if IV access is not immediately possible. Chloramphenicol with ampicillin or benzylpenicillin is an option only when neither cephalosporin is available. Add ampicillin or amoxicillin for risk of <em>Listeria</em> (age over 60, pregnancy, advanced HIV, diabetes, immunosuppression). During meningococcal epidemics, WHO recommends 5 days of ceftriaxone.</li>
+    <li>Where an LP can be done, give corticosteroids (dexamethasone is the usual choice) with the first dose of antibiotic in suspected bacterial meningitis, and stop them if the CSF does not look bacterial. WHO recommends against routine steroids during meningococcal epidemics, and they should not be given in cerebral malaria. Where an LP cannot be done, steroids may be considered when bacterial meningitis is strongly suspected.</li>
+    <li>Test for malaria in every febrile child with altered consciousness. Treat malaria and meningitis at the same time when both are possible, and do the LP once it is safe.</li>
+    <li>Before referral, give a first parenteral dose of antibiotic if bacterial meningitis is strongly suspected and the transfer will be delayed.</li>
+  </ul>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-aftercare-and-consent" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+    Complications, Aftercare and Consent
+  </h2>
+  <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+  <p class="font-brand text-sm font-semibold mb-3">Complications to Recognise Early</p>
+  <ul class="space-y-2">
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Cerebral herniation:</strong> worsening headache, vomiting, falling GCS, unequal or sluggish pupils, slow pulse and high blood pressure. Call for help, lay the patient with the head raised about 30 degrees, secure the airway and give oxygen. WHO lists hypertonic saline or mannitol as a temporary measure for impending herniation. Arrange urgent senior and neurosurgical help.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Spinal or epidural haematoma:</strong> rare. New severe back pain, leg weakness, numbness or urinary retention after an LP is an emergency. Refer at once.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Meningitis after LP:</strong> rare, and prevented by sterile technique.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Persistent post-LP headache</strong> that is severe or lasts more than a few days: refer for review, including consideration of an epidural blood patch.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Diplopia</strong> days later, from a sixth cranial nerve palsy after low pressure: usually settles, but tell the patient to report it.</span></li>
+  </ul>
+  </div>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">After the procedure</strong>
+  <ul class="list-disc pl-5 space-y-1.5 text-sm">
+    <li>Monitor pulse, blood pressure, GCS and pupils at regular intervals for several hours, more often if the patient was borderline.</li>
+    <li>Routine bed rest does not prevent headache. Let the patient lie flat if they are more comfortable, drink fluids, and get up when ready.</li>
+    <li>Common minor effects: local back pain and a mild headache. Treat with paracetamol.</li>
+    <li>Atraumatic needles lower the risk. In a pooled analysis of randomised trials, post-LP headache occurred in roughly 4% with atraumatic needles against about 11% with conventional needles. Needle gauge, position and bed rest made no clear difference.</li>
+    <li>Document the indication, the checks done, GCS, position, level, needle type and gauge, number of attempts, opening pressure, appearance, volumes, samples sent, complications and the time antibiotics were given.</li>
+  </ul>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Consent: what to say</strong>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;Your relative may have an infection around the brain. The only way to find out which germ is causing it, and to choose the right treatment, is to test the fluid around the spinal cord. I will numb the skin and put a thin needle in the lower back, below the end of the spinal cord. It takes a few minutes. Treatment will not wait for this test. A headache afterwards is common and usually settles.&rdquo;</p>
+  <p class="text-sm">Relatives sometimes fear that an LP can paralyse or kill. Listen to the fear, answer it plainly, and do not argue. For a patient who cannot consent, follow your hospital policy on surrogate consent.</p>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+    Special Situations
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+  <th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What changes</th>
+  </tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+  <tr class="align-top"><td class="py-2 pr-3">Children over 1 month</td><td class="py-2 pr-3">Same WHO criteria. Needle length by height. Sitting position for term infants. No neck flexion in infants. Aim L3&ndash;L4 or L4&ndash;L5. Normal cell count and protein run higher in infants.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Neonates under 1 month</td><td class="py-2 pr-3">Outside the WHO guideline scope. Use your neonatal protocol and the most experienced operator. In preterm babies use L4&ndash;L5, in term babies L3&ndash;L4.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Advanced HIV disease</td><td class="py-2 pr-3">Headache needs CrAg and a prompt LP with opening pressure. Do not defer for raised pressure alone. Add TB testing on CSF.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Sickle cell disease</td><td class="py-2 pr-3">Higher risk of pneumococcal meningitis. Treat early. Same LP criteria apply.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Pregnancy</td><td class="py-2 pr-3">Not a contraindication. Use the lateral position. Add amoxicillin or ampicillin to empiric treatment for <em>Listeria</em>.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Obesity, degenerative spine</td><td class="py-2 pr-3">Sitting position, longer needle, ultrasound mapping, or help from an anaesthetist.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">Bloody tap with suspected subarachnoid haemorrhage</td><td class="py-2 pr-3">Compare tubes and involve a senior. This is a different pathway from meningitis.</td></tr>
+  <tr class="align-top"><td class="py-2 pr-3">CSM outbreak</td><td class="py-2 pr-3">Collect CSF from as many suspected cases as practical and send it to the state public health laboratory, but never delay antibiotics. Do not give routine steroids once meningococcus is the identified cause.</td></tr>
+  </tbody></table></div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+    Videos and Learning Resources
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+  <div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://pubmed.ncbi.nlm.nih.gov/17005943/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Lumbar Puncture</a> &ndash; the standard teaching video. The video itself may need institutional access.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.mededportal.org/doi/10.15766/mep_2374-8265.326" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MedEdPORTAL: Lumbar Puncture Step by Step</a> &ndash; a peer-reviewed video tutorial with a checklist.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=-X6vWG51aXE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Lumbar Puncture Made Easy for OSCE</a> &ndash; a short stepwise demonstration.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=WpXGUn7eGZE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Lumbar Puncture Tutorial</a> &ndash; tutorial-style demonstration.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=FHm_j22oBNo" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Spinal Tap (Lumbar Puncture)</a> &ndash; another view of the full procedure.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=P7XsOgjSr6g" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Lumbar Puncture Demonstration</a> &ndash; demonstration of the steps and equipment.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=7tcrSd5lLoc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to do a lumbar puncture</a> &ndash; general technique.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=-NWJ_iQgxTc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to perform a lumbar puncture in the emergency department</a> &ndash; emergency setting, with indications and contraindications.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/lumbar-puncture-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Lumbar Puncture (LP) OSCE guide</a> &ndash; checklist-style walk-through of the procedure.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://app.geekymedics.com/osce-stations/lumbar-puncture-explanation/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Lumbar puncture explanation station</a> &ndash; practise the consent conversation. May need a subscription.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://oxfordmedicaleducation.com/clinical-skills/procedures/lumbar-puncture/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Oxford Medical Education: Lumbar puncture</a> &ndash; stepwise guide with the key steps.</div>
+  </div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Children and infants</strong>
+  <div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://dontforgetthebubbles.com/?p=31106" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Don&rsquo;t Forget the Bubbles: How to perform a lumbar puncture</a> &ndash; positioning and technique in infants and children, with video.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rch.org.au/clinicalguide/guideline_index/lumbar_puncture_guideline/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Children&rsquo;s Hospital Melbourne: Lumbar puncture guideline</a> &ndash; indications, positioning, needles, and post-procedure care.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rch.org.au/clinicalguide/forms/Lumbar_Puncture_Needles" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Children&rsquo;s Hospital Melbourne: Lumbar puncture needle length by height and age</a> &ndash; the needle-length table.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.umassmed.edu/pediatrics/residency/woo-site/resources/additional-members-are-page/wooprocedurevideos/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">UMass paediatrics residency: procedure video library</a> &ndash; look for the lumbar puncture entry.</div>
+  </div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ultrasound-assisted LP</strong>
+  <div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.medmastery.com/magazine/identifying-lumbar-spine-ultrasound" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Medmastery: Identifying the lumbar spine on ultrasound</a> &ndash; a 2-minute video on spine anatomy on ultrasound.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://acep.org/sonoguide/procedures/lumbar-puncture" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ACEP SonoGuide: Lumbar puncture</a> &ndash; scanning technique and evidence.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.emdocs.net/ultrasound-lumbar-puncture-maximize-first-pass-success-patients-large-body-habitus/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">emDocs: Ultrasound for lumbar puncture in patients with large body habitus</a> &ndash; probe choice and first-pass success in obese patients.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://jomi.com/article/588" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">JoMI: Neuraxial ultrasound before lumbar procedures</a> &ndash; a peer-reviewed video of preprocedural spine ultrasound. May need a subscription.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cdn.mdedge.com/files/s3fs-public/issues/articles/jhm014100591.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Society of Hospital Medicine position statement: ultrasound-guided adult lumbar puncture</a> &ndash; consensus recommendations on mapping and marking.</div>
+  </div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and resource-limited practice</strong>
+  <div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/books/NBK614846/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO guidelines on meningitis diagnosis, treatment and care (2025)</a> &ndash; the source for the Section 3 criteria and the treatment sequence.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ncbi.nlm.nih.gov/books/n/who357088/ch2" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO guidelines on cryptococcal disease in people living with HIV (2022)</a> &ndash; LP, opening pressure and CrAg in cryptococcal meningitis.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.neurocriticalcare.org/Portals/0/ENLS%205.0/Resource%20Limited/Resource%20Limited%20Meningitis%20and%20Encephalitis.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neurocritical Care Society ENLS: Resource-limited meningitis and encephalitis</a> &ndash; a protocol for settings where CT may not be available.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ncdc.gov.ng/themes/common/docs/protocols/51_1510449270.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NCDC: Preparedness and Response to Cerebrospinal Meningitis Outbreaks</a> &ndash; includes annexes on how to collect CSF and how to package and transport samples.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncdc.gov.ng/news/535/3rd-march-2026-%7C-public-health-advisory-on-cerebrospinal-meningitis-%28csm%29" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NCDC public health advisory on cerebrospinal meningitis (March 2026)</a> &ndash; the current national advisory.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cdn.ymaws.com/www.theabn.org/resource/collection/555C7771-1AAB-41AE-AE28-211E01D3F838/26-10-ABN-LP-guidance-CORRECTION-OCT26.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Association of British Neurologists: lumbar puncture guidance (2026)</a> &ndash; platelet and INR thresholds, anticoagulants, needle choice.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://thennt.com/nnt/atraumatic-versus-conventional-needles-lumbar-puncture/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">The NNT: Atraumatic versus conventional LP needles</a> &ndash; headache numbers in plain language.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://emottawablog.com/2018/11/atraumatic-versus-conventional-lumbar-puncture-needles-a-systematic-review-and-meta-analysis/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EMOttawa: Atraumatic versus conventional LP needles</a> &ndash; summary of the meta-analysis.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13566448/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Under pressure: access to spinal manometers in cryptococcal meningitis</a> &ndash; why measurement matters and what to do without a manometer.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7756785/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Intracranial pressure management in HIV-associated cryptococcal meningitis, resource-constrained setting</a> &ndash; practical management where manometers are limited.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6830139" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Xpert MTB/RIF Ultra: optimal procedures for CSF</a> &ndash; how to collect and process CSF for TB meningitis testing.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/professional/multimedia/table/cerebrospinal-fluid-findings-in-meningitis" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: CSF findings in meningitis</a> &ndash; comparison table.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fpnotebook.com/Neuro/Lab/CrbrspnlFldExmntn.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Family Practice Notebook: CSF examination</a> &ndash; reference values and patterns.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/meningitis/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Meningitis</a> &ndash; clinical overview. May need a subscription.</div>
+  </div>
+  <p class="text-sm">Video quality varies. Start with the NEJM and MedEdPORTAL videos, then use the others to see different operators, settings and needles.</p>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+    Key Clinical Takeaways
+  </h2>
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+  <p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+  <ul class="space-y-2">
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Without CT, defer the LP if the GCS is below 10, or there are focal signs, cranial nerve deficits, papilloedema, new-onset seizures in an adult, or severe immunosuppression. The exception is HIV with suspected first-episode cryptococcal meningitis, who should have a prompt LP with opening pressure and CrAg.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never delay antibiotics for an LP or for CT. Draw blood cultures, give ceftriaxone, and add dexamethasone where WHO advises it, then do the LP when it is safe.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Shock, spreading purpura, infection at the site, and uncorrected coagulopathy also mean no LP for now. Aim for platelets above 40 and INR below 1.5 where you can test.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Position decides success: spine fully flexed, back square to the bed, interspace L3&ndash;L4 or L4&ndash;L5. Use ultrasound in obese or difficult backs.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use an atraumatic needle if you have one. Bevel parallel to the dural fibres for a cutting needle. Replace the stylet before withdrawing.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Measure opening pressure in the lateral position. In cryptococcal meningitis, 25 cmH<sub>2</sub>O or above means drain CSF, and an improvised manometer beats no reading.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Number your tubes, send a paired blood glucose, collect 6 mL or more when TB is suspected, and get the samples to the laboratory at once.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Interpret CSF as a pattern, not a single number. Partly treated disease still shows in cells, protein, glucose, CrAg and PCR.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Expect herniation, spinal haematoma and severe headache to be rare, but know the signs and act at once.</span></li>
+    <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Explain the procedure clearly and answer family fears. A well-counselled relative makes the next LP easier.</span></li>
+  </ul>
+  </div>
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+    <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+      <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+      <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+    </summary>
+    <div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+      <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization. WHO guidelines on meningitis diagnosis, treatment and care. Geneva: WHO; 2025.</p>
+      <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. Guidelines for diagnosing, preventing and managing cryptococcal disease among adults, adolescents and children living with HIV. Geneva: WHO; 2022.</p>
+      <p class="text-[10px] leading-snug text-stone-500">3. World Health Organization. WHO consolidated guidelines on tuberculosis, Module 3: Diagnosis. Geneva: WHO; 2025 (low-complexity automated NAATs on CSF for TB meningitis).</p>
+      <p class="text-[10px] leading-snug text-stone-500">4. Association of British Neurologists. Guidance on lumbar puncture, 2026 update (platelet and INR thresholds, anticoagulants, needle choice).</p>
+      <p class="text-[10px] leading-snug text-stone-500">5. Nigeria Centre for Disease Control and Prevention. Preparedness and response to cerebrospinal meningitis outbreaks, 2017; and public health advisory on cerebrospinal meningitis, 3 March 2026.</p>
+      <p class="text-[10px] leading-snug text-stone-500">6. Conference abstract: lessons from the 2025 cerebrospinal meningitis outbreak in Sokoto State, Nigeria. Population Medicine 2026;8(Suppl 1):A3127.</p>
+      <p class="text-[10px] leading-snug text-stone-500">7. Systematic review and meta-analysis of randomised trials comparing atraumatic and conventional lumbar puncture needles. Lancet Neurology 2018; and BMJ Rapid Recommendations on lumbar puncture needles.</p>
+      <p class="text-[10px] leading-snug text-stone-500">8. Society of Hospital Medicine POCUS Task Force. Position statement on ultrasound guidance for adult lumbar puncture. J Hosp Med 2019;14:591-601.</p>
+      <p class="text-[10px] leading-snug text-stone-500">9. Royal Children&rsquo;s Hospital Melbourne. Clinical practice guideline: Lumbar puncture, and lumbar puncture needle length table.</p>
+      <p class="text-[10px] leading-snug text-stone-500">10. New England Journal of Medicine, Videos in Clinical Medicine. Lumbar puncture. N Engl J Med 2006;355:e12.</p>
+      <p class="text-[10px] leading-snug text-stone-500">11. Expert review: Xpert MTB/RIF Ultra, optimal procedures for detecting Mycobacterium tuberculosis in cerebrospinal fluid.</p>
+      <p class="text-[10px] leading-snug text-stone-500">12. Reviews of intracranial pressure management and spinal manometry in HIV-associated cryptococcal meningitis in resource-limited settings (South Afr J HIV Med 2020; AIDS 2026).</p>
+      <p class="text-[10px] leading-snug text-stone-500">13. Neurocritical Care Society Emergency Neurological Life Support, resource-limited protocols: meningitis and encephalitis.</p>
+      <p class="text-[10px] leading-snug text-stone-500">14. Merck Manual Professional Edition. Cerebrospinal fluid findings in meningitis.</p>
+    </div>
+  </details>
+  </div>
+  </body>
+  </html>
+      `
+  },
+
+  {
+    id: 'procedure-difficult-iv-access',
+    title: 'IV Cannulation in Difficult Access',
+    category: 'Procedures',
+    subCategory: 'General',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IV Cannulation in Difficult Access</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+  .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+  .font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+  .quote { border-left-width: 3px; border-left-style: solid; }
+  details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; VASCULAR ACCESS</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">IV Cannulation in Difficult Access</h1>
+    <p class="text-sm text-indigo-200">A child with gastroenteritis whose veins have collapsed, or an adult with sickle cell disease whose arms have been stuck dozens of times, can turn a ten-minute task into an hour of failed attempts while treatment waits. This guide covers whether you need a vein at all, how to predict difficulty, how to make the standard technique work, ultrasound and transillumination, and the escalation ladder: intraosseous access, external jugular, scalp vein and saphenous cutdown.</p>
+  </div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+  <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+  <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+    <li><a href="#why-difficult-access-is-an-everyday-problem-here" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why Difficult Access Is an Everyday Problem Here</span></a></li>
+    <li><a href="#do-you-need-a-vein-right-now" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Do You Need a Vein Right Now?</span></a></li>
+    <li><a href="#predict-difficulty-before-the-first-stick" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Predict Difficulty Before the First Stick</span></a></li>
+    <li><a href="#equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Equipment</span></a></li>
+    <li><a href="#prepare-the-patient-warmth-position-pain-and-a-calm-room" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Prepare the Patient: Warmth, Position, Pain and a Calm Room</span></a></li>
+    <li><a href="#standard-technique-done-well" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Standard Technique, Done Well</span></a></li>
+    <li><a href="#ultrasound-guided-peripheral-iv" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Ultrasound-Guided Peripheral IV</span></a></li>
+    <li><a href="#the-escalation-ladder-when-a-peripheral-line-fails" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>The Escalation Ladder When a Peripheral Line Fails</span></a></li>
+    <li><a href="#sickle-cell-patients-with-poor-veins" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Sickle Cell Patients with Poor Veins</span></a></li>
+    <li><a href="#securing-using-and-looking-after-the-line" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Securing, Using and Looking After the Line</span></a></li>
+    <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Videos and Learning Resources</span></a></li>
+    <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-difficult-access-is-an-everyday-problem-here" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  Why Difficult Access Is an Everyday Problem Here
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Dehydrated and shocked children.</strong> Gastroenteritis, malaria, sepsis and severe anaemia bring children with flat, cold, collapsed veins. WHO-based protocols for severe dehydration depend on IV fluid, and the first minutes decide how well the child recovers. In a systematic review of paediatric studies, about half of peripheral cannulations were judged challenging, and many needed up to four attempts.</li>
+  <li><strong>Sickle cell disease.</strong> Frequent admissions, repeated cannulation and past infusions scar and thrombose the veins. Repeated venepuncture changes vein structure over time, so the veins that worked last year may not be there now. These patients need analgesia within the hour, and the pain makes the next cannulation harder.</li>
+  <li><strong>Our setting.</strong> Many wards have no ultrasound, no vein finder and few paediatric cannulas. The usual operator is a house officer or nurse working alone. The skill is to know early when to stop trying the same thing and move to the next step.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="do-you-need-a-vein-right-now" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Do You Need a Vein Right Now?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Ask this before you reach for a tourniquet. The answer shapes how hard you push for a peripheral IV and how quickly you move to the intraosseous route.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do first</th><th class="py-2 pr-3 font-semibold">Access plan</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Child in shock, severe dehydration with danger signs, or coma</td><td class="py-2 pr-3">Treatment cannot wait. Prepare the IO kit while you attempt a peripheral line.</td><td class="py-2 pr-3">If a peripheral IV is not in within about 90 seconds, go to the intraosseous route or the external jugular vein. Scalp vein is a temporary option in infants, but IO is preferred.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Child with some dehydration who is drinking</td><td class="py-2 pr-3">Give ORS by mouth in small frequent amounts. No IV is needed.</td><td class="py-2 pr-3">Do not cannulate a child who can be rehydrated orally.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Severe dehydration without shock when IV access fails</td><td class="py-2 pr-3">WHO Plan C lets you give ORS by nasogastric tube while you try for access or arrange transfer.</td><td class="py-2 pr-3">Nasogastric rehydration does not give fluid fast enough for shock. Shock needs an IV or IO line.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Vaso-occlusive crisis in sickle cell disease</td><td class="py-2 pr-3">Pain relief within one hour of arrival. Do not wait for a cannula. If IV access will delay the first dose or is not possible, give the first opioid dose subcutaneously (avoid intramuscular injection). Where stocked, intranasal fentanyl is a bridge, especially in children.</td><td class="py-2 pr-3">Fluids by mouth when possible. IV fluid only at about maintenance rate, since overload risks acute chest syndrome.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected bacterial meningitis and no vein yet</td><td class="py-2 pr-3">WHO advises intramuscular ceftriaxone if IV access is not immediately possible.</td><td class="py-2 pr-3">Keep trying for a line in parallel.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="predict-difficulty-before-the-first-stick" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Predict Difficulty Before the First Stick
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>An Australian national vascular access position statement defines difficult intravenous access (DIVA) by reduced numbers of visible or palpable veins, poor vein quality, a history of difficult access, previous use of advanced strategies, or the patient telling you their veins are hard.</li>
+  <li>If you can neither see nor feel a vein, or the patient says they are a hard stick, plan the advanced approach from the start: warmth, good positioning, a skilled operator, and ultrasound if you have it.</li>
+  <li>The &ldquo;80 per cent rule&rdquo;: if you are not about 80 per cent confident of getting the line on the first attempt, ask the most experienced person available to go first. A failed first attempt makes the second harder.</li>
+  <li>Limit attempts. The 2021 Infusion Nurses Society standards say to escalate to a more skilled clinician or an alternative route after two unsuccessful attempts. The Australian paediatric guidance suggests no more than two attempts per clinician before early referral, and considers a longer line after two failed attempts by competent inserters with imaging.</li>
+  <li>In a child who is dying, the clock is different: about 90 seconds before moving to IO (Section 8).</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: two different clocks</p>
+<p class="text-sm">Standards written for stable patients limit you to two attempts per clinician. Guidelines for resuscitation, including the WHO-based MSF protocols used in epidemics, move to intraosseous access after about 90 seconds in a seriously ill child. Use the first clock for the sick-but-stable child or adult in pain. Use the second clock for shock, coma and cardiac arrest.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Cannulas</td><td class="py-2 pr-3">Choose the smallest gauge that fits the job. As a rule, the catheter should fill less than one third of the vein, with at least two thirds of its length inside the vein. Typical starting points: 24 to 26 G in neonates, 22 G in infants, 20 to 22 G in older children.</td><td class="py-2 pr-3">Use a smaller gauge rather than abandoning a good vein.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Tourniquet</td><td class="py-2 pr-3">Snug, not painful. A pulse should still be felt below it.</td><td class="py-2 pr-3">A strip of gauze or a glove tied loosely.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Warming</td><td class="py-2 pr-3">Warm pack or glove filled with warm (not hot) water for 3 to 5 minutes before the attempt.</td><td class="py-2 pr-3">Warm cloth. Let the limb hang down.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Light source</td><td class="py-2 pr-3">Bright LED torch or phone torch for transillumination in a dim room.</td><td class="py-2 pr-3">Penlight. A purpose-made vein finder is helpful but not necessary.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ultrasound</td><td class="py-2 pr-3">High-frequency linear probe, sterile gel, sterile probe cover.</td><td class="py-2 pr-3">A sterile glove over the probe. Landmark technique if there is no machine.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Antiseptic and flushes</td><td class="py-2 pr-3">Chlorhexidine or povidone-iodine, 5 to 10 mL flush syringes with saline.</td><td class="py-2 pr-3">Sterile water for flushing only if saline is not available.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Securing</td><td class="py-2 pr-3">Transparent dressing, tape, splint or padded board to immobilise the limb.</td><td class="py-2 pr-3">Gauze, tape and a padded cardboard or tongue-depressor splint.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Intraosseous kit</td><td class="py-2 pr-3">Manual IO needle (16 or 18 G) or an EZ-IO drill. MSF lists a paediatric needle for 3 to under 40 kg and an adult needle for 40 kg and above.</td><td class="py-2 pr-3">A manual bone marrow needle if no IO needle. Keep the kit at the bedside in every emergency area.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cutdown set</td><td class="py-2 pr-3">Scalpel, curved haemostat, small clamps, sutures, a cannula.</td><td class="py-2 pr-3">Used only when everything else has failed.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="prepare-the-patient-warmth-position-pain-and-a-calm-room" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Prepare the Patient: Warmth, Position, Pain and a Calm Room
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General preparation</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>Warm the limb. Warmth dilates veins and costs nothing. A cold, shocked child will not respond as well, but warming still helps.</li>
+  <li>Hydration helps in an adult with a stable circulation. For a shocked child you need the line to give the fluid, so do not wait.</li>
+  <li>Immobilise the limb. In infants, the extremity must be still. A wiggling limb defeats the best operator. Ask an assistant to hold the limb in a position that stretches the skin and holds the vein, and use your free hand to anchor the vein.</li>
+  <li>In babies and small children, the foot is often easier than the hand because the hand moves more.</li>
+  <li>Choose the best site before touching the skin: look and feel, then use transillumination or ultrasound if available.</li>
+  <li>Explain to the parent or patient what you are doing and how many tries you will make before changing plan.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pain and anxiety</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>Give oral sucrose or allow breastfeeding for infants. For older children, distraction, a calm assistant and a parent present reduce distress.</li>
+  <li><strong>EMLA cream:</strong> avoid in infants under 3 months. A meta-analysis found little or no pain relief in this age group compared with sucrose or breastfeeding. Use it with caution in G6PD deficiency, which is common in Nigeria, because prilocaine can cause methaemoglobinaemia. Do not use it in infants under 12 months who take drugs that cause methaemoglobinaemia, such as sulphonamides and dapsone. It needs about an hour to work, so it is no help in an emergency.</li>
+  <li>In sickle cell crisis, treat the pain first (Section 2). Keep the patient warm and avoid cold packs on the limb. A hot-water bottle wrapped in cloth on a painful area comforts, but keep it off the limb you plan to cannulate.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="standard-technique-done-well" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Standard Technique, Done Well
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+  <li><strong>Choose the vein.</strong> Straight, springy, and away from joints. Usual order: dorsal hand, forearm, then foot and ankle (including the great saphenous vein at the medial malleolus). Antecubital veins work but a flexed elbow kinks the line. In infants under about 10 months, scalp veins are a temporary alternative.</li>
+  <li><strong>Apply the tourniquet</strong> just above the site. Release it as soon as the cannula is in the vein.</li>
+  <li><strong>Clean the skin</strong> with antiseptic, let it dry, and use a no-touch technique. Do not re-palpate the vein after cleaning without sterile gloves.</li>
+  <li><strong>Anchor the skin</strong> below the site with your free hand, pulling it taut so the vein cannot roll.</li>
+  <li><strong>Enter at a shallow angle</strong> (roughly 10 to 30 degrees) with the bevel up, through the skin and then into the vein. A flash of blood in the hub tells you the needle tip is in.</li>
+  <li><strong>Advance a few millimetres more</strong> so the catheter tip is also in the vein, then slide the catheter off the needle.</li>
+  <li><strong>Release the tourniquet,</strong> withdraw the needle, and flush with saline. Check there is no swelling or resistance.</li>
+  <li><strong>Secure and splint.</strong> Cover the insertion site with a clean dressing that lets you see the skin. Splint the limb so the child cannot bend it. Write the date and time on the dressing.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Extra steps for flat, dehydrated veins</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>Hang the limb below heart level and warm it for a few minutes. Apply the tourniquet slightly tighter than usual, but never so tight that arterial flow stops.</li>
+  <li><strong>Transillumination:</strong> dim the room, hold a bright LED torch flat against the skin on the opposite side of the limb or beside the vein, and look for the veins as dark lines. This works well in the dorsum of the hand, foot and scalp of infants. Small randomised studies and case reports support transillumination in infants and children.</li>
+  <li><strong>Tourniquet-infusion technique</strong> (adults): place a small distal cannula, apply a tourniquet above it, and run fluid in under pressure so that larger veins distend and a larger cannula can be placed.</li>
+  <li>If you have attempted twice and are not certain of a third, stop, and call for help or move to the next step.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: vein-finding devices</p>
+<p class="text-sm">Ultrasound clearly raises first-attempt success in children, especially when difficult access has been predicted, but it does not always raise overall success. Near-infrared vein finders showed no clear benefit overall in meta-analyses, with possible benefit in the hardest cases, and a 2024 trial of one device in adults with sickle cell disease found no reduction in the number of attempts. Do not buy a device in the hope that it solves the problem. Training and technique come first.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="ultrasound-guided-peripheral-iv" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Ultrasound-Guided Peripheral IV
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">In a systematic review of paediatric trials, ultrasound guidance improved first-attempt success (risk ratio 1.60), and in the subgroup with difficult access the benefit was larger. Overall success did not change. A scan before the first stick, by an operator who has trained, saves time in the patient you already know is difficult.</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+  <li><strong>Set up.</strong> Place the screen directly in your line of sight with the cannula. Use a high-frequency linear probe with a small footprint, in a sterile cover, with sterile gel. Set a depth of about 1.5 to 3 cm.</li>
+  <li><strong>Scan before you prepare.</strong> Scan both arms (and the legs in young children) to find the best site. Veins compress easily with probe pressure, arteries do not and pulsate. Pick a straight segment, not too deep, away from the artery and nerve.</li>
+  <li><strong>Mark the vein</strong> if you will use a static technique, or keep the probe on the vein and guide the needle in real time.</li>
+  <li><strong>Choose a catheter long enough</strong> for the depth of the vein. Short catheters pull out of deep veins.</li>
+  <li><strong>Aim and enter.</strong> Hold the probe still, keep the vein in the centre of the screen, and bring the needle in at a shallow angle near the probe. Follow the needle tip on the screen. Do not rely on the flash alone.</li>
+  <li><strong>Advance the catheter</strong> only when you see the tip inside the lumen, then flush, confirm flow, and secure the line well. Lines placed this way fall out more easily if poorly secured.</li>
+</ol>
+<p class="text-sm">Training matters more than the machine. Practise on models and on easy veins before the difficult patient.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-escalation-ladder-when-a-peripheral-line-fails" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  The Escalation Ladder When a Peripheral Line Fails
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Step</th><th class="py-2 pr-3 font-semibold">When to use it</th><th class="py-2 pr-3 font-semibold">Key points and cautions</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Intraosseous (IO)</td><td class="py-2 pr-3">Seriously ill child or adult when a peripheral line cannot be placed within about 90 seconds. First choice in children.</td><td class="py-2 pr-3">Proximal tibia or distal tibia in children. Needs pressure for good flow. Remove within 24 hours. See below.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">External jugular vein (EJ)</td><td class="py-2 pr-3">Child in whom IO is not available or has failed, or where a larger bore line is needed fast.</td><td class="py-2 pr-3">Head down 30 degrees, head turned away. Right side preferred. Risk of air embolism if the head is raised. Unreliable to secure in a moving child.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Scalp vein</td><td class="py-2 pr-3">Infants under about 10 months, temporarily, when peripheral veins fail.</td><td class="py-2 pr-3">Not recommended for resuscitation by major associations. IO is preferred in an emergency.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Saphenous cutdown</td><td class="py-2 pr-3">Last resort when percutaneous, EJ and IO routes have failed or are not possible.</td><td class="py-2 pr-3">Needs surgical skill. Transverse incision just in front of the medial malleolus. Remove the catheter within 12 to 24 hours.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Central venous catheter or PICC</td><td class="py-2 pr-3">Not for the first hour of emergency resuscitation. Usually needs a specialist or imaging.</td><td class="py-2 pr-3">Higher risk of infection and thrombosis, especially in sickle cell disease (Section 9).</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Intraosseous access in practice</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Indication:</strong> a seriously ill patient in whom a peripheral line cannot be placed within about 90 seconds.</li>
+  <li><strong>Contraindications:</strong> a fractured or infected limb, an IO needle in the same site in the past 24 hours, recent surgery near the site. Use caution in children with oedematous malnutrition because of infection risk.</li>
+  <li><strong>Site:</strong> proximal tibia, on the flat anteromedial surface a short distance below the tibial tuberosity (about 1 cm in infants, 2 to 3 cm in older children), not on the ridge and away from the growth plate. Distal tibia, about 2 to 3 cm above the medial malleolus, is the second site.</li>
+  <li><strong>Technique:</strong> stabilise the leg with a rolled towel under the knee and the leg slightly rotated out. Clean the site with povidone-iodine. Insert the needle at 90 degrees to the bone with a firm twisting motion (manual) or with the drill. Stop when you feel a &ldquo;give&rdquo; as the needle enters the marrow. Remove the stylet.</li>
+  <li><strong>Confirm:</strong> you may see marrow or a flash of blood in the needle, but not always. Flush with 5 to 10 mL of Ringer lactate rapidly. If it flows freely and there is no swelling around the site, the needle is in the marrow. No flush means no flow.</li>
+  <li><strong>Run the infusion</strong> through the IO needle under pressure (syringe push or pressure bag). Secure the needle firmly.</li>
+  <li><strong>Limit attempts</strong> to one per bone. If it fails, remove the needle and try the other leg.</li>
+  <li><strong>Monitor:</strong> limb colour, swelling, pain, the infusion site, and the time since placement. Swelling in the limb means fluid is leaking outside the bone, so stop and check for compartment syndrome.</li>
+  <li><strong>Remove</strong> as soon as a reliable peripheral line is in place, and no later than 24 hours. Apply pressure, and dress the site.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Warning Signs During Escalation</p>
+<ul class="space-y-2">
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No IV in a child in shock after about 90 seconds.</strong> Stop trying and place an IO line.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Swelling around an IO or IV site, a tense limb, or a cold, pale or painful limb:</strong> stop the infusion at once. Suspect extravasation and compartment syndrome and get senior help.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Head raised during EJ or neck line placement:</strong> risk of air embolism. Keep the head down and cover the hub with a finger whenever the cannula is open.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Redness or discharge at an IO or cutdown site:</strong> remove the device and review for infection.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Repeated failures in a deteriorating patient:</strong> call the most experienced colleague. Do not carry on alone.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sickle-cell-patients-with-poor-veins" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+  Sickle Cell Patients with Poor Veins
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li><strong>Pain first.</strong> ASH 2020 recommends assessment and analgesia within one hour of arrival, with reassessment every 30 to 60 minutes. If cannulation will delay the first dose, give it by another route (Section 2). Pain control makes the patient calmer and the veins easier.</li>
+  <li><strong>Keep warm, avoid cold.</strong> Offer a warm blanket and heat for comfort, and avoid cold on the limb being cannulated.</li>
+  <li><strong>Use your best operator and ultrasound early.</strong> The British Society for Haematology recommends persevering with peripheral access in sickle cell disease, including ultrasound-guided cannulation, before turning to central lines.</li>
+  <li><strong>Use the shortest, smallest line that does the job,</strong> and protect the veins you have. Avoid leaving cannulas in for days. Remove them when the treatment is done. Longer catheters designed for deeper veins may last longer in patients with scarred veins.</li>
+  <li><strong>Fluids:</strong> prefer oral hydration. If IV fluids are needed, keep to about maintenance rate (some protocols cap total fluid at about 1.5 times maintenance). Excess fluid raises the risk of acute chest syndrome.</li>
+  <li><strong>Asepsis matters.</strong> People with sickle cell disease have impaired splenic function and are at higher risk of serious infection, so use strict no-touch technique and check the site daily.</li>
+  <li><strong>Central lines are a last resort.</strong> Sickle cell disease is a hypercoagulable state. In published series, between 3 and 41 per cent of central venous catheters in sickle cell disease were complicated by thrombosis. Infection is the other main problem. Avoid central lines unless the patient needs long-term access, such as regular transfusion, and then use a specialist team.</li>
+  <li><strong>If IO is truly needed</strong> in a sickle cell emergency, choose a limb with no bone pain, swelling or suspected osteomyelitis, since a fractured or infected limb is a contraindication. Reserve IO for life-threatening situations and remove it within 24 hours.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="securing-using-and-looking-after-the-line" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+  Securing, Using and Looking After the Line
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+  <li>Secure every line properly. A hard-won line that falls out in the night costs you the hour you saved. Splint the limb in children.</li>
+  <li>Check the insertion site at least hourly in the first hours and then regularly. Look for swelling, redness, pain, and blood tracking back.</li>
+  <li>If the infusion will not run, do not flush hard. Check for kinking, a closed clamp, or extravasation. A swollen site means stop, remove and re-site.</li>
+  <li>Do not use a line that is leaking. Fluid that goes into tissue instead of vein can cause tissue loss, especially with irritant drugs.</li>
+  <li>Remove the line when it is no longer needed. In MSF cholera protocols, the catheter can be removed once the patient has no profuse diarrhoea or vomiting, can match losses with ORS and shows no signs of dehydration after 4 to 6 hours of oral treatment. They add one caution: think about how hard it would be to get a new line in young children, the elderly and the obese if the patient deteriorates.</li>
+  <li>Record the number of attempts, sites used, catheter size, and any complication. Flag the patient as difficult access in the folder so the next team can plan from the start.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+  Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core procedure videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://pubmed.ncbi.nlm.nih.gov/21345096/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Intraosseous Catheter Placement in Children</a> &ndash; the standard teaching video. Full video may need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://visualize.jove.com/22716992" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Ultrasound-Guided Peripheral IV Placement</a> &ndash; listing for the NEJM video on ultrasound-guided peripheral IV placement.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.saem.org/cdem/education/online-education/m3-curriculum/group-emergency-department-procedures/vascular-access" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">SAEM: Vascular access, emergency department procedures curriculum</a> &ndash; links to the NEJM peripheral IV and ultrasound-guided IV videos, with flow-rate tables.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://nysora.com/mastering-difficult-iv-access-a-practical-manual-videos/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA: Mastering Difficult IV Access, video collection</a> &ndash; pediatric IV, difficult veins in the foot, ultrasound-guided saphenous cannulation, and more.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nysora.com/iv-access/iv-access-in-pediatric-patients/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA: IV access in pediatric patients</a> &ndash; hand, foot and scalp techniques for children, with embedded videos.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://youtu.be/p9XKRftTeTM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA video: IV in the foot of a child</a> &ndash; foot-vein technique for children.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://youtu.be/8W7DA2KHwPM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA video: transillumination of the dorsum of the hand</a> &ndash; finding veins in the hand of a child with transillumination.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=HXnekKicGmc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IV Access in Babies: 4 Top Tips</a> &ndash; practical advice for chubby, sick or small babies.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ultrasound-guided IV</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://coreultrasound.com/ultrasound-guided-peripheral-iv-access/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">5 Minute Sono: Ultrasound-Guided Peripheral IV Access</a> &ndash; three short videos: equipment and vein selection, technique, and securing the line.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=p-4QpxLanG0" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound Guided Peripheral IVs in Pediatric Patients, Part 1: Why Use It?</a> &ndash; first of a four-part series.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=OUpXQg4r1s4" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound Guided Peripheral IV Placement, step by step</a> &ndash; a simple step-by-step demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=g81sjVANuiA" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA: Difficult IV, tips for ultrasound-guided IV access</a> &ndash; technique from an expert operator.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=LTL_SaqXpZs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA: Guide to ultrasound-guided IV access</a> &ndash; a stepwise tutorial.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=IbSnhsTxKDA" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">CoreEM: Ultrasound Guided Peripheral IV Placement</a> &ndash; short demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.nuemblog.com/blog/sonopro-tips-and-tricks-for-peripheral-iv-access" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Northwestern Emergency Medicine: SonoPro tips and tricks for peripheral IV access</a> &ndash; practical tips for beginners.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aliem.com/pem-pearls-ultrasound-guided-peripheral-iv-access/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ALiEM: PEM Pearls, ultrasound-guided peripheral IV access</a> &ndash; basic and advanced tips for children.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aliem.com/aliemu-pediatric-ultrasound-peripheral-iv/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ALiEMU: Pediatric emergency ultrasound-guided peripheral IV access course</a> &ndash; a course on vascular anatomy, technique and troubleshooting. Includes a sickle cell case.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Intraosseous access</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=Rer4pH3HgOc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IO access in a child (Cape Town Emergency Medicine)</a> &ndash; an African teaching video on IO access in a child.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=KHXSfh2ZRDM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EMRAP: Intraosseous access</a> &ndash; a 3-minute demonstration of site selection and technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=E8HNOHig-To" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Intraosseous cannulation demonstration (cadaver-based course)</a> &ndash; a demonstration on a cadaver.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/shorts/RSI2lDHCZ8U" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Live demo: EZ-IO intraosseous access</a> &ndash; short clip of the drill device.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://wikem.org/wiki/Intraosseous_access" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WikEM: Intraosseous access</a> &ndash; site selection, needle length and procedure summary.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medicalguidelines.msf.org/en/viewport/CHOL/english/appendix-6-intraosseous-io-needle-insertion-in-children-25297231.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MSF Medical Guidelines: Intraosseous needle insertion in children</a> &ndash; written for resource-limited settings, with manual and EZ-IO methods.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pch.health.wa.gov.au/For-health-professionals/Emergency-Department-Guidelines/Intraosseous-access" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Perth Children&rsquo;s Hospital: Intraosseous access guideline</a> &ndash; indications, sites, complications and monitoring.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">External jugular, scalp vein and cutdown</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=aGIwUGEgSZA" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">External Jugular Vein Cannulation</a> &ndash; demonstration of the technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=OIKzfZXs110" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">External jugular cannulation in a neonate and an infant</a> &ndash; paediatric demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=NTqk4LaS7Ys" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to Cannulate the External Jugular Vein: step-by-step guide</a> &ndash; stepwise guide for first responders.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=1G-Cqf7gYJE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EJV cannulation in 5 minutes</a> &ndash; when and how, with sterile technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rchsd.org/documents/2014/02/external-jugular-vein" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Standardised procedure: external jugular vein cannulation in children</a> &ndash; positioning, equipment and steps.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.vumc.org/global-surgical-atlas/sites/default/files/public_files/PDF/Cutdown%20for%20Venous%20Access.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Open Manual of Surgery in Resource-Limited Settings: Cutdown for venous access</a> &ndash; step-by-step venous cutdown written for resource-limited settings.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rch.org.au/trauma-service/manual/circulation-procedures/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Children&rsquo;s Hospital Melbourne: circulation procedures (IO and cutdown)</a> &ndash; IO and saphenous cutdown in injured children.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://statpearls.com/point-of-care/20185" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">StatPearls: Saphenous vein cutdown</a> &ndash; anatomy, technique and complications.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and evidence</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medicalguidelines.msf.org/en/viewport/CHOL/english/5-3-severe-dehydration-32409706.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MSF: Severe dehydration (cholera guideline)</a> &ndash; IV rehydration protocol and the 90-second rule for EJ or IO access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.health.gov.za/wp-content/uploads/2023/04/POCKET-BOOK-OF-HOSPITAL-CARE-FOR-CHILDREN-2016.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">South African adaptation of the WHO Pocket Book of Hospital Care for Children</a> &ndash; emergency triage and the access steps for sick children.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cnsa.org.au/implement/vascular-access-devices/section-2-vessel-health-and-preservation/patients-with-difficult-intravenous-access.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Australian national position statement: difficult intravenous access</a> &ndash; risk factors, attempts, and escalation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9321813" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Systematic review: ultrasound-guided versus landmark PIV in children</a> &ndash; meta-analysis of paediatric trials.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cdn.mdedge.com/files/s3fs-public/jhm01612742.PDF" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Techniques and technologies to improve paediatric PIV outcomes</a> &ndash; Journal of Hospital Medicine review covering ultrasound and near-infrared.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ivteam.com/?p=264105" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Vein finder trial in adults with sickle cell disease</a> &ndash; summary of a randomised trial of a vein visualisation device in vaso-occlusive crisis.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/ba7f40950b1f45c892ad7ad1ae33495c" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Randomised study: LED transillumination vein finder in children</a> &ndash; transillumination for paediatric cannulation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.nepjol.info/index.php/JSAN/article/view/13556" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Case report: transillumination with a torch in an infant</a> &ndash; palm transillumination with an ordinary torch.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://b-s-h.org.uk/guidelines/guidelines/prevention-and-management-of-indwelling-catheter-related-thrombosis-in-sickle-cell-disease-and-thalassaemia" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">British Society for Haematology: catheter-related thrombosis in sickle cell disease</a> &ndash; central line risks and advice to persevere with peripheral access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pemcincinnati.com/blog/managing-pain-in-sickle-cell-vaso-occlusive-crises" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PEM Cincinnati: managing pain in sickle cell vaso-occlusive crises</a> &ndash; analgesia timing and intranasal bridging while waiting for IV access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pubmed.ncbi.nlm.nih.gov/30587535/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EMLA in infants under 3 months: meta-analysis</a> &ndash; efficacy and safety of EMLA for venipuncture in young infants.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.msdmanuals.com/en-sg/professional/critical-care-medicine/approach-to-the-critically-ill-patient/vascular-access" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: Vascular access</a> &ndash; peripheral, ultrasound-guided, cutdown and central access overview.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM, MSF, NYSORA and 5 Minute Sono resources, then use the others to see different operators and patients.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+  Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask first whether you need a vein: ORS for the child who can drink, a non-IV route for the first analgesic dose in sickle cell crisis, intramuscular ceftriaxone if suspected meningitis cannot get a line.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Predict difficulty. If you cannot see or feel a vein, or the patient says they are a hard stick, send your best operator first and use warmth and ultrasound from the start.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stable patient: two attempts per clinician, then escalate. Child in shock or coma: about 90 seconds, then IO.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Warm the limb, immobilise it, anchor the skin, shallow angle, secure the line well, and use transillumination in infants.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ultrasound raises first-attempt success in children, especially in predicted difficult access. Near-infrared devices have not shown clear overall benefit.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>IO is the first-line rescue in a seriously ill child: proximal or distal tibia, one attempt per bone, flush to confirm, run under pressure, remove within 24 hours.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>EJ vein: head down, head turned, watch for air. Scalp veins are a temporary option in young infants. Cutdown is a last resort.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cell disease: analgesia within an hour whatever the access, oral fluids first, maintenance-rate IV only, avoid cold, avoid central lines unless truly necessary.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check the site often, stop at the first sign of swelling, and remove the line when it is no longer needed.</span></li>
+  <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Record your attempts and flag difficult access for the next team.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+  <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+    <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+    <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </summary>
+  <div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+    <p class="text-[10px] leading-snug text-stone-500">1. Infusion Nurses Society. Infusion therapy standards of practice, 2021 (Standard 34: short peripheral catheters, escalate after two unsuccessful attempts; Standard 22: vascular visualisation).</p>
+    <p class="text-[10px] leading-snug text-stone-500">2. Cancer Nurses Society of Australia and partners. Patients with difficult intravenous access (DIVA): national position statement, version 1, January 2024.</p>
+    <p class="text-[10px] leading-snug text-stone-500">3. Medecins Sans Frontieres. Management of a cholera epidemic: Section 5.3 Severe dehydration; Appendix 6: Intraosseous needle insertion in children. MSF Medical Guidelines.</p>
+    <p class="text-[10px] leading-snug text-stone-500">4. World Health Organization. Pocket book of hospital care for children (South African adaptation, 2016): emergency triage and severe dehydration.</p>
+    <p class="text-[10px] leading-snug text-stone-500">5. New England Journal of Medicine, Videos in Clinical Medicine. Intraosseous catheter placement in children. N Engl J Med 2011;364:e14. Ultrasound-guided peripheral i.v. placement. N Engl J Med 2012.</p>
+    <p class="text-[10px] leading-snug text-stone-500">6. Perth Children&rsquo;s Hospital. Emergency department guideline: Intraosseous access.</p>
+    <p class="text-[10px] leading-snug text-stone-500">7. Systematic review and meta-analysis of randomised trials of ultrasound-guided versus landmark peripheral intravenous catheter insertion in paediatric patients, 2022.</p>
+    <p class="text-[10px] leading-snug text-stone-500">8. Systematic review and meta-analysis: techniques and technologies to improve peripheral intravenous catheter outcomes in paediatric patients. J Hosp Med 2021;16:742-750.</p>
+    <p class="text-[10px] leading-snug text-stone-500">9. Systematic review and meta-analysis: utility of near-infrared light devices for paediatric peripheral intravenous cannulation. Eur J Pediatr 2016;175:1975-1988.</p>
+    <p class="text-[10px] leading-snug text-stone-500">10. Randomised clinical trial of a vein visualisation device for peripheral line placement in adults with sickle cell disease. Int J Nurs Stud 2024;163:104988.</p>
+    <p class="text-[10px] leading-snug text-stone-500">11. British Society for Haematology. Prevention and management of indwelling catheter-related thrombosis in sickle cell disease and thalassaemia: good practice paper, 2024.</p>
+    <p class="text-[10px] leading-snug text-stone-500">12. American Society of Hematology 2020 guidelines for sickle cell disease: management of acute and chronic pain. National Heart, Lung, and Blood Institute. Evidence-based management of sickle cell disease: expert panel report, 2014.</p>
+    <p class="text-[10px] leading-snug text-stone-500">13. Meta-analysis of EMLA cream for venepuncture pain in infants under 3 months. Pediatrics 2019;143(1). Manufacturer data sheets for lidocaine-prilocaine cream (G6PD deficiency, methaemoglobinaemia).</p>
+    <p class="text-[10px] leading-snug text-stone-500">14. Open Manual of Surgery in Resource-Limited Settings: Cutdown for venous access. Royal Children&rsquo;s Hospital Melbourne trauma service manual: circulation procedures. StatPearls: Saphenous vein cutdown.</p>
+    <p class="text-[10px] leading-snug text-stone-500">15. World Health Organization. WHO guidelines on meningitis diagnosis, treatment and care. Geneva: WHO; 2025 (intramuscular ceftriaxone where intravenous access is not immediately possible).</p>
+  </div>
+</details>
+</div>
+</body>
+</html>
+    `
+},
+
 ];

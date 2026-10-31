@@ -1,7 +1,721 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
-
+  {
+    id: 'peds-140',
+    title: 'Recurrent Furunculosis of the Left Cheek',
+    specialty: 'Pediatrics',
+    subSpecialty: 'aediatric Infectious Diseases',
+    condition: 'Recurrent Furunculosis (Left Cheek)',
+    symptoms: [
+      'Recurrent left cheek swelling',
+      'Painful facial swelling',
+      'Erythema',
+      'Local warmth',
+      'Fluctuant facial lesion',
+      'Low-grade fever during previous episodes',
+      'Purulent discharge during previous episodes',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'A 5-year-old male child from Owerri, Imo State, presented with a 3-month history of recurrent painful swellings on the left cheek. The initial lesion progressively enlarged, became warm and tender, and ruptured spontaneously with purulent discharge before healing with a scar. There have been two similar recurrences at the same site. Examination revealed a 2 × 2 cm erythematous, warm, fluctuant and exquisitely tender swelling over the left malar region, with an adjacent old hyperpigmented scar. Assessed as recurrent furunculosis of the left cheek.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master Chidubem Okafor
+  
+  Age: 5 years
+  
+  Sex: Male
+  
+  Address: Owerri, Imo State
+  
+  Tribe: Igbo
+  
+  Religion: Christian
+  
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINT
+  
+  Recurrent facial swelling x 3/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 3 months ago when the mother noticed a small, painful, reddish bump on his left cheek. The lesion gradually increased in size over 4 days, becoming warm to the touch and very painful. There was associated low-grade fever but no chills or rigors. The swelling eventually ruptured spontaneously, discharging yellowish pus, after which it healed with a scar.
+  
+  Since the initial episode, the patient has had two similar recurrences at the same site. The current episode started 5 days ago. There is no history of similar swellings on other parts of the body. There is no history of excessive thirst, excessive urination, or weight loss. No history of chronic cough or contact with an adult with chronic cough. No history of easy bruising or recurrent ear discharge. No history of previous trauma to the site.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  Not a known sickle cell disease patient (HbAA).
+  
+  No previous hospitalizations or surgeries.
+  
+  No known drug allergies.
+  
+  BIRTH HISTORY
+  
+  Antenatal: Booked at a General Hospital. Mother took routine medications. No illnesses during pregnancy.
+  
+  Natal: Delivered at term via spontaneous vaginal delivery. Cried immediately at birth.
+  
+  Post-natal: No neonatal jaundice or sepsis. Birth weight was 3.2kg.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months.
+  
+  Weaned onto pap and family diet.
+  
+  Currently eats three times a day. Diet is adequate for age.
+  
+  IMMUNIZATION HISTORY
+  
+  Up to date with the National Programme on Immunization (NPI) schedule.
+  
+  BCG scar is visible on the left deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Gross motor: Sat at 6 months, walked at 12 months.
+  
+  Fine motor: Can draw a circle and use a spoon.
+  
+  Language: Speaks clearly in sentences.
+  
+  Social: Plays well with peers, attends nursery school.
+  
+  Development is appropriate for age.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Patient is the 2nd of 3 children in a monogamous setting.
+  
+  Father is a secondary school teacher; mother is a petty trader.
+  
+  They live in a well-ventilated 2-bedroom apartment.
+  
+  Source of water is a protected borehole. Refuse is disposed of via state waste management.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No history of seizures or headaches.
+  
+  RS: No cough or fast breathing.
+  
+  CVS: No easy fatigability or orthopnea.
+  
+  GIT: No diarrhea or constipation.
+  
+  MSS: No joint pains or swellings.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young boy, not acutely ill-looking, afebrile (36.6°C), not pale, not icteric, not dehydrated. No significant peripheral lymphadenopathy.
+  
+  ANTHROPOMETRY
+  
+  Weight: 19 kg (Expected for age)
+  
+  Height: 110 cm
+  
+  LOCAL EXAMINATION (FACE)
+  
+  A 2cm by 2cm localized swelling on the left malar region.
+  
+  The swelling is erythematous, warm, and fluctuant.
+  
+  It is exquisitely tender to touch.
+  
+  No active discharge noted at the time of examination.
+  
+  An old, hyperpigmented scar is noted adjacent to the current lesion.
+  
+  SYSTEMIC EXAMINATION
+  
+  Respiratory System:
+  
+  Respiratory rate: 24 cpm. Trachea is central. Breath sounds are vesicular. No added sounds.
+  
+  Cardiovascular System:
+  
+  Pulse rate: 94 bpm, regular, normal volume.
+  
+  Heart sounds: S1 and S2 only heard. No murmurs.
+  
+  Abdomen:
+  
+  Full, moves with respiration. Soft, non-tender. No organomegaly. Bowel sounds are present and normal.
+  
+  Neurological System:
+  
+  Conscious and alert. No focal neurological deficits. Normal muscle tone and power in all limbs.
+  
+  ASSESSMENT
+  
+  Recurrent Furunculosis (Left Cheek)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Infected Sebaceous Cyst
+  2. Community-acquired Methicillin-resistant Staphylococcus aureus (CA-MRSA) infection
+  3. Immunodeficiency state (to rule out DM or HIV)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Wound swab for Microscopy, Culture, and Sensitivity (if drainage is obtained).
+  2. Full Blood Count (FBC) to check for leucocytosis.
+  3. Fasting Blood Glucose (FBG) to screen for Diabetes Mellitus.
+  4. Retroviral Screening (RVS) after counseling parents.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Incision and Drainage (I&D) under aseptic conditions since the lesion is fluctuant.
+  
+  2. Antibiotics: Start on Oral Cloxacillin 250mg 6-hourly for 7 to 10 days (pending MCS results).
+  
+  3. Analgesics: Syrup Paracetamol 10-15mg/kg 8-hourly for pain.
+  
+  4. Local Care: Clean site with normal saline and apply sterile dressing daily.
+  
+  5. Counseling: Advise mother on improved skin hygiene, avoiding squeezing of lesions, and ensuring the child uses a personal towel.
+  
+  6. Follow-up: Review in 1 week to check healing and review investigation results.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'surg-139',
+    title: 'Right Clavicular Fracture with Anterior Shoulder Dislocation Following Road Traffic Accident',
+    specialty: 'Surgery',
+    subSpecialty: 'Orthopaedics and Trauma',
+    condition: 'Closed Midshaft Fracture of the Right Clavicle with Anterior Dislocation of the Right Shoulder',
+    symptoms: [
+      'Right shoulder pain',
+      'Inability to move the right arm',
+      'Swelling over the right clavicle',
+      'Deformity of the right clavicle',
+      'Severe pain aggravated by limb movement',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'A 28-year-old male commercial motorcyclist from Gwagwalada, Abuja, presented 3 hours after a road traffic accident in which he fell directly onto his right shoulder. He developed severe right shoulder and clavicular pain, inability to move the right arm, and visible deformity. Examination revealed swelling, skin tenting, tenderness, crepitus and a palpable step-off over the middle third of the right clavicle, with an empty glenoid and anteriorly palpable humeral head in the subcoracoid position. Distal neurovascular function was intact. Assessed as a closed midshaft fracture of the right clavicle with anterior dislocation of the right shoulder.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 28 year old male commercial motorcyclist who resides in Gwagwalada, Abuja. He is of the Igbo ethnic group.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Right shoulder pain x 3h
+  2. Inability to move the right arm x 3h
+  3. Swelling and deformity over the right collarbone x 3h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was involved in a road traffic accident approximately 3 hours prior to presentation. He was riding his motorcycle when he collided with a stationary vehicle, causing him to fall directly onto his right shoulder. He experienced immediate, severe, sharp pain over the right shoulder and clavicular region, which he rated as 9/10 on the visual analogue scale. The pain is aggravated by any attempt at limb movement and is partially relieved by supporting the right arm with his left hand.
+  
+  He noticed an immediate deformity over the mid-portion of his right collarbone and a change in the shape of his shoulder. There is no history of loss of consciousness, neck pain, chest pain, or difficulty breathing. He denies numbness or tingling sensations in the right hand or fingers. No prior history of trauma to the same shoulder or clavicle.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic medical conditions such as hypertension or diabetes mellitus. Not a known patient with sickle cell disease. No previous hospitalizations or surgeries.
+  
+  DRUG HISTORY
+  
+  Not on any routine medications. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is the first of four children in a monogamous family setting. He does not smoke cigarettes but takes alcohol occasionally.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no loss of consciousness.
+  
+  Respiratory: No cough, no pleuritic chest pain.
+  
+  CVS: No palpitations, no orthopnea.
+  
+  GIT: No abdominal pain, no vomiting.
+  
+  MSS: As documented in HPC.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An adult male in obvious painful distress, supporting the right upper limb with the left hand. He is conscious and alert.
+  
+  Afebrile (36.7 degrees Celsius).
+  
+  Not pale, not icteric, no pedal edema, no significant lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 106 bpm (tachycardic, likely secondary to pain), regular, full volume.
+  
+  Blood Pressure: 130/80 mmHg.
+  
+  Respiratory Rate: 22 cpm.
+  
+  SpO2: 98 percent on room air.
+  
+  LOCAL EXAMINATION (RIGHT SHOULDER AND CLAVICLE)
+  
+  Inspection:
+  
+  Obvious swelling and deformity over the middle third of the right clavicle with overlying skin tenting.
+  
+  Loss of the normal rounded contour of the right shoulder (squared-off appearance).
+  
+  The right arm is held in slight abduction and external rotation.
+  
+  No open wounds or active bleeding.
+  
+  Palpation:
+  
+  Exquisite tenderness and palpable crepitus over the middle third of the right clavicle with a palpable step-off.
+  
+  The glenoid labrum feels empty, and the humeral head is palpable anteriorly in the subcoracoid position.
+  
+  No tenderness over the cervical spine.
+  
+  Range of Motion:
+  
+  Active and passive movements at the right shoulder joint are severely restricted by pain.
+  
+  Neurovascular Assessment:
+  
+  Radial and ulnar pulses are present, full, and synchronous with the contralateral side.
+  
+  Capillary refill time is less than 2 seconds.
+  
+  Sensation is intact over the regimental badge area (axillary nerve distribution) and all distal dermatomes of the hand.
+  
+  Motor function of the hand (finger extension and grip) is preserved.
+  
+  ASSESSMENT
+  
+  1. Closed fracture of the middle third of the right clavicle.
+  2. Anterior dislocation of the right shoulder joint.
+  3. Road traffic accident (Motorcycle vs vehicle).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Acromioclavicular joint (ACJ) dislocation.
+  2. Fracture of the surgical neck of the humerus.
+  3. Brachial plexus injury (secondary to trauma).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Plain X-ray of the Right Shoulder (AP and Axillary views) to confirm the direction of dislocation and rule out associated fractures (e.g., Bankart or Hill-Sachs lesions).
+  2. Plain X-ray of the Right Clavicle (AP and 45-degree cephalic tilt views) to assess the degree of displacement and comminution.
+  3. Full Blood Count (FBC) and Packed Cell Volume (PCV).
+  4. Urinalysis.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Immediate Stabilization:
+  
+  Maintain the limb in a broad arm sling or triangular bandage to reduce gravity-induced pain and tension on the skin.
+  
+  2. Analgesia and Sedation:
+  
+  IV Paracetamol 1g stat, then 1g 8-hourly.
+  
+  IV Pentazocine 30mg slow bolus stat.
+  
+  If severe, consider IV Diazepam 5mg to 10mg for muscle relaxation and sedation prior to reduction (ensure resuscitative equipment is available).
+  
+  3. Orthopedic Intervention:
+  
+  Closed reduction of the right shoulder dislocation using Kocher’s or Hippocratic maneuver under adequate sedation or hematoma block.
+  
+  Post-reduction X-ray to confirm successful relocation.
+  
+  For the clavicular fracture, management is primarily conservative in this setting. Ensure the skin is not compromised (no impending compound fracture).
+  
+  4. Immobilization:
+  
+  Apply a shoulder immobilizer or a figure-of-eight bandage for the clavicular fracture and a broad arm sling for the shoulder for 3 to 4 weeks.
+  
+  5. Follow-up:
+  
+  Monitor neurovascular status post-reduction.
+  
+  Refer to Physiotherapy for range of motion exercises once the immobilization period is complete.
+  
+  Review in the Orthopedic outpatient clinic in 1 week.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'peds-138',
+    title: 'Simple Febrile Convulsion',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Emergency Medicine',
+    condition: 'Simple Febrile Convulsion Secondary to an Unspecified Febrile Illness',
+    symptoms: [
+      'Fever',
+      'Generalized tonic-clonic convulsion',
+      'Generalized body weakness',
+      'Loss of appetite',
+      'Post-ictal sleepiness',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: 'A 2-year-old male child presented with a 2-day history of high-grade intermittent fever and a single episode of generalized convulsion lasting approximately 5 minutes, involving all four limbs and associated with uprolling of the eyes. The seizure stopped spontaneously, followed by post-ictal sleepiness lasting about 30 minutes. He regained full consciousness and had no previous history of seizures. Examination revealed a febrile but alert child with GCS 15/15 and no signs of meningeal irritation or focal neurological deficits. Assessed as a simple febrile convulsion secondary to an unspecified febrile illness, with malaria and septicaemia to be ruled out.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master A.B.
+  
+  Age: 2 years
+  
+  Sex: Male
+  
+  Address: Ogbomosho, Oyo State
+  
+  Tribe: Yoruba
+  
+  Religion: Christian
+  
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Fever x 2/7
+  2. Convulsions x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 2 days prior to presentation when he developed fever. The fever was high-grade, intermittent, relieved by paracetamol, and associated with generalized body weakness and loss of appetite. There was no associated cough, ear discharge, or diarrhea.
+  
+  Yesterday, about 4 hours prior to presentation, he had an episode of generalized body shaking (convulsions). The episode lasted approximately 5 minutes, involved all four limbs and uprolling of the eyes. There was no associated foaming at the mouth or bowel/bladder incontinence. The seizure stopped spontaneously. There was a period of post-ictal sleepiness lasting about 30 minutes, after which he regained full consciousness but remained febrile. There is no prior history of similar episodes.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous hospitalizations or blood transfusions. No known history of asthma or sickle cell disease.
+  
+  BIRTH HISTORY
+  
+  Pre-natal: Mother attended regular ANC at a primary health center. Pregnancy was spontaneous and term. No history of maternal illnesses or drug use other than routine hematinics.
+  
+  Natal: Delivered via SVD at a private hospital. Cried immediately at birth. Birth weight was 3.2kg.
+  
+  Post-Natal: No neonatal jaundice or sepsis.
+  
+  DIETARY HISTORY
+  
+  Exclusively breastfed for 6 months. Complementary feeds (pap, mashed tubers) were introduced at 6 months. Currently eats family meals. Diet is adequate in frequency and quantity.
+  
+  IMMUNIZATION HISTORY
+  
+  Received all vaccines according to the National Programme on Immunization (NPI) schedule up to 9 months. BCG scar is present on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained all milestones at appropriate ages.
+  
+  Gross motor: Walked at 13 months.
+  
+  Language: Speaks simple sentences.
+  
+  Social: Waves goodbye, plays with peers.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Second child in a monogamous family of two children. Father is a tailor, mother is a petty trader. They reside in a 2-bedroom apartment with good ventilation. Water source is a protected well.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no neck stiffness.
+  
+  RS: No cough or fast breathing.
+  
+  GIT: No vomiting or diarrhea.
+  
+  CVS: No cyanosis or pedal edema.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Acutely ill-looking child, febrile (Temp 39.4°C), not pale, anicteric, not dehydrated, no significant lymphadenopathy, no pedal edema.
+  
+  ANTHROPOMETRY
+  
+  Weight: 12 kg (appropriate for age)
+  
+  Length: 86 cm
+  
+  OFC: 48 cm
+  
+  MUAC: 14.5 cm
+  
+  SYSTEMIC EXAMINATION
+  
+  Neurologic:
+  
+  Conscious and alert. GCS 15/15. No signs of meningeal irritation (Neck stiffness: Nil, Brudzinski sign: Negative, Kernig sign: Negative). Pupils 2mm RBL. Normal muscle tone and bulk in all limbs.
+  
+  Respiratory:
+  
+  RR 28 cpm. Trachea central. Percussion notes resonant. Vesicular breath sounds. No added sounds.
+  
+  Cardiovascular:
+  
+  PR 110 bpm, regular, full volume. Heart sounds S1, S2 only. No murmurs.
+  
+  Abdominal:
+  
+  Flat, moves with respiration. Soft, non-tender. Liver and spleen not palpable. Bowel sounds present and normal.
+  
+  ASSESSMENT
+  
+  Simple Febrile Convulsion triggered by an Unspecified Febrile Illness (rule out Malaria and Septicemia).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Cerebral Malaria
+  2. Bacterial Meningitis
+  3. Septicemia
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check for leukocytosis or anemia.
+  2. Malaria Parasite (MPS): Thick and thin films or RDT.
+  3. Urinalysis: To rule out UTI as a source of fever.
+  4. Lumbar Puncture (LP): To rule out meningitis (strongly considered if fever persists or consciousness declines).
+  5. Random Blood Sugar (RBS): To rule out hypoglycemia.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Emergency Seizure Control (if seizure recurs):
+  
+  - Place patient in recovery position, clear airway, and give intranasal oxygen if available.
+  - Give Rectal Diazepam 0.5 mg/kg (Weight 12kg x 0.5 = 6 mg).
+  - Alternative: IV Diazepam 0.2 mg/kg (2.4 mg) slowly.
+  
+  2. Fever Management:
+  
+  - Tepid sponging and fanning.
+  - Syrup Paracetamol 15 mg/kg (180 mg) every 8 hours.
+  
+  3. Fluid Management:
+  
+  - Encourage oral intake if fully conscious.
+  - If unable to tolerate orals, start IV 5 percent Dextrose in 0.45 percent Normal Saline at maintenance rate (4:2:1 rule).
+  - For 12 kg: 1000 ml + (2 kg x 50 ml) = 1100 ml over 24 hours (approximately 45 ml/hr).
+  
+  4. Empiric Therapy (Pending investigations):
+  
+  - If MPS is positive: IV Artesunate 2.4 mg/kg at 0, 12, and 24 hours.
+  - If sepsis/meningitis suspected: IV Ceftriaxone 100 mg/kg once daily (1.2 g OD).
+  
+  5. Monitoring:
+  
+  - Monitor vitals (Temp, RR, PR) and neurological status (GCS) every 4 hours.
+  - Monitor for further seizures.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  }, 
+  {
+    id: 'peds-137',
+    title: 'Pertussis (Whooping Cough) in a Young Infant',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Respiratory Medicine',
+    condition: 'Pertussis (Whooping Cough)',
+    symptoms: [
+      'Paroxysmal cough',
+      'Inspiratory whoop',
+      'Post-tussive vomiting',
+      'Poor feeding',
+      'Cyanotic spells',
+      'Breathing difficulty',
+      'Exhaustion after coughing episodes'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-10-31',
+    summary: '2-month-old male infant, immunized up to 6 weeks, presenting with a 1-week history of cough that progressed to paroxysmal episodes associated with inspiratory whoop, post-tussive vomiting and cyanotic spells. Examination reveals tachypnoea, hypoxaemia, mild chest recessions and respiratory distress, with clear breath sounds. Findings are consistent with pertussis complicated by respiratory distress and poor feeding.',
+    content: `Patient Identification
+  
+  Name: Baby O.A.
+  Age: 2 months
+  Sex: Male
+  Address: Gwagwalada, FCT
+  Tribe: Yoruba
+  Religion: Christian
+  Informant: Mother (Reliable)
+  
+  Presenting Complaints
+  
+  1. Paroxysmal cough × 1/52
+  2. Post-tussive vomiting × 3/7
+  3. Poor feeding × 2/7
+  
+  History of Presenting Complaint
+  
+  The patient was apparently well until 1 week ago when he developed a cough which was initially mild and catarrhal. However, over the last 3 days, the cough has become paroxysmal, occurring in bouts of several staccato coughs in a single expiration. This is often followed by a forceful inspiratory gasp (whoop), and occasionally the baby turns dusky/blue during these episodes.
+  
+  There is associated post-tussive vomiting of clear mucoid material and breast milk. No history of fever, ear discharge or contact with an adult with a chronic cough. Mother notes the baby is increasingly exhausted after coughing fits and has been unable to breastfeed effectively for the past 2 days.
+  
+  Past Medical History
+  
+  No previous hospitalizations or surgeries. No known allergies.
+  
+  Birth History
+  
+  Delivered at term via SVD in a General Hospital. Birth weight was 3.1 kg. No history of neonatal jaundice or respiratory distress at birth.
+  
+  Immunization History
+  
+  Received BCG, OPV0 and HepB0 at birth.
+  
+  Received Pentavalent 1, OPV1, PCV1 and Rotavirus 1 at 6 weeks of age (as per NPI schedule).
+  
+  BCG scar is present.
+  
+  Dietary History
+  
+  Exclusively breastfed since birth. Currently having difficulty latching due to cough and exhaustion.
+  
+  Developmental History
+  
+  Attained age-appropriate milestones. Social smile present. Follows light.
+  
+  Family and Social History
+  
+  Living in a 2-bedroom apartment with parents and two older siblings. Older sibling (4 years old) currently has a mild "cold". Father is a civil servant, mother is a petty trader.
+  
+  Physical Examination
+  
+  General Examination
+  
+  Acutely ill-looking infant, in respiratory distress, not pale, not jaundiced, no peripheral oedema.
+  
+  Weight: 5.0 kg.
+  
+  Temperature: 36.7°C.
+  
+  Respiratory System
+  
+  RR: 62 cpm (tachypnoeic).
+  
+  SpO₂: 91% on room air.
+  
+  Occasional paroxysmal cough observed during examination with associated perioral cyanosis.
+  
+  Mild subcostal and intercostal recessions present.
+  
+  Trachea central.
+  
+  Percussion note resonant bilaterally.
+  
+  Auscultation: Clear breath sounds. No rhonchi or crepitations.
+  
+  Cardiovascular System
+  
+  PR: 154 bpm (tachycardic), small volume, regular.
+  
+  Heart sounds S1 and S2 only. No murmurs.
+  
+  Abdomen
+  
+  Full, moves with respiration.
+  
+  Soft, no organomegaly.
+  
+  Bowel sounds present.
+  
+  Central Nervous System
+  
+  Conscious but appears exhausted (lethargic).
+  
+  Anterior fontanelle is flat and pulsating.
+  
+  Normal muscle tone in all limbs.
+  
+  Summary
+  
+  A 2-month-old male infant, immunized up to 6 weeks, presenting with a 1-week history of paroxysmal cough followed by an inspiratory whoop, post-tussive vomiting and cyanotic spells. Examination reveals tachypnoea, hypoxia (SpO₂ 91%) and respiratory distress.
+  
+  Assessment
+  
+  Pertussis (Whooping Cough) in a 2-month-old infant with features of respiratory distress and poor feeding.
+  
+  Differential Diagnoses
+  
+  1. Chlamydial pneumonia
+  2. Bronchiolitis
+  3. Viral pneumonia (RSV)
+  
+  Initial Investigation Plan
+  
+  1. Full Blood Count (FBC): Look for absolute lymphocytosis (common in pertussis).
+  2. Multiplex PCR for Bordetella pertussis (nasopharyngeal swab), if available.
+  3. Chest X-ray: To rule out secondary bacterial pneumonia or patches of atelectasis.
+  4. Serum Electrolytes, Urea and Creatinine (E/U/Cr): To assess hydration status.
+  
+  Initial Management Plan
+  
+  1. Admission
+  Mandatory for an infant under 6 months with suspected pertussis due to the risk of apnoea and severe paroxysms.
+  
+  2. Position
+  Propped-up at 30–45 degrees.
+  
+  3. Oxygen Therapy
+  Administer humidified oxygen via nasal prongs at 1–2 L/min to maintain SpO₂ above 94%.
+  
+  4. Fluid Management
+  
+  - Maintenance fluids: Using 100 ml/kg for 5 kg = 500 ml/24 hours.
+  - Choice: Isotonic saline in 5% Dextrose (e.g., 0.9% Saline + 5% Dextrose) or 1/2 strength Darrow's solution in 5% Dextrose.
+  - Rate: 21 ml/hour IV.
+  - Monitor urine output and skin turgor.
+  
+  5. Antibiotic Therapy (Macrolide)
+  
+  - Azithromycin (drug of choice in infants): 10 mg/kg once daily for 5 days.
+  - Dosage: 50 mg (2.5 ml of 100 mg/5 ml suspension) PO or IV once daily for 5 days.
+  - Note: Azithromycin is preferred over Erythromycin in infants due to the risk of Infantile Hypertrophic Pyloric Stenosis (IHPS) with Erythromycin.
+  
+  6. Feeding
+  Gentle nasogastric (NGT) feeding if the baby is too exhausted to suckle but can tolerate enteral feeds. Small, frequent feeds to minimize post-tussive vomiting.
+  
+  7. Monitoring
+  Close monitoring for apnoea, bradycardia or worsening cyanosis. Have suctioning equipment at bedside to clear thick secretions.
+  
+  8. Public Health
+  Notify the local disease surveillance officer. Treat all household contacts with Azithromycin prophylaxis regardless of immunization status.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'peds-136',
     title: 'Severe Bronchopneumonia',

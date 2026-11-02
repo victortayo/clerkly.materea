@@ -295,4 +295,559 @@ export const EXTERNAL_RESOURCES_CONTENT: LearningModule[] = [
     </html>
         `
     },
+
+
+    {
+      id: 'resources-ghmp-emergency-care-video-series',
+      title: 'Emergency Care Video Series (GHMP)',
+      category: 'External Resources',
+      subCategory: 'Emergency Medicine',
+      content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Georgia, 'Times New Roman', serif; }
+    .sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+    .quote { border-left-width: 3px; border-left-style: solid; }
+  </style>
+  </head>
+  <body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+  <div class="max-w-3xl mx-auto p-4 sm:p-6">
+  
+  <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+    <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+    <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+    <div class="relative p-6 sm:p-8">
+      <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; EMERGENCY CARE</span>
+      <h1 class="font-brand text-3xl font-bold mb-3 text-white">Emergency Care Video Series (Global Health Media Project)</h1>
+      <p class="text-sm text-indigo-200">78 short English videos on assessing and treating injured and acutely ill patients, from scene safety and the CABCDE check to bleeding, shock, fractures, burns and snakebite. Road crashes, burns, snakebite, severe malaria anaemia and dehydration are everyday emergencies in Nigeria, and the first minutes often happen outside a hospital. The videos are grouped in the order you would act, with community first-aid versions at the end.</p>
+    </div>
+  </div>
+  
+  
+  <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+    <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+      <li><a href="#about-this-series" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Series</span></a></li>
+      <li><a href="#using-these-videos-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Using These Videos in Nigerian Practice</span></a></li>
+      <li><a href="#scene-safety-and-assessment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Scene Safety and Assessment</span></a></li>
+      <li><a href="#airway" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Airway</span></a></li>
+      <li><a href="#breathing-and-oxygen" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Breathing and Oxygen</span></a></li>
+      <li><a href="#controlling-bleeding" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Controlling Bleeding</span></a></li>
+      <li><a href="#shock-fluids-and-dehydration" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Shock, Fluids and Dehydration</span></a></li>
+      <li><a href="#severe-anaemia-and-malnutrition" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Severe Anaemia and Malnutrition</span></a></li>
+      <li><a href="#trauma-spine-limbs-and-fractures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Trauma: Spine, Limbs and Fractures</span></a></li>
+      <li><a href="#wound-care-and-suturing" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Wound Care and Suturing</span></a></li>
+      <li><a href="#burns" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Burns</span></a></li>
+      <li><a href="#medical-and-environmental-emergencies" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Medical and Environmental Emergencies</span></a></li>
+      <li><a href="#pregnancy-related-emergencies" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Pregnancy-Related Emergencies</span></a></li>
+      <li><a href="#community-first-aid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Community First Aid</span></a></li>
+      <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Suggested Viewing Order</span></a></li></ul>
+  </nav>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-series" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+    About This Series
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Global Health Media Project is a non-profit that makes short teaching films for front-line health workers. Its Emergency Care series was announced in March 2026 and is still growing. The first release had 10 videos, and the project said the series would pass 100. The list on this page has 78 English videos at the time of writing.</p>
+    <p class="text-sm">The films follow WHO&rsquo;s Basic Emergency Care (BEC) and Community First Aid Response (CFAR) courses and were developed with WHO&rsquo;s emergency care team. Footage was filmed in Tanzania, Nepal, Kenya and Malawi. Most videos are for health workers, some are for community first responders, and a set of burn videos is for family members. French and Spanish versions were announced to follow the English ones.</p>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+      📖 <a href="https://globalhealthmedia.org/?p=107012" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Series announcement</a>
+      &nbsp;&middot;&nbsp;
+      � <a href="https://globalhealthmedia.org/video/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Video archive (filter by topic and language)</a>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-these-videos-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+    Using These Videos in Nigerian Practice
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ul class="list-disc pl-5 space-y-2 text-sm">
+      <li><strong>Where the first minutes happen.</strong> Many patients arrive after a long journey, a motorcycle or bus ride, or first contact with a patent medicine seller or traditional healer. The community first-aid videos are meant for the people who reach the patient first.</li>
+      <li><strong>Equipment.</strong> Some items shown, such as a pulse oximeter, bag valve mask, oxygen concentrator, pelvic binder or plaster, may not be stocked in your unit. Learn the no-equipment skills first: scene safety, CABCDE, head-tilt chin-lift, jaw thrust, direct pressure, the recovery position and the log roll.</li>
+      <li><strong>Local practices.</strong> Ask what was done before arrival. Cutting a bite, applying herbal poultices or tying a tight band can delay proper care. Ask without blame, then explain why.</li>
+      <li><strong>Pairs.</strong> Several skills have two videos, one for health workers and one for the community. Watch the health-worker version for your own practice and use the community version when teaching volunteers.</li>
+    </ul>
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+      <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+      <p class="text-sm">The videos follow WHO&rsquo;s BEC and CFAR courses. Fluid volumes in shock, oxygen targets, tourniquet use and snakebite first aid can differ between WHO, FMOH guidance and your hospital&rsquo;s protocol, and children with severe malnutrition need their own fluid rules. Where they differ, follow the local protocol and ask your senior. The videos teach technique and sequence. They do not replace the protocol of the unit you work in.</p>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="scene-safety-and-assessment" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+    Scene Safety and Assessment
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Start here. Make the scene safe, then work through the same ordered check on every patient before treating anything.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/scene-safety-in-the-community-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Scene Safety in the Community</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/scene-safety-in-a-hospital-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Scene Safety in a Hospital</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-initial-assessment-the-cabcde-approach-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Initial Assessment: The CABCDE Approach</a><span class="block mt-1 text-slate-500 dark:text-slate-400">A systematic approach for checking an injured or ill person when you first reach them.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-primary-survey-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Primary Survey</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-avpu-scale-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The AVPU Scale</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-glasgow-coma-scale-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Glasgow Coma Scale</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="airway" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+    Airway
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Open the airway, keep it open and clear it. Airway problems kill quickly, and the first manoeuvres need no equipment.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/using-the-head-tilt-chin-lift-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Using the Head-Tilt Chin-Lift</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-jaw-thrust-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Jaw Thrust</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/suctioning-the-airway-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suctioning the Airway</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/inserting-an-airway-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting an Airway</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/placing-someone-in-the-recovery-position-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Placing Someone in the Recovery Position</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="breathing-and-oxygen" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+    Breathing and Oxygen
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Recognise respiratory distress, measure oxygen saturation, give oxygen and support breathing. Includes chest injuries and the inhaler and nebuliser skills used for asthma and wheeze.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/recognize-respiratory-distress-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Recognize Respiratory Distress</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/using-a-pulse-oximeter-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Using a Pulse Oximeter</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/giving-oxygen-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Giving Oxygen</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/giving-oxygen-to-the-young-child-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Giving Oxygen to the Young Child</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/using-a-bag-valve-mask-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Using a Bag Valve Mask</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/emergency-needle-decompression-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Emergency Needle Decompression</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/management-of-the-sucking-chest-wound-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Management of the Sucking Chest Wound</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-give-a-nebulizer-treatment-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Give a Nebulizer Treatment</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-make-a-spacer-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Make a Spacer</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/teaching-a-child-to-use-an-inhaler-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Teaching a Child to Use an Inhaler</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="controlling-bleeding" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+    Controlling Bleeding
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Catastrophic bleeding is dealt with first in the CABCDE sequence. Work from direct pressure to packing, then tourniquet and pelvic binder when pressure is not enough.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/stop-bleeding-with-direct-pressure-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Stop Bleeding with Direct Pressure</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/deep-wound-packing-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Deep Wound Packing</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/placement-of-a-tourniquet-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Placement of a Tourniquet</a><span class="block mt-1 text-slate-500 dark:text-slate-400">How to place a tourniquet for bleeding that is uncontrollable and life threatening.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/pelvic-binder-placement-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Pelvic Binder Placement</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="shock-fluids-and-dehydration" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+    Shock, Fluids and Dehydration
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Recognise shock, get access and give fluids with care. Adults and children are handled differently, and so are children with severe malnutrition, so check your local protocol.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/recognize-shock-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Recognize Shock</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-insert-an-iv-cannula-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Insert an IV Cannula</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/managing-fluids-for-the-adult-in-shock-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Managing Fluids for the Adult in Shock</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/managing-fluids-for-the-child-in-shock-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Managing Fluids for the Child in Shock</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/recognize-dehydration-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Recognize Dehydration</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/preparing-and-giving-oral-rehydration-solution-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preparing and Giving Oral Rehydration Solution</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="severe-anaemia-and-malnutrition" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+    Severe Anaemia and Malnutrition
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Two conditions that change how a sick child is managed. Severe anaemia in children is common where malaria and sickle cell disease are common.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/recognize-severe-anemia-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Recognize Severe Anemia</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/recognize-malnutrition-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Recognize Malnutrition</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/measuring-the-muac-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Measuring the MUAC</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="trauma-spine-limbs-and-fractures" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+    Trauma: Spine, Limbs and Fractures
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Protect the spine, assess the limb, splint, and move the patient safely. The plaster videos cover definitive immobilisation once the patient is stable.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-log-roll-technique-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Log Roll Technique</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-immobilize-the-neck-of-injured-people-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How To Immobilize the Neck of Injured People</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/moving-an-injured-person-on-a-backboard-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Moving an Injured Person on a Backboard</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/assessing-an-injured-limb-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Assessing an Injured Limb</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/splinting-a-fracture-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Splinting a Fracture</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/initial-care-of-an-open-fracture-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Initial Care of an Open Fracture</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/applying-a-plaster-splint-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Applying a Plaster Splint</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/applying-a-plaster-cast-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Applying a Plaster Cast</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/removing-a-plaster-cast-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Removing a Plaster Cast</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="wound-care-and-suturing" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+    Wound Care and Suturing
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">From first cleaning to closure. Pair the stitch videos with the Suturing Techniques guide in this library.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/basic-wound-care-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Basic Wound Care</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/cleaning-a-wound-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning a Wound</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/debriding-a-wound-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Debriding a Wound</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-suture-a-wound-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Suture a Wound</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-vertical-mattress-stitch-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Vertical Mattress Stitch</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-corner-stitch-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Corner Stitch</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="burns" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+    Burns
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Burns from cooking fires, kerosene and hot liquids are a common reason children reach emergency units. The project also has a longer burn-care set in its video archive.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-burns-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for Burns</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/dressing-a-new-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dressing a New Burn</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="medical-and-environmental-emergencies" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+    Medical and Environmental Emergencies
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Hypoglycaemia, seizures, heat and cold, drowning, choking, snakebite and poisoning.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-low-blood-sugar-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for Low Blood Sugar</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-during-a-seizure-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid During a Seizure</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-a-heat-emergency-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for a Heat Emergency</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-a-cold-emergency-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for a Cold Emergency</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-drowning-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for Drowning</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-choking-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for Choking</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-a-snakebite-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for a Snakebite</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/poisoning-first-care-and-prevention-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Poisoning: First Care and Prevention</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pregnancy-related-emergencies" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+    Pregnancy-Related Emergencies
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Positioning and uterine massage. For the full set of labour and birth videos, see the Childbirth Video Series guide in this library.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/left-side-position-for-pregnant-women-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Left Side Position for Pregnant Women</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/positioning-the-injured-pregnant-woman-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Positioning the Injured Pregnant Woman</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: Left Side Position for Pregnant Women.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/uterine-massage-for-postpartum-hemorrhage-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Uterine Massage for Postpartum Hemorrhage</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="community-first-aid" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+    Community First Aid
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Plainer-language videos for first responders, volunteers, drivers and families. Many repeat a skill from the health-worker sections above, and the companion video is named under each one. Good for road safety volunteers, church and mosque first-aid teams, school staff and park or union welfare groups.</p>
+    <div class="space-y-2">
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/helping-the-injured-at-the-scene-of-a-crash-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Helping the Injured at the Scene of a Crash</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-stop-bleeding-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How To Stop Bleeding</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: Stop Bleeding with Direct Pressure.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/using-a-tourniquet-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Using a Tourniquet</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: Placement of a Tourniquet.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/first-aid-for-wounds-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for Wounds</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/home-care-of-wounds-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Home Care of Wounds</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-log-roll-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Log Roll</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: The Log Roll Technique.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/immobilizing-the-neck-of-injured-people-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Immobilizing the Neck of Injured People</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: How To Immobilize the Neck of Injured People.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/placing-a-pelvic-binder-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Placing a Pelvic Binder</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: Pelvic Binder Placement.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/splinting-a-broken-bone-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Splinting a Broken Bone</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: Splinting a Fracture.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/making-a-sling-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Making a Sling</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/making-a-stretcher-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Making a Stretcher</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/moving-injured-people-safely-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Moving Injured People Safely</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-recovery-position-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Recovery Position</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: Placing Someone in the Recovery Position.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/helping-someone-who-is-choking-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Helping Someone Who Is Choking</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: First Aid for Choking.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/saving-a-drowning-person-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Saving a Drowning Person</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Companion to: First Aid for Drowning.</span></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/how-to-save-a-life-hands-only-cpr-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Save a Life: Hands-Only CPR</a></div>
+    </div>
+  </div>
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+    Suggested Viewing Order
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">New to the emergency unit</strong>
+      <p class="text-sm">Scene Safety in a Hospital, The Initial Assessment: The CABCDE Approach, The Primary Survey, The AVPU Scale, Recognize Respiratory Distress, Recognize Shock, then Stop Bleeding with Direct Pressure.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Road traffic crash on call</strong>
+      <p class="text-sm">The Primary Survey, Stop Bleeding with Direct Pressure, Placement of a Tourniquet, Pelvic Binder Placement, The Log Roll Technique, How To Immobilize the Neck of Injured People, Splinting a Fracture, Initial Care of an Open Fracture.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Sick child on the ward</strong>
+      <p class="text-sm">Recognize Respiratory Distress, Giving Oxygen to the Young Child, Recognize Dehydration, Preparing and Giving Oral Rehydration Solution, Managing Fluids for the Child in Shock, Recognize Severe Anemia, Recognize Malnutrition and Measuring the MUAC.</p>
+    </div>
+    <div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teaching community volunteers</strong>
+      <p class="text-sm">Helping the Injured at the Scene of a Crash, How To Stop Bleeding, The Recovery Position, Helping Someone Who Is Choking, How to Save a Life: Hands-Only CPR, Making a Stretcher and Moving Injured People Safely.</p>
+    </div>
+  </div>
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+    <p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+    <ul class="space-y-2 text-sm">
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Make the scene safe, then use the same ordered assessment on every patient: the CABCDE approach, with catastrophic bleeding first.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The first manoeuvres for airway, bleeding and spine need no equipment, so learn them before the equipment-based videos.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluids in shock differ for adults, children and children with severe malnutrition. Follow your unit&rsquo;s protocol.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Many skills have a health-worker video and a plainer community video. Use the second to teach volunteers and families.</span></li>
+      <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The series is still growing, so use the video archive for new titles.</span></li>
+    </ul>
+  </div>
+  
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+    <summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+      <span>References</span>
+      <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </summary>
+    <div class="px-4 pb-4 space-y-2">
+      <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Emergency Care Videos for health workers (series announcement, March 2026). https://globalhealthmedia.org/?p=107012</p>
+      <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Video library. https://globalhealthmedia.org/video/</p>
+      <p class="text-[10px] leading-snug text-stone-500">Source courses named by the series: WHO Basic Emergency Care (BEC) and WHO Community First Aid Response (CFAR).</p>
+      <p class="text-[10px] leading-snug text-stone-500">Video titles and links were supplied from the Global Health Media Project site in November 2026. Two links, Placement of a Tourniquet and The Initial Assessment: The CABCDE Approach, were opened and confirmed. Audience labels for the community versions are inferred from title pairing and the series structure, so check the audience tag on each video page. The site may add, rename or move videos.</p>
+    </div>
+  </details>
+  
+  </div>
+  </body>
+  </html>
+      `
+  },
+
+  {
+    id: 'resources-ghmp-burn-care-video-series',
+    title: 'Burn Care Video Series (GHMP)',
+    category: 'External Resources',
+    subCategory: 'Emergency Medicine',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; }
+  .sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  .quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; BURNS</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Burn Care Video Series (Global Health Media Project)</h1>
+    <p class="text-sm text-indigo-200">24 short English videos on preventing, assessing, treating and rehabilitating burns. Burns from cooking fires, kerosene, hot water and hot food are common in Nigerian homes, and children are hit hardest. Many patients reach a facility late and go home early, so these videos cover both the hospital steps and the teaching families need. They are arranged in the order of care, from prevention to scars.</p>
+  </div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+  <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+  <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+    <li><a href="#about-this-series" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Series</span></a></li>
+    <li><a href="#using-these-videos-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Using These Videos in Nigerian Practice</span></a></li>
+    <li><a href="#prevention-and-first-response" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Prevention and First Response</span></a></li>
+    <li><a href="#assessing-the-burn" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Assessing the Burn</span></a></li>
+    <li><a href="#early-hospital-care" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Early Hospital Care</span></a></li>
+    <li><a href="#dressing-burns" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Dressing Burns</span></a></li>
+    <li><a href="#caring-for-burns-by-body-site" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Caring for Burns by Body Site</span></a></li>
+    <li><a href="#preventing-contractures-and-scars" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Preventing Contractures and Scars</span></a></li>
+    <li><a href="#care-at-home-and-when-to-seek-help" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Care at Home and When to Seek Help</span></a></li>
+    <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Suggested Viewing Order</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-series" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  About This Series
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Global Health Media Project is a non-profit that makes short teaching films for front-line health workers. The burn videos are part of its Emergency Care work, which follows WHO standards and was developed with WHO&rsquo;s emergency care team. Most of the burn videos are for health workers, some are for families and communities, and several are for both. The list on this page has 24 English videos at the time of writing, and the project adds new titles regularly.</p>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+    � <a href="https://globalhealthmedia.org/video/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Video archive (filter by topic and language)</a>
+    &nbsp;&middot;&nbsp;
+    📖 <a href="https://globalhealthmedia.org/?p=107012" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Emergency Care series announcement</a>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-these-videos-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Using These Videos in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><strong>Before arrival.</strong> Ask what was put on the burn, without blame. Palm oil, toothpaste, egg, ash and herbal preparations are sometimes applied at home. Explain that clean dressings and proper cooling help, and that these applications can make wound care harder and raise the risk of infection.</li>
+    <li><strong>Cost and distance.</strong> Many families cannot afford a long admission or travel back for every dressing change. The home-care and body-site videos are made so a trained carer can continue care safely, and the hospital-visit video helps families know when not to wait.</li>
+    <li><strong>Children.</strong> Scalds and fire burns in young children are common, so the child-fluids and prevention videos deserve extra attention.</li>
+    <li><strong>Supplies.</strong> Dressings, splints and fluids may be limited. Watch the splint-making video for ideas using locally available materials.</li>
+  </ul>
+  <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+    <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+    <p class="text-sm">Fluid volumes, the choice of dressing and the criteria for referral to a burns unit can differ between the videos, WHO guidance, FMOH guidance and your hospital&rsquo;s protocol. Where they differ, follow the local protocol and ask your senior. The videos teach technique and sequence. They do not replace the protocol of the unit you work in.</p>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="prevention-and-first-response" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  Prevention and First Response
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Most burns can be prevented, and what happens in the first minutes changes the outcome. These two are for families and communities.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/prevention-of-burns-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Prevention of Burns</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/what-to-do-if-you-catch-on-fire-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">What to Do if You Catch on Fire</a></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessing-the-burn" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Assessing the Burn
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Work out how deep and how large the burn is. Both decide where the patient should be treated and how much fluid is needed.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/the-depth-of-a-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Depth of a Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/determining-the-size-of-a-burn-english-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Determining the Size of a Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="early-hospital-care" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Early Hospital Care
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Fluids, release of a tight burned limb or chest, pain control and feeding in the first days. For the first-aid and resuscitation steps that come before this, see the Emergency Care Video Series guide in this library.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/giving-fluids-to-a-child-with-a-new-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Giving Fluids to a Child with a New Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/giving-fluids-for-a-new-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Giving Fluids for a New Burn</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/escharotomy-english-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Escharotomy</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/managing-pain-in-patients-with-burns-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Managing Pain In Patients with Burns</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/feeding-a-burn-patient-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Feeding a Burn Patient</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="dressing-burns" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Dressing Burns
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">General dressing technique, then the hand, which needs its own method.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/dressing-a-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dressing a Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/dressing-the-hand-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dressing the Hand Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="caring-for-burns-by-body-site" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Caring for Burns by Body Site
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Position, dressing and movement differ by joint. Work from the neck down. These are written for both families and health workers, so they suit teaching a carer before discharge.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-neck-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Neck</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Communities and health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-shoulder-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Shoulder</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Communities and health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-elbow-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Elbow</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-hand-and-wrist-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Hand and Wrist</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-hip-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Hip</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-knee-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Knee</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-a-burn-to-the-ankle-and-foot-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Burn to the Ankle and Foot</a></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preventing-contractures-and-scars" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Preventing Contractures and Scars
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Burns over joints heal by shortening unless the limb is positioned, splinted and moved. Splints can be made from local materials. Start these early, not after the wound has healed.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/preventing-contractures-in-burn-patients-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preventing Contractures In Burn Patients</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/making-splints-to-prevent-contractures-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Making Splints to Prevent Contractures</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/improving-scars-from-burns-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Improving Scars from Burns</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Health workers.</span></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="care-at-home-and-when-to-seek-help" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+  Care at Home and When to Seek Help
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">For the family: when a burn needs a hospital, how to look after one at home, and how to care for someone who is severely burned.</p>
+  <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/when-to-go-to-the-hospital-for-a-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">When to Go to the Hospital for a Burn</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/home-care-of-burns-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Home Care of Burns</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">� <a href="https://globalhealthmedia.org/video/caring-for-your-severely-burned-family-member-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Caring for Your Severely Burned Family Member</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Audience on the site: Communities.</span></div>
+  </div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+  Suggested Viewing Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">New to the burns ward</strong>
+    <p class="text-sm">The Depth of a Burn, Determining the Size of a Burn, Giving Fluids to a Child with a New Burn, Dressing a Burn, Managing Pain In Patients with Burns, Feeding a Burn Patient.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before discharging a patient</strong>
+    <p class="text-sm">Caring for the burn by body site, Preventing Contractures In Burn Patients, Making Splints to Prevent Contractures, Home Care of Burns, When to Go to the Hospital for a Burn.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teaching families and communities</strong>
+    <p class="text-sm">Prevention of Burns, What to Do if You Catch on Fire, When to Go to the Hospital for a Burn, Home Care of Burns, Caring for Your Severely Burned Family Member.</p>
+  </div>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+  <p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+  <ul class="space-y-2 text-sm">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Assess depth and size first. They decide the fluid plan and where the patient is treated.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluids, pain control and feeding in the early days are part of burn care, not extras.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Position, splint and move burned joints early to prevent contractures. Do not wait for the wound to heal.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Teach the carer before discharge, including when to return. Use the body-site and home-care videos.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask about home applications without blame, and prevention teaching is as valuable as treatment.</span></li>
+  </ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+  <summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+    <span>References</span>
+    <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </summary>
+  <div class="px-4 pb-4 space-y-2">
+    <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Video library. https://globalhealthmedia.org/video/</p>
+    <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Emergency Care Videos for health workers (series announcement, March 2026). https://globalhealthmedia.org/?p=107012</p>
+    <p class="text-[10px] leading-snug text-stone-500">Video titles and links were supplied from the Global Health Media Project site in November 2026. Audience labels shown come from the project&rsquo;s video archive listing and are given only for the 14 videos it listed. The other titles carry no label, so check the audience tag on each video page. The site may add, rename or move videos.</p>
+  </div>
+</details>
+
+</div>
+</body>
+</html>
+    `
+},
+
 ];

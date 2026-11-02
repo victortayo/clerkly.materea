@@ -1,7 +1,192 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
-
+  {
+    id: 'peds-142',
+    title: 'Meconium Aspiration Syndrome in a Post-Term Neonate',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Meconium Aspiration Syndrome',
+    symptoms: [
+      'Difficulty breathing since birth',
+      'Bluish discoloration of the lips and tongue since birth',
+      'Meconium staining of the skin and nails at birth',
+      'Prolonged labour',
+      'Meconium-stained liquor',
+      'Poor respiratory effort at birth',
+      'Progressively worsening respiratory distress',
+      'Grunting and chest wall indrawing',
+      'Low oxygen saturation',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 2-hour-old term male neonate born at 41 weeks and 3 days via spontaneous vaginal delivery following prolonged labour and thick meconium-stained liquor. He had poor respiratory effort at birth, required resuscitation, and subsequently developed progressive respiratory distress, central cyanosis and hypoxaemia. Examination revealed marked chest wall recessions, coarse crepitations and occasional rhonchi. Assessment was Meconium Aspiration Syndrome (MAS) in a post-term neonate.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Baby of Funmilayo
+  
+  Age: 2 hours old
+  
+  Sex: Male
+  
+  Address: Ogbomosho, Oyo State
+  
+  Tribe: Yoruba
+  
+  Religion: Christian
+  
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Difficulty breathing since birth (x 2h)
+  2. Bluish discoloration of the lips and tongue since birth (x 2h)
+  3. Greenish staining of the skin and nails noted at birth
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a male neonate, born at 41 weeks and 3 days gestation via spontaneous vaginal delivery. He was apparently well until the onset of labour, which was prolonged (approximately 18 hours). Maternal history was significant for thick, greenish (pea-soup) meconium-stained liquor noted at the time of rupture of membranes.
+  
+  At birth, the baby was noted to be limp, with poor respiratory effort and a heart rate of 90 bpm. He was suctioned oropharyngeally and stimulated, after which he began to gasp. APGAR scores were 4 at 1 minute and 7 at 5 minutes. Shortly after birth, he developed progressively worsening respiratory distress characterized by fast breathing, grunting and chest wall indrawing. There was also associated bluish discoloration of the mucous membranes. No history of maternal fever or prolonged rupture of membranes prior to labour.
+  
+  BIRTH HISTORY
+  
+  Prenatal: Booked at a General Hospital. Mother is a 32-year-old G3 P2+0. Pregnancy was supervised. Tetanus toxoid received. No history of hypertension or diabetes in pregnancy.
+  
+  Natal: Delivered at 41+3 weeks via SVD. Birth weight was 3.6 kg.
+  
+  Post-natal: Resuscitated at birth with tactile stimulation and bag-mask ventilation for 2 minutes.
+  
+  PAST MEDICAL HISTORY
+  
+  None. First 2 siblings are alive and well. No history of neonatal jaundice or previous hospitalizations in siblings.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Parents are in a monogamous marriage. Father is a civil servant, mother is a teacher. They live in a 2-bedroom flat with good ventilation. No history of smoking in the household.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures or irritability.
+  
+  CVS: No cyanosis other than that noted in the presenting complaints.
+  
+  GIT: Has not passed meconium since birth (other than in utero).
+  
+  MSS: No obvious congenital malformations.
+  
+  PHYSICAL EXAMINATION
+  
+  General: A term male neonate in respiratory distress (Silverman-Andersen score 6/10), moderately cyanosed in room air, mildly pale, not jaundiced, and with no oedema. Meconium staining noted on the umbilical cord and fingernails.
+  
+  Weight: 3.6 kg
+  
+  OFC: 35 cm
+  
+  Length: 51 cm
+  
+  Vital Signs:
+  
+  Temperature: 36.4°C
+  
+  RR: 82 cpm
+  
+  PR: 164 bpm
+  
+  SpO2: 86% on room air; 94% on 5 L/min intranasal oxygen.
+  
+  RESPIRATORY SYSTEM
+  
+  Symmetric chest expansion.
+  
+  Marked subcostal and intercostal recessions.
+  
+  Trachea central.
+  
+  Percussion: Normal resonance bilaterally.
+  
+  Auscultation: Coarse crepitations and occasional rhonchi heard globally.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Pulse is rapid but regular and of good volume.
+  
+  Apex beat at the 4th left intercostal space, lateral to the midclavicular line.
+  
+  S1 and S2 only. No murmurs.
+  
+  ABDOMEN
+  
+  Scaphoid.
+  
+  Liver 2 cm below the right costal margin, smooth and non-tender.
+  
+  Spleen not palpable.
+  
+  Bowel sounds present.
+  
+  NEUROLOGIC EXAMINATION
+  
+  Anterior fontanelle is flat and pulsatile.
+  
+  Tone is slightly reduced.
+  
+  Primitive reflexes (Moro and sucking) are weak.
+  
+  ASSESSMENT
+  
+  Meconium Aspiration Syndrome (MAS) in a post-term neonate.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Early-Onset Neonatal Sepsis (EONS)
+  2. Persistent Pulmonary Hypertension of the Newborn (PPHN)
+  3. Transient Tachypnea of the Newborn (TTN)
+  4. Neonatal Pneumonia
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Pulse Oximetry: For continuous monitoring of oxygen saturation.
+  2. Chest X-ray: To look for patchy opacities, hyperinflation or pneumothorax.
+  3. Full Blood Count (FBC): To check for elevated WBC or low platelets suggestive of sepsis.
+  4. Blood Culture: To rule out secondary or primary bacterial infection.
+  5. Serum Electrolytes, Urea and Creatinine: To monitor renal function and fluid status.
+  6. Random Blood Sugar (RBS): To rule out hypoglycaemia (common in stressed neonates).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Nursing in an incubator/radiant warmer to maintain a neutral thermal environment.
+  
+  2. Oxygen Therapy: Keep SpO2 between 92–95%. Start via nasal prongs at 1–2 L/min or face mask at 5 L/min. Escalate to CPAP if available and if distress persists.
+  
+  3. Minimal Handling: To prevent agitation, which can worsen pulmonary hypertension.
+  
+  4. Nil Per Os (NPO): Keep the baby fasted due to respiratory distress and risk of aspiration.
+  
+  5. Intravenous Fluids:
+     - Use 10% Dextrose for the first 24 hours.
+     - Volume: 60 mL/kg/day.
+     - Calculation: 60 mL × 3.6 kg = 216 mL over 24 hours.
+     - Rate: 9 mL/hour via infusion pump.
+  
+  6. Antibiotics (to cover for potential sepsis/pneumonia):
+     - IV Ampicillin: 50 mg/kg/dose every 12 hours (180 mg BD).
+     - IV Gentamicin: 5 mg/kg/dose every 24 hours (18 mg OD).
+  
+  7. Gastric Lavage: To remove residual meconium from the stomach and prevent further aspiration.
+  
+  8. Monitoring: Hourly vitals (RR, HR, SpO2, temperature), input/output charting and blood sugar checks 6-hourly.
+  
+  9. Consult Neonatology: For possible surfactant replacement therapy if available and if the condition deteriorates.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'peds-141',
     title: 'Acute Viral Parotitis (Suspected Mumps)',

@@ -2,6 +2,172 @@ import { Template } from '../../types';
 
 export const SURGERY_TEMPLATES: Template[] = [
   {
+    id: 'surg-87',
+    title: 'Right Breast Fibroadenoma',
+    specialty: 'Surgery',
+    subSpecialty: 'Breast Surgery',
+    condition: 'Right Breast Mass (Likely Fibroadenoma)',
+    symptoms: [
+      'Painless right breast lump',
+      'Progressively increasing breast lump',
+      'Right breast fullness',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 22-year-old nulligravid university student from Ogbomosho, Oyo State, who presented with a 6-month history of a progressively enlarging, painless right breast lump. Examination revealed a 5 × 5 cm firm, non-tender, smooth, highly mobile mass in the upper outer quadrant of the right breast, with no attachment to the skin or underlying pectoral fascia. There was no nipple discharge or palpable axillary or supraclavicular lymphadenopathy. Assessment is a right breast mass, likely fibroadenoma.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Miss Funke Adeleke
+  Age: 22 years old
+  Sex: Female
+  Address: Ogbomosho, Oyo State
+  Tribe: Yoruba
+  Occupation: University Student
+  
+  PRESENTING COMPLAINT
+  
+  Painless right breast lump x 6/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 6 months ago when she incidentally noticed a small lump in her right breast while bathing. The lump has gradually increased in size over the period but remains entirely painless. There is no associated nipple discharge, skin redness or ulceration. She has not noticed any lumps in her axilla. There is no history of weight loss, chronic cough or bone pain. The size of the lump does not change with her menstrual cycle.
+  
+  GYNAECOLOGICAL HISTORY
+  
+  MENARCHE
+  
+  She attained menarche at the age of 13 years.
+  
+  MENSTRUAL CYCLE
+  
+  Her menstrual cycles are regular, occurring every 28 days and lasting for 4 to 5 days. The flow is moderate, requiring approximately three sanitary pads per day. She does not experience significant intermenstrual bleeding or heavy flow (menorrhagia).
+  
+  DYSMENORRHOEA
+  
+  She reports mild lower abdominal cramping during the first day of her menses, which is easily managed with rest or occasional use of paracetamol.
+  
+  LAST MENSTRUAL PERIOD (LMP)
+  
+  Her last menstrual period began 12 days ago and was normal in character and duration.
+  
+  OBSTETRIC HISTORY
+  
+  She is nulligravida (has never been pregnant) and nulliparous.
+  
+  CONTRACEPTIVE HISTORY
+  
+  As previously noted, she is not currently using any hormonal contraceptives, such as oral contraceptive pills, injectable hormones or implants. She has no history of past hormonal contraceptive use.
+  
+  SEXUAL HISTORY
+  
+  She is not currently sexually active.
+  
+  VAGINAL DISCHARGE
+  
+  She reports no abnormal vaginal discharge, itching or history of pelvic inflammatory disease.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous history of breast lumps or breast surgery. No known chronic medical conditions like hypertension or diabetes.
+  
+  DRUG HISTORY
+  
+  Not on Oral Contraceptive Pills (OCPs). No history of herbal medication use. No known drug allergies.
+  
+  FAMILY HISTORY
+  
+  No family history of breast or ovarian cancer in her mother or first-degree relatives.
+  
+  SOCIAL HISTORY
+  
+  She is a student who does not smoke cigarettes or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headaches or seizures.
+  RS: No cough or dyspnoea.
+  CVS: No palpitations or orthopnoea.
+  GIT: No abdominal swelling or jaundice.
+  MSS: No bone pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Young lady, comfortable, not in any obvious respiratory or painful distress. Not pale, anicteric, not dehydrated, no significant peripheral lymphadenopathy.
+  
+  VITALS
+  
+  PR: 78 bpm, regular, full volume.
+  BP: 110/70 mmHg.
+  RR: 18 cpm.
+  T: 36.6°C.
+  SpO2: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  Respiratory: Trachea central, chest clear, breath sounds vesicular.
+  
+  Cardiovascular: S1 and S2 only, no murmurs.
+  
+  Abdomen: Flat, soft, non-tender, no organomegaly.
+  
+  BREAST EXAMINATION
+  
+  INSPECTION
+  
+  Breasts are slightly asymmetrical, with a visible fullness in the upper outer quadrant of the right breast. No skin tethering, puckering or peau d'orange. Nipples are everted and at the same level. No visible nipple discharge.
+  
+  PALPATION
+  
+  Right breast: A 5 cm × 5 cm solitary mass in the upper outer quadrant. Mass is firm, non-tender, with smooth margins and highly mobile (breast mouse). Not attached to the underlying pectoral fascia or overlying skin.
+  
+  Left breast: No palpable masses.
+  
+  Axilla: No palpable axillary or supraclavicular lymphadenopathy on both sides.
+  
+  ASSESSMENT
+  
+  Right Breast Mass, likely Fibroadenoma.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Giant Fibroadenoma.
+  2. Benign Phyllodes Tumour.
+  3. Breast Cyst.
+  4. Fibrocystic Change.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Breast Ultrasound Scan: This is the preferred imaging modality for patients under 35 years due to high breast density.
+  2. Tissue Diagnosis: Fine Needle Aspiration Cytology (FNAC) or Core Needle Biopsy for histological confirmation.
+  3. Pre-operative work-up: Packed Cell Volume (PCV), Urinalysis and Blood Grouping/Cross-matching.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Counseling and Reassurance: Educate the patient on the likely benign nature of the condition to reduce anxiety.
+  
+  2. Surgical Management: Given the size of the mass (5 cm), surgical excision (Lumpectomy) is indicated. This is usually performed under local or general anaesthesia via a circumareolar or infra-mammary incision to ensure a good cosmetic outcome.
+  
+  3. Histopathology: The excised specimen must be sent for histology to confirm the diagnosis and rule out other pathologies like Phyllodes tumour.
+  
+  4. MEDICATIONS (POST-OPERATIVE)
+  
+  - Tab. Paracetamol 1 g 8-hourly x 3/7 for pain relief.
+  - Tab. Ibuprofen 400 mg 8-hourly x 3/7 (to be taken after meals) for additional analgesia and anti-inflammatory effect.
+  - Wound care with daily dressing or as indicated by the surgeon.
+  
+  5. Follow-up: Schedule a clinic review in 2 weeks for wound inspection and to discuss the histology report.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'surg-86',
     title: 'Acute Traumatic Cervical Spinal Cord Injury with Neurogenic Shock',
     specialty: 'Surgery',

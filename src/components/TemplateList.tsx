@@ -57,7 +57,7 @@ export function TemplateList({
               aria-label="Grid view"
             >
               <i className="fa-solid fa-grip"></i>
-              <span className="hidden sm:inline">Grid</span>
+              <span className="hidden md:inline">Grid</span>
             </button>
             <button
               onClick={() => setViewMode('list')}
@@ -69,7 +69,7 @@ export function TemplateList({
               aria-label="List view"
             >
               <i className="fa-solid fa-list"></i>
-              <span className="hidden sm:inline">List</span>
+              <span className="hidden md:inline">List</span>
             </button>
           </div>
 

@@ -1,8 +1,163 @@
 import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
+
+
   {
-    id: 'obg-84',
+    id: 'ob-86',
+    title: 'Insomnia in Pregnancy at 26 Weeks Gestation',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Care',
+    condition: 'Insomnia in Pregnancy',
+    symptoms: [
+      'Difficulty falling asleep',
+      'Prolonged sleep latency of over 2 hours',
+      'Frequent nocturnal awakenings',
+      'Difficulty returning to sleep after awakening',
+      'Non-refreshing sleep',
+      'Daytime tiredness',
+      'Reduced concentration at work',
+      'Occasional mild headaches',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 32-year-old G2 P1+0 woman at 26 weeks gestation presenting with a 2-week history of difficulty initiating and maintaining sleep, non-refreshing sleep, daytime tiredness and reduced concentration. She has no significant symptoms suggestive of obstructive sleep apnoea, restless legs syndrome or a mood disorder. Examination reveals an anxious but clinically stable woman with normal vital signs and reassuring fetal findings. Assessment was insomnia in pregnancy.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 32-year-old female civil servant who resides in Ogbomosho, Oyo State. She is G2 P1+0 (1 alive).
+  
+  PRESENTING COMPLAINT
+  
+  Difficulty sleeping x 2/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 2 weeks ago when she started experiencing difficulty falling asleep at night. She reports that it takes her over 2 hours to fall asleep after going to bed. Once asleep, she wakes up multiple times during the night and finds it difficult to return to sleep. The sleep is non-refreshing, leading to significant daytime tiredness and reduced concentration at her place of work.
+  
+  She denies any history of snoring, witnessed apnoea or gasping for breath during sleep. There are no reports of creepy-crawly or tingling sensations in the lower limbs or an irresistible urge to move the legs at night. There is no history of persistently low mood, loss of interest in previously pleasurable activities or excessive worrying. She denies frequent nocturia, heartburn or shortness of breath when lying flat. No history of caffeine or alcohol consumption, especially in the evening hours.
+  
+  PAST OBSTETRIC HISTORY
+  
+  G2 P1+0. Index pregnancy is 26 weeks EGA, spontaneous conception, currently booked for ANC at this facility.
+  
+  Last pregnancy was 4 years ago, ended in a spontaneous vaginal delivery at term of a 3.5 kg male infant. No history of gestational hypertension, pre-eclampsia or gestational diabetes.
+  
+  GYNAECOLOGICAL HISTORY
+  
+  Menarche at 13 years. Regular 28-day cycle. No history of contraceptive use prior to this pregnancy.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  No known history of hypertension, diabetes mellitus or asthma. No previous surgeries or hospitalizations. No known drug allergies.
+  
+  DRUG HISTORY
+  
+  Currently on routine ANC medications:
+  
+  1. Tab Fersolate 200 mg daily
+  2. Tab Folic Acid 5 mg daily
+  
+  No history of use of herbal medications or over-the-counter sedatives.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Married in a monogamous setting. Lives in a well-ventilated flat with her husband and son. Non-smoker and does not consume alcohol. Husband is a secondary school teacher and is supportive.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Occasional mild headaches, no dizzy spells.
+  
+  CVS: No palpitations, no orthopnoea.
+  
+  RS: No cough or chest pain.
+  
+  GIT: No nausea, vomiting or constipation.
+  
+  GUS: Frequency of micturition is normal for EGA, no dysuria.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination:
+  
+  Anxious but stable young woman. Not acutely ill-looking.
+  
+  Afebrile (36.7°C), not pale, anicteric, not dehydrated.
+  
+  No significant peripheral lymphadenopathy. No pedal oedema.
+  
+  Vital Signs:
+  
+  Pulse Rate: 78 bpm, regular, normal volume.
+  
+  Blood Pressure: 110/70 mmHg.
+  
+  Respiratory Rate: 18 cpm.
+  
+  SpO2: 98% on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Gravid enlargement.
+  
+  Symphysio-fundal height (SFH): 26 cm (consistent with dates).
+  
+  Fetal lie: Longitudinal.
+  
+  Presentation: Cephalic.
+  
+  Fetal Heart Rate (FHR): 140 bpm, regular.
+  
+  ASSESSMENT
+  
+  Insomnia in pregnancy at 26 weeks EGA in a G2 P1+0 woman.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Sleep hygiene-related insomnia.
+  2. Restless Leg Syndrome (RLS) in pregnancy.
+  3. Generalized Anxiety Disorder.
+  4. Obstructive Sleep Apnoea (OSA) of pregnancy.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Packed Cell Volume (PCV): To rule out anaemia as a contributor to RLS or fatigue.
+  2. Serum Ferritin: If RLS is strongly suspected (iron deficiency is a common trigger).
+  3. Urinalysis: Routine ANC screening for asymptomatic bacteriuria.
+  4. Obstetric Ultrasound: For routine assessment of fetal wellbeing and growth.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Reassurance: Explain that sleep disturbances are common in the second and third trimesters due to hormonal and physiological changes.
+  
+  2. Sleep Hygiene Education:
+     - Maintain a consistent sleep and wake-up schedule.
+     - Use the bedroom only for sleep and intimacy.
+     - Avoid screens (phones, TV) at least 1 hour before bedtime.
+     - Limit fluid intake in the late evening to reduce nocturnal voiding.
+     - Create a dark, cool and quiet sleeping environment.
+  
+  3. Positional Advice: Encourage sleeping on the left lateral side with pillows placed between the knees and behind the back for better support and comfort.
+  
+  4. Relaxation Techniques: Deep breathing exercises or prenatal yoga before bed.
+  
+  5. Pharmacotherapy (to be considered only if non-pharmacological measures fail after 1–2 weeks):
+     - Tab Promethazine 25 mg nocte for 3–5 days.
+     - Alternatively, Tab Diphenhydramine 25 mg nocte.
+  
+  Note: Use should be short-term and limited to the lowest effective dose.
+  
+  6. Follow-up: Review in 2 weeks at the next ANC clinic to assess response to sleep hygiene.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-85',
     title: 'Pelvic Inflammatory Disease in a Young Nulliparous Woman',
     specialty: 'Obstetrics and Gynecology',
     subSpecialty: 'Gynaecology / Infectious Disease',

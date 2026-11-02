@@ -2652,4 +2652,880 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
     `
 },
 
+{
+  id: 'procedure-nasogastric-tube-insertion',
+  title: 'Nasogastric Tube Insertion',
+  category: 'Procedures',
+  subCategory: 'General',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nasogastric Tube Insertion</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; GENERAL</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Nasogastric Tube Insertion</h1>
+  <p class="text-sm text-indigo-200">The Ryle&rsquo;s tube is one of the first procedures a house officer is asked to do, and one of the easiest to do badly. A tube that ends up in a bronchus and is then used for feeds or drugs can kill. This guide covers when to pass a tube and when not to, tube choice, adult and paediatric technique, how to confirm position without relying on the old &ldquo;whoosh test&rdquo;, and the problems that follow: displacement, blockage, aspiration, and the nose and throat injuries that come from forcing it.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-and-when-not-to-use-a-tube" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and When Not to Use a Tube</span></a></li>
+  <li><a href="#stop-signs-when-not-to-pass-through-the-nose" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Stop Signs: When Not to Pass Through the Nose</span></a></li>
+  <li><a href="#choosing-the-tube" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Choosing the Tube</span></a></li>
+  <li><a href="#preparation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Preparation</span></a></li>
+  <li><a href="#technique-adults-and-older-children" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Technique: Adults and Older Children</span></a></li>
+  <li><a href="#technique-infants-and-young-children" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Technique: Infants and Young Children</span></a></li>
+  <li><a href="#unconscious-patients-and-when-it-will-not-pass" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Unconscious Patients and When It Will Not Pass</span></a></li>
+  <li><a href="#confirming-position-the-step-that-prevents-deaths" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Confirming Position: The Step That Prevents Deaths</span></a></li>
+  <li><a href="#using-and-caring-for-the-tube" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Using and Caring for the Tube</span></a></li>
+  <li><a href="#removing-the-tube" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Removing the Tube</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Many reasons to need one.</strong> Stroke and head injury with dysphagia, severe infection and coma, bowel obstruction and perforation awaiting theatre, severe acute malnutrition (SAM) in children who cannot take F-75, rehydration with ORS in children who cannot drink, and sick or premature neonates.</li>
+<li><strong>The route that fails quietly.</strong> A tube in the oesophagus or a bronchus can look and feel the same as a tube in the stomach. Misplaced tubes cause pneumonia, pneumothorax and death. In England, using a misplaced nasogastric tube is classed as a &ldquo;never event&rdquo;, and the commonest causes are errors in reading X-rays and in using pH testing.</li>
+<li><strong>Habits that need to change.</strong> Many wards still check position by injecting air and listening over the stomach, or by testing aspirate with litmus paper. Both are classed as unsafe in current UK, Australian and US guidance. Section 9 explains what to do instead and what to do when you have no pH paper and no radiology.</li>
+<li><strong>Practical limits.</strong> Tubes are reused, tape is scarce, pH paper may be absent, and X-ray may take hours. This guide gives the safest option for each situation and says plainly where a compromise carries risk.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-when-not-to-use-a-tube" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications and When Not to Use a Tube
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reasons to pass a nasogastric tube</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Purpose</th><th class="py-2 pr-3 font-semibold">Typical Nigerian examples</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Feeding</td><td class="py-2 pr-3">Stroke or head injury with failed swallow, coma, burns, severe illness, SAM in a child who cannot complete F-75, neonates.</td><td class="py-2 pr-3">Short-term enteral nutrition when the gut works. Follow your dietitian or SAM protocol for the feed and regimen.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Rehydration</td><td class="py-2 pr-3">Child who cannot drink ORS or ReSoMal enough. Alert child with dehydration and vomiting.</td><td class="py-2 pr-3">Not suitable for shock. Shock needs an IV or intraosseous line.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Decompression</td><td class="py-2 pr-3">Intestinal obstruction, perforation or ileus before surgery, gastric distension.</td><td class="py-2 pr-3">Use a wide-bore sump or Ryle&rsquo;s tube. In bowel obstruction it relieves vomiting and aspiration risk.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gastric emptying in intubated patients</td><td class="py-2 pr-3">To reduce aspiration risk and abdominal distension.</td><td class="py-2 pr-3">Often placed through the mouth in intubated patients.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drug or contrast administration</td><td class="py-2 pr-3">Activated charcoal where indicated, oral contrast, medicines when the oral route fails.</td><td class="py-2 pr-3">Use liquid forms. Do not crush modified-release tablets.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gastric aspirates</td><td class="py-2 pr-3">Early-morning gastric aspirate for TB in a child who cannot produce sputum.</td><td class="py-2 pr-3">Follow national TB programme guidance on collection and handling.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not use a tube for</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Routine lavage in upper GI bleeding.</strong> A nasogastric aspirate is not sensitive enough to rule out active bleeding, and the tube has not been shown to improve outcomes in GI bleeding.</li>
+<li><strong>Gastric emptying after kerosene or corrosive ingestion,</strong> unless a poisons service advises. Passing a tube risks vomiting, aspiration or perforation.</li>
+<li><strong>Patients who can eat and drink safely.</strong> If swallowing is intact, use the mouth.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-when-not-to-pass-through-the-nose" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Stop Signs: When Not to Pass Through the Nose
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Do Not Pass a Nasal Tube If You Suspect</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Basal skull fracture,</strong> severe mid-face trauma or nasal fracture. Tubes have entered the skull in these patients. Use an orogastric tube instead, and ask a senior.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Recent nasal, skull-base or oesophageal surgery.</strong> Get surgical advice first.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Caustic ingestion or oesophageal injury or stricture.</strong></span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Recent oesophageal variceal banding or cautery.</strong> Varices, bleeding disorders and nasal obstruction are relative contraindications. Take care and use the smallest suitable tube.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Severe bleeding tendency or very low platelets.</strong> A nasal tube can cause severe epistaxis.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Refusal after explanation,</strong> from a competent patient.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Check for a deviated septum, polyps, nasal obstruction and previous epistaxis. Use the clearer nostril.</li>
+<li>In a trauma patient, treat a basal skull fracture as present until excluded. Clues are bruising behind the ear or around the eyes, blood or clear fluid from the nose or ear, and a boggy swelling.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-tube" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Choosing the Tube
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Tube</th><th class="py-2 pr-3 font-semibold">Size</th><th class="py-2 pr-3 font-semibold">Use and duration</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Wide-bore (Ryle&rsquo;s or sump)</td><td class="py-2 pr-3">Adults 14&ndash;16 Fr (range 10&ndash;18 Fr)</td><td class="py-2 pr-3">Decompression and short-term use. Lasts about a week. Salem sump tubes have an air vent that stops the tube sticking to the stomach wall.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Fine-bore feeding tube</td><td class="py-2 pr-3">6&ndash;8 Fr, with a stylet</td><td class="py-2 pr-3">Feeding and medicines. Lasts up to 6 to 8 weeks. More comfortable, but easier to block and harder to aspirate.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Children</td><td class="py-2 pr-3">8&ndash;12 Fr for most children. Smaller for infants (5&ndash;6 Fr is common).</td><td class="py-2 pr-3">Use the smallest size that gives adequate flow. Always use a radio-opaque tube if X-ray may be needed.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Neonates</td><td class="py-2 pr-3">Per neonatal unit protocol.</td><td class="py-2 pr-3">A weight-based length formula for neonates is used in neonatal guidelines (3 &times; weight in kg + 13 cm for a nasogastric tube). Neonatal tubes are often orogastric.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Use tubes meant for single use only once. Reusing tubes raises the risk of infection and mouth and nose damage, and old, stiff tubes are more likely to coil or perforate.</li>
+<li>If you only have a wide-bore Ryle&rsquo;s tube, it works for decompression, feeds and drugs, but warn the patient it is more uncomfortable.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Preparation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Check before you start</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Confirm the indication, and the plan for the tube: feeds, drainage or drugs. Write the order.</li>
+<li>Check for the stop signs in Section 3. Ask about nosebleeds, nasal surgery and bleeding disorders.</li>
+<li>Confirm <strong>how you will check position afterwards</strong>: narrow-range pH paper in hand (not litmus), or a booked X-ray. Do not start without a plan.</li>
+<li>Explain the procedure. Agree a signal (raising a hand) so the patient can stop you.</li>
+</ul>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;I need to pass a soft tube through your nose into your stomach, so we can give you food and medicine, or drain the stomach. It will feel uncomfortable, and you may gag or tear up. I will ask you to sip water and swallow when I tell you. If you wave your hand I will stop. If you cough hard or cannot speak, I will take the tube out at once.&rdquo;</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Nasogastric tube</td><td class="py-2 pr-3">Correct type and size (Section 4), in date and intact.</td><td class="py-2 pr-3">Do not use a stiff, cracked or reused tube.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Lubricant</td><td class="py-2 pr-3">Water-soluble gel (lignocaine gel if used). Not oil.</td><td class="py-2 pr-3">Sterile water on the tip.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Syringes</td><td class="py-2 pr-3">50 mL catheter-tip syringe for adults, 10 to 20 mL for children, enteral syringes for fine-bore tubes.</td><td class="py-2 pr-3">A needle-less syringe that fits the tube.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">pH paper</td><td class="py-2 pr-3">Narrow-range pH indicator strips (about pH 1&ndash;6 or 2&ndash;9) in 0.5 steps. Not litmus.</td><td class="py-2 pr-3">Ask pharmacy or laboratory. Make it a ward stock item.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Glass of water with straw</td><td class="py-2 pr-3">For sipping, if the patient can swallow safely.</td><td class="py-2 pr-3">Ice chips.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Securing</td><td class="py-2 pr-3">Hypoallergenic tape or a fixation device, marker pen.</td><td class="py-2 pr-3">Zinc oxide or other strong tape, protecting the skin with a pad.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">General</td><td class="py-2 pr-3">Gloves, apron, basin, towel, tissues, torch and tongue depressor.</td><td class="py-2 pr-3">The torch and depressor allow you to see a coiled tube in the throat.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-adults-and-older-children" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Technique: Adults and Older Children
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position.</strong> Sit the patient upright at 45 to 90 degrees with the head neutral and supported. In an unconscious patient without a neck injury, use the left lateral position.</li>
+<li><strong>Measure.</strong> Use the NEMU method: from the tip of the nose to the earlobe, then to the midpoint between the xiphisternum and the umbilicus. This is now preferred to nose to earlobe to xiphisternum (NEX), which can place the tip too high. Mark the length on the tube with tape or a pen. The older method of adding 5 to 10 cm to the NEX measurement is a common alternative.</li>
+<li><strong>Lubricate</strong> the first 10 to 15 cm of the tube. Check the nostril is clear. A topical anaesthetic gel or spray is commonly used, but evidence for benefit is weak, and nebulised lidocaine has better evidence.</li>
+<li><strong>Insert.</strong> Direct the tip straight back, parallel to the floor of the nose, not upward toward the bridge. Advance gently along the floor. Stop and rotate if there is resistance, or try the other nostril. Do not force.</li>
+<li><strong>Flex the neck.</strong> When the tube reaches the back of the throat (about 10 to 15 cm), ask the patient to tuck the chin onto the chest and sip water, swallowing as you advance the tube. This closes the airway and opens the oesophagus.</li>
+<li><strong>Advance</strong> smoothly with each swallow until the mark reaches the nostril. If the patient coughs, chokes, becomes cyanosed, cannot speak, or has noisy breathing, withdraw at once and start again. A patient who can speak and breathe normally probably has the tube in the oesophagus, but this does not prove it.</li>
+<li><strong>Look in the mouth.</strong> With a torch and depressor, check the tube is not coiled in the pharynx.</li>
+<li><strong>Secure</strong> the tube to the nose with tape that does not pull on the nostril, and to the cheek. Mark and write down the length at the nostril.</li>
+<li><strong>Confirm position before anything goes down the tube</strong> (Section 9). Do not flush, feed, or give drugs until the position is proved.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-infants-and-young-children" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Technique: Infants and Young Children
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare the child.</strong> Explain to the parent, and ask them to help hold. Wrap the infant. Oral sucrose or breastfeeding comfort helps. Use a second person to hold the head.</li>
+<li><strong>Position.</strong> Semi-upright (semi-Fowler) or supine with head in a neutral position, or held upright in the carer&rsquo;s lap. Do not flex the neck of an infant, as this can obstruct the airway.</li>
+<li><strong>Measure with NEMU.</strong> Nose to earlobe to the midpoint between xiphisternum and umbilicus. Mark the tube.</li>
+<li><strong>Lubricate and insert</strong> along the floor of the nose. Infants breathe through the nose, so work quickly and watch the colour and oxygen saturation. If the child becomes blue or distressed, remove the tube.</li>
+<li><strong>Nostril or mouth.</strong> In neonates and small infants, an orogastric tube is often used. Use your neonatal protocol.</li>
+<li><strong>Secure,</strong> record the length, and confirm position before use (Section 9). In children use the stricter pH threshold your local guideline gives. New South Wales guidance, after a case of intracranial placement, lowered the accepted pH to 4.0 or below for infants and children and uses narrow-range pH paper in 0.5 steps.</li>
+<li><strong>Avoid feeding tubes of the wrong gauge.</strong> A tube too thick for the nostril causes pressure injury. A tube too thin may coil.</li>
+<li><strong>Observe</strong> breathing and colour for a few minutes after insertion. Document the size and length.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="unconscious-patients-and-when-it-will-not-pass" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Unconscious Patients and When It Will Not Pass
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Problem</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Unconscious or intubated patient, tube keeps coiling in the pharynx</td><td class="py-2 pr-3">Use a lateral position. Pull the jaw forward (jaw thrust) or apply gentle traction on the mandible to open the oesophagus, as you advance. In intubated patients, a two-finger technique or a laryngoscope can help. Remember that a patient without a cough reflex will not tell you when the tube is in the trachea.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Resistance in the nose</td><td class="py-2 pr-3">Do not force. Rotate the tube slightly, use the other nostril, lubricate more, and use a smaller tube. Persistent blockage may be a deviated septum or polyp.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Tube coils in the mouth</td><td class="py-2 pr-3">Withdraw to the pharynx and advance again with the chin tucked. Use a torch and depressor.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gagging or vomiting</td><td class="py-2 pr-3">Pause, let the patient breathe and settle, give a sip of water, then continue. Have suction ready in unconscious or vomiting patients.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Nosebleed</td><td class="py-2 pr-3">Remove the tube, pinch the soft part of the nose and lean forward. Try again only after bleeding has stopped. Check for a bleeding disorder.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cough, cyanosis, voice change, respiratory distress during insertion</td><td class="py-2 pr-3">Remove the tube at once. Give oxygen. Start again after the patient recovers. Treat any tube that caused coughing as possibly in the airway until proved otherwise.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Failed after two or three attempts</td><td class="py-2 pr-3">Stop. Ask a senior. Consider an orogastric tube, a different tube, or direct visualisation. Repeated attempts cause bleeding and swelling.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="confirming-position-the-step-that-prevents-deaths" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Confirming Position: The Step That Prevents Deaths
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Current UK and international guidance is consistent. <strong>Nothing goes down the tube &ndash; no feed, no water, no medicine &ndash; until the position has been confirmed.</strong></p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First-line test: gastric aspirate pH</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Aspirate with a syringe and test the fluid on narrow-range pH paper. In adults, a pH from 1 to 5.5 is accepted as the safe range for use (ASPEN uses the same band). Litmus paper cannot separate gastric fluid (pH about 1 to 6) from bronchial secretions (pH about 5.5 to 7), so do not use it.</li>
+<li>For infants and children, some guidelines are stricter. New South Wales uses 4.0 or below. Use the threshold in your local paediatric protocol.</li>
+<li>A pH above the safe range does not prove the tube is in the lung. It means you cannot use the tube yet. Reaspirate and retest, as below.</li>
+<li>Acid-suppressing drugs, recent feeds and the first 48 hours of life can raise gastric pH. Document what you did and ask a senior.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If you cannot get an aspirate or the pH is above the safe range</strong>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li>Turn the patient onto the left side, if you can, and try again.</li>
+<li>Inject 10 to 20 mL of air in adults, or 1 to 5 mL in children, using a large syringe, and re-aspirate. The air lifts the tube tip off the stomach wall. This is a way to get an aspirate, not a test of position.</li>
+<li>Wait 15 to 30 minutes (longer if the patient has just had a feed or drug that may have diluted acid), give mouth care, and try again.</li>
+<li>Advance or withdraw the tube by 1 to 2 cm and try again.</li>
+<li>If you still cannot confirm, do <strong>not</strong> use the tube. Get an X-ray, or re-site the tube.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">X-ray</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Use X-ray when no aspirate can be obtained or the pH is not in range. Request it with the reason &ldquo;check nasogastric tube position&rdquo;.</li>
+<li>A senior clinician or radiologist should read it. Misreading the film is the commonest reason misplaced tubes get used. The tube must be seen to follow the oesophagus in the midline, cross the diaphragm, and end clearly in the stomach below the left hemidiaphragm.</li>
+<li>If the tube is in the lung, remove it at once.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Methods that must not be used</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>The &ldquo;whoosh test&rdquo;:</strong> injecting air and listening over the stomach. Air in the lung or oesophagus can sound the same.</li>
+<li><strong>Blue litmus paper</strong> or any non-graded pH paper.</li>
+<li><strong>Bubbles when the tube end is held in water.</strong> Observing bubbling, or the lack of respiratory distress, or the appearance of the aspirate, does not prove position.</li>
+<li><strong>The patient being able to speak or having no distress,</strong> especially if sedated, unconscious or intubated.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: older teaching versus current safety guidance</p>
+<p class="text-sm">Many nursing and medical textbooks, and some locally used SOPs, still list auscultation, litmus paper and bubbling in water as acceptable confirmation. English patient safety alerts since 2005, Australian guidance, the BAPEN position paper and the 2019 ASPEN guidance all reject them. The English resource set accepts only pH in the safe range or an X-ray read by a trained person as valid initial checks.</p>
+<p class="text-sm">The pH range itself differs: English and ASPEN guidance uses 1 to 5.5, while New South Wales lowered its paediatric threshold to 4.0. Whichever you use, apply it to every check, record the value, and ask a senior when it falls outside.</p>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">If You Truly Have No pH Paper and No Radiology</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>This is a gap in safety, not a standard. Raise it with your consultant and ward manager, and put narrow-range pH paper on the ward supply list. It costs a fraction of one X-ray and in an economic analysis pH testing was about four times cheaper than X-ray confirmation.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>For decompression, a tube in the wrong place usually produces no gastric contents rather than harm, but a tube in the lung can still drain air and cause pneumothorax or aspiration. Treat any tube with doubtful drainage as unconfirmed.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>For feeds and drugs, delay if you can. If the child or patient cannot wait, for example a SAM child who needs F-75, have a senior check the tube length, the aspirate and the patient&rsquo;s breathing, give the first small volume slowly with the patient upright and watched, and stop at the first cough, vomit or distress. This reduces risk but does not remove it. Do not use air auscultation as your confirmation.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-and-caring-for-the-tube" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Using and Caring for the Tube
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Check before every use,</strong> and after any vomiting, coughing fit, or suspected movement: the external length at the nostril against your record, then aspirate pH where you can. A change in length may mean displacement.</li>
+<li><strong>Keep the patient upright</strong> at 30 to 45 degrees during feeds and for a time afterwards, to reduce reflux and aspiration.</li>
+<li><strong>Flush</strong> with cooled boiled water before and after feeds and drugs, in the volume your protocol sets. Do not flush with large volumes in small infants.</li>
+<li><strong>Drugs:</strong> use liquid forms. Give each separately and flush between them. Do not crush modified-release or enteric-coated tablets.</li>
+<li><strong>Feeds:</strong> follow your dietitian or SAM protocol for the feed, volume and rate. Prepare fresh feeds with clean equipment. Use wide-bore tubes for thick blended feeds. Fine-bore tubes block easily.</li>
+<li><strong>Children with SAM:</strong> F-75 is given by tube when the child cannot take enough by mouth, according to your inpatient SAM protocol. ORS or ReSoMal by tube is an accepted route for an alert child who cannot drink enough and is not in shock.</li>
+<li><strong>Skin and nose care:</strong> change the tape when loose or soiled, move the tape or tube to avoid pressure on the nostril, and clean the nose daily.</li>
+<li><strong>Change the tube</strong> when blocked, damaged, or at the manufacturer&rsquo;s interval. Fine-bore tubes can stay for several weeks. Wide-bore tubes are usually changed after about a week.</li>
+<li><strong>Blocked tube:</strong> flush gently with warm water in an appropriate volume. Do not force the plunger or use a guidewire to clear a blocked tube. Replace the tube if it will not clear.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="removing-the-tube" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Removing the Tube
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Confirm the order, explain to the patient, and check for aspiration risk.</li>
+<li>Clamp or pinch the tube so fluid does not drip, and turn off any feed.</li>
+<li>Remove the tape, ask the patient to breathe in and then out, and withdraw the tube smoothly and steadily in one movement. Stop if there is resistance and ask for help.</li>
+<li>Dispose of the tube. Clean the nose and offer mouth care. Record the date and time.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Tube in the airway or lung:</strong> cough, choking, cyanosis, falling oxygen saturation, voice change, respiratory distress. Remove the tube at once and give oxygen. If anything was given through it, treat as aspiration, get a chest X-ray, and tell a senior.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pneumothorax or pleural placement:</strong> sudden breathlessness, chest pain, unilateral reduced breath sounds. Emergency.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Aspiration pneumonia:</strong> fever, cough and breathlessness after feeds. Stop feeds, check tube position, and treat.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Intracranial placement</strong> in a patient with a basal skull fracture: any neurological change after insertion. Emergency.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Oesophageal or pharyngeal perforation:</strong> pain, fever, neck swelling, subcutaneous air, or blood in aspirate. Stop and get urgent surgical help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Epistaxis, alar necrosis, sinusitis, otitis media</strong> and pressure sores of the nose with long-term tubes.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Coiled or knotted tube,</strong> or tube that will not come out: do not pull hard. Get help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Refeeding problems in malnourished patients:</strong> follow your SAM or refeeding protocol and monitor electrolytes.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm050183" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Nasogastric Intubation</a> &ndash; the standard teaching video with indications, contraindications and complications. The full video may need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pubmed.ncbi.nlm.nih.gov/16641390/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PubMed record: Nasogastric intubation (NEJM)</a> &ndash; citation page for the NEJM video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=WZvIw0SnYrE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Nasogastric (NG) tube insertion, OSCE guide video</a> &ndash; a clear step-by-step OSCE demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/nasogastric-ng-tube-insertion/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Nasogastric tube insertion OSCE guide</a> &ndash; written checklist with equipment and steps.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=efb9EBVxihg" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NMC OSCE: Insertion of fine-bore nasogastric tube, full practical</a> &ndash; full demonstration with pH checking.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=E_3Rtzf1234" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NMC OSCE: Nasogastric tube insertion</a> &ndash; OSCE-style walkthrough.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=ZLsvYc_WZdg" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Insertion of a Nasogastric (NG) Tube</a> &ndash; technique, equipment and a demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=hkPZqACyT5w" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Nasogastric Tube (NG Tube) Insertion Procedure</a> &ndash; clinical demonstration with anatomy visualisation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=Sqf1QveZlE8" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">From Nose to Stomach: How an NG Tube Is Inserted</a> &ndash; positioning and measurement.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=Vif0_SRJir8" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to Insert a Nasogastric Tube, nursing skills</a> &ndash; a nursing-skills walkthrough.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medschool.co/procedures/ng/ng-tubes" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Medschool.co: Nasogastric tube</a> &ndash; concise summary of indications, contraindications and steps.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.medbridge.com/blog/nasogastric-tube-insertion-indications-technique-verification-and-safety" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Medbridge: Nasogastric tube insertion, indications, technique, verification and safety</a> &ndash; pH-first confirmation and securement.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Children, infants and sick newborns</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/video/inserting-a-nasogastric-tube/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Inserting a Nasogastric Tube</a> &ndash; made for low-resource settings. Shows how to decide if a small baby needs a tube and how to insert one safely.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=M2bbyFFVtnc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Getting a nasogastric (NG) tube placed, Children&rsquo;s Hospital of Wisconsin</a> &ndash; what happens in a child, including preparing and comforting the child.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/shorts/j8JHEmFv4Mc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NG tube insertion in a premature baby</a> &ndash; short clip.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cec.health.nsw.gov.au/__data/assets/pdf_file/0020/803342/Paediatric-watch-ngt-insertion-confirmation-of-correct-placement.PDF" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NSW Clinical Excellence Commission: Paediatric nasogastric tube insertion and confirmation</a> &ndash; why NSW changed to NEMU measurement, pH 4.0 or below and narrow-range pH paper.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.uhsussex.nhs.uk/wp-content/uploads/2023/12/TMBU-Guideline-for-the-use-of-oro-and-nasogastric-tubes-on-the-neonatal-unit-August-2019.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal unit guideline: oro- and nasogastric tubes</a> &ndash; length formula, pH checks, what to do if no aspirate.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.fantaproject.org/sites/default/files/resources/Ghana-Inpatient-Care-Module4-Mar2012.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ghana inpatient SAM training, Module 4: Feeding</a> &ndash; F-75 by mouth or nasogastric tube for children with severe acute malnutrition in a West African setting.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://criticalcarereviews.com/foundational-trials/gastrosam" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">GastroSAM trial summary: oral and nasogastric rehydration in severe acute malnutrition</a> &ndash; regimen of ORS by mouth or nasogastric tube alternating with F-75.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Safety guidance and confirming position</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.england.nhs.uk/patient-safety/patient-safety-insight/patient-safety-alerts/enduring-standards/standards-that-remain-valid/medical-device-safety/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS England: Enduring patient safety standards, medical device safety</a> &ndash; the accepted methods of confirming initial tube placement.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.england.nhs.uk/wp-content/uploads/2019/12/Patient_Safety_Alert_Stage_2_-_NG_tube_resource_set.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS Patient Safety Alert resource set: Initial placement checks</a> &ndash; pH and X-ray checking, with decision trees.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.bapen.org.uk/pdfs/ngsig/a-position-paper-on-nasogastric-tube-safety-v2.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BAPEN position paper on nasogastric tube safety</a> &ndash; misplacement complications, never events and training.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.hssib.org.uk/patient-safety-investigations/placement-of-nasogastric-tubes/investigation-report/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">HSSIB investigation: placement of nasogastric tubes</a> &ndash; what goes wrong with pH testing and X-ray interpretation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nutritotal.com.br/pro/wp-content/uploads/2019/02/NOVEL-Lanyard-Card_boxed.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ASPEN NOVEL lanyard card: NG tube placement and verification</a> &ndash; NEMU measurement, pH check and decision flow.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://evidence.nihr.ac.uk/alert/simple-bedside-check-for-nasogastric-tube-positioning-is-cost-effective-and-prevents-deaths" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NIHR: Simple bedside check for nasogastric tube positioning is cost effective</a> &ndash; why pH testing first is cheaper than routine X-ray.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://med.uwu.ac.lk/wp-content/uploads/2026/08/Standard_Operating_Procedure_on_NG_Tube_insertion__Removel.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Standard operating procedure: NG tube insertion and removal</a> &ndash; surgical department SOP from a low-resource setting.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8464011/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Two-finger versus video laryngoscopy for NG tube insertion in intubated patients</a> &ndash; techniques when the patient is intubated.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM, Geeky Medics and Global Health Media videos, then use the others to see different operators and settings. None of the videos replaces your hospital protocol for confirming position.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask why the tube is needed and which route is safest. Use an orogastric tube if you suspect a basal skull fracture or severe facial trauma.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Measure NEMU (nose, earlobe, midpoint between xiphisternum and umbilicus), mark the tube, and record the length at the nostril.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sit the patient upright, go along the floor of the nose, tuck the chin, sip water, and advance with swallowing. Cough, cyanosis or loss of voice means remove it.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Nothing goes down the tube until the position is confirmed. First-line check is aspirate pH on narrow-range paper (1 to 5.5 in adults), then X-ray if no aspirate or pH out of range.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never use the whoosh test, litmus paper, bubbling in water, or the lack of distress as proof of position.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If no aspirate: left side, 10 to 20 mL air in adults (1 to 5 mL in children), wait 15 to 30 minutes, adjust the tube 1 to 2 cm, then X-ray. Do not use the tube meanwhile.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Children: smallest tube that works, no neck flexion in infants, stricter pH thresholds in some guidelines, never leave a struggling child without help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check position before every use. Keep the patient upright. Flush with boiled water. Use liquid drugs.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stop and call for help after two or three failed attempts, bleeding, or any sign of airway placement.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Make narrow-range pH paper a ward stock item. It is cheap and it prevents deaths.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. NHS England and NHS Improvement. Patient safety alert NHS/PSA/RE/2016/006: Nasogastric tube misplacement: continuing risk of death and severe harm, and resource set: initial placement checks for nasogastric and orogastric tubes. NHS England enduring patient safety standards: medical device safety.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. National Patient Safety Agency. Patient safety alert NPSA/2011/PSA002: Reducing the harm caused by misplaced nasogastric feeding tubes in adults, children and infants. 2011.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Healthcare Safety Investigation Branch (England). Investigation report: Placement of nasogastric tubes.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. British Association for Parenteral and Enteral Nutrition. A position paper on nasogastric tube safety. NG Tube Safety Special Interest Group.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. American Society for Parenteral and Enteral Nutrition. NOVEL project: Nasogastric tube placement and verification, lanyard card, 2019.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. NSW Health. Infants and children: insertion and confirmation of placement of nasogastric and orogastric tubes. Guideline GL2016_006, and NSW Clinical Excellence Commission Paediatric Watch.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. New England Journal of Medicine, Videos in Clinical Medicine. Nasogastric intubation. N Engl J Med 2006;354:e16.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Neonatal unit guideline on the use of oro- and nasogastric tubes (NHS), August 2019.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Evidence summary: simple bedside check for nasogastric tube positioning is cost effective and prevents deaths. NIHR Evidence alert.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. World Health Organization. Guideline on inpatient management of severe acute malnutrition, and Ghana inpatient care training materials adapted from the WHO course, Module 4: Feeding. FANTA project.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Oral and nasogastric rehydration regimen in children with severe acute malnutrition and severe dehydration (GASTROSAM trial).</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Department of Surgery. Standard operating procedure for nasogastric tube insertion and removal, 2026.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Randomised clinical trial: digital (two-finger) versus video laryngoscopy for nasogastric tube insertion in intubated patients. Emergency 2021.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Global Health Media Project. Inserting a nasogastric tube (Care of Small Babies video series).</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-urethral-catheterization',
+  title: 'Urethral Catheterization',
+  category: 'Procedures',
+  subCategory: 'Urology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urethral Catheterization</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; UROLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Urethral Catheterization</h1>
+  <p class="text-sm text-indigo-200">Acute retention from an enlarged prostate or a urethral stricture, strict fluid balance in a sick patient, and bladder drainage after obstructed labour are daily reasons to pass a catheter in Nigerian hospitals. A badly done catheterization causes false passages, strictures and sepsis that outlast the original problem. This guide covers whether a catheter is needed, who must not be catheterized blindly, male, female and paediatric technique, difficult passage, decompression, removal and infection prevention.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-and-alternatives" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and Alternatives</span></a></li>
+  <li><a href="#stop-signs-who-must-not-be-catheterized-blindly" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Stop Signs: Who Must Not Be Catheterized Blindly</span></a></li>
+  <li><a href="#before-you-start" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Before You Start</span></a></li>
+  <li><a href="#equipment-and-choosing-the-catheter" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Equipment and Choosing the Catheter</span></a></li>
+  <li><a href="#technique-adult-male" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Technique: Adult Male</span></a></li>
+  <li><a href="#technique-adult-female" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Technique: Adult Female</span></a></li>
+  <li><a href="#children-and-infants" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Children and Infants</span></a></li>
+  <li><a href="#when-it-will-not-go-difficult-catheterization" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>When It Will Not Go: Difficult Catheterization</span></a></li>
+  <li><a href="#after-insertion-draining-a-full-bladder" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>After Insertion: Draining a Full Bladder</span></a></li>
+  <li><a href="#catheter-care-and-infection-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Catheter Care and Infection Prevention</span></a></li>
+  <li><a href="#removal-and-trial-without-catheter" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Removal and Trial Without Catheter</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Special Situations</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">16</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Retention is common and often late.</strong> In a north-western Nigerian series of adult men with urinary retention, benign prostatic hyperplasia caused about 52 per cent, urethral stricture 20 per cent, prostate cancer 7 per cent, urethral injury 7 per cent and bladder tumour 6 per cent. Complications of retention were frequent: urinary tract infection in about a quarter of patients, renal impairment in 15 per cent and anaemia in 12 per cent. Many arrive after days of retention, herbal treatment, or failed attempts elsewhere.</li>
+<li><strong>A stricture changes everything.</strong> One in five men in that series had a stricture. A forced catheter through a stricture makes a false passage and a worse stricture. Know the history and stop early when the catheter will not pass.</li>
+<li><strong>Obstetric fistula prevention.</strong> Nigeria has a national guideline that recommends early bladder catheterization after prolonged or obstructed labour, with continuous drainage for about 10 to 14 days, to prevent obstetric fistula and to treat fresh fistulas.</li>
+<li><strong>Infection.</strong> Each day a catheter stays in, the chance of bacteriuria rises by about 3 to 7 per cent. Catheter-associated infection is largely preventable with good insertion technique, a closed system and prompt removal.</li>
+<li><strong>Who does it.</strong> Doctors, nurses, midwives and community health workers all pass catheters. The most important skill is judgement: whether to do it, when to stop, and when to call for help.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-alternatives" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications and Alternatives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reasons to insert a catheter</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Acute urinary retention, and chronic retention with renal impairment, hydronephrosis or overflow.</li>
+<li>Accurate urine output measurement in patients who are acutely or critically unwell (sepsis, shock, burns, acute kidney injury).</li>
+<li>Perioperative drainage where the bladder must be empty.</li>
+<li>Continuous drainage after obstructed or prolonged labour, and after repair of a vesicovaginal fistula.</li>
+<li>Bladder irrigation or instillation, and monitoring after urological surgery.</li>
+<li>Selected patients with intractable pressure injuries, or palliative comfort, after other measures fail.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not catheterize for</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Management of incontinence, or for staff convenience. CDC and SHEA/IDSA guidance lists this as an inappropriate use.</li>
+<li>Obtaining a urine sample in someone who can pass urine. Use a clean-catch specimen.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Alternatives to consider first</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Bladder ultrasound to confirm that the bladder is actually full before you catheterize.</li>
+<li>A condom (sheath) catheter, a urinal or bedpan, or timed toileting for men with incontinence who can empty their bladder.</li>
+<li>Intermittent catheterization for neurogenic bladder, taught to the patient or carer.</li>
+<li>Suprapubic catheter when the urethral route is blocked or unsafe (Section 9).</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-who-must-not-be-catheterized-blindly" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Stop Signs: Who Must Not Be Catheterized Blindly
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Do Not Pass a Catheter Until You Have Considered Urethral Injury</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Blood at the urethral meatus</strong>, a perineal, scrotal or penile haematoma, or a high-riding or displaced prostate on rectal examination after trauma.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pelvic fracture or a straddle injury</strong> with inability to pass urine. The catheter can pass through a torn urethra into the tissues. Get a retrograde urethrogram or urological help first, and consider a suprapubic catheter.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Known stricture or previous failed attempts.</strong> A catheter that will not pass is a stricture or false passage until proved otherwise. Do not force it.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Recent urethral, prostate or bladder neck surgery.</strong> Consult the surgeon before attempting.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Phimosis, paraphimosis or meatal stenosis</strong> that stops you reaching the meatus. These need treatment first or a suprapubic route.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Patient refusal.</strong> Do not catheterize a competent patient who has refused after a proper explanation.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Relative contraindications include a history of urethral stricture and a current urinary infection. This does not mean never catheterize a patient in retention with a stricture. It means use a smaller catheter, one careful attempt by the most experienced person, then escalate.</li>
+<li>In children who have had trauma, exclude lower urinary tract disruption before catheterization, using examination and retrograde urethrography if blood is at the meatus, there is a perineal haematoma or a pelvic bone injury.</li>
+<li>Significant labial adhesions and known major abnormalities of the lower urinary tract are further reasons to ask for specialist help in girls.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-start" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Before You Start
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Assess</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>History: duration of retention, stream, previous stricture, urethral discharge, injury, recent surgery, drugs, diabetes, neurological symptoms, last catheterization and difficulty.</li>
+<li>Examine the abdomen for a palpable, dull bladder. In men, examine the penis and meatus, check for phimosis, stones or induration, and do a rectal examination for prostate size, tenderness and faecal impaction.</li>
+<li>Check allergies, especially latex.</li>
+<li>Confirm retention with a bladder scan where one is available. It prevents unnecessary catheterization.</li>
+<li>In suspected chronic retention, send urea, creatinine and electrolytes, and look at the kidneys on ultrasound. A decompressed bladder can release a large diuresis (Section 10).</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Consent and communication</strong>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;You cannot pass urine because the bladder is blocked and very full. I need to pass a thin soft tube through the urine passage into the bladder to drain it. I will use a numbing jelly first. It can feel uncomfortable and you may feel the urge to pass urine. I will stop if the pain is severe. The tube may stay in for some days.&rdquo;</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Offer a chaperone, and ensure privacy.</li>
+<li>Explain what you are doing at each step. Ask the patient to say if the pain is severe.</li>
+<li>For a patient who cannot consent, follow your hospital policy for emergency treatment and surrogate consent.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Safety</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Use aseptic non-touch technique with sterile gloves and equipment. The insertion technique is where most catheter infections begin.</li>
+<li>Wear eye protection if you expect splash, as urine may spurt out with a full bladder.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-choosing-the-catheter" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Equipment and Choosing the Catheter
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Choice</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Catheter type</td><td class="py-2 pr-3">Two-way Foley (self-retaining balloon) for most adult indwelling use. Coud&eacute; (curved tip) in men with an enlarged prostate. Three-way (20 to 24 Fr) for clot retention and irrigation. Straight (Nelaton) catheter for intermittent use and for infants under 6 months.</td><td class="py-2 pr-3">Latex is cheap but check for allergy. Silicone suits longer stays. Do not use a coud&eacute; catheter for a stricture.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Size (French, Fr)</td><td class="py-2 pr-3">Adult women 12 to 14 Fr. Adult men 14 to 16 Fr. Larger (16 to 18 Fr) when debris or clots are expected. Use the smallest size that drains well.</td><td class="py-2 pr-3">The French size is the outer circumference in millimetres (3 Fr is 1 mm in diameter). Keep a smaller size to hand.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Lubricant and anaesthetic</td><td class="py-2 pr-3">10 to 11 mL of sterile lubricating gel with 2% lidocaine for the male urethra, in a prefilled syringe if possible.</td><td class="py-2 pr-3">Check for lidocaine allergy. Wait 3 to 5 minutes for effect.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Balloon fluid</td><td class="py-2 pr-3">Sterile water, volume as printed on the catheter (usually 10 mL in adults, less in children), in a 10 mL syringe.</td><td class="py-2 pr-3">Do not use saline in the balloon. Do not inflate before insertion.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drainage</td><td class="py-2 pr-3">Sterile closed drainage bag with a sampling port.</td><td class="py-2 pr-3">Keep the bag below the bladder and off the floor.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Skin and field</td><td class="py-2 pr-3">Sterile gloves (two pairs for the two-glove technique), sterile drape, gallipot, sterile saline or antiseptic, gauze.</td><td class="py-2 pr-3">A clean-hand and sterile-hand technique is acceptable if taught.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Securement</td><td class="py-2 pr-3">Thigh strap or adhesive anchor.</td><td class="py-2 pr-3">Strong tape on the thigh if no device is available.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Help and rescue</td><td class="py-2 pr-3">Spare catheters in smaller sizes, guidewire kit, suprapubic set, and the number of the urologist.</td><td class="py-2 pr-3">Know before you start who you will call if it fails.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-adult-male" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Technique: Adult Male
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position and prepare.</strong> Lay the patient flat with legs slightly apart. Wash hands. Open the pack and set up the sterile field. Check the balloon only if the manufacturer advises, and do not leave it inflated.</li>
+<li><strong>Clean.</strong> Put on gloves. Retract the foreskin. Clean the glans and meatus with sterile saline or antiseptic, working from the meatus outward. Drape.</li>
+<li><strong>Instil the gel.</strong> Hold the penis upright, put the nozzle of the gel syringe in the meatus, and squeeze in all of the gel slowly. Keep the penis held up for the gel to stay in. Wait 3 to 5 minutes.</li>
+<li><strong>Straighten the urethra.</strong> Hold the penis at about 90 degrees to the body and apply gentle upward traction. This straightens the penile urethra and prevents damage at the penoscrotal junction. Keep hold of the penis until the end.</li>
+<li><strong>Insert.</strong> Pass the catheter tip into the meatus and advance it slowly and steadily. Resistance at the external sphincter is common. Ask the patient to breathe deeply or cough, and pause. Do not use force.</li>
+<li><strong>Advance to the hilt.</strong> When urine starts to flow, keep advancing until the bifurcation (the Y-junction where the balloon port branches) reaches the meatus. In the male, urine can appear while the balloon is still in the prostatic urethra. If urine does not flow, press gently above the pubic bone.</li>
+<li><strong>Inflate.</strong> Inflate the balloon slowly with the volume on the catheter, only when urine is flowing and the catheter is in to the hilt. Stop and deflate if the patient has pain or the balloon port will not take the water. Advance further and try again. Inflating in the urethra can rupture it.</li>
+<li><strong>Seat the balloon.</strong> Pull back gently until you feel resistance at the bladder neck.</li>
+<li><strong>Replace the foreskin.</strong> Pull the foreskin forward over the glans. If you leave it retracted, it swells and causes paraphimosis.</li>
+<li><strong>Connect and fix.</strong> Attach the closed drainage bag (some sets are pre-connected), secure the catheter to the thigh so there is no tension, and place the bag below bladder level.</li>
+<li><strong>Record</strong> volume drained, urine colour, catheter type and size, balloon volume, batch number, local anaesthetic used and any difficulty.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-adult-female" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Technique: Adult Female
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position.</strong> Supine, knees bent, hips abducted, heels together (frog-leg), or lateral if she cannot lie flat. Good light is essential.</li>
+<li><strong>Clean and drape.</strong> Wash hands, put on sterile gloves, and use your non-dominant hand to separate the labia. This hand is now contaminated and stays there until the catheter is in. Clean from front to back with saline or antiseptic. Drape the area.</li>
+<li><strong>Find the meatus.</strong> The meatus lies just above the vaginal opening and below the clitoris. In older, obese or postnatal women it can be hidden by atrophy or by oedema. Ask the patient to bear down gently as if to void, and separate the labia higher up. Take your time.</li>
+<li><strong>Gel.</strong> Instil lubricating gel with 2% lidocaine and wait 3 to 5 minutes, or lubricate the catheter tip alone if the patient is in severe pain and delay is harmful.</li>
+<li><strong>Insert.</strong> Pass the catheter gently along the short urethra, which is about 4 cm long, and advance 5 to 7 cm until urine flows, then a further 2 to 5 cm. Advance firmly, as the tip tends to bend or slip out.</li>
+<li><strong>If the catheter enters the vagina</strong> (there is no urine and the catheter lies too easily), leave it in place as a landmark and take a new sterile catheter to try again, just above it. Remove the first one afterwards.</li>
+<li><strong>Inflate and fix.</strong> Only when urine is flowing, inflate the balloon as above, pull back until it seats, attach the bag and secure to the thigh.</li>
+<li><strong>Record</strong> as for men.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="children-and-infants" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Children and Infants
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Age and weight</th><th class="py-2 pr-3 font-semibold">Catheter</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Neonate, under 1.2 kg</td><td class="py-2 pr-3">3.5 Fr umbilical catheter</td><td class="py-2 pr-3">Specialist neonatal team. Balloon catheters are generally not used.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Neonate, 1.2 to 1.5 kg</td><td class="py-2 pr-3">5 Fr umbilical catheter</td><td class="py-2 pr-3">As above.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Neonate, 1.5 to 2.5 kg</td><td class="py-2 pr-3">5 Fr umbilical catheter or 6 Fr Nelaton</td><td class="py-2 pr-3">As above.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">0 to 6 months, 3.5 to 7 kg</td><td class="py-2 pr-3">6 Fr Nelaton (non-balloon)</td><td class="py-2 pr-3">Foley catheters in this age group are for doctors or specialist teams only.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">1 year, about 10 kg</td><td class="py-2 pr-3">6 to 8 Fr, preferably 8 Fr Foley</td><td class="py-2 pr-3"></td></tr>
+<tr class="align-top"><td class="py-2 pr-3">2 years, about 12 kg</td><td class="py-2 pr-3">8 Fr Foley</td><td class="py-2 pr-3"></td></tr>
+<tr class="align-top"><td class="py-2 pr-3">3 to 6 years, 14 to 21 kg</td><td class="py-2 pr-3">8 to 10 Fr Foley</td><td class="py-2 pr-3"></td></tr>
+<tr class="align-top"><td class="py-2 pr-3">8 years, about 27 kg</td><td class="py-2 pr-3">10 to 12 Fr Foley</td><td class="py-2 pr-3"></td></tr>
+<tr class="align-top"><td class="py-2 pr-3">12 years and older</td><td class="py-2 pr-3">12 to 14 Fr Foley</td><td class="py-2 pr-3">Adolescents may need adult sizes.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Choose the smallest size that drains.</strong> Too large causes trauma, too small leaks.</li>
+<li><strong>Avoid feeding tubes for indwelling use in infants.</strong> Neonatal guidance says feeding tubes carry a high risk of bladder perforation, and reports describe knotting of small tubes in the urethra.</li>
+<li><strong>Girls:</strong> the urethra is short and straight, the meatus may be hidden by labial adhesions (up to about 2 per cent of girls aged 3 months to 6 years). Ask for senior help with significant adhesions. Clean from front to back.</li>
+<li><strong>Boys:</strong> hold the penis at 90 degrees to the body with slight upward traction. Advance to the hub before inflating the balloon. Use lidocaine gel for boys over 3 years, according to local policy, and a sterile lubricant for younger boys.</li>
+<li><strong>Balloon:</strong> inflate slowly with sterile water to the volume on the catheter and check that the child feels no pain. Pain means the balloon is not in the bladder. Deflate and advance.</li>
+<li><strong>Diagnosis catheters:</strong> for urine samples in febrile infants who cannot void on command, a straight catheter is placed, the sample taken and the catheter removed.</li>
+<li>About one in five young children have a complication of urethral catheterization. Involve a calm parent and an assistant, use distraction and explain what you are doing.</li>
+<li>Normal urine output in a child is about 1 to 2 mL per kg per hour.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-it-will-not-go-difficult-catheterization" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+When It Will Not Go: Difficult Catheterization
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Do not make repeated blind attempts. They cause pain, false passages, bleeding and urosepsis. Limit yourself to one or two gentle attempts, and then call for help.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Problem</th><th class="py-2 pr-3 font-semibold">Likely cause</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Resistance at the bulbar urethra (a few centimetres from the meatus or around the penoscrotal junction)</td><td class="py-2 pr-3">Stricture or false passage.</td><td class="py-2 pr-3">Do not force. Try a smaller catheter once. If it does not pass, stop and call for urological help. Do not use a coud&eacute; catheter for a stricture. It tends to pierce the wall beside the narrow lumen.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Resistance deeper, at the prostate</td><td class="py-2 pr-3">Enlarged prostate lifting the bladder neck.</td><td class="py-2 pr-3">Use more lubricant. Ask the patient to relax and breathe out. Try a coud&eacute; catheter, with the curved tip pointing upward, along the roof of the urethra. A firm, steady pressure is acceptable but not force.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Catheter passes but no urine</td><td class="py-2 pr-3">Catheter in a false passage, in the vagina (women), blocked by lubricant, or the bladder is truly empty (dehydration, anuria).</td><td class="py-2 pr-3">Flush gently with sterile saline to clear lubricant. Press above the pubic bone. Check the bladder with ultrasound. Do not inflate the balloon without urine flow.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Bleeding at the meatus after attempts</td><td class="py-2 pr-3">Mucosal injury or false passage.</td><td class="py-2 pr-3">Stop. Do not keep trying. Call for help. Consider suprapubic access.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Blood clots blocking the catheter</td><td class="py-2 pr-3">Clot retention.</td><td class="py-2 pr-3">Use a large three-way catheter and irrigation, and look for the source of bleeding.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pain on inflating the balloon</td><td class="py-2 pr-3">Balloon in the urethra.</td><td class="py-2 pr-3">Deflate at once and advance further. Do not complete inflation.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Rescue options</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Guidewire catheterization:</strong> a specialist passes a flexible guidewire through the area of resistance, then an open-tip catheter over the wire. Never force a stiff catheter.</li>
+<li><strong>Suprapubic catheter:</strong> the usual route when urethral catheterization fails, when you suspect urethral injury, or when retention has a stricture. It is done through the lower abdomen into a palpably distended bladder, ideally under ultrasound, and by someone trained. Avoid it with a bladder that cannot be felt, previous lower abdominal surgery with possible bowel adhesions, haematuria from a possible bladder tumour or a bleeding disorder. In some studies suprapubic drainage reduced bacteriuria and recatheterization compared with urethral drainage for up to 14 days.</li>
+<li><strong>Refer</strong> when the patient has a stricture, a suspected false passage, a recent urological operation, or when two gentle attempts have failed.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-insertion-draining-a-full-bladder" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+After Insertion: Draining a Full Bladder
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Record the volume drained, and the colour of the urine. Chronic retention can hold litres.</li>
+<li><strong>Rapid or gradual drainage?</strong> Older teaching clamps the catheter after a fixed volume (for example 500 mL or 1 L) to avoid bleeding, low blood pressure and a large diuresis. A review found no study supporting this, and a randomised trial found no difference in complications. Quick, complete emptying is the evidence-based approach.</li>
+<li><strong>Expect some blood.</strong> Haematuria after decompression occurs in about 2 to 16 per cent. It is usually mild and clears.</li>
+<li><strong>Watch for post-obstructive diuresis.</strong> It occurs in up to half of patients in some series and can cause dehydration and low sodium and potassium. Monitor urine output, blood pressure and electrolytes if the retention was chronic with renal impairment, and replace losses if the diuresis is large.</li>
+<li><strong>Examine the abdomen again</strong> after drainage to be sure the bladder is empty and there is no other mass.</li>
+<li>Look for the cause. Check for prostate enlargement and cancer, stricture, constipation, drugs (anticholinergics, antihistamines, opioids), diabetes, neurological disease and urinary infection. Arrange follow-up.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="catheter-care-and-infection-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Catheter Care and Infection Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Insert only for a valid indication, with aseptic technique and sterile equipment. Choose the smallest catheter that drains.</li>
+<li>Keep the system closed. If it is opened, disconnected or leaking, replace the catheter and bag with aseptic technique.</li>
+<li>Keep the bag below bladder level, off the floor, and empty it without touching the drainage tap on anything. Keep urine flow unobstructed with no kinks.</li>
+<li>Secure the catheter to prevent traction and movement of the catheter in the urethra.</li>
+<li>Clean the meatus during routine daily bathing with soap and water, not with antiseptic.</li>
+<li>Review every day whether the catheter is still needed. Remove it as soon as the indication ends. After surgery, remove it early, ideally within 24 hours, unless there is a reason to keep it.</li>
+<li>CDC/HICPAC and IDSA do <strong>not</strong> recommend: changing catheters or bags at fixed intervals (change for blockage, infection or a broken closed system), routine antibiotic prophylaxis, bladder irrigation with antimicrobials, or screening for and treating asymptomatic bacteriuria.</li>
+<li>Take urine for culture from the sampling port with aseptic technique, not from the bag.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: antibiotics at insertion and removal</p>
+<p class="text-sm">The EAU urological infections guideline finds no consistent evidence for routine antibiotic prophylaxis to prevent catheter-associated infection. Short-term prophylaxis lowers asymptomatic bacteriuria but not symptomatic infection, and prophylaxis at removal lowers symptomatic infection but needs many patients treated to prevent one case and raises resistance. In a country with high antibiotic resistance, reserve antibiotics for symptomatic infection and for specific high-risk situations decided by a senior, and do not treat bacteriuria without symptoms.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="removal-and-trial-without-catheter" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Removal and Trial Without Catheter
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Remove promptly</strong> when the reason for the catheter has gone. Deflate the balloon fully by letting the water drain into a syringe, withdraw the catheter slowly and smoothly, and check that the foreskin is forward in an uncircumcised man. If you feel resistance, stop, re-check balloon deflation, and do not pull.</li>
+<li><strong>Retention in men with BPH:</strong> start an alpha-blocker (for example tamsulosin or alfuzosin) when the catheter goes in, and leave the catheter for a short period before a trial without catheter (TWOC). Alpha-blockers raise the chance of passing urine after removal (Cochrane review). Immediate removal in older studies led to recurrence in about half within a week. Common practice is to keep the catheter for 1 to 3 days. The best timing is being tested in a randomised trial comparing removal on day 3 with day 14.</li>
+<li><strong>Other causes:</strong> treat the cause (constipation, drugs, infection) and do a TWOC. Postpartum women may need a few days of drainage after difficult labour or caesarean section.</li>
+<li><strong>After removal,</strong> ask the patient to drink normally, and check that they pass urine within a few hours. A bladder scan after voiding shows whether they empty properly. Recatheterize and refer if they fail.</li>
+<li><strong>Men with BPH retention</strong> should have at least one TWOC before surgery is considered.</li>
+<li><strong>After obstructed labour or fistula repair,</strong> follow the specific duration in your protocol (about 10 to 14 days in the national fistula-prevention guideline).</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If the balloon will not deflate</strong>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li>Advance the catheter slightly to be sure the balloon is not stuck in the urethra, and try the syringe again.</li>
+<li>Cut the balloon port just above the inflation valve and let the water drain.</li>
+<li>Pass a fine guidewire or stylet through the inflation channel to open it, or leave a wire in place as a wick.</li>
+<li>If it still will not deflate, puncture the balloon under ultrasound guidance from above the pubic bone with a spinal needle, with the bladder full. Only an experienced operator should do this.</li>
+<li>Do not leave a stuck balloon in place. A retained balloon can calcify and form a stone.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Urethral injury and false passage:</strong> resistance, severe pain, blood at the meatus, or the catheter slides too easily and drains nothing. Stop. Call a urologist. Do not keep pushing.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Balloon inflated in the urethra:</strong> sudden severe pain, and bleeding. Deflate at once.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Paraphimosis:</strong> a painful swollen glans after the foreskin was left retracted. Reduce it promptly and see urology if you cannot.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Catheter-associated urinary infection and urosepsis:</strong> fever, rigors, hypotension, confusion. Take blood and urine cultures, treat as sepsis, and replace the catheter before sampling if it has been in a long time.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Heavy bleeding or clot retention:</strong> use a three-way catheter and irrigation, check haemoglobin, and refer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Blocked catheter or bypassing:</strong> check for kinks, constipation, clots and encrustation before changing the catheter. A catheter that has been in for a long time may need a change.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bladder perforation</strong> (mostly in infants with small tubes) or a catheter knot: refer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Stricture later:</strong> weak stream, spraying, or retention after removal. Refer for urethrography or cystoscopy.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What changes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Obstructed or prolonged labour</td><td class="py-2 pr-3">Catheterize early and drain continuously for about 10 to 14 days to protect the bladder from pressure necrosis and fistula. Look for blood in the urine and leakage.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Post-operative or post-caesarean retention</td><td class="py-2 pr-3">Straight or Foley catheter, find the cause (analgesia, pain, drugs, haematoma), and do a TWOC early.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Spinal cord injury and neurogenic bladder</td><td class="py-2 pr-3">Intermittent catheterization is preferred to a long-term indwelling catheter. Teach the patient or carer.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Elderly women and men with dementia</td><td class="py-2 pr-3">Check that the catheter is needed. Atrophic tissue makes the meatus hard to see. Take your time.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Acute prostatitis</td><td class="py-2 pr-3">Gentle technique, a small catheter, one careful attempt, and a low threshold for the suprapubic route.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Hypospadias, previous urethral surgery, urethral valves</td><td class="py-2 pr-3">Do not attempt blind catheterization. Consult paediatric surgery or urology.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Latex allergy</td><td class="py-2 pr-3">Use silicone or latex-free catheters and gloves.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Clot retention</td><td class="py-2 pr-3">Three-way catheter, irrigation, and find the cause.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://doi.org/10.1056/NEJMvcm0808873" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Catheterization of the Urethra in Male Children</a> &ndash; standard teaching video for boys. Full video may need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://archive-ouverte.unige.ch/unige:21060" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Open archive record: Catheterization of the urethra in male children</a> &ndash; open-access record of the NEJM video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://doi.org/10.1056/NEJMvcm1105612" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Catheterization of the Urethra in Girls</a> &ndash; standard teaching video for girls. May need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://archive-ouverte.unige.ch/unige:55111" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Open archive record: Catheterization of the urethra in girls</a> &ndash; open-access record of the NEJM video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://youtu.be/hKiakPX6AdQ" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Male catheterisation (updated OSCE video)</a> &ndash; the updated step-by-step male technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=2iLPfCAMgZs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Catheterisation OSCE guide (original video)</a> &ndash; the original video with a very wide viewing history.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/penile-catheterisation-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Male (penile) catheterisation OSCE guide</a> &ndash; written checklist with equipment, steps and documentation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/female-catheterisation-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Female catheterisation OSCE guide</a> &ndash; written checklist for women.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=XcU6g_ppWRI" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Medical Education Leeds: Basic Clinical Skills, urinary catheterisation (male)</a> &ndash; a clear short demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=I0p487cJ6MA" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Male catheter insertion OSCE walkthrough</a> &ndash; a full walkthrough of the male procedure.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=OsVL10kIh8w" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Level Up RN: Indwelling urinary catheter insertion on male</a> &ndash; insertion and removal with explanation of the balloon.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=T6ZDBpVSg3U" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Level Up RN: Indwelling urinary catheter insertion on female</a> &ndash; insertion, balloon, securing and removal in women.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=UcNH7ub6iOQ" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Level Up RN: Straight catheter insertion on female</a> &ndash; intermittent catheter technique in women.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=NBEsPkoDgZk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Level Up RN: Straight catheter insertion on male</a> &ndash; intermittent catheter technique in men.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=IrhtHZFRBqU" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Male Foley insertion, nursing skills</a> &ndash; another view of male insertion.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=5WSdQ0M_xQc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Male Foley catheter insertion with a kit</a> &ndash; how to use a commercial catheter kit.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=StEBmC9DZOk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Male catheterization anatomical model</a> &ndash; a labelled model for teaching the anatomy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://bestpractice.bmj.com/procedural-videos/en-gb/bbf357e5-97f6-4980-87b5-28161dda7f01" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BMJ Best Practice: Female urethral catheterisation animated demonstration</a> &ndash; animated demonstration with indications and cautions. May need a subscription.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://opentextbc.ca/clinicalskills/chapter/10-3-urinary-catheters/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Open Nursing Clinical Skills textbook: Urinary catheters</a> &ndash; free text with videos on female catheterization and Foley removal.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://mindthebleep.com/urinary-catheterisation/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Mind the Bleep: Urinary catheterisation</a> &ndash; tips on male and female catheterisation with a demonstration video.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Difficult catheterization and rescue</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=sskHRzaPT4M" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to place a coud&eacute; urinary catheter in challenging male urethral anatomy</a> &ndash; when and how to use the curved tip.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.baus.org.uk/trainees/difficult_catheterisation.aspx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BAUS: Difficult catheterisation</a> &ndash; false passages, guidewire technique, suprapubic indications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2692169" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Foley catheter placement in difficult cases</a> &ndash; strictures, coud&eacute; catheters and guidewire technique, with images.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.urology-textbook.com/foley-catheter.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Urology Textbook: Foley catheter</a> &ndash; indications, contraindications and non-deflating balloons.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.jabfm.org/content/13/2/116.full.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Management of the non-deflating Foley balloon</a> &ndash; stepwise algorithm for a balloon that will not deflate.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Children and infants</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Indwelling_urinary_catheter_insertion_and_ongoing_care" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Children&rsquo;s Hospital Melbourne: Indwelling urinary catheter insertion and ongoing care</a> &ndash; catheter size table by age and weight, technique and balloon volumes.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/professional/pediatrics/how-to-do-pediatric-urologic-procedures/how-to-catheterize-the-bladder-in-a-female-child" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: How to catheterize the bladder in a female child</a> &ndash; labial adhesions, vaginal catheter landmark trick, trauma exclusions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cahs.health.wa.gov.au/~/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Urethral-Catheterisation.pdf?thn=0" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal urethral catheterisation guideline (Western Australia)</a> &ndash; catheter size guide, no feeding tubes, balloons not inflated in neonates.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://poc.childrenshospitals.org/content/quality/alerts/silicone-foley-catheter-balloon-rupture" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Child Health Patient Safety Organization alert: Foley catheter insertion</a> &ndash; complication rates and safe-insertion points in children.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines, evidence and local context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rmmonline.co.uk/manual/c06-fea-0005" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Marsden Manual: Urinary catheterization, male</a> &ndash; rationale for each step, drawn from European Association of Urology Nurses guidance.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/professional/genitourinary-disorders/how-to-do-genitourinary-procedures/how-to-do-urethral-catheterization-in-a-male" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: How to do urethral catheterization in a male</a> &ndash; equipment, steps, tips and contraindications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.CDC.gov/hai/pdfs/toolkits/cautitoolkit_3_10.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">CDC/HICPAC CAUTI prevention toolkit</a> &ndash; core and supplemental prevention strategies.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nursingcenter.com/getattachment/clinical-resources/Guideline-Summaries/Catheter-Associated-Urinary-Tract-Infections/Guideline-Summary_CAUTI_2022.pdf.aspx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">SHEA/IDSA 2022 summary: Strategies to prevent CAUTI</a> &ndash; insertion and maintenance practices.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://books.publisso.de/en/publisso_gold/publishing/books/overview/52/28" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EAU Living Handbook: Prevention of catheter-associated urinary tract infection</a> &ndash; recommendations on prophylaxis, asymptomatic bacteriuria and closed systems.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aafp.org/afp/2008/0301/p643.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAFP: Urinary retention in adults, diagnosis and initial management</a> &ndash; causes, catheter choice, alpha-blockers and trial without catheter.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.icmr.gov.in/icmrobject/uploads/STWs/1765885318_acuteurinaryretentioninmen2.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Standard treatment workflow: acute urinary retention in men</a> &ndash; flowchart from a low- and middle-income setting: catheterize, alpha-blocker, trial without catheter, complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rebelem.com/urinary-retention-rapid-drainage-gradual-drainage-avoid-complications/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Rapid versus gradual bladder decompression: REBEL EM summary</a> &ndash; summary of the randomised trial.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5656958" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Rapid versus gradual bladder decompression in acute urinary retention</a> &ndash; a further study of complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ntlib.org.cn/asset/detail/0/203458440289" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Urinary retention in adult men: causes and complications in north-western Nigeria</a> &ndash; abstract of the Nigerian series quoted in Section 1.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://tau.amegroups.org/article/view/24755/html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Urethral catheterization to prevent obstetric fistula in Nigeria</a> &ndash; the national bladder catheterization guideline and front-line worker knowledge.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM, Geeky Medics and Leeds demonstrations, then use the others to see different operators, models and kits.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask whether a catheter is needed and for how long. Confirm retention with a bladder scan if you can. Never catheterize for incontinence or convenience.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Before any catheter: blood at the meatus, a perineal haematoma, a pelvic fracture or a high-riding prostate after trauma means stop. Consider a urethrogram or a suprapubic catheter.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Aseptic non-touch technique, 2% lidocaine gel and a 3 to 5 minute wait. Smallest catheter that drains: 12 to 14 Fr for women, 14 to 16 Fr for men.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Men: penis upright at 90 degrees, advance to the hilt, only then inflate the balloon with urine flowing. Replace the foreskin.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Women: expect misplacement into the vagina. Leave the first catheter as a landmark and use a new one.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Children: use the age and weight table. Nelaton catheters under 6 months. No feeding tubes for indwelling use in infants.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Resistance means stop. Do not force and do not use a coud&eacute; catheter on a stricture. Two gentle attempts, then senior help, guidewire or suprapubic catheter.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Decompress fully and monitor for haematuria and post-obstructive diuresis. Gradual drainage has no proven benefit.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Keep the system closed, bag below the bladder, daily review of need, remove early. No routine antibiotics, fixed-interval changes or treatment of asymptomatic bacteriuria.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>BPH retention: alpha-blocker from the start, then a trial without catheter. After obstructed labour, drain for about 10 to 14 days.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Healthcare Infection Control Practices Advisory Committee and CDC. Guideline for prevention of catheter-associated urinary tract infections, 2009; and CDC CAUTI toolkit.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Society for Healthcare Epidemiology of America and Infectious Diseases Society of America. Strategies to prevent catheter-associated urinary tract infections in acute-care hospitals: 2022 update. Infect Control Hosp Epidemiol 2023;44:1209-1231.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. European Association of Urology. Urological infections guidelines: prevention of catheter-associated urinary tract infection (Living Handbook chapter).</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. European Association of Urology Nurses. Evidence-based guidelines for best practice in urological health care: catheterisation, indwelling catheters in adults. Cited in the Royal Marsden Manual of Clinical and Cancer Nursing procedures.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. British Association of Urological Surgeons. Difficult catheterisation (trainee resource).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Royal Children&rsquo;s Hospital Melbourne. Clinical practice guideline: Indwelling urinary catheter insertion and ongoing care. Child and Adolescent Health Service Western Australia: neonatal urethral catheterisation guideline.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. New England Journal of Medicine, Videos in Clinical Medicine. Catheterization of the urethra in male children. N Engl J Med 2010;363:e19. Catheterization of the urethra in girls. N Engl J Med 2014;371:e2.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. American Family Physician. Urinary retention in adults: diagnosis and initial management. 2008. Cochrane review: alpha-blockers before removal of urethral catheter for acute urinary retention in men, 2014.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Review and randomised trial of rapid versus gradual decompression of the obstructed bladder (Mayo Clinic Proceedings 1997; Urology Annals 2017; Urologia Internationalis 2013).</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Nigerian cross-sectional study of urinary retention in adult men at a teaching hospital in north-western Nigeria. Open J Urol 2016;6:114-121.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Study of front-line health worker knowledge on urethral catheterization for primary prevention of obstetric fistula in Nigeria, and the Nigerian national guideline on bladder catheterization after obstructed labour.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Merck Manual Professional Edition. How to do urethral catheterization in a male; How to catheterize the bladder in a female child.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Standard treatment workflow: acute urinary retention in men. Indian Council of Medical Research, Department of Health Research.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Protocol for a randomised trial of early versus delayed trial without catheter in men with acute urinary retention (RELIEF). PLoS One 2026.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
 ];

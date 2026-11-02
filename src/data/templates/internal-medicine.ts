@@ -1,6 +1,489 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
+ 
+  {
+    id: 'im-129',
+    title: 'Symptomatic Iron Deficiency Anaemia Secondary to Menorrhagia',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Haematology',
+    condition: 'Symptomatic Anaemia (Likely Iron Deficiency Anaemia)',
+    symptoms: [
+      'Easy fatigability',
+      'Palpitations',
+      'Shortness of breath on exertion',
+      'Dizziness',
+      'Heavy menstrual bleeding',
+      'Frontal headache',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 34-year-old female teacher from Ogbomosho, Oyo State, who presented with a 2-week history of progressive easy fatigability, 1-week history of palpitations, 5-day history of shortness of breath on exertion and 3-day history of dizziness. She has a 6-month history of menorrhagia, with 5–6 heavily soaked pads daily for 7 days during menstruation. Examination revealed marked pallor, tachycardia, tachypnoea, a displaced apex beat and a soft systolic murmur in the mitral area. Assessment is symptomatic anaemia, likely secondary to iron deficiency from chronic menstrual blood loss.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 34-year-old female teacher who resides in Ogbomosho, Oyo State. She is Yoruba and married with three children.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Easy fatigability x 2/52
+  2. Palpitations x 1/52
+  3. Shortness of breath on exertion x 5/7
+  4. Dizziness x 3/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was in her usual state of health until 2 weeks ago when she started noticing progressive easy fatigability. She noted that she could no longer perform her routine household chores without needing to rest frequently. This was followed a week later by palpitations, which are described as a fast and forceful awareness of her heartbeat, initially occurring only during strenuous activity but now present even with mild exertion.
+  
+  Five days prior to presentation, she developed shortness of breath while walking short distances, which is relieved by rest. There is no associated orthopnoea, paroxysmal nocturnal dyspnoea or pedal oedema. She also reports frequent episodes of lightheadedness and dizziness over the last 3 days, especially when standing up quickly from a sitting position.
+  
+  She gives a history of heavy menstrual bleeding (menorrhagia) over the last 6 months, using about 5 to 6 heavily soaked pads per day for 7 days. There is no history of haematemesis, melaena or haematochezia. No history of chronic cough, drenching night sweats or significant weight loss. No history of bone pain or recurrent jaundice.
+  
+  PAST MEDICAL HISTORY
+  
+  Not a known hypertensive or diabetic. No history of previous blood transfusions or surgeries. No known sickle cell disease (genotype reported as AA).
+  
+  DRUG HISTORY
+  
+  She occasionally takes Paracetamol for headaches. No use of herbal concoctions or chronic NSAID use. Not currently on any haematinics or oral contraceptive pills.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She lives in a 3-bedroom apartment with her husband and three children. Water source is a protected well. She does not smoke or drink alcohol. Her husband is a civil servant. Family history is not significant for any chronic haematological disorders.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Occasional frontal headaches, no syncope or blurring of vision.
+  Respiratory: As per HPC. No cough.
+  CVS: As per HPC.
+  GIT: No abdominal pain or change in bowel habits.
+  MSS: No joint pains or bone tenderness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in respiratory distress, afebrile (36.7°C), not jaundiced, no significant lymphadenopathy and no pedal oedema.
+  
+  Marked pallor of the palmar creases and conjunctiva.
+  
+  No koilonychia or platynychia noted.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 106 bpm (Tachycardia), regular, full volume.
+  Blood Pressure: 100/60 mmHg.
+  Respiratory Rate: 24 cpm.
+  SpO2: 96% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Pulse and BP as above.
+  
+  Apex beat is displaced to the 6th left intercostal space, anterior axillary line.
+  
+  Heart sounds S1 and S2 only.
+  
+  A soft systolic haem murmur is heard over the mitral area.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea central.
+  
+  Chest expansion symmetrical.
+  
+  Percussion note resonant bilaterally.
+  
+  Breath sounds are vesicular; no added sounds.
+  
+  ABDOMEN
+  
+  Full, moves with respiration.
+  
+  No areas of tenderness.
+  
+  Liver and spleen are not palpable.
+  
+  Bowel sounds are present and normal.
+  
+  NEUROLOGICAL SYSTEM
+  
+  Conscious and alert.
+  
+  No focal neurological deficits.
+  
+  No signs of meningeal irritation.
+  
+  ASSESSMENT
+  
+  Symptomatic Anaemia, likely secondary to Iron Deficiency Anaemia from Menorrhagia.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Megaloblastic Anaemia.
+  2. Anaemia of Chronic Disease.
+  3. Uterine Fibroids (as a cause of menorrhagia).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check PCV/Haemoglobin levels, MCV, MCHC and platelet count.
+  2. Peripheral Blood Film: To check for microcytosis, hypochromia or any abnormal cell morphology.
+  3. Reticulocyte Count: To assess bone marrow response.
+  4. Pelvic Ultrasound Scan: To rule out uterine fibroids or endometrial pathology.
+  5. Serum Ferritin and Iron Studies: If feasible, to confirm iron deficiency.
+  6. Urinalysis and Stool Microscopy: To rule out occult blood loss or parasitic infestations (e.g., hookworm).
+  7. Malaria Parasite (MPS): To rule out co-existing malaria.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Admission for stabilization and work-up.
+  2. Bed rest in cardiac position.
+  3. Oxygen therapy if SpO2 drops below 94% or if respiratory distress worsens.
+  4. Group and cross-match 2 units of packed red blood cells (for slow transfusion if PCV is severely low, e.g., <15%, or if symptomatic at rest).
+  
+  5. PHARMACOLOGICAL MANAGEMENT
+  
+  - Tab. Ferrous Sulfate 200 mg three times daily (to be taken with meals or Vitamin C to enhance absorption).
+  - Tab. Folic Acid 5 mg daily.
+  - Tab. Vitamin C 100 mg three times daily.
+  - Tab. Artesunate/Lumefantrine (ACT) if MPS is positive.
+  
+  6. Input from the Gynaecology team regarding the management of menorrhagia.
+  7. Nutritional counselling: Encourage intake of iron-rich foods (green leafy vegetables, red meat, liver).
+  8. Monitor vital signs (PR, BP, RR) every 4 hours.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
+    id: 'im-128',
+    title: 'Orthostatic Hypotension in a Young Adult',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Postural (Orthostatic) Hypotension',
+    symptoms: [
+      'Dizziness on standing',
+      'Blurred vision on standing',
+      'Near-syncope',
+      'Postural lightheadedness',
+      'Mild headache',
+      'Postural weakness',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 22-year-old female university student from Ogbomosho, Oyo State, who presented with a 2-week history of recurrent postural dizziness and blurred vision, with a near-syncopal episode the day before presentation. Symptoms occur on standing, last 30–60 seconds and resolve with sitting or lying down. Orthostatic measurements revealed a blood pressure drop from 110/70 mmHg supine to 85/55 mmHg after 3 minutes of standing, with a pulse rate increase from 76 to 98 bpm. Assessment is orthostatic hypotension in a young adult, with autonomic dysfunction and POTS considered.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 22-year-old female student who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is currently a student at a local university.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Dizziness on standing x 2/52
+  2. Blurred vision x 2/52
+  3. Near-fainting episode x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 2 weeks ago when she started experiencing recurrent episodes of lightheadedness and dizziness. These symptoms occur exclusively when she transitions from a lying or sitting position to a standing position. She describes the dizziness as a sensation of being about to faint, often accompanied by brief blurring of vision and occasionally a mild headache.
+  
+  Each episode lasts for approximately 30 to 60 seconds and is promptly relieved by sitting back down or lying flat. She has noticed these symptoms are more pronounced in the morning immediately after waking up and during hot weather.
+  
+  One day prior to presentation, she had a near-syncopal episode where she felt extremely weak and had to hold onto a wall to avoid falling after standing up quickly from a chair. There was no actual loss of consciousness, tongue biting, urinary or faecal incontinence, or jerky limb movements.
+  
+  There is no history of chronic cough, night sweats or significant weight loss. No history of palpitations, chest pain or breathlessness on exertion. No history of heavy menstrual bleeding, haematemesis or melaena. No history of increased thirst or excessive urination.
+  
+  PAST MEDICAL HISTORY
+  
+  Not a known hypertensive or diabetic.
+  
+  No history of sickle cell disease (HbAA).
+  
+  No previous surgeries or blood transfusions.
+  
+  No history of psychiatric illness or previous neurological disorders.
+  
+  DRUG HISTORY
+  
+  She is not on any regular medications, including diuretics or antihypertensives.
+  
+  No history of use of herbal concoctions or recreational drugs.
+  
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She is the second of four children in a monogamous family setting.
+  
+  No family history of sudden cardiac death or similar fainting spells.
+  
+  She does not smoke or drink alcohol.
+  
+  She lives in a well-ventilated university hostel with access to borehole water.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No history of seizures, focal limb weakness or sensory loss.
+  CVS: As in HPC. No paroxysmal nocturnal dyspnoea or orthopnoea.
+  RS: No cough or haemoptysis.
+  GIT: No abdominal pain or change in bowel habits.
+  GUS: Normal urine output. Last Menstrual Period (LMP) was 10 days ago, with normal flow.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in no obvious respiratory or painful distress.
+  
+  Acutely ill-looking but stable.
+  
+  Not pale, anicteric, not dehydrated, no significant peripheral lymphadenopathy.
+  
+  No pedal oedema.
+  
+  VITAL SIGNS
+  
+  Supine Position (after 5 minutes rest):
+  Pulse Rate: 76 bpm, regular, normal volume.
+  Blood Pressure: 110/70 mmHg.
+  
+  Standing Position (after 3 minutes of standing):
+  Pulse Rate: 98 bpm.
+  Blood Pressure: 85/55 mmHg.
+  (Significant drop in systolic BP of 25 mmHg and diastolic BP of 15 mmHg noted).
+  
+  Respiratory Rate: 16 cpm.
+  Temperature: 36.6°C.
+  SpO2: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Precordium is quiet. Apex beat is at the 5th left intercostal space, mid-clavicular line.
+  
+  Heart sounds S1 and S2 only, no murmurs.
+  
+  Peripheral pulses are all present and synchronous.
+  
+  ABDOMEN
+  
+  Flat, moves with respiration.
+  
+  Soft, non-tender.
+  
+  No organomegaly (liver, spleen and kidneys are not palpable).
+  
+  Bowel sounds are present and normal.
+  
+  CENTRAL NERVOUS SYSTEM
+  
+  Conscious and alert. GCS 15/15.
+  
+  No signs of meningeal irritation.
+  
+  Cranial nerves I to XII are intact.
+  
+  Motor and sensory systems are grossly normal.
+  
+  ASSESSMENT
+  
+  Postural Hypotension (Orthostatic Hypotension) in a young adult, likely secondary to autonomic dysfunction vs. Postural Orthostatic Tachycardia Syndrome (POTS).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Postural Orthostatic Tachycardia Syndrome (POTS).
+  2. Vasovagal Syncope.
+  3. Chronic Dehydration/Anaemia.
+  4. Adrenal Insufficiency (Addison's Disease).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To rule out anaemia.
+  2. Electrolytes, Urea and Creatinine (E/U/Cr): To assess hydration and kidney function.
+  3. Fasting Blood Sugar (FBS): To rule out diabetic autonomic neuropathy or hypoglycaemia.
+  4. 12-Lead ECG: To check for arrhythmias or conduction defects.
+  5. Urinalysis: To check for proteinuria or glucose (DM screen) and specific gravity (hydration status).
+  6. Pregnancy test: To rule out early pregnancy as a contributor.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  NON-PHARMACOLOGICAL (FIRST LINE)
+  
+  1. Patient education on rising slowly from a supine or sitting position ("dangling" feet at the bedside before standing).
+  2. Increase fluid intake to at least 2.5–3 litres per day.
+  3. Increase dietary salt intake (if not hypertensive).
+  4. Use of waist-high compression stockings to improve venous return.
+  5. Avoidance of large, heavy meals and very hot showers.
+  
+  PHARMACOLOGICAL OPTIONS (IF SYMPTOMS PERSIST)
+  
+  1. Fludrocortisone: A mineralocorticoid that increases salt and water retention to expand plasma volume. Start at 0.1 mg daily, titrating slowly. Monitor for hypokalaemia and oedema.
+  2. Midodrine: An alpha-1 agonist that causes peripheral vasoconstriction. Start at 2.5–5 mg two or three times daily. Avoid dosing close to bedtime to prevent supine hypertension.
+  3. Pyridostigmine: An acetylcholinesterase inhibitor that may improve ganglionic neurotransmission in the autonomic nervous system. 30–60 mg three times daily.
+  
+  FOLLOW-UP
+  
+  Review in 2 weeks with investigation results and to assess response to lifestyle modifications before commencing medications. Provide emergency contact if syncopal episodes recur or result in injury.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'im-127',
+    title: 'Drug-Induced Orthostatic Hypotension in an Elderly Hypertensive Patient',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Geriatric Medicine',
+    condition: 'Postural (Orthostatic) Hypotension',
+    symptoms: [
+      'Dizziness on standing',
+      'Recurrent near-syncope',
+      'Lightheadedness',
+      'Transient visual darkening',
+      'Postural symptoms relieved by sitting or lying down',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 68-year-old male with a 15-year history of hypertension and recently diagnosed benign prostatic hyperplasia who presented with a 2-week history of postural dizziness and a 1-week history of recurrent near-syncopal episodes. Symptoms occur on standing and resolve with sitting or lying down. He recently commenced tamsulosin while already on amlodipine, lisinopril and hydrochlorothiazide. Examination revealed a significant postural blood pressure drop from 155/95 mmHg supine to 115/70 mmHg after 3 minutes of standing. Assessment is orthostatic hypotension, likely medication-induced.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 68-year-old male retired civil servant who resides in Ogbomosho, Oyo State. He is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Dizziness on standing x 2/52
+  2. Recurrent near-fainting episodes x 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until 2 weeks ago when he started experiencing recurrent episodes of lightheadedness and feeling faint. These symptoms occur strictly when he transitions from a lying or sitting position to standing. Each episode lasts approximately 30 to 60 seconds and is relieved almost immediately by sitting back down or lying flat.
+  
+  The dizziness is described as a sensation of "greying out" or impending blackout. He reports that the symptoms are more severe in the mornings, particularly when getting out of bed for the first time. One week prior to presentation, he had two near-syncopal episodes during which he felt his vision darkening and had to hold onto a wall to avoid falling. There is no history of actual loss of consciousness, tongue biting or urinary incontinence.
+  
+  He denies associated vertigo, tinnitus or hearing loss. There is no history of palpitations, chest pain or shortness of breath during these episodes. No history of excessive sweating, tremors or urinary frequency. He has not noticed any melena, haematemesis or chronic diarrhoea. He has been on long-term medications for hypertension and was recently started on a new medication for prostate symptoms.
+  
+  PAST MEDICAL HISTORY
+  
+  Known hypertensive x 15 years, compliant with medications.
+  
+  Diagnosed with Benign Prostatic Hyperplasia (BPH) x 1 month.
+  
+  No history of Diabetes Mellitus.
+  
+  No history of previous stroke or Parkinsonism.
+  
+  DRUG HISTORY
+  
+  Tab. Amlodipine 10 mg daily.
+  Tab. Lisinopril 10 mg daily.
+  Tab. Hydrochlorothiazide 25 mg daily.
+  Tab. Tamsulosin 0.4 mg nocte (started 3 weeks ago).
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Retired teacher. Non-smoker and does not consume alcohol.
+  
+  Married in a monogamous setting with five adult children.
+  
+  Lives in a bungalow with his wife.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headaches, limb weakness or sensory loss.
+  CVS: No orthopnoea or paroxysmal nocturnal dyspnoea (PND).
+  GIT: Normal bowel habits, no history of abdominal pain.
+  GUS: Some hesitancy and nocturia attributed to BPH.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An elderly man, comfortable at rest. Not acutely distressed.
+  
+  Not clinically pale, anicteric, acyanotic, no significant lymphadenopathy.
+  
+  No pedal oedema. Hydration status appears fair.
+  
+  VITAL SIGNS
+  
+  Supine Blood Pressure: 155/95 mmHg.
+  Standing Blood Pressure (after 3 minutes): 115/70 mmHg.
+  (A drop of 40 mmHg systolic and 25 mmHg diastolic).
+  Pulse Rate: 76 bpm (supine), 94 bpm (standing).
+  Respiratory Rate: 18 cpm.
+  SpO2: 97% on room air.
+  Temperature: 36.5°C.
+  
+  SYSTEMIC EXAMINATION
+  
+  CVS: Apex beat at 5th LICS, MCL. Heart sounds S1 and S2 only. No murmurs.
+  
+  Respiratory: Trachea central. Breath sounds vesicular. No added sounds.
+  
+  Abdomen: Soft, non-tender. No organomegaly. Bowel sounds present.
+  
+  CNS: Conscious and alert. Cranial nerves I-XII intact. Motor and sensory examinations normal. No tremors, rigidity or bradykinesia. Gait is stable.
+  
+  ASSESSMENT
+  
+  Postural (Orthostatic) Hypotension, likely secondary to drug-induced aetiology (Tamsulosin and Diuretics) in a hypertensive patient.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Medication-induced orthostatic hypotension (Alpha-blockers/Diuretics).
+  2. Autonomic dysfunction secondary to age-related changes.
+  3. Hypovolaemia/Dehydration.
+  4. Cardiac Arrhythmia.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. FBC: To rule out anaemia as a contributing factor.
+  2. E/U/Cr: To assess renal function and check for electrolyte imbalance (hypokalaemia from diuretics).
+  3. Fasting Blood Glucose: To screen for diabetes-related autonomic neuropathy.
+  4. ECG: To check for arrhythmias or features of LVH.
+  5. Urinalysis: To check for glycosuria or specific gravity (hydration status).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  NON-PHARMACOLOGICAL
+  
+  1. Patient education on rising slowly from bed in stages (sit on the edge of the bed for 1–2 minutes before standing).
+  2. Physical counter-manoeuvres: Leg crossing while standing, muscle tensing and marching in place.
+  3. Increase fluid intake (2.5–3 litres per day) unless contraindicated by future heart failure.
+  4. Increase dietary salt intake slightly (taking into account the HTN).
+  5. Review and adjust current medications: Consider stopping Hydrochlorothiazide and reviewing the timing or necessity of Tamsulosin.
+  
+  PHARMACOLOGICAL MANAGEMENT
+  
+  If non-pharmacological measures are insufficient, consider:
+  
+  1. Tab. Midodrine 2.5–5 mg three times daily (Alpha-1 agonist). Caution: Do not administer the last dose within 4 hours of bedtime to prevent supine hypertension.
+  2. Tab. Fludrocortisone 0.1 mg daily (Mineralocorticoid to increase plasma volume). Monitor closely for pedal oedema and hypokalaemia.
+  3. Tab. Pyridostigmine 60 mg two to three times daily as an alternative option to improve ganglionic neurotransmission.
+  
+  FOLLOW-UP
+  
+  Re-evaluate orthostatic BP in 1 week after medication adjustment.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'im-126',
     title: 'Left Pre-auricular Lymphadenitis Secondary to Conjunctivitis (Parinaud Oculoglandular Syndrome)',

@@ -1,7 +1,158 @@
 import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
-
+  {
+    id: 'ob-87',
+    title: 'Primary Dysmenorrhea in a Young Nulliparous Woman',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology',
+    condition: 'Primary Dysmenorrhea',
+    symptoms: [
+      'Severe lower abdominal pain associated with menstruation',
+      'Cramping and colicky suprapubic pain',
+      'Pain radiating to the lower back and inner aspects of both thighs',
+      'Nausea',
+      'Vomiting',
+      'Recurrent painful menstruation since menarche',
+      'Poor response to over-the-counter paracetamol',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-02',
+    summary: 'A 22-year-old nulliparous female student presenting with a 1-day history of severe cramping suprapubic pain that began a few hours before menstrual flow. The pain radiates to the lower back and inner aspects of both thighs and is associated with nausea and one episode of vomiting. She reports recurrent painful menstruation since menarche, with this episode being more severe than usual. Examination reveals painful distress and mild suprapubic tenderness without peritoneal signs or palpable masses. Assessment was primary dysmenorrhea.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 22-year-old female student who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is currently unmarried.
+  
+  PRESENTING COMPLAINT
+  
+  1. Lower abdominal pain x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 1 day ago when she developed lower abdominal pain, which started a few hours before the onset of her menstrual flow. The pain is described as severe, cramping and colicky in nature, primarily located in the suprapubic region. It radiates to her lower back and the inner aspects of both thighs.
+  
+  The pain is associated with nausea and one episode of vomiting of recently ingested meals. There is no associated fever, abnormal vaginal discharge or urinary symptoms such as dysuria or frequency. She reports that the pain is similar to what she experiences during most periods since menarche, but this index episode is significantly more severe and has not responded to over-the-counter paracetamol.
+  
+  GYNAECOLOGICAL HISTORY
+  
+  Menarche: 13 years.
+  
+  Cycle: 28 days, regular.
+  
+  Duration of flow: 5 days.
+  
+  Menses: Characterized by moderate flow; uses 3 pads per day.
+  
+  LMP: 21/05/2024 (Today).
+  
+  Parity: G0 P0+0.
+  
+  Sexual History: Not sexually active.
+  
+  Contraceptive History: Never used hormonal contraceptives.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic medical conditions such as sickle cell anaemia or asthma. No previous history of pelvic inflammatory disease or abdominal surgeries.
+  
+  DRUG HISTORY
+  
+  No known drug allergies. Uses paracetamol or ibuprofen occasionally for menstrual pain.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She is the second of four children in a monogamous family setting. There is a positive family history of similar painful menses in her elder sister. She does not smoke or drink alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no loss of consciousness.
+  
+  RS: No cough, no chest pain.
+  
+  CVS: No palpitations, no orthopnoea.
+  
+  GIT: As in HPC. No diarrhoea or constipation.
+  
+  MSS: No joint pains.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in painful distress, often doubling over.
+  
+  Afebrile (T: 36.8°C).
+  
+  Not pale, anicteric, acyanosed, not dehydrated.
+  
+  No significant peripheral lymphadenopathy or pedal oedema.
+  
+  VITAL SIGNS
+  
+  PR: 92 bpm, regular, normal volume.
+  
+  BP: 110/70 mmHg.
+  
+  RR: 20 cpm.
+  
+  SpO2: 98% on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Flat, moves with respiration, no visible scars or dilated veins.
+  
+  Palpation: Soft, mild suprapubic tenderness. No guarding or rebound tenderness. No palpable masses or organomegaly (liver, spleen and kidneys are not palpable).
+  
+  Percussion: Normal tympanitic notes.
+  
+  Auscultation: Bowel sounds present and normal.
+  
+  PELVIC EXAMINATION
+  
+  Digital vaginal examination not indicated as she is not sexually active.
+  
+  Inspection of the perineum shows normal female external genitalia with mild menstrual staining.
+  
+  ASSESSMENT
+  
+  Primary Dysmenorrhea.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Secondary Dysmenorrhea secondary to Endometriosis.
+  2. Pelvic Inflammatory Disease (PID).
+  3. Ovarian Cyst Torsion (less likely given history of cyclical pain).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Pelvic Ultrasound Scan (USS): To rule out pelvic masses, adnexal pathologies or uterine abnormalities.
+  2. Urinalysis: To rule out a concomitant Urinary Tract Infection (UTI).
+  3. Full Blood Count (FBC): To check for elevated white cell count in case of infection.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Admit to the observation unit for pain management.
+  
+  2. Provide reassurance and bed rest.
+  
+  3. Pharmacotherapy:
+     - Injection Diclofenac 75 mg IM stat.
+     - Tab Ibuprofen 400 mg TDS x 3/7 (to start after the injection wears off).
+     - Tab Hyoscine Butylbromide (Buscopan) 10 mg TDS x 2/7.
+     - Tab Omeprazole 20 mg daily x 3/7 (for gastric protection while on NSAIDs).
+  
+  4. Non-pharmacological: Encourage warm compresses to the lower abdomen and adequate hydration.
+  
+  5. Follow up in the gynaecology clinic for review of USS results and discussion of long-term options like Combined Oral Contraceptive Pills (COCPs) if symptoms persist.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
 
   {
     id: 'ob-86',

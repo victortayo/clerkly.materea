@@ -10094,6 +10094,585 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
       },
 
   
-
+      {
+        id: 'symptom-poor-weight-gain-child',
+        title: 'Poor Weight Gain in a Child',
+        category: 'Symptom Clerking',
+        subCategory: 'Pediatrics',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Clerking: Poor Weight Gain in a Child</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Times New Roman', serif; }
+      .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      .font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      .quote { border-left-width: 3px; border-left-style: solid; }
+      summary::-webkit-details-marker { display: none; }
+    </style>
+    </head>
+    <body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 p-4 sm:p-8 max-w-3xl mx-auto">
+    
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">HISTORY TAKING &middot; PEDIATRICS</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Symptom Clerking: Poor Weight Gain in a Child</h1>
+        <p class="text-sm text-indigo-200">About 37% of Nigerian children under five are stunted and about 7% are wasted (NDHS 2018), and many more are simply not growing as they should. This guide takes you from confirming that growth has really faltered, through a targeted history and examination, to a causal differential, a short list of useful tests, and treatment with doses: feeding advice for mild cases, ready-to-use therapeutic food (RUTF) for uncomplicated severe acute malnutrition, and stabilisation for the sick child.</p>
+      </div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      What Counts as Poor Weight Gain
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">&quot;Poor weight gain&quot; is a complaint, not a diagnosis. Before you ask a single question, decide which of four things you are dealing with. A single low weight is a snapshot; the trend over time and the child&rsquo;s length, arm circumference and oedema status tell you what kind of problem it is.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">WHO growth indicators (children under 5)</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Term</th><th class="py-2 pr-3">Measure</th><th class="py-2 pr-3">Moderate</th><th class="py-2 pr-3">Severe</th><th class="py-2 pr-3">What it tells you</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top font-semibold">Underweight</td><td class="py-2 pr-3 align-top">Weight-for-age</td><td class="py-2 pr-3 align-top">z &lt; &minus;2</td><td class="py-2 pr-3 align-top">z &lt; &minus;3</td><td class="py-2 pr-3 align-top">Composite of wasting and stunting; cannot tell them apart</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Stunting</td><td class="py-2 pr-3 align-top">Length/height-for-age</td><td class="py-2 pr-3 align-top">z &lt; &minus;2</td><td class="py-2 pr-3 align-top">z &lt; &minus;3</td><td class="py-2 pr-3 align-top">Long-standing or repeated deficit</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Wasting</td><td class="py-2 pr-3 align-top">Weight-for-length/height</td><td class="py-2 pr-3 align-top">z &lt; &minus;2</td><td class="py-2 pr-3 align-top">z &lt; &minus;3</td><td class="py-2 pr-3 align-top">Recent, acute deficit; strongly linked to death risk when severe</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">MUAC (6&ndash;59 months)</td><td class="py-2 pr-3 align-top">Mid-upper arm circumference</td><td class="py-2 pr-3 align-top">115 to &lt;125 mm</td><td class="py-2 pr-3 align-top">&lt;115 mm</td><td class="py-2 pr-3 align-top">Fast screen; can be used on its own to admit a child</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Nutritional oedema</td><td class="py-2 pr-3 align-top">Bilateral pitting oedema of both feet</td><td class="py-2 pr-3 align-top">&ndash;</td><td class="py-2 pr-3 align-top">Any grade = severe</td><td class="py-2 pr-3 align-top">Kwashiorkor pattern, whatever the weight</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Severe acute malnutrition (SAM) is bilateral nutritional oedema, or weight-for-length z &lt; &minus;3, or MUAC &lt;115 mm. Moderate acute malnutrition (MAM) is weight-for-length z &lt; &minus;2, or MUAC 115 to &lt;125 mm, with no oedema.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Faltering growth: when the line is falling but the child is not yet malnourished</strong>
+      <p class="text-sm">Centile charts allow you to catch the child early, before the z-scores reach the malnutrition cut-offs. NICE (NG75) uses the fall in weight centile, set against the birth weight centile, as the threshold for concern.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Birth weight centile</th><th class="py-2 pr-3">Concern if weight falls across</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">Below the 9th</td><td class="py-2 pr-3">&ge;1 centile space</td></tr>
+          <tr><td class="py-2 pr-3">9th to 91st</td><td class="py-2 pr-3">&ge;2 centile spaces</td></tr>
+          <tr><td class="py-2 pr-3">Above the 91st</td><td class="py-2 pr-3">&ge;3 centile spaces</td></tr>
+          <tr><td class="py-2 pr-3">Any birth weight</td><td class="py-2 pr-3">Current weight below the 2nd centile for age</td></tr>
+        </tbody>
+      </table></div>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>A centile space is the gap between two neighbouring lines on the chart.</li>
+        <li>Length or height more than 2 centile spaces below the mid-parental centile points to undernutrition or a primary growth disorder.</li>
+        <li>In a child over 2 years, check the BMI centile as well; a BMI below the 0.4th centile needs assessment.</li>
+        <li>A child who has grown steadily along a low line since birth, with small parents and a good appetite, may simply be small. The line is flat, not falling.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Measure and Plot Before You Interpret
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Errors in length and weight are the commonest reason a healthy child is labelled &quot;failing to thrive&quot;. Take the measurements yourself, or watch them being taken, and plot them before you take the history. Ask the mother for the child health card and plot the old weights too.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to measure</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Weight:</strong> in minimal clothing on a scale that has been zeroed and checked against a known weight. For an infant who will not lie still, weigh the mother with the child, then the mother alone, and subtract (or use the scale&rsquo;s tare function). Hanging spring scales drift, so check them often.</li>
+        <li><strong>Length (under 2 years) or height (2 years and over):</strong> use a length board with two people, one holding the head still and the other holding the feet and legs straight. Do not use a tape laid along a mat.</li>
+        <li><strong>Head circumference</strong> in any infant, and in any older child with developmental concern.</li>
+        <li><strong>MUAC (6&ndash;59 months):</strong> left arm hanging relaxed; find the midpoint between the tip of the shoulder (acromion) and the tip of the elbow (olecranon); wrap the tape snugly without pinching the skin; read to the nearest millimetre. Red is below 115 mm, yellow 115 to below 125 mm, green 125 mm or more.</li>
+        <li><strong>Oedema:</strong> press firmly with your thumb on the top of both feet for about 3 seconds. A pit that stays, on both sides, is nutritional oedema. Grade it: (+) both feet; (++) feet plus lower legs, hands or lower arms; (+++) generalised, including the face.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Then plot</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Use the exact age from the birth or immunisation record, not the mother&rsquo;s estimate. Correct for prematurity following the instructions printed on the chart.</li>
+        <li>Plot weight-for-age, length/height-for-age and weight-for-length/height. Compare with the earlier points to see the direction.</li>
+        <li>Ask both parents&rsquo; heights (measure them if present) and work out the mid-parental centile.</li>
+        <li>If the result is surprising, measure again.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Opening the Consultation and Biodata
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Mothers in this situation are often blamed, by relatives and sometimes by health workers. Open with a question that lets her tell the story, and keep every later question neutral. You will get a more honest feeding history.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&quot;Tell me what made you bring him today.&quot;</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&quot;Who first noticed that he was not putting on weight, and what did they say?&quot;</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&quot;What do you and the family think is the cause?&quot;</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Biodata</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Name, exact date of birth, sex, birth order in the family.</li>
+        <li>Who brought the child and who is the main carer during the day (mother, grandmother, older sibling, house help). The person who feeds the child is the person you need to talk to.</li>
+        <li>Parents&rsquo; ages, occupations, education, marital arrangement and number of children in the household.</li>
+        <li>Residence and water source; whether the family has moved or been displaced recently.</li>
+        <li>Referral source and what has already been given (other clinics, patent medicine shops, prayer houses, herbalists).</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Presenting complaint, written in the mother&rsquo;s words, with duration</strong>
+      <p class="text-sm">For example: &quot;Not gaining weight for 5 months, refused food for 3 weeks, loose stools on and off.&quot; Then record when growth last looked normal on the card: that date is the onset.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Feeding History
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">In most Nigerian children the answer is here. Poor weight gain in the second half of infancy and the second year usually follows weak complementary feeding plus repeated infections. Take a full 24-hour recall, not a general &quot;what does he eat?&quot;.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Milk feeding</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Was the baby breastfed? Exclusively for how long? Were water, herbal mixtures, glucose water or pap given before 6 months?</li>
+        <li>If breastfeeding stopped: at what age and why (new pregnancy, mother returned to trading or work, mother ill, baby refused, family advice)?</li>
+        <li>If still breastfeeding: how often by day and by night, how long per feed, does the baby swallow, does the mother feel milk let down, any nipple pain or breast problems.</li>
+        <li>Formula or tinned milk: which product, how many scoops to how much water, whether it is stretched to make the tin last, where the water comes from, whether it is boiled, how bottles are washed. A bottle that is hard to keep clean is a common cause of recurrent diarrhoea.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Complementary foods (from 6 months)</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Age at which foods were started, and the first food given.</li>
+        <li>Walk through yesterday from waking to sleeping: each meal, the food, the amount in a named cup or bowl, the thickness, whether oil, groundnut, egg, fish, crayfish, meat, beans or milk was added, and who fed the child.</li>
+        <li>Count the meals and snacks. WHO guidance for the breastfed child is 2&ndash;3 meals a day at 6&ndash;8 months and 3&ndash;4 meals a day at 9&ndash;23 months, with 1&ndash;2 snacks if the child is hungry. A child who is not breastfed needs 4&ndash;5 meals plus milk.</li>
+        <li>Variety: foods from at least four groups (grains, roots and tubers; legumes and nuts; dairy; flesh foods and fish; eggs; vitamin A-rich fruit and vegetables; other fruit and vegetables).</li>
+        <li>A diet of watery pap (ogi/akamu/koko) with sugar and little else is low in energy, protein, iron and zinc. Document how thick it is and what is added.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How the child is fed and how he responds</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Does the child eat from his own bowl or share a plate? In a shared plate the older children eat first and most.</li>
+        <li>Who feeds, how long a meal takes, whether there is forcing, shouting or distraction, and whether the child feeds himself.</li>
+        <li>Appetite now compared with before; refusal of food, gagging, choking or coughing with feeds; difficulty chewing or swallowing lumps; drooling.</li>
+        <li>Food during and after illness: is the child starved or given only water or herbs when sick?</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Food security and money</strong>
+      <p class="text-sm">Ask in a way that makes it easy to answer honestly.</p>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&quot;Some weeks money is tight and families cut meals. In the last month, did that happen in your house?&quot;</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Seasonal hunger before harvest, and cost of eggs, fish, milk and beans.</li>
+        <li>Whether the household receives food support or the child was ever enrolled in a nutrition programme.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Herbal and traditional products</strong>
+      <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&quot;Many mothers give local herbs, agbo or gripe water when a baby is unwell or not eating. Has he had anything like that?&quot;</p>
+      <p class="text-sm">Record what, how often and for what. Some preparations cause diarrhoea, liver or kidney injury, and others replace a feed.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Symptom Enquiry by System
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Ask about each system with the cause you are trying to exclude in mind. The point is to find the one treatable condition hiding behind a feeding problem.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">System</th><th class="py-2 pr-3">Ask about</th><th class="py-2 pr-3">Think of</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top font-semibold">Gastrointestinal</td><td class="py-2 pr-3 align-top">Vomiting (after every feed, projectile, green), diarrhoea and its duration, bulky foul or greasy stools, blood in stool, swollen belly, worms passed</td><td class="py-2 pr-3 align-top">Reflux, pyloric stenosis or obstruction in young infants, persistent diarrhoea and gut damage, giardiasis, hookworm, cow&rsquo;s milk protein allergy, malabsorption</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Respiratory and TB</td><td class="py-2 pr-3 align-top">Cough for more than 2 weeks, fever, night sweats, contact with someone with chronic cough, noisy breathing or snoring, repeated chest infections</td><td class="py-2 pr-3 align-top">Tuberculosis, HIV-related lung disease, chronic lung infection, adenotonsillar enlargement</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Cardiac</td><td class="py-2 pr-3 align-top">Sweating or breathlessness during feeds, tiring easily, blue lips, frequent chest infections</td><td class="py-2 pr-3 align-top">Congenital heart disease, heart failure</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Urinary</td><td class="py-2 pr-3 align-top">Passing urine often or in large amounts, thirst, smelly or painful urine, fever without cough</td><td class="py-2 pr-3 align-top">Urinary tract infection, chronic kidney disease, renal tubular acidosis, diabetes</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Fever and infection</td><td class="py-2 pr-3 align-top">Recurrent fever, number of malaria episodes, ear discharge, skin sepsis, limb pain or swelling</td><td class="py-2 pr-3 align-top">Recurrent malaria, chronic infection, bone infection, HIV</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Blood</td><td class="py-2 pr-3 align-top">Pallor, jaundice, painful swelling of hands and feet, bone pain, admissions for anaemia, transfusions</td><td class="py-2 pr-3 align-top">Sickle cell disease, chronic haemolysis, iron deficiency, hookworm anaemia</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Neurodevelopment</td><td class="py-2 pr-3 align-top">Milestones, stiffness or floppiness, seizures, poor suck, choking, drooling</td><td class="py-2 pr-3 align-top">Cerebral palsy and other oromotor feeding disorders, cleft palate, neonatal brain injury</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Endocrine</td><td class="py-2 pr-3 align-top">Prolonged jaundice in the newborn period, constipation, lethargy, cold hands and feet, coarse features</td><td class="py-2 pr-3 align-top">Hypothyroidism</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Skin and mouth</td><td class="py-2 pr-3 align-top">Rashes, skin peeling, mouth sores, white coating, tooth decay, difficulty chewing</td><td class="py-2 pr-3 align-top">Zinc and other micronutrient deficiency, oral thrush (HIV), dental pain</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">HIV exposure</td><td class="py-2 pr-3 align-top">Mother&rsquo;s HIV status and whether she took treatment in pregnancy, infant prophylaxis, early infant testing, parental illness or death</td><td class="py-2 pr-3 align-top">HIV infection or exposure</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Birth, Past Medical, Family, Social and Drug History
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pregnancy, birth and neonatal period</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Gestation, birth weight, place and mode of delivery, difficult or prolonged labour, delayed cry, neonatal jaundice, neonatal infection, special care admission. Preterm and small-for-gestational-age infants often catch up slowly and may be mistaken for faltering growth.</li>
+        <li>Maternal illness, anaemia, malaria, HIV and nutrition in pregnancy.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Past medical history</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Admissions and what for: malaria, severe anaemia, pneumonia, diarrhoea, measles, convulsions.</li>
+        <li>Sickle cell genotype of the child, and of the parents if the child has not been tested.</li>
+        <li>HIV test done on the child or mother; TB contact or past TB treatment in the household.</li>
+        <li>Immunisation: BCG, measles and others; vitamin A doses and deworming received.</li>
+        <li>Previous growth record: weights at each clinic visit.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Family history</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Heights of parents and siblings, age at which parents reached puberty (constitutional delay runs in families).</li>
+        <li>Siblings who were small, had chronic diarrhoea or died in infancy; sickle cell, TB or HIV in the family.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Social history and safeguarding</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Household size, crowding, income, whether parents are living together, who earns, who decides about food.</li>
+        <li>Water source and storage, toilet, handwashing, where the child plays and whether he mouths soil or objects.</li>
+        <li>Mother&rsquo;s health and mood: tiredness, low mood, or being overwhelmed can reduce how well a child is fed. Ask gently and offer support.</li>
+        <li>Warning signs of neglect or abuse: inconsistent history, injuries that do not match the story, long delays in seeking care, child dirty or unattended, food withheld as punishment. Record facts without accusing; involve a senior colleague and social welfare services when concerned.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drug history</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Antibiotics, antimalarials, antiretrovirals, anti-TB drugs, steroids, anticonvulsants, iron, vitamin A, and any bought without prescription.</li>
+        <li>Herbal or traditional medicines, and any known allergy.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      Focused Examination
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Start with a look at the child and mother together, and watch a feed if you can. Then check for danger signs before you do anything else.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First look and danger signs</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Alert, irritable, apathetic or drowsy? Interaction with the mother? Hygiene and clothing?</li>
+        <li>Danger signs from IMCI: unable to drink or breastfeed, vomits everything, convulsions, lethargic or unconscious.</li>
+        <li>Temperature (low as well as high), respiratory rate, heart rate, capillary refill, oxygen saturation if available, and a bedside glucose in any child who is lethargic or has SAM.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nutrition signs</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Visible wasting: loose skin folds on buttocks and thighs, prominent ribs, &quot;old man&quot; face.</li>
+        <li>Bilateral pitting oedema of the feet, and its grade.</li>
+        <li>Hair that is thin, sparse, pale or easy to pluck; flaky, peeling or ulcerated skin; angular stomatitis, sore tongue.</li>
+        <li>Pallor of palms, conjunctivae and tongue; jaundice.</li>
+        <li>Eyes: dry conjunctiva, Bitot spots, corneal clouding or ulcer (vitamin A deficiency, an emergency).</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Systems</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Mouth and ENT:</strong> cleft lip or palate, tongue-tie in a young infant, thrush, dental caries, large tonsils, ear discharge.</li>
+        <li><strong>Lymph nodes and parotids:</strong> generalised nodes or parotid swelling (HIV, TB).</li>
+        <li><strong>Chest:</strong> crepitations, wheeze, chest deformity, signs of consolidation or effusion.</li>
+        <li><strong>Heart:</strong> murmur, thrill, heart size, gallop, enlarged liver, raised neck veins (heart failure).</li>
+        <li><strong>Abdomen:</strong> distension, ascites, liver or spleen enlargement, masses, tenderness, hernias, rectal examination only if indicated.</li>
+        <li><strong>Neurological:</strong> tone, reflexes, head size, developmental level for age, oral-motor skills, vision and hearing responses.</li>
+        <li><strong>Genitourinary and skeletal:</strong> ambiguous genitalia, signs of rickets (wrist widening, bowed legs, rib beading), bone tenderness or swelling.</li>
+        <li><strong>Skin:</strong> bruises, burns, scars in odd places; scabies and infected sores.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hydration in a malnourished child</strong>
+      <p class="text-sm">Skin pinch and sunken eyes are unreliable in wasted children, and oedematous children may be dehydrated despite looking puffy. Use history (watery diarrhoea, vomiting, recent fluid loss), thirst, drinking, urine passed, and pulse and capillary refill together.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      Thinking Through the Causes
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Weight is gained when energy and nutrients taken in exceed what is lost or used. Arrange your differential by mechanism; most children have more than one cause.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Mechanism</th><th class="py-2 pr-3">Common causes in Nigerian practice</th><th class="py-2 pr-3">Clues</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top font-semibold">Too little goes in</td><td class="py-2 pr-3 align-top">Poor-quality or thin complementary foods, too few meals, food insecurity, over-diluted formula, breastfeeding stopped too early or poor attachment, force-feeding and poor responsive feeding, poor appetite from infection, anaemia or zinc deficiency, feeding difficulty from cleft palate or cerebral palsy</td><td class="py-2 pr-3 align-top">24-hour recall; watch a feed; weight flat from the time of weaning</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Not absorbed</td><td class="py-2 pr-3 align-top">Persistent diarrhoea and gut damage from repeated infection, giardiasis, hookworm, HIV enteropathy, cow&rsquo;s milk protein allergy. Coeliac disease and cystic fibrosis are uncommon in this setting; think of them when diarrhoea with fatty stools persists despite treatment of the common causes.</td><td class="py-2 pr-3 align-top">Loose bulky stools, distended belly, pallor, ova in stool</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Lost</td><td class="py-2 pr-3 align-top">Vomiting (reflux, pyloric stenosis, obstruction), chronic diarrhoea, urinary glucose loss, kidney tubular disorders, protein-losing states</td><td class="py-2 pr-3 align-top">Vomiting pattern, polyuria, oedema with heavy proteinuria (nephrotic syndrome)</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Burned or needed more</td><td class="py-2 pr-3 align-top">TB, HIV, recurrent malaria, urinary infection, bone infection, sickle cell disease, congenital heart disease, chronic lung disease</td><td class="py-2 pr-3 align-top">Fever, cough, hepatosplenomegaly, pallor, tachycardia, murmur, clubbing</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Hormonal, genetic or other</td><td class="py-2 pr-3 align-top">Hypothyroidism, diabetes, chronic kidney disease, genetic syndromes, intrauterine growth restriction with incomplete catch-up</td><td class="py-2 pr-3 align-top">Dysmorphism, coarse features, polyuria, short stature disproportionate to weight</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Care and environment</td><td class="py-2 pr-3 align-top">Neglect, maternal depression, carer overload, unsafe water and poor sanitation</td><td class="py-2 pr-3 align-top">Social history; child improves quickly when fed in a different setting</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Variant of normal</td><td class="py-2 pr-3 align-top">Constitutional small size, familial short stature, constitutional delay</td><td class="py-2 pr-3 align-top">Parents small, intake good, line parallel to the chart, no abnormal sign</td></tr>
+        </tbody>
+      </table></div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How age changes the list</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Under 6 months:</strong> breastfeeding problems (attachment, low supply, mixed feeding with watery liquids), tongue-tie, reflux, urinary infection, congenital heart disease, HIV, prematurity. See section 14.</li>
+        <li><strong>6&ndash;24 months:</strong> inadequate complementary feeding, recurrent diarrhoea and chest infection, helminths, anaemia, TB, HIV. This is the commonest group.</li>
+        <li><strong>Over 2 years:</strong> chronic infection (TB, HIV), sickle cell disease, kidney, endocrine and cardiac disease, food insecurity, restricted or fussy eating, neglect.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Investigations
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Let the history and examination decide the tests. In Nigeria, a short core set is worth doing in almost every child with significant faltering growth because the conditions it finds are common and treatable. Do not delay feeding, rehydration or antibiotics while waiting for results.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Test</th><th class="py-2 pr-3">When</th><th class="py-2 pr-3">Looking for</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top font-semibold">Bedside blood glucose</td><td class="py-2 pr-3 align-top">Every sick or lethargic child, every SAM child</td><td class="py-2 pr-3 align-top">Hypoglycaemia</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">PCV or haemoglobin (full blood count and film if available)</td><td class="py-2 pr-3 align-top">All</td><td class="py-2 pr-3 align-top">Anaemia, sickle cell pattern, malaria parasites</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Malaria rapid test or film</td><td class="py-2 pr-3 align-top">Fever now or recently, pallor, splenomegaly</td><td class="py-2 pr-3 align-top">Malaria</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Urinalysis and urine culture</td><td class="py-2 pr-3 align-top">All unexplained faltering growth</td><td class="py-2 pr-3 align-top">Infection, glucose, protein</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Stool microscopy</td><td class="py-2 pr-3 align-top">Diarrhoea, distended belly, pallor</td><td class="py-2 pr-3 align-top">Hookworm, Ascaris, Giardia</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">HIV test (DNA PCR if under 18 months)</td><td class="py-2 pr-3 align-top">Every child with SAM; recurrent infection; unknown maternal status</td><td class="py-2 pr-3 align-top">HIV infection</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">TB work-up: Xpert on gastric aspirate, sputum or stool where available; chest X-ray</td><td class="py-2 pr-3 align-top">Contact, cough or fever over 2 weeks, no response to nutrition</td><td class="py-2 pr-3 align-top">Tuberculosis (a Mantoux test is unreliable in a malnourished child)</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Haemoglobin electrophoresis or sickling test</td><td class="py-2 pr-3 align-top">Genotype unknown, pallor, jaundice, dactylitis</td><td class="py-2 pr-3 align-top">Sickle cell disease</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Urea, electrolytes, creatinine, bicarbonate</td><td class="py-2 pr-3 align-top">Dehydration, vomiting, polyuria, oedema</td><td class="py-2 pr-3 align-top">Kidney disease, tubular acidosis, electrolyte disturbance</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Liver tests, albumin, hepatitis serology</td><td class="py-2 pr-3 align-top">Jaundice, hepatomegaly, ascites</td><td class="py-2 pr-3 align-top">Liver disease</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Thyroid function (TSH, free T4)</td><td class="py-2 pr-3 align-top">Constipation, lethargy, short stature, prolonged neonatal jaundice</td><td class="py-2 pr-3 align-top">Hypothyroidism</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Echocardiogram, ECG</td><td class="py-2 pr-3 align-top">Murmur, cyanosis, features of heart failure</td><td class="py-2 pr-3 align-top">Congenital heart disease</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Coeliac serology, stool fat, sweat chloride</td><td class="py-2 pr-3 align-top">Chronic fatty diarrhoea not explained by infection</td><td class="py-2 pr-3 align-top">Malabsorption (uncommon; refer)</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Classify and Decide Where to Manage
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Classification decides the setting and the treatment. Do the appetite test and look for danger signs and complications for every child who meets criteria for SAM.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Group</th><th class="py-2 pr-3">Criteria</th><th class="py-2 pr-3">Where</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top font-semibold">Faltering growth, not malnourished</td><td class="py-2 pr-3 align-top">Falling centiles as in section 1; weight-for-length z &ge; &minus;2; MUAC 125 mm or more; no oedema</td><td class="py-2 pr-3 align-top">Home with feeding plan; review at the primary health centre</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Moderate acute malnutrition</td><td class="py-2 pr-3 align-top">Weight-for-length z &lt; &minus;2 to &ge; &minus;3, or MUAC 115 to &lt;125 mm, no oedema</td><td class="py-2 pr-3 align-top">Community or health centre nutrition programme as per national protocol</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Uncomplicated SAM</td><td class="py-2 pr-3 align-top">Oedema (+ or ++), or weight-for-length z &lt; &minus;3, or MUAC &lt;115 mm; passes the appetite test; alert; no danger signs or complications</td><td class="py-2 pr-3 align-top">Outpatient therapeutic programme (OTP)</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Complicated SAM</td><td class="py-2 pr-3 align-top">Any SAM criterion plus any of: fails the appetite test, danger sign or severe IMCI classification, severe oedema (+++), pneumonia, severe dehydration, severe anaemia, hypoglycaemia, hypothermia, eye signs of vitamin A deficiency, infected skin lesions</td><td class="py-2 pr-3 align-top">Inpatient care (stabilisation centre or hospital)</td></tr>
+        </tbody>
+      </table></div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Appetite test</strong>
+      <p class="text-sm">In a quiet place, with the mother, offer RUTF and clean water and watch. A child who eats it readily passes; one who refuses or takes only a little fails and needs inpatient assessment, however well he looks.</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-300 mb-3">Findings That Must Not Be Missed</p>
+      <ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Danger signs or drowsiness:</strong> unable to drink, vomiting everything, convulsions, lethargy. Check glucose at once.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hypoglycaemia and hypothermia</strong> (axillary temperature below 35 &deg;C) in a wasted child. They kill quickly and may show only as drowsiness.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Over-hydration.</strong> A malnourished heart fails easily with IV fluids or fast oral rehydration. Use IV fluids only for shock.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Eye signs of vitamin A deficiency</strong> (Bitot spots, corneal clouding or ulcer), especially after measles. This needs treatment the same day.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Severe pallor or signs of heart failure</strong> (fast breathing, enlarged liver, raised neck veins). Do not push fluids; manage per the inpatient guideline.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Cough or fever for over 2 weeks with weight loss:</strong> TB and HIV until shown otherwise.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Oedema that is not nutritional:</strong> heavy proteinuria (nephrotic syndrome), heart failure, liver disease.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Injury patterns or a history that does not fit,</strong> and an infant under 6 months who is not growing.</span></li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Faltering Growth and Moderate Acute Malnutrition
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ol class="list-decimal pl-5 space-y-2 text-sm">
+        <li><strong>Treat what you find.</strong> Malaria, anaemia, urinary infection, worms, HIV and TB each get their own treatment, according to the national guideline.</li>
+        <li><strong>Agree a feeding plan with the carer.</strong> Use the 24-hour recall to pick two or three changes she can afford and manage (section 15). Ask her to keep a food diary for a few days if that is practical.</li>
+        <li><strong>Do not give antibiotics routinely.</strong> WHO advises against routine antibiotics for undernourished children who do not have severe wasting or oedema, unless there is a sign of clinical infection.</li>
+        <li><strong>Set a goal and a date.</strong> Write the target weight or MUAC and the next visit date on the child health card.</li>
+        <li><strong>Moderate acute malnutrition:</strong> follow the national programme for supplementary or special foods where they exist, with weekly or two-weekly checks, and treat any infection.</li>
+        <li><strong>Refer</strong> if weight keeps falling despite the plan, if any red flag appears, if you suspect an organic cause, or if you are worried about safety at home.</li>
+      </ol>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Severe Acute Malnutrition: Outpatient Care
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">For the child who has SAM, passes the appetite test, is alert, and has no danger sign or complication, treatment at the primary health centre or community site with RUTF is as safe as inpatient care and keeps the family at home.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">RUTF dose</strong>
+      <p class="text-sm">The target is about 200 kcal/kg/day. One 92 g sachet gives 500 kcal. This weight-band chart follows that target; use the chart in the current Nigerian CMAM protocol where it differs.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Weight (kg)</th><th class="py-2 pr-3">Sachets per day</th><th class="py-2 pr-3">Sachets per week</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">3.5 &ndash; 3.9</td><td class="py-2 pr-3">1.5</td><td class="py-2 pr-3">11</td></tr>
+          <tr><td class="py-2 pr-3">4.0 &ndash; 5.4</td><td class="py-2 pr-3">2</td><td class="py-2 pr-3">14</td></tr>
+          <tr><td class="py-2 pr-3">5.5 &ndash; 6.9</td><td class="py-2 pr-3">2.5</td><td class="py-2 pr-3">18</td></tr>
+          <tr><td class="py-2 pr-3">7.0 &ndash; 8.4</td><td class="py-2 pr-3">3</td><td class="py-2 pr-3">21</td></tr>
+          <tr><td class="py-2 pr-3">8.5 &ndash; 9.4</td><td class="py-2 pr-3">3.5</td><td class="py-2 pr-3">25</td></tr>
+          <tr><td class="py-2 pr-3">9.5 &ndash; 10.4</td><td class="py-2 pr-3">4</td><td class="py-2 pr-3">28</td></tr>
+          <tr><td class="py-2 pr-3">10.5 &ndash; 11.9</td><td class="py-2 pr-3">4.5</td><td class="py-2 pr-3">32</td></tr>
+          <tr><td class="py-2 pr-3">12 and above</td><td class="py-2 pr-3">5</td><td class="py-2 pr-3">35</td></tr>
+        </tbody>
+      </table></div>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Simplified protocols that use MUAC and a fixed daily amount (for example 2 sachets, 1,000 kcal) are being used by some programmes. WHO now allows MUAC alone to be used for admission and, in the 2023 update, a gradual reduction in dose as the child recovers. Follow what your programme uses.</li>
+        <li>Counsel the carer: RUTF is food and medicine for the sick child only; the child should breastfeed first if still breastfed, eat it slowly with clean water to drink, and not share it. Keep the sachets closed and clean. Wash hands and the child&rsquo;s hands before eating.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Routine medicines on admission</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Medicine</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Note</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top font-semibold">Amoxicillin (oral)</td><td class="py-2 pr-3 align-top">80 mg/kg/day in two divided doses (40 mg/kg per dose) for 7 days</td><td class="py-2 pr-3 align-top">WHO Essential Medicines List dose for uncomplicated SAM. For an 8 kg child: 320 mg twice daily, about 6.4 mL of 250 mg/5 mL suspension per dose.</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Antimalarial</td><td class="py-2 pr-3 align-top">Test first; treat positive cases with the artemisinin combination in the FMOH guideline</td><td class="py-2 pr-3 align-top">Do not treat blindly</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Vitamin A</td><td class="py-2 pr-3 align-top">RUTF already supplies the daily requirement. Give high-dose vitamin A only for eye signs or recent measles: 50,000 IU under 6 months, 100,000 IU at 6&ndash;11 months, 200,000 IU at 12 months and above</td><td class="py-2 pr-3 align-top">Dose, number and timing for eye signs follow the national protocol</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Measles vaccine</td><td class="py-2 pr-3 align-top">If 9 months or older and not yet immunised</td><td class="py-2 pr-3 align-top">Give at admission or at the next visit as your programme directs</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Albendazole</td><td class="py-2 pr-3 align-top">200 mg single dose for 12&ndash;23 months; 400 mg for 24 months and above</td><td class="py-2 pr-3 align-top">Not for under 12 months; timing as per national protocol</td></tr>
+          <tr><td class="py-2 pr-3 align-top font-semibold">Zinc (if diarrhoea)</td><td class="py-2 pr-3 align-top">10 mg/day under 6 months; 20 mg/day from 6 months, for 10&ndash;14 days</td><td class="py-2 pr-3 align-top">Elemental zinc, with oral rehydration</td></tr>
+        </tbody>
+      </table></div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Weekly visits</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Weigh, measure MUAC, check oedema, temperature and appetite, and give the next week&rsquo;s RUTF.</li>
+        <li>Transfer to inpatient care if oedema appears or worsens, appetite fails, the child loses weight or does not gain over the period set by the national protocol, a danger sign develops, or the child is ill.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Discharge and after</strong>
+      <p class="text-sm">Under the Nigerian CMAM programme a child is discharged when MUAC is above 12.5 cm and/or weight-for-height z-score is &minus;2 or above, with no oedema. After discharge, check the child at intervals; WHO advises periodic follow-up to catch relapse. Connect the family with nutrition counselling, health centre growth monitoring and any food support that is available.</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+      <p class="font-brand text-sm font-semibold mb-2">Guideline Watch</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Admission and discharge criteria:</strong> the 2023 WHO guideline allows MUAC alone for admission of children 6&ndash;59 months, and simplified, combined protocols have been used in emergencies in Nigeria. The routine CMAM protocol may still use weight-for-height as well as MUAC. Check the version your facility follows.</li>
+        <li><strong>Routine amoxicillin:</strong> WHO recommends an oral antibiotic such as amoxicillin for uncomplicated SAM, but the evidence is of low certainty and some programmes are looking at antibiotics only when there is a sign of infection. The EML dose above is the reference; your protocol may differ in weight band or duration.</li>
+        <li><strong>NICE centile thresholds:</strong> these were written for UK-WHO charts. They are a practical rule for spotting a falling line in the clinic, not a substitute for WHO z-score definitions of wasting, stunting and underweight.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+      Severe Acute Malnutrition: Inpatient Care
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Admit the child with complicated SAM and follow the WHO ten steps. The first days are for stabilising the body, not for catching up. Nigeria has its own National Guidelines for Inpatient Management of SAM; the doses below are the commonly used WHO ones and should be checked against it.</p>
+      <ol class="list-decimal pl-5 space-y-3 text-sm">
+        <li><strong>Hypoglycaemia.</strong> If glucose is low, or the child is drowsy and you cannot test, give 50 mL of 10% glucose or sucrose solution by mouth or nasogastric tube (about one rounded teaspoon of sugar in 3.5 tablespoons of water). If unconscious or convulsing, give 5 mL/kg of sterile 10% glucose IV followed by the oral 50 mL. Then feed F-75 every 30 minutes for the first 2 hours.</li>
+        <li><strong>Hypothermia.</strong> Dry the child, cover with a blanket and hat, keep the room warm, use skin-to-skin contact, and feed.</li>
+        <li><strong>Dehydration.</strong> Use ReSoMal rather than standard ORS. Give 5 mL/kg every 30 minutes for 2 hours by mouth or nasogastric tube, then 5&ndash;10 mL/kg/hour for up to 10 hours, alternating with F-75. Stop if the breathing rate rises by 5 per minute, the pulse rises by 15 per minute, the neck veins fill, or oedema increases. With continuing watery diarrhoea give 50&ndash;100 mL ReSoMal after each watery stool. Use IV fluids only for shock.</li>
+        <li><strong>Electrolytes.</strong> Correct through ReSoMal and F-75. Do not use diuretics for oedema.</li>
+        <li><strong>Infection.</strong> Every child with complicated SAM receives antibiotics: parenteral ampicillin or benzylpenicillin plus gentamicin 7.5 mg/kg once daily, then oral amoxicillin once the child is stable, per the national inpatient guideline. Treat malaria, TB and HIV according to results.</li>
+        <li><strong>Micronutrients.</strong> Daily for at least 2 weeks: folic acid 5 mg on day 1 then 1 mg/day, elemental zinc 2 mg/kg/day, copper 0.3 mg/kg/day, and a multivitamin. Add high-dose vitamin A only for eye signs or measles (doses in section 12). Do not give iron early: start 3 mg/kg/day only after the child has been on F-100 for 2 days, and not when the child is taking RUTF.</li>
+        <li><strong>Initial feeding with F-75.</strong> 100 kcal/kg/day, which is 130 mL/kg/day (100 mL/kg/day if there is severe oedema). Give 11 mL/kg per feed every 2 hours on days 1&ndash;2, 16 mL/kg every 3 hours on days 3&ndash;5, and 22 mL/kg every 4 hours from day 6. Use a nasogastric tube if the child will not take it. Continue breastfeeding in addition.</li>
+        <li><strong>Catch-up with F-100.</strong> When appetite returns and oedema is falling, replace F-75 with the same volume of F-100 for 2 days, then increase each feed by 10 mL until the child leaves some. Aim for 150&ndash;220 kcal/kg/day and a weight gain of more than 10 g/kg/day. When complications have resolved and appetite is good, many units move the child to RUTF and transfer to outpatient care.</li>
+        <li><strong>Sensory stimulation and emotional support.</strong> Play, talk, hold the child, and keep the mother with the child.</li>
+        <li><strong>Prepare for discharge.</strong> Teach feeding, give the follow-up date, and complete immunisations.</li>
+      </ol>
+      <p class="text-sm">Severe anaemia and shock in SAM need a cautious, protocol-led approach with small fluid or blood volumes; follow the national inpatient guideline rather than the standard paediatric shock or transfusion regimen.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+      Infants Under Six Months
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Young infants are a separate group. Since 2023 WHO uses the term &quot;infants under 6 months at risk of poor growth and development&quot;. This covers infants with poor growth on repeated measures, low weight-for-age, weight-for-length or MUAC or nutritional oedema, infants with feeding concerns, neurodevelopmental problems, maternal health or mental health risk, or a recent hospital stay, and infants born preterm, small or of low birth weight.</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Refer for inpatient care</strong> if the infant has any IMCI danger sign, an acute medical problem, nutritional oedema, or recent weight loss. WHO 2023 also uses MUAC below 110 mm for infants aged 6 weeks to 6 months.</li>
+        <li><strong>Assess breastfeeding properly:</strong> position, attachment, milk transfer, number of feeds in 24 hours, other fluids or foods given, nipple or breast problems, tongue-tie, and the mother&rsquo;s own health, HIV status and mood.</li>
+        <li><strong>Priority is effective breastfeeding,</strong> or relactation if it has stopped. Where milk is needed, prescribe supplemental feeds carefully with the right volume and clean preparation.</li>
+        <li><strong>Treat the mother as part of the care:</strong> her nutrition, health and mental health affect the infant.</li>
+        <li><strong>Common causes:</strong> poor attachment, low supply from infrequent feeding, mixed feeding with watery drinks, over-diluted formula, prematurity, urinary infection, congenital heart disease, HIV.</li>
+        <li><strong>Discharge from care</strong> when the infant is breastfeeding well (or feeding well on replacement feeds), gaining weight, and weight-for-length is &minus;2 or above. Follow-up continues until 6 months, then hand over to routine services.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+      Feeding Counselling with Local Foods
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Start from what the family already cooks and can afford. Most children need foods made thicker and richer, fed more often, and fed with patience.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th class="py-2 pr-3">Age</th><th class="py-2 pr-3">Texture</th><th class="py-2 pr-3">Frequency (breastfed)</th><th class="py-2 pr-3">Amount per meal</th>
+        </tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">6&ndash;8 months</td><td class="py-2 pr-3 align-top">Thick porridge, well-mashed foods</td><td class="py-2 pr-3 align-top">2&ndash;3 meals plus breastfeeds</td><td class="py-2 pr-3 align-top">Start with 2&ndash;3 tablespoons, build up to about &frac12; of a 250 mL cup</td></tr>
+          <tr><td class="py-2 pr-3 align-top">9&ndash;11 months</td><td class="py-2 pr-3 align-top">Finely chopped or mashed foods, finger foods</td><td class="py-2 pr-3 align-top">3&ndash;4 meals plus breastfeeds</td><td class="py-2 pr-3 align-top">&frac12; of a 250 mL cup</td></tr>
+          <tr><td class="py-2 pr-3 align-top">12&ndash;23 months</td><td class="py-2 pr-3 align-top">Family foods, chopped or mashed if needed</td><td class="py-2 pr-3 align-top">3&ndash;4 meals plus breastfeeds</td><td class="py-2 pr-3 align-top">&frac34; to a full 250 mL cup</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Add 1&ndash;2 snacks if the child is hungry. A child who is not breastfed needs 1&ndash;2 cups of milk a day and 1&ndash;2 extra meals.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Practical messages</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Make pap (ogi, akamu, koko) thick enough to stay on the spoon. Enrich it with a teaspoon of palm oil or groundnut oil, groundnut or soya paste, mashed egg, or crayfish or dried fish powder.</li>
+        <li>Add protein and iron-rich foods to every meal where possible: eggs, fish, crayfish, mashed beans (including soft moi-moi), liver, groundnut paste.</li>
+        <li>Mashed yam, sweet potato, ripe plantain or rice with oil and a protein add energy. Orange-fleshed sweet potato, pawpaw, mango and dark green leaves such as ugu give vitamin A.</li>
+        <li>Give food in the child&rsquo;s own bowl so you can see how much he eats. Feed slowly and patiently, talk to him, and do not force him.</li>
+        <li>Use a cup and spoon, not a bottle. Wash hands before preparing food and before feeding.</li>
+        <li>Do not give plain water, tea, sugary drinks or herbal mixtures in place of a meal.</li>
+        <li>Continue to breastfeed up to 2 years and beyond.</li>
+        <li>During illness, offer extra fluids and breastfeeds and soft favourite foods; after illness, feed more often than usual.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+      Supplements, Prevention and Follow-Up
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Vitamin A:</strong> universal supplementation every 4&ndash;6 months from 6 to 59 months in high-risk countries: 100,000 IU at 6&ndash;11 months and 200,000 IU from 12 months.</li>
+        <li><strong>Deworming:</strong> a single dose of albendazole 400 mg, or 200 mg at 12&ndash;23 months, once or twice a year in areas where worms are common.</li>
+        <li><strong>Iron:</strong> WHO recommends 10&ndash;12.5 mg elemental iron daily for 6&ndash;23 months where anaemia in the population is 40% or more, for three months in a year. In malaria-endemic areas give iron only alongside malaria prevention, diagnosis and treatment. A child with diagnosed anaemia is treated per the national guideline.</li>
+        <li><strong>Zinc with ORS</strong> for every diarrhoea episode (doses in section 12).</li>
+        <li><strong>Immunisation</strong> up to date, including measles; seasonal malaria chemoprevention where it is offered.</li>
+        <li><strong>Water, sanitation and handwashing</strong> advice; boil or treat drinking water, cover stored water, and keep animals away from the cooking area.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Follow-up</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Give a specific review date, weigh again, and replot on the same chart.</li>
+        <li>If the child is gaining and moving up the chart, continue the plan and space out visits.</li>
+        <li>If not, re-take the history (especially what is actually fed), repeat the examination, and consider the second-line tests or specialist referral.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">17</span>
+      Worked Clerking Example
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm"><strong>Biodata.</strong> 14-month-old girl, second of three children, brought by her mother from a primary health centre referral.</p>
+      <p class="text-sm"><strong>Presenting complaint.</strong> Not gaining weight for 5 months; poor appetite for 3 weeks; loose stools twice in the past 3 months.</p>
+      <p class="text-sm"><strong>History.</strong> Term, birth weight 3.1 kg, no neonatal problems. Breastfed exclusively for 4 months, then pap and water added; breastfeeding stopped at 9 months when the mother returned to trading. She now takes watery pap with sugar twice a day and a few spoons of family soup; no egg, fish, beans or milk. She eats from a shared plate. The mother gave an herbal mixture for &quot;teething diarrhoea&quot;. No cough, no fever now, no TB contact. Measles vaccine given at 9 months. Stored borehole water in an open bucket. Parents are both traders; money is tight in the lean season. Mother says she is tired and worried.</p>
+      <p class="text-sm"><strong>Examination.</strong> Alert but quiet. Weight 6.8 kg, plotted below the &minus;2 weight-for-age line and falling away from earlier points; MUAC 11.2 cm (red); no oedema. Temperature 36.8 &deg;C, respiratory rate normal, no signs of dehydration. Wasted buttocks, sparse thin hair, mild pallor, no eye signs, no thrush, chest and heart normal, no hepatosplenomegaly. Passes the appetite test.</p>
+      <p class="text-sm"><strong>Tests.</strong> PCV 28%, malaria rapid test negative, urine normal, stool microscopy shows hookworm ova, HIV test negative.</p>
+      <p class="text-sm"><strong>Assessment.</strong> Uncomplicated severe acute malnutrition (MUAC &lt;115 mm, no oedema, appetite retained) from inadequate complementary feeding after early weaning, with mild anaemia and hookworm.</p>
+      <p class="text-sm"><strong>Plan.</strong> Enrol in the outpatient therapeutic programme. RUTF 2.5 sachets a day (18 a week for 6.8 kg). Amoxicillin about 270 mg twice daily for 7 days (40 mg/kg per dose; about 5.4 mL of 250 mg/5 mL suspension). Albendazole 200 mg once. Counsel on RUTF use, hand hygiene and water storage, and later on thick, enriched pap and animal-source foods. Weekly review; discharge at MUAC above 12.5 cm. Link the mother with support for her own tiredness and worry, and treat the anaemia per the national guideline after the acute phase.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">18</span>
+      Video and Written Resources
+    </h2>
+    <div class="space-y-3 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Every link below was found in a search for this guide.</p>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <strong>WHO anthropometry training video</strong> &ndash; shows how to measure weight, length, height and arm circumference and how to calibrate equipment (English, French, Spanish). Also the WHO Training Course on Child Growth Assessment. <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.who.int/toolkits/child-growth-standards" target="_blank" rel="noopener">WHO child growth standards toolkit</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <strong>Measuring mid-upper arm circumference in paediatric patients</strong> &ndash; short video on correct MUAC technique. <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://anhi.org/resources/podcasts-and-videos/muac" target="_blank" rel="noopener">ANHI MUAC videos</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <strong>First Foods for Young Children</strong> &ndash; video series from UNICEF and Global Health Media Project on complementary feeding for 6&ndash;23 months, with versions for caregivers and for health workers. The library also lists a Hausa version of &quot;Feeding the child during and after illness&quot;. <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://globalhealthmedia.org/videos/" target="_blank" rel="noopener">Global Health Media videos</a> &middot; <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://nurturing-care.org/first-foods-for-young-children/" target="_blank" rel="noopener">series overview</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <strong>Faltering growth (failure to thrive)</strong> &ndash; clerking and management summary. <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://geekymedics.com/faltering-growth-failure-to-thrive/" target="_blank" rel="noopener">Geeky Medics</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <strong>NICE NG75: Faltering growth, recognition and management.</strong> <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.nice.org.uk/guidance/ng75" target="_blank" rel="noopener">NICE guideline</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <strong>WHO 2023 guideline on wasting and nutritional oedema,</strong> and the WHO implementation guidance for inpatient and outpatient care. <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.childwasting.org/normative-guidance" target="_blank" rel="noopener">Guideline</a> &middot; <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.who.int/publications/i/item/9789240122840" target="_blank" rel="noopener">Implementation guidance</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <strong>National Guidelines for Inpatient Management of SAM in Infants and Young Children in Nigeria.</strong> <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://library.alnap.org/node/60433" target="_blank" rel="noopener">Library record</a></div>
+      <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <strong>How to measure MUAC (written steps)</strong> and MUAC tape specifications. <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://epidemics.ifrc.org/pdf/162" target="_blank" rel="noopener">IFRC toolkit</a> &middot; <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.unicef.org/supply/mid-upper-arm-circumference-muac-measuring-tapes" target="_blank" rel="noopener">UNICEF MUAC tapes</a></div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <p class="font-brand text-sm font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</p>
+      <ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-200 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Measure and plot first. Check the equipment, then judge the trend, not one point.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>SAM is oedema, weight-for-length z &lt; &minus;3, or MUAC &lt;115 mm. MAM is z &lt; &minus;2 or MUAC 115 to &lt;125 mm.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The feeding history, taken as a 24-hour recall without blame, finds the cause in most children.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always look for malaria, anaemia, urinary infection, worms, HIV and TB. They are common and treatable.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Appetite test and danger signs decide outpatient or inpatient care. Uncomplicated SAM gets RUTF (about 200 kcal/kg/day) and amoxicillin 80 mg/kg/day in two doses for 7 days.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In complicated SAM, treat low glucose and cold first, rehydrate slowly with ReSoMal, avoid IV fluids unless in shock, and feed with F-75 before catch-up.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Infants under 6 months need a breastfeeding assessment and care for the mother as well as the baby.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Advice that works uses local foods the family can afford, and ends with a review date and a re-plotted chart.</span></li>
+      </ul>
+    </div>
+    
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+      <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-6">
+        <span class="font-brand text-sm font-semibold text-slate-800 dark:text-slate-200">References</span>
+        <svg class="w-4 h-4 text-slate-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 space-y-2 sans">
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years. Geneva: WHO; 2023.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Implementation guidance on the management of wasting and nutritional oedema (acute malnutrition) in infants and children aged under 5 years in inpatient and outpatient settings. Geneva: WHO.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Guideline: Updates on the management of severe acute malnutrition in infants and children. Geneva: WHO; 2013.</p>
+        <p class="text-[10px] leading-snug text-stone-500">UNICEF and WHO. Simplified approaches in relation to the 2023 WHO guideline on wasting and nutritional oedema: briefing note. July 2023.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. WHO Child Growth Standards: training course on child growth assessment; anthropometry training video. Geneva: WHO.</p>
+        <p class="text-[10px] leading-snug text-stone-500">National Institute for Health and Care Excellence. Faltering growth: recognition and management of faltering growth in children. NICE guideline NG75.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. WHO Model List of Essential Medicines for Children: amoxicillin in severe acute malnutrition (Expert Committee recommendation).</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. e-Library of Evidence for Nutrition Actions: use of antibiotics in the outpatient management of children with severe acute malnutrition; management of infants under 6 months of age with severe acute malnutrition.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Management of severe malnutrition: a manual for physicians and other senior health workers; and the ten-step inpatient protocol (F-75, F-100 and ReSoMal).</p>
+        <p class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria. National Guidelines for Inpatient Management of Severe Acute Malnutrition in Infants and Young Children in Nigeria; and the National Guidelines for Community Management of Acute Malnutrition. 2016.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Guideline: daily iron supplementation in infants and children. Geneva: WHO; 2016.</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Guideline: preventive chemotherapy to control soil-transmitted helminth infections in at-risk population groups. Geneva: WHO; 2017.</p>
+        <p class="text-[10px] leading-snug text-stone-500">WHO and UNICEF. Joint statement on the clinical management of acute diarrhoea (zinc and oral rehydration salts).</p>
+        <p class="text-[10px] leading-snug text-stone-500">World Health Organization and Pan American Health Organization. Guiding principles for complementary feeding of the breastfed child; and WHO guiding principles for feeding non-breastfed children 6&ndash;24 months of age.</p>
+        <p class="text-[10px] leading-snug text-stone-500">National Population Commission (Nigeria) and ICF. Nigeria Demographic and Health Survey 2018.</p>
+      </div>
+    </details>
+    
+    </body>
+    </html>
+        `
+    },
 
 ];

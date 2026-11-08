@@ -1,6 +1,178 @@
 import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
+
+
+  {
+    id: 'peds-144',
+    title: 'Severe Neonatal Jaundice with Suspected G6PD Deficiency',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Severe Neonatal Jaundice',
+    symptoms: [
+      'Yellowish discoloration of the eyes and skin',
+      'Progressive jaundice involving the face, chest and lower extremities',
+      'Poor suckling',
+      'Lethargy',
+      'Weak primitive reflexes',
+      'Mild dehydration',
+      '8% weight loss from birth weight',
+      'Camphor exposure',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 4-day-old term male neonate presenting with progressive jaundice from Day 2 of life, extending to the soles of the feet by Day 4, associated with poor suckling and lethargy. He was born at 39 weeks via spontaneous vaginal delivery with good APGAR scores. There is a history of camphor exposure through camphorballs stored with the baby’s clothing. Examination revealed severe jaundice (Kramer Stage 5), mild dehydration, 8% weight loss, weak suckling reflex and incomplete Moro reflex. Assessment was severe neonatal jaundice, with suspected G6PD deficiency, possible ABO incompatibility and neonatal sepsis, complicated by poor feeding and mild dehydration.',
+    content: `
+  NEONATAL INPATIENT CLERKING NOTE
+  
+  PATIENT IDENTIFICATION
+  
+  Baby of FO, a 4-day-old male neonate, brought by mother (a 28-year-old trader, Yoruba, residing in Mushin, Lagos State).
+  
+  PRESENTING COMPLAINTS (PC)
+  
+  1. Yellowish discoloration of eyes and skin x 2/7
+  2. Poor suckling x 2/7
+  
+  HISTORY OF PRESENTING COMPLAINT (HPC)
+  
+  Mother noticed yellowish discoloration of the eyes on Day 2 of life, which progressively spread to the face, chest and lower extremities by Day 3. This was associated with poor suckling and lethargy starting on Day 3 of life; the neonate feeds weakly for less than 5 minutes per breast attempt and falls asleep quickly.
+  
+  No history of fever, high-pitched cry, arching of the back (opisthotonos) or abnormal body movements. No history of pale stool or dark urine (stools reported as normal yellowish-green transitional stools). No history of bleeding from the umbilical stump or mucosal sites.
+  
+  No history of maternal fever, premature rupture of membranes (PROM > 18 hours) or foul-smelling vaginal discharge prior to delivery.
+  
+  BIRTH AND PERINATAL HISTORY
+  
+  Antenatal Hx: Mother booked at 16 weeks gestation at General Hospital. Attended 6 ANC visits. Routine drugs taken (FEFO, IPTp-SP). Blood group: O Rhesus positive. VDRL/HBsAg/HIV all negative. No illness reported in pregnancy.
+  
+  Natal Hx: Delivered via spontaneous vaginal delivery (SVD) at term (39 weeks) in a healthcare facility. Cried immediately at birth. Birth weight: 3.1 kg. APGAR scores: 8 at 1 minute, 9 at 5 minutes.
+  
+  Postnatal Hx: Applied methylated spirit to cord. No cow dung, toothpaste or menthol/camphor applied. Received BCG, Hep B0 and OPV0 at birth.
+  
+  DRUG HISTORY
+  
+  No prescribed medications prior to presentation (PTP).
+  
+  Mother reports using camphorballs in the baby's clothing storage.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  2nd child in a monogamous family. First sibling had mild jaundice at birth, which resolved spontaneously under sunlight.
+  
+  No family history of sickle cell disease or known G6PD deficiency.
+  
+  Mother's Blood Group: O Rhesus positive.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Lethargic, weak primitive reflexes.
+  
+  RS/CVS: No fast breathing, no chest indrawing, no cyanosis.
+  
+  GIT: Poor intake, no vomiting, no abdominal distention.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Neonate is lethargic, icteric up to the soles of the feet (Kramer Stage 5), with mild dehydration (dry mucous membranes, delayed skin turgor of approximately 2 seconds).
+  
+  Not dysmorphic, not pale, acyanotic, afebrile to touch.
+  
+  Umbilical cord stump: Clean, dry, no erythema or discharge.
+  
+  VITAL SIGNS
+  
+  Temp: 36.6°C
+  
+  PR: 142 bpm (good volume)
+  
+  RR: 48 cpm (regular, no respiratory distress)
+  
+  SpO2: 98% in room air
+  
+  Weight: 2.85 kg (8% weight loss from birth weight)
+  
+  SYSTEMIC EXAMINATION
+  
+  CNS: Conscious but lethargic. Anterior fontanelle flat and soft. Primitive reflexes: Suckling reflex weak; Moro reflex incomplete; grasp reflex present.
+  
+  CVS: S1 and S2 present, no murmurs. CRT < 2 seconds.
+  
+  RESPIRATORY SYSTEM: Clear chest, equal bilateral breath sounds, no crepitations or rhonchi.
+  
+  ABDOMEN: Soft, non-tender, no organomegaly (liver non-palpable, spleen non-palpable). Bowel sounds present.
+  
+  ASSESSMENT
+  
+  Severe Neonatal Jaundice (Kramer Stage 5) secondary to:
+  
+  1. G6PD Deficiency (precipitated by camphor exposure) - High index of suspicion.
+  2. ABO Incompatibility (Mother O+ve, Baby group pending).
+  3. Possible Early-Onset Neonatal Sepsis (EONS).
+  
+  With mild dehydration and poor feeding.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Hemolytic Disease of the Newborn (G6PD deficiency / ABO incompatibility).
+  2. Neonatal Sepsis (NNS) with secondary jaundice.
+  3. Exaggerated Breastfeeding / Starvation Jaundice.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Urgent Bilirubin Panel: Total Serum Bilirubin (TSB) and Direct Serum Bilirubin (DSB).
+  
+  2. Immunohematology: Baby's Blood Grouping and Rh factor, Direct Coombs Test (DCT).
+  
+  3. Infection Screen: Full Blood Count (FBC) with differential, Peripheral Blood Film (PBF) for reticulocytes and spherocytes, Blood Culture, CRP.
+  
+  4. Metabolic: Random Blood Sugar (RBS), Serum Electrolytes, Urea and Creatinine.
+  
+  5. Specialized Test: G6PD quantitative assay (or enzyme screening once acute haemolysis subsides).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Immediate Stabilization & Phototherapy:
+  
+     - Place under Intensive Double-Surface Phototherapy immediately (ensure eyes and genitalia are shielded).
+     - Monitor TSB every 6–12 hours.
+     - Prepare for potential Exchange Blood Transfusion (EBT) if TSB reaches EBT threshold per WHO/AAP guidelines or if neurological signs progress.
+  
+  2. Fluid & Feeding Management (Day 4 of Life):
+  
+     - Fluid Requirement for Day 4: 120 mL/kg/day + 10–20% additional allowance for phototherapy loss = 140 mL/kg/day.
+     - Total daily volume for 2.85 kg = 2.85 × 140 mL = 400 mL/24 hours.
+     - Expressed Breast Milk (EBM) via Nasogastric Tube (NGT) or cup/spoon feeding: 50 mL every 3 hours (8 feeds/day).
+     - If unable to tolerate enteral feeds or RBS < 2.6 mmol/L (47 mg/dL): Start IV 10% Dextrose infusion at 15 mL/hr; provide 2 mL/kg IV 10% Dextrose bolus (5.7 mL) if acute hypoglycemia occurs.
+  
+  3. Empirical Antibiotic Therapy (Sepsis Coverage):
+  
+     - IV Ampicillin: 50 mg/kg/dose 12-hourly = 142.5 mg IV 12-hourly.
+     - IV Gentamicin: 5 mg/kg/dose 24-hourly = 14.25 mg IV 24-hourly.
+  
+     (Adjust or discontinue based on blood culture and clinical response).
+  
+  4. Monitoring & Nursing Care:
+  
+     - Monitor vital signs, temperature and SpO2 4-hourly.
+     - Monitor Random Blood Sugar 6-hourly.
+     - Strict Fluid Intake and Output (I/O) chart and diaper weight tracking.
+     - Monitor for Acute Bilirubin Encephalopathy (ABE) signs: high-pitched cry, retrocollis, opisthotonos, seizures.
+     - Stop camphor/menthol exposure; counsel parents on avoiding G6PD triggers.
+  
+  5. Specialist Referral & Escalation Thresholds:
+  
+     - If TSB is within 3 mg/dL of EBT threshold or neurological deterioration occurs, refer/escalate immediately to a Tertiary Newborn Intensive Care Unit (NICU) with EBT capability.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'peds-143',
     title: 'Neonatal Jaundice Secondary to ABO Incompatibility',

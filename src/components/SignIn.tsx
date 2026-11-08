@@ -60,7 +60,7 @@ export const SignIn = ({ onGoToSignUp }: SignInProps) => {
           </div>
           <div className="relative">
             <span className="absolute -top-4 left-0 bg-yellow-200 text-yellow-800 text-xs font-semibold px-2 py-0.5 rounded-full">
-              beta v0.3
+              beta v0.2
             </span>
             <h1 className="text-3xl font-brand font-bold text-slate-800 dark:text-slate-200">
               clerkly

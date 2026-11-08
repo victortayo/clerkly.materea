@@ -2,6 +2,1124 @@ import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
   {
+    id: 'ob-95',
+    title: 'Right Functional Ovarian Cyst',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology',
+    condition: 'Right Ovarian Cyst, Likely Functional',
+    symptoms: [
+      'Right iliac fossa pain',
+      'Pelvic mass detected on ultrasound scan',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 24-year-old nulliparous female student from Ogbomosho, presenting with a two-week history of intermittent, dull right iliac fossa pain and a right-sided ovarian cyst detected on ultrasound scan three days prior to presentation. Examination revealed mild right iliac fossa tenderness and a smooth, mobile, mildly tender right adnexal mass measuring approximately 4 cm. Assessment is a right ovarian cyst, likely functional (follicular or corpus luteal cyst).',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 24-year-old female student who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is single.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Lower abdominal pain x 2/52
+  2. Pelvic mass found on ultrasound scan x 3/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 2 weeks ago when she developed a dull, aching pain in the right iliac fossa. The pain is intermittent, non-radiating, and has no known aggravating or relieving factors. There is no associated fever, nausea, or vomiting. She reports no history of fainting spells or dizziness. There are no changes in bowel or urinary habits.
+  
+  Due to the persistent discomfort, she presented at a private laboratory 3 days ago for a pelvic ultrasound scan, which reportedly showed a right-sided ovarian cyst.
+  
+  LMP was 12 days ago. Her cycles are regular, occurring every 28 days and lasting for 4 days with normal flow. There is no history of intermenstrual or post-coital bleeding. No history of vaginal discharge.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  No previous history of similar complaints or diagnosed pelvic masses.
+  
+  No previous pelvic or abdominal surgeries.
+  
+  Not a known hypertensive or diabetic.
+  
+  Genotype: AA.
+  
+  DRUG HISTORY
+  
+  She has taken Paracetamol 1g PRN for the pain with minimal relief. No history of herbal concoction use. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She is the second of four children in a monogamous family setting. No family history of breast, uterine, or ovarian malignancies. She does not smoke or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headaches, no seizures, no blurred vision.
+  
+  RS: No cough, no chest pain, no dyspnea.
+  
+  CVS: No palpitations, no orthopnea, no pedal swelling.
+  
+  GIT: No constipation, no diarrhea, no hematochezia.
+  
+  GUS: No dysuria, no frequency, no hematuria.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in no obvious respiratory or painful distress. Not pale, anicteric, afebrile, acyanosed, and not dehydrated. No significant peripheral lymphadenopathy. No pedal edema.
+  
+  VITAL SIGNS
+  
+  PR: 82 bpm, regular, normal volume.
+  
+  BP: 110/70 mmHg.
+  
+  RR: 18 cpm.
+  
+  Temp: 36.6 degrees C.
+  
+  SpO2: 98 percent on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen is flat and moves with respiration. No surgical scars or striae.
+  
+  Soft, with mild deep tenderness in the right iliac fossa. No palpable masses, no guarding or rebound tenderness. No hepatosplenomegaly.
+  
+  Bowel sounds are present and normal.
+  
+  PELVIC EXAMINATION
+  
+  External genitalia appear normal.
+  
+  Digital Vaginal Examination: Nulliparous cervix, closed. Uterus is normal size, anteverted, and mobile. There is a palpable, smooth, mobile, and mildly tender mass in the right adnexa, estimated to be approximately 4cm in diameter. No cervical motion tenderness. Left adnexa is free.
+  
+  ASSESSMENT
+  
+  Right Ovarian Cyst, likely functional (Follicular or Corpus Luteal cyst).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Pelvic Inflammatory Disease (PID)
+  2. Endometriosis (Endometrioma)
+  3. Benign Cystic Teratoma (Dermoid Cyst)
+  4. Ectopic pregnancy (less likely given LMP and clinical stability)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Repeat Pelvic Ultrasound Scan (preferably transvaginal) for better characterization of the cyst (size, wall thickness, internal echoes, septations, or solid components).
+  2. Serum Beta-hCG to definitively rule out pregnancy.
+  3. Full Blood Count (FBC) to check for elevated WBC (suggestive of PID) or low PCV.
+  4. Urinalysis to rule out Urinary Tract Infection.
+  5. CA-125 (May be indicated if the cyst has complex features, though its specificity is low in premenopausal women).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  The management is guided by the size of the cyst, the ultrasound characteristics, and the severity of symptoms.
+  
+  CONSERVATIVE MANAGEMENT (For simple cysts <6cm):
+  
+  1. Reassurance: Inform the patient that most functional cysts are benign and often resolve spontaneously within 2-3 menstrual cycles.
+  2. Observation: Plan for a repeat pelvic ultrasound in 6 to 12 weeks to monitor for regression, persistence, or increase in size.
+  
+  MEDICAL MANAGEMENT:
+  
+  1. Analgesia: Prescribe Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) for pain management.
+  
+     - Tab Ibuprofen 400mg 8-hourly for 3-5 days OR Tab Naproxen 250mg 12-hourly.
+  
+  2. Hormonal Therapy:
+  
+     - Combined Oral Contraceptive Pills (COCPs) may be considered. While COCPs do not shrink an existing functional cyst, they help suppress ovulation and prevent the formation of new cysts in subsequent cycles.
+  
+  SURGICAL MANAGEMENT:
+  
+  Surgical intervention (Ovarian Cystectomy) is indicated if the cyst:
+  
+  - Is larger than 6-10cm.
+  - Persists for more than 3 cycles.
+  - Has complex features on ultrasound (solid areas, thick septa).
+  - Causes severe, acute pain (suggesting torsion or rupture).
+  
+  FOLLOW-UP:
+  
+  Review with formal ultrasound report. Counsel the patient to present immediately to the Emergency Room if she develops sudden, severe abdominal pain, nausea, or vomiting, as these may indicate ovarian torsion.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-94',
+    title: 'Right Ovarian Cyst Torsion',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology',
+    condition: 'Suspected Right Ovarian Torsion',
+    symptoms: [
+      'Sudden-onset severe lower abdominal pain',
+      'Right iliac fossa pain',
+      'Nausea and vomiting',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 26-year-old nulliparous female tailor from Ogbomosho, presenting with a six-hour history of sudden-onset severe lower abdominal pain, predominantly in the right iliac fossa, associated with nausea and vomiting. Examination revealed tachycardia, lower abdominal tenderness with right iliac fossa guarding and rebound tenderness, and an approximately 7 × 6 cm exquisitely tender right adnexal mass. Assessment is acute abdomen secondary to suspected right ovarian cyst torsion.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 26-year-old female tailor who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and is a Christian.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Sudden onset lower abdominal pain x 6h
+  2. Nausea and vomiting x 4h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 6 hours prior to presentation when she developed sudden onset, sharp, and severe lower abdominal pain, more localized to the right iliac fossa. The pain was non-radiating but worsened with movement and change of posture. There was no history of preceding trauma or strenuous physical activity.
+  
+  About 2 hours after the onset of pain, she developed nausea followed by three episodes of non-bilious, non-bloody vomiting containing recently ingested meals. There is no history of fever, abnormal vaginal discharge, or vaginal bleeding. Bowel habits remain normal with no history of constipation or diarrhea. No urinary symptoms such as dysuria, frequency, or urgency.
+  
+  GYNAECOLOGICAL AND OBSTETRIC HISTORY
+  
+  LMP: 14 days ago (mid-cycle). Her cycles are regular, 28-day intervals, lasting 4-5 days with average flow.
+  
+  Parity: G0 P0.
+  
+  Contraceptive Hx: Not currently on any hormonal or intrauterine contraception.
+  
+  No previous history of pelvic inflammatory disease or similar abdominal pain.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  No known chronic medical conditions such as hypertension, diabetes, or sickle cell disease. No previous abdominal or pelvic surgeries (e.g., appendectomy). No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She is single and lives in a room and parlor apartment with adequate ventilation. Non-smoker and does not consume alcohol. Family history is not significant for gynecological malignancies or ovarian cysts.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no dizzy spells, no loss of consciousness.
+  
+  RS: No cough, no shortness of breath.
+  
+  CVS: No palpitations, no orthopnea.
+  
+  GIT: As in HPC. No hematemesis or melena.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An adult female in obvious painful distress, curled up in bed and restless.
+  
+  Afebrile (37.1 C).
+  
+  Not pale, anicteric, not dehydrated, no significant peripheral lymphadenopathy, no pedal edema.
+  
+  VITAL SIGNS
+  
+  PR: 108 bpm (tachycardia, regular, moderate volume).
+  
+  BP: 110/70 mmHg.
+  
+  RR: 26 cpm (mild tachypnea).
+  
+  SpO2: 98 percent on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Flat, moves with respiration. No previous surgical scars or visible masses.
+  
+  Palpation: Generalized lower abdominal tenderness, maximal in the right iliac fossa. Guarding and rebound tenderness present in the RIF. A firm, exquisitely tender mass of about 7cm by 6cm is palpable in the right adnexal region, though difficult to fully delineate due to muscle guarding.
+  
+  Percussion: Dullness over the palpable mass. No shifting dullness or fluid thrill.
+  
+  Auscultation: Bowel sounds are present but sluggish.
+  
+  PELVIC EXAMINATION
+  
+  Speculum: Normal-looking cervix, no discharge or bleeding observed in the vault.
+  
+  Bimanual: Extreme cervical motion tenderness (excitation). An exquisitely tender, mobile mass is felt in the right adnexa. The left adnexa is free and non-tender.
+  
+  ASSESSMENT
+  
+  Acute abdomen secondary to suspected Right Ovarian Cyst Torsion.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ruptured Ectopic Pregnancy
+  2. Acute Appendicitis
+  3. Ruptured Corpus Luteum Cyst
+  4. Pelvic Inflammatory Disease (PID) with Tubo-ovarian abscess
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Urinalysis and Pregnancy Test (PT): Urgent to rule out ectopic pregnancy.
+  2. Full Blood Count (FBC): To check for leukocytosis (suggesting inflammation/infection) or drop in hematocrit (suggesting hemorrhage).
+  3. Pelvic Ultrasound Scan (USS) with Doppler: To assess cyst size, presence of "whirlpool sign" (torsed pedicle), and absence of blood flow to the ovary.
+  4. Serum Electrolytes, Urea, and Creatinine (E/U/Cr): For baseline renal function prior to surgery.
+  5. Group and Cross-match 2 units of whole blood.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Keep NPO (Nothing per os) in preparation for emergency surgery.
+  
+  2. Maintain Hydration: Commenced IV Normal Saline 1L 8-hourly.
+  
+  3. Analgesia:
+  
+     - IV Pentazocine 30mg stat, then 30mg 6-8 hourly.
+     - IV Paracetamol 1g 8-hourly.
+  
+  4. Prophylactic Antibiotics:
+  
+     - IV Ceftriaxone 1g 12-hourly.
+     - IV Metronidazole 500mg 8-hourly.
+  
+  5. Anti-emetic:
+  
+     - IV Ondansetron 4mg 8-hourly or IV Metoclopramide 10mg 8-hourly.
+  
+  6. Immediate Surgical Consult: For emergency Laparoscopy (preferred if available) or Laparotomy for detorsion and cystectomy. Oophorectomy may be required if the ovary is gangrenous/non-viable.
+  
+  7. Monitor vitals (PR, BP, RR) every 30-60 minutes and track urine output.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-93',
+    title: 'Ruptured Ovarian Cyst with Haemoperitoneum and Hypovolaemic Shock',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology',
+    condition: 'Ruptured Ovarian Cyst with Haemoperitoneum',
+    symptoms: [
+      'Sudden-onset severe lower abdominal pain',
+      'Nausea and vomiting',
+      'Dizziness and lightheadedness',
+      'Vaginal spotting',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 26-year-old nulligravid female accountant from Ikeja, Lagos State, presenting with sudden-onset severe lower abdominal pain following strenuous physical activity, associated with nausea, vomiting, dizziness, and slight vaginal spotting. Examination revealed pallor, tachycardia, hypotension, generalized abdominal tenderness with guarding and rebound tenderness, positive shifting dullness, and right adnexal tenderness with fullness in the Pouch of Douglas. Assessment is ruptured ovarian cyst with haemoperitoneum and hypovolaemic shock.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 26-year-old female Accountant who resides in Ikeja, Lagos State. She is Yoruba by tribe and single.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Sudden onset lower abdominal pain x 4h
+  2. Nausea and vomiting x 2h
+  3. Dizziness x 1h
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 4 hours prior to presentation when she developed sudden, sharp, and severe lower abdominal pain. The pain was initially localized to the right iliac fossa but has since become generalized across the lower abdomen. The onset was associated with strenuous physical activity. She reports associated nausea and two episodes of non-projectile, non-bilious vomiting containing recently ingested meals. There is no history of fever, chills, or vaginal discharge. She noted slight vaginal spotting shortly after the pain began. Her Last Menstrual Period (LMP) was 14 days ago, and her cycles are usually regular. She has no history of similar episodes or known pelvic masses.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  Not a known hypertensive, diabetic, or sickle cell disease patient. No previous history of pelvic inflammatory disease. No previous abdominal or pelvic surgeries.
+  
+  GYNAECOLOGICAL AND OBSTETRIC HISTORY
+  
+  G0 P0. Menarche at 13 years. Regular 28-day cycle, flow lasts 4-5 days with moderate soakage. Not currently on any hormonal contraception.
+  
+  DRUG HISTORY
+  
+  She took two tablets of Paracetamol 500mg about 2 hours ago with no relief. No known drug allergies. Not on any routine medications.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She is the second of four children in a monogamous family setting. Non-smoker and does not consume alcohol. Resides in a well-ventilated apartment with access to treated pipe-borne water.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: History of dizziness and lightheadedness, no loss of consciousness or seizures.
+  
+  CVS: Occasional palpitations, no orthopnea or paroxysmal nocturnal dyspnea.
+  
+  RS: No cough, no chest pain, no shortness of breath.
+  
+  GIT: Loss of appetite, no change in bowel habits.
+  
+  UG: No dysuria, no frequency, no hematuria.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in significant painful distress, lying still on the couch.
+  
+  Pallor: Present (+)
+  
+  Jaundice: Absent
+  
+  Dehydration: Minimal
+  
+  Pedal Edema: Absent
+  
+  No peripheral lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 112 bpm, low volume, regular.
+  
+  Blood Pressure: 90/60 mmHg (Supine).
+  
+  Respiratory Rate: 24 cpm.
+  
+  Temperature: 36.6 degrees Celsius.
+  
+  SpO2: 98 percent on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Flat, moves poorly with respiration. No visible scars or dilated veins.
+  
+  Palpation: Generalized tenderness, most exquisite in the right iliac fossa and suprapubic regions. Guarding and rebound tenderness are present. No palpable masses or organomegaly.
+  
+  Percussion: Shifting dullness is positive.
+  
+  Auscultation: Bowel sounds are sluggish.
+  
+  PELVIC EXAMINATION (Bimanual)
+  
+  Cervix: Exquisite cervical motion tenderness (excitation) present.
+  
+  Uterus: Normal size, anteverted.
+  
+  Adnexa: Extreme tenderness in the right adnexal region.
+  
+  Fullness felt in the Pouch of Douglas (POD).
+  
+  ASSESSMENT
+  
+  Ruptured Ovarian Cyst with Hemoperitoneum and Hypovolemic Shock.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ruptured Ectopic Pregnancy
+  2. Pelvic Inflammatory Disease with Ruptured Tubo-ovarian Abscess
+  3. Acute Appendicitis
+  4. Ovarian Torsion
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Urgent Urine Pregnancy Test (PT): To rule out ruptured ectopic pregnancy.
+  2. Full Blood Count (FBC): To check PCV/Hb and White Cell Count.
+  3. Urgent Pelvic Ultrasound Scan: To visualize the adnexa and quantify free fluid in the POD/peritoneum.
+  4. Grouping and Cross-matching: 2 units of Whole Blood or Packed Red Cells.
+  5. Serum Electrolytes, Urea, and Creatinine: To assess renal function and baseline electrolytes.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  EMERGENCY STABILIZATION
+  
+  1. Admit to Gynaecology Emergency ward.
+  2. Keep NPO (Nil Per Os) in anticipation of possible surgery.
+  3. Secure two wide-bore (16G or 18G) intravenous lines.
+  4. Resuscitate with IV Normal Saline 1L stat, then 500ml 8-hourly, titrated to BP and pulse.
+  5. Catheterize to monitor hourly urine output.
+  
+  ANALGESIA AND MEDICATIONS
+  
+  1. IV Pentazocine 30mg stat (slowly).
+  2. IV Ceftriaxone 1g 12-hourly and IV Metronidazole 500mg 8-hourly (empirical coverage for PID/Appendicitis differentials).
+  3. IV Omeprazole 40mg daily (stress ulcer prophylaxis).
+  
+  DEFINITIVE MANAGEMENT OPTIONS
+  
+  1. Conservative Management: This may be considered if the patient becomes hemodynamically stable, the pain improves, and ultrasound shows minimal fluid. It involves strict bed rest, serial PCV monitoring every 6 hours, and repeat ultrasound scans.
+  
+  2. Surgical Management: Indicated if there is hemodynamic instability, signs of worsening hemoperitoneum, or suspicion of torsion/appendicitis.
+  
+     - Laparoscopy (if facilities are available and patient is stable enough).
+     - Emergency Laparotomy: To achieve hemostasis, perform cystectomy (preserving as much ovarian tissue as possible), and peritoneal toillete.
+  
+  MONITORING
+  
+  1. Monitor vitals (Pulse, BP, RR) every 30 minutes.
+  2. Monitor abdominal girth and tenderness.
+  3. Review results of PT and PCV urgently to decide on the necessity of immediate surgery.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-92',
+    title: 'Right Haemorrhagic Ovarian Cyst',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology',
+    condition: 'Haemorrhagic Ovarian Cyst',
+    symptoms: [
+      'Right iliac fossa pain',
+      'Lower abdominal pain',
+      'Nausea and vomiting',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 26-year-old nulliparous female teacher from Ogbomosho, presenting with a two-day history of sudden-onset, sharp right iliac fossa pain and a one-day history of nausea and vomiting. Examination revealed significant right iliac fossa and suprapubic tenderness, with guarding and a tender, boggy, ill-defined right adnexal mass on bimanual examination. Assessment is a right haemorrhagic ovarian cyst.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 26-year-old female teacher who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Lower abdominal pain x 2/7
+  2. Nausea and vomiting x 1/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until 2 days ago when she developed sudden-onset, sharp, non-radiating pain in the right iliac fossa (RIF). The pain is constant, rated 7/10 in severity, and worsened by sudden movements or walking. There is no history of preceding trauma or strenuous exercise.
+  
+  The pain was associated with nausea and two episodes of non-bilious, non-bloody vomiting which started yesterday. There is no associated fever, vaginal bleeding, or abnormal vaginal discharge. No history of urinary frequency or dysuria. Bowel habits remain normal. Her Last Menstrual Period (LMP) was 18 days ago, and her cycles are usually regular (28-day cycle). She is currently nulliparous (P0+0).
+  
+  PAST MEDICAL AND GYNAECOLOGICAL HISTORY
+  
+  No known history of similar pain in the past.
+  
+  No history of diagnosed uterine fibroids or pelvic inflammatory disease (PID).
+  
+  Not a known hypertensive or diabetic.
+  
+  No previous abdominal or pelvic surgeries.
+  
+  DRUG HISTORY
+  
+  She took two tablets of Ibuprofen 400mg yesterday with minimal relief.
+  
+  Not on any regular hormonal contraceptives.
+  
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Middle-child in a monogamous family setting.
+  
+  Non-smoker and does not consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no fainting spells.
+  
+  RS: No cough, no chest pain.
+  
+  CVS: No palpitations, no pedal edema.
+  
+  GIT: As in HPC. No constipation or diarrhea.
+  
+  GUS: No hematuria or dysuria.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Patient is conscious and alert but in obvious painful distress.
+  
+  Afebrile (36.7 degrees Celsius).
+  
+  Not pale, not jaundiced, not dehydrated.
+  
+  No significant peripheral lymphadenopathy.
+  
+  No pedal edema.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 98 bpm (regular, normal volume)
+  
+  Blood Pressure: 110/70 mmHg
+  
+  Respiratory Rate: 20 cpm
+  
+  SpO2: 98 percent on room air
+  
+  ABDOMINAL EXAMINATION
+  
+  Abdomen is flat and moves with respiration.
+  
+  There is significant tenderness in the right iliac fossa and suprapubic regions.
+  
+  Guarding is present over the RIF; no rebound tenderness or rigidity.
+  
+  No organomegaly or palpable abdominal masses.
+  
+  Bowel sounds are present and normoactive.
+  
+  PELVIC EXAMINATION
+  
+  Inspection: Normal female external genitalia. No active vaginal bleeding.
+  
+  Speculum: Cervix appears healthy; no discharge from the os.
+  
+  Bimanual: Uterus is normal size, anteverted, and mobile. Severe tenderness noted in the right adnexa where a boggy, ill-defined mass is palpated. No cervical motion tenderness. Left adnexa is non-tender.
+  
+  ASSESSMENT
+  
+  Hemorrhagic Ovarian Cyst (Right)
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ruptured Ectopic Pregnancy
+  2. Ovarian Torsion
+  3. Pelvic Inflammatory Disease (PID)
+  4. Acute Appendicitis
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Abdominopelvic Ultrasound Scan (USS): To characterize the cyst, confirm intracystic echoes/hemorrhage, and check for free fluid in the Pouch of Douglas.
+  2. Urine Pregnancy Test (UPT): Crucial to rule out ectopic pregnancy.
+  3. Full Blood Count (FBC): To check PCV (for anemia) and WBC count (for infection).
+  4. Urinalysis: To rule out Urinary Tract Infection (UTI).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  General Measures:
+  
+  1. Admit for observation and pain management.
+  2. Bed rest.
+  3. Serial monitoring of vital signs (BP and PR) and abdominal girth/tenderness.
+  
+  Medications:
+  
+  1. Analgesia:
+     - IV Paracetamol 1g 8-hourly.
+     - IV Diclofenac 75mg 12-hourly (if no contraindications and pain is severe).
+     - Transition to oral NSAIDs (e.g., Tab Ibuprofen 400mg 8-hourly or Tab Naproxen 500mg 12-hourly) once pain improves.
+  
+  2. IV Fluids: 0.9 percent Normal Saline 1L 8-hourly to maintain hydration if vomiting persists.
+  
+  3. Antiemetics: IV Promethazine 25mg or IV Metoclopramide 10mg 8-hourly for nausea/vomiting.
+  
+  4. Hormonal considerations: In cases of recurrent hemorrhagic cysts, consider starting Combined Oral Contraceptive Pills (COCPs) after the acute phase to suppress ovulation and prevent future cyst formation.
+  
+  Surgical Intervention:
+  
+  Consult Gynaecology team for possible Laparoscopy or Exploratory Laparotomy if:
+  
+  - Patient becomes hemodynamically unstable (suggesting significant hemoperitoneum).
+  - Pain is refractory to medical management.
+  - Ultrasound shows features suggestive of ovarian torsion or a cyst diameter greater than 5-6 cm with persistent symptoms.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  }, 
+  {
+    id: 'ob-91',
+    title: 'Pelvic Inflammatory Disease Complicated by Right Tubo-Ovarian Abscess',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology',
+    condition: 'Pelvic Inflammatory Disease with Tubo-Ovarian Abscess',
+    symptoms: [
+      'Lower abdominal pain',
+      'Fever and chills',
+      'Foul-smelling vaginal discharge',
+      'Nausea and vomiting',
+      'Generalized body weakness',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 32-year-old female civil servant from Garki, Abuja, presenting with a one-week history of lower abdominal pain, five days of fever and chills, and three days of foul-smelling vaginal discharge. Examination revealed fever, tachycardia, generalized lower abdominal tenderness with guarding and rebound tenderness, copious purulent cervical discharge, severe cervical motion tenderness, and a tender, poorly defined right adnexal mass. Assessment is pelvic inflammatory disease complicated by a right tubo-ovarian abscess.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 32-year-old female civil servant who resides in Garki, Abuja. She is a member of the Gbagyi ethnic group.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Lower abdominal pain x 1/52
+  2. Fever and chills x 5/7
+  3. Foul-smelling vaginal discharge x 3/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until a week ago when she developed lower abdominal pain. The pain was initially dull-aching and generalized but later became sharp and localized to the right iliac fossa and suprapubic regions. There is no radiation to the back or thighs. The pain is aggravated by movement and slightly relieved by lying still.
+  
+  Five days prior to presentation, she developed high-grade fever associated with chills and rigors. There was no associated headache, sore throat, or urinary symptoms.
+  
+  Three days ago, she noticed a yellowish, foul-smelling vaginal discharge. She also reports associated nausea and two episodes of non-bilious, non-bloody vomiting. No history of altered bowel habits or bleeding per vaginum.
+  
+  GYNAECOLOGICAL AND OBSTETRIC HISTORY
+  
+  LMP: 2 weeks ago. Cycles are regular 28-day intervals, lasting 4 days.
+  
+  Parity: G1 P1+0 (last childbirth 3 years ago via SVD).
+  
+  Contraceptive history: None.
+  
+  No previous history of similar pelvic pain or treated STI.
+  
+  PAST MEDICAL HISTORY
+  
+  No known chronic medical conditions like Hypertension or Diabetes.
+  
+  No previous surgeries.
+  
+  No known drug allergies.
+  
+  SOCIAL HISTORY
+  
+  Monogamous marriage. Does not smoke or drink alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no loss of consciousness.
+  
+  RS: No cough, no chest pain.
+  
+  CVS: Occasional palpitations.
+  
+  GIT: As in HPC.
+  
+  MSS: Generalized body weakness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Patient is acutely ill-looking, febrile (temp 38.8 C), not pale, not icteric, dehydrated, no pedal edema.
+  
+  VITAL SIGNS
+  
+  Pulse rate: 104 bpm (tachycardic, regular, normal volume).
+  
+  Blood pressure: 110/70 mmHg.
+  
+  Respiratory rate: 24 cpm.
+  
+  SpO2: 98 percent on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Flat, moves with respiration.
+  
+  Generalized lower abdominal tenderness, most marked in the right iliac fossa.
+  
+  Guarding present in the suprapubic area.
+  
+  Rebound tenderness is positive.
+  
+  No palpable organomegaly.
+  
+  Bowel sounds are present but sluggish.
+  
+  PELVIC EXAMINATION (Speculum and Digital)
+  
+  Speculum: Copious purulent, foul-smelling discharge from the cervical os. Cervix appears erythematous.
+  
+  Digital (VE): Severe cervical motion tenderness (chandelier sign). Exquisite tenderness in the right adnexa with a palpable, boggy, and poorly defined mass. Left adnexa is tender but no mass palpable.
+  
+  ASSESSMENT
+  
+  Pelvic Inflammatory Disease (PID) complicated by a Right Tubo-ovarian Abscess (TOA).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ruptured Ectopic Pregnancy
+  2. Acute Appendicitis with appendiceal abscess
+  3. Ovarian Cyst Torsion with secondary infection
+  4. Pelvic Peritonitis secondary to perforated viscus
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): Expecting leucocytosis with left shift.
+  2. Pelvic Ultrasound Scan (USS): To characterize the adnexal mass, check for internal echoes, and assess for free fluid in the Pouch of Douglas.
+  3. Serum Beta-hCG: To rule out ectopic pregnancy.
+  4. Urinalysis and Urine Microscopy, Culture, and Sensitivity (MCS): To rule out UTI.
+  5. Endocervical Swab for MCS and Gram staining.
+  6. Serum Electrolytes, Urea, and Creatinine: To assess hydration and baseline renal function.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  URGENT INTERVENTIONS
+  
+  1. Admission for inpatient management.
+  2. Maintain NPO (nothing per os) initially in case of emergency surgery.
+  3. IV Fluids: Normal Saline 1L 8-hourly to correct dehydration.
+  4. Analgesia: IV Paracetamol 1g 8-hourly or IV Tramadol 50-100mg 8-hourly (avoid NSAIDs if peritonitis is suspected until surgical review).
+  
+  MEDICATIONS (Triple Antibiotic Therapy for Anaerobic and Aerobic coverage)
+  
+  1. IV Ceftriaxone 1g 12-hourly.
+  2. IV Metronidazole 500mg 8-hourly.
+  3. IV Gentamicin 80mg 12-hourly (monitor renal function) OR Oral Doxycycline 100mg 12-hourly (if tolerated).
+  
+  MONITORING AND FOLLOW-UP
+  
+  1. Monitor vital signs (Pulse, BP, Temp) 4-hourly.
+  2. Input/Output charting.
+  3. Serial abdominal examinations to check for worsening peritonitis (suggesting rupture of the abscess).
+  4. If no clinical improvement (fever persists, pain worsens) within 48-72 hours of IV antibiotics, plan for surgical intervention (Laparotomy or Ultrasound-guided drainage).
+  5. Contact tracing and treatment of sexual partner(s).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-90',
+    title: 'Suspected Epithelial Ovarian Carcinoma in a Perimenopausal Woman',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecological Oncology',
+    condition: 'Suspected Ovarian Malignancy',
+    symptoms: [
+      'Progressive abdominal swelling',
+      'Persistent abdominal heaviness',
+      'Early satiety',
+      'Dull, constant lower abdominal pain',
+      'Significant unintentional weight loss',
+      'Loss of appetite',
+      'Irregular menstrual cycles',
+      'Secondary amenorrhoea for 6 months',
+      'Abdominal distension with clinically detectable ascites',
+      'Progressively enlarging pelvic-abdominal mass',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 48-year-old P4+0 woman presenting with 4 months of progressive abdominal swelling, 2 months of dull lower abdominal pain and 3 months of significant weight loss and loss of appetite. She also reports early satiety and abdominal heaviness. Examination reveals cachexia, a large firm irregular pelvic-abdominal mass extending to the epigastrium, shifting dullness suggestive of ascites and a nodular mass in the Pouch of Douglas. Assessment was an ovarian mass suspicious for malignancy, possibly epithelial ovarian carcinoma.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 48-year-old female trader who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group, a Christian, and is married in a monogamous setting. G4 P4+0 (4 alive).
+  
+  PRESENTING COMPLAINTS
+  
+  1. Progressive abdominal swelling x 4/12
+  2. Dull aching abdominal pain x 2/12
+  3. Significant weight loss and loss of appetite x 3/12
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until 4 months ago when she noticed a gradual increase in her abdominal girth. The swelling was initially noticed in the lower abdomen but has progressively increased to involve the entire abdomen. It is associated with a persistent feeling of abdominal heaviness and early satiety after small meals.
+  
+  Two months prior to presentation, she developed a dull, constant aching pain in the lower abdomen. The pain is non-radiating, has no specific relieving factors and is occasionally aggravated by physical activity. She also reports a significant reduction in her appetite and notable weight loss, evidenced by her clothes becoming significantly loose over the last 3 months.
+  
+  There is no history of abnormal vaginal bleeding, post-coital bleeding or foul-smelling vaginal discharge. No history of change in bowel habits, chronic constipation or urinary frequency. No history of chronic cough, breathlessness or breast lumps. Her last menstrual period was 6 months ago; prior to that, her cycles were irregular for about a year.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  She is not a known hypertensive or diabetic. No previous history of abdominal or pelvic surgeries. No known history of blood transfusions or drug allergies.
+  
+  GYNAECOLOGICAL AND OBSTETRIC HISTORY
+  
+  Menarche was at 13 years. Her menstrual cycle was previously regular (28-day cycle, 4 days flow) before the onset of perimenopausal irregularities. G4 P4+0, all four children were delivered via spontaneous vaginal delivery at term and are all alive. Her last childbirth was 12 years ago. No history of oral contraceptive use or hormone replacement therapy.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She resides with her husband and children in a block house with good ventilation. She does not smoke or drink alcohol. There is no family history of breast, ovarian or colorectal cancers.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headaches, visual blurring or seizures.
+  
+  RS: No cough, haemoptysis or chest pain.
+  
+  CVS: No palpitations or easy fatigability.
+  
+  GIT: As in HPC; no jaundice or haematemesis.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A middle-aged woman, acutely and chronically ill-looking, cachectic with temporal wasting. Afebrile (36.8°C), not pale, not icteric. No significant peripheral lymphadenopathy (Virchow's node not enlarged). No pedal oedema.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 86 bpm, regular, normal volume.
+  
+  Blood Pressure: 125/80 mmHg.
+  
+  Respiratory Rate: 18 cpm.
+  
+  SpO2: 97% on room air.
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Uniformly distended abdomen, moves with respiration. No dilated collateral veins or visible peristalsis. Umbilicus is everted.
+  
+  Palpation: A large, firm, irregular mass is palpable arising from the pelvis and extending to the epigastric region. The mass is relatively fixed and mildly tender. No hepatosplenomegaly.
+  
+  Percussion: Dullness over the mass, with shifting dullness present in the flanks, suggestive of ascites.
+  
+  Auscultation: Bowel sounds are present and normal.
+  
+  PELVIC EXAMINATION
+  
+  Speculum: Cervix appears healthy; no visible growths or discharge.
+  
+  Digital (Bimanual): The uterus is difficult to palpate separately from the mass. A large, firm, nodular mass is felt in the Pouch of Douglas.
+  
+  ASSESSMENT
+  
+  Ovarian mass suspicious for malignancy (possibly Epithelial Ovarian Carcinoma) in a P4+0 perimenopausal woman.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Epithelial Ovarian Cystadenocarcinoma.
+  2. Subserosal Uterine Fibroids with cystic degeneration.
+  3. Metastatic Ovarian Tumor (Krukenberg Tumor).
+  4. Chronic Pelvic Inflammatory Disease with a Tubo-ovarian mass.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check for anaemia of chronic disease or leucocytosis.
+  
+  2. Serum Electrolytes, Urea and Creatinine: For baseline renal function.
+  
+  3. Liver Function Test (LFT): To check for hepatic involvement or hypoalbuminaemia.
+  
+  4. Tumor Markers: Serum CA-125 (high priority), CEA and Alpha-fetoprotein.
+  
+  5. Abdomino-pelvic Ultrasound Scan: To characterize the mass (septations, solid components, wall thickness) and quantify ascites.
+  
+  6. Chest X-ray: To rule out pulmonary metastasis or pleural effusion.
+  
+  7. Abdomino-pelvic CT scan: For staging and to check for omental caking or lymphadenopathy.
+  
+  8. Paracentesis: For ascitic fluid cytology to look for malignant cells.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  PRE-OPERATIVE CARE
+  
+  1. Counseling: Extensive discussion with the patient and her spouse regarding the suspicion of malignancy, the nature of the surgery and the possible need for chemotherapy.
+  
+  2. Nutrition: High-protein diet and adequate hydration.
+  
+  3. Optimization: Cross-match 2 to 3 units of whole blood.
+  
+  4. Consent: Obtain informed consent for exploratory laparotomy.
+  
+  SURGICAL MANAGEMENT
+  
+  1. Exploratory Laparotomy: For staging and maximal cytoreduction (debulking).
+  
+  2. Procedures: Total Abdominal Hysterectomy (TAH) + Bilateral Salpingo-oophorectomy (BSO) + Omentectomy + Peritoneal washings for cytology.
+  
+  POST-OPERATIVE MEDICATIONS AND CARE
+  
+  1. Pain Management: IV Paracetamol 1 g 8-hourly and IV Pentazocine 30 mg 6–8 hourly for the first 24–48 hours, then transition to oral analgesics.
+  
+  2. IV Fluids: Normal Saline or Ringer's Lactate 3 L in 24 hours until oral intake is tolerated.
+  
+  3. Antibiotics: IV Ceftriaxone 1 g 12-hourly and IV Metronidazole 500 mg 8-hourly for 48 hours.
+  
+  4. Thrombo-prophylaxis: Early ambulation and SC Enoxaparin 40 mg daily (commence 12 hours post-op if no bleeding concerns).
+  
+  ADJUVANT THERAPY
+  
+  1. Chemotherapy: Based on histopathology results. Standard regimen is usually platinum-based:
+  
+     - Paclitaxel 175 mg/m² IV over 3 hours.
+     - Carboplatin AUC 5–6 IV over 1 hour.
+     - Cycle: Every 3 weeks for 6 cycles.
+  
+  FOLLOW-UP
+  
+  Long-term monitoring of Serum CA-125 levels and periodic clinical examinations to detect recurrence.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
+    id: 'ob-89',
+    title: 'Endometriosis with Associated Subfertility',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Gynaecology and Fertility',
+    condition: 'Endometriosis',
+    symptoms: [
+      'Severe progressive dysmenorrhoea',
+      'Chronic pelvic pain',
+      'Deep dyspareunia',
+      'Subfertility for 2 years',
+      'Cyclical lower abdominal pain radiating to the lower back and thighs',
+      'Persistent dull lower abdominal pain outside menstrual periods',
+      'Poor response to conventional analgesics',
+      'Tender left adnexal cystic mass',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-08',
+    summary: 'A 28-year-old married woman presenting with 8 months of progressively severe dysmenorrhoea, 6 months of chronic pelvic pain, 5 months of deep dyspareunia and 2 years of unsuccessful attempts at conception. Examination revealed deep suprapubic and bilateral iliac fossa tenderness, a fixed retroverted uterus, significant posterior fornix and uterosacral ligament tenderness, and an approximately 4 cm tender cystic left adnexal mass. Assessment was endometriosis with associated subfertility.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 28-year-old female civil servant who resides in Garki, Abuja. She is of the Yoruba ethnic group and is currently married.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Severe painful menstruation x 8/12
+  2. Chronic pelvic pain x 6/12
+  3. Painful sexual intercourse x 5/12
+  4. Inability to conceive x 2/52 (2 years)
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was in her usual state of health until about 8 months ago when she started experiencing increasingly severe lower abdominal pain associated with her menstrual periods. The pain typically begins 2 days before the onset of menses and persists throughout the duration of flow. She describes it as a deep, boring ache that radiates to her lower back and thighs. It is poorly relieved by conventional analgesics like Paracetamol.
+  
+  About 6 months ago, she noticed a more constant, dull lower abdominal pain that is present even outside her menstrual periods. She also reports deep dyspareunia of 5 months duration, which has significantly affected her marital relationship.
+  
+  There is no history of abnormal vaginal discharge, post-coital bleeding or intermenstrual bleeding. No history of fever or urinary symptoms. She has been married for 2 years and has been having regular, unprotected sexual intercourse with the intention of conception, but has been unsuccessful so far.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  No history of previous pelvic surgeries or documented pelvic inflammatory disease.
+  
+  No known chronic medical conditions such as hypertension or diabetes mellitus.
+  
+  No known drug allergies.
+  
+  GYNAECOLOGICAL HISTORY
+  
+  Menarche at 13 years.
+  
+  Menstrual cycle is regular, 28-day cycle, flow lasts for 5 days.
+  
+  Uses 3 to 4 sanitary pads per day on heavy days.
+  
+  LMP: 12 days ago.
+  
+  SOCIAL HISTORY
+  
+  Lives in a flat with her husband.
+  
+  Does not smoke or consume alcohol.
+  
+  Monogamous marriage.
+  
+  REVIEW OF SYSTEMS
+  
+  Gastrointestinal: No history of cyclical bloating, painful defecation (dyschezia) or haematochezia.
+  
+  Urinary: No frequency, urgency or cyclical haematuria.
+  
+  Respiratory and CVS: Nothing significant to note.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in no obvious state of respiratory or painful distress (at the time of examination).
+  
+  Afebrile (36.7°C).
+  
+  Not pale, anicteric, no significant lymphadenopathy.
+  
+  No pedal oedema.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 76 bpm, regular, normal volume.
+  
+  Blood Pressure: 110/70 mmHg.
+  
+  Respiratory Rate: 16 cpm.
+  
+  ABDOMINAL EXAMINATION
+  
+  Symmetric abdomen, moves with respiration.
+  
+  No visible scars or dilated veins.
+  
+  Soft, with deep tenderness noted in the suprapubic and both iliac fossae.
+  
+  No palpable masses or organomegaly.
+  
+  PELVIC EXAMINATION
+  
+  Speculum Exam: Cervix appears healthy; no abnormal discharge or visible lesions in the vaginal vaults.
+  
+  Digital Bimanual Exam: Uterus is normal size but fixed in a retroverted position. There is significant tenderness in the posterior fornix and along the uterosacral ligaments. A tender, cystic mass of approximately 4 cm is palpable in the left adnexa.
+  
+  ASSESSMENT
+  
+  Endometriosis with associated Subfertility.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Chronic Pelvic Inflammatory Disease (PID).
+  2. Adenomyosis.
+  3. Pelvic Adhesions (post-inflammatory).
+  4. Primary Dysmenorrhea.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Transvaginal Ultrasound (TVS): To assess for endometriomas (chocolate cysts), "kissing ovaries" and uterine mobility.
+  
+  2. Full Blood Count (FBC): To check PCV and rule out elevated WBC suggesting infection.
+  
+  3. Hysterosalpingography (HSG): To assess tubal patency given the history of subfertility.
+  
+  4. Urinalysis: To rule out UTI.
+  
+  5. Diagnostic Laparoscopy: Gold standard for visualization and histological confirmation of endometrial deposits (to be scheduled).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL MANAGEMENT
+  
+  Counsel the patient on the chronic nature of endometriosis and the goals of treatment (pain relief and fertility enhancement).
+  
+  MEDICAL MANAGEMENT (ANALGESIA)
+  
+  1. NSAIDs: Tab Ibuprofen 400 mg TDS or Tab Naproxen 500 mg BD to be started 2 days before expected menses.
+  
+  HORMONAL SUPPRESSION (OPTIONS)
+  
+  1. Combined Oral Contraceptive Pills (COCPs): Taken either cyclically or continuously to induce a pseudo-pregnancy state and suppress endometrial growth.
+  
+  2. Progestogens: Tab Norethisterone 5 mg TDS or Medroxyprogesterone acetate (Depo-Provera) 150 mg IM every 3 months.
+  
+  3. Levonorgestrel Intrauterine System (Mirena): Highly effective for associated dysmenorrhoea if the patient is not immediately seeking conception.
+  
+  4. GnRH Agonists: Inj Goserelin (Zoladex) 3.6 mg SC every 4 weeks. (Note: Monitor for hypoestrogenic side effects; usually limited to 6 months of use).
+  
+  SURGICAL MANAGEMENT
+  
+  1. Laparoscopic excision or ablation of endometriotic implants and adhesiolysis.
+  
+  2. Laparoscopic cystectomy for the suspected left adnexal endometrioma.
+  
+  FERTILITY SUPPORT
+  
+  Referral to a fertility specialist for assisted reproductive techniques (ART) if tubal factor infertility is confirmed or if conservative management fails.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
     id: 'ob-88',
     title: 'Chorioamnionitis Complicating Prolonged PPROM at 33 Weeks',
     specialty: 'Obstetrics and Gynecology',

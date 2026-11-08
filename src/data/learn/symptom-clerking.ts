@@ -10675,4 +10675,438 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
         `
     },
 
+    {
+      id: 'history-taking-poor-weight-gain-adult',
+      title: 'Poor Weight Gain and Weight Loss in an Adult',
+      category: 'Symptom Clerking',
+      subCategory: 'General Constitutional Symptoms',
+      content: `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Georgia, 'Times New Roman', serif; }
+    .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+    .font-brand { font-family: Georgia, 'Times New Roman', serif; }
+    .quote { border-left-width: 3px; border-left-style: solid; }
+  </style>
+  </head>
+  <body class="bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+  <div class="max-w-3xl mx-auto p-4 sm:p-6">
+  
+  <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+    <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+    <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+    <div class="relative p-6 sm:p-8">
+      <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">HISTORY TAKING &middot; SYMPTOM CLERKING</span>
+      <h1 class="font-brand text-3xl font-bold mb-3 text-white">Poor Weight Gain and Weight Loss in an Adult</h1>
+      <p class="text-sm text-indigo-200">An adult who cannot gain weight, or who is losing it, is common in Nigerian clinics and wards, and the cause is often tuberculosis, HIV, diabetes, a cancer, depression, or simply not enough food. This guide shows how to confirm the problem with real measurements, take a history that separates intake, absorption, loss and demand, score the nutritional risk, decide which tests are worth doing, and start safe nutritional treatment, including the medicines that help and the ones that do not.</p>
+    </div>
+  </div>
+  
+  
+  <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+    <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+    <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+      <li><a href="#what-you-are-trying-to-establish" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>What You Are Trying to Establish</span></a></li>
+      <li><a href="#biodata-and-context" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Biodata and Context</span></a></li>
+      <li><a href="#presenting-complaint-and-history-of-presenting-complaint" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Presenting Complaint and History of Presenting Complaint</span></a></li>
+      <li><a href="#diet-and-eating-history" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Diet and Eating History</span></a></li>
+      <li><a href="#directed-systemic-enquiry-by-cause" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Directed Systemic Enquiry by Cause</span></a></li>
+      <li><a href="#past-medical-drug-family-and-social-history" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Past Medical, Drug, Family and Social History</span></a></li>
+      <li><a href="#findings-that-must-not-be-missed" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Findings That Must Not Be Missed</span></a></li>
+      <li><a href="#examination-and-measurements" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Examination and Measurements</span></a></li>
+      <li><a href="#scoring-nutritional-risk" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Scoring Nutritional Risk</span></a></li>
+      <li><a href="#investigations-start-simple-then-direct" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Investigations: Start Simple, Then Direct</span></a></li>
+      <li><a href="#management-treat-the-cause-and-feed-safely" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Management: Treat the Cause and Feed Safely</span></a></li>
+      <li><a href="#summary-and-worked-example" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Summary and Worked Example</span></a></li>
+      <li><a href="#videos-and-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Videos and Resources</span></a></li></ul>
+  </nav>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="what-you-are-trying-to-establish" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+    What You Are Trying to Establish
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Three questions drive the whole clerking. Keep them in mind from the first minute.</p>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Is the weight problem real?</strong> Recall is unreliable. Confirm with a measured weight, an old card weight (ART, TB, antenatal or clinic card), or a change in clothing or belt size.</li>
+      <li><strong>Why?</strong> Think of four mechanisms: the patient is not eating enough, not absorbing it, losing it (diarrhoea, glycosuria, vomiting), or burning too much (infection, hyperthyroidism, cancer, sickle cell disease). Psychosocial causes and poverty sit behind all four.</li>
+      <li><strong>Is the patient unsafe right now?</strong> Very low BMI, no food for days, electrolyte disturbance or shock changes the first hour of management, and refeeding can be dangerous.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Definitions you will use</strong>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Term</th><th class="py-2 pr-3">Working definition</th><th class="py-2 pr-3">Source</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">Percent weight loss</td><td class="py-2 pr-3 align-top">(usual weight &minus; current weight) &divide; usual weight &times; 100. Use the highest weight in the past 3-6 months as the usual weight.</td><td class="py-2 pr-3 align-top">BAPEN MUST</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Underweight</td><td class="py-2 pr-3 align-top">BMI below 18.5 kg/m&sup2;. Mild thinness 17.0-18.4, moderate 16.0-16.9, severe below 16.0.</td><td class="py-2 pr-3 align-top">WHO</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Clinically important unintentional weight loss</td><td class="py-2 pr-3 align-top">More than 5% of body weight over 6-12 months. It carries higher morbidity and mortality and should prompt evaluation.</td><td class="py-2 pr-3 align-top">American Academy of Family Physicians</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Malnutrition (GLIM)</td><td class="py-2 pr-3 align-top">At least one phenotypic criterion (weight loss, low BMI, reduced muscle mass) plus one aetiologic criterion (reduced intake or absorption, or disease burden or inflammation).</td><td class="py-2 pr-3 align-top">GLIM consensus</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Poor weight gain (no loss)</td><td class="py-2 pr-3 align-top">Persistently low BMI or failure to regain weight after illness, pregnancy or lactation, treatment, or starting ART or anti-TB drugs. Use the same approach, because the causes overlap.</td><td class="py-2 pr-3 align-top">Clinical usage</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="biodata-and-context" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+    Biodata and Context
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Age and sex.</strong> Age shapes the differential. Under 40, think HIV, TB, diabetes, hyperthyroidism, eating disorder and depression. Over 60, add cancer, dental and swallowing problems, polypharmacy and isolation.</li>
+      <li><strong>Women.</strong> Ask about pregnancy, breastfeeding, menstrual changes and contraception.</li>
+      <li><strong>Occupation and income.</strong> Job loss, a poorly paid or physically heavy job, long working hours without meals.</li>
+      <li><strong>Residence and household.</strong> Crowding (TB), who cooks, who decides what the patient eats, whether the patient lives alone.</li>
+      <li><strong>Informant.</strong> A relative can confirm weight change and appetite, especially if the patient is confused, depressed or reluctant to talk.</li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="presenting-complaint-and-history-of-presenting-complaint" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+    Presenting Complaint and History of Presenting Complaint
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Patients often come for something else (cough, weakness, fever, a swelling). Ask directly: "Have you noticed that you are getting thinner, or that clothes and belts have become loose?"</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core questions</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>How much and how fast.</strong> Kilograms, over how many weeks or months, and how it was measured. Steady loss, or sudden then stable?</li>
+      <li><strong>Intentional or not.</strong> Any diet, fasting (including religious fasts), new exercise, slimming tea or tablets, weight-loss injections?</li>
+      <li><strong>Appetite.</strong> Reduced, normal, or increased. This single answer splits the differential (table below).</li>
+      <li><strong>Associated symptoms.</strong> Fever, night sweats, cough, haemoptysis, breathlessness, diarrhoea, vomiting, abdominal pain, difficulty swallowing, palpitations, excessive thirst or urination, mood change, lumps.</li>
+      <li><strong>Impact.</strong> Weakness, falls, inability to work, hair loss, amenorrhoea.</li>
+      <li><strong>Previous attempts to treat.</strong> Hospitals, drugs, herbal mixtures, spiritual or traditional care, and what happened.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Appetite pattern as a clue</strong>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Pattern</th><th class="py-2 pr-3">Think of</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">Appetite preserved or increased</td><td class="py-2 pr-3 align-top">Diabetes mellitus (osmotic losses), hyperthyroidism, malabsorption, intestinal worms, sickle cell disease (high demand), uncontrolled HIV</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Appetite reduced</td><td class="py-2 pr-3 align-top">Tuberculosis, HIV, malignancy, depression, heart, kidney or liver failure, chronic infection, alcohol, drugs (digoxin, metformin, some antiretrovirals and anti-TB drugs)</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Wants to eat but cannot</td><td class="py-2 pr-3 align-top">Dental disease, oral thrush, oesophageal disease or cancer, stroke or neurological swallowing problem, early satiety from gastric or pancreatic disease</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Eats little by choice or fear</td><td class="py-2 pr-3 align-top">Eating disorder, depression, psychosis, fear of food being poisoned, severe anxiety</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Cannot afford enough food</td><td class="py-2 pr-3 align-top">Food insecurity. Do not forget this simple cause, and ask about it plainly.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="diet-and-eating-history" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+    Diet and Eating History
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Take a 24-hour recall of everything eaten and drunk, then ask whether yesterday was typical. Quantify in local units (one derica of garri, one wrap of moi-moi, one plate of rice, a cup of pap).</p>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Meals per day and timing.</strong> Skipped breakfast or one meal a day is common and easy to correct.</li>
+      <li><strong>Staples and protein.</strong> Garri, yam, rice, swallow, bread, beans, eggs, fish, meat, milk, groundnut. Any oil or fat added?</li>
+      <li><strong>Energy drinks and fluids.</strong> Water, sweet drinks, alcohol, tea, pap, and whether fluids replace food.</li>
+      <li><strong>Food security.</strong> "In the past month, did you worry about running out of food, or eat less because there was not enough money?"</li>
+      <li><strong>Swallowing and mouth.</strong> Pain on swallowing, food sticking, coughing on meals, loose teeth, mouth sores, dentures.</li>
+      <li><strong>Gut symptoms.</strong> Nausea, vomiting, early fullness, diarrhoea, greasy or floating stools, blood or black stool.</li>
+      <li><strong>Special diets.</strong> Fasting, avoiding foods because of a belief, diabetes diet taken too strictly.</li>
+      <li><strong>Pica and soil eating.</strong> Suggests iron deficiency and, in some settings, heavy worm burden.</li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="directed-systemic-enquiry-by-cause" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+    Directed Systemic Enquiry by Cause
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">In older adults, the commonest causes reported are cancer, psychiatric illness, non-malignant gut disease and endocrine disease, and in a sizeable minority no cause is found. In Nigeria, infection (TB and HIV) and food insecurity must be added to every list, at every age.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Group</th><th class="py-2 pr-3">Ask about</th><th class="py-2 pr-3">First tests</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">Infection</td><td class="py-2 pr-3 align-top">Cough over 2 weeks, haemoptysis, fever, night sweats, TB contact, HIV risk and previous test, chronic diarrhoea, oral thrush, skin lesions, discharging sinus or bone pain</td><td class="py-2 pr-3 align-top">Sputum Xpert MTB/RIF, chest X-ray, HIV test with counselling and consent, hepatitis B and C serology, stool microscopy</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Endocrine</td><td class="py-2 pr-3 align-top">Thirst, polyuria, nocturia (diabetes); palpitations, heat intolerance, tremor, loose stools, neck swelling (thyroid); dizziness on standing, salt craving, dark skin, low sugars (adrenal insufficiency)</td><td class="py-2 pr-3 align-top">Random and fasting glucose, TSH and free T4, sodium and potassium, morning cortisol if suspected</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Gastrointestinal</td><td class="py-2 pr-3 align-top">Difficulty or pain swallowing, dyspepsia, early satiety, vomiting, haematemesis, melaena, steatorrhoea, jaundice, previous gut surgery, ulcer history</td><td class="py-2 pr-3 align-top">FBC, LFT, stool tests, upper endoscopy, abdominal ultrasound, H. pylori testing</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Malignancy</td><td class="py-2 pr-3 align-top">Lumps (breast, neck, groin), haemoptysis, haematuria, post-coital or post-menopausal bleeding, vaginal discharge, urinary symptoms in men, bone pain, right upper quadrant pain or swelling (known hepatitis B or cirrhosis)</td><td class="py-2 pr-3 align-top">Examination of all node areas, breasts, abdomen, rectum, pelvis; chest X-ray, ultrasound; biopsy where a mass is found</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Heart, lung, kidney, liver</td><td class="py-2 pr-3 align-top">Breathlessness, orthopnoea, ankle swelling, reduced urine, itching, nausea, ascites, alcohol intake</td><td class="py-2 pr-3 align-top">Urea, electrolytes and creatinine, LFT with albumin, urinalysis, chest X-ray, echocardiogram where indicated</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Psychiatric and social</td><td class="py-2 pr-3 align-top">Low mood, loss of interest, sleep change, hopelessness, anxiety, voices or fears of poisoning, bereavement, substance use, body image concerns</td><td class="py-2 pr-3 align-top">Structured mood screen (for example PHQ-9), risk assessment, collateral history</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Neurological and oral</td><td class="py-2 pr-3 align-top">Stroke, dementia, Parkinson disease, tremor, dental pain, ill-fitting dentures</td><td class="py-2 pr-3 align-top">Bedside swallow assessment, dental review, cognitive screen</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Haematological</td><td class="py-2 pr-3 align-top">Known sickle cell disease (chronic haemolysis raises energy needs), pain crises, leg ulcers, pallor</td><td class="py-2 pr-3 align-top">FBC, reticulocytes, haemoglobin genotype if unknown</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="past-medical-drug-family-and-social-history" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+    Past Medical, Drug, Family and Social History
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Past medical and surgical</strong>
+    <p class="text-sm">Previous TB or TB treatment, known HIV and whether on ART, diabetes, thyroid disease, sickle cell disease, peptic ulcer, hepatitis B, chronic kidney disease, stroke, cancer. Gastric or bowel surgery, bariatric surgery, any condition limiting swallowing.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drugs, including herbal and bought-over-the-counter</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Prescribed drugs that cause weight loss or anorexia: metformin, GLP-1 receptor agonists and SGLT2 inhibitors, levothyroxine in excess, digoxin, some antiretrovirals and anti-TB drugs, chemotherapy, topiramate, stimulants, diuretics, laxatives.</li>
+      <li>Products sold for slimming, or bought for weight gain. Ask to see the packaging. Unlabelled "weight gain" mixtures or tablets may contain hidden drugs (for example steroids), so a patient who has used them for long may have adrenal suppression.</li>
+      <li>Herbal mixtures (agbo and similar). Ask without judgement: "Many people take herbal medicine along with hospital drugs or instead of them. What have you been taking, and how often?" Some herbal products damage the liver or kidneys, and some are taken in place of effective TB or HIV treatment.</li>
+    </ul>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"You are not in trouble for taking herbal medicine. I only want to know everything you are taking so that I can treat you safely."</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Family history</strong>
+    <p class="text-sm">Diabetes, thyroid disease, cancer (especially breast, liver, colorectal, prostate), TB in the household, sickle cell disease, eating or mood disorders.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Social history</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Alcohol (quantity and type), tobacco, cannabis, tramadol and other opioids, stimulants.</li>
+      <li>Money for food, who buys and cooks, displacement or insecurity, loss of a spouse or income, caring responsibilities, living alone.</li>
+      <li>Sexual and blood-exposure risks for HIV and hepatitis, asked sensitively and privately.</li>
+      <li>Beliefs about the illness (spiritual attack, "poison", curse). Record them and respond with respect, because they affect whether the patient accepts tests and treatment.</li>
+    </ul>
+    <p class="text-sm">Offer an HIV test as routine for any unexplained weight loss, with pre-test information, consent and a clear plan for a positive result. Say it plainly: "Because you have been losing weight, I offer an HIV test to every patient in your position."</p>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="findings-that-must-not-be-missed" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+    Findings That Must Not Be Missed
+  </h2>
+  <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+    <ul class="space-y-2 text-slate-700 dark:text-slate-300">
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>BMI below 16, or almost no food for 5 days or more.</strong> Refeeding risk. Check electrolytes and give thiamine before feeding (section 9).</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Cough for 2 weeks or more, haemoptysis, fever, night sweats.</strong> Test for TB, and test for HIV too.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Difficulty swallowing, vomiting blood, black stools, persistent vomiting.</strong> Urgent endoscopy or surgical review.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Hard lump, enlarged nodes, a mass in the abdomen, breast or prostate, abnormal bleeding.</strong> Biopsy pathway; do not wait for weight loss to progress.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Thirst, vomiting, abdominal pain, fast deep breathing, drowsiness.</strong> Diabetic ketoacidosis. Check glucose and ketones at once.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Low blood pressure, dizziness on standing, dark skin, low glucose.</strong> Adrenal insufficiency, including after stopping long-term steroids.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Fast irregular pulse, tremor, eye signs, weight loss with a large appetite.</strong> Thyrotoxicosis, including thyroid storm.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Thoughts of death or self-harm, or refusal of food and fluids.</strong> Assess suicide risk the same day and involve a mental health professional.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 6.5v7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.5" r="1.3" fill="#fff"/></svg><span><strong>Pitting oedema with breathlessness, tense ascites, jaundice.</strong> Heart, liver or kidney failure. Fluid and salt handling must be addressed before aggressive feeding.</span></li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="examination-and-measurements" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+    Examination and Measurements
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Measure, do not guess. Use the same scale each visit and write the weight, date and scale in the notes so that the next clinician can compare.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Measure</th><th class="py-2 pr-3">How</th><th class="py-2 pr-3">Interpretation</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">Weight</td><td class="py-2 pr-3 align-top">Calibrated scale, light clothing, no shoes, after passing urine, same time of day</td><td class="py-2 pr-3 align-top">Compare with previous weights. Falling weight matters more than one low value.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Height</td><td class="py-2 pr-3 align-top">Stadiometer, standing straight. If the patient cannot stand, use the alternative methods in the BAPEN MUST guide (for example ulna length).</td><td class="py-2 pr-3 align-top">Needed for BMI.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">BMI</td><td class="py-2 pr-3 align-top">Weight in kg divided by height in metres squared</td><td class="py-2 pr-3 align-top">Below 18.5 underweight; below 16 severe thinness.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Mid-upper arm circumference (MUAC)</td><td class="py-2 pr-3 align-top">Left arm hanging relaxed, tape at the midpoint between the tip of the shoulder and the tip of the elbow, snug but not tight</td><td class="py-2 pr-3 align-top">Below 23.5 cm suggests BMI below 20 (BAPEN). Useful when weighing is not possible, for example a bed-bound patient.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Hand-grip strength</td><td class="py-2 pr-3 align-top">Dynamometer, if available, best of three on the dominant hand</td><td class="py-2 pr-3 align-top">Low grip supports reduced muscle function. Use the dynamometer's own norms.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Vital signs</td><td class="py-2 pr-3 align-top">Temperature, pulse, respiratory rate, oxygen saturation, blood pressure lying and standing</td><td class="py-2 pr-3 align-top">Fever (TB, HIV, infection), fast pulse (thyroid, anaemia, sepsis), postural drop (volume loss, adrenal insufficiency).</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to look for</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>General.</strong> Wasting of temples, shoulders, and muscles of the hands and thighs; loss of fat; loose skin; pallor; jaundice; clubbing; hyperpigmentation of palmar creases and gums.</li>
+      <li><strong>Head and neck.</strong> Oral thrush or ulcers, poor dentition, parotid swelling, goitre, thyroid nodules, cervical nodes.</li>
+      <li><strong>Skin and nodes.</strong> HIV-related rashes or Kaposi sarcoma lesions, scars of old TB nodes, enlarged nodes in neck, axilla and groin.</li>
+      <li><strong>Chest and heart.</strong> Signs of pleural effusion, consolidation or cavities, wheeze, atrial fibrillation, murmur, raised JVP, oedema.</li>
+      <li><strong>Abdomen.</strong> Masses, hepatomegaly, splenomegaly, ascites, tenderness, hernias. Do a digital rectal examination when there are gut symptoms or blood in the stool.</li>
+      <li><strong>Breast, pelvis, prostate.</strong> As indicated by age, sex and symptoms.</li>
+      <li><strong>Neurology and mental state.</strong> Tremor, brisk reflexes, proximal weakness, mood, thought content, cognition.</li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="scoring-nutritional-risk" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+    Scoring Nutritional Risk
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">MUST (Malnutrition Universal Screening Tool)</strong>
+    <p class="text-sm">Add three scores. Score 0 is low risk, 1 medium risk, 2 or more high risk.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Step</th><th class="py-2 pr-3">Finding</th><th class="py-2 pr-3">Score</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">1. BMI</td><td class="py-2 pr-3 align-top">Above 20 / 18.5 to 20 / below 18.5 kg/m&sup2;</td><td class="py-2 pr-3 align-top">0 / 1 / 2</td></tr>
+          <tr><td class="py-2 pr-3 align-top">2. Unplanned weight loss in the past 3-6 months</td><td class="py-2 pr-3 align-top">Below 5% / 5-10% / above 10%</td><td class="py-2 pr-3 align-top">0 / 1 / 2</td></tr>
+          <tr><td class="py-2 pr-3 align-top">3. Acute disease effect</td><td class="py-2 pr-3 align-top">Acutely ill and no nutritional intake, or likely none, for more than 5 days</td><td class="py-2 pr-3 align-top">2</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm">Medium risk: observe, record intake for 3 days, and repeat screening. High risk: treat, involve a dietitian where there is one, and set a plan to improve overall intake. MUST screens risk and does not replace clinical judgement.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">GLIM diagnosis and severity</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Phenotypic: weight loss above 5% within 6 months or above 10% beyond 6 months; low BMI (below 20 if under 70 years, below 22 if 70 or over, with lower Asian cut-offs); reduced muscle mass.</li>
+      <li>Aetiologic: reduced food intake or absorption; disease burden or inflammation.</li>
+      <li>Diagnosis needs one of each. Severe malnutrition: weight loss above 10% within 6 months or above 20% beyond 6 months; BMI below 18.5 if under 70 years, below 20 if 70 or over.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Refeeding risk (NICE criteria)</strong>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Risk level</th><th class="py-2 pr-3">Criteria</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">High risk: any one of</td><td class="py-2 pr-3 align-top">BMI below 16; unintentional weight loss above 15% in the last 3-6 months; little or no intake for more than 10 days; low potassium, phosphate or magnesium before feeding</td></tr>
+          <tr><td class="py-2 pr-3 align-top">High risk: any two of</td><td class="py-2 pr-3 align-top">BMI below 18.5; weight loss above 10% in the last 3-6 months; little or no intake for more than 5 days; history of alcohol misuse or use of insulin, chemotherapy, antacids or diuretics</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Extremely high risk</td><td class="py-2 pr-3 align-top">BMI below 14, or negligible intake for more than 15 days</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="p-4 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700">
+      <strong class="block font-semibold text-amber-900 dark:text-amber-300 mb-1">Guideline Watch</strong>
+      <p class="text-sm text-amber-900 dark:text-amber-300">MUST, the NICE refeeding criteria and the GLIM BMI cut-offs come from UK and international consensus built mostly on non-African populations. In Nigerian practice, BMI below 18.5 is the usual line used by TB and HIV programmes to trigger nutritional assessment and support. Where the current FMOH, NTBLCP or NASCP guidance gives a different cut-off or a different nutritional package (for example food supplements for people with TB or HIV), follow the national document and tell the patient which services and supplements are actually available to them.</p>
+    </div>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="investigations-start-simple-then-direct" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+    Investigations: Start Simple, Then Direct
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">A baseline set of cheap tests plus a chest film identifies the cause in most patients. Do not send every test on every patient. If the baseline is normal and the patient is not deteriorating, watchful waiting for 1-6 months with repeated weights is reasonable, but arrange follow-up, because a small number of cancers declare themselves later.</p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Tier</th><th class="py-2 pr-3">Tests</th><th class="py-2 pr-3">What they answer</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">Baseline, almost everyone</td><td class="py-2 pr-3 align-top">FBC; ESR or CRP; random or fasting glucose; urea, electrolytes, creatinine; liver function tests with albumin; calcium; TSH; urinalysis; HIV test; sputum Xpert MTB/RIF (or sputum for AFB if Xpert is not available); chest X-ray; stool microscopy</td><td class="py-2 pr-3 align-top">Anaemia, inflammation, diabetes, kidney or liver disease, thyroid disease, hypercalcaemia, HIV, pulmonary TB, intestinal parasites</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Refeeding risk</td><td class="py-2 pr-3 align-top">Potassium, magnesium, phosphate, calcium, glucose before feeding and daily at first</td><td class="py-2 pr-3 align-top">Baseline levels and early refeeding shifts</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Directed by the history</td><td class="py-2 pr-3 align-top">Hepatitis B surface antigen and hepatitis C antibody; abdominal ultrasound; upper endoscopy; HbA1c or fructosamine (see note); free T4; morning cortisol; vitamin B12, folate, ferritin, vitamin D; coeliac serology; lymph node aspirate or biopsy; CD4 and viral load; extra-pulmonary TB samples; haemoglobin genotype; pregnancy test; further imaging (CT) if a cancer is strongly suspected and baseline tests are unhelpful</td><td class="py-2 pr-3 align-top">Chronic liver disease or hepatocellular carcinoma, gastric or oesophageal disease, glycaemic control, adrenal insufficiency, deficiencies, lymphoma or TB nodes, HIV control</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>HbA1c caution.</strong> HbA1c can be falsely low or unreliable in sickle cell trait, sickle cell disease and haemolysis. In weight loss with possible diabetes, rely on glucose and add fructosamine if needed.</li>
+      <li><strong>Albumin.</strong> Low albumin often reflects inflammation, liver or kidney disease, rather than intake alone. Do not use it alone to judge nutritional status.</li>
+      <li><strong>Sample handling.</strong> Glucose falls in unspun blood, and haemolysed or delayed samples falsely raise potassium. Use fluoride tubes for glucose when delay is likely.</li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="management-treat-the-cause-and-feed-safely" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+    Management: Treat the Cause and Feed Safely
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Treat the underlying disease and support nutrition at the same time. WHO recommends nutritional assessment, counselling and support as part of TB care, and the same logic applies to HIV and other chronic illness. Treatment of a cause rarely restores weight unless the patient also eats more.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Set a target and a plan</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Typical energy needs are about 25-35 kcal/kg/day (NICE). To gain weight, add roughly 500 kcal a day on top of what the patient actually eats, which gives about 0.5 kg a week. Faster is not better in a very thin patient.</li>
+      <li>Aim for protein of roughly 1 g/kg/day or more in illness, adjusted for kidney or liver disease.</li>
+      <li>Write the target weight and the date of the next weigh-in. Weigh every 1-2 weeks at first, then monthly.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Food first, with local foods</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Five or six small meals instead of two or three large ones. Keep snacks within reach.</li>
+      <li>Make the meals you already eat denser: add groundnut paste or oil, palm oil or vegetable oil, eggs, milk powder or soya flour to pap (ogi), custard, or soup.</li>
+      <li>Protein: beans (moi-moi, akara, ewa), eggs, fish, meat, milk, soya, groundnut, kuli-kuli, ugba. Combine cereals with beans.</li>
+      <li>Energy-dense snacks: avocado, plantain with groundnut, yam with egg sauce, bread with groundnut paste, fortified pap. Choose what is cheapest and available, and ask the family to share the plan.</li>
+      <li>Treat mouth sores, thrush and tooth pain, and give small frequent sips if swallowing hurts.</li>
+      <li>If money is the problem, involve the social worker or community support, and tell the patient which programme foods or supplements are available for TB or HIV in your area.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Refeeding precautions (high-risk patients)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Check potassium, magnesium, phosphate and glucose before feeding; correct low values.</li>
+      <li>Give thiamine and a vitamin B preparation before and for the first 10 days of feeding (table below).</li>
+      <li>Start low and build up: in patients who have not eaten for 5 days or more, give less than half of the usual needs for the first 2 days. In the extremely high-risk, NICE suggests starting at about 10 kcal/kg/day and increasing over 4-7 days.</li>
+      <li>Monitor glucose, electrolytes, fluid balance and pulse daily at first. New breathlessness, oedema, confusion or arrhythmia during feeding needs urgent review.</li>
+      <li>Do the severe cases in hospital with a dietitian and pharmacist where possible.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Medicines</strong>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Medicine</th><th class="py-2 pr-3">When</th><th class="py-2 pr-3">Typical adult dose</th><th class="py-2 pr-3">Cautions</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 align-top">Thiamine, with vitamin B co strong or a B-complex product</td><td class="py-2 pr-3 align-top">Refeeding-risk patients, before feeding</td><td class="py-2 pr-3 align-top">Thiamine 200-300 mg orally once daily plus vitamin B co strong 1-2 tablets three times daily, for the first 10 days (NICE)</td><td class="py-2 pr-3 align-top">Use IV thiamine only if the oral or enteral route is not available (BAPEN, SPS)</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Potassium, phosphate, magnesium</td><td class="py-2 pr-3 align-top">Low levels, or high refeeding risk</td><td class="py-2 pr-3 align-top">NICE ranges per kg per day: potassium 2-4 mmol, phosphate 0.3-0.6 mmol, magnesium 0.2-0.4 mmol</td><td class="py-2 pr-3 align-top">Hospital use, with daily levels; reduce in kidney disease</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Multivitamin and trace elements</td><td class="py-2 pr-3 align-top">High-risk patients and those with poor diet</td><td class="py-2 pr-3 align-top">One daily during the first 10 days of feeding, then as needed</td><td class="py-2 pr-3 align-top">Delay iron until feeding is established and infection is under control</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Oral nutritional supplement</td><td class="py-2 pr-3 align-top">MUST 2 or more, or BMI below 18.5 when food alone is not enough</td><td class="py-2 pr-3 align-top">Usually 2 servings a day between meals (about 300-600 kcal), where available</td><td class="py-2 pr-3 align-top">Should add to meals, not replace them; check diabetes and kidney status</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Albendazole</td><td class="py-2 pr-3 align-top">Suspected or endemic intestinal worms, eosinophilia, worm ova on stool</td><td class="py-2 pr-3 align-top">400 mg single dose</td><td class="py-2 pr-3 align-top">Avoid in pregnancy unless advised</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Disease-specific treatment</td><td class="py-2 pr-3 align-top">TB, HIV, diabetes, thyroid disease, H. pylori, hepatitis B</td><td class="py-2 pr-3 align-top">Follow current FMOH protocols (NTBLCP for TB, NASCP for HIV). For H. pylori, 14 days of quadruple therapy is preferred in Africa.</td><td class="py-2 pr-3 align-top">Nausea and liver injury from TB drugs can themselves worsen intake</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Iron, B12, folate, vitamin D</td><td class="py-2 pr-3 align-top">Documented deficiency</td><td class="py-2 pr-3 align-top">Replace according to the deficiency found</td><td class="py-2 pr-3 align-top">Find and treat the cause of the deficiency</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Mirtazapine</td><td class="py-2 pr-3 align-top">Depression with poor appetite and insomnia</td><td class="py-2 pr-3 align-top">15 mg at night, up to 30 mg (doses used in trials)</td><td class="py-2 pr-3 align-top">Sedation, dizziness, low sodium. In cancer cachexia it was less effective than megestrol.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Megestrol acetate</td><td class="py-2 pr-3 align-top">Cancer or HIV anorexia-cachexia, specialist-led</td><td class="py-2 pr-3 align-top">Oral suspension 400-800 mg daily has been studied in older adults; trials used lower tablet doses in cancer. Start low.</td><td class="py-2 pr-3 align-top">Improves appetite and gives a small weight gain, but no proven survival benefit. Risks: thrombosis, adrenal suppression, fluid retention, high glucose.</td></tr>
+          <tr><td class="py-2 pr-3 align-top">Dexamethasone</td><td class="py-2 pr-3 align-top">Short-term appetite support in advanced cancer</td><td class="py-2 pr-3 align-top">4 mg daily was used in trials</td><td class="py-2 pr-3 align-top">Short courses only: high glucose, infection, muscle weakness, mood change</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm"><strong>Not recommended.</strong> Hydrazine sulphate has no benefit. Appetite stimulants have not been shown to reduce mortality in unintentional weight loss, so they are not first-line, especially in frail older adults. Avoid unregulated "weight gain" products of unknown content.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to admit or refer</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>BMI below 16 with any red flag, or extremely high refeeding risk.</li>
+      <li>Cannot swallow, persistent vomiting, severe diarrhoea, dehydration, shock.</li>
+      <li>Abnormal electrolytes, glucose, or organ failure.</li>
+      <li>Suspected cancer needing biopsy, endoscopy or imaging.</li>
+      <li>Suicide risk, or refusal of food and fluids.</li>
+      <li>Failure to gain weight after 4-8 weeks of adequate intake and treatment of the cause: re-take the history, review adherence and food access, and refer.</li>
+    </ul>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="summary-and-worked-example" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+    Summary and Worked Example
+  </h2>
+  <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm"><strong>Presentation.</strong> A 34-year-old woman, a market trader, presents with 4 months of weight loss, from 62 kg to 52 kg, with night sweats and a cough for 5 weeks. Appetite is poor. She eats once or twice a day. No diarrhoea or dysphagia. Her husband died last year. She has used a herbal mixture for the cough.</p>
+    <p class="text-sm"><strong>Calculations.</strong> Weight loss is (62 &minus; 52) &divide; 62 = 16.1%. Height 1.65 m, so BMI now is 52 &divide; 2.7225 = 19.1 kg/m&sup2; (previously 22.8). MUST: BMI 18.5-20 scores 1, weight loss above 10% scores 2, acute disease 0, total 3 = high risk. Weight loss above 15% in 3-6 months places her in the NICE high refeeding-risk group.</p>
+    <p class="text-sm"><strong>Plan.</strong> Sputum Xpert MTB/RIF, chest X-ray, HIV test with counselling, glucose, FBC, LFT, urea and electrolytes. Check potassium, magnesium and phosphate before feeding. Give thiamine and a B-complex preparation before starting. Start small frequent meals with added groundnut paste and oil, build up over days, and weigh weekly. If TB or HIV is confirmed, start treatment under national protocols and enrol her in the nutritional support available. Ask about mood and bereavement, and about money for food. Review in 1 week.</p>
+  </div>
+  
+  <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-resources" style="scroll-margin-top:1.5rem;">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+    Videos and Resources
+  </h2>
+  <div class="space-y-3 mb-6">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; MUST screening video series (introduction, alternative BMI calculation, case studies), NHS Torbay and South Devon: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.torbayandsouthdevon.nhs.uk/services/nutrition-dietetics/support-videos/for-carers-and-health-care-professionals/must-screening/" target="_blank" rel="noopener">torbayandsouthdevon.nhs.uk</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; Unintentional weight loss history taking, OSCE guide, Geeky Medics: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://geekymedics.com/unintentional-weight-loss-history-taking-osce-guide/" target="_blank" rel="noopener">geekymedics.com</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; MUST OSCE guide, Geeky Medics: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://geekymedics.com/malnutrition-universal-screening-tool-must-osce-guide/" target="_blank" rel="noopener">geekymedics.com</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; BAPEN MUST explanatory booklet: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.bapen.org.uk/screening-and-must/must/must-toolkit/the-must-explanatory-booklet" target="_blank" rel="noopener">bapen.org.uk</a> and the online MUST calculator: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.bapen.org.uk/must-and-self-screening/must-calculator/" target="_blank" rel="noopener">bapen.org.uk</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; BAPEN guidance on thiamine replacement in refeeding syndrome (PDF): <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.bapen.org.uk/wp-content/uploads/2024/05/guidance-on-thiamine-replacement-in-refeeding-syndrome.pdf" target="_blank" rel="noopener">bapen.org.uk</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; Nutritional examination checklist (OSCE and MRCP PACES), Oxford Medical Education: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.oxfordmedicaleducation.com/wp-content/uploads/2015/10/Nutritional-examination.pdf" target="_blank" rel="noopener">oxfordmedicaleducation.com</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; Unintentional weight loss in older adults (review with tables of causes and tests), American Family Physician: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.aafp.org/pubs/afp/issues/2014/0501/p718.html" target="_blank" rel="noopener">aafp.org</a></div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; GLIM framework infographic (PDF): <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.anhi.org/content/dam/an/anhi/pdf/GLIM%20Framework%20for%20Malnutrition%20Screening,%20Assessment,%20Diagnosis_Final_2026.pdf" target="_blank" rel="noopener">anhi.org</a></div>
+  </div>
+  
+  <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+    <strong class="block font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</strong>
+    <ul class="space-y-2 text-slate-700 dark:text-slate-300">
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm weight loss with measured weights, and calculate the percentage lost. More than 5% in 6-12 months needs evaluation.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Appetite is the best first pivot: preserved appetite points to diabetes, thyroid, malabsorption and worms; poor appetite points to TB, HIV, cancer, depression and organ failure.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In Nigeria, always test for TB and HIV (with consent), and ask about food security, herbal products and depression.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Score risk with MUST and the NICE refeeding criteria. BMI below 16, more than 15% weight loss, or 5-10 days without food mean thiamine and electrolytes before feeding, and a slow start.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Start with cheap baseline tests and a chest film. If they are normal, watch with repeated weights for 1-6 months rather than ordering everything.</span></li>
+      <li class="flex items-start gap-2 text-sm"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat the cause and feed at the same time. Food first, with energy-dense local foods; supplements when food is not enough; appetite stimulants are second-line and specialist-led.</span></li>
+    </ul>
+  </div>
+  
+  <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+    <summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-stone-700 dark:text-stone-300">
+      References
+      <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+    </summary>
+    <div class="px-4 pb-4 space-y-1">
+      <p class="text-[10px] leading-snug text-stone-500">1. BAPEN Malnutrition Advisory Group. The MUST Explanatory Booklet: a guide to the Malnutrition Universal Screening Tool for adults.</p>
+      <p class="text-[10px] leading-snug text-stone-500">2. National Institute for Health and Care Excellence (NICE). Clinical Guideline CG32: Nutrition support for adults (oral nutrition support, enteral tube feeding and parenteral nutrition), including refeeding risk criteria and thiamine prescribing.</p>
+      <p class="text-[10px] leading-snug text-stone-500">3. BAPEN and Specialist Pharmacy Service (NHS). Guidance on thiamine replacement in patients at risk of refeeding syndrome, 2024.</p>
+      <p class="text-[10px] leading-snug text-stone-500">4. Global Leadership Initiative on Malnutrition (GLIM). Consensus criteria for the diagnosis of malnutrition, with ESPEN fact sheet and severity grading.</p>
+      <p class="text-[10px] leading-snug text-stone-500">5. World Health Organization. BMI classification of adults. WHO guideline on nutritional care and support for patients with tuberculosis (2013). WHO clinical staging of HIV disease.</p>
+      <p class="text-[10px] leading-snug text-stone-500">6. American Academy of Family Physicians. Unintentional weight loss in older adults. American Family Physician, 2014.</p>
+      <p class="text-[10px] leading-snug text-stone-500">7. Cochrane Collaboration. Megestrol acetate for treatment of anorexia-cachexia syndrome (2013). American Society of Clinical Oncology guideline on management of cancer cachexia (2020) and rapid recommendation update (2023).</p>
+      <p class="text-[10px] leading-snug text-stone-500">8. Federal Ministry of Health, Nigeria. National Tuberculosis and Leprosy Control Programme (NTBLCP) and National AIDS and STIs Control Programme (NASCP) guidelines, current editions.</p>
+    </div>
+  </details>
+  
+  </div>
+  </body>
+  </html>
+      `
+  },
+
+
 ];

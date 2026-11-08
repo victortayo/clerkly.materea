@@ -52,7 +52,7 @@ export function Hero({
               clerkly
             </h1>
             <span className="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2 py-1 rounded-full">
-              beta v0.3
+              beta v0.2
             </span>
           </div>
           <p className="text-slate-400 dark:text-slate-500 text-sm sm:text-base font-medium tracking-[0.2em] uppercase">

@@ -433,7 +433,7 @@ export function GeminiClerking({ isOpen, onClose, onOpen, onOpenGame, onOpenLear
                                 disabled={followUpLoading || !followUpInput.trim()}
                                 className="p-3 bg-indigo-950 hover:bg-black text-white rounded-xl font-bold transition-all active:scale-95 flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
                             >
-                                <i className="fa-solid fa-paper-plane"></i>
+                                <i className="fa-solid fa-chevron-right"></i>
                             </button>
                         </div>
                     </div>
